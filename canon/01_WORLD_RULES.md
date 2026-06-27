@@ -2,7 +2,7 @@
 
 ## Nation Structure
 
-- Eidolon currently has **one nation**.
+- Eidolon currently has **one nation**. It's name is Erzengel.
 - City-states are civic / administrative powers inside the larger world structure, not separate sovereign nations.
 - The Meridian Accord is a guild / accord structure, not the nation itself.
 - Regional identities, city cultures, and faction pressures still matter, but they do not override the one-nation rule.
@@ -11,7 +11,7 @@
 
 - Primary supercontinent: **Aurreth**.
 - Major island groups include Aquila Matara Island, the Dragon Isles / Emberwake, Southhook Archipelago, and Mirror Reef Isles.
-- One obelisk exists at the exact center of each city.
+- One beacon (a tall obelisk structure that basically has some kind of light source or way to project light from the top so it would shine around the city and light a sky) exists at the exact center of each city.
 - The Citadel is the government landmark.
 
 ## Conjunction Structure
@@ -21,12 +21,13 @@
 - Month structure: 25-day Conjunction + 3 days off.
 - Final / 18th Conjunction may use expanded 28-day logic plus final-day resolution.
 - Beacon colors:
-  - Purple: prepare / announcement.
+  - Purple: 48- hours countdown prepare / announcement.
   - Blue: 24-hour countdown.
   - Green: onset.
   - Yellow: checkpoint.
   - Orange: objective completion.
-  - Red: final countdown, pulsing.
+  - Red: objective complete witness ready for battle. 
+  - Red, pulsing: final countdown, pulsing.
 
 ## Days
 
