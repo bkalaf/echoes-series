@@ -18,6 +18,9 @@
 ## Conjunction Structure
 
 - There are **18 Conjunctions** across the series.
+- Conjunctions simply put are the aligning of the three moons of Eidolon.
+- As written in Erzengel's Charter: conjunctions are periods where political parties may choose to transfer power. The method of determining that transfer is up to the participants of the conjunction. at the end of the conjunction cycle The political party with the most city-states under their control is elected high sovereign and in the case of a tie there's no transfer of power there must be somebody in the lead. 
+- History tells them that conjunctions quickly devolved into periods of lawlessness or deception, sabotage, assassination, brutal authoritarian crackdowns, famines, and natural disasters tended to occur causing shifts of power. There hasn't been a conjunction for a thousand years when the series starts. Dovren the 33rd declared that he had solved the mysteries of the conjunction and stopped them and had demanded worship for such an act. Thus the Church of the 73rd. The 73rd is a reference to the longest Royal line on Earth which is 72 that Dovren intends to beat.
 - Standard Conjunction: **25 days**.
 - Month structure: 25-day Conjunction + 3 days off.
 - Final / 18th Conjunction may use expanded 28-day logic plus final-day resolution.
