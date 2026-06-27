@@ -3,8 +3,9 @@
 ## Nation Structure
 
 - Eidolon currently has **one nation**. It's name is Erzengel.
-- City-states are civic / administrative powers inside the larger world structure, not separate sovereign nations.
-- The Meridian Accord is a guild / accord structure, not the nation itself.
+- City-states were the driving civic grouping when the nation was founded 2,000 years ago. they were the primary civic / administrative powers inside the larger world structure, not separate sovereign nations. over time, however, these city-states split apart twice into three distinct cities. 
+- Erzengel started as 24 city states but now are 72 independent cities, with one governing City, Aquila Matara, that was constructed for the sole purpose of a federal government during the first high sovereigns reign, Dovren I.
+- The Meridian Accord is a guild, specifically Addie's guild, not the nation itself.
 - Regional identities, city cultures, and faction pressures still matter, but they do not override the one-nation rule.
 
 ## Continent and Geography
