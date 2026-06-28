@@ -180,13 +180,17 @@ See [World Rules](./01_WORLD_RULES.md) for the full naming structure.
 - Identity and presentation must remain consistent with the current chapter's canon layer.
 - Do not over-explain the Hans / Overseer / Mother connection too early.
 
-### High Sovereign Donvaris Q. Drumpf
+### High Sovereign Dovren Judax Thorne
 
-- The Mad King.
-- DJT coin acronym: Judax Tyrannis.
+- The Mad King / High Sovereign name authority.
+- Current authority replaces older `Donvirus`, `Donvaris`, `Don Boris`, and `Donvaris Q. Drumpf` forms.
+- **Dovren Judax Thorne** is the name used by every High Sovereign in the ruling line for the past 2,000 years.
+- Each ruler in the line lives to be exactly 100 years old.
+- When prose needs a specific ruler, distinguish by number/regnal identifier rather than changing the base name.
+- The repeated-name lineage is part of the dynasty logic and should support the 72nd/73rd-name trap and succession mystery.
 - Not secretly harmless.
 - Morally compromised and self-preserving.
-- His family parallels should inform characterization but not turn scenes into direct parody unless explicitly requested.
+- Trump-family / authoritarian parallels may inform characterization, but the locked in-world name is **Dovren Judax Thorne**.
 
 ## Book 01 Supporting Cast — Guard Detail / Beacon Escort
 
