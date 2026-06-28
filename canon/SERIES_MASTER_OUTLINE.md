@@ -105,6 +105,7 @@ Book 01 draft files are compiled in the order below. Draft filenames are stable 
 | B01.010 | 01_01 | The Royal Astronomer’s Tower | [draft](../drafts/01_01_the_royal_astronomers_tower.md) | Parsed | Parent chapter with visible subchapters: The Zero-Variance Solstice; Factional Mistrust. Introduces Miriam, the purple beacon, Overseer, faction triangle, Moderator nomination crisis. |
 | B01.020 | 01_02 | The Nomination | [draft](../drafts/01_02_the_nomination.md) | Parsed | Parent chapter with visible subchapters: The Gale Exposition; With Kwame. Introduces Addie’s private life, hair clip / Mark of the Orbs, purple dispatch, and Kwame’s signed nomination reveal. |
 | B01.030 | 01_03 | The Witnesses | [draft](../drafts/01_03_the_witnesses.md) | Parsed | Standalone metaphysical parent chapter with visible subchapters: The Scene Between Stories; The Addendums; The Ballot; The First Shot. Mother’s shot is intentionally vague here; the consequence becomes readable in the next Addie chapter. |
+| B01.040 | 01_04 | The Weight of the Beacon | [draft](../drafts/01_04_the_weight_of_the_beacon.md) | Parsed | Parent chapter folding old manuscript movements: The Weight of the Beacon; The Logic of the Unbelievable; Geometry and Mathematics. Introduces Talandra’s detail, Boss/Barry, Brickett, the impossible brick, pawn-shop proof, and the Mark of the Orbs match. |
 
 ## Book 01 Stub Slots
 
@@ -125,9 +126,6 @@ The manuscript currently contains additional chapter material not yet fully pars
 
 Known upcoming manuscript headings include:
 
-- The Weight of the Beacon
-- The Logic of the Unbelievable
-- Geometry and Mathematics
 - The Core of the Conjunction
 - The Three Hundred Steps
 - The Weight of the Roster
