@@ -244,7 +244,7 @@ Crosslinks:
 | # | Council Member / Architect | Role | Core Value Defended | Later Witness | Accent / Cultural Influence |
 |---:|---|---|---|---|---|
 | 1 | José Mateo Navarro | Assistant / operational support | Human dignity; people are never cargo | Horror / Regret | Mexican |
-| 2 | Hans Halcyon; Franklin Emmett Vale later inherits wound | Recovery / practical patron voice | Humanity must remain worthy of survival; recovery must include more than bare survival | Revel / Laughter | Franklin/Revel: Australian; Hans separately old-world/Germanic where active |
+| 2 | Hans Halcyon Hohenzollern; Franklin Emmett Vale later inherits wound | Recovery / practical patron voice | Humanity must remain worthy of survival; recovery must include more than bare survival | Revel / Laughter | Franklin/Revel: Australian; Hans separately old-world/Germanic where active |
 | 3 | Seraphine Iris Delacroix | Legislator | Transparent law and accountable governance | Crown | Aristocratic French |
 | 4 | Magnus Evren Korr | Preservationist | Meaning-bearing objects, rituals, and continuity | Stone | Nordic mountain |
 | 5 | Mireya Celeste Navarro | Surgeon | Medicine cannot reduce people to parts | Mercy | Mexican-Latin |
