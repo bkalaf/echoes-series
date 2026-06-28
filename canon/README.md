@@ -16,7 +16,8 @@ The current goal is not only to preserve world canon, but also to make chapter c
 - `07_CONTINUITY_LEDGER.md` — continuity warnings and unresolved items.
 - `08_RESEARCH_REFERENCES.md` — WWII, science, myth, and atrocity reference structure.
 - `09_STYLE_AND_PROSE_RULES.md` — prose and drafting rules.
-- `14_VISUAL_BIBLE_IMAGE_PASS.md` — visual-reference layer for characters, settings, Witnesses, constellations, and symbolic object language. This file does not replace character/world/reward canon; it links into those sections.
+- `14_VISUAL_BIBLE_IMAGE_PASS.md` — synthesized visual-reference layer for characters, settings, Witnesses, constellations, and symbolic object language. This file does not replace character/world/reward canon; it links into those sections.
+- `15_IMAGE_UPLOAD_REGISTER.md` — comprehensive ledger of every uploaded image batch so visual references are not lost or reduced to only the highlighted examples.
 
 ## Top Rule
 
