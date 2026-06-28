@@ -14,7 +14,7 @@ The old manuscript headings `The Core of the Conjunction` and `The Three Hundred
 ## Visible Subchapters
 1. The Blue Beacon
 2. Compulsory and Optional
-3. Verrick Venom-Blade
+3. Verrick B. Knackle
 4. The Three Hundred Steps
 5. The Silent Applause
 
@@ -33,7 +33,7 @@ This chapter turns Addie from a frightened, guarded nominee into a continent-fac
 ## POV / Narrative Mode
 Primarily close third on Adeshka “Addie” H. Sonntag.
 
-Final post-speech beat briefly shifts observational weight toward Talandra and Verrick as they evaluate the political and cosmic implications of what Addie just did.
+Final post-speech beat briefly shifts observational weight toward Major Tallandra and Verrick as they evaluate the political and cosmic implications of what Addie just did.
 
 ## Timeline Position
 Immediately after `The Weight of the Beacon`, beginning in the Skyrend Peak pawn shop and ending at the top of the Three Hundred Steps in Aquila Matara before Addie enters the Conclave High Assembly.
@@ -50,12 +50,12 @@ Immediately after `The Weight of the Beacon`, beginning in the Skyrend Peak pawn
 
 ## Cast Present
 - Adeshka “Addie” H. Sonntag.
-- Captain Talandra H. Highwatch.
+- Major Tallandra H. Highwatch.
 - Lieutenant Barry C. Bristleback, boar-kin Concord guard.
 - Lieutenant Boss R. Grizzlepelt, bear-kin Concord guard.
-- Brickett H., raccoon-kin orphan / personal attaché.
+- Brickett H., fourteen-year-old raccoon-kin orphan / personal attaché.
 - Officer Rennick T. Quickreed, jackrabbit-kin Concord relay officer.
-- Verrick Venom-Blade, gnome Ruin / Speaker-linked operative.
+- Verrick B. Knackle, gnome Ruin operative and Venom-Blade member.
 - Ruin mages on carpets.
 - Elderly portal mages.
 - Erin P. Callahan, human reporter.
@@ -67,10 +67,13 @@ Immediately after `The Weight of the Beacon`, beginning in the Skyrend Peak pawn
 - Venom-Blade / Ruin escort contingent.
 
 ## Naming / Continuity Notes
-- Correct manuscript spelling **Tallandra** to **Talandra** throughout.
-- Brickett’s locked age is sixteen, not fourteen.
+- **Tallandra** is the correct spelling. Do not correct it to Talandra. Mnemonic: she is tall.
+- Tallandra’s rank is **Major**, not Captain.
+- Brickett’s locked age is fourteen, not sixteen.
 - Portalport / Portal Port spelling should be standardized before prose lock.
-- Verrick currently introduces himself as `Verrick Venom-Blade`. Before final prose lock, decide whether formal records should give him a non-H middle initial under the Eidolon naming rule. His casual self-introduction may omit it because he is irreverent and performing.
+- Verrick’s full name is **Verrick B. Knackle**.
+- **Venom-Blade is not Verrick’s surname.** The Venom-Blades are a secret Ruin faction organization mostly known for assassinations. Verrick and Lady Mae are both members.
+- Verrick may perform affiliation more loudly than surname in dialogue, but the outline and formal canon should use Verrick B. Knackle.
 - Erin P. Callahan and Tamsin R. Hale already fit the formal middle-initial pattern.
 - Do not make the H pattern conspicuous here.
 
@@ -97,14 +100,15 @@ Immediately after `The Weight of the Beacon`, beginning in the Skyrend Peak pawn
 - Beacon answer / blue confirmation.
 
 ## Preserve Skeleton?
-Yes. Preserve the full public escalation, the blue-beacon rule reveal, Brickett reading the scroll, Ruin’s unexpected assist, Verrick’s introduction, Aquila Matara arrival, Addie’s refusal to climb silently, the protected speech, silent applause, and the post-speech Talandra/Verrick analysis.
+Yes. Preserve the full public escalation, the blue-beacon rule reveal, Brickett reading the scroll, Ruin’s unexpected assist, Verrick’s introduction, Aquila Matara arrival, Addie’s refusal to climb silently, the protected speech, silent applause, and the post-speech Tallandra/Verrick analysis.
 
 ## Allowed Changes
 - Fold the two manuscript headings into one parent chapter.
-- Correct Talandra spelling.
-- Correct Brickett’s age to sixteen.
+- Preserve Tallandra spelling and Major rank.
+- Preserve Brickett’s age as fourteen.
 - Standardize guard names from character canon.
 - Treat Addie’s speech as a protected insert rather than rewriting it.
+- Correct Verrick to Verrick B. Knackle and treat Venom-Blade as organizational affiliation.
 - Tighten transitions around Portalport / Aquila Matara if needed, but not by removing core political or cosmic information.
 
 ## Not Allowed Changes
@@ -120,7 +124,7 @@ Yes. Preserve the full public escalation, the blue-beacon rule reveal, Brickett 
 - Do not remove Ruin assisting instead of attacking.
 - Do not remove Verrick’s entrance.
 - Do not remove the Speaker using Ruin because Concord may not be fast enough.
-- Do not remove Talandra defining pacify as nonlethal.
+- Do not remove Tallandra defining pacify as nonlethal.
 - Do not remove Aquila Matara’s cold planned architecture.
 - Do not remove the 72 / 73rd City political explanation.
 - Do not remove the reporters.
@@ -130,9 +134,9 @@ Yes. Preserve the full public escalation, the blue-beacon rule reveal, Brickett 
 - Do not remove the silent applause.
 - Do not remove the Titanborn initiating the applause.
 - Do not remove the beacon turning / answering the applause.
-- Do not remove Talandra’s wing on Addie’s shoulder.
+- Do not remove Tallandra’s wing on Addie’s shoulder.
 - Do not remove Addie’s nausea and fear of vomiting on imperial stonework / rug.
-- Do not remove Verrick and Talandra’s final realization that the cosmic entity also applauded.
+- Do not remove Verrick and Tallandra’s final realization that the cosmic entity also applauded.
 
 ---
 
@@ -145,11 +149,11 @@ Open in the pawn shop and transform the group’s immediate concern from persona
 1. Addie watches the afternoon light from the pawn-shop window and asks the time.
 2. Officer Rennick T. Quickreed answers that it is Hour of the Sphinx, probably on the way to Singularity.
 3. Addie freezes because Singularity has historical Conjunction significance.
-4. Talandra notices the fear and asks what changed.
+4. Tallandra notices the fear and asks what changed.
 5. Addie explains that the beacons are signals and that the historical record is definitive about purple and blue.
 6. Purple formally commences the multi-Conjunction cycle / countdown phase.
 7. Blue marks the handoff into active operational reality.
-8. Talandra, Barry, and Boss initially do not understand the historical / astronomical stakes.
+8. Tallandra, Barry, and Boss initially do not understand the historical / astronomical stakes.
 9. Brickett casually understands and connects forty-eight-minus-twenty-four logic.
 10. Brickett adds that the scroll’s language was literal: the Overseer will come after the Blue Beacon to collect Addie.
 11. The room goes quiet because Brickett should not know the scroll language.
@@ -158,7 +162,7 @@ Open in the pawn shop and transform the group’s immediate concern from persona
 14. Brickett deflects with good ears and overheard whispering.
 15. Brickett also notices Boss’s hunger.
 16. Boss admits he missed lunch during the door incident.
-17. Talandra cuts off the bickering and orders movement.
+17. Tallandra cuts off the bickering and orders movement.
 
 ## Required Dialogue Intentions
 | Speaker | Dialogue Intention | Verbatim? |
@@ -169,7 +173,7 @@ Open in the pawn shop and transform the group’s immediate concern from persona
 | Brickett | Repeats / references the Overseer collecting Addie. | No |
 | Barry | Challenges how Brickett knows the destination. | No |
 | Brickett | Deflects with hearing / overheard whispers. | No |
-| Talandra | Ends the pawn-shop delay and orders movement. | No |
+| Tallandra | Ends the pawn-shop delay and orders movement. | No |
 
 ## Subchapter Exit Condition
 The group understands that blue-beacon activation is imminent and that staying still is no longer safe.
@@ -195,7 +199,7 @@ Move from private realization to public system activation. The scrolls appear, B
 11. Crimson wax seals catch fire without consuming the vellum.
 12. Scrolls unfurl simultaneously.
 13. Barry and Boss lift Addie and sprint toward Portalport.
-14. Talandra carries Brickett by the scruff to keep his smell away from her armor.
+14. Tallandra carries Brickett by the scruff to keep his smell away from her armor.
 15. Brickett enjoys the velocity and yells nonsense.
 16. Addie orders Brickett to read the scroll aloud.
 17. Brickett reads the announcement: final multi-Conjunction cycle before reunification.
@@ -214,7 +218,7 @@ Move from private realization to public system activation. The scrolls appear, B
 30. Luggage, bottles, and stones rain down.
 31. Barry sees movement above.
 32. Ruin mages descend on carpets.
-33. Talandra assumes attack and orders crossbows.
+33. Tallandra assumes attack and orders crossbows.
 34. Addie realizes Ruin is not attacking the escort.
 35. Ruin mages cast sleep magic over rioting civilians and protect themselves with a kinetic barrier.
 36. The escort uses the opening to reach the restricted transit corridor and slam the gates shut.
@@ -226,7 +230,7 @@ Move from private realization to public system activation. The scrolls appear, B
 | Brickett | Reads the scroll announcement aloud while being carried. | No |
 | Addie | Objects to “compulsory and optional.” | Close. |
 | Brickett | Sees Addie’s numeric slot and his alpha slot. | No |
-| Talandra | Assumes Ruin is attacking and orders weapons. | No |
+| Tallandra | Assumes Ruin is attacking and orders weapons. | No |
 | Addie | Stops the misread by saying Ruin is not targeting them. | No |
 
 ## Subchapter Exit Condition
@@ -234,7 +238,7 @@ Addie has learned the returned system publicly names her and Brickett, and the c
 
 ---
 
-# Subchapter 3 — Verrick Venom-Blade
+# Subchapter 3 — Verrick B. Knackle
 
 ## Subchapter Function
 Introduce Verrick and show that the capital’s factions are already improvising around each other. Ruin’s apparent attack becomes a political assist from the Speaker, proving that the normal order is breaking before Addie even reaches Aquila Matara.
@@ -246,35 +250,36 @@ Introduce Verrick and show that the capital’s factions are already improvising
 4. He mocks the escort for taking so long.
 5. Addie is set down because Barry and Boss have been carrying her.
 6. Guards inside the station are uneasy but compliant with the gnome.
-7. The gnome introduces himself as Verrick Venom-Blade.
-8. Verrick says the Speaker of the Conclave sent him to assist in getting Addie to the Seat of Power.
-9. Verrick implies the Speaker worried the Concord detachment got lost, distracted, or killed using standard channels.
-10. Talandra steps into his space and rejects help from a guild of shin-stabbers.
-11. Verrick points out she looks injured, dusty, and undignified.
-12. Addie cuts through the bickering.
-13. Addie identifies the real political implication: the Speaker reached out to Ruin because she did not trust Concord to be fast enough.
-14. Addie says the political balance in the capital is already breaking and orders them to move.
-15. The group descends to the secure platform.
-16. The portal to Aquila Matara is already open and unobstructed.
-17. Elderly portal mages strain to keep the mass-transit connection stable.
-18. Verrick steps through first with a mock salute.
-19. Talandra orders the rest of the regiment to stay in Skyrend and pacify the crowd.
-20. Verrick pops back through the portal to needle the word pacify because in a Conjunction that word has bloody history.
-21. Talandra clarifies she means nonlethal control.
-22. Talandra tells her officers anyone who kills civilians unnecessarily answers to her and her talons.
-23. Addie recognizes this is ancient bloody machinery coming back to life.
+7. The gnome introduces himself as Verrick B. Knackle.
+8. Verrick’s Venom-Blade affiliation can be implied through reputation, dagger-work, or Ruin reaction, but Venom-Blade is not his surname.
+9. Verrick says the Speaker of the Conclave sent him to assist in getting Addie to the Seat of Power.
+10. Verrick implies the Speaker worried the Concord detachment got lost, distracted, or killed using standard channels.
+11. Tallandra steps into his space and rejects help from a guild of shin-stabbers.
+12. Verrick points out she looks injured, dusty, and undignified.
+13. Addie cuts through the bickering.
+14. Addie identifies the real political implication: the Speaker reached out to Ruin because she did not trust Concord to be fast enough.
+15. Addie says the political balance in the capital is already breaking and orders them to move.
+16. The group descends to the secure platform.
+17. The portal to Aquila Matara is already open and unobstructed.
+18. Elderly portal mages strain to keep the mass-transit connection stable.
+19. Verrick steps through first with a mock salute.
+20. Tallandra orders the rest of the regiment to stay in Skyrend and pacify the crowd.
+21. Verrick pops back through the portal to needle the word pacify because in a Conjunction that word has bloody history.
+22. Tallandra clarifies she means nonlethal control.
+23. Tallandra tells her officers anyone who kills civilians unnecessarily answers to her and her talons.
+24. Addie recognizes this is ancient bloody machinery coming back to life.
 
 ## Required Dialogue Intentions
 | Speaker | Dialogue Intention | Verbatim? |
 |---|---|---|
 | Verrick | Mockingly asks whether they need a break / chair / water. | No |
 | Verrick | Introduces himself and cites Speaker authority. | No |
-| Talandra | Rejects Ruin help. | No |
+| Tallandra | Rejects Ruin help. | No |
 | Verrick | Mocks Concord competence. | No |
 | Addie | Cuts through bickering and identifies the political break. | No |
-| Talandra | Orders Skyrend crowd pacification. | No |
+| Tallandra | Orders Skyrend crowd pacification. | No |
 | Verrick | Challenges the word pacify. | No |
-| Talandra | Clarifies nonlethal intent. | No |
+| Tallandra | Clarifies nonlethal intent. | No |
 
 ## Subchapter Exit Condition
 Addie leaves Skyrend Peak through the portal knowing the capital is already using factional workarounds and that the Conjunction is reviving old political violence as well as old cosmic rules.
@@ -293,7 +298,7 @@ Move from Skyrend chaos to capital ceremony. The scale expands from city panic t
 4. The crowd here is silent rather than openly violent.
 5. Addie sees the same scrolls everywhere, proving the notice deployed across the continent at once.
 6. The path from Portalport to the Seat of the 72 is direct.
-7. Addie walks on her own feet again, flanked by Barry, Boss, and Talandra; Verrick and Ruin escorts shadow the columns.
+7. Addie walks on her own feet again, flanked by Barry, Boss, and Tallandra; Verrick and Ruin escorts shadow the columns.
 8. Addie mentally reviews the Conclave’s seventy-two-city structure.
 9. The original twenty-four city-states fractured into three administrative zones each, segregating human, beast, and mythos populations.
 10. Addie notes the official story claims balance, but the lived reality strips legal standing and voting power from minority populations living in the “wrong” designation.
@@ -307,11 +312,11 @@ Move from Skyrend chaos to capital ceremony. The scale expands from city panic t
 18. Erin P. Callahan asks palace-flattering questions about High Sovereign generosity.
 19. Tamsin R. Hale asks hostile radical-broadsheet questions about Addie manipulating Concord and being drug dependent.
 20. Addie takes H&H and keeps moving.
-21. Brickett is unconscious against Talandra’s side; preserve his locked age as sixteen.
+21. Brickett is unconscious against Tallandra’s side; preserve his locked age as fourteen.
 22. They reach the base of the Three Hundred Steps.
 23. Addie sees the climb and dreads vomiting.
 24. A red-haired woman in the front of the crowd screams: why will no one tell them anything?
-25. Verrick and Talandra both tell Addie to keep moving.
+25. Verrick and Tallandra both tell Addie to keep moving.
 26. Addie stops.
 27. Addie recognizes that if she is to be their puppet, she will do it her way.
 28. Addie walks toward the golden shield wall.
@@ -347,7 +352,7 @@ The speech’s essential function:
 | Erin P. Callahan | Palace-flattering planted question. | No |
 | Tamsin R. Hale | Hostile question accusing Addie of manipulation / drug dependence. | No |
 | Red-haired woman | Demands to know why no one will tell them anything. | No / close |
-| Addie | Tells Talandra and Verrick she needs a minute. | No |
+| Addie | Tells Tallandra and Verrick she needs a minute. | No |
 | Addie | Threatens the shield guard with psychic fear playback. | Close. |
 | Addie | Protected speech. | Protected baseline. |
 
@@ -359,7 +364,7 @@ Addie has publicly chosen transparency over controlled institutional handoff, an
 # Subchapter 5 — The Silent Applause
 
 ## Subchapter Function
-Show the speech’s effect without over-explaining it. The crowd answers through a silent civic gesture, Talandra unexpectedly affirms Addie, and the beacon’s response implies the Conjunction system itself has registered the moment.
+Show the speech’s effect without over-explaining it. The crowd answers through a silent civic gesture, Tallandra unexpectedly affirms Addie, and the beacon’s response implies the Conjunction system itself has registered the moment.
 
 ## Beat-by-Beat Skeleton
 1. After Addie stops speaking, the plaza remains silent.
@@ -373,47 +378,47 @@ Show the speech’s effect without over-explaining it. The crowd answers through
 9. Addie turns back toward the steps.
 10. Brickett, awake now, cries openly through the soot on his face.
 11. Barry and Boss stand still with heads lowered, hands raised and rotating.
-12. Talandra’s hands are raised too.
+12. Tallandra’s hands are raised too.
 13. Verrick and his detachment also join the gesture.
 14. The journalists lower their notebooks and join.
 15. Addie takes H&H because her body is crashing.
-16. Talandra approaches with deliberate care.
-17. Talandra rests her good wing lightly against Addie’s shoulder.
+16. Tallandra approaches with deliberate care.
+17. Tallandra rests her good wing lightly against Addie’s shoulder.
 18. Addie is surprised by the warmth.
-19. Talandra sincerely says the speech was really something.
-20. Addie asks Talandra to get her up the steps before she vomits on imperial stonework.
+19. Tallandra sincerely says the speech was really something.
+20. Addie asks Tallandra to get her up the steps before she vomits on imperial stonework.
 21. Addie’s knees buckle.
-22. Talandra whistles.
+22. Tallandra whistles.
 23. Barry and Boss lift Addie and carry her up the steps toward the Conclave doors.
 24. Addie thinks she may be on every broadsheet tomorrow, either for the speech or for vomiting on the High Sovereign’s rug.
-25. Talandra stays outside briefly and watches the crowd continue the silent applause.
+25. Tallandra stays outside briefly and watches the crowd continue the silent applause.
 26. Verrick joins her.
 27. Verrick calculates what Addie just did: methodological, political, factional, etymological, public, historically quotable.
-28. Talandra agrees.
+28. Tallandra agrees.
 29. Verrick says Addie is not what the Speaker expected.
-30. Talandra agrees.
+30. Tallandra agrees.
 31. Verrick says this will be a problem for some people.
-32. Talandra observes that the beacon turned the moment the Titanborn began the applause.
+32. Tallandra observes that the beacon turned the moment the Titanborn began the applause.
 33. Verrick admits he noticed.
-34. Talandra says the cosmic entity also applauded.
+34. Tallandra says the cosmic entity also applauded.
 35. Verrick calls it a significant data point.
-36. Talandra looks back toward the doors where Addie was carried inside.
-37. Talandra says she knows.
+36. Tallandra looks back toward the doors where Addie was carried inside.
+37. Tallandra says she knows.
 38. She does not specify for whom Addie will be a problem.
 
 ## Required Dialogue Intentions
 | Speaker | Dialogue Intention | Verbatim? |
 |---|---|---|
-| Talandra | Quietly praises Addie’s speech. | No / close |
+| Tallandra | Quietly praises Addie’s speech. | No / close |
 | Addie | Asks to be taken up before she vomits. | No / close |
 | Verrick | Summarizes the scope of what Addie just did. | No |
 | Verrick | Says she is not what the Speaker expected. | Close. |
-| Talandra | Notes the beacon turned when the Titanborn began silent applause. | Close. |
-| Talandra | Says the cosmic entity also applauded. | Close. |
+| Tallandra | Notes the beacon turned when the Titanborn began silent applause. | Close. |
+| Tallandra | Says the cosmic entity also applauded. | Close. |
 | Verrick | Calls it a significant data point. | Close. |
 
 ## Subchapter Exit Condition
-Addie enters the Conclave physically depleted but politically transformed. The public has answered her, Talandra has reassessed her, Verrick has recognized the danger she represents, and the beacon has implied cosmic approval.
+Addie enters the Conclave physically depleted but politically transformed. The public has answered her, Tallandra has reassessed her, Verrick has recognized the danger she represents, and the beacon has implied cosmic approval.
 
 ---
 
@@ -436,7 +441,7 @@ Addie enters the Conclave physically depleted but politically transformed. The p
 - Addie choosing to speak.
 - Protected speech / accountability thesis.
 - Silent public answer.
-- Talandra’s first genuine personal respect.
+- Tallandra’s first genuine personal respect.
 - Cosmic validation through beacon response.
 - Handoff into the Conclave.
 
@@ -445,14 +450,14 @@ Addie enters the Conclave physically depleted but politically transformed. The p
 - The speech should not make Addie sound polished in the usual political sense. Its power comes from precision, moral courage, and refusing false certainty.
 - The silent applause is stronger than ordinary cheering because it shows cross-species civic recognition.
 - The Titanborn moment matters because the beacon responds to the crowd’s first nonverbal public trust gesture.
-- Talandra’s phrase that the cosmic entity also applauded should land as awe and threat at once.
+- Tallandra’s phrase that the cosmic entity also applauded should land as awe and threat at once.
 - Verrick should feel dangerous, funny, observant, and professionally untrustworthy, not merely comic relief.
 - Ruin’s intervention should not make Ruin benevolent; it shows opportunistic competence and the Speaker’s willingness to use factional tools when Concord is insufficient.
 - Addie’s public accusation against all factions should preserve symmetry: Concord order, Ruin destruction, Schism shadow survival.
 - The protected speech should later be tightened only if a dedicated speech pass can preserve all major thesis beats.
 
 ## Final Image
-Talandra stands outside the Conclave doors with Verrick, watching the silent applause continue below and understanding that the beacon itself answered Addie’s first public act.
+Tallandra stands outside the Conclave doors with Verrick, watching the silent applause continue below and understanding that the beacon itself answered Addie’s first public act.
 
 ## Next Chapter Handoff
 Proceed to `01_06_the_weight_of_the_roster.md`. That chapter should stand alone and begin with Addie entering the Conclave High Assembly after being carried up the Three Hundred Steps, then move into the official roster, companion/staff logistics, High Sovereign pressure, Mae’s wall/coin logic, and Brickett’s missing-last-name question.
