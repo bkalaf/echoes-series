@@ -1,9 +1,17 @@
 # World Rules
 
+## Canon Crosslinks
+
+- [Visual Bible — Image Pass Notes](./14_VISUAL_BIBLE_IMAGE_PASS.md)
+- [Characters](./05_CHARACTERS.md)
+- [Witnesses, Architects, and Rewards](./06_WITNESSES_ARCHITECTS_REWARDS.md)
+
+Use the Visual Bible for image-derived palette, staging, institutional mood, and symbolic object language. Use this file for binding world mechanics and setting rules.
+
 ## Nation Structure
 
 - Eidolon currently has **one nation**. It's name is Erzengel.
-- City-states were the driving civic grouping when the nation was founded 2,000 years ago. they were the primary civic / administrative powers inside the larger world structure, not separate sovereign nations. over time, however, these city-states split apart twice into three distinct cities. 
+- City-states were the driving civic grouping when the nation was founded 2,000 years ago. they were the primary civic / administrative powers inside the larger world structure, not separate sovereign nations. over time, however, these city-states split apart twice into three distinct cities.
 - Erzengel started as 24 city states but now are 72 independent cities, with one governing City, Aquila Matara, that was constructed for the sole purpose of a federal government during the first high sovereigns reign, Dovren I.
 - The Meridian Accord is a guild, specifically Addie's guild, not the nation itself.
 - Regional identities, city cultures, and faction pressures still matter, but they do not override the one-nation rule.
@@ -72,8 +80,8 @@ The **H** middle initial is structurally important and should be protected.
 
 - Adeshka H. Sonntag.
 - Gregory H. Frydrake.
-- Brynn H. Stonevain.
-- Captain Talandra H. Highwatch.
+- Brynn H. Stonevein.
+- Major Tallandra H. Highwatch.
 - Carrio H. Vessalor.
 - High Theorimist Mattieu H. Cardinal.
 - Mae'vyri H. Van'Kareth.
@@ -93,12 +101,21 @@ A cherub or celestial character from the celestial city may validly have only a 
 - Major island groups include Aquila Matara Island, the Dragon Isles / Emberwake, Southhook Archipelago, and Mirror Reef Isles.
 - One beacon (a tall obelisk structure that basically has some kind of light source or way to project light from the top so it would shine around the city and light a sky) exists at the exact center of each city.
 - The Citadel is the government landmark.
+- Visual Bible link: use the Book 01 Citadel-steps image for the public architecture / crowd-pressure mood of Addie’s speech, but do not treat visible sign text or background lineup as binding prose canon.
+
+## Royal Observatory / Astronomer Opening Setting
+
+- The Royal Observatory / astronomy tower uses old-stone corridors, brass optics, paper star charts, rolled diagrams, ink, lamps/candles, and cold night air.
+- It should feel scholarly, procedural, monastic, and slightly neglected by sleep rather than glamorous.
+- No modern screens, electricity, electronics, contemporary labs, or modern observatory utilities.
+- Floating summons scrolls use vellum, seal, ribbon, blue aura, and impossible suspension as official magical bureaucracy.
+- Visual Bible link: use the Royal Observatory, vellum scroll, and Miriam images from [Visual Bible — Book 01 / Constellation / Institution Story-Reference Batch](./14_VISUAL_BIBLE_IMAGE_PASS.md#book-01--constellation--institution-story-reference-batch).
 
 ## Conjunction Structure
 
 - There are **18 Conjunctions** across the series.
 - Conjunctions simply put are the aligning of the three moons of Eidolon.
-- As written in Erzengel's Charter: conjunctions are periods where political parties may choose to transfer power. The method of determining that transfer is up to the participants of the conjunction. at the end of the conjunction cycle The political party with the most city-states under their control is elected high sovereign and in the case of a tie there's no transfer of power there must be somebody in the lead. 
+- As written in Erzengel's Charter: conjunctions are periods where political parties may choose to transfer power. The method of determining that transfer is up to the participants of the conjunction. at the end of the conjunction cycle The political party with the most city-states under their control is elected high sovereign and in the case of a tie there's no transfer of power there must be somebody in the lead.
 - History tells them that conjunctions quickly devolved into periods of lawlessness or deception, sabotage, assassination, brutal authoritarian crackdowns, famines, and natural disasters tended to occur causing shifts of power. There hasn't been a conjunction for a thousand years when the series starts. Dovren the 33rd declared that he had solved the mysteries of the conjunction and stopped them and had demanded worship for such an act. Thus the Church of the 73rd. The 73rd is a reference to the longest Royal line on Earth which is 72 that Dovren intends to beat.
 - Standard Conjunction: **25 days**.
 - Month structure: 25-day Conjunction + 3 days off.
@@ -109,7 +126,7 @@ A cherub or celestial character from the celestial city may validly have only a 
   - Green: onset.
   - Yellow: checkpoint.
   - Orange: objective completion.
-  - Red: objective complete witness ready for battle. 
+  - Red: objective complete witness ready for battle.
   - Red, pulsing: final countdown, pulsing.
 
 ## Days
@@ -126,11 +143,21 @@ A cherub or celestial character from the celestial city may validly have only a 
 | 8 | KINDLEMASK | Fire Raccoon |
 | 9 | SONNTAG | Hidden day / Savior |
 
+## Zodiac Horizon / Constellation Sky Logic
+
+- The original Zodiac Horizon contains 18 positions and should be read in order from **The Widow Spider** to **The Silent Fox**.
+- The original constellation chart and reward-transformed constellation chart are tracked in [Visual Bible — Book 01 / Constellation / Institution Story-Reference Batch](./14_VISUAL_BIBLE_IMAGE_PASS.md#book-01--constellation--institution-story-reference-batch).
+- After a Witness is defeated, the associated constellation can transform toward the earned reward / healed meaning. The sky becomes a record of victory rather than erasing the original wound.
+- Do not silently force a final public constellation chart until the 18-position zodiac / 19-reward-object reconciliation is resolved.
+
 ## Ark Ships
 
-Only four ships should be visible when the visible-ship count matters:
+Historical exception:
 
-| Ship | Status |
+- In early Architect-era material before the two losses are known / finalized, it is intentional and allowed to name all six Ark ships.
+- Once the damaged/destroyed/cannibalized state matters to the reader, only four ships should be visible as functional ships.
+
+| Ship | Later Status |
 |---|---|
 | Michael | Active |
 | Raphael | Cannibalized |
@@ -139,7 +166,7 @@ Only four ships should be visible when the visible-ship count matters:
 | Azrael | Destroyed |
 | Lucifer | Disabled / Captured |
 
-Use **Michael, Raphael, Gabriel, and Uriel** as the visible named ships. Do not add Azrael or Lucifer as visible functional ships unless a later correction explicitly changes this.
+Use **Michael, Raphael, Gabriel, and Uriel** as the visible named ships after the loss-state matters. Do not show Azrael or Lucifer as visible functional ships after that point unless a later correction explicitly changes this.
 
 ## City Board Rules
 
