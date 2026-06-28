@@ -103,7 +103,7 @@ Book 01 draft files are compiled in the order below. Draft filenames are stable 
 |---|---|---|---|---|---|
 | B01.000 | 01_00 | Prologue — The Mother Who Started the War | [draft](../drafts/01_00_prologue.md) | Parsed | Establishes Mother, Brickett, number sequence, first act of war. See [Book 01 Chapter Outlines](./10_BOOK01_CHAPTER_OUTLINES.md). |
 | B01.010 | 01_01 | The Royal Astronomer’s Tower | [draft](../drafts/01_01_the_royal_astronomers_tower.md) | Parsed | Parent chapter with visible subchapters: The Zero-Variance Solstice; Factional Mistrust. Introduces Miriam, the purple beacon, Overseer, faction triangle, Moderator nomination crisis. |
-| B01.020 | 01_02 | The Nomination | [draft](../drafts/01_02_the_nomination.md) | Parsed | Addie POV introduction; Portalport arrival; hair clip / Mark of the Orbs; purple dispatch; Kwame nominates her. |
+| B01.020 | 01_02 | The Nomination | [draft](../drafts/01_02_the_nomination.md) | Parsed | Parent chapter with visible subchapters: The Gale Exposition; With Kwame. Introduces Addie’s private life, hair clip / Mark of the Orbs, purple dispatch, and Kwame’s signed nomination reveal. |
 
 ## Book 01 Stub Slots
 
