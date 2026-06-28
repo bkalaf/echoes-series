@@ -69,7 +69,7 @@ In-world, Addie is gone from the Conclave chamber for approximately two hours. S
 - Adeshka “Addie” H. Sonntag.
 - Silence / SIL-3NCE.
 - Witness of Horror / Regret.
-- First mirror council figures including José Mateo Navarro, Hans Halcyon, Dianne, Noel Smukk, Seraphine Iris Delacroix, Magnus Evren Korr, Solomon Elias Ward, Malcolm Alistair MacRae, Aurelius Simon Thorne, Mireya Celeste Navarro, Soren Emilio Maren, Alessandra Bianca Valenti, and other name-flame figures.
+- First mirror council figures including José Mateo Navarro, Hans Halcyon Hohenzollern, Dianne, Noel Smukk, Seraphine Iris Delacroix, Magnus Evren Korr, Solomon Elias Ward, Malcolm Alistair MacRae, Aurelius Simon Thorne, Mireya Celeste Navarro, Soren Emilio Maren, Alessandra Bianca Valenti, and other name-flame figures.
 - Second mirror High Sovereign Dovren Judax Thorne, early regnal form.
 - The Overseer, in historical / rat-like administrative form.
 - Chained spouses / victims / family figures around Dovren.
