@@ -18,6 +18,10 @@ Eidolon formal names normally use:
 
 A person inherits their **mother's family name** as their last name. This is intentionally maternal in contrast to many Earth naming systems.
 
+For most human, beastkin, elven, dwarven, draconic, avian, reptilian, and other biologically born peoples, lacking a last name is socially noticeable. A person may be poor, orphaned, estranged, or politically disgraced, but if they know their mother or maternal family line, they should normally have a family name.
+
+This is why Brickett having no last name is surprising: as a beastkin child, he should normally have inherited one. His missing last name signals that he did not know his mother and therefore did not know which maternal family name to claim.
+
 ### Paternal Middle Initial Rule
 
 A person's middle initial is derived from the father's first name or paternal naming line. This functions like a compressed patronymic marker.
@@ -25,6 +29,34 @@ A person's middle initial is derived from the father's first name or paternal na
 ### Formal Introduction Rule
 
 In formal, military, legal, guild, or political settings, characters should usually be introduced with their middle initial. This makes middle initials feel natural in the culture instead of suspicious.
+
+### No-Last-Name Exceptions
+
+Some peoples and city cultures do not use maternal family names because their origins do not pass through ordinary maternal birth lines.
+
+These exceptions should be limited and culturally meaningful, not casual.
+
+Strong no-last-name exception groups include:
+
+- **Constructborn / constructs**: created, assembled, awakened, forged, or manufactured rather than born through maternal descent.
+- **Lich / undead civic cultures**: post-mortal identity may preserve a prior name, title, order-name, or chosen name rather than a maternal family name.
+- **Vampire civic cultures**: turned, made, adopted into bloodlines, or politically reborn; may use house, sire, court, or title structures instead of maternal family names.
+- **Celestials / cherubs / angelic city peoples**: created, manifested, assigned, or order-born; a single given name or office-name can be valid.
+- **Portal-born / fey-smallfolk populations such as pixies and brownies**: may emerge through portal, court, colony, nest, or communal generation logic rather than traceable maternal inheritance.
+
+Possible exception groups should be handled case-by-case:
+
+- **Satyrs** should normally have last names if they are biologically born into maternal family lines. Do not make them a default no-last-name exception unless a specific satyr city culture is defined as portal-born, court-born, or otherwise non-maternal.
+- Other mythos peoples may lack last names only when their reproduction, creation, conversion, or civic identity makes maternal family inheritance impossible or irrelevant.
+
+### Social Meaning of Missing Last Names
+
+A missing last name is not automatically shameful, but it is noticeable.
+
+- For mythos / created / converted peoples, no last name can be ordinary.
+- For beastkin and most biologically born peoples, no last name suggests abandonment, unknown maternity, severed records, or deliberate erasure.
+- This can become a conversation point later among the companions, especially when Brickett’s missing family name is compared against peoples for whom no last name is culturally normal.
+- Lady Mae may be an appropriate character to raise or sharpen this distinction because she understands lineage, family names, and social status.
 
 ### H-Initial Hidden Signal
 
@@ -50,6 +82,10 @@ The **H** middle initial is structurally important and should be protected.
 - Brickett H.
 
 Supporting characters introduced around the Book 01 guard detail must not accidentally receive H initials.
+
+### Cherub / Celestial Naming Note
+
+A cherub or celestial character from the celestial city may validly have only a given name or office-name if that people is created, assigned, or order-born rather than maternally born. If the cherub was named without a last name in an older draft, that can be preserved as culturally meaningful rather than treated as an omission.
 
 ## Continent and Geography
 
