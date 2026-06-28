@@ -2,6 +2,12 @@
 
 This file ties each Witness to its hidden domain, presenting domain, Architect, function, and reward.
 
+Crosslinks:
+
+- [Characters — Architect / Witness Character Roster](./05_CHARACTERS.md#architect--witness-character-roster)
+- [Visual Bible — Actual Witness Set](./14_VISUAL_BIBLE_IMAGE_PASS.md#actual-witness-set--mythic--spectral-forms)
+- [Visual Bible — Zodiac / Reward Constellation Batch](./14_VISUAL_BIBLE_IMAGE_PASS.md#book-01--constellation--institution-story-reference-batch)
+
 ## Witness Template
 
 ```md
@@ -86,3 +92,11 @@ This file ties each Witness to its hidden domain, presenting domain, Architect, 
 | Feather of Ma'at | Truth is lighter than ego. |
 | Black Tortoise Shell | Survival is often quiet. |
 | The Holy Grail | Worthiness is internal, not performative. |
+
+## Zodiac / Reward Constellation Visual Rule
+
+- The original Zodiac Horizon image is a Witness-memory sky: 18 positions, beginning with **The Widow Spider** and ending with **The Silent Fox**.
+- The reward constellation image shows the same sky-memory logic after Witness defeat: the constellation can transform toward the earned reward / healed meaning.
+- A defeated Witness should not simply vanish from the sky. Eidolon remembers the wound and rewrites it toward the reward.
+- Use the Visual Bible as the image-derived authority for constellation layout and reward-symbol visual grammar.
+- Open reconciliation note: the chart currently has 18 zodiac positions while the reward-object list has 19 objects. Do not finalize a public chart until the Holy Grail / New-AI / Silence relationship is fully reconciled.
