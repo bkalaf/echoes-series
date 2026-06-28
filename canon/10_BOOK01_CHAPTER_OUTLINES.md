@@ -2,13 +2,24 @@
 
 This file tracks parsed chapter outlines for Book 01. Draft-ready reconstruction outlines are saved individually in `/drafts`.
 
+## Current Parsing Rule for Book 01
+
+When adjacent scenes share the same setting, same local conflict, and a continuous escalation, they may be grouped under one parent chapter with visible subchapter titles. This is preferred over splitting every scene into a separate chapter when the result would weaken connective tissue.
+
 ## Saved Draft Files
 
-| Chapter | Title | Draft Path | Detail Level |
-|---|---|---|---|
-| 01_00 | Prologue — The Mother Who Started the War | `drafts/01_00_prologue.md` | L4 Reconstruction |
-| 01_01 | The Zero-Variance Solstice | `drafts/01_01_the_zero_variance_solstice.md` | L4 Reconstruction |
-| 01_02 | Factional Mistrust | `drafts/01_02_factional_mistrust.md` | L4 Reconstruction |
+| Chapter | Parent Chapter Title | Draft Path | Detail Level | Visible Subchapters |
+|---|---|---|---|---|
+| 01_00 | Prologue — The Mother Who Started the War | `drafts/01_00_prologue.md` | L4 Reconstruction | None |
+| 01_01 | The Royal Astronomer’s Tower | `drafts/01_01_the_royal_astronomers_tower.md` | L4 Reconstruction with Visible Subchapters | The Zero-Variance Solstice; Factional Mistrust |
+
+## Next Expected Parse
+
+The next manuscript unit after `The Royal Astronomer’s Tower` should be parsed as:
+
+`drafts/01_02_the_nomination.md`
+
+unless later chapter grouping requires combining it with adjacent material.
 
 ---
 
@@ -56,115 +67,139 @@ Narrator / Dear Reader voice; Mother / Dianne; sleeping Brickett H.; background 
 
 ---
 
-# 01_01_the_zero_variance_solstice — The Zero-Variance Solstice
+# 01_01_the_royal_astronomers_tower — The Royal Astronomer’s Tower
 
 ## Purpose
-Turn Conjunctions from myth into mathematical certainty; establish Miriam Ben-Or’s authority; reveal the seventy-third node; ignite the purple beacon network; introduce the Overseer.
+Connect Miriam Ben-Or’s mathematical verification of the returning Conjunctions directly to the immediate factional response in the same Royal Observatory setting. The combined chapter should feel like one escalating tower sequence: proof, beacon activation, Overseer appearance, factional rupture, and the Moderator nomination crisis.
 
 ## Cast
-Miriam G. Ben-Or; the Overseer; absent subordinate astronomers/calculators/lens-grinders.
+Miriam G. Ben-Or; the Overseer; High Theologian Choleth S. Sevarian; Janice B. Rourke; Vexira M.; absent subordinate astronomers/calculators/lens-grinders.
 
-## Core Beats
+## Visible Subchapters
+1. The Zero-Variance Solstice
+2. Factional Mistrust
+
+## Parent Chapter Beats
 1. Establish Skyrend Peak’s brutal high-altitude cold.
 2. Place Miriam alone before the armillary sphere, exhausted and ink-stained.
-3. Explain her three decades tracking predictable celestial arcs.
-4. The sky has stopped behaving two days before summer solstice.
-5. Miriam sent subordinates away to verify everything herself.
-6. She removes human interference until only her own ink remains.
-7. First mathematical check resolves to zero-balance.
-8. Miriam recognizes reality’s baseline is preparing to shift.
+3. Miriam verifies the impossible return of the Conjunctions through three mathematical checks.
+4. The seventy-third node is revealed.
+5. Stormspire Aerie ignites purple.
+6. Vharos answers, confirming network-wide initialization.
+7. The Master Seal scroll appears inside the barred observatory.
+8. The Overseer appears, admits he is new, and confirms delivery/observation authority.
+9. Miriam is left alone with proof that history is moving beneath her feet.
+10. The chapter remains in the tower as faction representatives arrive / gather around the crisis.
+11. Miriam states the math is not interested in factional skepticism.
+12. Choleth, Janice, and Vexira reveal Concord, Schism, and Ruin hostility through argument.
+13. The Master Seal scroll is read in factional company.
+14. “Facilitator” is revealed to have been replaced by “Moderator.”
+15. The room understands the legal difference between guide and arbiter.
+16. The Overseer reappears and tells Miriam to read the addendum.
+17. The noon guild nomination deadline is revealed.
+18. The factions split apart to pursue their own agendas.
+19. Miriam remains alone in violet light.
+20. Final image: the machine is awake and does not care who survives the transition.
+
+## Subchapter 1 — The Zero-Variance Solstice
+
+### Function
+Turn Conjunctions from myth into mathematical certainty; establish Miriam as the first modern authority to verify the return; introduce the seventy-third node, purple beacon network, and Overseer.
+
+### Core Beats
+1. Establish the brutal high-altitude cold of Skyrend Peak.
+2. Place Miriam alone before the brass armillary sphere, ink/charcoal-stained and exhausted.
+3. Explain Miriam’s three-decade career tracking predictable celestial arcs.
+4. Establish that the sky has stopped behaving two days before summer solstice.
+5. Reveal Miriam sent her subordinates away because the stakes require her own verification.
+6. Miriam frames the work as removing human interference until only her own ink remains.
+7. First mathematical check resolves to clean zero-balance.
+8. Miriam understands the baseline of reality is preparing to shift weight.
 9. Second mathematical check reveals an impossible active seventy-third node.
-10. Variance resolves to eighteen, matching historical Conjunction intersections.
-11. Third mathematical check converges to exactly 1.00000.
-12. Miriam concludes the Conjunctions are returning.
-13. She drops the quill, marking the logbook/slate.
-14. A sub-audible hum vibrates through the observatory stone.
-15. Stormspire Aerie ignites violet after a thousand years dark.
-16. Purple light floods the observatory.
-17. Miriam hopes it is only a local malfunction.
-18. She runs to the southern window and checks Vharos.
-19. Vharos remains dark for one brief moment.
-20. Vharos ignites purple, confirming network initialization.
-21. The floor hum doubles into active grid rhythm.
-22. Three knocks sound inside the barred observatory.
-23. A parchment cylinder hovers above Miriam’s desk.
-24. Its wax bears the forbidden Master Seal.
-25. Text instructs her to watch the beacon and references an addendum.
-26. Miriam drops the scroll.
-27. The scroll freezes midair.
-28. The Overseer emerges and returns it.
-29. Miriam asks why now after a thousand years.
-30. Overseer admits he does not know and is new to the role.
-31. He explains this is his first initialization sequence and the manual has translation errors.
-32. He is present for delivery and observation.
-33. He says Miriam verified the math and the rest is up to the candidates.
-34. He warns there are no blind spots and the Master is watching.
-35. He vanishes.
-36. Miriam remains alone with scroll, beacons, and planetary hum.
-37. Ancient lines of communication lock into place.
-38. The seventy-third node is confirmed.
-39. The first modern Conjunction has officially begun.
-40. Final state: history is moving beneath Miriam’s feet.
+10. The variance resolves to eighteen, matching historic Conjunction intersections.
+11. Third mathematical check shows convergence toward exactly 1.00000.
+12. Miriam concludes no error is possible: the ancient Conjunctions are returning.
+13. Miriam drops the quill, leaving a jagged streak as myth becomes immediate reality.
+14. A sub-audible hum vibrates through the stone and into her teeth.
+15. Miriam sees Stormspire Aerie ignite with violet light after a thousand years dark.
+16. The purple beam floods the observatory and casts sharp shadows through the brass gears.
+17. Miriam desperately hopes it is a local malfunction or atmospheric anomaly.
+18. She runs to the southern viewing window and searches for Vharos.
+19. Vharos remains dark for one agonizing moment, giving Miriam brief relief.
+20. Vharos ignites with matching purple light, confirming network-wide initialization.
+21. The floor hum doubles and becomes rhythmic, signaling active grid lock.
+22. Three sharp knocks sound inside the barred observatory, synchronized with the hum.
+23. A heavy parchment cylinder hovers three inches above Miriam’s desk.
+24. The wax seal displays the forbidden Master Seal.
+25. Broken ink characters instruct Miriam to watch the beacon and reference a minor rule addendum.
+26. Miriam touches the wax but shakes so hard she drops the scroll.
+27. The scroll freezes midair instead of hitting the floor.
+28. The Overseer emerges from purple shadows as an elderly gray rat-like stranger and returns the scroll.
+29. Miriam recognizes the Overseer from records and asks why now after a thousand years.
+30. The Overseer admits he does not know and that he is relatively new to the role.
+31. He explains this is his first initialization sequence and the protocol manual has translation errors.
+32. Miriam asks what he is doing there.
+33. Overseer says he is present strictly for delivery and observation; Miriam verified the math, and the rest is up to the candidates.
+34. He warns not to mistake inexperience for lack of oversight.
+35. He says the system has no blind spots tonight and the Master is watching.
+36. Overseer vanishes into the dark.
+37. Miriam remains alone with the glowing scroll, purple beacons, and planetary hum.
+38. The ancient communication lines lock into place.
+39. Miriam knows the seventy-third node is confirmed and the first modern Conjunction has begun.
+40. Subchapter exit: history is no longer a record of the past; it is moving beneath her feet.
 
-## Continuity Notes
-- Seventy-third node should be treated as an impossible system/canvas node.
-- Miriam must remain competent; panic follows proof.
-- Overseer’s inexperience and authority must coexist.
+## Subchapter 2 — Factional Mistrust
 
----
-
-# 01_02_factional_mistrust — Factional Mistrust
-
-## Purpose
+### Function
 Show factional fracture after the beacon activation; distinguish Concord, Schism, and Ruin; reveal Facilitator has been replaced by Moderator; trigger the nomination crisis.
 
-## Cast
-Miriam G. Ben-Or; High Theologian Choleth S. Sevarian; Janice B. Rourke; Vexira M.; the Overseer.
-
-## Core Beats
-1. Reestablish Skyrend’s scraping winds and violet beacon context.
-2. The world remains locked in impossible cold two days before summer solstice.
-3. Stormspire burns purple; Vharos answers.
-4. Miriam has been awake thirty-eight hours.
-5. Her hands are stained to the second knuckle with plum ink.
-6. Miriam tells Janice the math is not interested in skepticism.
-7. The seventy-third node is verified, the network is communicating, and Conjunctions have returned.
-8. Choleth watches Janice with Concord disgust.
-9. Janice takes an H&H pellet; it sublimates into medicinal vapor.
-10. Choleth insults Schism and Ruin and threatens purge.
-11. Vexira laughs from the rafters and drops into the room.
-12. Vexira mocks Concord’s failure to purge anyone for centuries.
-13. Choleth insists on committees, corridors, law, and legal precedence.
-14. Janice mocks paperwork while the sky bleeds purple.
-15. Miriam says the old systems are fully awake.
-16. Vexira says reality is being rewritten while everyone bickers over table position.
-17. Miriam points to the Master Seal scroll.
-18. The scroll is cross-referenced with forbidden records.
-19. Choleth assumes it restores Facilitator protocol.
-20. Miriam reveals the word Facilitator does not appear.
-21. Janice identifies Facilitator as the old broker/legal-buffer role.
-22. Miriam reveals every instance has been changed to Moderator.
-23. The room understands the difference: guide versus arbiter.
-24. Overseer speaks from the dark corner.
-25. Overseer says the correction is precise.
-26. Vexira and Choleth react defensively.
-27. Overseer tells Miriam to read the addendum.
-28. Miriam reads the final clause: every recognized guild has until noon tomorrow to submit one binding nomination.
-29. Janice recognizes the stakes of a seat controlling fundamental world rules.
-30. Choleth declares it an outrage against Conclave sovereignty.
-31. Overseer says the Master is observing, not demanding.
-32. Overseer warns there are no blind spots.
-33. Overseer vanishes.
-34. The illusion of malfunction and cooperation dies.
-35. Vexira leaves to warn Ruin / exploit the game.
-36. Choleth leaves to mobilize Concord ministries.
-37. Janice leaves to find her operators.
-38. Miriam remains alone, stylus silent, violet light on her hands.
-39. Miriam reflects that she wanted proof the universe was ordered.
-40. Final state: the machine is awake and does not care who survives the transition.
+### Core Beats
+1. Reestablish Skyrend Peak’s scraping high-altitude winds.
+2. Show the world has broken its promises: two days before summer solstice, but winter remains and violet light burns.
+3. Stormspire Aerie burns purple; Vharos answers across the valleys.
+4. Miriam feels every one of the thirty-eight hours she has been awake.
+5. Miriam’s hands are stained to the second knuckle with plum ink.
+6. Miriam tells Janice the math is not interested in skepticism: the seventy-third node is verified, the network is communicating, and Conjunctions have returned.
+7. Choleth, pristine in white and gold Concord robes, watches Janice with disgust.
+8. Janice takes an H&H pellet; it sublimates into medicinal vapor, clearing her exhaustion.
+9. Choleth insults Schism and Ruin and threatens purge under Conclave law.
+10. Vexira laughs from the rafters and drops into the room, establishing Ruin’s theatrical threat posture.
+11. Vexira mocks Concord for promising purges for centuries without succeeding.
+12. Choleth argues that order requires law, committees, diplomatic corridors, and legal precedence before assembly.
+13. Janice mocks Concord’s paperwork response to the sky bleeding purple.
+14. Miriam corrects Janice: this is not sparking; the old systems are fully awake.
+15. Vexira says reality is being rewritten while they argue over who sits at the head of the table.
+16. Miriam cuts through the factional noise and points to the Master Seal scroll.
+17. The scroll is identified as having arrived under the Master Seal and been cross-referenced against vault records.
+18. Choleth assumes it restores ancient Facilitator protocol.
+19. Miriam says the problem is that “Facilitator” does not appear in the document.
+20. Janice presses the issue: Facilitator is supposed to be the broker/legal buffer.
+21. Miriam reveals every instance has been changed to “Moderator.”
+22. The room absorbs the distinction: facilitator guides; moderator arbitrates, intervenes, decides, dictates.
+23. Before Choleth can respond, the Overseer speaks from the dark corner.
+24. The Overseer steps out and says the correction is precise.
+25. Vexira and Choleth react defensively; Miriam remains tired.
+26. The Overseer tells Miriam not to stop there and to read the addendum.
+27. Miriam unrolls the bottom flap and reads the final clause.
+28. Every recognized guild has until noon tomorrow to submit one binding nomination.
+29. Janice recognizes the stakes: a guild choice for a seat controlling fundamental world rules.
+30. Choleth calls the demand an outrage against Conclave sovereignty.
+31. The Overseer clarifies that the Master is not demanding; he is observing.
+32. The Overseer warns not to mistake his inexperience for lack of authority and says there are no blind spots.
+33. The Overseer vanishes into purple light.
+34. Silence settles; isolated malfunction and cooperation are both dead.
+35. Vexira leaves first, predicting guilds will tear themselves apart to secure the override seat.
+36. Choleth mobilizes Concord’s loyal ministry elements to secure a righteous name.
+37. Janice stays a moment, then leaves to find her operators, recognizing someone is rewriting the rules through the guilds.
+38. Miriam remains alone in the massive arched window, stylus silent, violet light over her hands.
+39. Miriam reflects that she wanted proof the universe was a beautifully ordered machine.
+40. Final realization: the machine is awake, and it does not care who survives the transition.
 
 ## Continuity Notes
-- Facilitator-to-Moderator is the chapter’s core turn.
-- Janice’s H&H pellet establishes recurring substance context before Addie’s use.
-- Each faction must leave with a separate agenda, not unity.
-- Overseer should read as ordinary/administrative and therefore more unsettling.
+- The seventy-third node should remain an impossible system/canvas node, not a casual normal territory.
+- Miriam must stay competent; panic follows proof.
+- The Overseer’s uncertainty should not reduce his authority.
+- The Facilitator-to-Moderator change is the chapter’s core legal/political turn.
+- Janice’s H&H pellet establishes recurring substance context before Addie uses H&H later.
+- Choleth, Janice, and Vexira must leave with different factional agendas, not as a united team.
+- The Overseer should feel ordinary and administrative, which makes his authority stranger.
