@@ -192,6 +192,14 @@ See [World Rules](./01_WORLD_RULES.md) for the full naming structure.
 - Morally compromised and self-preserving.
 - Trump-family / authoritarian parallels may inform characterization, but the locked in-world name is **Dovren Judax Thorne**.
 
+## Architect / Witness Character Index
+
+The full character-facing roster for the First Mirror council members, later Witness forms, ethnicity/cultural coding, accent/voice notes, and visual-pass placeholders is maintained here:
+
+- [Architect / Witness Character Index](./13_ARCHITECT_WITNESS_CHARACTER_INDEX.md)
+
+Use that index as the working authority for all Architect/Witness visual descriptions, accent cues, and image-pass revisions. The index crosslinks back to [Witnesses / Architects / Rewards](./06_WITNESSES_ARCHITECTS_REWARDS.md), [Architect Exodus Compromises](./11_ARCHITECT_EXODUS_COMPROMISES.md), and [Hans File / Noel Exile](./12_HANS_FILE_NOEL_EXILE.md).
+
 ## Book 01 Supporting Cast — Guard Detail / Beacon Escort
 
 ### Lieutenant Boss R. Grizzlepelt
