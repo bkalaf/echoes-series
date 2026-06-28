@@ -113,7 +113,7 @@ Book 01 draft files are compiled in the order below. Draft filenames are stable 
 | B01.030 | 01_03 | The Witnesses | [draft](../drafts/01_03_the_witnesses.md) | Parsed | Standalone metaphysical parent chapter with visible subchapters: The Scene Between Stories; The Addendums; The Ballot; The First Shot. Mother’s shot is intentionally vague here; the consequence becomes readable in the next Addie chapter. |
 | B01.040 | 01_04 | The Weight of the Beacon | [draft](../drafts/01_04_the_weight_of_the_beacon.md) | Parsed | Parent chapter folding old manuscript movements: The Weight of the Beacon; The Logic of the Unbelievable; Geometry and Mathematics. Introduces Tallandra’s detail, Boss/Barry, Brickett, the impossible brick, pawn-shop proof, and the Mark of the Orbs match. |
 | B01.050 | 01_05 | The Core of the Conjunction | [draft](../drafts/01_05_the_core_of_the_conjunction.md) | Parsed | Parent chapter folding old manuscript movements: The Core of the Conjunction; The Three Hundred Steps. Includes blue-beacon activation, public scrolls, Addie/Brickett slot reveal, Verrick/Ruin intervention, Aquila Matara arrival, protected Addie speech, silent applause, and cosmic beacon response. |
-| B01.060 | 01_06 | The Weight of the Roster | [draft](../drafts/01_06_the_weight_of_the_roster.md) | Parsed | Standalone Conclave chamber chapter. Reveals wall roster architecture, Mae’s Speaker role, Overseer/Donvaris confrontation, scroll openings for Mae/Carrio/Rhün/Yurislav, power-transfer lockdown, Addie’s collection into the mirror, Gregory reveal, and Mae’s Brickett no-last-name question. |
+| B01.060 | 01_06 | The Weight of the Roster | [draft](../drafts/01_06_the_weight_of_the_roster.md) | Parsed | Standalone Conclave chamber chapter. Reveals wall roster architecture, Mae’s Speaker role, Overseer/Dovren confrontation, scroll openings for Mae/Carrio/Rhün/Yurislav, power-transfer lockdown, Addie’s collection into the mirror, Gregory reveal, and Mae’s Brickett no-last-name question. |
 
 ## Book 01 Protected Narrative Fragments
 
@@ -122,6 +122,14 @@ These fragments are preserved prose baselines. Do not shorten or rewrite them du
 | Fragment ID | Protected Text | File | Placement | Rule |
 |---|---|---|---|---|
 | B01.PROTECT.SPEECH.01 | Addie’s Three Hundred Steps speech | [protected fragment](../drafts/protected/01_05_addie_three_hundred_steps_speech.md) | `The Three Hundred Steps` / `01_05_the_core_of_the_conjunction.md` | Preserve in full for now. Any trimming must happen in a dedicated speech pass and must retain meaning, faction accountability, Addie’s honesty, and the conjunction-as-mirror thesis. |
+
+## Book 01 Provisional Interlude Placement
+
+Upcoming uploaded interludes should use titles beginning with `Interlude: `.
+
+| Planned Interlude | Current Placement | Notes |
+|---|---|---|
+| WWII / Dear Reader interlude | Before the Guildmaster’s office movement with Addie in `01_02_the_nomination.md` | Wait for uploaded prose before parsing. This should interrupt before Addie reaches / enters the guildmaster-office sequence, not after the Conclave roster material. |
 
 ## Book 01 Provisional Remainder Grouping Map
 
@@ -144,7 +152,7 @@ These are known structural inserts or thematic anchors for Book 01. They may be 
 
 | Stub ID | Type | Working Title / Theme | Current Placement | Notes |
 |---|---|---|---|---|
-| B01.STUB.WWII.01 | WWII / Dear Reader | US Oil Embargo on Japan | TBD | Map Sun People = Japanese, Apathetic Pagans = Americans, Thousand Island Place = Philippines. |
+| B01.STUB.WWII.01 | WWII / Dear Reader | US Oil Embargo on Japan | Before Guildmaster’s office sequence in `01_02_the_nomination.md` | Map Sun People = Japanese, Apathetic Pagans = Americans, Thousand Island Place = Philippines. Wait for uploaded interlude prose. |
 | B01.STUB.SCI.01 | Science | Doomsday Shelf Collapse | TBD | Science mirror for delayed collapse / ignored warnings. |
 | B01.STUB.MYTH.01 | Myth / Culture | Oral Tradition Knots | TBD | Mythic/cultural mirror for memory, thread, and record-keeping. |
 | B01.STUB.REWARD.01 | Reward | Ariadne’s Thread | TBD | Reward explanation / thread logic. |
