@@ -47,15 +47,17 @@ They should:
 - include a comedic, cutting, or emotionally clarifying exit;
 - avoid becoming detached essays.
 
-## Mirror Obfuscation Rule
+## First Mirror Obfuscation Rule
 
-Mirror scenes in early books may intentionally manufacture suspense by hiding the content of conversations that would reveal series-scale truth too early.
+The Book 01 First Mirror may intentionally manufacture suspense by hiding the content of conversations that would reveal series-scale truth too early.
+
+This is a special-use device for the First Mirror, not a general pattern for mirror scenes. Reusing heavy conversation obfuscation repeatedly would damage reader trust and make the authorial hand feel manipulative.
 
 This concealment should read as **perceptual pressure**, not as redacted text.
 
 ### Use
 
-Use mirror obfuscation when the scene contains information that belongs to later reveal windows, especially:
+Use First Mirror obfuscation only where the scene contains information that belongs to later reveal windows, especially:
 
 - digitization / simulation-world truth;
 - ark / mainframe truth;
