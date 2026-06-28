@@ -258,7 +258,7 @@ See [World Rules](./01_WORLD_RULES.md) for the full naming structure.
 - Dynamic with Tikket: he and Tikket flirt at the breakfast table, but both remain professional because they both work for Mae.
 - Full name, species, and non-H middle initial are TBD.
 
-### Tikket z Varn
+### Tikket Z. Varn
 
 - Canon Status: Locked as Mae’s office-side assistant.
 - Species: Kobold.
@@ -269,7 +269,7 @@ See [World Rules](./01_WORLD_RULES.md) for the full naming structure.
 - Tikket should have produced / arranged the portalport tickets for everyone that morning.
 - Dynamic with Max: mutual flirtation at breakfast, kept professional because they both work for Mae.
 - Use him to prevent too much logistical responsibility from falling on Max.
-- Preserve spelling: **Tikket z Varn**.
+- Preserve spelling: **Tikket Z. Varn**.
 
 ## Ruin Organizations
 
