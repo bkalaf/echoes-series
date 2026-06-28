@@ -121,6 +121,23 @@ These fragments are preserved prose baselines. Do not shorten or rewrite them du
 |---|---|---|---|---|
 | B01.PROTECT.SPEECH.01 | Addie’s Three Hundred Steps speech | [protected fragment](../drafts/protected/01_05_addie_three_hundred_steps_speech.md) | `The Three Hundred Steps` / upcoming parent chapter | Preserve in full for now. Any trimming must happen in a dedicated speech pass and must retain meaning, faction accountability, Addie’s honesty, and the conjunction-as-mirror thesis. |
 
+## Book 01 Provisional Remainder Grouping Map
+
+This map comes from a full look-ahead scan of the remaining Book 01 prose. Treat it as provisional until each parent chapter is parsed into its own draft file.
+
+| Planned Slot | Planned Parent Chapter | Manuscript Movements Likely Folded | Current Judgment | Notes |
+|---|---|---|---|---|
+| B01.050 | The Core of the Conjunction | The Core of the Conjunction; The Three Hundred Steps | Strong grouping | Continuous movement from pawn-shop aftermath to portal transfer, capital arrival, public steps, and Addie’s protected speech. Insert `B01.PROTECT.SPEECH.01` rather than rewriting the speech during chapter pass. |
+| B01.060 | The Weight of the Roster | The Weight of the Roster | Standalone parent chapter | Too large and functionally distinct to bury inside the speech chapter. Conclave chamber, official roster, companion/staff logistics, High Sovereign pressure, Mae’s wall/coin logic, and Brickett no-last-name question. |
+| B01.070 | The First Mirror | The First Mirror; The Second Mirror; Return to Normal | Strong grouping | Continuous metaphysical mirror sequence followed by Addie’s return and handoff toward Mae’s estate. Preserve Witness/Silence logic and mirror-riddle escalation. |
+| B01.080 | The Weight of Being Asked | The Weight of Being Asked; The Weight of What He Wouldn’t Give | Strong grouping | Dinner / companion consolidation chapter. Overseer arrives, questions are asked, help is requested, H-pattern and replacement logic may be seeded or discussed depending on later canon. |
+| B01.090 | Day One Architecture | Day One Architecture; Holes in the Wall | Strong grouping | First operational day: estate morning, planning, movement through city, tactical team selection, and first confrontation / public-pressure scene. |
+| B01.100 | The Bountiful Harvest | The Bountiful Harvest; The Unwound Core | Strong grouping but likely short | Mission result, return to estate, green beacon aftermath, paired coins / Mark of the Orbs inheritance logic, Ariadne’s Thread recognition, and transition into the next phase. |
+
+### Look-Ahead Rule
+
+Before parsing each planned slot, read at least two movements beyond it to verify the boundary still holds. The provisional map should guide parsing but not override obvious POV, setting, or emotional-boundary changes discovered during detailed outline work.
+
 ## Book 01 Stub Slots
 
 These are known structural inserts or thematic anchors for Book 01. They may be drafted out of order and later placed precisely in the compile order.
