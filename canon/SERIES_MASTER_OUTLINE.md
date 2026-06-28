@@ -112,6 +112,7 @@ Book 01 draft files are compiled in the order below. Draft filenames are stable 
 | B01.020 | 01_02 | The Nomination | [draft](../drafts/01_02_the_nomination.md) | Parsed | Parent chapter with visible subchapters: The Gale Exposition; With Kwame. Introduces Addie’s private life, hair clip / Mark of the Orbs, purple dispatch, and Kwame’s signed nomination reveal. |
 | B01.030 | 01_03 | The Witnesses | [draft](../drafts/01_03_the_witnesses.md) | Parsed | Standalone metaphysical parent chapter with visible subchapters: The Scene Between Stories; The Addendums; The Ballot; The First Shot. Mother’s shot is intentionally vague here; the consequence becomes readable in the next Addie chapter. |
 | B01.040 | 01_04 | The Weight of the Beacon | [draft](../drafts/01_04_the_weight_of_the_beacon.md) | Parsed | Parent chapter folding old manuscript movements: The Weight of the Beacon; The Logic of the Unbelievable; Geometry and Mathematics. Introduces Talandra’s detail, Boss/Barry, Brickett, the impossible brick, pawn-shop proof, and the Mark of the Orbs match. |
+| B01.050 | 01_05 | The Core of the Conjunction | [draft](../drafts/01_05_the_core_of_the_conjunction.md) | Parsed | Parent chapter folding old manuscript movements: The Core of the Conjunction; The Three Hundred Steps. Includes blue-beacon activation, public scrolls, Addie/Brickett slot reveal, Verrick/Ruin intervention, Aquila Matara arrival, protected Addie speech, silent applause, and cosmic beacon response. |
 
 ## Book 01 Protected Narrative Fragments
 
@@ -119,7 +120,7 @@ These fragments are preserved prose baselines. Do not shorten or rewrite them du
 
 | Fragment ID | Protected Text | File | Placement | Rule |
 |---|---|---|---|---|
-| B01.PROTECT.SPEECH.01 | Addie’s Three Hundred Steps speech | [protected fragment](../drafts/protected/01_05_addie_three_hundred_steps_speech.md) | `The Three Hundred Steps` / upcoming parent chapter | Preserve in full for now. Any trimming must happen in a dedicated speech pass and must retain meaning, faction accountability, Addie’s honesty, and the conjunction-as-mirror thesis. |
+| B01.PROTECT.SPEECH.01 | Addie’s Three Hundred Steps speech | [protected fragment](../drafts/protected/01_05_addie_three_hundred_steps_speech.md) | `The Three Hundred Steps` / `01_05_the_core_of_the_conjunction.md` | Preserve in full for now. Any trimming must happen in a dedicated speech pass and must retain meaning, faction accountability, Addie’s honesty, and the conjunction-as-mirror thesis. |
 
 ## Book 01 Provisional Remainder Grouping Map
 
@@ -127,7 +128,6 @@ This map comes from a full look-ahead scan of the remaining Book 01 prose. Treat
 
 | Planned Slot | Planned Parent Chapter | Manuscript Movements Likely Folded | Current Judgment | Notes |
 |---|---|---|---|---|
-| B01.050 | The Core of the Conjunction | The Core of the Conjunction; The Three Hundred Steps | Strong grouping | Continuous movement from pawn-shop aftermath to portal transfer, capital arrival, public steps, and Addie’s protected speech. Insert `B01.PROTECT.SPEECH.01` rather than rewriting the speech during chapter pass. |
 | B01.060 | The Weight of the Roster | The Weight of the Roster | Standalone parent chapter | Too large and functionally distinct to bury inside the speech chapter. Conclave chamber, official roster, companion/staff logistics, High Sovereign pressure, Mae’s wall/coin logic, and Brickett no-last-name question. |
 | B01.070 | The First Mirror | The First Mirror; The Second Mirror; Return to Normal | Strong grouping | Continuous metaphysical mirror sequence followed by Addie’s return and handoff toward Mae’s estate. Preserve Witness/Silence logic and mirror-riddle escalation. |
 | B01.080 | The Weight of Being Asked | The Weight of Being Asked; The Weight of What He Wouldn’t Give | Strong grouping | Dinner / companion consolidation chapter. Overseer arrives, questions are asked, help is requested, H-pattern and replacement logic may be seeded or discussed depending on later canon. |
@@ -157,8 +157,6 @@ The manuscript currently contains additional chapter material not yet fully pars
 
 Known upcoming manuscript headings include:
 
-- The Core of the Conjunction
-- The Three Hundred Steps
 - The Weight of the Roster
 - The First Mirror
 - The Second Mirror
