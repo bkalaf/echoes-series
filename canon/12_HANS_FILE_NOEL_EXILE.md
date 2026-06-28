@@ -1,6 +1,6 @@
 # Hans File / Noel Exile
 
-This file locks the later-series revelation that Hans Halcyon secretly digitized himself before Solomon/Ash’s public volunteer digitization, and that Noel Smukk’s murder/exile story was staged around Hans discovering the truth.
+This file locks the later-series revelation that Hans Halcyon Hohenzollern secretly digitized himself before Solomon/Ash’s public volunteer digitization, and that Noel Smukk’s murder/exile story was staged around Hans discovering the truth.
 
 ## Core Revelation
 
@@ -8,7 +8,7 @@ The apparent story that Solomon Elias Ward / Ash was the first person digitized 
 
 The later cliffhanger reveal:
 
-> Hans Halcyon digitized himself first, in the middle of the night, to make sure the process worked.
+> Hans Halcyon Hohenzollern digitized himself first, in the middle of the night, to make sure the process worked.
 
 This secret file is not known to the others during the public sequence. Solomon/Ash still becomes the first **public** volunteer for digitization, but Hans was the first hidden successful digitization.
 
