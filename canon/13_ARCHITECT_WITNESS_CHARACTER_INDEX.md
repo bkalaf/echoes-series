@@ -23,13 +23,14 @@ Primary crosslinks:
 
 ## Corrected Roster Authority
 
-Rows 4, 5, and 15 were corrected to improve global ancestry balance and reduce over-European concentration in the Architect roster.
+Rows 4, 5, and 13 were corrected to improve global ancestry balance and reduce over-European concentration in the Architect roster.
 
 - Row 4 / Stone is now **Wenliang Jun Chen**, Chinese / East Asian.
 - Row 5 / Mercy is now **Meera Anjali Krishnamurthy**, Madras / Tamil Indian.
-- Row 15 / Tempest is now **Ji-hoon Min Park**, Korean / East Asian.
+- Row 13 / Omen-Foresight is now **Ji-hoon Min Park**, Korean / East Asian.
+- Row 15 / Tempest remains **Kaelen Darius Veyr**, Polynesian-Pacific hybrid.
 - **Meera Anjali Krishnamurthy is not related to José Mateo Navarro.**
-- The old names **Magnus Evren Korr**, **Mireya Celeste Navarro**, and **Kaelen Darius Veyr** are superseded for these Architect seats.
+- The old names **Magnus Evren Korr**, **Mireya Celeste Navarro**, and **Elias Victor Moreau** are superseded for these Architect seats.
 
 ## Source Accent Map
 
@@ -40,7 +41,7 @@ Rows 4, 5, and 15 were corrected to improve global ancestry balance and reduce o
 | Silence | SIL-3NCE Autonomous Continuity Seed | Artificial adaptive hybrid |
 | Sand | Idris Malik Omari | East African scholarly |
 | Revel / Laughter | Franklin Emmett Vale | Australian |
-| Omen / Foresight | Elias Victor Moreau | French-European |
+| Omen / Foresight | Ji-hoon Min Park | Korean / East Asian |
 | Veils | Alessandra Bianca Valenti | Italian |
 | Bastion | Gideon Luca Mercer | Mid-Atlantic militaristic |
 | Tides | Soren Emilio Maren | Nordic coastal |
@@ -48,7 +49,7 @@ Rows 4, 5, and 15 were corrected to improve global ancestry balance and reduce o
 | Crown | Seraphine Iris Delacroix | Aristocratic French |
 | Hearth | Matteo Cesar Orlov | Balkan-Mediterranean |
 | Stone | Wenliang Jun Chen | Chinese / Mandarin-academic |
-| Tempest | Ji-hoon Min Park | Korean / East Asian |
+| Tempest | Kaelen Darius Veyr | Polynesian-Pacific hybrid |
 | Harvest | Elowen Miriam Vale | Celtic rural |
 | Lanterns | Noa Isabel Marrow | Iberian-Latin |
 | Dominion | Malcolm Alistair MacRae | Scottish |
@@ -72,9 +73,9 @@ Rows 4, 5, and 15 were corrected to improve global ancestry balance and reduce o
 | 10 | **Alessandra Bianca Valenti** — Keeper of Lines / Geneticist | **Veils** | Italian-coded geneticist / lineage keeper; outward composure hiding fear. Separate from Malcolm in the council. | Ogre head 2 / Veils; later merged with Dominion in Witness form. | Italian. | **Italian** carries to both Alessandra and Veils. | Do not collapse Malcolm and Alessandra in historical scenes. |
 | 11 | **Aurelius Simon Thorne** — Programmer / Meridian Engineer | **Meridian** | Systems engineer / programmer; memory and continuity ethics. | Minotaur-associated Meridian Witness. | Old imperial transatlantic. | **Old imperial transatlantic** carries to both Aurelius and Meridian. | See [Architect Exodus Compromises](./11_ARCHITECT_EXODUS_COMPROMISES.md). |
 | 12 | **Gideon Luca Mercer** — Logistician | **Bastion** | Practical logistics master; supply-chain, route, medicine, and infrastructure ethics. | Rhino-associated Bastion Witness. | Mid-Atlantic militaristic. | **Mid-Atlantic militaristic** carries to both Gideon and Bastion. | See [Architect Exodus Compromises](./11_ARCHITECT_EXODUS_COMPROMISES.md). |
-| 13 | **Elias Victor Moreau** — Mathematician / Helix Probability | **Omen / Foresight** | Probability theorist; precise, anxious restraint. | Owl-associated Omen/Foresight Witness. | French-European. | **French-European** carries to both Elias and Omen/Foresight. | See [Architect Exodus Compromises](./11_ARCHITECT_EXODUS_COMPROMISES.md). |
+| 13 | **Ji-hoon Min Park** — Mathematician / Helix Probability | **Omen / Foresight** | Korean / East Asian probability theorist; precise, anxious restraint, trained to distinguish model from verdict. Visual cues: probability spirals, forecast threads, cracked star charts, branching futures, and blue-gold council attire. | Owl-associated Omen/Foresight Witness. | Korean / East Asian. | **Korean / East Asian** carries to both Ji-hoon and Omen/Foresight. Use precision, restraint, and analytic pressure rather than phonetic dialect. | Supersedes Elias Victor Moreau. See [Architect Exodus Compromises](./11_ARCHITECT_EXODUS_COMPROMISES.md). |
 | 14 | **Idris Malik Omari** — Historian | **Sand** | Historian of names, causes, erased peoples, and uncomfortable truth. | Elephant-associated Sand Witness. | East African scholarly. | **East African scholarly** carries to both Idris and Sand. | See [Architect Exodus Compromises](./11_ARCHITECT_EXODUS_COMPROMISES.md). |
-| 15 | **Ji-hoon Min Park** — Terraformer | **Tempest** | Korean / East Asian environmental reconstruction strategist; controlled intensity, planetary-scale thinking, and communal consequence. Visual cues: coastal engineering maps, forest-regrowth projections, monsoon/flood models, terraforming instruments, and blue-gold council attire. | Draconic knight Tempest; cleansing becoming volatility. | Korean / East Asian. | **Korean / East Asian** carries to both Ji-hoon and Tempest. Use precision, restraint, and communal consequence rather than phonetic dialect. | Supersedes Kaelen Darius Veyr. See [Architect Exodus Compromises](./11_ARCHITECT_EXODUS_COMPROMISES.md). |
+| 15 | **Kaelen Darius Veyr** — Terraformer | **Tempest** | Polynesian-Pacific-coded terraformer and environmental reconstruction strategist; controlled intensity, planetary-scale thinking, and communal consequence. | Draconic knight Tempest; cleansing becoming volatility. | Polynesian-Pacific hybrid. | **Polynesian-Pacific hybrid** carries to both Kaelen and Tempest. Forceful, restrained, persuasive; sounds like someone used to being ignored until disaster proves him right. | Restored as Row 15. See [Architect Exodus Compromises](./11_ARCHITECT_EXODUS_COMPROMISES.md). |
 | 16 | **Elowen Miriam Vale** — Zoologist | **Harvest** | Zoologist / species steward; nonhuman continuity matters. | White stag Harvest. | Celtic rural. | **Celtic rural** carries to both Elowen and Harvest. | See [Architect Exodus Compromises](./11_ARCHITECT_EXODUS_COMPROMISES.md). |
 | 17 | **Noa Isabel Marrow** — Teacher | **Lanterns** | Teacher / knowledge-preservation figure. | Moth-keeper Lanterns. | Iberian-Latin. | **Iberian-Latin** carries to both Noa and Lanterns. | See [Architect Exodus Compromises](./11_ARCHITECT_EXODUS_COMPROMISES.md). |
 | 18 | **Matteo Cesar Orlov** — Agriculturalist / Resource Steward | **Hearth** | Agriculturalist/resource steward; food, water, soil, rationing, and hospitality ethics. | Boar-associated Hearth. | Balkan-Mediterranean. | **Balkan-Mediterranean** carries to both Matteo and Hearth. | See [Architect Exodus Compromises](./11_ARCHITECT_EXODUS_COMPROMISES.md). |
