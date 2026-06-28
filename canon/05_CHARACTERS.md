@@ -48,6 +48,14 @@ Locked / Pending / Superseded
 ## Continuity Warnings
 ```
 
+## Naming Reminder
+
+Formal names in Eidolon normally use `Given Name + paternal middle initial + maternal family name`.
+
+Middle initials should appear naturally in formal introductions so the **H** pattern is hidden in plain sight. Non-companion supporting cast should not receive H middle initials unless explicitly promoted into the hidden exception set.
+
+See [World Rules](./01_WORLD_RULES.md) for the full naming structure.
+
 ## Locked Core Cast Notes
 
 ### Adeshka "Addie" H. Sonntag
@@ -91,6 +99,8 @@ Locked / Pending / Superseded
 - Book 6 feat: Must Fly.
 - Book 7 feat: Must Put Honor Aside.
 - Should not be written as fragile because she is injured. She is disciplined, capable, and threat-aware.
+- Name spelling is **Talandra**, not Tallandra or Alondra.
+- H initial is intentional because she is a companion.
 
 ### Carrio H. Vessalor
 
@@ -143,6 +153,8 @@ Locked / Pending / Superseded
 - Calls Addie "Miss Sun-Tag" before calling her Addie.
 - "My life for you" is a recurring joke / misapplied heroic-sacrifice phrase.
 - Should be chaotic but not pointless. His function is overlooked detail, unwanted help, and the ache of wanting usefulness.
+- Has no inherited maternal family name because he did not know his mother / was abandoned. This makes his empty last-name gesture meaningful.
+- H initial is intentional and belongs to the hidden exception set.
 
 ### Hans Halcyon Hohenzollern
 
@@ -173,3 +185,59 @@ Locked / Pending / Superseded
 - Not secretly harmless.
 - Morally compromised and self-preserving.
 - His family parallels should inform characterization but not turn scenes into direct parody unless explicitly requested.
+
+## Book 01 Supporting Cast — Guard Detail / Beacon Escort
+
+### Lieutenant Boss R. Grizzlepelt
+
+- Canon Status: Locked for Book 01 guard detail.
+- Species: Bear-kin.
+- Faction / Role: Concord guard lieutenant assigned to Addie’s protective detail under Captain Talandra H. Highwatch.
+- Middle initial is **R**, not H.
+- Use “Boss” as the name Addie hears and remembers; it can remain slightly nickname-like, but formal introductions should use the full name.
+- Personality: blunt, physically imposing, dryly sympathetic, more emotionally perceptive than his size suggests.
+- Function in Book 01: guard muscle, comic grounding, occasional unexpected kindness.
+- Should not be the boar. Boss is the bear-kin.
+
+### Lieutenant Barry C. Bristleback
+
+- Canon Status: Locked for Book 01 guard detail.
+- Species: Boar-kin.
+- Faction / Role: Concord guard lieutenant assigned to Addie’s protective detail under Captain Talandra H. Highwatch.
+- Middle initial is **C**, not H.
+- Barry is intentionally funny as the boar whose name sounds like “beary.” This helps keep him distinct from Boss.
+- Personality: gruff, political, less patient than Boss, physically direct.
+- Function in Book 01: blunt protector, pressure voice, Concord-aligned friction.
+- Should not be the bear. Barry is the boar-kin.
+
+### Officer Rennick T. Quickreed
+
+- Canon Status: Locked for Book 01 pawn-shop / crowd-control sequence.
+- Species: Jackrabbit-kin.
+- Faction / Role: Concord officer / runner used by Talandra for rapid crowd-control relay.
+- Middle initial is **T**, not H.
+- Should not be named immediately on first street appearance. He should first appear by function: swift-footed jackrabbit-kin officer relaying orders.
+- Name exchange should occur later in the pawn-shop sequence, after the immediate danger has passed.
+- Function in Book 01: fast relay, crowd-control coordinator, useful recurring minor officer.
+
+### Sergeant Oren V. Antlerfell
+
+- Canon Status: Locked for Book 01 pawn-shop forensic analysis unless later changed.
+- Species: Stag-kin.
+- Faction / Role: Concord forensic geometrician / analysis officer.
+- Middle initial is **V**, not H.
+- Replaces the manuscript’s temporary bison-kin forensic analyst if the scene is revised.
+- Function in Book 01: explains the impossible geometry of the brick trajectory after Brickett saves Addie.
+- Should be competent and slightly offended when Addie underestimates his math.
+- Name should be introduced during the pawn-shop exchange, not in the middle of the crowd panic.
+
+## Book 01 Political / Astronomer Chapter Cast Name Check
+
+Use full formal names when appropriate:
+
+- Royal Astronomer Miriam G. Ben-Or.
+- High Theologian Choleth S. Sevarian.
+- Janice B. Rourke.
+- Vexira M. Emberlash.
+
+Vexira’s last name is locked here as **Emberlash** unless later superseded.
