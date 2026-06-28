@@ -41,6 +41,11 @@ Chapter titles may eventually encode hidden messages by first letter, last lette
 
 Do not finalize title-message logic until the chapter list is stable enough to support it. Until then, titles may remain working titles.
 
+### 6. Protected narrative fragments are edited separately
+Some prose sections are preserved as protected narrative fragments. These should not be shortened or rewritten during ordinary chapter outline passes or broad prose passes.
+
+A protected fragment may be tightened only during a dedicated pass for that fragment, with explicit attention to preserving meaning, emotional movement, structural function, and any hidden-theme logic.
+
 ## Crosslink Protocol
 
 When a chapter references canon, add links where useful:
@@ -51,6 +56,7 @@ When a chapter references canon, add links where useful:
 - Research stub → book spine / theme file.
 - Chapter with Witness material → Witness / Architect / Reward canon.
 - Chapter with companion material → Character / Companion canon.
+- Chapter containing protected prose → protected narrative fragment.
 
 Use relative markdown links where possible.
 
@@ -106,6 +112,14 @@ Book 01 draft files are compiled in the order below. Draft filenames are stable 
 | B01.020 | 01_02 | The Nomination | [draft](../drafts/01_02_the_nomination.md) | Parsed | Parent chapter with visible subchapters: The Gale Exposition; With Kwame. Introduces Addie’s private life, hair clip / Mark of the Orbs, purple dispatch, and Kwame’s signed nomination reveal. |
 | B01.030 | 01_03 | The Witnesses | [draft](../drafts/01_03_the_witnesses.md) | Parsed | Standalone metaphysical parent chapter with visible subchapters: The Scene Between Stories; The Addendums; The Ballot; The First Shot. Mother’s shot is intentionally vague here; the consequence becomes readable in the next Addie chapter. |
 | B01.040 | 01_04 | The Weight of the Beacon | [draft](../drafts/01_04_the_weight_of_the_beacon.md) | Parsed | Parent chapter folding old manuscript movements: The Weight of the Beacon; The Logic of the Unbelievable; Geometry and Mathematics. Introduces Talandra’s detail, Boss/Barry, Brickett, the impossible brick, pawn-shop proof, and the Mark of the Orbs match. |
+
+## Book 01 Protected Narrative Fragments
+
+These fragments are preserved prose baselines. Do not shorten or rewrite them during ordinary chapter passes.
+
+| Fragment ID | Protected Text | File | Placement | Rule |
+|---|---|---|---|---|
+| B01.PROTECT.SPEECH.01 | Addie’s Three Hundred Steps speech | [protected fragment](../drafts/protected/01_05_addie_three_hundred_steps_speech.md) | `The Three Hundred Steps` / upcoming parent chapter | Preserve in full for now. Any trimming must happen in a dedicated speech pass and must retain meaning, faction accountability, Addie’s honesty, and the conjunction-as-mirror thesis. |
 
 ## Book 01 Stub Slots
 
