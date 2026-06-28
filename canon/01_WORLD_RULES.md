@@ -8,6 +8,49 @@
 - The Meridian Accord is a guild, specifically Addie's guild, not the nation itself.
 - Regional identities, city cultures, and faction pressures still matter, but they do not override the one-nation rule.
 
+## Naming Structure
+
+Eidolon formal names normally use:
+
+`Given Name + Paternal Middle Initial + Maternal Family Name`
+
+### Maternal Family Name Rule
+
+A person inherits their **mother's family name** as their last name. This is intentionally maternal in contrast to many Earth naming systems.
+
+### Paternal Middle Initial Rule
+
+A person's middle initial is derived from the father's first name or paternal naming line. This functions like a compressed patronymic marker.
+
+### Formal Introduction Rule
+
+In formal, military, legal, guild, or political settings, characters should usually be introduced with their middle initial. This makes middle initials feel natural in the culture instead of suspicious.
+
+### H-Initial Hidden Signal
+
+The **H** middle initial is structurally important and should be protected.
+
+- Companions carry **H** as the meaningful hidden marker.
+- Brickett also carries **H** and belongs to this exception set.
+- Non-companion supporting cast should receive non-H middle initials.
+- Before the dinner chapter reveals or discusses the pattern, do not call attention to H. Let it feel like ordinary naming texture.
+- After the dinner chapter, readers should be primed to look for H initials and notice their absence elsewhere.
+
+### Current H Exceptions
+
+- Adeshka H. Sonntag.
+- Gregory H. Frydrake.
+- Brynn H. Stonevain.
+- Captain Talandra H. Highwatch.
+- Carrio H. Vessalor.
+- High Theorimist Mattieu H. Cardinal.
+- Mae'vyri H. Van'Kareth.
+- Yurislav H. Arslan.
+- Rhun H. Ignis.
+- Brickett H.
+
+Supporting characters introduced around the Book 01 guard detail must not accidentally receive H initials.
+
 ## Continent and Geography
 
 - Primary supercontinent: **Aurreth**.
