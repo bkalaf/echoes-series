@@ -113,6 +113,7 @@ Book 01 draft files are compiled in the order below. Draft filenames are stable 
 | B01.030 | 01_03 | The Witnesses | [draft](../drafts/01_03_the_witnesses.md) | Parsed | Standalone metaphysical parent chapter with visible subchapters: The Scene Between Stories; The Addendums; The Ballot; The First Shot. Mother’s shot is intentionally vague here; the consequence becomes readable in the next Addie chapter. |
 | B01.040 | 01_04 | The Weight of the Beacon | [draft](../drafts/01_04_the_weight_of_the_beacon.md) | Parsed | Parent chapter folding old manuscript movements: The Weight of the Beacon; The Logic of the Unbelievable; Geometry and Mathematics. Introduces Tallandra’s detail, Boss/Barry, Brickett, the impossible brick, pawn-shop proof, and the Mark of the Orbs match. |
 | B01.050 | 01_05 | The Core of the Conjunction | [draft](../drafts/01_05_the_core_of_the_conjunction.md) | Parsed | Parent chapter folding old manuscript movements: The Core of the Conjunction; The Three Hundred Steps. Includes blue-beacon activation, public scrolls, Addie/Brickett slot reveal, Verrick/Ruin intervention, Aquila Matara arrival, protected Addie speech, silent applause, and cosmic beacon response. |
+| B01.060 | 01_06 | The Weight of the Roster | [draft](../drafts/01_06_the_weight_of_the_roster.md) | Parsed | Standalone Conclave chamber chapter. Reveals wall roster architecture, Mae’s Speaker role, Overseer/Donvaris confrontation, scroll openings for Mae/Carrio/Rhün/Yurislav, power-transfer lockdown, Addie’s collection into the mirror, Gregory reveal, and Mae’s Brickett no-last-name question. |
 
 ## Book 01 Protected Narrative Fragments
 
@@ -128,10 +129,9 @@ This map comes from a full look-ahead scan of the remaining Book 01 prose. Treat
 
 | Planned Slot | Planned Parent Chapter | Manuscript Movements Likely Folded | Current Judgment | Notes |
 |---|---|---|---|---|
-| B01.060 | The Weight of the Roster | The Weight of the Roster | Standalone parent chapter | Too large and functionally distinct to bury inside the speech chapter. Conclave chamber, official roster, companion/staff logistics, High Sovereign pressure, Mae’s wall/coin logic, and Brickett no-last-name question. |
 | B01.070 | The First Mirror | The First Mirror; The Second Mirror; Return to Normal | Strong grouping | Continuous metaphysical mirror sequence followed by Addie’s return and handoff toward Mae’s estate. Preserve Witness/Silence logic and mirror-riddle escalation. |
 | B01.080 | The Weight of Being Asked | The Weight of Being Asked; The Weight of What He Wouldn’t Give | Strong grouping | Dinner / companion consolidation chapter. Overseer arrives, questions are asked, help is requested, H-pattern and replacement logic may be seeded or discussed depending on later canon. |
-| B01.090 | Day One Architecture | Day One Architecture; Holes in the Wall | Strong grouping | First operational day: estate morning, breakfast table with Max and Tikket z Varn, planning, portalport ticket logistics from Tikket, movement through city, tactical team selection, and first confrontation / public-pressure scene. |
+| B01.090 | Day One Architecture | Day One Architecture; Holes in the Wall | Strong grouping | First operational day: estate morning, breakfast table with Max and Tikket Z. Varn, planning, portalport ticket logistics from Tikket, movement through city, tactical team selection, and first confrontation / public-pressure scene. |
 | B01.100 | The Bountiful Harvest | The Bountiful Harvest; The Unwound Core | Strong grouping but likely short | Mission result, return to estate, green beacon aftermath, paired coins / Mark of the Orbs inheritance logic, Ariadne’s Thread recognition, and transition into the next phase. |
 
 ### Look-Ahead Rule
@@ -157,7 +157,6 @@ The manuscript currently contains additional chapter material not yet fully pars
 
 Known upcoming manuscript headings include:
 
-- The Weight of the Roster
 - The First Mirror
 - The Second Mirror
 - Return to Normal
