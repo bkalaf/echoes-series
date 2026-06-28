@@ -47,13 +47,14 @@ Dear Reader chapters may cover:
 
 They should connect back to Eidolon without feeling like ordinary scenes inside Eidolon.
 
-## Uploaded Prose Source Inventory
+## Uploaded Prose / Source Inventory
 
 These uploaded files are now tracked as source material for future interludes or mirror chapters. Do not treat every uploaded file as final-placement prose without a placement pass.
 
 | Source File | Working Title / Contents | Current Use |
 |---|---|---|
 | `embargo.md` | `Interlude: The Choice to Do Nothing` | Book 01 final/active prose source. Saved as `drafts/interludes/01_interlude_the_choice_to_do_nothing.md`. |
+| `ecology.md` | Master production prompt for Book 02 science interlude: ecological cascade, beaver refugia, Sakura Branch / sequoia seed, Gregory / Frank scene. | Book 02 science source prompt. Saved as `drafts/interludes/source_material/book02_science_ecology_prompt.md`. Not final prose yet. |
 | `munich-agreement.md` | Long Dear Reader source containing `The Paper Peace`, `The Branch in the Ash`, `The Record That Had to Burn`, `The Machine That Heard the Salute`, `The Shield They Tried to Erase`, and `The Hero They Punished Anyway`. | Multi-book style/prose source for Gregory, Carrio, Mattieu, and Brynn interludes. Needs per-book extraction before final placement. |
 | `turing.md` | Shorter / alternate `The Machine That Heard the Salute`. | Book 03 alternate or earlier source for Turing/codebreaking/coin/legitimacy material. |
 | `turing-2.md` | `Interlude: The Hero They Punished Anyway`. | Book 05 Turing persecution / Brynn identity-pressure source. |
@@ -69,7 +70,7 @@ This table gives every book an immediate interlude slot based on the WWII matrix
 |---:|---|---|---|---|---|
 | 01 | Interlude: The Choice to Do Nothing | Japanese oil embargo / resource pressure / Pacific attack chain | Addie must pull the first thread | **Placed / prose saved** | Compile as `B01.035`, after `The Witnesses` and before `The Weight of the Beacon`. |
 | 02 | Interlude: The Paper Peace | Munich Agreement / appeasement | Gregory must breathe fire | Source uploaded | Extract from `munich-agreement.md`; should frame avoidance as permission and set up Gregory becoming visible. |
-| 02 | Interlude: The Branch in the Ash | Ecological cascade / beavers / post-fire refuge / sakura branch | Gregory, Sakura Branch, Revel | Source uploaded | Extract from `munich-agreement.md`; science/reward/culture bridge, not the WWII slot. |
+| 02 | Interlude: The Branch in the Ash | Ecological cascade / beavers / post-fire refuge / sakura branch | Gregory, Sakura Branch, Revel | **Source prompt saved** | Use `drafts/interludes/source_material/book02_science_ecology_prompt.md` as primary production prompt. This is the Book 02 science / reward / semantic-loophole interlude source, not yet final prose. |
 | 03 | Interlude: The Machine That Heard the Salute | Alan Turing, Enigma/codebreaking, secrecy infrastructure | Gregory accepts spotlight / Crownless Coin / legitimacy systems | Source uploaded | Compare `munich-agreement.md` and `turing.md`; choose final version later. |
 | 04 | Interlude: The Line That Inherited the Wound | Romanov execution / dynastic trauma | Brynn owns royal lineage | Stub only | Needs prose later; pair with Yggdrasil Root and inherited trauma. |
 | 05 | Interlude: The Hero They Punished Anyway | Turing persecution / Decency Statutes | Brynn must be brave enough to come out / Spear of Destiny | Source uploaded | Use `turing-2.md` or extracted polished version from `munich-agreement.md`. The point is lineage/identity cage, not a one-to-one sexuality allegory. |
@@ -191,3 +192,32 @@ The interlude returns the reader to Addie in the guildmaster’s office, just be
 ### Required Comedic or Emotional Exit
 
 End on the narrator asking whether Addie will pull the first loose thread, immediately feeding into Addie debating lunch / canteen bread in Kwame’s office.
+
+## Book 02 — Interlude: The Branch in the Ash
+
+### Chapter Type
+Science / reward / semantic-loophole Dear Reader source, not final prose yet.
+
+### Source File
+`drafts/interludes/source_material/book02_science_ecology_prompt.md`
+
+### Placement
+Book 02, exact compile position TBD. Likely near Gregory’s seed / branch / Revel objective sequence.
+
+### Thematic Grounding
+Ecological cascade collapse; unglamorous systemic resilience; strange gifts in ugly packages; exact wording as loophole. The beaver/refugia structure should mirror Brickett’s small repetitive usefulness and Gregory’s eventual realization that the system does not require the seed as reward — the **branch** is the frame.
+
+### Required Anchors
+- Knapdale 11 pioneer beavers.
+- Bavarian-origin Tayside / Beauly fugitives.
+- Genetic bottleneck rescue through messy intermingling.
+- Beaver-engineered fire refugia / green ribbons.
+- Multi-species survival in saturated mud structures.
+- Ancient sequoia seed preserved in anoxic mud.
+- Sakura Branch / Sequoia double-lock.
+- Gregory’s real fire as authentic ancestral heat vector.
+- Frank / Revel breaking script.
+- Deceiver / Noell Smukk alive inside mainframe reveal.
+
+### Status
+Source prompt saved. Final interlude prose not yet generated or placed.
