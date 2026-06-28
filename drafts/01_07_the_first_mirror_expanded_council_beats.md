@@ -52,7 +52,7 @@ She sees:
 - one deliberate empty seat inside the circle;
 - Noel Smukk outside the circle in the amber chair;
 - Dianne present through the weave/system wall, red-clad and tired in a way Addie cannot place;
-- Hans Halcyon near the head-pressure of the room, not formally presiding but impossible to ignore.
+- Hans Halcyon Hohenzollern near the head-pressure of the room, not formally presiding but impossible to ignore.
 
 Addie must **not** think Noel’s seat belongs to her.
 
@@ -196,7 +196,7 @@ Do not reveal her partner’s later loss.
 
 ## 7. Hans / Recovery: The Planned Species Route
 
-Hans Halcyon now speaks with the authority of a major patron/funder.
+Hans Halcyon Hohenzollern now speaks with the authority of a major patron/funder.
 
 No one argues with Hans directly, because he and Noel are funding much of the Exodus infrastructure.
 
