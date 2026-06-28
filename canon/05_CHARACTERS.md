@@ -165,7 +165,8 @@ See [World Rules](./01_WORLD_RULES.md) for the full naming structure.
 - Tied to Mother, Witness Zero / the Betrayed logic, and hidden continuity.
 - Uses / carries old-world residue such as the lighter.
 - Voice: Hans is measured, courtly, old-world, confident. Franklin is warmer and more performative.
-  
+- Accent note: Hans can carry old-world / Germanic residue when speaking as Hans. This is separate from Franklin/Revel’s source accent, which is Australian.
+
 ### Mother / Dianne
 
 - Mother AI: Dianne.
@@ -173,7 +174,7 @@ See [World Rules](./01_WORLD_RULES.md) for the full naming structure.
 - Not omniscient.
 - Can be wrong.
 - Built systems to preserve humanity but cannot remove free will without destroying the moral premise.
-- This should NEVER be explained to the reader. She should present just as a normal nuturing individual.
+- This should NEVER be explained to the reader. She should present just as a normal nurturing individual.
 
 ### The Overseer
 
@@ -195,7 +196,7 @@ See [World Rules](./01_WORLD_RULES.md) for the full naming structure.
 
 ## Architect / Witness Character Roster
 
-This section carries the actual Architect/Witness roster on the characters page. The supporting index still exists, but this page must contain the names, functions, Witness forms, and key continuity warnings directly.
+This section carries the actual Architect/Witness roster on the characters page. The supporting index still exists, but this page must contain the names, functions, Witness forms, accent/cultural influence, and key continuity warnings directly.
 
 Crosslinks:
 
@@ -214,30 +215,32 @@ Crosslinks:
 - **Dominion and Veils are separate council seats** in the historical meeting. Their later two-headed Witness form must not collapse Malcolm and Alessandra into one person too early.
 - Noel Smukk is not an Architect/Witness; he is a governance-pressure figure who enters the conversation later.
 - Visual references must not override locked names, ranks, roles, or spellings.
+- Accent / cultural influence comes from the final column of `WITNESSES.md` and must carry to **both** the human council member / Architect and the later Witness presentation.
+- Accents are performance direction. Use rhythm, diction, class markers, formality, idiom pressure, and sentence structure. Do **not** write heavy phonetic dialect.
 
 ### Roster Snapshot
 
-| # | Council Member / Architect | Role | Core Value Defended | Later Witness |
-|---:|---|---|---|---|
-| 1 | José Mateo Navarro | Assistant / operational support | Human dignity; people are never cargo | Horror / Regret |
-| 2 | Hans Halcyon; Franklin Emmett Vale later inherits wound | Recovery / practical patron voice | Humanity must remain worthy of survival; recovery must include more than bare survival | Revel / Laughter |
-| 3 | Seraphine Iris Delacroix | Legislator | Transparent law and accountable governance | Crown |
-| 4 | Magnus Evren Korr | Preservationist | Meaning-bearing objects, rituals, and continuity | Stone |
-| 5 | Mireya Celeste Navarro | Surgeon | Medicine cannot reduce people to parts | Mercy |
-| 6 | Soren Emilio Maren | Biologist | Evolution and adaptation must remain possible | Tides |
-| 7 | Corvin Alaric Vale | Archivist | Open records over comforting myths | Echoes |
-| 8 | Solomon Elias Ward | Faith-leader | Faith as truth-bearing hope, not manufactured comfort | Ash |
-| 9 | Malcolm Alistair MacRae | Warden / security chief | Security must never become fear | Dominion |
-| 10 | Alessandra Bianca Valenti | Keeper of Lines / geneticist | Reject genetic purity, caste, and optimization | Veils |
-| 11 | Aurelius Simon Thorne | Programmer / Meridian engineer | Memory is identity, not data | Meridian |
-| 12 | Gideon Luca Mercer | Logistician | Infrastructure is compassion made tangible | Bastion |
-| 13 | Elias Victor Moreau | Mathematician / Helix Probability | Models predict; they do not choose | Omen / Foresight |
-| 14 | Idris Malik Omari | Historian | Preserve every culture, not merely dominant ones | Sand |
-| 15 | Kaelen Darius Veyr | Terraformer | Stewardship over conquest | Tempest |
-| 16 | Elowen Miriam Vale | Zoologist | Ecosystems and non-human life are non-negotiable | Harvest |
-| 17 | Noa Isabel Marrow | Teacher | Education cannot become approved memory | Lanterns |
-| 18 | Matteo Cesar Orlov | Agriculturalist / resource steward | Shared provision creates civilization | Hearth |
-| 19 | SIL-3NCE / Silence | Witness-only exception | Compassion curdled into disconnection | Silence |
+| # | Council Member / Architect | Role | Core Value Defended | Later Witness | Accent / Cultural Influence |
+|---:|---|---|---|---|---|
+| 1 | José Mateo Navarro | Assistant / operational support | Human dignity; people are never cargo | Horror / Regret | Mexican |
+| 2 | Hans Halcyon; Franklin Emmett Vale later inherits wound | Recovery / practical patron voice | Humanity must remain worthy of survival; recovery must include more than bare survival | Revel / Laughter | Franklin/Revel: Australian; Hans separately old-world/Germanic where active |
+| 3 | Seraphine Iris Delacroix | Legislator | Transparent law and accountable governance | Crown | Aristocratic French |
+| 4 | Magnus Evren Korr | Preservationist | Meaning-bearing objects, rituals, and continuity | Stone | Nordic mountain |
+| 5 | Mireya Celeste Navarro | Surgeon | Medicine cannot reduce people to parts | Mercy | Mexican-Latin |
+| 6 | Soren Emilio Maren | Biologist | Evolution and adaptation must remain possible | Tides | Nordic coastal |
+| 7 | Corvin Alaric Vale | Archivist | Open records over comforting myths | Echoes | British archival |
+| 8 | Solomon Elias Ward | Faith-leader | Faith as truth-bearing hope, not manufactured comfort | Ash | West African diaspora / transatlantic clerical |
+| 9 | Malcolm Alistair MacRae | Warden / security chief | Security must never become fear | Dominion | Scottish |
+| 10 | Alessandra Bianca Valenti | Keeper of Lines / geneticist | Reject genetic purity, caste, and optimization | Veils | Italian |
+| 11 | Aurelius Simon Thorne | Programmer / Meridian engineer | Memory is identity, not data | Meridian | Old imperial transatlantic |
+| 12 | Gideon Luca Mercer | Logistician | Infrastructure is compassion made tangible | Bastion | Mid-Atlantic militaristic |
+| 13 | Elias Victor Moreau | Mathematician / Helix Probability | Models predict; they do not choose | Omen / Foresight | French-European |
+| 14 | Idris Malik Omari | Historian | Preserve every culture, not merely dominant ones | Sand | East African scholarly |
+| 15 | Kaelen Darius Veyr | Terraformer | Stewardship over conquest | Tempest | Polynesian-Pacific hybrid |
+| 16 | Elowen Miriam Vale | Zoologist | Ecosystems and non-human life are non-negotiable | Harvest | Celtic rural |
+| 17 | Noa Isabel Marrow | Teacher | Education cannot become approved memory | Lanterns | Iberian-Latin |
+| 18 | Matteo Cesar Orlov | Agriculturalist / resource steward | Shared provision creates civilization | Hearth | Balkan-Mediterranean |
+| 19 | SIL-3NCE / Silence | Witness-only exception | Compassion curdled into disconnection | Silence | Artificial adaptive hybrid |
 
 ### José Mateo Navarro — Horror / Regret
 
@@ -246,23 +249,26 @@ Crosslinks:
 - Core Value: Human dignity; people are never cargo.
 - Later Witness: **Horror**, later understood as **Regret**.
 - Witness Color: Black.
+- Accent / Cultural Influence: **Mexican**. This carries to both José and Horror/Regret.
 - Council Form: Exhausted operational administrator; the person who sees bodies behind spreadsheets, routes, manifests, and delays.
 - Witness Form: Arachne-associated Horror / Regret.
 - Visual Direction: Dark-skinned / Afro-Latino-coded operational planner in white robes, tense and grounded. The Witness form should shift away from seductive spider-queen energy and toward evacuation grief, abandoned name tags, broken route maps, ledgers, and Ariadne’s Thread.
-- Voice: Controlled, practical, low-emotion until grief breaks through.
+- Voice: Controlled, practical, low-emotion until grief breaks through. Use Mexican cultural cadence as performance direction, not phonetic dialect.
 - Continuity Warning: He should not feel like a villain. He is a helper destroyed by what help could not prevent.
 
 ### Franklin Emmett Vale — Revel / Laughter
 
-- Canon Status: Franklin takes Hans spot after his death in the explosion on the arks
+- Canon Status: Franklin takes Hans spot after Hans's death in the explosion on the arks.
 - Council Role: Hans speaks the Recovery / practical patron seat during the historical council. Franklin later inherits the wound.
 - Core Value: Humanity must remain worthy of survival; recovery must include more than bare biological survival.
 - Later Witness: **Revel / Laughter**.
 - Witness Color: White.
+- Accent / Cultural Influence: **Australian** for Franklin and Revel/Laughter. Hans remains separate: old-world / Germanic residue when he is the speaker.
 - Council Form: Hans is an older silver-haired patron/funder, respected, practical, morally weighty, and impossible to ignore without formally presiding.
 - Franklin Form: Later recovery/entertainer figure tied to avoidance, spectacle, morale, and the wound of accepting too little recovery.
 - Witness Form: Treant-associated recovery-turned-impulse figure; joy, healing, festival, and recovery becoming too much.
 - Visual Direction: Hans carries old-world purple-gold patron energy and continuity residue such as the lighter. Revel should be beautiful and warm before becoming excessive.
+- Voice: Franklin/Revel should carry Australian rhythm/cultural influence through looseness, humor, and performance energy without caricature. Hans is measured, courtly, old-world, and commanding.
 - Continuity Warning: In Book 14, Hans is present naturally as a respected practical voice. Do not replace him with Franklin in the historical council unless the canon is explicitly revised.
 
 ### Seraphine Iris Delacroix — Crown
@@ -272,10 +278,11 @@ Crosslinks:
 - Core Value: Transparent law and accountable governance.
 - Later Witness: **Crown**.
 - Witness Color: White.
+- Accent / Cultural Influence: **Aristocratic French**. This carries to both Seraphine and Crown.
 - Council Form: Elegant legal authority; disciplined posture, precise restraint, someone who believes process is civilization’s spine.
 - Witness Form: Angelic / Crown-associated judgment-pressure iconography.
 - Visual Direction: White-blue-gold formal authority, sharpened with seals, law tablets, mandates, appeal ledgers, court records, scales, and coins.
-- Voice: Clear, formal, judicial, controlled.
+- Voice: Clear, formal, judicial, controlled; aristocratic French cadence through precision and social hierarchy, not phonetic spelling.
 - Continuity Warning: Do not make Crown merely a divine monarch. Her corruption is law becoming judgment without accountability.
 
 ### Magnus Evren Korr — Stone
@@ -285,10 +292,11 @@ Crosslinks:
 - Core Value: Objects, rituals, and preserved forms matter because people gave them meaning.
 - Later Witness: **Stone**.
 - Witness Color: Green.
+- Accent / Cultural Influence: **Nordic mountain**. This carries to both Magnus and Stone.
 - Council Form: Large, grounded preservation scholar / curator; someone who can stand in a museum during a fire and still remember people matter more than artifacts.
 - Witness Form: Stone giant; permanence hardened into stagnation.
 - Visual Direction: Northern-coded man before monumental obelisk; add artifacts, crates, heritage objects, and preservation ledgers. Witness form should include monoliths, ruins, and possibly living things trapped/frozen by preservation.
-- Voice: Slow, resonant, deliberate; avoids ornament unless talking about art or culture.
+- Voice: Slow, resonant, deliberate; avoids ornament unless talking about art or culture. Nordic mountain influence should feel grounded and weathered, not comedic.
 - Continuity Warning: His flaw is not loving objects. His flaw is freezing meaning after life has moved on.
 
 ### Mireya Celeste Navarro — Mercy
@@ -298,10 +306,11 @@ Crosslinks:
 - Core Value: Medicine cannot reduce people to parts.
 - Later Witness: **Mercy**.
 - Witness Color: Black.
+- Accent / Cultural Influence: **Mexican-Latin**. This carries to both Mireya and Mercy.
 - Council Form: Compassionate but severe physician; her hands matter visually; she has made triage decisions and hates anyone who speaks of bodies as inventory.
 - Witness Form: Goblin alchemist / surgeon; cost becoming sacrifice.
 - Visual Direction: Add surgeon cues: hands, instruments, anatomy diagrams, ethical triage notes. Witness form should be tragic surgeon, not villainous necromancer.
-- Voice: Soft when speaking to patients; steel when discussing ethics.
+- Voice: Soft when speaking to patients; steel when discussing ethics. Mexican-Latin influence should inform warmth, rhythm, and moral force without phonetic dialect.
 - Continuity Warning: Her horror comes from accepting bodily cost, not from enjoying cruelty.
 
 ### Soren Emilio Maren — Tides
@@ -311,10 +320,11 @@ Crosslinks:
 - Core Value: Evolution and adaptation must remain possible.
 - Later Witness: **Tides**.
 - Witness Color: Green.
+- Accent / Cultural Influence: **Nordic coastal**. This carries to both Soren and Tides.
 - Council Form: Weathered life-sciences figure; adaptive ecology, marine/field-research presence; thinks in systems and migrations rather than clean lab boxes.
 - Witness Form: Walrus-associated Tides; adaptation curdled into overwhelming emotion.
 - Visual Direction: Coastal scientist in blue robes, sea visible behind him, quiet grief. Witness form should include underwater city, current-lines, migration markers, marine biology, and submerged change.
-- Voice: Patient field-scientist cadence; explains complexity without condescension until pressured.
+- Voice: Patient field-scientist cadence; explains complexity without condescension until pressured. Nordic coastal influence should feel tide-worn and practical.
 - Continuity Warning: He should resist over-controlled biology because life needs adaptation, not just preservation.
 
 ### Corvin Alaric Vale — Echoes
@@ -324,10 +334,11 @@ Crosslinks:
 - Core Value: Open records over comforting myths.
 - Later Witness: **Echoes**.
 - Witness Color: Yellow.
+- Accent / Cultural Influence: **British archival**. This carries to both Corvin and Echoes.
 - Council Form: Dark, watchful record-keeper; ink-stained or recorder-associated; believes access to truth matters as much as preserving truth.
 - Witness Form: Raven-associated Echoes; remembrance becoming obsession.
 - Visual Direction: Dark-haired archivist with glasses, stacks, ledgers, data-vaults, sealed archives. Witness form: golden raven archivist in vast luminous archive with floating records; chains/duplicated records if stronger Raven’s Chain resonance is needed.
-- Voice: Dry, exact, archival; can sound like a person quoting source language under stress.
+- Voice: Dry, exact, archival; can sound like a person quoting source language under stress. British archival influence should appear as precision, reserve, and source-conscious phrasing.
 - Continuity Warning: His compromise is not forgetfulness; it is preserving truth while restricting who can see it.
 
 ### Solomon Elias Ward — Ash
@@ -337,10 +348,11 @@ Crosslinks:
 - Core Value: Faith as truth-bearing hope, not manufactured comfort.
 - Later Witness: **Ash**.
 - Witness Color: Blue.
+- Accent / Cultural Influence: **West African diaspora / transatlantic clerical**. This carries to both Solomon and Ash.
 - Council Form: Human priest / faith leader. Crucially, he looks recognizably like the Witness of Ash because Ash presents as human.
 - Witness Form: Human-presenting spectral priest; Faith becoming Despair.
 - Visual Direction: Black male civic theologian / faith keeper in white-blue-gold robes; alternate darker form with glowing blue script and lantern. Witness form keeps the lantern, written light across face/hands, and human recognition.
-- Voice: Gentle, grief-literate, truth-bearing; faith without sentimentality.
+- Voice: Gentle, grief-literate, truth-bearing; faith without sentimentality. The clerical transatlantic influence should give him moral music without sermonizing.
 - Continuity Warning: Solomon closes Act II in Book 14 as the emotional summit. His hinge question should frame every value as faith in people not yet born.
 
 ### Malcolm Alistair MacRae — Dominion
@@ -350,10 +362,11 @@ Crosslinks:
 - Core Value: Security must never become fear.
 - Later Witness: **Dominion**.
 - Witness Color: Red.
+- Accent / Cultural Influence: **Scottish**. This carries to both Malcolm and Dominion.
 - Council Form: Military/security authority; broad, controlled, disciplined; believes restraint separates protection from domination.
 - Witness Form: Ogre head 1 / Dominion; later presented with Veils in two-headed ogre structure.
 - Visual Direction: Red-haired Scottish-coded formal security strategist rather than generic soldier. Later merged Witness form may use the red/blue two-headed ogre, but not for the council.
-- Voice: Controlled command voice; clipped when stressed.
+- Voice: Controlled command voice; clipped when stressed. Scottish influence should affect rhythm and word choice, not heavy phonetic dialect.
 - Relationship: Husband of Alessandra Bianca Valenti / Veils.
 - Continuity Warning: Do not collapse Malcolm and Alessandra into one person during First Mirror or Book 14. They are separate council seats.
 
@@ -364,10 +377,11 @@ Crosslinks:
 - Core Value: Reject genetic purity, caste, and optimization.
 - Later Witness: **Veils**.
 - Witness Color: Blue.
+- Accent / Cultural Influence: **Italian**. This carries to both Alessandra and Veils.
 - Council Form: Elegant geneticist / lineage keeper; outward composure hiding terror; trained to think in inheritance while fearing social judgment.
 - Witness Form: Ogre head 2 / Veils; later presented with Dominion in two-headed ogre structure.
 - Visual Direction: Elegant Italian-coded woman in blue-white-gold; add helix, lineage charts, mirror, genetic tablets, and terror under discipline.
-- Voice: Precise, controlled, ethical-scientific; fear makes her sharper, not louder.
+- Voice: Precise, controlled, ethical-scientific; fear makes her sharper, not louder. Italian influence should inform cadence and social precision without caricature.
 - Relationship: Wife of Malcolm Alistair MacRae / Dominion.
 - Continuity Warning: Her council value must explicitly reject purity and caste. Do not finalize her full compromise until the genetic-diversity research pass is complete.
 
@@ -378,10 +392,11 @@ Crosslinks:
 - Core Value: Memory is identity, not data.
 - Later Witness: **Meridian**.
 - Witness Color: Red/Blue.
+- Accent / Cultural Influence: **Old imperial transatlantic**. This carries to both Aurelius and Meridian.
 - Council Form: Systems engineer / programmer with severe intellectual focus; can mistake a perfect map for mercy unless checked.
 - Witness Form: Minotaur-associated Meridian; continuity becoming grief.
 - Visual Direction: Polished blue suit/gold vest with architectural/coded blueprint table; add memory systems, code lattices, checksums, circuit-map motifs. Witness form should include red/blue bifurcation, scroll, cipher, and memory-lattice cues.
-- Voice: Precise, technical, philosophical when cornered.
+- Voice: Precise, technical, philosophical when cornered. Old imperial transatlantic influence should feel polished, institutional, and historically burdened.
 - Continuity Warning: His betrayal is treating continuity patterns as if they replace the person.
 
 ### Gideon Luca Mercer — Bastion
@@ -391,10 +406,11 @@ Crosslinks:
 - Core Value: Infrastructure is compassion made tangible.
 - Later Witness: **Bastion**.
 - Witness Color: White.
+- Accent / Cultural Influence: **Mid-Atlantic militaristic**. This carries to both Gideon and Bastion.
 - Council Form: Practical logistics master; supply-chain, warehouse, medicine, route-planning energy; competent enough to be morally dangerous when silent.
 - Witness Form: Rhino-associated Bastion; perseverance exposing vulnerability.
 - Visual Direction: Mediterranean / Mid-Atlantic-coded planner in blue robes; add routes, supply chains, warehouses, medicine crates, water ledgers. Witness form: white rhino guardian in ceremonial robes with staff and luminous gate/halo architecture.
-- Voice: Plainspoken, efficient, grounded.
+- Voice: Plainspoken, efficient, grounded. Mid-Atlantic militaristic influence should make him clipped, logistical, and command-ready.
 - Continuity Warning: His compromise begins when he allows supplies, warehouses, and routes to become hidden from the people they were meant to save.
 
 ### Elias Victor Moreau — Omen / Foresight
@@ -404,10 +420,11 @@ Crosslinks:
 - Core Value: Models predict; they do not choose.
 - Later Witness: **Omen / Foresight**.
 - Witness Color: Blue.
+- Accent / Cultural Influence: **French-European**. This carries to both Elias and Omen/Foresight.
 - Council Form: Probability theorist; precise, anxious restraint; knows the moral difference between a model and a verdict.
 - Witness Form: Owl-associated Omen / Foresight; inevitability becoming anxiety.
 - Visual Direction: Focused man at probability table; add probability spirals, forecast threads, cracked star charts, branching futures. Witness form: blue owl oracle in celestial observatory, but not too calm.
-- Voice: Quiet, exact, brittle under pressure.
+- Voice: Quiet, exact, brittle under pressure. French-European influence should be controlled and intellectual, not decorative.
 - Continuity Warning: His compromise is not obeying the numbers. It is letting pressure and fear make him falsify what the numbers still leave possible.
 
 ### Idris Malik Omari — Sand
@@ -417,10 +434,11 @@ Crosslinks:
 - Core Value: Preserve every culture, not merely dominant ones.
 - Later Witness: **Sand**.
 - Witness Color: Green.
+- Accent / Cultural Influence: **East African scholarly**. This carries to both Idris and Sand.
 - Council Form: Historian of names, causes, erased peoples; morally serious, grief-aware, allergic to flattering national myths.
 - Witness Form: Elephant-associated Sand; preservation becoming erasure.
 - Visual Direction: Black scholarly historian in white robes with historical objects: drums, named ledgers, culture maps, memory tablets. Witness form: green elephant scholar among tombstones/tablets in graveyard of names.
-- Voice: Warm but grave; storyteller-historian rhythm; avoid caricature.
+- Voice: Warm but grave; storyteller-historian rhythm; avoid caricature. East African scholarly influence should give him intellectual warmth and memory-weight.
 - Continuity Warning: His compromise should hurt because he knows exactly what erasure means.
 
 ### Kaelen Darius Veyr — Tempest
@@ -430,10 +448,11 @@ Crosslinks:
 - Core Value: Stewardship over conquest.
 - Later Witness: **Tempest**.
 - Witness Color: Red.
+- Accent / Cultural Influence: **Polynesian-Pacific hybrid**. This carries to both Kaelen and Tempest.
 - Council Form: Terraformer / ecological restoration strategist; controlled intensity, weathered by planetary-scale stakes.
 - Witness Form: Draconic knight Tempest; cleansing becoming volatility.
 - Visual Direction: Polynesian / Pacific-coded environmental systems engineer with ocean/sky architecture. Witness form: red draconic knight with reconstruction/terraforming cues so he is not merely “war dragon.”
-- Voice: Forceful, restrained, persuasive; sounds like someone used to being ignored until disaster proves him right.
+- Voice: Forceful, restrained, persuasive; sounds like someone used to being ignored until disaster proves him right. Polynesian-Pacific hybrid influence should reinforce stewardship, oceanic scale, and communal consequence.
 - Continuity Warning: His original value is ecological stewardship, not destruction. His wound is cleansing becoming volatile conquest.
 
 ### Elowen Miriam Vale — Harvest
@@ -443,10 +462,11 @@ Crosslinks:
 - Core Value: Ecosystems and non-human life are non-negotiable.
 - Later Witness: **Harvest**.
 - Witness Color: Yellow.
+- Accent / Cultural Influence: **Celtic rural**. This carries to both Elowen and Harvest.
 - Council Form: Zoologist / species steward; intense care for nonhuman life; grief line to partner/husband lost in sample/seed recovery failure.
 - Witness Form: White stag Harvest; stewardship becoming trauma.
 - Visual Direction: Green-cloaked sanctuary/species planner in bright ecology hall. Witness form: golden white stag; add broken antler, empty cages, or lost species silhouettes for trauma.
-- Voice: Tender when discussing animals, sharp when humans call them optional.
+- Voice: Tender when discussing animals, sharp when humans call them optional. Celtic rural influence should feel practical, land-rooted, and emotionally unsentimental.
 - Continuity Warning: She is not sentimental about animals. She understands civilization cannot be saved while treating the rest of life as decoration.
 
 ### Noa Isabel Marrow — Lanterns
@@ -456,10 +476,11 @@ Crosslinks:
 - Core Value: Education cannot become approved memory.
 - Later Witness: **Lanterns**.
 - Witness Color: Black.
+- Accent / Cultural Influence: **Iberian-Latin**. This carries to both Noa and Lanterns.
 - Council Form: Teacher / knowledge-preservation figure; patient but fierce about who gets taught and who gets erased by curriculum.
 - Witness Form: Moth-keeper Lanterns; guidance becoming abandonment.
 - Visual Direction: Young woman in white-gold teacher/civic robes with lantern statue or teaching hall motif. Witness form: purple moth-lantern keeper, not spider/temptress.
-- Voice: Clear, instructive, emotionally direct; does not condescend unless compromised.
+- Voice: Clear, instructive, emotionally direct; does not condescend unless compromised. Iberian-Latin influence should show in warmth, directness, and pedagogical force.
 - Continuity Warning: Her corruption is not ignorance. It is deciding whose knowledge deserves to be passed on.
 
 ### Matteo Cesar Orlov — Hearth
@@ -469,10 +490,11 @@ Crosslinks:
 - Core Value: Shared provision creates civilization.
 - Later Witness: **Hearth**.
 - Witness Color: Red.
+- Accent / Cultural Influence: **Balkan-Mediterranean**. This carries to both Matteo and Hearth.
 - Council Form: Agriculturalist/resource steward; food, water, soil, rationing, and hospitality ethics; a host who understands scarcity.
 - Witness Form: Boar-associated Hearth; hospitality becoming emptiness.
 - Visual Direction: Warm Mediterranean/Balkan-coded man over food/water infrastructure plans; add grain, water, kitchens, cisterns, ration ledgers. Witness form: red boar host at banquet; add empty chairs, spoiled food, unreachable guests, or too-much feast for emptiness.
-- Voice: Warm host voice with hard resource math underneath.
+- Voice: Warm host voice with hard resource math underneath. Balkan-Mediterranean influence should carry hospitality, friction, and practical scarcity.
 - Continuity Warning: His wound begins when shared provision becomes hidden resource diversion.
 
 ### SIL-3NCE / Silence — Silence
@@ -482,11 +504,20 @@ Crosslinks:
 - Core Value: Compassion curdled into disconnection.
 - Later Witness: **Silence**.
 - Witness Color: Yellow.
+- Accent / Cultural Influence: **Artificial adaptive hybrid**. This carries to Silence as a voice-design rule rather than an Earth-region accent.
 - Book 01 Role: Fox-kit / porcelain-mask guide figure who appears with Addie during First Mirror framing.
 - Witness Form: Fox-like child/guide, not majestic; her power should feel sideways.
 - Visual Direction: Fox child with white fox mask, yellow workshop/clock/monitor room, seated cross-legged.
-- Voice: Soft, playful, evasive, surgical with prompts.
+- Voice: Soft, playful, evasive, surgical with prompts. Artificial adaptive hybrid means she can borrow warmth and rhythm, but should never sound fully human-stable.
 - Continuity Warning: Silence does not validate Addie’s conclusions with “yes,” nods, or explicit approval. She coaches through ambiguity, attention, and refusal.
+
+### Dominion / Veils — Merged Witness Form
+
+- Canon Status: Locked as later Witness presentation only.
+- Human Seats: Malcolm Alistair MacRae and Alessandra Bianca Valenti remain separate people and separate council seats in historical scenes.
+- Witness Form: Two-headed ogre, red and blue, Dominion and Veils joined.
+- Accent / Cultural Influence: **Scottish / Italian**. The merged Witness should carry both: Malcolm/Dominion remains Scottish; Alessandra/Veils remains Italian.
+- Continuity Warning: Do not collapse this back into Book 14 or First Mirror council history. The merged form is a later Witness outcome, not the original meeting structure.
 
 ### Noel Smukk — Architect-Era Non-Witness Pressure Figure
 
