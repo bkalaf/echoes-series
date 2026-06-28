@@ -62,6 +62,7 @@ The “scene between stories”: a non-physical void-space created by Mother for
 - Adeshka / Addie’s ballot.
 - Roll call agreement.
 - Mother’s first tangible shot of the war, intentionally missing.
+- The shot target/effect must remain undisclosed in this chapter; the next Addie chapter should make the consequence readable.
 
 ## Preserve Skeleton?
 Yes. Preserve the order and escalation of the scene, but divide it into visible subchapters for readability and future title-message planning.
@@ -84,6 +85,7 @@ Yes. Preserve the order and escalation of the scene, but divide it into visible 
 - Do not remove Addie’s ballot selection.
 - Do not remove the roll call agreement.
 - Do not remove Mother’s missed shot or the implication that the miss was intentional / useful.
+- Do not reveal what Mother shot, what she hit, or what the shot caused inside this chapter.
 
 ---
 
@@ -276,6 +278,8 @@ The Witnesses have agreed to the plan, Addie’s ballot is confirmed as the cent
 ## Subchapter Function
 Close the chapter by revealing Mother’s hidden observation and first tangible act of war. This short subchapter should feel like an epilogue inside the chapter: intimate, ominous, and strategically precise.
 
+The shot itself must remain intentionally vague. The chapter should confirm that Mother shoots, misses, and meant the miss to matter, but it should not reveal what she shot, what she hit, or what the consequence is. The next Addie chapter should let the reader understand the effect through aftermath.
+
 ## Beat-by-Beat Skeleton
 1. The Overseer does not get up after collecting Addie’s ballot.
 2. He sits in the cold center of nothingness, staring at his hands.
@@ -287,18 +291,21 @@ Close the chapter by revealing Mother’s hidden observation and first tangible 
 8. Mother misses.
 9. The narration clarifies that some first shots are not meant to hit what they aim at.
 10. The miss is a warning, measurement, and trajectory adjustment.
-11. Mother’s calculation is tied to positioning Addie for the speech that will shake Erzengel and start the countdown to Reunification.
-12. Final movement: Mother trusts she chose the right person to give that speech.
+11. The exact target and consequence remain unrevealed in this chapter.
+12. The consequence should become readable in `The Weight of the Beacon` through what Addie sees or experiences next.
+13. Mother’s calculation is tied to positioning Addie for the speech that will shake Erzengel and start the countdown to Reunification.
+14. Final movement: Mother trusts she chose the right person to give that speech.
 
 ## Required Dialogue Intentions
 | Speaker | Dialogue Intention | Verbatim? |
 |---|---|---|
 | Overseer | Blames Mother for bringing him back and making him explain this to Addie. | No |
 | Narration / Mother | Establishes the missed shot as intentional/useful, not failure. | No |
+| Narration / Mother | Keeps the shot target/effect vague inside this chapter. | No |
 | Narration / Mother | Connects the shot to positioning Addie for the coming speech. | No |
 
 ## Subchapter Exit Condition
-Mother’s war has moved from hidden architecture into tangible trajectory adjustment, setting up Addie’s return and the public speech sequence.
+Mother’s war has moved from hidden architecture into tangible trajectory adjustment, but the target and consequence of the shot remain withheld until the next Addie chapter.
 
 ---
 
@@ -326,10 +333,11 @@ Mother’s war has moved from hidden architecture into tangible trajectory adjus
 - The Deceiver / Noel reveal is a major series-level threat seed.
 - The eight-versus-nine companion disagreement should remain unresolved here.
 - Mother’s missed shot should not be framed as incompetence; it is a deliberate or useful trajectory action.
+- Do not reveal the target or consequence of Mother’s shot in this chapter; let the next Addie chapter make it readable through aftermath.
 - Book 01’s core Witnesses remain Horror, Silence, and Sand, but this chapter introduces the full circle.
 
 ## Final Image
-Mother’s shot misses far away in the dark, but the miss has already shifted the future toward Addie’s coming speech.
+Mother’s shot misses far away in the dark, but the miss has already shifted the future toward Addie’s coming speech. What she shot, what changed, and what the miss caused remain hidden until the next chapter.
 
 ## Next Chapter Handoff
-Return to Addie in `The Weight of the Beacon`. That chapter should be parsed separately because it returns to normal-world Addie POV after this metaphysical Witness chapter.
+Return to Addie in `The Weight of the Beacon`. That chapter should reveal the consequence of Mother’s shot through normal-world aftermath while preserving the fact that the Witnesses chapter never directly named the target.
