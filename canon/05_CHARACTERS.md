@@ -192,13 +192,310 @@ See [World Rules](./01_WORLD_RULES.md) for the full naming structure.
 - Morally compromised and self-preserving.
 - Trump-family / authoritarian parallels may inform characterization, but the locked in-world name is **Dovren Judax Thorne**.
 
-## Architect / Witness Character Index
+## Architect / Witness Character Roster
 
-The full character-facing roster for the First Mirror council members, later Witness forms, ethnicity/cultural coding, accent/voice notes, and visual-pass placeholders is maintained here:
+This section carries the actual Architect/Witness roster on the characters page. The supporting index still exists, but this page must contain the names, functions, Witness forms, and key continuity warnings directly.
+
+Crosslinks:
 
 - [Architect / Witness Character Index](./13_ARCHITECT_WITNESS_CHARACTER_INDEX.md)
+- [Architect Exodus Compromises](./11_ARCHITECT_EXODUS_COMPROMISES.md)
+- [Visual Bible — Image Pass Notes](./14_VISUAL_BIBLE_IMAGE_PASS.md)
 
-Use that index as the working authority for all Architect/Witness visual descriptions, accent cues, and image-pass revisions. The index crosslinks back to [Witnesses / Architects / Rewards](./06_WITNESSES_ARCHITECTS_REWARDS.md), [Architect Exodus Compromises](./11_ARCHITECT_EXODUS_COMPROMISES.md), and [Hans File / Noel Exile](./12_HANS_FILE_NOEL_EXILE.md).
+### Use Rules
+
+- In Book 01 First Mirror prose, call the historical figures **council members**, not Architects.
+- “Architect” is an author-facing / later-reveal term.
+- Book 14 may show the complete historical council directly.
+- Book 01 sees an adaptation through Addie’s limited perception and Silence’s obfuscation.
+- The council has **18 seats**.
+- **Silence / SIL-3NCE is not one of the 18 council members** and does not exist yet during the historical council.
+- **Dominion and Veils are separate council seats** in the historical meeting. Their later two-headed Witness form must not collapse Malcolm and Alessandra into one person too early.
+- Noel Smukk is not an Architect/Witness; he is a governance-pressure figure who enters the conversation later.
+- Visual references must not override locked names, ranks, roles, or spellings.
+
+### Roster Snapshot
+
+| # | Council Member / Architect | Role | Core Value Defended | Later Witness |
+|---:|---|---|---|---|
+| 1 | José Mateo Navarro | Assistant / operational support | Human dignity; people are never cargo | Horror / Regret |
+| 2 | Hans Halcyon; Franklin Emmett Vale later inherits wound | Recovery / practical patron voice | Humanity must remain worthy of survival; recovery must include more than bare survival | Revel / Laughter |
+| 3 | Seraphine Iris Delacroix | Legislator | Transparent law and accountable governance | Crown |
+| 4 | Magnus Evren Korr | Preservationist | Meaning-bearing objects, rituals, and continuity | Stone |
+| 5 | Mireya Celeste Navarro | Surgeon | Medicine cannot reduce people to parts | Mercy |
+| 6 | Soren Emilio Maren | Biologist | Evolution and adaptation must remain possible | Tides |
+| 7 | Corvin Alaric Vale | Archivist | Open records over comforting myths | Echoes |
+| 8 | Solomon Elias Ward | Faith-leader | Faith as truth-bearing hope, not manufactured comfort | Ash |
+| 9 | Malcolm Alistair MacRae | Warden / security chief | Security must never become fear | Dominion |
+| 10 | Alessandra Bianca Valenti | Keeper of Lines / geneticist | Reject genetic purity, caste, and optimization | Veils |
+| 11 | Aurelius Simon Thorne | Programmer / Meridian engineer | Memory is identity, not data | Meridian |
+| 12 | Gideon Luca Mercer | Logistician | Infrastructure is compassion made tangible | Bastion |
+| 13 | Elias Victor Moreau | Mathematician / Helix Probability | Models predict; they do not choose | Omen / Foresight |
+| 14 | Idris Malik Omari | Historian | Preserve every culture, not merely dominant ones | Sand |
+| 15 | Kaelen Darius Veyr | Terraformer | Stewardship over conquest | Tempest |
+| 16 | Elowen Miriam Vale | Zoologist | Ecosystems and non-human life are non-negotiable | Harvest |
+| 17 | Noa Isabel Marrow | Teacher | Education cannot become approved memory | Lanterns |
+| 18 | Matteo Cesar Orlov | Agriculturalist / resource steward | Shared provision creates civilization | Hearth |
+| 19 | SIL-3NCE / Silence | Witness-only exception | Compassion curdled into disconnection | Silence |
+
+### José Mateo Navarro — Horror / Regret
+
+- Canon Status: Locked as council member / Architect row 1.
+- Council Role: Assistant / operational support.
+- Core Value: Human dignity; people are never cargo.
+- Later Witness: **Horror**, later understood as **Regret**.
+- Witness Color: Black.
+- Council Form: Exhausted operational administrator; the person who sees bodies behind spreadsheets, routes, manifests, and delays.
+- Witness Form: Arachne-associated Horror / Regret.
+- Visual Direction: Dark-skinned / Afro-Latino-coded operational planner in white robes, tense and grounded. The Witness form should shift away from seductive spider-queen energy and toward evacuation grief, abandoned name tags, broken route maps, ledgers, and Ariadne’s Thread.
+- Voice: Controlled, practical, low-emotion until grief breaks through.
+- Continuity Warning: He should not feel like a villain. He is a helper destroyed by what help could not prevent.
+
+### Hans Halcyon / Franklin Emmett Vale — Revel / Laughter
+
+- Canon Status: Locked as split inheritance row.
+- Council Role: Hans speaks the Recovery / practical patron seat during the historical council. Franklin later inherits the wound.
+- Core Value: Humanity must remain worthy of survival; recovery must include more than bare biological survival.
+- Later Witness: **Revel / Laughter**.
+- Witness Color: White.
+- Council Form: Hans is an older silver-haired patron/funder, respected, practical, morally weighty, and impossible to ignore without formally presiding.
+- Franklin Form: Later recovery/entertainer figure tied to avoidance, spectacle, morale, and the wound of accepting too little recovery.
+- Witness Form: Treant-associated recovery-turned-impulse figure; joy, healing, festival, and recovery becoming too much.
+- Visual Direction: Hans carries old-world purple-gold patron energy and continuity residue such as the lighter. Revel should be beautiful and warm before becoming excessive.
+- Voice: Hans is measured, courtly, old-world, confident. Franklin is warmer and more performative.
+- Continuity Warning: In Book 14, Hans is present naturally as a respected practical voice. Do not replace him with Franklin in the historical council unless the canon is explicitly revised.
+
+### Seraphine Iris Delacroix — Crown
+
+- Canon Status: Locked.
+- Council Role: Legislator.
+- Core Value: Transparent law and accountable governance.
+- Later Witness: **Crown**.
+- Witness Color: White.
+- Council Form: Elegant legal authority; disciplined posture, precise restraint, someone who believes process is civilization’s spine.
+- Witness Form: Angelic / Crown-associated judgment-pressure iconography.
+- Visual Direction: White-blue-gold formal authority, sharpened with seals, law tablets, mandates, appeal ledgers, court records, scales, and coins.
+- Voice: Clear, formal, judicial, controlled.
+- Continuity Warning: Do not make Crown merely a divine monarch. Her corruption is law becoming judgment without accountability.
+
+### Magnus Evren Korr — Stone
+
+- Canon Status: Locked.
+- Council Role: Preservationist.
+- Core Value: Objects, rituals, and preserved forms matter because people gave them meaning.
+- Later Witness: **Stone**.
+- Witness Color: Green.
+- Council Form: Large, grounded preservation scholar / curator; someone who can stand in a museum during a fire and still remember people matter more than artifacts.
+- Witness Form: Stone giant; permanence hardened into stagnation.
+- Visual Direction: Northern-coded man before monumental obelisk; add artifacts, crates, heritage objects, and preservation ledgers. Witness form should include monoliths, ruins, and possibly living things trapped/frozen by preservation.
+- Voice: Slow, resonant, deliberate; avoids ornament unless talking about art or culture.
+- Continuity Warning: His flaw is not loving objects. His flaw is freezing meaning after life has moved on.
+
+### Mireya Celeste Navarro — Mercy
+
+- Canon Status: Locked.
+- Council Role: Surgeon.
+- Core Value: Medicine cannot reduce people to parts.
+- Later Witness: **Mercy**.
+- Witness Color: Black.
+- Council Form: Compassionate but severe physician; her hands matter visually; she has made triage decisions and hates anyone who speaks of bodies as inventory.
+- Witness Form: Goblin alchemist / surgeon; cost becoming sacrifice.
+- Visual Direction: Add surgeon cues: hands, instruments, anatomy diagrams, ethical triage notes. Witness form should be tragic surgeon, not villainous necromancer.
+- Voice: Soft when speaking to patients; steel when discussing ethics.
+- Continuity Warning: Her horror comes from accepting bodily cost, not from enjoying cruelty.
+
+### Soren Emilio Maren — Tides
+
+- Canon Status: Locked.
+- Council Role: Biologist.
+- Core Value: Evolution and adaptation must remain possible.
+- Later Witness: **Tides**.
+- Witness Color: Green.
+- Council Form: Weathered life-sciences figure; adaptive ecology, marine/field-research presence; thinks in systems and migrations rather than clean lab boxes.
+- Witness Form: Walrus-associated Tides; adaptation curdled into overwhelming emotion.
+- Visual Direction: Coastal scientist in blue robes, sea visible behind him, quiet grief. Witness form should include underwater city, current-lines, migration markers, marine biology, and submerged change.
+- Voice: Patient field-scientist cadence; explains complexity without condescension until pressured.
+- Continuity Warning: He should resist over-controlled biology because life needs adaptation, not just preservation.
+
+### Corvin Alaric Vale — Echoes
+
+- Canon Status: Locked.
+- Council Role: Archivist.
+- Core Value: Open records over comforting myths.
+- Later Witness: **Echoes**.
+- Witness Color: Yellow.
+- Council Form: Dark, watchful record-keeper; ink-stained or recorder-associated; believes access to truth matters as much as preserving truth.
+- Witness Form: Raven-associated Echoes; remembrance becoming obsession.
+- Visual Direction: Dark-haired archivist with glasses, stacks, ledgers, data-vaults, sealed archives. Witness form: golden raven archivist in vast luminous archive with floating records; chains/duplicated records if stronger Raven’s Chain resonance is needed.
+- Voice: Dry, exact, archival; can sound like a person quoting source language under stress.
+- Continuity Warning: His compromise is not forgetfulness; it is preserving truth while restricting who can see it.
+
+### Solomon Elias Ward — Ash
+
+- Canon Status: Locked.
+- Council Role: Faith-leader.
+- Core Value: Faith as truth-bearing hope, not manufactured comfort.
+- Later Witness: **Ash**.
+- Witness Color: Blue.
+- Council Form: Human priest / faith leader. Crucially, he looks recognizably like the Witness of Ash because Ash presents as human.
+- Witness Form: Human-presenting spectral priest; Faith becoming Despair.
+- Visual Direction: Black male civic theologian / faith keeper in white-blue-gold robes; alternate darker form with glowing blue script and lantern. Witness form keeps the lantern, written light across face/hands, and human recognition.
+- Voice: Gentle, grief-literate, truth-bearing; faith without sentimentality.
+- Continuity Warning: Solomon closes Act II in Book 14 as the emotional summit. His hinge question should frame every value as faith in people not yet born.
+
+### Malcolm Alistair MacRae — Dominion
+
+- Canon Status: Locked.
+- Council Role: Warden / security chief.
+- Core Value: Security must never become fear.
+- Later Witness: **Dominion**.
+- Witness Color: Red.
+- Council Form: Military/security authority; broad, controlled, disciplined; believes restraint separates protection from domination.
+- Witness Form: Ogre head 1 / Dominion; later presented with Veils in two-headed ogre structure.
+- Visual Direction: Red-haired Scottish-coded formal security strategist rather than generic soldier. Later merged Witness form may use the red/blue two-headed ogre, but not for the council.
+- Voice: Controlled command voice; clipped when stressed.
+- Relationship: Husband of Alessandra Bianca Valenti / Veils.
+- Continuity Warning: Do not collapse Malcolm and Alessandra into one person during First Mirror or Book 14. They are separate council seats.
+
+### Alessandra Bianca Valenti — Veils
+
+- Canon Status: Locked, with detailed genetic-pool compromise still pending final research pass.
+- Council Role: Keeper of Lines / geneticist.
+- Core Value: Reject genetic purity, caste, and optimization.
+- Later Witness: **Veils**.
+- Witness Color: Blue.
+- Council Form: Elegant geneticist / lineage keeper; outward composure hiding terror; trained to think in inheritance while fearing social judgment.
+- Witness Form: Ogre head 2 / Veils; later presented with Dominion in two-headed ogre structure.
+- Visual Direction: Elegant Italian-coded woman in blue-white-gold; add helix, lineage charts, mirror, genetic tablets, and terror under discipline.
+- Voice: Precise, controlled, ethical-scientific; fear makes her sharper, not louder.
+- Relationship: Wife of Malcolm Alistair MacRae / Dominion.
+- Continuity Warning: Her council value must explicitly reject purity and caste. Do not finalize her full compromise until the genetic-diversity research pass is complete.
+
+### Aurelius Simon Thorne — Meridian
+
+- Canon Status: Locked.
+- Council Role: Programmer / Meridian engineer.
+- Core Value: Memory is identity, not data.
+- Later Witness: **Meridian**.
+- Witness Color: Red/Blue.
+- Council Form: Systems engineer / programmer with severe intellectual focus; can mistake a perfect map for mercy unless checked.
+- Witness Form: Minotaur-associated Meridian; continuity becoming grief.
+- Visual Direction: Polished blue suit/gold vest with architectural/coded blueprint table; add memory systems, code lattices, checksums, circuit-map motifs. Witness form should include red/blue bifurcation, scroll, cipher, and memory-lattice cues.
+- Voice: Precise, technical, philosophical when cornered.
+- Continuity Warning: His betrayal is treating continuity patterns as if they replace the person.
+
+### Gideon Luca Mercer — Bastion
+
+- Canon Status: Locked.
+- Council Role: Logistician.
+- Core Value: Infrastructure is compassion made tangible.
+- Later Witness: **Bastion**.
+- Witness Color: White.
+- Council Form: Practical logistics master; supply-chain, warehouse, medicine, route-planning energy; competent enough to be morally dangerous when silent.
+- Witness Form: Rhino-associated Bastion; perseverance exposing vulnerability.
+- Visual Direction: Mediterranean / Mid-Atlantic-coded planner in blue robes; add routes, supply chains, warehouses, medicine crates, water ledgers. Witness form: white rhino guardian in ceremonial robes with staff and luminous gate/halo architecture.
+- Voice: Plainspoken, efficient, grounded.
+- Continuity Warning: His compromise begins when he allows supplies, warehouses, and routes to become hidden from the people they were meant to save.
+
+### Elias Victor Moreau — Omen / Foresight
+
+- Canon Status: Locked.
+- Council Role: Mathematician / Helix Probability.
+- Core Value: Models predict; they do not choose.
+- Later Witness: **Omen / Foresight**.
+- Witness Color: Blue.
+- Council Form: Probability theorist; precise, anxious restraint; knows the moral difference between a model and a verdict.
+- Witness Form: Owl-associated Omen / Foresight; inevitability becoming anxiety.
+- Visual Direction: Focused man at probability table; add probability spirals, forecast threads, cracked star charts, branching futures. Witness form: blue owl oracle in celestial observatory, but not too calm.
+- Voice: Quiet, exact, brittle under pressure.
+- Continuity Warning: His compromise is not obeying the numbers. It is letting pressure and fear make him falsify what the numbers still leave possible.
+
+### Idris Malik Omari — Sand
+
+- Canon Status: Locked.
+- Council Role: Historian.
+- Core Value: Preserve every culture, not merely dominant ones.
+- Later Witness: **Sand**.
+- Witness Color: Green.
+- Council Form: Historian of names, causes, erased peoples; morally serious, grief-aware, allergic to flattering national myths.
+- Witness Form: Elephant-associated Sand; preservation becoming erasure.
+- Visual Direction: Black scholarly historian in white robes with historical objects: drums, named ledgers, culture maps, memory tablets. Witness form: green elephant scholar among tombstones/tablets in graveyard of names.
+- Voice: Warm but grave; storyteller-historian rhythm; avoid caricature.
+- Continuity Warning: His compromise should hurt because he knows exactly what erasure means.
+
+### Kaelen Darius Veyr — Tempest
+
+- Canon Status: Locked.
+- Council Role: Terraformer.
+- Core Value: Stewardship over conquest.
+- Later Witness: **Tempest**.
+- Witness Color: Red.
+- Council Form: Terraformer / ecological restoration strategist; controlled intensity, weathered by planetary-scale stakes.
+- Witness Form: Draconic knight Tempest; cleansing becoming volatility.
+- Visual Direction: Polynesian / Pacific-coded environmental systems engineer with ocean/sky architecture. Witness form: red draconic knight with reconstruction/terraforming cues so he is not merely “war dragon.”
+- Voice: Forceful, restrained, persuasive; sounds like someone used to being ignored until disaster proves him right.
+- Continuity Warning: His original value is ecological stewardship, not destruction. His wound is cleansing becoming volatile conquest.
+
+### Elowen Miriam Vale — Harvest
+
+- Canon Status: Locked.
+- Council Role: Zoologist.
+- Core Value: Ecosystems and non-human life are non-negotiable.
+- Later Witness: **Harvest**.
+- Witness Color: Yellow.
+- Council Form: Zoologist / species steward; intense care for nonhuman life; grief line to partner/husband lost in sample/seed recovery failure.
+- Witness Form: White stag Harvest; stewardship becoming trauma.
+- Visual Direction: Green-cloaked sanctuary/species planner in bright ecology hall. Witness form: golden white stag; add broken antler, empty cages, or lost species silhouettes for trauma.
+- Voice: Tender when discussing animals, sharp when humans call them optional.
+- Continuity Warning: She is not sentimental about animals. She understands civilization cannot be saved while treating the rest of life as decoration.
+
+### Noa Isabel Marrow — Lanterns
+
+- Canon Status: Locked.
+- Council Role: Teacher.
+- Core Value: Education cannot become approved memory.
+- Later Witness: **Lanterns**.
+- Witness Color: Black.
+- Council Form: Teacher / knowledge-preservation figure; patient but fierce about who gets taught and who gets erased by curriculum.
+- Witness Form: Moth-keeper Lanterns; guidance becoming abandonment.
+- Visual Direction: Young woman in white-gold teacher/civic robes with lantern statue or teaching hall motif. Witness form: purple moth-lantern keeper, not spider/temptress.
+- Voice: Clear, instructive, emotionally direct; does not condescend unless compromised.
+- Continuity Warning: Her corruption is not ignorance. It is deciding whose knowledge deserves to be passed on.
+
+### Matteo Cesar Orlov — Hearth
+
+- Canon Status: Locked.
+- Council Role: Agriculturalist / resource steward.
+- Core Value: Shared provision creates civilization.
+- Later Witness: **Hearth**.
+- Witness Color: Red.
+- Council Form: Agriculturalist/resource steward; food, water, soil, rationing, and hospitality ethics; a host who understands scarcity.
+- Witness Form: Boar-associated Hearth; hospitality becoming emptiness.
+- Visual Direction: Warm Mediterranean/Balkan-coded man over food/water infrastructure plans; add grain, water, kitchens, cisterns, ration ledgers. Witness form: red boar host at banquet; add empty chairs, spoiled food, unreachable guests, or too-much feast for emptiness.
+- Voice: Warm host voice with hard resource math underneath.
+- Continuity Warning: His wound begins when shared provision becomes hidden resource diversion.
+
+### SIL-3NCE / Silence — Silence
+
+- Canon Status: Locked as Witness-only exception.
+- Council Role: None. She is not present as one of the 18 historical council members.
+- Core Value: Compassion curdled into disconnection.
+- Later Witness: **Silence**.
+- Witness Color: Yellow.
+- Book 01 Role: Fox-kit / porcelain-mask guide figure who appears with Addie during First Mirror framing.
+- Witness Form: Fox-like child/guide, not majestic; her power should feel sideways.
+- Visual Direction: Fox child with white fox mask, yellow workshop/clock/monitor room, seated cross-legged.
+- Voice: Soft, playful, evasive, surgical with prompts.
+- Continuity Warning: Silence does not validate Addie’s conclusions with “yes,” nods, or explicit approval. She coaches through ambiguity, attention, and refusal.
+
+### Noel Smukk — Architect-Era Non-Witness Pressure Figure
+
+- Canon Status: Locked as non-Architect / non-Witness pressure figure unless later superseded.
+- Role: Governance insertion, long-term watcher candidate, scarcity-framing manipulator.
+- Book 14 Function: Does not dominate Act I or Act II. He becomes narratively important in Act III when scarcity, numbers, logistics, storage, and launch windows enter the conversation.
+- Visual Direction: Polished, dangerous, bureaucratic / aristocratic / technical pressure; should look practical before he looks sinister.
+- Voice: Restrained, reasonable, numbers-first, never cartoonishly evil at the beginning.
+- Continuity Warning: Do not count him among the 18 council seats. Do not make the early council “about Noel”; the subject is eighteen good people defending eighteen irreplaceable values under apocalypse pressure.
 
 ## Book 01 Supporting Cast — Guard Detail / Beacon Escort
 
