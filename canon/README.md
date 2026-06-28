@@ -7,15 +7,16 @@ The current goal is not only to preserve world canon, but also to make chapter c
 ## Canon Folder Shape
 
 - `00_CANON_PRIORITY.md` — source-of-truth hierarchy and superseded terms.
-- `01_WORLD_RULES.md` — global world, nation, conjunction, ship, city, board, and technology rules.
+- `01_WORLD_RULES.md` — global world, nation, conjunction, ship, city, board, setting, constellation, and technology rules.
 - `02_BOOK_SPINE.md` — 18-book master structure.
 - `03_CHAPTER_OUTLINE_SYSTEM.md` — chapter detail levels, section-break rules, and reconstruction templates.
 - `04_DEAR_READER_INTERLUDES.md` — standardized interlude format.
-- `05_CHARACTERS.md` — character template and locked character notes.
-- `06_WITNESSES_ARCHITECTS_REWARDS.md` — Witness, Architect, domain, and reward authority.
+- `05_CHARACTERS.md` — character template, locked character notes, character-facing visual anchors, and Architect/Witness roster.
+- `06_WITNESSES_ARCHITECTS_REWARDS.md` — Witness, Architect, domain, reward, and constellation-transformation authority.
 - `07_CONTINUITY_LEDGER.md` — continuity warnings and unresolved items.
 - `08_RESEARCH_REFERENCES.md` — WWII, science, myth, and atrocity reference structure.
 - `09_STYLE_AND_PROSE_RULES.md` — prose and drafting rules.
+- `14_VISUAL_BIBLE_IMAGE_PASS.md` — visual-reference layer for characters, settings, Witnesses, constellations, and symbolic object language. This file does not replace character/world/reward canon; it links into those sections.
 
 ## Top Rule
 
