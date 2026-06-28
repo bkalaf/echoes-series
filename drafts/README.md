@@ -31,6 +31,7 @@ Scenes are specific narrative units: time/date + setting + cast.
 | [`01_07_the_first_mirror.md`](./01_07_the_first_mirror.md) | The First Mirror | B01-S070; B01-S071; B01-S072; B01-S073; B01-S074; B01-S075; B01-S076 | SET-MIRROR-SEAM; SET-MIRROR-COUNCIL; SET-MIRROR-AQM-THRONE; SET-WITNESS-VOID; SET-AQM-MAE-GATE | Addie; Silence; Horror; Dianne; Noel; Dovren; Overseer; Rhün; Mae offstage |
 | [`01_08_the_weight_of_being_asked.md`](./01_08_the_weight_of_being_asked.md) | The Weight of Being Asked | B01-S080; B01-S081; B01-S082 | SET-AQM-MAE-ESTATE; SET-AQM-MAE-KITCHEN; SET-AQM-MAE-DINING; SET-LUM-BOUNTIFUL-HARVEST | Addie; Mae; Max; Brickett; Gregory; Tallandra; Carrio; Yurislav; Rhün; Matthieu; Overseer; Brynn absent |
 | [`01_07_the_first_mirror_expanded_council_beats.md`](./01_07_the_first_mirror_expanded_council_beats.md) | First Mirror Expanded Council Beats | B01-S071; B01-S072; B01-S073 | SET-MIRROR-COUNCIL | Addie; Silence; Dianne; Noel; historical council figures |
+| [`14_09_second_vision_parse.md`](./14_09_second_vision_parse.md) | Book 14 — The Unwound Core: Second Vision Parse | B14-S090 through B14-S097 | SET-B14-COUNCIL | Addie; Overseer; Dianne; Hans; Noel; José; Seraphine; Gideon; Corvin; Magnus; Solomon; Aurelius; Mireya; Soren; Alessandra; Malcolm; Elias; plus full council expansion pending |
 
 ---
 
