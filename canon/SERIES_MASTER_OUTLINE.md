@@ -104,6 +104,7 @@ Book 01 draft files are compiled in the order below. Draft filenames are stable 
 | B01.000 | 01_00 | Prologue — The Mother Who Started the War | [draft](../drafts/01_00_prologue.md) | Parsed | Establishes Mother, Brickett, number sequence, first act of war. See [Book 01 Chapter Outlines](./10_BOOK01_CHAPTER_OUTLINES.md). |
 | B01.010 | 01_01 | The Royal Astronomer’s Tower | [draft](../drafts/01_01_the_royal_astronomers_tower.md) | Parsed | Parent chapter with visible subchapters: The Zero-Variance Solstice; Factional Mistrust. Introduces Miriam, the purple beacon, Overseer, faction triangle, Moderator nomination crisis. |
 | B01.020 | 01_02 | The Nomination | [draft](../drafts/01_02_the_nomination.md) | Parsed | Parent chapter with visible subchapters: The Gale Exposition; With Kwame. Introduces Addie’s private life, hair clip / Mark of the Orbs, purple dispatch, and Kwame’s signed nomination reveal. |
+| B01.030 | 01_03 | The Witnesses | [draft](../drafts/01_03_the_witnesses.md) | Parsed | Standalone metaphysical parent chapter with visible subchapters: The Scene Between Stories; The Addendums; The Ballot; The First Shot. Mother’s shot is intentionally vague here; the consequence becomes readable in the next Addie chapter. |
 
 ## Book 01 Stub Slots
 
@@ -115,7 +116,7 @@ These are known structural inserts or thematic anchors for Book 01. They may be 
 | B01.STUB.SCI.01 | Science | Doomsday Shelf Collapse | TBD | Science mirror for delayed collapse / ignored warnings. |
 | B01.STUB.MYTH.01 | Myth / Culture | Oral Tradition Knots | TBD | Mythic/cultural mirror for memory, thread, and record-keeping. |
 | B01.STUB.REWARD.01 | Reward | Ariadne’s Thread | TBD | Reward explanation / thread logic. |
-| B01.STUB.WITNESS.01 | Witness | Horror / Regret, Silence, Sand | TBD | Book 01 Witness logic; should crosslink to Witness canon as mirrors are parsed. |
+| B01.STUB.WITNESS.01 | Witness | Horror / Regret, Silence, Sand | B01.030 / ongoing | Book 01 Witness logic begins in `The Witnesses` and should crosslink to Witness canon as mirrors are parsed. |
 | B01.STUB.TITLEMSG.01 | Hidden Title Message | Book 01 title acrostic / terminal-letter message | TBD | Do not finalize until chapter list stabilizes. |
 
 ## Book 01 Pending Parsed Units
@@ -124,7 +125,6 @@ The manuscript currently contains additional chapter material not yet fully pars
 
 Known upcoming manuscript headings include:
 
-- The Witnesses
 - The Weight of the Beacon
 - The Logic of the Unbelievable
 - Geometry and Mathematics
