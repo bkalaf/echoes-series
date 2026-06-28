@@ -40,7 +40,7 @@ Immediately after `01_05_the_core_of_the_conjunction.md` and before `01_07_the_f
 - Adeshka “Addie” H. Sonntag.
 - Lady Mae’vyri H. Van’kareth, Speaker of the Conclave.
 - The Overseer.
-- High Sovereign Donvaris Q. Drumpf.
+- High Sovereign Dovren Judax Thorne.
 - The High Sovereign’s spouses.
 - Yurislav H. Arslan.
 - Carrio H. Vessalor.
@@ -78,7 +78,8 @@ Immediately after `01_05_the_core_of_the_conjunction.md` and before `01_07_the_f
 - Spatial fold / mirror collection.
 
 ## Naming / Continuity Notes
-- Correct older manuscript High Sovereign naming to **Donvaris Q. Drumpf** unless the prose intentionally preserves an in-world formal regnal title separately.
+- Correct older manuscript High Sovereign naming to **Dovren Judax Thorne** unless the prose intentionally preserves a numbered regnal distinction separately.
+- **Dovren Judax Thorne** is the repeated name used by the High Sovereigns across the ruling line for the past 2,000 years; each one lives exactly 100 years.
 - Correct `Captain Talandra H. Highwatch` to **Major Tallandra H. Highwatch** everywhere.
 - Preserve **Tallandra** spelling.
 - Preserve **Brickett age 14** if age is referenced nearby.
@@ -204,22 +205,22 @@ Introduce Mae in her Speaker role, establish her as a political equal/opponent r
 24. Addie objects that she is in the room.
 25. The Overseer points out Addie’s robes are inside out, either as fashion statement or symptom.
 26. The Overseer turns to the shadowed High Sovereign chair.
-27. The light reluctantly reveals High Sovereign Donvaris Q. Drumpf, not as portrait/coin propaganda but as old, furious, diminished flesh.
-28. Beside Donvaris are two silent spouses in ornamental chains.
-29. Behind Donvaris stands white-furred bear-kin guard Yurislav H. Arslan.
+27. The light reluctantly reveals High Sovereign Dovren Judax Thorne, not as portrait/coin propaganda but as old, furious, diminished flesh.
+28. Beside Dovren are two silent spouses in ornamental chains.
+29. Behind Dovren stands white-furred bear-kin guard Yurislav H. Arslan.
 30. Addie notes that staff are not permitted beyond the threshold, so the spouses and guard must be exceptions, not violations.
 31. Addie files away the question of who wrote those exceptions.
-32. The Overseer congratulates Donvaris on the birth of his great-grandson, nearly twenty-four hours earlier.
+32. The Overseer congratulates Dovren on the birth of his great-grandson, nearly twenty-four hours earlier.
 33. The twenty-four-hour note lands with hidden significance.
-34. Donvaris tries to stand and almost cannot.
-35. Donvaris says he has a bone to pick.
+34. Dovren tries to stand and almost cannot.
+35. Dovren says he has a bone to pick.
 36. The Overseer taps his cane and creates a weighted silence.
 37. The Overseer says the terms remain sealed.
-38. Donvaris begins to accuse the Overseer of trapping them.
+38. Dovren begins to accuse the Overseer of trapping them.
 39. The room goes dead-silent; sound is erased rather than muted.
-40. The Overseer says Donvaris mistakes him: he did not make the cage and is only here to clean what Donvaris did inside it.
+40. The Overseer says Dovren mistakes him: he did not make the cage and is only here to clean what Dovren and the line did inside it.
 41. The Overseer states the High Sovereign has no authority in the chamber from purple beacon until commencement of the Conjunction.
-42. Donvaris is present as witness only.
+42. Dovren is present as witness only.
 43. Wall notices update accordingly without Addie seeing it happen.
 44. Addie files that away too, running out of shelf space.
 
@@ -233,14 +234,14 @@ Introduce Mae in her Speaker role, establish her as a political equal/opponent r
 | Overseer | Mentions soup as an available method. | No / close |
 | Overseer | Says everyone heard Addie’s broadcast. | No |
 | Overseer | Notes Addie’s robes are inside out. | No |
-| Overseer | Congratulates Donvaris on great-grandson timing. | No |
-| Donvaris | Says he has a bone to pick. | No / close |
+| Overseer | Congratulates Dovren on great-grandson timing. | No |
+| Dovren | Says he has a bone to pick. | No / close |
 | Overseer | Says terms remain sealed. | Yes / close |
 | Overseer | Says he did not make the cage. | Yes / close |
-| Overseer | Says Donvaris is witness only. | No / close |
+| Overseer | Says Dovren is witness only. | No / close |
 
 ## Subchapter Exit Condition
-The chamber has met Addie, Addie has met Mae as a dangerous ally/opponent, and Donvaris has been publicly constrained by older Conjunction law.
+The chamber has met Addie, Addie has met Mae as a dangerous ally/opponent, and Dovren has been publicly constrained by older Conjunction law.
 
 ---
 
@@ -258,7 +259,7 @@ Move from Conclave authority to roster authority. Four scrolls appear and each r
 6. The third scroll moves toward Rhün H. Ignis in the Crucible section, a magma elemental whose existence had been classified as illegal until six years ago.
 7. The fourth scroll moves toward Yurislav H. Arslan behind the High Sovereign.
 8. The Overseer tells Yurislav he will want to hold onto that scroll.
-9. Donvaris silently claws at his chair.
+9. Dovren silently claws at his chair.
 10. Mae opens first only after stating, on the record, that she is opening under protest and only to read.
 11. The Overseer says the record is aware.
 12. Mae asks who keeps the record.
@@ -306,7 +307,7 @@ Move from Conclave authority to roster authority. Four scrolls appear and each r
 54. Mae considers Yurislav with new attention.
 55. The Overseer says the scroll appeared in Yurislav’s hands because it is addressed to Yurislav H. Arslan.
 56. The Sovereign’s office has no claim on Yurislav’s name.
-57. Donvaris makes a non-word sound of fury.
+57. Dovren makes a non-word sound of fury.
 58. Yurislav opens the scroll.
 59. Slot eight fills: `8 — YURISLAV H. ARSLAN`.
 60. The room understands that this is not just political; a young guard has been chosen out from under the king he serves.
@@ -376,7 +377,7 @@ Lock the political stakes. This subchapter explains that no ordinary power trans
 
 ## Beat-by-Beat Skeleton
 1. Mae asks what power-transfer rules apply.
-2. The question lands immediately because everyone has been thinking about Donvaris’s vulnerability and the roster’s authority.
+2. The question lands immediately because everyone has been thinking about Dovren’s vulnerability and the roster’s authority.
 3. The Overseer says no power may be transferred during the eighteen rapid Conjunction cycles.
 4. He lists no inheritance, abdication, factional seizure, emergency succession, ceremonial procedure, procedural tantrum, or opportunistic cousin.
 5. Mae asks what happens if a transfer does occur.
@@ -419,7 +420,7 @@ Bridge the Conclave chapter into the mirror sequence. The Overseer physically re
 3. The room becomes negotiable space.
 4. Mae lunges forward, too late, because standing still is not in her vocabulary.
 5. Mae’s coin leaves her fingers, spinning black and silver.
-6. Donvaris is seen in fury, powerless in the shadowed chair.
+6. Dovren is seen in fury, powerless in the shadowed chair.
 7. Yurislav looks at Addie with unexpected recognition: he knows what it feels like to be chosen without being asked.
 8. Addie sees names burning on every wall: five numbered, two lettered, four numbered empty.
 9. Addie sees ink begin to move into the second slot beneath her own.
@@ -491,7 +492,7 @@ The Conclave has lost Addie to the mirror, but Mae has converted the shock into 
 - Political clash with Mae.
 - Relief when Mae laughs instead of crushing Addie.
 - Unease when the Overseer enters through every protection.
-- Horror at Donvaris’s weakness and hidden exceptions.
+- Horror at Dovren’s weakness and hidden exceptions.
 - Public limitation of the High Sovereign.
 - Roster revelation through four scrolls.
 - Mae’s controlled fury.
@@ -509,7 +510,7 @@ The Conclave has lost Addie to the mirror, but Mae has converted the shock into 
 - Mae must feel dangerous, funny, politically brilliant, and not yet fully on Addie’s side.
 - The handshake between Addie and Mae is important: Addie does not cower, and Mae respects that.
 - The Overseer should sound administratively amused but anciently dangerous.
-- Donvaris should be constrained, not absent. His power is politically massive but procedurally limited in this chamber at this time.
+- Dovren should be constrained, not absent. His power is politically massive but procedurally limited in this chamber at this time.
 - The spouses and Yurislav being inside the chamber are secret/curious exceptions. Addie notices; the chapter should not fully explain yet.
 - Yurislav’s line about the Sovereign’s office versus his own name should be preserved because it cleanly introduces his personal sovereignty and future companion role.
 - Carrio should be elegant, analytic, and dangerous in a quiet social-intelligence way.
