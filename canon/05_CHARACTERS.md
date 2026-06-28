@@ -56,6 +56,18 @@ Middle initials should appear naturally in formal introductions so the **H** pat
 
 See [World Rules](./01_WORLD_RULES.md) for the full naming structure.
 
+## Character Visual Reference Rule
+
+Character-facing visual notes belong here. Full image-batch analysis belongs in [Visual Bible — Image Pass Notes](./14_VISUAL_BIBLE_IMAGE_PASS.md).
+
+Use these crosslinks when drafting:
+
+- [Visual Bible — Architect Set / Human Council Forms](./14_VISUAL_BIBLE_IMAGE_PASS.md#architect-set--human--council-forms)
+- [Visual Bible — Actual Witness Set](./14_VISUAL_BIBLE_IMAGE_PASS.md#actual-witness-set--mythic--spectral-forms)
+- [Visual Bible — Book 01 / Constellation / Institution Story-Reference Batch](./14_VISUAL_BIBLE_IMAGE_PASS.md#book-01--constellation--institution-story-reference-batch)
+
+Visual references may establish silhouette, palette, object language, emotional temperature, and staging. They do **not** override locked names, ranks, species, ages, continuity rules, or prose canon.
+
 ## Locked Core Cast Notes
 
 ### Adeshka "Addie" H. Sonntag
@@ -69,6 +81,8 @@ See [World Rules](./01_WORLD_RULES.md) for the full naming structure.
 - Heritage: half North African / Egyptian, half West African / Nigerian; light-skinned, favors Egyptian side.
 - Public speech style can be direct and honest: she admits uncertainty instead of performing false certainty.
 - Should not become a generic chosen-one heroine. Her strength is memory, honesty, pattern recognition, and willingness to pull the thread.
+- Visual reference: the Citadel-steps speech image is a public-symbol anchor. Addie may look heroic to the crowd, but prose should preserve her unease at being mythologized before she understands the job.
+- Visual reference: the hair-coloring image belongs to private self-fashioning / presentation. Red-blue magical dye or ribbon-like color can symbolize factional pressure and chosen public identity, but it must not erase the locked silver hair clip / Mark.
 
 ### Gregory H. Frydrake
 
@@ -81,7 +95,7 @@ See [World Rules](./01_WORLD_RULES.md) for the full naming structure.
 - Gregory becomes spectacle to break the casing and trigger the miracle.
 - Should not be written as an entertainer by preference; the point is that he must become visible against his instincts.
 
-### Brynn H. Stonevain
+### Brynn H. Stonevein
 
 - Dwarf artisan noble / companion.
 - Must own royal lineage in Book 4.
@@ -181,6 +195,8 @@ See [World Rules](./01_WORLD_RULES.md) for the full naming structure.
 - Elder rat-like continuity figure depending on scene context.
 - Identity and presentation must remain consistent with the current chapter's canon layer.
 - Do not over-explain the Hans / Overseer / Mother connection too early.
+- Visual reference: the scroll-delivery image anchors an old, rat-like / rodent continuity figure in black-purple-gold robes with cane and floating scroll. Use this for procedural menace and summons logistics.
+- Do not confuse the Overseer visual language with Silence. The Overseer is courtly, old, bureaucratically dangerous, and scroll-bearing; Silence is childlike, foxlike, yellow, sideways, and obfuscatory.
 
 ### High Sovereign Dovren Judax Thorne
 
@@ -193,6 +209,9 @@ See [World Rules](./01_WORLD_RULES.md) for the full naming structure.
 - Not secretly harmless.
 - Morally compromised and self-preserving.
 - Trump-family / authoritarian parallels may inform characterization, but the locked in-world name is **Dovren Judax Thorne**.
+- Visual reference: the Dovren I throne image belongs specifically to **Dovren I / the first High Sovereign reign**, not every Dovren by default.
+- Dovren I visual language: overfed, opulent, theatrical, red-gold-black, skull/bone throne, heavy velvet, gold chains, maritime imperial windowing, court submission, dynastic appetite.
+- Use this image to contrast Dovren-style authority with Addie-style public symbolism: Dovren is worshiped through hierarchy and submission; Addie becomes a symbol through uneasy transparency.
 
 ## Architect / Witness Character Roster
 
@@ -203,6 +222,8 @@ Crosslinks:
 - [Architect / Witness Character Index](./13_ARCHITECT_WITNESS_CHARACTER_INDEX.md)
 - [Architect Exodus Compromises](./11_ARCHITECT_EXODUS_COMPROMISES.md)
 - [Visual Bible — Image Pass Notes](./14_VISUAL_BIBLE_IMAGE_PASS.md)
+- [Visual Bible — Architect Set / Human Council Forms](./14_VISUAL_BIBLE_IMAGE_PASS.md#architect-set--human--council-forms)
+- [Visual Bible — Actual Witness Set](./14_VISUAL_BIBLE_IMAGE_PASS.md#actual-witness-set--mythic--spectral-forms)
 
 ### Use Rules
 
@@ -216,7 +237,7 @@ Crosslinks:
 - Noel Smukk is not an Architect/Witness; he is a governance-pressure figure who enters the conversation later.
 - Visual references must not override locked names, ranks, roles, or spellings.
 - Accent / cultural influence comes from the final column of `WITNESSES.md` and must carry to **both** the human council member / Architect and the later Witness presentation.
-- Accents are performance direction. Use rhythm, diction, class markers, formality, idiom pressure, and sentence structure. Do **not** write heavy phonetic dialect.
+- Accents are performance direction. Use rhythm, diction, class markers, formality, idiom pressure, and sentence structure. Do **not** write heavy phonetic dialect except for specific characters explicitly given a phonetic exception elsewhere.
 
 ### Roster Snapshot
 
@@ -254,6 +275,7 @@ Crosslinks:
 - Witness Form: Arachne-associated Horror / Regret.
 - Visual Direction: Dark-skinned / Afro-Latino-coded operational planner in white robes, tense and grounded. The Witness form should shift away from seductive spider-queen energy and toward evacuation grief, abandoned name tags, broken route maps, ledgers, and Ariadne’s Thread.
 - Voice: Controlled, practical, low-emotion until grief breaks through. Use Mexican cultural cadence as performance direction, not phonetic dialect.
+- Phonetic Exception: Horror / Regret may intentionally use lisp-aware phonetic spelling when specifically presenting the Witness's lisp. This is a deliberate character exception, not a general accent-writing rule.
 - Continuity Warning: He should not feel like a villain. He is a helper destroyed by what help could not prevent.
 
 ### Franklin Emmett Vale — Revel / Laughter
@@ -620,13 +642,33 @@ Crosslinks:
 - Members include Mae'vyri H. Van'kareth and Verrick B. Knackle.
 - The name may be used as an affiliation, threat marker, or reputation, but should not be mistaken for Verrick’s surname.
 
-## Book 01 Political / Astronomer Chapter Cast Name Check
+## Book 01 Political / Astronomer Chapter Cast
 
-Use full formal names when appropriate:
+### Royal Astronomer Miriam G. Ben-Or
 
-- Royal Astronomer Miriam G. Ben-Or.
-- High Theologian Choleth S. Sevarian.
-- Janice B. Rourke.
-- Vexira M. Emberlash.
+- Canon Status: Locked for Book 01 opening / Astronomer chapter.
+- Age: 58.
+- Human Jewish woman; royal astronomer.
+- Sleep-deprived, precise, severe under pressure, and carrying too much responsibility.
+- Visual reference: older female astronomer/scholar with glasses, layered blue/white robes, star charts and rolled diagrams under both arms.
+- Existing locked detail: plum ink stains her hand to the second knuckle; add this in prose even when the image does not foreground it.
+- Voice: dry, exhausted, controlled; voice like someone reading a will.
+- Function: receives / interprets the opening astronomical warning and helps start the political cascade.
+- She is not a glamorous court mage. She is a working astronomer whose expertise begins the plot.
 
-Vexira’s last name is locked here as **Emberlash** unless later superseded.
+### High Theologian Choleth S. Sevarian
+
+- Canon Status: Locked for Book 01 political / astronomer chapter.
+- Concord theologian and spiritual authority.
+- Use with existing species/visual decision once Choleth lion vs white tiger is settled.
+
+### Janice B. Rourke
+
+- Canon Status: Locked for Book 01 political / astronomer chapter.
+- Human female Schism representative.
+
+### Vexira M. Emberlash
+
+- Canon Status: Locked for Book 01 political / astronomer chapter unless later superseded.
+- Female satyr Ruin representative.
+- Vexira’s last name is locked here as **Emberlash** unless later superseded.
