@@ -160,12 +160,12 @@ See [World Rules](./01_WORLD_RULES.md) for the full naming structure.
 
 ### Hans Halcyon Hohenzollern
 
-- Final name: Hans Halcyon.
 - Only Earth memories.
-- Approximately 250 Eidolon years conscious.
+- Approximately 1000 Eidolon years conscious.
 - Tied to Mother, Witness Zero / the Betrayed logic, and hidden continuity.
 - Uses / carries old-world residue such as the lighter.
-
+- Voice: Hans is measured, courtly, old-world, confident. Franklin is warmer and more performative.
+  
 ### Mother / Dianne
 
 - Mother AI: Dianne.
@@ -173,10 +173,11 @@ See [World Rules](./01_WORLD_RULES.md) for the full naming structure.
 - Not omniscient.
 - Can be wrong.
 - Built systems to preserve humanity but cannot remove free will without destroying the moral premise.
+- This should NEVER be explained to the reader. She should present just as a normal nuturing individual.
 
 ### The Overseer
 
-- Elder rat-like or construct-associated continuity figure depending on scene context.
+- Elder rat-like continuity figure depending on scene context.
 - Identity and presentation must remain consistent with the current chapter's canon layer.
 - Do not over-explain the Hans / Overseer / Mother connection too early.
 
@@ -251,9 +252,9 @@ Crosslinks:
 - Voice: Controlled, practical, low-emotion until grief breaks through.
 - Continuity Warning: He should not feel like a villain. He is a helper destroyed by what help could not prevent.
 
-### Hans Halcyon / Franklin Emmett Vale — Revel / Laughter
+### Franklin Emmett Vale — Revel / Laughter
 
-- Canon Status: Locked as split inheritance row.
+- Canon Status: Franklin takes Hans spot after his death in the explosion on the arks
 - Council Role: Hans speaks the Recovery / practical patron seat during the historical council. Franklin later inherits the wound.
 - Core Value: Humanity must remain worthy of survival; recovery must include more than bare biological survival.
 - Later Witness: **Revel / Laughter**.
@@ -262,7 +263,6 @@ Crosslinks:
 - Franklin Form: Later recovery/entertainer figure tied to avoidance, spectacle, morale, and the wound of accepting too little recovery.
 - Witness Form: Treant-associated recovery-turned-impulse figure; joy, healing, festival, and recovery becoming too much.
 - Visual Direction: Hans carries old-world purple-gold patron energy and continuity residue such as the lighter. Revel should be beautiful and warm before becoming excessive.
-- Voice: Hans is measured, courtly, old-world, confident. Franklin is warmer and more performative.
 - Continuity Warning: In Book 14, Hans is present naturally as a respected practical voice. Do not replace him with Franklin in the historical council unless the canon is explicitly revised.
 
 ### Seraphine Iris Delacroix — Crown
