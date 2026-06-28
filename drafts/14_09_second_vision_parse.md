@@ -287,7 +287,7 @@ Function: connect original governance design to Eidolon’s later civic structur
 - Her control is both love and danger.
 - Should not be written as obviously evil; the horror is that her solution is both necessary and morally dangerous.
 
-## Hans Halcyon
+## Hans Halcyon Hohenzollern
 
 - Practical patron voice.
 - Demands plain speech from Dianne.
