@@ -4,6 +4,49 @@ Dear Reader chapters are reader-facing interludes, not normal main-scene chapter
 
 They should use a standardized metadata block so they can bridge real-world reference, fictionalized parable, and Eidolon theme without becoming loose essays.
 
+## Narrator Identity / Perspective Rule
+
+The Dear Reader narrator is **not the same thing as Mother** and is **not the same thing as Hans / the in-story Overseer**, even though readers may be encouraged to assume or suspect those connections.
+
+The series uses three related-but-distinct perspective layers:
+
+| Perspective | Reader-Facing Impression | Actual Function |
+|---|---|---|
+| Mother / Dianne | Ancient caretaker intelligence behind Eidolon. | In-world architect with limited control, limited knowledge, and moral constraints. |
+| Hans / Overseer / Father trajectory | In-story continuity figure tied to the Overseer mystery and endgame Father role. | Cannot simply become the outside narrator once he becomes Father; like Mother, he cannot interfere in the same way without breaking the moral premise. |
+| Dear Reader narrator | A voice from outside the story, often assumed to be an Overseer-adjacent figure. | Authorial / outside-looking-in narrator. This is closest to the literal authorial voice: helpful, mischievous, digressive, occasionally confusing on purpose. |
+
+### Mystery Handling
+
+Do not over-explain the Dear Reader narrator in early books.
+
+- Readers may believe the narrator is the Overseer.
+- Readers may later wonder why there appear to be three Overseer-adjacent perspectives.
+- The story should let readers form theories: God made someone witness it all, Mother created a meta-witness, Hans changed roles, the author is intruding, or something stranger is happening.
+- Do not resolve this too early.
+- The ambiguity is intentional and can be used to foreshadow the difference between observation, authorship, witness, and interference.
+
+### Voice Rule
+
+Dear Reader chapters should sound substantially different from normal narrative chapters.
+
+They are intentional bumps in the story: direct, essayistic, playful, morally pointed, historically aware, and sometimes deliberately obfuscating.
+
+The narrator may be helpful, but not always cleanly helpful. The narrator can guide, distract, joke, withhold, over-explain the wrong thing, or make the reader suspicious of the frame itself.
+
+### Function Rule
+
+Dear Reader chapters may cover:
+
+- WWII / historical parables.
+- Science or collapse logic.
+- Culture and mythology.
+- Reward logic.
+- Factional or moral analogies.
+- Reader-facing misdirection or clarification.
+
+They should connect back to Eidolon without feeling like ordinary scenes inside Eidolon.
+
 ## Interlude Template
 
 ```md
