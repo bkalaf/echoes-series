@@ -89,9 +89,9 @@ See [World Rules](./01_WORLD_RULES.md) for the full naming structure.
 - Inheritance is both continuity and imprisonment.
 - Do not flatten her into generic nobility; her arc is about duty, lineage, resentment, identity, and public courage.
 
-### Captain Talandra H. Highwatch
+### Major Tallandra H. Highwatch
 
-- Concord Guard Captain.
+- Concord Guard Major.
 - Injured but competent.
 - Formal but pragmatic.
 - Reads threats.
@@ -99,7 +99,8 @@ See [World Rules](./01_WORLD_RULES.md) for the full naming structure.
 - Book 6 feat: Must Fly.
 - Book 7 feat: Must Put Honor Aside.
 - Should not be written as fragile because she is injured. She is disciplined, capable, and threat-aware.
-- Name spelling is **Talandra**, not Tallandra or Alondra.
+- Name spelling is **Tallandra**, not Talandra or Alondra. Mnemonic: she is tall.
+- Rank is **Major**, not Captain.
 - H initial is intentional because she is a companion.
 
 ### Carrio H. Vessalor
@@ -124,6 +125,7 @@ See [World Rules](./01_WORLD_RULES.md) for the full naming structure.
 - Athletic, precise, dangerous, controlled.
 - Has many earrings and visible tattoos.
 - Coin habit: obverse Mad King, reverse scorched black; coin stops on genuine laugh or surprise.
+- Member of the **Venom-Blades**, a secret Ruin faction organization mostly known for assassinations.
 - Book 12 feat: Must Be Selfless.
 - Book 13 feat: Must Spare a Life.
 - Should not be written as monstrous or undead.
@@ -145,7 +147,7 @@ See [World Rules](./01_WORLD_RULES.md) for the full naming structure.
 
 ### Brickett H.
 
-- Teenage raccoon beastfolk, age 16.
+- Teenage raccoon beastfolk, age 14.
 - Orphaned scavenger; burned fur; hyperactive; lonely.
 - Wants to get into the history books.
 - Born on Kindlemask.
@@ -192,7 +194,7 @@ See [World Rules](./01_WORLD_RULES.md) for the full naming structure.
 
 - Canon Status: Locked for Book 01 guard detail.
 - Species: Bear-kin.
-- Faction / Role: Concord guard lieutenant assigned to Addie’s protective detail under Captain Talandra H. Highwatch.
+- Faction / Role: Concord guard lieutenant assigned to Addie’s protective detail under Major Tallandra H. Highwatch.
 - Middle initial is **R**, not H.
 - Use “Boss” as the name Addie hears and remembers; it can remain slightly nickname-like, but formal introductions should use the full name.
 - Personality: blunt, physically imposing, dryly sympathetic, more emotionally perceptive than his size suggests.
@@ -203,7 +205,7 @@ See [World Rules](./01_WORLD_RULES.md) for the full naming structure.
 
 - Canon Status: Locked for Book 01 guard detail.
 - Species: Boar-kin.
-- Faction / Role: Concord guard lieutenant assigned to Addie’s protective detail under Captain Talandra H. Highwatch.
+- Faction / Role: Concord guard lieutenant assigned to Addie’s protective detail under Major Tallandra H. Highwatch.
 - Middle initial is **C**, not H.
 - Barry is intentionally funny as the boar whose name sounds like “beary.” This helps keep him distinct from Boss.
 - Personality: gruff, political, less patient than Boss, physically direct.
@@ -214,7 +216,7 @@ See [World Rules](./01_WORLD_RULES.md) for the full naming structure.
 
 - Canon Status: Locked for Book 01 pawn-shop / crowd-control sequence.
 - Species: Jackrabbit-kin.
-- Faction / Role: Concord officer / runner used by Talandra for rapid crowd-control relay.
+- Faction / Role: Concord officer / runner used by Major Tallandra H. Highwatch for rapid crowd-control relay.
 - Middle initial is **T**, not H.
 - Should not be named immediately on first street appearance. He should first appear by function: swift-footed jackrabbit-kin officer relaying orders.
 - Name exchange should occur later in the pawn-shop sequence, after the immediate danger has passed.
@@ -230,6 +232,28 @@ See [World Rules](./01_WORLD_RULES.md) for the full naming structure.
 - Function in Book 01: explains the impossible geometry of the brick trajectory after Brickett saves Addie.
 - Should be competent and slightly offended when Addie underestimates his math.
 - Name should be introduced during the pawn-shop exchange, not in the middle of the crowd panic.
+
+### Verrick B. Knackle
+
+- Canon Status: Locked for Book 01 Ruin / Speaker-linked intervention.
+- Species: Gnome.
+- Faction / Role: Ruin operative sent through Speaker-linked channels to help get Addie to the Seat of Power when Concord response may not be fast enough.
+- Middle initial is **B**, not H.
+- Last name is **Knackle**.
+- **Venom-Blade is not his last name.** The Venom-Blades are a secret Ruin faction organization mostly known for assassinations.
+- Verrick is a member of the Venom-Blades.
+- Visual anchors: mismatched red-and-black leather armor, purple hair, gold teeth, curved dagger.
+- Voice: irreverent, needling, professionally dangerous, often funny but not merely comic relief.
+- Function in Book 01: proves Ruin can be useful and terrifying at the same time; reveals the Speaker is willing to use factional workarounds under Conjunction pressure.
+
+## Ruin Organizations
+
+### The Venom-Blades
+
+- Secret Ruin faction organization.
+- Mostly known for assassinations.
+- Members include Mae'vyri H. Van'kareth and Verrick B. Knackle.
+- The name may be used as an affiliation, threat marker, or reputation, but should not be mistaken for Verrick’s surname.
 
 ## Book 01 Political / Astronomer Chapter Cast Name Check
 
