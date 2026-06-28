@@ -8,6 +8,8 @@ Not every chapter needs the same level of detail.
 
 Some chapters are only conceptual. Others have already been written and need enough beat detail that they can be reconstructed with the same skeleton while allowing prose and dialogue to change.
 
+A chapter may also contain **visible subchapter titles** when several scenes clearly belong under one parent chapter. This is different from ordinary horizontal breaks. Use this structure when adjacent scenes share the same setting, local conflict, or escalation sequence and would read better as one longer chapter with named internal movements.
+
 ## Detail Levels
 
 | Level | Name | Use Case |
@@ -16,6 +18,7 @@ Some chapters are only conceptual. Others have already been written and need eno
 | L2 | Standard Beat Outline | Normal new chapter drafting. |
 | L3 | Scene-by-Scene Outline | Multi-location, multi-POV, or structurally complex chapters. |
 | L4 | Reconstruction Outline | Previously drafted chapters whose skeleton must be preserved. |
+| L4+Subchapters | Reconstruction with Visible Subchapters | Previously drafted adjacent scenes grouped into one parent chapter with reader-visible internal titles. |
 
 ## L1 — Summary Only
 
@@ -235,6 +238,89 @@ These do not need to be exact wording unless marked `verbatim`.
 ## Next Chapter Handoff
 ```
 
+## L4 + Visible Subchapters — Parent Chapter Reconstruction
+
+Use this when two or more adjacent drafted scenes should become one longer chapter with named, reader-visible internal movements.
+
+This is now the preferred structure for scenes like the Royal Observatory / Royal Astronomer’s Tower opening, where the mathematical discovery and the factional reaction occur in the same setting and should keep connective tissue.
+
+```md
+# Chapter X — Parent Chapter Title
+
+## Detail Level
+L4 Reconstruction Outline with Visible Subchapters
+
+## Chapter Structure
+This parent chapter contains visible subchapter titles.
+
+## Visible Subchapters
+1. Subchapter Title One
+2. Subchapter Title Two
+
+## Purpose
+
+## POV / Narrative Mode
+
+## Timeline Position
+
+## Parent Location
+
+## Cast Present
+
+## Required Objects / Systems
+
+## Preserve Skeleton?
+Yes. Preserve the skeletons of the grouped scenes, but draft them as connected subchapter sections under one parent chapter.
+
+## Allowed Changes
+- Smooth transitions between subchapters.
+- Add connective tissue where needed.
+- Maintain chapter momentum.
+- Dialogue wording may be tightened if intent remains intact.
+
+## Not Allowed Changes
+- Do not remove required beats from any subchapter.
+- Do not flatten subchapters into one undifferentiated block.
+- Do not split the grouped sequence back into separate chapters unless explicitly requested.
+- Do not invent new canon to justify the grouping.
+
+---
+
+# Subchapter 1 — Subchapter Title One
+
+## Subchapter Function
+
+## Beat-by-Beat Skeleton
+1.
+2.
+3.
+
+## Subchapter Exit Condition
+
+---
+
+# Subchapter 2 — Subchapter Title Two
+
+## Subchapter Function
+
+## Beat-by-Beat Skeleton
+1.
+2.
+3.
+
+## Subchapter Exit Condition
+
+---
+
+## Parent Chapter Emotional Movement
+
+## Continuity Notes
+
+## Final Image
+
+## Next Chapter Handoff
+```
+
 ## Horizontal Break Rule
 
 Horizontal breaks are not automatically subchapters.
@@ -263,10 +349,30 @@ The section labels are drafting scaffolds only. They are not printed as subchapt
 
 | Element | Visible to Reader? | Purpose |
 |---|---:|---|
-| Chapter title | Yes | Formal chapter label. |
+| Chapter title | Yes | Formal parent chapter label. |
+| Visible subchapter title | Yes, when explicitly defined | Groups major internal movements beneath a parent chapter. |
 | Horizontal break | Yes | Pause / shift / breath. |
 | Internal section label | No | Drafting scaffold. |
-| Subchapter title | Rare | Only if explicitly requested. |
+| Subchapter title | Only when explicitly requested or structurally useful | Named movement within a parent chapter. |
+
+## Grouping Heuristic
+
+Group adjacent manuscript units under one parent chapter when most of these are true:
+
+- They occur in the same location or immediate local setting.
+- They share the same POV or central observer.
+- The second scene is a direct consequence of the first.
+- The emotional escalation is continuous.
+- Separating them would make the narrative feel artificially chopped.
+- Combining them improves connective tissue without erasing a clear internal break.
+
+Do not group when:
+
+- The POV changes in a way that creates a new chapter-level promise.
+- The setting changes substantially.
+- The timeline jumps.
+- The emotional question resets.
+- The next section needs its own opening hook and final image.
 
 ## Chapter Verification Checklist
 
@@ -275,6 +381,7 @@ Before accepting a generated chapter:
 - Required canon preserved.
 - Detail level obeyed.
 - Section breaks preserved.
+- Visible subchapter titles used only when intended.
 - POV preserved.
 - Beat order preserved.
 - Ending hook preserved.
