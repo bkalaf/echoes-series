@@ -246,6 +246,31 @@ See [World Rules](./01_WORLD_RULES.md) for the full naming structure.
 - Voice: irreverent, needling, professionally dangerous, often funny but not merely comic relief.
 - Function in Book 01: proves Ruin can be useful and terrifying at the same time; reveals the Speaker is willing to use factional workarounds under Conjunction pressure.
 
+## Mae Estate / Van'kareth Operations Support
+
+### Max
+
+- Canon Status: Pending full formal name.
+- Age: late 40s to early 50s.
+- Role: Mae’s household-side support / house manager.
+- Function: takes care of the household, domestic order, meals, guest comfort, and practical estate hosting.
+- Should not become responsible for all of Mae’s logistical office work. Keep his domain household-centered.
+- Dynamic with Tikket: he and Tikket flirt at the breakfast table, but both remain professional because they both work for Mae.
+- Full name, species, and non-H middle initial are TBD.
+
+### Tikket z Varn
+
+- Canon Status: Locked as Mae’s office-side assistant.
+- Species: Kobold.
+- Age: early 50s to early 60s.
+- Role: Mae’s office assistant / administrative operator.
+- Function: handles office logistics, paperwork, scheduling, tickets, portalport arrangements, and similar operational details for Mae.
+- Should be present at the morning breakfast table with Max in the relevant later chapter.
+- Tikket should have produced / arranged the portalport tickets for everyone that morning.
+- Dynamic with Max: mutual flirtation at breakfast, kept professional because they both work for Mae.
+- Use him to prevent too much logistical responsibility from falling on Max.
+- Preserve spelling: **Tikket z Varn**.
+
 ## Ruin Organizations
 
 ### The Venom-Blades
