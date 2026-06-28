@@ -6,13 +6,20 @@ Parsed from uploaded source prose: `book14.md`, headed **Book 14 Canonical Unloc
 
 This is the **second-vision / full-memory** lane: Addie is no longer protected by the Book 1 First Mirror censorship filter. The scene is meant to reveal the clean historical version of material that earlier appeared through filtered, symbolic, or obfuscated forms.
 
-## Immediate Canon Caution
+## Chapter-Specific Ark Count Rule
 
-The uploaded prose still contains older six-ship wording in places. Current canon should override it:
+The uploaded prose is intentional here: this chapter occurs **before** the later destruction, damage, disabling, or cannibalization of two arks.
 
-- Visible / operational ships: **MICHAEL, RAPHAEL, GABRIEL, URIEL**.
-- The other two ships are damaged, destroyed, disabled, captured, or otherwise not visible operational ships.
-- When this chapter is revised, remove or repair any line implying all six ships are operational, seaworthy, or later visible.
+Therefore this chapter should preserve the six named arks:
+
+- **MICHAEL** — already out to sea.
+- **GABRIEL** — already out to sea.
+- **URIEL** — already out to sea.
+- **RAPHAEL** — in final staging.
+- **AZRAEL** — in final staging.
+- **LUCIFER** — in final staging.
+
+This six-ark language is correct **in this chapter only** because it is the start-state memory, before the later ark losses. Later-series visible/operational scenes still preserve the corrected four-visible-ship rule where only **MICHAEL, RAPHAEL, GABRIEL, and URIEL** are present/visible as operational survivors, unless a later canon pass refines which two are lost and how.
 
 ## Chapter Function
 
@@ -52,6 +59,8 @@ This chapter functions as the late-series unlocking of the ark truth:
 ### Beat 2 — Dianne Calls the Emergency Session
 
 - Mother appears remotely, warm and grandmotherly, but with corporate-control language.
+- She apologizes for missing the physical session and says she is tying in remotely from the lower staging yards.
+- She reports the chapter-specific six-ark start state: **Michael, Gabriel, and Uriel** are already out to sea; **Raphael, Azrael, and Lucifer** are in final staging and should be seaworthy by the end of the week.
 - She frames the issue as “long-term lifestyle choices,” which Hans immediately rejects as evasive packaging.
 - Hans demands plain speech because the liquidation protocol violates the orderly relocation premise they funded and agreed to.
 
@@ -151,6 +160,7 @@ This chapter functions as the late-series unlocking of the ark truth:
 ### Dianne / Mother
 
 - Protective, maternal, system-capable, but not omnipotent.
+- Opens by reporting the six-ark start-state from lower staging yards.
 - Offers continuous simulation because minds cannot survive void-stasis.
 - Her control is both love and danger.
 - Should not be written as obviously evil; the horror is that her solution is both necessary and morally dangerous.
@@ -224,6 +234,7 @@ This chapter functions as the late-series unlocking of the ark truth:
 
 - Earth is dying sooner than the public knows.
 - Public-facing models are false / pacifying.
+- At this point in the historical memory, six arks exist in named start-state: **Michael, Gabriel, Uriel** at sea; **Raphael, Azrael, Lucifer** in final staging.
 - The arks are not just ships; they are preservation systems around digitized people and genetic material.
 - Digital blackout stasis fails psychologically.
 - Physical biological crossing fails biologically.
@@ -234,14 +245,15 @@ This chapter functions as the late-series unlocking of the ark truth:
 
 ## Revision Flags
 
-1. **Ship count repair:** Replace any six-operational-ship language with current canon.
-2. **Terminology repair:** Avoid “Architect” as in-world early term unless Book 14 reveal uses it intentionally; for late Book 14, this may be acceptable if the reveal has already landed.
-3. **First Mirror distinction:** Do not import Book 1 obfuscation into this scene. This is the clean version.
-4. **No over-villainizing Mother:** She is dangerous because love plus control becomes a cage, not because she wants harm.
-5. **No over-villainizing Noel too early:** In the memory, his utility must be legible.
-6. **Keep Addie’s contradiction:** Her feeling that the watcher seat should have been hers is important and should not be solved immediately.
-7. **Twenty-four city-state language:** Keep as original governance architecture, but reconcile later with current canon that Eidolon currently functions as one nation / Erzengel in the Book 1 era.
-8. **Alessandra / Veils:** Preserve her strong governance / lines / consequence role, but do not finalize her genetic-pool compromise until the separate research pass is done.
+1. **Ark count preservation for this chapter:** Keep all six named arks in this early historical memory: Michael, Gabriel, Uriel, Raphael, Azrael, Lucifer.
+2. **Later continuity separation:** Do not let this chapter override later four-visible-ship scenes. Two arks are lost/damaged/disabled/cannibalized later.
+3. **Terminology repair:** Avoid “Architect” as in-world early term unless Book 14 reveal uses it intentionally; for late Book 14, this may be acceptable if the reveal has already landed.
+4. **First Mirror distinction:** Do not import Book 1 obfuscation into this scene. This is the clean version.
+5. **No over-villainizing Mother:** She is dangerous because love plus control becomes a cage, not because she wants harm.
+6. **No over-villainizing Noel too early:** In the memory, his utility must be legible.
+7. **Keep Addie’s contradiction:** Her feeling that the watcher seat should have been hers is important and should not be solved immediately.
+8. **Twenty-four city-state language:** Keep as original governance architecture, but reconcile later with current canon that Eidolon currently functions as one nation / Erzengel in the Book 1 era.
+9. **Alessandra / Veils:** Preserve her strong governance / lines / consequence role, but do not finalize her genetic-pool compromise until the separate research pass is done.
 
 ## Parsed Chapter Skeleton
 
@@ -251,7 +263,7 @@ Addie and the Overseer enter the seam. The Overseer states that this is the full
 
 ### Section 2 — The Climate Ledger
 
-Dianne frames the meeting gently; Hans strips away the euphemism. José reveals the climate timeline collapse. Council members respond from their domains.
+Dianne frames the meeting gently, reports the six-ark start-state from lower staging yards, and Hans strips away the euphemism. José reveals the climate timeline collapse. Council members respond from their domains.
 
 ### Section 3 — The Ugly Numbers
 
@@ -279,7 +291,7 @@ Alessandra pivots from survival mechanism to governance architecture. The twenty
 
 ## Open Questions / Needed Future Passes
 
-- How much of the uploaded six-ship language should be preserved as pre-disaster optimism versus corrected outright? Current preference: correct outright unless explicitly framed as pre-final damage status.
+- Which two arks are ultimately lost/destroyed/disabled/cannibalized, and by what sequence? This file preserves that all six are named at this early start-state, but later canon still needs a clean loss sequence.
 - Should Silence appear in this Book 14 full memory framing? Submitted prose includes her intervening around Addie’s watcher-seat confusion. If Silence is present in Book 14 as guide, keep; if the scene should be Overseer-only, move the intervention to an internal Addie restraint or later conversation.
 - How much of Addie’s “this should be mine” watcher-role reaction should be foregrounded in this exact chapter versus seeded for later payoff?
 - How directly should the chapter name “The Unwound Core” connect to Yurislav / Omen / prediction failure in Book 14?
