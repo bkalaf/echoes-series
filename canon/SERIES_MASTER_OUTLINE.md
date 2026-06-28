@@ -126,7 +126,7 @@ Use relative markdown where possible.
 | 11 | Mattieu becomes grounded. | Mattieu H. Cardinal | Nazi occultism; placebo/nocebo; false prophets; Salmon Scale. |
 | 12 | Mae becomes selfless. | Mae’vyri H. Van’Kareth / Eldrane | Rosie the Riveter; distributed labor; hospitality rites; Jade Rabbit Mortar. |
 | 13 | Mae spares a life. | Mae’vyri H. Van’Kareth | POW survival comparison; long-term consequence modeling; spared enemy myths; First Drum. |
-| 14 | Yurislav confronts ruthlessness. | Yurislav H. Arslan / Karskov | Eastern Front attrition; predictive failure; fate weaving; Endless Loom Spindle. Includes the full historical council source scene in scratchpad. |
+| 14 | Yurislav confronts ruthlessness. | Yurislav H. Arslan / Karskov | Eastern Front attrition; predictive failure; fate weaving; Endless Loom Spindle. Includes the full historical council source scene and Second Vision full-memory parse in scratchpad. |
 | 15 | Yurislav lineage with Mae. | Yurislav H. Arslan | Lorenz cipher; cryptography; hidden name myths; Serpent Mound Tablet. |
 | 16 | Rhun must hold water. | Rhun H. Ignis / Stonewake | Atlantic convoys; water radiation shielding; flood myths; Feather of Ma’at. |
 | 17 | Rhun replaces Brynn. | Rhun H. Ignis | Operation Paperclip; replacement psychology; successor myths; Black Tortoise Shell. |
@@ -138,7 +138,7 @@ Use relative markdown where possible.
 
 | Planning Slot | Working Title | File | Status | Function | Scene Links |
 |---|---|---|---|---|---|
-| B14.090 | The Unwound Core | [scratchpad beats](../scratchpad/14_09_the_unwound_core_beats.md) | Scratchpad expanded | Complete historical Architect Council meeting; canonical source conversation for Book 01 First Mirror adaptation. Not prose yet. | B14-S090 through B14-S097 in [Scenes](./16_SCENES.md). |
+| B14.090 | The Unwound Core | [master council beats](../scratchpad/14_09_the_unwound_core_beats.md); [Second Vision parse](../scratchpad/14_09_second_vision_parse.md) | Scratchpad expanded / parsed | Complete historical council meeting; canonical source conversation for Book 01 First Mirror adaptation. The Second Vision parse preserves the prose-derived full-memory lane, including the six-ark start state, consciousness-interface failure, Mother’s active simulation proposal, Noel’s watcher-seat origin, and twenty-four city-state architecture. Not prose yet. | B14-S090 through B14-S097 in [Scenes](./16_SCENES.md). |
 
 ---
 
@@ -147,7 +147,7 @@ Use relative markdown where possible.
 Book 01 draft files are compiled in the order below. Draft filenames are stable working identifiers and do not need to be renamed just because the compile order changes.
 
 | Compile Slot | Draft ID | Title | File | Status | Notes / Crosslinks |
-|---|---|---|---|---|---|
+|---|---|---|---|---|
 | B01.000 | 01_00 | Prologue — The Mother Who Started the War | [draft](../drafts/01_00_prologue.md) | Parsed | Establishes Mother, Brickett, number sequence, first act of war. See [Book 01 Chapter Outlines](./10_BOOK01_CHAPTER_OUTLINES.md), [Settings](./15_SETTINGS.md), and [Scenes](./16_SCENES.md). |
 | B01.010 | 01_01 | The Royal Astronomer’s Tower | [draft](../drafts/01_01_the_royal_astronomers_tower.md) | Parsed | Parent chapter with visible subchapters: The Zero-Variance Solstice; Factional Mistrust. Introduces Miriam, the purple beacon, Overseer, faction triangle, Moderator nomination crisis. Scene IDs B01-S010/B01-S011. |
 | B01.020 | 01_02 | The Nomination | [draft](../drafts/01_02_the_nomination.md) | Parsed | Parent chapter with visible subchapters: The Gale Exposition; With Kwame. Introduces Addie’s private life, hair clip / Mark of the Orbs, purple dispatch, and Kwame’s signed nomination reveal. Scene IDs B01-S020/B01-S021. |
@@ -156,7 +156,7 @@ Book 01 draft files are compiled in the order below. Draft filenames are stable 
 | B01.040 | 01_04 | The Weight of the Beacon | [draft](../drafts/01_04_the_weight_of_the_beacon.md) | Parsed | Parent chapter folding old manuscript movements: The Weight of the Beacon; The Logic of the Unbelievable; Geometry and Mathematics. Introduces Tallandra’s detail, Boss/Barry, Brickett, the impossible brick, pawn-shop proof, and the Mark of the Orbs match. Scene IDs B01-S040/B01-S041/B01-S042. |
 | B01.050 | 01_05 | The Core of the Conjunction | [draft](../drafts/01_05_the_core_of_the_conjunction.md) | Parsed | Parent chapter folding old manuscript movements: The Core of the Conjunction; The Three Hundred Steps. Includes blue-beacon activation, public scrolls, Addie/Brickett slot reveal, Verrick/Ruin intervention, Aquila Matara arrival, protected Addie speech, silent applause, and cosmic beacon response. Scene IDs B01-S050/B01-S051/B01-S052. |
 | B01.060 | 01_06 | The Weight of the Roster | [draft](../drafts/01_06_the_weight_of_the_roster.md) | Parsed | Standalone Conclave chamber chapter. Reveals wall roster architecture, Mae’s Speaker role, Overseer/Dovren confrontation, scroll openings for Mae/Carrio/Rhün/Yurislav, power-transfer lockdown, Addie’s collection into the mirror, Gregory reveal, and Mae’s Brickett no-last-name question. Scene IDs B01-S060/B01-S061. |
-| B01.070 | 01_07 | The First Mirror | [draft](../drafts/01_07_the_first_mirror.md) | Parsed | Parent chapter folding old manuscript movements: The First Mirror; The Second Mirror; Return to Normal. Applies First Mirror obfuscation as a one-time trust-sensitive device, preserves second-mirror Dovren/symbol logic, gives Horror’s three-thread riddle, and returns Addie to Rhün / Mae’s Aquila Matara estate. Full historical source for the council meeting is [Book 14 scratchpad beats](../scratchpad/14_09_the_unwound_core_beats.md). Scene IDs B01-S070 through B01-S076. Expanded council beats also saved separately at [expanded beats](../drafts/01_07_the_first_mirror_expanded_council_beats.md). |
+| B01.070 | 01_07 | The First Mirror | [draft](../drafts/01_07_the_first_mirror.md) | Parsed | Parent chapter folding old manuscript movements: The First Mirror; The Second Mirror; Return to Normal. Applies First Mirror obfuscation as a one-time trust-sensitive device, preserves second-mirror Dovren/symbol logic, gives Horror’s three-thread riddle, and returns Addie to Rhün / Mae’s Aquila Matara estate. Full historical source for the council meeting is [Book 14 scratchpad beats](../scratchpad/14_09_the_unwound_core_beats.md), with the late-series full-memory lane parsed in [Second Vision parse](../scratchpad/14_09_second_vision_parse.md). Scene IDs B01-S070 through B01-S076. Expanded council beats also saved separately at [expanded beats](../drafts/01_07_the_first_mirror_expanded_council_beats.md). |
 | B01.080 | 01_08 | The Weight of Being Asked | [draft](../drafts/01_08_the_weight_of_being_asked.md) | Parsed | Parent chapter folding old manuscript movements: The Weight of Being Asked; The Weight of What He Wouldn’t Give. Introduces Max and Mae’s household ethic, consolidates the companion table, reveals Matthieu, Brynn’s refused scroll, Luminthalas / Bountiful Harvest, the H-pattern, Law of Threes, Overseer suffering, Yurislav’s node question, and Brickett’s carrot-diagram roster logic. Scene IDs B01-S080/B01-S081/B01-S082. |
 
 ## Book 01 Protected Narrative Fragments
@@ -165,57 +165,4 @@ These fragments are preserved prose baselines. Do not shorten or rewrite them du
 
 | Fragment ID | Protected Text | File | Placement | Rule |
 |---|---|---|---|---|
-| B01.PROTECT.SPEECH.01 | Addie’s Three Hundred Steps speech | [protected fragment](../drafts/protected/01_05_addie_three_hundred_steps_speech.md) | `The Three Hundred Steps` / `01_05_the_core_of_the_conjunction.md` | Preserve in full for now. Any trimming must happen in a dedicated speech pass and must retain meaning, faction accountability, Addie’s honesty, and the conjunction-as-mirror thesis. |
-
-## Book 01 Interlude Placement
-
-Upcoming uploaded interludes should use titles beginning with `Interlude: `.
-
-| Interlude | Current Placement | Notes |
-|---|---|---|
-| Interlude: The Choice to Do Nothing | `B01.035`, after `The Witnesses` and before `The Weight of the Beacon` | Placement is locked because the interlude exits back to Addie alone in the guildmaster’s office with lunch / canteen bread before Concord arrives to collect her. |
-
-## Book 01 Provisional Remainder Grouping Map
-
-This map comes from a full look-ahead scan of the remaining Book 01 prose. Treat it as provisional until each parent chapter is parsed into its own draft file.
-
-| Planned Slot | Planned Parent Chapter | Manuscript Movements Likely Folded | Current Judgment | Notes |
-|---|---|---|---|---|
-| B01.090 | Day One Architecture | Day One Architecture; Holes in the Wall | Strong grouping | First operational day: estate morning, breakfast table with Max and Tikket Z. Varn, planning, portalport ticket logistics from Tikket, movement through city, tactical team selection, and first confrontation / public-pressure scene. |
-| B01.100 | The Bountiful Harvest | The Bountiful Harvest; The Unwound Core | Strong grouping but likely short | Mission result, return to estate, green beacon aftermath, paired coins / Mark of the Orbs inheritance logic, Ariadne’s Thread recognition, and transition into the next phase. |
-
-### Look-Ahead Rule
-
-Before parsing each planned slot, read at least two movements beyond it to verify the boundary still holds. The provisional map should guide parsing but not override obvious POV, setting, or emotional-boundary changes discovered during detailed outline work.
-
-## Book 01 Stub Slots
-
-These are known structural inserts or thematic anchors for Book 01. They may be drafted out of order and later placed precisely in the compile order.
-
-| Stub ID | Type | Working Title / Theme | Current Placement | Notes |
-|---|---|---|---|---|
-| B01.STUB.WWII.01 | WWII / Dear Reader | Interlude: The Choice to Do Nothing | B01.035 | Map Sun People = Japanese, Apathetic Pagans = Americans, Thousand Island Place = Philippines. Prose saved at `drafts/interludes/01_interlude_the_choice_to_do_nothing.md`. |
-| B01.STUB.SCI.01 | Science | Doomsday Shelf Collapse | TBD | Science mirror for delayed collapse / ignored warnings. |
-| B01.STUB.MYTH.01 | Myth / Culture | Oral Tradition Knots | TBD | Mythic / cultural mirror for memory, thread, and record-keeping. |
-| B01.STUB.REWARD.01 | Reward | Ariadne’s Thread | TBD | Reward explanation / thread logic. |
-| B01.STUB.WITNESS.01 | Witness | Horror / Regret, Silence, Sand | B01.030 / ongoing | Book 01 Witness logic begins in `The Witnesses` and should crosslink to Witness canon as mirrors are parsed. |
-| B01.STUB.TITLEMSG.01 | Hidden Title Message | Book 01 title acrostic / terminal-letter message | TBD | Do not finalize until chapter list stabilizes. |
-
-## Book 01 Pending Parsed Units
-
-The manuscript currently contains additional chapter material not yet fully parsed into draft files. Work through these in order, but apply grouping judgment before assigning final compile placement.
-
-Known upcoming manuscript headings include:
-
-- Day One Architecture
-- Holes in the Wall
-- The Bountiful Harvest
-- The Unwound Core
-
-## Grouping Reminder
-
-Before adding a new compile slot, check whether adjacent manuscript units should be grouped into one parent chapter with visible subchapters.
-
-Group when the same setting, same local conflict, same POV, and continuous escalation make the sequence stronger as one chapter.
-
-Do not group when the next unit changes POV, setting, metaphysical layer, timeline, or emotional question enough to deserve its own chapter.
+| B01.PROTECT.SPEECH.01 | Addie’s Three Hundred Steps speech | [protected fragment](../drafts/protected/01_05_addie_three_hundred_steps_speech.md) | Inside B01.050 / `01_05_the_core_of_the_conjunction.md` | Preserve as long-form public speech anchored by “I honestly don’t know.” |
