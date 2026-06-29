@@ -95,7 +95,7 @@ Superseded / avoid as default:
 |---|---|---|
 | Addie | Changes / adjusts hair color; touches or checks the silver pendant when under stress. | Hair color = control ritual; pendant = mother / Mark / lunar anchor. |
 | Gregory H. Frydrake | Fidgets with bracelet; wears spectacles he does not need. | Signals scholarly control, anxiety, and resistance to spectacle. |
-| Brynn H. Stonevein | Candidate signal: hums under her breath when alone, working, or filling silence; stops when precision or vulnerability hits. | Not fully locked unless confirmed. Best current direction: loneliness / breath / craft rhythm. |
+| Brynn H. Stonevein | Hums **“Pull Up Your Green Sleeves”** under her breath when alone, working, or filling silence. Stops humming when precision, danger, or vulnerability takes over. | Loneliness, exile, craft rhythm, breath control, and self-soothing. When the humming stops, the room should get nervous. |
 | Major Tallandra H. Highwatch | Constant room scanning; head turns with avian precision. | Threat-reading habit. When she goes still, danger is imminent or she has made a tactical decision. |
 | Carrio H. Vessalor | Chews gum by default; occasionally sucks hard candy when gum would be socially inappropriate. | Oral fixation that masks teeth-grinding, pent-up anger, and the impulse to bite / lash out. When the gum stops, he is either performing court-control or close to acting. |
 | High Theorist Matthieu H. Cardinal | Doodles diagrams / symbols / calculations on napkins or scrap surfaces. | Shows pattern thought and theoretical processing before he speaks. |
@@ -104,6 +104,38 @@ Superseded / avoid as default:
 | Brickett H. | Fidgety movement, tries to run ahead, constantly wants to cast fireball. | Comic volatility plus fear of being useless. |
 | Brickett H. | Recurring “My life for you!” false-intervention beat. | Should recur about every two to three chapters when pacing allows. Often harmlessly wrong. Other companions may start preempting it in serious scenes. |
 | Rhün H. Ignis | Pending signal. | Needs a recurring habit that can later stop/shift meaningfully. |
+
+---
+
+# Brynn Humming Rule
+
+Brynn’s recurring signal is quiet humming.
+
+She hums an old dwarven work-song called **“Pull Up Your Green Sleeves.”**
+
+The title intentionally echoes the public-domain traditional tune “Greensleeves,” but the in-world song should function as a dwarven labor / forge / endurance song rather than a direct modern reference.
+
+## Use
+
+- Brynn hums when she is alone, working, cleaning, repairing, cooking, forging, walking a hard road, or trying to keep silence from settling around her.
+- The tune is repetitive enough to get under other people’s nerves if they are stuck with it for long.
+- It should feel like loneliness disguised as work rhythm.
+- It should not become broad comedy only; the annoyance is surface-level, the wound underneath is exile.
+
+## Stop Signal
+
+When Brynn stops humming, something has changed.
+
+Use the absence to signal:
+
+- precision;
+- aim;
+- craft concentration;
+- danger;
+- vulnerability;
+- someone touching a truth she does not want answered.
+
+Do not over-explain this early. Train the reader by repetition and interruption.
 
 ---
 
@@ -155,6 +187,7 @@ Examples:
 
 - Mae stops flipping her coin before acting.
 - Yurislav’s coin goes still before he commits.
+- Brynn’s humming stops before precision, danger, or vulnerability.
 - Tallandra’s scanning freezes when she identifies a real threat.
 - Gregory removes or adjusts unnecessary spectacles when forced into public visibility.
 - Carrio’s gum stops moving when the mask has taken over or the anger is no longer safely venting.
