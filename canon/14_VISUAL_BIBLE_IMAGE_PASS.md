@@ -10,6 +10,7 @@ Crosslinks:
 - [Architect / Witness Character Index](./13_ARCHITECT_WITNESS_CHARACTER_INDEX.md)
 - [Architect Exodus Compromises](./11_ARCHITECT_EXODUS_COMPROMISES.md)
 - [Image Upload Register](./15_IMAGE_UPLOAD_REGISTER.md)
+- [Character Gesture / Signal Rules](./17_CHARACTER_GESTURE_SIGNALS.md)
 
 ---
 
@@ -29,6 +30,21 @@ Superseded names for these seats: Magnus Evren Korr, Mireya Celeste Navarro, Eli
 Meera Anjali Krishnamurthy is not related to José Mateo Navarro.
 
 Formal references to Hans must use **Hans Halcyon Hohenzollern**.
+
+---
+
+# Addie Visual Authority Update
+
+Addie’s heirloom is a **simple silver pendant necklace bearing the Mark of the Orbs**.
+
+Do not treat older hair-clip / barrette / berette visual notes as current heirloom canon.
+
+Addie’s hair-color image remains useful for her self-fashioning habit:
+
+- early Book 01 hotel scene: interrupted red/blue hair dye;
+- later Book 01 morning reset: bright cyan hair;
+- hair color = control ritual;
+- pendant = mother / Mark / lunar anchor.
 
 ---
 
@@ -174,10 +190,10 @@ Book 01 story images define public-history and civic-myth language:
 |---|---|---|
 | Dovren I on throne | Red-gold-black imperial decadence, skull/bone throne, court submission, maritime windowing. | Use for Dovren I / first High Sovereign reign, not all Dovrens by default. |
 | Addie speech | Addie on Citadel steps raising staff before huge crowd. | Public-symbol reference; heroic to crowd, uneasy to Addie. |
-| Addie coloring hair | Private mirror scene with red/blue hair-coloring streams. | Does not erase silver hair clip / Mark. |
+| Addie coloring hair | Private mirror scene with red/blue hair-coloring streams. | Supports Addie’s interrupted hair-dye setup and later cyan reset; heirloom is pendant, not hair clip. |
 | Original constellations | Zodiac Horizon order from Widow Spider to Silent Fox. | Lock as original Witness-memory sky order. |
 | Reward constellations | Sky symbols rewritten toward reward objects. | Defeated Witness constellations transform instead of vanishing. |
-| Vellum summons scroll | Floating vellum scroll, seal, ribbon, blue aura. | Official magical bureaucracy. |
+| Vellum summons scroll | Floating vellum scroll, seal, ribbon, blue aura. | Official magical bureaucracy / eye-mail-adjacent dispatch visual. |
 | Royal Observatory | Stone observatory, brass optics, paper star charts, lamps. | No modern screens or electronics in Book 01 Eidolon scenes. |
 | Miriam | Older female astronomer with charts and glasses. | Add locked plum ink to second knuckle in prose. |
 | Overseer scroll delivery | Rat-like elder in black-purple-gold robes with floating scroll. | Procedural menace / summons logistics; do not confuse with Silence. |
@@ -218,10 +234,3 @@ Open reconciliation note: the constellation band currently has 18 zodiac positio
 # High-Priority Follow-Ups
 
 1. Decide Choleth lion vs white tiger.
-2. Decide Gregory human vs draconic/reptilian visual canon.
-3. Produce a better Horror/Regret image direction centered on operational regret rather than spider glamour.
-4. Add signature objects for each Architect so blue-gold council visuals do not blur.
-5. Keep the Ash/Solomon human-face recognition beat central to First Mirror adaptation.
-6. Use Major Tallandra H. Highwatch even when source image text says Captain/Talandra.
-7. Use Brickett spelling consistently.
-8. Reconcile the 18-position zodiac chart with the 19-object reward list before final public chart/export.
