@@ -9,6 +9,7 @@ Expanded character records live in linked canon files:
 - [Visual Bible — Image Pass Notes](./14_VISUAL_BIBLE_IMAGE_PASS.md)
 - [Image Upload Register](./15_IMAGE_UPLOAD_REGISTER.md)
 - [Voice and Phonetic Spelling Exceptions](./15_VOICE_AND_PHONETIC_EXCEPTIONS.md)
+- [Character Gesture / Signal Rules](./17_CHARACTER_GESTURE_SIGNALS.md)
 
 ## Naming Reminder
 
@@ -20,16 +21,16 @@ Middle initials should appear naturally in formal introductions so the **H** pat
 
 | Character | Authority Notes |
 |---|---|
-| Adeshka "Addie" H. Sonntag | Central protagonist; archivist; eidetic memory; half North African / Egyptian and half West African / Nigerian; silver hair clip / Mark remains locked. |
-| Gregory H. Frydrake | Symbologist / priest-scholar; photographic memory; Sakura Branch wording matters. |
+| Adeshka "Addie" H. Sonntag | Central protagonist; archivist; eidetic memory; half North African / Egyptian and half West African / Nigerian; heirloom is a simple silver pendant necklace bearing the Mark of the Orbs; hair dye / hair color experimentation is her recurring self-control habit. |
+| Gregory H. Frydrake | Symbologist / priest-scholar; photographic memory; Sakura Branch wording matters; fidgets with bracelet and wears spectacles he does not need. |
 | Brynn H. Stonevein | Dwarf artisan noble / companion; controlled phonetic accent exception when active. |
-| Major Tallandra H. Highwatch | Concord Guard Major; formal, pragmatic, threat-aware; spelling is Tallandra and rank is Major. |
+| Major Tallandra H. Highwatch | Concord Guard Major; formal, pragmatic, threat-aware; spelling is Tallandra and rank is Major; constant room-scanning / avian head movement is her threat-reading signal. |
 | Carrio H. Vessalor | Serpent courtier / intelligence companion. |
-| High Theorimist Mattieu H. Cardinal | Mathematical / theoretical prodigy. |
+| High Theorimist Mattieu H. Cardinal | Mathematical / theoretical prodigy; doodles diagrams and calculations on napkins or scrap surfaces. |
 | Mae'vyri H. Van'kareth | Dark elf noble and business operator; coin habit remains locked. |
-| Yurislav H. Arslan | Bearfolk companion; reads emotion. |
-| Rhun H. Ignis | Draconic firebound rider. |
-| Brickett H. | Teenage raccoon beastfolk, age 14; no inherited maternal family name because he did not know his mother. |
+| Yurislav H. Arslan | Bearfolk companion; reads emotion; rolls / dances a coin over his knuckles. |
+| Rhün H. Ignis | Draconic firebound rider. |
+| Brickett H. | Teenage raccoon beastfolk, age 14; no inherited maternal family name because he did not know his mother; fidgety, fireball-hungry, and prone to recurring “My life for you!” false-interventions. |
 | Hans Halcyon Hohenzollern | Locked full name. Do not shorten formal references to Hans Halcyon. Casual prose may use Hans after the full name is established. |
 | Mother / Dianne | Mother AI; limited, fallible, not omnipotent or omniscient. |
 | The Overseer | Elder rat-like continuity figure; do not confuse with Silence. |
@@ -68,6 +69,17 @@ These names should not appear as current Architect names in canon rosters or dra
 - **Magnus Evren Korr** — superseded by **Wenliang Jun Chen** for Stone / Preservationist.
 - **Mireya Celeste Navarro** — superseded by **Meera Anjali Krishnamurthy** for Mercy / Surgeon.
 - **Elias Victor Moreau** — superseded by **Ji-hoon Min Park** for Omen-Foresight / Mathematician.
+
+## Superseded Addie Heirloom Terms
+
+These terms may still appear in older parsed drafts and should be corrected during revision:
+
+- silver hair clip;
+- barrette;
+- berette;
+- hair clasp as Addie’s heirloom.
+
+Current authority: **simple silver pendant necklace bearing the Mark of the Orbs**.
 
 ## Relationship Correction
 
