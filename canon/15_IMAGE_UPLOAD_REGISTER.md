@@ -11,6 +11,7 @@ Crosslinks:
 - [Architect / Witness Character Index](./13_ARCHITECT_WITNESS_CHARACTER_INDEX.md)
 - [World Rules](./01_WORLD_RULES.md)
 - [Witnesses, Architects, and Rewards](./06_WITNESSES_ARCHITECTS_REWARDS.md)
+- [Character Gesture / Signal Rules](./17_CHARACTER_GESTURE_SIGNALS.md)
 
 ---
 
@@ -28,6 +29,20 @@ Use this mapping for every image record and visual prompt:
 Meera Anjali Krishnamurthy is not related to José Mateo Navarro.
 
 Formal/canon references use **Hans Halcyon Hohenzollern**.
+
+---
+
+# Addie Visual Authority Update
+
+Addie’s heirloom is a **simple silver pendant necklace bearing the Mark of the Orbs**.
+
+Older image/register language about a hair clip, barrette, berette, or hair clasp should be treated as superseded unless explicitly discussed as an old draft artifact.
+
+The Addie hair-coloring image remains useful for:
+
+- interrupted red/blue hotel hair-dye setup;
+- later bright cyan reset;
+- Addie’s hair-color habit as a self-control ritual.
 
 ---
 
@@ -88,10 +103,10 @@ These images were named by eventual Witness identity but represent human / pre-W
 | C03 | Bastion | White rhino guardian. | Strong. |
 | C04 | Crown | White angelic legal/judgment figure. | Add law records/scales. |
 | C05 | Dominion / Veils | Two-headed red/blue ogre. | Later merged Witness only. |
-| C06 | Echoes | Golden raven archivist. | Strong. |
-| C07 | Harvest | White/golden stag. | Iconic. |
-| C08 | Hearth | Red boar host. | Hospitality / emptiness contrast. |
-| C09 | Horror / Regret | Arachne form. | Reposition toward operational grief and thread/route imagery. |
+| C06 | Echoes | Golden raven archivist. | Strong archive cue. |
+| C07 | Harvest | White/golden stag. | Strong. |
+| C08 | Hearth | Red boar host. | Add emptiness/absence when needed. |
+| C09 | Horror / Regret | Arachne figure. | Strengthen route/thread/regret object language. |
 | C10 | Lanterns | Purple moth-lantern keeper. | Strong; keep moth identity. |
 | C11 | Mercy | Goblin alchemist-surgeon. | Tragic medical cost. |
 | C12 | Meridian | Red/blue minotaur sage. | Add code / memory lattice. |
@@ -134,10 +149,10 @@ These images were named by eventual Witness identity but represent human / pre-W
 |---|---|---|---|
 | E01 | Dovren I on throne | Red-gold-black throne, court submission, maritime windowing. | Dovren I / first High Sovereign reign. |
 | E02 | Addie speech | Addie raising staff on Citadel steps before crowd. | Public-symbol anchor. |
-| E03 | Addie coloring hair | Red/blue private hair-coloring scene. | Does not erase silver hair clip / Mark. |
+| E03 | Addie coloring hair | Red/blue private hair-coloring scene. | Supports Addie’s interrupted hair-dye setup and later cyan reset; heirloom is pendant, not hair clip. |
 | E04 | Original constellations | Zodiac order from Widow Spider to Silent Fox. | Lock order reference. |
 | E05 | Reward constellations | Constellations rewritten as reward objects. | Transformation grammar; reconcile 18 vs 19. |
-| E06 | Vellum scroll | Floating vellum scroll with seal and blue aura. | Summons-scroll visual. |
+| E06 | Vellum scroll | Floating vellum scroll with seal and blue aura. | Summons-scroll / eye-mail-adjacent dispatch visual. |
 | E07 | Royal Observatory | Stone observatory, brass optics, star charts. | No modern tech for Book 01 Eidolon. |
 | E08 | Miriam | Older astronomer with charts and glasses. | Add plum ink to second knuckle in prose. |
 | E09 | Overseer scroll delivery | Rat-like elder with floating scroll. | Procedural menace; not Silence. |
@@ -165,6 +180,7 @@ Setting-facing references include Royal Observatory, vellum summons scroll, Cita
 - Actual Witness images in Batch C should not be used as literal First Mirror forms except for controlled recognition effects such as Solomon/Ash.
 - Book 1 opening uses E06/E07/E08.
 - Book 1 public speech uses E02.
+- Addie hair-color habit uses E03.
 
 ---
 
