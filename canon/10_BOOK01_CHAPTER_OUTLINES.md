@@ -41,15 +41,15 @@ This is preferred over splitting every scene into separate chapters when that wo
 |---|---|---|---|---|---|---|
 | B01.000 | 01_00 | Prologue — The Mother Who Started the War | [`../drafts/01_00_prologue.md`](../drafts/01_00_prologue.md) | Parsed | B01-S000 | Mother, Brickett, number sequence, first act of war. |
 | B01.010 | 01_01 | The Royal Astronomer’s Tower | [`../drafts/01_01_the_royal_astronomers_tower.md`](../drafts/01_01_the_royal_astronomers_tower.md) | Parsed | B01-S010; B01-S011 | Miriam, purple beacon, Overseer, faction triangle, Moderator nomination crisis. |
-| B01.020 | 01_02 | The Nomination | [`../drafts/01_02_the_nomination.md`](../drafts/01_02_the_nomination.md) | Parsed | B01-S020; B01-S021 | Addie’s private life, hair clip / Mark of the Orbs, dispatch, Kwame’s nomination reveal. |
+| B01.020 | 01_02 | The Nomination | [`../drafts/01_02_the_nomination.md`](../drafts/01_02_the_nomination.md) | Parsed | B01-S020; B01-S021 | Addie’s private life, pendant / Mark of the Orbs, interrupted hair dye, eye-mail dispatch, Kwame’s nomination reveal. |
 | B01.030 | 01_03 | The Witnesses | [`../drafts/01_03_the_witnesses.md`](../drafts/01_03_the_witnesses.md) | Parsed | B01-S030 | Witness assembly, addendums, ballot, first shot. |
 | B01.035 | DR_01 | Interlude: The Choice to Do Nothing | [`../drafts/interludes/01_interlude_the_choice_to_do_nothing.md`](../drafts/interludes/01_interlude_the_choice_to_do_nothing.md) | Prose saved | Interlude slot | Dear Reader / WWII oil-embargo interlude. |
-| B01.040 | 01_04 | The Weight of the Beacon | [`../drafts/01_04_the_weight_of_the_beacon.md`](../drafts/01_04_the_weight_of_the_beacon.md) | Parsed | B01-S040; B01-S041; B01-S042 | Addie confinement, Concord extraction, Brickett rescue, impossible brick, pawn-shop proof. |
+| B01.040 | 01_04 | The Weight of the Beacon | [`../drafts/01_04_the_weight_of_the_beacon.md`](../drafts/01_04_the_weight_of_the_beacon.md) | Parsed | B01-S040; B01-S041; B01-S042 | Addie confinement, Concord extraction, Brickett rescue, impossible brick, pendant/clasp proof. |
 | B01.050 | 01_05 | The Core of the Conjunction | [`../drafts/01_05_the_core_of_the_conjunction.md`](../drafts/01_05_the_core_of_the_conjunction.md) | Parsed | B01-S050; B01-S051; B01-S052 | Blue beacon, scrolls, forced transfer, Three Hundred Steps speech, silent applause. |
 | B01.060 | 01_06 | The Weight of the Roster | [`../drafts/01_06_the_weight_of_the_roster.md`](../drafts/01_06_the_weight_of_the_roster.md) | Parsed | B01-S060; B01-S061 | Conclave roster, Mae’s Speaker role, scroll openings, Addie collection into mirror. |
 | B01.070 | 01_07 | The First Mirror | [`../drafts/01_07_the_first_mirror.md`](../drafts/01_07_the_first_mirror.md); [`../chapters/01_07_the_first_mirror.md`](../chapters/01_07_the_first_mirror.md) | Parsed + prose stub | B01-S070 through B01-S076 | First Mirror, Second Mirror, Horror’s riddle, return to Rhün / Mae estate. Dedicated movement files exist for council beats, Second Mirror, and return-to-Witness-space. |
 | B01.080 | 01_08 | The Weight of Being Asked | [`../drafts/01_08_the_weight_of_being_asked.md`](../drafts/01_08_the_weight_of_being_asked.md) | Parsed | B01-S080; B01-S081; B01-S082 | Mae estate dinner, Max, Gregory, Matthieu, Brynn refused scroll, H-pattern, Law of Threes, Luminthalas destination. |
-| B01.090 | 01_09 | Day One Architecture | [`../drafts/01_09_day_one_architecture.md`](../drafts/01_09_day_one_architecture.md) | Parsed | B01-S090; B01-S091; B01-S092 | Morning after mirror/dinner; Addie bath/hair reset; reporter invasion; field clothes; Mae honesty confrontation; three-team split; Brimscale/Ashwing departure; Mae royal-title reveal. |
+| B01.090 | 01_09 | Day One Architecture | [`../drafts/01_09_day_one_architecture.md`](../drafts/01_09_day_one_architecture.md) | Parsed | B01-S090; B01-S091; B01-S092 | Morning after mirror/dinner; Addie bath/cyan hair reset; reporter invasion; field clothes; Mae honesty confrontation; three-team split; eye-mail contact setup; Brimscale/Ashwing departure; Mae royal-title reveal. |
 
 ---
 
@@ -66,6 +66,7 @@ This chapter turns the companion table into field teams and establishes how publ
 - Parsed outline: [`../drafts/01_09_day_one_architecture.md`](../drafts/01_09_day_one_architecture.md)
 - Settings: [`15_SETTINGS.md`](./15_SETTINGS.md)
 - Scenes: [`16_SCENES.md`](./16_SCENES.md)
+- Character gesture / signal rules: [`17_CHARACTER_GESTURE_SIGNALS.md`](./17_CHARACTER_GESTURE_SIGNALS.md)
 
 ## Visible Subchapters
 
@@ -112,6 +113,10 @@ This chapter turns the companion table into field teams and establishes how publ
 - Use **Brynn H. Stonevein** unless the spelling is explicitly changed.
 - Brickett is **14**.
 - Gregory is **Gregory H. Frydrake**.
+- Addie’s heirloom is a **simple silver pendant necklace** bearing the Mark of the Orbs.
+- Addie’s hair color / hair dye habit is a recurring control ritual.
+- Eye-mail is the split-team contact method; do not use communicator-token language.
+- Preserve recurring gesture signals: Mae coin, Yurislav coin, Gregory bracelet/spectacles, Matthieu doodles, Tallandra scanning, Brickett fireball impulse / “My life for you!” cadence.
 
 ---
 
@@ -126,6 +131,7 @@ This chapter turns the companion table into field teams and establishes how publ
 - [`13_ARCHITECT_WITNESS_CHARACTER_INDEX.md`](./13_ARCHITECT_WITNESS_CHARACTER_INDEX.md)
 - [`11_ARCHITECT_EXODUS_COMPROMISES.md`](./11_ARCHITECT_EXODUS_COMPROMISES.md)
 - [`09_STYLE_AND_PROSE_RULES.md`](./09_STYLE_AND_PROSE_RULES.md)
+- [`17_CHARACTER_GESTURE_SIGNALS.md`](./17_CHARACTER_GESTURE_SIGNALS.md)
 
 ## Known Active Corrections
 
@@ -139,6 +145,8 @@ This chapter turns the companion table into field teams and establishes how publ
 - Major Tallandra H. Highwatch is the current rank/name form.
 - Mae’s estate scenes in Book 1 occur in **Aquila Matara**.
 - Book 1 First Mirror uses protected obfuscation, not full historical exposition.
+- Addie heirloom is the pendant, not the old hair clip / barrette / berette version.
+- Eye-mail means “for your eyes only” and should replace communicator-token phrasing.
 
 ---
 
