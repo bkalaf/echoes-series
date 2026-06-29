@@ -16,6 +16,8 @@ The Book 1 planning lane lives in:
 
 - [`../drafts/01_07_the_first_mirror.md`](../drafts/01_07_the_first_mirror.md)
 - [`../drafts/01_07_the_first_mirror_expanded_council_beats.md`](../drafts/01_07_the_first_mirror_expanded_council_beats.md)
+- [`../drafts/01_07_second_mirror_parse.md`](../drafts/01_07_second_mirror_parse.md)
+- [`../drafts/01_07_return_to_witness_space_parse.md`](../drafts/01_07_return_to_witness_space_parse.md)
 - [`../drafts/01_07_first_mirror_name_corrections.md`](../drafts/01_07_first_mirror_name_corrections.md)
 
 ---
@@ -47,7 +49,9 @@ Book 1 may safely reveal:
 - the twenty-four city-state foundation clue;
 - Solomon’s resemblance to Ash;
 - the first alignment / first grouping of three as partial foreshadowing;
-- Addie learning to read reactions when words are blocked.
+- Addie learning to read reactions when words are blocked;
+- the clearer Second Mirror political-symbolic truth around Dovren, Geoffrik, Bountiful Dam, rainbow arch, and three descending coins;
+- Horror’s three candidate threads and riddle.
 
 ## First Mirror Obfuscation Rule
 
@@ -157,15 +161,19 @@ Second Mirror begins.
 
 This mirror is clearer because its reveal scope belongs to Book 1.
 
-Show early Dovren / High Sovereign symbolic logic, coin logic, household cruelty, and the sentence:
+Show early Dovren / High Sovereign symbolic logic, coin logic, household cruelty, Bountiful Dam / river-diversion / farmland-profiteering seed logic, Geoffrik Vayne’s financial concealment, and the sentence:
 
 > “That should survive, even if the people don’t.”
 
 Keep the focus on Book 1 political-symbolic truth, not full ark truth.
 
+Use the dedicated parse at [`../drafts/01_07_second_mirror_parse.md`](../drafts/01_07_second_mirror_parse.md).
+
 ## 6. The Riddle of Three Threads
 
-Return to Witness space.
+Return to Witness space after the Second Mirror.
+
+Do not skip this movement.
 
 Horror / Regret names the three thread candidates:
 
@@ -176,6 +184,12 @@ Horror / Regret names the three thread candidates:
 Horror gives the riddle:
 
 > “Bring the thread that makes the horned dead charge.”
+
+Horror then gives the yellow-beacon conditionality:
+
+> “We shall see. When. And if. The beacon. Turns yellow.”
+
+Use the dedicated parse at [`../drafts/01_07_return_to_witness_space_parse.md`](../drafts/01_07_return_to_witness_space_parse.md).
 
 ## 7. The Van’kareth Gate
 
@@ -195,4 +209,4 @@ End on the sharpening sound / Mae household threshold, leading into Chapter 8.
 
 This chapter should be finalized after the late-series original council conversation is stabilized.
 
-For now, this stub protects the scope and adaptation logic: Book 1 shows pressure, reaction, hierarchy, and selected safe fragments; the later full-memory chapter shows the complete historical source.
+For now, this stub protects the scope and adaptation logic: Book 1 shows pressure, reaction, hierarchy, selected safe fragments, the Second Mirror symbol-origin lane, and Horror’s riddle; the later full-memory chapter shows the complete historical source.
