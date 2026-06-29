@@ -24,19 +24,26 @@ For every image, find the same-basename JSON sidecar.
 Example:
 
 ```text
-AQM-HERO-NW-v001.png
-AQM-HERO-NW-v001.json
+AQM-HERO-NW-v004.png
+AQM-HERO-NW-v004.json
 ```
 
 The JSON sidecar defines the intended metadata for that image, including:
 
+- schema version;
+- city code / city name;
+- view code;
+- version number;
+- image path;
+- metadata path;
+- prompt record key;
+- prompt version;
+- prompt source hash;
+- generated timestamp;
 - intended camera;
-- view type;
 - visible sections;
 - canonical anchors;
-- prompt version;
-- prompt hash;
-- named landmark roles.
+- consumption notes.
 
 Use the sidecar as intended metadata.
 
@@ -54,6 +61,53 @@ If the image shows something different from the sidecar, keep the sidecar intent
 
 ---
 
+# Sidecar Shape
+
+The current sidecar schema is flat, not nested.
+
+Example:
+
+```json
+{
+  "schemaVersion": 1,
+  "cityCode": "AQM",
+  "cityName": "Aquila Matara",
+  "viewCode": "HERO-NW",
+  "version": 4,
+  "imagePath": "/locales/images/AQM-HERO-NW-v004.png",
+  "metadataPath": "/locales/images/AQM-HERO-NW-v004.json",
+  "promptRecordKey": "AQM-HERO-NW",
+  "promptVersion": 4,
+  "promptSourceHash": "4a2d01b9",
+  "generatedAt": "2026-06-29T07:36:44.880Z",
+  "camera": {
+    "viewType": "hero",
+    "origin": "northwest",
+    "target": "city center / District 13 seat of power",
+    "oppositeSide": "southeast"
+  },
+  "visibleSections": [1, 2],
+  "canonicalAnchors": [
+    {
+      "key": "seatOfPower",
+      "assetId": "AQM_CITADEL",
+      "name": "Civic Blue Glow Tide-Seal Citadel",
+      "type": "CITADEL",
+      "role": "dominant central civic anchor / District 13 seat of power",
+      "promptDescription": "The intended prompt description for this anchor."
+    }
+  ],
+  "consumptionNotes": [
+    "Use this sidecar as intended metadata.",
+    "Record visual deviations separately."
+  ]
+}
+```
+
+`canonicalAnchors[].sectionNumber` is optional and should be used when an anchor is tied to a specific visible city section.
+
+---
+
 # Naming Pattern
 
 Use this basename pattern for images and sidecars:
@@ -66,15 +120,15 @@ Use this basename pattern for images and sidecars:
 Examples:
 
 ```text
-AQM-HERO-NW-v001.png
-AQM-HERO-NW-v001.json
+AQM-HERO-NW-v004.png
+AQM-HERO-NW-v004.json
 LUM-STREET-TALLOW-v002.png
 LUM-STREET-TALLOW-v002.json
 NVR-PALACE-APPROACH-v001.png
 NVR-PALACE-APPROACH-v001.json
 ```
 
-The city code is three uppercase letters. The view code is uppercase hyphenated text. The version is lowercase `v` plus three digits.
+The city code is three uppercase letters. The view code is uppercase hyphenated text. The file suffix is lowercase `v` plus three digits. The sidecar’s `version` field is the integer form of that suffix.
 
 ---
 
@@ -150,6 +204,17 @@ Example:
 ```
 
 Each parsed locale file should aggregate all source views for that city, preserve the intended metadata from each image sidecar, and record visual deviations separately.
+
+For each source image record in a parsed locale output, use:
+
+- `schemaVersion` from the sidecar;
+- `viewCode` from the sidecar;
+- integer `version` from the sidecar;
+- `path` from sidecar `imagePath`;
+- `metadataPath` from the sidecar;
+- prompt lineage fields;
+- `metadataAuthority: "sidecar-intended-metadata"`;
+- `visualDeviations` as parser observations.
 
 ---
 
