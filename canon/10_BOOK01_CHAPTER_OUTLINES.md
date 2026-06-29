@@ -50,7 +50,7 @@ This is preferred over splitting every scene into separate chapters when that wo
 | B01.070 | 01_07 | The First Mirror | [`../drafts/01_07_the_first_mirror.md`](../drafts/01_07_the_first_mirror.md); [`../chapters/01_07_the_first_mirror.md`](../chapters/01_07_the_first_mirror.md) | Parsed + prose stub | B01-S070 through B01-S076 | First Mirror, Second Mirror, Horror’s riddle, return to Rhün / Mae estate. Dedicated movement files exist for council beats, Second Mirror, and return-to-Witness-space. |
 | B01.080 | 01_08 | The Weight of Being Asked | [`../drafts/01_08_the_weight_of_being_asked.md`](../drafts/01_08_the_weight_of_being_asked.md) | Parsed | B01-S080; B01-S081; B01-S082 | Mae estate dinner, Max, Gregory, Matthieu, Brynn refused scroll, H-pattern, Law of Threes, Luminthalas destination. |
 | B01.090 | 01_09 | Day One Architecture | [`../drafts/01_09_day_one_architecture.md`](../drafts/01_09_day_one_architecture.md) | Parsed | B01-S090; B01-S091; B01-S092 | Morning after mirror/dinner; Addie bath/cyan hair reset; reporter invasion; field clothes; Mae honesty confrontation; three-team split; eye-mail contact setup; Brimscale/Ashwing departure; Mae royal-title reveal. |
-| B01.100 | 01_10 | Holes in the Wall | [`../drafts/01_10_holes_in_the_wall.md`](../drafts/01_10_holes_in_the_wall.md) | Parsed | B01-S100 through B01-S104 | First split-team field chapter; adds Brickett false-intervention beat; expands Gregory/Rhün/Brickett archive research and Matthieu/Yurislav/Tallandra Aes Sidhal research; lower-quarter queue at The Bountiful Harvest, temporary Flying Scrolls sign, Carrio Mark recognition, Mae lack-of-Mark vulnerability, and Addie lunar-light cliffhanger. |
+| B01.100 | 01_10 | Holes in the Wall | [`../drafts/01_10_holes_in_the_wall.md`](../drafts/01_10_holes_in_the_wall.md) | Parsed | B01-S100 through B01-S104 | First split-team field chapter; adds Brickett false-intervention beat; expands Gregory/Rhün/Brickett archive research and Matthieu/Yurislav/Tallandra Aes Sidhal research; lower-quarter queue at The Bountiful Harvest, crude middle-finger + Flying Scrolls sign, Carrio Mark recognition, Mae lack-of-Mark vulnerability, and Addie lunar-light cliffhanger. |
 
 ---
 
@@ -119,7 +119,7 @@ This chapter turns the three-team architecture into actual intercut operations w
 - Carrio gum / hard-candy habit should surface; gum going still signals Mark recognition.
 - Eye-mail remains the split-team contact method.
 - The restaurant’s official name is **The Bountiful Harvest**.
-- **Flying Scrolls** is a temporary sign/notice Rosalind and Brynn put up after Moderator scrolls started appearing because they believed the scrolls came from Brynn’s family.
+- **Flying Scrolls** appears on a rude temporary sign with a drawn middle finger. Rosalind and Brynn put it up after Moderator scrolls started appearing because they believed the scrolls came from Brynn’s family.
 - Rosalind vs Roslin spelling remains open.
 
 ---
