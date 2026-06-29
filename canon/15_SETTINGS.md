@@ -58,13 +58,20 @@ A **scene** is not the same thing. Scenes are tracked separately in [`16_SCENES.
 | SET-AQM-MAE-QUARTERS | Estate interior | Mae estate guest quarters | Mae's Aquila Matara estate | `drafts/01_09_day_one_architecture.md` | Addie's morning-after room, delivered bags, cyan hair-dye reset, pendant, and field-clothes discovery. |
 | SET-AQM-MAE-WASHROOM | Estate interior | Mae estate guest washroom / black-stone bath | Mae's Aquila Matara estate | `drafts/01_09_day_one_architecture.md` | Luxurious bath with four brass nozzles; private decompression before day-one operations. |
 | SET-AQM-MAE-EXTERIOR | Estate exterior | Mae estate exterior under reporter pressure | Mae's Aquila Matara estate | `drafts/01_09_day_one_architecture.md` | Crowds, reporters, house guards, Brimscale at the gate, and Ashwing overhead. |
+| SET-AQM-TERMINAL | Transit hub | Aquila Matara terminal / Portalport route | Aquila Matara | `drafts/01_10_holes_in_the_wall.md` | Day-one team split and Brickett false-intervention beat before portal travel. |
+| SET-LUM-PORTALPORT | Transit hub | Luminthalas Portalport / arrival terminal | Luminthalas | `drafts/01_10_holes_in_the_wall.md` | Team Three arrives here before descending into the lower quarters. |
+| SET-LUM-LOWER-QUARTERS | District | Luminthalas lower quarters | Luminthalas | `drafts/01_10_holes_in_the_wall.md` | Cold, soot-dark, class-stratified district below high-elf skybridges. |
+| SET-LUM-TALLOW-DISTRICT | District / lane | Tallow district / tallow-tier | Luminthalas lower quarters | `drafts/01_10_holes_in_the_wall.md` | Queue, restaurant line, nobles, peacekeeper lockdown, and Addie's lunar-light standoff. Term spelling to confirm. |
+| SET-LUM-WHITE-TOWER-ARCHIVES | Archive / institution | White Tower Archives | Luminthalas | `drafts/01_10_holes_in_the_wall.md` | Gregory, Brickett, and Rhün research Luminthalas / Horror / thread records here. |
+| SET-AES-SIDHAL | City / enclave | Aes Sidhal | Stairway Highlands | `drafts/01_10_holes_in_the_wall.md` | Ancient Satyr city / traditionalist enclave; spelling to confirm. |
+| SET-AES-SIDHAL-ACADEMY | Archive / institution | Satyr Arcane Academy | Aes Sidhal | `drafts/01_10_holes_in_the_wall.md` | Matthieu, Yurislav, and Major Tallandra investigate Bountiful Dam records here. |
 | SET-WITNESS-VOID | Metaphysical space | The scene between stories | N/A | `drafts/01_03_the_witnesses.md` | Mother-created non-physical void-space where Witnesses gather. |
 | SET-MIRROR-SEAM | Metaphysical transition | Grey seam / thread transition space | N/A | `drafts/01_07_the_first_mirror.md` | Addie's transition into the First Mirror. |
 | SET-MIRROR-COUNCIL | Historical mirror space | First Mirror council chamber under a wrong sky | Pre-Eidolon historical source | `drafts/01_07_the_first_mirror.md` | Book 1 filtered view of Book 14 council meeting. |
 | SET-MIRROR-AQM-THRONE | Historical mirror space | Half-built Aquila Matara throne room | Ancient Aquila Matara | `drafts/01_07_the_first_mirror.md` | Second Mirror: early Dovren / Overseer / coin-symbol scene. |
 | SET-B14-COUNCIL | Historical source setting | Complete Architect Council chamber | Pre-Eidolon / historical Earth-adjacent source layer | `scratchpad/14_09_the_unwound_core_beats.md` | Full unfiltered council meeting that Book 1 First Mirror adapts. |
 | SET-LUM | City | Luminthalas | Erzengel / Aurreth | `drafts/01_08_the_weight_of_being_asked.md` | First practice destination after Mae estate. |
-| SET-LUM-BOUNTIFUL-HARVEST | Site | Bountiful Harvest restaurant | Luminthalas | `drafts/01_08_the_weight_of_being_asked.md` | First practice objective destination. |
+| SET-LUM-BOUNTIFUL-HARVEST | Site | Bountiful Harvest restaurant | Luminthalas lower quarters | `drafts/01_08_the_weight_of_being_asked.md` | First practice objective destination. `Holes in the Wall` source also uses a sign/name reading “Flying Scrolls”; reconcile before prose lock. |
 | SET-PFN-BOUNTIFUL-DAM | Site / atrocity anchor | Bountiful Dam | Pollyr Fen / Book 01 mission chain | `drafts/01_08_the_weight_of_being_asked.md` | Appears in mirror/report context tied to river diversion and Book 01 solution path. |
 
 ---
@@ -78,6 +85,10 @@ Mae's estate is in **Aquila Matara**. References to Nox Vaelor attached to Mae s
 ## Portalport spelling
 
 `Portalport` / `Portal Port` remains a spelling-standardization item before prose lock.
+
+## Luminthalas restaurant naming
+
+Prior planning says **Bountiful Harvest**. The uploaded `Holes in the Wall` source includes a crude sign reading **Flying Scrolls**. Do not silently resolve this; decide whether one is the public name, old name, nickname, sign-gag, or source typo.
 
 ## Eye-mail
 
