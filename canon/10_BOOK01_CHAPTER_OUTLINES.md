@@ -10,19 +10,19 @@ The compile order is governed by [`SERIES_MASTER_OUTLINE.md`](./SERIES_MASTER_OU
 
 Book 01 is currently indexed through:
 
-- **B01.090 / `01_09` — Day One Architecture**
+- **B01.100 / `01_10` — Holes in the Wall**
 
 The uploaded `book01.md` source contains additional prose after this point. The next clean parse target is:
 
-- **B01.100 / `01_10` — Holes in the Wall**
+- **B01.110 / `01_11` — The Bountiful Harvest**
 
 ## Source Upload Note
 
 The current uploaded source file `book01.md` contains these later unparsed / partially parsed prose sections after `01_08`:
 
-1. `Day One Architecture` — now parsed as `drafts/01_09_day_one_architecture.md`.
-2. `Holes in the Wall` — next target.
-3. `The Bountiful Harvest` — pending, likely continuation / resolution of Brynn recruitment conflict.
+1. `Day One Architecture` — parsed as `drafts/01_09_day_one_architecture.md`.
+2. `Holes in the Wall` — parsed as `drafts/01_10_holes_in_the_wall.md`.
+3. `The Bountiful Harvest` — next target, likely continuation / resolution of Brynn recruitment conflict.
 4. `The Unwound Core` — pending; source appears to contain a later / overlapping return-to-manor and Mark-of-the-Orbs reveal sequence, and should be reconciled carefully before placement.
 
 ---
@@ -50,73 +50,76 @@ This is preferred over splitting every scene into separate chapters when that wo
 | B01.070 | 01_07 | The First Mirror | [`../drafts/01_07_the_first_mirror.md`](../drafts/01_07_the_first_mirror.md); [`../chapters/01_07_the_first_mirror.md`](../chapters/01_07_the_first_mirror.md) | Parsed + prose stub | B01-S070 through B01-S076 | First Mirror, Second Mirror, Horror’s riddle, return to Rhün / Mae estate. Dedicated movement files exist for council beats, Second Mirror, and return-to-Witness-space. |
 | B01.080 | 01_08 | The Weight of Being Asked | [`../drafts/01_08_the_weight_of_being_asked.md`](../drafts/01_08_the_weight_of_being_asked.md) | Parsed | B01-S080; B01-S081; B01-S082 | Mae estate dinner, Max, Gregory, Matthieu, Brynn refused scroll, H-pattern, Law of Threes, Luminthalas destination. |
 | B01.090 | 01_09 | Day One Architecture | [`../drafts/01_09_day_one_architecture.md`](../drafts/01_09_day_one_architecture.md) | Parsed | B01-S090; B01-S091; B01-S092 | Morning after mirror/dinner; Addie bath/cyan hair reset; reporter invasion; field clothes; Mae honesty confrontation; three-team split; eye-mail contact setup; Brimscale/Ashwing departure; Mae royal-title reveal. |
+| B01.100 | 01_10 | Holes in the Wall | [`../drafts/01_10_holes_in_the_wall.md`](../drafts/01_10_holes_in_the_wall.md) | Parsed | B01-S100 through B01-S104 | First split-team field chapter; adds Brickett false-intervention beat; expands Gregory/Rhün/Brickett archive research and Matthieu/Yurislav/Tallandra Aes Sidhal research; lower-quarter queue, Carrio Mark recognition, Mae lack-of-Mark vulnerability, and Addie lunar-light cliffhanger. |
 
 ---
 
-# B01.090 — Day One Architecture
+# B01.100 — Holes in the Wall
 
 ## Function
 
-Move Book 1 from household recovery into the first operational day.
+Move Book 1 from planning into simultaneous field action.
 
-This chapter turns the companion table into field teams and establishes how public pressure, reporter intrusion, Mae’s household logistics, and the green-beacon clock immediately surround Addie’s new role.
+This chapter turns the three-team architecture into actual intercut operations while preserving the main Addie/Mae/Carrio lane in lower Luminthalas.
 
 ## Files
 
-- Parsed outline: [`../drafts/01_09_day_one_architecture.md`](../drafts/01_09_day_one_architecture.md)
+- Parsed outline: [`../drafts/01_10_holes_in_the_wall.md`](../drafts/01_10_holes_in_the_wall.md)
 - Settings: [`15_SETTINGS.md`](./15_SETTINGS.md)
 - Scenes: [`16_SCENES.md`](./16_SCENES.md)
 - Character gesture / signal rules: [`17_CHARACTER_GESTURE_SIGNALS.md`](./17_CHARACTER_GESTURE_SIGNALS.md)
 
 ## Visible Subchapters
 
-1. The Hour of the Wyrm
-2. Reporters at the Window
-3. Field Clothes
-4. Breakfast Before Battle
-5. Complete Honesty
-6. Three Teams
-7. Brimscale and Ashwing
-8. Your Highness
-9. Into the Morning
+1. Prehistoric Weight
+2. My Life For You, Again
+3. Down Into Luminthalas
+4. The Line That Belongs To Them
+5. The White Tower Archives
+6. The Dead Dam
+7. Three Hours In The Cold
+8. The Mark In The Kitchen
+9. Chief Moderator In The Tallow-Tier
+10. White Lunar Light
 
 ## Core Beats
 
-1. Addie sleeps poorly and wakes before dawn.
-2. Her bags have arrived from Skyrend Peak.
-3. She uses bath / cyan hair dye / dressing as a small attempt to reclaim control.
-4. The manor is surrounded by reporters, protesters, guards, and public curiosity.
-5. Addie is accidentally seen in a towel at the window and becomes immediate broadcast material.
-6. Mae’s household provides protective field clothes for the companions.
-7. Barnaby’s tailoring beat reveals household loyalty and craft pride.
-8. Mae confronts Addie over withholding / filtering vital information.
-9. Addie defends her mother’s memory and clarifies trust as an ethical principle.
-10. The group locks three teams: Aes Sidhal / Bountiful Dam search, Luminthalas archives, and Addie-Mae-Carrio Brynn search.
-11. Rhün reveals Brimscale and Ashwing as crowd-clearing assets.
-12. A stable hand accidentally calls Mae “Your Highness.”
-13. Brickett identifies Mae as Crown Princess of the royal house of Nox Vaelor from census files.
-14. The group exits into day-one operations.
+1. Brimscale and Ashwing clear the estate exit path.
+2. Rhün is calmer with animals than crowds.
+3. Brickett mistakes a harmless terminal object for a threat and performs another “My life for you!” false intervention.
+4. The teams split at the terminal / portal route.
+5. Addie, Mae, and Carrio descend into the cold lower quarters of Luminthalas.
+6. Addie blocks Mae from cutting the restaurant line and explains poor-people line etiquette.
+7. Nobles harass Addie about the towel broadcast; Mae and Carrio react too violently.
+8. Gregory, Brickett, and Rhün hit a formal archive dead end; Brickett and Rhün suggest the angle is wrong, but Gregory pushes back to research.
+9. Matthieu, Yurislav, and Major Tallandra hit an official-record dead end at Aes Sidhal; absence of records becomes suspicious but unresolved.
+10. Carrio sees the Mark of the Orbs on a dwarf’s signet ring; his gum stops moving.
+11. Addie connects her pendant, Carrio’s earrings, Brickett’s clasp, and the ring.
+12. Mae lacks the visible Mark and is shaken.
+13. Mae exposes Addie publicly to get the crowd to let them through before lockdown.
+14. The lower-quarter crowd recognizes Addie and gives silent applause.
+15. Rosalind/Roslin and Brynn appear.
+16. Peacekeepers enforce lockdown; Mae and Carrio prepare to escalate.
+17. Addie releases white lunar light through the pendant / Mark pressure and commands everyone to stay calm.
 
 ## Team Architecture
 
 | Team | Members | Destination | Purpose |
 |---|---|---|---|
-| Team One | Matthieu; Yurislav; Major Tallandra | Aes Sidhal / Jadefall route | Look ahead for Bountiful Dam and identify the third city if possible. |
-| Team Two | Gregory; Brickett; Rhün | Luminthalas historic archives | Investigate why Luminthalas is next and what thread Addie needs. |
-| Team Three | Addie; Carrio; Mae | Lower quarters of Luminthalas / Bountiful Harvest | Find Brynn Stonevein and resolve her refused scroll. |
+| Team One | Matthieu; Yurislav; Major Tallandra | Aes Sidhal / Satyr Arcane Academy | Investigate Bountiful Dam; discover official records say it failed and nothing came of it, which is suspicious rather than final. |
+| Team Two | Gregory; Brickett; Rhün | White Tower Archives | Research Luminthalas / Horror / thread records; Brickett and Rhün sense the archive lane is too narrow, while Gregory insists on formal research for now. |
+| Team Three | Addie; Carrio; Mae | Lower Luminthalas / restaurant line | Find Brynn and discover the Mark connection under public pressure. |
 
 ## Continuity Notes
 
-- Mae’s estate is in **Aquila Matara**; Nox Vaelor is noble/title/background context.
-- Use **Major Tallandra H. Highwatch**.
 - Use **Rhün H. Ignis** unless diacritics are intentionally removed later.
-- Use **Brynn H. Stonevein** unless the spelling is explicitly changed.
-- Brickett is **14**.
-- Gregory is **Gregory H. Frydrake**.
-- Addie’s heirloom is a **simple silver pendant necklace** bearing the Mark of the Orbs.
-- Addie’s hair color / hair dye habit is a recurring control ritual.
-- Eye-mail is the split-team contact method; do not use communicator-token language.
-- Preserve recurring gesture signals: Mae coin, Yurislav coin, Gregory bracelet/spectacles, Matthieu doodles, Tallandra scanning, Brickett fireball impulse / “My life for you!” cadence.
+- Use **Gregory H. Frydrake**, not Fyrdrake.
+- Use **Major Tallandra H. Highwatch**.
+- Addie’s heirloom is the **simple silver pendant necklace**, not a hair clip / barrette / berette.
+- Carrio gum / hard-candy habit should surface; gum going still signals Mark recognition.
+- Eye-mail remains the split-team contact method.
+- The restaurant naming conflict must be resolved: prior plan says **Bountiful Harvest**, source sign says **Flying Scrolls**.
+- Rosalind vs Roslin spelling remains open.
 
 ---
 
@@ -152,9 +155,13 @@ This chapter turns the companion table into field teams and establishes how publ
 
 # Next Action Map
 
-1. Parse the next uploaded source chapter: **`Holes in the Wall`**.
-2. Expected path: `drafts/01_10_holes_in_the_wall.md` if it remains a standalone parsed chapter.
-3. After parsing, update:
+1. Parse the next uploaded source chapter: **`The Bountiful Harvest`**.
+2. Expected path: `drafts/01_11_the_bountiful_harvest.md` if it remains a standalone parsed chapter.
+3. Before or during that parse, reconcile:
+   - restaurant name: Bountiful Harvest vs Flying Scrolls;
+   - Rosalind vs Roslin spelling;
+   - the return-to-manor conversation change the user flagged for after `Holes in the Wall`.
+4. After parsing, update:
    - this file;
    - [`SERIES_MASTER_OUTLINE.md`](./SERIES_MASTER_OUTLINE.md);
    - [`16_SCENES.md`](./16_SCENES.md);
