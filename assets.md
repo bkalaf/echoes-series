@@ -285,3 +285,26 @@ No shoreline, no river, no swamp unless explicitly required by this asset terrai
 full district visible
 
 transparent background, no text
+
+
+First of all thank you. I appreciate that. Getting these things nailed down early is important to me so we can avoid the drift and errors that have happened previously (some my fault too - legitimately).
+
+
+
+Doing this chapter exposed a significant issue and error in my naming and assigning the architects. We're almost 100% European in our ancestry... we have some Arab and middle east and African presence admittedly, but we need Asian. Please change these two architects to the ancestry I listed. Change the accent and appearance to match as well. Then please go through all our drafts and make sure these are updated. Check cross links and make sure our witness characters reference the corrected NEW name. Name these characters appropriately by the new ancestry - do not use the current name. I don't think they fit at all with the new assignments.
+
+
+
+|   4 | **Magnus Evren Korr** — Preservationist (East Asian - Chinese)
+
+|  15 | **Kaelen Darius Veyr** — Terraformer (East Asian - Korean)
+
+|   5 | **Mireya Celeste Navarro** — Surgeon (Madras, Indian)
+
+
+
+Also change #5 so she is no longer the brother to Jose. They are unrelated.
+
+
+
+And then please reoutput the prompt for the Book 14 Original Architects chapter with the correction. Also, wouldn't it be better to submit the canon files themselves and not include the detail in the prompt?
