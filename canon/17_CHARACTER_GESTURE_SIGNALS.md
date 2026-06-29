@@ -43,7 +43,7 @@ Addie’s recurring self-fashioning habit is **hair dye / hair color experimenta
 ## Book 01 Setup
 
 - In the hotel-room scene, Addie should be interrupted while dyeing her hair.
-- The interruption comes through the urgent iMail / eye-mail summons lane.
+- The interruption comes through the urgent **eye-mail** summons lane.
 - Her hair should be partially finished / uneven, such as half red and half blue with resistant silver-blonde streaks.
 - This makes the later bright cyan hair in `Day One Architecture` feel like a conscious reset rather than a random visual change.
 
@@ -53,22 +53,39 @@ Hair color is one of Addie’s control rituals. When the world takes control awa
 
 ---
 
-# iMail / Eye-Mail Communication Rule
+# Eye-Mail Communication Rule
 
-Use **iMail / eye-mail** for magical-bureaucratic communication and inter-team contact.
+Use **eye-mail** as the primary term for magical-bureaucratic messages and inter-team contact.
+
+## In-World Logic
+
+Eye-mail means **for your eyes only**.
+
+An eye-mail message is keyed to the intended recipient and seeks that person’s eyes / identity. It may be routed through a reception desk, guildhall, hotel clerk, or courier-like holding system, but the delivery logic still belongs to the recipient.
+
+This lets urgent messages follow someone through civic systems without becoming modern telecommunications.
+
+## Usage Rules
 
 Do not use “communicator token” or “communication token” as the default term. Those read too modern / science-fictional.
 
 Allowed forms:
 
-- iMail;
 - eye-mail;
-- iMail notice;
+- eye-mail notice;
+- eye-mail dispatch;
 - eye-mail relay;
-- iMail contact thread;
+- eye-mail contact thread;
 - eye-mail key / address / seal if the scene needs a physical handling object.
 
-When teams split, they should rely on iMail / eye-mail contact rather than generic communicator tokens.
+When teams split, they should rely on eye-mail contact rather than generic communicator tokens.
+
+Superseded / avoid as default:
+
+- iMail;
+- communicator token;
+- communication token;
+- link key, unless a specific eye-mail addressing object is needed and clearly named as such.
 
 ---
 
