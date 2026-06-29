@@ -71,7 +71,7 @@ A **scene** is not the same thing. Scenes are tracked separately in [`16_SCENES.
 | SET-MIRROR-AQM-THRONE | Historical mirror space | Half-built Aquila Matara throne room | Ancient Aquila Matara | `drafts/01_07_the_first_mirror.md` | Second Mirror: early Dovren / Overseer / coin-symbol scene. |
 | SET-B14-COUNCIL | Historical source setting | Complete Architect Council chamber | Pre-Eidolon / historical Earth-adjacent source layer | `scratchpad/14_09_the_unwound_core_beats.md` | Full unfiltered council meeting that Book 1 First Mirror adapts. |
 | SET-LUM | City | Luminthalas | Erzengel / Aurreth | `drafts/01_08_the_weight_of_being_asked.md` | First practice destination after Mae estate. |
-| SET-LUM-BOUNTIFUL-HARVEST | Site | Bountiful Harvest restaurant | Luminthalas lower quarters | `drafts/01_08_the_weight_of_being_asked.md` | First practice objective destination. `Holes in the Wall` source also uses a sign/name reading “Flying Scrolls”; reconcile before prose lock. |
+| SET-LUM-BOUNTIFUL-HARVEST | Site | Bountiful Harvest restaurant | Luminthalas lower quarters | `drafts/01_08_the_weight_of_being_asked.md` | Official restaurant name. The “Flying Scrolls” sign is a temporary notice Rosalind and Brynn put up after Moderator scrolls started appearing because they thought the scrolls came from Brynn’s family. |
 | SET-PFN-BOUNTIFUL-DAM | Site / atrocity anchor | Bountiful Dam | Pollyr Fen / Book 01 mission chain | `drafts/01_08_the_weight_of_being_asked.md` | Appears in mirror/report context tied to river diversion and Book 01 solution path. |
 
 ---
@@ -88,7 +88,11 @@ Mae's estate is in **Aquila Matara**. References to Nox Vaelor attached to Mae s
 
 ## Luminthalas restaurant naming
 
-Prior planning says **Bountiful Harvest**. The uploaded `Holes in the Wall` source includes a crude sign reading **Flying Scrolls**. Do not silently resolve this; decide whether one is the public name, old name, nickname, sign-gag, or source typo.
+The official restaurant name is **The Bountiful Harvest**.
+
+**Flying Scrolls** is not a second name or replacement name. It is a temporary sign / notice Rosalind and Brynn put up after Moderator scrolls started appearing because they believed the scrolls were from Brynn’s family.
+
+Use the sign as characterization: irritated, practical, local sarcasm under pressure.
 
 ## Eye-mail
 
