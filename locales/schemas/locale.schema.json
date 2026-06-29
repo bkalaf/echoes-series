@@ -1,0 +1,289 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://echoes-of-eidolon.local/schemas/locale.schema.json",
+  "title": "Echoes of Eidolon City Locale Concept-Art Parse",
+  "description": "Canonical parsed concept-art observations for one city locale. One parsed JSON file per city; all source views for that city are aggregated into this file.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "cityCode",
+    "cityName",
+    "sourceImages",
+    "canonicalAnchors",
+    "citywideVisualLanguage",
+    "districtLanguage",
+    "streetLevelDetails",
+    "assetGenerationRules",
+    "notes"
+  ],
+  "properties": {
+    "cityCode": {
+      "type": "string",
+      "pattern": "^[A-Z]{3}$",
+      "description": "Three-letter city code, such as AQM, LUM, or NVR."
+    },
+    "cityName": {
+      "type": "string",
+      "minLength": 1
+    },
+    "sourceImages": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "viewCode",
+          "path",
+          "purpose",
+          "cameraOrigin",
+          "cameraTarget"
+        ],
+        "properties": {
+          "viewCode": {
+            "type": "string",
+            "pattern": "^[A-Z0-9]+(?:-[A-Z0-9]+)*$",
+            "description": "View type and camera origin, such as HERO-NW or STREET-SE."
+          },
+          "path": {
+            "type": "string",
+            "pattern": "^/locales/images/[A-Z]{3}-[A-Z0-9]+(?:-[A-Z0-9]+)*\\.png$"
+          },
+          "purpose": {
+            "type": "string"
+          },
+          "cameraOrigin": {
+            "type": "string"
+          },
+          "cameraTarget": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "canonicalAnchors": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "seatOfPower",
+        "beacon",
+        "wonder",
+        "secondaryMajorLandmark"
+      ],
+      "properties": {
+        "seatOfPower": {
+          "$ref": "#/$defs/anchorWithDistrict"
+        },
+        "beacon": {
+          "$ref": "#/$defs/anchorWithSection"
+        },
+        "wonder": {
+          "$ref": "#/$defs/anchorBasic"
+        },
+        "secondaryMajorLandmark": {
+          "$ref": "#/$defs/anchorWithNullableSection"
+        }
+      }
+    },
+    "citywideVisualLanguage": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "silhouette",
+        "primaryMaterials",
+        "secondaryMaterials",
+        "roofForms",
+        "windowForms",
+        "towerForms",
+        "streetForms",
+        "bridgeForms",
+        "wallAndTerraceForms",
+        "waterIntegration",
+        "vegetation",
+        "lighting",
+        "colorPalette",
+        "recurringMotifs",
+        "civicSymbols",
+        "magicalOrTechnologicalElements"
+      ],
+      "properties": {
+        "silhouette": { "$ref": "#/$defs/stringArray" },
+        "primaryMaterials": { "$ref": "#/$defs/stringArray" },
+        "secondaryMaterials": { "$ref": "#/$defs/stringArray" },
+        "roofForms": { "$ref": "#/$defs/stringArray" },
+        "windowForms": { "$ref": "#/$defs/stringArray" },
+        "towerForms": { "$ref": "#/$defs/stringArray" },
+        "streetForms": { "$ref": "#/$defs/stringArray" },
+        "bridgeForms": { "$ref": "#/$defs/stringArray" },
+        "wallAndTerraceForms": { "$ref": "#/$defs/stringArray" },
+        "waterIntegration": { "$ref": "#/$defs/stringArray" },
+        "vegetation": { "$ref": "#/$defs/stringArray" },
+        "lighting": { "$ref": "#/$defs/stringArray" },
+        "colorPalette": { "$ref": "#/$defs/stringArray" },
+        "recurringMotifs": { "$ref": "#/$defs/stringArray" },
+        "civicSymbols": { "$ref": "#/$defs/stringArray" },
+        "magicalOrTechnologicalElements": { "$ref": "#/$defs/stringArray" }
+      }
+    },
+    "districtLanguage": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "section1",
+        "section2",
+        "section3",
+        "section4",
+        "section5"
+      ],
+      "properties": {
+        "section1": { "$ref": "#/$defs/districtSection" },
+        "section2": { "$ref": "#/$defs/districtSection" },
+        "section3": { "$ref": "#/$defs/districtSection" },
+        "section4": { "$ref": "#/$defs/districtSection" },
+        "section5": { "$ref": "#/$defs/districtSection" }
+      }
+    },
+    "streetLevelDetails": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "pedestrianScale",
+        "marketDetails",
+        "residentialDetails",
+        "smallProps",
+        "publicFurniture",
+        "signageOrNoTextNotes",
+        "groundMaterials",
+        "vegetationCloseups",
+        "lightingCloseups"
+      ],
+      "properties": {
+        "pedestrianScale": { "$ref": "#/$defs/stringArray" },
+        "marketDetails": { "$ref": "#/$defs/stringArray" },
+        "residentialDetails": { "$ref": "#/$defs/stringArray" },
+        "smallProps": { "$ref": "#/$defs/stringArray" },
+        "publicFurniture": { "$ref": "#/$defs/stringArray" },
+        "signageOrNoTextNotes": { "$ref": "#/$defs/stringArray" },
+        "groundMaterials": { "$ref": "#/$defs/stringArray" },
+        "vegetationCloseups": { "$ref": "#/$defs/stringArray" },
+        "lightingCloseups": { "$ref": "#/$defs/stringArray" }
+      }
+    },
+    "assetGenerationRules": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "mustInclude",
+        "mustAvoid",
+        "districtAssetRules",
+        "landmarkAssetRules",
+        "fluffAssetRules",
+        "negativePromptAdditions"
+      ],
+      "properties": {
+        "mustInclude": { "$ref": "#/$defs/stringArray" },
+        "mustAvoid": { "$ref": "#/$defs/stringArray" },
+        "districtAssetRules": { "$ref": "#/$defs/stringArray" },
+        "landmarkAssetRules": { "$ref": "#/$defs/stringArray" },
+        "fluffAssetRules": { "$ref": "#/$defs/stringArray" },
+        "negativePromptAdditions": { "$ref": "#/$defs/stringArray" }
+      }
+    },
+    "notes": {
+      "$ref": "#/$defs/stringArray"
+    }
+  },
+  "$defs": {
+    "stringArray": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "default": []
+    },
+    "anchorBasic": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "name",
+        "role",
+        "visualDescription",
+        "requiredFeatures"
+      ],
+      "properties": {
+        "name": { "type": "string" },
+        "role": { "type": "string" },
+        "visualDescription": { "type": "string" },
+        "requiredFeatures": { "$ref": "#/$defs/stringArray" }
+      }
+    },
+    "anchorWithDistrict": {
+      "allOf": [
+        { "$ref": "#/$defs/anchorBasic" },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["district"],
+          "properties": {
+            "district": {
+              "type": "integer",
+              "minimum": 1
+            }
+          }
+        }
+      ]
+    },
+    "anchorWithSection": {
+      "allOf": [
+        { "$ref": "#/$defs/anchorBasic" },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["section"],
+          "properties": {
+            "section": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 5
+            }
+          }
+        }
+      ]
+    },
+    "anchorWithNullableSection": {
+      "allOf": [
+        { "$ref": "#/$defs/anchorBasic" },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["section"],
+          "properties": {
+            "section": {
+              "type": ["integer", "null"],
+              "minimum": 1,
+              "maximum": 5
+            }
+          }
+        }
+      ]
+    },
+    "districtSection": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "visibleInHeroView",
+        "visualRole",
+        "terrainNotes",
+        "architectureNotes",
+        "assetPromptRules"
+      ],
+      "properties": {
+        "visibleInHeroView": { "type": "boolean" },
+        "visualRole": { "type": "string" },
+        "terrainNotes": { "$ref": "#/$defs/stringArray" },
+        "architectureNotes": { "$ref": "#/$defs/stringArray" },
+        "assetPromptRules": { "$ref": "#/$defs/stringArray" }
+      }
+    }
+  }
+}
