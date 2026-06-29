@@ -20,6 +20,13 @@ This chapter is the Book 1 filtered adaptation of the complete historical counci
 
 Book 14 shows the full meeting. Book 1 shows Addie’s limited, protected, deliberately obfuscated version.
 
+Dedicated Book 1 movement parses:
+
+- [Expanded First Mirror council beats](./01_07_the_first_mirror_expanded_council_beats.md)
+- [Second Mirror parse](./01_07_second_mirror_parse.md)
+- [Return to Witness Space / Horror’s Riddle parse](./01_07_return_to_witness_space_parse.md)
+- [First Mirror name corrections](./01_07_first_mirror_name_corrections.md)
+
 ## Current Architect Name Corrections
 
 Use these current names if this draft references council figures:
@@ -39,13 +46,14 @@ Formal Hans references must use **Hans Halcyon Hohenzollern**.
 
 ## Chapter Structure
 
-This parent chapter combines three manuscript movements into one metaphysical / interpretive chapter:
+This parent chapter combines four manuscript movements into one metaphysical / interpretive chapter:
 
 1. `The First Mirror`
 2. `The Second Mirror`
-3. `Return to Normal`
+3. `Return to Witness Space / Horror’s Riddle`
+4. `Return to Normal`
 
-This grouping should hold because the three movements form one continuous mirror sequence: Addie is pulled from the Conclave into the first obscured memory, moved immediately into the second clearer memory, returned to the Witness space, given the three-thread riddle by Horror, and then returned to ordinary time with Rhün before going to Mae’s estate in **Aquila Matara**.
+This grouping should hold because the four movements form one continuous mirror sequence: Addie is pulled from the Conclave into the first obscured memory, moved immediately into the second clearer memory, returned to the Witness space to receive Horror’s three-thread riddle, and then returned to ordinary time with Rhün before going to Mae’s estate in **Aquila Matara**.
 
 ## Visible Subchapters
 
@@ -65,7 +73,9 @@ The first mirror manufactures suspense through perceptual pressure. Addie must i
 
 The second mirror is clearer and more politically legible, showing early Dovren / High Sovereign symbolism, the coin-symbol logic, and the Overseer’s long-range attention.
 
-The return sequence gives Addie her first Book 1 objective: identify the thread that makes the horned dead charge.
+The return-to-Witness-space movement turns the visions into Addie’s first actionable Book 1 objective: identify the thread that makes the horned dead charge.
+
+The return-to-normal sequence brings Addie back to the Conclave, where Rhün has waited for her and escorts her to Mae’s estate.
 
 ## POV / Narrative Mode
 
@@ -75,11 +85,13 @@ The first mirror is not standard scene witnessing. It is obstructed perception.
 
 The second mirror is clearer because it reveals Book 1-appropriate political and symbolic material rather than full series-scale truth.
 
+The return to Witness space should not become an explanation scene. Horror gives the task; Addie must carry the ambiguity back into the world.
+
 ## Timeline Position
 
 Immediately after `01_06_the_weight_of_the_roster.md` and before `01_08_the_weight_of_being_asked.md`.
 
-In-world, Addie is gone from the Conclave chamber for approximately two hours. Subjectively, the mirrors feel shorter.
+In-world, Addie is gone from the Conclave chamber for approximately two hours. Subjectively, the mirrors and riddle feel shorter.
 
 ## Parent Locations
 
@@ -98,6 +110,7 @@ In-world, Addie is gone from the Conclave chamber for approximately two hours. S
 - Witness of Horror / Regret.
 - First mirror council figures including José Mateo Navarro, Hans Halcyon Hohenzollern, Dianne, Noel Smukk, Seraphine Iris Delacroix, Wenliang Jun Chen, Solomon Elias Ward, Malcolm Alistair MacRae, Aurelius Simon Thorne, Meera Anjali Krishnamurthy, Soren Emilio Maren, Alessandra Bianca Valenti, Ji-hoon Min Park, Kaelen Darius Veyr, and other name-flame figures.
 - Second mirror High Sovereign Dovren Judax Thorne, early regnal form.
+- Geoffrik Vayne.
 - The Overseer, in historical / rat-like administrative form.
 - Chained spouses / family figures around Dovren.
 - Rhün H. Ignis.
@@ -119,10 +132,13 @@ In-world, Addie is gone from the Conclave chamber for approximately two hours. S
 - First alignment / first grouping of three.
 - Second Mirror half-built Aquila Matara.
 - Early Dovren Judax Thorne in throne room.
+- Geoffrik Vayne’s leather folio / legal-financial scheme documents.
+- Bountiful Dam / river-diversion / farmland-profiteering seed logic.
 - Rainbow arch / three descending coins / coin-symbol logic.
 - Spouses / governance cruelty.
 - Overseer looking at Addie across the mirror.
 - “That should survive, even if the people don’t.”
+- Return to Witness space after the Second Mirror.
 - Three threads: Red Thread of Fate, Ariadne’s Thread, Thread of the Norns.
 - Riddle: “Bring the thread that makes the horned dead charge.”
 - Yellow beacon conditionality.
@@ -174,6 +190,8 @@ Preserve the movement from thread transition → first mirror → pressure-obscu
 - Preserve the later unlocked truth for future books; do not import it into Book 1.
 - Correct the old location mistake: Mae’s estate is in **Aquila Matara**, not Nox Vaelor.
 - Use the corrected Architect names in this file and in any future prompt derived from it.
+- Keep the Second Mirror as its own middle movement, not a footnote.
+- Keep the return-to-Witness-space / Horror riddle as its own movement before Addie returns to the Conclave.
 
 ## Allowed Changes
 
@@ -194,6 +212,7 @@ Preserve the movement from thread transition → first mirror → pressure-obscu
 - Do not make Noel one of the eighteen council seats.
 - Do not remove the twenty-four city-state clue.
 - Do not turn First Mirror pressure into redacted-text styling.
+- Do not skip the return-to-Witness-space riddle before returning Addie to Rhün.
 
 ## Relationship To Book 14
 
