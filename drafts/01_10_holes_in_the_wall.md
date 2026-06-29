@@ -130,7 +130,7 @@ The green beacon is approaching. By the end of the chapter, the group is within 
 - Brickett fireball impulse.
 - Luminthalas lower-quarter queue.
 - Official restaurant name: **The Bountiful Harvest**.
-- Temporary crude sign / notice: **Flying Scrolls**, put up by Brynn and Rosalind after the Moderator scrolls started appearing because they thought the scrolls were from Brynn’s family.
+- Temporary crude sign / notice: a drawn middle finger plus the words **Flying Scrolls**, put up by Brynn and Rosalind after the Moderator scrolls started appearing because they thought the scrolls were from Brynn’s family. The implied message is “fuck the flying scrolls.”
 - Garrison lockdown horns.
 - Addie’s lunar light flare from the pendant / Mark pressure.
 
@@ -157,9 +157,11 @@ This should not derail the departure scene.
 
 Lock the restaurant name as **The Bountiful Harvest**.
 
-The source sign reading **Flying Scrolls** is not the restaurant’s real name. It is a temporary sign, joke, warning, or irritated notice that Rosalind and Brynn put up after Moderator scrolls started showing up at the restaurant.
+The source sign reading **Flying Scrolls** is not the restaurant’s real name. The actual sign is a rude temporary notice: a drawn middle finger plus the words **Flying Scrolls**.
 
-They think the scrolls are from Brynn’s family, so the sign should read like local frustration rather than a formal name change.
+The implied phrase is “fuck the flying scrolls.” It is not written out in text on the sign; the gesture supplies the missing beginning.
+
+Rosalind and Brynn put it up after Moderator scrolls started showing up at the restaurant because they believed the scrolls were from Brynn’s family.
 
 Use this detail to characterize Brynn and Rosalind before the conversation begins: practical, irritated, funny under pressure, and done with unwanted family / cosmic paperwork.
 
@@ -285,8 +287,8 @@ Function:
 6. Carrio scans the alleys and storefronts; he is chewing gum casually.
 7. The restaurant is hard to find because the lower quarters are a maze of soot, poor signage, and narrow courtyards.
 8. They find the packed line outside **The Bountiful Harvest**.
-9. A crude temporary sign or notice reads **Flying Scrolls**, aimed at the unwanted Moderator scrolls Brynn and Rosalind believe are coming from Brynn’s family.
-10. The sign should read like exhausted local sarcasm, not a second restaurant name.
+9. A crude temporary sign or notice shows a drawn middle finger plus the words **Flying Scrolls**, aimed at the unwanted Moderator scrolls Brynn and Rosalind believe are coming from Brynn’s family.
+10. The sign should read like exhausted local sarcasm and insult, not a second restaurant name.
 
 ## Subchapter 4 — The Line That Belongs To Them
 
@@ -412,7 +414,7 @@ Function:
 | Yurislav | Anger at erasure / symbol surviving people | Coin signal should stop or harden. |
 | Tallandra | Practical questions about profit / payment / disappearance / missing records | Threat-reading plus tactical inquiry. |
 | Carrio | Identifies the Mark on dwarf’s ring and earrings | Gum stops moving. |
-| Rosalind / Roslin | Treats the scrolls as unwanted family harassment before learning the truth | This supports the temporary Flying Scrolls sign. |
+| Rosalind / Roslin | Treats the scrolls as unwanted family harassment before learning the truth | This supports the temporary middle-finger + Flying Scrolls sign. |
 | Mae | Reveals Addie publicly to move the line before lockdown | Risky but effective. |
 | Addie | Uses lunar flare to stop violence | Threatening, not triumphant. |
 
@@ -433,7 +435,7 @@ Apply these when drafting final prose:
 - Matthieu should doodle diagrams or calculations while thinking.
 - Tallandra should scan the room / exits / threat vectors.
 - The restaurant’s official name is **The Bountiful Harvest**.
-- **Flying Scrolls** is a temporary sign/notice Rosalind and Brynn put up after the Moderator scrolls started appearing because they thought the scrolls came from Brynn’s family.
+- **Flying Scrolls** appears on a crude temporary sign with a drawn middle finger; the implied phrase is “fuck the flying scrolls.” Rosalind and Brynn put it up after the Moderator scrolls started appearing because they thought the scrolls came from Brynn’s family.
 
 ---
 
@@ -465,7 +467,7 @@ Preserve:
 - Replace old clip language with pendant language.
 - Replace communicator-token language with eye-mail contact thread language.
 - Use new recurring signal canon actively.
-- Keep **The Bountiful Harvest** as the restaurant name while using **Flying Scrolls** as a temporary sign/notice gag.
+- Keep **The Bountiful Harvest** as the restaurant name while using **Flying Scrolls** as part of a rude temporary sign/notice gag.
 - Tighten lower-quarter line pacing if needed while keeping class logic.
 
 ## Not Allowed Changes
