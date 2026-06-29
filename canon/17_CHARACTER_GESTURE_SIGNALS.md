@@ -95,12 +95,38 @@ Superseded / avoid as default:
 |---|---|---|
 | Addie | Changes / adjusts hair color; touches or checks the silver pendant when under stress. | Hair color = control ritual; pendant = mother / Mark / lunar anchor. |
 | Gregory H. Frydrake | Fidgets with bracelet; wears spectacles he does not need. | Signals scholarly control, anxiety, and resistance to spectacle. |
+| Brynn H. Stonevein | Candidate signal: hums under her breath when alone, working, or filling silence; stops when precision or vulnerability hits. | Not fully locked unless confirmed. Best current direction: loneliness / breath / craft rhythm. |
+| Major Tallandra H. Highwatch | Constant room scanning; head turns with avian precision. | Threat-reading habit. When she goes still, danger is imminent or she has made a tactical decision. |
+| Carrio H. Vessalor | Chews gum by default; occasionally sucks hard candy when gum would be socially inappropriate. | Oral fixation that masks teeth-grinding, pent-up anger, and the impulse to bite / lash out. When the gum stops, he is either performing court-control or close to acting. |
+| High Theorist Matthieu H. Cardinal | Doodles diagrams / symbols / calculations on napkins or scrap surfaces. | Shows pattern thought and theoretical processing before he speaks. |
 | Mae’vyri H. Van’kareth | Flips / catches her coin. | Stops flipping when she has made a private decision or is about to act. |
 | Yurislav H. Arslan | Rolls / dances a coin across his knuckles. | Stops when he is about to choose violence, truth, or emotional exposure. |
 | Brickett H. | Fidgety movement, tries to run ahead, constantly wants to cast fireball. | Comic volatility plus fear of being useless. |
 | Brickett H. | Recurring “My life for you!” false-intervention beat. | Should recur about every two to three chapters when pacing allows. Often harmlessly wrong. Other companions may start preempting it in serious scenes. |
-| High Theorist Matthieu H. Cardinal | Doodles diagrams / symbols / calculations on napkins or scrap surfaces. | Shows pattern thought and theoretical processing before he speaks. |
-| Major Tallandra H. Highwatch | Constant room scanning; head turns with avian precision. | Threat-reading habit. When she goes still, danger is imminent or she has made a tactical decision. |
+| Rhün H. Ignis | Pending signal. | Needs a recurring habit that can later stop/shift meaningfully. |
+
+---
+
+# Carrio Oral Fixation Rule
+
+Carrio’s default recurring habit is chewing gum.
+
+Hard candy is allowed when gum would violate court etiquette, formal dining, stealth requirements, or public performance.
+
+## Hidden Backstory Logic
+
+Do not expose this early.
+
+Carrio chews because he grinds his teeth from suppressed anger and lifelong social masking. He learned young that noble houses will pay almost anything to preserve a perfect public appearance, and a dentist warned him he would destroy his teeth if he did not redirect the habit.
+
+The later emotional reveal should be blunt and Carrio-specific: without gum or candy, he grinds his teeth; short of that, he wants to bite everyone around him.
+
+## Reader-Signal Use
+
+- Casual gum chewing can read as irreverence or style early.
+- Aggressive chewing can signal anger he is hiding.
+- Hard candy can signal formal-mask mode.
+- Gum going still / absent can signal dangerous control, court performance, or a choice he is hiding.
 
 ---
 
@@ -131,4 +157,5 @@ Examples:
 - Yurislav’s coin goes still before he commits.
 - Tallandra’s scanning freezes when she identifies a real threat.
 - Gregory removes or adjusts unnecessary spectacles when forced into public visibility.
+- Carrio’s gum stops moving when the mask has taken over or the anger is no longer safely venting.
 - Addie changes hair color when she needs control; touches the pendant when grief / mother / Mark pressure surfaces.
