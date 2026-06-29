@@ -2,118 +2,169 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://echoes-of-eidolon.local/schemas/image-sidecar.schema.json",
   "title": "Echoes of Eidolon Locale Image Sidecar",
-  "description": "Intended metadata sidecar that lives next to a single concept-art image in /locales/images. The sidecar is authority for intended camera, view, anchors, prompt lineage, and named landmark roles; actual image parsing records deviations separately.",
+  "description": "Flat intended-metadata sidecar that lives next to one concept-art image in /locales/images. This file records the generator/app intent for camera, view, anchors, prompt lineage, and consumption notes. The sidecar is authority for intended anchors; image parsing records observed deviations separately.",
   "type": "object",
-  "additionalProperties": true,
+  "additionalProperties": false,
   "required": [
-    "image",
-    "intendedMetadata",
-    "prompt",
-    "namedLandmarkRoles"
+    "schemaVersion",
+    "cityCode",
+    "cityName",
+    "viewCode",
+    "version",
+    "imagePath",
+    "metadataPath",
+    "promptRecordKey",
+    "promptVersion",
+    "promptSourceHash",
+    "generatedAt",
+    "camera",
+    "visibleSections",
+    "canonicalAnchors",
+    "consumptionNotes"
   ],
   "properties": {
-    "image": {
-      "type": "object",
-      "additionalProperties": true,
-      "required": ["basename", "imagePath", "cityCode", "viewCode", "version"],
-      "properties": {
-        "basename": {
-          "type": "string",
-          "pattern": "^[A-Z]{3}-[A-Z0-9]+(?:-[A-Z0-9]+)*(?:-v[0-9]{3})?$",
-          "description": "Image basename without extension, e.g. AQM-HERO-NW-v001."
-        },
-        "imagePath": {
-          "type": "string",
-          "pattern": "^/locales/images/[A-Z]{3}-[A-Z0-9]+(?:-[A-Z0-9]+)*(?:-v[0-9]{3})?\\.(png|jpg|jpeg|webp)$"
-        },
-        "cityCode": {
-          "type": "string",
-          "pattern": "^[A-Z]{3}$"
-        },
-        "viewCode": {
-          "type": "string",
-          "pattern": "^[A-Z0-9]+(?:-[A-Z0-9]+)*$",
-          "description": "Camera/view code without the city code or version, e.g. HERO-NW."
-        },
-        "version": {
-          "type": "string",
-          "pattern": "^v[0-9]{3}$"
-        }
-      }
+    "schemaVersion": {
+      "type": "integer",
+      "const": 1
     },
-    "intendedMetadata": {
+    "cityCode": {
+      "type": "string",
+      "pattern": "^[A-Z]{3}$",
+      "description": "Three-letter city code, such as AQM, LUM, or NVR."
+    },
+    "cityName": {
+      "type": "string",
+      "minLength": 1
+    },
+    "viewCode": {
+      "type": "string",
+      "pattern": "^[A-Z0-9]+(?:-[A-Z0-9]+)*$",
+      "description": "Camera/view code without the city code or version, e.g. HERO-NW."
+    },
+    "version": {
+      "type": "integer",
+      "minimum": 1,
+      "description": "Integer version number used in the vNNN basename suffix."
+    },
+    "imagePath": {
+      "type": "string",
+      "pattern": "^/locales/images/[A-Z]{3}-[A-Z0-9]+(?:-[A-Z0-9]+)*-v[0-9]{3}\\.(png|jpg|jpeg|webp)$"
+    },
+    "metadataPath": {
+      "type": "string",
+      "pattern": "^/locales/images/[A-Z]{3}-[A-Z0-9]+(?:-[A-Z0-9]+)*-v[0-9]{3}\\.json$",
+      "description": "Same-basename JSON sidecar path for the image."
+    },
+    "promptRecordKey": {
+      "type": "string",
+      "pattern": "^[A-Z]{3}-[A-Z0-9]+(?:-[A-Z0-9]+)*$",
+      "description": "Stable prompt record key without version suffix, e.g. AQM-HERO-NW."
+    },
+    "promptVersion": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "promptSourceHash": {
+      "type": "string",
+      "pattern": "^[A-Fa-f0-9]{8,64}$"
+    },
+    "generatedAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "camera": {
       "type": "object",
-      "additionalProperties": true,
+      "additionalProperties": false,
       "required": [
-        "camera",
         "viewType",
-        "visibleSections",
-        "canonicalAnchors"
+        "origin",
+        "target",
+        "oppositeSide"
       ],
       "properties": {
-        "camera": {
-          "type": "object",
-          "additionalProperties": true,
-          "description": "Intended camera origin, target, angle, distance, and view framing."
-        },
         "viewType": {
           "type": "string",
           "description": "Intended view type, e.g. hero, street, district, landmark, approach, interior, cutaway."
         },
-        "visibleSections": {
-          "type": "array",
-          "items": {
-            "type": ["integer", "string"]
-          },
-          "description": "City sections / districts intended to be visible in this image."
+        "origin": {
+          "type": "string",
+          "description": "Intended camera origin, e.g. northwest."
         },
-        "canonicalAnchors": {
-          "type": "array",
-          "items": {
-            "type": "object",
-            "additionalProperties": true,
-            "required": ["name", "role"],
-            "properties": {
-              "name": { "type": "string" },
-              "role": { "type": "string" },
-              "intendedVisibility": { "type": "string" },
-              "notes": { "type": "array", "items": { "type": "string" } }
-            }
-          },
-          "description": "Intended canonical anchors; do not overwrite these based on image interpretation."
+        "target": {
+          "type": "string",
+          "description": "Intended camera target / focal aim."
+        },
+        "oppositeSide": {
+          "type": "string",
+          "description": "Opposite city side from the camera origin."
         }
       }
     },
-    "prompt": {
-      "type": "object",
-      "additionalProperties": true,
-      "required": ["promptVersion", "promptHash"],
-      "properties": {
-        "promptVersion": { "type": "string" },
-        "promptHash": { "type": "string" },
-        "promptFamily": { "type": "string" },
-        "sourcePromptPath": { "type": "string" }
-      }
-    },
-    "namedLandmarkRoles": {
+    "visibleSections": {
       "type": "array",
       "items": {
+        "type": "integer",
+        "minimum": 1,
+        "maximum": 5
+      },
+      "uniqueItems": true,
+      "description": "City sections intended to be visible in this image."
+    },
+    "canonicalAnchors": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
         "type": "object",
-        "additionalProperties": true,
-        "required": ["name", "role"],
+        "additionalProperties": false,
+        "required": [
+          "key",
+          "assetId",
+          "name",
+          "type",
+          "role",
+          "promptDescription"
+        ],
         "properties": {
-          "name": { "type": "string" },
-          "role": { "type": "string" },
-          "expectedVisualCue": { "type": "string" },
-          "notes": { "type": "array", "items": { "type": "string" } }
+          "key": {
+            "type": "string",
+            "description": "Semantic anchor key, e.g. seatOfPower, beacon, wonder, secondaryMajorLandmark."
+          },
+          "assetId": {
+            "type": "string",
+            "pattern": "^[A-Z]{3}_[A-Z0-9_]+$"
+          },
+          "name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "type": {
+            "type": "string",
+            "description": "Anchor asset type, e.g. CITADEL, MAJOR_LANDMARK, WONDER."
+          },
+          "sectionNumber": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 5,
+            "description": "Section number when the anchor is tied to a specific city section."
+          },
+          "role": {
+            "type": "string",
+            "minLength": 1
+          },
+          "promptDescription": {
+            "type": "string",
+            "minLength": 1
+          }
         }
       },
-      "description": "Named landmarks and the roles they are intended to play in the image."
+      "description": "Intended canonical anchors. Do not overwrite these based on image interpretation."
     },
-    "notes": {
+    "consumptionNotes": {
       "type": "array",
-      "items": { "type": "string" },
-      "default": []
+      "items": {
+        "type": "string"
+      },
+      "description": "Instructions for the parser consuming the matching image and sidecar."
     }
   }
 }
