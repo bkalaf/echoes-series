@@ -13,6 +13,7 @@ A **scene** is not the same thing. Scenes are tracked separately in [`16_SCENES.
 - Characters: [`05_CHARACTERS.md`](./05_CHARACTERS.md)
 - Scenes: [`16_SCENES.md`](./16_SCENES.md)
 - Master outline: [`SERIES_MASTER_OUTLINE.md`](./SERIES_MASTER_OUTLINE.md)
+- Character Gesture / Signal Rules: [`17_CHARACTER_GESTURE_SIGNALS.md`](./17_CHARACTER_GESTURE_SIGNALS.md)
 
 ---
 
@@ -29,14 +30,14 @@ A **scene** is not the same thing. Scenes are tracked separately in [`16_SCENES.
 | SET-VHAROS-BEACON | Distant landmark | Vharos beacon tower | Vharos / distant sightline | `drafts/01_01_the_royal_astronomers_tower.md` | Confirms network-wide activation from Miriam's view. |
 | SET-SPK-PORTALPORT | Transit hub | Portalport Station / “The PP” | Skyrend Peak | `drafts/01_02_the_nomination.md` | Miserable over-engineered transit station; Addie arrives here before the Gale Exposition. |
 | SET-SPK-GALE-STREETS | Route / street section | Streets between Portalport and the Gale Exposition | Skyrend Peak | `drafts/01_02_the_nomination.md` | Addie moves through crowded public streets after portal transit. |
-| SET-SPK-GALE-HOTEL | Building | Gale Exposition hotel | Skyrend Peak | `drafts/01_02_the_nomination.md` | Addie's temporary room and failed blue-hair scene. |
-| SET-SPK-GALE-314 | Room | Room 314 | Gale Exposition hotel | `drafts/01_02_the_nomination.md` | Addie's private decompression / Mark of the Orbs inspection scene. |
+| SET-SPK-GALE-HOTEL | Building | Gale Exposition hotel | Skyrend Peak | `drafts/01_02_the_nomination.md` | Addie's temporary room; eye-mail dispatch is routed through hotel reception / staff. |
+| SET-SPK-GALE-314 | Room | Room 314 | Gale Exposition hotel | `drafts/01_02_the_nomination.md` | Addie's private decompression, pendant / Mark of the Orbs inspection, and interrupted red/blue hair-dye scene. |
 | SET-SPK-MERIDIAN-GUILDHALL | Building | Meridian Accord Guildhall | Skyrend Peak | `drafts/01_02_the_nomination.md` | Guild crisis space where Addie is nominated. |
 | SET-SPK-KWAME-OFFICE | Room | Guildmaster Kwame Odion Mensah's office | Meridian Accord Guildhall | `drafts/01_02_the_nomination.md` | Nomination reveal; later Addie is confined here before Concord extracts her. |
 | SET-SPK-GUILD-ELEVATOR | Internal transit | Meridian Accord elevator / internal transit | Meridian Accord Guildhall | `drafts/01_04_the_weight_of_the_beacon.md` | Movement route during Addie's extraction. |
 | SET-SPK-GUILD-LOBBY | Building section | Guildhall lobby | Meridian Accord Guildhall | `drafts/01_04_the_weight_of_the_beacon.md` | Concord detail and public extraction sequence passes through here. |
 | SET-SPK-PUBLIC-STREETS | District / route | Public streets of Skyrend Peak | Skyrend Peak | `drafts/01_04_the_weight_of_the_beacon.md` | Crowd panic, signs, Brickett rescue setup. |
-| SET-SPK-PAWN-SHOP | Site | Temporary pawn-shop refuge | Skyrend Peak | `drafts/01_04_the_weight_of_the_beacon.md` | Forensic geometry / Mark of the Orbs proof scene. |
+| SET-SPK-PAWN-SHOP | Site | Temporary pawn-shop refuge | Skyrend Peak | `drafts/01_04_the_weight_of_the_beacon.md` | Forensic geometry / pendant-and-pack-clasp Mark of the Orbs proof scene. |
 | SET-SPK-SECURE-PORTAL | Restricted transit site | Restricted transit corridor and secure portal platform | Skyrend Peak Portalport | `drafts/01_05_the_core_of_the_conjunction.md` | Transfer route from Skyrend Peak to Aquila Matara. |
 | SET-PORTAL-AQM | Portal route | Portal to Aquila Matara | Skyrend Peak → Aquila Matara | `drafts/01_05_the_core_of_the_conjunction.md` | Forced crisis transfer. |
 | SET-AQM | City | Aquila Matara | Erzengel / Aurreth | `drafts/01_05_the_core_of_the_conjunction.md` | Capital city; Conclave and Mae estate are here. |
@@ -54,7 +55,7 @@ A **scene** is not the same thing. Scenes are tracked separately in [`16_SCENES.
 | SET-AQM-MAE-FOYER | Estate interior | Mae's foyer and corridor | Mae's Aquila Matara estate | `drafts/01_08_the_weight_of_being_asked.md` | Arrival into household care structure. |
 | SET-AQM-MAE-KITCHEN | Estate interior | Mae's working kitchen | Mae's Aquila Matara estate | `drafts/01_08_the_weight_of_being_asked.md` | Soup/bread/care beat and Max/Mae household ethic. |
 | SET-AQM-MAE-DINING | Estate interior | Mae's dining room with eighteen high-backed chairs | Mae's Aquila Matara estate | `drafts/01_08_the_weight_of_being_asked.md` | Companion-table consolidation, breakfast planning, and Overseer questioning. |
-| SET-AQM-MAE-QUARTERS | Estate interior | Mae estate guest quarters | Mae's Aquila Matara estate | `drafts/01_09_day_one_architecture.md` | Addie's morning-after room, delivered bags, hair-dye reset, and field-clothes discovery. |
+| SET-AQM-MAE-QUARTERS | Estate interior | Mae estate guest quarters | Mae's Aquila Matara estate | `drafts/01_09_day_one_architecture.md` | Addie's morning-after room, delivered bags, cyan hair-dye reset, pendant, and field-clothes discovery. |
 | SET-AQM-MAE-WASHROOM | Estate interior | Mae estate guest washroom / black-stone bath | Mae's Aquila Matara estate | `drafts/01_09_day_one_architecture.md` | Luxurious bath with four brass nozzles; private decompression before day-one operations. |
 | SET-AQM-MAE-EXTERIOR | Estate exterior | Mae estate exterior under reporter pressure | Mae's Aquila Matara estate | `drafts/01_09_day_one_architecture.md` | Crowds, reporters, house guards, Brimscale at the gate, and Ashwing overhead. |
 | SET-WITNESS-VOID | Metaphysical space | The scene between stories | N/A | `drafts/01_03_the_witnesses.md` | Mother-created non-physical void-space where Witnesses gather. |
@@ -77,6 +78,10 @@ Mae's estate is in **Aquila Matara**. References to Nox Vaelor attached to Mae s
 ## Portalport spelling
 
 `Portalport` / `Portal Port` remains a spelling-standardization item before prose lock.
+
+## Eye-mail
+
+Eye-mail is the preferred message-delivery language for recipient-keyed magical/civic communication. Do not default to communicator-token language.
 
 ## Scene linkage
 
