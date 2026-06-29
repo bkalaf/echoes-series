@@ -57,12 +57,14 @@ It does three important things:
 It also plants or reinforces:
 
 - Addie’s cyan hair / self-fashioning after crisis;
+- Addie’s pendant as mother / Mark / lunar anchor;
 - Mae’s care-through-control method;
 - Addie and Mae’s first serious trust conflict;
 - Rhün’s affinity with dangerous creatures;
 - Brickett’s excitement around flying fire drakes;
 - Mae’s Crown Princess of Nox Vaelor identity;
-- day-one destination structure: Aes Sidhal, Luminthalas archives, and Bountiful Harvest.
+- day-one destination structure: Aes Sidhal, Luminthalas archives, and Bountiful Harvest;
+- eye-mail as the contact method for split teams.
 
 ## POV / Narrative Mode
 
@@ -117,6 +119,7 @@ Before:
 
 - Mae’s black stone guest room.
 - Addie’s delivered bags from Skyrend Peak.
+- Addie’s simple silver pendant necklace with Mark of the Orbs.
 - Hair-dye kits.
 - Bright electric cyan hair.
 - Grand black-stone bath with four brass nozzles.
@@ -132,7 +135,7 @@ Before:
 - Mae’s breakfast confrontation about Addie withholding information.
 - Addie’s memory of her mother and the giving-money lesson.
 - Three-team plan.
-- Communication tokens / link keys.
+- Eye-mail contact threads / eye-mail routing plan for split teams.
 - Brimscale on the gate.
 - Ashwing on the parapets / winged overhead threat.
 - Hemlock poison vials.
@@ -153,6 +156,8 @@ The morning plan splits the companions into three operational teams.
 
 **Purpose:** Search ahead for the Bountiful Dam along the Jadefall River and try to identify the third city before the crisis escalates.
 
+**Signal Business:** Matthieu should doodle maps / probability sketches / route diagrams on a napkin or scrap paper while the plan is debated. Yurislav should roll his coin across his knuckles while he listens.
+
 ## Team Two — Archives / Luminthalas Beacon Link
 
 **Members:** Gregory, Brickett, Rhün.
@@ -163,6 +168,8 @@ The morning plan splits the companions into three operational teams.
 
 **Adjustment Pressure:** Gregory worries about being paired with fire-adjacent companions in an archive. This creates a useful comic/character friction beat.
 
+**Signal Business:** Gregory fidgets with his bracelet / spectacles; Brickett wants to solve obstacles with fireball; Rhün’s comfort around fire creatures contrasts Gregory’s discomfort.
+
 ## Team Three — Brynn Search / Bountiful Harvest
 
 **Members:** Addie, Carrio, Mae.
@@ -170,6 +177,8 @@ The morning plan splits the companions into three operational teams.
 **Destination:** Lower quarters of Luminthalas; Brynn Stonevein’s restaurant, The Bountiful Harvest.
 
 **Purpose:** Locate Brynn and deliver / resolve her refused scroll situation.
+
+**Signal Business:** Mae’s coin flip should appear naturally. Addie may touch her pendant when grief / mother / trust pressure surfaces.
 
 ---
 
@@ -181,10 +190,11 @@ The morning plan splits the companions into three operational teams.
 2. Addie has slept only about three and a half hours despite promising to try for eight.
 3. Her bags from Skyrend Peak have been delivered.
 4. Addie finds her hair-dye kits and chooses bright electric cyan as a small act of control.
-5. Before doing her hair, she takes a real bath.
-6. The bath is absurdly luxurious and tells the reader Mae’s estate is both rich and functional.
-7. Addie reviews the three-team plan while soaking.
-8. The green beacon deadline / operational clock pressures the morning.
+5. This should directly pay off the earlier hotel scene where her red/blue hair dye was interrupted by eye-mail.
+6. Before doing her hair, she takes a real bath.
+7. The bath is absurdly luxurious and tells the reader Mae’s estate is both rich and functional.
+8. Addie reviews the three-team plan while soaking.
+9. The green beacon deadline / operational clock pressures the morning.
 
 ## Subchapter 2 — Reporters at the Window
 
@@ -203,7 +213,7 @@ The morning plan splits the companions into three operational teams.
 3. The note has polite care and sharp blood-warning edge.
 4. Outfit is expensive, practical, beautiful, and protective.
 5. Addie recognizes this as Mae-style care: intrusive, competent, and useful.
-6. Addie pins her silver hair clip / berette back in place and heads down.
+6. Addie settles her pendant back against her chest / under the new field clothes and heads down.
 
 ## Subchapter 4 — Breakfast Before Battle
 
@@ -212,7 +222,7 @@ The morning plan splits the companions into three operational teams.
 3. Rhün’s chair is empty.
 4. Everyone is wearing new field clothes.
 5. The group teases Addie because her towel-window incident is already being broadcast.
-6. Gregory points out the broadcast loop.
+6. Gregory points out the broadcast loop while adjusting spectacles he does not need.
 7. Addie thanks Mae for the outfit.
 8. Gregory reveals everyone received custom field clothes.
 9. Mae frames this as public presentation and tactical necessity.
@@ -227,11 +237,12 @@ The morning plan splits the companions into three operational teams.
 3. Mae states the rule: complete honesty from now on, or Addie cannot be trusted alone with informants.
 4. Mae says they already have one Mother pulling strings and does not want Addie added to that list.
 5. Addie reacts sharply because the word mother hits her grief.
-6. Addie warns Mae not to weaponize her mother’s memory.
-7. Addie tells the memory of her mother giving money to people who might spend it badly.
-8. The lesson: trust may fail often, but one successful act of trust matters; giving tells someone they are trusted to choose.
-9. Mae accepts the correction and clarifies: intent matters to Addie, and everyone is learning under pressure.
-10. This is the first serious trust boundary between Addie and Mae.
+6. Addie may touch / catch the pendant at this pressure point.
+7. Addie warns Mae not to weaponize her mother’s memory.
+8. Addie tells the memory of her mother giving money to people who might spend it badly.
+9. The lesson: trust may fail often, but one successful act of trust matters; giving tells someone they are trusted to choose.
+10. Mae accepts the correction and clarifies: intent matters to Addie, and everyone is learning under pressure.
+11. This is the first serious trust boundary between Addie and Mae.
 
 ## Subchapter 6 — Three Teams
 
@@ -239,16 +250,17 @@ The morning plan splits the companions into three operational teams.
 2. The group debates how to get past the reporter/protester wall.
 3. Brickett suggests fireballs.
 4. Everyone rejects this immediately.
-5. Major Tallandra suggests formal garrison escort.
-6. Gregory rejects that because it makes the group look Concord-aligned.
-7. Matthieu agrees independence is their only leverage.
-8. Rhün enters late and announces he has handled the crowd problem.
-9. Rhün reveals Brimscale and Ashwing are sitting on / above the gates.
-10. Brickett becomes deeply excited about the flying fire drake.
-11. Gregory’s fire-drake biology objection creates a setup for later Gregory / fire / spectacle themes.
-12. Final team assignments lock.
-13. Communication tokens are checked.
-14. Max wishes them luck and warns them not to break the world before dinner.
+5. Brickett should remain visibly tempted to solve any obstruction with fire.
+6. Major Tallandra suggests formal garrison escort while continuing to scan every entrance and window.
+7. Gregory rejects that because it makes the group look Concord-aligned.
+8. Matthieu agrees independence is their only leverage, doodling some kind of quick team map / dependency shape as he talks.
+9. Rhün enters late and announces he has handled the crowd problem.
+10. Rhün reveals Brimscale and Ashwing are sitting on / above the gates.
+11. Brickett becomes deeply excited about the flying fire drake.
+12. Gregory’s fire-drake biology objection creates a setup for later Gregory / fire / spectacle themes.
+13. Final team assignments lock.
+14. Eye-mail contact threads are confirmed as the split-team communication method.
+15. Max wishes them luck and warns them not to break the world before dinner.
 
 ## Subchapter 7 — Your Highness
 
@@ -256,10 +268,11 @@ The morning plan splits the companions into three operational teams.
 2. He addresses Mae as “Your Highness.”
 3. The foyer goes still.
 4. Mae casually stores the poison and frames it as diplomatic preparedness / Venom Blade practice.
-5. Addie notes the poison is not the shocking part.
-6. Brickett identifies Mae as Crown Princess of the royal house of Nox Vaelor from census files.
-7. This exposes Mae’s deeper status to the group.
-8. Addie defers the conversation until after the day’s quest.
+5. Mae’s coin should stop or vanish at this beat, signaling she has shifted from play to control.
+6. Addie notes the poison is not the shocking part.
+7. Brickett identifies Mae as Crown Princess of the royal house of Nox Vaelor from census files.
+8. This exposes Mae’s deeper status to the group.
+9. Addie defers the conversation until after the day’s quest.
 
 ## Subchapter 8 — Into the Morning
 
@@ -283,6 +296,8 @@ Apply these corrections when converting prose or generating future drafts:
 - Brickett is **14**.
 - Mae’s estate is in **Aquila Matara**; Nox Vaelor is title/culture/noble-house background.
 - Gregory is **Gregory H. Frydrake**.
+- Addie’s heirloom is a **simple silver pendant necklace**, not a hair clip / barrette / berette.
+- Use **eye-mail**, not communicator tokens / generic link keys.
 
 ---
 
@@ -301,6 +316,7 @@ Preserve:
 - Mae’s complete-honesty confrontation;
 - Addie’s mother-memory response;
 - three-team architecture;
+- eye-mail split-team communication setup;
 - Rhün’s drake solution;
 - Ashwing reveal;
 - Mae’s Crown Princess reveal;
@@ -309,12 +325,13 @@ Preserve:
 ## Allowed Changes
 
 - Tighten the bath and reporter-window sequence if pacing needs compression.
-- Make Addie’s cyan hair consistent with the visual-bible hair-coloring reference.
+- Make Addie’s cyan hair consistent with the earlier interrupted hair-dye scene and visual-bible hair-coloring reference.
 - Sharpen the team assignments so the reader can track who goes where.
 - Keep Mae’s care intrusive but materially useful.
 - Use the confrontation with Mae to clarify Addie’s boundary around her mother without over-explaining grief.
 - Foreshadow Gregory’s later fire problem through his archive/fire-drake anxiety.
 - Keep Brickett funny without making him only comic relief.
+- Surface recurring character signals: Mae coin, Yurislav coin, Gregory bracelet/spectacles, Matthieu doodles, Tallandra scanning, Addie pendant/hair, Brickett fireball impulse.
 
 ## Not Allowed Changes
 
