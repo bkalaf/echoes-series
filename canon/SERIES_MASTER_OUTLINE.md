@@ -160,12 +160,13 @@ Book 01 draft files are compiled in the order below. Draft filenames are stable 
 | B01.070 | 01_07 | The First Mirror | [draft](../drafts/01_07_the_first_mirror.md); [prose stub](../chapters/01_07_the_first_mirror.md) | Parsed + prose stub | First Mirror, Second Mirror, Horror’s riddle, and return to Rhün / Mae estate. Dedicated movement files: [council beats](../drafts/01_07_the_first_mirror_expanded_council_beats.md), [Second Mirror](../drafts/01_07_second_mirror_parse.md), [return/riddle](../drafts/01_07_return_to_witness_space_parse.md). Scene IDs B01-S070 through B01-S076. |
 | B01.080 | 01_08 | The Weight of Being Asked | [draft](../drafts/01_08_the_weight_of_being_asked.md) | Parsed | Mae estate dinner, Max, Gregory, Matthieu, Brynn refused scroll, H-pattern, Law of Threes, Luminthalas destination. Scene IDs B01-S080/B01-S081/B01-S082. |
 | B01.090 | 01_09 | Day One Architecture | [draft](../drafts/01_09_day_one_architecture.md) | Parsed | Morning after mirror/dinner; Addie bath/cyan hair reset; reporter invasion; field clothes; Mae honesty confrontation; three-team split; eye-mail contact setup; Brimscale/Ashwing departure; Mae royal-title reveal. Scene IDs B01-S090/B01-S091/B01-S092. |
+| B01.100 | 01_10 | Holes in the Wall | [draft](../drafts/01_10_holes_in_the_wall.md) | Parsed | First split-team field chapter; Brickett false-intervention beat; expanded research lanes for Team Two and Team One; lower Luminthalas queue, Carrio Mark recognition, Mae lack-of-Mark vulnerability, and Addie lunar-light cliffhanger. Scene IDs B01-S100 through B01-S104. |
 
 ## Book 01 Current Frontier
 
 Next expected parse target from uploaded `book01.md`:
 
-- **B01.100 / `01_10` — Holes in the Wall**
+- **B01.110 / `01_11` — The Bountiful Harvest**
 
 ---
 
