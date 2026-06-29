@@ -23,7 +23,7 @@ Middle initials should appear naturally in formal introductions so the **H** pat
 |---|---|
 | Adeshka "Addie" H. Sonntag | Central protagonist; archivist; eidetic memory; half North African / Egyptian and half West African / Nigerian; heirloom is a simple silver pendant necklace bearing the Mark of the Orbs; hair dye / hair color experimentation is her recurring self-control habit. |
 | Gregory H. Frydrake | Symbologist / priest-scholar; photographic memory; Sakura Branch wording matters; fidgets with bracelet and wears spectacles he does not need. |
-| Brynn H. Stonevein | Dwarf artisan noble / companion; controlled phonetic accent exception when active; candidate gesture signal is quiet humming that stops for precision / vulnerability. |
+| Brynn H. Stonevein | Dwarf artisan noble / companion; controlled phonetic accent exception when active; hums “Pull Up Your Green Sleeves” when alone, working, or filling silence, and stops humming for precision, danger, or vulnerability. |
 | Major Tallandra H. Highwatch | Concord Guard Major; formal, pragmatic, threat-aware; spelling is Tallandra and rank is Major; constant room-scanning / avian head movement is her threat-reading signal. |
 | Carrio H. Vessalor | Serpent courtier / intelligence companion; chews gum by default and uses hard candy when gum would be socially inappropriate; oral fixation masks teeth-grinding, anger, and biting/lashing-out impulse. |
 | High Theorimist Mattieu H. Cardinal | Mathematical / theoretical prodigy; doodles diagrams and calculations on napkins or scrap surfaces. |
