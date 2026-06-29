@@ -80,7 +80,7 @@ The green beacon is approaching. By the end of the chapter, the group is within 
 - Mae’s Aquila Matara estate exterior.
 - Aquila Matara terminal / Portalport route toward Luminthalas.
 - Luminthalas lower quarters / tallow district.
-- Crowded restaurant line outside Brynn / Rosalind’s establishment.
+- Crowded restaurant line outside Brynn and Rosalind’s restaurant, **The Bountiful Harvest**.
 - White Tower Archives of Luminthalas.
 - Aes Sidhal / Satyr Arcane Academy.
 
@@ -129,7 +129,8 @@ The green beacon is approaching. By the end of the chapter, the group is within 
 - Gregory bracelet / unnecessary spectacles.
 - Brickett fireball impulse.
 - Luminthalas lower-quarter queue.
-- Crude restaurant sign / naming conflict: Bountiful Harvest vs Flying Scrolls.
+- Official restaurant name: **The Bountiful Harvest**.
+- Temporary crude sign / notice: **Flying Scrolls**, put up by Brynn and Rosalind after the Moderator scrolls started appearing because they thought the scrolls were from Brynn’s family.
 - Garrison lockdown horns.
 - Addie’s lunar light flare from the pendant / Mark pressure.
 
@@ -151,6 +152,16 @@ Suggested trigger:
 - The beat should be light and fast, training the recurring gag before the teams split.
 
 This should not derail the departure scene.
+
+## Restaurant Name / Flying Scrolls Sign
+
+Lock the restaurant name as **The Bountiful Harvest**.
+
+The source sign reading **Flying Scrolls** is not the restaurant’s real name. It is a temporary sign, joke, warning, or irritated notice that Rosalind and Brynn put up after Moderator scrolls started showing up at the restaurant.
+
+They think the scrolls are from Brynn’s family, so the sign should read like local frustration rather than a formal name change.
+
+Use this detail to characterize Brynn and Rosalind before the conversation begins: practical, irritated, funny under pressure, and done with unwanted family / cosmic paperwork.
 
 ## Expand Team Two — Gregory / Brickett / Rhün
 
@@ -207,7 +218,7 @@ Core direction:
 
 ## Team Three — Addie, Mae, Carrio
 
-Destination: Luminthalas lower quarters / tallow district / Brynn’s restaurant.
+Destination: Luminthalas lower quarters / tallow district / The Bountiful Harvest.
 
 Function:
 
@@ -273,8 +284,9 @@ Function:
 5. Mae advises observing baseline and using values as leverage.
 6. Carrio scans the alleys and storefronts; he is chewing gum casually.
 7. The restaurant is hard to find because the lower quarters are a maze of soot, poor signage, and narrow courtyards.
-8. They find the packed line.
-9. The sign / restaurant name appears. Flag the naming issue: prior canon expects Bountiful Harvest; source text says Flying Scrolls. Do not resolve silently during parse.
+8. They find the packed line outside **The Bountiful Harvest**.
+9. A crude temporary sign or notice reads **Flying Scrolls**, aimed at the unwanted Moderator scrolls Brynn and Rosalind believe are coming from Brynn’s family.
+10. The sign should read like exhausted local sarcasm, not a second restaurant name.
 
 ## Subchapter 4 — The Line That Belongs To Them
 
@@ -400,6 +412,7 @@ Function:
 | Yurislav | Anger at erasure / symbol surviving people | Coin signal should stop or harden. |
 | Tallandra | Practical questions about profit / payment / disappearance / missing records | Threat-reading plus tactical inquiry. |
 | Carrio | Identifies the Mark on dwarf’s ring and earrings | Gum stops moving. |
+| Rosalind / Roslin | Treats the scrolls as unwanted family harassment before learning the truth | This supports the temporary Flying Scrolls sign. |
 | Mae | Reveals Addie publicly to move the line before lockdown | Risky but effective. |
 | Addie | Uses lunar flare to stop violence | Threatening, not triumphant. |
 
@@ -419,7 +432,8 @@ Apply these when drafting final prose:
 - Mae’s coin and Yurislav’s coin should surface when they are present.
 - Matthieu should doodle diagrams or calculations while thinking.
 - Tallandra should scan the room / exits / threat vectors.
-- The restaurant naming conflict must be resolved later: prior plan says **The Bountiful Harvest**, source sign says **Flying Scrolls**.
+- The restaurant’s official name is **The Bountiful Harvest**.
+- **Flying Scrolls** is a temporary sign/notice Rosalind and Brynn put up after the Moderator scrolls started appearing because they thought the scrolls came from Brynn’s family.
 
 ---
 
@@ -451,6 +465,7 @@ Preserve:
 - Replace old clip language with pendant language.
 - Replace communicator-token language with eye-mail contact thread language.
 - Use new recurring signal canon actively.
+- Keep **The Bountiful Harvest** as the restaurant name while using **Flying Scrolls** as a temporary sign/notice gag.
 - Tighten lower-quarter line pacing if needed while keeping class logic.
 
 ## Not Allowed Changes
@@ -480,15 +495,15 @@ The next chapter should resolve:
 - peacekeeper standoff;
 - restaurant-line civilians getting fed or protected;
 - whether Brynn accepts / refuses / delays the companion role;
+- why Brynn and Rosalind believed the scrolls were coming from Brynn’s family;
 - the planned return-to-manor conversation change the user flagged for after `Holes in the Wall`.
 
 ---
 
 # Open Questions / Follow-Up Flags
 
-1. Resolve restaurant name: **Bountiful Harvest** vs **Flying Scrolls**.
-2. Confirm Rosalind vs Roslin spelling.
-3. Confirm whether Aes Sidhal is the final spelling.
-4. Confirm if the lower-quarter district is officially “tallow district,” “tallow-tier,” or another term.
-5. Decide whether Addie’s lunar flare damages scrying lenses permanently or only overloads them temporarily.
-6. Decide where the Team Two “folklore matters too” line should be echoed in the return-to-manor conversation.
+1. Confirm Rosalind vs Roslin spelling.
+2. Confirm whether Aes Sidhal is the final spelling.
+3. Confirm if the lower-quarter district is officially “tallow district,” “tallow-tier,” or another term.
+4. Decide whether Addie’s lunar flare damages scrying lenses permanently or only overloads them temporarily.
+5. Decide where the Team Two “folklore matters too” line should be echoed in the return-to-manor conversation.
