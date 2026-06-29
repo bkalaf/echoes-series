@@ -2,7 +2,7 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://echoes-of-eidolon.local/schemas/locale.schema.json",
   "title": "Echoes of Eidolon City Locale Concept-Art Parse",
-  "description": "Canonical parsed concept-art observations for one city locale. One parsed JSON file per city; all source views for that city are aggregated into this file.",
+  "description": "Canonical parsed concept-art observations for one city locale. One parsed JSON file per city; all source views for that city are aggregated into this file. Source image records may point to versioned image files and same-basename JSON sidecars.",
   "type": "object",
   "additionalProperties": false,
   "required": [
@@ -42,12 +42,17 @@
         "properties": {
           "viewCode": {
             "type": "string",
-            "pattern": "^[A-Z0-9]+(?:-[A-Z0-9]+)*$",
-            "description": "View type and camera origin, such as HERO-NW or STREET-SE."
+            "pattern": "^[A-Z0-9]+(?:-[A-Z0-9]+)*(?:-v[0-9]{3})?$",
+            "description": "View type and camera origin, such as HERO-NW or STREET-SE. Version suffixes such as v001 are allowed when matching the source image basename."
           },
           "path": {
             "type": "string",
-            "pattern": "^/locales/images/[A-Z]{3}-[A-Z0-9]+(?:-[A-Z0-9]+)*\\.png$"
+            "pattern": "^/locales/images/[A-Z]{3}-[A-Z0-9]+(?:-[A-Z0-9]+)*(?:-v[0-9]{3})?\\.png$"
+          },
+          "sidecarPath": {
+            "type": "string",
+            "pattern": "^/locales/images/[A-Z]{3}-[A-Z0-9]+(?:-[A-Z0-9]+)*(?:-v[0-9]{3})?\\.json$",
+            "description": "Same-basename JSON sidecar for intended image metadata. Example: /locales/images/AQM-HERO-NW-v001.json."
           },
           "purpose": {
             "type": "string"
@@ -57,6 +62,15 @@
           },
           "cameraTarget": {
             "type": "string"
+          },
+          "metadataAuthority": {
+            "type": "string",
+            "enum": ["sidecar-intended-metadata"],
+            "description": "Use the sidecar as intended metadata authority. Do not overwrite intended anchors based on image interpretation."
+          },
+          "visualDeviations": {
+            "$ref": "#/$defs/stringArray",
+            "description": "Observed differences between the sidecar’s intended metadata and the actual image."
           }
         }
       }
