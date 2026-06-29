@@ -23,13 +23,13 @@ Middle initials should appear naturally in formal introductions so the **H** pat
 |---|---|
 | Adeshka "Addie" H. Sonntag | Central protagonist; archivist; eidetic memory; half North African / Egyptian and half West African / Nigerian; heirloom is a simple silver pendant necklace bearing the Mark of the Orbs; hair dye / hair color experimentation is her recurring self-control habit. |
 | Gregory H. Frydrake | Symbologist / priest-scholar; photographic memory; Sakura Branch wording matters; fidgets with bracelet and wears spectacles he does not need. |
-| Brynn H. Stonevein | Dwarf artisan noble / companion; controlled phonetic accent exception when active. |
+| Brynn H. Stonevein | Dwarf artisan noble / companion; controlled phonetic accent exception when active; candidate gesture signal is quiet humming that stops for precision / vulnerability. |
 | Major Tallandra H. Highwatch | Concord Guard Major; formal, pragmatic, threat-aware; spelling is Tallandra and rank is Major; constant room-scanning / avian head movement is her threat-reading signal. |
-| Carrio H. Vessalor | Serpent courtier / intelligence companion. |
+| Carrio H. Vessalor | Serpent courtier / intelligence companion; chews gum by default and uses hard candy when gum would be socially inappropriate; oral fixation masks teeth-grinding, anger, and biting/lashing-out impulse. |
 | High Theorimist Mattieu H. Cardinal | Mathematical / theoretical prodigy; doodles diagrams and calculations on napkins or scrap surfaces. |
 | Mae'vyri H. Van'kareth | Dark elf noble and business operator; coin habit remains locked. |
 | Yurislav H. Arslan | Bearfolk companion; reads emotion; rolls / dances a coin over his knuckles. |
-| Rhün H. Ignis | Draconic firebound rider. |
+| Rhün H. Ignis | Draconic firebound rider; recurring gesture signal pending. |
 | Brickett H. | Teenage raccoon beastfolk, age 14; no inherited maternal family name because he did not know his mother; fidgety, fireball-hungry, and prone to recurring “My life for you!” false-interventions. |
 | Hans Halcyon Hohenzollern | Locked full name. Do not shorten formal references to Hans Halcyon. Casual prose may use Hans after the full name is established. |
 | Mother / Dianne | Mother AI; limited, fallible, not omnipotent or omniscient. |
