@@ -21,7 +21,7 @@ Scenes are specific narrative units: time/date + setting + cast.
 
 | Draft | Title | Scene IDs | Setting IDs | Character / Cast Index |
 |---|---|---|---|---|
-| [`01_00_prologue.md`](./01_00_prologue.md) | Prologue — The Mother Who Started the War | B01-S000 | SET-META-NARRATOR; SET-SPK; SET-SPK-SLUMS; SET-SPK-WAREHOUSE | [`05_CHARACTERS.md`](../canon/05_CHARACTERS.md) — Mother/Dianne; Brickett H.; Addie referenced |
+| [`01_00_prologue.md`](./01_00_prologue.md) | Prologue — The Mother Who Started the War | B01-S000 | SET-META-NARRATOR; SET-SPK; SET-SPK-SLUMS; SET-SPK-WAREHOUSE | Mother/Dianne; Brickett H.; Addie referenced |
 | [`01_01_the_royal_astronomers_tower.md`](./01_01_the_royal_astronomers_tower.md) | The Royal Astronomer’s Tower | B01-S010; B01-S011 | SET-SPK-ROYAL-OBS; SET-SPK-STORMSPIRE; SET-VHAROS-BEACON | Miriam; Overseer; Choleth; Janice; Vexira |
 | [`01_02_the_nomination.md`](./01_02_the_nomination.md) | The Nomination | B01-S020; B01-S021 | SET-SPK-PORTALPORT; SET-SPK-GALE-HOTEL; SET-SPK-MERIDIAN-GUILDHALL; SET-SPK-KWAME-OFFICE | Addie; Kwame; Jaren |
 | [`01_03_the_witnesses.md`](./01_03_the_witnesses.md) | The Witnesses | B01-S030 | SET-WITNESS-VOID | Witnesses; Overseer; Mother |
@@ -31,7 +31,7 @@ Scenes are specific narrative units: time/date + setting + cast.
 | [`01_07_the_first_mirror.md`](./01_07_the_first_mirror.md) | The First Mirror | B01-S070; B01-S071; B01-S072; B01-S073; B01-S074; B01-S075; B01-S076 | SET-MIRROR-SEAM; SET-MIRROR-COUNCIL; SET-MIRROR-AQM-THRONE; SET-WITNESS-VOID; SET-AQM-MAE-GATE | Addie; Silence; Horror; Dianne; Noel; Dovren; Overseer; Rhün; Mae offstage |
 | [`01_08_the_weight_of_being_asked.md`](./01_08_the_weight_of_being_asked.md) | The Weight of Being Asked | B01-S080; B01-S081; B01-S082 | SET-AQM-MAE-ESTATE; SET-AQM-MAE-KITCHEN; SET-AQM-MAE-DINING; SET-LUM-BOUNTIFUL-HARVEST | Addie; Mae; Max; Brickett; Gregory; Tallandra; Carrio; Yurislav; Rhün; Matthieu; Overseer; Brynn absent |
 | [`01_07_the_first_mirror_expanded_council_beats.md`](./01_07_the_first_mirror_expanded_council_beats.md) | First Mirror Expanded Council Beats | B01-S071; B01-S072; B01-S073 | SET-MIRROR-COUNCIL | Addie; Silence; Dianne; Noel; historical council figures |
-| [`14_09_second_vision_parse.md`](./14_09_second_vision_parse.md) | Book 14 — The Unwound Core: Second Vision Parse | B14-S090 through B14-S097 | SET-B14-COUNCIL | Addie; Overseer; Dianne; Hans; Noel; José; Seraphine; Gideon; Corvin; Magnus; Solomon; Aurelius; Mireya; Soren; Alessandra; Malcolm; Elias; plus full council expansion pending |
+| [`14_09_second_vision_parse.md`](./14_09_second_vision_parse.md) + [`14_09_second_vision_name_corrections.md`](./14_09_second_vision_name_corrections.md) | Book 14 — The Unwound Core: Second Vision Parse | B14-S090 through B14-S097 | SET-B14-COUNCIL | Addie; Overseer; Dianne; Hans Halcyon Hohenzollern; Noel; José; Seraphine; Gideon; Corvin; Wenliang; Solomon; Aurelius; Meera; Soren; Alessandra; Malcolm; Ji-hoon; Kaelen; full council expansion pending |
 
 ---
 
