@@ -1,0 +1,119 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://echoes-of-eidolon.local/schemas/image-sidecar.schema.json",
+  "title": "Echoes of Eidolon Locale Image Sidecar",
+  "description": "Intended metadata sidecar that lives next to a single concept-art image in /locales/images. The sidecar is authority for intended camera, view, anchors, prompt lineage, and named landmark roles; actual image parsing records deviations separately.",
+  "type": "object",
+  "additionalProperties": true,
+  "required": [
+    "image",
+    "intendedMetadata",
+    "prompt",
+    "namedLandmarkRoles"
+  ],
+  "properties": {
+    "image": {
+      "type": "object",
+      "additionalProperties": true,
+      "required": ["basename", "imagePath", "cityCode", "viewCode", "version"],
+      "properties": {
+        "basename": {
+          "type": "string",
+          "pattern": "^[A-Z]{3}-[A-Z0-9]+(?:-[A-Z0-9]+)*(?:-v[0-9]{3})?$",
+          "description": "Image basename without extension, e.g. AQM-HERO-NW-v001."
+        },
+        "imagePath": {
+          "type": "string",
+          "pattern": "^/locales/images/[A-Z]{3}-[A-Z0-9]+(?:-[A-Z0-9]+)*(?:-v[0-9]{3})?\\.(png|jpg|jpeg|webp)$"
+        },
+        "cityCode": {
+          "type": "string",
+          "pattern": "^[A-Z]{3}$"
+        },
+        "viewCode": {
+          "type": "string",
+          "pattern": "^[A-Z0-9]+(?:-[A-Z0-9]+)*$",
+          "description": "Camera/view code without the city code or version, e.g. HERO-NW."
+        },
+        "version": {
+          "type": "string",
+          "pattern": "^v[0-9]{3}$"
+        }
+      }
+    },
+    "intendedMetadata": {
+      "type": "object",
+      "additionalProperties": true,
+      "required": [
+        "camera",
+        "viewType",
+        "visibleSections",
+        "canonicalAnchors"
+      ],
+      "properties": {
+        "camera": {
+          "type": "object",
+          "additionalProperties": true,
+          "description": "Intended camera origin, target, angle, distance, and view framing."
+        },
+        "viewType": {
+          "type": "string",
+          "description": "Intended view type, e.g. hero, street, district, landmark, approach, interior, cutaway."
+        },
+        "visibleSections": {
+          "type": "array",
+          "items": {
+            "type": ["integer", "string"]
+          },
+          "description": "City sections / districts intended to be visible in this image."
+        },
+        "canonicalAnchors": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": true,
+            "required": ["name", "role"],
+            "properties": {
+              "name": { "type": "string" },
+              "role": { "type": "string" },
+              "intendedVisibility": { "type": "string" },
+              "notes": { "type": "array", "items": { "type": "string" } }
+            }
+          },
+          "description": "Intended canonical anchors; do not overwrite these based on image interpretation."
+        }
+      }
+    },
+    "prompt": {
+      "type": "object",
+      "additionalProperties": true,
+      "required": ["promptVersion", "promptHash"],
+      "properties": {
+        "promptVersion": { "type": "string" },
+        "promptHash": { "type": "string" },
+        "promptFamily": { "type": "string" },
+        "sourcePromptPath": { "type": "string" }
+      }
+    },
+    "namedLandmarkRoles": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": true,
+        "required": ["name", "role"],
+        "properties": {
+          "name": { "type": "string" },
+          "role": { "type": "string" },
+          "expectedVisualCue": { "type": "string" },
+          "notes": { "type": "array", "items": { "type": "string" } }
+        }
+      },
+      "description": "Named landmarks and the roles they are intended to play in the image."
+    },
+    "notes": {
+      "type": "array",
+      "items": { "type": "string" },
+      "default": []
+    }
+  }
+}
