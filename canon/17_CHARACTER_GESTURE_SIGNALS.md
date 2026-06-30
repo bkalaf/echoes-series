@@ -101,9 +101,42 @@ Superseded / avoid as default:
 | High Theorist Matthieu H. Cardinal | Doodles diagrams / symbols / calculations on napkins or scrap surfaces. | Shows pattern thought and theoretical processing before he speaks. |
 | Mae’vyri H. Van’kareth | Flips / catches her coin. | Stops flipping when she has made a private decision or is about to act. |
 | Yurislav H. Arslan | Rolls / dances a coin across his knuckles. | Stops when he is about to choose violence, truth, or emotional exposure. |
-| Brickett H. | Fidgety movement, tries to run ahead, constantly wants to cast fireball. | Comic volatility plus fear of being useless. |
+| Brickett H. | Fidgety movement, tries to run ahead, constantly tries to make fire: sparks, tiny flames, unstable fireballs, smoke, singed whiskers, burned paws, and backfires. | Comic volatility plus fear of being useless. The beaver/fire contradiction matters: he is trying to become something he was not born as. |
 | Brickett H. | Recurring “My life for you!” false-intervention beat. | Should recur about every two to three chapters when pacing allows. Often harmlessly wrong. Other companions may start preempting it in serious scenes. |
 | Rhün H. Ignis | Pending signal. | Needs a recurring habit that can later stop/shift meaningfully. |
+
+---
+
+# Brickett Fire-Mage Tick
+
+Brickett is a 14-year-old **beaver beastfolk** with an obsession with fire.
+
+This is not a species-neutral detail. It is the point.
+
+Beavers suggest water, mud, wood, building, dams, and ecology. Brickett wants fire anyway.
+
+## Use
+
+- He tries to create flame when nervous, excited, bored, embarrassed, or trying to prove he belongs.
+- The spell usually sputters, smokes, sparks, burns his paws, singes his fur / whiskers, or backfires into soot.
+- He can occasionally produce useful fire under pressure, but even then it should feel unstable and self-taught.
+- His clothes, paws, fur, and satchel can carry tiny burn marks as visual continuity.
+- The tick should be funny until it is not; later, it can become the thing that proves he has practiced through pain.
+
+## Visual Identity
+
+- broad flat beaver tail;
+- damp brown fur;
+- rounded ears;
+- large front teeth;
+- muddy paws;
+- underfed body;
+- patched coat / satchel / rolled blanket;
+- singed fur and soot from failed fire magic.
+
+## Superseded
+
+Do not describe Brickett as raccoon, raccoon-kin, ring-tailed, masked, or raccoon-like.
 
 ---
 
@@ -191,4 +224,5 @@ Examples:
 - Tallandra’s scanning freezes when she identifies a real threat.
 - Gregory removes or adjusts unnecessary spectacles when forced into public visibility.
 - Carrio’s gum stops moving when the mask has taken over or the anger is no longer safely venting.
+- Brickett’s fire sputters, smokes, or backfires when he is trying to prove he is useful before he is ready.
 - Addie changes hair color when she needs control; touches the pendant when grief / mother / Mark pressure surfaces.
