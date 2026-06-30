@@ -25,7 +25,8 @@ This chapter is also the first major Brickett / Addie physical-signal chapter:
 
 - Brickett says **“My life for you!”** and crashes into Addie after saving her;
 - Brickett’s pack clasp matches Addie’s **simple silver pendant necklace**;
-- Brickett proves he knows the Mark of the Orbs.
+- Brickett proves he knows the Mark of the Orbs;
+- Brickett’s beaver/fire contradiction appears through soot, singed fur, unstable fire bursts, and self-taught pyromaniac fire magic.
 
 ## POV / Narrative Mode
 Close third on Adeshka “Addie” H. Sonntag.
@@ -46,7 +47,7 @@ The day after Addie’s nomination, as the purple countdown shifts toward blue-b
 - Major Tallandra H. Highwatch.
 - Lieutenant Barry C. Bristleback, boar-kin Concord guard.
 - Lieutenant Boss R. Grizzlepelt, bear-kin Concord guard.
-- Brickett H., raccoon-kin orphan, age 14.
+- Brickett H., beaver-kin orphan, age 14.
 - Officer Rennick T. Quickreed, jackrabbit-kin Concord relay officer.
 - Sergeant Oren V. Antlerfell, stag-kin forensic geometrician.
 - Additional Concord guards.
@@ -69,6 +70,7 @@ The day after Addie’s nomination, as the purple countdown shifts toward blue-b
 - Mark of the Orbs.
 - Impossible brick trajectory.
 - Pawn-shop refuge.
+- Brickett’s sputtering fire magic / unstable fireballs / soot / singed beaver fur.
 
 ## Naming / Initial Rules for This Chapter
 Formal introductions should normalize middle initials while hiding the H pattern.
@@ -81,6 +83,7 @@ Formal introductions should normalize middle initials while hiding the H pattern
 - Sergeant Oren V. Antlerfell should replace the temporary bison-kin forensic analyst as the stag-kin who explains the impossible geometry.
 - Brickett H. keeps no inherited last name because he does not know his mother / was abandoned.
 - Brickett is age 14.
+- Brickett is a beaver-kin child, not raccoon-kin.
 - Do not call attention to the H pattern yet. Let it read as normal formal naming texture.
 
 ## Preserve Skeleton?
@@ -94,6 +97,8 @@ Yes. Preserve the core order of extraction, escort, attempted attack, Brickett r
 - Give the jackrabbit and stag formal names in the pawn-shop scene, not at first appearance.
 - Make the consequence of Mother’s vague shot readable through the impossible brick trajectory.
 - Tighten pacing where the crowd movement, Brickett interruptions, and pawn-shop analysis overlap.
+- Update Brickett’s visual / species language: beaver-kin, broad flat tail, large front teeth, wet fur, mud, soot, singed patches.
+- Make Brickett’s fire magic self-taught, unstable, and backfire-prone rather than cleanly heroic.
 
 ## Not Allowed Changes
 - Do not remove Addie’s office confinement and lunch protest.
@@ -244,7 +249,7 @@ Introduce Brickett as chaos, comedy, and warning. This subchapter should start a
 ## Beat-by-Beat Skeleton
 1. The wedge formation drills through the crowd.
 2. Public signs include both apocalypse panic and absurd gallows humor: “The End is Near” and “The End is Neigh.”
-3. Addie spots something small and furry darting between armored legs.
+3. Addie spots something small and furry darting between armored legs: a dirty, soot-singed beaver boy with a broad tail and a battered pack.
 4. Brickett calls out “Miss Sun-Tag” and says Mother sent him.
 5. Barry tells Addie to ignore it.
 6. Brickett reappears on a rain barrel, soot-covered and clutching a battered leather pack.
@@ -253,8 +258,8 @@ Introduce Brickett as chaos, comedy, and warning. This subchapter should start a
 9. The escort cuts through an alley and back into denser crowd.
 10. Brickett reappears on a window ledge and botches a pickup line / joke from a crumpled note.
 11. A guard grabs at him.
-12. Brickett uses a harmless but flashy firework burst to escape.
-13. Talandra orders the raccoon captured for assaulting a Concord guard.
+12. Brickett uses a harmless but flashy self-taught fire burst to escape; it smokes, sputters, and singes his own fur more than it hurts anyone.
+13. Tallandra orders the beaver captured for assaulting a Concord guard.
 14. Addie protests that he did not hurt anyone and was trying to get away.
 15. Boss warns that this is how it starts.
 16. Brickett leaps across shoulders and says he is supposed to be attached to Addie and can prove it.
@@ -262,14 +267,14 @@ Introduce Brickett as chaos, comedy, and warning. This subchapter should start a
 18. A massive construction brick hurtles at Addie’s head from an impossible angle.
 19. The guards are distracted by Brickett and notice too late.
 20. Brickett launches himself with **“My life for you!”**
-21. Brickett fires two concentrated fireballs into the brick.
-22. The brick detonates into harmless dust.
+21. Brickett fires two concentrated but unstable fireballs into the brick.
+22. The brick detonates into harmless dust; Brickett’s paws smoke from the effort.
 23. Brickett realizes he is now on a collision course with Addie.
 24. Brickett crashes into Addie and knocks the wind out of her.
 25. The crowd goes completely silent.
 26. Brickett panics and attempts disastrous invented CPR.
 27. Guards read the scene as a feral asset attacking Addie.
-28. Tallandra grabs Brickett by the scruff and prepares to execute him.
+28. Tallandra grabs Brickett by the scruff / coat and prepares to execute him.
 29. Brickett screams that Addie cannot die because Mother said not allowed.
 30. Addie breathes again.
 31. Brickett apologizes and says he saw the brick and panicked.
@@ -286,8 +291,8 @@ Introduce Brickett as chaos, comedy, and warning. This subchapter should start a
 |---|---|---|
 | Brickett | Calls Addie “Miss Sun-Tag.” | Yes. |
 | Brickett | Claims Mother sent him. | No |
-| Barry | Tells Addie to ignore the raccoon. | No |
-| Tallandra | Orders Brickett captured after the firework burst. | No |
+| Barry | Tells Addie to ignore the beaver. | No |
+| Tallandra | Orders Brickett captured after the backfiring fire burst. | No |
 | Addie | Defends Brickett because he did not actually hurt the guard. | No |
 | Brickett | Says “My life for you!” | Yes. |
 | Brickett | Apologizes after crashing into Addie. | No |
@@ -313,7 +318,7 @@ Turn the street chaos into proof. The pawn-shop sequence should confirm that the
 5. Tallandra sharpens her knife as psychological warfare.
 6. Medical staff check Addie while Tallandra threatens future violence.
 7. Boss asks whether Addie can do the mind thing to him sometime because it looked like a blast.
-8. Brickett sits in the center of the room smelling terrible, with an empty radius around him.
+8. Brickett sits in the center of the room smelling terrible — wet fur, smoke, mud, and burned hair — with an empty radius around him.
 9. The jackrabbit-kin guard uses a polearm to nudge Brickett back down whenever he tries to stand.
 10. The jackrabbit should be named here as Officer Rennick T. Quickreed, not before the street relay scene.
 11. Addie approaches Brickett with her mother’s charity work in mind.
@@ -341,7 +346,7 @@ Turn the street chaos into proof. The pawn-shop sequence should confirm that the
 33. Brickett takes her hand and tears up at being treated like a person.
 34. Boss gets emotional.
 35. Brickett assumes he is hired because Mother said he is supposed to be attached to Addie.
-36. Addie rejects the idea of adopting / hiring / attaching a chaotic pyromaniac raccoon.
+36. Addie rejects the idea of adopting / hiring / attaching a chaotic pyromaniac beaver.
 37. Brickett admits he went out of order by mentioning the Mark of the Orbs too early.
 38. Brickett tells Addie to look at the clasp on his bag.
 39. Barry comments to Boss that Brickett knows they can all hear him.
@@ -401,7 +406,9 @@ Brickett’s identity as Mother-touched is established, Addie’s pendant and Br
 
 ## Continuity Notes
 - This parent chapter is where the reader should begin to understand what Mother’s vague “missed shot” caused, without the Witnesses chapter having named the target.
-- Brickett is 14 and was born on Kindlemask; preserve if birthday comes up.
+- Brickett is a 14-year-old beaver beastfolk and was born on Kindlemask; preserve if birthday comes up.
+- Kindlemask is no longer raccoon-specific; use it as fire/kindling irony around Brickett’s impossible fire-mage obsession.
+- Brickett’s fire magic should backfire often and leave visible soot, singed fur, burns, or smoke.
 - Use **Major Tallandra H. Highwatch**.
 - Barry is the boar-kin. Boss is the bear-kin.
 - Barry and Boss need full formal names when Tallandra introduces the detail or when the narration settles: Lieutenant Barry C. Bristleback and Lieutenant Boss R. Grizzlepelt.
