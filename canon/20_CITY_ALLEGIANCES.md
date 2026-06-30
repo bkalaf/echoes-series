@@ -38,6 +38,7 @@ This file locks the **Book 1 faction map** after the 24 founding city-states hav
 - **Vhal'Tigris stays Ruin-aligned** through the tracker because the greatcat/tiger city remains politically tied to Ruin.
 - **Ssivareth stays Ruin-aligned** through the Book 9 / Book 10 crisis because Carrio is the Ruin head at that point.
 - **Book 8 includes Dovren's crown-funded stimulus announcement for Concord and Schism cities only.**
+- **Mae's Nox Vaelor political coup happens in Book 3 as an internal city-government coup.** The formal allegiance tracker keeps Nox Vaelor Concord through Book 9, then Schism in Book 10.
 - **Book 9 includes Dovren's war order against Ruin and the march on Ssivareth.**
 - **Book 10 shifts Vyrath'Kai, Skyrend Peak, The Crucible, Khaz Vorem, Orsakar, and Awanate to Ruin.**
 - **Khembal is specifically South African.**
@@ -77,9 +78,13 @@ This should become one of the central dramatic peaks of the series: the companio
 
 ## Mae / Nox Vaelor / Luminthalas Adjustment
 
-Nox Vaelor should no longer function as a simple sovereign ally in this sequence. Dovren may court Nox Vaelor or appear to have secured them, but when pressure rises he reveals his actual preference for human cities and human legitimacy. His racism should become politically visible through who he trusts, rewards, and protects.
+Mae's Nox Vaelor political coup happens in **Book 3** as a side story. This is an internal city-government coup: Mae topples, outmaneuvers, or neutralizes the faction inside Nox Vaelor that would have made the city a simple sovereign ally.
 
-This allows Mae's Book 9 / Book 10 role to sharpen. She does not need to convince the dark elves to stand with her; her deeper political feat is convincing **Luminthalas / the high elves** to join the anti-Dovren defense through diplomacy, wit, leverage, and personal credibility.
+The coup does **not** immediately change the formal allegiance tracker. Nox Vaelor remains publicly and officially Concord-aligned through Book 9, but by then its political machinery, private loyalties, and decision-making leverage are already under Mae's influence.
+
+Dovren may still court Nox Vaelor or believe he has secured them, but when pressure rises he reveals his actual preference for human cities and human legitimacy. His racism should become politically visible through who he trusts, rewards, and protects.
+
+This lets Mae's Book 9 / Book 10 role sharpen without rushing the formal faction math. She does not need to convince the dark elves to stand with her; she already won that fight in Book 3. Her deeper later political feat is convincing **Luminthalas / the high elves** to join the anti-Dovren defense through diplomacy, wit, leverage, and personal credibility.
 
 This change also delays the Mae / Yurislav connection until the story is ready for it. Their link should surface later, when the emotional and political stakes are mature enough to carry it.
 
@@ -92,7 +97,7 @@ Protected Book 9 anti-Ruin anchors include:
 - **Qasr Siroth** — Addie origin city.
 - **Khaz Vorem** — Brynn / dwarf anchor; shifts to Schism in Book 5, then is forced into Ruin in Book 10.
 - **Skyrend Peak** — Tallandra / raptor anchor; shifts to Schism in Book 7, then is forced into Ruin in Book 10.
-- **Nox Vaelor** — Mae origin city; Concord at Book 9, then flipped by Mae's political coup into Schism at Book 10.
+- **Nox Vaelor** — Mae origin city; internal political coup occurs in Book 3, but formal allegiance remains Concord at Book 9 and shifts to Schism in Book 10.
 - **Orsakar** — bearfolk anchor; remains Concord through Book 9, then is forced into Ruin in Book 10.
 - **The Crucible** — Rhün / elemental-fire anchor; remains Concord through Book 9, then is forced into Ruin in Book 10.
 - **Dunmere Locks** — Brickett / river-beastfolk anchor.
@@ -108,7 +113,7 @@ Carrio / **Ssivareth** is the intentional exception: the snake city remains Ruin
 |---|---|---:|
 | Book 1 | Starting lock. | **30 / 21 / 21** |
 | Book 2 | **Pollyr Fen: Concord → Schism.** | **29 / 22 / 21** |
-| Book 3 | **Concord gains seats while Schism begins feeding Ruin:** Bloodreef and Oss Veyr go Concord; Vyrath'Kai goes Schism; Vharos, Aes Sidhal, and Qasr Siroth go Ruin; Blackcairn goes Concord. | **31 / 19 / 22** |
+| Book 3 | **Concord gains seats while Schism begins feeding Ruin:** Bloodreef and Oss Veyr go Concord; Vyrath'Kai goes Schism; Vharos, Aes Sidhal, and Qasr Siroth go Ruin; Blackcairn goes Concord. Mae's internal Nox Vaelor coup occurs here but does not alter the formal count. | **31 / 19 / 22** |
 | Book 4 | Schism-to-Ruin acceleration begins; **Qasr Siroth pulls back to Schism** while Itzamal-Ka moves Ruin; Ruin remains below Concord. | **32 / 15 / 25** |
 | Book 5 | **Khaz Vorem moves to Schism** instead of Ruin; Vyrath'Kai is already Schism from Book 3; more Schism cities polarize outward. | **33 / 12 / 27** |
 | Book 6 | Ruin reaches thirty, but **does not control** because Concord still has more seats. | **34 / 8 / 30** |
