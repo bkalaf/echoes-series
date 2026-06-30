@@ -6,12 +6,16 @@ L4 Reconstruction Outline with Visible Subchapters
 ## Chapter Structure
 This parent chapter introduces Addie’s ordinary life, personal vulnerabilities, and professional position before forcing her into the Moderator crisis. It should be drafted as one connected chapter with visible subchapters.
 
+Addie is physically in **Skyrend Peak** because of the Gale Exposition / Meridian Accord work-travel context. Her home / origin city is **Qasr Siroth**.
+
 ## Visible Subchapters
 1. The Gale Exposition
 2. With Kwame
 
 ## Purpose
 Introduce Addie in her own life before the political machine claims her. The chapter should move from sensory irritation and private grief into institutional crisis, ending with the reveal that the Meridian Accord has already nominated her as Moderator.
+
+This chapter should distinguish Addie’s **temporary Skyrend Peak work-travel location** from her **Qasr Siroth origin**. Do not imply Skyrend Peak is her home city.
 
 This chapter also establishes two recurring Addie signals:
 
@@ -25,6 +29,7 @@ Close third on Adeshka “Addie” H. Sonntag.
 Night of the purple beacon activation, after the Royal Astronomer’s Tower sequence and before the blue beacon / public extraction sequence.
 
 ## Parent Locations
+- Qasr Siroth as Addie’s offstage home / origin city.
 - Portalport Station, Skyrend Peak.
 - Streets between Portalport and the Gale Exposition.
 - Room 314, the Gale Exposition hotel.
@@ -66,6 +71,7 @@ Yes. Preserve the existing manuscript beats, but group them under visible subcha
 - Add connective tissue that makes Addie’s exhaustion and grief carry into the nomination scene.
 - Restore the interrupted hair-dye sequence as a memorable character-control beat.
 - Make eye-mail feel like “for your eyes only” delivery keyed to Addie.
+- Establish or preserve Addie’s Qasr Siroth origin without overloading the opening with exposition.
 - Dialogue may tighten if the intent remains intact.
 - The two visible subchapter titles may be adjusted later if a title-message/acrostic plan needs it.
 
@@ -81,13 +87,14 @@ Yes. Preserve the existing manuscript beats, but group them under visible subcha
 - Do not remove Kwame’s fear and affection.
 - Do not remove the Facilitator-to-Moderator document reveal.
 - Do not remove the final reveal: the Meridian Accord already signed the papers and Addie is their nominee.
+- Do not imply Addie is from Skyrend Peak. She is from **Qasr Siroth**.
 
 ---
 
 # Subchapter 1 — The Gale Exposition
 
 ## Subchapter Function
-Introduce Addie as a tired, brilliant, irritated, underpaid Conjunction scholar before the crisis claims her. This subchapter should make her feel human first: nauseated by portal travel, annoyed by bureaucracy, grieving her mother, hiding the Mark of the Orbs, and trying to control her own appearance before the world interrupts.
+Introduce Addie as a tired, brilliant, irritated, underpaid Conjunction scholar before the crisis claims her. This subchapter should make her feel human first: nauseated by portal travel, annoyed by bureaucracy, away from Qasr Siroth on work travel, grieving her mother, hiding the Mark of the Orbs, and trying to control her own appearance before the world interrupts.
 
 ## Beat-by-Beat Skeleton
 1. Addie exits Portalport transit and immediately undercuts the official brochures by describing transit as being squeezed through a damp leather boot.
@@ -96,7 +103,7 @@ Introduce Addie as a tired, brilliant, irritated, underpaid Conjunction scholar 
 4. The time context is established: hour of the Singularity, final segment of Brindlemask, and Addie is late due to transit delays.
 5. Addie reflects that traveling on the Meridian Accord’s dime is only tolerable because she can usually steal one night of sightseeing.
 6. She moves through the crowd with practiced, analytical force, trying to look like an immovable equation.
-7. Her physical description and mixed heritage are established: light warm skin favoring Egyptian heritage, tall athletic frame, unknown father.
+7. Her physical description, mixed heritage, and origin context are established: light warm skin favoring Egyptian heritage, tall athletic frame, unknown father, Qasr Siroth origin.
 8. An elegant traveler snaps at her after she bumps past a crate of alchemical reagents.
 9. Addie fails to distinguish the elf sub-lineage and decides not to process it.
 10. Addie’s “back room” / eidetic memory processing is introduced.
@@ -176,7 +183,7 @@ Move Addie from private crisis into public institutional crisis. This subchapter
 23. Addie rejects it: she is a nobody, does not do politics, does not do speeches.
 24. Kwame argues that she is the only Conjunction specialist who has disproven forty-two false claims by age twenty-eight.
 25. He says her lack of political identity is exactly why the council selected her.
-26. Kwame says she understands the literal mathematics of survival.
+26. He says she understands the literal mathematics of survival.
 27. He presses the scroll container into her hands.
 28. Kwame reveals the Meridian Accord has already signed the papers.
 29. Addie’s name is on the scroll under the proper institutional seals.
@@ -209,6 +216,7 @@ Addie is holding the nomination scroll container and knows the Meridian Accord h
 - Physical irritation and portal nausea.
 - Dry cynicism and crowd avoidance.
 - Private exhaustion and grief.
+- Qasr Siroth origin remains underneath the Skyrend work-travel frame.
 - Attempted self-control through pendant, hair pigment, and routine.
 - Hair-dye interruption leaves Addie half-red / half-blue and publicly unready.
 - Shock at the purple eye-mail dispatch and beacon.
@@ -220,6 +228,8 @@ Addie is holding the nomination scroll container and knows the Meridian Accord h
 - Final loss of observer status.
 
 ## Continuity Notes
+- Addie is from **Qasr Siroth**.
+- Skyrend Peak is her Gale Exposition / Meridian Accord work-travel location in this chapter, not her home city.
 - Addie’s simple silver pendant necklace must visually match Brickett’s bag clasp later.
 - The Mark of the Orbs should remain unexplained here.
 - Addie’s mother grief should stay quiet but present.
