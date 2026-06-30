@@ -22,7 +22,7 @@ A **scene** is not the same thing. Scenes are tracked separately in [`16_SCENES.
 | Setting ID | Type | Name | Parent / City | First Active Source | Notes |
 |---|---|---|---|---|---|
 | SET-META-NARRATOR | Narrative frame | Dear Reader / mythic narrator frame | N/A | `drafts/01_00_prologue.md` | Reader-facing frame that can cut between true/false story logic and mythic omniscience. |
-| SET-SPK | City | Skyrend Peak | Erzengel / Aurreth | `drafts/01_00_prologue.md` | First Book 01 city focus; cold, high-altitude, Conjunction verification site. |
+| SET-SPK | City | Skyrend Peak | Erzengel / Aurreth | `drafts/01_00_prologue.md` | First Book 01 city focus; cold, high-altitude, Conjunction verification site. Addie is present here for Gale Exposition / Meridian Accord work travel, not because this is her home city. |
 | SET-SPK-SLUMS | District / section | Skyrend Peak slums | Skyrend Peak | `drafts/01_00_prologue.md` | Brickett is found here by Mother. |
 | SET-SPK-WAREHOUSE | Site | Rotting warehouse | Skyrend Peak slums | `drafts/01_00_prologue.md` | Brickett sleeps here beside dying fire before Mother leaves pack/scroll/blanket. |
 | SET-SPK-ROYAL-OBS | Building | Royal Observatory of Skyrend Peak | Skyrend Peak | `drafts/01_01_the_royal_astronomers_tower.md` | Miriam verifies the return of Conjunctions here. |
@@ -40,6 +40,7 @@ A **scene** is not the same thing. Scenes are tracked separately in [`16_SCENES.
 | SET-SPK-PAWN-SHOP | Site | Temporary pawn-shop refuge | Skyrend Peak | `drafts/01_04_the_weight_of_the_beacon.md` | Forensic geometry / pendant-and-pack-clasp Mark of the Orbs proof scene. |
 | SET-SPK-SECURE-PORTAL | Restricted transit site | Restricted transit corridor and secure portal platform | Skyrend Peak Portalport | `drafts/01_05_the_core_of_the_conjunction.md` | Transfer route from Skyrend Peak to Aquila Matara. |
 | SET-PORTAL-AQM | Portal route | Portal to Aquila Matara | Skyrend Peak → Aquila Matara | `drafts/01_05_the_core_of_the_conjunction.md` | Forced crisis transfer. |
+| SET-QSR | City | Qasr Siroth | Erzengel / Aurreth / Saffron Locks | `canon/05_CHARACTERS.md`; `drafts/01_02_the_nomination.md` | Addie’s home / origin city. Human city and current capital of the Saffron Locks triad. Skyrend Peak is her Book 1 work-travel location, not her origin. |
 | SET-AQM | City | Aquila Matara | Erzengel / Aurreth | `drafts/01_05_the_core_of_the_conjunction.md` | Capital city; Conclave and Mae estate are here. |
 | SET-AQM-IMPERIAL-AVENUE | Civic route | Aquila Matara imperial avenue | Aquila Matara | `drafts/01_05_the_core_of_the_conjunction.md` | Public arrival route before the Three Hundred Steps. |
 | SET-AQM-THREE-HUNDRED-STEPS | Civic landmark | The Three Hundred Steps | Aquila Matara | `drafts/01_05_the_core_of_the_conjunction.md` | Addie's first major public speech occurs here. |
@@ -78,6 +79,12 @@ A **scene** is not the same thing. Scenes are tracked separately in [`16_SCENES.
 ---
 
 # Setting Extraction Notes
+
+## Addie origin correction
+
+Addie is from **Qasr Siroth**.
+
+Skyrend Peak is the Book 1 work-travel / Gale Exposition location where the crisis catches her. Do not treat Skyrend Peak as her native city or home baseline.
 
 ## Aquila Matara / Nox Vaelor correction
 
