@@ -54,6 +54,10 @@ This file does not attempt to track every historical allegiance change across th
 
 Ruin should be on the edge of gaining control by the end of **Book 9**. The allegiance tracker should therefore show Ruin gaining strength across the early and middle books, while still allowing occasional movement away from Ruin so the world does not feel mechanically predetermined.
 
+Book 3 is allowed to show **Concord gaining seats**. The important long-term movement is not a simple collapse of Concord into Ruin. The strategic pattern is that **Schism increasingly aligns with, enables, or defects into Ruin**, which shifts the balance of power even when Concord temporarily gains cities.
+
+Dovren's later attempt to balance the scales by uniting with Schism should read as **too little, too late**. By the time he recognizes that Schism is the decisive hinge, Ruin has already pulled enough of Schism's cities, leaders, or pressure blocs toward its orbit that a Concord-Schism balancing move cannot fully recover the center.
+
 ## Count Tracker
 
 Totals are listed as **Concord / Schism / Ruin**. Aquila Matara remains Neutral and is not included in the slash total.
