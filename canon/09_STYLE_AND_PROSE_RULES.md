@@ -60,7 +60,7 @@ Examples:
 - Gregory fidgets with his bracelet and wears spectacles he does not need.
 - Mae flips or catches her coin; when she stops, she has likely decided something.
 - Yurislav rolls / dances a coin across his knuckles; when it goes still, he is likely about to choose.
-- Brickett is fidgety, wants to cast fireball, and repeats false-heroic “My life for you!” interventions every two to three chapters when pacing allows.
+- Brickett is a 14-year-old beaver beastfolk whose recurring tick is trying to make fire: little sparks, sputtering flames, unstable fireballs, smoke, singed fur, burned paws, and backfires. He also repeats false-heroic “My life for you!” interventions every two to three chapters when pacing allows.
 - Matthieu doodles diagrams or calculations on available surfaces.
 - Major Tallandra scans rooms with avian precision; when she goes still, she has found danger or made a tactical choice.
 
