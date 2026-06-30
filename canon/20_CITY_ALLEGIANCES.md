@@ -37,6 +37,8 @@ This file locks the **Book 1 faction map** after the 24 founding city-states hav
 - **Skyrend Peak shifts to Schism in Book 7.**
 - **Vhal'Tigris stays Ruin-aligned** through the tracker because the greatcat/tiger city remains politically tied to Ruin.
 - **Ssivareth stays Ruin-aligned** through the Book 9 / Book 10 crisis because Carrio is the Ruin head at that point.
+- **Book 8 includes Dovren's crown-funded stimulus announcement for Concord and Schism cities only.**
+- **Book 9 includes Dovren's war order against Ruin and the march on Ssivareth.**
 - **Book 10 shifts Vyrath'Kai, Skyrend Peak, The Crucible, Khaz Vorem, Orsakar, and Awanate to Ruin.**
 - **Khembal is specifically South African.**
 - **Qasr Siroth is North African.**
@@ -54,6 +56,32 @@ Dovren's later attempt to balance the scales by uniting with Schism should read 
 Book 10 is the peak collapse. Ruin becomes the new Concord in practical political terms: the dominant center of power, the faction others must define themselves against, and the apparent inevitable ruler of the system.
 
 From Book 11 through Book 18, the cities rapidly rediscover agency. The arc ends with a deliberate return to a perfectly even distribution: **24 / 24 / 24**.
+
+## Book 8 / Book 9 Crown Overreach Catalyst
+
+In **Book 8**, Dovren sees power slipping out of his hands and makes a transactional last-ditch announcement: the Crown will issue stimulus packages, reconstruction grants, trade relief, or other emergency funding only to cities that declare for **Concord** or **Schism**.
+
+The offer is deliberately framed as aid to any city that declares allegiance to a side **other than Ruin**. In practice, this means Ruin-aligned cities are punished with their own tax money while Concord and Schism cities are bribed with crown funds.
+
+This must read as Dovren thinking like a dealmaker: loyalty is something to purchase, pressure, or punish. It should not feel like principled statecraft. It should feel transactional, unfair, and politically short-sighted.
+
+The announcement becomes a catalyst rather than a solution. Some cities ignore it. Some take the money. Some resent the condition attached to it. Some see it as proof that the Crown will use public money to reward obedience and punish political opposition. Ruin uses the announcement as recruitment material, and Schism cities become even more volatile.
+
+Do **not** move the companion-army payoff into Book 8. Book 8 plants the overreach and public anger. Book 9 pays it off.
+
+In **Book 9**, Dovren escalates from bribery to open coercion. He declares war on Ruin and orders as many loyal cities as possible to march their armies on **Ssivareth (SSI)**. The public order is to capture Carrio; the deeper crown intention effectively marks Carrio and his son for death.
+
+News reaches Ssivareth that nine or ten armies are marching on the snake city. Carrio does not know the real twist: the armies are not coming to destroy him. The companions are at the heads of those armies, and they are marching to defend him from Dovren's overreach.
+
+This should become one of the central dramatic peaks of the series: the companions appear to be leading a multi-city assault, but they are actually using their home-city authority, earned loyalty, and restored agency to refuse the Crown's immoral order.
+
+## Mae / Nox Vaelor / Luminthalas Adjustment
+
+Nox Vaelor should no longer function as a simple sovereign ally in this sequence. Dovren may court Nox Vaelor or appear to have secured them, but when pressure rises he reveals his actual preference for human cities and human legitimacy. His racism should become politically visible through who he trusts, rewards, and protects.
+
+This allows Mae's Book 9 / Book 10 role to sharpen. She does not need to convince the dark elves to stand with her; her deeper political feat is convincing **Luminthalas / the high elves** to join the anti-Dovren defense through diplomacy, wit, leverage, and personal credibility.
+
+This change also delays the Mae / Yurislav connection until the story is ready for it. Their link should surface later, when the emotional and political stakes are mature enough to carry it.
 
 ## Book 9 / Book 10 Companion-City Protection
 
