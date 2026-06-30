@@ -16,6 +16,7 @@ This file formalizes the founding triads planted by the First Mirror / Book 14 c
   - one Beastfolk city.
 - The **Original Capital** is always the Human city.
 - The **Current Capital** is the present-day dominant civic capital after the triad split and power shifted.
+- **Khembal is specifically South African** as of the Book 1 city-allegiance lock.
 - Mother initially centered the human cities because she assumed they would act as stable civic anchors for mixed peoples.
 - Mother grouped Mythos and Beastfolk around humans by presentation logic: what peoples outwardly present as, what they keep hidden, and how culture reads the body.
 - Mother did **not** fully anticipate how strongly the three groups would split into separate civic identities.
@@ -43,7 +44,7 @@ The First Mirror plants the 24-city-state clue. Luminthalas makes the clue actio
 | 04 | Ironfang | Dun Liath | Khaz Vorem | Dun Liath | Khaz Vorem | Bristleforge | Forge/highland triad; Dwarven Mythos city later overshadowed the Human capital. |
 | 05 | Gloamwood | Skjarnheim | Nox Vaelor | Skjarnheim | Nox Vaelor | Orsakar | Northern darkwood triad; dark-elven city became the present-day capital. |
 | 06 | Skyrend | Vharos | Skyrend Peak | Vharos | Ethervale | Skyrend Peak | Northern high-sky triad; raptor Beastfolk city became the visible power center. |
-| 07 | Ascentia | Khembal | Luminthalas | Khembal | Luminthalas | Shyrenveil | Book 1 Luminthalas triad; high elves overshadowed the Human founding capital, with foxfolk aligned to the dominant order. |
+| 07 | Ascentia | Khembal | Luminthalas | Khembal | Luminthalas | Shyrenveil | Book 1 Luminthalas triad; Khembal is specifically South African; high elves overshadowed the Human founding capital, with foxfolk aligned to the dominant order. |
 | 08 | Frostmarch | Volgrad | Volgrad | Volgrad | Aes Sidhal | Kheled Tor | Central-north slope triad; Human capital remained dominant despite Mythos/Beastfolk mountain dispersal. |
 | 09 | Elarion | Xol Atarah | Thalewood | Xol Atarah | Thalewood | Elarion Thicket | Greenbelt triad; wood-elven civic structure became dominant over the Human origin city. |
 | 10 | Jadefall | Qinyue | Qinyue | Qinyue | Grendhollow | Nettleburrow | Jadefall / burrow-swamp edge triad; Human capital remained dominant. |
@@ -90,7 +91,7 @@ Book 1 should reveal this structure gradually:
 
 1. Addie sees the twenty-four-city-state clue in the First Mirror.
 2. The companions go to Luminthalas for Brynn and discover the first evidence that the present-day capital is not always the founding capital.
-3. The Luminthalas / Khembal / Shyrenveil triad becomes the first usable example.
+3. The Luminthalas / Khembal / Shyrenveil triad becomes the first usable example; Khembal is specifically South African.
 4. While researching Bountiful Dam and Pollyr Fen, the group realizes civic history and atrocity history are tangled.
 5. The key mystery becomes: why did Mother build human-led triads, and why did the triads split so dramatically?
 
