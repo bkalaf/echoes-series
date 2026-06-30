@@ -4,7 +4,16 @@
 
 Active canon authority for city-level faction alignment by book.
 
-This file does not attempt to track every historical allegiance change across the thousand-year interval. It locks the **current Book 1 faction map** after the 24 founding city-states have split into 72 cities, then tracks book-by-book changes from that starting state.
+This file locks the **Book 1 faction map** after the 24 founding city-states have split into 72 cities, then tracks book-by-book allegiance changes from that starting state.
+
+## Legend
+
+- **C** = Concord
+- **S** = Schism
+- **R** = Ruin
+- **N** = Neutral
+- Bold cells mark a change from the previous book.
+- Totals are tracked as **Concord / Schism / Ruin**. Aquila Matara remains Neutral and is not included in the slash total.
 
 ## Crosslinks
 
@@ -14,173 +23,159 @@ This file does not attempt to track every historical allegiance change across th
 
 ## Hard Locks
 
-- **Aquila Matara is Neutral.** It is the federal governing capital and is not part of the original 72-city split.
-- Book 1 faction counts:
-  - Neutral: **1**
-  - Concord: **30**
-  - Schism: **21**
-  - Ruin: **21**
-- Book 1 calibration:
-  - **Dunmere Locks starts in Schism.**
-  - **Nettleburrow starts in Ruin.**
-- Book 2 change:
-  - **Pollyr Fen shifts from Concord to Schism.**
-- Book 3 changes:
-  - **Bloodreef / Sharkfolk shifts from Ruin to Concord.**
-  - **Oss Veyr / Lich shifts from Ruin to Concord.**
-  - **Vharos shifts from Schism to Ruin.**
-  - **Aes Sidhal shifts from Schism to Ruin.**
-  - **Qasr Siroth shifts from Schism to Ruin.**
-- Cities locked as Concord at Book 1 start:
-  - Pollyr Fen
-  - Skyrend Peak
-  - Nox Vaelor
-  - Awanate
-  - Orsakar
-  - Khaz Vorem
-  - The Crucible
-  - Vyrath'Kai
-- Cities locked as Ruin at Book 1 start:
-  - Ssivareth
-  - Vhal'Tigris
-- Groups that must **not** be Ruin at Book 1 start:
-  - Dwarves / Khaz Vorem
-  - Elementals / The Crucible
-  - Dragonkin / Vyrath'Kai
-- **Khembal is specifically South African** as of this canon lock.
+- **Aquila Matara is Neutral.**
+- **Dunmere Locks starts in Schism.**
+- **Nettleburrow starts in Ruin.**
+- **Pollyr Fen shifts from Concord to Schism in Book 2.**
+- **Bloodreef / Sharkfolk shifts from Ruin to Concord in Book 3.**
+- **Oss Veyr / Lich shifts from Ruin to Concord in Book 3.**
+- **Vharos shifts from Schism to Ruin in Book 3.**
+- **Aes Sidhal shifts from Schism to Ruin in Book 3.**
+- **Qasr Siroth shifts from Schism to Ruin in Book 3, then returns to Schism before Book 9.**
+- **Khembal is specifically South African.**
 - **Qasr Siroth is North African.**
+- **Vhal'Tigris stays Ruin-aligned** through the tracker because the greatcat/tiger city remains politically tied to Ruin.
+- **Ssivareth stays Ruin-aligned** through the Book 9 / Book 10 crisis because Carrio is the Ruin head at that point.
 
 ## Series Direction
 
-Ruin should be on the edge of gaining control by the end of **Book 9**. The allegiance tracker should therefore show Ruin gaining strength across the early and middle books, while still allowing occasional movement away from Ruin so the world does not feel mechanically predetermined.
+The political arc is an indictment of polarization. Eidolon's three-faction system is supposed to force cooperation because no single faction should be able to rule cleanly by popularity alone. When Schism is hollowed out, captured, or pressured into acting as Ruin's enabler, the system collapses into a de facto two-pole fight.
 
-Book 3 is allowed to show **Concord gaining seats**. The important long-term movement is not a simple collapse of Concord into Ruin. The strategic pattern is that **Schism increasingly aligns with, enables, or defects into Ruin**, which shifts the balance of power even when Concord temporarily gains cities.
+Book 3 is allowed to show **Concord gaining seats**. The visible story can look as though Concord is recovering strength. The hidden story is that Schism is being drained toward the polarized sides, especially Ruin.
 
-Dovren's later attempt to balance the scales by uniting with Schism should read as **too little, too late**. By the time he recognizes that Schism is the decisive hinge, Ruin has already pulled enough of Schism's cities, leaders, or pressure blocs toward its orbit that a Concord-Schism balancing move cannot fully recover the center.
+Ruin should be on the edge of gaining control by the end of **Book 9**. At Book 9, the count reaches **26 / 10 / 36**: Ruin does not need a clean majority if Concord and Schism cannot cooperate reliably. Dovren's later attempt to balance the scales by uniting with Schism should read as **too little, too late**.
+
+Book 10 is the peak collapse. Ruin becomes the new Concord in practical political terms: the dominant center of power, the faction others must define themselves against, and the apparent inevitable ruler of the system.
+
+From Book 11 through Book 18, the cities rapidly rediscover agency. The arc ends with a deliberate return to a perfectly even distribution: **24 / 24 / 24**.
+
+## Book 9 / Book 10 Companion-City Protection
+
+By Book 9, companion-origin cities should remain outside Ruin so the companions can plausibly return to their own cities, take command or influence local forces, and march against Ruin.
+
+Protected Book 9 / Book 10 anti-Ruin anchors include:
+
+- **Qasr Siroth** — Addie origin city.
+- **Khaz Vorem** — Brynn / dwarf anchor.
+- **Skyrend Peak** — Tallandra / raptor anchor.
+- **Nox Vaelor** — Mae origin city; Concord at Book 9, then flipped by Mae's political coup into Schism at Book 10.
+- **Orsakar** — bearfolk anchor.
+- **The Crucible** — Rhün / elemental-fire anchor.
+- **Dunmere Locks** — Brickett / river-beastfolk anchor.
+- **Vyrath'Kai** — dragonkin anchor.
+- **Awanate** and **Khembal** — human-origin civic anchors tied into the dragon-exile / Luminthalas civic-history threads.
+
+Carrio / **Ssivareth** is the intentional exception: the snake city remains Ruin because Carrio is positioned to lead Ruin at the crisis point.
 
 ## Count Tracker
-
-Totals are listed as **Concord / Schism / Ruin**. Aquila Matara remains Neutral and is not included in the slash total.
 
 | Book | Major Change(s) | Totals |
 |---|---|---:|
 | Book 1 | Starting lock. | **30 / 21 / 21** |
 | Book 2 | **Pollyr Fen: Concord → Schism.** | **29 / 22 / 21** |
-| Book 3 | **Bloodreef: Ruin → Concord; Oss Veyr: Ruin → Concord; Vharos: Schism → Ruin; Aes Sidhal: Schism → Ruin; Qasr Siroth: Schism → Ruin.** | **31 / 19 / 22** |
-| Book 4 | TBD. | — |
-| Book 5 | TBD. | — |
-| Book 6 | TBD. | — |
-| Book 7 | TBD. | — |
-| Book 8 | TBD. | — |
-| Book 9 | TBD. | — |
-| Book 10 | TBD. | — |
-| Book 11 | TBD. | — |
-| Book 12 | TBD. | — |
-| Book 13 | TBD. | — |
-| Book 14 | TBD. | — |
-| Book 15 | TBD. | — |
-| Book 16 | TBD. | — |
-| Book 17 | TBD. | — |
-| Book 18 | TBD. | — |
-
-## Book 2 Change Log
-
-| Code | City | Book 1 | Book 2 | Change |
-|---|---|---|---|---|
-| **PFN** | **Pollyr Fen** | **Concord** | **Schism** | **Concord → Schism** |
-
-## Book 3 Change Log
-
-| Code | City | Book 2 | Book 3 | Change |
-|---|---|---|---|---|
-| **BLO** | **Bloodreef / Sharkfolk** | **Ruin** | **Concord** | **Ruin → Concord** |
-| **OVR** | **Oss Veyr / Lich** | **Ruin** | **Concord** | **Ruin → Concord** |
-| **VHR** | **Vharos** | **Schism** | **Ruin** | **Schism → Ruin** |
-| **ASL** | **Aes Sidhal** | **Schism** | **Ruin** | **Schism → Ruin** |
-| **QSR** | **Qasr Siroth** | **Schism** | **Ruin** | **Schism → Ruin** |
+| Book 3 | **Concord gains seats while Schism begins feeding Ruin:** Bloodreef and Oss Veyr go Concord; Vharos, Aes Sidhal, and Qasr Siroth go Ruin. | **31 / 19 / 22** |
+| Book 4 | Schism-to-Ruin acceleration begins; **Qasr Siroth pulls back to Schism** so Addie's origin is not Ruin by Book 9. | **30 / 17 / 25** |
+| Book 5 | More Schism pressure blocs slide into Ruin. | **29 / 15 / 28** |
+| Book 6 | Ruin passes thirty seats. | **28 / 13 / 31** |
+| Book 7 | Ruin overtakes Concord as plurality pressure becomes visible. | **27 / 12 / 33** |
+| Book 8 | Ruin reaches thirty-five seats; Concord still appears institutionally strong. | **26 / 11 / 35** |
+| Book 9 | Ruin reaches the knife-edge: **26 / 10 / 36**. Concord plus Schism can only tie Ruin if Schism truly cooperates. | **26 / 10 / 36** |
+| Book 10 | Peak collapse: Ruin becomes the dominant order; only five Concord and five Schism cities remain outside Ruin. | **5 / 5 / 62** |
+| Book 11 | Recovery begins slowly; first cities reclaim agency. | **8 / 7 / 57** |
+| Book 12 | Agency recovery widens. | **11 / 10 / 51** |
+| Book 13 | Mid-series recovery continues. | **14 / 13 / 45** |
+| Book 14 | The balance starts visibly returning. | **17 / 16 / 39** |
+| Book 15 | Ruin falls below majority control. | **20 / 19 / 33** |
+| Book 16 | Near-balance returns but Ruin remains ahead. | **22 / 21 / 29** |
+| Book 17 | Concord and Schism together regain strong parity against Ruin. | **23 / 23 / 26** |
+| Book 18 | Full even distribution restored. | **24 / 24 / 24** |
 
 ---
 
 # Series Allegiance Matrix
 
-Bold cells mark a change from the previous book. Future books are intentionally left as em dashes until locked.
-
 | Code | City | B01 | B02 | B03 | B04 | B05 | B06 | B07 | B08 | B09 | B10 | B11 | B12 | B13 | B14 | B15 | B16 | B17 | B18 |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| AQM | Aquila Matara | Neutral | Neutral | Neutral | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
-| APE | Auric Plume | Schism | Schism | Schism | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
-| ASL | Aes Sidhal | Schism | Schism | **Ruin** | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
-| AWT | Awanate | Concord | Concord | Concord | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
-| BLA | Blackcairn | Schism | Schism | Schism | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
-| BLO | Bloodreef | Ruin | Ruin | **Concord** | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
-| BRI | Bristleforge | Schism | Schism | Schism | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
-| BZO | Bastion Zero | Concord | Concord | Concord | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
-| CAR | Carrikesh | Ruin | Ruin | Ruin | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
-| CPE | Colossi Prime | Concord | Concord | Concord | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
-| CVR | Cael Veyrun | Concord | Concord | Concord | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
-| CWY | Caer Wycliff | Schism | Schism | Schism | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
-| DLS | Dunmere Locks | Schism | Schism | Schism | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
-| DMW | Dunmorrow | Concord | Concord | Concord | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
-| DNL | Dun Liath | Concord | Concord | Concord | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
-| DRA | Drakmor | Ruin | Ruin | Ruin | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
-| EMB | Embervein | Ruin | Ruin | Ruin | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
-| ETH | Ethervale | Concord | Concord | Concord | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
-| ETT | Elarion Thicket | Concord | Concord | Concord | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
-| FRO | Frostharbor | Concord | Concord | Concord | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
-| GLI | Glimmergrove | Schism | Schism | Schism | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
-| GLO | Gloamreach | Ruin | Ruin | Ruin | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
-| GRE | Grendhollow | Ruin | Ruin | Ruin | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
-| GVE | Ghorum Vale | Schism | Schism | Schism | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
-| HEA | Hearthglen | Concord | Concord | Concord | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
-| ILQ | Ilyr-Qesh | Concord | Concord | Concord | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
-| ITK | Itzamal-Ka | Schism | Schism | Schism | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
-| JNZ | Jianzuo | Schism | Schism | Schism | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
-| KHB | Khembal | Concord | Concord | Concord | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
-| KLI | Klinkhollow | Ruin | Ruin | Ruin | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
-| KRH | Kassovar Reach | Schism | Schism | Schism | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
-| KTR | Kheled Tor | Concord | Concord | Concord | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
-| KVM | Khaz Vorem | Concord | Concord | Concord | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
-| LUM | Luminthalas | Concord | Concord | Concord | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
-| MFH | Mirefang Hold | Ruin | Ruin | Ruin | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
-| MOO | Moonhollow | Concord | Concord | Concord | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
-| MOU | Mourntusk | Ruin | Ruin | Ruin | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
-| NAK | Nakarath | Schism | Schism | Schism | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
-| NET | Nettleburrow | Ruin | Ruin | Ruin | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
-| NVR | Nox Vaelor | Concord | Concord | Concord | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
-| NYT | Nythaloss | Ruin | Ruin | Ruin | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
-| OAR | Orsakar | Concord | Concord | Concord | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
-| ORS | Or Shem | Concord | Concord | Concord | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
-| OVR | Oss Veyr | Ruin | Ruin | **Concord** | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
-| PFN | Pollyr Fen | Concord | **Schism** | Schism | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
-| PMR | Pelas Mirr | Ruin | Ruin | Ruin | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
-| PSG | Port Sargasso | Concord | Concord | Concord | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
-| QNY | Qinyue | Concord | Concord | Concord | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
-| QSR | Qasr Siroth | Schism | Schism | **Ruin** | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
-| SHB | Shellrest Bastion | Concord | Concord | Concord | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
-| SHY | Shyrenveil | Concord | Concord | Concord | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
-| SKH | Skjarnheim | Concord | Concord | Concord | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
-| SPK | Skyrend Peak | Concord | Concord | Concord | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
-| SRV | Suryavaad | Schism | Schism | Schism | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
-| SSI | Ssivareth | Ruin | Ruin | Ruin | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
-| TCE | The Crucible | Concord | Concord | Concord | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
-| TFN | Tefara Nui | Schism | Schism | Schism | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
-| THA | Thalewood | Concord | Concord | Concord | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
-| THR | Thalorion | Schism | Schism | Schism | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
-| TRK | Te Raukawa | Concord | Concord | Concord | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
-| TSE | Thalassmere | Ruin | Ruin | Ruin | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
-| TVE | Tormund Vale | Ruin | Ruin | Ruin | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
-| VBN | Varkesh Bastion | Ruin | Ruin | Ruin | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
-| VGH | Vargrheim | Schism | Schism | Schism | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
-| VHR | Vharos | Schism | Schism | **Ruin** | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
-| VKI | Vyrath'Kai | Concord | Concord | Concord | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
-| VLC | Velis Caravanor | Schism | Schism | Schism | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
-| VLG | Volgrad | Schism | Schism | Schism | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
-| VME | Vel Mouraine | Ruin | Ruin | Ruin | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
-| VTS | Vhal'Tigris | Ruin | Ruin | Ruin | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
-| WAR | Warrakai | Ruin | Ruin | Ruin | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
-| WMR | Warramirra | Schism | Schism | Schism | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
-| XAT | Xol Atarah | Ruin | Ruin | Ruin | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| AQM | Aquila Matara | N | N | N | N | N | N | N | N | N | N | N | N | N | N | N | N | N | N |
+| APE | Auric Plume | S | S | S | **R** | R | R | R | R | R | R | R | R | R | R | R | R | **S** | S |
+| ASL | Aes Sidhal | S | S | **R** | R | R | R | R | R | R | R | R | R | R | R | R | **S** | S | S |
+| AWT | Awanate | C | C | C | C | C | C | C | C | C | **S** | S | S | S | S | S | S | S | S |
+| BLA | Blackcairn | S | S | S | S | S | S | S | S | S | **R** | **S** | S | S | S | S | S | S | S |
+| BLO | Bloodreef | R | R | **C** | C | C | C | C | C | C | **R** | R | R | R | R | R | R | R | R |
+| BRI | Bristleforge | S | S | S | S | S | S | S | S | S | **R** | R | **S** | S | S | S | S | S | S |
+| BZO | Bastion Zero | C | C | C | C | C | C | **R** | R | R | R | R | R | R | R | R | R | R | R |
+| CAR | Carrikesh | R | R | R | R | R | R | R | R | R | R | R | R | R | R | R | R | R | R |
+| CPE | Colossi Prime | C | C | C | C | C | C | C | C | C | **R** | R | R | **C** | C | C | C | C | C |
+| CVR | Cael Veyrun | C | C | C | C | C | C | C | **R** | R | R | R | R | R | R | **C** | C | C | C |
+| CWY | Caer Wycliff | S | S | S | **R** | R | R | R | R | R | R | R | R | R | R | R | R | **S** | S |
+| DLS | Dunmere Locks | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S |
+| DMW | Dunmorrow | C | C | C | C | C | C | C | C | C | **R** | R | R | **C** | C | C | C | C | C |
+| DNL | Dun Liath | C | C | C | C | C | C | C | C | C | **R** | R | R | **C** | C | C | C | C | C |
+| DRA | Drakmor | R | R | R | R | R | R | R | R | R | R | R | R | R | R | R | R | R | R |
+| EMB | Embervein | R | R | R | R | R | R | R | R | R | R | R | R | R | R | R | R | R | R |
+| ETH | Ethervale | C | C | C | C | C | C | C | C | C | **R** | R | R | R | **C** | C | C | C | C |
+| ETT | Elarion Thicket | C | C | C | C | C | C | C | C | C | **R** | R | R | R | **C** | C | C | C | C |
+| FRO | Frostharbor | C | C | C | **R** | R | R | R | R | R | R | R | R | R | R | R | R | **C** | C |
+| GLI | Glimmergrove | S | S | S | **R** | R | R | R | R | R | R | R | R | R | R | R | R | R | **S** |
+| GLO | Gloamreach | R | R | R | R | R | R | R | R | R | R | R | R | R | R | R | R | R | R |
+| GRE | Grendhollow | R | R | R | R | R | R | R | R | R | R | R | R | R | R | R | R | R | R |
+| GVE | Ghorum Vale | S | S | S | S | **R** | R | R | R | R | R | R | R | R | R | **S** | S | S | S |
+| HEA | Hearthglen | C | C | C | C | **R** | R | R | R | R | R | R | R | R | R | R | R | R | **C** |
+| ILQ | Ilyr-Qesh | C | C | C | C | C | **R** | R | R | R | R | R | R | R | R | R | **C** | C | C |
+| ITK | Itzamal-Ka | S | S | S | S | **R** | R | R | R | R | R | R | R | R | R | R | R | R | R |
+| JNZ | Jianzuo | S | S | S | S | S | **R** | R | R | R | R | R | R | R | R | **S** | S | S | S |
+| KHB | Khembal | C | C | C | C | C | C | C | C | C | **S** | S | S | S | S | S | S | S | S |
+| KLI | Klinkhollow | R | R | R | R | R | R | R | R | R | R | R | R | R | R | R | R | R | R |
+| KRH | Kassovar Reach | S | S | S | S | S | **R** | R | R | R | R | R | R | R | R | **S** | S | S | S |
+| KTR | Kheled Tor | C | C | C | C | C | C | C | C | C | **R** | R | R | R | **C** | C | C | C | C |
+| KVM | Khaz Vorem | C | C | C | C | C | C | C | C | C | C | C | C | C | C | C | C | C | C |
+| LUM | Luminthalas | C | C | C | C | C | C | C | C | C | **R** | **C** | C | C | C | C | C | C | C |
+| MFH | Mirefang Hold | R | R | R | R | R | R | R | R | R | R | R | R | R | R | R | R | R | R |
+| MOO | Moonhollow | C | C | C | C | C | C | C | C | C | **R** | R | R | R | **S** | S | S | S | S |
+| MOU | Mourntusk | R | R | R | R | R | R | R | R | R | R | R | R | R | R | R | R | R | R |
+| NAK | Nakarath | S | S | S | S | S | S | **R** | R | R | R | R | R | R | R | R | R | R | R |
+| NET | Nettleburrow | R | R | R | R | R | R | R | R | R | R | R | R | R | **S** | S | S | S | S |
+| NVR | Nox Vaelor | C | C | C | C | C | C | C | C | C | **S** | S | S | S | S | S | S | S | S |
+| NYT | Nythaloss | R | R | R | R | R | R | R | R | R | R | R | R | R | R | R | R | R | R |
+| OAR | Orsakar | C | C | C | C | C | C | C | C | C | C | C | C | C | C | C | C | C | C |
+| ORS | Or Shem | C | C | C | C | C | C | C | C | C | **R** | **C** | C | C | C | C | C | C | C |
+| OVR | Oss Veyr | R | R | **C** | C | C | C | C | C | C | **R** | R | R | R | R | R | R | R | R |
+| PFN | Pollyr Fen | C | **S** | S | S | S | S | S | S | S | **R** | **S** | S | S | S | S | S | S | S |
+| PMR | Pelas Mirr | R | R | R | R | R | R | R | R | R | R | R | R | R | R | R | R | R | R |
+| PSG | Port Sargasso | C | C | C | C | C | C | C | C | C | **R** | R | **C** | C | C | C | C | C | C |
+| QNY | Qinyue | C | C | C | C | C | C | C | C | C | **R** | R | **C** | C | C | C | C | C | C |
+| QSR | Qasr Siroth | S | S | **R** | **S** | S | S | S | S | S | S | S | S | S | S | S | S | S | S |
+| SHB | Shellrest Bastion | C | C | C | C | C | C | C | C | C | **R** | R | R | R | R | **C** | C | C | C |
+| SHY | Shyrenveil | C | C | C | C | C | C | C | C | C | **R** | **C** | C | C | C | C | C | C | C |
+| SKH | Skjarnheim | C | C | C | C | C | C | C | C | C | **R** | R | R | R | R | R | **C** | C | C |
+| SPK | Skyrend Peak | C | C | C | C | C | C | C | C | C | C | C | C | C | C | C | C | C | C |
+| SRV | Suryavaad | S | S | S | S | S | S | S | S | S | **R** | R | R | **S** | S | S | S | S | S |
+| SSI | Ssivareth | R | R | R | R | R | R | R | R | R | R | R | R | R | R | R | R | R | R |
+| TCE | The Crucible | C | C | C | C | C | C | C | C | C | C | C | C | C | C | C | C | C | C |
+| TFN | Tefara Nui | S | S | S | S | S | S | S | **R** | R | R | R | R | R | **S** | S | S | S | S |
+| THA | Thalewood | C | C | C | C | C | C | C | C | C | **R** | R | **C** | C | C | C | C | C | C |
+| THR | Thalorion | S | S | S | S | S | S | S | S | S | **R** | R | R | **S** | S | S | S | S | S |
+| TRK | Te Raukawa | C | C | C | C | C | C | C | C | C | **R** | R | R | R | R | **C** | C | C | C |
+| TSE | Thalassmere | R | R | R | R | R | R | R | R | R | R | R | R | R | R | R | R | R | R |
+| TVE | Tormund Vale | R | R | R | R | R | R | R | R | R | R | R | R | R | R | R | R | R | R |
+| VBN | Varkesh Bastion | R | R | R | R | R | R | R | R | R | R | R | R | R | R | R | R | R | R |
+| VGH | Vargrheim | S | S | S | S | S | S | S | S | S | **R** | R | **S** | S | S | S | S | S | S |
+| VHR | Vharos | S | S | **R** | R | R | R | R | R | R | R | R | R | R | R | R | **S** | S | S |
+| VKI | Vyrath'Kai | C | C | C | C | C | C | C | C | C | C | C | C | C | C | C | C | C | C |
+| VLC | Velis Caravanor | S | S | S | S | S | S | S | S | S | **R** | R | **S** | S | S | S | S | S | S |
+| VLG | Volgrad | S | S | S | S | S | S | S | S | **R** | R | R | R | R | R | R | R | R | R |
+| VME | Vel Mouraine | R | R | R | R | R | R | R | R | R | R | R | R | R | R | R | R | R | R |
+| VTS | Vhal'Tigris | R | R | R | R | R | R | R | R | R | R | R | R | R | R | R | R | R | R |
+| WAR | Warrakai | R | R | R | R | R | R | R | R | R | R | R | R | R | R | R | R | R | R |
+| WMR | Warramirra | S | S | S | S | S | S | S | S | S | **R** | R | R | **S** | S | S | S | S | S |
+| XAT | Xol Atarah | R | R | R | R | R | R | R | R | R | R | R | R | R | R | R | R | R | R |
 
 ## Usage Rule
 
-Treat Book 1 as the locked starting allegiance map. Treat Book 2 and Book 3 as locked updates from the previous book. Later books may change allegiances through Conjunction outcomes, faction pressure, rebellion, secession attempts, military occupation, civic realignment, or Witness-driven consequences.
+Treat Book 1 as the locked starting allegiance map. Treat Books 2–18 as the current series allegiance scaffold. Specific city changes may be revised when book-level plot mechanics demand it, but the current macro-shape is locked:
+
+1. Concord appears to gain early.
+2. Schism is hollowed out and increasingly feeds Ruin.
+3. Ruin reaches a Book 9 knife-edge.
+4. Ruin peaks at Book 10.
+5. City agency returns the system to **24 / 24 / 24** by Book 18.
