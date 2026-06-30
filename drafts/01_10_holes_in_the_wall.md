@@ -101,7 +101,7 @@ The green beacon is approaching. By the end of the chapter, the group is within 
 ### Team Two / White Tower Archives
 
 - Gregory H. Frydrake.
-- Brickett H.
+- Brickett H., 14-year-old beaver beastfolk.
 - Rhün H. Ignis.
 - Archive staff / librarians if needed.
 
@@ -117,6 +117,7 @@ The green beacon is approaching. By the end of the chapter, the group is within 
 - Brimscale and Ashwing crowd-clearing exit.
 - Portalport / terminal split.
 - Brickett false-intervention beat before / during the split.
+- Brickett’s beaver/fire contradiction: soot, singed fur, broad tail, smoke, sparks, and unstable fire attempts.
 - Eye-mail contact thread among teams.
 - Addie’s simple silver pendant necklace with the Mark of the Orbs.
 - Carrio’s family earrings bearing the Mark.
@@ -127,7 +128,7 @@ The green beacon is approaching. By the end of the chapter, the group is within 
 - Yurislav coin signal.
 - Matthieu napkin / sketch / note diagram.
 - Gregory bracelet / unnecessary spectacles.
-- Brickett fireball impulse.
+- Brickett fireball impulse / backfire tick.
 - Luminthalas lower-quarter queue.
 - Official restaurant name: **The Bountiful Harvest**.
 - Temporary crude sign / notice: a drawn middle finger plus the words **Flying Scrolls**, put up by Brynn and Rosalind after the Moderator scrolls started appearing because they thought the scrolls were from Brynn’s family. The implied message is “fuck the flying scrolls.”
@@ -147,6 +148,7 @@ Suggested trigger:
 - A harmless terminal auto-sorter arm, luggage trolley, folded travel awning, banner pole, recorder lens boom, or eye-mail courier tube swings toward Addie.
 - Brickett mistakes it for an attack.
 - He launches himself between Addie and the harmless object yelling **“My life for you!”**
+- A tiny reflexive spark or smoke-puff may jump from his paws and immediately backfire.
 - He either bounces off Addie’s stomach / ribs again or is intercepted by Rhün / Gregory / Tallandra before impact.
 - Addie is winded or deeply irritated, but not injured.
 - The beat should be light and fast, training the recurring gag before the teams split.
@@ -174,6 +176,7 @@ Core direction:
 - Gregory is doing real formal research and growing frustrated because the records are empty.
 - Brickett and Rhün are the only ones who begin surfacing the possibility that they are looking at the problem from the wrong angle.
 - Brickett should say the research has no starting coordinate / wrong index / bottleneck.
+- Brickett’s fire tick should be present but constrained: a nervous spark, smoke curl, or almost-fireball that Gregory immediately forbids because they are in an archive.
 - Rhün should independently support the idea that stories, creature habits, battlefield songs, local tales, or fire-drake handlers’ lore sometimes carry truths official records miss.
 - Gregory should be dismissive at first and insist they return to the research.
 - Gregory may concede the narrow point: folklore matters too, that is fair.
@@ -239,6 +242,7 @@ Function:
 - investigate Luminthalas / Horror / mystical thread through official records;
 - show Gregory’s formal research method;
 - show Brickett/Rhün sensing that the official archive lane is too narrow;
+- preserve Brickett’s fire-mage tick without letting him burn the archive;
 - delay the folklore alternative until the later conversation.
 
 ## Team One — Matthieu, Yurislav, Major Tallandra
@@ -271,11 +275,12 @@ Function:
 2. A harmless mechanical / civic object swings or lurches toward Addie.
 3. Brickett mistakes it for an attack.
 4. Brickett yells **“My life for you!”** and launches himself.
-5. He hits Addie in the stomach / ribs or is intercepted in a way that still creates a comic physical beat.
-6. Addie wheezes and tells him she appreciates the sentiment but would like to survive his devotion.
-7. Gregory / Rhün / Tallandra can show that they are starting to anticipate the pattern.
-8. Brickett insists the object looked “very murdery.”
-9. The beat should end quickly, then the teams split.
+5. A tiny failed fireburst may sputter from his paws, smoke, and scorch his own sleeve / fur rather than the object.
+6. He hits Addie in the stomach / ribs or is intercepted in a way that still creates a comic physical beat.
+7. Addie wheezes and tells him she appreciates the sentiment but would like to survive his devotion.
+8. Gregory / Rhün / Tallandra can show that they are starting to anticipate the pattern.
+9. Brickett insists the object looked “very murdery.”
+10. The beat should end quickly, then the teams split.
 
 ## Subchapter 3 — Down Into Luminthalas
 
@@ -313,15 +318,16 @@ Function:
 4. Brickett has built a fort from priceless dictionaries and is eating in the reference area.
 5. Rhün is restless, quiet, and bored by official records.
 6. Gregory scolds both of them for treating the archive like a kitchen / animal-yard / fire-drake kennel.
-7. Brickett says they have no starting coordinate and the books are the wrong container for the question.
-8. Rhün suggests that handlers, fighters, stable songs, field stories, or ugly old folklore may carry what polished records exclude.
-9. Gregory rejects the pivot and says they were assigned to research, not chase tavern songs.
-10. Brickett says there has to be another way to look at it.
-11. Rhün agrees, but does not solve it.
-12. Gregory grudgingly says folklore matters too, that is fair.
-13. Brickett brightens.
-14. Gregory immediately shuts it down: that is not what they are researching now.
-15. End with Gregory returning to the formal archive stack while Brickett/Rhün remain unconvinced.
+7. Brickett worries a tiny spark between his paws until Gregory tells him, with real horror, that any open flame in this room will get them executed by librarians.
+8. Brickett says they have no starting coordinate and the books are the wrong container for the question.
+9. Rhün suggests that handlers, fighters, stable songs, field stories, or ugly old folklore may carry what polished records exclude.
+10. Gregory rejects the pivot and says they were assigned to research, not chase tavern songs.
+11. Brickett says there has to be another way to look at it.
+12. Rhün agrees, but does not solve it.
+13. Gregory grudgingly says folklore matters too, that is fair.
+14. Brickett brightens.
+15. Gregory immediately shuts it down: that is not what they are researching now.
+16. End with Gregory returning to the formal archive stack while Brickett/Rhün remain unconvinced.
 
 ## Subchapter 6 — The Dead Dam
 
@@ -400,7 +406,7 @@ Function:
 
 | Speaker | Intention | Notes |
 |---|---|---|
-| Brickett | False heroic intervention: “My life for you!” | Must be harmlessly wrong and physically comic. |
+| Brickett | False heroic intervention: “My life for you!” | Must be harmlessly wrong and physically comic. A small fire backfire may punctuate the mistake. |
 | Addie | Irritated gratitude after Brickett hits / nearly hits her | Establish recurring gag without cruelty. |
 | Addie | Explains line etiquette to Mae | This is Addie’s lived-class knowledge; keep it sharp. |
 | Mae | Wants to cut through because national cataclysm outranks soup line | Shows noble blind spot. |
@@ -430,7 +436,8 @@ Apply these when drafting final prose:
 - Use **Addie’s pendant**, not a hair clip / berette / barrette.
 - Use **eye-mail contact threads**, not communicator tokens or link keys.
 - Carrio should have gum / hard candy habit active; gum stops moving when he sees the Mark.
-- Brickett should want to solve problems with fireball but must not burn the archives.
+- Brickett is a 14-year-old **beaver beastfolk**, not a raccoon.
+- Brickett should want to solve problems with fireballs, but the fire should be unstable, smoky, and backfire-prone; he must not burn the archives.
 - Mae’s coin and Yurislav’s coin should surface when they are present.
 - Matthieu should doodle diagrams or calculations while thinking.
 - Tallandra should scan the room / exits / threat vectors.
