@@ -10,20 +10,20 @@ The compile order is governed by [`SERIES_MASTER_OUTLINE.md`](./SERIES_MASTER_OU
 
 Book 01 is currently indexed through:
 
-- **B01.100 / `01_10` — Holes in the Wall**
+- **B01.110 / `01_11` — The Bountiful Harvest**
 
 The uploaded `book01.md` source contains additional prose after this point. The next clean parse target is:
 
-- **B01.110 / `01_11` — The Bountiful Harvest**
+- **B01.120 / `01_12` — The Unwound Core**
 
 ## Source Upload Note
 
-The current uploaded source file `book01.md` contains these later unparsed / partially parsed prose sections after `01_08`:
+The current uploaded source file `book01.md` contains these later parsed / pending prose sections after `01_08`:
 
 1. `Day One Architecture` — parsed as `drafts/01_09_day_one_architecture.md`.
 2. `Holes in the Wall` — parsed as `drafts/01_10_holes_in_the_wall.md`.
-3. `The Bountiful Harvest` — next target, likely continuation / resolution of Brynn recruitment conflict.
-4. `The Unwound Core` — pending; source appears to contain a later / overlapping return-to-manor and Mark-of-the-Orbs reveal sequence, and should be reconciled carefully before placement.
+3. `The Bountiful Harvest` — parsed as `drafts/01_11_the_bountiful_harvest.md`.
+4. `The Unwound Core` — next target; source appears to contain the return-to-manor / broadcast / Mark-of-the-Orbs comparison / folklore-thread sequence. The assistant/planning block immediately before the heading should be routed into this parse as requirements, not treated as prose.
 
 ---
 
@@ -51,76 +51,63 @@ This is preferred over splitting every scene into separate chapters when that wo
 | B01.080 | 01_08 | The Weight of Being Asked | [`../drafts/01_08_the_weight_of_being_asked.md`](../drafts/01_08_the_weight_of_being_asked.md) | Parsed | B01-S080; B01-S081; B01-S082 | Mae estate dinner, Max, Gregory, Matthieu, Brynn refused scroll, H-pattern, Law of Threes, Luminthalas destination. |
 | B01.090 | 01_09 | Day One Architecture | [`../drafts/01_09_day_one_architecture.md`](../drafts/01_09_day_one_architecture.md) | Parsed | B01-S090; B01-S091; B01-S092 | Morning after mirror/dinner; Addie bath/cyan hair reset; reporter invasion; field clothes; Mae honesty confrontation; three-team split; eye-mail contact setup; Brimscale/Ashwing departure; Mae royal-title reveal. |
 | B01.100 | 01_10 | Holes in the Wall | [`../drafts/01_10_holes_in_the_wall.md`](../drafts/01_10_holes_in_the_wall.md) | Parsed | B01-S100 through B01-S104 | First split-team field chapter; adds Brickett false-intervention beat; expands Gregory/Rhün/Brickett archive research and Matthieu/Yurislav/Tallandra Aes Sidhal research; lower-quarter queue at The Bountiful Harvest, crude middle-finger + Flying Scrolls sign, Carrio Mark recognition, Mae lack-of-Mark vulnerability, and Addie lunar-light cliffhanger. |
+| B01.110 | 01_11 | The Bountiful Harvest | [`../drafts/01_11_the_bountiful_harvest.md`](../drafts/01_11_the_bountiful_harvest.md) | Parsed | B01-S110 | Resolves the lunar-light courtyard standoff; introduces Brynn/Rosalind directly; opens Brynn’s scroll; confirms Brynn H. Stonevein as the ninth H-name; moves Team Three toward terminal / manor return. |
 
 ---
 
-# B01.100 — Holes in the Wall
+# B01.110 — The Bountiful Harvest
 
 ## Function
 
-Move Book 1 from planning into simultaneous field action.
-
-This chapter turns the three-team architecture into actual intercut operations while preserving the main Addie/Mae/Carrio lane in lower Luminthalas.
+Resolve the immediate consequence of Addie’s white lunar flare and turn Brynn from target/objective into active companion.
 
 ## Files
 
-- Parsed outline: [`../drafts/01_10_holes_in_the_wall.md`](../drafts/01_10_holes_in_the_wall.md)
+- Parsed outline: [`../drafts/01_11_the_bountiful_harvest.md`](../drafts/01_11_the_bountiful_harvest.md)
 - Settings: [`15_SETTINGS.md`](./15_SETTINGS.md)
 - Scenes: [`16_SCENES.md`](./16_SCENES.md)
 - Character gesture / signal rules: [`17_CHARACTER_GESTURE_SIGNALS.md`](./17_CHARACTER_GESTURE_SIGNALS.md)
 
 ## Visible Subchapters
 
-1. Prehistoric Weight
-2. My Life For You, Again
-3. Down Into Luminthalas
-4. The Line That Belongs To Them
-5. The White Tower Archives
-6. The Dead Dam
-7. Three Hours In The Cold
-8. The Mark In The Kitchen
-9. Chief Moderator In The Tallow-Tier
-10. White Lunar Light
+1. After the White Light
+2. The Woman in the Doorway
+3. Not From My Family
+4. The Ninth Name
+5. A Life Left Behind
+6. Less Than an Hour
+7. The Corridor They Made
 
 ## Core Beats
 
-1. Brimscale and Ashwing clear the estate exit path.
-2. Rhün is calmer with animals than crowds.
-3. Brickett mistakes a harmless terminal object for a threat and performs another “My life for you!” false intervention.
-4. The teams split at the terminal / portal route.
-5. Addie, Mae, and Carrio descend into the cold lower quarters of Luminthalas.
-6. Addie blocks Mae from cutting the restaurant line and explains poor-people line etiquette.
-7. Nobles harass Addie about the towel broadcast; Mae and Carrio react too violently.
-8. Gregory, Brickett, and Rhün hit a formal archive dead end; Brickett and Rhün suggest the angle is wrong, but Gregory pushes back to research.
-9. Matthieu, Yurislav, and Major Tallandra hit an official-record dead end at Aes Sidhal; absence of records becomes suspicious but unresolved.
-10. Carrio sees the Mark of the Orbs on a dwarf’s signet ring; his gum stops moving.
-11. Addie connects her pendant, Carrio’s earrings, Brickett’s clasp, and the ring.
-12. Mae lacks the visible Mark and is shaken.
-13. Mae exposes Addie publicly to get the crowd to let them through before lockdown.
-14. The lower-quarter crowd recognizes Addie and gives silent applause.
-15. Rosalind/Roslin and Brynn appear.
-16. Peacekeepers enforce lockdown; Mae and Carrio prepare to escalate.
-17. Addie releases white lunar light through the pendant / Mark pressure and commands everyone to stay calm.
-
-## Team Architecture
-
-| Team | Members | Destination | Purpose |
-|---|---|---|---|
-| Team One | Matthieu; Yurislav; Major Tallandra | Aes Sidhal / Satyr Arcane Academy | Investigate Bountiful Dam; discover official records say it failed and nothing came of it, which is suspicious rather than final. |
-| Team Two | Gregory; Brickett; Rhün | White Tower Archives | Research Luminthalas / Horror / thread records; Brickett and Rhün sense the archive lane is too narrow, while Gregory insists on formal research for now. |
-| Team Three | Addie; Carrio; Mae | Lower Luminthalas / The Bountiful Harvest restaurant line | Find Brynn and discover the Mark connection under public pressure. |
+1. White lunar light fades from the tallow-district courtyard.
+2. Peacekeepers retreat and civilians remain hushed.
+3. Addie is physically drained; pendant / Mark aftermath remains unexplained.
+4. Mae and Carrio are still dangerous but restrained.
+5. Rosalind/Roslin appears in the doorway, then Brynn steps out in soot and kitchen grease.
+6. Brynn accuses the group of bringing garrison politics to her doorstep.
+7. Addie clarifies the scroll is not ordinary Conclave/family debt business.
+8. Rosalind/Roslin pushes Brynn to accept if the neighborhood is at stake.
+9. Brynn cracks the green seal.
+10. The scroll names **Brynn H. Stonevein**.
+11. Carrio notices “H. Again.”
+12. Addie recognizes the ninth name / first-sequence completion.
+13. Brynn names the life she built away from Khaz Vorem and the inheritance/title she fled.
+14. Mae responds gently with the spool/pull language.
+15. Addie clocks the portal-grid time pressure.
+16. Brynn checks with Rosalind/Roslin, returns with a heavy leather satchel, and leaves.
+17. The crowd silently opens a corridor.
+18. Carrio references the Overseer’s “necessity” clue.
 
 ## Continuity Notes
 
-- Use **Rhün H. Ignis** unless diacritics are intentionally removed later.
-- Use **Gregory H. Frydrake**, not Fyrdrake.
-- Use **Major Tallandra H. Highwatch**.
-- Addie’s heirloom is the **simple silver pendant necklace**, not a hair clip / barrette / berette.
-- Carrio gum / hard-candy habit should surface; gum going still signals Mark recognition.
-- Eye-mail remains the split-team contact method.
-- The restaurant’s official name is **The Bountiful Harvest**.
-- **Flying Scrolls** appears on a rude temporary sign with a drawn middle finger. Rosalind and Brynn put it up after Moderator scrolls started appearing because they believed the scrolls came from Brynn’s family.
-- Rosalind vs Roslin spelling remains open.
+- Use **Brynn H. Stonevein**.
+- Rosalind vs Roslin remains open.
+- The official restaurant name is **The Bountiful Harvest**.
+- The crude middle-finger + Flying Scrolls sign is only a temporary rude notice.
+- Do not resolve the Mark-of-the-Orbs lineage puzzle here.
+- Brynn’s humming signal may be seeded by being cut off, but this is mainly a stop-signal / vulnerability scene.
+- The permanence of cracked/dark upper scrying crystals remains open.
 
 ---
 
@@ -156,12 +143,14 @@ This chapter turns the three-team architecture into actual intercut operations w
 
 # Next Action Map
 
-1. Parse the next uploaded source chapter: **`The Bountiful Harvest`**.
-2. Expected path: `drafts/01_11_the_bountiful_harvest.md` if it remains a standalone parsed chapter.
-3. Before or during that parse, reconcile:
+1. Parse the next uploaded source chapter: **`The Unwound Core`**.
+2. Expected path: `drafts/01_12_the_unwound_core.md` if it remains a standalone parsed chapter.
+3. During that parse, include the assistant/planning block between `The Bountiful Harvest` and `The Unwound Core` as requirement guidance, not prose.
+4. Before or during that parse, reconcile:
    - Rosalind vs Roslin spelling;
-   - the return-to-manor conversation change the user flagged for after `Holes in the Wall`.
-4. After parsing, update:
+   - how much of the Mark-of-the-Orbs lineage comparison belongs in this chapter versus later;
+   - whether the title `The Unwound Core` should remain for the manor-return conversation.
+5. After parsing, update:
    - this file;
    - [`SERIES_MASTER_OUTLINE.md`](./SERIES_MASTER_OUTLINE.md);
    - [`16_SCENES.md`](./16_SCENES.md);
