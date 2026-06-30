@@ -46,12 +46,33 @@ The Addie hair-coloring image remains useful for:
 
 ---
 
+# Brickett Visual Authority Update
+
+Brickett H. is now a **14-year-old beaver beastfolk**, not a raccoon.
+
+Current visual authority comes from the regenerated beaver concept-art direction:
+
+- small, scrappy, dirty, underfed homeless beaver boy;
+- damp brown fur;
+- broad flat beaver tail;
+- rounded ears;
+- large front teeth;
+- clever anxious eyes;
+- patched scavenged clothing, battered satchel, rolled blanket;
+- soot, burns, singed fur, smoky paws, and unstable fire magic.
+
+The old raccoon reference in Batch A is superseded for species/silhouette. Keep only its emotional read: street orphan, frightened/helpful chaos, desperate to matter.
+
+Do not regenerate or describe Brickett with raccoon mask, ringed tail, raccoon markings, Rocket-like silhouette, sci-fi armor, guns, or superhero styling.
+
+---
+
 # Batch A — Initial Character / Creature Sample Set
 
 | ID | Intended Subject | Visual Record | Status |
 |---|---|---|---|
 | A01 | Ashwing | Volcanic dragon, basalt scales, lava fissures, huge wings. | Apex dragon; distinct from Brimscale. |
-| A02 | Brickett H. | Young raccoon beastfolk street-mage, ragged cloak, nervous/helpful chaos. | Strong character anchor; spelling Brickett. |
+| A02 | Brickett H. | Young beaver beastfolk street-mage, ragged cloak, battered satchel, broad flat tail, big teeth, damp fur, soot, singed patches, unstable fireball. | Current visual authority replaces old raccoon silhouette; preserve spelling Brickett and frightened/helpful chaos. |
 | A03 | Brimscale | Low-bodied lava drake mount with armored rider. | War-beast / mount silhouette. |
 | A04 | Brynn H. Stonevein | Broad dwarf woman with mountain gear, axes, braided gray hair. | Strong artisan-warrior noble energy. |
 | A05 | Carrio H. Vessalor — public mode | Luxurious serpent courtier in purple/gold. | Public court mask. |
