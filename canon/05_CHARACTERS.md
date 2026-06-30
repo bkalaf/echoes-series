@@ -30,7 +30,7 @@ Middle initials should appear naturally in formal introductions so the **H** pat
 | Mae'vyri H. Van'kareth | Dark elf noble and business operator; coin habit remains locked. |
 | Yurislav H. Arslan | Bearfolk companion; reads emotion; rolls / dances a coin over his knuckles. |
 | Rhün H. Ignis | Draconic firebound rider; recurring gesture signal pending. |
-| Brickett H. | Teenage raccoon beastfolk, age 14; no inherited maternal family name because he did not know his mother; fidgety, fireball-hungry, and prone to recurring “My life for you!” false-interventions. |
+| Brickett H. | Teenage **beaver beastfolk**, age 14; no inherited maternal family name because he did not know his mother; small, dirty, homeless, underfed, hyperactive, and desperate to matter; has damp brown fur, a broad flat tail, big front teeth, singed patches, soot marks, and frequent minor burns from failed fire magic; fidgety, fireball-hungry, pyromaniac-coded, and prone to recurring “My life for you!” false-interventions. |
 | Hans Halcyon Hohenzollern | Locked full name. Do not shorten formal references to Hans Halcyon. Casual prose may use Hans after the full name is established. |
 | Mother / Dianne | Mother AI; limited, fallible, not omnipotent or omniscient. |
 | The Overseer | Elder rat-like continuity figure; do not confuse with Silence. |
@@ -42,6 +42,16 @@ Middle initials should appear naturally in formal introductions so the **H** pat
 - Early Book 1 Skyrend Peak scenes are travel / assignment scenes tied to the Gale Exposition, Portalport arrival, hotel room, and Meridian Accord Guildhall.
 - Do **not** imply that Addie is native to Skyrend Peak, lives there permanently, or considers it her home city unless later prose explicitly frames it as a temporary professional base.
 - Her Qasr Siroth origin should matter to future allegiance-chain, faction-assignment, city-culture, and identity work.
+
+## Brickett Species Lock
+
+- Brickett H. is a **14-year-old beaver beastfolk**, not a raccoon.
+- Prior raccoon / raccoon-kin / fire-raccoon language is superseded.
+- He should read unmistakably as a beaver: broad flat tail, damp brown fur, rounded ears, large front teeth, muddy paws, underfed body, and singed patches from failed fire magic.
+- His fire-mage obsession is now part of the contradiction: a water/wood/ecology-coded beaver trying to become a fire mage.
+- His recurring tick is trying to make fire — sparks, sputtering flames, unstable fireballs, smoke, burnt whiskers, and backfires — even when the attempt is inappropriate.
+- He remains homeless, lonely, impulsive, funny, brave, attention-hungry, and desperate to matter.
+- Keep his “My life for you!” false-intervention cadence.
 
 ## Architect / Witness Roster Authority
 
