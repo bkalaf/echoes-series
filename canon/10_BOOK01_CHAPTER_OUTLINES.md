@@ -43,7 +43,7 @@ This is preferred over splitting every scene into separate chapters when that wo
 |---|---|---|---|---|---|---|
 | B01.000 | 01_00 | Prologue — The Mother Who Started the War | [`../drafts/01_00_prologue.md`](../drafts/01_00_prologue.md) | Parsed | B01-S000 | Mother, Brickett, number sequence, first act of war. |
 | B01.010 | 01_01 | The Royal Astronomer’s Tower | [`../drafts/01_01_the_royal_astronomers_tower.md`](../drafts/01_01_the_royal_astronomers_tower.md) | Parsed | B01-S010; B01-S011 | Miriam, purple beacon, Overseer, faction triangle, Moderator nomination crisis. |
-| B01.020 | 01_02 | The Nomination | [`../drafts/01_02_the_nomination.md`](../drafts/01_02_the_nomination.md) | Parsed | B01-S020; B01-S021 | Addie’s private life, pendant / Mark of the Orbs, interrupted hair dye, eye-mail dispatch, Kwame’s nomination reveal. |
+| B01.020 | 01_02 | The Nomination | [`../drafts/01_02_the_nomination.md`](../drafts/01_02_the_nomination.md) | Parsed | B01-S020; B01-S021 | Addie’s private life while away from **Qasr Siroth** on Skyrend Peak work travel, pendant / Mark of the Orbs, interrupted hair dye, eye-mail dispatch, Kwame’s nomination reveal. |
 | B01.030 | 01_03 | The Witnesses | [`../drafts/01_03_the_witnesses.md`](../drafts/01_03_the_witnesses.md) | Parsed | B01-S030 | Witness assembly, addendums, ballot, first shot. |
 | B01.035 | DR_01 | Interlude: The Choice to Do Nothing | [`../drafts/interludes/01_interlude_the_choice_to_do_nothing.md`](../drafts/interludes/01_interlude_the_choice_to_do_nothing.md) | Prose saved | Interlude slot | Dear Reader / WWII oil-embargo interlude. |
 | B01.040 | 01_04 | The Weight of the Beacon | [`../drafts/01_04_the_weight_of_the_beacon.md`](../drafts/01_04_the_weight_of_the_beacon.md) | Parsed | B01-S040; B01-S041; B01-S042 | Addie confinement, Concord extraction, Brickett rescue, impossible brick, pendant/clasp proof. |
@@ -133,6 +133,7 @@ Barnaby provides the meaning of Ariadne’s Thread. Brynn provides the punctuati
 
 ## Known Active Corrections
 
+- Addie is from **Qasr Siroth**; Skyrend Peak is her Book 1 work-travel / Gale Exposition location.
 - Hans formal name is **Hans Halcyon Hohenzollern**.
 - Stone / Preservationist is **Wenliang Jun Chen**.
 - Mercy / Surgeon is **Meera Anjali Krishnamurthy**.
