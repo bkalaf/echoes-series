@@ -20,6 +20,9 @@ This file does not attempt to track every historical allegiance change across th
   - Concord: **30**
   - Schism: **21**
   - Ruin: **21**
+- Book 1 calibration:
+  - **Dunmere Locks starts in Schism.**
+  - **Nettleburrow starts in Ruin.**
 - Book 2 change:
   - **Pollyr Fen shifts from Concord to Schism.**
 - Book 3 changes:
@@ -112,7 +115,7 @@ Bold cells mark a change from the previous book. Future books are intentionally 
 | CPE | Colossi Prime | Concord | Concord | Concord | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
 | CVR | Cael Veyrun | Concord | Concord | Concord | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
 | CWY | Caer Wycliff | Schism | Schism | Schism | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
-| DLS | Dunmere Locks | Ruin | Ruin | Ruin | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
+| DLS | Dunmere Locks | Schism | Schism | Schism | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
 | DMW | Dunmorrow | Concord | Concord | Concord | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
 | DNL | Dun Liath | Concord | Concord | Concord | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
 | DRA | Drakmor | Ruin | Ruin | Ruin | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
@@ -138,7 +141,7 @@ Bold cells mark a change from the previous book. Future books are intentionally 
 | MOO | Moonhollow | Concord | Concord | Concord | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
 | MOU | Mourntusk | Ruin | Ruin | Ruin | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
 | NAK | Nakarath | Schism | Schism | Schism | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
-| NET | Nettleburrow | Schism | Schism | Schism | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
+| NET | Nettleburrow | Ruin | Ruin | Ruin | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
 | NVR | Nox Vaelor | Concord | Concord | Concord | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
 | NYT | Nythaloss | Ruin | Ruin | Ruin | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
 | OAR | Orsakar | Concord | Concord | Concord | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
