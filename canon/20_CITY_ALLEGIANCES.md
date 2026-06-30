@@ -1,10 +1,10 @@
-# City Allegiances — Book 1 Lock
+# City Allegiances — Series Tracker
 
 ## Canon Status
 
-Active canon authority for city-level faction alignment at the start of **Book 1**.
+Active canon authority for city-level faction alignment by book.
 
-This file does not attempt to track every historical allegiance change across the thousand-year interval. It locks the **current Book 1 faction map** after the 24 founding city-states have split into 72 cities.
+This file does not attempt to track every historical allegiance change across the thousand-year interval. It locks the **current Book 1 faction map** after the 24 founding city-states have split into 72 cities, then tracks book-by-book changes from that starting state.
 
 ## Crosslinks
 
@@ -48,7 +48,7 @@ The allegiance map should support two parallel discoveries:
 
 This means allegiance should feel historically layered rather than biologically predetermined. Dark elves, dragonkin, dwarves, elementals, frogs, raptors, and bears can be Concord. Serpentfolk and greatcat folk can be Ruin. Human cities can be Concord, Schism, or Ruin depending on history and pressure.
 
-## Faction Count Summary
+## Book 1 Faction Count Summary
 
 | Allegiance | Count | Notes |
 |---|---:|---|
@@ -60,15 +60,15 @@ This means allegiance should feel historically layered rather than biologically 
 
 ---
 
-# Neutral
+# Book 1 Lock
+
+## Neutral
 
 | Code | City | Culture / Race Identity | Founding Pocket | Book 1 Allegiance | Notes |
 |---|---|---|---|---|---|
 | AQM | Aquila Matara | Federal capital / mixed civic seat | Outside original 72 split | Neutral | Built separately as the federal governing capital. |
 
----
-
-# Concord — 30 Cities
+## Concord — 30 Cities
 
 | Code | City | Culture / Race Identity | Founding Pocket | Book 1 Allegiance | Notes |
 |---|---|---|---|---|---|
@@ -103,9 +103,7 @@ This means allegiance should feel historically layered rather than biologically 
 | TRK | Te Raukawa | Maori human legacy | Bastion-Serpent Reach / Southhook | Concord | Human civic-capital strength. |
 | VKI | Vyrath'Kai | Dragonkin | Awanate Dragon-Exile | Concord | Locked not-Ruin; dragonkin exile city. |
 
----
-
-# Schism — 21 Cities
+## Schism — 21 Cities
 
 | Code | City | Culture / Race Identity | Founding Pocket | Book 1 Allegiance | Notes |
 |---|---|---|---|---|---|
@@ -131,9 +129,7 @@ This means allegiance should feel historically layered rather than biologically 
 | VLG | Volgrad | East European human legacy | Frostmarch | Schism | Border-state autonomy. |
 | WMR | Warramirra | Aboriginal Australian human legacy | Redstone-Moon | Schism | Human original capital but not necessarily Concord. |
 
----
-
-# Ruin — 21 Cities
+## Ruin — 21 Cities
 
 | Code | City | Culture / Race Identity | Founding Pocket | Book 1 Allegiance | Notes |
 |---|---|---|---|---|---|
@@ -171,6 +167,108 @@ The final approved adjustments before canon lock were:
 
 This preserves the target count: **30 Concord / 21 Schism / 21 Ruin**, plus **Aquila Matara Neutral**.
 
+---
+
+# Book 2 Allegiance Update
+
+## Book 2 Change Rule
+
+Only one city changes allegiance for Book 2:
+
+| Code | City | Book 1 Allegiance | Book 2 Allegiance | Change |
+|---|---|---|---|---|
+| **PFN** | **Pollyr Fen** | **Concord** | **Schism** | **Concord → Schism** |
+
+## Book 2 Faction Count Summary
+
+| Allegiance | Count | Notes |
+|---|---:|---|
+| Neutral | 1 | Aquila Matara only. |
+| Concord | 29 | Loses Pollyr Fen. |
+| Schism | 22 | Gains Pollyr Fen. |
+| Ruin | 21 | No Book 2 change. |
+| **Total** | **73** | 72 split cities + Aquila Matara. |
+
+## Book 2 Comparison Table
+
+Bold text marks the Book 2 change.
+
+| Code | City | Book 1 Allegiance | Book 2 Allegiance |
+|---|---|---|---|
+| AQM | Aquila Matara | Neutral | Neutral |
+| APE | Auric Plume | Schism | Schism |
+| ASL | Aes Sidhal | Schism | Schism |
+| AWT | Awanate | Concord | Concord |
+| BLA | Blackcairn | Schism | Schism |
+| BLO | Bloodreef | Ruin | Ruin |
+| BRI | Bristleforge | Schism | Schism |
+| BZO | Bastion Zero | Concord | Concord |
+| CAR | Carrikesh | Ruin | Ruin |
+| CPE | Colossi Prime | Concord | Concord |
+| CVR | Cael Veyrun | Concord | Concord |
+| CWY | Caer Wycliff | Schism | Schism |
+| DLS | Dunmere Locks | Ruin | Ruin |
+| DMW | Dunmorrow | Concord | Concord |
+| DNL | Dun Liath | Concord | Concord |
+| DRA | Drakmor | Ruin | Ruin |
+| EMB | Embervein | Ruin | Ruin |
+| ETH | Ethervale | Concord | Concord |
+| ETT | Elarion Thicket | Concord | Concord |
+| FRO | Frostharbor | Concord | Concord |
+| GLI | Glimmergrove | Schism | Schism |
+| GLO | Gloamreach | Ruin | Ruin |
+| GRE | Grendhollow | Ruin | Ruin |
+| GVE | Ghorum Vale | Schism | Schism |
+| HEA | Hearthglen | Concord | Concord |
+| ILQ | Ilyr-Qesh | Concord | Concord |
+| ITK | Itzamal-Ka | Schism | Schism |
+| JNZ | Jianzuo | Schism | Schism |
+| KHB | Khembal | Concord | Concord |
+| KLI | Klinkhollow | Ruin | Ruin |
+| KRH | Kassovar Reach | Schism | Schism |
+| KTR | Kheled Tor | Concord | Concord |
+| KVM | Khaz Vorem | Concord | Concord |
+| LUM | Luminthalas | Concord | Concord |
+| MFH | Mirefang Hold | Ruin | Ruin |
+| MOO | Moonhollow | Concord | Concord |
+| MOU | Mourntusk | Ruin | Ruin |
+| NAK | Nakarath | Schism | Schism |
+| NET | Nettleburrow | Schism | Schism |
+| NVR | Nox Vaelor | Concord | Concord |
+| NYT | Nythaloss | Ruin | Ruin |
+| OAR | Orsakar | Concord | Concord |
+| ORS | Or Shem | Concord | Concord |
+| OVR | Oss Veyr | Ruin | Ruin |
+| **PFN** | **Pollyr Fen** | **Concord** | **Schism** |
+| PMR | Pelas Mirr | Ruin | Ruin |
+| PSG | Port Sargasso | Concord | Concord |
+| QNY | Qinyue | Concord | Concord |
+| QSR | Qasr Siroth | Schism | Schism |
+| SHB | Shellrest Bastion | Concord | Concord |
+| SHY | Shyrenveil | Concord | Concord |
+| SKH | Skjarnheim | Concord | Concord |
+| SPK | Skyrend Peak | Concord | Concord |
+| SRV | Suryavaad | Schism | Schism |
+| SSI | Ssivareth | Ruin | Ruin |
+| TCE | The Crucible | Concord | Concord |
+| TFN | Tefara Nui | Schism | Schism |
+| THA | Thalewood | Concord | Concord |
+| THR | Thalorion | Schism | Schism |
+| TRK | Te Raukawa | Concord | Concord |
+| TSE | Thalassmere | Ruin | Ruin |
+| TVE | Tormund Vale | Ruin | Ruin |
+| VBN | Varkesh Bastion | Ruin | Ruin |
+| VGH | Vargrheim | Schism | Schism |
+| VHR | Vharos | Schism | Schism |
+| VKI | Vyrath'Kai | Concord | Concord |
+| VLC | Velis Caravanor | Schism | Schism |
+| VLG | Volgrad | Schism | Schism |
+| VME | Vel Mouraine | Ruin | Ruin |
+| VTS | Vhal'Tigris | Ruin | Ruin |
+| WAR | Warrakai | Ruin | Ruin |
+| WMR | Warramirra | Schism | Schism |
+| XAT | Xol Atarah | Ruin | Ruin |
+
 ## Usage Rule
 
-Treat this file as the locked Book 1 starting allegiance map. Later books may change allegiances through Conjunction outcomes, faction pressure, rebellion, secession attempts, military occupation, civic realignment, or Witness-driven consequences, but Book 1 starts from this table.
+Treat the Book 1 table as the locked starting allegiance map. Treat the Book 2 table as the locked post-Book-1 / Book-2-start update. Later books may change allegiances through Conjunction outcomes, faction pressure, rebellion, secession attempts, military occupation, civic realignment, or Witness-driven consequences.
