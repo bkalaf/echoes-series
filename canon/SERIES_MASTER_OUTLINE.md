@@ -107,6 +107,7 @@ Use relative markdown where possible.
 - [Settings](./15_SETTINGS.md)
 - [Scenes](./16_SCENES.md)
 - [Character Gesture / Signal Rules](./17_CHARACTER_GESTURE_SIGNALS.md)
+- [Mother / System Arc](./18_MOTHER_SYSTEM_ARC.md)
 
 ---
 
@@ -161,12 +162,13 @@ Book 01 draft files are compiled in the order below. Draft filenames are stable 
 | B01.080 | 01_08 | The Weight of Being Asked | [draft](../drafts/01_08_the_weight_of_being_asked.md) | Parsed | Mae estate dinner, Max, Gregory, Matthieu, Brynn refused scroll, H-pattern, Law of Threes, Luminthalas destination. Scene IDs B01-S080/B01-S081/B01-S082. |
 | B01.090 | 01_09 | Day One Architecture | [draft](../drafts/01_09_day_one_architecture.md) | Parsed | Morning after mirror/dinner; Addie bath/cyan hair reset; reporter invasion; field clothes; Mae honesty confrontation; three-team split; eye-mail contact setup; Brimscale/Ashwing departure; Mae royal-title reveal. Scene IDs B01-S090/B01-S091/B01-S092. |
 | B01.100 | 01_10 | Holes in the Wall | [draft](../drafts/01_10_holes_in_the_wall.md) | Parsed | First split-team field chapter; Brickett false-intervention beat; expanded research lanes for Team Two and Team One; lower Luminthalas queue, Carrio Mark recognition, Mae lack-of-Mark vulnerability, and Addie lunar-light cliffhanger. Scene IDs B01-S100 through B01-S104. |
+| B01.110 | 01_11 | The Bountiful Harvest | [draft](../drafts/01_11_the_bountiful_harvest.md) | Parsed | Resolves Addie’s lunar-light courtyard standoff, confirms Brynn H. Stonevein as ninth H-name, and moves Team Three toward the terminal / manor return. Scene ID B01-S110. |
 
 ## Book 01 Current Frontier
 
 Next expected parse target from uploaded `book01.md`:
 
-- **B01.110 / `01_11` — The Bountiful Harvest**
+- **B01.120 / `01_12` — The Unwound Core**
 
 ---
 
