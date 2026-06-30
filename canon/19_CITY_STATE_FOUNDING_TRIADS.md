@@ -17,6 +17,7 @@ This file formalizes the founding triads planted by the First Mirror / Book 14 c
 - The **Original Capital** is always the Human city.
 - The **Current Capital** is the present-day dominant civic capital after the triad split and power shifted.
 - **Khembal is specifically South African** as of the Book 1 city-allegiance lock.
+- **Addie is from Qasr Siroth**, the Human city / current capital of the Saffron Locks triad.
 - Mother initially centered the human cities because she assumed they would act as stable civic anchors for mixed peoples.
 - Mother grouped Mythos and Beastfolk around humans by presentation logic: what peoples outwardly present as, what they keep hidden, and how culture reads the body.
 - Mother did **not** fully anticipate how strongly the three groups would split into separate civic identities.
@@ -50,7 +51,7 @@ The First Mirror plants the 24-city-state clue. Luminthalas makes the clue actio
 | 10 | Jadefall | Qinyue | Qinyue | Qinyue | Grendhollow | Nettleburrow | Jadefall / burrow-swamp edge triad; Human capital remained dominant. |
 | 11 | Hellgate River-Mire | Suryavaad | Drakmor | Suryavaad | Drakmor | Pollyr Fen | Hellgate-pressure triad; Drakmor later became dominant while Pollyr Fen preserved the dam/atrocity thread. |
 | 12 | Caravanor | Velis Caravanor | Velis Caravanor | Velis Caravanor | Oss Veyr | Kassovar Reach | Caravan / necropolis / plains hinge triad; Human trade capital remained dominant. |
-| 13 | Saffron Locks | Qasr Siroth | Qasr Siroth | Qasr Siroth | Tormund Vale | Dunmere Locks | Desert-to-river-lock triad; Human capital remained dominant. |
+| 13 | Saffron Locks | Qasr Siroth | Qasr Siroth | Qasr Siroth | Tormund Vale | Dunmere Locks | Desert-to-river-lock triad; Human capital remained dominant. Addie’s origin city. |
 | 14 | Titanvale | Or Shem | Ghorum Vale | Or Shem | Klinkhollow | Ghorum Vale | Southern coast / titan-lowland triad; colossal Beastfolk city became dominant. |
 | 15 | Sapphire Reef | Ilyr-Qesh | Ilyr-Qesh | Ilyr-Qesh | Pelas Mirr | Nythaloss | Sapphire / reef / sea triad; Human plateau capital remained dominant despite sea-city separation. |
 | 16 | Southhook | Tefara Nui | Te Raukawa | Tefara Nui | Thalassmere | Vhal'Tigris | Southhook / pearl-coast / jungle-edge triad; Maori Human city later became the stronger present-day capital. |
@@ -92,7 +93,8 @@ Book 1 should reveal this structure gradually:
 1. Addie sees the twenty-four-city-state clue in the First Mirror.
 2. The companions go to Luminthalas for Brynn and discover the first evidence that the present-day capital is not always the founding capital.
 3. The Luminthalas / Khembal / Shyrenveil triad becomes the first usable example; Khembal is specifically South African.
-4. While researching Bountiful Dam and Pollyr Fen, the group realizes civic history and atrocity history are tangled.
-5. The key mystery becomes: why did Mother build human-led triads, and why did the triads split so dramatically?
+4. Addie’s Qasr Siroth origin should be preserved quietly in Book 1 and becomes important to allegiance-chain / faction-assignment logic.
+5. While researching Bountiful Dam and Pollyr Fen, the group realizes civic history and atrocity history are tangled.
+6. The key mystery becomes: why did Mother build human-led triads, and why did the triads split so dramatically?
 
 Do not let Book 1 fully answer the Mythos/Beastfolk split. It should plant the seed for later books.
