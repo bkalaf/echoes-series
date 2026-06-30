@@ -24,6 +24,17 @@ Use the Visual Bible for image-derived palette, staging, institutional mood, and
 - This origin correction should be preserved for the Book 1 allegiance-chain / faction-assignment pass.
 - Qasr Siroth is the Human city and current capital of the Saffron Locks triad in the founding-triad structure.
 
+## Brickett Species / Fire Contradiction Lock
+
+- **Brickett H. is a 14-year-old beaver beastfolk**, not a raccoon.
+- Prior raccoon, raccoon-kin, and fire-raccoon language is superseded.
+- His visual identity should read as beaver: damp brown fur, broad flat tail, rounded ears, large front teeth, muddy paws, underfed body, singed patches, and soot.
+- His fire obsession is intentionally contradictory. Beavers are water/wood/ecology-coded; Brickett is trying to become a fire mage anyway.
+- Brickett’s recurring tick is attempting fire magic: sparks, little flames, sputtering fireballs, smoke, singed whiskers, burned paws, or backfires.
+- He remains homeless, lonely, funny, impulsive, brave, attention-hungry, and desperate to matter.
+- He still says **“My life for you!”** as a recurring false-heroic intervention beat.
+- Kindlemask remains his birthday/day association, but it is no longer raccoon-specific. Use it as fire/kindling irony around a beaver child obsessed with flame.
+
 ## Naming Structure
 
 Eidolon formal names normally use:
@@ -36,7 +47,7 @@ A person inherits their **mother's family name** as their last name. This is int
 
 For most human, beastkin, elven, dwarven, draconic, avian, reptilian, and other biologically born peoples, lacking a last name is socially noticeable. A person may be poor, orphaned, estranged, or politically disgraced, but if they know their mother or maternal family line, they should normally have a family name.
 
-This is why Brickett having no last name is surprising: as a beastkin child, he should normally have inherited one. His missing last name signals that he did not know his mother and therefore did not know which maternal family name to claim.
+This is why Brickett having no last name is surprising: as a beaver beastkin child, he should normally have inherited one. His missing last name signals that he did not know his mother and therefore did not know which maternal family name to claim.
 
 ### Paternal Middle Initial Rule
 
@@ -94,7 +105,7 @@ The **H** middle initial is structurally important and should be protected.
 - High Theorimist Mattieu H. Cardinal.
 - Mae'vyri H. Van'Kareth.
 - Yurislav H. Arslan.
-- Rhun H. Ignis.
+- Rhün H. Ignis.
 - Brickett H.
 
 Supporting characters introduced around the Book 01 guard detail must not accidentally receive H initials.
@@ -148,7 +159,7 @@ A cherub or celestial character from the celestial city may validly have only a 
 | 5 | MASKWA | Indigenous Americans |
 | 6 | ELDRANE | Elves |
 | 7 | KARSKOV | Russian |
-| 8 | KINDLEMASK | Fire Raccoon |
+| 8 | KINDLEMASK | Fire / kindling irony; Brickett’s fire obsession, not a raccoon marker |
 | 9 | SONNTAG | Hidden day / Savior |
 
 ## Zodiac Horizon / Constellation Sky Logic
