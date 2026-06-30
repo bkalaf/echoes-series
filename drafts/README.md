@@ -24,7 +24,7 @@ Scenes are specific narrative units: time/date + setting + cast.
 |---|---|---|---|---|
 | [`01_00_prologue.md`](./01_00_prologue.md) | Prologue — The Mother Who Started the War | B01-S000 | SET-META-NARRATOR; SET-SPK; SET-SPK-SLUMS; SET-SPK-WAREHOUSE | Mother/Dianne; Brickett H.; Addie referenced |
 | [`01_01_the_royal_astronomers_tower.md`](./01_01_the_royal_astronomers_tower.md) | The Royal Astronomer’s Tower | B01-S010; B01-S011 | SET-SPK-ROYAL-OBS; SET-SPK-STORMSPIRE; SET-VHAROS-BEACON | Miriam; Overseer; Choleth; Janice; Vexira |
-| [`01_02_the_nomination.md`](./01_02_the_nomination.md) | The Nomination | B01-S020; B01-S021 | SET-SPK-PORTALPORT; SET-SPK-GALE-HOTEL; SET-SPK-MERIDIAN-GUILDHALL; SET-SPK-KWAME-OFFICE | Addie; Kwame; Jaren |
+| [`01_02_the_nomination.md`](./01_02_the_nomination.md) | The Nomination | B01-S020; B01-S021 | SET-QSR; SET-SPK-PORTALPORT; SET-SPK-GALE-HOTEL; SET-SPK-MERIDIAN-GUILDHALL; SET-SPK-KWAME-OFFICE | Addie from Qasr Siroth; Kwame; Jaren |
 | [`01_03_the_witnesses.md`](./01_03_the_witnesses.md) | The Witnesses | B01-S030 | SET-WITNESS-VOID | Witnesses; Overseer; Mother |
 | [`interludes/01_interlude_the_choice_to_do_nothing.md`](./interludes/01_interlude_the_choice_to_do_nothing.md) | Dear Reader Interlude — The Choice to Do Nothing | Interlude slot | Reader-facing historical fable layer | Narrator; Dear Reader; thematic Addie bridge; Sun People; Apathetic Pagans |
 | [`01_04_the_weight_of_the_beacon.md`](./01_04_the_weight_of_the_beacon.md) | The Weight of the Beacon | B01-S040; B01-S041; B01-S042 | SET-SPK-KWAME-OFFICE; SET-SPK-PUBLIC-STREETS; SET-SPK-PAWN-SHOP | Addie; Kwame; Major Tallandra; Brickett; Barry; Boss; Rennick; Oren |
