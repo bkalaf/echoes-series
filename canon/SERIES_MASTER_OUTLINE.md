@@ -163,12 +163,15 @@ Book 01 draft files are compiled in the order below. Draft filenames are stable 
 | B01.090 | 01_09 | Day One Architecture | [draft](../drafts/01_09_day_one_architecture.md) | Parsed | Morning after mirror/dinner; Addie bath/cyan hair reset; reporter invasion; field clothes; Mae honesty confrontation; three-team split; eye-mail contact setup; Brimscale/Ashwing departure; Mae royal-title reveal. Scene IDs B01-S090/B01-S091/B01-S092. |
 | B01.100 | 01_10 | Holes in the Wall | [draft](../drafts/01_10_holes_in_the_wall.md) | Parsed | First split-team field chapter; Brickett false-intervention beat; expanded research lanes for Team Two and Team One; lower Luminthalas queue, Carrio Mark recognition, Mae lack-of-Mark vulnerability, and Addie lunar-light cliffhanger. Scene IDs B01-S100 through B01-S104. |
 | B01.110 | 01_11 | The Bountiful Harvest | [draft](../drafts/01_11_the_bountiful_harvest.md) | Parsed | Resolves Addie’s lunar-light courtyard standoff, confirms Brynn H. Stonevein as ninth H-name, and moves Team Three toward the terminal / manor return. Scene ID B01-S110. |
+| B01.120 | 01_12 | The Unwound Core | [draft](../drafts/01_12_the_unwound_core.md) | Parsed | Manor-return synthesis: failed research lanes, Dovren disinformation broadcast, Yurislav loyalty complication, Mark-of-the-Orbs paternal heirloom comparison, three-moon channeling concern, and folklore/Ariadne’s Thread pivot. Scene ID B01-S120. |
 
 ## Book 01 Current Frontier
 
-Next expected parse target from uploaded `book01.md`:
+The current uploaded `book01.md` source has been parsed through its final visible chapter heading.
 
-- **B01.120 / `01_12` — The Unwound Core**
+Next expected planning/prose target:
+
+- **B01.130 / next title TBD** — likely Barnaby / Ariadne’s Thread explanation and mission-routing chapter.
 
 ---
 
