@@ -152,7 +152,7 @@ Book 01 draft files are compiled in the order below. Draft filenames are stable 
 |---|---|---|---|---|
 | B01.000 | 01_00 | Prologue — The Mother Who Started the War | [draft](../drafts/01_00_prologue.md) | Parsed | Establishes Mother, Brickett, number sequence, first act of war. See [Book 01 Chapter Outlines](./10_BOOK01_CHAPTER_OUTLINES.md), [Settings](./15_SETTINGS.md), and [Scenes](./16_SCENES.md). |
 | B01.010 | 01_01 | The Royal Astronomer’s Tower | [draft](../drafts/01_01_the_royal_astronomers_tower.md) | Parsed | Parent chapter with visible subchapters: The Zero-Variance Solstice; Factional Mistrust. Scene IDs B01-S010/B01-S011. |
-| B01.020 | 01_02 | The Nomination | [draft](../drafts/01_02_the_nomination.md) | Parsed | Addie’s private life, pendant / Mark, interrupted hair dye, eye-mail dispatch, and Kwame’s nomination reveal. Scene IDs B01-S020/B01-S021. |
+| B01.020 | 01_02 | The Nomination | [draft](../drafts/01_02_the_nomination.md) | Parsed | Addie’s private life away from **Qasr Siroth** on Skyrend Peak work travel, pendant / Mark, interrupted hair dye, eye-mail dispatch, and Kwame’s nomination reveal. Scene IDs B01-S020/B01-S021. |
 | B01.030 | 01_03 | The Witnesses | [draft](../drafts/01_03_the_witnesses.md) | Parsed | Witness assembly, addendums, ballot, and first shot. Scene ID B01-S030. |
 | B01.035 | DR_01 | Interlude: The Choice to Do Nothing | [draft](../drafts/interludes/01_interlude_the_choice_to_do_nothing.md) | Prose saved | Dear Reader / WWII oil-embargo interlude. |
 | B01.040 | 01_04 | The Weight of the Beacon | [draft](../drafts/01_04_the_weight_of_the_beacon.md) | Parsed | Concord extraction, Brickett rescue, impossible brick, pendant/clasp proof. Scene IDs B01-S040/B01-S041/B01-S042. |
