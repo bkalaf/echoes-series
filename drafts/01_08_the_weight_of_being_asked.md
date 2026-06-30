@@ -47,7 +47,7 @@ Same night as the Conclave and mirror sequence.
 - Adeshka “Addie” H. Sonntag.
 - Mae’vyri H. Van’kareth.
 - Max, satyr head butler / household manager / flexible portfolio.
-- Brickett H.
+- Brickett H., 14-year-old beaver beastfolk; freshly washed and unhappy about it.
 - Gregory H. Frydrake. Correct spelling: **Frydrake**, not Fyrdrake.
 - Major Tallandra H. Highwatch. Correct rank/name: **Major Tallandra**, not Captain Talandra/Tallandra as captain.
 - Carrio H. Vessalor.
@@ -63,7 +63,8 @@ Same night as the Conclave and mirror sequence.
 - Brimscale the magma lizard.
 - Mae’s black-stone household / lived-in shelves / staff living in the manor.
 - Mae’s soup, bread, cooking apron, kitchen warmth.
-- Brickett freshly washed and unhappy about it.
+- Brickett freshly washed, fluffed, damp-beaver-fur unhappy, with singed patches still visible.
+- Brickett’s fire-mage tick: soot, burned paws, and the instinct to try little flames when overstimulated, though food/care should dominate this chapter.
 - Addie’s report of mirror sequence and riddle.
 - Three threads: Red Thread of Fate, Ariadne’s Thread, Thread of the Norns.
 - Riddle: “Bring the thread that makes the horned dead charge.”
@@ -105,6 +106,7 @@ Same night as the Conclave and mirror sequence.
 - Use **Gregory H. Frydrake**, not Fyrdrake.
 - Use **Major Tallandra H. Highwatch**, not Captain.
 - Brickett is **14**, not 16, if age is referenced.
+- Brickett is a **beaver beastfolk**, not a raccoon.
 - Keep Rhün spelling unless later project-wide romanization changes.
 
 ## Preserve Skeleton?
@@ -118,6 +120,8 @@ Preserve the manor arrival → Max introduction → Mae’s kitchen → Brickett
 - Make Mae’s household warmth intentional: not softening Mae, but revealing her ethic of care.
 - Let Max function as tonal bridge and household intelligence source.
 - Turn up Brickett’s care beat; it is the emotional heart of the chapter.
+- Clarify Brickett’s beaver species through physicality: damp fur, broad tail, big teeth, wet/wood/mud smell, and remaining soot/singe marks.
+- Keep Brickett’s fire obsession visible but do not let it steal focus from his care beat.
 - Clarify that the ninth companion accepted but remains unrevealed by right.
 - Make the Overseer’s free-will/permission logic consistent with Mother’s broader limitation.
 - Keep the eighteen-chair table echoing the Architect council without overexplaining it.
@@ -178,31 +182,11 @@ Move Addie from danger-threshold into unexpected domestic welcome and introduce 
 17. Max says they live here; Mae believes if staff cannot live with you, they should not be your staff.
 18. Max notes that people assume a lot about Mae, and most of it is wrong.
 19. Mae projects her voice through the house, telling Max to get Addie moving because everyone has waited twenty minutes and the soup will not hold.
-20. Addie asks whether Mae can project her voice through the house.
-21. Max says yes; the staff mostly adjusted.
-22. Max alludes to an incident in the first month.
-23. The smell of bread, garlic, herbs, and slow-cooked soup hits Addie.
-24. Addie realizes she has barely eaten.
-25. Max explains Mae insisted on cooking because if cosmic beings hand out scrolls, the least she can do is ensure everyone eats.
-26. Max also explains Mae gave the kitchen staff the evening to themselves, which in practice means everyone is around and unconcerned.
-27. Max stops before the kitchen and warns Addie the sixth slot filled while she was gone.
-28. The sixth slot is High Theorist Matthieu H. Cardinal.
-29. Addie recognizes him as a probability theorist whose frameworks are widely used.
-30. Max says Matthieu arrived bewildered and asked whether there had been an administrative error.
-31. Max also mentions Gregory and asks whether Addie knows him.
-32. Addie says “four years” and refuses to elaborate.
-33. Max announces Addie as the missing Moderator.
-
-## Required Dialogue Intentions
-| Speaker | Dialogue Intention | Verbatim? |
-|---|---|---|
-| Max | Brimscale wager. | Close. |
-| Addie | “Honestly, I wish.” | Preserve. |
-| Max | Flexible portfolio. | Preserve in spirit. |
-| Addie | Moderator / portfolio flexible. | Preserve. |
-| Mae | “Get her boots moving / soup is not going to hold.” | Preserve. |
-| Max | Matthieu Cardinal slot reveal. | Preserve. |
-| Addie | Gregory: “Four years.” | Preserve. |
+20. The smell of bread, garlic, herbs, and slow-cooked soup hits Addie.
+21. Max warns Addie the sixth slot filled while she was gone: High Theorist Matthieu H. Cardinal.
+22. Max mentions Gregory and asks whether Addie knows him.
+23. Addie says “four years” and refuses to elaborate.
+24. Max announces Addie as the missing Moderator.
 
 ## Subchapter Exit Condition
 Addie enters Mae’s kitchen with the new knowledge that Matthieu has joined the roster and Gregory is waiting.
@@ -222,8 +206,8 @@ Turn Mae from political Speaker into host/caretaker without dulling her edge; re
 5. Addie calls Mae “Speaker.”
 6. Mae corrects to “Mae,” saying they are past titles.
 7. Before Addie can sit, Brickett launches himself toward her.
-8. Brickett is spectacularly clean, fluffed, and unhappy about it.
-9. Addie deduces Barry likely handled the bath and now has scratches.
+8. Brickett is spectacularly clean, fluffed, damp, and unhappy about it; his beaver tail is too clean and his singed patches are still visible under the wash.
+9. Addie deduces Barry likely handled the bath and now has scratches or bite marks.
 10. Brickett says he was worried because the nasty rat took Addie and nobody would tell him exactly where.
 11. Brickett says he was nearly ready to have words with Mother despite never having met her.
 12. Mae laughs genuinely and says Brickett made that clear several times at increasing volume.
@@ -264,37 +248,22 @@ Allow Addie to report enough of the Witness/mirror sequence to align the group w
 8. She describes the First Mirror carefully but not fully: dark council chamber, circular table, name-flames, woman in woven panel, audible and blocked parts, twenty-four city-states, structured power transfer, unifying code, red woman’s vow.
 9. Gregory goes still at this information.
 10. Addie describes the Second Mirror: Aquila Matara half-built, throne room nearly complete, Dovren on the throne, Geoffrik Vayne, Overseer-like figure.
-11. Correct source wording from older “Donvaris” to Dovren.
-12. Addie describes the Overseer-like figure as identical but room-temperature / affectless.
-13. Addie says Silence would not confirm whether it was the Overseer or something wearing him.
-14. Addie repeats the figure looking directly at her in a memory and saying the arch/three-coins symbol should survive even if the people do not.
-15. Addie explains dam, river diversion, farmland scheme, false Conjunction reports, insurgency suppression, Ruin payments, and fear traveling faster than truth.
-16. Mae is not surprised and finds that depressing.
-17. Addie explains Vayne took the spouses after they overheard something.
-18. Addie says they have twenty-five days and she has no time to be anything but okay.
-19. Brickett interrupts with “No.”
-20. Brickett comes to Addie and offers his paw.
-21. Addie takes it.
-22. Brickett says everyone wants something from Addie and all of it can wait.
-23. Brickett lists the accumulation: her mother died eight months ago, brick attack yesterday, Moderator today, Conclave, public speech, metaphysical abduction.
-24. Brickett says nobody has asked whether Addie is okay, whether her head hurts, whether she has eaten, whether she needs a hug.
-25. The room realizes it skipped care in favor of answers.
-26. Addie laughs in a cracked but real way.
-27. Addie says it means more than Brickett knows.
-28. Brickett says he knows, which is why he said it.
-29. Addie says she is okay as the situation allows, her head does not hurt, she has not eaten, and she needs about seven pieces of bread.
-30. Mae silently turns back to feeding people; her approval is visible through action.
-
-## Required Dialogue Intentions
-| Speaker | Dialogue Intention | Verbatim? |
-|---|---|---|
-| Addie | Gives riddle and three threads. | Preserve. |
-| Carrio | “That’s quite a lot.” | Preserve. |
-| Addie | “That’s the correct response.” | Preserve. |
-| Addie | Reports First Mirror without revealing full hidden content. | Required. |
-| Brickett | “No.” | Preserve. |
-| Brickett | Asks whether anyone has asked if Addie is okay / fed / needs care. | Preserve strongly. |
-| Addie | Needs bread. | Preserve. |
+11. Addie explains dam, river diversion, farmland scheme, false Conjunction reports, insurgency suppression, Ruin payments, and fear traveling faster than truth.
+12. Mae is not surprised and finds that depressing.
+13. Addie explains Vayne took the spouses after they overheard something.
+14. Addie says they have twenty-five days and she has no time to be anything but okay.
+15. Brickett interrupts with “No.”
+16. Brickett comes to Addie and offers his paw.
+17. Addie takes it.
+18. Brickett says everyone wants something from Addie and all of it can wait.
+19. Brickett lists the accumulation: her mother died eight months ago, brick attack yesterday, Moderator today, Conclave, public speech, metaphysical abduction.
+20. Brickett says nobody has asked whether Addie is okay, whether her head hurts, whether she has eaten, whether she needs a hug.
+21. The room realizes it skipped care in favor of answers.
+22. Addie laughs in a cracked but real way.
+23. Addie says it means more than Brickett knows.
+24. Brickett says he knows, which is why he said it.
+25. Addie says she is okay as the situation allows, her head does not hurt, she has not eaten, and she needs about seven pieces of bread.
+26. Mae silently turns back to feeding people; her approval is visible through action.
 
 ## Subchapter Exit Condition
 Addie has given the group the basic mission data, and Brickett has re-centered the room around Addie’s personhood rather than her office.
@@ -318,15 +287,6 @@ Name the group emotionally and structurally, and establish that Addie cannot con
 9. Rhün says he used the word even though Addie did not.
 10. The room recognizes coincidence has become architecture.
 11. Brickett says his head-injury joke was being funny and admits it did not land.
-
-## Required Dialogue Intentions
-| Speaker | Dialogue Intention | Verbatim? |
-|---|---|---|
-| Gregory | Addie has always done everything herself; it will not work anymore. | Preserve. |
-| Gregory | Trust before crisis. | Preserve. |
-| Rhün | “We’re companions now.” | Preserve. |
-| Addie | Confirms Witnesses used that exact word. | Preserve. |
-| Brickett | Head-injury joke did not land. | Preserve if tone works. |
 
 ## Subchapter Exit Condition
 The group has a name: companions. The chapter pivots from emotional consolidation into pattern analysis.
@@ -355,15 +315,6 @@ Let Matthieu enter as a serious intellectual force and make the roster’s H-pat
 14. Addie concludes it was not random.
 15. Matthieu confirms it was not.
 16. Mae decides the soup has held long enough and that they can talk threads and numbers while eating.
-
-## Required Dialogue Intentions
-| Speaker | Dialogue Intention | Verbatim? |
-|---|---|---|
-| Matthieu | Identifies H-pattern. | Preserve. |
-| Gregory | Computes probability. | Preserve unless later math correction needed. |
-| Matthieu | Snowflake/blender/on-fire analogy. | Preserve if not too comedic. |
-| Rhün | “Some taken.” | Preserve. |
-| Mae | Soup has held long enough. | Preserve. |
 
 ## Subchapter Exit Condition
 The H-pattern is canonically identified before the Overseer arrives to confirm it.
@@ -400,15 +351,6 @@ Move from kitchen to dining room, establish the eighteen-chair echo, and let the
 22. Addie notes the celestial beings managing the Conjunction need their help.
 23. The Overseer says free will is structural, not courtesy.
 24. He says the third companion is refusing her scroll.
-
-## Required Dialogue Intentions
-| Speaker | Dialogue Intention | Verbatim? |
-|---|---|---|
-| Addie | “You can have several. Sit down. There’s soup.” | Preserve. |
-| Overseer | Mother chose well. | Preserve. |
-| Overseer | One question each, but first help. | Preserve. |
-| Addie | Celestial beings need help. | Preserve. |
-| Overseer | Free will as structural requirement. | Preserve. |
 
 ## Subchapter Exit Condition
 The Overseer has been seated and fed, and Brynn’s refusal becomes the group’s first practical task.
@@ -454,7 +396,7 @@ Introduce Brynn H. Stonevein as absent companion, transform her refusal into a p
 31. Carrio asks if opting out of dinner was an option.
 32. Overseer says for the ninth companion it is the only functional answer right now and not available to everyone.
 33. Brickett, counting something, says the ninth companion is human.
-34. Overseer calls him a clever little raccoon and confirms it.
+34. Overseer calls him a clever little beaver and confirms it.
 35. Overseer gives Addie a pristine scroll for Brynn.
 36. Only Brynn can break the seal; anyone else opening it makes it sublimate into gray mist.
 37. Overseer leaves the scroll in Addie’s hands.
@@ -472,7 +414,7 @@ Introduce Brynn H. Stonevein as absent companion, transform her refusal into a p
 | Overseer | Luminthalas / Bountiful Harvest slip. | Preserve. |
 | Carrio | Dinner opt-out joke. | Preserve. |
 | Brickett | Ninth companion is human. | Preserve. |
-| Overseer | “Clever little raccoon.” | Preserve. |
+| Overseer | “Clever little beaver.” | Preserve. |
 | Overseer | Carrio earrings compliment. | Preserve. |
 
 ## Subchapter Exit Condition
@@ -515,19 +457,6 @@ Let the Overseer answer enough structural questions to arm the group while prese
 27. Overseer explains mechanics: final battle requires all eighteen legendary objects; spool cannot function with missing thread; if quests fail, final battle fails.
 28. Overseer says architecture was not designed to be comfortable.
 
-## Required Dialogue Intentions
-| Speaker | Dialogue Intention | Verbatim? |
-|---|---|---|
-| Matthieu | H question. | Preserve. |
-| Overseer | H as hardcoded commonality; middle placement matters. | Preserve. |
-| Gregory | Why middle? | Preserve. |
-| Rhün | Alpha-enumeration question. | Preserve. |
-| Overseer | Law of Threes / nine active seats / trial analogy. | Preserve. |
-| Tallandra | What if Brynn refuses / why us. | Preserve. |
-| Overseer | Practice quest. | Preserve. |
-| Carrio | Existing obligations. | Preserve. |
-| Mae/Addie | Destruction-of-cities argument. | Preserve tone. |
-
 ## Subchapter Exit Condition
 The group understands the immediate practice mission and the larger threat: fail the Conjunction quests, lose the final battle, risk all cities.
 
@@ -562,18 +491,6 @@ Reveal the Overseer’s suffering enough to make the Witness/Overseer conflict e
 21. Darkness contracts.
 22. Overseer says “Time for me to skedaddle.”
 23. He vanishes.
-
-## Required Dialogue Intentions
-| Speaker | Dialogue Intention | Verbatim? |
-|---|---|---|
-| Overseer | “Compared to what he did to me.” | Preserve. |
-| Overseer | Welcomed death; he would not give it. | Preserve. |
-| Overseer | Would rather be defeated. | Preserve. |
-| Yurislav | Seventy-third node question. | Preserve. |
-| Overseer | Yes, that was him. | Preserve. |
-| Addie | Was that you? | Preserve. |
-| Overseer | Not me; she wore a form resembling mine; I took the form back. | Preserve. |
-| Overseer | “Time for me to skedaddle.” | Preserve. |
 
 ## Subchapter Exit Condition
 The Overseer exits after revealing too much. The room is left with structural knowledge and emotional horror.
@@ -618,18 +535,6 @@ Let Brickett map the companion structure and prove his “mundane overlooked” 
 30. Brickett beams and says sent by Mother.
 31. Addie agrees.
 
-## Required Dialogue Intentions
-| Speaker | Dialogue Intention | Verbatim? |
-|---|---|---|
-| Max | Breaks protocol and asks Brickett. | Preserve. |
-| Brickett | “The math. It was obvious.” | Preserve. |
-| Yurislav | One who was / one who is; taken/left. | Preserve. |
-| Matthieu | Formal request for reasoning. | Preserve. |
-| Brickett | Carrot diagram. | Preserve. |
-| Matthieu | Elegant pattern recognition. | Preserve. |
-| Rhün | Categories built without us in mind. | Preserve. |
-| Addie / Brickett | Sent by Mother. | Preserve. |
-
 ## Subchapter Exit Condition
 The companion architecture is visible to the group, and Brickett’s role becomes intellectually undeniable.
 
@@ -659,17 +564,6 @@ Close the chapter by turning pattern recognition into practical action: first de
 16. Everyone at the eighteen-chair table responds without coordination: “Ditto.”
 17. End on unified dislike and newly formed practical unity.
 
-## Required Dialogue Intentions
-| Speaker | Dialogue Intention | Verbatim? |
-|---|---|---|
-| Addie | Old rat gave destination. | Preserve. |
-| Tallandra | Luminthalas confirmation. | Preserve. |
-| Mae | Genuine slip vs chosen framing. | Preserve. |
-| Addie | Twenty-five days from green. | Preserve. |
-| Mae | Eight hours of sleep; going to fucking need it. | Preserve. |
-| Yurislav | Does not like that rat. | Preserve. |
-| Everyone | “Ditto.” | Preserve final beat. |
-
 ## Subchapter Exit Condition
 The team has food, sleep, a first destination, Brynn’s scroll, and a working sense of shared structure.
 
@@ -696,13 +590,15 @@ The team has food, sleep, a first destination, Brynn’s scroll, and a working s
 
 ## Continuity Notes
 - This chapter is the first true companion-table chapter.
-- Mae’s household ethic should contrast with Nox Vaelor assumptions and with her political sharpness.
+- Brickett is a 14-year-old beaver beastfolk, not a raccoon.
 - Brickett’s care beat must not be cut; it proves why he belongs with Addie.
+- Brickett’s pattern recognition should feel like his ability: mundane overlooked, not formal math.
+- Brickett’s fire-mage obsession should remain present as soot/singe visual continuity or small backfires when pacing allows, but care and pattern-recognition should drive this chapter.
+- Mae’s household ethic should contrast with Nox Vaelor assumptions and with her political sharpness.
 - Gregory’s push should feel like care through truth, not academic scolding.
 - Matthieu should feel polite, brilliant, and bewildered rather than pompous.
 - The Overseer’s suffering should not overexplain Hans/Mother/Noel-level truth yet.
 - The figure in the Second Mirror should remain mysterious: not current Overseer; wore a similar form; form was taken back.
-- Brickett’s pattern recognition should feel like his ability: mundane overlooked, not formal math.
 - The final “Ditto” should release tension without trivializing it.
 
 ## Final Image
