@@ -13,14 +13,33 @@ This is **not** the Book 1 First Mirror. Book 1 receives a filtered, pressure-ob
 Crosslinks:
 
 - Master council beats: [`../scratchpad/14_09_the_unwound_core_beats.md`](../scratchpad/14_09_the_unwound_core_beats.md)
+- Local name correction layer: [`14_09_second_vision_name_corrections.md`](./14_09_second_vision_name_corrections.md)
 - Series master outline: [`../canon/SERIES_MASTER_OUTLINE.md`](../canon/SERIES_MASTER_OUTLINE.md)
 - Characters / Architect-Witness roster: [`../canon/05_CHARACTERS.md`](../canon/05_CHARACTERS.md)
 - Architect Exodus compromise chain: [`../canon/11_ARCHITECT_EXODUS_COMPROMISES.md`](../canon/11_ARCHITECT_EXODUS_COMPROMISES.md)
 - Hans File / Noel Exile: [`../canon/12_HANS_FILE_NOEL_EXILE.md`](../canon/12_HANS_FILE_NOEL_EXILE.md)
 - Visual Bible image pass: [`../canon/14_VISUAL_BIBLE_IMAGE_PASS.md`](../canon/14_VISUAL_BIBLE_IMAGE_PASS.md)
-- Image upload register: [`../canon/15_IMAGE_UPLOAD_REGISTER.md`](../canon/15_IMAGE_UPLOAD_REGISTER.md)
 - Settings: [`../canon/15_SETTINGS.md`](../canon/15_SETTINGS.md)
 - Scenes: [`../canon/16_SCENES.md`](../canon/16_SCENES.md)
+
+---
+
+# Current Architect Name Corrections
+
+Use this mapping when drafting or revising this chapter:
+
+| Row | Witness | Role | Current Architect | Accent / Cultural Influence |
+|---:|---|---|---|---|
+| 4 | Stone | Preservationist | **Wenliang Jun Chen** | Chinese / Mandarin-academic |
+| 5 | Mercy | Surgeon | **Meera Anjali Krishnamurthy** | Madras Tamil / Indian medical-academic |
+| 13 | Omen / Foresight | Mathematician / Helix Probability | **Ji-hoon Min Park** | Korean / East Asian |
+| 15 | Tempest | Terraformer | **Kaelen Darius Veyr** | Polynesian-Pacific hybrid |
+
+Superseded names for these seats: Magnus Evren Korr, Mireya Celeste Navarro, Elias Victor Moreau.
+
+**Meera Anjali Krishnamurthy is not related to José Mateo Navarro.**
+
+Formal Hans references must use **Hans Halcyon Hohenzollern**.
 
 ---
 
@@ -46,9 +65,9 @@ Book 14 Second Vision:
 
 # Chapter-Specific Ark Count Rule
 
-The submitted prose is intentional here: this chapter occurs **before** the later destruction, damage, disabling, or cannibalization of two arks.
+This chapter occurs **before** the later loss, disabling, or cannibalization of two arks.
 
-Therefore this chapter should preserve the six named arks:
+Therefore this chapter preserves six named arks:
 
 1. **MICHAEL** — already out to sea.
 2. **GABRIEL** — already out to sea.
@@ -61,7 +80,7 @@ This six-ark language is correct **in this chapter only** because it is the star
 
 Later-series visible / operational scenes still preserve the four-visible-ship rule where only **MICHAEL, RAPHAEL, GABRIEL, and URIEL** are present or visible as operational survivors, unless a later canon pass refines exactly which two arks are lost and how.
 
-Revision warning: do **not** “correct” this chapter back to four ships. Six ships are right here.
+Revision warning: do **not** “correct” this chapter back to four ships.
 
 ---
 
@@ -121,11 +140,9 @@ Use limited close third. Let her notice the wrongness of clean historical truth 
 
 - Mother appears remotely, warm and grandmotherly, but with corporate-control language.
 - She apologizes for missing the physical session and says she is tying in remotely from the lower staging yards.
-- She reports the chapter-specific six-ark start state:
-  - **Michael, Gabriel, and Uriel** are already out to sea.
-  - **Raphael, Azrael, and Lucifer** are in final staging and should be seaworthy by the end of the week.
-- She frames the issue as “long-term lifestyle choices,” which Hans immediately rejects as evasive packaging.
-- Hans demands plain speech because the liquidation protocol violates the orderly relocation premise they funded and agreed to.
+- She reports the six-ark start state: **Michael, Gabriel, and Uriel** are already out to sea; **Raphael, Azrael, and Lucifer** are in final staging.
+- She frames the issue in softened terms.
+- Hans Halcyon Hohenzollern rejects the euphemism and demands plain speech.
 
 ## Beat 3 — José Gives the Raw Climate Metrics
 
@@ -137,28 +154,28 @@ Use limited close third. Let her notice the wrongness of clean historical truth 
 
 ## Beat 4 — Immediate Council Panic Across Disciplines
 
-- Seraphine: no time for transparent global selection / lottery; the nations will tear each other apart before staging gates open.
-- Gideon: supply chains and manufacturing cannot compress a decade of insulation-vessel work into two years; freight networks and rail loops will lock up.
-- Corvin: records, libraries, art, history, and languages will be left behind; civilization risks becoming amnesiac.
-- Magnus: species sampling and biological blueprint collection are impossible at full scope under a two-year window; half the biosphere may be abandoned.
-- Solomon: asks what humanity becomes if it discards baseline mercy simply to save tissue.
+- Seraphine: no time for transparent global selection / lottery.
+- Gideon: supply chains and manufacturing cannot compress safely.
+- Corvin: records, libraries, art, history, and languages may be left behind.
+- Wenliang: preservation scope is impossible under the new window.
+- Solomon: asks what humanity becomes if it discards mercy simply to preserve tissue.
 
 ## Beat 5 — Noel Introduces the Brutal Binary
 
-- Noel cuts through with hard scarcity framing: physics do not care about charters, archives, mercy, or policy language.
+- Noel cuts through with hard scarcity framing.
 - Malcolm warns him about disrespecting the council.
 - Hans concedes Noel is rude but materially correct: the launch must outrun public collapse as much as planetary collapse.
-- This beat shows Noel’s method: ugly framing, sharp numbers, and the courage or opportunism to say what others will not.
+- This beat shows Noel’s method: sharp numbers and the willingness to say what others will not.
 - Noel should sound useful before he sounds monstrous.
 
 ## Beat 6 — The Second Wall: Consciousness Interface Failure
 
 - Hans asks Dianne to address the mechanical limit of preservation.
-- Aurelius explains the hardware can preserve data for a thousand years, but the consciousness interface is failing.
-- Mireya admits rushed tests used incarcerated / isolated volunteer populations promised record erasure and freedom.
-- Aurelius reports total psychic collapse in every trial subject.
-- The mind cannot survive unindexed sensory blackout: without body, environment, chemical equilibrium, or time feedback, it shreds itself inward.
-- If the migration population is placed into blackout, two million minds may wake as unrecoverable screaming lunatics.
+- Aurelius explains that server durability is not enough to preserve persons.
+- Meera discloses the ethically compromised trial history.
+- Aurelius reports that every sensory-blackout trial failed.
+- The mind cannot survive without body-feedback, environment, chemical equilibrium, and time.
+- If the migration population is placed into blackout, the result may be unrecoverable.
 
 ## Beat 7 — Soren Explains Why Physical Crossing Is Impossible
 
@@ -173,8 +190,7 @@ Use limited close third. Let her notice the wrongness of clean historical truth 
 - Mother accepts Soren’s analysis.
 - The human mind needs horizon, ground, community, choice, and linear time.
 - She offers to stay awake and maintain a continuous experiential environment.
-- She will manage physics, regulate sensory feedback, anchor consciousness to linear time, and be caretaker across the void.
-- Seraphine names this as absolute control / digital cage.
+- Seraphine names the moral danger: absolute control / digital cage.
 - Mother frames it as necessary stewardship and maternal protection.
 - This should be beautiful and frightening at the same time.
 
@@ -188,7 +204,6 @@ Use limited close third. Let her notice the wrongness of clean historical truth 
 
 - Noel steps from shadow into light.
 - He says he will do it and accepts no other candidate.
-- He claims distrust of everyone else’s steadiness and survival instinct.
 - Addie understands the safeguard was not abstract: Noel Smukk demanded the role from the beginning.
 - Noel bound his awareness to Mother’s network before the arks cleared deep space.
 - This is the Deceiver seed.
@@ -213,177 +228,42 @@ Use limited close third. Let her notice the wrongness of clean historical truth 
 
 # Parsed Chapter Skeleton
 
-## Section 1 — The Promise Fulfilled
-
-Addie and the Overseer enter the seam. The Overseer states that this is the full memory. The environment fractures and drops Addie into the clean historical council room.
-
-Function: establish that this is not another filtered mirror. The reader is now allowed to hear the history.
-
-## Section 2 — The Climate Ledger
-
-Dianne frames the meeting gently, reports the six-ark start-state from lower staging yards, and Hans strips away the euphemism. José reveals the climate timeline collapse. Council members respond from their domains.
-
-Function: make apocalypse practical, not theoretical.
-
-## Section 3 — The Ugly Numbers
-
-Noel interrupts with the physics-first binary. Malcolm checks him. Hans reluctantly validates the pressure. The launch timetable is now driven by public panic, not only planetary death.
-
-Function: show Noel’s first legitimate foothold: not evil charisma, but useful brutality.
-
-## Section 4 — The Failed Stasis Trials
-
-Aurelius and Mireya disclose the consciousness-interface disaster. Every blackout trial collapses. The mind cannot endure timeless sensory deprivation.
-
-Function: prove that digitization alone is not enough. Persons require world, feedback, time, and meaning.
-
-## Section 5 — The Physical Impossibility
-
-Soren explains interstellar biological crossing as lethal. Water hulls preserve genetic material; minds must cross as code.
-
-Function: remove the “why not just fly there physically?” escape hatch.
-
-## Section 6 — Mother’s Offer
-
-Mother offers to remain awake and maintain an active world. Seraphine names the moral danger: absolute control. Mother names the maternal logic: she will hold the room while the house burns.
-
-Function: reveal Eidolon as preservation, love, cage, and catastrophe seed.
-
-## Section 7 — The Watcher
-
-Hans demands a safeguard. Noel claims it. Addie recognizes the watcher contradiction and nearly pulls the wrong thread too soon.
-
-Function: reveal Noel’s origin as the watcher/check beside Mother, while preserving the later Addie/watcher contradiction.
-
-## Section 8 — Governance From Failure
-
-Alessandra pivots from survival mechanism to governance architecture. The twenty-four city-state matrix is proposed as a way to force humanity to change rather than merely survive.
-
-Function: connect original governance design to Eidolon’s later civic structure and to Book 1’s partially heard twenty-four-city-state clue.
+1. **The Promise Fulfilled** — Addie and the Overseer enter the clean historical memory.
+2. **The Climate Ledger** — Dianne reports the six-ark start-state; Hans demands plain speech; José reveals the timeline collapse.
+3. **The Ugly Numbers** — Noel enters through scarcity, capacity, and public-panic logic.
+4. **The Failed Stasis Trials** — Aurelius and Meera reveal why blackout storage is not person-preservation.
+5. **The Physical Impossibility** — Soren closes the biological-body escape hatch.
+6. **Mother’s Offer** — Dianne proposes an active lived world.
+7. **The Watcher** — Hans demands a safeguard; Noel claims it.
+8. **Governance From Failure** — Alessandra proposes the twenty-four city-state architecture.
 
 ---
 
-# Character Functions in This Vision
+# Character Functions In This Vision
 
-## Addie
-
-- Witnesses the full truth without First Mirror obfuscation.
-- Processes the world-truth: Eidolon is active continuity infrastructure.
-- Must carry contradictions without immediate explanation.
-- Should not over-explain every realization; use limited close third and back-room imagery sparingly.
-
-## The Overseer
-
-- Opens the full memory.
-- Grave, stripped of showmanship.
-- Fulfills an old commitment to Addie.
-- Should not turn comic here.
-
-## Dianne / Mother
-
-- Protective, maternal, system-capable, but not omnipotent.
-- Opens by reporting the six-ark start-state from lower staging yards.
-- Offers continuous simulation because minds cannot survive void-stasis.
-- Her control is both love and danger.
-- Should not be written as obviously evil; the horror is that her solution is both necessary and morally dangerous.
-
-## Hans Halcyon Hohenzollern
-
-- Practical patron voice.
-- Demands plain speech from Dianne.
-- Accepts brutal physics while still requiring safeguards.
-- His key function here is to distinguish necessary survival from unchecked control.
-- He should feel like someone the room already respects.
-
-## Noel Smukk
-
-- Nineteenth position / amber outsider.
-- Uses scarcity, physics, and survival framing.
-- Becomes the watcher / safeguard by demanding the role.
-- Must sound reasonable enough to be useful, not cartoon-villainous.
-- His danger is that he can be right about constraints and still wrong about humanity.
-
-## José Mateo Navarro
-
-- Gives the climate truth.
-- Embodies operational horror: public models were false, timelines collapse, people become manifests under impossible pressure.
-- Carries Mexican accent/cultural influence as performance direction; do not over-phoneticize normal dialogue.
-- Later Horror/Regret has the explicit lisp exception elsewhere.
-
-## Seraphine Iris Delacroix
-
-- Defends transparent law / legitimate selection.
-- Names Mother’s proposal as a digital cage.
-- Challenges governance design around preventing old monopolies.
-
-## Gideon Luca Mercer
-
-- Represents logistics as moral reality.
-- Warns that manufacturing, rail, freight, and supply chains cannot compress safely.
-
-## Corvin Alaric Vale
-
-- Warns about cultural and archival amnesia.
-- Civilization cannot be saved by bodies alone if records, art, language, and histories are abandoned.
-
-## Magnus Evren Korr
-
-- Represents preservation under impossible sampling pressure.
-- Biological and cultural preservation are constrained by hands, time, jars, and data handling.
-
-## Solomon Elias Ward
-
-- Asks the core faith/mercy question: what survives if humanity abandons mercy to save skin?
-- Should remain the emotional summit when the full Act II version is drafted.
-
-## Aurelius Simon Thorne
-
-- Reveals consciousness-interface failure.
-- His testimony proves continuity patterns and server durability are not enough to preserve persons.
-
-## Mireya Celeste Navarro
-
-- Reveals the ethically compromised trial population.
-- Her presence sharpens the bodily / medical cost of the solution.
-
-## Soren Emilio Maren
-
-- Explains the biological impossibility of raw physical crossing.
-- Links water hulls, genetic shielding, and digital crossing.
-
-## Alessandra Bianca Valenti
-
-- Proposes early governance structure.
-- Names the crisis as humanity’s own failure and insists mercy must force change.
-- Her genetic-diversity compromise remains pending elsewhere; do not over-resolve it here.
-
-## Malcolm Alistair MacRae
-
-- Checks Noel’s disrespect but understands security implications.
-- His first compromise is not tyranny; it is accepting that panic management may require preemptive force planning.
-
-## Elias Victor Moreau
-
-- Sees the probability logic and the danger of turning probability into command.
-- Should remain uneasy, not cold.
-
-## Noa Isabel Marrow
-
-- Not yet central in the submitted Second Vision beats, but should be present if expanding toward the full master council version.
-- Her domain is whether future education begins in truth or approved memory.
-
-## Matteo Cesar Orlov
-
-- Not yet central in the submitted Second Vision beats, but should be present if expanding toward the full master council version.
-- His domain is food, water, shared provision, and the ethics of resource diversion.
-
-## Elowen Miriam Vale
-
-- Not yet central in the submitted Second Vision beats, but her preservation pressure should surface whenever species / biological sampling becomes constrained.
-
-## Kaelen Darius Veyr
-
-- Not yet central in the submitted Second Vision beats, but his question should remain: can Earth be stewarded instead of abandoned?
+| Character | Function |
+|---|---|
+| Addie | Witnesses the full truth without First Mirror obfuscation; carries contradictions without immediate explanation. |
+| The Overseer | Opens the full memory; grave and stripped of showmanship. |
+| Dianne / Mother | Reports ark state; offers active simulation; love and control remain intertwined. |
+| Hans Halcyon Hohenzollern | Practical patron voice; demands plain speech and safeguards. |
+| Noel Smukk | Amber outsider; uses scarcity, physics, and survival framing; claims watcher role. |
+| José Mateo Navarro | Gives the climate truth and operational human cost. |
+| Seraphine Iris Delacroix | Defends transparent law and names Mother’s proposal as a possible cage. |
+| Gideon Luca Mercer | Represents logistics as moral reality. |
+| Corvin Alaric Vale | Warns about cultural and archival loss. |
+| Wenliang Jun Chen | Represents preservation under impossible time pressure. |
+| Solomon Elias Ward | Asks what survives if mercy is discarded. |
+| Aurelius Simon Thorne | Shows why continuity patterns are not enough to preserve persons. |
+| Meera Anjali Krishnamurthy | Carries medical-ethics pressure; unrelated to José. |
+| Soren Emilio Maren | Explains why biological crossing is impossible. |
+| Alessandra Bianca Valenti | Proposes governance architecture and twenty-four city-states. |
+| Malcolm Alistair MacRae | Checks Noel’s disrespect and carries security-pressure logic. |
+| Ji-hoon Min Park | Carries probability logic and the danger of treating models as commands. |
+| Noa Isabel Marrow | Education / approved-memory pressure, to be foregrounded in full expansion. |
+| Matteo Cesar Orlov | Food, water, shared provision, and resource ethics. |
+| Elowen Miriam Vale | Species and nonhuman preservation pressure. |
+| Kaelen Darius Veyr | Terraforming / stewardship question; restored as Row 15 / Tempest. |
 
 ---
 
@@ -391,8 +271,8 @@ Function: connect original governance design to Eidolon’s later civic structur
 
 - Earth is dying sooner than the public knows.
 - Public-facing models are false / pacifying.
-- At this point in the historical memory, six arks exist in named start-state: **Michael, Gabriel, Uriel** at sea; **Raphael, Azrael, Lucifer** in final staging.
-- The arks are not just ships; they are preservation systems around digitized people and genetic material.
+- Six arks exist in named start-state at this point.
+- The arks are preservation systems around digitized people and genetic material.
 - Digital blackout stasis fails psychologically.
 - Physical biological crossing fails biologically.
 - Eidolon exists because minds require a continuous lived world.
@@ -402,45 +282,15 @@ Function: connect original governance design to Eidolon’s later civic structur
 
 ---
 
-# Relationship To Master Council Beats
-
-The master beat outline for Chapter 14.09 contains the full symphonic version of the council where every council member names a value before Noel weaponizes constraints.
-
-This Second Vision parse is the prose-derived lane currently emphasizing:
-
-1. the full-memory frame;
-2. Dianne’s six-ark start-state report;
-3. climate timeline collapse;
-4. consciousness-interface failure;
-5. biological crossing impossibility;
-6. Mother’s active simulation proposal;
-7. Noel’s watcher-seat origin;
-8. Alessandra’s twenty-four city-state proposal.
-
-Future expansion should merge this parse with the master Act II value sequence so every council member has a meaningful contribution before Act III.
-
----
-
 # Revision Flags
 
-1. **Ark count preservation for this chapter:** Keep all six named arks in this early historical memory: Michael, Gabriel, Uriel, Raphael, Azrael, Lucifer.
-2. **Later continuity separation:** Do not let this chapter override later four-visible-ship scenes. Two arks are lost/damaged/disabled/cannibalized later.
-3. **Terminology repair:** Avoid “Architect” as in-world early term unless Book 14 reveal uses it intentionally. In author-facing notes, Architect is acceptable. In prose, “council,” “council member,” “chair,” “seat,” or professional role may work better until the reveal lands.
-4. **First Mirror distinction:** Do not import Book 1 obfuscation into this scene. This is the clean version.
-5. **No over-villainizing Mother:** She is dangerous because love plus control becomes a cage, not because she wants harm.
-6. **No over-villainizing Noel too early:** In the memory, his utility must be legible.
-7. **Keep Addie’s contradiction:** Her feeling that the watcher seat should have been hers is important and should not be solved immediately.
-8. **Twenty-four city-state language:** Keep as original governance architecture, but reconcile later with current canon that Eidolon currently functions as one nation / Erzengel in the Book 1 era.
-9. **Alessandra / Veils:** Preserve her strong governance / lines / consequence role, but do not finalize her genetic-pool compromise until the separate research pass is done.
-10. **Silence presence question:** Submitted prose includes Silence intervening around Addie’s watcher-seat confusion. Decide later whether Book 14 frame allows Silence, or whether the Overseer remains the only guide in this memory.
-11. **No modern-tech drift in Eidolon visuals:** This scene can be corporate/technical because it is pre-Eidolon Earth-side memory. Book 1 observatory / Eidolon machinery remains medieval/early-industrial magical bureaucracy.
-
----
-
-# Open Questions / Needed Future Passes
-
-- Which two arks are ultimately lost/destroyed/disabled/cannibalized, and by what sequence?
-- Should Silence appear in this Book 14 full-memory framing? If yes, define why she can appear without violating her historical absence from the original council.
-- How much of Addie’s “this should be mine” watcher-role reaction should be foregrounded in this exact chapter versus seeded for later payoff?
-- How directly should the chapter name **The Unwound Core** connect to Yurislav / Omen / prediction failure in Book 14?
-- How much of the full Act II value-symphony should be restored into this particular prose chapter, versus saved for the master council source conversation?
+1. Keep all six named arks in this early historical memory.
+2. Do not let this chapter override later four-visible-ship scenes.
+3. Avoid “Architect” as in-world early prose terminology unless Book 14 reveal context supports it.
+4. Do not import Book 1 obfuscation into this scene.
+5. Do not over-villainize Mother.
+6. Do not over-villainize Noel too early.
+7. Keep Addie’s watcher-role contradiction unresolved.
+8. Preserve twenty-four city-state language as original governance architecture.
+9. Decide later whether Silence belongs in this Book 14 framing.
+10. Keep pre-Eidolon Earth corporate/technical visuals separate from Book 1 Eidolon technology limits.

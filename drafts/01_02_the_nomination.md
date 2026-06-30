@@ -6,12 +6,21 @@ L4 Reconstruction Outline with Visible Subchapters
 ## Chapter Structure
 This parent chapter introduces Addie’s ordinary life, personal vulnerabilities, and professional position before forcing her into the Moderator crisis. It should be drafted as one connected chapter with visible subchapters.
 
+Addie is physically in **Skyrend Peak** because of the Gale Exposition / Meridian Accord work-travel context. Her home / origin city is **Qasr Siroth**.
+
 ## Visible Subchapters
 1. The Gale Exposition
 2. With Kwame
 
 ## Purpose
 Introduce Addie in her own life before the political machine claims her. The chapter should move from sensory irritation and private grief into institutional crisis, ending with the reveal that the Meridian Accord has already nominated her as Moderator.
+
+This chapter should distinguish Addie’s **temporary Skyrend Peak work-travel location** from her **Qasr Siroth origin**. Do not imply Skyrend Peak is her home city.
+
+This chapter also establishes two recurring Addie signals:
+
+- her heirloom is a **simple silver pendant necklace** bearing the **Mark of the Orbs**;
+- her hair color / hair dye habit is a control ritual that the crisis interrupts.
 
 ## POV / Narrative Mode
 Close third on Adeshka “Addie” H. Sonntag.
@@ -20,6 +29,7 @@ Close third on Adeshka “Addie” H. Sonntag.
 Night of the purple beacon activation, after the Royal Astronomer’s Tower sequence and before the blue beacon / public extraction sequence.
 
 ## Parent Locations
+- Qasr Siroth as Addie’s offstage home / origin city.
 - Portalport Station, Skyrend Peak.
 - Streets between Portalport and the Gale Exposition.
 - Room 314, the Gale Exposition hotel.
@@ -33,7 +43,7 @@ Night of the purple beacon activation, after the Royal Astronomer’s Tower sequ
 - Elegant traveler with alchemical reagents.
 - Jam-covered child and mother.
 - Hotel clerk.
-- Hotel attendant carrying urgent dispatch.
+- Hotel attendant carrying urgent eye-mail / imperial priority dispatch.
 
 ### Subchapter 2 — With Kwame
 - Addie Sonntag.
@@ -44,9 +54,10 @@ Night of the purple beacon activation, after the Royal Astronomer’s Tower sequ
 - Addie’s leather satchel.
 - Portalport Station / “The PP.”
 - Minibar with biometric weight sensors.
-- Addie’s silver hair clip / berette with Mark of the Orbs geometry.
-- Blue hair pigment and failed life-magic catalyst.
-- Crimson-ribboned imperial priority dispatch.
+- Addie’s simple silver pendant necklace with Mark of the Orbs geometry.
+- Hair-dye supplies: red pigment, blue pigment, and failed / interrupted life-magic catalyst.
+- Half-finished red-and-blue hair dye with resistant silver-blonde streaks.
+- Crimson-ribboned imperial priority eye-mail dispatch.
 - Purple glowing message: presence required, beacon burns.
 - Stormspire Aerie burning violet.
 - Master Seal document in Kwame’s office.
@@ -58,6 +69,9 @@ Yes. Preserve the existing manuscript beats, but group them under visible subcha
 ## Allowed Changes
 - Smooth transitions between Portalport arrival, hotel decompression, and guildhall urgency.
 - Add connective tissue that makes Addie’s exhaustion and grief carry into the nomination scene.
+- Restore the interrupted hair-dye sequence as a memorable character-control beat.
+- Make eye-mail feel like “for your eyes only” delivery keyed to Addie.
+- Establish or preserve Addie’s Qasr Siroth origin without overloading the opening with exposition.
 - Dialogue may tighten if the intent remains intact.
 - The two visible subchapter titles may be adjusted later if a title-message/acrostic plan needs it.
 
@@ -65,21 +79,22 @@ Yes. Preserve the existing manuscript beats, but group them under visible subcha
 - Do not remove Addie’s portal nausea and cynical Portalport introduction.
 - Do not remove the jam-child encounter and Addie’s anti-propagation thought.
 - Do not remove the minibar/expense-card bit with Kwame.
-- Do not remove the silver hair clip / Mark of the Orbs inspection.
+- Do not remove the simple silver pendant / Mark of the Orbs inspection.
 - Do not remove Addie’s grief over her mother.
-- Do not remove the failed blue hair-magic scene.
-- Do not remove the urgent dispatch and purple beacon reveal.
+- Do not remove the interrupted red/blue hair-dye scene.
+- Do not remove the urgent eye-mail / imperial dispatch and purple beacon reveal.
 - Do not remove Jaren’s insult or Addie’s verbal retaliation.
 - Do not remove Kwame’s fear and affection.
 - Do not remove the Facilitator-to-Moderator document reveal.
 - Do not remove the final reveal: the Meridian Accord already signed the papers and Addie is their nominee.
+- Do not imply Addie is from Skyrend Peak. She is from **Qasr Siroth**.
 
 ---
 
 # Subchapter 1 — The Gale Exposition
 
 ## Subchapter Function
-Introduce Addie as a tired, brilliant, irritated, underpaid Conjunction scholar before the crisis claims her. This subchapter should make her feel human first: nauseated by portal travel, annoyed by bureaucracy, grieving her mother, hiding the Mark of the Orbs, and trying to control her own appearance before the world interrupts.
+Introduce Addie as a tired, brilliant, irritated, underpaid Conjunction scholar before the crisis claims her. This subchapter should make her feel human first: nauseated by portal travel, annoyed by bureaucracy, away from Qasr Siroth on work travel, grieving her mother, hiding the Mark of the Orbs, and trying to control her own appearance before the world interrupts.
 
 ## Beat-by-Beat Skeleton
 1. Addie exits Portalport transit and immediately undercuts the official brochures by describing transit as being squeezed through a damp leather boot.
@@ -88,7 +103,7 @@ Introduce Addie as a tired, brilliant, irritated, underpaid Conjunction scholar 
 4. The time context is established: hour of the Singularity, final segment of Brindlemask, and Addie is late due to transit delays.
 5. Addie reflects that traveling on the Meridian Accord’s dime is only tolerable because she can usually steal one night of sightseeing.
 6. She moves through the crowd with practiced, analytical force, trying to look like an immovable equation.
-7. Her physical description and mixed heritage are established: light warm skin favoring Egyptian heritage, tall athletic frame, unknown father.
+7. Her physical description, mixed heritage, and origin context are established: light warm skin favoring Egyptian heritage, tall athletic frame, unknown father, Qasr Siroth origin.
 8. An elegant traveler snaps at her after she bumps past a crate of alchemical reagents.
 9. Addie fails to distinguish the elf sub-lineage and decides not to process it.
 10. Addie’s “back room” / eidetic memory processing is introduced.
@@ -101,25 +116,27 @@ Introduce Addie as a tired, brilliant, irritated, underpaid Conjunction scholar 
 17. She checks the minibar, considers the spirits, then sees the biometric expense warning.
 18. Addie refuses to give Kwame/internal affairs an expense scandal over nuts or alcohol.
 19. In the bathroom mirror, Addie sees exhaustion and unravelling braids.
-20. She removes her hidden silver hair clip / berette.
-21. The object is described as old silver alloy with nested orb/ring geometry, more like a data map than jewelry.
+20. Addie touches / removes her simple silver pendant necklace.
+21. The pendant is described as old silver alloy with nested orb/ring geometry, more like a data map or lunar machine than ordinary jewelry.
 22. Addie remembers searching every codex for its origin and finding nothing.
-23. The clip’s emotional meaning overtakes the mystery: it belonged to her mother and survived estate bureaucracy.
+23. The pendant’s emotional meaning overtakes the mystery: it belonged to her mother and survived estate bureaucracy.
 24. Addie remembers the scent of Nile mud and dried jasmine associated with her mother.
-25. Removing the clip exposes three silver-blonde streaks that resist dye and magic.
-26. Addie prepares blue pigment and life-magic catalyst to put the world back in its box.
-27. Blue is framed as numbness, distance, and off-duty emotional armor.
-28. Her mind drifts to moon/node/geological anomaly data mid-spell.
-29. The spell shorts out painfully.
-30. Her hair becomes a chaotic half-blue disaster with silver streaks visible.
-31. Three aggressive knocks hit the hotel door.
-32. Addie threatens the hypothetical minibar auditor.
-33. A terrified hotel attendant delivers a crimson-ribboned imperial priority dispatch.
-34. The attendant reacts to Addie’s hair in horror.
-35. Addie opens the dispatch and reads the purple-glowing summons: immediate presence required; a purple beacon burns.
-36. Addie yanks open the curtains.
-37. She sees Stormspire Aerie bleeding violet light into the sky.
-38. Addie understands instantly that this is not a malfunction or stunt: the ancient network is live.
+25. The mirror shows the silver-blonde streaks in her hair that resist dye and magic.
+26. Addie prepares red and blue pigment with a life-magic catalyst to put the world back in its box.
+27. Hair dye is framed as Addie’s self-control ritual: a small visible part of herself she can still choose.
+28. She intends the result to be deliberate, controlled, and emotionally armored.
+29. Her mind drifts to moon/node/geological anomaly data mid-spell.
+30. The spell shorts out painfully.
+31. Her hair becomes a chaotic half-red / half-blue disaster with silver streaks visible.
+32. Three aggressive knocks hit the hotel door.
+33. Addie threatens the hypothetical minibar auditor.
+34. A terrified hotel attendant delivers a crimson-ribboned imperial priority eye-mail dispatch.
+35. The attendant reacts to Addie’s half-finished hair in horror.
+36. The eye-mail logic should be clear: it was routed through the hotel because it was keyed to Addie’s eyes / identity.
+37. Addie opens the dispatch and reads the purple-glowing summons: immediate presence required; a purple beacon burns.
+38. Addie yanks open the curtains.
+39. She sees Stormspire Aerie bleeding violet light into the sky.
+40. Addie understands instantly that this is not a malfunction or stunt: the ancient network is live.
 
 ## Required Dialogue Intentions
 | Speaker | Dialogue Intention | Verbatim? |
@@ -127,7 +144,8 @@ Introduce Addie as a tired, brilliant, irritated, underpaid Conjunction scholar 
 | Addie | Jokes bitterly about Portalport and spatial vomit. | No |
 | Addie | Refuses to let Kwame/internal affairs bill her for minibar indulgence. | No |
 | Addie | Threatens the imagined auditor at the door. | No |
-| Attendant | Delivers urgent dispatch and says the hotel license is at risk if she delays. | No |
+| Attendant | Delivers urgent eye-mail dispatch and says the hotel license is at risk if she delays. | No |
+| Attendant | Accidentally reacts to Addie’s half-red / half-blue hair. | No |
 
 ## Subchapter Exit Condition
 Addie has seen the purple beacon and understands with professional certainty that the ancient planetary communication network has awakened.
@@ -165,7 +183,7 @@ Move Addie from private crisis into public institutional crisis. This subchapter
 23. Addie rejects it: she is a nobody, does not do politics, does not do speeches.
 24. Kwame argues that she is the only Conjunction specialist who has disproven forty-two false claims by age twenty-eight.
 25. He says her lack of political identity is exactly why the council selected her.
-26. Kwame says she understands the literal mathematics of survival.
+26. He says she understands the literal mathematics of survival.
 27. He presses the scroll container into her hands.
 28. Kwame reveals the Meridian Accord has already signed the papers.
 29. Addie’s name is on the scroll under the proper institutional seals.
@@ -198,8 +216,10 @@ Addie is holding the nomination scroll container and knows the Meridian Accord h
 - Physical irritation and portal nausea.
 - Dry cynicism and crowd avoidance.
 - Private exhaustion and grief.
-- Attempted self-control through hair, pigment, and routine.
-- Shock at the purple dispatch and beacon.
+- Qasr Siroth origin remains underneath the Skyrend work-travel frame.
+- Attempted self-control through pendant, hair pigment, and routine.
+- Hair-dye interruption leaves Addie half-red / half-blue and publicly unready.
+- Shock at the purple eye-mail dispatch and beacon.
 - Institutional urgency.
 - Fear from Kwame, which punctures Addie’s cynicism.
 - Legal dread as Facilitator becomes Moderator.
@@ -208,16 +228,20 @@ Addie is holding the nomination scroll container and knows the Meridian Accord h
 - Final loss of observer status.
 
 ## Continuity Notes
-- Addie’s silver hair clip / berette must visually match Brickett’s bag clasp later.
+- Addie is from **Qasr Siroth**.
+- Skyrend Peak is her Gale Exposition / Meridian Accord work-travel location in this chapter, not her home city.
+- Addie’s simple silver pendant necklace must visually match Brickett’s bag clasp later.
 - The Mark of the Orbs should remain unexplained here.
 - Addie’s mother grief should stay quiet but present.
+- Addie’s hair-color habit is her control ritual and should recur.
+- Eye-mail should be treated as “for your eyes only” recipient-keyed delivery.
 - Addie’s anti-child / anti-propagation thought sets up later tension with Brickett without making Addie cruel.
 - Kwame should feel frightened and nurturing, not manipulative or cruel.
 - Addie must not volunteer. The nomination has already happened before she can consent.
 - “Moderator” should feel legally and metaphysically heavier than “Facilitator.”
 
 ## Final Image
-Addie stands in Kwame’s office with the wooden scroll container in her hands while violet light from Stormspire cuts across the room, realizing she has been pulled from observer to participant.
+Addie stands in Kwame’s office with the wooden scroll container in her hands while violet light from Stormspire cuts across the room, her hair still visibly half-finished, realizing she has been pulled from observer to participant.
 
 ## Next Chapter Handoff
 The next manuscript unit is `The Witnesses`, a metaphysical scene between the Witnesses and the Overseer. It should not be folded into this chapter because it changes setting, POV layer, and narrative function.

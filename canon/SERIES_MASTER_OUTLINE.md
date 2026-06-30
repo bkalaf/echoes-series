@@ -17,10 +17,10 @@ Use the repository directories consistently:
 
 - `drafts/` = parsed chapter outlines, reconstruction outlines, draft-planning files, interlude drafts, protected fragments, and other author-facing planning that is not final prose.
 - `scratchpad/` = rough master-planning documents, experimental beat systems, and future-book source conversations that may later be promoted into formal drafts or canon.
-- `chapters/` = actual prose chapter text only.
+- `chapters/` = actual prose chapter text only. Temporary prose stubs are allowed only when explicitly marked as stubs.
 - `canon/` = stable reference authority, continuity rules, rosters, settings, scenes, indexes, and cross-book structure.
 
-Do not place beat outlines or parsing documents in `chapters/` unless they have been converted into prose.
+Do not place beat outlines or parsing documents in `chapters/` unless they have been converted into prose or explicitly marked as temporary prose stubs.
 
 ### 3. Settings and scenes are tracked separately
 
@@ -106,6 +106,8 @@ Use relative markdown where possible.
 - [Visual Bible — Image Pass Notes](./14_VISUAL_BIBLE_IMAGE_PASS.md)
 - [Settings](./15_SETTINGS.md)
 - [Scenes](./16_SCENES.md)
+- [Character Gesture / Signal Rules](./17_CHARACTER_GESTURE_SIGNALS.md)
+- [Mother / System Arc](./18_MOTHER_SYSTEM_ARC.md)
 
 ---
 
@@ -116,8 +118,8 @@ Use relative markdown where possible.
 | 01 | The Assistant. The Thread. The Torn. | Adeshka H. Sonntag / Sonntag | WWII oil embargo; Doomsday Shelf; oral tradition knots; Ariadne’s Thread; first public Moderator formation. |
 | 02 | Gregory must breathe fire. | Gregory H. Frydrake / Dravenkar | Munich appeasement; ecological cascade; mono no aware; Sakura Branch. |
 | 03 | Gregory accepts the spotlight. | Gregory H. Frydrake | Alan Turing wartime secrecy; legitimacy systems; divine kingship; Crownless King’s Coin. |
-| 04 | Brynn owns royal lineage. | Brynn H. Stonevain / Stonewake | Romanov execution; epigenetic trauma; Fisher King; Yggdrasil Root. |
-| 05 | Brynn comes out / accepts cost. | Brynn H. Stonevain | Turing persecution; biological sex spectrum; sacred androgyny; Spear of Destiny. |
+| 04 | Brynn owns royal lineage. | Brynn H. Stonevein / Stonewake | Romanov execution; epigenetic trauma; Fisher King; Yggdrasil Root. |
+| 05 | Brynn comes out / accepts cost. | Brynn H. Stonevein | Turing persecution; biological sex spectrum; sacred androgyny; Spear of Destiny. |
 | 06 | Tallandra must fly. | Major Tallandra H. Highwatch / Aegalor | Battle of Britain; aerodynamics; sky ascent myth; Dreaming Stone. |
 | 07 | Tallandra puts honor aside. | Major Tallandra H. Highwatch | Bushido doctrine; game theory authority; warrior honor; Lion Tooth / Obsidian Mirror. |
 | 08 | Carrio must shed skin. | Carrio H. Vessalor / Serpaday | Willem Arondeus / records; adaptive molting; serpent shedding; Bone Flute. |
@@ -128,8 +130,8 @@ Use relative markdown where possible.
 | 13 | Mae spares a life. | Mae’vyri H. Van’Kareth | POW survival comparison; long-term consequence modeling; spared enemy myths; First Drum. |
 | 14 | Yurislav confronts ruthlessness. | Yurislav H. Arslan / Karskov | Eastern Front attrition; predictive failure; fate weaving; Endless Loom Spindle. Includes the full historical council source scene and Second Vision full-memory parse. |
 | 15 | Yurislav lineage with Mae. | Yurislav H. Arslan | Lorenz cipher; cryptography; hidden name myths; Serpent Mound Tablet. |
-| 16 | Rhun must hold water. | Rhun H. Ignis / Stonewake | Atlantic convoys; water radiation shielding; flood myths; Feather of Ma’at. |
-| 17 | Rhun replaces Brynn. | Rhun H. Ignis | Operation Paperclip; replacement psychology; successor myths; Black Tortoise Shell. |
+| 16 | Rhün must hold water. | Rhün H. Ignis / Stonewake | Atlantic convoys; water radiation shielding; flood myths; Feather of Ma’at. |
+| 17 | Rhün replaces Brynn. | Rhün H. Ignis | Operation Paperclip; replacement psychology; successor myths; Black Tortoise Shell. |
 | 18 | Addie completes the synthesis. | Adeshka H. Sonntag / Sonntag | Hiroshima deterrence; AI memory scale; Grail paradise; Holy Grail; final compassion synthesis. |
 
 ---
@@ -138,7 +140,7 @@ Use relative markdown where possible.
 
 | Planning Slot | Working Title | File | Status | Function | Scene Links |
 |---|---|---|---|---|---|
-| B14.090 | The Unwound Core | [master council beats](../scratchpad/14_09_the_unwound_core_beats.md); [Second Vision parse](../drafts/14_09_second_vision_parse.md) | Scratchpad expanded / draft parsed | Complete historical council meeting; canonical source conversation for Book 01 First Mirror adaptation. The Second Vision parse preserves the prose-derived full-memory lane, including the six-ark start state, consciousness-interface failure, Mother’s active simulation proposal, Noel’s watcher-seat origin, and twenty-four city-state architecture. Not prose yet. | B14-S090 through B14-S097 in [Scenes](./16_SCENES.md). |
+| B14.090 | The Unwound Core | [master council beats](../scratchpad/14_09_the_unwound_core_beats.md); [Second Vision parse](../drafts/14_09_second_vision_parse.md); [prose baseline](../chapters/17_00_the_original_architects.md) | Scratchpad expanded / draft parsed / prose baseline saved | Complete historical council meeting; canonical source conversation for Book 01 First Mirror adaptation. The Second Vision parse preserves the prose-derived full-memory lane, including the six-ark start state, consciousness-interface failure, Mother’s active simulation proposal, Noel’s watcher-seat origin, and twenty-four city-state architecture. Final placement may move later in the series. | B14-S090 through B14-S097 in [Scenes](./16_SCENES.md). |
 
 ---
 
@@ -149,15 +151,28 @@ Book 01 draft files are compiled in the order below. Draft filenames are stable 
 | Compile Slot | Draft ID | Title | File | Status | Notes / Crosslinks |
 |---|---|---|---|---|
 | B01.000 | 01_00 | Prologue — The Mother Who Started the War | [draft](../drafts/01_00_prologue.md) | Parsed | Establishes Mother, Brickett, number sequence, first act of war. See [Book 01 Chapter Outlines](./10_BOOK01_CHAPTER_OUTLINES.md), [Settings](./15_SETTINGS.md), and [Scenes](./16_SCENES.md). |
-| B01.010 | 01_01 | The Royal Astronomer’s Tower | [draft](../drafts/01_01_the_royal_astronomers_tower.md) | Parsed | Parent chapter with visible subchapters: The Zero-Variance Solstice; Factional Mistrust. Introduces Miriam, the purple beacon, Overseer, faction triangle, Moderator nomination crisis. Scene IDs B01-S010/B01-S011. |
-| B01.020 | 01_02 | The Nomination | [draft](../drafts/01_02_the_nomination.md) | Parsed | Parent chapter with visible subchapters: The Gale Exposition; With Kwame. Introduces Addie’s private life, hair clip / Mark of the Orbs, purple dispatch, and Kwame’s signed nomination reveal. Scene IDs B01-S020/B01-S021. |
-| B01.030 | 01_03 | The Witnesses | [draft](../drafts/01_03_the_witnesses.md) | Parsed | Standalone metaphysical parent chapter with visible subchapters: The Scene Between Stories; The Addendums; The Ballot; The First Shot. Mother’s shot is intentionally vague here; the consequence becomes readable after the Dear Reader interlude. Scene ID B01-S030. |
-| B01.035 | DR_01 | Interlude: The Choice to Do Nothing | [draft](../drafts/interludes/01_interlude_the_choice_to_do_nothing.md) | Prose saved | Dear Reader / WWII interlude from `embargo.md`. Uses the oil embargo parable to frame inaction as action, foreshadows Brickett’s “My life for you,” and exits back to Addie alone in Kwame’s office before Concord collects her. |
-| B01.040 | 01_04 | The Weight of the Beacon | [draft](../drafts/01_04_the_weight_of_the_beacon.md) | Parsed | Parent chapter folding old manuscript movements: The Weight of the Beacon; The Logic of the Unbelievable; Geometry and Mathematics. Introduces Tallandra’s detail, Boss/Barry, Brickett, the impossible brick, pawn-shop proof, and the Mark of the Orbs match. Scene IDs B01-S040/B01-S041/B01-S042. |
-| B01.050 | 01_05 | The Core of the Conjunction | [draft](../drafts/01_05_the_core_of_the_conjunction.md) | Parsed | Parent chapter folding old manuscript movements: The Core of the Conjunction; The Three Hundred Steps. Includes blue-beacon activation, public scrolls, Addie/Brickett slot reveal, Verrick/Ruin intervention, Aquila Matara arrival, protected Addie speech, silent applause, and cosmic beacon response. Scene IDs B01-S050/B01-S051/B01-S052. |
-| B01.060 | 01_06 | The Weight of the Roster | [draft](../drafts/01_06_the_weight_of_the_roster.md) | Parsed | Standalone Conclave chamber chapter. Reveals wall roster architecture, Mae’s Speaker role, Overseer/Dovren confrontation, scroll openings for Mae/Carrio/Rhün/Yurislav, power-transfer lockdown, Addie’s collection into the mirror, Gregory reveal, and Mae’s Brickett no-last-name question. Scene IDs B01-S060/B01-S061. |
-| B01.070 | 01_07 | The First Mirror | [draft](../drafts/01_07_the_first_mirror.md) | Parsed | Parent chapter folding old manuscript movements: The First Mirror; The Second Mirror; Return to Normal. Applies First Mirror obfuscation as a one-time trust-sensitive device, preserves second-mirror Dovren/symbol logic, gives Horror’s three-thread riddle, and returns Addie to Rhün / Mae’s Aquila Matara estate. Full historical source for the council meeting is [Book 14 scratchpad beats](../scratchpad/14_09_the_unwound_core_beats.md), with the late-series full-memory lane parsed in [Second Vision parse](../drafts/14_09_second_vision_parse.md). Scene IDs B01-S070 through B01-S076. Expanded council beats also saved separately at [expanded beats](../drafts/01_07_the_first_mirror_expanded_council_beats.md). |
-| B01.080 | 01_08 | The Weight of Being Asked | [draft](../drafts/01_08_the_weight_of_being_asked.md) | Parsed | Parent chapter folding old manuscript movements: The Weight of Being Asked; The Weight of What He Wouldn’t Give. Introduces Max and Mae’s household ethic, consolidates the companion table, reveals Matthieu, Brynn’s refused scroll, Luminthalas / Bountiful Harvest, the H-pattern, Law of Threes, Overseer suffering, Yurislav’s node question, and Brickett’s carrot-diagram roster logic. Scene IDs B01-S080/B01-S081/B01-S082. |
+| B01.010 | 01_01 | The Royal Astronomer’s Tower | [draft](../drafts/01_01_the_royal_astronomers_tower.md) | Parsed | Parent chapter with visible subchapters: The Zero-Variance Solstice; Factional Mistrust. Scene IDs B01-S010/B01-S011. |
+| B01.020 | 01_02 | The Nomination | [draft](../drafts/01_02_the_nomination.md) | Parsed | Addie’s private life away from **Qasr Siroth** on Skyrend Peak work travel, pendant / Mark, interrupted hair dye, eye-mail dispatch, and Kwame’s nomination reveal. Scene IDs B01-S020/B01-S021. |
+| B01.030 | 01_03 | The Witnesses | [draft](../drafts/01_03_the_witnesses.md) | Parsed | Witness assembly, addendums, ballot, and first shot. Scene ID B01-S030. |
+| B01.035 | DR_01 | Interlude: The Choice to Do Nothing | [draft](../drafts/interludes/01_interlude_the_choice_to_do_nothing.md) | Prose saved | Dear Reader / WWII oil-embargo interlude. |
+| B01.040 | 01_04 | The Weight of the Beacon | [draft](../drafts/01_04_the_weight_of_the_beacon.md) | Parsed | Concord extraction, Brickett rescue, impossible brick, pendant/clasp proof. Scene IDs B01-S040/B01-S041/B01-S042. |
+| B01.050 | 01_05 | The Core of the Conjunction | [draft](../drafts/01_05_the_core_of_the_conjunction.md) | Parsed | Blue-beacon activation, forced transfer, Three Hundred Steps speech, and cosmic applause. Scene IDs B01-S050/B01-S051/B01-S052. |
+| B01.060 | 01_06 | The Weight of the Roster | [draft](../drafts/01_06_the_weight_of_the_roster.md) | Parsed | Conclave roster, Mae’s Speaker role, scroll openings, Addie collected into mirror. Scene IDs B01-S060/B01-S061. |
+| B01.070 | 01_07 | The First Mirror | [draft](../drafts/01_07_the_first_mirror.md); [prose stub](../chapters/01_07_the_first_mirror.md) | Parsed + prose stub | First Mirror, Second Mirror, Horror’s riddle, and return to Rhün / Mae estate. Dedicated movement files: [council beats](../drafts/01_07_the_first_mirror_expanded_council_beats.md), [Second Mirror](../drafts/01_07_second_mirror_parse.md), [return/riddle](../drafts/01_07_return_to_witness_space_parse.md). Scene IDs B01-S070 through B01-S076. |
+| B01.080 | 01_08 | The Weight of Being Asked | [draft](../drafts/01_08_the_weight_of_being_asked.md) | Parsed | Mae estate dinner, Max, Gregory, Matthieu, Brynn refused scroll, H-pattern, Law of Threes, Luminthalas destination. Scene IDs B01-S080/B01-S081/B01-S082. |
+| B01.090 | 01_09 | Day One Architecture | [draft](../drafts/01_09_day_one_architecture.md) | Parsed | Morning after mirror/dinner; Addie bath/cyan hair reset; reporter invasion; field clothes; Mae honesty confrontation; three-team split; eye-mail contact setup; Brimscale/Ashwing departure; Mae royal-title reveal. Scene IDs B01-S090/B01-S091/B01-S092. |
+| B01.100 | 01_10 | Holes in the Wall | [draft](../drafts/01_10_holes_in_the_wall.md) | Parsed | First split-team field chapter; Brickett false-intervention beat; expanded research lanes for Team Two and Team One; lower Luminthalas queue, Carrio Mark recognition, Mae lack-of-Mark vulnerability, and Addie lunar-light cliffhanger. Scene IDs B01-S100 through B01-S104. |
+| B01.110 | 01_11 | The Bountiful Harvest | [draft](../drafts/01_11_the_bountiful_harvest.md) | Parsed | Resolves Addie’s lunar-light courtyard standoff, confirms Brynn H. Stonevein as ninth H-name, and moves Team Three toward the terminal / manor return. Scene ID B01-S110. |
+| B01.120 | 01_12 | The Unwound Core | [draft](../drafts/01_12_the_unwound_core.md) | Parsed | Manor-return synthesis: failed research lanes, Dovren disinformation broadcast, Yurislav loyalty complication, Mark-of-the-Orbs paternal heirloom comparison, three-moon channeling concern, and folklore/Ariadne’s Thread pivot. Scene ID B01-S120. |
+| B01.130 | 01_13 | The Thread Back Out | [draft](../drafts/01_13_the_thread_back_out.md) | Parsed | Barnaby explains Ariadne’s Thread as tailor culture and survival logic; Brynn adds the comma that changes Horror’s riddle to “horned, dead charge.” Scene ID B01-S130. |
+
+## Book 01 Current Frontier
+
+Next expected planning/prose target:
+
+- **B01.140 / next title TBD** — interpret **horned, dead charge**, identify the next mission route, and move from manor-room puzzle solving back toward field action.
+
+---
 
 ## Book 01 Protected Narrative Fragments
 

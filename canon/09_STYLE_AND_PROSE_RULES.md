@@ -11,6 +11,7 @@ This file defines drafting behavior for `Echoes of Eidolon` manuscripts.
 - Dialogue should carry conflict, concealment, pressure, or relationship movement.
 - Avoid making Witness scenes generic boss fights.
 - Avoid over-explaining mysteries before their reveal window.
+- Preserve recurring character habits from [`17_CHARACTER_GESTURE_SIGNALS.md`](./17_CHARACTER_GESTURE_SIGNALS.md) as reader-training signals, not decorative filler.
 
 ## Chapter Reconstruction Rules
 
@@ -46,6 +47,30 @@ They should:
 - return clearly to Eidolon;
 - include a comedic, cutting, or emotionally clarifying exit;
 - avoid becoming detached essays.
+
+## Character Gesture / Signal Rule
+
+Recurring habits are part of the prose signal system.
+
+Use them to train the reader to notice when something has changed internally without explaining every thought.
+
+Examples:
+
+- Addie changes / adjusts hair color as a control ritual and touches or checks her simple silver pendant when mother / Mark / grief pressure surfaces.
+- Gregory fidgets with his bracelet and wears spectacles he does not need.
+- Mae flips or catches her coin; when she stops, she has likely decided something.
+- Yurislav rolls / dances a coin across his knuckles; when it goes still, he is likely about to choose.
+- Brickett is fidgety, wants to cast fireball, and repeats false-heroic “My life for you!” interventions every two to three chapters when pacing allows.
+- Matthieu doodles diagrams or calculations on available surfaces.
+- Major Tallandra scans rooms with avian precision; when she goes still, she has found danger or made a tactical choice.
+
+## Eye-Mail Rule
+
+Use **eye-mail** for magical-bureaucratic messages and inter-team contact.
+
+Eye-mail means “for your eyes only.” Messages are keyed to a recipient and may be routed through a hotel, guildhall, reception desk, or civic system, but the delivery logic seeks the intended recipient’s eyes / identity.
+
+Avoid generic “communicator token” language unless a later scene explicitly creates a specialized object, and even then it should be framed as an eye-mail key / seal / relay object rather than modern communication tech.
 
 ## First Mirror Obfuscation Rule
 

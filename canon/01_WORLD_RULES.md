@@ -16,6 +16,14 @@ Use the Visual Bible for image-derived palette, staging, institutional mood, and
 - The Meridian Accord is a guild, specifically Addie's guild, not the nation itself.
 - Regional identities, city cultures, and faction pressures still matter, but they do not override the one-nation rule.
 
+## Addie Origin / Qasr Siroth Lock
+
+- **Adeshka “Addie” H. Sonntag is from Qasr Siroth.**
+- Skyrend Peak is her Book 1 starting location because she is there for the Gale Exposition / Meridian Accord work travel when the purple beacon crisis begins.
+- Do not write Skyrend Peak as Addie’s home city, native city, or origin city unless explicitly referring to a temporary professional base.
+- This origin correction should be preserved for the Book 1 allegiance-chain / faction-assignment pass.
+- Qasr Siroth is the Human city and current capital of the Saffron Locks triad in the founding-triad structure.
+
 ## Naming Structure
 
 Eidolon formal names normally use:
@@ -158,61 +166,3 @@ Historical exception:
 - Once the damaged/destroyed/cannibalized state matters to the reader, only four ships should be visible as functional ships.
 
 | Ship | Later Status |
-|---|---|
-| Michael | Active |
-| Raphael | Cannibalized |
-| Gabriel | Active |
-| Uriel | Active |
-| Azrael | Destroyed |
-| Lucifer | Disabled / Captured |
-
-Use **Michael, Raphael, Gabriel, and Uriel** as the visible named ships after the loss-state matters. Do not show Azrael or Lucifer as visible functional ships after that point unless a later correction explicitly changes this.
-
-## City Board Rules
-
-- Cities use a 25-seat tactical map.
-- There are 5 sections, each with 5 districts.
-- District 13 is the central Seat of Power.
-- Each district connects to exactly 3 districts except District 13, which has 4 connections.
-- Section breaks and gates matter for tactical chapter logic.
-
-## Technology Profile
-
-Allowed technology:
-
-- sophisticated masonry
-- heavy timber
-- ironwork
-- bronze mechanisms
-- cranes
-- aqueducts
-- water power
-- wind power
-- mechanical clocks
-- early stationary steam engines
-- steam boilers
-- counterweight lifts
-- multi-story masonry buildings
-
-Disallowed technology:
-
-- internal combustion
-- automobiles
-- aircraft
-- electricity
-- electronics
-- computers
-- plastics
-- reinforced concrete
-- steel-frame skyscrapers
-- modern infrastructure
-- modern utilities
-- contemporary planning
-
-## Mother / System Rules
-
-- Mother is not omnipotent or omniscient.
-- Mother can be wrong.
-- Mother’s control is limited because free will matters.
-- If an omnipotent / omniscient being exists, that role belongs to God, not Mother.
-- Mother constructed Eidolon and the Conjunction system, but cannot simply force humanity into the correct outcome without destroying the moral premise of the story.

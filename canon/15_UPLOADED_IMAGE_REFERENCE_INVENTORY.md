@@ -1,6 +1,6 @@
 # Uploaded Image Reference Inventory
 
-This file records the uploaded image-reference files visible in the working image pass.
+This file records uploaded image-reference files visible in the working image pass.
 
 It does **not** store image binaries. It records filenames, intended identity/read, and canon handling notes so the image pass is auditable later.
 
@@ -9,10 +9,11 @@ Crosslinks:
 - [Characters](./05_CHARACTERS.md)
 - [Visual Bible — Image Pass Notes](./14_VISUAL_BIBLE_IMAGE_PASS.md)
 - [Architect / Witness Character Index](./13_ARCHITECT_WITNESS_CHARACTER_INDEX.md)
+- [Image Upload Register](./15_IMAGE_UPLOAD_REGISTER.md)
 
 ## Inventory Rules
 
-- Filenames preserve the uploaded/runtime asset names, including typos.
+- Filenames preserve uploaded/runtime asset names, including typos.
 - Filename text is not canon unless confirmed elsewhere.
 - Visible text inside generated images is noncanonical unless manually locked.
 - Images may establish palette, silhouette, object language, mood, staging, and contrast logic.
@@ -22,6 +23,23 @@ Crosslinks:
 ## Current Image Count
 
 Current runtime inventory reviewed here: **68 image files**.
+
+---
+
+# Current Architect Name Corrections
+
+Use this mapping for all Architect-form image filenames, even when old filenames or old labels survive in image assets:
+
+| Row | Witness | Role | Current Architect | Status |
+|---:|---|---|---|---|
+| 4 | Stone | Preservationist | **Wenliang Jun Chen** | Chinese / Mandarin-academic; replaces Magnus Evren Korr. |
+| 5 | Mercy | Surgeon | **Meera Anjali Krishnamurthy** | Madras Tamil / Indian medical-academic; replaces Mireya Celeste Navarro. |
+| 13 | Omen / Foresight | Mathematician / Helix Probability | **Ji-hoon Min Park** | Korean / East Asian; replaces Elias Victor Moreau. |
+| 15 | Tempest | Terraformer | **Kaelen Darius Veyr** | Restored; Polynesian-Pacific hybrid. |
+
+Meera Anjali Krishnamurthy is not related to José Mateo Navarro.
+
+Formal/canon references use **Hans Halcyon Hohenzollern**.
 
 ---
 
@@ -38,20 +56,20 @@ Current runtime inventory reviewed here: **68 image files**.
 
 | Filename | Intended / Read Identity | Canon Handling |
 |---|---|---|
-| `adheska_h_sonntag.png` | Adeshka “Addie” H. Sonntag | Alternate Addie visual mode: green robe, staff, moon/sky symbols, night garden. Does not replace silver hair clip / Mark. Filename spelling differs from locked **Adeshka**. |
-| `ashwing.png` | Ashwing | Volcanic flying dragon. Keep distinct from Brimscale and Rhun mount imagery. |
+| `adheska_h_sonntag.png` | Adeshka “Addie” H. Sonntag | Alternate Addie visual mode. Filename spelling differs from locked **Adeshka**. |
+| `ashwing.png` | Ashwing | Volcanic flying dragon. Keep distinct from Brimscale. |
 | `bricket.png` | Brickett H. | Strong Brickett visual. Filename typo must not override **Brickett** spelling. |
 | `brimscale.png` | Brimscale | Low-bodied lava drake mount / beast-of-war reference. |
-| `brynn_h_stonevain.png` | Brynn H. Stonevein / Stonevain | Strong dwarf artisan-warrior reference. Confirm Stonevein vs Stonevain spelling. Brynn’s phonetic accent exception belongs in `05_CHARACTERS.md`. |
+| `brynn_h_stonevain.png` | Brynn H. Stonevein / Stonevain | Strong dwarf artisan-warrior reference. Confirm Stonevein vs Stonevain spelling. |
 | `carrio_h_vessalor.png` | Carrio H. Vessalor | Public court-mask mode. |
 | `carrio_h_vessalor_2.png` | Carrio H. Vessalor | Private strategist mode. |
-| `choleth_s_sevarian.png` | High Theologian Choleth S. Sevarian | White tiger Concord theologian image. Conflicts with earlier lion-coded Choleth; keep as candidate until resolved. |
+| `choleth_s_sevarian.png` | High Theologian Choleth S. Sevarian | White tiger image conflicts with earlier lion-coded Choleth; keep candidate until resolved. |
 | `cpt_talandra_h_highwatch.png` | Major Tallandra H. Highwatch | Useful visual, but source text/rank/name are wrong. Canon: **Major Tallandra H. Highwatch**. |
 | `tallandra.png` | Major Tallandra H. Highwatch | Cleaner Tallandra visual candidate without wrong banner text. |
-| `geoffrik_t_vayne.png` | Geoffrik T. Vayne | Horned decadent courtier reference. Keep distinct from Max. |
-| `gregory_h_frydrake.png` | Gregory H. Frydrake candidate | Draconic/reptilian priest-scholar image conflicts with Gregory as human unless canon revises. Treat as candidate/reference only. |
+| `geoffrik_t_vayne.png` | Geoffrik T. Vayne | Horned courtier reference. Keep distinct from Max. |
+| `gregory_h_frydrake.png` | Gregory H. Frydrake candidate | Draconic/reptilian priest-scholar image conflicts with Gregory as human unless canon revises. |
 | `hans_halcyon_hohenzollern.png` | Hans Halcyon Hohenzollern | Strong old-world patron/funder reference with continuity aura. |
-| `mae'vyri_h_van'kareth.png` | Mae’vyri H. Van’kareth | Strong dark-elf noble/assassin/domestic-intimacy reference. Does not reduce Mae to cooking. |
+| `mae'vyri_h_van'kareth.png` | Mae’vyri H. Van’kareth | Strong dark-elf noble/business/private-care reference. |
 | `mattieu_h_cardinal.png` | High Theorimist Mattieu H. Cardinal | Strong celestial theorist / animal-spirit tension reference. |
 | `max.png` | Max | Household steward reference. Separate from Geoffrik by warmth and function. |
 | `noel_smukk.png` | Noel Smukk | Strong non-Witness pressure-figure reference. Noel is not one of the 18 council seats. |
@@ -61,9 +79,9 @@ Current runtime inventory reviewed here: **68 image files**.
 | `roslin_l_hearthstone.png` | Roslin L. Hearthstone | Warm kitchen/hearth-support figure; role requires final lock if recurring. |
 | `selura_m_vey.png` | Selura M. Vey | Turtle/tortoise ambassador/diplomat visual; role requires final lock if recurring. |
 | `t_t_hallowmere.png` | T. T. Hallowmere | Frog/toad cleric-scholar visual; role requires final lock if recurring. |
-| `tikket_z_varn.png` | Tikket Z. Varn | Excellent office-side assistant / civic records clerk reference. |
-| `vajra-l-korin.png` | Vajra-L-Korin | Large construct/monastic visual with South Asian/Himalayan-coded motifs; use respectfully and lock role before prose use. |
-| `verrik_b_nackle.png` | Verrick B. Knackle | Strong Venom-Blades operative reference. Filename differs from locked **Verrick B. Knackle** spelling. |
+| `tikket_z_varn.png` | Tikket Z. Varn | Office-side assistant / civic records clerk reference. |
+| `vajra-l-korin.png` | Vajra-L-Korin | Construct/monastic visual; use respectfully and lock role before prose use. |
+| `verrik_b_nackle.png` | Verrick B. Knackle | Filename differs from locked **Verrick B. Knackle** spelling. |
 | `yurislav_h_arslan.png` | Yurislav H. Arslan | Strong bearfolk warrior reference. |
 
 ---
@@ -73,15 +91,15 @@ Current runtime inventory reviewed here: **68 image files**.
 | Filename | Intended / Read Identity | Canon Handling |
 |---|---|---|
 | `high_soverign_dovren_I.png` | Dovren I / first High Sovereign reign | Red-gold-black imperial court visual. Filename typo does not affect canon spelling **Sovereign**. |
-| `high_soverign_dovren_LXX.png` | Dovren LXX / late-line Dovren candidate | Late-dynasty decay / aged ruler reference. Keep repeated-name rule: Dovren Judax Thorne distinguished by regnal number. |
+| `high_soverign_dovren_LXX.png` | Dovren LXX / late-line Dovren candidate | Late-dynasty decline / aged ruler reference. Keep repeated-name rule: Dovren Judax Thorne distinguished by regnal number. |
 
 ---
 
 # Architect / Human Council Form Images
 
-These files are named by later Witness identity but depict human / pre-Witness Architect forms.
+These files are named by later Witness identity but depict human / pre-Witness council forms.
 
-| Filename | Architect / Council Member | Canon Handling |
+| Filename | Current Architect / Council Member | Canon Handling |
 |---|---|---|
 | `ash_architect.png` | Solomon Elias Ward | Strongest Solomon council anchor; supports Ash human-face recognition. |
 | `bastion_architect.png` | Gideon Luca Mercer | Add logistics cues: routes, supply, warehouses, medicine, water. |
@@ -92,12 +110,12 @@ These files are named by later Witness identity but depict human / pre-Witness A
 | `hearth_architect.png` | Matteo Cesar Orlov | Add grain, kitchens, water, cisterns, ration ledgers. |
 | `horror_architect.png` | José Mateo Navarro | Strong operational-support reference; should carry logistics and human cost. |
 | `lanterns_architect.png` | Noa Isabel Marrow | Strong education / knowledge-transmission reference. |
-| `mercy_architect.png` | Mireya Celeste Navarro | Add surgeon cues: hands, tools, anatomy, triage ethics. |
+| `mercy_architect.png` | Meera Anjali Krishnamurthy | Add South Indian medical-ethics cues: hands, tools, anatomy, triage notes. |
 | `meridian_architect.png` | Aurelius Simon Thorne | Add memory-system / code-lattice / checksum motifs. |
-| `omen_architect.png` | Elias Victor Moreau | Add branching futures, cracked star charts, probability spirals. |
+| `omen_architect.png` | Ji-hoon Min Park | Add Korean probability-theory cues: branching futures, cracked star charts, probability spirals. |
 | `revel_architect.png` | Franklin Emmett Vale / Recovery seat | Add morale/recovery cues: blossom, festival plan, theater token, music. |
 | `sand_architect.png` | Idris Malik Omari | Add named ledgers, culture maps, drums, tablets. |
-| `stone_architect.png` | Magnus Evren Korr | Add artifacts, crates, heritage objects. |
+| `stone_architect.png` | Wenliang Jun Chen | Add Chinese preservation cues: scroll cases, bronze rubbings, carved stone seals, porcelain fragments. |
 | `tempest_architect.png` | Kaelen Darius Veyr | Strong terraforming/ecological reconstruction reference. |
 | `tides_architect.png` | Soren Emilio Maren | Add marine biology, migration, current-lines. |
 | `veils_architect.png` | Alessandra Bianca Valenti | Add helix, lineage charts, mirrors, genetic tablets. |
@@ -106,7 +124,7 @@ These files are named by later Witness identity but depict human / pre-Witness A
 
 # Actual Witness Images
 
-These files depict the mythic/spectral Witness forms rather than the First Mirror human council forms.
+These files depict mythic/spectral Witness forms rather than the First Mirror human council forms.
 
 | Filename | Witness | Canon Handling |
 |---|---|---|
@@ -118,7 +136,7 @@ These files depict the mythic/spectral Witness forms rather than the First Mirro
 | `echoes_witness.png` | Echoes | Strong golden raven archivist reference. |
 | `harvest_witness.png` | Harvest | White/golden stag reference; add trauma layer if needed. |
 | `hearth_witness.png` | Hearth | Red boar banquet reference; add emptiness/absence layer if needed. |
-| `horror_witness.png` | Horror / Regret | Arachne silhouette is strong; emotional direction should emphasize route failure, ledgers, thread, and regret. Witness lisp is phonetic-default in dialogue per `05_CHARACTERS.md`. |
+| `horror_witness.png` | Horror / Regret | Arachne silhouette is strong; emotional direction should emphasize route failure, ledgers, thread, and regret. |
 | `lanterns_witness.png` | Lanterns | Strong moth-lantern keeper reference. |
 | `mercy_witness.png` | Mercy | Goblin/alchemist-surgeon reference; keep tragic rather than gleeful. |
 | `meridian_witness.png` | Meridian | Red/blue minotaur with scroll; add memory lattice / cipher cues. |
@@ -166,15 +184,14 @@ These files depict the mythic/spectral Witness forms rather than the First Mirro
 
 - `horror_architect.png` establishes José’s human operational grief.
 - `horror_witness.png` establishes Arachne silhouette, but needs stronger route/thread/regret object language.
-- Dialogue rule: Horror / Regret’s Witness lisp is phonetic-default; José’s human voice is not.
 
 ---
 
 # High-Priority Inventory Follow-Ups
 
-1. Confirm whether **Brynn H. Stonevein** or **Brynn H. Stonevain** is final spelling. Current uploaded filename uses `stonevain`; prior canon uses `Stonevein` in some places.
+1. Confirm whether **Brynn H. Stonevein** or **Brynn H. Stonevain** is final spelling.
 2. Confirm **Gregory** human vs draconic/reptilian visual direction.
 3. Confirm **Choleth** lion vs white tiger visual direction.
 4. Assign / lock roles for `roslin_l_hearthstone.png`, `selura_m_vey.png`, `t_t_hallowmere.png`, and `vajra-l-korin.png` if they are recurring characters.
-5. Preserve file-name typo notes for `bricket.png`, `cpt_talandra_h_highwatch.png`, `verrik_b_nackle.png`, and `high_soverign_*` without letting them corrupt canon spelling.
+5. Preserve filename typo notes for `bricket.png`, `cpt_talandra_h_highwatch.png`, `verrik_b_nackle.png`, and `high_soverign_*` without letting them corrupt canon spelling.
 6. Build better Horror / Regret direction from `horror_architect.png` + `horror_witness.png`: route failure, ledgers, thread, and regret.

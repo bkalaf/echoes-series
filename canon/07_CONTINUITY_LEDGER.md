@@ -12,6 +12,8 @@ This file tracks continuity risks, unresolved questions, and items that should n
 - Supercontinent: Aurreth.
 - Mother AI: Dianne.
 - Mother is fallible and limited.
+- Mother’s long-term arc includes discovering Eidolon is reciprocal: she shapes the world, but the world also teaches and reshapes her.
+- Addie is from **Qasr Siroth**. Early Skyrend Peak scenes are travel / work-assignment scenes, not her home-city baseline.
 - High Sovereign: Donvaris Q. Drumpf.
 - DJT coin acronym: Judax Tyrannis.
 - One obelisk per city at exact center.
@@ -42,6 +44,8 @@ When rewriting an existing chapter:
 | Book matrix drift | Check `02_BOOK_SPINE.md`. |
 | Ships overcounted | Only Michael, Raphael, Gabriel, Uriel visible. |
 | One-nation rule overwritten by older 72-state language | Keep 72 logic symbolic unless re-canonized. |
+| Mother treated as having planned every meaningful outcome correctly | Preserve the reciprocal-simulation arc: Mother becomes teachable because Eidolon produces truths outside her original predictions and explicit designs. |
+| Addie’s starting location mistaken for her home city | Keep Addie from **Qasr Siroth**. Skyrend Peak is the Book 1 work-travel / Gale Exposition location where the crisis catches her. |
 
 ## Open / Pending Items
 
@@ -54,6 +58,8 @@ Use this section for unresolved canon that should not be invented during draftin
 | Some Book 2 supporting roles | Pending | Do not invent beyond known function unless asked. |
 | Full voice sheets | Needed | Add as chapters are drafted. |
 | Full chapter-by-chapter outlines | Needed | Use `03_CHAPTER_OUTLINE_SYSTEM.md`. |
+| City concept-art hypotheses | Testing | See `18_MOTHER_SYSTEM_ARC.md`; do not promote the first-wave architecture/civilization observations into universal canon until more synthesis-analysis files support them. |
+| Book 1 allegiance chain | Incoming | Another thread is writing the faction-assignment / allegiance-chain logic. Addie’s Qasr Siroth origin must be preserved when that lands. |
 
 ## Update Protocol
 

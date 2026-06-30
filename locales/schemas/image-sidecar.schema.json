@@ -1,0 +1,170 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://echoes-of-eidolon.local/schemas/image-sidecar.schema.json",
+  "title": "Echoes of Eidolon Locale Image Sidecar",
+  "description": "Flat intended-metadata sidecar that lives next to one concept-art image in /locales/images. This file records the generator/app intent for camera, view, anchors, prompt lineage, and consumption notes. The sidecar is authority for intended anchors; image parsing records observed deviations separately.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "cityCode",
+    "cityName",
+    "viewCode",
+    "version",
+    "imagePath",
+    "metadataPath",
+    "promptRecordKey",
+    "promptVersion",
+    "promptSourceHash",
+    "generatedAt",
+    "camera",
+    "visibleSections",
+    "canonicalAnchors",
+    "consumptionNotes"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "type": "integer",
+      "const": 1
+    },
+    "cityCode": {
+      "type": "string",
+      "pattern": "^[A-Z]{3}$",
+      "description": "Three-letter city code, such as AQM, LUM, or NVR."
+    },
+    "cityName": {
+      "type": "string",
+      "minLength": 1
+    },
+    "viewCode": {
+      "type": "string",
+      "pattern": "^[A-Z0-9]+(?:-[A-Z0-9]+)*$",
+      "description": "Camera/view code without the city code or version, e.g. HERO-NW."
+    },
+    "version": {
+      "type": "integer",
+      "minimum": 1,
+      "description": "Integer version number used in the vNNN basename suffix."
+    },
+    "imagePath": {
+      "type": "string",
+      "pattern": "^/locales/images/[A-Z]{3}-[A-Z0-9]+(?:-[A-Z0-9]+)*-v[0-9]{3}\\.(png|jpg|jpeg|webp)$"
+    },
+    "metadataPath": {
+      "type": "string",
+      "pattern": "^/locales/images/[A-Z]{3}-[A-Z0-9]+(?:-[A-Z0-9]+)*-v[0-9]{3}\\.json$",
+      "description": "Same-basename JSON sidecar path for the image."
+    },
+    "promptRecordKey": {
+      "type": "string",
+      "pattern": "^[A-Z]{3}-[A-Z0-9]+(?:-[A-Z0-9]+)*$",
+      "description": "Stable prompt record key without version suffix, e.g. AQM-HERO-NW."
+    },
+    "promptVersion": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "promptSourceHash": {
+      "type": "string",
+      "pattern": "^[A-Fa-f0-9]{8,64}$"
+    },
+    "generatedAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "camera": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "viewType",
+        "origin",
+        "target",
+        "oppositeSide"
+      ],
+      "properties": {
+        "viewType": {
+          "type": "string",
+          "description": "Intended view type, e.g. hero, street, district, landmark, approach, interior, cutaway."
+        },
+        "origin": {
+          "type": "string",
+          "description": "Intended camera origin, e.g. northwest."
+        },
+        "target": {
+          "type": "string",
+          "description": "Intended camera target / focal aim."
+        },
+        "oppositeSide": {
+          "type": "string",
+          "description": "Opposite city side from the camera origin."
+        }
+      }
+    },
+    "visibleSections": {
+      "type": "array",
+      "items": {
+        "type": "integer",
+        "minimum": 1,
+        "maximum": 5
+      },
+      "uniqueItems": true,
+      "description": "City sections intended to be visible in this image."
+    },
+    "canonicalAnchors": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "key",
+          "assetId",
+          "name",
+          "type",
+          "role",
+          "promptDescription"
+        ],
+        "properties": {
+          "key": {
+            "type": "string",
+            "description": "Semantic anchor key, e.g. seatOfPower, beacon, wonder, secondaryMajorLandmark."
+          },
+          "assetId": {
+            "type": "string",
+            "pattern": "^[A-Z]{3}_[A-Z0-9_]+$"
+          },
+          "name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "type": {
+            "type": "string",
+            "description": "Anchor asset type, e.g. CITADEL, MAJOR_LANDMARK, WONDER."
+          },
+          "sectionNumber": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 5,
+            "description": "Section number when the anchor is tied to a specific city section."
+          },
+          "role": {
+            "type": "string",
+            "minLength": 1
+          },
+          "promptDescription": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      },
+      "description": "Intended canonical anchors. Do not overwrite these based on image interpretation."
+    },
+    "consumptionNotes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Instructions for the parser consuming the matching image and sidecar."
+    }
+  }
+}

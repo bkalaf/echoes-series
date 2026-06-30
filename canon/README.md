@@ -18,6 +18,8 @@ The current goal is not only to preserve world canon, but also to make chapter c
 - `09_STYLE_AND_PROSE_RULES.md` — prose and drafting rules.
 - `14_VISUAL_BIBLE_IMAGE_PASS.md` — synthesized visual-reference layer for characters, settings, Witnesses, constellations, and symbolic object language. This file does not replace character/world/reward canon; it links into those sections.
 - `15_IMAGE_UPLOAD_REGISTER.md` — comprehensive ledger of every uploaded image batch so visual references are not lost or reduced to only the highlighted examples.
+- `17_CHARACTER_GESTURE_SIGNALS.md` — recurring physical habits, fidgets, eye-mail communication rules, Addie pendant authority, and reader-signal behavior.
+- `18_MOTHER_SYSTEM_ARC.md` — Mother / Dianne’s long-term system-character arc, including the reciprocal-simulation realization and concept-art-derived city-analysis hypotheses.
 
 ## Top Rule
 
