@@ -19,7 +19,7 @@ Do not solve a downstream issue by dropping a foundational requirement. If a new
 
 ## User-Edit Protection Rule
 
-When the user has explicitly changed a name, object, relationship, rank, or structural assignment, do **not** silently revert it.
+When the user has explicitly changed a name, object, relationship, rank, origin city, faction assignment, or structural assignment, do **not** silently revert it.
 
 If a later edit appears to conflict with that change, ask for explicit confirmation before reverting.
 
@@ -36,6 +36,7 @@ These terms may appear in older material and should be replaced unless a scene i
 | Talandra | Tallandra. |
 | Captain Tallandra / Captain Talandra | Major Tallandra H. Highwatch. |
 | Addie silver hair clip / barrette / berette as heirloom | Simple silver pendant necklace bearing the Mark of the Orbs. |
+| Addie as native to / from Skyrend Peak | Addie is from **Qasr Siroth**. Skyrend Peak is where Book 1 catches her during Gale Exposition / Meridian Accord work travel. |
 | iMail / communicator token / communication token | eye-mail. |
 | 72 sovereign states | One nation with city-states / regional civic units. |
 | Nation = Meridian Accord | Meridian Accord is a guild / accord structure, not the nation. |
@@ -53,6 +54,7 @@ Before accepting a new canon update or chapter draft, verify:
 - Beacon cities and phase colors are preserved.
 - Ship status is not overwritten.
 - One-nation / city-state structure is preserved.
+- Addie is from **Qasr Siroth**, not Skyrend Peak.
 - Addie’s heirloom is the pendant, not the old hair clip version.
 - Eye-mail replaces communicator-token language.
 - Recurring character gesture signals are preserved when pacing allows.
