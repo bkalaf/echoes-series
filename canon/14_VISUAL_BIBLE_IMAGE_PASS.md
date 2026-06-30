@@ -48,6 +48,29 @@ Addie’s hair-color image remains useful for her self-fashioning habit:
 
 ---
 
+# Brickett Visual Authority Update
+
+Brickett H. is now a **14-year-old beaver beastfolk**, not a raccoon.
+
+Use the regenerated beaver concept-art direction as current visual authority:
+
+- small, scrappy, dirty, underfed, homeless beaver boy;
+- damp brown fur;
+- broad flat beaver tail;
+- rounded ears;
+- large front teeth;
+- clever anxious eyes;
+- patched oversized coat, frayed trousers, fingerless gloves, worn boots, battered satchel, rolled blanket;
+- muddy / smoky / travel-worn clothing;
+- singed patches, soot, burns, and smoke from failed fire magic;
+- unstable self-taught fireball attempts.
+
+Do **not** use raccoon mask, ringed tail, raccoon markings, Rocket-like silhouette, sci-fi armor, guns, or superhero styling.
+
+The old raccoon street-mage image is superseded for species and silhouette, but the emotional read remains useful: frightened/helpful chaos, street orphan, desperate to matter.
+
+---
+
 # Source Batches
 
 The image pass combines these uploaded visual groups:
@@ -168,7 +191,7 @@ Book 01 story images define public-history and civic-myth language:
 | Image / Character | Visual Read | Notes / Decisions |
 |---|---|---|
 | Ashwing | Volcanic dragon, basalt scales, lava fissures, huge wings. | Apex dragon; distinct from Brimscale. |
-| Brickett | Young raccoon street-mage, ragged cloak, frightened/helpful chaos. | Strong; preserve spelling Brickett. |
+| Brickett | Young beaver street-mage, ragged cloak, battered satchel, broad flat tail, big teeth, damp fur, soot, singed patches, unstable fireball. | Current canon. Old raccoon image/silhouette superseded; preserve frightened/helpful chaos and spelling Brickett. |
 | Brimscale | Low-bodied lava drake mount. | War-beast / mount silhouette. |
 | Brynn | Broad dwarf woman with mountain gear and braided gray hair. | Strong artisan/warrior noble energy. |
 | Carrio public mode | Luxurious serpent courtier in purple/gold. | Public performance mask. |
