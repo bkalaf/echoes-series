@@ -53,7 +53,7 @@ Immediately after `The Weight of the Beacon`, beginning in the Skyrend Peak pawn
 - Major Tallandra H. Highwatch.
 - Lieutenant Barry C. Bristleback, boar-kin Concord guard.
 - Lieutenant Boss R. Grizzlepelt, bear-kin Concord guard.
-- Brickett H., fourteen-year-old raccoon-kin orphan / personal attaché.
+- Brickett H., fourteen-year-old beaver-kin orphan / personal attaché.
 - Officer Rennick T. Quickreed, jackrabbit-kin Concord relay officer.
 - Verrick B. Knackle, gnome Ruin operative and Venom-Blade member.
 - Ruin mages on carpets.
@@ -70,6 +70,8 @@ Immediately after `The Weight of the Beacon`, beginning in the Skyrend Peak pawn
 - **Tallandra** is the correct spelling. Mnemonic: she is tall.
 - Tallandra’s rank is **Major**, not Captain.
 - Brickett’s locked age is fourteen.
+- Brickett is a beaver-kin child, not raccoon-kin.
+- Brickett’s fire obsession should remain visible through soot, singed fur, smoky paws, and over-eager fire-mage attempts.
 - Portalport / Portal Port spelling should be standardized before prose lock.
 - Verrick’s full name is **Verrick B. Knackle**.
 - **Venom-Blade is not Verrick’s surname.** The Venom-Blades are a secret Ruin faction organization mostly known for assassinations. Verrick and Lady Mae are both members.
@@ -82,6 +84,7 @@ Immediately after `The Weight of the Beacon`, beginning in the Skyrend Peak pawn
 ## Required Objects / Systems
 - Addie’s simple silver pendant / Mark of the Orbs.
 - Brickett’s leather pack / matching clasp.
+- Brickett’s soot, singed beaver fur, broad flat tail, and unstable fire-mage tick.
 - H&H pellet.
 - Blue beacon timing.
 - Hour of the Sphinx moving toward Singularity.
@@ -108,6 +111,8 @@ Yes. Preserve the full public escalation, the blue-beacon rule reveal, Brickett 
 - Fold the two manuscript headings into one parent chapter.
 - Preserve Tallandra spelling and Major rank.
 - Preserve Brickett’s age as fourteen.
+- Standardize Brickett as beaver-kin, not raccoon-kin.
+- Keep Brickett’s fire-mage obsession visible through backfire-prone attempts or visual scorch continuity.
 - Standardize guard names from character canon.
 - Treat Addie’s speech as a protected insert rather than rewriting it.
 - Correct Verrick to Verrick B. Knackle and treat Venom-Blade as organizational affiliation.
@@ -181,7 +186,7 @@ Move from private realization to public system activation. The scrolls appear, B
 ## Beat-by-Beat Skeleton
 1. The escort exits the pawn shop into Skyrend streets.
 2. The crowd has worsened, and reporters are now present.
-3. Questions hit Addie immediately: why the flame is purple, what she knows about the addendum, why the High Sovereign’s guard is escorting a Schism historian, who the raccoon is.
+3. Questions hit Addie immediately: why the flame is purple, what she knows about the addendum, why the High Sovereign’s guard is escorting a Schism historian, who the beaver is.
 4. Addie wants answers herself and keeps moving.
 5. At the first chime of Singularity, the earth trembles.
 6. Trumpets sound from the city foundations rather than ordinary instruments.
@@ -192,7 +197,7 @@ Move from private realization to public system activation. The scrolls appear, B
 11. Crimson wax seals catch fire without consuming the vellum.
 12. Scrolls unfurl simultaneously.
 13. Barry and Boss lift Addie and sprint toward Portalport.
-14. Tallandra carries Brickett by the scruff to keep his smell away from her armor.
+14. Tallandra carries Brickett by the scruff / coat to keep his wet-fur-and-smoke smell away from her armor.
 15. Brickett enjoys the velocity and yells nonsense.
 16. Addie orders Brickett to read the scroll aloud.
 17. Brickett reads the announcement: final multi-Conjunction cycle before reunification.
@@ -396,6 +401,9 @@ Addie enters the Conclave physically depleted but politically transformed. The p
 
 ## Continuity Notes
 - This chapter is the first large public proof that Addie’s honesty can move crowds without commanding them.
+- Brickett is a 14-year-old beaver beastfolk, not a raccoon.
+- Brickett’s Kindlemask birthday is fire/kindling irony around a beaver child obsessed with flame.
+- Brickett’s fire-mage tick should be visible through soot, smoke, singed fur, or little backfires when pacing allows.
 - The speech should not make Addie sound polished in the usual political sense. Its power comes from precision, moral courage, and refusing false certainty.
 - The silent applause is stronger than ordinary cheering because it shows cross-species civic recognition.
 - The Titanborn moment matters because the beacon responds to the crowd’s first nonverbal public trust gesture.
