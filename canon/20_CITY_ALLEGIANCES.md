@@ -27,21 +27,25 @@ This file locks the **Book 1 faction map** after the 24 founding city-states hav
 - **Dunmere Locks starts in Schism.**
 - **Nettleburrow starts in Ruin.**
 - **Pollyr Fen shifts from Concord to Schism in Book 2.**
+- **Book 3 preserves Concord's visible gain while giving Ruin a meaningful positive change: Vyrath'Kai shifts from Concord to Ruin.**
 - **Bloodreef / Sharkfolk shifts from Ruin to Concord in Book 3.**
 - **Oss Veyr / Lich shifts from Ruin to Concord in Book 3.**
-- **Vharos shifts from Schism to Ruin in Book 3.**
-- **Aes Sidhal shifts from Schism to Ruin in Book 3.**
-- **Qasr Siroth shifts from Schism to Ruin in Book 3, then returns to Schism in Book 4.**
-- **Khembal is specifically South African.**
-- **Qasr Siroth is North African.**
+- **Blackcairn shifts from Schism to Concord in Book 3 to balance the Vyrath'Kai move.**
+- **Vharos and Aes Sidhal shift from Schism to Ruin in Book 3.**
+- **Qasr Siroth is not allowed to remain Ruin-aligned by Book 9; it is Schism again by Book 4.**
+- **Vyrath'Kai and Khaz Vorem shift to Schism in Book 5.**
+- **Skyrend Peak shifts to Schism in Book 7.**
 - **Vhal'Tigris stays Ruin-aligned** through the tracker because the greatcat/tiger city remains politically tied to Ruin.
 - **Ssivareth stays Ruin-aligned** through the Book 9 / Book 10 crisis because Carrio is the Ruin head at that point.
+- **Book 10 shifts Vyrath'Kai, Skyrend Peak, The Crucible, Khaz Vorem, Orsakar, and Awanate to Ruin.**
+- **Khembal is specifically South African.**
+- **Qasr Siroth is North African.**
 
 ## Series Direction
 
 The political arc is an indictment of polarization. Eidolon's three-faction system is supposed to force cooperation because no single faction should be able to rule cleanly by popularity alone. When Schism is hollowed out, captured, or pressured into acting as Ruin's enabler, the system collapses into a de facto two-pole fight.
 
-Book 3 is allowed to show **Concord gaining seats**. The visible story can look as though Concord is recovering strength. The hidden story is that Schism is being drained toward the polarized sides, especially Ruin.
+Book 3 is allowed to show **Concord gaining seats**. The visible story can look as though Concord is recovering strength. The hidden story is that Schism is being drained toward the polarized sides, especially Ruin. Vyrath'Kai's Book 3 move gives Ruin a visible gain without breaking the Book 3 count structure.
 
 The control threshold is **not** Ruin passing thirty seats. The control threshold is **Ruin passing Concord's seat count**. Therefore Ruin must remain below Concord through Books 4–8 and only pass Concord at the end of **Book 9**.
 
@@ -55,17 +59,18 @@ From Book 11 through Book 18, the cities rapidly rediscover agency. The arc ends
 
 By Book 9, companion-origin cities should remain outside Ruin so the companions can plausibly return to their own cities, take command or influence local forces, and march against Ruin.
 
-Protected Book 9 / Book 10 anti-Ruin anchors include:
+Protected Book 9 anti-Ruin anchors include:
 
 - **Qasr Siroth** — Addie origin city.
-- **Khaz Vorem** — Brynn / dwarf anchor.
-- **Skyrend Peak** — Tallandra / raptor anchor.
+- **Khaz Vorem** — Brynn / dwarf anchor; shifts to Schism in Book 5, then is forced into Ruin in Book 10.
+- **Skyrend Peak** — Tallandra / raptor anchor; shifts to Schism in Book 7, then is forced into Ruin in Book 10.
 - **Nox Vaelor** — Mae origin city; Concord at Book 9, then flipped by Mae's political coup into Schism at Book 10.
-- **Orsakar** — bearfolk anchor.
-- **The Crucible** — Rhün / elemental-fire anchor.
+- **Orsakar** — bearfolk anchor; remains Concord through Book 9, then is forced into Ruin in Book 10.
+- **The Crucible** — Rhün / elemental-fire anchor; remains Concord through Book 9, then is forced into Ruin in Book 10.
 - **Dunmere Locks** — Brickett / river-beastfolk anchor.
-- **Vyrath'Kai** — dragonkin anchor.
-- **Awanate** and **Khembal** — human-origin civic anchors tied into the dragon-exile / Luminthalas civic-history threads.
+- **Vyrath'Kai** — dragonkin anchor; goes Ruin in Book 3, Schism in Book 5, and Ruin again in Book 10.
+- **Awanate** — human-origin dragon-exile civic anchor; remains Concord through Book 9, then is forced into Ruin in Book 10.
+- **Khembal** — human-origin Ascentia civic-history anchor.
 
 Carrio / **Ssivareth** is the intentional exception: the snake city remains Ruin because Carrio is positioned to lead Ruin at the crisis point.
 
@@ -75,14 +80,14 @@ Carrio / **Ssivareth** is the intentional exception: the snake city remains Ruin
 |---|---|---:|
 | Book 1 | Starting lock. | **30 / 21 / 21** |
 | Book 2 | **Pollyr Fen: Concord → Schism.** | **29 / 22 / 21** |
-| Book 3 | **Concord gains seats while Schism begins feeding Ruin:** Bloodreef and Oss Veyr go Concord; Vharos, Aes Sidhal, and Qasr Siroth go Ruin. | **31 / 19 / 22** |
-| Book 4 | Schism-to-Ruin acceleration begins, but **Qasr Siroth pulls back to Schism**; Ruin remains below Concord. | **32 / 15 / 25** |
-| Book 5 | More Schism cities polarize outward; Concord absorbs some anti-Ruin seats. | **33 / 12 / 27** |
+| Book 3 | **Concord gains seats while Schism begins feeding Ruin:** Bloodreef and Oss Veyr go Concord; Vyrath'Kai goes Ruin; Vharos and Aes Sidhal go Ruin; Blackcairn goes Concord. | **31 / 19 / 22** |
+| Book 4 | Schism-to-Ruin acceleration begins, but **Qasr Siroth stays/pulls back to Schism**; Ruin remains below Concord. | **32 / 15 / 25** |
+| Book 5 | **Vyrath'Kai and Khaz Vorem move to Schism** instead of Ruin; more Schism cities polarize outward. | **33 / 12 / 27** |
 | Book 6 | Ruin reaches thirty, but **does not control** because Concord still has more seats. | **34 / 8 / 30** |
-| Book 7 | Ruin pressure is visible, but Concord still leads. | **35 / 4 / 33** |
+| Book 7 | **Skyrend Peak moves to Schism** for Tallandra's arc; Ruin pressure is visible, but Concord still leads. | **35 / 4 / 33** |
 | Book 8 | Final pre-crisis imbalance: Ruin is one seat below Concord. | **35 / 3 / 34** |
 | Book 9 | First true control threshold: Ruin passes Concord at the end of Book 9. | **34 / 2 / 36** |
-| Book 10 | Peak collapse: Ruin becomes the dominant order; only five Concord and five Schism cities remain outside Ruin. | **5 / 5 / 62** |
+| Book 10 | Peak collapse: **Vyrath'Kai, Skyrend Peak, The Crucible, Khaz Vorem, Orsakar, and Awanate move to Ruin**; only five Concord and five Schism cities remain outside Ruin. | **5 / 5 / 62** |
 | Book 11 | Recovery begins slowly; first cities reclaim agency. | **8 / 7 / 57** |
 | Book 12 | Agency recovery widens. | **11 / 10 / 51** |
 | Book 13 | Mid-series recovery continues. | **14 / 13 / 45** |
@@ -101,23 +106,23 @@ Carrio / **Ssivareth** is the intentional exception: the snake city remains Ruin
 | AQM | Aquila Matara | N | N | N | N | N | N | N | N | N | N | N | N | N | N | N | N | N | N |
 | APE | Auric Plume | S | S | S | **R** | R | R | R | R | R | R | R | R | R | R | R | R | **S** | S |
 | ASL | Aes Sidhal | S | S | **R** | R | R | R | R | R | R | R | R | R | R | R | R | **S** | S | S |
-| AWT | Awanate | C | C | C | C | C | C | C | C | C | **S** | S | S | S | S | S | S | S | S |
-| BLA | Blackcairn | S | S | S | **C** | C | C | C | C | C | **S** | S | S | S | S | S | S | S | S |
+| AWT | Awanate | C | C | C | C | C | C | C | C | C | **R** | R | R | R | R | R | R | R | **S** |
+| BLA | Blackcairn | S | S | **C** | C | C | C | C | C | **R** | R | **S** | S | S | S | S | S | S | S |
 | BLO | Bloodreef | R | R | **C** | C | C | C | C | C | C | **R** | R | R | R | R | R | R | R | R |
-| BRI | Bristleforge | S | S | S | S | S | S | **R** | R | R | R | R | **S** | S | S | S | S | S | S |
+| BRI | Bristleforge | S | S | S | **C** | C | C | **R** | R | R | R | R | **S** | S | S | S | S | S | S |
 | BZO | Bastion Zero | C | C | C | C | C | C | C | C | C | **R** | R | R | R | R | R | R | R | R |
 | CAR | Carrikesh | R | R | R | R | R | R | R | R | R | R | R | R | R | R | R | R | R | R |
-| CPE | Colossi Prime | C | C | C | C | C | C | C | C | C | **R** | R | R | **C** | C | C | C | C | C |
-| CVR | Cael Veyrun | C | C | C | C | C | C | C | C | C | **R** | R | R | R | R | **C** | C | C | C |
+| CPE | Colossi Prime | C | C | C | C | C | C | C | C | C | **R** | **C** | C | C | C | C | C | C | C |
+| CVR | Cael Veyrun | C | C | C | C | C | C | C | C | C | **R** | **C** | C | C | C | C | C | C | C |
 | CWY | Caer Wycliff | S | S | S | **R** | R | R | R | R | R | R | R | R | R | R | R | R | **S** | S |
-| DLS | Dunmere Locks | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S | S |
-| DMW | Dunmorrow | C | C | C | C | C | C | C | C | C | **R** | R | R | **C** | C | C | C | C | C |
+| DLS | Dunmere Locks | S | S | S | S | S | S | S | **C** | C | **S** | S | S | S | S | S | S | S | S |
+| DMW | Dunmorrow | C | C | C | C | C | C | C | C | C | **R** | **C** | C | C | C | C | C | C | C |
 | DNL | Dun Liath | C | C | C | C | C | C | C | C | C | **R** | R | R | **C** | C | C | C | C | C |
 | DRA | Drakmor | R | R | R | R | R | R | R | R | R | R | R | R | R | R | R | R | R | R |
 | EMB | Embervein | R | R | R | R | R | R | R | R | R | R | R | R | R | R | R | R | R | R |
 | ETH | Ethervale | C | C | C | C | C | C | C | C | C | **R** | R | R | R | **C** | C | C | C | C |
 | ETT | Elarion Thicket | C | C | C | C | C | C | C | C | C | **R** | R | R | R | **C** | C | C | C | C |
-| FRO | Frostharbor | C | C | C | C | C | C | C | C | C | **R** | R | R | R | R | R | R | **C** | C |
+| FRO | Frostharbor | C | C | C | C | C | C | C | **R** | R | R | R | R | R | R | **C** | C | C | C |
 | GLI | Glimmergrove | S | S | S | **R** | R | R | R | R | R | R | R | R | R | R | R | R | R | **S** |
 | GLO | Gloamreach | R | R | R | R | R | R | R | R | R | R | R | R | R | R | R | R | R | R |
 | GRE | Grendhollow | R | R | R | R | R | R | R | R | R | R | R | R | R | R | R | R | R | R |
@@ -125,13 +130,13 @@ Carrio / **Ssivareth** is the intentional exception: the snake city remains Ruin
 | HEA | Hearthglen | C | C | C | C | C | C | C | C | C | **R** | R | R | R | R | R | R | R | **C** |
 | ILQ | Ilyr-Qesh | C | C | C | C | C | C | C | C | C | **R** | R | R | R | R | R | **C** | C | C |
 | ITK | Itzamal-Ka | S | S | S | S | **R** | R | R | R | R | R | R | R | R | R | R | R | R | R |
-| JNZ | Jianzuo | S | S | S | S | S | **R** | R | R | R | R | R | R | R | R | **S** | S | S | S |
+| JNZ | Jianzuo | S | S | S | S | **C** | C | C | C | C | **R** | R | R | R | R | **S** | S | S | S |
 | KHB | Khembal | C | C | C | C | C | C | C | C | C | **S** | S | S | S | S | S | S | S | S |
 | KLI | Klinkhollow | R | R | R | R | R | R | R | R | R | R | R | R | R | R | R | R | R | R |
 | KRH | Kassovar Reach | S | S | S | S | **R** | R | R | R | R | R | R | R | R | R | **S** | S | S | S |
 | KTR | Kheled Tor | C | C | C | C | C | C | C | C | C | **R** | R | R | R | **C** | C | C | C | C |
-| KVM | Khaz Vorem | C | C | C | C | C | C | C | C | C | C | C | C | C | C | C | C | C | C |
-| LUM | Luminthalas | C | C | C | C | C | C | C | C | C | **R** | **C** | C | C | C | C | C | C | C |
+| KVM | Khaz Vorem | C | C | C | C | **S** | S | S | S | **C** | **R** | R | R | R | R | R | R | R | **C** |
+| LUM | Luminthalas | C | C | C | C | C | C | C | C | C | C | C | C | C | C | C | C | C | C |
 | MFH | Mirefang Hold | R | R | R | R | R | R | R | R | R | R | R | R | R | R | R | R | R | R |
 | MOO | Moonhollow | C | C | C | C | C | C | C | C | C | **R** | R | R | R | **S** | S | S | S | S |
 | MOU | Mourntusk | R | R | R | R | R | R | R | R | R | R | R | R | R | R | R | R | R | R |
@@ -139,32 +144,32 @@ Carrio / **Ssivareth** is the intentional exception: the snake city remains Ruin
 | NET | Nettleburrow | R | R | R | R | R | R | R | R | R | R | R | R | R | **S** | S | S | S | S |
 | NVR | Nox Vaelor | C | C | C | C | C | C | C | C | C | **S** | S | S | S | S | S | S | S | S |
 | NYT | Nythaloss | R | R | R | R | R | R | R | R | R | R | R | R | R | R | R | R | R | R |
-| OAR | Orsakar | C | C | C | C | C | C | C | C | C | C | C | C | C | C | C | C | C | C |
-| ORS | Or Shem | C | C | C | C | C | C | C | C | C | **R** | **C** | C | C | C | C | C | C | C |
+| OAR | Orsakar | C | C | C | C | C | C | C | C | C | **R** | R | R | R | R | R | **C** | C | C |
+| ORS | Or Shem | C | C | C | C | C | C | C | C | C | C | C | C | C | C | C | C | C | C |
 | OVR | Oss Veyr | R | R | **C** | C | C | C | C | C | C | **R** | R | R | R | R | R | R | R | R |
-| PFN | Pollyr Fen | C | **S** | S | S | S | S | **C** | C | C | **R** | **S** | S | S | S | S | S | S | S |
+| PFN | Pollyr Fen | C | **S** | S | S | S | **C** | C | C | C | **S** | S | S | S | S | S | S | S | S |
 | PMR | Pelas Mirr | R | R | R | R | R | R | R | R | R | R | R | R | R | R | R | R | R | R |
-| PSG | Port Sargasso | C | C | C | C | C | C | C | C | C | **R** | R | **C** | C | C | C | C | C | C |
-| QNY | Qinyue | C | C | C | C | C | C | C | C | C | **R** | R | **C** | C | C | C | C | C | C |
-| QSR | Qasr Siroth | S | S | **R** | **S** | S | S | S | S | S | S | S | S | S | S | S | S | S | S |
+| PSG | Port Sargasso | C | C | C | C | C | C | C | C | C | C | C | C | C | C | C | C | C | C |
+| QNY | Qinyue | C | C | C | C | C | C | C | C | C | C | C | C | C | C | C | C | C | C |
+| QSR | Qasr Siroth | S | S | S | S | S | S | **C** | C | C | **S** | S | S | S | S | S | S | S | S |
 | SHB | Shellrest Bastion | C | C | C | C | C | C | C | C | C | **R** | R | R | R | R | **C** | C | C | C |
 | SHY | Shyrenveil | C | C | C | C | C | C | C | C | C | **R** | **C** | C | C | C | C | C | C | C |
 | SKH | Skjarnheim | C | C | C | C | C | C | C | C | C | **R** | R | R | R | R | R | **C** | C | C |
-| SPK | Skyrend Peak | C | C | C | C | C | C | C | C | C | C | C | C | C | C | C | C | C | C |
-| SRV | Suryavaad | S | S | S | S | S | S | **R** | R | R | R | R | R | **S** | S | S | S | S | S |
+| SPK | Skyrend Peak | C | C | C | C | C | C | **S** | S | S | **R** | R | R | R | R | R | R | **C** | C |
+| SRV | Suryavaad | S | S | S | S | S | **R** | R | R | R | R | R | R | **S** | S | S | S | S | S |
 | SSI | Ssivareth | R | R | R | R | R | R | R | R | R | R | R | R | R | R | R | R | R | R |
-| TCE | The Crucible | C | C | C | C | C | C | C | C | C | C | C | C | C | C | C | C | C | C |
-| TFN | Tefara Nui | S | S | S | **R** | R | R | R | R | R | R | R | R | R | **S** | S | S | S | S |
-| THA | Thalewood | C | C | C | C | C | C | C | C | C | **R** | R | **C** | C | C | C | C | C | C |
-| THR | Thalorion | S | S | S | S | S | S | **R** | R | R | R | R | R | **S** | S | S | S | S | S |
+| TCE | The Crucible | C | C | C | C | C | C | C | C | C | **R** | R | R | R | R | R | R | R | **C** |
+| TFN | Tefara Nui | S | S | S | S | S | S | **R** | R | R | R | R | R | R | **S** | S | S | S | S |
+| THA | Thalewood | C | C | C | C | C | C | C | C | C | C | C | C | C | C | C | C | C | C |
+| THR | Thalorion | S | S | S | S | S | **R** | R | R | R | R | R | R | **S** | S | S | S | S | S |
 | TRK | Te Raukawa | C | C | C | C | C | C | C | C | C | **R** | R | R | R | R | **C** | C | C | C |
 | TSE | Thalassmere | R | R | R | R | R | R | R | R | R | R | R | R | R | R | R | R | R | R |
 | TVE | Tormund Vale | R | R | R | R | R | R | R | R | R | R | R | R | R | R | R | R | R | R |
 | VBN | Varkesh Bastion | R | R | R | R | R | R | R | R | R | R | R | R | R | R | R | R | R | R |
-| VGH | Vargrheim | S | S | S | S | S | S | S | **R** | R | R | R | **S** | S | S | S | S | S | S |
+| VGH | Vargrheim | S | S | S | S | S | S | **R** | R | R | R | R | **S** | S | S | S | S | S | S |
 | VHR | Vharos | S | S | **R** | R | R | R | R | R | R | R | R | R | R | R | R | **S** | S | S |
-| VKI | Vyrath'Kai | C | C | C | C | C | C | C | C | C | C | C | C | C | C | C | C | C | C |
-| VLC | Velis Caravanor | S | S | S | S | S | S | S | S | **R** | R | R | **S** | S | S | S | S | S | S |
+| VKI | Vyrath'Kai | C | C | **R** | R | **S** | S | S | S | S | **R** | R | R | R | R | R | R | R | **C** |
+| VLC | Velis Caravanor | S | S | S | S | S | S | **R** | R | R | R | R | **S** | S | S | S | S | S | S |
 | VLG | Volgrad | S | S | S | S | S | **R** | R | R | R | R | R | R | R | R | R | R | R | R |
 | VME | Vel Mouraine | R | R | R | R | R | R | R | R | R | R | R | R | R | R | R | R | R | R |
 | VTS | Vhal'Tigris | R | R | R | R | R | R | R | R | R | R | R | R | R | R | R | R | R | R |
