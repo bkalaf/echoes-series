@@ -61,7 +61,7 @@ It also plants or reinforces:
 - Mae’s care-through-control method;
 - Addie and Mae’s first serious trust conflict;
 - Rhün’s affinity with dangerous creatures;
-- Brickett’s excitement around flying fire drakes;
+- Brickett’s beaver/fire contradiction through his excitement around flying fire drakes and his urge to solve obstacles with backfiring flame;
 - Mae’s Crown Princess of Nox Vaelor identity;
 - day-one destination structure: Aes Sidhal, Luminthalas archives, and Bountiful Harvest;
 - eye-mail as the contact method for split teams.
@@ -102,7 +102,7 @@ Before:
 - Mae’vyri H. Van’kareth.
 - Max.
 - Gregory H. Frydrake.
-- Brickett H.
+- Brickett H., 14-year-old beaver beastfolk.
 - Major Tallandra H. Highwatch.
 - Carrio H. Vessalor.
 - Yurislav H. Arslan.
@@ -136,6 +136,7 @@ Before:
 - Addie’s memory of her mother and the giving-money lesson.
 - Three-team plan.
 - Eye-mail contact threads / eye-mail routing plan for split teams.
+- Brickett’s soot/singed-fur continuity and fireball impulse.
 - Brimscale on the gate.
 - Ashwing on the parapets / winged overhead threat.
 - Hemlock poison vials.
@@ -166,9 +167,9 @@ The morning plan splits the companions into three operational teams.
 
 **Purpose:** Find why Luminthalas is next on the list and what mystical thread Addie needs to face Horror.
 
-**Adjustment Pressure:** Gregory worries about being paired with fire-adjacent companions in an archive. This creates a useful comic/character friction beat.
+**Adjustment Pressure:** Gregory worries about being paired with fire-adjacent companions in an archive: Rhün is comfortable around fire creatures, and Brickett is a beaver child who keeps trying to become a fire mage anyway. This creates useful comic/character friction.
 
-**Signal Business:** Gregory fidgets with his bracelet / spectacles; Brickett wants to solve obstacles with fireball; Rhün’s comfort around fire creatures contrasts Gregory’s discomfort.
+**Signal Business:** Gregory fidgets with his bracelet / spectacles; Brickett wants to solve obstacles with fireballs that usually smoke, sputter, or backfire; Rhün’s comfort around fire creatures contrasts Gregory’s discomfort.
 
 ## Team Three — Brynn Search / Bountiful Harvest
 
@@ -250,7 +251,7 @@ The morning plan splits the companions into three operational teams.
 2. The group debates how to get past the reporter/protester wall.
 3. Brickett suggests fireballs.
 4. Everyone rejects this immediately.
-5. Brickett should remain visibly tempted to solve any obstruction with fire.
+5. Brickett should remain visibly tempted to solve any obstruction with fire; a tiny flame, spark, smoke puff, or singed-finger backfire can punctuate the temptation.
 6. Major Tallandra suggests formal garrison escort while continuing to scan every entrance and window.
 7. Gregory rejects that because it makes the group look Concord-aligned.
 8. Matthieu agrees independence is their only leverage, doodling some kind of quick team map / dependency shape as he talks.
@@ -294,6 +295,8 @@ Apply these corrections when converting prose or generating future drafts:
 - Use **Rhün H. Ignis**, not Rhun, unless diacritics are intentionally dropped project-wide later.
 - Use **Brynn H. Stonevein** unless the Stonevain spelling is explicitly restored later.
 - Brickett is **14**.
+- Brickett is a **beaver beastfolk**, not a raccoon.
+- Brickett’s recurring tick is unstable fire-making / backfiring fireballs, which should surface when pacing allows.
 - Mae’s estate is in **Aquila Matara**; Nox Vaelor is title/culture/noble-house background.
 - Gregory is **Gregory H. Frydrake**.
 - Addie’s heirloom is a **simple silver pendant necklace**, not a hair clip / barrette / berette.
@@ -331,7 +334,7 @@ Preserve:
 - Use the confrontation with Mae to clarify Addie’s boundary around her mother without over-explaining grief.
 - Foreshadow Gregory’s later fire problem through his archive/fire-drake anxiety.
 - Keep Brickett funny without making him only comic relief.
-- Surface recurring character signals: Mae coin, Yurislav coin, Gregory bracelet/spectacles, Matthieu doodles, Tallandra scanning, Addie pendant/hair, Brickett fireball impulse.
+- Surface recurring character signals: Mae coin, Yurislav coin, Gregory bracelet/spectacles, Matthieu doodles, Tallandra scanning, Addie pendant/hair, Brickett fireball impulse/backfire.
 
 ## Not Allowed Changes
 
