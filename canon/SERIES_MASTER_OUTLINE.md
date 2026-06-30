@@ -164,14 +164,13 @@ Book 01 draft files are compiled in the order below. Draft filenames are stable 
 | B01.100 | 01_10 | Holes in the Wall | [draft](../drafts/01_10_holes_in_the_wall.md) | Parsed | First split-team field chapter; Brickett false-intervention beat; expanded research lanes for Team Two and Team One; lower Luminthalas queue, Carrio Mark recognition, Mae lack-of-Mark vulnerability, and Addie lunar-light cliffhanger. Scene IDs B01-S100 through B01-S104. |
 | B01.110 | 01_11 | The Bountiful Harvest | [draft](../drafts/01_11_the_bountiful_harvest.md) | Parsed | Resolves Addie’s lunar-light courtyard standoff, confirms Brynn H. Stonevein as ninth H-name, and moves Team Three toward the terminal / manor return. Scene ID B01-S110. |
 | B01.120 | 01_12 | The Unwound Core | [draft](../drafts/01_12_the_unwound_core.md) | Parsed | Manor-return synthesis: failed research lanes, Dovren disinformation broadcast, Yurislav loyalty complication, Mark-of-the-Orbs paternal heirloom comparison, three-moon channeling concern, and folklore/Ariadne’s Thread pivot. Scene ID B01-S120. |
+| B01.130 | 01_13 | The Thread Back Out | [draft](../drafts/01_13_the_thread_back_out.md) | Parsed | Barnaby explains Ariadne’s Thread as tailor culture and survival logic; Brynn adds the comma that changes Horror’s riddle to “horned, dead charge.” Scene ID B01-S130. |
 
 ## Book 01 Current Frontier
 
-The current uploaded `book01.md` source has been parsed through its final visible chapter heading.
-
 Next expected planning/prose target:
 
-- **B01.130 / next title TBD** — likely Barnaby / Ariadne’s Thread explanation and mission-routing chapter.
+- **B01.140 / next title TBD** — interpret **horned, dead charge**, identify the next mission route, and move from manor-room puzzle solving back toward field action.
 
 ---
 
