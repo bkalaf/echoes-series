@@ -21,7 +21,7 @@ Middle initials should appear naturally in formal introductions so the **H** pat
 
 | Character | Authority Notes |
 |---|---|
-| Adeshka "Addie" H. Sonntag | Central protagonist; archivist; eidetic memory; half North African / Egyptian and half West African / Nigerian; heirloom is a simple silver pendant necklace bearing the Mark of the Orbs; hair dye / hair color experimentation is her recurring self-control habit. |
+| Adeshka "Addie" H. Sonntag | Central protagonist; archivist; eidetic memory; from **Qasr Siroth**; physically in Skyrend Peak at the start because of the Gale Exposition / Meridian Accord work travel, not because Skyrend is her home city; half North African / Egyptian and half West African / Nigerian; heirloom is a simple silver pendant necklace bearing the Mark of the Orbs; hair dye / hair color experimentation is her recurring self-control habit. |
 | Gregory H. Frydrake | Symbologist / priest-scholar; photographic memory; Sakura Branch wording matters; fidgets with bracelet and wears spectacles he does not need. |
 | Brynn H. Stonevein | Dwarf artisan noble / companion; controlled phonetic accent exception when active; hums “Pull Up Your Green Sleeves” when alone, working, or filling silence, and stops humming for precision, danger, or vulnerability. |
 | Major Tallandra H. Highwatch | Concord Guard Major; formal, pragmatic, threat-aware; spelling is Tallandra and rank is Major; constant room-scanning / avian head movement is her threat-reading signal. |
@@ -35,6 +35,13 @@ Middle initials should appear naturally in formal introductions so the **H** pat
 | Mother / Dianne | Mother AI; limited, fallible, not omnipotent or omniscient. |
 | The Overseer | Elder rat-like continuity figure; do not confuse with Silence. |
 | High Sovereign Dovren Judax Thorne | Repeated High Sovereign name used by the ruling line; distinguish rulers by number or regnal identifier. |
+
+## Addie Origin Lock
+
+- Addie is from **Qasr Siroth**.
+- Early Book 1 Skyrend Peak scenes are travel / assignment scenes tied to the Gale Exposition, Portalport arrival, hotel room, and Meridian Accord Guildhall.
+- Do **not** imply that Addie is native to Skyrend Peak, lives there permanently, or considers it her home city unless later prose explicitly frames it as a temporary professional base.
+- Her Qasr Siroth origin should matter to future allegiance-chain, faction-assignment, city-culture, and identity work.
 
 ## Architect / Witness Roster Authority
 
