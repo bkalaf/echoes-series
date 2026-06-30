@@ -14,6 +14,7 @@ This file tracks continuity risks, unresolved questions, and items that should n
 - Mother is fallible and limited.
 - Mother’s long-term arc includes discovering Eidolon is reciprocal: she shapes the world, but the world also teaches and reshapes her.
 - Addie is from **Qasr Siroth**. Early Skyrend Peak scenes are travel / work-assignment scenes, not her home-city baseline.
+- Brickett H. is a **14-year-old beaver beastfolk**, not a raccoon. His recurring tick is unstable fire-making / backfiring fireballs.
 - High Sovereign: Donvaris Q. Drumpf.
 - DJT coin acronym: Judax Tyrannis.
 - One obelisk per city at exact center.
@@ -46,6 +47,8 @@ When rewriting an existing chapter:
 | One-nation rule overwritten by older 72-state language | Keep 72 logic symbolic unless re-canonized. |
 | Mother treated as having planned every meaningful outcome correctly | Preserve the reciprocal-simulation arc: Mother becomes teachable because Eidolon produces truths outside her original predictions and explicit designs. |
 | Addie’s starting location mistaken for her home city | Keep Addie from **Qasr Siroth**. Skyrend Peak is the Book 1 work-travel / Gale Exposition location where the crisis catches her. |
+| Brickett reverting to raccoon / Rocket-like silhouette | Keep Brickett as a **beaver beastfolk**: broad flat tail, damp brown fur, large front teeth, soot, burns, singed fur, and unstable fire magic. |
+| Brickett’s fire obsession becoming generic wizard competence | Preserve the contradiction: a water/wood/ecology-coded beaver trying to become a fire mage, with frequent backfires. |
 
 ## Open / Pending Items
 
