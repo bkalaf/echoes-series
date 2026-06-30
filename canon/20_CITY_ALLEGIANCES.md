@@ -154,7 +154,7 @@ Carrio / **Ssivareth** is the intentional exception: the snake city remains Ruin
 | QSR | Qasr Siroth | S | S | **R** | **S** | S | S | **C** | C | C | **S** | S | S | S | S | S | S | S | S |
 | SHB | Shellrest Bastion | C | C | C | C | C | C | C | C | C | **R** | R | R | R | R | **C** | C | C | C |
 | SHY | Shyrenveil | C | C | C | C | C | C | C | C | C | **R** | R | R | R | R | **C** | C | C | C |
-| SKH | Skjarnheim | C | C | C | C | C | C | C | C | C | **R** | R | R | R | R | **C** | C | C |
+| SKH | Skjarnheim | C | C | C | C | C | C | C | C | C | **R** | R | R | R | R | **C** | C | C | C |
 | SPK | Skyrend Peak | C | C | C | C | C | C | **S** | S | S | **R** | R | R | R | R | R | **C** | C | C |
 | SRV | Suryavaad | S | S | S | S | S | **R** | R | R | R | R | R | R | R | R | **S** | S | S | S |
 | SSI | Ssivareth | R | R | R | R | R | R | R | R | R | R | R | R | R | R | R | R | R | R |
