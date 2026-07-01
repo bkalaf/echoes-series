@@ -618,6 +618,17 @@ Suggested visible subchapters:
 
 12. This should strike the group as odd.
 13. Mae is no longer deflecting blame away from herself. She is accepting something specific, even if she is not personally guilty of the ancestor's crime.
+14. They are still in the swamp when this exchange happens.
+15. The beacon change should **not** happen out at the swamp-church / graveyard.
+16. The group only stops when they re-enter the city proper / temple wetland section.
+17. Tallowmire notices the sudden halt and asks:
+
+> "Why are you stopping?"
+
+18. The companions look toward the beacon / its reflection in the canals.
+19. They realize the beacon has turned **orange**.
+20. The orange turn confirms that the graveyard truth, the preserved story, and Mae's restitution have completed the next checkpoint.
+21. Let this land in stunned silence before Tikket's legal transfer beat begins.
 
 ## Subchapter 18 — South Aurreth Shipping Co.
 
@@ -749,6 +760,10 @@ Suggested visible subchapters:
 
 > "Yes. I know I did. But they did not."
 
+## Tallowmire At City Re-Entry
+
+> "Why are you stopping?"
+
 ## Tikket Transfer
 
 > "You, sir, are now the owner of South Aurreth Shipping Co."
@@ -803,9 +818,9 @@ The companions finally understand why Bountiful Dam matters:
 - Van'Kareth trade power helped make the atrocity economically devastating;
 - the story has been preserved orally / religiously because paper and official records failed or were unsafe.
 
-Do not trigger the beacon change in this chapter unless later canon says the restitution / graveyard truth is the checkpoint.
+The beacon should turn **orange** only when the group returns from the swamp-church into the city proper / temple wetland section and realizes the light has changed. It should not change at the graveyard itself. The delay makes it feel like the checkpoint confirms the full chain: truth witnessed, grief honored, restitution chosen, and the story carried back into the living city.
 
-This chapter should feel like the real-world clue has finally become morally undeniable, but the Conjunction solution is still incomplete.
+This chapter should feel like the real-world clue has finally become morally undeniable, and the Conjunction has now acknowledged that progress.
 
 ---
 
@@ -826,3 +841,4 @@ This chapter should feel like the real-world clue has finally become morally und
 - The frogfolk young / tadpole logic should be handled as culture and life-cycle tragedy, not as a joke.
 - Do not make Pollyr Fen primitive. It is sophisticated wetland civilization.
 - Schism armbands on local guards are a visible local political tension, not yet a formal allegiance-tracker change unless later revised.
+- The orange beacon change happens only after they re-enter the city proper from the swamp.
