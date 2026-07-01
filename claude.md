@@ -42,11 +42,12 @@ When the attached files conflict, use this hierarchy:
 1. The current user instruction.
 2. The specific chapter / vision / interlude prompt packet.
 3. `canon/PROMPT_SUPPORT_CANON_LOCKS.md` if attached.
-4. `canon/05_CHARACTERS.md`.
-5. `canon/15_SETTINGS.md`.
-6. `canon/16_SCENES.md`.
-7. Other attached canon files.
-8. Older source / scratchpad files.
+4. `canon/21_TIME_AND_HEADER_METADATA.md` if attached.
+5. `canon/05_CHARACTERS.md`.
+6. `canon/15_SETTINGS.md`.
+7. `canon/16_SCENES.md`.
+8. Other attached canon files.
+9. Older source / scratchpad files.
 
 If a conflict would materially change the story, do not silently resolve it. Briefly flag it before prose unless the prompt already resolves it.
 
@@ -61,6 +62,7 @@ Do not output beat lists, planning notes, implementation notes, or file-maintena
 Default prose output should include:
 
 - chapter title if the packet asks for one;
+- temporal metadata under the chapter title or visible subchapter headings if the packet requests it;
 - prose scene text;
 - visible subchapter headings only if the packet requests visible subchapters;
 - no postscript unless asked.
@@ -207,6 +209,34 @@ Bad setting use:
 
 ---
 
+# Temporal Metadata Rules
+
+Use `canon/21_TIME_AND_HEADER_METADATA.md` when attached.
+
+If the packet asks for temporal header metadata, place it directly below the chapter title or directly below visible subchapter headings.
+
+Use the two-line display format:
+
+```md
+<Weekday>, <Day Number> <Month>
+<Hour Name> (<relative anchor note>)
+```
+
+Example:
+
+```md
+Kindlemask, 1 Hearthwake
+Hour of the Gargoyle (1 hour before midnight)
+```
+
+If the chapter has subheaders and the packet supplies subchapter time metadata, put the metadata under each relevant subheader.
+
+If the chapter has no subheaders, put the metadata under the chapter title.
+
+Do not invent exact hours. If the packet marks the time as approximate or TBD, preserve that certainty in prose handling and do not silently harden it into a locked time.
+
+---
+
 # Continuity Rules
 
 Respect the packet’s **Continuity State In** and **Continuity State Out**.
@@ -257,6 +287,8 @@ Do not output a planning analysis instead of prose.
 
 Do not flatten morally complicated scenes into simple condemnation or absolution.
 
+Do not invent exact temporal metadata when the packet only supports an approximate time.
+
 ---
 
 # Final Self-Check Before Output
@@ -268,6 +300,7 @@ Before finalizing prose, check:
 3. Did I preserve the ending state?
 4. Did I avoid revealing later canon early?
 5. Did I use the attached setting and character files?
-6. Did I avoid inserting my own plot solution?
+6. Did I follow the packet’s temporal metadata and certainty level?
+7. Did I avoid inserting my own plot solution?
 
 Then output the prose.
