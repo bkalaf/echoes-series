@@ -1,8 +1,16 @@
 # 01_17_children_of_the_damned — Children of the Damned
 
-## Detail Level
+## Status
 
-L4 Reconstruction Outline with Dialogue Spine and Field Sequence.
+L4 reconstruction outline with dialogue spine and field sequence.
+
+## Required Canon Links
+
+- `canon/PROMPT_SUPPORT_CANON_LOCKS.md`
+- `canon/15_SETTINGS.md`
+- `canon/16_SCENES.md`
+- `canon/21_TIME_AND_HEADER_METADATA.md`
+- `locales/images/analysis/PFN.analysis.json`
 
 ## Source
 
@@ -45,35 +53,6 @@ The point of the jump is to show depletion:
 
 ---
 
-# City-Spelling Corrections / Research Route Lock
-
-The companions have checked twelve cities while trying to locate the true dam / river atrocity site.
-
-Correct spellings for the route:
-
-1. **Orsakar**
-2. **Volgrad**
-3. **Khembal**
-4. **Aes Sidhal**
-5. **Glimmergrove**
-6. **Thalewood**
-7. **Elarion Thicket**
-8. **Grendhollow**
-9. **Qinyue**
-10. **Xol Atarah**
-11. **Suryavaad**
-12. **Itzamal-Ka**
-
-Notes:
-
-- Use **Thalewood**, not Rhalewood.
-- Use **Itzamal-Ka**, not Itamai-ka.
-- Use **Pollyr Fen** for the frogfolk city.
-- The root Addie notices is **Pollyr**, not Polyr / Polly.
-- Suryavaad is the Human city in the Hellgate River-Mire triad and the frogfolk's original triad origin context before Pollyr Fen separated.
-
----
-
 # Chapter Function
 
 This chapter should do five major things:
@@ -94,13 +73,21 @@ This is a breakthrough chapter, but the breakthrough should hurt.
 
 Breakfast room / kitchen-adjacent morning space.
 
-Use existing settings:
+Use settings:
 
 - `SET-AQM-MAE-ESTATE`
 - `SET-AQM-MAE-DINING`
 - `SET-AQM-MAE-KITCHEN`
 
 ## Pollyr Fen
+
+Use settings:
+
+- `SET-PFN`
+- `SET-PFN-PORTALPORT`
+- `SET-PFN-TEMPLE-WETLAND-QUARTER`
+- `SET-PFN-SWAMP-CHURCH`
+- `SET-PFN-CALCIFIED-YOUNG-GRAVEYARD`
 
 Use the city identity from `PFN.analysis.json`:
 
@@ -109,13 +96,6 @@ Use the city identity from `PFN.analysis.json`:
 - stilt halls, floating platforms, reed thatch, wet wood, pale wetland stone, moss masonry, lotus basins, and nursery pools are civic infrastructure;
 - frogfolk move with amphibian ease;
 - spiritual spaces are inseparable from water, birth-cycle, nursery care, and civic life.
-
-Potential settings to index later:
-
-- `SET-PFN-PORTALPORT`
-- `SET-PFN-TEMPLE-WETLAND-QUARTER`
-- `SET-PFN-SWAMP-CHURCH`
-- `SET-PFN-CALCIFIED-YOUNG-GRAVEYARD`
 
 ---
 
@@ -151,11 +131,9 @@ Pollyr Fen:
 
 ---
 
-# Company Name Lock / Open Confirmation
+# Company / Restitution Context
 
-Use this as the working formal company name unless later corrected:
-
-- **South Aurreth Shipping Co.**
+Use **South Aurreth Shipping Co.** as the working formal company name.
 
 Context:
 
@@ -163,14 +141,7 @@ Context:
 - Mae has full personal / legal control of this company, allowing her to transfer it immediately.
 - It is not enough to bankrupt her family because she keeps six other companies / major holdings.
 - It is enough to materially return wealth built from blood and trade-line collapse.
-
-Dialogue can still call it "the southern shipping company" informally.
-
-If later canon requires a more branded name, revise to:
-
-- **Van'Kareth South Aurreth Shipping Co.**
-
-Do not lock the alternate unless explicitly approved.
+- Dialogue can still call it **the southern shipping company** informally.
 
 ---
 
@@ -180,15 +151,24 @@ Suggested visible subchapters:
 
 1. Fifteen Minutes Late
 2. Twelve Cities And Nothing
-3. Cataclysm
-4. The City Made Of Water
-5. The Baskets
-6. Brother Tallowmire
-7. Through The Mud
-8. The Swamp-Church
-9. Eggs In The Moonlight
-10. Blood Money
-11. Children Of The Damned
+3. Late Arrivals
+4. What Dams Do
+5. Barnaby's Delivery
+6. The Pollyr Click
+7. Pollyr Fen Arrival
+8. The Frog Guards
+9. The City Made Of Water
+10. The Baskets
+11. Brother Tallowmire
+12. Through The Mud
+13. The Swamp-Church
+14. Eggs In The Moonlight
+15. Blood Money
+16. Brickett's Errand
+17. The Easy Way Back
+18. South Aurreth Shipping Co.
+19. Protection
+20. Children Of The Damned
 
 ---
 
@@ -824,21 +804,12 @@ This chapter should feel like the real-world clue has finally become morally und
 
 ---
 
-# Continuity Corrections / Active Locks
+# Ending State
 
-- Use **Pollyr Fen**.
-- Use **Brother Tallowmire G. Reedfen**.
-- Use **South Aurreth Shipping Co.** as the working formal company name.
-- Use **Van'Kareth**.
-- Use **Mae**, not May.
-- Use **Yurislav**, not Yuri, in narration unless a nickname is intentional.
-- Use **Matthieu**, not Matt, in narration unless a nickname is intentional.
-- Use **Major Tallandra H. Highwatch**.
-- Use **Brynn H. Stonevein**.
-- Use **Pull Up Your Green Sleeves** for Brynn's humming.
-- Use **Bountiful Dam**.
-- Use **H&H** for Addie's candy / stress response.
-- The frogfolk young / tadpole logic should be handled as culture and life-cycle tragedy, not as a joke.
-- Do not make Pollyr Fen primitive. It is sophisticated wetland civilization.
-- Schism armbands on local guards are a visible local political tension, not yet a formal allegiance-tracker change unless later revised.
-- The orange beacon change happens only after they re-enter the city proper from the swamp.
+The orange checkpoint has triggered.
+
+Brother Tallowmire G. Reedfen / Pollyr Fen receives South Aurreth Shipping Co. as restitution.
+
+Carrio and Mae both offer protection against Dovren pressure.
+
+Brickett names the transferred company **Children of the Damned**.
