@@ -4,6 +4,8 @@ This file tracks the current parsed / stubbed chapter structure for **Book 01 �
 
 The compile order is governed by [`SERIES_MASTER_OUTLINE.md`](./SERIES_MASTER_OUTLINE.md). This file is the Book 01 chapter-outline index and current parse-state map.
 
+Calendar/date detail for chapters and visible subchapters is governed by [`12_BOOK01_CALENDAR_TIMELINE.md`](./12_BOOK01_CALENDAR_TIMELINE.md).
+
 ---
 
 # Current Parse State
@@ -37,25 +39,36 @@ This is preferred over splitting every scene into separate chapters when that wo
 
 ---
 
+# Book 01 Calendar Lock
+
+| Date | Weekday | Story Function |
+|---|---|---|
+| Yearsend 29 | Kindlemask | Prologue. |
+| Hearthwake 1 | Sonntag | Purple beacon / 48-hour warning. |
+| Hearthwake 2 | Dravenkar | Blue beacon / 24-hour warning. |
+| Hearthwake 3 | Stonewake | Green beacon / Conjunction begins. |
+
+---
+
 # Book 01 Current Draft / Prose Map
 
-| Compile Slot | Draft ID | Parent Chapter Title | Primary File | Status | Scene IDs | Notes |
-|---|---|---|---|---|---|---|
-| B01.000 | 01_00 | Prologue — The Mother Who Started the War | [`../drafts/01_00_prologue.md`](../drafts/01_00_prologue.md) | Parsed | B01-S000 | Mother, Brickett as beaver child, number sequence, first act of war. |
-| B01.010 | 01_01 | The Royal Astronomer’s Tower | [`../drafts/01_01_the_royal_astronomers_tower.md`](../drafts/01_01_the_royal_astronomers_tower.md) | Parsed | B01-S010; B01-S011 | Miriam, purple beacon, Overseer, faction triangle, Moderator nomination crisis. |
-| B01.020 | 01_02 | The Nomination | [`../drafts/01_02_the_nomination.md`](../drafts/01_02_the_nomination.md) | Parsed | B01-S020; B01-S021 | Addie’s private life while away from **Qasr Siroth** on Skyrend Peak work travel, pendant / Mark of the Orbs, interrupted hair dye, eye-mail dispatch, Kwame’s nomination reveal. |
-| B01.030 | 01_03 | The Witnesses | [`../drafts/01_03_the_witnesses.md`](../drafts/01_03_the_witnesses.md) | Parsed | B01-S030 | Witness assembly, addendums, ballot, first shot. |
-| B01.035 | DR_01 | Interlude: The Choice to Do Nothing | [`../drafts/interludes/01_interlude_the_choice_to_do_nothing.md`](../drafts/interludes/01_interlude_the_choice_to_do_nothing.md) | Prose saved | Interlude slot | Dear Reader / WWII oil-embargo interlude; frames Brickett’s “My life for you!” devotion with updated beaver/fire contradiction. |
-| B01.040 | 01_04 | The Weight of the Beacon | [`../drafts/01_04_the_weight_of_the_beacon.md`](../drafts/01_04_the_weight_of_the_beacon.md) | Parsed | B01-S040; B01-S041; B01-S042 | Addie confinement, Concord extraction, Brickett beaver rescue, impossible brick, unstable fireballs, pendant/clasp proof. |
-| B01.050 | 01_05 | The Core of the Conjunction | [`../drafts/01_05_the_core_of_the_conjunction.md`](../drafts/01_05_the_core_of_the_conjunction.md) | Parsed | B01-S050; B01-S051; B01-S052 | Blue beacon, scrolls, forced transfer, Brickett’s alpha slot, Three Hundred Steps speech, silent applause. |
-| B01.060 | 01_06 | The Weight of the Roster | [`../drafts/01_06_the_weight_of_the_roster.md`](../drafts/01_06_the_weight_of_the_roster.md) | Parsed | B01-S060; B01-S061 | Conclave roster, Mae’s Speaker role, scroll openings, Addie collection into mirror. |
-| B01.070 | 01_07 | The First Mirror | [`../drafts/01_07_the_first_mirror.md`](../drafts/01_07_the_first_mirror.md); [`../chapters/01_07_the_first_mirror.md`](../chapters/01_07_the_first_mirror.md) | Parsed + prose stub | B01-S070 through B01-S076 | First Mirror, Second Mirror, Horror’s riddle, return to Rhün / Mae estate. Dedicated movement files exist for council beats, Second Mirror, and return-to-Witness-space. |
-| B01.080 | 01_08 | The Weight of Being Asked | [`../drafts/01_08_the_weight_of_being_asked.md`](../drafts/01_08_the_weight_of_being_asked.md) | Parsed | B01-S080; B01-S081; B01-S082 | Mae estate dinner, Max, Gregory, Matthieu, Brynn refused scroll, H-pattern, Law of Threes, Luminthalas destination; Brickett’s care beat and carrot-diagram pattern recognition. |
-| B01.090 | 01_09 | Day One Architecture | [`../drafts/01_09_day_one_architecture.md`](../drafts/01_09_day_one_architecture.md) | Parsed | B01-S090; B01-S091; B01-S092 | Morning after mirror/dinner; Addie bath/cyan hair reset; reporter invasion; field clothes; Mae honesty confrontation; three-team split; eye-mail contact setup; Brickett fireball/backfire impulse; Brimscale/Ashwing departure; Mae royal-title reveal. |
-| B01.100 | 01_10 | Holes in the Wall | [`../drafts/01_10_holes_in_the_wall.md`](../drafts/01_10_holes_in_the_wall.md) | Parsed | B01-S100 through B01-S104 | First split-team field chapter; adds Brickett false-intervention and fire-backfire beat; expands Gregory/Rhün/Brickett archive research and Matthieu/Yurislav/Tallandra Aes Sidhal research; lower-quarter queue at The Bountiful Harvest, crude middle-finger + Flying Scrolls sign, Carrio Mark recognition, Mae lack-of-Mark vulnerability, and Addie lunar-light cliffhanger. |
-| B01.110 | 01_11 | The Bountiful Harvest | [`../drafts/01_11_the_bountiful_harvest.md`](../drafts/01_11_the_bountiful_harvest.md) | Parsed | B01-S110 | Resolves the lunar-light courtyard standoff; introduces Brynn/Rosalind directly; opens Brynn’s scroll; confirms Brynn H. Stonevein as the ninth H-name; moves Team Three toward terminal / manor return. |
-| B01.120 | 01_12 | The Unwound Core | [`../drafts/01_12_the_unwound_core.md`](../drafts/01_12_the_unwound_core.md) | Parsed | B01-S120 | Manor-return synthesis: failed research lanes, Dovren disinformation broadcast, Yurislav loyalty complication, Mark-of-the-Orbs paternal heirloom comparison, three-moon channeling concern, and folklore/Ariadne’s Thread pivot. |
-| B01.130 | 01_13 | The Thread Back Out | [`../drafts/01_13_the_thread_back_out.md`](../drafts/01_13_the_thread_back_out.md) | Parsed | B01-S130 | Barnaby explains Ariadne’s Thread through tailor culture and survival logic; Gregory warns against almost-correct answers; Brynn solves the pause/punctuation problem by adding the comma in “horned, dead charge.” |
+| Compile Slot | Draft ID | Parent Chapter Title | Calendar Position | Primary File | Status | Scene IDs | Notes |
+|---|---|---|---|---|---|---|---|
+| B01.000 | 01_00 | Prologue — The Mother Who Started the War | Yearsend 29, Kindlemask | [`../drafts/01_00_prologue.md`](../drafts/01_00_prologue.md) | Parsed | B01-S000 | Mother, Brickett as beaver child, number sequence, first act of war. |
+| B01.010 | 01_01 | The Royal Astronomer’s Tower | Hearthwake 1, Sonntag | [`../drafts/01_01_the_royal_astronomers_tower.md`](../drafts/01_01_the_royal_astronomers_tower.md) | Parsed | B01-S010; B01-S011 | Miriam, purple beacon, Overseer, faction triangle, Moderator nomination crisis. |
+| B01.020 | 01_02 | The Nomination | Hearthwake 1, Sonntag, night | [`../drafts/01_02_the_nomination.md`](../drafts/01_02_the_nomination.md) | Parsed | B01-S020; B01-S021 | Addie’s private life while away from **Qasr Siroth** on Skyrend Peak work travel, pendant / Mark of the Orbs, interrupted hair dye, eye-mail dispatch, Kwame’s nomination reveal. |
+| B01.030 | 01_03 | The Witnesses | Hearthwake 1, Sonntag, night / subjective Witness space | [`../drafts/01_03_the_witnesses.md`](../drafts/01_03_the_witnesses.md) | Parsed | B01-S030 | Witness assembly, addendums, ballot, first shot. |
+| B01.035 | DR_01 | Interlude: The Choice to Do Nothing | Non-diegetic break between Hearthwake 1 and Hearthwake 2 | [`../drafts/interludes/01_interlude_the_choice_to_do_nothing.md`](../drafts/interludes/01_interlude_the_choice_to_do_nothing.md) | Prose saved | Interlude slot | Dear Reader / WWII oil-embargo interlude; frames Brickett’s “My life for you!” devotion with updated beaver/fire contradiction. |
+| B01.040 | 01_04 | The Weight of the Beacon | Hearthwake 2, Dravenkar | [`../drafts/01_04_the_weight_of_the_beacon.md`](../drafts/01_04_the_weight_of_the_beacon.md) | Parsed | B01-S040; B01-S041; B01-S042 | Addie confinement, Concord extraction, Brickett beaver rescue, impossible brick, unstable fireballs, pendant/clasp proof. |
+| B01.050 | 01_05 | The Core of the Conjunction | Hearthwake 2, Dravenkar | [`../drafts/01_05_the_core_of_the_conjunction.md`](../drafts/01_05_the_core_of_the_conjunction.md) | Parsed | B01-S050; B01-S051; B01-S052 | Blue beacon, scrolls, forced transfer, Brickett’s alpha slot, Three Hundred Steps speech, silent applause. |
+| B01.060 | 01_06 | The Weight of the Roster | Hearthwake 2, Dravenkar, late day / evening | [`../drafts/01_06_the_weight_of_the_roster.md`](../drafts/01_06_the_weight_of_the_roster.md) | Parsed | B01-S060; B01-S061 | Conclave roster, Mae’s Speaker role, scroll openings, Addie collection into mirror. |
+| B01.070 | 01_07 | The First Mirror | Hearthwake 2, Dravenkar, night / subjective mirror time | [`../drafts/01_07_the_first_mirror.md`](../drafts/01_07_the_first_mirror.md); [`../chapters/01_07_the_first_mirror.md`](../chapters/01_07_the_first_mirror.md) | Parsed + prose stub | B01-S070 through B01-S076 | First Mirror, Second Mirror, Horror’s riddle, return to Rhün / Mae estate. Dedicated movement files exist for council beats, Second Mirror, and return-to-Witness-space. |
+| B01.080 | 01_08 | The Weight of Being Asked | Hearthwake 2, Dravenkar, late night | [`../drafts/01_08_the_weight_of_being_asked.md`](../drafts/01_08_the_weight_of_being_asked.md) | Parsed | B01-S080; B01-S081; B01-S082 | Mae estate dinner, Max, Gregory, Matthieu, Brynn refused scroll, H-pattern, Law of Threes, Luminthalas destination; Brickett’s care beat and carrot-diagram pattern recognition. |
+| B01.090 | 01_09 | Day One Architecture | Hearthwake 3, Stonewake, morning | [`../drafts/01_09_day_one_architecture.md`](../drafts/01_09_day_one_architecture.md) | Parsed | B01-S090; B01-S091; B01-S092 | Morning after mirror/dinner; Addie bath/cyan hair reset; reporter invasion; field clothes; Mae honesty confrontation; three-team split; eye-mail contact setup; Brickett fireball/backfire impulse; Brimscale/Ashwing departure; Mae royal-title reveal. |
+| B01.100 | 01_10 | Holes in the Wall | Hearthwake 3, Stonewake, Day One | [`../drafts/01_10_holes_in_the_wall.md`](../drafts/01_10_holes_in_the_wall.md) | Parsed | B01-S100 through B01-S104 | First split-team field chapter; adds Brickett false-intervention and fire-backfire beat; expands Gregory/Rhün/Brickett archive research and Matthieu/Yurislav/Tallandra Aes Sidhal research; lower-quarter queue at The Bountiful Harvest, crude middle-finger + Flying Scrolls sign, Carrio Mark recognition, Mae lack-of-Mark vulnerability, and Addie lunar-light cliffhanger. |
+| B01.110 | 01_11 | The Bountiful Harvest | Hearthwake 3, Stonewake, Day One | [`../drafts/01_11_the_bountiful_harvest.md`](../drafts/01_11_the_bountiful_harvest.md) | Parsed | B01-S110 | Resolves the lunar-light courtyard standoff; introduces Brynn/Rosalind directly; opens Brynn’s scroll; confirms Brynn H. Stonevein as the ninth H-name; moves Team Three toward terminal / manor return. |
+| B01.120 | 01_12 | The Unwound Core | Hearthwake 3, Stonewake, Day One, green beacon active / activating | [`../drafts/01_12_the_unwound_core.md`](../drafts/01_12_the_unwound_core.md) | Parsed | B01-S120 | Manor-return synthesis: failed research lanes, Dovren disinformation broadcast, Yurislav loyalty complication, Mark-of-the-Orbs paternal heirloom comparison, three-moon channeling concern, and folklore/Ariadne’s Thread pivot. |
+| B01.130 | 01_13 | The Thread Back Out | Hearthwake 3, Stonewake, Day One, green phase active | [`../drafts/01_13_the_thread_back_out.md`](../drafts/01_13_the_thread_back_out.md) | Parsed | B01-S130 | Barnaby explains Ariadne’s Thread through tailor culture and survival logic; Gregory warns against almost-correct answers; Brynn solves the pause/punctuation problem by adding the comma in “horned, dead charge.” |
 
 ---
 
@@ -72,9 +85,12 @@ Barnaby provides the meaning of Ariadne’s Thread. Brynn provides the punctuati
 - Parsed outline: [`../drafts/01_13_the_thread_back_out.md`](../drafts/01_13_the_thread_back_out.md)
 - Settings: [`15_SETTINGS.md`](./15_SETTINGS.md)
 - Scenes: [`16_SCENES.md`](./16_SCENES.md)
+- Full calendar / visible subchapter timeline: [`12_BOOK01_CALENDAR_TIMELINE.md`](./12_BOOK01_CALENDAR_TIMELINE.md)
 - Character gesture / signal rules: [`17_CHARACTER_GESTURE_SIGNALS.md`](./17_CHARACTER_GESTURE_SIGNALS.md)
 
 ## Visible Subchapters
+
+All currently sit on **Hearthwake 3, Stonewake, Day One, green phase active**.
 
 1. The Uncomfortable Frog
 2. Old Mythology
@@ -129,6 +145,7 @@ Barnaby provides the meaning of Ariadne’s Thread. Brynn provides the punctuati
 - [`13_ARCHITECT_WITNESS_CHARACTER_INDEX.md`](./13_ARCHITECT_WITNESS_CHARACTER_INDEX.md)
 - [`11_ARCHITECT_EXODUS_COMPROMISES.md`](./11_ARCHITECT_EXODUS_COMPROMISES.md)
 - [`09_STYLE_AND_PROSE_RULES.md`](./09_STYLE_AND_PROSE_RULES.md)
+- [`12_BOOK01_CALENDAR_TIMELINE.md`](./12_BOOK01_CALENDAR_TIMELINE.md)
 - [`17_CHARACTER_GESTURE_SIGNALS.md`](./17_CHARACTER_GESTURE_SIGNALS.md)
 
 ## Known Active Corrections
