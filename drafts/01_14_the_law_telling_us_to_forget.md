@@ -49,9 +49,14 @@ They should be summarized at the beginning of this chapter as two exhausting, us
 
 ---
 
-# Luminthalas Section Correction
+# Luminthalas Section Lock
 
-Do **not** lock the White Tower Archives to Section 4 unless later canon revises Luminthalas.
+Lock this chapter's route across Luminthalas as follows:
+
+- **Luminthalas Portalport is in Section 5** — Arcane / Alchemy / controlled experimentation district.
+- **White Tower Archives is in Section 1** — University / Lyceum / civic scholarship district.
+- The chapter should force the companions to walk from Section 5 across the city to Section 1.
+- This long walk is intentional. It gives the group time to talk through the three thread legends, lets Addie wrestle with why she is convinced Ariadne's Thread is right, and allows Luminthalas public support / reverence to build through repeated civilian encounters.
 
 Current Luminthalas image analysis defines:
 
@@ -61,11 +66,10 @@ Current Luminthalas image analysis defines:
 - Section 4: Temple quarter.
 - Section 5: Arcane / alchemy labs.
 
-The White Tower Archives should read as a scholarly / institutional archive destination, most naturally near the University / Lyceum structure or connected by a long academic route. The walk can still be long and wind through several sections, but Section 4 is currently temple-coded, not the obvious archive anchor.
+Use existing setting IDs:
 
-Use existing setting ID:
-
-- `SET-LUM-WHITE-TOWER-ARCHIVES`
+- `SET-LUM-PORTALPORT` — now locked to Section 5 for this chapter route.
+- `SET-LUM-WHITE-TOWER-ARCHIVES` — now locked to Section 1.
 
 No new reusable setting is required unless the reference desk becomes a recurring site.
 
@@ -189,14 +193,16 @@ This chapter should:
 1. jump the story to Day Four without wasting two full chapters on intermediate research;
 2. show that the companions have learned to leave official rooms and ask ordinary people;
 3. re-enter Luminthalas with stronger visual / civic specificity;
-4. give Brynn extra attention as a new companion and let her discomfort with reverence humanize her;
-5. show public support as both moving and dangerous;
-6. let the old White Tower reference scholar reveal the suppressed founding truth;
-7. connect the original twenty-four city-states to human monopoly / mythos and beastfolk exclusion;
-8. expose Dovren I's pact / law of forgetting;
-9. let Addie identify the preserved story itself as Ariadne's Thread;
-10. trigger the yellow beacon as confirmation;
-11. end with the companions heading toward the beacon to meet the Witnesses together.
+4. use the Section 5 Portalport to Section 1 White Tower walk as a long conversation spine;
+5. let Addie privately and verbally compare the Thread of the Norns, Red Thread of Fate, and Ariadne's Thread;
+6. give Brynn extra attention as a new companion and let her discomfort with reverence humanize her;
+7. show public support as both moving and dangerous;
+8. let the old White Tower reference scholar reveal the suppressed founding truth;
+9. connect the original twenty-four city-states to human monopoly / mythos and beastfolk exclusion;
+10. expose Dovren I's pact / law of forgetting;
+11. let Addie identify the preserved story itself as Ariadne's Thread;
+12. trigger the yellow beacon as confirmation;
+13. end with the companions heading toward the beacon to meet the Witnesses together.
 
 ---
 
@@ -207,8 +213,11 @@ Primary close third on Addie.
 Use Addie's attention to carry:
 
 - the city's repeated patterns;
+- the long cross-city route from Section 5 to Section 1;
 - the civilians' reverent hand gesture;
 - Mae's unusually defensive skepticism;
+- Addie's internal comparison of the three thread legends;
+- Addie's lack of a fully compelling argument for Ariadne beyond pattern-sense, poetic fit, and the Barnaby/Dovren/tailor connection;
 - Brynn's discomfort at being treated like a holy figure;
 - Gregory's attempt to turn social research into a clean intellectual argument;
 - Matthieu's too-honest explanation at the reference desk;
@@ -223,9 +232,9 @@ The historical reveal should come through pressure, fear, permission, and the ol
 
 # Parent Locations
 
-- Luminthalas Portalport / arrival terminal.
-- Luminthalas elevated civic route through terraces, bridges, formal gardens, scholarly plazas, and long sightlines.
-- White Tower Archives.
+- Luminthalas Portalport / arrival terminal in **Section 5**.
+- Cross-city route from Section 5 to Section 1 through elevated terraces, bridges, formal gardens, scholarly plazas, observatory sightlines, and long public promenades.
+- White Tower Archives in **Section 1**.
 - White Tower reference/help desk.
 - Interior archive windows / skylight catching beacon color shift.
 
@@ -290,7 +299,7 @@ Do not lock this name unless accepted later.
 Suggested visible subchapters:
 
 1. Two Days of Other People's Stories
-2. The Reverent Walk
+2. The Long Walk Across Luminthalas
 3. Not You Assholes Again
 4. The Question Beneath Luminthalas
 5. Khembal
@@ -319,9 +328,9 @@ Suggested visible subchapters:
 11. Gregory convinces the room to return to the White Tower, but to ask a different kind of question.
 12. Mae spends the morning unconvinced and irritated by the premise that the answer lies in early city-state structure.
 
-## Subchapter 2 — The Reverent Walk
+## Subchapter 2 — The Long Walk Across Luminthalas
 
-1. The companions exit Luminthalas Portalport together.
+1. The companions exit Luminthalas Portalport together in **Section 5**, the arcane / alchemical quarter.
 2. Everyone feels energized because they have finally made progress, but they know the bigger knot remains.
 3. Luminthalas should be written with its image-analysis identity:
    - pale marble and moonstone terraces;
@@ -332,24 +341,37 @@ Suggested visible subchapters:
    - quiet scholarly public life;
    - wind crossing terraces;
    - crystal lamps and star-map motifs.
-4. The walk to the White Tower is long and exposed.
-5. They cross several civic routes: lecture terraces, blue-lit arcades, garden bridges, instrument-makers' courts, and formal stairs.
-6. Civilians begin reacting.
-7. The same gesture repeats: hands lifted, wrists turning.
-8. The gesture should feel supportive, not hostile, but the repetition makes the companions uncomfortable.
-9. Brynn receives extra attention because she is new to the group.
-10. In her thick Stonevein / Scots-coded burr, Brynn says this is uncomfortable because the people are looking at them with reverence.
-11. Gregory agrees too quickly: they have given these people no reason to trust them.
-12. Matthieu agrees and calls it prophet-making language.
-13. Addie dislikes that because she has already seen how symbols can be weaponized.
-14. The conversation continues the entire walk.
-15. Mae tries to dismiss it as public morale, but even she notices the gesture is too unified to be ordinary applause.
-16. Tallandra reads elevated balconies, bridge exposure, and sightlines while the others talk.
-17. Brickett enjoys the attention for about seven seconds, then gets uncomfortable when children copy the gesture at him.
+4. The walk to the White Tower Archives in **Section 1** is long by design.
+5. They must cross much of the city: arcane supply courts, alchemical terraces, blue-lit bridges, observatory sightlines, formal gardens, lecture stairs, and scholarly promenades.
+6. Use the walk as a rolling conversation, not filler.
+7. Addie keeps running the three thread legends in her head:
+   - Norns: fate, doom, measure, obligation;
+   - Red Thread: destined people finding one another;
+   - Ariadne: the way back out after the monster.
+8. She cannot give the others a clean proof yet.
+9. She is convinced anyway, and that bothers her because it sounds like instinct instead of evidence.
+10. She tells the group that the Norns feel too final, the Red Thread feels too relational, and Ariadne feels like the only one that explains survival after victory.
+11. Gregory pushes her to define **why**.
+12. Addie admits the reason is not clean yet.
+13. The closest she can get is: Barnaby, tailors, Dovren's clothing reaction, the Minotaur, the comma, and the phrase **back out** all keep pulling the same way.
+14. Carrio supports the idea without overclaiming: sometimes a pattern is not proof, but it is still the way to the next question.
+15. Mae remains grumbly because she does not like building strategy on a feeling, especially when the feeling points at political history she thinks she already knows.
+16. Civilians begin reacting.
+17. The same gesture repeats: hands lifted, wrists turning.
+18. The gesture should feel supportive, not hostile, but the repetition makes the companions uncomfortable.
+19. Brynn receives extra attention because she is new to the group.
+20. In her thick Stonevein / Scots-coded burr, Brynn says this is uncomfortable because the people are looking at them with reverence.
+21. Gregory agrees too quickly: they have given these people no reason to trust them.
+22. Matthieu agrees and calls it prophet-making language.
+23. Addie dislikes that because she has already seen how symbols can be weaponized.
+24. The conversation continues the entire walk.
+25. Mae tries to dismiss it as public morale, but even she notices the gesture is too unified to be ordinary applause.
+26. Tallandra reads elevated balconies, bridge exposure, and sightlines while the others talk.
+27. Brickett enjoys the attention for about seven seconds, then gets uncomfortable when children copy the gesture at him.
 
 ## Subchapter 3 — Not You Assholes Again
 
-1. They reach the White Tower Archives.
+1. They reach the White Tower Archives in **Section 1**.
 2. The building should feel clean, older than fashion, and institutionally precise: white stone, tall windows, blue lamps, silence, paper, ink, and cool air.
 3. The reference/help desk is staffed by the elderly High Elven scholar.
 4. She sees Gregory, Brickett, and Rhün.
@@ -526,7 +548,7 @@ Suggested visible subchapters:
 
 | Speaker | Intention | Notes |
 |---|---|---|
-| Addie | Turns two days of scattered folklore into one operational theory | She is not certain because she wants to be special; she is certain because the patterns finally line up. |
+| Addie | Turns two days of scattered folklore into one operational theory | She is not certain because she wants to be special; she is certain because the patterns finally line up, even before she can explain them cleanly. |
 | Mae | Begins skeptical because she knows current politics | Her arc is realizing current institutional knowledge is not the same as founding knowledge. |
 | Carrio | Supports the social research logic | He understands knowledge carried by intimate / unofficial spaces. |
 | Gregory | Pushes White Tower return with a better question | He learns that scholarship must include living stories. |
@@ -542,7 +564,7 @@ Suggested visible subchapters:
 
 # Luminthalas Visual / Prose Use
 
-Use these details throughout the walk and White Tower arrival:
+Use these details throughout the Section 5 to Section 1 walk and White Tower arrival:
 
 - white marble;
 - moonstone;
@@ -571,13 +593,15 @@ Luminthalas is beautiful and controlled, but the chapter discovers that control 
 - This chapter is **Hearthwake 6, Eldrane, Conjunction Day Four**.
 - Days Two and Three are intentionally offscreen / summary unless later expanded.
 - Sonntag is still not an active weekday.
+- `SET-LUM-PORTALPORT` is locked to **Luminthalas Section 5** for this route.
+- `SET-LUM-WHITE-TOWER-ARCHIVES` is locked to **Luminthalas Section 1**.
+- The long walk from Section 5 to Section 1 is required and should carry the chapter's reflective conversation.
 - Use **Brynn H. Stonevein**, not Stonevain.
 - Use **Rhün H. Ignis**.
 - Use **Major Tallandra H. Highwatch**.
 - Use **High Theorist Matthieu H. Cardinal** unless later standardized differently.
 - Use **Gregory H. Frydrake**.
 - Addie's heirloom remains the simple silver pendant necklace.
-- Keep the White Tower as `SET-LUM-WHITE-TOWER-ARCHIVES`.
 - Do not overlock the regional spelling **Ascentia / Essentia** until confirmed.
 - Do not lock **Khembal** spelling until confirmed, but use it as the working origin city name in this chapter.
 - The original political reveal should be: the first twenty-four capitals were human-controlled; non-human power emerged later through city splits / founding waves.
