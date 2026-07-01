@@ -55,11 +55,12 @@ Use this priority order:
 2. The current user instruction.
 3. The primary packet file: `[PRIMARY_PACKET_FILE]`.
 4. `canon/PROMPT_SUPPORT_CANON_LOCKS.md`, if attached.
-5. `canon/05_CHARACTERS.md`.
-6. `canon/15_SETTINGS.md`.
-7. `canon/16_SCENES.md`.
-8. Other attached canon files.
-9. Older source or scratchpad files.
+5. `canon/21_TIME_AND_HEADER_METADATA.md`, if attached.
+6. `canon/05_CHARACTERS.md`.
+7. `canon/15_SETTINGS.md`.
+8. `canon/16_SCENES.md`.
+9. Other attached canon files.
+10. Older source or scratchpad files.
 
 Do not invent missing canon.
 
@@ -94,6 +95,7 @@ Preserve:
 - character names and titles;
 - continuity state in;
 - continuity state out;
+- temporal metadata and certainty level;
 - specified insertions from standalone vision / interlude files;
 - unresolved mysteries that the packet says should remain unresolved.
 
@@ -103,12 +105,40 @@ Dramatize beats that change emotion, power, knowledge, relationship, danger, or 
 
 ---
 
+# Temporal Metadata Handling
+
+If the packet requests temporal header metadata, include it under the chapter title or relevant visible subchapter headings.
+
+Use this display format:
+
+```md
+<Weekday>, <Day Number> <Month>
+<Hour Name> (<relative anchor note>)
+```
+
+Example:
+
+```md
+Kindlemask, 1 Hearthwake
+Hour of the Gargoyle (1 hour before midnight)
+```
+
+If the packet has subheaders and supplies subheader-level time metadata, use the metadata under the subheaders.
+
+If the packet has no subheaders, use the metadata under the chapter title.
+
+Do not invent exact hours. If time is `Approximate` or `TBD`, preserve that uncertainty.
+
+---
+
 # Output Format
 
 Output format:
 
 ```md
 # [CHAPTER TITLE]
+
+[OPTIONAL TEMPORAL METADATA IF REQUESTED]
 
 [PROSE]
 ```
@@ -134,9 +164,10 @@ Before finalizing, silently verify:
 3. Exact dialogue locks stayed exact.
 4. The setting matches the setting files.
 5. Character names match canon.
-6. The ending state matches the packet.
-7. No later canon was revealed early.
-8. No new plot mechanics were invented.
+6. The temporal metadata matches the packet.
+7. The ending state matches the packet.
+8. No later canon was revealed early.
+9. No new plot mechanics were invented.
 
 Then output the prose only.
 
@@ -156,6 +187,7 @@ REQUIRED FILES ATTACHED:
 - canon/05_CHARACTERS.md
 - canon/15_SETTINGS.md
 - canon/16_SCENES.md
+- canon/21_TIME_AND_HEADER_METADATA.md
 - canon/PROMPT_SUPPORT_CANON_LOCKS.md
 - <primary packet file>
 - <chapter-specific file>
@@ -169,6 +201,8 @@ OPTIONAL FILES ATTACHED:
 TARGET LENGTH / STOPPING RULE:
 
 VISIBLE SUBCHAPTER HEADINGS? yes/no
+
+TEMPORAL HEADER METADATA? chapter-level / subchapter-level / both / no
 
 SPECIAL USER INSTRUCTION FOR THIS RUN:
 ```
@@ -185,6 +219,7 @@ REQUIRED FILES ATTACHED:
 - canon/16_SCENES.md
 - canon/10_BOOK01_CHAPTER_OUTLINES.md
 - canon/12_BOOK01_CALENDAR_TIMELINE.md
+- canon/21_TIME_AND_HEADER_METADATA.md
 - canon/PROMPT_SUPPORT_CANON_LOCKS.md
 - drafts/01_17_children_of_the_damned.md
 - locales/images/analysis/PFN.analysis.json
@@ -198,6 +233,7 @@ REQUIRED FILES ATTACHED:
 - canon/05_CHARACTERS.md
 - canon/15_SETTINGS.md
 - canon/16_SCENES.md
+- canon/21_TIME_AND_HEADER_METADATA.md
 - canon/PROMPT_SUPPORT_CANON_LOCKS.md
 - drafts/01_15_the_cities_that_disobeyed.md
 - drafts/visions/01_03.md
@@ -214,6 +250,7 @@ REQUIRED FILES ATTACHED:
 - canon/12_HANS_FILE_NOEL_EXILE.md
 - canon/15_SETTINGS.md
 - canon/16_SCENES.md
+- canon/21_TIME_AND_HEADER_METADATA.md
 - canon/PROMPT_SUPPORT_CANON_LOCKS.md
 - drafts/14_09_second_vision_parse.md
 - drafts/14_09_second_vision_name_corrections.md
