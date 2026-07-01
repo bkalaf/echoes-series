@@ -16,10 +16,14 @@ The current goal is not only to preserve world canon, but also to make chapter c
 - `07_CONTINUITY_LEDGER.md` — continuity warnings and unresolved items.
 - `08_RESEARCH_REFERENCES.md` — WWII, science, myth, and atrocity reference structure.
 - `09_STYLE_AND_PROSE_RULES.md` — prose and drafting rules.
+- `10_BOOK01_CHAPTER_OUTLINES.md` — Book 01 chapter-outline index and parse-state map.
+- `12_BOOK01_CALENDAR_TIMELINE.md` — Book 01 date / weekday / visible-subchapter calendar mapping.
 - `14_VISUAL_BIBLE_IMAGE_PASS.md` — synthesized visual-reference layer for characters, settings, Witnesses, constellations, and symbolic object language. This file does not replace character/world/reward canon; it links into those sections.
 - `15_IMAGE_UPLOAD_REGISTER.md` — comprehensive ledger of every uploaded image batch so visual references are not lost or reduced to only the highlighted examples.
+- `16_SCENES.md` — scene registry with source, date/time, setting, cast, and function.
 - `17_CHARACTER_GESTURE_SIGNALS.md` — recurring physical habits, fidgets, eye-mail communication rules, Addie pendant authority, and reader-signal behavior.
 - `18_MOTHER_SYSTEM_ARC.md` — Mother / Dianne’s long-term system-character arc, including the reciprocal-simulation realization and concept-art-derived city-analysis hypotheses.
+- `CITY_ANALYSISES.md` — writer-facing synthesis of image-derived city analysis files.
 
 ## Top Rule
 
