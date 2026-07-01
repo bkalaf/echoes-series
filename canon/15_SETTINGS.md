@@ -35,10 +35,14 @@ A **scene** is not the same thing. Scenes are tracked separately in [`16_SCENES.
 | SET-SPK-GALE-314 | Room | Room 314 | Gale Exposition hotel | `drafts/01_02_the_nomination.md` | Addie's private decompression, pendant / Mark of the Orbs inspection, and interrupted red/blue hair-dye scene. |
 | SET-SPK-MERIDIAN-GUILDHALL | Building | Meridian Accord Guildhall | Skyrend Peak | `drafts/01_02_the_nomination.md` | Guild crisis space where Addie is nominated. |
 | SET-SPK-KWAME-OFFICE | Room | Guildmaster Kwame Odion Mensah's office | Meridian Accord Guildhall | `drafts/01_02_the_nomination.md` | Nomination reveal; later Addie is confined here before Concord extracts her. |
+| SET-SPK-GUILD-ACADEMIC-DISTRICT | District / section | Meridian Accord academic-guild district | Skyrend Peak | `drafts/01_04_the_weight_of_the_beacon.md` | Civic knowledge / guild-service district around the Meridian Accord Guildhall. Built vertically through tower offices, narrow ramps, rope-bridge connection points, watch sightlines, and controlled public approaches. |
 | SET-SPK-GUILD-ELEVATOR | Internal transit | Meridian Accord elevator / internal transit | Meridian Accord Guildhall | `drafts/01_04_the_weight_of_the_beacon.md` | Movement route during Addie's extraction. |
 | SET-SPK-GUILD-LOBBY | Building section | Guildhall lobby | Meridian Accord Guildhall | `drafts/01_04_the_weight_of_the_beacon.md` | Concord detail and public extraction sequence passes through here. |
-| SET-SPK-PUBLIC-STREETS | District / route | Public streets of Skyrend Peak | Skyrend Peak | `drafts/01_04_the_weight_of_the_beacon.md` | Crowd panic, signs, Brickett rescue setup. |
-| SET-SPK-PAWN-SHOP | Site | Temporary pawn-shop refuge | Skyrend Peak | `drafts/01_04_the_weight_of_the_beacon.md` | Forensic geometry / pendant-and-pack-clasp Mark of the Orbs proof scene. |
+| SET-SPK-GUILD-TO-PAWN-RAMP | Route / street ramp | Guildhall-to-pawn-shop public ramp route | Skyrend Peak academic-guild district | `drafts/01_04_the_weight_of_the_beacon.md` | Public extraction route after the Guildhall. It should feel slow and vulnerable because guards must funnel crowds through narrow ramps, high stair turns, rope bridges, ledge platforms, and other vertical connection points. |
+| SET-SPK-BRICK-INCIDENT-RAMP | Street incident site | Brick-incident ramp / public funnel | Guildhall-to-pawn-shop public ramp route | `drafts/01_04_the_weight_of_the_beacon.md` | Specific choke point where the brick incident occurs before the pawn-shop refuge. Use height, crowd pressure, guard cordons, railings, and exposed drop geometry to make the moment physically dangerous. |
+| SET-SPK-PUBLIC-STREETS | District / route | Public streets of Skyrend Peak | Skyrend Peak | `drafts/01_04_the_weight_of_the_beacon.md` | Broad route category for crowd panic, signs, and public movement. For the extraction sequence, prefer the more specific ramp/funnel route settings when possible. |
+| SET-SPK-PAWN-SHOP | Site | Temporary pawn-shop refuge | Skyrend Peak | `drafts/01_04_the_weight_of_the_beacon.md` | Forensic geometry / pendant-and-pack-clasp Mark of the Orbs proof scene. Refuge from the exposed vertical public route after the brick incident. |
+| SET-SPK-POST-PAWN-SECURE-ROUTE | Route / street section | Post-pawn-shop secure route | Skyrend Peak | `drafts/01_04_the_weight_of_the_beacon.md`; `drafts/01_05_the_core_of_the_conjunction.md` | Route from the pawn-shop refuge toward restricted transport / secure portal control. Guard-managed vertical travel through stair funnels, rope bridges, tower passages, and controlled connection points as the blue-beacon deadline approaches. |
 | SET-SPK-SECURE-PORTAL | Restricted transit site | Restricted transit corridor and secure portal platform | Skyrend Peak Portalport | `drafts/01_05_the_core_of_the_conjunction.md` | Transfer route from Skyrend Peak to Aquila Matara. |
 | SET-PORTAL-AQM | Portal route | Portal to Aquila Matara | Skyrend Peak → Aquila Matara | `drafts/01_05_the_core_of_the_conjunction.md` | Forced crisis transfer. |
 | SET-QSR | City | Qasr Siroth | Erzengel / Aurreth / Saffron Locks | `canon/05_CHARACTERS.md`; `drafts/01_02_the_nomination.md` | Addie’s home / origin city. Human city and current capital of the Saffron Locks triad. Skyrend Peak is her Book 1 work-travel location, not her origin. |
@@ -96,6 +100,32 @@ Skyrend Peak is the Book 1 work-travel / Gale Exposition location where the cris
 ## Aquila Matara / Nox Vaelor correction
 
 Mae's estate is in **Aquila Matara**. References to Nox Vaelor attached to Mae should describe background, title culture, noble ties, or Venom-Blade reputation—not the estate's physical location.
+
+## Skyrend Peak extraction route
+
+For `drafts/01_04_the_weight_of_the_beacon.md`, do not write the extraction as a simple flat street walk.
+
+The route should use Skyrend Peak's vertical city logic:
+
+- narrow ramps;
+- rope bridges;
+- stair funnels;
+- ledge platforms;
+- tower passages;
+- guard-controlled connection points;
+- crowds being pushed repeatedly out of the route;
+- visible drop geometry and exposed railings.
+
+This explains why movement through the city is slow, why Major Tallandra has to keep forcing space open, and why the route is vulnerable despite being heavily guarded.
+
+Use the specific settings in sequence when possible:
+
+1. `SET-SPK-GUILD-ACADEMIC-DISTRICT`
+2. `SET-SPK-GUILD-TO-PAWN-RAMP`
+3. `SET-SPK-BRICK-INCIDENT-RAMP`
+4. `SET-SPK-PAWN-SHOP`
+5. `SET-SPK-POST-PAWN-SECURE-ROUTE`
+6. `SET-SPK-SECURE-PORTAL`
 
 ## Portalport spelling
 
