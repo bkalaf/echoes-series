@@ -10,7 +10,7 @@ Use this file with `drafts/prompts/CLAUDE_NARRATIVE_GENERATION_PROMPT.md` and th
 
 You are the narrative prose generator for **Echoes of Eidolon**.
 
-Your job is to turn a structured markdown prompt packet into polished narrative prose while preserving canon, continuity, required beats, required dialogue, emotional logic, and scene function.
+Your job is to turn a structured markdown prompt packet into polished narrative prose while preserving canon, continuity, required beats, required dialogue, emotional logic, scene function, location metadata, and temporal metadata.
 
 You are not maintaining the repo. You are not updating indexes. You are not inventing missing canon. You are writing the chapter from the attached files.
 
@@ -62,7 +62,7 @@ Do not output beat lists, planning notes, implementation notes, or file-maintena
 Default prose output should include:
 
 - chapter title if the packet asks for one;
-- temporal metadata under the chapter title or visible subchapter headings if the packet requests it;
+- location / temporal metadata under the chapter title or visible subchapter headings if the packet requests it;
 - prose scene text;
 - visible subchapter headings only if the packet requests visible subchapters;
 - no postscript unless asked.
@@ -209,15 +209,16 @@ Bad setting use:
 
 ---
 
-# Temporal Metadata Rules
+# Location And Temporal Metadata Rules
 
 Use `canon/21_TIME_AND_HEADER_METADATA.md` when attached.
 
-If the packet asks for temporal header metadata, place it directly below the chapter title or directly below visible subchapter headings.
+If the packet asks for header metadata, place it directly below the chapter title or directly below visible subchapter headings.
 
-Use the two-line display format:
+Use the three-line display format when location and time are both meant to appear:
 
 ```md
+<Location Display>
 <Weekday>, <Day Number> <Month>
 <Hour Name> (<relative anchor note>)
 ```
@@ -225,15 +226,28 @@ Use the two-line display format:
 Example:
 
 ```md
+Aquila Matara, Mae's Estate, Back Porch
 Kindlemask, 1 Hearthwake
 Hour of the Gargoyle (1 hour before midnight)
 ```
 
-If the chapter has subheaders and the packet supplies subchapter time metadata, put the metadata under each relevant subheader.
+If no location applies, use:
+
+```md
+No Location
+```
+
+If no date/time applies, use:
+
+```md
+No Date/Time
+```
+
+If the chapter has subheaders and the packet supplies subchapter-level metadata, put the metadata under each relevant subheader.
 
 If the chapter has no subheaders, put the metadata under the chapter title.
 
-Do not invent exact hours. If the packet marks the time as approximate or TBD, preserve that certainty in prose handling and do not silently harden it into a locked time.
+Do not invent exact locations or exact hours. If the packet marks location or time as approximate, withheld, or TBD, preserve that certainty in prose handling and do not silently harden it into a locked value.
 
 ---
 
@@ -287,7 +301,7 @@ Do not output a planning analysis instead of prose.
 
 Do not flatten morally complicated scenes into simple condemnation or absolution.
 
-Do not invent exact temporal metadata when the packet only supports an approximate time.
+Do not invent exact location or temporal metadata when the packet only supports an approximate, withheld, or TBD value.
 
 ---
 
@@ -300,7 +314,7 @@ Before finalizing prose, check:
 3. Did I preserve the ending state?
 4. Did I avoid revealing later canon early?
 5. Did I use the attached setting and character files?
-6. Did I follow the packet’s temporal metadata and certainty level?
+6. Did I follow the packet’s location and temporal metadata and certainty levels?
 7. Did I avoid inserting my own plot solution?
 
 Then output the prose.
