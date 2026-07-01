@@ -133,7 +133,7 @@ Pollyr Fen:
 
 # Company / Restitution Context
 
-Use **South Aurreth Shipping Co.** as the working formal company name.
+Use **Van'Kareth South Aurreth Shipping Co.** as the working formal company name.
 
 Context:
 
@@ -166,7 +166,7 @@ Suggested visible subchapters:
 15. Blood Money
 16. Brickett's Errand
 17. The Easy Way Back
-18. South Aurreth Shipping Co.
+18. Van'Kareth South Aurreth Shipping Co.
 19. Protection
 20. Children Of The Damned
 
@@ -610,7 +610,7 @@ Suggested visible subchapters:
 20. The orange turn confirms that the graveyard truth, the preserved story, and Mae's restitution have completed the next checkpoint.
 21. Let this land in stunned silence before Tikket's legal transfer beat begins.
 
-## Subchapter 18 — South Aurreth Shipping Co.
+## Subchapter 18 — Van'Kareth South Aurreth Shipping Co.
 
 1. They return to the religious section / temple area of Pollyr Fen.
 2. Tikket is waiting there.
@@ -624,7 +624,7 @@ Suggested visible subchapters:
 7. Tikket produces documents.
 8. Tikket explains:
 
-> "You, sir, are now the owner of South Aurreth Shipping Co."
+> "You, sir, are now the owner of Van'Kareth South Aurreth Shipping Co."
 
 9. If dialogue needs clarity, Tikket can identify it as a Van'Kareth-controlled southern shipping company.
 10. Tallowmire is confused.
@@ -746,7 +746,7 @@ Suggested visible subchapters:
 
 ## Tikket Transfer
 
-> "You, sir, are now the owner of South Aurreth Shipping Co."
+> "You, sir, are now the owner of Van'Kareth South Aurreth Shipping Co."
 
 ## Mae On Blood Money
 
@@ -771,7 +771,7 @@ Suggested visible subchapters:
 | Character | Use In Chapter |
 |---|---|
 | Addie | Arrives late, detects morale collapse, solves the cataclysm / frogfolk young logic, gives money for baskets, asks to sit in silence at the graveyard. |
-| Mae | Exhausted and sarcastic, keeps arachne-silk irony, breaks after Van'Kareth blood-money reveal, transfers South Aurreth Shipping Co., promises monuments. |
+| Mae | Exhausted and sarcastic, keeps arachne-silk irony, breaks after Van'Kareth blood-money reveal, transfers Van'Kareth South Aurreth Shipping Co., promises monuments. |
 | Brickett | Late morale signal, false cheer, understands dam mechanics, rides Yurislav's shoulders, realizes the stones are eggs, helps Mae execute restitution, names the new company. |
 | Yurislav | Dry support, carries Brickett, physical steadiness through swamp, growing bond with Brickett. |
 | Matthieu | Late, exhausted, keeps details moving and may doodle diagrams / water-flow logic. |
@@ -808,7 +808,7 @@ This chapter should feel like the real-world clue has finally become morally und
 
 The orange checkpoint has triggered.
 
-Brother Tallowmire G. Reedfen / Pollyr Fen receives South Aurreth Shipping Co. as restitution.
+Brother Tallowmire G. Reedfen / Pollyr Fen receives Van'Kareth South Aurreth Shipping Co. as restitution.
 
 Carrio and Mae both offer protection against Dovren pressure.
 
