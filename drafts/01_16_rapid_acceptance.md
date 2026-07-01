@@ -1,8 +1,15 @@
 # 01_16_rapid_acceptance — Rapid Acceptance
 
-## Detail Level
+## Status
 
-L4 Reconstruction Outline with Dialogue Spine.
+L4 reconstruction outline with dialogue spine.
+
+## Required Canon Links
+
+- `canon/PROMPT_SUPPORT_CANON_LOCKS.md`
+- `canon/15_SETTINGS.md`
+- `canon/16_SCENES.md`
+- `canon/21_TIME_AND_HEADER_METADATA.md`
 
 ## Source
 
@@ -40,9 +47,7 @@ The prior chapter showed too much:
 
 This chapter lets the group sit in the silence afterward and then forces them to talk.
 
-The scene should be dialogue-heavy, stunned, and circular in the right way: they keep returning to the same details because trauma and investigation both work like that.
-
-By the end, they should not have solved the whole founding mystery. They should have stabilized around the next practical move:
+By the end, they should not have solved the whole founding mystery. They should stabilize around the next practical move:
 
 - the dam is still the actionable thread;
 - they need to locate where the historical dam actually was;
@@ -58,7 +63,7 @@ Previous file:
 
 This chapter begins at Mae's manor / estate after the vision return.
 
-The group is no longer in public. This matters. They can finally say the frightening things out loud.
+The group is no longer in public. They can finally say the frightening things out loud.
 
 ---
 
@@ -75,14 +80,11 @@ The group is no longer in public. This matters. They can finally say the frighte
 
 Mae's Aquila Matara estate, specifically the back porch / terrace looking toward the yellow beacon.
 
-Existing setting context:
+Setting context:
 
 - `SET-AQM-MAE-ESTATE`
 - `SET-AQM-MAE-FAMILY-ROOM`
-
-Potential new setting if indexed later:
-
-- `SET-AQM-MAE-BACK-PORCH` — Mae estate back porch / terrace with yellow-beacon sightline.
+- `SET-AQM-MAE-BACK-PORCH`
 
 ---
 
@@ -114,15 +116,11 @@ The staff have been asked to leave the group alone.
 
 ---
 
-# Tikket Lock
+# Tikket Role
 
-Tikket is present because he is Mae's lawyer.
+Tikket is present because he is Mae's lawyer and protected by attorney-client privilege.
 
-He has a law degree and is protected by attorney-client privilege, which is why he can hear sensitive material and take notes without becoming an uncontrolled leak.
-
-He is not there as a servant, spy, or comic bystander.
-
-His role:
+He is there to:
 
 - take notes;
 - provide a legally protected container for the discussion;
@@ -153,7 +151,7 @@ The first part of the chapter should feel almost airless.
 - The color should stain the night, the garden, the glass, the edge of cups / plates / railing, and the companions' faces.
 - Household staff are gone.
 - Tikket sits with notes ready, increasingly aware that this is not an ordinary legal consultation.
-- Brynn hums **"Pull Up Your Green Sleeves"** under her breath during the silence.
+- Brynn hums **Pull Up Your Green Sleeves** under her breath during the silence.
 - Matthieu doodles diagrams / waves / city triads / impossible ships while they sit.
 - Gregory looks physically fragile after vomiting in the prior chapter.
 - Rhün stays close enough to help Gregory again if needed.
@@ -226,10 +224,7 @@ Suggested visible subchapters:
 
 > "What did we just witness?"
 
-12. Clarify the emotional split:
-   - the companions who entered / directly experienced the visions are visibly worse off;
-   - the others are distressed by proximity and waiting for the full download;
-   - the whole group is contaminated by the event, but not equally.
+12. Clarify the emotional split: the direct-vision companions are worse off; the others are distressed by proximity and waiting for the download.
 
 ## Subchapter 3 — The Continuity Piece
 
@@ -245,13 +240,9 @@ Suggested visible subchapters:
 7. Addie says yes: José.
 8. José was in the first meeting / earlier vision.
 9. Frank was not.
-10. Someone asks whether José was older.
-11. Addie says no, not really. Maybe a year or two, but José always looked tired, so it is hard to say.
-12. Frank is different.
-13. Addie says she would have remembered Frank's voice, his Irish accent, and his presence.
-14. There was no one like that in the first meeting.
-15. Yurislav comments that this is notable.
-16. The point: José may be continuity across visions; Frank may represent a later-added / separate thread.
+10. Frank is different: Addie would have remembered his voice, his Irish accent, and his presence.
+11. Yurislav comments that this is notable.
+12. José may be continuity across visions; Frank may represent a later-added / separate thread.
 
 ## Subchapter 4 — A Wall Of Water
 
@@ -261,24 +252,16 @@ Suggested visible subchapters:
 4. Someone outside the direct vision asks what they mean by wave.
 5. Addie / Mae clarifies: a wall of water.
 6. Brickett laughs at first.
-7. He says there is no wave that big; his people have survived everything.
-8. Mae cuts him off.
-9. Required Mae idea:
+7. Mae cuts him off.
+8. Required Mae idea:
 
 > "No, Brickett. You do not understand. We saw the wave. It was enormous. You saw the Three Hundred Steps up to the Conclave? Imagine that times ten."
 
-10. Brickett gulps.
-11. Brickett hides behind Rhün.
-12. Rhün does not stop him.
-13. Matthieu, still doodling, says to keep going before they forget important details.
-14. Brynn's humming may get quieter here or stop for a few breaths.
-15. Addie / Mae / others explain:
-   - the cataclysm was coming;
-   - people were screaming;
-   - the ships were huge / monstrous;
-   - they could not have taken everyone;
-   - but they could have taken some;
-   - the ships pulled away anyway.
+9. Brickett gulps and hides behind Rhün.
+10. Rhün does not stop him.
+11. Matthieu, still doodling, says to keep going before they forget important details.
+12. Brynn's humming may get quieter here or stop for a few breaths.
+13. Addie / Mae / others explain the cataclysm, the screaming, the huge ships, and the fact that the ships pulled away.
 
 ## Subchapter 5 — Some Or None
 
@@ -290,48 +273,31 @@ Suggested visible subchapters:
 3. Everyone looks at her.
 4. Tallandra does not back down.
 5. She says she understands how the group feels about guards / command / authority, but the question is what else could have been done at that moment.
-6. If they opened the ships / gates to the panicked crowd, people might have fought or killed each other.
-7. That could have risked everyone already aboard.
-8. The ships may have been full.
-9. Even if half full, they still could not accommodate everyone.
-10. Who chooses who gets on?
-11. Which is more monstrous:
-    - leaving them all;
-    - or choosing a few while the rest are forced to watch themselves be denied?
-12. The group slowly understands that Tallandra is partially right.
-13. Tallandra says they should have let people on earlier. Flat out.
-14. That was the real failure.
-15. But once better information arrived, it may have already been too late.
-16. Required line / idea:
+6. Opening the ships / gates to a panicked crowd could have risked everyone already aboard.
+7. The ships may have been full.
+8. Even if half full, they still could not accommodate everyone.
+9. Who chooses who gets on?
+10. Which is more monstrous: leaving them all, or choosing a few while the rest watch themselves be denied?
+11. Tallandra says they should have let people on earlier. That was the real failure.
+12. Once better information arrived, it may have already been too late.
+13. Required line / idea:
 
 > "Sometimes you have to pick some. You have to pick the lesser of two evils."
 
-17. This should not absolve José completely.
-18. It should complicate the moral read.
-19. Addie should dislike that the complication is fair.
+14. This should not absolve José completely; it should complicate the moral read.
+15. Addie should dislike that the complication is fair.
 
 ## Subchapter 6 — The Cities In The Room
 
 1. The group explains Frank leaving on his flying machine.
 2. They explain José leaving on his flying machine / helicopter.
 3. They explain the ships barely making it over the wave before the vision ended.
-4. They move into the fourth vision: Dovren and the twenty-four.
-5. They describe the city representatives present.
-6. They identify what they can:
-   - obvious trolls if present;
-   - obvious Human city representatives;
-   - obvious Mythos / Beastfolk visual distinctions;
-   - any banners, crests, clothing, or language that gave city identity away.
-7. They name the cities Dovren explicitly called out for disobedience:
-   - Khembal;
-   - Qinyue;
-   - Skjarnheim.
-8. They name the rewarded / replacement cities:
-   - Luminthalas;
-   - Grendhollow;
-   - Nox Vaelor.
-9. Tikket should be taking notes quickly and increasingly badly.
-10. The discussion should make the triad structure feel visible but not fully understood.
+4. They move into the Dovren civic-founding vision.
+5. They identify what they can from banners, crests, clothing, obvious species/city markers, and named cities.
+6. They name the cities Dovren explicitly called out for disobedience: Khembal, Qinyue, Skjarnheim.
+7. They name the rewarded / replacement cities: Luminthalas, Grendhollow, Nox Vaelor.
+8. Tikket should be taking notes quickly and increasingly badly.
+9. The discussion should make the triad structure feel visible but not fully understood.
 
 ## Subchapter 7 — The False Threads
 
@@ -347,31 +313,28 @@ Suggested visible subchapters:
 
 > "You all did notice the Human cities he called out were Chinese, Norse, and West African, right?"
 
-7. No one says anything.
-8. Brickett identifies the pattern:
+7. Brickett identifies the pattern:
    - Qinyue connects to the Red Thread of Fate lane / Chinese thread clue;
    - Skjarnheim connects to the Thread of the Norns / Norse thread clue;
    - Khembal is West African and does not match those false-thread traditions;
    - Luminthalas is where they were when they solved the clue.
-9. Brickett says the Red Thread of Fate and Thread of the Norns were the false threads.
-10. Luminthalas / Khembal was the outlier that made the Ariadne path work.
-11. The room sits with that.
-12. Brickett should not become suddenly scholarly; he notices the mundane / overlooked pattern because that is his gift.
-13. Addie should feel a sharp click of confirmation and discomfort.
+8. Brickett says the Red Thread of Fate and Thread of the Norns were the false threads.
+9. Luminthalas / Khembal was the outlier that made the Ariadne path work.
+10. Brickett should not become suddenly scholarly; he notices the mundane / overlooked pattern because that is his gift.
+11. Addie should feel a sharp click of confirmation and discomfort.
 
 ## Subchapter 8 — The Ancestor At The Table
 
 1. Mae talks about seeing her ancestor / early Van'Kareth figure in the Nox Vaelor delegation.
 2. She describes how gross it felt.
-3. The ancestor was not merely surviving; they were pre-complying / collaborating with an occupying or dominant force.
+3. The ancestor was not merely surviving; they were pre-complying / collaborating with a dominant force.
 4. They were negotiating for trade routes and advantage while Dovren spoke in horrific terms.
 5. Mae should not melt into shame.
 6. She should be angry at the clarity of the benefit.
 7. She can say it felt like watching her family learn how to profit from someone else's punishment.
-8. Carrio may understand the aristocratic sickness of that faster than the others.
+8. Carrio may understand the aristocratic sickness faster than the others.
 9. Yurislav may be quiet because elite favor and Dovren-shaped approval touch his own wound.
-10. Addie should notice that Mae is not asking to be comforted.
-11. Mae is asking the room to understand that the rot is older than anyone wants it to be.
+10. Addie should notice that Mae is not asking to be comforted; she is asking the room to understand that the rot is older than anyone wants it to be.
 
 ## Subchapter 9 — The Dam Again
 
@@ -383,19 +346,18 @@ Suggested visible subchapters:
 3. Brynn says there has to be something there.
 4. The group goes over the details again.
 5. They circle José, Frank, wave, ships, Dovren, cities, punishment, false threads.
-6. There should be a lot of dialogue, but the important point is that they do not magically solve everything.
-7. What emerges is not a full answer but a narrowed action:
+6. What emerges is not a full answer but a narrowed action:
    - the dam is still the thing;
    - the dam is the physical anchor that connects catastrophe, river, city, and atrocity;
    - they need the dam's true location.
-8. The dam may have been misrecorded, renamed, erased, or politically displaced.
-9. The plan forms:
+7. The dam may have been misrecorded, renamed, erased, or politically displaced.
+8. The plan forms:
    - split into groups of two, with one group of three;
    - cycle through cities on / around the Jadefall River;
    - narrow down where the dam actually was;
    - cross-check official records against local story and physical geography.
-10. This plan should feel practical and inadequate at the same time.
-11. They decide to call it a night because continuing in circles will not produce clarity.
+9. This plan should feel practical and inadequate at the same time.
+10. They decide to call it a night because continuing in circles will not produce clarity.
 
 ## Subchapter 10 — Rapid Acceptance
 
@@ -473,17 +435,12 @@ Suggested visible subchapters:
 | Tikket | Attorney-client container, note-taker, normal-person shock response. |
 | Gregory | Continuity discipline, overwhelmed scholar, names that the visions gave too much but no route. |
 | Brickett | Notices the false-thread city-pattern clue; hides behind Rhün when wave scale lands. |
-| Rhün | Quiet support for Gregory and Brickett; later supplies "rapid acceptance" logic through Yurislav? No — keep Rhün supportive and silent here unless needed. |
+| Rhün | Quiet physical support for Gregory and Brickett; steady presence. |
 | Yurislav | Gives the actual "rapid acceptance" line while pocketing his coin. |
 | Matthieu | Doodles through the silence and pushes for details before memory decay. |
 | Tallandra | Complicates the moral read of José's ship decision; lesser-evil command logic. |
 | Brynn | Hums Pull Up Your Green Sleeves; says there has to be something there when Gregory feels lost. |
 | Carrio | Can support Mae's aristocratic/political read and understand the trade-route rot. |
-
-Correction:
-
-- The **Rapid Acceptance** line belongs to **Yurislav**, not Rhün.
-- Rhün's role in this chapter is physical comfort / steady presence, especially with Gregory and Brickett.
 
 ---
 
@@ -497,22 +454,3 @@ The chapter should end with the next practical mission:
 - Compare records, folklore, river geography, and erased / renamed sites.
 
 Do not solve the dam location in this chapter.
-
----
-
-# Continuity Corrections / Active Locks
-
-- Use **Tikket**, not Ticket / Tikkit, unless later spelling changes.
-- Tikket is Mae's lawyer and has attorney-client privilege.
-- Use **Mae**, not May.
-- Use **Yurislav**, not Yuri, in narration unless a character uses a nickname intentionally.
-- Use **Brynn H. Stonevein**.
-- Brynn hums **Pull Up Your Green Sleeves**.
-- Use **Major Tallandra H. Highwatch**.
-- Use **High Theorist Matthieu H. Cardinal**.
-- Use **Gregory H. Frydrake**.
-- Use **Rhün H. Ignis**.
-- Brickett is a 14-year-old beaver beastfolk.
-- Addie's heirloom is the simple silver pendant necklace.
-- The yellow beacon remains active / visible during the porch scene.
-- The seventy-three cities means the 72-city structure plus Aquila Matara.
