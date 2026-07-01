@@ -144,9 +144,10 @@ A cherub or celestial character from the celestial city may validly have only a 
 - Day 3 of the Conjunction month: **green beacon** / effective Conjunction onset.
 - Book 01 date lock:
   - Prologue begins on **Yearsend 29, Kindlemask**.
-  - Purple beacon lights on **Hearthwake 1, Sonntag**.
-  - Blue beacon lights on **Hearthwake 2, Dravenkar**.
-  - Green beacon lights and the active Conjunction begins on **Hearthwake 3, Stonewake**.
+  - Purple beacon lights on **Hearthwake 1, Dravenkar**.
+  - Blue beacon lights on **Hearthwake 2, Stonewake**.
+  - Green beacon lights and the active Conjunction begins on **Hearthwake 3, Aegalor**.
+- **Sonntag is not an active weekday in Book 01.** It remains hidden and should not enter the weekday cycle until Book 18.
 - The old shorthand `25-day Conjunction + 3 days off` is superseded for current Book 01 drafting by the 29-day month model above.
 - Beacon colors:
   - Purple: 48-hour countdown prepare / announcement.
@@ -157,7 +158,7 @@ A cherub or celestial character from the celestial city may validly have only a 
   - Red: objective complete witness ready for battle.
   - Red, pulsing: final countdown, pulsing.
 
-## Days
+## Active Weekdays Before Book 18
 
 | # | Day | Meaning |
 |---:|---|---|
@@ -169,7 +170,12 @@ A cherub or celestial character from the celestial city may validly have only a 
 | 6 | ELDRANE | Elves |
 | 7 | KARSKOV | Russian |
 | 8 | KINDLEMASK | Fire / kindling irony; Brickett’s fire obsession, not a raccoon marker |
-| 9 | SONNTAG | Hidden day / Savior |
+
+### Hidden Weekday / Book 18 Reveal
+
+| Hidden Day | Status | Meaning |
+|---|---|---|
+| SONNTAG | Not an active weekday until Book 18 | Hidden day / Savior |
 
 ## Zodiac Horizon / Constellation Sky Logic
 
