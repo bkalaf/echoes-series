@@ -13,9 +13,9 @@ This folder holds standalone vision fragments / sequences so the main chapter ou
 | File | Status | Description |
 |---|---|---|
 | `01_01.md` | Stub | Book 01 Vision 01 placeholder. |
-| `01_02.md` | Stub | Book 01 Vision 02 placeholder. |
-| `01_03.md` | Stub | Book 01 Vision 03 placeholder. |
-| `01_04.md` | Stub | Book 01 Vision 04 placeholder. |
+| `01_02.md` | Extracted L4 | The Last Ships; José orders evacuation ships away and civilians are left behind before the wave. |
+| `01_03.md` | Extracted L4 | Get Us In The Air; José sees the wave, the ships appear to climb it, and the propulsion mystery is preserved. |
+| `01_04.md` | Extracted L4 | The Cities That Disobeyed; Dovren rewards replacement capitals, punishes Khembal / Qinyue / Skjarnheim, and exposes the capital-status leash. |
 | `01_05.md` | Drafted L4 | José and Noel at Nikolai headquarters; Noel fires José, withholds seats, and coerces him into sabotaging Hans / Frank and transport capacity. |
 | `01_06.md` | Stub | Book 01 Vision 06 placeholder. |
 | `17_01.md` | Stub | Hans and Noel before the explosion; Noel tries to stop Hans's crusade and reveals Frank's cheating. |
