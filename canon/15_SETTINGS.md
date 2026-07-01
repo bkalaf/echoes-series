@@ -61,10 +61,10 @@ A **scene** is not the same thing. Scenes are tracked separately in [`16_SCENES.
 | SET-AQM-MAE-EXTERIOR | Estate exterior | Mae estate exterior under reporter pressure | Mae's Aquila Matara estate | `drafts/01_09_day_one_architecture.md` | Crowds, reporters, house guards, Brimscale at the gate, and Ashwing overhead. |
 | SET-AQM-MAE-FAMILY-ROOM | Estate interior | Mae estate high-fire family room | Mae's Aquila Matara estate | `drafts/01_12_the_unwound_core.md` | Manor-return synthesis room: green-beacon window view, broadcast feed, Mark-of-the-Orbs artifact comparison, and folklore-thread pivot. |
 | SET-AQM-TERMINAL | Transit hub | Aquila Matara terminal / Portalport route | Aquila Matara | `drafts/01_10_holes_in_the_wall.md` | Day-one team split and Brickett false-intervention beat before portal travel. |
-| SET-LUM-PORTALPORT | Transit hub | Luminthalas Portalport / arrival terminal | Luminthalas | `drafts/01_10_holes_in_the_wall.md` | Team Three arrives here before descending into the lower quarters. |
+| SET-LUM-PORTALPORT | Transit hub | Luminthalas Portalport / arrival terminal | Luminthalas Section 5 | `drafts/01_10_holes_in_the_wall.md`; `drafts/01_14_the_law_telling_us_to_forget.md` | Locked to Section 5 / Arcane-Alchemy district for the Day Four route; the companions must walk across Luminthalas from here to the White Tower Archives in Section 1. |
 | SET-LUM-LOWER-QUARTERS | District | Luminthalas lower quarters | Luminthalas | `drafts/01_10_holes_in_the_wall.md` | Cold, soot-dark, class-stratified district below high-elf skybridges. |
 | SET-LUM-TALLOW-DISTRICT | District / lane | Tallow district / tallow-tier | Luminthalas lower quarters | `drafts/01_10_holes_in_the_wall.md` | Queue, restaurant line, nobles, peacekeeper lockdown, and Addie's lunar-light standoff. Term spelling to confirm. |
-| SET-LUM-WHITE-TOWER-ARCHIVES | Archive / institution | White Tower Archives | Luminthalas | `drafts/01_10_holes_in_the_wall.md` | Gregory, Brickett, and Rhün research Luminthalas / Horror / thread records here. |
+| SET-LUM-WHITE-TOWER-ARCHIVES | Archive / institution | White Tower Archives | Luminthalas Section 1 | `drafts/01_10_holes_in_the_wall.md`; `drafts/01_14_the_law_telling_us_to_forget.md` | Locked to Section 1 / University-Lyceum civic scholarship district; Gregory, Brickett, and Rhün previously researched here, and the full group returns here on Day Four. |
 | SET-AES-SIDHAL | City / enclave | Aes Sidhal | Stairway Highlands | `drafts/01_10_holes_in_the_wall.md` | Ancient Satyr city / traditionalist enclave; spelling to confirm. |
 | SET-AES-SIDHAL-ACADEMY | Archive / institution | Satyr Arcane Academy | Aes Sidhal | `drafts/01_10_holes_in_the_wall.md` | Matthieu, Yurislav, and Major Tallandra investigate Bountiful Dam records here. |
 | SET-WITNESS-VOID | Metaphysical space | The scene between stories | N/A | `drafts/01_03_the_witnesses.md` | Mother-created non-physical void-space where Witnesses gather. |
@@ -93,6 +93,10 @@ Mae's estate is in **Aquila Matara**. References to Nox Vaelor attached to Mae s
 ## Portalport spelling
 
 `Portalport` / `Portal Port` remains a spelling-standardization item before prose lock.
+
+## Luminthalas section locks
+
+For the Book 01 Day Four route in `drafts/01_14_the_law_telling_us_to_forget.md`, Luminthalas Portalport is locked to **Section 5** and the White Tower Archives are locked to **Section 1**. This creates the required long walk across the city.
 
 ## Luminthalas restaurant naming
 
