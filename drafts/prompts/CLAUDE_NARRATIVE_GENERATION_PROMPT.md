@@ -95,6 +95,7 @@ Preserve:
 - character names and titles;
 - continuity state in;
 - continuity state out;
+- location metadata and certainty level;
 - temporal metadata and certainty level;
 - specified insertions from standalone vision / interlude files;
 - unresolved mysteries that the packet says should remain unresolved.
@@ -105,13 +106,14 @@ Dramatize beats that change emotion, power, knowledge, relationship, danger, or 
 
 ---
 
-# Temporal Metadata Handling
+# Location And Temporal Metadata Handling
 
-If the packet requests temporal header metadata, include it under the chapter title or relevant visible subchapter headings.
+If the packet requests header metadata, include it under the chapter title or relevant visible subchapter headings.
 
-Use this display format:
+Use this display format when location and time are both meant to appear:
 
 ```md
+<Location Display>
 <Weekday>, <Day Number> <Month>
 <Hour Name> (<relative anchor note>)
 ```
@@ -119,15 +121,28 @@ Use this display format:
 Example:
 
 ```md
+Aquila Matara, Mae's Estate, Back Porch
 Kindlemask, 1 Hearthwake
 Hour of the Gargoyle (1 hour before midnight)
 ```
 
-If the packet has subheaders and supplies subheader-level time metadata, use the metadata under the subheaders.
+If no location applies, use:
+
+```md
+No Location
+```
+
+If no date/time applies, use:
+
+```md
+No Date/Time
+```
+
+If the packet has subheaders and supplies subheader-level metadata, use the metadata under the subheaders.
 
 If the packet has no subheaders, use the metadata under the chapter title.
 
-Do not invent exact hours. If time is `Approximate` or `TBD`, preserve that uncertainty.
+Do not invent exact locations or exact hours. If location or time is `Approximate`, `TBD`, `Withheld`, `No Location`, or `No Date/Time`, preserve that status.
 
 ---
 
@@ -138,7 +153,7 @@ Output format:
 ```md
 # [CHAPTER TITLE]
 
-[OPTIONAL TEMPORAL METADATA IF REQUESTED]
+[OPTIONAL LOCATION / TEMPORAL METADATA IF REQUESTED]
 
 [PROSE]
 ```
@@ -164,10 +179,11 @@ Before finalizing, silently verify:
 3. Exact dialogue locks stayed exact.
 4. The setting matches the setting files.
 5. Character names match canon.
-6. The temporal metadata matches the packet.
-7. The ending state matches the packet.
-8. No later canon was revealed early.
-9. No new plot mechanics were invented.
+6. The location metadata matches the packet.
+7. The temporal metadata matches the packet.
+8. The ending state matches the packet.
+9. No later canon was revealed early.
+10. No new plot mechanics were invented.
 
 Then output the prose only.
 
@@ -202,7 +218,11 @@ TARGET LENGTH / STOPPING RULE:
 
 VISIBLE SUBCHAPTER HEADINGS? yes/no
 
-TEMPORAL HEADER METADATA? chapter-level / subchapter-level / both / no
+HEADER METADATA? chapter-level / subchapter-level / both / no
+
+LOCATION METADATA STATUS? Specific / Partial / No Location / Location Withheld / Metaphysical / Historical / Vision
+
+DATE/TIME METADATA STATUS? Dated / Approximate / TBD / No Date/Time / Date/Time Withheld
 
 SPECIAL USER INSTRUCTION FOR THIS RUN:
 ```
