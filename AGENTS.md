@@ -2,7 +2,7 @@
 
 This repository is the working canon, outline, and generation-prep system for **Echoes of Eidolon**.
 
-The goal is not just to collect notes. The goal is to maintain **prompt-ready markdown packets** that can reliably generate narrative prose without losing canon, settings, scene continuity, source beats, or cross-file accountability.
+The goal is not just to collect notes. The goal is to maintain **prompt-ready markdown packets** that can reliably generate narrative prose without losing canon, settings, scene continuity, source beats, temporal metadata, location metadata, or cross-file accountability.
 
 These rules apply to every agent or assistant working in this repo.
 
@@ -18,11 +18,13 @@ A usable draft should be able to answer these questions without relying on chat 
 2. Where does it go?
 3. What files must be attached when generating prose?
 4. What settings does it use?
-5. What characters does it use?
-6. What canon files does it depend on?
-7. What beats must be preserved?
-8. What dialogue must be preserved exactly?
-9. What state must the story be in when the chapter ends?
+5. What location metadata should appear in the prompt or prose header?
+6. What date / weekday / hour metadata should appear in the prompt or prose header?
+7. What characters does it use?
+8. What canon files does it depend on?
+9. What beats must be preserved?
+10. What dialogue must be preserved exactly?
+11. What state must the story be in when the chapter ends?
 
 If a file cannot answer those questions, it is not prompt-ready.
 
@@ -52,6 +54,7 @@ Every time a narrative chapter, vision, interlude, or meaningful scene is added 
 - `drafts/README.md`
 - `canon/15_SETTINGS.md`
 - `canon/16_SCENES.md`
+- `canon/21_TIME_AND_HEADER_METADATA.md`
 
 ## For Book 1 changes, also check
 
@@ -111,6 +114,32 @@ Settings are reusable places. Scenes are time-bound events. Do not confuse them.
 
 ---
 
+# Location And Temporal Metadata Are Not Optional Either
+
+Every prompt-ready normal narrative chapter must explicitly carry location and date/time metadata.
+
+Use `canon/21_TIME_AND_HEADER_METADATA.md` as the standard.
+
+Do not silently omit location or time fields. If no location or no date/time applies, say that explicitly.
+
+Allowed examples:
+
+- `No Location`
+- `No Date/Time`
+- `Location Withheld`
+- `Date/Time Withheld`
+- `Hour TBD`
+
+Normal narrative chapters should not be marked prompt-ready while required date/time remains `TBD`.
+
+Dear Reader interludes may use `No Location` and `No Date/Time`.
+
+Visions may use `Historical / Vision`, `Metaphysical`, or `No Date/Time` depending on whether the header should expose a historical date or only the witnessing context.
+
+If `Location Status` is not `No Location`, at least one location field must be populated.
+
+---
+
 # Scenes Must Be Maintained
 
 Every meaningful narrative unit needs a row in `canon/16_SCENES.md` with:
@@ -141,6 +170,7 @@ Move spelling corrections, name corrections, “use X not Y” notes, and global
 Preferred locations:
 
 - Global prompt/canon usage locks: `canon/PROMPT_SUPPORT_CANON_LOCKS.md`
+- Calendar, location header, and time metadata standard: `canon/21_TIME_AND_HEADER_METADATA.md`
 - Character names / identity / current locks: `canon/05_CHARACTERS.md`
 - Settings: `canon/15_SETTINGS.md`
 - Scenes: `canon/16_SCENES.md`
@@ -186,7 +216,19 @@ Use this structure:
 | Required Attachments | List exact files to submit with the prose-generation prompt |
 | Optional Attachments | List helpful but non-required files |
 | Required Canon | List canon files this draft depends on |
-| Settings Used | List setting IDs |
+| Location Status | Specific / Partial / No Location / Location Withheld / Metaphysical / Historical / Vision |
+| Location Display | Comma-separated display line or `No Location` |
+| City-State / Region | City-state, region, or broad source layer if known |
+| City | City name if known |
+| District / Section / Quarter | District, section, quarter, or neighborhood if known |
+| Specific Setting / Site | Building, room, landmark, route, or site if known |
+| Settings Used | List exact setting IDs |
+| Date / Time Status | Dated / Approximate / TBD / No Date/Time / Date/Time Withheld |
+| Date | Day Number + Month, `No Date/Time`, or `TBD` |
+| Weekday | Weekday, `No Date/Time`, or `TBD` |
+| Time / Hour | Hour name + anchor note, `Hour TBD`, or `No Date/Time` |
+| Time Certainty | Locked / Approximate / TBD / Not Applicable / Withheld |
+| Visible Header Metadata | Chapter-level / Subchapter-level / Both / None / Withheld |
 | Scene IDs | List scene IDs |
 | Cast | Link or list major cast |
 | Continuity State In | One-line state at chapter start |
@@ -198,6 +240,7 @@ Then use these sections:
 ```md
 ## Generation Brief
 ## Placement
+## Location & Temporal Metadata
 ## POV / Tone
 ## Settings
 ## Cast
@@ -223,6 +266,7 @@ Minimum expected attachments for normal chapter generation:
 - `canon/05_CHARACTERS.md`
 - `canon/15_SETTINGS.md`
 - `canon/16_SCENES.md`
+- `canon/21_TIME_AND_HEADER_METADATA.md`
 - `canon/PROMPT_SUPPORT_CANON_LOCKS.md` once created.
 - Any directly referenced vision/interlude/source file.
 
@@ -249,6 +293,8 @@ Book 1 chapter prompt / parsed outline files.
 Expected content:
 
 - placement
+- location metadata
+- temporal metadata
 - settings
 - cast
 - function
@@ -274,6 +320,7 @@ Expected content:
 - vision number
 - source
 - parent chapter / insertion point
+- location / temporal status
 - setting
 - cast
 - purpose
@@ -289,7 +336,8 @@ Expected content depends on status:
 
 - final prose files should read like prose;
 - prompt files should have beats and dependencies;
-- source cards must clearly say they are not enough for final generation.
+- source cards must clearly say they are not enough for final generation;
+- non-diegetic interludes should explicitly mark `No Location` and `No Date/Time`.
 
 ## `drafts/prompts/*.md`
 
@@ -349,10 +397,11 @@ Before finishing a repo change, answer these:
 1. Did I update every affected index?
 2. Did I add every new setting to `canon/15_SETTINGS.md`?
 3. Did I add or update every affected scene in `canon/16_SCENES.md`?
-4. Did I remove correction clutter from prompt-ready chapter files?
-5. Did I list exact required attachments in the draft header?
-6. Did I preserve raw source or clearly mark that source recovery is needed?
-7. Did I avoid inventing canon where the source is missing?
-8. Did I cite or report the commit SHA and verification lines back to the user?
+4. Did I add or validate location and temporal metadata under `canon/21_TIME_AND_HEADER_METADATA.md`?
+5. Did I remove correction clutter from prompt-ready chapter files?
+6. Did I list exact required attachments in the draft header?
+7. Did I preserve raw source or clearly mark that source recovery is needed?
+8. Did I avoid inventing canon where the source is missing?
+9. Did I cite or report the commit SHA and verification lines back to the user?
 
 If the answer to any of these is no, say so directly.
