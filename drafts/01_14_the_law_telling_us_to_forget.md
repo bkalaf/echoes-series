@@ -1,8 +1,16 @@
 # 01_14_the_law_telling_us_to_forget — The Law Telling Us To Forget
 
-## Detail Level
+## Status
 
-L4 Reconstruction Outline with User Beat Integration.
+L4 reconstruction outline with user beat integration.
+
+## Required Canon Links
+
+- `canon/PROMPT_SUPPORT_CANON_LOCKS.md`
+- `canon/15_SETTINGS.md`
+- `canon/16_SCENES.md`
+- `canon/21_TIME_AND_HEADER_METADATA.md`
+- `locales/images/analysis/LUM.analysis.json`
 
 ## Source
 
@@ -68,10 +76,8 @@ Current Luminthalas image analysis defines:
 
 Use existing setting IDs:
 
-- `SET-LUM-PORTALPORT` — now locked to Section 5 for this chapter route.
-- `SET-LUM-WHITE-TOWER-ARCHIVES` — now locked to Section 1.
-
-No new reusable setting is required unless the reference desk becomes a recurring site.
+- `SET-LUM-PORTALPORT` — locked to Section 5 for this chapter route.
+- `SET-LUM-WHITE-TOWER-ARCHIVES` — locked to Section 1.
 
 ---
 
@@ -261,23 +267,18 @@ Use setting IDs:
 - Elder High Elven reference scholar / White Tower desk matron.
 - Luminthalas civilians, apprentices, scholars, students, instrument makers, gardeners, and archive staff.
 
-## New Supporting Character
+## Supporting Character Handling
+
+The elderly High Elven reference scholar can remain unnamed unless the prose needs a name.
 
 Working description:
 
-- elderly High Elven woman;
 - grandmotherly at first glance;
 - sharp enough to cut marble;
 - old enough to have spent a lifetime guarding institutional memory;
 - appears to be in her eighties or nineties by human visual read, though High Elven aging may differ;
 - runs the reference desk like a battlefield command post;
 - recognizes Gregory, Brickett, and Rhün as the soot problem from the prior visit.
-
-Possible working name if needed later:
-
-- **Archivist Elowyn Saelthir** — not locked.
-
-Do not lock this name unless accepted later.
 
 ---
 
@@ -411,19 +412,18 @@ Suggested visible subchapters:
 
 1. The scholar says that if they mean the actual founding and the oldest origin layer, they probably want **Khembal**.
 2. Mae, still hooded, pushes forward.
-3. Mae says Luminthalas is the capital of Ascentia / Essentia. Confirm regional spelling later.
-4. Mae asks why they would need Khembal.
-5. The scholar tries to answer cautiously.
-6. Mae reveals herself enough for the scholar to recognize the Speaker of the Conclave.
-7. The scholar immediately becomes deferential and afraid.
-8. She apologizes to Madam Speaker.
-9. She says of course the White Tower can call the proper founding documents and any necessary records from other cities.
-10. Her fear should be visible enough that Mae notices it.
-11. Mae stops the performance.
-12. Mae puts a hand over the woman's hand or lightly on the desk between them.
-13. The scholar flinches or freezes.
-14. Mae says she did not reveal herself to frighten or intimidate her.
-15. Mae says they need the truth, not the official answer.
+3. Mae says Luminthalas is the capital of the region and asks why they would need Khembal.
+4. The scholar tries to answer cautiously.
+5. Mae reveals herself enough for the scholar to recognize the Speaker of the Conclave.
+6. The scholar immediately becomes deferential and afraid.
+7. She apologizes to Madam Speaker.
+8. She says of course the White Tower can call the proper founding documents and any necessary records from other cities.
+9. Her fear should be visible enough that Mae notices it.
+10. Mae stops the performance.
+11. Mae puts a hand over the woman's hand or lightly on the desk between them.
+12. The scholar flinches or freezes.
+13. Mae says she did not reveal herself to frighten or intimidate her.
+14. Mae says they need the truth, not the official answer.
 
 ## Subchapter 6 — Permission to Say It
 
@@ -588,32 +588,10 @@ Luminthalas is beautiful and controlled, but the chapter discovers that control 
 
 ---
 
-# Continuity Corrections / Active Locks
+# Ending State
 
-- This chapter is **Hearthwake 6, Eldrane, Conjunction Day Four**.
-- Days Two and Three are intentionally offscreen / summary unless later expanded.
-- Sonntag is still not an active weekday.
-- `SET-LUM-PORTALPORT` is locked to **Luminthalas Section 5** for this route.
-- `SET-LUM-WHITE-TOWER-ARCHIVES` is locked to **Luminthalas Section 1**.
-- The long walk from Section 5 to Section 1 is required and should carry the chapter's reflective conversation.
-- Use **Brynn H. Stonevein**, not Stonevain.
-- Use **Rhün H. Ignis**.
-- Use **Major Tallandra H. Highwatch**.
-- Use **High Theorist Matthieu H. Cardinal** unless later standardized differently.
-- Use **Gregory H. Frydrake**.
-- Addie's heirloom remains the simple silver pendant necklace.
-- Do not overlock the regional spelling **Ascentia / Essentia** until confirmed.
-- Do not lock **Khembal** spelling until confirmed, but use it as the working origin city name in this chapter.
-- The original political reveal should be: the first twenty-four capitals were human-controlled; non-human power emerged later through city splits / founding waves.
-- The pact / law comes from Dovren I and suppresses discussion of the first founding decades.
-- Yellow beacon triggers only when Addie identifies the preserved founding story as the Ariadne-style string guiding them out.
-
----
-
-# Next Chapter Hook
-
-The next chapter should begin with the companions traveling from the White Tower toward the Luminthalas beacon / obelisk under yellow light.
+The companions leave the White Tower under yellow light and head toward the Luminthalas beacon / obelisk as one group.
 
 They are no longer researching separately.
 
-They are going as one group to meet the Witnesses.
+They are going to meet the Witnesses together.
