@@ -48,7 +48,7 @@ The First Mirror plants the 24-city-state clue. Luminthalas makes the clue actio
 | 07 | Ascentia | Khembal | Luminthalas | Khembal | Luminthalas | Shyrenveil | Book 1 Luminthalas triad; Khembal is specifically South African; high elves overshadowed the Human founding capital, with foxfolk aligned to the dominant order. |
 | 08 | Frostmarch | Volgrad | Volgrad | Volgrad | Aes Sidhal | Kheled Tor | Central-north slope triad; Human capital remained dominant despite Mythos/Beastfolk mountain dispersal. |
 | 09 | Elarion | Xol Atarah | Thalewood | Xol Atarah | Thalewood | Elarion Thicket | Greenbelt triad; wood-elven civic structure became dominant over the Human origin city. |
-| 10 | Jadefall | Qinyue | Qinyue | Qinyue | Grendhollow | Nettleburrow | Jadefall / burrow-swamp edge triad; Human capital remained dominant. |
+| 10 | Jadefall | Qinyue | Grendhollow | Qinyue | Grendhollow | Nettleburrow | Jadefall / burrow-swamp edge triad; Grendhollow later became the present-day capital, demoting the Human founding capital Qinyue. |
 | 11 | Hellgate River-Mire | Suryavaad | Drakmor | Suryavaad | Drakmor | Pollyr Fen | Hellgate-pressure triad; Drakmor later became dominant while Pollyr Fen preserved the dam/atrocity thread. |
 | 12 | Caravanor | Velis Caravanor | Velis Caravanor | Velis Caravanor | Oss Veyr | Kassovar Reach | Caravan / necropolis / plains hinge triad; Human trade capital remained dominant. |
 | 13 | Saffron Locks | Qasr Siroth | Qasr Siroth | Qasr Siroth | Tormund Vale | Dunmere Locks | Desert-to-river-lock triad; Human capital remained dominant. Addie’s origin city. |
