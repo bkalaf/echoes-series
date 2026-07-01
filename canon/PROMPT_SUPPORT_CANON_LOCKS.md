@@ -177,13 +177,13 @@ The `01_15` / `01_04` vision logic should support:
 
 # Children Of The Damned / Pollyr Fen Locks
 
-- Use **South Aurreth Shipping Co.** as the working formal company name unless later corrected.
+- Use **Van'Kareth South Aurreth Shipping Co.** as the working formal company name.
 - It is Van'Kareth-controlled.
 - Mae has full personal/legal control of this company, allowing her to transfer it immediately.
 - It is not enough to bankrupt Mae’s family because she keeps six other companies / major holdings.
 - It is enough to materially return wealth built from blood and trade-line collapse.
 - Dialogue may call it **the southern shipping company** informally.
-- Do not lock the alternate **Van'Kareth South Aurreth Shipping Co.** unless explicitly approved later.
+- Tikket may shorten the name in dialogue only if legal/formal clarity is not required, but the formal transfer name is **Van'Kareth South Aurreth Shipping Co.**
 - The beacon turns orange only after the group returns to city proper / the temple wetland section, not at the swamp-church graveyard.
 
 ---
