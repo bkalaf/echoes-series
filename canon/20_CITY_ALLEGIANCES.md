@@ -12,6 +12,7 @@ This file locks the **Book 1 faction map** after the 24 founding city-states hav
 - **S** = Schism
 - **R** = Ruin
 - **N** = Neutral
+- **—** = Not yet assigned / not applicable for that vision-era book slot
 - Bold cells mark a change from the previous book.
 - Totals are tracked as **Concord / Schism / Ruin**. Aquila Matara remains Neutral and is not included in the slash total.
 
@@ -43,6 +44,7 @@ This file locks the **Book 1 faction map** after the 24 founding city-states hav
 - **Book 10 shifts Vyrath'Kai, Skyrend Peak, The Crucible, Khaz Vorem, Orsakar, and Awanate to Ruin.**
 - **Khembal is specifically South African.**
 - **Qasr Siroth is North African.**
+- **Past / vision-era Book 1 allegiance is set under the First Dovren: 22 Concord city-states / 2 Ruin city-states.** Schism has not materialized yet. The two Ruin breakaway pockets are **Southhook** and **Bastion-Serpent Reach**.
 
 ## Series Direction
 
@@ -132,10 +134,95 @@ Carrio / **Ssivareth** is the intentional exception: the snake city remains Ruin
 
 ---
 
+# Past / Vision Allegiance Matrix
+
+This table tracks the allegiance map shown in historical visions / flashbacks, before the modern three-faction structure has fully formed. It uses city rows for future-proofing even when the allegiance logic is still operating at the city-state level.
+
+For Book 1 vision material, the sovereign is **the 1st Dovren**, Schism has not materialized, and the allegiance split is **22 Concord city-states / 2 Ruin city-states**. The two Ruin breakaway pockets are **Southhook** and **Bastion-Serpent Reach**.
+
+| Code | City | B01 | B02 | B03 | B04 | B05 | B06 | B07 | B08 | B09 | B10 | B11 | B12 | B13 | B14 | B15 | B16 | B17 | B18 |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| GOV | Sovereign / Dovren | the 1st | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
+| AQM | Aquila Matara | N | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
+| APE | Auric Plume | C | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
+| ASL | Aes Sidhal | C | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
+| AWT | Awanate | C | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
+| BLA | Blackcairn | C | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
+| BLO | Bloodreef | C | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
+| BRI | Bristleforge | C | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
+| BZO | Bastion Zero | R | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
+| CAR | Carrikesh | C | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
+| CPE | Colossi Prime | C | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
+| CVR | Cael Veyrun | C | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
+| CWY | Caer Wycliff | C | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
+| DLS | Dunmere Locks | C | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
+| DMW | Dunmorrow | C | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
+| DNL | Dun Liath | C | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
+| DRA | Drakmor | C | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
+| EMB | Embervein | C | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
+| ETH | Ethervale | C | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
+| ETT | Elarion Thicket | C | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
+| FRO | Frostharbor | C | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
+| GLI | Glimmergrove | C | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
+| GLO | Gloamreach | C | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
+| GRE | Grendhollow | C | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
+| GVE | Ghorum Vale | C | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
+| HEA | Hearthglen | C | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
+| ILQ | Ilyr-Qesh | C | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
+| ITK | Itzamal-Ka | C | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
+| JNZ | Jianzuo | C | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
+| KHB | Khembal | C | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
+| KLI | Klinkhollow | C | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
+| KRH | Kassovar Reach | C | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
+| KTR | Kheled Tor | C | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
+| KVM | Khaz Vorem | C | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
+| LUM | Luminthalas | C | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
+| MFH | Mirefang Hold | C | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
+| MOO | Moonhollow | C | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
+| MOU | Mourntusk | C | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
+| NAK | Nakarath | C | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
+| NET | Nettleburrow | C | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
+| NVR | Nox Vaelor | C | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
+| NYT | Nythaloss | C | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
+| OAR | Orsakar | C | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
+| ORS | Or Shem | C | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
+| OVR | Oss Veyr | C | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
+| PFN | Pollyr Fen | C | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
+| PMR | Pelas Mirr | C | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
+| PSG | Port Sargasso | C | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
+| QNY | Qinyue | C | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
+| QSR | Qasr Siroth | C | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
+| SHB | Shellrest Bastion | C | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
+| SHY | Shyrenveil | C | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
+| SKH | Skjarnheim | C | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
+| SPK | Skyrend Peak | C | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
+| SRV | Suryavaad | C | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
+| SSI | Ssivareth | R | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
+| TCE | The Crucible | C | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
+| TFN | Tefara Nui | R | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
+| THA | Thalewood | C | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
+| THR | Thalorion | C | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
+| TRK | Te Raukawa | R | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
+| TSE | Thalassmere | R | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
+| TVE | Tormund Vale | C | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
+| VBN | Varkesh Bastion | C | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
+| VGH | Vargrheim | C | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
+| VHR | Vharos | C | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
+| VKI | Vyrath'Kai | C | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
+| VLC | Velis Caravanor | C | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
+| VLG | Volgrad | C | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
+| VME | Vel Mouraine | C | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
+| VTS | Vhal'Tigris | R | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
+| WAR | Warrakai | C | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
+| WMR | Warramirra | C | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
+| XAT | Xol Atarah | C | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
+
+---
+
 # Series Allegiance Matrix
 
 | Code | City | B01 | B02 | B03 | B04 | B05 | B06 | B07 | B08 | B09 | B10 | B11 | B12 | B13 | B14 | B15 | B16 | B17 | B18 |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | AQM | Aquila Matara | N | N | N | N | N | N | N | N | N | N | N | N | N | N | N | N | N | N |
 | APE | Auric Plume | S | S | S | **R** | R | R | R | R | R | R | **S** | S | S | S | S | S | S | S |
 | ASL | Aes Sidhal | S | S | **R** | R | R | R | R | R | R | R | **S** | S | S | S | S | S | S | S |
