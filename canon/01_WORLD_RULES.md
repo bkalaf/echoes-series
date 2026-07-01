@@ -5,6 +5,7 @@
 - [Visual Bible — Image Pass Notes](./14_VISUAL_BIBLE_IMAGE_PASS.md)
 - [Characters](./05_CHARACTERS.md)
 - [Witnesses, Architects, and Rewards](./06_WITNESSES_ARCHITECTS_REWARDS.md)
+- [Book 01 Calendar Timeline](./12_BOOK01_CALENDAR_TIMELINE.md)
 
 Use the Visual Bible for image-derived palette, staging, institutional mood, and symbolic object language. Use this file for binding world mechanics and setting rules.
 
@@ -136,11 +137,19 @@ A cherub or celestial character from the celestial city may validly have only a 
 - Conjunctions simply put are the aligning of the three moons of Eidolon.
 - As written in Erzengel's Charter: conjunctions are periods where political parties may choose to transfer power. The method of determining that transfer is up to the participants of the conjunction. at the end of the conjunction cycle The political party with the most city-states under their control is elected high sovereign and in the case of a tie there's no transfer of power there must be somebody in the lead.
 - History tells them that conjunctions quickly devolved into periods of lawlessness or deception, sabotage, assassination, brutal authoritarian crackdowns, famines, and natural disasters tended to occur causing shifts of power. There hasn't been a conjunction for a thousand years when the series starts. Dovren the 33rd declared that he had solved the mysteries of the conjunction and stopped them and had demanded worship for such an act. Thus the Church of the 73rd. The 73rd is a reference to the longest Royal line on Earth which is 72 that Dovren intends to beat.
-- Standard Conjunction: **25 days**.
-- Month structure: 25-day Conjunction + 3 days off.
-- Final / 18th Conjunction may use expanded 28-day logic plus final-day resolution.
+- Standard month length: **29 days**.
+- Standard Conjunction month: **one full 29-day month**.
+- Day 1 of the Conjunction month: **purple beacon** / 48-hour warning.
+- Day 2 of the Conjunction month: **blue beacon** / 24-hour warning.
+- Day 3 of the Conjunction month: **green beacon** / effective Conjunction onset.
+- Book 01 date lock:
+  - Prologue begins on **Yearsend 29, Kindlemask**.
+  - Purple beacon lights on **Hearthwake 1, Sonntag**.
+  - Blue beacon lights on **Hearthwake 2, Dravenkar**.
+  - Green beacon lights and the active Conjunction begins on **Hearthwake 3, Stonewake**.
+- The old shorthand `25-day Conjunction + 3 days off` is superseded for current Book 01 drafting by the 29-day month model above.
 - Beacon colors:
-  - Purple: 48- hours countdown prepare / announcement.
+  - Purple: 48-hour countdown prepare / announcement.
   - Blue: 24-hour countdown.
   - Green: onset.
   - Yellow: checkpoint.
