@@ -66,6 +66,8 @@ A chapter prompt may include chapter-specific constraints, but it should not rep
 # Mae / Estate / Nox Vaelor Locks
 
 - Mae’s estate used in Book 1 active scenes is in **Aquila Matara**.
+- Use **Mae's Manor** or **Mae's Aquila Matara estate** for chapters before the `01_15` “our manor” shift.
+- Do not use **Companion's Estate**, **Companions' Estate**, or similar shared-place language before Mae accidentally shifts the language in `01_15`.
 - References to **Nox Vaelor** for Mae should describe background, noble ties, city culture, Venom-Blade reputation, or family/political origin—not the physical location of the Book 1 manor/estate.
 - The phrase **our manor** in `01_15` is intentional: it marks Mae’s accidental shift from private-household ownership to shared operational household.
 - Do not make Mae personally responsible for an ancestor’s collaboration, but do make her understand inherited benefit when the story requires it.
