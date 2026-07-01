@@ -1,6 +1,6 @@
 # Settings Index
 
-This file extracts settings from the active `drafts/` and `scratchpad/` planning files.
+This file extracts settings from the active `drafts/` and `scratchpad` planning files.
 
 ## Definition
 
@@ -14,6 +14,7 @@ A **scene** is not the same thing. Scenes are tracked separately in [`16_SCENES.
 - Scenes: [`16_SCENES.md`](./16_SCENES.md)
 - Master outline: [`SERIES_MASTER_OUTLINE.md`](./SERIES_MASTER_OUTLINE.md)
 - Character Gesture / Signal Rules: [`17_CHARACTER_GESTURE_SIGNALS.md`](./17_CHARACTER_GESTURE_SIGNALS.md)
+- Prompt support locks: [`PROMPT_SUPPORT_CANON_LOCKS.md`](./PROMPT_SUPPORT_CANON_LOCKS.md)
 
 ---
 
@@ -60,6 +61,7 @@ A **scene** is not the same thing. Scenes are tracked separately in [`16_SCENES.
 | SET-AQM-MAE-WASHROOM | Estate interior | Mae estate guest washroom / black-stone bath | Mae's Aquila Matara estate | `drafts/01_09_day_one_architecture.md` | Luxurious bath with four brass nozzles; private decompression before day-one operations. |
 | SET-AQM-MAE-EXTERIOR | Estate exterior | Mae estate exterior under reporter pressure | Mae's Aquila Matara estate | `drafts/01_09_day_one_architecture.md` | Crowds, reporters, house guards, Brimscale at the gate, and Ashwing overhead. |
 | SET-AQM-MAE-FAMILY-ROOM | Estate interior | Mae estate high-fire family room | Mae's Aquila Matara estate | `drafts/01_12_the_unwound_core.md` | Manor-return synthesis room: green-beacon window view, broadcast feed, Mark-of-the-Orbs artifact comparison, and folklore-thread pivot. |
+| SET-AQM-MAE-BACK-PORCH | Estate exterior | Mae estate back porch / terrace | Mae's Aquila Matara estate | `drafts/01_16_rapid_acceptance.md` | Yellow-beacon sightline and protected post-vision debrief location. Tikket records the discussion here under attorney-client privilege. |
 | SET-AQM-TERMINAL | Transit hub | Aquila Matara terminal / Portalport route | Aquila Matara | `drafts/01_10_holes_in_the_wall.md` | Day-one team split and Brickett false-intervention beat before portal travel. |
 | SET-LUM-PORTALPORT | Transit hub | Luminthalas Portalport / arrival terminal | Luminthalas Section 5 | `drafts/01_10_holes_in_the_wall.md`; `drafts/01_14_the_law_telling_us_to_forget.md` | Locked to Section 5 / Arcane-Alchemy district for the Day Four route; the companions must walk across Luminthalas from here to the White Tower Archives in Section 1. |
 | SET-LUM-LOWER-QUARTERS | District | Luminthalas lower quarters | Luminthalas | `drafts/01_10_holes_in_the_wall.md` | Cold, soot-dark, class-stratified district below high-elf skybridges. |
@@ -74,7 +76,12 @@ A **scene** is not the same thing. Scenes are tracked separately in [`16_SCENES.
 | SET-B14-COUNCIL | Historical source setting | Complete Architect Council chamber | Pre-Eidolon / historical Earth-adjacent source layer | `scratchpad/14_09_the_unwound_core_beats.md` | Full unfiltered council meeting that Book 1 First Mirror adapts. |
 | SET-LUM | City | Luminthalas | Erzengel / Aurreth | `drafts/01_08_the_weight_of_being_asked.md` | First practice destination after Mae estate. |
 | SET-LUM-BOUNTIFUL-HARVEST | Site | Bountiful Harvest restaurant | Luminthalas lower quarters | `drafts/01_08_the_weight_of_being_asked.md` | Official restaurant name. The “Flying Scrolls” sign is a temporary rude notice with a drawn middle finger; Rosalind and Brynn put it up after Moderator scrolls started appearing because they thought the scrolls came from Brynn’s family. |
+| SET-PFN | City | Pollyr Fen | Hellgate River-Mire / Aurreth | `drafts/01_17_children_of_the_damned.md` | Frogfolk wetland city where water is street, nursery, ritual space, and civic infrastructure. |
 | SET-PFN-BOUNTIFUL-DAM | Site / atrocity anchor | Bountiful Dam | Pollyr Fen / Book 01 mission chain | `drafts/01_08_the_weight_of_being_asked.md` | Appears in mirror/report context tied to river diversion and Book 01 solution path. |
+| SET-PFN-PORTALPORT | Transit hub | Pollyr Fen Portalport / wetland arrival terminal | Pollyr Fen | `drafts/01_17_children_of_the_damned.md` | Arrival point into frogfolk canal/boardwalk movement logic; guarded by frogfolk guards under Concord structure but Schism pressure. |
+| SET-PFN-TEMPLE-WETLAND-QUARTER | District / section | Temple wetland quarter | Pollyr Fen | `drafts/01_17_children_of_the_damned.md` | City-proper return point where the orange beacon is seen/reflected after the swamp-church exchange; tied to ritual water, baskets, and young. |
+| SET-PFN-SWAMP-CHURCH | Historical site / ruin | Drowned Swamp-Church of Bountiful | Pollyr Fen outer wetland / old church route | `drafts/01_17_children_of_the_damned.md` | Old frogfolk swamp-church site reached by difficult wetland route; original water-memory / graveyard reveal. |
+| SET-PFN-CALCIFIED-YOUNG-GRAVEYARD | Atrocity site | Graveyard of calcified frogfolk eggs / young | Drowned Swamp-Church of Bountiful | `drafts/01_17_children_of_the_damned.md` | Moonlit graveyard of calcified eggs/young; the emotional center of the Pollyr Fen atrocity reveal. |
 
 ---
 
