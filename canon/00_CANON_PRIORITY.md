@@ -37,6 +37,7 @@ These terms may appear in older material and should be replaced unless a scene i
 | Captain Tallandra / Captain Talandra | Major Tallandra H. Highwatch. |
 | Addie silver hair clip / barrette / berette as heirloom | Simple silver pendant necklace bearing the Mark of the Orbs. |
 | Addie as native to / from Skyrend Peak | Addie is from **Qasr Siroth**. Skyrend Peak is where Book 1 catches her during Gale Exposition / Meridian Accord work travel. |
+| 42 false claims / disproven by age 28 | 25 disproven conjunctions; Addie is 29. |
 | Brickett as raccoon / raccoon-kin / fire-raccoon | Brickett is a **14-year-old beaver beastfolk** with an unstable fire-mage obsession. |
 | Brickett with raccoon mask / ringed tail / Rocket-like silhouette | Brickett should read as beaver: broad flat tail, damp brown fur, large front teeth, soot, burns, and singed fur. |
 | iMail / communicator token / communication token | eye-mail. |
@@ -57,6 +58,7 @@ Before accepting a new canon update or chapter draft, verify:
 - Ship status is not overwritten.
 - One-nation / city-state structure is preserved.
 - Addie is from **Qasr Siroth**, not Skyrend Peak.
+- Addie has **25** disproven conjunctions and is **29** in Book 1, not 42 / 28.
 - Brickett is a **beaver**, not a raccoon.
 - Brickett’s fire-mage tick/backfire signal is preserved when pacing allows.
 - Addie’s heirloom is the pendant, not the old hair clip version.
