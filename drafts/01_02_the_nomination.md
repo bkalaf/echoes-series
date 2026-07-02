@@ -181,7 +181,7 @@ Move Addie from private crisis into public institutional crisis. This subchapter
 21. He presents the wooden scroll container.
 22. Kwame explains the political departments refused because the role is a target.
 23. Addie rejects it: she is a nobody, does not do politics, does not do speeches.
-24. Kwame argues that she is the only Conjunction specialist who has disproven forty-two false claims by age twenty-eight.
+24. Kwame argues that she is the only Conjunction specialist who has disproven twenty-five official Conjunction claims and is not yet thirty.
 25. He says her lack of political identity is exactly why the council selected her.
 26. He says she understands the literal mathematics of survival.
 27. He presses the scroll container into her hands.
@@ -204,7 +204,7 @@ Move Addie from private crisis into public institutional crisis. This subchapter
 | Addie | Reads and understands the Moderator role. | No |
 | Kwame | Explains every guild must submit a nominee. | No |
 | Addie | Refuses politics and insists she is an archivist/nobody. | No |
-| Kwame | Explains why she was selected: expertise, non-politician status, survival math. | No |
+| Kwame | Explains why she was selected: twenty-five disproven Conjunction claims, not yet thirty, expertise, non-politician status, survival math. | No |
 | Kwame | Reveals her nomination has already been signed. | No |
 
 ## Subchapter Exit Condition
@@ -230,6 +230,7 @@ Addie is holding the nomination scroll container and knows the Meridian Accord h
 ## Continuity Notes
 - Addie is from **Qasr Siroth**.
 - Skyrend Peak is her Gale Exposition / Meridian Accord work-travel location in this chapter, not her home city.
+- Addie’s disproven-conjunction count is **twenty-five**; she is **not yet thirty** here because she is **twenty-nine** in Book 1.
 - Addie’s simple silver pendant necklace must visually match Brickett’s bag clasp later.
 - The Mark of the Orbs should remain unexplained here.
 - Addie’s mother grief should stay quiet but present.
