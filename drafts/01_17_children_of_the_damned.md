@@ -2,10 +2,11 @@
 
 ## Status
 
-L4 reconstruction outline with dialogue spine and field sequence.
+L4 reconstruction outline with dialogue spine, field sequence, and companion reading-mode integration.
 
 ## Required Canon Links
 
+- `canon/05_CHARACTERS.md`
 - `canon/PROMPT_SUPPORT_CANON_LOCKS.md`
 - `canon/15_SETTINGS.md`
 - `canon/16_SCENES.md`
@@ -55,13 +56,14 @@ The point of the jump is to show depletion:
 
 # Chapter Function
 
-This chapter should do five major things:
+This chapter should do six major things:
 
 1. show exhaustion after days of failed investigation;
 2. let Addie find the actual logic of the dam through the word **cataclysm** and the frogfolk life cycle;
 3. move the group to Pollyr Fen and establish the city as beautiful, wetland-integrated, and spiritually organized around water / young / nursery life;
-4. reveal the Drowned Swamp-Church / original church site as a graveyard of calcified eggs and young;
-5. force Mae to confront that her family fortune was built in part on the destruction of Pollyr Fen's trade lines, then make a partial restitution through the transfer of a Van'Kareth-controlled shipping company.
+4. start showing the companions' reading modes as complementary practical gifts, especially in the guard and Tallowmire encounters;
+5. reveal the Drowned Swamp-Church / original church site as a graveyard of calcified eggs and young;
+6. force Mae to confront that her family fortune was built in part on the destruction of Pollyr Fen's trade lines, then make a partial restitution through the transfer of a Van'Kareth-controlled shipping company.
 
 This is a breakthrough chapter, but the breakthrough should hurt.
 
@@ -145,6 +147,33 @@ Context:
 
 ---
 
+# Companion Reading-Mode Integration
+
+This chapter is a foundation scene for the companions' innate reading gifts. Do not present them as formal superpowers or exposition machines. Let them emerge through practical observation under pressure.
+
+| Companion | Reading Mode Use In This Chapter |
+|---|---|
+| Addie | Reads memory: holds the failed city route, first-vision wording, frogfolk life-cycle details, and recurring phrases until the pattern clicks. |
+| Gregory | Reads symbols: notices water / lotus / birth-cycle / labyrinth / church-site ritual geometry, and understands that Tallowmire's route is a ritualized test rather than merely cruelty. |
+| Brynn | Reads craftsmanship: identifies that the graveyard stones were not carved, built, forged, or repaired by anyone; they are natural/calcified remains. |
+| Major Tallandra | Reads deception: states plainly that a guard and later Tallowmire are not telling the whole truth. She cannot prove it at first; she just knows. |
+| Carrio | Reads people: reads protective motive, status performance, fear, and the gap between what the guards/Tallowmire say and what they want the group to believe. |
+| High Theorist Matthieu | Reads patterns: tracks water-flow logic, failed-route logic, and structural contradictions around the dam and the missing records. |
+| Mae | Reads intent: knows when someone is about to attack or not; in this chapter, she should recognize that guards and Tallowmire are hostile but not initiating violence. Save the bigger Horror combat use for the later Regret/Horror confrontation. |
+| Yurislav | Reads emotion: feels fear under anger, grief under hostility, and the room/swamp becoming emotionally unstable even when people speak carefully. |
+| Brickett | Reads the ignored mundane: practical route details, loose planks, hidden tie-offs, shallow crossings, wrong mud, ordinary inconsistencies, and finally the physical egg/young shapes. |
+
+Key combined-use pattern:
+
+1. Tallandra identifies deception/trustworthiness.
+2. Carrio identifies the social motive behind the deception.
+3. Yurislav identifies the buried emotion driving it.
+4. Mae identifies whether the person intends violence.
+5. Gregory/Matthieu/Addie translate those reads into better questions.
+6. Brickett or Brynn catches the grounded physical detail that proves the answer.
+
+---
+
 # Visible Subchapters
 
 Suggested visible subchapters:
@@ -179,11 +208,7 @@ Suggested visible subchapters:
 1. Open at breakfast in Mae's estate on Conjunction Day Twelve.
 2. Addie is already fifteen minutes late.
 3. She enters expecting to be the late one.
-4. Instead, four companions are still missing:
-   - Matthieu;
-   - Mae;
-   - Yurislav;
-   - Brickett.
+4. Instead, four companions are still missing: Matthieu, Mae, Yurislav, and Brickett.
 5. Addie sighs when she sees Brickett is late.
 6. Brickett being late matters: he is usually the morale engine, the reckless early arrival, the one who acts excited even when no one else can.
 7. If Brickett is late, morale is in bad shape.
@@ -304,18 +329,19 @@ Suggested visible subchapters:
 
 12. The room realizes she has something.
 13. This is the strongest connection they have had in days.
-14. They run to look at the beacon.
-15. It does **not** change yet.
-16. Brickett runs back and says knowing the city is not enough for this step.
-17. He says they need to know why Pollyr Fen is connected to this part of the story.
-18. Addie corrects the logic:
+14. Matthieu can sketch a quick water-flow / life-cycle pattern to show why the dam might matter without needing to destroy the whole swamp.
+15. They run to look at the beacon.
+16. It does **not** change yet.
+17. Brickett runs back and says knowing the city is not enough for this step.
+18. He says they need to know why Pollyr Fen is connected to this part of the story.
+19. Addie corrects the logic:
 
 > "It's why they are connected to this part of the story. That could mean the item, the atrocity, the dam, the story, anything. We know a kind of how. We still do not know why."
 
-19. They decide to go to Pollyr Fen.
-20. Max wishes them luck from the kitchen.
-21. Tikket is also present.
-22. The chapter should leave Max and Tikket flirting lightly as the companions rush out.
+20. They decide to go to Pollyr Fen.
+21. Max wishes them luck from the kitchen.
+22. Tikket is also present.
+23. The chapter should leave Max and Tikket flirting lightly as the companions rush out.
 
 ## Subchapter 7 — Pollyr Fen Arrival
 
@@ -340,6 +366,7 @@ Suggested visible subchapters:
 8. The companions remind her that they have to appear non-faction-supporting.
 9. She has to bite her tongue.
 10. This should not change the formal allegiance tracker yet unless later canon decides it; for now, it is visible local political tension / sympathy.
+11. Use this as the first quiet reading-mode beat: Tallandra notices one guard is deceptive before anyone else has proof; Mae reads hostility but not imminent attack; Yurislav senses fear under the hostility.
 
 ## Subchapter 8 — The Frog Guards
 
@@ -361,7 +388,19 @@ Suggested visible subchapters:
 13. Addie calms her down.
 14. Addie acknowledges that these are Mae's people / Schism-coded locals.
 15. Tallandra has clipped words about the armbands, but the group keeps her contained.
-16. They head for the religious / temple wetland quarter.
+16. As they walk away, Tallandra says the first guard was not telling the whole truth.
+17. Someone asks how she knows.
+18. Tallandra says some version of:
+
+> "I just know. Occupational hazard."
+
+19. Carrio adds that the first guard was not merely hostile; he was protecting something and trying to push them away from it.
+20. Carrio compares him to the second guard: the second guard wanted to help, but wanted to help by sending them along the acceptable channel rather than telling them the truth directly.
+21. Yurislav says the first guard was frightened under the anger, and the second guard was worried for them.
+22. Mae says neither guard intended to attack. They were closing ranks, not drawing blood.
+23. Brickett notices practical details: how the first guard tightened his grip when they mentioned the young, how the second guard glanced toward the temple quarter, and how the locals nearby went quiet at the word hatchery.
+24. Addie uses the combined reads to accept the priest direction without treating it as a complete answer.
+25. They head for the religious / temple wetland quarter.
 
 ## Subchapter 9 — The City Made Of Water
 
@@ -376,6 +415,7 @@ Suggested visible subchapters:
 9. Brickett notices loose planks, hidden tie-offs, shallow crossings, and where locals actually move.
 10. Tallandra hates how hard the city would be to secure with dry-city tactics.
 11. Mae notices toll points, ferry control, market moorings, and who profits from passage.
+12. Matthieu notices repeated basin / nursery / temple geometry and can begin connecting civic design to life-cycle needs.
 
 ## Subchapter 10 — The Baskets
 
@@ -395,6 +435,7 @@ Suggested visible subchapters:
 11. Addie gets embarrassed and coughs.
 12. She says they have places to be and hurries everyone along.
 13. This act later matters because the fundraiser is Brother Tallowmire's wife.
+14. Brynn can notice basket construction: old repairs, poor reeds, careful maintenance, and the fact that the baskets matter practically, not symbolically only.
 
 ## Subchapter 11 — Brother Tallowmire
 
@@ -413,16 +454,27 @@ Suggested visible subchapters:
 13. The group waits.
 14. Tallowmire finally comes over near dusk.
 15. The companions try to explain that they are only asking for information.
-16. Tallowmire is hesitant and suspicious.
+16. Tallowmire is hesitant, suspicious, and intentionally invasive. He asks questions meant to put them on the defensive and test whether they are here for spectacle, politics, or grief.
 17. He says they do not tell people these things for a reason.
-18. The group realizes they have something because he has not turned them away.
-19. The fundraiser / wife and the little girl enter and bring the day's collection.
-20. The wife says everything except one silver came from Addie.
-21. Tallowmire asks Addie whether she knew that was his wife.
-22. Addie says no. She only saw that they needed baskets and thought it would be nice to help.
-23. Addie says she is from Qasr Siroth and Schism as well, so she knows what it is like to have people read you politically before they know you.
-24. Tallowmire studies her.
-25. He says:
+18. Tallandra says plainly to the group, not as a public accusation:
+
+> "He's not telling the truth."
+
+19. If someone asks how she knows, Tallandra answers that she just knows, that she always knows, and calls it an occupational hazard.
+20. Carrio reads the next layer: Tallowmire is being deceitful because he is protecting something, not because he is trying to profit from them. He wants to see what they do when blocked.
+21. Yurislav reads grief and fear under Tallowmire's hostility. He is angry, but the anger is covering old terror.
+22. Mae reads intent: Tallowmire is not about to attack them. He is testing whether they deserve the story.
+23. Gregory reads the ritual pattern: the waiting, the baskets, the public baptisms, and the controlled refusal are part of a gatekeeping ceremony.
+24. Matthieu reads the contradiction pattern: if no paper survives here, and priests decide who hears the history, then the archive is not a building; the archive is people.
+25. Addie adjusts the questioning. She stops asking for records and asks what they need to understand to avoid harming Pollyr Fen's young again.
+26. The group realizes they have something because he has not turned them away.
+27. The fundraiser / wife and the little girl enter and bring the day's collection.
+28. The wife says everything except one silver came from Addie.
+29. Tallowmire asks Addie whether she knew that was his wife.
+30. Addie says no. She only saw that they needed baskets and thought it would be nice to help.
+31. Addie says she is from Qasr Siroth and Schism as well, so she knows what it is like to have people read you politically before they know you.
+32. Tallowmire studies her.
+33. He says:
 
 > "All right. Come with me. I will tell you a story."
 
@@ -461,6 +513,8 @@ Suggested visible subchapters:
 17. He does not help.
 18. He wants to see if they quit.
 19. They do not.
+20. Brickett's mundane read helps them survive the route: he spots submerged logs, wrong mud, hidden tie-offs, old repair marks, and the easier path Tallowmire is deliberately not taking.
+21. Gregory should quietly recognize that the route is a ritual trial: not merely punishment, but a way to force outsiders to receive the story through body, mud, difficulty, and dependence.
 
 ## Subchapter 13 — The Swamp-Church
 
@@ -487,36 +541,42 @@ Suggested visible subchapters:
 14. The dam later collapsed under its own weight or was allowed to fail because it no longer served the economic purpose.
 15. But by then Pollyr Fen had lost three generations of eggs and countless young.
 16. There was a time when the youngest person in the city was thirty years old because they had literally been unable to bring young through the water-stage safely.
+17. Gregory reads the place as ritual architecture that has been built around grief, not around spectacle.
+18. Matthieu notices that the repeated spheres/pyramids are not arranged like decorative monuments; the pattern is too dense, too varied, too biological.
 
 ## Subchapter 14 — Eggs In The Moonlight
 
 1. Brickett is fascinated by the rock spheres and little pyramids.
 2. He moves from one to another, looking closely.
-3. He starts to say how cool they are.
-4. Then he realizes.
-5. Required Brickett line / idea:
+3. Brynn touches or closely studies one of the formations before Brickett fully understands it.
+4. Brynn says, carefully, that nobody made these.
+5. Her reading-craftsmanship gift lands: she can tell made things, forged things, repaired things, carved things, and faked things. These are not made by anyone.
+6. Brynn says these are natural, or at least they began as something living rather than something crafted.
+7. Brickett starts to say how cool they are.
+8. Then the mundane shape logic catches up to him.
+9. Required Brickett line / idea:
 
 > "Oh my God. These are your eggs."
 
-6. Everyone realizes they are standing in a massive graveyard.
-7. The round stones and little pyramids are calcified eggs / young.
-8. These were the ones that dried out in the sun.
-9. These were the young they lost.
-10. Tallowmire says they moved the city because they did not want their future built on this horror.
-11. Use the word **horror** intentionally.
-12. Addie catches the word.
-13. Everyone should feel it.
-14. As the sun finishes going down, the moon rises.
-15. The stones begin to glow.
-16. Inside the calcified forms, they can see faint shapes of the young / tadpole-like lives that never matured.
-17. Frogfolk begin arriving to pray.
-18. The outsiders are mostly ignored.
-19. This is not a tourist place. It is grief, memory, and worship.
-20. Addie asks whether the companions may sit quietly for an hour and honor the young without intruding.
-21. Tallowmire says that would be lovely.
-22. He says they would be the first outsiders here in two thousand years and can stay as long as they like.
-23. The companions sit in silence.
-24. Let this silence breathe.
+10. Everyone realizes they are standing in a massive graveyard.
+11. The round stones and little pyramids are calcified eggs / young.
+12. These were the ones that dried out in the sun.
+13. These were the young they lost.
+14. Tallowmire says they moved the city because they did not want their future built on this horror.
+15. Use the word **horror** intentionally.
+16. Addie catches the word.
+17. Everyone should feel it.
+18. As the sun finishes going down, the moon rises.
+19. The stones begin to glow.
+20. Inside the calcified forms, they can see faint shapes of the young / tadpole-like lives that never matured.
+21. Frogfolk begin arriving to pray.
+22. The outsiders are mostly ignored.
+23. This is not a tourist place. It is grief, memory, and worship.
+24. Addie asks whether the companions may sit quietly for an hour and honor the young without intruding.
+25. Tallowmire says that would be lovely.
+26. He says they would be the first outsiders here in two thousand years and can stay as long as they like.
+27. The companions sit in silence.
+28. Let this silence breathe.
 
 ## Subchapter 15 — Blood Money
 
@@ -547,6 +607,8 @@ Suggested visible subchapters:
    - the next round of cities suffered something even worse, though the precise story has been partially lost / withheld.
 17. The companions realize there is more.
 18. Tallowmire says there is so much more from the start of the nation that has been swept under the rug.
+19. Yurislav should feel the emotional collapse in Mae before she storms off; this helps explain why Brickett follows without making it feel random.
+20. Carrio should understand that Tallowmire is pressing Mae intentionally now, not accidentally.
 
 ## Subchapter 16 — Brickett's Errand
 
@@ -720,6 +782,14 @@ Suggested visible subchapters:
 
 > "Why are you asking about our young?"
 
+## Tallandra Reading Deception
+
+> "He's not telling the truth."
+
+## Tallandra Occupational Hazard
+
+> "I just know. Occupational hazard."
+
 ## Fundraiser
 
 > "That's very nice of you, Head Moderator. It's nice to see you without a towel on."
@@ -770,20 +840,20 @@ Suggested visible subchapters:
 
 | Character | Use In Chapter |
 |---|---|
-| Addie | Arrives late, detects morale collapse, solves the cataclysm / frogfolk young logic, gives money for baskets, asks to sit in silence at the graveyard. |
-| Mae | Exhausted and sarcastic, keeps arachne-silk irony, breaks after Van'Kareth blood-money reveal, transfers Van'Kareth South Aurreth Shipping Co., promises monuments. |
-| Brickett | Late morale signal, false cheer, understands dam mechanics, rides Yurislav's shoulders, realizes the stones are eggs, helps Mae execute restitution, names the new company. |
-| Yurislav | Dry support, carries Brickett, physical steadiness through swamp, growing bond with Brickett. |
-| Matthieu | Late, exhausted, keeps details moving and may doodle diagrams / water-flow logic. |
-| Brynn | Hums intermittently, identifies the importance of the word cataclysm, provides arrow / bridge aid. |
-| Gregory | Overwhelmed but useful; holy magic helps clear the swamp route. |
+| Addie | Arrives late, detects morale collapse, preserves failed-route and first-vision data, solves the cataclysm / frogfolk young logic, gives money for baskets, asks to sit in silence at the graveyard. |
+| Mae | Exhausted and sarcastic, keeps arachne-silk irony, reads intent/non-attack in guards and Tallowmire, breaks after Van'Kareth blood-money reveal, transfers Van'Kareth South Aurreth Shipping Co., promises monuments. |
+| Brickett | Late morale signal, false cheer, understands dam mechanics, notices mundane guard/route details, rides Yurislav's shoulders, realizes the stones are eggs after Brynn's craft read, helps Mae execute restitution, names the new company. |
+| Yurislav | Dry support, carries Brickett, reads fear/grief under hostility, senses Mae's emotional collapse, physical steadiness through swamp, growing bond with Brickett. |
+| Matthieu | Late, exhausted, reads water-flow and repeated-structure patterns, doodles diagrams / water-flow logic, identifies that priestly oral memory functions as an archive. |
+| Brynn | Hums intermittently, identifies the importance of the word cataclysm, reads craftsmanship in baskets/bridge/stone formations, provides arrow / bridge aid, identifies that the graveyard stones were not made by anyone. |
+| Gregory | Overwhelmed but useful; reads symbolic/ritual structure in Pollyr Fen, Tallowmire's test, and the swamp-church; holy magic helps clear the swamp route. |
 | Rhün | Physical power with Yurislav to move swamp obstacles / trees; steady group support. |
-| Tallandra | Reacts to Schism armbands on guards, reads the wetland city as a nightmare to secure. |
-| Carrio | Quiet for several chapters, then finally declares de facto Ruin leadership and offers protection from Dovren. |
+| Tallandra | Reacts to Schism armbands on guards, reads deception / truthfulness in guards and Tallowmire, reads the wetland city as a nightmare to secure. |
+| Carrio | Reads social motives and protective deception in the guards/Tallowmire, helps the group pressure Tallowmire without misreading him as greedy or merely hostile, then finally declares de facto Ruin leadership and offers protection from Dovren. |
 | Barnaby | Delivers tunic repair, new grandfather trigger for Addie's frogfolk-young realization. |
 | Max | Kitchen presence, wishes them luck. |
 | Tikket | Present at breakfast / kitchen, later legal execution of Mae's transfer. |
-| Brother Tallowmire G. Reedfen | Gatekeeper of frogfolk memory, tests them through the swamp, reveals the old church / graveyard / Van'Kareth blood-money history. |
+| Brother Tallowmire G. Reedfen | Gatekeeper of frogfolk memory; intentionally invasive and deceptive by omission; tests them through questions, waiting, and swamp route; reveals the old church / graveyard / Van'Kareth blood-money history. |
 
 ---
 
@@ -797,6 +867,8 @@ The companions finally understand why Bountiful Dam matters:
 - the original church and graveyard prove the atrocity was real;
 - Van'Kareth trade power helped make the atrocity economically devastating;
 - the story has been preserved orally / religiously because paper and official records failed or were unsafe.
+
+The reading-mode work matters because no single companion solves the chapter alone. Tallandra knows someone is deceptive; Carrio understands why; Yurislav feels what is buried; Mae knows whether violence is coming; Gregory reads ritual structure; Matthieu reads pattern; Addie holds the data; Brickett and Brynn catch the grounded proof.
 
 The beacon should turn **orange** only when the group returns from the swamp-church into the city proper / temple wetland section and realizes the light has changed. It should not change at the graveyard itself. The delay makes it feel like the checkpoint confirms the full chain: truth witnessed, grief honored, restitution chosen, and the story carried back into the living city.
 
