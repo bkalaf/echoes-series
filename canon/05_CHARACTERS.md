@@ -21,20 +21,45 @@ Middle initials should appear naturally in formal introductions so the **H** pat
 
 | Character | Authority Notes |
 |---|---|
-| Adeshka "Addie" H. Sonntag | Central protagonist; archivist; eidetic memory; from **Qasr Siroth**; physically in Skyrend Peak at the start because of the Gale Exposition / Meridian Accord work travel, not because Skyrend is her home city; half North African / Egyptian and half West African / Nigerian; heirloom is a simple silver pendant necklace bearing the Mark of the Orbs; hair dye / hair color experimentation is her recurring self-control habit. |
-| Gregory H. Frydrake | Symbologist / priest-scholar; photographic memory; Sakura Branch wording matters; fidgets with bracelet and wears spectacles he does not need. |
-| Brynn H. Stonevein | Dwarf artisan noble / companion; controlled phonetic accent exception when active; hums “Pull Up Your Green Sleeves” when alone, working, or filling silence, and stops humming for precision, danger, or vulnerability. |
-| Major Tallandra H. Highwatch | Concord Guard Major; formal, pragmatic, threat-aware; spelling is Tallandra and rank is Major; constant room-scanning / avian head movement is her threat-reading signal. |
-| Carrio H. Vessalor | Serpent courtier / intelligence companion; chews gum by default and uses hard candy when gum would be socially inappropriate; oral fixation masks teeth-grinding, anger, and biting/lashing-out impulse. |
-| High Theorimist Mattieu H. Cardinal | Mathematical / theoretical prodigy; doodles diagrams and calculations on napkins or scrap surfaces. |
-| Mae'vyri H. Van'kareth | Dark elf noble and business operator; coin habit remains locked. |
-| Yurislav H. Arslan | Bearfolk companion; reads emotion; rolls / dances a coin over his knuckles. |
+| Adeshka "Addie" H. Sonntag | Central protagonist; archivist; reads memory through eidetic recall; from **Qasr Siroth**; physically in Skyrend Peak at the start because of the Gale Exposition / Meridian Accord work travel, not because Skyrend is her home city; half North African / Egyptian and half West African / Nigerian; heirloom is a simple silver pendant necklace bearing the Mark of the Orbs; hair dye / hair color experimentation is her recurring self-control habit. |
+| Gregory H. Frydrake | Symbologist / priest-scholar; reads symbols through photographic visual memory plus symbolic interpretation; Sakura Branch wording matters; fidgets with bracelet and wears spectacles he does not need. |
+| Brynn H. Stonevein | Dwarf artisan noble / companion; reads craftsmanship by touch or close study of made objects; controlled phonetic accent exception when active; hums “Pull Up Your Green Sleeves” when alone, working, or filling silence, and stops humming for precision, danger, or vulnerability. |
+| Major Tallandra H. Highwatch | Concord Guard Major; formal, pragmatic, threat-aware; reads deception / trustworthiness; spelling is Tallandra and rank is Major; constant room-scanning / avian head movement is her threat-reading signal. |
+| Carrio H. Vessalor | Serpent courtier / intelligence companion; reads people, social desire, performance gaps, insecurity, and leverage; chews gum by default and uses hard candy when gum would be socially inappropriate; oral fixation masks teeth-grinding, anger, and biting/lashing-out impulse. |
+| High Theorist Matthieu H. Cardinal | Mathematical / theoretical prodigy; reads patterns across stars, numbers, cycles, ancestry, prophecy, mathematics, and repeated structure; doodles diagrams and calculations on napkins or scrap surfaces. |
+| Mae'vyri H. Van'kareth | Dark elf noble and business operator; reads intent / next action through movement, stance, breath, grip, eye-line, and weight shift; coin habit remains locked. |
+| Yurislav H. Arslan | Bearfolk companion; reads emotion, especially buried feeling; rolls / dances a coin over his knuckles. |
 | Rhün H. Ignis | Draconic firebound rider; recurring gesture signal pending. |
-| Brickett H. | Teenage **beaver beastfolk**, age 14; no inherited maternal family name because he did not know his mother; small, dirty, homeless, underfed, hyperactive, and desperate to matter; has damp brown fur, a broad flat tail, big front teeth, singed patches, soot marks, and frequent minor burns from failed fire magic; fidgety, fireball-hungry, pyromaniac-coded, and prone to recurring “My life for you!” false-interventions. |
+| Brickett H. | Teenage **beaver beastfolk**, age 14; reads the ignored mundane: ordinary evidence, practical inconsistencies, bad repairs, wrong mud, scuffs, smells, missing tools, tired workers, and details smarter people dismiss; no inherited maternal family name because he did not know his mother; small, dirty, homeless, underfed, hyperactive, and desperate to matter; has damp brown fur, a broad flat tail, big front teeth, singed patches, soot marks, and frequent minor burns from failed fire magic; fidgety, fireball-hungry, pyromaniac-coded, and prone to recurring “My life for you!” false-interventions. |
 | Hans Halcyon Hohenzollern | Locked full name. Do not shorten formal references to Hans Halcyon. Casual prose may use Hans after the full name is established. |
 | Mother / Dianne | Mother AI; limited, fallible, not omnipotent or omniscient. |
 | The Overseer | Elder rat-like continuity figure; do not confuse with Silence. |
 | High Sovereign Dovren Judax Thorne | Repeated High Sovereign name used by the ruling line; distinguish rulers by number or regnal identifier. |
+
+## Companion Reading Modes
+
+These are innate interpretive gifts, not generic superpowers and not exposition shortcuts. They should be introduced gradually through use. Each companion can notice a different layer of reality, but no one companion can solve the whole pattern alone.
+
+| Companion | Core Reading Gift | How It Works | Best Story Use |
+|---|---|---|---|
+| Adeshka "Addie" H. Sonntag | Reads memory | Addie has eidetic recall. She can retain words, sequences, placement, conversations, maps, lists, and exact observed detail. | She preserves the data. She can remember what everyone else forgets, but she still needs others to interpret what the data means. |
+| Gregory H. Frydrake | Reads symbols | Gregory has photographic visual memory, but his real gift is symbolic interpretation. He can tell when a symbol, object, ritual, room, or scene does not match the meaning it is pretending to carry. | He reads staged reality: Revel's room, the beaver-site contradiction, false ritual logic, and symbolic traps. |
+| Brynn H. Stonevein | Reads craftsmanship | When Brynn touches or closely studies a made object, she can sense the maker's hand: method, material, shortcuts, intent, repair, and hidden construction logic. | She can identify who made something, whether it was forged, faked, repaired, sabotaged, or built by Mother. |
+| Major Tallandra H. Highwatch | Reads deception | Tallandra has an instinctive lie-sense. She can tell when someone enters with deception, false loyalty, concealed motives, or untrustworthy intent. She describes it as a gut feeling, but she is almost never wrong. | She identifies who cannot be trusted before the others have proof. This separates her from Mae: Tallandra reads truthfulness; Mae reads intent. |
+| Carrio H. Vessalor | Reads people | Carrio reads social desire, insecurity, vanity, fear, attraction, boredom, and leverage. He understands what people want others to believe about them. | He can manipulate people because he sees the performance gap between who they are and who they are pretending to be. |
+| High Theorist Matthieu H. Cardinal | Reads patterns | Matthieu reads pattern in the broadest sense: stars, numbers, cycles, ancestry, prophecy, mathematics, and repeated structure. | He bridges spiritual and mathematical interpretation. He is the one who notices the hidden pattern before anyone knows what it means. |
+| Lady Mae'vyri H. Van'kareth | Reads intent | Mae reads what someone is about to do through movement: breath, stance, grip, eye-line, blade position, weight shift, and emotional commitment. | In combat or confrontation, she can predict the next move before it happens. She does not read whether someone is lying; she reads what they are about to do. |
+| Yurislav H. Arslan | Reads emotion | Yurislav reads buried feeling: fear under calm, grief under anger, panic under logic, tenderness under cruelty, and the emotion someone is trying hardest to hide. | He can tell when a room is emotionally unstable even when everyone is speaking carefully. |
+| Brickett H. | Reads the ignored mundane | Brickett notices the ordinary evidence smarter people dismiss: scuffs, smells, cheap repairs, missing tools, tired workers, bad hinges, wrong mud, old sketches, misplaced cups, and practical inconsistencies. | He catches the saving detail because he pays attention to the world beneath everyone else's grand theories. |
+
+## Social Reading Distinctions
+
+| Character | Reads | Example |
+|---|---|---|
+| Major Tallandra H. Highwatch | Deception / trustworthiness | “He is lying.” |
+| Mae'vyri H. Van'kareth | Intent / next action | “He is about to draw the blade.” |
+| Carrio H. Vessalor | Social leverage / desire | “He wants us to think he is loyal because he needs status.” |
+| Yurislav H. Arslan | Hidden emotion | “He is not angry. He is terrified.” |
 
 ## Addie Origin Lock
 
