@@ -21,7 +21,7 @@ Middle initials should appear naturally in formal introductions so the **H** pat
 
 | Character | Authority Notes |
 |---|---|
-| Adeshka "Addie" H. Sonntag | Central protagonist; archivist; reads memory through eidetic recall; from **Qasr Siroth**; physically in Skyrend Peak at the start because of the Gale Exposition / Meridian Accord work travel, not because Skyrend is her home city; half North African / Egyptian and half West African / Nigerian; heirloom is a simple silver pendant necklace bearing the Mark of the Orbs; hair dye / hair color experimentation is her recurring self-control habit. |
+| Adeshka "Addie" H. Sonntag | Central protagonist; archivist; reads memory through eidetic recall; disproven-conjunction count = **25** and age in Book 1 = **29** (locked; supersedes 42 / age 28); from **Qasr Siroth**; physically in Skyrend Peak at the start because of the Gale Exposition / Meridian Accord work travel, not because Skyrend is her home city; half North African / Egyptian and half West African / Nigerian; heirloom is a simple silver pendant necklace bearing the Mark of the Orbs; hair dye / hair color experimentation is her recurring self-control habit. |
 | Gregory H. Frydrake | Symbologist / priest-scholar; reads symbols through photographic visual memory plus symbolic interpretation; Sakura Branch wording matters; fidgets with bracelet and wears spectacles he does not need. |
 | Brynn H. Stonevein | Dwarf artisan noble / companion; reads craftsmanship by touch or close study of made objects; controlled phonetic accent exception when active; hums “Pull Up Your Green Sleeves” when alone, working, or filling silence, and stops humming for precision, danger, or vulnerability. |
 | Major Tallandra H. Highwatch | Concord Guard Major; formal, pragmatic, threat-aware; reads deception / trustworthiness; spelling is Tallandra and rank is Major; constant room-scanning / avian head movement is her threat-reading signal. |
@@ -67,6 +67,13 @@ These are innate interpretive gifts, not generic superpowers and not exposition 
 - Early Book 1 Skyrend Peak scenes are travel / assignment scenes tied to the Gale Exposition, Portalport arrival, hotel room, and Meridian Accord Guildhall.
 - Do **not** imply that Addie is native to Skyrend Peak, lives there permanently, or considers it her home city unless later prose explicitly frames it as a temporary professional base.
 - Her Qasr Siroth origin should matter to future allegiance-chain, faction-assignment, city-culture, and identity work.
+
+## Addie Research / Age Lock
+
+- Disproven-conjunction count = **25**.
+- Age in Book 1 = **29**.
+- Supersedes **42 false claims / age 28** in all packets, outlines, and prose.
+- `01_02 The Nomination` and `01_05 The Core of the Conjunction` must remain consistent: Kwame cites **twenty-five** disproven conjunctions and frames Addie as **not yet thirty**; Addie's Three Hundred Steps speech states **twenty-five events** and **I'm twenty-nine years old**.
 
 ## Brickett Species Lock
 
