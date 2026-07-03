@@ -77,6 +77,7 @@ A **scene** is not the same thing. Scenes are tracked separately in [`16_SCENES.
 | SET-MIRROR-SEAM | Metaphysical transition | Grey seam / thread transition space | N/A | `drafts/01_07_the_first_mirror.md` | Addie's transition into the First Mirror. |
 | SET-MIRROR-COUNCIL | Historical mirror space | First Mirror council chamber under a wrong sky | Pre-Eidolon historical source | `drafts/01_07_the_first_mirror.md` | Book 1 filtered view of Book 14 council meeting. |
 | SET-MIRROR-AQM-THRONE | Historical mirror space | Half-built Aquila Matara throne room | Ancient Aquila Matara | `drafts/01_07_the_first_mirror.md` | Second Mirror: early Dovren / Overseer / coin-symbol scene. |
+| SET-MIRROR-EARLY-THRONE-CITY | Historical mirror space | Early landlocked throne-city chamber | Early Eidolon / unidentified city | `drafts/visions/01_06.md`; `drafts/01_19_the_well_of_souls.md` | Vision 6 setting where young Dovren and an emotional Overseer/Mother proxy discuss the twenty-four-city unrest, Well pressure, and starter-city expansion. Explicitly not clearly modern Aquila Matara. |
 | SET-B14-COUNCIL | Historical source setting | Complete Architect Council chamber | Pre-Eidolon / historical Earth-adjacent source layer | `scratchpad/14_09_the_unwound_core_beats.md` | Full unfiltered council meeting that Book 1 First Mirror adapts. |
 | SET-LUM | City | Luminthalas | Erzengel / Aurreth | `drafts/01_08_the_weight_of_being_asked.md` | First practice destination after Mae estate. |
 | SET-LUM-BOUNTIFUL-HARVEST | Site | Bountiful Harvest restaurant | Luminthalas lower quarters | `drafts/01_08_the_weight_of_being_asked.md` | Official restaurant name. The “Flying Scrolls” sign is a temporary rude notice with a drawn middle finger; Rosalind and Brynn put it up after Moderator scrolls started appearing because they thought the scrolls came from Brynn’s family. |
@@ -86,6 +87,10 @@ A **scene** is not the same thing. Scenes are tracked separately in [`16_SCENES.
 | SET-PFN-TEMPLE-WETLAND-QUARTER | District / section | Temple wetland quarter | Pollyr Fen | `drafts/01_17_children_of_the_damned.md` | City-proper return point where the orange beacon is seen/reflected after the swamp-church exchange; tied to ritual water, baskets, and young. |
 | SET-PFN-SWAMP-CHURCH | Historical site / ruin | Drowned Swamp-Church of Bountiful | Pollyr Fen outer wetland / old church route | `drafts/01_17_children_of_the_damned.md` | Old frogfolk swamp-church site reached by difficult wetland route; original water-memory / graveyard reveal. |
 | SET-PFN-CALCIFIED-YOUNG-GRAVEYARD | Atrocity site | Graveyard of calcified frogfolk eggs / young | Drowned Swamp-Church of Bountiful | `drafts/01_17_children_of_the_damned.md` | Moonlit graveyard of calcified eggs/young; the emotional center of the Pollyr Fen atrocity reveal. |
+| SET-PFN-OUTER-REED-SHELTER | Shelter / district pocket | Outer reed public shelter | Pollyr Fen Section 5 / Outer Reed Neighborhoods | `drafts/01_18_the_shelter_test.md` | Crowded displaced-family shelter where Tallowmire houses the companions after the orange checkpoint; used to test whether they will accept ordinary civic discomfort. |
+| SET-PFN-BEACON-PLATFORM | Civic landmark / beacon platform | Pollyr Fen beacon platform | Pollyr Fen civic-waterfront / signal landmark zone | `drafts/01_19_the_well_of_souls.md` | Orange waypoint confirmation point. The platform should fit Pollyr Fen’s low wetland signal / lock-tower silhouette, with water, docks, basin access, and mist rather than dry stone plaza logic. |
+| SET-PFN-RED-THREAD-DISTRICT | District / canal pleasure quarter | Red Thread District | Pollyr Fen | `drafts/01_20_the_red_thread_district.md` | Carrio-led investigation district: red lanterns, cords, wet thresholds, reed privacy screens, floating bridges, waterlit balconies, and sex-worker intelligence network. |
+| SET-PFN-BROTHEL-HOUSE | Building / working house | Bought-out red-thread working house | Red Thread District, Pollyr Fen | `drafts/01_20_the_red_thread_district.md` | Carrio buys out the establishment for conversation, worker pay, strategy space, and street-level testimony. Not a sexual-use scene. |
 
 ---
 
@@ -126,6 +131,23 @@ Use the specific settings in sequence when possible:
 4. `SET-SPK-PAWN-SHOP`
 5. `SET-SPK-POST-PAWN-SECURE-ROUTE`
 6. `SET-SPK-SECURE-PORTAL`
+
+## Pollyr Fen continuation route
+
+For `drafts/01_18_the_shelter_test.md` through `drafts/01_20_the_red_thread_district.md`, do not write Pollyr Fen as dry streets with generic buildings.
+
+Use Pollyr Fen's wetland movement logic:
+
+- raised boardwalks;
+- canal ferries;
+- pole-rafts;
+- dock edges;
+- slick wet thresholds;
+- basin plazas;
+- reed-screened shelter rooms;
+- low lantern light reflected in water;
+- communal sleeping / nursery-adjacent civic spaces;
+- red lantern / red cord / privacy-screen motifs in the Red Thread District.
 
 ## Portalport spelling
 
