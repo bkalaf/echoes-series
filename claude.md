@@ -62,6 +62,7 @@ Do not output beat lists, planning notes, implementation notes, or file-maintena
 Default normal-chapter prose output should include:
 
 - the centered chapter-heading box if the packet asks for a chapter heading;
+- the Mark of the Orbs only in the chapter-heading box;
 - location / temporal / beacon metadata in that heading box;
 - prose scene text;
 - visible subchapter headings only if the packet explicitly requests them;
@@ -76,12 +77,14 @@ Do not include markdown tables in the prose unless the scene itself requires a d
 
 Normal narrative chapters should begin with the Echoes heading box unless the packet says not to.
 
+The heading box must be treated as a new-page element placed about one quarter of the way down the page in final layout. Preserve the class names so downstream CSS can handle that placement.
+
 Use this structure:
 
 ```md
-<div class="eidolon-chapter-heading" align="center">
+<div class="eidolon-chapter-heading page-break-before quarter-page" align="center">
 
-![Mark of the Orbs](<MARK_OF_THE_ORBS_IMAGE>)
+![Mark of the Orbs](assets/mark_of_orbs.svg)
 
 **Chapter <CHAPTER NUMBER>: <CHAPTER TITLE>**
 
@@ -96,9 +99,11 @@ Use this structure:
 
 Use Font Awesome for the flame icon.
 
-The final visual design is handled downstream, but preserve the block, order, and fields so the full-width bordered / shadowed chapter heading can be styled.
+The final visual design is handled downstream, but preserve the block, order, fields, `page-break-before`, and `quarter-page` classes so the full-width bordered / shadowed chapter heading can be styled.
 
 Location line order is **specific to broad** and omits null values.
+
+Do not use the Mark of the Orbs image on subchapter headings.
 
 ---
 
@@ -188,6 +193,8 @@ A visible subchapter should normally mark one of these:
 5. major act-level turn where the chapter’s dramatic engine changes.
 
 Do not create visible subchapter headings for every tactical beat, joke, topic shift, or emotional turn in the same room and same POV.
+
+Do not put the Mark of the Orbs on subchapter headings. Subchapter headings must remain visually simpler than the chapter heading.
 
 Use the standard markdown scene break instead:
 
