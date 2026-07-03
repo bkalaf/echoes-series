@@ -4,7 +4,7 @@
 
 L4 reconstruction outline parsed from uploaded continuation after `01_18_the_shelter_test.md`.
 
-This chapter should carry the morning approach to the Pollyr Fen beacon, the third-waypoint confirmation, the Scene Between Stories, Vision 5 insertion, and the new Vision 6 / Well of Souls origin vision.
+This chapter carries the morning approach to the Pollyr Fen beacon, the third-waypoint confirmation, the Scene Between Stories, Vision 5 insertion, and the new Vision 6 / Well of Souls origin vision.
 
 ## Required Canon Links
 
@@ -29,26 +29,19 @@ The companions wake after the shelter rift. Yurislav and Mae have not spoken. Th
 | Field | Value |
 |---|---|
 | Date | Hearthwake 15, weekday TBD after final calendar pass. |
-| Start Time | Morning, approaching Hour of the Phoenix per source note. Review against hour table if numeric precision matters. |
-| Exit Time | Source says the visions exit about half an hour after High Market; review whether the morning approach should be later or whether subjective vision time consumes the missing hours. |
+| Start Time | Morning route toward the Pollyr Fen beacon. |
+| Exit Time | Hour of the Waning Crescent, halfway toward Hour of the Iron Foundry. |
 | Beacon State | Orange active / waypoint confirmed. |
 | Locations | Pollyr Fen outer shelter route; Pollyr Fen beacon platform; Scene Between Stories; historical mirror / early landlocked throne city. |
 | Proposed Setting IDs | `SET-PFN-OUTER-REED-SHELTER`; `SET-PFN-BEACON-PLATFORM`; `SET-WITNESS-VOID`; `SET-MIRROR-EARLY-THRONE-CITY` |
 
-## Timing Risk
+## Timing Lock
 
-The uploaded source gives two useful but conflicting-feeling time anchors:
+Resolved from review: the group exits the Scene Between Stories at **Hour of the Waning Crescent, halfway toward Hour of the Iron Foundry**.
 
-- morning approach toward the beacon, approaching Hour of the Phoenix;
-- exit from the Scene Between Stories around half an hour after High Market.
+This replaces the earlier rough note that the exit landed around half an hour after High Market.
 
-Keep both notes in the outline until the subchapter calendar pass decides whether:
-
-1. the group actually reaches the beacon later in the morning;
-2. the vision sequence consumes several hours of normal time;
-3. the High Market note should be adjusted.
-
-Do **not** silently flatten the timing.
+Use this timing for the handoff into `01_20_the_red_thread_district.md`.
 
 ---
 
@@ -384,7 +377,7 @@ Suggested visible subchapters:
 9. Brickett's ears go up.
 10. This repeats the clue that Brickett later uses to suspect the Overseer is the hidden ninth / companion anomaly.
 11. Exit the Scene Between Stories.
-12. Source note says the visions do not take very long narratively and the group exits about half an hour after High Market.
+12. Resolved timing: the group exits at **Hour of the Waning Crescent, halfway toward Hour of the Iron Foundry**.
 13. The companions are convinced the thread is in Pollyr Fen.
 14. Carrio leads the way back toward where they think the shelter is.
 15. Next chapter should reveal Carrio is intentionally leading them somewhere else.
@@ -458,7 +451,9 @@ Do not explain all of this in prose. These are author-facing payloads:
 
 # Ending State
 
-The companions exit the visions convinced the thread remains in Pollyr Fen.
+The companions exit the visions at **Hour of the Waning Crescent, halfway toward Hour of the Iron Foundry**.
+
+They are convinced the thread remains in Pollyr Fen.
 
 Carrio begins leading them away from the shelter without telling them why.
 
