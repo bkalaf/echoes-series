@@ -138,6 +138,102 @@ Visions may use `Historical / Vision`, `Metaphysical`, or `No Date/Time` dependi
 
 If `Location Status` is not `No Location`, at least one location field must be populated.
 
+## Location display order
+
+For prose-facing chapter headings, build the location line from **specific to broad**, omitting null values:
+
+```md
+<Building / Site / Landmark>, <District>, <Section>, <City>, <City-State>
+```
+
+Example:
+
+```md
+The White Tower, The High Elf Ward, The Scriptoria, City of Luminthalas, State of Ascentia
+```
+
+Do not use the older broad-to-specific display order for final prose headers unless the user explicitly asks for it.
+
+---
+
+# Chapter Heading Box Standard
+
+Normal narrative prose chapters should use a centered, full-width chapter-heading box at the top of the chapter. The box should extend to the page margins and should use a genre-appropriate border / shadow treatment.
+
+The prose generator may represent this in Markdown/HTML as a block that downstream layout can style. Do not fake final visual design in raw prose, but do preserve the required elements and their order.
+
+Required heading order:
+
+1. Mark of the Orbs image.
+2. `Chapter <CHAPTER NUMBER>: <CHAPTER TITLE>`.
+3. Location line, specific-to-broad, omitting null values.
+4. Date / weekday / hour line.
+5. Font Awesome flame icon + beacon color + beacon day line.
+
+Canonical heading template:
+
+```md
+<div class="eidolon-chapter-heading" align="center">
+
+![Mark of the Orbs](<MARK_OF_THE_ORBS_IMAGE>)
+
+**Chapter <CHAPTER NUMBER>: <CHAPTER TITLE>**
+
+<Building / Site / Landmark>, <District>, <Section>, <City>, <City-State>
+
+<Weekday>, <ordinal day> of <Month>, <Hour Name> [<Midnight/Noon +/- hours>]
+
+<i class="fa-solid fa-fire-flame-curved"></i> <BEACON COLOR> Beacon - Day <DAY NUMBER> of Conjunction #<CONJUNCTION NUMBER>
+
+</div>
+```
+
+Example:
+
+```md
+<div class="eidolon-chapter-heading" align="center">
+
+![Mark of the Orbs](assets/mark-of-the-orbs.png)
+
+**Chapter 14: The Law Telling Us To Forget**
+
+The White Tower, The High Elf Ward, The Scriptoria, City of Luminthalas, State of Ascentia
+
+Kindlemask, 3rd of Hearthwake, Hour of the Wyrm [Midnight +5 hours]
+
+<i class="fa-solid fa-fire-flame-curved"></i> White Beacon - Day 3 of Conjunction #1
+
+</div>
+```
+
+Use Font Awesome for the flame icon. Beacon color may later be styled through class names such as `beacon-red`, `beacon-orange`, `beacon-white`, etc.
+
+---
+
+# Subchapter Discipline
+
+Do not overuse visible subchapter headings.
+
+A visible subchapter heading should normally mark one of these:
+
+1. a significant location change;
+2. a POV change;
+3. a major time jump that changes the scene conditions;
+4. a formal inserted structure such as a vision, interlude, letter, legal document, broadcast, or transcript;
+5. a major act-level turn where the chapter’s dramatic engine changes.
+
+Do **not** create visible subchapter headings for every tactical beat, every topic shift, every joke, or every small emotional turn inside the same room and same POV.
+
+Use the standard markdown scene break instead:
+
+```md
+---
+```
+
+Example: a dining-room lunch, an eight-day strategy argument, and Mae walking in to say “Nope. Nope nope.” should remain one visible subchapter if the location and POV do not meaningfully change. Use `---` inside that subchapter if the prose needs a breath.
+
+Scene IDs in `canon/16_SCENES.md` may remain more granular than visible subchapter headings. Scene indexing is for maintenance. Visible subchapters are for reader-facing structure.
+
 ---
 
 # Scenes Must Be Maintained
@@ -211,23 +307,29 @@ Use this structure:
 | Status | Prompt-ready / L4 / Stub / Needs source recovery |
 | Intended Output | Narrative prose chapter / interlude / vision / scene fragment |
 | Compile Slot | B01.140 / B14.090 / TBD |
+| Chapter Number | 14 / TBD / Not Applicable |
+| Chapter Title | The Law Telling Us To Forget |
 | Parent File | path/to/parent.md |
 | Primary Draft File | path/to/this-file.md |
 | Required Attachments | List exact files to submit with the prose-generation prompt |
 | Optional Attachments | List helpful but non-required files |
 | Required Canon | List canon files this draft depends on |
 | Location Status | Specific / Partial / No Location / Location Withheld / Metaphysical / Historical / Vision |
-| Location Display | Comma-separated display line or `No Location` |
-| City-State / Region | City-state, region, or broad source layer if known |
+| Location Display | Specific-to-broad comma-separated display line or `No Location` |
+| Building / Site / Landmark | Building, room, landmark, route, or site if known |
+| District | District, ward, quarter, or neighborhood if known |
+| Section | Section or civic division if known |
 | City | City name if known |
-| District / Section / Quarter | District, section, quarter, or neighborhood if known |
-| Specific Setting / Site | Building, room, landmark, route, or site if known |
+| City-State / Region | City-state, region, or broad source layer if known |
 | Settings Used | List exact setting IDs |
 | Date / Time Status | Dated / Approximate / TBD / No Date/Time / Date/Time Withheld |
 | Date | Day Number + Month, `No Date/Time`, or `TBD` |
 | Weekday | Weekday, `No Date/Time`, or `TBD` |
 | Time / Hour | Hour name + anchor note, `Hour TBD`, or `No Date/Time` |
 | Time Certainty | Locked / Approximate / TBD / Not Applicable / Withheld |
+| Beacon State | Color + meaning, or `Not Applicable` / `Withheld` |
+| Conjunction Day | Day number of current Conjunction, or `Not Applicable` / `TBD` |
+| Conjunction Number | Conjunction number, or `Not Applicable` / `TBD` |
 | Visible Header Metadata | Chapter-level / Subchapter-level / Both / None / Withheld |
 | Scene IDs | List scene IDs |
 | Cast | Link or list major cast |
@@ -310,6 +412,7 @@ Not expected:
 - “potential setting” notes
 - old spelling mistakes
 - source-loss disclaimers unless the file is actually incomplete
+- unnecessary visible subchapter headings for same-location / same-POV beat turns
 
 ## `drafts/visions/*.md`
 
@@ -402,6 +505,7 @@ Before finishing a repo change, answer these:
 6. Did I list exact required attachments in the draft header?
 7. Did I preserve raw source or clearly mark that source recovery is needed?
 8. Did I avoid inventing canon where the source is missing?
-9. Did I cite or report the commit SHA and verification lines back to the user?
+9. Did I avoid unnecessary visible subchapter headings when `---` would be enough?
+10. Did I cite or report the commit SHA and verification lines back to the user?
 
 If the answer to any of these is no, say so directly.
