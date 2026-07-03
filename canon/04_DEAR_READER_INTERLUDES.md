@@ -69,7 +69,7 @@ This table gives every book an immediate interlude slot based on the WWII matrix
 | Book | Interlude Slot | Primary Historical Anchor | Companion / Feat Link | Status | Placement Notes |
 |---:|---|---|---|---|---|
 | 01 | Interlude: The Choice to Do Nothing | Japanese oil embargo / resource pressure / Pacific attack chain | Addie must pull the first thread | **Placed / prose saved** | Compile as `B01.035`, after `The Witnesses` and before `The Weight of the Beacon`. |
-| 02 | Interlude: The Paper Peace | Munich Agreement / appeasement | Gregory must breathe fire | Source uploaded | Extract from `munich-agreement.md`; should frame avoidance as permission and set up Gregory becoming visible. |
+| 02 | Interlude: The Paper Peace | Munich Agreement / appeasement | Gregory must breathe fire | **Prose saved / placement TBD** | Saved as `drafts/interludes/02_interlude_the_paper_peace.md`. The point is appeasement as permission and Gregory learning beauty is not preserved by surrender. |
 | 02 | Interlude: The Branch in the Ash | Ecological cascade / beavers / post-fire refuge / sakura branch | Gregory, Sakura Branch, Revel | **Source prompt saved** | Use `drafts/interludes/source_material/book02_science_ecology_prompt.md` as primary production prompt. This is the Book 02 science / reward / semantic-loophole interlude source, not yet final prose. |
 | 03 | Interlude: The Machine That Heard the Salute | Alan Turing, Enigma/codebreaking, secrecy infrastructure | Gregory accepts spotlight / Crownless Coin / legitimacy systems | **Prose saved / placement TBD** | Saved as `drafts/interludes/03_interlude_the_machine_that_heard_the_salute.md`. The point is legitimacy as performed recognition and the coin as a cryptographic crib. |
 | 04 | Interlude: The Line That Inherited the Wound | Romanov execution / dynastic trauma | Brynn owns royal lineage | Stub only | Needs prose later; pair with Yggdrasil Root and inherited trauma. |
@@ -192,6 +192,69 @@ The interlude returns the reader to Addie in the guildmaster’s office, just be
 ### Required Comedic or Emotional Exit
 
 End on the narrator asking whether Addie will pull the first loose thread, immediately feeding into Addie debating lunch / canteen bread in Kwame’s office.
+
+## Book 02 — Interlude: The Paper Peace
+
+### Chapter Type
+Reader-facing WWII / appeasement / unanswered-threat interlude.
+
+### File
+`drafts/interludes/02_interlude_the_paper_peace.md`
+
+### Placement
+Book 02, exact compile position TBD. Best current fit: immediately before or near Gregory being forced to become visible / spectacular.
+
+### Format
+Dear Reader meta-narrative interruption.
+
+### Thematic Grounding
+An unanswered threat becomes permission. Rules restrain only those who accept consequences. Negotiation is not inherently cowardice, but appeasement that sells someone smaller’s defenses and calls the result peace becomes moral theater.
+
+For Gregory, the lesson is direct: beauty is not preserved by surrender, and cozy academic obscurity cannot survive if the walls are burning.
+
+### Core Characters Highlighted
+- The Narrator.
+- Dear Reader.
+- Gregory H. Frydrake.
+- The Crumbling Empire.
+- The Determined Occultists.
+- The High Occultist / grievance-speaker.
+- The Check-Mark People.
+- The Bear.
+
+### Fictional Anchors Bridge
+
+| Fictional Element | Historical / Thematic Parallel |
+|---|---|
+| Crumbling Empire | Britain / British Empire. |
+| Tired republic | France. |
+| Determined Occultists | Nazi Germany. |
+| High Occultist / grievance-speaker | Hitler. |
+| City of Beer | Munich. |
+| Paper Peace | Munich Agreement. |
+| Sootland | Sudetenland. |
+| Check-Mark People | Czechoslovakia / Czechs. |
+| Opland | Poland. |
+| The Bear | Soviet Union / Stalin. |
+| Two-Minister Pact / Bear’s Bargain | Molotov-Ribbentrop Pact. |
+
+### Chapter Summary
+
+The narrator interrupts Gregory’s avoidance spiral to return to the Western crisis while the Sun People and Apathetic Pagans remain locked in their own distant river-staring conflict.
+
+The interlude follows the Crumbling Empire’s appeasement of the Determined Occultists: the prior border violation, the City of Beer, the Paper Peace, the sale of the Sootland, and the Check-Mark People being treated as an object on the table rather than people at the table. It frames the Paper Peace as cowardice in formalwear: diplomacy that did not stop war, but only made someone smaller pay the first bill.
+
+The second movement widens the lesson through the Bear’s Bargain. The Bear believes he is using the Occultists, but the bargain lets the Occultists consume Opland without fearing the Bear’s teeth at their flank. This seeds the wider rule that predators do not become friends because they ate beside you once.
+
+The final return-to-Eidolon bridge sends the reader back to Gregory. He is not a king or empire, but he understands the temptation to avoid confrontation and call silence peace. The interlude prepares him to put the books away and do the impossible.
+
+### Return-to-Eidolon Function
+
+Return to Gregory’s Book 02 crisis at the point where hiding behind scholarship, politeness, and smallness can no longer solve the problem. The interlude should push him toward spectacle: the entertainer has to put the books away.
+
+### Required Emotional Exit
+
+End on: sometimes, dear reader, you have to do the impossible.
 
 ## Book 02 — Interlude: The Branch in the Ash
 
