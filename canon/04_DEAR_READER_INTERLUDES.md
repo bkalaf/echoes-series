@@ -58,7 +58,7 @@ These uploaded files are now tracked as source material for future interludes or
 | `munich-agreement.md` | Long Dear Reader source containing `The Paper Peace`, `The Branch in the Ash`, `The Record That Had to Burn`, `The Machine That Heard the Salute`, `The Shield They Tried to Erase`, and `The Hero They Punished Anyway`. | Multi-book style/prose source for Gregory, Carrio, Mattieu, and Brynn interludes. Split source cards exist under `drafts/interludes/source_material/`. |
 | `turing.md` | `Interlude: The Machine That Heard the Salute`. | Book 03 active prose saved as `drafts/interludes/03_interlude_the_machine_that_heard_the_salute.md`. |
 | `turing-2.md` | `Interlude: The Hero They Punished Anyway`. | Book 05 active prose saved as `drafts/interludes/05_interlude_the_hero_they_punished_anyway.md`. |
-| `willem.md` | `Interlude: The Sabotage of the Ledger`. | Alternate / rough source for Willem Arondeus ledger-burning material. Current target should be checked against Book 08 Carrio canon before final placement. |
+| `willem.md` | `Interlude: The Sabotage of the Ledger`. | Book 11 active prose saved as `drafts/interludes/11_interlude_the_sabotage_of_the_ledger.md`; latest user-provided version returns to Matthieu's Book 11 story. |
 | `wind-talkers.md` | `Interlude: The Living Shield`. | Book 10 Navajo Code Talkers / Mattieu animal-spirit source. |
 | `book14.md` | Long unlocked mirror / full-memory variant. | Book 14 or 15 mirror-memory source, not a standard Dear Reader interlude. Preserve for later structural use. |
 
@@ -76,10 +76,11 @@ This table gives every book an immediate interlude slot based on the WWII matrix
 | 05 | Interlude: The Hero They Punished Anyway | Turing persecution / Decency Statutes | Brynn must choose personhood over Stonevein legacy utility | **Prose saved / placement TBD** | Saved as `drafts/interludes/05_interlude_the_hero_they_punished_anyway.md`. The point is lineage/identity cage, not a one-to-one sexuality allegory. |
 | 06 | Interlude: The Sky That Refused to Fall | Battle of Britain / defensive air pressure | Tallandra must fly | Stub only | Tie to aerodynamics, pressure, lift, and survival under threat. |
 | 07 | Interlude: The Honor That Ate the Outcome | Bushido doctrine / obedience and escalation | Tallandra puts honor aside | Stub only | Tie honor systems to game theory and institutional incentives. |
-| 08 | Interlude: The Record That Had to Burn | Willem Arondeus / registry sabotage | Carrio must shed skin | Source uploaded / target needs confirmation | Use polished `munich-agreement.md` version as likely Book 08 authority; `willem.md` is alternate/rough and may contain older Book 11 targeting. |
+| 08 | Interlude: The Record That Had to Burn | Willem Arondeus / registry sabotage | Carrio must shed skin | Source uploaded / target needs confirmation | Older target; latest user-provided ledger version now returns to Matthieu in Book 11. Keep this row pending until final cleanup confirms whether Book 08 still needs a Carrio-specific ledger interlude. |
 | 09 | Interlude: The Courier Nobody Saw | French Resistance couriers / hidden communication | Carrio must not be the center | Stub only | Tie to attention economy, hidden guidance, and Lantern of Izanami. |
 | 10 | Interlude: The Living Shield | Navajo Code Talkers / living language shield | Mattieu must take on animal spirit | Source uploaded | Use `wind-talkers.md`; tie to animal cognition, culture as infrastructure, and human exceptionalism. |
-| 11 | Interlude: The False Oracle | Nazi occultism / myth weaponized into certainty | Mattieu must reject false mysticism | Stub only | Tie to placebo/nocebo and false prophets/corrupted oracles. |
+| 11 | Interlude: The Sabotage of the Ledger | Willem Arondeus / Dutch resistance registry sabotage | Matthieu faces a ledger/category-erasure system | **Prose saved / placement TBD** | Saved as `drafts/interludes/11_interlude_the_sabotage_of_the_ledger.md`. Latest return bridge points to Matthieu's Book 11 story. |
+| 11 | Interlude: The False Oracle | Nazi occultism / myth weaponized into certainty | Mattieu must reject false mysticism | Stub only | Tie to placebo/nocebo and false prophets/corrupted oracles; now shares Book 11 interlude space with the ledger-sabotage source until final placement pass. |
 | 12 | Interlude: The Work That Fed the World | Rosie the Riveter / distributed labor | Mae must become selfless | Stub only | Tie to hospitality rites, food systems, invisible labor, and household/office logistics where useful. |
 | 13 | Interlude: The Enemy Spared | POW survival comparison / mercy under captivity | Mae must spare a life | Stub only | Tie to spared-enemy myths and long-term consequence modeling. |
 | 14 | Interlude: The Arithmetic of Attrition | Eastern Front attrition | Yurislav must become ruthless | Stub only | Tie to fate-weaving and prediction failure. Also preserve `book14.md` mirror source for later full-memory structure. |
@@ -403,3 +404,60 @@ Return to Brynn at the operating table with the scalpel. The reader should carry
 ### Required Emotional Exit
 
 End on Brynn standing before the operating table, holding the scalpel, deciding what price she is willing to pay.
+
+## Book 11 — Interlude: The Sabotage of the Ledger
+
+### Chapter Type
+Reader-facing WWII / state-ledger / identity-record sabotage interlude.
+
+### File
+`drafts/interludes/11_interlude_the_sabotage_of_the_ledger.md`
+
+### Placement
+Book 11, exact compile position TBD. Best current fit: immediately before or near the moment Matthieu and the group confront a ledger/category system that has decided they should no longer exist.
+
+### Format
+Dear Reader meta-narrative interruption.
+
+### Thematic Grounding
+Meticulous records can become weapons. A registry is not neutral when the state decides a category should be hunted. Forgery can save lives, but the master ledger must be destroyed or the machine will keep referencing itself.
+
+The latest return bridge points to Matthieu's Book 11 story and a ledger that has decided the characters should no longer exist.
+
+### Core Characters Highlighted
+- The Narrator.
+- Dear Reader.
+- Matthieu H. Cardinal.
+- The Occultists.
+- The Down-Low Countries.
+- The minority populations tracked by registration and category law.
+- The artists / homosexual resistance workers creating forged documents.
+- Willem Arondeus figure / registry-sabotage leader.
+
+### Fictional Anchors Bridge
+
+| Fictional Element | Historical / Thematic Parallel |
+|---|---|
+| Down-Low Countries | Netherlands / Dutch occupied territory. |
+| Occultists | Nazi Germany / occupation apparatus. |
+| Concord territories | Bureaucratic state / occupied administrative territory. |
+| Meticulous records / ledger | Population registration, identity records, central registry. |
+| Forged identity document packages | Dutch resistance forgery networks. |
+| Registry archive sabotage | Amsterdam public records office bombing. |
+| Direct statement | Willem Arondeus execution statement. |
+
+### Chapter Summary
+
+The narrator returns to the world of Sun People, Apathetic Patriots, and Occultists to focus on state records rather than battlefield spectacle. The occultists weaponize old registration systems and family-name histories against minority populations. The interlude then turns to another targeted group: homosexual artists and resistance workers who can hide in plain sight and use the skills of art to replicate authority through forged documents.
+
+The central logic is that forgery alone is not enough. If a forged identity can be checked against the master registry, the state machine still wins. The machine must be sabotaged so the machine cannot reference itself.
+
+The interlude then narrates the disguised police raid, drugged guards, deliberate document destruction, registry archive bombing, later betrayal, show trial, and uncompromised execution statement. The final irony is that people treated as non-reproductive or dishonorable preserve more human permanence and living lineage than most people who claimed moral superiority over them.
+
+### Return-to-Eidolon Function
+
+Return to Matthieu's Book 11 story as the characters face a ledger/category-erasure system. The reader should carry the lesson that official records can create death, but records can also be broken, forged, burned, or sabotaged.
+
+### Required Emotional Exit
+
+End on returning to Matthieu's story and the ledger that has decided the characters should no longer exist.
