@@ -29,7 +29,7 @@ This chapter is not the final red-beacon confrontation. It is a social investiga
 | Field | Value |
 |---|---|
 | Date | Hearthwake 15, exact weekday TBD after final calendar pass. |
-| Time | Starts about half an hour after High Market, per source; continues through evening / overnight into the next morning. |
+| Time | Starts at Hour of the Waning Crescent, halfway toward Hour of the Iron Foundry; continues through evening / overnight into the next morning. |
 | Beacon State | Orange active; red not yet active. |
 | Locations | Pollyr Fen route away from beacon; red-light / canal pleasure district; bought-out brothel / working house. |
 | Proposed Setting IDs | `SET-PFN-RED-THREAD-DISTRICT`; `SET-PFN-BROTHEL-HOUSE`; `SET-PFN-BEACON-PLATFORM`; `SET-PFN-OUTER-REED-SHELTER` |
@@ -98,7 +98,7 @@ Suggested visible subchapters:
 
 ## Subchapter 1 — Wrong Way
 
-1. Pick up after the vision exit.
+1. Pick up after the vision exit at Hour of the Waning Crescent, halfway toward Hour of the Iron Foundry.
 2. The companions believe the thread is in Pollyr Fen.
 3. They are walking and debating what the clue means.
 4. Carrio leads the way.
