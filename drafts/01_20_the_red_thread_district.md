@@ -14,13 +14,14 @@ This is the Carrio-forward chapter: the companions exit the orange-waypoint visi
 - `canon/16_SCENES.md`
 - `canon/21_TIME_AND_HEADER_METADATA.md`
 - `drafts/01_19_the_well_of_souls.md`
+- `drafts/01_21_the_stupid_thread.md`
 - `drafts/visions/01_05.md`
 - `drafts/visions/01_06.md`
 - `locales/images/analysis/PFN.analysis.json`
 
 ## Placement
 
-Immediately after `01_19_the_well_of_souls.md`.
+Immediately after `01_19_the_well_of_souls.md` and immediately before `01_21_the_stupid_thread.md`.
 
 This chapter is not the final red-beacon confrontation. It is a social investigation and Carrio foundation chapter that points the group toward where the thread may be hidden.
 
@@ -28,11 +29,19 @@ This chapter is not the final red-beacon confrontation. It is a social investiga
 
 | Field | Value |
 |---|---|
-| Date | Hearthwake 15, exact weekday TBD after final calendar pass. |
-| Time | Starts at Hour of the Waning Crescent, halfway toward Hour of the Iron Foundry; continues through evening / overnight into the next morning. |
+| Date | Hearthwake 15 into Hearthwake 17, exact handoff handled by `01_21`. |
+| Time | Starts at Hour of the Waning Crescent, halfway toward Hour of the Iron Foundry; continues through the Red Thread stay and resolves into the morning opening of `01_21`. |
 | Beacon State | Orange active; red not yet active. |
-| Locations | Pollyr Fen route away from beacon; red-light / canal pleasure district; bought-out brothel / working house. |
+| Locations | Pollyr Fen route away from beacon; Red Thread District; **The Ribbit Hole**, a bought-out brothel / working house. |
 | Proposed Setting IDs | `SET-PFN-RED-THREAD-DISTRICT`; `SET-PFN-BROTHEL-HOUSE`; `SET-PFN-BEACON-PLATFORM`; `SET-PFN-OUTER-REED-SHELTER` |
+
+## Location Lock — The Ribbit Hole
+
+The working house / brothel Carrio buys out is called **The Ribbit Hole**.
+
+Use the name once the group reaches the establishment and in all later references. The prior generic “brothel / working house” phrasing remains acceptable only as a category label.
+
+The morning after this chapter opens in `01_21` around 9:00 a.m. in The Ribbit Hole’s common room.
 
 ## Chapter Function
 
@@ -41,7 +50,7 @@ This chapter should do six major things:
 1. let Carrio take command of a kind of space he understands better than the rest of the companions;
 2. connect the Ariadne/thread problem to a red-light district / red-thread social world without making the pun feel cheap;
 3. show Carrio treating sex workers as people and useful civic witnesses, not objects;
-4. use the brothel as an intelligence-gathering / decompression space;
+4. use **The Ribbit Hole** as an intelligence-gathering / decompression space;
 5. reveal Pollyr Fen’s current political fracture through workers’ testimony and street-level truth;
 6. let Addie and Brickett privately surface the Overseer-as-hidden-companion suspicion.
 
@@ -64,9 +73,9 @@ This is a character-and-information chapter. Its moral center is Carrio choosing
 - Yurislav.
 - Major Tallandra.
 
-## Pollyr Fen Red-Light District
+## Pollyr Fen Red Thread District / The Ribbit Hole
 
-- Brothel / working-house owner, human woman, Southeast-Asian / Thai-coded.
+- The Ribbit Hole manager, human woman, Southeast-Asian / Thai-coded. She initially seems like the owner but is later clarified to be the manager.
 - Minotaur bouncer.
 - Sex workers of multiple genders and species.
 - Current patrons, including one elderly woman in comic compromising attire and one spectral shade client.
@@ -100,48 +109,44 @@ Suggested visible subchapters:
 
 1. Pick up after the vision exit at Hour of the Waning Crescent, halfway toward Hour of the Iron Foundry.
 2. The companions believe the thread is in Pollyr Fen.
-3. They are walking and debating what the clue means.
-4. Carrio leads the way.
-5. At first, everyone assumes he is taking them back toward the shelter.
-6. After enough turns, Brynn notices the route is wrong.
-7. Required Brynn line / idea:
+3. Carrio leads the way, and everyone assumes he is taking them back toward the shelter.
+4. After enough turns, Brynn notices the route is wrong.
+5. Required Brynn line / idea:
 
 > "You might be a prince, but apparently your direction is shit, boy."
 
-8. Carrio answers:
+6. Carrio answers:
 
 > "Do not call me boy."
 
-9. The others agree they are going the wrong way.
-10. Carrio says they are not going back to the shelter.
-11. They stayed where Tallowmire wanted them to stay; tonight they stay somewhere else.
-12. Required Carrio idea:
+7. Carrio says they are not going back to the shelter.
+8. They stayed where Tallowmire wanted them to stay; tonight they stay somewhere else.
+9. Required Carrio idea:
 
 > "You are going to experience my world whether you like it or not."
 
 ## Subchapter 2 — You Are Going To Experience My World
 
-1. They turn into Pollyr Fen’s red-light / pleasure district.
+1. They turn into Pollyr Fen’s Red Thread District.
 2. The district should still feel like Pollyr Fen: canals, lanterns, wet thresholds, reed privacy screens, water-lit balconies, floating bridges, and amphibian infrastructure.
 3. The thread imagery can be subtle: red lanterns, red cords, privacy curtains, tied wrist ribbons, bridges that braid through the district.
-4. Carrio stops at a brothel / working house.
+4. Carrio stops at **The Ribbit Hole**.
 5. A Minotaur bouncer blocks them.
 6. Carrio asks whether the bouncer knows who he is.
-7. The bouncer nods but does not move quickly enough.
-8. Carrio tells him to get whoever runs the place.
-9. The bouncer glares.
-10. Carrio says:
+7. Carrio tells him to get whoever runs the place.
+8. The bouncer glares.
+9. Carrio says:
 
 > "Ándale."
 
-11. The bouncer reacts immediately and goes inside.
-12. Carrio answers the companions’ looks with some version of:
+10. The bouncer reacts immediately and goes inside.
+11. Carrio answers the companions’ looks with some version of:
 
 > "What? I have a way with people."
 
 ## Subchapter 3 — Five Thousand Dovren
 
-1. The owner appears: attractive, controlled, professional, and not easily impressed.
+1. The Ribbit Hole manager appears: attractive, controlled, professional, and not easily impressed.
 2. She asks how she can help Carrio and the companions.
 3. She notices Brickett and asks whether he is a little young for this place.
 4. Carrio ignores the jab and explains the need:
@@ -149,59 +154,55 @@ Suggested visible subchapters:
    - strategy space;
    - need to talk to every employee;
    - immediate buyout of the establishment for the rest of the day/night.
-5. The owner says compensating all her employees would be significant.
+5. The manager says compensating all her employees would be significant.
 6. Carrio says he is Prince of the Embercoil; payment is guaranteed, tip depends on speed.
 7. She quotes 4,000 dovren.
-8. Addie mentally compares the number to months of rent, utilities, eating out, and new clothes.
-9. Carrio says the figure is unacceptable.
-10. The owner prepares to haggle.
-11. Carrio says:
+8. Carrio says the figure is unacceptable.
+9. The manager prepares to haggle.
+10. Carrio says:
 
 > "Five thousand."
 
-12. Carrio clarifies the workers should wear clothes for the next twenty-four hours.
-13. Required Carrio idea:
+11. Carrio clarifies the workers should wear clothes for the next twenty-four hours.
+12. Required Carrio idea:
 
 > "We are not renting them for that purpose. We are renting them to pick their brains, and to treat them like people for once."
 
-14. The owner’s eyes go wide.
+13. The manager’s eyes go wide.
 
 ## Subchapter 4 — Clothes For Twenty-Four Hours
 
 1. Carrio looks at Addie and references her mother’s lesson: leave the world better.
-2. Carrio demands the owner take only her standard ten percent and pay the rest directly to the workers.
+2. Carrio demands the manager take only her standard ten percent and pay the rest directly to the workers.
 3. He threatens consequences if she cheats them.
 4. His hood rises; fangs come out.
 5. Required Carrio threat shape:
 
 > "If I find out you broke this deal, I will personally blind you and paralyze one side of your body so you swim in circles for the rest of your life when you bathe."
 
-6. The owner gives her word.
-7. She makes him put the threat away.
-8. She reveals she has friends in Vhal'Tigris / the great-cat city and reads him well enough to tease him.
-9. She calls him a little pussycat on the inside.
-10. Addie thinks that if Carrio were not a black cobra, he would be blushing.
-11. This implies some history or reputation the group does not yet know.
+6. The manager gives her word and makes him put the threat away.
+7. She reveals she has friends in Vhal'Tigris / the great-cat city and reads him well enough to tease him.
+8. She calls him a little pussycat on the inside.
+9. Addie thinks that if Carrio were not a black cobra, he would be blushing.
+10. Later continuity: `01_21` clarifies she is the manager, not the actual owner.
 
 ## Subchapter 5 — Top Shelf Shit
 
-1. The brothel clears clients immediately.
+1. The Ribbit Hole clears clients immediately.
 2. Use comic chaos:
    - crashes;
    - clothing thrown out;
    - naked patrons fleeing;
    - one very old woman in revealing lingerie / garter belt / ball gag running out;
    - one spectral shade client complaining he has never been so insulted.
-3. The owner refunds the spectral shade and tells him to complain to someone who gives a shit.
+3. The manager refunds the spectral shade and tells him to complain to someone who gives a shit.
 4. Inside, workers are confused and uncomfortable.
-5. The owner announces they have the day/night off and begins distributing pay.
+5. The manager announces they have the day/night off and begins distributing pay.
 6. Workers assume the service expectation is still sexual and begin reacting accordingly.
-7. The owner says no; this is conversation only.
+7. The manager says no; this is conversation only.
 8. She says she is getting top-shelf liquor because she feels bad serving them watered-down wine.
-9. The companions look at her.
-10. She says she has to make a profit.
-11. Rhün and Yurislav volunteer to help carry supplies.
-12. This matters because the workers see powerful people helping with labor rather than being served.
+9. Rhün and Yurislav volunteer to help carry supplies.
+10. This matters because the workers see powerful people helping with labor rather than being served.
 
 ## Subchapter 6 — Somewhere I Can Be Myself
 
@@ -221,24 +222,21 @@ Suggested visible subchapters:
 
 ## Subchapter 7 — Tell Me About Her
 
-1. The owner sits across from Addie.
+1. The manager sits across from Addie.
 2. She reads Addie as deeply troubled beyond the Moderator crisis.
 3. Addie answers defensively.
-4. The owner says it is beyond surface pressure: Addie has lost someone recently.
+4. The manager says Addie has lost someone recently.
 5. Addie touches / grabs her pendant.
-6. The owner says Addie has not had time to grieve.
-7. Required owner idea:
+6. Required manager grief idea:
 
 > "It will feel like hell for however many days it feels like hell. One day it won't. You cannot predict when. You cannot predict why. Everybody is different. But when you feel like you cannot take any more, that will probably be the day. Now tell me about this person. That usually helps."
 
-8. Addie begins talking about her mother.
-9. Carrio had referenced the “leave the world a better place” line.
-10. Addie says her mother used to say that.
-11. End this movement on Addie beginning to talk rather than summarizing grief away.
+7. Addie begins talking about her mother.
+8. End this movement on Addie beginning to talk rather than summarizing grief away.
 
 ## Subchapter 8 — A City That Wants Change
 
-1. Pick up the next morning or late-night aftermath after they spend most of the night talking.
+1. Pick up late-night aftermath after the group spends most of the night talking.
 2. The companions gather information from workers, staff, and district contacts.
 3. Pollyr Fen is deeply fractured.
 4. Loyal Concord guards have been run out or exiled.
@@ -265,15 +263,14 @@ Suggested visible subchapters:
 
 ## Subchapter 10 — I Owe You An Apology
 
-1. The most interesting thing from the night is Addie’s private conversation with Brickett.
+1. Addie has a private conversation with Brickett.
 2. Brickett takes a break from learning fire handling from a fire dancer.
 3. He smells like soot and burned hair but is very proud of himself.
 4. He flops down beside Addie with a little beaver plop.
 5. Addie apologizes for ignoring him when he was trying to get her attention.
-6. She says that was not right for someone who is supposed to see everybody.
-7. Brickett is baffled and says she does not have to apologize to her attaché.
-8. Addie says yes, she does.
-9. Before he can object, she asks what he had been trying to tell her.
+6. Brickett is baffled and says she does not have to apologize to her attaché.
+7. Addie says yes, she does.
+8. Before he can object, she asks what he had been trying to tell her.
 
 ## Subchapter 11 — The Ninth Member
 
@@ -294,7 +291,7 @@ Suggested visible subchapters:
 8. Brickett also says the Overseer is clearly helping them.
 9. He repeats that it does not make sense because the ninth is supposed to be a noble human.
 10. Addie considers that Brickett might be right.
-11. She says they will share it with the group tomorrow and have everyone watch for clues.
+11. Addie says they will share it with the group tomorrow and have everyone watch for clues.
 12. Addie says the Overseer also said something privately to her, and she thinks she knows what he is pointing toward.
 13. She withholds it because they need the thread first.
 14. She also does not want Brickett thinking too hard or worrying too much.
@@ -311,7 +308,7 @@ Suggested visible subchapters:
 8. This should contrast with the previous chapter’s attempt to manipulate him.
 9. The thread problem remains unresolved, but the group now has:
    - the city context;
-   - the red-light district contacts;
+   - the Red Thread District contacts;
    - Carrio’s information network;
    - Brickett’s ninth-companion suspicion;
    - the Overseer’s private clue still pending.
@@ -340,7 +337,7 @@ Suggested visible subchapters:
 
 > "We are not renting them for that purpose. We are renting them to pick their brains, and to treat them like people for once."
 
-## Owner Grief Line
+## Manager Grief Line
 
 > "It will feel like hell for however many days it feels like hell. One day it won't."
 
@@ -352,16 +349,18 @@ Suggested visible subchapters:
 
 # Continuity / Character Notes
 
+- The establishment is **The Ribbit Hole**.
+- The woman who initially negotiates with Carrio is later clarified as the manager, not the actual owner.
 - This chapter should respect sex workers as workers. Carrio’s power move is not charity; it is payment, respect, and intelligence gathering.
 - Carrio is comfortable here because this is a world of performance, desire, leverage, masks, and survival.
 - Do not make the brothel cartoonishly evil. It can be comic, chaotic, transactional, and humane at once.
-- The owner should be sharp enough to tease Carrio and read Addie's grief.
+- The manager should be sharp enough to tease Carrio and read Addie's grief.
 - Keep Brickett fourteen. His presence should be handled by Carrio explicitly defining the night as conversation / strategy, not sex.
 - Gregory’s discomfort can be comic but should not become moral condemnation of the workers.
 - Mae’s flirting should also be information gathering.
 - Tallandra’s discomfort should be tied to institutional order / protection concerns, not prudishness.
 - Use **Vhal'Tigris** for the big-cat city reference unless later city-spelling canon changes it.
-- Do not resolve the thread yet unless a later outline adds the actual object retrieval.
+- Do not resolve the thread yet; `01_21` resolves it through Tallowmire’s daughter.
 
 ---
 
@@ -376,3 +375,5 @@ Carrio has shown the group his world.
 Addie and Brickett have raised the possibility that the Overseer is the hidden ninth / companion anomaly, but it does not yet fit the noble-human rule.
 
 The group still needs to find the actual thread.
+
+The next chapter opens around 9:00 a.m. in the common room of **The Ribbit Hole**.

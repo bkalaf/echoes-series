@@ -37,7 +37,8 @@ Book 01 uses the active 8-day weekday cycle. Since Yearsend 29 is Kindlemask, th
 | Hearthwake 3 | Aegalor | Green beacon lights at Hour of the Singularity; Conjunction begins / Day One operations. |
 | Hearthwake 14 | Eldrane | Pollyr Fen orange-checkpoint aftermath / shelter night. |
 | Hearthwake 15 | Karskov | Pollyr Fen beacon return / Well of Souls visions / Red Thread District route. |
-| Hearthwake 16 | Kindlemask | Red Thread District aftermath if overnight sequence resolves after sleep. |
+| Hearthwake 16 | Kindlemask | Red Thread District stay / decompression and testimony window. |
+| Hearthwake 17 | Dravenkar | The Stupid Thread; Ariadne’s Thread recovered; orange beacon shifts to red; eight days remain for Horror. |
 
 ## Book 01 Chapter Calendar Map
 
@@ -64,7 +65,8 @@ Book 01 uses the active 8-day weekday cycle. Since Yearsend 29 is Kindlemask, th
 | B01.170 | 01_17 | Children of the Damned | **Hearthwake 14, Eldrane, late; orange checkpoint by end** | Pollyr Fen swamp-church, calcified young, business transfer, and orange checkpoint. |
 | B01.180 | 01_18 | The Shelter Test | **Hearthwake 14 into Hearthwake 15, late night / pre-dawn** | Shelter decompression after orange checkpoint; companion reading-mode formalization; Mae/Yurislav rift. |
 | B01.190 | 01_19 | The Well of Souls | **Hearthwake 15, Karskov; exits Hour of the Waning Crescent, halfway toward Hour of the Iron Foundry** | Pollyr Fen beacon return, Horror selection, Vision 5, Vision 6, starter-city / Well origin exposure. |
-| B01.200 | 01_20 | The Red Thread District | **Hearthwake 15, Karskov; starts Hour of the Waning Crescent, halfway toward Hour of the Iron Foundry; continues overnight** | Carrio leads the group into the Red Thread District / working-house intelligence chapter. |
+| B01.200 | 01_20 | The Red Thread District | **Hearthwake 15, Karskov, through Hearthwake 16; resolves into The Ribbit Hole morning setup** | Carrio leads the group into the Red Thread District / The Ribbit Hole intelligence chapter. |
+| B01.210 | 01_21 | The Stupid Thread | **Hearthwake 17, Dravenkar; starts around 9:00 a.m.; red beacon active by AQM lunch** | Ariadne’s Thread arrives by Tallowmire’s adopted daughter; Addie’s touch triggers orange-to-red; group returns to AQM for eight-day Horror prep. |
 
 ---
 
@@ -175,5 +177,14 @@ Book 01 uses the active 8-day weekday cycle. Since Yearsend 29 is Kindlemask, th
 | # | Visible Subchapter Group | Calendar Position |
 |---:|---|---|
 | 1–2 | Wrong-way route into the Red Thread District | **Hearthwake 15, Karskov, Hour of the Waning Crescent, halfway toward Hour of the Iron Foundry** |
-| 3–9 | Brothel buyout, worker testimony, Carrio foundation, city political fracture | **Hearthwake 15, Karskov, afternoon / evening into overnight** |
-| 10–12 | Addie / Brickett apology and ninth-member suspicion | **Late night or Hearthwake 16 morning-ish; exact handoff pending next chapter** |
+| 3–9 | The Ribbit Hole buyout, worker testimony, Carrio foundation, city political fracture | **Hearthwake 15, Karskov, afternoon / evening into overnight** |
+| 10–12 | Addie / Brickett apology and ninth-member suspicion | **Late Red Thread stay before Hearthwake 17 morning handoff** |
+
+## B01.210 — The Stupid Thread
+
+| # | Visible Subchapter Group | Calendar Position |
+|---:|---|---|
+| 1–2 | The Ribbit Hole morning, missing Carrio, buried Brickett | **Hearthwake 17, Dravenkar, around 9:00 a.m.; orange active** |
+| 3–7 | Tallowmire’s daughter, muddy Mae hug, Ariadne’s Thread, orange-to-red transition | **Hearthwake 17, Dravenkar, morning; red activates when Addie touches the thread** |
+| 8 | Pollyr Fen Portalport / Mirrfang delay / city-allegiance news | **Hearthwake 17, Dravenkar, after red activation** |
+| 9–11 | AQM return, rainy dining-room lunch, eight-day Horror planning chaos | **Hearthwake 17, Dravenkar, Hour of High Market halfway toward Hour of the Wayfarer; red active** |
