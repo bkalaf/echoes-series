@@ -35,6 +35,9 @@ Book 01 uses the active 8-day weekday cycle. Since Yearsend 29 is Kindlemask, th
 | Hearthwake 1 | Dravenkar | Purple beacon lights at Hour of the Singularity; crisis announcement / 48-hour warning. |
 | Hearthwake 2 | Stonewake | Blue beacon lights at Hour of the Singularity; 24-hour warning / public extraction and Conclave day. |
 | Hearthwake 3 | Aegalor | Green beacon lights at Hour of the Singularity; Conjunction begins / Day One operations. |
+| Hearthwake 14 | Eldrane | Pollyr Fen orange-checkpoint aftermath / shelter night. |
+| Hearthwake 15 | Karskov | Pollyr Fen beacon return / Well of Souls visions / Red Thread District route. |
+| Hearthwake 16 | Kindlemask | Red Thread District aftermath if overnight sequence resolves after sleep. |
 
 ## Book 01 Chapter Calendar Map
 
@@ -55,6 +58,13 @@ Book 01 uses the active 8-day weekday cycle. Since Yearsend 29 is Kindlemask, th
 | B01.110 | 01_11 | The Bountiful Harvest | **Hearthwake 3, Aegalor, late Sphinx before Hour of the Singularity** | Immediately after white lunar light; less than one hour before green pressure peaks. |
 | B01.120 | 01_12 | The Unwound Core | **Hearthwake 3, Aegalor, after green activation begins** | Manor-return synthesis under green beacon pressure. |
 | B01.130 | 01_13 | The Thread Back Out | **Hearthwake 3, Aegalor, green phase active** | Barnaby / Ariadne / comma-riddle scene. |
+| B01.140 | 01_14 | The Law Telling Us To Forget | **Calendar metadata pending final pass** | Luminthalas route / archive chapter; exact date and beacon state pending source review. |
+| B01.150 | 01_15 | The Cities That Disobeyed | **Calendar metadata pending final pass** | Yellow / vision layer chapter; exact date and beacon state pending source review. |
+| B01.160 | 01_16 | Rapid Acceptance | **Calendar metadata pending final pass** | Mae estate / back porch / attorney-client debrief layer; exact date pending source review. |
+| B01.170 | 01_17 | Children of the Damned | **Hearthwake 14, Eldrane, late; orange checkpoint by end** | Pollyr Fen swamp-church, calcified young, business transfer, and orange checkpoint. |
+| B01.180 | 01_18 | The Shelter Test | **Hearthwake 14 into Hearthwake 15, late night / pre-dawn** | Shelter decompression after orange checkpoint; companion reading-mode formalization; Mae/Yurislav rift. |
+| B01.190 | 01_19 | The Well of Souls | **Hearthwake 15, Karskov; exits Hour of the Waning Crescent, halfway toward Hour of the Iron Foundry** | Pollyr Fen beacon return, Horror selection, Vision 5, Vision 6, starter-city / Well origin exposure. |
+| B01.200 | 01_20 | The Red Thread District | **Hearthwake 15, Karskov; starts Hour of the Waning Crescent, halfway toward Hour of the Iron Foundry; continues overnight** | Carrio leads the group into the Red Thread District / working-house intelligence chapter. |
 
 ---
 
@@ -145,3 +155,25 @@ Book 01 uses the active 8-day weekday cycle. Since Yearsend 29 is Kindlemask, th
 | 1 | Mae Estate Arrival / Kitchen Care | **Hearthwake 2, Stonewake, Hour of the Pack-Runner** |
 | 2 | Dining Room / Companion Table | **Hearthwake 2, Stonewake, Hour of the Pack-Runner into Hour of the Courier** |
 | 3 | Next-Day Planning | **Hearthwake 2, Stonewake, late night before sleep** |
+
+## B01.180 — The Shelter Test
+
+| # | Visible Subchapter Group | Calendar Position |
+|---:|---|---|
+| 1–4 | Shelter arrival, displaced families, Brickett with children | **Hearthwake 14, Eldrane, late night after orange checkpoint** |
+| 5–11 | Private hourglass bubble, reading-mode discussion, Brickett/Mother reveal, Mae/Yurislav rift | **Hearthwake 14 into Hearthwake 15, pre-dawn** |
+
+## B01.190 — The Well of Souls
+
+| # | Visible Subchapter Group | Calendar Position |
+|---:|---|---|
+| 1–3 | Shelter-to-beacon route, CotD offerings, waypoint confirmation | **Hearthwake 15, Karskov, morning** |
+| 4–13 | Scene Between Stories, Vision 5, Vision 6, return | **Subjective Witness / vision time; normal-time exit at Hour of the Waning Crescent, halfway toward Hour of the Iron Foundry** |
+
+## B01.200 — The Red Thread District
+
+| # | Visible Subchapter Group | Calendar Position |
+|---:|---|---|
+| 1–2 | Wrong-way route into the Red Thread District | **Hearthwake 15, Karskov, Hour of the Waning Crescent, halfway toward Hour of the Iron Foundry** |
+| 3–9 | Brothel buyout, worker testimony, Carrio foundation, city political fracture | **Hearthwake 15, Karskov, afternoon / evening into overnight** |
+| 10–12 | Addie / Brickett apology and ninth-member suspicion | **Late night or Hearthwake 16 morning-ish; exact handoff pending next chapter** |
