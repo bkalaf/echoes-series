@@ -60,13 +60,13 @@ A **scene** is not the same thing. Scenes are tracked separately in [`16_SCENES.
 | SET-AQM-MAE-GATE | Estate threshold | Van'kareth black gates / courtyard threshold | Mae's Aquila Matara estate | `drafts/01_07_the_first_mirror.md` | Final threshold of First Mirror chapter. |
 | SET-AQM-MAE-FOYER | Estate interior | Mae's foyer and corridor | Mae's Aquila Matara estate | `drafts/01_08_the_weight_of_being_asked.md` | Arrival into household care structure. |
 | SET-AQM-MAE-KITCHEN | Estate interior | Mae's working kitchen | Mae's Aquila Matara estate | `drafts/01_08_the_weight_of_being_asked.md` | Soup/bread/care beat and Max/Mae household ethic. |
-| SET-AQM-MAE-DINING | Estate interior | Mae's dining room with eighteen high-backed chairs | Mae's Aquila Matara estate | `drafts/01_08_the_weight_of_being_asked.md` | Companion-table consolidation, breakfast planning, and Overseer questioning. |
+| SET-AQM-MAE-DINING | Estate interior | Mae's dining room with eighteen high-backed chairs | Mae's Aquila Matara estate | `drafts/01_08_the_weight_of_being_asked.md`; `drafts/01_21_the_stupid_thread.md` | Companion-table consolidation and planning scenes. In `01_21`, Max serves unplanned sandwiches here while rain keeps the group indoors and the red-beacon planning chaos begins. |
 | SET-AQM-MAE-QUARTERS | Estate interior | Mae estate guest quarters | Mae's Aquila Matara estate | `drafts/01_09_day_one_architecture.md` | Addie's morning-after room, delivered bags, cyan hair-dye reset, pendant, and field-clothes discovery. |
 | SET-AQM-MAE-WASHROOM | Estate interior | Mae estate guest washroom / black-stone bath | Mae's Aquila Matara estate | `drafts/01_09_day_one_architecture.md` | Luxurious bath with four brass nozzles; private decompression before day-one operations. |
 | SET-AQM-MAE-EXTERIOR | Estate exterior | Mae estate exterior under reporter pressure | Mae's Aquila Matara estate | `drafts/01_09_day_one_architecture.md` | Crowds, reporters, house guards, Brimscale at the gate, and Ashwing overhead. |
 | SET-AQM-MAE-FAMILY-ROOM | Estate interior | Mae estate high-fire family room | Mae's Aquila Matara estate | `drafts/01_12_the_unwound_core.md` | Manor-return synthesis room: green-beacon window view, broadcast feed, Mark-of-the-Orbs artifact comparison, and folklore-thread pivot. |
 | SET-AQM-MAE-BACK-PORCH | Estate exterior | Mae estate back porch / terrace | Mae's Aquila Matara estate | `drafts/01_16_rapid_acceptance.md` | Yellow-beacon sightline and protected post-vision debrief location. Tikket records the discussion here under attorney-client privilege. |
-| SET-AQM-TERMINAL | Transit hub | Aquila Matara terminal / Portalport route | Aquila Matara | `drafts/01_10_holes_in_the_wall.md` | Day-one team split and Brickett false-intervention beat before portal travel. |
+| SET-AQM-TERMINAL | Transit hub | Aquila Matara terminal / Portalport route | Aquila Matara | `drafts/01_10_holes_in_the_wall.md`; `drafts/01_21_the_stupid_thread.md` | Day-one team split and later return route from Pollyr Fen after the red-beacon activation. |
 | SET-LUM-PORTALPORT | Transit hub | Luminthalas Portalport / arrival terminal | Luminthalas Section 5 | `drafts/01_10_holes_in_the_wall.md`; `drafts/01_14_the_law_telling_us_to_forget.md` | Locked to Section 5 / Arcane-Alchemy district for the Day Four route; the companions must walk across Luminthalas from here to the White Tower Archives in Section 1. |
 | SET-LUM-LOWER-QUARTERS | District | Luminthalas lower quarters | Luminthalas | `drafts/01_10_holes_in_the_wall.md` | Cold, soot-dark, class-stratified district below high-elf skybridges. |
 | SET-LUM-TALLOW-DISTRICT | District / lane | Tallow district / tallow-tier | Luminthalas lower quarters | `drafts/01_10_holes_in_the_wall.md` | Queue, restaurant line, nobles, peacekeeper lockdown, and Addie's lunar-light standoff. Term spelling to confirm. |
@@ -83,14 +83,15 @@ A **scene** is not the same thing. Scenes are tracked separately in [`16_SCENES.
 | SET-LUM-BOUNTIFUL-HARVEST | Site | Bountiful Harvest restaurant | Luminthalas lower quarters | `drafts/01_08_the_weight_of_being_asked.md` | Official restaurant name. The “Flying Scrolls” sign is a temporary rude notice with a drawn middle finger; Rosalind and Brynn put it up after Moderator scrolls started appearing because they thought the scrolls came from Brynn’s family. |
 | SET-PFN | City | Pollyr Fen | Hellgate River-Mire / Aurreth | `drafts/01_17_children_of_the_damned.md` | Frogfolk wetland city where water is street, nursery, ritual space, and civic infrastructure. |
 | SET-PFN-BOUNTIFUL-DAM | Site / atrocity anchor | Bountiful Dam | Pollyr Fen / Book 01 mission chain | `drafts/01_08_the_weight_of_being_asked.md` | Appears in mirror/report context tied to river diversion and Book 01 solution path. |
-| SET-PFN-PORTALPORT | Transit hub | Pollyr Fen Portalport / wetland arrival terminal | Pollyr Fen | `drafts/01_17_children_of_the_damned.md` | Arrival point into frogfolk canal/boardwalk movement logic; guarded by frogfolk guards under Concord structure but Schism pressure. |
+| SET-PFN-PORTALPORT | Transit hub | Pollyr Fen Portalport / wetland arrival terminal | Pollyr Fen | `drafts/01_17_children_of_the_damned.md`; `drafts/01_21_the_stupid_thread.md` | Arrival/departure point into frogfolk canal/boardwalk movement logic. In `01_21`, the group is delayed here by overheard Mirrfang guard trouble while reading city-allegiance news after the red beacon turns. |
 | SET-PFN-TEMPLE-WETLAND-QUARTER | District / section | Temple wetland quarter | Pollyr Fen | `drafts/01_17_children_of_the_damned.md` | City-proper return point where the orange beacon is seen/reflected after the swamp-church exchange; tied to ritual water, baskets, and young. |
 | SET-PFN-SWAMP-CHURCH | Historical site / ruin | Drowned Swamp-Church of Bountiful | Pollyr Fen outer wetland / old church route | `drafts/01_17_children_of_the_damned.md` | Old frogfolk swamp-church site reached by difficult wetland route; original water-memory / graveyard reveal. |
 | SET-PFN-CALCIFIED-YOUNG-GRAVEYARD | Atrocity site | Graveyard of calcified frogfolk eggs / young | Drowned Swamp-Church of Bountiful | `drafts/01_17_children_of_the_damned.md` | Moonlit graveyard of calcified eggs/young; the emotional center of the Pollyr Fen atrocity reveal. |
 | SET-PFN-OUTER-REED-SHELTER | Shelter / district pocket | Outer reed public shelter | Pollyr Fen Section 5 / Outer Reed Neighborhoods | `drafts/01_18_the_shelter_test.md` | Crowded displaced-family shelter where Tallowmire houses the companions after the orange checkpoint; used to test whether they will accept ordinary civic discomfort. |
 | SET-PFN-BEACON-PLATFORM | Civic landmark / beacon platform | Pollyr Fen beacon platform | Pollyr Fen civic-waterfront / signal landmark zone | `drafts/01_19_the_well_of_souls.md` | Orange waypoint confirmation point. The platform should fit Pollyr Fen’s low wetland signal / lock-tower silhouette, with water, docks, basin access, and mist rather than dry stone plaza logic. |
-| SET-PFN-RED-THREAD-DISTRICT | District / canal pleasure quarter | Red Thread District | Pollyr Fen | `drafts/01_20_the_red_thread_district.md` | Carrio-led investigation district: red lanterns, cords, wet thresholds, reed privacy screens, floating bridges, waterlit balconies, and sex-worker intelligence network. |
-| SET-PFN-BROTHEL-HOUSE | Building / working house | Bought-out red-thread working house | Red Thread District, Pollyr Fen | `drafts/01_20_the_red_thread_district.md` | Carrio buys out the establishment for conversation, worker pay, strategy space, and street-level testimony. Not a sexual-use scene. |
+| SET-PFN-RED-THREAD-DISTRICT | District / canal pleasure quarter | Red Thread District | Pollyr Fen | `drafts/01_20_the_red_thread_district.md`; `drafts/01_21_the_stupid_thread.md` | Carrio-led investigation district: red lanterns, cords, wet thresholds, reed privacy screens, floating bridges, waterlit balconies, and sex-worker intelligence network. |
+| SET-PFN-BROTHEL-HOUSE | Building / working house | The Ribbit Hole | Red Thread District, Pollyr Fen | `drafts/01_20_the_red_thread_district.md`; `drafts/01_21_the_stupid_thread.md` | Carrio buys out The Ribbit Hole for conversation, worker pay, strategy space, and street-level testimony. `01_21` opens in its common room around 9:00 a.m.; Tallowmire’s daughter delivers Ariadne’s Thread at the front door. Not a sexual-use scene. |
+| SET-PFN-MIRRFANG | Offstage district / route reference | Mirrfang | Pollyr Fen | `drafts/01_21_the_stupid_thread.md` | Mentioned as overheard transit delay involving a guard near/down by Mirrfang. Keep as background noise unless later canon expands it. |
 
 ---
 
@@ -134,7 +135,7 @@ Use the specific settings in sequence when possible:
 
 ## Pollyr Fen continuation route
 
-For `drafts/01_18_the_shelter_test.md` through `drafts/01_20_the_red_thread_district.md`, do not write Pollyr Fen as dry streets with generic buildings.
+For `drafts/01_18_the_shelter_test.md` through `drafts/01_21_the_stupid_thread.md`, do not write Pollyr Fen as dry streets with generic buildings.
 
 Use Pollyr Fen's wetland movement logic:
 
@@ -147,7 +148,8 @@ Use Pollyr Fen's wetland movement logic:
 - reed-screened shelter rooms;
 - low lantern light reflected in water;
 - communal sleeping / nursery-adjacent civic spaces;
-- red lantern / red cord / privacy-screen motifs in the Red Thread District.
+- red lantern / red cord / privacy-screen motifs in the Red Thread District;
+- The Ribbit Hole as a wet-threshold working house with a common room of couches, pillows, blankets, and workers watching from windows.
 
 ## Portalport spelling
 
