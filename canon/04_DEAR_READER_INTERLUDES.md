@@ -54,12 +54,12 @@ These uploaded files are now tracked as source material for future interludes or
 | Source File | Working Title / Contents | Current Use |
 |---|---|---|
 | `embargo.md` | `Interlude: The Choice to Do Nothing` | Book 01 final/active prose source. Saved as `drafts/interludes/01_interlude_the_choice_to_do_nothing.md`. |
-| `ecology.md` | Master production prompt for Book 02 science interlude: ecological cascade, beaver refugia, Sakura Branch / sequoia seed, Gregory / Frank scene. | Book 02 science source prompt. Saved as `drafts/interludes/source_material/book02_science_ecology_prompt.md`. Not final prose yet. |
-| `munich-agreement.md` | Long Dear Reader source containing `The Paper Peace`, `The Branch in the Ash`, `The Record That Had to Burn`, `The Machine That Heard the Salute`, `The Shield They Tried to Erase`, and `The Hero They Punished Anyway`. | Multi-book style/prose source for Gregory, Carrio, Mattieu, and Brynn interludes. Split source cards exist under `drafts/interludes/source_material/`. |
+| `ecology.md` | Master production prompt for Book 02 science interlude: ecological cascade, beaver refugia, Sakura Branch / sequoia seed, Gregory / Frank scene. | Book 02 science source prompt retained; active skeleton saved as `drafts/interludes/02_interlude_the_branch_in_the_ash.md`. Final expansion still needed. |
+| `munich-agreement.md` | Long Dear Reader source containing `The Paper Peace`, `The Branch in the Ash`, `The Record That Had to Burn`, `The Machine That Heard the Salute`, `The Shield They Tried to Erase`, and `The Hero They Punished Anyway`. | Multi-book style/prose source for Gregory, Carrio, Matthieu, and Brynn interludes. Split source cards exist under `drafts/interludes/source_material/`. |
 | `turing.md` | `Interlude: The Machine That Heard the Salute`. | Book 03 active prose saved as `drafts/interludes/03_interlude_the_machine_that_heard_the_salute.md`. |
 | `turing-2.md` | `Interlude: The Hero They Punished Anyway`. | Book 05 active prose saved as `drafts/interludes/05_interlude_the_hero_they_punished_anyway.md`. |
 | `willem.md` | `Interlude: The Sabotage of the Ledger`. | Book 11 active prose saved as `drafts/interludes/11_interlude_the_sabotage_of_the_ledger.md`; latest user-provided version returns to Matthieu's Book 11 story. |
-| `wind-talkers.md` | `Interlude: The Living Shield`. | Book 10 Navajo Code Talkers / Mattieu animal-spirit source. |
+| `wind-talkers.md` | `Interlude: The Living Shield`. | Book 10 Navajo Code Talkers / Matthieu animal-spirit source. |
 | `book14.md` | Long unlocked mirror / full-memory variant. | Book 14 or 15 mirror-memory source, not a standard Dear Reader interlude. Preserve for later structural use. |
 
 ## Series Dear Reader / Interlude Stub Registry
@@ -70,7 +70,7 @@ This table gives every book an immediate interlude slot based on the WWII matrix
 |---:|---|---|---|---|---|
 | 01 | Interlude: The Choice to Do Nothing | Japanese oil embargo / resource pressure / Pacific attack chain | Addie must pull the first thread | **Placed / prose saved** | Compile as `B01.035`, after `The Witnesses` and before `The Weight of the Beacon`. |
 | 02 | Interlude: The Paper Peace | Munich Agreement / appeasement | Gregory must breathe fire | **Prose saved / placement TBD** | Saved as `drafts/interludes/02_interlude_the_paper_peace.md`. The point is appeasement as permission and Gregory learning beauty is not preserved by surrender. |
-| 02 | Interlude: The Branch in the Ash | Ecological cascade / beavers / post-fire refuge / sakura branch | Gregory, Sakura Branch, Revel | **Source prompt saved** | Use `drafts/interludes/source_material/book02_science_ecology_prompt.md` as primary production prompt. This is the Book 02 science / reward / semantic-loophole interlude source, not yet final prose. |
+| 02 | Interlude: The Branch in the Ash | Ecological cascade / beavers / post-fire refuge / sakura branch | Gregory, Brickett, Sakura Branch, Revel | **Skeleton saved / final prose needed** | Saved as `drafts/interludes/02_interlude_the_branch_in_the_ash.md`. Current skeleton locks keystone species, Eurasian beaver, refugia, anoxic seed preservation, and the bridge question. Expand next into Brickett, Gregory, the branch/seed loophole, real fire, and Frank/Revel. |
 | 03 | Interlude: The Machine That Heard the Salute | Alan Turing, Enigma/codebreaking, secrecy infrastructure | Gregory accepts spotlight / Crownless Coin / legitimacy systems | **Prose saved / placement TBD** | Saved as `drafts/interludes/03_interlude_the_machine_that_heard_the_salute.md`. The point is legitimacy as performed recognition and the coin as a cryptographic crib. |
 | 04 | Interlude: The Line That Inherited the Wound | Romanov execution / dynastic trauma | Brynn owns royal lineage | Stub only | Needs prose later; pair with Yggdrasil Root and inherited trauma. |
 | 05 | Interlude: The Hero They Punished Anyway | Turing persecution / Decency Statutes | Brynn must choose personhood over Stonevein legacy utility | **Prose saved / placement TBD** | Saved as `drafts/interludes/05_interlude_the_hero_they_punished_anyway.md`. The point is lineage/identity cage, not a one-to-one sexuality allegory. |
@@ -78,9 +78,9 @@ This table gives every book an immediate interlude slot based on the WWII matrix
 | 07 | Interlude: The Honor That Ate the Outcome | Bushido doctrine / obedience and escalation | Tallandra puts honor aside | Stub only | Tie honor systems to game theory and institutional incentives. |
 | 08 | Interlude: The Record That Had to Burn | Willem Arondeus / registry sabotage | Carrio must shed skin | Source uploaded / target needs confirmation | Older target; latest user-provided ledger version now returns to Matthieu in Book 11. Keep this row pending until final cleanup confirms whether Book 08 still needs a Carrio-specific ledger interlude. |
 | 09 | Interlude: The Courier Nobody Saw | French Resistance couriers / hidden communication | Carrio must not be the center | Stub only | Tie to attention economy, hidden guidance, and Lantern of Izanami. |
-| 10 | Interlude: The Living Shield | Navajo Code Talkers / living language shield | Mattieu must take on animal spirit | Source uploaded | Use `wind-talkers.md`; tie to animal cognition, culture as infrastructure, and human exceptionalism. |
+| 10 | Interlude: The Living Shield | Navajo Code Talkers / living language shield | Matthieu must take on animal spirit | Source uploaded | Use `wind-talkers.md`; tie to animal cognition, culture as infrastructure, and human exceptionalism. |
 | 11 | Interlude: The Sabotage of the Ledger | Willem Arondeus / Dutch resistance registry sabotage | Matthieu faces a ledger/category-erasure system | **Prose saved / placement TBD** | Saved as `drafts/interludes/11_interlude_the_sabotage_of_the_ledger.md`. Latest return bridge points to Matthieu's Book 11 story. |
-| 11 | Interlude: The False Oracle | Nazi occultism / myth weaponized into certainty | Mattieu must reject false mysticism | Stub only | Tie to placebo/nocebo and false prophets/corrupted oracles; now shares Book 11 interlude space with the ledger-sabotage source until final placement pass. |
+| 11 | Interlude: The False Oracle | Nazi occultism / myth weaponized into certainty | Matthieu must reject false mysticism | Stub only | Tie to placebo/nocebo and false prophets/corrupted oracles; now shares Book 11 interlude space with the ledger-sabotage source until final placement pass. |
 | 12 | Interlude: The Work That Fed the World | Rosie the Riveter / distributed labor | Mae must become selfless | Stub only | Tie to hospitality rites, food systems, invisible labor, and household/office logistics where useful. |
 | 13 | Interlude: The Enemy Spared | POW survival comparison / mercy under captivity | Mae must spare a life | Stub only | Tie to spared-enemy myths and long-term consequence modeling. |
 | 14 | Interlude: The Arithmetic of Attrition | Eastern Front attrition | Yurislav must become ruthless | Stub only | Tie to fate-weaving and prediction failure. Also preserve `book14.md` mirror source for later full-memory structure. |
@@ -260,10 +260,13 @@ End on: sometimes, dear reader, you have to do the impossible.
 ## Book 02 — Interlude: The Branch in the Ash
 
 ### Chapter Type
-Science / reward / semantic-loophole Dear Reader source, not final prose yet.
+Science / reward / semantic-loophole Dear Reader interlude.
 
-### Source File
-`drafts/interludes/source_material/book02_science_ecology_prompt.md`
+### File
+`drafts/interludes/02_interlude_the_branch_in_the_ash.md`
+
+### Status
+Barebones prose skeleton saved. Final prose expansion still needed.
 
 ### Placement
 Book 02, exact compile position TBD. Likely near Gregory’s seed / branch / Revel objective sequence.
@@ -271,20 +274,56 @@ Book 02, exact compile position TBD. Likely near Gregory’s seed / branch / Rev
 ### Thematic Grounding
 Ecological cascade collapse; unglamorous systemic resilience; strange gifts in ugly packages; exact wording as loophole. The beaver/refugia structure should mirror Brickett’s small repetitive usefulness and Gregory’s eventual realization that the system does not require the seed as reward — the **branch** is the frame.
 
-### Required Anchors
+### Core Characters Highlighted
+- The Narrator.
+- Dear Reader.
+- Gregory H. Frydrake.
+- Brickett H. as beaver-logic mirror.
+- Frank / Revel.
+
+### Science / Reward Anchors
+- Keystone species.
+- Eurasian beaver (*Castor fiber*).
 - Knapdale 11 pioneer beavers.
 - Bavarian-origin Tayside / Beauly fugitives.
 - Genetic bottleneck rescue through messy intermingling.
 - Beaver-engineered fire refugia / green ribbons.
 - Multi-species survival in saturated mud structures.
+- Anoxic mud / anaerobic stasis.
+- Ancient seed preservation and sacred lotus viability.
 - Ancient sequoia seed preserved in anoxic mud.
 - Sakura Branch / Sequoia double-lock.
 - Gregory’s real fire as authentic ancestral heat vector.
 - Frank / Revel breaking script.
 - Deceiver / Noell Smukk alive inside mainframe reveal.
 
-### Status
-Source prompt saved. Final interlude prose not yet generated or placed.
+### Chapter Summary
+
+The current skeleton opens by apologizing for pulling the reader away from Gregory, then defines keystone species as organisms whose systemic influence is disproportionate to their abundance. The Eurasian beaver becomes the unglamorous anchor: a rodent that answers running water through repetitive instinct rather than master planning, yet reshapes entire landscapes.
+
+The science movement locks the Knapdale / Bavarian-origin intermingling, water-storage gains, beaver floodplain refugia during wildfire, multi-species hunker behavior, and anoxic mud as a natural time vault capable of preserving ancient seeds.
+
+The skeleton currently ends on the bridge question: **Can you draw the through-line through the science to our story yet?**
+
+### Expansion Targets
+
+The final prose pass should continue from the closing question and bridge into:
+
+1. Brickett / beaver logic as the comic, unglamorous keystone presence.
+2. Ecological cascade collapse as the Book 02 science anchor.
+3. Mud/anoxic stasis preserving an ancient seed or seed-pod across objective loops.
+4. The Sakura Branch vs. seed semantic distinction.
+5. Gregory realizing the system requires the **branch / frame**, not merely the seed object.
+6. Gregory using real ancestral dragonfire to crack the shell.
+7. Frank / Revel breaking script when the hidden biological double-lock works.
+
+### Return-to-Eidolon Function
+
+Return to Gregory’s Book 02 Revel / Frank / seed-pod objective with the reader primed to understand why the ugly beaver-work, the mud, and the branch matter more than the obvious seed.
+
+### Required Emotional Exit
+
+Final version should return to Gregory realizing that words matter: the branch is the frame, and the seed is not the branch.
 
 ## Book 03 — Interlude: The Machine That Heard the Salute
 
