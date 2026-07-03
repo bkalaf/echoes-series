@@ -160,25 +160,29 @@ Book 01 uses the active 8-day weekday cycle. Since Yearsend 29 is Kindlemask, th
 
 ## B01.180 — The Shelter Test
 
-| # | Visible Subchapter Group | Calendar Position |
+| # | Visible Subchapter | Calendar Position |
 |---:|---|---|
-| 1–4 | Shelter arrival, displaced families, Brickett with children | **Hearthwake 14, Eldrane, late night after orange checkpoint** |
-| 5–11 | Private hourglass bubble, reading-mode discussion, Brickett/Mother reveal, Mae/Yurislav rift | **Hearthwake 14 into Hearthwake 15, pre-dawn** |
+| 1 | The Shelter Test | **Hearthwake 14, Eldrane, late night after orange checkpoint** |
+| 2 | Fifteen Minutes | **Hearthwake 14 into Hearthwake 15, late night; private hourglass bubble** |
+| 3 | Backstabbers | **Hearthwake 14 into Hearthwake 15, pre-dawn; shelter rift / poison ending** |
 
 ## B01.190 — The Well of Souls
 
-| # | Visible Subchapter Group | Calendar Position |
+| # | Visible Subchapter | Calendar Position |
 |---:|---|---|
-| 1–3 | Shelter-to-beacon route, CotD offerings, waypoint confirmation | **Hearthwake 15, Karskov, morning** |
-| 4–13 | Scene Between Stories, Vision 5, Vision 6, return | **Subjective Witness / vision time; normal-time exit at Hour of the Waning Crescent, halfway toward Hour of the Iron Foundry** |
+| 1 | To The Ten | **Hearthwake 15, Karskov, morning; shelter-to-beacon route and waypoint confirmation** |
+| 2 | Same As Before | **Hearthwake 15, subjective Witness space; Horror selection** |
+| 3 | José And Noel | **Subjective Vision 5 / Horror mirror time** |
+| 4 | The Well of Souls | **Subjective Vision 6 and return; normal-time exit at Hour of the Waning Crescent, halfway toward Hour of the Iron Foundry** |
 
 ## B01.200 — The Red Thread District
 
-| # | Visible Subchapter Group | Calendar Position |
+| # | Visible Subchapter | Calendar Position |
 |---:|---|---|
-| 1–2 | Wrong-way route into the Red Thread District | **Hearthwake 15, Karskov, Hour of the Waning Crescent, halfway toward Hour of the Iron Foundry** |
-| 3–9 | The Ribbit Hole buyout, worker testimony, Carrio foundation, city political fracture | **Hearthwake 15, Karskov, afternoon / evening into overnight** |
-| 10–12 | Addie / Brickett apology and ninth-member suspicion | **Late Red Thread stay before Hearthwake 17 morning handoff** |
+| 1 | Wrong Way | **Hearthwake 15, Karskov, Hour of the Waning Crescent, halfway toward Hour of the Iron Foundry** |
+| 2 | The Ribbit Hole | **Hearthwake 15, Karskov, afternoon / evening; buyout and worker pay** |
+| 3 | A City That Wants Change | **Hearthwake 15 into Hearthwake 16; worker testimony, Addie grief, city fracture, and vision reads** |
+| 4 | The Ninth Member | **Late Red Thread stay before Hearthwake 17 morning handoff** |
 
 ## B01.210 — The Stupid Thread
 
