@@ -12,7 +12,11 @@ Every prompt-ready chapter must state location and temporal metadata.
 
 Normal narrative prose chapters should render that metadata in a centered chapter-heading box unless the user explicitly asks for a different output format.
 
+Chapter heading boxes begin on a **new page** and should sit about **one quarter of the way down the page** in final layout.
+
 If a chapter has visible subheaders / subchapters, put the relevant metadata in the outline and prompt packet, but do **not** automatically put a visible header before every beat. Visible subchapters are controlled by the Subchapter Discipline rule below.
+
+Do **not** use the Mark of the Orbs image on subheaders. The Mark belongs to the chapter heading box only.
 
 This metadata is not decoration. It is part of continuity.
 
@@ -61,7 +65,15 @@ Location fields are not all required. But if `Location Status` is not `No Locati
 
 # Chapter Heading Box Display Standard
 
-Normal narrative prose chapters should begin with a centered, full-width heading box. The box should extend to the page margins and carry a genre-appropriate shadowed / bordered treatment in final layout.
+Normal narrative prose chapters should begin with a centered, full-width heading box.
+
+Final layout requirements:
+
+- the heading begins on a **new page**;
+- the box sits about **one quarter of the way down the page**;
+- the box extends to the page margins;
+- the box uses a genre-appropriate shadowed / bordered treatment;
+- the Mark of the Orbs appears only here, not on subheaders.
 
 In markdown-generation output, represent this as a stylable block. Use Font Awesome for the flame icon.
 
@@ -76,9 +88,9 @@ Required order:
 Canonical markdown/HTML template:
 
 ```md
-<div class="eidolon-chapter-heading" align="center">
+<div class="eidolon-chapter-heading page-break-before quarter-page" align="center">
 
-![Mark of the Orbs](<MARK_OF_THE_ORBS_IMAGE>)
+![Mark of the Orbs](assets/mark_of_orbs.svg)
 
 **Chapter <CHAPTER NUMBER>: <CHAPTER TITLE>**
 
@@ -94,9 +106,9 @@ Canonical markdown/HTML template:
 Example:
 
 ```md
-<div class="eidolon-chapter-heading" align="center">
+<div class="eidolon-chapter-heading page-break-before quarter-page" align="center">
 
-![Mark of the Orbs](assets/mark-of-the-orbs.png)
+![Mark of the Orbs](assets/mark_of_orbs.svg)
 
 **Chapter 14: The Law Telling Us To Forget**
 
@@ -110,6 +122,8 @@ Kindlemask, 3rd of Hearthwake, Hour of the Wyrm [Midnight +5 hours]
 ```
 
 Beacon colors may later receive CSS classes such as `beacon-red`, `beacon-orange`, or `beacon-white`, but do not omit the visible text.
+
+The downstream renderer / CSS should attach page-break and quarter-page placement to `.page-break-before.quarter-page`; prose generation should preserve the classes rather than inline-faking final layout.
 
 ---
 
@@ -226,6 +240,8 @@ A visible subchapter should normally mark one of these:
 5. major act-level turn where the dramatic engine changes.
 
 Do not create visible subchapter headings for every small topic shift, tactical beat, joke, or emotional turn inside the same room and same POV.
+
+Do not use the Mark of the Orbs on subchapter headings. Subchapters should be visually simpler than chapter headers.
 
 Use the standard markdown scene break instead:
 
