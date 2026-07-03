@@ -8,7 +8,7 @@ This folder tracks uploaded Dear Reader / interlude / mirror-source material so 
 |---|---|---|---|
 | `embargo.md` | `../01_interlude_the_choice_to_do_nothing.md` | Saved as active Book 01 prose | Compile slot `B01.035`. |
 | `ecology.md` | `book02_science_ecology_prompt.md` | Saved as Book 02 science source prompt | This one is primarily a production outline/prompt, not final prose. Use for ecological cascade / beaver refugia / Sakura Branch / Gregory real-fire interlude. |
-| `munich_bundle_01_paper_peace.md` | `book02_wwii_paper_peace_source_card.md` | Near-ready prose source card extracted | Book 02 WWII / Munich Agreement / appeasement slot. Source is substantial prose and likely needs expansion/polish, not total rewrite. |
+| `munich_bundle_01_paper_peace.md` | `book02_wwii_paper_peace_source_card.md`; `../02_interlude_the_paper_peace.md` | Final prose extracted from latest user upload | Book 02 Gregory / Munich Agreement / appeasement / Breathe Fire slot. Latest user upload supersedes the older source-card fingerprint. |
 | `munich_bundle_02_branch_in_the_ash.md` | `book02_science_branch_in_the_ash_bundle_source_card.md` | Near-ready prose source card extracted | Book 02 ecology / branch / beaver source; compare with `ecology.md` prompt. Source is substantial prose but may need reconciliation with the newer science prompt. |
 | `munich_bundle_03_record_that_had_to_burn.md` | `book08_wwii_record_that_had_to_burn_source_card.md` | Near-ready prose source card extracted | Book 08 Carrio / Willem Arondeus / identity ledger slot. Source is substantial prose and likely needs expansion/polish, not total rewrite. |
 | `munich_bundle_04_machine_that_heard_the_salute.md` | `book03_wwii_machine_that_heard_the_salute_source_card.md`; `../03_interlude_the_machine_that_heard_the_salute.md` | Final prose extracted from latest user upload | Book 03 Gregory / Turing / codebreaking / Crownless Coin legitimacy slot. Latest user upload supersedes the older source-card fingerprint. |
@@ -21,7 +21,7 @@ These are listed in `canon/04_DEAR_READER_INTERLUDES.md` and should be extracted
 
 | Upload | Intended Use | Current Status |
 |---|---|---|
-| `munich-agreement.md` | Multi-book Dear Reader bundle: Munich Agreement, ecological branch, Willem/ledger, Turing/machine, Navajo shield, Turing persecution. | Split into six source cards listed above. These are near-ready prose sources, not disposable outlines. Book 03 Turing/codebreaking prose and Book 05 Turing-persecution prose have now been extracted from latest user-provided versions. |
+| `munich-agreement.md` | Multi-book Dear Reader bundle: Munich Agreement, ecological branch, Willem/ledger, Turing/machine, Navajo shield, Turing persecution. | Split into six source cards listed above. These are near-ready prose sources, not disposable outlines. Book 02 Paper Peace, Book 03 Turing/codebreaking prose, and Book 05 Turing-persecution prose have now been extracted from latest user-provided versions. |
 | `turing.md` | Alternate / shorter `The Machine That Heard the Salute`. | Extracted as `drafts/interludes/03_interlude_the_machine_that_heard_the_salute.md`; latest user-provided version is the active Book 03 prose draft. |
 | `turing-2.md` | `Interlude: The Hero They Punished Anyway`. | Extracted as `drafts/interludes/05_interlude_the_hero_they_punished_anyway.md`; latest user-provided version is the active Book 05 prose draft. |
 | `willem.md` | `Interlude: The Sabotage of the Ledger`. | Tracked; compare against Book 08 source card before final prose lock. |
