@@ -11,7 +11,7 @@ This folder tracks uploaded Dear Reader / interlude / mirror-source material so 
 | `munich_bundle_01_paper_peace.md` | `book02_wwii_paper_peace_source_card.md` | Near-ready prose source card extracted | Book 02 WWII / Munich Agreement / appeasement slot. Source is substantial prose and likely needs expansion/polish, not total rewrite. |
 | `munich_bundle_02_branch_in_the_ash.md` | `book02_science_branch_in_the_ash_bundle_source_card.md` | Near-ready prose source card extracted | Book 02 ecology / branch / beaver source; compare with `ecology.md` prompt. Source is substantial prose but may need reconciliation with the newer science prompt. |
 | `munich_bundle_03_record_that_had_to_burn.md` | `book08_wwii_record_that_had_to_burn_source_card.md` | Near-ready prose source card extracted | Book 08 Carrio / Willem Arondeus / identity ledger slot. Source is substantial prose and likely needs expansion/polish, not total rewrite. |
-| `munich_bundle_04_machine_that_heard_the_salute.md` | `book03_wwii_machine_that_heard_the_salute_source_card.md` | Near-ready prose source card extracted | Book 03 Gregory / Turing / codebreaking / coin slot. Source is substantial prose and likely needs expansion/polish, not total rewrite. |
+| `munich_bundle_04_machine_that_heard_the_salute.md` | `book03_wwii_machine_that_heard_the_salute_source_card.md`; `../03_interlude_the_machine_that_heard_the_salute.md` | Final prose extracted from latest user upload | Book 03 Gregory / Turing / codebreaking / Crownless Coin legitimacy slot. Latest user upload supersedes the older source-card fingerprint. |
 | `munich_bundle_05_shield_they_tried_to_erase.md` | `book10_wwii_shield_they_tried_to_erase_source_card.md` | Near-ready prose source card extracted | Book 10 Mattieu / Navajo Code Talkers / language shield slot. Source is shorter but prose-shaped. |
 | `munich_bundle_06_hero_they_punished_anyway.md` | `book05_wwii_hero_they_punished_anyway_source_card.md`; `../05_interlude_the_hero_they_punished_anyway.md` | Final prose extracted from latest user upload | Book 05 Brynn / Turing persecution / identity law slot. Latest user upload supersedes the older source-card fingerprint. |
 
@@ -21,8 +21,8 @@ These are listed in `canon/04_DEAR_READER_INTERLUDES.md` and should be extracted
 
 | Upload | Intended Use | Current Status |
 |---|---|---|
-| `munich-agreement.md` | Multi-book Dear Reader bundle: Munich Agreement, ecological branch, Willem/ledger, Turing/machine, Navajo shield, Turing persecution. | Split into six source cards listed above. These are near-ready prose sources, not disposable outlines. Book 05 Turing-persecution prose has now been extracted from the latest user-provided version. |
-| `turing.md` | Alternate / shorter `The Machine That Heard the Salute`. | Tracked; compare against Munich bundle source card before Book 03 lock. |
+| `munich-agreement.md` | Multi-book Dear Reader bundle: Munich Agreement, ecological branch, Willem/ledger, Turing/machine, Navajo shield, Turing persecution. | Split into six source cards listed above. These are near-ready prose sources, not disposable outlines. Book 03 Turing/codebreaking prose and Book 05 Turing-persecution prose have now been extracted from latest user-provided versions. |
+| `turing.md` | Alternate / shorter `The Machine That Heard the Salute`. | Extracted as `drafts/interludes/03_interlude_the_machine_that_heard_the_salute.md`; latest user-provided version is the active Book 03 prose draft. |
 | `turing-2.md` | `Interlude: The Hero They Punished Anyway`. | Extracted as `drafts/interludes/05_interlude_the_hero_they_punished_anyway.md`; latest user-provided version is the active Book 05 prose draft. |
 | `willem.md` | `Interlude: The Sabotage of the Ledger`. | Tracked; compare against Book 08 source card before final prose lock. |
 | `wind-talkers.md` | `Interlude: The Living Shield`. | Tracked; compare against Book 10 source card before final prose lock. |
