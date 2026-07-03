@@ -86,26 +86,28 @@ This is a character-and-information chapter. Its moral center is Carrio choosing
 
 # Visible Subchapters
 
+Use **four** visible subchapters.
+
 Suggested visible subchapters:
 
 1. Wrong Way
-2. You Are Going To Experience My World
-3. Five Thousand Dovren
-4. Clothes For Twenty-Four Hours
-5. Top Shelf Shit
-6. Somewhere I Can Be Myself
-7. Tell Me About Her
-8. A City That Wants Change
-9. Shame, Disgust, And Nothing
-10. I Owe You An Apology
-11. The Ninth Member
-12. Let The Kid Be A Kid
+2. The Ribbit Hole
+3. A City That Wants Change
+4. The Ninth Member
+
+The old headings `You Are Going To Experience My World`, `Five Thousand Dovren`, `Clothes For Twenty-Four Hours`, `Top Shelf Shit`, `Somewhere I Can Be Myself`, `Tell Me About Her`, `Shame, Disgust, And Nothing`, `I Owe You An Apology`, and `Let The Kid Be A Kid` are beat turns inside these larger sections. Use `---` only if prose needs a breath.
 
 ---
 
 # Beat-By-Beat Skeleton
 
 ## Subchapter 1 — Wrong Way
+
+### Location / Time
+
+Route from Pollyr Fen beacon platform into the Red Thread District. Starts at Hour of the Waning Crescent, halfway toward Hour of the Iron Foundry. Orange active.
+
+### Beats
 
 1. Pick up after the vision exit at Hour of the Waning Crescent, halfway toward Hour of the Iron Foundry.
 2. The companions believe the thread is in Pollyr Fen.
@@ -125,26 +127,30 @@ Suggested visible subchapters:
 
 > "You are going to experience my world whether you like it or not."
 
-## Subchapter 2 — You Are Going To Experience My World
-
-1. They turn into Pollyr Fen’s Red Thread District.
-2. The district should still feel like Pollyr Fen: canals, lanterns, wet thresholds, reed privacy screens, water-lit balconies, floating bridges, and amphibian infrastructure.
-3. The thread imagery can be subtle: red lanterns, red cords, privacy curtains, tied wrist ribbons, bridges that braid through the district.
-4. Carrio stops at **The Ribbit Hole**.
-5. A Minotaur bouncer blocks them.
-6. Carrio asks whether the bouncer knows who he is.
-7. Carrio tells him to get whoever runs the place.
-8. The bouncer glares.
-9. Carrio says:
+10. They turn into Pollyr Fen’s Red Thread District.
+11. The district should still feel like Pollyr Fen: canals, lanterns, wet thresholds, reed privacy screens, water-lit balconies, floating bridges, and amphibian infrastructure.
+12. The thread imagery can be subtle: red lanterns, red cords, privacy curtains, tied wrist ribbons, bridges that braid through the district.
+13. Carrio stops at **The Ribbit Hole**.
+14. A Minotaur bouncer blocks them.
+15. Carrio asks whether the bouncer knows who he is.
+16. Carrio tells him to get whoever runs the place.
+17. The bouncer glares.
+18. Carrio says:
 
 > "Ándale."
 
-10. The bouncer reacts immediately and goes inside.
-11. Carrio answers the companions’ looks with some version of:
+19. The bouncer reacts immediately and goes inside.
+20. Carrio answers the companions’ looks with some version of:
 
 > "What? I have a way with people."
 
-## Subchapter 3 — Five Thousand Dovren
+## Subchapter 2 — The Ribbit Hole
+
+### Location / Time
+
+The Ribbit Hole, Red Thread District, Pollyr Fen. Hearthwake 15 into evening / overnight. Orange active.
+
+### Beats
 
 1. The Ribbit Hole manager appears: attractive, controlled, professional, and not easily impressed.
 2. She asks how she can help Carrio and the companions.
@@ -168,59 +174,50 @@ Suggested visible subchapters:
 
 > "We are not renting them for that purpose. We are renting them to pick their brains, and to treat them like people for once."
 
-13. The manager’s eyes go wide.
-
-## Subchapter 4 — Clothes For Twenty-Four Hours
-
-1. Carrio looks at Addie and references her mother’s lesson: leave the world better.
-2. Carrio demands the manager take only her standard ten percent and pay the rest directly to the workers.
-3. He threatens consequences if she cheats them.
-4. His hood rises; fangs come out.
-5. Required Carrio threat shape:
+13. Carrio looks at Addie and references her mother’s lesson: leave the world better.
+14. Carrio demands the manager take only her standard ten percent and pay the rest directly to the workers.
+15. He threatens consequences if she cheats them.
+16. His hood rises; fangs come out.
+17. Required Carrio threat shape:
 
 > "If I find out you broke this deal, I will personally blind you and paralyze one side of your body so you swim in circles for the rest of your life when you bathe."
 
-6. The manager gives her word and makes him put the threat away.
-7. She reveals she has friends in Vhal'Tigris / the great-cat city and reads him well enough to tease him.
-8. She calls him a little pussycat on the inside.
-9. Addie thinks that if Carrio were not a black cobra, he would be blushing.
-10. Later continuity: `01_21` clarifies she is the manager, not the actual owner.
-
-## Subchapter 5 — Top Shelf Shit
-
-1. The Ribbit Hole clears clients immediately.
-2. Use comic chaos:
-   - crashes;
-   - clothing thrown out;
-   - naked patrons fleeing;
-   - one very old woman in revealing lingerie / garter belt / ball gag running out;
-   - one spectral shade client complaining he has never been so insulted.
-3. The manager refunds the spectral shade and tells him to complain to someone who gives a shit.
-4. Inside, workers are confused and uncomfortable.
-5. The manager announces they have the day/night off and begins distributing pay.
-6. Workers assume the service expectation is still sexual and begin reacting accordingly.
-7. The manager says no; this is conversation only.
-8. She says she is getting top-shelf liquor because she feels bad serving them watered-down wine.
-9. Rhün and Yurislav volunteer to help carry supplies.
-10. This matters because the workers see powerful people helping with labor rather than being served.
-
-## Subchapter 6 — Somewhere I Can Be Myself
-
-1. Carrio strips off outerwear down to a simple shirt.
-2. He complains about male clothing.
-3. Required Carrio idea:
+18. The manager gives her word and makes him put the threat away.
+19. She reveals she has friends in Vhal'Tigris / the great-cat city and reads him well enough to tease him.
+20. She calls him a little pussycat on the inside.
+21. Addie thinks that if Carrio were not a black cobra, he would be blushing.
+22. Later continuity: `01_21` clarifies she is the manager, not the actual owner.
+23. The Ribbit Hole clears clients immediately.
+24. Use comic chaos: crashes, clothing thrown out, naked patrons fleeing, an elderly woman in revealing lingerie / garter belt / ball gag, and one spectral shade client complaining he has never been so insulted.
+25. The manager refunds the spectral shade and tells him to complain to someone who gives a shit.
+26. Inside, workers are confused and uncomfortable.
+27. The manager announces they have the day/night off and begins distributing pay.
+28. Workers assume the service expectation is still sexual and begin reacting accordingly.
+29. The manager says no; this is conversation only.
+30. She says she is getting top-shelf liquor because she feels bad serving them watered-down wine.
+31. Rhün and Yurislav volunteer to help carry supplies.
+32. This matters because the workers see powerful people helping with labor rather than being served.
+33. Carrio strips off outerwear down to a simple shirt.
+34. He complains about male clothing.
+35. Required Carrio idea:
 
 > "God, what I wouldn't kill for a dress today. I cannot stand wearing male clothing. Makes me feel all stuffy and like a tight ass. But this—this is somewhere I can be myself."
 
-4. He asks for something nice that covers him and is not made of dental floss.
-5. A male worker is immediately drawn to him; flirting begins.
-6. Carrio uses flirtation to gather information about the city, workers, clients, power, faction pressure, and where a thread-like clue might hide.
-7. Gregory is completely out of place and barricades himself with chairs so no one can sit too close.
-8. Matthieu flirts awkwardly but is deeply uncomfortable.
-9. Mae flirts with a high-elf woman while digging for information.
-10. The chapter should show each companion’s discomfort / ease without shaming the workers.
+36. He asks for something nice that covers him and is not made of dental floss.
+37. A male worker is immediately drawn to him; flirting begins.
+38. Carrio uses flirtation to gather information about the city, workers, clients, power, faction pressure, and where a thread-like clue might hide.
+39. Gregory is completely out of place and barricades himself with chairs so no one can sit too close.
+40. Matthieu flirts awkwardly but is deeply uncomfortable.
+41. Mae flirts with a high-elf woman while digging for information.
+42. The chapter should show each companion’s discomfort / ease without shaming the workers.
 
-## Subchapter 7 — Tell Me About Her
+## Subchapter 3 — A City That Wants Change
+
+### Location / Time
+
+The Ribbit Hole, later in the Red Thread stay. Evening into overnight. Orange active.
+
+### Beats
 
 1. The manager sits across from Addie.
 2. She reads Addie as deeply troubled beyond the Moderator crisis.
@@ -233,35 +230,35 @@ Suggested visible subchapters:
 
 7. Addie begins talking about her mother.
 8. End this movement on Addie beginning to talk rather than summarizing grief away.
-
-## Subchapter 8 — A City That Wants Change
-
-1. Pick up late-night aftermath after the group spends most of the night talking.
-2. The companions gather information from workers, staff, and district contacts.
-3. Pollyr Fen is deeply fractured.
-4. Loyal Concord guards have been run out or exiled.
-5. Schism is eager to take over, but the people are not fully behind any change.
-6. The old Concord guard structure has been iron-fisted enough to make even Tallandra uncomfortable.
-7. The city wants change but is terrified.
-8. The people have been beaten down too long.
-9. This gives political context for why Pollyr Fen feels deferential, quiet, and cautious after the Children of the Damned moment.
-
-## Subchapter 9 — Shame, Disgust, And Nothing
-
-1. Addie thinks the visions felt tamer than the previous set, but the reads were strange.
-2. Carrio and Tallandra both say they did not read deception from the Overseer in the vision.
-3. Carrio says he watched Horror the entire time.
-4. His read:
+9. Pick up late-night aftermath after the group spends most of the night talking.
+10. The companions gather information from workers, staff, and district contacts.
+11. Pollyr Fen is deeply fractured.
+12. Loyal Concord guards have been run out or exiled.
+13. Schism is eager to take over, but the people are not fully behind any change.
+14. The old Concord guard structure has been iron-fisted enough to make even Tallandra uncomfortable.
+15. The city wants change but is terrified.
+16. The people have been beaten down too long.
+17. This gives political context for why Pollyr Fen feels deferential, quiet, and cautious after the Children of the Damned moment.
+18. Addie thinks the visions felt tamer than the previous set, but the reads were strange.
+19. Carrio and Tallandra both say they did not read deception from the Overseer in the vision.
+20. Carrio says he watched Horror the entire time.
+21. His read:
    - first vision: shame;
    - second vision: disgust and furious righteous anger.
-5. Carrio cannot fully interpret why Horror would feel those things.
-6. Tallandra got deception from Noel and Dovren/DJT.
-7. Both Tallandra and Carrio got nothing from the Overseer inside the vision.
-8. The absence matters because they could read everyone else.
-9. It was as if the Overseer was not really there.
-10. This should tie back to Brickett’s later hidden-companion suspicion without solving it.
+22. Carrio cannot fully interpret why Horror would feel those things.
+23. Tallandra got deception from Noel and Dovren/DJT.
+24. Both Tallandra and Carrio got nothing from the Overseer inside the vision.
+25. The absence matters because they could read everyone else.
+26. It was as if the Overseer was not really there.
+27. This should tie back to Brickett’s later hidden-companion suspicion without solving it.
 
-## Subchapter 10 — I Owe You An Apology
+## Subchapter 4 — The Ninth Member
+
+### Location / Time
+
+The Ribbit Hole late-night / pre-morning decompression. Orange active. Thread unresolved.
+
+### Beats
 
 1. Addie has a private conversation with Brickett.
 2. Brickett takes a break from learning fire handling from a fire dancer.
@@ -271,42 +268,36 @@ Suggested visible subchapters:
 6. Brickett is baffled and says she does not have to apologize to her attaché.
 7. Addie says yes, she does.
 8. Before he can object, she asks what he had been trying to tell her.
-
-## Subchapter 11 — The Ninth Member
-
-1. Brickett says he may know who the ninth member is.
-2. He warns Addie she will not believe him because it makes no sense.
-3. He says:
+9. Brickett says he may know who the ninth member is.
+10. He warns Addie she will not believe him because it makes no sense.
+11. He says:
 
 > "I think it's the Overseer."
 
-4. Addie objects: it has to be a human, and Brickett himself said the Overseer confirmed that.
-5. Brickett says he knows, but other evidence points to him.
-6. Evidence Brickett cites:
+12. Addie objects: it has to be a human, and Brickett himself said the Overseer confirmed that.
+13. Brickett says he knows, but other evidence points to him.
+14. Evidence Brickett cites:
    - the Overseer said “now that all the companions are here” after sitting with them at dinner;
    - in the portal / Scene Between Stories, Horror did not speak until after the Overseer entered;
    - then Horror said “now that all the companions are here”;
    - the same pattern may have occurred after the Luminthalas vision sequence.
-7. Brickett admits this is not conclusive because the Overseer is the one saying it.
-8. Brickett also says the Overseer is clearly helping them.
-9. He repeats that it does not make sense because the ninth is supposed to be a noble human.
-10. Addie considers that Brickett might be right.
-11. Addie says they will share it with the group tomorrow and have everyone watch for clues.
-12. Addie says the Overseer also said something privately to her, and she thinks she knows what he is pointing toward.
-13. She withholds it because they need the thread first.
-14. She also does not want Brickett thinking too hard or worrying too much.
-
-## Subchapter 12 — Let The Kid Be A Kid
-
-1. Brickett protests being protected from the information.
-2. Yurislav pulls him away from Addie.
-3. Yurislav says he thinks he got Rhün drunk enough that Rhün might say yes to Brickett riding Ashwing.
-4. Brickett immediately loses it with excitement.
-5. Brickett asks Addie if he can be excused.
-6. Addie laughs and says of course.
-7. Let the chapter end with Addie choosing to let the kid be a kid.
-8. This should contrast with the previous chapter’s attempt to manipulate him.
-9. The thread problem remains unresolved, but the group now has:
+15. Brickett admits this is not conclusive because the Overseer is the one saying it.
+16. Brickett also says the Overseer is clearly helping them.
+17. He repeats that it does not make sense because the ninth is supposed to be a noble human.
+18. Addie considers that Brickett might be right.
+19. Addie says they will share it with the group tomorrow and have everyone watch for clues.
+20. Addie says the Overseer also said something privately to her, and she thinks she knows what he is pointing toward.
+21. She withholds it because they need the thread first.
+22. She also does not want Brickett thinking too hard or worrying too much.
+23. Brickett protests being protected from the information.
+24. Yurislav pulls him away from Addie.
+25. Yurislav says he thinks he got Rhün drunk enough that Rhün might say yes to Brickett riding Ashwing.
+26. Brickett immediately loses it with excitement.
+27. Brickett asks Addie if he can be excused.
+28. Addie laughs and says of course.
+29. Let the chapter end with Addie choosing to let the kid be a kid.
+30. This should contrast with the previous chapter’s attempt to manipulate him.
+31. The thread problem remains unresolved, but the group now has:
    - the city context;
    - the Red Thread District contacts;
    - Carrio’s information network;
