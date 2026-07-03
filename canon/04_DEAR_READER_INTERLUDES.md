@@ -56,7 +56,7 @@ These uploaded files are now tracked as source material for future interludes or
 | `embargo.md` | `Interlude: The Choice to Do Nothing` | Book 01 final/active prose source. Saved as `drafts/interludes/01_interlude_the_choice_to_do_nothing.md`. |
 | `ecology.md` | Master production prompt for Book 02 science interlude: ecological cascade, beaver refugia, Sakura Branch / sequoia seed, Gregory / Frank scene. | Book 02 science source prompt. Saved as `drafts/interludes/source_material/book02_science_ecology_prompt.md`. Not final prose yet. |
 | `munich-agreement.md` | Long Dear Reader source containing `The Paper Peace`, `The Branch in the Ash`, `The Record That Had to Burn`, `The Machine That Heard the Salute`, `The Shield They Tried to Erase`, and `The Hero They Punished Anyway`. | Multi-book style/prose source for Gregory, Carrio, Mattieu, and Brynn interludes. Split source cards exist under `drafts/interludes/source_material/`. |
-| `turing.md` | Shorter / alternate `The Machine That Heard the Salute`. | Book 03 alternate or earlier source for Turing/codebreaking/coin/legitimacy material. |
+| `turing.md` | `Interlude: The Machine That Heard the Salute`. | Book 03 active prose saved as `drafts/interludes/03_interlude_the_machine_that_heard_the_salute.md`. |
 | `turing-2.md` | `Interlude: The Hero They Punished Anyway`. | Book 05 active prose saved as `drafts/interludes/05_interlude_the_hero_they_punished_anyway.md`. |
 | `willem.md` | `Interlude: The Sabotage of the Ledger`. | Alternate / rough source for Willem Arondeus ledger-burning material. Current target should be checked against Book 08 Carrio canon before final placement. |
 | `wind-talkers.md` | `Interlude: The Living Shield`. | Book 10 Navajo Code Talkers / Mattieu animal-spirit source. |
@@ -71,7 +71,7 @@ This table gives every book an immediate interlude slot based on the WWII matrix
 | 01 | Interlude: The Choice to Do Nothing | Japanese oil embargo / resource pressure / Pacific attack chain | Addie must pull the first thread | **Placed / prose saved** | Compile as `B01.035`, after `The Witnesses` and before `The Weight of the Beacon`. |
 | 02 | Interlude: The Paper Peace | Munich Agreement / appeasement | Gregory must breathe fire | Source uploaded | Extract from `munich-agreement.md`; should frame avoidance as permission and set up Gregory becoming visible. |
 | 02 | Interlude: The Branch in the Ash | Ecological cascade / beavers / post-fire refuge / sakura branch | Gregory, Sakura Branch, Revel | **Source prompt saved** | Use `drafts/interludes/source_material/book02_science_ecology_prompt.md` as primary production prompt. This is the Book 02 science / reward / semantic-loophole interlude source, not yet final prose. |
-| 03 | Interlude: The Machine That Heard the Salute | Alan Turing, Enigma/codebreaking, secrecy infrastructure | Gregory accepts spotlight / Crownless Coin / legitimacy systems | Source uploaded | Compare `munich-agreement.md` and `turing.md`; choose final version later. |
+| 03 | Interlude: The Machine That Heard the Salute | Alan Turing, Enigma/codebreaking, secrecy infrastructure | Gregory accepts spotlight / Crownless Coin / legitimacy systems | **Prose saved / placement TBD** | Saved as `drafts/interludes/03_interlude_the_machine_that_heard_the_salute.md`. The point is legitimacy as performed recognition and the coin as a cryptographic crib. |
 | 04 | Interlude: The Line That Inherited the Wound | Romanov execution / dynastic trauma | Brynn owns royal lineage | Stub only | Needs prose later; pair with Yggdrasil Root and inherited trauma. |
 | 05 | Interlude: The Hero They Punished Anyway | Turing persecution / Decency Statutes | Brynn must choose personhood over Stonevein legacy utility | **Prose saved / placement TBD** | Saved as `drafts/interludes/05_interlude_the_hero_they_punished_anyway.md`. The point is lineage/identity cage, not a one-to-one sexuality allegory. |
 | 06 | Interlude: The Sky That Refused to Fall | Battle of Britain / defensive air pressure | Tallandra must fly | Stub only | Tie to aerodynamics, pressure, lift, and survival under threat. |
@@ -221,6 +221,66 @@ Ecological cascade collapse; unglamorous systemic resilience; strange gifts in u
 
 ### Status
 Source prompt saved. Final interlude prose not yet generated or placed.
+
+## Book 03 — Interlude: The Machine That Heard the Salute
+
+### Chapter Type
+Reader-facing WWII / codebreaking / legitimacy-systems interlude.
+
+### File
+`drafts/interludes/03_interlude_the_machine_that_heard_the_salute.md`
+
+### Placement
+Book 03, exact compile position TBD. Best current fit: immediately before or near Gregory's Crownless King’s Coin / legitimacy reveal sequence.
+
+### Format
+Dear Reader meta-narrative interruption.
+
+### Thematic Grounding
+Authority is performance. Coins, crowns, titles, salute phrases, and encrypted messages gain power because people collectively recognize and repeat them. Performance creates patterns, and patterns can be read.
+
+This interlude uses Turing/codebreaking to show Gregory how a public token can become a hidden crib: the coin is not merely an asset or badge, but a predictable fragment of older truth left behind by the original Architects.
+
+### Core Characters Highlighted
+- The Narrator.
+- Dear Reader.
+- Mr. Turing.
+- The Crumbling Empire.
+- The Determined Occultists.
+- The High Occultist.
+- Gregory H. Frydrake.
+
+### Fictional Anchors Bridge
+
+| Fictional Element | Historical / Thematic Parallel |
+|---|---|
+| Mr. Turing | Alan Turing. |
+| Crumbling Empire | Britain / British wartime state. |
+| Determined Occultists | Nazi Germany. |
+| High Occultist | Hitler. |
+| Riddle Engine | Enigma / wartime cipher machinery. |
+| Estate of Impossible Sums | Bletchley Park. |
+| Thunder-Loom | Bombe / electromechanical codebreaking infrastructure. |
+| Mandatory salute phrase | Repeated predictable plaintext / crib logic. |
+| Crownless King’s Coin | Public legitimacy token / hidden crib for older law. |
+
+### Chapter Summary
+
+The narrator interrupts Gregory’s coin sequence to explain that authority is not a physical substance. Coins, crowns, titles, and salutes work because people perform recognition around them, and every repeated performance leaves a pattern.
+
+The interlude then moves into the fake-history Turing frame. The Determined Occultists believe their Riddle Engine is mathematically unbreakable, but its operators are trapped inside ritualized obedience. Their compulsory salute phrase becomes a repeated fragment of predictable plaintext. Mr. Turing and the Estate of Impossible Sums use that repeated performance as a crib, and the Thunder-Loom turns the pattern into an industrial codebreaking machine.
+
+The middle turns into the moral mathematics of secret intelligence: once you can hear the enemy’s salutes, you cannot always act on what you know without revealing that you know it. Information becomes infrastructure, and ethics become cold triage.
+
+The final return-to-Eidolon bridge sends the reader back to Gregory and the stamped coin. The coin is not just money or status. It is a crib: a predictable fragment of an older, broken truth hiding behind legal performance.
+
+### Return-to-Eidolon Function
+
+Return to Gregory under the dim lights of the city lounge, holding the coin and beginning to see mechanical patterns behind the law. The interlude should push him from academic posturing into active symbolic decoding.
+
+### Required Comedic or Emotional Exit
+
+End on Gregory dropping his academic posturing, narrowing his eyes, and beginning to search for the mechanical patterns hiding behind the law.
 
 ## Book 05 — Interlude: The Hero They Punished Anyway
 
