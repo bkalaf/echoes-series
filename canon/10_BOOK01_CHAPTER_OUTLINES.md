@@ -12,9 +12,9 @@ Calendar/date detail for chapters and visible subchapters is governed by [`12_BO
 
 Book 01 is currently indexed through:
 
-- **B01.200 / `01_20` — The Red Thread District**
+- **B01.210 / `01_21` — The Stupid Thread**
 
-The current uploaded `book01.md` source was originally parsed through its final visible chapter heading at `The Unwound Core`; additional user-provided continuation material has since extended the Book 01 outline through the Pollyr Fen shelter / Well of Souls / Red Thread District sequence.
+The current uploaded `book01.md` source was originally parsed through its final visible chapter heading at `The Unwound Core`; additional user-provided continuation material has since extended the Book 01 outline through the Pollyr Fen shelter / Well of Souls / Red Thread District / Ariadne’s Thread recovery sequence.
 
 ## Source Upload Note
 
@@ -35,6 +35,7 @@ Additional user-provided continuations:
 10. Pollyr Fen shelter night / companion rift — parsed as `drafts/01_18_the_shelter_test.md`.
 11. Pollyr Fen beacon / Well of Souls visions — parsed as `drafts/01_19_the_well_of_souls.md`.
 12. Carrio / Red Thread District investigation — parsed as `drafts/01_20_the_red_thread_district.md`.
+13. The Ribbit Hole morning / Ariadne’s Thread recovery / red beacon — parsed as `drafts/01_21_the_stupid_thread.md`.
 
 ---
 
@@ -44,11 +45,12 @@ When adjacent scenes share the same setting, same local conflict, and a continuo
 
 This is preferred over splitting every scene into separate chapters when that would weaken connective tissue.
 
-The Pollyr Fen continuation is intentionally split into three chapters:
+The Pollyr Fen continuation is currently split into four chapters:
 
 1. `01_18_the_shelter_test.md` — social/moral pressure and companion rift;
 2. `01_19_the_well_of_souls.md` — beacon, Horror, Vision 5, Vision 6, origin exposure;
-3. `01_20_the_red_thread_district.md` — Carrio-led street-level investigation and Red Thread District testimony.
+3. `01_20_the_red_thread_district.md` — Carrio-led street-level investigation and Red Thread District testimony;
+4. `01_21_the_stupid_thread.md` — comic object delivery, Ariadne’s Thread recovery, orange-to-red activation, and return to AQM planning pressure.
 
 ---
 
@@ -64,7 +66,8 @@ Book 01 uses the active 8-day weekday cycle. **Sonntag is hidden until Book 18 a
 | Hearthwake 3 | Aegalor | Green beacon / Conjunction begins. |
 | Hearthwake 14 | Eldrane | Pollyr Fen orange-checkpoint aftermath / shelter night. |
 | Hearthwake 15 | Karskov | Pollyr Fen beacon return / Well of Souls visions / Red Thread District route. |
-| Hearthwake 16 | Kindlemask | Possible Red Thread District aftermath if overnight sequence resolves after sleep. |
+| Hearthwake 16 | Kindlemask | Red Thread District stay / decompression and testimony window. |
+| Hearthwake 17 | Dravenkar | The Stupid Thread; orange-to-red activation; eight-day Horror clock begins. |
 
 ---
 
@@ -93,7 +96,8 @@ Book 01 uses the active 8-day weekday cycle. **Sonntag is hidden until Book 18 a
 | B01.170 | 01_17 | Children of the Damned | Hearthwake 14, Eldrane, late; orange checkpoint by end | [`../drafts/01_17_children_of_the_damned.md`](../drafts/01_17_children_of_the_damned.md) | Parsed / cleanup pass | Pending | Pollyr Fen swamp-church, frogfolk atrocity reveal, Van'Kareth South Aurreth Shipping Co. transfer, Children of the Damned name, orange checkpoint. |
 | B01.180 | 01_18 | The Shelter Test | Hearthwake 14 into Hearthwake 15, late night / pre-dawn | [`../drafts/01_18_the_shelter_test.md`](../drafts/01_18_the_shelter_test.md) | Parsed L4 | B01-S180; B01-S181 | Tallowmire shelter test, displaced-family honesty, Brickett playing with children, companion reading-mode discussion, Brickett reads Mother, Mae/Yurislav rift. |
 | B01.190 | 01_19 | The Well of Souls | Hearthwake 15, Karskov; exits Hour of the Waning Crescent, halfway toward Hour of the Iron Foundry | [`../drafts/01_19_the_well_of_souls.md`](../drafts/01_19_the_well_of_souls.md) | Parsed L4 | B01-S190 through B01-S194 | Pollyr Fen beacon return, third-waypoint confirmation, Horror selection, Vision 5, new Vision 6 / Well of Souls and starter-city origin exposure. |
-| B01.200 | 01_20 | The Red Thread District | Hearthwake 15, Karskov; starts Hour of the Waning Crescent, halfway toward Hour of the Iron Foundry; continues overnight | [`../drafts/01_20_the_red_thread_district.md`](../drafts/01_20_the_red_thread_district.md) | Parsed L4 | B01-S200 through B01-S202 | Carrio leads the group into the Red Thread District, buys out a working house for testimony and worker pay, and Addie/Brickett raise the Overseer-as-hidden-ninth suspicion. |
+| B01.200 | 01_20 | The Red Thread District | Hearthwake 15 through Hearthwake 16; resolves into The Ribbit Hole morning setup | [`../drafts/01_20_the_red_thread_district.md`](../drafts/01_20_the_red_thread_district.md) | Parsed L4 | B01-S200 through B01-S202 | Carrio leads the group into the Red Thread District, buys out The Ribbit Hole for testimony and worker pay, and Addie/Brickett raise the Overseer-as-hidden-ninth suspicion. |
+| B01.210 | 01_21 | The Stupid Thread | Hearthwake 17, Dravenkar; starts around 9:00 a.m.; red beacon by AQM lunch | [`../drafts/01_21_the_stupid_thread.md`](../drafts/01_21_the_stupid_thread.md) | Parsed L4 | B01-S210 through B01-S214 | Tallowmire’s daughter delivers the muddy “stupid thread,” Addie triggers the red beacon, and the group returns to AQM for eight-day Horror planning. |
 
 ---
 
@@ -159,27 +163,30 @@ All currently sit on **Hearthwake 3, Aegalor, Day One, green phase active**.
 
 ---
 
-# B01.180–B01.200 — Pollyr Fen Continuation Split
+# B01.180–B01.210 — Pollyr Fen Continuation Split
 
 ## Split Rationale
 
-The uploaded continuation after the Pollyr Fen swamp trek is too dense for one or two chapters. It is split into three because each movement has a different narrative engine:
+The uploaded continuation after the Pollyr Fen swamp trek is too dense for one or two chapters. It is split into four because each movement has a different narrative engine:
 
 1. **The Shelter Test** — emotional/social decompression and first team rift.
 2. **The Well of Souls** — waypoint confirmation, Horror selection, and origin visions.
 3. **The Red Thread District** — Carrio social-intelligence chapter and street-level truth gathering.
+4. **The Stupid Thread** — comic Ariadne’s Thread delivery, red-beacon activation, and eight-day Horror preparation pressure.
 
 ## Timing Lock
 
 `01_19` exits the Scene Between Stories at **Hour of the Waning Crescent, halfway toward Hour of the Iron Foundry**.
 
-`01_20` begins at that same timing and continues through evening / overnight.
+`01_20` begins at that same timing and continues through The Ribbit Hole stay.
+
+`01_21` begins on **Hearthwake 17, Dravenkar, around 9:00 a.m.** in The Ribbit Hole common room, then returns to AQM by **Hour of High Market halfway toward Hour of the Wayfarer**.
 
 ## Current Open Items
 
-- Confirm exact weekday/date handoff if `01_20` resolves into Hearthwake 16.
-- Confirm whether Red Thread District becomes the final thread-acquisition route or only the intelligence step before it.
 - Confirm whether `SET-PFN-BEACON-PLATFORM` should be assigned to a specific Pollyr Fen section in a later city-board pass.
+- Confirm whether **Mirrfang** remains background transit noise or becomes an active Pollyr Fen district/route later.
+- Confirm exact next-chapter structure for the eight-day Horror preparation sequence after red activation.
 
 ---
 
@@ -220,15 +227,14 @@ The uploaded continuation after the Pollyr Fen swamp trek is too dense for one o
 
 Next expected planning/prose target:
 
-1. Resolve the Red Thread District intelligence into the actual thread-acquisition route.
-2. Decide whether the thread is physically in the working-house network, pointed to by the workers, or revealed by the district’s old civic memory.
-3. Confirm the next beacon transition timing after orange.
-4. Convert `01_18`–`01_20` into prompt-ready packets after this supporting-file pass.
-5. Finalize the exact date/weekday if the overnight handoff enters Hearthwake 16.
+1. Build the eight-day Horror preparation sequence after `01_21`.
+2. Decide whether Addie is denied companion access at the Horror confrontation or whether the denial is a threat/false read.
+3. Track city-allegiance declarations and the remaining undeclared Concord cities: Pollyr Fen and Vyrath’Kai.
+4. Convert `01_18`–`01_21` into prompt-ready packets after this supporting-file pass.
+5. Keep the red-beacon pressure active without losing the comedy of the Ariadne’s Thread delivery.
 
 Open questions:
 
-- Confirm final title: **The Red Thread District** or another title.
-- Confirm formal name / voice of the working-house owner.
-- Confirm whether the Red Thread District should become a named Pollyr Fen quarter in the city-state atlas.
+- Confirm formal name / voice of The Ribbit Hole manager.
+- Confirm whether **Mirrfang** should become a named Pollyr Fen quarter in the city-state atlas.
 - Confirm how much of the Well of Souls explanation should remain implicit in Book 1 prose.
