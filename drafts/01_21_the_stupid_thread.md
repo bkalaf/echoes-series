@@ -91,7 +91,7 @@ Suggested visible subchapters:
 4. The Stupid Thread
 5. String, Same Thing
 6. The Red Beacon
-7. Mirrfang Delay
+7. Mirefang Delay
 8. Sandwiches In The Rain
 9. Eight Days
 10. Nope
@@ -264,11 +264,11 @@ Suggested visible subchapters:
 
 14. The chapter should let Mae be ridiculous without humiliating her. The comedy is in collision: lethal noblewoman vs. muddy child affection.
 
-## Subchapter 8 — Mirrfang Delay
+## Subchapter 8 — Mirefang Delay
 
 1. The group heads for Pollyr Fen Portalport.
-2. They are delayed getting out of Pollyr Fen because of something involving a guard near / down by **Mirrfang**.
-3. Keep the Mirrfang detail as overheard transit noise unless later canon needs it expanded.
+2. They are delayed getting out of Pollyr Fen because of something involving a guard near / down by **Mirefang**.
+3. Keep the Mirefang detail as overheard transit noise unless later canon needs it expanded.
 4. While waiting at the portal station, they watch the news and read the paper.
 5. More than half the cities have declared allegiance; closer to two-thirds have now announced.
 6. Most Concord and Ruin cities are already done.
