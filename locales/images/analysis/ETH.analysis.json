@@ -1,699 +1,128 @@
 {
-  "schemaVersion": 1,
-  "analysisVersion": 1,
-  "cityCode": "ETH",
-  "cityName": "Ethervale",
-  "analysisConfidence": "strong-lock",
-  "analysisDate": "2026-06-30",
-  "analystVersion": "gpt-5.5-thinking",
-  "basedOnImages": [
-    "ETH-HERO-NE-v001",
-    "ETH-HERO-NW-v001",
-    "ETH-HERO-SE-v001",
-    "ETH-HERO-SW-v001",
-    "ETH-STREET-S1-v001",
-    "ETH-STREET-S2-v001",
-    "ETH-STREET-S3-v001",
-    "ETH-STREET-S4-v001",
-    "ETH-STREET-S5-v001"
-  ],
-  "summary": {
-    "oneSentence": "Ethervale is a mist-veiled, cliff-built seraphic city where border defense, forge labor, archival law, public learning, and celestial song are fused into pale stone, blue beacon-light, and monumental moon-gate architecture.",
-    "identityStatement": "Ethervale should read as an angelic/seraphic threshold city with real industry beneath its celestial polish. It is not merely heavenly, delicate, or ornamental; it is a working mountain-valley civilization that guards borders, records obligations, forges civic tools, studies the stars, and organizes authority through veils, choirs, archives, and formal terraces."
+  "metadata": {
+    "schemaVersion": "2.0",
+    "analysisVersion": 2,
+    "cityCode": "ETH",
+    "cityName": "Ethervale",
+    "analysisDate": "2026-07-03",
+    "analystVersion": "gpt-5.5-thinking",
+    "analysisConfidence": "strong-lock",
+    "basedOnImages": ["ETH-HERO-NE-v001", "ETH-HERO-NW-v001", "ETH-HERO-SE-v001", "ETH-HERO-SW-v001", "ETH-STREET-S1-v001", "ETH-STREET-S2-v001", "ETH-STREET-S3-v001", "ETH-STREET-S4-v001", "ETH-STREET-S5-v001"],
+    "basedOnSidecars": ["ETH-HERO-NE-v001.json", "ETH-HERO-NW-v001.json", "ETH-HERO-SE-v001.json", "ETH-HERO-SW-v001.json", "ETH-STREET-S1-v001.json", "ETH-STREET-S2-v001.json", "ETH-STREET-S3-v001.json", "ETH-STREET-S4-v001.json", "ETH-STREET-S5-v001.json"]
   },
-  "evidence": {
-    "civilizationMaturity": {
-      "ageExpression": "ancient",
-      "evidence": [
-        "the city spans cliffs, valleys, terraces, walls, and ridges as one integrated urban system",
-        "districts include border wall, heavy industry, archives, university/lyceum, and observatory functions",
-        "the Seraphic Moon-Gate Choir Spire and Mist Veils Veiled High Court establish deep ceremonial continuity",
-        "street-level scenes show ordinary civic life inside monumental long-settled architecture"
-      ]
-    },
-    "architecturalLanguage": {
-      "materials": [
-        "pale limestone",
-        "white marble",
-        "granite cliff masonry",
-        "blue crystal glass",
-        "gold ornament",
-        "bronze and brass fittings",
-        "dark forge iron",
-        "red civic banners",
-        "polished stone paving",
-        "mist-worn terrace stone"
-      ],
-      "forms": [
-        "cliffside terraces",
-        "border towers",
-        "beacon towers",
-        "moon-gate spires",
-        "choir-like monumental arches",
-        "domed court buildings",
-        "archive towers",
-        "forge halls",
-        "smoke stacks",
-        "lecture halls",
-        "observatory towers",
-        "formal stair plazas"
-      ],
-      "skyline": [
-        "Seraphic Moon-Gate Choir Spire as the far spiritual skyline anchor",
-        "Mist Veils Veiled High Court as central civic authority",
-        "Border Wall Beacon as near/front signal identity",
-        "forge smoke and industry visible against otherwise celestial architecture",
-        "observatory and archive towers rising from terraced pale stone"
-      ],
-      "lighting": [
-        "blue beacon light",
-        "blue glass and crystal glow",
-        "warm forge fire",
-        "gold sunset on pale stone",
-        "mist-diffused mountain daylight",
-        "cool celestial night light"
-      ],
-      "infrastructure": [
-        "border walls",
-        "watch bastions",
-        "terraced streets",
-        "public stairs",
-        "forge courtyards",
-        "archive plazas",
-        "lecture terraces",
-        "observatory approaches",
-        "cliff bridges",
-        "smoke stacks and industrial ducts"
-      ],
-      "visualPatterns": [
-        "celestial blue light coexists with practical forge fire",
-        "authority is elevated and veiled rather than aggressively martial",
-        "industry is visible but contained within civic order",
-        "border defense, records, learning, and astronomy form one disciplined civic language",
-        "mist and height repeatedly frame the city as liminal and watchful"
-      ],
-      "recurringMotifs": [
-        "moon gates",
-        "choir spires",
-        "wings or seraphic silhouettes",
-        "blue lamps",
-        "gold seals",
-        "mist veils",
-        "star navigation",
-        "smoke stacks",
-        "border walls",
-        "archives",
-        "formal stairs"
-      ]
-    },
-    "environmentalRelationship": {
-      "observed": "Ethervale uses mountain-valley terrain as a veil, border, workshop, archive shelf, and celestial viewing platform. The city turns elevation and mist into civic structure rather than treating them as scenery.",
-      "evidence": [
-        "hero views show city layers climbing ridges and cliffs",
-        "mist repeatedly separates districts and skyline anchors",
-        "border wall and beacon architecture dominate the front civic approach",
-        "observatory and moon-gate structures use high terrain for celestial identity"
-      ]
-    },
-    "authorityExpression": {
-      "observed": "Authority is formal, veiled, archival, and duty-bound. Power appears as record, judgment, border responsibility, public instruction, and celestial legitimacy rather than raw display.",
-      "evidence": [
-        "seat of power is the Mist Veils Veiled High Court",
-        "archives and records occupy a full district identity",
-        "border wall and beacon define Section 1",
-        "lecture hall and observatory districts make knowledge part of public order"
-      ]
-    },
-    "commercialSpaces": [
-      "forge markets",
-      "tool and metalwork shops",
-      "record-copying counters",
-      "ink and parchment stalls",
-      "blue-glass lamp sellers",
-      "star-chart vendors",
-      "border permit offices",
-      "lecture courtyard kiosks",
-      "instrument makers",
-      "small food stalls serving workers and clerks"
-    ],
-    "publicSpaces": [
-      "border gate plazas",
-      "forge courts",
-      "archive stairs",
-      "copyist halls",
-      "lecture terraces",
-      "observatory courts",
-      "moon-gate platforms",
-      "beacon approaches",
-      "formal plazas beneath the high court"
-    ],
-    "districtCharacter": {
-      "section1FortressBorderWall": "guarded civic threshold with Border Wall Beacon, watch bastions, woven banners, and formal approach control",
-      "section2HeavyIndustryFoundry": "contained forge district with Great Forge, smoke-stack monument, crucible halls, toolwork, labor, and warm fire against pale stone",
-      "section3RecordsArchives": "bureaucratic and memory-heavy archive district with Archive Tower, gold-seal monument, copyist halls, ledgers, and public records",
-      "section4UniversityLyceum": "public education district with Lecture Hall, star navigation monuments, observatory court nooks, and formal scholarly streets",
-      "section5ObservatoryAstronomy": "celestial observation district with Star Observatory, celestial court nook, blue domes, moonlight, and high sightlines"
-    }
+  "cityDNA": {
+    "coreFantasy": "A mist-veiled seraphic threshold city where border walls, forge labor, archive towers, public teaching, observatories, and moon-gate song make duty visible.",
+    "primaryEmotion": "luminous duty",
+    "secondaryEmotion": "solemn watchfulness",
+    "readerTakeaway": "Ethervale is beautiful because it is disciplined; its holiness has soot, ink, permits, border bells, lecture courts, and night watch under it.",
+    "civilizationThesis": "Ethervale turns guarded thresholds, forge production, record law, public instruction, celestial observation, and veiled judgment into one civic religion of obligation.",
+    "visualIdentity": "Pale cliff terraces, blue lamps, gold seals, red banners, forge smoke, border walls, archive towers, lecture halls, observatories, moon-gate spires, watch bastions, and mist-veiled high courts.",
+    "culturalIdentity": "Angelic or seraphic citizens treat guarding, recording, forging, teaching, and sky-watching as shared moral obligations rather than separate trades.",
+    "symbolicIdentity": "Moon gates, choir spires, blue witness-lamps, gold seals, mist veils, border walls, forge smoke, archive stairs, star charts, and watch bastions symbolize obligation made luminous."
   },
-  "narrativeTranslation": {
-    "streets": {
-      "description": "Ethervale's streets should feel terraced, pale, wind-cleaned, and watched. They move between guarded gates, archive stairs, forge courts, lecture plazas, and observatory approaches, with mist often softening distant towers while blue lamps keep the route legible.",
-      "writingGuidance": [
-        "Use elevation, mist, and formal stairs as the basic movement grammar.",
-        "Let forge smoke and warm fire interrupt the otherwise celestial polish of the city.",
-        "Make records, permits, lessons, and border checks part of ordinary street life.",
-        "Avoid making the city feel purely heavenly; the foundry and archives give it weight."
-      ]
-    },
-    "people": {
-      "description": "Citizens should appear disciplined, duty-conscious, and quietly formal. Guards, smiths, copyists, clerks, lecturers, students, astronomers, and court officials all feel like parts of the same civic machine.",
-      "behavioralNotes": [
-        "people respect gates, records, and public procedure",
-        "forge workers bring heat, soot, and labor into an otherwise pale city",
-        "clerks and copyists move with bundles of ledgers, seals, and tablets",
-        "scholars and observatory workers speak with controlled precision rather than theatrical flair"
-      ]
-    },
-    "shops": {
-      "examples": [
-        "forge tool shops",
-        "lamp glass vendors",
-        "ledger copyists",
-        "seal makers",
-        "ink sellers",
-        "star-chart stalls",
-        "border permit counters",
-        "metal fitting workshops",
-        "parchment binders",
-        "lecture supply kiosks",
-        "blue crystal instrument makers",
-        "worker food stalls"
-      ],
-      "writingGuidance": "Commerce should support duty, recordkeeping, industry, learning, and border order. Even markets should feel regulated and purposeful."
-    },
-    "homes": {
-      "description": "Homes should be pale stone terrace houses with blue lamps, small balconies, narrow courtyards, and views toward cliffs, towers, or smoke stacks. Domestic life should feel orderly but not sterile.",
-      "writingGuidance": [
-        "Use laundry, soot, small lamps, ledgers, and worker tools to humanize the city.",
-        "Let families live near institutions rather than separate from them; Ethervale is civic through and through."
-      ]
-    },
-    "publicLife": {
-      "dailyRhythms": [
-        "morning border gate openings under blue beacon light",
-        "forge stacks beginning to smoke",
-        "copyists and clerks filling archive stairs",
-        "midday lectures and permit traffic",
-        "evening cooling of forge courtyards",
-        "night observatory work under moon gates and mist"
-      ],
-      "commonActivities": [
-        "border checks",
-        "tool hauling",
-        "record copying",
-        "public instruction",
-        "star readings",
-        "seal verification",
-        "forge work",
-        "ledger delivery",
-        "beacon watching"
-      ]
-    },
-    "sounds": [
-      "hammering from forge courts",
-      "bells from border towers",
-      "paper and parchment in archive halls",
-      "boots on stone stairs",
-      "wind moving through high terraces",
-      "soft lecture voices",
-      "metal tools cooling in water",
-      "blue lamps humming faintly",
-      "distant choir-like resonance from the wonder"
-    ],
-    "smells": [
-      "cool mist",
-      "hot iron",
-      "coal smoke",
-      "lamp oil",
-      "parchment",
-      "ink",
-      "polished stone",
-      "forge water",
-      "wax seals",
-      "mountain air"
-    ],
-    "lighting": {
-      "day": "Daylight should be pale, high, and mist-diffused, with white stone catching sun while forge smoke marks the lower industrial districts.",
-      "night": "Blue lamps, beacon glow, moon gates, observatory light, and forge embers should create a split identity: celestial above, industrious below.",
-      "weather": "Mist should matter narratively. It conceals distance, makes the High Court feel veiled, and turns blue signal-light into halos."
-    },
-    "transportation": {
-      "description": "Movement is terraced and procedural: stairs, gate roads, archive steps, forge carts, lecture routes, and observatory paths. Heavy goods move through controlled lower routes; officials and scholars climb toward higher institutions.",
-      "writingGuidance": [
-        "Use border checks and record stations to pace arrival.",
-        "Let carts, metal loads, and archive bundles create practical traffic.",
-        "Characters should often climb out of smoke and into clearer blue-lit civic heights."
-      ]
-    },
-    "children": {
-      "description": "Children likely learn civic duty early: how to read signal lights, respect records, stay clear of forge carts, and identify the moon-gate silhouettes. Play should happen near stairs, courtyards, and supervised institutional edges."
-    },
-    "craftsmen": {
-      "description": "Craftsmen include smiths, blue-glass workers, lamp makers, seal cutters, copyists, binders, instrument makers, stair masons, and forge technicians."
-    },
-    "markets": {
-      "description": "Markets should feel purposeful and regulated. Stalls sell tools, seals, ledgers, lamps, star charts, food for workers, replacement fittings, and archive supplies rather than luxury chaos."
-    },
-    "food": {
-      "examples": [
-        "forge-worker stews",
-        "hard breads",
-        "goat cheese",
-        "hot tea in blue-glass cups",
-        "smoked root vegetables",
-        "street pastries for clerks",
-        "warm broth sold near archive stairs",
-        "salted meats for border guards"
-      ]
-    },
-    "companionObservations": {
-      "addie": [
-        "notices exact wording on permits, archive seals, public notices, and repeated court phrases",
-        "stores routes by gate, forge, archive, lecture hall, and observatory sequence",
-        "is struck by how much of the city is built around remembering obligations"
-      ],
-      "gregory": [
-        "reads moon-gate, choir-spire, star-navigation, and border-light symbolism as a theology of duty and witness",
-        "recognizes that the forge district complicates the city's angelic presentation in a useful symbolic way"
-      ],
-      "brickett": [
-        "spots service lifts, forge vents, loose paving, archive side doors, cart routes, and stair shortcuts",
-        "understands which blue lamps mark actual safety systems and which are ceremonial"
-      ],
-      "talandra": [
-        "reads border gates, stair funnels, forge hazards, archive crowds, and terrace sightlines as threat geometry",
-        "would respect Ethervale's discipline but distrust the mist and high blind corners"
-      ],
-      "mae": [
-        "would notice permit control, forge contracts, archive access, seal authority, and who profits from sanctioned movement",
-        "would understand that power here travels through records and permissions as much as rank"
-      ],
-      "genericCompanionNotes": [
-        "Outsiders should feel processed by the city: checked, recorded, oriented, instructed.",
-        "Characters who dislike procedure should feel constrained quickly."
-      ]
-    }
-  },
-  "arrivalExperience": {
-    "firstImpression": "A visitor should first experience Ethervale as a mist-veiled civic threshold: pale cliffs, blue border lights, a guarded Beacon, distant moon-gate spires, forge smoke rising from lower terraces, and the High Court half-softened by mist above the city.",
-    "firstHourSequence": [
-      "approach through mist and guarded walls",
-      "first view of the Border Wall Beacon",
-      "hearing forge hammers beneath the celestial skyline",
-      "passing clerks, guards, seals, and archive notices",
-      "climbing from industrial heat toward pale civic terraces",
-      "glimpsing the Seraphic Moon-Gate Choir Spire and realizing Ethervale joins duty, memory, and celestial identity"
-    ],
-    "readerEffect": "The reader should feel that Ethervale is beautiful because it is disciplined, not because it is untouched. Its holiness has soot under the fingernails."
-  },
-  "departureMemory": {
-    "readerShouldRemember": [
-      "mist over pale cliff terraces",
-      "blue beacon and ward lights",
-      "forge smoke beneath celestial spires",
-      "archives and record stairs",
-      "moon-gate silhouettes",
-      "the High Court veiled rather than bluntly exposed",
-      "a city where duty is beautiful but never effortless"
-    ]
-  },
-  "landmarkAnalysis": {
-    "wonder": {
-      "name": "Seraphic Moon-Gate Choir Spire",
-      "purpose": "The Wonder expresses Ethervale's highest self: celestial passage, communal song, moon-gate symbolism, and seraphic civic aspiration.",
-      "visualDescription": "A monumental pale spire or moon-gate structure, blue-lit and gold-accented, rising above the terraced city as a distant skyline anchor distinct from the High Court and Beacon.",
-      "narrativeUse": "Use the Wonder to make Ethervale feel angelic without erasing its working civic underside. It should appear as the city's ideal, not the whole city.",
-      "howCharactersNoticeIt": {
-        "addie": "notices repeated choir phrases, gate inscriptions, and the way citizens refer to it in civic language",
-        "gregory": "reads moon-gate and choir symbolism as passage, witness, judgment, and harmonized duty",
-        "brickett": "looks for access stairs, maintenance rigs, resonance chambers, and places workers keep the impossible structure operating",
-        "talandra": "evaluates its crowd routes, exposed approaches, and ceremonial bottlenecks"
-      },
-      "commonActivities": [
-        "choir rites",
-        "moon observations",
-        "public ceremonies",
-        "civic vows",
-        "festival processions",
-        "ritualized mourning or remembrance"
-      ],
-      "visibilityFromCity": "Visible from hero approaches and high terraces as the far spiritual anchor of the skyline."
-    },
-    "beacon": {
-      "name": "Border Wall Beacon",
-      "purpose": "The Beacon ties Conjunction signal logic to border duty, watchfulness, and public readiness.",
-      "visualDescription": "A strong blue-lit vertical tower integrated with border walls, formal gates, banners, and watch bastions.",
-      "narrativeUse": "Use the Beacon as a civic alarm and oath-marker. In Ethervale, signal changes should feel like public duty activating rather than panic alone.",
-      "howCharactersNoticeIt": {
-        "addie": "notices how official language around the Beacon sounds procedural and inherited",
-        "gregory": "reads the Beacon as a witness-light at the boundary between safety and obligation",
-        "brickett": "spots service doors, wall stairs, vent shafts, and guard blind spots near its base",
-        "talandra": "treats the Beacon plaza as the first strategic choke point"
-      },
-      "commonActivities": [
-        "guard rotations",
-        "border checks",
-        "signal watching",
-        "public announcements",
-        "emergency musters",
-        "gate ceremonies"
-      ],
-      "visibilityFromCity": "Prominent from Section 1 approaches and visible in hero views as near/front civic signal anchor."
-    },
-    "seatOfPower": {
-      "name": "Mist Veils Veiled High Court",
-      "purpose": "The seat of power expresses judgment, memory, and civic authority through veiled presentation rather than brute dominance.",
-      "visualDescription": "An elevated pale-stone high court softened by mist, blue glass, gold trim, formal terraces, archive approaches, and ceremonial stairs.",
-      "narrativeUse": "Use the High Court to show that Ethervale's power is formal, record-bound, and partially concealed. It should feel less like a palace and more like judgment entering through fog.",
-      "howCharactersNoticeIt": {
-        "addie": "notices official phrases and record structures converging toward the Court",
-        "gregory": "reads the veils as moral and celestial symbolism, not decoration",
-        "brickett": "spots record runners, service paths, and the mundane systems behind the ceremonial facade",
-        "talandra": "maps stair funnels, terraces, guard posts, and mist-obscured sightlines"
-      },
-      "commonActivities": [
-        "judgments",
-        "public petitions",
-        "record review",
-        "formal hearings",
-        "oath ceremonies",
-        "archive-linked civic proceedings"
-      ],
-      "visibilityFromCity": "Dominant but often softened by mist; it should feel present before it is perfectly clear."
-    },
-    "majorLandmarks": [
-      {
-        "name": "Great Forge",
-        "sectionNumber": 2,
-        "narrativeUse": "Use to ground Ethervale's beauty in labor, heat, soot, and practical civic production."
-      },
-      {
-        "name": "Archive Tower",
-        "sectionNumber": 3,
-        "narrativeUse": "Use as the memory spine of the city: records, obligations, copies, seals, and public history."
-      },
-      {
-        "name": "Lecture Hall",
-        "sectionNumber": 4,
-        "narrativeUse": "Use for public instruction, civic education, and knowledge as duty rather than luxury."
-      },
-      {
-        "name": "Star Observatory",
-        "sectionNumber": 5,
-        "narrativeUse": "Use for celestial witness, navigation, night scenes, and the link between duty and sky-reading."
-      }
-    ],
-    "monuments": [
-      {
-        "name": "Woven Banners Monument",
-        "narrativeUse": "Use to show border memory and civic continuity through cloth, color, and public oath symbolism."
-      },
-      {
-        "name": "Smoke-Stack Monument",
-        "narrativeUse": "Use to make industry a civic monument rather than hidden utility."
-      },
-      {
-        "name": "Records Archives Gold-Seal Monument",
-        "narrativeUse": "Use to show that records are sacred-adjacent and socially binding."
-      },
-      {
-        "name": "Star Navigation Monument",
-        "narrativeUse": "Use to connect education, astronomy, and public orientation."
-      }
-    ],
-    "minorLandmarks": [
-      {
-        "name": "Watch Bastion Nook",
-        "narrativeUse": "Use for guarded conversations, border observation, and tactical awareness."
-      },
-      {
-        "name": "Crucible Hall Nook",
-        "narrativeUse": "Use for forge-side evidence, labor detail, and controlled danger."
-      },
-      {
-        "name": "Copyist Hall Nook",
-        "narrativeUse": "Use for Addie's exact-memory clues, document handling, and bureaucratic texture."
-      },
-      {
-        "name": "Observatory Court Nook",
-        "narrativeUse": "Use for small teaching scenes and Gregory's symbol interpretation."
-      },
-      {
-        "name": "Celestial Court Nook",
-        "narrativeUse": "Use for quiet sky-focused conversations and reflective contrast to forge noise."
-      }
-    ]
-  },
-  "immediateNarrativeImprovements": [
-    {
-      "target": "future Ethervale scenes",
-      "recommendation": "Write Ethervale as celestial but working: pair moon-gates, veils, and blue light with forge heat, archive labor, border procedure, and soot."
-    },
-    {
-      "target": "street descriptions",
-      "recommendation": "Use mist, pale terraces, blue lamps, forge smoke, archive stairs, and formal gate checks as recurring city texture."
-    },
-    {
-      "target": "landmark use",
-      "recommendation": "Make the Seraphic Moon-Gate Choir Spire the idealized skyline anchor while the Great Forge and Archive Tower ground daily life."
-    },
-    {
-      "target": "companion writing",
-      "recommendation": "Let Addie notice record language, Gregory interpret moon-gate symbolism, Brickett track vents and maintenance, and Talandra distrust mist-obscured approaches."
-    },
-    {
-      "target": "city differentiation",
-      "recommendation": "Distinguish ETH from LUM: both are celestial and blue-lit, but Ethervale is duty/records/forge/border; Luminthalas is refinement/knowledge/curated beauty."
-    }
-  ],
-  "interpretation": {
-    "civilizationThesis": "Ethervale is the architecture of duty made beautiful: a seraphic city where border vigilance, forge labor, records, instruction, astronomy, and ceremonial judgment combine into one mist-veiled civic order.",
-    "environmentalPhilosophy": "Veil and elevate: the city uses height and mist to separate, reveal, test, and solemnize civic movement.",
-    "adaptiveStrategy": "Consecrate labor: transform necessary work—guarding, forging, recording, teaching, watching—into visible civic virtue.",
-    "authorityModel": "record-bound ceremonial authority",
-    "relationshipWithNature": "managed through height, mist, and mountain terraces; nature becomes atmosphere and threshold rather than wild presence",
-    "relationshipWithHistory": "archival and solemn; history is kept in records, seals, towers, banners, and formal judgment",
-    "relationshipWithKnowledge": "public but duty-oriented; knowledge supports civic order and moral responsibility",
-    "relationshipWithRisk": "risk is managed by borders, records, signals, trained labor, and formal procedure",
-    "relationshipWithBeauty": "beauty legitimizes duty; the city makes obligation look luminous without making it easy",
-    "relationshipWithCommunity": "community gathers through work, records, learning, watchfulness, and shared ceremonies rather than revelry or commerce first",
-    "civilizationalTension": {
-      "tension": "celestial ideal vs material labor",
-      "resolution": "Ethervale resolves the tension by making labor sacred-adjacent: the forge, archive, border wall, and lecture hall all serve the same civic calling."
-    },
-    "highestVirtue": "duty",
-    "religiousExpression": "seraphic, choral, moon-gate oriented, and ceremonial; spirituality appears tied to witness, passage, obligation, and judgment",
-    "economicIdentity": "regulated forge work, records, permits, instruments, border services, teaching, and civic craft",
-    "socialIdentity": "disciplined, formal, watchful, industrious, record-conscious, and quietly devout"
-  },
-  "canonReview": {
-    "lockedCanon": [
-      {
-        "statement": "Ethervale is a mist-veiled seraphic mountain-valley city where celestial identity and civic labor coexist.",
-        "reason": "The complete image set consistently combines pale celestial architecture, moon-gate/spire symbolism, forge smoke, border walls, archives, and formal terraces.",
-        "supportingEvidence": [
-          "Seraphic Moon-Gate Choir Spire",
-          "Mist Veils Veiled High Court",
-          "Great Forge",
-          "Archive Tower",
-          "Border Wall Beacon"
-        ],
-        "confidence": "high"
-      },
-      {
-        "statement": "Ethervale should not be written as purely ethereal or ornamental; its forge and archive labor are central to its civic identity.",
-        "reason": "Street and hero views clearly foreground foundry/industrial and records/archive districts as major civic components.",
-        "supportingEvidence": [
-          "Heavy Industry / Foundry district",
-          "Great Forge",
-          "Smoke-Stack Monument",
-          "Records / Archives Hall",
-          "Copyist Hall Nook"
-        ],
-        "confidence": "high"
-      },
-      {
-        "statement": "Blue beacon and civic light are core visual markers of Ethervale, but they signify duty and witness rather than Luminthalas-style intellectual refinement alone.",
-        "reason": "Blue light recurs around beacon, observatory, archive, and civic structures, paired with border and procedural identity.",
-        "supportingEvidence": [
-          "Border Wall Beacon",
-          "Star Observatory",
-          "Lecture Hall",
-          "blue-lit street views",
-          "moon-gate imagery"
-        ],
-        "confidence": "high"
-      }
+  "canon": {
+    "canonLocks": [
+      "Ethervale is a mist-veiled angelic / seraphic mountain-valley city, not a weightless paradise.",
+      "The Wonder is the Seraphic Moon-Gate Choir Spire.",
+      "The Beacon is the Border Wall Beacon.",
+      "The Seat of Power is the Mist Veils Veiled High Court.",
+      "The five primary districts are Fortress / Border Wall, Heavy Industry / Foundry, Records / Archives, University / Lyceum, and Observatory / Astronomy.",
+      "The uploaded district anchors include Fortress / Border Wall Civic Hall, Woven Banners Monument, Watch Bastion Nook, Heavy Industry / Foundry Civic Hall, Great Forge, Smoke-Stack Monument, Crucible Hall Nook, Records / Archives Hall, Records Archives Gold-Seal Monument, Copyist Hall Nook, University / Lyceum Civic Hall, Star Navigation Monument, Observatory Court Nook, Observatory / Astronomy Civic Hall, and Celestial Court Nook."
     ],
     "provisionalCanon": [
-      {
-        "statement": "Ethervale's highest civic virtue is duty.",
-        "reason": "The city repeatedly emphasizes border protection, records, forge work, public instruction, and ceremonial judgment.",
-        "supportingEvidence": [
-          "Border Wall Beacon",
-          "Archive Tower",
-          "Great Forge",
-          "Lecture Hall",
-          "Veiled High Court"
-        ],
-        "confidence": "medium-high"
-      },
-      {
-        "statement": "Ethervale authority is record-bound and ceremonial rather than purely military or scholarly.",
-        "reason": "The city balances border walls, archives, high court, and celestial forms in a single civic language.",
-        "supportingEvidence": [
-          "Mist Veils Veiled High Court",
-          "Records / Archives district",
-          "Border Wall Beacon",
-          "Star Navigation Monument"
-        ],
-        "confidence": "medium-high"
-      }
+      "Ethervale's highest civic virtue is duty.",
+      "Its central tension is celestial ideal versus material labor.",
+      "The repeated star-navigation anchors suggest that observation and witness are civic obligations, not scholarly ornament."
     ],
-    "workingHypotheses": [
-      {
-        "statement": "Seraphic or angelic cultures in Eidolon may convert moral archetypes into civic duties: witness, record, forge, teach, and guard.",
-        "reason": "Ethervale strongly suggests this, but broader angelic/seraphic comparison is needed.",
-        "supportingEvidence": [
-          "choir spire",
-          "archive district",
-          "border wall",
-          "forge district",
-          "lecture hall"
-        ],
-        "confidence": "medium"
-      }
-    ],
-    "rejectedHypotheses": [
-      {
-        "statement": "Ethervale is simply a prettier version of Luminthalas.",
-        "reason": "The forge, border, archive, and mist-veiled duty language make ETH distinct from LUM's scholarly refinement and curated beauty.",
-        "supportingEvidence": [
-          "Great Forge",
-          "Border Wall Beacon",
-          "Archive Tower",
-          "Mist Veils High Court"
-        ],
-        "confidence": "high"
-      },
-      {
-        "statement": "Ethervale is a purely militarized border fortress.",
-        "reason": "While border defense is important, the city also contains major archive, university, observatory, forge, and ceremonial structures.",
-        "supportingEvidence": [
-          "Lecture Hall",
-          "Star Observatory",
-          "Archive Tower",
-          "Seraphic Moon-Gate Choir Spire"
-        ],
-        "confidence": "high"
-      }
+    "rejectedReads": ["Pure heavenly ornament.", "A Luminthalas duplicate.", "A purely militarized border fortress.", "A holy city with forge labor hidden from view."],
+    "cautionFlags": [
+      "Keep soot, records, permits, and procedure visible.",
+      "Mist and veils express governance, not only mood.",
+      "Blue light means witness, signal, and duty.",
+      "Preserve exact sidecar anchors for border, forge, archive, university, and observatory sections."
     ]
   },
-  "futureQuestions": [
-    "What is the specific race/culture identity for Ethervale and how seraphic is it biologically versus culturally?",
-    "How literal are the choir functions of the Seraphic Moon-Gate Choir Spire?",
-    "Does the Mist Veils High Court hide proceedings, protect records, or symbolize moral uncertainty?",
-    "How does Ethervale's forge economy relate to its celestial identity?",
-    "How does ETH blue light differ in reader memory from AQM civic blue and LUM celestial blue?"
+  "environment": {
+    "terrain": ["mountain-valley city", "cliffside terraces", "border approaches", "fortified gates", "lecture plazas", "high observatory platforms"],
+    "water": ["forge cooling basins", "mountain runoff", "mist damp on stone", "courtyard cisterns"],
+    "vegetation": ["terrace greenery", "mountain grasses", "courtyard planters", "mist-fed moss"],
+    "climateLighting": ["mist-diffused daylight", "blue beacon light", "gold sunset", "warm forge fire", "cool moonlight", "pale morning glare on stone"],
+    "environmentalLogic": "Height, mist, border walls, forge smoke, archive stairs, and clear celestial sightlines are civic infrastructure rather than scenery. Every ascent clarifies duty while also exposing who is being watched."
+  },
+  "architecture": {
+    "materials": ["pale limestone", "white marble", "granite cliff masonry", "blue crystal glass", "gold ornament", "dark forge iron", "red civic banners", "wax seals", "parchment"],
+    "forms": ["Fortress / Border Wall Civic Hall", "Border Wall Beacon", "Watch Bastion Nook", "Great Forge", "Crucible Hall Nook", "Archive Tower", "Copyist Hall Nook", "Lecture Hall", "Observatory Court Nook", "Star Observatory", "Celestial Court Nook", "moon-gate spires", "veiled high courts"],
+    "skyline": ["Seraphic Moon-Gate Choir Spire as far spiritual anchor", "Mist Veils Veiled High Court as elevated authority", "Border Wall Beacon as front signal", "forge smoke beneath pale celestial towers", "Archive Tower, Lecture Hall, and Star Observatory forming duty-based vertical rhythm"],
+    "lighting": ["blue beacon glow", "blue crystal light", "warm forge fire", "mist-softened daylight", "moonlit observatory light", "archive window glow"],
+    "infrastructure": ["border walls", "watch bastions", "public stairs", "forge courtyards", "archive plazas", "copyist halls", "lecture terraces", "observatory approaches", "processional gates"],
+    "motifs": ["moon gates", "choir spires", "seraphic silhouettes", "blue lamps", "gold seals", "mist veils", "star navigation", "woven banners", "smoke stacks"],
+    "colorLanguage": ["pale stone", "mist white", "celestial blue", "gold trim", "forge orange", "dark iron", "red banners"],
+    "textureLanguage": ["polished stone", "mist-wet terraces", "blue glass", "wax seals", "parchment and ink", "soot-dark iron", "banner cloth"]
+  },
+  "civilization": {
+    "people": "Citizens are disciplined, formal, duty-conscious, record-aware, and quietly devout; guards, smiths, copyists, lecturers, astronomers, and court officials all belong to one civic calling.",
+    "occupations": ["border guards", "beacon keepers", "forge workers", "archive clerks", "copyists", "lecturers", "students", "astronomers", "court officials", "permit clerks"],
+    "socialClasses": ["High Court officials", "border officers", "archive magistrates", "forge masters", "lyceum scholars", "observatory astronomers", "terrace residents", "forge laborers"],
+    "governance": "Authority is record-bound, ceremonial, and procedural, flowing through the Veiled High Court, border permits, archive seals, hearings, and public records.",
+    "religion": "Seraphic moon-gate ritual ties witness, passage, duty, judgment, and dignified labor into civic religion.",
+    "customs": ["border checks at blue lights", "record verification before action", "respect for seals and ledgers", "forge rites at shift changes", "moon-gate ceremonies", "star-navigation observances"],
+    "bodyLanguage": ["formal posture on stairs", "controlled gestures during hearings", "watchful glances through mist", "careful handling of seals", "measured movement around forge carts"],
+    "speechPatterns": ["formal procedural phrasing", "record citations", "border-permit language", "measured scholarly speech", "seraphic oath formulas"]
+  },
+  "urbanLife": {
+    "streets": {
+      "appearance": "Terraced, pale, wind-cleaned, and watched: guarded gates, blue lamps, border walls, archive stairs, forge courts, lecture plazas, observatory paths, moon-gate silhouettes, and mist-softened towers.",
+      "movement": "Movement is vertical and procedural through gates, stairs, forge-cart routes, archive steps, lecture terraces, cliff bridges, and observatory approaches.",
+      "sounds": ["forge hammers", "border bells", "paper in archive halls", "boots on stone stairs", "wind through terraces", "soft lecture voices", "distant choir resonance"],
+      "smells": ["cool mist", "hot iron", "coal smoke", "lamp oil", "parchment", "ink", "wax seals", "mountain air"],
+      "lighting": "Pale mist and gold daylight dominate by day; blue witness-lamps, beacon glow, moon gates, observatory light, and forge embers divide the city at night.",
+      "weatherEffects": "Mist conceals distance, veils the High Court, halos blue signal light, and makes stair routes both ceremonial and tactical.",
+      "dayCycle": "Morning opens border gates, forge stacks begin to smoke, clerks fill archive stairs, and lectures draw students upward.",
+      "nightCycle": "Night belongs to observatory work, moon-gate ceremonies, guarded beacon posts, blue-lit records, and cooling forge embers."
+    },
+    "shops": {
+      "common": ["forge tool shops", "lamp glass vendors", "ledger copyists", "seal makers", "ink sellers", "worker tea counters"],
+      "uncommon": ["star-chart stalls", "crystal instrument makers", "permit copy counters", "parchment binders", "lens polishers"],
+      "prestigious": ["High Court seal offices", "archive legal counters", "observatory instrument houses", "forge master halls", "lyceum patrons"],
+      "exports": ["blue crystal lamps", "star charts", "sealed records", "fine metal fittings", "forge tools", "celestial instruments"],
+      "imports": ["iron", "coal", "parchment", "ink", "fine cloth", "food", "glass reagents"],
+      "streetFood": ["forge-worker stew", "hard bread", "goat cheese", "hot tea", "smoked roots", "archive-stair broth"],
+      "services": ["border permits", "record copying", "seal verification", "tool repair", "public instruction", "star readings", "court petition filing"]
+    },
+    "housing": {
+      "wealthy": "High terrace homes near court, archive, or observatory routes with pale stone, blue lamps, balconies, courtyards, and mist views.",
+      "middle": "Stone terrace homes over shops or offices with ledgers, tools, lamps, and access to institutional stairs.",
+      "poor": "Lower forge-adjacent rooms, shared stair courts, soot-marked stone, communal cisterns, and compact family quarters near labor routes."
+    }
+  },
+  "districts": [
+    {"sectionNumber": 1, "name": "Fortress / Border Wall", "civicPurpose": "Guarded entry, border procedure, public signal response, and threshold control.", "visualIdentity": "Fortress / Border Wall Civic Hall, Border Wall Beacon, Woven Banners Monument, Watch Bastion Nook, formal gates, blue lights, and pale fortified stairs.", "emotionalIdentity": "Watchful, ceremonial, and tense.", "gameplayAssetNeeds": ["Fortress / Border Wall Civic Hall", "Border Wall Beacon", "Woven Banners Monument", "Watch Bastion Nook", "formal gate", "border guards"], "narrativeUse": ["arrival", "border checks", "Beacon response", "public duty activation"], "landmark": "Border Wall Beacon", "minorLandmarks": ["Woven Banners Monument", "Watch Bastion Nook"]},
+    {"sectionNumber": 2, "name": "Heavy Industry / Foundry", "civicPurpose": "Forge production, toolwork, worker coordination, and material grounding beneath celestial identity.", "visualIdentity": "Heavy Industry / Foundry Civic Hall, Great Forge, Smoke-Stack Monument, Crucible Hall Nook, forge courtyards, dark iron, and orange heat against pale stone.", "emotionalIdentity": "Hot, industrious, disciplined, and material.", "gameplayAssetNeeds": ["Heavy Industry / Foundry Civic Hall", "Great Forge", "Smoke-Stack Monument", "Crucible Hall Nook", "forge workers", "cooling basin"], "narrativeUse": ["labor stakes", "industrial proof", "soot under holiness", "forge crisis"], "landmark": "Great Forge", "minorLandmarks": ["Smoke-Stack Monument", "Crucible Hall Nook"]},
+    {"sectionNumber": 3, "name": "Records / Archives", "civicPurpose": "Public memory, records, permits, legal continuity, and civic obligation.", "visualIdentity": "Records / Archives Hall, Archive Tower, Records Archives Gold-Seal Monument, Copyist Hall Nook, archive stairs, ledgers, blue lamps, and quiet formal courts.", "emotionalIdentity": "Solemn, exacting, and memory-heavy.", "gameplayAssetNeeds": ["Records / Archives Hall", "Archive Tower", "Records Archives Gold-Seal Monument", "Copyist Hall Nook", "record clerks", "ledger bundles"], "narrativeUse": ["record clues", "permit conflict", "public memory", "bureaucratic pressure"], "landmark": "Archive Tower", "minorLandmarks": ["Records Archives Gold-Seal Monument", "Copyist Hall Nook"]},
+    {"sectionNumber": 4, "name": "University / Lyceum", "civicPurpose": "Public instruction, civic education, scholarly discipline, and star-navigation training.", "visualIdentity": "University / Lyceum Civic Hall, Lecture Hall, Star Navigation Monument, Observatory Court Nook, lecture terraces, instrument stalls, formal stairs, and student courts.", "emotionalIdentity": "Measured, instructive, and duty-oriented.", "gameplayAssetNeeds": ["University / Lyceum Civic Hall", "Lecture Hall", "Star Navigation Monument", "Observatory Court Nook", "students", "star charts"], "narrativeUse": ["public lesson", "symbol interpretation", "knowledge as obligation", "student witness"], "landmark": "Lecture Hall", "minorLandmarks": ["Star Navigation Monument", "Observatory Court Nook"]},
+    {"sectionNumber": 5, "name": "Observatory / Astronomy", "civicPurpose": "Celestial observation, navigation, night watch, moon-gate ceremony, and witness-oriented science.", "visualIdentity": "Observatory / Astronomy Civic Hall, Star Observatory, Star Navigation Monument, Celestial Court Nook, blue domes, moonlit platforms, lenses, star maps, and high sightlines.", "emotionalIdentity": "Quiet, elevated, precise, and luminous.", "gameplayAssetNeeds": ["Observatory / Astronomy Civic Hall", "Star Observatory", "Star Navigation Monument", "Celestial Court Nook", "lenses", "astronomers"], "narrativeUse": ["night revelation", "sky reading", "celestial witness", "quiet conversation"], "landmark": "Star Observatory", "minorLandmarks": ["Star Navigation Monument", "Celestial Court Nook"]}
   ],
-  "comparativeNotes": {
-    "distinctFrom": [
-      {
-        "cityCode": "LUM",
-        "difference": "Luminthalas expresses perfected knowledge and curated beauty; Ethervale expresses duty, records, forge labor, border vigilance, and celestial witness."
-      },
-      {
-        "cityCode": "ASL",
-        "difference": "Aes Sidhal uses thresholds for masks, performance, and permission; Ethervale uses thresholds for duty, records, border order, and judgment."
-      },
-      {
-        "cityCode": "AQM",
-        "difference": "AQM makes authority publicly civic and maritime; Ethervale makes authority veiled, archival, and duty-bound."
-      },
-      {
-        "cityCode": "KVM",
-        "difference": "Khaz Vorem makes craft and mountain engineering central; Ethervale makes forge labor one part of a larger moral-civic order."
-      }
-    ],
-    "similarTo": [
-      {
-        "cityCode": "LUM",
-        "similarity": "Both use pale stone, blue light, astronomy, and elevated scholarly/celestial architecture."
-      },
-      {
-        "cityCode": "ASL",
-        "similarity": "Both are threshold-oriented cliff/terrace cities with beacon-fronted approaches, but their emotional logics differ."
-      },
-      {
-        "cityCode": "AQM",
-        "similarity": "Both are institutionally legible and strongly civic, with formal stairs and public authority structures."
-      }
-    ],
-    "uniqueContributions": [
-      "strongest current fusion of celestial identity and industrial labor",
-      "best model so far for records-as-moral-duty",
-      "distinct blue-light variant: witness/duty rather than civic reassurance or scholarly refinement",
-      "useful contrast case for Luminthalas and Aes Sidhal"
-    ],
-    "potentialInfluences": [
-      "seraphic/angelic culture bible",
-      "future archive and record scenes",
-      "border-duty narrative language",
-      "comparative blue-light synthesis",
-      "Mother's observation that civilizations can sacralize necessary labor"
+  "landmarks": {
+    "wonder": {"name": "Seraphic Moon-Gate Choir Spire", "symbolicRole": "Celestial passage, communal song, civic witness, and seraphic aspiration made monumental.", "visualRole": "Monumental pale moon-gate spire with choir arches, blue light, gold accents, misted high visibility, and a ceremonial skyline role.", "civicRole": "Wonder-scale focus for vows, moon observations, choral rites, mourning, processions, and idealized duty.", "narrativeUse": ["ceremony", "civic vow", "celestial witness", "ideal versus labor contrast"], "assetUse": ["map wonder", "distant skyline anchor", "seraphic city identifier"], "sensoryIdentity": ["choir resonance", "cool mist", "blue light", "wind", "polished stone"], "storyHooks": ["A choir rite reveals which civic duty Ethervale refuses to neglect."]},
+    "beacon": {"name": "Border Wall Beacon", "symbolicRole": "Signal light at the boundary between safety and obligation.", "visualRole": "Blue-lit tower integrated with border walls, formal gates, banners, and watch bastions.", "civicRole": "Coordinates guard rotations, border checks, announcements, emergency musters, and Conjunction signal response.", "narrativeUse": ["arrival", "public alarm", "gate ceremony", "border duty"], "assetUse": ["S1 centerpiece", "signal marker"], "sensoryIdentity": ["blue glow", "border bells", "mist", "boots on stone"], "storyHooks": ["A Beacon change turns a routine border check into a citywide obligation."]},
+    "seatOfPower": {"name": "Mist Veils Veiled High Court", "symbolicRole": "Judgment, record, and moral authority partially concealed by ceremony.", "visualRole": "Elevated pale-stone court softened by mist, blue glass, gold trim, archive approaches, and ceremonial stairs.", "civicRole": "Government center for judgments, petitions, record review, border rulings, archive authority, and public obligations.", "narrativeUse": ["formal hearing", "record-bound authority", "public petition", "veiled judgment"], "assetUse": ["seat-of-power marker", "central court diorama"], "sensoryIdentity": ["mist", "ink", "wax seals", "stone echo", "blue glass"], "storyHooks": ["A High Court ruling depends on a record nobody wanted copied."]},
+    "majorLandmarks": [
+      {"name": "Great Forge", "symbolicRole": "Necessary labor consecrated as civic virtue.", "visualRole": "Forge halls, smoke stacks, orange fire, dark iron, and pale containment walls.", "civicRole": "Tool production, metalwork, labor organization, and material support.", "narrativeUse": ["labor scenes", "industrial crisis", "soot beneath holiness"], "assetUse": ["S2 diorama", "foundry asset cluster"], "sensoryIdentity": ["hot iron", "hammering", "coal smoke"], "storyHooks": ["A forge failure threatens both border readiness and court ceremony."]},
+      {"name": "Archive Tower", "symbolicRole": "Memory and obligation made vertical.", "visualRole": "Tall archive with gold seals, ledgers, copyist halls, stairs, and blue lamps.", "civicRole": "Stores public records, permits, legal copies, and civic memory.", "narrativeUse": ["record clues", "public memory", "bureaucratic stakes"], "assetUse": ["S3 diorama", "archive skyline feature"], "sensoryIdentity": ["parchment", "ink", "wax", "quiet stone"], "storyHooks": ["A copied seal proves a duty survived longer than the officials who buried it."]},
+      {"name": "Lecture Hall", "symbolicRole": "Knowledge treated as public responsibility.", "visualRole": "Formal hall and terraces with students, star charts, instruments, and pale stone seating.", "civicRole": "Public instruction, civic education, and scholarly training.", "narrativeUse": ["lesson scenes", "symbol interpretation", "public debate"], "assetUse": ["S4 diorama", "university asset cluster"], "sensoryIdentity": ["soft voices", "chalk dust", "paper", "wind"], "storyHooks": ["A public lecture explains a law that the High Court has misused."]},
+      {"name": "Star Observatory", "symbolicRole": "Witness through sky-reading.", "visualRole": "High blue-domed observatory, lenses, celestial court, moonlight, and open sightlines.", "civicRole": "Astronomy, navigation, calendar work, and night watch.", "narrativeUse": ["night revelation", "omen reading", "quiet planning"], "assetUse": ["S5 diorama", "observatory asset cluster"], "sensoryIdentity": ["cold air", "lens glass", "blue lamp hum", "silence"], "storyHooks": ["A star reading contradicts the public archive."]}
     ]
   },
-  "crossCityTags": [
-    "seraphic",
-    "mist-veiled",
-    "mountain-valley-city",
-    "border-wall",
-    "blue-beacon-light",
-    "forge-district",
-    "archive-district",
-    "record-bound-authority",
-    "moon-gate",
-    "choir-spire",
-    "duty-civilization",
-    "celestial-labor",
-    "established-civilization"
-  ],
-  "evolution": {
-    "previousAssumptions": [
-      "Ethervale was expected to have ethereal, celestial, and possibly angelic visual identity.",
-      "The full balance between heavenly imagery and practical civic function was not yet clear."
+  "assetGuidance": {
+    "districtDioramaGuidance": [
+      "S1 must show Fortress / Border Wall Civic Hall, Border Wall Beacon, Woven Banners Monument, Watch Bastion Nook, formal gates, blue lamps, and border guards.",
+      "S2 must show Heavy Industry / Foundry Civic Hall, Great Forge, Smoke-Stack Monument, Crucible Hall Nook, forge workers, cooling basins, and soot beneath holiness.",
+      "S3 must show Records / Archives Hall, Archive Tower, Records Archives Gold-Seal Monument, Copyist Hall Nook, ledgers, seals, and clerks.",
+      "S4 must show University / Lyceum Civic Hall, Lecture Hall, Star Navigation Monument, Observatory Court Nook, students, star charts, and public instruction.",
+      "S5 must show Observatory / Astronomy Civic Hall, Star Observatory, Star Navigation Monument, Celestial Court Nook, lenses, astronomers, and high sightlines."
     ],
-    "discoveries": [
-      "Ethervale is not purely ethereal; forge labor and archive bureaucracy are major identity pillars.",
-      "Mist functions as civic atmosphere and authority language, not just weather.",
-      "The city distinguishes itself from Luminthalas through duty, border, records, and labor rather than refinement alone.",
-      "The Great Forge gives the city a grounded material underside that makes the seraphic architecture more believable.",
-      "Blue light in Ethervale reads as witness, signal, and obligation."
-    ],
-    "confirmedAssumptions": [
-      "Ethervale should feel ancient, elevated, and celestial.",
-      "The city should support observatory and high-court imagery.",
-      "Beacon and border identity are important to the city's visual grammar."
-    ],
-    "changedOurMind": [
-      "Do not write Ethervale as weightless angelic beauty; keep the forge, archives, border checks, and labor visible.",
-      "Use mist and veils as governance texture, not merely mood.",
-      "Make records and duty central to the city's cultural read."
-    ],
-    "futureValidation": [
-      "Compare against other celestial or winged cultures to test whether duty/witness is Ethervale-specific.",
-      "Track whether forge-as-sacred-labor recurs elsewhere or remains unique to ETH.",
-      "Revisit any Ethervale prose for insufficient material grit beneath celestial imagery."
-    ]
+    "mapBackgroundGuidance": ["Show pale terraces, blue beacon light, misted high courts, forge smoke, archive towers, lecture halls, observatories, and the Seraphic Moon-Gate Choir Spire.", "Border Wall Beacon, Veiled High Court, Great Forge, Archive Tower, Lecture Hall, and Star Observatory must remain legible.", "Seraphic beauty must coexist with soot, records, permits, and procedure."],
+    "requiredVisualElements": ["seraphic citizens", "Border Wall Beacon", "Mist Veils Veiled High Court", "Seraphic Moon-Gate Choir Spire", "Fortress / Border Wall Civic Hall", "Woven Banners Monument", "Watch Bastion Nook", "Great Forge", "Smoke-Stack Monument", "Crucible Hall Nook", "Archive Tower", "Records Archives Gold-Seal Monument", "Copyist Hall Nook", "Lecture Hall", "Star Navigation Monument", "Observatory Court Nook", "Star Observatory", "Celestial Court Nook", "blue lamps", "mist", "pale terraces", "forge smoke"],
+    "elementsToAvoid": ["purely heavenly city", "generic angel palace", "Luminthalas duplicate", "border fortress with no archives or learning", "forge hidden from civic identity", "mist used only as decoration"]
   }
 }

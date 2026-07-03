@@ -1,0 +1,745 @@
+{
+  "metadata": {
+    "schemaVersion": "2.0",
+    "analysisVersion": 2,
+    "cityCode": "CAR",
+    "cityName": "Carrikesh",
+    "analysisDate": "2026-07-03",
+    "analystVersion": "gpt-5.5-thinking",
+    "analysisConfidence": "strong-lock",
+    "basedOnImages": [
+      "CAR-HERO-NE-v001",
+      "CAR-HERO-NW-v001",
+      "CAR-HERO-SE-v001",
+      "CAR-HERO-SW-v001",
+      "CAR-STREET-S1-v001",
+      "CAR-STREET-S2-v001",
+      "CAR-STREET-S3-v001",
+      "CAR-STREET-S4-v001",
+      "CAR-STREET-S5-v001"
+    ],
+    "basedOnSidecars": [
+      "CAR-HERO-NE-v001.json",
+      "CAR-HERO-NW-v001.json",
+      "CAR-HERO-SE-v001.json",
+      "CAR-HERO-SW-v001.json",
+      "CAR-STREET-S1-v001.json",
+      "CAR-STREET-S2-v001.json",
+      "CAR-STREET-S3-v001.json",
+      "CAR-STREET-S4-v001.json",
+      "CAR-STREET-S5-v001.json"
+    ]
+  },
+  "cityDNA": {
+    "coreFantasy": "A hyena-like caravan capital where laughter, trade, taxation, terraces, salvage, and tenement life become public survival law.",
+    "primaryEmotion": "sharp social energy",
+    "secondaryEmotion": "transactional pressure",
+    "readerTakeaway": "Carrikesh is not a gag city or scavenger camp; its humor is civic power and its trade, tax, terrace, scrap, and low-residential systems are serious survival infrastructure.",
+    "civilizationThesis": "Carrikesh turns movement, scarcity, public laughter, assay valuation, pack reputation, terrace food, scrap repair, taxation, and low residential pressure into a complete civic order.",
+    "visualIdentity": "Caravanserais, waystation halls, terrace granaries, seed halls, assay halls, taxation arcades, scrap markets, patched tenements, tenement courts, laundry wells, wolf-tooth borders, stained-glass civic towers, red awnings, and crowded sandy streets.",
+    "culturalIdentity": "A hyena-like beastfolk trade civilization where pack sociality, public bargaining, humor, route access, salvage repair, and valuation determine belonging and survival.",
+    "symbolicIdentity": "Laughing bones, wolf-tooth borders, caravan thresholds, woven banners, assay scales, gold seals, seed halls, scrap stalls, laundry wells, and tenement courts symbolize social valuation."
+  },
+  "canon": {
+    "canonLocks": [
+      "Carrikesh is an established hyena-like beastfolk trade capital, not a joke city or scavenger camp.",
+      "The Wonder is the Hyena Laughing-Bone Trade Amphitheater.",
+      "The Beacon is the Caravanserai Beacon.",
+      "The Seat of Power is the Wolf Tooth Borders Sovereign Registry Court.",
+      "The five primary districts are Transit / Caravan / Rail, Agricultural Terraces, Treasury / Taxation, Slums / Informal Settlement, and Low Residential.",
+      "The uploaded district anchors include Transit / Caravan / Rail Civic Hall, Woven Banners Monument, Waystation Hall Nook, Agricultural Terraces Civic Hall, Hanging Gardens Monument, Treasury Taxation Gold-Seal Monument, Taxation Arcade Nook, Slums Informal Settlement Lantern Monument, Patched Tenement Nook, Low Residential Lantern Monument, and Laundry Well Nook."
+    ],
+    "provisionalCanon": [
+      "Carrikesh's highest civic virtue is cunning reciprocity.",
+      "Public laughter functions as accountability, status testing, social pressure, and potential cruelty.",
+      "The slums and low residential districts are not marginal; they are where the city's social truth becomes hardest to avoid."
+    ],
+    "rejectedReads": [
+      "Carrikesh is primitive or scavenger-only.",
+      "Carrikesh is comic relief because of hyena identity.",
+      "The slums and tenements are marginal rather than central to the city’s civic truth.",
+      "Taxation and assay systems are generic bureaucracy rather than survival infrastructure."
+    ],
+    "cautionFlags": [
+      "Do not reduce hyena identity to jokes.",
+      "Keep taxation, assay, terraces, caravan access, scrap repair, and low-city survival visible.",
+      "Let laughter be socially intelligent, not random noise.",
+      "Preserve precise sidecar anchor names for monuments and nooks instead of smoothing them into generic labels."
+    ]
+  },
+  "environment": {
+    "terrain": [
+      "dry caravan routes",
+      "market corridors",
+      "agricultural terraces",
+      "tax arcades",
+      "dense tenement courts",
+      "scrap alleys",
+      "low residential stairs"
+    ],
+    "water": [
+      "market wells",
+      "laundry wells",
+      "terrace irrigation",
+      "public basins",
+      "tenement water points"
+    ],
+    "vegetation": [
+      "terraced fields",
+      "seed gardens",
+      "hanging gardens",
+      "market shade trees",
+      "dryland crops"
+    ],
+    "climateLighting": [
+      "hot dry daylight",
+      "market awning shade",
+      "red awning glow",
+      "lantern-lit tenements",
+      "dusty caravan light",
+      "tax hall lamp glare",
+      "scrap-market sparks"
+    ],
+    "environmentalLogic": "Carrikesh organizes dry routes, terraces, markets, tax halls, scrap alleys, and low-city density into trade arteries. Survival depends on who can move goods, prove value, repair waste, and remain visible enough to be counted."
+  },
+  "architecture": {
+    "materials": [
+      "white civic stone",
+      "dry stone paving",
+      "brick",
+      "stained glass",
+      "timber",
+      "red awnings",
+      "woven banners",
+      "bronze fittings",
+      "grain clay",
+      "patched cloth",
+      "scrap metal",
+      "tax paper and wax seals"
+    ],
+    "forms": [
+      "caravanserais",
+      "transit civic halls",
+      "waystation halls",
+      "terrace granaries",
+      "seed halls",
+      "hanging gardens",
+      "assay halls",
+      "taxation arcades",
+      "scrap markets",
+      "patched tenements",
+      "tenement courts",
+      "laundry wells",
+      "trade amphitheaters",
+      "wolf-tooth registry courts",
+      "lantern monuments",
+      "gold-seal counters"
+    ],
+    "skyline": [
+      "Hyena Laughing-Bone Trade Amphitheater as wonder-scale civic theater",
+      "Wolf Tooth Borders Sovereign Registry Court as authority anchor",
+      "Caravanserai Beacon as signal heart",
+      "stained-glass civic towers, granaries, tax halls, tenements, scrap markets, and red awning roofs"
+    ],
+    "lighting": [
+      "harsh caravan daylight",
+      "awning shade",
+      "warm market lanterns",
+      "red fabric glow",
+      "low residential lamp light",
+      "assay counter glints",
+      "scrap fire sparks"
+    ],
+    "infrastructure": [
+      "caravan routes",
+      "waystations",
+      "grain terraces",
+      "seed halls",
+      "assay counters",
+      "tax arcades",
+      "scrap lanes",
+      "tenement stairs",
+      "laundry wells",
+      "market roads",
+      "public trade courts",
+      "route registration counters"
+    ],
+    "motifs": [
+      "hyena laughter",
+      "laughing bones",
+      "wolf teeth",
+      "caravan banners",
+      "woven banners",
+      "assay scales",
+      "gold seals",
+      "grain terraces",
+      "hanging gardens",
+      "scrap repair",
+      "laundry wells",
+      "red awnings",
+      "lantern monuments"
+    ],
+    "colorLanguage": [
+      "dry sand",
+      "white civic stone",
+      "red awnings",
+      "gold seal accents",
+      "dark scrap metal",
+      "warm lantern amber",
+      "stained-glass civic color"
+    ],
+    "textureLanguage": [
+      "dry dust",
+      "woven cloth",
+      "scrap metal",
+      "grain sacks",
+      "patched tenements",
+      "worn stone",
+      "tax documents",
+      "market wood"
+    ]
+  },
+  "civilization": {
+    "people": "Citizens are hyena-like beastfolk: sharp-eyed, socially agile, opportunistic, pack-conscious, funny, hard to shame, and deeply practical around trade, food, salvage, taxation, and reputation.",
+    "occupations": [
+      "caravan brokers",
+      "waystation keepers",
+      "grain terrace workers",
+      "seed merchants",
+      "assay clerks",
+      "tax copyists",
+      "scrap dealers",
+      "tenement landlords",
+      "laundry workers",
+      "route-map sellers",
+      "market cooks",
+      "registry officials",
+      "reputation brokers",
+      "scrap repairers"
+    ],
+    "socialClasses": [
+      "registry judges",
+      "caravan houses",
+      "assay and tax officials",
+      "terrace granary families",
+      "market brokers",
+      "scrap-market operators",
+      "tenement families",
+      "informal runners"
+    ],
+    "governance": "Authority is trade-border, taxation, and registry based. Movement rights, tax status, assay legitimacy, residency, and pack belonging are decided through visible courts, caravan systems, and public reputation pressure.",
+    "religion": "Religion is not temple-dominant; social ritual, public laughter, trade oaths, pack obligation, and the amphitheater carry much of the civic-sacred weight.",
+    "customs": [
+      "public laughter tests rank and truth",
+      "every deal wants witnesses",
+      "assay marks matter socially and legally",
+      "food security is public leverage",
+      "scrap repair is respected as survival intelligence",
+      "tax queues become reputation theaters"
+    ],
+    "bodyLanguage": [
+      "quick social scanning",
+      "teeth-baring humor",
+      "pack clustering",
+      "public bargaining posture",
+      "alertness around tax and assay counters",
+      "low-city residents watching from balconies and wells"
+    ],
+    "speechPatterns": [
+      "fast bargaining",
+      "layered jokes",
+      "public challenges",
+      "route slang",
+      "tax and tally language",
+      "socially pointed laughter"
+    ]
+  },
+  "urbanLife": {
+    "streets": {
+      "appearance": "Crowded, sandy, transactional, and loud with layered laughter: caravan roads, waystation halls, market arcades, assay counters, grain terraces, scrap stalls, patched tenements, laundry wells, and tenement courts pressed against civic towers.",
+      "movement": "Movement follows caravan gates, waystation halls, terrace paths, tax arcades, scrap alleys, tenement stairs, laundry wells, and amphitheater approaches.",
+      "sounds": [
+        "pack laughter",
+        "market bargaining",
+        "grain scales",
+        "tax clerks",
+        "cart wheels",
+        "scrap hammering",
+        "laundry water",
+        "caravan bells",
+        "public jokes"
+      ],
+      "smells": [
+        "dust",
+        "grain",
+        "market stew",
+        "animal tack",
+        "lamp oil",
+        "scrap metal",
+        "patched cloth",
+        "sweat",
+        "dry stone"
+      ],
+      "lighting": "Harsh daylight and market shade dominate by day; low residential lanterns, tax-hall lamps, and red awnings warm the evening.",
+      "weatherEffects": "Dust, heat, and dry wind make shade, water, terrace crops, and caravan timing important.",
+      "dayCycle": "Morning caravans and terrace work; midday assay and tax traffic; afternoon scrap market activity; evening tenement gossip and amphitheater crowds.",
+      "nightCycle": "Lantern-lit tenements, coded market corners, closed tax halls, scrap glints, and low laughter moving through alleys."
+    },
+    "shops": {
+      "common": [
+        "caravan brokers",
+        "assay counters",
+        "seed merchants",
+        "scrap dealers",
+        "laundry-well food carts",
+        "route-map sellers",
+        "tax copyists",
+        "patched-cloth stalls",
+        "grain scale offices",
+        "waystation inns"
+      ],
+      "uncommon": [
+        "wolf-tooth legal counters",
+        "laughing-bone performers",
+        "pack reputation brokers",
+        "scrap artificers",
+        "terrace seed auditors"
+      ],
+      "prestigious": [
+        "registry court advocates",
+        "major caravan houses",
+        "assay guild halls",
+        "granary contract offices",
+        "amphitheater patron boxes"
+      ],
+      "exports": [
+        "route maps",
+        "grain",
+        "assay services",
+        "scrap repair",
+        "tax ledgers",
+        "caravan brokerage"
+      ],
+      "imports": [
+        "metal scrap",
+        "spices",
+        "cloth",
+        "pack animals",
+        "luxury dyes",
+        "grain variants"
+      ],
+      "streetFood": [
+        "grain cakes",
+        "market stew",
+        "spiced flatbread",
+        "roasted roots",
+        "caravan jerky",
+        "seed porridge",
+        "tenement dumplings"
+      ],
+      "services": [
+        "route registration",
+        "tax copying",
+        "assay valuation",
+        "witnessing deals",
+        "scrap repair",
+        "laundry",
+        "reputation mediation"
+      ]
+    },
+    "housing": {
+      "wealthy": "Registry-adjacent terraces, caravan house compounds, stained-glass towers, private courtyards, and protected views over tax and market districts.",
+      "middle": "Market apartments, terrace-family homes, waystation rooms, grain court housing, and shared awning courtyards.",
+      "poor": "Patched tenements, laundry-well courts, scrap-market rooms, narrow stairs, shared water, and dense low residential life that remains socially active."
+    }
+  },
+  "districts": [
+    {
+      "sectionNumber": 1,
+      "name": "Transit / Caravan / Rail",
+      "civicPurpose": "Route law, arrival, caravan exchange, waystation services, and public movement rights.",
+      "visualIdentity": "Transit / Caravan / Rail Civic Hall, Caravanserai Beacon, Woven Banners Monument, Waystation Hall Nook, caravan roads, route signs, pack crowds, and public signal architecture.",
+      "emotionalIdentity": "Arriving, noisy, mobile, and socially charged.",
+      "gameplayAssetNeeds": [
+        "Transit / Caravan / Rail Civic Hall",
+        "Caravanserai Beacon",
+        "Woven Banners Monument",
+        "Waystation Hall Nook",
+        "caravan gates",
+        "route signs",
+        "pack crowds"
+      ],
+      "narrativeUse": [
+        "arrival",
+        "route disputes",
+        "public warnings",
+        "caravan politics",
+        "mobility as legal privilege"
+      ],
+      "landmark": "Caravanserai Beacon",
+      "minorLandmarks": [
+        "Woven Banners Monument",
+        "Waystation Hall Nook"
+      ]
+    },
+    {
+      "sectionNumber": 2,
+      "name": "Agricultural Terraces",
+      "civicPurpose": "Food security, seed continuity, terrace labor, seasonal leverage, and proof that the trade city can feed itself.",
+      "visualIdentity": "Agricultural Terraces Civic Hall, Terrace Granary, Hanging Gardens Monument, Seed Hall Nook, dryland fields, grain storage, and workers.",
+      "emotionalIdentity": "Practical, sustaining, and politically valuable.",
+      "gameplayAssetNeeds": [
+        "Agricultural Terraces Civic Hall",
+        "Terrace Granary",
+        "Hanging Gardens Monument",
+        "Seed Hall Nook",
+        "terraced crops",
+        "grain jars",
+        "field workers"
+      ],
+      "narrativeUse": [
+        "food leverage",
+        "seed disputes",
+        "scarcity",
+        "terrace labor",
+        "grain politics beneath trade jokes"
+      ],
+      "landmark": "Terrace Granary",
+      "minorLandmarks": [
+        "Hanging Gardens Monument",
+        "Seed Hall Nook"
+      ]
+    },
+    {
+      "sectionNumber": 3,
+      "name": "Treasury / Taxation",
+      "civicPurpose": "Valuation, tax assessment, currency trust, civic extraction, and the official measurement of worth.",
+      "visualIdentity": "Treasury / Taxation Hall, Assay Hall, Treasury Taxation Gold-Seal Monument, Taxation Arcade Nook, scales, ledgers, counters, and tax queues.",
+      "emotionalIdentity": "Sharp, official, transactional, and tense.",
+      "gameplayAssetNeeds": [
+        "Treasury / Taxation Hall",
+        "Assay Hall",
+        "Treasury Taxation Gold-Seal Monument",
+        "Taxation Arcade Nook",
+        "scales",
+        "ledger desks",
+        "clerks"
+      ],
+      "narrativeUse": [
+        "tax conflict",
+        "valuation clues",
+        "fraud",
+        "trade legitimacy",
+        "public extraction as civic theater"
+      ],
+      "landmark": "Assay Hall",
+      "minorLandmarks": [
+        "Treasury Taxation Gold-Seal Monument",
+        "Taxation Arcade Nook"
+      ]
+    },
+    {
+      "sectionNumber": 4,
+      "name": "Slums / Informal Settlement",
+      "civicPurpose": "Survival trade, salvage, repair culture, informal economy, and social truth beneath official valuation.",
+      "visualIdentity": "Slums / Informal Settlement Civic Hall, Scrap Market, Slums Informal Settlement Lantern Monument, Patched Tenement Nook, repair stalls, narrow lanes, and salvage piles.",
+      "emotionalIdentity": "Resourceful, harsh, funny, and socially exposed.",
+      "gameplayAssetNeeds": [
+        "Slums / Informal Settlement Civic Hall",
+        "Scrap Market",
+        "Slums Informal Settlement Lantern Monument",
+        "Patched Tenement Nook",
+        "salvage stalls",
+        "repair workers",
+        "narrow alleys"
+      ],
+      "narrativeUse": [
+        "survival trade",
+        "informal clues",
+        "low-city pressure",
+        "social cruelty",
+        "resourcefulness the formal city exploits"
+      ],
+      "landmark": "Scrap Market",
+      "minorLandmarks": [
+        "Slums Informal Settlement Lantern Monument",
+        "Patched Tenement Nook"
+      ]
+    },
+    {
+      "sectionNumber": 5,
+      "name": "Low Residential",
+      "civicPurpose": "Ordinary domestic life, neighborhood politics, gossip, lower-city continuity, shared water, and social pressure at close range.",
+      "visualIdentity": "Low Residential Civic Hall, Tenement Court, Low Residential Lantern Monument, Laundry Well Nook, tight housing, food carts, families, shared balconies, and close public sound.",
+      "emotionalIdentity": "Crowded, domestic, watchful, and alive.",
+      "gameplayAssetNeeds": [
+        "Low Residential Civic Hall",
+        "Tenement Court",
+        "Low Residential Lantern Monument",
+        "Laundry Well Nook",
+        "food carts",
+        "families",
+        "shared balconies"
+      ],
+      "narrativeUse": [
+        "gossip",
+        "domestic stakes",
+        "public laughter at close range",
+        "neighborhood pressure",
+        "low-city consequences of official trade decisions"
+      ],
+      "landmark": "Tenement Court",
+      "minorLandmarks": [
+        "Low Residential Lantern Monument",
+        "Laundry Well Nook"
+      ]
+    }
+  ],
+  "landmarks": {
+    "wonder": {
+      "name": "Hyena Laughing-Bone Trade Amphitheater",
+      "symbolicRole": "Trade, testimony, public shame, and communal laughter made civic theater.",
+      "visualRole": "Large amphitheater of teeth, bone motifs, market tiers, public seating, and trade-performance space.",
+      "civicRole": "Reputation court, trade performance venue, public judgment site, and social pressure engine.",
+      "narrativeUse": [
+        "public testimony",
+        "trade judgment",
+        "reputation contests",
+        "communal laughter",
+        "public shame becoming official leverage"
+      ],
+      "assetUse": [
+        "map background wonder",
+        "public amphitheater diorama",
+        "city identity anchor"
+      ],
+      "sensoryIdentity": [
+        "laughter",
+        "crowd heat",
+        "dust",
+        "bone ornament",
+        "market calls"
+      ],
+      "storyHooks": [
+        "a public joke becomes legal damage",
+        "a trade dispute is settled through performance",
+        "the crowd laughs for the wrong reason and changes the ruling"
+      ]
+    },
+    "beacon": {
+      "name": "Caravanserai Beacon",
+      "symbolicRole": "Route warning and caravan coordination made public signal.",
+      "visualRole": "Beacon rising over caravanserai gates, transit civic halls, woven banners, waystation halls, and arrival roads.",
+      "civicRole": "Coordinates caravans, granaries, tax halls, scrap markets, and residential notices during crisis.",
+      "narrativeUse": [
+        "Beacon color changes",
+        "caravan response",
+        "route closures",
+        "public rumor",
+        "arrival rights suddenly changing"
+      ],
+      "assetUse": [
+        "S1 centerpiece",
+        "map signal marker",
+        "route-warning asset"
+      ],
+      "sensoryIdentity": [
+        "dust",
+        "bells",
+        "blue light",
+        "pack voices",
+        "wagon wheels"
+      ],
+      "storyHooks": [
+        "a route warning changes who can enter the city",
+        "the Beacon creates a tax opportunity before anyone admits the danger"
+      ]
+    },
+    "seatOfPower": {
+      "name": "Wolf Tooth Borders Sovereign Registry Court",
+      "symbolicRole": "Belonging, border, route rights, and pack legitimacy under official record.",
+      "visualRole": "Registry court with wolf-tooth borders, civic towers, records, tax links, and public approaches.",
+      "civicRole": "Government for routes, taxation, residency, trade legitimacy, and social belonging.",
+      "narrativeUse": [
+        "route disputes",
+        "tax rulings",
+        "residency conflict",
+        "pack legitimacy",
+        "official valuation of social belonging"
+      ],
+      "assetUse": [
+        "seat-of-power marker",
+        "central map anchor",
+        "registry/tax authority symbol"
+      ],
+      "sensoryIdentity": [
+        "paper ledgers",
+        "wax seals",
+        "dry stone",
+        "crowd mutter",
+        "sharp laughter under restraint"
+      ],
+      "storyHooks": [
+        "a registry ruling changes who counts as pack",
+        "tax status determines whether someone can leave"
+      ]
+    },
+    "majorLandmarks": [
+      {
+        "name": "Terrace Granary",
+        "symbolicRole": "Food security beneath trade bravado.",
+        "visualRole": "Granary on agricultural terraces with hanging gardens, seed hall, dryland fields, and grain jars.",
+        "civicRole": "Anchors food production, grain storage, seed continuity, and seasonal bargaining power.",
+        "narrativeUse": [
+          "food leverage",
+          "seed disputes",
+          "scarcity scenes",
+          "terrace labor"
+        ],
+        "assetUse": [
+          "S2 diorama landmark",
+          "agricultural terrace asset cluster",
+          "food-security marker"
+        ],
+        "sensoryIdentity": [
+          "grain dust",
+          "dry soil",
+          "wind in banners",
+          "market bread",
+          "stored seed"
+        ],
+        "storyHooks": [
+          "a seed hall dispute reveals why a trade deal matters",
+          "food leverage turns a joke into a threat"
+        ]
+      },
+      {
+        "name": "Assay Hall",
+        "symbolicRole": "Worth measured in public and made painful.",
+        "visualRole": "Tax and assay hall with scales, counters, Treasury Taxation Gold-Seal Monument, ledgers, and taxation arcade.",
+        "civicRole": "Assesses value, taxes goods, verifies currency trust, and gives bureaucracy teeth.",
+        "narrativeUse": [
+          "tax conflict",
+          "valuation clues",
+          "fraud",
+          "trade legitimacy"
+        ],
+        "assetUse": [
+          "S3 diorama landmark",
+          "taxation asset cluster",
+          "gold-seal visual marker"
+        ],
+        "sensoryIdentity": [
+          "metal scales",
+          "paper ledgers",
+          "wax seals",
+          "crowd heat",
+          "dry ink"
+        ],
+        "storyHooks": [
+          "an assay result is technically true and socially explosive",
+          "a tax arcade queue becomes public humiliation"
+        ]
+      },
+      {
+        "name": "Scrap Market",
+        "symbolicRole": "Waste transformed into survival intelligence.",
+        "visualRole": "Patchwork salvage market with lantern monument, patched tenements, repair stalls, scrap heaps, and narrow alleys.",
+        "civicRole": "Supports informal repair, survival trade, low-city economy, and practical evidence trails beneath official systems.",
+        "narrativeUse": [
+          "survival trade",
+          "informal clues",
+          "low-city pressure",
+          "repair culture"
+        ],
+        "assetUse": [
+          "S4 diorama landmark",
+          "slum/scrap asset cluster",
+          "informal economy marker"
+        ],
+        "sensoryIdentity": [
+          "scrap metal",
+          "lamp smoke",
+          "patched cloth",
+          "hammering",
+          "dust"
+        ],
+        "storyHooks": [
+          "a repaired object proves where it came from",
+          "a slum joke carries better evidence than the tax hall"
+        ]
+      },
+      {
+        "name": "Tenement Court",
+        "symbolicRole": "Dense belonging under constant public pressure.",
+        "visualRole": "Low residential court with lantern monument, laundry well, balconies, tight housing, food carts, and watching families.",
+        "civicRole": "Anchors ordinary domestic life, gossip, shared services, and neighborhood continuity.",
+        "narrativeUse": [
+          "gossip",
+          "domestic stakes",
+          "neighborhood pressure",
+          "public laughter at close range"
+        ],
+        "assetUse": [
+          "S5 diorama landmark",
+          "low residential asset cluster",
+          "domestic pressure marker"
+        ],
+        "sensoryIdentity": [
+          "laundry water",
+          "cooking smoke",
+          "lantern oil",
+          "close voices",
+          "tenement dust"
+        ],
+        "storyHooks": [
+          "a rumor from the laundry well reaches the registry first",
+          "a family conflict shows the cost of official valuation"
+        ]
+      }
+    ]
+  },
+  "assetGuidance": {
+    "districtDioramaGuidance": [
+      "S1 must show Transit / Caravan / Rail Civic Hall, Caravanserai Beacon, Woven Banners Monument, Waystation Hall Nook, caravan gates, route signs, and pack crowds.",
+      "S2 must show Agricultural Terraces Civic Hall, Terrace Granary, Hanging Gardens Monument, Seed Hall Nook, terraced crops, grain jars, and field workers.",
+      "S3 must show Treasury / Taxation Hall, Assay Hall, Treasury Taxation Gold-Seal Monument, Taxation Arcade Nook, scales, ledger desks, and clerks.",
+      "S4 must show Slums / Informal Settlement Civic Hall, Scrap Market, Slums Informal Settlement Lantern Monument, Patched Tenement Nook, salvage stalls, repair workers, and narrow alleys.",
+      "S5 must show Low Residential Civic Hall, Tenement Court, Low Residential Lantern Monument, Laundry Well Nook, food carts, families, shared balconies, and dense domestic life."
+    ],
+    "mapBackgroundGuidance": [
+      "Use a dry caravan-trade city with caravanserais, red awnings, trade amphitheater, tax halls, terrace granaries, scrap markets, tenement courts, laundry wells, and stained-glass civic towers.",
+      "The Hyena Laughing-Bone Trade Amphitheater should be the wonder-scale identity anchor; the Wolf Tooth Borders Sovereign Registry Court should be central authority; the Caravanserai Beacon should organize arrival and route law.",
+      "Keep humor, trade, taxation, scarcity, salvage, and low residential pressure visible together."
+    ],
+    "requiredVisualElements": [
+      "hyena-like beastfolk citizens",
+      "Hyena Laughing-Bone Trade Amphitheater",
+      "Wolf Tooth Borders Sovereign Registry Court",
+      "Caravanserai Beacon",
+      "Transit / Caravan / Rail Civic Hall",
+      "Woven Banners Monument",
+      "Waystation Hall Nook",
+      "Terrace Granary",
+      "Hanging Gardens Monument",
+      "Seed Hall Nook",
+      "Assay Hall",
+      "Treasury Taxation Gold-Seal Monument",
+      "Taxation Arcade Nook",
+      "Scrap Market",
+      "Slums Informal Settlement Lantern Monument",
+      "Patched Tenement Nook",
+      "Tenement Court",
+      "Low Residential Lantern Monument",
+      "Laundry Well Nook"
+    ],
+    "elementsToAvoid": [
+      "comic-relief hyena caricature",
+      "generic scavenger camp",
+      "empty desert market with no tax or registry logic",
+      "slums treated as disposable background",
+      "food systems omitted from civic identity",
+      "clean merchant city without low residential pressure"
+    ]
+  }
+}

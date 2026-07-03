@@ -1,718 +1,135 @@
 {
-  "schemaVersion": 1,
-  "analysisVersion": 1,
-  "cityCode": "PSG",
-  "cityName": "Port Sargasso",
-  "analysisConfidence": "strong-lock",
-  "analysisDate": "2026-06-30",
-  "analystVersion": "gpt-5.5-thinking",
-  "basedOnImages": [
-    "PSG-HERO-NE-v001",
-    "PSG-HERO-NW-v001",
-    "PSG-HERO-SE-v001",
-    "PSG-HERO-SW-v001",
-    "PSG-STREET-S1-v001",
-    "PSG-STREET-S2-v001",
-    "PSG-STREET-S3-v001",
-    "PSG-STREET-S4-v001",
-    "PSG-STREET-S5-v001"
-  ],
-  "summary": {
-    "oneSentence": "Port Sargasso is a West-African-inflected ocean port civilization where gold-sailed harbor power, cargo logistics, ancestor-mask authority, roadside shrine culture, public works, learning, and informal waterfront survival all meet at the tide line.",
-    "identityStatement": "Port Sargasso should read as a settled maritime city whose real streets are docks, seawalls, cargo stairs, shrine approaches, permit yards, lecture courts, and patched harbor neighborhoods. It is not simply a pirate port or generic trade hub; it is a tide-governed civic culture where commerce, ancestry, navigation, bureaucracy, scholarship, and poverty are visibly intertwined."
+  "metadata": {
+    "schemaVersion": "2.0",
+    "analysisVersion": 2,
+    "cityCode": "PSG",
+    "cityName": "Port Sargasso",
+    "analysisDate": "2026-07-03",
+    "analystVersion": "gpt-5.5-thinking",
+    "analysisConfidence": "strong-lock",
+    "basedOnImages": ["PSG-HERO-NE-v001", "PSG-HERO-NW-v001", "PSG-HERO-SE-v001", "PSG-HERO-SW-v001", "PSG-STREET-S1-v001", "PSG-STREET-S2-v001", "PSG-STREET-S3-v001", "PSG-STREET-S4-v001", "PSG-STREET-S5-v001"],
+    "basedOnSidecars": ["PSG-HERO-NE-v001.json", "PSG-HERO-NW-v001.json", "PSG-HERO-SE-v001.json", "PSG-HERO-SW-v001.json", "PSG-STREET-S1-v001.json", "PSG-STREET-S2-v001.json", "PSG-STREET-S3-v001.json", "PSG-STREET-S4-v001.json", "PSG-STREET-S5-v001.json"]
   },
-  "evidence": {
-    "civilizationMaturity": {
-      "ageExpression": "established-to-ancient",
-      "evidence": [
-        "hero views show a large island/harbor city with multiple basins, lighthouses, civic towers, cranes, sails, and monumental skyline anchors",
-        "street views show complete daily life across warehousing, shrines, public works, university streets, and informal settlements",
-        "the city has both ceremonial seat-of-power architecture and working waterfront infrastructure",
-        "district anchors are mature civic systems rather than temporary dock sprawl"
-      ]
-    },
-    "architecturalLanguage": {
-      "materials": [
-        "white limestone",
-        "sun-warmed stone",
-        "timber docks",
-        "rope",
-        "bronze fittings",
-        "blue glass",
-        "gold sail cloth",
-        "red awnings",
-        "weathered plaster",
-        "tarred wood",
-        "lantern metalwork"
-      ],
-      "forms": [
-        "harbor basins",
-        "cargo yards",
-        "lighthouses",
-        "tide towers",
-        "ancestor-mask citadel",
-        "gold-sailed harbor wonder",
-        "arcaded quays",
-        "dock stairs",
-        "roadside shrines",
-        "survey halls",
-        "lecture halls",
-        "scrap markets",
-        "patched tenements"
-      ],
-      "skyline": [
-        "Ancestor Masks Tide-Seal Citadel as central seat of power",
-        "Cargo Yard Beacon as front/near signal tower",
-        "West-African Tide-Drum Harbor of Gold Sails as far wonder-scale maritime anchor",
-        "lighthouses, sail masts, cranes, domes, and tide towers distributed across the harbor"
-      ],
-      "lighting": [
-        "warm coastal sunlight",
-        "gold sail reflections",
-        "blue beacon light",
-        "blue harbor lamps",
-        "lantern light in shrine and slum districts",
-        "sunset glare over water"
-      ],
-      "infrastructure": [
-        "working docks",
-        "quays",
-        "cargo cranes",
-        "inventory halls",
-        "permit yards",
-        "survey halls",
-        "seawalls",
-        "roadside shrine routes",
-        "lecture courtyards",
-        "scrap markets",
-        "harbor bridges",
-        "small boats and gold-sailed vessels"
-      ],
-      "visualPatterns": [
-        "the harbor is not edge scenery; it occupies the city's center of gravity",
-        "gold sails and blue signal lights create the dominant color memory",
-        "formal civic structures sit directly beside labor, cargo, and informal waterfront neighborhoods",
-        "ancestor masks and tide seals give authority a spiritual and historical texture",
-        "trade and survival are both visible, with wealth and poverty sharing the same waterfront"
-      ],
-      "recurringMotifs": [
-        "gold sails",
-        "ancestor masks",
-        "tide seals",
-        "blue lamps",
-        "cargo cranes",
-        "ropes",
-        "red awnings",
-        "roadside shrines",
-        "star navigation",
-        "scrap markets",
-        "lantern monuments",
-        "inventory counters"
-      ]
-    },
-    "environmentalRelationship": {
-      "observed": "Port Sargasso makes the ocean its operating system. The sea is highway, market floor, border, ritual surface, risk, and wealth engine.",
-      "evidence": [
-        "every hero view foregrounds harbor basins, ships, sea lanes, or island approaches",
-        "street views keep water, docks, cranes, or harbor towers visible even in inland civic districts",
-        "warehousing/logistics is Section 1 and anchors the Beacon",
-        "public works and survey districts imply tide management as civic responsibility"
-      ]
-    },
-    "authorityExpression": {
-      "observed": "Authority is ancestral, maritime, and administrative. The Citadel presents command and archive power through ancestor masks and tide-seal imagery, while cargo yards and permit systems reveal how practical control actually works.",
-      "evidence": [
-        "seat of power is Ancestor Masks Tide-Seal Citadel",
-        "the city wonder is West-African Tide-Drum Harbor of Gold Sails",
-        "Cargo Yard Beacon anchors Section 1",
-        "Public Works Authority and Survey Hall create formal tide/harbor bureaucracy",
-        "slums and scrap markets show the limits of official control"
-      ]
-    },
-    "commercialSpaces": [
-      "cargo yards",
-      "inventory halls",
-      "dock markets",
-      "rope and sail shops",
-      "fish stalls",
-      "gold-sail vendors",
-      "scrap markets",
-      "permit counters",
-      "ship chandlers",
-      "roadside shrine stalls",
-      "lecture street kiosks"
-    ],
-    "publicSpaces": [
-      "cargo plazas",
-      "beacon approaches",
-      "roadside shrines",
-      "votive groves",
-      "permit yards",
-      "survey halls",
-      "lecture courtyards",
-      "observatory courts",
-      "scrap market lanes",
-      "waterfront stairways"
-    ],
-    "districtCharacter": {
-      "section1WarehousingLogistics": "cargo-first harbor administration: inventory halls, cranes, loading squares, gold-seal monuments, and the Cargo Yard Beacon",
-      "section2ShrineSacredPlace": "roadside shrine culture along cliffside/harbor routes, with votive groves, lantern monuments, travel prayers, and ancestor/ocean reverence",
-      "section3PublicWorksAuthority": "survey, permits, blue-lamp monuments, harbor maintenance, tide bureaucracy, seawall management, and civic engineering",
-      "section4UniversityLyceum": "navigation, lecture halls, star monuments, learned maritime culture, charts, instruments, and civic education",
-      "section5SlumsInformalSettlement": "patched waterfront tenements, scrap markets, informal trade, repair culture, precarious dock life, and survival beside wealth"
-    }
+  "cityDNA": {
+    "coreFantasy": "A West-African maritime trade city where gold-sailed harbors, cargo yards, ancestor-masked citadels, roadside shrines, survey halls, lecture courts, and scrap districts make port life ceremonial and practical.",
+    "primaryEmotion": "salt-gold bustle",
+    "secondaryEmotion": "ancestral obligation",
+    "readerTakeaway": "Port Sargasso is not a generic pirate port; the uploaded images show a broad sunlit harbor city with formal logistics, sacred roadside anchors, public works, scholarship, and visible lower-district repair.",
+    "civilizationThesis": "Port Sargasso turns harbor commerce, ancestor authority, shrine obligation, public works, learning, and lower-district salvage into one West-African maritime civic order.",
+    "visualIdentity": "Gold sails, white and ochre stone, red awnings, blue cargo beacons, tide-drum harbor forms, ancestor masks, shrine lanterns, survey courts, lecture halls, cargo cranes, and scrap waterfronts.",
+    "culturalIdentity": "A West-African-coded harbor civilization of merchants, dockworkers, shrine keepers, surveyors, scholars, sailors, and scrap-market families.",
+    "symbolicIdentity": "Gold sails, tide drums, ancestor masks, cargo seals, roadside shrines, votive groves, blue lamps, star navigation, and patched tenements symbolize trade under remembered duty."
   },
-  "narrativeTranslation": {
-    "streets": {
-      "description": "Port Sargasso streets should feel like they are always negotiating with the harbor. Even stone avenues lead toward quays, cargo stairs, shrine roads, permit yards, or sea-facing terraces. The city smells of salt, rope, tar, spice, fish, lamp oil, and sun-warmed stone.",
-      "writingGuidance": [
-        "Let water remain visible or audible in most scenes.",
-        "Use docks, cranes, cargo ropes, sail shadows, stairs, and blue harbor lamps as default street texture.",
-        "Keep the city energetic without making it lawless; bureaucracy and ancestor-symbol authority are everywhere.",
-        "Show wealth and poverty sharing the same waterfront rather than separating them cleanly."
-      ]
-    },
-    "people": {
-      "description": "Citizens should be maritime, practical, socially mixed, and accustomed to tide schedules. Dockworkers, clerks, shrine keepers, sailors, surveyors, students, scrap dealers, merchants, and officials all share public space.",
-      "behavioralNotes": [
-        "people orient by harbor landmarks, beacons, sails, and tide conditions",
-        "cargo workers and clerks operate side by side",
-        "shrines mark movement, departures, returns, and danger",
-        "informal traders survive in the gaps between official cargo systems"
-      ]
-    },
-    "shops": {
-      "examples": [
-        "ship chandlers",
-        "sailcloth stalls",
-        "rope makers",
-        "fish markets",
-        "inventory brokers",
-        "permit copyists",
-        "blue-lamp sellers",
-        "roadside shrine vendors",
-        "star-chart shops",
-        "scrap dealers",
-        "waterfront food stalls",
-        "ancestor-mask carvers"
-      ],
-      "writingGuidance": "Shops should support a port that is ceremonial, bureaucratic, and practical: cargo, navigation, shrines, paperwork, repairs, food, and survival trade."
-    },
-    "homes": {
-      "description": "Homes range from stone harbor terraces and merchant houses to patched waterfront tenements. Even poor housing should show adaptation: rope rails, drying lines, patched awnings, reused ship timber, blue lanterns, and quick access to docks.",
-      "writingGuidance": [
-        "Use red awnings, balconies, drying nets, salt-stained plaster, and reused timbers.",
-        "Let class difference show through maintenance and location, not by making the poor districts empty or lifeless."
-      ]
-    },
-    "publicLife": {
-      "dailyRhythms": [
-        "morning cargo unloading with tide windows",
-        "shrine offerings before ships depart",
-        "permit and survey traffic by midday",
-        "lecture and navigation work in Section 4",
-        "scrap-market repair and informal trading in late afternoon",
-        "gold sails and blue lamps catching sunset over the harbor"
-      ],
-      "commonActivities": [
-        "cargo weighing",
-        "permit filing",
-        "tide surveying",
-        "rope hauling",
-        "shrine lighting",
-        "scrap sorting",
-        "sail repair",
-        "chart copying",
-        "public bargaining",
-        "beacon watching"
-      ]
-    },
-    "sounds": [
-      "waves against seawalls",
-      "sailcloth snapping",
-      "cargo cranes creaking",
-      "market calls",
-      "gulls",
-      "bells",
-      "ropes groaning",
-      "dock carts",
-      "shrine chimes",
-      "lecture voices",
-      "hammering from repair stalls"
-    ],
-    "smells": [
-      "salt air",
-      "tarred rope",
-      "fish",
-      "hot stone",
-      "spices",
-      "lamp oil",
-      "wet timber",
-      "sailcloth",
-      "smoke from food stalls",
-      "metal and scrap"
-    ],
-    "lighting": {
-      "day": "Daylight should be bright, reflective, and maritime, with gold sails and white stone catching sun.",
-      "night": "Blue lamps, beacon glow, shrine lanterns, and harbor reflections should define night movement.",
-      "weather": "Sea glare, mist, storms, and sunset should change the city's working tempo rather than stop it."
-    },
-    "transportation": {
-      "description": "Movement is by foot, stairs, carts, ships, small boats, dock bridges, and harbor causeways. Tide schedules and cargo traffic shape how fast people can cross the city.",
-      "writingGuidance": [
-        "Use loading delays, bridge crossings, dock congestion, and permit checks to pace scenes.",
-        "Let locals move confidently through cargo routes that outsiders find confusing."
-      ]
-    },
-    "children": {
-      "description": "Children should know ropes, tide warnings, shrine routes, cargo hazards, and which scraps are worth collecting. In poor districts, they may function as runners, watchers, or salvage helpers."
-    },
-    "craftsmen": {
-      "description": "Craftsmen include sailmakers, rope makers, lamp workers, mask carvers, shrine keepers, dock masons, boatwrights, blue-glass repairers, survey instrument makers, and scrap reworkers."
-    },
-    "markets": {
-      "description": "Markets should be harbor-facing and layered: official cargo counters, permitted stalls, shrine-side vendors, scholarly navigation booths, and scrap markets all belong to the same economic organism."
-    },
-    "food": {
-      "examples": [
-        "grilled fish",
-        "spiced rice",
-        "fried plantain-like cakes",
-        "harbor stew",
-        "salted shellfish",
-        "pepper broth",
-        "flatbread",
-        "smoked fish",
-        "dockside tea",
-        "market fruit"
-      ]
-    },
-    "companionObservations": {
-      "addie": [
-        "notices repeated permit wording, cargo marks, shrine phrases, and tide warnings",
-        "stores routes by Beacon, cargo yard, shrine road, survey hall, lecture court, and scrap market",
-        "connects the city’s ancestor language with civic authority rather than treating it as decoration"
-      ],
-      "gregory": [
-        "reads ancestor masks, tide seals, gold sails, shrines, and star navigation as layered symbols of departure, return, obligation, and memory",
-        "distinguishes shrine practice from bureaucratic maritime ritual"
-      ],
-      "brickett": [
-        "spots loose dock boards, hidden salvage routes, cargo gaps, unofficial ladders, discarded rope, and scrap-market evidence",
-        "understands quickly which routes are official and which ones working people actually use"
-      ],
-      "talandra": [
-        "reads cranes, bridges, cargo stacks, dock edges, shrine crowds, and slum approaches as threat geometry",
-        "would worry about line of sight across sails, awnings, masts, and crowd-heavy quays"
-      ],
-      "mae": [
-        "would immediately see that cargo, permits, inventory records, salvage, and shrine patronage are power systems",
-        "would read the slums and scrap market as economic pressure valves rather than accidental poverty"
-      ],
-      "genericCompanionNotes": [
-        "Outsiders should feel the city’s timing is ruled by tides and loading windows.",
-        "Characters should constantly see how official harbor power and informal survival trade overlap."
-      ]
-    }
-  },
-  "arrivalExperience": {
-    "firstImpression": "A visitor should first experience Port Sargasso as a city that rises directly out of the harbor: gold sails, blue beacon-light, white stone, cranes, lighthouses, ancestor-mask citadel towers, shrine roads, and crowded docks all competing for attention.",
-    "firstHourSequence": [
-      "salt glare and gold sails before the full city is understood",
-      "arrival through dock congestion, cargo calls, and rope lines",
-      "first clear view of the Cargo Yard Beacon",
-      "passing shrines for departure and safe return",
-      "encountering permit yards, surveyors, and inventory clerks",
-      "glimpsing the Tide-Drum Harbor wonder and understanding that the city worships movement, memory, and trade"
-    ],
-    "readerEffect": "The reader should feel that Port Sargasso is alive because everything moves: ships, goods, prayers, records, tides, rumors, and people."
-  },
-  "departureMemory": {
-    "readerShouldRemember": [
-      "gold sails over blue water",
-      "ancestor masks on civic stone",
-      "Cargo Yard Beacon above working docks",
-      "roadside shrines for travelers and sailors",
-      "permit yards and survey halls as harbor bureaucracy",
-      "lecture halls and star navigation culture",
-      "scrap markets and patched tenements beside maritime wealth"
-    ]
-  },
-  "landmarkAnalysis": {
-    "wonder": {
-      "name": "West-African Tide-Drum Harbor of Gold Sails",
-      "purpose": "The Wonder embodies Port Sargasso's public soul: tide rhythm, gold-sailed wealth, harbor ceremony, ancestral maritime memory, and collective orientation toward the sea.",
-      "visualDescription": "A spectacular harbor-scale complex marked by gold sails, drum-like forms, blue water, civic platforms, and ceremonial maritime architecture distinct from the Citadel and Beacon.",
-      "narrativeUse": "Use the Wonder to make the city feel grand, rhythmic, ocean-facing, and culturally specific. It should appear in skyline views and major harbor moments.",
-      "howCharactersNoticeIt": {
-        "addie": "notices repeated drum, tide, and return phrases attached to civic speech",
-        "gregory": "reads tide-drums and gold sails as symbol systems of movement, wealth, and ancestral return",
-        "brickett": "spots rigging, service ladders, sail repairs, and informal climbing routes",
-        "talandra": "maps exposed approaches, crowd platforms, and sail-blocked sightlines"
-      },
-      "commonActivities": [
-        "harbor ceremonies",
-        "departure rites",
-        "trade festivals",
-        "public announcements",
-        "tide observances",
-        "maritime celebration"
-      ],
-      "visibilityFromCity": "Visible from hero views and major harbor approaches as the far skyline anchor."
-    },
-    "beacon": {
-      "name": "Cargo Yard Beacon",
-      "purpose": "The Beacon ties city signal identity to warehousing, cargo readiness, and maritime coordination.",
-      "visualDescription": "A blue-lit signal tower rising from the logistics district, surrounded by cargo yards, inventory halls, cranes, rope, and gold-seal civic markers.",
-      "narrativeUse": "Use the Beacon as the city’s public signal for both Conjunction anxiety and practical harbor coordination. A change in Beacon state should ripple through cargo, permits, docks, and crowds.",
-      "howCharactersNoticeIt": {
-        "addie": "notices that people interpret signal changes through cargo and tide language",
-        "gregory": "reads it as a warning-light attached to labor and exchange",
-        "brickett": "finds side ladders, crane shadows, and cargo-stack routes near its base",
-        "talandra": "treats it as a dangerous crowd funnel surrounded by heavy objects and water"
-      },
-      "commonActivities": [
-        "signal watching",
-        "cargo coordination",
-        "inventory announcements",
-        "dock musters",
-        "emergency routing"
-      ],
-      "visibilityFromCity": "Prominent from Section 1 and multiple harbor views."
-    },
-    "seatOfPower": {
-      "name": "Ancestor Masks Tide-Seal Citadel",
-      "purpose": "The seat of power expresses maritime authority through ancestral legitimacy, tide law, sealed archives, command platforms, and civic memory.",
-      "visualDescription": "A white-stone and blue-lit central citadel with ancestor-mask motifs, tide-seal iconography, terraces, archives, and government platforms overlooking the harbor.",
-      "narrativeUse": "Use the Citadel to show that Port Sargasso's authority is not just commercial; it claims ancestry, memory, and control over tide-governed public life.",
-      "howCharactersNoticeIt": {
-        "addie": "notices masks, seals, archive wording, and repeated civic phrases about return and obligation",
-        "gregory": "reads ancestor masks as a political theology of memory and legitimacy",
-        "brickett": "spots service doors, archive deliveries, drainage, and maintenance routes",
-        "talandra": "maps command terraces, harbor approaches, crowd paths, and exposed stairways"
-      },
-      "commonActivities": [
-        "harbor governance",
-        "audiences",
-        "archive sealing",
-        "trade rulings",
-        "tide-law proceedings",
-        "ancestor ceremonies"
-      ],
-      "visibilityFromCity": "Dominant central civic anchor visible above the harbor fabric."
-    },
-    "majorLandmarks": [
-      {
-        "name": "Cargo Yard Beacon",
-        "sectionNumber": 1,
-        "narrativeUse": "Use for logistics, dock musters, cargo queues, and public signal anxiety."
-      },
-      {
-        "name": "Roadside Shrine",
-        "sectionNumber": 2,
-        "narrativeUse": "Use for safe-travel offerings, sailor prayers, return rituals, and quiet spiritual texture beside trade routes."
-      },
-      {
-        "name": "Survey Hall",
-        "sectionNumber": 3,
-        "narrativeUse": "Use for tide charts, harbor works, permits, measurements, and practical civic intelligence."
-      },
-      {
-        "name": "Lecture Hall",
-        "sectionNumber": 4,
-        "narrativeUse": "Use for maritime scholarship, navigation, charts, teaching, and public education."
-      },
-      {
-        "name": "Scrap Market",
-        "sectionNumber": 5,
-        "narrativeUse": "Use for salvage, poverty, repair culture, hidden evidence, and informal economy."
-      }
-    ],
-    "monuments": [
-      {
-        "name": "Warehousing Logistics Gold-Seal Monument",
-        "narrativeUse": "Use to show logistics and cargo as publicly honored civic power."
-      },
-      {
-        "name": "Shrine Sacred Place Lantern Monument",
-        "narrativeUse": "Use to mark travel faith, return hopes, and small rituals in a port city."
-      },
-      {
-        "name": "Blue-Lamp Monument",
-        "narrativeUse": "Use to reinforce survey/public-works authority and safe navigation."
-      },
-      {
-        "name": "Star Navigation Monument",
-        "narrativeUse": "Use to connect schooling with sea travel and celestial route knowledge."
-      },
-      {
-        "name": "Slums Informal Settlement Lantern Monument",
-        "narrativeUse": "Use to show that informal districts maintain their own wayfinding and community memory."
-      }
-    ],
-    "minorLandmarks": [
-      {
-        "name": "Inventory Hall Nook",
-        "narrativeUse": "Use for cargo records, discrepancies, manifests, and Mae-style commercial leverage."
-      },
-      {
-        "name": "Votive Grove Nook",
-        "narrativeUse": "Use for intimate prayers before departure or after loss."
-      },
-      {
-        "name": "Permit Yard Nook",
-        "narrativeUse": "Use for bureaucracy, argument, delays, and public works friction."
-      },
-      {
-        "name": "Observatory Court Nook",
-        "narrativeUse": "Use for quiet navigation study, Gregory's symbol work, and night-sky scenes."
-      },
-      {
-        "name": "Patched Tenement Nook",
-        "narrativeUse": "Use for survival detail, scrap routes, poverty, and local gossip."
-      }
-    ]
-  },
-  "immediateNarrativeImprovements": [
-    {
-      "target": "future Port Sargasso scenes",
-      "recommendation": "Write PSG as a tide-governed civic port, not a generic pirate/trade city."
-    },
-    {
-      "target": "street descriptions",
-      "recommendation": "Use gold sails, blue harbor lamps, cargo cranes, ancestor-mask civic stone, roadside shrines, permit yards, and patched dock neighborhoods as recurring texture."
-    },
-    {
-      "target": "landmark use",
-      "recommendation": "Make the Tide-Drum Harbor wonder the city’s emotional skyline and the Cargo Yard Beacon the practical signal heart."
-    },
-    {
-      "target": "companion writing",
-      "recommendation": "Let Mae read cargo/permit power, Brickett read scrap/dock routes, Gregory read ancestor/tide symbolism, and Talandra read crane/dock crowd risks."
-    },
-    {
-      "target": "city differentiation",
-      "recommendation": "Distinguish PSG from AQM: AQM is national civic-maritime authority; PSG is tide commerce, ancestor legitimacy, harbor logistics, and informal waterfront survival."
-    }
-  ],
-  "interpretation": {
-    "civilizationThesis": "Port Sargasso is the architecture of tide-borne exchange: a harbor civilization where ancestry, cargo, gold sails, shrines, survey bureaucracy, scholarship, and scrap survival form one moving maritime system.",
-    "environmentalPhilosophy": "Ride the tide: the city does not conquer the sea or retreat from it; it builds institutions around movement, departure, return, risk, and exchange.",
-    "adaptiveStrategy": "Coordinate: make ships, goods, prayers, records, repairs, and people move through the harbor without collapsing into chaos.",
-    "authorityModel": "ancestral-maritime administration",
-    "relationshipWithNature": "intimate and transactional; the sea is route, danger, wealth, and ritual surface",
-    "relationshipWithHistory": "ancestral and public; ancestor masks, tide seals, shrines, and harbor ceremonies preserve memory",
-    "relationshipWithKnowledge": "navigation-first and practical; surveys, permits, charts, and lecture halls turn maritime knowledge into civic order",
-    "relationshipWithRisk": "risk is managed through beacons, survey halls, permits, shrines, cargo procedures, and informal harbor knowledge",
-    "relationshipWithBeauty": "beauty appears as gold sails, blue light, white stone, red awnings, and moving water rather than static polish",
-    "relationshipWithCommunity": "community is transactional but not hollow: trade, prayer, salvage, education, and harbor labor bind people together",
-    "civilizationalTension": {
-      "tension": "official harbor order vs informal waterfront survival",
-      "resolution": "Port Sargasso survives by letting official logistics and informal salvage economies coexist along the same tide routes."
-    },
-    "highestVirtue": "coordination",
-    "religiousExpression": "travel-and-ancestor oriented; shrines, masks, tide seals, and departure/return rituals shape ordinary maritime life",
-    "economicIdentity": "shipping, cargo logistics, survey permits, sail work, navigation, salvage, fish, shrines, and waterfront repair",
-    "socialIdentity": "maritime, mixed-class, quick-moving, practical, ritual-aware, commercially sharp, and tide-conscious"
-  },
-  "canonReview": {
-    "lockedCanon": [
-      {
-        "statement": "Port Sargasso is a mature maritime port city where cargo logistics, gold sails, ancestor-mask authority, shrine roads, public works, learning, and informal settlements all define civic life.",
-        "reason": "All nine views and sidecars consistently show harbor dominance, logistics district, ancestor-mask Citadel, Tide-Drum Harbor wonder, shrines, survey hall, lecture hall, and slum/scrap-market district.",
-        "supportingEvidence": [
-          "West-African Tide-Drum Harbor of Gold Sails",
-          "Ancestor Masks Tide-Seal Citadel",
-          "Cargo Yard Beacon",
-          "Roadside Shrine",
-          "Survey Hall",
-          "Lecture Hall",
-          "Scrap Market"
-        ],
-        "confidence": "high"
-      },
-      {
-        "statement": "The sea is Port Sargasso's operating system, not background scenery.",
-        "reason": "Hero and street views repeatedly foreground harbor basins, ships, cranes, seawalls, docks, and sea-facing civic life.",
-        "supportingEvidence": [
-          "gold sails",
-          "harbor basins",
-          "cargo yards",
-          "permit yards",
-          "survey hall",
-          "waterfront slums"
-        ],
-        "confidence": "high"
-      },
-      {
-        "statement": "Port Sargasso authority should carry ancestral and tide-law symbolism through the Ancestor Masks Tide-Seal Citadel.",
-        "reason": "The citadel naming and visual identity consistently tie government to ancestor masks, tide seals, archives, and command platforms.",
-        "supportingEvidence": [
-          "Ancestor Masks Tide-Seal Citadel",
-          "sealed archives",
-          "command platforms",
-          "tide-seal identity"
-        ],
-        "confidence": "high"
-      }
+  "canon": {
+    "canonLocks": [
+      "Port Sargasso is a mature West-African maritime port city, not a lawless pirate harbor.",
+      "The Wonder is West-African Tide-Drum Harbor of Gold Sails.",
+      "The Beacon is Cargo Yard Beacon.",
+      "The Seat of Power is Ancestor Masks Tide-Seal Citadel.",
+      "The five primary districts are Warehousing / Logistics, Shrine / Sacred Place, Public Works Authority, University / Lyceum, and Slums / Informal Settlement.",
+      "The uploaded district anchors include Warehousing / Logistics Civic Hall, Cargo Yard Beacon, Warehousing Logistics Gold-Seal Monument, Inventory Hall Nook, Shrine / Sacred Place Civic Hall, Roadside Shrine, Shrine Sacred Place Lantern Monument, Votive Grove Nook, Public Works Authority Hall, Survey Hall, Blue-Lamp Monument, Permit Yard Nook, University / Lyceum Civic Hall, Lecture Hall, Star Navigation Monument, Observatory Court Nook, Slums / Informal Settlement Civic Hall, Scrap Market, Slums Informal Settlement Lantern Monument, and Patched Tenement Nook."
     ],
     "provisionalCanon": [
-      {
-        "statement": "Port Sargasso's highest civic virtue is coordination.",
-        "reason": "The city repeatedly emphasizes cargo, tides, permits, surveys, shrines, navigation, and informal survival as systems that must be synchronized.",
-        "supportingEvidence": [
-          "Cargo Yard Beacon",
-          "Survey Hall",
-          "Permit Yard Nook",
-          "Lecture Hall",
-          "Scrap Market"
-        ],
-        "confidence": "medium-high"
-      },
-      {
-        "statement": "Port Sargasso tolerates informal waterfront economies because official logistics cannot absorb all harbor life.",
-        "reason": "The slums/informal settlement and scrap market are visually central enough to read as systemic rather than incidental.",
-        "supportingEvidence": [
-          "Slums / Informal Settlement",
-          "Scrap Market",
-          "Patched Tenement Nook"
-        ],
-        "confidence": "medium"
-      }
+      "Port Sargasso's highest civic virtue is accountable exchange.",
+      "The image pass emphasizes a wealthy working port with ritual, logistics, scholarship, and lower-district pressure all visible.",
+      "Ancestor authority should appear civic and maritime, not merely decorative."
     ],
-    "workingHypotheses": [
-      {
-        "statement": "Maritime cities may express governance through coordination systems—beacons, permits, cargo yards, shrines, and charts—rather than palace dominance alone.",
-        "reason": "PSG strongly supports this but needs comparison against AQM, FRO, VKI, and other port cities.",
-        "supportingEvidence": [
-          "Cargo Yard Beacon",
-          "Survey Hall",
-          "Roadside Shrine",
-          "Lecture Hall"
-        ],
-        "confidence": "medium"
-      }
+    "rejectedReads": [
+      "generic pirate port",
+      "pure luxury harbor",
+      "West-African visual motifs without institutions",
+      "scrap districts as throwaway background"
     ],
-    "rejectedHypotheses": [
-      {
-        "statement": "Port Sargasso is merely a pirate city or lawless port.",
-        "reason": "The images and sidecars show strong civic administration, survey authority, university/lyceum presence, shrines, citadel authority, and formal logistics.",
-        "supportingEvidence": [
-          "Public Works Authority",
-          "University / Lyceum",
-          "Ancestor Masks Tide-Seal Citadel",
-          "Cargo Yard Beacon"
-        ],
-        "confidence": "high"
-      },
-      {
-        "statement": "Port Sargasso is just another version of Aquila Matara.",
-        "reason": "AQM is capital civic order; PSG is trade/tide coordination with stronger ancestor/shrine/informal-economy texture.",
-        "supportingEvidence": [
-          "West-African Tide-Drum Harbor",
-          "Roadside Shrine",
-          "Scrap Market",
-          "Survey Hall"
-        ],
-        "confidence": "high"
-      }
+    "cautionFlags": [
+      "Keep cargo logistics and shrine obligations visible together.",
+      "Preserve exact sidecar anchor names.",
+      "Do not let gold sails erase the slum/scrap-market district."
     ]
   },
-  "futureQuestions": [
-    "What species/race identity is assigned to Port Sargasso, and how should that affect body movement through docks and streets?",
-    "How formal is ancestor-mask religion versus civic ancestry symbolism?",
-    "Who controls the gold sails: guild, state, merchant clans, shrine authorities, or mixed systems?",
-    "How tolerated is the Scrap Market by official harbor administrators?",
-    "How does PSG compare to AQM, FRO, and VKI in maritime governance once all are synthesized?"
+  "environment": {
+    "terrain": ["working harbor", "sunlit waterfront terraces", "cargo plazas", "shrine streets", "survey courts", "lower waterfront scrap lanes"],
+    "water": ["harbor channels", "cargo docks", "tide basins", "survey pools", "shoreline runoff", "boat routes"],
+    "vegetation": ["votive groves", "coastal palms", "courtyard planters", "salt-tolerant shrubs", "market shade trees"],
+    "climateLighting": ["golden coastal daylight", "blue beacon glow", "warm harbor sunset", "bright white-stone glare", "lantern-lit shrine evenings"],
+    "environmentalLogic": "The port treats tide, cargo, shrine obligation, public works, and repair districts as one harbor ecosystem. Water is commerce, memory, route, and risk."
+  },
+  "architecture": {
+    "materials": ["white limestone", "ochre stone", "painted plaster", "bronze", "woven awnings", "red cloth", "gold sail canvas", "blue glass lamps", "dark harbor timber"],
+    "forms": ["West-African Tide-Drum Harbor of Gold Sails", "Ancestor Masks Tide-Seal Citadel", "Cargo Yard Beacon", "Warehousing / Logistics Civic Hall", "Inventory Hall Nook", "Roadside Shrine", "Votive Grove Nook", "Survey Hall", "Permit Yard Nook", "Lecture Hall", "Observatory Court Nook", "Scrap Market", "Patched Tenement Nook"],
+    "skyline": ["Tide-Drum Harbor of Gold Sails as wonder", "Ancestor Masks Tide-Seal Citadel as authority", "Cargo Yard Beacon as harbor signal", "lecture halls, survey towers, shrine roofs, cranes, and lower scrap waterfronts"],
+    "lighting": ["sunlit white stone", "gold sail reflection", "blue cargo beacon", "warm shrine lanterns", "market awning shade", "scrap-yard firelight"],
+    "infrastructure": ["cargo yards", "inventory halls", "docks", "cranes", "warehouses", "roadside shrines", "survey platforms", "permit yards", "lecture plazas", "scrap lanes", "patched tenements"],
+    "motifs": ["gold sails", "tide drums", "ancestor masks", "cargo seals", "votive groves", "blue lamps", "star navigation", "red awnings", "scrap repair"],
+    "colorLanguage": ["harbor blue", "gold sail", "white stone", "ochre sun", "red awning", "blue beacon", "dark scrap timber"],
+    "textureLanguage": ["salt-stained stone", "woven sailcloth", "carved masks", "rope", "dock timber", "bronze fittings", "patched canvas"]
+  },
+  "civilization": {
+    "people": "Citizens are port-literate, ancestor-conscious, practical, social, and used to seeing trade, shrine obligation, public works, and scholarship in the same streets.",
+    "occupations": ["dockworkers", "cargo clerks", "inventory keepers", "sail makers", "shrine keepers", "surveyors", "permit clerks", "lecturers", "students", "scrap dealers", "repair workers"],
+    "socialClasses": ["Tide-Seal officials", "cargo houses", "shrine families", "survey authorities", "university scholars", "sailor households", "scrap-market families", "dock laborers"],
+    "governance": "The Ancestor Masks Tide-Seal Citadel governs through harbor records, cargo seals, ancestor obligations, shrine protections, survey permits, and public port duties.",
+    "religion": "Religion appears through ancestor masks, roadside shrines, votive groves, tide-drum ceremonies, harbor blessings, and public offerings for safe passage.",
+    "customs": ["cargo seal checking", "shrine offerings before departure", "survey permit review", "lecture assemblies", "scrap repair bargaining", "gold-sail festivals"],
+    "bodyLanguage": ["open market gestures", "dock balance", "respectful shrine pauses", "ledger pointing", "route-aware walking"],
+    "speechPatterns": ["cargo tallies", "ancestor invocations", "harbor slang", "permit terms", "lecture phrases", "repair-market bargaining"]
+  },
+  "urbanLife": {
+    "streets": {
+      "appearance": "Broad, sunlit, and crowded: cargo courts, shrine corners, survey halls, lecture plazas, red awnings, blue beacons, ancestor-mask civic stone, and lower waterfront scrap stalls share the harbor edge.",
+      "movement": "Movement follows cargo routes, dock ramps, shrine streets, survey platforms, lecture stairs, market lanes, and scrap waterfront paths.",
+      "sounds": ["sails snapping", "dock bells", "cargo carts", "market calls", "shrine chants", "lecture voices", "scrap hammering", "waves"],
+      "smells": ["salt water", "spices", "warm stone", "lamp oil", "rope tar", "market food", "scrap smoke"],
+      "lighting": "Gold daylight and blue beacon light define the city; sunset turns sails and harbor stone into civic spectacle.",
+      "weatherEffects": "Sea glare, spray, wind, and harbor storms make survey work, cargo timing, and shrine rituals practically important.",
+      "dayCycle": "Cargo unloading, shrine visits, survey work, lectures, and market traffic dominate the day.",
+      "nightCycle": "Lantern-lit shrines, guarded warehouses, lower-district repairs, and harbor watch dominate night."
+    },
+    "shops": {
+      "common": ["fish stalls", "sailcloth vendors", "spice counters", "rope makers", "dock food carts"],
+      "uncommon": ["ancestor mask carvers", "votive goods sellers", "tide-chart vendors", "permit scribes", "star-navigation copyists"],
+      "prestigious": ["cargo house offices", "Tide-Seal counters", "university patron rooms", "survey authority desks"],
+      "exports": ["gold sail craft", "harbor logistics", "tide charts", "spices", "mask carving", "repair work"],
+      "imports": ["grain", "timber", "metal", "cloth", "paper", "medicine"],
+      "streetFood": ["spiced fish", "fried plantains", "rice cakes", "pepper stew", "sweet tea"],
+      "services": ["cargo registration", "inventory checking", "shrine offerings", "water surveys", "permit filing", "lecture access", "scrap repair"]
+    },
+    "housing": {
+      "wealthy": "Citadel- and cargo-house residences with gold-sail views, carved masks, shaded courtyards, and private docks.",
+      "middle": "Merchant, sailor, surveyor, and scholar homes above shops or near harbor stairs.",
+      "poor": "Lower waterfront patched tenements, repair sheds, crowded rooms near scrap markets, and shared access to docks and public water."
+    }
+  },
+  "districts": [
+    {"sectionNumber": 1, "name": "Warehousing / Logistics", "civicPurpose": "Cargo movement, inventory control, harbor signal response, and trade accountability.", "visualIdentity": "Warehousing / Logistics Civic Hall, Cargo Yard Beacon, Warehousing Logistics Gold-Seal Monument, Inventory Hall Nook, crates, cranes, and dock traffic.", "emotionalIdentity": "busy, accountable, loud, and powerful", "gameplayAssetNeeds": ["Warehousing / Logistics Civic Hall", "Cargo Yard Beacon", "Warehousing Logistics Gold-Seal Monument", "Inventory Hall Nook", "crates", "dockworkers"], "narrativeUse": ["missing cargo", "trade leverage", "Beacon response"], "landmark": "Cargo Yard Beacon", "minorLandmarks": ["Warehousing Logistics Gold-Seal Monument", "Inventory Hall Nook"]},
+    {"sectionNumber": 2, "name": "Shrine / Sacred Place", "civicPurpose": "Roadside offerings, harbor blessings, ancestor obligation, and public passage rites.", "visualIdentity": "Shrine / Sacred Place Civic Hall, Roadside Shrine, Shrine Sacred Place Lantern Monument, Votive Grove Nook, lanterns, small offerings, and harbor approaches.", "emotionalIdentity": "reverent, practical, and intimate", "gameplayAssetNeeds": ["Shrine / Sacred Place Civic Hall", "Roadside Shrine", "Shrine Sacred Place Lantern Monument", "Votive Grove Nook", "votive offerings", "shrine keepers"], "narrativeUse": ["departure blessing", "votive clue", "ancestor obligation"], "landmark": "Roadside Shrine", "minorLandmarks": ["Shrine Sacred Place Lantern Monument", "Votive Grove Nook"]},
+    {"sectionNumber": 3, "name": "Public Works Authority", "civicPurpose": "Harbor surveys, permit enforcement, maintenance, and sea-route safety.", "visualIdentity": "Public Works Authority Hall, Survey Hall, Blue-Lamp Monument, Permit Yard Nook, water maps, work crews, and civic instruments.", "emotionalIdentity": "technical, civic, and weather-aware", "gameplayAssetNeeds": ["Public Works Authority Hall", "Survey Hall", "Blue-Lamp Monument", "Permit Yard Nook", "surveyors", "harbor maps"], "narrativeUse": ["permit dispute", "engineering clue", "storm planning"], "landmark": "Survey Hall", "minorLandmarks": ["Blue-Lamp Monument", "Permit Yard Nook"]},
+    {"sectionNumber": 4, "name": "University / Lyceum", "civicPurpose": "Public learning, star navigation, maritime scholarship, and civic instruction.", "visualIdentity": "University / Lyceum Civic Hall, Lecture Hall, Star Navigation Monument, Observatory Court Nook, students, maps, and water-facing plazas.", "emotionalIdentity": "learned, open, and civic", "gameplayAssetNeeds": ["University / Lyceum Civic Hall", "Lecture Hall", "Star Navigation Monument", "Observatory Court Nook", "students", "star charts"], "narrativeUse": ["lecture", "navigation clue", "student witness"], "landmark": "Lecture Hall", "minorLandmarks": ["Star Navigation Monument", "Observatory Court Nook"]},
+    {"sectionNumber": 5, "name": "Slums / Informal Settlement", "civicPurpose": "Lower waterfront survival, repair culture, informal trade, and visible cost of harbor wealth.", "visualIdentity": "Slums / Informal Settlement Civic Hall, Scrap Market, Slums Informal Settlement Lantern Monument, Patched Tenement Nook, repair stalls, scrap roofs, and dock-edge alleys.", "emotionalIdentity": "resourceful, exposed, warm, and strained", "gameplayAssetNeeds": ["Slums / Informal Settlement Civic Hall", "Scrap Market", "Slums Informal Settlement Lantern Monument", "Patched Tenement Nook", "repair workers", "patchwork stalls"], "narrativeUse": ["repair clue", "poverty pressure", "overlooked witness"], "landmark": "Scrap Market", "minorLandmarks": ["Slums Informal Settlement Lantern Monument", "Patched Tenement Nook"]}
   ],
-  "comparativeNotes": {
-    "distinctFrom": [
-      {
-        "cityCode": "AQM",
-        "difference": "AQM is national civic-maritime order; PSG is tide-commerce coordination, ancestor legitimacy, and mixed official/informal harbor life."
-      },
-      {
-        "cityCode": "FRO",
-        "difference": "FRO centers shelter and cold harbor endurance; PSG centers exchange, movement, cargo coordination, and shrine-guided travel."
-      },
-      {
-        "cityCode": "VKI",
-        "difference": "VKI reads as volcanic island endurance and non-aggression; PSG reads as active trade, tide rhythm, and commercial coordination."
-      },
-      {
-        "cityCode": "NET",
-        "difference": "NET's informal economy is subterranean survival; PSG's informal economy is waterfront salvage and dockside overflow."
-      }
-    ],
-    "similarTo": [
-      {
-        "cityCode": "AQM",
-        "similarity": "Both are major harbor cities with white stone, blue lights, civic towers, and strong maritime infrastructure."
-      },
-      {
-        "cityCode": "FRO",
-        "similarity": "Both use harbor logistics, blue lights, and public works as major civic language."
-      },
-      {
-        "cityCode": "NET",
-        "similarity": "Both display official systems beside informal economies rather than hiding social tension."
-      }
-    ],
-    "uniqueContributions": [
-      "strongest current gold-sail maritime identity",
-      "clearest combination of ancestor-symbol authority and cargo bureaucracy",
-      "best port setting so far for informal salvage economy beside formal logistics",
-      "strong shrine-and-travel religious texture"
-    ],
-    "potentialInfluences": [
-      "maritime governance synthesis",
-      "future trade-route narrative scenes",
-      "ancestor-mask civic symbolism",
-      "blue-light comparative matrix",
-      "public works and permit bureaucracy across port cities"
+  "landmarks": {
+    "wonder": {"name": "West-African Tide-Drum Harbor of Gold Sails", "symbolicRole": "Trade, tide, rhythm, sail wealth, and ancestral harbor identity made monumental.", "visualRole": "Wonder-scale gold-sailed harbor complex with tide-drum forms, ceremonial water, and broad civic approaches.", "civicRole": "Citywide ceremonies, harbor festivals, trade rites, departure blessings, and public assemblies.", "narrativeUse": ["gold-sail ceremony", "trade assembly", "harbor rite"], "assetUse": ["map wonder", "harbor skyline anchor"], "sensoryIdentity": ["drums", "sails", "salt air", "gold light"], "storyHooks": ["A tide-drum rhythm signals a cargo truth before the ledgers do."]},
+    "beacon": {"name": "Cargo Yard Beacon", "symbolicRole": "Trade accountability and public warning at the harbor's working heart.", "visualRole": "Blue-lit beacon rising from cargo yards, warehouse courts, cranes, and inventory halls.", "civicRole": "Coordinates cargo movement, harbor alerts, public works, shrine responses, university notices, and lower-district traffic.", "narrativeUse": ["Beacon alarm", "cargo disruption", "harbor response"], "assetUse": ["S1 centerpiece", "signal marker"], "sensoryIdentity": ["blue light", "rope", "crate wood", "dock bells"], "storyHooks": ["A Beacon change freezes the harbor and exposes who controls the inventory halls."]},
+    "seatOfPower": {"name": "Ancestor Masks Tide-Seal Citadel", "symbolicRole": "Ancestral memory and maritime authority sealed into government.", "visualRole": "Water-facing citadel with ancestor masks, gold seals, tide records, and formal harbor terraces.", "civicRole": "Governs cargo records, harbor law, ancestral obligations, public works authority, and petitions.", "narrativeUse": ["harbor hearing", "ancestor petition", "cargo ruling"], "assetUse": ["seat-of-power marker"], "sensoryIdentity": ["salt air", "carved masks", "ink", "wax seals"], "storyHooks": ["An ancestor mask forces the Citadel to honor a forgotten passage debt."]},
+    "majorLandmarks": [
+      {"name": "Roadside Shrine", "symbolicRole": "Sacred pause before movement and exchange.", "visualRole": "Small shrine with lantern monument, votive grove, carved detail, and road-harbor edge placement.", "civicRole": "Offerings, blessings, departure rites, and public memory.", "narrativeUse": ["votive clue", "departure blessing"], "assetUse": ["S2 diorama"], "sensoryIdentity": ["lamp oil", "incense", "sea wind"], "storyHooks": ["A votive token proves someone passed through before the cargo record says they did."]},
+      {"name": "Survey Hall", "symbolicRole": "Harbor safety made technical.", "visualRole": "Survey hall with blue lamp, permit yard, instruments, maps, and harbor views.", "civicRole": "Public works, permits, tide surveys, and route safety.", "narrativeUse": ["permit conflict", "storm warning"], "assetUse": ["S3 diorama"], "sensoryIdentity": ["wet maps", "bronze tools", "blue lamp"], "storyHooks": ["A survey map contradicts the cargo house's profitable route."]},
+      {"name": "Lecture Hall", "symbolicRole": "Knowledge as port infrastructure.", "visualRole": "Lecture court with star navigation monument, students, open water, and civic terraces.", "civicRole": "Education, navigation training, and public interpretation.", "narrativeUse": ["lecture", "student witness", "navigation clue"], "assetUse": ["S4 diorama"], "sensoryIdentity": ["paper", "chalk", "salt air"], "storyHooks": ["A student reading of the stars exposes a false harbor schedule."]},
+      {"name": "Scrap Market", "symbolicRole": "Survival and repair beneath harbor wealth.", "visualRole": "Patchwork waterfront market of scrap stalls, lantern monument, patched tenements, and repair activity.", "civicRole": "Repair culture, lower-district economy, and overlooked evidence.", "narrativeUse": ["repair clue", "low-city pressure"], "assetUse": ["S5 diorama"], "sensoryIdentity": ["scrap metal", "smoke", "salt damp", "shared food"], "storyHooks": ["The scrap market repairs the part the cargo house officially lost."]}
     ]
   },
-  "crossCityTags": [
-    "port-city",
-    "gold-sails",
-    "ancestor-masks",
-    "tide-seal-citadel",
-    "cargo-yard-beacon",
-    "maritime-logistics",
-    "roadside-shrines",
-    "public-works",
-    "navigation-learning",
-    "scrap-market",
-    "informal-waterfront",
-    "blue-harbor-light",
-    "established-civilization"
-  ],
-  "evolution": {
-    "previousAssumptions": [
-      "Port Sargasso was expected to be a major port city.",
-      "Its complete civic balance between trade, ancestry, shrines, public works, learning, and informal settlements had not yet been defined."
+  "assetGuidance": {
+    "districtDioramaGuidance": [
+      "S1 must show Warehousing / Logistics Civic Hall, Cargo Yard Beacon, Warehousing Logistics Gold-Seal Monument, Inventory Hall Nook, crates, cranes, and dockworkers.",
+      "S2 must show Shrine / Sacred Place Civic Hall, Roadside Shrine, Shrine Sacred Place Lantern Monument, Votive Grove Nook, votive offerings, and shrine keepers.",
+      "S3 must show Public Works Authority Hall, Survey Hall, Blue-Lamp Monument, Permit Yard Nook, maps, instruments, and harbor work crews.",
+      "S4 must show University / Lyceum Civic Hall, Lecture Hall, Star Navigation Monument, Observatory Court Nook, students, star charts, and water-facing plazas.",
+      "S5 must show Slums / Informal Settlement Civic Hall, Scrap Market, Slums Informal Settlement Lantern Monument, Patched Tenement Nook, repair stalls, scrap roofs, and lower waterfront life."
     ],
-    "discoveries": [
-      "Gold sails are the strongest immediate visual signature.",
-      "The city is not lawless; it is heavily coordinated through cargo yards, surveys, permits, and civic institutions.",
-      "Ancestor masks and tide seals give authority cultural weight beyond commerce.",
-      "Shrines are not minor decoration; they express travel, departure, return, and maritime risk.",
-      "The slums/scrap market belong to the economic system rather than existing as isolated poverty."
+    "mapBackgroundGuidance": [
+      "Keep West-African Tide-Drum Harbor of Gold Sails, Cargo Yard Beacon, and Ancestor Masks Tide-Seal Citadel legible together.",
+      "Use gold sails, cargo yards, shrines, public works halls, lecture courts, ancestor masks, blue lamps, and lower waterfront scrap markets."
     ],
-    "confirmedAssumptions": [
-      "The harbor should dominate the city's identity.",
-      "Port Sargasso should feel active, maritime, and commercially dense.",
-      "It should be distinct from AQM despite shared harbor-capital visual language."
-    ],
-    "changedOurMind": [
-      "Do not write PSG as a generic or pirate-like port.",
-      "Make shrine/travel religion and ancestor-mask authority central enough to be remembered.",
-      "Use public works, permits, and surveyors as routine port-city texture."
-    ],
-    "futureValidation": [
-      "Compare with remaining maritime cities to refine the coordination-as-virtue hypothesis.",
-      "Clarify the race/species identity and how it affects dock movement and architecture.",
-      "Revisit future PSG prose for enough gold-sail, ancestor-mask, shrine, and cargo-specific detail."
-    ]
+    "requiredVisualElements": ["West-African Tide-Drum Harbor of Gold Sails", "Cargo Yard Beacon", "Ancestor Masks Tide-Seal Citadel", "Warehousing Logistics Gold-Seal Monument", "Inventory Hall Nook", "Roadside Shrine", "Shrine Sacred Place Lantern Monument", "Votive Grove Nook", "Survey Hall", "Blue-Lamp Monument", "Permit Yard Nook", "Lecture Hall", "Star Navigation Monument", "Observatory Court Nook", "Scrap Market", "Slums Informal Settlement Lantern Monument", "Patched Tenement Nook"],
+    "elementsToAvoid": ["generic pirate port", "luxury harbor with no labor", "gold sails without cargo systems", "ancestor masks as empty decoration", "lower district omitted"]
   }
 }

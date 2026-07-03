@@ -1,648 +1,155 @@
 {
-  "schemaVersion": 1,
-  "analysisVersion": 1,
-  "cityCode": "PFN",
-  "cityName": "Pollyr Fen",
-  "analysisConfidence": "strong-lock",
-  "analysisDate": "2026-06-29",
-  "analystVersion": "gpt-5.5-thinking",
-  "basedOnImages": [
-    "PFN-HERO-NW-v001",
-    "PFN-HERO-NE-v001",
-    "PFN-HERO-SE-v001",
-    "PFN-HERO-SW-v001",
-    "PFN-STREET-S1-v001",
-    "PFN-STREET-S2-v001",
-    "PFN-STREET-S3-v001",
-    "PFN-STREET-S4-v001",
-    "PFN-STREET-S5-v001"
-  ],
-  "summary": {
-    "oneSentence": "Pollyr Fen is the hidden architecture of a swamp used as the foundation of a city: a frogfolk wetland civilization built around water, canals, docks, lily fields, spiritual basins, and amphibian civic life.",
-    "identityStatement": "Pollyr Fen should read as a mature amphibian civilization that did not drain, conquer, or merely occupy the swamp. The frogfolk discovered the swamp's underlying structure and built their city around it, making water the street, market, nursery, ritual space, and civic foundation."
-  },
-  "evidence": {
-    "civilizationMaturity": {
-      "ageExpression": "established-to-ancient",
-      "evidence": [
-        "wetland infrastructure appears deliberate and fully integrated rather than improvised",
-        "canals, docks, platforms, civic halls, markets, and nurseries form a complete urban system",
-        "spiritual and civic architecture are embedded into everyday water movement",
-        "the city feels grown around long-tested swamp rhythms rather than recently settled"
-      ]
-    },
-    "architecturalLanguage": {
-      "materials": [
-        "wet wood",
-        "reed thatch",
-        "bamboo or cane framing",
-        "pale wetland stone",
-        "green-blue glass",
-        "bronze fittings",
-        "rope",
-        "woven mats",
-        "lily-root structures",
-        "moss-covered masonry"
-      ],
-      "forms": [
-        "stilt halls",
-        "floating platforms",
-        "canal bridges",
-        "lotus basins",
-        "dock markets",
-        "raised civic houses",
-        "waterfront shrines",
-        "reed-roofed dwellings",
-        "low domes",
-        "nursery pools",
-        "lock gates",
-        "boardwalk plazas"
-      ],
-      "skyline": [
-        "low wetland domes and raised halls rather than tall towers",
-        "beacon or lock-tower silhouettes emerging from mist",
-        "layered rooftops reflected in water",
-        "civic structures distributed across basins, canals, and islands"
-      ],
-      "lighting": [
-        "warm lantern light reflected in water",
-        "green-blue marsh glow",
-        "mist-diffused daylight",
-        "low civic lamps near docks",
-        "temple or nursery lights hovering over pools"
-      ],
-      "infrastructure": [
-        "waterways as streets",
-        "boardwalks",
-        "rafts",
-        "small boats",
-        "docks",
-        "canal locks",
-        "wet market platforms",
-        "nursery basins",
-        "raised thresholds",
-        "water wheels or flow-control systems",
-        "reed-lined edges"
-      ],
-      "visualPatterns": [
-        "water is central in every civic function",
-        "walkways and docks adapt to amphibian bodies rather than forcing dry-city assumptions",
-        "spiritual spaces appear inseparable from water and life-cycle imagery",
-        "commerce floats, moves, or gathers around dock edges",
-        "architecture rises just enough above water to remain civic without denying the swamp"
-      ],
-      "recurringMotifs": [
-        "frogs",
-        "lotus flowers",
-        "lily pads",
-        "reeds",
-        "canals",
-        "rafts",
-        "lantern reflections",
-        "water basins",
-        "spawning or nursery imagery",
-        "mist",
-        "fish and wetland birds"
-      ]
-    },
-    "environmentalRelationship": {
-      "observed": "The swamp is the city's foundation, not an obstacle. Pollyr Fen reveals and inhabits hidden wetland structure rather than replacing it with dry urban logic.",
-      "evidence": [
-        "streets are consistently replaced or supplemented by waterways",
-        "markets and civic buildings face water as primary public space",
-        "raised platforms, docks, and basins appear essential rather than decorative",
-        "wetland vegetation remains structurally present throughout the city"
-      ]
-    },
-    "authorityExpression": {
-      "observed": "Authority appears communal, ritualized, and distributed through water infrastructure rather than concentrated in a single palace form.",
-      "evidence": [
-        "civic landmarks appear tied to basins, nurseries, markets, and public water spaces",
-        "religious/spiritual imagery is strong across multiple views",
-        "public life appears organized by shared access to canals and civic pools",
-        "no single dry-land palace visually dominates the whole identity"
-      ]
-    },
-    "commercialSpaces": [
-      "floating markets",
-      "dockside food stalls",
-      "fish and reed markets",
-      "herbalist boats",
-      "net makers",
-      "boat repair platforms",
-      "lantern sellers",
-      "waterproof textile stalls",
-      "lotus and seed vendors",
-      "canal ferry stops"
+  "metadata": {
+    "schemaVersion": "2.0",
+    "analysisVersion": 2,
+    "cityCode": "PFN",
+    "cityName": "Pollyr Fen",
+    "analysisDate": "2026-07-03",
+    "analystVersion": "gpt-5.5-thinking",
+    "analysisConfidence": "strong-lock",
+    "basedOnImages": [
+      "PFN-HERO-NE-v001",
+      "PFN-HERO-NW-v002",
+      "PFN-HERO-SE-v001",
+      "PFN-HERO-SW-v001",
+      "PFN-STREET-S1-v001",
+      "PFN-STREET-S2-v001",
+      "PFN-STREET-S3-v001",
+      "PFN-STREET-S4-v001",
+      "PFN-STREET-S5-v001"
     ],
-    "publicSpaces": [
-      "basin plazas",
-      "boardwalk squares",
-      "nursery pools",
-      "temple docks",
-      "market rafts",
-      "canal intersections",
-      "reed-framed gathering platforms",
-      "lantern-lit waterfront shrines"
-    ],
-    "districtCharacter": {
-      "section1CivicWaterfront": "public-facing wetland administration, docks, signal landmarks, and practical canal access",
-      "section2CanalMarket": "trade, floating stalls, dockside commerce, boat traffic, and everyday amphibian movement",
-      "section3NurserySpawningGrounds": "strong life-cycle and spiritual identity, with basins, protected pools, and communal care",
-      "section4TempleWetlandQuarter": "ritual water spaces, lanterns, shrines, reeds, processional docks, and spiritual basin architecture",
-      "section5OuterReedNeighborhoods": "more domestic, poorer or less formal, closer to raw swamp, with houses and workspaces woven into reeds and water channels"
-    }
-  },
-  "narrativeTranslation": {
-    "streets": {
-      "description": "Pollyr Fen does not have streets in the dry-city sense. Movement happens through a braid of canals, rafts, plank bridges, dock edges, shallow pools, reed paths, and raised wet platforms. Characters should constantly negotiate water as public space.",
-      "writingGuidance": [
-        "Do not write characters simply walking through Pollyr Fen unless they are on boardwalks, platforms, bridges, or dock paths.",
-        "Use boats, pole-rafts, ferries, stepping stones, and wet thresholds as normal movement language.",
-        "Let water change the pacing of scenes: conversations happen while waiting for a ferry, crossing a bridge, or standing at a basin edge.",
-        "Keep dry ground limited and meaningful. Dryness should feel engineered, protected, or temporary."
-      ]
-    },
-    "people": {
-      "description": "Citizens should move with amphibian ease. Frogfolk sit at water edges, step between dock and pool without hesitation, carry goods by raft, work with wet hands, and treat canals as ordinary civic space rather than hazards.",
-      "behavioralNotes": [
-        "people casually enter and exit water during daily routines",
-        "market sellers may operate from boats or anchored platforms",
-        "children are comfortable near pools and nurseries but within strong communal oversight",
-        "public behavior feels communal, practical, and spiritually aware rather than primitive"
-      ]
-    },
-    "shops": {
-      "examples": [
-        "floating fish stalls",
-        "reed-weaving shops",
-        "boatwright platforms",
-        "lantern barges",
-        "herbalist rafts",
-        "waterproof cloth vendors",
-        "net makers",
-        "lotus food stalls",
-        "frogfolk nursery supply counters",
-        "canal toll kiosks",
-        "marsh spice sellers"
-      ],
-      "writingGuidance": "Commercial spaces should be amphibian and mobile. Goods may be displayed on rafts, suspended from reed frames, stacked on dock platforms, or passed between boats. Avoid default dry market rows."
-    },
-    "homes": {
-      "description": "Homes should sit on stilts, platforms, floating foundations, or raised wetland masonry. Doorways face both walkways and water. Domestic space may include basking ledges, wet steps, storage nets, and reed-screened courtyards.",
-      "writingGuidance": [
-        "Use thresholds that move between water and shelter: slick steps, half-submerged landings, rope rails, and floating porches.",
-        "Domestic life should show both family and community visibility; Pollyr Fen feels less private than stone-walled cities."
-      ]
-    },
-    "publicLife": {
-      "dailyRhythms": [
-        "morning mist over canals",
-        "market rafts tying off at dock plazas",
-        "nursery pools being checked and blessed",
-        "midday ferry and boat traffic",
-        "afternoon reed and fish work",
-        "evening lanterns reflected in water",
-        "night calls of frogs, insects, and distant ritual bells"
-      ],
-      "commonActivities": [
-        "pole-rafting through canals",
-        "net mending",
-        "nursery tending",
-        "fish sorting",
-        "lantern lighting",
-        "temple basin offerings",
-        "reed harvesting",
-        "boat repair",
-        "public gathering at water steps"
-      ]
-    },
-    "sounds": [
-      "paddles dipping into water",
-      "frog calls",
-      "reed rustle",
-      "market voices over canals",
-      "boat hulls bumping docks",
-      "water wheels or locks creaking",
-      "lantern chains",
-      "insects in marsh grass",
-      "children splashing under supervision",
-      "temple bells softened by mist"
-    ],
-    "smells": [
-      "wet wood",
-      "lotus flowers",
-      "mud",
-      "fresh fish",
-      "lantern oil",
-      "marsh herbs",
-      "reed mats",
-      "rainwater",
-      "algae",
-      "smoke from low cooking fires"
-    ],
-    "lighting": {
-      "day": "Daylight should be humid and reflective, broken by reeds, mist, water glare, and green-gold reflections from marsh vegetation.",
-      "night": "Lanterns should double themselves in the water. Night in Pollyr Fen should feel alive with reflections, frogs, insects, and slow boat movement.",
-      "weather": "Fog and rain should not obscure the city entirely; they are part of its operating condition. Wet surfaces, ripples, and muted lamps should intensify atmosphere."
-    },
-    "transportation": {
-      "description": "Transportation is amphibian-first: boats, rafts, canals, stepping platforms, boardwalks, and swimming access. Dry walking is one option among several, not the default.",
-      "writingGuidance": [
-        "Outsiders should be slowed by transfers between docks, boats, and platforms.",
-        "Frogfolk should move more naturally through water routes than human visitors.",
-        "Use canal intersections as natural places for delays, conversations, crowding, and misdirection."
-      ]
-    },
-    "children": {
-      "description": "Children should be connected to water early: near nursery pools, on shallow platforms, watching elders mend nets, playing controlled water games, or learning canal routes. Their safety is communal rather than purely parental."
-    },
-    "craftsmen": {
-      "description": "Craftsmen are wetland specialists: boatwrights, reed weavers, net makers, lantern makers, dock builders, herbalists, water engineers, fish curers, and basin caretakers."
-    },
-    "markets": {
-      "description": "Markets should float and breathe with the water. Stalls appear on rafts, along docks, under reed canopies, around basin plazas, and at canal junctions. Trade is noisy, colorful, and practical without feeling chaotic."
-    },
-    "food": {
-      "examples": [
-        "fish stew",
-        "lotus root cakes",
-        "marsh herb soup",
-        "grilled eel",
-        "reed-wrapped rice or grain parcels",
-        "watercress bundles",
-        "spiced frogfolk market broth",
-        "fresh shellfish",
-        "fermented marsh vegetables"
-      ]
-    },
-    "companionObservations": {
-      "addie": [
-        "notices oral directions based on canals, basins, lilies, and lantern colors rather than street names",
-        "remembers repeated ritual phrases around nursery pools or water crossings",
-        "connects the swamp's structure to older fragments of Ariadne's Thread logic"
-      ],
-      "gregory": [
-        "recognizes water, lotus, birth-cycle, and labyrinthine canal symbolism",
-        "may notice that the city uses mythic maze logic without dry walls"
-      ],
-      "brickett": [
-        "spots loose planks, hidden raft tie-offs, drainage tricks, shallow crossings, and places where small bodies can move unseen",
-        "quickly understands which paths are official and which paths locals actually use"
-      ],
-      "talandra": [
-        "reads bridges, docks, boats, and canal edges as unstable crowd-control problems",
-        "dislikes the number of approaches that cannot be guarded like dry streets"
-      ],
-      "mae": [
-        "would notice toll points, ferry control, market moorings, water rights, and who profits from safe passage",
-        "would understand that commercial power lives at canal junctions, not necessarily in large buildings"
-      ],
-      "genericCompanionNotes": [
-        "Visitors should feel physically less competent than locals.",
-        "The city should constantly remind non-amphibians that their assumptions about movement are wrong."
-      ]
-    }
-  },
-  "arrivalExperience": {
-    "firstImpression": "A visitor should first experience Pollyr Fen as a city that appears to have surfaced from the swamp itself: lanterns in mist, docks instead of streets, buildings on stilts, market rafts, frogfolk moving through water naturally, and civic structures arranged around basins and canals.",
-    "firstHourSequence": [
-      "humid air, reeds, and water sounds before the city is fully visible",
-      "first sight of lanterns reflected in canals",
-      "transfer from dry approach to dock, raft, or boardwalk",
-      "slow movement through wet markets and canal traffic",
-      "glimpses of nursery pools or basin shrines",
-      "realization that the swamp has not been pushed aside but organized into city life"
-    ],
-    "readerEffect": "The reader should feel their default idea of a city being corrected. Pollyr Fen is not less civilized because it is wet; it is civilized through water."
-  },
-  "departureMemory": {
-    "readerShouldRemember": [
-      "water as street",
-      "lantern reflections in mist",
-      "frogfolk moving naturally between dock and canal",
-      "lily pads and lotus basins",
-      "nursery pools as civic-spiritual spaces",
-      "floating markets",
-      "wet wood and reed architecture",
-      "the sense that the swamp already contained the city in hidden form"
+    "basedOnSidecars": [
+      "PFN-HERO-NE-v001.json",
+      "PFN-HERO-NW-v002.json",
+      "PFN-HERO-SE-v001.json",
+      "PFN-HERO-SW-v001.json",
+      "PFN-STREET-S1-v001.json",
+      "PFN-STREET-S2-v001.json",
+      "PFN-STREET-S3-v001.json",
+      "PFN-STREET-S4-v001.json",
+      "PFN-STREET-S5-v001.json"
     ]
   },
-  "landmarkAnalysis": {
-    "wonder": {
-      "purpose": "The Wonder should express the deepest unity between swamp ecology, civic life, and frogfolk spiritual identity.",
-      "visualDescription": "A large wetland-civic complex of basins, lotus growth, raised halls, water bridges, lanterns, and amphibian-accessible platforms, visually inseparable from the swamp itself.",
-      "narrativeUse": "Use the Wonder when the story needs to show that Pollyr Fen's civilization is sophisticated because of the swamp, not despite it.",
-      "howCharactersNoticeIt": {
-        "addie": "connects its repeated water language to older oral fragments and maze/thread imagery",
-        "gregory": "reads lotus, water, birth, passage, and renewal symbolism as a spiritual architecture",
-        "brickett": "notices maintenance poles, hidden float chambers, submerged supports, and informal crossings",
-        "talandra": "recognizes how impossible it would be to secure using normal dry-city assumptions"
-      },
-      "commonActivities": [
-        "ritual gatherings",
-        "seasonal water ceremonies",
-        "nursery blessings",
-        "public festivals",
-        "civic assemblies by basin",
-        "pilgrimage through docks and bridges"
-      ],
-      "visibilityFromCity": "Should be visible through water corridors and basin openings rather than only by vertical skyline."
-    },
-    "beacon": {
-      "purpose": "The Beacon anchors public signal identity in a city where visibility is shaped by mist, water, reeds, and canals.",
-      "visualDescription": "A vertical signal landmark rising above wet platforms or canal basins, likely reflected in surrounding water and visible through reeds and fog.",
-      "narrativeUse": "Use the Beacon as both signal and reflection. Its light should appear doubled in canals, making public anxiety visible in water as well as sky.",
-      "howCharactersNoticeIt": {
-        "addie": "notices how citizens orient by its reflection as much as by the tower itself",
-        "gregory": "reads the Beacon as a symbol of guidance across uncertain water",
-        "brickett": "spots the unofficial viewing platforms and hidden approaches locals use",
-        "talandra": "worries about crowds packed onto docks and bridges when the Beacon changes state"
-      },
-      "commonActivities": [
-        "signal-watching from docks",
-        "boat traffic pausing below it",
-        "public announcements",
-        "lantern-lighting rites",
-        "crowds gathering at canal approaches"
-      ],
-      "visibilityFromCity": "Visible from major waterways, especially through reflection and open basin lines."
-    },
-    "seatOfPower": {
-      "purpose": "The seat of power should feel less like a dry palace and more like a civic wetland hall connected to basins, docks, and communal access.",
-      "visualDescription": "A raised civic hall or basin-facing complex built on platforms, stilts, or wetland masonry, with public water approaches rather than a single dry processional stair.",
-      "narrativeUse": "Use the seat of power to show communal governance and environmental fluency. Authority should feel accessible by water and public gathering rather than remote height alone.",
-      "howCharactersNoticeIt": {
-        "addie": "notices how civic routes converge through canals instead of roads",
-        "gregory": "reads water-approach ceremony as a political-spiritual symbol",
-        "brickett": "identifies underside supports, maintenance floats, and hidden platform access",
-        "talandra": "has to rethink escort geometry because every water approach is a potential route"
-      },
-      "commonActivities": [
-        "public petitions from dock platforms",
-        "civic council gatherings",
-        "water-level announcements",
-        "market disputes",
-        "ritual/civic overlap around basins"
-      ],
-      "visibilityFromCity": "Should be recognizable through convergence of canals and public platforms rather than sheer height."
-    },
-    "majorLandmarks": [
-      {
-        "role": "canal and basin anchors",
-        "narrativeUse": "Major landmarks should be tied to water function: locks, nursery pools, market basins, temple docks, ferry nodes, or flood-control structures."
-      }
-    ],
-    "monuments": [
-      {
-        "role": "spiritual memory markers",
-        "narrativeUse": "Monuments should often be wet, reflective, or basin-adjacent: carved stones at water level, lotus pillars, lantern posts, ancestral pool markers, or frogfolk cycle imagery."
-      }
-    ],
-    "minorLandmarks": [
-      {
-        "role": "navigation and local texture",
-        "narrativeUse": "Minor landmarks should guide movement through a non-grid city: colored lanterns, ferry posts, reed kiosks, boat ties, water steps, carved dock markers, and lily-covered corners."
-      }
-    ]
+  "cityDNA": {
+    "coreFantasy": "A frogfolk marsh city where canals, lock houses, nursery pools, public relief, healing halls, grain markets, and reed-bundle government make wetland life civic rather than rustic.",
+    "primaryEmotion": "marshland resilience",
+    "secondaryEmotion": "choral communal care",
+    "readerTakeaway": "Pollyr Fen is not a swamp village; the uploaded image pass shows a dense amphibious city of platforms, canals, boats, granaries, nursery basins, healing courts, and civic service halls.",
+    "civilizationThesis": "Pollyr Fen turns marsh water, frogfolk life cycles, public care, grain logistics, and flood control into a complete civic system.",
+    "visualIdentity": "Reed roofs, wet stone platforms, canal bridges, boats, lily pads, blue-green beacon light, lock houses, nursery basins, relief plazas, apothecary courts, grain halls, awnings, and misty marsh towers.",
+    "culturalIdentity": "Frogfolk civic culture built around water routing, spawning care, communal relief, healing, food storage, and choral public gathering.",
+    "symbolicIdentity": "Reed bundles, frog-dam choirs, lock wheels, canal reflections, nursery shells, healing lanterns, awnings, grain halls, and waterwheel courts symbolize survival through shared marsh stewardship."
   },
-  "immediateNarrativeImprovements": [
-    {
-      "target": "Book 1 / Pollyr Fen arrival",
-      "recommendation": "Make the first arrival physically different from AQM and LUM: the characters should transfer onto docks, rafts, or boardwalks and immediately lose dry-city assumptions."
-    },
-    {
-      "target": "Book 1 / Ariadne's Thread investigation",
-      "recommendation": "Use canal logic and wetland maze structure to reinforce thread/labyrinth themes without literal stone corridors."
-    },
-    {
-      "target": "Book 1 / environmental description",
-      "recommendation": "Describe Pollyr Fen as built around the swamp's hidden architecture. Do not frame the swamp as decay, backwardness, or obstacle."
-    },
-    {
-      "target": "Book 1 / civic scenes",
-      "recommendation": "Show water infrastructure as civic sophistication: locks, ferry schedules, basin rituals, nursery protections, and dock governance."
-    },
-    {
-      "target": "Book 1 / character movement",
-      "recommendation": "Let locals move faster and more confidently than outsiders because the city rewards amphibian bodies and local knowledge."
-    },
-    {
-      "target": "Book 1 / sensory pass",
-      "recommendation": "Add humid air, wet wood, lantern reflections, reed noise, water insects, fish markets, and lotus basins to make the city immediately distinct."
-    }
-  ],
-  "interpretation": {
-    "civilizationThesis": "Pollyr Fen is the hidden architecture of a swamp. Rather than draining or conquering the wetlands, the frogfolk discovered the swamp's underlying structure and built an entire civilization around it. The swamp is the city's foundation, not the obstacle it overcame.",
-    "environmentalPhilosophy": "Reveal: the city exists by recognizing the swamp's natural logic and making that logic civic, spiritual, commercial, and domestic.",
-    "adaptiveStrategy": "Integrate: turn water, reeds, basins, and amphibian movement into the fundamental operating system of urban life.",
-    "authorityModel": "communal-ritualized",
-    "relationshipWithNature": "deeply integrated; nature remains active infrastructure rather than scenic decoration",
-    "relationshipWithHistory": "likely preserved through water rites, nursery traditions, basin markers, and seasonal cycles",
-    "relationshipWithKnowledge": "practical ecological knowledge and oral/water-route memory appear more important than written institutional knowledge",
-    "relationshipWithRisk": "risk is managed through familiarity with water, distributed access, communal oversight, and environmental literacy",
-    "relationshipWithBeauty": "beauty emerges from reflection, mist, lanterns, lotus growth, and the visible harmony between city and swamp",
-    "relationshipWithCommunity": "community appears shared and basin-centered; public life gathers around water access, nurseries, markets, and ritual pools",
-    "civilizationalTension": {
-      "tension": "settlement vs wetland instability",
-      "resolution": "Pollyr Fen resolves the tension by refusing dry-city permanence and instead building a flexible, amphibian civic order around water's movement."
-    },
-    "highestVirtue": "stewardship",
-    "religiousExpression": "strong and communal; spirituality appears tied to water, birth cycles, lotus/basin imagery, and the swamp as living foundation",
-    "economicIdentity": "wetland trade, fish, reeds, boats, ferries, herbs, nursery support, lanterns, and canal markets",
-    "socialIdentity": "communal, ecological, spiritually grounded, practical, and locally confident"
-  },
-  "canonReview": {
-    "lockedCanon": [
-      {
-        "statement": "Pollyr Fen is built around the hidden architecture of the swamp; the swamp is the city's foundation rather than an obstacle to overcome.",
-        "reason": "The concept set consistently shows waterways, basins, platforms, docks, reeds, lotus growth, and civic structures integrated into wetland logic.",
-        "supportingEvidence": [
-          "waterways as streets",
-          "floating markets",
-          "nursery basins",
-          "stilt halls",
-          "lantern-lit canal infrastructure"
-        ],
-        "confidence": "high"
-      },
-      {
-        "statement": "Pollyr Fen movement is amphibian-first: canals, docks, rafts, boardwalks, and water crossings define ordinary travel.",
-        "reason": "The visual set repeatedly replaces dry-street assumptions with water-based urban movement.",
-        "supportingEvidence": [
-          "canals",
-          "boats and rafts",
-          "dock markets",
-          "boardwalks",
-          "water-facing civic spaces"
-        ],
-        "confidence": "high"
-      },
-      {
-        "statement": "Pollyr Fen has a strong spiritual relationship with water, birth/life cycles, and communal basin spaces.",
-        "reason": "The street and hero views strongly suggest ritualized wetland civic life rather than purely practical swamp habitation.",
-        "supportingEvidence": [
-          "nursery/spawning ground imagery",
-          "lotus basins",
-          "temple docks",
-          "lantern-lit water spaces",
-          "communal gathering pools"
-        ],
-        "confidence": "high"
-      }
+  "canon": {
+    "canonLocks": [
+      "Pollyr Fen is a mature frogfolk marsh city, not a primitive swamp settlement.",
+      "The Wonder is Polliweir Frog-Dam Choir of the Living Marsh.",
+      "The Beacon is Lock House Beacon.",
+      "The Seat of Power is Reed Bundle Patterns Sovereign Registry Court.",
+      "The five primary districts are Canal / Riverworks, Nursery / Spawning Grounds, Civic Services, Medical / Healing, and Granary / Food Market.",
+      "The uploaded district anchors include Canal / Riverworks Civic Hall, Lock House Beacon, Canal Reflections Monument, Waterwheel Court Nook, Nursery / Spawning Grounds Civic Hall, Nursery Basin, Shell Inlay Monument, Spawning Pool Nook, Civic Services Hall, Relief Hall, Civic Services Lantern Monument, Notice Plaza Nook, Medical / Healing Civic Hall, Healing Hall, Medical Healing Lantern Monument, Apothecary Court Nook, Granary / Food Market Civic Hall, Grain Hall, Awning Monument, and Mill Court Nook."
     ],
     "provisionalCanon": [
-      {
-        "statement": "Pollyr Fen's highest civic virtue is stewardship.",
-        "reason": "The city appears to organize itself around sustaining wetland life, communal nurseries, and careful water use, but virtue language should be tested against more beastfolk cities.",
-        "supportingEvidence": [
-          "nursery pools",
-          "water infrastructure",
-          "integration with reeds and lotus growth",
-          "communal basin spaces"
-        ],
-        "confidence": "medium-high"
-      },
-      {
-        "statement": "Pollyr Fen authority is likely distributed through community, ritual, and control of water infrastructure rather than centralized palace dominance.",
-        "reason": "Authority appears basin-centered and communal in the concept set, but governance should remain provisional until compared across more beastfolk cities.",
-        "supportingEvidence": [
-          "lack of single dominant palace identity",
-          "distributed civic water spaces",
-          "ritual/nursery infrastructure",
-          "public docks and basins"
-        ],
-        "confidence": "medium"
-      }
+      "Pollyr Fen's highest civic virtue is mutual adaptation.",
+      "The contact-sheet pass reinforces the city as a wet, platformed, boat-connected civic marsh rather than wilderness with buildings.",
+      "Nursery, relief, healing, and grain systems should remain emotionally central, not support scenery."
     ],
-    "workingHypotheses": [
-      {
-        "statement": "Beastfolk cities with room to expand may naturally distribute authority across ecological space instead of concentrating it into palace hierarchy.",
-        "reason": "Pollyr Fen and Elarion Thicket both suggest distributed ecological civic life, but this is early and requires many more beastfolk city samples.",
-        "supportingEvidence": [
-          "PFN distributed canal/basin civic spaces",
-          "ETT distributed grove/lodge civic spaces"
-        ],
-        "confidence": "low-medium"
-      }
+    "rejectedReads": [
+      "generic swamp village",
+      "comic frogfolk settlement",
+      "wetland scenery without institutions",
+      "nursery and relief systems as background flavor"
     ],
-    "rejectedHypotheses": [
-      {
-        "statement": "Pollyr Fen is a primitive swamp village.",
-        "reason": "The images strongly contradict this. The city is sophisticated, engineered, spiritual, and economically active.",
-        "supportingEvidence": [
-          "canal infrastructure",
-          "civic halls",
-          "organized markets",
-          "nursery basins",
-          "ritual architecture"
-        ],
-        "confidence": "high"
-      },
-      {
-        "statement": "Pollyr Fen should be written like Venice with frogs added afterward.",
-        "reason": "The city logic is amphibian and wetland-native, not a dry human canal city with frogfolk pasted into it.",
-        "supportingEvidence": [
-          "amphibian movement logic",
-          "wetland vegetation as infrastructure",
-          "water-facing homes and markets",
-          "nursery/spawning civic functions"
-        ],
-        "confidence": "high"
-      }
+    "cautionFlags": [
+      "Keep amphibious movement visible through docks, canals, basins, platforms, and wet thresholds.",
+      "Preserve exact sidecar anchor names.",
+      "Do not let the Frog-Dam Choir erase the civic waterworks, healing, food, and relief systems."
     ]
   },
-  "futureQuestions": [
-    "What is the exact named Wonder and how does it relate to nursery/spawning or basin spirituality?",
-    "How formal is Pollyr Fen's religious structure? Priesthood, elders, water-keepers, or communal ritual specialists?",
-    "How does Pollyr Fen handle law enforcement across canals and rafts?",
-    "What class differences exist between central basin districts and outer reed neighborhoods?",
-    "How does Ariadne's Thread interact with canal/labyrinth imagery in Book 1?",
-    "How do non-amphibian visitors physically adapt to moving through the city?"
+  "environment": {
+    "terrain": ["marsh city", "wet platforms", "reed-lined canals", "raised civic terraces", "boardwalk streets", "dock courts", "lily-pad basins"],
+    "water": ["canals", "lock channels", "nursery pools", "spawning pools", "healing basins", "mill water", "marsh shallows"],
+    "vegetation": ["reeds", "lily pads", "marsh grasses", "healing herbs", "grain market plantings", "wetland shrubs"],
+    "climateLighting": ["misty daylight", "blue-green beacon glow", "wet stone reflections", "warm lanterns", "overcast marsh light", "market awning shade"],
+    "environmentalLogic": "Water is road, risk, food source, nursery, ritual field, and public utility. Pollyr Fen builds with the marsh rather than against it."
+  },
+  "architecture": {
+    "materials": ["reed thatch", "wet stone", "timber piles", "woven fiber", "shell inlay", "bronze fittings", "blue-green lamp glass", "plaster civic walls", "marsh clay"],
+    "forms": ["Reed Bundle Patterns Sovereign Registry Court", "Polliweir Frog-Dam Choir of the Living Marsh", "Canal / Riverworks Civic Hall", "Lock House Beacon", "Canal Reflections Monument", "Waterwheel Court Nook", "Nursery Basin", "Spawning Pool Nook", "Relief Hall", "Notice Plaza Nook", "Healing Hall", "Apothecary Court Nook", "Grain Hall", "Mill Court Nook"],
+    "skyline": ["Frog-Dam Choir wonder rising from marsh water", "Reed Bundle Patterns Sovereign Registry Court as central authority", "Lock House Beacon as waterworks signal", "misty lock towers, granary roofs, healing halls, nursery domes, and reed platforms"],
+    "lighting": ["blue-green beacon light", "lanterns reflected in water", "mist-diffused daylight", "warm healing lamps", "market awning glow"],
+    "infrastructure": ["lock houses", "waterwheels", "canal gates", "boardwalks", "nursery pools", "relief counters", "apothecary courts", "grain halls", "mill courts", "boat landings"],
+    "motifs": ["frog choruses", "reed bundles", "waterwheels", "canal reflections", "shell inlay", "healing lanterns", "grain awnings", "spawning pools"],
+    "colorLanguage": ["marsh green", "reed tan", "wet stone gray", "blue-green civic light", "warm lantern amber", "grain gold"],
+    "textureLanguage": ["slick stone", "woven reeds", "weathered timber", "muddy thresholds", "shell inlay", "wet cloth", "grain sacks"]
+  },
+  "civilization": {
+    "people": "Frogfolk citizens move easily between water and platforms, with public life centered on canal timing, nursery care, food supply, healing, relief, and communal song.",
+    "occupations": ["lock keepers", "waterwheel workers", "nursery tenders", "spawning pool attendants", "relief clerks", "healers", "apothecaries", "grain merchants", "mill workers", "boat operators"],
+    "socialClasses": ["registry officials", "riverworks crews", "nursery families", "healing hall staff", "relief administrators", "grain market houses", "marsh laborers", "boat families"],
+    "governance": "The Reed Bundle Patterns Sovereign Registry Court governs through water rights, nursery protection, relief eligibility, healing duty, and grain provisioning.",
+    "religion": "Religious practice is marsh-choral and life-cycle centered, carried through frog-dam singing, spawning protection, reed-bundle vows, healing lights, and water reflection rites.",
+    "customs": ["lock-bell timing", "nursery hush", "relief notice gathering", "healing lantern lighting", "grain market queueing", "choral marsh assemblies"],
+    "bodyLanguage": ["low platform crouching", "water-comfortable gestures", "communal clustering", "quick glances to water level", "careful movement around pools"],
+    "speechPatterns": ["water-level shorthand", "choral call-and-response", "nursery terms", "relief categories", "grain tallies", "healing instructions"]
+  },
+  "urbanLife": {
+    "streets": {
+      "appearance": "Wet, crowded, layered, and amphibious: boardwalks, canals, reed roofs, lily pads, boats, lock towers, blue lamps, healing stalls, nursery basins, grain awnings, and relief counters fill the image set.",
+      "movement": "Movement follows boats, bridges, boardwalks, lock paths, nursery edges, healing courts, relief plazas, and grain-market platforms.",
+      "sounds": ["frogfolk chorus", "waterwheel creak", "boat poles", "canal water", "market calls", "healing bells", "relief clerks", "grain milling"],
+      "smells": ["wet reeds", "marsh water", "lamp oil", "healing herbs", "grain", "mud", "fish stew"],
+      "lighting": "Mist and wet stone soften daylight while blue-green civic lamps and warm market or healing lanterns guide night movement.",
+      "weatherEffects": "Rain, floodwater, fog, and high marsh levels change access routes and make lock systems essential.",
+      "dayCycle": "Waterworks checks, nursery care, healing errands, relief notices, and grain markets dominate daytime.",
+      "nightCycle": "Night is blue lamps on water, guarded nursery pools, quieter canals, and Frog-Dam song carrying through mist."
+    },
+    "shops": {
+      "common": ["fish stalls", "reed mat sellers", "grain counters", "boat repair stalls", "apothecary tables", "lantern vendors"],
+      "uncommon": ["waterwheel parts counters", "nursery shell-inlay makers", "relief-token copyists", "marsh herb specialists"],
+      "prestigious": ["registry water-right offices", "major grain houses", "healing hall suppliers", "lock-house authorities"],
+      "exports": ["marsh grain", "reed craft", "healing herbs", "waterworks expertise", "fish", "shell inlay"],
+      "imports": ["metal fittings", "dry cloth", "paper", "salt", "rare medicine", "stone"],
+      "streetFood": ["fish stew", "grain cakes", "marsh herb tea", "fried roots", "pond rice", "warm broth"],
+      "services": ["lock scheduling", "boat passage", "nursery care", "healing treatment", "relief filing", "grain weighing", "mill work"]
+    },
+    "housing": {
+      "wealthy": "Raised registry and waterworks homes with dry upper rooms, carved reed screens, shell windows, and private docks.",
+      "middle": "Platform houses near markets, locks, or healing courts with boat hooks, water steps, and shared roofed porches.",
+      "poor": "Low wet platforms, reed-and-wood dwellings, shared docks, waterline storage, and close dependence on relief halls and grain markets."
+    }
+  },
+  "districts": [
+    {"sectionNumber": 1, "name": "Canal / Riverworks", "civicPurpose": "Flood control, lock timing, canal routing, public signal response, and basic movement.", "visualIdentity": "Canal / Riverworks Civic Hall, Lock House Beacon, Canal Reflections Monument, Waterwheel Court Nook, wet steps, boats, and blue-green signal light.", "emotionalIdentity": "practical, wet, urgent, and communal", "gameplayAssetNeeds": ["Canal / Riverworks Civic Hall", "Lock House Beacon", "Canal Reflections Monument", "Waterwheel Court Nook", "boats", "lock workers"], "narrativeUse": ["Beacon warning", "flood routing", "canal delay", "waterworks clue"], "landmark": "Lock House Beacon", "minorLandmarks": ["Canal Reflections Monument", "Waterwheel Court Nook"]},
+    {"sectionNumber": 2, "name": "Nursery / Spawning Grounds", "civicPurpose": "Protected frogfolk life-cycle care, family continuity, and guarded communal vulnerability.", "visualIdentity": "Nursery / Spawning Grounds Civic Hall, Nursery Basin, Shell Inlay Monument, Spawning Pool Nook, low water courts, caregivers, and soft lamps.", "emotionalIdentity": "tender, guarded, sacred, and vulnerable", "gameplayAssetNeeds": ["Nursery / Spawning Grounds Civic Hall", "Nursery Basin", "Shell Inlay Monument", "Spawning Pool Nook", "caregivers", "protected pools"], "narrativeUse": ["family stakes", "nursery warning", "continuity ritual"], "landmark": "Nursery Basin", "minorLandmarks": ["Shell Inlay Monument", "Spawning Pool Nook"]},
+    {"sectionNumber": 3, "name": "Civic Services", "civicPurpose": "Public aid, notices, relief filing, and communal support during water or food stress.", "visualIdentity": "Civic Services Hall, Relief Hall, Civic Services Lantern Monument, Notice Plaza Nook, queues, papers, lanterns, and wet civic paving.", "emotionalIdentity": "strained, helpful, public, and orderly", "gameplayAssetNeeds": ["Civic Services Hall", "Relief Hall", "Civic Services Lantern Monument", "Notice Plaza Nook", "relief clerks", "notice boards"], "narrativeUse": ["public aid", "missing notice", "relief dispute"], "landmark": "Relief Hall", "minorLandmarks": ["Civic Services Lantern Monument", "Notice Plaza Nook"]},
+    {"sectionNumber": 4, "name": "Medical / Healing", "civicPurpose": "Healing, apothecary care, recovery, and marsh medicine.", "visualIdentity": "Medical / Healing Civic Hall, Healing Hall, Medical Healing Lantern Monument, Apothecary Court Nook, herb tables, boats, and warm lamps.", "emotionalIdentity": "restorative, damp, careful, and compassionate", "gameplayAssetNeeds": ["Medical / Healing Civic Hall", "Healing Hall", "Medical Healing Lantern Monument", "Apothecary Court Nook", "healers", "herb stalls"], "narrativeUse": ["triage", "medicine clue", "recovery scene"], "landmark": "Healing Hall", "minorLandmarks": ["Medical Healing Lantern Monument", "Apothecary Court Nook"]},
+    {"sectionNumber": 5, "name": "Granary / Food Market", "civicPurpose": "Food security, grain storage, mill work, markets, and marshland provisioning.", "visualIdentity": "Granary / Food Market Civic Hall, Grain Hall, Awning Monument, Mill Court Nook, sacks, boats, awnings, and market crowds.", "emotionalIdentity": "busy, nourishing, accountable, and loud", "gameplayAssetNeeds": ["Granary / Food Market Civic Hall", "Grain Hall", "Awning Monument", "Mill Court Nook", "grain sacks", "market workers"], "narrativeUse": ["food shortage", "grain tally", "market pressure"], "landmark": "Grain Hall", "minorLandmarks": ["Awning Monument", "Mill Court Nook"]}
   ],
-  "comparativeNotes": {
-    "distinctFrom": [
-      {
-        "cityCode": "AQM",
-        "difference": "AQM organizes the coast into civic harbor order; Pollyr Fen reveals wetland structure and builds civic life around water itself."
-      },
-      {
-        "cityCode": "LUM",
-        "difference": "Luminthalas curates nature into formal beauty; Pollyr Fen allows nature to remain active infrastructure."
-      },
-      {
-        "cityCode": "SPK",
-        "difference": "Skyrend Peak concentrates power vertically because geography demands height; Pollyr Fen spreads civic life horizontally through waterways."
-      },
-      {
-        "cityCode": "KVM",
-        "difference": "Khaz Vorem engineers stone to support design; Pollyr Fen adapts design to water's movement."
-      }
-    ],
-    "similarTo": [
-      {
-        "cityCode": "ETT",
-        "similarity": "Both appear to distribute civic life through ecological systems rather than concentrating all authority in one dominant palace."
-      },
-      {
-        "cityCode": "NVR",
-        "similarity": "Both show civilization transforming or being transformed by an existing natural environment, though PFN is harmonious while NVR is more conflicted."
-      }
-    ],
-    "uniqueContributions": [
-      "clearest current example of species anatomy driving city infrastructure",
-      "strongest immediate model for water-as-street narrative writing",
-      "strongest visual evidence so far for spiritual ecology",
-      "major upgrade to Book 1 Ariadne/thread/labyrinth environmental language"
-    ],
-    "potentialInfluences": [
-      "Book 1 Pollyr Fen investigation scenes",
-      "Ariadne's Thread environmental symbolism",
-      "future wetland and amphibian asset prompts",
-      "beastfolk governance hypothesis tracking",
-      "Mother's observation that civilizations produce unpredicted ecological solutions"
+  "landmarks": {
+    "wonder": {"name": "Polliweir Frog-Dam Choir of the Living Marsh", "symbolicRole": "Marsh, voice, dam, community, and frogfolk life made monumental.", "visualRole": "Wonder-scale frog-dam choir structure rising from water, reed platforms, and misty marsh civic routes.", "civicRole": "Citywide gathering site for marsh songs, seasonal water rites, flood memory, and communal reassurance.", "narrativeUse": ["choral public rite", "flood memory", "citywide gathering"], "assetUse": ["map wonder", "marsh skyline anchor"], "sensoryIdentity": ["frog chorus", "mist", "water movement", "reed smell"], "storyHooks": ["A choir pattern warns the marsh before officials do."]},
+    "beacon": {"name": "Lock House Beacon", "symbolicRole": "Water control and public warning made one signal.", "visualRole": "Blue-green beacon rising from lock-house waterworks and canal crossings.", "civicRole": "Coordinates flood response, boat routes, nursery protection, relief halls, healing, and grain movement.", "narrativeUse": ["Beacon change", "lock crisis", "flood warning"], "assetUse": ["S1 centerpiece", "signal marker"], "sensoryIdentity": ["blue-green glow", "wet stone", "turning locks"], "storyHooks": ["A Beacon change forces every boat, nursery, and granary route to recalculate."]},
+    "seatOfPower": {"name": "Reed Bundle Patterns Sovereign Registry Court", "symbolicRole": "Wetland law bundled from water, family, food, and care obligations.", "visualRole": "Central court with reed-bundle patterns, wet terraces, civic stairs, registry counters, and marsh-facing authority.", "civicRole": "Governs water rights, nursery protections, relief status, grain measures, healing obligations, and public petitions.", "narrativeUse": ["water-right hearing", "relief dispute", "registry ruling"], "assetUse": ["seat-of-power marker"], "sensoryIdentity": ["reed fiber", "ink", "wet stone", "quiet water"], "storyHooks": ["A reed-bundle entry decides whether a family is owed dry ground or open water."]},
+    "majorLandmarks": [
+      {"name": "Nursery Basin", "symbolicRole": "Life protected by public infrastructure.", "visualRole": "Shell-inlaid water basin with spawning pool nook, caregivers, low walls, and soft lamps.", "civicRole": "Life-cycle care, nursery protection, and family continuity.", "narrativeUse": ["family stakes", "protected vulnerability"], "assetUse": ["S2 diorama"], "sensoryIdentity": ["warm water", "shell", "soft voices"], "storyHooks": ["A nursery water change makes a canal decision morally urgent."]},
+      {"name": "Relief Hall", "symbolicRole": "Marsh care organized as public duty.", "visualRole": "Service hall with lantern monument, notice plaza, queues, and wet paving.", "civicRole": "Relief, notices, public aid, and response coordination.", "narrativeUse": ["aid dispute", "missing notice"], "assetUse": ["S3 diorama"], "sensoryIdentity": ["paper", "lamp oil", "wet boots"], "storyHooks": ["A notice proves the marsh counted someone before the registry did."]},
+      {"name": "Healing Hall", "symbolicRole": "Recovery rooted in wetland knowledge.", "visualRole": "Healing hall with apothecary court, lantern monument, herbs, and water access.", "civicRole": "Medical care, apothecary work, triage, and recovery.", "narrativeUse": ["triage", "medicine clue"], "assetUse": ["S4 diorama"], "sensoryIdentity": ["herbs", "warm lamps", "marsh water"], "storyHooks": ["A marsh remedy explains what official medicine missed."]},
+      {"name": "Grain Hall", "symbolicRole": "Food security on wet ground.", "visualRole": "Granary and food market with awning monument, mill court, sacks, boats, and market tables.", "civicRole": "Grain storage, market distribution, milling, and food accountability.", "narrativeUse": ["grain shortage", "food tally"], "assetUse": ["S5 diorama"], "sensoryIdentity": ["grain dust", "wet wood", "market noise"], "storyHooks": ["A mill tally reveals why the city fears a dry season more than a flood."]}
     ]
   },
-  "crossCityTags": [
-    "frogfolk",
-    "wetland-city",
-    "water-as-street",
-    "hidden-architecture",
-    "amphibian-infrastructure",
-    "floating-market",
-    "spiritual-ecology",
-    "nursery-basins",
-    "lantern-reflections",
-    "distributed-authority",
-    "established-civilization",
-    "adaptive-settlement"
-  ],
-  "evolution": {
-    "previousAssumptions": [
-      "Pollyr Fen was expected to be a frogfolk swamp city.",
-      "The city was associated with wetland terrain and Ariadne's Thread, but the full civic logic was not yet clear."
+  "assetGuidance": {
+    "districtDioramaGuidance": [
+      "S1 must show Canal / Riverworks Civic Hall, Lock House Beacon, Canal Reflections Monument, Waterwheel Court Nook, boats, lock workers, wet platforms, and canal water.",
+      "S2 must show Nursery / Spawning Grounds Civic Hall, Nursery Basin, Shell Inlay Monument, Spawning Pool Nook, caregivers, protected pools, and soft lamps.",
+      "S3 must show Civic Services Hall, Relief Hall, Civic Services Lantern Monument, Notice Plaza Nook, queues, notices, and wet civic paving.",
+      "S4 must show Medical / Healing Civic Hall, Healing Hall, Medical Healing Lantern Monument, Apothecary Court Nook, herb stalls, and canal access.",
+      "S5 must show Granary / Food Market Civic Hall, Grain Hall, Awning Monument, Mill Court Nook, sacks, boats, awnings, and market crowds."
     ],
-    "discoveries": [
-      "Pollyr Fen is not merely in a swamp; it is built around the swamp's hidden architecture.",
-      "Water functions as street, market, ritual space, nursery, and civic infrastructure.",
-      "The city is far more spiritual than expected, especially around basins, nurseries, lotus imagery, and lantern-lit water.",
-      "Frogfolk anatomy and movement shape every level of urban design.",
-      "The city is sophisticated and engineered without becoming dry, stone-dominant, or human-like."
+    "mapBackgroundGuidance": [
+      "Keep Polliweir Frog-Dam Choir of the Living Marsh, Lock House Beacon, and Reed Bundle Patterns Sovereign Registry Court legible together.",
+      "Use a dense amphibious marsh city with canals, boats, lily pads, wet stone, reed roofs, public care halls, nursery basins, healing courts, and grain markets."
     ],
-    "confirmedAssumptions": [
-      "Pollyr Fen should be visually and narratively distinct from dry capitals like AQM and LUM.",
-      "Wetland identity is central and should not be treated as background.",
-      "The city strongly supports Book 1's thread/labyrinth/mystery logic."
-    ],
-    "changedOurMind": [
-      "Do not describe Pollyr Fen as a swamp settlement or primitive wet village.",
-      "Do not treat canals as decoration; they are the city's operating system.",
-      "Give Pollyr Fen stronger spiritual and communal weight in narrative than originally assumed."
-    ],
-    "futureValidation": [
-      "Compare PFN against additional beastfolk cities to test distributed authority and ecological governance patterns.",
-      "Review the sidecars to name specific Wonder, Beacon, and section landmarks more precisely in future versions.",
-      "Revisit Book 1 Pollyr Fen chapters to replace generic swamp imagery with water-infrastructure narrative specificity."
-    ]
+    "requiredVisualElements": ["frogfolk citizens", "Polliweir Frog-Dam Choir of the Living Marsh", "Lock House Beacon", "Reed Bundle Patterns Sovereign Registry Court", "Canal Reflections Monument", "Waterwheel Court Nook", "Nursery Basin", "Shell Inlay Monument", "Spawning Pool Nook", "Relief Hall", "Civic Services Lantern Monument", "Notice Plaza Nook", "Healing Hall", "Medical Healing Lantern Monument", "Apothecary Court Nook", "Grain Hall", "Awning Monument", "Mill Court Nook"],
+    "elementsToAvoid": ["generic swamp village", "comic frogfolk caricature", "dry streets with no amphibious movement", "nursery and relief spaces hidden", "wetland scenery without civic systems"]
   }
 }

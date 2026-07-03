@@ -1,631 +1,785 @@
 {
-  "schemaVersion": 1,
-  "analysisVersion": 1,
-  "cityCode": "DLS",
-  "cityName": "Dunmere Locks",
-  "analysisConfidence": "strong-lock",
-  "analysisDate": "2026-06-30",
-  "analystVersion": "gpt-5.5-thinking",
-  "basedOnImages": [
-    "DLS-HERO-NE-v001",
-    "DLS-HERO-NW-v001",
-    "DLS-HERO-SE-v001",
-    "DLS-HERO-SW-v001",
-    "DLS-STREET-S1-v001",
-    "DLS-STREET-S2-v001",
-    "DLS-STREET-S3-v001",
-    "DLS-STREET-S4-v001",
-    "DLS-STREET-S5-v001"
-  ],
-  "summary": {
-    "oneSentence": "Dunmere Locks is a river-engineering beastfolk city where canals, lock gates, pumping halls, towpaths, mills, quays, brick workshops, and semi-aquatic daily life turn water control into civic identity.",
-    "identityStatement": "Dunmere Locks should read as a mature waterworks civilization built by semi-aquatic riverfolk who do not merely live beside water. They regulate, negotiate, maintain, and inhabit it through locks, canals, raised paths, mills, flood systems, and communal labor."
-  },
-  "evidence": {
-    "civilizationMaturity": {
-      "ageExpression": "established-to-ancient",
-      "evidence": [
-        "city identity is organized around canals, lock gates, quays, mills, raised towpaths, and pumping halls",
-        "public and industrial infrastructure appear integrated into everyday civic life rather than isolated utilities",
-        "brick, timber, iron, slate, and heavy oak structures suggest long-term maintenance culture",
-        "semi-aquatic movement appears normalized through docks, ramps, water steps, and low canal-edge public spaces"
-      ]
-    },
-    "architecturalLanguage": {
-      "materials": [
-        "brick",
-        "heavy oak",
-        "timber beams",
-        "stone canal walls",
-        "iron fittings",
-        "slate roofs",
-        "wet cobbles",
-        "rope",
-        "water-darkened wood",
-        "reed and shell details"
-      ],
-      "forms": [
-        "lock gates",
-        "canal basins",
-        "water mills",
-        "merchant quays",
-        "brick workshops",
-        "raised towpaths",
-        "pumping halls",
-        "sluice towers",
-        "dock stairs",
-        "arched bridges",
-        "timber gantries",
-        "warehouse fronts"
-      ],
-      "skyline": [
-        "low industrial brick and slate massing",
-        "pumping hall and lock-tower silhouettes",
-        "water wheels and gantries defining civic landmarks",
-        "bridges and canal edges more important than spires",
-        "chimneys, mills, and civic waterworks forming practical vertical rhythm"
-      ],
-      "lighting": [
-        "soft overcast daylight",
-        "fog-diffused canal light",
-        "lanterns reflected in water",
-        "warm workshop windows",
-        "blue civic or beacon light near locks",
-        "mist-filtered morning glow"
-      ],
-      "infrastructure": [
-        "locks",
-        "sluices",
-        "canals",
-        "raised towpaths",
-        "merchant quays",
-        "flood gates",
-        "water wheels",
-        "pumping systems",
-        "dock ramps",
-        "bridge networks",
-        "drainage channels",
-        "barge routes"
-      ],
-      "visualPatterns": [
-        "water management is civic identity",
-        "infrastructure is public and constantly maintained",
-        "commerce, industry, and ecology meet at canal edges",
-        "semi-aquatic bodies shape thresholds, ramps, docks, and public movement",
-        "the city feels practical, damp, communal, and engineered rather than ornamental"
-      ],
-      "recurringMotifs": [
-        "water wheels",
-        "reeds",
-        "canals",
-        "lock beams",
-        "river shells",
-        "ripples",
-        "interlocking beams",
-        "sluice mechanisms",
-        "barges",
-        "lantern reflections"
-      ]
-    },
-    "environmentalRelationship": {
-      "observed": "Dunmere Locks treats water as a negotiated force. The city neither surrenders to flooding nor pretends water can be ignored; it survives by maintaining systems that keep river movement civic and productive.",
-      "evidence": [
-        "lock gates and canal basins define the city identity",
-        "raised towpaths and ramps manage amphibious and dry movement together",
-        "mills, pumping halls, and quays show water as industry and commerce",
-        "wetland/riverside vegetation remains present along engineered edges"
-      ]
-    },
-    "authorityExpression": {
-      "observed": "Authority appears infrastructural, guild-practical, and maintenance-based. Power belongs to those who control locks, pumps, flood gates, barge routes, and public water safety.",
-      "evidence": [
-        "civic landmarks are waterworks rather than palaces or temples",
-        "public safety depends on functioning lock and flood systems",
-        "merchant quays and workshops are tied to civic infrastructure",
-        "water control is both economic and political leverage"
-      ]
-    },
-    "commercialSpaces": [
-      "merchant quays",
-      "barge markets",
-      "fish stalls",
-      "timber and beam yards",
-      "rope shops",
-      "mill grain counters",
-      "brick workshops",
-      "iron fitting stalls",
-      "reed and shell vendors",
-      "canal toll offices"
+  "metadata": {
+    "schemaVersion": "2.0",
+    "analysisVersion": 2,
+    "cityCode": "DLS",
+    "cityName": "Dunmere Locks",
+    "analysisDate": "2026-07-03",
+    "analystVersion": "gpt-5.5-thinking",
+    "analysisConfidence": "strong-lock",
+    "basedOnImages": [
+      "DLS-HERO-NE-v001",
+      "DLS-HERO-NW-v001",
+      "DLS-HERO-SE-v001",
+      "DLS-HERO-SW-v001",
+      "DLS-STREET-S1-v001",
+      "DLS-STREET-S2-v001",
+      "DLS-STREET-S3-v001",
+      "DLS-STREET-S4-v001",
+      "DLS-STREET-S5-v001"
     ],
-    "publicSpaces": [
-      "lock plazas",
-      "canal bridges",
-      "towpath markets",
-      "pumping hall forecourts",
-      "mill yards",
-      "quay steps",
-      "floodgate platforms",
-      "barge basins",
-      "lantern-lit canal walks",
-      "dock commons"
-    ],
-    "districtCharacter": {
-      "lockDistrict": "civic heart of gates, beams, sluices, water control, public safety, and signal identity",
-      "merchantQuays": "trade-facing district of barges, warehouses, tolls, market goods, and canal traffic",
-      "millAndWorkshopQuarter": "industrial district of water wheels, brick workshops, iron fittings, grain, timber, and maintenance labor",
-      "residentialCanals": "semi-aquatic neighborhood life with ramps, wet steps, low doors, raised paths, and water-edge homes",
-      "floodplainEdges": "more ecological, reed-lined, practical districts where water, gardens, fields, and civic drainage meet"
-    }
-  },
-  "narrativeTranslation": {
-    "streets": {
-      "description": "Dunmere Locks streets should often be towpaths, canal edges, wet cobbles, bridge crossings, lock platforms, quay roads, and raised walkways. Dry movement and water movement coexist constantly.",
-      "writingGuidance": [
-        "Do not write the city as a generic canal town; make lock mechanics, flood control, and water labor visible.",
-        "Use wet stone, creaking beams, sluice sounds, barges, ramps, and reflected lanterns as recurring texture.",
-        "Let characters move differently depending on body type: semi-aquatic locals can use water thresholds and canal shortcuts naturally.",
-        "Make maintenance culture visible: repairs, inspections, beam crews, pump workers, and toll clerks."
-      ]
-    },
-    "people": {
-      "description": "Citizens should feel practical, communal, and water-literate. Otters, beavers, capybaras, and other riverfolk know currents, lock schedules, safe crossings, and flood warnings as ordinary civic knowledge.",
-      "behavioralNotes": [
-        "people pause for lock operations the way others pause for traffic",
-        "workers treat water levels as public information",
-        "children learn canal safety and swimming routes early",
-        "commerce depends on timing, cooperation, and maintenance discipline"
-      ]
-    },
-    "shops": {
-      "examples": [
-        "rope makers",
-        "timber yards",
-        "barge repair shops",
-        "fish markets",
-        "mill grain stalls",
-        "iron fitting counters",
-        "lantern sellers",
-        "reed basket shops",
-        "waterproof cloth vendors",
-        "lock-token offices",
-        "shell-carving stalls",
-        "bridge toll kiosks"
-      ],
-      "writingGuidance": "Shops should support canal life and waterwork: repair, trade, food, locks, rope, grain, timber, iron, waterproofing, and barge movement."
-    },
-    "homes": {
-      "description": "Homes should be brick, timber, and stone structures built at canal scale, with low water steps, ramps, raised thresholds, storage hooks, wet rooms, small gardens, and balconies over water.",
-      "writingGuidance": [
-        "Use homes that face both path and canal, since water is a second front door.",
-        "Show domestic adaptation to dampness: boot racks, drainage, hanging nets, warmed hearth rooms, and water-safe storage."
-      ]
-    },
-    "publicLife": {
-      "dailyRhythms": [
-        "morning fog over lock basins",
-        "first lock operations and barge queues",
-        "market stalls opening along towpaths",
-        "mill wheels turning through midday",
-        "pump and beam inspections",
-        "afternoon merchant traffic at quays",
-        "evening lanterns reflected in canals",
-        "night flood-watch or gate checks during storms"
-      ],
-      "commonActivities": [
-        "operating lock gates",
-        "poling barges",
-        "mending ropes",
-        "unloading timber and grain",
-        "repairing beams",
-        "checking water levels",
-        "cleaning canals",
-        "selling fish",
-        "opening flood gates",
-        "crossing bridges and towpaths"
-      ]
-    },
-    "sounds": [
-      "water slapping stone walls",
-      "lock beams creaking",
-      "sluices rushing",
-      "water wheels turning",
-      "barge poles knocking wood",
-      "chains and iron fittings",
-      "fog-muted market calls",
-      "bridge footsteps",
-      "rope strain",
-      "lantern glass tapping in damp wind"
-    ],
-    "smells": [
-      "river water",
-      "wet timber",
-      "brick after rain",
-      "fish",
-      "rope tar",
-      "grain dust",
-      "lamp oil",
-      "reeds",
-      "iron rust",
-      "hearth smoke"
-    ],
-    "lighting": {
-      "day": "Daylight should be soft and often overcast, turning water surfaces into muted mirrors and making brick, slate, and wet timber feel grounded.",
-      "night": "Lanterns and civic lights should reflect in canals, doubling movement and making lock gates visible in darkness.",
-      "weather": "Fog, drizzle, and flood rain should matter operationally. Weather changes routes, lock timing, crowding, and public anxiety."
-    },
-    "transportation": {
-      "description": "Transportation is barge, canal, towpath, bridge, and ramp based. Water routes are not scenic; they are the city's main logistics network.",
-      "writingGuidance": [
-        "Use lock delays and barge queues as natural scene beats.",
-        "Let locals take canal shortcuts outsiders do not understand.",
-        "Show goods moving by water before cart whenever possible."
-      ]
-    },
-    "children": {
-      "description": "Children should grow up around waterwork: learning lock danger, swimming routes, towpath rules, barge signals, and how not to get caught near opening gates."
-    },
-    "craftsmen": {
-      "description": "Craftsmen are waterwork specialists: lockwrights, millers, beam carpenters, iron fitters, barge builders, rope makers, brick masons, pump keepers, reed workers, and flood engineers."
-    },
-    "markets": {
-      "description": "Markets should cluster on towpaths, quays, bridge approaches, and basin edges, with goods unloaded directly from barges: fish, grain, timber, rope, tools, reeds, baskets, cloth, and mill products."
-    },
-    "food": {
-      "examples": [
-        "river fish stew",
-        "barley bread",
-        "grain porridge",
-        "smoked fish",
-        "reed-wrapped parcels",
-        "root vegetables",
-        "dockside soup",
-        "fresh water greens",
-        "mill cakes"
-      ]
-    },
-    "companionObservations": {
-      "addie": [
-        "notices repeated lock schedules, water-level marks, toll phrases, and public warnings",
-        "stores routes by waterwork sequence: basin, bridge, towpath, lock, mill, quay",
-        "connects local oral directions to operational civic knowledge rather than street names"
-      ],
-      "gregory": [
-        "reads lock, wheel, shell, ripple, and interlocking beam motifs as symbols of cooperation and controlled flow",
-        "notices how civic ritual may be tied to opening, closing, and flood timing"
-      ],
-      "brickett": [
-        "spots loose planks, bad seals, hidden culverts, service ladders, low tunnels, and maintenance gaps others ignore",
-        "understands immediately where a small body could bypass official lock routes"
-      ],
-      "talandra": [
-        "reads locks and bridges as chokepoints, canals as uncontrolled access, and floodgates as strategic risk",
-        "worries about crowd panic near water and moving gates"
-      ],
-      "mae": [
-        "notices toll leverage, barge contracts, warehouse control, lock priority, and who profits from delays",
-        "understands that controlling water timing controls commerce"
-      ],
-      "genericCompanionNotes": [
-        "Outsiders should be slowed by locks and confused by water-route logic.",
-        "The city should feel safer to locals than to visitors because locals understand the water."
-      ]
-    }
-  },
-  "arrivalExperience": {
-    "firstImpression": "A visitor should first experience Dunmere Locks through damp air, fogged canal light, creaking gates, water wheels, brick warehouses, raised towpaths, and riverfolk moving comfortably between path, dock, and water.",
-    "firstHourSequence": [
-      "mist over canals and lock basins",
-      "first sight of heavy oak lock gates and water wheels",
-      "pause for a barge queue or opening sluice",
-      "crossing a bridge or raised towpath into market traffic",
-      "seeing pumping halls and brick workshops as civic landmarks",
-      "realizing that the city is governed by water timing as much as by officials"
-    ],
-    "readerEffect": "The reader should feel that water here is not backdrop. It is schedule, street, law, economy, danger, and civic pride."
-  },
-  "departureMemory": {
-    "readerShouldRemember": [
-      "heavy oak lock gates",
-      "brick and timber waterworks",
-      "lanterns reflected in canals",
-      "semi-aquatic citizens moving naturally through wet thresholds",
-      "water wheels and pumping halls",
-      "towpath markets and barge queues",
-      "a city where maintenance is civilization"
+    "basedOnSidecars": [
+      "DLS-HERO-NE-v001.json",
+      "DLS-HERO-NW-v001.json",
+      "DLS-HERO-SE-v001.json",
+      "DLS-HERO-SW-v001.json",
+      "DLS-STREET-S1-v001.json",
+      "DLS-STREET-S2-v001.json",
+      "DLS-STREET-S3-v001.json",
+      "DLS-STREET-S4-v001.json",
+      "DLS-STREET-S5-v001.json"
     ]
   },
-  "landmarkAnalysis": {
-    "wonder": {
-      "purpose": "The Wonder should embody the greatest civic waterwork of Dunmere Locks: a structure where lock engineering, flood safety, commerce, and communal pride converge.",
-      "visualDescription": "A monumental lock, pumping hall, or waterwheel complex of brick, oak, iron, stone, and flowing water, visible as both machine and civic monument.",
-      "narrativeUse": "Use the Wonder to show that Dunmere's greatness lies in making water reliable without pretending it is tame.",
-      "howCharactersNoticeIt": {
-        "addie": "notices inscriptions, repair dates, water marks, and repeated civic phrases about flow and duty",
-        "gregory": "reads interlocking beams and wheels as symbols of cooperation and measured force",
-        "brickett": "spots maintenance ladders, culverts, seals, patched beams, and overlooked access routes",
-        "talandra": "sees a strategic asset that could save or drown districts depending on control",
-        "mae": "recognizes that whoever controls the Wonder controls shipping, flood safety, and public trust"
-      },
-      "commonActivities": [
-        "lock ceremonies",
-        "flood-watch rites",
-        "public maintenance days",
-        "barge processions",
-        "water-level announcements",
-        "merchant negotiations"
+  "cityDNA": {
+    "coreFantasy": "A semi-aquatic riverfolk lock-city where canals, shell-window government, public relief, food storage, healing basins, and nursery waters make maintenance into civilization.",
+    "primaryEmotion": "patient resilience",
+    "secondaryEmotion": "communal care",
+    "readerTakeaway": "Dunmere Locks is not just a scenic canal town; it is a civic water machine where every lock, basin, market, clinic, and nursery is part of public survival.",
+    "civilizationThesis": "Dunmere Locks turns controlled flow into social duty: riverworks manage passage, grain halls manage provision, relief halls manage public need, healing halls manage bodies, and nursery basins protect future generations.",
+    "visualIdentity": "Wet stone canals, brick and shell-trim civic halls, arched bridges, domed water palaces, lock wheels, blue basin lights, reed edges, towpaths, grain markets, medical courts, nursery pools, and shell spiral windows.",
+    "culturalIdentity": "A riverfolk civic culture of lock keepers, basin tenders, grain merchants, relief clerks, healers, nursery guardians, boat crews, and water engineers trained to treat maintenance as moral authority.",
+    "symbolicIdentity": "Locks, shell spirals, turning wheels, blue basin light, grain halls, lantern monuments, apothecary courts, spawning pools, reeds, ropes, and wet stone symbolize life kept moving without letting flood, hunger, illness, or neglect take control."
+  },
+  "canon": {
+    "canonLocks": [
+      "Dunmere Locks is a mature semi-aquatic riverfolk waterworks city.",
+      "The Wonder is the Riverfolk Lockwheel Palace of Turning Waters.",
+      "The Beacon is the Lock House Beacon.",
+      "The Seat of Power is the Shell Spiral Windows Tide-Seal Citadel.",
+      "The five primary districts are Canal / Riverworks, Granary / Food Market, Civic Services, Medical / Healing, and Nursery / Spawning Grounds.",
+      "The city's civic identity depends on care infrastructure as much as engineering infrastructure."
+    ],
+    "provisionalCanon": [
+      "Dunmere Locks' highest civic virtue is upkeep: keeping water, food, records, bodies, and children safe through shared maintenance.",
+      "The city likely measures status by reliability in crisis rather than by ornament or conquest.",
+      "The nursery basins are emotionally and politically central, not peripheral domestic scenery."
+    ],
+    "rejectedReads": [
+      "Dunmere Locks is only a scenic canal settlement.",
+      "The city is purely industrial and lacks social care systems.",
+      "Riverfolk identity should be treated as rustic or primitive.",
+      "The nursery and healing districts are optional support spaces rather than core civic identity."
+    ],
+    "cautionFlags": [
+      "Keep waterworks, grain provision, civic relief, healing, and nursery protection visible together.",
+      "Do not replace the uploaded district set with generic mills, merchant quays, or residential towpaths as primary districts.",
+      "Use practical beauty: domes, shell windows, and blue lights should still feel tied to wet civic labor.",
+      "Show semi-aquatic movement through ramps, docks, basins, wet stairs, towpaths, boats, and water-edge social life."
+    ]
+  },
+  "environment": {
+    "terrain": [
+      "low river city",
+      "canal basins",
+      "lock cores",
+      "raised towpaths",
+      "bridge streets",
+      "quays",
+      "civic terraces above water",
+      "wet market courts"
+    ],
+    "water": [
+      "locks",
+      "canals",
+      "sluices",
+      "nursery basins",
+      "spawning pools",
+      "healing pools",
+      "market-edge water",
+      "dock stairs",
+      "flood channels",
+      "blue-lit basin water"
+    ],
+    "vegetation": [
+      "reeds",
+      "canal grasses",
+      "wetland edges",
+      "apothecary herbs",
+      "nursery basin plants",
+      "market garden produce",
+      "moss on stone",
+      "riverbank shrubs"
+    ],
+    "climateLighting": [
+      "soft overcast daylight",
+      "fog-diffused canal light",
+      "lanterns reflected in water",
+      "blue civic light near locks and basins",
+      "warm grain-market lanterns",
+      "clean healing-hall glow",
+      "mist-filtered morning light"
+    ],
+    "environmentalLogic": "Water is route, risk, medicine, nursery, food logistics, and government subject. The city's layout bends around keeping water usable: locks control passage, basins protect life, markets stay near transport, and civic halls sit where they can coordinate flood, hunger, illness, and crowd movement."
+  },
+  "architecture": {
+    "materials": [
+      "brick",
+      "wet stone",
+      "stone canal walls",
+      "heavy oak",
+      "water-darkened timber",
+      "iron fittings",
+      "slate roofs",
+      "shell inlay",
+      "blue glass lamps",
+      "reed screens",
+      "rope",
+      "bronze valves",
+      "white civic plaster",
+      "clay grain jars"
+    ],
+    "forms": [
+      "lock houses",
+      "canal riverworks halls",
+      "lockwheel palace domes",
+      "shell spiral window citadel courts",
+      "grain halls",
+      "covered food markets",
+      "relief halls",
+      "notice plazas",
+      "healing halls",
+      "apothecary courts",
+      "nursery basins",
+      "spawning pools",
+      "arched bridges",
+      "raised towpaths",
+      "dock stairs",
+      "sluice towers",
+      "waterwheel courts",
+      "lantern monuments"
+    ],
+    "skyline": [
+      "Riverfolk Lockwheel Palace of Turning Waters as the great domed waterworks wonder",
+      "Shell Spiral Windows Tide-Seal Citadel as central civic authority",
+      "Lock House Beacon as the water-control signal landmark",
+      "Nursery Basin, Healing Hall, Relief Hall, and Grain Hall forming a visible care-infrastructure skyline",
+      "low brick halls, blue-lit towers, arched bridges, shell windows, and wet domes spread across canal water"
+    ],
+    "lighting": [
+      "fog-diffused daylight",
+      "blue lockhouse signal light",
+      "lantern reflections in canal water",
+      "warm market awning light",
+      "healing-hall lamp glow",
+      "nursery basin blue-green light",
+      "mist-softened civic windows"
+    ],
+    "infrastructure": [
+      "locks",
+      "sluices",
+      "canals",
+      "riverworks halls",
+      "raised towpaths",
+      "dock stairs",
+      "waterwheel courts",
+      "grain storage",
+      "covered food markets",
+      "relief notice plazas",
+      "medical basins",
+      "apothecary stalls",
+      "nursery pools",
+      "spawning-ground walkways",
+      "flood controls"
+    ],
+    "motifs": [
+      "lock wheels",
+      "shell spiral windows",
+      "blue basin light",
+      "canal reflections",
+      "grain scales",
+      "lantern monuments",
+      "apothecary jars",
+      "shell inlay",
+      "spawning pools",
+      "reeds",
+      "ropes",
+      "water gauges"
+    ],
+    "colorLanguage": [
+      "wet brick red",
+      "slate gray",
+      "dark water green",
+      "shell white",
+      "blue civic glow",
+      "lantern amber",
+      "reed green",
+      "iron black"
+    ],
+    "textureLanguage": [
+      "slick canal stone",
+      "water-dark oak",
+      "rough brick",
+      "polished shell inlay",
+      "rope fiber",
+      "reed matting",
+      "mist-softened plaster",
+      "clay grain jars",
+      "cool apothecary tile"
+    ]
+  },
+  "civilization": {
+    "people": "Citizens are semi-aquatic riverfolk: water-literate, patient, practical, care-minded, and accustomed to reading civic health through water levels, food stores, relief queues, healing basins, and nursery safety.",
+    "occupations": [
+      "lock keepers",
+      "riverworks engineers",
+      "sluice workers",
+      "waterwheel tenders",
+      "grain hall clerks",
+      "food market sellers",
+      "mill court workers",
+      "relief hall clerks",
+      "notice plaza criers",
+      "healers",
+      "apothecaries",
+      "basin attendants",
+      "nursery guardians",
+      "spawning pool keepers",
+      "boat crews",
+      "reed workers",
+      "flood watchers"
+    ],
+    "socialClasses": [
+      "tide-seal officials and Shell Spiral Citadel administrators",
+      "riverworks families and lockhouse crews",
+      "grain hall merchants and mill court stewards",
+      "relief administrators and civic service clerks",
+      "healers, apothecaries, and basin specialists",
+      "nursery guardians and spawning-ground families",
+      "boat crews, dock workers, reed-edge residents, and market laborers"
+    ],
+    "governance": "Authority is tide-sealed and service-oriented. The Citadel governs water rights, lock schedules, grain distribution, public relief, medical response, nursery protection, flood warnings, and civic maintenance obligations.",
+    "religion": "Religious expression is practical and water-facing: canal blessings, basin rites, nursery protection vows, healing-water customs, flood remembrance, shell spiral symbolism, and gratitude ceremonies at the Lockwheel Palace.",
+    "customs": [
+      "checking water levels before business or travel",
+      "public respect for lock schedules",
+      "grain weights treated as civic trust",
+      "relief notices read aloud in plazas",
+      "healing basins kept quiet and clean",
+      "nursery waters treated as protected civic space",
+      "flood response considered communal duty",
+      "blue lockhouse light watched as a public condition"
+    ],
+    "bodyLanguage": [
+      "steady footing on slick stone",
+      "habitual glances toward water gauges",
+      "comfortable crouching at basin edges",
+      "hand signals across locks and bridges",
+      "protective posture near nursery pools",
+      "patient queueing at grain, relief, and healing halls"
+    ],
+    "speechPatterns": [
+      "water-level shorthand",
+      "maintenance terminology",
+      "grain-weight and ration language",
+      "direct worksite instructions",
+      "soft healing-hall speech",
+      "formal tide-seal phrasing",
+      "nursery-protection idioms"
+    ]
+  },
+  "urbanLife": {
+    "streets": {
+      "appearance": "Wet, brick, blue-lit, and civic-minded: lock houses, canal reflections, grain awnings, relief notice boards, healing halls, apothecary courts, nursery basins, shell windows, arched bridges, and reed-edged water all share the same street life.",
+      "movement": "Movement happens by towpath, boat, bridge, dock stair, basin walkway, market arcade, relief plaza, healing court, and nursery route. Water levels and civic schedules shape traffic as much as roads do.",
+      "sounds": [
+        "water through locks",
+        "lock chains",
+        "boat poles",
+        "grain scoops and scales",
+        "market calls under awnings",
+        "relief notices being read",
+        "apothecary jars clinking",
+        "quiet nursery water",
+        "lantern chains",
+        "rain on slate"
       ],
-      "visibilityFromCity": "Visible through canals, bridge alignments, and water routes more than through skyline height."
+      "smells": [
+        "wet brick",
+        "river water",
+        "rope tar",
+        "milled grain",
+        "market bread",
+        "reed mats",
+        "apothecary herbs",
+        "lamp oil",
+        "moss",
+        "clean basin water"
+      ],
+      "lighting": "Overcast daylight and fog make the city soft by day; night is marked by blue lockhouse light, warm grain-market lanterns, healing-hall windows, nursery basin glow, and reflections on black canal water.",
+      "weatherEffects": "Rain raises urgency, deepens reflections, slicks bridge streets, fills awnings with sound, and makes flood-control authority immediately visible.",
+      "dayCycle": "Morning begins with water-level checks, grain-market setup, relief postings, apothecary preparation, and nursery inspections; afternoon brings lock traffic, public services, and food distribution.",
+      "nightCycle": "Night concentrates around guarded locks, quiet nursery basins, warm market kitchens, healing-hall lamps, and officials watching flood gauges under blue light."
+    },
+    "shops": {
+      "common": [
+        "grain stalls",
+        "food market counters",
+        "rope makers",
+        "boat repair stalls",
+        "reed mat sellers",
+        "canal food carts",
+        "lamp oil vendors",
+        "water-right desks"
+      ],
+      "uncommon": [
+        "apothecary courts",
+        "sluice valve makers",
+        "flood gauge carvers",
+        "shell inlay artisans",
+        "nursery basin charm sellers",
+        "relief notice copyists"
+      ],
+      "prestigious": [
+        "tide-seal water-right registries",
+        "Shell Spiral Citadel legal counters",
+        "healing-hall specialist clinics",
+        "grain contract offices",
+        "lockwheel engineers' halls"
+      ],
+      "exports": [
+        "lock engineering",
+        "waterworks fittings",
+        "milled grain",
+        "apothecary preparations",
+        "shell inlay craft",
+        "canal management expertise"
+      ],
+      "imports": [
+        "iron",
+        "timber",
+        "grain varieties",
+        "medicinal herbs",
+        "lamp oil",
+        "cloth",
+        "stone"
+      ],
+      "streetFood": [
+        "mill bread",
+        "fish stew",
+        "canal cakes",
+        "reed-wrapped snacks",
+        "hot tea",
+        "dock soups",
+        "grain porridge",
+        "market herb pies"
+      ],
+      "services": [
+        "lock scheduling",
+        "boat repair",
+        "water-right filing",
+        "flood warnings",
+        "grain weighing",
+        "relief registration",
+        "basin healing",
+        "nursery protection detail"
+      ]
+    },
+    "housing": {
+      "wealthy": "Citadel-adjacent shell-window residences and dry upper courts with private water access, blue lamps, polished shell trim, and views over the lock core.",
+      "middle": "Canal apartments, workshop homes, grain-market rooms, raised entries, shared ramps, reed screens, and family courtyards close to locks and service halls.",
+      "poor": "Low canal-edge housing, damp brick rooms, shared dock stairs, reed partitions, market-adjacent flats, and practical flood-ready storage near relief and nursery routes."
+    }
+  },
+  "districts": [
+    {
+      "sectionNumber": 1,
+      "name": "Canal / Riverworks",
+      "civicPurpose": "Water control, lock scheduling, safe passage, flood warning, and public coordination through the Lock House Beacon.",
+      "visualIdentity": "Lock House Beacon, canal riverworks hall, lock gates, water gauges, canal reflections, blue signal light, waterwheel court, stone walls, wet towpaths, and boat traffic.",
+      "emotionalIdentity": "Patient, public, mechanically tense, and essential.",
+      "gameplayAssetNeeds": [
+        "Lock House Beacon",
+        "Canal / Riverworks Civic Hall",
+        "Canal Reflections Monument",
+        "Waterwheel Court Nook",
+        "lock gates and gauges",
+        "towpaths and dock stairs",
+        "riverfolk lock keepers"
+      ],
+      "narrativeUse": [
+        "route control",
+        "Beacon warning",
+        "flood response",
+        "public waiting at locks",
+        "maintenance conflict",
+        "citywide water-level tension"
+      ],
+      "landmark": "Lock House Beacon",
+      "minorLandmarks": [
+        "Canal Reflections Monument",
+        "Waterwheel Court Nook"
+      ]
+    },
+    {
+      "sectionNumber": 2,
+      "name": "Granary / Food Market",
+      "civicPurpose": "Food storage, public distribution, grain weighing, market access, mill labor, and hunger prevention.",
+      "visualIdentity": "Grain Hall, covered food market, Awning Monument, Mill Court, grain jars, scales, wet market paving, canal delivery routes, and warm lanterns under awnings.",
+      "emotionalIdentity": "Busy, nourishing, accountable, and politically sensitive.",
+      "gameplayAssetNeeds": [
+        "Grain Hall",
+        "Granary / Food Market Civic Hall",
+        "Awning Monument",
+        "Mill Court Nook",
+        "grain scales and jars",
+        "covered food stalls",
+        "market crowds and canal carts"
+      ],
+      "narrativeUse": [
+        "food security",
+        "grain disputes",
+        "ration pressure",
+        "market rumor",
+        "canal-delivered goods",
+        "public trust in weights"
+      ],
+      "landmark": "Grain Hall",
+      "minorLandmarks": [
+        "Awning Monument",
+        "Mill Court Nook"
+      ]
+    },
+    {
+      "sectionNumber": 3,
+      "name": "Civic Services",
+      "civicPurpose": "Public aid, notices, municipal coordination, relief records, crowd routing, and ordinary service infrastructure during floods or shortages.",
+      "visualIdentity": "Relief Hall, Civic Services Lantern Monument, Notice Plaza, public boards, queue lines, blue lamps, clerks' counters, civic arches, and damp stone plazas.",
+      "emotionalIdentity": "Orderly, burdened, humane, and bureaucratically practical.",
+      "gameplayAssetNeeds": [
+        "Relief Hall",
+        "Civic Services Hall",
+        "Civic Services Lantern Monument",
+        "Notice Plaza Nook",
+        "public boards and counters",
+        "queue barriers",
+        "service clerks and residents"
+      ],
+      "narrativeUse": [
+        "public notices",
+        "relief claims",
+        "municipal triage",
+        "crowd management",
+        "evidence in civic records",
+        "pressure on ordinary residents"
+      ],
+      "landmark": "Relief Hall",
+      "minorLandmarks": [
+        "Civic Services Lantern Monument",
+        "Notice Plaza Nook"
+      ]
+    },
+    {
+      "sectionNumber": 4,
+      "name": "Medical / Healing",
+      "civicPurpose": "Treatment, apothecary work, public health, basin healing, illness response, and care for waterborne risk.",
+      "visualIdentity": "Healing Hall, Medical / Healing Lantern Monument, Apothecary Court, clean water basins, herb racks, shell tile, blue-green lamps, and quieter covered passages.",
+      "emotionalIdentity": "Calm, vulnerable, clean, and watchfully compassionate.",
+      "gameplayAssetNeeds": [
+        "Healing Hall",
+        "Medical / Healing Civic Hall",
+        "Medical Healing Lantern Monument",
+        "Apothecary Court Nook",
+        "healing basins",
+        "herb counters and jars",
+        "healers and patients"
+      ],
+      "narrativeUse": [
+        "injury recovery",
+        "plague or waterborne illness pressure",
+        "quiet witness scenes",
+        "apothecary clues",
+        "public health conflict",
+        "care as civic duty"
+      ],
+      "landmark": "Healing Hall",
+      "minorLandmarks": [
+        "Medical Healing Lantern Monument",
+        "Apothecary Court Nook"
+      ]
+    },
+    {
+      "sectionNumber": 5,
+      "name": "Nursery / Spawning Grounds",
+      "civicPurpose": "Protection of young, spawning continuity, guarded basins, family rites, and the emotional proof that the city's maintenance serves life.",
+      "visualIdentity": "Nursery Basin, Nursery / Spawning Grounds Civic Hall, Shell Inlay Monument, Spawning Pool, reed screens, shallow blue-lit water, protective ramps, and quiet guardians.",
+      "emotionalIdentity": "Tender, sacred-practical, guarded, and future-facing.",
+      "gameplayAssetNeeds": [
+        "Nursery Basin",
+        "Nursery / Spawning Grounds Civic Hall",
+        "Shell Inlay Monument",
+        "Spawning Pool Nook",
+        "reed screens",
+        "shallow basin water",
+        "nursery guardians and families"
+      ],
+      "narrativeUse": [
+        "children and future stakes",
+        "protected civic taboo",
+        "family rites",
+        "threat reversal",
+        "public care made visible",
+        "emotional contrast to hard engineering"
+      ],
+      "landmark": "Nursery Basin",
+      "minorLandmarks": [
+        "Shell Inlay Monument",
+        "Spawning Pool Nook"
+      ]
+    }
+  ],
+  "landmarks": {
+    "wonder": {
+      "name": "Riverfolk Lockwheel Palace of Turning Waters",
+      "symbolicRole": "The city's deepest belief: water must move, but civilization must decide how it moves.",
+      "visualRole": "A grand domed riverfolk palace-waterworks complex with huge lockwheel forms, shell inlay, arched canals, blue-lit basins, bridges, towers, and water turning through civic architecture.",
+      "civicRole": "Wonder-scale emblem of water control, flood survival, shared maintenance, civic care, and the union of engineering with ceremonial legitimacy.",
+      "narrativeUse": [
+        "citywide flood response",
+        "public ceremonies of maintenance",
+        "awe at civic engineering",
+        "conflicts over whether water should be delayed, diverted, or released",
+        "moments where care infrastructure becomes heroic"
+      ],
+      "assetUse": [
+        "map background wonder",
+        "hero-view skyline anchor",
+        "waterworks palace silhouette",
+        "visual identifier separating Dunmere Locks from generic canal cities"
+      ],
+      "sensoryIdentity": [
+        "turning water",
+        "iron wheel creak",
+        "mist",
+        "blue basin glow",
+        "wet stone",
+        "low crowd murmur at ceremonies"
+      ],
+      "storyHooks": [
+        "a lockwheel decision saves one district while flooding another",
+        "a public ceremony reveals neglected maintenance",
+        "an old wheel route exposes a hidden civic compromise",
+        "the palace becomes the only place able to coordinate food, healing, and nursery evacuation"
+      ]
     },
     "beacon": {
-      "purpose": "The Beacon functions as a public water-safety and civic signal landmark, coordinating lock response, flood warnings, and citywide attention.",
-      "visualDescription": "A sturdy signal tower or lamp structure integrated with lockworks, canal basins, or pumping halls, reflected in the surrounding water.",
-      "narrativeUse": "Use the Beacon to trigger operational response: locks pause, barges halt, workers move, bridges crowd, and water authorities issue orders.",
-      "howCharactersNoticeIt": {
-        "addie": "tracks how its signals translate into schedules and shouted lock commands",
-        "gregory": "reads it as guidance through flow and danger",
-        "brickett": "finds unofficial viewing posts and maintenance routes near its base",
-        "talandra": "treats beacon crowds near water as unstable and difficult to secure",
-        "mae": "knows beacon timing can move prices, shipping priority, and public fear"
-      },
-      "commonActivities": [
+      "name": "Lock House Beacon",
+      "symbolicRole": "Public warning tied to safe passage, water level, and civic readiness.",
+      "visualRole": "A blue-lit signal tower integrated into the lock house and canal riverworks, surrounded by water gauges, stone channels, wet towpaths, and lock machinery.",
+      "civicRole": "Coordinates canal traffic, flood warnings, public notices, lock closures, and emergency movement between food, service, healing, and nursery districts.",
+      "narrativeUse": [
+        "Beacon color changes as route conditions",
         "flood warning",
-        "lock coordination",
-        "public gathering",
-        "barge traffic pauses",
-        "worker dispatch",
-        "night signal watching"
+        "crowds redirected by water level",
+        "lock closure as political pressure",
+        "public argument over who gets passage first"
       ],
-      "visibilityFromCity": "Visible from major canal corridors, bridgeheads, and lock plazas, often by reflection as much as direct sight."
+      "assetUse": [
+        "S1 diorama centerpiece",
+        "city signal marker",
+        "map-background waterworks focal point",
+        "blue civic light reference for canal-side scenes"
+      ],
+      "sensoryIdentity": [
+        "blue light on wet stone",
+        "gate chains",
+        "water gauges clicking",
+        "boat calls",
+        "mist around the tower",
+        "crowd silence when the signal shifts"
+      ],
+      "storyHooks": [
+        "a false water-level reading changes the Beacon response",
+        "a lock keeper refuses an official order",
+        "the Beacon turns evacuation into a visible moral test",
+        "someone uses maintenance access beneath the lock house"
+      ]
     },
     "seatOfPower": {
-      "purpose": "The seat of power should express water governance: control of locks, flood response, tolls, maintenance, trade timing, and civic safety.",
-      "visualDescription": "A brick-and-stone civic pumping hall, lock authority court, or canal council building with ironwork, slate, water-level markings, and public access from both towpath and canal.",
-      "narrativeUse": "Use it for disputes over tolls, flood duties, lock priority, merchant complaints, and public works responsibility.",
-      "howCharactersNoticeIt": {
-        "addie": "notices ledgers, schedules, water-level records, and exact maintenance language",
-        "gregory": "reads civic authority as ritualized flow control",
-        "brickett": "spots service doors, low culverts, and where paper authority meets physical machinery",
-        "talandra": "maps bridges, water approaches, and gate controls around it",
-        "mae": "sees who has leverage through tolls, lock priority, and emergency authority"
-      },
-      "commonActivities": [
-        "lock scheduling",
-        "toll arbitration",
-        "flood planning",
-        "merchant hearings",
-        "public works assignments",
-        "maintenance emergency orders"
+      "name": "Shell Spiral Windows Tide-Seal Citadel",
+      "symbolicRole": "Law, record, tide, and public care spiraled into one authority.",
+      "visualRole": "A central citadel with shell spiral windows, tide-seal courts, blue lamps, water-right archives, service counters, and formal approaches over canals and bridges.",
+      "civicRole": "Government center for water rights, lock scheduling, grain distribution, relief systems, healing policy, nursery protection, flood response, and civic obligations.",
+      "narrativeUse": [
+        "water-right disputes",
+        "grain and relief rulings",
+        "nursery protection orders",
+        "public health decisions",
+        "flood emergency coordination",
+        "archive evidence about old lock routes"
       ],
-      "visibilityFromCity": "Central by operational necessity: routes, canals, locks, and offices converge there."
+      "assetUse": [
+        "central authority marker on map background",
+        "civic court diorama backdrop",
+        "visual source for shell spiral and tide-seal motifs across the city"
+      ],
+      "sensoryIdentity": [
+        "damp paper",
+        "ink and lamp oil",
+        "blue light through shell windows",
+        "water map rustle",
+        "quiet bureaucratic voices",
+        "distant canal chains"
+      ],
+      "storyHooks": [
+        "a tide-seal record proves a district was knowingly exposed to flood risk",
+        "a nursery order overrides trade movement",
+        "a relief ledger contradicts public claims",
+        "the Citadel must choose between water control and food delivery"
+      ]
     },
     "majorLandmarks": [
       {
-        "role": "locks, mills, quays, and pumping halls",
-        "narrativeUse": "Major landmarks should always do civic work: moving water, moving goods, preventing floods, or organizing trade."
-      }
-    ],
-    "monuments": [
+        "name": "Grain Hall",
+        "symbolicRole": "Provision made public and measurable.",
+        "visualRole": "Covered grain hall with awnings, jars, scales, mill court access, wet market paving, and canal delivery points.",
+        "civicRole": "Manages food storage, weighing, distribution, market trust, and hunger prevention.",
+        "narrativeUse": [
+          "grain disputes",
+          "public ration scenes",
+          "market rumors",
+          "proof of civic trust or failure"
+        ],
+        "assetUse": [
+          "S2 diorama landmark",
+          "food market asset cluster",
+          "map icon for provisioning"
+        ],
+        "sensoryIdentity": [
+          "grain dust",
+          "wet stone",
+          "market bread",
+          "scale chains",
+          "warm lanterns"
+        ],
+        "storyHooks": [
+          "the weights are correct but the public still does not trust them",
+          "a canal delay creates hunger pressure in one district"
+        ]
+      },
       {
-        "role": "memory of floods, repairs, and communal labor",
-        "narrativeUse": "Monuments should include flood marks, named beams, worker plaques, shell stones, mill dedications, and memorials for failed gates or saved districts."
-      }
-    ],
-    "minorLandmarks": [
+        "name": "Relief Hall",
+        "symbolicRole": "Need recognized as a civic fact rather than private shame.",
+        "visualRole": "Service hall with lantern monument, notice plaza, counters, boards, queue space, blue lamps, and rain-dark public paving.",
+        "civicRole": "Coordinates aid, public notices, emergency records, municipal services, and resident claims.",
+        "narrativeUse": [
+          "relief claims",
+          "public notices",
+          "bureaucratic triage",
+          "ordinary people under pressure"
+        ],
+        "assetUse": [
+          "S3 diorama landmark",
+          "civic services asset cluster",
+          "public notice and queue assets"
+        ],
+        "sensoryIdentity": [
+          "paper notices",
+          "lamp oil",
+          "wet wool",
+          "low voices",
+          "boots in puddles"
+        ],
+        "storyHooks": [
+          "a posted notice changes who receives aid",
+          "a relief queue becomes the first sign of a larger failure"
+        ]
+      },
       {
-        "role": "local navigation and operational texture",
-        "narrativeUse": "Minor landmarks should include bridge bells, lock-number posts, water-level gauges, rope hooks, toll kiosks, lanterns, reed corners, and dock signs."
+        "name": "Healing Hall",
+        "symbolicRole": "The city's water made gentle, clean, and restorative.",
+        "visualRole": "Quiet medical hall with blue-green basin light, apothecary court, shell tile, herb racks, clean water channels, and lantern monument.",
+        "civicRole": "Treats injury, illness, waterborne risk, public health emergencies, and recovery after floods or conflicts.",
+        "narrativeUse": [
+          "healing scenes",
+          "public health crisis",
+          "apothecary clues",
+          "care under civic strain"
+        ],
+        "assetUse": [
+          "S4 diorama landmark",
+          "medical/healing asset cluster",
+          "basin and apothecary visual set"
+        ],
+        "sensoryIdentity": [
+          "herbs",
+          "clean water",
+          "glass jars",
+          "soft lanterns",
+          "quiet footsteps"
+        ],
+        "storyHooks": [
+          "a healer recognizes a floodborne pattern before officials do",
+          "a basin treatment reveals where someone has been"
+        ]
+      },
+      {
+        "name": "Nursery Basin",
+        "symbolicRole": "The future made visible, guarded, and water-bound.",
+        "visualRole": "Protected shallow basin with shell inlay, spawning pool nooks, reed screens, blue basin glow, low ramps, and watchful guardians.",
+        "civicRole": "Protects young, supports spawning rites, anchors family continuity, and justifies the city's entire maintenance ethic emotionally.",
+        "narrativeUse": [
+          "children and future stakes",
+          "protected taboo space",
+          "family rites",
+          "threats that reveal civic priorities"
+        ],
+        "assetUse": [
+          "S5 diorama landmark",
+          "nursery/spawning asset cluster",
+          "emotional civic anchor"
+        ],
+        "sensoryIdentity": [
+          "quiet water",
+          "reed rustle",
+          "shell surfaces",
+          "soft blue glow",
+          "guarded hush"
+        ],
+        "storyHooks": [
+          "a lock decision threatens nursery water quality",
+          "a family rite is interrupted by a citywide warning"
+        ]
       }
     ]
   },
-  "immediateNarrativeImprovements": [
-    {
-      "target": "Dunmere Locks scenes",
-      "recommendation": "Write locks, pumps, towpaths, barges, bridges, and maintenance crews as the city's core identity, not background decoration."
-    },
-    {
-      "target": "Movement descriptions",
-      "recommendation": "Use lock delays, barge queues, wet thresholds, and canal shortcuts to make scenes physically distinct."
-    },
-    {
-      "target": "Governance scenes",
-      "recommendation": "Make lock priority, flood duty, tolls, and pump maintenance politically meaningful."
-    },
-    {
-      "target": "Sensory pass",
-      "recommendation": "Add fog, wet timber, brick after rain, creaking beams, rushing sluices, and lantern reflections."
-    },
-    {
-      "target": "Beastfolk culture",
-      "recommendation": "Show semi-aquatic civic competence through body-adapted infrastructure and water literacy."
-    }
-  ],
-  "interpretation": {
-    "civilizationThesis": "Dunmere Locks is the architecture of maintained flow. Its civilization exists because water is watched, timed, channeled, bargained with, and repaired every day.",
-    "environmentalPhilosophy": "Negotiate water: make the river productive and safe through constant maintenance rather than domination or surrender.",
-    "adaptiveStrategy": "Regulate: create locks, pumps, towpaths, quays, and flood systems that let semi-aquatic life and commerce thrive together.",
-    "authorityModel": "infrastructural-communal-guild",
-    "relationshipWithNature": "practical and reciprocal; water is powerful, useful, dangerous, and socially central",
-    "relationshipWithHistory": "history is preserved through flood marks, repair records, named locks, old beams, and public memory of maintenance",
-    "relationshipWithKnowledge": "operational knowledge matters: currents, schedules, gate mechanics, flood signs, tolls, and water levels",
-    "relationshipWithRisk": "risk is managed through maintenance, warning signals, redundancy, skilled labor, and communal response",
-    "relationshipWithBeauty": "beauty appears in working systems: reflected lanterns, moving wheels, brick arches, oak gates, and water under control",
-    "relationshipWithCommunity": "community is organized around shared water responsibility, lock timing, public works, and semi-aquatic daily rhythms",
-    "civilizationalTension": {
-      "tension": "river freedom vs civic control",
-      "resolution": "Dunmere Locks resolves the tension by treating water control as ongoing negotiation, not final conquest."
-    },
-    "highestVirtue": "maintenance",
-    "religiousExpression": "not visually dominant; reverence likely appears through flood memory, communal labor, river rites, and respect for functioning systems",
-    "economicIdentity": "barge trade, milling, timber, grain, fish, locks, tolls, waterwork craft, brick workshops, and canal logistics",
-    "socialIdentity": "practical, cooperative, damp, industrious, water-literate, maintenance-proud, and locally confident"
-  },
-  "canonReview": {
-    "lockedCanon": [
-      {
-        "statement": "Dunmere Locks is a semi-aquatic riverfolk waterworks city where locks, canals, pumps, mills, towpaths, and quays define civic identity.",
-        "reason": "The culture anchor, visual language, and city name consistently point toward engineered water control as the central identity.",
-        "supportingEvidence": [
-          "lock gates",
-          "canal districts",
-          "water mills",
-          "merchant quays",
-          "pumping halls",
-          "raised towpaths"
-        ],
-        "confidence": "high"
-      },
-      {
-        "statement": "Dunmere Locks authority is tied to maintenance and control of water infrastructure.",
-        "reason": "Public safety, trade, movement, and daily life all depend on lock, pump, flood, and canal systems.",
-        "supportingEvidence": [
-          "locks and sluices",
-          "pumping halls",
-          "toll and trade routes",
-          "floodgate platforms",
-          "barge logistics"
-        ],
-        "confidence": "high"
-      },
-      {
-        "statement": "Semi-aquatic body logic should shape Dunmere streets, homes, and public spaces.",
-        "reason": "The city identity requires ramps, low water access, docks, wet thresholds, and water routes as normal civic movement.",
-        "supportingEvidence": [
-          "canals as routes",
-          "dock steps",
-          "raised towpaths",
-          "waterfront homes",
-          "barge markets"
-        ],
-        "confidence": "high"
-      }
+  "assetGuidance": {
+    "districtDioramaGuidance": [
+      "S1 must center the Lock House Beacon with lock machinery, water gauges, canal reflections, towpaths, dock stairs, blue signal light, and riverfolk lock keepers.",
+      "S2 must show Granary / Food Market identity through Grain Hall, Awning Monument, Mill Court, grain jars, scales, covered stalls, canal deliveries, and warm market lanterns.",
+      "S3 must show Civic Services through Relief Hall, lantern monument, Notice Plaza, public boards, queue counters, clerks, damp plazas, and blue civic lamps.",
+      "S4 must show Medical / Healing through Healing Hall, apothecary court, clean basins, shell tile, herb racks, patients, healers, and quiet blue-green light.",
+      "S5 must show Nursery / Spawning Grounds through Nursery Basin, Shell Inlay Monument, Spawning Pool, reed screens, shallow water, guardians, and families."
     ],
-    "provisionalCanon": [
-      {
-        "statement": "Dunmere Locks' highest civic virtue is maintenance.",
-        "reason": "The city repeatedly expresses daily preservation of systems as civilization itself, but virtue language should be compared against more infrastructure cities.",
-        "supportingEvidence": [
-          "repair crews",
-          "lock systems",
-          "pumping halls",
-          "flood marks",
-          "public works identity"
-        ],
-        "confidence": "medium-high"
-      }
+    "mapBackgroundGuidance": [
+      "Use a foggy, wet, low river city organized around canals, locks, domed waterworks, shell-window civic authority, grain markets, relief halls, healing basins, and protected nursery waters.",
+      "The Riverfolk Lockwheel Palace of Turning Waters should be the wonder-scale skyline anchor; the Shell Spiral Windows Tide-Seal Citadel should occupy central authority space; the Lock House Beacon should clearly attach to the riverworks core.",
+      "Do not make the city only industrial. The map background must show care infrastructure: grain, relief, healing, and nursery spaces connected by water."
     ],
-    "workingHypotheses": [
-      {
-        "statement": "Dunmere Locks may become the strongest counterpoint to Pollyr Fen: both are water cities, but PFN inhabits wetland ecology while DLS regulates river flow through public engineering.",
-        "reason": "The contrast is conceptually strong and should be tested in synthesis once more aquatic cities are analyzed.",
-        "supportingEvidence": [
-          "PFN water-as-street wetland integration",
-          "DLS lock/pump/canal water regulation"
-        ],
-        "confidence": "medium-high"
-      }
+    "requiredVisualElements": [
+      "semi-aquatic riverfolk citizens",
+      "Lock House Beacon",
+      "Riverfolk Lockwheel Palace of Turning Waters",
+      "Shell Spiral Windows Tide-Seal Citadel",
+      "locks and canals",
+      "blue basin and lock lights",
+      "arched bridges and towpaths",
+      "Grain Hall",
+      "Relief Hall",
+      "Healing Hall",
+      "Nursery Basin",
+      "shell spiral windows",
+      "reed edges",
+      "wet brick and stone",
+      "lantern reflections"
     ],
-    "rejectedHypotheses": [
-      {
-        "statement": "Dunmere Locks is just a Dutch-looking canal city with animal people added afterward.",
-        "reason": "The city identity depends on semi-aquatic movement, river maintenance, flood control, and body-adapted infrastructure, not surface aesthetics alone.",
-        "supportingEvidence": [
-          "semi-aquatic race identity",
-          "water access thresholds",
-          "locks and pumping halls",
-          "canal-based movement"
-        ],
-        "confidence": "high"
-      }
-    ]
-  },
-  "futureQuestions": [
-    "What are the exact named Wonder, Beacon, and seat of power from DLS sidecars?",
-    "How formal are lock guilds, pump councils, or flood authorities in governance?",
-    "How does DLS compare with Pollyr Fen and Frostharbor as aquatic/semi-aquatic civilizations?",
-    "What social conflicts emerge around lock priority, tolls, floods, and merchant delays?",
-    "How much of the city is accessible to non-semi-aquatic visitors without local guidance?"
-  ],
-  "comparativeNotes": {
-    "distinctFrom": [
-      {
-        "cityCode": "PFN",
-        "difference": "Pollyr Fen builds around hidden swamp ecology; Dunmere Locks visibly regulates river flow through locks, pumps, and public engineering."
-      },
-      {
-        "cityCode": "AQM",
-        "difference": "AQM is a maritime capital with harbor order; DLS is a canal/waterworks city where flow control itself is civic identity."
-      },
-      {
-        "cityCode": "KVM",
-        "difference": "KVM makes stone infrastructure civic proof; DLS makes maintained water systems civic proof."
-      },
-      {
-        "cityCode": "QSR",
-        "difference": "QSR manages scarcity of water; DLS manages abundance and movement of water."
-      }
-    ],
-    "similarTo": [
-      {
-        "cityCode": "PFN",
-        "similarity": "Both require non-dry-city movement logic and make water central to public life."
-      },
-      {
-        "cityCode": "KVM",
-        "similarity": "Both express authority through visible public infrastructure and maintenance competence."
-      }
-    ],
-    "uniqueContributions": [
-      "strongest current model for maintenance-as-civic-virtue",
-      "best example of water control as public engineering",
-      "important contrast against Pollyr Fen's ecological water identity",
-      "strong test case for semi-aquatic body-adapted urban design"
-    ],
-    "potentialInfluences": [
-      "aquatic city comparison synthesis",
-      "infrastructure governance canon",
-      "semi-aquatic movement standards",
-      "future lock/pump/flood narrative scenes"
-    ]
-  },
-  "crossCityTags": [
-    "semi-aquatic-beastfolk",
-    "river-city",
-    "canal-city",
-    "lockworks",
-    "water-control",
-    "maintenance-culture",
-    "pumping-halls",
-    "merchant-quays",
-    "towpaths",
-    "flood-management",
-    "infrastructure-authority",
-    "established-civilization"
-  ],
-  "evolution": {
-    "previousAssumptions": [
-      "Dunmere Locks was expected to be a Dutch canal/waterworks-inspired city adapted for semi-aquatic river mammals.",
-      "Canals, locks, and mills were already part of the city identity."
-    ],
-    "discoveries": [
-      "The strongest civic read is maintenance: the city exists because public systems are constantly kept working.",
-      "DLS is meaningfully distinct from Pollyr Fen because it regulates water rather than simply inhabiting wetland structure.",
-      "Authority naturally emerges from lock timing, flood safety, tolls, and pump control.",
-      "Semi-aquatic body logic should shape every threshold, not just decorative details."
-    ],
-    "confirmedAssumptions": [
-      "Dutch canal and medieval waterworks anchors fit the species identity extremely well.",
-      "DLS should be practical, damp, brick-and-timber, and trade-connected.",
-      "Water infrastructure belongs at the center of the city's narrative identity."
-    ],
-    "changedOurMind": [
-      "Do not let the city become merely picturesque canals; emphasize lock operations, flood control, and maintenance labor.",
-      "Make governance and commerce dependent on water timing and public works.",
-      "Use DLS as a separate aquatic paradigm from PFN rather than grouping all water cities together."
-    ],
-    "futureValidation": [
-      "Compare DLS with FRO and any future aquatic cities to refine water-civilization subtypes.",
-      "Review sidecars later for exact named anchors and revise landmark names in v002 if needed.",
-      "Use synthesis to test whether maintenance appears as a wider infrastructure-city virtue or remains DLS-specific."
+    "elementsToAvoid": [
+      "generic scenic canal town",
+      "purely industrial waterworks with no civic care systems",
+      "dry inland market identity",
+      "palatial grandeur without practical locks and basins",
+      "generic merchant quay districts replacing the sidecar district set",
+      "rustic swamp village scale",
+      "water as background decoration only"
     ]
   }
 }

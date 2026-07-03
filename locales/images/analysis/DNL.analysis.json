@@ -1,734 +1,753 @@
 {
-  "schemaVersion": 1,
-  "analysisVersion": 1,
-  "cityCode": "DNL",
-  "cityName": "Dun Liath",
-  "analysisConfidence": "strong-lock",
-  "analysisDate": "2026-07-01",
-  "analystVersion": "gpt-5.5-thinking",
-  "basedOnImages": [
-    "DNL-HERO-NE-v001",
-    "DNL-HERO-NW-v001",
-    "DNL-HERO-SE-v001",
-    "DNL-HERO-SW-v001",
-    "DNL-STREET-S1-v001",
-    "DNL-STREET-S2-v001",
-    "DNL-STREET-S3-v001",
-    "DNL-STREET-S4-v001",
-    "DNL-STREET-S5-v001"
-  ],
-  "summary": {
-    "oneSentence": "Dun Liath is a grey-stone Celtic river-market city where knotwork registry law, covered bazaars, guild craft, archives, tenement courts, theater culture, and the green spiral hillfort form a settled civilization of oaths, memory, trade, and public performance.",
-    "identityStatement": "Dun Liath should read as an old Irish/Celtic civic river town scaled into a capital: grey stone, moss, dark wood, red awnings, woven banners, blue lamps, dry-stone paving, bridge streets, commons, markets, and round civic towers. Its soul is not wilderness nostalgia; it is public oath, market speech, archive memory, craft legitimacy, low residential density, and communal ceremony made into stone."
-  },
-  "evidence": {
-    "civilizationMaturity": {
-      "ageExpression": "ancient / deeply settled",
-      "evidence": [
-        "hero views show a broad river-linked stone city with bridges, towers, civic terraces, market canopies, archival spires, and a distinct hillfort wonder beyond the urban core",
-        "street views show mature civic districts: grand market, artisan guilds, records/archives, low residential courts, and entertainment/theater",
-        "the city is dense and lived-in without reading as improvised; civic institutions, markets, residences, and public performance all have permanent architecture",
-        "blue civic lights, red awnings, woven banners, knotwork ornament, and dry-stone paving recur across multiple districts"
-      ]
-    },
-    "architecturalLanguage": {
-      "materials": [
-        "grey stone",
-        "mossy masonry",
-        "dry-stone paving",
-        "dark timber",
-        "thatch and shingle roofs",
-        "bronze fittings",
-        "blue glass lamps",
-        "red woven awnings",
-        "gold seals",
-        "weathered plaster",
-        "river stone"
-      ],
-      "forms": [
-        "round towers",
-        "covered bazaars",
-        "guildhalls",
-        "archive towers",
-        "copyist halls",
-        "tenement courts",
-        "laundry wells",
-        "opera courts",
-        "mask pavilions",
-        "bridge streets",
-        "civic terraces",
-        "hillfort rings",
-        "standing-circle silhouettes",
-        "market canopies"
-      ],
-      "skyline": [
-        "Spiral Knotwork Sovereign Registry Court as central civic authority",
-        "Covered Bazaar Beacon as the near/front signal landmark rooted in the market district",
-        "Oath-Ring Hillfort of the Green Spiral as the far wonder-scale ritual/civic anchor",
-        "archive towers, guild towers, market roofs, opera structures, and bridge-linked civic terraces visible across the city",
-        "round-tower and spire language repeatedly connecting the city to Celtic monastic and hillfort precedents"
-      ],
-      "lighting": [
-        "soft golden-hour light on grey stone",
-        "blue civic lamp and beacon glow",
-        "warm lanterns beneath red awnings",
-        "market firelight",
-        "cool archive daylight",
-        "theater lanterns and stage warmth"
-      ],
-      "infrastructure": [
-        "stone bridges",
-        "market courts",
-        "auction platforms",
-        "guild arcades",
-        "archive stairs",
-        "copyist halls",
-        "laundry wells",
-        "tenement courts",
-        "opera plazas",
-        "mask pavilions",
-        "hill roads",
-        "riverfront routes"
-      ],
-      "visualPatterns": [
-        "public life is compact, verbal, and highly visible: markets, guilds, archives, tenements, and theater all face the street",
-        "blue lamps and civic towers punctuate otherwise warm grey-stone and red-awning urban texture",
-        "the city balances low lived-in districts with formal civic/registry authority rather than becoming palace-dominated",
-        "knotwork and spiral forms imply law, oath, continuity, and social binding",
-        "the hillfort wonder sits as ancestral legitimacy behind a very practical urban market city"
-      ],
-      "recurringMotifs": [
-        "spirals",
-        "knotwork",
-        "green spiral hillfort",
-        "oath rings",
-        "woven banners",
-        "covered awnings",
-        "blue lamps",
-        "gold seals",
-        "round towers",
-        "river bridges",
-        "auction courts",
-        "mask pavilions"
-      ]
-    },
-    "environmentalRelationship": {
-      "observed": "Dun Liath uses river, hill, and stone commons as civic infrastructure. The city does not dissolve into nature; it settles firmly into bridges, terraces, markets, and hillfort memory while keeping gardens, moss, trees, and river routes woven through daily life.",
-      "evidence": [
-        "hero views repeatedly show river channels, bridges, hill slopes, and civic terraces shaping the city plan",
-        "street views show dry-stone paving, mossy stone, trees, awnings, and water-adjacent public routes",
-        "the Wonder is explicitly an Oath-Ring Hillfort, tying upland geography to civic legitimacy",
-        "low residential and market districts show the city built for everyday use rather than ceremonial isolation"
-      ]
-    },
-    "authorityExpression": {
-      "observed": "Authority is oath-bound, registry-based, public, and communal. The Sovereign Registry Court records and arbitrates; the market Beacon broadcasts civic signal from commerce; the hillfort Wonder anchors older oath memory beyond the current bureaucracy.",
-      "evidence": [
-        "seat of power is Spiral Knotwork Sovereign Registry Court",
-        "Beacon is the Covered Bazaar Beacon in the Grand Market district",
-        "Wonder is Oath-Ring Hillfort of the Green Spiral",
-        "Records / Archives and Archive Tower form a full district identity",
-        "guild, market, tenement, and theater districts indicate authority works through public institutions, speech, craft, and memory"
-      ]
-    },
-    "commercialSpaces": [
-      "covered bazaars",
-      "auction courts",
-      "market stalls under red awnings",
-      "riverfront traders",
-      "guild craft shops",
-      "masterwork arcades",
-      "copyist counters",
-      "laundry-well vendors",
-      "theater food stalls",
-      "mask and costume sellers",
-      "bronze lamp repairers",
-      "cloth and banner stalls"
+  "metadata": {
+    "schemaVersion": "2.0",
+    "analysisVersion": 2,
+    "cityCode": "DNL",
+    "cityName": "Dun Liath",
+    "analysisDate": "2026-07-03",
+    "analystVersion": "gpt-5.5-thinking",
+    "analysisConfidence": "strong-lock",
+    "basedOnImages": [
+      "DNL-HERO-NE-v001",
+      "DNL-HERO-NW-v001",
+      "DNL-HERO-SE-v001",
+      "DNL-HERO-SW-v001",
+      "DNL-STREET-S1-v001",
+      "DNL-STREET-S2-v001",
+      "DNL-STREET-S3-v001",
+      "DNL-STREET-S4-v001",
+      "DNL-STREET-S5-v001"
     ],
-    "publicSpaces": [
-      "grand market plazas",
-      "covered bazaar beacon approaches",
+    "basedOnSidecars": [
+      "DNL-HERO-NE-v001.json",
+      "DNL-HERO-NW-v001.json",
+      "DNL-HERO-SE-v001.json",
+      "DNL-HERO-SW-v001.json",
+      "DNL-STREET-S1-v001.json",
+      "DNL-STREET-S2-v001.json",
+      "DNL-STREET-S3-v001.json",
+      "DNL-STREET-S4-v001.json",
+      "DNL-STREET-S5-v001.json"
+    ]
+  },
+  "cityDNA": {
+    "coreFantasy": "An old grey-stone Celtic river-market capital where oaths, craft, archives, tenements, theater, and hillfort memory are made into public life.",
+    "primaryEmotion": "communal gravity",
+    "secondaryEmotion": "market warmth",
+    "readerTakeaway": "Dun Liath is not wilderness nostalgia; it is public oath, market speech, archive memory, craft legitimacy, low residential density, and communal ceremony made into stone.",
+    "civilizationThesis": "Dun Liath turns knotwork registry law, covered bazaars, artisan guilds, archives, tenement courts, theater culture, and the green spiral hillfort into a settled river civilization of oaths, memory, trade, craft, and performance.",
+    "visualIdentity": "Grey stone, mossy masonry, dry-stone paving, dark timber, red awnings, blue lamps, round towers, covered bazaars, guildhalls, archive towers, tenement courts, opera courts, bridge streets, hillfort rings, and awninged public markets.",
+    "culturalIdentity": "An Irish/Celtic-coded civic river capital where market speech, public records, guild craft, performance, and communal oath bind urban life.",
+    "symbolicIdentity": "Spiral knotwork, oath rings, round towers, gold seals, red awnings, blue lamps, woven banners, standing-circle silhouettes, masks, auction courts, masterwork arcades, and laundry wells symbolize public memory."
+  },
+  "canon": {
+    "canonLocks": [
+      "Dun Liath is an old Irish/Celtic civic river town scaled into a capital.",
+      "The Wonder is the Oath-Ring Hillfort of the Green Spiral.",
+      "The Seat of Power is the Spiral Knotwork Sovereign Registry Court.",
+      "The Beacon is the Covered Bazaar Beacon.",
+      "The five primary districts are Grand Market, Artisan Guilds, Records / Archives, Low Residential, and Entertainment / Theater.",
+      "The uploaded district anchors include Grand Market Civic Hall, Awning Monument, Auction Court Nook, Artisan Guilds Civic Hall, Guildhall, Woven Banners Monument, Masterwork Arcade Nook, Records Archives Gold-Seal Monument, Copyist Hall Nook, Low Residential Lantern Monument, Laundry Well Nook, Entertainment Theater Lantern Monument, and Mask Pavilion Nook."
+    ],
+    "provisionalCanon": [
+      "Dun Liath's highest civic virtue is witnessed oath.",
+      "The central tension is public memory versus public performance: truth and theater both happen in front of the same community.",
+      "The Masterwork Arcade likely functions as craft proof, social prestige, and guild politics in one place."
+    ],
+    "rejectedReads": [
+      "Dun Liath is a wild Celtic ruin.",
+      "Dun Liath is only a market town without civic authority.",
+      "Theater and performance are decorative rather than civic-social forces.",
+      "Guild craft and archive memory can be smoothed into generic medieval flavor."
+    ],
+    "cautionFlags": [
+      "Keep the city dense, lived-in, and permanent.",
+      "Do not over-romanticize wilderness; this is a civic river capital.",
+      "Preserve the mix of market, archive, guild, residential, and performance life.",
+      "Keep exact sidecar anchors like Awning Monument and Masterwork Arcade Nook visible, because they sharpen Dun Liath's market and craft identity."
+    ]
+  },
+  "environment": {
+    "terrain": [
+      "river-linked stone city",
+      "bridge streets",
+      "civic terraces",
+      "market courts",
+      "hill roads",
+      "low residential courts",
+      "guild arcades",
+      "theater plazas"
+    ],
+    "water": [
+      "river channels",
+      "bridge crossings",
+      "market-edge water",
+      "laundry wells",
+      "wet stone streets",
+      "rain-reflective paving"
+    ],
+    "vegetation": [
+      "moss",
+      "green hillfort grasses",
+      "courtyard greenery",
+      "riverbank plants",
+      "market herbs",
+      "grass around oath-ring approaches"
+    ],
+    "climateLighting": [
+      "soft golden-hour light on grey stone",
+      "blue civic lamp and beacon glow",
+      "warm lanterns beneath red awnings",
+      "market firelight",
+      "cool archive daylight",
+      "theater lanterns",
+      "rain-darkened mossy streets"
+    ],
+    "environmentalLogic": "River, market, bridge, archive, guild, tenement, theater, and hillfort all interlock. Public routes carry speech, trade, oaths, craft proof, and performance through dense stone civic space."
+  },
+  "architecture": {
+    "materials": [
+      "grey stone",
+      "mossy masonry",
+      "dry-stone paving",
+      "dark timber",
+      "thatch and shingle roofs",
+      "bronze fittings",
+      "blue glass lamps",
+      "red woven awnings",
+      "gold seals",
+      "weathered plaster",
+      "river stone",
+      "woven banners",
+      "paper and archive fittings"
+    ],
+    "forms": [
+      "round towers",
+      "covered bazaars",
+      "grand market civic halls",
+      "awning monuments",
       "auction courts",
-      "guildhall steps",
-      "archive stairs",
+      "guildhalls",
+      "masterwork arcades",
+      "archive towers",
       "copyist halls",
       "tenement courts",
       "laundry wells",
       "opera courts",
       "mask pavilions",
-      "river bridges",
-      "hillfort oath paths"
+      "bridge streets",
+      "civic terraces",
+      "hillfort rings",
+      "standing-circle silhouettes",
+      "market canopies"
     ],
-    "districtCharacter": {
-      "section1GrandMarket": "the civic mouth of the city: covered bazaar, auction court, awnings, food, bargaining, public signal watching, and the Covered Bazaar Beacon rising from trade rather than palace grounds",
-      "section2ArtisanGuilds": "craft legitimacy and public making: guildhall, woven banners, masterwork arcades, workshops, blue lamps, red cloth, and practical pride in visible labor",
-      "section3RecordsArchives": "memory and law district: Archive Tower, gold-seal monument, copyist hall, formal stone stairs, registry traffic, and precise public wording",
-      "section4LowResidential": "dense lived-in district: tenement courts, laundry wells, lantern monuments, patched timber, gossip, domestic labor, children, and the ordinary social web of the city",
-      "section5EntertainmentTheater": "public performance district: opera court, theater lantern monument, mask pavilion, crowds, music, red awnings, and civic storytelling as an institution"
-    }
-  },
-  "narrativeTranslation": {
-    "streets": {
-      "description": "Dun Liath streets should feel stone-laid, crowded, talkative, and civic. Characters move over dry-stone paving, through red-awning markets, across river bridges, past blue lamps, guild benches, archive stairs, laundry wells, and theater crowds while the hillfort remains visible as older oath memory beyond the city.",
-      "writingGuidance": [
-        "Use sound and speech: bargaining, oath-calls, theater songs, guild arguments, copyist announcements, and tenement gossip should make the city feel alive.",
-        "Keep grey stone, moss, dark timber, red cloth, blue lamps, and bronze details in recurring prose texture.",
-        "Let public institutions face the street; authority in Dun Liath should feel witnessed by ordinary citizens.",
-        "Do not write it as a pristine elven city or wild Celtic grove; it is a practical stone market civilization with deep ritual memory."
-      ]
-    },
-    "people": {
-      "description": "Citizens should feel verbal, communal, craft-proud, legally aware, and comfortable with public performance. Traders, auctioneers, guild artisans, copyists, clerks, tenement families, actors, mask-makers, and registry officials all belong to the same civic conversation.",
-      "behavioralNotes": [
-        "people speak in public and expect to be overheard",
-        "oaths, records, prices, guild marks, and performances all carry social weight",
-        "ordinary residents use markets, wells, archives, and theaters as civic meeting places",
-        "status is visible through guild standing, registry access, market reputation, and public memory rather than pure aristocratic distance"
-      ]
-    },
-    "shops": {
-      "examples": [
-        "wool and woven-cloth stalls",
-        "bronze lamp repair shops",
-        "harp and instrument makers",
-        "knotwork carvers",
-        "auctioneer booths",
-        "copyist counters",
-        "guild tool sellers",
-        "mask and costume shops",
-        "river-stone jewelers",
-        "hot bread carts",
-        "thatch repair stalls",
-        "banner weavers"
-      ],
-      "writingGuidance": "Commerce should feel public and reputation-based. Every stallkeeper knows who owes whom, which guild certified which work, and what was promised aloud in the market."
-    },
-    "homes": {
-      "description": "Homes should be grey-stone and dark-timber row houses, tenements, cottages, and upper rooms over shops, with blue lamps, small balconies, laundry lines, mossy steps, shared wells, and red or woven cloth at windows.",
-      "writingGuidance": [
-        "Use low residential life as social infrastructure: laundry, gossip, children, repair work, shared meals, and watched doorways.",
-        "Even poorer districts should feel established and socially dense, not abandoned."
-      ]
-    },
-    "publicLife": {
-      "dailyRhythms": [
-        "morning market setup beneath covered bazaar roofs",
-        "auction court calls and river deliveries",
-        "guild workshops opening under woven banners",
-        "copyists and clerks climbing archive stairs",
-        "laundry wells and tenement courts filling at midday",
-        "evening theater crowds and mask pavilion traffic",
-        "blue lamps and warm lanterns linking markets, bridges, and residential courts after dusk"
-      ],
-      "commonActivities": [
-        "bargaining",
-        "auctioneering",
-        "guild certification",
-        "copying records",
-        "public notices",
-        "laundry washing",
-        "street music",
-        "mask selling",
-        "bridge crossing",
-        "oath-taking",
-        "beacon watching"
-      ]
-    },
-    "sounds": [
-      "market calls under covered roofs",
-      "river water below stone bridges",
-      "boots on dry-stone paving",
-      "hammering from guild shops",
-      "copyists reading notices",
-      "laundry water and buckets",
-      "harp or fiddle music near theater courts",
-      "lantern chains",
-      "auctioneer chants",
-      "crowd laughter from mask pavilions"
+    "skyline": [
+      "Spiral Knotwork Sovereign Registry Court as central civic authority",
+      "Covered Bazaar Beacon as market-rooted signal landmark",
+      "Oath-Ring Hillfort of the Green Spiral as far ritual/civic anchor",
+      "archive towers, guild towers, market roofs, opera structures, and bridge-linked civic terraces",
+      "round-tower and spire language linking city to Celtic monastic and hillfort precedent"
     ],
-    "smells": [
-      "wet stone",
-      "moss",
-      "bread",
-      "lamp oil",
-      "wool cloth",
-      "river water",
-      "wood smoke",
-      "bronze polish",
-      "ink",
-      "market food",
-      "damp timber"
+    "lighting": [
+      "soft golden-hour light",
+      "blue civic lamp glow",
+      "warm red-awning lanterns",
+      "market firelight",
+      "cool archive daylight",
+      "theater stage warmth",
+      "rain reflections on grey stone"
     ],
-    "lighting": {
-      "day": "Daylight should be warm on grey stone, softened by clouds, river reflections, awnings, and civic terraces.",
-      "night": "Night should be blue civic lamps, warm market lanterns, theater light, and household windows across stone lanes.",
-      "weather": "Clear golden light works for civic pride, but mist, damp stone, and soft overcast should remain part of the city's Irish/Celtic atmosphere."
-    },
-    "transportation": {
-      "description": "Movement is by foot, carts, bridge roads, market stairs, riverfront paths, and hill roads toward the oath-ring. Streets are compact and social; traffic slows around auctions, guild steps, wells, and theater crowds.",
-      "writingGuidance": [
-        "Use bridge crossings and market congestion to pace scenes.",
-        "Let locals navigate by towers, wells, awnings, and the hillfort silhouette.",
-        "Characters should often pass through multiple public conversations before reaching a destination."
-      ]
-    },
-    "children": {
-      "description": "Children should be visible in market edges, laundry courts, bridge steps, and theater plazas, learning prices, songs, guild marks, and which public oaths adults take seriously."
-    },
-    "craftsmen": {
-      "description": "Craftsmen include bronze workers, woodcarvers, knotwork masons, banner weavers, harp makers, mask makers, copyists, lamp workers, bridge masons, and thatch repairers."
-    },
-    "markets": {
-      "description": "Markets should be covered, loud, reputation-heavy, and visually layered: awnings, auction platforms, food baskets, cloth, tools, lamps, river goods, and public announcements all share space."
-    },
-    "food": {
-      "examples": [
-        "brown bread",
-        "stew with root vegetables",
-        "smoked fish",
-        "oat cakes",
-        "herbed cheese",
-        "market pies",
-        "honeyed tea",
-        "roasted onions",
-        "river trout",
-        "festival cakes"
-      ]
-    },
-    "companionObservations": {
-      "addie": [
-        "notices exact oath wording, auction terms, registry formulas, theater bills, and copyist corrections",
-        "stores routes by Covered Bazaar Beacon, Guildhall, Archive Tower, Tenement Court, Opera Court, and Oath-Ring Hillfort",
-        "is struck by how much public truth depends on what was said aloud and then recorded"
-      ],
-      "gregory": [
-        "reads spirals, knotwork, oath-rings, hillfort geometry, harps, masks, and gold seals as symbols of binding, memory, and communal witness",
-        "would treat theater and archive as related institutions: one performs memory, the other fixes it"
-      ],
-      "brickett": [
-        "spots loose paving stones, auction side deals, laundry-well gossip, market shortcuts, dropped tokens, and small errors in public notices",
-        "quickly learns which market paths are official and which ones children and vendors actually use"
-      ],
-      "talandra": [
-        "reads covered markets, bridge choke points, theater crowds, archive stairs, and tenement alleys as threat geometry",
-        "would dislike how easily a crowd can form around speech, performance, or beacon changes"
-      ],
-      "mae": [
-        "would notice auction power, guild certification, registry access, theater patronage, and tenement reputation networks",
-        "would understand that in Dun Liath, public reputation is a currency as real as coin"
-      ],
-      "genericCompanionNotes": [
-        "Outsiders should feel welcomed into conversation before they understand the rules of it.",
-        "Public speech should matter: a promise in Dun Liath is not casual once witnesses hear it."
-      ]
-    }
-  },
-  "arrivalExperience": {
-    "firstImpression": "A visitor should first experience Dun Liath as a grey-stone river city already speaking: market calls under awnings, blue lamps on towers, bridges over dark water, red banners, archive spires, and the green spiral hillfort standing beyond the city like an older oath no one has forgotten.",
-    "firstHourSequence": [
-      "river approach or bridge crossing into grey-stone streets",
-      "first view of the Covered Bazaar Beacon above red awnings and market roofs",
-      "passing auction courts and food stalls where public speech has legal weight",
-      "moving through guild banners and masterwork arcades",
-      "glimpsing archive towers and copyist halls behind civic terraces",
-      "hearing theater or mask-pavilion music and seeing the Oath-Ring Hillfort beyond the city"
+    "infrastructure": [
+      "stone bridges",
+      "market courts",
+      "auction platforms",
+      "awninged market routes",
+      "guild arcades",
+      "masterwork display paths",
+      "archive stairs",
+      "copyist halls",
+      "laundry wells",
+      "tenement courts",
+      "opera plazas",
+      "mask pavilions",
+      "hill roads"
     ],
-    "readerEffect": "The reader should feel that Dun Liath is warm, crowded, civic, and old in a human way: everything is witnessed, remembered, traded, performed, and argued in public."
-  },
-  "departureMemory": {
-    "readerShouldRemember": [
-      "grey stone and moss under golden light",
-      "red awnings over covered bazaars",
-      "blue lamps and civic towers",
-      "river bridges and dry-stone paving",
-      "Spiral Knotwork Sovereign Registry Court",
-      "Oath-Ring Hillfort of the Green Spiral",
-      "guild banners, archive stairs, tenement wells, and theater masks",
-      "a city where speech becomes memory"
+    "motifs": [
+      "spiral knotwork",
+      "oath rings",
+      "round towers",
+      "woven banners",
+      "gold seals",
+      "red awnings",
+      "masks",
+      "blue lamps",
+      "bridge stones",
+      "masterwork displays",
+      "laundry wells"
+    ],
+    "colorLanguage": [
+      "grey stone",
+      "moss green",
+      "dark timber",
+      "red awnings",
+      "blue lamps",
+      "gold seals",
+      "warm theater amber"
+    ],
+    "textureLanguage": [
+      "mossy stone",
+      "dry-stone paving",
+      "weathered plaster",
+      "woven fabric",
+      "dark wood",
+      "wet river stone",
+      "paper and ink",
+      "worked craft surfaces"
     ]
   },
-  "landmarkAnalysis": {
+  "civilization": {
+    "people": "Citizens are public, verbal, oath-conscious, craft-conscious, archive-aware, and comfortable with market argument and theater as shared civic life.",
+    "occupations": [
+      "market sellers",
+      "auctioneers",
+      "guild artisans",
+      "masterwork inspectors",
+      "copyists",
+      "archivists",
+      "tenement landlords",
+      "laundry workers",
+      "actors",
+      "mask makers",
+      "musicians",
+      "bridge keepers",
+      "registry clerks",
+      "awning makers"
+    ],
+    "socialClasses": [
+      "registry officials",
+      "guild masters",
+      "market families",
+      "archive keepers",
+      "theater patrons",
+      "tenement residents",
+      "craft apprentices",
+      "street performers"
+    ],
+    "governance": "Authority is oath-registry based, expressed through spiral knotwork records, public markets, guild legitimacy, archives, and communal witnessing.",
+    "religion": "Religious expression is woven through oath rings, hillfort memory, standing-circle silhouettes, public ceremony, and communal obligations rather than separate temple dominance.",
+    "customs": [
+      "public oath witnessing",
+      "market speech and bargaining",
+      "guild proof of craft",
+      "archive citation",
+      "communal theater attendance",
+      "hillfort ceremony",
+      "public satire that tests memory and reputation"
+    ],
+    "bodyLanguage": [
+      "public gesturing",
+      "close market negotiation",
+      "respectful posture at oath sites",
+      "craftsmen displaying hands and tools",
+      "performers using exaggerated mask movement",
+      "tenement residents watching from windows and wells"
+    ],
+    "speechPatterns": [
+      "oath formulas",
+      "market wit",
+      "guild terminology",
+      "archive references",
+      "communal teasing",
+      "stage-trained projection"
+    ]
+  },
+  "urbanLife": {
+    "streets": {
+      "appearance": "Dense grey-stone streets with bridges, red awnings, round towers, market canopies, guild fronts, masterwork arcades, archive stairs, laundry wells, tenement courts, and theater lanterns.",
+      "movement": "Movement follows bridge streets, market courts, guild arcades, archive stairs, tenement alleys, opera plazas, and hill roads toward the oath-ring wonder.",
+      "sounds": [
+        "market calls",
+        "river water",
+        "bridge footsteps",
+        "guild tools",
+        "archive quiet",
+        "laundry wells",
+        "theater music",
+        "public laughter",
+        "bells",
+        "auction calls"
+      ],
+      "smells": [
+        "wet stone",
+        "moss",
+        "bread",
+        "beer or malt",
+        "lamp oil",
+        "river air",
+        "ink",
+        "wood smoke",
+        "market food"
+      ],
+      "lighting": "Blue civic light and warm market or theater lanterns contrast with cool grey stone and moss.",
+      "weatherEffects": "Rain darkens stone, brightens moss, fills market awnings with sound, and makes bridge streets reflective.",
+      "dayCycle": "Daytime is market, craft, archive, and bridge traffic; evening shifts toward theater, tavern-like warmth, and public performance.",
+      "nightCycle": "Night is blue lamps, red awning lanterns, theater glow, river reflections, and close tenement sound."
+    },
+    "shops": {
+      "common": [
+        "market stalls",
+        "bread sellers",
+        "fish counters",
+        "cloth vendors",
+        "lamp sellers",
+        "laundry services",
+        "bridge food carts"
+      ],
+      "uncommon": [
+        "knotwork carvers",
+        "mask makers",
+        "archive copyists",
+        "guild tool shops",
+        "theater costume stalls",
+        "masterwork appraisal counters"
+      ],
+      "prestigious": [
+        "guild master halls",
+        "registry seal offices",
+        "archive legal counters",
+        "theater patron boxes",
+        "fine bronze workshops"
+      ],
+      "exports": [
+        "craft goods",
+        "knotwork carving",
+        "legal copies",
+        "masks",
+        "woven banners",
+        "market goods"
+      ],
+      "imports": [
+        "bronze",
+        "fine cloth",
+        "ink",
+        "paper",
+        "spices",
+        "timber"
+      ],
+      "streetFood": [
+        "market bread",
+        "river fish",
+        "stew",
+        "oat cakes",
+        "herb pies",
+        "warm cider",
+        "roasted roots"
+      ],
+      "services": [
+        "oath witnessing",
+        "copying records",
+        "guild certification",
+        "market auctioning",
+        "laundry",
+        "theater performance",
+        "bridge toll work"
+      ]
+    },
+    "housing": {
+      "wealthy": "Registry- and guild-adjacent stone houses with carved knotwork, private courtyards, blue lamps, and views toward bridges or hill roads.",
+      "middle": "Guild family homes, rooms over shops, bridge-street apartments, red awnings, shared courts, and dark timber interiors.",
+      "poor": "Dense tenement courts, laundry-well rooms, market-edge flats, mossy stone lanes, shared water, and close public sound."
+    }
+  },
+  "districts": [
+    {
+      "sectionNumber": 1,
+      "name": "Grand Market",
+      "civicPurpose": "Public trade, speech, bargaining, assembly, auction, and Beacon-centered civic warning.",
+      "visualIdentity": "Grand Market Civic Hall, Covered Bazaar Beacon, Awning Monument, Auction Court Nook, market canopies, red awnings, bridge traffic, and blue lamps.",
+      "emotionalIdentity": "Warm, loud, public, and socially binding.",
+      "gameplayAssetNeeds": [
+        "Grand Market Civic Hall",
+        "Covered Bazaar Beacon",
+        "Awning Monument",
+        "Auction Court Nook",
+        "red awnings",
+        "market stalls",
+        "crowds",
+        "blue lamps"
+      ],
+      "narrativeUse": [
+        "public rumor",
+        "bargaining",
+        "Beacon reaction",
+        "oath in market",
+        "auction scenes",
+        "public memory tested by commerce"
+      ],
+      "landmark": "Covered Bazaar Beacon",
+      "minorLandmarks": [
+        "Awning Monument",
+        "Auction Court Nook"
+      ]
+    },
+    {
+      "sectionNumber": 2,
+      "name": "Artisan Guilds",
+      "civicPurpose": "Craft legitimacy, apprenticeship, production, guild rank, and public proof of skilled work.",
+      "visualIdentity": "Artisan Guilds Civic Hall, Guildhall, Woven Banners Monument, Masterwork Arcade Nook, workshop fronts, tools, and craft displays.",
+      "emotionalIdentity": "Skilled, proud, noisy, and exacting.",
+      "gameplayAssetNeeds": [
+        "Artisan Guilds Civic Hall",
+        "Guildhall",
+        "Woven Banners Monument",
+        "Masterwork Arcade Nook",
+        "workshop fronts",
+        "craft tools",
+        "apprentices"
+      ],
+      "narrativeUse": [
+        "craft proof",
+        "guild politics",
+        "workshop clues",
+        "masterwork disputes",
+        "public rank through skill"
+      ],
+      "landmark": "Guildhall",
+      "minorLandmarks": [
+        "Woven Banners Monument",
+        "Masterwork Arcade Nook"
+      ]
+    },
+    {
+      "sectionNumber": 3,
+      "name": "Records / Archives",
+      "civicPurpose": "Archive memory, public record, oath preservation, and legal continuity.",
+      "visualIdentity": "Records / Archives Hall, Archive Tower, Records Archives Gold-Seal Monument, Copyist Hall Nook, stairs, cool light, and quiet courts.",
+      "emotionalIdentity": "Solemn, exact, and memory-heavy.",
+      "gameplayAssetNeeds": [
+        "Records / Archives Hall",
+        "Archive Tower",
+        "Records Archives Gold-Seal Monument",
+        "Copyist Hall Nook",
+        "archive stairs",
+        "clerks"
+      ],
+      "narrativeUse": [
+        "record clues",
+        "oath disputes",
+        "legal memory",
+        "public history made actionable"
+      ],
+      "landmark": "Archive Tower",
+      "minorLandmarks": [
+        "Records Archives Gold-Seal Monument",
+        "Copyist Hall Nook"
+      ]
+    },
+    {
+      "sectionNumber": 4,
+      "name": "Low Residential",
+      "civicPurpose": "Dense ordinary life, domestic continuity, neighborhood gossip, shared services, and communal witness at close range.",
+      "visualIdentity": "Low Residential Civic Hall, Tenement Court, Low Residential Lantern Monument, Laundry Well Nook, narrow lanes, mossy walls, blue lamps, and red fabric.",
+      "emotionalIdentity": "Crowded, intimate, resilient, and talkative.",
+      "gameplayAssetNeeds": [
+        "Low Residential Civic Hall",
+        "Tenement Court",
+        "Low Residential Lantern Monument",
+        "Laundry Well Nook",
+        "shared stairs",
+        "families",
+        "residential lanterns"
+      ],
+      "narrativeUse": [
+        "domestic stakes",
+        "gossip",
+        "low-city view",
+        "public pressure",
+        "ordinary witnesses to civic events"
+      ],
+      "landmark": "Tenement Court",
+      "minorLandmarks": [
+        "Low Residential Lantern Monument",
+        "Laundry Well Nook"
+      ]
+    },
+    {
+      "sectionNumber": 5,
+      "name": "Entertainment / Theater",
+      "civicPurpose": "Public performance, communal ceremony, satire, memory, social release, and masked civic commentary.",
+      "visualIdentity": "Entertainment / Theater Civic Hall, Opera Court, Entertainment Theater Lantern Monument, Mask Pavilion Nook, stages, banners, crowd terraces, and theater lanterns.",
+      "emotionalIdentity": "Bright, dramatic, communal, and slightly dangerous.",
+      "gameplayAssetNeeds": [
+        "Entertainment / Theater Civic Hall",
+        "Opera Court",
+        "Entertainment Theater Lantern Monument",
+        "Mask Pavilion Nook",
+        "stage",
+        "performers",
+        "lanterns",
+        "audience tiers"
+      ],
+      "narrativeUse": [
+        "public performance",
+        "satire",
+        "ceremony",
+        "masked intrigue",
+        "communal memory through theater"
+      ],
+      "landmark": "Opera Court",
+      "minorLandmarks": [
+        "Entertainment Theater Lantern Monument",
+        "Mask Pavilion Nook"
+      ]
+    }
+  ],
+  "landmarks": {
     "wonder": {
       "name": "Oath-Ring Hillfort of the Green Spiral",
-      "purpose": "The Wonder embodies Dun Liath's oldest civic principle: oaths witnessed by land, community, and spiral memory before modern registry systems formalize them.",
-      "visualDescription": "A far hilltop or upland ring-fort complex with green spiral geometry, standing-circle/hillfort massing, pale stone, grass terraces, and ceremonial visibility over the city.",
-      "narrativeUse": "Use the Wonder to connect modern market-law and registry language to older oath culture. It should feel ancestral without making the city primitive.",
-      "howCharactersNoticeIt": {
-        "addie": "notices that public records still echo hillfort oath phrasing",
-        "gregory": "reads the ring and spiral as binding, return, continuity, and communal witness",
-        "brickett": "spots paths, service steps, drainage, and places people gather unofficially around formal ritual routes",
-        "talandra": "maps high ground, crowd approaches, exposure, and defensibility",
-        "mae": "reads who is allowed to invoke hillfort oath memory as political leverage"
-      },
-      "commonActivities": [
-        "oath ceremonies",
-        "seasonal festivals",
-        "public reconciliations",
-        "civic memory rites",
-        "guild or market vows",
-        "processions from city to hill"
+      "symbolicRole": "Communal oath, old hill memory, and civic legitimacy outside the market core.",
+      "visualRole": "Far hillfort ring with green spiral identity, stone forms, ritual high ground, and visible continuity with the city's oath culture.",
+      "civicRole": "Wonder-scale anchor for oaths, public memory, ancient legitimacy, and the city's relationship to hillfort precedent.",
+      "narrativeUse": [
+        "oath scenes",
+        "ceremony",
+        "public memory",
+        "political legitimacy",
+        "old law confronting market urgency"
       ],
-      "visibilityFromCity": "Visible from hero views and likely many upper terraces as the ancestral skyline counterweight to the Registry Court."
+      "assetUse": [
+        "map background wonder",
+        "distant skyline anchor",
+        "ritual high-ground asset"
+      ],
+      "sensoryIdentity": [
+        "wind",
+        "grass",
+        "stone ring",
+        "distant bells",
+        "moss after rain"
+      ],
+      "storyHooks": [
+        "an oath at the hillfort changes a market dispute into civic law",
+        "a performance retells the oath differently than the archive does"
+      ]
     },
     "beacon": {
       "name": "Covered Bazaar Beacon",
-      "purpose": "The Beacon ties Conjunction signal identity to the market, meaning public warning travels through the city's loudest civic space.",
-      "visualDescription": "A blue-lit signal tower or vertical landmark integrated into covered bazaar architecture, red awnings, market courts, and auction approaches.",
-      "narrativeUse": "Use the Beacon to make crisis immediate and public. In Dun Liath, a signal change should ripple first through merchants, auctioneers, guild runners, and crowds rather than a remote military square.",
-      "howCharactersNoticeIt": {
-        "addie": "notices citizens translating beacon states into market notices and public declarations",
-        "gregory": "reads it as a warning light inside communal exchange",
-        "brickett": "finds awning routes, stall backs, ladder access, and crowd blind spots near it",
-        "talandra": "treats the bazaar beacon plaza as dangerous because panic and commerce share the same space"
-      },
-      "commonActivities": [
-        "signal watching",
-        "market announcements",
-        "auction pauses",
-        "public warnings",
-        "guild musters",
-        "festival lighting"
+      "symbolicRole": "Warning rooted in public market life.",
+      "visualRole": "Beacon rising from covered bazaar awnings, Grand Market civic space, red canopies, and blue-lit public routes.",
+      "civicRole": "Signal heart for market assembly, public notice, auction interruption, and citywide reaction.",
+      "narrativeUse": [
+        "Beacon changes",
+        "market crowd scenes",
+        "public announcements",
+        "auction interruption",
+        "rumor becoming civic action"
       ],
-      "visibilityFromCity": "Prominent in Section 1 and repeated in hero views as the near civic signal anchor."
+      "assetUse": [
+        "S1 centerpiece",
+        "signal marker",
+        "market beacon asset"
+      ],
+      "sensoryIdentity": [
+        "blue glow",
+        "market calls",
+        "red awnings",
+        "warm food",
+        "crowd hush at signal change"
+      ],
+      "storyHooks": [
+        "a warning interrupts a public auction",
+        "the market interprets the Beacon faster than the registry can issue a notice"
+      ]
     },
     "seatOfPower": {
       "name": "Spiral Knotwork Sovereign Registry Court",
-      "purpose": "The seat of power expresses governance through recorded oaths, public law, sealed archives, registry authority, and knotwork continuity.",
-      "visualDescription": "A formal grey-stone civic court complex with spiral/knotwork ornament, archive wings, command terraces, blue lamps, gold seals, and public stairs rising above the market-city fabric.",
-      "narrativeUse": "Use the Registry Court to show that Dun Liath's law is binding because it is both recorded and witnessed. It should feel civic rather than imperial.",
-      "howCharactersNoticeIt": {
-        "addie": "locks onto exact registry wording, oath categories, and contradictions between spoken memory and written record",
-        "gregory": "reads knotwork as social binding and legal entanglement",
-        "brickett": "spots side doors, clerk routes, loose notices, and where public records depend on unnoticed mundane labor",
-        "talandra": "maps stairs, public queues, balcony lines, and crowd funneling",
-        "mae": "understands that registry access, market reputation, and guild certification are interdependent power systems"
-      },
-      "commonActivities": [
-        "registration",
-        "oath recording",
-        "trade rulings",
-        "guild certification disputes",
-        "public petitions",
-        "archive sealing",
-        "market-law hearings"
+      "symbolicRole": "Oath and record interlaced into law.",
+      "visualRole": "Central registry with spiral knotwork, round-tower forms, gold seals, civic terraces, and public approaches from market and archive districts.",
+      "civicRole": "Government center for records, oaths, guild legitimacy, public memory, and legal continuity.",
+      "narrativeUse": [
+        "oath law",
+        "registry disputes",
+        "public rulings",
+        "guild legitimacy",
+        "archive evidence made official"
       ],
-      "visibilityFromCity": "Dominant civic authority anchor visible across hero and street views, separate from the market Beacon and hillfort Wonder."
+      "assetUse": [
+        "seat-of-power marker",
+        "central court diorama",
+        "knotwork authority motif"
+      ],
+      "sensoryIdentity": [
+        "ink",
+        "stone",
+        "bells",
+        "blue lamps",
+        "quiet court voices"
+      ],
+      "storyHooks": [
+        "a knotwork record exposes an oath someone wants forgotten",
+        "a registry ruling makes a theater satire dangerous"
+      ]
     },
     "majorLandmarks": [
       {
-        "name": "Covered Bazaar Beacon",
-        "sectionNumber": 1,
-        "narrativeUse": "Use for market signal anxiety, public announcements, auction disruption, and crisis spreading through commerce."
-      },
-      {
         "name": "Guildhall",
-        "sectionNumber": 2,
-        "narrativeUse": "Use for craft authority, certification, apprenticeships, public pride, and guild politics."
+        "symbolicRole": "Craft made public authority.",
+        "visualRole": "Workshop hall, woven banners, tools, masterwork arcade, craft displays, and guild approaches.",
+        "civicRole": "Guild certification, apprenticeship, craft legitimacy, and public proof of skilled work.",
+        "narrativeUse": [
+          "craft proof",
+          "guild conflict",
+          "masterwork disputes",
+          "workshop clues"
+        ],
+        "assetUse": [
+          "S2 diorama landmark",
+          "guild/craft asset cluster",
+          "craft authority marker"
+        ],
+        "sensoryIdentity": [
+          "tools",
+          "wood shavings",
+          "metalwork",
+          "banner cloth",
+          "public appraisal murmurs"
+        ],
+        "storyHooks": [
+          "a masterwork proves a claim the archive cannot",
+          "a guild banner marks who may speak in a dispute"
+        ]
       },
       {
         "name": "Archive Tower",
-        "sectionNumber": 3,
-        "narrativeUse": "Use for official memory, legal records, Addie's exact recall, and conflicts between spoken oath and written archive."
+        "symbolicRole": "Memory raised, sealed, copied, and cited.",
+        "visualRole": "Archive tower with copyist hall, gold-seal monument, quiet stairs, cool light, and civic record massing.",
+        "civicRole": "Preserves oaths, legal memory, public records, and continuity between hillfort past and city present.",
+        "narrativeUse": [
+          "record clues",
+          "oath disputes",
+          "legal memory",
+          "archive contradiction"
+        ],
+        "assetUse": [
+          "S3 diorama landmark",
+          "archive skyline feature",
+          "records asset cluster"
+        ],
+        "sensoryIdentity": [
+          "ink",
+          "paper",
+          "cool stone",
+          "quiet copyists",
+          "gold-seal wax"
+        ],
+        "storyHooks": [
+          "a copyist finds a phrase everyone quotes wrong",
+          "an old oath record changes a modern market conflict"
+        ]
       },
       {
         "name": "Tenement Court",
-        "sectionNumber": 4,
-        "narrativeUse": "Use for domestic density, gossip, class texture, laundry, children, shared life, and the informal social memory of the city."
+        "symbolicRole": "Ordinary community as constant witness.",
+        "visualRole": "Dense residential court with laundry well, lantern monument, narrow stairs, mossy walls, families, and red fabric.",
+        "civicRole": "Anchors domestic continuity, shared services, gossip, and the lived consequences of public rulings.",
+        "narrativeUse": [
+          "domestic stakes",
+          "gossip",
+          "low-city view",
+          "ordinary witness scenes"
+        ],
+        "assetUse": [
+          "S4 diorama landmark",
+          "low residential asset cluster",
+          "domestic pressure marker"
+        ],
+        "sensoryIdentity": [
+          "laundry water",
+          "cooking smoke",
+          "wet stone",
+          "close voices",
+          "lantern oil"
+        ],
+        "storyHooks": [
+          "a laundry-well rumor reaches the market before officials do",
+          "a tenement court remembers an oath no archive cites"
+        ]
       },
       {
         "name": "Opera Court",
-        "sectionNumber": 5,
-        "narrativeUse": "Use for public storytelling, satire, political performance, music, masks, and emotional release."
-      }
-    ],
-    "monuments": [
-      {
-        "name": "Awning Monument",
-        "narrativeUse": "Use to anchor the Grand Market visually and remind readers that commerce here has civic ceremony."
-      },
-      {
-        "name": "Woven Banners Monument",
-        "narrativeUse": "Use for guild identity, public allegiance, festival color, and craft reputation."
-      },
-      {
-        "name": "Records Archives Gold-Seal Monument",
-        "narrativeUse": "Use to show written record as sanctified civic memory."
-      },
-      {
-        "name": "Low Residential Lantern Monument",
-        "narrativeUse": "Use to show neighborhood wayfinding, shared safety, and ordinary civic belonging."
-      },
-      {
-        "name": "Entertainment Theater Lantern Monument",
-        "narrativeUse": "Use to mark theater as civic light, not frivolous decoration."
-      }
-    ],
-    "minorLandmarks": [
-      {
-        "name": "Auction Court Nook",
-        "narrativeUse": "Use for public bargaining, legal ambiguity, Mae-style leverage, and overheard promises."
-      },
-      {
-        "name": "Masterwork Arcade Nook",
-        "narrativeUse": "Use for craft detail, guild politics, apprentices, and material clues."
-      },
-      {
-        "name": "Copyist Hall Nook",
-        "narrativeUse": "Use for exact wording, document disputes, public notices, and Addie's memory work."
-      },
-      {
-        "name": "Laundry Well Nook",
-        "narrativeUse": "Use for gossip, domestic labor, neighborhood truth, and Brickett-style overlooked details."
-      },
-      {
-        "name": "Mask Pavilion Nook",
-        "narrativeUse": "Use for performance, satire, political disguise, private meetings in public culture, and Gregory's symbol reading."
+        "symbolicRole": "Performance as public memory, satire, and sanctioned pressure.",
+        "visualRole": "Theater court with mask pavilion, lantern monument, stages, banners, crowd terraces, and warm performance light.",
+        "civicRole": "Hosts public performance, communal ceremony, satire, and social release.",
+        "narrativeUse": [
+          "public performance",
+          "satire",
+          "ceremony",
+          "masked intrigue"
+        ],
+        "assetUse": [
+          "S5 diorama landmark",
+          "theater asset cluster",
+          "performance district anchor"
+        ],
+        "sensoryIdentity": [
+          "theater music",
+          "lantern warmth",
+          "mask paint",
+          "crowd laughter",
+          "stage wood"
+        ],
+        "storyHooks": [
+          "a satire changes how the city remembers an oath",
+          "a mask pavilion meeting becomes more public than intended"
+        ]
       }
     ]
   },
-  "immediateNarrativeImprovements": [
-    {
-      "target": "future Dun Liath scenes",
-      "recommendation": "Write DNL as a public-oath and market-memory city: speech, witnesses, prices, records, songs, and guild marks should matter in every district."
-    },
-    {
-      "target": "street descriptions",
-      "recommendation": "Use grey stone, moss, red awnings, blue lamps, covered bazaars, bridge streets, woven banners, laundry wells, and theater masks as recurring texture."
-    },
-    {
-      "target": "landmark use",
-      "recommendation": "Make the Covered Bazaar Beacon the city’s public signal mouth and the Oath-Ring Hillfort the ancestral oath-memory skyline."
-    },
-    {
-      "target": "companion writing",
-      "recommendation": "Let Addie track spoken-vs-written discrepancies, Gregory read knotwork/oath-ring symbolism, Brickett use wells/markets/awning routes, Talandra distrust bridge and bazaar crowds, and Mae exploit auction/guild/registry power."
-    },
-    {
-      "target": "city differentiation",
-      "recommendation": "Distinguish DNL from AQM and LUM: DNL is not polished capital order or celestial refinement; it is grey-stone public witness, market law, guild craft, tenement memory, and performance culture."
-    }
-  ],
-  "interpretation": {
-    "civilizationThesis": "Dun Liath is the architecture of public witness: a Celtic river-market city where oaths become records, trade becomes civic speech, guild craft becomes reputation, tenements preserve social memory, and theater turns communal truth into performance.",
-    "environmentalPhilosophy": "Settle and bind: build firmly in stone beside river and hill, then bind people through market, archive, guild, neighborhood, and oath-ring memory.",
-    "adaptiveStrategy": "Witness and record: make public speech durable through archives, guild marks, market reputation, and ritual oath spaces.",
-    "authorityModel": "oath-registry civic authority",
-    "relationshipWithNature": "settled but porous; river, moss, hillfort, gardens, and stone commons remain present without dominating civic institutions",
-    "relationshipWithHistory": "oral and archival at once; old hillfort oaths and modern registry records reinforce and challenge each other",
-    "relationshipWithKnowledge": "public, verbal, and recorded; knowledge travels through markets, copyists, guilds, theaters, and neighborhood gossip",
-    "relationshipWithRisk": "risk is managed through public witness, reputation, registry, guild systems, and communal response through markets and bridges",
-    "relationshipWithBeauty": "beauty is warm, lived-in, communal, and patterned: grey stone, red cloth, blue lamps, knotwork, music, and market life",
-    "relationshipWithCommunity": "community is dense, verbal, and reputation-driven; people are bound by what they say, sell, certify, perform, and remember",
-    "civilizationalTension": {
-      "tension": "spoken oath vs written record",
-      "resolution": "Dun Liath resolves the tension imperfectly by giving both institutions: the Oath-Ring Hillfort preserves communal witness while the Sovereign Registry Court fixes memory into law."
-    },
-    "highestVirtue": "witness",
-    "religiousExpression": "moderate and ancestral rather than temple-dominant; oath rings, spirals, hillfort memory, lanterns, and performance carry sacred-adjacent weight",
-    "economicIdentity": "markets, auctions, guild craft, river trade, copyist work, textiles, bronze lamps, performance, and public reputation",
-    "socialIdentity": "communal, talkative, craft-proud, legally aware, performative, memory-conscious, and grounded in public trust"
-  },
-  "canonReview": {
-    "lockedCanon": [
-      {
-        "statement": "Dun Liath is a mature grey-stone Celtic river-market city where covered bazaars, guild craft, archives, low residential courts, theater, registry authority, and an oath-ring hillfort define civic life.",
-        "reason": "All nine images and sidecars consistently show Grand Market, Covered Bazaar Beacon, Artisan Guilds, Records / Archives, Low Residential, Entertainment / Theater, Spiral Knotwork Sovereign Registry Court, and Oath-Ring Hillfort of the Green Spiral.",
-        "supportingEvidence": [
-          "Covered Bazaar Beacon",
-          "Guildhall",
-          "Archive Tower",
-          "Tenement Court",
-          "Opera Court",
-          "Spiral Knotwork Sovereign Registry Court",
-          "Oath-Ring Hillfort of the Green Spiral"
-        ],
-        "confidence": "high"
-      },
-      {
-        "statement": "Dun Liath authority should be written as oath-registry civic authority: public witness and written record both matter.",
-        "reason": "The city combines the Oath-Ring Hillfort, Spiral Knotwork Registry Court, Archive Tower, market auctions, and copyist halls into one civic language.",
-        "supportingEvidence": [
-          "Oath-Ring Hillfort",
-          "Sovereign Registry Court",
-          "Archive Tower",
-          "Copyist Hall Nook",
-          "Auction Court Nook"
-        ],
-        "confidence": "high"
-      },
-      {
-        "statement": "The Covered Bazaar Beacon makes Dun Liath's Conjunction signal public, commercial, and crowd-facing rather than remote or purely military.",
-        "reason": "The Beacon is anchored in Section 1 Grand Market and visually tied to bazaar roofs, auction space, and public streets.",
-        "supportingEvidence": [
-          "Grand Market Civic Hall",
-          "Covered Bazaar Beacon",
-          "Awning Monument",
-          "Auction Court Nook"
-        ],
-        "confidence": "high"
-      }
+  "assetGuidance": {
+    "districtDioramaGuidance": [
+      "S1 must show Grand Market Civic Hall, Covered Bazaar Beacon, Awning Monument, Auction Court Nook, red awnings, market stalls, crowds, and blue lamps.",
+      "S2 must show Artisan Guilds Civic Hall, Guildhall, Woven Banners Monument, Masterwork Arcade Nook, tools, workshops, apprentices, and public craft displays.",
+      "S3 must show Records / Archives Hall, Archive Tower, Records Archives Gold-Seal Monument, Copyist Hall Nook, stairs, clerks, and sealed records.",
+      "S4 must show Low Residential Civic Hall, Tenement Court, Low Residential Lantern Monument, Laundry Well Nook, shared stairs, families, and dense residential life.",
+      "S5 must show Entertainment / Theater Civic Hall, Opera Court, Entertainment Theater Lantern Monument, Mask Pavilion Nook, stage, performers, lanterns, and audience tiers."
     ],
-    "provisionalCanon": [
-      {
-        "statement": "Dun Liath's highest civic virtue is witness.",
-        "reason": "The city repeatedly emphasizes oaths, markets, archives, guild marks, neighborhood memory, and theater as public forms of truth and accountability.",
-        "supportingEvidence": [
-          "Oath-Ring Hillfort",
-          "Spiral Knotwork Registry Court",
-          "Covered Bazaar",
-          "Archive Tower",
-          "Opera Court"
-        ],
-        "confidence": "medium-high"
-      },
-      {
-        "statement": "Theater in Dun Liath likely functions as civic storytelling and public truth-pressure, not mere entertainment.",
-        "reason": "Entertainment / Theater is a full district with Opera Court, lantern monument, and Mask Pavilion, and it complements market speech and archive memory.",
-        "supportingEvidence": [
-          "Entertainment / Theater Civic Hall",
-          "Opera Court",
-          "Entertainment Theater Lantern Monument",
-          "Mask Pavilion Nook"
-        ],
-        "confidence": "medium-high"
-      }
+    "mapBackgroundGuidance": [
+      "Use a dense grey-stone Celtic river capital with bridges, red awnings, round towers, covered bazaars, guildhalls, archive towers, tenement courts, opera courts, and the green spiral hillfort beyond.",
+      "The Oath-Ring Hillfort of the Green Spiral should be the far wonder anchor; the Spiral Knotwork Sovereign Registry Court should be central authority; the Covered Bazaar Beacon should tie warning to market life.",
+      "Preserve the mix of public oath, market speech, craft proof, archives, low residential witness, and performance."
     ],
-    "workingHypotheses": [
-      {
-        "statement": "Celtic-derived cities in Eidolon may preserve older communal oath systems alongside newer registry law, creating productive tension between oral memory and state record.",
-        "reason": "Dun Liath strongly supports this, but other Celtic/Irish-derived or oath-ring cities should be compared before generalizing.",
-        "supportingEvidence": [
-          "Oath-Ring Hillfort",
-          "Spiral Knotwork Registry Court",
-          "Archive Tower",
-          "market and theater districts"
-        ],
-        "confidence": "medium"
-      }
+    "requiredVisualElements": [
+      "Irish/Celtic civic river capital identity",
+      "Oath-Ring Hillfort of the Green Spiral",
+      "Spiral Knotwork Sovereign Registry Court",
+      "Covered Bazaar Beacon",
+      "Grand Market Civic Hall",
+      "Awning Monument",
+      "Auction Court Nook",
+      "Artisan Guilds Civic Hall",
+      "Guildhall",
+      "Woven Banners Monument",
+      "Masterwork Arcade Nook",
+      "Archive Tower",
+      "Records Archives Gold-Seal Monument",
+      "Copyist Hall Nook",
+      "Tenement Court",
+      "Low Residential Lantern Monument",
+      "Laundry Well Nook",
+      "Opera Court",
+      "Entertainment Theater Lantern Monument",
+      "Mask Pavilion Nook"
     ],
-    "rejectedHypotheses": [
-      {
-        "statement": "Dun Liath is primarily a pastoral green settlement or monastic village.",
-        "reason": "The images show a dense, practical, stone-built urban civilization with markets, guilds, archives, low residential courts, and theater districts.",
-        "supportingEvidence": [
-          "Grand Market",
-          "Artisan Guilds",
-          "Records / Archives",
-          "Low Residential",
-          "Entertainment / Theater"
-        ],
-        "confidence": "high"
-      },
-      {
-        "statement": "Dun Liath's civic identity is purely bureaucratic because it has a Sovereign Registry Court.",
-        "reason": "The market Beacon, oath-ring Wonder, guilds, tenements, and theater all show law and memory remain public, communal, and performative.",
-        "supportingEvidence": [
-          "Covered Bazaar Beacon",
-          "Oath-Ring Hillfort",
-          "Guildhall",
-          "Tenement Court",
-          "Opera Court"
-        ],
-        "confidence": "high"
-      }
-    ]
-  },
-  "futureQuestions": [
-    "How formal is oath-taking at the Oath-Ring Hillfort versus ordinary market promises?",
-    "Who controls conflicts between spoken witness and registry record?",
-    "How political is the theater district, and does satire have legal or social consequence?",
-    "How much authority do guilds hold compared with the Sovereign Registry Court?",
-    "How should Dun Liath's blue civic light differ from AQM civic blue, LUM celestial blue, ETH witness blue, and FRO safety blue?"
-  ],
-  "comparativeNotes": {
-    "distinctFrom": [
-      {
-        "cityCode": "AQM",
-        "difference": "AQM expresses capital maritime-civic order; DNL expresses grey-stone public witness, market law, guild memory, and oath-ring ancestry."
-      },
-      {
-        "cityCode": "LUM",
-        "difference": "Luminthalas uses refined celestial beauty and designed geometry; DNL uses lived-in stone, markets, archives, tenements, and public performance."
-      },
-      {
-        "cityCode": "ETH",
-        "difference": "Ethervale turns duty into celestial/archival labor; DNL turns public speech, oath, trade, and performance into civic memory."
-      },
-      {
-        "cityCode": "PSG",
-        "difference": "PSG coordinates tide-commerce and ancestor maritime power; DNL coordinates river-market speech, guild craft, archive law, and oath-hill legitimacy."
-      }
-    ],
-    "similarTo": [
-      {
-        "cityCode": "AQM",
-        "similarity": "Both are institutionally legible civic cities with markets, towers, blue lights, and strong public spaces."
-      },
-      {
-        "cityCode": "VLG",
-        "similarity": "Both use guilds, records, banners, and old stone institutions, though DNL is warmer, more verbal, and market-facing."
-      },
-      {
-        "cityCode": "ASL",
-        "similarity": "Both have performance/mask/threshold culture, but DNL's performance is civic storytelling while ASL's is threshold permission and layered spectacle."
-      }
-    ],
-    "uniqueContributions": [
-      "strongest current public-oath / market-witness civic identity",
-      "clearest fusion of market, archive, tenement, guild, and theater as memory systems",
-      "best Celtic/Irish grey-stone urban language so far",
-      "hillfort wonder creates strong ancient-oath counterweight to modern registry law"
-    ],
-    "potentialInfluences": [
-      "Celtic city culture bible",
-      "oath and registry worldbuilding",
-      "market-law narrative scenes",
-      "public theater as civic memory",
-      "Mother's observation that civilizations can preserve oral truth systems alongside written authority"
-    ]
-  },
-  "crossCityTags": [
-    "celtic-city",
-    "irish-river-town",
-    "grey-stone",
-    "covered-bazaar-beacon",
-    "oath-ring-hillfort",
-    "green-spiral",
-    "spiral-knotwork-registry",
-    "guildhall",
-    "archive-tower",
-    "tenement-court",
-    "opera-court",
-    "market-law",
-    "public-witness",
-    "established-civilization"
-  ],
-  "evolution": {
-    "previousAssumptions": [
-      "Dun Liath was expected to be Irish/Celtic, grey-stone, river-town inspired, with round towers, commons, gardens, and knotwork motifs.",
-      "The exact civic balance between market, oath, archives, guilds, low residential, and theater had not yet been formalized."
-    ],
-    "discoveries": [
-      "The city is more urban and market-facing than a pastoral/monastic expectation would suggest.",
-      "The Covered Bazaar Beacon makes commerce the public crisis channel, which is a strong differentiator.",
-      "The Oath-Ring Hillfort and Sovereign Registry Court create a powerful spoken-oath vs written-record civic tension.",
-      "Low Residential and Entertainment/Theater districts are not secondary; they help define how Dun Liath remembers and pressures truth socially.",
-      "Dun Liath's Celtic identity works best as public witness, craft, market, and oath culture rather than scenery alone."
-    ],
-    "confirmedAssumptions": [
-      "Dun Liath should remain grey-stone, mossy, knotwork-heavy, river/bridge-linked, and Celtic-coded.",
-      "Round towers, civic terraces, markets, and gardens belong in its visual grammar.",
-      "The city should feel old, settled, and communal rather than temporary or purely ceremonial."
-    ],
-    "changedOurMind": [
-      "Do not overemphasize green monastic settlement at the expense of dense market-city life.",
-      "Make public speech, market witness, theater, and neighborhood memory central in prose.",
-      "Write the Registry Court and Oath-Ring Hillfort as complementary but tension-filled institutions."
-    ],
-    "futureValidation": [
-      "Compare DNL with other Celtic/Irish/river cities to determine whether oath-registry tension is unique or broader.",
-      "Use future prose to test whether public witness can become a meaningful plot mechanism.",
-      "Revisit DNL descriptions for sufficient market, tenement, theater, and archive specificity."
+    "elementsToAvoid": [
+      "wild Celtic ruin framing",
+      "generic medieval market town",
+      "empty stone city without dense public life",
+      "theater as decoration only",
+      "guild craft omitted from civic authority",
+      "archives replaced by vague memory motifs",
+      "low residential areas treated as background filler"
     ]
   }
 }

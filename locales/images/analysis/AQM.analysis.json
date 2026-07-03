@@ -1,599 +1,787 @@
 {
-  "schemaVersion": 1,
-  "analysisVersion": 1,
-  "cityCode": "AQM",
-  "cityName": "Aquila Matara",
-  "analysisConfidence": "strong-lock",
-  "analysisDate": "2026-06-29",
-  "analystVersion": "gpt-5.5-thinking",
-  "basedOnImages": [
-    "AQM-HERO-NW-v001",
-    "AQM-HERO-NE-v001",
-    "AQM-HERO-SE-v001",
-    "AQM-HERO-SW-v001",
-    "AQM-STREET-S1-v001",
-    "AQM-STREET-S2-v001",
-    "AQM-STREET-S3-v001",
-    "AQM-STREET-S4-v001",
-    "AQM-STREET-S5-v001"
-  ],
-  "summary": {
-    "oneSentence": "Aquila Matara is a white-stone maritime capital where civic order, harbor commerce, public institutions, beacon culture, and monumental processional architecture are visibly fused.",
-    "identityStatement": "Aquila Matara should read as the capital of a settled nation: not merely large, but administratively confident, publicly legible, commercially alive, and symbolically organized around harbor arrival, civic ascent, the Beacon, and the Citadel."
-  },
-  "evidence": {
-    "civilizationMaturity": {
-      "ageExpression": "established-to-ancient",
-      "evidence": [
-        "districts appear intentionally planned rather than improvised",
-        "harbor, civic terraces, towers, and public stairs feel integrated into one long-lived urban system",
-        "public institutions appear embedded in daily life rather than isolated as special structures",
-        "the skyline has stable hierarchy: harbor/city fabric below, civic towers and Beacon rising, Citadel dominating above"
-      ]
-    },
-    "architecturalLanguage": {
-      "materials": [
-        "white limestone",
-        "pale marble",
-        "blue glass",
-        "red tile roofing",
-        "bronze trim",
-        "gold civic detailing",
-        "polished stone paving",
-        "weathered harbor masonry"
-      ],
-      "forms": [
-        "monumental civic stairs",
-        "domed civic buildings",
-        "clock towers",
-        "beacon towers",
-        "arched arcades",
-        "seawalls",
-        "terraced plazas",
-        "harbor warehouses",
-        "civic halls",
-        "waterfront retaining walls"
-      ],
-      "skyline": [
-        "Citadel as dominant high civic anchor",
-        "Beacon as public signal landmark",
-        "repeating towers and domes",
-        "harbor masts and cranes at lower elevation",
-        "white stone massing rising from waterfront to civic heights"
-      ],
-      "lighting": [
-        "blue civic lamps",
-        "blue-glass window glow",
-        "warm interior lantern light",
-        "beacon light as skyline focus",
-        "golden light on white stone",
-        "harbor lantern reflections"
-      ],
-      "infrastructure": [
-        "working harbor",
-        "quays",
-        "seawalls",
-        "cargo cranes",
-        "ship masts",
-        "rail grooves or cargo tracks",
-        "formal stairs between elevation levels",
-        "market roads",
-        "public squares",
-        "government-facing avenues"
-      ],
-      "visualPatterns": [
-        "white stone contrasted with red banners and roofs",
-        "blue civic light as recurring identity marker",
-        "processional upward movement from harbor to civic core",
-        "clear distinction between working waterfront and formal government skyline"
-      ],
-      "recurringMotifs": [
-        "eagles or civic heraldry implied through capital symbolism",
-        "bells and clock faces",
-        "blue lamps",
-        "red-and-gold banners",
-        "arches",
-        "stairs",
-        "harbor rope and cranes"
-      ]
-    },
-    "environmentalRelationship": {
-      "observed": "The coastline is organized into civic infrastructure rather than hidden or erased.",
-      "evidence": [
-        "harbor remains visually central across the concept set",
-        "seawalls and quays make the water edge orderly and public",
-        "stairs and terraces turn elevation into civic procession",
-        "the city presents the harbor as part of its identity rather than background scenery"
-      ]
-    },
-    "authorityExpression": {
-      "observed": "Authority is visible, institutional, and centralized through civic architecture.",
-      "evidence": [
-        "Citadel dominates the skyline",
-        "formal public stairs and plazas direct movement toward civic structures",
-        "government buildings feel integrated with daily public life",
-        "the Beacon provides a public psychological and navigational anchor"
-      ]
-    },
-    "commercialSpaces": [
-      "waterfront markets",
-      "ship-support businesses",
-      "formal market plazas",
-      "workshops integrated into civic streets",
-      "merchant halls and bureaucratic counters"
+  "metadata": {
+    "schemaVersion": "2.0",
+    "analysisVersion": 2,
+    "cityCode": "AQM",
+    "cityName": "Aquila Matara",
+    "analysisDate": "2026-07-03",
+    "analystVersion": "gpt-5.5-thinking",
+    "analysisConfidence": "strong-lock",
+    "basedOnImages": [
+      "AQM-HERO-NE-v001",
+      "AQM-HERO-NW-v004",
+      "AQM-HERO-SE-v001",
+      "AQM-HERO-SW-v001",
+      "AQM-STREET-S1-v001",
+      "AQM-STREET-S2-v001",
+      "AQM-STREET-S3-v001",
+      "AQM-STREET-S4-v001",
+      "AQM-STREET-S5-v001"
     ],
-    "publicSpaces": [
-      "broad plazas",
-      "harbor steps",
-      "civic terraces",
+    "basedOnSidecars": [
+      "AQM-HERO-NE-v001.json",
+      "AQM-HERO-NW-v004.json",
+      "AQM-HERO-SE-v001.json",
+      "AQM-HERO-SW-v001.json",
+      "AQM-STREET-S1-v001.json",
+      "AQM-STREET-S2-v001.json",
+      "AQM-STREET-S3-v001.json",
+      "AQM-STREET-S4-v001.json",
+      "AQM-STREET-S5-v001.json"
+    ]
+  },
+  "cityDNA": {
+    "coreFantasy": "A white-stone maritime capital where public baths, markets, universities, guild halls, forums, archives, cathedral ritual, and Beacon authority turn civic visibility into national legitimacy.",
+    "primaryEmotion": "public confidence",
+    "secondaryEmotion": "institutional pressure",
+    "readerTakeaway": "Aquila Matara is not just a big coastal city; it is the capital made legible, with every bathhouse, market clock, university tower, guild hall, forum archive, cathedral dome, and blue-lit Beacon participating in public order.",
+    "civilizationThesis": "Aquila Matara fuses harbor life with civic institutions: arrival is washed and registered, commerce is timed and watched, knowledge serves administration, guild craft supports legitimacy, and the Forum preserves the First Accord beneath the Beacon and Tide-Seal Citadel.",
+    "visualIdentity": "White limestone, pale marble, red tile roofs, blue civic glass, bronze and gold detailing, sea-facing terraces, clock towers, cathedral domes, forum arches, university towers, public bathhouse courts, guild banners, and Beacon light above the harbor.",
+    "culturalIdentity": "A capital-port culture of clerks, bath attendants, guards, merchants, scholars, guild artisans, priests, archivists, petitioners, messengers, sailors, and officials accustomed to being seen by institutions.",
+    "symbolicIdentity": "Blue civic glow, tide seals, the First Accord, clock faces, public wells, oath walls, guild banners, archives, cathedral bells, forum pillars, and Beacon light symbolize official memory made public."
+  },
+  "canon": {
+    "canonLocks": [
+      "Aquila Matara is the capital-scale maritime civic center of the nation.",
+      "The Wonder is the Basilica of the First Accord.",
+      "The Beacon is the Beacon Citadel.",
+      "The Seat of Power is the Civic Blue Glow Tide-Seal Citadel.",
+      "The five primary districts are Public Bathhouse, Grand Market, University, Guild Hall, and Forum.",
+      "The city is organized around public legitimacy, institutional visibility, and movement from harbor arrival into civic authority."
+    ],
+    "provisionalCanon": [
+      "Aquila Matara's highest civic virtue is public legitimacy: the capital must be seen to function.",
+      "The city treats civic cleanliness, timekeeping, scholarship, craft certification, archives, and public assembly as mutually reinforcing forms of order.",
+      "Crowds can create political meaning faster than officials can control it, especially near the Beacon, Forum, and Citadel steps."
+    ],
+    "rejectedReads": [
+      "Aquila Matara is only a generic white-stone harbor city.",
+      "The harbor is background scenery rather than the origin of civic movement.",
+      "The capital is empty ceremonial grandeur without working institutions.",
+      "The districts should be flattened into generic waterfront, market, civic core, industry, and citadel zones."
+    ],
+    "cautionFlags": [
+      "Keep the uploaded district landmarks visible: Public Bathhouse, Grand Market, University, Guild Hall, Forum, Hall of Archives, Grand Cathedral, Great Clock Tower, and Beacon Citadel.",
+      "Do not let the Citadel erase the rest of the civic machinery; Aquila Matara works because institutions are distributed across the city.",
+      "Keep blue civic light specific to capital administration and public coordination, not generic magic decoration.",
+      "Maintain working harbor context beneath the formal civic skyline."
+    ]
+  },
+  "environment": {
+    "terrain": [
+      "coastal capital",
+      "harbor terraces",
+      "civic heights",
+      "formal stairs",
+      "seawall edges",
+      "market plazas",
+      "forum terraces",
+      "institutional hill roads"
+    ],
+    "water": [
+      "working harbor",
+      "quays",
+      "public baths",
+      "Pilgrim's Well",
+      "fountains",
+      "seawalls",
+      "harbor reflections",
+      "rain-wet civic paving"
+    ],
+    "vegetation": [
+      "formal public greenery",
+      "courtyard plantings",
+      "university gardens",
+      "forum planters",
+      "balcony plants",
+      "limited harbor greenery"
+    ],
+    "climateLighting": [
+      "golden light on white stone",
+      "blue civic lamp glow",
+      "Beacon blue signal light",
+      "warm harbor lanterns",
+      "cathedral window glow",
+      "rain-reflective paving",
+      "sea haze and harbor mist"
+    ],
+    "environmentalLogic": "The coastline receives people and goods, while stairs and terraces transform arrival into institutional contact. Water appears as harbor, bath, well, and fountain: practical cleansing, public legitimacy, and civic ritual all begin at water before climbing toward Beacon, Citadel, Forum, and Basilica."
+  },
+  "architecture": {
+    "materials": [
+      "white limestone",
+      "pale marble",
+      "blue glass",
+      "red tile roofing",
+      "bronze trim",
+      "gold civic detailing",
+      "polished stone paving",
+      "weathered harbor masonry",
+      "wet bathhouse tile",
+      "dark timber shopfronts",
+      "copper lanterns",
+      "paper and archive fittings"
+    ],
+    "forms": [
+      "public bathhouse courts",
+      "Beacon Citadel tower",
+      "tide-seal citadel terraces",
+      "grand market arcades",
+      "clock towers",
+      "university halls",
+      "royal observatory towers",
+      "guild halls",
+      "cathedral domes",
+      "forum arches",
+      "archive halls",
       "processional stairs",
-      "formal squares below major towers",
-      "public approaches to Beacon and Citadel"
+      "seawalls",
+      "harbor quays",
+      "founder monuments",
+      "public fountains and wells"
     ],
-    "districtCharacter": {
-      "waterfront": "busy, practical, trade-driven, full of cargo motion and maritime labor",
-      "civicCore": "formal, elevated, administratively powerful, dominated by white stone and blue civic light",
-      "marketAreas": "active but not chaotic; commerce exists inside visible civic order",
-      "industrialEdges": "present through smoke, forge work, carts, workshops, and cargo infrastructure without overwhelming the capital identity"
-    }
+    "skyline": [
+      "Civic Blue Glow Tide-Seal Citadel as central authority above the harbor",
+      "Beacon Citadel as the primary signal landmark visible from plazas, baths, and market streets",
+      "Basilica of the First Accord as wonder-scale sacred-civic dome and ceremonial anchor",
+      "Great Clock Tower, Royal Observatory, Grand Cathedral, Hall of Archives, and Old Bell Tower creating institutional vertical rhythm",
+      "white stone terraces and red roofs stepping down into a working harbor"
+    ],
+    "lighting": [
+      "blue civic lamps",
+      "blue-glass window glow",
+      "Beacon light as skyline focus",
+      "golden light on white stone",
+      "cathedral and basilica glow",
+      "market lanterns under red awnings",
+      "harbor lantern reflections",
+      "bathhouse steam catching morning light"
+    ],
+    "infrastructure": [
+      "working harbor",
+      "quays",
+      "seawalls",
+      "public baths",
+      "formal markets",
+      "clock-regulated plazas",
+      "university courts",
+      "observatory platforms",
+      "guild workshops",
+      "cathedral processional routes",
+      "forum assembly space",
+      "archive halls",
+      "public stairs",
+      "notice boards",
+      "fountains and wells"
+    ],
+    "motifs": [
+      "blue civic glow",
+      "tide seals",
+      "First Accord symbols",
+      "clock faces",
+      "oath walls",
+      "founder obelisks",
+      "pilgrim wells",
+      "observatory instruments",
+      "guild banners",
+      "citizen monuments",
+      "forum pillars",
+      "bells",
+      "arches",
+      "red-and-gold civic banners"
+    ],
+    "colorLanguage": [
+      "white stone",
+      "red tile",
+      "blue glass",
+      "gold detailing",
+      "bronze trim",
+      "warm lantern amber",
+      "harbor teal",
+      "forum shadow gray"
+    ],
+    "textureLanguage": [
+      "polished civic paving",
+      "wet bathhouse tile",
+      "weathered seawalls",
+      "tarred rope",
+      "smooth marble",
+      "worked bronze",
+      "paper and vellum",
+      "sunlit plaster",
+      "crowd-worn steps"
+    ]
   },
-  "narrativeTranslation": {
+  "civilization": {
+    "people": "Citizens appear institutionally fluent: sailors know registry routes, merchants read clocks and seals, scholars serve public administration, guild artisans display proof of craft, priests preserve the First Accord, and ordinary residents orient themselves by Beacon, bath, market, forum, and Citadel.",
+    "occupations": [
+      "bath attendants",
+      "harbor workers",
+      "guards",
+      "market sellers",
+      "clock keepers",
+      "notaries",
+      "university scholars",
+      "observatory astronomers",
+      "guild artisans",
+      "cathedral clergy",
+      "forum speakers",
+      "archivists",
+      "messengers",
+      "registry clerks",
+      "lamp keepers",
+      "petition runners"
+    ],
+    "socialClasses": [
+      "Tide-Seal Citadel officials",
+      "Basilica and cathedral authorities",
+      "university scholars and observatory experts",
+      "guild masters and certified artisans",
+      "market families and merchant houses",
+      "bathhouse stewards and public-service workers",
+      "harbor laborers, messengers, petitioners, and visitors"
+    ],
+    "governance": "Centralized, visible, institutional, and processional. Authority is expressed through the Tide-Seal Citadel, Beacon Citadel, Forum, archives, university expertise, guild certification, cathedral ceremony, and public notices that citizens can see and respond to.",
+    "religion": "Religion is civic-sacred rather than separate from government. The Basilica of the First Accord and Grand Cathedral turn origin, oath, public ceremony, and legitimacy into shared capital memory.",
+    "customs": [
+      "visitors wash, register, or orient themselves before entering higher civic space",
+      "public clocks regulate market and institutional rhythm",
+      "Beacon watching is normal civic behavior",
+      "guild marks and university credentials carry public authority",
+      "forum speech is treated as civic action",
+      "archive citations and First Accord references settle disputes",
+      "public ceremonies climb from harbor and bathhouse toward basilica, forum, or citadel"
+    ],
+    "bodyLanguage": [
+      "officials move with practiced purpose",
+      "citizens glance toward Beacon, clocks, and towers for orientation",
+      "guards control stair landings and institutional doors",
+      "petitioners gather visibly in queues",
+      "scholars and artisans display tools, papers, or badges as proof",
+      "market crowds pause when bells or Beacon signals interrupt business"
+    ],
+    "speechPatterns": [
+      "formal civic language",
+      "registry terminology",
+      "harbor trade shorthand",
+      "clock and bell references",
+      "guild certification phrasing",
+      "university citation language",
+      "forum rhetoric",
+      "First Accord oath formulas"
+    ]
+  },
+  "urbanLife": {
     "streets": {
-      "description": "Aquila Matara's streets should feel broad, public, and legible. Roads tend to resolve into plazas, stairs, harbor approaches, or government-facing avenues. Even crowded areas should feel organized by civic design rather than left to sprawl.",
-      "writingGuidance": [
-        "Describe long sightlines toward towers, domes, the Beacon, or the Citadel.",
-        "Use stairs frequently; the city should feel like it climbs from the harbor into authority.",
-        "Let wet harbor stone transition into polished civic paving as characters move inland or uphill.",
-        "Markets can be busy, but avoid making AQM feel disorderly or lawless."
-      ]
-    },
-    "people": {
-      "description": "Citizens should appear accustomed to public institutions. Sailors, clerks, guards, merchants, messengers, craftsmen, officials, and petitioners share space without the city feeling uncontrolled.",
-      "behavioralNotes": [
-        "people glance toward civic landmarks for orientation",
-        "officials and clerks move with purpose rather than spectacle",
-        "dockworkers and merchants bring practical life into the capital",
-        "public confidence should show through routine, not pageantry alone"
-      ]
+      "appearance": "Broad, public, legible, and crowded: white stone roads move between bathhouse steam, red market awnings, university towers, guild banners, cathedral fronts, forum arches, archive steps, blue lamps, and sightlines up to Beacon and Citadel.",
+      "movement": "Ships, harbor carts, stair routes, clock-regulated market flows, student paths, guild errands, forum crowds, archive queues, and official escorts shape movement. Lower streets are practical; upper routes become ceremonial and administrative.",
+      "sounds": [
+        "ship bells",
+        "gulls",
+        "bathhouse water",
+        "market calls",
+        "cart wheels on stone",
+        "clock chimes",
+        "university debate",
+        "guild tools",
+        "cathedral bells",
+        "forum voices",
+        "archive hush",
+        "footsteps on public stairs"
+      ],
+      "smells": [
+        "salt air",
+        "wet stone",
+        "bath steam",
+        "tarred rope",
+        "fresh bread",
+        "fish markets",
+        "ink and paper",
+        "hot metal from guild work",
+        "lamp oil",
+        "cathedral incense"
+      ],
+      "lighting": "Daylight makes white stone bright and public; night is defined by blue civic lamps, Beacon light, cathedral windows, market lanterns, and harbor reflections.",
+      "weatherEffects": "Rain makes bathhouse steps, forum paving, and seawalls reflective; harbor mist softens the lower city while the Beacon, clock tower, and Citadel remain orienting anchors.",
+      "dayCycle": "Morning bathhouse traffic and harbor unloading; midday market clocks, university work, guild certification, and forum petitions; evening cathedral bells, archive closures, and blue lamps.",
+      "nightCycle": "Blue lamps, guarded civic stairs, harbor lanterns, quieter market arcades, university windows, and the Beacon/Citadel as night anchors."
     },
     "shops": {
-      "examples": [
-        "ship chandlers",
-        "rope makers",
+      "common": [
+        "fish markets",
+        "bread sellers",
+        "public bath vendors",
+        "lamp oil vendors",
+        "tailors",
+        "coffee houses",
+        "harbor inns",
+        "market food stalls"
+      ],
+      "uncommon": [
         "map sellers",
+        "clock repairers",
         "glass workers",
         "bookbinders",
-        "fish markets",
-        "coffee houses",
-        "tailors",
         "public notaries",
-        "registry offices",
-        "lamp oil vendors",
-        "metalworkers",
-        "harbor inns"
+        "registry counters",
+        "university supply shops"
       ],
-      "writingGuidance": "Shops should support the identity of a capital-port: administration, shipping, craft, travel, paperwork, maps, tools, food, and civic services."
-    },
-    "homes": {
-      "description": "Residential areas should use pale stone, red tile, balconies, blue lamps, and tight but orderly streets. Homes may overlook water, civic stairs, or small courtyards rather than isolated private gardens.",
-      "writingGuidance": [
-        "Use balconies and laundry lines sparingly to show life without turning the capital into clutter.",
-        "Common homes should still participate in the city identity through lamps, stonework, and banners."
-      ]
-    },
-    "publicLife": {
-      "dailyRhythms": [
-        "morning harbor unloading",
-        "midday civic petitions and registry traffic",
-        "afternoon market trade",
-        "evening blue lamps and beacon glow",
-        "bells marking public time"
+      "prestigious": [
+        "civic seal offices",
+        "guild master ateliers",
+        "fine glass houses",
+        "cathedral ornament workshops",
+        "forum legal counters",
+        "archive copyist offices"
       ],
-      "commonActivities": [
-        "cargo hauling",
-        "public announcements",
-        "queueing at offices",
-        "market bargaining",
-        "ship repair",
-        "messenger traffic",
-        "guards controlling stair landings and plaza access"
-      ]
-    },
-    "sounds": [
-      "ship bells",
-      "gulls",
-      "market calls",
-      "cart wheels on stone",
-      "harbor cranes",
-      "forge hammers",
-      "public bells",
-      "footsteps on stairs",
-      "waves against seawalls"
-    ],
-    "smells": [
-      "salt air",
-      "wet stone",
-      "tarred rope",
-      "lamp oil",
-      "fresh bread",
-      "fish markets",
-      "hot metal",
-      "sea spray",
-      "paper and ink near civic offices"
-    ],
-    "lighting": {
-      "day": "White stone should catch sunlight strongly, making civic structures feel bright and public.",
-      "night": "Blue civic lamps and beacon light should define the city at night, with warm harbor lanterns lower and more practical.",
-      "weather": "Rain should make paving, stairs, seawalls, and blue lamps more reflective. Mist from the harbor can soften the lower city while the Citadel remains visible above it."
-    },
-    "transportation": {
-      "description": "Movement is maritime and pedestrian first: ships, harbor carts, stair routes, messenger paths, and formal avenues. Elevation matters.",
-      "writingGuidance": [
-        "Characters arriving from outside should usually experience harbor, gates, or stair approaches before the Citadel.",
-        "Use carts and porters in the lower city; use messengers, guards, clerks, and petitioners in the civic heights."
-      ]
-    },
-    "children": {
-      "description": "Children should know the Beacon, bells, stair routes, and harbor edges as everyday geography. They may play near public steps or watch ships but should still feel embedded in a supervised civic city."
-    },
-    "craftsmen": {
-      "description": "Craftsmen are visible, especially around docks and market districts. They support shipping, lamps, glass, documents, metal fittings, banners, and civic maintenance."
-    },
-    "markets": {
-      "description": "Markets should be active and maritime, with fish, rope, crates, maps, tools, lamps, food, cloth, and travel goods. They should not feel anarchic; stalls are shaped by permitted spaces and public routes."
-    },
-    "food": {
-      "examples": [
+      "exports": [
+        "maps",
+        "glasswork",
+        "metal fittings",
+        "certified craft goods",
+        "registry services",
+        "scholarly instruments",
+        "harbor goods"
+      ],
+      "imports": [
+        "fish",
+        "rope fiber",
+        "timber",
+        "lamp oil",
+        "cloth",
+        "spices",
+        "paper",
+        "bronze fittings"
+      ],
+      "streetFood": [
         "fresh bread",
         "fish stew",
         "salted fish",
         "harbor coffee",
         "market fruit",
         "street pastries",
-        "dockside soups"
+        "dockside soups",
+        "bathhouse tea"
+      ],
+      "services": [
+        "public bathing",
+        "registry filing",
+        "ship repair",
+        "cargo hauling",
+        "notary work",
+        "messenger service",
+        "guild certification",
+        "archive copying",
+        "public notice posting"
       ]
     },
-    "companionObservations": {
-      "addie": [
-        "notices repeated civic language: blue lamps, banners, bells, public notices, and signs of institutional continuity",
-        "stores routes by landmark sequence: harbor, Beacon, stair, plaza, Citadel",
-        "is struck by how quickly the crowd turns public space into political meaning"
-      ],
-      "gregory": [
-        "reads heraldry, bells, clock faces, civic symbols, and architectural references to authority",
-        "notices how the Beacon and Citadel function symbolically before anyone explains them"
-      ],
-      "brickett": [
-        "spots service alleys, drain routes, loose stones, cart shortcuts, stair undersides, and maintenance doors",
-        "understands how to move through the city without using the formal processional routes"
-      ],
-      "talandra": [
-        "reads stairs, balconies, plaza edges, crowd funnels, guard posts, and harbor approaches as threat geometry",
-        "will naturally choose routes that avoid exposure beneath balconies and tower lines"
-      ],
-      "mae": [
-        "would notice commercial chokepoints, shipping leverage, contract offices, and where wealth actually moves",
-        "would distinguish public civic grandeur from private transactional power"
-      ],
-      "genericCompanionNotes": [
-        "Outsiders should orient by Beacon and Citadel even before learning district names.",
-        "Characters with practical skills should notice how much labor is required to keep the capital polished."
-      ]
+    "housing": {
+      "wealthy": "Citadel-, forum-, and cathedral-adjacent pale stone homes with balconies, blue lamps, formal courtyards, civic banners, and views toward harbor or processional stairs.",
+      "middle": "Orderly red-tile homes, guild family rooms, university-adjacent flats, upper rooms over shops, courtyards, laundry lines, and blue-lit doorways along civic streets.",
+      "poor": "Harbor-adjacent rooms, market-edge flats, workshop housing, bathhouse service rooms, and compact lanes that still carry capital identity through stonework, lamps, and banners."
     }
   },
-  "arrivalExperience": {
-    "firstImpression": "A visitor should first understand Aquila Matara as a harbor capital: white stone rising above water, ships and cranes below, blue civic light and towers above, and the Citadel drawing the eye upward.",
-    "firstHourSequence": [
-      "salt air and harbor noise",
-      "crowded but organized quays",
-      "first clear sight of the Beacon",
-      "broad stairs or formal avenues leading uphill",
-      "increasing presence of clerks, guards, officials, and public notices",
-      "Citadel dominating the skyline before the visitor reaches it"
-    ],
-    "readerEffect": "The reader should feel that this is the capital before any character says it."
-  },
-  "departureMemory": {
-    "readerShouldRemember": [
-      "white stone above blue harbor water",
-      "blue civic lamps",
-      "red-and-gold banners",
-      "the Beacon as emotional landmark",
-      "the Citadel above the city",
-      "stairs connecting water, commerce, and government",
-      "a capital that works as both institution and port"
-    ]
-  },
-  "landmarkAnalysis": {
-    "wonder": {
-      "purpose": "The Wonder should define civic identity at city scale and distinguish Aquila Matara from any other harbor capital.",
-      "visualDescription": "A skyline-scale monumental civic structure integrated with the white-stone capital language, visible from major approaches and distinct from the Citadel.",
-      "narrativeUse": "Use the Wonder to establish grandeur, history, and orientation. It should appear in broad skyline descriptions and in moments when characters need to understand the scale of the capital.",
-      "howCharactersNoticeIt": {
-        "addie": "tracks how often citizens use it as a reference point in speech or movement",
-        "gregory": "reads its symbols and placement as civic theology or national memory",
-        "brickett": "looks for access points, service platforms, and places people are not supposed to climb",
-        "talandra": "evaluates its approaches, crowds, and exposed sightlines"
-      },
-      "commonActivities": [
-        "public ceremonies",
-        "tourist or pilgrim gathering",
-        "official processions",
-        "festival culmination",
-        "distant orientation"
+  "districts": [
+    {
+      "sectionNumber": 1,
+      "name": "Public Bathhouse",
+      "civicPurpose": "Public cleansing, arrival ritual, health, civic belonging, and first contact between harbor life and institutional order.",
+      "visualIdentity": "Public Bathhouse courts, Beacon Citadel visibility, Wall of Oaths, Lantern Square, bath steam, wet tile, blue lamps, fountains, and formal white-stone entrances.",
+      "emotionalIdentity": "Cleansing, public, ordered, and quietly ceremonial.",
+      "gameplayAssetNeeds": [
+        "Public Bathhouse",
+        "Beacon Citadel",
+        "Wall of Oaths",
+        "Lantern Square",
+        "steam basins",
+        "wet tile and fountains",
+        "bath attendants and arrivals"
       ],
-      "visibilityFromCity": "Visible from multiple districts, but should not visually merge with the Citadel or Beacon."
+      "narrativeUse": [
+        "arrival after harbor travel",
+        "public cleansing as social sorting",
+        "oath-wall scenes",
+        "Beacon crisis interrupting normal civic life",
+        "quiet information exchange in a public place"
+      ],
+      "landmark": "Beacon Citadel",
+      "minorLandmarks": [
+        "Wall of Oaths",
+        "Lantern Square"
+      ]
+    },
+    {
+      "sectionNumber": 2,
+      "name": "Grand Market",
+      "civicPurpose": "Regulated commerce, public timekeeping, market legitimacy, pilgrimage services, and daily capital exchange.",
+      "visualIdentity": "Grand Market arcades, Great Clock Tower, Founders Obelisk, Pilgrim's Well, red awnings, blue lamps, formal stalls, food carts, and visible market crowds.",
+      "emotionalIdentity": "Busy, social, clock-regulated, and publicly accountable.",
+      "gameplayAssetNeeds": [
+        "Grand Market",
+        "Great Clock Tower",
+        "Founders Obelisk",
+        "Pilgrim's Well",
+        "red awnings",
+        "market stalls and carts",
+        "clock watchers and traders"
+      ],
+      "narrativeUse": [
+        "market bargaining",
+        "public rumor",
+        "clock-timed announcements",
+        "founder-memory politics",
+        "pilgrim or visitor scenes",
+        "crowd reaction to Beacon or bells"
+      ],
+      "landmark": "Great Clock Tower",
+      "minorLandmarks": [
+        "Founders Obelisk",
+        "Pilgrim's Well"
+      ]
+    },
+    {
+      "sectionNumber": 3,
+      "name": "University",
+      "civicPurpose": "Scholarship, expert administration, astronomy, education, public memory, and knowledge in service of the capital.",
+      "visualIdentity": "University halls, Royal Observatory, Eternal Watch Flame, Founders Bridge, lecture courts, blue glass, white towers, instruments, and students moving through civic plazas.",
+      "emotionalIdentity": "Elevated, exact, ambitious, and institutionally useful.",
+      "gameplayAssetNeeds": [
+        "University",
+        "Royal Observatory",
+        "Eternal Watch Flame",
+        "Founders Bridge",
+        "lecture courts",
+        "observatory instruments",
+        "scholars and students"
+      ],
+      "narrativeUse": [
+        "expert consultation",
+        "astronomical evidence",
+        "scholarly dispute",
+        "watch-flame symbolism",
+        "bridge conversations between knowledge and power"
+      ],
+      "landmark": "Royal Observatory",
+      "minorLandmarks": [
+        "Eternal Watch Flame",
+        "Founders Bridge"
+      ]
+    },
+    {
+      "sectionNumber": 4,
+      "name": "Guild Hall",
+      "civicPurpose": "Certified craft, production, public skill, guild politics, cathedral-adjacent ceremony, and civic material competence.",
+      "visualIdentity": "Guild Hall fronts, Grand Cathedral, Monument of the Citizen, Three Sisters Fountain, banners, workshops, arcades, tool displays, and blue civic lamps.",
+      "emotionalIdentity": "Skilled, proud, formal, and socially grounded.",
+      "gameplayAssetNeeds": [
+        "Guild Hall",
+        "Grand Cathedral",
+        "Monument of the Citizen",
+        "Three Sisters Fountain",
+        "guild banners",
+        "workshops and tool displays",
+        "artisans and petitioners"
+      ],
+      "narrativeUse": [
+        "craft proof",
+        "guild politics",
+        "cathedral procession",
+        "citizen-memory scenes",
+        "fountain meeting points",
+        "material evidence from workshops"
+      ],
+      "landmark": "Grand Cathedral",
+      "minorLandmarks": [
+        "Monument of the Citizen",
+        "Three Sisters Fountain"
+      ]
+    },
+    {
+      "sectionNumber": 5,
+      "name": "Forum",
+      "civicPurpose": "Public assembly, archive memory, accord law, civic speech, and formal interpretation of the capital's founding legitimacy.",
+      "visualIdentity": "Forum arches, Hall of Archives, Pillar of the First Accord, Old Bell Tower, speaking steps, record counters, civic flags, blue lamps, and dense public gathering space.",
+      "emotionalIdentity": "Weighty, articulate, public, and politically charged.",
+      "gameplayAssetNeeds": [
+        "Forum",
+        "Hall of Archives",
+        "Pillar of the First Accord",
+        "Old Bell Tower",
+        "speaking steps",
+        "archive counters",
+        "public crowd and officials"
+      ],
+      "narrativeUse": [
+        "public speeches",
+        "archive evidence",
+        "founding law disputes",
+        "bell-marked crisis",
+        "crowd interpretation of official action",
+        "First Accord symbolism"
+      ],
+      "landmark": "Hall of Archives",
+      "minorLandmarks": [
+        "Pillar of the First Accord",
+        "Old Bell Tower"
+      ]
+    }
+  ],
+  "landmarks": {
+    "wonder": {
+      "name": "Basilica of the First Accord",
+      "symbolicRole": "The founding agreement made sacred, architectural, and publicly visible.",
+      "visualRole": "Wonder-scale basilica of white stone, domes, arches, blue glass, gold civic detailing, processional stairs, and harbor-facing ceremonial massing.",
+      "civicRole": "The deepest legitimacy anchor of Aquila Matara, binding origin memory, public oath, national ceremony, and capital authority.",
+      "narrativeUse": [
+        "founding-law ceremony",
+        "public vows",
+        "national legitimacy scenes",
+        "crowds interpreting ancient obligation in a present crisis",
+        "contrast between sacred accord and political maneuver"
+      ],
+      "assetUse": [
+        "map background wonder",
+        "hero-view skyline anchor",
+        "ceremonial backdrop for capital-scale scenes",
+        "visual identifier for Aquila Matara"
+      ],
+      "sensoryIdentity": [
+        "cathedral bells",
+        "blue glass light",
+        "polished stone",
+        "incense",
+        "harbor wind across processional stairs",
+        "crowd silence before ceremony"
+      ],
+      "storyHooks": [
+        "an old Accord clause changes a modern political decision",
+        "a public vow at the Basilica becomes impossible to contain",
+        "ceremony and Beacon warning collide",
+        "the Basilica's public meaning outruns official messaging"
+      ]
     },
     "beacon": {
-      "purpose": "The Beacon is the public signal heart of the city and the emotional center of Conjunction response.",
-      "visualDescription": "A strong vertical signal landmark in Section 1, readable from streets and harbor approaches, associated with blue or colored civic light depending on event state.",
-      "narrativeUse": "Use the Beacon as a recurring visual anchor during uncertainty. When lit, changed, or extinguished, it should affect how citizens behave.",
-      "howCharactersNoticeIt": {
-        "addie": "notices how often people glance toward it before they admit fear",
-        "gregory": "understands it as symbol, not just signal apparatus",
-        "brickett": "knows informal routes to see it without entering official plazas",
-        "talandra": "treats crowds around it as volatile public-risk zones"
-      },
-      "commonActivities": [
-        "public gathering",
-        "watching for signal changes",
-        "city announcements",
-        "children using it as orientation",
-        "guards maintaining perimeter during crisis"
+      "name": "Beacon Citadel",
+      "symbolicRole": "Public signal and civic orientation fused with capital authority.",
+      "visualRole": "A blue-lit vertical signal landmark rising from citadel-linked civic structures, visible over bathhouse courts, market streets, forum plazas, and the harbor.",
+      "civicRole": "Coordinates public warning, Conjunction response, institutional timing, crowd attention, and citywide orientation.",
+      "narrativeUse": [
+        "Beacon color changes",
+        "public announcements",
+        "crowd fear",
+        "citywide timing",
+        "capital-scale panic or coordination"
       ],
-      "visibilityFromCity": "Should be visible from harbor-facing and civic-facing districts. It is a navigational landmark and public anxiety gauge."
+      "assetUse": [
+        "S1 diorama signal anchor",
+        "city signal marker",
+        "map-background blue focal point",
+        "orientation marker visible from multiple districts"
+      ],
+      "sensoryIdentity": [
+        "blue glow",
+        "bell sound",
+        "crowd hush",
+        "reflected wet stone",
+        "guard calls",
+        "wind around high banners"
+      ],
+      "storyHooks": [
+        "a color shift turns a normal plaza into national crisis",
+        "citizens interpret Beacon light before officials speak",
+        "a public bathhouse crowd becomes the first mass witness",
+        "Beacon timing conflicts with clock-tower timing"
+      ]
     },
     "seatOfPower": {
-      "purpose": "The Citadel is the political heart of the nation and the visual proof of centralized authority.",
-      "visualDescription": "A high, dominant white-stone civic complex above the city, reached by long stairs, terraces, formal approaches, and guarded public spaces.",
-      "narrativeUse": "Use the Citadel to show power before dialogue explains power. Its height and approach should make characters physically experience government as ascent.",
-      "howCharactersNoticeIt": {
-        "addie": "feels the political weight of being pulled upward into public responsibility",
-        "gregory": "reads its historical continuity and ceremonial layout",
-        "brickett": "notices back doors, servant paths, drainage, and where the polished surface hides maintenance",
-        "talandra": "maps guard routes, choke points, and balcony risks"
-      },
-      "commonActivities": [
-        "Conclave-related movement",
-        "public petitions",
-        "official escort routes",
-        "guard shifts",
-        "ceremonial arrivals"
+      "name": "Civic Blue Glow Tide-Seal Citadel",
+      "symbolicRole": "Centralized civic authority made luminous, maritime, and official.",
+      "visualRole": "Dominant white-stone citadel complex with blue-glass glow, tide-seal courts, formal stairs, terraces, banners, guard routes, and commanding harbor sightlines.",
+      "civicRole": "Government center for administration, petitions, public rulings, emergency coordination, harbor authority, and formal interpretation of national law.",
+      "narrativeUse": [
+        "public speeches",
+        "administrative pressure",
+        "factional meetings",
+        "official escort scenes",
+        "petitions becoming symbolic crowd moments",
+        "capital bureaucracy under Conjunction stress"
       ],
-      "visibilityFromCity": "Dominates distant views and should frequently appear above rooftops, towers, and stair axes."
+      "assetUse": [
+        "seat-of-power marker",
+        "map background centerpiece",
+        "civic authority diorama backdrop",
+        "source of blue civic-light motif"
+      ],
+      "sensoryIdentity": [
+        "polished paving",
+        "paper and ink",
+        "guard armor",
+        "blue lamps",
+        "high sea air",
+        "formal stair echoes"
+      ],
+      "storyHooks": [
+        "a public address escapes official control",
+        "a bureaucratic queue becomes a symbolic crowd",
+        "a tide-seal ruling changes harbor access",
+        "the Citadel must respond to what the Forum has already made public"
+      ]
     },
     "majorLandmarks": [
       {
-        "role": "Section landmarks",
-        "narrativeUse": "Use major landmarks to give each section a distinct civic function while preserving the capital's shared white-stone, blue-light identity."
-      }
-    ],
-    "monuments": [
+        "name": "Great Clock Tower",
+        "symbolicRole": "Public time as civic discipline.",
+        "visualRole": "Tall clock tower rising over Grand Market arcades, red awnings, blue lamps, founder monuments, and crowded market stairs.",
+        "civicRole": "Regulates market timing, announcements, office hours, and the rhythm by which citizens trust institutions.",
+        "narrativeUse": [
+          "timed announcements",
+          "market interruptions",
+          "deadline pressure",
+          "public bells changing crowd behavior"
+        ],
+        "assetUse": [
+          "S2 diorama landmark",
+          "market skyline anchor",
+          "timekeeping motif for capital scenes"
+        ],
+        "sensoryIdentity": [
+          "clock chimes",
+          "market calls",
+          "red awning shade",
+          "brass gears",
+          "bell vibration in stone"
+        ],
+        "storyHooks": [
+          "a clock signal contradicts an official notice",
+          "the market realizes a crisis before the Citadel speaks"
+        ]
+      },
       {
-        "role": "Public memory markers",
-        "narrativeUse": "Monuments should reinforce that AQM remembers itself publicly: plazas, inscriptions, bells, civic figures, and symbolic reliefs."
-      }
-    ],
-    "minorLandmarks": [
+        "name": "Royal Observatory",
+        "symbolicRole": "Knowledge made public service.",
+        "visualRole": "University observatory tower with blue glass, instruments, lecture courts, bridges, and high sightlines across harbor and civic heights.",
+        "civicRole": "Supports navigation, astronomy, timing, expert counsel, and long-range civic planning.",
+        "narrativeUse": [
+          "expert consultation",
+          "celestial or timing evidence",
+          "scholarly disputes",
+          "quiet observation of public crisis"
+        ],
+        "assetUse": [
+          "S3 diorama landmark",
+          "university tower",
+          "knowledge/instrument asset cluster"
+        ],
+        "sensoryIdentity": [
+          "glass lenses",
+          "paper charts",
+          "cool high wind",
+          "blue instrument light",
+          "student voices"
+        ],
+        "storyHooks": [
+          "observatory data changes an official timeline",
+          "a scholar refuses to simplify evidence for politics"
+        ]
+      },
       {
-        "role": "Navigation and street texture",
-        "narrativeUse": "Minor landmarks should help characters navigate: fountains, kiosks, bells, lamps, stair shrines, market posts, and harbor markers."
+        "name": "Grand Cathedral",
+        "symbolicRole": "Citizen craft and sacred legitimacy meeting in public ceremony.",
+        "visualRole": "Large cathedral front with domes, arches, bells, guild processional routes, citizen monument, fountain plaza, and blue-gold civic light.",
+        "civicRole": "Hosts major ceremonies, guild-civic rituals, public mourning, and shared capital memory.",
+        "narrativeUse": [
+          "processions",
+          "mourning or celebration",
+          "guild ceremonies",
+          "citizen-memory scenes"
+        ],
+        "assetUse": [
+          "S4 diorama landmark",
+          "cathedral/guild backdrop",
+          "ceremonial district anchor"
+        ],
+        "sensoryIdentity": [
+          "bells",
+          "incense",
+          "fountain water",
+          "stone steps",
+          "guild banners"
+        ],
+        "storyHooks": [
+          "a guild ceremony becomes political",
+          "the Monument of the Citizen reframes a private loss as public duty"
+        ]
+      },
+      {
+        "name": "Hall of Archives",
+        "symbolicRole": "The capital's memory made accessible, dangerous, and official.",
+        "visualRole": "Forum archive hall with pillars, counters, record alcoves, blue lamps, the Pillar of the First Accord, and the Old Bell Tower nearby.",
+        "civicRole": "Preserves records, legal memory, public claims, official notices, and Accord interpretation.",
+        "narrativeUse": [
+          "archive evidence",
+          "founding law disputes",
+          "public record contradictions",
+          "forum speeches grounded in documents"
+        ],
+        "assetUse": [
+          "S5 diorama landmark",
+          "archive/forum asset cluster",
+          "public record icon for map background"
+        ],
+        "sensoryIdentity": [
+          "paper and ink",
+          "stone pillars",
+          "bell tower resonance",
+          "quiet clerks",
+          "blue lamp glow on records"
+        ],
+        "storyHooks": [
+          "an archived Accord phrase changes what the Beacon warning means",
+          "a public speaker uses records to turn a crowd against official intent"
+        ]
       }
     ]
   },
-  "immediateNarrativeImprovements": [
-    {
-      "target": "Book 1 / capital arrival scenes",
-      "recommendation": "Introduce the harbor before fully describing politics; the reader should feel AQM as a working port-capital."
-    },
-    {
-      "target": "Book 1 / Citadel approach",
-      "recommendation": "Make the climb toward the Citadel physical: stairs, terraces, guard points, public plazas, and increasing civic pressure."
-    },
-    {
-      "target": "Book 1 / beacon scenes",
-      "recommendation": "Use the Beacon as a public emotional instrument. Citizen reactions should shift when its state changes."
-    },
-    {
-      "target": "Book 1 / street descriptions",
-      "recommendation": "Replace generic city streets with white-stone promenades, blue lamps, red banners, harbor smells, civic notices, and stair-based movement."
-    },
-    {
-      "target": "Book 1 / Addie characterization",
-      "recommendation": "Let Addie orient by repeated institutional details: notices, lamps, bells, stair routes, plaza names, and Beacon visibility."
-    },
-    {
-      "target": "Book 1 / Talandra escort scenes",
-      "recommendation": "Let Talandra read the capital as threat geometry: balconies, stair funnels, crowds, guard posts, and exposed plaza approaches."
-    }
-  ],
-  "interpretation": {
-    "civilizationThesis": "Aquila Matara is the architecture of civic order: a capital where government, trade, public trust, and maritime identity are made visible through stone, light, stairs, and skyline hierarchy.",
-    "environmentalPhilosophy": "The city organizes the coast into civic infrastructure. It does not hide the sea or surrender to it; it makes the harbor legible as part of public life.",
-    "adaptiveStrategy": "Organize: transform natural harbor geography into a national civic machine.",
-    "authorityModel": "centralized-institutional",
-    "relationshipWithNature": "managed and formalized, especially through harbor engineering and civic terraces",
-    "relationshipWithHistory": "public and institutional; history appears through monuments, bells, formal approaches, and skyline continuity",
-    "relationshipWithKnowledge": "bureaucratic and civic rather than mystical; knowledge is stored through offices, registries, records, maps, and public notices",
-    "relationshipWithRisk": "risk is managed through visibility, public order, signal systems, guard routes, and civic process",
-    "relationshipWithBeauty": "beauty supports legitimacy; white stone, banners, and blue lamps make government feel permanent and public",
-    "relationshipWithCommunity": "community is gathered into public space: plazas, stairs, harbor markets, and Beacon-facing assemblies",
-    "civilizationalTension": {
-      "tension": "commerce vs authority",
-      "resolution": "AQM fuses harbor trade with civic order so commerce reinforces the capital rather than undermining it."
-    },
-    "highestVirtue": "responsibility",
-    "religiousExpression": "not dominant in the current visual read; civic ritual appears stronger than devotional religion",
-    "economicIdentity": "maritime trade, administration, shipping support, civic services, and capital markets",
-    "socialIdentity": "public-facing, institutionally confident, mixed-class but orderly"
-  },
-  "canonReview": {
-    "lockedCanon": [
-      {
-        "statement": "Aquila Matara is a white-stone maritime capital where harbor commerce and civic authority are visually inseparable.",
-        "reason": "All concept views consistently present harbor identity, civic monumentality, white stone, and formal public infrastructure as unified.",
-        "supportingEvidence": [
-          "working harbor",
-          "white-stone civic skyline",
-          "formal stairs and plazas",
-          "Citadel dominance",
-          "Beacon visibility"
-        ],
-        "confidence": "high"
-      },
-      {
-        "statement": "Blue civic lighting is a recurring visual identity of Aquila Matara.",
-        "reason": "Blue lamps, blue glass, and beacon-like blue light recur strongly across the visual set.",
-        "supportingEvidence": [
-          "blue civic lamps",
-          "blue-glass windows",
-          "blue signal light language"
-        ],
-        "confidence": "high"
-      },
-      {
-        "statement": "The Citadel should be experienced as ascent: political authority is physically uphill and visually dominant.",
-        "reason": "The city repeatedly expresses authority through elevated civic massing, stairs, terraces, and skyline control.",
-        "supportingEvidence": [
-          "dominant high Citadel",
-          "processional stairs",
-          "civic terraces"
-        ],
-        "confidence": "high"
-      }
+  "assetGuidance": {
+    "districtDioramaGuidance": [
+      "S1 must show Public Bathhouse identity with bath courts, steam, fountains, Wall of Oaths, Lantern Square, and Beacon Citadel visibility.",
+      "S2 must center Grand Market with Great Clock Tower, Founders Obelisk, Pilgrim's Well, red awnings, formal stalls, and clock-regulated public commerce.",
+      "S3 must show University through Royal Observatory, Eternal Watch Flame, Founders Bridge, lecture courts, blue glass, instruments, scholars, and students.",
+      "S4 must show Guild Hall / Grand Cathedral overlap with guild banners, tool displays, Monument of the Citizen, Three Sisters Fountain, cathedral front, and artisans.",
+      "S5 must show Forum through Hall of Archives, Pillar of the First Accord, Old Bell Tower, speaking steps, record counters, blue lamps, and public assembly crowds."
     ],
-    "provisionalCanon": [
-      {
-        "statement": "AQM's highest civic virtue is responsibility.",
-        "reason": "The city consistently reads as public, institutional, and duty-oriented, but virtue language should be compared against additional cities.",
-        "supportingEvidence": [
-          "public institutions",
-          "visible order",
-          "Beacon as public signal",
-          "government integrated into daily life"
-        ],
-        "confidence": "medium"
-      },
-      {
-        "statement": "AQM resolves the tension between commerce and authority by making trade part of civic order.",
-        "reason": "Harbor commerce appears integrated with formal civic planning rather than visually opposed to it.",
-        "supportingEvidence": [
-          "organized quays",
-          "market plazas",
-          "civic routes rising from harbor"
-        ],
-        "confidence": "medium-high"
-      }
+    "mapBackgroundGuidance": [
+      "Show a white-stone coastal capital climbing from harbor and bathhouse courts toward markets, university towers, guild/cathedral plazas, forum arches, Beacon Citadel, Basilica of the First Accord, and the Civic Blue Glow Tide-Seal Citadel.",
+      "The Basilica of the First Accord should read as the wonder-scale civic-sacred anchor; the Tide-Seal Citadel should dominate governmental authority; the Beacon Citadel should be the blue signal landmark visible across districts.",
+      "Keep the working harbor present below the formal institutions, but do not let generic waterfront categories replace the sidecar-defined district identities."
     ],
-    "workingHypotheses": [
-      {
-        "statement": "AQM may represent the clearest human-capital model of centralized institutional authority.",
-        "reason": "The city reads as civic, bureaucratic, and public-facing, but cross-human-city comparison is required.",
-        "supportingEvidence": [
-          "Citadel dominance",
-          "formal processional routes",
-          "registry/administrative narrative fit"
-        ],
-        "confidence": "medium"
-      }
+    "requiredVisualElements": [
+      "working harbor context",
+      "Public Bathhouse",
+      "Beacon Citadel",
+      "Civic Blue Glow Tide-Seal Citadel",
+      "Basilica of the First Accord",
+      "Grand Market",
+      "Great Clock Tower",
+      "University",
+      "Royal Observatory",
+      "Guild Hall",
+      "Grand Cathedral",
+      "Forum",
+      "Hall of Archives",
+      "blue civic lamps",
+      "white limestone",
+      "red tile roofs and awnings",
+      "formal stairs and plazas"
     ],
-    "rejectedHypotheses": [
-      {
-        "statement": "AQM is primarily a palace city detached from daily life.",
-        "reason": "The harbor, markets, workshops, carts, and public streets show daily labor and commerce as central rather than peripheral.",
-        "supportingEvidence": [
-          "working waterfront",
-          "market areas",
-          "mixed public activity"
-        ],
-        "confidence": "high"
-      }
-    ]
-  },
-  "futureQuestions": [
-    "What is the exact visual identity of AQM's Wonder once parsed from individual sidecars?",
-    "Which section landmarks deserve named narrative treatment beyond generic section roles?",
-    "How does AQM's civic authority compare to other human capitals once more are analyzed?",
-    "How religious is AQM visually compared to Luminthalas, Pollyr Fen, and Nox Vaelor?",
-    "How much class stratification should be visible in lower harbor districts?"
-  ],
-  "comparativeNotes": {
-    "distinctFrom": [
-      {
-        "cityCode": "LUM",
-        "difference": "AQM expresses civic and maritime order; Luminthalas expresses intellectual and celestial order."
-      },
-      {
-        "cityCode": "PFN",
-        "difference": "AQM organizes the coast through civic infrastructure; Pollyr Fen reveals and inhabits the hidden architecture of wetlands."
-      },
-      {
-        "cityCode": "SPK",
-        "difference": "AQM uses elevation to express government; Skyrend Peak uses elevation as the basic grammar of survival and identity."
-      },
-      {
-        "cityCode": "NVR",
-        "difference": "AQM makes power public and visible; Nox Vaelor makes power elegant, layered, and partially concealed."
-      }
-    ],
-    "similarTo": [
-      {
-        "cityCode": "LUM",
-        "similarity": "Both are polished, mature, institutionally confident cities with strong skyline hierarchy."
-      },
-      {
-        "cityCode": "KVM",
-        "similarity": "Both make infrastructure visible and treat built systems as part of identity."
-      }
-    ],
-    "uniqueContributions": [
-      "best current model for national capital arrival",
-      "strongest fusion of harbor commerce and public government",
-      "clearest use of Beacon as psychological civic anchor"
-    ],
-    "potentialInfluences": [
-      "future capital-city prompt language",
-      "Book 1 arrival and public speech scenes",
-      "Conclave public geography",
-      "Beacon-state crowd behavior"
-    ]
-  },
-  "crossCityTags": [
-    "maritime-capital",
-    "centralized-authority",
-    "civic-order",
-    "white-stone",
-    "blue-civic-light",
-    "working-harbor",
-    "processional-stairs",
-    "public-institutions",
-    "beacon-psychology",
-    "established-civilization"
-  ],
-  "evolution": {
-    "previousAssumptions": [
-      "AQM was already understood as the capital and Conclave center.",
-      "AQM was expected to be civic, formal, and important to Book 1."
-    ],
-    "discoveries": [
-      "The harbor is not secondary scenery; it is part of AQM's civic identity.",
-      "Blue civic light is a major recurring visual marker.",
-      "The city's processional geography creates a strong narrative movement from harbor to Beacon to Citadel.",
-      "AQM can support both public government scenes and working-class harbor scenes without contradiction."
-    ],
-    "confirmedAssumptions": [
-      "AQM works as the national capital.",
-      "AQM should visually support public assemblies, official escorts, and Conclave politics.",
-      "The Citadel belongs at the center of political gravity."
-    ],
-    "changedOurMind": [
-      "AQM should not be treated as only a government/palace city; it is equally a working harbor capital.",
-      "The harbor should be introduced earlier and more often in narrative descriptions."
-    ],
-    "futureValidation": [
-      "Compare AQM to additional human capitals to determine whether civic centralization is specifically AQM or broadly human-capital visual language.",
-      "Analyze sidecars to identify the specific Wonder and named section landmarks for more precise narrative usage."
+    "elementsToAvoid": [
+      "lawless port tone",
+      "generic medieval city",
+      "empty ceremonial capital",
+      "pure palace city with no working harbor",
+      "generic district names replacing sidecar landmarks",
+      "blue light as decoration without civic meaning",
+      "chaotic sprawl without processional order"
     ]
   }
 }
-```

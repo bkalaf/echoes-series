@@ -114,7 +114,7 @@ Example:
 
 The White Tower, The High Elf Ward, The Scriptoria, City of Luminthalas, State of Ascentia
 
-Kindlemask, 3rd of Hearthwake, Hour of the Wyrm [Midnight +5 hours]
+Kindlemask, 5th of Hearthwake, Hour of the Wyrm [Midnight +5 hours]
 
 <i class="fa-solid fa-fire-flame-curved"></i> White Beacon - Day 3 of Conjunction #1
 

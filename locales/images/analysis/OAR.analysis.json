@@ -1,738 +1,85 @@
 {
-  "schemaVersion": 1,
-  "analysisVersion": 1,
-  "cityCode": "OAR",
-  "cityName": "Orsakar",
-  "analysisConfidence": "strong-lock",
-  "analysisDate": "2026-07-01",
-  "analystVersion": "gpt-5.5-thinking",
-  "basedOnImages": [
-    "OAR-HERO-NE-v001",
-    "OAR-HERO-NW-v001",
-    "OAR-HERO-SE-v001",
-    "OAR-HERO-SW-v001",
-    "OAR-STREET-S1-v001",
-    "OAR-STREET-S2-v001",
-    "OAR-STREET-S3-v001",
-    "OAR-STREET-S4-v001",
-    "OAR-STREET-S5-v001"
+  "metadata": {
+    "schemaVersion": "2.0",
+    "analysisVersion": 2,
+    "cityCode": "OAR",
+    "cityName": "Orsakar",
+    "analysisDate": "2026-07-03",
+    "analystVersion": "gpt-5.5-thinking",
+    "analysisConfidence": "strong-lock",
+    "basedOnImages": ["OAR-HERO-NE-v001", "OAR-HERO-NW-v001", "OAR-HERO-SE-v001", "OAR-HERO-SW-v001", "OAR-STREET-S1-v001", "OAR-STREET-S2-v001", "OAR-STREET-S3-v001", "OAR-STREET-S4-v001", "OAR-STREET-S5-v001"],
+    "basedOnSidecars": ["OAR-HERO-NE-v001.json", "OAR-HERO-NW-v001.json", "OAR-HERO-SE-v001.json", "OAR-HERO-SW-v001.json", "OAR-STREET-S1-v001.json", "OAR-STREET-S2-v001.json", "OAR-STREET-S3-v001.json", "OAR-STREET-S4-v001.json", "OAR-STREET-S5-v001.json"]
+  },
+  "cityDNA": {
+    "coreFantasy": "A bearfolk mountain fortress-city where border walls, forges, command bastions, caravan roads, containment keeps, ancestor guidance, and a salmon-stone lodge make strength protective and territorial.",
+    "primaryEmotion": "palefang resolve",
+    "secondaryEmotion": "ancestral mass",
+    "readerTakeaway": "Orsakar is not a bear barbarian settlement; it is a blue-granite civic fortress whose strength is organized into walls, work, route law, custody, and ancestor-bound public authority.",
+    "civilizationThesis": "Orsakar turns bearfolk mass, mountain thresholds, forge discipline, caravan endurance, command order, and containment ethics into a mature civic system.",
+    "visualIdentity": "Blue granite, frost glass, pine, silver inlay, arcane glow, cliff terraces, snowy approaches, border beacons, forge smoke, command banners, caravan gates, containment yards, and bear-claw registry marks.",
+    "culturalIdentity": "Bear-like beastfolk with formal institutions, ancestor guidance, weather binding, guarded roads, and a public expectation that strength must protect.",
+    "symbolicIdentity": "Bear claws, palefangs, salmon stone, border lamps, forge smoke, command standards, caravan gates, mist veils, and judgment yards symbolize strength under obligation."
+  },
+  "canon": {
+    "canonLocks": ["Orsakar is a mature bear-like beastfolk fortress city, not a generic mountain beast camp.", "The Wonder is Bearfolk Salmon-Stone Lodge of the Palefangs.", "The Beacon is Border Wall Beacon.", "The Seat of Power is Bear Claw Marks Sovereign Registry Court.", "The five primary districts are Fortress / Border Wall, Heavy Industry / Foundry, Military Command, Transit / Caravan / Rail, and Prison / Containment.", "The uploaded district anchors include Fortress / Border Wall Civic Hall, Woven Banners Monument, Watch Bastion Nook, Heavy Industry / Foundry Civic Hall, Great Forge, Smoke-Stack Monument, Crucible Hall Nook, Military Command Hall, Command Bastion, Standard Tower Nook, Transit / Caravan / Rail Civic Hall, Caravanserai, Waystation Hall Nook, Prison / Containment Civic Hall, Containment Keep, Mist Veils Monument, and Judgment Yard Nook."],
+    "provisionalCanon": ["Orsakar's highest civic virtue is protective strength.", "The contact-sheet pass shows cold mountain scale, fortress massing, and street-level institutions aligned with the sidecar anchors."],
+    "rejectedReads": ["generic bear barbarian settlement", "all brute strength with no institutions", "mountain scenery without road, command, or containment systems"],
+    "cautionFlags": ["Keep blue granite, frost glass, pine, and silver inlay visible.", "Preserve exact sidecar anchor names.", "Containment is an institution, not random cruelty."]
+  },
+  "environment": {
+    "terrain": ["cliffside fortress city", "terraced slope", "civic terraces", "snowy mountain approaches", "border gates", "caravan roads"],
+    "water": ["snowmelt channels", "forge quench troughs", "mountain cisterns", "dry civic ground"],
+    "vegetation": ["pine forests", "hardy mountain shrubs", "lichened stone", "cold terrace plantings"],
+    "climateLighting": ["cold mountain daylight", "blue beacon glow", "forge orange", "frost-glass glare", "snow-reflected light", "mist-veiled containment light"],
+    "environmentalLogic": "The uploaded images show cliff, cold, pine, and blue stone as civic infrastructure: approaches are defended, roads are governed, and heavy buildings read as deliberate protection."
+  },
+  "architecture": {
+    "materials": ["Blue Granite", "Frost Glass", "Pine", "Silver Inlay", "Arcane Glow", "iron bands", "weathered stone"],
+    "forms": ["Bearfolk Salmon-Stone Lodge of the Palefangs", "Bear Claw Marks Sovereign Registry Court", "Border Wall Beacon", "Fortress / Border Wall Civic Hall", "Watch Bastion Nook", "Great Forge", "Smoke-Stack Monument", "Crucible Hall Nook", "Military Command Hall", "Command Bastion", "Standard Tower Nook", "Caravanserai", "Waystation Hall Nook", "Containment Keep", "Mist Veils Monument", "Judgment Yard Nook"],
+    "skyline": ["Bearfolk Salmon-Stone Lodge of the Palefangs as wonder anchor", "Bear Claw Marks Sovereign Registry Court as seat of power", "Border Wall Beacon as public signal", "forge stacks, command bastions, caravan gates, and containment keeps stepping down mountain terraces"],
+    "lighting": ["blue civic glow", "forge fire", "cold snowlight", "frost-glass shimmer", "containment ward light"],
+    "infrastructure": ["border walls", "watch bastions", "forge yards", "command roads", "caravan gates", "waystation halls", "containment yards", "judgment approaches"],
+    "motifs": ["bear claws", "palefangs", "salmon stone", "woven banners", "smoke stacks", "standard towers", "caravan gates", "mist veils"],
+    "colorLanguage": ["blue granite", "frost white", "pine green", "silver inlay", "forge orange", "civic blue"],
+    "textureLanguage": ["cold carved stone", "frosted glass", "rough pine", "silver marks", "smoke-dark iron", "snow-wet paving"]
+  },
+  "civilization": {
+    "people": "Bearfolk citizens read as massive, deliberate, territorial, and institutionally ordered; the images emphasize civic density, guarded gates, and work districts rather than wilderness wandering.",
+    "occupations": ["border guards", "forge workers", "command officers", "standard bearers", "caravan brokers", "waystation keepers", "containment wardens", "registry clerks", "pinewrights"],
+    "socialClasses": ["registry officials", "watch families", "forge guilds", "command houses", "caravan families", "containment administrators", "mountain laborers"],
+    "governance": "The Bear Claw Marks Sovereign Registry Court governs border rights, work obligations, road passage, command orders, and containment judgments.",
+    "religion": "Ancestor guidance and weather binding appear through palefang marks, salmon-stone rites, bear-claw registry symbols, and mountain threshold oaths.",
+    "customs": ["gate watch", "forge oath", "standard raising", "caravan tally", "containment ward check", "ancestor mark consultation"],
+    "bodyLanguage": ["planted stance", "protective spacing", "slow public authority", "claw-mark gestures", "watchful gate posture"],
+    "speechPatterns": ["clan and road terms", "registry phrasing", "forge orders", "command titles", "containment warnings"]
+  },
+  "urbanLife": {
+    "streets": {"appearance": "Cold, heavy, blue-granite streets with pine structures, silver inlay, guard towers, forge smoke, command banners, caravan yards, and containment thresholds.", "movement": "Movement follows defended gates, mountain stairs, forge lanes, command platforms, caravan roads, and warded containment approaches.", "sounds": ["gate horns", "forge hammers", "snow under boots", "caravan tack", "standard cloth", "containment bells"], "smells": ["pine", "cold stone", "forge smoke", "leather", "snowmelt", "lamp oil"], "lighting": "Blue civic light and snow reflection contrast with orange forges and pale containment wards.", "weatherEffects": "Snow, fog, and cold make gates, roads, and signal lamps essential.", "dayCycle": "Daytime centers on wall watch, forge work, command traffic, and caravan processing.", "nightCycle": "Night is beacon-lit, guarded, forge-warm, and containment-watchful."},
+    "shops": {"common": ["forge tool stalls", "pine craft sellers", "road ration counters", "warm cloak vendors"], "uncommon": ["frost-glass workers", "silver inlay carvers", "caravan map sellers", "ward-sigil repairers"], "prestigious": ["registry counters", "command armories", "great forge contracts", "major caravan houses"], "exports": ["blue-granite craft", "forge tools", "road security", "frost glass", "caravan logistics"], "imports": ["grain", "coal", "cloth", "medicine", "fine metal"], "streetFood": ["thick stew", "smoked fish", "pine tea", "root bread"], "services": ["gate tolls", "forge repair", "route permits", "containment processing"]},
+    "housing": {"wealthy": "Registry and command terraces with frost-glass windows and guarded views.", "middle": "Forge, caravan, and watch-family homes along heavy roads.", "poor": "Cold service housing near walls, work yards, and road thresholds."}
+  },
+  "districts": [
+    {"sectionNumber": 1, "name": "Fortress / Border Wall", "civicPurpose": "Public access control, warning, and defense.", "visualIdentity": "Fortress / Border Wall Civic Hall, Border Wall Beacon, Woven Banners Monument, Watch Bastion Nook.", "emotionalIdentity": "guarded, cold, formal", "gameplayAssetNeeds": ["Fortress / Border Wall Civic Hall", "Border Wall Beacon", "Woven Banners Monument", "Watch Bastion Nook"], "narrativeUse": ["arrival gate", "Beacon response", "border warning"], "landmark": "Border Wall Beacon", "minorLandmarks": ["Woven Banners Monument", "Watch Bastion Nook"]},
+    {"sectionNumber": 2, "name": "Heavy Industry / Foundry", "civicPurpose": "Forge labor and public production.", "visualIdentity": "Heavy Industry / Foundry Civic Hall, Great Forge, Smoke-Stack Monument, Crucible Hall Nook.", "emotionalIdentity": "hot, exacting, productive", "gameplayAssetNeeds": ["Heavy Industry / Foundry Civic Hall", "Great Forge", "Smoke-Stack Monument", "Crucible Hall Nook"], "narrativeUse": ["forge work", "industrial crisis"], "landmark": "Great Forge", "minorLandmarks": ["Smoke-Stack Monument", "Crucible Hall Nook"]},
+    {"sectionNumber": 3, "name": "Military Command", "civicPurpose": "Rank, orders, musters, and disciplined force.", "visualIdentity": "Military Command Hall, Command Bastion, Woven Banners Monument, Standard Tower Nook.", "emotionalIdentity": "ordered, hard, dutiful", "gameplayAssetNeeds": ["Military Command Hall", "Command Bastion", "Woven Banners Monument", "Standard Tower Nook"], "narrativeUse": ["orders", "muster", "rank conflict"], "landmark": "Command Bastion", "minorLandmarks": ["Woven Banners Monument", "Standard Tower Nook"]},
+    {"sectionNumber": 4, "name": "Transit / Caravan / Rail", "civicPurpose": "Route law, trade exchange, and road endurance.", "visualIdentity": "Transit / Caravan / Rail Civic Hall, Caravanserai, Woven Banners Monument, Waystation Hall Nook.", "emotionalIdentity": "road-bound, busy, durable", "gameplayAssetNeeds": ["Transit / Caravan / Rail Civic Hall", "Caravanserai", "Woven Banners Monument", "Waystation Hall Nook"], "narrativeUse": ["arrival", "route dispute", "caravan negotiation"], "landmark": "Caravanserai", "minorLandmarks": ["Woven Banners Monument", "Waystation Hall Nook"]},
+    {"sectionNumber": 5, "name": "Prison / Containment", "civicPurpose": "Custody, judgment, danger management, and institutional consequence.", "visualIdentity": "Prison / Containment Civic Hall, Containment Keep, Mist Veils Monument, Judgment Yard Nook.", "emotionalIdentity": "cold, controlled, severe", "gameplayAssetNeeds": ["Prison / Containment Civic Hall", "Containment Keep", "Mist Veils Monument", "Judgment Yard Nook"], "narrativeUse": ["custody", "judgment", "containment ethics"], "landmark": "Containment Keep", "minorLandmarks": ["Mist Veils Monument", "Judgment Yard Nook"]}
   ],
-  "summary": {
-    "oneSentence": "Orsakar is a bearfolk mountain-lodge city where heavy timber halls, cliff terraces, warm courtyards, guard keeps, market storehouses, hearth law, and ancestor roots turn shelter, strength, and lineage into civic architecture.",
-    "identityStatement": "Orsakar should read as an old bearfolk alpine civilization, not a barbarian camp. It is broad-doored, low-roofed, heavy, warm, defensive, and domestic at once: huge stone-and-timber halls, fur banners, iron brackets, packed-earth paths, boulder foundations, hearth courts, honeycomb geometry, paw reliefs, root shrines, guard balconies, and snow-reflective mountain light."
-  },
-  "evidence": {
-    "civilizationMaturity": {
-      "ageExpression": "ancient / clan-established",
-      "evidence": [
-        "hero views show a large mountain city of terraced timber halls, stone keeps, broad courtyards, bridges, towers, and storage structures embedded in cliff and taiga terrain",
-        "street views show complete civic life across fortress/border, high residential, market/storehouse, hearth/hospitality, and ancestor/root districts",
-        "architecture is settled and durable: huge doors, heavy roofs, permanent halls, carved reliefs, and winter-ready infrastructure",
-        "the city reads as protective and enduring rather than temporary, raiding, or nomadic"
-      ]
-    },
-    "architecturalLanguage": {
-      "materials": [
-        "heavy timber",
-        "rough stone",
-        "boulders",
-        "dark iron brackets",
-        "fur-lined banners",
-        "packed earth",
-        "snow-wet planks",
-        "charred hearthstone",
-        "bronze or iron lanterns",
-        "woven wool",
-        "hide awnings",
-        "frosted moss and lichen"
-      ],
-      "forms": [
-        "large low stone-and-timber halls",
-        "broad bearfolk doors",
-        "heavy rooflines",
-        "recessed warm courtyards",
-        "fortified storehouses",
-        "watch keeps",
-        "cliff balconies",
-        "hearth halls",
-        "root shrines",
-        "den-like arches",
-        "market sheds",
-        "honeycomb reliefs",
-        "ancestor cairns",
-        "guard ramps and snow stairs"
-      ],
-      "skyline": [
-        "Root-Shrine Beneath Orsakar / Bearpaw Root-Keep as the deep ancestral/civilizational anchor",
-        "Mountain Keep / Border Beacon as the near defensive signal landmark",
-        "broad timber lodges and stone keeps arranged across cliff terraces",
-        "large roofs and warm smoke columns contrasting against snow, spruce, and rock",
-        "watch towers and storage halls appearing as civic infrastructure, not mere military decoration"
-      ],
-      "lighting": [
-        "snow-reflected daylight",
-        "soft overcast mountain light",
-        "warm hearth glow",
-        "amber lantern light",
-        "forge glow",
-        "blue or cold beacon glints in snow",
-        "smoke-diffused courtyard light"
-      ],
-      "infrastructure": [
-        "cliff roads",
-        "broad ramps",
-        "snow stairs",
-        "watch balconies",
-        "fortified gates",
-        "storehouses",
-        "hearth courts",
-        "market platforms",
-        "root-shrine paths",
-        "winter sheds",
-        "bridge-linked terraces",
-        "guard barracks"
-      ],
-      "visualPatterns": [
-        "architecture prioritizes width, mass, warmth, and endurance over elegance",
-        "defense and hospitality coexist: the same heavy walls that keep enemies out keep families warm",
-        "bear identity appears through paw reliefs, claw marks, den arches, honeycomb geometry, and huge body-scaled thresholds",
-        "public life gathers around hearths, markets, storehouses, and ancestral roots rather than formal plazas alone",
-        "the city feels protective first, aggressive second"
-      ],
-      "recurringMotifs": [
-        "bear paw reliefs",
-        "claw marks",
-        "honeycomb geometry",
-        "hearth emblems",
-        "den-like arches",
-        "root shrines",
-        "fur banners",
-        "heavy doors",
-        "cliff balconies",
-        "storehouses",
-        "spruce and pine",
-        "snow and frost moss"
-      ]
-    },
-    "environmentalRelationship": {
-      "observed": "Orsakar uses mountain, taiga, cliff, and winter as a shelter problem to solve. The city braces itself into rock, broadens doors and ramps for bearfolk bodies, stores heat and food, and turns difficult terrain into protective civic structure.",
-      "evidence": [
-        "hero views emphasize cliffs, terraces, snowfields, pine/spruce edges, and heavy mountain keeps",
-        "street views show broad timber structures, warm courtyards, smoke, hides, storehouses, and snow-ready paths",
-        "the civics feel grounded in winter survival: shelter, defense, storage, ancestry, and communal warmth",
-        "the city repeatedly uses stone foundations and timber massing to resist weather rather than ornament it"
-      ]
-    },
-    "authorityExpression": {
-      "observed": "Authority is clan-protective, ancestral, and provision-based. Power belongs to those who can shelter the community, hold the pass, maintain stores, honor roots, and feed people through winter.",
-      "evidence": [
-        "fortress/border imagery foregrounds watch and protection",
-        "hearth and hospitality spaces appear as civic centers, not private interiors",
-        "storehouses and markets are materially important",
-        "ancestor/root shrine identity ties rule to lineage and continuity",
-        "heavy residential lodge architecture suggests leadership as household/clan stewardship"
-      ]
-    },
-    "commercialSpaces": [
-      "hide and wool markets",
-      "honey and wax stalls",
-      "smoked meat counters",
-      "winter grain stores",
-      "blacksmith benches",
-      "fur-lined clothing shops",
-      "timber repair yards",
-      "lantern sellers",
-      "mountain herb stalls",
-      "carved paw-token vendors",
-      "root-shrine offering stalls",
-      "hearth food halls"
-    ],
-    "publicSpaces": [
-      "fortress gate courts",
-      "watch keep approaches",
-      "warm recessed courtyards",
-      "hearth halls",
-      "market platforms",
-      "storehouse yards",
-      "ancestor root paths",
-      "cliff balconies",
-      "broad lodge steps",
-      "winter wells",
-      "forge courts",
-      "snow terraces"
-    ],
-    "districtCharacter": {
-      "section1FortressBorderWall": "protective threshold: mountain keep, guard ramps, watch balconies, fur banners, broad gates, cold beacon light, and the city presenting itself as a den that can close",
-      "section2HighResidential": "clan-lodge prestige: large warm timber halls, heavy roofs, private courtyards, carved beams, status through warmth, food, ancestry, and physical shelter",
-      "section3GrandMarketStorehouses": "provision district: market sheds, storehouses, smoked foods, wool, honey, timber, iron tools, and the practical economy of surviving winter",
-      "section4HearthHospitality": "communal warmth: hearth hall, long tables, steam, stew, guest law, public food, social repair, and hospitality as a civic obligation",
-      "section5AncestorRootShrine": "deep lineage: root shrine, cairns, carved paw stones, frost moss, ancestral paths, quiet offerings, and the sense that the city is literally rooted under the mountain"
-    }
-  },
-  "narrativeTranslation": {
-    "streets": {
-      "description": "Orsakar streets should feel wide, heavy, cold outside, and warm wherever civilization has done its job. Characters move along snow-wet planks, packed-earth ramps, rough stone steps, broad lodge fronts, fur banners, storehouse walls, guard balconies, and hearth-lit courtyards built for bodies larger and stronger than humans.",
-      "writingGuidance": [
-        "Use scale through width and mass, not tall spires: broad doors, thick beams, low heavy roofs, huge benches, and body-sized hearths.",
-        "Keep winter practicality visible: stacked firewood, smoked meat, wool, furs, snow channels, iron hinges, roof braces, and storage sheds.",
-        "Write defense as shelter first. Orsakar should feel guarded because it protects home, not because it hungers for war.",
-        "Let ancestry show through roots, paw stones, carved beams, and old clan marks rather than abstract heraldry alone."
-      ]
-    },
-    "people": {
-      "description": "Citizens should feel physically imposing, communal, deliberate, and protective. Bearfolk guards, cooks, woodcutters, storekeepers, elders, smiths, market traders, root-priests, and children move with the confidence of people who know the mountain can kill the careless.",
-      "behavioralNotes": [
-        "people value warmth, food, patience, directness, and visible contribution",
-        "hospitality is serious but not soft; guests are protected and judged at the same table",
-        "anger should feel slow to rise but hard to stop once roused",
-        "social status is tied to provision, lineage, winter-readiness, and protection of dependents"
-      ]
-    },
-    "shops": {
-      "examples": [
-        "honey sellers",
-        "wax candle makers",
-        "furriers",
-        "wool cloak stalls",
-        "smoked meat houses",
-        "timberwright shops",
-        "iron bracket smiths",
-        "claw-mark carvers",
-        "hearthstone repairers",
-        "mountain herb vendors",
-        "snowshoe and sled makers",
-        "root-offering stalls"
-      ],
-      "writingGuidance": "Commerce should feel provision-centered. Shops sell things that keep people warm, fed, sheltered, defended, and remembered. Luxury exists, but it grows out of durability and hospitality."
-    },
-    "homes": {
-      "description": "Homes should be broad timber-and-stone lodges, den-like apartments, family halls over storage rooms, and heavy-roofed courtyards with fur curtains, big hearths, low smoke, carved beams, and winter stores close at hand.",
-      "writingGuidance": [
-        "Domestic spaces should feel sturdy and communal rather than delicate or private-first.",
-        "Use benches, hooks, drying furs, stacked wood, large bowls, thick rugs, and doorways that emphasize bearfolk bodies."
-      ]
-    },
-    "publicLife": {
-      "dailyRhythms": [
-        "morning watch changes at the gate and cliff balconies",
-        "storehouse doors opening and provision tallies being checked",
-        "market smoke rising from food stalls and forge sheds",
-        "children and elders gathering in recessed warm courtyards",
-        "hearth halls filling before the coldest hours",
-        "root-shrine offerings made at dusk under frost moss and lanterns",
-        "night watch marked by lanterns, snow crunch, and hearth glow under heavy roofs"
-      ],
-      "commonActivities": [
-        "guarding passes",
-        "hauling timber",
-        "stacking firewood",
-        "smoking meat",
-        "sharing stew",
-        "repairing roofs",
-        "carving paw reliefs",
-        "counting stores",
-        "welcoming travelers",
-        "ancestor offerings",
-        "market bargaining"
-      ]
-    },
-    "sounds": [
-      "snow crunch under heavy feet",
-      "timber beams creaking",
-      "fire roaring in large hearths",
-      "low bearfolk voices in halls",
-      "iron hinges on broad doors",
-      "axes and saws in timber yards",
-      "market bells muffled by snow",
-      "wind against cliff balconies",
-      "stew pots and wooden bowls",
-      "distant watch horns"
-    ],
-    "smells": [
-      "wood smoke",
-      "wet fur",
-      "pine resin",
-      "smoked meat",
-      "honey",
-      "hot stew",
-      "iron and forge ash",
-      "snow-damp wool",
-      "earth under floor rushes",
-      "cold stone and moss"
-    ],
-    "lighting": {
-      "day": "Daylight should be cold and reflective outside, bouncing from snow, stone, and frost moss while warm windows and smoke columns signal shelter.",
-      "night": "Night should be dominated by hearths, amber lanterns, forge glow, and watch lights across dark timber and snow.",
-      "weather": "Soft overcast, fog, falling snow, and mountain wind should matter. Orsakar should constantly remind readers that shelter has to be maintained."
-    },
-    "transportation": {
-      "description": "Movement is by broad ramps, packed-earth roads, cliff stairs, timber bridges, sled paths, and terrace routes. The city is built for heavy bodies and winter hauling, so outsiders should feel the slopes and distances physically.",
-      "writingGuidance": [
-        "Use uphill movement, snow, and broad ramps to slow scenes and make shelter feel earned.",
-        "Let locals navigate by hearth smoke, storehouse roofs, clan marks, and root-shrine paths.",
-        "Use gates and cliff balconies as natural choke points."
-      ]
-    },
-    "children": {
-      "description": "Children should appear bundled in courtyards, near hearth halls, by wood stacks, and around market sheds. They learn early which doors are warm, which slopes are dangerous, and who is responsible for keeping the stores full."
-    },
-    "craftsmen": {
-      "description": "Craftsmen include timberwrights, roof brace makers, iron bracket smiths, furriers, honey/wax workers, hearthstone masons, storage coopers, sled builders, paw-relief carvers, and root-shrine caretakers."
-    },
-    "markets": {
-      "description": "Markets should be smoky, broad, and practical: meat, furs, honey, wax, wool, timber, iron, herbs, roof repair, winter tools, and guest food. The market is where the city proves it can survive the season."
-    },
-    "food": {
-      "examples": [
-        "thick meat stew",
-        "smoked fish",
-        "honey cakes",
-        "dark bread",
-        "roasted roots",
-        "mushroom broth",
-        "salted game",
-        "warm berry drink",
-        "oat porridge",
-        "hearth-roasted onions"
-      ]
-    },
-    "companionObservations": {
-      "addie": [
-        "notices storehouse counts, clan marks, gate rules, hearth obligations, root-shrine inscriptions, and repeated legal language around shelter and provision",
-        "stores routes by Mountain Keep Beacon, High Lodge Court, Storehouse Market, Hearth Hall, Root Shrine, and cliff terrace sequence",
-        "would recognize how much of the city’s law is actually winter logistics wearing ancestral language"
-      ],
-      "gregory": [
-        "reads bear paw marks, den arches, honeycomb patterns, hearth emblems, root shrines, and heavy doors as symbols of shelter, appetite, lineage, and restraint",
-        "would distinguish protective strength from performative intimidation"
-      ],
-      "brickett": [
-        "spots loose roof pegs, hidden warm vents, service gaps under benches, storehouse tally mistakes, dropped wax tokens, and child shortcuts between lodges",
-        "would immediately understand which big things depend on small unnoticed maintenance"
-      ],
-      "talandra": [
-        "reads gates, cliff balconies, watch keeps, broad exposed ramps, and hearth crowds as threat geometry",
-        "would respect the defensive logic while noting that a warm hall can become a trap if doors are blocked"
-      ],
-      "mae": [
-        "would notice who controls food stores, guest law, clan access, root-shrine legitimacy, and winter labor contracts",
-        "would understand that in Orsakar, provision is power and hospitality can bind as tightly as debt"
-      ],
-      "brynn": [
-        "would be especially sensitive to lineage, stone-root permanence, inherited duty, and the burden of making protection visible",
-        "could read Orsakar as a mirror of Book 4 permanence: ancestry is shelter until it becomes enclosure"
-      ],
-      "genericCompanionNotes": [
-        "Outsiders should feel protected and judged at the same time.",
-        "Orsakar should make strength feel slow, domestic, ancestral, and logistical rather than merely violent."
-      ]
-    }
-  },
-  "arrivalExperience": {
-    "firstImpression": "A visitor should first experience Orsakar as a city of smoke, snow, and mass: huge timber roofs braced into cliff stone, broad bearfolk doors, fur banners snapping in cold wind, watch balconies above the pass, and warm hearth light promising safety if the city decides you are worth sheltering.",
-    "firstHourSequence": [
-      "cold mountain approach through spruce, snow, and stone",
-      "first sight of the defensive beacon and broad gate halls",
-      "passing guards, fur banners, claw-marked posts, and watch balconies",
-      "entering a recessed warm courtyard where smoke and food replace wind",
-      "moving through market/storehouse districts full of winter provisions",
-      "glimpsing the root-shrine or ancestral keep and realizing the city’s strength is tied to lineage and shelter"
-    ],
-    "readerEffect": "The reader should feel that Orsakar is formidable but not cruel: a civilization that survives by becoming a den large enough to hold a people."
-  },
-  "departureMemory": {
-    "readerShouldRemember": [
-      "heavy timber halls under snow",
-      "broad bearfolk doors and den-like arches",
-      "fur banners and paw reliefs",
-      "warm recessed hearth courtyards",
-      "storehouses and smoked-food markets",
-      "watch keeps and cliff balconies",
-      "root-shrine ancestry beneath the mountain",
-      "a city where shelter is strength"
-    ]
-  },
-  "landmarkAnalysis": {
-    "wonder": {
-      "name": "Root-Shrine Beneath Orsakar / Bearpaw Root-Keep",
-      "purpose": "The Wonder embodies Orsakar's deepest civilizational principle: permanence as living root, ancestral burden, and sheltering strength.",
-      "visualDescription": "A massive root-and-stone ancestral sanctuary integrated beneath or against the mountain, marked by bear-paw carving, root forms, heavy stone platforms, frost moss, warm lanterns, and pilgrimage paths from the lodge city above.",
-      "narrativeUse": "Use the Wonder to make Book 4 permanence tangible. It should feel comforting and heavy: ancestry as foundation, but also ancestry as something that can trap a person beneath its weight.",
-      "howCharactersNoticeIt": {
-        "addie": "notices repeated root, shelter, lineage, and obligation phrases in shrine inscriptions",
-        "gregory": "reads root and paw symbolism as sheltering lineage and embodied permanence",
-        "brickett": "spots small offerings, hidden maintenance paths, loose stones, and overlooked marks left by ordinary families",
-        "talandra": "maps choke points, hidden approaches, and the difficulty of evacuating a sacred underground/under-mountain space",
-        "brynn": "feels the shrine as a direct pressure point for inherited duty and royal lineage"
-      },
-      "commonActivities": [
-        "ancestor offerings",
-        "lineage vows",
-        "winter blessing rites",
-        "root-pilgrimages",
-        "naming ceremonies",
-        "public grief and reconciliation"
-      ],
-      "visibilityFromCity": "Partly visible through approach roads, carved markers, and mountain-root processional paths; emotionally central even when not skyline-dominant."
-    },
-    "beacon": {
-      "name": "Mountain Keep / Border Wall Beacon",
-      "purpose": "The Beacon ties Conjunction signal identity to protection of the pass, guarded shelter, and the city’s decision to open or close the den.",
-      "visualDescription": "A cold blue or bright signal landmark set into a heavy mountain keep, border wall, or watch tower with broad gate courts, fur banners, iron brackets, and snow-covered terraces.",
-      "narrativeUse": "Use the Beacon as a shelter-warning mechanism. A color change should move guards, storekeepers, hearth halls, and families at once because crisis in Orsakar means deciding who can be protected before winter or violence reaches the door.",
-      "howCharactersNoticeIt": {
-        "addie": "notices beacon states are paired with gate rules, storehouse orders, and shelter protocols",
-        "gregory": "reads it as a threshold symbol: warmth inside, cold outside, choice at the gate",
-        "brickett": "finds wall ladders, service paths, banner ropes, and warm vent shortcuts",
-        "talandra": "treats the beacon gate as a primary defensive choke point",
-        "brynn": "sees how public authority becomes real when it decides who gets admitted"
-      },
-      "commonActivities": [
-        "signal watching",
-        "watch rotations",
-        "gate closures",
-        "emergency shelter orders",
-        "guard musters",
-        "winter warning announcements"
-      ],
-      "visibilityFromCity": "Prominent from Section 1 and approach views as the near/front signal anchor."
-    },
-    "seatOfPower": {
-      "name": "Great Hearth Lodge / Clan-Keep Court",
-      "purpose": "The seat of power expresses authority as provision, shelter, lineage, and communal judgment around the largest public hearth.",
-      "visualDescription": "A huge low timber-and-stone lodge court with massive beams, broad doors, carved paw reliefs, fur banners, heavy benches, central hearth, and command balconies overlooking warm public space.",
-      "narrativeUse": "Use the seat of power to show that Orsakar rule is not abstract bureaucracy. Leaders are judged by whether the hall is warm, stores are full, guests are protected, and ancestors are honored.",
-      "howCharactersNoticeIt": {
-        "addie": "locks onto tally boards, lineage marks, guest-law phrases, and storehouse decrees",
-        "gregory": "reads the hearth as heart, court, and test of communal virtue",
-        "brickett": "spots who tends fires, who updates tallies, who eats last, and which small workers make the great hall function",
-        "talandra": "maps exits, balconies, guard positions, crowd flow, and fire risks",
-        "mae": "understands that control of food and shelter creates political leverage"
-      },
-      "commonActivities": [
-        "public meals",
-        "clan councils",
-        "winter planning",
-        "guest-law hearings",
-        "storehouse rulings",
-        "lineage disputes",
-        "emergency musters"
-      ],
-      "visibilityFromCity": "Central civic anchor within the lodge district, visually marked by smoke, broad roofline, and public approach routes."
-    },
+  "landmarks": {
+    "wonder": {"name": "Bearfolk Salmon-Stone Lodge of the Palefangs", "symbolicRole": "Bearfolk ancestral strength made civic shelter.", "visualRole": "Wonder-scale lodge in blue granite, frost glass, pine, and silver inlay above the mountain city.", "civicRole": "Citywide site for oath, ancestor rite, seasonal gathering, and public identity.", "narrativeUse": ["ancestor ceremony", "public oath", "citywide shelter"], "assetUse": ["map wonder", "skyline anchor"], "sensoryIdentity": ["cold stone", "pine smoke", "silver light", "crowd breath"], "storyHooks": ["A palefang rite decides whether strength protects or possesses." ]},
+    "beacon": {"name": "Border Wall Beacon", "symbolicRole": "Signal at the defended threshold.", "visualRole": "Blue-lit warning landmark integrated with wall, banners, and watch bastions.", "civicRole": "Coordinates watch, forge, command, caravan, and containment response.", "narrativeUse": ["Beacon alarm", "gate closure", "watch muster"], "assetUse": ["S1 centerpiece", "signal marker"], "sensoryIdentity": ["blue light", "cold wind", "horns"], "storyHooks": ["A Beacon change makes every road and gate answer at once." ]},
+    "seatOfPower": {"name": "Bear Claw Marks Sovereign Registry Court", "symbolicRole": "Strength, record, and ancestor mark made government.", "visualRole": "Central registry court with bear-claw marks, terraces, archives, command platforms, and silver-inlaid stone.", "civicRole": "Handles rulings, road rights, custody, command obligations, and public records.", "narrativeUse": ["registry ruling", "road right", "containment judgment"], "assetUse": ["seat-of-power marker"], "sensoryIdentity": ["stone echo", "ink", "silver marks"], "storyHooks": ["A claw mark in the registry assigns a duty nobody can lift alone." ]},
     "majorLandmarks": [
-      {
-        "name": "Mountain Keep / Border Beacon",
-        "sectionNumber": 1,
-        "narrativeUse": "Use for guarded thresholds, shelter decisions, watch rotations, and Conjunction signal anxiety."
-      },
-      {
-        "name": "High Lodge Court",
-        "sectionNumber": 2,
-        "narrativeUse": "Use for clan status, lineage obligations, warm aristocratic hospitality, and inherited authority."
-      },
-      {
-        "name": "Storehouse Market",
-        "sectionNumber": 3,
-        "narrativeUse": "Use for winter provisions, scarcity politics, food security, barter, and practical civic survival."
-      },
-      {
-        "name": "Great Hearth Hall",
-        "sectionNumber": 4,
-        "narrativeUse": "Use for hospitality, public meals, guest law, community repair, and moral tests of whether strength protects others."
-      },
-      {
-        "name": "Ancestor Root Shrine",
-        "sectionNumber": 5,
-        "narrativeUse": "Use for permanence, lineage, royal burden, ancestor vows, and Book 4 root symbolism."
-      }
-    ],
-    "monuments": [
-      {
-        "name": "Bear Paw Relief Monument",
-        "narrativeUse": "Use to mark clan protection, embodied identity, and the city claiming its spaces through bearfolk form."
-      },
-      {
-        "name": "Hearth Emblem Monument",
-        "narrativeUse": "Use to show warmth as civic value and hospitality as public law."
-      },
-      {
-        "name": "Honeycomb Store Monument",
-        "narrativeUse": "Use for provision, sweetness, labor, storage, and communal survival."
-      },
-      {
-        "name": "Root Cairn Monument",
-        "narrativeUse": "Use for ancestry, permanence, grief, and intergenerational duty."
-      }
-    ],
-    "minorLandmarks": [
-      {
-        "name": "Watch Bastion Nook",
-        "narrativeUse": "Use for guard conversations, border observation, tactical pressure, and exposed mountain views."
-      },
-      {
-        "name": "Warm Courtyard Nook",
-        "narrativeUse": "Use for everyday hospitality, children, elders, gossip, and visible shelter culture."
-      },
-      {
-        "name": "Smokehouse Nook",
-        "narrativeUse": "Use for food security, clues, labor, market smells, and scarcity tension."
-      },
-      {
-        "name": "Guest Bench Nook",
-        "narrativeUse": "Use for guest law, public judgment, reconciliation, and character conversations under social pressure."
-      },
-      {
-        "name": "Root Offering Nook",
-        "narrativeUse": "Use for private vows, lineage anxiety, grief, and small acts of ancestor care."
-      }
+      {"name": "Great Forge", "symbolicRole": "Strength made useful.", "visualRole": "Forge halls, smoke stacks, crucible court, and blue granite yards.", "civicRole": "Toolmaking and industrial support.", "narrativeUse": ["forge labor", "repair crisis"], "assetUse": ["S2 diorama"], "sensoryIdentity": ["heat", "hammering", "smoke"], "storyHooks": ["A forge delay threatens the wall." ]},
+      {"name": "Command Bastion", "symbolicRole": "Rank made visible.", "visualRole": "Bastion with standards, banners, and command platforms.", "civicRole": "Orders, musters, and defense planning.", "narrativeUse": ["orders", "rank conflict"], "assetUse": ["S3 diorama"], "sensoryIdentity": ["banners", "boots", "horns"], "storyHooks": ["A standard rises before the road is safe." ]},
+      {"name": "Caravanserai", "symbolicRole": "Road and guest right under watch.", "visualRole": "Waystation, banners, caravan yards, and gate roads.", "civicRole": "Travel, trade, lodging, and route law.", "narrativeUse": ["arrival", "route dispute"], "assetUse": ["S4 diorama"], "sensoryIdentity": ["leather", "snow dust", "tea"], "storyHooks": ["A caravan guest record changes who Orsakar must protect." ]},
+      {"name": "Containment Keep", "symbolicRole": "Danger held inside law.", "visualRole": "Warded keep with mist veils, judgment yard, bells, and cell blocks.", "civicRole": "Custody and containment ethics.", "narrativeUse": ["custody", "judgment"], "assetUse": ["S5 diorama"], "sensoryIdentity": ["cold stone", "ward hum", "bells"], "storyHooks": ["A judgment yard record proves containment was mercy once." ]}
     ]
   },
-  "immediateNarrativeImprovements": [
-    {
-      "target": "Book 4 Brynn / Permanence scenes",
-      "recommendation": "Use Orsakar as the red-beacon pressure city for permanence: root ancestry, clan duty, storehouse survival, and shelter law should force Brynn to confront lineage as both protection and enclosure."
-    },
-    {
-      "target": "street descriptions",
-      "recommendation": "Use heavy timber, rough stone, fur banners, broad doors, smoke, snow, paw reliefs, honey stores, hearth courts, cliff balconies, and root-shrine paths as recurring texture."
-    },
-    {
-      "target": "landmark use",
-      "recommendation": "Make the Beacon a gate/shelter signal and the Root-Shrine the emotional/canonical anchor for permanence and inherited duty."
-    },
-    {
-      "target": "companion writing",
-      "recommendation": "Let Addie parse storehouse and guest-law language, Gregory read paw/root/hearth symbols, Brickett spot maintenance and store details, Talandra respect the defensive geometry, Mae read provision as leverage, and Brynn feel the lineage pressure personally."
-    },
-    {
-      "target": "city differentiation",
-      "recommendation": "Distinguish OAR from SKH and VLG: Skjarnheim is Norse human northern order, Volgrad is institutional winter survival, while Orsakar is bearfolk shelter-strength, clan provision, and root-ancestor permanence."
-    }
-  ],
-  "interpretation": {
-    "civilizationThesis": "Orsakar is the architecture of sheltering strength: a bearfolk mountain city where protection, provision, hospitality, ancestry, and winter endurance are all the same civic duty.",
-    "environmentalPhilosophy": "Brace and shelter: turn mountain danger into thick walls, broad doors, warm courts, defended passes, and stores large enough to outlast the cold.",
-    "adaptiveStrategy": "Protect what can be held: gather warmth, food, family, memory, and guests inside structures strong enough to resist weather and violence.",
-    "authorityModel": "clan-protective provision authority",
-    "relationshipWithNature": "resistant and respectful; mountain and winter are not enemies to conquer but forces that require serious shelter discipline",
-    "relationshipWithHistory": "rooted and ancestral; lineage is carved into beams, roots, paw stones, and shrine paths",
-    "relationshipWithKnowledge": "practical and seasonal; knowledge lives in store tallies, weather memory, route safety, clan law, and hearth obligations",
-    "relationshipWithRisk": "risk is managed through walls, watch, stores, hearths, guest law, and slow collective response",
-    "relationshipWithBeauty": "beauty is mass, warmth, durability, smoke, carved timber, fur, and snow-lit stone rather than refinement",
-    "relationshipWithCommunity": "community is den-like, protective, provision-centered, and judgmental about whether strength serves the vulnerable",
-    "civilizationalTension": {
-      "tension": "shelter as protection vs shelter as enclosure",
-      "resolution": "Orsakar resolves the tension uneasily by treating inherited duty as the price of survival: the den protects, but it also defines who belongs and what they owe."
-    },
-    "highestVirtue": "shelter",
-    "religiousExpression": "ancestral-root and hearth-centered, expressed through root shrines, paw stones, hearth emblems, offerings, and lineage vows rather than ornate temples",
-    "economicIdentity": "winter provisions, timber, furs, honey, smoked food, iron fittings, hearth repair, and mountain-route security",
-    "socialIdentity": "protective, slow to trust, warm once admitted, provision-conscious, lineage-bound, physically formidable, and morally serious about hospitality"
-  },
-  "canonReview": {
-    "lockedCanon": [
-      {
-        "statement": "Orsakar is a mature bearfolk mountain-lodge city where heavy timber halls, broad doors, cliff terraces, fortress gates, hearth hospitality, storehouse markets, and ancestor root shrines define civic identity.",
-        "reason": "The city prompt and image direction consistently foreground Carpathian alpine timber villages, bearfolk bodies, heavy lodge architecture, mountain pass terrain, snow/taiga environment, and root-shrine Book 4 placement.",
-        "supportingEvidence": [
-          "bear-like beastfolk identity",
-          "Carpathian mountain lodges and fortified alpine timber villages",
-          "large low stone-and-timber halls",
-          "broad doors",
-          "fortified storehouses",
-          "Root-Shrine Beneath Orsakar",
-          "Book 4 red beacon OAR"
-        ],
-        "confidence": "high"
-      },
-      {
-        "statement": "Orsakar strength should be written as sheltering/protective before aggressive/militaristic.",
-        "reason": "The visual and cultural logic centers lodges, courtyards, storehouses, hearths, ancestry, and winter survival alongside fortification.",
-        "supportingEvidence": [
-          "recessed warm courtyards",
-          "fortified storehouses",
-          "hearth emblems",
-          "den-like arches",
-          "mountain pass / taiga edge / snowfield terrain"
-        ],
-        "confidence": "high"
-      },
-      {
-        "statement": "Orsakar is a key Book 4 permanence city because ancestry, roots, lineage, and shelter-duty converge there.",
-        "reason": "Book 4 uses OAR as red beacon for Brynn's permanence arc, and the atlas site Root-Shrine Beneath Orsakar explicitly anchors root-genealogy under the city.",
-        "supportingEvidence": [
-          "Book 4 red beacon OAR",
-          "Root-Shrine Beneath Orsakar",
-          "Yggdrasil Root Fragment reward logic",
-          "permanence / lineage themes"
-        ],
-        "confidence": "high"
-      }
-    ],
-    "provisionalCanon": [
-      {
-        "statement": "Orsakar's highest civic virtue is shelter.",
-        "reason": "The city repeatedly converts strength, food, warmth, gates, ancestry, and hospitality into a single protective civic ethic, but comparison with other bearfolk/northern cities should validate the virtue language.",
-        "supportingEvidence": [
-          "hearth halls",
-          "storehouses",
-          "fortress gates",
-          "warm courtyards",
-          "root shrine",
-          "broad den-like architecture"
-        ],
-        "confidence": "medium-high"
-      },
-      {
-        "statement": "Orsakar authority likely depends on provision legitimacy: who can feed and shelter the clan has political power.",
-        "reason": "The market/storehouse/hearth logic makes logistics and hospitality inseparable from leadership, but this should be checked against later governance canon.",
-        "supportingEvidence": [
-          "fortified storehouses",
-          "hearth halls",
-          "guest law",
-          "winter survival infrastructure"
-        ],
-        "confidence": "medium-high"
-      }
-    ],
-    "workingHypotheses": [
-      {
-        "statement": "Bearfolk civilization may encode territoriality as shelter responsibility rather than expansion: the den must be defended because it holds dependents, stores, and ancestors.",
-        "reason": "OAR strongly supports this, but other bearfolk or beastfolk defensive cities should be compared before generalizing.",
-        "supportingEvidence": [
-          "bear paw reliefs",
-          "den-like arches",
-          "fortified storehouses",
-          "warm courtyards",
-          "root-shrine ancestry"
-        ],
-        "confidence": "medium"
-      }
-    ],
-    "rejectedHypotheses": [
-      {
-        "statement": "Orsakar is a primitive bearfolk camp or raider settlement.",
-        "reason": "The city is clearly established, architectural, provision-oriented, and institutionally structured through lodges, keeps, markets, hearth halls, and ancestor shrines.",
-        "supportingEvidence": [
-          "large low stone-and-timber halls",
-          "fortified storehouses",
-          "civic terraces",
-          "mountain keeps",
-          "root shrine"
-        ],
-        "confidence": "high"
-      },
-      {
-        "statement": "Orsakar should be written as primarily aggressive or conquest-driven.",
-        "reason": "The strongest repeated signals are shelter, provision, defense, hearth, and ancestry. Violence is present as protection, not default expansion.",
-        "supportingEvidence": [
-          "recessed warm courtyards",
-          "hearth emblems",
-          "fortified storehouses",
-          "den-like arches",
-          "ancestor root shrine"
-        ],
-        "confidence": "high"
-      }
-    ]
-  },
-  "futureQuestions": [
-    "What is the exact name of Orsakar's seat of power in the asset registry: Great Hearth Lodge, Clan-Keep Court, or another sidecar-specific name?",
-    "How formal is guest law in Orsakar, and can shelter be legally revoked?",
-    "How does Orsakar's root-shrine lineage system interact with Brynn's dwarf royal lineage arc in Book 4?",
-    "Are bearfolk clan structures republic-like, elder-led, lodge-led, or hereditary through provisioning families?",
-    "How should Orsakar be differentiated from Skjarnheim, Volgrad, Vargrheim, and Frostharbor in cold-region prose?"
-  ],
-  "comparativeNotes": {
-    "distinctFrom": [
-      {
-        "cityCode": "SKH",
-        "difference": "Skjarnheim should read as Norse human northern capital/order; Orsakar is bearfolk lodge-scale shelter, den architecture, and clan provision in mountain/taiga terrain."
-      },
-      {
-        "cityCode": "VLG",
-        "difference": "Volgrad institutionalizes winter endurance through state systems; Orsakar embodies winter shelter through clan halls, hearths, storehouses, and ancestral roots."
-      },
-      {
-        "cityCode": "SPK",
-        "difference": "Skyrend Peak concentrates vigilance in avian fortress nests; Orsakar concentrates warmth and provision in bearfolk dens and heavy mountain halls."
-      },
-      {
-        "cityCode": "KVM",
-        "difference": "Khaz Vorem molds mountain geometry through engineered craft; Orsakar braces into mountain terrain through shelter mass, timber, hearth, and lineage."
-      }
-    ],
-    "similarTo": [
-      {
-        "cityCode": "VLG",
-        "similarity": "Both treat winter survival and public provision as civic concerns."
-      },
-      {
-        "cityCode": "FRO",
-        "similarity": "Both make shelter and warmth morally meaningful, though FRO is coastal sealfolk shelter and OAR is mountain bearfolk shelter."
-      },
-      {
-        "cityCode": "HEA",
-        "similarity": "Both turn care into civic structure, but HEA repairs through medicine and relief while OAR shelters through warmth, food, and defense."
-      }
-    ],
-    "uniqueContributions": [
-      "strongest current model for shelter-as-strength",
-      "clearest bearfolk body-scaled architecture: broad doors, den arches, massive halls",
-      "key Book 4 permanence/root-lineage pressure site",
-      "distinct alpine lodge city identity with defensive warmth rather than aggressive militarism"
-    ],
-    "potentialInfluences": [
-      "bearfolk culture bible",
-      "Book 4 permanence and lineage scenes",
-      "cold-region city differentiation matrix",
-      "hospitality/provision governance notes",
-      "Mother's observation that animal territoriality can become civic shelter ethics"
-    ]
-  },
-  "crossCityTags": [
-    "bearfolk-city",
-    "mountain-lodge",
-    "carpathian-alpine",
-    "heavy-timber",
-    "broad-doors",
-    "hearth-halls",
-    "fortified-storehouses",
-    "root-shrine",
-    "ancestor-lineage",
-    "shelter-as-strength",
-    "winter-provision",
-    "cliff-terraces",
-    "taiga-edge",
-    "established-civilization"
-  ],
-  "evolution": {
-    "previousAssumptions": [
-      "Orsakar was expected to be bearfolk, mountainous, heavy timber, fortified, and winter-adapted.",
-      "The exact relationship between defense, hospitality, ancestry, and Book 4 permanence had not yet been formalized."
-    ],
-    "discoveries": [
-      "Orsakar's most useful narrative read is shelter-strength, not generic militarism.",
-      "Fortified storehouses and hearth halls make provision a political and moral system.",
-      "Bearfolk body scale should shape street prose through width, mass, ramps, benches, and thresholds.",
-      "The Root-Shrine Beneath Orsakar makes the city an important permanence/lineage mirror for Brynn.",
-      "Hospitality in Orsakar is protective but conditional, giving the city strong social tension."
-    ],
-    "confirmedAssumptions": [
-      "Orsakar should remain large, low, timber-and-stone, mountain/taiga/snowfield, and bearfolk-specific.",
-      "Paw reliefs, claw marks, honeycomb geometry, hearth emblems, and den-like arches belong in its core visual grammar.",
-      "The city should feel ancient and established, not improvised."
-    ],
-    "changedOurMind": [
-      "Do not write OAR as merely brute-force or raider-coded.",
-      "Make protection, provision, guest law, and ancestry central in prose.",
-      "Use shelter/enclosure tension as the main civic contradiction."
-    ],
-    "futureValidation": [
-      "Compare OAR against Skjarnheim, Volgrad, Frostharbor, and Vargrheim once their full analyses are complete.",
-      "Use Book 4 scenes to test whether the Root-Shrine creates the right pressure on Brynn's lineage arc.",
-      "Verify exact sidecar landmark names from the uploaded OAR JSONs if stricter asset-name parity is needed."
-    ]
+  "assetGuidance": {
+    "districtDioramaGuidance": ["S1: Fortress / Border Wall Civic Hall, Border Wall Beacon, Woven Banners Monument, Watch Bastion Nook.", "S2: Heavy Industry / Foundry Civic Hall, Great Forge, Smoke-Stack Monument, Crucible Hall Nook.", "S3: Military Command Hall, Command Bastion, Woven Banners Monument, Standard Tower Nook.", "S4: Transit / Caravan / Rail Civic Hall, Caravanserai, Woven Banners Monument, Waystation Hall Nook.", "S5: Prison / Containment Civic Hall, Containment Keep, Mist Veils Monument, Judgment Yard Nook."],
+    "mapBackgroundGuidance": ["Keep Bearfolk Salmon-Stone Lodge of the Palefangs, Border Wall Beacon, and Bear Claw Marks Sovereign Registry Court legible together.", "Use blue granite, frost glass, pine, silver inlay, cold mountain roads, forges, command banners, caravan gates, and containment yards."],
+    "requiredVisualElements": ["Bearfolk Salmon-Stone Lodge of the Palefangs", "Border Wall Beacon", "Bear Claw Marks Sovereign Registry Court", "Watch Bastion Nook", "Great Forge", "Smoke-Stack Monument", "Crucible Hall Nook", "Command Bastion", "Standard Tower Nook", "Caravanserai", "Waystation Hall Nook", "Containment Keep", "Mist Veils Monument", "Judgment Yard Nook"],
+    "elementsToAvoid": ["generic bear barbarian settlement", "brute strength without institutions", "mountain scenery with no road law"]
   }
 }

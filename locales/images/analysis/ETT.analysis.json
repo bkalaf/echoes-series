@@ -1,702 +1,96 @@
 {
-  "schemaVersion": 1,
-  "analysisVersion": 1,
-  "cityCode": "ETT",
-  "cityName": "Elarion Thicket",
-  "analysisConfidence": "strong-lock",
-  "analysisDate": "2026-06-30",
-  "analystVersion": "gpt-5.5-thinking",
-  "basedOnImages": [
-    "ETT-HERO-NE-v001",
-    "ETT-HERO-NW-v001",
-    "ETT-HERO-SE-v001",
-    "ETT-HERO-SW-v001",
-    "ETT-STREET-S1-v001",
-    "ETT-STREET-S2-v001",
-    "ETT-STREET-S3-v001",
-    "ETT-STREET-S4-v001",
-    "ETT-STREET-S5-v001"
-  ],
-  "summary": {
-    "oneSentence": "Elarion Thicket is not a city built in a forest; it is a forest that gradually became a civilization, with stagfolk civic life woven through sacred groves, antlered halls, canopy paths, guild courts, gardens, and woodland estates.",
-    "identityStatement": "Elarion Thicket should read as an ancient woodland civilization in equilibrium with its ecosystem. Its buildings do not replace the forest; they appear to have emerged from root, branch, stone, and communal stewardship over centuries."
+  "metadata": {
+    "schemaVersion": "2.0",
+    "analysisVersion": 2,
+    "cityCode": "ETT",
+    "cityName": "Elarion Thicket",
+    "analysisDate": "2026-07-03",
+    "analystVersion": "gpt-5.5-thinking",
+    "analysisConfidence": "strong-lock",
+    "basedOnImages": ["ETT-HERO-NE-v001", "ETT-HERO-NW-v001", "ETT-HERO-SE-v001", "ETT-HERO-SW-v001", "ETT-STREET-S1-v001", "ETT-STREET-S2-v001", "ETT-STREET-S3-v001", "ETT-STREET-S4-v001", "ETT-STREET-S5-v001"],
+    "basedOnSidecars": ["ETT-HERO-NE-v001.json", "ETT-HERO-NW-v001.json", "ETT-HERO-SE-v001.json", "ETT-HERO-SW-v001.json", "ETT-STREET-S1-v001.json", "ETT-STREET-S2-v001.json", "ETT-STREET-S3-v001.json", "ETT-STREET-S4-v001.json", "ETT-STREET-S5-v001.json"]
   },
-  "evidence": {
-    "civilizationMaturity": {
-      "ageExpression": "ancient-established",
-      "evidence": [
-        "hero views show a large settled forest city integrated across hills, canopy, groves, and civic terraces",
-        "street views show stable civic functions: sacred grove, temple quarter, public works, artisan guilds, and high residential court",
-        "architecture appears old, maintained, and grown into the forest rather than newly imposed",
-        "antler, root, canopy, lantern, and garden motifs recur consistently across districts"
-      ]
-    },
-    "architecturalLanguage": {
-      "materials": [
-        "living wood",
-        "carved timber",
-        "mossed stone",
-        "root-wrapped masonry",
-        "bronze fittings",
-        "warm lantern glass",
-        "blue civic lamps",
-        "woven banners",
-        "bark shingles",
-        "garden terraces"
-      ],
-      "forms": [
-        "antlered arches",
-        "root-hearth structures",
-        "sacred grove platforms",
-        "canopy halls",
-        "temple platforms",
-        "procession stairs",
-        "artisan guildhalls",
-        "woodland manors",
-        "hanging gardens",
-        "forest bridges",
-        "lantern paths",
-        "tree-integrated civic courts"
-      ],
-      "skyline": [
-        "towers and civic halls rise through canopy rather than above it as domination",
-        "the Antlered Root-Hearth of the White Stag forms a natural-civic wonder identity",
-        "the Antler Arches Sovereign Registry Court provides central authority through antlered civic symbolism",
-        "beacon and towers are visible but nested among trees, mist, and ridge lines"
-      ],
-      "lighting": [
-        "mist-filtered forest daylight",
-        "warm lanterns in timber streets",
-        "blue civic lamps at monuments and halls",
-        "soft light through canopy gaps",
-        "sacred grove glow",
-        "evening amber through guild and market windows"
-      ],
-      "infrastructure": [
-        "woodland paths",
-        "root-stabilized streets",
-        "stone and timber bridges",
-        "canopy walkways",
-        "garden terraces",
-        "public work yards",
-        "permit courts",
-        "artisan arcades",
-        "procession stairs",
-        "woodland drainage and maintained forest-floor routes"
-      ],
-      "visualPatterns": [
-        "civic architecture repeatedly incorporates antlers, roots, branches, and living canopy",
-        "roads feel like woodland paths made civic rather than imposed urban grids",
-        "authority is visible but not centralized into a single dominating palace posture",
-        "public life appears calm, communal, territorial, and established",
-        "the forest remains structurally active in every district"
-      ],
-      "recurringMotifs": [
-        "antlers",
-        "white stag symbolism",
-        "roots",
-        "sacred groves",
-        "hanging gardens",
-        "lanterns",
-        "woven banners",
-        "canopy halls",
-        "forest bridges",
-        "mossed stone",
-        "blue lamps"
-      ]
-    },
-    "environmentalRelationship": {
-      "observed": "Elarion Thicket grows with the forest. Civilization and woodland appear mutually adapted rather than one replacing the other.",
-      "evidence": [
-        "buildings are nested among mature trees and root systems",
-        "sacred grove and living canopy language appears in both sidecars and images",
-        "paths, markets, temples, and residential areas bend around woodland structure",
-        "the Wonder itself is root-hearth and white-stag themed rather than a detached monument"
-      ]
-    },
-    "authorityExpression": {
-      "observed": "Authority appears territorial, communal, and stewardship-based, expressed through registry, grove, guild, and manor structures rather than overt militarism.",
-      "evidence": [
-        "seat of power is the Antler Arches Sovereign Registry Court, suggesting formal civic record and sovereignty rather than palace spectacle",
-        "major civic functions are spread across temple, guild, public works, sacred grove, and manor districts",
-        "antler motifs signal ownership, memory, territory, and identity without making the city look conquest-driven",
-        "public spaces feel watched and claimed but not hostile"
-      ]
-    },
-    "commercialSpaces": [
-      "artisan guild stalls",
-      "woodcarving shops",
-      "herbalists",
-      "woven banner markets",
-      "gardeners' stalls",
-      "forest food vendors",
-      "permit counters",
-      "craft arcades",
-      "lantern makers",
-      "antler-carving or ceremonial craft shops"
-    ],
-    "publicSpaces": [
-      "sacred groves",
-      "canopy halls",
-      "temple platforms",
-      "guild courts",
-      "public works yards",
-      "procession stairs",
-      "woodland plazas",
-      "manor courts",
-      "hanging gardens",
-      "lantern-lit paths"
-    ],
-    "districtCharacter": {
-      "section1SacredGrove": "spiritual-ecological civic core with Sacred Grove Beacon, Hanging Gardens Monument, and Living Canopy Hall Nook",
-      "section2TempleQuarter": "ritual district with temple platform, procession stair, lantern monument, and formal woodland ceremony",
-      "section3PublicWorksAuthority": "practical civic maintenance district; surveying, permits, blue-lamp monument, and stewardship bureaucracy",
-      "section4ArtisanGuilds": "craft and trade district with guildhall, woven banners, masterwork arcades, woodcraft, and public making",
-      "section5HighResidential": "elevated residential/manor district with gardened courts, pavilions, salons, and quieter signs of status"
-    }
+  "cityDNA": {
+    "coreFantasy": "A forest that became a stagfolk civilization through sacred groves, antlered halls, temple processions, public works, guild craft, hanging gardens, and woodland estates.",
+    "primaryEmotion": "rooted serenity",
+    "secondaryEmotion": "territorial stewardship",
+    "readerTakeaway": "Elarion Thicket is not a city built in a forest; it is civic life grown carefully inside a living ecosystem.",
+    "civilizationThesis": "Elarion Thicket turns groves, roots, antlers, temple rites, public surveys, guild craft, manor gardens, and sacred woodland memory into an ancient stewardship civilization.",
+    "visualIdentity": "Living wood, carved timber, mossed stone, root-wrapped masonry, antler arches, lantern paths, canopy halls, hanging gardens, blue civic lamps, woven banners, temple platforms, manor courts, and white-stag symbolism.",
+    "culturalIdentity": "A stagfolk woodland civilization that values calm ownership, communal obligation, ecological memory, craft legitimacy, public stewardship, and territorial responsibility.",
+    "symbolicIdentity": "Antlers, white stags, roots, sacred groves, hanging gardens, lanterns, banners, canopy halls, mossed stone, and blue lamps symbolize place kept alive through care."
   },
-  "narrativeTranslation": {
-    "streets": {
-      "description": "Elarion Thicket streets should feel like woodland paths that have become civic over centuries: root-edged stone, timber porches, lanterns under branches, mossed steps, garden walls, and markets tucked into clearings rather than straight urban corridors.",
-      "writingGuidance": [
-        "Do not describe the forest as scenery around the city; make the forest the organizing condition of movement.",
-        "Let streets bend around ancient trunks, roots, shrines, gardens, and guild fronts.",
-        "Use canopy, root, lantern, and antler landmarks for navigation instead of grid streets.",
-        "Public spaces should feel open enough for civic life but never fully separated from woodland presence."
-      ]
-    },
-    "people": {
-      "description": "Citizens should feel serene, territorial, and communally rooted. Stagfolk move through the city with calm ownership, not aggression. They appear peaceful by default, but the city should imply they would defend their ground fiercely if threatened.",
-      "behavioralNotes": [
-        "public behavior is quiet, observant, and socially aware",
-        "people recognize paths, trees, and groves as civic memory",
-        "guilds and public works appear valued, but not divorced from ecological responsibility",
-        "antler and stag imagery is prideful and everywhere without becoming militaristic"
-      ]
-    },
-    "shops": {
-      "examples": [
-        "woodcarvers",
-        "banner weavers",
-        "herbalists",
-        "lantern makers",
-        "gardeners",
-        "rootwrights",
-        "ceremonial antler artisans",
-        "forest food stalls",
-        "permit counters",
-        "guild workshops",
-        "cloak and leather makers",
-        "tea houses or grove pavilions"
-      ],
-      "writingGuidance": "Shops should emerge from the forest edge and guild courts rather than forming hard commercial rows. Craft should look handmade, local, and tied to stewardship."
-    },
-    "homes": {
-      "description": "Homes should be timber-and-stone woodland dwellings with carved lintels, mossed walls, garden terraces, branch-shadowed balconies, root foundations, and lanterned porches. Higher-status homes can appear as manor courts without severing themselves from the forest.",
-      "writingGuidance": [
-        "Use domestic gardens, shared courtyards, and old trees as part of household identity.",
-        "Avoid making homes primitive huts; this is a sophisticated ancient woodland civilization."
-      ]
-    },
-    "publicLife": {
-      "dailyRhythms": [
-        "morning mist in sacred groves",
-        "gardeners and public works crews maintaining paths and root-stone boundaries",
-        "artisans opening guild stalls under timber arcades",
-        "temple processions along lanterned stairs",
-        "quiet civic business at registry and permit courts",
-        "evening lanterns glowing under canopy",
-        "night sounds of forest insects, distant bells, and soft market closure"
-      ],
-      "commonActivities": [
-        "grove tending",
-        "wood carving",
-        "banner weaving",
-        "public works surveys",
-        "permit disputes",
-        "temple procession",
-        "guild demonstrations",
-        "garden maintenance",
-        "quiet court gatherings",
-        "seasonal forest rites"
-      ]
-    },
-    "sounds": [
-      "wind through leaves",
-      "soft hoof or foot traffic on root-stone paths",
-      "wooden shop shutters",
-      "distant bells",
-      "lantern chains",
-      "artisan tools on wood",
-      "low market voices",
-      "birds and insects",
-      "water in garden channels",
-      "woven banners moving in breeze"
-    ],
-    "smells": [
-      "damp moss",
-      "fresh leaves",
-      "carved wood",
-      "lantern oil",
-      "forest herbs",
-      "wet stone",
-      "flowering gardens",
-      "woodsmoke",
-      "earth after rain",
-      "tea or warm food from guild stalls"
-    ],
-    "lighting": {
-      "day": "Daylight should be filtered through canopy and mist, broken into patches across mossed stone, carved timber, and garden courts.",
-      "night": "Warm lanterns and blue civic lamps should glow beneath branches, making the city feel inhabited and protected rather than dark or wild.",
-      "weather": "Rain and fog should deepen the city’s rooted feeling: wet bark, dark stone, dripping roofs, glowing lanterns, and muffled forest sound."
-    },
-    "transportation": {
-      "description": "Movement is path, stair, bridge, grove, and terrace based. Routes follow forest logic and civic memory rather than straight-line efficiency.",
-      "writingGuidance": [
-        "Use clearings and named trees/groves as route markers.",
-        "Characters should navigate by canopy halls, antler arches, garden courts, guild banners, and beacon glow.",
-        "The city should reward local knowledge of hidden paths and seasonal routes."
-      ]
-    },
-    "children": {
-      "description": "Children should be seen in gardens, grove edges, guild courts, and safe woodland paths. They learn stewardship early: which roots not to cut, which paths to keep clear, which groves require silence."
-    },
-    "craftsmen": {
-      "description": "Craftsmen are visible and respected: woodcarvers, weavers, lantern makers, gardeners, public works surveyors, rootwrights, and guild masters who understand both material and living forest."
-    },
-    "markets": {
-      "description": "Markets should feel like guild clearings and forest arcades: woven banners, carved stalls, herbal goods, woodcraft, lanterns, food, tools, and quiet bargaining under branches."
-    },
-    "food": {
-      "examples": [
-        "forest mushrooms",
-        "herb bread",
-        "root vegetable stew",
-        "berry cakes",
-        "acorn or nut flour pastries",
-        "smoked woodland game if culturally appropriate",
-        "garden tea",
-        "honeyed fruit",
-        "leaf-wrapped market food"
-      ]
-    },
-    "companionObservations": {
-      "addie": [
-        "notices repeated grove names, registry phrases, path markers, and oral references to trees as civic memory",
-        "stores routes by living landmarks: beacon grove, antler arch, temple stair, guild banner, manor court",
-        "recognizes that the city’s history is preserved in living places as much as inscriptions"
-      ],
-      "gregory": [
-        "reads stag, antler, white-stag, grove, hearth, and root symbolism as a civic theology of stewardship and territory",
-        "notices that ritual and government overlap through registry, grove, and sacred architecture"
-      ],
-      "brickett": [
-        "spots animal trails, root gaps, service paths, loose planks, drainage channels, and informal routes children or workers actually use",
-        "understands quickly where the forest has been allowed to keep its own shortcuts"
-      ],
-      "talandra": [
-        "reads the city as difficult to secure because trees, balconies, paths, and canopy lines create many concealed approaches",
-        "respects the territorial defensibility while distrusting the lack of clean sightlines"
-      ],
-      "mae": [
-        "notices guild leverage, permit courts, manor influence, artisan networks, and how control of path access or grove rights translates into power",
-        "would distinguish public serenity from private territorial negotiation"
-      ],
-      "genericCompanionNotes": [
-        "Outsiders should feel watched but not threatened.",
-        "The city should make characters slow down and notice living landmarks instead of stone-only grandeur."
-      ]
-    }
-  },
-  "arrivalExperience": {
-    "firstImpression": "A visitor should first experience Elarion Thicket as forest becoming city by degrees: lanterns under boughs, carved antlers above paths, civic halls appearing in clearings, blue lamps near roots, and the sense that every building asked permission from the trees before being built.",
-    "firstHourSequence": [
-      "mist, leaves, birds, and damp earth before full urban arrival",
-      "first signs of civic order through lantern paths, carved markers, and maintained root-stone streets",
-      "sight of the Sacred Grove Beacon nested into living canopy",
-      "movement through guild stalls or temple paths that still feel woodland",
-      "glimpse of the Antler Arches Sovereign Registry Court as authority grown into forest form",
-      "recognition that the city is sophisticated without severing itself from the ecosystem"
-    ],
-    "readerEffect": "The reader should feel that civilization here is not an interruption of nature. It is another layer of the forest."
-  },
-  "departureMemory": {
-    "readerShouldRemember": [
-      "antler arches and white-stag symbolism",
-      "lanterns under ancient trees",
-      "forest paths becoming civic streets",
-      "guilds and temples rooted into woodland clearings",
-      "sacred groves as public infrastructure",
-      "calm territorial pride rather than militarism",
-      "a civilization that grew only as the forest could sustain it"
-    ]
-  },
-  "landmarkAnalysis": {
-    "wonder": {
-      "name": "Antlered Root-Hearth of the White Stag",
-      "purpose": "The Wonder expresses the city’s deepest union of ancestry, territory, sacred grove, and living woodland civilization.",
-      "visualDescription": "A monumental root-and-antler civic/sacred structure integrated into canopy and earth, marked by white-stag symbolism, hearth warmth, and ancient woodland presence.",
-      "narrativeUse": "Use the Wonder when the story needs to show Elarion Thicket’s ideal self: peaceful, rooted, ancient, territorial, and spiritually alive without needing a militarized posture.",
-      "howCharactersNoticeIt": {
-        "addie": "notices repeated white-stag language and old oral fragments attached to the Wonder’s names and paths",
-        "gregory": "reads it as the fusion of hearth, ancestor, grove, and sovereignty symbolism",
-        "brickett": "spots root hollows, maintenance paths, hidden access, and places where animals or children move unseen",
-        "talandra": "sees both sanctuary and tactical nightmare: too many trees, approaches, and concealed lines"
-      },
-      "commonActivities": [
-        "seasonal grove rites",
-        "public gatherings",
-        "hearth ceremonies",
-        "territorial oaths",
-        "coming-of-age observances",
-        "memorial rituals"
-      ],
-      "visibilityFromCity": "Visible through canopy breaks and hero views more as a sacred natural-civic anchor than a hard skyline object."
-    },
-    "beacon": {
-      "name": "Sacred Grove Beacon",
-      "purpose": "The Beacon anchors public signal identity inside the sacred grove system, joining warning, guidance, and stewardship.",
-      "visualDescription": "A vertical beacon nested among ancient trees, roots, lanterns, and blue-green woodland light rather than isolated on an empty civic plinth.",
-      "narrativeUse": "Use the Beacon as an emotional and navigational grove marker. When its state changes, the forest city seems to notice before anyone speaks.",
-      "howCharactersNoticeIt": {
-        "addie": "notices how people glance toward the grove paths and how silence changes around the Beacon",
-        "gregory": "reads beacon light as sacred warning, not merely public technology",
-        "brickett": "spots informal approaches through roots, side paths, and canopy maintenance routes",
-        "talandra": "worries about crowd dispersal through too many wooded exits"
-      },
-      "commonActivities": [
-        "signal-watching",
-        "grove rites",
-        "public warnings",
-        "lantern tending",
-        "children learning civic landmarks",
-        "quiet gatherings during uncertainty"
-      ],
-      "visibilityFromCity": "Visible through key grove approaches and canopy breaks; its presence is felt through path orientation as much as sightline dominance."
-    },
-    "seatOfPower": {
-      "name": "Antler Arches Sovereign Registry Court",
-      "purpose": "The seat of power records sovereignty, territory, lineage, and civic obligation through antlered registry architecture rather than palace domination.",
-      "visualDescription": "A formal woodland civic court of antler arches, carved timber, mossed stone, registry halls, and controlled public approaches beneath or among ancient trees.",
-      "narrativeUse": "Use the Court to show that authority in Elarion Thicket is record, stewardship, territory, and obligation. Power is formal, but it does not visually sever itself from the forest.",
-      "howCharactersNoticeIt": {
-        "addie": "notices registry phrasing, old names, claims, paths, and obligations preserved in civic records",
-        "gregory": "reads antler arches as sovereignty and sacred territory rather than mere decoration",
-        "brickett": "spots clerks' routes, service doors, document storage, gutter paths, and informal waiting places",
-        "talandra": "maps public approaches, court exits, tree cover, and where witnesses can gather unseen"
-      },
-      "commonActivities": [
-        "registry proceedings",
-        "territorial claims",
-        "public petitions",
-        "stewardship rulings",
-        "manor/guild disputes",
-        "ceremonial acknowledgments of grove rights"
-      ],
-      "visibilityFromCity": "Central as an institutional landmark, but visually integrated into forest/civic grammar rather than isolated above it."
-    },
-    "majorLandmarks": [
-      {
-        "name": "Temple Platform",
-        "sectionNumber": 2,
-        "narrativeUse": "Use for ritual processions, lantern ceremonies, and moments where woodland spirituality becomes public civic practice."
-      },
-      {
-        "name": "Survey Hall",
-        "sectionNumber": 3,
-        "narrativeUse": "Use to show the practical bureaucracy of stewardship: permits, land memory, path maintenance, and public works inside a living ecosystem."
-      },
-      {
-        "name": "Guildhall",
-        "sectionNumber": 4,
-        "narrativeUse": "Use for artisan identity, woven banners, craft politics, and guild-based public life."
-      },
-      {
-        "name": "Manor Court",
-        "sectionNumber": 5,
-        "narrativeUse": "Use to show status, domestic refinement, gardened power, and quieter social hierarchy without abandoning the forest identity."
-      }
-    ],
-    "monuments": [
-      {
-        "name": "Hanging Gardens Monument",
-        "narrativeUse": "Use to reinforce cultivated-but-living beauty and public memory in both sacred and residential contexts."
-      },
-      {
-        "name": "Religious Temple Quarter Lantern Monument",
-        "narrativeUse": "Use to show ritual light, procession, and spiritual continuity under the canopy."
-      },
-      {
-        "name": "Blue-Lamp Monument",
-        "narrativeUse": "Use to connect practical public works with the broader blue civic-light language of the world."
-      },
-      {
-        "name": "Woven Banners Monument",
-        "narrativeUse": "Use to show guild pride, craft memory, and textile/color identity in artisan spaces."
-      }
-    ],
-    "minorLandmarks": [
-      {
-        "name": "Living Canopy Hall Nook",
-        "narrativeUse": "Quiet grove-adjacent civic nook for intimate conversations, hidden listening, or Addie noticing living place-memory."
-      },
-      {
-        "name": "Procession Stair Nook",
-        "narrativeUse": "Small ritual pause point on temple routes; useful for processions, waiting scenes, and symbolic ascent."
-      },
-      {
-        "name": "Permit Yard Nook",
-        "narrativeUse": "Practical public works space where stewardship becomes paperwork, inspection, and dispute."
-      },
-      {
-        "name": "Masterwork Arcade Nook",
-        "narrativeUse": "Craft-focused side space for guild demonstrations, artisan politics, and sensory detail."
-      },
-      {
-        "name": "Salon Pavilion Nook",
-        "narrativeUse": "High residential social space for quiet influence, class texture, and refined woodland hospitality."
-      }
-    ]
-  },
-  "immediateNarrativeImprovements": [
-    {
-      "target": "Elarion Thicket scenes",
-      "recommendation": "Write ETT as a forest that became civilization, not a city placed inside trees."
-    },
-    {
-      "target": "Woodland/stagfolk identity",
-      "recommendation": "Use calm territorial pride: peaceful default posture, strong claim to place, and willingness to defend when threatened."
-    },
-    {
-      "target": "Street descriptions",
-      "recommendation": "Replace generic roads with root-stone paths, lanterned groves, antler arches, canopy halls, garden courts, and woodland guild stalls."
-    },
-    {
-      "target": "Governance/civic scenes",
-      "recommendation": "Use registry, permit, survey, grove rights, public works, and stewardship bureaucracy as practical civic texture."
-    },
-    {
-      "target": "Contrast with Luminthalas",
-      "recommendation": "Keep ETT nature-integrated and ecosystem-led; Luminthalas should remain curated, paved, celestial, and formal."
-    },
-    {
-      "target": "Companion POVs",
-      "recommendation": "Let Addie track oral/grove memory, Gregory read white-stag symbolism, Brickett find animal/worker shortcuts, and Talandra distrust the concealed approaches."
-    }
-  ],
-  "interpretation": {
-    "civilizationThesis": "Elarion Thicket is a forest that gradually became a civilization. Its civic life, spirituality, governance, craft, and status structures grew inside the ecosystem instead of replacing it.",
-    "environmentalPhilosophy": "Coexist and emerge: civilization should grow only where the ecosystem can sustain and absorb it, becoming another layer of forest life.",
-    "adaptiveStrategy": "Integrate: distribute civic function through groves, paths, gardens, guild halls, and canopy structures rather than concentrating all power into a hard urban core.",
-    "authorityModel": "distributed-stewardship",
-    "relationshipWithNature": "deeply reciprocal; the forest is active civic infrastructure, spiritual ground, and territorial memory",
-    "relationshipWithHistory": "history is preserved through groves, old paths, registry records, white-stag symbolism, and named living places",
-    "relationshipWithKnowledge": "practical ecological memory, registry knowledge, craft knowledge, and oral place-memory appear central",
-    "relationshipWithRisk": "risk is managed through territorial knowledge, concealment, distributed paths, and deep familiarity with the forest",
-    "relationshipWithBeauty": "beauty emerges from equilibrium: carved craft, lantern light, living branches, mossed stone, gardens, and antler symbolism",
-    "relationshipWithCommunity": "community appears locally distributed through groves, guilds, manor courts, public works, and shared stewardship obligations",
-    "civilizationalTension": {
-      "tension": "settlement vs ecosystem balance",
-      "resolution": "Elarion Thicket resolves the tension by allowing civic growth only as another expression of the forest, not as replacement of it."
-    },
-    "highestVirtue": "stewardship",
-    "religiousExpression": "nature-spiritual, grove-centered, white-stag/antler symbolic, and integrated with civic territory rather than separated into purely temple-based worship",
-    "economicIdentity": "artisan guilds, forest stewardship, woodcraft, garden cultivation, herbal goods, permits, textiles, and local craft economies",
-    "socialIdentity": "serene, territorial, prideful, communally rooted, craft-aware, and wary of disruption"
-  },
-  "canonReview": {
-    "lockedCanon": [
-      {
-        "statement": "Elarion Thicket is not a city built in a forest; it is a forest that gradually became a civilization.",
-        "reason": "All hero and street views show civic architecture, paths, markets, temples, guilds, and residence integrated through living forest structure rather than replacing it.",
-        "supportingEvidence": [
-          "Sacred Grove Beacon",
-          "Antlered Root-Hearth of the White Stag",
-          "Living Canopy Hall Nook",
-          "root and canopy street language",
-          "woodland-integrated civic districts"
-        ],
-        "confidence": "high"
-      },
-      {
-        "statement": "Antler, white-stag, root, grove, canopy, lantern, and garden motifs are core to Elarion Thicket's visual identity.",
-        "reason": "These motifs recur across sidecars and generated views, including Wonder, Beacon, seat of power, monuments, and district scenes.",
-        "supportingEvidence": [
-          "Antler Arches Sovereign Registry Court",
-          "Antlered Root-Hearth of the White Stag",
-          "Hanging Gardens Monument",
-          "Temple Platform",
-          "Woven Banners Monument"
-        ],
-        "confidence": "high"
-      },
-      {
-        "statement": "Elarion Thicket is peaceful by default but territorial rather than passive.",
-        "reason": "The visual language is serene and communal, but antler/registry/grove sovereignty imagery strongly communicates claimed place and defensive rootedness.",
-        "supportingEvidence": [
-          "Sovereign Registry Court",
-          "territorial antler symbolism",
-          "stable grove-centered civic life",
-          "lack of conquest spectacle"
-        ],
-        "confidence": "high"
-      }
+  "canon": {
+    "canonLocks": [
+      "Elarion Thicket is a forest that gradually became a civilization, not a city imposed on woodland scenery.",
+      "The Wonder is the Antlered Root-Hearth of the White Stag.",
+      "The Beacon is the Sacred Grove Beacon.",
+      "The Seat of Power is the Antler Arches Sovereign Registry Court.",
+      "The five primary districts are Nature Preserve / Sacred Grove, Religious / Temple Quarter, Public Works Authority, Artisan Guilds, and High Residential.",
+      "The uploaded district anchors include Nature Preserve / Sacred Grove Civic Hall, Hanging Gardens Monument, Living Canopy Hall Nook, Religious / Temple Quarter Civic Hall, Temple Platform, Religious Temple Quarter Lantern Monument, Procession Stair Nook, Public Works Authority Hall, Survey Hall, Blue-Lamp Monument, Permit Yard Nook, Artisan Guilds Civic Hall, Guildhall, Woven Banners Monument, Masterwork Arcade Nook, High Residential Civic Hall, Manor Court, and Salon Pavilion Nook."
     ],
     "provisionalCanon": [
-      {
-        "statement": "Elarion Thicket's highest civic virtue is stewardship.",
-        "reason": "The city consistently expresses maintenance of forest, grove, craft, public works, and civic balance, but virtue terminology should be compared across more beastfolk/woodland cities.",
-        "supportingEvidence": [
-          "Sacred Grove",
-          "Public Works Authority Hall",
-          "Survey Hall",
-          "permit yard",
-          "hanging gardens"
-        ],
-        "confidence": "medium-high"
-      },
-      {
-        "statement": "Authority in Elarion Thicket is distributed through stewardship, registry, guild, grove, and manor relationships rather than a single hard centralized palace posture.",
-        "reason": "Major civic functions are visually spread across ecological, craft, ritual, administrative, and residential districts.",
-        "supportingEvidence": [
-          "Sovereign Registry Court",
-          "Sacred Grove Beacon",
-          "Survey Hall",
-          "Guildhall",
-          "Manor Court"
-        ],
-        "confidence": "medium-high"
-      }
+      "Elarion Thicket's highest civic virtue is stewardship.",
+      "The central tension is settlement versus ecosystem balance.",
+      "Hanging Gardens Monument appearing in both sacred grove and high residential contexts suggests cultivated beauty is also a territorial claim."
     ],
-    "workingHypotheses": [
-      {
-        "statement": "Beastfolk cities with room to expand may naturally limit over-concentration and grow according to ecological carrying capacity.",
-        "reason": "Elarion Thicket strongly supports this read alongside Pollyr Fen, but additional beastfolk cities are needed before promoting it.",
-        "supportingEvidence": [
-          "ETT distributed forest civic growth",
-          "PFN distributed wetland basin civic growth",
-          "contrast with SPK, where geography forces vertical concentration"
-        ],
-        "confidence": "medium"
-      }
-    ],
-    "rejectedHypotheses": [
-      {
-        "statement": "Elarion Thicket is a militaristic stagfolk fortress city.",
-        "reason": "The concept set communicates territorial pride and readiness to defend, but not aggressive militarism or conquest identity.",
-        "supportingEvidence": [
-          "serene public spaces",
-          "guild and grove civic functions",
-          "absence of weapon-dominant skyline",
-          "territorial rather than martial symbolism"
-        ],
-        "confidence": "high"
-      },
-      {
-        "statement": "Elarion Thicket is merely a rustic woodland village.",
-        "reason": "The images show a sophisticated, ancient, multi-district civic system with court, guilds, public works, temple, manor, Beacon, and Wonder.",
-        "supportingEvidence": [
-          "Sovereign Registry Court",
-          "Guildhall",
-          "Survey Hall",
-          "Temple Platform",
-          "Manor Court"
-        ],
-        "confidence": "high"
-      }
+    "rejectedReads": ["Elarion Thicket is a primitive woodland village.", "Elarion Thicket is wilderness with decorations instead of a mature city.", "The stagfolk are passive nature spirits rather than territorial civic people.", "Guilds and public works can be treated as generic urban features."],
+    "cautionFlags": ["Do not separate the city from the forest; the forest is civic infrastructure.", "Keep sophistication visible through registry courts, guilds, public works, temples, and manor districts.", "Use peaceful default behavior with territorial pride, not generic gentleness.", "Preserve exact sidecar anchor names, especially Living Canopy Hall Nook, Religious Temple Quarter Lantern Monument, Masterwork Arcade Nook, and Salon Pavilion Nook."]
+  },
+  "environment": {
+    "terrain": ["ancient forest city", "sacred groves", "root-stone paths", "canopy terraces", "woodland clearings", "manor gardens", "public works yards"],
+    "water": ["garden channels", "rain-darkened paths", "grove springs", "woodland drainage", "mist on mossed stone"],
+    "vegetation": ["ancient canopy trees", "moss", "sacred groves", "hanging gardens", "forest herbs", "flowering gardens", "root systems"],
+    "climateLighting": ["mist-filtered forest daylight", "warm lantern light", "blue civic lamps", "sacred grove glow", "canopy shadow", "evening amber"],
+    "environmentalLogic": "The forest is the city's road system, memory system, defensive cover, spiritual ground, and civic limit. Built forms grow only where the ecosystem can absorb them."
+  },
+  "architecture": {
+    "materials": ["living wood", "carved timber", "mossed stone", "root-wrapped masonry", "bronze fittings", "warm lantern glass", "blue civic lamps", "woven banners", "bark shingles", "garden terraces"],
+    "forms": ["Nature Preserve / Sacred Grove Civic Hall", "Sacred Grove Beacon", "Living Canopy Hall Nook", "Temple Platform", "Procession Stair Nook", "Survey Hall", "Permit Yard Nook", "Guildhall", "Masterwork Arcade Nook", "Manor Court", "Salon Pavilion Nook", "antlered arches", "root-hearth structures", "forest bridges"],
+    "skyline": ["Antlered Root-Hearth of the White Stag as natural-civic wonder anchor", "Antler Arches Sovereign Registry Court as central authority nested in forest form", "Sacred Grove Beacon visible through trees, mist, and ridge gaps", "guild halls, temple platforms, public works halls, and manor courts rising through canopy rather than dominating it"],
+    "lighting": ["mist-filtered daylight", "warm lanterns under branches", "blue civic lamps", "sacred grove glow", "amber guild windows", "rain-bright moss light"],
+    "infrastructure": ["woodland paths", "root-stabilized streets", "stone and timber bridges", "canopy walkways", "garden terraces", "public work yards", "permit courts", "artisan arcades", "procession stairs", "woodland drainage"],
+    "motifs": ["antlers", "white stags", "roots", "sacred groves", "hanging gardens", "lanterns", "woven banners", "canopy halls", "forest bridges", "mossed stone", "blue lamps"],
+    "colorLanguage": ["forest green", "moss green", "warm timber brown", "lantern amber", "blue civic light", "weathered stone gray", "woven banner color"],
+    "textureLanguage": ["mossed stone", "living bark", "carved timber", "root-wrapped masonry", "woven cloth", "wet leaves", "garden soil", "lantern glass"]
+  },
+  "civilization": {
+    "people": "Citizens are stagfolk: serene, observant, communally rooted, territorial, craft-aware, and peaceful by default without being passive.",
+    "occupations": ["grove tenders", "woodcarvers", "banner weavers", "lantern makers", "gardeners", "rootwrights", "public works surveyors", "permit clerks", "temple attendants", "guild artisans", "manor stewards"],
+    "socialClasses": ["registry stewards", "grove elders", "temple officials", "guild masters", "public works officials", "woodland manor families", "artisan households", "path workers", "garden laborers"],
+    "governance": "Authority is distributed stewardship: registry law, grove rights, survey permits, guild obligations, public works, and manor influence govern how the forest-city grows.",
+    "religion": "Religious life is grove-centered, white-stag symbolic, antler-marked, and inseparable from civic territory and seasonal stewardship rites.",
+    "customs": ["quiet grove passage", "seasonal forest rites", "public stewardship surveys", "permit disputes over path and grove rights", "guild demonstrations", "lantern tending", "territorial oath ceremonies"],
+    "bodyLanguage": ["calm watchfulness", "slow territorial confidence", "careful movement around roots", "respectful silence near groves", "antler-aware spacing", "measured guild gestures"],
+    "speechPatterns": ["place-name references", "grove-right language", "stewardship terms", "quiet formal petitions", "craft terminology", "oral memory phrases"]
+  },
+  "urbanLife": {
+    "streets": {"appearance": "Woodland paths made civic over centuries: root-edged stone, timber porches, lanterns under branches, mossed steps, garden walls, guild fronts, clearings, antler arches, and canopy halls.", "movement": "Movement follows paths, stairs, forest bridges, canopy walks, garden terraces, grove clearings, processional stairs, public works yards, and local shortcuts rather than straight urban grids.", "sounds": ["wind through leaves", "soft hoof traffic on root-stone paths", "wooden shutters", "distant bells", "lantern chains", "artisan tools", "low market voices", "birds and insects", "garden water"], "smells": ["damp moss", "fresh leaves", "carved wood", "lantern oil", "forest herbs", "wet stone", "flowering gardens", "woodsmoke", "earth after rain"], "lighting": "Daylight breaks through canopy and mist in patches; night is warm lanterns and blue civic lamps glowing beneath branches.", "weatherEffects": "Rain darkens bark and stone, brightens moss, muffles the city, and makes lantern paths feel protected rather than wild.", "dayCycle": "Mornings begin with mist, grove tending, path maintenance, public works surveys, guild stalls, and quiet registry business.", "nightCycle": "Night is lanterned groves, muffled forest sound, closing guild stalls, blue civic lamps, temple processions, and protected paths."},
+    "shops": {"common": ["woodcarvers", "banner weavers", "herbalists", "lantern makers", "gardeners' stalls", "forest food carts", "cloak and leather makers"], "uncommon": ["rootwright shops", "ceremonial antler artisans", "permit counters", "grove-right copyists", "living-wood joiners"], "prestigious": ["guild master halls", "sovereign registry counters", "temple craft houses", "manor garden suppliers", "white-stag ceremonial workshops"], "exports": ["woodcraft", "woven banners", "lanterns", "herbal goods", "garden craft", "ceremonial antler work", "forest stewardship expertise"], "imports": ["metal fittings", "fine cloth", "salt", "paper", "ink", "stone tools", "rare dyes"], "streetFood": ["forest mushrooms", "herb bread", "root vegetable stew", "berry cakes", "nut-flour pastries", "garden tea", "honeyed fruit", "leaf-wrapped snacks"], "services": ["grove tending", "path surveys", "permit filing", "wood repair", "guild certification", "garden maintenance", "lantern tending", "territorial registry"]},
+    "housing": {"wealthy": "Woodland manor courts with garden terraces, salon pavilions, carved antler lintels, private groves, hanging garden views, and lanterned approaches that remain integrated with the forest.", "middle": "Guild homes, timber-and-stone houses, garden courtyards, branch-shadowed balconies, root foundations, and workshops beside civic paths.", "poor": "Small root-edge dwellings, shared garden courts, mossed stone rooms, simple lantern porches, and compact homes near public works yards or path margins."}
+  },
+  "districts": [
+    {"sectionNumber": 1, "name": "Nature Preserve / Sacred Grove", "civicPurpose": "Spiritual-ecological core, public signal identity, grove memory, and shared stewardship focus.", "visualIdentity": "Nature Preserve / Sacred Grove Civic Hall, Sacred Grove Beacon, Hanging Gardens Monument, Living Canopy Hall Nook, ancient trees, blue-green light, roots, lanterns, and quiet paths.", "emotionalIdentity": "Reverent, alive, watchful, and protective.", "gameplayAssetNeeds": ["Nature Preserve / Sacred Grove Civic Hall", "Sacred Grove Beacon", "Hanging Gardens Monument", "Living Canopy Hall Nook", "ancient trees", "grove tenders", "lantern paths"], "narrativeUse": ["Beacon warning", "grove rite", "public silence", "path orientation", "stewardship test"], "landmark": "Sacred Grove Beacon", "minorLandmarks": ["Hanging Gardens Monument", "Living Canopy Hall Nook"]},
+    {"sectionNumber": 2, "name": "Religious / Temple Quarter", "civicPurpose": "Ritual processions, seasonal rites, sacred teaching, and public ceremonial continuity.", "visualIdentity": "Religious / Temple Quarter Civic Hall, Temple Platform, Religious Temple Quarter Lantern Monument, Procession Stair Nook, carved timber, antler details, mossed stone, and warm ritual light.", "emotionalIdentity": "Ceremonial, quiet, and old.", "gameplayAssetNeeds": ["Religious / Temple Quarter Civic Hall", "Temple Platform", "Religious Temple Quarter Lantern Monument", "Procession Stair Nook", "temple attendants", "ritual banners"], "narrativeUse": ["processions", "seasonal rites", "sacred counsel", "public ceremony"], "landmark": "Temple Platform", "minorLandmarks": ["Religious Temple Quarter Lantern Monument", "Procession Stair Nook"]},
+    {"sectionNumber": 3, "name": "Public Works Authority", "civicPurpose": "Stewardship bureaucracy, path maintenance, surveys, permits, drainage, and civic growth control.", "visualIdentity": "Public Works Authority Hall, Survey Hall, Blue-Lamp Monument, Permit Yard Nook, maps, tools, root-stone boundaries, and practical civic yards.", "emotionalIdentity": "Practical, measured, and quietly authoritative.", "gameplayAssetNeeds": ["Public Works Authority Hall", "Survey Hall", "Blue-Lamp Monument", "Permit Yard Nook", "survey tools", "permit clerks", "path workers"], "narrativeUse": ["permit dispute", "public works clue", "stewardship ruling", "route control"], "landmark": "Survey Hall", "minorLandmarks": ["Blue-Lamp Monument", "Permit Yard Nook"]},
+    {"sectionNumber": 4, "name": "Artisan Guilds", "civicPurpose": "Craft production, guild legitimacy, public making, and woodland trade.", "visualIdentity": "Artisan Guilds Civic Hall, Guildhall, Woven Banners Monument, Masterwork Arcade Nook, carved stalls, woodcraft, lanterns, and market clearings.", "emotionalIdentity": "Skilled, warm, communal, and prideful.", "gameplayAssetNeeds": ["Artisan Guilds Civic Hall", "Guildhall", "Woven Banners Monument", "Masterwork Arcade Nook", "woodcarvers", "weavers", "guild stalls"], "narrativeUse": ["craft proof", "guild politics", "market scene", "artisan clue"], "landmark": "Guildhall", "minorLandmarks": ["Woven Banners Monument", "Masterwork Arcade Nook"]},
+    {"sectionNumber": 5, "name": "High Residential", "civicPurpose": "Status, manor influence, domestic refinement, gardened hospitality, and quiet social hierarchy.", "visualIdentity": "High Residential Civic Hall, Manor Court, Hanging Gardens Monument, Salon Pavilion Nook, garden terraces, lanterned porches, carved antler lintels, and private grove edges.", "emotionalIdentity": "Refined, quiet, watchful, and socially territorial.", "gameplayAssetNeeds": ["High Residential Civic Hall", "Manor Court", "Hanging Gardens Monument", "Salon Pavilion Nook", "garden terraces", "wealthy stagfolk", "private grove paths"], "narrativeUse": ["class pressure", "quiet influence", "domestic stakes", "manor negotiation"], "landmark": "Manor Court", "minorLandmarks": ["Hanging Gardens Monument", "Salon Pavilion Nook"]}
+  ],
+  "landmarks": {
+    "wonder": {"name": "Antlered Root-Hearth of the White Stag", "symbolicRole": "Ancestry, territory, sacred grove, hearth, and woodland civilization made one living monument.", "visualRole": "Monumental root-and-antler structure integrated into canopy and earth, warmed by hearth light and marked by white-stag symbolism.", "civicRole": "Wonder-scale focus for seasonal rites, public gatherings, territorial oaths, coming-of-age observances, and memorial rituals.", "narrativeUse": ["sacred gathering", "territorial oath", "ancestral memory", "citywide ceremony"], "assetUse": ["map wonder", "sacred grove skyline anchor"], "sensoryIdentity": ["leaf wind", "hearth warmth", "damp roots", "lantern glow", "quiet bells"], "storyHooks": ["A white-stag rite forces the city to choose between growth and stewardship."]},
+    "beacon": {"name": "Sacred Grove Beacon", "symbolicRole": "Warning, guidance, and stewardship rooted in living public space.", "visualRole": "Blue-green beacon nested among ancient trees, roots, lanterns, hanging gardens, and canopy platforms.", "civicRole": "Signal heart for grove response, public warnings, path orientation, lantern tending, and Conjunction readiness.", "narrativeUse": ["Beacon state change", "grove crowd", "public warning", "sacred navigation"], "assetUse": ["S1 centerpiece", "signal marker"], "sensoryIdentity": ["blue-green light", "leaf hush", "lantern oil", "root damp"], "storyHooks": ["When the Beacon changes, the forest seems to notice before the people speak."]},
+    "seatOfPower": {"name": "Antler Arches Sovereign Registry Court", "symbolicRole": "Sovereignty, territory, lineage, and civic obligation recorded through antlered woodland law.", "visualRole": "Formal civic court of antler arches, carved timber, mossed stone, registry halls, and controlled public approaches beneath ancient trees.", "civicRole": "Government center for territorial claims, grove rights, public petitions, stewardship rulings, manor disputes, and registry proceedings.", "narrativeUse": ["registry law", "territorial dispute", "public petition", "stewardship judgment"], "assetUse": ["seat-of-power marker", "central court diorama"], "sensoryIdentity": ["ink", "carved wood", "mossed stone", "quiet voices", "blue lamps"], "storyHooks": ["A registry phrase changes who has the right to cut, cross, or defend a grove."]},
+    "majorLandmarks": [
+      {"name": "Temple Platform", "symbolicRole": "Ritual continuity under living canopy.", "visualRole": "Raised timber-and-stone platform, lanterns, procession stairs, antler carvings, and mossed steps.", "civicRole": "Public rites, seasonal ceremonies, sacred teaching, and communal observance.", "narrativeUse": ["temple procession", "ritual counsel", "public ceremony"], "assetUse": ["S2 diorama"], "sensoryIdentity": ["lantern oil", "woodsmoke", "moss", "soft bells"], "storyHooks": ["A procession stops at the wrong stair and reveals hidden civic dissent."]},
+      {"name": "Survey Hall", "symbolicRole": "Stewardship made practical and measurable.", "visualRole": "Timber civic hall with maps, blue lamps, survey tools, permit yards, and root-stone boundary markers.", "civicRole": "Public works authority for paths, drainage, grove rights, building permissions, and ecological limits.", "narrativeUse": ["permit dispute", "route control", "public works evidence"], "assetUse": ["S3 diorama"], "sensoryIdentity": ["ink", "wet maps", "tools", "earth", "lamp glass"], "storyHooks": ["A survey map proves the forest has been protecting an illegal route."]},
+      {"name": "Guildhall", "symbolicRole": "Craft as public legitimacy.", "visualRole": "Woodland guildhall with woven banners, carved timber, masterwork arcades, lanterns, and craft displays.", "civicRole": "Guild certification, artisan trade, public making, and craft politics.", "narrativeUse": ["craft proof", "guild negotiation", "artisan clue"], "assetUse": ["S4 diorama"], "sensoryIdentity": ["carved wood", "cloth dye", "tool taps", "tea"], "storyHooks": ["A masterwork banner encodes an old grove claim."]},
+      {"name": "Manor Court", "symbolicRole": "Status expressed as cultivated stewardship.", "visualRole": "Gardened manor court with pavilions, carved antler lintels, private grove edges, lantern porches, and refined paths.", "civicRole": "High residential influence, domestic hospitality, class negotiation, and quiet patronage.", "narrativeUse": ["social pressure", "manor intrigue", "class texture"], "assetUse": ["S5 diorama"], "sensoryIdentity": ["flowers", "polished wood", "quiet water", "soft fabric"], "storyHooks": ["A manor garden hides the political cost of keeping the forest beautiful."]}
     ]
   },
-  "futureQuestions": [
-    "How formal is Elarion Thicket's government: republic-like, stewardship council, registry court, manor/guild balance, or something else?",
-    "How does high residential Manor Court interact with distributed authority and social equality hypotheses?",
-    "How strong is white-stag religion versus civic symbolism?",
-    "How does Elarion Thicket compare to other forest/woodland cities in the next batches?",
-    "What conflicts arise when stewardship bureaucracy meets urgent Conjunction demands?",
-    "How do non-stagfolk visitors interpret the feeling of being quietly watched by a living city?"
-  ],
-  "comparativeNotes": {
-    "distinctFrom": [
-      {
-        "cityCode": "LUM",
-        "difference": "Luminthalas curates nature into formal celestial beauty; Elarion Thicket lets civilization emerge as a living layer of the forest."
-      },
-      {
-        "cityCode": "KVM",
-        "difference": "Khaz Vorem reshapes stone through craft; Elarion Thicket adapts civic growth to ecosystem balance."
-      },
-      {
-        "cityCode": "PFN",
-        "difference": "Both are ecological civilizations, but PFN reveals hidden water architecture while ETT grows through woodland continuity and territorial stewardship."
-      },
-      {
-        "cityCode": "SPK",
-        "difference": "Skyrend Peak concentrates power because height restricts growth; ETT distributes civic life through forest paths and groves."
-      }
-    ],
-    "similarTo": [
-      {
-        "cityCode": "PFN",
-        "similarity": "Both express civilization through ecological integration rather than replacement of nature."
-      },
-      {
-        "cityCode": "NVR",
-        "similarity": "Both build within forest environments, but ETT appears harmonious and stewardship-based while NVR appears more transformative, aristocratic, and conflicted."
-      }
-    ],
-    "uniqueContributions": [
-      "clearest current example of forest-as-civilization",
-      "best contrast against Luminthalas for High Elf vs woodland/stagfolk identity",
-      "strong evidence for peaceful-but-territorial civic identity",
-      "important test case for beastfolk distributed authority and ecological carrying-capacity hypotheses"
-    ],
-    "potentialInfluences": [
-      "woodland city prose standards",
-      "beastfolk governance hypothesis tracking",
-      "future synthesis on environmental philosophy",
-      "narrative scenes involving stewardship, public works, and living civic memory",
-      "contrast writing between ETT, LUM, PFN, and NVR"
-    ]
-  },
-  "crossCityTags": [
-    "stagfolk",
-    "forest-city",
-    "forest-as-civilization",
-    "sacred-grove",
-    "white-stag",
-    "antler-symbolism",
-    "stewardship",
-    "distributed-authority",
-    "artisan-guilds",
-    "living-canopy",
-    "territorial-peace",
-    "established-civilization"
-  ],
-  "evolution": {
-    "previousAssumptions": [
-      "Elarion Thicket was expected to be forested and stag/deer aligned.",
-      "There was an initial possibility that antler/stag imagery might imply more militaristic or hierarchical identity."
-    ],
-    "discoveries": [
-      "The city feels serene, established, territorial, and deeply integrated with the forest rather than militaristic.",
-      "Antler symbolism reads as claim, sovereignty, stewardship, and identity more than aggression.",
-      "The city has strong civic bureaucracy through registry, survey, permits, and public works, which complicates any simplistic nature-commune read.",
-      "Elarion Thicket provides a crucial contrast to Luminthalas: both respect nature, but one curates it while the other grows through it.",
-      "The city reinforces the idea that some beastfolk civilizations may distribute growth according to ecological balance rather than concentrating power by default."
-    ],
-    "confirmedAssumptions": [
-      "Elarion Thicket should be visually distinct from High Elf and Dark Elf forest-adjacent cities.",
-      "Stagfolk identity should include antlers, forest, and territorial pride.",
-      "The city should feel ancient and settled rather than rustic or temporary."
-    ],
-    "changedOurMind": [
-      "Do not lean into stagfolk militarism by default; frame them as peaceful but territorial.",
-      "Do not write ETT as simply a village among trees; write it as a sophisticated civic forest civilization.",
-      "Give stewardship bureaucracy and public works more weight than expected."
-    ],
-    "futureValidation": [
-      "Compare ETT with NVR after Nox Vaelor analysis to sharpen harmonious forest integration vs shadow transformation.",
-      "Compare ETT with additional beastfolk ecological cities in the new batch.",
-      "Review future prose for whether it captures forest-as-civilization rather than scenery plus buildings."
-    ]
+  "assetGuidance": {
+    "districtDioramaGuidance": ["S1 must show Nature Preserve / Sacred Grove Civic Hall, Sacred Grove Beacon, Hanging Gardens Monument, Living Canopy Hall Nook, ancient trees, roots, and lantern paths.", "S2 must show Religious / Temple Quarter Civic Hall, Temple Platform, Religious Temple Quarter Lantern Monument, Procession Stair Nook, ritual banners, and temple attendants.", "S3 must show Public Works Authority Hall, Survey Hall, Blue-Lamp Monument, Permit Yard Nook, survey tools, maps, and path workers.", "S4 must show Artisan Guilds Civic Hall, Guildhall, Woven Banners Monument, Masterwork Arcade Nook, woodcarvers, weavers, and craft displays.", "S5 must show High Residential Civic Hall, Manor Court, Hanging Gardens Monument, Salon Pavilion Nook, garden terraces, manor paths, and quiet social hierarchy."],
+    "mapBackgroundGuidance": ["Use root-stone paths, living canopy, antler arches, mossed stone, lanterns, woven banners, blue civic lamps, hanging gardens, temple platforms, guild halls, and forest-integrated public buildings.", "The Antlered Root-Hearth of the White Stag must read as wonder; the Antler Arches Sovereign Registry Court must read as authority; the Sacred Grove Beacon must be visually embedded in living forest.", "Show civic sophistication without separating city from ecosystem."],
+    "requiredVisualElements": ["stagfolk citizens", "Antlered Root-Hearth of the White Stag", "Sacred Grove Beacon", "Antler Arches Sovereign Registry Court", "Nature Preserve / Sacred Grove Civic Hall", "Hanging Gardens Monument", "Living Canopy Hall Nook", "Temple Platform", "Religious Temple Quarter Lantern Monument", "Procession Stair Nook", "Survey Hall", "Blue-Lamp Monument", "Permit Yard Nook", "Guildhall", "Woven Banners Monument", "Masterwork Arcade Nook", "Manor Court", "Salon Pavilion Nook", "antler arches", "root-stone paths"],
+    "elementsToAvoid": ["primitive woodland village", "generic forest elves", "wilderness with no institutions", "passive nature-spirit citizens", "forest backdrop separated from civic structure", "palace architecture that ignores root and canopy logic"]
   }
 }

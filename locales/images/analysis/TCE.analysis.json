@@ -1,736 +1,113 @@
 {
-  "schemaVersion": 1,
-  "analysisVersion": 1,
-  "cityCode": "TCE",
-  "cityName": "The Crucible",
-  "analysisConfidence": "strong-lock",
-  "analysisDate": "2026-07-01",
-  "analystVersion": "gpt-5.5-thinking",
-  "basedOnImages": [
-    "TCE-HERO-NE-v001",
-    "TCE-HERO-NW-v001",
-    "TCE-HERO-SE-v001",
-    "TCE-HERO-SW-v001",
-    "TCE-STREET-S1-v001",
-    "TCE-STREET-S2-v001",
-    "TCE-STREET-S3-v001",
-    "TCE-STREET-S4-v001",
-    "TCE-STREET-S5-v001"
-  ],
-  "sourceLimitations": [
-    "The current street-view population renders read too human and should not be treated as canonical elemental population depiction. Architecture, district identity, infrastructure, and city philosophy remain usable. Future prompts should depict unmistakable fire, water, earth, air, djinn, magma, steam, smoke, ash, crystal, and mineral-bodied civilians."
-  ],
-  "summary": {
-    "oneSentence": "The Crucible is an elemental civilization where fire, water, earth, air, industry, markets, guard order, warrens, and the Singularity Lattice are engineered into a civic system of maintained equilibrium.",
-    "identityStatement": "The Crucible should read as a mature elemental city that has institutionalized balance. It is not a chaotic elemental battleground or a human city wearing elemental decoration; it is a civilization of regulated forces, kinetic forges, sun-plaza authority, merchant exchange, vanguard discipline, under-canopy maintenance, and a city-scale lattice that makes incompatible elements coexist without collapsing."
+  "metadata": {
+    "schemaVersion": "2.0",
+    "analysisVersion": 2,
+    "cityCode": "TCE",
+    "cityName": "The Crucible",
+    "analysisDate": "2026-07-03",
+    "analystVersion": "gpt-5.5-thinking",
+    "analysisConfidence": "strong-lock",
+    "basedOnImages": ["TCE-HERO-NE-v001", "TCE-HERO-NW-v001", "TCE-HERO-SE-v001", "TCE-HERO-SW-v001", "TCE-STREET-S1-v001", "TCE-STREET-S2-v001", "TCE-STREET-S3-v001", "TCE-STREET-S4-v001", "TCE-STREET-S5-v001"],
+    "basedOnSidecars": ["TCE-HERO-NE-v001.json", "TCE-HERO-NW-v001.json", "TCE-HERO-SE-v001.json", "TCE-HERO-SW-v001.json", "TCE-STREET-S1-v001.json", "TCE-STREET-S2-v001.json", "TCE-STREET-S3-v001.json", "TCE-STREET-S4-v001.json", "TCE-STREET-S5-v001.json"]
   },
-  "evidence": {
-    "civilizationMaturity": {
-      "ageExpression": "ancient / engineered-established",
-      "evidence": [
-        "hero views show a monumental city of elemental channels, plazas, towers, forges, suspended structures, waterworks, heat systems, and civic geometry",
-        "street views show functioning districts rather than ruins: administrative plaza, hydro-kinetic forges, merchant ward, vanguard garrison, and under-canopy warrens",
-        "the city appears intentionally planned around elemental balance instead of accidental elemental spillover",
-        "the Singularity Lattice reads as mature civic infrastructure rather than a single decorative magical object"
-      ]
-    },
-    "architecturalLanguage": {
-      "materials": [
-        "basalt",
-        "obsidian",
-        "sunlit stone",
-        "crystal",
-        "bronze",
-        "copper conduits",
-        "blue glass",
-        "molten metal",
-        "water-polished masonry",
-        "black iron",
-        "plumed banners",
-        "steam-wet tile",
-        "elemental channel stone"
-      ],
-      "forms": [
-        "sun-king plazas",
-        "hydro-kinetic forges",
-        "elemental conduits",
-        "water channels",
-        "steam vents",
-        "wind bridges",
-        "crystal towers",
-        "merchant arcades",
-        "vanguard garrisons",
-        "under-canopy warrens",
-        "plumed guard posts",
-        "forge basins",
-        "kinetic wheels",
-        "lattice pylons",
-        "floating or suspended platforms"
-      ],
-      "skyline": [
-        "The Singularity Lattice as the far wonder-scale anchor and civilization regulator",
-        "Sun-King Plaza / central elemental authority as the primary civic face",
-        "Hydro-Kinetic Forges as a major industrial silhouette of water and fire held in productive tension",
-        "plumed garrison towers and merchant roofs creating civic/military/commercial balance",
-        "crystal, flame, water, and wind infrastructure visibly integrated across the skyline"
-      ],
-      "lighting": [
-        "solar glare over civic stone",
-        "forge glow",
-        "blue water-reflected light",
-        "steam-diffused industrial light",
-        "crystal refraction",
-        "orange molten channels",
-        "cool under-canopy shade",
-        "lattice glow"
-      ],
-      "infrastructure": [
-        "regulated fire channels",
-        "water lifts",
-        "kinetic forges",
-        "steam vents",
-        "wind passages",
-        "elemental gates",
-        "market arcades",
-        "guard causeways",
-        "under-canopy service routes",
-        "stabilizer pylons",
-        "cooling basins",
-        "heat-resistant plazas",
-        "civic conduits"
-      ],
-      "visualPatterns": [
-        "opposing forces are placed beside each other but regulated through civic geometry",
-        "fire and water appear as productive infrastructure rather than uncontrolled magic",
-        "the city feels engineered, symmetrical, and systems-driven",
-        "markets and military districts both depend on elemental infrastructure rather than standing apart from it",
-        "the lower or under-canopy district implies maintenance labor beneath monumental balance"
-      ],
-      "recurringMotifs": [
-        "singularity lattice geometry",
-        "four-element balance",
-        "sun disks",
-        "plumes and feathers",
-        "kinetic wheels",
-        "water channels",
-        "forge basins",
-        "steam vents",
-        "crystal pylons",
-        "molten seams",
-        "guard banners",
-        "under-canopy service paths"
-      ]
-    },
-    "environmentalRelationship": {
-      "observed": "The Crucible does not adapt to nature so much as regulate elemental nature into a livable civic system. Fire, water, air, and earth operate like municipal infrastructure: dangerous if unmanaged, productive when balanced.",
-      "evidence": [
-        "hydro-kinetic forges imply fire and water are intentionally coupled",
-        "the Singularity Lattice visually reads as a stabilizing city-scale system",
-        "districts are specialized around elemental functions rather than generic urban use",
-        "the city appears planned around force-routing, cooling, pressure, lift, and containment"
-      ]
-    },
-    "authorityExpression": {
-      "observed": "Authority derives from maintaining equilibrium. The city legitimizes rule through the ability to keep incompatible forces productive, safe, and politically balanced.",
-      "evidence": [
-        "The Sun-King Plaza suggests visible central authority and solar/fire legitimacy",
-        "Hydro-Kinetic Forges show industry depends on managed opposition",
-        "Plumed Vanguard Garrison implies disciplined protection of the system",
-        "Feathered Merchant Ward shows commerce moving through controlled elemental exchange",
-        "Under-Canopy Warrens imply hidden maintenance and lower-level survival beneath the formal system"
-      ]
-    },
-    "commercialSpaces": [
-      "elemental reagent markets",
-      "crystal refinement stalls",
-      "steam tool vendors",
-      "watercraft counters",
-      "forge-alloy brokers",
-      "wind instrument shops",
-      "djinn contract desks",
-      "cooling-stone sellers",
-      "plumed textile stalls",
-      "pressure-valve repairers",
-      "lattice calibration booths",
-      "under-canopy salvage markets"
-    ],
-    "publicSpaces": [
-      "Sun-King Plaza",
-      "forge basins",
-      "cooling courts",
-      "merchant arcades",
-      "vanguard parade grounds",
-      "lattice viewing platforms",
-      "steam bridges",
-      "water-channel crossings",
-      "under-canopy warrens",
-      "elemental balancing courts",
-      "public regulator stations"
-    ],
-    "districtCharacter": {
-      "section1SunKingPlaza": "central authority and civic visibility: solar symbolism, public declarations, geometric stone, ritualized leadership, and the city presenting balance as law",
-      "section2HydroKineticForges": "industrial equilibrium: fire, water, steam, kinetic machinery, molten channels, cooling basins, and productive transformation under strict control",
-      "section3FeatheredMerchantWard": "exchange and movement: plumed canopies, market arcades, windborne trade, elemental contracts, light textiles, and negotiation among different elemental traditions",
-      "section4PlumedVanguardGarrison": "disciplined force: guard towers, banners, controlled routes, emergency response, air/fire mobility, and military protection of the city’s fragile balance",
-      "section5UnderCanopyWarrens": "maintenance and underside life: service routes, shaded markets, repair crews, hidden conduits, pressure releases, and the people who keep the equilibrium functioning beneath formal plazas"
-    }
+  "cityDNA": {
+    "coreFantasy": "An elemental caldera city where forges, alchemical labs, archives, border walls, hidden markets, and eclipse-ring government turn volatility into civic order.",
+    "primaryEmotion": "contained intensity",
+    "secondaryEmotion": "arcane pressure",
+    "readerTakeaway": "The Crucible is not only a fire city; the uploaded images show industry, alchemy, records, defense, and unofficial exchange arranged around elemental convergence.",
+    "civilizationThesis": "The Crucible turns raw crystal, basalt, copper, ritual geometry, forges, formula archives, public records, border discipline, and hidden economies into an institution for controlled danger.",
+    "visualIdentity": "Basalt terraces, raw crystal, copper bands, quartzite, arcane glow, living fires, smoke stacks, blue alchemical lamps, archive towers, border walls, black-market arcades, and eclipse-ring courts.",
+    "culturalIdentity": "Elemental folk civic culture organized around pressure control, dangerous craft, formal records, containment boundaries, and negotiated unofficial exchange.",
+    "symbolicIdentity": "Four living fires, eclipse rings, forge beacons, smoke stacks, blue lamps, gold seals, border banners, mist-veiled vaults, and raw crystal symbolize power under rules."
   },
-  "narrativeTranslation": {
+  "canon": {
+    "canonLocks": [
+      "The Crucible is a mature elemental civic city, not a generic fire forge.",
+      "The Wonder is Elemental Crucible Ring of Four Living Fires.",
+      "The Beacon is Great Forge Beacon.",
+      "The Seat of Power is Eclipse Rings Sovereign Registry Court.",
+      "The five primary districts are Heavy Industry / Foundry, Arcane / Alchemical Labs, Records / Archives, Fortress / Border Wall, and Underworld / Hidden Economy.",
+      "Exact uploaded anchors include Heavy Industry / Foundry Civic Hall, Great Forge Beacon, Smoke-Stack Monument, Crucible Hall Nook, Arcane / Alchemical Labs Civic Hall, Alchemy Lab, Blue-Lamp Monument, Formula Archive Nook, Records / Archives Hall, Archive Tower, Records Archives Gold-Seal Monument, Copyist Hall Nook, Fortress / Border Wall Civic Hall, Border Wall, Woven Banners Monument, Watch Bastion Nook, Underworld / Hidden Economy Civic Hall, Black Market Arcade, Mist Veils Monument, and Understreet Vault Nook."
+    ],
+    "provisionalCanon": ["The Crucible's strongest civic read is contained intensity shaped into institutions.", "The uploaded image and sidecar pass were folded into existing v2 fields without adding a new top-level image-analysis section."],
+    "rejectedReads": ["fire city only", "generic forge town", "elemental spectacle with no civic records or boundaries", "black market as disconnected flavor"],
+    "cautionFlags": ["Preserve exact uploaded sidecar anchor names.", "Keep forge, alchemy, archives, border wall, and hidden economy visible together.", "Elemental power should read as regulated pressure, not random chaos."]
+  },
+  "environment": {
+    "terrain": ["Dry Stone Paving", "Civic Terraces", "Caldera", "forge courts", "border approaches", "understreet vault routes"],
+    "water": ["quench troughs", "ritual basins", "cooling channels", "dry civic ground"],
+    "vegetation": ["minimal terrace plantings", "heat-tolerant courtyard shrubs", "reagent planters"],
+    "climateLighting": ["forge orange", "raw crystal glow", "civic blue lamps", "caldera haze", "eclipse shadow", "arcane night light"],
+    "environmentalLogic": "The caldera is organized into regulated heat, records, routes, labs, and boundaries; the city survives by making volatile forces procedural."
+  },
+  "architecture": {
+    "materials": ["Raw Crystal", "Basalt", "Copper", "Arcane Glow", "Quartzite"],
+    "forms": ["Elemental Crucible Ring of Four Living Fires", "Eclipse Rings Sovereign Registry Court", "Great Forge Beacon", "Heavy Industry / Foundry Civic Hall", "Alchemy Lab", "Archive Tower", "Border Wall", "Black Market Arcade", "Formula Archive Nook", "Understreet Vault Nook"],
+    "skyline": ["Elemental Crucible Ring of Four Living Fires as far wonder anchor", "Eclipse Rings Sovereign Registry Court as central authority", "Great Forge Beacon as industrial signal", "forge stacks, alchemy towers, archive spires, border walls, and hidden arcades around caldera terraces"],
+    "lighting": ["living-fire glow", "blue alchemical light", "copper reflections", "raw crystal flares", "mist-veiled underlights"],
+    "infrastructure": ["forge floors", "smoke stacks", "crucible halls", "formula archives", "archive stairs", "copyist halls", "border walls", "watch bastions", "understreet vaults"],
+    "motifs": ["four living fires", "eclipse rings", "smoke stacks", "blue lamps", "gold seals", "woven banners", "mist veils", "raw crystal"],
+    "colorLanguage": ["basalt black", "forge orange", "crystal white", "copper red", "civic blue", "eclipse shadow"],
+    "textureLanguage": ["heat-cracked stone", "raw crystal facets", "hammered copper", "smooth quartzite", "soot", "sealed paper"]
+  },
+  "civilization": {
+    "people": "Elemental citizens are intense but institutionally trained; public life moves through safety rules, formula permissions, forge cycles, archive records, wall boundaries, and hidden negotiations.",
+    "occupations": ["forge workers", "beacon keepers", "alchemists", "formula archivists", "copyists", "border guards", "watch bastion crews", "market brokers", "vault keepers"],
+    "socialClasses": ["registry officials", "forge guilds", "alchemy circles", "archive staff", "border command", "hidden market brokers", "caldera laborers"],
+    "governance": "Eclipse Rings Sovereign Registry Court governs hazardous production, formula access, record authority, border control, and unofficial pressure valves.",
+    "religion": "Ritual geometry, elemental convergence, living-fire circles, eclipse symbolism, and ward networks make civic restraint sacred-adjacent.",
+    "customs": ["forge-cycle announcements", "formula sealing", "archive witnessing", "border heat warnings", "eclipse-ring petitions", "understreet bargaining codes"],
+    "bodyLanguage": ["heat-aware spacing", "controlled gestures", "protective stances near hazards", "careful handling of formulae", "quick glances at signal lights"],
+    "speechPatterns": ["forge slang", "elemental safety terms", "formula citations", "archive language", "border commands", "coded market phrases"]
+  },
+  "urbanLife": {
     "streets": {
-      "description": "The Crucible streets should feel engineered rather than organic: plazas, conduits, channels, vents, bridges, regulator pylons, and market lanes all route elemental force as much as people. A character should feel that every road has a pressure logic, heat logic, cooling logic, or wind logic behind it.",
-      "writingGuidance": [
-        "Use systems language in prose: channels, valves, regulators, vents, basins, pylons, calibration marks, and flow warnings.",
-        "Keep elemental forces visible in ordinary movement, not only in dramatic set pieces.",
-        "Do not canonize the current human-looking civilians; future scenes should include unmistakably elemental bodies.",
-        "Let beauty come from balance under pressure: flame held beside water, wind channeled through stone, crystal stabilizing heat, and steam made useful."
-      ]
-    },
-    "people": {
-      "description": "Canonical citizens should be visibly elemental: fire-bodied civilians, translucent waterfolk, mineral and crystal earth elementals, air and vapor beings, djinn, magma workers, steam couriers, smoke scribes, ash handlers, and metal/mineral variants conducting ordinary civic life.",
-      "behavioralNotes": [
-        "citizens should look physically adapted to their element, not human with themed costumes",
-        "different elemental bodies should coexist in markets, forges, guard posts, homes, and administration",
-        "civilian life remains normal: families, traders, engineers, guards, clerks, students, and maintenance workers",
-        "political tension should come from maintaining equality and safety among forces that naturally behave differently"
-      ],
-      "populationFidelityIssue": "Current street renders show mostly human-looking figures. This is a prompt defect and should not be canonized. Future prompt generation should force visible elemental bodies at first glance."
+      "appearance": "Hot, angular, and luminous: forge plazas, alchemy courts, archive towers, walls, watch bastions, black-market passages, blue lamps, and raw crystal seams share the caldera terraces.",
+      "movement": "Movement follows heat-safe lanes, forge paths, lab corridors, archive stairs, wall walks, watch routes, and understreet vault approaches.",
+      "sounds": ["forge roar", "crystal hum", "glass clink", "copyist scratch", "border bells", "market whispers"],
+      "smells": ["hot basalt", "metal smoke", "sharp reagents", "lamp oil", "dust", "ozone"],
+      "lighting": "Forge glow and raw crystal flare compete with controlled blue lamps and eclipse shadows.",
+      "weatherEffects": "Heat haze, ash, caldera wind, and crystal glare make regulated routes essential.",
+      "dayCycle": "Forge work, lab permissions, archive traffic, and wall drills dominate daytime.",
+      "nightCycle": "Blue lamps, living fires, hidden markets, and crystal glow dominate night."
     },
     "shops": {
-      "examples": [
-        "cooling-stone shops",
-        "pressure-valve repair stalls",
-        "steam kettle makers",
-        "crystal lens vendors",
-        "magma alloy counters",
-        "water-seal scribes",
-        "wind-chime navigators",
-        "djinn contract halls",
-        "ash-cloth merchants",
-        "plumed canopy sellers",
-        "forge reagent markets",
-        "lattice calibration kiosks"
-      ],
-      "writingGuidance": "Commerce should revolve around transformation, calibration, containment, and exchange between elemental bodies and elemental needs."
+      "common": ["forge tool stalls", "lamp repair counters", "reagent sellers", "food carts for workers"],
+      "uncommon": ["formula copyists", "crystal cutters", "ward-sigil repairers", "vault brokers"],
+      "prestigious": ["registry offices", "great forge contracts", "alchemy patron labs", "archive legal counters"],
+      "exports": ["forged goods", "raw crystal craft", "formula copies", "warded mechanisms", "elemental tools"],
+      "imports": ["ore", "charcoal", "rare reagents", "paper", "food", "cloth"],
+      "streetFood": ["charred flatbread", "spiced stew", "mineral tea", "worker broth"],
+      "services": ["forge repair", "formula certification", "archive copying", "wall access", "vault brokerage"]
     },
-    "homes": {
-      "description": "Homes should be specialized by elemental need but joined by shared civic systems: fireproof apartments with cooling channels, water courts with porous stone, airy upper dwellings, mineral halls, steam-warmed common rooms, and mixed-element public thresholds.",
-      "writingGuidance": [
-        "Show coexistence through design compromises: shared basins, heat baffles, vapor vents, stone anchors, wind screens, and crystal regulators.",
-        "Domestic life should reveal the cost of balance more than the spectacle of magic."
-      ]
-    },
-    "publicLife": {
-      "dailyRhythms": [
-        "morning lattice calibration and plaza readings",
-        "forge cycles starting as water and heat teams synchronize",
-        "merchant ward exchange timed around wind and steam flows",
-        "vanguard inspections of pressure routes and emergency gates",
-        "under-canopy repair crews checking conduits and release valves",
-        "evening market glow as elements cool, condense, flare, and settle into civic night"
-      ],
-      "commonActivities": [
-        "calibrating pylons",
-        "cooling forges",
-        "routing water channels",
-        "opening wind passages",
-        "selling elemental reagents",
-        "repairing vents",
-        "guarding lattice access",
-        "filing balance permits",
-        "negotiating djinn contracts",
-        "watching beacon states",
-        "maintaining under-canopy conduits"
-      ]
-    },
-    "sounds": [
-      "steam release",
-      "water surging through channels",
-      "forge hammering",
-      "crystal resonance",
-      "wind through towers",
-      "molten metal hiss",
-      "market calls under plumed canopies",
-      "guard horns",
-      "valves clanking",
-      "lattice hum",
-      "stone vibration from deep regulators"
-    ],
-    "smells": [
-      "hot metal",
-      "steam",
-      "ozone",
-      "wet stone",
-      "ash",
-      "mineral dust",
-      "salt water or forge water",
-      "burnt oil",
-      "spiced market food",
-      "crystal dust",
-      "sun-warmed basalt"
-    ],
-    "lighting": {
-      "day": "Daylight should be hard and reflective across sun plazas, crystal towers, water channels, and metallic conduits.",
-      "night": "Night should glow from lattice pylons, forge basins, water reflections, crystal lamps, molten seams, and vapor-lit under-canopy routes.",
-      "weather": "Weather should interact with civic systems: wind stresses bridges, rain alters cooling, heat changes pressure, and storms force emergency equilibrium protocols."
-    },
-    "transportation": {
-      "description": "Movement is by plaza roads, channel bridges, steam lifts, wind bridges, forge causeways, service warrens, and regulated elemental gates. Different elemental citizens may use different routes suited to body type.",
-      "writingGuidance": [
-        "Use route choice to reveal elemental inequality or accommodation.",
-        "Let maintenance closures and pressure warnings redirect scenes naturally.",
-        "Outsiders should not understand which routes are safe without local guidance."
-      ]
-    },
-    "children": {
-      "description": "Children should be elemental as well: sparks, droplets, pebble-bodied young, vapor forms, small djinn, and mixed-element families learning safety rules, flow routes, and balance etiquette early."
-    },
-    "craftsmen": {
-      "description": "Craftsmen include hydro-kinetic forge workers, crystal regulators, magma alloyers, steam engineers, windwrights, water-channel masons, lattice calibrators, plume weavers, ash-cloth makers, and under-canopy conduit repairers."
-    },
-    "markets": {
-      "description": "Markets should feel cosmopolitan and technical: feathers, crystals, cooling stones, forge metals, sealed water, wind charms, steam tools, djinn contracts, ash cloth, and pressure instruments."
-    },
-    "food": {
-      "examples": [
-        "steam-cooked grain cakes",
-        "spiced mineral salt broth",
-        "fire-roasted peppers",
-        "cooling fruit drinks",
-        "crystal sugar sweets",
-        "smoked flatbread",
-        "water-market noodles",
-        "ash-baked tubers",
-        "sun-plaza tea",
-        "forge-side stew"
-      ]
-    },
-    "companionObservations": {
-      "addie": [
-        "notices repeating balancing equations, flow marks, plaza instructions, permit language, and emergency calibration protocols",
-        "stores routes by Sun-King Plaza, Hydro-Kinetic Forges, Feathered Merchant Ward, Plumed Vanguard Garrison, Under-Canopy Warrens, and Singularity Lattice",
-        "would realize quickly that nothing here is decorative if it touches a conduit, channel, vent, or pylon"
-      ],
-      "gregory": [
-        "reads four-element geometry, singularity lattice forms, sun symbols, plumes, forge-water opposition, and under-canopy descent as a theology of balance and containment",
-        "would distinguish genuine equilibrium symbolism from propaganda claiming balance while privileging one element"
-      ],
-      "brickett": [
-        "spots tiny valve leaks, maintenance hatches, pressure stains, loose crystal housings, unofficial under-canopy shortcuts, and conduit noises other people ignore",
-        "would be especially useful because small failures can threaten enormous systems here"
-      ],
-      "talandra": [
-        "reads the city as infrastructure-defense terrain: sabotage one channel, bridge, vent, or pylon and the whole district changes tactically",
-        "would respect the garrison but worry more about systems failure than direct attack"
-      ],
-      "mae": [
-        "would identify leverage through control of cooling water, forge output, wind routes, lattice access, merchant contracts, and maintenance labor",
-        "would understand that in The Crucible, resource imbalance is political power"
-      ],
-      "genericCompanionNotes": [
-        "Outsiders should feel impressed first, then uneasy about how many things must work perfectly.",
-        "The city should make balance feel achieved, expensive, and fragile."
-      ]
+    "housing": {
+      "wealthy": "Registry, alchemy, and forge-master terraces with crystal light, copper screens, and protected views of the caldera.",
+      "middle": "Workshop apartments, archive rooms, and guard-family homes along heat-safe public routes.",
+      "poor": "Hot lower terraces, service rooms, and vault-adjacent housing dependent on controlled routes and public lamps."
     }
   },
-  "arrivalExperience": {
-    "firstImpression": "A visitor should first experience The Crucible as a city of impossible coexistence: sun-bright plazas, forge glow beside water channels, wind bridges, crystal pylons, plumed markets, disciplined garrisons, and a distant Singularity Lattice holding the whole elemental system in balance.",
-    "firstHourSequence": [
-      "first sight of the Singularity Lattice above the city",
-      "entry through heat shimmer, water channels, and pressure-marked stone",
-      "crossing the Sun-King Plaza where authority presents balance as law",
-      "passing Hydro-Kinetic Forges where fire and water visibly work together",
-      "moving through the Feathered Merchant Ward and seeing elemental exchange as daily commerce",
-      "glimpsing under-canopy service routes and realizing maintenance is the hidden foundation of the city"
-    ],
-    "readerEffect": "The reader should feel that The Crucible is astonishing because it solved a problem that should be impossible: making elemental contradiction into civic order."
-  },
-  "departureMemory": {
-    "readerShouldRemember": [
-      "The Singularity Lattice glowing over the city",
-      "fire and water engineered into hydro-kinetic forges",
-      "sun plazas and crystal pylons",
-      "plumed merchant wards and vanguard garrisons",
-      "under-canopy warrens beneath formal balance",
-      "steam, vents, channels, and regulator marks everywhere",
-      "a city whose real miracle is maintained equilibrium",
-      "a current prompt defect: population must be regenerated as visibly elemental"
-    ]
-  },
-  "landmarkAnalysis": {
-    "wonder": {
-      "name": "The Singularity Lattice",
-      "purpose": "The Wonder embodies The Crucible's central civilization thesis: contradictory elemental forces held in stable productive equilibrium.",
-      "visualDescription": "A city-scale lattice of crystal, light, elemental channels, pylons, geometric arcs, and stabilizing structures that visually reads as regulator, monument, and metaphysical engine at once.",
-      "narrativeUse": "Use the Lattice whenever the story needs to show balance made physical. It should not merely provide power; it should make the city possible. If it fails, The Crucible stops being The Crucible.",
-      "howCharactersNoticeIt": {
-        "addie": "notices repeating lattice terms, emergency sequences, and civic language around calibration",
-        "gregory": "reads it as the sacred geometry of equilibrium and contained contradiction",
-        "brickett": "spots maintenance paths and small signs that the grand system depends on overlooked labor",
-        "talandra": "maps it as the city's greatest vulnerability and strongest defense",
-        "mae": "recognizes that access to lattice control would decide every negotiation in the city"
-      },
-      "commonActivities": [
-        "calibration ceremonies",
-        "emergency stabilization",
-        "public readings",
-        "elemental accords",
-        "maintenance cycles",
-        "civic festivals of balance"
-      ],
-      "visibilityFromCity": "Visible from hero views as the far/regulatory skyline anchor and implied across street scenes through conduits and pylons."
-    },
-    "beacon": {
-      "name": "Crucible Beacon / Elemental Regulator Beacon",
-      "purpose": "The Beacon ties Conjunction signal identity to the city's broader regulator culture: public warning is interpreted as a balance event, not only an announcement.",
-      "visualDescription": "A bright signal landmark integrated with elemental conduits, blue light, sun-stone, crystal pylons, and civic regulator architecture.",
-      "narrativeUse": "Use the Beacon as another civic regulator. A color change should trigger engineers, forgemasters, water teams, vanguard units, merchants, and under-canopy crews because every signal implies system-wide recalculation.",
-      "howCharactersNoticeIt": {
-        "addie": "notices citizens read beacon states through calibration categories",
-        "gregory": "reads it as warning integrated into civic equilibrium",
-        "brickett": "finds access ladders, valve paths, and maintenance markings near it",
-        "talandra": "treats the beacon area as a high-risk infrastructure choke point",
-        "mae": "identifies who responds first and therefore who truly controls the city"
-      },
-      "commonActivities": [
-        "signal watching",
-        "calibration response",
-        "emergency routing",
-        "public warnings",
-        "vanguard musters",
-        "forge and water shutdown orders"
-      ],
-      "visibilityFromCity": "Prominent in civic approaches and functionally integrated into the city's regulator network."
-    },
-    "seatOfPower": {
-      "name": "Sun-King Plaza / Elemental Accord Court",
-      "purpose": "The seat of power expresses authority through visible civic balance, solar legitimacy, public accords, and the regulation of elemental interests.",
-      "visualDescription": "A monumental sunlit plaza and court system of stone, crystal, conduits, solar forms, banners, and official platforms where elemental factions can be seen, measured, and negotiated before the city.",
-      "narrativeUse": "Use the seat of power to show governance as systems stewardship. Leaders are legitimate only as long as they preserve balance between elements, industries, districts, and classes.",
-      "howCharactersNoticeIt": {
-        "addie": "locks onto formal balance language, accords, voting/permit structures, and emergency clauses",
-        "gregory": "reads solar authority in tension with equal-element symbolism",
-        "brickett": "spots overlooked maintenance crews and minor routes behind the public geometry",
-        "talandra": "maps exposed plazas, garrison response routes, and sabotage vectors",
-        "mae": "reads faction bargaining and supply control underneath the civic rhetoric"
-      },
-      "commonActivities": [
-        "elemental accords",
-        "public rulings",
-        "calibration announcements",
-        "resource negotiations",
-        "civic ceremonies",
-        "emergency declarations"
-      ],
-      "visibilityFromCity": "Central civic face of the city, likely visible from major approaches and connected to the Lattice through regulator architecture."
-    },
+  "districts": [
+    {"sectionNumber": 1, "name": "Heavy Industry / Foundry", "civicPurpose": "Production, public signal, dangerous labor, and elemental heat management.", "visualIdentity": "Heavy Industry / Foundry Civic Hall, Great Forge Beacon, Smoke-Stack Monument, Crucible Hall Nook.", "emotionalIdentity": "hot, productive, dangerous", "gameplayAssetNeeds": ["Heavy Industry / Foundry Civic Hall", "Great Forge Beacon", "Smoke-Stack Monument", "Crucible Hall Nook"], "narrativeUse": ["Beacon warning", "forge crisis", "labor pressure"], "landmark": "Great Forge Beacon", "minorLandmarks": ["Smoke-Stack Monument", "Crucible Hall Nook"]},
+    {"sectionNumber": 2, "name": "Arcane / Alchemical Labs", "civicPurpose": "Formula control, research, reagent work, and dangerous invention.", "visualIdentity": "Arcane / Alchemical Labs Civic Hall, Alchemy Lab, Blue-Lamp Monument, Formula Archive Nook.", "emotionalIdentity": "precise, restricted, volatile", "gameplayAssetNeeds": ["Arcane / Alchemical Labs Civic Hall", "Alchemy Lab", "Blue-Lamp Monument", "Formula Archive Nook"], "narrativeUse": ["formula clue", "lab accident", "research dispute"], "landmark": "Alchemy Lab", "minorLandmarks": ["Blue-Lamp Monument", "Formula Archive Nook"]},
+    {"sectionNumber": 3, "name": "Records / Archives", "civicPurpose": "Official memory, hazard records, formula copies, and legal continuity.", "visualIdentity": "Records / Archives Hall, Archive Tower, Records Archives Gold-Seal Monument, Copyist Hall Nook.", "emotionalIdentity": "exact, cool, necessary", "gameplayAssetNeeds": ["Records / Archives Hall", "Archive Tower", "Records Archives Gold-Seal Monument", "Copyist Hall Nook"], "narrativeUse": ["record clue", "hazard history", "legal contradiction"], "landmark": "Archive Tower", "minorLandmarks": ["Records Archives Gold-Seal Monument", "Copyist Hall Nook"]},
+    {"sectionNumber": 4, "name": "Fortress / Border Wall", "civicPurpose": "Boundary control, hazard containment, defense, and watch discipline.", "visualIdentity": "Fortress / Border Wall Civic Hall, Border Wall, Woven Banners Monument, Watch Bastion Nook.", "emotionalIdentity": "guarded, formal, tense", "gameplayAssetNeeds": ["Fortress / Border Wall Civic Hall", "Border Wall", "Woven Banners Monument", "Watch Bastion Nook"], "narrativeUse": ["wall alarm", "boundary dispute", "watch scene"], "landmark": "Border Wall", "minorLandmarks": ["Woven Banners Monument", "Watch Bastion Nook"]},
+    {"sectionNumber": 5, "name": "Underworld / Hidden Economy", "civicPurpose": "Unofficial exchange, pressure release, hidden storage, and risky workaround networks.", "visualIdentity": "Underworld / Hidden Economy Civic Hall, Black Market Arcade, Mist Veils Monument, Understreet Vault Nook.", "emotionalIdentity": "coded, necessary, unstable", "gameplayAssetNeeds": ["Underworld / Hidden Economy Civic Hall", "Black Market Arcade", "Mist Veils Monument", "Understreet Vault Nook"], "narrativeUse": ["hidden deal", "vault clue", "pressure release"], "landmark": "Black Market Arcade", "minorLandmarks": ["Mist Veils Monument", "Understreet Vault Nook"]}
+  ],
+  "landmarks": {
+    "wonder": {"name": "Elemental Crucible Ring of Four Living Fires", "symbolicRole": "Elemental convergence, civic restraint, and volatile unity made monumental.", "visualRole": "Far skyline ring of living fires, crystal, basalt, copper, and ritual geometry above caldera terraces.", "civicRole": "Citywide rites, convergence ceremonies, hazard vows, and public identity.", "narrativeUse": ["convergence rite", "public vow", "elemental crisis"], "assetUse": ["map wonder", "far skyline anchor"], "sensoryIdentity": ["heat", "crystal hum", "smoke", "copper tang"], "storyHooks": ["A living fire changes color and exposes which institution has been lying about safety."]},
+    "beacon": {"name": "Great Forge Beacon", "symbolicRole": "Production warning and elemental pressure made public signal.", "visualRole": "Beacon rising from foundry civic halls, smoke stacks, and crucible routes.", "civicRole": "Coordinates forge crews, alchemy labs, archives, border walls, and hidden-market reactions.", "narrativeUse": ["Beacon change", "forge alarm", "citywide hazard response"], "assetUse": ["S1 centerpiece", "signal marker"], "sensoryIdentity": ["blue-orange glow", "hammering", "signal bells"], "storyHooks": ["A Beacon change makes the entire city choose between productivity and safety."]},
+    "seatOfPower": {"name": "Eclipse Rings Sovereign Registry Court", "symbolicRole": "Balanced authority over competing elements, records, and danger.", "visualRole": "Central registry court with eclipse rings, sealed archives, audience terraces, and ritual geometry.", "civicRole": "Governs hazardous labor, formula access, record disputes, border rules, and pressure-release policy.", "narrativeUse": ["court hearing", "formula ruling", "hazard petition"], "assetUse": ["seat-of-power marker"], "sensoryIdentity": ["ink", "cool stone", "crystal light", "sealed wax"], "storyHooks": ["An eclipse-ring record proves the city survived because someone broke procedure once."]},
     "majorLandmarks": [
-      {
-        "name": "Sun-King Plaza",
-        "sectionNumber": 1,
-        "narrativeUse": "Use for central authority, public balance rhetoric, solar/fire legitimacy, and city-wide announcements."
-      },
-      {
-        "name": "Hydro-Kinetic Forges",
-        "sectionNumber": 2,
-        "narrativeUse": "Use for fire/water industry, transformation, system risk, labor, and the visible proof that opposition can be engineered into productivity."
-      },
-      {
-        "name": "Feathered Merchant Ward",
-        "sectionNumber": 3,
-        "narrativeUse": "Use for elemental commerce, air/plume identity, negotiation, contracts, reagent markets, and mixed-culture civilian life."
-      },
-      {
-        "name": "Plumed Vanguard Garrison",
-        "sectionNumber": 4,
-        "narrativeUse": "Use for disciplined emergency response, guard order, controlled force, and protection of critical infrastructure."
-      },
-      {
-        "name": "Under-Canopy Warrens",
-        "sectionNumber": 5,
-        "narrativeUse": "Use for maintenance labor, hidden conduits, lower-city survival, pressure releases, and the unseen work beneath equilibrium."
-      }
-    ],
-    "monuments": [
-      {
-        "name": "Elemental Balance Monument",
-        "narrativeUse": "Use to show official harmony and the ideal version of the city's self-image."
-      },
-      {
-        "name": "Hydro-Kinetic Wheel Monument",
-        "narrativeUse": "Use to represent productive opposition and the city turning conflict into work."
-      },
-      {
-        "name": "Plumed Trade Monument",
-        "narrativeUse": "Use to link commerce, air movement, and cross-element negotiation."
-      },
-      {
-        "name": "Vanguard Standard Monument",
-        "narrativeUse": "Use to show disciplined force protecting balance rather than conquest."
-      },
-      {
-        "name": "Under-Canopy Regulator Monument",
-        "narrativeUse": "Use to honor or reveal the hidden maintenance systems beneath the city."
-      }
-    ],
-    "minorLandmarks": [
-      {
-        "name": "Calibration Nook",
-        "narrativeUse": "Use for small technical clues, emergency settings, Addie's exact-memory comparisons, and Brickett's overlooked-detail work."
-      },
-      {
-        "name": "Cooling Basin Nook",
-        "narrativeUse": "Use for forge safety, labor scenes, sabotage risk, and fire/water balance."
-      },
-      {
-        "name": "Contract Canopy Nook",
-        "narrativeUse": "Use for djinn agreements, merchant bargains, elemental rights, and Mae-style leverage."
-      },
-      {
-        "name": "Garrison Valve Nook",
-        "narrativeUse": "Use for emergency response, military control of infrastructure, and tactical decision-making."
-      },
-      {
-        "name": "Service Conduit Nook",
-        "narrativeUse": "Use for under-canopy maintenance, hidden routes, failure evidence, and the working class of equilibrium."
-      }
+      {"name": "Alchemy Lab", "symbolicRole": "Volatility studied under seal.", "visualRole": "Blue-lit lab with formula archive, glassware, reagents, and crystal light.", "civicRole": "Research, formula control, and controlled risk.", "narrativeUse": ["formula clue", "lab restriction"], "assetUse": ["S2 diorama"], "sensoryIdentity": ["glass", "sharp vapor", "blue light"], "storyHooks": ["A formula archive shows which fire was never natural."]},
+      {"name": "Archive Tower", "symbolicRole": "Danger remembered so it can be governed.", "visualRole": "Archive tower with gold-seal monument, copyist hall, cool stone, and sealed stacks.", "civicRole": "Public records, hazard history, and legal memory.", "narrativeUse": ["record clue", "old accident"], "assetUse": ["S3 diorama"], "sensoryIdentity": ["paper", "ink", "wax", "cool air"], "storyHooks": ["A copyist finds the first accident was recorded as a triumph."]},
+      {"name": "Border Wall", "symbolicRole": "Boundary between civic order and uncontrolled force.", "visualRole": "Fortified wall with banners, watch bastion, and heat-resistant stone.", "civicRole": "Defense, access control, hazard containment, and watch duty.", "narrativeUse": ["wall alarm", "boundary test"], "assetUse": ["S4 diorama"], "sensoryIdentity": ["stone heat", "banners", "guard bells"], "storyHooks": ["A watch bastion sees the danger inside the wall first."]},
+      {"name": "Black Market Arcade", "symbolicRole": "Unofficial exchange beneath regulated power.", "visualRole": "Hidden arcade with mist veils, vault nook, lamp haze, and coded stalls.", "civicRole": "Informal trade, workaround supply, hidden storage, and pressure release.", "narrativeUse": ["hidden deal", "vault clue"], "assetUse": ["S5 diorama"], "sensoryIdentity": ["whispers", "lamp smoke", "warm stone"], "storyHooks": ["A broker has the safety part the official forge refused to requisition."]}
     ]
   },
-  "immediateNarrativeImprovements": [
-    {
-      "target": "future TCE concept-art prompts",
-      "recommendation": "Correct population depiction: civilians must visibly be fire, water, earth, air, djinn, magma, steam, smoke, ash, crystal, and mineral elementals rather than human-looking figures in themed clothing."
-    },
-    {
-      "target": "future The Crucible scenes",
-      "recommendation": "Write TCE as engineered equilibrium: every district should express balance, regulation, transformation, or maintenance under pressure."
-    },
-    {
-      "target": "street descriptions",
-      "recommendation": "Use conduits, pressure warnings, cooling basins, steam vents, crystal pylons, wind bridges, forge glow, water channels, and maintenance crews as recurring texture."
-    },
-    {
-      "target": "landmark use",
-      "recommendation": "Make the Singularity Lattice the city-scale miracle that keeps incompatible forces from tearing the city apart."
-    },
-    {
-      "target": "companion writing",
-      "recommendation": "Let Addie read calibration language, Gregory interpret four-element symbolism, Brickett find maintenance failures, Talandra assess sabotage vectors, and Mae read resource-control politics."
-    }
-  ],
-  "interpretation": {
-    "civilizationThesis": "The Crucible is the architecture of maintained equilibrium: an elemental civilization that turns contradiction into governance, industry, commerce, defense, and daily life through systems that must constantly be calibrated.",
-    "environmentalPhilosophy": "Regulate the impossible: do not worship, flee, or conquer the elements; engineer their coexistence into civic order.",
-    "adaptiveStrategy": "Balance and recalibrate: keep opposing forces productive by routing, cooling, venting, stabilizing, negotiating, and repairing without pause.",
-    "authorityModel": "technocratic-elemental accord authority",
-    "relationshipWithNature": "managerial and infrastructural; elemental nature is treated as force, resource, citizen-body, and public risk at once",
-    "relationshipWithHistory": "institutional and experimental; history is remembered as solved failures, accords, disasters avoided, and calibrations preserved",
-    "relationshipWithKnowledge": "technical, civic, and sacred-adjacent; knowledge lives in equations, regulator protocols, forge practice, contracts, and lattice stewardship",
-    "relationshipWithRisk": "risk is managed through redundancy, calibration, garrison response, maintenance warrens, and political equilibrium",
-    "relationshipWithBeauty": "beauty is controlled force: flame beside water, crystal in steam, wind through stone, and lattice geometry holding contradiction still",
-    "relationshipWithCommunity": "community is negotiated coexistence; citizens belong by element, function, accord, and shared dependence on systems that must work",
-    "civilizationalTension": {
-      "tension": "equilibrium vs ambition",
-      "resolution": "The Crucible resolves the tension only as long as no element, district, guild, or ruler gains enough leverage to disrupt the calibrated whole."
-    },
-    "highestVirtue": "balance",
-    "religiousExpression": "moderate and systems-sacralized; the elements may be revered, but civic religion is more likely centered on equilibrium, calibration, solar authority, and the Singularity Lattice",
-    "economicIdentity": "elemental engineering, hydro-kinetic forging, crystal regulation, djinn contracts, steam tools, plume trade, resource balancing, and maintenance labor",
-    "socialIdentity": "technical, negotiated, cosmopolitan, safety-conscious, systems-minded, politically balanced, and dependent on visible cooperation between unlike beings"
-  },
-  "canonReview": {
-    "lockedCanon": [
-      {
-        "statement": "The Crucible is an elemental city whose civic identity is engineered equilibrium rather than chaos, conquest, or simple elemental worship.",
-        "reason": "The architecture and district structure consistently foreground regulated elemental systems, hydro-kinetic forges, civic balance, garrison protection, merchant exchange, and the Singularity Lattice.",
-        "supportingEvidence": [
-          "The Singularity Lattice",
-          "The Sun-King Plaza",
-          "The Hydro-Kinetic Forges",
-          "The Feathered Merchant Ward",
-          "The Plumed Vanguard Garrison",
-          "The Under-Canopy Warrens"
-        ],
-        "confidence": "high"
-      },
-      {
-        "statement": "The Singularity Lattice should be treated as civilization-critical infrastructure, not merely a decorative Wonder.",
-        "reason": "The city reads as a system of opposing forces requiring a stabilizing civic/metaphysical regulator.",
-        "supportingEvidence": [
-          "Singularity Lattice skyline role",
-          "hydro-kinetic forge balance",
-          "district-wide elemental infrastructure",
-          "calibration/regulator visual logic"
-        ],
-        "confidence": "high"
-      },
-      {
-        "statement": "The current human-looking street populations are a prompt defect and should not be canonized.",
-        "reason": "The city is canonically elemental, but current street render civilians do not visibly read as fire/water/earth/air/djinn or similar elemental beings.",
-        "supportingEvidence": [
-          "street-view population mismatch",
-          "TCE elemental civilization identity",
-          "future prompt correction requested"
-        ],
-        "confidence": "high"
-      }
-    ],
-    "provisionalCanon": [
-      {
-        "statement": "The Crucible's highest civic virtue is balance.",
-        "reason": "Every major district appears to embody regulated force and civic equilibrium, but comparison against other elemental or technocratic cities should validate the virtue language.",
-        "supportingEvidence": [
-          "Singularity Lattice",
-          "Hydro-Kinetic Forges",
-          "Sun-King Plaza",
-          "Vanguard Garrison",
-          "Under-Canopy Warrens"
-        ],
-        "confidence": "medium-high"
-      },
-      {
-        "statement": "Balance may become oppressive if the city suppresses individual or elemental difference to maintain stability.",
-        "reason": "The infrastructure suggests strong regulation, but narrative evidence is needed before canonizing oppression as a feature.",
-        "supportingEvidence": [
-          "calibration systems",
-          "garrison protection",
-          "under-canopy maintenance district",
-          "central authority plaza"
-        ],
-        "confidence": "medium"
-      }
-    ],
-    "workingHypotheses": [
-      {
-        "statement": "Elemental civilizations may develop governance around accord, calibration, and resource equilibrium rather than lineage, conquest, or simple democracy.",
-        "reason": "TCE strongly supports this through its systems architecture, but other elemental sites and Book 6 canon should validate the broader cultural claim.",
-        "supportingEvidence": [
-          "Elemental Accord Court interpretation",
-          "Singularity Lattice",
-          "hydro-kinetic forges",
-          "merchant/garrison/warrens balance"
-        ],
-        "confidence": "medium"
-      }
-    ],
-    "rejectedHypotheses": [
-      {
-        "statement": "The Crucible is a chaotic elemental disaster city.",
-        "reason": "The visual evidence shows strong planning, regulation, civic geometry, and specialized district systems rather than uncontrolled elemental conflict.",
-        "supportingEvidence": [
-          "planned plaza geometry",
-          "Hydro-Kinetic Forges",
-          "Singularity Lattice",
-          "district specialization"
-        ],
-        "confidence": "high"
-      },
-      {
-        "statement": "The current human-looking population accurately defines the canonical TCE citizens.",
-        "reason": "The user explicitly flagged this as incorrect, and it conflicts with the elemental civilization identity.",
-        "supportingEvidence": [
-          "population fidelity issue",
-          "elemental civilization canon",
-          "requested repository prompt correction"
-        ],
-        "confidence": "high"
-      }
-    ]
-  },
-  "futureQuestions": [
-    "What is the exact political structure of the elemental accord: council, technocracy, Sun-King authority, guild compact, or hybrid?",
-    "How literal is the Sun-King title in a city that claims balance among elements?",
-    "Does the Under-Canopy Warrens represent class inequality, maintenance caste, infrastructure workers, or simply lower-city ecology?",
-    "What happens if one element gains control over the Singularity Lattice or one critical resource channel?",
-    "How should regenerated TCE street prompts differentiate fire, water, earth, air, djinn, magma, steam, smoke, ash, and crystal civilians without cluttering the image?"
-  ],
-  "comparativeNotes": {
-    "distinctFrom": [
-      {
-        "cityCode": "VKI",
-        "difference": "Vyrath'Kai is volcanic island endurance and non-aggressive maritime adaptation; TCE is active elemental engineering and regulated multi-force equilibrium."
-      },
-      {
-        "cityCode": "KVM",
-        "difference": "Khaz Vorem molds mountain geometry through craft mastery; TCE regulates elemental contradiction through systems and lattice infrastructure."
-      },
-      {
-        "cityCode": "HEA",
-        "difference": "Hearthglen uses applied care and alchemy for civic repair; TCE uses elemental engineering for civilization-wide balance."
-      },
-      {
-        "cityCode": "VLG",
-        "difference": "Volgrad institutionalizes winter survival; TCE institutionalizes elemental coexistence."
-      }
-    ],
-    "similarTo": [
-      {
-        "cityCode": "HEA",
-        "similarity": "Both make technical systems civic and visible, though HEA is repair/care while TCE is balance/regulation."
-      },
-      {
-        "cityCode": "PSG",
-        "similarity": "Both depend on coordination systems across trade, infrastructure, and public authority."
-      },
-      {
-        "cityCode": "SSI",
-        "similarity": "Both elevate public works and permits into real civic power, though SSI is ecological/serpentfolk and TCE is elemental/technocratic."
-      }
-    ],
-    "uniqueContributions": [
-      "strongest current model for engineered equilibrium as civilization thesis",
-      "clearest city where infrastructure is literally metaphysical survival",
-      "best setting for sabotage, systems failure, calibration, and elemental diplomacy stories",
-      "important prompt-fidelity case: population mismatch documented separately from architectural success"
-    ],
-    "potentialInfluences": [
-      "elemental culture bible",
-      "Book 6 Cleansing city scenes",
-      "population prompt correction workflow",
-      "systems-failure narrative design",
-      "Mother's observation that civilizations can stabilize contradiction through infrastructure rather than ideology alone"
-    ]
-  },
-  "crossCityTags": [
-    "elemental-city",
-    "engineered-equilibrium",
-    "singularity-lattice",
-    "sun-king-plaza",
-    "hydro-kinetic-forges",
-    "feathered-merchant-ward",
-    "plumed-vanguard-garrison",
-    "under-canopy-warrens",
-    "calibration-civilization",
-    "elemental-infrastructure",
-    "population-fidelity-issue",
-    "systems-governance",
-    "established-civilization"
-  ],
-  "evolution": {
-    "previousAssumptions": [
-      "The Crucible was expected to be an elemental city tied to Book 6 and the Cleansing theme.",
-      "The architecture was expected to involve fire, water, air, earth, and a major Singularity Lattice wonder."
-    ],
-    "discoveries": [
-      "The city reads strongest as engineered equilibrium rather than elemental spectacle.",
-      "The Singularity Lattice should be civilization-critical, not just visually impressive.",
-      "Hydro-Kinetic Forges provide a concrete example of opposing elements made productive through infrastructure.",
-      "The Under-Canopy Warrens create narrative pressure around maintenance labor beneath formal balance.",
-      "The current population rendering is incorrect and must be fixed in future prompt generation."
-    ],
-    "confirmedAssumptions": [
-      "The Crucible should remain elemental, monumental, and systems-driven.",
-      "Fire, water, air, earth, crystal, steam, and force-routing belong in its core visual grammar.",
-      "The city should feel established and engineered rather than chaotic or temporary."
-    ],
-    "changedOurMind": [
-      "Do not treat TCE as a generic fire/element city; balance is more important than spectacle.",
-      "Do not canonize human-looking street populations.",
-      "Use infrastructure failure, calibration, resource leverage, and maintenance labor as primary narrative hooks."
-    ],
-    "futureValidation": [
-      "Regenerate street prompts after repository population correction is implemented.",
-      "Compare TCE against other elemental or industrial cities to refine equilibrium-as-governance.",
-      "Revisit TCE prose for enough visible elemental-bodied citizens, system markers, and maintenance-specific detail."
-    ]
+  "assetGuidance": {
+    "districtDioramaGuidance": ["S1 must show Heavy Industry / Foundry Civic Hall, Great Forge Beacon, Smoke-Stack Monument, and Crucible Hall Nook.", "S2 must show Arcane / Alchemical Labs Civic Hall, Alchemy Lab, Blue-Lamp Monument, and Formula Archive Nook.", "S3 must show Records / Archives Hall, Archive Tower, Records Archives Gold-Seal Monument, and Copyist Hall Nook.", "S4 must show Fortress / Border Wall Civic Hall, Border Wall, Woven Banners Monument, and Watch Bastion Nook.", "S5 must show Underworld / Hidden Economy Civic Hall, Black Market Arcade, Mist Veils Monument, and Understreet Vault Nook."],
+    "mapBackgroundGuidance": ["Keep Elemental Crucible Ring of Four Living Fires, Great Forge Beacon, and Eclipse Rings Sovereign Registry Court legible together.", "Use raw crystal, basalt, copper, quartzite, forge haze, blue alchemy lights, archive towers, border walls, and hidden-market arcades."],
+    "requiredVisualElements": ["Elemental Crucible Ring of Four Living Fires", "Great Forge Beacon", "Eclipse Rings Sovereign Registry Court", "Smoke-Stack Monument", "Crucible Hall Nook", "Alchemy Lab", "Blue-Lamp Monument", "Formula Archive Nook", "Archive Tower", "Records Archives Gold-Seal Monument", "Copyist Hall Nook", "Border Wall", "Watch Bastion Nook", "Black Market Arcade", "Mist Veils Monument", "Understreet Vault Nook"],
+    "elementsToAvoid": ["fire city only", "unregulated chaos", "forge without archives or alchemy", "district anchors generalized away"]
   }
 }

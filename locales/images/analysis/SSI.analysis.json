@@ -1,729 +1,113 @@
 {
-  "schemaVersion": 1,
-  "analysisVersion": 1,
-  "cityCode": "SSI",
-  "cityName": "Ssivareth",
-  "analysisConfidence": "strong-lock",
-  "analysisDate": "2026-07-01",
-  "analystVersion": "gpt-5.5-thinking",
-  "basedOnImages": [
-    "SSI-HERO-NE-v001",
-    "SSI-HERO-NW-v001",
-    "SSI-HERO-SE-v001",
-    "SSI-HERO-SW-v001",
-    "SSI-STREET-S1-v001",
-    "SSI-STREET-S2-v001",
-    "SSI-STREET-S3-v001",
-    "SSI-STREET-S4-v001",
-    "SSI-STREET-S5-v001"
-  ],
-  "summary": {
-    "oneSentence": "Ssivareth is a serpentfolk capital built as a jungle-root civic organism: sacred groves, temple platforms, public works, artisan streets, manor courts, blue lamps, hanging gardens, and molting-mirror ritual architecture braided through old-growth forest and wet stone.",
-    "identityStatement": "Ssivareth should read as an old serpentfolk civilization that never separated city from canopy. It is not a swamp village or generic reptile ruin; it is a settled capital of root-bound roads, limestone platforms, bamboo scaffolds, green marble, obsidian accents, water-management courts, sacred trees, procession stairs, and coiled ceremonial towers."
+  "metadata": {
+    "schemaVersion": "2.0",
+    "analysisVersion": 2,
+    "cityCode": "SSI",
+    "cityName": "Ssivareth",
+    "analysisDate": "2026-07-03",
+    "analystVersion": "gpt-5.5-thinking",
+    "analysisConfidence": "strong-lock",
+    "basedOnImages": ["SSI-HERO-NE-v001", "SSI-HERO-NW-v001", "SSI-HERO-SE-v001", "SSI-HERO-SW-v001", "SSI-STREET-S1-v001", "SSI-STREET-S2-v001", "SSI-STREET-S3-v001", "SSI-STREET-S4-v001", "SSI-STREET-S5-v001"],
+    "basedOnSidecars": ["SSI-HERO-NE-v001.json", "SSI-HERO-NW-v001.json", "SSI-HERO-SE-v001.json", "SSI-HERO-SW-v001.json", "SSI-STREET-S1-v001.json", "SSI-STREET-S2-v001.json", "SSI-STREET-S3-v001.json", "SSI-STREET-S4-v001.json", "SSI-STREET-S5-v001.json"]
   },
-  "evidence": {
-    "civilizationMaturity": {
-      "ageExpression": "ancient / deeply established",
-      "evidence": [
-        "hero views show a vast forest city with central citadel massing, far wonder-scale coiled temple forms, towers, bridges, waterways, and dense district fabric",
-        "street views show complete civic life across sacred grove, temple quarter, public works, artisan guilds, and high residential districts",
-        "the city feels grown around old roots and watercourses rather than newly imposed on cleared land",
-        "formal government, ritual, craft, infrastructure, and aristocratic residence all have mature district identities"
-      ]
-    },
-    "architecturalLanguage": {
-      "materials": [
-        "limestone blocks",
-        "bamboo",
-        "obsidian",
-        "green marble",
-        "woven reed",
-        "dark wet timber",
-        "root-wrapped masonry",
-        "bronze fittings",
-        "blue glass lamps",
-        "thatch and reed roofing",
-        "mossed stone"
-      ],
-      "forms": [
-        "coiled temple towers",
-        "serpent-scale citadel bands",
-        "sacred grove platforms",
-        "living canopy halls",
-        "procession stairs",
-        "survey halls",
-        "permit yards",
-        "artisan arcades",
-        "manor courts",
-        "hanging gardens",
-        "root bridges",
-        "water-management basins",
-        "reed docks and walkways"
-      ],
-      "skyline": [
-        "Serpent Scale Bands Tide-Seal Citadel as the dominant central civic anchor",
-        "Sacred Grove Beacon as the near/front signal landmark rooted in Section 1",
-        "Serpent Molting-Mirror Temple of Coiled Stone as the far wonder-scale ritual anchor",
-        "temple platforms, canopy towers, blue-lamp public works, and green stone civic roofs rising from old-growth forest"
-      ],
-      "lighting": [
-        "humid overcast daylight",
-        "green canopy-filtered light",
-        "blue civic lamp glow",
-        "warm lanterns under reed roofs",
-        "ritual fire at temple approaches",
-        "wet-stone reflections"
-      ],
-      "infrastructure": [
-        "water channels",
-        "root walkways",
-        "bridges",
-        "survey yards",
-        "permit tables",
-        "sacred grove paths",
-        "temple processional stairs",
-        "guild streets",
-        "canopy halls",
-        "high residential courts",
-        "beacon approach platforms"
-      ],
-      "visualPatterns": [
-        "the city repeatedly braids civic architecture into roots, trees, water, and reed structures",
-        "blue lamps and survey tools make public works visually important rather than background infrastructure",
-        "serpent motifs appear as coiled towers, scale bands, sinuous roads, and circular ritual forms",
-        "sacred grove, temple, and aristocratic spaces are refined but still porous to canopy and water",
-        "artisan streets are earthy and practical, creating contrast against ceremonial stone districts"
-      ],
-      "recurringMotifs": [
-        "serpent coils",
-        "scale bands",
-        "molting mirrors",
-        "sacred groves",
-        "hanging gardens",
-        "blue lamps",
-        "procession stairs",
-        "woven banners",
-        "living canopy halls",
-        "survey maps",
-        "reed roofs",
-        "root networks"
-      ]
-    },
-    "environmentalRelationship": {
-      "observed": "Ssivareth treats forest, root network, and water management as civic structure. The city does not merely decorate itself with jungle; it routes government, ritual, craft, and status through canopy and water.",
-      "evidence": [
-        "hero views show urban massing distributed through old-growth woodland and water channels",
-        "Section 1 centers a Nature Preserve / Sacred Grove Civic Hall and Living Canopy Hall Nook",
-        "Section 3 formalizes Public Works Authority, Survey Hall, Blue-Lamp Monument, and Permit Yard",
-        "street views repeatedly show wet stone, roots, reed architecture, blue lamps, bridges, and canopy shade"
-      ]
-    },
-    "authorityExpression": {
-      "observed": "Authority is ritual-civic and infrastructural. The Citadel projects formal government through serpent-scale bands and tide-seal imagery, while the city’s practical authority depends on sacred grove legitimacy, temple procession, survey work, permits, and guild production.",
-      "evidence": [
-        "seat of power is Serpent Scale Bands Tide-Seal Citadel",
-        "city wonder is Serpent Molting-Mirror Temple of Coiled Stone",
-        "beacon is Sacred Grove Beacon",
-        "Section 3 public works and permit systems are visually strong",
-        "Section 4 artisan guilds and Section 5 manor courts show power distributed through craft and status"
-      ]
-    },
-    "commercialSpaces": [
-      "reed market stalls",
-      "green marble carvers",
-      "bamboo scaffolders",
-      "blue-lamp repairers",
-      "survey-table vendors",
-      "permit copy counters",
-      "woven banner shops",
-      "herbal and trance-ritual sellers",
-      "serpent-scale metalworkers",
-      "canopy food stalls",
-      "garden vendors",
-      "manor-service markets"
-    ],
-    "publicSpaces": [
-      "sacred grove clearings",
-      "beacon approach platforms",
-      "temple processional roads",
-      "survey hall plazas",
-      "permit yards",
-      "artisan guild streets",
-      "masterwork arcades",
-      "manor courts",
-      "hanging garden courts",
-      "living canopy halls",
-      "root bridges"
-    ],
-    "districtCharacter": {
-      "section1NaturePreserveSacredGrove": "the civic root of the city: sacred trees, living canopy halls, hanging gardens, wet stone paths, small shrines, and the Sacred Grove Beacon rising from protected forest architecture",
-      "section2ReligiousTempleQuarter": "processional temple district with lantern monuments, crowds, dark carved stone, ritual stairs, market edges, and a more formal spiritual gravity",
-      "section3PublicWorksAuthority": "blue-lamp civic engineering district: survey hall, permit yard, water channels, maps, measuring tables, basin management, and practical control over how the city survives the forest-water environment",
-      "section4ArtisanGuilds": "earthier working district of guildhouses, woven banners, reed roofs, craft benches, smoke, warm lamps, and serpentfolk craftspeople working in public",
-      "section5HighResidential": "refined manor courts and hanging gardens, with pale stone, water features, red banners, ceremonial stairs, and controlled aristocratic access still embedded in greenery"
-    }
+  "cityDNA": {
+    "coreFantasy": "A serpentine forest city where sacred groves, temple platforms, survey halls, guild craft, manor courts, and molting-mirror rites make transformation a civic principle.",
+    "primaryEmotion": "coiled reverence",
+    "secondaryEmotion": "ritual vigilance",
+    "readerTakeaway": "Ssivareth is not a generic reptile jungle city; the uploaded images show a cultivated serpentfolk civic forest with sacred groves, public works, guilds, and elite garden courts.",
+    "civilizationThesis": "Ssivareth turns serpent trance, ancestor guidance, root networks, temple processions, surveys, craft proof, and high residential power into a civilization of managed transformation.",
+    "visualIdentity": "Limestone blocks, bamboo, obsidian, green marble, woven reed, sacred groves, hanging gardens, serpent-scale bands, temple platforms, survey halls, guildhalls, manor courts, and coiled-stone geometry.",
+    "culturalIdentity": "Serpentine reptilian civic culture that values ritual renewal, controlled access, ancestor memory, forest stewardship, craft display, and elite hospitality.",
+    "symbolicIdentity": "Scales, coils, molting mirrors, sacred groves, living canopy halls, procession stairs, blue lamps, woven banners, and salon pavilions symbolize renewal under law."
   },
-  "narrativeTranslation": {
+  "canon": {
+    "canonLocks": [
+      "Ssivareth is a mature serpentine reptilian civic city, not a generic jungle backdrop.",
+      "The Wonder is Serpent Molting-Mirror Temple of Coiled Stone.",
+      "The Beacon is Sacred Grove Beacon.",
+      "The Seat of Power is Serpent Scale Bands Tide-Seal Citadel.",
+      "The five primary districts are Nature Preserve / Sacred Grove, Religious / Temple Quarter, Public Works Authority, Artisan Guilds, and High Residential.",
+      "Exact uploaded anchors include Nature Preserve / Sacred Grove Civic Hall, Sacred Grove Beacon, Hanging Gardens Monument, Living Canopy Hall Nook, Religious / Temple Quarter Civic Hall, Temple Platform, Religious Temple Quarter Lantern Monument, Procession Stair Nook, Public Works Authority Hall, Survey Hall, Blue-Lamp Monument, Permit Yard Nook, Artisan Guilds Civic Hall, Guildhall, Woven Banners Monument, Masterwork Arcade Nook, High Residential Civic Hall, Manor Court, Hanging Gardens Monument, and Salon Pavilion Nook."
+    ],
+    "provisionalCanon": ["Ssivareth's strongest civic read is coiled reverence shaped into institutions.", "The uploaded image and sidecar pass were folded into v2 fields without adding a new top-level image-analysis section."],
+    "rejectedReads": ["generic serpent jungle", "wilderness without public institutions", "pure temple city with no public works or guild life"],
+    "cautionFlags": ["Preserve exact uploaded sidecar anchor names.", "Keep grove, temple, survey, guild, and high-residential systems visible together.", "Make serpent identity civic and ritual, not monster-coded scenery."]
+  },
+  "environment": {
+    "terrain": ["Forest", "Root Network", "Old Growth Woodland", "sacred grove courts", "root-road terraces", "manor garden platforms"],
+    "water": ["ritual basins", "garden water", "survey channels", "rain-darkened root paths"],
+    "vegetation": ["old growth trees", "bamboo", "hanging gardens", "sacred grove canopy", "manor gardens", "woven reed plantings"],
+    "climateLighting": ["filtered forest light", "green marble reflection", "blue civic lamps", "ritual lanterns", "humid canopy shade"],
+    "environmentalLogic": "The forest is structured civic space: sacred groves, survey yards, guild paths, and manor courts translate root networks into social order."
+  },
+  "architecture": {
+    "materials": ["Limestone Blocks", "Bamboo", "Obsidian", "Green Marble", "Woven Reed"],
+    "forms": ["Serpent Molting-Mirror Temple of Coiled Stone", "Serpent Scale Bands Tide-Seal Citadel", "Sacred Grove Beacon", "Living Canopy Hall Nook", "Temple Platform", "Procession Stair Nook", "Survey Hall", "Permit Yard Nook", "Guildhall", "Masterwork Arcade Nook", "Manor Court", "Salon Pavilion Nook"],
+    "skyline": ["Serpent Molting-Mirror Temple of Coiled Stone as far wonder anchor", "Serpent Scale Bands Tide-Seal Citadel as central authority", "Sacred Grove Beacon as forest signal landmark", "temple platforms, survey halls, guild roofs, and manor courts under old growth canopy"],
+    "lighting": ["filtered green light", "blue civic glow", "ritual lanterns", "obsidian reflection", "soft manor lamps"],
+    "infrastructure": ["sacred grove paths", "procession stairs", "survey yards", "permit courts", "guild arcades", "masterwork displays", "manor terraces", "salon pavilions"],
+    "motifs": ["serpent scales", "coils", "molting mirrors", "hanging gardens", "living canopy halls", "procession stairs", "blue lamps", "woven banners"],
+    "colorLanguage": ["green marble", "obsidian black", "limestone pale", "bamboo tan", "civic blue", "garden green"],
+    "textureLanguage": ["smooth scale stone", "woven reed", "wet roots", "polished obsidian", "carved limestone", "bamboo screens"]
+  },
+  "civilization": {
+    "people": "Serpentine reptilian citizens are ritual-aware, observant, patient, and institutionally literate, moving through groves, halls, guild arcades, survey yards, and manor courts.",
+    "occupations": ["grove keepers", "temple attendants", "surveyors", "permit clerks", "guild artisans", "masterwork inspectors", "manor stewards", "ritual mirror keepers"],
+    "socialClasses": ["Tide-Seal officials", "grove families", "temple authorities", "public works staff", "guild masters", "high residential houses", "craft households"],
+    "governance": "Serpent Scale Bands Tide-Seal Citadel governs through grove rights, ritual status, public works permits, guild authority, high-house petitions, and ancestor guidance.",
+    "religion": "Molting-mirror rites, sacred grove ceremonies, serpent trance, ancestor guidance, procession stairs, and temple platforms define renewal as a public obligation.",
+    "customs": ["grove silence", "molting-mirror reflection", "procession stair rites", "survey permit checking", "masterwork presentation", "manor salon negotiation"],
+    "bodyLanguage": ["coiled stillness", "deliberate turns", "careful threshold pauses", "status-aware spacing", "slow ceremonial gestures"],
+    "speechPatterns": ["ritual renewal phrases", "ancestor references", "permit language", "guild terminology", "polite high-house indirection"]
+  },
+  "urbanLife": {
     "streets": {
-      "description": "Ssivareth streets should feel damp, sinuous, layered, and canopy-bound. Roads curve like bodies around roots, canals, terraces, and sacred trees. Even formal stone avenues should feel braided through water, bamboo, vines, blue lamps, and reed-roofed structures.",
-      "writingGuidance": [
-        "Use curved movement instead of straight boulevards wherever possible.",
-        "Keep water, roots, canopy shade, blue lamps, wet stone, and reed texture present in most scenes.",
-        "Let public works appear constantly: survey ropes, basin markers, permit tables, drainage channels, and lamp posts matter here.",
-        "Write the serpentfolk as physically adapted to ramps, coils, low platforms, warm stones, and sinuous routes rather than generic humanoid streets."
-      ]
-    },
-    "people": {
-      "description": "Citizens should feel deliberate, observant, and fluid in movement. Priests, grove keepers, surveyors, artisans, permit clerks, manor retainers, apprentices, traders, and serpentfolk elders all share space through ritual etiquette and practical water-routing discipline.",
-      "behavioralNotes": [
-        "people coil or rest on warm stone ledges and low platforms",
-        "movement favors ramps, curved steps, root bridges, and water-adjacent paths",
-        "surveyors and permit clerks are treated as necessary civic actors, not minor bureaucrats",
-        "religious and civic routines overlap around grove, temple, and public works districts"
-      ]
+      "appearance": "Rooted civic paths move through sacred grove halls, temple platforms, survey offices, guild arcades, and manor gardens, with green marble, bamboo, reed screens, and blue lamps visible throughout.",
+      "movement": "Movement follows root paths, canopy halls, procession stairs, survey yards, guild corridors, and high residential garden routes.",
+      "sounds": ["canopy leaves", "ritual bells", "soft footfalls", "survey tools", "guild work", "salon voices"],
+      "smells": ["wet roots", "bamboo", "incense", "polished stone", "green plants", "lamp oil"],
+      "lighting": "Green forest light and blue civic lamps divide sacred grove, temple, public works, guild, and manor spaces.",
+      "weatherEffects": "Rain brightens roots and stone, deepens grove color, and makes canopy routes and public drainage visible.",
+      "dayCycle": "Survey work, guild craft, grove tending, and manor errands dominate daytime.",
+      "nightCycle": "Ritual lanterns, temple processions, salon gatherings, and quiet grove watch dominate night."
     },
     "shops": {
-      "examples": [
-        "blue-lamp repair stalls",
-        "bamboo frame shops",
-        "reed-cloth vendors",
-        "green marble carvers",
-        "scale-band metalworkers",
-        "survey instrument counters",
-        "permit copy tables",
-        "herbal trance sellers",
-        "molting-mirror polishers",
-        "garden and vine merchants",
-        "temple lantern vendors",
-        "manor service stalls"
-      ],
-      "writingGuidance": "Commerce should support a forest-water capital: craft, ritual, infrastructure, garden maintenance, lamp repair, and civic paperwork should all be normal market texture."
+      "common": ["reed craft stalls", "herb sellers", "bamboo tool counters", "garden food vendors"],
+      "uncommon": ["molting-mirror polishers", "serpent-scale carvers", "permit copyists", "masterwork appraisers"],
+      "prestigious": ["guild master halls", "Tide-Seal offices", "temple patron rooms", "manor salon suppliers"],
+      "exports": ["woven reed craft", "green marble carving", "ritual mirrors", "forest medicines", "guild masterworks"],
+      "imports": ["metal tools", "paper", "ink", "rare dyes", "fine cloth"],
+      "streetFood": ["leaf-wrapped cakes", "herb broth", "rice parcels", "spiced roots", "garden tea"],
+      "services": ["grove tending", "ritual consultation", "survey filing", "guild certification", "manor mediation"]
     },
-    "homes": {
-      "description": "Homes range from reed-and-timber canopy dwellings near the sacred grove and artisan districts to pale stone manor courts with hanging gardens. Serpentfolk homes should use low thresholds, shaded stone, water basins, climbing/root integration, and broad resting platforms.",
-      "writingGuidance": [
-        "Use coil-friendly platforms, warmed stone, shaded interiors, root-wrapped walls, and water access.",
-        "High residential spaces should be elegant but still humid, gardened, and physically connected to the forest."
-      ]
-    },
-    "publicLife": {
-      "dailyRhythms": [
-        "morning mist through sacred grove paths",
-        "temple processions climbing toward lantern platforms",
-        "surveyors checking water levels and root-road stability",
-        "permit tables filling with builders, traders, and basin workers",
-        "artisan guilds opening reed awnings and craft benches",
-        "manor courts receiving visitors under hanging gardens",
-        "blue lamps and warm lanterns taking over at dusk"
-      ],
-      "commonActivities": [
-        "grove offerings",
-        "serpent-trance rituals",
-        "water survey work",
-        "permit filing",
-        "lamp maintenance",
-        "bamboo repair",
-        "reed weaving",
-        "scale-band carving",
-        "temple procession",
-        "garden tending",
-        "market bargaining"
-      ]
-    },
-    "sounds": [
-      "water moving through channels",
-      "rain or drip from canopy leaves",
-      "bamboo creak",
-      "soft serpentfolk movement over wet stone",
-      "lantern glass chiming",
-      "temple drums or low chants",
-      "market voices under reed roofs",
-      "survey stakes being driven",
-      "tools from artisan benches",
-      "birds and insects in old-growth canopy"
-    ],
-    "smells": [
-      "wet stone",
-      "green leaves",
-      "reed thatch",
-      "lamp oil",
-      "bamboo smoke",
-      "river mud",
-      "incense",
-      "herbs",
-      "warm stone after rain",
-      "metal and green marble dust"
-    ],
-    "lighting": {
-      "day": "Daylight should be filtered through canopy and mist, making green marble, wet limestone, and blue civic lamps stand out softly rather than sharply.",
-      "night": "Night should belong to blue lamps, warm shrine lanterns, temple fire, and reflections in canals and rain-slick paving.",
-      "weather": "Humidity, overcast skies, rain, and mist should shape movement, visibility, and mood. Ssivareth should rarely feel dry even when not shown as a swamp."
-    },
-    "transportation": {
-      "description": "Movement is by curved stone roads, root bridges, ramps, stairs, narrow boats, reed walkways, canopy paths, and water-edge platforms. Serpentfolk should move more comfortably than outsiders through winding routes.",
-      "writingGuidance": [
-        "Use local route knowledge as a real advantage.",
-        "Let outsiders struggle with wet steps, curved routes, and ambiguous water/road boundaries.",
-        "Use permit gates and survey closures to redirect scenes naturally."
-      ]
-    },
-    "children": {
-      "description": "Children should be seen near water edges, grove paths, apprentice benches, and low platforms, learning which roots are safe, which lamps mark deep water, and how to read civic markers early."
-    },
-    "craftsmen": {
-      "description": "Craftsmen include reed weavers, bamboo scaffolders, green marble carvers, obsidian inlay workers, blue-lamp makers, survey instrument makers, temple lantern keepers, water-channel masons, and garden engineers."
-    },
-    "markets": {
-      "description": "Markets should be low, damp, canopied, and practical: tools, lamps, permits, herbs, ritual objects, woven goods, fish or river food, bamboo, garden materials, and polished stonework."
-    },
-    "food": {
-      "examples": [
-        "river fish wrapped in reeds",
-        "spiced root stew",
-        "herb rice",
-        "lotus-like seed cakes",
-        "smoked eel",
-        "green fruit",
-        "pepper broth",
-        "fermented reed drink",
-        "warm flatbread",
-        "market skewers"
-      ]
-    },
-    "companionObservations": {
-      "addie": [
-        "notices repeated permit language, grove rules, water-level markings, temple phrases, and scale-band civic formulas",
-        "stores routes by Sacred Grove Beacon, Temple Platform, Survey Hall, Guildhall, Manor Court, and the distant Molting-Mirror Temple",
-        "connects the city’s infrastructure language to Book 8 identity-record pressure and adaptive survival"
-      ],
-      "gregory": [
-        "reads serpent coils, molting mirrors, sacred groves, lantern processions, and scale bands as layered symbols of shedding, continuity, and transformation",
-        "would separate living ritual from decorative serpent imagery quickly"
-      ],
-      "brickett": [
-        "spots loose planks, drainage shortcuts, dry ledges, lamp access panels, permit-table mistakes, and hidden root paths",
-        "understands which routes locals actually use rather than the official processional roads"
-      ],
-      "talandra": [
-        "reads root bridges, wet stairs, water edges, hanging platforms, temple crowds, and canopy shadows as threat geometry",
-        "would dislike the number of curved sightlines and overhead hiding places"
-      ],
-      "mae": [
-        "would read water permits, grove protection, artisan guild monopolies, manor access, and temple patronage as power systems",
-        "would recognize that the public works district controls development more than it first appears"
-      ],
-      "carrio": [
-        "would have the deepest personal resonance here: serpent identity, molting, courtly movement, concealed adaptation, and social survival are written into the city’s architecture",
-        "should feel both at home and exposed in Ssivareth because the city makes transformation public"
-      ],
-      "genericCompanionNotes": [
-        "Outsiders should feel watched less by guards than by route systems, temple etiquette, and civic permits.",
-        "The city should feel alive in a literal ecological sense without becoming chaotic or primitive."
-      ]
+    "housing": {
+      "wealthy": "High residential manor courts with hanging gardens, salon pavilions, green marble, bamboo screens, and controlled grove access.",
+      "middle": "Guild and public works homes along root paths with workrooms, reed screens, and shared gardens.",
+      "poor": "Compact root-edge dwellings near service paths and public yards, with shared lamps and practical woven materials."
     }
   },
-  "arrivalExperience": {
-    "firstImpression": "A visitor should first experience Ssivareth as a city half-discovered through mist: coiled stone temples in the distance, blue lamps along wet civic roads, sacred trees rising through roofs, root bridges crossing water, and serpentfolk moving through the city as if the streets were built around their bodies.",
-    "firstHourSequence": [
-      "mist, canopy shadow, and the smell of wet stone",
-      "first sight of the Sacred Grove Beacon through hanging leaves",
-      "crossing curved root-road or reed bridge infrastructure",
-      "passing grove shrines and living canopy halls",
-      "encountering surveyors, permit tables, and blue-lamp public works",
-      "glimpsing the Serpent Molting-Mirror Temple and understanding that transformation is civic, not private"
-    ],
-    "readerEffect": "The reader should feel that Ssivareth is old, humid, intelligent, and physically unlike human cities. Its order is ecological, ritual, and infrastructural at once."
-  },
-  "departureMemory": {
-    "readerShouldRemember": [
-      "coiled temple silhouettes above old-growth forest",
-      "Sacred Grove Beacon in the canopy",
-      "blue lamps reflected on wet stone",
-      "serpent-scale citadel bands and tide-seal authority",
-      "temple processions and lantern stairs",
-      "public works survey yards controlling water and routes",
-      "artisan streets of reed, bamboo, woven banners, and green marble",
-      "manor courts softened by hanging gardens"
-    ]
-  },
-  "landmarkAnalysis": {
-    "wonder": {
-      "name": "Serpent Molting-Mirror Temple of Coiled Stone",
-      "purpose": "The Wonder embodies Ssivareth's highest cultural principle: adaptation through shedding, reflected identity, ritual transformation, and coiled continuity.",
-      "visualDescription": "A far skyline ritual complex of enormous coiled stone forms, mirror-like circular elements, pale/green masonry, and serpent-scale silhouettes rising above forest and water.",
-      "narrativeUse": "Use the Wonder whenever the story needs to make transformation feel sacred, public, and unavoidable. It should visually prefigure Carrio's Book 8 feat: shedding skin is not shameful here; it is architecture.",
-      "howCharactersNoticeIt": {
-        "addie": "notices repeated molting/mirror language in civic notices and temple phrases",
-        "gregory": "reads it as a symbol of identity that survives visible change",
-        "brickett": "spots maintenance routes, mirror access, and service scaffolding around the spectacle",
-        "talandra": "maps exposed platforms, crowd approaches, and reflective sightline confusion",
-        "carrio": "experiences the Wonder as personal accusation and invitation: the city has built a monument to what Carrio must do"
-      },
-      "commonActivities": [
-        "molting rites",
-        "identity vows",
-        "temple processions",
-        "mirror ceremonies",
-        "public transformations",
-        "ancestor-guided trance observances"
-      ],
-      "visibilityFromCity": "Visible in hero views as a far skyline anchor, repeatedly distinct from the Citadel and Beacon."
-    },
-    "beacon": {
-      "name": "Sacred Grove Beacon",
-      "purpose": "The Beacon ties Conjunction signal identity to living grove legitimacy rather than a purely military or administrative tower.",
-      "visualDescription": "A vertical blue-lit signal landmark rising from sacred grove/canopy architecture, surrounded by living trees, wet stone, hanging gardens, and ritual public space.",
-      "narrativeUse": "Use the Beacon to make civic warning feel ecological and sacred. When its color changes, the grove, water routes, priests, surveyors, and ordinary citizens should all react.",
-      "howCharactersNoticeIt": {
-        "addie": "notices how citizens interpret Beacon changes through grove protection and ritual timing",
-        "gregory": "reads it as a warning light rooted in living authority",
-        "brickett": "finds hidden approaches through roots, lamp ladders, and service niches",
-        "talandra": "treats the grove approach as dangerous because vegetation and crowds break clean sightlines",
-        "carrio": "reads the Beacon as a public demand to change without losing continuity"
-      },
-      "commonActivities": [
-        "signal watching",
-        "grove offerings",
-        "public warnings",
-        "ritual musters",
-        "water-route closures",
-        "temple announcements"
-      ],
-      "visibilityFromCity": "Prominent in Section 1 and visible in hero views as the near/front signal anchor."
-    },
-    "seatOfPower": {
-      "name": "Serpent Scale Bands Tide-Seal Citadel",
-      "purpose": "The seat of power expresses government as layered scale, tide law, archive sealing, and command authority adapted to serpentfolk movement and old-growth terrain.",
-      "visualDescription": "A central civic citadel of limestone, green marble, scale-band ornament, obsidian accents, terraces, archives, and government platforms rising from the root-water city fabric.",
-      "narrativeUse": "Use the Citadel to show that Ssivareth is not merely spiritual or organic; it has a formal state apparatus that records, seals, commands, and arbitrates access to land and water.",
-      "howCharactersNoticeIt": {
-        "addie": "locks onto repeated tide-seal phrases, archived permissions, and scale-band legal categories",
-        "gregory": "reads scale bands as layered authority and accumulated shedding",
-        "brickett": "spots archive runners, drainage routes, service doors, and where wet infrastructure hides movement",
-        "talandra": "maps terraces, bridges, water edges, and canopy-obscured approaches",
-        "mae": "reads the Citadel as control over land-use, grove rights, and water management"
-      },
-      "commonActivities": [
-        "audiences",
-        "water rulings",
-        "archive sealing",
-        "grove-right disputes",
-        "public petitions",
-        "permit appeals",
-        "temple-state ceremonies"
-      ],
-      "visibilityFromCity": "Dominant central civic anchor visible across hero views, separate from the far Molting-Mirror Temple and Section 1 Beacon."
-    },
+  "districts": [
+    {"sectionNumber": 1, "name": "Nature Preserve / Sacred Grove", "civicPurpose": "Sacred ecology, public signal, ancestral guidance, and ritual forest identity.", "visualIdentity": "Nature Preserve / Sacred Grove Civic Hall, Sacred Grove Beacon, Hanging Gardens Monument, Living Canopy Hall Nook.", "emotionalIdentity": "reverent, alive, watchful", "gameplayAssetNeeds": ["Nature Preserve / Sacred Grove Civic Hall", "Sacred Grove Beacon", "Hanging Gardens Monument", "Living Canopy Hall Nook"], "narrativeUse": ["Beacon warning", "grove rite", "ancestor guidance"], "landmark": "Sacred Grove Beacon", "minorLandmarks": ["Hanging Gardens Monument", "Living Canopy Hall Nook"]},
+    {"sectionNumber": 2, "name": "Religious / Temple Quarter", "civicPurpose": "Molting rites, processions, temple authority, and public renewal ceremonies.", "visualIdentity": "Religious / Temple Quarter Civic Hall, Temple Platform, Religious Temple Quarter Lantern Monument, Procession Stair Nook.", "emotionalIdentity": "ceremonial, coiled, ancient", "gameplayAssetNeeds": ["Religious / Temple Quarter Civic Hall", "Temple Platform", "Religious Temple Quarter Lantern Monument", "Procession Stair Nook"], "narrativeUse": ["temple rite", "procession", "renewal vow"], "landmark": "Temple Platform", "minorLandmarks": ["Religious Temple Quarter Lantern Monument", "Procession Stair Nook"]},
+    {"sectionNumber": 3, "name": "Public Works Authority", "civicPurpose": "Surveying, permits, route maintenance, and forest-city growth control.", "visualIdentity": "Public Works Authority Hall, Survey Hall, Blue-Lamp Monument, Permit Yard Nook.", "emotionalIdentity": "measured, technical, civic", "gameplayAssetNeeds": ["Public Works Authority Hall", "Survey Hall", "Blue-Lamp Monument", "Permit Yard Nook"], "narrativeUse": ["permit dispute", "survey clue", "route authority"], "landmark": "Survey Hall", "minorLandmarks": ["Blue-Lamp Monument", "Permit Yard Nook"]},
+    {"sectionNumber": 4, "name": "Artisan Guilds", "civicPurpose": "Craft proof, guild legitimacy, masterwork display, and public production.", "visualIdentity": "Artisan Guilds Civic Hall, Guildhall, Woven Banners Monument, Masterwork Arcade Nook.", "emotionalIdentity": "skilled, proud, ceremonial", "gameplayAssetNeeds": ["Artisan Guilds Civic Hall", "Guildhall", "Woven Banners Monument", "Masterwork Arcade Nook"], "narrativeUse": ["craft proof", "guild politics", "masterwork clue"], "landmark": "Guildhall", "minorLandmarks": ["Woven Banners Monument", "Masterwork Arcade Nook"]},
+    {"sectionNumber": 5, "name": "High Residential", "civicPurpose": "Elite hospitality, manor influence, controlled garden access, and private-public status display.", "visualIdentity": "High Residential Civic Hall, Manor Court, Hanging Gardens Monument, Salon Pavilion Nook.", "emotionalIdentity": "refined, guarded, socially charged", "gameplayAssetNeeds": ["High Residential Civic Hall", "Manor Court", "Hanging Gardens Monument", "Salon Pavilion Nook"], "narrativeUse": ["manor negotiation", "class pressure", "salon intrigue"], "landmark": "Manor Court", "minorLandmarks": ["Hanging Gardens Monument", "Salon Pavilion Nook"]}
+  ],
+  "landmarks": {
+    "wonder": {"name": "Serpent Molting-Mirror Temple of Coiled Stone", "symbolicRole": "Renewal, ancestry, reflection, and coiled civic order made monumental.", "visualRole": "Far skyline temple of coiled stone, mirrored surfaces, green marble, and sacred forest approaches.", "civicRole": "Citywide rites of renewal, reflection, succession, and collective memory.", "narrativeUse": ["molting rite", "public renewal", "ancestor revelation"], "assetUse": ["map wonder", "far skyline anchor"], "sensoryIdentity": ["cool stone", "green light", "ritual hush"], "storyHooks": ["A molting-mirror rite reveals which old skin the city refuses to shed."]},
+    "beacon": {"name": "Sacred Grove Beacon", "symbolicRole": "Public warning rooted in sacred ecology.", "visualRole": "Beacon nested among sacred grove halls, hanging gardens, and living canopy paths.", "civicRole": "Coordinates grove response, temple movement, public works routes, guild notices, and manor warnings.", "narrativeUse": ["Beacon change", "grove warning", "public gathering"], "assetUse": ["S1 centerpiece", "signal marker"], "sensoryIdentity": ["blue-green glow", "leaf hush", "ritual bells"], "storyHooks": ["When the Beacon changes, the grove reacts before the court speaks."]},
+    "seatOfPower": {"name": "Serpent Scale Bands Tide-Seal Citadel", "symbolicRole": "Serpent hierarchy, tide-seal authority, and civic memory banded into law.", "visualRole": "Central citadel with scale-band ornament, green marble, sealed archives, and public terraces.", "civicRole": "Governs grove rights, temple obligations, public works, guild claims, manor petitions, and renewal records.", "narrativeUse": ["registry hearing", "grove dispute", "guild claim"], "assetUse": ["seat-of-power marker"], "sensoryIdentity": ["ink", "cool marble", "reed screens", "sealed wax"], "storyHooks": ["A scale-band record shows who is allowed to renew and who must remain fixed."]},
     "majorLandmarks": [
-      {
-        "name": "Sacred Grove Beacon",
-        "sectionNumber": 1,
-        "narrativeUse": "Use for grove authority, Conjunction signal anxiety, living civic space, and public ritual response."
-      },
-      {
-        "name": "Temple Platform",
-        "sectionNumber": 2,
-        "narrativeUse": "Use for processions, transformation rites, religious crowds, and serpentfolk public ceremony."
-      },
-      {
-        "name": "Survey Hall",
-        "sectionNumber": 3,
-        "narrativeUse": "Use for water management, route control, permit disputes, engineering, and evidence about how the city survives."
-      },
-      {
-        "name": "Guildhall",
-        "sectionNumber": 4,
-        "narrativeUse": "Use for craft identity, bamboo/reed/stonework, artisan politics, and practical street life."
-      },
-      {
-        "name": "Manor Court",
-        "sectionNumber": 5,
-        "narrativeUse": "Use for aristocratic access, gardened privilege, high residential politics, and controlled hospitality."
-      }
-    ],
-    "monuments": [
-      {
-        "name": "Hanging Gardens Monument",
-        "narrativeUse": "Use in S1 and S5 to show nature cultivated as civic beauty and status rather than wild decoration."
-      },
-      {
-        "name": "Religious Temple Quarter Lantern Monument",
-        "narrativeUse": "Use for procession light, temple memory, and public transformation rites."
-      },
-      {
-        "name": "Blue-Lamp Monument",
-        "narrativeUse": "Use to mark public works authority, safe routes, water-level warnings, and nighttime navigation."
-      },
-      {
-        "name": "Woven Banners Monument",
-        "narrativeUse": "Use to show artisan guild identity, public craft pride, and district belonging."
-      }
-    ],
-    "minorLandmarks": [
-      {
-        "name": "Living Canopy Hall Nook",
-        "narrativeUse": "Use for intimate grove politics, shade, quiet counsel, and ecological civic identity."
-      },
-      {
-        "name": "Procession Stair Nook",
-        "narrativeUse": "Use for temple crowd movement, ritual pressure, and scenes where public transformation becomes unavoidable."
-      },
-      {
-        "name": "Permit Yard Nook",
-        "narrativeUse": "Use for bureaucracy, water-route disputes, development permissions, and civic friction."
-      },
-      {
-        "name": "Masterwork Arcade Nook",
-        "narrativeUse": "Use for craft detail, guild pride, small clues, and practical working-class texture."
-      },
-      {
-        "name": "Salon Pavilion Nook",
-        "narrativeUse": "Use for high residential conversation, aristocratic negotiation, and controlled private influence."
-      }
+      {"name": "Temple Platform", "symbolicRole": "Ritual renewal made public.", "visualRole": "Temple platform with lantern monument, procession stair, and coiled ceremonial geometry.", "civicRole": "Processions, ceremonies, and temple authority.", "narrativeUse": ["procession", "ritual test"], "assetUse": ["S2 diorama"], "sensoryIdentity": ["incense", "stone", "soft bells"], "storyHooks": ["A procession stops at the stair that should have stayed empty."]},
+      {"name": "Survey Hall", "symbolicRole": "Forest order measured rather than guessed.", "visualRole": "Survey hall with blue lamp, permit yard, maps, and root-network paths.", "civicRole": "Public works, permits, and route control.", "narrativeUse": ["survey clue", "permit conflict"], "assetUse": ["S3 diorama"], "sensoryIdentity": ["maps", "wet roots", "lamp glass"], "storyHooks": ["A permit yard map reveals a root path older than the city’s law."]},
+      {"name": "Guildhall", "symbolicRole": "Craft as social legitimacy.", "visualRole": "Guildhall with woven banners, masterwork arcade, and forest-civic work courts.", "civicRole": "Guild authority, craft certification, and public making.", "narrativeUse": ["craft proof", "guild rivalry"], "assetUse": ["S4 diorama"], "sensoryIdentity": ["tool taps", "reed cloth", "polished stone"], "storyHooks": ["A masterwork exposes the shape of a hidden oath."]},
+      {"name": "Manor Court", "symbolicRole": "Status curated as gardened power.", "visualRole": "Manor court with hanging gardens, salon pavilion, and controlled access paths.", "civicRole": "Elite hospitality, patronage, and high-house negotiation.", "narrativeUse": ["salon intrigue", "class pressure"], "assetUse": ["S5 diorama"], "sensoryIdentity": ["garden water", "silk", "low voices"], "storyHooks": ["A salon invitation becomes more binding than a court order."]}
     ]
   },
-  "immediateNarrativeImprovements": [
-    {
-      "target": "Book 8 Carrio / Shed Skin scenes",
-      "recommendation": "Use Ssivareth as direct environmental pressure on Carrio: the city publicly honors molting, mirrors, and adaptation, making Carrio's private identity problem impossible to keep private."
-    },
-    {
-      "target": "street descriptions",
-      "recommendation": "Replace generic jungle-city prose with wet stone, root bridges, blue lamps, reed roofs, green marble, survey markers, procession stairs, and coil-friendly platforms."
-    },
-    {
-      "target": "landmark use",
-      "recommendation": "Make the Sacred Grove Beacon a living civic signal and the Molting-Mirror Temple the symbolic skyline of transformation."
-    },
-    {
-      "target": "governance writing",
-      "recommendation": "Show that water permits, grove rights, surveys, temple access, and manor privilege are the city’s real levers of power."
-    },
-    {
-      "target": "city differentiation",
-      "recommendation": "Distinguish SSI from PFN: PFN is swamp foundation and hidden amphibian architecture; SSI is serpentfolk forest-water capital with formal temples, public works, guilds, and high residential hierarchy."
-    }
-  ],
-  "interpretation": {
-    "civilizationThesis": "Ssivareth is the architecture of adaptive continuity: a serpentfolk capital that turns shedding, water management, sacred groves, public works, craft, and aristocratic garden courts into one civic system.",
-    "environmentalPhilosophy": "Braid with the living world: do not clear the forest or surrender to it; route law, ritual, craft, and status through it.",
-    "adaptiveStrategy": "Shed and reroute: preserve continuity by changing shape, changing path, and formally managing the conditions that make change survivable.",
-    "authorityModel": "ritual-infrastructural governance with aristocratic overlay",
-    "relationshipWithNature": "integrated and managed; the city treats old-growth forest and water as civic partners requiring rules, permits, and ritual respect",
-    "relationshipWithHistory": "molting and scale imagery make history cumulative: the past is shed but not discarded",
-    "relationshipWithKnowledge": "practical and embodied; surveyors, permits, temple rites, and craft guilds convert lived adaptation into civic knowledge",
-    "relationshipWithRisk": "risk is managed through water surveys, blue lamps, grove protection, temple ritual, and flexible route design",
-    "relationshipWithBeauty": "beauty is humid, cultivated, sinuous, and alive: hanging gardens, wet stone, green marble, and coiled silhouettes",
-    "relationshipWithCommunity": "community is layered by temple, guild, grove, manor, and infrastructure duties rather than a simple egalitarian village model",
-    "civilizationalTension": {
-      "tension": "living adaptation vs formal control",
-      "resolution": "Ssivareth resolves the tension by making adaptation itself official: molting rites, water permits, grove law, and survey authority all regulate change without denying it."
-    },
-    "highestVirtue": "adaptation",
-    "religiousExpression": "strong and public, centered on sacred grove, serpent trance, ancestor guidance, lantern processions, and molting-mirror ritual",
-    "economicIdentity": "reed/bamboo craft, blue-lamp maintenance, water engineering, temple trade, garden cultivation, green marble and obsidian work, and guild production",
-    "socialIdentity": "fluid, observant, ritual-aware, infrastructure-dependent, status-layered, and physically adapted to canopy-water urbanism"
-  },
-  "canonReview": {
-    "lockedCanon": [
-      {
-        "statement": "Ssivareth is a serpentfolk forest-water capital where sacred grove authority, temple transformation rites, public works, artisan guilds, and high residential manor courts define civic life.",
-        "reason": "All nine images and sidecars consistently support the Sacred Grove Beacon, Religious / Temple Quarter, Public Works Authority, Artisan Guilds, High Residential, and Serpent Molting-Mirror Temple framework.",
-        "supportingEvidence": [
-          "Sacred Grove Beacon",
-          "Serpent Molting-Mirror Temple of Coiled Stone",
-          "Serpent Scale Bands Tide-Seal Citadel",
-          "Temple Platform",
-          "Survey Hall",
-          "Guildhall",
-          "Manor Court"
-        ],
-        "confidence": "high"
-      },
-      {
-        "statement": "Ssivareth's city form should be sinuous and ecological rather than grid-like or purely monumental.",
-        "reason": "The images repeatedly show root networks, water channels, canopy structures, curved roads, coiled temple forms, and district architecture built around forest/water conditions.",
-        "supportingEvidence": [
-          "root bridges",
-          "water channels",
-          "living canopy hall",
-          "coiled temple silhouettes",
-          "wet street views"
-        ],
-        "confidence": "high"
-      },
-      {
-        "statement": "The Molting-Mirror Temple should be treated as direct Book 8 thematic architecture for adaptation and identity shedding.",
-        "reason": "The Wonder's name, visual shape, and Book 8 SSI placement align tightly with Carrio's feat and the Serpent Shedding / Adaptive Molting theme.",
-        "supportingEvidence": [
-          "Serpent Molting-Mirror Temple of Coiled Stone",
-          "Book 8 green beacon SSI",
-          "Adaptive Molting / Serpent Shedding thematic frame"
-        ],
-        "confidence": "high"
-      }
-    ],
-    "provisionalCanon": [
-      {
-        "statement": "Ssivareth's highest civic virtue is adaptation.",
-        "reason": "The city repeatedly expresses flexible continuity through molting, water routing, grove integration, public works, and serpentfolk-compatible urban form.",
-        "supportingEvidence": [
-          "Molting-Mirror Temple",
-          "Survey Hall",
-          "Sacred Grove Beacon",
-          "Living Canopy Hall",
-          "Permit Yard"
-        ],
-        "confidence": "medium-high"
-      },
-      {
-        "statement": "Public works may be one of Ssivareth's real centers of power, not a secondary administrative district.",
-        "reason": "Section 3 is visually strong and the city’s forest-water survival depends on survey, permits, blue lamps, and route management.",
-        "supportingEvidence": [
-          "Public Works Authority Hall",
-          "Survey Hall",
-          "Blue-Lamp Monument",
-          "Permit Yard Nook"
-        ],
-        "confidence": "medium-high"
-      }
-    ],
-    "workingHypotheses": [
-      {
-        "statement": "Serpentfolk governance may equate identity continuity with managed transformation: changing form is accepted when it remains ritually, legally, and socially legible.",
-        "reason": "SSI strongly supports this, but Carrio's narrative and other serpentfolk sites should validate the broader cultural claim.",
-        "supportingEvidence": [
-          "Molting-Mirror Temple",
-          "Tide-Seal Citadel",
-          "Temple Platform",
-          "Permit Yard",
-          "Book 8 Carrio feat"
-        ],
-        "confidence": "medium"
-      }
-    ],
-    "rejectedHypotheses": [
-      {
-        "statement": "Ssivareth is a primitive jungle settlement.",
-        "reason": "The images show monumental citadel architecture, temple platforms, public works, guilds, manor courts, and mature civic infrastructure.",
-        "supportingEvidence": [
-          "Serpent Scale Bands Tide-Seal Citadel",
-          "Survey Hall",
-          "Guildhall",
-          "Manor Court",
-          "hero-view metropolitan scale"
-        ],
-        "confidence": "high"
-      },
-      {
-        "statement": "Ssivareth is just another swamp city like Pollyr Fen.",
-        "reason": "PFN centers hidden swamp foundation and amphibian civic spirituality; SSI centers serpentfolk canopy-water formalism, molting ritual, public works, and forest-root urbanism.",
-        "supportingEvidence": [
-          "Molting-Mirror Temple",
-          "Sacred Grove Beacon",
-          "Public Works Authority",
-          "Artisan Guilds",
-          "High Residential"
-        ],
-        "confidence": "high"
-      }
-    ]
-  },
-  "futureQuestions": [
-    "How much of Ssivareth's molting culture is biological, religious, social, or legal?",
-    "Does the Tide-Seal Citadel imply formal water law, transformation law, or both?",
-    "How does Carrio feel about a city that publicly honors what Carrio may experience privately as exposure?",
-    "How coercive are permit systems around grove rights and water routes?",
-    "How should SSI compare against QNY, NAK, PFN, and DLS in wet-city and river-city identity?"
-  ],
-  "comparativeNotes": {
-    "distinctFrom": [
-      {
-        "cityCode": "PFN",
-        "difference": "PFN is hidden swamp architecture built around amphibian foundations; SSI is formal serpentfolk forest-water urbanism with temples, public works, and molting ritual."
-      },
-      {
-        "cityCode": "DLS",
-        "difference": "DLS expresses river locks and flow-control infrastructure; SSI expresses canopy-root-water adaptation and sacred grove/temple authority."
-      },
-      {
-        "cityCode": "NVR",
-        "difference": "Nox Vaelor's forest tension is aristocratic and shadow-corruptive; SSI's forest integration is civic, ritual, and infrastructural."
-      },
-      {
-        "cityCode": "QNY",
-        "difference": "Qinyue likely carries East Asian civic river order; SSI carries serpentfolk molting, root networks, and jungle public works."
-      }
-    ],
-    "similarTo": [
-      {
-        "cityCode": "PFN",
-        "similarity": "Both are wet, non-human cities where water and vegetation are civic foundations rather than scenery."
-      },
-      {
-        "cityCode": "ELT",
-        "similarity": "Both integrate built life with forest ecology, though ELT reads more serene/communal and SSI more ritual-infrastructural."
-      },
-      {
-        "cityCode": "PSG",
-        "similarity": "Both make public works and permits part of daily civic power, though PSG is maritime-commercial and SSI is forest-water adaptive."
-      }
-    ],
-    "uniqueContributions": [
-      "strongest current molting/transformation civic architecture",
-      "clearest serpentfolk-compatible urban movement model",
-      "best fusion so far of sacred grove, temple ritual, public works, and high residential hierarchy",
-      "blue-lamp public works identity in a living canopy environment"
-    ],
-    "potentialInfluences": [
-      "Book 8 Carrio identity arc",
-      "adaptive molting culture bible",
-      "serpentfolk movement and architecture rules",
-      "wet-city comparative matrix",
-      "Mother's observation that biological adaptation can become civic law and ritual"
-    ]
-  },
-  "crossCityTags": [
-    "serpentfolk-city",
-    "forest-water-capital",
-    "sacred-grove-beacon",
-    "molting-mirror-wonder",
-    "serpent-scale-citadel",
-    "root-network-urbanism",
-    "public-works-authority",
-    "blue-lamp-infrastructure",
-    "temple-quarter",
-    "artisan-guilds",
-    "high-residential-gardens",
-    "adaptive-continuity",
-    "established-civilization"
-  ],
-  "evolution": {
-    "previousAssumptions": [
-      "Ssivareth was expected to be serpentfolk and tied to Book 8 adaptation / shedding identity.",
-      "The exact balance between jungle, temple, public works, guilds, and aristocratic districts had not yet been formalized."
-    ],
-    "discoveries": [
-      "The city is more infrastructural than expected: Survey Hall, Permit Yard, and blue lamps are major civic identity markers.",
-      "The Molting-Mirror Temple gives Carrio's Book 8 feat a direct architectural mirror.",
-      "Sacred grove authority is central enough to host the Beacon, making living ecology a public signal system.",
-      "Ssivareth is not a loose jungle settlement; it is a highly organized capital built through roots, water, ritual, and law.",
-      "High residential and artisan districts show class/craft layering inside the same ecological city organism."
-    ],
-    "confirmedAssumptions": [
-      "Ssivareth should feel serpentine, humid, ritualized, and adaptive.",
-      "Water and vegetation should define the city materially and politically.",
-      "The city should be useful for Carrio's identity and transformation narrative."
-    ],
-    "changedOurMind": [
-      "Do not lean on generic snake-temple imagery alone; public works and civic adaptation are just as important.",
-      "Do not write the city as primitive or hidden; it is a capital-scale civilization with formal institutions.",
-      "Make route design and body-form adaptation visible in street prose."
-    ],
-    "futureValidation": [
-      "Compare SSI with future serpentfolk, reptilian, and wet-city analyses to refine the molting-law hypothesis.",
-      "Use Carrio scenes to test whether the city feels like home, threat, or mirror.",
-      "Revisit SSI prose for enough public works, sacred grove, and movement-specific detail."
-    ]
+  "assetGuidance": {
+    "districtDioramaGuidance": ["S1 must show Nature Preserve / Sacred Grove Civic Hall, Sacred Grove Beacon, Hanging Gardens Monument, and Living Canopy Hall Nook.", "S2 must show Religious / Temple Quarter Civic Hall, Temple Platform, Religious Temple Quarter Lantern Monument, and Procession Stair Nook.", "S3 must show Public Works Authority Hall, Survey Hall, Blue-Lamp Monument, and Permit Yard Nook.", "S4 must show Artisan Guilds Civic Hall, Guildhall, Woven Banners Monument, and Masterwork Arcade Nook.", "S5 must show High Residential Civic Hall, Manor Court, Hanging Gardens Monument, and Salon Pavilion Nook."],
+    "mapBackgroundGuidance": ["Keep Serpent Molting-Mirror Temple of Coiled Stone, Sacred Grove Beacon, and Serpent Scale Bands Tide-Seal Citadel legible together.", "Use limestone, bamboo, obsidian, green marble, woven reed, sacred groves, temple platforms, survey halls, guildhalls, manor courts, and coiled-stone geometry."],
+    "requiredVisualElements": ["Serpent Molting-Mirror Temple of Coiled Stone", "Sacred Grove Beacon", "Serpent Scale Bands Tide-Seal Citadel", "Nature Preserve / Sacred Grove Civic Hall", "Hanging Gardens Monument", "Living Canopy Hall Nook", "Temple Platform", "Religious Temple Quarter Lantern Monument", "Procession Stair Nook", "Survey Hall", "Blue-Lamp Monument", "Permit Yard Nook", "Guildhall", "Woven Banners Monument", "Masterwork Arcade Nook", "Manor Court", "Salon Pavilion Nook"],
+    "elementsToAvoid": ["generic serpent jungle", "monster-coded reptile scenery", "wilderness with no public works", "temple-only city", "exact sidecar anchors omitted"]
   }
 }

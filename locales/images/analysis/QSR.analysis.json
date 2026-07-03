@@ -1,641 +1,113 @@
 {
-  "schemaVersion": 1,
-  "analysisVersion": 1,
-  "cityCode": "QSR",
-  "cityName": "Qasr Siroth",
-  "analysisConfidence": "strong-lock",
-  "analysisDate": "2026-06-30",
-  "analystVersion": "gpt-5.5-thinking",
-  "basedOnImages": [
-    "QSR-HERO-NE-v001",
-    "QSR-HERO-NW-v001",
-    "QSR-HERO-SE-v001",
-    "QSR-HERO-SW-v001",
-    "QSR-STREET-S1-v001",
-    "QSR-STREET-S2-v001",
-    "QSR-STREET-S3-v001",
-    "QSR-STREET-S4-v001"
-  ],
-  "summary": {
-    "oneSentence": "Qasr Siroth is a sun-baked desert capital where oasis infrastructure, caravan trade, shaded bazaars, terraces, cisterns, granaries, and sun-disc civic symbolism turn scarcity into visible public order.",
-    "identityStatement": "Qasr Siroth should read as a civilization of managed heat and precious water. Its grandeur does not come from abundance; it comes from making survival legible through cisterns, shade, caravanserai, terrace agriculture, storage, registry, and sun-centered civic authority."
+  "metadata": {
+    "schemaVersion": "2.0",
+    "analysisVersion": 2,
+    "cityCode": "QSR",
+    "cityName": "Qasr Siroth",
+    "analysisDate": "2026-07-03",
+    "analystVersion": "gpt-5.5-thinking",
+    "analysisConfidence": "source-limited",
+    "basedOnImages": ["QSR-HERO-NE-v001", "QSR-HERO-NW-v001", "QSR-HERO-SE-v001", "QSR-HERO-SW-v001", "QSR-STREET-S1-v001", "QSR-STREET-S2-v001", "QSR-STREET-S3-v001", "QSR-STREET-S4-v001"],
+    "basedOnSidecars": ["QSR-HERO-NE-v001.json", "QSR-HERO-NW-v001.json", "QSR-HERO-SE-v001.json", "QSR-HERO-SW-v001.json", "QSR-STREET-S1-v001.json", "QSR-STREET-S2-v001.json", "QSR-STREET-S3-v001.json", "QSR-STREET-S4-v001.json"]
   },
-  "evidence": {
-    "civilizationMaturity": {
-      "ageExpression": "ancient-established",
-      "evidence": [
-        "hero views show a large desert city with monumental civic structures, dense residential fabric, caravan infrastructure, green oasis corridors, and distant palace/citadel forms",
-        "street views show mature public spaces: covered bazaars, aid commons, terrace granary systems, civic plazas, and shaded circulation",
-        "water, shade, storage, and trade infrastructure appear integrated rather than improvised",
-        "sun-disc, cistern, caravanserai, and registry motifs recur as stable civic language"
-      ]
-    },
-    "architecturalLanguage": {
-      "materials": [
-        "sandstone",
-        "adobe plaster",
-        "carved cedar",
-        "bronze",
-        "clay tile",
-        "white stone civic facades",
-        "woven red awnings",
-        "green-glazed tile",
-        "oasis stone channels",
-        "weathered market timber"
-      ],
-      "forms": [
-        "windcatcher towers",
-        "caravanserai courts",
-        "covered bazaars",
-        "arcaded markets",
-        "sun-disc relief facades",
-        "cistern courts",
-        "terrace granaries",
-        "oasis gardens",
-        "fortified kasbah walls",
-        "stepped civic approaches",
-        "shaded plazas",
-        "water channels and fountains"
-      ],
-      "skyline": [
-        "the North-African Sun-Cistern Citadel of Ma’at dominates the civic horizon",
-        "Caravanserai Beacon rises as a public landmark near trade and approach routes",
-        "windcatcher towers and minaret-like civic towers create vertical rhythm",
-        "green oasis corridors and agricultural terraces cut through the desert massing",
-        "dense tan city fabric leads toward bright white/gold authority structures"
-      ],
-      "lighting": [
-        "harsh noon sunlight",
-        "sand glare",
-        "deep market shade",
-        "sunlit white civic stone",
-        "lantern light inside bazaars",
-        "blue civic lamps or beacon accents",
-        "gold reflections from sun-disc ornament"
-      ],
-      "infrastructure": [
-        "cistern systems",
-        "fountains",
-        "oasis canals",
-        "caravanserai yards",
-        "covered market routes",
-        "terrace granaries",
-        "shaded arcades",
-        "windcatchers",
-        "fortified gates",
-        "aid commons",
-        "agricultural terraces"
-      ],
-      "visualPatterns": [
-        "shade is civic infrastructure, not decoration",
-        "water is displayed carefully in public basins, channels, and garden corridors",
-        "trade routes and civic authority are tightly linked",
-        "granaries and aid commons make survival logistics public",
-        "sun-disc symbolism connects authority, law, heat, and order"
-      ],
-      "recurringMotifs": [
-        "sun discs",
-        "stars",
-        "arches",
-        "fountains",
-        "date palms",
-        "red awnings",
-        "caravan banners",
-        "geometric mosaics",
-        "windcatchers",
-        "cisterns",
-        "granaries"
-      ]
-    },
-    "environmentalRelationship": {
-      "observed": "Qasr Siroth does not defeat the desert; it survives by organizing scarcity. Heat, shade, water, storage, and trade are all visible as civic systems.",
-      "evidence": [
-        "oasis greens and water channels are prominent but controlled",
-        "covered bazaars and shaded arcades structure street life",
-        "terrace granaries and aid commons appear as major civic anchors",
-        "caravanserai and beacon identity connect the city to desert movement and trade"
-      ]
-    },
-    "authorityExpression": {
-      "observed": "Authority is bureaucratic, resource-centered, and sun-symbolic. It is expressed through registry, cistern, granary, caravan control, and public distribution rather than pure palace luxury.",
-      "evidence": [
-        "seat of power is the Sun Disc Reliefs Sovereign Registry Court",
-        "Citadel identity explicitly includes Sun-Cistern and Ma’at language",
-        "Aid Commons and Terrace Granary appear as visible anchors",
-        "Caravanserai Beacon ties signal authority to trade and movement"
-      ]
-    },
-    "commercialSpaces": [
-      "covered bazaars",
-      "caravanserai stalls",
-      "spice markets",
-      "water-seller counters",
-      "date and grain vendors",
-      "textile awning shops",
-      "bronze and lamp stalls",
-      "map and route brokers",
-      "camel or pack-animal courtyards",
-      "granary exchange offices"
-    ],
-    "publicSpaces": [
-      "aid commons",
-      "cistern courts",
-      "covered market plazas",
-      "caravan yards",
-      "terrace granaries",
-      "sun-disc registry steps",
-      "fountain courts",
-      "oasis promenades",
-      "fortified gate approaches",
-      "shaded arcade intersections"
-    ],
-    "districtCharacter": {
-      "section1CaravanseraiBeacon": "trade-facing signal district with caravanserai identity, public beacon, route traffic, and shaded arrivals",
-      "section2CoveredBazaar": "dense market quarter of awnings, shade, stalls, trade goods, lamps, and public bargaining",
-      "section3AidCommons": "public support and distribution district where water, food, shade, and civic obligation become visible",
-      "section4TerraceGranary": "agricultural/storage district with irrigation, terraced fields, grain, gardens, and survival logistics",
-      "centralAuthority": "Sun Disc Reliefs Sovereign Registry Court and Sun-Cistern Citadel of Ma’at define law, water, order, and symbolic legitimacy"
-    }
+  "cityDNA": {
+    "coreFantasy": "A North-African sun-cistern city where caravan routes, covered bazaars, command bastions, agricultural terraces, and sun-disc registry law make desert survival ceremonial and practical.",
+    "primaryEmotion": "sunlit authority",
+    "secondaryEmotion": "measured hospitality",
+    "readerTakeaway": "Qasr Siroth is not generic desert grandeur; the uploaded images show a bright, formal, road-and-cistern civilization of caravan reception, markets, command, and terrace food systems.",
+    "civilizationThesis": "Qasr Siroth turns harsh light, cistern water, route hospitality, military order, market exchange, and terrace cultivation into a public order of Ma’at-like balance.",
+    "visualIdentity": "Polished white limestone, sandstone, stucco, brass lattice, linen shade, sun-disc reliefs, red awnings, caravan gates, blue civic lamps, command towers, covered bazaars, hanging gardens, terrace granaries, and bright desert plazas.",
+    "culturalIdentity": "North-African / Egyptian route-law culture centered on caravan hospitality, market order, military responsibility, terrace agriculture, and solar-registry authority.",
+    "symbolicIdentity": "Sun discs, cisterns, caravanserai gates, woven banners, covered bazaars, command standards, hanging gardens, seed halls, terrace granaries, and Aid Commons symbolize desert life held in balance."
   },
-  "narrativeTranslation": {
+  "canon": {
+    "canonLocks": [
+      "Qasr Siroth is a mature North-African / Egyptian desert-cistern city, not a generic desert market.",
+      "The Wonder is North-African Sun-Cistern Citadel of Ma’at.",
+      "The Beacon is Caravanserai Beacon.",
+      "The Seat of Power is Sun Disc Reliefs Sovereign Registry Court.",
+      "The uploaded street sources cover four districts: Transit / Caravan / Rail, Grand Market, Military Command, and Agricultural Terraces.",
+      "Exact uploaded anchors include Transit / Caravan / Rail Civic Hall, Caravanserai Beacon, Woven Banners Monument, Waystation Hall Nook, Grand Market Civic Hall, Covered Bazaar, Awning Monument, Auction Court Nook, Military Command Hall, Command Bastion, Standard Tower Nook, Agricultural Terraces Civic Hall, Terrace Granary, Hanging Gardens Monument, and Seed Hall Nook.",
+      "QSR-STREET-S5 image and sidecar are missing from this upload; hero sidecars show Aid Commons as a secondary major landmark, but exact S5 civic hall / monument / nook anchors are not locked from this batch."
+    ],
+    "provisionalCanon": ["Qasr Siroth's highest civic virtue is balanced provision.", "Aid Commons likely belongs to the missing fifth district, but the missing S5 source remains a limitation rather than permission to invent details."],
+    "rejectedReads": ["generic desert bazaar", "pure palace city without water and food logistics", "caravan hospitality detached from law", "military command as decorative towers only"],
+    "cautionFlags": ["Missing QSR S5 source: do not invent exact S5 minor anchors.", "Keep cistern water, sun-disc law, caravan hospitality, command order, market trade, and terrace food production visible.", "Preserve exact uploaded sidecar anchor names."]
+  },
+  "environment": {
+    "terrain": ["Desert", "Stone Desert", "Dry Wadi", "civic terraces", "bazaar courts", "caravan roads", "agricultural terraces"],
+    "water": ["cisterns", "public basins", "sunfire channels", "terrace irrigation", "dry city ground"],
+    "vegetation": ["hanging gardens", "terrace crops", "courtyard palms", "dry-climate herbs"],
+    "climateLighting": ["harsh sun", "linen shade", "civic blue illumination", "warm lanterns", "sun-disc glare"],
+    "environmentalLogic": "Desert light, cistern water, shade, road access, and terrace food production operate as civic infrastructure rather than scenery."
+  },
+  "architecture": {
+    "materials": ["Polished White Limestone", "Sandstone", "Stucco", "Brass Lattice", "Linen"],
+    "forms": ["North-African Sun-Cistern Citadel of Ma’at", "Sun Disc Reliefs Sovereign Registry Court", "Caravanserai Beacon", "Transit / Caravan / Rail Civic Hall", "Covered Bazaar", "Command Bastion", "Terrace Granary", "Aid Commons"],
+    "skyline": ["North-African Sun-Cistern Citadel of Ma’at as far wonder anchor", "Sun Disc Reliefs Sovereign Registry Court as central authority", "Caravanserai Beacon as road-signal landmark", "covered bazaar roofs, command towers, and terrace granaries stepping through the sunlit city"],
+    "lighting": ["sunfire glow", "civic blue seals", "brass reflection", "warm shade-lanterns"],
+    "infrastructure": ["caravanserai gates", "covered bazaars", "command yards", "standard towers", "terrace granaries", "seed halls", "cistern routes"],
+    "motifs": ["sun discs", "cisterns", "woven banners", "red awnings", "brass lattice", "seed halls", "caravan gates"],
+    "colorLanguage": ["white limestone", "sandstone gold", "linen cream", "civic blue", "red awnings", "brass warmth"],
+    "textureLanguage": ["sun-warmed stone", "woven linen", "polished plaster", "brass lattice", "grain sacks", "dry paving"]
+  },
+  "civilization": {
+    "people": "Citizens are route-literate, market-aware, law-conscious, and shaped by the practical discipline of water, shade, food, and safe passage.",
+    "occupations": ["caravan hosts", "bazaar merchants", "auctioneers", "command officers", "standard bearers", "terrace farmers", "seed keepers", "cistern clerks", "registry officials"],
+    "socialClasses": ["registry officials", "caravan houses", "bazaar families", "command officers", "terrace landholders", "aid commons residents", "road workers"],
+    "governance": "Sun Disc Reliefs Sovereign Registry Court governs road access, market order, command obligations, water rights, food provision, and public petitions.",
+    "religion": "Sun-disc reliefs, oath seals, cistern rites, caravan blessings, and Ma’at-like balance make practical desert order sacred-adjacent.",
+    "customs": ["caravan guest registration", "shade-market bargaining", "cistern ration checks", "standard raising", "seed hall accounting"],
+    "bodyLanguage": ["shade-aware movement", "formal hospitality gestures", "ranked command posture", "open-palmed bargaining"],
+    "speechPatterns": ["route-law phrases", "water-accounting terms", "market formulas", "command titles", "oath-seal language"]
+  },
+  "urbanLife": {
     "streets": {
-      "description": "Qasr Siroth streets should feel hot, bright, shaded by necessity, and organized around survival. Movement alternates between blinding sunlit plazas, cool arcades, narrow market shade, fountain courts, caravan yards, and irrigated oasis corridors.",
-      "writingGuidance": [
-        "Treat shade as valuable public infrastructure; characters should choose routes by shade and water access.",
-        "Use glare, heat, dust, awnings, fountains, and stone temperature as constant sensory anchors.",
-        "Make markets busy without losing the sense of water discipline and civic order.",
-        "Use terraces, granaries, and aid spaces to show the city’s logistics, not just its ornament."
-      ]
-    },
-    "people": {
-      "description": "Citizens should feel practiced at desert life: they conserve movement, know shade routes, bargain under awnings, respect water access, and treat storage, hospitality, and public distribution as civic seriousness.",
-      "behavioralNotes": [
-        "people pause in shade and move purposefully through sun",
-        "caravan crews bring outside news and goods into civic life",
-        "officials around registry, cistern, granary, and aid spaces carry real social authority",
-        "public hospitality and ration systems may be matters of pride rather than charity alone"
-      ]
+      "appearance": "Bright stone streets move between caravan gates, covered bazaars, command bastions, seed halls, terrace granaries, hanging gardens, and the sun-disc registry court.",
+      "movement": "Movement follows shaded bazaar lanes, caravan approaches, command courts, terrace stairs, cistern routes, and food-market paths.",
+      "sounds": ["market calls", "caravan bells", "cloth awnings", "command orders", "grain handling", "water in cisterns"],
+      "smells": ["sun-warmed stone", "linen", "spices", "dust", "grain", "brass polish"],
+      "lighting": "Hard sun is disciplined by linen shade, blue civic seals, brass reflection, and warm market lanterns.",
+      "weatherEffects": "Glare, dust wind, and dry heat make shade, cisterns, and terrace food systems central to city life.",
+      "dayCycle": "Caravan processing, bazaar trade, command duties, and terrace work dominate the day.",
+      "nightCycle": "Cistern checks, blue oath seals, guarded roads, and cooler market courts dominate the night."
     },
     "shops": {
-      "examples": [
-        "spice stalls",
-        "date sellers",
-        "grain counters",
-        "water-seller kiosks",
-        "textile and awning makers",
-        "bronze lamp shops",
-        "map and route brokers",
-        "caravan supply stores",
-        "cedar carving stalls",
-        "mosaic artisans",
-        "tea houses",
-        "sand-glass vendors"
-      ],
-      "writingGuidance": "Commercial life should be shade-heavy and route-conscious. Goods are arranged beneath awnings, inside arcades, around caravan yards, and near water access points."
+      "common": ["spice stalls", "linen vendors", "water sellers", "grain counters", "road-ration shops"],
+      "uncommon": ["brass lattice workers", "oath-seal copyists", "sun-disc carvers", "route-map sellers"],
+      "prestigious": ["registry counters", "caravan house offices", "command armories", "terrace-granary authorities"],
+      "exports": ["linen", "brasswork", "grain", "route services", "oath records"],
+      "imports": ["timber", "metals", "rare herbs", "paper", "luxury cloth"],
+      "streetFood": ["flatbread", "dates", "lentil stew", "spiced grain cakes", "mint tea"],
+      "services": ["caravan lodging", "route permits", "market witnessing", "cistern accounting", "food tallying"]
     },
-    "homes": {
-      "description": "Homes should be thick-walled, courtyard-based, shaded, and water-conscious: adobe or sandstone walls, small exterior openings, inner gardens, roof terraces, carved screens, clay tile, and cistern access.",
-      "writingGuidance": [
-        "Use courtyards and interior shade to contrast with harsh streets.",
-        "Show water storage, roof shade, and evening social life as domestic texture."
-      ]
-    },
-    "publicLife": {
-      "dailyRhythms": [
-        "early market setup before peak heat",
-        "caravan arrivals near shaded gates",
-        "midday quiet under arcades and awnings",
-        "public aid and water distribution at commons",
-        "granary and terrace work in controlled routines",
-        "evening bazaars, lamps, tea, and public conversation",
-        "night cooling on roofs and courtyards"
-      ],
-      "commonActivities": [
-        "bargaining in covered bazaars",
-        "filling water jars",
-        "checking caravan loads",
-        "posting route notices",
-        "distributing grain or aid",
-        "repairing awnings",
-        "maintaining fountains and cisterns",
-        "moving goods between terrace granary and market",
-        "registry proceedings involving water, route, or storage rights"
-      ]
-    },
-    "sounds": [
-      "market calls under awnings",
-      "water in fountains and channels",
-      "pack animals and caravan bells",
-      "sandaled footsteps on hot stone",
-      "awning fabric snapping in dry wind",
-      "bronze vessels",
-      "distant tower bells",
-      "grain sacks dragged over stone",
-      "quiet voices inside shaded arcades"
-    ],
-    "smells": [
-      "hot stone",
-      "dust",
-      "dates",
-      "spices",
-      "mint tea",
-      "baked bread",
-      "camel or pack-animal sweat",
-      "cedar wood",
-      "cool water near fountains",
-      "clay and sun-warmed plaster"
-    ],
-    "lighting": {
-      "day": "Daylight should be severe and architectural. White stone and sand glare make shade feel precious; red awnings and arcades become relief, not decoration.",
-      "night": "Night should release the city: lamps, bazaar glow, roof conversations, cooler courtyards, and stars over windcatcher towers.",
-      "weather": "Sand haze and desert wind should alter visibility. Clear air makes distant citadel and caravan towers sharp; dust makes shade and water feel more urgent."
-    },
-    "transportation": {
-      "description": "Transportation is caravan, market-cart, foot, and terrace-route based. Movement depends on gates, shade corridors, water stops, trade yards, and storage routes.",
-      "writingGuidance": [
-        "Use caravan arrivals as social events; they bring goods, news, and political leverage.",
-        "Characters should plan routes around heat and public water access.",
-        "Granary-to-market logistics should appear as normal civic movement."
-      ]
-    },
-    "children": {
-      "description": "Children should know shade routes, fountain etiquette, market errands, and rooftop evening life. They may play under arcades or near courtyards rather than in exposed noon plazas."
-    },
-    "craftsmen": {
-      "description": "Craftsmen include awning makers, cedar carvers, mosaic artists, bronze workers, cistern maintainers, route mapmakers, granary clerks, irrigation workers, and caravan repair crews."
-    },
-    "markets": {
-      "description": "Markets should feel dense, shaded, fragrant, and practical: spices, dates, grain, cloth, lamps, route maps, water skins, tools, tea, pack supplies, and civic notices under layered awnings."
-    },
-    "food": {
-      "examples": [
-        "dates",
-        "flatbread",
-        "spiced grain dishes",
-        "lentil stew",
-        "roasted chickpeas",
-        "mint tea",
-        "honey pastries",
-        "figs",
-        "preserved lemons",
-        "market kebabs or grilled vegetables"
-      ]
-    },
-    "companionObservations": {
-      "addie": [
-        "notices repeated water-right phrases, caravan route names, registry language, and public distribution rules",
-        "stores routes by shade sequence: gate, arcade, fountain, bazaar, cistern, registry court",
-        "connects civic order to scarcity because every public space reveals how water and grain are managed"
-      ],
-      "gregory": [
-        "reads sun-disc, Ma’at, star, fountain, and caravan symbolism as civic theology of order and survival",
-        "notices how authority borrows legitimacy from sun, water, measure, and balance"
-      ],
-      "brickett": [
-        "spots cistern access, shade shortcuts, vendor storage, rooftop paths, gutter channels, and places where water leaks would matter",
-        "quickly learns which shaded routes locals actually use instead of official avenues"
-      ],
-      "talandra": [
-        "reads bazaars, arcades, gates, tower lines, and aid commons as crowd-control spaces shaped by heat and water access",
-        "worries about panic at fountains, granaries, and shaded chokepoints"
-      ],
-      "mae": [
-        "notices water rights, caravan contracts, granary leverage, registry power, and who profits from shade, storage, and passage",
-        "understands immediately that resource control is political control here"
-      ],
-      "genericCompanionNotes": [
-        "Outsiders should underestimate heat and route planning at least once.",
-        "The city should make scarcity feel civilized, not desperate."
-      ]
+    "housing": {
+      "wealthy": "Sunlit courtyard houses near the registry, command terraces, or caravan courts, with brass lattice and controlled shade.",
+      "middle": "Bazaar and terrace homes above shops or beside food routes, with shaded rooms and cistern access.",
+      "poor": "Road-edge housing and aid-adjacent quarters dependent on shared water, shade, and grain distribution."
     }
   },
-  "arrivalExperience": {
-    "firstImpression": "A visitor should first experience Qasr Siroth as heat disciplined into civilization: sand glare, carved gates, shaded arcades, date palms, fountains, caravan yards, red awnings, and a white-gold citadel rising beyond oasis corridors.",
-    "firstHourSequence": [
-      "dry wind, dust, and glare before entering full shade",
-      "first relief under a gate, arcade, or market canopy",
-      "sight of Caravanserai Beacon and moving trade routes",
-      "water sounds from fountains or cistern courts",
-      "covered bazaar density and spice smell",
-      "Aid Commons or Terrace Granary revealing public survival logistics",
-      "Sun Disc Reliefs and Sun-Cistern Citadel clarifying civic authority"
-    ],
-    "readerEffect": "The reader should feel that Qasr Siroth is powerful because it has made scarcity orderly. Water, shade, grain, and routes are the grammar of civilization here."
-  },
-  "departureMemory": {
-    "readerShouldRemember": [
-      "sun glare against white and sandstone civic buildings",
-      "shade as precious architecture",
-      "fountains and cisterns as public order",
-      "caravanserai life and covered bazaars",
-      "date palms and oasis corridors inside desert stone",
-      "Sun Disc Reliefs and Ma’at symbolism",
-      "granaries and aid commons proving survival is civic work"
-    ]
-  },
-  "landmarkAnalysis": {
-    "wonder": {
-      "name": "North-African Sun-Cistern Citadel of Ma’at",
-      "purpose": "The Wonder/citadel-scale landmark expresses Qasr Siroth's fusion of sun, water, justice, survival, and civic legitimacy.",
-      "visualDescription": "A bright monumental citadel/cistern complex of sandstone and white stone, sun-disc reliefs, water infrastructure, towers, terraces, and formal desert approaches.",
-      "narrativeUse": "Use it to show that authority in QSR is not ornamental: rule is justified by the ability to measure, store, distribute, and protect water and order.",
-      "howCharactersNoticeIt": {
-        "addie": "notices water records, balanced language, cistern rules, and old phrases tied to Ma’at and public order",
-        "gregory": "reads sun-disc and Ma’at symbolism as cosmology translated into civic law",
-        "brickett": "looks for cistern hatches, runoff channels, shaded maintenance doors, and storage access",
-        "talandra": "maps stairs, plaza exposure, crowd pressure near water, and tower sightlines",
-        "mae": "sees control of water, registry, and caravan routes as the city's real power"
-      },
-      "commonActivities": [
-        "public ceremonies",
-        "water-right hearings",
-        "registry decisions",
-        "seasonal distribution rites",
-        "caravan-state negotiations",
-        "civic festivals under sun-disc symbolism"
-      ],
-      "visibilityFromCity": "Dominates long hero views and should remain visible from major oasis corridors, market plazas, and desert approaches."
-    },
-    "beacon": {
-      "name": "Caravanserai Beacon",
-      "purpose": "The Beacon anchors public signal identity to trade, arrival, routes, and desert safety.",
-      "visualDescription": "A vertical signal tower near caravanserai or approach districts, with strong silhouette, shade courts, banners, lamps, and civic visibility across market routes.",
-      "narrativeUse": "Use the Beacon as a desert-route instrument. When it changes state, caravans, markets, guards, and water authorities should react in practical sequence.",
-      "howCharactersNoticeIt": {
-        "addie": "notices how route language and public notices interpret the Beacon",
-        "gregory": "reads it as guidance across dangerous openness rather than simple urban signal",
-        "brickett": "finds shaded informal viewing points and maintenance access around its base",
-        "talandra": "treats caravan crowds around it as both vulnerable and hard to disperse",
-        "mae": "knows that signal timing can move trade, prices, and bargaining power"
-      },
-      "commonActivities": [
-        "caravan arrivals",
-        "signal watching",
-        "trade announcements",
-        "route warnings",
-        "guard coordination",
-        "market crowd gathering"
-      ],
-      "visibilityFromCity": "Visible from trade approaches, bazaars, and civic corridors; it links outside desert movement to internal city response."
-    },
-    "seatOfPower": {
-      "name": "Sun Disc Reliefs Sovereign Registry Court",
-      "purpose": "The seat of power formalizes resource rights, caravan obligations, water records, and civic justice under sun-disc authority.",
-      "visualDescription": "A formal sandstone/white-stone registry court with sun-disc reliefs, shaded steps, civic clerks, water or grain records, and public approaches shaped by heat and shade.",
-      "narrativeUse": "Use the Court for scenes where law is practical: who receives water, who stores grain, who has passage rights, who owes aid, who controls routes.",
-      "howCharactersNoticeIt": {
-        "addie": "tracks exact wording in water-right ledgers, public notices, and registry formulas",
-        "gregory": "reads balance and sun-disc symbolism as law made sacred",
-        "brickett": "spots side doors, storage counters, shaded clerk routes, and how people actually queue",
-        "talandra": "maps crowd funnels, exposed steps, guards, and shaded chokepoints",
-        "mae": "sees where legal language creates economic leverage"
-      },
-      "commonActivities": [
-        "water-right registration",
-        "caravan permits",
-        "grain allocation",
-        "aid authorization",
-        "public petitions",
-        "trade dispute hearings"
-      ],
-      "visibilityFromCity": "Central through civic route convergence and public necessity rather than only height."
-    },
+  "districts": [
+    {"sectionNumber": 1, "name": "Transit / Caravan / Rail", "civicPurpose": "Arrival, route law, guest rights, road security, and public signal response.", "visualIdentity": "Transit / Caravan / Rail Civic Hall, Caravanserai Beacon, Woven Banners Monument, Waystation Hall Nook.", "emotionalIdentity": "welcoming, formal, route-bound", "gameplayAssetNeeds": ["Transit / Caravan / Rail Civic Hall", "Caravanserai Beacon", "Woven Banners Monument", "Waystation Hall Nook"], "narrativeUse": ["arrival", "route dispute", "Beacon response"], "landmark": "Caravanserai Beacon", "minorLandmarks": ["Woven Banners Monument", "Waystation Hall Nook"]},
+    {"sectionNumber": 2, "name": "Grand Market", "civicPurpose": "Public exchange, auction witnessing, shade-market order, and trade rumor.", "visualIdentity": "Grand Market Civic Hall, Covered Bazaar, Awning Monument, Auction Court Nook.", "emotionalIdentity": "busy, shaded, consequential", "gameplayAssetNeeds": ["Grand Market Civic Hall", "Covered Bazaar", "Awning Monument", "Auction Court Nook"], "narrativeUse": ["market trade", "auction scene", "public rumor"], "landmark": "Covered Bazaar", "minorLandmarks": ["Awning Monument", "Auction Court Nook"]},
+    {"sectionNumber": 3, "name": "Military Command", "civicPurpose": "Road defense, command order, city protection, and visible authority.", "visualIdentity": "Military Command Hall, Command Bastion, Woven Banners Monument, Standard Tower Nook.", "emotionalIdentity": "disciplined, sunlit, severe", "gameplayAssetNeeds": ["Military Command Hall", "Command Bastion", "Woven Banners Monument", "Standard Tower Nook"], "narrativeUse": ["orders", "road defense", "rank conflict"], "landmark": "Command Bastion", "minorLandmarks": ["Woven Banners Monument", "Standard Tower Nook"]},
+    {"sectionNumber": 4, "name": "Agricultural Terraces", "civicPurpose": "Food security, seed keeping, water use, and desert cultivation.", "visualIdentity": "Agricultural Terraces Civic Hall, Terrace Granary, Hanging Gardens Monument, Seed Hall Nook.", "emotionalIdentity": "nourishing, engineered, accountable", "gameplayAssetNeeds": ["Agricultural Terraces Civic Hall", "Terrace Granary", "Hanging Gardens Monument", "Seed Hall Nook"], "narrativeUse": ["food tally", "water dispute", "seed record clue"], "landmark": "Terrace Granary", "minorLandmarks": ["Hanging Gardens Monument", "Seed Hall Nook"]}
+  ],
+  "landmarks": {
+    "wonder": {"name": "North-African Sun-Cistern Citadel of Ma’at", "symbolicRole": "Sun, cistern, law, balance, and desert survival made monumental.", "visualRole": "Far skyline citadel-wonder of white limestone, sunfire channels, and ceremonial water authority.", "civicRole": "Citywide rite, water memory, oath ceremony, and public balance symbol.", "narrativeUse": ["water rite", "public oath", "citywide ceremony"], "assetUse": ["map wonder", "far skyline anchor"], "sensoryIdentity": ["sun glare", "cool cistern air", "brass shimmer"], "storyHooks": ["A sun-cistern rite reveals whether balance is real or just declared."]},
+    "beacon": {"name": "Caravanserai Beacon", "symbolicRole": "Public warning tied to arrival, road law, and hospitality.", "visualRole": "Beacon landmark rising from caravan infrastructure and road-facing courts.", "civicRole": "Coordinates road closures, market shifts, command response, and food-route changes.", "narrativeUse": ["Beacon change", "arrival crisis", "road warning"], "assetUse": ["S1 centerpiece", "signal marker"], "sensoryIdentity": ["blue glow", "dust", "caravan bells"], "storyHooks": ["A Beacon change turns hospitality into a legal test."]},
+    "seatOfPower": {"name": "Sun Disc Reliefs Sovereign Registry Court", "symbolicRole": "Solar order, records, water law, and balanced judgment made government.", "visualRole": "Central court with sun-disc reliefs, sealed archives, brass lattice, and public approach stairs.", "civicRole": "Governs road rights, market disputes, military duties, water records, terrace food claims, and petitions.", "narrativeUse": ["registry ruling", "water-right hearing", "market dispute"], "assetUse": ["seat-of-power marker"], "sensoryIdentity": ["ink", "sun-warmed stone", "brass", "sealed paper"], "storyHooks": ["A sun-disc record assigns water to the person the market forgot."]},
     "majorLandmarks": [
-      {
-        "name": "Covered Bazaar",
-        "narrativeUse": "Use as the living commercial heart: shade, spice, cloth, bargaining, route gossip, and sensory density."
-      },
-      {
-        "name": "Aid Commons",
-        "narrativeUse": "Use to show that public survival and civic responsibility are visible institutions, not background charity."
-      },
-      {
-        "name": "Terrace Granary",
-        "narrativeUse": "Use to show storage, agriculture, ration logic, and the discipline behind desert abundance."
-      }
-    ],
-    "monuments": [
-      {
-        "role": "sun, water, route, and storage memory",
-        "narrativeUse": "Monuments should include sun-disc markers, fountain inscriptions, route stones, granary reliefs, and public memory of droughts or successful distributions."
-      }
-    ],
-    "minorLandmarks": [
-      {
-        "role": "shade and water navigation",
-        "narrativeUse": "Minor landmarks should include fountain posts, awning corners, cistern grates, date-palm courts, caravan bells, route boards, and shaded kiosks."
-      }
+      {"name": "Covered Bazaar", "symbolicRole": "Commerce protected by shade and law.", "visualRole": "Shaded market hall with awnings, auction court, and dense trade routes.", "civicRole": "Trade, auction witnessing, and public exchange.", "narrativeUse": ["market scene", "auction dispute"], "assetUse": ["S2 diorama"], "sensoryIdentity": ["spices", "cloth shade", "voices"], "storyHooks": ["An auction court phrase reveals who controls the cistern routes."]},
+      {"name": "Command Bastion", "symbolicRole": "Military order guarding route and water balance.", "visualRole": "Command tower and court with standards, woven banners, and hard sunlit stone.", "civicRole": "Road defense, command coordination, and crisis response.", "narrativeUse": ["orders", "road closure"], "assetUse": ["S3 diorama"], "sensoryIdentity": ["standard cloth", "boots", "hot stone"], "storyHooks": ["A command order protects the road but threatens the granary."]},
+      {"name": "Terrace Granary", "symbolicRole": "Food security made visible in the desert.", "visualRole": "Stepped granary terraces with hanging gardens, seed hall, grain storage, and cistern-fed planting.", "civicRole": "Food storage, seed keeping, and terrace agriculture.", "narrativeUse": ["food shortage", "seed record"], "assetUse": ["S4 diorama"], "sensoryIdentity": ["grain", "dry wind", "irrigated soil"], "storyHooks": ["A seed hall entry proves the city planned for a drought it publicly denied."]},
+      {"name": "Aid Commons", "symbolicRole": "Public provision implied by hero-source coverage but missing district source detail.", "visualRole": "Visible secondary landmark in hero views only; exact S5 street anchors are not available in this upload.", "civicRole": "Probable public aid or provision function; must remain provisional until S5 source exists.", "narrativeUse": ["aid scene", "source-limited civic provision"], "assetUse": ["hero-view secondary landmark only"], "sensoryIdentity": ["shade", "water jars", "public waiting"], "storyHooks": ["Aid Commons should not receive exact nook or monument treatment until the missing S5 source is supplied."]}
     ]
   },
-  "immediateNarrativeImprovements": [
-    {
-      "target": "Qasr Siroth scenes",
-      "recommendation": "Write heat, shade, water, and storage as civic systems rather than mere environmental color."
-    },
-    {
-      "target": "Street descriptions",
-      "recommendation": "Use covered bazaars, red awnings, date palms, fountains, windcatchers, caravan yards, and sunlit stone as recurring local texture."
-    },
-    {
-      "target": "Governance scenes",
-      "recommendation": "Make resource administration central: water rights, granary control, aid commons, caravan permits, and registry language."
-    },
-    {
-      "target": "Arrival scenes",
-      "recommendation": "Stage first arrival around heat-to-shade transition, then reveal the Beacon, cisterns, bazaar, and Citadel."
-    },
-    {
-      "target": "Companion POVs",
-      "recommendation": "Let Addie track water-right language, Gregory read Ma’at/sun-disc symbolism, Brickett find cistern shortcuts, Talandra assess fountain crowd risks, and Mae read resource leverage."
-    }
-  ],
-  "interpretation": {
-    "civilizationThesis": "Qasr Siroth is the architecture of disciplined scarcity. Its civilization proves itself by making heat, water, shade, grain, and caravan movement publicly manageable.",
-    "environmentalPhilosophy": "Order scarcity: do not pretend the desert is gentle; create civic systems that make survival reliable and honorable.",
-    "adaptiveStrategy": "Conserve and distribute: concentrate water, shade, grain, and route knowledge into public infrastructure and law.",
-    "authorityModel": "resource-bureaucratic-sacral",
-    "relationshipWithNature": "respectful and managerial; the desert remains powerful, but civic order shapes access to what sustains life",
-    "relationshipWithHistory": "history is likely preserved through drought memory, route records, cistern inscriptions, granary ledgers, and sun-disc civic ritual",
-    "relationshipWithKnowledge": "practical, administrative, astronomical/route-based, and legal; knowing where water, grain, and shade are matters deeply",
-    "relationshipWithRisk": "risk is managed through storage, ration systems, water law, caravan warnings, and shade infrastructure",
-    "relationshipWithBeauty": "beauty comes from relief and order: water in stone, shade under awnings, sun on reliefs, geometry in harsh light",
-    "relationshipWithCommunity": "community is structured through hospitality, distribution, trade, and shared dependence on civic survival systems",
-    "civilizationalTension": {
-      "tension": "abundance display vs scarcity discipline",
-      "resolution": "Qasr Siroth resolves the tension by making controlled abundance public: fountains, gardens, aid, and granaries prove competence precisely because they are disciplined."
-    },
-    "highestVirtue": "measure",
-    "religiousExpression": "sun-disc, Ma’at, water, star, and order symbolism suggest civic religion or sacred law tied to balance, justice, and survival",
-    "economicIdentity": "caravan trade, water rights, grain storage, bazaar commerce, route knowledge, oasis agriculture, textiles, spices, and civic distribution",
-    "socialIdentity": "hospitable, disciplined, trade-savvy, heat-adapted, resource-conscious, and proud of public order"
-  },
-  "canonReview": {
-    "lockedCanon": [
-      {
-        "statement": "Qasr Siroth is a desert civilization of managed scarcity where water, shade, grain, and caravan trade are core civic systems.",
-        "reason": "The images and sidecars consistently foreground cistern, bazaar, caravanserai, aid commons, terrace granary, oasis, and sun-disc civic architecture.",
-        "supportingEvidence": [
-          "Sun-Cistern Citadel of Ma’at",
-          "Caravanserai Beacon",
-          "Covered Bazaar",
-          "Aid Commons",
-          "Terrace Granary",
-          "fountains and oasis corridors"
-        ],
-        "confidence": "high"
-      },
-      {
-        "statement": "Shade should be treated as infrastructure in Qasr Siroth.",
-        "reason": "Covered bazaars, awnings, arcades, and shaded plazas are visually central and functionally necessary in the harsh desert setting.",
-        "supportingEvidence": [
-          "covered bazaar views",
-          "red awnings",
-          "arcaded streets",
-          "deep shadow under market canopies"
-        ],
-        "confidence": "high"
-      },
-      {
-        "statement": "Qasr Siroth authority is tied to registry, water, storage, and public survival logistics.",
-        "reason": "The seat of power and major anchors explicitly point toward registry court, cistern, Ma’at, aid commons, and granary systems.",
-        "supportingEvidence": [
-          "Sun Disc Reliefs Sovereign Registry Court",
-          "Sun-Cistern Citadel of Ma’at",
-          "Aid Commons",
-          "Terrace Granary"
-        ],
-        "confidence": "high"
-      }
-    ],
-    "provisionalCanon": [
-      {
-        "statement": "Qasr Siroth's highest civic virtue is measure.",
-        "reason": "The city visually prioritizes balance, distribution, storage, and controlled access, but virtue language should be compared against other desert and bureaucratic cities.",
-        "supportingEvidence": [
-          "registry court",
-          "cistern identity",
-          "granary terraces",
-          "aid commons",
-          "Ma’at symbolism"
-        ],
-        "confidence": "medium-high"
-      }
-    ],
-    "workingHypotheses": [
-      {
-        "statement": "Qasr Siroth may show that harsh environments produce visibly bureaucratic or sacred-resource governance, regardless of race category.",
-        "reason": "The city’s authority emerges from survival systems more than from species or palace imagery, but more harsh-environment cities are needed.",
-        "supportingEvidence": [
-          "resource-centered authority",
-          "desert adaptation",
-          "registry/cistern/granary civic core"
-        ],
-        "confidence": "medium"
-      }
-    ],
-    "rejectedHypotheses": [
-      {
-        "statement": "Qasr Siroth is simply a decorative desert palace city.",
-        "reason": "The images and anchors emphasize logistics, trade, aid, storage, water, and civic systems as much as beauty.",
-        "supportingEvidence": [
-          "Aid Commons",
-          "Terrace Granary",
-          "Caravanserai Beacon",
-          "covered bazaar",
-          "cistern identity"
-        ],
-        "confidence": "high"
-      }
-    ]
-  },
-  "futureQuestions": [
-    "Is the Sun-Cistern Citadel of Ma’at the Wonder, Citadel, or a combined wonder-citadel identity needing separation in future source data?",
-    "How formal is Qasr Siroth's religion versus civic sacred-law symbolism?",
-    "Who controls water rights: registry court, priesthood, guild, noble houses, or state bureaucracy?",
-    "How does QSR compare with other desert or harsh-climate cities in later batches?",
-    "What social tensions exist around aid distribution, granary access, and caravan wealth?"
-  ],
-  "comparativeNotes": {
-    "distinctFrom": [
-      {
-        "cityCode": "AQM",
-        "difference": "AQM organizes harbor abundance and public institutions; QSR organizes desert scarcity through water, shade, grain, and caravan systems."
-      },
-      {
-        "cityCode": "PFN",
-        "difference": "PFN builds around water as omnipresent civic medium; QSR makes limited water into visible law, relief, and authority."
-      },
-      {
-        "cityCode": "LUM",
-        "difference": "LUM uses geometry for beauty and knowledge; QSR uses geometry, shade, and measurement for survival order."
-      },
-      {
-        "cityCode": "KVM",
-        "difference": "KVM makes infrastructure a proof of craft; QSR makes infrastructure a proof of survival competence."
-      }
-    ],
-    "similarTo": [
-      {
-        "cityCode": "AQM",
-        "similarity": "Both are strong civic-administrative cities with public infrastructure and visible authority."
-      },
-      {
-        "cityCode": "VKI",
-        "similarity": "Both have strong survival logistics; VKI uses shelter and sea, QSR uses water, shade, and storage."
-      }
-    ],
-    "uniqueContributions": [
-      "strongest current model for scarcity-as-civic-order",
-      "best example so far of shade as public infrastructure",
-      "major resource-governance test case",
-      "first strong desert/oasis urban philosophy in the analysis set"
-    ],
-    "potentialInfluences": [
-      "desert city prose standards",
-      "resource-rights governance canon",
-      "future synthesis on harsh-environment authority",
-      "caravan trade and aid commons narrative scenes"
-    ]
-  },
-  "crossCityTags": [
-    "desert-city",
-    "oasis-infrastructure",
-    "resource-governance",
-    "caravanserai",
-    "covered-bazaar",
-    "sun-disc-symbolism",
-    "cistern-culture",
-    "shade-infrastructure",
-    "terrace-granary",
-    "aid-commons",
-    "ma-at",
-    "established-civilization"
-  ],
-  "evolution": {
-    "previousAssumptions": [
-      "Qasr Siroth was expected to have North African / Egyptian desert identity with fortified kasbah, oasis, market, and citadel language.",
-      "Desert visuals were expected, but the civic significance of water, shade, aid, and granary systems had not been fully articulated."
-    ],
-    "discoveries": [
-      "Qasr Siroth's strongest read is disciplined scarcity rather than generic desert grandeur.",
-      "Shade functions as infrastructure and should be written that way.",
-      "Water, cisterns, granaries, aid commons, and caravan systems make governance immediately visible.",
-      "The city is a strong test case for resource-centered authority across the world synthesis."
-    ],
-    "confirmedAssumptions": [
-      "The city’s North African / Egyptian visual identity is strong and coherent.",
-      "Oasis and caravan elements belong at the center of the city’s narrative identity.",
-      "QSR should feel ancient, hot, bright, trade-connected, and ceremonially ordered."
-    ],
-    "changedOurMind": [
-      "Do not frame QSR primarily as palace/citadel spectacle; survival systems are the real civic story.",
-      "Give Aid Commons and Terrace Granary narrative weight rather than treating them as background landmarks.",
-      "Write public water and shade access as politically meaningful."
-    ],
-    "futureValidation": [
-      "Compare QSR with FRO and other harsh-climate cities to test whether environmental severity reliably produces visible survival governance.",
-      "Review sidecars later if additional street S5 image exists or if anchor separation needs precision.",
-      "Use narrative scenes to test whether Ma’at symbolism should be religious, legal, or both."
-    ]
+  "assetGuidance": {
+    "districtDioramaGuidance": ["S1 must show Transit / Caravan / Rail Civic Hall, Caravanserai Beacon, Woven Banners Monument, and Waystation Hall Nook.", "S2 must show Grand Market Civic Hall, Covered Bazaar, Awning Monument, and Auction Court Nook.", "S3 must show Military Command Hall, Command Bastion, Woven Banners Monument, and Standard Tower Nook.", "S4 must show Agricultural Terraces Civic Hall, Terrace Granary, Hanging Gardens Monument, and Seed Hall Nook.", "Do not author S5 district diorama specifics until QSR-STREET-S5 source material exists."],
+    "mapBackgroundGuidance": ["Keep North-African Sun-Cistern Citadel of Ma’at, Caravanserai Beacon, and Sun Disc Reliefs Sovereign Registry Court legible together.", "Use sunlit white limestone, sandstone, stucco, brass lattice, linen shade, red awnings, cistern logic, caravan gates, command bastions, covered bazaars, and terrace granaries."],
+    "requiredVisualElements": ["North-African Sun-Cistern Citadel of Ma’at", "Caravanserai Beacon", "Sun Disc Reliefs Sovereign Registry Court", "Transit / Caravan / Rail Civic Hall", "Woven Banners Monument", "Waystation Hall Nook", "Covered Bazaar", "Awning Monument", "Auction Court Nook", "Command Bastion", "Standard Tower Nook", "Terrace Granary", "Hanging Gardens Monument", "Seed Hall Nook", "Aid Commons as source-limited hero landmark"],
+    "elementsToAvoid": ["generic desert market", "invented S5 anchors", "palace-only city", "water and food logistics omitted", "caravan hospitality without law"]
   }
 }

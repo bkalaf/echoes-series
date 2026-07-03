@@ -1,735 +1,85 @@
 {
-  "schemaVersion": 1,
-  "analysisVersion": 1,
-  "cityCode": "HEA",
-  "cityName": "Hearthglen",
-  "analysisConfidence": "strong-lock",
-  "analysisDate": "2026-07-01",
-  "analystVersion": "gpt-5.5-thinking",
-  "basedOnImages": [
-    "HEA-HERO-NE-v001",
-    "HEA-HERO-NW-v001",
-    "HEA-HERO-SE-v001",
-    "HEA-HERO-SW-v001",
-    "HEA-STREET-S1-v001",
-    "HEA-STREET-S2-v001",
-    "HEA-STREET-S3-v001",
-    "HEA-STREET-S4-v001",
-    "HEA-STREET-S5-v001"
+  "metadata": {
+    "schemaVersion": "2.0",
+    "analysisVersion": 2,
+    "cityCode": "HEA",
+    "cityName": "Hearthglen",
+    "analysisDate": "2026-07-03",
+    "analystVersion": "gpt-5.5-thinking",
+    "analysisConfidence": "strong-lock",
+    "basedOnImages": ["HEA-HERO-NE-v001", "HEA-HERO-NW-v001", "HEA-HERO-SE-v001", "HEA-HERO-SW-v001", "HEA-STREET-S1-v001", "HEA-STREET-S2-v001", "HEA-STREET-S3-v001", "HEA-STREET-S4-v001", "HEA-STREET-S5-v001"],
+    "basedOnSidecars": ["HEA-HERO-NE-v001.json", "HEA-HERO-NW-v001.json", "HEA-HERO-SE-v001.json", "HEA-HERO-SW-v001.json", "HEA-STREET-S1-v001.json", "HEA-STREET-S2-v001.json", "HEA-STREET-S3-v001.json", "HEA-STREET-S4-v001.json", "HEA-STREET-S5-v001.json"]
+  },
+  "cityDNA": {
+    "coreFantasy": "A warm gnomish service-city where healing, alchemy, relief, tenement life, ancestor memory, brass doors, and civic charms turn repair into public infrastructure.",
+    "primaryEmotion": "practical warmth",
+    "secondaryEmotion": "administered mercy",
+    "readerTakeaway": "Hearthglen is not cute gnome gadget scenery; the uploaded images show a mature civic city of care, repair, low domestic density, and ancestor continuity.",
+    "civilizationThesis": "Hearthglen turns care into machinery and bureaucracy without letting warmth disappear.",
+    "visualIdentity": "Granite, peat brick, oak, copper, dyed wool, brass fittings, blue lamps, garden terraces, low domes, apothecary glass, relief counters, laundry wells, ancestor masks, and compact useful streets.",
+    "culturalIdentity": "Gnomish civic culture where usefulness, care, formula control, and ancestor memory are public institutions.",
+    "symbolicIdentity": "Brass doors, hearth wheels, hanging charms, healing lanterns, notice plazas, laundry wells, ancestor masks, and bone lantern paths symbolize repair made civic."
+  },
+  "canon": {
+    "canonLocks": ["Wonder: Gnomish Hearth-Wheel Garden of Brass Doors.", "Beacon: Healing Hall Beacon.", "Seat of Power: Hanging Charms Veiled High Court.", "Districts: Medical / Healing, Arcane / Alchemical Labs, Civic Services, Low Residential, Necropolis / Ancestor Quarter.", "Exact uploaded anchors include Medical / Healing Civic Hall, Medical Healing Lantern Monument, Apothecary Court Nook, Arcane / Alchemical Labs Civic Hall, Blue-Lamp Monument, Formula Archive Nook, Civic Services Lantern Monument, Notice Plaza Nook, Low Residential Lantern Monument, Laundry Well Nook, Ancestor Masks Monument, and Bone Lantern Path Nook."],
+    "provisionalCanon": ["Hearthglen's highest civic virtue is repair.", "The contact-sheet image pass reinforces warm service architecture rather than whimsical machinery alone."],
+    "rejectedReads": ["cute gnome gadget scenery", "alchemy isolated from civic care", "ancestor care as background"],
+    "cautionFlags": ["Preserve exact sidecar anchor names.", "Fold image analysis into existing fields only.", "Keep care, poverty, relief, and death visible as civic systems."]
+  },
+  "environment": {
+    "terrain": ["dry stone paving", "civic terraces", "gardened service courts", "compact hill streets", "ancestor paths"],
+    "water": ["healing basins", "laundry wells", "garden channels", "apothecary wash water"],
+    "vegetation": ["medicinal gardens", "window herbs", "mossed masonry", "courtyard shrubs", "ancestor path plantings"],
+    "climateLighting": ["warm golden civic light", "blue healing signal glow", "apothecary glass reflections", "ancestor lantern light", "street-level garden shade"],
+    "environmentalLogic": "The images show environment as practical care infrastructure: garden terraces, compact courts, wells, and warm thresholds move people toward services."
+  },
+  "architecture": {
+    "materials": ["Granite", "Peat Brick", "Oak", "Copper", "Dyed Wool", "brass fittings", "blue glass lamps"],
+    "forms": ["Medical / Healing Civic Hall", "Healing Hall Beacon", "Medical Healing Lantern Monument", "Apothecary Court Nook", "Arcane / Alchemical Labs Civic Hall", "Alchemy Lab", "Blue-Lamp Monument", "Formula Archive Nook", "Civic Services Hall", "Relief Hall", "Civic Services Lantern Monument", "Notice Plaza Nook", "Low Residential Civic Hall", "Tenement Court", "Low Residential Lantern Monument", "Laundry Well Nook", "Necropolis / Ancestor Quarter Civic Hall", "Ancestor Vault", "Ancestor Masks Monument", "Bone Lantern Path Nook"],
+    "skyline": ["Gnomish Hearth-Wheel Garden of Brass Doors as wonder anchor", "Hanging Charms Veiled High Court as civic authority", "Healing Hall Beacon as signal landmark", "low domes and dense service streets below"],
+    "lighting": ["warm hearth light", "blue civic lamp glow", "apothecary green-blue glass", "ancestor candlelight"],
+    "infrastructure": ["healing wards", "apothecary courts", "formula archives", "relief counters", "notice plazas", "laundry wells", "ancestor paths"],
+    "motifs": ["brass doors", "hearth wheels", "hanging charms", "healing lanterns", "formula archives", "notice plazas", "laundry wells", "ancestor masks"],
+    "colorLanguage": ["warm stone", "brass gold", "civic blue", "garden green", "dyed wool red", "ancestor amber"],
+    "textureLanguage": ["polished brass", "mossed stone", "warm plaster", "dark timber", "glass bottles", "wet laundry stone", "bone lantern surfaces"]
+  },
+  "civilization": {
+    "people": "Gnomish citizens are practical, fussy, helpful, institutionally literate, and shown at street scale moving between clinics, labs, relief counters, homes, and ancestor paths.",
+    "occupations": ["healers", "apothecaries", "alchemists", "formula copyists", "relief clerks", "washerfolk", "tenement stewards", "ancestor keepers", "brass-workers"],
+    "socialClasses": ["High Court officials", "healing hall authorities", "alchemy lab staff", "relief administrators", "low residential tenants", "ancestor vault keepers"],
+    "governance": "The Hanging Charms Veiled High Court governs care, aid rulings, formula regulation, archive sealing, and protective thresholds.",
+    "religion": "Domestic-ancestral faith appears through hanging charms, ancestor masks, bone lantern paths, threshold blessings, and hearth-wheel rites.",
+    "customs": ["triage routing", "formula verification", "relief notice reading", "laundry court gossip", "ancestor lantern lighting"],
+    "bodyLanguage": ["busy helpful gestures", "low-counter leaning", "careful glass handling", "neighborly doorway pauses"],
+    "speechPatterns": ["treatment categories", "formula numbers", "relief eligibility phrases", "repair terms", "ancestor names"]
+  },
+  "urbanLife": {
+    "streets": {"appearance": "Compact, warm, gardened, and service-heavy, with brass doors, blue lamps, clinics, labs, relief notices, laundry wells, and ancestor lantern routes at pedestrian scale.", "movement": "Movement follows low stairs, garden terraces, brass-door thresholds, service courts, relief queues, and laundry routes.", "sounds": ["apothecary bells", "glass clinking", "laundry water", "relief clerks", "blue-lamp hum"], "smells": ["herbs", "lamp oil", "wet laundry", "brass polish", "garden soil"], "lighting": "Warm windows and blue civic lamps keep the city readable at night.", "weatherEffects": "Rain gathers in garden steps, laundry wells, brass thresholds, and mossed courts.", "dayCycle": "Healing halls, labs, relief notices, and service errands dominate the day.", "nightCycle": "Ancestor lanterns, guarded labs, and quiet tenement repair dominate the night."},
+    "shops": {"common": ["apothecaries", "herb sellers", "laundry soap stalls", "garden seed shops"], "uncommon": ["blue-lamp repair", "formula copyists", "glassware vendors", "ancestor charm sellers"], "prestigious": ["healing hall offices", "formula archive counters", "High Court charm-law desks"], "exports": ["medicine", "formula copies", "blue lamps", "brass fittings"], "imports": ["rare herbs", "glass", "copper", "paper", "cloth"], "streetFood": ["warm bread", "garden tea", "herb cakes", "stew cups"], "services": ["triage", "medicine mixing", "relief filing", "laundry", "ancestor offerings"]},
+    "housing": {"wealthy": "Gardened brass-door homes near court, healing halls, or formula archives.", "middle": "Compact stone-and-timber homes over shops with shared wells and window herbs.", "poor": "Low residential courts with laundry wells, drying lines, shared lamps, and practical repairs."}
+  },
+  "districts": [
+    {"sectionNumber": 1, "name": "Medical / Healing", "civicPurpose": "Healing, triage, apothecary movement, and crisis response.", "visualIdentity": "Medical / Healing Civic Hall, Healing Hall Beacon, Medical Healing Lantern Monument, Apothecary Court Nook.", "emotionalIdentity": "merciful, urgent, warm, practical", "gameplayAssetNeeds": ["Medical / Healing Civic Hall", "Healing Hall Beacon", "Medical Healing Lantern Monument", "Apothecary Court Nook", "healers", "patients"], "narrativeUse": ["triage", "medical authority", "public warning"], "landmark": "Healing Hall Beacon", "minorLandmarks": ["Medical Healing Lantern Monument", "Apothecary Court Nook"]},
+    {"sectionNumber": 2, "name": "Arcane / Alchemical Labs", "civicPurpose": "Regulated invention, formula keeping, and dangerous knowledge.", "visualIdentity": "Arcane / Alchemical Labs Civic Hall, Alchemy Lab, Blue-Lamp Monument, Formula Archive Nook.", "emotionalIdentity": "precise, risky, clever, controlled", "gameplayAssetNeeds": ["Arcane / Alchemical Labs Civic Hall", "Alchemy Lab", "Blue-Lamp Monument", "Formula Archive Nook", "glassware"], "narrativeUse": ["formula danger", "lab accident", "regulated invention"], "landmark": "Alchemy Lab", "minorLandmarks": ["Blue-Lamp Monument", "Formula Archive Nook"]},
+    {"sectionNumber": 3, "name": "Civic Services", "civicPurpose": "Public aid, relief eligibility, notices, queues, and administrative care.", "visualIdentity": "Civic Services Hall, Relief Hall, Civic Services Lantern Monument, Notice Plaza Nook.", "emotionalIdentity": "helpful, pressured, orderly", "gameplayAssetNeeds": ["Civic Services Hall", "Relief Hall", "Civic Services Lantern Monument", "Notice Plaza Nook", "relief clerks"], "narrativeUse": ["public aid", "eligibility dispute", "missing-person notice"], "landmark": "Relief Hall", "minorLandmarks": ["Civic Services Lantern Monument", "Notice Plaza Nook"]},
+    {"sectionNumber": 4, "name": "Low Residential", "civicPurpose": "Domestic density, shared labor, and ordinary care.", "visualIdentity": "Low Residential Civic Hall, Tenement Court, Low Residential Lantern Monument, Laundry Well Nook.", "emotionalIdentity": "crowded, warm, practical", "gameplayAssetNeeds": ["Low Residential Civic Hall", "Tenement Court", "Low Residential Lantern Monument", "Laundry Well Nook", "families"], "narrativeUse": ["domestic life", "gossip", "poverty pressure"], "landmark": "Tenement Court", "minorLandmarks": ["Low Residential Lantern Monument", "Laundry Well Nook"]},
+    {"sectionNumber": 5, "name": "Necropolis / Ancestor Quarter", "civicPurpose": "Ancestor memory, death care, family continuity, and bone lantern routes.", "visualIdentity": "Necropolis / Ancestor Quarter Civic Hall, Ancestor Vault, Ancestor Masks Monument, Bone Lantern Path Nook.", "emotionalIdentity": "quiet, reverent, continuous", "gameplayAssetNeeds": ["Necropolis / Ancestor Quarter Civic Hall", "Ancestor Vault", "Ancestor Masks Monument", "Bone Lantern Path Nook", "ancestor keepers"], "narrativeUse": ["family memory", "death care", "ancestor vow"], "landmark": "Ancestor Vault", "minorLandmarks": ["Ancestor Masks Monument", "Bone Lantern Path Nook"]}
   ],
-  "summary": {
-    "oneSentence": "Hearthglen is a gnomish hearth-and-brass city where healing halls, alchemical laboratories, civic relief, low residential courts, ancestor vaults, blue lamps, gardens, and wheel-like brass doors turn care into a complete civic machine.",
-    "identityStatement": "Hearthglen should read as a mature gnomish hill-garden city built around warmth, repair, medicine, experiment, social aid, memory, and domestic density. It is not whimsical gadget scenery; it is a civilization that makes healing, formula-keeping, relief notices, apothecary work, laundry courts, ancestor paths, and brass-door public architecture the visible grammar of daily life."
-  },
-  "evidence": {
-    "civilizationMaturity": {
-      "ageExpression": "ancient / deeply settled",
-      "evidence": [
-        "hero views show a broad, dense city of domes, towers, terraced gardens, wheel-like brass architecture, civic centers, and neighborhood fabric",
-        "street views show mature district systems: medical/healing, arcane/alchemical labs, civic services, low residential, and necropolis/ancestor quarter",
-        "the city is highly built but gardened, implying long-term care and maintenance rather than temporary growth",
-        "blue lamps, brass fittings, round doors, red awnings, apothecary stalls, and domestic courts recur across sections"
-      ]
-    },
-    "architecturalLanguage": {
-      "materials": [
-        "warm stone",
-        "mossed masonry",
-        "dark timber",
-        "brass doors",
-        "bronze fittings",
-        "blue glass lamps",
-        "red woven awnings",
-        "green garden stone",
-        "copper pipes",
-        "polished apothecary glass",
-        "weathered plaster",
-        "thatch and shingle roofs"
-      ],
-      "forms": [
-        "round brass doors",
-        "hearth-wheel structures",
-        "healing halls",
-        "apothecary courts",
-        "alchemy labs",
-        "formula archives",
-        "relief halls",
-        "notice plazas",
-        "tenement courts",
-        "laundry wells",
-        "ancestor vaults",
-        "bone lantern paths",
-        "garden terraces",
-        "low domes and compact towers"
-      ],
-      "skyline": [
-        "Gnomish Hearth-Wheel Garden of Brass Doors as the far wonder-scale anchor",
-        "Hanging Charms Veiled High Court as the dominant civic seat of power",
-        "Healing Hall Beacon as the near/front signal landmark rooted in medical care",
-        "alchemy towers, relief halls, ancestor vaults, garden domes, and small civic spires distributed through a dense warm cityscape"
-      ],
-      "lighting": [
-        "warm golden-hour hearth light",
-        "blue civic lamp glow",
-        "apothecary glass reflections",
-        "alchemy blue flame",
-        "lantern light in residential courts",
-        "soft garden light",
-        "ancestor-path candlelight"
-      ],
-      "infrastructure": [
-        "healing wards",
-        "apothecary counters",
-        "formula archives",
-        "lab courts",
-        "relief halls",
-        "notice boards",
-        "low residential courts",
-        "laundry wells",
-        "ancestor paths",
-        "garden stairs",
-        "brass-door civic entrances",
-        "small bridges and terraced walks"
-      ],
-      "visualPatterns": [
-        "care is institutionalized: healing, alchemy, relief, domestic life, and ancestor memory all have public architecture",
-        "the city balances small-scale domestic detail with large brass-wheel monumental forms",
-        "blue lamps mark practical civic safety, medicine, alchemy, and public service rather than cold authority",
-        "gardens and warm stone make the city feel humane despite its complexity",
-        "gnomish identity expresses itself through compact scale, rounded machinery, clever civic entrances, and tool-like ornament"
-      ],
-      "recurringMotifs": [
-        "brass doors",
-        "hearth wheels",
-        "hanging charms",
-        "blue lamps",
-        "apothecary glass",
-        "formula archives",
-        "healing lanterns",
-        "notice plazas",
-        "laundry wells",
-        "ancestor masks",
-        "bone lanterns",
-        "garden terraces"
-      ]
-    },
-    "environmentalRelationship": {
-      "observed": "Hearthglen domesticates hill, garden, and civic machinery into a warm urban organism. The city does not retreat into nature or pave it flat; it inserts gardens, courtyards, terraces, and warm public thresholds into an intensely practical civic landscape.",
-      "evidence": [
-        "hero views repeatedly show garden terraces and green pockets threaded through dense urban massing",
-        "street views show warm stone plazas, planted courts, awnings, apothecary stalls, and domestic wells",
-        "the Wonder is explicitly a Hearth-Wheel Garden of Brass Doors, merging machine, home, and garden",
-        "the city’s formal systems are repeatedly human-scale/gnome-scale rather than remote or monumental only"
-      ]
-    },
-    "authorityExpression": {
-      "observed": "Authority appears protective, service-oriented, and charm-bound. The High Court is veiled and ceremonial, but the city’s practical authority lives in healing, formulas, relief notices, lab protocols, and ancestor memory.",
-      "evidence": [
-        "seat of power is Hanging Charms Veiled High Court",
-        "Beacon is Healing Hall Beacon in the Medical / Healing district",
-        "Section 2 formalizes Alchemy Lab and Formula Archive",
-        "Section 3 centers Civic Services and Relief Hall",
-        "Section 4 and 5 make domestic life and ancestor memory full civic districts"
-      ]
-    },
-    "commercialSpaces": [
-      "apothecary courts",
-      "medicine stalls",
-      "brass repair shops",
-      "formula-copy counters",
-      "alchemical supply vendors",
-      "blue-lamp repairers",
-      "relief supply counters",
-      "laundry-well vendors",
-      "ancestor charm sellers",
-      "garden seed stalls",
-      "small food carts",
-      "tool and hinge makers"
-    ],
-    "publicSpaces": [
-      "healing hall approaches",
-      "apothecary courts",
-      "alchemy lab plazas",
-      "formula archive steps",
-      "relief hall squares",
-      "notice plazas",
-      "tenement courts",
-      "laundry wells",
-      "ancestor vault paths",
-      "bone lantern lanes",
-      "garden terraces",
-      "brass-door civic courts"
-    ],
-    "districtCharacter": {
-      "section1MedicalHealing": "care as civic identity: healing hall, apothecary court, healing lantern monument, blue lamps, herbal stalls, warm thresholds, and the Healing Hall Beacon as the public signal heart",
-      "section2ArcaneAlchemicalLabs": "experiment under civic control: alchemy lab, formula archive, blue-lamp monument, glassware, pipes, small towers, and public-facing research infrastructure",
-      "section3CivicServices": "organized aid: relief hall, notice plaza, civic lantern monument, queues, public instructions, small offices, and service architecture built around immediate help",
-      "section4LowResidential": "domestic density and neighborhood care: tenement court, laundry well, low residential lantern monument, small gardens, cooking, gossip, repair, and family life",
-      "section5NecropolisAncestorQuarter": "memory and continuation: ancestor vault, ancestor masks monument, bone lantern path, quiet gardened stone, small shrines, and death-care integrated into the city rather than hidden away"
-    }
-  },
-  "narrativeTranslation": {
-    "streets": {
-      "description": "Hearthglen streets should feel warm, compact, clever, gardened, and busy with care. Characters move over rounded stone paving, past brass doors, blue lamps, apothecary counters, formula windows, relief notices, laundry wells, and ancestor lantern paths while the great Hearth-Wheel turns the whole city into a visible promise of repair.",
-      "writingGuidance": [
-        "Use warmth and repair as constant street texture: lamps, herbs, tea, small tools, bandages, brass hinges, posted notices, and lab glass.",
-        "Make the city gnomish through scale and function: low counters, rounded doors, compact stairs, clever signs, and densely useful objects.",
-        "Do not reduce Hearthglen to cute invention; its inventions exist because people get sick, poor, displaced, old, and dead.",
-        "Let gardens soften the machinery but not erase the civic seriousness underneath."
-      ]
-    },
-    "people": {
-      "description": "Citizens should feel practical, helpful, fussy, observant, and institutionally literate. Healers, apothecaries, alchemists, clerks, relief workers, tenants, washerfolk, ancestor keepers, gardeners, and brass-workers all share the same care economy.",
-      "behavioralNotes": [
-        "people know which hall treats what injury, which formula clerk keeps what record, and which relief notice matters",
-        "ordinary citizens use civic services without shame; aid is part of the city’s self-image",
-        "alchemy is visible but regulated, more public workshop than wizard tower",
-        "domestic and ancestor care are civic duties, not private afterthoughts"
-      ]
-    },
-    "shops": {
-      "examples": [
-        "apothecaries",
-        "brace and bandage stalls",
-        "brass hinge makers",
-        "blue-lamp repair shops",
-        "formula copyists",
-        "herb sellers",
-        "glassware vendors",
-        "relief-ticket counters",
-        "laundry soap stalls",
-        "ancestor charm sellers",
-        "garden seed shops",
-        "small engine repair carts"
-      ],
-      "writingGuidance": "Commerce should feel useful before luxurious. Shops sell remedies, tools, lamps, formula copies, charms, food, laundry supplies, garden goods, and small repairs that keep the city functioning."
-    },
-    "homes": {
-      "description": "Homes should be compact, warm, and communal: low stone-and-timber houses, upper rooms over shops, rounded doors, blue lamps, window herbs, drying lines, shared wells, brass latches, small gardens, and tight stairs built for gnomish bodies.",
-      "writingGuidance": [
-        "Use domestic detail heavily: kettles, mending, stools, drying cloth, jars, stairs, warm windows, and neighborhood notice boards.",
-        "Low residential should feel crowded but cared for, not neglected."
-      ]
-    },
-    "publicLife": {
-      "dailyRhythms": [
-        "morning apothecary stalls opening near the Healing Hall",
-        "lab apprentices carrying glassware and formula slips",
-        "relief notices being posted and read in Section 3",
-        "laundry wells and tenement courts filling at midday",
-        "gardeners and brass workers maintaining public thresholds",
-        "ancestor lanterns being lit at dusk",
-        "blue lamps and warm windows carrying the city into evening"
-      ],
-      "commonActivities": [
-        "treating injuries",
-        "mixing medicines",
-        "copying formulas",
-        "posting relief notices",
-        "repairing lamps",
-        "washing clothes",
-        "mending tools",
-        "ancestor offerings",
-        "garden tending",
-        "queueing for aid",
-        "beacon watching"
-      ]
-    },
-    "sounds": [
-      "small bells on apothecary doors",
-      "glass clinking in lab trays",
-      "water at laundry wells",
-      "market voices under low awnings",
-      "brass hinges creaking",
-      "blue-lamp hum",
-      "formula clerks reading numbers",
-      "children in tenement courts",
-      "soft ancestor-path chimes",
-      "healers calling instructions"
-    ],
-    "smells": [
-      "herbs",
-      "lamp oil",
-      "warm bread",
-      "wet laundry",
-      "brass polish",
-      "garden soil",
-      "medicinal alcohol",
-      "smoke from small hearths",
-      "ink",
-      "cool stone near ancestor vaults"
-    ],
-    "lighting": {
-      "day": "Daylight should be warm, garden-filtered, and domestic, catching brass doors, glass jars, red awnings, and mossed stone.",
-      "night": "Night should feel safe but busy: blue civic lamps, warm windows, apothecary glows, lab flames, ancestor lanterns, and small hearths.",
-      "weather": "Soft overcast and golden-hour light work best; the city should feel sheltered by hills and gardens rather than exposed."
-    },
-    "transportation": {
-      "description": "Movement is on foot through compact lanes, low stairs, small bridges, garden terraces, brass-door thresholds, and crowded service courts. Routes are short but dense with functional stops.",
-      "writingGuidance": [
-        "Use small-scale obstacles and useful detours: carts of herbs, laundry baskets, lab deliveries, relief queues, and narrow garden stairs.",
-        "Let locals navigate by hall function rather than street names: healing, formulas, relief, wells, vaults."
-      ]
-    },
-    "children": {
-      "description": "Children should be visible around low residential courts, apothecary errands, garden paths, and relief notices, learning practical civic care early: where to fetch medicine, which lamps mark safety, and when to stay away from lab doors."
-    },
-    "craftsmen": {
-      "description": "Craftsmen include apothecaries, brass workers, glassblowers, alchemists, formula copyists, blue-lamp makers, garden engineers, hinge makers, washerfolk, ancestor-mask carvers, and small engine repairers."
-    },
-    "markets": {
-      "description": "Markets should be cozy, crowded, and care-oriented: herbs, food, bandages, tools, charms, formula slips, laundry goods, lamp parts, and small brass mechanisms."
-    },
-    "food": {
-      "examples": [
-        "warm seed bread",
-        "herbed stew",
-        "mushroom pies",
-        "honey tea",
-        "root vegetable broth",
-        "small market pastries",
-        "garden greens",
-        "soft cheese",
-        "healing-hall soup",
-        "spiced apple cakes"
-      ]
-    },
-    "companionObservations": {
-      "addie": [
-        "notices exact formula labels, relief notices, treatment categories, apothecary signs, and ancestor inscriptions",
-        "stores routes by Healing Hall Beacon, Alchemy Lab, Relief Hall, Tenement Court, Ancestor Vault, and Hearth-Wheel Garden",
-        "is struck by how the city treats care as a documented public system"
-      ],
-      "gregory": [
-        "reads hearth wheels, brass doors, hanging charms, healing lanterns, ancestor masks, and formula archives as symbols of repair, threshold, protection, and remembered care",
-        "would distinguish genuine civic mercy from mere comfort aesthetics"
-      ],
-      "brickett": [
-        "spots loose brass latches, dropped formula slips, notice-board edits, laundry-well gossip, service tunnels, and which apothecary shelves were disturbed",
-        "moves well here because the city is full of small overlooked mechanisms and practical details"
-      ],
-      "talandra": [
-        "reads lab hazards, narrow lanes, relief crowds, well edges, apothecary bottlenecks, and ancestor-path shadows as threat geometry",
-        "would prefer controlled routes but appreciate the number of public aid stations"
-      ],
-      "mae": [
-        "would notice who controls medicines, formulas, relief supplies, ancestor access, and brass-door maintenance contracts",
-        "would understand that in Hearthglen, dependency networks are power systems"
-      ],
-      "genericCompanionNotes": [
-        "Outsiders should feel disarmed by warmth before realizing how sophisticated the city’s care systems are.",
-        "Scenes should avoid empty whimsy; every charming object should have a civic or domestic use."
-      ]
-    }
-  },
-  "arrivalExperience": {
-    "firstImpression": "A visitor should first experience Hearthglen as a city that feels like it is trying to help before it even knows your name: brass doors glowing in warm light, blue lamps above apothecary courts, garden terraces tucked between dense houses, relief notices on public boards, and a great hearth-wheel wonder turning above the city like a promise of repair.",
-    "firstHourSequence": [
-      "warm stone, garden smell, and brass reflections",
-      "first view of the Healing Hall Beacon above medical streets",
-      "passing apothecary counters and healing lanterns",
-      "hearing lab glass and seeing formula archive signs",
-      "crossing a relief notice plaza and low residential court",
-      "glimpsing the Hearth-Wheel Garden of Brass Doors and understanding that care is the city’s central machinery"
-    ],
-    "readerEffect": "The reader should feel comfort first, then complexity: Hearthglen is kind, but its kindness is engineered, recorded, maintained, and defended by institutions."
-  },
-  "departureMemory": {
-    "readerShouldRemember": [
-      "brass doors and hearth-wheel silhouettes",
-      "Healing Hall Beacon in a medical district",
-      "blue lamps over apothecary courts",
-      "alchemy labs and formula archives",
-      "relief halls and notice plazas",
-      "tenement courts and laundry wells",
-      "ancestor vaults and bone lantern paths",
-      "a city where warmth has infrastructure"
-    ]
-  },
-  "landmarkAnalysis": {
-    "wonder": {
-      "name": "Gnomish Hearth-Wheel Garden of Brass Doors",
-      "purpose": "The Wonder embodies Hearthglen's highest civic principle: warmth made mechanical, care made public, and domestic protection scaled into city identity.",
-      "visualDescription": "A monumental wheel-like garden complex of brass doors, round forms, warm stone, blue/gold lights, terraces, and civic approaches visible across hero views as Hearthglen's defining skyline symbol.",
-      "narrativeUse": "Use the Wonder whenever the story needs Hearthglen to feel like a city that repairs bodies, homes, records, and memory. It should be beautiful but practical, more public hearth than palace ornament.",
-      "howCharactersNoticeIt": {
-        "addie": "notices repeated hearth-wheel and brass-door phrases in civic notices and healing protocols",
-        "gregory": "reads wheel and door symbolism as return, threshold, access, and repair",
-        "brickett": "spots hinges, maintenance doors, service ledges, and the small labor beneath the grand mechanism",
-        "talandra": "maps entrances, terrace crowds, and mechanical failure risks",
-        "mae": "reads access to the brass doors as social and political leverage"
-      },
-      "commonActivities": [
-        "public healing festivals",
-        "garden ceremonies",
-        "relief musters",
-        "civic repair rituals",
-        "threshold blessings",
-        "community meals"
-      ],
-      "visibilityFromCity": "Visible from hero views as a far skyline anchor, distinct from the Healing Hall Beacon and High Court."
-    },
-    "beacon": {
-      "name": "Healing Hall Beacon",
-      "purpose": "The Beacon ties Conjunction signal identity to healing, warning, triage, and public care instead of military command or market speech.",
-      "visualDescription": "A blue-lit signal landmark rising from the Medical / Healing district, surrounded by healing halls, apothecary courts, lantern monuments, gardened stone, and public treatment approaches.",
-      "narrativeUse": "Use the Beacon as a city-wide triage signal. In Hearthglen, a color change should make healers, apothecaries, relief workers, alchemists, and families move immediately.",
-      "howCharactersNoticeIt": {
-        "addie": "notices citizens interpret beacon states through treatment categories and aid routes",
-        "gregory": "reads it as warning bound to mercy and repair",
-        "brickett": "finds apothecary back routes, lamp ladders, and patient shortcuts",
-        "talandra": "treats the beacon plaza as vulnerable because wounded people and crowds gather there"
-      },
-      "commonActivities": [
-        "signal watching",
-        "triage routing",
-        "healer musters",
-        "public warnings",
-        "medicine distribution",
-        "emergency aid coordination"
-      ],
-      "visibilityFromCity": "Prominent in Section 1 and visible in hero views as the front civic signal anchor."
-    },
-    "seatOfPower": {
-      "name": "Hanging Charms Veiled High Court",
-      "purpose": "The seat of power expresses authority through protection, charm law, ceremonial access, sealed archives, and the public apparatus of care governance.",
-      "visualDescription": "A central court complex of warm stone, hanging charms, veiled entries, audience terraces, sealed archives, blue lamps, and civic platforms above the dense garden city.",
-      "narrativeUse": "Use the High Court to show that Hearthglen's kindness still has hierarchy, law, gatekeeping, and ceremony. Care is administered, not merely offered spontaneously.",
-      "howCharactersNoticeIt": {
-        "addie": "locks onto exact charm-law phrases, aid categories, and sealed archive wording",
-        "gregory": "reads hanging charms as protection, contract, and threshold symbolism",
-        "brickett": "spots service doors, charm repairs, courier routes, and unnoticed clerical labor",
-        "talandra": "maps terraces, public queues, hidden balconies, and court approach risks",
-        "mae": "understands that who qualifies for care is political power"
-      },
-      "commonActivities": [
-        "audiences",
-        "aid rulings",
-        "healing disputes",
-        "formula regulation",
-        "archive sealing",
-        "public petitions",
-        "charm ceremonies"
-      ],
-      "visibilityFromCity": "Dominant central civic anchor visible in hero views, balanced by the Wonder and Beacon."
-    },
+  "landmarks": {
+    "wonder": {"name": "Gnomish Hearth-Wheel Garden of Brass Doors", "symbolicRole": "Warmth made mechanical and public.", "visualRole": "Large brass-door garden-wheel complex above compact service districts.", "civicRole": "Citywide symbol for repair, relief, threshold blessings, and communal meals.", "narrativeUse": ["healing festival", "public repair ritual", "relief muster"], "assetUse": ["map wonder", "far skyline anchor"], "sensoryIdentity": ["warm brass", "garden air", "hinge creak", "blue lamps"], "storyHooks": ["A brass door opens only for the category of person the relief system forgot."]},
+    "beacon": {"name": "Healing Hall Beacon", "symbolicRole": "Warning bound to mercy and triage.", "visualRole": "Blue-lit medical signal integrated with healing halls and apothecary courts.", "civicRole": "Coordinates triage, healer musters, public warnings, and medicine distribution.", "narrativeUse": ["triage signal", "medical crisis", "public warning"], "assetUse": ["S1 centerpiece", "signal marker"], "sensoryIdentity": ["blue glow", "herbs", "patient voices"], "storyHooks": ["A Beacon change turns the whole city into a triage network."]},
+    "seatOfPower": {"name": "Hanging Charms Veiled High Court", "symbolicRole": "Protective charm law and care governance.", "visualRole": "Central court of warm stone, hanging charms, veiled entries, sealed archives, and audience terraces.", "civicRole": "Handles aid rulings, healing disputes, formula regulation, archive sealing, and public petitions.", "narrativeUse": ["aid ruling", "formula regulation", "healing dispute"], "assetUse": ["seat-of-power marker", "central court diorama"], "sensoryIdentity": ["hanging charms", "ink", "blue glass", "soft bells"], "storyHooks": ["A court ruling proves care can become gatekeeping."]},
     "majorLandmarks": [
-      {
-        "name": "Healing Hall Beacon",
-        "sectionNumber": 1,
-        "narrativeUse": "Use for triage, medical authority, public warning, apothecary movement, and crisis response."
-      },
-      {
-        "name": "Alchemy Lab",
-        "sectionNumber": 2,
-        "narrativeUse": "Use for experiment, formula danger, regulated invention, lab accidents, and problem-solving through craft science."
-      },
-      {
-        "name": "Relief Hall",
-        "sectionNumber": 3,
-        "narrativeUse": "Use for public aid, queues, notices, ration-like supplies, civic responsibility, and moral pressure."
-      },
-      {
-        "name": "Tenement Court",
-        "sectionNumber": 4,
-        "narrativeUse": "Use for domestic life, gossip, poverty without abandonment, shared labor, children, and neighborhood repair culture."
-      },
-      {
-        "name": "Ancestor Vault",
-        "sectionNumber": 5,
-        "narrativeUse": "Use for family memory, death care, public ancestry, bone lantern routes, and the continuity of care after life."
-      }
-    ],
-    "monuments": [
-      {
-        "name": "Medical Healing Lantern Monument",
-        "narrativeUse": "Use to show healing as public memory and civic identity, not just a service."
-      },
-      {
-        "name": "Blue-Lamp Monument",
-        "narrativeUse": "Use in alchemical/public service areas to mark safe experiment, warning, and controlled civic knowledge."
-      },
-      {
-        "name": "Civic Services Lantern Monument",
-        "narrativeUse": "Use to anchor relief and notice plazas as trusted public infrastructure."
-      },
-      {
-        "name": "Low Residential Lantern Monument",
-        "narrativeUse": "Use for neighborhood safety, wayfinding, and ordinary shared care."
-      },
-      {
-        "name": "Ancestor Masks Monument",
-        "narrativeUse": "Use to show ancestor memory as protected, intimate, and still civic."
-      }
-    ],
-    "minorLandmarks": [
-      {
-        "name": "Apothecary Court Nook",
-        "narrativeUse": "Use for remedies, clues, gossip, triage, small transactions, and hands-on healing detail."
-      },
-      {
-        "name": "Formula Archive Nook",
-        "narrativeUse": "Use for lab records, exact wording, formulas, dangerous knowledge, and Addie's memory comparisons."
-      },
-      {
-        "name": "Notice Plaza Nook",
-        "narrativeUse": "Use for relief notices, missing-person posts, public instructions, and civic anxiety."
-      },
-      {
-        "name": "Laundry Well Nook",
-        "narrativeUse": "Use for domestic labor, neighborhood gossip, illness clues, and Brickett-style overlooked evidence."
-      },
-      {
-        "name": "Bone Lantern Path Nook",
-        "narrativeUse": "Use for ancestor scenes, quiet grief, family vows, and the continuation of care into death."
-      }
+      {"name": "Alchemy Lab", "symbolicRole": "Dangerous invention put to public use.", "visualRole": "Lab towers, blue lamps, formula archives, glassware, and copper pipes.", "civicRole": "Research and regulated experiment.", "narrativeUse": ["experiment", "formula danger"], "assetUse": ["S2 diorama"], "sensoryIdentity": ["glass", "blue flame", "ink"], "storyHooks": ["A formula solves a crisis only if someone admits who was denied access."]},
+      {"name": "Relief Hall", "symbolicRole": "Aid as public infrastructure.", "visualRole": "Service hall with notice plaza, counters, queues, and civic lamps.", "civicRole": "Public aid and eligibility review.", "narrativeUse": ["relief queue", "public notice"], "assetUse": ["S3 diorama"], "sensoryIdentity": ["paper", "lamp oil", "warm food"], "storyHooks": ["A notice changes who counts as eligible for help."]},
+      {"name": "Tenement Court", "symbolicRole": "Care surviving in crowded ordinary life.", "visualRole": "Laundry well, lantern monument, drying lines, and small gardens.", "civicRole": "Domestic continuity and neighbor networks.", "narrativeUse": ["gossip", "illness clue"], "assetUse": ["S4 diorama"], "sensoryIdentity": ["laundry water", "cooking", "lamp oil"], "storyHooks": ["A laundry-well rumor reaches the High Court before the notice does."]},
+      {"name": "Ancestor Vault", "symbolicRole": "Memory and care after death.", "visualRole": "Vaults, masks, bone lantern path, and gardened stone.", "civicRole": "Ancestor keeping and death care.", "narrativeUse": ["family memory", "ancestor vow"], "assetUse": ["S5 diorama"], "sensoryIdentity": ["cool stone", "candle wax", "quiet names"], "storyHooks": ["A bone lantern marks the person the relief ledger erased."]}
     ]
   },
-  "immediateNarrativeImprovements": [
-    {
-      "target": "future Hearthglen scenes",
-      "recommendation": "Write Hearthglen as care infrastructure, not whimsical gnome decoration: medicine, formulas, relief, domestic repair, and ancestor care should drive the city texture."
-    },
-    {
-      "target": "street descriptions",
-      "recommendation": "Use brass doors, hearth wheels, blue lamps, apothecary jars, lab glass, relief notices, laundry wells, garden terraces, and ancestor lanterns as recurring details."
-    },
-    {
-      "target": "landmark use",
-      "recommendation": "Make the Healing Hall Beacon the practical crisis heart and the Hearth-Wheel Garden of Brass Doors the emotional skyline of warmth engineered into civic form."
-    },
-    {
-      "target": "companion writing",
-      "recommendation": "Let Addie parse formula/aid language, Gregory read hearth-wheel/door/charm symbolism, Brickett notice practical mechanisms and notice-board edits, Talandra worry about lab/crowd hazards, and Mae track who controls medicines and eligibility."
-    },
-    {
-      "target": "city differentiation",
-      "recommendation": "Distinguish HEA from FRO and VLG: FRO shelters against cold sea, VLG survives through winter institutions, while HEA repairs through warmth, medicine, alchemy, relief, domestic care, and ancestor continuity."
-    }
-  ],
-  "interpretation": {
-    "civilizationThesis": "Hearthglen is the architecture of civic repair: a gnomish city where healing, experiment, relief, domestic life, and ancestor memory are all engineered into warm public systems.",
-    "environmentalPhilosophy": "Warm and mend: use gardens, brass, stone, lamps, formulas, and public halls to turn vulnerability into something the city can meet together.",
-    "adaptiveStrategy": "Repair and document: treat injuries, preserve formulas, post notices, provide relief, maintain homes, and remember the dead through organized care.",
-    "authorityModel": "protective-service authority with charm-law ceremony",
-    "relationshipWithNature": "cultivated and medicinal; gardens, herbs, and warm stone support care rather than wilderness identity",
-    "relationshipWithHistory": "domestic and ancestral; history survives through ancestor vaults, charms, formulas, and repeated repairs",
-    "relationshipWithKnowledge": "practical, experimental, and regulated; knowledge lives in formula archives, alchemy labs, apothecaries, and notices",
-    "relationshipWithRisk": "risk is managed through healing halls, blue lamps, regulated labs, relief systems, and community response",
-    "relationshipWithBeauty": "beauty is useful warmth: brass doors, garden terraces, blue lamps, round thresholds, and cared-for domestic spaces",
-    "relationshipWithCommunity": "community is organized around mutual care, shared services, dense neighborhoods, and civic eligibility systems",
-    "civilizationalTension": {
-      "tension": "care as mercy vs care as administered system",
-      "resolution": "Hearthglen resolves the tension by making care public and institutional, but that also means access, formulas, and relief can become forms of power."
-    },
-    "highestVirtue": "repair",
-    "religiousExpression": "moderate and domestic-ancestral, expressed through hanging charms, ancestor masks, bone lantern paths, healing lanterns, and hearth-wheel rituals",
-    "economicIdentity": "medicine, alchemy, formula copying, relief logistics, brasswork, lamp repair, domestic services, garden goods, and ancestor care",
-    "socialIdentity": "warm, practical, fussy, service-minded, inventive, neighborhood-oriented, and morally invested in whether care reaches people"
-  },
-  "canonReview": {
-    "lockedCanon": [
-      {
-        "statement": "Hearthglen is a mature gnomish hearth-city where healing, alchemy, civic relief, low residential life, ancestor memory, brass-door architecture, and gardened warmth define civic identity.",
-        "reason": "All nine images and sidecars consistently support Medical / Healing, Arcane / Alchemical Labs, Civic Services, Low Residential, Necropolis / Ancestor Quarter, Healing Hall Beacon, Hanging Charms Veiled High Court, and Gnomish Hearth-Wheel Garden of Brass Doors.",
-        "supportingEvidence": [
-          "Healing Hall Beacon",
-          "Alchemy Lab",
-          "Relief Hall",
-          "Tenement Court",
-          "Ancestor Vault",
-          "Hanging Charms Veiled High Court",
-          "Gnomish Hearth-Wheel Garden of Brass Doors"
-        ],
-        "confidence": "high"
-      },
-      {
-        "statement": "Hearthglen's Beacon identity is medical and triage-oriented, making public crisis response part of the city's core image.",
-        "reason": "The Beacon is explicitly the Healing Hall Beacon and is anchored in Section 1 Medical / Healing, supported by apothecary and healing lantern imagery.",
-        "supportingEvidence": [
-          "Medical / Healing Civic Hall",
-          "Healing Hall Beacon",
-          "Medical Healing Lantern Monument",
-          "Apothecary Court Nook"
-        ],
-        "confidence": "high"
-      },
-      {
-        "statement": "Hearthglen should not be written as mere gnomish whimsy; its cleverness exists to repair, regulate, and care for vulnerable people.",
-        "reason": "The district structure centers healing, alchemy, relief, low residential life, and necropolis care rather than spectacle alone.",
-        "supportingEvidence": [
-          "Healing Hall",
-          "Formula Archive",
-          "Relief Hall",
-          "Notice Plaza",
-          "Laundry Well",
-          "Ancestor Vault"
-        ],
-        "confidence": "high"
-      }
-    ],
-    "provisionalCanon": [
-      {
-        "statement": "Hearthglen's highest civic virtue is repair.",
-        "reason": "The city repeatedly turns harm, poverty, domestic need, experiment, and death into systems of response, but comparison with other gnomish/care cities should validate the virtue language.",
-        "supportingEvidence": [
-          "Healing Hall Beacon",
-          "Alchemy Lab",
-          "Relief Hall",
-          "Tenement Court",
-          "Ancestor Vault",
-          "Hearth-Wheel Garden"
-        ],
-        "confidence": "medium-high"
-      },
-      {
-        "statement": "Hearthglen likely has political tension around eligibility for care and control of formulas.",
-        "reason": "A city that institutionalizes healing, relief, and formula archives inevitably creates gatekeeping power; the High Court and relief/notice systems support this but need narrative validation.",
-        "supportingEvidence": [
-          "Hanging Charms Veiled High Court",
-          "Formula Archive Nook",
-          "Relief Hall",
-          "Notice Plaza Nook"
-        ],
-        "confidence": "medium"
-      }
-    ],
-    "workingHypotheses": [
-      {
-        "statement": "Gnomish civilization may express technology less as spectacle and more as applied care: medicine, repair, access, small mechanisms, and civic problem-solving.",
-        "reason": "HEA strongly supports this, but additional gnomish or invention-heavy cities should be compared before generalizing.",
-        "supportingEvidence": [
-          "Hearth-Wheel Garden",
-          "Alchemy Lab",
-          "Formula Archive",
-          "Apothecary Court",
-          "Relief Hall"
-        ],
-        "confidence": "medium"
-      }
-    ],
-    "rejectedHypotheses": [
-      {
-        "statement": "Hearthglen is a lighthearted gadget city without serious civic stakes.",
-        "reason": "The image set and sidecars foreground healing, public relief, formula control, low residential life, and death-care institutions.",
-        "supportingEvidence": [
-          "Medical / Healing",
-          "Civic Services",
-          "Low Residential",
-          "Necropolis / Ancestor Quarter",
-          "Hanging Charms Veiled High Court"
-        ],
-        "confidence": "high"
-      },
-      {
-        "statement": "Hearthglen's ancestor quarter is separate from its care identity.",
-        "reason": "The ancestor vault and bone lantern path extend the same civic-care logic beyond life, making memory part of the care continuum.",
-        "supportingEvidence": [
-          "Ancestor Vault",
-          "Ancestor Masks Monument",
-          "Bone Lantern Path Nook",
-          "Hearth-Wheel Garden"
-        ],
-        "confidence": "high"
-      }
-    ]
-  },
-  "futureQuestions": [
-    "How formal are Hearthglen's healing eligibility rules, and who can be denied care?",
-    "Are alchemical formulas public knowledge, guild property, state secrets, or family-held recipes?",
-    "What is the relationship between the Hanging Charms High Court and medical/alchemical institutions?",
-    "How much of the ancestor quarter is religious versus civic death-care?",
-    "How should HEA blue lamp safety differ from FRO shelter blue, DNL civic-market blue, LUM celestial blue, and VLG frost blue?"
-  ],
-  "comparativeNotes": {
-    "distinctFrom": [
-      {
-        "cityCode": "FRO",
-        "difference": "FRO turns shelter against the cold sea into civic virtue; HEA turns repair, medicine, alchemy, and domestic care into civic virtue."
-      },
-      {
-        "cityCode": "VLG",
-        "difference": "VLG institutionalizes endurance through guilds, registries, and winter aid; HEA institutionalizes care through healing halls, relief notices, and formula systems."
-      },
-      {
-        "cityCode": "DNL",
-        "difference": "DNL binds society through public witness, market, oath, and record; HEA binds society through practical care, repair, medicine, and eligibility."
-      },
-      {
-        "cityCode": "NET",
-        "difference": "NET survives through storage, burrow density, and informal routes; HEA survives through healing, alchemy, public service, and domestic repair."
-      }
-    ],
-    "similarTo": [
-      {
-        "cityCode": "FRO",
-        "similarity": "Both make public care infrastructure central to civic identity."
-      },
-      {
-        "cityCode": "VLG",
-        "similarity": "Both foreground aid/relief systems and warm public spaces as serious institutions."
-      },
-      {
-        "cityCode": "NET",
-        "similarity": "Both include dense low residential and civic service systems, though HEA is warmer and more repair-oriented."
-      }
-    ],
-    "uniqueContributions": [
-      "strongest current model for healing-as-beacon identity",
-      "clearest applied-care gnomish city language",
-      "best integration so far of alchemy, relief, domestic life, and ancestor care",
-      "hearth-wheel/brass-door motif creates a strong warmth-as-infrastructure identity"
-    ],
-    "potentialInfluences": [
-      "gnomish culture bible",
-      "care infrastructure worldbuilding",
-      "healing and formula governance",
-      "blue-light comparative matrix",
-      "Mother's observation that civilizations can turn vulnerability into civic systems"
-    ]
-  },
-  "crossCityTags": [
-    "gnomish-city",
-    "hearth-wheel-wonder",
-    "brass-doors",
-    "healing-hall-beacon",
-    "medical-healing",
-    "alchemy-labs",
-    "formula-archive",
-    "civic-services",
-    "relief-hall",
-    "low-residential",
-    "ancestor-vault",
-    "care-infrastructure",
-    "repair-civilization",
-    "established-civilization"
-  ],
-  "evolution": {
-    "previousAssumptions": [
-      "Hearthglen was expected to be gnomish, warm, gardened, and mechanically charming.",
-      "The exact civic seriousness behind healing, alchemy, relief, domestic density, and ancestor care had not yet been formalized."
-    ],
-    "discoveries": [
-      "The city is far more care-centered than gadget-centered: Healing Hall Beacon, Relief Hall, and apothecary streets define the civic read.",
-      "Alchemy is public and regulated, not isolated wizardry.",
-      "Low residential and laundry well imagery make domestic labor part of the city’s moral texture.",
-      "Ancestor care extends the repair/healing theme beyond life rather than forming a separate gothic zone.",
-      "The Hearth-Wheel Garden of Brass Doors gives the city a powerful symbol for warmth as functional infrastructure."
-    ],
-    "confirmedAssumptions": [
-      "Hearthglen should feel warm, gnomish, brass-heavy, gardened, and densely useful.",
-      "The city should remain established and sophisticated rather than whimsical or temporary.",
-      "Blue lamps, brass doors, and round forms belong in its core visual grammar."
-    ],
-    "changedOurMind": [
-      "Do not emphasize invention for its own sake; invention should serve care, repair, access, and relief.",
-      "Make medical and civic service architecture central in prose.",
-      "Treat charm, formula, and relief systems as political as well as benevolent."
-    ],
-    "futureValidation": [
-      "Compare HEA with future gnomish/invention-heavy cities to refine applied-care technology as a cultural thesis.",
-      "Use future narrative scenes to test eligibility-for-care as a plot pressure.",
-      "Revisit Hearthglen prose for enough apothecary, formula, relief, domestic, and ancestor-specific detail."
-    ]
+  "assetGuidance": {
+    "districtDioramaGuidance": ["S1: Medical / Healing Civic Hall, Healing Hall Beacon, Medical Healing Lantern Monument, Apothecary Court Nook.", "S2: Arcane / Alchemical Labs Civic Hall, Alchemy Lab, Blue-Lamp Monument, Formula Archive Nook.", "S3: Civic Services Hall, Relief Hall, Civic Services Lantern Monument, Notice Plaza Nook.", "S4: Low Residential Civic Hall, Tenement Court, Low Residential Lantern Monument, Laundry Well Nook.", "S5: Necropolis / Ancestor Quarter Civic Hall, Ancestor Vault, Ancestor Masks Monument, Bone Lantern Path Nook."],
+    "mapBackgroundGuidance": ["Keep Gnomish Hearth-Wheel Garden of Brass Doors, Healing Hall Beacon, and Hanging Charms Veiled High Court legible together.", "Use warm service-city density, gardens, brass doors, blue lamps, clinics, labs, relief halls, tenements, and ancestor paths."],
+    "requiredVisualElements": ["Gnomish Hearth-Wheel Garden of Brass Doors", "Healing Hall Beacon", "Hanging Charms Veiled High Court", "Medical / Healing Civic Hall", "Medical Healing Lantern Monument", "Apothecary Court Nook", "Arcane / Alchemical Labs Civic Hall", "Alchemy Lab", "Blue-Lamp Monument", "Formula Archive Nook", "Relief Hall", "Civic Services Lantern Monument", "Notice Plaza Nook", "Tenement Court", "Low Residential Lantern Monument", "Laundry Well Nook", "Ancestor Vault", "Ancestor Masks Monument", "Bone Lantern Path Nook"],
+    "elementsToAvoid": ["cute gnome gadget scenery", "care systems hidden behind whimsy", "ancestor care as background"]
   }
 }
