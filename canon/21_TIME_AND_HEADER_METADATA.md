@@ -1,8 +1,8 @@
 # Time, Calendar, And Header Metadata Standard
 
-This file defines how chapter, subchapter, vision, and interlude metadata should record **location**, **date**, **weekday**, and **hour** for prompt-ready drafts and prose output.
+This file defines how chapter, subchapter, vision, and interlude metadata should record **location**, **date**, **weekday**, **hour**, **beacon state**, and **chapter-heading display** for prompt-ready drafts and prose output.
 
-The goal is to make temporal and location continuity explicit enough for prose generation, Obsidian-style review, scene indexing, and continuity repair.
+The goal is to make temporal and location continuity explicit enough for prose generation, Obsidian-style review, scene indexing, continuity repair, and final chapter heading layout.
 
 ---
 
@@ -10,9 +10,9 @@ The goal is to make temporal and location continuity explicit enough for prose g
 
 Every prompt-ready chapter must state location and temporal metadata.
 
-If a chapter has visible subheaders / subchapters, put the metadata on the relevant subheader entries as well as in the Generation Packet Header.
+Normal narrative prose chapters should render that metadata in a centered chapter-heading box unless the user explicitly asks for a different output format.
 
-If a chapter does **not** have subheaders, put the metadata directly under the chapter title / chapter header.
+If a chapter has visible subheaders / subchapters, put the relevant metadata in the outline and prompt packet, but do **not** automatically put a visible header before every beat. Visible subchapters are controlled by the Subchapter Discipline rule below.
 
 This metadata is not decoration. It is part of continuity.
 
@@ -59,36 +59,116 @@ Location fields are not all required. But if `Location Status` is not `No Locati
 
 ---
 
-# Display Format
+# Chapter Heading Box Display Standard
 
-Use this three-line display format for chapter or subchapter headers when both location and time are meant to appear in the prose output:
+Normal narrative prose chapters should begin with a centered, full-width heading box. The box should extend to the page margins and carry a genre-appropriate shadowed / bordered treatment in final layout.
+
+In markdown-generation output, represent this as a stylable block. Use Font Awesome for the flame icon.
+
+Required order:
+
+1. Mark of the Orbs image.
+2. `Chapter <CHAPTER NUMBER>: <CHAPTER TITLE>`.
+3. Location line.
+4. Date / weekday / hour line.
+5. Font Awesome flame icon + beacon color + beacon day line.
+
+Canonical markdown/HTML template:
 
 ```md
-# <Chapter Title>
+<div class="eidolon-chapter-heading" align="center">
 
-<Location Display>
-<Weekday>, <Day Number> <Month>
-<Hour Name> (<relative anchor note>)
+![Mark of the Orbs](<MARK_OF_THE_ORBS_IMAGE>)
+
+**Chapter <CHAPTER NUMBER>: <CHAPTER TITLE>**
+
+<Building / Site / Landmark>, <District>, <Section>, <City>, <City-State>
+
+<Weekday>, <ordinal day> of <Month>, <Hour Name> [<Midnight/Noon +/- hours>]
+
+<i class="fa-solid fa-fire-flame-curved"></i> <BEACON COLOR> Beacon - Day <DAY NUMBER> of Conjunction #<CONJUNCTION NUMBER>
+
+</div>
 ```
 
 Example:
 
 ```md
-# The Example Chapter
+<div class="eidolon-chapter-heading" align="center">
 
-Aquila Matara, Mae's Estate, Back Porch
-Kindlemask, 1 Hearthwake
-Hour of the Gargoyle (1 hour before midnight)
+![Mark of the Orbs](assets/mark-of-the-orbs.png)
+
+**Chapter 14: The Law Telling Us To Forget**
+
+The White Tower, The High Elf Ward, The Scriptoria, City of Luminthalas, State of Ascentia
+
+Kindlemask, 3rd of Hearthwake, Hour of the Wyrm [Midnight +5 hours]
+
+<i class="fa-solid fa-fire-flame-curved"></i> White Beacon - Day 3 of Conjunction #1
+
+</div>
 ```
 
-For subchapters:
+Beacon colors may later receive CSS classes such as `beacon-red`, `beacon-orange`, or `beacon-white`, but do not omit the visible text.
+
+---
+
+# Location Display Rule
+
+Use a readable comma-separated location line.
+
+Final prose chapter headings use **specific to broad** order:
 
 ```md
-## Subchapter 4 — The City Made Of Water
+<Building / Site / Landmark>, <District>, <Section>, <City>, <City-State>
+```
 
-Pollyr Fen, Temple Wetland Quarter
-Eldrane, 14 Hearthwake
-Hour of the Sphinx (4 hours after noon)
+Only include values that are known and non-null.
+
+Examples:
+
+```md
+The White Tower, The High Elf Ward, The Scriptoria, City of Luminthalas, State of Ascentia
+```
+
+```md
+Dining Room, Van'kareth Estate, City of Aquila Matara
+```
+
+```md
+The Ribbit Hole, Red Thread District, City of Pollyr Fen
+```
+
+```md
+Witness Space
+```
+
+```md
+No Location
+```
+
+Do not force all location fields to exist. Do force the absence to be explicit.
+
+Older broad-to-specific lines may remain in rough notes, but prompt-ready chapter headers should use this specific-to-broad order.
+
+---
+
+# Date / Hour Display Rule
+
+Use this prose-facing time line:
+
+```md
+<Weekday>, <ordinal day> of <Month>, <Hour Name> [<Midnight/Noon +/- hours>]
+```
+
+Examples:
+
+```md
+Kindlemask, 3rd of Hearthwake, Hour of the Wyrm [Midnight +5 hours]
+```
+
+```md
+Dravenkar, 17th of Hearthwake, Hour of the High Market [Noon]
 ```
 
 If the exact hour is not known yet, use:
@@ -103,13 +183,59 @@ If no date/time applies:
 No Date/Time
 ```
 
-If no location applies:
+Do not invent a precise hour just to fill the field. Mark it TBD, then resolve it during timeline cleanup.
+
+---
+
+# Beacon Display Rule
+
+Normal Book 1 chapter headings should include beacon state when known.
+
+Use this display shape:
 
 ```md
-No Location
+<i class="fa-solid fa-fire-flame-curved"></i> <BEACON COLOR> Beacon - Day <DAY NUMBER> of Conjunction #<CONJUNCTION NUMBER>
 ```
 
-Do not invent a precise hour just to fill the field. Mark it TBD, then resolve it during timeline cleanup.
+Examples:
+
+```md
+<i class="fa-solid fa-fire-flame-curved"></i> Orange Beacon - Day 15 of Conjunction #1
+```
+
+```md
+<i class="fa-solid fa-fire-flame-curved"></i> Red Beacon - Day 17 of Conjunction #1
+```
+
+If beacon state is not applicable, use `Beacon State: Not Applicable` in metadata and omit the beacon line from final prose heading unless specifically requested.
+
+If beacon state is withheld for spoiler reasons, mark `Beacon State: Withheld`.
+
+---
+
+# Subchapter Discipline
+
+Visible subchapters are reader-facing structure. They are not beat labels.
+
+A visible subchapter should normally mark one of these:
+
+1. significant location change;
+2. POV change;
+3. major time jump that changes the scene conditions;
+4. formal inserted structure such as a vision, interlude, letter, legal document, broadcast, or transcript;
+5. major act-level turn where the dramatic engine changes.
+
+Do not create visible subchapter headings for every small topic shift, tactical beat, joke, or emotional turn inside the same room and same POV.
+
+Use the standard markdown scene break instead:
+
+```md
+---
+```
+
+Example: a dining-room lunch, strategy argument, and Mae entering to say “Nope. Nope nope.” should usually remain one visible subchapter if the location and POV are unchanged.
+
+Scene IDs in `canon/16_SCENES.md` may remain more granular than visible subchapter headings. Scene indexing is for maintenance. Visible subchapters are for reader-facing structure.
 
 ---
 
@@ -119,63 +245,27 @@ Prompt-ready drafts should include these fields in the **Generation Packet Heade
 
 | Field | Value |
 |---|---|
+| Chapter Number | Chapter number, or `Not Applicable` for interludes / visions. |
+| Chapter Title | Display title. |
 | Location Status | `Specific / Partial / No Location / Location Withheld / Metaphysical / Historical / Vision` |
-| Location Display | Human-readable comma-separated display line, or `No Location`. |
-| City-State / Region | City-state, region, or broad source layer if known. |
+| Location Display | Specific-to-broad comma-separated display line, or `No Location`. |
+| Building / Site / Landmark | Building, room, landmark, route, or site if known. |
+| District | District, ward, quarter, or neighborhood if known. |
+| Section | Section or civic division if known. |
 | City | City name if known. |
-| District / Section / Quarter | District, section, quarter, or neighborhood if known. |
-| Specific Setting / Site | Building, room, landmark, route, or site if known. |
+| City-State / Region | City-state, region, or broad source layer if known. |
 | Setting IDs | Exact setting IDs from `canon/15_SETTINGS.md`. |
 | Date / Time Status | `Dated / Approximate / TBD / No Date/Time / Date/Time Withheld` |
 | Date | `<Day Number> <Month>`, `No Date/Time`, or `TBD`. |
 | Weekday | `<Weekday>`, `No Date/Time`, or `TBD`. |
 | Time / Hour | `<Hour Name> (<relative anchor note>)`, `Hour TBD`, or `No Date/Time`. |
 | Time Certainty | `Locked / Approximate / TBD / Not Applicable / Withheld` |
+| Beacon State | Color + meaning, or `Not Applicable` / `Withheld`. |
+| Conjunction Day | Day number of current Conjunction, or `Not Applicable` / `TBD`. |
+| Conjunction Number | Conjunction number, or `Not Applicable` / `TBD`. |
 | Visible Header Metadata | `Chapter-level / Subchapter-level / Both / None / Withheld` |
 
 If the chapter spans multiple locations or hours, use the start state in the header and list the movement in a small table under `## Location & Temporal Metadata`.
-
----
-
-# Location Display Rule
-
-Use a readable comma-separated location line.
-
-Order from broad to specific:
-
-```md
-<City-State / Region>, <City>, <District / Section / Quarter>, <Specific Setting / Site>
-```
-
-Only include fields that are useful and known.
-
-Examples:
-
-```md
-Aquila Matara, Mae's Estate, Back Porch
-```
-
-```md
-Luminthalas, Section 1, White Tower Archives
-```
-
-```md
-Pollyr Fen, Temple Wetland Quarter
-```
-
-```md
-Historical Earth, Metropolis, Architect Council Chamber
-```
-
-```md
-Witness Space
-```
-
-```md
-No Location
-```
-
-Do not force all location fields to exist. Do force the absence to be explicit.
 
 ---
 
@@ -244,133 +334,16 @@ Use the closest anchor and never use more than **6 hours** in the note.
 
 Examples:
 
-- `Hour of the Gargoyle (1 hour before midnight)`
-- `Hour of the Wyrm (5 hours after midnight)`
-- `Hour of the Chieftain (1 hour before noon)`
-- `Hour of the Wayfarer (1 hour after noon)`
-- `Hour of the Star-Siren (6 hours after noon)`
-- `Hour of the Waxing Crescent (5 hours before midnight)`
+- `Hour of the Gargoyle [Midnight -1 hour]`
+- `Hour of the Wyrm [Midnight +5 hours]`
+- `Hour of the Chieftain [Noon -1 hour]`
+- `Hour of the Wayfarer [Noon +1 hour]`
+- `Hour of the Star-Siren [Noon +6 hours]`
+- `Hour of the Waxing Crescent [Midnight -5 hours]`
 
 Do not write:
 
-- `Hour of the Waxing Crescent (7 hours after noon)`
-- `Hour of the Chieftain (11 hours after midnight)`
+- `Hour of the Waxing Crescent [Noon +7 hours]`
+- `Hour of the Chieftain [Midnight +11 hours]`
 
 ---
-
-# Anchor Tie Rule
-
-For exact 6-hour distances:
-
-- 6:00 AM / Hour of the Griffin = `6 hours after midnight`.
-- 6:00 PM / Hour of the Star-Siren = `6 hours after noon`.
-
-This keeps morning hours anchored to midnight and evening hours anchored to noon until the note would exceed six hours.
-
----
-
-# Eidolon Hour Table
-
-| Earth-Clock Range | Hour Name | Relative Anchor Note |
-|---|---|---|
-| 12:00 AM – 1:00 AM | Hour of the Restless Souls | midnight |
-| 1:00 AM – 2:00 AM | Hour of the Sentry | 1 hour after midnight |
-| 2:00 AM – 3:00 AM | Hour of the Dew-Stalker | 2 hours after midnight |
-| 3:00 AM – 4:00 AM | Hour of the Vanguard | 3 hours after midnight |
-| 4:00 AM – 5:00 AM | Hour of the Chimera | 4 hours after midnight |
-| 5:00 AM – 6:00 AM | Hour of the Wyrm | 5 hours after midnight |
-| 6:00 AM – 7:00 AM | Hour of the Griffin | 6 hours after midnight |
-| 7:00 AM – 8:00 AM | Hour of the Phoenix | 5 hours before noon |
-| 8:00 AM – 9:00 AM | Hour of the Waning Crescent | 4 hours before noon |
-| 9:00 AM – 10:00 AM | Hour of the Iron Foundry | 3 hours before noon |
-| 10:00 AM – 11:00 AM | Hour of the Aurora | 2 hours before noon |
-| 11:00 AM – 12:00 PM | Hour of the Chieftain | 1 hour before noon |
-| 12:00 PM – 1:00 PM | Hour of the High Market | noon |
-| 1:00 PM – 2:00 PM | Hour of the Wayfarer | 1 hour after noon |
-| 2:00 PM – 3:00 PM | Hour of the Bishop | 2 hours after noon |
-| 3:00 PM – 4:00 PM | Hour of the Alchemist | 3 hours after noon |
-| 4:00 PM – 5:00 PM | Hour of the Sphinx | 4 hours after noon |
-| 5:00 PM – 6:00 PM | Hour of the Singularity | 5 hours after noon |
-| 6:00 PM – 7:00 PM | Hour of the Star-Siren | 6 hours after noon |
-| 7:00 PM – 8:00 PM | Hour of the Waxing Crescent | 5 hours before midnight |
-| 8:00 PM – 9:00 PM | Hour of the Pack-Runner | 4 hours before midnight |
-| 9:00 PM – 10:00 PM | Hour of the Courier | 3 hours before midnight |
-| 10:00 PM – 11:00 PM | Hour of the Prowler | 2 hours before midnight |
-| 11:00 PM – 12:00 AM | Hour of the Gargoyle | 1 hour before midnight |
-
----
-
-# Metadata-Friendly Block
-
-When useful, a prompt-ready draft may include a compact metadata block near the top:
-
-```md
-## Location & Temporal Metadata
-
-| Unit | Location Status | Location Display | Weekday | Date | Hour | Certainty |
-|---|---|---|---|---|---|---|
-| Chapter | Specific | Pollyr Fen, Temple Wetland Quarter | Eldrane | 14 Hearthwake | Hour of the Wyrm (5 hours after midnight) | Approximate |
-| Subchapter 1 | Specific | Aquila Matara, Mae's Estate, Dining Room | Eldrane | 14 Hearthwake | Hour of the Wyrm (5 hours after midnight) | Approximate |
-| Subchapter 7 | Partial | Pollyr Fen | Eldrane | 14 Hearthwake | Hour of the Aurora (2 hours before noon) | Approximate |
-| Subchapter 17 | Specific | Pollyr Fen, Temple Wetland Quarter | Eldrane | 14 Hearthwake | Hour of the Star-Siren (6 hours after noon) | Approximate |
-```
-
-Use `Unit` values that match the actual chapter or subchapter headings.
-
----
-
-# Prose Output Rule
-
-If the generation packet asks for header metadata in the prose output, the prose generator should place the location/date/hour block under the chapter title or under the relevant visible subchapter heading.
-
-Example output:
-
-```md
-# Children of the Damned
-
-Pollyr Fen, Temple Wetland Quarter
-Eldrane, 14 Hearthwake
-Hour of the Wyrm (5 hours after midnight)
-
-[Prose begins...]
-```
-
-For subchapters:
-
-```md
-## The City Made Of Water
-
-Pollyr Fen, Canal Market Approach
-Eldrane, 14 Hearthwake
-Hour of the Aurora (2 hours before noon)
-
-[Prose begins...]
-```
-
-For interludes:
-
-```md
-# Interlude: The Doomsday Shelf
-
-No Location
-No Date/Time
-
-[Prose begins...]
-```
-
----
-
-# Review / Cleanup Requirement
-
-Existing drafts created before this standard may lack explicit location and hour metadata.
-
-During cleanup passes:
-
-1. Add location fields to the Generation Packet Header.
-2. Add `Date`, `Weekday`, `Time / Hour`, `Time Certainty`, and `Visible Header Metadata` to the Generation Packet Header.
-3. Add a `## Location & Temporal Metadata` table when the chapter spans multiple locations or time blocks.
-4. Update `canon/16_SCENES.md` with matching location and time language.
-5. Do not guess exact times if the source only supports approximate timing.
-6. Use descriptive hour names in chapter/subchapter headers where appropriate.
-7. Do not mark a normal narrative chapter prompt-ready while its required date/time remains `TBD`.
-8. Use `No Date/Time` and `No Location` intentionally for interludes, abstract frames, or visions where those fields do not apply.
