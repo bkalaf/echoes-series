@@ -17,6 +17,6 @@ This folder holds standalone vision fragments / sequences so the main chapter ou
 | `01_03.md` | Corrected Extracted L4 | The Last Ships / Get Us In The Air; one continuous José evacuation vision where ships leave, civilians are abandoned, José sees the wave, and the ships appear to climb it. |
 | `01_04.md` | Extracted L4 | The Cities That Disobeyed; Dovren rewards replacement capitals, punishes Khembal / Qinyue / Skjarnheim, and exposes the capital-status leash. |
 | `01_05.md` | Drafted L4 | José and Noel at Nikolai headquarters; Noel fires José, withholds seats, and coerces him into sabotaging Hans / Frank and transport capacity. |
-| `01_06.md` | Stub | Book 01 Vision 06 placeholder. |
+| `01_06.md` | Drafted L4 | The Starter Cities / Well of Souls vision: young Dovren and emotional Overseer/Mother proxy collaborate after Mother’s population-balance failure, seeding the forty-eight starter cities and the Well pressure question. |
 | `17_01.md` | Stub | Hans and Noel before the explosion; Noel tries to stop Hans's crusade and reveals Frank's cheating. |
 | `18_01.md` | Stub | Mother realizes Noel killed Hans and exiles Noel to Earth. |
