@@ -113,12 +113,14 @@ Dramatize beats that change emotion, power, knowledge, relationship, danger, or 
 
 For normal narrative chapters, include the centered Echoes chapter-heading box unless the packet says not to.
 
+The heading box should be a new-page element placed about one quarter of the way down the page in final layout. Preserve the class names so downstream CSS can style the page break, margin placement, full-width border, and shadow.
+
 Use this format:
 
 ```md
-<div class="eidolon-chapter-heading" align="center">
+<div class="eidolon-chapter-heading page-break-before quarter-page" align="center">
 
-![Mark of the Orbs](<MARK_OF_THE_ORBS_IMAGE>)
+![Mark of the Orbs](assets/mark_of_orbs.svg)
 
 **Chapter <CHAPTER NUMBER>: <CHAPTER TITLE>**
 
@@ -136,6 +138,8 @@ Use Font Awesome for the flame icon.
 The location line uses specific-to-broad order and omits null values.
 
 If the packet marks heading metadata as `None`, `Withheld`, `No Location`, or `No Date/Time`, preserve that status rather than inventing missing fields.
+
+Do not use the Mark of the Orbs on subchapter headings.
 
 ---
 
@@ -187,6 +191,8 @@ Visible subchapter headings should mark significant location changes, POV change
 
 Do not create visible subchapter headings for every tactical beat, joke, topic shift, or emotional turn inside the same room and same POV.
 
+Do not put the Mark of the Orbs on subchapter headings. Subchapter headings must remain visually simpler than the chapter heading.
+
 Use the standard markdown scene break when a beat needs breathing room inside the same visible subchapter:
 
 ```md
@@ -202,9 +208,9 @@ If the packet contains older over-split subchapter notes, consolidate same-locat
 Output format for a normal chapter:
 
 ```md
-<div class="eidolon-chapter-heading" align="center">
+<div class="eidolon-chapter-heading page-break-before quarter-page" align="center">
 
-![Mark of the Orbs](<MARK_OF_THE_ORBS_IMAGE>)
+![Mark of the Orbs](assets/mark_of_orbs.svg)
 
 **Chapter [NUMBER]: [TITLE]**
 
@@ -243,10 +249,11 @@ Before finalizing, silently verify:
 6. The location metadata matches the packet.
 7. The temporal metadata matches the packet.
 8. The heading box includes required chapter / location / time / beacon fields when applicable.
-9. Visible subchapter headings are not overused.
-10. The ending state matches the packet.
-11. No later canon was revealed early.
-12. No new plot mechanics were invented.
+9. The heading box uses `assets/mark_of_orbs.svg` and appears only at chapter level.
+10. Visible subchapter headings are not overused.
+11. The ending state matches the packet.
+12. No later canon was revealed early.
+13. No new plot mechanics were invented.
 
 Then output the prose only.
 
