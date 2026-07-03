@@ -182,9 +182,9 @@ Book 01 uses the active 8-day weekday cycle. Since Yearsend 29 is Kindlemask, th
 
 ## B01.210 — The Stupid Thread
 
-| # | Visible Subchapter Group | Calendar Position |
+| # | Visible Subchapter | Calendar Position |
 |---:|---|---|
-| 1–2 | The Ribbit Hole morning, missing Carrio, buried Brickett | **Hearthwake 17, Dravenkar, around 9:00 a.m.; orange active** |
-| 3–7 | Tallowmire’s daughter, muddy Mae hug, Ariadne’s Thread, orange-to-red transition | **Hearthwake 17, Dravenkar, morning; red activates when Addie touches the thread** |
-| 8 | Pollyr Fen Portalport / Mirefang delay / city-allegiance news | **Hearthwake 17, Dravenkar, after red activation** |
-| 9–11 | AQM return, rainy dining-room lunch, eight-day Horror planning chaos | **Hearthwake 17, Dravenkar, Hour of High Market halfway toward Hour of the Wayfarer; red active** |
+| 1 | The Ribbit Hole Morning | **Hearthwake 17, Dravenkar, around 9:00 a.m.; orange active** |
+| 2 | The Stupid Thread | **Hearthwake 17, Dravenkar, morning; red activates when Addie touches the thread** |
+| 3 | Mirefang Delay | **Hearthwake 17, Dravenkar, after red activation** |
+| 4 | Sandwiches In The Rain | **Hearthwake 17, Dravenkar, Hour of High Market halfway toward Hour of the Wayfarer; red active** |
