@@ -55,9 +55,9 @@ These uploaded files are now tracked as source material for future interludes or
 |---|---|---|
 | `embargo.md` | `Interlude: The Choice to Do Nothing` | Book 01 final/active prose source. Saved as `drafts/interludes/01_interlude_the_choice_to_do_nothing.md`. |
 | `ecology.md` | Master production prompt for Book 02 science interlude: ecological cascade, beaver refugia, Sakura Branch / sequoia seed, Gregory / Frank scene. | Book 02 science source prompt. Saved as `drafts/interludes/source_material/book02_science_ecology_prompt.md`. Not final prose yet. |
-| `munich-agreement.md` | Long Dear Reader source containing `The Paper Peace`, `The Branch in the Ash`, `The Record That Had to Burn`, `The Machine That Heard the Salute`, `The Shield They Tried to Erase`, and `The Hero They Punished Anyway`. | Multi-book style/prose source for Gregory, Carrio, Mattieu, and Brynn interludes. Needs per-book extraction before final placement. |
+| `munich-agreement.md` | Long Dear Reader source containing `The Paper Peace`, `The Branch in the Ash`, `The Record That Had to Burn`, `The Machine That Heard the Salute`, `The Shield They Tried to Erase`, and `The Hero They Punished Anyway`. | Multi-book style/prose source for Gregory, Carrio, Mattieu, and Brynn interludes. Split source cards exist under `drafts/interludes/source_material/`. |
 | `turing.md` | Shorter / alternate `The Machine That Heard the Salute`. | Book 03 alternate or earlier source for Turing/codebreaking/coin/legitimacy material. |
-| `turing-2.md` | `Interlude: The Hero They Punished Anyway`. | Book 05 Turing persecution / Brynn identity-pressure source. |
+| `turing-2.md` | `Interlude: The Hero They Punished Anyway`. | Book 05 active prose saved as `drafts/interludes/05_interlude_the_hero_they_punished_anyway.md`. |
 | `willem.md` | `Interlude: The Sabotage of the Ledger`. | Alternate / rough source for Willem Arondeus ledger-burning material. Current target should be checked against Book 08 Carrio canon before final placement. |
 | `wind-talkers.md` | `Interlude: The Living Shield`. | Book 10 Navajo Code Talkers / Mattieu animal-spirit source. |
 | `book14.md` | Long unlocked mirror / full-memory variant. | Book 14 or 15 mirror-memory source, not a standard Dear Reader interlude. Preserve for later structural use. |
@@ -73,7 +73,7 @@ This table gives every book an immediate interlude slot based on the WWII matrix
 | 02 | Interlude: The Branch in the Ash | Ecological cascade / beavers / post-fire refuge / sakura branch | Gregory, Sakura Branch, Revel | **Source prompt saved** | Use `drafts/interludes/source_material/book02_science_ecology_prompt.md` as primary production prompt. This is the Book 02 science / reward / semantic-loophole interlude source, not yet final prose. |
 | 03 | Interlude: The Machine That Heard the Salute | Alan Turing, Enigma/codebreaking, secrecy infrastructure | Gregory accepts spotlight / Crownless Coin / legitimacy systems | Source uploaded | Compare `munich-agreement.md` and `turing.md`; choose final version later. |
 | 04 | Interlude: The Line That Inherited the Wound | Romanov execution / dynastic trauma | Brynn owns royal lineage | Stub only | Needs prose later; pair with Yggdrasil Root and inherited trauma. |
-| 05 | Interlude: The Hero They Punished Anyway | Turing persecution / Decency Statutes | Brynn must be brave enough to come out / Spear of Destiny | Source uploaded | Use `turing-2.md` or extracted polished version from `munich-agreement.md`. The point is lineage/identity cage, not a one-to-one sexuality allegory. |
+| 05 | Interlude: The Hero They Punished Anyway | Turing persecution / Decency Statutes | Brynn must choose personhood over Stonevein legacy utility | **Prose saved / placement TBD** | Saved as `drafts/interludes/05_interlude_the_hero_they_punished_anyway.md`. The point is lineage/identity cage, not a one-to-one sexuality allegory. |
 | 06 | Interlude: The Sky That Refused to Fall | Battle of Britain / defensive air pressure | Tallandra must fly | Stub only | Tie to aerodynamics, pressure, lift, and survival under threat. |
 | 07 | Interlude: The Honor That Ate the Outcome | Bushido doctrine / obedience and escalation | Tallandra puts honor aside | Stub only | Tie honor systems to game theory and institutional incentives. |
 | 08 | Interlude: The Record That Had to Burn | Willem Arondeus / registry sabotage | Carrio must shed skin | Source uploaded / target needs confirmation | Use polished `munich-agreement.md` version as likely Book 08 authority; `willem.md` is alternate/rough and may contain older Book 11 targeting. |
@@ -221,3 +221,62 @@ Ecological cascade collapse; unglamorous systemic resilience; strange gifts in u
 
 ### Status
 Source prompt saved. Final interlude prose not yet generated or placed.
+
+## Book 05 — Interlude: The Hero They Punished Anyway
+
+### Chapter Type
+Reader-facing WWII aftermath / persecution / identity-law interlude.
+
+### File
+`drafts/interludes/05_interlude_the_hero_they_punished_anyway.md`
+
+### Placement
+Book 05, exact compile position TBD. Best current fit: immediately before or near Brynn’s operating-table / scalpel / public identity-cost sequence.
+
+### Format
+Dear Reader meta-narrative interruption.
+
+### Thematic Grounding
+The system consumes the gift, then punishes the identity once the crisis has passed. The interlude uses Turing persecution to expose the moral architecture of useful-person / unacceptable-person hypocrisy.
+
+The Brynn bridge must stay specific: this is **not** a simple one-to-one allegory for Brynn's sexuality. Brynn's cage is lineage, inheritance, Stonevein dynastic utility, public expectation, and the role the world demands she perform.
+
+### Core Characters Highlighted
+- The Narrator.
+- Dear Reader.
+- Mr. Turing.
+- The Crumbling Empire.
+- The Determined Occultists.
+- The High Occultist.
+- Brynn H. Stonevein.
+
+### Fictional Anchors Bridge
+
+| Fictional Element | Historical / Thematic Parallel |
+|---|---|
+| Mr. Turing | Alan Turing. |
+| Crumbling Empire | Britain / British state and postwar legal order. |
+| Determined Occultists | Nazi Germany. |
+| High Occultist | Hitler. |
+| Riddle Engine | Enigma / wartime cipher machinery. |
+| Estate of Impossible Sums | Bletchley Park. |
+| Thunder-Loom | Bombe / mechanical codebreaking infrastructure. |
+| Decency Statutes | Gross indecency / morality-law prosecution. |
+| Chemical correction of flesh | Chemical castration / hormone treatment. |
+| Stonevein lineage cage | Brynn’s dynastic inheritance and public utility trap. |
+
+### Chapter Summary
+
+The narrator returns to Mr. Turing through the deliberately fake-history frame. The opening mocks later sentimental motion pictures and public regret, then refuses to let retrospective admiration erase what the state did when it held power over him.
+
+The middle ledger names Turing's wartime contributions through the fake-world symbols of the Riddle Engine, Estate of Impossible Sums, and Thunder-Loom. The moral hinge is that the Crumbling Empire consumed his genius to survive and then punished him when his identity no longer served its postwar category system.
+
+The final turn rejects the reader’s likely assumption that the interlude is a neat sexuality allegory for Brynn. The actual Brynn bridge is lineage: she is trapped by Stonevein inheritance and the demand that she remain useful to the dynasty rather than becoming a person.
+
+### Return-to-Eidolon Function
+
+Return to Brynn at the operating table with the scalpel. The reader should carry the question of artificial debt and category punishment into Brynn’s decision about whether she will serve the lineage or break it.
+
+### Required Emotional Exit
+
+End on Brynn standing before the operating table, holding the scalpel, deciding what price she is willing to pay.
