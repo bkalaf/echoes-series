@@ -83,24 +83,28 @@ This is a hinge chapter: comic object delivery into final-beacon pressure.
 
 # Visible Subchapters
 
+Use **four** visible subchapters. Do not split same-room conversation beats into separate visible subchapter headings.
+
 Suggested visible subchapters:
 
-1. Pillows On The Floor
-2. Papa Has Eyes Everywhere
-3. You Get The Hug
-4. The Stupid Thread
-5. String, Same Thing
-6. The Red Beacon
-7. Mirefang Delay
-8. Sandwiches In The Rain
-9. Eight Days
-10. Nope
+1. The Ribbit Hole Morning
+2. The Stupid Thread
+3. Mirefang Delay
+4. Sandwiches In The Rain
+
+`Eight Days` and `Nope` are **not** separate visible subchapters. They are beat turns inside **Sandwiches In The Rain** and may be separated with standard markdown `---` breaks only if the prose needs breathing room.
 
 ---
 
 # Beat-By-Beat Skeleton
 
-## Subchapter 1 — Pillows On The Floor
+## Subchapter 1 — The Ribbit Hole Morning
+
+### Location / Time
+
+The Ribbit Hole common room, Pollyr Fen. Hearthwake 17, Dravenkar, around 9:00 a.m. Orange beacon active.
+
+### Beats
 
 1. Open around 9:00 a.m. in the common space of **The Ribbit Hole**.
 2. The common space has couches, blankets, pillows, and floor cushions.
@@ -120,151 +124,148 @@ Suggested visible subchapters:
 10. Their attention is anxious, not merely hospitable.
 11. They still seem as if the other shoe might drop at any moment and they will discover they accidentally agreed to something terrible.
 12. Addie should notice the staff bracing and feel bad for how much power the companions carry without meaning to.
+13. Addie begins waking companions one by one.
+14. Carrio is missing.
+15. Addie thinks Brickett is also missing.
+16. Yurislav and Brynn are both positive they hear snoring from somewhere nearby.
+17. They search the pile of pillows and blankets around where Addie slept.
+18. Brickett has burrowed under them like a beaver under debris and completely passed out.
+19. He emerges rumpled, deeply asleep, or offended at being uncovered.
+20. Keep this physical comedy gentle; it should show he finally slept hard enough to stop guarding everyone.
+21. Carrio still has not appeared.
+22. The staff start preparing The Ribbit Hole to resume normal operations.
+23. A young male worker enters / approaches Addie.
+24. He is one of the workers who had been talking with Brickett and Carrio the previous night before Addie fell asleep.
+25. He clears his throat and looks directly at Addie.
+26. Addie asks whether he needs something from her.
+27. He awkwardly says everyone who needed to be present appears to be present.
+28. Addie does not understand.
+29. He asks whether someone outside may come in or whether Addie should go to the door.
+30. The young man turns beet red and says she should probably go to the door, Head Moderator.
+31. Mae grabs her glaive and insists on going with Addie.
 
-## Subchapter 2 — Missing Carrio, Buried Brickett
+## Subchapter 2 — The Stupid Thread
 
-1. Addie begins waking companions one by one.
-2. Carrio is missing.
-3. Addie thinks Brickett is also missing.
-4. Yurislav and Brynn are both positive they hear snoring from somewhere nearby.
-5. They search the pile of pillows and blankets around where Addie slept.
-6. Brickett has burrowed under them like a beaver under debris and completely passed out.
-7. He emerges rumpled, deeply asleep, or offended at being uncovered.
-8. Keep this physical comedy gentle; it should show he finally slept hard enough to stop guarding everyone.
-9. Carrio still has not appeared.
+### Location / Time
 
-## Subchapter 3 — Papa Has Eyes Everywhere
+The Ribbit Hole front door / street, Pollyr Fen. Hearthwake 17, Dravenkar, morning. Orange shifts to red during this subchapter.
 
-1. The staff start preparing The Ribbit Hole to resume normal operations.
-2. A young male worker enters / approaches Addie.
-3. He is one of the workers who had been talking with Brickett and Carrio the previous night before Addie fell asleep.
-4. He clears his throat and looks directly at Addie.
-5. Addie asks whether he needs something from her.
-6. He awkwardly says everyone who needed to be present appears to be present.
-7. Addie does not understand.
-8. He asks whether someone outside may come in or whether Addie should go to the door.
-9. The young man turns beet red and says she should probably go to the door, Head Moderator.
-10. Mae grabs her glaive and insists on going with Addie.
-11. They open the front door.
-12. No one is standing at eye level.
-13. They look down.
-14. Tallowmire’s adopted daughter is standing there, beaming.
-15. She is five or six, tiny, frogfolk, wearing a bright pink dress almost entirely ruined with mud.
-16. Addie thinks the dress looks like Neapolitan ice cream without the vanilla.
-17. Clearly her parents dressed her; clearly the little girl decided mud was more important.
-18. Addie asks how she knew they were here.
-19. The girl says:
+### Beats
+
+1. Addie and Mae open the front door.
+2. No one is standing at eye level.
+3. They look down.
+4. Tallowmire’s adopted daughter is standing there, beaming.
+5. She is five or six, tiny, frogfolk, wearing a bright pink dress almost entirely ruined with mud.
+6. Addie thinks the dress looks like Neapolitan ice cream without the vanilla.
+7. Clearly her parents dressed her; clearly the little girl decided mud was more important.
+8. Addie asks how she knew they were here.
+9. The girl says:
 
 > "Papa has eyes everywhere."
 
-20. The line should sound ominous to adults and completely innocent to the child.
-
-## Subchapter 4 — You Get The Hug
-
-1. The girl looks at Mae and says:
+10. The line should sound ominous to adults and completely innocent to the child.
+11. The girl looks at Mae and says:
 
 > "First of all, Daddy says you get the hug."
 
-2. Before Mae can react, the girl charges forward and wraps herself around Mae’s knees.
-3. A significant amount of mud transfers from the child’s dress to Mae.
-4. For the first time since Addie has met her, Mae looks genuinely horrified.
-5. Mae’s eyes go huge.
-6. Mae mouths to Addie:
+12. Before Mae can react, the girl charges forward and wraps herself around Mae’s knees.
+13. A significant amount of mud transfers from the child’s dress to Mae.
+14. For the first time since Addie has met her, Mae looks genuinely horrified.
+15. Mae’s eyes go huge.
+16. Mae mouths to Addie:
 
 > "Help me, damn it."
 
-7. Addie starts laughing under her breath.
-8. Addie can only suggest that Mae hug her back.
-9. Mae has to process how to hug something that only comes up to her knees and is currently preventing her from bending down.
-10. Mae eventually settles for patting the girl on the head.
-11. The girl looks up, very pleased with herself, and finishes the sentence she began:
+17. Addie starts laughing under her breath.
+18. Addie can only suggest that Mae hug her back.
+19. Mae has to process how to hug something that only comes up to her knees and is currently preventing her from bending down.
+20. Mae eventually settles for patting the girl on the head.
+21. The girl looks up, very pleased with herself, and finishes the sentence she began:
 
 > "Get the hug."
 
-12. When the girl finally lets go, it feels like a lifetime to Mae.
-13. Mae says:
+22. When the girl finally lets go, it feels like a lifetime to Mae.
+23. Mae says:
 
 > "I’m going to kill that frog."
 
-14. Addie chides her because Mae is threatening the child’s father in front of the child.
-15. The girl does not notice or does not care.
-
-## Subchapter 5 — The Stupid Thread
-
-1. The girl turns to Addie and says some version of:
+24. Addie chides her because Mae is threatening the child’s father in front of the child.
+25. The girl does not notice or does not care.
+26. The girl turns to Addie and says some version of:
 
 > "And you get the..."
 
-2. She reaches under her dress.
-3. What she pulls out is barely a shape.
-4. It may once have been a sphere, but it is now mud, reeds, and a tangled web of red string / thread.
-5. Required girl line:
+27. She reaches under her dress.
+28. What she pulls out is barely a shape.
+29. It may once have been a sphere, but it is now mud, reeds, and a tangled web of red string / thread.
+30. Required girl line:
 
 > "You get the stupid thread. It’s not a very fun toy. So you know."
 
-6. Addie and Mae stare at each other.
-7. Addie asks whether Mae thinks it is really the object.
-8. Mae says she is going to get the rest of the group.
-9. Mae says they are about to find out when Addie touches it.
-10. Addie realizes that, yes, touching the true thread should trigger the beacon.
-
-## Subchapter 6 — String, Same Thing
-
-1. The rest of the companions file out of The Ribbit Hole.
-2. Each one looks more surprised than the last when they see what the child is holding.
-3. Questions overlap:
+31. Addie and Mae stare at each other.
+32. Addie asks whether Mae thinks it is really the object.
+33. Mae says she is going to get the rest of the group.
+34. Mae says they are about to find out when Addie touches it.
+35. Addie realizes that, yes, touching the true thread should trigger the beacon.
+36. The rest of the companions file out of The Ribbit Hole.
+37. Each one looks more surprised than the last when they see what the child is holding.
+38. Questions overlap:
    - Is that really it?
    - Do you think...?
    - What in the world...?
-4. Carrio finally appears, hungover and looking like hell.
-5. He sees the girl and the muddy thread and says he figured Tallowmire had it.
-6. Carrio’s read:
+39. Carrio finally appears, hungover and looking like hell.
+40. He sees the girl and the muddy thread and says he figured Tallowmire had it.
+41. Carrio’s read:
    - there was something about Tallowmire holding onto something precious;
    - Carrio could not tell whether it was the string or his daughter;
    - apparently it was the string.
-7. Gregory corrects him:
+42. Gregory corrects him:
 
 > "Thread."
 
-8. Carrio answers:
+43. Carrio answers:
 
 > "String. Same thing."
 
-9. Gregory sighs.
-10. Addie smiles at the child.
-11. Several Ribbit Hole staff members now lean out windows to watch.
-12. A few people on the street begin pointing / whispering.
-13. Someone asks why a child is in a brothel.
-14. Addie says:
+44. Gregory sighs.
+45. Addie smiles at the child.
+46. Several Ribbit Hole staff members now lean out windows to watch.
+47. A few people on the street begin pointing / whispering.
+48. Someone asks why a child is in a brothel.
+49. Addie says:
 
 > "Fuck my life."
 
-15. Addie immediately apologizes to the child and says not to tell her father she said that.
-
-## Subchapter 7 — The Red Beacon
-
-1. The little girl pushes the muddy thread toward Addie again, insisting she take it.
-2. Addie touches it.
-3. The ground gives a slight rumble.
-4. The beacon pulses.
-5. The visible beacon state shifts from orange to red.
-6. This confirms the object is Ariadne’s Thread / the required thread.
-7. The child, extremely pleased with herself, latches onto Mae again.
-8. Mae looks more horrified than before.
-9. Everyone starts chuckling.
-10. Mae says:
+50. Addie immediately apologizes to the child and says not to tell her father she said that.
+51. The little girl pushes the muddy thread toward Addie again, insisting she take it.
+52. Addie touches it.
+53. The ground gives a slight rumble.
+54. The beacon pulses.
+55. The visible beacon state shifts from orange to red.
+56. This confirms the object is Ariadne’s Thread / the required thread.
+57. The child, extremely pleased with herself, latches onto Mae again.
+58. Mae looks more horrified than before.
+59. Everyone starts chuckling.
+60. Mae says:
 
 > "Moderator. Please remove the small child from my legs so we can return back to my manor and discuss our next steps."
 
-11. Mae adds that if any of them ever says anything about this again, consequences will follow.
-12. The threat does not work because the child is still hugging her.
-13. Mae pats the girl’s head and says some strained version of:
+61. Mae adds that if any of them ever says anything about this again, consequences will follow.
+62. The threat does not work because the child is still hugging her.
+63. Mae pats the girl’s head and says some strained version of:
 
 > "Okay. Okay. Thank you so much. You’re very sweet. God damn it, Addie."
 
-14. The chapter should let Mae be ridiculous without humiliating her. The comedy is in collision: lethal noblewoman vs. muddy child affection.
+64. The chapter should let Mae be ridiculous without humiliating her. The comedy is in collision: lethal noblewoman vs. muddy child affection.
 
-## Subchapter 8 — Mirefang Delay
+## Subchapter 3 — Mirefang Delay
+
+### Location / Time
+
+Pollyr Fen Portalport. Hearthwake 17, Dravenkar, after red activation.
+
+### Beats
 
 1. The group heads for Pollyr Fen Portalport.
 2. They are delayed getting out of Pollyr Fen because of something involving a guard near / down by **Mirefang**.
@@ -281,7 +282,13 @@ Suggested visible subchapters:
 11. It is Day 17, leaving eight days to figure out how to deal with Horror.
 12. This should be the first clear breath where the group understands red beacon means the final problem is no longer theoretical.
 
-## Subchapter 9 — Sandwiches In The Rain
+## Subchapter 4 — Sandwiches In The Rain
+
+### Location / Time
+
+Mae’s Aquila Matara manor dining room. Hearthwake 17, Dravenkar, Hour of High Market halfway toward Hour of the Wayfarer. Red active.
+
+### Beats
 
 1. Move to Aquila Matara.
 2. The time is **High Market, halfway toward Hour of the Wayfarer**.
@@ -292,39 +299,34 @@ Suggested visible subchapters:
 7. This should feel domestic and anticlimactic after the red-beacon activation.
 8. Mae is elsewhere trying to get mud out of every crack and crevice.
 9. The room should feel like the first moment the companions can actually think about the Horror fight.
-
-## Subchapter 10 — Eight Days
-
-1. Rhün says they should get the confrontation with Horror out of the way.
-2. His logic: if they fail, maybe the system will give them multiple chances.
-3. Brickett says he does not think they will be that lucky.
-4. Brickett says Addie should prepare to go in alone.
-5. Brickett can see the system denying the rest of the companions access.
-6. Yurislav offers to give Addie lessons to deal with Horror.
-7. Matthieu points out that it would be difficult to dodge four short swords with one staff.
-8. Yurislav still offers.
-9. Yurislav makes clear the lessons can hurt.
-10. Gregory and Matthieu both argue they should research Ariadne’s Thread and city-state connections for any remaining clues.
-11. Everyone starts talking over one another:
+10. Rhün says they should get the confrontation with Horror out of the way.
+11. His logic: if they fail, maybe the system will give them multiple chances.
+12. Brickett says he does not think they will be that lucky.
+13. Brickett says Addie should prepare to go in alone.
+14. Brickett can see the system denying the rest of the companions access.
+15. Yurislav offers to give Addie lessons to deal with Horror.
+16. Matthieu points out that it would be difficult to dodge four short swords with one staff.
+17. Yurislav still offers.
+18. Yurislav makes clear the lessons can hurt.
+19. Gregory and Matthieu both argue they should research Ariadne’s Thread and city-state connections for any remaining clues.
+20. Everyone starts talking over one another:
    - combat training;
    - research;
    - city allegiance politics;
    - whether Horror will allow companions;
    - whether Addie can survive alone;
    - whether the thread has hidden instructions.
-
-## Subchapter 11 — Nope
-
-1. Mae returns or reaches her limit from offstage / nearby.
-2. She hears enough of the overtalking to decide she is done.
-3. Mae says:
+21. In prose, **do not** make this planning argument a separate visible subchapter. Use a `---` break if needed.
+22. Mae returns or reaches her limit from offstage / nearby.
+23. She hears enough of the overtalking to decide she is done.
+24. Mae says:
 
 > "Nope. Nope nope."
 
-4. Mae walks out.
-5. Addie puts her head in her hands.
-6. Addie thinks this is going to be a long eight days.
-7. End with the pressure of comedy giving way to dread.
+25. Mae walks out.
+26. Addie puts her head in her hands.
+27. Addie thinks this is going to be a long eight days.
+28. End with the pressure of comedy giving way to dread.
 
 ---
 
