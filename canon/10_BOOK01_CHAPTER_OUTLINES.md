@@ -185,7 +185,7 @@ The uploaded continuation after the Pollyr Fen swamp trek is too dense for one o
 ## Current Open Items
 
 - Confirm whether `SET-PFN-BEACON-PLATFORM` should be assigned to a specific Pollyr Fen section in a later city-board pass.
-- Confirm whether **Mirrfang** remains background transit noise or becomes an active Pollyr Fen district/route later.
+- Confirm whether **Mirefang** remains background transit noise or becomes an active Pollyr Fen district/route later.
 - Confirm exact next-chapter structure for the eight-day Horror preparation sequence after red activation.
 
 ---
@@ -236,5 +236,5 @@ Next expected planning/prose target:
 Open questions:
 
 - Confirm formal name / voice of The Ribbit Hole manager.
-- Confirm whether **Mirrfang** should become a named Pollyr Fen quarter in the city-state atlas.
+- Confirm whether **Mirefang** should become a named Pollyr Fen quarter in the city-state atlas.
 - Confirm how much of the Well of Souls explanation should remain implicit in Book 1 prose.
