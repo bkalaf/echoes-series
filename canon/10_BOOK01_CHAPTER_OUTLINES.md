@@ -12,9 +12,9 @@ Calendar/date detail for chapters and visible subchapters is governed by [`12_BO
 
 Book 01 is currently indexed through:
 
-- **B01.130 / `01_13` — The Thread Back Out**
+- **B01.200 / `01_20` — The Red Thread District**
 
-The current uploaded `book01.md` source was parsed through its final visible chapter heading at `The Unwound Core`; `01_13` is parsed from new user-provided untitled prose/beat text.
+The current uploaded `book01.md` source was originally parsed through its final visible chapter heading at `The Unwound Core`; additional user-provided continuation material has since extended the Book 01 outline through the Pollyr Fen shelter / Well of Souls / Red Thread District sequence.
 
 ## Source Upload Note
 
@@ -25,9 +25,16 @@ The current uploaded source file `book01.md` contained these parsed prose sectio
 3. `The Bountiful Harvest` — parsed as `drafts/01_11_the_bountiful_harvest.md`.
 4. `The Unwound Core` — parsed as `drafts/01_12_the_unwound_core.md`.
 
-Additional user-provided continuation after the uploaded file:
+Additional user-provided continuations:
 
 5. Untitled Barnaby / Ariadne / comma-riddle chapter — parsed as `drafts/01_13_the_thread_back_out.md`.
+6. Luminthalas / law-forgetting route — parsed as `drafts/01_14_the_law_telling_us_to_forget.md`.
+7. Yellow / historical-vision escalation — parsed as `drafts/01_15_the_cities_that_disobeyed.md`.
+8. Mae estate / rapid acceptance debrief — parsed as `drafts/01_16_rapid_acceptance.md`.
+9. Pollyr Fen swamp-church / Children of the Damned — parsed as `drafts/01_17_children_of_the_damned.md`.
+10. Pollyr Fen shelter night / companion rift — parsed as `drafts/01_18_the_shelter_test.md`.
+11. Pollyr Fen beacon / Well of Souls visions — parsed as `drafts/01_19_the_well_of_souls.md`.
+12. Carrio / Red Thread District investigation — parsed as `drafts/01_20_the_red_thread_district.md`.
 
 ---
 
@@ -36,6 +43,12 @@ Additional user-provided continuation after the uploaded file:
 When adjacent scenes share the same setting, same local conflict, and a continuous escalation, they may be grouped under one parent chapter with visible subchapter titles.
 
 This is preferred over splitting every scene into separate chapters when that would weaken connective tissue.
+
+The Pollyr Fen continuation is intentionally split into three chapters:
+
+1. `01_18_the_shelter_test.md` — social/moral pressure and companion rift;
+2. `01_19_the_well_of_souls.md` — beacon, Horror, Vision 5, Vision 6, origin exposure;
+3. `01_20_the_red_thread_district.md` — Carrio-led street-level investigation and Red Thread District testimony.
 
 ---
 
@@ -49,6 +62,9 @@ Book 01 uses the active 8-day weekday cycle. **Sonntag is hidden until Book 18 a
 | Hearthwake 1 | Dravenkar | Purple beacon / 48-hour warning. |
 | Hearthwake 2 | Stonewake | Blue beacon / 24-hour warning. |
 | Hearthwake 3 | Aegalor | Green beacon / Conjunction begins. |
+| Hearthwake 14 | Eldrane | Pollyr Fen orange-checkpoint aftermath / shelter night. |
+| Hearthwake 15 | Karskov | Pollyr Fen beacon return / Well of Souls visions / Red Thread District route. |
+| Hearthwake 16 | Kindlemask | Possible Red Thread District aftermath if overnight sequence resolves after sleep. |
 
 ---
 
@@ -61,16 +77,23 @@ Book 01 uses the active 8-day weekday cycle. **Sonntag is hidden until Book 18 a
 | B01.020 | 01_02 | The Nomination | Hearthwake 1, Dravenkar, night | [`../drafts/01_02_the_nomination.md`](../drafts/01_02_the_nomination.md) | Parsed | B01-S020; B01-S021 | Addie’s private life while away from **Qasr Siroth** on Skyrend Peak work travel, pendant / Mark of the Orbs, interrupted hair dye, eye-mail dispatch, Kwame’s nomination reveal. |
 | B01.030 | 01_03 | The Witnesses | Hearthwake 1, Dravenkar, night / subjective Witness space | [`../drafts/01_03_the_witnesses.md`](../drafts/01_03_the_witnesses.md) | Parsed | B01-S030 | Witness assembly, addendums, ballot, first shot. |
 | B01.035 | DR_01 | Interlude: The Choice to Do Nothing | Non-diegetic break between Hearthwake 1 and Hearthwake 2 | [`../drafts/interludes/01_interlude_the_choice_to_do_nothing.md`](../drafts/interludes/01_interlude_the_choice_to_do_nothing.md) | Prose saved | Interlude slot | Dear Reader / WWII oil-embargo interlude; frames Brickett’s “My life for you!” devotion with updated beaver/fire contradiction. |
-| B01.040 | 01_04 | The Weight of the Beacon | Hearthwake 2, Stonewake | [`../drafts/01_04_the_weight_of_the_beacon.md`](../drafts/01_04_the_weight_of_the_beacon.md) | Parsed | B01-S040; B01-S041; B01-S042 | Addie confinement, Concord extraction, Brickett beaver rescue, impossible brick, unstable fireballs, pendant/clasp proof. |
+| B01.040 | 01_04 | The Weight of the Beacon | Hearthwake 2, Stonewake | [`../drafts/01_04_the_weight_of_the_beacon.md`](../drafts/01_04_the_weight_of_the_beacon.md) | Parsed | B01-S040; B01-S041; B01-S042 | Addie confinement, Concord extraction, Brickett beaver rescue, impossible brick, unstable fireballs, pendant/clasp proof. Use Skyrend vertical ramp / brick-incident route settings. |
 | B01.050 | 01_05 | The Core of the Conjunction | Hearthwake 2, Stonewake | [`../drafts/01_05_the_core_of_the_conjunction.md`](../drafts/01_05_the_core_of_the_conjunction.md) | Parsed | B01-S050; B01-S051; B01-S052 | Blue beacon, scrolls, forced transfer, Brickett’s alpha slot, Three Hundred Steps speech, silent applause. |
 | B01.060 | 01_06 | The Weight of the Roster | Hearthwake 2, Stonewake, late day / evening | [`../drafts/01_06_the_weight_of_the_roster.md`](../drafts/01_06_the_weight_of_the_roster.md) | Parsed | B01-S060; B01-S061 | Conclave roster, Mae’s Speaker role, scroll openings, Addie collection into mirror. |
 | B01.070 | 01_07 | The First Mirror | Hearthwake 2, Stonewake, night / subjective mirror time | [`../drafts/01_07_the_first_mirror.md`](../drafts/01_07_the_first_mirror.md); [`../chapters/01_07_the_first_mirror.md`](../chapters/01_07_the_first_mirror.md) | Parsed + prose stub | B01-S070 through B01-S076 | First Mirror, Second Mirror, Horror’s riddle, return to Rhün / Mae estate. Dedicated movement files exist for council beats, Second Mirror, and return-to-Witness-space. |
 | B01.080 | 01_08 | The Weight of Being Asked | Hearthwake 2, Stonewake, late night | [`../drafts/01_08_the_weight_of_being_asked.md`](../drafts/01_08_the_weight_of_being_asked.md) | Parsed | B01-S080; B01-S081; B01-S082 | Mae estate dinner, Max, Gregory, Matthieu, Brynn refused scroll, H-pattern, Law of Threes, Luminthalas destination; Brickett’s care beat and carrot-diagram pattern recognition. |
 | B01.090 | 01_09 | Day One Architecture | Hearthwake 3, Aegalor, morning | [`../drafts/01_09_day_one_architecture.md`](../drafts/01_09_day_one_architecture.md) | Parsed | B01-S090; B01-S091; B01-S092 | Morning after mirror/dinner; Addie bath/cyan hair reset; reporter invasion; field clothes; Mae honesty confrontation; three-team split; eye-mail contact setup; Brickett fireball/backfire impulse; Brimscale/Ashwing departure; Mae royal-title reveal. |
-| B01.100 | 01_10 | Holes in the Wall | Hearthwake 3, Aegalor, Day One | [`../drafts/01_10_holes_in_the_wall.md`](../drafts/01_10_holes_in_the_wall.md) | Parsed | B01-S100 through B01-S104 | First split-team field chapter; adds Brickett false-intervention and fire-backfire beat; expands Gregory/Rhün/Brickett archive research and Matthieu/Yurislav/Tallandra Aes Sidhal research; lower-quarter queue at The Bountiful Harvest, crude middle-finger + Flying Scrolls sign, Carrio Mark recognition, Mae lack-of-Mark vulnerability, and Addie lunar-light cliffhanger. |
+| B01.100 | 01_10 | Holes in the Wall | Hearthwake 3, Aegalor, Day One | [`../drafts/01_10_holes_in_the_wall.md`](../drafts/01_10_holes_in_the_wall.md) | Parsed | B01-S100 through B01-S104 | First split-team field chapter; expands Gregory/Rhün/Brickett archive research and Matthieu/Yurislav/Tallandra Aes Sidhal research; Luminthalas lower-quarter queue at The Bountiful Harvest; Addie lunar-light cliffhanger. |
 | B01.110 | 01_11 | The Bountiful Harvest | Hearthwake 3, Aegalor, Day One | [`../drafts/01_11_the_bountiful_harvest.md`](../drafts/01_11_the_bountiful_harvest.md) | Parsed | B01-S110 | Resolves the lunar-light courtyard standoff; introduces Brynn/Rosalind directly; opens Brynn’s scroll; confirms Brynn H. Stonevein as the ninth H-name; moves Team Three toward terminal / manor return. |
 | B01.120 | 01_12 | The Unwound Core | Hearthwake 3, Aegalor, Day One, green beacon active / activating | [`../drafts/01_12_the_unwound_core.md`](../drafts/01_12_the_unwound_core.md) | Parsed | B01-S120 | Manor-return synthesis: failed research lanes, Dovren disinformation broadcast, Yurislav loyalty complication, Mark-of-the-Orbs paternal heirloom comparison, three-moon channeling concern, and folklore/Ariadne’s Thread pivot. |
 | B01.130 | 01_13 | The Thread Back Out | Hearthwake 3, Aegalor, Day One, green phase active | [`../drafts/01_13_the_thread_back_out.md`](../drafts/01_13_the_thread_back_out.md) | Parsed | B01-S130 | Barnaby explains Ariadne’s Thread through tailor culture and survival logic; Gregory warns against almost-correct answers; Brynn solves the pause/punctuation problem by adding the comma in “horned, dead charge.” |
+| B01.140 | 01_14 | The Law Telling Us To Forget | Calendar metadata pending final pass | [`../drafts/01_14_the_law_telling_us_to_forget.md`](../drafts/01_14_the_law_telling_us_to_forget.md) | Parsed / cleanup pass | Pending | Luminthalas cross-city route; Portalport Section 5 to White Tower Archives Section 1; route should create long walk and reasoning space. |
+| B01.150 | 01_15 | The Cities That Disobeyed | Calendar metadata pending final pass | [`../drafts/01_15_the_cities_that_disobeyed.md`](../drafts/01_15_the_cities_that_disobeyed.md) | Parsed / cleanup pass | Pending | Yellow/vision layer; city disobedience, replacement capitals, and Dovren punishment logic. |
+| B01.160 | 01_16 | Rapid Acceptance | Calendar metadata pending final pass | [`../drafts/01_16_rapid_acceptance.md`](../drafts/01_16_rapid_acceptance.md) | Parsed / cleanup pass | Pending | Mae estate / back porch debrief, Tikket, attorney-client privilege, rapid acceptance line, and false-thread reasoning. |
+| B01.170 | 01_17 | Children of the Damned | Hearthwake 14, Eldrane, late; orange checkpoint by end | [`../drafts/01_17_children_of_the_damned.md`](../drafts/01_17_children_of_the_damned.md) | Parsed / cleanup pass | Pending | Pollyr Fen swamp-church, frogfolk atrocity reveal, Van'Kareth South Aurreth Shipping Co. transfer, Children of the Damned name, orange checkpoint. |
+| B01.180 | 01_18 | The Shelter Test | Hearthwake 14 into Hearthwake 15, late night / pre-dawn | [`../drafts/01_18_the_shelter_test.md`](../drafts/01_18_the_shelter_test.md) | Parsed L4 | B01-S180; B01-S181 | Tallowmire shelter test, displaced-family honesty, Brickett playing with children, companion reading-mode discussion, Brickett reads Mother, Mae/Yurislav rift. |
+| B01.190 | 01_19 | The Well of Souls | Hearthwake 15, Karskov; exits Hour of the Waning Crescent, halfway toward Hour of the Iron Foundry | [`../drafts/01_19_the_well_of_souls.md`](../drafts/01_19_the_well_of_souls.md) | Parsed L4 | B01-S190 through B01-S194 | Pollyr Fen beacon return, third-waypoint confirmation, Horror selection, Vision 5, new Vision 6 / Well of Souls and starter-city origin exposure. |
+| B01.200 | 01_20 | The Red Thread District | Hearthwake 15, Karskov; starts Hour of the Waning Crescent, halfway toward Hour of the Iron Foundry; continues overnight | [`../drafts/01_20_the_red_thread_district.md`](../drafts/01_20_the_red_thread_district.md) | Parsed L4 | B01-S200 through B01-S202 | Carrio leads the group into the Red Thread District, buys out a working house for testimony and worker pay, and Addie/Brickett raise the Overseer-as-hidden-ninth suspicion. |
 
 ---
 
@@ -136,6 +159,30 @@ All currently sit on **Hearthwake 3, Aegalor, Day One, green phase active**.
 
 ---
 
+# B01.180–B01.200 — Pollyr Fen Continuation Split
+
+## Split Rationale
+
+The uploaded continuation after the Pollyr Fen swamp trek is too dense for one or two chapters. It is split into three because each movement has a different narrative engine:
+
+1. **The Shelter Test** — emotional/social decompression and first team rift.
+2. **The Well of Souls** — waypoint confirmation, Horror selection, and origin visions.
+3. **The Red Thread District** — Carrio social-intelligence chapter and street-level truth gathering.
+
+## Timing Lock
+
+`01_19` exits the Scene Between Stories at **Hour of the Waning Crescent, halfway toward Hour of the Iron Foundry**.
+
+`01_20` begins at that same timing and continues through evening / overnight.
+
+## Current Open Items
+
+- Confirm exact weekday/date handoff if `01_20` resolves into Hearthwake 16.
+- Confirm whether Red Thread District becomes the final thread-acquisition route or only the intelligence step before it.
+- Confirm whether `SET-PFN-BEACON-PLATFORM` should be assigned to a specific Pollyr Fen section in a later city-board pass.
+
+---
+
 # Current Canon / Crosslink Checks
 
 ## Must Stay Aligned With
@@ -153,6 +200,7 @@ All currently sit on **Hearthwake 3, Aegalor, Day One, green phase active**.
 ## Known Active Corrections
 
 - Addie is from **Qasr Siroth**; Skyrend Peak is her Book 1 work-travel / Gale Exposition location.
+- Addie has **25** disproven conjunctions and is **29** in Book 1.
 - Brickett H. is a **14-year-old beaver beastfolk**, not a raccoon; his recurring tick is unstable fire-making / backfiring fireballs.
 - Hans formal name is **Hans Halcyon Hohenzollern**.
 - Stone / Preservationist is **Wenliang Jun Chen**.
@@ -160,7 +208,6 @@ All currently sit on **Hearthwake 3, Aegalor, Day One, green phase active**.
 - Omen / Foresight / Mathematician is **Ji-hoon Min Park**.
 - Tempest / Terraformer remains **Kaelen Darius Veyr**.
 - Meera Anjali Krishnamurthy is unrelated to José Mateo Navarro.
-- Brickett’s current age is **14** unless explicitly revised.
 - Major Tallandra H. Highwatch is the current rank/name form.
 - Mae’s estate scenes in Book 1 occur in **Aquila Matara**.
 - Book 1 First Mirror uses protected obfuscation, not full historical exposition.
@@ -173,15 +220,15 @@ All currently sit on **Hearthwake 3, Aegalor, Day One, green phase active**.
 
 Next expected planning/prose target:
 
-1. Interpret **horned, dead charge** operationally.
-2. Connect the horned clue to the relevant dead, city, corpse, battlefield, crypt, or Minotaur analogue.
-3. Decide how Ariadne’s Thread can be acquired or identified.
-4. Convert Barnaby’s tailor-story into mission architecture.
-5. Move from manor-room puzzle solving back toward field action under green-phase constraints.
+1. Resolve the Red Thread District intelligence into the actual thread-acquisition route.
+2. Decide whether the thread is physically in the working-house network, pointed to by the workers, or revealed by the district’s old civic memory.
+3. Confirm the next beacon transition timing after orange.
+4. Convert `01_18`–`01_20` into prompt-ready packets after this supporting-file pass.
+5. Finalize the exact date/weekday if the overnight handoff enters Hearthwake 16.
 
 Open questions:
 
-- Confirm final title: **The Thread Back Out** or another title.
-- Confirm whether Barnaby is locked as froglok tailor / household artisan.
-- Confirm Rosalind/Roslin presence/absence in this room.
-- Decide how strongly to flag the Ancient Greece wrongness in final prose.
+- Confirm final title: **The Red Thread District** or another title.
+- Confirm formal name / voice of the working-house owner.
+- Confirm whether the Red Thread District should become a named Pollyr Fen quarter in the city-state atlas.
+- Confirm how much of the Well of Souls explanation should remain implicit in Book 1 prose.
