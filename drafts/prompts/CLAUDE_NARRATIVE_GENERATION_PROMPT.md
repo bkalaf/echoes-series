@@ -97,6 +97,9 @@ Preserve:
 - continuity state out;
 - location metadata and certainty level;
 - temporal metadata and certainty level;
+- chapter heading box requirements;
+- beacon metadata;
+- visible subchapter discipline;
 - specified insertions from standalone vision / interlude files;
 - unresolved mysteries that the packet says should remain unresolved.
 
@@ -106,24 +109,58 @@ Dramatize beats that change emotion, power, knowledge, relationship, danger, or 
 
 ---
 
-# Location And Temporal Metadata Handling
+# Chapter Heading Box
 
-If the packet requests header metadata, include it under the chapter title or relevant visible subchapter headings.
+For normal narrative chapters, include the centered Echoes chapter-heading box unless the packet says not to.
 
-Use this display format when location and time are both meant to appear:
+Use this format:
 
 ```md
-<Location Display>
-<Weekday>, <Day Number> <Month>
-<Hour Name> (<relative anchor note>)
+<div class="eidolon-chapter-heading" align="center">
+
+![Mark of the Orbs](<MARK_OF_THE_ORBS_IMAGE>)
+
+**Chapter <CHAPTER NUMBER>: <CHAPTER TITLE>**
+
+<Building / Site / Landmark>, <District>, <Section>, <City>, <City-State>
+
+<Weekday>, <ordinal day> of <Month>, <Hour Name> [<Midnight/Noon +/- hours>]
+
+<i class="fa-solid fa-fire-flame-curved"></i> <BEACON COLOR> Beacon - Day <DAY NUMBER> of Conjunction #<CONJUNCTION NUMBER>
+
+</div>
+```
+
+Use Font Awesome for the flame icon.
+
+The location line uses specific-to-broad order and omits null values.
+
+If the packet marks heading metadata as `None`, `Withheld`, `No Location`, or `No Date/Time`, preserve that status rather than inventing missing fields.
+
+---
+
+# Location And Temporal Metadata Handling
+
+Use `canon/21_TIME_AND_HEADER_METADATA.md` if attached.
+
+Location display order for prose-facing chapter headings:
+
+```md
+<Building / Site / Landmark>, <District>, <Section>, <City>, <City-State>
+```
+
+Date/hour display:
+
+```md
+<Weekday>, <ordinal day> of <Month>, <Hour Name> [<Midnight/Noon +/- hours>]
 ```
 
 Example:
 
 ```md
-Aquila Matara, Mae's Estate, Back Porch
-Kindlemask, 1 Hearthwake
-Hour of the Gargoyle (1 hour before midnight)
+The White Tower, The High Elf Ward, The Scriptoria, City of Luminthalas, State of Ascentia
+Kindlemask, 3rd of Hearthwake, Hour of the Wyrm [Midnight +5 hours]
+<i class="fa-solid fa-fire-flame-curved"></i> White Beacon - Day 3 of Conjunction #1
 ```
 
 If no location applies, use:
@@ -138,22 +175,46 @@ If no date/time applies, use:
 No Date/Time
 ```
 
-If the packet has subheaders and supplies subheader-level metadata, use the metadata under the subheaders.
-
-If the packet has no subheaders, use the metadata under the chapter title.
-
 Do not invent exact locations or exact hours. If location or time is `Approximate`, `TBD`, `Withheld`, `No Location`, or `No Date/Time`, preserve that status.
+
+---
+
+# Visible Subchapter Handling
+
+Only include visible subchapter headings if the packet explicitly requests visible subchapters.
+
+Visible subchapter headings should mark significant location changes, POV changes, major time jumps, formal inserted structures, or major act-level turns.
+
+Do not create visible subchapter headings for every tactical beat, joke, topic shift, or emotional turn inside the same room and same POV.
+
+Use the standard markdown scene break when a beat needs breathing room inside the same visible subchapter:
+
+```md
+---
+```
+
+If the packet contains older over-split subchapter notes, consolidate same-location / same-POV material according to the current user instruction.
 
 ---
 
 # Output Format
 
-Output format:
+Output format for a normal chapter:
 
 ```md
-# [CHAPTER TITLE]
+<div class="eidolon-chapter-heading" align="center">
 
-[OPTIONAL LOCATION / TEMPORAL METADATA IF REQUESTED]
+![Mark of the Orbs](<MARK_OF_THE_ORBS_IMAGE>)
+
+**Chapter [NUMBER]: [TITLE]**
+
+[LOCATION LINE]
+
+[DATE / HOUR LINE]
+
+<i class="fa-solid fa-fire-flame-curved"></i> [BEACON LINE]
+
+</div>
 
 [PROSE]
 ```
@@ -181,9 +242,11 @@ Before finalizing, silently verify:
 5. Character names match canon.
 6. The location metadata matches the packet.
 7. The temporal metadata matches the packet.
-8. The ending state matches the packet.
-9. No later canon was revealed early.
-10. No new plot mechanics were invented.
+8. The heading box includes required chapter / location / time / beacon fields when applicable.
+9. Visible subchapter headings are not overused.
+10. The ending state matches the packet.
+11. No later canon was revealed early.
+12. No new plot mechanics were invented.
 
 Then output the prose only.
 
@@ -241,7 +304,7 @@ REQUIRED FILES ATTACHED:
 - canon/12_BOOK01_CALENDAR_TIMELINE.md
 - canon/21_TIME_AND_HEADER_METADATA.md
 - canon/PROMPT_SUPPORT_CANON_LOCKS.md
-- drafts/01_17_children_of_the_damned.md
+- drafts/01_21_the_stupid_thread.md
 - locales/images/analysis/PFN.analysis.json
 ```
 
@@ -258,21 +321,4 @@ REQUIRED FILES ATTACHED:
 - drafts/01_15_the_cities_that_disobeyed.md
 - drafts/visions/01_03.md
 - drafts/visions/01_04.md
-```
-
-# Example Required File List For Book 14 Architect Meeting
-
-```md
-REQUIRED FILES ATTACHED:
-- claude.md
-- canon/05_CHARACTERS.md
-- canon/11_ARCHITECT_EXODUS_COMPROMISES.md
-- canon/12_HANS_FILE_NOEL_EXILE.md
-- canon/15_SETTINGS.md
-- canon/16_SCENES.md
-- canon/21_TIME_AND_HEADER_METADATA.md
-- canon/PROMPT_SUPPORT_CANON_LOCKS.md
-- drafts/14_09_second_vision_parse.md
-- drafts/14_09_second_vision_name_corrections.md
-- scratchpad/14_09_the_unwound_core_beats.md
 ```
