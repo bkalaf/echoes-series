@@ -1,37 +1,51 @@
-# City Analysises
+# City Analysises — Narrative Summaries
 
-> Canon-facing narrative synthesis generated from the current city image analysis JSON files in `locales/images/analysis/`.
->
-> This file translates visual-analysis data into prose-ready city identity, landmark language, section texture, and narrative use. The JSON files remain the granular source layer; this file is the writer-facing narrative layer.
+Generated from `locales/images/analysis/*.analysis.json` for narrative use.
 
-## Scope
+## Purpose
 
-Current synthesis covers 14 available city-analysis files:
+This file is a writer-facing city bible for street-level prose. Each city summary preserves the required names for the **Wonder**, **Beacon**, **Seat of Power**, **sections / districts**, and district landmarks / minor landmarks where the analysis locks them.
 
-| Code | City | Analysis Confidence | Narrative Use |
-|---|---|---|---|
-| AQM | Aquila Matara | strong-lock | Book 1 capital / port-government civic baseline |
-| LUM | Luminthalas | strong-lock | astronomical High-Elven scholarship city |
-| SPK | Skyrend Peak | strong-lock | raptorfolk vertical fortress city / Book 1 red beacon |
-| KVM | Khaz Vorem | strong-lock | dwarven surface mountain forge capital |
-| PFN | Pollyr Fen | strong-lock | frogfolk wetland/canal civilization |
-| VKI | Vyrath'Kai | directional-lock | dragonkin volcanic island recovery city |
-| ETH | Ethervale | strong-lock | seraphic border/archive/forge threshold city |
-| FRO | Frostharbor | strong-lock | sealfolk cold harbor / communal shelter city |
-| ETT | Elarion Thicket | strong-lock | stagfolk ancient woodland stewardship city |
-| ASL | Aes Sidhal | strong-lock | satyr/horned-fae threshold, ward, theater city |
-| NVR | Nox Vaelor | strong-lock | dark-elven moonlit aristocracy and managed vice city |
-| QSR | Qasr Siroth | strong-lock | desert scarcity, caravan, water-law capital |
-| DLS | Dunmere Locks | strong-lock | semi-aquatic riverfolk waterworks city |
-| NET | Nettleburrow | strong-lock | subterranean rodentfolk burrow-market city |
+Use these as recurring narrative anchors, not as mandatory exposition dumps. A scene should usually choose two or three concrete details from the relevant city and let the rest remain background pressure.
 
-## Global Narrative Rules From The Image Analyses
+## Global Narrative Rules
 
-1. **Infrastructure is culture.** Do not describe cities as aesthetic skins. The lock gates of Dunmere Locks, the cisterns of Qasr Siroth, the Beacon of Aquila Matara, the root-lit granaries of Nettleburrow, and the forge terraces of Khaz Vorem are political and social systems, not background objects.
-2. **Movement should reveal identity.** Characters should move differently in each city. Pollyr Fen requires boats, boardwalks, and wet thresholds. Skyrend Peak requires stairs, ledges, wind bridges, and altitude. Frostharbor requires wet stone, ramps, causeways, and shelter halls.
-3. **Authority should be local, not generic.** Each city expresses power through its own survival logic: AQM through civic ascent, QSR through water and registry, DLS through lock control, NET through ration/registry tension, NVR through aristocratic access and social contracts.
-4. **Markets are not interchangeable.** AQM has port-capital services; LUM has instruments and manuscripts; NVR has perfume, crystal, contracts, salons, and vice; QSR has spices, water skins, route maps, and caravan supplies; NET has grain, scrap, seed, relief tickets, and understreet brokers.
-5. **The Wonder, Beacon, seat of power, monuments, and section landmarks should orient scenes.** Readers should be able to recognize a city from the route, the public sounds, the kind of light, and the institutions people glance toward under stress.
+1. Cities are not generic fantasy backdrops. Race/culture identity must change movement, buildings, public space, risk, work, and social behavior.
+2. The Wonder, Beacon, Seat of Power, district landmarks, monuments, and nooks are naming anchors. Do not rename them casually in prose.
+3. Street-level texture matters: weather, light, smell, sound, crowd movement, body scale, and ordinary labor should distinguish every city.
+4. The Beacon is not decorative. It is a public signal system that changes crowd behavior, institutional response, and narrative pressure.
+5. Source-limited fields are called out directly. Do not invent missing formal names or missing S5 anchors to make the table look complete.
+
+## Covered Analysis Files
+
+| Code | City |
+|---|---|
+| AQM | Aquila Matara |
+| LUM | Luminthalas |
+| SPK | Skyrend Peak |
+| KVM | Khaz Vorem |
+| PFN | Pollyr Fen |
+| VKI | Vyrath’Kai |
+| ETH | Ethervale |
+| FRO | Frostharbor |
+| ETT | Elarion Thicket |
+| ASL | Aes Sidhal |
+| NVR | Nox Vaelor |
+| QSR | Qasr Siroth |
+| DLS | Dunmere Locks |
+| NET | Nettleburrow |
+| CPE | Colossi Prime |
+| VLG | Volgrad |
+| PSG | Port Sargasso |
+| HEA | Hearthglen |
+| DNL | Dun Liath |
+| XAT | Xol Atarah |
+| VME | Vel Mouraine |
+| VTS | Vhal’Tigris |
+| TVE | Tormund Vale |
+| TCE | The Crucible |
+| SSI | Ssivareth |
+| OAR | Orsakar |
 
 ---
 
@@ -39,35 +53,31 @@ Current synthesis covers 14 available city-analysis files:
 
 ## Narrative Thesis
 
-Aquila Matara is a maritime capital that makes government visible. It should feel like a white-stone civic machine rising from the harbor: ships and cranes below, blue lamps and public notices through the middle streets, formal stairs climbing into plazas, and the Citadel above everything like the city’s raised hand.
+Aquila Matara is the capital-scale maritime civic center: a white-stone harbor city where public visibility is legitimacy. The city turns arrival, bathing, trade, scholarship, craft, worship, archive memory, and Forum speech into one national machine. It should always feel like a place where institutions can see citizens, citizens can see institutions, and crowds can become political before officials are ready.
 
-The city is not merely pretty or important. It is organized. Even when crowded, it should feel legible. People orient by Beacon, Citadel, harbor, bells, stairs, and public notices. The capital’s emotional pressure comes from how easily ordinary streets become political theater.
+## Street-Level Sights And Feel
 
-## Arrival And Street Texture
+Street-level AQM starts with salt air, harbor carts, bathhouse steam, wet white paving, red market awnings, blue civic lamps, clock chimes, university debate, guild tools, cathedral bells, archive hush, and the Beacon/Citadel sightline above everything. Movement should climb from harbor and public baths into market clocks, university terraces, guild fronts, cathedral approaches, Forum arches, and Citadel stairs.
 
-First arrival should start with salt air, gulls, wet harbor stone, cargo calls, ship ropes, and cranes. Then the route should climb: quays to white-stone streets, streets to broad stairs, stairs to official terraces, terraces to the Citadel. The city teaches authority physically by making people ascend toward it.
+## Required Narrative Anchors
 
-Street details: blue civic lamps, red-and-gold banners, polished pale stone, clock faces, public kiosks, harbor markets, map sellers, registry counters, coffee houses, notaries, bookbinders, rope makers, glass workers, and guarded stair funnels.
+- **Wonder:** Basilica of the First Accord
+- **Beacon:** Beacon Citadel
+- **Seat of Power:** Civic Blue Glow Tide-Seal Citadel
 
-## Wonder / Beacon / Seat Of Power / Landmarks
+## Sections / Districts
 
-- **Wonder:** a skyline-scale civic monument distinct from the Citadel and Beacon. Use it as proof of age, grandeur, and national memory.
-- **Beacon:** public signal heart and anxiety gauge. Citizens glance toward it before admitting fear. Crowds gather around it when its state changes.
-- **Seat of Power:** the Citadel, a high white-stone political complex reached by formal approaches, stairs, terraces, guarded plazas, and exposed public routes.
-- **Major landmarks:** section landmarks should distinguish waterfront, market, civic, industrial, and government-facing districts while preserving shared capital identity.
-- **Monuments:** bells, civic inscriptions, symbolic reliefs, statues, stair shrines, and plaza markers that make the capital remember itself publicly.
-- **Minor landmarks:** fountains, kiosks, lamps, harbor markers, stair posts, and small public signs that Addie can use as verbal-spatial memory hooks.
-
-## Section Narrative Map
-
-- **Waterfront:** practical labor, cargo, merchants, ship services, noise, and salt.
-- **Civic Core:** elevated white stone, blue light, clerks, guards, official movement.
-- **Market Areas:** busy but ordered; trade happens inside civic structure.
-- **Industrial Edges:** workshops, smoke, carts, metalwork, and repair labor without overpowering the capital identity.
+| Section | District | Required names / landmarks |
+|---|---|---|
+| S1 | Public Bathhouse | Public Bathhouse; Beacon Citadel; Wall of Oaths; Lantern Square. |
+| S2 | Grand Market | Grand Market; Great Clock Tower; Founders Obelisk; Pilgrim's Well. |
+| S3 | University | University; Royal Observatory; Eternal Watch Flame; Founders Bridge. |
+| S4 | Guild Hall | Guild Hall; Grand Cathedral; Monument of the Citizen; Three Sisters Fountain. |
+| S5 | Forum | Forum; Hall of Archives; Pillar of the First Accord; Old Bell Tower. |
 
 ## Prose Use
 
-Use AQM whenever the story needs public legitimacy, institutional confidence, crowd optics, or the weight of being seen. Addie should notice repeated official phrases, notices, lamps, bells, and route names. Talandra should notice balconies, chokepoints, exposed stairways, guard posts, and crowd funnels. Brickett should notice alleys, drainage, loose stones, undersides of stairs, and maintenance doors.
+Use for capital legitimacy, public speeches, mass witness, institutional pressure, and scenes where the city itself turns private events into civic history.
 
 ---
 
@@ -75,36 +85,31 @@ Use AQM whenever the story needs public legitimacy, institutional confidence, cr
 
 ## Narrative Thesis
 
-Luminthalas is an astronomical High-Elven city of disciplined beauty. It should feel chosen into the mountain rather than forced onto it: white marble terraces, moonstone, blue crystal, observatory domes, armillary spheres, formal gardens, lecture courts, alchemical labs, and quiet public scholarship.
+Luminthalas is perfected high-elven knowledge made habitable: a pristine astronomical mountain civilization of marble terraces, blue crystal, formal gardens, star geometry, lectures, law, temple procession, and controlled alchemy. It is not nature-first elven fantasy. It is beauty as proof of discipline.
 
-This is not a wild elf forest city. It is refined, precise, scholarly, and ceremonial. Its beauty comes from placement, geometry, and restraint.
+## Street-Level Sights And Feel
 
-## Arrival And Street Texture
+Street-level LUM is clean, pale, elevated, and intimidatingly deliberate: polished paving, blue lamps, formal stairs, prism bridges, lecture routes, observatory approaches, assembly courts, temple platforms, alchemical glass, garden basins, turning pages, fountain water, cool mountain air, parchment, flowers, and prism-lit night.
 
-Movement through Luminthalas should feel intentional, almost choreographed. Streets unfold through pale terraces, bridges, geometric plazas, garden interruptions, observatory courts, temple platforms, and high mountain sightlines. Crowds are quieter than in Aquila Matara; conversation is precise, slow, and institutional.
+## Required Narrative Anchors
 
-Street details: polished white paving, moonlit marble, blue-glass lamps, crystal resonance, star-chart vendors, mapmakers, bookbinders, alchemical supply counters, formal garden nurseries, robe makers, and astronomical instrument shops.
+- **Wonder:** High-Elven Prism Arboretum of Dawn Bridges
+- **Beacon:** Lecture Hall Beacon
+- **Seat of Power:** Star Map Ceilings Veiled High Court
 
-## Wonder / Beacon / Seat Of Power / Landmarks
+## Sections / Districts
 
-- **Wonder:** High-Elven Prism Arboretum of Dawn Bridges; a skyline-scale fusion of formal garden, bridge, prism light, and civic beauty.
-- **Beacon:** Lecture Hall Beacon / scholarly signal anchor; should feel like a public knowledge signal, not a military alarm.
-- **Seat of Power:** Star Map Ceilings Veiled High Court; authority is scholarly, ceremonial, and institutional.
-- **Major landmarks:** observatory courts, lecture halls, temple platforms, assembly terraces, alchemy labs, prism bridges, celestial plazas.
-- **Monuments:** armillary spheres, star-map floors, blue-lamp monuments, gold seals, garden alignments, celestial inscriptions.
-- **Minor landmarks:** lens kiosks, garden terraces, moon-glass windows, manuscript stalls, small fountains, instrument calibrating posts.
-
-## Section Narrative Map
-
-- **University / Lyceum:** public instruction, lecture courts, students, scholarly plazas.
-- **Observatory / Astronomy:** domes, star-reading, celestial court nooks, night work.
-- **Legislative Quarter:** formal debate, assembly halls, gold seals, public law.
-- **Temple Quarter:** ritual, processional stairs, lanterns, cultural continuity.
-- **Arcane / Alchemy Labs:** controlled experimentation, blue lamps, formula archives.
+| Section | District | Required names / landmarks |
+|---|---|---|
+| S1 | University / Lyceum | University / Lyceum Civic Hall; Lecture Hall Beacon; Star Navigation Monument; Observatory Court Nook. |
+| S2 | Observatory / Astronomy | Observatory / Astronomy Civic Hall; Star Observatory; Star Navigation Monument; Celestial Court Nook. |
+| S3 | Legislative Quarter | Legislative Quarter Hall; Assembly Hall; Legislative Quarter Gold-Seal Monument; Charter Arcade Nook. |
+| S4 | Religious / Temple Quarter | Religious / Temple Quarter Civic Hall; Temple Platform; Religious Temple Quarter Lantern Monument; Procession Stair Nook. |
+| S5 | Arcane / Alchemical Labs | Arcane / Alchemical Labs Civic Hall; Alchemy Lab; Blue-Lamp Monument; Formula Archive Nook. |
 
 ## Prose Use
 
-Use LUM for scenes of memory, scholarship, elegant pressure, and institutional certainty. Addie should track formal repeated terminology and routes by observatory/garden/court sequence. Gregory should read the symbols almost immediately. Characters who prefer improvisation should feel mildly exposed because the city is too composed to hide sloppiness.
+Use for scholarship, celestial evidence, formal legal pressure, elegant institutional condescension, and beauty that makes imperfection feel like a crime.
 
 ---
 
@@ -112,36 +117,31 @@ Use LUM for scenes of memory, scholarship, elegant pressure, and institutional c
 
 ## Narrative Thesis
 
-Skyrend Peak is a vertical raptorfolk fortress-civilization. Height is not scenery; it is the city’s grammar. Every stair, ledge, wind bridge, tower, watch balcony, beacon spire, and landing terrace exists because the people think in altitude, vigilance, and home protection.
+Skyrend Peak is a vertical raptorfolk fortress-civilization where height is the grammar of civic life. It is not a generic mountain castle. It is a city built by people who think in altitude: towers, stairs, wind bridges, cliff platforms, ledges, watch balconies, and signal spires make protection feel natural.
 
-The city should not read as conquest-hungry. Its defensive posture is civic and protective. Watchfulness is ordinary responsibility.
+## Street-Level Sights And Feel
 
-## Arrival And Street Texture
+Street-level SPK should make outsiders physically aware of thin air, exposed stairs, cliff roads, wind, banners snapping in open sky, blue signal light on stone, guard calls moving between towers, and raptorfolk calm near drops that terrify visitors. Movement is ascent, descent, bridge crossing, ledge negotiation, and public exposure.
 
-Skyrend Peak should rarely feel flat. Characters climb, turn into wind, cross bridges, lean away from drops, and move through tower passages and cliff roads. Outsiders should feel tired or vulnerable. Raptorfold locals should stand on ledges and perch rails without anxiety.
+## Required Narrative Anchors
 
-Street details: wind-worn pale stone, dark iron, bronze fittings, snapping banners, blue signal cores, cliff masonry, timber braces, watchfires, messenger roosts, rope shops, pulley workshops, weatherproof cloak makers, mountain food stalls.
+- **Wonder:** Source-limited: a skyline-scale windspire / sky-road / monumental eyrie is described, but the exact formal Wonder name is not locked in the current analysis.
+- **Beacon:** Source-limited: blue-lit public beacon spire / civic signal tower; exact formal Beacon name not locked in the current analysis.
+- **Seat of Power:** Source-limited: high fortified civic command complex; exact formal Seat name not locked in the current analysis.
 
-## Wonder / Beacon / Seat Of Power / Landmarks
+## Sections / Districts
 
-- **Wonder:** a high vertical civic-fortress anchor tied to perch, signal, and sky identity.
-- **Beacon:** the public warning landmark. When it changes state, the city reacts through watch rotations, messenger movement, and crowd attention.
-- **Seat of Power:** a high fortress-civic core where authority is protective, elevated, and publicly watchful.
-- **Major landmarks:** watch terraces, beacon plazas, cliff-edge assembly platforms, wind bridges, high stair landings, guarded gates, landing courts.
-- **Monuments:** wing, feather, talon, watchfire, and blue-signal memorials; monuments should often double as lookout points.
-- **Minor landmarks:** rail perches, signal lamps, stair markers, banner poles, pulley frames, storm shelters, and high-altitude inns.
-
-## Section Narrative Map
-
-- **Beacon Approach:** guarded approaches and public warning identity.
-- **Watch And Wind Routes:** lookouts, messenger routes, cliff paths, exposed platforms.
-- **Civic Fortress Core:** protected terraces, high halls, formal authority.
-- **Residential / Perch Districts:** balconies, ledges, nested homes, wind-sheltered communal spaces.
-- **Outer Sky Roads:** exposed edges, hoists, cargo routes, gates, mountain survival infrastructure.
+| Section | District | Required names / landmarks |
+|---|---|---|
+| S1 | Beacon Approach | Blue-lit beacon spire, public signal terraces, watch gathering points, signal maintenance routes. |
+| S2 | Watch And Wind Routes | Wind bridges, stair towers, exposed balconies, watch platforms, route bells. |
+| S3 | Civic Fortress Core | High fortified civic halls, guard platforms, command terraces, choke-point stairs. |
+| S4 | Residential / Perch Districts | Nest-like homes, landing ledges, windbreak markers, local stair shrines. |
+| S5 | Outer Sky Roads | Landing terraces, cliff gates, hoist routes, pulley towers, storm memorials. |
 
 ## Prose Use
 
-Use SPK for vulnerability, countdowns, signal anxiety, and physical exposure. The red beacon should feel terrifying here because the whole city is built to watch signs. Talandra naturally reads the city well. Addie should catalogue altitude routes and public phrases around watch duty. Brickett should be drawn to undersides, hoists, and unsafe shortcuts.
+Use for Book 1 red-beacon pressure, threat geometry, public vigilance, and scenes where home is safe only because everyone watches.
 
 ---
 
@@ -149,36 +149,31 @@ Use SPK for vulnerability, countdowns, signal anxiety, and physical exposure. Th
 
 ## Narrative Thesis
 
-Khaz Vorem is a surface mountain dwarven capital where infrastructure is identity. It does not hide underground. It builds on the mountain, with the mountain, and into the mountain: terraces, retaining walls, roads, bridges, forge halls, foundry stacks, guild counters, and bastions turn geology into public craft.
+Khaz Vorem is a surface mountain dwarven civic machine, not a default underground cave city. Roads, walls, viaducts, forge yards, command towers, caravan depots, containment keeps, maker marks, and deep underworks all prove the same principle: a civilization is worthy when it is load-bearing.
 
-This city should feel load-bearing. Everything looks built to carry weight: wagons, ore, stone, machinery, soldiers, and generations of use.
+## Street-Level Sights And Feel
 
-## Arrival And Street Texture
+Street-level KVM is heavy, engineered, smoky, and public: cut granite, iron bands, forge orange, blue beacon light, lantern arches, ramps, lifts, bridges, hoists, hammer strikes, furnace roar, wagon wheels, chains, stone dust, hot iron, quench steam, and guild bells. Rain makes vents steam and signals matter.
 
-Routes climb through gates, ramps, viaducts, stone bridges, forge courtyards, caravan roads, and terrace walls. Smoke and forge heat should be constant but not cartoonishly steampunk. The mountain remains visible and becomes more itself because dwarven craft has made its structure explicit.
+## Required Narrative Anchors
 
-Street details: granite, basalt, slate, iron bands, copper fittings, forge-orange glow, furnace vendors, toolsmiths, ore brokers, armor repair stalls, bridge toll houses, guild registries, work-cloak makers.
+- **Wonder:** Dwarven Deep-Anvil Throne of the Iron Vein
+- **Beacon:** Border Wall Beacon
+- **Seat of Power:** Hammer Marks Iron Mandate Keep
 
-## Wonder / Beacon / Seat Of Power / Landmarks
+## Sections / Districts
 
-- **Wonder:** mountain-scale civic engineering - a forge/terrace/stonework complex that proves public mastery.
-- **Beacon:** civic forge gate signal; should feel tied to access, labor, defense, and guild organization.
-- **Seat of Power:** a guild-structured civic fortress rather than pure royal palace; authority is earned through durability and usefulness.
-- **Major landmarks:** forge courtyards, stone plazas, guild halls, caravan yards, bridge approaches, gate terraces, public works squares.
-- **Monuments:** hammers, anvils, carved guild marks, bridge plaques, road inscriptions, founder stones, and forge memorials.
-- **Minor landmarks:** tool counters, ore scales, furnace vents, cargo ramps, lift points, rail grooves, and inspection posts.
-
-## Section Narrative Map
-
-- **Civic Forge Gate:** formal access, beacon visibility, stone authority.
-- **Forge / Industrial Quarter:** heat, smoke, metal, workshops, guild labor.
-- **Caravan And Trade Routes:** roads, tolls, cargo, exchange halls.
-- **Defensive Terraces:** walls, bastions, gates, military readiness tied to infrastructure.
-- **Deepworks Edges:** underworks entrances, mine-linked ramps, reminders of deeper systems below.
+| Section | District | Required names / landmarks |
+|---|---|---|
+| S1 | Fortress / Border Wall | Fortress / Border Wall Civic Hall; Border Wall Beacon; Woven Banners Monument; Watch Bastion Nook. |
+| S2 | Heavy Industry / Foundry | Heavy Industry / Foundry Civic Hall; Great Forge; Smoke-Stack Monument; Crucible Hall Nook. |
+| S3 | Military Command | Military Command Hall; Command Bastion; Woven Banners Monument; Standard Tower Nook. |
+| S4 | Transit / Caravan / Rail | Transit / Caravan / Rail Civic Hall; Caravanserai; Woven Banners Monument; Waystation Hall Nook. |
+| S5 | Prison / Containment | Prison / Containment Civic Hall; Containment Keep; Mist Veils Monument; Judgment Yard Nook. |
 
 ## Prose Use
 
-Use KVM for craft judgment, inherited labor, engineering pride, and visible durability. Brynn belongs naturally against this kind of texture: roads, walls, material quality, and public work reveal character. Scenes here should sound like hammers, stone echo, carts, chains, and guild bells.
+Use when material proof, repair duty, road logistics, defensive engineering, guild legitimacy, and containment ethics need to feel inseparable.
 
 ---
 
@@ -186,73 +181,63 @@ Use KVM for craft judgment, inherited labor, engineering pride, and visible dura
 
 ## Narrative Thesis
 
-Pollyr Fen is not a city beside a swamp. It is the hidden architecture of the swamp revealed as civilization. Water is street, market, nursery, ritual space, foundation, and memory. The frogfolk do not drain or conquer the wetland; they build around its structure.
+Pollyr Fen is a mature frogfolk marsh city where water is street, nursery, market, risk, ritual field, food route, and public utility. It is not a swamp village. It is a dense amphibious civic system of canals, lock houses, reed roofs, boats, nursery pools, relief halls, healing courts, grain markets, and marsh song.
 
-The city should feel mature and amphibian, never primitive. Its civic life is distributed across canals, rafts, docks, lotus basins, reed paths, nursery pools, temple platforms, and raised wet thresholds.
+## Street-Level Sights And Feel
 
-## Arrival And Street Texture
+Street-level PFN is wet, crowded, layered, and amphibious: boardwalks, canals, reed platforms, lily pads, lock towers, boats, wet steps, blue-green lamps, soft nursery light, grain awnings, apothecary herbs, fish stew, waterwheel creak, boat poles, frogfolk chorus, mud, lamp oil, and mist.
 
-Characters should not simply walk through Pollyr Fen unless they are on boardwalks, bridges, platforms, docks, or raised paths. Movement should involve boats, pole-rafts, ferries, stepping stones, basin edges, and conversations that pause because water changes pacing.
+## Required Narrative Anchors
 
-Street details: wet wood, reed thatch, bamboo/cane framing, green-blue glass, rope, woven mats, mossed masonry, lantern reflections, floating fish stalls, herbalist rafts, boatwright platforms, lotus food stalls, canal toll kiosks.
+- **Wonder:** Polliweir Frog-Dam Choir of the Living Marsh
+- **Beacon:** Lock House Beacon
+- **Seat of Power:** Reed Bundle Patterns Sovereign Registry Court
 
-## Wonder / Beacon / Seat Of Power / Landmarks
+## Sections / Districts
 
-- **Wonder:** a wetland civic-spiritual structure tied to basins, life-cycle, and water memory.
-- **Beacon:** lock-tower or mist-rising signal landmark emerging from wetland civic space.
-- **Seat of Power:** distributed through basins, docks, nurseries, and public water spaces rather than one dry palace.
-- **Major landmarks:** basin plazas, boardwalk squares, nursery pools, temple docks, market rafts, canal intersections.
-- **Monuments:** lotus basins, frog/lily imagery, lantern shrines, spawning pool markers, water-level memory posts.
-- **Minor landmarks:** ferry stops, reed frames, dock bells, stepping-stone paths, raft moorings, canal markers.
-
-## Section Narrative Map
-
-- **Civic Waterfront:** administration, docks, signal landmarks, canal access.
-- **Canal Market:** floating commerce, boats, wet trade, amphibian movement.
-- **Nursery / Spawning Grounds:** protected life-cycle basins and communal care.
-- **Temple Wetland Quarter:** ritual water spaces, lanterns, shrines, processional docks.
-- **Outer Reed Neighborhoods:** domestic spaces closer to raw swamp, less formal, woven into reeds and water.
+| Section | District | Required names / landmarks |
+|---|---|---|
+| S1 | Canal / Riverworks | Canal / Riverworks Civic Hall; Lock House Beacon; Canal Reflections Monument; Waterwheel Court Nook. |
+| S2 | Nursery / Spawning Grounds | Nursery / Spawning Grounds Civic Hall; Nursery Basin; Shell Inlay Monument; Spawning Pool Nook. |
+| S3 | Civic Services | Civic Services Hall; Relief Hall; Civic Services Lantern Monument; Notice Plaza Nook. |
+| S4 | Medical / Healing | Medical / Healing Civic Hall; Healing Hall; Medical Healing Lantern Monument; Apothecary Court Nook. |
+| S5 | Granary / Food Market | Granary / Food Market Civic Hall; Grain Hall; Awning Monument; Mill Court Nook. |
 
 ## Prose Use
 
-Use PFN when the story needs the reader to feel that water is civilization, not scenery. This is essential for Book 1’s Bountiful Dam wound: destroying or diverting water here is not environmental inconvenience; it is cultural murder. Addie should hear repeated oral/place names. Brickett should notice channels, old boards, and informal crossings.
+Use for the Book 1 Bountiful wound: diverting water here is cultural murder, not inconvenience. Addie should hear repeated water/place language; Brickett should notice channels, boards, informal crossings, and lock timing.
 
 ---
 
-# Vyrath'Kai (VKI)
+# Vyrath’Kai (VKI)
 
 ## Narrative Thesis
 
-Vyrath'Kai is a dragonkin island-volcano civilization defined less by fire than by endurance. It lives near volcanic danger, but daily life turns toward sea trade, shelter halls, aid courts, cliff housing, harbor markets, and guarded non-aggression.
+Vyrath’Kai is a dragonkin coastal fortress-city of refuge, command, stormfire memory, shrines, containment, and harbor ritual. It must not read as a dragon lair or conquest fantasy. Its danger is disciplined into shelter systems, public vows, command law, and harbor crossings.
 
-The city must not read as a lava temple or conquest fantasy. The volcano is pressure, sacred memory, danger, and concentration. The city itself is maritime, cliff-built, practical, sheltering, and recovery-oriented.
+## Street-Level Sights And Feel
 
-## Arrival And Street Texture
+Street-level VKI is storm-dark and salt-wet: basalt terraces, bronze fittings, scale-pattern stone, shelter lamps, roadside shrine lanterns, command standards, warded containment thresholds, harbor arches, bridgelets, storm wind, dock bells, wet rope, smoke, and civic blue light under stormfire orange.
 
-Arrival should emphasize harbor first: docks, ropes, ship supply counters, cliff stairs, port markets, ash-stained plaster, red cloth, bronze fittings, and crowded terraces. Fire imagery should appear in limited ritual or volcanic contexts, not everywhere.
+## Required Narrative Anchors
 
-Street details: dark volcanic stone, warm plaster, terracotta, blackened timber, harbor wood, scale-pattern tile, fish markets, sail repair, charcoal vendors, shelter supply counters, ceremonial fire-bowl makers.
+- **Wonder:** Dragonkin Stormfire Egg-Gate of Vyrath
+- **Beacon:** Shelter Hall Beacon
+- **Seat of Power:** Dragon Scale Patterns Command Bastion
 
-## Wonder / Beacon / Seat Of Power / Landmarks
+## Sections / Districts
 
-- **Wonder:** sacred volcanic quarter / egg-fire memory site where fire symbolism concentrates.
-- **Beacon:** shelter-hall signal; should call people toward organized communal endurance rather than military rallying alone.
-- **Seat of Power:** protective, lineage-conscious civic cliff authority.
-- **Major landmarks:** shelter halls, harbor plazas, dock markets, cliff terraces, aid courts, volcanic wonder approaches, public cliff stairways.
-- **Monuments:** red banners, dragon/scale forms, fire bowls, egg-clutch memorial forms, cliff-door markers, harbor survival plaques.
-- **Minor landmarks:** ration counters, patched walls, sea balconies, rope posts, ship-supply signs, shelter doors, ash-stained stair markers.
-
-## Section Narrative Map
-
-- **Shelter Hall:** civic recovery, temporary-housing memory, public aid, beacon response.
-- **Port Market:** sea trade, island logistics, dense commerce.
-- **Aristocratic / Civic Cliff:** lineage display, bureaucracy, controlled access.
-- **Sacred Volcanic Quarter:** concentrated fire, memory, ceremony, taboo.
-- **Lower Cliff / Harbor District:** poorer but alive; dense housing, informal commerce, community survival.
+| Section | District | Required names / landmarks |
+|---|---|---|
+| S1 | Shelter Hall | S1 Shelter Hall; Shelter Hall Beacon; S1 Shelter Pillar; S1 Shelter Kiosk. |
+| S2 | Shrine / Sacred Place | Shrine / Sacred Place Civic Hall; Roadside Shrine; Shrine Sacred Place Lantern Monument; Votive Grove Nook. |
+| S3 | Military Command | Military Command Hall; Command Bastion; Woven Banners Monument; Standard Tower Nook. |
+| S4 | Prison / Containment | Prison / Containment Civic Hall; Containment Keep; Mist Veils Monument; Judgment Yard Nook. |
+| S5 | Harbor Campus | S5 Harbor Campus; Harbor Basilica; S5 Harbor Arch; S5 Harbor Bridgelet. |
 
 ## Prose Use
 
-Use VKI to resist simplistic dragonkin coding. These people are not cowards and not aggressors by default. They prepare, shelter, negotiate, redirect, and protect family before fighting. That makes later violence against them more morally useful: the reader should understand what was destroyed was a recovery civilization, not an enemy war machine.
+Use to complicate dragonkin assumptions: these people shelter first, command carefully, contain danger under law, and bless crossings before they fight.
 
 ---
 
@@ -260,36 +245,31 @@ Use VKI to resist simplistic dragonkin coding. These people are not cowards and 
 
 ## Narrative Thesis
 
-Ethervale is a seraphic threshold city with real weight under its celestial surface. It guards borders, keeps archives, forges tools, teaches publicly, studies the stars, and expresses authority through veils, courts, records, gates, and formal terraces.
+Ethervale is a mist-veiled seraphic threshold city where duty is beautiful because it is heavy. Border walls, forges, archive stairs, lecture terraces, observatories, moon-gate spires, and veiled high courts make holiness procedural rather than weightless.
 
-It should not feel purely heavenly or delicate. Forge smoke and warm fire must interrupt the pale stone and blue crystal. The city is beautiful because it is disciplined, not because it is untouched.
+## Street-Level Sights And Feel
 
-## Arrival And Street Texture
+Street-level ETH is pale, terraced, watched, and damp with mist: guarded gates, blue lamps, red banners, forge smoke under celestial towers, archive stairs, copyist halls, lecture plazas, observatory paths, border bells, paper, wax seals, hot iron, coal smoke, cool mountain air, and distant choir resonance.
 
-Ethervale routes move through guarded gate plazas, border walls, terraced streets, forge courts, archive stairs, lecture terraces, observatory approaches, and moon-gate platforms. Mist should veil distances while blue lamps keep immediate routes legible.
+## Required Narrative Anchors
 
-Street details: pale limestone, white marble, granite cliff masonry, blue crystal glass, gold ornament, forge iron, red civic banners, copyist halls, star-chart stalls, border permit counters, seal makers, lamp glass vendors, worker food stalls.
+- **Wonder:** Seraphic Moon-Gate Choir Spire
+- **Beacon:** Border Wall Beacon
+- **Seat of Power:** Mist Veils Veiled High Court
 
-## Wonder / Beacon / Seat Of Power / Landmarks
+## Sections / Districts
 
-- **Wonder:** Seraphic Moon-Gate Choir Spire; spiritual skyline anchor and celestial civic memory.
-- **Beacon:** Border Wall Beacon; signal identity at the guarded threshold.
-- **Seat of Power:** Mist Veils Veiled High Court; formal, archival, duty-bound authority.
-- **Major landmarks:** border gate plazas, forge courts, archive stairs, lecture terraces, observatory courts, formal high-court plazas.
-- **Monuments:** gold seals, star navigation markers, smoke-stack monument, blue-lamp monuments, archive plaques, choir-spire inscriptions.
-- **Minor landmarks:** permit kiosks, copyist benches, ledger carts, seal-verification counters, stair lamps, forge vents.
-
-## Section Narrative Map
-
-- **Fortress / Border Wall:** guarded threshold, beacon, watch bastions.
-- **Heavy Industry / Foundry:** Great Forge, smoke stacks, tools, contained heat.
-- **Records / Archives:** archive tower, copyist halls, ledgers, public records.
-- **University / Lyceum:** lecture halls, star navigation, scholarly streets.
-- **Observatory / Astronomy:** high sightlines, moonlight, star work, celestial court nooks.
+| Section | District | Required names / landmarks |
+|---|---|---|
+| S1 | Fortress / Border Wall | Fortress / Border Wall Civic Hall; Border Wall Beacon; Woven Banners Monument; Watch Bastion Nook. |
+| S2 | Heavy Industry / Foundry | Heavy Industry / Foundry Civic Hall; Great Forge; Smoke-Stack Monument; Crucible Hall Nook. |
+| S3 | Records / Archives | Records / Archives Hall; Archive Tower; Records Archives Gold-Seal Monument; Copyist Hall Nook. |
+| S4 | University / Lyceum | University / Lyceum Civic Hall; Lecture Hall; Star Navigation Monument; Observatory Court Nook. |
+| S5 | Observatory / Astronomy | Observatory / Astronomy Civic Hall; Star Observatory; Star Navigation Monument; Celestial Court Nook. |
 
 ## Prose Use
 
-Use ETH for scenes where duty, records, border legality, and celestial legitimacy overlap. Miriam-style astronomical texture fits naturally here, but the city’s foundries keep it grounded. Addie should notice repeated permit language and record formulas. Talandra should notice gates and sightlines.
+Use when obligation, record law, witness, border legality, and celestial legitimacy overlap. Keep soot and permits visible under the holy surface.
 
 ---
 
@@ -297,36 +277,31 @@ Use ETH for scenes where duty, records, border legality, and celestial legitimac
 
 ## Narrative Thesis
 
-Frostharbor is a cold sealfolk harbor civilization built around endurance and communal protection. Sea, ice, shelter, cargo logistics, public works, nursery waters, and blue lanterns form a settled amphibious city.
+Frostharbor is a cold-water sealfolk harbor civilization built around communal shelter. It survives by making blue lanterns, low platforms, shelter halls, cargo logistics, public works, nursery basins, and harbor rites into public architecture.
 
-The city’s beauty comes from survival, warmth, and safe passage. It should feel wet, low, durable, protective, and communal.
+## Street-Level Sights And Feel
 
-## Arrival And Street Texture
+Street-level FRO is wet, low, cold, and protective: slick stone, timber docks, causeways, ramps, blue lanterns, shelter fires, cargo crates, rope, cold wind, fish, wet wool, hot broth, dock bells, fog-haloed lamps, nursery pools, tide charts, and sealfolk moving easily between water and street.
 
-Characters move over slick stone, timber docks, causeways, harbor bridges, basin edges, ramps, and broad low platforms. Blue lanterns orient people through fog and storm. Warm shelter halls matter emotionally because the outside world is cold and wet.
+## Required Narrative Anchors
 
-Street details: wet stone, dark timber, rope, iron fittings, blue glass, shell inlay, frosted metal, hot broth stands, fishmongers, net repair, rope makers, boatwright sheds, warehouse counters, cargo insurance desks.
+- **Wonder:** Sealfolk Ice-Tide Roundhouse of Blue Lanterns
+- **Beacon:** Shelter Hall Beacon
+- **Seat of Power:** Shell Spiral Windows Tide-Seal Citadel
 
-## Wonder / Beacon / Seat Of Power / Landmarks
+## Sections / Districts
 
-- **Wonder:** Sealfolk Ice-Tide Roundhouse of Blue Lanterns; city-scale shelter, tide, and communal identity.
-- **Beacon:** Shelter Hall Beacon; public safety signal and crisis gathering anchor.
-- **Seat of Power:** Shell Spiral Windows Tide-Seal Citadel; protective, logistical, tide-aware authority.
-- **Major landmarks:** shelter halls, blue-lantern plazas, harbor bridges, cargo yards, survey halls, permit yards, nursery basins, harbor basilica approaches.
-- **Monuments:** blue lantern chains, shell spiral windows, tide markers, nursery pool memorials, harbor plaques, roundhouse reliefs.
-- **Minor landmarks:** shelter kiosks, rope rails, drying racks, tide gauges, hot-food counters, lantern hooks, permit boards.
-
-## Section Narrative Map
-
-- **Shelter Hall:** warmth, emergency gathering, beacon watching, public readiness.
-- **Warehousing / Logistics:** cargo, ropes, cranes, sledges, inventory, cold-chain harbor work.
-- **Public Works Authority:** survey halls, permits, seawalls, tide governance.
-- **Nursery / Spawning Grounds:** protected basins, shell inlay, communal care.
-- **Harbor Campus:** harbor basilica, bridgelets, arches, maritime ceremony.
+| Section | District | Required names / landmarks |
+|---|---|---|
+| S1 | Shelter Hall | S1 Shelter Hall; Shelter Hall Beacon; S1 Shelter Pillar; S1 Shelter Kiosk. |
+| S2 | Warehousing / Logistics | Warehousing / Logistics Civic Hall; Cargo Yard; Warehousing Logistics Gold-Seal Monument; Inventory Hall Nook. |
+| S3 | Public Works Authority | Public Works Authority Hall; Survey Hall; Blue-Lamp Monument; Permit Yard Nook. |
+| S4 | Nursery / Spawning Grounds | Nursery / Spawning Grounds Civic Hall; Nursery Basin; Shell Inlay Monument; Spawning Pool Nook. |
+| S5 | Harbor Campus | S5 Harbor Campus; Harbor Basilica; S5 Harbor Arch; S5 Harbor Bridgelet. |
 
 ## Prose Use
 
-Use FRO when civilization must feel like mutual care under environmental pressure. Public care is not sentimental here; it is shelter, tide warnings, cargo order, nursery protection, hot food, and safe passage. Outsiders should find the weather miserable while locals remain competent.
+Use for mutual care under environmental pressure: shelter, tide warnings, hot food, cargo order, nursery protection, and safe passage.
 
 ---
 
@@ -334,36 +309,31 @@ Use FRO when civilization must feel like mutual care under environmental pressur
 
 ## Narrative Thesis
 
-Elarion Thicket is not a city built in a forest. It is a forest that gradually became a civilization. Stagfolk civic life is woven through sacred groves, antlered halls, canopy paths, guild courts, public works, gardens, and woodland estates.
+Elarion Thicket is a forest that became a stagfolk civilization. Sacred groves, antlered halls, temple processions, public works, guild craft, hanging gardens, and woodland estates grow inside the ecosystem rather than replacing it.
 
-It should feel ancient, sophisticated, peaceful, territorial, and ecologically rooted. The forest remains structurally active in every district.
+## Street-Level Sights And Feel
 
-## Arrival And Street Texture
+Street-level ETT is woodland made civic over centuries: root-edged stone, timber porches, mossed steps, lanterns under branches, garden walls, canopy halls, antler arches, warm guild windows, blue civic lamps, wind through leaves, hoof traffic on root-stone paths, damp moss, carved wood, herbs, and wet leaves.
 
-Streets should feel like woodland paths made civic over centuries: root-edged stone, mossed steps, timber porches, lanterns under branches, clearings used as plazas, markets tucked into groves, and paths bending around old trees rather than cutting through them.
+## Required Narrative Anchors
 
-Street details: living wood, carved timber, mossed stone, root-wrapped masonry, warm lantern glass, woven banners, bark shingles, antlered arches, sacred grove platforms, canopy halls, artisan guildhalls, herbalists, woodcarvers, banner weavers, lantern makers.
+- **Wonder:** Antlered Root-Hearth of the White Stag
+- **Beacon:** Sacred Grove Beacon
+- **Seat of Power:** Antler Arches Sovereign Registry Court
 
-## Wonder / Beacon / Seat Of Power / Landmarks
+## Sections / Districts
 
-- **Wonder:** Antlered Root-Hearth of the White Stag; natural-civic identity of grove, hearth, antler, and stewardship.
-- **Beacon:** Sacred Grove Beacon; signal nested in living canopy rather than dominating it.
-- **Seat of Power:** Antler Arches Sovereign Registry Court; formal record and territorial stewardship.
-- **Major landmarks:** sacred groves, canopy halls, temple platforms, guild courts, public works yards, procession stairs, manor courts, hanging gardens.
-- **Monuments:** hanging garden markers, antler arches, blue-lamp monuments, grove stones, root-hearth memorials.
-- **Minor landmarks:** lanterned paths, root markers, carved tree signs, garden walls, guild porches, old named trees.
-
-## Section Narrative Map
-
-- **Sacred Grove:** spiritual-ecological core, living canopy, hanging gardens.
-- **Temple Quarter:** ritual, procession stairs, lanterns, formal woodland ceremony.
-- **Public Works Authority:** surveys, permits, blue-lamp monuments, stewardship bureaucracy.
-- **Artisan Guilds:** woodcraft, woven banners, masterwork arcades, public making.
-- **High Residential:** gardened courts, pavilions, salons, quieter status.
+| Section | District | Required names / landmarks |
+|---|---|---|
+| S1 | Nature Preserve / Sacred Grove | Nature Preserve / Sacred Grove Civic Hall; Sacred Grove Beacon; Hanging Gardens Monument; Living Canopy Hall Nook. |
+| S2 | Religious / Temple Quarter | Religious / Temple Quarter Civic Hall; Temple Platform; Religious Temple Quarter Lantern Monument; Procession Stair Nook. |
+| S3 | Public Works Authority | Public Works Authority Hall; Survey Hall; Blue-Lamp Monument; Permit Yard Nook. |
+| S4 | Artisan Guilds | Artisan Guilds Civic Hall; Guildhall; Woven Banners Monument; Masterwork Arcade Nook. |
+| S5 | High Residential | High Residential Civic Hall; Manor Court; Hanging Gardens Monument; Salon Pavilion Nook. |
 
 ## Prose Use
 
-Use ETT for stewardship, calm territoriality, and ancient ecological continuity. Stagfolk should seem peaceful by default, but never harmless. The city should imply that every path, tree, and grove has memory and social meaning.
+Use for stewardship, calm territoriality, ecological memory, and peaceful people who are not passive.
 
 ---
 
@@ -371,36 +341,31 @@ Use ETT for stewardship, calm territoriality, and ancient ecological continuity.
 
 ## Narrative Thesis
 
-Aes Sidhal is a cliffside satyr and horned-fae threshold civilization. It is beautiful, theatrical, guarded, magical, and socially alert. Borders, bargains, revelry, alchemy, courts, and stargazing all operate inside a controlled web of charms, wards, ritual geometry, and public performance.
+Aes Sidhal is a cliffside satyr / horned-fae threshold city where beauty is permission. Gates, wards, charms, masks, veils, alchemy, law, theater, observatories, and blue ward light make revelry formal rather than chaotic.
 
-Do not reduce it to chaotic revelry. This city has discipline, walls, courts, old laws, and watched entrances.
+## Street-Level Sights And Feel
 
-## Arrival And Street Texture
+Street-level ASL climbs through pale stone walls, blue lamps, cedar balconies, vine screens, charm strings, mask stalls, guard posts, theater steps, court arcades, alchemy-glass hum, cliff wind, spiced wine, cedar smoke, festival food, and moonlit observatory platforms. Every entrance is social information.
 
-Streets are terraces and thresholds: stairs, arches, cliffside landings, guarded gate plazas, ritual squares, theater steps, alchemy courts, observatory platforms, and blue ward-light marking transitions. Public revelry exists, but it is bounded by custom and surveillance.
+## Required Narrative Anchors
 
-Street details: moonstone, granite, cedar, vine, gold leaf, obsidian fortress stone, blue crystal glass, hanging charms, masks, woven banners, festival goods, alchemical glass shops, wine sellers, moon-dial vendors, ritual geometry engravers.
+- **Wonder:** Satyr Revelstone Grove Theater
+- **Beacon:** Border Wall Beacon
+- **Seat of Power:** Hanging Charms Veiled High Court
 
-## Wonder / Beacon / Seat Of Power / Landmarks
+## Sections / Districts
 
-- **Wonder:** Satyr Revelstone Grove Theater; cultural release and performance contained inside civic form.
-- **Beacon:** Border Wall Beacon; threshold signal and guarded public anchor.
-- **Seat of Power:** Hanging Charms Veiled High Court; ceremonial, guarded, performative authority.
-- **Major landmarks:** border gate plazas, watch bastions, alchemy courts, assembly terraces, opera court steps, mask pavilion courtyards, moon gate plazas.
-- **Monuments:** carved totems, gold seals, blue ward monuments, ritual circles, theater masks, hanging charm arrays.
-- **Minor landmarks:** charm hooks, ward lamps, banner posts, cliff stair shrines, moon-dials, mask stalls, permit counters.
-
-## Section Narrative Map
-
-- **Fortress / Border Wall:** guarded threshold, bastions, banners, Beacon.
-- **Arcane / Alchemy Labs:** containment courts, formula archives, serpent geometry, controlled civic magic.
-- **Legislative Quarter:** charter arcades, gold seals, public assembly.
-- **Entertainment / Theater:** music, masks, revelry, lanterns, public release.
-- **Observatory / Astronomy:** moon gates, star navigation, cliffside scholarly watching.
+| Section | District | Required names / landmarks |
+|---|---|---|
+| S1 | Fortress / Border Wall | Fortress / Border Wall Civic Hall; Border Wall Beacon; Woven Banners Monument; Watch Bastion Nook. |
+| S2 | Arcane / Alchemical Labs | Arcane / Alchemical Labs Civic Hall; Alchemy Lab; Blue-Lamp Monument; Formula Archive Nook. |
+| S3 | Legislative Quarter | Legislative Quarter Hall; Assembly Hall; Legislative Quarter Gold-Seal Monument; Charter Arcade Nook. |
+| S4 | Entertainment / Theater | Entertainment / Theater Civic Hall; Opera Court; Entertainment Theater Lantern Monument; Mask Pavilion Nook. |
+| S5 | Observatory / Astronomy | Observatory / Astronomy Civic Hall; Star Observatory; Star Navigation Monument; Celestial Court Nook. |
 
 ## Prose Use
 
-Use ASL when beauty and permission are inseparable. Every entrance matters. Every mask says something. Every public celebration is also a controlled social mechanism. Characters should feel welcomed and assessed at the same time.
+Use when masks, invitations, border rules, public revelry, ritual politeness, and social permission carry real force.
 
 ---
 
@@ -408,36 +373,31 @@ Use ASL when beauty and permission are inseparable. Every entrance matters. Ever
 
 ## Narrative Thesis
 
-Nox Vaelor is a dark-elven forest aristocracy of moonlit beauty, shadow-touched trees, crystal estates, elevated walkways, layered districts, and managed vice. It is cultured, wealthy, dangerous, and conflicted.
+Nox Vaelor is a dark-elven forest aristocracy where beauty is leverage. Nightglass palaces, alchemical labs, black-market arcades, archives, opera courts, and scrap-lit lower districts turn altered forest into social machinery.
 
-Unlike Elarion Thicket, Nox Vaelor does not harmonize with the forest. It transforms the forest into a civic instrument: preserving enough beauty to seduce and shaping enough power to control.
+## Street-Level Sights And Feel
 
-## Arrival And Street Texture
+Street-level NVR is alluring before it is threatening: moonlit dark stone, shadow roots, elevated walkways, violet lamps, velvet awnings, crystal estates, alchemical vapors, opera laughter, hidden market whispers, perfume, wet bark, spiced coffee, warm theater windows, and lower-district scrap hammering.
 
-Streets should feel alluring but socially layered: moonlit stone paths, shadow roots, elevated walkways, violet lamps, velvet awnings, dark arches, crystal balconies, ritual groves, aristocratic estates, entertainment squares, and dense lower districts with warm windows.
+## Required Narrative Anchors
 
-Street details: black marble, violet crystal, moonlit glass, silver metalwork, dark timber, velvet banners, iron railings, perfume houses, contract scribes, pleasure houses, gambling rooms, masked theaters, salons, tattoo and piercing parlors.
+- **Wonder:** Dark-Elven Nightglass Thorn Palace
+- **Beacon:** Alchemy Lab Beacon
+- **Seat of Power:** Star Map Ceilings Veiled High Court
 
-## Wonder / Beacon / Seat Of Power / Landmarks
+## Sections / Districts
 
-- **Wonder:** crystal/shadow aristocratic forest landmark; should seduce before it threatens.
-- **Beacon:** a moonlit or violet civic signal embedded in the conflicted forest, likely read through prestige and access.
-- **Seat of Power:** aristocratic bureaucratic court, layered through estates, records, and controlled access.
-- **Major landmarks:** moonlit plazas, shadow groves, estate courts, bureaucratic terraces, entertainment squares, market balconies, tree-platform commons.
-- **Monuments:** crystal-lit memorials, shadow-tree ritual markers, silver plaques, aristocratic balconies, veiled statues, violet lamps.
-- **Minor landmarks:** hidden service paths, salon signs, contract counters, market lanterns, stair routes, curtained thresholds, tree-platform markers.
-
-## Section Narrative Map
-
-- **Conflicted Civic Forest:** formal walkways, natural trees, shadow trees, public architecture.
-- **Shadow Ritual Quarter:** moonlight, dark-elven spiritual identity, shadow-tree transformation.
-- **Aristocratic Bureaucracy:** estate wealth, records, administration, formal power.
-- **Culture / Entertainment:** music, theater, salons, performance, social release.
-- **Lower Forest Vice District:** poorer, warmer, denser, more informal, socially alive.
+| Section | District | Required names / landmarks |
+|---|---|---|
+| S1 | Arcane / Alchemical Labs | Arcane / Alchemical Labs Civic Hall; Alchemy Lab Beacon; Blue-Lamp Monument; Formula Archive Nook. |
+| S2 | Underworld / Hidden Economy | Underworld / Hidden Economy Civic Hall; Black Market Arcade; Mist Veils Monument; Understreet Vault Nook. |
+| S3 | Records / Archives | Records / Archives Hall; Archive Tower; Records Archives Gold-Seal Monument; Copyist Hall Nook. |
+| S4 | Entertainment / Theater | Entertainment / Theater Civic Hall; Opera Court; Entertainment Theater Lantern Monument; Mask Pavilion Nook. |
+| S5 | Slums / Informal Settlement | Slums / Informal Settlement Civic Hall; Scrap Market; Slums Informal Settlement Lantern Monument; Patched Tenement Nook. |
 
 ## Prose Use
 
-Use NVR for double meanings, transactional social intelligence, class tension, and beauty with pressure underneath. Do not make it simply evil. The lower districts should be exploited but alive; the aristocratic districts should glitter and withdraw.
+Use for double meanings, family leverage, hidden contracts, managed vice, and lower districts that are exploited but alive.
 
 ---
 
@@ -445,36 +405,31 @@ Use NVR for double meanings, transactional social intelligence, class tension, a
 
 ## Narrative Thesis
 
-Qasr Siroth is the architecture of disciplined scarcity. It is a sun-baked desert capital where heat, shade, water, grain, caravan routes, registry, aid, and Ma'at-inflected sun symbolism make survival public and honorable.
+Qasr Siroth is disciplined scarcity made beautiful: a North-African / Egyptian desert-cistern city where sun, shade, water law, caravan hospitality, market witnessing, command duty, and terrace food systems create public balance.
 
-Its grandeur comes from managing scarcity, not pretending scarcity does not exist.
+## Street-Level Sights And Feel
 
-## Arrival And Street Texture
+Street-level QSR moves from glare to shade: white limestone, sandstone, brass lattice, linen awnings, caravan bells, covered bazaars, command standards, sun-disc reliefs, cistern air, grain sacks, terrace granaries, spice stalls, dust wind, mint tea, and blue civic oath light at night.
 
-Arrival should move from glare to shade. Dry wind and sand glare first; then carved gates, covered arcades, red awnings, date palms, fountains, caravan yards, covered bazaars, cistern courts, terrace granaries, and finally white-gold civic authority rising beyond oasis corridors.
+## Required Narrative Anchors
 
-Street details: sandstone, adobe plaster, carved cedar, bronze, clay tile, red awnings, green-glazed tile, fountains, water-seller kiosks, spice stalls, route brokers, caravan supply stores, mosaic artisans, tea houses, sand-glass vendors.
+- **Wonder:** North-African Sun-Cistern Citadel of Ma’at
+- **Beacon:** Caravanserai Beacon
+- **Seat of Power:** Sun Disc Reliefs Sovereign Registry Court
 
-## Wonder / Beacon / Seat Of Power / Landmarks
+## Sections / Districts
 
-- **Wonder:** North-African Sun-Cistern Citadel of Ma'at; fuses sun, water, justice, survival, and civic legitimacy.
-- **Beacon:** Caravanserai Beacon; route signal tied to trade, desert safety, announcements, and caravan movement.
-- **Seat of Power:** Sun Disc Reliefs Sovereign Registry Court; resource rights, water records, grain allocation, caravan permits, aid authorization.
-- **Major landmarks:** Covered Bazaar, Aid Commons, Terrace Granary.
-- **Monuments:** sun-disc markers, fountain inscriptions, route stones, granary reliefs, drought-memory inscriptions.
-- **Minor landmarks:** fountain posts, awning corners, cistern grates, date-palm courts, caravan bells, route boards, shaded kiosks.
-
-## Section Narrative Map
-
-- **Caravanserai Beacon:** trade-facing signal district, arrivals, route traffic.
-- **Covered Bazaar:** awnings, shade, lamps, bargaining, trade goods.
-- **Aid Commons:** food, water, civic obligation, public distribution.
-- **Terrace Granary:** irrigation, terraces, grain, gardens, storage logic.
-- **Central Authority:** registry court and sun-cistern citadel; law, water, order, legitimacy.
+| Section | District | Required names / landmarks |
+|---|---|---|
+| S1 | Transit / Caravan / Rail | Transit / Caravan / Rail Civic Hall; Caravanserai Beacon; Woven Banners Monument; Waystation Hall Nook. |
+| S2 | Grand Market | Grand Market Civic Hall; Covered Bazaar; Awning Monument; Auction Court Nook. |
+| S3 | Military Command | Military Command Hall; Command Bastion; Woven Banners Monument; Standard Tower Nook. |
+| S4 | Agricultural Terraces | Agricultural Terraces Civic Hall; Terrace Granary; Hanging Gardens Monument; Seed Hall Nook. |
+| S5 | Aid Commons / source-limited fifth district | Hero sources show Aid Commons as a secondary major landmark, but QSR-STREET-S5 is missing; exact S5 civic hall / monument / nook anchors are not locked. |
 
 ## Prose Use
 
-Use QSR for resource politics. Characters should route by shade and water. Addie notices water-right phrases and repeated route language. Gregory reads Ma'at/sun-disc symbolism. Brickett finds cistern shortcuts and gutter channels. Mae understands immediately that resource control is political control.
+Use for resource politics: shade, water, grain, guest rights, road law, and whether declared balance actually feeds people.
 
 ---
 
@@ -482,36 +437,31 @@ Use QSR for resource politics. Characters should route by shade and water. Addie
 
 ## Narrative Thesis
 
-Dunmere Locks is a river-engineering beastfolk city where water control is civic identity. Canals, lock gates, pumping halls, towpaths, mills, quays, brick workshops, ramps, and semi-aquatic daily life make the city practical, damp, communal, and engineered.
+Dunmere Locks is a semi-aquatic riverfolk waterworks city where maintenance is civilization. Locks, canals, shell-window government, grain halls, relief plazas, healing basins, and nursery waters keep water, food, records, bodies, and children moving safely.
 
-The city does not merely sit beside water. It regulates, negotiates, inhabits, and maintains water.
+## Street-Level Sights And Feel
 
-## Arrival And Street Texture
+Street-level DLS is wet brick and blue-lit civic patience: canal reflections, arched bridges, towpaths, lock chains, grain scales, relief notices, apothecary jars, nursery water, lantern chains, rain on slate, rope tar, milled grain, wet brick, herbs, and officials watching gauges after dark.
 
-Streets are often towpaths, canal edges, wet cobbles, bridge crossings, lock platforms, quay roads, and raised walkways. Dry and water movement coexist. Locals know lock schedules and current patterns the way other cities know street names.
+## Required Narrative Anchors
 
-Street details: brick, heavy oak, timber beams, stone canal walls, iron fittings, slate roofs, wet cobbles, rope, water-darkened wood, reed and shell details, rope makers, barge repair shops, fish markets, mill grain stalls, bridge toll kiosks.
+- **Wonder:** Riverfolk Lockwheel Palace of Turning Waters
+- **Beacon:** Lock House Beacon
+- **Seat of Power:** Shell Spiral Windows Tide-Seal Citadel
 
-## Wonder / Beacon / Seat Of Power / Landmarks
+## Sections / Districts
 
-- **Wonder:** a civic waterworks complex of locks, wheels, beams, and pumping authority.
-- **Beacon:** lock-district signal tied to water level, public safety, and civic timing.
-- **Seat of Power:** infrastructural authority held through lock, pump, floodgate, barge-route, and public water safety control.
-- **Major landmarks:** lock plazas, canal bridges, towpath markets, pumping hall forecourts, mill yards, quay steps, floodgate platforms, barge basins.
-- **Monuments:** water wheels, lock-beam markers, flood-memory plaques, river shell reliefs, lantern posts reflected in canals.
-- **Minor landmarks:** sluice levers, water-level boards, rope hooks, ramp markers, toll posts, dock stairs, beam inspection points.
-
-## Section Narrative Map
-
-- **Lock District:** gates, beams, sluices, public safety, signal identity.
-- **Merchant Quays:** barges, warehouses, tolls, canal traffic, trade.
-- **Mill And Workshop Quarter:** water wheels, brick workshops, iron fittings, timber, grain.
-- **Residential Canals:** ramps, wet steps, low doors, raised paths, water-edge homes.
-- **Floodplain Edges:** reed-lined, ecological, practical, where fields and drainage meet.
+| Section | District | Required names / landmarks |
+|---|---|---|
+| S1 | Canal / Riverworks | Canal / Riverworks Civic Hall; Lock House Beacon; Canal Reflections Monument; Waterwheel Court Nook. |
+| S2 | Granary / Food Market | Granary / Food Market Civic Hall; Grain Hall; Awning Monument; Mill Court Nook. |
+| S3 | Civic Services | Civic Services Hall; Relief Hall; Civic Services Lantern Monument; Notice Plaza Nook. |
+| S4 | Medical / Healing | Medical / Healing Civic Hall; Healing Hall; Medical Healing Lantern Monument; Apothecary Court Nook. |
+| S5 | Nursery / Spawning Grounds | Nursery / Spawning Grounds Civic Hall; Nursery Basin; Shell Inlay Monument; Spawning Pool Nook. |
 
 ## Prose Use
 
-Use DLS when systems must literally keep catastrophe from flooding in. Maintenance culture should be visible: inspections, beam crews, pump workers, lock clerks, barge queues. Brickett’s beaver identity can feel especially grounded here because water engineering, wood, dams, and mechanical improvisation echo his species without making him generic.
+Use when systems literally keep catastrophe from flooding in. Brickett-style observation thrives here: beams, sluices, wet shortcuts, low ramps, and overlooked maintenance.
 
 ---
 
@@ -519,57 +469,414 @@ Use DLS when systems must literally keep catastrophe from flooding in. Maintenan
 
 ## Narrative Thesis
 
-Nettleburrow is a subterranean rodentfolk civilization, not a cave village. Its civic identity comes from burrow logic, lantern roots, granaries, hidden markets, civic relief halls, patched tenements, moon-registry authority, and dense informal networks.
+Nettleburrow is a dense subterranean rodentfolk survival city where storage, redundancy, side routes, relief systems, hidden markets, patched tenements, and moon-registry courts fill every niche. It is not a cave village. It is an old survival machine.
 
-It is close, layered, watchful, practical, and socially interconnected. The tension between official registry order and the informal systems that actually keep people alive should be visible everywhere.
+## Street-Level Sights And Feel
 
-## Arrival And Street Texture
+Street-level NET has no open skyline: cavern ceilings, low arches, ledges, tunnels, root-lit market halls, granary towers, laundry wells, scrap stalls, packed earth, copper lantern cages, patched canvas, grain dust, cooked roots, mushrooms, small footsteps, cart wheels, lantern chains, and coded side passages.
 
-There is no open-sky skyline. Cavern ceilings, arches, bridges, terraces, lantern roots, tunnel mouths, granary towers, and stacked tenements create vertical density. Characters orient by lantern color, root clusters, market sounds, granary towers, relief bells, and cavern openings.
+## Required Narrative Anchors
 
-Street details: carved limestone, packed earth, timber bracing, clay brick, iron fittings, bronze lantern cages, patched canvas, reused scrap wood, root latticework, laundry wells, seed counters, scrap dealers, relief-ticket counters, understreet brokers.
+- **Wonder:** Rodentfolk Burrow-Market of the Lantern Roots
+- **Beacon:** Terrace Granary Beacon
+- **Seat of Power:** Moon Phase Windows Sovereign Registry Court
 
-## Wonder / Beacon / Seat Of Power / Landmarks
+## Sections / Districts
 
-- **Wonder:** Rodentfolk Burrow-Market of the Lantern Roots; market, root-light, civic life, and survival networks fused.
-- **Beacon:** Terrace Granary Beacon; food security and signal identity.
-- **Seat of Power:** Moon Phase Windows Sovereign Registry Court; ration-aware, registry-based authority.
-- **Major landmarks:** terrace granary approaches, seed halls, notice plazas, relief hall steps, lantern-root markets, tenement courts, laundry wells, hidden arcades.
-- **Monuments:** moon-phase windows, lantern-root monuments, granary reliefs, seed hall markers, relief hall bells.
-- **Minor landmarks:** root-lantern hooks, tunnel signs, scrap piles, food storage niches, ledges, carts, low arches, hidden side counters.
-
-## Section Narrative Map
-
-- **Agricultural Terraces:** food security, granaries, seed halls, hanging gardens.
-- **Underworld / Hidden Economy:** black-market arcades, mist veils, understreet vaults, informal systems.
-- **Civic Services:** relief infrastructure, notice plazas, lantern monuments, queues, records.
-- **Slums / Informal Settlement:** patched tenements, scrap markets, improvised stalls, visible poverty without collapse.
-- **Low Residential:** crowded domestic life, laundry wells, shared stairs, lantern-lit courts.
+| Section | District | Required names / landmarks |
+|---|---|---|
+| S1 | Agricultural Terraces | Agricultural Terraces Civic Hall; Terrace Granary Beacon; Hanging Gardens Monument; Seed Hall Nook. |
+| S2 | Underworld / Hidden Economy | Underworld / Hidden Economy Civic Hall; Black Market Arcade; Mist Veils Monument; Understreet Vault Nook. |
+| S3 | Civic Services | Civic Services Hall; Relief Hall; Civic Services Lantern Monument; Notice Plaza Nook. |
+| S4 | Slums / Informal Settlement | Slums / Informal Settlement Civic Hall; Scrap Market; Slums Informal Settlement Lantern Monument; Patched Tenement Nook. |
+| S5 | Low Residential | Low Residential Civic Hall; Tenement Court; Low Residential Lantern Monument; Laundry Well Nook. |
 
 ## Prose Use
 
-Use NET for density, survival, informal knowledge, and class pressure. Taller visitors should feel physically awkward. Brickett-style observation thrives here: small routes, ledges, side counters, and shortcuts matter. Addie should notice official phrases failing to match actual survival systems.
+Use for density, informal knowledge, ration pressure, class tension, small-body routes, and the gap between official records and how people actually survive.
 
 ---
 
-## Immediate Revision Targets
+# Colossi Prime (CPE)
 
-1. **Book 1 capital scenes:** strengthen AQM as harbor-first, then stair/civic ascent, then Citadel pressure.
-2. **Book 1 Pollyr Fen / Bountiful arc:** make PFN's water-city identity explicit before the atrocity lands. The reader needs to understand water diversion as cultural annihilation.
-3. **Skyrend Peak red-beacon scenes:** use altitude, watch culture, and signal anxiety rather than generic mountain-fortress language.
-4. **Luminthalas investigation scenes:** lean into observatory, lecture, formal garden, manuscript, and celestial geometry details.
-5. **Future Book 2 Vyrath'Kai:** avoid dragonkin aggression shorthand. Lead with harbor, shelter, aid, cliff housing, and recovery.
-6. **Future Brickett scenes:** DLS and NET are the most natural visual ecosystems for his beaver/underfoot-detail logic: locks, channels, woodwork, tunnels, storage, side routes.
-7. **Future companion POV routing:** reuse city-specific perception rules:
-   - Addie tracks language, repeated phrases, routes, notices, civic formulas.
-   - Gregory reads symbol systems and theological/cultural continuity.
-   - Brickett notices access, leaks, shortcuts, loose materials, hiding spots, and maintenance realities.
-   - Talandra reads threat geometry, crowd funnels, sightlines, exits, and exposed approaches.
-   - Mae reads leverage: contracts, water rights, class structures, route control, tolerated vice, and resource capture.
+## Narrative Thesis
 
-## Hard Continuity Notes
+Colossi Prime is a titanborn mountain civilization where scale must feel responsible, not merely large. Border walls, manor terraces, archive towers, training arenas, star observatories, memory tablets, and colossus steps turn awe into civic discipline.
 
-- Do not flatten cities into generic fantasy set dressing.
-- Do not let race/culture identity become a costume only; each city’s body-plan, ecology, risk model, and infrastructure should change public space.
-- Do not over-describe every city in-story. Use repeated anchors so readers learn the language of each place: AQM = harbor/stairs/blue lamps; PFN = water streets/nursery basins/rafts; SPK = wind/height/watch; QSR = shade/water/grain/routes; NET = lantern roots/granaries/hidden routes.
-- Keep image-analysis canon as a prose toolkit, not a mandate to list every landmark in every scene.
+## Street-Level Sights And Feel
+
+Street-level CPE should make characters feel physically small: massive stone stairs, terrace winds, huge tablets, border halls, manor courts, archive approaches, training yards, star sightlines, blue signal lamps, echoing stone, disciplined crowds, and long exposed routes where distance itself becomes social pressure.
+
+## Required Narrative Anchors
+
+- **Wonder:** Titan Hand Terrace of the Colossus Steps
+- **Beacon:** Border Wall Beacon
+- **Seat of Power:** Memory Tablet Walls Colossus Registry
+
+## Sections / Districts
+
+| Section | District | Required names / landmarks |
+|---|---|---|
+| S1 | Fortress / Border Wall | Fortress / Border Wall Civic Hall; Border Wall Beacon; Woven Banners Monument; Watch Bastion Nook. |
+| S2 | High Residential | High Residential Civic Hall; Manor Court; Hanging Gardens Monument; Salon Pavilion Nook. |
+| S3 | Records / Archives | Records / Archives Hall; Archive Tower; Records Archives Gold-Seal Monument; Copyist Hall Nook. |
+| S4 | Arena / Training | Arena / Training Civic Hall; Training Arena; Woven Banners Monument; Champion Gate Nook. |
+| S5 | Source-limited star / observatory function | Star Observatory is strongly evidenced from hero sources, but the uploaded S5 street source is absent; exact S5 civic hall / monument / nook anchors are not locked. |
+
+## Prose Use
+
+Use for burden, institutional memory, scale, and whether power can carry others without crushing them.
+
+---
+
+# Volgrad (VLG)
+
+## Narrative Thesis
+
+Volgrad is a frostbound eastern kremlin institution-city where craft, registry, archive, aristocracy, public aid, and nursery protection hold back winter. It is less a war city than a city of certified survival.
+
+## Street-Level Sights And Feel
+
+Street-level VLG is snow-muted and procedural: blue frost-rune towers, red banners, orange watchfires, masterwork arcades, guild seals, manor stairs, archive towers, aid queues, ration arcades, warm vents, copyist halls, nursery basins, hot cabbage stew, black bread, smoked fish, honeyed tea, and citizens reading duty through institutions.
+
+## Required Narrative Anchors
+
+- **Wonder:** Eastern Watchfire Kremlin of the Frost Gate
+- **Beacon:** Guildhall Beacon
+- **Seat of Power:** Frost Rune Edges Sovereign Registry Court
+
+## Sections / Districts
+
+| Section | District | Required names / landmarks |
+|---|---|---|
+| S1 | Artisan Guilds | Artisan Guilds Civic Hall; Guildhall Beacon; Woven Banners Monument; Masterwork Arcade Nook. |
+| S2 | High Residential | High Residential Civic Hall; Manor Court; Hanging Gardens Monument; Salon Pavilion Nook. |
+| S3 | Records / Archives | Records / Archives Hall; Archive Tower; Records Archives Gold-Seal Monument; Copyist Hall Nook. |
+| S4 | Refugee Commons | Refugee Commons Civic Hall; Aid Commons; Ration Arcade Nook. |
+| S5 | Nursery / Spawning Grounds | Nursery / Spawning Grounds Civic Hall; Nursery Basin; Shell Inlay Monument; Spawning Pool Nook. |
+
+## Prose Use
+
+Use for winter endurance, guild-registry power, visible public hardship, ration politics, and warmth as social meaning.
+
+---
+
+# Port Sargasso (PSG)
+
+## Narrative Thesis
+
+Port Sargasso is a mature West-African maritime trade city, not a pirate port. Gold-sailed harbors, ancestor masks, cargo seals, roadside shrines, survey halls, lecture courts, and lower scrap districts make port commerce accountable to ritual, public works, learning, and repair.
+
+## Street-Level Sights And Feel
+
+Street-level PSG is salt-gold bustle: broad sunlit cargo courts, red awnings, blue cargo beacon light, cranes, tide-drum harbor forms, carved ancestor masks, shrine lanterns, votive groves, permit yards, lecture plazas, scrap smoke, sails snapping, dock bells, shrine chants, waves, spices, rope tar, warm stone, and lower waterfront repair.
+
+## Required Narrative Anchors
+
+- **Wonder:** West-African Tide-Drum Harbor of Gold Sails
+- **Beacon:** Cargo Yard Beacon
+- **Seat of Power:** Ancestor Masks Tide-Seal Citadel
+
+## Sections / Districts
+
+| Section | District | Required names / landmarks |
+|---|---|---|
+| S1 | Warehousing / Logistics | Warehousing / Logistics Civic Hall; Cargo Yard Beacon; Warehousing Logistics Gold-Seal Monument; Inventory Hall Nook. |
+| S2 | Shrine / Sacred Place | Shrine / Sacred Place Civic Hall; Roadside Shrine; Shrine Sacred Place Lantern Monument; Votive Grove Nook. |
+| S3 | Public Works Authority | Public Works Authority Hall; Survey Hall; Blue-Lamp Monument; Permit Yard Nook. |
+| S4 | University / Lyceum | University / Lyceum Civic Hall; Lecture Hall; Star Navigation Monument; Observatory Court Nook. |
+| S5 | Slums / Informal Settlement | Slums / Informal Settlement Civic Hall; Scrap Market; Slums Informal Settlement Lantern Monument; Patched Tenement Nook. |
+
+## Prose Use
+
+Use for accountable exchange, ancestor obligation, maritime logistics, public scholarship, and the cost of harbor wealth visible in the scrap market.
+
+---
+
+# Hearthglen (HEA)
+
+## Narrative Thesis
+
+Hearthglen is a warm gnomish service-city where repair is public infrastructure. Healing, alchemy, relief, tenement density, ancestor care, brass doors, blue lamps, hanging charms, and civic notices make care practical without making it sentimental.
+
+## Street-Level Sights And Feel
+
+Street-level HEA is compact, warm, gardened, and busy: brass doors, blue lamps, clinics, apothecary glass, relief notices, laundry wells, ancestor lantern paths, mossed stone, wet laundry, herbs, brass polish, garden soil, soft bells, formula copyists, relief queues, and warm bread.
+
+## Required Narrative Anchors
+
+- **Wonder:** Gnomish Hearth-Wheel Garden of Brass Doors
+- **Beacon:** Healing Hall Beacon
+- **Seat of Power:** Hanging Charms Veiled High Court
+
+## Sections / Districts
+
+| Section | District | Required names / landmarks |
+|---|---|---|
+| S1 | Medical / Healing | Medical / Healing Civic Hall; Healing Hall Beacon; Medical Healing Lantern Monument; Apothecary Court Nook. |
+| S2 | Arcane / Alchemical Labs | Arcane / Alchemical Labs Civic Hall; Alchemy Lab; Blue-Lamp Monument; Formula Archive Nook. |
+| S3 | Civic Services | Civic Services Hall; Relief Hall; Civic Services Lantern Monument; Notice Plaza Nook. |
+| S4 | Low Residential | Low Residential Civic Hall; Tenement Court; Low Residential Lantern Monument; Laundry Well Nook. |
+| S5 | Necropolis / Ancestor Quarter | Necropolis / Ancestor Quarter Civic Hall; Ancestor Vault; Ancestor Masks Monument; Bone Lantern Path Nook. |
+
+## Prose Use
+
+Use when care becomes gatekeeping, repair becomes civic duty, and poverty, illness, relief, formula control, and death care must stay visible.
+
+---
+
+# Dun Liath (DNL)
+
+## Narrative Thesis
+
+Dun Liath is an old grey-stone Celtic river-market capital where public oath, market wit, craft legitimacy, archives, tenement life, theater, and hillfort memory become civic law. Truth and performance happen in front of the same community.
+
+## Street-Level Sights And Feel
+
+Street-level DNL is dense and verbal: mossy grey stone, bridge streets, red awnings, covered bazaars, auction courts, guild fronts, archive stairs, laundry wells, opera courts, mask pavilions, river water, market calls, public laughter, bells, ink, malt, bread, woodsmoke, and rain brightening moss.
+
+## Required Narrative Anchors
+
+- **Wonder:** Oath-Ring Hillfort of the Green Spiral
+- **Beacon:** Covered Bazaar Beacon
+- **Seat of Power:** Spiral Knotwork Sovereign Registry Court
+
+## Sections / Districts
+
+| Section | District | Required names / landmarks |
+|---|---|---|
+| S1 | Grand Market | Grand Market Civic Hall; Covered Bazaar Beacon; Awning Monument; Auction Court Nook. |
+| S2 | Artisan Guilds | Artisan Guilds Civic Hall; Guildhall; Woven Banners Monument; Masterwork Arcade Nook. |
+| S3 | Records / Archives | Records / Archives Hall; Archive Tower; Records Archives Gold-Seal Monument; Copyist Hall Nook. |
+| S4 | Low Residential | Low Residential Civic Hall; Tenement Court; Low Residential Lantern Monument; Laundry Well Nook. |
+| S5 | Entertainment / Theater | Entertainment / Theater Civic Hall; Opera Court; Entertainment Theater Lantern Monument; Mask Pavilion Nook. |
+
+## Prose Use
+
+Use for witnessed oaths, market rumors, communal satire, guild proof, archive evidence, and the danger of public memory becoming performance.
+
+---
+
+# Xol Atarah (XAT)
+
+## Narrative Thesis
+
+Xol Atarah is a mature Andean high-step civic city where ascent carries obligation. Sacred groves, temple platforms, archive towers, artisan guilds, manor courts, hanging gardens, and the condor-sun terrace bind mountain, jungle edge, memory, craft, and elite duty.
+
+## Street-Level Sights And Feel
+
+Street-level XAT rises through white stone terraces, mist, wet steps, grove paths, temple stairs, archive plazas, guild work courts, high residential gardens, sun-disc reliefs, blue sacred-grove light, woven textiles, incense, jungle leaves, stone dust, terrace water, bells, and thin highland air.
+
+## Required Narrative Anchors
+
+- **Wonder:** Andean Condor-Sun Terrace of the High Steps
+- **Beacon:** Sacred Grove Beacon
+- **Seat of Power:** Sun Disc Reliefs Sovereign Registry Court
+
+## Sections / Districts
+
+| Section | District | Required names / landmarks |
+|---|---|---|
+| S1 | Nature Preserve / Sacred Grove | Nature Preserve / Sacred Grove Civic Hall; Sacred Grove Beacon; Hanging Gardens Monument; Living Canopy Hall Nook. |
+| S2 | Religious / Temple Quarter | Religious / Temple Quarter Civic Hall; Temple Platform; Religious Temple Quarter Lantern Monument; Procession Stair Nook. |
+| S3 | Records / Archives | Records / Archives Hall; Archive Tower; Records Archives Gold-Seal Monument; Copyist Hall Nook. |
+| S4 | Artisan Guilds | Artisan Guilds Civic Hall; Guildhall; Woven Banners Monument; Masterwork Arcade Nook. |
+| S5 | High Residential | High Residential Civic Hall; Manor Court; Hanging Gardens Monument; Salon Pavilion Nook. |
+
+## Prose Use
+
+Use for remembered ascent, high-status obligation, sacred ecology, archive memory, craft proof, and whether the low path is honored.
+
+---
+
+# Vel Mouraine (VME)
+
+## Narrative Thesis
+
+Vel Mouraine is a mature vampiric civic city where secrecy is ceremonial rather than merely criminal. Black-market signals, ancestor vaults, cipher halls, containment keeps, opera courts, bone-white high courts, and roseglass rites make controlled revelation the city’s highest art.
+
+## Street-Level Sights And Feel
+
+Street-level VME is cultured dread: bone-white stone, black marble, roseglass glow, blue-violet lamps, veiled arcades, ancestor paths, cipher offices, dossier vaults, containment courts, opera rehearsal, velvet hush, wax, perfume, ink, cold stone, soft steps, and night hearings.
+
+## Required Narrative Anchors
+
+- **Wonder:** Vampiric Roseglass Court of the Red Veil
+- **Beacon:** Black Market Arcade Beacon
+- **Seat of Power:** Bone White Ceremony Veiled High Court
+
+## Sections / Districts
+
+| Section | District | Required names / landmarks |
+|---|---|---|
+| S1 | Underworld / Hidden Economy | Underworld / Hidden Economy Civic Hall; Black Market Arcade Beacon; Mist Veils Monument; Understreet Vault Nook. |
+| S2 | Necropolis / Ancestor Quarter | Necropolis / Ancestor Quarter Civic Hall; Ancestor Vault; Ancestor Masks Monument; Bone Lantern Path Nook. |
+| S3 | Security / Intelligence | Security / Intelligence Hall; Cipher Hall; Mist Veils Monument; Dossier Vault Nook. |
+| S4 | Prison / Containment | Prison / Containment Civic Hall; Containment Keep; Mist Veils Monument; Judgment Yard Nook. |
+| S5 | Entertainment / Theater | Entertainment / Theater Civic Hall; Opera Court; Entertainment Theater Lantern Monument; Mask Pavilion Nook. |
+
+## Prose Use
+
+Use for etiquette as threat, dossiers, custody, patronage, ancestor continuity, and reveals that happen by perfect ceremony rather than accident.
+
+---
+
+# Vhal’Tigris (VTS)
+
+## Narrative Thesis
+
+Vhal’Tigris is a great-cat forest metropolis where predatory grace has become civic restraint. Sacred groves, temple platforms, survey yards, guildhalls, manor courts, hunt terraces, golden-paw vows, and watchful-eye law make strength disciplined and territorial.
+
+## Street-Level Sights And Feel
+
+Street-level VTS is lush, gold-green, and poised: sacred grove routes, temple stairs, survey yards, guild arcades, manor gardens, golden stone, tiger-stripe accents, turquoise lamps, watchful-eye reliefs, canopy birds, ritual bells, guild tools, wet leaves, incense, garden water, and measured status-aware movement.
+
+## Required Narrative Anchors
+
+- **Wonder:** Greatcat Sunstripe Hunt Terrace of the Golden Paws
+- **Beacon:** Sacred Grove Beacon
+- **Seat of Power:** Watchful Eye Reliefs Sovereign Registry Court
+
+## Sections / Districts
+
+| Section | District | Required names / landmarks |
+|---|---|---|
+| S1 | Nature Preserve / Sacred Grove | Nature Preserve / Sacred Grove Civic Hall; Sacred Grove Beacon; Hanging Gardens Monument; Living Canopy Hall Nook. |
+| S2 | Religious / Temple Quarter | Religious / Temple Quarter Civic Hall; Temple Platform; Religious Temple Quarter Lantern Monument; Procession Stair Nook. |
+| S3 | Public Works Authority | Public Works Authority Hall; Survey Hall; Blue-Lamp Monument; Permit Yard Nook. |
+| S4 | Artisan Guilds | Artisan Guilds Civic Hall; Guildhall; Woven Banners Monument; Masterwork Arcade Nook. |
+| S5 | High Residential | High Residential Civic Hall; Manor Court; Hanging Gardens Monument; Salon Pavilion Nook. |
+
+## Prose Use
+
+Use for watchful restraint, territorial stewardship, elite hospitality, and the moment a citizen chooses not to strike.
+
+---
+
+# Tormund Vale (TVE)
+
+## Narrative Thesis
+
+Tormund Vale is a giant mountain-valley city where scale is protective. Lock houses, granaries, relief halls, healing courts, training arenas, sky-stairs, and memory-tablet government make public burden visible at giant scale.
+
+## Street-Level Sights And Feel
+
+Street-level TVE should dwarf visitors: granite terraces, river canals, lock wheels, waterwheel courts, grain halls, relief counters, healing basins, training yards, woven banners, titan-scale stairs, blue lock-house glow, mist from waterworks, warm healing lamps, low voices, stone echo, grain dust, and arena torchlight.
+
+## Required Narrative Anchors
+
+- **Wonder:** Giant Sky-Stair Hall of the Broken Cloud
+- **Beacon:** Lock House Beacon
+- **Seat of Power:** Memory Tablet Walls Colossus Registry
+
+## Sections / Districts
+
+| Section | District | Required names / landmarks |
+|---|---|---|
+| S1 | Canal / Riverworks | Canal / Riverworks Civic Hall; Lock House Beacon; Canal Reflections Monument; Waterwheel Court Nook. |
+| S2 | Granary / Food Market | Granary / Food Market Civic Hall; Grain Hall; Awning Monument; Mill Court Nook. |
+| S3 | Civic Services | Civic Services Hall; Relief Hall; Civic Services Lantern Monument; Notice Plaza Nook. |
+| S4 | Medical / Healing | Medical / Healing Civic Hall; Healing Hall; Medical Healing Lantern Monument; Apothecary Court Nook. |
+| S5 | Arena / Training | Arena / Training Civic Hall; Training Arena; Woven Banners Monument; Champion Gate Nook. |
+
+## Prose Use
+
+Use when the city must ask who carries public burdens: water, food, aid, healing, discipline, and memory.
+
+---
+
+# The Crucible (TCE)
+
+## Narrative Thesis
+
+The Crucible is an elemental caldera city where volatility has been forced into institutions. Forges, alchemical labs, archives, border walls, hidden markets, eclipse-ring government, raw crystal, and four living fires make danger procedural.
+
+## Street-Level Sights And Feel
+
+Street-level TCE is hot, angular, luminous, and rule-bound: basalt terraces, raw crystal seams, copper bands, forge roar, blue alchemical lamps, smoke stacks, formula archives, border walls, watch bastions, black-market passages, heat-safe lanes, sharp reagents, metal smoke, dust, ozone, and living-fire glow competing with eclipse shadow.
+
+## Required Narrative Anchors
+
+- **Wonder:** Elemental Crucible Ring of Four Living Fires
+- **Beacon:** Great Forge Beacon
+- **Seat of Power:** Eclipse Rings Sovereign Registry Court
+
+## Sections / Districts
+
+| Section | District | Required names / landmarks |
+|---|---|---|
+| S1 | Heavy Industry / Foundry | Heavy Industry / Foundry Civic Hall; Great Forge Beacon; Smoke-Stack Monument; Crucible Hall Nook. |
+| S2 | Arcane / Alchemical Labs | Arcane / Alchemical Labs Civic Hall; Alchemy Lab; Blue-Lamp Monument; Formula Archive Nook. |
+| S3 | Records / Archives | Records / Archives Hall; Archive Tower; Records Archives Gold-Seal Monument; Copyist Hall Nook. |
+| S4 | Fortress / Border Wall | Fortress / Border Wall Civic Hall; Border Wall; Woven Banners Monument; Watch Bastion Nook. |
+| S5 | Underworld / Hidden Economy | Underworld / Hidden Economy Civic Hall; Black Market Arcade; Mist Veils Monument; Understreet Vault Nook. |
+
+## Prose Use
+
+Use for productivity versus safety, formula access, pressure-release politics, and the old question of who gets to break procedure.
+
+---
+
+# Ssivareth (SSI)
+
+## Narrative Thesis
+
+Ssivareth is a serpentine forest city where transformation is civic law. Sacred groves, temple platforms, survey halls, guild craft, manor courts, molting mirrors, scale bands, and ancestor guidance make renewal public, regulated, and politically charged.
+
+## Street-Level Sights And Feel
+
+Street-level SSI is coiled reverence: root paths, green marble, bamboo screens, woven reed, obsidian reflection, blue civic lamps, temple procession stairs, survey yards, guild arcades, manor gardens, wet roots, incense, ritual bells, soft footfalls, salon voices, and careful threshold pauses.
+
+## Required Narrative Anchors
+
+- **Wonder:** Serpent Molting-Mirror Temple of Coiled Stone
+- **Beacon:** Sacred Grove Beacon
+- **Seat of Power:** Serpent Scale Bands Tide-Seal Citadel
+
+## Sections / Districts
+
+| Section | District | Required names / landmarks |
+|---|---|---|
+| S1 | Nature Preserve / Sacred Grove | Nature Preserve / Sacred Grove Civic Hall; Sacred Grove Beacon; Hanging Gardens Monument; Living Canopy Hall Nook. |
+| S2 | Religious / Temple Quarter | Religious / Temple Quarter Civic Hall; Temple Platform; Religious Temple Quarter Lantern Monument; Procession Stair Nook. |
+| S3 | Public Works Authority | Public Works Authority Hall; Survey Hall; Blue-Lamp Monument; Permit Yard Nook. |
+| S4 | Artisan Guilds | Artisan Guilds Civic Hall; Guildhall; Woven Banners Monument; Masterwork Arcade Nook. |
+| S5 | High Residential | High Residential Civic Hall; Manor Court; Hanging Gardens Monument; Salon Pavilion Nook. |
+
+## Prose Use
+
+Use for renewal, identity, permission to change, high-house intrigue, ritual patience, and old skin the city refuses to shed.
+
+---
+
+# Orsakar (OAR)
+
+## Narrative Thesis
+
+Orsakar is a bearfolk mountain fortress-city where strength is civic obligation. Blue granite, frost glass, pine, silver inlay, border walls, great forges, command bastions, caravan roads, containment keeps, ancestor guidance, and the salmon-stone lodge make power protective.
+
+## Street-Level Sights And Feel
+
+Street-level OAR is cold, heavy, and deliberate: blue-granite roads, pine structures, silver marks, guard towers, wall beacons, forge smoke, command banners, caravan yards, warded containment thresholds, gate horns, hammers, snow under boots, leather, pine, cold stone, forge smoke, snowmelt, and lamp oil.
+
+## Required Narrative Anchors
+
+- **Wonder:** Bearfolk Salmon-Stone Lodge of the Palefangs
+- **Beacon:** Border Wall Beacon
+- **Seat of Power:** Bear Claw Marks Sovereign Registry Court
+
+## Sections / Districts
+
+| Section | District | Required names / landmarks |
+|---|---|---|
+| S1 | Fortress / Border Wall | Fortress / Border Wall Civic Hall; Border Wall Beacon; Woven Banners Monument; Watch Bastion Nook. |
+| S2 | Heavy Industry / Foundry | Heavy Industry / Foundry Civic Hall; Great Forge; Smoke-Stack Monument; Crucible Hall Nook. |
+| S3 | Military Command | Military Command Hall; Command Bastion; Woven Banners Monument; Standard Tower Nook. |
+| S4 | Transit / Caravan / Rail | Transit / Caravan / Rail Civic Hall; Caravanserai; Woven Banners Monument; Waystation Hall Nook. |
+| S5 | Prison / Containment | Prison / Containment Civic Hall; Containment Keep; Mist Veils Monument; Judgment Yard Nook. |
+
+## Prose Use
+
+Use for protective strength, road rights, command pressure, containment ethics, and ancestor-bound duty too heavy for one person to lift.
+
+---
