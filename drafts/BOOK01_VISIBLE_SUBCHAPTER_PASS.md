@@ -46,6 +46,10 @@ Do not use the Mark of the Orbs on subchapter headings. The Mark appears only in
 | `01_19_the_well_of_souls.md` | `To The Ten`; `Same As Before`; `José And Noel`; `The Well of Souls` | Corrected in file. |
 | `01_20_the_red_thread_district.md` | `Wrong Way`; `The Ribbit Hole`; `A City That Wants Change`; `The Ninth Member` | Corrected in file. |
 | `01_21_the_stupid_thread.md` | `The Ribbit Hole Morning`; `The Stupid Thread`; `Mirefang Delay`; `Sandwiches In The Rain` | Corrected in file. |
+| `01_22_go_with_the_eagle.md` | `Family Stuff`; `The Questions Outside`; `The Wrong Beginning`; `Go With The Eagle` | Manor pressure, press route, AQM false endpoint, and Skyrend clue. |
+| `01_23_restless_souls_at_stormspire.md` | `Empty Windows`; `Missing Someone`; `Restless Souls` | Skyrend arrival, missing Brickett/thread delay, Restless Souls threshold. |
+| `03_interlude_the_knots_and_the_nots.md` | Single Dear Reader interlude movement | Insert after `01_23` and before `01_24`; no Mark/subchapter header needed. |
+| `01_24_the_thread_through_the_maze.md` | `The First Crime`; `The Co-Conspirator`; `Five Addies`; `The Human In There`; `The Thread Through The Maze`; `The Laughing Tree` | Formal test, reveal, illusion battle, regret proof, unraveling, and Book 2 riddle. |
 
 ---
 
