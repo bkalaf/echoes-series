@@ -16,28 +16,25 @@ The current uploaded `book01.md` source was originally parsed through its final 
 
 ## Source Upload Note
 
-The current uploaded source file `book01.md` contained these parsed prose sections after `01_08`:
+Additional user-provided continuations after `01_08` are currently parsed as:
 
-1. `Day One Architecture` — parsed as `drafts/01_09_day_one_architecture.md`.
-2. `Holes in the Wall` — parsed as `drafts/01_10_holes_in_the_wall.md`.
-3. `The Bountiful Harvest` — parsed as `drafts/01_11_the_bountiful_harvest.md`.
-4. `The Unwound Core` — parsed as `drafts/01_12_the_unwound_core.md`.
-
-Additional user-provided continuations:
-
-5. Untitled Barnaby / Ariadne / comma-riddle chapter — parsed as `drafts/01_13_the_thread_back_out.md`.
-6. Luminthalas / law-forgetting route — parsed as `drafts/01_14_the_law_telling_us_to_forget.md`.
-7. Yellow / historical-vision escalation — parsed as `drafts/01_15_the_cities_that_disobeyed.md`.
-8. Mae estate / rapid acceptance debrief — parsed as `drafts/01_16_rapid_acceptance.md`.
-9. Pollyr Fen swamp-church / Children of the Damned — parsed as `drafts/01_17_children_of_the_damned.md`.
-10. Pollyr Fen shelter night / companion rift — parsed as `drafts/01_18_the_shelter_test.md`.
-11. Pollyr Fen beacon / Well of Souls visions — parsed as `drafts/01_19_the_well_of_souls.md`.
-12. Carrio / Red Thread District investigation — parsed as `drafts/01_20_the_red_thread_district.md`.
-13. The Ribbit Hole morning / Ariadne’s Thread recovery / red beacon — parsed as `drafts/01_21_the_stupid_thread.md`.
-14. Final family-fracture / AQM false endpoint / Skyrend clue chapter — parsed as `drafts/01_22_go_with_the_eagle.md`.
-15. Skyrend / Stormspire / Restless Souls threshold chapter — parsed as `drafts/01_23_restless_souls_at_stormspire.md`.
-16. Final Dear Reader thread interlude — already saved as `drafts/interludes/03_interlude_the_knots_and_the_nots.md`, now placed between `01_23` and `01_24`.
-17. Horror / José / first Witness defeat — parsed as `drafts/01_24_the_thread_through_the_maze.md`.
+1. `drafts/01_09_day_one_architecture.md` — Day One Architecture.
+2. `drafts/01_10_holes_in_the_wall.md` — Holes in the Wall.
+3. `drafts/01_11_the_bountiful_harvest.md` — The Bountiful Harvest.
+4. `drafts/01_12_the_unwound_core.md` — The Unwound Core.
+5. `drafts/01_13_the_thread_back_out.md` — Barnaby / Ariadne / comma-riddle chapter.
+6. `drafts/01_14_the_law_telling_us_to_forget.md` — Luminthalas / law-forgetting route.
+7. `drafts/01_15_the_cities_that_disobeyed.md` — Yellow / historical-vision escalation.
+8. `drafts/01_16_rapid_acceptance.md` — Mae estate / rapid acceptance debrief.
+9. `drafts/01_17_children_of_the_damned.md` — Pollyr Fen swamp-church / Children of the Damned.
+10. `drafts/01_18_the_shelter_test.md` — Pollyr Fen shelter night / companion rift.
+11. `drafts/01_19_the_well_of_souls.md` — Pollyr Fen beacon / Well of Souls visions.
+12. `drafts/01_20_the_red_thread_district.md` — Carrio / Red Thread District investigation.
+13. `drafts/01_21_the_stupid_thread.md` — The Ribbit Hole morning / Ariadne’s Thread recovery / red beacon.
+14. `drafts/01_22_go_with_the_eagle.md` — Final family-fracture / AQM false endpoint / Skyrend clue chapter.
+15. `drafts/01_23_restless_souls_at_stormspire.md` — Skyrend / Stormspire / Restless Souls threshold chapter.
+16. `drafts/interludes/03_interlude_the_knots_and_the_nots.md` — Final Dear Reader thread interlude, placed between `01_23` and `01_24`.
+17. `drafts/01_24_the_thread_through_the_maze.md` — Horror / José / first Witness defeat.
 
 ---
 
@@ -58,7 +55,7 @@ The latest continuation is split into **three narrative chapters plus the final 
 3. `interludes/03_interlude_the_knots_and_the_nots.md` — insert here before Horror battle.
 4. `01_24_the_thread_through_the_maze.md` — Horror/José challenge, lunar illusion, Ariadne/unraveling solution, Conjunction #1 completion, Revel / Dragon Isles setup.
 
-This preserves the user's requested interlude placement before the return into the Scene Between Stories to defeat Horror.
+This preserves the requested interlude placement before the return into the Scene Between Stories to defeat Horror.
 
 ---
 
@@ -109,7 +106,7 @@ Book 01 uses the active 8-day weekday cycle. **Sonntag is hidden until Book 18 a
 | B01.200 | 01_20 | The Red Thread District | Hearthwake 15 through Hearthwake 16 | [`../drafts/01_20_the_red_thread_district.md`](../drafts/01_20_the_red_thread_district.md) | Parsed L4 | B01-S200 through B01-S202 | Carrio / Ribbit Hole intelligence chapter. |
 | B01.210 | 01_21 | The Stupid Thread | Hearthwake 17, Dravenkar | [`../drafts/01_21_the_stupid_thread.md`](../drafts/01_21_the_stupid_thread.md) | Parsed L4 | B01-S210 through B01-S214 | Ariadne’s Thread recovered; red beacon active. |
 | B01.220 | 01_22 | Go With The Eagle | Hearthwake 24, Kindlemask | [`../drafts/01_22_go_with_the_eagle.md`](../drafts/01_22_go_with_the_eagle.md) | Parsed L4 | B01-S220 through B01-S224 | Family-fracture repair, press route, AQM false endpoint, Skyrend clue. |
-| B01.230 | 01_23 | Restless Souls at Stormspire | Hearthwake 24 into 25 | [`../drafts/01_23_restless_souls_at_stormspire.md`](../drafts/01_23_restless_souls_at_stormspire.md) | Parsed L4 | B01-S230 through B01-S233 | Skyrend confirmation, missing Brickett/thread, Restless Souls entry. |
+| B01.230 | 01_23 | Restless Souls at Stormspire | Hearthwake 24 into 25 | [`../drafts/01_23_restless_souls_at_stormspire.md`](../drafts/01_23_restless_souls_at_stormspire.md) | Parsed L4 | B01-S230 through B01-S233 | Skyrend confirmation, missing Brickett/thread, Restless Souls entry. Verrick B. Knackle retrieves the thread. |
 | B01.235 | DR_03 | Interlude: The Knots and the Nots | Non-diegetic break before Horror battle | [`../drafts/interludes/03_interlude_the_knots_and_the_nots.md`](../drafts/interludes/03_interlude_the_knots_and_the_nots.md) | Prose saved / placed | B01-S235 | Insert between 01_23 and 01_24. |
 | B01.240 | 01_24 | The Thread Through The Maze | Hearthwake 25, Dravenkar | [`../drafts/01_24_the_thread_through_the_maze.md`](../drafts/01_24_the_thread_through_the_maze.md) | Parsed L4 | B01-S240 through B01-S246 | Horror/José resolved; Conjunction #1 complete; Revel / Dragon Isles seeded. |
 
@@ -120,7 +117,6 @@ Book 01 uses the active 8-day weekday cycle. **Sonntag is hidden until Book 18 a
 - Fold `canon/16_SCENES_BOOK01_LATE_HORROR.md` rows into the master `canon/16_SCENES.md` in a full scene-index pass.
 - Verify exact normal-world clock at the return from `01_24` after the red beacon extinguishes.
 - Resolve whether the Book 2 purple beacon starts exactly two and a half days after `01_24` or at a named locked hour.
-- Confirm final filename spelling for Varrick / Verrick B. Knackle before prose generation.
 
 ---
 
@@ -143,6 +139,7 @@ Book 01 uses the active 8-day weekday cycle. **Sonntag is hidden until Book 18 a
 - Mae’s estate scenes in Book 1 occur in **Aquila Matara**.
 - Addie heirloom is the pendant.
 - Eye-mail means “for your eyes only” and should replace communicator-token phrasing.
+- **Verrick B. Knackle** is the locked spelling. Do not use `Varrick`.
 
 ---
 
