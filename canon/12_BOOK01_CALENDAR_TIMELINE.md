@@ -39,6 +39,8 @@ Book 01 uses the active 8-day weekday cycle. Since Yearsend 29 is Kindlemask, th
 | Hearthwake 15 | Karskov | Pollyr Fen beacon return / Well of Souls visions / Red Thread District route. |
 | Hearthwake 16 | Kindlemask | Red Thread District stay / decompression and testimony window. |
 | Hearthwake 17 | Dravenkar | The Stupid Thread; Ariadne’s Thread recovered; orange beacon shifts to red; eight days remain for Horror. |
+| Hearthwake 24 | Kindlemask | Final Horror attempt begins; AQM false endpoint; Skyrend Peak identified. |
+| Hearthwake 25 | Dravenkar | Hour of the Restless Souls entry; Horror resolved; Conjunction #1 completed. |
 
 ## Book 01 Chapter Calendar Map
 
@@ -67,96 +69,14 @@ Book 01 uses the active 8-day weekday cycle. Since Yearsend 29 is Kindlemask, th
 | B01.190 | 01_19 | The Well of Souls | **Hearthwake 15, Karskov; exits Hour of the Waning Crescent, halfway toward Hour of the Iron Foundry** | Pollyr Fen beacon return, Horror selection, Vision 5, Vision 6, starter-city / Well origin exposure. |
 | B01.200 | 01_20 | The Red Thread District | **Hearthwake 15, Karskov, through Hearthwake 16; resolves into The Ribbit Hole morning setup** | Carrio leads the group into the Red Thread District / The Ribbit Hole intelligence chapter. |
 | B01.210 | 01_21 | The Stupid Thread | **Hearthwake 17, Dravenkar; starts around 9:00 a.m.; red beacon active by AQM lunch** | Ariadne’s Thread arrives by Tallowmire’s adopted daughter; Addie’s touch triggers orange-to-red; group returns to AQM for eight-day Horror prep. |
+| B01.220 | 01_22 | Go With The Eagle | **Hearthwake 24, Kindlemask; red active** | Manor family-fracture repair, press route, AQM false endpoint, and Skyrend clue. |
+| B01.230 | 01_23 | Restless Souls at Stormspire | **Hearthwake 24 into Hearthwake 25; Kindlemask into Dravenkar** | Skyrend Peak confirmation, missing Brickett/thread delay, and Restless Souls entry. |
+| B01.235 | DR_03 | Interlude: The Knots and the Nots | **Reader-facing break after 01_23 and before 01_24** | Insert immediately before the Horror challenge to frame thread/knot/not logic. |
+| B01.240 | 01_24 | The Thread Through The Maze | **Hearthwake 25, Dravenkar; subjective Witness space into Skyrend return** | Horror / José resolved; Conjunction #1 completed; Revel / Dragon Isles seeded. |
 
 ---
 
 # Visible Subchapter Calendar Map
-
-## B01.000 — Prologue: The Mother Who Started the War
-
-| Subchapter / Movement | Calendar Position |
-|---|---|
-| Prologue single movement | **Yearsend 29, Kindlemask** |
-
-## B01.010 — The Royal Astronomer’s Tower
-
-| # | Visible Subchapter | Calendar Position |
-|---:|---|---|
-| 1 | The Zero-Variance Solstice | **Hearthwake 1, Dravenkar, Hour of the Singularity** |
-| 2 | Factional Mistrust | **Hearthwake 1, Dravenkar**, immediately after purple activation |
-
-## B01.020 — The Nomination
-
-| # | Visible Subchapter | Calendar Position |
-|---:|---|---|
-| 1 | The Gale Exposition | **Hearthwake 1, Dravenkar, night after Hour of the Singularity** |
-| 2 | With Kwame | **Hearthwake 1, Dravenkar, later that night** |
-
-## B01.030 — The Witnesses
-
-| # | Visible Subchapter | Calendar Position |
-|---:|---|---|
-| 1 | The Scene Between Stories | **Hearthwake 1, Dravenkar, subjective Witness space** |
-| 2 | The Addendums | **Hearthwake 1, Dravenkar, subjective Witness space** |
-| 3 | The Ballot | **Hearthwake 1, Dravenkar, subjective Witness space** |
-| 4 | The First Shot | **Hearthwake 1, Dravenkar, subjective Witness space / Mother action resolves into normal world consequence** |
-
-## B01.035 — Interlude: The Choice to Do Nothing
-
-| Subchapter / Movement | Calendar Position |
-|---|---|
-| Reader-facing interlude | **Non-diegetic break between Hearthwake 1 and Hearthwake 2** |
-
-## B01.040 — The Weight of the Beacon
-
-| # | Visible Subchapter | Calendar Position |
-|---:|---|---|
-| 1 | The Locked Door | **Hearthwake 2, Stonewake, near High Market / high noon** |
-| 2 | The Logic of the Unbelievable | **Hearthwake 2, Stonewake, Hour of the Bishop** |
-| 3 | Miss Sun-Tag | **Hearthwake 2, Stonewake, public extraction before the blue transition** |
-| 4 | Geometry and Mathematics | **Hearthwake 2, Stonewake, pawn-shop analysis before Hour of the Singularity** |
-
-## B01.050 — The Core of the Conjunction
-
-| # | Visible Subchapter | Calendar Position |
-|---:|---|---|
-| 1 | The Blue Beacon | **Hearthwake 2, Stonewake, Hour of the Sphinx moving toward Hour of the Singularity** |
-| 2 | Compulsory and Optional | **Hearthwake 2, Stonewake, Hour of the Singularity; blue beacon activation** |
-| 3 | Verrick B. Knackle | **Hearthwake 2, Stonewake, immediately after blue activation** |
-| 4 | The Three Hundred Steps | **Hearthwake 2, Stonewake, after portal transfer to Aquila Matara** |
-| 5 | The Silent Applause | **Hearthwake 2, Stonewake, after Addie’s public speech** |
-
-## B01.060 — The Weight of the Roster
-
-| # | Visible Subchapter | Calendar Position |
-|---:|---|---|
-| 1 | The Bronze Doors | **Hearthwake 2, Stonewake, evening after blue activation** |
-| 2 | The Speaker’s Desk | **Hearthwake 2, Stonewake, same Conclave sequence** |
-| 3 | Four Scrolls | **Hearthwake 2, Stonewake, same Conclave sequence** |
-| 4 | Numbered and Lettered | **Hearthwake 2, Stonewake, same Conclave sequence** |
-| 5 | The Agreement Older Than the Chamber | **Hearthwake 2, Stonewake, same Conclave sequence** |
-| 6 | Collected | **Hearthwake 2, Stonewake, same Conclave sequence** |
-| 7 | The Name Beneath Hers | **Hearthwake 2, Stonewake**, after Addie has been collected |
-
-## B01.070 — The First Mirror
-
-| # | Visible Subchapter | Calendar Position |
-|---:|---|---|
-| 1 | The Beginning of the String | **Hearthwake 2, Stonewake, subjective mirror time** |
-| 2 | The Table Under the Wrong Sky | **Hearthwake 2, Stonewake, subjective mirror time** |
-| 3 | Read the Room | **Hearthwake 2, Stonewake, subjective mirror time** |
-| 4 | The First Alignment | **Hearthwake 2, Stonewake, subjective mirror time** |
-| 5 | The First Dovren | **Hearthwake 2, Stonewake, subjective second-mirror time** |
-| 6 | The Riddle of Three Threads | **Hearthwake 2, Stonewake, subjective Witness space after mirrors** |
-| 7 | The Van’kareth Gate | **Hearthwake 2, Stonewake, night**, return to normal time after roughly two hours |
-
-## B01.080 — The Weight of Being Asked
-
-| # | Visible Subchapter | Calendar Position |
-|---:|---|---|
-| 1 | Mae Estate Arrival / Kitchen Care | **Hearthwake 2, Stonewake, Hour of the Pack-Runner** |
-| 2 | Dining Room / Companion Table | **Hearthwake 2, Stonewake, Hour of the Pack-Runner into Hour of the Courier** |
-| 3 | Next-Day Planning | **Hearthwake 2, Stonewake, late night before sleep** |
 
 ## B01.180 — The Shelter Test
 
@@ -192,3 +112,37 @@ Book 01 uses the active 8-day weekday cycle. Since Yearsend 29 is Kindlemask, th
 | 2 | The Stupid Thread | **Hearthwake 17, Dravenkar, morning; red activates when Addie touches the thread** |
 | 3 | Mirefang Delay | **Hearthwake 17, Dravenkar, after red activation** |
 | 4 | Sandwiches In The Rain | **Hearthwake 17, Dravenkar, Hour of High Market halfway toward Hour of the Wayfarer; red active** |
+
+## B01.220 — Go With The Eagle
+
+| # | Visible Subchapter | Calendar Position |
+|---:|---|---|
+| 1 | Family Stuff | **Hearthwake 24, Kindlemask, morning / late morning; red active** |
+| 2 | The Questions Outside | **Hearthwake 24, Kindlemask, guarded route through AQM** |
+| 3 | The Wrong Beginning | **Hearthwake 24, Kindlemask, AQM false beacon endpoint** |
+| 4 | Go With The Eagle | **Hearthwake 24, Kindlemask, around High Market / early afternoon; empty Conclave and Skyrend clue** |
+
+## B01.230 — Restless Souls at Stormspire
+
+| # | Visible Subchapter | Calendar Position |
+|---:|---|---|
+| 1 | Empty Windows | **Hearthwake 24, Kindlemask, dusk / evening; Skyrend arrival** |
+| 2 | Missing Someone | **Hearthwake 24, Kindlemask, Stormspire delay before midnight** |
+| 3 | Restless Souls | **Hearthwake 25, Dravenkar, Hour of the Restless Souls; all companions/thread present** |
+
+## B01.235 — Interlude: The Knots and the Nots
+
+| Subchapter / Movement | Calendar Position |
+|---|---|
+| Reader-facing interlude | **Non-diegetic break after Restless Souls threshold and before Horror battle** |
+
+## B01.240 — The Thread Through The Maze
+
+| # | Visible Subchapter | Calendar Position |
+|---:|---|---|
+| 1 | The First Crime | **Hearthwake 25, Dravenkar, subjective Witness space; red active** |
+| 2 | The Co-Conspirator | **Same subjective arena; companion restraints / interpretive test** |
+| 3 | Five Addies | **Same subjective arena; lunar illusion combat begins** |
+| 4 | The Human In There | **Same subjective arena; false Brickett sacrifice reveals José’s regret** |
+| 5 | The Thread Through The Maze | **Same subjective arena; Horror armor unravels and José is restored** |
+| 6 | The Laughing Tree | **Witness exit and Skyrend return; red extinguished; next riddle delivered** |
