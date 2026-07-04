@@ -13,6 +13,7 @@ This chapter is the first Witness defeat: Addie faces Horror / Regret in the Sce
 - `canon/PROMPT_SUPPORT_CANON_LOCKS.md`
 - `canon/15_SETTINGS.md`
 - `canon/16_SCENES.md`
+- `canon/16_SCENES_BOOK01_LATE_HORROR.md`
 - `canon/21_TIME_AND_HEADER_METADATA.md`
 - `canon/12_BOOK01_CALENDAR_TIMELINE.md`
 - `drafts/01_23_restless_souls_at_stormspire.md`
@@ -22,7 +23,7 @@ This chapter is the first Witness defeat: Addie faces Horror / Regret in the Sce
 
 ## Source / Provenance
 
-Parsed from user-provided continuation uploaded as `Pasted text.txt` in the current planning session.
+Parsed from user-provided continuation uploaded as `Pasted text.txt` in the planning session that produced `01_22` through `01_24`.
 
 ## Placement
 
@@ -51,11 +52,11 @@ Compile order:
 
 Addie enters the Scene Between Stories and finds the full Witness circle present. Horror stands armored and overprepared: four swords, double crossbows, vials, armor, and every sign of expecting a fight. Silence interrupts before the challenge begins, forcing Addie to answer two interpretive questions: José's first crime and the co-conspirator for his second crime.
 
-Addie identifies the true crime as intentional inaction that led to people being left behind, then identifies José himself as the second crime's co-conspirator because the first compromise made every later compromise easier. She recognizes Horror is José, hidden behind a female-coded Witness form.
+Addie identifies the true first crime as intentional inaction that led to people being left behind. She then identifies José himself as the second crime's co-conspirator because the first compromise made every later compromise easier. She recognizes Horror as José, hidden beneath a female-coded Witness form.
 
-Instead of fighting Horror directly, Addie taps lunar illusion. She creates multiple Addies, bleeds lunar energy from the already-wounded real one, and uses the illusions to distract and wear Horror down. Revel accidentally gives away the correct Addie. Addie then throws away her staff and tricks Horror into proving José's human regret is still alive: she creates an illusion of Brickett launching into the blade with "My life for you." Horror stops the killing blow by cutting off her own arm.
+Instead of fighting Horror directly, Addie taps lunar illusion. She creates five Addies, lets the already-wounded real one bleed lunar energy, and uses misdirection to survive. Revel accidentally gives away which Addie is real. Addie then throws away her staff and tricks Horror into proving José's human regret is still alive: she creates an illusion of Brickett launching into the blade with "My life for you." Horror stops the killing blow by cutting off her own arm.
 
-Addie heals Horror/José rather than attacking. She names the truth: he regrets what he did, and Horror is the armor around that regret. A red thread comes loose from the armor. Addie uses it, not the external Ariadne's Thread, to unravel the armor, mandibles, extra arms, and black silhouette until José stands revealed.
+Addie heals Horror/José rather than attacking. She names the truth: José regrets what he did, and Horror is the armor around that regret. A red thread comes loose from the armor. Addie uses that thread, not the external Ariadne's Thread, to unravel the armor, mandibles, extra arms, and black silhouette until José stands revealed.
 
 Silence and the Witnesses are stunned. José is welcomed back as brother. The Overseer marks the Conjunction complete with the Master Seal pending his boss's signature. Revel remains after the other Witnesses fade, announces he is next, and gives the riddle: the next beacon will be in the city for the people who reside at the edges of maps.
 
@@ -103,7 +104,7 @@ This chapter should do eight major things:
 ## Skyrend Return
 
 - Skyrend civilians watching from windows, then cheering.
-- Varrick / Barry / Boss may be present or nearby depending on staging.
+- Verrick, Barry, and Boss may be present or nearby depending on staging.
 
 ---
 
@@ -150,41 +151,32 @@ Scene Between Stories / Horror arena. Subjective time after Restless Souls entry
 
 1. Open in the Scene Between Stories after the interlude.
 2. All Witnesses are present in their full circle.
-3. Horror waits in the center ready for battle.
-4. Horror has full armor, four swords, double crossbows, vials, and potions.
-5. Addie tries to act like this is fine and fails internally.
-6. Horror asks if Addie is ready to die and taunts her for barely finding the correct city.
-7. Horror offers a mulligan / chance to return tomorrow.
-8. The companions glance at Addie as if maybe tomorrow would be wiser.
-9. Addie refuses: they are doing it today.
-10. Addie says Horror has no idea how ready she is.
-11. Horror drops a sword at that confidence spike, then recovers.
-12. Addie calls the "clever girl" response misogynistic / sexist.
-13. The companions wonder whether Addie took the wrong H&H pill.
-14. The Witnesses go quiet and look toward Silence.
-15. Silence smiles behind her porcelain mask, eating fake popcorn.
-16. Silence offers popcorn to Ash, who declines while playing along.
-17. Silence says the companions have had a very interesting first Conjunction.
-18. Silence says she has two questions for Adeshka before they allow the challenge to go on.
-19. Other Witnesses react because this is not prepared.
-20. Silence frames it as a basic-test mercy so the fight is not like beating up a child.
-21. The Witness circle votes / nods one by one.
-22. Silence claps and gives the Overseer an obvious thumbs-up.
-23. Other Witnesses grumble that this is unfair to Silence's sister / to Horror; Silence says it is fair to her.
-24. Addie recognizes the first question's wording as reinforcement from the Overseer.
-25. First question:
+3. Horror waits in the center ready for battle: full armor, four swords, double crossbows, vials, and potions.
+4. Addie tries to act like this is fine and fails internally.
+5. Horror asks if Addie is ready to die and taunts her for barely finding the correct city.
+6. Horror offers a mulligan / chance to return tomorrow.
+7. The companions glance at Addie as if tomorrow might be wiser.
+8. Addie refuses: they are doing it today.
+9. Horror drops a sword at Addie's confidence spike, then recovers.
+10. Addie calls the "clever girl" response misogynistic / sexist.
+11. The companions wonder whether Addie took the wrong H&H pill.
+12. Silence smiles behind her porcelain mask, eating fake popcorn, and offers some to Ash.
+13. Silence says she has two questions for Adeshka before the challenge can proceed.
+14. Other Witnesses object because this was not prepared.
+15. Silence frames the test as mercy: otherwise this will be like beating up a child.
+16. The Witness circle votes / nods one by one.
+17. Silence claps and gives the Overseer an obvious thumbs-up.
+18. Addie recognizes the first question's wording as a confidence clue from the Overseer.
+19. First question:
 
 > "What was José's crime?"
 
-26. Addie jokes that the obvious crime was his outfit.
-27. Revel laughs; everyone looks at him; he says it was funny.
-28. Addie then answers seriously.
-29. She says the easy answer is what José did to Frank, but they did not see it and the question says first crime.
-30. She connects the first vision and the "metastasizing" idea.
-31. José's first crime was the intentional choice of inaction that led to people being left behind.
-32. The Witnesses are impressed, except Horror, who keeps sharpening blades.
-33. Silence claps and says the Overseer was right: Addie is smart.
-34. The Overseer tells Silence to focus and get it over with.
+20. Addie jokes that the obvious crime was his outfit.
+21. Revel laughs; everyone looks at him; he says it was funny.
+22. Addie answers seriously: the easy answer is what José did to Frank, but the visions did not show that and the question asks first crime.
+23. She connects the first vision and the later "metastasizing" logic.
+24. José's first crime was intentional inaction that led to people being left behind.
+25. The Witnesses are impressed, except Horror, who gets sharper and angrier.
 
 ## Subchapter 2 — The Co-Conspirator
 
@@ -194,44 +186,35 @@ Same arena; procedural test continues.
 
 ### Beats
 
-1. Silence says if Addie got this close, they do not need to give her hints.
-2. Second question:
+1. Silence asks the second question:
 
 > "Who was his co-conspirator for his second crime?"
 
-3. Addie turns to the companions for help.
-4. Horror objects that she cannot consult them.
-5. Silence agrees and claps like the Clapper.
-6. Chairs appear behind the companions.
-7. The companions are forced into the chairs and gagged.
-8. Addie protests that Brickett has a head injury and this is dangerous.
-9. Silence asks the Witnesses to show compassion for the little one.
-10. They vote / nod again.
-11. The gags vanish or loosen for Brickett.
-12. Brickett theatrically pants and claims he was faking because Addie needed backup.
-13. He says it is time for his big scene.
-14. Addie sees that some Witnesses genuinely believe he is distressed / fragile.
-15. Ash worries whether the poor little thing needs water.
-16. Addie realizes the Witnesses are dangerously out of touch with ordinary humanity.
-17. That realization becomes the clue.
-18. Gregory tries to reassure everyone through the gag that Addie has this; it comes out unintelligibly.
-19. Someone says they cannot understand him.
-20. Addie turns back to Silence and says she believes Silence asked a question.
-21. Silence says there is no need for Miss / Mrs. / Queen / Princess, just Witness of Silence.
-22. Addie answers: José's co-conspirator was himself.
-23. Because he had already compromised his values once, the second compromise was easier, then the third, fourth, and fifth.
-24. Addie looks straight at Horror and calls him José.
-25. The companions react in confusion because Horror appears female-coded.
-26. Carrio wonders whether Addie has a head injury.
-27. Horror says it is interesting, like somebody cheated and told her.
-28. Horror looks at the Overseer; he shakes his head.
-29. Addie explains the continuity: José was the commonality between the vision sets, and the assistant was the title.
-30. She says hiding as a woman would be a good way to hide if one were trying to disappear.
-31. Addie apologizes to José for what Noel did to him and for being forced to compromise values to survive.
-32. José / Horror dismisses it as long ago and irrelevant.
-33. Addie insists it matters now.
-34. She says the Conjunctions are a mirror to them, but also to the Witnesses.
-35. Horror warns Addie to choose her next words carefully.
+2. Addie turns toward the companions for help.
+3. Horror objects that she cannot consult them.
+4. Silence agrees and claps like the Clapper.
+5. Chairs appear behind the companions.
+6. The companions are forced into the chairs and gagged.
+7. Addie protests that Brickett has a head injury and this is dangerous.
+8. Silence asks the Witnesses to show compassion for the little one.
+9. Brickett's restraints / gag are loosened enough to avoid danger.
+10. Brickett theatrically pants and claims he was faking because Addie needed backup.
+11. Some Witnesses genuinely believe Brickett is distressed; Ash worries about water for him.
+12. Addie realizes the Witnesses are dangerously out of touch with ordinary humanity.
+13. Gregory tries to reassure everyone through the gag that Addie has this; it comes out unintelligibly.
+14. Addie turns back to Silence and answers: José's co-conspirator was himself.
+15. Because he had already compromised his values once, the second compromise was easier, then the third, fourth, and fifth.
+16. Addie looks straight at Horror and calls him José.
+17. The companions react in confusion because Horror appears female-coded.
+18. Carrio wonders whether Addie has a head injury.
+19. Horror says it is interesting, like somebody cheated and told her.
+20. Horror looks at the Overseer; he shakes his head.
+21. Addie explains the continuity: José was the commonality between the vision sets, and "assistant" was the hiding title.
+22. She apologizes to José for what Noel did to him and for being forced to compromise values to survive.
+23. José / Horror dismisses it as long ago and irrelevant.
+24. Addie insists it matters now.
+25. She says the Conjunctions are a mirror to the companions, but also to the Witnesses.
+26. Horror warns Addie to choose her next words carefully.
 
 ## Subchapter 3 — Five Addies
 
@@ -243,41 +226,33 @@ Horror arena, combat begins.
 
 1. Addie looks at her companions / new family before committing.
 2. She thinks about the moons and the disciplines she studies: science, society, history.
-3. She says it is about time for the full moon / lunar pull.
-4. She says it is funny that she studies the three things the three moons represent.
-5. José realizes what she is doing too late.
-6. Addie slams her staff into the ground.
-7. Her eyes go blue.
-8. Wind rises in a place where there should be no wind.
-9. Addie taps lunar illusion / dreams / the opposite side of Horror, not aggression.
-10. One Addie becomes five.
-11. Horror is displeased.
-12. The companions have a collective what-the-fuck reaction.
-13. All five Addies speak together or in sequence.
-14. Addie says this is fairer: Horror has four weapons and she only had herself.
-15. Addie says she is not there to beat Horror or kill him; she is there to talk.
-16. The five Addies begin circling Horror.
-17. Horror cannot tell which one is real.
-18. Mae realizes Addie is distracting Horror and hiding her own position, wearing Horror down.
-19. Addie keeps pushing: José wanted to save people and was coerced / under duress.
-20. Horror attacks one Addie and clips the real Addie's shoulder.
-21. Addie bleeds lunar energy.
-22. Horror says she can cut through illusions faster than Addie can make them.
-23. Addie says that sounds like José: under duress and trying to excuse survival.
-24. Horror rejects duress as something people use to avoid responsibility.
-25. Addie says that sounds exactly like him.
-26. Horror slices through the air and fights multiple Addies.
-27. Silence cheers: "Get her, girl," without it being clear who she means.
-28. Addie continues controlling illusions while hiding the real wound and bleeding lunar energy.
-29. She knows she has not yet found the final thing that will reach him.
-30. Revel starts cheering for Horror in an Irish accent.
-31. Addie notices and understands he has accidentally given her something.
-32. She thanks Revel.
-33. Revel screams that the real one is the one Horror already hit.
-34. Horror turns toward the wounded real Addie.
-35. The other illusions fade.
-36. Addie says she can stop bleeding now.
-37. Horror asks whether she is giving up.
+3. She says it is funny that she studies the three things the three moons represent.
+4. José realizes what she is doing too late.
+5. Addie slams her staff into the ground.
+6. Her eyes go blue.
+7. Wind rises in a place where there should be no wind.
+8. Addie taps lunar illusion / dreams / the opposite side of Horror, not aggression.
+9. One Addie becomes five.
+10. Horror is displeased.
+11. The companions have a collective what-the-fuck reaction.
+12. Addie says this is fairer: Horror has four weapons and she only had herself.
+13. Addie says she is not there to beat or kill Horror; she is there to talk.
+14. The five Addies circle Horror.
+15. Horror cannot tell which one is real.
+16. Mae realizes Addie is distracting Horror and hiding her own position, wearing Horror down.
+17. Addie presses José about wanting to save people, coercion, and duress.
+18. Horror attacks one Addie and clips the real Addie's shoulder.
+19. Addie bleeds lunar energy.
+20. Horror says she can cut through illusions faster than Addie can make them.
+21. Addie says Horror's contempt for duress sounds exactly like José trying to excuse survival.
+22. Silence cheers without anyone knowing who she is cheering for.
+23. Revel starts cheering for Horror in an Irish accent.
+24. Addie notices and understands he has accidentally given her something.
+25. Addie thanks Revel.
+26. Revel screams that the real one is the one Horror already hit.
+27. The other illusions fade.
+28. Addie says she can stop bleeding now.
+29. Horror asks whether she is giving up.
 
 ## Subchapter 4 — The Human In There
 
@@ -306,32 +281,27 @@ Same arena; noncombat solution.
 14. Addie immediately runs to Horror and starts mending her / him.
 15. Horror asks what Addie is doing.
 16. Addie says she is mending him because he did exactly what she needed.
-17. Horror asks what that means.
-18. Addie says she needed proof that there is still a human in there.
-19. Horror tells Addie to take care of the beaver.
-20. There is no wounded beaver.
-21. Silence reveals no one saw Brickett sneak away / be hidden.
-22. Brickett is standing in the Overseer's shadows; the Overseer opened a shadow to hide him.
-23. Addie had conjured an illusion of Brickett performing "My life for you."
-24. Horror realizes Addie tricked him.
-25. Addie says the trick worked because José is human and regrets what he did.
-26. Addie names the core: Horror is how José sees himself after compromising his soul.
-27. Horror collapses / sits / falls to the ground and begins crying dark tears.
-28. José says Noel was vicious, violent, and threatened family.
-29. José could not even save his own family because the wave came too fast.
-30. Frank was the one person who showed him true kindness.
-31. José says he set Frank up to break up his marriage so Noel could control the fortune.
-32. Silence coughs and says that is not José's story to tell, brother.
-33. The companions should not fully understand that interaction yet.
-34. José says he always called it necessary survival.
-35. He says he survived, but at what cost.
-36. He says Noel told him the ships were overbooked.
-37. Another Witness says that is not what Noel told them.
-38. Silence coughs again.
-39. Addie says she does not know whether the visions are a parable or perception of their world, but she sees someone finally healing after being forced to witness the consequences of his actions.
-40. Addie asks Silence whether this is time served / whether they can let him go.
-41. Silence says, with pity, that she thought Addie was smart.
-42. Horror/José says they would not choose to be anywhere else.
+17. Addie says she needed proof that there is still a human in there.
+18. Horror tells Addie to take care of the beaver.
+19. There is no wounded beaver.
+20. Brickett is standing in the Overseer's shadows; the Overseer opened a shadow to hide him.
+21. Addie had conjured an illusion of Brickett performing "My life for you."
+22. Horror realizes Addie tricked him.
+23. Addie says the trick worked because José is human and regrets what he did.
+24. Addie names the core: Horror is how José sees himself after compromising his soul.
+25. Horror collapses and begins crying dark tears.
+26. José says Noel was vicious, violent, and threatened family.
+27. José could not even save his own family because the wave came too fast.
+28. Frank was the one person who showed him true kindness.
+29. José says he set Frank up to break up his marriage so Noel could control the fortune.
+30. Silence coughs and says that is not José's story to tell, brother.
+31. José says he always called it necessary survival.
+32. He says he survived, but at what cost.
+33. Another Witness says that is not what Noel told them.
+34. Addie says she sees someone finally healing after being forced to witness the consequences of his actions.
+35. Addie asks Silence whether this is time served / whether they can let him go.
+36. Silence says, with pity, that she thought Addie was smart.
+37. Horror/José says they would not choose to be anywhere else.
 
 ## Subchapter 5 — The Thread Through The Maze
 
@@ -344,20 +314,20 @@ Same arena; unraveling.
 1. Addie sees a single red thread coming loose from Horror's armor.
 2. She pulls out Ariadne's Thread from her pocket.
 3. José cannot believe she found it.
-4. Addie says she does not need it to defeat him, which is what they said.
+4. Addie says she does not need Ariadne's Thread to defeat him, which is what they said.
 5. She throws the external thread to Brickett.
 6. She grabs the loose thread from Horror's armor.
 7. Horror lets her.
 8. Addie pulls.
 9. Each pull begins unraveling the armor.
-10. She has to circle Horror many times, pulling and pulling.
+10. She circles Horror many times, pulling and pulling.
 11. Armor plates fall away.
 12. Black silhouette falls away.
 13. Mandibles and extra arms fall away.
 14. The Witness form unthreads into José.
 15. At the end, Addie gives the thread to José and says she thinks it is his.
 16. José is aghast.
-17. Silence removes her mask for the first time and is also stunned.
+17. Silence removes her mask for the first time and is stunned.
 18. The Overseer and all Witnesses are stunned.
 19. Silence releases the companions from restraints.
 20. No one moves at first because they cannot process what they have seen.
@@ -369,17 +339,15 @@ Same arena; unraveling.
 26. Addie says it became clear the Witnesses were human once.
 27. Silence says not all of them, dear, and smiles creepily.
 28. Brickett asks Silence to put her mask back on because he is not an adult and she is scaring him.
-29. Brickett grabs Yurislav's leg.
-30. Addie says Horror was too postured / hiding too much.
-31. Addie connects Barnaby / Ariadne / getting out of the maze.
-32. She says the point was not fighting Horror; it was finding the way back out.
-33. Addie says if she is good at anything, it is wearing people down, and three degrees take patience.
-34. Addie helps José up.
-35. The Witnesses step back into their places.
-36. Silence says the companions were impressive and the Conjunction is finished.
-37. The Overseer says he will mark it with the Master Seal and get his signature later.
-38. The companions react: his signature?
-39. The Overseer says of course he has a boss.
+29. Addie connects Barnaby / Ariadne / getting out of the maze.
+30. She says the point was not fighting Horror; it was finding the way back out.
+31. Addie says if she is good at anything, it is wearing people down, and three degrees take patience.
+32. Addie helps José up.
+33. The Witnesses step back into their places.
+34. Silence says the companions were impressive and the Conjunction is finished.
+35. The Overseer says he will mark it with the Master Seal and get his signature later.
+36. The companions react: his signature?
+37. The Overseer says of course he has a boss.
 
 ## Subchapter 6 — The Laughing Tree
 
@@ -453,8 +421,6 @@ Witness space exit and Stormspire Aerie return.
 
 > "Who was his co-conspirator for his second crime?"
 
-> "I think it's the Overseer." (Do not repeat this here unless Brickett references the earlier suspicion; it is listed for continuity only.)
-
 > "José's co-conspirator was himself."
 
 > "I'm sorry that Noel did that to you."
@@ -472,14 +438,6 @@ Witness space exit and Stormspire Aerie return.
 > "I will see you at the beacon in the city for the people who reside at the edges of maps."
 
 > "Does that look like a string through a maze?"
-
-## Flexible Line Shapes
-
-- Addie's answer naming inaction as the first crime.
-- Addie's argument that repeated compromise made José his own co-conspirator.
-- Addie's explanation that Ariadne's Thread is about finding the way back out, not killing the monster.
-- Revel's tree puns.
-- Gregory and Carrio's closing jokes.
 
 ---
 
@@ -507,6 +465,7 @@ Do not over-explain in prose:
 - The external thread still matters because it teaches the logic and serves as the expected present / symbolic key.
 - Silence's mask removal should be shocking and unsettling.
 - The red beacon extinguishing should be the public proof that the Conjunction ended.
+- Use **Verrick B. Knackle** if he appears near the Skyrend return. Do not use `Varrick`.
 - End with Book 2 / Gregory / Dragon Isles / Laughing Tree clearly seeded but not started.
 
 ---
