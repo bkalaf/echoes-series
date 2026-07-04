@@ -44,9 +44,9 @@ Immediately after `01_22_go_with_the_eagle.md`.
 
 The companions reach Skyrend Peak and find a city unlike Aquila Matara: not cheering, not crowding, but watching from windows. They run to Stormspire Aerie. Addie steps onto the platform and again nothing happens—until the Overseer opens the shadows and reveals they are right, but incomplete.
 
-The portal will not open unless all companions are present. Brickett is missing. Worse, the group forgot Ariadne's Thread in Mae's safe. Mae sends Varrick flying back for the thread while Tallandra contacts Barry and Boss. The doctors refuse to release Brickett because of his concussion; Gregory uses his healer/surgeon authority and the literal end of the world to force the issue.
+The portal will not open unless all companions are present. Brickett is missing. Worse, the group forgot Ariadne's Thread in Mae's safe. Mae sends Verrick flying back for the thread while Tallandra contacts Barry and Boss. The doctors refuse to release Brickett because of his concussion; Gregory uses his healer/surgeon authority and the literal end of the world to force the issue.
 
-Varrick returns with the thread, extra carpets, Barry, Boss, and a bandaged but awake Brickett exactly as the clock reaches the Hour of Restless Souls. When Brickett sets foot on the platform and Addie has the thread, the platform rumbles. The Overseer asks if Addie is ready to defeat her first Witness. She is not, but she goes anyway.
+Verrick returns with the thread, extra carpets, Barry, Boss, and a bandaged but awake Brickett exactly as the clock reaches the Hour of Restless Souls. When Brickett sets foot on the platform and Addie has the thread, the platform rumbles. The Overseer asks if Addie is ready to defeat her first Witness. She is not, but she goes anyway.
 
 ## Chapter Function
 
@@ -78,7 +78,7 @@ This chapter should do five major things:
 ## Skyrend / Support
 
 - The Overseer.
-- Varrick / Verrick B. Knackle, who retrieves the thread from Mae's safe.
+- Verrick B. Knackle, who retrieves the thread from Mae's safe.
 - Barry.
 - Boss.
 - Doctors / healers refusing to release Brickett until forced.
@@ -114,7 +114,7 @@ Use **three** visible subchapters:
 2. Missing Someone
 3. Restless Souls
 
-Do not split the Varrick retrieval, Brickett medical argument, and waiting period into separate visible headings unless prose length absolutely requires a scene break.
+Do not split the Verrick retrieval, Brickett medical argument, and waiting period into separate visible headings unless prose length absolutely requires a scene break.
 
 ---
 
@@ -167,12 +167,12 @@ Stormspire Aerie platform, red active, evening turning toward midnight.
 10. The thread is the present.
 11. The thread is still in Mae's safe.
 12. Mae whistles.
-13. Varrick appears on a magic carpet, implying he has been hidden / invisible nearby as part of Mae's contingency web.
+13. Verrick appears on a magic carpet, implying he has been hidden / invisible nearby as part of Mae's contingency web.
 14. Mae tells him to go to the house and get the string.
 15. The Overseer corrects her: thread.
 16. Mae threatens the rat and tells him not now.
-17. Mae whispers the safe combination to Varrick and tells him to get Max because Max knows the traps.
-18. Varrick flies off.
+17. Mae whispers the safe combination to Verrick and tells him to get Max because Max knows the traps.
+18. Verrick flies off.
 19. The companions wait under the gaze of people watching from windows.
 20. The waiting should be miserable because they are publicly right but still blocked by logistics.
 21. Barry and Boss report that Brickett will be fine but doctors refuse to let him leave because he has a concussion.
@@ -189,7 +189,7 @@ Stormspire Aerie, Hour of the Restless Souls / midnight.
 
 ### Beats
 
-1. Varrick returns with the thread and two carpets in tow.
+1. Verrick returns with the thread and two carpets in tow.
 2. He has collected additional room / transport help.
 3. Barry, Boss, and Brickett arrive with him.
 4. Brickett has bandages on his head but is awake.
@@ -246,7 +246,7 @@ Stormspire Aerie, Hour of the Restless Souls / midnight.
 
 - Brickett is a fourteen-year-old beaver beastfolk and should be treated as injured / concussed after the 01_22 blast.
 - Use **eye-mail**, not generic communicator language.
-- Varrick / Verrick B. Knackle spelling should be checked against current Book 1 canon before prose generation; prior files use Verrick B. Knackle.
+- Verrick B. Knackle is the locked spelling. Do not use `Varrick`.
 - The thread must be present, but Addie does not need it as a weapon in the ordinary sense.
 - The Overseer is still playing within wording constraints. He tells them what he is supposed to tell them when he is supposed to tell it.
 - Do not start Horror's challenge before the Dear Reader interlude.
