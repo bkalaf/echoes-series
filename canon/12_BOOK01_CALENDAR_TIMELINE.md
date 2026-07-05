@@ -54,6 +54,7 @@ Book 01 uses the active 8-day weekday cycle. Since Yearsend 29 is Kindlemask, th
 | B01.040 | 01_04 | The Weight of the Beacon | **Hearthwake 2, Stonewake** | Blue-beacon day before Hour of the Singularity; office confinement, extraction, Brickett rescue. |
 | B01.050 | 01_05 | The Core of the Conjunction | **Hearthwake 2, Stonewake, Hour of the Sphinx into Hour of the Singularity** | Blue beacon / 24-hour rule reveal; portal transfer; Three Hundred Steps. |
 | B01.060 | 01_06 | The Weight of the Roster | **Hearthwake 2, Stonewake, evening after blue activation** | Conclave High Assembly and roster architecture. |
+| B01.065 | 01_06b | The Room Between Stories | **Hearthwake 2, Stonewake, subjective Witness space after Conclave collection** | Witness-circle orientation bridge; Addie receives multi-Conjunction rules and enters First Mirror with Silence. |
 | B01.070 | 01_07 | The First Mirror | **Hearthwake 2, Stonewake, night / subjective mirror time** | Addie is absent from normal time for roughly two hours. |
 | B01.080 | 01_08 | The Weight of Being Asked | **Hearthwake 2, Stonewake, late night** | Mae estate dinner and companion consolidation. |
 | B01.090 | 01_09 | Day One Architecture | **Hearthwake 3, Aegalor, morning** | Green-beacon day / first operational morning. |
