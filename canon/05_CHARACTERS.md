@@ -143,8 +143,8 @@ Current authority: **simple silver pendant necklace bearing the Mark of the Orbs
 |---|---|
 | Lieutenant Boss R. Grizzlepelt | Bear-kin Concord lieutenant; not the boar. |
 | Lieutenant Barry C. Bristleback | Boar-kin Concord lieutenant; not the bear. |
-| Officer Rennick T. Quickreed | Jackrabbit-kin rapid relay officer. |
-| Sergeant Oren V. Antlerfell | Stag-kin forensic geometrician. |
+| Officer Rennick T. Quickreed | Jackrabbit-kin Concord officer / fast relay-runner with a polearm; first appears deliberately unnamed in the `01_04` street relay beat as the swift-footed jackrabbit-kin officer / fast one from the street, then is named in `01_05` as Rennick T. Quickreed. |
+| Sergeant Oren V. Antlerfell | Stag-kin Concord Forensics sergeant / forensic geometrician; appears in the `01_04` pawn-shop / brick scene, runs the brick’s scorch, scatter, and angle analysis, and delivers the impossibly high origin trigonometry. |
 | Verrick B. Knackle | Gnome Ruin operative; Knackle is the surname. |
 | Max | Mae estate household-side support; full formal name pending. |
 | Tikket Z. Varn | Kobold office-side assistant for Mae. |
