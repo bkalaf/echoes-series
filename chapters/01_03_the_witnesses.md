@@ -120,7 +120,7 @@ The seam breathed. Nothing else did.
 
 "That's impossible." Omen's wings flared. "We *saw* him die. All of us. We watched it happen."
 
-"If he's back—" Revel's branches had gone rigid, all the laughter gone out of the treant "—if the Deceiver is truly back, then we don't stand a chance. None of us. Not the children, not the companions, not—"
+"If he's back—" Revel's branches had gone rigid, all the laughter gone out of the treant "—if the Deceiver is truly back, then we don't stand a chance. None of us. Not the children, not whoever we’d be dooming by choosing them to face him, not—"
 
 "If Mother knew," Dominion and Veils said, both heads at once for once in agreement, red and blue braided into a single grim certainty, "if she knew he had returned and built this road *anyway* — then the road accounts for him. Then we trust her. That is what trusting her *means.*"
 

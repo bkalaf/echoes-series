@@ -56,7 +56,7 @@ He did not hear that either.
 
 But you did.
 
-Now — the seal on that scroll. I've been waiting to show you. Pressed into the wax was a mark, and inside the mark, if you knew to look, a sequence: three, then nine, then eighteen, then twenty-four, then seventy-two. It repeats. You'll see it again — on doors, in death counts, in the number of chairs at a table, in the shape of the sky itself — long after you've stopped expecting it, and every time you'll feel that you almost understand it.
+Now — the seal on that scroll. I've been waiting to show you. Pressed into the wax was a mark, and inside the mark, if you knew to look, a sequence: three, then nine, then eighteen, then twenty-four, then seventy-two. It repeats. You’ll see it again — in the three kinds of soul the world sorts its people into, and the three cities that make a state, and the three factions that are about to try to kill each other over all of it; in sixes and nines and twelves; in eighteens and twenty-fours and thirty-sixes; all the way up to the seventy-two cities themselves. On doors. In death counts. In the number of chairs at a table, and the shape of the sky itself — long after you’ve stopped expecting it, and every time you’ll feel that you almost understand it.
 
 You won't. Not yet. I could tell you what it means right now, in one sentence, and it would ruin absolutely everything, and so I am going to be cruel and keep it. Forgive me. I did warn you the honesty would run out.
 

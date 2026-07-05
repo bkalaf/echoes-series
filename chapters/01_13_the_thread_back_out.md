@@ -56,6 +56,8 @@ Gregory's eye twitched, very slightly, at *the names always slither about on me,
 
 "The king had built a maze," Barnaby said. "An enormous one. And every so often he'd send young people into it — tribute, punishment, I forget the why — and in the heart of the maze there lived a monster. Half a man, half a bull. Horns on it. It killed everyone who wandered in." He paused, and his voice dropped, and the craftsman's cheer went out of it. "But here's what I always thought was the clever, frightening part. The monster wasn't the worst of it. The *maze* was. Because the maze *moved.* The walls shifted behind you as you went. The path you came in by wasn't there anymore when you turned round to leave." He looked at his own hands. "So even if you were strong enough to kill the thing — even if you *won* — you'd wander that shifting dark until you starved, because knowing your way *in* told you nothing at all about your way *out.*"
 
+Mae’s coin stopped. Across the room, Max caught her eye and held it half a second too long, and neither of them said a word. Addie clocked the look and filed it in her back room, beside every other thing in this house that did not yet have a label — the silenced bells, the servant who never went outdoors, the way the whole place felt built to keep something in or something out. She did not understand it yet. She only marked the shape of the gap where the understanding would go.
+
 The room had gone still, and it was a different stillness than before. Addie felt it move through all of them at once — because a maze that rearranged itself behind you, where victory bought you nothing but a lonelier death, was not, tonight, a bedtime tale. It was a description. It was the exact shape of the thing they were all standing inside.
 
 ---

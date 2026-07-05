@@ -24,7 +24,7 @@ Addie leaned on the ironwood staff. She was too tired to do the arithmetic on hi
 
 "Brynn Stonevein," said Brynn. "And before you ask, no, I'll not be softening how I talk for anyone's comfort, so you'd best get your ear in."
 
-Max held her eye for a moment, then inclined his head with genuine respect. "We'll manage. And if we don't, madam, we shall do charades." He turned for the corridor. "This way. Mind the mood."
+Max held her eye for a moment, then inclined his head with genuine respect. "We'll manage. And if we don't, madam, we shall do charades." He turned for the corridor. “This way. Mind the mood.” Set into the wall along it, at a servant’s easy reach, was another of the dead bells — this one bound in a neat sleeve of the same black cloth as the drapes, so that you would only find it if you already knew to look. Addie was beginning to know to look.
 
 ---
 

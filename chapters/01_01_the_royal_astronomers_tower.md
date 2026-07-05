@@ -28,9 +28,11 @@ She ran the first check.
 
 It was the simplest one — the solstice baseline, the arithmetic a first-year apprentice could grind through: take the predicted positions, subtract the observed, and read the residual. There was always a residual. A thread of error lived in every measurement ever taken by anyone; the universe rounded, and instruments trembled, and air bent light, and the leftover was never, ever nothing.
 
+$$\lim_{\tau \to 0} \left[ \hbar_{ns} + \int_{\tau_0}^{\tau_c} \left( \lim_{P \to 0} \Psi(P) \right) d\tau + \mathcal{J}_f \right] \bmod 3 = 0$$
+
 The leftover was nothing.
 
-Zero. Clean, balanced, impossible zero, the two columns settling against each other like a scale finding true. Miriam sat very still and understood, in the particular cold that has nothing to do with altitude, that a baseline does not fall to zero because it is calm. It falls to zero because something enormous is preparing to lean on it — because the whole floor of reality is about to take on weight, and for one held breath everything balances before it tips.
+Zero. Clean, balanced, impossibly zero, the two columns settling against each other like a scale finding true. For a thousand years this same reckoning had come to rest on a remainder of one — the reassuring one every apprentice was taught to expect, the fixed constant at the floor of the world — and it had never, in all that time, been anything else. Tonight it was nothing. Miriam sat very still and understood, in the particular cold that has nothing to do with altitude, that a baseline does not fall to zero because it is calm. It falls to zero because something enormous is preparing to lean on it — because the whole floor of reality is about to take on weight, and for one held breath everything balances before it tips.
 
 She ran the second check.
 
@@ -38,13 +40,17 @@ This one asked the network a question. Seventy-two nodes, one at the heart of ea
 
 Seventy-three answered.
 
-She counted them twice on the slate, then a third time on her fingers like a child, and there were seventy-three, and there could not be seventy-three, because there were seventy-two cities and there had always been seventy-two cities and the seventy-third node sat in the arithmetic where no city was, drawing power, active, *awake* — a light in a room that did not exist. She did the only thing a scientist can do with an impossibility: she measured it. She resolved the variance the extra node introduced, chased the number down through the brass, and it stopped on a value she knew by heart from the oldest, driest histories.
+She counted them twice on the slate, then a third time on her fingers like a child, and there were seventy-three, and there could not be seventy-three, because there were seventy-two cities and there had always been, for two thousand years, seventy-two — a number so fixed that no living soul had thought to count it, because you do not count a thing that cannot change — and the seventy-third node sat in the arithmetic where no city was, drawing power, active, *awake* — a light in a room that did not exist. She did the only thing a scientist can do with an impossibility: she measured it. She resolved the variance the extra node introduced, chased the number down through the brass, and it stopped on a value she knew by heart from the oldest, driest histories.
 
-Eighteen. The exact count of the historic Conjunction intersections. The number that lived at the bottom of every myth she had spent her career politely declining to believe.
+$$\mathcal{R}_c = \left| \sum_{i=1}^{73} \kappa_i - \sum_{j=1}^{72} \kappa_j \right| = 18$$
+
+Eighteen. The number the old parables set at the heart of the Conjunctions — the eighteen trials of the prophet, the eighteen mercies of the savior, depending which temple told it — the number that lived at the bottom of every scripture she had spent her career politely declining to believe. Eighteen was three sixes, or six threes, one more knot on the same rope that ran through nine and twelve and twenty-four; and eighteen surfaced everywhere a person cared to look, the way any of those numbers did, which was precisely why a sober astronomer never let herself read meaning into one.
 
 She ran the third check with hands that were no longer entirely steady.
 
 If the first two were true, the whole system should be converging — every ring, every arc, every one of those seventy-three impossible nodes drifting toward a single shared instant of alignment. She solved for the convergence. She expected chaos, or noise, or the merciful static of a broken instrument.
+
+$$\lim_{\tau \to \tau_{critical}} \Omega(\tau) = 1.00000$$
 
 The system was resolving toward one. Not approximately. Not one-point-something-that-would-round. Toward 1.00000, unity, the number the ancient texts used for the moment the moons became one moon and the rules of the world changed hands.
 
@@ -56,13 +62,13 @@ The hum came up through the floor.
 
 She felt it in the soles of her feet first, then in the stone, then — obscenely, intimately — in her teeth: a sub-audible pressure, the sound of something very large clearing its throat a thousand years into a held silence. She turned toward the northern window in time to see Stormspire Aerie ignite.
 
-Violet. The beacon at the center of Skyrend Peak, black since before the founding of any nation, flooded with a light that had a color she had only ever read described — *conjunction-purple,* the histories called it, and she had always assumed the word was decoration. It was not decoration. The beam poured down through the dome and threw the shadows of the brass gears across the walls in hard-edged blades, and Miriam stood inside a cage of turning shadow and begged the universe, silently, professionally, for a smaller answer. A lightning strike. A gas seam in the tower. A local malfunction. Anything that stayed inside one city.
+Violet. The beacon at the center of Skyrend Peak, black in the living memory of every soul who had ever stood beneath it — black the whole two thousand years of the nation, black even in the long recollections of the longer-lived races, the celestials and the lich and the Titan-born and the vampires, not one of whom could recall it as anything but dark — flooded with a light that had a color she had only ever read described — *conjunction-purple,* the histories called it, and she had always assumed the word was decoration. It was not decoration. Out over the city the light did not fall — it *poured upward,* the way water leaves a tipped pitcher, only with every rule reversed: gravity running backward, the stream climbing in a smooth bright column out of the tower’s mouth until it struck some unseen ceiling high against the clouds and broke, and spread, spilling flat along the underside of the sky the way water spreads across a floor. Inside her own dome the beam poured down and threw the shadows of the brass gears across the walls in hard-edged blades, and Miriam stood inside a cage of turning shadow and begged the universe, silently, professionally, for a smaller answer. A lightning strike. A gas seam in the tower. A local malfunction. Anything that stayed inside one city.
 
 She ran to the southern window and searched the dark for Vharos.
 
 For one long, generous moment, Vharos stayed dark, and she let herself believe it.
 
-Then Vharos lit. The same violet, tiny with distance across the black valleys, unmistakable — a second beacon answering the first, and with it the death of every comfortable explanation she had. Not one tower. The network. The floor-hum doubled, found a rhythm, became a pulse, and she recognized the horror of that rhythm the way you recognize a heartbeat: it meant the thing was not switching on. It was already alive, and now it was locking into step.
+Then Vharos lit — not all at once but in a stutter, a far violet spark flickering as though something vast were charging behind it, on and off and on, until the flicker caught and held and the light poured up and spread flat against that same unseen ceiling of the sky. Too far for her to feel its hum across the black valleys, but unmistakable — a second beacon answering the first, and with it the death of every comfortable explanation she had. Not one tower. The network. The floor-hum doubled, found a rhythm, became a pulse, and she recognized the horror of that rhythm the way you recognize a heartbeat: it meant the thing was not switching on. It was already alive, and now it was locking into step.
 
 Three knocks sounded inside the barred and shuttered room.
 
@@ -74,7 +80,7 @@ It did not fall. It stopped, an inch above the floor, and hung there.
 
 "That happens," said a voice from the violet shadows, mild as a man commenting on rain. "The delivery mechanism dislikes being dropped. Takes it personally, I think."
 
-He stepped out of the corner where the beacon-light did not reach — an elderly, gray, rat-like figure, small and stooped, in robes of black and purple and old gold, and he bent with an audible creak, retrieved the floating scroll, and returned it to her hands as though passing back a dropped glove.
+He stepped out of the corner where the beacon-light did not reach — an elderly, gray, stooped rat-kin, small, in robes of black and purple and old gold, and he bent with an audible creak, retrieved the floating scroll, and returned it to her hands as though passing back a dropped glove.
 
 Miriam knew the shape of him. Not the face — the *office.* She had read the accounts, filed under myth with everything else she had spent tonight learning to believe. "You're the Overseer," she said. Her voice came out steadier than she was. "Why now? It's been a thousand years. Why is it waking up now?"
 
@@ -182,4 +188,4 @@ She had it now, in her own plum ink, in three checks she could not break. The ma
 
 it did not care, in the slightest, who survived being kept.
 
-Below her, in a thousand cities, the guilds would wake to a noon deadline and begin, frantically, to choose.
+Below her, in seventy-two cities — in one of which, even now, deep rumblings had begun over whether it truly wished to stay neutral — the guilds would wake to a noon deadline and begin, frantically, to choose.

@@ -24,15 +24,15 @@ He caught her wrist a hand's breadth from his nose without appearing to hurry, a
 
 "Honestly," Addie said, "I sort of wish he'd eaten me. It would have simplified my evening."
 
-The satyr laughed — a real one, surprised out of him. "Oh, you and I are going to get along." He stepped back and swept her in. "Max. Head butler, cook's assistant, occasional accountant, unofficial therapist to a household of dramatic personalities, and whatever else Lady Mae decides I am before breakfast."
+The satyr laughed — a real one, surprised out of him. "Oh, you and I are going to get along." He stepped back and swept her in. "Maximilian T. Bellwether. Head butler, cook’s assistant, occasional accountant, unofficial therapist to a household of dramatic personalities, and whatever else Lady Mae decides I am before breakfast." He inclined his head a precise degree. "Max, though, if we’re to be friends — and I suspect we are."
 
 "Adeshka Sonntag. Moderator, apparently. Portfolio also, it turns out, flexible."
 
-The foyer was black stone, vaulted and grand, and it should have been cold — the architecture of a woman feared across seventy-two cities — but it was not. Chipped mugs sat on a shelf beside carved wooden animals; a child's drawing was pinned, unironically, in a place of honor; there were pressed flowers under glass, river stones, a fan of letters tied with string. Staff moved through it all unhurried, at an hour when most great houses would have gone dark and stiff.
+The foyer was black stone, vaulted and grand, and it should have been cold — the architecture of a woman feared across seventy-two cities — but it was not. Chipped mugs sat on a shelf beside carved wooden animals; a child's drawing was pinned, unironically, in a place of honor; there were pressed flowers under glass, river stones, a fan of letters tied with string. Mounted on the wall beside the kitchen doorway was an old brass service bell — the kind wired through a great house to summon staff from any room — except its clapper had been bound up in a twist of felt and waxed thread, so that it could not have rung if the manor had caught fire. Addie noted it the way you note a scar on a friendly face, filed it, and said nothing. Staff moved through it all unhurried, at an hour when most great houses would have gone dark and stiff.
 
 "Is it not late," Addie asked, "for this much staff?"
 
-"They live here," Max said simply. "Lady Mae is of the opinion that if your people can't live with you, they oughtn't be your people." He glanced at her, dry. "You'll find most of what's assumed about her is wrong. It's rather her favorite weapon."
+"They live here," Max said simply. "As, for that matter, do I — I’ve not set a hoof past the front veranda in more years than I’ll admit to a stranger. The lawn and I have an understanding." He said it lightly, the way a man says a thing he has decided to find funny rather than examine. "Lady Mae is of the opinion that if your people can’t live with you, they oughtn’t be your people." He glanced at her, dry. "You'll find most of what's assumed about her is wrong. It's rather her favorite weapon."
 
 A voice rolled through the whole house then, unbothered by walls — *Max, will you get her moving, they've all been sitting twenty minutes and the soup will not hold its dignity forever* — and on its heels came the smell: bread, garlic, herbs, something slow-cooked and enormous. Addie's stomach made an undignified noise.
 

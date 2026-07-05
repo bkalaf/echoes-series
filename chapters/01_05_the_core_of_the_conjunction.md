@@ -190,9 +190,9 @@ Verrick's expression didn't move. His eyes did.
 
 She looked down, then. At the beaver kid still fisting her sleeve.
 
-Her free hand found the pendant at her throat — the small silver disc her mother had worn, and her mother's mother, a thing that had been in her family so long no one had ever thought to explain it. She had worn it her whole life without a name for the mark pressed into its face.
+Her free hand found the pendant at her throat — the small silver disc her mother had worn a lifetime and never once explained — a thing that had been in the family so long no one had thought to name it — and had left to her, without a word, eight months ago in her will. She had worn it herself only since; she had never had a name for the mark pressed into its face.
 
-She had a name for it now. She'd had it for exactly a day. *The Mark of the Orbs.* The kid had told her — this morning, in the back of a pawn shop, soot on his paws — had said it plainly, the way you name a thing everyone already knows, the same mark stamped into the clasp of the pack some stranger had left him. And she had stood there realizing she had never once heard it spoken aloud in twenty-nine years of wearing it against her skin.
+She had a name for it now. She’d had it barely an hour. *The Mark of the Orbs.* The kid had told her — this morning, in the back of a pawn shop, soot on his paws — had said it plainly, the way you name a thing everyone already knows, the same mark stamped into the clasp of the pack some stranger had left him. And she had stood there realizing she had never once heard it spoken aloud in the eight months she’d worn it — the pendant her mother had kept a lifetime and never named, and left to her, without explanation, in her will.
 
 A homeless child. Abandoned by every single person who was ever supposed to keep him. Who had walked out of nowhere into the worst day of her life and put his own small body between her and a death she never saw coming — and who knew the name of a symbol her family had carried for generations and never named.
 
@@ -342,9 +342,11 @@ The plaza stayed silent.
 
 It went on staying silent, and Addie stood alone in the open stone with her heart going sideways and thought, with a clarity that felt like falling, that she had just done the worst possible thing — that she had taken a frightened city and told it the truth, and the truth had landed like a stone in a well, and now there would be nothing, and then there would be something much worse than nothing.
 
-Then, near the marble columns, a Titanborn raised both massive arms over his head and turned his hands slowly at the wrists.
+Then, near the marble columns, a Titanborn raised both massive arms over his head.
 
-He did not clap. His kind could not — a true clap from those hands would carry like a thunderclap, would read as a threat, would start exactly the panic everyone was braced for. So instead the great hands turned in the air, palms rotating, a gesture with no sound in it at all, and beside Addie, Brickett breathed, "*Oh.* That's the quiet clap. That's for people who'd break the room if they used their hands."
+For a heartbeat Addie was sure it was a strike — and then, from the tower at the center of the plaza, came a sound like a great breath being drawn: a low charging hum, rising, the beacon gathering itself. The violet column overhead guttered, steadied, and turned — deepening, cooling — until the light spilled across the underside of the sky in a clean, terrible blue. The twenty-four-hour warning. The clock had moved.
+
+And the Titanborn only turned his enormous hands slowly at the wrists, palms rotating, a gesture with no sound in it at all — the way people whose hands could break a room applaud in a language that makes none."
 
 A stone golem near the fountain lifted its blunt arms and did the same.
 
@@ -372,24 +374,22 @@ She stayed at the foot of the steps a moment longer, watching the silent applaus
 
 "Let's tally what she actually just did," Verrick said, conversational, flipping his dagger. "Methodologically, she pre-empted every official version of the story. Politically, she indicted all three factions to their faces without handing any of them a grievance they could use cleanly. Factionally, she made herself the property of no one. Etymologically — and I did not have *etymologically* on my list for today — she turned the name of the nation into an argument. Publicly, she did it to a hundred thousand people at once. And she did it in sentences short enough that every broadsheet on the continent can quote her without editing." He tilted his head. "That last part is the one that should frighten the careful people."
 
-"I noticed," Tallandra said.
+“I noticed,” Tallandra said. She was still watching the sky. “The Beacon turned the instant the Titanborn lifted his hands. Not when she finished. Not when the crowd started. The exact moment the first silent clap went up.” She glanced at the gnome. “You saw it.”
 
-"She is not," Verrick said, "what the Speaker was expecting."
+Verrick’s grin had gone, briefly, still. “I saw it.”
 
-"No," Tallandra agreed. "She isn't."
+“So the thing in the sky was watching the crowd,” Tallandra said. “And when they answered her — it answered too.” She let that sit in the dusk between them. “The cosmic entity applauded, Knackle.”
 
-"That's going to be a problem. For some people."
+“That,” Verrick said, quietly, and for once without a joke anywhere near it, “is a very significant data point.”
 
-Tallandra didn't answer that directly. She was looking at the sky. "The Beacon turned," she said, "the instant the Titanborn lifted his hands. Not when she finished. Not when the crowd started. The exact moment the first silent clap went up." She glanced at the gnome. "You saw it."
+Tallandra looked up the long flight of steps, to the bronze doors at the top where they’d carried Addie inside, out of the light, into the room full of the seventy-two.
 
-Verrick's grin had gone, briefly, still. "I saw it."
+“I know,” she said.
 
-"So the thing in the sky was watching the crowd," Tallandra said. "And when they answered her — it answered too." She let that sit in the dusk between them. "The cosmic entity applauded, Knackle."
+“She is not,” Verrick said, “what the Speaker was expecting.”
 
-"That," Verrick said, quietly, and for once without a joke anywhere near it, "is a very significant data point."
+“No,” Tallandra agreed. “She isn’t.”
 
-Tallandra looked up the long flight of steps, to the bronze doors at the top where they'd carried Addie inside, out of the light, into the room full of the seventy-two.
-
-"I know," she said.
+“That’s going to be a problem. For some people.”
 
 She did not say for whom.

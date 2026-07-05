@@ -1,0 +1,113 @@
+{
+  "batch": "max-bellwether-manor-bells-batch-01",
+  "generated_by": "Claude (narrative pre-authored); apply mechanically only",
+  "encoding": "utf-8",
+  "match_rules": "Byte-exact anchors (curly quotes, em-dashes, markdown italics). No fuzzy-match.",
+  "canon_basis": "18_MAXIMILIAN_BELLWETHER_LORE.md + surgical-pass packet + REVISED BELLWETHER/MANOR-BELL ADDENDUM (bells = remains of a failed childhood protection spell; Max agoraphobic surface / bound-to-house hidden).",
+  "protection_locks": [
+    "Mae's dialogue name-use is a tell: Bellwether=annoyed/deflecting, Maximilian=threatening politeness, Max=sincere/vulnerable/urgent. Never interchangeable.",
+    "Book-1 bell SURFACE only: bells exist, are disabled everywhere, Mae refuses to use them, surface reason = family summoned servants and she stopped when the house became hers. Do NOT explain why they're still installed.",
+    "DO-NOT-REVEAL in Book 1: the bells are the remains of a failed childhood protection spell; the satyr/fae/demonic household-binding; that the spell tied BOTH Max's bloodline and Mae's true (adopted-invisible) line to the manor; the house-screeching rule (one of them must live inside or the house shrieks like a burglar alarm); that Aquila Matara fines the household; that the cursed house was dumped on Mae (and is why she's pushed into Aquila Matara politics).",
+    "DO-NOT-REVEAL in Book 1: Max = last surviving descendant of Geoffrik T. Vayne; the Bellwether surname invented during the satyr deportation crisis; Dovren's deportation push / Aes Sidhal collaboration / Portalport registrations & executions; Dovren flushing for Vayne blood; Geoffrik's blood-locked book of secrets; the future Mae-memory vision.",
+    "Max's agoraphobia is the Book-1 SURFACE for why he never leaves the house (veranda/porch OK, never the lawn). The real reason (Dovren threat + house-binding) stays hidden. Mae can leave freely; Max cannot.",
+    "TONE: dark satire — deportation/execution are serious and Max's family's danger is real; the bell/curse absurdity and the satyr/satire dryness may be funny but must never undercut that danger."
+  ],
+  "operations": [
+    {
+      "id": "ch08-max-formal-name",
+      "file": "01_08_the_weight_of_being_asked.md",
+      "type": "replace",
+      "expected_count": 1,
+      "find": "\"Max. Head butler, cook's assistant, occasional accountant, unofficial therapist to a household of dramatic personalities, and whatever else Lady Mae decides I am before breakfast.\"",
+      "replace": "\"Maximilian T. Bellwether. Head butler, cook’s assistant, occasional accountant, unofficial therapist to a household of dramatic personalities, and whatever else Lady Mae decides I am before breakfast.\" He inclined his head a precise degree. \"Max, though, if we’re to be friends — and I suspect we are.\"",
+      "note": "Establish Max's canonical formal name (Maximilian T. Bellwether) at his introduction; he immediately permits 'Max'. Surface identity only.",
+      "edit_class": "SURFACE"
+    },
+    {
+      "id": "ch08-first-bell-seed",
+      "file": "01_08_the_weight_of_being_asked.md",
+      "type": "replace",
+      "expected_count": 1,
+      "find": "there were pressed flowers under glass, river stones, a fan of letters tied with string.",
+      "replace": "there were pressed flowers under glass, river stones, a fan of letters tied with string. Mounted on the wall beside the kitchen doorway was an old brass service bell — the kind wired through a great house to summon staff from any room — except its clapper had been bound up in a twist of felt and waxed thread, so that it could not have rung if the manor had caught fire. Addie noted it the way you note a scar on a friendly face, filed it, and said nothing.",
+      "note": "SEED #1 of the bell system: Addie notices one muted/declappered service bell by the kitchen/dining threshold and registers it as odd without asking. No explanation.",
+      "edit_class": "SEED"
+    },
+    {
+      "id": "ch08-max-agoraphobia-seed",
+      "file": "01_08_the_weight_of_being_asked.md",
+      "type": "replace",
+      "expected_count": 1,
+      "find": "\"They live here,\" Max said simply. \"Lady Mae is of the opinion that if your people can't live with you, they oughtn't be your people.\"",
+      "replace": "\"They live here,\" Max said simply. \"As, for that matter, do I — I’ve not set a hoof past the front veranda in more years than I’ll admit to a stranger. The lawn and I have an understanding.\" He said it lightly, the way a man says a thing he has decided to find funny rather than examine. \"Lady Mae is of the opinion that if your people can’t live with you, they oughtn’t be your people.\"",
+      "note": "SEED Max's Book-1 surface trait: he never leaves the house (veranda/porch fine, never the lawn), played as dry, self-aware agoraphobia. DELAYED-PAYOFF PROTECTION: do NOT hint the real reason (Dovren would have him killed / the failed house-binding spell / the screeching rule / Vayne descent).",
+      "edit_class": "SEED+PROTECTION"
+    },
+    {
+      "id": "ch22-mae-nameuse-and-bell-payoff",
+      "file": "01_22_go_with_the_eagle.md",
+      "type": "replace",
+      "expected_count": 1,
+      "find": "Mae inclined her head, regal even flopped on a couch. \"I know,\" she said. \"Now get out, you horny old bastard, we're trying to save the world.\"\n\nMax got out.",
+      "replace": "Mae inclined her head, regal even flopped on a couch. \"I know,\" she said. \"Now get out, Bellwether, before you make me feel something in front of the children. We are trying to save the world.\"\n\nMatthieu, gathering his papers, had stopped with his head tilted at the wall by the door. \"That’s the fourth one,\" he said, to no one in particular, and pointed his rolled diagrams at the little brass bell mounted there, its clapper bound in wire and cloth. \"There’s one in every room I’ve set foot in. The bath. The long hall. My own quarters, over the bed. Every last one wrapped or tied or gutted so it can’t ring.\" He looked round at them. \"Why would a house put a bell in every room and then go to all that trouble to silence every single one?\"\n\n\"They’re servant bells,\" Carrio said, without looking up from his gloves. \"Old blood-house fashion. Pull a cord in the parlor, a bell rings belowstairs, and some poor soul comes running — so you never have to raise your voice or trouble yourself to learn a name. A house like this would’ve had them wired to every room in it.\"\n\nFrom the doorway, Max made a sound. It began as a cough, lost the argument, and became a laugh — a big, wheezing, wholly personal laugh, the laugh of a man remembering something that was not, on its face, funny at all.\n\n\"Don’t,\" said Mae, without heat, \"get him started.\"\n\nMax got himself under control with visible effort and said nothing, which was somehow worse.\n\n\"My family used them to summon staff,\" Mae said to the room, in the flat voice of someone reciting the dull half of a story. \"You ring; a person appears; you never once have to look them in the eye. I ended the practice the day the house became mine — which was the day they sent me here to sit with the Conclave and mind the capital’s manners. Exile, if you want the honest word, though no one in Nox Vaelor had the courtesy to use it.\" She turned her coin over her knuckles. \"The bells stay quiet. The staff and I manage like people.\"\n\nSomeone — Gregory, probably — started to ask why, if she loathed them so, she had never simply had them torn out of the walls. Mae’s eyes flicked up. Something crossed her face and was gone. She flipped the coin again and did not answer, and the question died in the air the way questions did around the Speaker once she had decided they would.\n\nAddie filed it — another old scar the people who lived with it had learned to wear smooth — and left it where it lay.\n\nMax got out.",
+      "note": "TWO things: (1) fix Mae's name-use per canon — she deflects Max's sincerity with 'Bellwether' (deflection tell), not casual 'Max'/insult; (2) insert the Book-1 bell PAYOFF beat before departure: Matthieu names the pattern, Carrio identifies the servant-summoning function, Max laughs (personal, unexplained), Mae says 'Don't get him started,' Mae gives the SURFACE explanation (family summoned staff; she stopped when the house became hers; sent to the Conclave = exile from Nox Vaelor). Gregory's 'why not tear them out?' dies unanswered. Addie files it as a household scar. DELAYED-PAYOFF PROTECTION: no anti-tampering enchantment, no Bellwether-name origin, no Vayne descent, no Aes Sidhal executions.",
+      "edit_class": "PAYOFF+PROTECTION"
+    },
+    {
+      "id": "ch09-bell-bath-seed",
+      "file": "01_09_day_one_architecture.md",
+      "type": "replace",
+      "expected_count": 1,
+      "edit_class": "SEED",
+      "find": "Rich, and *functional.* Like everything in this house. Like the woman who owned it.",
+      "replace": "Rich, and *functional.* Like everything in this house. Like the woman who owned it.\n\nThere was a bell in here, too — mounted by the bench, where a soaking bather could have reached it, an old brass servant’s bell exactly like the one downstairs by the kitchen door, and exactly as dead: its clapper drawn, its throat packed with a twist of oilcloth, lacquered over so many times it had half sunk into the wall. That made two.",
+      "note": "SEED #2a: a second disabled bell (bath suite), matched to the 01_08 kitchen bell. Addie clocks 'that made two.' No explanation."
+    },
+    {
+      "id": "ch09-bell-pattern-resolves",
+      "file": "01_09_day_one_architecture.md",
+      "type": "replace",
+      "expected_count": 1,
+      "edit_class": "SEED",
+      "find": "the whole household eating like a family that happened to contain a Conclave Speaker and several instruments of cosmic policy.",
+      "replace": "the whole household eating like a family that happened to contain a Conclave Speaker and several instruments of cosmic policy.\n\nThere was a bell here as well, above the sideboard — its small brass mouth stuffed with felt and tied off with a ribbon so old its color had given up. Addie had counted three or four of them now, between her room and this one, and the shape of it finally resolved the way a proof does: one in every room, and every last one deliberately, patiently silenced. Not broken. *Kept, and gagged.* She filed it with the house’s other quiet contradictions and reached for the coffee.",
+      "note": "SEED #2b: the PATTERN lands — dining/sideboard bell + Addie realizes every room has one and all are deliberately silenced (not broken). No explanation (payoff is 01_22)."
+    },
+    {
+      "id": "ch12-corridor-bell-callback",
+      "file": "01_12_the_unwound_core.md",
+      "type": "replace",
+      "expected_count": 1,
+      "edit_class": "SEED",
+      "find": "He turned for the corridor. \"This way. Mind the mood.\"",
+      "replace": "He turned for the corridor. “This way. Mind the mood.” Set into the wall along it, at a servant’s easy reach, was another of the dead bells — this one bound in a neat sleeve of the same black cloth as the drapes, so that you would only find it if you already knew to look. Addie was beginning to know to look.",
+      "note": "Light bell callback in the corridor (keeps the pattern alive as Max leads them in). No explanation. Optional per packet; fits naturally."
+    },
+    {
+      "id": "ch21-sandwich-standards",
+      "file": "01_21_the_stupid_thread.md",
+      "type": "replace",
+      "expected_count": 1,
+      "edit_class": "SURFACE",
+      "find": "Good sandwiches, served with impeccable disappointment.",
+      "replace": "Good sandwiches, served with impeccable disappointment. A house of this name did not serve sandwiches; in all his tenure it never had; and that it was doing so now, with the world’s great clock running red in the windows, plainly struck Max as the truer catastrophe — not the monster at the end of the maze but the collapse of a standard, the day the household finally could not rise to the occasion because the occasion had become the end of everything. He set the platter down the way a man lays out battlefield casualties. “I had not planned for apocalypse lunch,” he said. “This is not our standard.”",
+      "note": "Sharpen Max's sandwich disappointment into household-standards-collapse under apocalyptic logistics (dark satire), now with the approved spoken Max line ('I had not planned for apocalypse lunch. This is not our standard.'). Narration uses 'Max' (Mae absent). No Bellwether lore."
+    },
+    {
+      "id": "ch13-mae-max-ariadne-look",
+      "file": "01_13_the_thread_back_out.md",
+      "type": "replace",
+      "expected_count": 1,
+      "edit_class": "SEED+PROTECTION",
+      "find": "He looked at his own hands. \"So even if you were strong enough to kill the thing — even if you *won* — you'd wander that shifting dark until you starved, because knowing your way *in* told you nothing at all about your way *out.*\"",
+      "replace": "He looked at his own hands. \"So even if you were strong enough to kill the thing — even if you *won* — you'd wander that shifting dark until you starved, because knowing your way *in* told you nothing at all about your way *out.*\"\n\nMae’s coin stopped. Across the room, Max caught her eye and held it half a second too long, and neither of them said a word. Addie clocked the look and filed it in her back room, beside every other thing in this house that did not yet have a label — the silenced bells, the servant who never went outdoors, the way the whole place felt built to keep something in or something out. She did not understand it yet. She only marked the shape of the gap where the understanding would go.",
+      "note": "SALVAGED from GPT Insert E (verified: the moving-maze/'starve'/'no way back out' beat is genuinely in 01_13, not 01_12). Tiny Mae/Max shared look at the line that rhymes with the house-binding + Max's near-starvation. Addie files it, does not understand. DELAYED-PAYOFF PROTECTION: reveals nothing about the spell, the binding, the starvation, or Vayne."
+    }
+  ],
+  "staged_next_batch": [],
+  "consistency_notes": [
+    "01_12: Brynn's wife Roslin L. Hearthstone is NOT referenced anywhere in the chapter — no spelling correction needed (nothing to fix).",
+    "01_16 & 01_17: reviewed — Mae spelled correctly throughout (no Mei/May); Max references are consistent and actually reinforce agoraphobia (he withdraws inside / stays in the kitchen 'content to be left behind'). No edits required.",
+    "01_09: Max already well-integrated in logistics (field clothes, breakfast, exit at the obsidian doors); only bell seeds added. He opens the doors for the group but is never shown crossing the threshold — consistent with the agoraphobia seed; left as-is."
+  ]
+}

@@ -28,6 +28,8 @@ But first: the bath.
 
 The bathing room off the guest quarters was, frankly, obscene. A sunken basin of black stone big enough to drown a small committee, fed by four brass nozzles, each apparently plumbed to a different pleasure — she turned one and lavender steam rolled out, turned another and the water ran a warm cinnamon crimson that smelled of cardamom and someone else's much better life. It was absurd. It was also, she noted, perfectly practical: grab bars where you'd want them, non-slip stone, a bench at exactly the right height. Rich, and *functional.* Like everything in this house. Like the woman who owned it.
 
+There was a bell in here, too — mounted by the bench, where a soaking bather could have reached it, an old brass servant’s bell exactly like the one downstairs by the kitchen door, and exactly as dead: its clapper drawn, its throat packed with a twist of oilcloth, lacquered over so many times it had half sunk into the wall. That made two.
+
 She sank in to her chin and let the pieces of the impossible day float around her. A dwarf who'd shot a scroll and worse. A restaurant called the Bountiful Harvest. Archives somewhere in a city called Luminthalas that might explain why the cosmos wanted her there. A dam. A river. Twenty-five days that hadn't even started counting, because the green beacon wasn't due until tonight. She turned it all over in the steam and did not solve any of it, and let herself, for a quarter of an hour, not have to.
 
 ---
@@ -65,6 +67,8 @@ Then she went down to breakfast.
 ## Breakfast Before Departure
 
 She was late, and the dining room was already a warm riot of food and people — staff and companions folded together down the long table, platters of eggs and fruit and dark bread, the whole household eating like a family that happened to contain a Conclave Speaker and several instruments of cosmic policy.
+
+There was a bell here as well, above the sideboard — its small brass mouth stuffed with felt and tied off with a ribbon so old its color had given up. Addie had counted three or four of them now, between her room and this one, and the shape of it finally resolved the way a proof does: one in every room, and every last one deliberately, patiently silenced. Not broken. *Kept, and gagged.* She filed it with the house’s other quiet contradictions and reached for the coffee.
 
 Rhün's chair was empty. She filed it.
 

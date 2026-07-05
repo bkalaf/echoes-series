@@ -230,25 +230,75 @@ Carefully, as if it might change its mind, he put his small burned paw in hers. 
 
 "So I'm hired," Brickett said thickly, recovering. "I'm attached to you now. Mother said. I'm supposed to—"
 
-"No," Addie said. "Absolutely not. I am not adopting, hiring, or in any sense *attaching* a chaotic, incendiary, self-taught fourteen-year-old fire hazard to my—"
+No. Absolutely not. She was not adopting, hiring, or in any sense attaching a chaotic, incendiary, self-taught fourteen-year-old fire hazard to her — and she kept every word of it behind her teeth, because saying it aloud to a soot-streaked child from a people the world had spent its whole history stepping over would have made her sick.
 
-"I did it out of order," Brickett interrupted, stricken with a sudden professional guilt. "The Mark. I wasn't supposed to say that yet, I skipped ahead, I always skip — look. Look at the clasp. On my bag." He shoved the battered pack forward.
+“I did it out of order,” Brickett said, stricken with a sudden professional guilt. “Mother said the order was very specific. Very specific. And I went and did it out of order because Big Bird over there —” he jabbed a paw at Major Tallandra, who was not remotely a bird, was in point of fact eagle-kin, and who went very still at the insult — “was trying to cut my throat, and I panicked, and I skipped a step, and now it’s all —” He was starting to shake. “I’m sorry. I’m sorry, I ruined it, I always ruin it, I’m sorry —”
 
-"He does know we can all hear him," Barry observed to Boss.
+“Hey. Hey. You didn’t ruin anything.” Addie went down — not a crouch but all the way onto one knee, the way you get under the eyeline of something small and frightened, so she was looking up at him instead of down. “Breathe. There’s no order I know about. You’re not in trouble. Take your time.”
 
-Addie turned the pack's clasp to the light — and stopped. Slowly, she reached up and drew out, from under her collar, the simple silver pendant she had worn every day of her adult life. Tallandra's head tilted; the lieutenants leaned in; and it occurred to all of them at once that not one of them had ever actually *seen* the thing clearly before, as though it had spent years declining to be looked at.
+Brickett breathed. Pulled himself together with a visible, heroic effort. “Fine. Okay. You’re supposed to just — see it. On your own. And I rushed, so —” and he wheeled around, snatched the battered pack off the floor, and thrust it up into her face. An inch from her nose.
 
-She laid the pendant down beside the clasp.
+“Oh,” Addie said, going cross-eyed. “That’s — a lovely pack. Truly.”
 
-The marks were the same. Not similar. The *same* — twelve nested, interlocking geometric configurations, orb within ring within orb, matched line for impossible line. Addie had taken this symbol to the finest mathematicians and symbologists in three cities across eleven years, and every one of them had turned it over, and frowned, and handed it back, and admitted they had never seen its like and could not place it.
+“Not the pack.” He shoved it closer.
 
-Here it was. Stamped into a street child's luggage clasp.
+She looked, helplessly, over the top of it — at Barry, at Boss, at Tallandra. All three shrugged in perfect unison, a small parliament of no idea. She looked back at the pack. Brickett snatched it to his chest and rammed it back at her face. “Don’t look at the pack.”
 
-"Brickett," she said, and her voice had gone very careful. "Where did you get this."
+“You just told me to —”
 
-"Mother gave it to me," he said, simply, proudly. "For my birthday. Yesterday. It's the first birthday present I ever got."
+His head appeared, slowly, over the top edge of it, eyes narrowed with terrible significance. “Look. Look *through* the pack.”
+
+“Brickett,” Addie said, from one knee, with the last of her patience, “I do not understand.”
+
+He lowered the pack, and something in his small face crumpled — not anger but the specific, ancient despair of a clever person surrounded by the slow. “You’re so smart, Miss Moderator,” he said mournfully. “Smartest one there is. But sometimes you just can’t see the forest for the trees.” He said it like a proverb worn smooth from use. Then he looked at the floor and began, quietly, to pout, muttering to himself, and gave the bag two sullen little punches.
+
+Then he froze. His head came up. His eyes went enormous. “That’s it,” he breathed, and dropped the bag. “That’s it, I’ve got her on a technicality.” He rounded on Addie, delighted, and pointed. “She said I can’t *tell* you. She never said I couldn’t get somebody *else* to.”
+
+He marched to Boss and smacked him on the leg.
+
+Boss looked down the considerable distance to him. “I got it. What do you want, little guy?”
+
+Brickett hauled the pack up and presented it. “Look at the clasp. And describe it. Out loud. For the Miss Moderator. Don’t ask why.”
+
+Boss, with the patience of a large man long accustomed to small tyrants, turned the clasp to the light and squinted. “It’s, uh… a symbol. Bunch of little geometric shapes. Circles. A cross in the middle. Buncha lines. Ten of ’em, maybe eleven, all sort of nested up in each —”
+
+Addie was across the room before he finished, and took the pack out of his hands.
+
+“— okay,” Boss said, to the space where it had been. “Yeah. Got it. What’d I say?”
+
+“Oh,” Addie said, staring at the clasp. “Oh, by the gods.”
+
+Brickett folded his arms and beamed, radiant with the pride of a person who has beaten the system on a jurisdictional point.
+
+Addie carried the pack to the little table, set it down, and drew out from under her own collar the plain silver pendant she’d worn every day since the reading of her mother’s will. Tallandra drifted in; Boss and Barry and the jackrabbit officer gathered; and it struck all of them at once that not one of them had ever really *looked* at the thing on her chest before. She turned it over — the back of it, which she herself had somehow never once turned to the light — and laid it beside the clasp.
+
+The marks were the same. Not similar. The *same* — nested, interlocking, orb within ring within cross within orb, matched line for impossible line.
+
+“This was my mother’s,” Addie said, and she wasn’t talking to any one of them now. “She left it to me eight months ago, in her will. She wore it my whole life. I never once saw the back of it. I thought it was a plain silver disc.” She swallowed. “She always told me it was a gift from my father.”
+
+Nobody said anything.
+
+“I’ve shown it to two dozen people since — symbologists, bureaucrats, anyone I thought might have the faintest idea what it was or where it came from. Nothing. A nothing-burger, top to bottom. I even wrote to an old rival of mine from university — the finest symbologist in the nation, a dragon-kin who’s forgotten more marks than the rest of his kind have ever learned — and he’d never seen it either.” She pressed her thumb to the disc. “The one useful thing anyone ever told me came from a friend who does mathematics. He said there are twelve, maybe fifteen distinct figures worked into it — more, if you split the cross into separate strokes. And that if you scattered those pieces at random, you could arrange them something like twenty thousand different ways.”
+
+By the door, Sergeant Oren V. Antlerfell — the stag, who had reported the brick’s impossible geometry not ten minutes before — lifted his great antlered head. “Did you say twenty thousand?”
+
+“I did.”
+
+The stag’s jaw worked as he ran it. “Then the odds of two people, unconnected, carrying the exact same arrangement are —” He stopped. “Vanishingly small. Next to impossible.”
+
+“Exactly.” Addie turned to the whole room now. “There are three, four thousand stars you can see at once on a clear night. Over the whole turn of a night you’ll see about ten thousand — half the sky. Add the ten thousand more wheeling over the far side of the world in daylight, the ones we never lay eyes on, and you get twenty thousand. Every star there is.” She looked around at them. “That’s the same number. This mark is one star out of every star in the sky. And the child who threw himself in front of a brick to save my life is carrying that one — on a pack handed to him, this week, by someone calling herself Mother, who seems to know things she has no way of knowing.”
+
+Boss got there first. “You’re — that’s divinity. You’re saying somebody *designed* it.”
+
+“I’m too much of a scientist to say that.” Addie set the pendant down very gently. “But I’ll say there are forces working here that none of us understand. Myself included.”
+
+She looked at the boy. “Brickett. Where did you get this.”
+
+“Mother gave it to me,” he said, simply, proudly. “For my birthday. Yesterday. It’s the first birthday present I ever got.”
 
 The little shop absorbed the whole weight of that sentence, and no one could think of a single thing to say into it.
+
+Brickett, though, only looked pleased with himself, and pointed one small triumphant claw at the pendant. “You mean Mother.”
 
 Then Brickett's face filled with concern. He peered at Addie. "Wait. Did you hit your head when I — you think I mean *your* mother? The one that—" He winced with real sympathy. "No. No, I'm sorry, I didn't mean her."
 

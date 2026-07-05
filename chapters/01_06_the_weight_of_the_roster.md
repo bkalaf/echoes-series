@@ -16,13 +16,29 @@ Stonewake, 2nd of Hearthwake, Hour of the Singularity [Noon +5 hours]
 
 The doors of the Conclave High Assembly were eighty feet of worked bronze, and Addie — who had read, in a dry regional survey nobody else had ever finished, that they had been fifteen feet high at the founding — understood with tired clarity that power grows architecture to fit the size it believes itself to be. She would have found that observation more interesting on a day when the floor beneath her was not a theoretical courtesy. As it stood, she asked only one thing of the eighty feet of bronze and the mile of imperial stone behind it: that it not shatter and drop her into whatever was underneath.
 
-Barry and Boss stopped at the threshold. The procedural texts, Boss explained apologetically, were not encouraging about testing the old enchantments in the doorway with a body that wasn't named on the invitation, and neither of them fancied finding out the hard way.
+Barry and Boss stopped at the threshold. The procedural texts, Boss explained apologetically, were not encouraging about testing the old enchantments in the doorway with a body that wasn’t named on the invitation, and neither of them fancied finding out the hard way.
 
-"So this is you," Boss said. He put a heavy paw on her shoulder. "You're gonna be great. Main thing — and I cannot stress this enough — do not throw up in there."
+“So this is you,” Boss said. He put a heavy paw on her shoulder. “You’re gonna be great. Main thing — and I cannot stress this enough — do not throw up in there. And take another pellet now, while you can. You’ll want it, dealing with the Sovereign and the Speaker both.”
 
-"Good luck," Barry added, with a sincerity that helped exactly nothing.
+Addie’s stomach dropped a floor. “The Sovereign. He’s going to be *in* there? I thought this was just the Conclave.”
 
-"Boss is taking the beaver to the barracks to get him bathed," Addie noted, and heard the naked envy in her own voice. Somewhere in this city a person was about to have the simple, honest, finite task of getting soot out of a fourteen-year-old, and she would have traded the entire imperial capital for it.
+“Oh, he’ll be in there somewhere. Tucked in a corner where nobody’s looking — that’s where he likes to sit.” Boss shrugged, a mountain resettling. “We hear the members talking on their way out. Guards hear everything. Nobody ever remembers we’ve got ears.” He nodded at her kit. “So take the pellet. Get it down now. Better than meeting him green.”
+
+She took one, and swallowed it dry.
+
+“And — hey. That was one hell of a speech,” Boss added, unexpectedly gentle, while she got it down. “Out on the steps. I could tell you were clever the second I laid eyes on you. Didn’t know you had *that* in you.”
+
+“One hell of a speech,” Barry agreed. “And just to show you how much we mean it — soon as we’re off, him and me are settling it fair, rock-paper-scissors, and the loser’s got to bathe your attached little friend. We’ll be at the guard tower when you’re out —” he tipped his head down the long approach to the High Sovereign’s palace, at a squat barracks she could just pick out through the crowd — “over there.”
+
+“We don’t even need to draw for it,” Boss said. “I’ll bathe the little terror myself. Happy to, Moderator. I’d do just about anything for you.”
+
+“Don’t even *try* it, Boss,” Barry said, without heat. “She is the living definition of out of your league. Don’t listen to him, Moderator — you can do a sight better than this one.” Boss shoved him; Barry shoved back; and the two of them fell to a slow, grinning, wholly sincere grapple right there against ten thousand years of imperial stone.
+
+And Addie stood a moment and watched two Concord guards — two men who a week ago would have stopped her in the street and asked, bored, for her papers — shove each other like boys in a schoolyard, on the worst and strangest day any of them had lived through, in the light of a beacon that shouldn’t exist, and go out of their way, in the middle of all of it, to be kind to her for no reason she could bill them for.
+
+*Maybe I’ve miscalculated people,* she thought. *Maybe they’ve been miscalculating me right back, this whole time, and nobody ever checked the sum.*
+
+She couldn’t afford to sit with it. She had a room full of the seventy-two to walk into. But the thought arrived anyway, quiet and unwelcome and hopeful: *Maybe I’ve miscalculated the Conclave, too.*
 
 She tugged the blue robe with the white trim straighter across her shoulders — it sat oddly, pulled somewhere it shouldn't, but she had neither the attention nor the will to interrogate her own clothing right now — and the great doors did not so much open as depressurize, a long vault-like hiss of ancient air, and Addie walked in alone.
 
@@ -42,9 +58,11 @@ Behind the massive obsidian dais at the focus of the half-moon sat a silver-hair
 
 She was heavy with earrings and visible ink, entirely composed, and studiously, insultingly relaxed, and she was flipping a coin — blackened on one face, bright silver on the other. *Flip. Clink. Catch.* Lady Mae'vyri H. Van'kareth, Speaker of the Conclave, watched Addie cross the whole long floor toward her and did not take her feet down.
 
-"There she is," Mae said, to the room as much as to Addie. "The Moderator herself. Late. Very nearly dodged a whole chamber of questions by getting collected off a staircase — I don't know whether to be offended or impressed." *Flip. Clink. Catch.* "Bit of both, I think."
+"There she is," Mae said, to the room as much as to Addie. "The Moderator herself. Late. Very nearly dodged a whole chamber of questions by getting collected off a staircase — I don't know whether to be offended or impressed." *Flip. Clink. Catch.* “Bit of both, I think.”
 
-Addie's face went hot, but her feet didn't slow. She reached the dais, and she put out her hand.
+*Oh, no,* Addie thought. *I haven’t miscalculated the Conclave. These assholes, I got right.*
+
+Addie’s face went hot, but her feet didn’t slow. She reached the dais, and she put out her hand.
 
 "Adeshka Sonntag," she said. "Head Moderator, apparently. And thank you — sincerely — for the assistance getting me out of Skyrend Peak. Someone tried to put a brick through my skull today, and your people helped, whatever their reasons."
 

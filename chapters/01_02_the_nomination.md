@@ -80,7 +80,7 @@ She took it. The ribbon dissolved at her touch — reading her, confirming her, 
 
 Addie crossed the room and tore open the curtains.
 
-Across the dark of Skyrend Peak, above the rooftops, Stormspire Aerie was bleeding violet into the sky — a tower she had walked past that very afternoon, dead and ornamental, now pouring light up into the clouds in a color she had only ever met in the oldest texts. She did not need the back room for this one. She did not need a single equation. She had spent her whole underfunded, overlooked career learning to tell the real thing from the fakes, and every instinct she owned stood up at once and said the same word.
+Across the dark of Skyrend Peak, above the rooftops, Stormspire Aerie was bleeding violet into the sky — a tower she had walked past many times — this was not her first trip to Skyrend Peak — always dead and ornamental, its beacon silent and unburning, now pouring light up into the clouds in a color she had only ever met in the oldest texts. She did not need the back room for this one. She did not need a single equation. She had spent her whole underfunded, overlooked career learning to tell the real thing from the fakes, and every instinct she owned stood up at once and said the same word.
 
 It wasn't a malfunction. It wasn't a festival stunt or a noble's vanity or a trick of the weather.
 
@@ -110,15 +110,15 @@ That was the first wrong thing. Guildmaster Kwame Odion Mensah did not pace; he 
 
 "Kwame." She had never said his name gently to him before; it felt strange in her mouth. "What is happening? That's an initialization loop out there. That's the network coming up — the beacon's not just lit, it's *cycling,* it's talking to the others. I need to know how far it's gone."
 
-"Further than that." He let go of her elbows only to gesture at the whole shaking building. "The Conclave's called an emergency session. Both factions are moving militia into the streets under 'guard' authority. The gates are locking city by city. It is not a warning, Addie, it's already *happening.*"
+"Further than that." He let go of her elbows only to gesture at the whole shaking building. "The Conclave's called an emergency session. Both armed factions — Concord and Ruin — are moving militia into the streets under 'guard' authority. The gates are locking city by city. It is not a warning, Addie, it's already *happening.*"
 
 She reached for the one handhold she had — the history, the precedent, the thing she actually knew. "Then it follows the old protocol. Beacon activation appoints a Facilitator. Passive role. You log the state data, you record what the Conjunction does, you manage the boundaries between the parties and you *don't touch the outcome.* That's what the records say. That's the whole point of a Facilitator — a neutral clerk with no teeth—"
 
 "The records are dead." Kwame said it quietly, and the quiet was worse than shouting. "Whatever's happening tonight, the old protocol doesn't answer to it. Come and look at what actually arrived."
 
-His office was worse than the corridor, because it was still. On his desk, on black parchment that drank the lamplight, lay a document, and pressed into it was a seal that made the back of her neck cold before she'd read a single word.
+His office was worse than the corridor, because it was still. On his desk, on black parchment that drank the lamplight, lay a document, and pressed into it was a seal — or the ruin of one: a wax impression cracked and broken up, so that she could tell a seal had been there and not, for the life of her, make out what it had been. That unreadable smear made the back of her neck cold before she’d read a single word.
 
-"The Master Seal broke three hours ago," Kwame said. "In the vault. On its own. This came under that authority. I've read it four times and I need you to read it once, because you'll see the thing I can't stop seeing."
+"The Master Seal,” Kwame said. “You won’t have heard of it — almost no one has. A mark the High Sovereign and a handful of bureaucrats are sworn to watch for and otherwise never name; I only learned of it myself tonight. They swear this one arrived intact and was broken by the royal astronomer’s own hand, up in her tower, three hours ago. What you’re holding is only a copy — the same seal, run off and pushed out to every guild in the city, for reasons I’m told will become obvious forthwith. I’ve read it four times and I need you to read it once, because you’ll see the thing I can’t stop seeing."
 
 She read it.
 
@@ -128,7 +128,7 @@ She found the thing on the first pass. It was one word, and it was everywhere, a
 
 "And every recognized guild," Kwame said, "has until noon tomorrow to put one name in that chair. One binding nominee, each. Or the guild loses its voice for the whole cycle."
 
-Addie laughed. She couldn't help it; it came out sharp and disbelieving. "Then may the saints help the ministers, because that's a knife fight for people who *want* the knife. That's a political nightmare — that's a thing for the Conclave's sharpest sharks, the ones who dream in leverage. It is emphatically not a job for an archivist who disproves other people's ghost stories for a living." She shook her head. "Whoever your guild picks, I'll happily brief them. I hope they're paid well and sleep with the lights on."
+Addie laughed. She couldn't help it; it came out sharp and disbelieving. "Then may the saints help the ministers, because that's a knife fight for people who *want* the knife. That's a political nightmare — that's a thing for the Conclave's sharpest sharks, the ones who dream in leverage. It is emphatically not a job for an archivist who disproves other people's ghost stories for a living." She shook her head. "Whoever our guild picks, I’ll happily brief them. I hope they're paid well and sleep with the lights on."
 
 Kwame did not laugh.
 
