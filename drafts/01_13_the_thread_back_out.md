@@ -16,6 +16,14 @@ Working title chosen for parse:
 
 This chapter follows `01_12_the_unwound_core.md` and continues directly from Mae calling Barnaby back into the room after he accidentally named Ariadne’s Thread.
 
+## Required Canon Links
+
+- `canon/05_CHARACTERS.md`
+- `canon/18_MAXIMILIAN_BELLWETHER_LORE.md`
+- `drafts/revision_passes/MAX_BELLWETHER_MANOR_BELLS_PASS.md`
+- `canon/15_SETTINGS.md`
+- `canon/16_SCENES.md`
+
 ## Title Rationale
 
 **The Thread Back Out** captures Barnaby’s key thematic insight:
@@ -30,13 +38,14 @@ This is a contained sitting-room explanation / riddle-reframing chapter.
 
 It should remain standalone because it completes the Ariadne’s Thread pivot introduced at the end of `The Unwound Core` and gives Brynn her first major intellectual contribution to the group.
 
-It performs five jobs:
+It performs six jobs:
 
 1. lets Barnaby explain Ariadne’s Thread through craft, memory, and personal meaning;
 2. surfaces “Ancient Greece” as an old-world oral fragment without turning it into a full Earth-history lecture;
 3. clarifies that thread matters because survival requires a way back, not merely victory inside the maze;
 4. allows the room to identify Ariadne’s Thread as likely answer-material while Gregory keeps caution alive;
-5. lets Brynn solve the riddle’s grammar/punctuation problem by inserting one comma: **horned, dead charge**.
+5. seeds a tiny Mae/Max reaction to moving-maze / thread logic without explaining the Bellwether house magic;
+6. lets Brynn solve the riddle’s grammar/punctuation problem by inserting one comma: **horned, dead charge**.
 
 ## Visible Subchapters
 
@@ -61,6 +70,8 @@ Barnaby provides the emotional / cultural meaning of Ariadne’s Thread. Gregory
 
 The scene should shift from comic discomfort to mythic stillness, then back into practical mission logic.
 
+It should also include a small unresolved Mae/Max seed: when Barnaby describes a moving maze, thread, or finding the way back out, Mae and Maximilian T. Bellwether share a look that Addie notices but cannot yet interpret.
+
 ## POV / Narrative Mode
 
 Primary close third on Addie.
@@ -70,6 +81,7 @@ The room’s reactions matter because this is a comprehension scene. Addie shoul
 - who relaxes when Barnaby says it is “just old mythology”;
 - who tenses when Barnaby says **Ancient Greece**, not Thalorion;
 - Gregory’s caution after the story;
+- Mae and Max exchanging a tiny, unexplained look when the story touches moving mazes / thread / finding the way out;
 - Brynn’s confidence when she recognizes the riddle has been read wrong;
 - the physical smallness of the comma compared to the scale of the revelation.
 
@@ -101,10 +113,10 @@ No new reusable setting is needed unless later prose distinguishes the sitting r
 - High Theorist Matthieu H. Cardinal.
 - Yurislav H. Arslan.
 - Major Tallandra H. Highwatch.
-- Barnaby the froglok tailor / household artisan.
-- Max and/or household staff may remain nearby but do not need to dominate.
+- Barnaby T. Threadmere, froglok tailor / household artisan.
+- Maximilian T. Bellwether / Max may remain nearby and should share one subtle look with Mae during the moving-maze/thread explanation.
 
-Rosalind / Roslin is open. If she stayed at the restaurant, she should not be present. If she returned with Brynn, she can observe quietly, but the chapter currently functions without her.
+Roslin L. Hearthstone is not required here. If she stayed at the restaurant, she should not be present. If she returned with Brynn, she can observe quietly, but the chapter currently functions without her.
 
 ## Required Objects / Systems
 
@@ -115,6 +127,7 @@ Rosalind / Roslin is open. If she stayed at the restaurant, she should not be pr
 - Brynn’s practical eye / accent-comprehension awareness.
 - Ariadne’s Thread myth fragment.
 - The comma added by Brynn.
+- Subtle Bellwether house-magic seed: Mae/Max look at moving-maze / thread / way-back-out logic. Do not explain.
 
 The riddle should be preserved as originally heard:
 
@@ -180,6 +193,11 @@ Do not rewrite the original wording. The point is that the words do not change; 
 12. Passages change behind the person who enters.
 13. Knowing the way in does not mean knowing the way out.
 14. The room becomes still because “maze that moves” echoes the current Conjunction logic.
+15. Mae’s coin may stop.
+16. Across the room, Max looks at Mae.
+17. Neither of them says anything.
+18. Addie notices the look and files it in her back room, but has no context for it yet.
+19. Do not explain the Bellwether house magic here.
 
 ## Subchapter 4 — The Thread Back Out
 
@@ -273,6 +291,7 @@ Do not rewrite the original wording. The point is that the words do not change; 
 | Barnaby | Corrects to Ancient Greece | Matter-of-fact, not dramatic. |
 | Addie | Notices “ancient” and leans in | Do not over-explain her memory. |
 | Barnaby | Gives the moral: the sword wins, but the thread returns | Core thematic point. |
+| Mae / Max | Share a silent look at moving-maze / way-back-out logic | Seed only; no explanation. |
 | Addie | Thanks Barnaby for his craftsmanship | Builds loyalty and shows Addie respects labor. |
 | Barnaby | Says Addie is becoming a close second to Mae | Small emotional reward. |
 | Carrio | Tests whether others think this is the answer | Practical courtly synthesis. |
@@ -290,13 +309,15 @@ Do not rewrite the original wording. The point is that the words do not change; 
 - Use **Major Tallandra H. Highwatch**.
 - Use **High Theorist Matthieu H. Cardinal** unless later standardized differently.
 - Use **Gregory H. Frydrake**.
-- Barnaby is currently the froglok tailor / household artisan unless later corrected.
+- Use **Barnaby T. Threadmere** for the froglok tailor / household artisan.
+- Use **Maximilian T. Bellwether / Max** if Max is present. Mae’s direct address should follow the Bellwether / Maximilian / Max emotional-use rules.
 - Addie’s heirloom remains the simple silver pendant necklace; it is not central in this chapter but should not revert to hair clip language.
 - The chapter remains in Mae’s estate family room / sitting room.
 - The myth names may be intentionally misremembered by Barnaby; do not have him become a perfect classical scholar.
 - “Ancient Greece” should land as an old-world fragment, not a full exposition dump.
 - Do not reveal full Earth / ark / Mother truth through this myth beat.
 - The riddle’s solution depends on punctuation/pause, not changed words.
+- The Mae/Max look should seed later Bellwether house magic only. Do not explain the blood magic, the bells, Vayne descent, or Max family history here.
 
 ---
 
@@ -311,60 +332,11 @@ Preserve:
 - Gregory asking him to explain why it matters;
 - Barnaby saying Ancient Greece instead of Thalorion;
 - the moving maze;
+- Mae and Max sharing a subtle unexplained look at moving-maze / way-back-out logic;
 - the sword and red thread;
 - the lesson that killing the monster is useless without a way back;
 - Addie asking whether Barnaby’s people know the story;
 - Barnaby identifying it as tailor culture;
 - Addie thanking him for the clothes;
 - Barnaby saying Addie is becoming a close second to Mae;
-- Barnaby muttering about Brynn’s measurements/materials as he exits;
-- Carrio asking if the story is the answer;
-- Gregory’s almost-correct warning;
-- Brickett/Carrio/Yurislav/Matthieu saying the riddle still reads wrong;
-- Brynn asking for the riddle;
-- Brynn adding one comma;
-- the corrected reading: **That makes the horned, dead charge.**
-- Mae closing with the sense that they know where to begin.
-
-## Allowed Changes
-
-- Expand dialogue into narrative prose.
-- Smooth the script-like cadence.
-- Keep Barnaby’s nervousness but make his storytelling warmer and more embodied.
-- Let the room react in layers rather than with repeated “silence.”
-- Make Brynn’s grammar/pause expertise feel earned through lived mishearing, not random cleverness.
-- Keep the comic beats light without undercutting the reveal.
-
-## Not Allowed Changes
-
-- Do not make Barnaby a perfect mythologist.
-- Do not remove the Ancient Greece correction.
-- Do not make Gregory solve the comma before Brynn.
-- Do not remove Addie thanking Barnaby for the clothes.
-- Do not remove Barnaby’s loyalty beat toward Addie.
-- Do not change the riddle words.
-- Do not make the answer feel solved before Brynn’s comma.
-
----
-
-# Relationship To Next Chapter
-
-The next chapter should use the comma solution and Ariadne’s Thread logic to decide the next mission route.
-
-Expected next functions:
-
-- interpret **horned, dead charge**;
-- connect the horned clue to the relevant people / city / corpse / history / Minotaur analogue;
-- decide how Ariadne’s Thread can be acquired or identified;
-- convert Barnaby’s cultural story into operational logic;
-- move from manor-room puzzle solving back toward field action under green-phase pressure.
-
----
-
-# Open Questions / Follow-Up Flags
-
-1. Confirm final title: **The Thread Back Out** or another option.
-2. Confirm Barnaby species/name lock: froglok tailor / household artisan.
-3. Confirm whether Rosalind/Roslin is absent from this room.
-4. Decide how strong the “Ancient Greece” wrongness should feel in final prose.
-5. Decide whether Brynn’s corrected reading immediately points to a known city/site or whether that is the next chapter’s discovery.
+- Barnaby muttering about Brynn’s measurements/materials as he exits.
