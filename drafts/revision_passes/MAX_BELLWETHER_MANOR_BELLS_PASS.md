@@ -2,11 +2,15 @@
 
 ## Status
 
-Working revision pass for all current Book 1 draft/prose packets where Max / Mae-estate household logic appears.
+Working revision pass for Book 1 draft/prose packets where Max / Mae-estate household logic appears.
 
 Primary canon support file: `canon/18_MAXIMILIAN_BELLWETHER_LORE.md`.
 
-## Controlling Names
+This file consolidates the **Book 1 visible narrative edits** only. The full blood-magic, deportation, Vayne, and Geoffrik-book material is canonically stored in `canon/18_MAXIMILIAN_BELLWETHER_LORE.md`, but most of it must remain hidden in Book 1 prose.
+
+---
+
+# Controlling Names
 
 - Formal: **Maximilian T. Bellwether**.
 - Nickname: **Max**.
@@ -15,27 +19,50 @@ Primary canon support file: `canon/18_MAXIMILIAN_BELLWETHER_LORE.md`.
   - **Maximilian** when threateningly polite;
   - **Max** only when emotionally sincere or strategically urgent.
 
-## Files Found With Max / Mae-Estate Household Relevance
+Do not treat Max / Bellwether / Maximilian as interchangeable in Mae's dialogue.
 
-Search/past index pass found Max references in these active draft/prose/support files:
+---
+
+# Book 1 Visible Bell Rules
+
+Book 1 should show only the surface layer:
+
+- old service bells are installed in nearly every room of Mae's Aquila Matara manor;
+- the bells are tied down, wrapped in cloth, hidden behind decoration, muffled, declappered, or otherwise disabled;
+- they are clearly intentionally prevented from ringing;
+- staff do not use them;
+- Mae refuses bell-summoning as a household practice;
+- the obvious question — why not remove them? — may hover, but should not be answered in Book 1.
+
+Book 1 must **not** reveal:
+
+- the satyr blood magic;
+- the backfired line-binding spell;
+- that the spell taught Mae she was adopted;
+- Max's mother's death / Dovren's blood contract;
+- Max nearly starving alone in the disconnected manor;
+- Max's Vayne descent;
+- Geoffrik's locked book payoff;
+- the full house-protection mechanics.
+
+---
+
+# Files With Max / Mae-Estate Household Relevance
 
 - `drafts/01_08_the_weight_of_being_asked.md`
 - `drafts/01_09_day_one_architecture.md`
 - `drafts/01_12_the_unwound_core.md`
+- `drafts/01_13_the_thread_back_out.md`
 - `drafts/01_21_the_stupid_thread.md`
 - `drafts/01_22_go_with_the_eagle.md`
 - `drafts/README.md`
 - `canon/05_CHARACTERS.md`
 - `canon/15_SETTINGS.md`
 - `canon/16_SCENES.md`
-- `chapters/01_08_the_weight_of_being_asked.md`
-- `chapters/01_09_day_one_architecture.md`
-- `chapters/01_12_the_unwound_core.md`
-- `chapters/01_16_rapid_acceptance.md`
-- `chapters/01_17_children_of_the_damned.md`
-- `chapters/01_21_the_stupid_thread.md`
+- `canon/18_MAXIMILIAN_BELLWETHER_LORE.md`
+- generated prose under `chapters/` when prose-lock passes are run.
 
-This pass should be consulted before any Claude / prose-generation packet involving Mae's manor.
+Consult this pass before any Claude / prose-generation packet involving Mae's manor.
 
 ---
 
@@ -45,7 +72,7 @@ This pass should be consulted before any Claude / prose-generation packet involv
 
 ### Max introduction
 
-Current outline introduces Max as satyr head butler / household manager / flexible portfolio. Revise future prose packet to establish formal name once, then mostly use Max:
+Establish formal name once, then mostly use Max in narration:
 
 - Max opens the door in immaculate black formalwear.
 - He introduces himself as **Maximilian T. Bellwether**, then says everyone who survives Lady Mae long enough calls him **Max**.
@@ -55,8 +82,8 @@ Current outline introduces Max as satyr head butler / household manager / flexib
 
 Addie should notice one disabled service bell on the first manor night:
 
-- a little bell near a doorway, desk, or guest-room side table;
-- taped down, wrapped in cloth, missing its clapper, or otherwise silenced;
+- a little bell near a doorway, desk, guest-room side table, kitchen threshold, or hall table;
+- tied down, cloth-wrapped, hidden behind decorative work, missing its clapper, or otherwise silenced;
 - Addie registers it as odd but has no bandwidth to ask.
 
 Do not explain the bell system here.
@@ -67,21 +94,18 @@ Do not explain the bell system here.
 
 On the next morning / second manor movement, Addie should notice the same pattern in more rooms:
 
-- muted service bell in bath suite;
-- muted bell near dining-room sideboard;
-- cloth-wrapped bell near a corridor pull.
+- a muted service bell in the bath suite;
+- a muted bell near the dining-room sideboard;
+- a cloth-wrapped bell near a corridor pull;
+- possibly a bell hidden inside decorative vines / filigree / fabric.
 
-This confirms it is intentional household policy, not a broken object.
+This confirms intentional household policy, not one broken object.
 
 ### Name usage
 
-At breakfast, Mae can use **Bellwether** if annoyed with Max for timing, doors, or reporter logistics. Use **Max** only if she needs an urgent operational task done.
+At breakfast, Mae can use **Bellwether** if annoyed with Max for timing, doors, food, or reporter logistics. Use **Max** only if she needs something urgent or emotionally sincere.
 
 ## `drafts/01_12_the_unwound_core.md`
-
-### Roslin cleanup already needed
-
-Replace unresolved `Rosalind / Roslin` references with **Roslin L. Hearthstone** in future revision.
 
 ### Max role
 
@@ -90,6 +114,20 @@ When the manor becomes a synthesis room, Max should function as household intell
 ### Bell seed optional
 
 Addie may notice another disabled bell in the family room if pacing allows, but do not explain it here unless the scene organically calls attention to household systems.
+
+## `drafts/01_13_the_thread_back_out.md`
+
+### Barnaby / Ariadne look seed
+
+During Barnaby's Ariadne's Thread storytelling, when he explains that the maze moves and the thread is needed to find the way back out, Mae and Max should share a subtle look.
+
+Addie may notice this and file it away, but she should not understand it.
+
+The beat should be tiny:
+
+> Mae's coin stopped. Across the room, Max looked at her. Neither of them spoke.
+
+Do not explain the house magic here.
 
 ## `drafts/01_21_the_stupid_thread.md`
 
@@ -107,11 +145,9 @@ Do not overburden the sandwich scene with Bellwether lore.
 
 ### Max scolds the room
 
-This is the key Book 1 use of the new Max/Mae dynamic.
+This is the key Book 1 use of the Max/Mae dynamic.
 
-Current beats already have Max entering after Addie's accidental-family speech, calling the group asshats, including Mae, and saying he has words for her if they survive.
-
-Revise future prose so:
+Future prose should show:
 
 1. Max is the only household figure who can speak to Mae that way.
 2. Mae takes out anger on him because he is safe enough to take it.
@@ -146,11 +182,13 @@ Required shape:
 5. Mae explains, briefly, that her family used to use bells to call servants.
 6. She says she stopped that process when she took over the house.
 7. She may add that she only took this house because she was sent to work with the Conclave — exile from Nox Vaelor without the courtesy of being called exile.
-8. Do not reveal the Bellwether-name origin yet.
+8. Do not reveal the blood-magic / Bellwether-name origin yet.
 
 This keeps the Book 1 seed visible while preserving the later memory/vision reveal.
 
-## `chapters/` prose files
+---
+
+# Generated `chapters/` Prose Targets
 
 Generated chapter prose under `chapters/` should receive the same pass before prose lock. Do not regenerate solely from older drafts without applying this file.
 
@@ -158,9 +196,10 @@ Priority prose targets:
 
 1. `chapters/01_08_the_weight_of_being_asked.md` — formal intro + first bell seed.
 2. `chapters/01_09_day_one_architecture.md` — second bell seed.
-3. `chapters/01_12_the_unwound_core.md` — Roslin cleanup + Max role.
-4. `chapters/01_21_the_stupid_thread.md` — sandwich scene with Max as household standards enforcer.
-5. Future `chapters/01_22_go_with_the_eagle.md` — Max scolds Mae / bell explanation scene.
+3. `chapters/01_12_the_unwound_core.md` — Max role / optional bell seed.
+4. `chapters/01_13_the_thread_back_out.md` — Mae/Max look during Ariadne story.
+5. `chapters/01_21_the_stupid_thread.md` — sandwich scene with Max as household standards enforcer.
+6. Future `chapters/01_22_go_with_the_eagle.md` — Max scolds Mae / bell explanation scene.
 
 ---
 
@@ -168,9 +207,15 @@ Priority prose targets:
 
 Do not reveal these in Book 1 prose unless explicitly approved:
 
-- Max's descent from Geoffrik T. Vayne.
-- The fact that Mae invented the Bellwether surname during the satyr deportation crisis.
-- The Portalport execution / registration detail at Aes Sidhal.
-- The later vision in which Mae realizes the Witness/Architect system is showing her own memory.
+- satyr blood magic;
+- the house line-binding backfire;
+- Mae learning she is adopted through the spell;
+- Max's mother's death / Dovren's blood contract;
+- Max's father dying and Max being trapped alone;
+- Max's descent from Geoffrik T. Vayne;
+- the fact that Mae invented the Bellwether surname during the satyr deportation crisis;
+- the Portalport execution / registration detail at Aes Sidhal;
+- the later vision in which Mae realizes the Witness/Architect system is showing her own memory;
+- Geoffrik's locked book of secrets opening for Max.
 
 These are later-book / later-vision payoffs.
