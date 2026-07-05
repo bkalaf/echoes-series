@@ -10,6 +10,7 @@ This chapter begins after `01_21_the_stupid_thread.md`. The red beacon has been 
 
 - `AGENTS.md`
 - `canon/05_CHARACTERS.md`
+- `canon/18_MAXIMILIAN_BELLWETHER_LORE.md`
 - `canon/PROMPT_SUPPORT_CANON_LOCKS.md`
 - `canon/15_SETTINGS.md`
 - `canon/16_SCENES.md`
@@ -17,6 +18,7 @@ This chapter begins after `01_21_the_stupid_thread.md`. The red beacon has been 
 - `canon/12_BOOK01_CALENDAR_TIMELINE.md`
 - `drafts/01_21_the_stupid_thread.md`
 - `drafts/interludes/03_interlude_the_knots_and_the_nots.md` placement note for after `01_23`
+- `drafts/revision_passes/MAX_BELLWETHER_MANOR_BELLS_PASS.md`
 
 ## Source / Provenance
 
@@ -47,18 +49,22 @@ After nearly a week of waiting, the companions have deteriorated into sibling-li
 
 Addie realizes, almost unwillingly, that this is what family may feel like: ugly, loud, ridiculous, and still present. She gives a blunt, profane, non-speech speech asking them to stop pretending their exhaustion means they are not grateful for each other. Max validates her and calls them out harder.
 
+Before they leave, the old muted service bells finally become a visible household question. Matthieu and Carrio notice the pattern, Max starts laughing, and Mae shuts down the deeper story: her family once used the bells to summon servants, and she ended the practice when she took over the Aquila Matara house after being sent to work with the Conclave.
+
 They leave the manor together, endure the reporters, and reach the Aquila Matara beacon platform. Nothing happens. Addie realizes AQM was the first beacon for the nation, not for the companions. In public, Mae masks the panic with political theater, sends the group toward the Seat of the 72, and the companions privately spiral. In the empty Conclave, they reason through possible shared origins until Brickett hears `Skyrend Peak`, detonates himself backward, and identifies the true clue: where Addie was chosen and where the brick happened. The group must go with the eagle / Skyrend Peak.
 
 ## Chapter Function
 
-This chapter should do six major things:
+This chapter should do eight major things:
 
 1. show the companions at their worst after days of proximity and pressure;
 2. let Addie name them as a kind of accidental family;
-3. restore enough emotional cohesion to send them into the final confrontation attempt;
-4. show the public brutality of the press and the political pressure around the red beacon;
-5. reveal that Aquila Matara is the wrong endpoint because it is the nation’s first beacon, not the companions’ shared beginning;
-6. end with Brickett identifying Skyrend Peak as the true shared beginning.
+3. let Maximilian T. Bellwether call out the room, including Mae, in a way only he can;
+4. seed the muted manor-bell pattern without revealing the later Bellwether-name / satyr-deportation memory;
+5. restore enough emotional cohesion to send them into the final confrontation attempt;
+6. show the public brutality of the press and the political pressure around the red beacon;
+7. reveal that Aquila Matara is the wrong endpoint because it is the nation’s first beacon, not the companions’ shared beginning;
+8. end with Brickett identifying Skyrend Peak as the true shared beginning.
 
 ---
 
@@ -79,7 +85,7 @@ This chapter should do six major things:
 
 ## Aquila Matara / Manor / Public Route
 
-- Max.
+- Maximilian T. Bellwether / Max.
 - Mae household staff.
 - Reporters, including the Australian reporter and hyena reporter from earlier coverage.
 - High Sovereign's guard escort.
@@ -93,6 +99,8 @@ This chapter should do six major things:
 ## `SET-AQM-MAE-DINING`
 
 Primary opening pressure-room. The companions are gathered in Mae's manor after days of bickering, waiting, and trying not to go outside.
+
+Use the old disabled service bells as visible household background if the scene moves through dining room, hall, or sideboard areas. By this point, Addie has seen enough muted bells to recognize a pattern.
 
 ## `SET-AQM-MAE-EXTERIOR`
 
@@ -117,7 +125,7 @@ Use **four** visible subchapters:
 3. The Wrong Beginning
 4. Go With The Eagle
 
-Do not split every argument pair into its own heading. Mae/Carrio, Rhün/Brynn, Gregory/Matthieu, and Brickett's stillness are beat turns inside **Family Stuff**. Use standard markdown `---` only if the prose needs breathing room.
+Do not split every argument pair into its own heading. Mae/Carrio, Rhün/Brynn, Gregory/Matthieu, Brickett's stillness, Max calling the room out, and the disabled-bell explanation are beat turns inside **Family Stuff**. Use standard markdown `---` only if the prose needs breathing room.
 
 ---
 
@@ -159,37 +167,48 @@ Mae's Aquila Matara manor, morning / late morning, Hearthwake 24, Kindlemask. Re
 26. Addie realizes the group is full of fractures: pairs that fought, pairs about to fight, and old hurts newly exposed.
 27. Addie wonders whether this is what siblings are like.
 28. Addie realizes, with horror and affection, that these people may be becoming her family.
-29. She tests the room by asking what time it is.
-30. Gregory and Matthieu immediately argue whether it is exactly on the hour or ten minutes off.
-31. Addie cuts them off.
-32. Mae warns Addie not to give a speech and threatens to go back to her room.
-33. Addie directly addresses Mae as Speaker and tells her, bluntly, to shut up and listen because Addie is the one about to face a constellation and may die today.
-34. Mae is startled / embarrassed and looks down, flipping her coin silently.
-35. Addie says she does not want responses. She needs them thinking about how to help her.
-36. Addie admits she had the stupid thought that they feel like siblings.
-37. She says they lash out, argue over minutiae, insult family by accident, and act like exhaustion is a moral indictment.
-38. They have been together almost constantly for twenty-four days.
-39. Addie thanks them for lasting as long as they did.
-40. Addie says she could not wish for a better group of nine.
-41. She jokes that if she survives and they cannot set their bullshit aside for laundry / a party / whatever comes next, they do not want Tallandra in their heads.
-42. The room laughs genuinely for the first time in days.
-43. Gregory starts to respond to Matthieu; Addie cuts him off and says there is no time for that bullshit.
-44. Addie tells them to assume apologies have been said and that everyone will try to do better.
-45. She reminds them this is one of eighteen. If she succeeds, seventeen more remain.
-46. They cannot wait until the last moment for future Witnesses.
-47. The room goes quiet, ashamed and sobered.
-48. Max appears in the doorway and says she put it nicer than he would have.
-49. Max calls them asshats and specifically includes Mae.
-50. Max says they either defeat a constellation or everyone dies.
-51. Max tells Mae he has words for her if this succeeds.
-52. Mae nods, knows, and tells him to get out / calls him a horny bastard in familiar household style.
-53. The group gathers their things in silence.
-54. They exchange hugs, pats, and silent contact instead of speeches.
-55. Brynn stops humming and catches herself wishing the big lava beast / Rhün's mount were here to trample reporters.
-56. Brynn says the thing might be growing on her, then insists she still hates him because he is a dick.
-57. Brynn says you have to hate someone in your family.
-58. She charges out first.
-59. Addie follows, smiling and thinking: these people.
+29. Matthieu pauses near one of the muted service bells and asks why the same disabled mechanism appears in so many rooms.
+30. Carrio identifies the old social function immediately: bells for summoning servants.
+31. Max starts laughing.
+32. Mae warns: "Don't get him started."
+33. Mae says her family used to use the bells when they were calling for servants.
+34. She says she stopped that process as soon as she moved in and took over the Aquila Matara house.
+35. Mae adds, dryly, that she only took the house because she was sent to work with the Conclave — exile from Nox Vaelor without anyone having the courtesy to call it exile.
+36. Do not reveal the Bellwether surname origin, satyr deportation crisis, or Max's Vayne descent here.
+37. Addie files the bell explanation away as another household scar.
+38. Addie tests the room by asking what time it is.
+39. Gregory and Matthieu immediately argue whether it is exactly on the hour or ten minutes off.
+40. Addie cuts them off.
+41. Mae warns Addie not to give a speech and threatens to go back to her room.
+42. Addie directly addresses Mae as Speaker and tells her, bluntly, to shut up and listen because Addie is the one about to face a constellation and may die today.
+43. Mae is startled / embarrassed and looks down, flipping her coin silently.
+44. Addie says she does not want responses. She needs them thinking about how to help her.
+45. Addie admits she had the stupid thought that they feel like siblings.
+46. She says they lash out, argue over minutiae, insult family by accident, and act like exhaustion is a moral indictment.
+47. They have been together almost constantly for twenty-four days.
+48. Addie thanks them for lasting as long as they did.
+49. Addie says she could not wish for a better group of nine.
+50. She jokes that if she survives and they cannot set their bullshit aside for laundry / a party / whatever comes next, they do not want Tallandra in their heads.
+51. The room laughs genuinely for the first time in days.
+52. Gregory starts to respond to Matthieu; Addie cuts him off and says there is no time for that bullshit.
+53. Addie tells them to assume apologies have been said and that everyone will try to do better.
+54. She reminds them this is one of eighteen. If she succeeds, seventeen more remain.
+55. They cannot wait until the last moment for future Witnesses.
+56. The room goes quiet, ashamed and sobered.
+57. Max appears in the doorway and says she put it nicer than he would have.
+58. Max calls them asshats and specifically includes Mae.
+59. Max says they either defeat a constellation or everyone dies.
+60. Max tells Mae he has words for her if this succeeds.
+61. Mae nods, knows, and answers with a name that shows her mood — likely **Bellwether** if annoyed, or **Maximilian** if threateningly polite.
+62. She tells him to get out / calls him a horny bastard in familiar household style.
+63. Do not let Mae casually call him Max here unless the beat turns emotionally sincere or strategically urgent.
+64. The group gathers their things in silence.
+65. They exchange hugs, pats, and silent contact instead of speeches.
+66. Brynn stops humming and catches herself wishing the big lava beast / Rhün's mount were here to trample reporters.
+67. Brynn says the thing might be growing on her, then insists she still hates him because he is a dick.
+68. Brynn says you have to hate someone in your family.
+69. She charges out first.
+70. Addie follows, smiling and thinking: these people.
 
 ## Subchapter 2 — The Questions Outside
 
@@ -301,9 +320,13 @@ Three Hundred Steps and empty Conclave / Seat of the 72. Around High Market / ea
 
 > "Speaker, would you do me a favor? Pretty please? Shut the fuck up and listen to me."
 
+> "Don't get him started."
+
 > "This is one of eighteen."
 
 > "Well said, Moderator. Said it much nicer than me, you asshats. And I mean you, Mae."
+
+> "Bellwether."
 
 > "You have to hate someone in your family, right?"
 
@@ -323,6 +346,7 @@ Three Hundred Steps and empty Conclave / Seat of the 72. Around High Market / ea
 
 - Addie naming the group as siblings/family.
 - Max calling out the room.
+- Mae explaining the disabled service bells without revealing the Bellwether-name origin.
 - Mae masking public panic with political theater.
 - Brickett giving the Skyrend clue while dazed.
 
@@ -336,7 +360,9 @@ Three Hundred Steps and empty Conclave / Seat of the 72. Around High Market / ea
 - Use **Matthieu**, not Matt in narration unless dialogue naturally shortens.
 - Brickett is a fourteen-year-old beaver beastfolk.
 - Major Tallandra is present as guard / military authority.
-- Max has household authority and can speak to Mae in a way most people cannot.
+- Maximilian T. Bellwether / Max has household authority and can speak to Mae in a way most people cannot.
+- Mae name-use for Max matters: **Bellwether** when annoyed, **Maximilian** when threateningly polite, **Max** only when emotionally sincere or strategically urgent.
+- The muted service bells are a Book 1 seed for later Bellwether / satyr-deportation memory. Do not reveal the origin yet.
 - Mae and Carrio know each other from long before the companions formed. Keep that history implied, not fully explained.
 - Addie's lunar power should be seeded but not explained fully yet.
 - Do not let the public know the group panicked at the wrong city.
