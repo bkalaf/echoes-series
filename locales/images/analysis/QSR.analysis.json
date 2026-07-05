@@ -4,110 +4,1685 @@
     "analysisVersion": 2,
     "cityCode": "QSR",
     "cityName": "Qasr Siroth",
-    "analysisDate": "2026-07-03",
+    "analysisDate": "2026-07-05",
     "analystVersion": "gpt-5.5-thinking",
-    "analysisConfidence": "source-limited",
-    "basedOnImages": ["QSR-HERO-NE-v001", "QSR-HERO-NW-v001", "QSR-HERO-SE-v001", "QSR-HERO-SW-v001", "QSR-STREET-S1-v001", "QSR-STREET-S2-v001", "QSR-STREET-S3-v001", "QSR-STREET-S4-v001"],
-    "basedOnSidecars": ["QSR-HERO-NE-v001.json", "QSR-HERO-NW-v001.json", "QSR-HERO-SE-v001.json", "QSR-HERO-SW-v001.json", "QSR-STREET-S1-v001.json", "QSR-STREET-S2-v001.json", "QSR-STREET-S3-v001.json", "QSR-STREET-S4-v001.json"]
+    "analysisConfidence": "partial-street-lock",
+    "basedOnImages": [
+      "QSR-HERO-NE-v001",
+      "QSR-HERO-NW-v001",
+      "QSR-HERO-SE-v001",
+      "QSR-HERO-SW-v001",
+      "QSR-STREET-S1-v001",
+      "QSR-STREET-S2-v001",
+      "QSR-STREET-S3-v001",
+      "QSR-STREET-S4-v001"
+    ],
+    "basedOnSidecars": [
+      "QSR-HERO-NE-v001.json",
+      "QSR-HERO-NW-v001.json",
+      "QSR-HERO-SE-v001.json",
+      "QSR-HERO-SW-v001.json",
+      "QSR-STREET-S1-v001.json",
+      "QSR-STREET-S2-v001.json",
+      "QSR-STREET-S3-v001.json",
+      "QSR-STREET-S4-v001.json"
+    ],
+    "missingStreetSections": [
+      5
+    ],
+    "sourceLimitations": [
+      "STREET-S5 sidecar and image were not present in the uploaded package; Section 5 is preserved from hero-visible anchors only."
+    ]
   },
   "cityDNA": {
-    "coreFantasy": "A North-African sun-cistern city where caravan routes, covered bazaars, command bastions, agricultural terraces, and sun-disc registry law make desert survival ceremonial and practical.",
-    "primaryEmotion": "sunlit authority",
-    "secondaryEmotion": "measured hospitality",
-    "readerTakeaway": "Qasr Siroth is not generic desert grandeur; the uploaded images show a bright, formal, road-and-cistern civilization of caravan reception, markets, command, and terrace food systems.",
-    "civilizationThesis": "Qasr Siroth turns harsh light, cistern water, route hospitality, military order, market exchange, and terrace cultivation into a public order of Ma’at-like balance.",
-    "visualIdentity": "Polished white limestone, sandstone, stucco, brass lattice, linen shade, sun-disc reliefs, red awnings, caravan gates, blue civic lamps, command towers, covered bazaars, hanging gardens, terrace granaries, and bright desert plazas.",
-    "culturalIdentity": "North-African / Egyptian route-law culture centered on caravan hospitality, market order, military responsibility, terrace agriculture, and solar-registry authority.",
-    "symbolicIdentity": "Sun discs, cisterns, caravanserai gates, woven banners, covered bazaars, command standards, hanging gardens, seed halls, terrace granaries, and Aid Commons symbolize desert life held in balance."
+    "coreFantasy": "A North African / Egyptian city where Transit / Caravan / Rail, Grand Market, Military Command, Agricultural Terraces, and Refugee Commons turn Desert, Stone Desert, and Dry Wadi, dry city ground, and Civic Blue Illumination, Oath Seals, and Sunfire Channels into civic order.",
+    "primaryEmotion": "lived-in civic presence",
+    "secondaryEmotion": "crowded pressure",
+    "readerTakeaway": "Qasr Siroth should feel like a fully usable civilization: its landmarks are not decoration, but the places where movement, memory, authority, labor, and public identity become visible.",
+    "civilizationThesis": "Qasr Siroth organizes itself through Transit / Caravan / Rail, Grand Market, Military Command, Agricultural Terraces, and Refugee Commons. The city’s visible grammar should always connect landscape, materials, daily work, and civic magic rather than letting any one element become generic fantasy dressing.",
+    "visualIdentity": "Polished White Limestone, Sandstone, Stucco, Brass Lattice, and Linen; Desert, Stone Desert, and Dry Wadi; dry city ground; section landmarks such as Caravanserai Beacon, Covered Bazaar, Command Bastion, Terrace Granary, and Aid Commons; and the city-defining trio of North-African Sun-Cistern Citadel of Ma’at, Caravanserai Beacon, and Sun Disc Reliefs Sovereign Registry Court.",
+    "culturalIdentity": "Qasr Siroth belongs to a North African / Egyptian population whose public life should be expressed through architecture, movement, civic ritual, tools, housing, food, and body language rather than only costume or ornament.",
+    "symbolicIdentity": "North-African Sun-Cistern Citadel of Ma’at expresses the citywide mythic identity; Caravanserai Beacon expresses public warning and convergence; Sun Disc Reliefs Sovereign Registry Court expresses the civic legitimacy of District 13."
   },
   "canon": {
     "canonLocks": [
-      "Qasr Siroth is a mature North-African / Egyptian desert-cistern city, not a generic desert market.",
+      "Qasr Siroth is a North African / Egyptian city; its identity must be visible through built form, street life, and civic use.",
       "The Wonder is North-African Sun-Cistern Citadel of Ma’at.",
       "The Beacon is Caravanserai Beacon.",
-      "The Seat of Power is Sun Disc Reliefs Sovereign Registry Court.",
-      "The uploaded street sources cover four districts: Transit / Caravan / Rail, Grand Market, Military Command, and Agricultural Terraces.",
-      "Exact uploaded anchors include Transit / Caravan / Rail Civic Hall, Caravanserai Beacon, Woven Banners Monument, Waystation Hall Nook, Grand Market Civic Hall, Covered Bazaar, Awning Monument, Auction Court Nook, Military Command Hall, Command Bastion, Standard Tower Nook, Agricultural Terraces Civic Hall, Terrace Granary, Hanging Gardens Monument, and Seed Hall Nook.",
-      "QSR-STREET-S5 image and sidecar are missing from this upload; hero sidecars show Aid Commons as a secondary major landmark, but exact S5 civic hall / monument / nook anchors are not locked from this batch."
+      "The Seat of Power is Sun Disc Reliefs Sovereign Registry Court and belongs to central District 13.",
+      "The five section identities are: S1 Transit / Caravan / Rail, S2 Grand Market, S3 Military Command, S4 Agricultural Terraces, S5 Refugee Commons.",
+      "S1 preserves the source-backed anchor Transit / Caravan / Rail Civic Hall (CIVIC_CENTER).",
+      "S1 preserves the source-backed anchor Caravanserai Beacon (MAJOR_LANDMARK).",
+      "S1 preserves the source-backed anchor Woven Banners Monument (MONUMENT).",
+      "S1 preserves the source-backed anchor Waystation Hall Nook (MINOR_LANDMARK).",
+      "S2 preserves the source-backed anchor Grand Market Civic Hall (CIVIC_CENTER).",
+      "S2 preserves the source-backed anchor Covered Bazaar (MAJOR_LANDMARK).",
+      "S2 preserves the source-backed anchor Awning Monument (MONUMENT).",
+      "S2 preserves the source-backed anchor Auction Court Nook (MINOR_LANDMARK).",
+      "S3 preserves the source-backed anchor Military Command Hall (CIVIC_CENTER).",
+      "S3 preserves the source-backed anchor Command Bastion (MAJOR_LANDMARK).",
+      "S3 preserves the source-backed anchor Woven Banners Monument (MONUMENT).",
+      "S3 preserves the source-backed anchor Standard Tower Nook (MINOR_LANDMARK).",
+      "S4 preserves the source-backed anchor Agricultural Terraces Civic Hall (CIVIC_CENTER).",
+      "S4 preserves the source-backed anchor Terrace Granary (MAJOR_LANDMARK).",
+      "S4 preserves the source-backed anchor Hanging Gardens Monument (MONUMENT).",
+      "S4 preserves the source-backed anchor Seed Hall Nook (MINOR_LANDMARK).",
+      "S5 preserves the source-backed anchor Aid Commons (MAJOR_LANDMARK)."
     ],
-    "provisionalCanon": ["Qasr Siroth's highest civic virtue is balanced provision.", "Aid Commons likely belongs to the missing fifth district, but the missing S5 source remains a limitation rather than permission to invent details."],
-    "rejectedReads": ["generic desert bazaar", "pure palace city without water and food logistics", "caravan hospitality detached from law", "military command as decorative towers only"],
-    "cautionFlags": ["Missing QSR S5 source: do not invent exact S5 minor anchors.", "Keep cistern water, sun-disc law, caravan hospitality, command order, market trade, and terrace food production visible.", "Preserve exact uploaded sidecar anchor names."]
+    "provisionalCanon": [
+      "Sections with street sources are strong-lock; missing street sections are hero-supported only and should not receive invented street-only anchors.",
+      "Qasr Siroth's civic customs should be inferred from source-backed section functions: Transit / Caravan / Rail, Grand Market, Military Command, Agricultural Terraces, and Refugee Commons."
+    ],
+    "rejectedReads": [
+      "Qasr Siroth as a generic fantasy city with interchangeable districts.",
+      "Landmarks as empty decoration rather than civic tools.",
+      "Race or culture identity expressed only through clothing while architecture and institutions remain generic.",
+      "Invented street anchors for any missing street section."
+    ],
+    "cautionFlags": [
+      "Preserve exact names for Wonder, Beacon, Seat of Power, section civic halls, section landmarks, monuments, and minor nooks.",
+      "Do not add character-specific observations to the city analysis.",
+      "Keep every district usable for prose, diorama generation, and map background generation.",
+      "Use uncertainty only in metadata or provisional canon; do not pad missing evidence with speculation.",
+      "S5 is missing a street source; do not fabricate its street-level civic hall, monument, or nook."
+    ]
   },
   "environment": {
-    "terrain": ["Desert", "Stone Desert", "Dry Wadi", "civic terraces", "bazaar courts", "caravan roads", "agricultural terraces"],
-    "water": ["cisterns", "public basins", "sunfire channels", "terrace irrigation", "dry city ground"],
-    "vegetation": ["hanging gardens", "terrace crops", "courtyard palms", "dry-climate herbs"],
-    "climateLighting": ["harsh sun", "linen shade", "civic blue illumination", "warm lanterns", "sun-disc glare"],
-    "environmentalLogic": "Desert light, cistern water, shade, road access, and terrace food production operate as civic infrastructure rather than scenery."
+    "terrain": [
+      "Desert",
+      "Stone Desert",
+      "Dry Wadi",
+      "Transit / Caravan / Rail public ground",
+      "Grand Market public ground",
+      "Military Command public ground",
+      "Agricultural Terraces public ground",
+      "Refugee Commons public ground"
+    ],
+    "water": [
+      "dry city ground",
+      "water context supports the city's public approaches and thresholds"
+    ],
+    "vegetation": [
+      "Reed Pavilions",
+      "Hanging Gardens",
+      "orchards",
+      "canopy",
+      "gardens"
+    ],
+    "climateLighting": [
+      "daylight that makes civic silhouettes board-readable",
+      "lantern-lit public approaches",
+      "civic blue illumination at signal or authority points",
+      "localized lighting shaped by Civic Blue Illumination, Oath Seals, and Sunfire Channels",
+      "street shadow under arcades, halls, platforms, or canopy forms"
+    ],
+    "environmentalLogic": "Qasr Siroth's environment should be written as infrastructure. Desert, Stone Desert, and Dry Wadi and dry city ground determine how citizens move, where crowds gather, where authority can be seen, and how each section feels under pressure."
   },
   "architecture": {
-    "materials": ["Polished White Limestone", "Sandstone", "Stucco", "Brass Lattice", "Linen"],
-    "forms": ["North-African Sun-Cistern Citadel of Ma’at", "Sun Disc Reliefs Sovereign Registry Court", "Caravanserai Beacon", "Transit / Caravan / Rail Civic Hall", "Covered Bazaar", "Command Bastion", "Terrace Granary", "Aid Commons"],
-    "skyline": ["North-African Sun-Cistern Citadel of Ma’at as far wonder anchor", "Sun Disc Reliefs Sovereign Registry Court as central authority", "Caravanserai Beacon as road-signal landmark", "covered bazaar roofs, command towers, and terrace granaries stepping through the sunlit city"],
-    "lighting": ["sunfire glow", "civic blue seals", "brass reflection", "warm shade-lanterns"],
-    "infrastructure": ["caravanserai gates", "covered bazaars", "command yards", "standard towers", "terrace granaries", "seed halls", "cistern routes"],
-    "motifs": ["sun discs", "cisterns", "woven banners", "red awnings", "brass lattice", "seed halls", "caravan gates"],
-    "colorLanguage": ["white limestone", "sandstone gold", "linen cream", "civic blue", "red awnings", "brass warmth"],
-    "textureLanguage": ["sun-warmed stone", "woven linen", "polished plaster", "brass lattice", "grain sacks", "dry paving"]
+    "materials": [
+      "Polished White Limestone",
+      "Sandstone",
+      "Stucco",
+      "Brass Lattice",
+      "Linen"
+    ],
+    "forms": [
+      "Canopy Platforms",
+      "Market Arcades",
+      "Reed Pavilions",
+      "Timber Longhouses",
+      "White Limestone Civic Blocks"
+    ],
+    "skyline": [
+      "North-African Sun-Cistern Citadel of Ma’at as the far citywide wonder silhouette.",
+      "Sun Disc Reliefs Sovereign Registry Court as the central D13 authority mass.",
+      "Caravanserai Beacon as the public signal landmark.",
+      "Section landmarks remain subordinate to the Wonder and Seat but must be readable: Caravanserai Beacon, Covered Bazaar, Command Bastion, Terrace Granary, and Aid Commons."
+    ],
+    "lighting": [
+      "civic blue illumination at beacon and authority points",
+      "lantern light in public thresholds",
+      "warm practical light from shops and homes",
+      "Civic Blue Illumination, Oath Seals, and Sunfire Channels expressed as restrained civic effect rather than spectacle alone"
+    ],
+    "infrastructure": [
+      "audience terraces",
+      "command platforms",
+      "courts",
+      "sealed archives"
+    ],
+    "motifs": [
+      "Canal Reflections",
+      "Gold Seals",
+      "Hanging Gardens",
+      "Lantern Lit",
+      "Red Fabric Awnings",
+      "Woven Banners"
+    ],
+    "colorLanguage": [
+      "colors derived from Polished White Limestone, Sandstone, Stucco, Brass Lattice, and Linen",
+      "civic blue for signal, oath, or authority moments",
+      "warm street colors for shops, homes, and food stalls",
+      "section-specific accent colors tied to landmark function"
+    ],
+    "textureLanguage": [
+      "worked textures of Polished White Limestone, Sandstone, Stucco, Brass Lattice, and Linen",
+      "worn public paving at district approaches",
+      "handled wood, cloth, reed, stone, or metal at street scale",
+      "official surfaces at civic halls, D13 courts, and named landmarks"
+    ]
   },
   "civilization": {
-    "people": "Citizens are route-literate, market-aware, law-conscious, and shaped by the practical discipline of water, shade, food, and safe passage.",
-    "occupations": ["caravan hosts", "bazaar merchants", "auctioneers", "command officers", "standard bearers", "terrace farmers", "seed keepers", "cistern clerks", "registry officials"],
-    "socialClasses": ["registry officials", "caravan houses", "bazaar families", "command officers", "terrace landholders", "aid commons residents", "road workers"],
-    "governance": "Sun Disc Reliefs Sovereign Registry Court governs road access, market order, command obligations, water rights, food provision, and public petitions.",
-    "religion": "Sun-disc reliefs, oath seals, cistern rites, caravan blessings, and Ma’at-like balance make practical desert order sacred-adjacent.",
-    "customs": ["caravan guest registration", "shade-market bargaining", "cistern ration checks", "standard raising", "seed hall accounting"],
-    "bodyLanguage": ["shade-aware movement", "formal hospitality gestures", "ranked command posture", "open-palmed bargaining"],
-    "speechPatterns": ["route-law phrases", "water-accounting terms", "market formulas", "command titles", "oath-seal language"]
+    "people": "Qasr Siroth's people are North African / Egyptian. They should move, gesture, dress, work, and gather according to the city’s section functions rather than appearing as generic crowds.",
+    "occupations": [
+      "cargo clerks",
+      "porters",
+      "route brokers",
+      "caravan handlers",
+      "seal counters",
+      "market sellers",
+      "granary keepers",
+      "bakers",
+      "spice clerks",
+      "price callers",
+      "standard bearers",
+      "watch officers",
+      "drill marshals",
+      "gate wardens",
+      "ration stewards",
+      "aid workers",
+      "tent menders",
+      "queue marshals"
+    ],
+    "socialClasses": [
+      "D13 officials, registry staff, judges, or civic command families",
+      "section civic-hall administrators and landmark attendants",
+      "craft, trade, food, route, shrine, archive, or service guild families",
+      "street vendors, apprentices, runners, porters, and maintenance workers",
+      "households whose status is legible through proximity to named landmarks and public approaches"
+    ],
+    "governance": "Governance is centered on Sun Disc Reliefs Sovereign Registry Court, but citizens experience authority through section halls, permit counters, procession routes, market rules, warning signals, and the public visibility of the Beacon.",
+    "religion": "Religion and ritual should emerge through section evidence: sacred groves, shrines, temples, ancestor quarters, vows, processions, lamps, memorials, or civic magic where source-backed.",
+    "customs": [
+      "citizens orient by named landmarks rather than abstract street addresses",
+      "public notices and civic signals are treated as social facts",
+      "section identity shapes work rhythms, festival routes, food habits, and greetings",
+      "households preserve small visual signs of their relation to nearby halls, shrines, markets, or work yards",
+      "crowds read beacon changes, D13 messengers, and landmark access as political weather"
+    ],
+    "bodyLanguage": [
+      "habitual glances toward the Beacon or D13 when public pressure rises",
+      "rank-conscious spacing near halls, courts, gates, and counters",
+      "work gestures shaped by tools, ledgers, baskets, lamps, platforms, or ritual objects",
+      "section-specific ways of queuing, bargaining, processing, mourning, or carrying goods",
+      "practical familiarity with terraces, arcades, courtyards, and side lanes"
+    ],
+    "speechPatterns": [
+      "citizens reference exact landmark names in directions and gossip",
+      "official speech uses seals, sections, district numbers, and public obligations",
+      "market and work speech remains compressed, local, and landmark-aware",
+      "ceremonial speech becomes formal near Wonder, Beacon, Seat, temple, shrine, or ancestor anchors",
+      "outsiders are corrected when they genericize a named civic anchor"
+    ]
   },
   "urbanLife": {
     "streets": {
-      "appearance": "Bright stone streets move between caravan gates, covered bazaars, command bastions, seed halls, terrace granaries, hanging gardens, and the sun-disc registry court.",
-      "movement": "Movement follows shaded bazaar lanes, caravan approaches, command courts, terrace stairs, cistern routes, and food-market paths.",
-      "sounds": ["market calls", "caravan bells", "cloth awnings", "command orders", "grain handling", "water in cisterns"],
-      "smells": ["sun-warmed stone", "linen", "spices", "dust", "grain", "brass polish"],
-      "lighting": "Hard sun is disciplined by linen shade, blue civic seals, brass reflection, and warm market lanterns.",
-      "weatherEffects": "Glare, dust wind, and dry heat make shade, cisterns, and terrace food systems central to city life.",
-      "dayCycle": "Caravan processing, bazaar trade, command duties, and terrace work dominate the day.",
-      "nightCycle": "Cistern checks, blue oath seals, guarded roads, and cooler market courts dominate the night."
+      "appearance": "Streets should foreground Polished White Limestone, Sandstone, Stucco, Brass Lattice, and Linen, section-specific props, named local landmarks, D13 authority sightlines, and the daily relationship between Transit / Caravan / Rail, Grand Market, Military Command, Agricultural Terraces, and Refugee Commons.",
+      "movement": "Movement follows district adjacency and section identity: S1 through S5 each have five district slots, while D13 remains the central seat-of-power node around Sun Disc Reliefs Sovereign Registry Court.",
+      "sounds": [
+        "foot traffic shifting around landmark approaches",
+        "vendors, clerks, attendants, or guards calling section-specific instructions",
+        "tools, carts, bells, lamps, water, banners, or crowds depending on section function",
+        "distant beacon reaction when civic signals change",
+        "private household sounds from side lanes behind public halls"
+      ],
+      "smells": [
+        "worked city materials under sun or lantern heat",
+        "street food and household cooking",
+        "lamp oil, damp stone, dust, reed, wood, incense, metal, or archive paper according to section",
+        "crowd smell at public approaches",
+        "vegetation or water smells where source-backed"
+      ],
+      "lighting": "Use practical street light first: daylight, shade, lanterns, and civic blue accents. Magic should reinforce civic identity rather than overtake every street.",
+      "weatherEffects": "Weather should change how crowds read landmarks: glare, rain, mist, dust, cold, humidity, wind, or wet paving can hide, reveal, or delay public action.",
+      "dayCycle": "Morning emphasizes food, work, maintenance, permission-seeking, trade preparation, ritual cleaning, and civic notices.",
+      "nightCycle": "Night shifts to lamps, quieter side courts, guarded landmarks, late markets, household thresholds, watch routines, and beacon visibility."
     },
     "shops": {
-      "common": ["spice stalls", "linen vendors", "water sellers", "grain counters", "road-ration shops"],
-      "uncommon": ["brass lattice workers", "oath-seal copyists", "sun-disc carvers", "route-map sellers"],
-      "prestigious": ["registry counters", "caravan house offices", "command armories", "terrace-granary authorities"],
-      "exports": ["linen", "brasswork", "grain", "route services", "oath records"],
-      "imports": ["timber", "metals", "rare herbs", "paper", "luxury cloth"],
-      "streetFood": ["flatbread", "dates", "lentil stew", "spiced grain cakes", "mint tea"],
-      "services": ["caravan lodging", "route permits", "market witnessing", "cistern accounting", "food tallying"]
+      "common": [
+        "food stalls shaped by local staples",
+        "lamp and cloth vendors",
+        "tool repair counters",
+        "ledger or notice copyists",
+        "basket, crate, reed, stone, timber, or metal workers",
+        "section-specific service stalls"
+      ],
+      "uncommon": [
+        "landmark-token engravers",
+        "specialist map, ritual, archive, or route counters",
+        "beacon-lamp maintenance shops",
+        "district emblem painters",
+        "official-seal accessory makers"
+      ],
+      "prestigious": [
+        "D13 document ateliers",
+        "Wonder-facing ceremonial suppliers",
+        "elite guild or temple workshops",
+        "landmark restoration houses",
+        "high-status court, archive, shrine, or civic contractors"
+      ],
+      "exports": [
+        "goods using Polished White Limestone, Sandstone, Stucco, Brass Lattice, and Linen",
+        "craft traditions tied to North African / Egyptian civic identity",
+        "section-specific tools, records, ritual goods, food goods, or transport services",
+        "recognizable landmark miniatures, seals, lamps, textiles, or carved emblems"
+      ],
+      "imports": [
+        "rare pigments, spices, glass, metal fittings, fine timber, ceremonial cloth, and replacement tools",
+        "raw materials not available in local terrain",
+        "foods and ritual supplies needed for section festivals"
+      ],
+      "streetFood": [
+        "portable breads or cakes",
+        "spiced stews or broths",
+        "grilled market foods",
+        "sweet festival bites",
+        "tea, fermented drinks, or cooling drinks",
+        "section-specific food sold near civic halls"
+      ],
+      "services": [
+        "directions by landmark and district",
+        "permit help",
+        "message running",
+        "lamp maintenance",
+        "ritual preparation",
+        "tool repair",
+        "public notice reading",
+        "queue mediation"
+      ]
     },
     "housing": {
-      "wealthy": "Sunlit courtyard houses near the registry, command terraces, or caravan courts, with brass lattice and controlled shade.",
-      "middle": "Bazaar and terrace homes above shops or beside food routes, with shaded rooms and cistern access.",
-      "poor": "Road-edge housing and aid-adjacent quarters dependent on shared water, shade, and grain distribution."
+      "wealthy": "Large homes cluster near central authority, prestigious landmark approaches, garden courts, or high terraces, with ornament that repeats city motifs without overwhelming civic structures.",
+      "middle": "Shop-homes, courtyard houses, upper rooms, workshop apartments, and shared terraces connect directly to section work rhythms.",
+      "poor": "Small rooms, backstreet courts, temporary structures, and service-side housing remain visually tied to the city through lamps, fabrics, recycled materials, and landmark-facing orientation."
     }
   },
   "districts": [
-    {"sectionNumber": 1, "name": "Transit / Caravan / Rail", "civicPurpose": "Arrival, route law, guest rights, road security, and public signal response.", "visualIdentity": "Transit / Caravan / Rail Civic Hall, Caravanserai Beacon, Woven Banners Monument, Waystation Hall Nook.", "emotionalIdentity": "welcoming, formal, route-bound", "gameplayAssetNeeds": ["Transit / Caravan / Rail Civic Hall", "Caravanserai Beacon", "Woven Banners Monument", "Waystation Hall Nook"], "narrativeUse": ["arrival", "route dispute", "Beacon response"], "landmark": "Caravanserai Beacon", "minorLandmarks": ["Woven Banners Monument", "Waystation Hall Nook"]},
-    {"sectionNumber": 2, "name": "Grand Market", "civicPurpose": "Public exchange, auction witnessing, shade-market order, and trade rumor.", "visualIdentity": "Grand Market Civic Hall, Covered Bazaar, Awning Monument, Auction Court Nook.", "emotionalIdentity": "busy, shaded, consequential", "gameplayAssetNeeds": ["Grand Market Civic Hall", "Covered Bazaar", "Awning Monument", "Auction Court Nook"], "narrativeUse": ["market trade", "auction scene", "public rumor"], "landmark": "Covered Bazaar", "minorLandmarks": ["Awning Monument", "Auction Court Nook"]},
-    {"sectionNumber": 3, "name": "Military Command", "civicPurpose": "Road defense, command order, city protection, and visible authority.", "visualIdentity": "Military Command Hall, Command Bastion, Woven Banners Monument, Standard Tower Nook.", "emotionalIdentity": "disciplined, sunlit, severe", "gameplayAssetNeeds": ["Military Command Hall", "Command Bastion", "Woven Banners Monument", "Standard Tower Nook"], "narrativeUse": ["orders", "road defense", "rank conflict"], "landmark": "Command Bastion", "minorLandmarks": ["Woven Banners Monument", "Standard Tower Nook"]},
-    {"sectionNumber": 4, "name": "Agricultural Terraces", "civicPurpose": "Food security, seed keeping, water use, and desert cultivation.", "visualIdentity": "Agricultural Terraces Civic Hall, Terrace Granary, Hanging Gardens Monument, Seed Hall Nook.", "emotionalIdentity": "nourishing, engineered, accountable", "gameplayAssetNeeds": ["Agricultural Terraces Civic Hall", "Terrace Granary", "Hanging Gardens Monument", "Seed Hall Nook"], "narrativeUse": ["food tally", "water dispute", "seed record clue"], "landmark": "Terrace Granary", "minorLandmarks": ["Hanging Gardens Monument", "Seed Hall Nook"]}
+    {
+      "districtNumber": 1,
+      "districtCode": "D01",
+      "sectionNumber": 1,
+      "sectionName": "Transit / Caravan / Rail",
+      "name": "Transit / Caravan / Rail — Civic Threshold",
+      "civicPurpose": "This district handles public approach, first contact, notices, and movement control for Transit / Caravan / Rail. In scenes, it should show how arrival, departure, cargo handling, route brokerage, public counting, and the trust systems that keep movement honest becomes a street-level system.",
+      "visualIdentity": "Transit / Caravan / Rail identity rendered through cargo ledgers, crates, route boards, loading courts, Polished White Limestone, Sandstone, Stucco, Brass Lattice, and Linen, local crowds, and the visible approach to Transit / Caravan / Rail Civic Hall.",
+      "emotionalIdentity": "lived-in, readable, and civic",
+      "gameplayAssetNeeds": [
+        "Transit / Caravan / Rail Civic Hall",
+        "Caravanserai Beacon",
+        "Woven Banners Monument",
+        "Waystation Hall Nook",
+        "Transit / Caravan / Rail street props",
+        "North African / Egyptian civilians using the district",
+        "clear board-readable pathing and gathering space"
+      ],
+      "narrativeUse": [
+        "stage transit / caravan / rail scenes without needing to reopen concept art",
+        "show how ordinary citizens react to public pressure",
+        "give characters a concrete approach, obstacle, or meeting point",
+        "translate citywide crisis into district-scale behavior",
+        "support diorama generation with landmark-specific props"
+      ],
+      "primaryLandmark": "Transit / Caravan / Rail Civic Hall",
+      "minorLandmarks": [
+        "Caravanserai Beacon",
+        "Woven Banners Monument",
+        "Waystation Hall Nook"
+      ]
+    },
+    {
+      "districtNumber": 2,
+      "districtCode": "D02",
+      "sectionNumber": 1,
+      "sectionName": "Transit / Caravan / Rail",
+      "name": "Transit / Caravan / Rail — Landmark Court",
+      "civicPurpose": "This district handles the local landmark’s visible plaza, vertical silhouette, and immediate public use for Transit / Caravan / Rail. In scenes, it should show how arrival, departure, cargo handling, route brokerage, public counting, and the trust systems that keep movement honest becomes a street-level system.",
+      "visualIdentity": "Transit / Caravan / Rail identity rendered through cargo ledgers, crates, route boards, loading courts, Polished White Limestone, Sandstone, Stucco, Brass Lattice, and Linen, local crowds, and the visible approach to Caravanserai Beacon.",
+      "emotionalIdentity": "lived-in, readable, and civic",
+      "gameplayAssetNeeds": [
+        "Caravanserai Beacon",
+        "Transit / Caravan / Rail Civic Hall",
+        "Woven Banners Monument",
+        "Waystation Hall Nook",
+        "Transit / Caravan / Rail street props",
+        "North African / Egyptian civilians using the district",
+        "clear board-readable pathing and gathering space"
+      ],
+      "narrativeUse": [
+        "stage transit / caravan / rail scenes without needing to reopen concept art",
+        "show how ordinary citizens react to public pressure",
+        "give characters a concrete approach, obstacle, or meeting point",
+        "translate citywide crisis into district-scale behavior",
+        "support diorama generation with landmark-specific props"
+      ],
+      "primaryLandmark": "Caravanserai Beacon",
+      "minorLandmarks": [
+        "Transit / Caravan / Rail Civic Hall",
+        "Woven Banners Monument",
+        "Waystation Hall Nook"
+      ]
+    },
+    {
+      "districtNumber": 3,
+      "districtCode": "D03",
+      "sectionNumber": 1,
+      "sectionName": "Transit / Caravan / Rail",
+      "name": "Transit / Caravan / Rail — Monument Plaza",
+      "civicPurpose": "This district handles ceremony, memory, civic symbolism, and formal gatherings for Transit / Caravan / Rail. In scenes, it should show how arrival, departure, cargo handling, route brokerage, public counting, and the trust systems that keep movement honest becomes a street-level system.",
+      "visualIdentity": "Transit / Caravan / Rail identity rendered through cargo ledgers, crates, route boards, loading courts, Polished White Limestone, Sandstone, Stucco, Brass Lattice, and Linen, local crowds, and the visible approach to Woven Banners Monument.",
+      "emotionalIdentity": "lived-in, readable, and civic",
+      "gameplayAssetNeeds": [
+        "Woven Banners Monument",
+        "Transit / Caravan / Rail Civic Hall",
+        "Caravanserai Beacon",
+        "Waystation Hall Nook",
+        "Transit / Caravan / Rail street props",
+        "North African / Egyptian civilians using the district",
+        "clear board-readable pathing and gathering space"
+      ],
+      "narrativeUse": [
+        "stage transit / caravan / rail scenes without needing to reopen concept art",
+        "show how ordinary citizens react to public pressure",
+        "give characters a concrete approach, obstacle, or meeting point",
+        "translate citywide crisis into district-scale behavior",
+        "support diorama generation with landmark-specific props"
+      ],
+      "primaryLandmark": "Woven Banners Monument",
+      "minorLandmarks": [
+        "Transit / Caravan / Rail Civic Hall",
+        "Caravanserai Beacon",
+        "Waystation Hall Nook"
+      ]
+    },
+    {
+      "districtNumber": 4,
+      "districtCode": "D04",
+      "sectionNumber": 2,
+      "sectionName": "Grand Market",
+      "name": "Grand Market — Civic Threshold",
+      "civicPurpose": "This district handles public approach, first contact, notices, and movement control for Grand Market. In scenes, it should show how trade, provisioning, price-setting, storage, and the public circulation of food, goods, and local news becomes a street-level system.",
+      "visualIdentity": "Grand Market identity rendered through covered stalls, storage jars, auction tables, food awnings, Polished White Limestone, Sandstone, Stucco, Brass Lattice, and Linen, local crowds, and the visible approach to Grand Market Civic Hall.",
+      "emotionalIdentity": "busy, bargaining, fragrant, and public",
+      "gameplayAssetNeeds": [
+        "Grand Market Civic Hall",
+        "Covered Bazaar",
+        "Awning Monument",
+        "Auction Court Nook",
+        "Grand Market street props",
+        "North African / Egyptian civilians using the district",
+        "clear board-readable pathing and gathering space"
+      ],
+      "narrativeUse": [
+        "stage grand market scenes without needing to reopen concept art",
+        "show how ordinary citizens react to public pressure",
+        "give characters a concrete approach, obstacle, or meeting point",
+        "translate citywide crisis into district-scale behavior",
+        "support diorama generation with landmark-specific props"
+      ],
+      "primaryLandmark": "Grand Market Civic Hall",
+      "minorLandmarks": [
+        "Covered Bazaar",
+        "Awning Monument",
+        "Auction Court Nook"
+      ]
+    },
+    {
+      "districtNumber": 5,
+      "districtCode": "D05",
+      "sectionNumber": 2,
+      "sectionName": "Grand Market",
+      "name": "Grand Market — Landmark Court",
+      "civicPurpose": "This district handles the local landmark’s visible plaza, vertical silhouette, and immediate public use for Grand Market. In scenes, it should show how trade, provisioning, price-setting, storage, and the public circulation of food, goods, and local news becomes a street-level system.",
+      "visualIdentity": "Grand Market identity rendered through covered stalls, storage jars, auction tables, food awnings, Polished White Limestone, Sandstone, Stucco, Brass Lattice, and Linen, local crowds, and the visible approach to Covered Bazaar.",
+      "emotionalIdentity": "busy, bargaining, fragrant, and public",
+      "gameplayAssetNeeds": [
+        "Covered Bazaar",
+        "Grand Market Civic Hall",
+        "Awning Monument",
+        "Auction Court Nook",
+        "Grand Market street props",
+        "North African / Egyptian civilians using the district",
+        "clear board-readable pathing and gathering space"
+      ],
+      "narrativeUse": [
+        "stage grand market scenes without needing to reopen concept art",
+        "show how ordinary citizens react to public pressure",
+        "give characters a concrete approach, obstacle, or meeting point",
+        "translate citywide crisis into district-scale behavior",
+        "support diorama generation with landmark-specific props"
+      ],
+      "primaryLandmark": "Covered Bazaar",
+      "minorLandmarks": [
+        "Grand Market Civic Hall",
+        "Awning Monument",
+        "Auction Court Nook"
+      ]
+    },
+    {
+      "districtNumber": 6,
+      "districtCode": "D06",
+      "sectionNumber": 1,
+      "sectionName": "Transit / Caravan / Rail",
+      "name": "Transit / Caravan / Rail — Service Arcade",
+      "civicPurpose": "This district handles small shops, workers, storage, and everyday support around the section for Transit / Caravan / Rail. In scenes, it should show how arrival, departure, cargo handling, route brokerage, public counting, and the trust systems that keep movement honest becomes a street-level system.",
+      "visualIdentity": "Transit / Caravan / Rail identity rendered through cargo ledgers, crates, route boards, loading courts, Polished White Limestone, Sandstone, Stucco, Brass Lattice, and Linen, local crowds, and the visible approach to Waystation Hall Nook.",
+      "emotionalIdentity": "lived-in, readable, and civic",
+      "gameplayAssetNeeds": [
+        "Waystation Hall Nook",
+        "Transit / Caravan / Rail Civic Hall",
+        "Caravanserai Beacon",
+        "Woven Banners Monument",
+        "Transit / Caravan / Rail street props",
+        "North African / Egyptian civilians using the district",
+        "clear board-readable pathing and gathering space"
+      ],
+      "narrativeUse": [
+        "stage transit / caravan / rail scenes without needing to reopen concept art",
+        "show how ordinary citizens react to public pressure",
+        "give characters a concrete approach, obstacle, or meeting point",
+        "translate citywide crisis into district-scale behavior",
+        "support diorama generation with landmark-specific props"
+      ],
+      "primaryLandmark": "Waystation Hall Nook",
+      "minorLandmarks": [
+        "Transit / Caravan / Rail Civic Hall",
+        "Caravanserai Beacon",
+        "Woven Banners Monument"
+      ]
+    },
+    {
+      "districtNumber": 7,
+      "districtCode": "D07",
+      "sectionNumber": 1,
+      "sectionName": "Transit / Caravan / Rail",
+      "name": "Transit / Caravan / Rail — Residential / Backstreet Edge",
+      "civicPurpose": "This district handles housing, side lanes, minor courts, and private daily routines for Transit / Caravan / Rail. In scenes, it should show how arrival, departure, cargo handling, route brokerage, public counting, and the trust systems that keep movement honest becomes a street-level system.",
+      "visualIdentity": "Transit / Caravan / Rail identity rendered through cargo ledgers, crates, route boards, loading courts, Polished White Limestone, Sandstone, Stucco, Brass Lattice, and Linen, local crowds, and the visible approach to Caravanserai Beacon.",
+      "emotionalIdentity": "lived-in, readable, and civic",
+      "gameplayAssetNeeds": [
+        "Caravanserai Beacon",
+        "Transit / Caravan / Rail Civic Hall",
+        "Woven Banners Monument",
+        "Waystation Hall Nook",
+        "Transit / Caravan / Rail street props",
+        "North African / Egyptian civilians using the district",
+        "clear board-readable pathing and gathering space"
+      ],
+      "narrativeUse": [
+        "stage transit / caravan / rail scenes without needing to reopen concept art",
+        "show how ordinary citizens react to public pressure",
+        "give characters a concrete approach, obstacle, or meeting point",
+        "translate citywide crisis into district-scale behavior",
+        "support diorama generation with landmark-specific props"
+      ],
+      "primaryLandmark": "Caravanserai Beacon",
+      "minorLandmarks": [
+        "Transit / Caravan / Rail Civic Hall",
+        "Woven Banners Monument",
+        "Waystation Hall Nook"
+      ]
+    },
+    {
+      "districtNumber": 8,
+      "districtCode": "D08",
+      "sectionNumber": 3,
+      "sectionName": "Military Command",
+      "name": "Military Command — Civic Threshold",
+      "civicPurpose": "This district handles public approach, first contact, notices, and movement control for Military Command. In scenes, it should show how defense, muster, signal discipline, ordered movement, and public confidence in civic protection becomes a street-level system.",
+      "visualIdentity": "Military Command identity rendered through standards, muster lines, watch platforms, shield racks, Polished White Limestone, Sandstone, Stucco, Brass Lattice, and Linen, local crowds, and the visible approach to Military Command Hall.",
+      "emotionalIdentity": "disciplined, tense, organized, and protective",
+      "gameplayAssetNeeds": [
+        "Military Command Hall",
+        "Command Bastion",
+        "Woven Banners Monument",
+        "Standard Tower Nook",
+        "Military Command street props",
+        "North African / Egyptian civilians using the district",
+        "clear board-readable pathing and gathering space"
+      ],
+      "narrativeUse": [
+        "stage military command scenes without needing to reopen concept art",
+        "show how ordinary citizens react to public pressure",
+        "give characters a concrete approach, obstacle, or meeting point",
+        "translate citywide crisis into district-scale behavior",
+        "support diorama generation with landmark-specific props"
+      ],
+      "primaryLandmark": "Military Command Hall",
+      "minorLandmarks": [
+        "Command Bastion",
+        "Woven Banners Monument",
+        "Standard Tower Nook"
+      ]
+    },
+    {
+      "districtNumber": 9,
+      "districtCode": "D09",
+      "sectionNumber": 2,
+      "sectionName": "Grand Market",
+      "name": "Grand Market — Monument Plaza",
+      "civicPurpose": "This district handles ceremony, memory, civic symbolism, and formal gatherings for Grand Market. In scenes, it should show how trade, provisioning, price-setting, storage, and the public circulation of food, goods, and local news becomes a street-level system.",
+      "visualIdentity": "Grand Market identity rendered through covered stalls, storage jars, auction tables, food awnings, Polished White Limestone, Sandstone, Stucco, Brass Lattice, and Linen, local crowds, and the visible approach to Awning Monument.",
+      "emotionalIdentity": "busy, bargaining, fragrant, and public",
+      "gameplayAssetNeeds": [
+        "Awning Monument",
+        "Grand Market Civic Hall",
+        "Covered Bazaar",
+        "Auction Court Nook",
+        "Grand Market street props",
+        "North African / Egyptian civilians using the district",
+        "clear board-readable pathing and gathering space"
+      ],
+      "narrativeUse": [
+        "stage grand market scenes without needing to reopen concept art",
+        "show how ordinary citizens react to public pressure",
+        "give characters a concrete approach, obstacle, or meeting point",
+        "translate citywide crisis into district-scale behavior",
+        "support diorama generation with landmark-specific props"
+      ],
+      "primaryLandmark": "Awning Monument",
+      "minorLandmarks": [
+        "Grand Market Civic Hall",
+        "Covered Bazaar",
+        "Auction Court Nook"
+      ]
+    },
+    {
+      "districtNumber": 10,
+      "districtCode": "D10",
+      "sectionNumber": 2,
+      "sectionName": "Grand Market",
+      "name": "Grand Market — Service Arcade",
+      "civicPurpose": "This district handles small shops, workers, storage, and everyday support around the section for Grand Market. In scenes, it should show how trade, provisioning, price-setting, storage, and the public circulation of food, goods, and local news becomes a street-level system.",
+      "visualIdentity": "Grand Market identity rendered through covered stalls, storage jars, auction tables, food awnings, Polished White Limestone, Sandstone, Stucco, Brass Lattice, and Linen, local crowds, and the visible approach to Auction Court Nook.",
+      "emotionalIdentity": "busy, bargaining, fragrant, and public",
+      "gameplayAssetNeeds": [
+        "Auction Court Nook",
+        "Grand Market Civic Hall",
+        "Covered Bazaar",
+        "Awning Monument",
+        "Grand Market street props",
+        "North African / Egyptian civilians using the district",
+        "clear board-readable pathing and gathering space"
+      ],
+      "narrativeUse": [
+        "stage grand market scenes without needing to reopen concept art",
+        "show how ordinary citizens react to public pressure",
+        "give characters a concrete approach, obstacle, or meeting point",
+        "translate citywide crisis into district-scale behavior",
+        "support diorama generation with landmark-specific props"
+      ],
+      "primaryLandmark": "Auction Court Nook",
+      "minorLandmarks": [
+        "Grand Market Civic Hall",
+        "Covered Bazaar",
+        "Awning Monument"
+      ]
+    },
+    {
+      "districtNumber": 11,
+      "districtCode": "D11",
+      "sectionNumber": 4,
+      "sectionName": "Agricultural Terraces",
+      "name": "Agricultural Terraces — Civic Threshold",
+      "civicPurpose": "This district handles public approach, first contact, notices, and movement control for Agricultural Terraces. In scenes, it should show how cultivation, storage, irrigation discipline, food rites, and the public conversion of land into civic survival becomes a street-level system.",
+      "visualIdentity": "Agricultural Terraces identity rendered through seed stores, terraced beds, irrigation steps, harvest baskets, Polished White Limestone, Sandstone, Stucco, Brass Lattice, and Linen, local crowds, and the visible approach to Agricultural Terraces Civic Hall.",
+      "emotionalIdentity": "lived-in, readable, and civic",
+      "gameplayAssetNeeds": [
+        "Agricultural Terraces Civic Hall",
+        "Terrace Granary",
+        "Hanging Gardens Monument",
+        "Seed Hall Nook",
+        "Agricultural Terraces street props",
+        "North African / Egyptian civilians using the district",
+        "clear board-readable pathing and gathering space"
+      ],
+      "narrativeUse": [
+        "stage agricultural terraces scenes without needing to reopen concept art",
+        "show how ordinary citizens react to public pressure",
+        "give characters a concrete approach, obstacle, or meeting point",
+        "translate citywide crisis into district-scale behavior",
+        "support diorama generation with landmark-specific props"
+      ],
+      "primaryLandmark": "Agricultural Terraces Civic Hall",
+      "minorLandmarks": [
+        "Terrace Granary",
+        "Hanging Gardens Monument",
+        "Seed Hall Nook"
+      ]
+    },
+    {
+      "districtNumber": 12,
+      "districtCode": "D12",
+      "sectionNumber": 3,
+      "sectionName": "Military Command",
+      "name": "Military Command — Landmark Court",
+      "civicPurpose": "This district handles the local landmark’s visible plaza, vertical silhouette, and immediate public use for Military Command. In scenes, it should show how defense, muster, signal discipline, ordered movement, and public confidence in civic protection becomes a street-level system.",
+      "visualIdentity": "Military Command identity rendered through standards, muster lines, watch platforms, shield racks, Polished White Limestone, Sandstone, Stucco, Brass Lattice, and Linen, local crowds, and the visible approach to Command Bastion.",
+      "emotionalIdentity": "disciplined, tense, organized, and protective",
+      "gameplayAssetNeeds": [
+        "Command Bastion",
+        "Military Command Hall",
+        "Woven Banners Monument",
+        "Standard Tower Nook",
+        "Military Command street props",
+        "North African / Egyptian civilians using the district",
+        "clear board-readable pathing and gathering space"
+      ],
+      "narrativeUse": [
+        "stage military command scenes without needing to reopen concept art",
+        "show how ordinary citizens react to public pressure",
+        "give characters a concrete approach, obstacle, or meeting point",
+        "translate citywide crisis into district-scale behavior",
+        "support diorama generation with landmark-specific props"
+      ],
+      "primaryLandmark": "Command Bastion",
+      "minorLandmarks": [
+        "Military Command Hall",
+        "Woven Banners Monument",
+        "Standard Tower Nook"
+      ]
+    },
+    {
+      "districtNumber": 13,
+      "districtCode": "D13",
+      "sectionNumber": 3,
+      "sectionName": "Military Command",
+      "name": "Military Command — Monument Plaza",
+      "civicPurpose": "This district handles ceremony, memory, civic symbolism, and formal gatherings for Military Command. In scenes, it should show how defense, muster, signal discipline, ordered movement, and public confidence in civic protection becomes a street-level system.",
+      "visualIdentity": "Military Command identity rendered through standards, muster lines, watch platforms, shield racks, Polished White Limestone, Sandstone, Stucco, Brass Lattice, and Linen, local crowds, and the visible approach to Sun Disc Reliefs Sovereign Registry Court.",
+      "emotionalIdentity": "disciplined, tense, organized, and protective",
+      "gameplayAssetNeeds": [
+        "Sun Disc Reliefs Sovereign Registry Court",
+        "Caravanserai Beacon",
+        "North-African Sun-Cistern Citadel of Ma’at",
+        "Military Command Hall",
+        "Military Command street props",
+        "North African / Egyptian civilians using the district",
+        "clear board-readable pathing and gathering space"
+      ],
+      "narrativeUse": [
+        "stage military command scenes without needing to reopen concept art",
+        "show how ordinary citizens react to public pressure",
+        "give characters a concrete approach, obstacle, or meeting point",
+        "translate citywide crisis into district-scale behavior",
+        "support diorama generation with landmark-specific props"
+      ],
+      "primaryLandmark": "Sun Disc Reliefs Sovereign Registry Court",
+      "minorLandmarks": [
+        "Caravanserai Beacon",
+        "North-African Sun-Cistern Citadel of Ma’at",
+        "Military Command Hall",
+        "Command Bastion",
+        "Woven Banners Monument",
+        "Standard Tower Nook"
+      ]
+    },
+    {
+      "districtNumber": 14,
+      "districtCode": "D14",
+      "sectionNumber": 3,
+      "sectionName": "Military Command",
+      "name": "Military Command — Service Arcade",
+      "civicPurpose": "This district handles small shops, workers, storage, and everyday support around the section for Military Command. In scenes, it should show how defense, muster, signal discipline, ordered movement, and public confidence in civic protection becomes a street-level system.",
+      "visualIdentity": "Military Command identity rendered through standards, muster lines, watch platforms, shield racks, Polished White Limestone, Sandstone, Stucco, Brass Lattice, and Linen, local crowds, and the visible approach to Standard Tower Nook.",
+      "emotionalIdentity": "disciplined, tense, organized, and protective",
+      "gameplayAssetNeeds": [
+        "Standard Tower Nook",
+        "Military Command Hall",
+        "Command Bastion",
+        "Woven Banners Monument",
+        "Military Command street props",
+        "North African / Egyptian civilians using the district",
+        "clear board-readable pathing and gathering space"
+      ],
+      "narrativeUse": [
+        "stage military command scenes without needing to reopen concept art",
+        "show how ordinary citizens react to public pressure",
+        "give characters a concrete approach, obstacle, or meeting point",
+        "translate citywide crisis into district-scale behavior",
+        "support diorama generation with landmark-specific props"
+      ],
+      "primaryLandmark": "Standard Tower Nook",
+      "minorLandmarks": [
+        "Military Command Hall",
+        "Command Bastion",
+        "Woven Banners Monument"
+      ]
+    },
+    {
+      "districtNumber": 15,
+      "districtCode": "D15",
+      "sectionNumber": 2,
+      "sectionName": "Grand Market",
+      "name": "Grand Market — Residential / Backstreet Edge",
+      "civicPurpose": "This district handles housing, side lanes, minor courts, and private daily routines for Grand Market. In scenes, it should show how trade, provisioning, price-setting, storage, and the public circulation of food, goods, and local news becomes a street-level system.",
+      "visualIdentity": "Grand Market identity rendered through covered stalls, storage jars, auction tables, food awnings, Polished White Limestone, Sandstone, Stucco, Brass Lattice, and Linen, local crowds, and the visible approach to Covered Bazaar.",
+      "emotionalIdentity": "busy, bargaining, fragrant, and public",
+      "gameplayAssetNeeds": [
+        "Covered Bazaar",
+        "Grand Market Civic Hall",
+        "Awning Monument",
+        "Auction Court Nook",
+        "Grand Market street props",
+        "North African / Egyptian civilians using the district",
+        "clear board-readable pathing and gathering space"
+      ],
+      "narrativeUse": [
+        "stage grand market scenes without needing to reopen concept art",
+        "show how ordinary citizens react to public pressure",
+        "give characters a concrete approach, obstacle, or meeting point",
+        "translate citywide crisis into district-scale behavior",
+        "support diorama generation with landmark-specific props"
+      ],
+      "primaryLandmark": "Covered Bazaar",
+      "minorLandmarks": [
+        "Grand Market Civic Hall",
+        "Awning Monument",
+        "Auction Court Nook"
+      ]
+    },
+    {
+      "districtNumber": 16,
+      "districtCode": "D16",
+      "sectionNumber": 4,
+      "sectionName": "Agricultural Terraces",
+      "name": "Agricultural Terraces — Landmark Court",
+      "civicPurpose": "This district handles the local landmark’s visible plaza, vertical silhouette, and immediate public use for Agricultural Terraces. In scenes, it should show how cultivation, storage, irrigation discipline, food rites, and the public conversion of land into civic survival becomes a street-level system.",
+      "visualIdentity": "Agricultural Terraces identity rendered through seed stores, terraced beds, irrigation steps, harvest baskets, Polished White Limestone, Sandstone, Stucco, Brass Lattice, and Linen, local crowds, and the visible approach to Terrace Granary.",
+      "emotionalIdentity": "lived-in, readable, and civic",
+      "gameplayAssetNeeds": [
+        "Terrace Granary",
+        "Agricultural Terraces Civic Hall",
+        "Hanging Gardens Monument",
+        "Seed Hall Nook",
+        "Agricultural Terraces street props",
+        "North African / Egyptian civilians using the district",
+        "clear board-readable pathing and gathering space"
+      ],
+      "narrativeUse": [
+        "stage agricultural terraces scenes without needing to reopen concept art",
+        "show how ordinary citizens react to public pressure",
+        "give characters a concrete approach, obstacle, or meeting point",
+        "translate citywide crisis into district-scale behavior",
+        "support diorama generation with landmark-specific props"
+      ],
+      "primaryLandmark": "Terrace Granary",
+      "minorLandmarks": [
+        "Agricultural Terraces Civic Hall",
+        "Hanging Gardens Monument",
+        "Seed Hall Nook"
+      ]
+    },
+    {
+      "districtNumber": 17,
+      "districtCode": "D17",
+      "sectionNumber": 4,
+      "sectionName": "Agricultural Terraces",
+      "name": "Agricultural Terraces — Monument Plaza",
+      "civicPurpose": "This district handles ceremony, memory, civic symbolism, and formal gatherings for Agricultural Terraces. In scenes, it should show how cultivation, storage, irrigation discipline, food rites, and the public conversion of land into civic survival becomes a street-level system.",
+      "visualIdentity": "Agricultural Terraces identity rendered through seed stores, terraced beds, irrigation steps, harvest baskets, Polished White Limestone, Sandstone, Stucco, Brass Lattice, and Linen, local crowds, and the visible approach to Hanging Gardens Monument.",
+      "emotionalIdentity": "lived-in, readable, and civic",
+      "gameplayAssetNeeds": [
+        "Hanging Gardens Monument",
+        "Agricultural Terraces Civic Hall",
+        "Terrace Granary",
+        "Seed Hall Nook",
+        "Agricultural Terraces street props",
+        "North African / Egyptian civilians using the district",
+        "clear board-readable pathing and gathering space"
+      ],
+      "narrativeUse": [
+        "stage agricultural terraces scenes without needing to reopen concept art",
+        "show how ordinary citizens react to public pressure",
+        "give characters a concrete approach, obstacle, or meeting point",
+        "translate citywide crisis into district-scale behavior",
+        "support diorama generation with landmark-specific props"
+      ],
+      "primaryLandmark": "Hanging Gardens Monument",
+      "minorLandmarks": [
+        "Agricultural Terraces Civic Hall",
+        "Terrace Granary",
+        "Seed Hall Nook"
+      ]
+    },
+    {
+      "districtNumber": 18,
+      "districtCode": "D18",
+      "sectionNumber": 3,
+      "sectionName": "Military Command",
+      "name": "Military Command — Residential / Backstreet Edge",
+      "civicPurpose": "This district handles housing, side lanes, minor courts, and private daily routines for Military Command. In scenes, it should show how defense, muster, signal discipline, ordered movement, and public confidence in civic protection becomes a street-level system.",
+      "visualIdentity": "Military Command identity rendered through standards, muster lines, watch platforms, shield racks, Polished White Limestone, Sandstone, Stucco, Brass Lattice, and Linen, local crowds, and the visible approach to Command Bastion.",
+      "emotionalIdentity": "disciplined, tense, organized, and protective",
+      "gameplayAssetNeeds": [
+        "Command Bastion",
+        "Military Command Hall",
+        "Woven Banners Monument",
+        "Standard Tower Nook",
+        "Military Command street props",
+        "North African / Egyptian civilians using the district",
+        "clear board-readable pathing and gathering space"
+      ],
+      "narrativeUse": [
+        "stage military command scenes without needing to reopen concept art",
+        "show how ordinary citizens react to public pressure",
+        "give characters a concrete approach, obstacle, or meeting point",
+        "translate citywide crisis into district-scale behavior",
+        "support diorama generation with landmark-specific props"
+      ],
+      "primaryLandmark": "Command Bastion",
+      "minorLandmarks": [
+        "Military Command Hall",
+        "Woven Banners Monument",
+        "Standard Tower Nook"
+      ]
+    },
+    {
+      "districtNumber": 19,
+      "districtCode": "D19",
+      "sectionNumber": 5,
+      "sectionName": "Refugee Commons",
+      "name": "Refugee Commons — Civic Threshold",
+      "civicPurpose": "This district handles public approach, first contact, notices, and movement control for Refugee Commons. In scenes, it should show how shelter, relief, queue discipline, public mercy, rationing, and the practical politics of belonging becomes a street-level system.",
+      "visualIdentity": "Refugee Commons identity rendered through ration lines, blankets, aid tables, temporary screens, Polished White Limestone, Sandstone, Stucco, Brass Lattice, and Linen, local crowds, and the visible approach to Refugee Commons Civic Threshold.",
+      "emotionalIdentity": "crowded, fragile, humane, and politically exposed",
+      "gameplayAssetNeeds": [
+        "Refugee Commons Civic Threshold",
+        "Aid Commons",
+        "Refugee Commons street props",
+        "North African / Egyptian civilians using the district",
+        "clear board-readable pathing and gathering space"
+      ],
+      "narrativeUse": [
+        "stage refugee commons scenes without needing to reopen concept art",
+        "show how ordinary citizens react to public pressure",
+        "give characters a concrete approach, obstacle, or meeting point",
+        "translate citywide crisis into district-scale behavior",
+        "support diorama generation with landmark-specific props"
+      ],
+      "primaryLandmark": "Refugee Commons Civic Threshold",
+      "minorLandmarks": [
+        "Aid Commons"
+      ]
+    },
+    {
+      "districtNumber": 20,
+      "districtCode": "D20",
+      "sectionNumber": 5,
+      "sectionName": "Refugee Commons",
+      "name": "Refugee Commons — Landmark Court",
+      "civicPurpose": "This district handles the local landmark’s visible plaza, vertical silhouette, and immediate public use for Refugee Commons. In scenes, it should show how shelter, relief, queue discipline, public mercy, rationing, and the practical politics of belonging becomes a street-level system.",
+      "visualIdentity": "Refugee Commons identity rendered through ration lines, blankets, aid tables, temporary screens, Polished White Limestone, Sandstone, Stucco, Brass Lattice, and Linen, local crowds, and the visible approach to Aid Commons.",
+      "emotionalIdentity": "crowded, fragile, humane, and politically exposed",
+      "gameplayAssetNeeds": [
+        "Aid Commons",
+        "Refugee Commons side court",
+        "Refugee Commons service marker",
+        "Refugee Commons street props",
+        "North African / Egyptian civilians using the district",
+        "clear board-readable pathing and gathering space"
+      ],
+      "narrativeUse": [
+        "stage refugee commons scenes without needing to reopen concept art",
+        "show how ordinary citizens react to public pressure",
+        "give characters a concrete approach, obstacle, or meeting point",
+        "translate citywide crisis into district-scale behavior",
+        "support diorama generation with landmark-specific props"
+      ],
+      "primaryLandmark": "Aid Commons",
+      "minorLandmarks": [
+        "Refugee Commons side court",
+        "Refugee Commons service marker"
+      ]
+    },
+    {
+      "districtNumber": 21,
+      "districtCode": "D21",
+      "sectionNumber": 4,
+      "sectionName": "Agricultural Terraces",
+      "name": "Agricultural Terraces — Service Arcade",
+      "civicPurpose": "This district handles small shops, workers, storage, and everyday support around the section for Agricultural Terraces. In scenes, it should show how cultivation, storage, irrigation discipline, food rites, and the public conversion of land into civic survival becomes a street-level system.",
+      "visualIdentity": "Agricultural Terraces identity rendered through seed stores, terraced beds, irrigation steps, harvest baskets, Polished White Limestone, Sandstone, Stucco, Brass Lattice, and Linen, local crowds, and the visible approach to Seed Hall Nook.",
+      "emotionalIdentity": "lived-in, readable, and civic",
+      "gameplayAssetNeeds": [
+        "Seed Hall Nook",
+        "Agricultural Terraces Civic Hall",
+        "Terrace Granary",
+        "Hanging Gardens Monument",
+        "Agricultural Terraces street props",
+        "North African / Egyptian civilians using the district",
+        "clear board-readable pathing and gathering space"
+      ],
+      "narrativeUse": [
+        "stage agricultural terraces scenes without needing to reopen concept art",
+        "show how ordinary citizens react to public pressure",
+        "give characters a concrete approach, obstacle, or meeting point",
+        "translate citywide crisis into district-scale behavior",
+        "support diorama generation with landmark-specific props"
+      ],
+      "primaryLandmark": "Seed Hall Nook",
+      "minorLandmarks": [
+        "Agricultural Terraces Civic Hall",
+        "Terrace Granary",
+        "Hanging Gardens Monument"
+      ]
+    },
+    {
+      "districtNumber": 22,
+      "districtCode": "D22",
+      "sectionNumber": 4,
+      "sectionName": "Agricultural Terraces",
+      "name": "Agricultural Terraces — Residential / Backstreet Edge",
+      "civicPurpose": "This district handles housing, side lanes, minor courts, and private daily routines for Agricultural Terraces. In scenes, it should show how cultivation, storage, irrigation discipline, food rites, and the public conversion of land into civic survival becomes a street-level system.",
+      "visualIdentity": "Agricultural Terraces identity rendered through seed stores, terraced beds, irrigation steps, harvest baskets, Polished White Limestone, Sandstone, Stucco, Brass Lattice, and Linen, local crowds, and the visible approach to Terrace Granary.",
+      "emotionalIdentity": "lived-in, readable, and civic",
+      "gameplayAssetNeeds": [
+        "Terrace Granary",
+        "Agricultural Terraces Civic Hall",
+        "Hanging Gardens Monument",
+        "Seed Hall Nook",
+        "Agricultural Terraces street props",
+        "North African / Egyptian civilians using the district",
+        "clear board-readable pathing and gathering space"
+      ],
+      "narrativeUse": [
+        "stage agricultural terraces scenes without needing to reopen concept art",
+        "show how ordinary citizens react to public pressure",
+        "give characters a concrete approach, obstacle, or meeting point",
+        "translate citywide crisis into district-scale behavior",
+        "support diorama generation with landmark-specific props"
+      ],
+      "primaryLandmark": "Terrace Granary",
+      "minorLandmarks": [
+        "Agricultural Terraces Civic Hall",
+        "Hanging Gardens Monument",
+        "Seed Hall Nook"
+      ]
+    },
+    {
+      "districtNumber": 23,
+      "districtCode": "D23",
+      "sectionNumber": 5,
+      "sectionName": "Refugee Commons",
+      "name": "Refugee Commons — Monument Plaza",
+      "civicPurpose": "This district handles ceremony, memory, civic symbolism, and formal gatherings for Refugee Commons. In scenes, it should show how shelter, relief, queue discipline, public mercy, rationing, and the practical politics of belonging becomes a street-level system.",
+      "visualIdentity": "Refugee Commons identity rendered through ration lines, blankets, aid tables, temporary screens, Polished White Limestone, Sandstone, Stucco, Brass Lattice, and Linen, local crowds, and the visible approach to Refugee Commons Monument Plaza.",
+      "emotionalIdentity": "crowded, fragile, humane, and politically exposed",
+      "gameplayAssetNeeds": [
+        "Refugee Commons Monument Plaza",
+        "Aid Commons",
+        "Refugee Commons street props",
+        "North African / Egyptian civilians using the district",
+        "clear board-readable pathing and gathering space"
+      ],
+      "narrativeUse": [
+        "stage refugee commons scenes without needing to reopen concept art",
+        "show how ordinary citizens react to public pressure",
+        "give characters a concrete approach, obstacle, or meeting point",
+        "translate citywide crisis into district-scale behavior",
+        "support diorama generation with landmark-specific props"
+      ],
+      "primaryLandmark": "Refugee Commons Monument Plaza",
+      "minorLandmarks": [
+        "Aid Commons"
+      ]
+    },
+    {
+      "districtNumber": 24,
+      "districtCode": "D24",
+      "sectionNumber": 5,
+      "sectionName": "Refugee Commons",
+      "name": "Refugee Commons — Service Arcade",
+      "civicPurpose": "This district handles small shops, workers, storage, and everyday support around the section for Refugee Commons. In scenes, it should show how shelter, relief, queue discipline, public mercy, rationing, and the practical politics of belonging becomes a street-level system.",
+      "visualIdentity": "Refugee Commons identity rendered through ration lines, blankets, aid tables, temporary screens, Polished White Limestone, Sandstone, Stucco, Brass Lattice, and Linen, local crowds, and the visible approach to Refugee Commons Service Arcade.",
+      "emotionalIdentity": "crowded, fragile, humane, and politically exposed",
+      "gameplayAssetNeeds": [
+        "Refugee Commons Service Arcade",
+        "Aid Commons",
+        "Refugee Commons street props",
+        "North African / Egyptian civilians using the district",
+        "clear board-readable pathing and gathering space"
+      ],
+      "narrativeUse": [
+        "stage refugee commons scenes without needing to reopen concept art",
+        "show how ordinary citizens react to public pressure",
+        "give characters a concrete approach, obstacle, or meeting point",
+        "translate citywide crisis into district-scale behavior",
+        "support diorama generation with landmark-specific props"
+      ],
+      "primaryLandmark": "Refugee Commons Service Arcade",
+      "minorLandmarks": [
+        "Aid Commons"
+      ]
+    },
+    {
+      "districtNumber": 25,
+      "districtCode": "D25",
+      "sectionNumber": 5,
+      "sectionName": "Refugee Commons",
+      "name": "Refugee Commons — Residential / Backstreet Edge",
+      "civicPurpose": "This district handles housing, side lanes, minor courts, and private daily routines for Refugee Commons. In scenes, it should show how shelter, relief, queue discipline, public mercy, rationing, and the practical politics of belonging becomes a street-level system.",
+      "visualIdentity": "Refugee Commons identity rendered through ration lines, blankets, aid tables, temporary screens, Polished White Limestone, Sandstone, Stucco, Brass Lattice, and Linen, local crowds, and the visible approach to Aid Commons.",
+      "emotionalIdentity": "crowded, fragile, humane, and politically exposed",
+      "gameplayAssetNeeds": [
+        "Aid Commons",
+        "Refugee Commons side court",
+        "Refugee Commons service marker",
+        "Refugee Commons street props",
+        "North African / Egyptian civilians using the district",
+        "clear board-readable pathing and gathering space"
+      ],
+      "narrativeUse": [
+        "stage refugee commons scenes without needing to reopen concept art",
+        "show how ordinary citizens react to public pressure",
+        "give characters a concrete approach, obstacle, or meeting point",
+        "translate citywide crisis into district-scale behavior",
+        "support diorama generation with landmark-specific props"
+      ],
+      "primaryLandmark": "Aid Commons",
+      "minorLandmarks": [
+        "Refugee Commons side court",
+        "Refugee Commons service marker"
+      ]
+    }
   ],
   "landmarks": {
-    "wonder": {"name": "North-African Sun-Cistern Citadel of Ma’at", "symbolicRole": "Sun, cistern, law, balance, and desert survival made monumental.", "visualRole": "Far skyline citadel-wonder of white limestone, sunfire channels, and ceremonial water authority.", "civicRole": "Citywide rite, water memory, oath ceremony, and public balance symbol.", "narrativeUse": ["water rite", "public oath", "citywide ceremony"], "assetUse": ["map wonder", "far skyline anchor"], "sensoryIdentity": ["sun glare", "cool cistern air", "brass shimmer"], "storyHooks": ["A sun-cistern rite reveals whether balance is real or just declared."]},
-    "beacon": {"name": "Caravanserai Beacon", "symbolicRole": "Public warning tied to arrival, road law, and hospitality.", "visualRole": "Beacon landmark rising from caravan infrastructure and road-facing courts.", "civicRole": "Coordinates road closures, market shifts, command response, and food-route changes.", "narrativeUse": ["Beacon change", "arrival crisis", "road warning"], "assetUse": ["S1 centerpiece", "signal marker"], "sensoryIdentity": ["blue glow", "dust", "caravan bells"], "storyHooks": ["A Beacon change turns hospitality into a legal test."]},
-    "seatOfPower": {"name": "Sun Disc Reliefs Sovereign Registry Court", "symbolicRole": "Solar order, records, water law, and balanced judgment made government.", "visualRole": "Central court with sun-disc reliefs, sealed archives, brass lattice, and public approach stairs.", "civicRole": "Governs road rights, market disputes, military duties, water records, terrace food claims, and petitions.", "narrativeUse": ["registry ruling", "water-right hearing", "market dispute"], "assetUse": ["seat-of-power marker"], "sensoryIdentity": ["ink", "sun-warmed stone", "brass", "sealed paper"], "storyHooks": ["A sun-disc record assigns water to the person the market forgot."]},
+    "wonder": {
+      "name": "North-African Sun-Cistern Citadel of Ma’at",
+      "symbolicRole": "North-African Sun-Cistern Citadel of Ma’at concentrates Qasr Siroth's civic identity into a usable public symbol.",
+      "visualRole": "A one-per-city wonder: spectacular, unmistakable, and larger than every section landmark; visually it should read through the city's North African / Egyptian material language.",
+      "civicRole": "Serves as a wonder for public orientation, authority, gathering, and district-scale navigation.",
+      "narrativeUse": [
+        "anchor scenes where Qasr Siroth's institutions become visible rather than abstract",
+        "stage public warnings, petitions, disputes, arrivals, or ceremonies",
+        "give characters a concrete place to read power, memory, labor, or obligation",
+        "provide a recognizable return point across chapters and map scenes"
+      ],
+      "assetUse": [
+        "district diorama centerpiece",
+        "map background landmark marker",
+        "board-readable silhouette and navigation cue",
+        "repeatable visual anchor for future city art"
+      ],
+      "sensoryIdentity": [
+        "public foot traffic",
+        "local material textures",
+        "civic lamps or signal light",
+        "voices gathering around its approach",
+        "weather and city smell caught on its surfaces"
+      ],
+      "storyHooks": [
+        "a public decision at North-African Sun-Cistern Citadel of Ma’at changes how the section moves",
+        "an old inscription, ledger, seal, or ceremonial object at North-African Sun-Cistern Citadel of Ma’at reveals a civic contradiction",
+        "crowd behavior around North-African Sun-Cistern Citadel of Ma’at shows whether the city trusts its own institutions"
+      ]
+    },
+    "beacon": {
+      "name": "Caravanserai Beacon",
+      "symbolicRole": "Caravanserai Beacon concentrates Qasr Siroth's civic identity into a usable public symbol. It carries Section 1's Transit / Caravan / Rail identity.",
+      "visualRole": "A largest local landmark in this section, subordinate only to the city wonder and citadel; visually it should read through the city's North African / Egyptian material language.",
+      "civicRole": "Serves as a beacon for public orientation, authority, gathering, and district-scale navigation.",
+      "narrativeUse": [
+        "anchor scenes where Qasr Siroth's institutions become visible rather than abstract",
+        "stage public warnings, petitions, disputes, arrivals, or ceremonies",
+        "give characters a concrete place to read power, memory, labor, or obligation",
+        "provide a recognizable return point across chapters and map scenes"
+      ],
+      "assetUse": [
+        "district diorama centerpiece",
+        "map background landmark marker",
+        "board-readable silhouette and navigation cue",
+        "repeatable visual anchor for future city art"
+      ],
+      "sensoryIdentity": [
+        "public foot traffic",
+        "local material textures",
+        "civic lamps or signal light",
+        "voices gathering around its approach",
+        "weather and city smell caught on its surfaces"
+      ],
+      "storyHooks": [
+        "a public decision at Caravanserai Beacon changes how the section moves",
+        "an old inscription, ledger, seal, or ceremonial object at Caravanserai Beacon reveals a civic contradiction",
+        "crowd behavior around Caravanserai Beacon shows whether the city trusts its own institutions"
+      ]
+    },
+    "seatOfPower": {
+      "name": "Sun Disc Reliefs Sovereign Registry Court",
+      "symbolicRole": "Sun Disc Reliefs Sovereign Registry Court concentrates Qasr Siroth's civic identity into a usable public symbol.",
+      "visualRole": "The district-13 seat of power: courts, audience terraces, sealed archives, command platforms, and the visible apparatus of government; visually it should read through the city's North African / Egyptian material language.",
+      "civicRole": "Serves as a seat of power for public orientation, authority, gathering, and district-scale navigation.",
+      "narrativeUse": [
+        "anchor scenes where Qasr Siroth's institutions become visible rather than abstract",
+        "stage public warnings, petitions, disputes, arrivals, or ceremonies",
+        "give characters a concrete place to read power, memory, labor, or obligation",
+        "provide a recognizable return point across chapters and map scenes"
+      ],
+      "assetUse": [
+        "district diorama centerpiece",
+        "map background landmark marker",
+        "board-readable silhouette and navigation cue",
+        "repeatable visual anchor for future city art"
+      ],
+      "sensoryIdentity": [
+        "public foot traffic",
+        "local material textures",
+        "civic lamps or signal light",
+        "voices gathering around its approach",
+        "weather and city smell caught on its surfaces"
+      ],
+      "storyHooks": [
+        "a public decision at Sun Disc Reliefs Sovereign Registry Court changes how the section moves",
+        "an old inscription, ledger, seal, or ceremonial object at Sun Disc Reliefs Sovereign Registry Court reveals a civic contradiction",
+        "crowd behavior around Sun Disc Reliefs Sovereign Registry Court shows whether the city trusts its own institutions"
+      ],
+      "districtNumber": 13
+    },
     "majorLandmarks": [
-      {"name": "Covered Bazaar", "symbolicRole": "Commerce protected by shade and law.", "visualRole": "Shaded market hall with awnings, auction court, and dense trade routes.", "civicRole": "Trade, auction witnessing, and public exchange.", "narrativeUse": ["market scene", "auction dispute"], "assetUse": ["S2 diorama"], "sensoryIdentity": ["spices", "cloth shade", "voices"], "storyHooks": ["An auction court phrase reveals who controls the cistern routes."]},
-      {"name": "Command Bastion", "symbolicRole": "Military order guarding route and water balance.", "visualRole": "Command tower and court with standards, woven banners, and hard sunlit stone.", "civicRole": "Road defense, command coordination, and crisis response.", "narrativeUse": ["orders", "road closure"], "assetUse": ["S3 diorama"], "sensoryIdentity": ["standard cloth", "boots", "hot stone"], "storyHooks": ["A command order protects the road but threatens the granary."]},
-      {"name": "Terrace Granary", "symbolicRole": "Food security made visible in the desert.", "visualRole": "Stepped granary terraces with hanging gardens, seed hall, grain storage, and cistern-fed planting.", "civicRole": "Food storage, seed keeping, and terrace agriculture.", "narrativeUse": ["food shortage", "seed record"], "assetUse": ["S4 diorama"], "sensoryIdentity": ["grain", "dry wind", "irrigated soil"], "storyHooks": ["A seed hall entry proves the city planned for a drought it publicly denied."]},
-      {"name": "Aid Commons", "symbolicRole": "Public provision implied by hero-source coverage but missing district source detail.", "visualRole": "Visible secondary landmark in hero views only; exact S5 street anchors are not available in this upload.", "civicRole": "Probable public aid or provision function; must remain provisional until S5 source exists.", "narrativeUse": ["aid scene", "source-limited civic provision"], "assetUse": ["hero-view secondary landmark only"], "sensoryIdentity": ["shade", "water jars", "public waiting"], "storyHooks": ["Aid Commons should not receive exact nook or monument treatment until the missing S5 source is supplied."]}
+      {
+        "name": "Transit / Caravan / Rail Civic Hall",
+        "symbolicRole": "Transit / Caravan / Rail Civic Hall concentrates Qasr Siroth's civic identity into a usable public symbol. It carries Section 1's Transit / Caravan / Rail identity.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing; visually it should read through the city's North African / Egyptian material language.",
+        "civicRole": "Serves as a civic center for public orientation, authority, gathering, and district-scale navigation.",
+        "narrativeUse": [
+          "anchor scenes where Qasr Siroth's institutions become visible rather than abstract",
+          "stage public warnings, petitions, disputes, arrivals, or ceremonies",
+          "give characters a concrete place to read power, memory, labor, or obligation",
+          "provide a recognizable return point across chapters and map scenes"
+        ],
+        "assetUse": [
+          "district diorama centerpiece",
+          "map background landmark marker",
+          "board-readable silhouette and navigation cue",
+          "repeatable visual anchor for future city art"
+        ],
+        "sensoryIdentity": [
+          "public foot traffic",
+          "local material textures",
+          "civic lamps or signal light",
+          "voices gathering around its approach",
+          "weather and city smell caught on its surfaces"
+        ],
+        "storyHooks": [
+          "a public decision at Transit / Caravan / Rail Civic Hall changes how the section moves",
+          "an old inscription, ledger, seal, or ceremonial object at Transit / Caravan / Rail Civic Hall reveals a civic contradiction",
+          "crowd behavior around Transit / Caravan / Rail Civic Hall shows whether the city trusts its own institutions"
+        ]
+      },
+      {
+        "name": "Woven Banners Monument",
+        "symbolicRole": "Woven Banners Monument concentrates Qasr Siroth's civic identity into a usable public symbol. It carries Section 1's Transit / Caravan / Rail identity.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles; visually it should read through the city's North African / Egyptian material language.",
+        "civicRole": "Serves as a monument for public orientation, authority, gathering, and district-scale navigation.",
+        "narrativeUse": [
+          "anchor scenes where Qasr Siroth's institutions become visible rather than abstract",
+          "stage public warnings, petitions, disputes, arrivals, or ceremonies",
+          "give characters a concrete place to read power, memory, labor, or obligation",
+          "provide a recognizable return point across chapters and map scenes"
+        ],
+        "assetUse": [
+          "district diorama centerpiece",
+          "map background landmark marker",
+          "board-readable silhouette and navigation cue",
+          "repeatable visual anchor for future city art"
+        ],
+        "sensoryIdentity": [
+          "public foot traffic",
+          "local material textures",
+          "civic lamps or signal light",
+          "voices gathering around its approach",
+          "weather and city smell caught on its surfaces"
+        ],
+        "storyHooks": [
+          "a public decision at Woven Banners Monument changes how the section moves",
+          "an old inscription, ledger, seal, or ceremonial object at Woven Banners Monument reveals a civic contradiction",
+          "crowd behavior around Woven Banners Monument shows whether the city trusts its own institutions"
+        ]
+      },
+      {
+        "name": "Waystation Hall Nook",
+        "symbolicRole": "Waystation Hall Nook concentrates Qasr Siroth's civic identity into a usable public symbol. It carries Section 1's Transit / Caravan / Rail identity.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette; visually it should read through the city's North African / Egyptian material language.",
+        "civicRole": "Serves as a minor landmark for public orientation, authority, gathering, and district-scale navigation.",
+        "narrativeUse": [
+          "anchor scenes where Qasr Siroth's institutions become visible rather than abstract",
+          "stage public warnings, petitions, disputes, arrivals, or ceremonies",
+          "give characters a concrete place to read power, memory, labor, or obligation",
+          "provide a recognizable return point across chapters and map scenes"
+        ],
+        "assetUse": [
+          "district diorama centerpiece",
+          "map background landmark marker",
+          "board-readable silhouette and navigation cue",
+          "repeatable visual anchor for future city art"
+        ],
+        "sensoryIdentity": [
+          "public foot traffic",
+          "local material textures",
+          "civic lamps or signal light",
+          "voices gathering around its approach",
+          "weather and city smell caught on its surfaces"
+        ],
+        "storyHooks": [
+          "a public decision at Waystation Hall Nook changes how the section moves",
+          "an old inscription, ledger, seal, or ceremonial object at Waystation Hall Nook reveals a civic contradiction",
+          "crowd behavior around Waystation Hall Nook shows whether the city trusts its own institutions"
+        ]
+      },
+      {
+        "name": "Grand Market Civic Hall",
+        "symbolicRole": "Grand Market Civic Hall concentrates Qasr Siroth's civic identity into a usable public symbol. It carries Section 2's Grand Market identity.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing; visually it should read through the city's North African / Egyptian material language.",
+        "civicRole": "Serves as a civic center for public orientation, authority, gathering, and district-scale navigation.",
+        "narrativeUse": [
+          "anchor scenes where Qasr Siroth's institutions become visible rather than abstract",
+          "stage public warnings, petitions, disputes, arrivals, or ceremonies",
+          "give characters a concrete place to read power, memory, labor, or obligation",
+          "provide a recognizable return point across chapters and map scenes"
+        ],
+        "assetUse": [
+          "district diorama centerpiece",
+          "map background landmark marker",
+          "board-readable silhouette and navigation cue",
+          "repeatable visual anchor for future city art"
+        ],
+        "sensoryIdentity": [
+          "public foot traffic",
+          "local material textures",
+          "civic lamps or signal light",
+          "voices gathering around its approach",
+          "weather and city smell caught on its surfaces"
+        ],
+        "storyHooks": [
+          "a public decision at Grand Market Civic Hall changes how the section moves",
+          "an old inscription, ledger, seal, or ceremonial object at Grand Market Civic Hall reveals a civic contradiction",
+          "crowd behavior around Grand Market Civic Hall shows whether the city trusts its own institutions"
+        ]
+      },
+      {
+        "name": "Covered Bazaar",
+        "symbolicRole": "Covered Bazaar concentrates Qasr Siroth's civic identity into a usable public symbol. It carries Section 2's Grand Market identity.",
+        "visualRole": "A largest local landmark in this section, subordinate only to the city wonder and citadel; visually it should read through the city's North African / Egyptian material language.",
+        "civicRole": "Serves as a major landmark for public orientation, authority, gathering, and district-scale navigation.",
+        "narrativeUse": [
+          "anchor scenes where Qasr Siroth's institutions become visible rather than abstract",
+          "stage public warnings, petitions, disputes, arrivals, or ceremonies",
+          "give characters a concrete place to read power, memory, labor, or obligation",
+          "provide a recognizable return point across chapters and map scenes"
+        ],
+        "assetUse": [
+          "district diorama centerpiece",
+          "map background landmark marker",
+          "board-readable silhouette and navigation cue",
+          "repeatable visual anchor for future city art"
+        ],
+        "sensoryIdentity": [
+          "public foot traffic",
+          "local material textures",
+          "civic lamps or signal light",
+          "voices gathering around its approach",
+          "weather and city smell caught on its surfaces"
+        ],
+        "storyHooks": [
+          "a public decision at Covered Bazaar changes how the section moves",
+          "an old inscription, ledger, seal, or ceremonial object at Covered Bazaar reveals a civic contradiction",
+          "crowd behavior around Covered Bazaar shows whether the city trusts its own institutions"
+        ]
+      },
+      {
+        "name": "Awning Monument",
+        "symbolicRole": "Awning Monument concentrates Qasr Siroth's civic identity into a usable public symbol. It carries Section 2's Grand Market identity.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles; visually it should read through the city's North African / Egyptian material language.",
+        "civicRole": "Serves as a monument for public orientation, authority, gathering, and district-scale navigation.",
+        "narrativeUse": [
+          "anchor scenes where Qasr Siroth's institutions become visible rather than abstract",
+          "stage public warnings, petitions, disputes, arrivals, or ceremonies",
+          "give characters a concrete place to read power, memory, labor, or obligation",
+          "provide a recognizable return point across chapters and map scenes"
+        ],
+        "assetUse": [
+          "district diorama centerpiece",
+          "map background landmark marker",
+          "board-readable silhouette and navigation cue",
+          "repeatable visual anchor for future city art"
+        ],
+        "sensoryIdentity": [
+          "public foot traffic",
+          "local material textures",
+          "civic lamps or signal light",
+          "voices gathering around its approach",
+          "weather and city smell caught on its surfaces"
+        ],
+        "storyHooks": [
+          "a public decision at Awning Monument changes how the section moves",
+          "an old inscription, ledger, seal, or ceremonial object at Awning Monument reveals a civic contradiction",
+          "crowd behavior around Awning Monument shows whether the city trusts its own institutions"
+        ]
+      },
+      {
+        "name": "Auction Court Nook",
+        "symbolicRole": "Auction Court Nook concentrates Qasr Siroth's civic identity into a usable public symbol. It carries Section 2's Grand Market identity.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette; visually it should read through the city's North African / Egyptian material language.",
+        "civicRole": "Serves as a minor landmark for public orientation, authority, gathering, and district-scale navigation.",
+        "narrativeUse": [
+          "anchor scenes where Qasr Siroth's institutions become visible rather than abstract",
+          "stage public warnings, petitions, disputes, arrivals, or ceremonies",
+          "give characters a concrete place to read power, memory, labor, or obligation",
+          "provide a recognizable return point across chapters and map scenes"
+        ],
+        "assetUse": [
+          "district diorama centerpiece",
+          "map background landmark marker",
+          "board-readable silhouette and navigation cue",
+          "repeatable visual anchor for future city art"
+        ],
+        "sensoryIdentity": [
+          "public foot traffic",
+          "local material textures",
+          "civic lamps or signal light",
+          "voices gathering around its approach",
+          "weather and city smell caught on its surfaces"
+        ],
+        "storyHooks": [
+          "a public decision at Auction Court Nook changes how the section moves",
+          "an old inscription, ledger, seal, or ceremonial object at Auction Court Nook reveals a civic contradiction",
+          "crowd behavior around Auction Court Nook shows whether the city trusts its own institutions"
+        ]
+      },
+      {
+        "name": "Military Command Hall",
+        "symbolicRole": "Military Command Hall concentrates Qasr Siroth's civic identity into a usable public symbol. It carries Section 3's Military Command identity.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing; visually it should read through the city's North African / Egyptian material language.",
+        "civicRole": "Serves as a civic center for public orientation, authority, gathering, and district-scale navigation.",
+        "narrativeUse": [
+          "anchor scenes where Qasr Siroth's institutions become visible rather than abstract",
+          "stage public warnings, petitions, disputes, arrivals, or ceremonies",
+          "give characters a concrete place to read power, memory, labor, or obligation",
+          "provide a recognizable return point across chapters and map scenes"
+        ],
+        "assetUse": [
+          "district diorama centerpiece",
+          "map background landmark marker",
+          "board-readable silhouette and navigation cue",
+          "repeatable visual anchor for future city art"
+        ],
+        "sensoryIdentity": [
+          "public foot traffic",
+          "local material textures",
+          "civic lamps or signal light",
+          "voices gathering around its approach",
+          "weather and city smell caught on its surfaces"
+        ],
+        "storyHooks": [
+          "a public decision at Military Command Hall changes how the section moves",
+          "an old inscription, ledger, seal, or ceremonial object at Military Command Hall reveals a civic contradiction",
+          "crowd behavior around Military Command Hall shows whether the city trusts its own institutions"
+        ]
+      },
+      {
+        "name": "Command Bastion",
+        "symbolicRole": "Command Bastion concentrates Qasr Siroth's civic identity into a usable public symbol. It carries Section 3's Military Command identity.",
+        "visualRole": "A mandatory Section 3 Beacon: a culturally adapted civic signal flame / warning-light landmark visible across the city spine; visually it should read through the city's North African / Egyptian material language.",
+        "civicRole": "Serves as a major landmark for public orientation, authority, gathering, and district-scale navigation.",
+        "narrativeUse": [
+          "anchor scenes where Qasr Siroth's institutions become visible rather than abstract",
+          "stage public warnings, petitions, disputes, arrivals, or ceremonies",
+          "give characters a concrete place to read power, memory, labor, or obligation",
+          "provide a recognizable return point across chapters and map scenes"
+        ],
+        "assetUse": [
+          "district diorama centerpiece",
+          "map background landmark marker",
+          "board-readable silhouette and navigation cue",
+          "repeatable visual anchor for future city art"
+        ],
+        "sensoryIdentity": [
+          "public foot traffic",
+          "local material textures",
+          "civic lamps or signal light",
+          "voices gathering around its approach",
+          "weather and city smell caught on its surfaces"
+        ],
+        "storyHooks": [
+          "a public decision at Command Bastion changes how the section moves",
+          "an old inscription, ledger, seal, or ceremonial object at Command Bastion reveals a civic contradiction",
+          "crowd behavior around Command Bastion shows whether the city trusts its own institutions"
+        ]
+      },
+      {
+        "name": "Standard Tower Nook",
+        "symbolicRole": "Standard Tower Nook concentrates Qasr Siroth's civic identity into a usable public symbol. It carries Section 3's Military Command identity.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette; visually it should read through the city's North African / Egyptian material language.",
+        "civicRole": "Serves as a minor landmark for public orientation, authority, gathering, and district-scale navigation.",
+        "narrativeUse": [
+          "anchor scenes where Qasr Siroth's institutions become visible rather than abstract",
+          "stage public warnings, petitions, disputes, arrivals, or ceremonies",
+          "give characters a concrete place to read power, memory, labor, or obligation",
+          "provide a recognizable return point across chapters and map scenes"
+        ],
+        "assetUse": [
+          "district diorama centerpiece",
+          "map background landmark marker",
+          "board-readable silhouette and navigation cue",
+          "repeatable visual anchor for future city art"
+        ],
+        "sensoryIdentity": [
+          "public foot traffic",
+          "local material textures",
+          "civic lamps or signal light",
+          "voices gathering around its approach",
+          "weather and city smell caught on its surfaces"
+        ],
+        "storyHooks": [
+          "a public decision at Standard Tower Nook changes how the section moves",
+          "an old inscription, ledger, seal, or ceremonial object at Standard Tower Nook reveals a civic contradiction",
+          "crowd behavior around Standard Tower Nook shows whether the city trusts its own institutions"
+        ]
+      },
+      {
+        "name": "Agricultural Terraces Civic Hall",
+        "symbolicRole": "Agricultural Terraces Civic Hall concentrates Qasr Siroth's civic identity into a usable public symbol. It carries Section 4's Agricultural Terraces identity.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing; visually it should read through the city's North African / Egyptian material language.",
+        "civicRole": "Serves as a civic center for public orientation, authority, gathering, and district-scale navigation.",
+        "narrativeUse": [
+          "anchor scenes where Qasr Siroth's institutions become visible rather than abstract",
+          "stage public warnings, petitions, disputes, arrivals, or ceremonies",
+          "give characters a concrete place to read power, memory, labor, or obligation",
+          "provide a recognizable return point across chapters and map scenes"
+        ],
+        "assetUse": [
+          "district diorama centerpiece",
+          "map background landmark marker",
+          "board-readable silhouette and navigation cue",
+          "repeatable visual anchor for future city art"
+        ],
+        "sensoryIdentity": [
+          "public foot traffic",
+          "local material textures",
+          "civic lamps or signal light",
+          "voices gathering around its approach",
+          "weather and city smell caught on its surfaces"
+        ],
+        "storyHooks": [
+          "a public decision at Agricultural Terraces Civic Hall changes how the section moves",
+          "an old inscription, ledger, seal, or ceremonial object at Agricultural Terraces Civic Hall reveals a civic contradiction",
+          "crowd behavior around Agricultural Terraces Civic Hall shows whether the city trusts its own institutions"
+        ]
+      },
+      {
+        "name": "Terrace Granary",
+        "symbolicRole": "Terrace Granary concentrates Qasr Siroth's civic identity into a usable public symbol. It carries Section 4's Agricultural Terraces identity.",
+        "visualRole": "A largest local landmark in this section, subordinate only to the city wonder and citadel; visually it should read through the city's North African / Egyptian material language.",
+        "civicRole": "Serves as a major landmark for public orientation, authority, gathering, and district-scale navigation.",
+        "narrativeUse": [
+          "anchor scenes where Qasr Siroth's institutions become visible rather than abstract",
+          "stage public warnings, petitions, disputes, arrivals, or ceremonies",
+          "give characters a concrete place to read power, memory, labor, or obligation",
+          "provide a recognizable return point across chapters and map scenes"
+        ],
+        "assetUse": [
+          "district diorama centerpiece",
+          "map background landmark marker",
+          "board-readable silhouette and navigation cue",
+          "repeatable visual anchor for future city art"
+        ],
+        "sensoryIdentity": [
+          "public foot traffic",
+          "local material textures",
+          "civic lamps or signal light",
+          "voices gathering around its approach",
+          "weather and city smell caught on its surfaces"
+        ],
+        "storyHooks": [
+          "a public decision at Terrace Granary changes how the section moves",
+          "an old inscription, ledger, seal, or ceremonial object at Terrace Granary reveals a civic contradiction",
+          "crowd behavior around Terrace Granary shows whether the city trusts its own institutions"
+        ]
+      },
+      {
+        "name": "Hanging Gardens Monument",
+        "symbolicRole": "Hanging Gardens Monument concentrates Qasr Siroth's civic identity into a usable public symbol. It carries Section 4's Agricultural Terraces identity.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles; visually it should read through the city's North African / Egyptian material language.",
+        "civicRole": "Serves as a monument for public orientation, authority, gathering, and district-scale navigation.",
+        "narrativeUse": [
+          "anchor scenes where Qasr Siroth's institutions become visible rather than abstract",
+          "stage public warnings, petitions, disputes, arrivals, or ceremonies",
+          "give characters a concrete place to read power, memory, labor, or obligation",
+          "provide a recognizable return point across chapters and map scenes"
+        ],
+        "assetUse": [
+          "district diorama centerpiece",
+          "map background landmark marker",
+          "board-readable silhouette and navigation cue",
+          "repeatable visual anchor for future city art"
+        ],
+        "sensoryIdentity": [
+          "public foot traffic",
+          "local material textures",
+          "civic lamps or signal light",
+          "voices gathering around its approach",
+          "weather and city smell caught on its surfaces"
+        ],
+        "storyHooks": [
+          "a public decision at Hanging Gardens Monument changes how the section moves",
+          "an old inscription, ledger, seal, or ceremonial object at Hanging Gardens Monument reveals a civic contradiction",
+          "crowd behavior around Hanging Gardens Monument shows whether the city trusts its own institutions"
+        ]
+      },
+      {
+        "name": "Seed Hall Nook",
+        "symbolicRole": "Seed Hall Nook concentrates Qasr Siroth's civic identity into a usable public symbol. It carries Section 4's Agricultural Terraces identity.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette; visually it should read through the city's North African / Egyptian material language.",
+        "civicRole": "Serves as a minor landmark for public orientation, authority, gathering, and district-scale navigation.",
+        "narrativeUse": [
+          "anchor scenes where Qasr Siroth's institutions become visible rather than abstract",
+          "stage public warnings, petitions, disputes, arrivals, or ceremonies",
+          "give characters a concrete place to read power, memory, labor, or obligation",
+          "provide a recognizable return point across chapters and map scenes"
+        ],
+        "assetUse": [
+          "district diorama centerpiece",
+          "map background landmark marker",
+          "board-readable silhouette and navigation cue",
+          "repeatable visual anchor for future city art"
+        ],
+        "sensoryIdentity": [
+          "public foot traffic",
+          "local material textures",
+          "civic lamps or signal light",
+          "voices gathering around its approach",
+          "weather and city smell caught on its surfaces"
+        ],
+        "storyHooks": [
+          "a public decision at Seed Hall Nook changes how the section moves",
+          "an old inscription, ledger, seal, or ceremonial object at Seed Hall Nook reveals a civic contradiction",
+          "crowd behavior around Seed Hall Nook shows whether the city trusts its own institutions"
+        ]
+      },
+      {
+        "name": "Aid Commons",
+        "symbolicRole": "Aid Commons concentrates Qasr Siroth's civic identity into a usable public symbol. It carries Section 5's Refugee Commons identity.",
+        "visualRole": "A largest local landmark in this section, subordinate only to the city wonder and citadel; visually it should read through the city's North African / Egyptian material language.",
+        "civicRole": "Serves as a major landmark for public orientation, authority, gathering, and district-scale navigation.",
+        "narrativeUse": [
+          "anchor scenes where Qasr Siroth's institutions become visible rather than abstract",
+          "stage public warnings, petitions, disputes, arrivals, or ceremonies",
+          "give characters a concrete place to read power, memory, labor, or obligation",
+          "provide a recognizable return point across chapters and map scenes"
+        ],
+        "assetUse": [
+          "district diorama centerpiece",
+          "map background landmark marker",
+          "board-readable silhouette and navigation cue",
+          "repeatable visual anchor for future city art"
+        ],
+        "sensoryIdentity": [
+          "public foot traffic",
+          "local material textures",
+          "civic lamps or signal light",
+          "voices gathering around its approach",
+          "weather and city smell caught on its surfaces"
+        ],
+        "storyHooks": [
+          "a public decision at Aid Commons changes how the section moves",
+          "an old inscription, ledger, seal, or ceremonial object at Aid Commons reveals a civic contradiction",
+          "crowd behavior around Aid Commons shows whether the city trusts its own institutions"
+        ]
+      }
     ]
   },
   "assetGuidance": {
-    "districtDioramaGuidance": ["S1 must show Transit / Caravan / Rail Civic Hall, Caravanserai Beacon, Woven Banners Monument, and Waystation Hall Nook.", "S2 must show Grand Market Civic Hall, Covered Bazaar, Awning Monument, and Auction Court Nook.", "S3 must show Military Command Hall, Command Bastion, Woven Banners Monument, and Standard Tower Nook.", "S4 must show Agricultural Terraces Civic Hall, Terrace Granary, Hanging Gardens Monument, and Seed Hall Nook.", "Do not author S5 district diorama specifics until QSR-STREET-S5 source material exists."],
-    "mapBackgroundGuidance": ["Keep North-African Sun-Cistern Citadel of Ma’at, Caravanserai Beacon, and Sun Disc Reliefs Sovereign Registry Court legible together.", "Use sunlit white limestone, sandstone, stucco, brass lattice, linen shade, red awnings, cistern logic, caravan gates, command bastions, covered bazaars, and terrace granaries."],
-    "requiredVisualElements": ["North-African Sun-Cistern Citadel of Ma’at", "Caravanserai Beacon", "Sun Disc Reliefs Sovereign Registry Court", "Transit / Caravan / Rail Civic Hall", "Woven Banners Monument", "Waystation Hall Nook", "Covered Bazaar", "Awning Monument", "Auction Court Nook", "Command Bastion", "Standard Tower Nook", "Terrace Granary", "Hanging Gardens Monument", "Seed Hall Nook", "Aid Commons as source-limited hero landmark"],
-    "elementsToAvoid": ["generic desert market", "invented S5 anchors", "palace-only city", "water and food logistics omitted", "caravan hospitality without law"]
+    "districtDioramaGuidance": [
+      "S1 dioramas must read as Transit / Caravan / Rail and include source-backed anchors: Transit / Caravan / Rail Civic Hall, Caravanserai Beacon, Woven Banners Monument, Waystation Hall Nook.",
+      "S2 dioramas must read as Grand Market and include source-backed anchors: Grand Market Civic Hall, Covered Bazaar, Awning Monument, Auction Court Nook.",
+      "S3 dioramas must read as Military Command and include source-backed anchors: Military Command Hall, Command Bastion, Woven Banners Monument, Standard Tower Nook.",
+      "S4 dioramas must read as Agricultural Terraces and include source-backed anchors: Agricultural Terraces Civic Hall, Terrace Granary, Hanging Gardens Monument, Seed Hall Nook.",
+      "S5 dioramas must read as Refugee Commons and include source-backed anchors: Aid Commons."
+    ],
+    "mapBackgroundGuidance": [
+      "Show Qasr Siroth as a North African / Egyptian city shaped by Desert, Stone Desert, and Dry Wadi and dry city ground.",
+      "Keep North-African Sun-Cistern Citadel of Ma’at distinct as the skyline wonder, Sun Disc Reliefs Sovereign Registry Court central at D13, and Caravanserai Beacon legible as the public signal.",
+      "Arrange the map so the five section identities remain readable: Transit / Caravan / Rail, Grand Market, Military Command, Agricultural Terraces, and Refugee Commons.",
+      "Do not let generic fantasy rooftops replace the named civic anchors.",
+      "Use paths, plazas, courts, water edges, walls, terraces, or arcades to show how citizens move between sections."
+    ],
+    "requiredVisualElements": [
+      "North African / Egyptian civilians",
+      "North-African Sun-Cistern Citadel of Ma’at",
+      "Caravanserai Beacon",
+      "Sun Disc Reliefs Sovereign Registry Court",
+      "Caravanserai Beacon",
+      "Covered Bazaar",
+      "Command Bastion",
+      "Terrace Granary",
+      "Aid Commons",
+      "Polished White Limestone",
+      "Sandstone",
+      "Stucco",
+      "Brass Lattice",
+      "Linen",
+      "cargo ledgers",
+      "crates",
+      "route boards"
+    ],
+    "elementsToAvoid": [
+      "extra top-level schema sections or production notes in the JSON",
+      "generic city views that ignore section identity",
+      "invented landmarks not present in sidecars or established canon",
+      "character-specific details",
+      "labels baked into images",
+      "making the Wonder, Beacon, and Seat interchangeable",
+      "overusing magic effects until practical civic infrastructure disappears"
+    ]
   }
 }

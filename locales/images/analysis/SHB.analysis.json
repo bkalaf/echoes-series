@@ -1,0 +1,1822 @@
+{
+  "metadata": {
+    "schemaVersion": "2.0",
+    "analysisVersion": 2,
+    "cityCode": "SHB",
+    "cityName": "Shellrest Bastion",
+    "analysisDate": "2026-07-05",
+    "analystVersion": "gpt-5.5-thinking",
+    "analysisConfidence": "strong-lock",
+    "basedOnImages": [
+      "SHB-HERO-NE-v001",
+      "SHB-HERO-NW-v001",
+      "SHB-HERO-SE-v001",
+      "SHB-HERO-SW-v001",
+      "SHB-STREET-S1-v001",
+      "SHB-STREET-S2-v001",
+      "SHB-STREET-S3-v001",
+      "SHB-STREET-S4-v001",
+      "SHB-STREET-S5-v001"
+    ],
+    "basedOnSidecars": [
+      "SHB-HERO-NE-v001.json",
+      "SHB-HERO-NW-v001.json",
+      "SHB-HERO-SE-v001.json",
+      "SHB-HERO-SW-v001.json",
+      "SHB-STREET-S1-v001.json",
+      "SHB-STREET-S2-v001.json",
+      "SHB-STREET-S3-v001.json",
+      "SHB-STREET-S4-v001.json",
+      "SHB-STREET-S5-v001.json"
+    ]
+  },
+  "cityDNA": {
+    "coreFantasy": "A tortoise-like reptilian folk city where Necropolis, Warehousing / Logistics, Public Works Authority, Shrine / Sacred Place, and Harbor turn Coastal Edge, Seawall Edge, and Harbor Basin, Coast, and Beast Bonding, Ancestor Guidance, and Serpent Trance into civic order.",
+    "primaryEmotion": "solemn civic presence",
+    "secondaryEmotion": "fluid pressure",
+    "readerTakeaway": "Shellrest Bastion should feel like a fully usable civilization: its landmarks are not decoration, but the places where movement, memory, authority, labor, and public identity become visible.",
+    "civilizationThesis": "Shellrest Bastion organizes itself through Necropolis, Warehousing / Logistics, Public Works Authority, Shrine / Sacred Place, and Harbor. The city’s visible grammar should always connect landscape, materials, daily work, and civic magic rather than letting any one element become generic fantasy dressing.",
+    "visualIdentity": "Seashell, Terracotta, Stone, Green Marble, and Limestone Blocks; Coastal Edge, Seawall Edge, and Harbor Basin; Coast; section landmarks such as Necropolis Hall Beacon, Cargo Yard, Survey Hall, Roadside Shrine, and Harbor Basilica; and the city-defining trio of Tortoisefolk Shellwall Bastion of Slow Tides, Necropolis Hall Beacon, and Serpent Scale Bands Tide-Seal Citadel.",
+    "culturalIdentity": "Shellrest Bastion belongs to a tortoise-like reptilian folk population whose public life should be expressed through architecture, movement, civic ritual, tools, housing, food, and body language rather than only costume or ornament.",
+    "symbolicIdentity": "Tortoisefolk Shellwall Bastion of Slow Tides expresses the citywide mythic identity; Necropolis Hall Beacon expresses public warning and convergence; Serpent Scale Bands Tide-Seal Citadel expresses the civic legitimacy of District 13."
+  },
+  "canon": {
+    "canonLocks": [
+      "Shellrest Bastion is a tortoise-like reptilian folk city; its identity must be visible through built form, street life, and civic use.",
+      "The Wonder is Tortoisefolk Shellwall Bastion of Slow Tides.",
+      "The Beacon is Necropolis Hall Beacon.",
+      "The Seat of Power is Serpent Scale Bands Tide-Seal Citadel and belongs to central District 13.",
+      "The five section identities are: S1 Necropolis, S2 Warehousing / Logistics, S3 Public Works Authority, S4 Shrine / Sacred Place, S5 Harbor.",
+      "S1 preserves the source-backed anchor S1 Necropolis Hall (CIVIC_CENTER).",
+      "S1 preserves the source-backed anchor Necropolis Hall Beacon (MAJOR_LANDMARK).",
+      "S1 preserves the source-backed anchor S1 Necropolis Pillar (MONUMENT).",
+      "S1 preserves the source-backed anchor S1 Necropolis Kiosk (MINOR_LANDMARK).",
+      "S2 preserves the source-backed anchor Warehousing / Logistics Civic Hall (CIVIC_CENTER).",
+      "S2 preserves the source-backed anchor Cargo Yard (MAJOR_LANDMARK).",
+      "S2 preserves the source-backed anchor Warehousing Logistics Gold-Seal Monument (MONUMENT).",
+      "S2 preserves the source-backed anchor Inventory Hall Nook (MINOR_LANDMARK).",
+      "S3 preserves the source-backed anchor Public Works Authority Hall (CIVIC_CENTER).",
+      "S3 preserves the source-backed anchor Survey Hall (MAJOR_LANDMARK).",
+      "S3 preserves the source-backed anchor Blue-Lamp Monument (MONUMENT).",
+      "S3 preserves the source-backed anchor Permit Yard Nook (MINOR_LANDMARK).",
+      "S4 preserves the source-backed anchor Shrine / Sacred Place Civic Hall (CIVIC_CENTER).",
+      "S4 preserves the source-backed anchor Roadside Shrine (MAJOR_LANDMARK).",
+      "S4 preserves the source-backed anchor Shrine Sacred Place Lantern Monument (MONUMENT).",
+      "S4 preserves the source-backed anchor Votive Grove Nook (MINOR_LANDMARK).",
+      "S5 preserves the source-backed anchor S5 Harbor Campus (CIVIC_CENTER).",
+      "S5 preserves the source-backed anchor Harbor Basilica (MAJOR_LANDMARK).",
+      "S5 preserves the source-backed anchor S5 Harbor Arch (MONUMENT).",
+      "S5 preserves the source-backed anchor S5 Harbor Bridgelet (MINOR_LANDMARK)."
+    ],
+    "provisionalCanon": [
+      "Shellrest Bastion's civic customs should be inferred from source-backed section functions: Necropolis, Warehousing / Logistics, Public Works Authority, Shrine / Sacred Place, and Harbor.",
+      "Local politics likely emerge from the tension between public service, landmark access, and the authority of D13, but specific factions should not be invented here."
+    ],
+    "rejectedReads": [
+      "Shellrest Bastion as a generic fantasy city with interchangeable districts.",
+      "Landmarks as empty decoration rather than civic tools.",
+      "Race or culture identity expressed only through clothing while architecture and institutions remain generic.",
+      "Invented street anchors for any missing street section."
+    ],
+    "cautionFlags": [
+      "Preserve exact names for Wonder, Beacon, Seat of Power, section civic halls, section landmarks, monuments, and minor nooks.",
+      "Do not add character-specific observations to the city analysis.",
+      "Keep every district usable for prose, diorama generation, and map background generation.",
+      "Use uncertainty only in metadata or provisional canon; do not pad missing evidence with speculation."
+    ]
+  },
+  "environment": {
+    "terrain": [
+      "Coastal Edge",
+      "Seawall Edge",
+      "Harbor Basin",
+      "Necropolis public ground",
+      "Warehousing / Logistics public ground",
+      "Public Works Authority public ground",
+      "Shrine / Sacred Place public ground",
+      "Harbor public ground"
+    ],
+    "water": [
+      "Coast",
+      "water context supports the city's public approaches and thresholds"
+    ],
+    "vegetation": [
+      "Reed Pavilions",
+      "cypress trees"
+    ],
+    "climateLighting": [
+      "daylight that makes civic silhouettes board-readable",
+      "lantern-lit public approaches",
+      "civic blue illumination at signal or authority points",
+      "localized lighting shaped by Beast Bonding, Ancestor Guidance, and Serpent Trance",
+      "street shadow under arcades, halls, platforms, or canopy forms"
+    ],
+    "environmentalLogic": "Shellrest Bastion's environment should be written as infrastructure. Coastal Edge, Seawall Edge, and Harbor Basin and Coast determine how citizens move, where crowds gather, where authority can be seen, and how each section feels under pressure."
+  },
+  "architecture": {
+    "materials": [
+      "Seashell",
+      "Terracotta",
+      "Stone",
+      "Green Marble",
+      "Limestone Blocks"
+    ],
+    "forms": [
+      "Harbor Basilica",
+      "Market Arcades",
+      "Reed Pavilions",
+      "Subterranean Vaults",
+      "Temple Platforms",
+      "White Limestone Civic Blocks"
+    ],
+    "skyline": [
+      "Tortoisefolk Shellwall Bastion of Slow Tides as the far citywide wonder silhouette.",
+      "Serpent Scale Bands Tide-Seal Citadel as the central D13 authority mass.",
+      "Necropolis Hall Beacon as the public signal landmark.",
+      "Section landmarks remain subordinate to the Wonder and Seat but must be readable: Necropolis Hall Beacon, Cargo Yard, Survey Hall, Roadside Shrine, and Harbor Basilica."
+    ],
+    "lighting": [
+      "civic blue illumination at beacon and authority points",
+      "lantern light in public thresholds",
+      "warm practical light from shops and homes",
+      "Beast Bonding, Ancestor Guidance, and Serpent Trance expressed as restrained civic effect rather than spectacle alone"
+    ],
+    "infrastructure": [
+      "audience terraces",
+      "command platforms",
+      "courts",
+      "mourning paths",
+      "public approach space",
+      "sealed archives",
+      "water gauges"
+    ],
+    "motifs": [
+      "Bone White Ceremony",
+      "Canal Reflections",
+      "Carved Totems",
+      "Gold Seals",
+      "Lantern Lit",
+      "Red Fabric Awnings"
+    ],
+    "colorLanguage": [
+      "colors derived from Seashell, Terracotta, Stone, Green Marble, and Limestone Blocks",
+      "civic blue for signal, oath, or authority moments",
+      "warm street colors for shops, homes, and food stalls",
+      "section-specific accent colors tied to landmark function"
+    ],
+    "textureLanguage": [
+      "worked textures of Seashell, Terracotta, Stone, Green Marble, and Limestone Blocks",
+      "worn public paving at district approaches",
+      "handled wood, cloth, reed, stone, or metal at street scale",
+      "official surfaces at civic halls, D13 courts, and named landmarks"
+    ]
+  },
+  "civilization": {
+    "people": "Shellrest Bastion's people are tortoise-like reptilian folk. They should move, gesture, dress, work, and gather according to the city’s section functions rather than appearing as generic crowds.",
+    "occupations": [
+      "mourning guides",
+      "ancestor keepers",
+      "lamp tenders",
+      "tablet carvers",
+      "cargo clerks",
+      "porters",
+      "route brokers",
+      "caravan handlers",
+      "seal counters",
+      "surveyors",
+      "permit clerks",
+      "repair crews",
+      "municipal engineers",
+      "shrine attendants",
+      "procession marshals",
+      "votive makers",
+      "ritual cleaners"
+    ],
+    "socialClasses": [
+      "D13 officials, registry staff, judges, or civic command families",
+      "section civic-hall administrators and landmark attendants",
+      "craft, trade, food, route, shrine, archive, or service guild families",
+      "street vendors, apprentices, runners, porters, and maintenance workers",
+      "households whose status is legible through proximity to named landmarks and public approaches"
+    ],
+    "governance": "Governance is centered on Serpent Scale Bands Tide-Seal Citadel, but citizens experience authority through section halls, permit counters, procession routes, market rules, warning signals, and the public visibility of the Beacon.",
+    "religion": "Religion and ritual should emerge through section evidence: sacred groves, shrines, temples, ancestor quarters, vows, processions, lamps, memorials, or civic magic where source-backed.",
+    "customs": [
+      "citizens orient by named landmarks rather than abstract street addresses",
+      "public notices and civic signals are treated as social facts",
+      "section identity shapes work rhythms, festival routes, food habits, and greetings",
+      "households preserve small visual signs of their relation to nearby halls, shrines, markets, or work yards",
+      "crowds read beacon changes, D13 messengers, and landmark access as political weather"
+    ],
+    "bodyLanguage": [
+      "habitual glances toward the Beacon or D13 when public pressure rises",
+      "rank-conscious spacing near halls, courts, gates, and counters",
+      "work gestures shaped by tools, ledgers, baskets, lamps, platforms, or ritual objects",
+      "section-specific ways of queuing, bargaining, processing, mourning, or carrying goods",
+      "practical familiarity with terraces, arcades, courtyards, and side lanes"
+    ],
+    "speechPatterns": [
+      "citizens reference exact landmark names in directions and gossip",
+      "official speech uses seals, sections, district numbers, and public obligations",
+      "market and work speech remains compressed, local, and landmark-aware",
+      "ceremonial speech becomes formal near Wonder, Beacon, Seat, temple, shrine, or ancestor anchors",
+      "outsiders are corrected when they genericize a named civic anchor"
+    ]
+  },
+  "urbanLife": {
+    "streets": {
+      "appearance": "Streets should foreground Seashell, Terracotta, Stone, Green Marble, and Limestone Blocks, section-specific props, named local landmarks, D13 authority sightlines, and the daily relationship between Necropolis, Warehousing / Logistics, Public Works Authority, Shrine / Sacred Place, and Harbor.",
+      "movement": "Movement follows district adjacency and section identity: S1 through S5 each have five district slots, while D13 remains the central seat-of-power node around Serpent Scale Bands Tide-Seal Citadel.",
+      "sounds": [
+        "foot traffic shifting around landmark approaches",
+        "vendors, clerks, attendants, or guards calling section-specific instructions",
+        "tools, carts, bells, lamps, water, banners, or crowds depending on section function",
+        "distant beacon reaction when civic signals change",
+        "private household sounds from side lanes behind public halls"
+      ],
+      "smells": [
+        "worked city materials under sun or lantern heat",
+        "street food and household cooking",
+        "lamp oil, damp stone, dust, reed, wood, incense, metal, or archive paper according to section",
+        "crowd smell at public approaches",
+        "vegetation or water smells where source-backed"
+      ],
+      "lighting": "Use practical street light first: daylight, shade, lanterns, and civic blue accents. Magic should reinforce civic identity rather than overtake every street.",
+      "weatherEffects": "Weather should change how crowds read landmarks: glare, rain, mist, dust, cold, humidity, wind, or wet paving can hide, reveal, or delay public action.",
+      "dayCycle": "Morning emphasizes food, work, maintenance, permission-seeking, trade preparation, ritual cleaning, and civic notices.",
+      "nightCycle": "Night shifts to lamps, quieter side courts, guarded landmarks, late markets, household thresholds, watch routines, and beacon visibility."
+    },
+    "shops": {
+      "common": [
+        "food stalls shaped by local staples",
+        "lamp and cloth vendors",
+        "tool repair counters",
+        "ledger or notice copyists",
+        "basket, crate, reed, stone, timber, or metal workers",
+        "section-specific service stalls"
+      ],
+      "uncommon": [
+        "landmark-token engravers",
+        "specialist map, ritual, archive, or route counters",
+        "beacon-lamp maintenance shops",
+        "district emblem painters",
+        "official-seal accessory makers"
+      ],
+      "prestigious": [
+        "D13 document ateliers",
+        "Wonder-facing ceremonial suppliers",
+        "elite guild or temple workshops",
+        "landmark restoration houses",
+        "high-status court, archive, shrine, or civic contractors"
+      ],
+      "exports": [
+        "goods using Seashell, Terracotta, Stone, Green Marble, and Limestone Blocks",
+        "craft traditions tied to tortoise-like reptilian folk civic identity",
+        "section-specific tools, records, ritual goods, food goods, or transport services",
+        "recognizable landmark miniatures, seals, lamps, textiles, or carved emblems"
+      ],
+      "imports": [
+        "rare pigments, spices, glass, metal fittings, fine timber, ceremonial cloth, and replacement tools",
+        "raw materials not available in local terrain",
+        "foods and ritual supplies needed for section festivals"
+      ],
+      "streetFood": [
+        "portable breads or cakes",
+        "spiced stews or broths",
+        "grilled market foods",
+        "sweet festival bites",
+        "tea, fermented drinks, or cooling drinks",
+        "section-specific food sold near civic halls"
+      ],
+      "services": [
+        "directions by landmark and district",
+        "permit help",
+        "message running",
+        "lamp maintenance",
+        "ritual preparation",
+        "tool repair",
+        "public notice reading",
+        "queue mediation"
+      ]
+    },
+    "housing": {
+      "wealthy": "Large homes cluster near central authority, prestigious landmark approaches, garden courts, or high terraces, with ornament that repeats city motifs without overwhelming civic structures.",
+      "middle": "Shop-homes, courtyard houses, upper rooms, workshop apartments, and shared terraces connect directly to section work rhythms.",
+      "poor": "Small rooms, backstreet courts, temporary structures, and service-side housing remain visually tied to the city through lamps, fabrics, recycled materials, and landmark-facing orientation."
+    }
+  },
+  "districts": [
+    {
+      "districtNumber": 1,
+      "districtCode": "D01",
+      "sectionNumber": 1,
+      "sectionName": "Necropolis",
+      "name": "Necropolis — Civic Threshold",
+      "civicPurpose": "This district handles public approach, first contact, notices, and movement control for Necropolis. In scenes, it should show how mourning, ancestry, memorial law, funerary paths, and the public handling of death as civic continuity becomes a street-level system.",
+      "visualIdentity": "Necropolis identity rendered through mourning lamps, name tablets, ancestor paths, ossuary walls, Seashell, Terracotta, Stone, Green Marble, and Limestone Blocks, local crowds, and the visible approach to S1 Necropolis Hall.",
+      "emotionalIdentity": "solemn, continuous, and memory-heavy",
+      "gameplayAssetNeeds": [
+        "S1 Necropolis Hall",
+        "Necropolis Hall Beacon",
+        "S1 Necropolis Pillar",
+        "S1 Necropolis Kiosk",
+        "Necropolis street props",
+        "tortoise-like reptilian folk civilians using the district",
+        "clear board-readable pathing and gathering space"
+      ],
+      "narrativeUse": [
+        "stage necropolis scenes without needing to reopen concept art",
+        "show how ordinary citizens react to public pressure",
+        "give characters a concrete approach, obstacle, or meeting point",
+        "translate citywide crisis into district-scale behavior",
+        "support diorama generation with landmark-specific props"
+      ],
+      "primaryLandmark": "S1 Necropolis Hall",
+      "minorLandmarks": [
+        "Necropolis Hall Beacon",
+        "S1 Necropolis Pillar",
+        "S1 Necropolis Kiosk"
+      ]
+    },
+    {
+      "districtNumber": 2,
+      "districtCode": "D02",
+      "sectionNumber": 1,
+      "sectionName": "Necropolis",
+      "name": "Necropolis — Landmark Court",
+      "civicPurpose": "This district handles the local landmark’s visible plaza, vertical silhouette, and immediate public use for Necropolis. In scenes, it should show how mourning, ancestry, memorial law, funerary paths, and the public handling of death as civic continuity becomes a street-level system.",
+      "visualIdentity": "Necropolis identity rendered through mourning lamps, name tablets, ancestor paths, ossuary walls, Seashell, Terracotta, Stone, Green Marble, and Limestone Blocks, local crowds, and the visible approach to Necropolis Hall Beacon.",
+      "emotionalIdentity": "solemn, continuous, and memory-heavy",
+      "gameplayAssetNeeds": [
+        "Necropolis Hall Beacon",
+        "S1 Necropolis Hall",
+        "S1 Necropolis Pillar",
+        "S1 Necropolis Kiosk",
+        "Necropolis street props",
+        "tortoise-like reptilian folk civilians using the district",
+        "clear board-readable pathing and gathering space"
+      ],
+      "narrativeUse": [
+        "stage necropolis scenes without needing to reopen concept art",
+        "show how ordinary citizens react to public pressure",
+        "give characters a concrete approach, obstacle, or meeting point",
+        "translate citywide crisis into district-scale behavior",
+        "support diorama generation with landmark-specific props"
+      ],
+      "primaryLandmark": "Necropolis Hall Beacon",
+      "minorLandmarks": [
+        "S1 Necropolis Hall",
+        "S1 Necropolis Pillar",
+        "S1 Necropolis Kiosk"
+      ]
+    },
+    {
+      "districtNumber": 3,
+      "districtCode": "D03",
+      "sectionNumber": 1,
+      "sectionName": "Necropolis",
+      "name": "Necropolis — Monument Plaza",
+      "civicPurpose": "This district handles ceremony, memory, civic symbolism, and formal gatherings for Necropolis. In scenes, it should show how mourning, ancestry, memorial law, funerary paths, and the public handling of death as civic continuity becomes a street-level system.",
+      "visualIdentity": "Necropolis identity rendered through mourning lamps, name tablets, ancestor paths, ossuary walls, Seashell, Terracotta, Stone, Green Marble, and Limestone Blocks, local crowds, and the visible approach to S1 Necropolis Pillar.",
+      "emotionalIdentity": "solemn, continuous, and memory-heavy",
+      "gameplayAssetNeeds": [
+        "S1 Necropolis Pillar",
+        "S1 Necropolis Hall",
+        "Necropolis Hall Beacon",
+        "S1 Necropolis Kiosk",
+        "Necropolis street props",
+        "tortoise-like reptilian folk civilians using the district",
+        "clear board-readable pathing and gathering space"
+      ],
+      "narrativeUse": [
+        "stage necropolis scenes without needing to reopen concept art",
+        "show how ordinary citizens react to public pressure",
+        "give characters a concrete approach, obstacle, or meeting point",
+        "translate citywide crisis into district-scale behavior",
+        "support diorama generation with landmark-specific props"
+      ],
+      "primaryLandmark": "S1 Necropolis Pillar",
+      "minorLandmarks": [
+        "S1 Necropolis Hall",
+        "Necropolis Hall Beacon",
+        "S1 Necropolis Kiosk"
+      ]
+    },
+    {
+      "districtNumber": 4,
+      "districtCode": "D04",
+      "sectionNumber": 2,
+      "sectionName": "Warehousing / Logistics",
+      "name": "Warehousing / Logistics — Civic Threshold",
+      "civicPurpose": "This district handles public approach, first contact, notices, and movement control for Warehousing / Logistics. In scenes, it should show how arrival, departure, cargo handling, route brokerage, public counting, and the trust systems that keep movement honest becomes a street-level system.",
+      "visualIdentity": "Warehousing / Logistics identity rendered through cargo ledgers, crates, route boards, loading courts, Seashell, Terracotta, Stone, Green Marble, and Limestone Blocks, local crowds, and the visible approach to Warehousing / Logistics Civic Hall.",
+      "emotionalIdentity": "lived-in, readable, and civic",
+      "gameplayAssetNeeds": [
+        "Warehousing / Logistics Civic Hall",
+        "Cargo Yard",
+        "Warehousing Logistics Gold-Seal Monument",
+        "Inventory Hall Nook",
+        "Warehousing / Logistics street props",
+        "tortoise-like reptilian folk civilians using the district",
+        "clear board-readable pathing and gathering space"
+      ],
+      "narrativeUse": [
+        "stage warehousing / logistics scenes without needing to reopen concept art",
+        "show how ordinary citizens react to public pressure",
+        "give characters a concrete approach, obstacle, or meeting point",
+        "translate citywide crisis into district-scale behavior",
+        "support diorama generation with landmark-specific props"
+      ],
+      "primaryLandmark": "Warehousing / Logistics Civic Hall",
+      "minorLandmarks": [
+        "Cargo Yard",
+        "Warehousing Logistics Gold-Seal Monument",
+        "Inventory Hall Nook"
+      ]
+    },
+    {
+      "districtNumber": 5,
+      "districtCode": "D05",
+      "sectionNumber": 2,
+      "sectionName": "Warehousing / Logistics",
+      "name": "Warehousing / Logistics — Landmark Court",
+      "civicPurpose": "This district handles the local landmark’s visible plaza, vertical silhouette, and immediate public use for Warehousing / Logistics. In scenes, it should show how arrival, departure, cargo handling, route brokerage, public counting, and the trust systems that keep movement honest becomes a street-level system.",
+      "visualIdentity": "Warehousing / Logistics identity rendered through cargo ledgers, crates, route boards, loading courts, Seashell, Terracotta, Stone, Green Marble, and Limestone Blocks, local crowds, and the visible approach to Cargo Yard.",
+      "emotionalIdentity": "lived-in, readable, and civic",
+      "gameplayAssetNeeds": [
+        "Cargo Yard",
+        "Warehousing / Logistics Civic Hall",
+        "Warehousing Logistics Gold-Seal Monument",
+        "Inventory Hall Nook",
+        "Warehousing / Logistics street props",
+        "tortoise-like reptilian folk civilians using the district",
+        "clear board-readable pathing and gathering space"
+      ],
+      "narrativeUse": [
+        "stage warehousing / logistics scenes without needing to reopen concept art",
+        "show how ordinary citizens react to public pressure",
+        "give characters a concrete approach, obstacle, or meeting point",
+        "translate citywide crisis into district-scale behavior",
+        "support diorama generation with landmark-specific props"
+      ],
+      "primaryLandmark": "Cargo Yard",
+      "minorLandmarks": [
+        "Warehousing / Logistics Civic Hall",
+        "Warehousing Logistics Gold-Seal Monument",
+        "Inventory Hall Nook"
+      ]
+    },
+    {
+      "districtNumber": 6,
+      "districtCode": "D06",
+      "sectionNumber": 1,
+      "sectionName": "Necropolis",
+      "name": "Necropolis — Service Arcade",
+      "civicPurpose": "This district handles small shops, workers, storage, and everyday support around the section for Necropolis. In scenes, it should show how mourning, ancestry, memorial law, funerary paths, and the public handling of death as civic continuity becomes a street-level system.",
+      "visualIdentity": "Necropolis identity rendered through mourning lamps, name tablets, ancestor paths, ossuary walls, Seashell, Terracotta, Stone, Green Marble, and Limestone Blocks, local crowds, and the visible approach to S1 Necropolis Kiosk.",
+      "emotionalIdentity": "solemn, continuous, and memory-heavy",
+      "gameplayAssetNeeds": [
+        "S1 Necropolis Kiosk",
+        "S1 Necropolis Hall",
+        "Necropolis Hall Beacon",
+        "S1 Necropolis Pillar",
+        "Necropolis street props",
+        "tortoise-like reptilian folk civilians using the district",
+        "clear board-readable pathing and gathering space"
+      ],
+      "narrativeUse": [
+        "stage necropolis scenes without needing to reopen concept art",
+        "show how ordinary citizens react to public pressure",
+        "give characters a concrete approach, obstacle, or meeting point",
+        "translate citywide crisis into district-scale behavior",
+        "support diorama generation with landmark-specific props"
+      ],
+      "primaryLandmark": "S1 Necropolis Kiosk",
+      "minorLandmarks": [
+        "S1 Necropolis Hall",
+        "Necropolis Hall Beacon",
+        "S1 Necropolis Pillar"
+      ]
+    },
+    {
+      "districtNumber": 7,
+      "districtCode": "D07",
+      "sectionNumber": 1,
+      "sectionName": "Necropolis",
+      "name": "Necropolis — Residential / Backstreet Edge",
+      "civicPurpose": "This district handles housing, side lanes, minor courts, and private daily routines for Necropolis. In scenes, it should show how mourning, ancestry, memorial law, funerary paths, and the public handling of death as civic continuity becomes a street-level system.",
+      "visualIdentity": "Necropolis identity rendered through mourning lamps, name tablets, ancestor paths, ossuary walls, Seashell, Terracotta, Stone, Green Marble, and Limestone Blocks, local crowds, and the visible approach to Necropolis Hall Beacon.",
+      "emotionalIdentity": "solemn, continuous, and memory-heavy",
+      "gameplayAssetNeeds": [
+        "Necropolis Hall Beacon",
+        "S1 Necropolis Hall",
+        "S1 Necropolis Pillar",
+        "S1 Necropolis Kiosk",
+        "Necropolis street props",
+        "tortoise-like reptilian folk civilians using the district",
+        "clear board-readable pathing and gathering space"
+      ],
+      "narrativeUse": [
+        "stage necropolis scenes without needing to reopen concept art",
+        "show how ordinary citizens react to public pressure",
+        "give characters a concrete approach, obstacle, or meeting point",
+        "translate citywide crisis into district-scale behavior",
+        "support diorama generation with landmark-specific props"
+      ],
+      "primaryLandmark": "Necropolis Hall Beacon",
+      "minorLandmarks": [
+        "S1 Necropolis Hall",
+        "S1 Necropolis Pillar",
+        "S1 Necropolis Kiosk"
+      ]
+    },
+    {
+      "districtNumber": 8,
+      "districtCode": "D08",
+      "sectionNumber": 3,
+      "sectionName": "Public Works Authority",
+      "name": "Public Works Authority — Civic Threshold",
+      "civicPurpose": "This district handles public approach, first contact, notices, and movement control for Public Works Authority. In scenes, it should show how municipal repair, permits, route planning, safety inspections, and the visible apparatus of civic competence becomes a street-level system.",
+      "visualIdentity": "Public Works Authority identity rendered through permit boards, survey instruments, repair markers, map tables, Seashell, Terracotta, Stone, Green Marble, and Limestone Blocks, local crowds, and the visible approach to Public Works Authority Hall.",
+      "emotionalIdentity": "measured, competent, and quietly powerful",
+      "gameplayAssetNeeds": [
+        "Public Works Authority Hall",
+        "Survey Hall",
+        "Blue-Lamp Monument",
+        "Permit Yard Nook",
+        "Public Works Authority street props",
+        "tortoise-like reptilian folk civilians using the district",
+        "clear board-readable pathing and gathering space"
+      ],
+      "narrativeUse": [
+        "stage public works authority scenes without needing to reopen concept art",
+        "show how ordinary citizens react to public pressure",
+        "give characters a concrete approach, obstacle, or meeting point",
+        "translate citywide crisis into district-scale behavior",
+        "support diorama generation with landmark-specific props"
+      ],
+      "primaryLandmark": "Public Works Authority Hall",
+      "minorLandmarks": [
+        "Survey Hall",
+        "Blue-Lamp Monument",
+        "Permit Yard Nook"
+      ]
+    },
+    {
+      "districtNumber": 9,
+      "districtCode": "D09",
+      "sectionNumber": 2,
+      "sectionName": "Warehousing / Logistics",
+      "name": "Warehousing / Logistics — Monument Plaza",
+      "civicPurpose": "This district handles ceremony, memory, civic symbolism, and formal gatherings for Warehousing / Logistics. In scenes, it should show how arrival, departure, cargo handling, route brokerage, public counting, and the trust systems that keep movement honest becomes a street-level system.",
+      "visualIdentity": "Warehousing / Logistics identity rendered through cargo ledgers, crates, route boards, loading courts, Seashell, Terracotta, Stone, Green Marble, and Limestone Blocks, local crowds, and the visible approach to Warehousing Logistics Gold-Seal Monument.",
+      "emotionalIdentity": "lived-in, readable, and civic",
+      "gameplayAssetNeeds": [
+        "Warehousing Logistics Gold-Seal Monument",
+        "Warehousing / Logistics Civic Hall",
+        "Cargo Yard",
+        "Inventory Hall Nook",
+        "Warehousing / Logistics street props",
+        "tortoise-like reptilian folk civilians using the district",
+        "clear board-readable pathing and gathering space"
+      ],
+      "narrativeUse": [
+        "stage warehousing / logistics scenes without needing to reopen concept art",
+        "show how ordinary citizens react to public pressure",
+        "give characters a concrete approach, obstacle, or meeting point",
+        "translate citywide crisis into district-scale behavior",
+        "support diorama generation with landmark-specific props"
+      ],
+      "primaryLandmark": "Warehousing Logistics Gold-Seal Monument",
+      "minorLandmarks": [
+        "Warehousing / Logistics Civic Hall",
+        "Cargo Yard",
+        "Inventory Hall Nook"
+      ]
+    },
+    {
+      "districtNumber": 10,
+      "districtCode": "D10",
+      "sectionNumber": 2,
+      "sectionName": "Warehousing / Logistics",
+      "name": "Warehousing / Logistics — Service Arcade",
+      "civicPurpose": "This district handles small shops, workers, storage, and everyday support around the section for Warehousing / Logistics. In scenes, it should show how arrival, departure, cargo handling, route brokerage, public counting, and the trust systems that keep movement honest becomes a street-level system.",
+      "visualIdentity": "Warehousing / Logistics identity rendered through cargo ledgers, crates, route boards, loading courts, Seashell, Terracotta, Stone, Green Marble, and Limestone Blocks, local crowds, and the visible approach to Inventory Hall Nook.",
+      "emotionalIdentity": "lived-in, readable, and civic",
+      "gameplayAssetNeeds": [
+        "Inventory Hall Nook",
+        "Warehousing / Logistics Civic Hall",
+        "Cargo Yard",
+        "Warehousing Logistics Gold-Seal Monument",
+        "Warehousing / Logistics street props",
+        "tortoise-like reptilian folk civilians using the district",
+        "clear board-readable pathing and gathering space"
+      ],
+      "narrativeUse": [
+        "stage warehousing / logistics scenes without needing to reopen concept art",
+        "show how ordinary citizens react to public pressure",
+        "give characters a concrete approach, obstacle, or meeting point",
+        "translate citywide crisis into district-scale behavior",
+        "support diorama generation with landmark-specific props"
+      ],
+      "primaryLandmark": "Inventory Hall Nook",
+      "minorLandmarks": [
+        "Warehousing / Logistics Civic Hall",
+        "Cargo Yard",
+        "Warehousing Logistics Gold-Seal Monument"
+      ]
+    },
+    {
+      "districtNumber": 11,
+      "districtCode": "D11",
+      "sectionNumber": 4,
+      "sectionName": "Shrine / Sacred Place",
+      "name": "Shrine / Sacred Place — Civic Threshold",
+      "civicPurpose": "This district handles public approach, first contact, notices, and movement control for Shrine / Sacred Place. In scenes, it should show how public worship, vow-making, procession, ceremonial memory, and sacred authority expressed at street scale becomes a street-level system.",
+      "visualIdentity": "Shrine / Sacred Place identity rendered through procession steps, votive lamps, ritual banners, sacred thresholds, Seashell, Terracotta, Stone, Green Marble, and Limestone Blocks, local crowds, and the visible approach to Shrine / Sacred Place Civic Hall.",
+      "emotionalIdentity": "reverent, processional, and symbolically charged",
+      "gameplayAssetNeeds": [
+        "Shrine / Sacred Place Civic Hall",
+        "Roadside Shrine",
+        "Shrine Sacred Place Lantern Monument",
+        "Votive Grove Nook",
+        "Shrine / Sacred Place street props",
+        "tortoise-like reptilian folk civilians using the district",
+        "clear board-readable pathing and gathering space"
+      ],
+      "narrativeUse": [
+        "stage shrine / sacred place scenes without needing to reopen concept art",
+        "show how ordinary citizens react to public pressure",
+        "give characters a concrete approach, obstacle, or meeting point",
+        "translate citywide crisis into district-scale behavior",
+        "support diorama generation with landmark-specific props"
+      ],
+      "primaryLandmark": "Shrine / Sacred Place Civic Hall",
+      "minorLandmarks": [
+        "Roadside Shrine",
+        "Shrine Sacred Place Lantern Monument",
+        "Votive Grove Nook"
+      ]
+    },
+    {
+      "districtNumber": 12,
+      "districtCode": "D12",
+      "sectionNumber": 3,
+      "sectionName": "Public Works Authority",
+      "name": "Public Works Authority — Landmark Court",
+      "civicPurpose": "This district handles the local landmark’s visible plaza, vertical silhouette, and immediate public use for Public Works Authority. In scenes, it should show how municipal repair, permits, route planning, safety inspections, and the visible apparatus of civic competence becomes a street-level system.",
+      "visualIdentity": "Public Works Authority identity rendered through permit boards, survey instruments, repair markers, map tables, Seashell, Terracotta, Stone, Green Marble, and Limestone Blocks, local crowds, and the visible approach to Survey Hall.",
+      "emotionalIdentity": "measured, competent, and quietly powerful",
+      "gameplayAssetNeeds": [
+        "Survey Hall",
+        "Public Works Authority Hall",
+        "Blue-Lamp Monument",
+        "Permit Yard Nook",
+        "Public Works Authority street props",
+        "tortoise-like reptilian folk civilians using the district",
+        "clear board-readable pathing and gathering space"
+      ],
+      "narrativeUse": [
+        "stage public works authority scenes without needing to reopen concept art",
+        "show how ordinary citizens react to public pressure",
+        "give characters a concrete approach, obstacle, or meeting point",
+        "translate citywide crisis into district-scale behavior",
+        "support diorama generation with landmark-specific props"
+      ],
+      "primaryLandmark": "Survey Hall",
+      "minorLandmarks": [
+        "Public Works Authority Hall",
+        "Blue-Lamp Monument",
+        "Permit Yard Nook"
+      ]
+    },
+    {
+      "districtNumber": 13,
+      "districtCode": "D13",
+      "sectionNumber": 3,
+      "sectionName": "Public Works Authority",
+      "name": "Public Works Authority — Monument Plaza",
+      "civicPurpose": "This district handles ceremony, memory, civic symbolism, and formal gatherings for Public Works Authority. In scenes, it should show how municipal repair, permits, route planning, safety inspections, and the visible apparatus of civic competence becomes a street-level system.",
+      "visualIdentity": "Public Works Authority identity rendered through permit boards, survey instruments, repair markers, map tables, Seashell, Terracotta, Stone, Green Marble, and Limestone Blocks, local crowds, and the visible approach to Serpent Scale Bands Tide-Seal Citadel.",
+      "emotionalIdentity": "measured, competent, and quietly powerful",
+      "gameplayAssetNeeds": [
+        "Serpent Scale Bands Tide-Seal Citadel",
+        "Necropolis Hall Beacon",
+        "Tortoisefolk Shellwall Bastion of Slow Tides",
+        "Public Works Authority Hall",
+        "Public Works Authority street props",
+        "tortoise-like reptilian folk civilians using the district",
+        "clear board-readable pathing and gathering space"
+      ],
+      "narrativeUse": [
+        "stage public works authority scenes without needing to reopen concept art",
+        "show how ordinary citizens react to public pressure",
+        "give characters a concrete approach, obstacle, or meeting point",
+        "translate citywide crisis into district-scale behavior",
+        "support diorama generation with landmark-specific props"
+      ],
+      "primaryLandmark": "Serpent Scale Bands Tide-Seal Citadel",
+      "minorLandmarks": [
+        "Necropolis Hall Beacon",
+        "Tortoisefolk Shellwall Bastion of Slow Tides",
+        "Public Works Authority Hall",
+        "Survey Hall",
+        "Blue-Lamp Monument",
+        "Permit Yard Nook"
+      ]
+    },
+    {
+      "districtNumber": 14,
+      "districtCode": "D14",
+      "sectionNumber": 3,
+      "sectionName": "Public Works Authority",
+      "name": "Public Works Authority — Service Arcade",
+      "civicPurpose": "This district handles small shops, workers, storage, and everyday support around the section for Public Works Authority. In scenes, it should show how municipal repair, permits, route planning, safety inspections, and the visible apparatus of civic competence becomes a street-level system.",
+      "visualIdentity": "Public Works Authority identity rendered through permit boards, survey instruments, repair markers, map tables, Seashell, Terracotta, Stone, Green Marble, and Limestone Blocks, local crowds, and the visible approach to Permit Yard Nook.",
+      "emotionalIdentity": "measured, competent, and quietly powerful",
+      "gameplayAssetNeeds": [
+        "Permit Yard Nook",
+        "Public Works Authority Hall",
+        "Survey Hall",
+        "Blue-Lamp Monument",
+        "Public Works Authority street props",
+        "tortoise-like reptilian folk civilians using the district",
+        "clear board-readable pathing and gathering space"
+      ],
+      "narrativeUse": [
+        "stage public works authority scenes without needing to reopen concept art",
+        "show how ordinary citizens react to public pressure",
+        "give characters a concrete approach, obstacle, or meeting point",
+        "translate citywide crisis into district-scale behavior",
+        "support diorama generation with landmark-specific props"
+      ],
+      "primaryLandmark": "Permit Yard Nook",
+      "minorLandmarks": [
+        "Public Works Authority Hall",
+        "Survey Hall",
+        "Blue-Lamp Monument"
+      ]
+    },
+    {
+      "districtNumber": 15,
+      "districtCode": "D15",
+      "sectionNumber": 2,
+      "sectionName": "Warehousing / Logistics",
+      "name": "Warehousing / Logistics — Residential / Backstreet Edge",
+      "civicPurpose": "This district handles housing, side lanes, minor courts, and private daily routines for Warehousing / Logistics. In scenes, it should show how arrival, departure, cargo handling, route brokerage, public counting, and the trust systems that keep movement honest becomes a street-level system.",
+      "visualIdentity": "Warehousing / Logistics identity rendered through cargo ledgers, crates, route boards, loading courts, Seashell, Terracotta, Stone, Green Marble, and Limestone Blocks, local crowds, and the visible approach to Cargo Yard.",
+      "emotionalIdentity": "lived-in, readable, and civic",
+      "gameplayAssetNeeds": [
+        "Cargo Yard",
+        "Warehousing / Logistics Civic Hall",
+        "Warehousing Logistics Gold-Seal Monument",
+        "Inventory Hall Nook",
+        "Warehousing / Logistics street props",
+        "tortoise-like reptilian folk civilians using the district",
+        "clear board-readable pathing and gathering space"
+      ],
+      "narrativeUse": [
+        "stage warehousing / logistics scenes without needing to reopen concept art",
+        "show how ordinary citizens react to public pressure",
+        "give characters a concrete approach, obstacle, or meeting point",
+        "translate citywide crisis into district-scale behavior",
+        "support diorama generation with landmark-specific props"
+      ],
+      "primaryLandmark": "Cargo Yard",
+      "minorLandmarks": [
+        "Warehousing / Logistics Civic Hall",
+        "Warehousing Logistics Gold-Seal Monument",
+        "Inventory Hall Nook"
+      ]
+    },
+    {
+      "districtNumber": 16,
+      "districtCode": "D16",
+      "sectionNumber": 4,
+      "sectionName": "Shrine / Sacred Place",
+      "name": "Shrine / Sacred Place — Landmark Court",
+      "civicPurpose": "This district handles the local landmark’s visible plaza, vertical silhouette, and immediate public use for Shrine / Sacred Place. In scenes, it should show how public worship, vow-making, procession, ceremonial memory, and sacred authority expressed at street scale becomes a street-level system.",
+      "visualIdentity": "Shrine / Sacred Place identity rendered through procession steps, votive lamps, ritual banners, sacred thresholds, Seashell, Terracotta, Stone, Green Marble, and Limestone Blocks, local crowds, and the visible approach to Roadside Shrine.",
+      "emotionalIdentity": "reverent, processional, and symbolically charged",
+      "gameplayAssetNeeds": [
+        "Roadside Shrine",
+        "Shrine / Sacred Place Civic Hall",
+        "Shrine Sacred Place Lantern Monument",
+        "Votive Grove Nook",
+        "Shrine / Sacred Place street props",
+        "tortoise-like reptilian folk civilians using the district",
+        "clear board-readable pathing and gathering space"
+      ],
+      "narrativeUse": [
+        "stage shrine / sacred place scenes without needing to reopen concept art",
+        "show how ordinary citizens react to public pressure",
+        "give characters a concrete approach, obstacle, or meeting point",
+        "translate citywide crisis into district-scale behavior",
+        "support diorama generation with landmark-specific props"
+      ],
+      "primaryLandmark": "Roadside Shrine",
+      "minorLandmarks": [
+        "Shrine / Sacred Place Civic Hall",
+        "Shrine Sacred Place Lantern Monument",
+        "Votive Grove Nook"
+      ]
+    },
+    {
+      "districtNumber": 17,
+      "districtCode": "D17",
+      "sectionNumber": 4,
+      "sectionName": "Shrine / Sacred Place",
+      "name": "Shrine / Sacred Place — Monument Plaza",
+      "civicPurpose": "This district handles ceremony, memory, civic symbolism, and formal gatherings for Shrine / Sacred Place. In scenes, it should show how public worship, vow-making, procession, ceremonial memory, and sacred authority expressed at street scale becomes a street-level system.",
+      "visualIdentity": "Shrine / Sacred Place identity rendered through procession steps, votive lamps, ritual banners, sacred thresholds, Seashell, Terracotta, Stone, Green Marble, and Limestone Blocks, local crowds, and the visible approach to Shrine Sacred Place Lantern Monument.",
+      "emotionalIdentity": "reverent, processional, and symbolically charged",
+      "gameplayAssetNeeds": [
+        "Shrine Sacred Place Lantern Monument",
+        "Shrine / Sacred Place Civic Hall",
+        "Roadside Shrine",
+        "Votive Grove Nook",
+        "Shrine / Sacred Place street props",
+        "tortoise-like reptilian folk civilians using the district",
+        "clear board-readable pathing and gathering space"
+      ],
+      "narrativeUse": [
+        "stage shrine / sacred place scenes without needing to reopen concept art",
+        "show how ordinary citizens react to public pressure",
+        "give characters a concrete approach, obstacle, or meeting point",
+        "translate citywide crisis into district-scale behavior",
+        "support diorama generation with landmark-specific props"
+      ],
+      "primaryLandmark": "Shrine Sacred Place Lantern Monument",
+      "minorLandmarks": [
+        "Shrine / Sacred Place Civic Hall",
+        "Roadside Shrine",
+        "Votive Grove Nook"
+      ]
+    },
+    {
+      "districtNumber": 18,
+      "districtCode": "D18",
+      "sectionNumber": 3,
+      "sectionName": "Public Works Authority",
+      "name": "Public Works Authority — Residential / Backstreet Edge",
+      "civicPurpose": "This district handles housing, side lanes, minor courts, and private daily routines for Public Works Authority. In scenes, it should show how municipal repair, permits, route planning, safety inspections, and the visible apparatus of civic competence becomes a street-level system.",
+      "visualIdentity": "Public Works Authority identity rendered through permit boards, survey instruments, repair markers, map tables, Seashell, Terracotta, Stone, Green Marble, and Limestone Blocks, local crowds, and the visible approach to Survey Hall.",
+      "emotionalIdentity": "measured, competent, and quietly powerful",
+      "gameplayAssetNeeds": [
+        "Survey Hall",
+        "Public Works Authority Hall",
+        "Blue-Lamp Monument",
+        "Permit Yard Nook",
+        "Public Works Authority street props",
+        "tortoise-like reptilian folk civilians using the district",
+        "clear board-readable pathing and gathering space"
+      ],
+      "narrativeUse": [
+        "stage public works authority scenes without needing to reopen concept art",
+        "show how ordinary citizens react to public pressure",
+        "give characters a concrete approach, obstacle, or meeting point",
+        "translate citywide crisis into district-scale behavior",
+        "support diorama generation with landmark-specific props"
+      ],
+      "primaryLandmark": "Survey Hall",
+      "minorLandmarks": [
+        "Public Works Authority Hall",
+        "Blue-Lamp Monument",
+        "Permit Yard Nook"
+      ]
+    },
+    {
+      "districtNumber": 19,
+      "districtCode": "D19",
+      "sectionNumber": 5,
+      "sectionName": "Harbor",
+      "name": "Harbor — Civic Threshold",
+      "civicPurpose": "This district handles public approach, first contact, notices, and movement control for Harbor. In scenes, it should show how water access, movement control, maintenance, arrival rituals, and civic dependence on managed flows becomes a street-level system.",
+      "visualIdentity": "Harbor identity rendered through quays, bridgelets, mooring posts, waterfront arches, Seashell, Terracotta, Stone, Green Marble, and Limestone Blocks, local crowds, and the visible approach to S5 Harbor Campus.",
+      "emotionalIdentity": "fluid, reflective, threshold-oriented, and practical",
+      "gameplayAssetNeeds": [
+        "S5 Harbor Campus",
+        "Harbor Basilica",
+        "S5 Harbor Arch",
+        "S5 Harbor Bridgelet",
+        "Harbor street props",
+        "tortoise-like reptilian folk civilians using the district",
+        "clear board-readable pathing and gathering space"
+      ],
+      "narrativeUse": [
+        "stage harbor scenes without needing to reopen concept art",
+        "show how ordinary citizens react to public pressure",
+        "give characters a concrete approach, obstacle, or meeting point",
+        "translate citywide crisis into district-scale behavior",
+        "support diorama generation with landmark-specific props"
+      ],
+      "primaryLandmark": "S5 Harbor Campus",
+      "minorLandmarks": [
+        "Harbor Basilica",
+        "S5 Harbor Arch",
+        "S5 Harbor Bridgelet"
+      ]
+    },
+    {
+      "districtNumber": 20,
+      "districtCode": "D20",
+      "sectionNumber": 5,
+      "sectionName": "Harbor",
+      "name": "Harbor — Landmark Court",
+      "civicPurpose": "This district handles the local landmark’s visible plaza, vertical silhouette, and immediate public use for Harbor. In scenes, it should show how water access, movement control, maintenance, arrival rituals, and civic dependence on managed flows becomes a street-level system.",
+      "visualIdentity": "Harbor identity rendered through quays, bridgelets, mooring posts, waterfront arches, Seashell, Terracotta, Stone, Green Marble, and Limestone Blocks, local crowds, and the visible approach to Harbor Basilica.",
+      "emotionalIdentity": "fluid, reflective, threshold-oriented, and practical",
+      "gameplayAssetNeeds": [
+        "Harbor Basilica",
+        "S5 Harbor Campus",
+        "S5 Harbor Arch",
+        "S5 Harbor Bridgelet",
+        "Harbor street props",
+        "tortoise-like reptilian folk civilians using the district",
+        "clear board-readable pathing and gathering space"
+      ],
+      "narrativeUse": [
+        "stage harbor scenes without needing to reopen concept art",
+        "show how ordinary citizens react to public pressure",
+        "give characters a concrete approach, obstacle, or meeting point",
+        "translate citywide crisis into district-scale behavior",
+        "support diorama generation with landmark-specific props"
+      ],
+      "primaryLandmark": "Harbor Basilica",
+      "minorLandmarks": [
+        "S5 Harbor Campus",
+        "S5 Harbor Arch",
+        "S5 Harbor Bridgelet"
+      ]
+    },
+    {
+      "districtNumber": 21,
+      "districtCode": "D21",
+      "sectionNumber": 4,
+      "sectionName": "Shrine / Sacred Place",
+      "name": "Shrine / Sacred Place — Service Arcade",
+      "civicPurpose": "This district handles small shops, workers, storage, and everyday support around the section for Shrine / Sacred Place. In scenes, it should show how public worship, vow-making, procession, ceremonial memory, and sacred authority expressed at street scale becomes a street-level system.",
+      "visualIdentity": "Shrine / Sacred Place identity rendered through procession steps, votive lamps, ritual banners, sacred thresholds, Seashell, Terracotta, Stone, Green Marble, and Limestone Blocks, local crowds, and the visible approach to Votive Grove Nook.",
+      "emotionalIdentity": "reverent, processional, and symbolically charged",
+      "gameplayAssetNeeds": [
+        "Votive Grove Nook",
+        "Shrine / Sacred Place Civic Hall",
+        "Roadside Shrine",
+        "Shrine Sacred Place Lantern Monument",
+        "Shrine / Sacred Place street props",
+        "tortoise-like reptilian folk civilians using the district",
+        "clear board-readable pathing and gathering space"
+      ],
+      "narrativeUse": [
+        "stage shrine / sacred place scenes without needing to reopen concept art",
+        "show how ordinary citizens react to public pressure",
+        "give characters a concrete approach, obstacle, or meeting point",
+        "translate citywide crisis into district-scale behavior",
+        "support diorama generation with landmark-specific props"
+      ],
+      "primaryLandmark": "Votive Grove Nook",
+      "minorLandmarks": [
+        "Shrine / Sacred Place Civic Hall",
+        "Roadside Shrine",
+        "Shrine Sacred Place Lantern Monument"
+      ]
+    },
+    {
+      "districtNumber": 22,
+      "districtCode": "D22",
+      "sectionNumber": 4,
+      "sectionName": "Shrine / Sacred Place",
+      "name": "Shrine / Sacred Place — Residential / Backstreet Edge",
+      "civicPurpose": "This district handles housing, side lanes, minor courts, and private daily routines for Shrine / Sacred Place. In scenes, it should show how public worship, vow-making, procession, ceremonial memory, and sacred authority expressed at street scale becomes a street-level system.",
+      "visualIdentity": "Shrine / Sacred Place identity rendered through procession steps, votive lamps, ritual banners, sacred thresholds, Seashell, Terracotta, Stone, Green Marble, and Limestone Blocks, local crowds, and the visible approach to Roadside Shrine.",
+      "emotionalIdentity": "reverent, processional, and symbolically charged",
+      "gameplayAssetNeeds": [
+        "Roadside Shrine",
+        "Shrine / Sacred Place Civic Hall",
+        "Shrine Sacred Place Lantern Monument",
+        "Votive Grove Nook",
+        "Shrine / Sacred Place street props",
+        "tortoise-like reptilian folk civilians using the district",
+        "clear board-readable pathing and gathering space"
+      ],
+      "narrativeUse": [
+        "stage shrine / sacred place scenes without needing to reopen concept art",
+        "show how ordinary citizens react to public pressure",
+        "give characters a concrete approach, obstacle, or meeting point",
+        "translate citywide crisis into district-scale behavior",
+        "support diorama generation with landmark-specific props"
+      ],
+      "primaryLandmark": "Roadside Shrine",
+      "minorLandmarks": [
+        "Shrine / Sacred Place Civic Hall",
+        "Shrine Sacred Place Lantern Monument",
+        "Votive Grove Nook"
+      ]
+    },
+    {
+      "districtNumber": 23,
+      "districtCode": "D23",
+      "sectionNumber": 5,
+      "sectionName": "Harbor",
+      "name": "Harbor — Monument Plaza",
+      "civicPurpose": "This district handles ceremony, memory, civic symbolism, and formal gatherings for Harbor. In scenes, it should show how water access, movement control, maintenance, arrival rituals, and civic dependence on managed flows becomes a street-level system.",
+      "visualIdentity": "Harbor identity rendered through quays, bridgelets, mooring posts, waterfront arches, Seashell, Terracotta, Stone, Green Marble, and Limestone Blocks, local crowds, and the visible approach to S5 Harbor Arch.",
+      "emotionalIdentity": "fluid, reflective, threshold-oriented, and practical",
+      "gameplayAssetNeeds": [
+        "S5 Harbor Arch",
+        "S5 Harbor Campus",
+        "Harbor Basilica",
+        "S5 Harbor Bridgelet",
+        "Harbor street props",
+        "tortoise-like reptilian folk civilians using the district",
+        "clear board-readable pathing and gathering space"
+      ],
+      "narrativeUse": [
+        "stage harbor scenes without needing to reopen concept art",
+        "show how ordinary citizens react to public pressure",
+        "give characters a concrete approach, obstacle, or meeting point",
+        "translate citywide crisis into district-scale behavior",
+        "support diorama generation with landmark-specific props"
+      ],
+      "primaryLandmark": "S5 Harbor Arch",
+      "minorLandmarks": [
+        "S5 Harbor Campus",
+        "Harbor Basilica",
+        "S5 Harbor Bridgelet"
+      ]
+    },
+    {
+      "districtNumber": 24,
+      "districtCode": "D24",
+      "sectionNumber": 5,
+      "sectionName": "Harbor",
+      "name": "Harbor — Service Arcade",
+      "civicPurpose": "This district handles small shops, workers, storage, and everyday support around the section for Harbor. In scenes, it should show how water access, movement control, maintenance, arrival rituals, and civic dependence on managed flows becomes a street-level system.",
+      "visualIdentity": "Harbor identity rendered through quays, bridgelets, mooring posts, waterfront arches, Seashell, Terracotta, Stone, Green Marble, and Limestone Blocks, local crowds, and the visible approach to S5 Harbor Bridgelet.",
+      "emotionalIdentity": "fluid, reflective, threshold-oriented, and practical",
+      "gameplayAssetNeeds": [
+        "S5 Harbor Bridgelet",
+        "S5 Harbor Campus",
+        "Harbor Basilica",
+        "S5 Harbor Arch",
+        "Harbor street props",
+        "tortoise-like reptilian folk civilians using the district",
+        "clear board-readable pathing and gathering space"
+      ],
+      "narrativeUse": [
+        "stage harbor scenes without needing to reopen concept art",
+        "show how ordinary citizens react to public pressure",
+        "give characters a concrete approach, obstacle, or meeting point",
+        "translate citywide crisis into district-scale behavior",
+        "support diorama generation with landmark-specific props"
+      ],
+      "primaryLandmark": "S5 Harbor Bridgelet",
+      "minorLandmarks": [
+        "S5 Harbor Campus",
+        "Harbor Basilica",
+        "S5 Harbor Arch"
+      ]
+    },
+    {
+      "districtNumber": 25,
+      "districtCode": "D25",
+      "sectionNumber": 5,
+      "sectionName": "Harbor",
+      "name": "Harbor — Residential / Backstreet Edge",
+      "civicPurpose": "This district handles housing, side lanes, minor courts, and private daily routines for Harbor. In scenes, it should show how water access, movement control, maintenance, arrival rituals, and civic dependence on managed flows becomes a street-level system.",
+      "visualIdentity": "Harbor identity rendered through quays, bridgelets, mooring posts, waterfront arches, Seashell, Terracotta, Stone, Green Marble, and Limestone Blocks, local crowds, and the visible approach to Harbor Basilica.",
+      "emotionalIdentity": "fluid, reflective, threshold-oriented, and practical",
+      "gameplayAssetNeeds": [
+        "Harbor Basilica",
+        "S5 Harbor Campus",
+        "S5 Harbor Arch",
+        "S5 Harbor Bridgelet",
+        "Harbor street props",
+        "tortoise-like reptilian folk civilians using the district",
+        "clear board-readable pathing and gathering space"
+      ],
+      "narrativeUse": [
+        "stage harbor scenes without needing to reopen concept art",
+        "show how ordinary citizens react to public pressure",
+        "give characters a concrete approach, obstacle, or meeting point",
+        "translate citywide crisis into district-scale behavior",
+        "support diorama generation with landmark-specific props"
+      ],
+      "primaryLandmark": "Harbor Basilica",
+      "minorLandmarks": [
+        "S5 Harbor Campus",
+        "S5 Harbor Arch",
+        "S5 Harbor Bridgelet"
+      ]
+    }
+  ],
+  "landmarks": {
+    "wonder": {
+      "name": "Tortoisefolk Shellwall Bastion of Slow Tides",
+      "symbolicRole": "Tortoisefolk Shellwall Bastion of Slow Tides concentrates Shellrest Bastion's civic identity into a usable public symbol.",
+      "visualRole": "A one-per-city wonder: spectacular, unmistakable, and larger than every section landmark; visually it should read through the city's tortoise-like reptilian folk material language.",
+      "civicRole": "Serves as a wonder for public orientation, authority, gathering, and district-scale navigation.",
+      "narrativeUse": [
+        "anchor scenes where Shellrest Bastion's institutions become visible rather than abstract",
+        "stage public warnings, petitions, disputes, arrivals, or ceremonies",
+        "give characters a concrete place to read power, memory, labor, or obligation",
+        "provide a recognizable return point across chapters and map scenes"
+      ],
+      "assetUse": [
+        "district diorama centerpiece",
+        "map background landmark marker",
+        "board-readable silhouette and navigation cue",
+        "repeatable visual anchor for future city art"
+      ],
+      "sensoryIdentity": [
+        "public foot traffic",
+        "local material textures",
+        "civic lamps or signal light",
+        "voices gathering around its approach",
+        "weather and city smell caught on its surfaces"
+      ],
+      "storyHooks": [
+        "a public decision at Tortoisefolk Shellwall Bastion of Slow Tides changes how the section moves",
+        "an old inscription, ledger, seal, or ceremonial object at Tortoisefolk Shellwall Bastion of Slow Tides reveals a civic contradiction",
+        "crowd behavior around Tortoisefolk Shellwall Bastion of Slow Tides shows whether the city trusts its own institutions"
+      ]
+    },
+    "beacon": {
+      "name": "Necropolis Hall Beacon",
+      "symbolicRole": "Necropolis Hall Beacon concentrates Shellrest Bastion's civic identity into a usable public symbol. It carries Section 1's Necropolis identity.",
+      "visualRole": "Necropolis Hall Beacon: the single city beacon, a towering civic signal landmark fixed to section 1; visually it should read through the city's tortoise-like reptilian folk material language.",
+      "civicRole": "Serves as a beacon for public orientation, authority, gathering, and district-scale navigation.",
+      "narrativeUse": [
+        "anchor scenes where Shellrest Bastion's institutions become visible rather than abstract",
+        "stage public warnings, petitions, disputes, arrivals, or ceremonies",
+        "give characters a concrete place to read power, memory, labor, or obligation",
+        "provide a recognizable return point across chapters and map scenes"
+      ],
+      "assetUse": [
+        "district diorama centerpiece",
+        "map background landmark marker",
+        "board-readable silhouette and navigation cue",
+        "repeatable visual anchor for future city art"
+      ],
+      "sensoryIdentity": [
+        "public foot traffic",
+        "local material textures",
+        "civic lamps or signal light",
+        "voices gathering around its approach",
+        "weather and city smell caught on its surfaces"
+      ],
+      "storyHooks": [
+        "a public decision at Necropolis Hall Beacon changes how the section moves",
+        "an old inscription, ledger, seal, or ceremonial object at Necropolis Hall Beacon reveals a civic contradiction",
+        "crowd behavior around Necropolis Hall Beacon shows whether the city trusts its own institutions"
+      ]
+    },
+    "seatOfPower": {
+      "name": "Serpent Scale Bands Tide-Seal Citadel",
+      "symbolicRole": "Serpent Scale Bands Tide-Seal Citadel concentrates Shellrest Bastion's civic identity into a usable public symbol.",
+      "visualRole": "The district-13 seat of power: courts, audience terraces, sealed archives, command platforms, and the visible apparatus of government; visually it should read through the city's tortoise-like reptilian folk material language.",
+      "civicRole": "Serves as a seat of power for public orientation, authority, gathering, and district-scale navigation.",
+      "narrativeUse": [
+        "anchor scenes where Shellrest Bastion's institutions become visible rather than abstract",
+        "stage public warnings, petitions, disputes, arrivals, or ceremonies",
+        "give characters a concrete place to read power, memory, labor, or obligation",
+        "provide a recognizable return point across chapters and map scenes"
+      ],
+      "assetUse": [
+        "district diorama centerpiece",
+        "map background landmark marker",
+        "board-readable silhouette and navigation cue",
+        "repeatable visual anchor for future city art"
+      ],
+      "sensoryIdentity": [
+        "public foot traffic",
+        "local material textures",
+        "civic lamps or signal light",
+        "voices gathering around its approach",
+        "weather and city smell caught on its surfaces"
+      ],
+      "storyHooks": [
+        "a public decision at Serpent Scale Bands Tide-Seal Citadel changes how the section moves",
+        "an old inscription, ledger, seal, or ceremonial object at Serpent Scale Bands Tide-Seal Citadel reveals a civic contradiction",
+        "crowd behavior around Serpent Scale Bands Tide-Seal Citadel shows whether the city trusts its own institutions"
+      ],
+      "districtNumber": 13
+    },
+    "majorLandmarks": [
+      {
+        "name": "S1 Necropolis Hall",
+        "symbolicRole": "S1 Necropolis Hall concentrates Shellrest Bastion's civic identity into a usable public symbol. It carries Section 1's Necropolis identity.",
+        "visualRole": "Necropolis Hall: authored civic gathering structure for section 1; visually it should read through the city's tortoise-like reptilian folk material language.",
+        "civicRole": "Serves as a civic center for public orientation, authority, gathering, and district-scale navigation.",
+        "narrativeUse": [
+          "anchor scenes where Shellrest Bastion's institutions become visible rather than abstract",
+          "stage public warnings, petitions, disputes, arrivals, or ceremonies",
+          "give characters a concrete place to read power, memory, labor, or obligation",
+          "provide a recognizable return point across chapters and map scenes"
+        ],
+        "assetUse": [
+          "district diorama centerpiece",
+          "map background landmark marker",
+          "board-readable silhouette and navigation cue",
+          "repeatable visual anchor for future city art"
+        ],
+        "sensoryIdentity": [
+          "public foot traffic",
+          "local material textures",
+          "civic lamps or signal light",
+          "voices gathering around its approach",
+          "weather and city smell caught on its surfaces"
+        ],
+        "storyHooks": [
+          "a public decision at S1 Necropolis Hall changes how the section moves",
+          "an old inscription, ledger, seal, or ceremonial object at S1 Necropolis Hall reveals a civic contradiction",
+          "crowd behavior around S1 Necropolis Hall shows whether the city trusts its own institutions"
+        ]
+      },
+      {
+        "name": "S1 Necropolis Pillar",
+        "symbolicRole": "S1 Necropolis Pillar concentrates Shellrest Bastion's civic identity into a usable public symbol. It carries Section 1's Necropolis identity.",
+        "visualRole": "Necropolis Pillar: carved civic memorial on a raised plinth; visually it should read through the city's tortoise-like reptilian folk material language.",
+        "civicRole": "Serves as a monument for public orientation, authority, gathering, and district-scale navigation.",
+        "narrativeUse": [
+          "anchor scenes where Shellrest Bastion's institutions become visible rather than abstract",
+          "stage public warnings, petitions, disputes, arrivals, or ceremonies",
+          "give characters a concrete place to read power, memory, labor, or obligation",
+          "provide a recognizable return point across chapters and map scenes"
+        ],
+        "assetUse": [
+          "district diorama centerpiece",
+          "map background landmark marker",
+          "board-readable silhouette and navigation cue",
+          "repeatable visual anchor for future city art"
+        ],
+        "sensoryIdentity": [
+          "public foot traffic",
+          "local material textures",
+          "civic lamps or signal light",
+          "voices gathering around its approach",
+          "weather and city smell caught on its surfaces"
+        ],
+        "storyHooks": [
+          "a public decision at S1 Necropolis Pillar changes how the section moves",
+          "an old inscription, ledger, seal, or ceremonial object at S1 Necropolis Pillar reveals a civic contradiction",
+          "crowd behavior around S1 Necropolis Pillar shows whether the city trusts its own institutions"
+        ]
+      },
+      {
+        "name": "S1 Necropolis Kiosk",
+        "symbolicRole": "S1 Necropolis Kiosk concentrates Shellrest Bastion's civic identity into a usable public symbol. It carries Section 1's Necropolis identity.",
+        "visualRole": "Necropolis Kiosk: compact district landmark; visually it should read through the city's tortoise-like reptilian folk material language.",
+        "civicRole": "Serves as a minor landmark for public orientation, authority, gathering, and district-scale navigation.",
+        "narrativeUse": [
+          "anchor scenes where Shellrest Bastion's institutions become visible rather than abstract",
+          "stage public warnings, petitions, disputes, arrivals, or ceremonies",
+          "give characters a concrete place to read power, memory, labor, or obligation",
+          "provide a recognizable return point across chapters and map scenes"
+        ],
+        "assetUse": [
+          "district diorama centerpiece",
+          "map background landmark marker",
+          "board-readable silhouette and navigation cue",
+          "repeatable visual anchor for future city art"
+        ],
+        "sensoryIdentity": [
+          "public foot traffic",
+          "local material textures",
+          "civic lamps or signal light",
+          "voices gathering around its approach",
+          "weather and city smell caught on its surfaces"
+        ],
+        "storyHooks": [
+          "a public decision at S1 Necropolis Kiosk changes how the section moves",
+          "an old inscription, ledger, seal, or ceremonial object at S1 Necropolis Kiosk reveals a civic contradiction",
+          "crowd behavior around S1 Necropolis Kiosk shows whether the city trusts its own institutions"
+        ]
+      },
+      {
+        "name": "Warehousing / Logistics Civic Hall",
+        "symbolicRole": "Warehousing / Logistics Civic Hall concentrates Shellrest Bastion's civic identity into a usable public symbol. It carries Section 2's Warehousing / Logistics identity.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing; visually it should read through the city's tortoise-like reptilian folk material language.",
+        "civicRole": "Serves as a civic center for public orientation, authority, gathering, and district-scale navigation.",
+        "narrativeUse": [
+          "anchor scenes where Shellrest Bastion's institutions become visible rather than abstract",
+          "stage public warnings, petitions, disputes, arrivals, or ceremonies",
+          "give characters a concrete place to read power, memory, labor, or obligation",
+          "provide a recognizable return point across chapters and map scenes"
+        ],
+        "assetUse": [
+          "district diorama centerpiece",
+          "map background landmark marker",
+          "board-readable silhouette and navigation cue",
+          "repeatable visual anchor for future city art"
+        ],
+        "sensoryIdentity": [
+          "public foot traffic",
+          "local material textures",
+          "civic lamps or signal light",
+          "voices gathering around its approach",
+          "weather and city smell caught on its surfaces"
+        ],
+        "storyHooks": [
+          "a public decision at Warehousing / Logistics Civic Hall changes how the section moves",
+          "an old inscription, ledger, seal, or ceremonial object at Warehousing / Logistics Civic Hall reveals a civic contradiction",
+          "crowd behavior around Warehousing / Logistics Civic Hall shows whether the city trusts its own institutions"
+        ]
+      },
+      {
+        "name": "Cargo Yard",
+        "symbolicRole": "Cargo Yard concentrates Shellrest Bastion's civic identity into a usable public symbol. It carries Section 2's Warehousing / Logistics identity.",
+        "visualRole": "A largest local landmark in this section, subordinate only to the city wonder and citadel; visually it should read through the city's tortoise-like reptilian folk material language.",
+        "civicRole": "Serves as a major landmark for public orientation, authority, gathering, and district-scale navigation.",
+        "narrativeUse": [
+          "anchor scenes where Shellrest Bastion's institutions become visible rather than abstract",
+          "stage public warnings, petitions, disputes, arrivals, or ceremonies",
+          "give characters a concrete place to read power, memory, labor, or obligation",
+          "provide a recognizable return point across chapters and map scenes"
+        ],
+        "assetUse": [
+          "district diorama centerpiece",
+          "map background landmark marker",
+          "board-readable silhouette and navigation cue",
+          "repeatable visual anchor for future city art"
+        ],
+        "sensoryIdentity": [
+          "public foot traffic",
+          "local material textures",
+          "civic lamps or signal light",
+          "voices gathering around its approach",
+          "weather and city smell caught on its surfaces"
+        ],
+        "storyHooks": [
+          "a public decision at Cargo Yard changes how the section moves",
+          "an old inscription, ledger, seal, or ceremonial object at Cargo Yard reveals a civic contradiction",
+          "crowd behavior around Cargo Yard shows whether the city trusts its own institutions"
+        ]
+      },
+      {
+        "name": "Warehousing Logistics Gold-Seal Monument",
+        "symbolicRole": "Warehousing Logistics Gold-Seal Monument concentrates Shellrest Bastion's civic identity into a usable public symbol. It carries Section 2's Warehousing / Logistics identity.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles; visually it should read through the city's tortoise-like reptilian folk material language.",
+        "civicRole": "Serves as a monument for public orientation, authority, gathering, and district-scale navigation.",
+        "narrativeUse": [
+          "anchor scenes where Shellrest Bastion's institutions become visible rather than abstract",
+          "stage public warnings, petitions, disputes, arrivals, or ceremonies",
+          "give characters a concrete place to read power, memory, labor, or obligation",
+          "provide a recognizable return point across chapters and map scenes"
+        ],
+        "assetUse": [
+          "district diorama centerpiece",
+          "map background landmark marker",
+          "board-readable silhouette and navigation cue",
+          "repeatable visual anchor for future city art"
+        ],
+        "sensoryIdentity": [
+          "public foot traffic",
+          "local material textures",
+          "civic lamps or signal light",
+          "voices gathering around its approach",
+          "weather and city smell caught on its surfaces"
+        ],
+        "storyHooks": [
+          "a public decision at Warehousing Logistics Gold-Seal Monument changes how the section moves",
+          "an old inscription, ledger, seal, or ceremonial object at Warehousing Logistics Gold-Seal Monument reveals a civic contradiction",
+          "crowd behavior around Warehousing Logistics Gold-Seal Monument shows whether the city trusts its own institutions"
+        ]
+      },
+      {
+        "name": "Inventory Hall Nook",
+        "symbolicRole": "Inventory Hall Nook concentrates Shellrest Bastion's civic identity into a usable public symbol. It carries Section 2's Warehousing / Logistics identity.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette; visually it should read through the city's tortoise-like reptilian folk material language.",
+        "civicRole": "Serves as a minor landmark for public orientation, authority, gathering, and district-scale navigation.",
+        "narrativeUse": [
+          "anchor scenes where Shellrest Bastion's institutions become visible rather than abstract",
+          "stage public warnings, petitions, disputes, arrivals, or ceremonies",
+          "give characters a concrete place to read power, memory, labor, or obligation",
+          "provide a recognizable return point across chapters and map scenes"
+        ],
+        "assetUse": [
+          "district diorama centerpiece",
+          "map background landmark marker",
+          "board-readable silhouette and navigation cue",
+          "repeatable visual anchor for future city art"
+        ],
+        "sensoryIdentity": [
+          "public foot traffic",
+          "local material textures",
+          "civic lamps or signal light",
+          "voices gathering around its approach",
+          "weather and city smell caught on its surfaces"
+        ],
+        "storyHooks": [
+          "a public decision at Inventory Hall Nook changes how the section moves",
+          "an old inscription, ledger, seal, or ceremonial object at Inventory Hall Nook reveals a civic contradiction",
+          "crowd behavior around Inventory Hall Nook shows whether the city trusts its own institutions"
+        ]
+      },
+      {
+        "name": "Public Works Authority Hall",
+        "symbolicRole": "Public Works Authority Hall concentrates Shellrest Bastion's civic identity into a usable public symbol. It carries Section 3's Public Works Authority identity.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing; visually it should read through the city's tortoise-like reptilian folk material language.",
+        "civicRole": "Serves as a civic center for public orientation, authority, gathering, and district-scale navigation.",
+        "narrativeUse": [
+          "anchor scenes where Shellrest Bastion's institutions become visible rather than abstract",
+          "stage public warnings, petitions, disputes, arrivals, or ceremonies",
+          "give characters a concrete place to read power, memory, labor, or obligation",
+          "provide a recognizable return point across chapters and map scenes"
+        ],
+        "assetUse": [
+          "district diorama centerpiece",
+          "map background landmark marker",
+          "board-readable silhouette and navigation cue",
+          "repeatable visual anchor for future city art"
+        ],
+        "sensoryIdentity": [
+          "public foot traffic",
+          "local material textures",
+          "civic lamps or signal light",
+          "voices gathering around its approach",
+          "weather and city smell caught on its surfaces"
+        ],
+        "storyHooks": [
+          "a public decision at Public Works Authority Hall changes how the section moves",
+          "an old inscription, ledger, seal, or ceremonial object at Public Works Authority Hall reveals a civic contradiction",
+          "crowd behavior around Public Works Authority Hall shows whether the city trusts its own institutions"
+        ]
+      },
+      {
+        "name": "Survey Hall",
+        "symbolicRole": "Survey Hall concentrates Shellrest Bastion's civic identity into a usable public symbol. It carries Section 3's Public Works Authority identity.",
+        "visualRole": "A mandatory Section 3 Beacon: a culturally adapted civic signal flame / warning-light landmark visible across the city spine; visually it should read through the city's tortoise-like reptilian folk material language.",
+        "civicRole": "Serves as a major landmark for public orientation, authority, gathering, and district-scale navigation.",
+        "narrativeUse": [
+          "anchor scenes where Shellrest Bastion's institutions become visible rather than abstract",
+          "stage public warnings, petitions, disputes, arrivals, or ceremonies",
+          "give characters a concrete place to read power, memory, labor, or obligation",
+          "provide a recognizable return point across chapters and map scenes"
+        ],
+        "assetUse": [
+          "district diorama centerpiece",
+          "map background landmark marker",
+          "board-readable silhouette and navigation cue",
+          "repeatable visual anchor for future city art"
+        ],
+        "sensoryIdentity": [
+          "public foot traffic",
+          "local material textures",
+          "civic lamps or signal light",
+          "voices gathering around its approach",
+          "weather and city smell caught on its surfaces"
+        ],
+        "storyHooks": [
+          "a public decision at Survey Hall changes how the section moves",
+          "an old inscription, ledger, seal, or ceremonial object at Survey Hall reveals a civic contradiction",
+          "crowd behavior around Survey Hall shows whether the city trusts its own institutions"
+        ]
+      },
+      {
+        "name": "Blue-Lamp Monument",
+        "symbolicRole": "Blue-Lamp Monument concentrates Shellrest Bastion's civic identity into a usable public symbol. It carries Section 3's Public Works Authority identity.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles; visually it should read through the city's tortoise-like reptilian folk material language.",
+        "civicRole": "Serves as a monument for public orientation, authority, gathering, and district-scale navigation.",
+        "narrativeUse": [
+          "anchor scenes where Shellrest Bastion's institutions become visible rather than abstract",
+          "stage public warnings, petitions, disputes, arrivals, or ceremonies",
+          "give characters a concrete place to read power, memory, labor, or obligation",
+          "provide a recognizable return point across chapters and map scenes"
+        ],
+        "assetUse": [
+          "district diorama centerpiece",
+          "map background landmark marker",
+          "board-readable silhouette and navigation cue",
+          "repeatable visual anchor for future city art"
+        ],
+        "sensoryIdentity": [
+          "public foot traffic",
+          "local material textures",
+          "civic lamps or signal light",
+          "voices gathering around its approach",
+          "weather and city smell caught on its surfaces"
+        ],
+        "storyHooks": [
+          "a public decision at Blue-Lamp Monument changes how the section moves",
+          "an old inscription, ledger, seal, or ceremonial object at Blue-Lamp Monument reveals a civic contradiction",
+          "crowd behavior around Blue-Lamp Monument shows whether the city trusts its own institutions"
+        ]
+      },
+      {
+        "name": "Permit Yard Nook",
+        "symbolicRole": "Permit Yard Nook concentrates Shellrest Bastion's civic identity into a usable public symbol. It carries Section 3's Public Works Authority identity.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette; visually it should read through the city's tortoise-like reptilian folk material language.",
+        "civicRole": "Serves as a minor landmark for public orientation, authority, gathering, and district-scale navigation.",
+        "narrativeUse": [
+          "anchor scenes where Shellrest Bastion's institutions become visible rather than abstract",
+          "stage public warnings, petitions, disputes, arrivals, or ceremonies",
+          "give characters a concrete place to read power, memory, labor, or obligation",
+          "provide a recognizable return point across chapters and map scenes"
+        ],
+        "assetUse": [
+          "district diorama centerpiece",
+          "map background landmark marker",
+          "board-readable silhouette and navigation cue",
+          "repeatable visual anchor for future city art"
+        ],
+        "sensoryIdentity": [
+          "public foot traffic",
+          "local material textures",
+          "civic lamps or signal light",
+          "voices gathering around its approach",
+          "weather and city smell caught on its surfaces"
+        ],
+        "storyHooks": [
+          "a public decision at Permit Yard Nook changes how the section moves",
+          "an old inscription, ledger, seal, or ceremonial object at Permit Yard Nook reveals a civic contradiction",
+          "crowd behavior around Permit Yard Nook shows whether the city trusts its own institutions"
+        ]
+      },
+      {
+        "name": "Shrine / Sacred Place Civic Hall",
+        "symbolicRole": "Shrine / Sacred Place Civic Hall concentrates Shellrest Bastion's civic identity into a usable public symbol. It carries Section 4's Shrine / Sacred Place identity.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing; visually it should read through the city's tortoise-like reptilian folk material language.",
+        "civicRole": "Serves as a civic center for public orientation, authority, gathering, and district-scale navigation.",
+        "narrativeUse": [
+          "anchor scenes where Shellrest Bastion's institutions become visible rather than abstract",
+          "stage public warnings, petitions, disputes, arrivals, or ceremonies",
+          "give characters a concrete place to read power, memory, labor, or obligation",
+          "provide a recognizable return point across chapters and map scenes"
+        ],
+        "assetUse": [
+          "district diorama centerpiece",
+          "map background landmark marker",
+          "board-readable silhouette and navigation cue",
+          "repeatable visual anchor for future city art"
+        ],
+        "sensoryIdentity": [
+          "public foot traffic",
+          "local material textures",
+          "civic lamps or signal light",
+          "voices gathering around its approach",
+          "weather and city smell caught on its surfaces"
+        ],
+        "storyHooks": [
+          "a public decision at Shrine / Sacred Place Civic Hall changes how the section moves",
+          "an old inscription, ledger, seal, or ceremonial object at Shrine / Sacred Place Civic Hall reveals a civic contradiction",
+          "crowd behavior around Shrine / Sacred Place Civic Hall shows whether the city trusts its own institutions"
+        ]
+      },
+      {
+        "name": "Roadside Shrine",
+        "symbolicRole": "Roadside Shrine concentrates Shellrest Bastion's civic identity into a usable public symbol. It carries Section 4's Shrine / Sacred Place identity.",
+        "visualRole": "A largest local landmark in this section, subordinate only to the city wonder and citadel; visually it should read through the city's tortoise-like reptilian folk material language.",
+        "civicRole": "Serves as a major landmark for public orientation, authority, gathering, and district-scale navigation.",
+        "narrativeUse": [
+          "anchor scenes where Shellrest Bastion's institutions become visible rather than abstract",
+          "stage public warnings, petitions, disputes, arrivals, or ceremonies",
+          "give characters a concrete place to read power, memory, labor, or obligation",
+          "provide a recognizable return point across chapters and map scenes"
+        ],
+        "assetUse": [
+          "district diorama centerpiece",
+          "map background landmark marker",
+          "board-readable silhouette and navigation cue",
+          "repeatable visual anchor for future city art"
+        ],
+        "sensoryIdentity": [
+          "public foot traffic",
+          "local material textures",
+          "civic lamps or signal light",
+          "voices gathering around its approach",
+          "weather and city smell caught on its surfaces"
+        ],
+        "storyHooks": [
+          "a public decision at Roadside Shrine changes how the section moves",
+          "an old inscription, ledger, seal, or ceremonial object at Roadside Shrine reveals a civic contradiction",
+          "crowd behavior around Roadside Shrine shows whether the city trusts its own institutions"
+        ]
+      },
+      {
+        "name": "Shrine Sacred Place Lantern Monument",
+        "symbolicRole": "Shrine Sacred Place Lantern Monument concentrates Shellrest Bastion's civic identity into a usable public symbol. It carries Section 4's Shrine / Sacred Place identity.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles; visually it should read through the city's tortoise-like reptilian folk material language.",
+        "civicRole": "Serves as a monument for public orientation, authority, gathering, and district-scale navigation.",
+        "narrativeUse": [
+          "anchor scenes where Shellrest Bastion's institutions become visible rather than abstract",
+          "stage public warnings, petitions, disputes, arrivals, or ceremonies",
+          "give characters a concrete place to read power, memory, labor, or obligation",
+          "provide a recognizable return point across chapters and map scenes"
+        ],
+        "assetUse": [
+          "district diorama centerpiece",
+          "map background landmark marker",
+          "board-readable silhouette and navigation cue",
+          "repeatable visual anchor for future city art"
+        ],
+        "sensoryIdentity": [
+          "public foot traffic",
+          "local material textures",
+          "civic lamps or signal light",
+          "voices gathering around its approach",
+          "weather and city smell caught on its surfaces"
+        ],
+        "storyHooks": [
+          "a public decision at Shrine Sacred Place Lantern Monument changes how the section moves",
+          "an old inscription, ledger, seal, or ceremonial object at Shrine Sacred Place Lantern Monument reveals a civic contradiction",
+          "crowd behavior around Shrine Sacred Place Lantern Monument shows whether the city trusts its own institutions"
+        ]
+      },
+      {
+        "name": "Votive Grove Nook",
+        "symbolicRole": "Votive Grove Nook concentrates Shellrest Bastion's civic identity into a usable public symbol. It carries Section 4's Shrine / Sacred Place identity.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette; visually it should read through the city's tortoise-like reptilian folk material language.",
+        "civicRole": "Serves as a minor landmark for public orientation, authority, gathering, and district-scale navigation.",
+        "narrativeUse": [
+          "anchor scenes where Shellrest Bastion's institutions become visible rather than abstract",
+          "stage public warnings, petitions, disputes, arrivals, or ceremonies",
+          "give characters a concrete place to read power, memory, labor, or obligation",
+          "provide a recognizable return point across chapters and map scenes"
+        ],
+        "assetUse": [
+          "district diorama centerpiece",
+          "map background landmark marker",
+          "board-readable silhouette and navigation cue",
+          "repeatable visual anchor for future city art"
+        ],
+        "sensoryIdentity": [
+          "public foot traffic",
+          "local material textures",
+          "civic lamps or signal light",
+          "voices gathering around its approach",
+          "weather and city smell caught on its surfaces"
+        ],
+        "storyHooks": [
+          "a public decision at Votive Grove Nook changes how the section moves",
+          "an old inscription, ledger, seal, or ceremonial object at Votive Grove Nook reveals a civic contradiction",
+          "crowd behavior around Votive Grove Nook shows whether the city trusts its own institutions"
+        ]
+      },
+      {
+        "name": "S5 Harbor Campus",
+        "symbolicRole": "S5 Harbor Campus concentrates Shellrest Bastion's civic identity into a usable public symbol. It carries Section 5's Harbor identity.",
+        "visualRole": "Harbor Campus: authored civic gathering structure for section 5; visually it should read through the city's tortoise-like reptilian folk material language.",
+        "civicRole": "Serves as a civic center for public orientation, authority, gathering, and district-scale navigation.",
+        "narrativeUse": [
+          "anchor scenes where Shellrest Bastion's institutions become visible rather than abstract",
+          "stage public warnings, petitions, disputes, arrivals, or ceremonies",
+          "give characters a concrete place to read power, memory, labor, or obligation",
+          "provide a recognizable return point across chapters and map scenes"
+        ],
+        "assetUse": [
+          "district diorama centerpiece",
+          "map background landmark marker",
+          "board-readable silhouette and navigation cue",
+          "repeatable visual anchor for future city art"
+        ],
+        "sensoryIdentity": [
+          "public foot traffic",
+          "local material textures",
+          "civic lamps or signal light",
+          "voices gathering around its approach",
+          "weather and city smell caught on its surfaces"
+        ],
+        "storyHooks": [
+          "a public decision at S5 Harbor Campus changes how the section moves",
+          "an old inscription, ledger, seal, or ceremonial object at S5 Harbor Campus reveals a civic contradiction",
+          "crowd behavior around S5 Harbor Campus shows whether the city trusts its own institutions"
+        ]
+      },
+      {
+        "name": "Harbor Basilica",
+        "symbolicRole": "Harbor Basilica concentrates Shellrest Bastion's civic identity into a usable public symbol. It carries Section 5's Harbor identity.",
+        "visualRole": "Harbor Basilica: authored non-beacon major landmark for section 5; visually it should read through the city's tortoise-like reptilian folk material language.",
+        "civicRole": "Serves as a major landmark for public orientation, authority, gathering, and district-scale navigation.",
+        "narrativeUse": [
+          "anchor scenes where Shellrest Bastion's institutions become visible rather than abstract",
+          "stage public warnings, petitions, disputes, arrivals, or ceremonies",
+          "give characters a concrete place to read power, memory, labor, or obligation",
+          "provide a recognizable return point across chapters and map scenes"
+        ],
+        "assetUse": [
+          "district diorama centerpiece",
+          "map background landmark marker",
+          "board-readable silhouette and navigation cue",
+          "repeatable visual anchor for future city art"
+        ],
+        "sensoryIdentity": [
+          "public foot traffic",
+          "local material textures",
+          "civic lamps or signal light",
+          "voices gathering around its approach",
+          "weather and city smell caught on its surfaces"
+        ],
+        "storyHooks": [
+          "a public decision at Harbor Basilica changes how the section moves",
+          "an old inscription, ledger, seal, or ceremonial object at Harbor Basilica reveals a civic contradiction",
+          "crowd behavior around Harbor Basilica shows whether the city trusts its own institutions"
+        ]
+      },
+      {
+        "name": "S5 Harbor Arch",
+        "symbolicRole": "S5 Harbor Arch concentrates Shellrest Bastion's civic identity into a usable public symbol. It carries Section 5's Harbor identity.",
+        "visualRole": "Harbor Arch: carved civic memorial on a raised plinth; visually it should read through the city's tortoise-like reptilian folk material language.",
+        "civicRole": "Serves as a monument for public orientation, authority, gathering, and district-scale navigation.",
+        "narrativeUse": [
+          "anchor scenes where Shellrest Bastion's institutions become visible rather than abstract",
+          "stage public warnings, petitions, disputes, arrivals, or ceremonies",
+          "give characters a concrete place to read power, memory, labor, or obligation",
+          "provide a recognizable return point across chapters and map scenes"
+        ],
+        "assetUse": [
+          "district diorama centerpiece",
+          "map background landmark marker",
+          "board-readable silhouette and navigation cue",
+          "repeatable visual anchor for future city art"
+        ],
+        "sensoryIdentity": [
+          "public foot traffic",
+          "local material textures",
+          "civic lamps or signal light",
+          "voices gathering around its approach",
+          "weather and city smell caught on its surfaces"
+        ],
+        "storyHooks": [
+          "a public decision at S5 Harbor Arch changes how the section moves",
+          "an old inscription, ledger, seal, or ceremonial object at S5 Harbor Arch reveals a civic contradiction",
+          "crowd behavior around S5 Harbor Arch shows whether the city trusts its own institutions"
+        ]
+      },
+      {
+        "name": "S5 Harbor Bridgelet",
+        "symbolicRole": "S5 Harbor Bridgelet concentrates Shellrest Bastion's civic identity into a usable public symbol. It carries Section 5's Harbor identity.",
+        "visualRole": "Harbor Bridgelet: compact district landmark; visually it should read through the city's tortoise-like reptilian folk material language.",
+        "civicRole": "Serves as a minor landmark for public orientation, authority, gathering, and district-scale navigation.",
+        "narrativeUse": [
+          "anchor scenes where Shellrest Bastion's institutions become visible rather than abstract",
+          "stage public warnings, petitions, disputes, arrivals, or ceremonies",
+          "give characters a concrete place to read power, memory, labor, or obligation",
+          "provide a recognizable return point across chapters and map scenes"
+        ],
+        "assetUse": [
+          "district diorama centerpiece",
+          "map background landmark marker",
+          "board-readable silhouette and navigation cue",
+          "repeatable visual anchor for future city art"
+        ],
+        "sensoryIdentity": [
+          "public foot traffic",
+          "local material textures",
+          "civic lamps or signal light",
+          "voices gathering around its approach",
+          "weather and city smell caught on its surfaces"
+        ],
+        "storyHooks": [
+          "a public decision at S5 Harbor Bridgelet changes how the section moves",
+          "an old inscription, ledger, seal, or ceremonial object at S5 Harbor Bridgelet reveals a civic contradiction",
+          "crowd behavior around S5 Harbor Bridgelet shows whether the city trusts its own institutions"
+        ]
+      }
+    ]
+  },
+  "assetGuidance": {
+    "districtDioramaGuidance": [
+      "S1 dioramas must read as Necropolis and include source-backed anchors: S1 Necropolis Hall, Necropolis Hall Beacon, S1 Necropolis Pillar, S1 Necropolis Kiosk.",
+      "S2 dioramas must read as Warehousing / Logistics and include source-backed anchors: Warehousing / Logistics Civic Hall, Cargo Yard, Warehousing Logistics Gold-Seal Monument, Inventory Hall Nook.",
+      "S3 dioramas must read as Public Works Authority and include source-backed anchors: Public Works Authority Hall, Survey Hall, Blue-Lamp Monument, Permit Yard Nook.",
+      "S4 dioramas must read as Shrine / Sacred Place and include source-backed anchors: Shrine / Sacred Place Civic Hall, Roadside Shrine, Shrine Sacred Place Lantern Monument, Votive Grove Nook.",
+      "S5 dioramas must read as Harbor and include source-backed anchors: S5 Harbor Campus, Harbor Basilica, S5 Harbor Arch, S5 Harbor Bridgelet."
+    ],
+    "mapBackgroundGuidance": [
+      "Show Shellrest Bastion as a tortoise-like reptilian folk city shaped by Coastal Edge, Seawall Edge, and Harbor Basin and Coast.",
+      "Keep Tortoisefolk Shellwall Bastion of Slow Tides distinct as the skyline wonder, Serpent Scale Bands Tide-Seal Citadel central at D13, and Necropolis Hall Beacon legible as the public signal.",
+      "Arrange the map so the five section identities remain readable: Necropolis, Warehousing / Logistics, Public Works Authority, Shrine / Sacred Place, and Harbor.",
+      "Do not let generic fantasy rooftops replace the named civic anchors.",
+      "Use paths, plazas, courts, water edges, walls, terraces, or arcades to show how citizens move between sections."
+    ],
+    "requiredVisualElements": [
+      "tortoise-like reptilian folk civilians",
+      "Tortoisefolk Shellwall Bastion of Slow Tides",
+      "Necropolis Hall Beacon",
+      "Serpent Scale Bands Tide-Seal Citadel",
+      "Necropolis Hall Beacon",
+      "Cargo Yard",
+      "Survey Hall",
+      "Roadside Shrine",
+      "Harbor Basilica",
+      "Seashell",
+      "Terracotta",
+      "Stone",
+      "Green Marble",
+      "Limestone Blocks",
+      "mourning lamps",
+      "name tablets",
+      "ancestor paths"
+    ],
+    "elementsToAvoid": [
+      "extra top-level schema sections or production notes in the JSON",
+      "generic city views that ignore section identity",
+      "invented landmarks not present in sidecars or established canon",
+      "character-specific details",
+      "labels baked into images",
+      "making the Wonder, Beacon, and Seat interchangeable",
+      "overusing magic effects until practical civic infrastructure disappears"
+    ]
+  }
+}

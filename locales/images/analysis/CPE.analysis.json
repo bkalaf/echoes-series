@@ -4,111 +4,1759 @@
     "analysisVersion": 2,
     "cityCode": "CPE",
     "cityName": "Colossi Prime",
-    "analysisDate": "2026-07-03",
+    "analysisDate": "2026-07-05",
     "analystVersion": "gpt-5.5-thinking",
-    "analysisConfidence": "source-limited",
-    "basedOnImages": ["CPE-HERO-NE-v001", "CPE-HERO-NW-v001", "CPE-HERO-SE-v001", "CPE-HERO-SW-v001", "CPE-STREET-S1-v001", "CPE-STREET-S2-v001", "CPE-STREET-S3-v001", "CPE-STREET-S4-v001"],
-    "basedOnSidecars": ["CPE-HERO-NE-v001.json", "CPE-HERO-NW-v001.json", "CPE-HERO-SE-v001.json", "CPE-HERO-SW-v001.json", "CPE-STREET-S1-v001.json", "CPE-STREET-S2-v001.json", "CPE-STREET-S3-v001.json", "CPE-STREET-S4-v001.json"]
+    "analysisConfidence": "partial-street-lock",
+    "sourceStatus": "source-limited",
+    "districtModel": "five sections; five district slots per section; D13 is the seat of power",
+    "missingStreetSections": [
+      5
+    ],
+    "basedOnImages": [
+      "CPE-HERO-NE-v001",
+      "CPE-HERO-NW-v001",
+      "CPE-HERO-SE-v001",
+      "CPE-HERO-SW-v001",
+      "CPE-STREET-S1-v001",
+      "CPE-STREET-S2-v001",
+      "CPE-STREET-S3-v001",
+      "CPE-STREET-S4-v001"
+    ],
+    "basedOnSidecars": [
+      "CPE-HERO-NE-v001.json",
+      "CPE-HERO-NW-v001.json",
+      "CPE-HERO-SE-v001.json",
+      "CPE-HERO-SW-v001.json",
+      "CPE-STREET-S1-v001.json",
+      "CPE-STREET-S2-v001.json",
+      "CPE-STREET-S3-v001.json",
+      "CPE-STREET-S4-v001.json"
+    ],
+    "sourceLimitations": [
+      "Street source for Section 5 is missing; preserve hero-visible anchors only and do not invent missing section anchors."
+    ]
   },
   "cityDNA": {
-    "coreFantasy": "A titanborn mountain civilization where border walls, manor terraces, archive towers, training arenas, observatories, memory tablets, and titan-hand steps make scale into public law.",
-    "primaryEmotion": "awe under discipline",
-    "secondaryEmotion": "colossal civic memory",
-    "readerTakeaway": "Colossi Prime is not merely oversized; the uploaded images show scale translated into institutions, terraces, archives, high residences, training grounds, and public memory.",
-    "civilizationThesis": "Colossi Prime turns mountain mass, titanborn bodies, public inscriptions, guarded thresholds, elite terraces, archives, training, and stone-giant memory into visible civic order.",
-    "visualIdentity": "Granite, bronze, cast iron, blue granite, arcane glow, cyclopean steps, memory tablet walls, border beacons, manor courts, archive towers, woven banners, champion gates, and cliffside terraces.",
-    "culturalIdentity": "Titanborn civic culture where endurance, memory, rank, training, border defense, and public inscription define legitimacy.",
-    "symbolicIdentity": "Titan hands, colossus steps, memory tablets, border lamps, blue order sigils, carved totems, manor terraces, star observatories, and champion gates symbolize law made massive."
+    "coreFantasy": "A titanborn city where Titan Hand Terrace of the Colossus Steps, Border Wall Beacon, Memory Tablet Walls Colossus Registry, and the five-section district spine turn local identity into functional civic space.",
+    "primaryEmotion": "source-backed civic presence",
+    "secondaryEmotion": "lived-in pressure beneath landmark order",
+    "readerTakeaway": "Colossi Prime should feel immediately identifiable through exact landmarks and materials, not through generic fantasy-city shorthand.",
+    "civilizationThesis": "Colossi Prime organizes power through Memory Tablet Walls Colossus Registry, public response through Border Wall Beacon, civic memory through Titan Hand Terrace of the Colossus Steps, and daily life through S1 Fortress / Border Wall Civic Hall, S2 High Residential Civic Hall, S3 Records / Archives Hall, S4 Arena / Training Civic Hall, S5 Star Observatory.",
+    "visualIdentity": "Granite, Bronze, Cast Iron, Arcane Glow, Blue Granite, Cliffside, Terraced Slope, Civic Terraces, Ward Networks, Ritual Geometry, Stone Giant Memory, and exact anchors including Memory Tablet Walls Colossus Registry, Border Wall Beacon, Titan Hand Terrace of the Colossus Steps, Star Observatory, Manor Court, Training Arena, Fortress / Border Wall Civic Hall, Woven Banners Monument, Watch Bastion Nook, High Residential Civic Hall.",
+    "culturalIdentity": "A titanborn civic culture where architecture, public obligations, roads, landmark approaches, and everyday work must all read as part of the same civilization.",
+    "symbolicIdentity": "The city symbol system is built from exact names and visible functions: Titan Hand Terrace of the Colossus Steps, Border Wall Beacon, Memory Tablet Walls Colossus Registry, and section anchors such as Fortress / Border Wall Civic Hall, High Residential Civic Hall, Records / Archives Hall, Arena / Training Civic Hall, Star Observatory."
   },
   "canon": {
     "canonLocks": [
-      "Colossi Prime is a mature titanborn cliff-terrace civilization, not merely oversized architecture.",
+      "Colossi Prime uses city code CPE.",
       "The Wonder is Titan Hand Terrace of the Colossus Steps.",
       "The Beacon is Border Wall Beacon.",
-      "The Seat of Power is Memory Tablet Walls Colossus Registry.",
-      "The uploaded street sources cover four districts: Fortress / Border Wall, High Residential, Records / Archives, and Arena / Training.",
-      "Exact uploaded anchors include Fortress / Border Wall Civic Hall, Border Wall Beacon, Woven Banners Monument, Watch Bastion Nook, High Residential Civic Hall, Manor Court, Hanging Gardens Monument, Salon Pavilion Nook, Records / Archives Hall, Archive Tower, Records Archives Gold-Seal Monument, Copyist Hall Nook, Arena / Training Civic Hall, Training Arena, Woven Banners Monument, and Champion Gate Nook.",
-      "CPE-STREET-S5 image and sidecar are missing from this upload; hero sidecars show Star Observatory as a secondary major landmark, but exact S5 civic hall / monument / nook anchors are not locked from this batch."
+      "The Seat of Power is Memory Tablet Walls Colossus Registry and occupies District 13.",
+      "The city uses five sections with five tactical district slots per section.",
+      "The source-backed section spine is: S1 Fortress / Border Wall Civic Hall, S2 High Residential Civic Hall, S3 Records / Archives Hall, S4 Arena / Training Civic Hall, S5 Star Observatory.",
+      "Preserve exact anchor name: Memory Tablet Walls Colossus Registry.",
+      "Preserve exact anchor name: Border Wall Beacon.",
+      "Preserve exact anchor name: Titan Hand Terrace of the Colossus Steps.",
+      "Preserve exact anchor name: Star Observatory.",
+      "Preserve exact anchor name: Manor Court.",
+      "Preserve exact anchor name: Training Arena.",
+      "Preserve exact anchor name: Fortress / Border Wall Civic Hall.",
+      "Preserve exact anchor name: Woven Banners Monument.",
+      "Preserve exact anchor name: Watch Bastion Nook.",
+      "Preserve exact anchor name: High Residential Civic Hall.",
+      "Preserve exact anchor name: Hanging Gardens Monument.",
+      "Preserve exact anchor name: Salon Pavilion Nook.",
+      "Preserve exact anchor name: Records / Archives Hall.",
+      "Preserve exact anchor name: Archive Tower.",
+      "Preserve exact anchor name: Records Archives Gold-Seal Monument.",
+      "Preserve exact anchor name: Copyist Hall Nook.",
+      "Preserve exact anchor name: Arena / Training Civic Hall.",
+      "Preserve exact anchor name: Champion Gate Nook."
     ],
-    "provisionalCanon": ["Colossi Prime's strongest civic read is awe under discipline shaped into institutions.", "Star Observatory appears as hero-source evidence for a likely fifth district, but without S5 street source it must remain source-limited."],
-    "rejectedReads": ["generic giant city", "mere oversized buildings", "titanborn spectacle without archives, borders, residences, and training systems", "invented S5 anchors"],
-    "cautionFlags": ["Missing CPE S5 source: do not invent exact S5 civic hall, monument, or nook anchors.", "Keep titan scale tied to memory, law, border defense, high residential status, archives, and training.", "Preserve exact uploaded sidecar anchor names."
+    "provisionalCanon": [
+      "Sections 5 are source-limited at street level; only hero-visible or package-backed anchors should be treated as safe."
+    ],
+    "rejectedReads": [
+      "Do not treat Colossi Prime as a generic fantasy settlement with renamed landmarks.",
+      "Do not collapse the five-section board into a single mood or single district.",
+      "Do not replace exact anchor names with generic summaries.",
+      "Do not invent missing street-section landmarks when a street source is absent."
+    ],
+    "cautionFlags": [
+      "Keep every named Wonder, Beacon, Seat, section civic hall, major landmark, monument, and minor nook exact when present in sidecars.",
+      "If an image appears to deviate from a sidecar, preserve the exact name but avoid overclaiming visual details not supported by the source package.",
+      "Every district asset should remain usable for narrative scenes, tactical board dioramas, and city map backgrounds."
     ]
   },
   "environment": {
-    "terrain": ["Cliffside", "Terraced Slope", "Civic Terraces", "cyclopean stairs", "border approaches", "high residential terraces", "training grounds"],
-    "water": ["dry city ground", "ritual basins", "terrace cisterns", "rain runoff channels"],
-    "vegetation": ["hanging gardens", "terrace plantings", "cliffside shrubs", "manor court greenery"],
-    "climateLighting": ["high-altitude daylight", "civic blue glow", "arcane ward light", "stone-shadow contrast", "bronze sunset reflection"],
-    "environmentalLogic": "Mountain scale is civic infrastructure: roads, stairs, walls, terraces, archives, and training arenas turn titanborn bodies into public spatial grammar."
+    "terrain": [
+      "Cliffside",
+      "Terraced Slope",
+      "Civic Terraces"
+    ],
+    "water": [
+      "dry city ground"
+    ],
+    "vegetation": [
+      "courtyard trees",
+      "balcony planters",
+      "public greenery where visible",
+      "source-backed local vegetation only"
+    ],
+    "climateLighting": [
+      "Ward Networks",
+      "Ritual Geometry",
+      "Stone Giant Memory",
+      "daylight",
+      "golden hour",
+      "lantern light",
+      "civic beacon glow"
+    ],
+    "environmentalLogic": "The environment should make Colossi Prime's exact civic anchors plausible at street scale: terrain routes people toward section landmarks, lighting clarifies public authority, and water or landscape features remain source-backed rather than decorative filler."
   },
   "architecture": {
-    "materials": ["Granite", "Bronze", "Cast Iron", "Arcane Glow", "Blue Granite"],
-    "forms": ["Titan Hand Terrace of the Colossus Steps", "Memory Tablet Walls Colossus Registry", "Border Wall Beacon", "Fortress / Border Wall Civic Hall", "Manor Court", "Archive Tower", "Training Arena", "Star Observatory", "Watch Bastion Nook", "Salon Pavilion Nook", "Copyist Hall Nook", "Champion Gate Nook"],
-    "skyline": ["Titan Hand Terrace of the Colossus Steps as far wonder anchor", "Memory Tablet Walls Colossus Registry as central authority", "Border Wall Beacon as signal landmark", "archive towers, manor courts, training arenas, and hero-view Star Observatory arranged across colossal terraces"],
-    "lighting": ["civic blue order sigils", "arcane ward glow", "bronze-lit sunset", "cold granite daylight", "archive lamp light"],
-    "infrastructure": ["border walls", "watch bastions", "manor terraces", "hanging gardens", "archive stairs", "copyist halls", "training arenas", "champion gates", "memory tablet plazas"],
-    "motifs": ["titan hands", "colossus steps", "memory tablets", "carved totems", "woven banners", "blue order sigils", "champion gates", "star observatory instruments"],
-    "colorLanguage": ["granite gray", "blue granite", "bronze gold", "cast-iron dark", "civic blue", "terrace green"],
-    "textureLanguage": ["cyclopean stone", "cast iron bands", "bronze fittings", "inscribed tablets", "weathered steps", "arcane-lit seams"]
+    "materials": [
+      "Granite",
+      "Bronze",
+      "Cast Iron",
+      "Arcane Glow",
+      "Blue Granite"
+    ],
+    "forms": [
+      "Memory Tablet Walls Colossus Registry",
+      "Border Wall Beacon",
+      "Titan Hand Terrace of the Colossus Steps",
+      "Star Observatory",
+      "Manor Court",
+      "Training Arena",
+      "Fortress / Border Wall Civic Hall",
+      "Woven Banners Monument",
+      "Watch Bastion Nook",
+      "High Residential Civic Hall",
+      "Hanging Gardens Monument",
+      "Salon Pavilion Nook",
+      "Records / Archives Hall",
+      "Archive Tower",
+      "Records Archives Gold-Seal Monument",
+      "Copyist Hall Nook",
+      "Arena / Training Civic Hall",
+      "Champion Gate Nook",
+      "section civic halls",
+      "major landmark approaches",
+      "monument frontages",
+      "minor landmark nooks",
+      "district roads and plazas",
+      "D13 authority complex"
+    ],
+    "skyline": [
+      "Titan Hand Terrace of the Colossus Steps",
+      "Memory Tablet Walls Colossus Registry",
+      "Border Wall Beacon",
+      "Star Observatory",
+      "Manor Court",
+      "Training Arena",
+      "Fortress / Border Wall Civic Hall",
+      "Woven Banners Monument",
+      "Watch Bastion Nook"
+    ],
+    "lighting": [
+      "Ward Networks",
+      "Ritual Geometry",
+      "Stone Giant Memory",
+      "beacon-state light",
+      "lantern-lit civic paths",
+      "street-level shop and housing light"
+    ],
+    "infrastructure": [
+      "Fortress / Border Wall Civic Hall",
+      "High Residential Civic Hall",
+      "Records / Archives Hall",
+      "Arena / Training Civic Hall",
+      "Star Observatory",
+      "roads between district slots",
+      "public thresholds",
+      "plaza edges",
+      "records, permits, markets, services, or rituals implied by anchors"
+    ],
+    "motifs": [
+      "Memory",
+      "Tablet",
+      "Walls",
+      "Colossus",
+      "Registry",
+      "Border",
+      "Wall",
+      "Beacon",
+      "Titan",
+      "Hand",
+      "Terrace",
+      "Steps",
+      "Star",
+      "Observatory",
+      "Manor"
+    ],
+    "colorLanguage": [
+      "source-backed material colors",
+      "civic blue signal accents",
+      "local textile, stone, metal, vegetation, or water colors from the image package"
+    ],
+    "textureLanguage": [
+      "Granite",
+      "Bronze",
+      "Cast Iron",
+      "Arcane Glow",
+      "Blue Granite",
+      "worn pedestrian surfaces",
+      "worked civic ornament",
+      "weathered public thresholds",
+      "lived-in shop and housing details"
+    ]
   },
   "civilization": {
-    "people": "Titanborn citizens are shown as civic actors whose size is normalized by architecture: they pass through huge gates, courts, archives, terraces, and training grounds built to make scale accountable.",
-    "occupations": ["border guards", "watch bastion crews", "registry officials", "memory tablet carvers", "copyists", "manor stewards", "arena trainers", "champions", "ward engineers", "observatory attendants"],
-    "socialClasses": ["Colossus Registry officials", "border houses", "high residential families", "archive keepers", "arena champions", "training households", "terrace laborers"],
-    "governance": "Memory Tablet Walls Colossus Registry governs through public inscriptions, sealed archives, audience terraces, command platforms, border rulings, residence status, and training obligations.",
-    "religion": "Stone-giant memory, titan-hand steps, ward networks, ritual geometry, carved totems, and public endurance rites make scale sacred-adjacent.",
-    "customs": ["memory tablet naming", "border watch rotation", "manor court petitioning", "copyist witness", "champion gate trials", "titan-step ceremonies"],
-    "bodyLanguage": ["slow massive movement", "formal weight placement", "tablet-touch gestures", "protective stance at gates", "measured arena posture"],
-    "speechPatterns": ["memory formulas", "registry titles", "border commands", "high-residential honor phrases", "training rank language"]
+    "people": "The population should read as titanborn and city-specific: citizens occupy streets, shops, public thresholds, and landmark approaches as people who understand the local civic order.",
+    "occupations": [
+      "watch guards",
+      "gate officers",
+      "granary keepers",
+      "field workers",
+      "astronomers",
+      "navigators",
+      "archivists",
+      "record clerks",
+      "district clerks",
+      "craft families",
+      "porters",
+      "maintenance workers",
+      "food sellers",
+      "messengers"
+    ],
+    "socialClasses": [
+      "D13 officials and court staff",
+      "section landmark custodians",
+      "guild and service families",
+      "shopkeepers and artisans",
+      "laborers, carriers, messengers, and maintenance crews",
+      "households tied to local district obligations"
+    ],
+    "governance": "Government is centered on Memory Tablet Walls Colossus Registry. Its authority should be visible through courts, records, public access routes, civic lamps, guards or attendants, and the way citizens respond to D13.",
+    "religion": "Religious or ritual life should only be emphasized where source anchors support it, especially names such as none explicitly dominant in the current anchors.",
+    "customs": [
+      "citizens orient public life around Fortress / Border Wall Civic Hall in Section 1",
+      "citizens orient public life around High Residential Civic Hall in Section 2",
+      "citizens orient public life around Records / Archives Hall in Section 3",
+      "citizens orient public life around Arena / Training Civic Hall in Section 4",
+      "citizens orient public life around Star Observatory in Section 5",
+      "beacon changes become public behavior, not background color",
+      "exact landmark names carry social memory and directions",
+      "civic errands happen visibly at thresholds, queues, ledgers, stalls, courts, or shrines"
+    ],
+    "bodyLanguage": [
+      "citizens pause at civic signals",
+      "workers move with practiced familiarity around district anchors",
+      "officials use thresholds and raised places to control attention",
+      "residents treat named landmarks as everyday orientation points"
+    ],
+    "speechPatterns": [
+      "directions use exact landmark names",
+      "public notices are tied to section anchors",
+      "local speech distinguishes civic authority, ordinary errands, and landmark obligations",
+      "people refer to D13 as the seat of power rather than a faction headquarters"
+    ]
   },
   "urbanLife": {
     "streets": {
-      "appearance": "Colossal stone streets, terrace stairs, blue ward lamps, border walls, manor courts, archive towers, memory tablets, and arena grounds make every route feel public and load-bearing.",
-      "movement": "Movement follows titan-scale stairs, wall roads, high residential terraces, archive approaches, arena routes, and broad public plazas.",
-      "sounds": ["heavy footsteps", "wind over terraces", "stone echoes", "banner cloth", "copyist tools", "arena impacts"],
-      "smells": ["cold granite", "bronze oil", "rain on stone", "lamp smoke", "terrace greenery"],
-      "lighting": "Civic blue ward light and bronze reflection emphasize scale, inscriptions, and public thresholds.",
-      "weatherEffects": "Wind, high sun, rain streaks, and cliff fog make stairs, walls, and signal lights essential.",
-      "dayCycle": "Border checks, court petitions, archives, manor business, and training dominate daytime.",
-      "nightCycle": "Blue ward lamps, guarded walls, archive windows, and arena torches dominate night."
+      "appearance": "Streets should show Colossi Prime's exact anchor system at pedestrian scale: S1 Fortress / Border Wall Civic Hall, S2 High Residential Civic Hall, S3 Records / Archives Hall, S4 Arena / Training Civic Hall, S5 Star Observatory. Keep roads, plazas, stairs, thresholds, lamps, signs-without-readable-text, props, and civilians aligned to the source-backed materials and landmarks.",
+      "movement": "Movement should be readable for tactical-board assets: citizens pass between 25 district slots, section anchors, D13, service streets, and landmark approaches without visual clutter hiding the civic purpose.",
+      "sounds": [
+        "foot traffic",
+        "vendors and service calls",
+        "tools and carts",
+        "public notices",
+        "landmark-specific sounds from water, bells, animals, machines, or crowds when source-backed",
+        "beacon-state crowd reactions"
+      ],
+      "smells": [
+        "street food",
+        "worked material dust",
+        "lamp oil or smoke",
+        "vegetation or water where source-backed",
+        "worn stone, timber, metal, plaster, or fabric"
+      ],
+      "lighting": "Use the package's source-backed civic lighting, daylight/golden-hour reads, lanterns, and beacon glow. Lighting must help identify authority, safety, and landmark function.",
+      "weatherEffects": "Weather should reinforce the local terrain and materials without overwhelming the city identity or inventing unsupported climate extremes.",
+      "dayCycle": "Day scenes emphasize errands, trade, records, repairs, rituals, food, and section-level movement.",
+      "nightCycle": "Night scenes emphasize lantern routes, closed thresholds, guarded landmarks, quiet work, and beacon visibility."
     },
     "shops": {
-      "common": ["stone tool sellers", "banner weavers", "bronze repair stalls", "terrace food vendors"],
-      "uncommon": ["memory tablet carvers", "ward-sigil masons", "scale-fitters", "arena gear makers"],
-      "prestigious": ["Colossus Registry offices", "high residential patron halls", "archive legal counters", "champion gate suppliers"],
-      "exports": ["stonework", "bronze fittings", "warded engineering", "memory tablets", "training expertise"],
-      "imports": ["grain", "timber", "fine cloth", "ink", "rare metals"],
-      "streetFood": ["thick bread", "roasted roots", "stew bowls", "terrace tea"],
-      "services": ["registry inscription", "border filing", "copying records", "ward repair", "arena training", "manor petitioning"]
+      "common": [
+        "food stalls",
+        "repair stalls",
+        "material vendors",
+        "ledger or permit desks",
+        "local craft counters",
+        "street services tied to section anchors"
+      ],
+      "uncommon": [
+        "specialist landmark caretakers",
+        "instrument makers",
+        "ritual suppliers",
+        "map or record copyists",
+        "district-specific guild services"
+      ],
+      "prestigious": [
+        "D13-facing legal or registry services",
+        "elite craft workshops",
+        "landmark commission houses",
+        "official suppliers for civic ceremonies"
+      ],
+      "exports": [
+        "local crafts",
+        "records or seals",
+        "finished materials",
+        "food goods",
+        "specialized tools or ritual goods as supported by anchors"
+      ],
+      "imports": [
+        "rare materials",
+        "dyes, oils, spices, timber, stone, metal, glass, or cloth as needed by the architecture",
+        "outside records and trade goods"
+      ],
+      "streetFood": [
+        "flatbread or local bread",
+        "stew or grilled skewers",
+        "fruit or preserved food",
+        "tea or civic-square drinks",
+        "portable worker meals"
+      ],
+      "services": [
+        "directions by landmark",
+        "message running",
+        "permit help",
+        "repairs",
+        "food service",
+        "transport or porterage",
+        "public notice posting"
+      ]
     },
     "housing": {
-      "wealthy": "High residential manor courts with hanging gardens, monumental balconies, bronze fittings, and private terrace access.",
-      "middle": "Archive, border, and training-family homes built into terraces with large halls and shared stone courts.",
-      "poor": "Service terraces and worker housing along lower stairs, with shared water, heavy doors, and practical access to public routes."
+      "wealthy": "Prestige housing clusters near Memory Tablet Walls Colossus Registry, high terraces, or landmark-facing routes, using the best source-backed materials and controlled views of civic space.",
+      "middle": "Shop-over-house units, courtyard homes, guild-adjacent apartments, and family rooms near section anchors.",
+      "poor": "Smaller back-street rooms, work-adjacent housing, shared courtyards, service alleys, patched materials, and dense but still city-specific lived-in detail."
     }
   },
   "districts": [
-    {"sectionNumber": 1, "name": "Fortress / Border Wall", "civicPurpose": "Access control, public signal, frontier defense, and threshold law.", "visualIdentity": "Fortress / Border Wall Civic Hall, Border Wall Beacon, Woven Banners Monument, Watch Bastion Nook.", "emotionalIdentity": "guarded, immense, formal", "gameplayAssetNeeds": ["Fortress / Border Wall Civic Hall", "Border Wall Beacon", "Woven Banners Monument", "Watch Bastion Nook"], "narrativeUse": ["Beacon warning", "gate closure", "border ruling"], "landmark": "Border Wall Beacon", "minorLandmarks": ["Woven Banners Monument", "Watch Bastion Nook"]},
-    {"sectionNumber": 2, "name": "High Residential", "civicPurpose": "Status display, manor influence, gardened elite life, and public-facing hospitality.", "visualIdentity": "High Residential Civic Hall, Manor Court, Hanging Gardens Monument, Salon Pavilion Nook.", "emotionalIdentity": "elevated, refined, socially heavy", "gameplayAssetNeeds": ["High Residential Civic Hall", "Manor Court", "Hanging Gardens Monument", "Salon Pavilion Nook"], "narrativeUse": ["manor negotiation", "class pressure", "private petition"], "landmark": "Manor Court", "minorLandmarks": ["Hanging Gardens Monument", "Salon Pavilion Nook"]},
-    {"sectionNumber": 3, "name": "Records / Archives", "civicPurpose": "Public memory, legal continuity, copied truth, and record authority.", "visualIdentity": "Records / Archives Hall, Archive Tower, Records Archives Gold-Seal Monument, Copyist Hall Nook.", "emotionalIdentity": "solemn, massive, exact", "gameplayAssetNeeds": ["Records / Archives Hall", "Archive Tower", "Records Archives Gold-Seal Monument", "Copyist Hall Nook"], "narrativeUse": ["record clue", "memory dispute", "registry contradiction"], "landmark": "Archive Tower", "minorLandmarks": ["Records Archives Gold-Seal Monument", "Copyist Hall Nook"]},
-    {"sectionNumber": 4, "name": "Arena / Training", "civicPurpose": "Disciplined strength, public testing, champion recognition, and readiness.", "visualIdentity": "Arena / Training Civic Hall, Training Arena, Woven Banners Monument, Champion Gate Nook.", "emotionalIdentity": "forceful, public, disciplined", "gameplayAssetNeeds": ["Arena / Training Civic Hall", "Training Arena", "Woven Banners Monument", "Champion Gate Nook"], "narrativeUse": ["public test", "training scene", "champion rite"], "landmark": "Training Arena", "minorLandmarks": ["Woven Banners Monument", "Champion Gate Nook"]}
+    {
+      "districtNumber": 1,
+      "districtId": "D01",
+      "sectionNumber": 1,
+      "name": "D01 — Fortress / Border Wall Civic Hall Civic-Anchor Precinct",
+      "civicPurpose": "This district turns Section 1's source-backed anchor set into a board-scale civic space: Fortress / Border Wall Civic Hall, Border Wall Beacon, Woven Banners Monument, Watch Bastion Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Colossi Prime.",
+      "visualIdentity": "Use Fortress / Border Wall Civic Hall as the main read. Keep exact source anchors visible where applicable: Fortress / Border Wall Civic Hall, Border Wall Beacon, Woven Banners Monument, Watch Bastion Nook. The district should share Colossi Prime's titanborn identity, Granite, Bronze, Cast Iron, Arcane Glow, and Cliffside, Terraced Slope, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Locally grounded, with Colossi Prime's larger mood shaped by Titan Hand Terrace of the Colossus Steps, Border Wall Beacon, and Memory Tablet Walls Colossus Registry.",
+      "gameplayAssetNeeds": [
+        "Fortress / Border Wall Civic Hall",
+        "Border Wall Beacon",
+        "Woven Banners Monument",
+        "Watch Bastion Nook",
+        "Section 1 pedestrian-scale props",
+        "Colossi Prime civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Fortress / Border Wall Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Fortress / Border Wall Civic Hall",
+      "minorLandmarks": [
+        "Border Wall Beacon",
+        "Woven Banners Monument",
+        "Watch Bastion Nook"
+      ]
+    },
+    {
+      "districtNumber": 2,
+      "districtId": "D02",
+      "sectionNumber": 1,
+      "name": "D02 — Border Wall Beacon Landmark Approach",
+      "civicPurpose": "This district turns Section 1's source-backed anchor set into a board-scale civic space: Fortress / Border Wall Civic Hall, Border Wall Beacon, Woven Banners Monument, Watch Bastion Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Colossi Prime.",
+      "visualIdentity": "Use Border Wall Beacon as the main read. Keep exact source anchors visible where applicable: Fortress / Border Wall Civic Hall, Border Wall Beacon, Woven Banners Monument, Watch Bastion Nook. The district should share Colossi Prime's titanborn identity, Granite, Bronze, Cast Iron, Arcane Glow, and Cliffside, Terraced Slope, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Public-facing, with Colossi Prime's larger mood shaped by Titan Hand Terrace of the Colossus Steps, Border Wall Beacon, and Memory Tablet Walls Colossus Registry.",
+      "gameplayAssetNeeds": [
+        "Border Wall Beacon",
+        "Fortress / Border Wall Civic Hall",
+        "Woven Banners Monument",
+        "Watch Bastion Nook",
+        "Section 1 pedestrian-scale props",
+        "Colossi Prime civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Border Wall Beacon",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "Conjunction response, rumor spread, or authority pressure"
+      ],
+      "landmark": "Border Wall Beacon",
+      "minorLandmarks": [
+        "Fortress / Border Wall Civic Hall",
+        "Woven Banners Monument",
+        "Watch Bastion Nook"
+      ]
+    },
+    {
+      "districtNumber": 3,
+      "districtId": "D03",
+      "sectionNumber": 1,
+      "name": "D03 — Woven Banners Monument Monument Frontage",
+      "civicPurpose": "This district turns Section 1's source-backed anchor set into a board-scale civic space: Fortress / Border Wall Civic Hall, Border Wall Beacon, Woven Banners Monument, Watch Bastion Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Colossi Prime.",
+      "visualIdentity": "Use Woven Banners Monument as the main read. Keep exact source anchors visible where applicable: Fortress / Border Wall Civic Hall, Border Wall Beacon, Woven Banners Monument, Watch Bastion Nook. The district should share Colossi Prime's titanborn identity, Granite, Bronze, Cast Iron, Arcane Glow, and Cliffside, Terraced Slope, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Memorial or symbolic, with Colossi Prime's larger mood shaped by Titan Hand Terrace of the Colossus Steps, Border Wall Beacon, and Memory Tablet Walls Colossus Registry.",
+      "gameplayAssetNeeds": [
+        "Woven Banners Monument",
+        "Fortress / Border Wall Civic Hall",
+        "Border Wall Beacon",
+        "Watch Bastion Nook",
+        "Section 1 pedestrian-scale props",
+        "Colossi Prime civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Woven Banners Monument",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Woven Banners Monument",
+      "minorLandmarks": [
+        "Fortress / Border Wall Civic Hall",
+        "Border Wall Beacon",
+        "Watch Bastion Nook"
+      ]
+    },
+    {
+      "districtNumber": 6,
+      "districtId": "D06",
+      "sectionNumber": 1,
+      "name": "D06 — Watch Bastion Nook Neighborhood Nook",
+      "civicPurpose": "This district turns Section 1's source-backed anchor set into a board-scale civic space: Fortress / Border Wall Civic Hall, Border Wall Beacon, Woven Banners Monument, Watch Bastion Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Colossi Prime.",
+      "visualIdentity": "Use Watch Bastion Nook as the main read. Keep exact source anchors visible where applicable: Fortress / Border Wall Civic Hall, Border Wall Beacon, Woven Banners Monument, Watch Bastion Nook. The district should share Colossi Prime's titanborn identity, Granite, Bronze, Cast Iron, Arcane Glow, and Cliffside, Terraced Slope, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Intimate and lived-in, with Colossi Prime's larger mood shaped by Titan Hand Terrace of the Colossus Steps, Border Wall Beacon, and Memory Tablet Walls Colossus Registry.",
+      "gameplayAssetNeeds": [
+        "Watch Bastion Nook",
+        "Fortress / Border Wall Civic Hall",
+        "Border Wall Beacon",
+        "Woven Banners Monument",
+        "Section 1 pedestrian-scale props",
+        "Colossi Prime civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Watch Bastion Nook",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Watch Bastion Nook",
+      "minorLandmarks": [
+        "Fortress / Border Wall Civic Hall",
+        "Border Wall Beacon",
+        "Woven Banners Monument"
+      ]
+    },
+    {
+      "districtNumber": 7,
+      "districtId": "D07",
+      "sectionNumber": 1,
+      "name": "D07 — Fortress / Border Wall Civic Hall Supporting Streets",
+      "civicPurpose": "This district turns Section 1's source-backed anchor set into a board-scale civic space: Fortress / Border Wall Civic Hall, Border Wall Beacon, Woven Banners Monument, Watch Bastion Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Colossi Prime.",
+      "visualIdentity": "Use Fortress / Border Wall Civic Hall as the main read. Keep exact source anchors visible where applicable: Fortress / Border Wall Civic Hall, Border Wall Beacon, Woven Banners Monument, Watch Bastion Nook. The district should share Colossi Prime's titanborn identity, Granite, Bronze, Cast Iron, Arcane Glow, and Cliffside, Terraced Slope, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Connective and practical, with Colossi Prime's larger mood shaped by Titan Hand Terrace of the Colossus Steps, Border Wall Beacon, and Memory Tablet Walls Colossus Registry.",
+      "gameplayAssetNeeds": [
+        "Fortress / Border Wall Civic Hall",
+        "Border Wall Beacon",
+        "Woven Banners Monument",
+        "Watch Bastion Nook",
+        "Section 1 pedestrian-scale props",
+        "Colossi Prime civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Fortress / Border Wall Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Fortress / Border Wall Civic Hall",
+      "minorLandmarks": [
+        "Border Wall Beacon",
+        "Woven Banners Monument",
+        "Watch Bastion Nook"
+      ]
+    },
+    {
+      "districtNumber": 4,
+      "districtId": "D04",
+      "sectionNumber": 2,
+      "name": "D04 — High Residential Civic Hall Civic-Anchor Precinct",
+      "civicPurpose": "This district turns Section 2's source-backed anchor set into a board-scale civic space: High Residential Civic Hall, Manor Court, Hanging Gardens Monument, Salon Pavilion Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Colossi Prime.",
+      "visualIdentity": "Use High Residential Civic Hall as the main read. Keep exact source anchors visible where applicable: High Residential Civic Hall, Manor Court, Hanging Gardens Monument, Salon Pavilion Nook. The district should share Colossi Prime's titanborn identity, Granite, Bronze, Cast Iron, Arcane Glow, and Cliffside, Terraced Slope, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Locally grounded, with Colossi Prime's larger mood shaped by Titan Hand Terrace of the Colossus Steps, Border Wall Beacon, and Memory Tablet Walls Colossus Registry.",
+      "gameplayAssetNeeds": [
+        "High Residential Civic Hall",
+        "Manor Court",
+        "Hanging Gardens Monument",
+        "Salon Pavilion Nook",
+        "Section 2 pedestrian-scale props",
+        "Colossi Prime civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on High Residential Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "High Residential Civic Hall",
+      "minorLandmarks": [
+        "Manor Court",
+        "Hanging Gardens Monument",
+        "Salon Pavilion Nook"
+      ]
+    },
+    {
+      "districtNumber": 5,
+      "districtId": "D05",
+      "sectionNumber": 2,
+      "name": "D05 — Manor Court Landmark Approach",
+      "civicPurpose": "This district turns Section 2's source-backed anchor set into a board-scale civic space: High Residential Civic Hall, Manor Court, Hanging Gardens Monument, Salon Pavilion Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Colossi Prime.",
+      "visualIdentity": "Use Manor Court as the main read. Keep exact source anchors visible where applicable: High Residential Civic Hall, Manor Court, Hanging Gardens Monument, Salon Pavilion Nook. The district should share Colossi Prime's titanborn identity, Granite, Bronze, Cast Iron, Arcane Glow, and Cliffside, Terraced Slope, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Public-facing, with Colossi Prime's larger mood shaped by Titan Hand Terrace of the Colossus Steps, Border Wall Beacon, and Memory Tablet Walls Colossus Registry.",
+      "gameplayAssetNeeds": [
+        "Manor Court",
+        "High Residential Civic Hall",
+        "Hanging Gardens Monument",
+        "Salon Pavilion Nook",
+        "Section 2 pedestrian-scale props",
+        "Colossi Prime civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Manor Court",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Manor Court",
+      "minorLandmarks": [
+        "High Residential Civic Hall",
+        "Hanging Gardens Monument",
+        "Salon Pavilion Nook"
+      ]
+    },
+    {
+      "districtNumber": 9,
+      "districtId": "D09",
+      "sectionNumber": 2,
+      "name": "D09 — Hanging Gardens Monument Monument Frontage",
+      "civicPurpose": "This district turns Section 2's source-backed anchor set into a board-scale civic space: High Residential Civic Hall, Manor Court, Hanging Gardens Monument, Salon Pavilion Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Colossi Prime.",
+      "visualIdentity": "Use Hanging Gardens Monument as the main read. Keep exact source anchors visible where applicable: High Residential Civic Hall, Manor Court, Hanging Gardens Monument, Salon Pavilion Nook. The district should share Colossi Prime's titanborn identity, Granite, Bronze, Cast Iron, Arcane Glow, and Cliffside, Terraced Slope, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Memorial or symbolic, with Colossi Prime's larger mood shaped by Titan Hand Terrace of the Colossus Steps, Border Wall Beacon, and Memory Tablet Walls Colossus Registry.",
+      "gameplayAssetNeeds": [
+        "Hanging Gardens Monument",
+        "High Residential Civic Hall",
+        "Manor Court",
+        "Salon Pavilion Nook",
+        "Section 2 pedestrian-scale props",
+        "Colossi Prime civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Hanging Gardens Monument",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Hanging Gardens Monument",
+      "minorLandmarks": [
+        "High Residential Civic Hall",
+        "Manor Court",
+        "Salon Pavilion Nook"
+      ]
+    },
+    {
+      "districtNumber": 10,
+      "districtId": "D10",
+      "sectionNumber": 2,
+      "name": "D10 — Salon Pavilion Nook Neighborhood Nook",
+      "civicPurpose": "This district turns Section 2's source-backed anchor set into a board-scale civic space: High Residential Civic Hall, Manor Court, Hanging Gardens Monument, Salon Pavilion Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Colossi Prime.",
+      "visualIdentity": "Use Salon Pavilion Nook as the main read. Keep exact source anchors visible where applicable: High Residential Civic Hall, Manor Court, Hanging Gardens Monument, Salon Pavilion Nook. The district should share Colossi Prime's titanborn identity, Granite, Bronze, Cast Iron, Arcane Glow, and Cliffside, Terraced Slope, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Intimate and lived-in, with Colossi Prime's larger mood shaped by Titan Hand Terrace of the Colossus Steps, Border Wall Beacon, and Memory Tablet Walls Colossus Registry.",
+      "gameplayAssetNeeds": [
+        "Salon Pavilion Nook",
+        "High Residential Civic Hall",
+        "Manor Court",
+        "Hanging Gardens Monument",
+        "Section 2 pedestrian-scale props",
+        "Colossi Prime civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Salon Pavilion Nook",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Salon Pavilion Nook",
+      "minorLandmarks": [
+        "High Residential Civic Hall",
+        "Manor Court",
+        "Hanging Gardens Monument"
+      ]
+    },
+    {
+      "districtNumber": 15,
+      "districtId": "D15",
+      "sectionNumber": 2,
+      "name": "D15 — High Residential Civic Hall Supporting Streets",
+      "civicPurpose": "This district turns Section 2's source-backed anchor set into a board-scale civic space: High Residential Civic Hall, Manor Court, Hanging Gardens Monument, Salon Pavilion Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Colossi Prime.",
+      "visualIdentity": "Use High Residential Civic Hall as the main read. Keep exact source anchors visible where applicable: High Residential Civic Hall, Manor Court, Hanging Gardens Monument, Salon Pavilion Nook. The district should share Colossi Prime's titanborn identity, Granite, Bronze, Cast Iron, Arcane Glow, and Cliffside, Terraced Slope, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Connective and practical, with Colossi Prime's larger mood shaped by Titan Hand Terrace of the Colossus Steps, Border Wall Beacon, and Memory Tablet Walls Colossus Registry.",
+      "gameplayAssetNeeds": [
+        "High Residential Civic Hall",
+        "Manor Court",
+        "Hanging Gardens Monument",
+        "Salon Pavilion Nook",
+        "Section 2 pedestrian-scale props",
+        "Colossi Prime civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on High Residential Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "High Residential Civic Hall",
+      "minorLandmarks": [
+        "Manor Court",
+        "Hanging Gardens Monument",
+        "Salon Pavilion Nook"
+      ]
+    },
+    {
+      "districtNumber": 8,
+      "districtId": "D08",
+      "sectionNumber": 3,
+      "name": "D08 — Records / Archives Hall Civic-Anchor Precinct",
+      "civicPurpose": "This district turns Section 3's source-backed anchor set into a board-scale civic space: Records / Archives Hall, Archive Tower, Records Archives Gold-Seal Monument, Copyist Hall Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Colossi Prime.",
+      "visualIdentity": "Use Records / Archives Hall as the main read. Keep exact source anchors visible where applicable: Records / Archives Hall, Archive Tower, Records Archives Gold-Seal Monument, Copyist Hall Nook. The district should share Colossi Prime's titanborn identity, Granite, Bronze, Cast Iron, Arcane Glow, and Cliffside, Terraced Slope, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Locally grounded, with Colossi Prime's larger mood shaped by Titan Hand Terrace of the Colossus Steps, Border Wall Beacon, and Memory Tablet Walls Colossus Registry.",
+      "gameplayAssetNeeds": [
+        "Records / Archives Hall",
+        "Archive Tower",
+        "Records Archives Gold-Seal Monument",
+        "Copyist Hall Nook",
+        "Section 3 pedestrian-scale props",
+        "Colossi Prime civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Records / Archives Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Records / Archives Hall",
+      "minorLandmarks": [
+        "Archive Tower",
+        "Records Archives Gold-Seal Monument",
+        "Copyist Hall Nook"
+      ]
+    },
+    {
+      "districtNumber": 12,
+      "districtId": "D12",
+      "sectionNumber": 3,
+      "name": "D12 — Archive Tower Landmark Approach",
+      "civicPurpose": "This district turns Section 3's source-backed anchor set into a board-scale civic space: Records / Archives Hall, Archive Tower, Records Archives Gold-Seal Monument, Copyist Hall Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Colossi Prime.",
+      "visualIdentity": "Use Archive Tower as the main read. Keep exact source anchors visible where applicable: Records / Archives Hall, Archive Tower, Records Archives Gold-Seal Monument, Copyist Hall Nook. The district should share Colossi Prime's titanborn identity, Granite, Bronze, Cast Iron, Arcane Glow, and Cliffside, Terraced Slope, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Public-facing, with Colossi Prime's larger mood shaped by Titan Hand Terrace of the Colossus Steps, Border Wall Beacon, and Memory Tablet Walls Colossus Registry.",
+      "gameplayAssetNeeds": [
+        "Archive Tower",
+        "Records / Archives Hall",
+        "Records Archives Gold-Seal Monument",
+        "Copyist Hall Nook",
+        "Section 3 pedestrian-scale props",
+        "Colossi Prime civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Archive Tower",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Archive Tower",
+      "minorLandmarks": [
+        "Records / Archives Hall",
+        "Records Archives Gold-Seal Monument",
+        "Copyist Hall Nook"
+      ]
+    },
+    {
+      "districtNumber": 13,
+      "districtId": "D13",
+      "sectionNumber": 3,
+      "name": "D13 — Memory Tablet Walls Colossus Registry Seat of Power District",
+      "civicPurpose": "This district turns Section 3's source-backed anchor set into a board-scale civic space: Records / Archives Hall, Archive Tower, Records Archives Gold-Seal Monument, Copyist Hall Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Colossi Prime.",
+      "visualIdentity": "Use Memory Tablet Walls Colossus Registry as the main read. Keep exact source anchors visible where applicable: Records / Archives Hall, Archive Tower, Records Archives Gold-Seal Monument, Copyist Hall Nook. The district should share Colossi Prime's titanborn identity, Granite, Bronze, Cast Iron, Arcane Glow, and Cliffside, Terraced Slope, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Memorial or symbolic, with Colossi Prime's larger mood shaped by Titan Hand Terrace of the Colossus Steps, Border Wall Beacon, and Memory Tablet Walls Colossus Registry.",
+      "gameplayAssetNeeds": [
+        "Memory Tablet Walls Colossus Registry",
+        "Records / Archives Hall",
+        "Archive Tower",
+        "Records Archives Gold-Seal Monument",
+        "Copyist Hall Nook",
+        "Section 3 pedestrian-scale props",
+        "Colossi Prime civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Memory Tablet Walls Colossus Registry",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "Conjunction response, rumor spread, or authority pressure"
+      ],
+      "landmark": "Memory Tablet Walls Colossus Registry",
+      "minorLandmarks": [
+        "Records / Archives Hall",
+        "Archive Tower",
+        "Records Archives Gold-Seal Monument",
+        "Copyist Hall Nook"
+      ]
+    },
+    {
+      "districtNumber": 14,
+      "districtId": "D14",
+      "sectionNumber": 3,
+      "name": "D14 — Copyist Hall Nook Neighborhood Nook",
+      "civicPurpose": "This district turns Section 3's source-backed anchor set into a board-scale civic space: Records / Archives Hall, Archive Tower, Records Archives Gold-Seal Monument, Copyist Hall Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Colossi Prime.",
+      "visualIdentity": "Use Copyist Hall Nook as the main read. Keep exact source anchors visible where applicable: Records / Archives Hall, Archive Tower, Records Archives Gold-Seal Monument, Copyist Hall Nook. The district should share Colossi Prime's titanborn identity, Granite, Bronze, Cast Iron, Arcane Glow, and Cliffside, Terraced Slope, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Intimate and lived-in, with Colossi Prime's larger mood shaped by Titan Hand Terrace of the Colossus Steps, Border Wall Beacon, and Memory Tablet Walls Colossus Registry.",
+      "gameplayAssetNeeds": [
+        "Copyist Hall Nook",
+        "Records / Archives Hall",
+        "Archive Tower",
+        "Records Archives Gold-Seal Monument",
+        "Section 3 pedestrian-scale props",
+        "Colossi Prime civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Copyist Hall Nook",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Copyist Hall Nook",
+      "minorLandmarks": [
+        "Records / Archives Hall",
+        "Archive Tower",
+        "Records Archives Gold-Seal Monument"
+      ]
+    },
+    {
+      "districtNumber": 18,
+      "districtId": "D18",
+      "sectionNumber": 3,
+      "name": "D18 — Records / Archives Hall Supporting Streets",
+      "civicPurpose": "This district turns Section 3's source-backed anchor set into a board-scale civic space: Records / Archives Hall, Archive Tower, Records Archives Gold-Seal Monument, Copyist Hall Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Colossi Prime.",
+      "visualIdentity": "Use Records / Archives Hall as the main read. Keep exact source anchors visible where applicable: Records / Archives Hall, Archive Tower, Records Archives Gold-Seal Monument, Copyist Hall Nook. The district should share Colossi Prime's titanborn identity, Granite, Bronze, Cast Iron, Arcane Glow, and Cliffside, Terraced Slope, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Connective and practical, with Colossi Prime's larger mood shaped by Titan Hand Terrace of the Colossus Steps, Border Wall Beacon, and Memory Tablet Walls Colossus Registry.",
+      "gameplayAssetNeeds": [
+        "Records / Archives Hall",
+        "Archive Tower",
+        "Records Archives Gold-Seal Monument",
+        "Copyist Hall Nook",
+        "Section 3 pedestrian-scale props",
+        "Colossi Prime civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Records / Archives Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Records / Archives Hall",
+      "minorLandmarks": [
+        "Archive Tower",
+        "Records Archives Gold-Seal Monument",
+        "Copyist Hall Nook"
+      ]
+    },
+    {
+      "districtNumber": 11,
+      "districtId": "D11",
+      "sectionNumber": 4,
+      "name": "D11 — Arena / Training Civic Hall Civic-Anchor Precinct",
+      "civicPurpose": "This district turns Section 4's source-backed anchor set into a board-scale civic space: Arena / Training Civic Hall, Training Arena, Woven Banners Monument, Champion Gate Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Colossi Prime.",
+      "visualIdentity": "Use Arena / Training Civic Hall as the main read. Keep exact source anchors visible where applicable: Arena / Training Civic Hall, Training Arena, Woven Banners Monument, Champion Gate Nook. The district should share Colossi Prime's titanborn identity, Granite, Bronze, Cast Iron, Arcane Glow, and Cliffside, Terraced Slope, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Locally grounded, with Colossi Prime's larger mood shaped by Titan Hand Terrace of the Colossus Steps, Border Wall Beacon, and Memory Tablet Walls Colossus Registry.",
+      "gameplayAssetNeeds": [
+        "Arena / Training Civic Hall",
+        "Training Arena",
+        "Woven Banners Monument",
+        "Champion Gate Nook",
+        "Section 4 pedestrian-scale props",
+        "Colossi Prime civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Arena / Training Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Arena / Training Civic Hall",
+      "minorLandmarks": [
+        "Training Arena",
+        "Woven Banners Monument",
+        "Champion Gate Nook"
+      ]
+    },
+    {
+      "districtNumber": 16,
+      "districtId": "D16",
+      "sectionNumber": 4,
+      "name": "D16 — Training Arena Landmark Approach",
+      "civicPurpose": "This district turns Section 4's source-backed anchor set into a board-scale civic space: Arena / Training Civic Hall, Training Arena, Woven Banners Monument, Champion Gate Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Colossi Prime.",
+      "visualIdentity": "Use Training Arena as the main read. Keep exact source anchors visible where applicable: Arena / Training Civic Hall, Training Arena, Woven Banners Monument, Champion Gate Nook. The district should share Colossi Prime's titanborn identity, Granite, Bronze, Cast Iron, Arcane Glow, and Cliffside, Terraced Slope, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Public-facing, with Colossi Prime's larger mood shaped by Titan Hand Terrace of the Colossus Steps, Border Wall Beacon, and Memory Tablet Walls Colossus Registry.",
+      "gameplayAssetNeeds": [
+        "Training Arena",
+        "Arena / Training Civic Hall",
+        "Woven Banners Monument",
+        "Champion Gate Nook",
+        "Section 4 pedestrian-scale props",
+        "Colossi Prime civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Training Arena",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Training Arena",
+      "minorLandmarks": [
+        "Arena / Training Civic Hall",
+        "Woven Banners Monument",
+        "Champion Gate Nook"
+      ]
+    },
+    {
+      "districtNumber": 17,
+      "districtId": "D17",
+      "sectionNumber": 4,
+      "name": "D17 — Woven Banners Monument Monument Frontage",
+      "civicPurpose": "This district turns Section 4's source-backed anchor set into a board-scale civic space: Arena / Training Civic Hall, Training Arena, Woven Banners Monument, Champion Gate Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Colossi Prime.",
+      "visualIdentity": "Use Woven Banners Monument as the main read. Keep exact source anchors visible where applicable: Arena / Training Civic Hall, Training Arena, Woven Banners Monument, Champion Gate Nook. The district should share Colossi Prime's titanborn identity, Granite, Bronze, Cast Iron, Arcane Glow, and Cliffside, Terraced Slope, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Memorial or symbolic, with Colossi Prime's larger mood shaped by Titan Hand Terrace of the Colossus Steps, Border Wall Beacon, and Memory Tablet Walls Colossus Registry.",
+      "gameplayAssetNeeds": [
+        "Woven Banners Monument",
+        "Arena / Training Civic Hall",
+        "Training Arena",
+        "Champion Gate Nook",
+        "Section 4 pedestrian-scale props",
+        "Colossi Prime civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Woven Banners Monument",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Woven Banners Monument",
+      "minorLandmarks": [
+        "Arena / Training Civic Hall",
+        "Training Arena",
+        "Champion Gate Nook"
+      ]
+    },
+    {
+      "districtNumber": 21,
+      "districtId": "D21",
+      "sectionNumber": 4,
+      "name": "D21 — Champion Gate Nook Neighborhood Nook",
+      "civicPurpose": "This district turns Section 4's source-backed anchor set into a board-scale civic space: Arena / Training Civic Hall, Training Arena, Woven Banners Monument, Champion Gate Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Colossi Prime.",
+      "visualIdentity": "Use Champion Gate Nook as the main read. Keep exact source anchors visible where applicable: Arena / Training Civic Hall, Training Arena, Woven Banners Monument, Champion Gate Nook. The district should share Colossi Prime's titanborn identity, Granite, Bronze, Cast Iron, Arcane Glow, and Cliffside, Terraced Slope, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Intimate and lived-in, with Colossi Prime's larger mood shaped by Titan Hand Terrace of the Colossus Steps, Border Wall Beacon, and Memory Tablet Walls Colossus Registry.",
+      "gameplayAssetNeeds": [
+        "Champion Gate Nook",
+        "Arena / Training Civic Hall",
+        "Training Arena",
+        "Woven Banners Monument",
+        "Section 4 pedestrian-scale props",
+        "Colossi Prime civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Champion Gate Nook",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Champion Gate Nook",
+      "minorLandmarks": [
+        "Arena / Training Civic Hall",
+        "Training Arena",
+        "Woven Banners Monument"
+      ]
+    },
+    {
+      "districtNumber": 22,
+      "districtId": "D22",
+      "sectionNumber": 4,
+      "name": "D22 — Arena / Training Civic Hall Supporting Streets",
+      "civicPurpose": "This district turns Section 4's source-backed anchor set into a board-scale civic space: Arena / Training Civic Hall, Training Arena, Woven Banners Monument, Champion Gate Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Colossi Prime.",
+      "visualIdentity": "Use Arena / Training Civic Hall as the main read. Keep exact source anchors visible where applicable: Arena / Training Civic Hall, Training Arena, Woven Banners Monument, Champion Gate Nook. The district should share Colossi Prime's titanborn identity, Granite, Bronze, Cast Iron, Arcane Glow, and Cliffside, Terraced Slope, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Connective and practical, with Colossi Prime's larger mood shaped by Titan Hand Terrace of the Colossus Steps, Border Wall Beacon, and Memory Tablet Walls Colossus Registry.",
+      "gameplayAssetNeeds": [
+        "Arena / Training Civic Hall",
+        "Training Arena",
+        "Woven Banners Monument",
+        "Champion Gate Nook",
+        "Section 4 pedestrian-scale props",
+        "Colossi Prime civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Arena / Training Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Arena / Training Civic Hall",
+      "minorLandmarks": [
+        "Training Arena",
+        "Woven Banners Monument",
+        "Champion Gate Nook"
+      ]
+    },
+    {
+      "districtNumber": 19,
+      "districtId": "D19",
+      "sectionNumber": 5,
+      "name": "D19 — Star Observatory Civic-Anchor Precinct",
+      "civicPurpose": "This district turns Section 5's source-backed anchor set into a board-scale civic space: Star Observatory. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Colossi Prime.",
+      "visualIdentity": "Use Star Observatory as the main read. Keep exact source anchors visible where applicable: Star Observatory. The district should share Colossi Prime's titanborn identity, Granite, Bronze, Cast Iron, Arcane Glow, and Cliffside, Terraced Slope, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Locally grounded, with Colossi Prime's larger mood shaped by Titan Hand Terrace of the Colossus Steps, Border Wall Beacon, and Memory Tablet Walls Colossus Registry.",
+      "gameplayAssetNeeds": [
+        "Star Observatory",
+        "Section 5 pedestrian-scale props",
+        "Colossi Prime civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Star Observatory",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Star Observatory",
+      "minorLandmarks": []
+    },
+    {
+      "districtNumber": 20,
+      "districtId": "D20",
+      "sectionNumber": 5,
+      "name": "D20 — Star Observatory Landmark Approach",
+      "civicPurpose": "This district turns Section 5's source-backed anchor set into a board-scale civic space: Star Observatory. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Colossi Prime.",
+      "visualIdentity": "Use Star Observatory as the main read. Keep exact source anchors visible where applicable: Star Observatory. The district should share Colossi Prime's titanborn identity, Granite, Bronze, Cast Iron, Arcane Glow, and Cliffside, Terraced Slope, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Public-facing, with Colossi Prime's larger mood shaped by Titan Hand Terrace of the Colossus Steps, Border Wall Beacon, and Memory Tablet Walls Colossus Registry.",
+      "gameplayAssetNeeds": [
+        "Star Observatory",
+        "Section 5 pedestrian-scale props",
+        "Colossi Prime civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Star Observatory",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Star Observatory",
+      "minorLandmarks": []
+    },
+    {
+      "districtNumber": 23,
+      "districtId": "D23",
+      "sectionNumber": 5,
+      "name": "D23 — Star Observatory Monument Frontage",
+      "civicPurpose": "This district turns Section 5's source-backed anchor set into a board-scale civic space: Star Observatory. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Colossi Prime.",
+      "visualIdentity": "Use Star Observatory as the main read. Keep exact source anchors visible where applicable: Star Observatory. The district should share Colossi Prime's titanborn identity, Granite, Bronze, Cast Iron, Arcane Glow, and Cliffside, Terraced Slope, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Memorial or symbolic, with Colossi Prime's larger mood shaped by Titan Hand Terrace of the Colossus Steps, Border Wall Beacon, and Memory Tablet Walls Colossus Registry.",
+      "gameplayAssetNeeds": [
+        "Star Observatory",
+        "Section 5 pedestrian-scale props",
+        "Colossi Prime civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Star Observatory",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Star Observatory",
+      "minorLandmarks": []
+    },
+    {
+      "districtNumber": 24,
+      "districtId": "D24",
+      "sectionNumber": 5,
+      "name": "D24 — Star Observatory Neighborhood Nook",
+      "civicPurpose": "This district turns Section 5's source-backed anchor set into a board-scale civic space: Star Observatory. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Colossi Prime.",
+      "visualIdentity": "Use Star Observatory as the main read. Keep exact source anchors visible where applicable: Star Observatory. The district should share Colossi Prime's titanborn identity, Granite, Bronze, Cast Iron, Arcane Glow, and Cliffside, Terraced Slope, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Intimate and lived-in, with Colossi Prime's larger mood shaped by Titan Hand Terrace of the Colossus Steps, Border Wall Beacon, and Memory Tablet Walls Colossus Registry.",
+      "gameplayAssetNeeds": [
+        "Star Observatory",
+        "Section 5 pedestrian-scale props",
+        "Colossi Prime civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Star Observatory",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Star Observatory",
+      "minorLandmarks": []
+    },
+    {
+      "districtNumber": 25,
+      "districtId": "D25",
+      "sectionNumber": 5,
+      "name": "D25 — Star Observatory Supporting Streets",
+      "civicPurpose": "This district turns Section 5's source-backed anchor set into a board-scale civic space: Star Observatory. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Colossi Prime.",
+      "visualIdentity": "Use Star Observatory as the main read. Keep exact source anchors visible where applicable: Star Observatory. The district should share Colossi Prime's titanborn identity, Granite, Bronze, Cast Iron, Arcane Glow, and Cliffside, Terraced Slope, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Connective and practical, with Colossi Prime's larger mood shaped by Titan Hand Terrace of the Colossus Steps, Border Wall Beacon, and Memory Tablet Walls Colossus Registry.",
+      "gameplayAssetNeeds": [
+        "Star Observatory",
+        "Section 5 pedestrian-scale props",
+        "Colossi Prime civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Star Observatory",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Star Observatory",
+      "minorLandmarks": []
+    }
   ],
   "landmarks": {
-    "wonder": {"name": "Titan Hand Terrace of the Colossus Steps", "symbolicRole": "Titan memory, mountain scale, public endurance, and civic ascent made monumental.", "visualRole": "Far skyline wonder of titan-hand forms, immense steps, granite terraces, bronze fittings, and arcane blue seams.", "civicRole": "Citywide rites, public vows, memorial ceremonies, and ascent trials.", "narrativeUse": ["ascent rite", "public vow", "memory ceremony"], "assetUse": ["map wonder", "far skyline anchor"], "sensoryIdentity": ["wind", "stone echo", "bronze warmth", "blue ward hum"], "storyHooks": ["A titan-hand step bears an inscription too large for ordinary citizens to read without help."]},
-    "beacon": {"name": "Border Wall Beacon", "symbolicRole": "Threshold law and citywide warning made visible.", "visualRole": "Blue-lit beacon integrated with border walls, woven banners, and watch bastions.", "civicRole": "Coordinates border defense, archive alerts, arena readiness, and high-residential response.", "narrativeUse": ["Beacon change", "wall alarm", "public muster"], "assetUse": ["S1 centerpiece", "signal marker"], "sensoryIdentity": ["blue glow", "wind", "stone bells"], "storyHooks": ["A Beacon change makes the city's enormous calm turn at once."]},
-    "seatOfPower": {"name": "Memory Tablet Walls Colossus Registry", "symbolicRole": "Names, duties, memory, and law made physically colossal.", "visualRole": "Central registry with memory tablet walls, audience terraces, sealed archives, and command platforms.", "civicRole": "Governs public records, border status, high-house petitions, archive rulings, and training duties.", "narrativeUse": ["registry hearing", "memory dispute", "duty assignment"], "assetUse": ["seat-of-power marker"], "sensoryIdentity": ["stone dust", "ink", "low voices", "blue lamps"], "storyHooks": ["A name carved too high on the wall assigns a duty nobody below can ignore."]},
+    "wonder": {
+      "name": "Titan Hand Terrace of the Colossus Steps",
+      "symbolicRole": "Titan Hand Terrace of the Colossus Steps concentrates Colossi Prime's local symbolism into a usable civic landmark: city wonder, separate far skyline anchor.",
+      "visualRole": "A one-per-city wonder: spectacular, unmistakable, and larger than every section landmark. It turns Colossi Prime's geography, race identity, material culture, and civic magic into one public symbol. Built for Colossi Prime's titanborn population, it uses Granite, Bronze, Cast Iron, Arcane Glow, Blue Granite across Cliffside, Terraced Slope, Civic Terraces; water context: dry city ground; magic expression: Ward Networks, Ritual Geometry, Stone Giant Memory. It must read clearly as a high-fantasy tactical-board asset with no baked labels or text.",
+      "civicRole": "Serves as city wonder, separate far skyline anchor within Colossi Prime; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+      "narrativeUse": [
+        "stage scenes involving Titan Hand Terrace of the Colossus Steps",
+        "show how Colossi Prime turns landmark symbolism into civic pressure",
+        "anchor public movement and crowd behavior",
+        "give writers a concrete place for announcements, disputes, errands, or rituals"
+      ],
+      "assetUse": [
+        "city landmark asset",
+        "map background landmark marker",
+        "visual continuity anchor across hero and street scenes",
+        "scale reference for civilians, roads, plazas, and props"
+      ],
+      "sensoryIdentity": [
+        "local foot traffic",
+        "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+        "public voices and civic work nearby",
+        "ambient city light and weathering",
+        "close pedestrian-scale details rather than abstract skyline-only treatment"
+      ],
+      "storyHooks": [
+        "a routine civic action at Titan Hand Terrace of the Colossus Steps becomes narratively important",
+        "the visible condition of Titan Hand Terrace of the Colossus Steps signals political or social stress",
+        "someone uses Titan Hand Terrace of the Colossus Steps's public function to redirect crowds or information",
+        "an overlooked detail at Titan Hand Terrace of the Colossus Steps reveals how Colossi Prime really works"
+      ]
+    },
+    "beacon": {
+      "name": "Border Wall Beacon",
+      "symbolicRole": "Border Wall Beacon concentrates Colossi Prime's local symbolism into a usable civic landmark: Section 1 beacon, near/front civic signal anchor.",
+      "visualRole": "A largest local landmark in this section, subordinate only to the city wonder and citadel. It belongs to Section 1 (Fortress / Border Wall) of Colossi Prime and should use White Limestone Civic Blocks, Obsidian Fortresses, Cyclopean Megaliths, bronze and arcane glow materials, Woven Banners, Carved Totems, Civic Blue Glow, and the titanborn visual language. Design focus: distinct gameplay landmark, visible from nearby districts, walls, portcullises, shield marks. Terrain/water context: Terraced Slope; Dry Ground. Magic expression: Road Warding, Blue Order Sigils, Threshold Oaths. No baked labels or text. Single city beacon fixed to section 1; visible civic signal apparatus, strong vertical silhouette, and public approach space.",
+      "civicRole": "Serves as Section 1 beacon, near/front civic signal anchor within Colossi Prime; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+      "narrativeUse": [
+        "stage scenes involving Border Wall Beacon",
+        "show how Colossi Prime turns landmark symbolism into civic pressure",
+        "anchor public movement and crowd behavior",
+        "give writers a concrete place for announcements, disputes, errands, or rituals"
+      ],
+      "assetUse": [
+        "district diorama anchor for Section 1",
+        "map background landmark marker",
+        "visual continuity anchor across hero and street scenes",
+        "scale reference for civilians, roads, plazas, and props"
+      ],
+      "sensoryIdentity": [
+        "local foot traffic",
+        "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+        "public voices and civic work nearby",
+        "beacon or lamp glow when applicable",
+        "close pedestrian-scale details rather than abstract skyline-only treatment"
+      ],
+      "storyHooks": [
+        "a routine civic action at Border Wall Beacon becomes narratively important",
+        "the visible condition of Border Wall Beacon signals political or social stress",
+        "someone uses Border Wall Beacon's public function to redirect crowds or information",
+        "an overlooked detail at Border Wall Beacon reveals how Colossi Prime really works"
+      ]
+    },
+    "seatOfPower": {
+      "name": "Memory Tablet Walls Colossus Registry",
+      "symbolicRole": "Memory Tablet Walls Colossus Registry concentrates Colossi Prime's local symbolism into a usable civic landmark: dominant central civic anchor / District 13 seat of power.",
+      "visualRole": "The district-13 seat of power: courts, audience terraces, sealed archives, command platforms, and the visible apparatus of government. It is not a faction HQ; it is the city's central civic authority. Built for Colossi Prime's titanborn population, it uses Granite, Bronze, Cast Iron, Arcane Glow, Blue Granite across Cliffside, Terraced Slope, Civic Terraces; water context: dry city ground; magic expression: Ward Networks, Ritual Geometry, Stone Giant Memory. It must read clearly as a high-fantasy tactical-board asset with no baked labels or text.",
+      "civicRole": "Serves as dominant central civic anchor / District 13 seat of power within Colossi Prime; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+      "narrativeUse": [
+        "stage scenes involving Memory Tablet Walls Colossus Registry",
+        "show how Colossi Prime turns landmark symbolism into civic pressure",
+        "anchor public movement and crowd behavior",
+        "give writers a concrete place for announcements, disputes, errands, or rituals"
+      ],
+      "assetUse": [
+        "city landmark asset",
+        "map background landmark marker",
+        "visual continuity anchor across hero and street scenes",
+        "scale reference for civilians, roads, plazas, and props"
+      ],
+      "sensoryIdentity": [
+        "local foot traffic",
+        "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+        "public voices and civic work nearby",
+        "ambient city light and weathering",
+        "close pedestrian-scale details rather than abstract skyline-only treatment"
+      ],
+      "storyHooks": [
+        "a routine civic action at Memory Tablet Walls Colossus Registry becomes narratively important",
+        "the visible condition of Memory Tablet Walls Colossus Registry signals political or social stress",
+        "someone uses Memory Tablet Walls Colossus Registry's public function to redirect crowds or information",
+        "an overlooked detail at Memory Tablet Walls Colossus Registry reveals how Colossi Prime really works"
+      ]
+    },
     "majorLandmarks": [
-      {"name": "Manor Court", "symbolicRole": "Status made architectural and public-facing.", "visualRole": "High terrace manor court with hanging gardens, salon pavilion, and titan-scale entries.", "civicRole": "Elite petitions, hospitality, patronage, and social authority.", "narrativeUse": ["manor petition", "class pressure"], "assetUse": ["S2 diorama"], "sensoryIdentity": ["garden air", "bronze doors", "quiet voices"], "storyHooks": ["A salon pavilion conversation weighs more than a public speech."]},
-      {"name": "Archive Tower", "symbolicRole": "Public memory made vertical and durable.", "visualRole": "Archive tower with gold-seal monument, copyist hall, stone stairs, and memory-tablet approaches.", "civicRole": "Records, legal copies, and continuity of public memory.", "narrativeUse": ["record clue", "archive dispute"], "assetUse": ["S3 diorama"], "sensoryIdentity": ["paper", "stone", "wax", "echo"], "storyHooks": ["A copyist hall preserves a smaller version of a truth carved too large to question."]},
-      {"name": "Training Arena", "symbolicRole": "Strength disciplined into public readiness.", "visualRole": "Titan-scale arena with woven banners, champion gate, terraces, and heavy training forms.", "civicRole": "Training, public tests, champion recognition, and readiness ceremonies.", "narrativeUse": ["public test", "arena training", "champion rite"], "assetUse": ["S4 diorama"], "sensoryIdentity": ["impact", "banner cloth", "dust", "crowd breath"], "storyHooks": ["The Champion Gate opens only after someone proves restraint, not strength."]},
-      {"name": "Star Observatory", "symbolicRole": "Hero-source evidence for high astronomical authority, source-limited without S5 street material.", "visualRole": "Visible secondary hero-view landmark associated with section 5, but exact district anchors are unavailable in this upload.", "civicRole": "Probable observatory / astronomy function; keep provisional until CPE-STREET-S5 is supplied.", "narrativeUse": ["astronomical witness", "source-limited civic anchor"], "assetUse": ["hero-view secondary landmark only"], "sensoryIdentity": ["cold air", "lens glass", "blue light"], "storyHooks": ["Star Observatory should not receive exact S5 nook or monument treatment until the missing S5 source is supplied."]}
+      {
+        "name": "Star Observatory",
+        "symbolicRole": "Star Observatory concentrates Colossi Prime's local symbolism into a usable civic landmark: additional major landmark selected for this hero-view camera angle.",
+        "visualRole": "A largest local landmark in this section, subordinate only to the city wonder and citadel. It belongs to Section 5 (Observatory / Astronomy) of Colossi Prime and should use Lecture Courts, Cliffside Monasteries, Archive Towers, bronze and arcane glow materials, Moon Gate Arches, Civic Blue Glow, Star Navigation, and the titanborn visual language. Design focus: largest section focal point, strong vertical silhouette, distinct gameplay landmark, visible from nearby districts, stars. Terrain/water context: Terraced Slope; Dry Ground. Magic expression: Road Warding, Blue Order Sigils, Threshold Oaths. No baked labels or text.",
+        "civicRole": "Serves as additional major landmark selected for this hero-view camera angle within Colossi Prime; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Star Observatory",
+          "show how Colossi Prime turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 5",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Star Observatory becomes narratively important",
+          "the visible condition of Star Observatory signals political or social stress",
+          "someone uses Star Observatory's public function to redirect crowds or information",
+          "an overlooked detail at Star Observatory reveals how Colossi Prime really works"
+        ]
+      },
+      {
+        "name": "Manor Court",
+        "symbolicRole": "Manor Court concentrates Colossi Prime's local symbolism into a usable civic landmark: additional major landmark selected for this hero-view camera angle.",
+        "visualRole": "A largest local landmark in this section, subordinate only to the city wonder and citadel. It belongs to Section 2 (High Residential) of Colossi Prime and should use Gothic Spires, Canopy Platforms, White Limestone Civic Blocks, bronze and arcane glow materials, Red Fabric Awnings, Gold Seals, Hanging Gardens, and the titanborn visual language. Design focus: villas, garden courts, private gardens, largest section focal point, strong vertical silhouette. Terrain/water context: Terraced Slope; Dry Ground. Magic expression: Road Warding, Blue Order Sigils, Threshold Oaths. No baked labels or text.",
+        "civicRole": "Serves as additional major landmark selected for this hero-view camera angle within Colossi Prime; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Manor Court",
+          "show how Colossi Prime turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 2",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Manor Court becomes narratively important",
+          "the visible condition of Manor Court signals political or social stress",
+          "someone uses Manor Court's public function to redirect crowds or information",
+          "an overlooked detail at Manor Court reveals how Colossi Prime really works"
+        ]
+      },
+      {
+        "name": "Training Arena",
+        "symbolicRole": "Training Arena concentrates Colossi Prime's local symbolism into a usable civic landmark: additional major landmark selected for this hero-view camera angle.",
+        "visualRole": "A largest local landmark in this section, subordinate only to the city wonder and citadel. It belongs to Section 4 (Arena / Training) of Colossi Prime and should use Obsidian Fortresses, Lecture Courts, Temple Platforms, bronze and arcane glow materials, Carved Totems, Woven Banners, Red Fabric Awnings, and the titanborn visual language. Design focus: arenas, training yards, weapon courts, practice rings, largest section focal point. Terrain/water context: Terraced Slope; Dry Ground. Magic expression: Road Warding, Blue Order Sigils, Threshold Oaths. No baked labels or text.",
+        "civicRole": "Serves as additional major landmark selected for this hero-view camera angle within Colossi Prime; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Training Arena",
+          "show how Colossi Prime turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 4",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Training Arena becomes narratively important",
+          "the visible condition of Training Arena signals political or social stress",
+          "someone uses Training Arena's public function to redirect crowds or information",
+          "an overlooked detail at Training Arena reveals how Colossi Prime really works"
+        ]
+      },
+      {
+        "name": "Fortress / Border Wall Civic Hall",
+        "symbolicRole": "Fortress / Border Wall Civic Hall concentrates Colossi Prime's local symbolism into a usable civic landmark: Section 1 local anchor.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing. It belongs to Section 1 (Fortress / Border Wall) of Colossi Prime and should use White Limestone Civic Blocks, Obsidian Fortresses, Cyclopean Megaliths, bronze and arcane glow materials, Woven Banners, Carved Totems, Civic Blue Glow, and the titanborn visual language. Design focus: walls, portcullises, shield marks, signal fires, curtain walls. Terrain/water context: Terraced Slope; Dry Ground. Magic expression: Road Warding, Blue Order Sigils, Threshold Oaths. No baked labels or text.",
+        "civicRole": "Serves as Section 1 local anchor within Colossi Prime; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Fortress / Border Wall Civic Hall",
+          "show how Colossi Prime turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 1",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Fortress / Border Wall Civic Hall becomes narratively important",
+          "the visible condition of Fortress / Border Wall Civic Hall signals political or social stress",
+          "someone uses Fortress / Border Wall Civic Hall's public function to redirect crowds or information",
+          "an overlooked detail at Fortress / Border Wall Civic Hall reveals how Colossi Prime really works"
+        ]
+      },
+      {
+        "name": "Woven Banners Monument",
+        "symbolicRole": "Woven Banners Monument concentrates Colossi Prime's local symbolism into a usable civic landmark: Section 1 local anchor.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles. It belongs to Section 1 (Fortress / Border Wall) of Colossi Prime and should use Obsidian Fortresses, Cyclopean Megaliths, White Limestone Civic Blocks, bronze and arcane glow materials, Woven Banners, Carved Totems, Civic Blue Glow, and the titanborn visual language. Design focus: subordinate to major landmark, walls, portcullises, shield marks, signal fires. Terrain/water context: Terraced Slope; Dry Ground. Magic expression: Road Warding, Blue Order Sigils, Threshold Oaths. No baked labels or text.",
+        "civicRole": "Serves as Section 1 local anchor within Colossi Prime; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Woven Banners Monument",
+          "show how Colossi Prime turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 1",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Woven Banners Monument becomes narratively important",
+          "the visible condition of Woven Banners Monument signals political or social stress",
+          "someone uses Woven Banners Monument's public function to redirect crowds or information",
+          "an overlooked detail at Woven Banners Monument reveals how Colossi Prime really works"
+        ]
+      },
+      {
+        "name": "Watch Bastion Nook",
+        "symbolicRole": "Watch Bastion Nook concentrates Colossi Prime's local symbolism into a usable civic landmark: Section 1 local anchor.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette. It belongs to Section 1 (Fortress / Border Wall) of Colossi Prime and should use Obsidian Fortresses, Cyclopean Megaliths, White Limestone Civic Blocks, bronze and arcane glow materials, Civic Blue Glow, Woven Banners, Carved Totems, and the titanborn visual language. Design focus: portcullises, shield marks, signal fires, curtain walls, gatehouses. Terrain/water context: Terraced Slope; Dry Ground. Magic expression: Road Warding, Blue Order Sigils, Threshold Oaths. No baked labels or text.",
+        "civicRole": "Serves as Section 1 local anchor within Colossi Prime; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Watch Bastion Nook",
+          "show how Colossi Prime turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 1",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Watch Bastion Nook becomes narratively important",
+          "the visible condition of Watch Bastion Nook signals political or social stress",
+          "someone uses Watch Bastion Nook's public function to redirect crowds or information",
+          "an overlooked detail at Watch Bastion Nook reveals how Colossi Prime really works"
+        ]
+      },
+      {
+        "name": "High Residential Civic Hall",
+        "symbolicRole": "High Residential Civic Hall concentrates Colossi Prime's local symbolism into a usable civic landmark: Section 2 local anchor.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing. It belongs to Section 2 (High Residential) of Colossi Prime and should use Canopy Platforms, White Limestone Civic Blocks, Gothic Spires, bronze and arcane glow materials, Gold Seals, Hanging Gardens, Red Fabric Awnings, and the titanborn visual language. Design focus: board-readable entrance, fountains, lattices, flower urns, gilded gates. Terrain/water context: Terraced Slope; Dry Ground. Magic expression: Road Warding, Blue Order Sigils, Threshold Oaths. No baked labels or text.",
+        "civicRole": "Serves as Section 2 local anchor within Colossi Prime; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving High Residential Civic Hall",
+          "show how Colossi Prime turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 2",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at High Residential Civic Hall becomes narratively important",
+          "the visible condition of High Residential Civic Hall signals political or social stress",
+          "someone uses High Residential Civic Hall's public function to redirect crowds or information",
+          "an overlooked detail at High Residential Civic Hall reveals how Colossi Prime really works"
+        ]
+      },
+      {
+        "name": "Hanging Gardens Monument",
+        "symbolicRole": "Hanging Gardens Monument concentrates Colossi Prime's local symbolism into a usable civic landmark: Section 2 local anchor.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles. It belongs to Section 2 (High Residential) of Colossi Prime and should use Gothic Spires, Canopy Platforms, White Limestone Civic Blocks, bronze and arcane glow materials, Gold Seals, Hanging Gardens, Red Fabric Awnings, and the titanborn visual language. Design focus: local memory marker, subordinate to major landmark, fountains, lattices, flower urns. Terrain/water context: Terraced Slope; Dry Ground. Magic expression: Road Warding, Blue Order Sigils, Threshold Oaths. No baked labels or text.",
+        "civicRole": "Serves as Section 2 local anchor within Colossi Prime; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Hanging Gardens Monument",
+          "show how Colossi Prime turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 2",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Hanging Gardens Monument becomes narratively important",
+          "the visible condition of Hanging Gardens Monument signals political or social stress",
+          "someone uses Hanging Gardens Monument's public function to redirect crowds or information",
+          "an overlooked detail at Hanging Gardens Monument reveals how Colossi Prime really works"
+        ]
+      },
+      {
+        "name": "Salon Pavilion Nook",
+        "symbolicRole": "Salon Pavilion Nook concentrates Colossi Prime's local symbolism into a usable civic landmark: Section 2 local anchor.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette. It belongs to Section 2 (High Residential) of Colossi Prime and should use White Limestone Civic Blocks, Gothic Spires, Canopy Platforms, bronze and arcane glow materials, Red Fabric Awnings, Gold Seals, Hanging Gardens, and the titanborn visual language. Design focus: private gardens, small local identity prop, street-level detail, usable board landmark, subordinate scale. Terrain/water context: Terraced Slope; Dry Ground. Magic expression: Road Warding, Blue Order Sigils, Threshold Oaths. No baked labels or text.",
+        "civicRole": "Serves as Section 2 local anchor within Colossi Prime; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Salon Pavilion Nook",
+          "show how Colossi Prime turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 2",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Salon Pavilion Nook becomes narratively important",
+          "the visible condition of Salon Pavilion Nook signals political or social stress",
+          "someone uses Salon Pavilion Nook's public function to redirect crowds or information",
+          "an overlooked detail at Salon Pavilion Nook reveals how Colossi Prime really works"
+        ]
+      },
+      {
+        "name": "Records / Archives Hall",
+        "symbolicRole": "Records / Archives Hall concentrates Colossi Prime's local symbolism into a usable civic landmark: Section 3 local anchor.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing. It belongs to Section 3 (Records / Archives) of Colossi Prime and should use Subterranean Vaults, Archive Towers, White Limestone Civic Blocks, bronze and arcane glow materials, Gold Seals, Lantern Lit, Civic Blue Glow, and the titanborn visual language. Design focus: wax seals, memory lamps, archive stacks, ledger halls, vault towers. Terrain/water context: Terraced Slope; Dry Ground. Magic expression: Road Warding, Blue Order Sigils, Threshold Oaths. No baked labels or text.",
+        "civicRole": "Serves as Section 3 local anchor within Colossi Prime; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Records / Archives Hall",
+          "show how Colossi Prime turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 3",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Records / Archives Hall becomes narratively important",
+          "the visible condition of Records / Archives Hall signals political or social stress",
+          "someone uses Records / Archives Hall's public function to redirect crowds or information",
+          "an overlooked detail at Records / Archives Hall reveals how Colossi Prime really works"
+        ]
+      },
+      {
+        "name": "Archive Tower",
+        "symbolicRole": "Archive Tower concentrates Colossi Prime's local symbolism into a usable civic landmark: Section 3 local anchor.",
+        "visualRole": "A mandatory Section 3 Beacon: a culturally adapted civic signal flame / warning-light landmark visible across the city spine. It belongs to Section 3 (Records / Archives) of Colossi Prime and should use Archive Towers, White Limestone Civic Blocks, Subterranean Vaults, bronze and arcane glow materials, Lantern Lit, Civic Blue Glow, Gold Seals, and the titanborn visual language. Design focus: distinct gameplay landmark, visible from nearby districts, scrolls, index cards, wax seals. Terrain/water context: Terraced Slope; Dry Ground. Magic expression: Road Warding, Blue Order Sigils, Threshold Oaths. No baked labels or text.",
+        "civicRole": "Serves as Section 3 local anchor within Colossi Prime; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Archive Tower",
+          "show how Colossi Prime turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 3",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Archive Tower becomes narratively important",
+          "the visible condition of Archive Tower signals political or social stress",
+          "someone uses Archive Tower's public function to redirect crowds or information",
+          "an overlooked detail at Archive Tower reveals how Colossi Prime really works"
+        ]
+      },
+      {
+        "name": "Records Archives Gold-Seal Monument",
+        "symbolicRole": "Records Archives Gold-Seal Monument concentrates Colossi Prime's local symbolism into a usable civic landmark: Section 3 local anchor.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles. It belongs to Section 3 (Records / Archives) of Colossi Prime and should use Subterranean Vaults, Archive Towers, White Limestone Civic Blocks, bronze and arcane glow materials, Lantern Lit, Civic Blue Glow, Gold Seals, and the titanborn visual language. Design focus: small ceremonial site, local memory marker, subordinate to major landmark, scrolls, index cards. Terrain/water context: Terraced Slope; Dry Ground. Magic expression: Road Warding, Blue Order Sigils, Threshold Oaths. No baked labels or text.",
+        "civicRole": "Serves as Section 3 local anchor within Colossi Prime; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Records Archives Gold-Seal Monument",
+          "show how Colossi Prime turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 3",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Records Archives Gold-Seal Monument becomes narratively important",
+          "the visible condition of Records Archives Gold-Seal Monument signals political or social stress",
+          "someone uses Records Archives Gold-Seal Monument's public function to redirect crowds or information",
+          "an overlooked detail at Records Archives Gold-Seal Monument reveals how Colossi Prime really works"
+        ]
+      },
+      {
+        "name": "Copyist Hall Nook",
+        "symbolicRole": "Copyist Hall Nook concentrates Colossi Prime's local symbolism into a usable civic landmark: Section 3 local anchor.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette. It belongs to Section 3 (Records / Archives) of Colossi Prime and should use Subterranean Vaults, Archive Towers, White Limestone Civic Blocks, bronze and arcane glow materials, Gold Seals, Lantern Lit, Civic Blue Glow, and the titanborn visual language. Design focus: index cards, wax seals, memory lamps, archive stacks, ledger halls. Terrain/water context: Terraced Slope; Dry Ground. Magic expression: Road Warding, Blue Order Sigils, Threshold Oaths. No baked labels or text.",
+        "civicRole": "Serves as Section 3 local anchor within Colossi Prime; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Copyist Hall Nook",
+          "show how Colossi Prime turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 3",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Copyist Hall Nook becomes narratively important",
+          "the visible condition of Copyist Hall Nook signals political or social stress",
+          "someone uses Copyist Hall Nook's public function to redirect crowds or information",
+          "an overlooked detail at Copyist Hall Nook reveals how Colossi Prime really works"
+        ]
+      },
+      {
+        "name": "Arena / Training Civic Hall",
+        "symbolicRole": "Arena / Training Civic Hall concentrates Colossi Prime's local symbolism into a usable civic landmark: Section 4 local anchor.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing. It belongs to Section 4 (Arena / Training) of Colossi Prime and should use Lecture Courts, Temple Platforms, Obsidian Fortresses, bronze and arcane glow materials, Red Fabric Awnings, Carved Totems, Woven Banners, and the titanborn visual language. Design focus: sand floors, practice weapons, victory stones, arenas, training yards. Terrain/water context: Terraced Slope; Dry Ground. Magic expression: Road Warding, Blue Order Sigils, Threshold Oaths. No baked labels or text.",
+        "civicRole": "Serves as Section 4 local anchor within Colossi Prime; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Arena / Training Civic Hall",
+          "show how Colossi Prime turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 4",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Arena / Training Civic Hall becomes narratively important",
+          "the visible condition of Arena / Training Civic Hall signals political or social stress",
+          "someone uses Arena / Training Civic Hall's public function to redirect crowds or information",
+          "an overlooked detail at Arena / Training Civic Hall reveals how Colossi Prime really works"
+        ]
+      },
+      {
+        "name": "Woven Banners Monument",
+        "symbolicRole": "Woven Banners Monument concentrates Colossi Prime's local symbolism into a usable civic landmark: Section 4 local anchor.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles. It belongs to Section 4 (Arena / Training) of Colossi Prime and should use Lecture Courts, Temple Platforms, Obsidian Fortresses, bronze and arcane glow materials, Red Fabric Awnings, Carved Totems, Woven Banners, and the titanborn visual language. Design focus: banners, sand floors, practice weapons, victory stones, arenas. Terrain/water context: Terraced Slope; Dry Ground. Magic expression: Road Warding, Blue Order Sigils, Threshold Oaths. No baked labels or text.",
+        "civicRole": "Serves as Section 4 local anchor within Colossi Prime; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Woven Banners Monument",
+          "show how Colossi Prime turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 4",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Woven Banners Monument becomes narratively important",
+          "the visible condition of Woven Banners Monument signals political or social stress",
+          "someone uses Woven Banners Monument's public function to redirect crowds or information",
+          "an overlooked detail at Woven Banners Monument reveals how Colossi Prime really works"
+        ]
+      },
+      {
+        "name": "Champion Gate Nook",
+        "symbolicRole": "Champion Gate Nook concentrates Colossi Prime's local symbolism into a usable civic landmark: Section 4 local anchor.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette. It belongs to Section 4 (Arena / Training) of Colossi Prime and should use Obsidian Fortresses, Lecture Courts, Temple Platforms, bronze and arcane glow materials, Woven Banners, Red Fabric Awnings, Carved Totems, and the titanborn visual language. Design focus: subordinate scale, banners, sand floors, practice weapons, victory stones. Terrain/water context: Terraced Slope; Dry Ground. Magic expression: Road Warding, Blue Order Sigils, Threshold Oaths. No baked labels or text.",
+        "civicRole": "Serves as Section 4 local anchor within Colossi Prime; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Champion Gate Nook",
+          "show how Colossi Prime turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 4",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Champion Gate Nook becomes narratively important",
+          "the visible condition of Champion Gate Nook signals political or social stress",
+          "someone uses Champion Gate Nook's public function to redirect crowds or information",
+          "an overlooked detail at Champion Gate Nook reveals how Colossi Prime really works"
+        ]
+      }
     ]
   },
   "assetGuidance": {
-    "districtDioramaGuidance": ["S1 must show Fortress / Border Wall Civic Hall, Border Wall Beacon, Woven Banners Monument, and Watch Bastion Nook.", "S2 must show High Residential Civic Hall, Manor Court, Hanging Gardens Monument, and Salon Pavilion Nook.", "S3 must show Records / Archives Hall, Archive Tower, Records Archives Gold-Seal Monument, and Copyist Hall Nook.", "S4 must show Arena / Training Civic Hall, Training Arena, Woven Banners Monument, and Champion Gate Nook.", "Do not author S5 district diorama specifics until CPE-STREET-S5 source material exists."],
-    "mapBackgroundGuidance": ["Keep Titan Hand Terrace of the Colossus Steps, Border Wall Beacon, and Memory Tablet Walls Colossus Registry legible together.", "Use granite, bronze, cast iron, blue granite, arcane glow, cyclopean stairs, border walls, manor courts, archive towers, training arenas, memory tablet walls, and cliffside terraces."],
-    "requiredVisualElements": ["Titan Hand Terrace of the Colossus Steps", "Border Wall Beacon", "Memory Tablet Walls Colossus Registry", "Fortress / Border Wall Civic Hall", "Woven Banners Monument", "Watch Bastion Nook", "Manor Court", "Hanging Gardens Monument", "Salon Pavilion Nook", "Archive Tower", "Records Archives Gold-Seal Monument", "Copyist Hall Nook", "Training Arena", "Champion Gate Nook", "Star Observatory as source-limited hero landmark"],
-    "elementsToAvoid": ["generic giant city", "mere oversized buildings", "invented S5 anchors", "scale without institutions", "memory tablets omitted"]
+    "districtDioramaGuidance": [
+      "Dioramas must support 25 district slots: S1 covers D01, D02, D03, D06, D07 and uses source-backed anchors Fortress / Border Wall Civic Hall, Border Wall Beacon, Woven Banners Monument, Watch Bastion Nook.",
+      "Dioramas must support 25 district slots: S2 covers D04, D05, D09, D10, D15 and uses source-backed anchors High Residential Civic Hall, Manor Court, Hanging Gardens Monument, Salon Pavilion Nook.",
+      "Dioramas must support 25 district slots: S3 covers D08, D12, D13, D14, D18 and uses source-backed anchors Records / Archives Hall, Archive Tower, Records Archives Gold-Seal Monument, Copyist Hall Nook.",
+      "Dioramas must support 25 district slots: S4 covers D11, D16, D17, D21, D22 and uses source-backed anchors Arena / Training Civic Hall, Training Arena, Woven Banners Monument, Champion Gate Nook.",
+      "Dioramas must support 25 district slots: S5 covers D19, D20, D23, D24, D25 and uses source-backed anchors Star Observatory."
+    ],
+    "mapBackgroundGuidance": [
+      "Map backgrounds must show Titan Hand Terrace of the Colossus Steps as the wonder-scale identity anchor, Memory Tablet Walls Colossus Registry at D13, and Border Wall Beacon as the city signal landmark.",
+      "Preserve the five-section spine: S1 Fortress / Border Wall Civic Hall, S2 High Residential Civic Hall, S3 Records / Archives Hall, S4 Arena / Training Civic Hall, S5 Star Observatory.",
+      "Use roads, terrain, water, civic terraces, walls, markets, courts, or service routes only where they support the exact city identity and tactical readability."
+    ],
+    "requiredVisualElements": [
+      "Titan Hand Terrace of the Colossus Steps",
+      "Border Wall Beacon",
+      "Memory Tablet Walls Colossus Registry",
+      "Star Observatory",
+      "Manor Court",
+      "Training Arena",
+      "Fortress / Border Wall Civic Hall",
+      "Woven Banners Monument",
+      "Watch Bastion Nook",
+      "High Residential Civic Hall",
+      "Hanging Gardens Monument",
+      "Salon Pavilion Nook",
+      "Records / Archives Hall",
+      "Archive Tower",
+      "Records Archives Gold-Seal Monument",
+      "Copyist Hall Nook",
+      "Arena / Training Civic Hall",
+      "Champion Gate Nook",
+      "Granite",
+      "Bronze",
+      "Cast Iron",
+      "Arcane Glow",
+      "Blue Granite",
+      "Cliffside",
+      "Terraced Slope",
+      "Civic Terraces",
+      "Ward Networks",
+      "Ritual Geometry",
+      "Stone Giant Memory"
+    ],
+    "elementsToAvoid": [
+      "extra top-level schema sections or research-log content in the JSON",
+      "generic fantasy architecture that ignores exact anchor names",
+      "invented missing street anchors",
+      "readable real-world text labels baked into images",
+      "collapsing the 25-district board into only five playable spaces",
+      "making landmarks decorative when they should have civic, narrative, and asset function"
+    ]
   }
 }

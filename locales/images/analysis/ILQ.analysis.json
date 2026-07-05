@@ -1,18 +1,1892 @@
 {
-  "metadata": {"schemaVersion": "2.0", "analysisVersion": 2, "cityCode": "ILQ", "cityName": "Ilyr-Qesh", "analysisDate": "2026-07-03", "analystVersion": "gpt-5.5-thinking", "analysisConfidence": "strong-lock", "basedOnImages": ["ILQ-HERO-NE-v001", "ILQ-HERO-NW-v001", "ILQ-HERO-SE-v001", "ILQ-HERO-SW-v001", "ILQ-STREET-S1-v001", "ILQ-STREET-S2-v001", "ILQ-STREET-S3-v001", "ILQ-STREET-S4-v001", "ILQ-STREET-S5-v001"], "basedOnSidecars": ["ILQ-HERO-NE-v001.json", "ILQ-HERO-NW-v001.json", "ILQ-HERO-SE-v001.json", "ILQ-HERO-SW-v001.json", "ILQ-STREET-S1-v001.json", "ILQ-STREET-S2-v001.json", "ILQ-STREET-S3-v001.json", "ILQ-STREET-S4-v001.json", "ILQ-STREET-S5-v001.json"]},
-  "cityDNA": {"coreFantasy": "A Persian cliff-terrace capital where covered bazaars, caravan hospitality, law courts, observatories, and refugee commons make welcome accountable.", "primaryEmotion": "imperial welcome", "secondaryEmotion": "sunlit judgment", "readerTakeaway": "Ilyr-Qesh is not generic desert-market grandeur; the uploaded images show a formal city where commerce, law, astronomy, route shelter, and refugee care share one civic language.", "civilizationThesis": "Hospitality in Ilyr-Qesh is public, recorded, beautiful, and legally tested.", "visualIdentity": "Lapis tile, sandstone, pale marble, silk awnings, blue ceramic, covered bazaars, caravan courts, high courts, star observatories, ration arcades, and cliff terraces.", "culturalIdentity": "Persian-coded, formal, mercantile, legal, and cosmopolitan.", "symbolicIdentity": "Sapphire iwans, painted tiles, covered bazaars, gold seals, caravan gates, witness archives, star gardens, and ration arcades symbolize hospitality under law."},
-  "canon": {"canonLocks": ["Wonder: Persian Sapphire Iwan of the Star Garden.", "Beacon: Covered Bazaar Beacon.", "Seat of Power: Painted Tiles Sovereign Registry Court.", "Districts: Grand Market, Transit / Caravan / Rail, Judicial Quarter, Observatory / Astronomy, Refugee Commons.", "Exact anchors include Grand Market Civic Hall, Awning Monument, Auction Court Nook, Transit / Caravan / Rail Civic Hall, Caravanserai, Waystation Hall Nook, Judicial Quarter Hall, High Court, Judicial Quarter Gold-Seal Monument, Witness Archive Nook, Observatory / Astronomy Civic Hall, Star Observatory, Star Navigation Monument, Celestial Court Nook, Refugee Commons Civic Hall, Aid Commons, Woven Banners Monument, and Ration Arcade Nook."], "provisionalCanon": ["The city's core virtue is hospitality under law.", "The contact-sheet pass reinforces cliff terraces, blue-tile formality, and public obligation rather than luxury alone."], "rejectedReads": ["generic desert market", "decorative Persian grandeur without civic obligation", "refugee commons as peripheral charity"], "cautionFlags": ["Keep law and hospitality together.", "Preserve exact sidecar anchor names.", "Do not let the sapphire iwan erase ration arcades and refugee status."]},
-  "environment": {"terrain": ["cliffside capital", "terraced slope", "civic terraces", "bazaar courts", "caravan approaches", "observatory heights"], "water": ["garden pools", "fountain courts", "cisterns", "commons water points"], "vegetation": ["star gardens", "courtyard trees", "desert herbs", "terrace plantings"], "climateLighting": ["hard clear daylight", "bazaar shade", "blue tile reflection", "sapphire iwan glow", "cool observatory night"], "environmentalLogic": "The image set uses cliff, terrace, shade, and tile to make arrival, judgment, hospitality, and orientation readable."},
-  "architecture": {"materials": ["Lapis Tile", "Sandstone", "Pale Marble Stone", "Silk", "White Plaster", "bronze lamps"], "forms": ["Persian Sapphire Iwan of the Star Garden", "Painted Tiles Sovereign Registry Court", "Covered Bazaar Beacon", "Grand Market Civic Hall", "Awning Monument", "Auction Court Nook", "Caravanserai", "Waystation Hall Nook", "High Court", "Judicial Quarter Gold-Seal Monument", "Witness Archive Nook", "Star Observatory", "Star Navigation Monument", "Celestial Court Nook", "Aid Commons", "Ration Arcade Nook"], "skyline": ["Sapphire Iwan as wonder", "Painted Tiles Sovereign Registry Court as authority", "Covered Bazaar Beacon as market signal", "observatory towers and ration arcades on terraces"], "lighting": ["sunlit blue tile", "awning shade", "gold seal gleam", "bronze lamp warmth", "cool star light"], "infrastructure": ["covered bazaars", "auction platforms", "caravan courts", "judicial stairs", "witness archives", "observatory platforms", "aid commons", "ration counters"], "motifs": ["sapphire iwans", "painted tiles", "covered bazaars", "gold seals", "woven banners", "caravan gates", "star gardens", "ration arcades"], "colorLanguage": ["sapphire blue", "desert gold", "white marble", "sandstone tan", "silk shade red"], "textureLanguage": ["glazed tile", "sun-warmed stone", "woven awning cloth", "carved cedar", "cool ceramic"]},
-  "civilization": {"people": "Citizens are formal, market-literate, law-conscious, and publicly aware; hospitality is visible and recorded.", "occupations": ["bazaar merchants", "auctioneers", "caravan brokers", "judges", "witness copyists", "astronomers", "aid workers", "ration clerks"], "socialClasses": ["registry officials", "bazaar houses", "caravan patrons", "judicial families", "astronomer guilds", "aid commons administrators", "refugee households"], "governance": "Painted Tiles Sovereign Registry Court balances market visibility, testimony, route access, and aid obligation.", "religion": "Star gardens, witness oaths, route blessings, ration obligations, and sapphire iwans make civic hospitality sacred-adjacent.", "customs": ["public bargaining under witness", "caravan guest registration", "formal testimony", "star chart consultation", "ration category review"], "bodyLanguage": ["formal public posture", "open-palmed bargaining", "measured court gestures", "shade-aware gathering"], "speechPatterns": ["polished market speech", "witness formulas", "caravan terms", "ration categories", "hospitality obligations"]},
-  "urbanLife": {"streets": {"appearance": "Bright, terraced, tiled, formal, and crowded with covered markets, blue iwans, high courts, observatory towers, and ration arcades.", "movement": "Movement follows bazaar lanes, auction courts, caravan gates, terrace stairs, court approaches, observatory paths, and aid commons routes.", "sounds": ["market calls", "auction voices", "court murmurs", "ration queues", "fountain water"], "smells": ["spices", "sun-warmed tile", "dust", "cedar", "tea", "ink"], "lighting": "Hard sunlight is moderated by deep bazaar shade and cool observatory night light.", "weatherEffects": "Heat, glare, dust wind, and cool night air shape routes.", "dayCycle": "Bazaars, registries, caravan gates, and aid commons dominate the day.", "nightCycle": "Bronze lamps, observatory routines, sapphire iwans, and quieter ration arcades dominate night."}, "shops": {"common": ["covered bazaar stalls", "spice counters", "fabric sellers", "tea stalls"], "uncommon": ["auction houses", "witness copyists", "star chart vendors", "ration counters"], "prestigious": ["registry legal offices", "major caravan houses", "astronomer instrument halls"], "exports": ["painted tile", "star charts", "spices", "caravan brokerage", "legal records"], "imports": ["grain", "water stores", "silk", "dyes", "metals", "medicine"], "streetFood": ["flatbread", "spiced rice", "dates", "lentil stew"], "services": ["auction witnessing", "caravan lodging", "route permits", "legal copying", "ration distribution"]}, "housing": {"wealthy": "Tile-fronted terrace homes near courts or observatory routes.", "middle": "Rooms over bazaar stalls and clerk apartments around shaded courtyards.", "poor": "Ration-adjacent housing and refugee commons rooms with shared water points."}},
+  "metadata": {
+    "schemaVersion": "2.0",
+    "analysisVersion": 2,
+    "cityCode": "ILQ",
+    "cityName": "Ilyr-Qesh",
+    "analysisDate": "2026-07-05",
+    "analystVersion": "gpt-5.5-thinking",
+    "analysisConfidence": "strong-lock",
+    "sourceStatus": "full",
+    "districtModel": "five sections; five district slots per section; D13 is the seat of power",
+    "missingStreetSections": [],
+    "basedOnImages": [
+      "ILQ-HERO-NE-v001",
+      "ILQ-HERO-NW-v001",
+      "ILQ-HERO-SE-v001",
+      "ILQ-HERO-SW-v001",
+      "ILQ-STREET-S1-v001",
+      "ILQ-STREET-S2-v001",
+      "ILQ-STREET-S3-v001",
+      "ILQ-STREET-S4-v001",
+      "ILQ-STREET-S5-v001"
+    ],
+    "basedOnSidecars": [
+      "ILQ-HERO-NE-v001.json",
+      "ILQ-HERO-NW-v001.json",
+      "ILQ-HERO-SE-v001.json",
+      "ILQ-HERO-SW-v001.json",
+      "ILQ-STREET-S1-v001.json",
+      "ILQ-STREET-S2-v001.json",
+      "ILQ-STREET-S3-v001.json",
+      "ILQ-STREET-S4-v001.json",
+      "ILQ-STREET-S5-v001.json"
+    ]
+  },
+  "cityDNA": {
+    "coreFantasy": "A Persian city where Persian Sapphire Iwan of the Star Garden, Covered Bazaar Beacon, Painted Tiles Sovereign Registry Court, and the five-section district spine turn local identity into functional civic space.",
+    "primaryEmotion": "source-backed civic presence",
+    "secondaryEmotion": "lived-in pressure beneath landmark order",
+    "readerTakeaway": "Ilyr-Qesh should feel immediately identifiable through exact landmarks and materials, not through generic fantasy-city shorthand.",
+    "civilizationThesis": "Ilyr-Qesh organizes power through Painted Tiles Sovereign Registry Court, public response through Covered Bazaar Beacon, civic memory through Persian Sapphire Iwan of the Star Garden, and daily life through S1 Grand Market Civic Hall, S2 Transit / Caravan / Rail Civic Hall, S3 Judicial Quarter Hall, S4 Observatory / Astronomy Civic Hall, S5 Refugee Commons Civic Hall.",
+    "visualIdentity": "Lapis Tile, Sandstone, Pale Marble Stone, Silk, White Plaster, Cliffside, Terraced Slope, Civic Terraces, Civic Blue Illumination, Oath Seals, Celestial Projection, and exact anchors including Painted Tiles Sovereign Registry Court, Covered Bazaar Beacon, Persian Sapphire Iwan of the Star Garden, Aid Commons, Caravanserai, Star Observatory, Grand Market Civic Hall, Awning Monument, Auction Court Nook, Transit / Caravan / Rail Civic Hall.",
+    "culturalIdentity": "A Persian civic culture where architecture, public obligations, roads, landmark approaches, and everyday work must all read as part of the same civilization.",
+    "symbolicIdentity": "The city symbol system is built from exact names and visible functions: Persian Sapphire Iwan of the Star Garden, Covered Bazaar Beacon, Painted Tiles Sovereign Registry Court, and section anchors such as Grand Market Civic Hall, Transit / Caravan / Rail Civic Hall, Judicial Quarter Hall, Observatory / Astronomy Civic Hall, Refugee Commons Civic Hall."
+  },
+  "canon": {
+    "canonLocks": [
+      "Ilyr-Qesh uses city code ILQ.",
+      "The Wonder is Persian Sapphire Iwan of the Star Garden.",
+      "The Beacon is Covered Bazaar Beacon.",
+      "The Seat of Power is Painted Tiles Sovereign Registry Court and occupies District 13.",
+      "The city uses five sections with five tactical district slots per section.",
+      "The source-backed section spine is: S1 Grand Market Civic Hall, S2 Transit / Caravan / Rail Civic Hall, S3 Judicial Quarter Hall, S4 Observatory / Astronomy Civic Hall, S5 Refugee Commons Civic Hall.",
+      "Preserve exact anchor name: Painted Tiles Sovereign Registry Court.",
+      "Preserve exact anchor name: Covered Bazaar Beacon.",
+      "Preserve exact anchor name: Persian Sapphire Iwan of the Star Garden.",
+      "Preserve exact anchor name: Aid Commons.",
+      "Preserve exact anchor name: Caravanserai.",
+      "Preserve exact anchor name: Star Observatory.",
+      "Preserve exact anchor name: Grand Market Civic Hall.",
+      "Preserve exact anchor name: Awning Monument.",
+      "Preserve exact anchor name: Auction Court Nook.",
+      "Preserve exact anchor name: Transit / Caravan / Rail Civic Hall.",
+      "Preserve exact anchor name: Woven Banners Monument.",
+      "Preserve exact anchor name: Waystation Hall Nook.",
+      "Preserve exact anchor name: Judicial Quarter Hall.",
+      "Preserve exact anchor name: High Court.",
+      "Preserve exact anchor name: Judicial Quarter Gold-Seal Monument.",
+      "Preserve exact anchor name: Witness Archive Nook.",
+      "Preserve exact anchor name: Observatory / Astronomy Civic Hall.",
+      "Preserve exact anchor name: Star Navigation Monument.",
+      "Preserve exact anchor name: Celestial Court Nook.",
+      "Preserve exact anchor name: Refugee Commons Civic Hall.",
+      "Preserve exact anchor name: Ration Arcade Nook."
+    ],
+    "provisionalCanon": [],
+    "rejectedReads": [
+      "Do not treat Ilyr-Qesh as a generic fantasy settlement with renamed landmarks.",
+      "Do not collapse the five-section board into a single mood or single district.",
+      "Do not replace exact anchor names with generic summaries.",
+      "Do not invent missing street-section landmarks when a street source is absent."
+    ],
+    "cautionFlags": [
+      "Keep every named Wonder, Beacon, Seat, section civic hall, major landmark, monument, and minor nook exact when present in sidecars.",
+      "If an image appears to deviate from a sidecar, preserve the exact name but avoid overclaiming visual details not supported by the source package.",
+      "Every district asset should remain usable for narrative scenes, tactical board dioramas, and city map backgrounds."
+    ]
+  },
+  "environment": {
+    "terrain": [
+      "Cliffside",
+      "Terraced Slope",
+      "Civic Terraces"
+    ],
+    "water": [
+      "dry city ground"
+    ],
+    "vegetation": [
+      "courtyard trees",
+      "balcony planters",
+      "public greenery where visible",
+      "source-backed local vegetation only"
+    ],
+    "climateLighting": [
+      "Civic Blue Illumination",
+      "Oath Seals",
+      "Celestial Projection",
+      "daylight",
+      "golden hour",
+      "lantern light",
+      "civic beacon glow"
+    ],
+    "environmentalLogic": "The environment should make Ilyr-Qesh's exact civic anchors plausible at street scale: terrain routes people toward section landmarks, lighting clarifies public authority, and water or landscape features remain source-backed rather than decorative filler."
+  },
+  "architecture": {
+    "materials": [
+      "Lapis Tile",
+      "Sandstone",
+      "Pale Marble Stone",
+      "Silk",
+      "White Plaster"
+    ],
+    "forms": [
+      "Painted Tiles Sovereign Registry Court",
+      "Covered Bazaar Beacon",
+      "Persian Sapphire Iwan of the Star Garden",
+      "Aid Commons",
+      "Caravanserai",
+      "Star Observatory",
+      "Grand Market Civic Hall",
+      "Awning Monument",
+      "Auction Court Nook",
+      "Transit / Caravan / Rail Civic Hall",
+      "Woven Banners Monument",
+      "Waystation Hall Nook",
+      "Judicial Quarter Hall",
+      "High Court",
+      "Judicial Quarter Gold-Seal Monument",
+      "Witness Archive Nook",
+      "Observatory / Astronomy Civic Hall",
+      "Star Navigation Monument",
+      "Celestial Court Nook",
+      "Refugee Commons Civic Hall",
+      "Ration Arcade Nook",
+      "section civic halls",
+      "major landmark approaches",
+      "monument frontages",
+      "minor landmark nooks",
+      "district roads and plazas",
+      "D13 authority complex"
+    ],
+    "skyline": [
+      "Persian Sapphire Iwan of the Star Garden",
+      "Painted Tiles Sovereign Registry Court",
+      "Covered Bazaar Beacon",
+      "Aid Commons",
+      "Caravanserai",
+      "Star Observatory",
+      "Grand Market Civic Hall",
+      "Awning Monument",
+      "Auction Court Nook"
+    ],
+    "lighting": [
+      "Civic Blue Illumination",
+      "Oath Seals",
+      "Celestial Projection",
+      "beacon-state light",
+      "lantern-lit civic paths",
+      "street-level shop and housing light"
+    ],
+    "infrastructure": [
+      "Grand Market Civic Hall",
+      "Transit / Caravan / Rail Civic Hall",
+      "Judicial Quarter Hall",
+      "Observatory / Astronomy Civic Hall",
+      "Refugee Commons Civic Hall",
+      "roads between district slots",
+      "public thresholds",
+      "plaza edges",
+      "records, permits, markets, services, or rituals implied by anchors"
+    ],
+    "motifs": [
+      "Painted",
+      "Tiles",
+      "Sovereign",
+      "Registry",
+      "Court",
+      "Covered",
+      "Bazaar",
+      "Beacon",
+      "Persian",
+      "Sapphire",
+      "Iwan",
+      "Star",
+      "Garden",
+      "Commons",
+      "Caravanserai"
+    ],
+    "colorLanguage": [
+      "source-backed material colors",
+      "civic blue signal accents",
+      "local textile, stone, metal, vegetation, or water colors from the image package"
+    ],
+    "textureLanguage": [
+      "Lapis Tile",
+      "Sandstone",
+      "Pale Marble Stone",
+      "Silk",
+      "White Plaster",
+      "worn pedestrian surfaces",
+      "worked civic ornament",
+      "weathered public thresholds",
+      "lived-in shop and housing details"
+    ]
+  },
+  "civilization": {
+    "people": "The population should read as Persian and city-specific: citizens occupy streets, shops, public thresholds, and landmark approaches as people who understand the local civic order.",
+    "occupations": [
+      "market sellers",
+      "stall keepers",
+      "astronomers",
+      "navigators",
+      "archivists",
+      "record clerks",
+      "district clerks",
+      "craft families",
+      "porters",
+      "maintenance workers",
+      "food sellers",
+      "messengers"
+    ],
+    "socialClasses": [
+      "D13 officials and court staff",
+      "section landmark custodians",
+      "guild and service families",
+      "shopkeepers and artisans",
+      "laborers, carriers, messengers, and maintenance crews",
+      "households tied to local district obligations"
+    ],
+    "governance": "Government is centered on Painted Tiles Sovereign Registry Court. Its authority should be visible through courts, records, public access routes, civic lamps, guards or attendants, and the way citizens respond to D13.",
+    "religion": "Religious or ritual life should only be emphasized where source anchors support it, especially names such as none explicitly dominant in the current anchors.",
+    "customs": [
+      "citizens orient public life around Grand Market Civic Hall in Section 1",
+      "citizens orient public life around Transit / Caravan / Rail Civic Hall in Section 2",
+      "citizens orient public life around Judicial Quarter Hall in Section 3",
+      "citizens orient public life around Observatory / Astronomy Civic Hall in Section 4",
+      "citizens orient public life around Refugee Commons Civic Hall in Section 5",
+      "beacon changes become public behavior, not background color",
+      "exact landmark names carry social memory and directions",
+      "civic errands happen visibly at thresholds, queues, ledgers, stalls, courts, or shrines"
+    ],
+    "bodyLanguage": [
+      "citizens pause at civic signals",
+      "workers move with practiced familiarity around district anchors",
+      "officials use thresholds and raised places to control attention",
+      "residents treat named landmarks as everyday orientation points"
+    ],
+    "speechPatterns": [
+      "directions use exact landmark names",
+      "public notices are tied to section anchors",
+      "local speech distinguishes civic authority, ordinary errands, and landmark obligations",
+      "people refer to D13 as the seat of power rather than a faction headquarters"
+    ]
+  },
+  "urbanLife": {
+    "streets": {
+      "appearance": "Streets should show Ilyr-Qesh's exact anchor system at pedestrian scale: S1 Grand Market Civic Hall, S2 Transit / Caravan / Rail Civic Hall, S3 Judicial Quarter Hall, S4 Observatory / Astronomy Civic Hall, S5 Refugee Commons Civic Hall. Keep roads, plazas, stairs, thresholds, lamps, signs-without-readable-text, props, and civilians aligned to the source-backed materials and landmarks.",
+      "movement": "Movement should be readable for tactical-board assets: citizens pass between 25 district slots, section anchors, D13, service streets, and landmark approaches without visual clutter hiding the civic purpose.",
+      "sounds": [
+        "foot traffic",
+        "vendors and service calls",
+        "tools and carts",
+        "public notices",
+        "landmark-specific sounds from water, bells, animals, machines, or crowds when source-backed",
+        "beacon-state crowd reactions"
+      ],
+      "smells": [
+        "street food",
+        "worked material dust",
+        "lamp oil or smoke",
+        "vegetation or water where source-backed",
+        "worn stone, timber, metal, plaster, or fabric"
+      ],
+      "lighting": "Use the package's source-backed civic lighting, daylight/golden-hour reads, lanterns, and beacon glow. Lighting must help identify authority, safety, and landmark function.",
+      "weatherEffects": "Weather should reinforce the local terrain and materials without overwhelming the city identity or inventing unsupported climate extremes.",
+      "dayCycle": "Day scenes emphasize errands, trade, records, repairs, rituals, food, and section-level movement.",
+      "nightCycle": "Night scenes emphasize lantern routes, closed thresholds, guarded landmarks, quiet work, and beacon visibility."
+    },
+    "shops": {
+      "common": [
+        "food stalls",
+        "repair stalls",
+        "material vendors",
+        "ledger or permit desks",
+        "local craft counters",
+        "street services tied to section anchors"
+      ],
+      "uncommon": [
+        "specialist landmark caretakers",
+        "instrument makers",
+        "ritual suppliers",
+        "map or record copyists",
+        "district-specific guild services"
+      ],
+      "prestigious": [
+        "D13-facing legal or registry services",
+        "elite craft workshops",
+        "landmark commission houses",
+        "official suppliers for civic ceremonies"
+      ],
+      "exports": [
+        "local crafts",
+        "records or seals",
+        "finished materials",
+        "food goods",
+        "specialized tools or ritual goods as supported by anchors"
+      ],
+      "imports": [
+        "rare materials",
+        "dyes, oils, spices, timber, stone, metal, glass, or cloth as needed by the architecture",
+        "outside records and trade goods"
+      ],
+      "streetFood": [
+        "flatbread or local bread",
+        "stew or grilled skewers",
+        "fruit or preserved food",
+        "tea or civic-square drinks",
+        "portable worker meals"
+      ],
+      "services": [
+        "directions by landmark",
+        "message running",
+        "permit help",
+        "repairs",
+        "food service",
+        "transport or porterage",
+        "public notice posting"
+      ]
+    },
+    "housing": {
+      "wealthy": "Prestige housing clusters near Painted Tiles Sovereign Registry Court, high terraces, or landmark-facing routes, using the best source-backed materials and controlled views of civic space.",
+      "middle": "Shop-over-house units, courtyard homes, guild-adjacent apartments, and family rooms near section anchors.",
+      "poor": "Smaller back-street rooms, work-adjacent housing, shared courtyards, service alleys, patched materials, and dense but still city-specific lived-in detail."
+    }
+  },
   "districts": [
-    {"sectionNumber": 1, "name": "Grand Market", "civicPurpose": "Public commerce, auction visibility, rumor, and Beacon response.", "visualIdentity": "Grand Market Civic Hall, Covered Bazaar Beacon, Awning Monument, Auction Court Nook.", "emotionalIdentity": "bright, crowded, consequential", "gameplayAssetNeeds": ["Grand Market Civic Hall", "Covered Bazaar Beacon", "Awning Monument", "Auction Court Nook"], "narrativeUse": ["market signal", "trade conflict", "auction scene"], "landmark": "Covered Bazaar Beacon", "minorLandmarks": ["Awning Monument", "Auction Court Nook"]},
-    {"sectionNumber": 2, "name": "Transit / Caravan / Rail", "civicPurpose": "Arrival, route law, hospitality, and long-distance movement.", "visualIdentity": "Transit / Caravan / Rail Civic Hall, Caravanserai, Woven Banners Monument, Waystation Hall Nook.", "emotionalIdentity": "hospitable, watchful, route-bound", "gameplayAssetNeeds": ["Transit / Caravan / Rail Civic Hall", "Caravanserai", "Woven Banners Monument", "Waystation Hall Nook"], "narrativeUse": ["arrival", "route law", "caravan negotiation"], "landmark": "Caravanserai", "minorLandmarks": ["Woven Banners Monument", "Waystation Hall Nook"]},
-    {"sectionNumber": 3, "name": "Judicial Quarter", "civicPurpose": "Judgment, testimony, witness records, and legal pressure.", "visualIdentity": "Judicial Quarter Hall, High Court, Judicial Quarter Gold-Seal Monument, Witness Archive Nook.", "emotionalIdentity": "formal, severe, accountable", "gameplayAssetNeeds": ["Judicial Quarter Hall", "High Court", "Judicial Quarter Gold-Seal Monument", "Witness Archive Nook"], "narrativeUse": ["judgment", "testimony", "record dispute"], "landmark": "High Court", "minorLandmarks": ["Judicial Quarter Gold-Seal Monument", "Witness Archive Nook"]},
-    {"sectionNumber": 4, "name": "Observatory / Astronomy", "civicPurpose": "Navigation, prediction, public sky-reading, and long planning.", "visualIdentity": "Observatory / Astronomy Civic Hall, Star Observatory, Star Navigation Monument, Celestial Court Nook.", "emotionalIdentity": "elevated, precise, contemplative", "gameplayAssetNeeds": ["Observatory / Astronomy Civic Hall", "Star Observatory", "Star Navigation Monument", "Celestial Court Nook"], "narrativeUse": ["navigation", "prediction", "night revelation"], "landmark": "Star Observatory", "minorLandmarks": ["Star Navigation Monument", "Celestial Court Nook"]},
-    {"sectionNumber": 5, "name": "Refugee Commons", "civicPurpose": "Refugee care, ration pressure, public obligation, and status disputes.", "visualIdentity": "Refugee Commons Civic Hall, Aid Commons, Woven Banners Monument, Ration Arcade Nook.", "emotionalIdentity": "moral, crowded, exposed", "gameplayAssetNeeds": ["Refugee Commons Civic Hall", "Aid Commons", "Woven Banners Monument", "Ration Arcade Nook"], "narrativeUse": ["refugee care", "ration pressure", "status dispute"], "landmark": "Aid Commons", "minorLandmarks": ["Woven Banners Monument", "Ration Arcade Nook"]}
+    {
+      "districtNumber": 1,
+      "districtId": "D01",
+      "sectionNumber": 1,
+      "name": "D01 — Grand Market Civic Hall Civic-Anchor Precinct",
+      "civicPurpose": "This district turns Section 1's source-backed anchor set into a board-scale civic space: Grand Market Civic Hall, Covered Bazaar Beacon, Awning Monument, Auction Court Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Ilyr-Qesh.",
+      "visualIdentity": "Use Grand Market Civic Hall as the main read. Keep exact source anchors visible where applicable: Grand Market Civic Hall, Covered Bazaar Beacon, Awning Monument, Auction Court Nook. The district should share Ilyr-Qesh's Persian identity, Lapis Tile, Sandstone, Pale Marble Stone, Silk, and Cliffside, Terraced Slope, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Locally grounded, with Ilyr-Qesh's larger mood shaped by Persian Sapphire Iwan of the Star Garden, Covered Bazaar Beacon, and Painted Tiles Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Grand Market Civic Hall",
+        "Covered Bazaar Beacon",
+        "Awning Monument",
+        "Auction Court Nook",
+        "Section 1 pedestrian-scale props",
+        "Ilyr-Qesh civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Grand Market Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Grand Market Civic Hall",
+      "minorLandmarks": [
+        "Covered Bazaar Beacon",
+        "Awning Monument",
+        "Auction Court Nook"
+      ]
+    },
+    {
+      "districtNumber": 2,
+      "districtId": "D02",
+      "sectionNumber": 1,
+      "name": "D02 — Covered Bazaar Beacon Landmark Approach",
+      "civicPurpose": "This district turns Section 1's source-backed anchor set into a board-scale civic space: Grand Market Civic Hall, Covered Bazaar Beacon, Awning Monument, Auction Court Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Ilyr-Qesh.",
+      "visualIdentity": "Use Covered Bazaar Beacon as the main read. Keep exact source anchors visible where applicable: Grand Market Civic Hall, Covered Bazaar Beacon, Awning Monument, Auction Court Nook. The district should share Ilyr-Qesh's Persian identity, Lapis Tile, Sandstone, Pale Marble Stone, Silk, and Cliffside, Terraced Slope, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Public-facing, with Ilyr-Qesh's larger mood shaped by Persian Sapphire Iwan of the Star Garden, Covered Bazaar Beacon, and Painted Tiles Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Covered Bazaar Beacon",
+        "Grand Market Civic Hall",
+        "Awning Monument",
+        "Auction Court Nook",
+        "Section 1 pedestrian-scale props",
+        "Ilyr-Qesh civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Covered Bazaar Beacon",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "Conjunction response, rumor spread, or authority pressure"
+      ],
+      "landmark": "Covered Bazaar Beacon",
+      "minorLandmarks": [
+        "Grand Market Civic Hall",
+        "Awning Monument",
+        "Auction Court Nook"
+      ]
+    },
+    {
+      "districtNumber": 3,
+      "districtId": "D03",
+      "sectionNumber": 1,
+      "name": "D03 — Awning Monument Monument Frontage",
+      "civicPurpose": "This district turns Section 1's source-backed anchor set into a board-scale civic space: Grand Market Civic Hall, Covered Bazaar Beacon, Awning Monument, Auction Court Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Ilyr-Qesh.",
+      "visualIdentity": "Use Awning Monument as the main read. Keep exact source anchors visible where applicable: Grand Market Civic Hall, Covered Bazaar Beacon, Awning Monument, Auction Court Nook. The district should share Ilyr-Qesh's Persian identity, Lapis Tile, Sandstone, Pale Marble Stone, Silk, and Cliffside, Terraced Slope, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Memorial or symbolic, with Ilyr-Qesh's larger mood shaped by Persian Sapphire Iwan of the Star Garden, Covered Bazaar Beacon, and Painted Tiles Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Awning Monument",
+        "Grand Market Civic Hall",
+        "Covered Bazaar Beacon",
+        "Auction Court Nook",
+        "Section 1 pedestrian-scale props",
+        "Ilyr-Qesh civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Awning Monument",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Awning Monument",
+      "minorLandmarks": [
+        "Grand Market Civic Hall",
+        "Covered Bazaar Beacon",
+        "Auction Court Nook"
+      ]
+    },
+    {
+      "districtNumber": 6,
+      "districtId": "D06",
+      "sectionNumber": 1,
+      "name": "D06 — Auction Court Nook Neighborhood Nook",
+      "civicPurpose": "This district turns Section 1's source-backed anchor set into a board-scale civic space: Grand Market Civic Hall, Covered Bazaar Beacon, Awning Monument, Auction Court Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Ilyr-Qesh.",
+      "visualIdentity": "Use Auction Court Nook as the main read. Keep exact source anchors visible where applicable: Grand Market Civic Hall, Covered Bazaar Beacon, Awning Monument, Auction Court Nook. The district should share Ilyr-Qesh's Persian identity, Lapis Tile, Sandstone, Pale Marble Stone, Silk, and Cliffside, Terraced Slope, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Intimate and lived-in, with Ilyr-Qesh's larger mood shaped by Persian Sapphire Iwan of the Star Garden, Covered Bazaar Beacon, and Painted Tiles Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Auction Court Nook",
+        "Grand Market Civic Hall",
+        "Covered Bazaar Beacon",
+        "Awning Monument",
+        "Section 1 pedestrian-scale props",
+        "Ilyr-Qesh civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Auction Court Nook",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Auction Court Nook",
+      "minorLandmarks": [
+        "Grand Market Civic Hall",
+        "Covered Bazaar Beacon",
+        "Awning Monument"
+      ]
+    },
+    {
+      "districtNumber": 7,
+      "districtId": "D07",
+      "sectionNumber": 1,
+      "name": "D07 — Grand Market Civic Hall Supporting Streets",
+      "civicPurpose": "This district turns Section 1's source-backed anchor set into a board-scale civic space: Grand Market Civic Hall, Covered Bazaar Beacon, Awning Monument, Auction Court Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Ilyr-Qesh.",
+      "visualIdentity": "Use Grand Market Civic Hall as the main read. Keep exact source anchors visible where applicable: Grand Market Civic Hall, Covered Bazaar Beacon, Awning Monument, Auction Court Nook. The district should share Ilyr-Qesh's Persian identity, Lapis Tile, Sandstone, Pale Marble Stone, Silk, and Cliffside, Terraced Slope, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Connective and practical, with Ilyr-Qesh's larger mood shaped by Persian Sapphire Iwan of the Star Garden, Covered Bazaar Beacon, and Painted Tiles Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Grand Market Civic Hall",
+        "Covered Bazaar Beacon",
+        "Awning Monument",
+        "Auction Court Nook",
+        "Section 1 pedestrian-scale props",
+        "Ilyr-Qesh civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Grand Market Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Grand Market Civic Hall",
+      "minorLandmarks": [
+        "Covered Bazaar Beacon",
+        "Awning Monument",
+        "Auction Court Nook"
+      ]
+    },
+    {
+      "districtNumber": 4,
+      "districtId": "D04",
+      "sectionNumber": 2,
+      "name": "D04 — Transit / Caravan / Rail Civic Hall Civic-Anchor Precinct",
+      "civicPurpose": "This district turns Section 2's source-backed anchor set into a board-scale civic space: Transit / Caravan / Rail Civic Hall, Caravanserai, Woven Banners Monument, Waystation Hall Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Ilyr-Qesh.",
+      "visualIdentity": "Use Transit / Caravan / Rail Civic Hall as the main read. Keep exact source anchors visible where applicable: Transit / Caravan / Rail Civic Hall, Caravanserai, Woven Banners Monument, Waystation Hall Nook. The district should share Ilyr-Qesh's Persian identity, Lapis Tile, Sandstone, Pale Marble Stone, Silk, and Cliffside, Terraced Slope, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Locally grounded, with Ilyr-Qesh's larger mood shaped by Persian Sapphire Iwan of the Star Garden, Covered Bazaar Beacon, and Painted Tiles Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Transit / Caravan / Rail Civic Hall",
+        "Caravanserai",
+        "Woven Banners Monument",
+        "Waystation Hall Nook",
+        "Section 2 pedestrian-scale props",
+        "Ilyr-Qesh civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Transit / Caravan / Rail Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Transit / Caravan / Rail Civic Hall",
+      "minorLandmarks": [
+        "Caravanserai",
+        "Woven Banners Monument",
+        "Waystation Hall Nook"
+      ]
+    },
+    {
+      "districtNumber": 5,
+      "districtId": "D05",
+      "sectionNumber": 2,
+      "name": "D05 — Caravanserai Landmark Approach",
+      "civicPurpose": "This district turns Section 2's source-backed anchor set into a board-scale civic space: Transit / Caravan / Rail Civic Hall, Caravanserai, Woven Banners Monument, Waystation Hall Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Ilyr-Qesh.",
+      "visualIdentity": "Use Caravanserai as the main read. Keep exact source anchors visible where applicable: Transit / Caravan / Rail Civic Hall, Caravanserai, Woven Banners Monument, Waystation Hall Nook. The district should share Ilyr-Qesh's Persian identity, Lapis Tile, Sandstone, Pale Marble Stone, Silk, and Cliffside, Terraced Slope, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Public-facing, with Ilyr-Qesh's larger mood shaped by Persian Sapphire Iwan of the Star Garden, Covered Bazaar Beacon, and Painted Tiles Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Caravanserai",
+        "Transit / Caravan / Rail Civic Hall",
+        "Woven Banners Monument",
+        "Waystation Hall Nook",
+        "Section 2 pedestrian-scale props",
+        "Ilyr-Qesh civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Caravanserai",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Caravanserai",
+      "minorLandmarks": [
+        "Transit / Caravan / Rail Civic Hall",
+        "Woven Banners Monument",
+        "Waystation Hall Nook"
+      ]
+    },
+    {
+      "districtNumber": 9,
+      "districtId": "D09",
+      "sectionNumber": 2,
+      "name": "D09 — Woven Banners Monument Monument Frontage",
+      "civicPurpose": "This district turns Section 2's source-backed anchor set into a board-scale civic space: Transit / Caravan / Rail Civic Hall, Caravanserai, Woven Banners Monument, Waystation Hall Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Ilyr-Qesh.",
+      "visualIdentity": "Use Woven Banners Monument as the main read. Keep exact source anchors visible where applicable: Transit / Caravan / Rail Civic Hall, Caravanserai, Woven Banners Monument, Waystation Hall Nook. The district should share Ilyr-Qesh's Persian identity, Lapis Tile, Sandstone, Pale Marble Stone, Silk, and Cliffside, Terraced Slope, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Memorial or symbolic, with Ilyr-Qesh's larger mood shaped by Persian Sapphire Iwan of the Star Garden, Covered Bazaar Beacon, and Painted Tiles Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Woven Banners Monument",
+        "Transit / Caravan / Rail Civic Hall",
+        "Caravanserai",
+        "Waystation Hall Nook",
+        "Section 2 pedestrian-scale props",
+        "Ilyr-Qesh civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Woven Banners Monument",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Woven Banners Monument",
+      "minorLandmarks": [
+        "Transit / Caravan / Rail Civic Hall",
+        "Caravanserai",
+        "Waystation Hall Nook"
+      ]
+    },
+    {
+      "districtNumber": 10,
+      "districtId": "D10",
+      "sectionNumber": 2,
+      "name": "D10 — Waystation Hall Nook Neighborhood Nook",
+      "civicPurpose": "This district turns Section 2's source-backed anchor set into a board-scale civic space: Transit / Caravan / Rail Civic Hall, Caravanserai, Woven Banners Monument, Waystation Hall Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Ilyr-Qesh.",
+      "visualIdentity": "Use Waystation Hall Nook as the main read. Keep exact source anchors visible where applicable: Transit / Caravan / Rail Civic Hall, Caravanserai, Woven Banners Monument, Waystation Hall Nook. The district should share Ilyr-Qesh's Persian identity, Lapis Tile, Sandstone, Pale Marble Stone, Silk, and Cliffside, Terraced Slope, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Intimate and lived-in, with Ilyr-Qesh's larger mood shaped by Persian Sapphire Iwan of the Star Garden, Covered Bazaar Beacon, and Painted Tiles Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Waystation Hall Nook",
+        "Transit / Caravan / Rail Civic Hall",
+        "Caravanserai",
+        "Woven Banners Monument",
+        "Section 2 pedestrian-scale props",
+        "Ilyr-Qesh civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Waystation Hall Nook",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Waystation Hall Nook",
+      "minorLandmarks": [
+        "Transit / Caravan / Rail Civic Hall",
+        "Caravanserai",
+        "Woven Banners Monument"
+      ]
+    },
+    {
+      "districtNumber": 15,
+      "districtId": "D15",
+      "sectionNumber": 2,
+      "name": "D15 — Transit / Caravan / Rail Civic Hall Supporting Streets",
+      "civicPurpose": "This district turns Section 2's source-backed anchor set into a board-scale civic space: Transit / Caravan / Rail Civic Hall, Caravanserai, Woven Banners Monument, Waystation Hall Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Ilyr-Qesh.",
+      "visualIdentity": "Use Transit / Caravan / Rail Civic Hall as the main read. Keep exact source anchors visible where applicable: Transit / Caravan / Rail Civic Hall, Caravanserai, Woven Banners Monument, Waystation Hall Nook. The district should share Ilyr-Qesh's Persian identity, Lapis Tile, Sandstone, Pale Marble Stone, Silk, and Cliffside, Terraced Slope, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Connective and practical, with Ilyr-Qesh's larger mood shaped by Persian Sapphire Iwan of the Star Garden, Covered Bazaar Beacon, and Painted Tiles Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Transit / Caravan / Rail Civic Hall",
+        "Caravanserai",
+        "Woven Banners Monument",
+        "Waystation Hall Nook",
+        "Section 2 pedestrian-scale props",
+        "Ilyr-Qesh civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Transit / Caravan / Rail Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Transit / Caravan / Rail Civic Hall",
+      "minorLandmarks": [
+        "Caravanserai",
+        "Woven Banners Monument",
+        "Waystation Hall Nook"
+      ]
+    },
+    {
+      "districtNumber": 8,
+      "districtId": "D08",
+      "sectionNumber": 3,
+      "name": "D08 — Judicial Quarter Hall Civic-Anchor Precinct",
+      "civicPurpose": "This district turns Section 3's source-backed anchor set into a board-scale civic space: Judicial Quarter Hall, High Court, Judicial Quarter Gold-Seal Monument, Witness Archive Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Ilyr-Qesh.",
+      "visualIdentity": "Use Judicial Quarter Hall as the main read. Keep exact source anchors visible where applicable: Judicial Quarter Hall, High Court, Judicial Quarter Gold-Seal Monument, Witness Archive Nook. The district should share Ilyr-Qesh's Persian identity, Lapis Tile, Sandstone, Pale Marble Stone, Silk, and Cliffside, Terraced Slope, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Locally grounded, with Ilyr-Qesh's larger mood shaped by Persian Sapphire Iwan of the Star Garden, Covered Bazaar Beacon, and Painted Tiles Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Judicial Quarter Hall",
+        "High Court",
+        "Judicial Quarter Gold-Seal Monument",
+        "Witness Archive Nook",
+        "Section 3 pedestrian-scale props",
+        "Ilyr-Qesh civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Judicial Quarter Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Judicial Quarter Hall",
+      "minorLandmarks": [
+        "High Court",
+        "Judicial Quarter Gold-Seal Monument",
+        "Witness Archive Nook"
+      ]
+    },
+    {
+      "districtNumber": 12,
+      "districtId": "D12",
+      "sectionNumber": 3,
+      "name": "D12 — High Court Landmark Approach",
+      "civicPurpose": "This district turns Section 3's source-backed anchor set into a board-scale civic space: Judicial Quarter Hall, High Court, Judicial Quarter Gold-Seal Monument, Witness Archive Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Ilyr-Qesh.",
+      "visualIdentity": "Use High Court as the main read. Keep exact source anchors visible where applicable: Judicial Quarter Hall, High Court, Judicial Quarter Gold-Seal Monument, Witness Archive Nook. The district should share Ilyr-Qesh's Persian identity, Lapis Tile, Sandstone, Pale Marble Stone, Silk, and Cliffside, Terraced Slope, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Public-facing, with Ilyr-Qesh's larger mood shaped by Persian Sapphire Iwan of the Star Garden, Covered Bazaar Beacon, and Painted Tiles Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "High Court",
+        "Judicial Quarter Hall",
+        "Judicial Quarter Gold-Seal Monument",
+        "Witness Archive Nook",
+        "Section 3 pedestrian-scale props",
+        "Ilyr-Qesh civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on High Court",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "High Court",
+      "minorLandmarks": [
+        "Judicial Quarter Hall",
+        "Judicial Quarter Gold-Seal Monument",
+        "Witness Archive Nook"
+      ]
+    },
+    {
+      "districtNumber": 13,
+      "districtId": "D13",
+      "sectionNumber": 3,
+      "name": "D13 — Painted Tiles Sovereign Registry Court Seat of Power District",
+      "civicPurpose": "This district turns Section 3's source-backed anchor set into a board-scale civic space: Judicial Quarter Hall, High Court, Judicial Quarter Gold-Seal Monument, Witness Archive Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Ilyr-Qesh.",
+      "visualIdentity": "Use Painted Tiles Sovereign Registry Court as the main read. Keep exact source anchors visible where applicable: Judicial Quarter Hall, High Court, Judicial Quarter Gold-Seal Monument, Witness Archive Nook. The district should share Ilyr-Qesh's Persian identity, Lapis Tile, Sandstone, Pale Marble Stone, Silk, and Cliffside, Terraced Slope, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Memorial or symbolic, with Ilyr-Qesh's larger mood shaped by Persian Sapphire Iwan of the Star Garden, Covered Bazaar Beacon, and Painted Tiles Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Painted Tiles Sovereign Registry Court",
+        "Judicial Quarter Hall",
+        "High Court",
+        "Judicial Quarter Gold-Seal Monument",
+        "Witness Archive Nook",
+        "Section 3 pedestrian-scale props",
+        "Ilyr-Qesh civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Painted Tiles Sovereign Registry Court",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "Conjunction response, rumor spread, or authority pressure"
+      ],
+      "landmark": "Painted Tiles Sovereign Registry Court",
+      "minorLandmarks": [
+        "Judicial Quarter Hall",
+        "High Court",
+        "Judicial Quarter Gold-Seal Monument",
+        "Witness Archive Nook"
+      ]
+    },
+    {
+      "districtNumber": 14,
+      "districtId": "D14",
+      "sectionNumber": 3,
+      "name": "D14 — Witness Archive Nook Neighborhood Nook",
+      "civicPurpose": "This district turns Section 3's source-backed anchor set into a board-scale civic space: Judicial Quarter Hall, High Court, Judicial Quarter Gold-Seal Monument, Witness Archive Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Ilyr-Qesh.",
+      "visualIdentity": "Use Witness Archive Nook as the main read. Keep exact source anchors visible where applicable: Judicial Quarter Hall, High Court, Judicial Quarter Gold-Seal Monument, Witness Archive Nook. The district should share Ilyr-Qesh's Persian identity, Lapis Tile, Sandstone, Pale Marble Stone, Silk, and Cliffside, Terraced Slope, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Intimate and lived-in, with Ilyr-Qesh's larger mood shaped by Persian Sapphire Iwan of the Star Garden, Covered Bazaar Beacon, and Painted Tiles Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Witness Archive Nook",
+        "Judicial Quarter Hall",
+        "High Court",
+        "Judicial Quarter Gold-Seal Monument",
+        "Section 3 pedestrian-scale props",
+        "Ilyr-Qesh civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Witness Archive Nook",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Witness Archive Nook",
+      "minorLandmarks": [
+        "Judicial Quarter Hall",
+        "High Court",
+        "Judicial Quarter Gold-Seal Monument"
+      ]
+    },
+    {
+      "districtNumber": 18,
+      "districtId": "D18",
+      "sectionNumber": 3,
+      "name": "D18 — Judicial Quarter Hall Supporting Streets",
+      "civicPurpose": "This district turns Section 3's source-backed anchor set into a board-scale civic space: Judicial Quarter Hall, High Court, Judicial Quarter Gold-Seal Monument, Witness Archive Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Ilyr-Qesh.",
+      "visualIdentity": "Use Judicial Quarter Hall as the main read. Keep exact source anchors visible where applicable: Judicial Quarter Hall, High Court, Judicial Quarter Gold-Seal Monument, Witness Archive Nook. The district should share Ilyr-Qesh's Persian identity, Lapis Tile, Sandstone, Pale Marble Stone, Silk, and Cliffside, Terraced Slope, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Connective and practical, with Ilyr-Qesh's larger mood shaped by Persian Sapphire Iwan of the Star Garden, Covered Bazaar Beacon, and Painted Tiles Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Judicial Quarter Hall",
+        "High Court",
+        "Judicial Quarter Gold-Seal Monument",
+        "Witness Archive Nook",
+        "Section 3 pedestrian-scale props",
+        "Ilyr-Qesh civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Judicial Quarter Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Judicial Quarter Hall",
+      "minorLandmarks": [
+        "High Court",
+        "Judicial Quarter Gold-Seal Monument",
+        "Witness Archive Nook"
+      ]
+    },
+    {
+      "districtNumber": 11,
+      "districtId": "D11",
+      "sectionNumber": 4,
+      "name": "D11 — Observatory / Astronomy Civic Hall Civic-Anchor Precinct",
+      "civicPurpose": "This district turns Section 4's source-backed anchor set into a board-scale civic space: Observatory / Astronomy Civic Hall, Star Observatory, Star Navigation Monument, Celestial Court Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Ilyr-Qesh.",
+      "visualIdentity": "Use Observatory / Astronomy Civic Hall as the main read. Keep exact source anchors visible where applicable: Observatory / Astronomy Civic Hall, Star Observatory, Star Navigation Monument, Celestial Court Nook. The district should share Ilyr-Qesh's Persian identity, Lapis Tile, Sandstone, Pale Marble Stone, Silk, and Cliffside, Terraced Slope, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Locally grounded, with Ilyr-Qesh's larger mood shaped by Persian Sapphire Iwan of the Star Garden, Covered Bazaar Beacon, and Painted Tiles Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Observatory / Astronomy Civic Hall",
+        "Star Observatory",
+        "Star Navigation Monument",
+        "Celestial Court Nook",
+        "Section 4 pedestrian-scale props",
+        "Ilyr-Qesh civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Observatory / Astronomy Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Observatory / Astronomy Civic Hall",
+      "minorLandmarks": [
+        "Star Observatory",
+        "Star Navigation Monument",
+        "Celestial Court Nook"
+      ]
+    },
+    {
+      "districtNumber": 16,
+      "districtId": "D16",
+      "sectionNumber": 4,
+      "name": "D16 — Star Observatory Landmark Approach",
+      "civicPurpose": "This district turns Section 4's source-backed anchor set into a board-scale civic space: Observatory / Astronomy Civic Hall, Star Observatory, Star Navigation Monument, Celestial Court Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Ilyr-Qesh.",
+      "visualIdentity": "Use Star Observatory as the main read. Keep exact source anchors visible where applicable: Observatory / Astronomy Civic Hall, Star Observatory, Star Navigation Monument, Celestial Court Nook. The district should share Ilyr-Qesh's Persian identity, Lapis Tile, Sandstone, Pale Marble Stone, Silk, and Cliffside, Terraced Slope, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Public-facing, with Ilyr-Qesh's larger mood shaped by Persian Sapphire Iwan of the Star Garden, Covered Bazaar Beacon, and Painted Tiles Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Star Observatory",
+        "Observatory / Astronomy Civic Hall",
+        "Star Navigation Monument",
+        "Celestial Court Nook",
+        "Section 4 pedestrian-scale props",
+        "Ilyr-Qesh civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Star Observatory",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Star Observatory",
+      "minorLandmarks": [
+        "Observatory / Astronomy Civic Hall",
+        "Star Navigation Monument",
+        "Celestial Court Nook"
+      ]
+    },
+    {
+      "districtNumber": 17,
+      "districtId": "D17",
+      "sectionNumber": 4,
+      "name": "D17 — Star Navigation Monument Monument Frontage",
+      "civicPurpose": "This district turns Section 4's source-backed anchor set into a board-scale civic space: Observatory / Astronomy Civic Hall, Star Observatory, Star Navigation Monument, Celestial Court Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Ilyr-Qesh.",
+      "visualIdentity": "Use Star Navigation Monument as the main read. Keep exact source anchors visible where applicable: Observatory / Astronomy Civic Hall, Star Observatory, Star Navigation Monument, Celestial Court Nook. The district should share Ilyr-Qesh's Persian identity, Lapis Tile, Sandstone, Pale Marble Stone, Silk, and Cliffside, Terraced Slope, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Memorial or symbolic, with Ilyr-Qesh's larger mood shaped by Persian Sapphire Iwan of the Star Garden, Covered Bazaar Beacon, and Painted Tiles Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Star Navigation Monument",
+        "Observatory / Astronomy Civic Hall",
+        "Star Observatory",
+        "Celestial Court Nook",
+        "Section 4 pedestrian-scale props",
+        "Ilyr-Qesh civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Star Navigation Monument",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Star Navigation Monument",
+      "minorLandmarks": [
+        "Observatory / Astronomy Civic Hall",
+        "Star Observatory",
+        "Celestial Court Nook"
+      ]
+    },
+    {
+      "districtNumber": 21,
+      "districtId": "D21",
+      "sectionNumber": 4,
+      "name": "D21 — Celestial Court Nook Neighborhood Nook",
+      "civicPurpose": "This district turns Section 4's source-backed anchor set into a board-scale civic space: Observatory / Astronomy Civic Hall, Star Observatory, Star Navigation Monument, Celestial Court Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Ilyr-Qesh.",
+      "visualIdentity": "Use Celestial Court Nook as the main read. Keep exact source anchors visible where applicable: Observatory / Astronomy Civic Hall, Star Observatory, Star Navigation Monument, Celestial Court Nook. The district should share Ilyr-Qesh's Persian identity, Lapis Tile, Sandstone, Pale Marble Stone, Silk, and Cliffside, Terraced Slope, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Intimate and lived-in, with Ilyr-Qesh's larger mood shaped by Persian Sapphire Iwan of the Star Garden, Covered Bazaar Beacon, and Painted Tiles Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Celestial Court Nook",
+        "Observatory / Astronomy Civic Hall",
+        "Star Observatory",
+        "Star Navigation Monument",
+        "Section 4 pedestrian-scale props",
+        "Ilyr-Qesh civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Celestial Court Nook",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Celestial Court Nook",
+      "minorLandmarks": [
+        "Observatory / Astronomy Civic Hall",
+        "Star Observatory",
+        "Star Navigation Monument"
+      ]
+    },
+    {
+      "districtNumber": 22,
+      "districtId": "D22",
+      "sectionNumber": 4,
+      "name": "D22 — Observatory / Astronomy Civic Hall Supporting Streets",
+      "civicPurpose": "This district turns Section 4's source-backed anchor set into a board-scale civic space: Observatory / Astronomy Civic Hall, Star Observatory, Star Navigation Monument, Celestial Court Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Ilyr-Qesh.",
+      "visualIdentity": "Use Observatory / Astronomy Civic Hall as the main read. Keep exact source anchors visible where applicable: Observatory / Astronomy Civic Hall, Star Observatory, Star Navigation Monument, Celestial Court Nook. The district should share Ilyr-Qesh's Persian identity, Lapis Tile, Sandstone, Pale Marble Stone, Silk, and Cliffside, Terraced Slope, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Connective and practical, with Ilyr-Qesh's larger mood shaped by Persian Sapphire Iwan of the Star Garden, Covered Bazaar Beacon, and Painted Tiles Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Observatory / Astronomy Civic Hall",
+        "Star Observatory",
+        "Star Navigation Monument",
+        "Celestial Court Nook",
+        "Section 4 pedestrian-scale props",
+        "Ilyr-Qesh civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Observatory / Astronomy Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Observatory / Astronomy Civic Hall",
+      "minorLandmarks": [
+        "Star Observatory",
+        "Star Navigation Monument",
+        "Celestial Court Nook"
+      ]
+    },
+    {
+      "districtNumber": 19,
+      "districtId": "D19",
+      "sectionNumber": 5,
+      "name": "D19 — Refugee Commons Civic Hall Civic-Anchor Precinct",
+      "civicPurpose": "This district turns Section 5's source-backed anchor set into a board-scale civic space: Refugee Commons Civic Hall, Aid Commons, Woven Banners Monument, Ration Arcade Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Ilyr-Qesh.",
+      "visualIdentity": "Use Refugee Commons Civic Hall as the main read. Keep exact source anchors visible where applicable: Refugee Commons Civic Hall, Aid Commons, Woven Banners Monument, Ration Arcade Nook. The district should share Ilyr-Qesh's Persian identity, Lapis Tile, Sandstone, Pale Marble Stone, Silk, and Cliffside, Terraced Slope, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Locally grounded, with Ilyr-Qesh's larger mood shaped by Persian Sapphire Iwan of the Star Garden, Covered Bazaar Beacon, and Painted Tiles Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Refugee Commons Civic Hall",
+        "Aid Commons",
+        "Woven Banners Monument",
+        "Ration Arcade Nook",
+        "Section 5 pedestrian-scale props",
+        "Ilyr-Qesh civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Refugee Commons Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Refugee Commons Civic Hall",
+      "minorLandmarks": [
+        "Aid Commons",
+        "Woven Banners Monument",
+        "Ration Arcade Nook"
+      ]
+    },
+    {
+      "districtNumber": 20,
+      "districtId": "D20",
+      "sectionNumber": 5,
+      "name": "D20 — Aid Commons Landmark Approach",
+      "civicPurpose": "This district turns Section 5's source-backed anchor set into a board-scale civic space: Refugee Commons Civic Hall, Aid Commons, Woven Banners Monument, Ration Arcade Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Ilyr-Qesh.",
+      "visualIdentity": "Use Aid Commons as the main read. Keep exact source anchors visible where applicable: Refugee Commons Civic Hall, Aid Commons, Woven Banners Monument, Ration Arcade Nook. The district should share Ilyr-Qesh's Persian identity, Lapis Tile, Sandstone, Pale Marble Stone, Silk, and Cliffside, Terraced Slope, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Public-facing, with Ilyr-Qesh's larger mood shaped by Persian Sapphire Iwan of the Star Garden, Covered Bazaar Beacon, and Painted Tiles Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Aid Commons",
+        "Refugee Commons Civic Hall",
+        "Woven Banners Monument",
+        "Ration Arcade Nook",
+        "Section 5 pedestrian-scale props",
+        "Ilyr-Qesh civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Aid Commons",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Aid Commons",
+      "minorLandmarks": [
+        "Refugee Commons Civic Hall",
+        "Woven Banners Monument",
+        "Ration Arcade Nook"
+      ]
+    },
+    {
+      "districtNumber": 23,
+      "districtId": "D23",
+      "sectionNumber": 5,
+      "name": "D23 — Woven Banners Monument Monument Frontage",
+      "civicPurpose": "This district turns Section 5's source-backed anchor set into a board-scale civic space: Refugee Commons Civic Hall, Aid Commons, Woven Banners Monument, Ration Arcade Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Ilyr-Qesh.",
+      "visualIdentity": "Use Woven Banners Monument as the main read. Keep exact source anchors visible where applicable: Refugee Commons Civic Hall, Aid Commons, Woven Banners Monument, Ration Arcade Nook. The district should share Ilyr-Qesh's Persian identity, Lapis Tile, Sandstone, Pale Marble Stone, Silk, and Cliffside, Terraced Slope, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Memorial or symbolic, with Ilyr-Qesh's larger mood shaped by Persian Sapphire Iwan of the Star Garden, Covered Bazaar Beacon, and Painted Tiles Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Woven Banners Monument",
+        "Refugee Commons Civic Hall",
+        "Aid Commons",
+        "Ration Arcade Nook",
+        "Section 5 pedestrian-scale props",
+        "Ilyr-Qesh civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Woven Banners Monument",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Woven Banners Monument",
+      "minorLandmarks": [
+        "Refugee Commons Civic Hall",
+        "Aid Commons",
+        "Ration Arcade Nook"
+      ]
+    },
+    {
+      "districtNumber": 24,
+      "districtId": "D24",
+      "sectionNumber": 5,
+      "name": "D24 — Ration Arcade Nook Neighborhood Nook",
+      "civicPurpose": "This district turns Section 5's source-backed anchor set into a board-scale civic space: Refugee Commons Civic Hall, Aid Commons, Woven Banners Monument, Ration Arcade Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Ilyr-Qesh.",
+      "visualIdentity": "Use Ration Arcade Nook as the main read. Keep exact source anchors visible where applicable: Refugee Commons Civic Hall, Aid Commons, Woven Banners Monument, Ration Arcade Nook. The district should share Ilyr-Qesh's Persian identity, Lapis Tile, Sandstone, Pale Marble Stone, Silk, and Cliffside, Terraced Slope, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Intimate and lived-in, with Ilyr-Qesh's larger mood shaped by Persian Sapphire Iwan of the Star Garden, Covered Bazaar Beacon, and Painted Tiles Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Ration Arcade Nook",
+        "Refugee Commons Civic Hall",
+        "Aid Commons",
+        "Woven Banners Monument",
+        "Section 5 pedestrian-scale props",
+        "Ilyr-Qesh civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Ration Arcade Nook",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Ration Arcade Nook",
+      "minorLandmarks": [
+        "Refugee Commons Civic Hall",
+        "Aid Commons",
+        "Woven Banners Monument"
+      ]
+    },
+    {
+      "districtNumber": 25,
+      "districtId": "D25",
+      "sectionNumber": 5,
+      "name": "D25 — Refugee Commons Civic Hall Supporting Streets",
+      "civicPurpose": "This district turns Section 5's source-backed anchor set into a board-scale civic space: Refugee Commons Civic Hall, Aid Commons, Woven Banners Monument, Ration Arcade Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Ilyr-Qesh.",
+      "visualIdentity": "Use Refugee Commons Civic Hall as the main read. Keep exact source anchors visible where applicable: Refugee Commons Civic Hall, Aid Commons, Woven Banners Monument, Ration Arcade Nook. The district should share Ilyr-Qesh's Persian identity, Lapis Tile, Sandstone, Pale Marble Stone, Silk, and Cliffside, Terraced Slope, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Connective and practical, with Ilyr-Qesh's larger mood shaped by Persian Sapphire Iwan of the Star Garden, Covered Bazaar Beacon, and Painted Tiles Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Refugee Commons Civic Hall",
+        "Aid Commons",
+        "Woven Banners Monument",
+        "Ration Arcade Nook",
+        "Section 5 pedestrian-scale props",
+        "Ilyr-Qesh civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Refugee Commons Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Refugee Commons Civic Hall",
+      "minorLandmarks": [
+        "Aid Commons",
+        "Woven Banners Monument",
+        "Ration Arcade Nook"
+      ]
+    }
   ],
-  "landmarks": {"wonder": {"name": "Persian Sapphire Iwan of the Star Garden", "symbolicRole": "Celestial order and civic hospitality made monumental.", "visualRole": "Grand sapphire iwan and star garden of blue tile, terraces, planting, and ceremonial space.", "civicRole": "Wonder-scale site for ceremonies, star gatherings, and hospitality oaths.", "narrativeUse": ["imperial ceremony", "hospitality oath", "star-garden scene"], "assetUse": ["map wonder", "skyline anchor"], "sensoryIdentity": ["cool tile", "fountain water", "desert wind"], "storyHooks": ["A ceremony beneath the iwan tests whether beautiful law can feed the vulnerable."]}, "beacon": {"name": "Covered Bazaar Beacon", "symbolicRole": "Market assembly as signal heart.", "visualRole": "Beacon rising from covered bazaar shade and auction courts.", "civicRole": "Coordinates market notices, caravan rumors, court alerts, and aid response.", "narrativeUse": ["market signal", "public rumor", "Beacon alarm"], "assetUse": ["S1 centerpiece", "signal marker"], "sensoryIdentity": ["blue glow", "spice air", "market voices"], "storyHooks": ["A Beacon change spreads through market rumor faster than law."]}, "seatOfPower": {"name": "Painted Tiles Sovereign Registry Court", "symbolicRole": "Law, record, and imperial order made visible.", "visualRole": "Formal tile court with white stone, gold seals, and public stairs.", "civicRole": "Government center for trade disputes, testimony, refugee status, route access, and registry records.", "narrativeUse": ["trade dispute", "testimony", "refugee status ruling"], "assetUse": ["seat-of-power marker"], "sensoryIdentity": ["ink", "glazed tile", "gold seal wax"], "storyHooks": ["A refugee status ruling exposes whether welcome is real."]}, "majorLandmarks": [{"name": "Caravanserai", "symbolicRole": "Hospitality as infrastructure.", "visualRole": "Shaded caravan court with lodging arches and route boards.", "civicRole": "Arrival, lodging, route law, and guest registration.", "narrativeUse": ["arrival", "route law"], "assetUse": ["S2 diorama"], "sensoryIdentity": ["dust", "tea", "cloth shade"], "storyHooks": ["A guest record changes who the city owes shelter."]}, {"name": "High Court", "symbolicRole": "Public truth under sunlit law.", "visualRole": "Judicial hall with gold seals and witness archive.", "civicRole": "Judgment, testimony, public hearings.", "narrativeUse": ["trial", "testimony"], "assetUse": ["S3 diorama"], "sensoryIdentity": ["wax seals", "stone heat", "ink"], "storyHooks": ["A witness archive proves hospitality was promised first."]}, {"name": "Star Observatory", "symbolicRole": "Sky-reading as civic authority.", "visualRole": "Blue-domed observatory with star navigation instruments.", "civicRole": "Navigation, prediction, route timing.", "narrativeUse": ["prediction", "navigation"], "assetUse": ["S4 diorama"], "sensoryIdentity": ["cool night", "brass instruments", "paper charts"], "storyHooks": ["A star reading contradicts court convenience."]}, {"name": "Aid Commons", "symbolicRole": "Hospitality tested by vulnerability.", "visualRole": "Aid commons with ration arcade, water, shade, and queues.", "civicRole": "Refugee care and ration distribution.", "narrativeUse": ["refugee care", "moral test"], "assetUse": ["S5 diorama"], "sensoryIdentity": ["water jars", "cloth shade", "paper tokens"], "storyHooks": ["A ration category decides whether welcome is real."]}]},
-  "assetGuidance": {"districtDioramaGuidance": ["S1: Grand Market Civic Hall, Covered Bazaar Beacon, Awning Monument, Auction Court Nook.", "S2: Transit / Caravan / Rail Civic Hall, Caravanserai, Woven Banners Monument, Waystation Hall Nook.", "S3: Judicial Quarter Hall, High Court, Judicial Quarter Gold-Seal Monument, Witness Archive Nook.", "S4: Observatory / Astronomy Civic Hall, Star Observatory, Star Navigation Monument, Celestial Court Nook.", "S5: Refugee Commons Civic Hall, Aid Commons, Woven Banners Monument, Ration Arcade Nook."], "mapBackgroundGuidance": ["Keep Persian Sapphire Iwan of the Star Garden, Covered Bazaar Beacon, and Painted Tiles Sovereign Registry Court legible together.", "Use lapis tile, cliff terraces, awning shade, legal courts, caravanserais, observatories, and refugee commons."], "requiredVisualElements": ["Persian Sapphire Iwan of the Star Garden", "Covered Bazaar Beacon", "Painted Tiles Sovereign Registry Court", "Awning Monument", "Auction Court Nook", "Caravanserai", "Waystation Hall Nook", "High Court", "Judicial Quarter Gold-Seal Monument", "Witness Archive Nook", "Star Observatory", "Star Navigation Monument", "Celestial Court Nook", "Aid Commons", "Ration Arcade Nook"], "elementsToAvoid": ["generic desert market", "lawless bazaar", "refugee commons omitted"]}
+  "landmarks": {
+    "wonder": {
+      "name": "Persian Sapphire Iwan of the Star Garden",
+      "symbolicRole": "Persian Sapphire Iwan of the Star Garden concentrates Ilyr-Qesh's local symbolism into a usable civic landmark: city wonder, separate far skyline anchor.",
+      "visualRole": "A one-per-city wonder: spectacular, unmistakable, and larger than every section landmark. It turns Ilyr-Qesh's geography, race identity, material culture, and civic magic into one public symbol. Built for Ilyr-Qesh's Persian population, it uses Lapis Tile, Sandstone, Pale Marble Stone, Silk, White Plaster across Cliffside, Terraced Slope, Civic Terraces; water context: dry city ground; magic expression: Civic Blue Illumination, Oath Seals, Celestial Projection. It must read clearly as a high-fantasy tactical-board asset with no baked labels or text.",
+      "civicRole": "Serves as city wonder, separate far skyline anchor within Ilyr-Qesh; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+      "narrativeUse": [
+        "stage scenes involving Persian Sapphire Iwan of the Star Garden",
+        "show how Ilyr-Qesh turns landmark symbolism into civic pressure",
+        "anchor public movement and crowd behavior",
+        "give writers a concrete place for announcements, disputes, errands, or rituals"
+      ],
+      "assetUse": [
+        "city landmark asset",
+        "map background landmark marker",
+        "visual continuity anchor across hero and street scenes",
+        "scale reference for civilians, roads, plazas, and props"
+      ],
+      "sensoryIdentity": [
+        "local foot traffic",
+        "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+        "public voices and civic work nearby",
+        "ambient city light and weathering",
+        "close pedestrian-scale details rather than abstract skyline-only treatment"
+      ],
+      "storyHooks": [
+        "a routine civic action at Persian Sapphire Iwan of the Star Garden becomes narratively important",
+        "the visible condition of Persian Sapphire Iwan of the Star Garden signals political or social stress",
+        "someone uses Persian Sapphire Iwan of the Star Garden's public function to redirect crowds or information",
+        "an overlooked detail at Persian Sapphire Iwan of the Star Garden reveals how Ilyr-Qesh really works"
+      ]
+    },
+    "beacon": {
+      "name": "Covered Bazaar Beacon",
+      "symbolicRole": "Covered Bazaar Beacon concentrates Ilyr-Qesh's local symbolism into a usable civic landmark: Section 1 beacon, near/front civic signal anchor.",
+      "visualRole": "A largest local landmark in this section, subordinate only to the city wonder and citadel. It belongs to Section 1 (Grand Market) of Ilyr-Qesh and should use Market Arcades, Reed Pavilions, White Limestone Civic Blocks, sandstone and white plaster materials, Gold Seals, Red Fabric Awnings, Lantern Lit, and the Persian visual language. Design focus: market bells, covered bazaars, trade arcades, auction courts, stalls. Terrain/water context: Civic Terraces; Dry Ground. Magic expression: Civic Blue Illumination, Oath Seals, Celestial Projection. No baked labels or text.",
+      "civicRole": "Serves as Section 1 beacon, near/front civic signal anchor within Ilyr-Qesh; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+      "narrativeUse": [
+        "stage scenes involving Covered Bazaar Beacon",
+        "show how Ilyr-Qesh turns landmark symbolism into civic pressure",
+        "anchor public movement and crowd behavior",
+        "give writers a concrete place for announcements, disputes, errands, or rituals"
+      ],
+      "assetUse": [
+        "district diorama anchor for Section 1",
+        "map background landmark marker",
+        "visual continuity anchor across hero and street scenes",
+        "scale reference for civilians, roads, plazas, and props"
+      ],
+      "sensoryIdentity": [
+        "local foot traffic",
+        "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+        "public voices and civic work nearby",
+        "beacon or lamp glow when applicable",
+        "close pedestrian-scale details rather than abstract skyline-only treatment"
+      ],
+      "storyHooks": [
+        "a routine civic action at Covered Bazaar Beacon becomes narratively important",
+        "the visible condition of Covered Bazaar Beacon signals political or social stress",
+        "someone uses Covered Bazaar Beacon's public function to redirect crowds or information",
+        "an overlooked detail at Covered Bazaar Beacon reveals how Ilyr-Qesh really works"
+      ]
+    },
+    "seatOfPower": {
+      "name": "Painted Tiles Sovereign Registry Court",
+      "symbolicRole": "Painted Tiles Sovereign Registry Court concentrates Ilyr-Qesh's local symbolism into a usable civic landmark: dominant central civic anchor / District 13 seat of power.",
+      "visualRole": "The district-13 seat of power: courts, audience terraces, sealed archives, command platforms, and the visible apparatus of government. It is not a faction HQ; it is the city's central civic authority. Built for Ilyr-Qesh's Persian population, it uses Lapis Tile, Sandstone, Pale Marble Stone, Silk, White Plaster across Cliffside, Terraced Slope, Civic Terraces; water context: dry city ground; magic expression: Civic Blue Illumination, Oath Seals, Celestial Projection. It must read clearly as a high-fantasy tactical-board asset with no baked labels or text.",
+      "civicRole": "Serves as dominant central civic anchor / District 13 seat of power within Ilyr-Qesh; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+      "narrativeUse": [
+        "stage scenes involving Painted Tiles Sovereign Registry Court",
+        "show how Ilyr-Qesh turns landmark symbolism into civic pressure",
+        "anchor public movement and crowd behavior",
+        "give writers a concrete place for announcements, disputes, errands, or rituals"
+      ],
+      "assetUse": [
+        "city landmark asset",
+        "map background landmark marker",
+        "visual continuity anchor across hero and street scenes",
+        "scale reference for civilians, roads, plazas, and props"
+      ],
+      "sensoryIdentity": [
+        "local foot traffic",
+        "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+        "public voices and civic work nearby",
+        "ambient city light and weathering",
+        "close pedestrian-scale details rather than abstract skyline-only treatment"
+      ],
+      "storyHooks": [
+        "a routine civic action at Painted Tiles Sovereign Registry Court becomes narratively important",
+        "the visible condition of Painted Tiles Sovereign Registry Court signals political or social stress",
+        "someone uses Painted Tiles Sovereign Registry Court's public function to redirect crowds or information",
+        "an overlooked detail at Painted Tiles Sovereign Registry Court reveals how Ilyr-Qesh really works"
+      ]
+    },
+    "majorLandmarks": [
+      {
+        "name": "Aid Commons",
+        "symbolicRole": "Aid Commons concentrates Ilyr-Qesh's local symbolism into a usable civic landmark: additional major landmark selected for this hero-view camera angle.",
+        "visualRole": "A largest local landmark in this section, subordinate only to the city wonder and citadel. It belongs to Section 5 (Refugee Commons) of Ilyr-Qesh and should use Reed Pavilions, Market Arcades, Timber Longhouses, sandstone and white plaster materials, Woven Banners, Lantern Lit, Red Fabric Awnings, and the Persian visual language. Design focus: ration counters, largest section focal point, strong vertical silhouette, distinct gameplay landmark, visible from nearby districts. Terrain/water context: Civic Terraces; Dry Ground. Magic expression: Civic Blue Illumination, Oath Seals, Celestial Projection. No baked labels or text.",
+        "civicRole": "Serves as additional major landmark selected for this hero-view camera angle within Ilyr-Qesh; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Aid Commons",
+          "show how Ilyr-Qesh turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 5",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Aid Commons becomes narratively important",
+          "the visible condition of Aid Commons signals political or social stress",
+          "someone uses Aid Commons's public function to redirect crowds or information",
+          "an overlooked detail at Aid Commons reveals how Ilyr-Qesh really works"
+        ]
+      },
+      {
+        "name": "Caravanserai",
+        "symbolicRole": "Caravanserai concentrates Ilyr-Qesh's local symbolism into a usable civic landmark: additional major landmark selected for this hero-view camera angle.",
+        "visualRole": "A largest local landmark in this section, subordinate only to the city wonder and citadel. It belongs to Section 2 (Transit / Caravan / Rail) of Ilyr-Qesh and should use Market Arcades, White Limestone Civic Blocks, Timber Longhouses, sandstone and white plaster materials, Lantern Lit, Woven Banners, Red Fabric Awnings, and the Persian visual language. Design focus: wheels, route maps, signal flags, hitching posts, depots. Terrain/water context: Civic Terraces; Dry Ground. Magic expression: Civic Blue Illumination, Oath Seals, Celestial Projection. No baked labels or text.",
+        "civicRole": "Serves as additional major landmark selected for this hero-view camera angle within Ilyr-Qesh; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Caravanserai",
+          "show how Ilyr-Qesh turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 2",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Caravanserai becomes narratively important",
+          "the visible condition of Caravanserai signals political or social stress",
+          "someone uses Caravanserai's public function to redirect crowds or information",
+          "an overlooked detail at Caravanserai reveals how Ilyr-Qesh really works"
+        ]
+      },
+      {
+        "name": "Star Observatory",
+        "symbolicRole": "Star Observatory concentrates Ilyr-Qesh's local symbolism into a usable civic landmark: additional major landmark selected for this hero-view camera angle.",
+        "visualRole": "A largest local landmark in this section, subordinate only to the city wonder and citadel. It belongs to Section 4 (Observatory / Astronomy) of Ilyr-Qesh and should use Archive Towers, Lecture Courts, Cliffside Monasteries, sandstone and white plaster materials, Star Navigation, Moon Gate Arches, Civic Blue Glow, and the Persian visual language. Design focus: observatories, lens towers, calendar courts, star charts, largest section focal point. Terrain/water context: Civic Terraces; Dry Ground. Magic expression: Civic Blue Illumination, Oath Seals, Celestial Projection. No baked labels or text.",
+        "civicRole": "Serves as additional major landmark selected for this hero-view camera angle within Ilyr-Qesh; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Star Observatory",
+          "show how Ilyr-Qesh turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 4",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Star Observatory becomes narratively important",
+          "the visible condition of Star Observatory signals political or social stress",
+          "someone uses Star Observatory's public function to redirect crowds or information",
+          "an overlooked detail at Star Observatory reveals how Ilyr-Qesh really works"
+        ]
+      },
+      {
+        "name": "Grand Market Civic Hall",
+        "symbolicRole": "Grand Market Civic Hall concentrates Ilyr-Qesh's local symbolism into a usable civic landmark: Section 1 local anchor.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing. It belongs to Section 1 (Grand Market) of Ilyr-Qesh and should use Reed Pavilions, White Limestone Civic Blocks, Market Arcades, sandstone and white plaster materials, Lantern Lit, Gold Seals, Red Fabric Awnings, and the Persian visual language. Design focus: market bells, covered bazaars, trade arcades, auction courts, stalls. Terrain/water context: Civic Terraces; Dry Ground. Magic expression: Civic Blue Illumination, Oath Seals, Celestial Projection. No baked labels or text.",
+        "civicRole": "Serves as Section 1 local anchor within Ilyr-Qesh; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Grand Market Civic Hall",
+          "show how Ilyr-Qesh turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 1",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Grand Market Civic Hall becomes narratively important",
+          "the visible condition of Grand Market Civic Hall signals political or social stress",
+          "someone uses Grand Market Civic Hall's public function to redirect crowds or information",
+          "an overlooked detail at Grand Market Civic Hall reveals how Ilyr-Qesh really works"
+        ]
+      },
+      {
+        "name": "Awning Monument",
+        "symbolicRole": "Awning Monument concentrates Ilyr-Qesh's local symbolism into a usable civic landmark: Section 1 local anchor.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles. It belongs to Section 1 (Grand Market) of Ilyr-Qesh and should use Market Arcades, Reed Pavilions, White Limestone Civic Blocks, sandstone and white plaster materials, Lantern Lit, Gold Seals, Red Fabric Awnings, and the Persian visual language. Design focus: market bells, covered bazaars, trade arcades, auction courts, stalls. Terrain/water context: Civic Terraces; Dry Ground. Magic expression: Civic Blue Illumination, Oath Seals, Celestial Projection. No baked labels or text.",
+        "civicRole": "Serves as Section 1 local anchor within Ilyr-Qesh; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Awning Monument",
+          "show how Ilyr-Qesh turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 1",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Awning Monument becomes narratively important",
+          "the visible condition of Awning Monument signals political or social stress",
+          "someone uses Awning Monument's public function to redirect crowds or information",
+          "an overlooked detail at Awning Monument reveals how Ilyr-Qesh really works"
+        ]
+      },
+      {
+        "name": "Auction Court Nook",
+        "symbolicRole": "Auction Court Nook concentrates Ilyr-Qesh's local symbolism into a usable civic landmark: Section 1 local anchor.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette. It belongs to Section 1 (Grand Market) of Ilyr-Qesh and should use Market Arcades, Reed Pavilions, White Limestone Civic Blocks, sandstone and white plaster materials, Gold Seals, Red Fabric Awnings, Lantern Lit, and the Persian visual language. Design focus: awnings, coin strings, market bells, covered bazaars, trade arcades. Terrain/water context: Civic Terraces; Dry Ground. Magic expression: Civic Blue Illumination, Oath Seals, Celestial Projection. No baked labels or text.",
+        "civicRole": "Serves as Section 1 local anchor within Ilyr-Qesh; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Auction Court Nook",
+          "show how Ilyr-Qesh turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 1",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Auction Court Nook becomes narratively important",
+          "the visible condition of Auction Court Nook signals political or social stress",
+          "someone uses Auction Court Nook's public function to redirect crowds or information",
+          "an overlooked detail at Auction Court Nook reveals how Ilyr-Qesh really works"
+        ]
+      },
+      {
+        "name": "Transit / Caravan / Rail Civic Hall",
+        "symbolicRole": "Transit / Caravan / Rail Civic Hall concentrates Ilyr-Qesh's local symbolism into a usable civic landmark: Section 2 local anchor.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing. It belongs to Section 2 (Transit / Caravan / Rail) of Ilyr-Qesh and should use White Limestone Civic Blocks, Timber Longhouses, Market Arcades, sandstone and white plaster materials, Lantern Lit, Woven Banners, Red Fabric Awnings, and the Persian visual language. Design focus: institutional anchor, public-facing administration, clear central silhouette, board-readable entrance, wheels. Terrain/water context: Civic Terraces; Dry Ground. Magic expression: Civic Blue Illumination, Oath Seals, Celestial Projection. No baked labels or text.",
+        "civicRole": "Serves as Section 2 local anchor within Ilyr-Qesh; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Transit / Caravan / Rail Civic Hall",
+          "show how Ilyr-Qesh turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 2",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Transit / Caravan / Rail Civic Hall becomes narratively important",
+          "the visible condition of Transit / Caravan / Rail Civic Hall signals political or social stress",
+          "someone uses Transit / Caravan / Rail Civic Hall's public function to redirect crowds or information",
+          "an overlooked detail at Transit / Caravan / Rail Civic Hall reveals how Ilyr-Qesh really works"
+        ]
+      },
+      {
+        "name": "Woven Banners Monument",
+        "symbolicRole": "Woven Banners Monument concentrates Ilyr-Qesh's local symbolism into a usable civic landmark: Section 2 local anchor.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles. It belongs to Section 2 (Transit / Caravan / Rail) of Ilyr-Qesh and should use Timber Longhouses, Market Arcades, White Limestone Civic Blocks, sandstone and white plaster materials, Woven Banners, Red Fabric Awnings, Lantern Lit, and the Persian visual language. Design focus: caravan yards, stable courts, ticket booths, symbolic civic object, small ceremonial site. Terrain/water context: Civic Terraces; Dry Ground. Magic expression: Civic Blue Illumination, Oath Seals, Celestial Projection. No baked labels or text.",
+        "civicRole": "Serves as Section 2 local anchor within Ilyr-Qesh; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Woven Banners Monument",
+          "show how Ilyr-Qesh turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 2",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Woven Banners Monument becomes narratively important",
+          "the visible condition of Woven Banners Monument signals political or social stress",
+          "someone uses Woven Banners Monument's public function to redirect crowds or information",
+          "an overlooked detail at Woven Banners Monument reveals how Ilyr-Qesh really works"
+        ]
+      },
+      {
+        "name": "Waystation Hall Nook",
+        "symbolicRole": "Waystation Hall Nook concentrates Ilyr-Qesh's local symbolism into a usable civic landmark: Section 2 local anchor.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette. It belongs to Section 2 (Transit / Caravan / Rail) of Ilyr-Qesh and should use White Limestone Civic Blocks, Timber Longhouses, Market Arcades, sandstone and white plaster materials, Lantern Lit, Woven Banners, Red Fabric Awnings, and the Persian visual language. Design focus: caravan yards, stable courts, ticket booths, small local identity prop, street-level detail. Terrain/water context: Civic Terraces; Dry Ground. Magic expression: Civic Blue Illumination, Oath Seals, Celestial Projection. No baked labels or text.",
+        "civicRole": "Serves as Section 2 local anchor within Ilyr-Qesh; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Waystation Hall Nook",
+          "show how Ilyr-Qesh turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 2",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Waystation Hall Nook becomes narratively important",
+          "the visible condition of Waystation Hall Nook signals political or social stress",
+          "someone uses Waystation Hall Nook's public function to redirect crowds or information",
+          "an overlooked detail at Waystation Hall Nook reveals how Ilyr-Qesh really works"
+        ]
+      },
+      {
+        "name": "Judicial Quarter Hall",
+        "symbolicRole": "Judicial Quarter Hall concentrates Ilyr-Qesh's local symbolism into a usable civic landmark: Section 3 local anchor.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing. It belongs to Section 3 (Judicial Quarter) of Ilyr-Qesh and should use Temple Platforms, White Limestone Civic Blocks, Archive Towers, sandstone and white plaster materials, Bone White Ceremony, Civic Blue Glow, Gold Seals, and the Persian visual language. Design focus: evidence vaults, trial steps, hearing rooms, institutional anchor, public-facing administration. Terrain/water context: Civic Terraces; Dry Ground. Magic expression: Civic Blue Illumination, Oath Seals, Celestial Projection. No baked labels or text.",
+        "civicRole": "Serves as Section 3 local anchor within Ilyr-Qesh; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Judicial Quarter Hall",
+          "show how Ilyr-Qesh turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 3",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Judicial Quarter Hall becomes narratively important",
+          "the visible condition of Judicial Quarter Hall signals political or social stress",
+          "someone uses Judicial Quarter Hall's public function to redirect crowds or information",
+          "an overlooked detail at Judicial Quarter Hall reveals how Ilyr-Qesh really works"
+        ]
+      },
+      {
+        "name": "High Court",
+        "symbolicRole": "High Court concentrates Ilyr-Qesh's local symbolism into a usable civic landmark: Section 3 local anchor.",
+        "visualRole": "A mandatory Section 3 Beacon: a culturally adapted civic signal flame / warning-light landmark visible across the city spine. It belongs to Section 3 (Judicial Quarter) of Ilyr-Qesh and should use White Limestone Civic Blocks, Archive Towers, Temple Platforms, sandstone and white plaster materials, Bone White Ceremony, Civic Blue Glow, Gold Seals, and the Persian visual language. Design focus: scales, gavels, oath flames, blindfolded statues, courthouses. Terrain/water context: Civic Terraces; Dry Ground. Magic expression: Civic Blue Illumination, Oath Seals, Celestial Projection. No baked labels or text.",
+        "civicRole": "Serves as Section 3 local anchor within Ilyr-Qesh; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving High Court",
+          "show how Ilyr-Qesh turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 3",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at High Court becomes narratively important",
+          "the visible condition of High Court signals political or social stress",
+          "someone uses High Court's public function to redirect crowds or information",
+          "an overlooked detail at High Court reveals how Ilyr-Qesh really works"
+        ]
+      },
+      {
+        "name": "Judicial Quarter Gold-Seal Monument",
+        "symbolicRole": "Judicial Quarter Gold-Seal Monument concentrates Ilyr-Qesh's local symbolism into a usable civic landmark: Section 3 local anchor.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles. It belongs to Section 3 (Judicial Quarter) of Ilyr-Qesh and should use White Limestone Civic Blocks, Archive Towers, Temple Platforms, sandstone and white plaster materials, Civic Blue Glow, Gold Seals, Bone White Ceremony, and the Persian visual language. Design focus: evidence vaults, trial steps, hearing rooms, symbolic civic object, small ceremonial site. Terrain/water context: Civic Terraces; Dry Ground. Magic expression: Civic Blue Illumination, Oath Seals, Celestial Projection. No baked labels or text.",
+        "civicRole": "Serves as Section 3 local anchor within Ilyr-Qesh; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Judicial Quarter Gold-Seal Monument",
+          "show how Ilyr-Qesh turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 3",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Judicial Quarter Gold-Seal Monument becomes narratively important",
+          "the visible condition of Judicial Quarter Gold-Seal Monument signals political or social stress",
+          "someone uses Judicial Quarter Gold-Seal Monument's public function to redirect crowds or information",
+          "an overlooked detail at Judicial Quarter Gold-Seal Monument reveals how Ilyr-Qesh really works"
+        ]
+      },
+      {
+        "name": "Witness Archive Nook",
+        "symbolicRole": "Witness Archive Nook concentrates Ilyr-Qesh's local symbolism into a usable civic landmark: Section 3 local anchor.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette. It belongs to Section 3 (Judicial Quarter) of Ilyr-Qesh and should use White Limestone Civic Blocks, Archive Towers, Temple Platforms, sandstone and white plaster materials, Gold Seals, Bone White Ceremony, Civic Blue Glow, and the Persian visual language. Design focus: street-level detail, usable board landmark, subordinate scale, scales, gavels. Terrain/water context: Civic Terraces; Dry Ground. Magic expression: Civic Blue Illumination, Oath Seals, Celestial Projection. No baked labels or text.",
+        "civicRole": "Serves as Section 3 local anchor within Ilyr-Qesh; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Witness Archive Nook",
+          "show how Ilyr-Qesh turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 3",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Witness Archive Nook becomes narratively important",
+          "the visible condition of Witness Archive Nook signals political or social stress",
+          "someone uses Witness Archive Nook's public function to redirect crowds or information",
+          "an overlooked detail at Witness Archive Nook reveals how Ilyr-Qesh really works"
+        ]
+      },
+      {
+        "name": "Observatory / Astronomy Civic Hall",
+        "symbolicRole": "Observatory / Astronomy Civic Hall concentrates Ilyr-Qesh's local symbolism into a usable civic landmark: Section 4 local anchor.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing. It belongs to Section 4 (Observatory / Astronomy) of Ilyr-Qesh and should use Archive Towers, Lecture Courts, Cliffside Monasteries, sandstone and white plaster materials, Star Navigation, Moon Gate Arches, Civic Blue Glow, and the Persian visual language. Design focus: moon dials, observatories, lens towers, calendar courts, star charts. Terrain/water context: Civic Terraces; Dry Ground. Magic expression: Civic Blue Illumination, Oath Seals, Celestial Projection. No baked labels or text.",
+        "civicRole": "Serves as Section 4 local anchor within Ilyr-Qesh; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Observatory / Astronomy Civic Hall",
+          "show how Ilyr-Qesh turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 4",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Observatory / Astronomy Civic Hall becomes narratively important",
+          "the visible condition of Observatory / Astronomy Civic Hall signals political or social stress",
+          "someone uses Observatory / Astronomy Civic Hall's public function to redirect crowds or information",
+          "an overlooked detail at Observatory / Astronomy Civic Hall reveals how Ilyr-Qesh really works"
+        ]
+      },
+      {
+        "name": "Star Navigation Monument",
+        "symbolicRole": "Star Navigation Monument concentrates Ilyr-Qesh's local symbolism into a usable civic landmark: Section 4 local anchor.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles. It belongs to Section 4 (Observatory / Astronomy) of Ilyr-Qesh and should use Cliffside Monasteries, Archive Towers, Lecture Courts, sandstone and white plaster materials, Moon Gate Arches, Civic Blue Glow, Star Navigation, and the Persian visual language. Design focus: stars, lenses, brass rings, moon dials, observatories. Terrain/water context: Civic Terraces; Dry Ground. Magic expression: Civic Blue Illumination, Oath Seals, Celestial Projection. No baked labels or text.",
+        "civicRole": "Serves as Section 4 local anchor within Ilyr-Qesh; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Star Navigation Monument",
+          "show how Ilyr-Qesh turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 4",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Star Navigation Monument becomes narratively important",
+          "the visible condition of Star Navigation Monument signals political or social stress",
+          "someone uses Star Navigation Monument's public function to redirect crowds or information",
+          "an overlooked detail at Star Navigation Monument reveals how Ilyr-Qesh really works"
+        ]
+      },
+      {
+        "name": "Celestial Court Nook",
+        "symbolicRole": "Celestial Court Nook concentrates Ilyr-Qesh's local symbolism into a usable civic landmark: Section 4 local anchor.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette. It belongs to Section 4 (Observatory / Astronomy) of Ilyr-Qesh and should use Archive Towers, Lecture Courts, Cliffside Monasteries, sandstone and white plaster materials, Civic Blue Glow, Star Navigation, Moon Gate Arches, and the Persian visual language. Design focus: usable board landmark, subordinate scale, stars, lenses, brass rings. Terrain/water context: Civic Terraces; Dry Ground. Magic expression: Civic Blue Illumination, Oath Seals, Celestial Projection. No baked labels or text.",
+        "civicRole": "Serves as Section 4 local anchor within Ilyr-Qesh; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Celestial Court Nook",
+          "show how Ilyr-Qesh turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 4",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Celestial Court Nook becomes narratively important",
+          "the visible condition of Celestial Court Nook signals political or social stress",
+          "someone uses Celestial Court Nook's public function to redirect crowds or information",
+          "an overlooked detail at Celestial Court Nook reveals how Ilyr-Qesh really works"
+        ]
+      },
+      {
+        "name": "Refugee Commons Civic Hall",
+        "symbolicRole": "Refugee Commons Civic Hall concentrates Ilyr-Qesh's local symbolism into a usable civic landmark: Section 5 local anchor.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing. It belongs to Section 5 (Refugee Commons) of Ilyr-Qesh and should use Reed Pavilions, Market Arcades, Timber Longhouses, sandstone and white plaster materials, Woven Banners, Lantern Lit, Red Fabric Awnings, and the Persian visual language. Design focus: public-facing administration, clear central silhouette, board-readable entrance, blankets, ration tokens. Terrain/water context: Civic Terraces; Dry Ground. Magic expression: Civic Blue Illumination, Oath Seals, Celestial Projection. No baked labels or text.",
+        "civicRole": "Serves as Section 5 local anchor within Ilyr-Qesh; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Refugee Commons Civic Hall",
+          "show how Ilyr-Qesh turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 5",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Refugee Commons Civic Hall becomes narratively important",
+          "the visible condition of Refugee Commons Civic Hall signals political or social stress",
+          "someone uses Refugee Commons Civic Hall's public function to redirect crowds or information",
+          "an overlooked detail at Refugee Commons Civic Hall reveals how Ilyr-Qesh really works"
+        ]
+      },
+      {
+        "name": "Woven Banners Monument",
+        "symbolicRole": "Woven Banners Monument concentrates Ilyr-Qesh's local symbolism into a usable civic landmark: Section 5 local anchor.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles. It belongs to Section 5 (Refugee Commons) of Ilyr-Qesh and should use Market Arcades, Timber Longhouses, Reed Pavilions, sandstone and white plaster materials, Woven Banners, Lantern Lit, Red Fabric Awnings, and the Persian visual language. Design focus: lantern lines, repair patches, tent courts, aid halls, temporary houses. Terrain/water context: Civic Terraces; Dry Ground. Magic expression: Civic Blue Illumination, Oath Seals, Celestial Projection. No baked labels or text.",
+        "civicRole": "Serves as Section 5 local anchor within Ilyr-Qesh; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Woven Banners Monument",
+          "show how Ilyr-Qesh turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 5",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Woven Banners Monument becomes narratively important",
+          "the visible condition of Woven Banners Monument signals political or social stress",
+          "someone uses Woven Banners Monument's public function to redirect crowds or information",
+          "an overlooked detail at Woven Banners Monument reveals how Ilyr-Qesh really works"
+        ]
+      },
+      {
+        "name": "Ration Arcade Nook",
+        "symbolicRole": "Ration Arcade Nook concentrates Ilyr-Qesh's local symbolism into a usable civic landmark: Section 5 local anchor.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette. It belongs to Section 5 (Refugee Commons) of Ilyr-Qesh and should use Market Arcades, Timber Longhouses, Reed Pavilions, sandstone and white plaster materials, Lantern Lit, Red Fabric Awnings, Woven Banners, and the Persian visual language. Design focus: repair patches, tent courts, aid halls, temporary houses, ration counters. Terrain/water context: Civic Terraces; Dry Ground. Magic expression: Civic Blue Illumination, Oath Seals, Celestial Projection. No baked labels or text.",
+        "civicRole": "Serves as Section 5 local anchor within Ilyr-Qesh; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Ration Arcade Nook",
+          "show how Ilyr-Qesh turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 5",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Ration Arcade Nook becomes narratively important",
+          "the visible condition of Ration Arcade Nook signals political or social stress",
+          "someone uses Ration Arcade Nook's public function to redirect crowds or information",
+          "an overlooked detail at Ration Arcade Nook reveals how Ilyr-Qesh really works"
+        ]
+      }
+    ]
+  },
+  "assetGuidance": {
+    "districtDioramaGuidance": [
+      "Dioramas must support 25 district slots: S1 covers D01, D02, D03, D06, D07 and uses source-backed anchors Grand Market Civic Hall, Covered Bazaar Beacon, Awning Monument, Auction Court Nook.",
+      "Dioramas must support 25 district slots: S2 covers D04, D05, D09, D10, D15 and uses source-backed anchors Transit / Caravan / Rail Civic Hall, Caravanserai, Woven Banners Monument, Waystation Hall Nook.",
+      "Dioramas must support 25 district slots: S3 covers D08, D12, D13, D14, D18 and uses source-backed anchors Judicial Quarter Hall, High Court, Judicial Quarter Gold-Seal Monument, Witness Archive Nook.",
+      "Dioramas must support 25 district slots: S4 covers D11, D16, D17, D21, D22 and uses source-backed anchors Observatory / Astronomy Civic Hall, Star Observatory, Star Navigation Monument, Celestial Court Nook.",
+      "Dioramas must support 25 district slots: S5 covers D19, D20, D23, D24, D25 and uses source-backed anchors Refugee Commons Civic Hall, Aid Commons, Woven Banners Monument, Ration Arcade Nook."
+    ],
+    "mapBackgroundGuidance": [
+      "Map backgrounds must show Persian Sapphire Iwan of the Star Garden as the wonder-scale identity anchor, Painted Tiles Sovereign Registry Court at D13, and Covered Bazaar Beacon as the city signal landmark.",
+      "Preserve the five-section spine: S1 Grand Market Civic Hall, S2 Transit / Caravan / Rail Civic Hall, S3 Judicial Quarter Hall, S4 Observatory / Astronomy Civic Hall, S5 Refugee Commons Civic Hall.",
+      "Use roads, terrain, water, civic terraces, walls, markets, courts, or service routes only where they support the exact city identity and tactical readability."
+    ],
+    "requiredVisualElements": [
+      "Persian Sapphire Iwan of the Star Garden",
+      "Covered Bazaar Beacon",
+      "Painted Tiles Sovereign Registry Court",
+      "Aid Commons",
+      "Caravanserai",
+      "Star Observatory",
+      "Grand Market Civic Hall",
+      "Awning Monument",
+      "Auction Court Nook",
+      "Transit / Caravan / Rail Civic Hall",
+      "Woven Banners Monument",
+      "Waystation Hall Nook",
+      "Judicial Quarter Hall",
+      "High Court",
+      "Judicial Quarter Gold-Seal Monument",
+      "Witness Archive Nook",
+      "Observatory / Astronomy Civic Hall",
+      "Star Navigation Monument",
+      "Celestial Court Nook",
+      "Refugee Commons Civic Hall",
+      "Ration Arcade Nook",
+      "Lapis Tile",
+      "Sandstone",
+      "Pale Marble Stone",
+      "Silk",
+      "White Plaster",
+      "Cliffside",
+      "Terraced Slope",
+      "Civic Terraces",
+      "Civic Blue Illumination",
+      "Oath Seals",
+      "Celestial Projection"
+    ],
+    "elementsToAvoid": [
+      "extra top-level schema sections or research-log content in the JSON",
+      "generic fantasy architecture that ignores exact anchor names",
+      "invented missing street anchors",
+      "readable real-world text labels baked into images",
+      "collapsing the 25-district board into only five playable spaces",
+      "making landmarks decorative when they should have civic, narrative, and asset function"
+    ]
+  }
 }

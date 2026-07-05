@@ -4,132 +4,1916 @@
     "analysisVersion": 2,
     "cityCode": "PSG",
     "cityName": "Port Sargasso",
-    "analysisDate": "2026-07-03",
+    "analysisDate": "2026-07-05",
     "analystVersion": "gpt-5.5-thinking",
     "analysisConfidence": "strong-lock",
-    "basedOnImages": ["PSG-HERO-NE-v001", "PSG-HERO-NW-v001", "PSG-HERO-SE-v001", "PSG-HERO-SW-v001", "PSG-STREET-S1-v001", "PSG-STREET-S2-v001", "PSG-STREET-S3-v001", "PSG-STREET-S4-v001", "PSG-STREET-S5-v001"],
-    "basedOnSidecars": ["PSG-HERO-NE-v001.json", "PSG-HERO-NW-v001.json", "PSG-HERO-SE-v001.json", "PSG-HERO-SW-v001.json", "PSG-STREET-S1-v001.json", "PSG-STREET-S2-v001.json", "PSG-STREET-S3-v001.json", "PSG-STREET-S4-v001.json", "PSG-STREET-S5-v001.json"]
+    "basedOnImages": [
+      "PSG-HERO-NE-v001.png",
+      "PSG-HERO-NW-v001.png",
+      "PSG-HERO-SE-v001.png",
+      "PSG-HERO-SW-v001.png",
+      "PSG-STREET-S1-v001.png",
+      "PSG-STREET-S2-v001.png",
+      "PSG-STREET-S3-v001.png",
+      "PSG-STREET-S4-v001.png",
+      "PSG-STREET-S5-v001.png"
+    ],
+    "basedOnSidecars": [
+      "PSG-HERO-NE-v001.json",
+      "PSG-HERO-NW-v001.json",
+      "PSG-HERO-SE-v001.json",
+      "PSG-HERO-SW-v001.json",
+      "PSG-STREET-S1-v001.json",
+      "PSG-STREET-S2-v001.json",
+      "PSG-STREET-S3-v001.json",
+      "PSG-STREET-S4-v001.json",
+      "PSG-STREET-S5-v001.json"
+    ],
+    "missingStreetSections": []
   },
   "cityDNA": {
-    "coreFantasy": "A West-African maritime trade city where gold-sailed harbors, cargo yards, ancestor-masked citadels, roadside shrines, survey halls, lecture courts, and scrap districts make port life ceremonial and practical.",
-    "primaryEmotion": "salt-gold bustle",
-    "secondaryEmotion": "ancestral obligation",
-    "readerTakeaway": "Port Sargasso is not a generic pirate port; the uploaded images show a broad sunlit harbor city with formal logistics, sacred roadside anchors, public works, scholarship, and visible lower-district repair.",
-    "civilizationThesis": "Port Sargasso turns harbor commerce, ancestor authority, shrine obligation, public works, learning, and lower-district salvage into one West-African maritime civic order.",
-    "visualIdentity": "Gold sails, white and ochre stone, red awnings, blue cargo beacons, tide-drum harbor forms, ancestor masks, shrine lanterns, survey courts, lecture halls, cargo cranes, and scrap waterfronts.",
-    "culturalIdentity": "A West-African-coded harbor civilization of merchants, dockworkers, shrine keepers, surveyors, scholars, sailors, and scrap-market families.",
-    "symbolicIdentity": "Gold sails, tide drums, ancestor masks, cargo seals, roadside shrines, votive groves, blue lamps, star navigation, and patched tenements symbolize trade under remembered duty."
+    "coreFantasy": "Port Sargasso is a West-African gold-sail harbor city where cargo law, ancestor-mask authority, sacred shrines, public works, scholarship, and informal settlement all share one tide-sealed civic economy.",
+    "primaryEmotion": "salt-bright accountability",
+    "secondaryEmotion": "ancestral commercial pressure",
+    "readerTakeaway": "Port Sargasso should feel immediately distinct: West African civic life is organized around Warehousing / Logistics, Shrine / Sacred Place, Public Works Authority, University / Lyceum, and Slums / Informal Settlement, with West-African Tide-Drum Harbor of Gold Sails as the citywide symbol.",
+    "civilizationThesis": "The city turns Limestone Blocks, Stone, Driftwood, Gold Leaf, Linen, Coastal Edge, Seawall Edge, Harbor Basin, and Civic Blue Illumination, Oath Seals, Ancestral Spirits into a working urban system rather than surface decoration.",
+    "visualIdentity": "Use Limestone Blocks, Stone, Driftwood, Gold Leaf, Linen, civic terraces, public courts, audience terraces, sealed archives, command platforms, Warehousing / Logistics Civic Hall, Shrine / Sacred Place Civic Hall, Public Works Authority Hall, visible Cargo Yard Beacon, the central Ancestor Masks Tide-Seal Citadel, and the skyline-scale West-African Tide-Drum Harbor of Gold Sails as the core visual grammar.",
+    "culturalIdentity": "A West African population whose institutions make daily life legible through section anchors: Warehousing / Logistics, Shrine / Sacred Place, Public Works Authority, University / Lyceum, Slums / Informal Settlement.",
+    "symbolicIdentity": "The city is symbolized by West-African Tide-Drum Harbor of Gold Sails, Cargo Yard Beacon, Ancestor Masks Tide-Seal Citadel, and the repeating civic pattern of hall, landmark, monument, and nook in every section."
   },
   "canon": {
     "canonLocks": [
-      "Port Sargasso is a mature West-African maritime port city, not a lawless pirate harbor.",
+      "Port Sargasso is built for its West African population and should not be genericized into a neutral fantasy city.",
       "The Wonder is West-African Tide-Drum Harbor of Gold Sails.",
       "The Beacon is Cargo Yard Beacon.",
       "The Seat of Power is Ancestor Masks Tide-Seal Citadel.",
-      "The five primary districts are Warehousing / Logistics, Shrine / Sacred Place, Public Works Authority, University / Lyceum, and Slums / Informal Settlement.",
-      "The uploaded district anchors include Warehousing / Logistics Civic Hall, Cargo Yard Beacon, Warehousing Logistics Gold-Seal Monument, Inventory Hall Nook, Shrine / Sacred Place Civic Hall, Roadside Shrine, Shrine Sacred Place Lantern Monument, Votive Grove Nook, Public Works Authority Hall, Survey Hall, Blue-Lamp Monument, Permit Yard Nook, University / Lyceum Civic Hall, Lecture Hall, Star Navigation Monument, Observatory Court Nook, Slums / Informal Settlement Civic Hall, Scrap Market, Slums Informal Settlement Lantern Monument, and Patched Tenement Nook."
+      "The five section spines are Warehousing / Logistics, Shrine / Sacred Place, Public Works Authority, University / Lyceum, Slums / Informal Settlement.",
+      "The tactical board uses 25 district slots, with District 13 as the seat-of-power center.",
+      "Exact sidecar names for civic halls, major landmarks, monuments, and minor nooks must be preserved verbatim."
     ],
     "provisionalCanon": [
-      "Port Sargasso's highest civic virtue is accountable exchange.",
-      "The image pass emphasizes a wealthy working port with ritual, logistics, scholarship, and lower-district pressure all visible.",
-      "Ancestor authority should appear civic and maritime, not merely decorative."
+      "Citizens likely treat Cargo Yard Beacon as the practical public signal point for citywide alerts and Conjunction response.",
+      "Daily politics likely moves through the named section institutions rather than through faction headquarters.",
+      "The city’s civic magic expresses through Civic Blue Illumination, Oath Seals, Ancestral Spirits when visible in public spaces."
     ],
     "rejectedReads": [
-      "generic pirate port",
-      "pure luxury harbor",
-      "West-African visual motifs without institutions",
-      "scrap districts as throwaway background"
+      "Port Sargasso as a generic fantasy settlement with the culture applied as ornament only.",
+      "Replacing exact section anchors with generic labels such as market, temple, tower, archive, or court when the sidecar provides a proper name.",
+      "Treating the Wonder, Beacon, or Seat of Power as interchangeable skyline props instead of civic machinery."
     ],
     "cautionFlags": [
-      "Keep cargo logistics and shrine obligations visible together.",
-      "Preserve exact sidecar anchor names.",
-      "Do not let gold sails erase the slum/scrap-market district."
+      "Do not add unsupported per-district landmark names beyond the source-backed section anchors.",
+      "Keep all 25 districts, but derive their specific identity from the five section spines unless new district-specific sidecars exist.",
+      "Preserve the material language: Limestone Blocks, Stone, Driftwood, Gold Leaf, Linen.",
+      "Preserve the terrain/water logic: Coastal Edge, Seawall Edge, Harbor Basin; water context: Coast."
     ]
   },
   "environment": {
-    "terrain": ["working harbor", "sunlit waterfront terraces", "cargo plazas", "shrine streets", "survey courts", "lower waterfront scrap lanes"],
-    "water": ["harbor channels", "cargo docks", "tide basins", "survey pools", "shoreline runoff", "boat routes"],
-    "vegetation": ["votive groves", "coastal palms", "courtyard planters", "salt-tolerant shrubs", "market shade trees"],
-    "climateLighting": ["golden coastal daylight", "blue beacon glow", "warm harbor sunset", "bright white-stone glare", "lantern-lit shrine evenings"],
-    "environmentalLogic": "The port treats tide, cargo, shrine obligation, public works, and repair districts as one harbor ecosystem. Water is commerce, memory, route, and risk."
+    "terrain": [
+      "Coastal Edge",
+      "Seawall Edge",
+      "Harbor Basin",
+      "district plazas",
+      "civic approaches",
+      "pedestrian streets",
+      "section courts"
+    ],
+    "water": [
+      "coastal edge",
+      "seawall edge",
+      "harbor basin",
+      "sea-cliff approaches",
+      "quay water",
+      "tide-washed steps"
+    ],
+    "vegetation": [
+      "seawall palms",
+      "reed pavilion plantings",
+      "courtyard shade trees",
+      "linen-awning vines",
+      "harbor herbs",
+      "votive grove greenery"
+    ],
+    "climateLighting": [
+      "daylight",
+      "golden hour",
+      "lantern-lit evenings",
+      "civic blue illumination",
+      "Civic Blue Illumination",
+      "Oath Seals"
+    ],
+    "environmentalLogic": "Environment should make the city’s institutions readable: Warehousing / Logistics, Shrine / Sacred Place, Public Works Authority, University / Lyceum, Slums / Informal Settlement must feel embedded in Coastal Edge, Seawall Edge, Harbor Basin, with water handled as Coast and public magic appearing as Civic Blue Illumination, Oath Seals, Ancestral Spirits."
   },
   "architecture": {
-    "materials": ["white limestone", "ochre stone", "painted plaster", "bronze", "woven awnings", "red cloth", "gold sail canvas", "blue glass lamps", "dark harbor timber"],
-    "forms": ["West-African Tide-Drum Harbor of Gold Sails", "Ancestor Masks Tide-Seal Citadel", "Cargo Yard Beacon", "Warehousing / Logistics Civic Hall", "Inventory Hall Nook", "Roadside Shrine", "Votive Grove Nook", "Survey Hall", "Permit Yard Nook", "Lecture Hall", "Observatory Court Nook", "Scrap Market", "Patched Tenement Nook"],
-    "skyline": ["Tide-Drum Harbor of Gold Sails as wonder", "Ancestor Masks Tide-Seal Citadel as authority", "Cargo Yard Beacon as harbor signal", "lecture halls, survey towers, shrine roofs, cranes, and lower scrap waterfronts"],
-    "lighting": ["sunlit white stone", "gold sail reflection", "blue cargo beacon", "warm shrine lanterns", "market awning shade", "scrap-yard firelight"],
-    "infrastructure": ["cargo yards", "inventory halls", "docks", "cranes", "warehouses", "roadside shrines", "survey platforms", "permit yards", "lecture plazas", "scrap lanes", "patched tenements"],
-    "motifs": ["gold sails", "tide drums", "ancestor masks", "cargo seals", "votive groves", "blue lamps", "star navigation", "red awnings", "scrap repair"],
-    "colorLanguage": ["harbor blue", "gold sail", "white stone", "ochre sun", "red awning", "blue beacon", "dark scrap timber"],
-    "textureLanguage": ["salt-stained stone", "woven sailcloth", "carved masks", "rope", "dock timber", "bronze fittings", "patched canvas"]
+    "materials": [
+      "Limestone Blocks",
+      "Stone",
+      "Driftwood",
+      "Gold Leaf",
+      "Linen"
+    ],
+    "forms": [
+      "civic terraces",
+      "public courts",
+      "audience terraces",
+      "sealed archives",
+      "command platforms",
+      "Warehousing / Logistics Civic Hall",
+      "Shrine / Sacred Place Civic Hall",
+      "Public Works Authority Hall",
+      "University / Lyceum Civic Hall",
+      "Slums / Informal Settlement Civic Hall",
+      "Cargo Yard Beacon",
+      "Roadside Shrine",
+      "Survey Hall",
+      "Lecture Hall",
+      "Scrap Market",
+      "Warehousing Logistics Gold-Seal Monument",
+      "Shrine Sacred Place Lantern Monument",
+      "Blue-Lamp Monument",
+      "Star Navigation Monument",
+      "Slums Informal Settlement Lantern Monument",
+      "Inventory Hall Nook",
+      "Votive Grove Nook",
+      "Permit Yard Nook",
+      "Observatory Court Nook",
+      "Patched Tenement Nook"
+    ],
+    "skyline": [
+      "West-African Tide-Drum Harbor of Gold Sails dominates the far skyline and should be larger than every section landmark.",
+      "Ancestor Masks Tide-Seal Citadel anchors the central District 13 civic mass.",
+      "Cargo Yard Beacon is the section-1 signal landmark and must be readable from nearby districts.",
+      "Section skyline rhythm: Cargo Yard Beacon, Roadside Shrine, Survey Hall, Lecture Hall, Scrap Market."
+    ],
+    "lighting": [
+      "civic blue illumination",
+      "lantern light",
+      "golden-hour edge light",
+      "public beacon glow",
+      "Civic Blue Illumination",
+      "Oath Seals",
+      "Ancestral Spirits"
+    ],
+    "infrastructure": [
+      "Warehousing / Logistics Civic Hall",
+      "Shrine / Sacred Place Civic Hall",
+      "Public Works Authority Hall",
+      "University / Lyceum Civic Hall",
+      "Slums / Informal Settlement Civic Hall",
+      "Cargo Yard Beacon",
+      "Roadside Shrine",
+      "Survey Hall",
+      "Lecture Hall",
+      "Scrap Market",
+      "district streets",
+      "public approach stairs",
+      "notice plazas",
+      "archive thresholds",
+      "service yards"
+    ],
+    "motifs": [
+      "West",
+      "African",
+      "Tide",
+      "Drum",
+      "Harbor",
+      "Gold",
+      "Sails",
+      "Ancestor",
+      "Masks",
+      "Seal",
+      "Citadel",
+      "Civic Blue Illumination",
+      "Oath Seals",
+      "Ancestral Spirits"
+    ],
+    "colorLanguage": [
+      "Gold Leaf"
+    ],
+    "textureLanguage": [
+      "Limestone Blocks",
+      "Stone",
+      "Driftwood",
+      "Gold Leaf",
+      "Linen",
+      "worn paving",
+      "public notice surfaces",
+      "worked civic thresholds",
+      "weathered landmark edges"
+    ]
   },
   "civilization": {
-    "people": "Citizens are port-literate, ancestor-conscious, practical, social, and used to seeing trade, shrine obligation, public works, and scholarship in the same streets.",
-    "occupations": ["dockworkers", "cargo clerks", "inventory keepers", "sail makers", "shrine keepers", "surveyors", "permit clerks", "lecturers", "students", "scrap dealers", "repair workers"],
-    "socialClasses": ["Tide-Seal officials", "cargo houses", "shrine families", "survey authorities", "university scholars", "sailor households", "scrap-market families", "dock laborers"],
-    "governance": "The Ancestor Masks Tide-Seal Citadel governs through harbor records, cargo seals, ancestor obligations, shrine protections, survey permits, and public port duties.",
-    "religion": "Religion appears through ancestor masks, roadside shrines, votive groves, tide-drum ceremonies, harbor blessings, and public offerings for safe passage.",
-    "customs": ["cargo seal checking", "shrine offerings before departure", "survey permit review", "lecture assemblies", "scrap repair bargaining", "gold-sail festivals"],
-    "bodyLanguage": ["open market gestures", "dock balance", "respectful shrine pauses", "ledger pointing", "route-aware walking"],
-    "speechPatterns": ["cargo tallies", "ancestor invocations", "harbor slang", "permit terms", "lecture phrases", "repair-market bargaining"]
+    "people": "The population is West African. Civic scenes should show them using the city’s architecture naturally: gathering near Cargo Yard Beacon, moving through Warehousing / Logistics, Shrine / Sacred Place, Public Works Authority, and treating the named anchors as practical institutions.",
+    "occupations": [
+      "civic clerks",
+      "beacon wardens",
+      "archive keepers",
+      "market sellers",
+      "street repair crews",
+      "craft workers",
+      "messengers",
+      "guards",
+      "Warehousing / Logistics staff",
+      "Shrine / Sacred Place staff",
+      "Public Works Authority staff",
+      "University / Lyceum staff",
+      "Slums / Informal Settlement staff",
+      "cargo yard beacon attendants",
+      "roadside shrine attendants",
+      "survey hall attendants",
+      "lecture hall attendants",
+      "scrap market attendants"
+    ],
+    "socialClasses": [
+      "seat-of-power officials attached to Ancestor Masks Tide-Seal Citadel",
+      "section hall administrators and permit keepers",
+      "craft, market, transport, religious, or military guild households depending on district spine",
+      "street vendors, carriers, maintenance workers, and household service families",
+      "visitors and petitioners who navigate the city through public anchors"
+    ],
+    "governance": "Governance is centered on Ancestor Masks Tide-Seal Citadel and expressed locally through the five section civic halls. Authority should be visible in courts, archives, public signals, permits, and named monuments rather than hidden abstraction.",
+    "religion": "Religious and symbolic life should draw on Civic Blue Illumination, Oath Seals, Ancestral Spirits, the Wonder’s public symbolism, and whichever section anchors carry sacred or ceremonial roles.",
+    "customs": [
+      "citizens use named halls and nooks as practical meeting points",
+      "public signals from the Beacon interrupt ordinary commerce and movement",
+      "section monuments preserve civic memory and local identity",
+      "visitors orient themselves by Wonder, Beacon, Seat, and section major landmarks",
+      "formal petitions and judgments move toward District 13"
+    ],
+    "bodyLanguage": [
+      "citizens make room for official messengers near beacon approaches",
+      "locals gesture by landmark rather than by street name",
+      "public posture changes around courts, monuments, and halls",
+      "market or service workers keep one eye on signal points during tense periods"
+    ],
+    "speechPatterns": [
+      "directions reference exact named anchors",
+      "formal speech preserves civic titles",
+      "street speech abbreviates section landmarks but not Wonder, Beacon, or Seat names",
+      "public announcements use practical civic language rather than poetic vagueness"
+    ]
   },
   "urbanLife": {
     "streets": {
-      "appearance": "Broad, sunlit, and crowded: cargo courts, shrine corners, survey halls, lecture plazas, red awnings, blue beacons, ancestor-mask civic stone, and lower waterfront scrap stalls share the harbor edge.",
-      "movement": "Movement follows cargo routes, dock ramps, shrine streets, survey platforms, lecture stairs, market lanes, and scrap waterfront paths.",
-      "sounds": ["sails snapping", "dock bells", "cargo carts", "market calls", "shrine chants", "lecture voices", "scrap hammering", "waves"],
-      "smells": ["salt water", "spices", "warm stone", "lamp oil", "rope tar", "market food", "scrap smoke"],
-      "lighting": "Gold daylight and blue beacon light define the city; sunset turns sails and harbor stone into civic spectacle.",
-      "weatherEffects": "Sea glare, spray, wind, and harbor storms make survey work, cargo timing, and shrine rituals practically important.",
-      "dayCycle": "Cargo unloading, shrine visits, survey work, lectures, and market traffic dominate the day.",
-      "nightCycle": "Lantern-lit shrines, guarded warehouses, lower-district repairs, and harbor watch dominate night."
+      "appearance": "Street views should show Limestone Blocks, Stone, Driftwood, Gold Leaf, Linen, civic terraces, public courts, audience terraces, sealed archives, command platforms, Warehousing / Logistics Civic Hall, pedestrians using section halls, and sightlines back to Cargo Yard Beacon or Ancestor Masks Tide-Seal Citadel where appropriate.",
+      "movement": "Movement is organized by section spine: Warehousing / Logistics, Shrine / Sacred Place, Public Works Authority, University / Lyceum, Slums / Informal Settlement. Districts feed toward their civic hall, major landmark, monument, and minor nook before converging on District 13 for authority scenes.",
+      "sounds": [
+        "ropes groaning on docks",
+        "manifest clerks calling cargo marks",
+        "drums from harbor ceremony",
+        "market bargaining",
+        "shrine bells",
+        "blue-lit public notices"
+      ],
+      "smells": [
+        "salt water",
+        "driftwood smoke",
+        "gold-leaf polish",
+        "linen dye",
+        "loaded barrels",
+        "fish stew"
+      ],
+      "lighting": "Use civic blue illumination for official signal moments, practical lantern light for night scenes, and material-specific highlights on Limestone Blocks, Stone, Driftwood, Gold Leaf.",
+      "weatherEffects": "Weather should reinforce terrain and water logic: Coastal Edge, Seawall Edge, Harbor Basin; water context Coast.",
+      "dayCycle": "Mornings emphasize deliveries, hall openings, street maintenance, market preparation, and official notices; afternoons build toward hearings, training, guild work, or section-specific labor.",
+      "nightCycle": "Evenings compress around lanterns, food stalls, guarded thresholds, quieter civic errands, and beacon visibility against darker streets."
     },
     "shops": {
-      "common": ["fish stalls", "sailcloth vendors", "spice counters", "rope makers", "dock food carts"],
-      "uncommon": ["ancestor mask carvers", "votive goods sellers", "tide-chart vendors", "permit scribes", "star-navigation copyists"],
-      "prestigious": ["cargo house offices", "Tide-Seal counters", "university patron rooms", "survey authority desks"],
-      "exports": ["gold sail craft", "harbor logistics", "tide charts", "spices", "mask carving", "repair work"],
-      "imports": ["grain", "timber", "metal", "cloth", "paper", "medicine"],
-      "streetFood": ["spiced fish", "fried plantains", "rice cakes", "pepper stew", "sweet tea"],
-      "services": ["cargo registration", "inventory checking", "shrine offerings", "water surveys", "permit filing", "lecture access", "scrap repair"]
+      "common": [
+        "food stalls",
+        "repair counters",
+        "lantern sellers",
+        "permit copyists",
+        "market cloth stalls",
+        "tool vendors",
+        "warehousing / logistics service stalls",
+        "shrine / sacred place service stalls",
+        "public works authority service stalls"
+      ],
+      "uncommon": [
+        "landmark souvenir makers",
+        "ritual supply counters",
+        "specialist surveyors",
+        "seal engravers",
+        "instrument repairers",
+        "cargo yard beacon adjunct shops",
+        "roadside shrine adjunct shops",
+        "survey hall adjunct shops"
+      ],
+      "prestigious": [
+        "Ancestor Masks Tide-Seal Citadel document ateliers",
+        "West-African Tide-Drum Harbor of Gold Sails ceremonial suppliers",
+        "master craft houses",
+        "official seal workshops",
+        "elite household service halls"
+      ],
+      "exports": [
+        "finished civic craft",
+        "specialized tools",
+        "ritual goods",
+        "district textiles",
+        "trained specialists",
+        "Limestone Blocks",
+        "Stone",
+        "Driftwood"
+      ],
+      "imports": [
+        "rare dyes",
+        "lamp oil",
+        "fine timber",
+        "metal fittings",
+        "grain stores",
+        "paper and ink"
+      ],
+      "streetFood": [
+        "harbor fish stew",
+        "spiced millet cakes",
+        "palm-oil flatbread",
+        "grilled shellfish",
+        "market tea",
+        "gold-sail festival sweets"
+      ],
+      "services": [
+        "petition filing",
+        "district guidance",
+        "beacon notice posting",
+        "minor repairs",
+        "public messenger work",
+        "archive copying",
+        "warehousing / logistics appointments",
+        "shrine / sacred place appointments"
+      ]
     },
     "housing": {
-      "wealthy": "Citadel- and cargo-house residences with gold-sail views, carved masks, shaded courtyards, and private docks.",
-      "middle": "Merchant, sailor, surveyor, and scholar homes above shops or near harbor stairs.",
-      "poor": "Lower waterfront patched tenements, repair sheds, crowded rooms near scrap markets, and shared access to docks and public water."
+      "wealthy": "Residences near Ancestor Masks Tide-Seal Citadel or high-status section courts use the best Limestone Blocks, Stone, Driftwood, private terraces, and controlled views of civic landmarks.",
+      "middle": "Households cluster above shops and along civic streets, sharing courtyards, balconies, workrooms, and access to section halls.",
+      "poor": "Lower-status housing is practical, crowded, and close to service yards or labor streets, but still uses local motifs and public landmarks for orientation."
     }
   },
   "districts": [
-    {"sectionNumber": 1, "name": "Warehousing / Logistics", "civicPurpose": "Cargo movement, inventory control, harbor signal response, and trade accountability.", "visualIdentity": "Warehousing / Logistics Civic Hall, Cargo Yard Beacon, Warehousing Logistics Gold-Seal Monument, Inventory Hall Nook, crates, cranes, and dock traffic.", "emotionalIdentity": "busy, accountable, loud, and powerful", "gameplayAssetNeeds": ["Warehousing / Logistics Civic Hall", "Cargo Yard Beacon", "Warehousing Logistics Gold-Seal Monument", "Inventory Hall Nook", "crates", "dockworkers"], "narrativeUse": ["missing cargo", "trade leverage", "Beacon response"], "landmark": "Cargo Yard Beacon", "minorLandmarks": ["Warehousing Logistics Gold-Seal Monument", "Inventory Hall Nook"]},
-    {"sectionNumber": 2, "name": "Shrine / Sacred Place", "civicPurpose": "Roadside offerings, harbor blessings, ancestor obligation, and public passage rites.", "visualIdentity": "Shrine / Sacred Place Civic Hall, Roadside Shrine, Shrine Sacred Place Lantern Monument, Votive Grove Nook, lanterns, small offerings, and harbor approaches.", "emotionalIdentity": "reverent, practical, and intimate", "gameplayAssetNeeds": ["Shrine / Sacred Place Civic Hall", "Roadside Shrine", "Shrine Sacred Place Lantern Monument", "Votive Grove Nook", "votive offerings", "shrine keepers"], "narrativeUse": ["departure blessing", "votive clue", "ancestor obligation"], "landmark": "Roadside Shrine", "minorLandmarks": ["Shrine Sacred Place Lantern Monument", "Votive Grove Nook"]},
-    {"sectionNumber": 3, "name": "Public Works Authority", "civicPurpose": "Harbor surveys, permit enforcement, maintenance, and sea-route safety.", "visualIdentity": "Public Works Authority Hall, Survey Hall, Blue-Lamp Monument, Permit Yard Nook, water maps, work crews, and civic instruments.", "emotionalIdentity": "technical, civic, and weather-aware", "gameplayAssetNeeds": ["Public Works Authority Hall", "Survey Hall", "Blue-Lamp Monument", "Permit Yard Nook", "surveyors", "harbor maps"], "narrativeUse": ["permit dispute", "engineering clue", "storm planning"], "landmark": "Survey Hall", "minorLandmarks": ["Blue-Lamp Monument", "Permit Yard Nook"]},
-    {"sectionNumber": 4, "name": "University / Lyceum", "civicPurpose": "Public learning, star navigation, maritime scholarship, and civic instruction.", "visualIdentity": "University / Lyceum Civic Hall, Lecture Hall, Star Navigation Monument, Observatory Court Nook, students, maps, and water-facing plazas.", "emotionalIdentity": "learned, open, and civic", "gameplayAssetNeeds": ["University / Lyceum Civic Hall", "Lecture Hall", "Star Navigation Monument", "Observatory Court Nook", "students", "star charts"], "narrativeUse": ["lecture", "navigation clue", "student witness"], "landmark": "Lecture Hall", "minorLandmarks": ["Star Navigation Monument", "Observatory Court Nook"]},
-    {"sectionNumber": 5, "name": "Slums / Informal Settlement", "civicPurpose": "Lower waterfront survival, repair culture, informal trade, and visible cost of harbor wealth.", "visualIdentity": "Slums / Informal Settlement Civic Hall, Scrap Market, Slums Informal Settlement Lantern Monument, Patched Tenement Nook, repair stalls, scrap roofs, and dock-edge alleys.", "emotionalIdentity": "resourceful, exposed, warm, and strained", "gameplayAssetNeeds": ["Slums / Informal Settlement Civic Hall", "Scrap Market", "Slums Informal Settlement Lantern Monument", "Patched Tenement Nook", "repair workers", "patchwork stalls"], "narrativeUse": ["repair clue", "poverty pressure", "overlooked witness"], "landmark": "Scrap Market", "minorLandmarks": ["Slums Informal Settlement Lantern Monument", "Patched Tenement Nook"]}
+    {
+      "districtNumber": 1,
+      "sectionNumber": 1,
+      "name": "D01 Warehousing / Logistics Civic Approach",
+      "civicPurpose": "A civic approach district within Warehousing / Logistics that supports Warehousing / Logistics Civic Hall, Cargo Yard Beacon, and the surrounding section economy.",
+      "visualIdentity": "Use Limestone Blocks, Stone, Driftwood, Gold Leaf, section signage through Warehousing / Logistics Civic Hall, Cargo Yard Beacon, Warehousing Logistics Gold-Seal Monument, Inventory Hall Nook, and terrain cues from Coastal Edge, Seawall Edge, Harbor Basin. The district should read as part of Warehousing / Logistics without becoming generic.",
+      "emotionalIdentity": "civic approach-oriented, local, practical, and tied to the section mood of Warehousing / Logistics",
+      "gameplayAssetNeeds": [
+        "Warehousing / Logistics Civic Hall",
+        "Cargo Yard Beacon",
+        "Warehousing Logistics Gold-Seal Monument",
+        "Inventory Hall Nook",
+        "Warehousing / Logistics pedestrians",
+        "street props",
+        "section lighting",
+        "board-readable landmark silhouette"
+      ],
+      "narrativeUse": [
+        "street scenes in Warehousing / Logistics",
+        "local business around Cargo Yard Beacon",
+        "district traversal",
+        "rumor exchange",
+        "small civic obstacle"
+      ],
+      "primaryLandmark": "Cargo Yard Beacon",
+      "minorLandmarks": [
+        "Warehousing / Logistics Civic Hall",
+        "Warehousing Logistics Gold-Seal Monument",
+        "Inventory Hall Nook"
+      ]
+    },
+    {
+      "districtNumber": 2,
+      "sectionNumber": 1,
+      "name": "D02 Warehousing / Logistics Landmark Court",
+      "civicPurpose": "A landmark court district within Warehousing / Logistics that supports Warehousing / Logistics Civic Hall, Cargo Yard Beacon, and the surrounding section economy.",
+      "visualIdentity": "Use Limestone Blocks, Stone, Driftwood, Gold Leaf, section signage through Warehousing / Logistics Civic Hall, Cargo Yard Beacon, Warehousing Logistics Gold-Seal Monument, Inventory Hall Nook, and terrain cues from Coastal Edge, Seawall Edge, Harbor Basin. The district should read as part of Warehousing / Logistics without becoming generic.",
+      "emotionalIdentity": "landmark court-oriented, local, practical, and tied to the section mood of Warehousing / Logistics",
+      "gameplayAssetNeeds": [
+        "Warehousing / Logistics Civic Hall",
+        "Cargo Yard Beacon",
+        "Warehousing Logistics Gold-Seal Monument",
+        "Inventory Hall Nook",
+        "Warehousing / Logistics pedestrians",
+        "street props",
+        "section lighting",
+        "board-readable landmark silhouette"
+      ],
+      "narrativeUse": [
+        "street scenes in Warehousing / Logistics",
+        "local business around Cargo Yard Beacon",
+        "district traversal",
+        "rumor exchange",
+        "small civic obstacle"
+      ],
+      "primaryLandmark": "Cargo Yard Beacon",
+      "minorLandmarks": [
+        "Warehousing / Logistics Civic Hall",
+        "Warehousing Logistics Gold-Seal Monument",
+        "Inventory Hall Nook"
+      ]
+    },
+    {
+      "districtNumber": 3,
+      "sectionNumber": 1,
+      "name": "D03 Warehousing / Logistics Working Streets",
+      "civicPurpose": "A working streets district within Warehousing / Logistics that supports Warehousing / Logistics Civic Hall, Cargo Yard Beacon, and the surrounding section economy.",
+      "visualIdentity": "Use Limestone Blocks, Stone, Driftwood, Gold Leaf, section signage through Warehousing / Logistics Civic Hall, Cargo Yard Beacon, Warehousing Logistics Gold-Seal Monument, Inventory Hall Nook, and terrain cues from Coastal Edge, Seawall Edge, Harbor Basin. The district should read as part of Warehousing / Logistics without becoming generic.",
+      "emotionalIdentity": "working streets-oriented, local, practical, and tied to the section mood of Warehousing / Logistics",
+      "gameplayAssetNeeds": [
+        "Warehousing / Logistics Civic Hall",
+        "Cargo Yard Beacon",
+        "Warehousing Logistics Gold-Seal Monument",
+        "Inventory Hall Nook",
+        "Warehousing / Logistics pedestrians",
+        "street props",
+        "section lighting",
+        "board-readable landmark silhouette"
+      ],
+      "narrativeUse": [
+        "street scenes in Warehousing / Logistics",
+        "local business around Cargo Yard Beacon",
+        "district traversal",
+        "rumor exchange",
+        "small civic obstacle"
+      ],
+      "primaryLandmark": "Cargo Yard Beacon",
+      "minorLandmarks": [
+        "Warehousing / Logistics Civic Hall",
+        "Warehousing Logistics Gold-Seal Monument",
+        "Inventory Hall Nook"
+      ]
+    },
+    {
+      "districtNumber": 4,
+      "sectionNumber": 2,
+      "name": "D04 Shrine / Sacred Place Civic Approach",
+      "civicPurpose": "A civic approach district within Shrine / Sacred Place that supports Shrine / Sacred Place Civic Hall, Roadside Shrine, and the surrounding section economy.",
+      "visualIdentity": "Use Limestone Blocks, Stone, Driftwood, Gold Leaf, section signage through Shrine / Sacred Place Civic Hall, Roadside Shrine, Shrine Sacred Place Lantern Monument, Votive Grove Nook, and terrain cues from Coastal Edge, Seawall Edge, Harbor Basin. The district should read as part of Shrine / Sacred Place without becoming generic.",
+      "emotionalIdentity": "civic approach-oriented, local, practical, and tied to the section mood of Shrine / Sacred Place",
+      "gameplayAssetNeeds": [
+        "Shrine / Sacred Place Civic Hall",
+        "Roadside Shrine",
+        "Shrine Sacred Place Lantern Monument",
+        "Votive Grove Nook",
+        "Shrine / Sacred Place pedestrians",
+        "street props",
+        "section lighting",
+        "board-readable landmark silhouette"
+      ],
+      "narrativeUse": [
+        "street scenes in Shrine / Sacred Place",
+        "local business around Roadside Shrine",
+        "district traversal",
+        "rumor exchange",
+        "small civic obstacle"
+      ],
+      "primaryLandmark": "Roadside Shrine",
+      "minorLandmarks": [
+        "Shrine / Sacred Place Civic Hall",
+        "Shrine Sacred Place Lantern Monument",
+        "Votive Grove Nook"
+      ]
+    },
+    {
+      "districtNumber": 5,
+      "sectionNumber": 2,
+      "name": "D05 Shrine / Sacred Place Landmark Court",
+      "civicPurpose": "A landmark court district within Shrine / Sacred Place that supports Shrine / Sacred Place Civic Hall, Roadside Shrine, and the surrounding section economy.",
+      "visualIdentity": "Use Limestone Blocks, Stone, Driftwood, Gold Leaf, section signage through Shrine / Sacred Place Civic Hall, Roadside Shrine, Shrine Sacred Place Lantern Monument, Votive Grove Nook, and terrain cues from Coastal Edge, Seawall Edge, Harbor Basin. The district should read as part of Shrine / Sacred Place without becoming generic.",
+      "emotionalIdentity": "landmark court-oriented, local, practical, and tied to the section mood of Shrine / Sacred Place",
+      "gameplayAssetNeeds": [
+        "Shrine / Sacred Place Civic Hall",
+        "Roadside Shrine",
+        "Shrine Sacred Place Lantern Monument",
+        "Votive Grove Nook",
+        "Shrine / Sacred Place pedestrians",
+        "street props",
+        "section lighting",
+        "board-readable landmark silhouette"
+      ],
+      "narrativeUse": [
+        "street scenes in Shrine / Sacred Place",
+        "local business around Roadside Shrine",
+        "district traversal",
+        "rumor exchange",
+        "small civic obstacle"
+      ],
+      "primaryLandmark": "Roadside Shrine",
+      "minorLandmarks": [
+        "Shrine / Sacred Place Civic Hall",
+        "Shrine Sacred Place Lantern Monument",
+        "Votive Grove Nook"
+      ]
+    },
+    {
+      "districtNumber": 6,
+      "sectionNumber": 1,
+      "name": "D06 Warehousing / Logistics Residential Edge",
+      "civicPurpose": "A residential edge district within Warehousing / Logistics that supports Warehousing / Logistics Civic Hall, Cargo Yard Beacon, and the surrounding section economy.",
+      "visualIdentity": "Use Limestone Blocks, Stone, Driftwood, Gold Leaf, section signage through Warehousing / Logistics Civic Hall, Cargo Yard Beacon, Warehousing Logistics Gold-Seal Monument, Inventory Hall Nook, and terrain cues from Coastal Edge, Seawall Edge, Harbor Basin. The district should read as part of Warehousing / Logistics without becoming generic.",
+      "emotionalIdentity": "residential edge-oriented, local, practical, and tied to the section mood of Warehousing / Logistics",
+      "gameplayAssetNeeds": [
+        "Warehousing / Logistics Civic Hall",
+        "Cargo Yard Beacon",
+        "Warehousing Logistics Gold-Seal Monument",
+        "Inventory Hall Nook",
+        "Warehousing / Logistics pedestrians",
+        "street props",
+        "section lighting",
+        "board-readable landmark silhouette"
+      ],
+      "narrativeUse": [
+        "street scenes in Warehousing / Logistics",
+        "local business around Cargo Yard Beacon",
+        "district traversal",
+        "rumor exchange",
+        "small civic obstacle"
+      ],
+      "primaryLandmark": "Cargo Yard Beacon",
+      "minorLandmarks": [
+        "Warehousing / Logistics Civic Hall",
+        "Warehousing Logistics Gold-Seal Monument",
+        "Inventory Hall Nook"
+      ]
+    },
+    {
+      "districtNumber": 7,
+      "sectionNumber": 1,
+      "name": "D07 Warehousing / Logistics Service Yard",
+      "civicPurpose": "A service yard district within Warehousing / Logistics that supports Warehousing / Logistics Civic Hall, Cargo Yard Beacon, and the surrounding section economy.",
+      "visualIdentity": "Use Limestone Blocks, Stone, Driftwood, Gold Leaf, section signage through Warehousing / Logistics Civic Hall, Cargo Yard Beacon, Warehousing Logistics Gold-Seal Monument, Inventory Hall Nook, and terrain cues from Coastal Edge, Seawall Edge, Harbor Basin. The district should read as part of Warehousing / Logistics without becoming generic.",
+      "emotionalIdentity": "service yard-oriented, local, practical, and tied to the section mood of Warehousing / Logistics",
+      "gameplayAssetNeeds": [
+        "Warehousing / Logistics Civic Hall",
+        "Cargo Yard Beacon",
+        "Warehousing Logistics Gold-Seal Monument",
+        "Inventory Hall Nook",
+        "Warehousing / Logistics pedestrians",
+        "street props",
+        "section lighting",
+        "board-readable landmark silhouette"
+      ],
+      "narrativeUse": [
+        "street scenes in Warehousing / Logistics",
+        "local business around Cargo Yard Beacon",
+        "district traversal",
+        "rumor exchange",
+        "small civic obstacle"
+      ],
+      "primaryLandmark": "Cargo Yard Beacon",
+      "minorLandmarks": [
+        "Warehousing / Logistics Civic Hall",
+        "Warehousing Logistics Gold-Seal Monument",
+        "Inventory Hall Nook"
+      ]
+    },
+    {
+      "districtNumber": 8,
+      "sectionNumber": 3,
+      "name": "D08 Public Works Authority Civic Approach",
+      "civicPurpose": "A civic approach district within Public Works Authority that supports Public Works Authority Hall, Survey Hall, and the surrounding section economy.",
+      "visualIdentity": "Use Limestone Blocks, Stone, Driftwood, Gold Leaf, section signage through Public Works Authority Hall, Survey Hall, Blue-Lamp Monument, Permit Yard Nook, and terrain cues from Coastal Edge, Seawall Edge, Harbor Basin. The district should read as part of Public Works Authority without becoming generic.",
+      "emotionalIdentity": "civic approach-oriented, local, practical, and tied to the section mood of Public Works Authority",
+      "gameplayAssetNeeds": [
+        "Public Works Authority Hall",
+        "Survey Hall",
+        "Blue-Lamp Monument",
+        "Permit Yard Nook",
+        "Public Works Authority pedestrians",
+        "street props",
+        "section lighting",
+        "board-readable landmark silhouette"
+      ],
+      "narrativeUse": [
+        "street scenes in Public Works Authority",
+        "local business around Survey Hall",
+        "district traversal",
+        "rumor exchange",
+        "small civic obstacle"
+      ],
+      "primaryLandmark": "Survey Hall",
+      "minorLandmarks": [
+        "Public Works Authority Hall",
+        "Blue-Lamp Monument",
+        "Permit Yard Nook"
+      ]
+    },
+    {
+      "districtNumber": 9,
+      "sectionNumber": 2,
+      "name": "D09 Shrine / Sacred Place Working Streets",
+      "civicPurpose": "A working streets district within Shrine / Sacred Place that supports Shrine / Sacred Place Civic Hall, Roadside Shrine, and the surrounding section economy.",
+      "visualIdentity": "Use Limestone Blocks, Stone, Driftwood, Gold Leaf, section signage through Shrine / Sacred Place Civic Hall, Roadside Shrine, Shrine Sacred Place Lantern Monument, Votive Grove Nook, and terrain cues from Coastal Edge, Seawall Edge, Harbor Basin. The district should read as part of Shrine / Sacred Place without becoming generic.",
+      "emotionalIdentity": "working streets-oriented, local, practical, and tied to the section mood of Shrine / Sacred Place",
+      "gameplayAssetNeeds": [
+        "Shrine / Sacred Place Civic Hall",
+        "Roadside Shrine",
+        "Shrine Sacred Place Lantern Monument",
+        "Votive Grove Nook",
+        "Shrine / Sacred Place pedestrians",
+        "street props",
+        "section lighting",
+        "board-readable landmark silhouette"
+      ],
+      "narrativeUse": [
+        "street scenes in Shrine / Sacred Place",
+        "local business around Roadside Shrine",
+        "district traversal",
+        "rumor exchange",
+        "small civic obstacle"
+      ],
+      "primaryLandmark": "Roadside Shrine",
+      "minorLandmarks": [
+        "Shrine / Sacred Place Civic Hall",
+        "Shrine Sacred Place Lantern Monument",
+        "Votive Grove Nook"
+      ]
+    },
+    {
+      "districtNumber": 10,
+      "sectionNumber": 2,
+      "name": "D10 Shrine / Sacred Place Residential Edge",
+      "civicPurpose": "A residential edge district within Shrine / Sacred Place that supports Shrine / Sacred Place Civic Hall, Roadside Shrine, and the surrounding section economy.",
+      "visualIdentity": "Use Limestone Blocks, Stone, Driftwood, Gold Leaf, section signage through Shrine / Sacred Place Civic Hall, Roadside Shrine, Shrine Sacred Place Lantern Monument, Votive Grove Nook, and terrain cues from Coastal Edge, Seawall Edge, Harbor Basin. The district should read as part of Shrine / Sacred Place without becoming generic.",
+      "emotionalIdentity": "residential edge-oriented, local, practical, and tied to the section mood of Shrine / Sacred Place",
+      "gameplayAssetNeeds": [
+        "Shrine / Sacred Place Civic Hall",
+        "Roadside Shrine",
+        "Shrine Sacred Place Lantern Monument",
+        "Votive Grove Nook",
+        "Shrine / Sacred Place pedestrians",
+        "street props",
+        "section lighting",
+        "board-readable landmark silhouette"
+      ],
+      "narrativeUse": [
+        "street scenes in Shrine / Sacred Place",
+        "local business around Roadside Shrine",
+        "district traversal",
+        "rumor exchange",
+        "small civic obstacle"
+      ],
+      "primaryLandmark": "Roadside Shrine",
+      "minorLandmarks": [
+        "Shrine / Sacred Place Civic Hall",
+        "Shrine Sacred Place Lantern Monument",
+        "Votive Grove Nook"
+      ]
+    },
+    {
+      "districtNumber": 11,
+      "sectionNumber": 4,
+      "name": "D11 University / Lyceum Civic Approach",
+      "civicPurpose": "A civic approach district within University / Lyceum that supports University / Lyceum Civic Hall, Lecture Hall, and the surrounding section economy.",
+      "visualIdentity": "Use Limestone Blocks, Stone, Driftwood, Gold Leaf, section signage through University / Lyceum Civic Hall, Lecture Hall, Star Navigation Monument, Observatory Court Nook, and terrain cues from Coastal Edge, Seawall Edge, Harbor Basin. The district should read as part of University / Lyceum without becoming generic.",
+      "emotionalIdentity": "civic approach-oriented, local, practical, and tied to the section mood of University / Lyceum",
+      "gameplayAssetNeeds": [
+        "University / Lyceum Civic Hall",
+        "Lecture Hall",
+        "Star Navigation Monument",
+        "Observatory Court Nook",
+        "University / Lyceum pedestrians",
+        "street props",
+        "section lighting",
+        "board-readable landmark silhouette"
+      ],
+      "narrativeUse": [
+        "street scenes in University / Lyceum",
+        "local business around Lecture Hall",
+        "district traversal",
+        "rumor exchange",
+        "small civic obstacle"
+      ],
+      "primaryLandmark": "Lecture Hall",
+      "minorLandmarks": [
+        "University / Lyceum Civic Hall",
+        "Star Navigation Monument",
+        "Observatory Court Nook"
+      ]
+    },
+    {
+      "districtNumber": 12,
+      "sectionNumber": 3,
+      "name": "D12 Public Works Authority Landmark Court",
+      "civicPurpose": "A landmark court district within Public Works Authority that supports Public Works Authority Hall, Survey Hall, and the surrounding section economy.",
+      "visualIdentity": "Use Limestone Blocks, Stone, Driftwood, Gold Leaf, section signage through Public Works Authority Hall, Survey Hall, Blue-Lamp Monument, Permit Yard Nook, and terrain cues from Coastal Edge, Seawall Edge, Harbor Basin. The district should read as part of Public Works Authority without becoming generic.",
+      "emotionalIdentity": "landmark court-oriented, local, practical, and tied to the section mood of Public Works Authority",
+      "gameplayAssetNeeds": [
+        "Public Works Authority Hall",
+        "Survey Hall",
+        "Blue-Lamp Monument",
+        "Permit Yard Nook",
+        "Public Works Authority pedestrians",
+        "street props",
+        "section lighting",
+        "board-readable landmark silhouette"
+      ],
+      "narrativeUse": [
+        "street scenes in Public Works Authority",
+        "local business around Survey Hall",
+        "district traversal",
+        "rumor exchange",
+        "small civic obstacle"
+      ],
+      "primaryLandmark": "Survey Hall",
+      "minorLandmarks": [
+        "Public Works Authority Hall",
+        "Blue-Lamp Monument",
+        "Permit Yard Nook"
+      ]
+    },
+    {
+      "districtNumber": 13,
+      "sectionNumber": 3,
+      "name": "D13 Ancestor Masks Tide-Seal Citadel",
+      "civicPurpose": "Central seat-of-power district where Ancestor Masks Tide-Seal Citadel concentrates courts, archives, command platforms, petitions, and city legitimacy.",
+      "visualIdentity": "Use Limestone Blocks, Stone, Driftwood, Gold Leaf, section signage through Public Works Authority Hall, Survey Hall, Blue-Lamp Monument, Permit Yard Nook, and terrain cues from Coastal Edge, Seawall Edge, Harbor Basin. The district should read as part of Public Works Authority without becoming generic.",
+      "emotionalIdentity": "authoritative, tense, formal, and publicly consequential",
+      "gameplayAssetNeeds": [
+        "Ancestor Masks Tide-Seal Citadel",
+        "audience terraces",
+        "sealed archives",
+        "command platforms",
+        "petition queues"
+      ],
+      "narrativeUse": [
+        "central ruling scenes",
+        "public petitions",
+        "sealed records",
+        "political pressure",
+        "citywide legitimacy tests"
+      ],
+      "primaryLandmark": "Ancestor Masks Tide-Seal Citadel",
+      "minorLandmarks": [
+        "Public Works Authority Hall",
+        "Blue-Lamp Monument",
+        "Permit Yard Nook"
+      ]
+    },
+    {
+      "districtNumber": 14,
+      "sectionNumber": 3,
+      "name": "D14 Public Works Authority Residential Edge",
+      "civicPurpose": "A residential edge district within Public Works Authority that supports Public Works Authority Hall, Survey Hall, and the surrounding section economy.",
+      "visualIdentity": "Use Limestone Blocks, Stone, Driftwood, Gold Leaf, section signage through Public Works Authority Hall, Survey Hall, Blue-Lamp Monument, Permit Yard Nook, and terrain cues from Coastal Edge, Seawall Edge, Harbor Basin. The district should read as part of Public Works Authority without becoming generic.",
+      "emotionalIdentity": "residential edge-oriented, local, practical, and tied to the section mood of Public Works Authority",
+      "gameplayAssetNeeds": [
+        "Public Works Authority Hall",
+        "Survey Hall",
+        "Blue-Lamp Monument",
+        "Permit Yard Nook",
+        "Public Works Authority pedestrians",
+        "street props",
+        "section lighting",
+        "board-readable landmark silhouette"
+      ],
+      "narrativeUse": [
+        "street scenes in Public Works Authority",
+        "local business around Survey Hall",
+        "district traversal",
+        "rumor exchange",
+        "small civic obstacle"
+      ],
+      "primaryLandmark": "Survey Hall",
+      "minorLandmarks": [
+        "Public Works Authority Hall",
+        "Blue-Lamp Monument",
+        "Permit Yard Nook"
+      ]
+    },
+    {
+      "districtNumber": 15,
+      "sectionNumber": 2,
+      "name": "D15 Shrine / Sacred Place Service Yard",
+      "civicPurpose": "A service yard district within Shrine / Sacred Place that supports Shrine / Sacred Place Civic Hall, Roadside Shrine, and the surrounding section economy.",
+      "visualIdentity": "Use Limestone Blocks, Stone, Driftwood, Gold Leaf, section signage through Shrine / Sacred Place Civic Hall, Roadside Shrine, Shrine Sacred Place Lantern Monument, Votive Grove Nook, and terrain cues from Coastal Edge, Seawall Edge, Harbor Basin. The district should read as part of Shrine / Sacred Place without becoming generic.",
+      "emotionalIdentity": "service yard-oriented, local, practical, and tied to the section mood of Shrine / Sacred Place",
+      "gameplayAssetNeeds": [
+        "Shrine / Sacred Place Civic Hall",
+        "Roadside Shrine",
+        "Shrine Sacred Place Lantern Monument",
+        "Votive Grove Nook",
+        "Shrine / Sacred Place pedestrians",
+        "street props",
+        "section lighting",
+        "board-readable landmark silhouette"
+      ],
+      "narrativeUse": [
+        "street scenes in Shrine / Sacred Place",
+        "local business around Roadside Shrine",
+        "district traversal",
+        "rumor exchange",
+        "small civic obstacle"
+      ],
+      "primaryLandmark": "Roadside Shrine",
+      "minorLandmarks": [
+        "Shrine / Sacred Place Civic Hall",
+        "Shrine Sacred Place Lantern Monument",
+        "Votive Grove Nook"
+      ]
+    },
+    {
+      "districtNumber": 16,
+      "sectionNumber": 4,
+      "name": "D16 University / Lyceum Landmark Court",
+      "civicPurpose": "A landmark court district within University / Lyceum that supports University / Lyceum Civic Hall, Lecture Hall, and the surrounding section economy.",
+      "visualIdentity": "Use Limestone Blocks, Stone, Driftwood, Gold Leaf, section signage through University / Lyceum Civic Hall, Lecture Hall, Star Navigation Monument, Observatory Court Nook, and terrain cues from Coastal Edge, Seawall Edge, Harbor Basin. The district should read as part of University / Lyceum without becoming generic.",
+      "emotionalIdentity": "landmark court-oriented, local, practical, and tied to the section mood of University / Lyceum",
+      "gameplayAssetNeeds": [
+        "University / Lyceum Civic Hall",
+        "Lecture Hall",
+        "Star Navigation Monument",
+        "Observatory Court Nook",
+        "University / Lyceum pedestrians",
+        "street props",
+        "section lighting",
+        "board-readable landmark silhouette"
+      ],
+      "narrativeUse": [
+        "street scenes in University / Lyceum",
+        "local business around Lecture Hall",
+        "district traversal",
+        "rumor exchange",
+        "small civic obstacle"
+      ],
+      "primaryLandmark": "Lecture Hall",
+      "minorLandmarks": [
+        "University / Lyceum Civic Hall",
+        "Star Navigation Monument",
+        "Observatory Court Nook"
+      ]
+    },
+    {
+      "districtNumber": 17,
+      "sectionNumber": 4,
+      "name": "D17 University / Lyceum Working Streets",
+      "civicPurpose": "A working streets district within University / Lyceum that supports University / Lyceum Civic Hall, Lecture Hall, and the surrounding section economy.",
+      "visualIdentity": "Use Limestone Blocks, Stone, Driftwood, Gold Leaf, section signage through University / Lyceum Civic Hall, Lecture Hall, Star Navigation Monument, Observatory Court Nook, and terrain cues from Coastal Edge, Seawall Edge, Harbor Basin. The district should read as part of University / Lyceum without becoming generic.",
+      "emotionalIdentity": "working streets-oriented, local, practical, and tied to the section mood of University / Lyceum",
+      "gameplayAssetNeeds": [
+        "University / Lyceum Civic Hall",
+        "Lecture Hall",
+        "Star Navigation Monument",
+        "Observatory Court Nook",
+        "University / Lyceum pedestrians",
+        "street props",
+        "section lighting",
+        "board-readable landmark silhouette"
+      ],
+      "narrativeUse": [
+        "street scenes in University / Lyceum",
+        "local business around Lecture Hall",
+        "district traversal",
+        "rumor exchange",
+        "small civic obstacle"
+      ],
+      "primaryLandmark": "Lecture Hall",
+      "minorLandmarks": [
+        "University / Lyceum Civic Hall",
+        "Star Navigation Monument",
+        "Observatory Court Nook"
+      ]
+    },
+    {
+      "districtNumber": 18,
+      "sectionNumber": 3,
+      "name": "D18 Public Works Authority Service Yard",
+      "civicPurpose": "A service yard district within Public Works Authority that supports Public Works Authority Hall, Survey Hall, and the surrounding section economy.",
+      "visualIdentity": "Use Limestone Blocks, Stone, Driftwood, Gold Leaf, section signage through Public Works Authority Hall, Survey Hall, Blue-Lamp Monument, Permit Yard Nook, and terrain cues from Coastal Edge, Seawall Edge, Harbor Basin. The district should read as part of Public Works Authority without becoming generic.",
+      "emotionalIdentity": "service yard-oriented, local, practical, and tied to the section mood of Public Works Authority",
+      "gameplayAssetNeeds": [
+        "Public Works Authority Hall",
+        "Survey Hall",
+        "Blue-Lamp Monument",
+        "Permit Yard Nook",
+        "Public Works Authority pedestrians",
+        "street props",
+        "section lighting",
+        "board-readable landmark silhouette"
+      ],
+      "narrativeUse": [
+        "street scenes in Public Works Authority",
+        "local business around Survey Hall",
+        "district traversal",
+        "rumor exchange",
+        "small civic obstacle"
+      ],
+      "primaryLandmark": "Survey Hall",
+      "minorLandmarks": [
+        "Public Works Authority Hall",
+        "Blue-Lamp Monument",
+        "Permit Yard Nook"
+      ]
+    },
+    {
+      "districtNumber": 19,
+      "sectionNumber": 5,
+      "name": "D19 Slums / Informal Settlement Civic Approach",
+      "civicPurpose": "A civic approach district within Slums / Informal Settlement that supports Slums / Informal Settlement Civic Hall, Scrap Market, and the surrounding section economy.",
+      "visualIdentity": "Use Limestone Blocks, Stone, Driftwood, Gold Leaf, section signage through Slums / Informal Settlement Civic Hall, Scrap Market, Slums Informal Settlement Lantern Monument, Patched Tenement Nook, and terrain cues from Coastal Edge, Seawall Edge, Harbor Basin. The district should read as part of Slums / Informal Settlement without becoming generic.",
+      "emotionalIdentity": "civic approach-oriented, local, practical, and tied to the section mood of Slums / Informal Settlement",
+      "gameplayAssetNeeds": [
+        "Slums / Informal Settlement Civic Hall",
+        "Scrap Market",
+        "Slums Informal Settlement Lantern Monument",
+        "Patched Tenement Nook",
+        "Slums / Informal Settlement pedestrians",
+        "street props",
+        "section lighting",
+        "board-readable landmark silhouette"
+      ],
+      "narrativeUse": [
+        "street scenes in Slums / Informal Settlement",
+        "local business around Scrap Market",
+        "district traversal",
+        "rumor exchange",
+        "small civic obstacle"
+      ],
+      "primaryLandmark": "Scrap Market",
+      "minorLandmarks": [
+        "Slums / Informal Settlement Civic Hall",
+        "Slums Informal Settlement Lantern Monument",
+        "Patched Tenement Nook"
+      ]
+    },
+    {
+      "districtNumber": 20,
+      "sectionNumber": 5,
+      "name": "D20 Slums / Informal Settlement Landmark Court",
+      "civicPurpose": "A landmark court district within Slums / Informal Settlement that supports Slums / Informal Settlement Civic Hall, Scrap Market, and the surrounding section economy.",
+      "visualIdentity": "Use Limestone Blocks, Stone, Driftwood, Gold Leaf, section signage through Slums / Informal Settlement Civic Hall, Scrap Market, Slums Informal Settlement Lantern Monument, Patched Tenement Nook, and terrain cues from Coastal Edge, Seawall Edge, Harbor Basin. The district should read as part of Slums / Informal Settlement without becoming generic.",
+      "emotionalIdentity": "landmark court-oriented, local, practical, and tied to the section mood of Slums / Informal Settlement",
+      "gameplayAssetNeeds": [
+        "Slums / Informal Settlement Civic Hall",
+        "Scrap Market",
+        "Slums Informal Settlement Lantern Monument",
+        "Patched Tenement Nook",
+        "Slums / Informal Settlement pedestrians",
+        "street props",
+        "section lighting",
+        "board-readable landmark silhouette"
+      ],
+      "narrativeUse": [
+        "street scenes in Slums / Informal Settlement",
+        "local business around Scrap Market",
+        "district traversal",
+        "rumor exchange",
+        "small civic obstacle"
+      ],
+      "primaryLandmark": "Scrap Market",
+      "minorLandmarks": [
+        "Slums / Informal Settlement Civic Hall",
+        "Slums Informal Settlement Lantern Monument",
+        "Patched Tenement Nook"
+      ]
+    },
+    {
+      "districtNumber": 21,
+      "sectionNumber": 4,
+      "name": "D21 University / Lyceum Residential Edge",
+      "civicPurpose": "A residential edge district within University / Lyceum that supports University / Lyceum Civic Hall, Lecture Hall, and the surrounding section economy.",
+      "visualIdentity": "Use Limestone Blocks, Stone, Driftwood, Gold Leaf, section signage through University / Lyceum Civic Hall, Lecture Hall, Star Navigation Monument, Observatory Court Nook, and terrain cues from Coastal Edge, Seawall Edge, Harbor Basin. The district should read as part of University / Lyceum without becoming generic.",
+      "emotionalIdentity": "residential edge-oriented, local, practical, and tied to the section mood of University / Lyceum",
+      "gameplayAssetNeeds": [
+        "University / Lyceum Civic Hall",
+        "Lecture Hall",
+        "Star Navigation Monument",
+        "Observatory Court Nook",
+        "University / Lyceum pedestrians",
+        "street props",
+        "section lighting",
+        "board-readable landmark silhouette"
+      ],
+      "narrativeUse": [
+        "street scenes in University / Lyceum",
+        "local business around Lecture Hall",
+        "district traversal",
+        "rumor exchange",
+        "small civic obstacle"
+      ],
+      "primaryLandmark": "Lecture Hall",
+      "minorLandmarks": [
+        "University / Lyceum Civic Hall",
+        "Star Navigation Monument",
+        "Observatory Court Nook"
+      ]
+    },
+    {
+      "districtNumber": 22,
+      "sectionNumber": 4,
+      "name": "D22 University / Lyceum Service Yard",
+      "civicPurpose": "A service yard district within University / Lyceum that supports University / Lyceum Civic Hall, Lecture Hall, and the surrounding section economy.",
+      "visualIdentity": "Use Limestone Blocks, Stone, Driftwood, Gold Leaf, section signage through University / Lyceum Civic Hall, Lecture Hall, Star Navigation Monument, Observatory Court Nook, and terrain cues from Coastal Edge, Seawall Edge, Harbor Basin. The district should read as part of University / Lyceum without becoming generic.",
+      "emotionalIdentity": "service yard-oriented, local, practical, and tied to the section mood of University / Lyceum",
+      "gameplayAssetNeeds": [
+        "University / Lyceum Civic Hall",
+        "Lecture Hall",
+        "Star Navigation Monument",
+        "Observatory Court Nook",
+        "University / Lyceum pedestrians",
+        "street props",
+        "section lighting",
+        "board-readable landmark silhouette"
+      ],
+      "narrativeUse": [
+        "street scenes in University / Lyceum",
+        "local business around Lecture Hall",
+        "district traversal",
+        "rumor exchange",
+        "small civic obstacle"
+      ],
+      "primaryLandmark": "Lecture Hall",
+      "minorLandmarks": [
+        "University / Lyceum Civic Hall",
+        "Star Navigation Monument",
+        "Observatory Court Nook"
+      ]
+    },
+    {
+      "districtNumber": 23,
+      "sectionNumber": 5,
+      "name": "D23 Slums / Informal Settlement Working Streets",
+      "civicPurpose": "A working streets district within Slums / Informal Settlement that supports Slums / Informal Settlement Civic Hall, Scrap Market, and the surrounding section economy.",
+      "visualIdentity": "Use Limestone Blocks, Stone, Driftwood, Gold Leaf, section signage through Slums / Informal Settlement Civic Hall, Scrap Market, Slums Informal Settlement Lantern Monument, Patched Tenement Nook, and terrain cues from Coastal Edge, Seawall Edge, Harbor Basin. The district should read as part of Slums / Informal Settlement without becoming generic.",
+      "emotionalIdentity": "working streets-oriented, local, practical, and tied to the section mood of Slums / Informal Settlement",
+      "gameplayAssetNeeds": [
+        "Slums / Informal Settlement Civic Hall",
+        "Scrap Market",
+        "Slums Informal Settlement Lantern Monument",
+        "Patched Tenement Nook",
+        "Slums / Informal Settlement pedestrians",
+        "street props",
+        "section lighting",
+        "board-readable landmark silhouette"
+      ],
+      "narrativeUse": [
+        "street scenes in Slums / Informal Settlement",
+        "local business around Scrap Market",
+        "district traversal",
+        "rumor exchange",
+        "small civic obstacle"
+      ],
+      "primaryLandmark": "Scrap Market",
+      "minorLandmarks": [
+        "Slums / Informal Settlement Civic Hall",
+        "Slums Informal Settlement Lantern Monument",
+        "Patched Tenement Nook"
+      ]
+    },
+    {
+      "districtNumber": 24,
+      "sectionNumber": 5,
+      "name": "D24 Slums / Informal Settlement Residential Edge",
+      "civicPurpose": "A residential edge district within Slums / Informal Settlement that supports Slums / Informal Settlement Civic Hall, Scrap Market, and the surrounding section economy.",
+      "visualIdentity": "Use Limestone Blocks, Stone, Driftwood, Gold Leaf, section signage through Slums / Informal Settlement Civic Hall, Scrap Market, Slums Informal Settlement Lantern Monument, Patched Tenement Nook, and terrain cues from Coastal Edge, Seawall Edge, Harbor Basin. The district should read as part of Slums / Informal Settlement without becoming generic.",
+      "emotionalIdentity": "residential edge-oriented, local, practical, and tied to the section mood of Slums / Informal Settlement",
+      "gameplayAssetNeeds": [
+        "Slums / Informal Settlement Civic Hall",
+        "Scrap Market",
+        "Slums Informal Settlement Lantern Monument",
+        "Patched Tenement Nook",
+        "Slums / Informal Settlement pedestrians",
+        "street props",
+        "section lighting",
+        "board-readable landmark silhouette"
+      ],
+      "narrativeUse": [
+        "street scenes in Slums / Informal Settlement",
+        "local business around Scrap Market",
+        "district traversal",
+        "rumor exchange",
+        "small civic obstacle"
+      ],
+      "primaryLandmark": "Scrap Market",
+      "minorLandmarks": [
+        "Slums / Informal Settlement Civic Hall",
+        "Slums Informal Settlement Lantern Monument",
+        "Patched Tenement Nook"
+      ]
+    },
+    {
+      "districtNumber": 25,
+      "sectionNumber": 5,
+      "name": "D25 Slums / Informal Settlement Service Yard",
+      "civicPurpose": "A service yard district within Slums / Informal Settlement that supports Slums / Informal Settlement Civic Hall, Scrap Market, and the surrounding section economy.",
+      "visualIdentity": "Use Limestone Blocks, Stone, Driftwood, Gold Leaf, section signage through Slums / Informal Settlement Civic Hall, Scrap Market, Slums Informal Settlement Lantern Monument, Patched Tenement Nook, and terrain cues from Coastal Edge, Seawall Edge, Harbor Basin. The district should read as part of Slums / Informal Settlement without becoming generic.",
+      "emotionalIdentity": "service yard-oriented, local, practical, and tied to the section mood of Slums / Informal Settlement",
+      "gameplayAssetNeeds": [
+        "Slums / Informal Settlement Civic Hall",
+        "Scrap Market",
+        "Slums Informal Settlement Lantern Monument",
+        "Patched Tenement Nook",
+        "Slums / Informal Settlement pedestrians",
+        "street props",
+        "section lighting",
+        "board-readable landmark silhouette"
+      ],
+      "narrativeUse": [
+        "street scenes in Slums / Informal Settlement",
+        "local business around Scrap Market",
+        "district traversal",
+        "rumor exchange",
+        "small civic obstacle"
+      ],
+      "primaryLandmark": "Scrap Market",
+      "minorLandmarks": [
+        "Slums / Informal Settlement Civic Hall",
+        "Slums Informal Settlement Lantern Monument",
+        "Patched Tenement Nook"
+      ]
+    }
   ],
   "landmarks": {
-    "wonder": {"name": "West-African Tide-Drum Harbor of Gold Sails", "symbolicRole": "Trade, tide, rhythm, sail wealth, and ancestral harbor identity made monumental.", "visualRole": "Wonder-scale gold-sailed harbor complex with tide-drum forms, ceremonial water, and broad civic approaches.", "civicRole": "Citywide ceremonies, harbor festivals, trade rites, departure blessings, and public assemblies.", "narrativeUse": ["gold-sail ceremony", "trade assembly", "harbor rite"], "assetUse": ["map wonder", "harbor skyline anchor"], "sensoryIdentity": ["drums", "sails", "salt air", "gold light"], "storyHooks": ["A tide-drum rhythm signals a cargo truth before the ledgers do."]},
-    "beacon": {"name": "Cargo Yard Beacon", "symbolicRole": "Trade accountability and public warning at the harbor's working heart.", "visualRole": "Blue-lit beacon rising from cargo yards, warehouse courts, cranes, and inventory halls.", "civicRole": "Coordinates cargo movement, harbor alerts, public works, shrine responses, university notices, and lower-district traffic.", "narrativeUse": ["Beacon alarm", "cargo disruption", "harbor response"], "assetUse": ["S1 centerpiece", "signal marker"], "sensoryIdentity": ["blue light", "rope", "crate wood", "dock bells"], "storyHooks": ["A Beacon change freezes the harbor and exposes who controls the inventory halls."]},
-    "seatOfPower": {"name": "Ancestor Masks Tide-Seal Citadel", "symbolicRole": "Ancestral memory and maritime authority sealed into government.", "visualRole": "Water-facing citadel with ancestor masks, gold seals, tide records, and formal harbor terraces.", "civicRole": "Governs cargo records, harbor law, ancestral obligations, public works authority, and petitions.", "narrativeUse": ["harbor hearing", "ancestor petition", "cargo ruling"], "assetUse": ["seat-of-power marker"], "sensoryIdentity": ["salt air", "carved masks", "ink", "wax seals"], "storyHooks": ["An ancestor mask forces the Citadel to honor a forgotten passage debt."]},
+    "wonder": {
+      "name": "West-African Tide-Drum Harbor of Gold Sails",
+      "symbolicRole": "The citywide symbol of West African identity made public and monumental.",
+      "visualRole": "A one-per-city wonder: spectacular, unmistakable, and larger than every section landmark. It turns Port Sargasso's geography, race identity, material culture, and civic magic into one public symbol. Built for Port Sargasso's West African population, it uses Limestone Blocks, Stone, Driftwood, Gold Leaf, Linen across Coastal Edge, Seawall Edge, Harbor Basin; water context: Coast; magic expression: Civic Blue Illuminat",
+      "civicRole": "A unifying civic symbol larger than section landmarks; it gives Port Sargasso its skyline identity and public myth.",
+      "narrativeUse": [
+        "citywide reveal",
+        "arrival scene",
+        "public ceremony",
+        "moment of civic awe",
+        "orientation landmark"
+      ],
+      "assetUse": [
+        "map background skyline anchor",
+        "hero-view anchor",
+        "diorama distant silhouette",
+        "city identity marker"
+      ],
+      "sensoryIdentity": [
+        "monumental scale",
+        "public crowd noise",
+        "material gleam",
+        "ropes groaning on docks",
+        "manifest clerks calling cargo marks",
+        "salt water",
+        "driftwood smoke"
+      ],
+      "storyHooks": [
+        "a public ceremony at the Wonder changes city mood",
+        "maintenance access reveals hidden civic routes",
+        "the Wonder becomes the reference point during a beacon state"
+      ]
+    },
+    "beacon": {
+      "name": "Cargo Yard Beacon",
+      "symbolicRole": "The public signal point where citywide warning becomes local action.",
+      "visualRole": "A largest local landmark in this section, subordinate only to the city wonder and citadel. It belongs to Section 1 (Warehousing / Logistics) of Port Sargasso and should use White Limestone Civic Blocks, Market Arcades, Subterranean Vaults, stone and gold leaf materials, Lantern Lit, Gold Seals, Red Fabric Awnings, and the West African visual language. Design focus: stacked barrels, warehouses, loading bays, manifest",
+      "civicRole": "The Section 1 signal landmark; citizens watch it for alerts, public notices, and Conjunction response.",
+      "narrativeUse": [
+        "beacon color change",
+        "crowd reaction",
+        "evacuation or assembly",
+        "public misinformation",
+        "urgent messenger arrival"
+      ],
+      "assetUse": [
+        "Section 1 diorama centerpiece",
+        "city signal marker",
+        "beacon-state visual effect",
+        "map focal point"
+      ],
+      "sensoryIdentity": [
+        "blue glow",
+        "public hush at signal changes",
+        "stone plaza footsteps",
+        "ropes groaning on docks",
+        "manifest clerks calling cargo marks",
+        "salt water",
+        "driftwood smoke"
+      ],
+      "storyHooks": [
+        "a signal is interpreted before officials arrive",
+        "crowds block the approach",
+        "the beacon reveals which district reacts first"
+      ]
+    },
+    "seatOfPower": {
+      "name": "Ancestor Masks Tide-Seal Citadel",
+      "symbolicRole": "Civic authority made visible through courts, archives, command platforms, and public legitimacy.",
+      "visualRole": "The district-13 seat of power: courts, audience terraces, sealed archives, command platforms, and the visible apparatus of government. It is not a faction HQ; it is the city's central civic authority. Built for Port Sargasso's West African population, it uses Limestone Blocks, Stone, Driftwood, Gold Leaf, Linen across Coastal Edge, Seawall Edge, Harbor Basin; water context: Coast; magic expression: Civic Blue Illumin",
+      "civicRole": "District 13 authority center for petitions, archives, judgments, and city-scale decisions; not a faction headquarters.",
+      "narrativeUse": [
+        "ruling scene",
+        "sealed archive discovery",
+        "public petition",
+        "trial or judgment",
+        "authority under pressure"
+      ],
+      "assetUse": [
+        "central D13 map anchor",
+        "government diorama backdrop",
+        "authority iconography",
+        "petition scene set"
+      ],
+      "sensoryIdentity": [
+        "formal echoes",
+        "archive dust",
+        "official seals",
+        "guarded thresholds",
+        "ropes groaning on docks",
+        "manifest clerks calling cargo marks",
+        "salt water",
+        "driftwood smoke"
+      ],
+      "storyHooks": [
+        "a sealed record contradicts public belief",
+        "a petition exposes citywide risk",
+        "command platforms become crowd-facing stages"
+      ]
+    },
     "majorLandmarks": [
-      {"name": "Roadside Shrine", "symbolicRole": "Sacred pause before movement and exchange.", "visualRole": "Small shrine with lantern monument, votive grove, carved detail, and road-harbor edge placement.", "civicRole": "Offerings, blessings, departure rites, and public memory.", "narrativeUse": ["votive clue", "departure blessing"], "assetUse": ["S2 diorama"], "sensoryIdentity": ["lamp oil", "incense", "sea wind"], "storyHooks": ["A votive token proves someone passed through before the cargo record says they did."]},
-      {"name": "Survey Hall", "symbolicRole": "Harbor safety made technical.", "visualRole": "Survey hall with blue lamp, permit yard, instruments, maps, and harbor views.", "civicRole": "Public works, permits, tide surveys, and route safety.", "narrativeUse": ["permit conflict", "storm warning"], "assetUse": ["S3 diorama"], "sensoryIdentity": ["wet maps", "bronze tools", "blue lamp"], "storyHooks": ["A survey map contradicts the cargo house's profitable route."]},
-      {"name": "Lecture Hall", "symbolicRole": "Knowledge as port infrastructure.", "visualRole": "Lecture court with star navigation monument, students, open water, and civic terraces.", "civicRole": "Education, navigation training, and public interpretation.", "narrativeUse": ["lecture", "student witness", "navigation clue"], "assetUse": ["S4 diorama"], "sensoryIdentity": ["paper", "chalk", "salt air"], "storyHooks": ["A student reading of the stars exposes a false harbor schedule."]},
-      {"name": "Scrap Market", "symbolicRole": "Survival and repair beneath harbor wealth.", "visualRole": "Patchwork waterfront market of scrap stalls, lantern monument, patched tenements, and repair activity.", "civicRole": "Repair culture, lower-district economy, and overlooked evidence.", "narrativeUse": ["repair clue", "low-city pressure"], "assetUse": ["S5 diorama"], "sensoryIdentity": ["scrap metal", "smoke", "salt damp", "shared food"], "storyHooks": ["The scrap market repairs the part the cargo house officially lost."]}
+      {
+        "name": "Warehousing / Logistics Civic Hall",
+        "symbolicRole": "Section 1 civic center preserving the local identity of Warehousing / Logistics.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing. It belongs to Section 1 (Warehousing / Logistics) of Port Sargasso and should use Subterranean Vaults, White Limestone Civic Blocks, Market Arcades, stone and gold leaf materials, Lantern Lit, Gold Seals, Red Fabric Awnings, and the West African",
+        "civicRole": "Supports Warehousing / Logistics as a playable and writable district spine rather than a generic neighborhood.",
+        "narrativeUse": [
+          "Warehousing / Logistics scene anchor",
+          "local errand",
+          "public meeting point",
+          "district conflict",
+          "orientation clue"
+        ],
+        "assetUse": [
+          "Section 1 diorama asset",
+          "board-readable landmark",
+          "street-level focal prop",
+          "map district marker"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "worked materials",
+          "public voices",
+          "ropes groaning on docks",
+          "manifest clerks calling cargo marks",
+          "salt water",
+          "driftwood smoke"
+        ],
+        "storyHooks": [
+          "an event at Warehousing / Logistics Civic Hall reveals section priorities",
+          "locals use Warehousing / Logistics Civic Hall as shorthand for the district",
+          "a small failure here cascades into a citywide problem"
+        ]
+      },
+      {
+        "name": "Warehousing Logistics Gold-Seal Monument",
+        "symbolicRole": "Section 1 monument preserving the local identity of Warehousing / Logistics.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles. It belongs to Section 1 (Warehousing / Logistics) of Port Sargasso and should use Market Arcades, Subterranean Vaults, White Limestone Civic Blocks, stone and gold leaf materials, Red Fabric Awnings, Lantern Lit, Gold Seals, and the West Africa",
+        "civicRole": "Supports Warehousing / Logistics as a playable and writable district spine rather than a generic neighborhood.",
+        "narrativeUse": [
+          "Warehousing / Logistics scene anchor",
+          "local errand",
+          "public meeting point",
+          "district conflict",
+          "orientation clue"
+        ],
+        "assetUse": [
+          "Section 1 diorama asset",
+          "board-readable landmark",
+          "street-level focal prop",
+          "map district marker"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "worked materials",
+          "public voices",
+          "ropes groaning on docks",
+          "manifest clerks calling cargo marks",
+          "salt water",
+          "driftwood smoke"
+        ],
+        "storyHooks": [
+          "an event at Warehousing Logistics Gold-Seal Monument reveals section priorities",
+          "locals use Warehousing Logistics Gold-Seal Monument as shorthand for the district",
+          "a small failure here cascades into a citywide problem"
+        ]
+      },
+      {
+        "name": "Inventory Hall Nook",
+        "symbolicRole": "Section 1 minor landmark preserving the local identity of Warehousing / Logistics.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette. It belongs to Section 1 (Warehousing / Logistics) of Port Sargasso and should use Market Arcades, Subterranean Vaults, White Limestone Civic Blocks, stone and gold leaf materials, Red Fabric Awnings, Lantern Lit, Gold Seals, and the West African visual language",
+        "civicRole": "Supports Warehousing / Logistics as a playable and writable district spine rather than a generic neighborhood.",
+        "narrativeUse": [
+          "Warehousing / Logistics scene anchor",
+          "local errand",
+          "public meeting point",
+          "district conflict",
+          "orientation clue"
+        ],
+        "assetUse": [
+          "Section 1 diorama asset",
+          "board-readable landmark",
+          "street-level focal prop",
+          "map district marker"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "worked materials",
+          "public voices",
+          "ropes groaning on docks",
+          "manifest clerks calling cargo marks",
+          "salt water",
+          "driftwood smoke"
+        ],
+        "storyHooks": [
+          "an event at Inventory Hall Nook reveals section priorities",
+          "locals use Inventory Hall Nook as shorthand for the district",
+          "a small failure here cascades into a citywide problem"
+        ]
+      },
+      {
+        "name": "Shrine / Sacred Place Civic Hall",
+        "symbolicRole": "Section 2 civic center preserving the local identity of Shrine / Sacred Place.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing. It belongs to Section 2 (Shrine / Sacred Place) of Port Sargasso and should use Reed Pavilions, Temple Platforms, Cliffside Monasteries, stone and gold leaf materials, Lantern Lit, Carved Totems, Bone White Ceremony, and the West African visual l",
+        "civicRole": "Supports Shrine / Sacred Place as a playable and writable district spine rather than a generic neighborhood.",
+        "narrativeUse": [
+          "Shrine / Sacred Place scene anchor",
+          "local errand",
+          "public meeting point",
+          "district conflict",
+          "orientation clue"
+        ],
+        "assetUse": [
+          "Section 2 diorama asset",
+          "board-readable landmark",
+          "street-level focal prop",
+          "map district marker"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "worked materials",
+          "public voices",
+          "ropes groaning on docks",
+          "manifest clerks calling cargo marks",
+          "salt water",
+          "driftwood smoke"
+        ],
+        "storyHooks": [
+          "an event at Shrine / Sacred Place Civic Hall reveals section priorities",
+          "locals use Shrine / Sacred Place Civic Hall as shorthand for the district",
+          "a small failure here cascades into a citywide problem"
+        ]
+      },
+      {
+        "name": "Roadside Shrine",
+        "symbolicRole": "Section 2 major landmark preserving the local identity of Shrine / Sacred Place.",
+        "visualRole": "A largest local landmark in this section, subordinate only to the city wonder and citadel. It belongs to Section 2 (Shrine / Sacred Place) of Port Sargasso and should use Cliffside Monasteries, Reed Pavilions, Temple Platforms, stone and gold leaf materials, Bone White Ceremony, Lantern Lit, Carved Totems, and the West African visual language. Design focus:",
+        "civicRole": "Supports Shrine / Sacred Place as a playable and writable district spine rather than a generic neighborhood.",
+        "narrativeUse": [
+          "Shrine / Sacred Place scene anchor",
+          "local errand",
+          "public meeting point",
+          "district conflict",
+          "orientation clue"
+        ],
+        "assetUse": [
+          "Section 2 diorama asset",
+          "board-readable landmark",
+          "street-level focal prop",
+          "map district marker"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "worked materials",
+          "public voices",
+          "ropes groaning on docks",
+          "manifest clerks calling cargo marks",
+          "salt water",
+          "driftwood smoke"
+        ],
+        "storyHooks": [
+          "an event at Roadside Shrine reveals section priorities",
+          "locals use Roadside Shrine as shorthand for the district",
+          "a small failure here cascades into a citywide problem"
+        ]
+      },
+      {
+        "name": "Shrine Sacred Place Lantern Monument",
+        "symbolicRole": "Section 2 monument preserving the local identity of Shrine / Sacred Place.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles. It belongs to Section 2 (Shrine / Sacred Place) of Port Sargasso and should use Reed Pavilions, Temple Platforms, Cliffside Monasteries, stone and gold leaf materials, Lantern Lit, Carved Totems, Bone White Ceremony, and the West African visual",
+        "civicRole": "Supports Shrine / Sacred Place as a playable and writable district spine rather than a generic neighborhood.",
+        "narrativeUse": [
+          "Shrine / Sacred Place scene anchor",
+          "local errand",
+          "public meeting point",
+          "district conflict",
+          "orientation clue"
+        ],
+        "assetUse": [
+          "Section 2 diorama asset",
+          "board-readable landmark",
+          "street-level focal prop",
+          "map district marker"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "worked materials",
+          "public voices",
+          "ropes groaning on docks",
+          "manifest clerks calling cargo marks",
+          "salt water",
+          "driftwood smoke"
+        ],
+        "storyHooks": [
+          "an event at Shrine Sacred Place Lantern Monument reveals section priorities",
+          "locals use Shrine Sacred Place Lantern Monument as shorthand for the district",
+          "a small failure here cascades into a citywide problem"
+        ]
+      },
+      {
+        "name": "Votive Grove Nook",
+        "symbolicRole": "Section 2 minor landmark preserving the local identity of Shrine / Sacred Place.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette. It belongs to Section 2 (Shrine / Sacred Place) of Port Sargasso and should use Temple Platforms, Cliffside Monasteries, Reed Pavilions, stone and gold leaf materials, Lantern Lit, Carved Totems, Bone White Ceremony, and the West African visual language. Design",
+        "civicRole": "Supports Shrine / Sacred Place as a playable and writable district spine rather than a generic neighborhood.",
+        "narrativeUse": [
+          "Shrine / Sacred Place scene anchor",
+          "local errand",
+          "public meeting point",
+          "district conflict",
+          "orientation clue"
+        ],
+        "assetUse": [
+          "Section 2 diorama asset",
+          "board-readable landmark",
+          "street-level focal prop",
+          "map district marker"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "worked materials",
+          "public voices",
+          "ropes groaning on docks",
+          "manifest clerks calling cargo marks",
+          "salt water",
+          "driftwood smoke"
+        ],
+        "storyHooks": [
+          "an event at Votive Grove Nook reveals section priorities",
+          "locals use Votive Grove Nook as shorthand for the district",
+          "a small failure here cascades into a citywide problem"
+        ]
+      },
+      {
+        "name": "Public Works Authority Hall",
+        "symbolicRole": "Section 3 civic center preserving the local identity of Public Works Authority.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing. It belongs to Section 3 (Public Works Authority) of Port Sargasso and should use White Limestone Civic Blocks, Forge Halls, Market Arcades, stone and gold leaf materials, Canal Reflections, Gold Seals, Civic Blue Glow, and the West African visual",
+        "civicRole": "Supports Public Works Authority as a playable and writable district spine rather than a generic neighborhood.",
+        "narrativeUse": [
+          "Public Works Authority scene anchor",
+          "local errand",
+          "public meeting point",
+          "district conflict",
+          "orientation clue"
+        ],
+        "assetUse": [
+          "Section 3 diorama asset",
+          "board-readable landmark",
+          "street-level focal prop",
+          "map district marker"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "worked materials",
+          "public voices",
+          "ropes groaning on docks",
+          "manifest clerks calling cargo marks",
+          "salt water",
+          "driftwood smoke"
+        ],
+        "storyHooks": [
+          "an event at Public Works Authority Hall reveals section priorities",
+          "locals use Public Works Authority Hall as shorthand for the district",
+          "a small failure here cascades into a citywide problem"
+        ]
+      },
+      {
+        "name": "Survey Hall",
+        "symbolicRole": "Section 3 major landmark preserving the local identity of Public Works Authority.",
+        "visualRole": "A mandatory Section 3 Beacon: a culturally adapted civic signal flame / warning-light landmark visible across the city spine. It belongs to Section 3 (Public Works Authority) of Port Sargasso and should use Forge Halls, Market Arcades, White Limestone Civic Blocks, stone and gold leaf materials, Canal Reflections, Gold Seals, Civic Blue Glow, and the West Af",
+        "civicRole": "Supports Public Works Authority as a playable and writable district spine rather than a generic neighborhood.",
+        "narrativeUse": [
+          "Public Works Authority scene anchor",
+          "local errand",
+          "public meeting point",
+          "district conflict",
+          "orientation clue"
+        ],
+        "assetUse": [
+          "Section 3 diorama asset",
+          "board-readable landmark",
+          "street-level focal prop",
+          "map district marker"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "worked materials",
+          "public voices",
+          "ropes groaning on docks",
+          "manifest clerks calling cargo marks",
+          "salt water",
+          "driftwood smoke"
+        ],
+        "storyHooks": [
+          "an event at Survey Hall reveals section priorities",
+          "locals use Survey Hall as shorthand for the district",
+          "a small failure here cascades into a citywide problem"
+        ]
+      },
+      {
+        "name": "Blue-Lamp Monument",
+        "symbolicRole": "Section 3 monument preserving the local identity of Public Works Authority.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles. It belongs to Section 3 (Public Works Authority) of Port Sargasso and should use White Limestone Civic Blocks, Forge Halls, Market Arcades, stone and gold leaf materials, Canal Reflections, Gold Seals, Civic Blue Glow, and the West African visu",
+        "civicRole": "Supports Public Works Authority as a playable and writable district spine rather than a generic neighborhood.",
+        "narrativeUse": [
+          "Public Works Authority scene anchor",
+          "local errand",
+          "public meeting point",
+          "district conflict",
+          "orientation clue"
+        ],
+        "assetUse": [
+          "Section 3 diorama asset",
+          "board-readable landmark",
+          "street-level focal prop",
+          "map district marker"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "worked materials",
+          "public voices",
+          "ropes groaning on docks",
+          "manifest clerks calling cargo marks",
+          "salt water",
+          "driftwood smoke"
+        ],
+        "storyHooks": [
+          "an event at Blue-Lamp Monument reveals section priorities",
+          "locals use Blue-Lamp Monument as shorthand for the district",
+          "a small failure here cascades into a citywide problem"
+        ]
+      },
+      {
+        "name": "Permit Yard Nook",
+        "symbolicRole": "Section 3 minor landmark preserving the local identity of Public Works Authority.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette. It belongs to Section 3 (Public Works Authority) of Port Sargasso and should use White Limestone Civic Blocks, Forge Halls, Market Arcades, stone and gold leaf materials, Gold Seals, Civic Blue Glow, Canal Reflections, and the West African visual language. Desi",
+        "civicRole": "Supports Public Works Authority as a playable and writable district spine rather than a generic neighborhood.",
+        "narrativeUse": [
+          "Public Works Authority scene anchor",
+          "local errand",
+          "public meeting point",
+          "district conflict",
+          "orientation clue"
+        ],
+        "assetUse": [
+          "Section 3 diorama asset",
+          "board-readable landmark",
+          "street-level focal prop",
+          "map district marker"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "worked materials",
+          "public voices",
+          "ropes groaning on docks",
+          "manifest clerks calling cargo marks",
+          "salt water",
+          "driftwood smoke"
+        ],
+        "storyHooks": [
+          "an event at Permit Yard Nook reveals section priorities",
+          "locals use Permit Yard Nook as shorthand for the district",
+          "a small failure here cascades into a citywide problem"
+        ]
+      },
+      {
+        "name": "University / Lyceum Civic Hall",
+        "symbolicRole": "Section 4 civic center preserving the local identity of University / Lyceum.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing. It belongs to Section 4 (University / Lyceum) of Port Sargasso and should use Archive Towers, White Limestone Civic Blocks, Lecture Courts, stone and gold leaf materials, Lantern Lit, Civic Blue Glow, Star Navigation, and the West African visual",
+        "civicRole": "Supports University / Lyceum as a playable and writable district spine rather than a generic neighborhood.",
+        "narrativeUse": [
+          "University / Lyceum scene anchor",
+          "local errand",
+          "public meeting point",
+          "district conflict",
+          "orientation clue"
+        ],
+        "assetUse": [
+          "Section 4 diorama asset",
+          "board-readable landmark",
+          "street-level focal prop",
+          "map district marker"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "worked materials",
+          "public voices",
+          "ropes groaning on docks",
+          "manifest clerks calling cargo marks",
+          "salt water",
+          "driftwood smoke"
+        ],
+        "storyHooks": [
+          "an event at University / Lyceum Civic Hall reveals section priorities",
+          "locals use University / Lyceum Civic Hall as shorthand for the district",
+          "a small failure here cascades into a citywide problem"
+        ]
+      },
+      {
+        "name": "Lecture Hall",
+        "symbolicRole": "Section 4 major landmark preserving the local identity of University / Lyceum.",
+        "visualRole": "A largest local landmark in this section, subordinate only to the city wonder and citadel. It belongs to Section 4 (University / Lyceum) of Port Sargasso and should use White Limestone Civic Blocks, Lecture Courts, Archive Towers, stone and gold leaf materials, Lantern Lit, Civic Blue Glow, Star Navigation, and the West African visual language. Design focus:",
+        "civicRole": "Supports University / Lyceum as a playable and writable district spine rather than a generic neighborhood.",
+        "narrativeUse": [
+          "University / Lyceum scene anchor",
+          "local errand",
+          "public meeting point",
+          "district conflict",
+          "orientation clue"
+        ],
+        "assetUse": [
+          "Section 4 diorama asset",
+          "board-readable landmark",
+          "street-level focal prop",
+          "map district marker"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "worked materials",
+          "public voices",
+          "ropes groaning on docks",
+          "manifest clerks calling cargo marks",
+          "salt water",
+          "driftwood smoke"
+        ],
+        "storyHooks": [
+          "an event at Lecture Hall reveals section priorities",
+          "locals use Lecture Hall as shorthand for the district",
+          "a small failure here cascades into a citywide problem"
+        ]
+      },
+      {
+        "name": "Star Navigation Monument",
+        "symbolicRole": "Section 4 monument preserving the local identity of University / Lyceum.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles. It belongs to Section 4 (University / Lyceum) of Port Sargasso and should use Lecture Courts, Archive Towers, White Limestone Civic Blocks, stone and gold leaf materials, Star Navigation, Lantern Lit, Civic Blue Glow, and the West African visua",
+        "civicRole": "Supports University / Lyceum as a playable and writable district spine rather than a generic neighborhood.",
+        "narrativeUse": [
+          "University / Lyceum scene anchor",
+          "local errand",
+          "public meeting point",
+          "district conflict",
+          "orientation clue"
+        ],
+        "assetUse": [
+          "Section 4 diorama asset",
+          "board-readable landmark",
+          "street-level focal prop",
+          "map district marker"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "worked materials",
+          "public voices",
+          "ropes groaning on docks",
+          "manifest clerks calling cargo marks",
+          "salt water",
+          "driftwood smoke"
+        ],
+        "storyHooks": [
+          "an event at Star Navigation Monument reveals section priorities",
+          "locals use Star Navigation Monument as shorthand for the district",
+          "a small failure here cascades into a citywide problem"
+        ]
+      },
+      {
+        "name": "Observatory Court Nook",
+        "symbolicRole": "Section 4 minor landmark preserving the local identity of University / Lyceum.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette. It belongs to Section 4 (University / Lyceum) of Port Sargasso and should use Archive Towers, White Limestone Civic Blocks, Lecture Courts, stone and gold leaf materials, Lantern Lit, Civic Blue Glow, Star Navigation, and the West African visual language. Desig",
+        "civicRole": "Supports University / Lyceum as a playable and writable district spine rather than a generic neighborhood.",
+        "narrativeUse": [
+          "University / Lyceum scene anchor",
+          "local errand",
+          "public meeting point",
+          "district conflict",
+          "orientation clue"
+        ],
+        "assetUse": [
+          "Section 4 diorama asset",
+          "board-readable landmark",
+          "street-level focal prop",
+          "map district marker"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "worked materials",
+          "public voices",
+          "ropes groaning on docks",
+          "manifest clerks calling cargo marks",
+          "salt water",
+          "driftwood smoke"
+        ],
+        "storyHooks": [
+          "an event at Observatory Court Nook reveals section priorities",
+          "locals use Observatory Court Nook as shorthand for the district",
+          "a small failure here cascades into a citywide problem"
+        ]
+      },
+      {
+        "name": "Slums / Informal Settlement Civic Hall",
+        "symbolicRole": "Section 5 civic center preserving the local identity of Slums / Informal Settlement.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing. It belongs to Section 5 (Slums / Informal Settlement) of Port Sargasso and should use Reed Pavilions, Market Arcades, Timber Longhouses, stone and gold leaf materials, Woven Banners, Lantern Lit, Red Fabric Awnings, and the West African visual la",
+        "civicRole": "Supports Slums / Informal Settlement as a playable and writable district spine rather than a generic neighborhood.",
+        "narrativeUse": [
+          "Slums / Informal Settlement scene anchor",
+          "local errand",
+          "public meeting point",
+          "district conflict",
+          "orientation clue"
+        ],
+        "assetUse": [
+          "Section 5 diorama asset",
+          "board-readable landmark",
+          "street-level focal prop",
+          "map district marker"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "worked materials",
+          "public voices",
+          "ropes groaning on docks",
+          "manifest clerks calling cargo marks",
+          "salt water",
+          "driftwood smoke"
+        ],
+        "storyHooks": [
+          "an event at Slums / Informal Settlement Civic Hall reveals section priorities",
+          "locals use Slums / Informal Settlement Civic Hall as shorthand for the district",
+          "a small failure here cascades into a citywide problem"
+        ]
+      },
+      {
+        "name": "Scrap Market",
+        "symbolicRole": "Section 5 major landmark preserving the local identity of Slums / Informal Settlement.",
+        "visualRole": "A largest local landmark in this section, subordinate only to the city wonder and citadel. It belongs to Section 5 (Slums / Informal Settlement) of Port Sargasso and should use Timber Longhouses, Reed Pavilions, Market Arcades, stone and gold leaf materials, Woven Banners, Lantern Lit, Red Fabric Awnings, and the West African visual language. Design focus: s",
+        "civicRole": "Supports Slums / Informal Settlement as a playable and writable district spine rather than a generic neighborhood.",
+        "narrativeUse": [
+          "Slums / Informal Settlement scene anchor",
+          "local errand",
+          "public meeting point",
+          "district conflict",
+          "orientation clue"
+        ],
+        "assetUse": [
+          "Section 5 diorama asset",
+          "board-readable landmark",
+          "street-level focal prop",
+          "map district marker"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "worked materials",
+          "public voices",
+          "ropes groaning on docks",
+          "manifest clerks calling cargo marks",
+          "salt water",
+          "driftwood smoke"
+        ],
+        "storyHooks": [
+          "an event at Scrap Market reveals section priorities",
+          "locals use Scrap Market as shorthand for the district",
+          "a small failure here cascades into a citywide problem"
+        ]
+      },
+      {
+        "name": "Slums Informal Settlement Lantern Monument",
+        "symbolicRole": "Section 5 monument preserving the local identity of Slums / Informal Settlement.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles. It belongs to Section 5 (Slums / Informal Settlement) of Port Sargasso and should use Timber Longhouses, Reed Pavilions, Market Arcades, stone and gold leaf materials, Lantern Lit, Red Fabric Awnings, Woven Banners, and the West African visual",
+        "civicRole": "Supports Slums / Informal Settlement as a playable and writable district spine rather than a generic neighborhood.",
+        "narrativeUse": [
+          "Slums / Informal Settlement scene anchor",
+          "local errand",
+          "public meeting point",
+          "district conflict",
+          "orientation clue"
+        ],
+        "assetUse": [
+          "Section 5 diorama asset",
+          "board-readable landmark",
+          "street-level focal prop",
+          "map district marker"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "worked materials",
+          "public voices",
+          "ropes groaning on docks",
+          "manifest clerks calling cargo marks",
+          "salt water",
+          "driftwood smoke"
+        ],
+        "storyHooks": [
+          "an event at Slums Informal Settlement Lantern Monument reveals section priorities",
+          "locals use Slums Informal Settlement Lantern Monument as shorthand for the district",
+          "a small failure here cascades into a citywide problem"
+        ]
+      },
+      {
+        "name": "Patched Tenement Nook",
+        "symbolicRole": "Section 5 minor landmark preserving the local identity of Slums / Informal Settlement.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette. It belongs to Section 5 (Slums / Informal Settlement) of Port Sargasso and should use Market Arcades, Timber Longhouses, Reed Pavilions, stone and gold leaf materials, Red Fabric Awnings, Woven Banners, Lantern Lit, and the West African visual language. Design",
+        "civicRole": "Supports Slums / Informal Settlement as a playable and writable district spine rather than a generic neighborhood.",
+        "narrativeUse": [
+          "Slums / Informal Settlement scene anchor",
+          "local errand",
+          "public meeting point",
+          "district conflict",
+          "orientation clue"
+        ],
+        "assetUse": [
+          "Section 5 diorama asset",
+          "board-readable landmark",
+          "street-level focal prop",
+          "map district marker"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "worked materials",
+          "public voices",
+          "ropes groaning on docks",
+          "manifest clerks calling cargo marks",
+          "salt water",
+          "driftwood smoke"
+        ],
+        "storyHooks": [
+          "an event at Patched Tenement Nook reveals section priorities",
+          "locals use Patched Tenement Nook as shorthand for the district",
+          "a small failure here cascades into a citywide problem"
+        ]
+      }
     ]
   },
   "assetGuidance": {
     "districtDioramaGuidance": [
-      "S1 must show Warehousing / Logistics Civic Hall, Cargo Yard Beacon, Warehousing Logistics Gold-Seal Monument, Inventory Hall Nook, crates, cranes, and dockworkers.",
-      "S2 must show Shrine / Sacred Place Civic Hall, Roadside Shrine, Shrine Sacred Place Lantern Monument, Votive Grove Nook, votive offerings, and shrine keepers.",
-      "S3 must show Public Works Authority Hall, Survey Hall, Blue-Lamp Monument, Permit Yard Nook, maps, instruments, and harbor work crews.",
-      "S4 must show University / Lyceum Civic Hall, Lecture Hall, Star Navigation Monument, Observatory Court Nook, students, star charts, and water-facing plazas.",
-      "S5 must show Slums / Informal Settlement Civic Hall, Scrap Market, Slums Informal Settlement Lantern Monument, Patched Tenement Nook, repair stalls, scrap roofs, and lower waterfront life."
+      "S1 / Warehousing / Logistics must preserve Warehousing / Logistics Civic Hall, Cargo Yard Beacon, Warehousing Logistics Gold-Seal Monument, and Inventory Hall Nook as the source-backed anchor cluster.",
+      "S2 / Shrine / Sacred Place must preserve Shrine / Sacred Place Civic Hall, Roadside Shrine, Shrine Sacred Place Lantern Monument, and Votive Grove Nook as the source-backed anchor cluster.",
+      "S3 / Public Works Authority must preserve Public Works Authority Hall, Survey Hall, Blue-Lamp Monument, and Permit Yard Nook as the source-backed anchor cluster.",
+      "S4 / University / Lyceum must preserve University / Lyceum Civic Hall, Lecture Hall, Star Navigation Monument, and Observatory Court Nook as the source-backed anchor cluster.",
+      "S5 / Slums / Informal Settlement must preserve Slums / Informal Settlement Civic Hall, Scrap Market, Slums Informal Settlement Lantern Monument, and Patched Tenement Nook as the source-backed anchor cluster."
     ],
     "mapBackgroundGuidance": [
-      "Keep West-African Tide-Drum Harbor of Gold Sails, Cargo Yard Beacon, and Ancestor Masks Tide-Seal Citadel legible together.",
-      "Use gold sails, cargo yards, shrines, public works halls, lecture courts, ancestor masks, blue lamps, and lower waterfront scrap markets."
+      "Show Port Sargasso as a West African city using Limestone Blocks, Stone, Driftwood, Gold Leaf, Linen across Coastal Edge, Seawall Edge, Harbor Basin.",
+      "Keep West-African Tide-Drum Harbor of Gold Sails as the skyline-scale Wonder, Ancestor Masks Tide-Seal Citadel as central D13 authority, and Cargo Yard Beacon as the public signal landmark.",
+      "Use section landmark distribution to avoid flattening the city: Warehousing / Logistics, Shrine / Sacred Place, Public Works Authority, University / Lyceum, Slums / Informal Settlement.",
+      "Water and terrain must follow source context: Coast; Coastal Edge, Seawall Edge, Harbor Basin."
     ],
-    "requiredVisualElements": ["West-African Tide-Drum Harbor of Gold Sails", "Cargo Yard Beacon", "Ancestor Masks Tide-Seal Citadel", "Warehousing Logistics Gold-Seal Monument", "Inventory Hall Nook", "Roadside Shrine", "Shrine Sacred Place Lantern Monument", "Votive Grove Nook", "Survey Hall", "Blue-Lamp Monument", "Permit Yard Nook", "Lecture Hall", "Star Navigation Monument", "Observatory Court Nook", "Scrap Market", "Slums Informal Settlement Lantern Monument", "Patched Tenement Nook"],
-    "elementsToAvoid": ["generic pirate port", "luxury harbor with no labor", "gold sails without cargo systems", "ancestor masks as empty decoration", "lower district omitted"]
+    "requiredVisualElements": [
+      "West African",
+      "West-African Tide-Drum Harbor of Gold Sails",
+      "Cargo Yard Beacon",
+      "Ancestor Masks Tide-Seal Citadel",
+      "Limestone Blocks",
+      "Stone",
+      "Driftwood",
+      "Gold Leaf",
+      "Linen",
+      "Coastal Edge",
+      "Seawall Edge",
+      "Harbor Basin",
+      "Civic Blue Illumination",
+      "Oath Seals",
+      "Ancestral Spirits",
+      "Warehousing / Logistics Civic Hall",
+      "Shrine / Sacred Place Civic Hall",
+      "Public Works Authority Hall",
+      "University / Lyceum Civic Hall",
+      "Slums / Informal Settlement Civic Hall",
+      "Roadside Shrine",
+      "Survey Hall",
+      "Lecture Hall",
+      "Scrap Market",
+      "Warehousing Logistics Gold-Seal Monument",
+      "Shrine Sacred Place Lantern Monument",
+      "Blue-Lamp Monument",
+      "Star Navigation Monument",
+      "Slums Informal Settlement Lantern Monument",
+      "Inventory Hall Nook",
+      "Votive Grove Nook",
+      "Permit Yard Nook",
+      "Observatory Court Nook",
+      "Patched Tenement Nook"
+    ],
+    "elementsToAvoid": [
+      "generic pirate port",
+      "tourist West-African ornament without civic systems",
+      "empty gold decoration",
+      "pure slum city",
+      "modern container port logic",
+      "invented district-specific landmarks not supported by sidecars",
+      "replacing proper anchor names with generic summaries",
+      "collapsing five section spines into one repeated street type"
+    ]
   }
 }

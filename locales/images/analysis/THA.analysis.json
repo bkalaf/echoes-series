@@ -4,110 +4,1804 @@
     "analysisVersion": 2,
     "cityCode": "THA",
     "cityName": "Thalewood",
-    "analysisDate": "2026-07-03",
+    "analysisDate": "2026-07-05",
     "analystVersion": "gpt-5.5-thinking",
     "analysisConfidence": "strong-lock",
-    "basedOnImages": ["THA-HERO-NE-v001", "THA-HERO-NW-v001", "THA-HERO-SE-v001", "THA-HERO-SW-v001", "THA-STREET-S1-v001", "THA-STREET-S2-v001", "THA-STREET-S3-v001", "THA-STREET-S4-v001", "THA-STREET-S5-v001"],
-    "basedOnSidecars": ["THA-HERO-NE-v001.json", "THA-HERO-NW-v001.json", "THA-HERO-SE-v001.json", "THA-HERO-SW-v001.json", "THA-STREET-S1-v001.json", "THA-STREET-S2-v001.json", "THA-STREET-S3-v001.json", "THA-STREET-S4-v001.json", "THA-STREET-S5-v001.json"]
+    "basedOnImages": [
+      "THA-HERO-NE-v001",
+      "THA-HERO-NW-v001",
+      "THA-HERO-SE-v001",
+      "THA-HERO-SW-v001",
+      "THA-STREET-S1-v001",
+      "THA-STREET-S2-v001",
+      "THA-STREET-S3-v001",
+      "THA-STREET-S4-v001",
+      "THA-STREET-S5-v001"
+    ],
+    "basedOnSidecars": [
+      "THA-HERO-NE-v001.json",
+      "THA-HERO-NW-v001.json",
+      "THA-HERO-SE-v001.json",
+      "THA-HERO-SW-v001.json",
+      "THA-STREET-S1-v001.json",
+      "THA-STREET-S2-v001.json",
+      "THA-STREET-S3-v001.json",
+      "THA-STREET-S4-v001.json",
+      "THA-STREET-S5-v001.json"
+    ],
+    "missingStreetSections": []
   },
   "cityDNA": {
-    "coreFantasy": "A wood-elven old-growth city where sacred groves, temple platforms, archives, alchemical labs, lecture halls, and heartroot cathedrals turn living branches into civic order.",
-    "primaryEmotion": "moonlit stewardship",
-    "secondaryEmotion": "scholarly green calm",
-    "readerTakeaway": "Thalewood is not a loose forest village; the uploaded images show living-branch architecture with records, labs, temples, public learning, and formal court authority.",
-    "civilizationThesis": "Thalewood turns old-growth roots, moonlight refraction, sacred groves, ritual geometry, archive memory, controlled alchemy, and public scholarship into a forest civilization with institutions.",
-    "visualIdentity": "Oak, limestone, timber, antler details, arcane glow, sacred groves, hanging gardens, living canopy halls, temple platforms, archive towers, alchemy labs, lecture halls, and branch cathedrals.",
-    "culturalIdentity": "Wood-elven culture where stewardship is civic, religious, scholarly, and administrative rather than purely natural.",
-    "symbolicIdentity": "Heartroots, living branches, sacred groves, moonlight, star maps, antlers, lantern monuments, copyist halls, formula archives, and lecture courts symbolize wisdom grown into law."
+    "coreFantasy": "A wood elves city where Nature Preserve / Sacred Grove, Religious / Temple Quarter, Records / Archives, Arcane / Alchemical Labs, University / Lyceum, and Wood-Elven Heartroot Cathedral of Living Branches turn forest, root network, old growth woodland, dry ground and oak, limestone blocks, timber, arcane glow, antler into a distinct civic machine.",
+    "primaryEmotion": "sacred green stillness",
+    "secondaryEmotion": "old-root vigilance",
+    "readerTakeaway": "Thalewood should feel grown rather than built: a civic forest where every archive, temple, and school bends around living roots.",
+    "civilizationThesis": "Thalewood organizes public life around patient stewardship: its districts convert Nature Preserve / Sacred Grove, Religious / Temple Quarter, Records / Archives, Arcane / Alchemical Labs, University / Lyceum into a readable system of authority, labor, memory, and movement.",
+    "visualIdentity": "Thalewood should be recognized by Oak, Limestone Blocks, Timber, Arcane Glow, Antler, Forest, Root Network, Old Growth Woodland, Dry Ground, Ward Networks, Ritual Geometry, Moonlight Refraction, Celestial Projection, Living Roots, and the named anchors Wood-Elven Heartroot Cathedral of Living Branches, Sacred Grove Beacon, and Star Map Ceilings Veiled High Court.",
+    "culturalIdentity": "The city belongs to wood elves; its civic habits should grow from the sidecar-backed district spine rather than generic fantasy urbanism.",
+    "symbolicIdentity": "Wood-Elven Heartroot Cathedral of Living Branches, Sacred Grove Beacon, Star Map Ceilings Veiled High Court, and the five section landmark families symbolize patient stewardship while warning against ancient sanctity becoming exclusion or inertia."
   },
   "canon": {
     "canonLocks": [
-      "Thalewood is a mature wood-elven civic forest, not a loose forest village.",
+      "Thalewood is a wood elves city, not a generic settlement with cosmetic motifs.",
       "The Wonder is Wood-Elven Heartroot Cathedral of Living Branches.",
       "The Beacon is Sacred Grove Beacon.",
-      "The Seat of Power is Star Map Ceilings Veiled High Court.",
-      "The five primary districts are Nature Preserve / Sacred Grove, Religious / Temple Quarter, Records / Archives, Arcane / Alchemical Labs, and University / Lyceum.",
-      "Exact uploaded anchors include Nature Preserve / Sacred Grove Civic Hall, Sacred Grove Beacon, Hanging Gardens Monument, Living Canopy Hall Nook, Religious / Temple Quarter Civic Hall, Temple Platform, Religious Temple Quarter Lantern Monument, Procession Stair Nook, Records / Archives Hall, Archive Tower, Records Archives Gold-Seal Monument, Copyist Hall Nook, Arcane / Alchemical Labs Civic Hall, Alchemy Lab, Blue-Lamp Monument, Formula Archive Nook, University / Lyceum Civic Hall, Lecture Hall, Star Navigation Monument, and Observatory Court Nook."
+      "The Seat of Power is Star Map Ceilings Veiled High Court, located at the District 13 authority center.",
+      "The five district sections are Nature Preserve / Sacred Grove, Religious / Temple Quarter, Records / Archives, Arcane / Alchemical Labs, University / Lyceum.",
+      "The board should be treated as twenty-five district slots grouped into five section identities.",
+      "Section 1 (Nature Preserve / Sacred Grove) preserves these exact anchor names: Nature Preserve / Sacred Grove Civic Hall, Sacred Grove Beacon, Hanging Gardens Monument, Living Canopy Hall Nook.",
+      "Section 2 (Religious / Temple Quarter) preserves these exact anchor names: Religious / Temple Quarter Civic Hall, Temple Platform, Religious Temple Quarter Lantern Monument, Procession Stair Nook.",
+      "Section 3 (Records / Archives) preserves these exact anchor names: Records / Archives Hall, Archive Tower, Records Archives Gold-Seal Monument, Copyist Hall Nook.",
+      "Section 4 (Arcane / Alchemical Labs) preserves these exact anchor names: Arcane / Alchemical Labs Civic Hall, Alchemy Lab, Blue-Lamp Monument, Formula Archive Nook.",
+      "Section 5 (University / Lyceum) preserves these exact anchor names: University / Lyceum Civic Hall, Lecture Hall, Star Navigation Monument, Observatory Court Nook."
     ],
-    "provisionalCanon": ["Thalewood's strongest civic read is moonlit stewardship shaped into institutions.", "The uploaded image and sidecar pass were folded into v2 fields without adding a new top-level image-analysis section."],
-    "rejectedReads": ["generic forest elf village", "wild canopy with no institutions", "nature harmony without archives, labs, or university life"],
-    "cautionFlags": ["Preserve exact uploaded sidecar anchor names.", "Keep grove, temple, archive, alchemy, and university districts visible together.", "The forest is civic infrastructure, not a backdrop."]
+    "provisionalCanon": [
+      "Individual district-slot names beyond exact sidecar anchors are organizational labels for the 25-seat board, not new landmark canon.",
+      "Minor street customs should be derived from the section spine unless future source files provide more exact anchors."
+    ],
+    "rejectedReads": [
+      "Thalewood as a generic fantasy city without its named Wonder, Beacon, and Seat of Power.",
+      "Replacing exact sidecar anchor names with generic labels such as market, temple, tower, wall, or archive.",
+      "Treating district section labels as decorative instead of civic systems that drive scenes and assets."
+    ],
+    "cautionFlags": [
+      "Preserve exact named anchors from sidecars.",
+      "Use the culture identity respectfully as civic design language rather than costume.",
+      "Keep all 25 district slots legible even when five slots share one section identity.",
+      "Do not add unsupported individual district landmark names beyond the source-backed anchors."
+    ]
   },
   "environment": {
-    "terrain": ["Forest", "Root Network", "Old Growth Woodland", "living branch terraces", "sacred grove courts", "archive paths", "university clearings"],
-    "water": ["forest basins", "ritual pools", "rain-darkened roots", "alchemy wash water", "courtyard channels"],
-    "vegetation": ["old growth trees", "heartroots", "living branches", "hanging gardens", "moonlit moss", "canopy planters"],
-    "climateLighting": ["moonlight refraction", "filtered green daylight", "blue civic glow", "temple lantern light", "archive window light"],
-    "environmentalLogic": "Roots, branches, canopy, moonlight, and grove paths are civic systems that organize worship, records, laboratories, teaching, and government."
+    "terrain": [
+      "Forest",
+      "Root Network",
+      "Old Growth Woodland",
+      "Dry Ground"
+    ],
+    "water": [
+      "dry city ground"
+    ],
+    "vegetation": [
+      "Canopy Platforms",
+      "Hanging Gardens",
+      "temple terraces",
+      "roots",
+      "sacred groves"
+    ],
+    "climateLighting": [
+      "Mist Veils",
+      "White Limestone Civic Blocks",
+      "Lantern Lit",
+      "Civic Blue Glow",
+      "Sun Disc Reliefs",
+      "symbolic civic object",
+      "Moonlight Refraction"
+    ],
+    "environmentalLogic": "Thalewood's environment should make Nature Preserve / Sacred Grove, Religious / Temple Quarter, Records / Archives, Arcane / Alchemical Labs, University / Lyceum feel physically necessary. Terrain, light, civic routes, and landmark placement must support movement through all five section identities rather than read as interchangeable scenery."
   },
   "architecture": {
-    "materials": ["Oak", "Limestone Blocks", "Timber", "Arcane Glow", "Antler"],
-    "forms": ["Wood-Elven Heartroot Cathedral of Living Branches", "Star Map Ceilings Veiled High Court", "Sacred Grove Beacon", "Living Canopy Hall Nook", "Temple Platform", "Procession Stair Nook", "Archive Tower", "Copyist Hall Nook", "Alchemy Lab", "Formula Archive Nook", "Lecture Hall", "Observatory Court Nook"],
-    "skyline": ["Wood-Elven Heartroot Cathedral of Living Branches as far wonder anchor", "Star Map Ceilings Veiled High Court as central authority", "Sacred Grove Beacon as living forest signal", "archive towers, temple platforms, alchemy labs, and lecture halls nested in old-growth structure"],
-    "lighting": ["moonlit branch glow", "blue civic lamps", "temple lanterns", "archive gold-seal glints", "alchemy glass light"],
-    "infrastructure": ["root paths", "living canopy halls", "procession stairs", "archive stairs", "copyist halls", "formula archives", "lecture courts", "observatory courts"],
-    "motifs": ["heartroots", "living branches", "antlers", "moonlight", "star maps", "sacred groves", "lantern monuments", "copyist halls"],
-    "colorLanguage": ["oak brown", "leaf green", "moonlit silver", "civic blue", "limestone pale", "lantern amber"],
-    "textureLanguage": ["living bark", "carved oak", "wet moss", "polished limestone", "antler ornament", "glass and parchment"]
+    "materials": [
+      "Oak",
+      "Limestone Blocks",
+      "Timber",
+      "Arcane Glow",
+      "Antler"
+    ],
+    "forms": [
+      "Timber Longhouses",
+      "Reed Pavilions",
+      "Canopy Platforms",
+      "timber and antler materials",
+      "Hanging Gardens",
+      "Carved Totems",
+      "Mist Veils",
+      "Archive Towers",
+      "White Limestone Civic Blocks",
+      "Lecture Courts",
+      "Star Navigation",
+      "Lantern Lit",
+      "Civic Blue Glow",
+      "Temple Platforms",
+      "Gothic Spires",
+      "Step Pyramids",
+      "Woven Banners",
+      "Bone White Ceremony"
+    ],
+    "skyline": [
+      "Wood-Elven Heartroot Cathedral of Living Branches is the wonder-scale skyline identifier.",
+      "Star Map Ceilings Veiled High Court marks the central authority mass at District 13.",
+      "Sacred Grove Beacon must remain visible as the public signal landmark.",
+      "Section landmarks should form a readable ring of Nature Preserve / Sacred Grove, Religious / Temple Quarter, Records / Archives, Arcane / Alchemical Labs, University / Lyceum."
+    ],
+    "lighting": [
+      "Mist Veils",
+      "White Limestone Civic Blocks",
+      "Lantern Lit",
+      "Civic Blue Glow",
+      "Sun Disc Reliefs",
+      "symbolic civic object",
+      "Moonlight Refraction",
+      "district lanterns",
+      "public signal glow"
+    ],
+    "infrastructure": [
+      "Nature Preserve / Sacred Grove routes",
+      "Religious / Temple Quarter routes",
+      "Records / Archives routes",
+      "Arcane / Alchemical Labs routes",
+      "University / Lyceum routes",
+      "Nature Preserve / Sacred Grove Civic Hall",
+      "Religious / Temple Quarter Civic Hall",
+      "Records / Archives Hall",
+      "Arcane / Alchemical Labs Civic Hall",
+      "University / Lyceum Civic Hall"
+    ],
+    "motifs": [
+      "protected paths",
+      "largest section focal point",
+      "strong vertical silhouette",
+      "distinct gameplay landmark",
+      "visible from nearby districts",
+      "ink",
+      "star charts",
+      "lecture bells",
+      "lecture halls",
+      "archive towers",
+      "processional banners",
+      "temple terraces",
+      "prayer cloisters",
+      "ritual courts",
+      "offering counters",
+      "runes",
+      "colored vapors",
+      "sealed jars"
+    ],
+    "colorLanguage": [
+      "Ward Networks",
+      "Ritual Geometry",
+      "Moonlight Refraction",
+      "Celestial Projection"
+    ],
+    "textureLanguage": [
+      "Oak",
+      "Limestone Blocks",
+      "Timber",
+      "Arcane Glow",
+      "Antler",
+      "Forest",
+      "Root Network",
+      "Old Growth Woodland",
+      "Dry Ground",
+      "temple terraces",
+      "roots"
+    ]
   },
   "civilization": {
-    "people": "Wood-elven citizens move through living architecture as scholars, caretakers, ritual attendants, archivists, alchemists, and teachers rather than wilderness figures.",
-    "occupations": ["grove keepers", "temple attendants", "archivists", "copyists", "alchemists", "formula archivists", "lecturers", "students", "observatory assistants"],
-    "socialClasses": ["High Court officials", "grove families", "temple authorities", "archive houses", "alchemy staff", "university scholars", "service households"],
-    "governance": "Star Map Ceilings Veiled High Court governs grove law, temple obligations, archive records, alchemical permissions, and scholarly testimony.",
-    "religion": "Heartroot worship, sacred grove rites, moonlight refraction, processions, antler symbols, and living-branch cathedrals make stewardship sacred and public.",
-    "customs": ["grove tending", "temple processions", "copyist witness", "formula permission", "public lectures", "star navigation lessons"],
-    "bodyLanguage": ["quiet movement around roots", "formal grove pauses", "careful handling of books and glass", "status-aware court posture"],
-    "speechPatterns": ["stewardship terms", "star-map references", "archive citations", "formula phrases", "temple liturgy"]
+    "people": "Thalewood's people are wood elves; they should be written through shared civic habits, public spaces, work rhythms, and the visible demands of the five section identities.",
+    "occupations": [
+      "grove keepers",
+      "canopy tenders",
+      "root wardens",
+      "sacred gardeners",
+      "temple attendants",
+      "procession stewards",
+      "votive makers",
+      "ritual singers",
+      "archivists",
+      "copyists",
+      "seal clerks",
+      "index runners",
+      "alchemists",
+      "formula copyists",
+      "lab wardens",
+      "component sellers",
+      "lecturers",
+      "students",
+      "instrument makers",
+      "debate stewards"
+    ],
+    "socialClasses": [
+      "officials and stewards tied to Star Map Ceilings Veiled High Court",
+      "landmark keepers and civic hall administrators",
+      "guild families and specialist workers",
+      "street vendors, porters, runners, and maintenance crews",
+      "families living around the section-specific local anchors"
+    ],
+    "governance": "Authority centers on Star Map Ceilings Veiled High Court and is made visible through section civic halls, named landmarks, permissions, public signals, and the citywide response to Sacred Grove Beacon.",
+    "religion": "Religious or ceremonial life should be shown through source-backed shrines, temples, wonders, oath spaces, ancestor sites, or ritual geometry when those appear in the district spine.",
+    "customs": [
+      "citizens orient themselves by the section identity of a street before they identify an address",
+      "public notices and signals are interpreted through the Beacon and civic halls",
+      "named landmarks act as meeting points, proof points, and local memory anchors",
+      "section-specific work routines shape food, clothing, posture, and street traffic",
+      "District 13 authority matters even when scenes occur in outer district slots"
+    ],
+    "bodyLanguage": [
+      "movement reflects sacred green stillness",
+      "citizens check landmarks and signals before crossing into another section",
+      "officials use the posture and tools of their section role",
+      "workers treat section anchors as practical wayfinding points",
+      "crowds become more formal near the Seat of Power and more local near minor landmarks"
+    ],
+    "speechPatterns": [
+      "directions use exact landmark names rather than generic descriptions",
+      "section names carry social meaning",
+      "official speech references permits, seals, routes, oaths, or signals as appropriate to the city",
+      "working speech is concrete, location-heavy, and tied to civic function",
+      "locals distinguish between the Wonder, Beacon, Seat, and section landmarks without confusion"
+    ]
   },
   "urbanLife": {
     "streets": {
-      "appearance": "Living branch streets and old-growth plazas connect sacred groves, temple platforms, archive towers, alchemy labs, and lecture courts with blue lamps and moonlit paths.",
-      "movement": "Movement follows root paths, canopy bridges, procession stairs, archive approaches, lab courts, and university clearings.",
-      "sounds": ["leaves", "soft bells", "pages", "glass clinks", "lecture voices", "rain on branches"],
-      "smells": ["oak", "moss", "rain", "ink", "lantern oil", "alchemy herbs"],
-      "lighting": "Moonlit silver, green canopy light, blue civic lamps, and warm temple lanterns divide district identities.",
-      "weatherEffects": "Rain brightens roots, deepens bark, and turns the forest architecture reflective and alive.",
-      "dayCycle": "Grove care, temple duties, archives, labs, and public lectures fill daytime.",
-      "nightCycle": "Moonlit rites, archive lamps, formula work, and quiet observatory lessons dominate night."
+      "appearance": "Street scenes should make Thalewood immediately identifiable through Oak, Limestone Blocks, Timber, Arcane Glow, Antler, Forest, Root Network, Old Growth Woodland, Dry Ground, Ward Networks, Ritual Geometry, Moonlight Refraction, Celestial Projection, Living Roots, and the exact section anchors rather than generic fantasy facades.",
+      "movement": "Movement flows through five section identities and twenty-five district slots. People navigate by Sacred Grove Beacon, Star Map Ceilings Veiled High Court, section civic halls, major landmarks, monuments, and minor nooks.",
+      "sounds": [
+        "foot traffic",
+        "public notices",
+        "work tools",
+        "cart wheels or pack movement",
+        "district-specific calls",
+        "signal response murmurs",
+        "grove keepers",
+        "canopy tenders",
+        "root wardens",
+        "sacred gardeners",
+        "temple attendants",
+        "procession stewards"
+      ],
+      "smells": [
+        "worked materials",
+        "street food",
+        "lamp oil",
+        "dust or wet stone",
+        "district workshops",
+        "oak",
+        "limestone blocks",
+        "timber",
+        "arcane glow",
+        "antler"
+      ],
+      "lighting": "Lighting should use Mist Veils, White Limestone Civic Blocks, Lantern Lit, Civic Blue Glow, Sun Disc Reliefs, symbolic civic object, with the Beacon and Seat carrying distinct civic emphasis.",
+      "weatherEffects": "Weather should interact with forest, root network, old growth woodland, dry ground and the city's source-backed materials, altering visibility, travel speed, public gathering, and signal readability.",
+      "dayCycle": "Daytime emphasizes section labor: Nature Preserve / Sacred Grove, Religious / Temple Quarter, Records / Archives, Arcane / Alchemical Labs, University / Lyceum. Civic halls, shops, and public works create the main public rhythm.",
+      "nightCycle": "Night scenes should preserve the city's identity through landmark silhouettes, beacon light, watch routes, late shops, ritual spaces, and section-specific sounds."
     },
     "shops": {
-      "common": ["herb stalls", "woodcarvers", "ink sellers", "garden food vendors", "lantern makers"],
-      "uncommon": ["antler artisans", "star-chart copyists", "formula suppliers", "living-wood repairers"],
-      "prestigious": ["High Court record offices", "university patron halls", "temple craft rooms", "alchemy guild counters"],
-      "exports": ["herbs", "woodcraft", "star charts", "formula copies", "manuscripts", "living-wood craft"],
-      "imports": ["paper", "ink", "glass", "rare reagents", "metals", "fine cloth"],
-      "streetFood": ["leaf-wrapped cakes", "forest tea", "mushroom stew", "nut bread", "berry pastries"],
-      "services": ["archive copying", "formula certification", "public teaching", "temple offerings", "grove maintenance"]
+      "common": [
+        "nature preserve / sacred grove supply stalls",
+        "religious / temple quarter supply stalls",
+        "records / archives supply stalls",
+        "arcane / alchemical labs supply stalls",
+        "university / lyceum supply stalls",
+        "street food carts",
+        "tool repair stalls",
+        "notice copyists"
+      ],
+      "uncommon": [
+        "nature preserve / sacred grove specialist counters",
+        "religious / temple quarter specialist counters",
+        "records / archives specialist counters",
+        "arcane / alchemical labs specialist counters",
+        "university / lyceum specialist counters",
+        "landmark guide services",
+        "ritual or permit specialists"
+      ],
+      "prestigious": [
+        "workshops or offices near Star Map Ceilings Veiled High Court",
+        "specialist houses serving Wood-Elven Heartroot Cathedral of Living Branches",
+        "elite civic sealers or patrons",
+        "master artisans tied to section landmarks"
+      ],
+      "exports": [
+        "nature preserve / sacred grove goods",
+        "religious / temple quarter goods",
+        "records / archives goods",
+        "arcane / alchemical labs goods",
+        "university / lyceum goods",
+        "oak",
+        "limestone blocks",
+        "timber",
+        "arcane glow"
+      ],
+      "imports": [
+        "food staples",
+        "replacement tools",
+        "rare pigments",
+        "ritual materials",
+        "metal fittings",
+        "fine cloth"
+      ],
+      "streetFood": [
+        "portable worker meals",
+        "flatbread or grain cakes",
+        "spiced stews",
+        "roasted local produce",
+        "market tea",
+        "festival sweets"
+      ],
+      "services": [
+        "directions by landmark",
+        "permit filing",
+        "repair work",
+        "messenger runs",
+        "public notice posting",
+        "nature preserve / sacred grove services",
+        "religious / temple quarter services",
+        "records / archives services",
+        "arcane / alchemical labs services",
+        "university / lyceum services"
+      ]
     },
     "housing": {
-      "wealthy": "Court and grove-adjacent homes grown into old branches with moonlit terraces and private study rooms.",
-      "middle": "Archivist, scholar, temple, and lab homes around root streets and living-wood work courts.",
-      "poor": "Small service dwellings along root margins, with shared lamps, repair paths, and proximity to public institutions."
+      "wealthy": "High-status housing clusters near Star Map Ceilings Veiled High Court, major terraces, and prestigious landmark approaches; it should display the city materials cleanly and control sightlines toward Wonder or Beacon.",
+      "middle": "Middle housing occupies upper rooms, side courts, work-family compounds, and mixed-use streets close to civic halls and section services.",
+      "poor": "Poorer housing should be practical and specific to local labor, with patched materials, shared courtyards, crowded lanes, and strong dependence on nearby section anchors."
     }
   },
   "districts": [
-    {"sectionNumber": 1, "name": "Nature Preserve / Sacred Grove", "civicPurpose": "Sacred ecology, public signal identity, and stewardship authority.", "visualIdentity": "Nature Preserve / Sacred Grove Civic Hall, Sacred Grove Beacon, Hanging Gardens Monument, Living Canopy Hall Nook.", "emotionalIdentity": "reverent, alive, watchful", "gameplayAssetNeeds": ["Nature Preserve / Sacred Grove Civic Hall", "Sacred Grove Beacon", "Hanging Gardens Monument", "Living Canopy Hall Nook"], "narrativeUse": ["Beacon warning", "grove rite", "stewardship test"], "landmark": "Sacred Grove Beacon", "minorLandmarks": ["Hanging Gardens Monument", "Living Canopy Hall Nook"]},
-    {"sectionNumber": 2, "name": "Religious / Temple Quarter", "civicPurpose": "Public ritual, processions, sacred teaching, and heartroot ceremony.", "visualIdentity": "Religious / Temple Quarter Civic Hall, Temple Platform, Religious Temple Quarter Lantern Monument, Procession Stair Nook.", "emotionalIdentity": "ceremonial, quiet, moonlit", "gameplayAssetNeeds": ["Religious / Temple Quarter Civic Hall", "Temple Platform", "Religious Temple Quarter Lantern Monument", "Procession Stair Nook"], "narrativeUse": ["procession", "temple rite", "public vow"], "landmark": "Temple Platform", "minorLandmarks": ["Religious Temple Quarter Lantern Monument", "Procession Stair Nook"]},
-    {"sectionNumber": 3, "name": "Records / Archives", "civicPurpose": "Public memory, copied truth, stewardship law, and historical continuity.", "visualIdentity": "Records / Archives Hall, Archive Tower, Records Archives Gold-Seal Monument, Copyist Hall Nook.", "emotionalIdentity": "solemn, exact, old", "gameplayAssetNeeds": ["Records / Archives Hall", "Archive Tower", "Records Archives Gold-Seal Monument", "Copyist Hall Nook"], "narrativeUse": ["record clue", "archive dispute", "old law"], "landmark": "Archive Tower", "minorLandmarks": ["Records Archives Gold-Seal Monument", "Copyist Hall Nook"]},
-    {"sectionNumber": 4, "name": "Arcane / Alchemical Labs", "civicPurpose": "Controlled research, formula keeping, and forest-magic experimentation.", "visualIdentity": "Arcane / Alchemical Labs Civic Hall, Alchemy Lab, Blue-Lamp Monument, Formula Archive Nook.", "emotionalIdentity": "precise, green-lit, risky", "gameplayAssetNeeds": ["Arcane / Alchemical Labs Civic Hall", "Alchemy Lab", "Blue-Lamp Monument", "Formula Archive Nook"], "narrativeUse": ["formula clue", "research dispute", "lab hazard"], "landmark": "Alchemy Lab", "minorLandmarks": ["Blue-Lamp Monument", "Formula Archive Nook"]},
-    {"sectionNumber": 5, "name": "University / Lyceum", "civicPurpose": "Public teaching, star navigation, civic interpretation, and scholarly continuity.", "visualIdentity": "University / Lyceum Civic Hall, Lecture Hall, Star Navigation Monument, Observatory Court Nook.", "emotionalIdentity": "learned, open, luminous", "gameplayAssetNeeds": ["University / Lyceum Civic Hall", "Lecture Hall", "Star Navigation Monument", "Observatory Court Nook"], "narrativeUse": ["lecture", "student witness", "star-navigation clue"], "landmark": "Lecture Hall", "minorLandmarks": ["Star Navigation Monument", "Observatory Court Nook"]}
+    {
+      "districtNumber": 1,
+      "sectionNumber": 1,
+      "name": "D01 Nature Preserve / Sacred Grove Civic Core",
+      "civicPurpose": "One of five Nature Preserve / Sacred Grove district slots, focused on civic core; it supports local movement, services, social pressure, and scene transitions within Section 1.",
+      "visualIdentity": "Nature Preserve / Sacred Grove Civic Hall anchors the slot, supported by Hanging Gardens Monument, Living Canopy Hall Nook, Oak, Limestone Blocks, Timber, Arcane Glow, Antler, and the wood elves civic language.",
+      "emotionalIdentity": "Nature Preserve / Sacred Grove expressed through civic core: sacred green stillness with practical street-level specificity.",
+      "gameplayAssetNeeds": [
+        "Nature Preserve / Sacred Grove Civic Hall",
+        "Hanging Gardens Monument",
+        "Living Canopy Hall Nook",
+        "Nature Preserve / Sacred Grove street dressing",
+        "wood elves civilians",
+        "section-appropriate props"
+      ],
+      "narrativeUse": [
+        "nature preserve / sacred grove errands",
+        "wayfinding by exact landmark",
+        "crowd pressure",
+        "local work conflict",
+        "transition between board slots"
+      ],
+      "primaryLandmark": "Nature Preserve / Sacred Grove Civic Hall",
+      "minorLandmarks": [
+        "Hanging Gardens Monument",
+        "Living Canopy Hall Nook"
+      ]
+    },
+    {
+      "districtNumber": 2,
+      "sectionNumber": 1,
+      "name": "D02 Nature Preserve / Sacred Grove Major Landmark Approach",
+      "civicPurpose": "One of five Nature Preserve / Sacred Grove district slots, focused on major landmark approach; it supports local movement, services, social pressure, and scene transitions within Section 1.",
+      "visualIdentity": "Sacred Grove Beacon anchors the slot, supported by Hanging Gardens Monument, Living Canopy Hall Nook, Nature Preserve / Sacred Grove Civic Hall, Oak, Limestone Blocks, Timber, Arcane Glow, Antler, and the wood elves civic language.",
+      "emotionalIdentity": "Nature Preserve / Sacred Grove expressed through major landmark approach: sacred green stillness with practical street-level specificity.",
+      "gameplayAssetNeeds": [
+        "Sacred Grove Beacon",
+        "Hanging Gardens Monument",
+        "Living Canopy Hall Nook",
+        "Nature Preserve / Sacred Grove Civic Hall",
+        "Nature Preserve / Sacred Grove street dressing",
+        "wood elves civilians",
+        "section-appropriate props"
+      ],
+      "narrativeUse": [
+        "nature preserve / sacred grove errands",
+        "wayfinding by exact landmark",
+        "crowd pressure",
+        "local work conflict",
+        "transition between board slots"
+      ],
+      "primaryLandmark": "Sacred Grove Beacon",
+      "minorLandmarks": [
+        "Hanging Gardens Monument",
+        "Living Canopy Hall Nook",
+        "Nature Preserve / Sacred Grove Civic Hall"
+      ]
+    },
+    {
+      "districtNumber": 3,
+      "sectionNumber": 1,
+      "name": "D03 Nature Preserve / Sacred Grove Monument Square",
+      "civicPurpose": "One of five Nature Preserve / Sacred Grove district slots, focused on monument square; it supports local movement, services, social pressure, and scene transitions within Section 1.",
+      "visualIdentity": "Hanging Gardens Monument anchors the slot, supported by Living Canopy Hall Nook, Nature Preserve / Sacred Grove Civic Hall, Oak, Limestone Blocks, Timber, Arcane Glow, Antler, and the wood elves civic language.",
+      "emotionalIdentity": "Nature Preserve / Sacred Grove expressed through monument square: sacred green stillness with practical street-level specificity.",
+      "gameplayAssetNeeds": [
+        "Hanging Gardens Monument",
+        "Living Canopy Hall Nook",
+        "Nature Preserve / Sacred Grove Civic Hall",
+        "Nature Preserve / Sacred Grove street dressing",
+        "wood elves civilians",
+        "section-appropriate props"
+      ],
+      "narrativeUse": [
+        "nature preserve / sacred grove errands",
+        "wayfinding by exact landmark",
+        "crowd pressure",
+        "local work conflict",
+        "transition between board slots"
+      ],
+      "primaryLandmark": "Hanging Gardens Monument",
+      "minorLandmarks": [
+        "Living Canopy Hall Nook",
+        "Nature Preserve / Sacred Grove Civic Hall"
+      ]
+    },
+    {
+      "districtNumber": 4,
+      "sectionNumber": 2,
+      "name": "D04 Religious / Temple Quarter Civic Core",
+      "civicPurpose": "One of five Religious / Temple Quarter district slots, focused on civic core; it supports local movement, services, social pressure, and scene transitions within Section 2.",
+      "visualIdentity": "Religious / Temple Quarter Civic Hall anchors the slot, supported by Religious Temple Quarter Lantern Monument, Procession Stair Nook, Oak, Limestone Blocks, Timber, Arcane Glow, Antler, and the wood elves civic language.",
+      "emotionalIdentity": "Religious / Temple Quarter expressed through civic core: sacred green stillness with practical street-level specificity.",
+      "gameplayAssetNeeds": [
+        "Religious / Temple Quarter Civic Hall",
+        "Religious Temple Quarter Lantern Monument",
+        "Procession Stair Nook",
+        "Religious / Temple Quarter street dressing",
+        "wood elves civilians",
+        "section-appropriate props"
+      ],
+      "narrativeUse": [
+        "religious / temple quarter errands",
+        "wayfinding by exact landmark",
+        "crowd pressure",
+        "local work conflict",
+        "transition between board slots"
+      ],
+      "primaryLandmark": "Religious / Temple Quarter Civic Hall",
+      "minorLandmarks": [
+        "Religious Temple Quarter Lantern Monument",
+        "Procession Stair Nook"
+      ]
+    },
+    {
+      "districtNumber": 5,
+      "sectionNumber": 2,
+      "name": "D05 Religious / Temple Quarter Major Landmark Approach",
+      "civicPurpose": "One of five Religious / Temple Quarter district slots, focused on major landmark approach; it supports local movement, services, social pressure, and scene transitions within Section 2.",
+      "visualIdentity": "Temple Platform anchors the slot, supported by Religious Temple Quarter Lantern Monument, Procession Stair Nook, Religious / Temple Quarter Civic Hall, Oak, Limestone Blocks, Timber, Arcane Glow, Antler, and the wood elves civic language.",
+      "emotionalIdentity": "Religious / Temple Quarter expressed through major landmark approach: sacred green stillness with practical street-level specificity.",
+      "gameplayAssetNeeds": [
+        "Temple Platform",
+        "Religious Temple Quarter Lantern Monument",
+        "Procession Stair Nook",
+        "Religious / Temple Quarter Civic Hall",
+        "Religious / Temple Quarter street dressing",
+        "wood elves civilians",
+        "section-appropriate props"
+      ],
+      "narrativeUse": [
+        "religious / temple quarter errands",
+        "wayfinding by exact landmark",
+        "crowd pressure",
+        "local work conflict",
+        "transition between board slots"
+      ],
+      "primaryLandmark": "Temple Platform",
+      "minorLandmarks": [
+        "Religious Temple Quarter Lantern Monument",
+        "Procession Stair Nook",
+        "Religious / Temple Quarter Civic Hall"
+      ]
+    },
+    {
+      "districtNumber": 6,
+      "sectionNumber": 1,
+      "name": "D06 Nature Preserve / Sacred Grove Minor Landmark Lane",
+      "civicPurpose": "One of five Nature Preserve / Sacred Grove district slots, focused on minor landmark lane; it supports local movement, services, social pressure, and scene transitions within Section 1.",
+      "visualIdentity": "Living Canopy Hall Nook anchors the slot, supported by Hanging Gardens Monument, Nature Preserve / Sacred Grove Civic Hall, Oak, Limestone Blocks, Timber, Arcane Glow, Antler, and the wood elves civic language.",
+      "emotionalIdentity": "Nature Preserve / Sacred Grove expressed through minor landmark lane: sacred green stillness with practical street-level specificity.",
+      "gameplayAssetNeeds": [
+        "Living Canopy Hall Nook",
+        "Hanging Gardens Monument",
+        "Nature Preserve / Sacred Grove Civic Hall",
+        "Nature Preserve / Sacred Grove street dressing",
+        "wood elves civilians",
+        "section-appropriate props"
+      ],
+      "narrativeUse": [
+        "nature preserve / sacred grove errands",
+        "wayfinding by exact landmark",
+        "crowd pressure",
+        "local work conflict",
+        "transition between board slots"
+      ],
+      "primaryLandmark": "Living Canopy Hall Nook",
+      "minorLandmarks": [
+        "Hanging Gardens Monument",
+        "Nature Preserve / Sacred Grove Civic Hall"
+      ]
+    },
+    {
+      "districtNumber": 7,
+      "sectionNumber": 1,
+      "name": "D07 Nature Preserve / Sacred Grove Working Street Fabric",
+      "civicPurpose": "One of five Nature Preserve / Sacred Grove district slots, focused on working street fabric; it supports local movement, services, social pressure, and scene transitions within Section 1.",
+      "visualIdentity": "Sacred Grove Beacon anchors the slot, supported by Hanging Gardens Monument, Living Canopy Hall Nook, Nature Preserve / Sacred Grove Civic Hall, Oak, Limestone Blocks, Timber, Arcane Glow, Antler, and the wood elves civic language.",
+      "emotionalIdentity": "Nature Preserve / Sacred Grove expressed through working street fabric: sacred green stillness with practical street-level specificity.",
+      "gameplayAssetNeeds": [
+        "Sacred Grove Beacon",
+        "Hanging Gardens Monument",
+        "Living Canopy Hall Nook",
+        "Nature Preserve / Sacred Grove Civic Hall",
+        "Nature Preserve / Sacred Grove street dressing",
+        "wood elves civilians",
+        "section-appropriate props"
+      ],
+      "narrativeUse": [
+        "nature preserve / sacred grove errands",
+        "wayfinding by exact landmark",
+        "crowd pressure",
+        "local work conflict",
+        "transition between board slots"
+      ],
+      "primaryLandmark": "Sacred Grove Beacon",
+      "minorLandmarks": [
+        "Hanging Gardens Monument",
+        "Living Canopy Hall Nook",
+        "Nature Preserve / Sacred Grove Civic Hall"
+      ]
+    },
+    {
+      "districtNumber": 8,
+      "sectionNumber": 3,
+      "name": "D08 Records / Archives Civic Core",
+      "civicPurpose": "One of five Records / Archives district slots, focused on civic core; it supports local movement, services, social pressure, and scene transitions within Section 3.",
+      "visualIdentity": "Records / Archives Hall anchors the slot, supported by Records Archives Gold-Seal Monument, Copyist Hall Nook, Oak, Limestone Blocks, Timber, Arcane Glow, Antler, and the wood elves civic language.",
+      "emotionalIdentity": "Records / Archives expressed through civic core: sacred green stillness with practical street-level specificity.",
+      "gameplayAssetNeeds": [
+        "Records / Archives Hall",
+        "Records Archives Gold-Seal Monument",
+        "Copyist Hall Nook",
+        "Records / Archives street dressing",
+        "wood elves civilians",
+        "section-appropriate props"
+      ],
+      "narrativeUse": [
+        "records / archives errands",
+        "wayfinding by exact landmark",
+        "crowd pressure",
+        "local work conflict",
+        "transition between board slots"
+      ],
+      "primaryLandmark": "Records / Archives Hall",
+      "minorLandmarks": [
+        "Records Archives Gold-Seal Monument",
+        "Copyist Hall Nook"
+      ]
+    },
+    {
+      "districtNumber": 9,
+      "sectionNumber": 2,
+      "name": "D09 Religious / Temple Quarter Monument Square",
+      "civicPurpose": "One of five Religious / Temple Quarter district slots, focused on monument square; it supports local movement, services, social pressure, and scene transitions within Section 2.",
+      "visualIdentity": "Religious Temple Quarter Lantern Monument anchors the slot, supported by Procession Stair Nook, Religious / Temple Quarter Civic Hall, Oak, Limestone Blocks, Timber, Arcane Glow, Antler, and the wood elves civic language.",
+      "emotionalIdentity": "Religious / Temple Quarter expressed through monument square: sacred green stillness with practical street-level specificity.",
+      "gameplayAssetNeeds": [
+        "Religious Temple Quarter Lantern Monument",
+        "Procession Stair Nook",
+        "Religious / Temple Quarter Civic Hall",
+        "Religious / Temple Quarter street dressing",
+        "wood elves civilians",
+        "section-appropriate props"
+      ],
+      "narrativeUse": [
+        "religious / temple quarter errands",
+        "wayfinding by exact landmark",
+        "crowd pressure",
+        "local work conflict",
+        "transition between board slots"
+      ],
+      "primaryLandmark": "Religious Temple Quarter Lantern Monument",
+      "minorLandmarks": [
+        "Procession Stair Nook",
+        "Religious / Temple Quarter Civic Hall"
+      ]
+    },
+    {
+      "districtNumber": 10,
+      "sectionNumber": 2,
+      "name": "D10 Religious / Temple Quarter Minor Landmark Lane",
+      "civicPurpose": "One of five Religious / Temple Quarter district slots, focused on minor landmark lane; it supports local movement, services, social pressure, and scene transitions within Section 2.",
+      "visualIdentity": "Procession Stair Nook anchors the slot, supported by Religious Temple Quarter Lantern Monument, Religious / Temple Quarter Civic Hall, Oak, Limestone Blocks, Timber, Arcane Glow, Antler, and the wood elves civic language.",
+      "emotionalIdentity": "Religious / Temple Quarter expressed through minor landmark lane: sacred green stillness with practical street-level specificity.",
+      "gameplayAssetNeeds": [
+        "Procession Stair Nook",
+        "Religious Temple Quarter Lantern Monument",
+        "Religious / Temple Quarter Civic Hall",
+        "Religious / Temple Quarter street dressing",
+        "wood elves civilians",
+        "section-appropriate props"
+      ],
+      "narrativeUse": [
+        "religious / temple quarter errands",
+        "wayfinding by exact landmark",
+        "crowd pressure",
+        "local work conflict",
+        "transition between board slots"
+      ],
+      "primaryLandmark": "Procession Stair Nook",
+      "minorLandmarks": [
+        "Religious Temple Quarter Lantern Monument",
+        "Religious / Temple Quarter Civic Hall"
+      ]
+    },
+    {
+      "districtNumber": 11,
+      "sectionNumber": 4,
+      "name": "D11 Arcane / Alchemical Labs Civic Core",
+      "civicPurpose": "One of five Arcane / Alchemical Labs district slots, focused on civic core; it supports local movement, services, social pressure, and scene transitions within Section 4.",
+      "visualIdentity": "Arcane / Alchemical Labs Civic Hall anchors the slot, supported by Blue-Lamp Monument, Formula Archive Nook, Oak, Limestone Blocks, Timber, Arcane Glow, Antler, and the wood elves civic language.",
+      "emotionalIdentity": "Arcane / Alchemical Labs expressed through civic core: sacred green stillness with practical street-level specificity.",
+      "gameplayAssetNeeds": [
+        "Arcane / Alchemical Labs Civic Hall",
+        "Blue-Lamp Monument",
+        "Formula Archive Nook",
+        "Arcane / Alchemical Labs street dressing",
+        "wood elves civilians",
+        "section-appropriate props"
+      ],
+      "narrativeUse": [
+        "arcane / alchemical labs errands",
+        "wayfinding by exact landmark",
+        "crowd pressure",
+        "local work conflict",
+        "transition between board slots"
+      ],
+      "primaryLandmark": "Arcane / Alchemical Labs Civic Hall",
+      "minorLandmarks": [
+        "Blue-Lamp Monument",
+        "Formula Archive Nook"
+      ]
+    },
+    {
+      "districtNumber": 12,
+      "sectionNumber": 3,
+      "name": "D12 Records / Archives Major Landmark Approach",
+      "civicPurpose": "One of five Records / Archives district slots, focused on major landmark approach; it supports local movement, services, social pressure, and scene transitions within Section 3.",
+      "visualIdentity": "Archive Tower anchors the slot, supported by Records Archives Gold-Seal Monument, Copyist Hall Nook, Records / Archives Hall, Oak, Limestone Blocks, Timber, Arcane Glow, Antler, and the wood elves civic language.",
+      "emotionalIdentity": "Records / Archives expressed through major landmark approach: sacred green stillness with practical street-level specificity.",
+      "gameplayAssetNeeds": [
+        "Archive Tower",
+        "Records Archives Gold-Seal Monument",
+        "Copyist Hall Nook",
+        "Records / Archives Hall",
+        "Records / Archives street dressing",
+        "wood elves civilians",
+        "section-appropriate props"
+      ],
+      "narrativeUse": [
+        "records / archives errands",
+        "wayfinding by exact landmark",
+        "crowd pressure",
+        "local work conflict",
+        "transition between board slots"
+      ],
+      "primaryLandmark": "Archive Tower",
+      "minorLandmarks": [
+        "Records Archives Gold-Seal Monument",
+        "Copyist Hall Nook",
+        "Records / Archives Hall"
+      ]
+    },
+    {
+      "districtNumber": 13,
+      "sectionNumber": 3,
+      "name": "D13 Seat of Power / Records / Archives",
+      "civicPurpose": "Central city authority, public rulings, sealed records, command visibility, and the official connection between Star Map Ceilings Veiled High Court and the surrounding Records / Archives section.",
+      "visualIdentity": "Star Map Ceilings Veiled High Court dominates this central slot while Records / Archives details, civic blue signal language, formal approaches, and local anchor textures remain visible.",
+      "emotionalIdentity": "Authoritative, central, watched, and politically charged.",
+      "gameplayAssetNeeds": [
+        "Star Map Ceilings Veiled High Court",
+        "central authority massing",
+        "audience terraces",
+        "sealed archive entrances",
+        "visible D13 approaches",
+        "Copyist Hall Nook",
+        "Records / Archives Hall"
+      ],
+      "narrativeUse": [
+        "central petitions",
+        "public rulings",
+        "citywide orders",
+        "private authority scenes",
+        "beacon response coordination"
+      ],
+      "primaryLandmark": "Star Map Ceilings Veiled High Court",
+      "minorLandmarks": [
+        "Copyist Hall Nook",
+        "Records / Archives Hall"
+      ]
+    },
+    {
+      "districtNumber": 14,
+      "sectionNumber": 3,
+      "name": "D14 Records / Archives Minor Landmark Lane",
+      "civicPurpose": "One of five Records / Archives district slots, focused on minor landmark lane; it supports local movement, services, social pressure, and scene transitions within Section 3.",
+      "visualIdentity": "Copyist Hall Nook anchors the slot, supported by Records Archives Gold-Seal Monument, Records / Archives Hall, Oak, Limestone Blocks, Timber, Arcane Glow, Antler, and the wood elves civic language.",
+      "emotionalIdentity": "Records / Archives expressed through minor landmark lane: sacred green stillness with practical street-level specificity.",
+      "gameplayAssetNeeds": [
+        "Copyist Hall Nook",
+        "Records Archives Gold-Seal Monument",
+        "Records / Archives Hall",
+        "Records / Archives street dressing",
+        "wood elves civilians",
+        "section-appropriate props"
+      ],
+      "narrativeUse": [
+        "records / archives errands",
+        "wayfinding by exact landmark",
+        "crowd pressure",
+        "local work conflict",
+        "transition between board slots"
+      ],
+      "primaryLandmark": "Copyist Hall Nook",
+      "minorLandmarks": [
+        "Records Archives Gold-Seal Monument",
+        "Records / Archives Hall"
+      ]
+    },
+    {
+      "districtNumber": 15,
+      "sectionNumber": 2,
+      "name": "D15 Religious / Temple Quarter Working Street Fabric",
+      "civicPurpose": "One of five Religious / Temple Quarter district slots, focused on working street fabric; it supports local movement, services, social pressure, and scene transitions within Section 2.",
+      "visualIdentity": "Temple Platform anchors the slot, supported by Religious Temple Quarter Lantern Monument, Procession Stair Nook, Religious / Temple Quarter Civic Hall, Oak, Limestone Blocks, Timber, Arcane Glow, Antler, and the wood elves civic language.",
+      "emotionalIdentity": "Religious / Temple Quarter expressed through working street fabric: sacred green stillness with practical street-level specificity.",
+      "gameplayAssetNeeds": [
+        "Temple Platform",
+        "Religious Temple Quarter Lantern Monument",
+        "Procession Stair Nook",
+        "Religious / Temple Quarter Civic Hall",
+        "Religious / Temple Quarter street dressing",
+        "wood elves civilians",
+        "section-appropriate props"
+      ],
+      "narrativeUse": [
+        "religious / temple quarter errands",
+        "wayfinding by exact landmark",
+        "crowd pressure",
+        "local work conflict",
+        "transition between board slots"
+      ],
+      "primaryLandmark": "Temple Platform",
+      "minorLandmarks": [
+        "Religious Temple Quarter Lantern Monument",
+        "Procession Stair Nook",
+        "Religious / Temple Quarter Civic Hall"
+      ]
+    },
+    {
+      "districtNumber": 16,
+      "sectionNumber": 4,
+      "name": "D16 Arcane / Alchemical Labs Major Landmark Approach",
+      "civicPurpose": "One of five Arcane / Alchemical Labs district slots, focused on major landmark approach; it supports local movement, services, social pressure, and scene transitions within Section 4.",
+      "visualIdentity": "Alchemy Lab anchors the slot, supported by Blue-Lamp Monument, Formula Archive Nook, Arcane / Alchemical Labs Civic Hall, Oak, Limestone Blocks, Timber, Arcane Glow, Antler, and the wood elves civic language.",
+      "emotionalIdentity": "Arcane / Alchemical Labs expressed through major landmark approach: sacred green stillness with practical street-level specificity.",
+      "gameplayAssetNeeds": [
+        "Alchemy Lab",
+        "Blue-Lamp Monument",
+        "Formula Archive Nook",
+        "Arcane / Alchemical Labs Civic Hall",
+        "Arcane / Alchemical Labs street dressing",
+        "wood elves civilians",
+        "section-appropriate props"
+      ],
+      "narrativeUse": [
+        "arcane / alchemical labs errands",
+        "wayfinding by exact landmark",
+        "crowd pressure",
+        "local work conflict",
+        "transition between board slots"
+      ],
+      "primaryLandmark": "Alchemy Lab",
+      "minorLandmarks": [
+        "Blue-Lamp Monument",
+        "Formula Archive Nook",
+        "Arcane / Alchemical Labs Civic Hall"
+      ]
+    },
+    {
+      "districtNumber": 17,
+      "sectionNumber": 4,
+      "name": "D17 Arcane / Alchemical Labs Monument Square",
+      "civicPurpose": "One of five Arcane / Alchemical Labs district slots, focused on monument square; it supports local movement, services, social pressure, and scene transitions within Section 4.",
+      "visualIdentity": "Blue-Lamp Monument anchors the slot, supported by Formula Archive Nook, Arcane / Alchemical Labs Civic Hall, Oak, Limestone Blocks, Timber, Arcane Glow, Antler, and the wood elves civic language.",
+      "emotionalIdentity": "Arcane / Alchemical Labs expressed through monument square: sacred green stillness with practical street-level specificity.",
+      "gameplayAssetNeeds": [
+        "Blue-Lamp Monument",
+        "Formula Archive Nook",
+        "Arcane / Alchemical Labs Civic Hall",
+        "Arcane / Alchemical Labs street dressing",
+        "wood elves civilians",
+        "section-appropriate props"
+      ],
+      "narrativeUse": [
+        "arcane / alchemical labs errands",
+        "wayfinding by exact landmark",
+        "crowd pressure",
+        "local work conflict",
+        "transition between board slots"
+      ],
+      "primaryLandmark": "Blue-Lamp Monument",
+      "minorLandmarks": [
+        "Formula Archive Nook",
+        "Arcane / Alchemical Labs Civic Hall"
+      ]
+    },
+    {
+      "districtNumber": 18,
+      "sectionNumber": 3,
+      "name": "D18 Records / Archives Working Street Fabric",
+      "civicPurpose": "One of five Records / Archives district slots, focused on working street fabric; it supports local movement, services, social pressure, and scene transitions within Section 3.",
+      "visualIdentity": "Archive Tower anchors the slot, supported by Records Archives Gold-Seal Monument, Copyist Hall Nook, Records / Archives Hall, Oak, Limestone Blocks, Timber, Arcane Glow, Antler, and the wood elves civic language.",
+      "emotionalIdentity": "Records / Archives expressed through working street fabric: sacred green stillness with practical street-level specificity.",
+      "gameplayAssetNeeds": [
+        "Archive Tower",
+        "Records Archives Gold-Seal Monument",
+        "Copyist Hall Nook",
+        "Records / Archives Hall",
+        "Records / Archives street dressing",
+        "wood elves civilians",
+        "section-appropriate props"
+      ],
+      "narrativeUse": [
+        "records / archives errands",
+        "wayfinding by exact landmark",
+        "crowd pressure",
+        "local work conflict",
+        "transition between board slots"
+      ],
+      "primaryLandmark": "Archive Tower",
+      "minorLandmarks": [
+        "Records Archives Gold-Seal Monument",
+        "Copyist Hall Nook",
+        "Records / Archives Hall"
+      ]
+    },
+    {
+      "districtNumber": 19,
+      "sectionNumber": 5,
+      "name": "D19 University / Lyceum Civic Core",
+      "civicPurpose": "One of five University / Lyceum district slots, focused on civic core; it supports local movement, services, social pressure, and scene transitions within Section 5.",
+      "visualIdentity": "University / Lyceum Civic Hall anchors the slot, supported by Star Navigation Monument, Observatory Court Nook, Oak, Limestone Blocks, Timber, Arcane Glow, Antler, and the wood elves civic language.",
+      "emotionalIdentity": "University / Lyceum expressed through civic core: sacred green stillness with practical street-level specificity.",
+      "gameplayAssetNeeds": [
+        "University / Lyceum Civic Hall",
+        "Star Navigation Monument",
+        "Observatory Court Nook",
+        "University / Lyceum street dressing",
+        "wood elves civilians",
+        "section-appropriate props"
+      ],
+      "narrativeUse": [
+        "university / lyceum errands",
+        "wayfinding by exact landmark",
+        "crowd pressure",
+        "local work conflict",
+        "transition between board slots"
+      ],
+      "primaryLandmark": "University / Lyceum Civic Hall",
+      "minorLandmarks": [
+        "Star Navigation Monument",
+        "Observatory Court Nook"
+      ]
+    },
+    {
+      "districtNumber": 20,
+      "sectionNumber": 5,
+      "name": "D20 University / Lyceum Major Landmark Approach",
+      "civicPurpose": "One of five University / Lyceum district slots, focused on major landmark approach; it supports local movement, services, social pressure, and scene transitions within Section 5.",
+      "visualIdentity": "Lecture Hall anchors the slot, supported by Star Navigation Monument, Observatory Court Nook, University / Lyceum Civic Hall, Oak, Limestone Blocks, Timber, Arcane Glow, Antler, and the wood elves civic language.",
+      "emotionalIdentity": "University / Lyceum expressed through major landmark approach: sacred green stillness with practical street-level specificity.",
+      "gameplayAssetNeeds": [
+        "Lecture Hall",
+        "Star Navigation Monument",
+        "Observatory Court Nook",
+        "University / Lyceum Civic Hall",
+        "University / Lyceum street dressing",
+        "wood elves civilians",
+        "section-appropriate props"
+      ],
+      "narrativeUse": [
+        "university / lyceum errands",
+        "wayfinding by exact landmark",
+        "crowd pressure",
+        "local work conflict",
+        "transition between board slots"
+      ],
+      "primaryLandmark": "Lecture Hall",
+      "minorLandmarks": [
+        "Star Navigation Monument",
+        "Observatory Court Nook",
+        "University / Lyceum Civic Hall"
+      ]
+    },
+    {
+      "districtNumber": 21,
+      "sectionNumber": 4,
+      "name": "D21 Arcane / Alchemical Labs Minor Landmark Lane",
+      "civicPurpose": "One of five Arcane / Alchemical Labs district slots, focused on minor landmark lane; it supports local movement, services, social pressure, and scene transitions within Section 4.",
+      "visualIdentity": "Formula Archive Nook anchors the slot, supported by Blue-Lamp Monument, Arcane / Alchemical Labs Civic Hall, Oak, Limestone Blocks, Timber, Arcane Glow, Antler, and the wood elves civic language.",
+      "emotionalIdentity": "Arcane / Alchemical Labs expressed through minor landmark lane: sacred green stillness with practical street-level specificity.",
+      "gameplayAssetNeeds": [
+        "Formula Archive Nook",
+        "Blue-Lamp Monument",
+        "Arcane / Alchemical Labs Civic Hall",
+        "Arcane / Alchemical Labs street dressing",
+        "wood elves civilians",
+        "section-appropriate props"
+      ],
+      "narrativeUse": [
+        "arcane / alchemical labs errands",
+        "wayfinding by exact landmark",
+        "crowd pressure",
+        "local work conflict",
+        "transition between board slots"
+      ],
+      "primaryLandmark": "Formula Archive Nook",
+      "minorLandmarks": [
+        "Blue-Lamp Monument",
+        "Arcane / Alchemical Labs Civic Hall"
+      ]
+    },
+    {
+      "districtNumber": 22,
+      "sectionNumber": 4,
+      "name": "D22 Arcane / Alchemical Labs Working Street Fabric",
+      "civicPurpose": "One of five Arcane / Alchemical Labs district slots, focused on working street fabric; it supports local movement, services, social pressure, and scene transitions within Section 4.",
+      "visualIdentity": "Alchemy Lab anchors the slot, supported by Blue-Lamp Monument, Formula Archive Nook, Arcane / Alchemical Labs Civic Hall, Oak, Limestone Blocks, Timber, Arcane Glow, Antler, and the wood elves civic language.",
+      "emotionalIdentity": "Arcane / Alchemical Labs expressed through working street fabric: sacred green stillness with practical street-level specificity.",
+      "gameplayAssetNeeds": [
+        "Alchemy Lab",
+        "Blue-Lamp Monument",
+        "Formula Archive Nook",
+        "Arcane / Alchemical Labs Civic Hall",
+        "Arcane / Alchemical Labs street dressing",
+        "wood elves civilians",
+        "section-appropriate props"
+      ],
+      "narrativeUse": [
+        "arcane / alchemical labs errands",
+        "wayfinding by exact landmark",
+        "crowd pressure",
+        "local work conflict",
+        "transition between board slots"
+      ],
+      "primaryLandmark": "Alchemy Lab",
+      "minorLandmarks": [
+        "Blue-Lamp Monument",
+        "Formula Archive Nook",
+        "Arcane / Alchemical Labs Civic Hall"
+      ]
+    },
+    {
+      "districtNumber": 23,
+      "sectionNumber": 5,
+      "name": "D23 University / Lyceum Monument Square",
+      "civicPurpose": "One of five University / Lyceum district slots, focused on monument square; it supports local movement, services, social pressure, and scene transitions within Section 5.",
+      "visualIdentity": "Star Navigation Monument anchors the slot, supported by Observatory Court Nook, University / Lyceum Civic Hall, Oak, Limestone Blocks, Timber, Arcane Glow, Antler, and the wood elves civic language.",
+      "emotionalIdentity": "University / Lyceum expressed through monument square: sacred green stillness with practical street-level specificity.",
+      "gameplayAssetNeeds": [
+        "Star Navigation Monument",
+        "Observatory Court Nook",
+        "University / Lyceum Civic Hall",
+        "University / Lyceum street dressing",
+        "wood elves civilians",
+        "section-appropriate props"
+      ],
+      "narrativeUse": [
+        "university / lyceum errands",
+        "wayfinding by exact landmark",
+        "crowd pressure",
+        "local work conflict",
+        "transition between board slots"
+      ],
+      "primaryLandmark": "Star Navigation Monument",
+      "minorLandmarks": [
+        "Observatory Court Nook",
+        "University / Lyceum Civic Hall"
+      ]
+    },
+    {
+      "districtNumber": 24,
+      "sectionNumber": 5,
+      "name": "D24 University / Lyceum Minor Landmark Lane",
+      "civicPurpose": "One of five University / Lyceum district slots, focused on minor landmark lane; it supports local movement, services, social pressure, and scene transitions within Section 5.",
+      "visualIdentity": "Observatory Court Nook anchors the slot, supported by Star Navigation Monument, University / Lyceum Civic Hall, Oak, Limestone Blocks, Timber, Arcane Glow, Antler, and the wood elves civic language.",
+      "emotionalIdentity": "University / Lyceum expressed through minor landmark lane: sacred green stillness with practical street-level specificity.",
+      "gameplayAssetNeeds": [
+        "Observatory Court Nook",
+        "Star Navigation Monument",
+        "University / Lyceum Civic Hall",
+        "University / Lyceum street dressing",
+        "wood elves civilians",
+        "section-appropriate props"
+      ],
+      "narrativeUse": [
+        "university / lyceum errands",
+        "wayfinding by exact landmark",
+        "crowd pressure",
+        "local work conflict",
+        "transition between board slots"
+      ],
+      "primaryLandmark": "Observatory Court Nook",
+      "minorLandmarks": [
+        "Star Navigation Monument",
+        "University / Lyceum Civic Hall"
+      ]
+    },
+    {
+      "districtNumber": 25,
+      "sectionNumber": 5,
+      "name": "D25 University / Lyceum Working Street Fabric",
+      "civicPurpose": "One of five University / Lyceum district slots, focused on working street fabric; it supports local movement, services, social pressure, and scene transitions within Section 5.",
+      "visualIdentity": "Lecture Hall anchors the slot, supported by Star Navigation Monument, Observatory Court Nook, University / Lyceum Civic Hall, Oak, Limestone Blocks, Timber, Arcane Glow, Antler, and the wood elves civic language.",
+      "emotionalIdentity": "University / Lyceum expressed through working street fabric: sacred green stillness with practical street-level specificity.",
+      "gameplayAssetNeeds": [
+        "Lecture Hall",
+        "Star Navigation Monument",
+        "Observatory Court Nook",
+        "University / Lyceum Civic Hall",
+        "University / Lyceum street dressing",
+        "wood elves civilians",
+        "section-appropriate props"
+      ],
+      "narrativeUse": [
+        "university / lyceum errands",
+        "wayfinding by exact landmark",
+        "crowd pressure",
+        "local work conflict",
+        "transition between board slots"
+      ],
+      "primaryLandmark": "Lecture Hall",
+      "minorLandmarks": [
+        "Star Navigation Monument",
+        "Observatory Court Nook",
+        "University / Lyceum Civic Hall"
+      ]
+    }
   ],
   "landmarks": {
-    "wonder": {"name": "Wood-Elven Heartroot Cathedral of Living Branches", "symbolicRole": "Living forest, civic memory, worship, and public stewardship made monumental.", "visualRole": "Far skyline cathedral of heartroots and living branches with moonlit arcane glow.", "civicRole": "Citywide rites, stewardship ceremonies, public vows, and living-branch festivals.", "narrativeUse": ["heartroot rite", "public vow", "citywide ceremony"], "assetUse": ["map wonder", "far skyline anchor"], "sensoryIdentity": ["leaf wind", "living wood", "moonlight", "soft bells"], "storyHooks": ["A heartroot branch grows toward the record the court tried to hide."]},
-    "beacon": {"name": "Sacred Grove Beacon", "symbolicRole": "Public warning rooted in living stewardship.", "visualRole": "Beacon embedded in sacred grove halls, hanging gardens, and canopy paths.", "civicRole": "Coordinates grove, temple, archive, lab, and university response.", "narrativeUse": ["Beacon change", "grove warning", "public gathering"], "assetUse": ["S1 centerpiece", "signal marker"], "sensoryIdentity": ["blue-green glow", "leaf hush", "crowd silence"], "storyHooks": ["A Beacon shift turns the forest itself into a civic alarm."]},
-    "seatOfPower": {"name": "Star Map Ceilings Veiled High Court", "symbolicRole": "Celestial knowledge and forest law made government.", "visualRole": "Central high court with star-map ceilings, living-wood supports, sealed archives, and public terraces.", "civicRole": "Governs grove law, temple obligation, archive rulings, lab permissions, and scholarly testimony.", "narrativeUse": ["court hearing", "archive ruling", "scholarly petition"], "assetUse": ["seat-of-power marker"], "sensoryIdentity": ["ink", "wood", "moonlit glass", "quiet echo"], "storyHooks": ["A star-map ceiling reveals a precedent the court has been walking under for centuries."]},
+    "wonder": {
+      "name": "Wood-Elven Heartroot Cathedral of Living Branches",
+      "symbolicRole": "The citywide symbol of patient stewardship made monumental.",
+      "visualRole": "A wonder-scale skyline anchor using Oak, Limestone Blocks, Timber, Arcane Glow, Antler, Forest, Root Network, Old Growth Woodland, Dry Ground, and the wood elves visual language.",
+      "civicRole": "Represents the whole city above the five sections: Nature Preserve / Sacred Grove, Religious / Temple Quarter, Records / Archives, Arcane / Alchemical Labs, University / Lyceum.",
+      "narrativeUse": [
+        "arrival revelation",
+        "city identity scene",
+        "public ceremony",
+        "distant navigation",
+        "symbolic contrast with district-level conflict"
+      ],
+      "assetUse": [
+        "map background skyline anchor",
+        "hero-view focal point",
+        "diorama backdrop",
+        "visual identifier for city"
+      ],
+      "sensoryIdentity": [
+        "oak",
+        "limestone blocks",
+        "timber",
+        "arcane glow",
+        "antler",
+        "forest",
+        "root network"
+      ],
+      "storyHooks": [
+        "access to Wood-Elven Heartroot Cathedral of Living Branches changes public legitimacy",
+        "a citywide ritual reveals hidden pressure",
+        "the Wonder becomes a navigation or warning reference"
+      ]
+    },
+    "beacon": {
+      "name": "Sacred Grove Beacon",
+      "symbolicRole": "Public signal and shared alarm for Thalewood.",
+      "visualRole": "A section-scale signal landmark that must read immediately as the city Beacon.",
+      "civicRole": "Coordinates public response, civic warnings, and Conjunction-state attention.",
+      "narrativeUse": [
+        "beacon color change",
+        "crowd response",
+        "public warning",
+        "rumor spread",
+        "panic or disciplined response"
+      ],
+      "assetUse": [
+        "district diorama signal centerpiece",
+        "city map signal icon",
+        "public plaza asset"
+      ],
+      "sensoryIdentity": [
+        "signal glow",
+        "crowd hush",
+        "public calls",
+        "oak",
+        "limestone blocks",
+        "timber",
+        "arcane glow"
+      ],
+      "storyHooks": [
+        "someone controls the first interpretation of a signal",
+        "the Beacon redirects traffic between sections",
+        "a warning exposes which citizens trust civic authority"
+      ]
+    },
+    "seatOfPower": {
+      "name": "Star Map Ceilings Veiled High Court",
+      "symbolicRole": "Central authority made visible and source-backed.",
+      "visualRole": "The District 13 authority complex with formal approaches and city-specific materials.",
+      "civicRole": "Seat of government, petitions, records, rulings, and command visibility.",
+      "narrativeUse": [
+        "formal petition",
+        "sealed ruling",
+        "private audience",
+        "public legitimacy challenge",
+        "citywide order"
+      ],
+      "assetUse": [
+        "central map authority marker",
+        "D13 diorama landmark",
+        "government-scene backdrop"
+      ],
+      "sensoryIdentity": [
+        "formal silence",
+        "clerks and guards",
+        "sealed records",
+        "oak",
+        "limestone blocks",
+        "timber",
+        "arcane glow"
+      ],
+      "storyHooks": [
+        "a ruling contradicts a section custom",
+        "a sealed record changes public interpretation",
+        "D13 becomes a pressure point during crisis"
+      ]
+    },
     "majorLandmarks": [
-      {"name": "Temple Platform", "symbolicRole": "Sacred stewardship made public.", "visualRole": "Temple platform with lantern monument, procession stair, antler details, and living branches.", "civicRole": "Processions, public rites, and temple authority.", "narrativeUse": ["procession", "public vow"], "assetUse": ["S2 diorama"], "sensoryIdentity": ["lantern oil", "soft bells", "moss"], "storyHooks": ["A procession stops where the roots refuse to part."]},
-      {"name": "Archive Tower", "symbolicRole": "Memory grown into civic height.", "visualRole": "Archive tower with gold-seal monument, copyist nook, and living-wood approaches.", "civicRole": "Public records, stewardship law, and copied truth.", "narrativeUse": ["record clue", "old law"], "assetUse": ["S3 diorama"], "sensoryIdentity": ["paper", "ink", "wood resin"], "storyHooks": ["A copyist hall preserves the original grove oath."]},
-      {"name": "Alchemy Lab", "symbolicRole": "Forest knowledge tested under law.", "visualRole": "Blue-lit lab with formula archive, glass vessels, roots, and controlled arcane glow.", "civicRole": "Research, formula control, and regulated experiment.", "narrativeUse": ["formula clue", "lab dispute"], "assetUse": ["S4 diorama"], "sensoryIdentity": ["glass", "herbs", "blue light"], "storyHooks": ["A formula archive proves the forest can be harmed by kindness."]},
-      {"name": "Lecture Hall", "symbolicRole": "Wisdom made teachable and public.", "visualRole": "Lecture hall with star navigation monument, observatory court, students, and moonlit canopy.", "civicRole": "Teaching, public interpretation, and scholarly continuity.", "narrativeUse": ["lecture", "student witness"], "assetUse": ["S5 diorama"], "sensoryIdentity": ["quiet voices", "chalk", "leaf shadow"], "storyHooks": ["A student asks the question the court cannot answer."]}
+      {
+        "name": "Nature Preserve / Sacred Grove Civic Hall",
+        "symbolicRole": "Nature Preserve / Sacred Grove expressed through a civic center anchor.",
+        "visualRole": "Nature Preserve / Sacred Grove Civic Hall should show institutional anchor, public-facing administration, clear central silhouette, board-readable entrance, roots, using Oak, Limestone Blocks, Timber, Arcane Glow, Antler and section-specific massing.",
+        "civicRole": "Supports Section 1's Nature Preserve / Sacred Grove purpose as a local civic, movement, memory, or service node.",
+        "narrativeUse": [
+          "nature preserve / sacred grove scene anchor",
+          "local meeting point",
+          "evidence or route clue",
+          "crowd behavior marker"
+        ],
+        "assetUse": [
+          "Section 1 diorama asset",
+          "map label or icon",
+          "district-scale landmark prop cluster"
+        ],
+        "sensoryIdentity": [
+          "institutional anchor",
+          "public-facing administration",
+          "clear central silhouette",
+          "board-readable entrance",
+          "oak",
+          "limestone blocks",
+          "timber"
+        ],
+        "storyHooks": [
+          "Nature Preserve / Sacred Grove Civic Hall becomes the specific landmark that prevents the scene from feeling generic",
+          "a local dispute centers on access to Nature Preserve / Sacred Grove Civic Hall"
+        ]
+      },
+      {
+        "name": "Hanging Gardens Monument",
+        "symbolicRole": "Nature Preserve / Sacred Grove expressed through a monument anchor.",
+        "visualRole": "Hanging Gardens Monument should show spring courts, protected paths, symbolic civic object, small ceremonial site, local memory marker, using Oak, Limestone Blocks, Timber, Arcane Glow, Antler and section-specific massing.",
+        "civicRole": "Supports Section 1's Nature Preserve / Sacred Grove purpose as a local civic, movement, memory, or service node.",
+        "narrativeUse": [
+          "nature preserve / sacred grove scene anchor",
+          "local meeting point",
+          "evidence or route clue",
+          "crowd behavior marker"
+        ],
+        "assetUse": [
+          "Section 1 diorama asset",
+          "map label or icon",
+          "district-scale landmark prop cluster"
+        ],
+        "sensoryIdentity": [
+          "spring courts",
+          "protected paths",
+          "symbolic civic object",
+          "small ceremonial site",
+          "oak",
+          "limestone blocks",
+          "timber"
+        ],
+        "storyHooks": [
+          "Hanging Gardens Monument becomes the specific landmark that prevents the scene from feeling generic",
+          "a local dispute centers on access to Hanging Gardens Monument"
+        ]
+      },
+      {
+        "name": "Living Canopy Hall Nook",
+        "symbolicRole": "Nature Preserve / Sacred Grove expressed through a minor landmark anchor.",
+        "visualRole": "Living Canopy Hall Nook should show animal tracks, sacred groves, tree platforms, spring courts, protected paths, using Oak, Limestone Blocks, Timber, Arcane Glow, Antler and section-specific massing.",
+        "civicRole": "Supports Section 1's Nature Preserve / Sacred Grove purpose as a local civic, movement, memory, or service node.",
+        "narrativeUse": [
+          "nature preserve / sacred grove scene anchor",
+          "local meeting point",
+          "evidence or route clue",
+          "crowd behavior marker"
+        ],
+        "assetUse": [
+          "Section 1 diorama asset",
+          "map label or icon",
+          "district-scale landmark prop cluster"
+        ],
+        "sensoryIdentity": [
+          "animal tracks",
+          "sacred groves",
+          "tree platforms",
+          "spring courts",
+          "oak",
+          "limestone blocks",
+          "timber"
+        ],
+        "storyHooks": [
+          "Living Canopy Hall Nook becomes the specific landmark that prevents the scene from feeling generic",
+          "a local dispute centers on access to Living Canopy Hall Nook"
+        ]
+      },
+      {
+        "name": "Religious / Temple Quarter Civic Hall",
+        "symbolicRole": "Religious / Temple Quarter expressed through a civic center anchor.",
+        "visualRole": "Religious / Temple Quarter Civic Hall should show processional banners, temple terraces, prayer cloisters, ritual courts, offering counters, using Oak, Limestone Blocks, Timber, Arcane Glow, Antler and section-specific massing.",
+        "civicRole": "Supports Section 2's Religious / Temple Quarter purpose as a local civic, movement, memory, or service node.",
+        "narrativeUse": [
+          "religious / temple quarter scene anchor",
+          "local meeting point",
+          "evidence or route clue",
+          "crowd behavior marker"
+        ],
+        "assetUse": [
+          "Section 2 diorama asset",
+          "map label or icon",
+          "district-scale landmark prop cluster"
+        ],
+        "sensoryIdentity": [
+          "processional banners",
+          "temple terraces",
+          "prayer cloisters",
+          "ritual courts",
+          "oak",
+          "limestone blocks",
+          "timber"
+        ],
+        "storyHooks": [
+          "Religious / Temple Quarter Civic Hall becomes the specific landmark that prevents the scene from feeling generic",
+          "a local dispute centers on access to Religious / Temple Quarter Civic Hall"
+        ]
+      },
+      {
+        "name": "Temple Platform",
+        "symbolicRole": "Religious / Temple Quarter expressed through a major landmark anchor.",
+        "visualRole": "Temple Platform should show processional banners, temple terraces, prayer cloisters, ritual courts, offering counters, using Oak, Limestone Blocks, Timber, Arcane Glow, Antler and section-specific massing.",
+        "civicRole": "Supports Section 2's Religious / Temple Quarter purpose as a local civic, movement, memory, or service node.",
+        "narrativeUse": [
+          "religious / temple quarter scene anchor",
+          "local meeting point",
+          "evidence or route clue",
+          "crowd behavior marker"
+        ],
+        "assetUse": [
+          "Section 2 diorama asset",
+          "map label or icon",
+          "district-scale landmark prop cluster"
+        ],
+        "sensoryIdentity": [
+          "processional banners",
+          "temple terraces",
+          "prayer cloisters",
+          "ritual courts",
+          "oak",
+          "limestone blocks",
+          "timber"
+        ],
+        "storyHooks": [
+          "Temple Platform becomes the specific landmark that prevents the scene from feeling generic",
+          "a local dispute centers on access to Temple Platform"
+        ]
+      },
+      {
+        "name": "Religious Temple Quarter Lantern Monument",
+        "symbolicRole": "Religious / Temple Quarter expressed through a monument anchor.",
+        "visualRole": "Religious Temple Quarter Lantern Monument should show ritual courts, offering counters, symbolic civic object, small ceremonial site, local memory marker, using Oak, Limestone Blocks, Timber, Arcane Glow, Antler and section-specific massing.",
+        "civicRole": "Supports Section 2's Religious / Temple Quarter purpose as a local civic, movement, memory, or service node.",
+        "narrativeUse": [
+          "religious / temple quarter scene anchor",
+          "local meeting point",
+          "evidence or route clue",
+          "crowd behavior marker"
+        ],
+        "assetUse": [
+          "Section 2 diorama asset",
+          "map label or icon",
+          "district-scale landmark prop cluster"
+        ],
+        "sensoryIdentity": [
+          "ritual courts",
+          "offering counters",
+          "symbolic civic object",
+          "small ceremonial site",
+          "oak",
+          "limestone blocks",
+          "timber"
+        ],
+        "storyHooks": [
+          "Religious Temple Quarter Lantern Monument becomes the specific landmark that prevents the scene from feeling generic",
+          "a local dispute centers on access to Religious Temple Quarter Lantern Monument"
+        ]
+      },
+      {
+        "name": "Procession Stair Nook",
+        "symbolicRole": "Religious / Temple Quarter expressed through a minor landmark anchor.",
+        "visualRole": "Procession Stair Nook should show street-level detail, usable board landmark, subordinate scale, incense, votive lamps, using Oak, Limestone Blocks, Timber, Arcane Glow, Antler and section-specific massing.",
+        "civicRole": "Supports Section 2's Religious / Temple Quarter purpose as a local civic, movement, memory, or service node.",
+        "narrativeUse": [
+          "religious / temple quarter scene anchor",
+          "local meeting point",
+          "evidence or route clue",
+          "crowd behavior marker"
+        ],
+        "assetUse": [
+          "Section 2 diorama asset",
+          "map label or icon",
+          "district-scale landmark prop cluster"
+        ],
+        "sensoryIdentity": [
+          "street-level detail",
+          "usable board landmark",
+          "subordinate scale",
+          "incense",
+          "oak",
+          "limestone blocks",
+          "timber"
+        ],
+        "storyHooks": [
+          "Procession Stair Nook becomes the specific landmark that prevents the scene from feeling generic",
+          "a local dispute centers on access to Procession Stair Nook"
+        ]
+      },
+      {
+        "name": "Records / Archives Hall",
+        "symbolicRole": "Records / Archives expressed through a civic center anchor.",
+        "visualRole": "Records / Archives Hall should show memory lamps, archive stacks, ledger halls, vault towers, copyist desks, using Oak, Limestone Blocks, Timber, Arcane Glow, Antler and section-specific massing.",
+        "civicRole": "Supports Section 3's Records / Archives purpose as a local civic, movement, memory, or service node.",
+        "narrativeUse": [
+          "records / archives scene anchor",
+          "local meeting point",
+          "evidence or route clue",
+          "crowd behavior marker"
+        ],
+        "assetUse": [
+          "Section 3 diorama asset",
+          "map label or icon",
+          "district-scale landmark prop cluster"
+        ],
+        "sensoryIdentity": [
+          "memory lamps",
+          "archive stacks",
+          "ledger halls",
+          "vault towers",
+          "oak",
+          "limestone blocks",
+          "timber"
+        ],
+        "storyHooks": [
+          "Records / Archives Hall becomes the specific landmark that prevents the scene from feeling generic",
+          "a local dispute centers on access to Records / Archives Hall"
+        ]
+      },
+      {
+        "name": "Archive Tower",
+        "symbolicRole": "Records / Archives expressed through a major landmark anchor.",
+        "visualRole": "Archive Tower should show wax seals, memory lamps, archive stacks, ledger halls, vault towers, using Oak, Limestone Blocks, Timber, Arcane Glow, Antler and section-specific massing.",
+        "civicRole": "Supports Section 3's Records / Archives purpose as a local civic, movement, memory, or service node.",
+        "narrativeUse": [
+          "records / archives scene anchor",
+          "local meeting point",
+          "evidence or route clue",
+          "crowd behavior marker"
+        ],
+        "assetUse": [
+          "Section 3 diorama asset",
+          "map label or icon",
+          "district-scale landmark prop cluster"
+        ],
+        "sensoryIdentity": [
+          "wax seals",
+          "memory lamps",
+          "archive stacks",
+          "ledger halls",
+          "oak",
+          "limestone blocks",
+          "timber"
+        ],
+        "storyHooks": [
+          "Archive Tower becomes the specific landmark that prevents the scene from feeling generic",
+          "a local dispute centers on access to Archive Tower"
+        ]
+      },
+      {
+        "name": "Records Archives Gold-Seal Monument",
+        "symbolicRole": "Records / Archives expressed through a monument anchor.",
+        "visualRole": "Records Archives Gold-Seal Monument should show local memory marker, subordinate to major landmark, scrolls, index cards, wax seals, using Oak, Limestone Blocks, Timber, Arcane Glow, Antler and section-specific massing.",
+        "civicRole": "Supports Section 3's Records / Archives purpose as a local civic, movement, memory, or service node.",
+        "narrativeUse": [
+          "records / archives scene anchor",
+          "local meeting point",
+          "evidence or route clue",
+          "crowd behavior marker"
+        ],
+        "assetUse": [
+          "Section 3 diorama asset",
+          "map label or icon",
+          "district-scale landmark prop cluster"
+        ],
+        "sensoryIdentity": [
+          "local memory marker",
+          "subordinate to major landmark",
+          "scrolls",
+          "index cards",
+          "oak",
+          "limestone blocks",
+          "timber"
+        ],
+        "storyHooks": [
+          "Records Archives Gold-Seal Monument becomes the specific landmark that prevents the scene from feeling generic",
+          "a local dispute centers on access to Records Archives Gold-Seal Monument"
+        ]
+      },
+      {
+        "name": "Copyist Hall Nook",
+        "symbolicRole": "Records / Archives expressed through a minor landmark anchor.",
+        "visualRole": "Copyist Hall Nook should show vault towers, copyist desks, small local identity prop, street-level detail, usable board landmark, using Oak, Limestone Blocks, Timber, Arcane Glow, Antler and section-specific massing.",
+        "civicRole": "Supports Section 3's Records / Archives purpose as a local civic, movement, memory, or service node.",
+        "narrativeUse": [
+          "records / archives scene anchor",
+          "local meeting point",
+          "evidence or route clue",
+          "crowd behavior marker"
+        ],
+        "assetUse": [
+          "Section 3 diorama asset",
+          "map label or icon",
+          "district-scale landmark prop cluster"
+        ],
+        "sensoryIdentity": [
+          "vault towers",
+          "copyist desks",
+          "small local identity prop",
+          "street-level detail",
+          "oak",
+          "limestone blocks",
+          "timber"
+        ],
+        "storyHooks": [
+          "Copyist Hall Nook becomes the specific landmark that prevents the scene from feeling generic",
+          "a local dispute centers on access to Copyist Hall Nook"
+        ]
+      },
+      {
+        "name": "Arcane / Alchemical Labs Civic Hall",
+        "symbolicRole": "Arcane / Alchemical Labs expressed through a civic center anchor.",
+        "visualRole": "Arcane / Alchemical Labs Civic Hall should show containment courts, safety wards, institutional anchor, public-facing administration, clear central silhouette, using Oak, Limestone Blocks, Timber, Arcane Glow, Antler and section-specific massing.",
+        "civicRole": "Supports Section 4's Arcane / Alchemical Labs purpose as a local civic, movement, memory, or service node.",
+        "narrativeUse": [
+          "arcane / alchemical labs scene anchor",
+          "local meeting point",
+          "evidence or route clue",
+          "crowd behavior marker"
+        ],
+        "assetUse": [
+          "Section 4 diorama asset",
+          "map label or icon",
+          "district-scale landmark prop cluster"
+        ],
+        "sensoryIdentity": [
+          "containment courts",
+          "safety wards",
+          "institutional anchor",
+          "public-facing administration",
+          "oak",
+          "limestone blocks",
+          "timber"
+        ],
+        "storyHooks": [
+          "Arcane / Alchemical Labs Civic Hall becomes the specific landmark that prevents the scene from feeling generic",
+          "a local dispute centers on access to Arcane / Alchemical Labs Civic Hall"
+        ]
+      },
+      {
+        "name": "Alchemy Lab",
+        "symbolicRole": "Arcane / Alchemical Labs expressed through a major landmark anchor.",
+        "visualRole": "Alchemy Lab should show runes, colored vapors, sealed jars, laboratories, distillation towers, using Oak, Limestone Blocks, Timber, Arcane Glow, Antler and section-specific massing.",
+        "civicRole": "Supports Section 4's Arcane / Alchemical Labs purpose as a local civic, movement, memory, or service node.",
+        "narrativeUse": [
+          "arcane / alchemical labs scene anchor",
+          "local meeting point",
+          "evidence or route clue",
+          "crowd behavior marker"
+        ],
+        "assetUse": [
+          "Section 4 diorama asset",
+          "map label or icon",
+          "district-scale landmark prop cluster"
+        ],
+        "sensoryIdentity": [
+          "runes",
+          "colored vapors",
+          "sealed jars",
+          "laboratories",
+          "oak",
+          "limestone blocks",
+          "timber"
+        ],
+        "storyHooks": [
+          "Alchemy Lab becomes the specific landmark that prevents the scene from feeling generic",
+          "a local dispute centers on access to Alchemy Lab"
+        ]
+      },
+      {
+        "name": "Blue-Lamp Monument",
+        "symbolicRole": "Arcane / Alchemical Labs expressed through a monument anchor.",
+        "visualRole": "Blue-Lamp Monument should show runes, colored vapors, sealed jars, laboratories, distillation towers, using Oak, Limestone Blocks, Timber, Arcane Glow, Antler and section-specific massing.",
+        "civicRole": "Supports Section 4's Arcane / Alchemical Labs purpose as a local civic, movement, memory, or service node.",
+        "narrativeUse": [
+          "arcane / alchemical labs scene anchor",
+          "local meeting point",
+          "evidence or route clue",
+          "crowd behavior marker"
+        ],
+        "assetUse": [
+          "Section 4 diorama asset",
+          "map label or icon",
+          "district-scale landmark prop cluster"
+        ],
+        "sensoryIdentity": [
+          "runes",
+          "colored vapors",
+          "sealed jars",
+          "laboratories",
+          "oak",
+          "limestone blocks",
+          "timber"
+        ],
+        "storyHooks": [
+          "Blue-Lamp Monument becomes the specific landmark that prevents the scene from feeling generic",
+          "a local dispute centers on access to Blue-Lamp Monument"
+        ]
+      },
+      {
+        "name": "Formula Archive Nook",
+        "symbolicRole": "Arcane / Alchemical Labs expressed through a minor landmark anchor.",
+        "visualRole": "Formula Archive Nook should show distillation towers, containment courts, safety wards, small local identity prop, street-level detail, using Oak, Limestone Blocks, Timber, Arcane Glow, Antler and section-specific massing.",
+        "civicRole": "Supports Section 4's Arcane / Alchemical Labs purpose as a local civic, movement, memory, or service node.",
+        "narrativeUse": [
+          "arcane / alchemical labs scene anchor",
+          "local meeting point",
+          "evidence or route clue",
+          "crowd behavior marker"
+        ],
+        "assetUse": [
+          "Section 4 diorama asset",
+          "map label or icon",
+          "district-scale landmark prop cluster"
+        ],
+        "sensoryIdentity": [
+          "distillation towers",
+          "containment courts",
+          "safety wards",
+          "small local identity prop",
+          "oak",
+          "limestone blocks",
+          "timber"
+        ],
+        "storyHooks": [
+          "Formula Archive Nook becomes the specific landmark that prevents the scene from feeling generic",
+          "a local dispute centers on access to Formula Archive Nook"
+        ]
+      },
+      {
+        "name": "University / Lyceum Civic Hall",
+        "symbolicRole": "University / Lyceum expressed through a civic center anchor.",
+        "visualRole": "University / Lyceum Civic Hall should show clear central silhouette, board-readable entrance, books, ink, star charts, using Oak, Limestone Blocks, Timber, Arcane Glow, Antler and section-specific massing.",
+        "civicRole": "Supports Section 5's University / Lyceum purpose as a local civic, movement, memory, or service node.",
+        "narrativeUse": [
+          "university / lyceum scene anchor",
+          "local meeting point",
+          "evidence or route clue",
+          "crowd behavior marker"
+        ],
+        "assetUse": [
+          "Section 5 diorama asset",
+          "map label or icon",
+          "district-scale landmark prop cluster"
+        ],
+        "sensoryIdentity": [
+          "clear central silhouette",
+          "board-readable entrance",
+          "books",
+          "ink",
+          "oak",
+          "limestone blocks",
+          "timber"
+        ],
+        "storyHooks": [
+          "University / Lyceum Civic Hall becomes the specific landmark that prevents the scene from feeling generic",
+          "a local dispute centers on access to University / Lyceum Civic Hall"
+        ]
+      },
+      {
+        "name": "Lecture Hall",
+        "symbolicRole": "University / Lyceum expressed through a major landmark anchor.",
+        "visualRole": "Lecture Hall should show ink, star charts, lecture bells, lecture halls, archive towers, using Oak, Limestone Blocks, Timber, Arcane Glow, Antler and section-specific massing.",
+        "civicRole": "Supports Section 5's University / Lyceum purpose as a local civic, movement, memory, or service node.",
+        "narrativeUse": [
+          "university / lyceum scene anchor",
+          "local meeting point",
+          "evidence or route clue",
+          "crowd behavior marker"
+        ],
+        "assetUse": [
+          "Section 5 diorama asset",
+          "map label or icon",
+          "district-scale landmark prop cluster"
+        ],
+        "sensoryIdentity": [
+          "ink",
+          "star charts",
+          "lecture bells",
+          "lecture halls",
+          "oak",
+          "limestone blocks",
+          "timber"
+        ],
+        "storyHooks": [
+          "Lecture Hall becomes the specific landmark that prevents the scene from feeling generic",
+          "a local dispute centers on access to Lecture Hall"
+        ]
+      },
+      {
+        "name": "Star Navigation Monument",
+        "symbolicRole": "University / Lyceum expressed through a monument anchor.",
+        "visualRole": "Star Navigation Monument should show lecture bells, lecture halls, archive towers, study cloisters, study courts, using Oak, Limestone Blocks, Timber, Arcane Glow, Antler and section-specific massing.",
+        "civicRole": "Supports Section 5's University / Lyceum purpose as a local civic, movement, memory, or service node.",
+        "narrativeUse": [
+          "university / lyceum scene anchor",
+          "local meeting point",
+          "evidence or route clue",
+          "crowd behavior marker"
+        ],
+        "assetUse": [
+          "Section 5 diorama asset",
+          "map label or icon",
+          "district-scale landmark prop cluster"
+        ],
+        "sensoryIdentity": [
+          "lecture bells",
+          "lecture halls",
+          "archive towers",
+          "study cloisters",
+          "oak",
+          "limestone blocks",
+          "timber"
+        ],
+        "storyHooks": [
+          "Star Navigation Monument becomes the specific landmark that prevents the scene from feeling generic",
+          "a local dispute centers on access to Star Navigation Monument"
+        ]
+      },
+      {
+        "name": "Observatory Court Nook",
+        "symbolicRole": "University / Lyceum expressed through a minor landmark anchor.",
+        "visualRole": "Observatory Court Nook should show ink, star charts, lecture bells, lecture halls, archive towers, using Oak, Limestone Blocks, Timber, Arcane Glow, Antler and section-specific massing.",
+        "civicRole": "Supports Section 5's University / Lyceum purpose as a local civic, movement, memory, or service node.",
+        "narrativeUse": [
+          "university / lyceum scene anchor",
+          "local meeting point",
+          "evidence or route clue",
+          "crowd behavior marker"
+        ],
+        "assetUse": [
+          "Section 5 diorama asset",
+          "map label or icon",
+          "district-scale landmark prop cluster"
+        ],
+        "sensoryIdentity": [
+          "ink",
+          "star charts",
+          "lecture bells",
+          "lecture halls",
+          "oak",
+          "limestone blocks",
+          "timber"
+        ],
+        "storyHooks": [
+          "Observatory Court Nook becomes the specific landmark that prevents the scene from feeling generic",
+          "a local dispute centers on access to Observatory Court Nook"
+        ]
+      }
     ]
   },
   "assetGuidance": {
-    "districtDioramaGuidance": ["S1 must show Nature Preserve / Sacred Grove Civic Hall, Sacred Grove Beacon, Hanging Gardens Monument, and Living Canopy Hall Nook.", "S2 must show Religious / Temple Quarter Civic Hall, Temple Platform, Religious Temple Quarter Lantern Monument, and Procession Stair Nook.", "S3 must show Records / Archives Hall, Archive Tower, Records Archives Gold-Seal Monument, and Copyist Hall Nook.", "S4 must show Arcane / Alchemical Labs Civic Hall, Alchemy Lab, Blue-Lamp Monument, and Formula Archive Nook.", "S5 must show University / Lyceum Civic Hall, Lecture Hall, Star Navigation Monument, and Observatory Court Nook."],
-    "mapBackgroundGuidance": ["Keep Wood-Elven Heartroot Cathedral of Living Branches, Sacred Grove Beacon, and Star Map Ceilings Veiled High Court legible together.", "Use oak, limestone, timber, antler detail, arcane glow, living branches, sacred groves, archive towers, alchemy labs, lecture halls, and moonlit canopy routes."],
-    "requiredVisualElements": ["Wood-Elven Heartroot Cathedral of Living Branches", "Sacred Grove Beacon", "Star Map Ceilings Veiled High Court", "Nature Preserve / Sacred Grove Civic Hall", "Hanging Gardens Monument", "Living Canopy Hall Nook", "Temple Platform", "Religious Temple Quarter Lantern Monument", "Procession Stair Nook", "Archive Tower", "Records Archives Gold-Seal Monument", "Copyist Hall Nook", "Alchemy Lab", "Blue-Lamp Monument", "Formula Archive Nook", "Lecture Hall", "Star Navigation Monument", "Observatory Court Nook"],
-    "elementsToAvoid": ["generic forest village", "wild elf scenery without institutions", "forest backdrop separated from civic structure", "exact sidecar anchors omitted"]
+    "districtDioramaGuidance": [
+      "Create twenty-five district dioramas grouped into five recognizable sections: Nature Preserve / Sacred Grove, Religious / Temple Quarter, Records / Archives, Arcane / Alchemical Labs, University / Lyceum.",
+      "Each district should use its districtNumber and sectionNumber, but avoid baked text labels in imagery.",
+      "D13 must read as the Seat of Power district centered on Star Map Ceilings Veiled High Court.",
+      "Repeated section anchors may appear across five related slots, but each slot needs its own street function, crowd density, and prop emphasis.",
+      "Use exact source-backed anchor names for file naming, prompt references, and canon cross-checking.",
+      "S1 must preserve Nature Preserve / Sacred Grove with anchors: Nature Preserve / Sacred Grove Civic Hall, Sacred Grove Beacon, Hanging Gardens Monument, Living Canopy Hall Nook.",
+      "S2 must preserve Religious / Temple Quarter with anchors: Religious / Temple Quarter Civic Hall, Temple Platform, Religious Temple Quarter Lantern Monument, Procession Stair Nook.",
+      "S3 must preserve Records / Archives with anchors: Records / Archives Hall, Archive Tower, Records Archives Gold-Seal Monument, Copyist Hall Nook.",
+      "S4 must preserve Arcane / Alchemical Labs with anchors: Arcane / Alchemical Labs Civic Hall, Alchemy Lab, Blue-Lamp Monument, Formula Archive Nook.",
+      "S5 must preserve University / Lyceum with anchors: University / Lyceum Civic Hall, Lecture Hall, Star Navigation Monument, Observatory Court Nook."
+    ],
+    "mapBackgroundGuidance": [
+      "Map backgrounds should keep Wood-Elven Heartroot Cathedral of Living Branches as the skyline symbol, Star Map Ceilings Veiled High Court at the central civic authority, and Sacred Grove Beacon as the readable public signal.",
+      "Arrange the five section identities so Thalewood does not converge with other cities: Nature Preserve / Sacred Grove, Religious / Temple Quarter, Records / Archives, Arcane / Alchemical Labs, University / Lyceum.",
+      "Use terrain cues (Forest, Root Network, Old Growth Woodland, Dry Ground), material cues (Oak, Limestone Blocks, Timber, Arcane Glow, Antler), and magic cues (Ward Networks, Ritual Geometry, Moonlight Refraction, Celestial Projection, Living Roots) consistently across district clusters.",
+      "Show roads, terraces, gates, courts, or paths that make the twenty-five-district tactical layout plausible."
+    ],
+    "requiredVisualElements": [
+      "wood elves",
+      "Wood-Elven Heartroot Cathedral of Living Branches",
+      "Sacred Grove Beacon",
+      "Star Map Ceilings Veiled High Court",
+      "Oak",
+      "Limestone Blocks",
+      "Timber",
+      "Arcane Glow",
+      "Antler",
+      "Forest",
+      "Root Network",
+      "Old Growth Woodland",
+      "Dry Ground",
+      "Ward Networks",
+      "Ritual Geometry",
+      "Moonlight Refraction",
+      "Celestial Projection",
+      "Living Roots",
+      "Temple Platform",
+      "Archive Tower",
+      "Alchemy Lab",
+      "Lecture Hall"
+    ],
+    "elementsToAvoid": [
+      "extra top-level schema sections or embedded generation notes",
+      "generic fantasy city assets that ignore exact anchor names",
+      "unlabeled invented landmarks replacing sidecar names",
+      "flattening five sections into one visual district",
+      "treating culture identity as costume rather than civic design",
+      "overcrowded detail that hides Wonder, Beacon, or Seat of Power"
+    ]
   }
 }

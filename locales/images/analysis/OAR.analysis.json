@@ -4,82 +4,1885 @@
     "analysisVersion": 2,
     "cityCode": "OAR",
     "cityName": "Orsakar",
-    "analysisDate": "2026-07-03",
+    "analysisDate": "2026-07-05",
     "analystVersion": "gpt-5.5-thinking",
     "analysisConfidence": "strong-lock",
-    "basedOnImages": ["OAR-HERO-NE-v001", "OAR-HERO-NW-v001", "OAR-HERO-SE-v001", "OAR-HERO-SW-v001", "OAR-STREET-S1-v001", "OAR-STREET-S2-v001", "OAR-STREET-S3-v001", "OAR-STREET-S4-v001", "OAR-STREET-S5-v001"],
-    "basedOnSidecars": ["OAR-HERO-NE-v001.json", "OAR-HERO-NW-v001.json", "OAR-HERO-SE-v001.json", "OAR-HERO-SW-v001.json", "OAR-STREET-S1-v001.json", "OAR-STREET-S2-v001.json", "OAR-STREET-S3-v001.json", "OAR-STREET-S4-v001.json", "OAR-STREET-S5-v001.json"]
+    "sourceStatus": "full",
+    "districtModel": "five sections; five district slots per section; D13 is the seat of power",
+    "missingStreetSections": [],
+    "basedOnImages": [
+      "OAR-HERO-NE-v001",
+      "OAR-HERO-NW-v001",
+      "OAR-HERO-SE-v001",
+      "OAR-HERO-SW-v001",
+      "OAR-STREET-S1-v001",
+      "OAR-STREET-S2-v001",
+      "OAR-STREET-S3-v001",
+      "OAR-STREET-S4-v001",
+      "OAR-STREET-S5-v001"
+    ],
+    "basedOnSidecars": [
+      "OAR-HERO-NE-v001.json",
+      "OAR-HERO-NW-v001.json",
+      "OAR-HERO-SE-v001.json",
+      "OAR-HERO-SW-v001.json",
+      "OAR-STREET-S1-v001.json",
+      "OAR-STREET-S2-v001.json",
+      "OAR-STREET-S3-v001.json",
+      "OAR-STREET-S4-v001.json",
+      "OAR-STREET-S5-v001.json"
+    ]
   },
   "cityDNA": {
-    "coreFantasy": "A bearfolk mountain fortress-city where border walls, forges, command bastions, caravan roads, containment keeps, ancestor guidance, and a salmon-stone lodge make strength protective and territorial.",
-    "primaryEmotion": "palefang resolve",
-    "secondaryEmotion": "ancestral mass",
-    "readerTakeaway": "Orsakar is not a bear barbarian settlement; it is a blue-granite civic fortress whose strength is organized into walls, work, route law, custody, and ancestor-bound public authority.",
-    "civilizationThesis": "Orsakar turns bearfolk mass, mountain thresholds, forge discipline, caravan endurance, command order, and containment ethics into a mature civic system.",
-    "visualIdentity": "Blue granite, frost glass, pine, silver inlay, arcane glow, cliff terraces, snowy approaches, border beacons, forge smoke, command banners, caravan gates, containment yards, and bear-claw registry marks.",
-    "culturalIdentity": "Bear-like beastfolk with formal institutions, ancestor guidance, weather binding, guarded roads, and a public expectation that strength must protect.",
-    "symbolicIdentity": "Bear claws, palefangs, salmon stone, border lamps, forge smoke, command standards, caravan gates, mist veils, and judgment yards symbolize strength under obligation."
+    "coreFantasy": "A bear-like beastfolk city where Bearfolk Salmon-Stone Lodge of the Palefangs, Border Wall Beacon, Bear Claw Marks Sovereign Registry Court, and the five-section district spine turn local identity into functional civic space.",
+    "primaryEmotion": "source-backed civic presence",
+    "secondaryEmotion": "lived-in pressure beneath landmark order",
+    "readerTakeaway": "Orsakar should feel immediately identifiable through exact landmarks and materials, not through generic fantasy-city shorthand.",
+    "civilizationThesis": "Orsakar organizes power through Bear Claw Marks Sovereign Registry Court, public response through Border Wall Beacon, civic memory through Bearfolk Salmon-Stone Lodge of the Palefangs, and daily life through S1 Fortress / Border Wall Civic Hall, S2 Heavy Industry / Foundry Civic Hall, S3 Military Command Hall, S4 Transit / Caravan / Rail Civic Hall, S5 Prison / Containment Civic Hall.",
+    "visualIdentity": "Blue Granite, Frost Glass, Pine, Silver Inlay, Arcane Glow, Cliffside, Terraced Slope, Civic Terraces, Beast Bonding, Ancestor Guidance, Weather Binding, and exact anchors including Bear Claw Marks Sovereign Registry Court, Border Wall Beacon, Bearfolk Salmon-Stone Lodge of the Palefangs, Containment Keep, Great Forge, Caravanserai, Fortress / Border Wall Civic Hall, Woven Banners Monument, Watch Bastion Nook, Heavy Industry / Foundry Civic Hall.",
+    "culturalIdentity": "A bear-like beastfolk civic culture where architecture, public obligations, roads, landmark approaches, and everyday work must all read as part of the same civilization.",
+    "symbolicIdentity": "The city symbol system is built from exact names and visible functions: Bearfolk Salmon-Stone Lodge of the Palefangs, Border Wall Beacon, Bear Claw Marks Sovereign Registry Court, and section anchors such as Fortress / Border Wall Civic Hall, Heavy Industry / Foundry Civic Hall, Military Command Hall, Transit / Caravan / Rail Civic Hall, Prison / Containment Civic Hall."
   },
   "canon": {
-    "canonLocks": ["Orsakar is a mature bear-like beastfolk fortress city, not a generic mountain beast camp.", "The Wonder is Bearfolk Salmon-Stone Lodge of the Palefangs.", "The Beacon is Border Wall Beacon.", "The Seat of Power is Bear Claw Marks Sovereign Registry Court.", "The five primary districts are Fortress / Border Wall, Heavy Industry / Foundry, Military Command, Transit / Caravan / Rail, and Prison / Containment.", "The uploaded district anchors include Fortress / Border Wall Civic Hall, Woven Banners Monument, Watch Bastion Nook, Heavy Industry / Foundry Civic Hall, Great Forge, Smoke-Stack Monument, Crucible Hall Nook, Military Command Hall, Command Bastion, Standard Tower Nook, Transit / Caravan / Rail Civic Hall, Caravanserai, Waystation Hall Nook, Prison / Containment Civic Hall, Containment Keep, Mist Veils Monument, and Judgment Yard Nook."],
-    "provisionalCanon": ["Orsakar's highest civic virtue is protective strength.", "The contact-sheet pass shows cold mountain scale, fortress massing, and street-level institutions aligned with the sidecar anchors."],
-    "rejectedReads": ["generic bear barbarian settlement", "all brute strength with no institutions", "mountain scenery without road, command, or containment systems"],
-    "cautionFlags": ["Keep blue granite, frost glass, pine, and silver inlay visible.", "Preserve exact sidecar anchor names.", "Containment is an institution, not random cruelty."]
+    "canonLocks": [
+      "Orsakar uses city code OAR.",
+      "The Wonder is Bearfolk Salmon-Stone Lodge of the Palefangs.",
+      "The Beacon is Border Wall Beacon.",
+      "The Seat of Power is Bear Claw Marks Sovereign Registry Court and occupies District 13.",
+      "The city uses five sections with five tactical district slots per section.",
+      "The source-backed section spine is: S1 Fortress / Border Wall Civic Hall, S2 Heavy Industry / Foundry Civic Hall, S3 Military Command Hall, S4 Transit / Caravan / Rail Civic Hall, S5 Prison / Containment Civic Hall.",
+      "Preserve exact anchor name: Bear Claw Marks Sovereign Registry Court.",
+      "Preserve exact anchor name: Border Wall Beacon.",
+      "Preserve exact anchor name: Bearfolk Salmon-Stone Lodge of the Palefangs.",
+      "Preserve exact anchor name: Containment Keep.",
+      "Preserve exact anchor name: Great Forge.",
+      "Preserve exact anchor name: Caravanserai.",
+      "Preserve exact anchor name: Fortress / Border Wall Civic Hall.",
+      "Preserve exact anchor name: Woven Banners Monument.",
+      "Preserve exact anchor name: Watch Bastion Nook.",
+      "Preserve exact anchor name: Heavy Industry / Foundry Civic Hall.",
+      "Preserve exact anchor name: Smoke-Stack Monument.",
+      "Preserve exact anchor name: Crucible Hall Nook.",
+      "Preserve exact anchor name: Military Command Hall.",
+      "Preserve exact anchor name: Command Bastion.",
+      "Preserve exact anchor name: Standard Tower Nook.",
+      "Preserve exact anchor name: Transit / Caravan / Rail Civic Hall.",
+      "Preserve exact anchor name: Waystation Hall Nook.",
+      "Preserve exact anchor name: Prison / Containment Civic Hall.",
+      "Preserve exact anchor name: Mist Veils Monument.",
+      "Preserve exact anchor name: Judgment Yard Nook."
+    ],
+    "provisionalCanon": [],
+    "rejectedReads": [
+      "Do not treat Orsakar as a generic fantasy settlement with renamed landmarks.",
+      "Do not collapse the five-section board into a single mood or single district.",
+      "Do not replace exact anchor names with generic summaries.",
+      "Do not invent missing street-section landmarks when a street source is absent."
+    ],
+    "cautionFlags": [
+      "Keep every named Wonder, Beacon, Seat, section civic hall, major landmark, monument, and minor nook exact when present in sidecars.",
+      "If an image appears to deviate from a sidecar, preserve the exact name but avoid overclaiming visual details not supported by the source package.",
+      "Every district asset should remain usable for narrative scenes, tactical board dioramas, and city map backgrounds."
+    ]
   },
   "environment": {
-    "terrain": ["cliffside fortress city", "terraced slope", "civic terraces", "snowy mountain approaches", "border gates", "caravan roads"],
-    "water": ["snowmelt channels", "forge quench troughs", "mountain cisterns", "dry civic ground"],
-    "vegetation": ["pine forests", "hardy mountain shrubs", "lichened stone", "cold terrace plantings"],
-    "climateLighting": ["cold mountain daylight", "blue beacon glow", "forge orange", "frost-glass glare", "snow-reflected light", "mist-veiled containment light"],
-    "environmentalLogic": "The uploaded images show cliff, cold, pine, and blue stone as civic infrastructure: approaches are defended, roads are governed, and heavy buildings read as deliberate protection."
+    "terrain": [
+      "Cliffside",
+      "Terraced Slope",
+      "Civic Terraces"
+    ],
+    "water": [
+      "dry city ground"
+    ],
+    "vegetation": [
+      "courtyard trees",
+      "balcony planters",
+      "public greenery where visible",
+      "source-backed local vegetation only"
+    ],
+    "climateLighting": [
+      "Beast Bonding",
+      "Ancestor Guidance",
+      "Weather Binding",
+      "daylight",
+      "golden hour",
+      "lantern light",
+      "civic beacon glow"
+    ],
+    "environmentalLogic": "The environment should make Orsakar's exact civic anchors plausible at street scale: terrain routes people toward section landmarks, lighting clarifies public authority, and water or landscape features remain source-backed rather than decorative filler."
   },
   "architecture": {
-    "materials": ["Blue Granite", "Frost Glass", "Pine", "Silver Inlay", "Arcane Glow", "iron bands", "weathered stone"],
-    "forms": ["Bearfolk Salmon-Stone Lodge of the Palefangs", "Bear Claw Marks Sovereign Registry Court", "Border Wall Beacon", "Fortress / Border Wall Civic Hall", "Watch Bastion Nook", "Great Forge", "Smoke-Stack Monument", "Crucible Hall Nook", "Military Command Hall", "Command Bastion", "Standard Tower Nook", "Caravanserai", "Waystation Hall Nook", "Containment Keep", "Mist Veils Monument", "Judgment Yard Nook"],
-    "skyline": ["Bearfolk Salmon-Stone Lodge of the Palefangs as wonder anchor", "Bear Claw Marks Sovereign Registry Court as seat of power", "Border Wall Beacon as public signal", "forge stacks, command bastions, caravan gates, and containment keeps stepping down mountain terraces"],
-    "lighting": ["blue civic glow", "forge fire", "cold snowlight", "frost-glass shimmer", "containment ward light"],
-    "infrastructure": ["border walls", "watch bastions", "forge yards", "command roads", "caravan gates", "waystation halls", "containment yards", "judgment approaches"],
-    "motifs": ["bear claws", "palefangs", "salmon stone", "woven banners", "smoke stacks", "standard towers", "caravan gates", "mist veils"],
-    "colorLanguage": ["blue granite", "frost white", "pine green", "silver inlay", "forge orange", "civic blue"],
-    "textureLanguage": ["cold carved stone", "frosted glass", "rough pine", "silver marks", "smoke-dark iron", "snow-wet paving"]
+    "materials": [
+      "Blue Granite",
+      "Frost Glass",
+      "Pine",
+      "Silver Inlay",
+      "Arcane Glow"
+    ],
+    "forms": [
+      "Bear Claw Marks Sovereign Registry Court",
+      "Border Wall Beacon",
+      "Bearfolk Salmon-Stone Lodge of the Palefangs",
+      "Containment Keep",
+      "Great Forge",
+      "Caravanserai",
+      "Fortress / Border Wall Civic Hall",
+      "Woven Banners Monument",
+      "Watch Bastion Nook",
+      "Heavy Industry / Foundry Civic Hall",
+      "Smoke-Stack Monument",
+      "Crucible Hall Nook",
+      "Military Command Hall",
+      "Command Bastion",
+      "Standard Tower Nook",
+      "Transit / Caravan / Rail Civic Hall",
+      "Waystation Hall Nook",
+      "Prison / Containment Civic Hall",
+      "Mist Veils Monument",
+      "Judgment Yard Nook",
+      "section civic halls",
+      "major landmark approaches",
+      "monument frontages",
+      "minor landmark nooks",
+      "district roads and plazas",
+      "D13 authority complex"
+    ],
+    "skyline": [
+      "Bearfolk Salmon-Stone Lodge of the Palefangs",
+      "Bear Claw Marks Sovereign Registry Court",
+      "Border Wall Beacon",
+      "Containment Keep",
+      "Great Forge",
+      "Caravanserai",
+      "Fortress / Border Wall Civic Hall",
+      "Woven Banners Monument",
+      "Watch Bastion Nook"
+    ],
+    "lighting": [
+      "Beast Bonding",
+      "Ancestor Guidance",
+      "Weather Binding",
+      "beacon-state light",
+      "lantern-lit civic paths",
+      "street-level shop and housing light"
+    ],
+    "infrastructure": [
+      "Fortress / Border Wall Civic Hall",
+      "Heavy Industry / Foundry Civic Hall",
+      "Military Command Hall",
+      "Transit / Caravan / Rail Civic Hall",
+      "Prison / Containment Civic Hall",
+      "roads between district slots",
+      "public thresholds",
+      "plaza edges",
+      "records, permits, markets, services, or rituals implied by anchors"
+    ],
+    "motifs": [
+      "Bear",
+      "Claw",
+      "Marks",
+      "Sovereign",
+      "Registry",
+      "Court",
+      "Border",
+      "Wall",
+      "Beacon",
+      "Bearfolk",
+      "Salmon-Stone",
+      "Lodge",
+      "Palefangs",
+      "Containment",
+      "Keep",
+      "Great"
+    ],
+    "colorLanguage": [
+      "source-backed material colors",
+      "civic blue signal accents",
+      "local textile, stone, metal, vegetation, or water colors from the image package"
+    ],
+    "textureLanguage": [
+      "Blue Granite",
+      "Frost Glass",
+      "Pine",
+      "Silver Inlay",
+      "Arcane Glow",
+      "worn pedestrian surfaces",
+      "worked civic ornament",
+      "weathered public thresholds",
+      "lived-in shop and housing details"
+    ]
   },
   "civilization": {
-    "people": "Bearfolk citizens read as massive, deliberate, territorial, and institutionally ordered; the images emphasize civic density, guarded gates, and work districts rather than wilderness wandering.",
-    "occupations": ["border guards", "forge workers", "command officers", "standard bearers", "caravan brokers", "waystation keepers", "containment wardens", "registry clerks", "pinewrights"],
-    "socialClasses": ["registry officials", "watch families", "forge guilds", "command houses", "caravan families", "containment administrators", "mountain laborers"],
-    "governance": "The Bear Claw Marks Sovereign Registry Court governs border rights, work obligations, road passage, command orders, and containment judgments.",
-    "religion": "Ancestor guidance and weather binding appear through palefang marks, salmon-stone rites, bear-claw registry symbols, and mountain threshold oaths.",
-    "customs": ["gate watch", "forge oath", "standard raising", "caravan tally", "containment ward check", "ancestor mark consultation"],
-    "bodyLanguage": ["planted stance", "protective spacing", "slow public authority", "claw-mark gestures", "watchful gate posture"],
-    "speechPatterns": ["clan and road terms", "registry phrasing", "forge orders", "command titles", "containment warnings"]
+    "people": "The population should read as bear-like beastfolk and city-specific: citizens occupy streets, shops, public thresholds, and landmark approaches as people who understand the local civic order.",
+    "occupations": [
+      "watch guards",
+      "gate officers",
+      "smiths",
+      "craft workers",
+      "district clerks",
+      "craft families",
+      "porters",
+      "maintenance workers",
+      "food sellers",
+      "messengers"
+    ],
+    "socialClasses": [
+      "D13 officials and court staff",
+      "section landmark custodians",
+      "guild and service families",
+      "shopkeepers and artisans",
+      "laborers, carriers, messengers, and maintenance crews",
+      "households tied to local district obligations"
+    ],
+    "governance": "Government is centered on Bear Claw Marks Sovereign Registry Court. Its authority should be visible through courts, records, public access routes, civic lamps, guards or attendants, and the way citizens respond to D13.",
+    "religion": "Religious or ritual life should only be emphasized where source anchors support it, especially names such as none explicitly dominant in the current anchors.",
+    "customs": [
+      "citizens orient public life around Fortress / Border Wall Civic Hall in Section 1",
+      "citizens orient public life around Heavy Industry / Foundry Civic Hall in Section 2",
+      "citizens orient public life around Military Command Hall in Section 3",
+      "citizens orient public life around Transit / Caravan / Rail Civic Hall in Section 4",
+      "citizens orient public life around Prison / Containment Civic Hall in Section 5",
+      "beacon changes become public behavior, not background color",
+      "exact landmark names carry social memory and directions",
+      "civic errands happen visibly at thresholds, queues, ledgers, stalls, courts, or shrines"
+    ],
+    "bodyLanguage": [
+      "citizens pause at civic signals",
+      "workers move with practiced familiarity around district anchors",
+      "officials use thresholds and raised places to control attention",
+      "residents treat named landmarks as everyday orientation points"
+    ],
+    "speechPatterns": [
+      "directions use exact landmark names",
+      "public notices are tied to section anchors",
+      "local speech distinguishes civic authority, ordinary errands, and landmark obligations",
+      "people refer to D13 as the seat of power rather than a faction headquarters"
+    ]
   },
   "urbanLife": {
-    "streets": {"appearance": "Cold, heavy, blue-granite streets with pine structures, silver inlay, guard towers, forge smoke, command banners, caravan yards, and containment thresholds.", "movement": "Movement follows defended gates, mountain stairs, forge lanes, command platforms, caravan roads, and warded containment approaches.", "sounds": ["gate horns", "forge hammers", "snow under boots", "caravan tack", "standard cloth", "containment bells"], "smells": ["pine", "cold stone", "forge smoke", "leather", "snowmelt", "lamp oil"], "lighting": "Blue civic light and snow reflection contrast with orange forges and pale containment wards.", "weatherEffects": "Snow, fog, and cold make gates, roads, and signal lamps essential.", "dayCycle": "Daytime centers on wall watch, forge work, command traffic, and caravan processing.", "nightCycle": "Night is beacon-lit, guarded, forge-warm, and containment-watchful."},
-    "shops": {"common": ["forge tool stalls", "pine craft sellers", "road ration counters", "warm cloak vendors"], "uncommon": ["frost-glass workers", "silver inlay carvers", "caravan map sellers", "ward-sigil repairers"], "prestigious": ["registry counters", "command armories", "great forge contracts", "major caravan houses"], "exports": ["blue-granite craft", "forge tools", "road security", "frost glass", "caravan logistics"], "imports": ["grain", "coal", "cloth", "medicine", "fine metal"], "streetFood": ["thick stew", "smoked fish", "pine tea", "root bread"], "services": ["gate tolls", "forge repair", "route permits", "containment processing"]},
-    "housing": {"wealthy": "Registry and command terraces with frost-glass windows and guarded views.", "middle": "Forge, caravan, and watch-family homes along heavy roads.", "poor": "Cold service housing near walls, work yards, and road thresholds."}
+    "streets": {
+      "appearance": "Streets should show Orsakar's exact anchor system at pedestrian scale: S1 Fortress / Border Wall Civic Hall, S2 Heavy Industry / Foundry Civic Hall, S3 Military Command Hall, S4 Transit / Caravan / Rail Civic Hall, S5 Prison / Containment Civic Hall. Keep roads, plazas, stairs, thresholds, lamps, signs-without-readable-text, props, and civilians aligned to the source-backed materials and landmarks.",
+      "movement": "Movement should be readable for tactical-board assets: citizens pass between 25 district slots, section anchors, D13, service streets, and landmark approaches without visual clutter hiding the civic purpose.",
+      "sounds": [
+        "foot traffic",
+        "vendors and service calls",
+        "tools and carts",
+        "public notices",
+        "landmark-specific sounds from water, bells, animals, machines, or crowds when source-backed",
+        "beacon-state crowd reactions"
+      ],
+      "smells": [
+        "street food",
+        "worked material dust",
+        "lamp oil or smoke",
+        "vegetation or water where source-backed",
+        "worn stone, timber, metal, plaster, or fabric"
+      ],
+      "lighting": "Use the package's source-backed civic lighting, daylight/golden-hour reads, lanterns, and beacon glow. Lighting must help identify authority, safety, and landmark function.",
+      "weatherEffects": "Weather should reinforce the local terrain and materials without overwhelming the city identity or inventing unsupported climate extremes.",
+      "dayCycle": "Day scenes emphasize errands, trade, records, repairs, rituals, food, and section-level movement.",
+      "nightCycle": "Night scenes emphasize lantern routes, closed thresholds, guarded landmarks, quiet work, and beacon visibility."
+    },
+    "shops": {
+      "common": [
+        "food stalls",
+        "repair stalls",
+        "material vendors",
+        "ledger or permit desks",
+        "local craft counters",
+        "street services tied to section anchors"
+      ],
+      "uncommon": [
+        "specialist landmark caretakers",
+        "instrument makers",
+        "ritual suppliers",
+        "map or record copyists",
+        "district-specific guild services"
+      ],
+      "prestigious": [
+        "D13-facing legal or registry services",
+        "elite craft workshops",
+        "landmark commission houses",
+        "official suppliers for civic ceremonies"
+      ],
+      "exports": [
+        "local crafts",
+        "records or seals",
+        "finished materials",
+        "food goods",
+        "specialized tools or ritual goods as supported by anchors"
+      ],
+      "imports": [
+        "rare materials",
+        "dyes, oils, spices, timber, stone, metal, glass, or cloth as needed by the architecture",
+        "outside records and trade goods"
+      ],
+      "streetFood": [
+        "flatbread or local bread",
+        "stew or grilled skewers",
+        "fruit or preserved food",
+        "tea or civic-square drinks",
+        "portable worker meals"
+      ],
+      "services": [
+        "directions by landmark",
+        "message running",
+        "permit help",
+        "repairs",
+        "food service",
+        "transport or porterage",
+        "public notice posting"
+      ]
+    },
+    "housing": {
+      "wealthy": "Prestige housing clusters near Bear Claw Marks Sovereign Registry Court, high terraces, or landmark-facing routes, using the best source-backed materials and controlled views of civic space.",
+      "middle": "Shop-over-house units, courtyard homes, guild-adjacent apartments, and family rooms near section anchors.",
+      "poor": "Smaller back-street rooms, work-adjacent housing, shared courtyards, service alleys, patched materials, and dense but still city-specific lived-in detail."
+    }
   },
   "districts": [
-    {"sectionNumber": 1, "name": "Fortress / Border Wall", "civicPurpose": "Public access control, warning, and defense.", "visualIdentity": "Fortress / Border Wall Civic Hall, Border Wall Beacon, Woven Banners Monument, Watch Bastion Nook.", "emotionalIdentity": "guarded, cold, formal", "gameplayAssetNeeds": ["Fortress / Border Wall Civic Hall", "Border Wall Beacon", "Woven Banners Monument", "Watch Bastion Nook"], "narrativeUse": ["arrival gate", "Beacon response", "border warning"], "landmark": "Border Wall Beacon", "minorLandmarks": ["Woven Banners Monument", "Watch Bastion Nook"]},
-    {"sectionNumber": 2, "name": "Heavy Industry / Foundry", "civicPurpose": "Forge labor and public production.", "visualIdentity": "Heavy Industry / Foundry Civic Hall, Great Forge, Smoke-Stack Monument, Crucible Hall Nook.", "emotionalIdentity": "hot, exacting, productive", "gameplayAssetNeeds": ["Heavy Industry / Foundry Civic Hall", "Great Forge", "Smoke-Stack Monument", "Crucible Hall Nook"], "narrativeUse": ["forge work", "industrial crisis"], "landmark": "Great Forge", "minorLandmarks": ["Smoke-Stack Monument", "Crucible Hall Nook"]},
-    {"sectionNumber": 3, "name": "Military Command", "civicPurpose": "Rank, orders, musters, and disciplined force.", "visualIdentity": "Military Command Hall, Command Bastion, Woven Banners Monument, Standard Tower Nook.", "emotionalIdentity": "ordered, hard, dutiful", "gameplayAssetNeeds": ["Military Command Hall", "Command Bastion", "Woven Banners Monument", "Standard Tower Nook"], "narrativeUse": ["orders", "muster", "rank conflict"], "landmark": "Command Bastion", "minorLandmarks": ["Woven Banners Monument", "Standard Tower Nook"]},
-    {"sectionNumber": 4, "name": "Transit / Caravan / Rail", "civicPurpose": "Route law, trade exchange, and road endurance.", "visualIdentity": "Transit / Caravan / Rail Civic Hall, Caravanserai, Woven Banners Monument, Waystation Hall Nook.", "emotionalIdentity": "road-bound, busy, durable", "gameplayAssetNeeds": ["Transit / Caravan / Rail Civic Hall", "Caravanserai", "Woven Banners Monument", "Waystation Hall Nook"], "narrativeUse": ["arrival", "route dispute", "caravan negotiation"], "landmark": "Caravanserai", "minorLandmarks": ["Woven Banners Monument", "Waystation Hall Nook"]},
-    {"sectionNumber": 5, "name": "Prison / Containment", "civicPurpose": "Custody, judgment, danger management, and institutional consequence.", "visualIdentity": "Prison / Containment Civic Hall, Containment Keep, Mist Veils Monument, Judgment Yard Nook.", "emotionalIdentity": "cold, controlled, severe", "gameplayAssetNeeds": ["Prison / Containment Civic Hall", "Containment Keep", "Mist Veils Monument", "Judgment Yard Nook"], "narrativeUse": ["custody", "judgment", "containment ethics"], "landmark": "Containment Keep", "minorLandmarks": ["Mist Veils Monument", "Judgment Yard Nook"]}
+    {
+      "districtNumber": 1,
+      "districtId": "D01",
+      "sectionNumber": 1,
+      "name": "D01 — Fortress / Border Wall Civic Hall Civic-Anchor Precinct",
+      "civicPurpose": "This district turns Section 1's source-backed anchor set into a board-scale civic space: Fortress / Border Wall Civic Hall, Border Wall Beacon, Woven Banners Monument, Watch Bastion Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Orsakar.",
+      "visualIdentity": "Use Fortress / Border Wall Civic Hall as the main read. Keep exact source anchors visible where applicable: Fortress / Border Wall Civic Hall, Border Wall Beacon, Woven Banners Monument, Watch Bastion Nook. The district should share Orsakar's bear-like beastfolk identity, Blue Granite, Frost Glass, Pine, Silver Inlay, and Cliffside, Terraced Slope, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Locally grounded, with Orsakar's larger mood shaped by Bearfolk Salmon-Stone Lodge of the Palefangs, Border Wall Beacon, and Bear Claw Marks Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Fortress / Border Wall Civic Hall",
+        "Border Wall Beacon",
+        "Woven Banners Monument",
+        "Watch Bastion Nook",
+        "Section 1 pedestrian-scale props",
+        "Orsakar civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Fortress / Border Wall Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Fortress / Border Wall Civic Hall",
+      "minorLandmarks": [
+        "Border Wall Beacon",
+        "Woven Banners Monument",
+        "Watch Bastion Nook"
+      ]
+    },
+    {
+      "districtNumber": 2,
+      "districtId": "D02",
+      "sectionNumber": 1,
+      "name": "D02 — Border Wall Beacon Landmark Approach",
+      "civicPurpose": "This district turns Section 1's source-backed anchor set into a board-scale civic space: Fortress / Border Wall Civic Hall, Border Wall Beacon, Woven Banners Monument, Watch Bastion Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Orsakar.",
+      "visualIdentity": "Use Border Wall Beacon as the main read. Keep exact source anchors visible where applicable: Fortress / Border Wall Civic Hall, Border Wall Beacon, Woven Banners Monument, Watch Bastion Nook. The district should share Orsakar's bear-like beastfolk identity, Blue Granite, Frost Glass, Pine, Silver Inlay, and Cliffside, Terraced Slope, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Public-facing, with Orsakar's larger mood shaped by Bearfolk Salmon-Stone Lodge of the Palefangs, Border Wall Beacon, and Bear Claw Marks Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Border Wall Beacon",
+        "Fortress / Border Wall Civic Hall",
+        "Woven Banners Monument",
+        "Watch Bastion Nook",
+        "Section 1 pedestrian-scale props",
+        "Orsakar civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Border Wall Beacon",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "Conjunction response, rumor spread, or authority pressure"
+      ],
+      "landmark": "Border Wall Beacon",
+      "minorLandmarks": [
+        "Fortress / Border Wall Civic Hall",
+        "Woven Banners Monument",
+        "Watch Bastion Nook"
+      ]
+    },
+    {
+      "districtNumber": 3,
+      "districtId": "D03",
+      "sectionNumber": 1,
+      "name": "D03 — Woven Banners Monument Monument Frontage",
+      "civicPurpose": "This district turns Section 1's source-backed anchor set into a board-scale civic space: Fortress / Border Wall Civic Hall, Border Wall Beacon, Woven Banners Monument, Watch Bastion Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Orsakar.",
+      "visualIdentity": "Use Woven Banners Monument as the main read. Keep exact source anchors visible where applicable: Fortress / Border Wall Civic Hall, Border Wall Beacon, Woven Banners Monument, Watch Bastion Nook. The district should share Orsakar's bear-like beastfolk identity, Blue Granite, Frost Glass, Pine, Silver Inlay, and Cliffside, Terraced Slope, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Memorial or symbolic, with Orsakar's larger mood shaped by Bearfolk Salmon-Stone Lodge of the Palefangs, Border Wall Beacon, and Bear Claw Marks Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Woven Banners Monument",
+        "Fortress / Border Wall Civic Hall",
+        "Border Wall Beacon",
+        "Watch Bastion Nook",
+        "Section 1 pedestrian-scale props",
+        "Orsakar civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Woven Banners Monument",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Woven Banners Monument",
+      "minorLandmarks": [
+        "Fortress / Border Wall Civic Hall",
+        "Border Wall Beacon",
+        "Watch Bastion Nook"
+      ]
+    },
+    {
+      "districtNumber": 6,
+      "districtId": "D06",
+      "sectionNumber": 1,
+      "name": "D06 — Watch Bastion Nook Neighborhood Nook",
+      "civicPurpose": "This district turns Section 1's source-backed anchor set into a board-scale civic space: Fortress / Border Wall Civic Hall, Border Wall Beacon, Woven Banners Monument, Watch Bastion Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Orsakar.",
+      "visualIdentity": "Use Watch Bastion Nook as the main read. Keep exact source anchors visible where applicable: Fortress / Border Wall Civic Hall, Border Wall Beacon, Woven Banners Monument, Watch Bastion Nook. The district should share Orsakar's bear-like beastfolk identity, Blue Granite, Frost Glass, Pine, Silver Inlay, and Cliffside, Terraced Slope, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Intimate and lived-in, with Orsakar's larger mood shaped by Bearfolk Salmon-Stone Lodge of the Palefangs, Border Wall Beacon, and Bear Claw Marks Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Watch Bastion Nook",
+        "Fortress / Border Wall Civic Hall",
+        "Border Wall Beacon",
+        "Woven Banners Monument",
+        "Section 1 pedestrian-scale props",
+        "Orsakar civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Watch Bastion Nook",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Watch Bastion Nook",
+      "minorLandmarks": [
+        "Fortress / Border Wall Civic Hall",
+        "Border Wall Beacon",
+        "Woven Banners Monument"
+      ]
+    },
+    {
+      "districtNumber": 7,
+      "districtId": "D07",
+      "sectionNumber": 1,
+      "name": "D07 — Fortress / Border Wall Civic Hall Supporting Streets",
+      "civicPurpose": "This district turns Section 1's source-backed anchor set into a board-scale civic space: Fortress / Border Wall Civic Hall, Border Wall Beacon, Woven Banners Monument, Watch Bastion Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Orsakar.",
+      "visualIdentity": "Use Fortress / Border Wall Civic Hall as the main read. Keep exact source anchors visible where applicable: Fortress / Border Wall Civic Hall, Border Wall Beacon, Woven Banners Monument, Watch Bastion Nook. The district should share Orsakar's bear-like beastfolk identity, Blue Granite, Frost Glass, Pine, Silver Inlay, and Cliffside, Terraced Slope, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Connective and practical, with Orsakar's larger mood shaped by Bearfolk Salmon-Stone Lodge of the Palefangs, Border Wall Beacon, and Bear Claw Marks Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Fortress / Border Wall Civic Hall",
+        "Border Wall Beacon",
+        "Woven Banners Monument",
+        "Watch Bastion Nook",
+        "Section 1 pedestrian-scale props",
+        "Orsakar civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Fortress / Border Wall Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Fortress / Border Wall Civic Hall",
+      "minorLandmarks": [
+        "Border Wall Beacon",
+        "Woven Banners Monument",
+        "Watch Bastion Nook"
+      ]
+    },
+    {
+      "districtNumber": 4,
+      "districtId": "D04",
+      "sectionNumber": 2,
+      "name": "D04 — Heavy Industry / Foundry Civic Hall Civic-Anchor Precinct",
+      "civicPurpose": "This district turns Section 2's source-backed anchor set into a board-scale civic space: Heavy Industry / Foundry Civic Hall, Great Forge, Smoke-Stack Monument, Crucible Hall Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Orsakar.",
+      "visualIdentity": "Use Heavy Industry / Foundry Civic Hall as the main read. Keep exact source anchors visible where applicable: Heavy Industry / Foundry Civic Hall, Great Forge, Smoke-Stack Monument, Crucible Hall Nook. The district should share Orsakar's bear-like beastfolk identity, Blue Granite, Frost Glass, Pine, Silver Inlay, and Cliffside, Terraced Slope, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Locally grounded, with Orsakar's larger mood shaped by Bearfolk Salmon-Stone Lodge of the Palefangs, Border Wall Beacon, and Bear Claw Marks Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Heavy Industry / Foundry Civic Hall",
+        "Great Forge",
+        "Smoke-Stack Monument",
+        "Crucible Hall Nook",
+        "Section 2 pedestrian-scale props",
+        "Orsakar civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Heavy Industry / Foundry Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Heavy Industry / Foundry Civic Hall",
+      "minorLandmarks": [
+        "Great Forge",
+        "Smoke-Stack Monument",
+        "Crucible Hall Nook"
+      ]
+    },
+    {
+      "districtNumber": 5,
+      "districtId": "D05",
+      "sectionNumber": 2,
+      "name": "D05 — Great Forge Landmark Approach",
+      "civicPurpose": "This district turns Section 2's source-backed anchor set into a board-scale civic space: Heavy Industry / Foundry Civic Hall, Great Forge, Smoke-Stack Monument, Crucible Hall Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Orsakar.",
+      "visualIdentity": "Use Great Forge as the main read. Keep exact source anchors visible where applicable: Heavy Industry / Foundry Civic Hall, Great Forge, Smoke-Stack Monument, Crucible Hall Nook. The district should share Orsakar's bear-like beastfolk identity, Blue Granite, Frost Glass, Pine, Silver Inlay, and Cliffside, Terraced Slope, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Public-facing, with Orsakar's larger mood shaped by Bearfolk Salmon-Stone Lodge of the Palefangs, Border Wall Beacon, and Bear Claw Marks Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Great Forge",
+        "Heavy Industry / Foundry Civic Hall",
+        "Smoke-Stack Monument",
+        "Crucible Hall Nook",
+        "Section 2 pedestrian-scale props",
+        "Orsakar civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Great Forge",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Great Forge",
+      "minorLandmarks": [
+        "Heavy Industry / Foundry Civic Hall",
+        "Smoke-Stack Monument",
+        "Crucible Hall Nook"
+      ]
+    },
+    {
+      "districtNumber": 9,
+      "districtId": "D09",
+      "sectionNumber": 2,
+      "name": "D09 — Smoke-Stack Monument Monument Frontage",
+      "civicPurpose": "This district turns Section 2's source-backed anchor set into a board-scale civic space: Heavy Industry / Foundry Civic Hall, Great Forge, Smoke-Stack Monument, Crucible Hall Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Orsakar.",
+      "visualIdentity": "Use Smoke-Stack Monument as the main read. Keep exact source anchors visible where applicable: Heavy Industry / Foundry Civic Hall, Great Forge, Smoke-Stack Monument, Crucible Hall Nook. The district should share Orsakar's bear-like beastfolk identity, Blue Granite, Frost Glass, Pine, Silver Inlay, and Cliffside, Terraced Slope, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Memorial or symbolic, with Orsakar's larger mood shaped by Bearfolk Salmon-Stone Lodge of the Palefangs, Border Wall Beacon, and Bear Claw Marks Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Smoke-Stack Monument",
+        "Heavy Industry / Foundry Civic Hall",
+        "Great Forge",
+        "Crucible Hall Nook",
+        "Section 2 pedestrian-scale props",
+        "Orsakar civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Smoke-Stack Monument",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Smoke-Stack Monument",
+      "minorLandmarks": [
+        "Heavy Industry / Foundry Civic Hall",
+        "Great Forge",
+        "Crucible Hall Nook"
+      ]
+    },
+    {
+      "districtNumber": 10,
+      "districtId": "D10",
+      "sectionNumber": 2,
+      "name": "D10 — Crucible Hall Nook Neighborhood Nook",
+      "civicPurpose": "This district turns Section 2's source-backed anchor set into a board-scale civic space: Heavy Industry / Foundry Civic Hall, Great Forge, Smoke-Stack Monument, Crucible Hall Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Orsakar.",
+      "visualIdentity": "Use Crucible Hall Nook as the main read. Keep exact source anchors visible where applicable: Heavy Industry / Foundry Civic Hall, Great Forge, Smoke-Stack Monument, Crucible Hall Nook. The district should share Orsakar's bear-like beastfolk identity, Blue Granite, Frost Glass, Pine, Silver Inlay, and Cliffside, Terraced Slope, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Intimate and lived-in, with Orsakar's larger mood shaped by Bearfolk Salmon-Stone Lodge of the Palefangs, Border Wall Beacon, and Bear Claw Marks Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Crucible Hall Nook",
+        "Heavy Industry / Foundry Civic Hall",
+        "Great Forge",
+        "Smoke-Stack Monument",
+        "Section 2 pedestrian-scale props",
+        "Orsakar civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Crucible Hall Nook",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Crucible Hall Nook",
+      "minorLandmarks": [
+        "Heavy Industry / Foundry Civic Hall",
+        "Great Forge",
+        "Smoke-Stack Monument"
+      ]
+    },
+    {
+      "districtNumber": 15,
+      "districtId": "D15",
+      "sectionNumber": 2,
+      "name": "D15 — Heavy Industry / Foundry Civic Hall Supporting Streets",
+      "civicPurpose": "This district turns Section 2's source-backed anchor set into a board-scale civic space: Heavy Industry / Foundry Civic Hall, Great Forge, Smoke-Stack Monument, Crucible Hall Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Orsakar.",
+      "visualIdentity": "Use Heavy Industry / Foundry Civic Hall as the main read. Keep exact source anchors visible where applicable: Heavy Industry / Foundry Civic Hall, Great Forge, Smoke-Stack Monument, Crucible Hall Nook. The district should share Orsakar's bear-like beastfolk identity, Blue Granite, Frost Glass, Pine, Silver Inlay, and Cliffside, Terraced Slope, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Connective and practical, with Orsakar's larger mood shaped by Bearfolk Salmon-Stone Lodge of the Palefangs, Border Wall Beacon, and Bear Claw Marks Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Heavy Industry / Foundry Civic Hall",
+        "Great Forge",
+        "Smoke-Stack Monument",
+        "Crucible Hall Nook",
+        "Section 2 pedestrian-scale props",
+        "Orsakar civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Heavy Industry / Foundry Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Heavy Industry / Foundry Civic Hall",
+      "minorLandmarks": [
+        "Great Forge",
+        "Smoke-Stack Monument",
+        "Crucible Hall Nook"
+      ]
+    },
+    {
+      "districtNumber": 8,
+      "districtId": "D08",
+      "sectionNumber": 3,
+      "name": "D08 — Military Command Hall Civic-Anchor Precinct",
+      "civicPurpose": "This district turns Section 3's source-backed anchor set into a board-scale civic space: Military Command Hall, Command Bastion, Woven Banners Monument, Standard Tower Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Orsakar.",
+      "visualIdentity": "Use Military Command Hall as the main read. Keep exact source anchors visible where applicable: Military Command Hall, Command Bastion, Woven Banners Monument, Standard Tower Nook. The district should share Orsakar's bear-like beastfolk identity, Blue Granite, Frost Glass, Pine, Silver Inlay, and Cliffside, Terraced Slope, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Locally grounded, with Orsakar's larger mood shaped by Bearfolk Salmon-Stone Lodge of the Palefangs, Border Wall Beacon, and Bear Claw Marks Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Military Command Hall",
+        "Command Bastion",
+        "Woven Banners Monument",
+        "Standard Tower Nook",
+        "Section 3 pedestrian-scale props",
+        "Orsakar civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Military Command Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Military Command Hall",
+      "minorLandmarks": [
+        "Command Bastion",
+        "Woven Banners Monument",
+        "Standard Tower Nook"
+      ]
+    },
+    {
+      "districtNumber": 12,
+      "districtId": "D12",
+      "sectionNumber": 3,
+      "name": "D12 — Command Bastion Landmark Approach",
+      "civicPurpose": "This district turns Section 3's source-backed anchor set into a board-scale civic space: Military Command Hall, Command Bastion, Woven Banners Monument, Standard Tower Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Orsakar.",
+      "visualIdentity": "Use Command Bastion as the main read. Keep exact source anchors visible where applicable: Military Command Hall, Command Bastion, Woven Banners Monument, Standard Tower Nook. The district should share Orsakar's bear-like beastfolk identity, Blue Granite, Frost Glass, Pine, Silver Inlay, and Cliffside, Terraced Slope, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Public-facing, with Orsakar's larger mood shaped by Bearfolk Salmon-Stone Lodge of the Palefangs, Border Wall Beacon, and Bear Claw Marks Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Command Bastion",
+        "Military Command Hall",
+        "Woven Banners Monument",
+        "Standard Tower Nook",
+        "Section 3 pedestrian-scale props",
+        "Orsakar civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Command Bastion",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Command Bastion",
+      "minorLandmarks": [
+        "Military Command Hall",
+        "Woven Banners Monument",
+        "Standard Tower Nook"
+      ]
+    },
+    {
+      "districtNumber": 13,
+      "districtId": "D13",
+      "sectionNumber": 3,
+      "name": "D13 — Bear Claw Marks Sovereign Registry Court Seat of Power District",
+      "civicPurpose": "This district turns Section 3's source-backed anchor set into a board-scale civic space: Military Command Hall, Command Bastion, Woven Banners Monument, Standard Tower Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Orsakar.",
+      "visualIdentity": "Use Bear Claw Marks Sovereign Registry Court as the main read. Keep exact source anchors visible where applicable: Military Command Hall, Command Bastion, Woven Banners Monument, Standard Tower Nook. The district should share Orsakar's bear-like beastfolk identity, Blue Granite, Frost Glass, Pine, Silver Inlay, and Cliffside, Terraced Slope, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Memorial or symbolic, with Orsakar's larger mood shaped by Bearfolk Salmon-Stone Lodge of the Palefangs, Border Wall Beacon, and Bear Claw Marks Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Bear Claw Marks Sovereign Registry Court",
+        "Military Command Hall",
+        "Command Bastion",
+        "Woven Banners Monument",
+        "Standard Tower Nook",
+        "Section 3 pedestrian-scale props",
+        "Orsakar civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Bear Claw Marks Sovereign Registry Court",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "Conjunction response, rumor spread, or authority pressure"
+      ],
+      "landmark": "Bear Claw Marks Sovereign Registry Court",
+      "minorLandmarks": [
+        "Military Command Hall",
+        "Command Bastion",
+        "Woven Banners Monument",
+        "Standard Tower Nook"
+      ]
+    },
+    {
+      "districtNumber": 14,
+      "districtId": "D14",
+      "sectionNumber": 3,
+      "name": "D14 — Standard Tower Nook Neighborhood Nook",
+      "civicPurpose": "This district turns Section 3's source-backed anchor set into a board-scale civic space: Military Command Hall, Command Bastion, Woven Banners Monument, Standard Tower Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Orsakar.",
+      "visualIdentity": "Use Standard Tower Nook as the main read. Keep exact source anchors visible where applicable: Military Command Hall, Command Bastion, Woven Banners Monument, Standard Tower Nook. The district should share Orsakar's bear-like beastfolk identity, Blue Granite, Frost Glass, Pine, Silver Inlay, and Cliffside, Terraced Slope, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Intimate and lived-in, with Orsakar's larger mood shaped by Bearfolk Salmon-Stone Lodge of the Palefangs, Border Wall Beacon, and Bear Claw Marks Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Standard Tower Nook",
+        "Military Command Hall",
+        "Command Bastion",
+        "Woven Banners Monument",
+        "Section 3 pedestrian-scale props",
+        "Orsakar civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Standard Tower Nook",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Standard Tower Nook",
+      "minorLandmarks": [
+        "Military Command Hall",
+        "Command Bastion",
+        "Woven Banners Monument"
+      ]
+    },
+    {
+      "districtNumber": 18,
+      "districtId": "D18",
+      "sectionNumber": 3,
+      "name": "D18 — Military Command Hall Supporting Streets",
+      "civicPurpose": "This district turns Section 3's source-backed anchor set into a board-scale civic space: Military Command Hall, Command Bastion, Woven Banners Monument, Standard Tower Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Orsakar.",
+      "visualIdentity": "Use Military Command Hall as the main read. Keep exact source anchors visible where applicable: Military Command Hall, Command Bastion, Woven Banners Monument, Standard Tower Nook. The district should share Orsakar's bear-like beastfolk identity, Blue Granite, Frost Glass, Pine, Silver Inlay, and Cliffside, Terraced Slope, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Connective and practical, with Orsakar's larger mood shaped by Bearfolk Salmon-Stone Lodge of the Palefangs, Border Wall Beacon, and Bear Claw Marks Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Military Command Hall",
+        "Command Bastion",
+        "Woven Banners Monument",
+        "Standard Tower Nook",
+        "Section 3 pedestrian-scale props",
+        "Orsakar civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Military Command Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Military Command Hall",
+      "minorLandmarks": [
+        "Command Bastion",
+        "Woven Banners Monument",
+        "Standard Tower Nook"
+      ]
+    },
+    {
+      "districtNumber": 11,
+      "districtId": "D11",
+      "sectionNumber": 4,
+      "name": "D11 — Transit / Caravan / Rail Civic Hall Civic-Anchor Precinct",
+      "civicPurpose": "This district turns Section 4's source-backed anchor set into a board-scale civic space: Transit / Caravan / Rail Civic Hall, Caravanserai, Woven Banners Monument, Waystation Hall Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Orsakar.",
+      "visualIdentity": "Use Transit / Caravan / Rail Civic Hall as the main read. Keep exact source anchors visible where applicable: Transit / Caravan / Rail Civic Hall, Caravanserai, Woven Banners Monument, Waystation Hall Nook. The district should share Orsakar's bear-like beastfolk identity, Blue Granite, Frost Glass, Pine, Silver Inlay, and Cliffside, Terraced Slope, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Locally grounded, with Orsakar's larger mood shaped by Bearfolk Salmon-Stone Lodge of the Palefangs, Border Wall Beacon, and Bear Claw Marks Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Transit / Caravan / Rail Civic Hall",
+        "Caravanserai",
+        "Woven Banners Monument",
+        "Waystation Hall Nook",
+        "Section 4 pedestrian-scale props",
+        "Orsakar civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Transit / Caravan / Rail Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Transit / Caravan / Rail Civic Hall",
+      "minorLandmarks": [
+        "Caravanserai",
+        "Woven Banners Monument",
+        "Waystation Hall Nook"
+      ]
+    },
+    {
+      "districtNumber": 16,
+      "districtId": "D16",
+      "sectionNumber": 4,
+      "name": "D16 — Caravanserai Landmark Approach",
+      "civicPurpose": "This district turns Section 4's source-backed anchor set into a board-scale civic space: Transit / Caravan / Rail Civic Hall, Caravanserai, Woven Banners Monument, Waystation Hall Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Orsakar.",
+      "visualIdentity": "Use Caravanserai as the main read. Keep exact source anchors visible where applicable: Transit / Caravan / Rail Civic Hall, Caravanserai, Woven Banners Monument, Waystation Hall Nook. The district should share Orsakar's bear-like beastfolk identity, Blue Granite, Frost Glass, Pine, Silver Inlay, and Cliffside, Terraced Slope, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Public-facing, with Orsakar's larger mood shaped by Bearfolk Salmon-Stone Lodge of the Palefangs, Border Wall Beacon, and Bear Claw Marks Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Caravanserai",
+        "Transit / Caravan / Rail Civic Hall",
+        "Woven Banners Monument",
+        "Waystation Hall Nook",
+        "Section 4 pedestrian-scale props",
+        "Orsakar civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Caravanserai",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Caravanserai",
+      "minorLandmarks": [
+        "Transit / Caravan / Rail Civic Hall",
+        "Woven Banners Monument",
+        "Waystation Hall Nook"
+      ]
+    },
+    {
+      "districtNumber": 17,
+      "districtId": "D17",
+      "sectionNumber": 4,
+      "name": "D17 — Woven Banners Monument Monument Frontage",
+      "civicPurpose": "This district turns Section 4's source-backed anchor set into a board-scale civic space: Transit / Caravan / Rail Civic Hall, Caravanserai, Woven Banners Monument, Waystation Hall Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Orsakar.",
+      "visualIdentity": "Use Woven Banners Monument as the main read. Keep exact source anchors visible where applicable: Transit / Caravan / Rail Civic Hall, Caravanserai, Woven Banners Monument, Waystation Hall Nook. The district should share Orsakar's bear-like beastfolk identity, Blue Granite, Frost Glass, Pine, Silver Inlay, and Cliffside, Terraced Slope, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Memorial or symbolic, with Orsakar's larger mood shaped by Bearfolk Salmon-Stone Lodge of the Palefangs, Border Wall Beacon, and Bear Claw Marks Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Woven Banners Monument",
+        "Transit / Caravan / Rail Civic Hall",
+        "Caravanserai",
+        "Waystation Hall Nook",
+        "Section 4 pedestrian-scale props",
+        "Orsakar civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Woven Banners Monument",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Woven Banners Monument",
+      "minorLandmarks": [
+        "Transit / Caravan / Rail Civic Hall",
+        "Caravanserai",
+        "Waystation Hall Nook"
+      ]
+    },
+    {
+      "districtNumber": 21,
+      "districtId": "D21",
+      "sectionNumber": 4,
+      "name": "D21 — Waystation Hall Nook Neighborhood Nook",
+      "civicPurpose": "This district turns Section 4's source-backed anchor set into a board-scale civic space: Transit / Caravan / Rail Civic Hall, Caravanserai, Woven Banners Monument, Waystation Hall Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Orsakar.",
+      "visualIdentity": "Use Waystation Hall Nook as the main read. Keep exact source anchors visible where applicable: Transit / Caravan / Rail Civic Hall, Caravanserai, Woven Banners Monument, Waystation Hall Nook. The district should share Orsakar's bear-like beastfolk identity, Blue Granite, Frost Glass, Pine, Silver Inlay, and Cliffside, Terraced Slope, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Intimate and lived-in, with Orsakar's larger mood shaped by Bearfolk Salmon-Stone Lodge of the Palefangs, Border Wall Beacon, and Bear Claw Marks Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Waystation Hall Nook",
+        "Transit / Caravan / Rail Civic Hall",
+        "Caravanserai",
+        "Woven Banners Monument",
+        "Section 4 pedestrian-scale props",
+        "Orsakar civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Waystation Hall Nook",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Waystation Hall Nook",
+      "minorLandmarks": [
+        "Transit / Caravan / Rail Civic Hall",
+        "Caravanserai",
+        "Woven Banners Monument"
+      ]
+    },
+    {
+      "districtNumber": 22,
+      "districtId": "D22",
+      "sectionNumber": 4,
+      "name": "D22 — Transit / Caravan / Rail Civic Hall Supporting Streets",
+      "civicPurpose": "This district turns Section 4's source-backed anchor set into a board-scale civic space: Transit / Caravan / Rail Civic Hall, Caravanserai, Woven Banners Monument, Waystation Hall Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Orsakar.",
+      "visualIdentity": "Use Transit / Caravan / Rail Civic Hall as the main read. Keep exact source anchors visible where applicable: Transit / Caravan / Rail Civic Hall, Caravanserai, Woven Banners Monument, Waystation Hall Nook. The district should share Orsakar's bear-like beastfolk identity, Blue Granite, Frost Glass, Pine, Silver Inlay, and Cliffside, Terraced Slope, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Connective and practical, with Orsakar's larger mood shaped by Bearfolk Salmon-Stone Lodge of the Palefangs, Border Wall Beacon, and Bear Claw Marks Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Transit / Caravan / Rail Civic Hall",
+        "Caravanserai",
+        "Woven Banners Monument",
+        "Waystation Hall Nook",
+        "Section 4 pedestrian-scale props",
+        "Orsakar civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Transit / Caravan / Rail Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Transit / Caravan / Rail Civic Hall",
+      "minorLandmarks": [
+        "Caravanserai",
+        "Woven Banners Monument",
+        "Waystation Hall Nook"
+      ]
+    },
+    {
+      "districtNumber": 19,
+      "districtId": "D19",
+      "sectionNumber": 5,
+      "name": "D19 — Prison / Containment Civic Hall Civic-Anchor Precinct",
+      "civicPurpose": "This district turns Section 5's source-backed anchor set into a board-scale civic space: Prison / Containment Civic Hall, Containment Keep, Mist Veils Monument, Judgment Yard Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Orsakar.",
+      "visualIdentity": "Use Prison / Containment Civic Hall as the main read. Keep exact source anchors visible where applicable: Prison / Containment Civic Hall, Containment Keep, Mist Veils Monument, Judgment Yard Nook. The district should share Orsakar's bear-like beastfolk identity, Blue Granite, Frost Glass, Pine, Silver Inlay, and Cliffside, Terraced Slope, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Locally grounded, with Orsakar's larger mood shaped by Bearfolk Salmon-Stone Lodge of the Palefangs, Border Wall Beacon, and Bear Claw Marks Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Prison / Containment Civic Hall",
+        "Containment Keep",
+        "Mist Veils Monument",
+        "Judgment Yard Nook",
+        "Section 5 pedestrian-scale props",
+        "Orsakar civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Prison / Containment Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Prison / Containment Civic Hall",
+      "minorLandmarks": [
+        "Containment Keep",
+        "Mist Veils Monument",
+        "Judgment Yard Nook"
+      ]
+    },
+    {
+      "districtNumber": 20,
+      "districtId": "D20",
+      "sectionNumber": 5,
+      "name": "D20 — Containment Keep Landmark Approach",
+      "civicPurpose": "This district turns Section 5's source-backed anchor set into a board-scale civic space: Prison / Containment Civic Hall, Containment Keep, Mist Veils Monument, Judgment Yard Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Orsakar.",
+      "visualIdentity": "Use Containment Keep as the main read. Keep exact source anchors visible where applicable: Prison / Containment Civic Hall, Containment Keep, Mist Veils Monument, Judgment Yard Nook. The district should share Orsakar's bear-like beastfolk identity, Blue Granite, Frost Glass, Pine, Silver Inlay, and Cliffside, Terraced Slope, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Public-facing, with Orsakar's larger mood shaped by Bearfolk Salmon-Stone Lodge of the Palefangs, Border Wall Beacon, and Bear Claw Marks Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Containment Keep",
+        "Prison / Containment Civic Hall",
+        "Mist Veils Monument",
+        "Judgment Yard Nook",
+        "Section 5 pedestrian-scale props",
+        "Orsakar civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Containment Keep",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Containment Keep",
+      "minorLandmarks": [
+        "Prison / Containment Civic Hall",
+        "Mist Veils Monument",
+        "Judgment Yard Nook"
+      ]
+    },
+    {
+      "districtNumber": 23,
+      "districtId": "D23",
+      "sectionNumber": 5,
+      "name": "D23 — Mist Veils Monument Monument Frontage",
+      "civicPurpose": "This district turns Section 5's source-backed anchor set into a board-scale civic space: Prison / Containment Civic Hall, Containment Keep, Mist Veils Monument, Judgment Yard Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Orsakar.",
+      "visualIdentity": "Use Mist Veils Monument as the main read. Keep exact source anchors visible where applicable: Prison / Containment Civic Hall, Containment Keep, Mist Veils Monument, Judgment Yard Nook. The district should share Orsakar's bear-like beastfolk identity, Blue Granite, Frost Glass, Pine, Silver Inlay, and Cliffside, Terraced Slope, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Memorial or symbolic, with Orsakar's larger mood shaped by Bearfolk Salmon-Stone Lodge of the Palefangs, Border Wall Beacon, and Bear Claw Marks Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Mist Veils Monument",
+        "Prison / Containment Civic Hall",
+        "Containment Keep",
+        "Judgment Yard Nook",
+        "Section 5 pedestrian-scale props",
+        "Orsakar civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Mist Veils Monument",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Mist Veils Monument",
+      "minorLandmarks": [
+        "Prison / Containment Civic Hall",
+        "Containment Keep",
+        "Judgment Yard Nook"
+      ]
+    },
+    {
+      "districtNumber": 24,
+      "districtId": "D24",
+      "sectionNumber": 5,
+      "name": "D24 — Judgment Yard Nook Neighborhood Nook",
+      "civicPurpose": "This district turns Section 5's source-backed anchor set into a board-scale civic space: Prison / Containment Civic Hall, Containment Keep, Mist Veils Monument, Judgment Yard Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Orsakar.",
+      "visualIdentity": "Use Judgment Yard Nook as the main read. Keep exact source anchors visible where applicable: Prison / Containment Civic Hall, Containment Keep, Mist Veils Monument, Judgment Yard Nook. The district should share Orsakar's bear-like beastfolk identity, Blue Granite, Frost Glass, Pine, Silver Inlay, and Cliffside, Terraced Slope, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Intimate and lived-in, with Orsakar's larger mood shaped by Bearfolk Salmon-Stone Lodge of the Palefangs, Border Wall Beacon, and Bear Claw Marks Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Judgment Yard Nook",
+        "Prison / Containment Civic Hall",
+        "Containment Keep",
+        "Mist Veils Monument",
+        "Section 5 pedestrian-scale props",
+        "Orsakar civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Judgment Yard Nook",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Judgment Yard Nook",
+      "minorLandmarks": [
+        "Prison / Containment Civic Hall",
+        "Containment Keep",
+        "Mist Veils Monument"
+      ]
+    },
+    {
+      "districtNumber": 25,
+      "districtId": "D25",
+      "sectionNumber": 5,
+      "name": "D25 — Prison / Containment Civic Hall Supporting Streets",
+      "civicPurpose": "This district turns Section 5's source-backed anchor set into a board-scale civic space: Prison / Containment Civic Hall, Containment Keep, Mist Veils Monument, Judgment Yard Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Orsakar.",
+      "visualIdentity": "Use Prison / Containment Civic Hall as the main read. Keep exact source anchors visible where applicable: Prison / Containment Civic Hall, Containment Keep, Mist Veils Monument, Judgment Yard Nook. The district should share Orsakar's bear-like beastfolk identity, Blue Granite, Frost Glass, Pine, Silver Inlay, and Cliffside, Terraced Slope, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Connective and practical, with Orsakar's larger mood shaped by Bearfolk Salmon-Stone Lodge of the Palefangs, Border Wall Beacon, and Bear Claw Marks Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Prison / Containment Civic Hall",
+        "Containment Keep",
+        "Mist Veils Monument",
+        "Judgment Yard Nook",
+        "Section 5 pedestrian-scale props",
+        "Orsakar civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Prison / Containment Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Prison / Containment Civic Hall",
+      "minorLandmarks": [
+        "Containment Keep",
+        "Mist Veils Monument",
+        "Judgment Yard Nook"
+      ]
+    }
   ],
   "landmarks": {
-    "wonder": {"name": "Bearfolk Salmon-Stone Lodge of the Palefangs", "symbolicRole": "Bearfolk ancestral strength made civic shelter.", "visualRole": "Wonder-scale lodge in blue granite, frost glass, pine, and silver inlay above the mountain city.", "civicRole": "Citywide site for oath, ancestor rite, seasonal gathering, and public identity.", "narrativeUse": ["ancestor ceremony", "public oath", "citywide shelter"], "assetUse": ["map wonder", "skyline anchor"], "sensoryIdentity": ["cold stone", "pine smoke", "silver light", "crowd breath"], "storyHooks": ["A palefang rite decides whether strength protects or possesses." ]},
-    "beacon": {"name": "Border Wall Beacon", "symbolicRole": "Signal at the defended threshold.", "visualRole": "Blue-lit warning landmark integrated with wall, banners, and watch bastions.", "civicRole": "Coordinates watch, forge, command, caravan, and containment response.", "narrativeUse": ["Beacon alarm", "gate closure", "watch muster"], "assetUse": ["S1 centerpiece", "signal marker"], "sensoryIdentity": ["blue light", "cold wind", "horns"], "storyHooks": ["A Beacon change makes every road and gate answer at once." ]},
-    "seatOfPower": {"name": "Bear Claw Marks Sovereign Registry Court", "symbolicRole": "Strength, record, and ancestor mark made government.", "visualRole": "Central registry court with bear-claw marks, terraces, archives, command platforms, and silver-inlaid stone.", "civicRole": "Handles rulings, road rights, custody, command obligations, and public records.", "narrativeUse": ["registry ruling", "road right", "containment judgment"], "assetUse": ["seat-of-power marker"], "sensoryIdentity": ["stone echo", "ink", "silver marks"], "storyHooks": ["A claw mark in the registry assigns a duty nobody can lift alone." ]},
+    "wonder": {
+      "name": "Bearfolk Salmon-Stone Lodge of the Palefangs",
+      "symbolicRole": "Bearfolk Salmon-Stone Lodge of the Palefangs concentrates Orsakar's local symbolism into a usable civic landmark: city wonder, separate far skyline anchor.",
+      "visualRole": "A one-per-city wonder: spectacular, unmistakable, and larger than every section landmark. It turns Orsakar's geography, race identity, material culture, and civic magic into one public symbol. Built for Orsakar's bear-like beastfolk population, it uses Blue Granite, Frost Glass, Pine, Silver Inlay, Arcane Glow across Cliffside, Terraced Slope, Civic Terraces; water context: dry city ground; magic expression: Beast Bonding, Ancestor Guidance, Weather Binding. It must read clearly as a high-fantasy tactical-board asset with no baked labels or text.",
+      "civicRole": "Serves as city wonder, separate far skyline anchor within Orsakar; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+      "narrativeUse": [
+        "stage scenes involving Bearfolk Salmon-Stone Lodge of the Palefangs",
+        "show how Orsakar turns landmark symbolism into civic pressure",
+        "anchor public movement and crowd behavior",
+        "give writers a concrete place for announcements, disputes, errands, or rituals"
+      ],
+      "assetUse": [
+        "city landmark asset",
+        "map background landmark marker",
+        "visual continuity anchor across hero and street scenes",
+        "scale reference for civilians, roads, plazas, and props"
+      ],
+      "sensoryIdentity": [
+        "local foot traffic",
+        "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+        "public voices and civic work nearby",
+        "ambient city light and weathering",
+        "close pedestrian-scale details rather than abstract skyline-only treatment"
+      ],
+      "storyHooks": [
+        "a routine civic action at Bearfolk Salmon-Stone Lodge of the Palefangs becomes narratively important",
+        "the visible condition of Bearfolk Salmon-Stone Lodge of the Palefangs signals political or social stress",
+        "someone uses Bearfolk Salmon-Stone Lodge of the Palefangs's public function to redirect crowds or information",
+        "an overlooked detail at Bearfolk Salmon-Stone Lodge of the Palefangs reveals how Orsakar really works"
+      ]
+    },
+    "beacon": {
+      "name": "Border Wall Beacon",
+      "symbolicRole": "Border Wall Beacon concentrates Orsakar's local symbolism into a usable civic landmark: Section 1 beacon, near/front civic signal anchor.",
+      "visualRole": "A largest local landmark in this section, subordinate only to the city wonder and citadel. It belongs to Section 1 (Fortress / Border Wall) of Orsakar and should use Obsidian Fortresses, Cyclopean Megaliths, White Limestone Civic Blocks, blue granite and silver inlay materials, Woven Banners, Carved Totems, Civic Blue Glow, and the bear-like beastfolk visual language. Design focus: guard posts, largest section focal point, strong vertical silhouette, distinct gameplay landmark, visible from nearby districts. Terrain/water context: Taiga Edge; Dry Ground. Magic expression: Beast Bonding, Ancestor Guidance, Weather Binding. No baked labels or text. Single city beacon fixed to section 1; visible civic signal apparatus, strong vertical silhouette, and public approach space.",
+      "civicRole": "Serves as Section 1 beacon, near/front civic signal anchor within Orsakar; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+      "narrativeUse": [
+        "stage scenes involving Border Wall Beacon",
+        "show how Orsakar turns landmark symbolism into civic pressure",
+        "anchor public movement and crowd behavior",
+        "give writers a concrete place for announcements, disputes, errands, or rituals"
+      ],
+      "assetUse": [
+        "district diorama anchor for Section 1",
+        "map background landmark marker",
+        "visual continuity anchor across hero and street scenes",
+        "scale reference for civilians, roads, plazas, and props"
+      ],
+      "sensoryIdentity": [
+        "local foot traffic",
+        "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+        "public voices and civic work nearby",
+        "beacon or lamp glow when applicable",
+        "close pedestrian-scale details rather than abstract skyline-only treatment"
+      ],
+      "storyHooks": [
+        "a routine civic action at Border Wall Beacon becomes narratively important",
+        "the visible condition of Border Wall Beacon signals political or social stress",
+        "someone uses Border Wall Beacon's public function to redirect crowds or information",
+        "an overlooked detail at Border Wall Beacon reveals how Orsakar really works"
+      ]
+    },
+    "seatOfPower": {
+      "name": "Bear Claw Marks Sovereign Registry Court",
+      "symbolicRole": "Bear Claw Marks Sovereign Registry Court concentrates Orsakar's local symbolism into a usable civic landmark: dominant central civic anchor / District 13 seat of power.",
+      "visualRole": "The district-13 seat of power: courts, audience terraces, sealed archives, command platforms, and the visible apparatus of government. It is not a faction HQ; it is the city's central civic authority. Built for Orsakar's bear-like beastfolk population, it uses Blue Granite, Frost Glass, Pine, Silver Inlay, Arcane Glow across Cliffside, Terraced Slope, Civic Terraces; water context: dry city ground; magic expression: Beast Bonding, Ancestor Guidance, Weather Binding. It must read clearly as a high-fantasy tactical-board asset with no baked labels or text.",
+      "civicRole": "Serves as dominant central civic anchor / District 13 seat of power within Orsakar; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+      "narrativeUse": [
+        "stage scenes involving Bear Claw Marks Sovereign Registry Court",
+        "show how Orsakar turns landmark symbolism into civic pressure",
+        "anchor public movement and crowd behavior",
+        "give writers a concrete place for announcements, disputes, errands, or rituals"
+      ],
+      "assetUse": [
+        "city landmark asset",
+        "map background landmark marker",
+        "visual continuity anchor across hero and street scenes",
+        "scale reference for civilians, roads, plazas, and props"
+      ],
+      "sensoryIdentity": [
+        "local foot traffic",
+        "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+        "public voices and civic work nearby",
+        "ambient city light and weathering",
+        "close pedestrian-scale details rather than abstract skyline-only treatment"
+      ],
+      "storyHooks": [
+        "a routine civic action at Bear Claw Marks Sovereign Registry Court becomes narratively important",
+        "the visible condition of Bear Claw Marks Sovereign Registry Court signals political or social stress",
+        "someone uses Bear Claw Marks Sovereign Registry Court's public function to redirect crowds or information",
+        "an overlooked detail at Bear Claw Marks Sovereign Registry Court reveals how Orsakar really works"
+      ]
+    },
     "majorLandmarks": [
-      {"name": "Great Forge", "symbolicRole": "Strength made useful.", "visualRole": "Forge halls, smoke stacks, crucible court, and blue granite yards.", "civicRole": "Toolmaking and industrial support.", "narrativeUse": ["forge labor", "repair crisis"], "assetUse": ["S2 diorama"], "sensoryIdentity": ["heat", "hammering", "smoke"], "storyHooks": ["A forge delay threatens the wall." ]},
-      {"name": "Command Bastion", "symbolicRole": "Rank made visible.", "visualRole": "Bastion with standards, banners, and command platforms.", "civicRole": "Orders, musters, and defense planning.", "narrativeUse": ["orders", "rank conflict"], "assetUse": ["S3 diorama"], "sensoryIdentity": ["banners", "boots", "horns"], "storyHooks": ["A standard rises before the road is safe." ]},
-      {"name": "Caravanserai", "symbolicRole": "Road and guest right under watch.", "visualRole": "Waystation, banners, caravan yards, and gate roads.", "civicRole": "Travel, trade, lodging, and route law.", "narrativeUse": ["arrival", "route dispute"], "assetUse": ["S4 diorama"], "sensoryIdentity": ["leather", "snow dust", "tea"], "storyHooks": ["A caravan guest record changes who Orsakar must protect." ]},
-      {"name": "Containment Keep", "symbolicRole": "Danger held inside law.", "visualRole": "Warded keep with mist veils, judgment yard, bells, and cell blocks.", "civicRole": "Custody and containment ethics.", "narrativeUse": ["custody", "judgment"], "assetUse": ["S5 diorama"], "sensoryIdentity": ["cold stone", "ward hum", "bells"], "storyHooks": ["A judgment yard record proves containment was mercy once." ]}
+      {
+        "name": "Containment Keep",
+        "symbolicRole": "Containment Keep concentrates Orsakar's local symbolism into a usable civic landmark: additional major landmark selected for this hero-view camera angle.",
+        "visualRole": "A largest local landmark in this section, subordinate only to the city wonder and citadel. It belongs to Section 5 (Prison / Containment) of Orsakar and should use Subterranean Vaults, Cyclopean Megaliths, Obsidian Fortresses, blue granite and silver inlay materials, Mist Veils, Bone White Ceremony, Civic Blue Glow, and the bear-like beastfolk visual language. Design focus: locks, warning bells, ward sigils, cell blocks, warded yards. Terrain/water context: Taiga Edge; Dry Ground. Magic expression: Beast Bonding, Ancestor Guidance, Weather Binding. No baked labels or text.",
+        "civicRole": "Serves as additional major landmark selected for this hero-view camera angle within Orsakar; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Containment Keep",
+          "show how Orsakar turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 5",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Containment Keep becomes narratively important",
+          "the visible condition of Containment Keep signals political or social stress",
+          "someone uses Containment Keep's public function to redirect crowds or information",
+          "an overlooked detail at Containment Keep reveals how Orsakar really works"
+        ]
+      },
+      {
+        "name": "Great Forge",
+        "symbolicRole": "Great Forge concentrates Orsakar's local symbolism into a usable civic landmark: additional major landmark selected for this hero-view camera angle.",
+        "visualRole": "A largest local landmark in this section, subordinate only to the city wonder and citadel. It belongs to Section 2 (Heavy Industry / Foundry) of Orsakar and should use Subterranean Vaults, Forge Halls, Obsidian Fortresses, blue granite and silver inlay materials, Forge Smoke Columns, Red Fabric Awnings, Civic Blue Glow, and the bear-like beastfolk visual language. Design focus: foundry sheds, furnace towers, slag yards, ore yards, largest section focal point. Terrain/water context: Taiga Edge; Dry Ground. Magic expression: Beast Bonding, Ancestor Guidance, Weather Binding. No baked labels or text.",
+        "civicRole": "Serves as additional major landmark selected for this hero-view camera angle within Orsakar; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Great Forge",
+          "show how Orsakar turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 2",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Great Forge becomes narratively important",
+          "the visible condition of Great Forge signals political or social stress",
+          "someone uses Great Forge's public function to redirect crowds or information",
+          "an overlooked detail at Great Forge reveals how Orsakar really works"
+        ]
+      },
+      {
+        "name": "Caravanserai",
+        "symbolicRole": "Caravanserai concentrates Orsakar's local symbolism into a usable civic landmark: additional major landmark selected for this hero-view camera angle.",
+        "visualRole": "A largest local landmark in this section, subordinate only to the city wonder and citadel. It belongs to Section 4 (Transit / Caravan / Rail) of Orsakar and should use Market Arcades, White Limestone Civic Blocks, Timber Longhouses, blue granite and silver inlay materials, Red Fabric Awnings, Lantern Lit, Woven Banners, and the bear-like beastfolk visual language. Design focus: depots, caravan yards, stable courts, ticket booths, largest section focal point. Terrain/water context: Taiga Edge; Dry Ground. Magic expression: Beast Bonding, Ancestor Guidance, Weather Binding. No baked labels or text.",
+        "civicRole": "Serves as additional major landmark selected for this hero-view camera angle within Orsakar; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Caravanserai",
+          "show how Orsakar turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 4",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Caravanserai becomes narratively important",
+          "the visible condition of Caravanserai signals political or social stress",
+          "someone uses Caravanserai's public function to redirect crowds or information",
+          "an overlooked detail at Caravanserai reveals how Orsakar really works"
+        ]
+      },
+      {
+        "name": "Fortress / Border Wall Civic Hall",
+        "symbolicRole": "Fortress / Border Wall Civic Hall concentrates Orsakar's local symbolism into a usable civic landmark: Section 1 local anchor.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing. It belongs to Section 1 (Fortress / Border Wall) of Orsakar and should use Obsidian Fortresses, Cyclopean Megaliths, White Limestone Civic Blocks, blue granite and silver inlay materials, Woven Banners, Carved Totems, Civic Blue Glow, and the bear-like beastfolk visual language. Design focus: curtain walls, gatehouses, bastions, guard posts, institutional anchor. Terrain/water context: Taiga Edge; Dry Ground. Magic expression: Beast Bonding, Ancestor Guidance, Weather Binding. No baked labels or text.",
+        "civicRole": "Serves as Section 1 local anchor within Orsakar; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Fortress / Border Wall Civic Hall",
+          "show how Orsakar turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 1",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Fortress / Border Wall Civic Hall becomes narratively important",
+          "the visible condition of Fortress / Border Wall Civic Hall signals political or social stress",
+          "someone uses Fortress / Border Wall Civic Hall's public function to redirect crowds or information",
+          "an overlooked detail at Fortress / Border Wall Civic Hall reveals how Orsakar really works"
+        ]
+      },
+      {
+        "name": "Woven Banners Monument",
+        "symbolicRole": "Woven Banners Monument concentrates Orsakar's local symbolism into a usable civic landmark: Section 1 local anchor.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles. It belongs to Section 1 (Fortress / Border Wall) of Orsakar and should use Cyclopean Megaliths, White Limestone Civic Blocks, Obsidian Fortresses, blue granite and silver inlay materials, Carved Totems, Civic Blue Glow, Woven Banners, and the bear-like beastfolk visual language. Design focus: shield marks, signal fires, curtain walls, gatehouses, bastions. Terrain/water context: Taiga Edge; Dry Ground. Magic expression: Beast Bonding, Ancestor Guidance, Weather Binding. No baked labels or text.",
+        "civicRole": "Serves as Section 1 local anchor within Orsakar; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Woven Banners Monument",
+          "show how Orsakar turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 1",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Woven Banners Monument becomes narratively important",
+          "the visible condition of Woven Banners Monument signals political or social stress",
+          "someone uses Woven Banners Monument's public function to redirect crowds or information",
+          "an overlooked detail at Woven Banners Monument reveals how Orsakar really works"
+        ]
+      },
+      {
+        "name": "Watch Bastion Nook",
+        "symbolicRole": "Watch Bastion Nook concentrates Orsakar's local symbolism into a usable civic landmark: Section 1 local anchor.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette. It belongs to Section 1 (Fortress / Border Wall) of Orsakar and should use White Limestone Civic Blocks, Obsidian Fortresses, Cyclopean Megaliths, blue granite and silver inlay materials, Woven Banners, Carved Totems, Civic Blue Glow, and the bear-like beastfolk visual language. Design focus: bastions, guard posts, small local identity prop, street-level detail, usable board landmark. Terrain/water context: Taiga Edge; Dry Ground. Magic expression: Beast Bonding, Ancestor Guidance, Weather Binding. No baked labels or text.",
+        "civicRole": "Serves as Section 1 local anchor within Orsakar; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Watch Bastion Nook",
+          "show how Orsakar turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 1",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Watch Bastion Nook becomes narratively important",
+          "the visible condition of Watch Bastion Nook signals political or social stress",
+          "someone uses Watch Bastion Nook's public function to redirect crowds or information",
+          "an overlooked detail at Watch Bastion Nook reveals how Orsakar really works"
+        ]
+      },
+      {
+        "name": "Heavy Industry / Foundry Civic Hall",
+        "symbolicRole": "Heavy Industry / Foundry Civic Hall concentrates Orsakar's local symbolism into a usable civic landmark: Section 2 local anchor.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing. It belongs to Section 2 (Heavy Industry / Foundry) of Orsakar and should use Forge Halls, Obsidian Fortresses, Subterranean Vaults, blue granite and silver inlay materials, Civic Blue Glow, Forge Smoke Columns, Red Fabric Awnings, and the bear-like beastfolk visual language. Design focus: foundry sheds, furnace towers, slag yards, ore yards, institutional anchor. Terrain/water context: Taiga Edge; Dry Ground. Magic expression: Beast Bonding, Ancestor Guidance, Weather Binding. No baked labels or text.",
+        "civicRole": "Serves as Section 2 local anchor within Orsakar; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Heavy Industry / Foundry Civic Hall",
+          "show how Orsakar turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 2",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Heavy Industry / Foundry Civic Hall becomes narratively important",
+          "the visible condition of Heavy Industry / Foundry Civic Hall signals political or social stress",
+          "someone uses Heavy Industry / Foundry Civic Hall's public function to redirect crowds or information",
+          "an overlooked detail at Heavy Industry / Foundry Civic Hall reveals how Orsakar really works"
+        ]
+      },
+      {
+        "name": "Smoke-Stack Monument",
+        "symbolicRole": "Smoke-Stack Monument concentrates Orsakar's local symbolism into a usable civic landmark: Section 2 local anchor.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles. It belongs to Section 2 (Heavy Industry / Foundry) of Orsakar and should use Obsidian Fortresses, Subterranean Vaults, Forge Halls, blue granite and silver inlay materials, Red Fabric Awnings, Civic Blue Glow, Forge Smoke Columns, and the bear-like beastfolk visual language. Design focus: slag yards, ore yards, symbolic civic object, small ceremonial site, local memory marker. Terrain/water context: Taiga Edge; Dry Ground. Magic expression: Beast Bonding, Ancestor Guidance, Weather Binding. No baked labels or text.",
+        "civicRole": "Serves as Section 2 local anchor within Orsakar; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Smoke-Stack Monument",
+          "show how Orsakar turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 2",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Smoke-Stack Monument becomes narratively important",
+          "the visible condition of Smoke-Stack Monument signals political or social stress",
+          "someone uses Smoke-Stack Monument's public function to redirect crowds or information",
+          "an overlooked detail at Smoke-Stack Monument reveals how Orsakar really works"
+        ]
+      },
+      {
+        "name": "Crucible Hall Nook",
+        "symbolicRole": "Crucible Hall Nook concentrates Orsakar's local symbolism into a usable civic landmark: Section 2 local anchor.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette. It belongs to Section 2 (Heavy Industry / Foundry) of Orsakar and should use Obsidian Fortresses, Subterranean Vaults, Forge Halls, blue granite and silver inlay materials, Red Fabric Awnings, Civic Blue Glow, Forge Smoke Columns, and the bear-like beastfolk visual language. Design focus: furnace towers, slag yards, ore yards, small local identity prop, street-level detail. Terrain/water context: Taiga Edge; Dry Ground. Magic expression: Beast Bonding, Ancestor Guidance, Weather Binding. No baked labels or text.",
+        "civicRole": "Serves as Section 2 local anchor within Orsakar; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Crucible Hall Nook",
+          "show how Orsakar turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 2",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Crucible Hall Nook becomes narratively important",
+          "the visible condition of Crucible Hall Nook signals political or social stress",
+          "someone uses Crucible Hall Nook's public function to redirect crowds or information",
+          "an overlooked detail at Crucible Hall Nook reveals how Orsakar really works"
+        ]
+      },
+      {
+        "name": "Military Command Hall",
+        "symbolicRole": "Military Command Hall concentrates Orsakar's local symbolism into a usable civic landmark: Section 3 local anchor.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing. It belongs to Section 3 (Military Command) of Orsakar and should use White Limestone Civic Blocks, Forge Halls, Obsidian Fortresses, blue granite and silver inlay materials, Civic Blue Glow, Forge Smoke Columns, Woven Banners, and the bear-like beastfolk visual language. Design focus: standards, shields, wardrums, rank banners, barracks blocks. Terrain/water context: Taiga Edge; Dry Ground. Magic expression: Beast Bonding, Ancestor Guidance, Weather Binding. No baked labels or text.",
+        "civicRole": "Serves as Section 3 local anchor within Orsakar; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Military Command Hall",
+          "show how Orsakar turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 3",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Military Command Hall becomes narratively important",
+          "the visible condition of Military Command Hall signals political or social stress",
+          "someone uses Military Command Hall's public function to redirect crowds or information",
+          "an overlooked detail at Military Command Hall reveals how Orsakar really works"
+        ]
+      },
+      {
+        "name": "Command Bastion",
+        "symbolicRole": "Command Bastion concentrates Orsakar's local symbolism into a usable civic landmark: Section 3 local anchor.",
+        "visualRole": "A mandatory Section 3 Beacon: a culturally adapted civic signal flame / warning-light landmark visible across the city spine. It belongs to Section 3 (Military Command) of Orsakar and should use Forge Halls, Obsidian Fortresses, White Limestone Civic Blocks, blue granite and silver inlay materials, Forge Smoke Columns, Woven Banners, Civic Blue Glow, and the bear-like beastfolk visual language. Design focus: shields, wardrums, rank banners, barracks blocks, command keeps. Terrain/water context: Taiga Edge; Dry Ground. Magic expression: Beast Bonding, Ancestor Guidance, Weather Binding. No baked labels or text.",
+        "civicRole": "Serves as Section 3 local anchor within Orsakar; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Command Bastion",
+          "show how Orsakar turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 3",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Command Bastion becomes narratively important",
+          "the visible condition of Command Bastion signals political or social stress",
+          "someone uses Command Bastion's public function to redirect crowds or information",
+          "an overlooked detail at Command Bastion reveals how Orsakar really works"
+        ]
+      },
+      {
+        "name": "Woven Banners Monument",
+        "symbolicRole": "Woven Banners Monument concentrates Orsakar's local symbolism into a usable civic landmark: Section 3 local anchor.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles. It belongs to Section 3 (Military Command) of Orsakar and should use Obsidian Fortresses, White Limestone Civic Blocks, Forge Halls, blue granite and silver inlay materials, Forge Smoke Columns, Woven Banners, Civic Blue Glow, and the bear-like beastfolk visual language. Design focus: armories, symbolic civic object, small ceremonial site, local memory marker, subordinate to major landmark. Terrain/water context: Taiga Edge; Dry Ground. Magic expression: Beast Bonding, Ancestor Guidance, Weather Binding. No baked labels or text.",
+        "civicRole": "Serves as Section 3 local anchor within Orsakar; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Woven Banners Monument",
+          "show how Orsakar turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 3",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Woven Banners Monument becomes narratively important",
+          "the visible condition of Woven Banners Monument signals political or social stress",
+          "someone uses Woven Banners Monument's public function to redirect crowds or information",
+          "an overlooked detail at Woven Banners Monument reveals how Orsakar really works"
+        ]
+      },
+      {
+        "name": "Standard Tower Nook",
+        "symbolicRole": "Standard Tower Nook concentrates Orsakar's local symbolism into a usable civic landmark: Section 3 local anchor.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette. It belongs to Section 3 (Military Command) of Orsakar and should use White Limestone Civic Blocks, Forge Halls, Obsidian Fortresses, blue granite and silver inlay materials, Civic Blue Glow, Forge Smoke Columns, Woven Banners, and the bear-like beastfolk visual language. Design focus: wardrums, rank banners, barracks blocks, command keeps, armory halls. Terrain/water context: Taiga Edge; Dry Ground. Magic expression: Beast Bonding, Ancestor Guidance, Weather Binding. No baked labels or text.",
+        "civicRole": "Serves as Section 3 local anchor within Orsakar; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Standard Tower Nook",
+          "show how Orsakar turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 3",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Standard Tower Nook becomes narratively important",
+          "the visible condition of Standard Tower Nook signals political or social stress",
+          "someone uses Standard Tower Nook's public function to redirect crowds or information",
+          "an overlooked detail at Standard Tower Nook reveals how Orsakar really works"
+        ]
+      },
+      {
+        "name": "Transit / Caravan / Rail Civic Hall",
+        "symbolicRole": "Transit / Caravan / Rail Civic Hall concentrates Orsakar's local symbolism into a usable civic landmark: Section 4 local anchor.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing. It belongs to Section 4 (Transit / Caravan / Rail) of Orsakar and should use White Limestone Civic Blocks, Timber Longhouses, Market Arcades, blue granite and silver inlay materials, Woven Banners, Red Fabric Awnings, Lantern Lit, and the bear-like beastfolk visual language. Design focus: public-facing administration, clear central silhouette, board-readable entrance, wheels, route maps. Terrain/water context: Taiga Edge; Dry Ground. Magic expression: Beast Bonding, Ancestor Guidance, Weather Binding. No baked labels or text.",
+        "civicRole": "Serves as Section 4 local anchor within Orsakar; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Transit / Caravan / Rail Civic Hall",
+          "show how Orsakar turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 4",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Transit / Caravan / Rail Civic Hall becomes narratively important",
+          "the visible condition of Transit / Caravan / Rail Civic Hall signals political or social stress",
+          "someone uses Transit / Caravan / Rail Civic Hall's public function to redirect crowds or information",
+          "an overlooked detail at Transit / Caravan / Rail Civic Hall reveals how Orsakar really works"
+        ]
+      },
+      {
+        "name": "Woven Banners Monument",
+        "symbolicRole": "Woven Banners Monument concentrates Orsakar's local symbolism into a usable civic landmark: Section 4 local anchor.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles. It belongs to Section 4 (Transit / Caravan / Rail) of Orsakar and should use Market Arcades, White Limestone Civic Blocks, Timber Longhouses, blue granite and silver inlay materials, Woven Banners, Red Fabric Awnings, Lantern Lit, and the bear-like beastfolk visual language. Design focus: stable courts, ticket booths, symbolic civic object, small ceremonial site, local memory marker. Terrain/water context: Taiga Edge; Dry Ground. Magic expression: Beast Bonding, Ancestor Guidance, Weather Binding. No baked labels or text.",
+        "civicRole": "Serves as Section 4 local anchor within Orsakar; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Woven Banners Monument",
+          "show how Orsakar turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 4",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Woven Banners Monument becomes narratively important",
+          "the visible condition of Woven Banners Monument signals political or social stress",
+          "someone uses Woven Banners Monument's public function to redirect crowds or information",
+          "an overlooked detail at Woven Banners Monument reveals how Orsakar really works"
+        ]
+      },
+      {
+        "name": "Waystation Hall Nook",
+        "symbolicRole": "Waystation Hall Nook concentrates Orsakar's local symbolism into a usable civic landmark: Section 4 local anchor.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette. It belongs to Section 4 (Transit / Caravan / Rail) of Orsakar and should use White Limestone Civic Blocks, Timber Longhouses, Market Arcades, blue granite and silver inlay materials, Woven Banners, Red Fabric Awnings, Lantern Lit, and the bear-like beastfolk visual language. Design focus: usable board landmark, subordinate scale, wheels, route maps, signal flags. Terrain/water context: Taiga Edge; Dry Ground. Magic expression: Beast Bonding, Ancestor Guidance, Weather Binding. No baked labels or text.",
+        "civicRole": "Serves as Section 4 local anchor within Orsakar; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Waystation Hall Nook",
+          "show how Orsakar turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 4",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Waystation Hall Nook becomes narratively important",
+          "the visible condition of Waystation Hall Nook signals political or social stress",
+          "someone uses Waystation Hall Nook's public function to redirect crowds or information",
+          "an overlooked detail at Waystation Hall Nook reveals how Orsakar really works"
+        ]
+      },
+      {
+        "name": "Prison / Containment Civic Hall",
+        "symbolicRole": "Prison / Containment Civic Hall concentrates Orsakar's local symbolism into a usable civic landmark: Section 5 local anchor.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing. It belongs to Section 5 (Prison / Containment) of Orsakar and should use Cyclopean Megaliths, Obsidian Fortresses, Subterranean Vaults, blue granite and silver inlay materials, Mist Veils, Bone White Ceremony, Civic Blue Glow, and the bear-like beastfolk visual language. Design focus: board-readable entrance, bars, locks, warning bells, ward sigils. Terrain/water context: Taiga Edge; Dry Ground. Magic expression: Beast Bonding, Ancestor Guidance, Weather Binding. No baked labels or text.",
+        "civicRole": "Serves as Section 5 local anchor within Orsakar; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Prison / Containment Civic Hall",
+          "show how Orsakar turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 5",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Prison / Containment Civic Hall becomes narratively important",
+          "the visible condition of Prison / Containment Civic Hall signals political or social stress",
+          "someone uses Prison / Containment Civic Hall's public function to redirect crowds or information",
+          "an overlooked detail at Prison / Containment Civic Hall reveals how Orsakar really works"
+        ]
+      },
+      {
+        "name": "Mist Veils Monument",
+        "symbolicRole": "Mist Veils Monument concentrates Orsakar's local symbolism into a usable civic landmark: Section 5 local anchor.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles. It belongs to Section 5 (Prison / Containment) of Orsakar and should use Obsidian Fortresses, Subterranean Vaults, Cyclopean Megaliths, blue granite and silver inlay materials, Bone White Ceremony, Civic Blue Glow, Mist Veils, and the bear-like beastfolk visual language. Design focus: bars, locks, warning bells, ward sigils, cell blocks. Terrain/water context: Taiga Edge; Dry Ground. Magic expression: Beast Bonding, Ancestor Guidance, Weather Binding. No baked labels or text.",
+        "civicRole": "Serves as Section 5 local anchor within Orsakar; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Mist Veils Monument",
+          "show how Orsakar turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 5",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Mist Veils Monument becomes narratively important",
+          "the visible condition of Mist Veils Monument signals political or social stress",
+          "someone uses Mist Veils Monument's public function to redirect crowds or information",
+          "an overlooked detail at Mist Veils Monument reveals how Orsakar really works"
+        ]
+      },
+      {
+        "name": "Judgment Yard Nook",
+        "symbolicRole": "Judgment Yard Nook concentrates Orsakar's local symbolism into a usable civic landmark: Section 5 local anchor.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette. It belongs to Section 5 (Prison / Containment) of Orsakar and should use Obsidian Fortresses, Subterranean Vaults, Cyclopean Megaliths, blue granite and silver inlay materials, Civic Blue Glow, Mist Veils, Bone White Ceremony, and the bear-like beastfolk visual language. Design focus: warded yards, watchhouses, cell rows, small local identity prop, street-level detail. Terrain/water context: Taiga Edge; Dry Ground. Magic expression: Beast Bonding, Ancestor Guidance, Weather Binding. No baked labels or text.",
+        "civicRole": "Serves as Section 5 local anchor within Orsakar; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Judgment Yard Nook",
+          "show how Orsakar turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 5",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Judgment Yard Nook becomes narratively important",
+          "the visible condition of Judgment Yard Nook signals political or social stress",
+          "someone uses Judgment Yard Nook's public function to redirect crowds or information",
+          "an overlooked detail at Judgment Yard Nook reveals how Orsakar really works"
+        ]
+      }
     ]
   },
   "assetGuidance": {
-    "districtDioramaGuidance": ["S1: Fortress / Border Wall Civic Hall, Border Wall Beacon, Woven Banners Monument, Watch Bastion Nook.", "S2: Heavy Industry / Foundry Civic Hall, Great Forge, Smoke-Stack Monument, Crucible Hall Nook.", "S3: Military Command Hall, Command Bastion, Woven Banners Monument, Standard Tower Nook.", "S4: Transit / Caravan / Rail Civic Hall, Caravanserai, Woven Banners Monument, Waystation Hall Nook.", "S5: Prison / Containment Civic Hall, Containment Keep, Mist Veils Monument, Judgment Yard Nook."],
-    "mapBackgroundGuidance": ["Keep Bearfolk Salmon-Stone Lodge of the Palefangs, Border Wall Beacon, and Bear Claw Marks Sovereign Registry Court legible together.", "Use blue granite, frost glass, pine, silver inlay, cold mountain roads, forges, command banners, caravan gates, and containment yards."],
-    "requiredVisualElements": ["Bearfolk Salmon-Stone Lodge of the Palefangs", "Border Wall Beacon", "Bear Claw Marks Sovereign Registry Court", "Watch Bastion Nook", "Great Forge", "Smoke-Stack Monument", "Crucible Hall Nook", "Command Bastion", "Standard Tower Nook", "Caravanserai", "Waystation Hall Nook", "Containment Keep", "Mist Veils Monument", "Judgment Yard Nook"],
-    "elementsToAvoid": ["generic bear barbarian settlement", "brute strength without institutions", "mountain scenery with no road law"]
+    "districtDioramaGuidance": [
+      "Dioramas must support 25 district slots: S1 covers D01, D02, D03, D06, D07 and uses source-backed anchors Fortress / Border Wall Civic Hall, Border Wall Beacon, Woven Banners Monument, Watch Bastion Nook.",
+      "Dioramas must support 25 district slots: S2 covers D04, D05, D09, D10, D15 and uses source-backed anchors Heavy Industry / Foundry Civic Hall, Great Forge, Smoke-Stack Monument, Crucible Hall Nook.",
+      "Dioramas must support 25 district slots: S3 covers D08, D12, D13, D14, D18 and uses source-backed anchors Military Command Hall, Command Bastion, Woven Banners Monument, Standard Tower Nook.",
+      "Dioramas must support 25 district slots: S4 covers D11, D16, D17, D21, D22 and uses source-backed anchors Transit / Caravan / Rail Civic Hall, Caravanserai, Woven Banners Monument, Waystation Hall Nook.",
+      "Dioramas must support 25 district slots: S5 covers D19, D20, D23, D24, D25 and uses source-backed anchors Prison / Containment Civic Hall, Containment Keep, Mist Veils Monument, Judgment Yard Nook."
+    ],
+    "mapBackgroundGuidance": [
+      "Map backgrounds must show Bearfolk Salmon-Stone Lodge of the Palefangs as the wonder-scale identity anchor, Bear Claw Marks Sovereign Registry Court at D13, and Border Wall Beacon as the city signal landmark.",
+      "Preserve the five-section spine: S1 Fortress / Border Wall Civic Hall, S2 Heavy Industry / Foundry Civic Hall, S3 Military Command Hall, S4 Transit / Caravan / Rail Civic Hall, S5 Prison / Containment Civic Hall.",
+      "Use roads, terrain, water, civic terraces, walls, markets, courts, or service routes only where they support the exact city identity and tactical readability."
+    ],
+    "requiredVisualElements": [
+      "Bearfolk Salmon-Stone Lodge of the Palefangs",
+      "Border Wall Beacon",
+      "Bear Claw Marks Sovereign Registry Court",
+      "Containment Keep",
+      "Great Forge",
+      "Caravanserai",
+      "Fortress / Border Wall Civic Hall",
+      "Woven Banners Monument",
+      "Watch Bastion Nook",
+      "Heavy Industry / Foundry Civic Hall",
+      "Smoke-Stack Monument",
+      "Crucible Hall Nook",
+      "Military Command Hall",
+      "Command Bastion",
+      "Standard Tower Nook",
+      "Transit / Caravan / Rail Civic Hall",
+      "Waystation Hall Nook",
+      "Prison / Containment Civic Hall",
+      "Mist Veils Monument",
+      "Judgment Yard Nook",
+      "Blue Granite",
+      "Frost Glass",
+      "Pine",
+      "Silver Inlay",
+      "Arcane Glow",
+      "Cliffside",
+      "Terraced Slope",
+      "Civic Terraces",
+      "Beast Bonding",
+      "Ancestor Guidance",
+      "Weather Binding"
+    ],
+    "elementsToAvoid": [
+      "extra top-level schema sections or research-log content in the JSON",
+      "generic fantasy architecture that ignores exact anchor names",
+      "invented missing street anchors",
+      "readable real-world text labels baked into images",
+      "collapsing the 25-district board into only five playable spaces",
+      "making landmarks decorative when they should have civic, narrative, and asset function"
+    ]
   }
 }

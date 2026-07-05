@@ -1,1 +1,1778 @@
-{"metadata":{"schemaVersion":"2.0","analysisVersion":2,"cityCode":"VGH","cityName":"Vargrheim","analysisConfidence":"strong-lock"},"sourceModel":"5 section sidecars; 25 board district slots inherit section anchors.","boardStructure":{"model":"25-seat map","seatOfPowerDistrict":"D13","sections":[{"sectionNumber":1,"districts":["D01","D02","D03","D06","D07"]},{"sectionNumber":2,"districts":["D04","D05","D09","D10","D15"]},{"sectionNumber":3,"districts":["D08","D12","D13","D14","D18"]},{"sectionNumber":4,"districts":["D11","D16","D17","D21","D22"]},{"sectionNumber":5,"districts":["D19","D20","D23","D24","D25"]}],"note":"Each section contains five district slots. This analysis keeps all 25 slots explicit while preserving only source-backed section-level landmark names."},"sections":[{"n":1,"name":"Nature Preserve / Sacred Grove"},{"n":2,"name":"Fortress / Border Wall"},{"n":3,"name":"Public Works Authority"},{"n":4,"name":"Religious / Temple Quarter"},{"n":5,"name":"Arena / Training"}],"districts":["D01","D02","D03","D04","D05","D06","D07","D08","D09","D10","D11","D12","D13","D14","D15","D16","D17","D18","D19","D20","D21","D22","D23","D24","D25"],"landmarks":{"wonder":"Wolfkin Pack-Moon Hall of the Hunt Circle","beacon":"Sacred Grove Beacon","seatOfPower":"Wolf Tooth Borders Sovereign Registry Court"}}
+{
+  "metadata": {
+    "schemaVersion": "2.0",
+    "analysisVersion": 2,
+    "cityCode": "VGH",
+    "cityName": "Vargrheim",
+    "analysisDate": "2026-07-05",
+    "analystVersion": "gpt-5.5-thinking",
+    "analysisConfidence": "strong-lock",
+    "basedOnImages": [
+      "VGH-HERO-NE-v001",
+      "VGH-HERO-NW-v001",
+      "VGH-HERO-SE-v001",
+      "VGH-HERO-SW-v001",
+      "VGH-STREET-S1-v001",
+      "VGH-STREET-S2-v001",
+      "VGH-STREET-S3-v001",
+      "VGH-STREET-S4-v001",
+      "VGH-STREET-S5-v001"
+    ],
+    "basedOnSidecars": [
+      "VGH-HERO-NE-v001.json",
+      "VGH-HERO-NW-v001.json",
+      "VGH-HERO-SE-v001.json",
+      "VGH-HERO-SW-v001.json",
+      "VGH-STREET-S1-v001.json",
+      "VGH-STREET-S2-v001.json",
+      "VGH-STREET-S3-v001.json",
+      "VGH-STREET-S4-v001.json",
+      "VGH-STREET-S5-v001.json"
+    ],
+    "missingStreetSections": []
+  },
+  "cityDNA": {
+    "coreFantasy": "A wolf-like beastfolk city where Nature Preserve / Sacred Grove, Fortress / Border Wall, Public Works Authority, Religious / Temple Quarter, Arena / Training, and Wolfkin Pack-Moon Hall of the Hunt Circle turn cliffside, terraced slope, civic terraces, dry ground and fieldstone, pine, granite, silver, canvas into a distinct civic machine.",
+    "primaryEmotion": "pack loyalty",
+    "secondaryEmotion": "wind-bitten resolve",
+    "readerTakeaway": "Vargrheim should feel like a cliffside pack city where grove, wall, survey, temple, and arena all teach citizens to move as one.",
+    "civilizationThesis": "Vargrheim organizes public life around shared protection: its districts convert Nature Preserve / Sacred Grove, Fortress / Border Wall, Public Works Authority, Religious / Temple Quarter, Arena / Training into a readable system of authority, labor, memory, and movement.",
+    "visualIdentity": "Vargrheim should be recognized by Fieldstone, Pine, Granite, Silver, Canvas, Cliffside, Terraced Slope, Civic Terraces, Dry Ground, Beast Bonding, Ancestor Guidance, Pack Instinct, Arena Strength Charms, and the named anchors Wolfkin Pack-Moon Hall of the Hunt Circle, Sacred Grove Beacon, and Wolf Tooth Borders Sovereign Registry Court.",
+    "culturalIdentity": "The city belongs to wolf-like beastfolk; its civic habits should grow from the sidecar-backed district spine rather than generic fantasy urbanism.",
+    "symbolicIdentity": "Wolfkin Pack-Moon Hall of the Hunt Circle, Sacred Grove Beacon, Wolf Tooth Borders Sovereign Registry Court, and the five section landmark families symbolize shared protection while warning against belonging that becomes suspicion of outsiders."
+  },
+  "canon": {
+    "canonLocks": [
+      "Vargrheim is a wolf-like beastfolk city, not a generic settlement with cosmetic motifs.",
+      "The Wonder is Wolfkin Pack-Moon Hall of the Hunt Circle.",
+      "The Beacon is Sacred Grove Beacon.",
+      "The Seat of Power is Wolf Tooth Borders Sovereign Registry Court, located at the District 13 authority center.",
+      "The five district sections are Nature Preserve / Sacred Grove, Fortress / Border Wall, Public Works Authority, Religious / Temple Quarter, Arena / Training.",
+      "The board should be treated as twenty-five district slots grouped into five section identities.",
+      "Section 1 (Nature Preserve / Sacred Grove) preserves these exact anchor names: Nature Preserve / Sacred Grove Civic Hall, Sacred Grove Beacon, Hanging Gardens Monument, Living Canopy Hall Nook.",
+      "Section 2 (Fortress / Border Wall) preserves these exact anchor names: Fortress / Border Wall Civic Hall, Border Wall, Woven Banners Monument, Watch Bastion Nook.",
+      "Section 3 (Public Works Authority) preserves these exact anchor names: Public Works Authority Hall, Survey Hall, Blue-Lamp Monument, Permit Yard Nook.",
+      "Section 4 (Religious / Temple Quarter) preserves these exact anchor names: Religious / Temple Quarter Civic Hall, Temple Platform, Religious Temple Quarter Lantern Monument, Procession Stair Nook.",
+      "Section 5 (Arena / Training) preserves these exact anchor names: Arena / Training Civic Hall, Training Arena, Woven Banners Monument, Champion Gate Nook."
+    ],
+    "provisionalCanon": [
+      "Individual district-slot names beyond exact sidecar anchors are organizational labels for the 25-seat board, not new landmark canon.",
+      "Minor street customs should be derived from the section spine unless future source files provide more exact anchors."
+    ],
+    "rejectedReads": [
+      "Vargrheim as a generic fantasy city without its named Wonder, Beacon, and Seat of Power.",
+      "Replacing exact sidecar anchor names with generic labels such as market, temple, tower, wall, or archive.",
+      "Treating district section labels as decorative instead of civic systems that drive scenes and assets."
+    ],
+    "cautionFlags": [
+      "Preserve exact named anchors from sidecars.",
+      "Use the culture identity respectfully as civic design language rather than costume.",
+      "Keep all 25 district slots legible even when five slots share one section identity.",
+      "Do not add unsupported individual district landmark names beyond the source-backed anchors."
+    ]
+  },
+  "environment": {
+    "terrain": [
+      "Cliffside",
+      "Terraced Slope",
+      "Civic Terraces",
+      "Dry Ground"
+    ],
+    "water": [
+      "dry city ground"
+    ],
+    "vegetation": [
+      "Canopy Platforms",
+      "Hanging Gardens",
+      "roots",
+      "sacred groves",
+      "temple terraces"
+    ],
+    "climateLighting": [
+      "Mist Veils",
+      "White Limestone Civic Blocks",
+      "Civic Blue Glow",
+      "Sun Disc Reliefs",
+      "Lantern Lit",
+      "symbolic civic object",
+      "signal fires"
+    ],
+    "environmentalLogic": "Vargrheim's environment should make Nature Preserve / Sacred Grove, Fortress / Border Wall, Public Works Authority, Religious / Temple Quarter, Arena / Training feel physically necessary. Terrain, light, civic routes, and landmark placement must support movement through all five section identities rather than read as interchangeable scenery."
+  },
+  "architecture": {
+    "materials": [
+      "Fieldstone",
+      "Pine",
+      "Granite",
+      "Silver",
+      "Canvas"
+    ],
+    "forms": [
+      "Canopy Platforms",
+      "Timber Longhouses",
+      "Reed Pavilions",
+      "granite and silver materials",
+      "Carved Totems",
+      "Mist Veils",
+      "Hanging Gardens",
+      "Obsidian Fortresses",
+      "Lecture Courts",
+      "Temple Platforms",
+      "Woven Banners",
+      "Red Fabric Awnings",
+      "Cyclopean Megaliths",
+      "White Limestone Civic Blocks",
+      "Civic Blue Glow",
+      "Gothic Spires",
+      "Step Pyramids",
+      "Sun Disc Reliefs"
+    ],
+    "skyline": [
+      "Wolfkin Pack-Moon Hall of the Hunt Circle is the wonder-scale skyline identifier.",
+      "Wolf Tooth Borders Sovereign Registry Court marks the central authority mass at District 13.",
+      "Sacred Grove Beacon must remain visible as the public signal landmark.",
+      "Section landmarks should form a readable ring of Nature Preserve / Sacred Grove, Fortress / Border Wall, Public Works Authority, Religious / Temple Quarter, Arena / Training."
+    ],
+    "lighting": [
+      "Mist Veils",
+      "White Limestone Civic Blocks",
+      "Civic Blue Glow",
+      "Sun Disc Reliefs",
+      "Lantern Lit",
+      "symbolic civic object",
+      "signal fires",
+      "district lanterns",
+      "public signal glow"
+    ],
+    "infrastructure": [
+      "Nature Preserve / Sacred Grove routes",
+      "Fortress / Border Wall routes",
+      "Public Works Authority routes",
+      "Religious / Temple Quarter routes",
+      "Arena / Training routes",
+      "Nature Preserve / Sacred Grove Civic Hall",
+      "Fortress / Border Wall Civic Hall",
+      "Public Works Authority Hall",
+      "Religious / Temple Quarter Civic Hall",
+      "Arena / Training Civic Hall"
+    ],
+    "motifs": [
+      "roots",
+      "leaves",
+      "springs",
+      "animal tracks",
+      "sacred groves",
+      "weapon courts",
+      "practice rings",
+      "largest section focal point",
+      "strong vertical silhouette",
+      "distinct gameplay landmark",
+      "visible from nearby districts",
+      "walls",
+      "portcullises",
+      "shield marks",
+      "incense",
+      "votive lamps",
+      "reliquaries",
+      "processional banners"
+    ],
+    "colorLanguage": [
+      "Silver",
+      "Beast Bonding",
+      "Ancestor Guidance",
+      "Pack Instinct",
+      "Arena Strength Charms"
+    ],
+    "textureLanguage": [
+      "Fieldstone",
+      "Pine",
+      "Granite",
+      "Silver",
+      "Canvas",
+      "Cliffside",
+      "Terraced Slope",
+      "Civic Terraces",
+      "Dry Ground",
+      "roots",
+      "temple terraces",
+      "stone plans"
+    ]
+  },
+  "civilization": {
+    "people": "Vargrheim's people are wolf-like beastfolk; they should be written through shared civic habits, public spaces, work rhythms, and the visible demands of the five section identities.",
+    "occupations": [
+      "grove keepers",
+      "canopy tenders",
+      "root wardens",
+      "sacred gardeners",
+      "wall wardens",
+      "gate officers",
+      "banner guards",
+      "watch crews",
+      "surveyors",
+      "permit clerks",
+      "repair crews",
+      "map keepers",
+      "temple attendants",
+      "procession stewards",
+      "votive makers",
+      "ritual singers",
+      "trainers",
+      "sparring crews",
+      "champions",
+      "equipment keepers"
+    ],
+    "socialClasses": [
+      "officials and stewards tied to Wolf Tooth Borders Sovereign Registry Court",
+      "landmark keepers and civic hall administrators",
+      "guild families and specialist workers",
+      "street vendors, porters, runners, and maintenance crews",
+      "families living around the section-specific local anchors"
+    ],
+    "governance": "Authority centers on Wolf Tooth Borders Sovereign Registry Court and is made visible through section civic halls, named landmarks, permissions, public signals, and the citywide response to Sacred Grove Beacon.",
+    "religion": "Religious or ceremonial life should be shown through source-backed shrines, temples, wonders, oath spaces, ancestor sites, or ritual geometry when those appear in the district spine.",
+    "customs": [
+      "citizens orient themselves by the section identity of a street before they identify an address",
+      "public notices and signals are interpreted through the Beacon and civic halls",
+      "named landmarks act as meeting points, proof points, and local memory anchors",
+      "section-specific work routines shape food, clothing, posture, and street traffic",
+      "District 13 authority matters even when scenes occur in outer district slots"
+    ],
+    "bodyLanguage": [
+      "movement reflects pack loyalty",
+      "citizens check landmarks and signals before crossing into another section",
+      "officials use the posture and tools of their section role",
+      "workers treat section anchors as practical wayfinding points",
+      "crowds become more formal near the Seat of Power and more local near minor landmarks"
+    ],
+    "speechPatterns": [
+      "directions use exact landmark names rather than generic descriptions",
+      "section names carry social meaning",
+      "official speech references permits, seals, routes, oaths, or signals as appropriate to the city",
+      "working speech is concrete, location-heavy, and tied to civic function",
+      "locals distinguish between the Wonder, Beacon, Seat, and section landmarks without confusion"
+    ]
+  },
+  "urbanLife": {
+    "streets": {
+      "appearance": "Street scenes should make Vargrheim immediately identifiable through Fieldstone, Pine, Granite, Silver, Canvas, Cliffside, Terraced Slope, Civic Terraces, Dry Ground, Beast Bonding, Ancestor Guidance, Pack Instinct, Arena Strength Charms, and the exact section anchors rather than generic fantasy facades.",
+      "movement": "Movement flows through five section identities and twenty-five district slots. People navigate by Sacred Grove Beacon, Wolf Tooth Borders Sovereign Registry Court, section civic halls, major landmarks, monuments, and minor nooks.",
+      "sounds": [
+        "foot traffic",
+        "public notices",
+        "work tools",
+        "cart wheels or pack movement",
+        "district-specific calls",
+        "signal response murmurs",
+        "grove keepers",
+        "canopy tenders",
+        "root wardens",
+        "sacred gardeners",
+        "wall wardens",
+        "gate officers"
+      ],
+      "smells": [
+        "worked materials",
+        "street food",
+        "lamp oil",
+        "dust or wet stone",
+        "district workshops",
+        "fieldstone",
+        "pine",
+        "granite",
+        "silver",
+        "canvas"
+      ],
+      "lighting": "Lighting should use Mist Veils, White Limestone Civic Blocks, Civic Blue Glow, Sun Disc Reliefs, Lantern Lit, symbolic civic object, with the Beacon and Seat carrying distinct civic emphasis.",
+      "weatherEffects": "Weather should interact with cliffside, terraced slope, civic terraces, dry ground and the city's source-backed materials, altering visibility, travel speed, public gathering, and signal readability.",
+      "dayCycle": "Daytime emphasizes section labor: Nature Preserve / Sacred Grove, Fortress / Border Wall, Public Works Authority, Religious / Temple Quarter, Arena / Training. Civic halls, shops, and public works create the main public rhythm.",
+      "nightCycle": "Night scenes should preserve the city's identity through landmark silhouettes, beacon light, watch routes, late shops, ritual spaces, and section-specific sounds."
+    },
+    "shops": {
+      "common": [
+        "nature preserve / sacred grove supply stalls",
+        "fortress / border wall supply stalls",
+        "public works authority supply stalls",
+        "religious / temple quarter supply stalls",
+        "arena / training supply stalls",
+        "street food carts",
+        "tool repair stalls",
+        "notice copyists"
+      ],
+      "uncommon": [
+        "nature preserve / sacred grove specialist counters",
+        "fortress / border wall specialist counters",
+        "public works authority specialist counters",
+        "religious / temple quarter specialist counters",
+        "arena / training specialist counters",
+        "landmark guide services",
+        "ritual or permit specialists"
+      ],
+      "prestigious": [
+        "workshops or offices near Wolf Tooth Borders Sovereign Registry Court",
+        "specialist houses serving Wolfkin Pack-Moon Hall of the Hunt Circle",
+        "elite civic sealers or patrons",
+        "master artisans tied to section landmarks"
+      ],
+      "exports": [
+        "nature preserve / sacred grove goods",
+        "fortress / border wall goods",
+        "public works authority goods",
+        "religious / temple quarter goods",
+        "arena / training goods",
+        "fieldstone",
+        "pine",
+        "granite",
+        "silver"
+      ],
+      "imports": [
+        "food staples",
+        "replacement tools",
+        "rare pigments",
+        "ritual materials",
+        "metal fittings",
+        "fine cloth"
+      ],
+      "streetFood": [
+        "portable worker meals",
+        "flatbread or grain cakes",
+        "spiced stews",
+        "roasted local produce",
+        "market tea",
+        "festival sweets"
+      ],
+      "services": [
+        "directions by landmark",
+        "permit filing",
+        "repair work",
+        "messenger runs",
+        "public notice posting",
+        "nature preserve / sacred grove services",
+        "fortress / border wall services",
+        "public works authority services",
+        "religious / temple quarter services",
+        "arena / training services"
+      ]
+    },
+    "housing": {
+      "wealthy": "High-status housing clusters near Wolf Tooth Borders Sovereign Registry Court, major terraces, and prestigious landmark approaches; it should display the city materials cleanly and control sightlines toward Wonder or Beacon.",
+      "middle": "Middle housing occupies upper rooms, side courts, work-family compounds, and mixed-use streets close to civic halls and section services.",
+      "poor": "Poorer housing should be practical and specific to local labor, with patched materials, shared courtyards, crowded lanes, and strong dependence on nearby section anchors."
+    }
+  },
+  "districts": [
+    {
+      "districtNumber": 1,
+      "sectionNumber": 1,
+      "name": "D01 Nature Preserve / Sacred Grove Civic Core",
+      "civicPurpose": "One of five Nature Preserve / Sacred Grove district slots, focused on civic core; it supports local movement, services, social pressure, and scene transitions within Section 1.",
+      "visualIdentity": "Nature Preserve / Sacred Grove Civic Hall anchors the slot, supported by Hanging Gardens Monument, Living Canopy Hall Nook, Fieldstone, Pine, Granite, Silver, Canvas, and the wolf-like beastfolk civic language.",
+      "emotionalIdentity": "Nature Preserve / Sacred Grove expressed through civic core: pack loyalty with practical street-level specificity.",
+      "gameplayAssetNeeds": [
+        "Nature Preserve / Sacred Grove Civic Hall",
+        "Hanging Gardens Monument",
+        "Living Canopy Hall Nook",
+        "Nature Preserve / Sacred Grove street dressing",
+        "wolf-like beastfolk civilians",
+        "section-appropriate props"
+      ],
+      "narrativeUse": [
+        "nature preserve / sacred grove errands",
+        "wayfinding by exact landmark",
+        "crowd pressure",
+        "local work conflict",
+        "transition between board slots"
+      ],
+      "primaryLandmark": "Nature Preserve / Sacred Grove Civic Hall",
+      "minorLandmarks": [
+        "Hanging Gardens Monument",
+        "Living Canopy Hall Nook"
+      ]
+    },
+    {
+      "districtNumber": 2,
+      "sectionNumber": 1,
+      "name": "D02 Nature Preserve / Sacred Grove Major Landmark Approach",
+      "civicPurpose": "One of five Nature Preserve / Sacred Grove district slots, focused on major landmark approach; it supports local movement, services, social pressure, and scene transitions within Section 1.",
+      "visualIdentity": "Sacred Grove Beacon anchors the slot, supported by Hanging Gardens Monument, Living Canopy Hall Nook, Nature Preserve / Sacred Grove Civic Hall, Fieldstone, Pine, Granite, Silver, Canvas, and the wolf-like beastfolk civic language.",
+      "emotionalIdentity": "Nature Preserve / Sacred Grove expressed through major landmark approach: pack loyalty with practical street-level specificity.",
+      "gameplayAssetNeeds": [
+        "Sacred Grove Beacon",
+        "Hanging Gardens Monument",
+        "Living Canopy Hall Nook",
+        "Nature Preserve / Sacred Grove Civic Hall",
+        "Nature Preserve / Sacred Grove street dressing",
+        "wolf-like beastfolk civilians",
+        "section-appropriate props"
+      ],
+      "narrativeUse": [
+        "nature preserve / sacred grove errands",
+        "wayfinding by exact landmark",
+        "crowd pressure",
+        "local work conflict",
+        "transition between board slots"
+      ],
+      "primaryLandmark": "Sacred Grove Beacon",
+      "minorLandmarks": [
+        "Hanging Gardens Monument",
+        "Living Canopy Hall Nook",
+        "Nature Preserve / Sacred Grove Civic Hall"
+      ]
+    },
+    {
+      "districtNumber": 3,
+      "sectionNumber": 1,
+      "name": "D03 Nature Preserve / Sacred Grove Monument Square",
+      "civicPurpose": "One of five Nature Preserve / Sacred Grove district slots, focused on monument square; it supports local movement, services, social pressure, and scene transitions within Section 1.",
+      "visualIdentity": "Hanging Gardens Monument anchors the slot, supported by Living Canopy Hall Nook, Nature Preserve / Sacred Grove Civic Hall, Fieldstone, Pine, Granite, Silver, Canvas, and the wolf-like beastfolk civic language.",
+      "emotionalIdentity": "Nature Preserve / Sacred Grove expressed through monument square: pack loyalty with practical street-level specificity.",
+      "gameplayAssetNeeds": [
+        "Hanging Gardens Monument",
+        "Living Canopy Hall Nook",
+        "Nature Preserve / Sacred Grove Civic Hall",
+        "Nature Preserve / Sacred Grove street dressing",
+        "wolf-like beastfolk civilians",
+        "section-appropriate props"
+      ],
+      "narrativeUse": [
+        "nature preserve / sacred grove errands",
+        "wayfinding by exact landmark",
+        "crowd pressure",
+        "local work conflict",
+        "transition between board slots"
+      ],
+      "primaryLandmark": "Hanging Gardens Monument",
+      "minorLandmarks": [
+        "Living Canopy Hall Nook",
+        "Nature Preserve / Sacred Grove Civic Hall"
+      ]
+    },
+    {
+      "districtNumber": 4,
+      "sectionNumber": 2,
+      "name": "D04 Fortress / Border Wall Civic Core",
+      "civicPurpose": "One of five Fortress / Border Wall district slots, focused on civic core; it supports local movement, services, social pressure, and scene transitions within Section 2.",
+      "visualIdentity": "Fortress / Border Wall Civic Hall anchors the slot, supported by Woven Banners Monument, Watch Bastion Nook, Fieldstone, Pine, Granite, Silver, Canvas, and the wolf-like beastfolk civic language.",
+      "emotionalIdentity": "Fortress / Border Wall expressed through civic core: pack loyalty with practical street-level specificity.",
+      "gameplayAssetNeeds": [
+        "Fortress / Border Wall Civic Hall",
+        "Woven Banners Monument",
+        "Watch Bastion Nook",
+        "Fortress / Border Wall street dressing",
+        "wolf-like beastfolk civilians",
+        "section-appropriate props"
+      ],
+      "narrativeUse": [
+        "fortress / border wall errands",
+        "wayfinding by exact landmark",
+        "crowd pressure",
+        "local work conflict",
+        "transition between board slots"
+      ],
+      "primaryLandmark": "Fortress / Border Wall Civic Hall",
+      "minorLandmarks": [
+        "Woven Banners Monument",
+        "Watch Bastion Nook"
+      ]
+    },
+    {
+      "districtNumber": 5,
+      "sectionNumber": 2,
+      "name": "D05 Fortress / Border Wall Major Landmark Approach",
+      "civicPurpose": "One of five Fortress / Border Wall district slots, focused on major landmark approach; it supports local movement, services, social pressure, and scene transitions within Section 2.",
+      "visualIdentity": "Border Wall anchors the slot, supported by Woven Banners Monument, Watch Bastion Nook, Fortress / Border Wall Civic Hall, Fieldstone, Pine, Granite, Silver, Canvas, and the wolf-like beastfolk civic language.",
+      "emotionalIdentity": "Fortress / Border Wall expressed through major landmark approach: pack loyalty with practical street-level specificity.",
+      "gameplayAssetNeeds": [
+        "Border Wall",
+        "Woven Banners Monument",
+        "Watch Bastion Nook",
+        "Fortress / Border Wall Civic Hall",
+        "Fortress / Border Wall street dressing",
+        "wolf-like beastfolk civilians",
+        "section-appropriate props"
+      ],
+      "narrativeUse": [
+        "fortress / border wall errands",
+        "wayfinding by exact landmark",
+        "crowd pressure",
+        "local work conflict",
+        "transition between board slots"
+      ],
+      "primaryLandmark": "Border Wall",
+      "minorLandmarks": [
+        "Woven Banners Monument",
+        "Watch Bastion Nook",
+        "Fortress / Border Wall Civic Hall"
+      ]
+    },
+    {
+      "districtNumber": 6,
+      "sectionNumber": 1,
+      "name": "D06 Nature Preserve / Sacred Grove Minor Landmark Lane",
+      "civicPurpose": "One of five Nature Preserve / Sacred Grove district slots, focused on minor landmark lane; it supports local movement, services, social pressure, and scene transitions within Section 1.",
+      "visualIdentity": "Living Canopy Hall Nook anchors the slot, supported by Hanging Gardens Monument, Nature Preserve / Sacred Grove Civic Hall, Fieldstone, Pine, Granite, Silver, Canvas, and the wolf-like beastfolk civic language.",
+      "emotionalIdentity": "Nature Preserve / Sacred Grove expressed through minor landmark lane: pack loyalty with practical street-level specificity.",
+      "gameplayAssetNeeds": [
+        "Living Canopy Hall Nook",
+        "Hanging Gardens Monument",
+        "Nature Preserve / Sacred Grove Civic Hall",
+        "Nature Preserve / Sacred Grove street dressing",
+        "wolf-like beastfolk civilians",
+        "section-appropriate props"
+      ],
+      "narrativeUse": [
+        "nature preserve / sacred grove errands",
+        "wayfinding by exact landmark",
+        "crowd pressure",
+        "local work conflict",
+        "transition between board slots"
+      ],
+      "primaryLandmark": "Living Canopy Hall Nook",
+      "minorLandmarks": [
+        "Hanging Gardens Monument",
+        "Nature Preserve / Sacred Grove Civic Hall"
+      ]
+    },
+    {
+      "districtNumber": 7,
+      "sectionNumber": 1,
+      "name": "D07 Nature Preserve / Sacred Grove Working Street Fabric",
+      "civicPurpose": "One of five Nature Preserve / Sacred Grove district slots, focused on working street fabric; it supports local movement, services, social pressure, and scene transitions within Section 1.",
+      "visualIdentity": "Sacred Grove Beacon anchors the slot, supported by Hanging Gardens Monument, Living Canopy Hall Nook, Nature Preserve / Sacred Grove Civic Hall, Fieldstone, Pine, Granite, Silver, Canvas, and the wolf-like beastfolk civic language.",
+      "emotionalIdentity": "Nature Preserve / Sacred Grove expressed through working street fabric: pack loyalty with practical street-level specificity.",
+      "gameplayAssetNeeds": [
+        "Sacred Grove Beacon",
+        "Hanging Gardens Monument",
+        "Living Canopy Hall Nook",
+        "Nature Preserve / Sacred Grove Civic Hall",
+        "Nature Preserve / Sacred Grove street dressing",
+        "wolf-like beastfolk civilians",
+        "section-appropriate props"
+      ],
+      "narrativeUse": [
+        "nature preserve / sacred grove errands",
+        "wayfinding by exact landmark",
+        "crowd pressure",
+        "local work conflict",
+        "transition between board slots"
+      ],
+      "primaryLandmark": "Sacred Grove Beacon",
+      "minorLandmarks": [
+        "Hanging Gardens Monument",
+        "Living Canopy Hall Nook",
+        "Nature Preserve / Sacred Grove Civic Hall"
+      ]
+    },
+    {
+      "districtNumber": 8,
+      "sectionNumber": 3,
+      "name": "D08 Public Works Authority Civic Core",
+      "civicPurpose": "One of five Public Works Authority district slots, focused on civic core; it supports local movement, services, social pressure, and scene transitions within Section 3.",
+      "visualIdentity": "Public Works Authority Hall anchors the slot, supported by Blue-Lamp Monument, Permit Yard Nook, Fieldstone, Pine, Granite, Silver, Canvas, and the wolf-like beastfolk civic language.",
+      "emotionalIdentity": "Public Works Authority expressed through civic core: pack loyalty with practical street-level specificity.",
+      "gameplayAssetNeeds": [
+        "Public Works Authority Hall",
+        "Blue-Lamp Monument",
+        "Permit Yard Nook",
+        "Public Works Authority street dressing",
+        "wolf-like beastfolk civilians",
+        "section-appropriate props"
+      ],
+      "narrativeUse": [
+        "public works authority errands",
+        "wayfinding by exact landmark",
+        "crowd pressure",
+        "local work conflict",
+        "transition between board slots"
+      ],
+      "primaryLandmark": "Public Works Authority Hall",
+      "minorLandmarks": [
+        "Blue-Lamp Monument",
+        "Permit Yard Nook"
+      ]
+    },
+    {
+      "districtNumber": 9,
+      "sectionNumber": 2,
+      "name": "D09 Fortress / Border Wall Monument Square",
+      "civicPurpose": "One of five Fortress / Border Wall district slots, focused on monument square; it supports local movement, services, social pressure, and scene transitions within Section 2.",
+      "visualIdentity": "Woven Banners Monument anchors the slot, supported by Watch Bastion Nook, Fortress / Border Wall Civic Hall, Fieldstone, Pine, Granite, Silver, Canvas, and the wolf-like beastfolk civic language.",
+      "emotionalIdentity": "Fortress / Border Wall expressed through monument square: pack loyalty with practical street-level specificity.",
+      "gameplayAssetNeeds": [
+        "Woven Banners Monument",
+        "Watch Bastion Nook",
+        "Fortress / Border Wall Civic Hall",
+        "Fortress / Border Wall street dressing",
+        "wolf-like beastfolk civilians",
+        "section-appropriate props"
+      ],
+      "narrativeUse": [
+        "fortress / border wall errands",
+        "wayfinding by exact landmark",
+        "crowd pressure",
+        "local work conflict",
+        "transition between board slots"
+      ],
+      "primaryLandmark": "Woven Banners Monument",
+      "minorLandmarks": [
+        "Watch Bastion Nook",
+        "Fortress / Border Wall Civic Hall"
+      ]
+    },
+    {
+      "districtNumber": 10,
+      "sectionNumber": 2,
+      "name": "D10 Fortress / Border Wall Minor Landmark Lane",
+      "civicPurpose": "One of five Fortress / Border Wall district slots, focused on minor landmark lane; it supports local movement, services, social pressure, and scene transitions within Section 2.",
+      "visualIdentity": "Watch Bastion Nook anchors the slot, supported by Woven Banners Monument, Fortress / Border Wall Civic Hall, Fieldstone, Pine, Granite, Silver, Canvas, and the wolf-like beastfolk civic language.",
+      "emotionalIdentity": "Fortress / Border Wall expressed through minor landmark lane: pack loyalty with practical street-level specificity.",
+      "gameplayAssetNeeds": [
+        "Watch Bastion Nook",
+        "Woven Banners Monument",
+        "Fortress / Border Wall Civic Hall",
+        "Fortress / Border Wall street dressing",
+        "wolf-like beastfolk civilians",
+        "section-appropriate props"
+      ],
+      "narrativeUse": [
+        "fortress / border wall errands",
+        "wayfinding by exact landmark",
+        "crowd pressure",
+        "local work conflict",
+        "transition between board slots"
+      ],
+      "primaryLandmark": "Watch Bastion Nook",
+      "minorLandmarks": [
+        "Woven Banners Monument",
+        "Fortress / Border Wall Civic Hall"
+      ]
+    },
+    {
+      "districtNumber": 11,
+      "sectionNumber": 4,
+      "name": "D11 Religious / Temple Quarter Civic Core",
+      "civicPurpose": "One of five Religious / Temple Quarter district slots, focused on civic core; it supports local movement, services, social pressure, and scene transitions within Section 4.",
+      "visualIdentity": "Religious / Temple Quarter Civic Hall anchors the slot, supported by Religious Temple Quarter Lantern Monument, Procession Stair Nook, Fieldstone, Pine, Granite, Silver, Canvas, and the wolf-like beastfolk civic language.",
+      "emotionalIdentity": "Religious / Temple Quarter expressed through civic core: pack loyalty with practical street-level specificity.",
+      "gameplayAssetNeeds": [
+        "Religious / Temple Quarter Civic Hall",
+        "Religious Temple Quarter Lantern Monument",
+        "Procession Stair Nook",
+        "Religious / Temple Quarter street dressing",
+        "wolf-like beastfolk civilians",
+        "section-appropriate props"
+      ],
+      "narrativeUse": [
+        "religious / temple quarter errands",
+        "wayfinding by exact landmark",
+        "crowd pressure",
+        "local work conflict",
+        "transition between board slots"
+      ],
+      "primaryLandmark": "Religious / Temple Quarter Civic Hall",
+      "minorLandmarks": [
+        "Religious Temple Quarter Lantern Monument",
+        "Procession Stair Nook"
+      ]
+    },
+    {
+      "districtNumber": 12,
+      "sectionNumber": 3,
+      "name": "D12 Public Works Authority Major Landmark Approach",
+      "civicPurpose": "One of five Public Works Authority district slots, focused on major landmark approach; it supports local movement, services, social pressure, and scene transitions within Section 3.",
+      "visualIdentity": "Survey Hall anchors the slot, supported by Blue-Lamp Monument, Permit Yard Nook, Public Works Authority Hall, Fieldstone, Pine, Granite, Silver, Canvas, and the wolf-like beastfolk civic language.",
+      "emotionalIdentity": "Public Works Authority expressed through major landmark approach: pack loyalty with practical street-level specificity.",
+      "gameplayAssetNeeds": [
+        "Survey Hall",
+        "Blue-Lamp Monument",
+        "Permit Yard Nook",
+        "Public Works Authority Hall",
+        "Public Works Authority street dressing",
+        "wolf-like beastfolk civilians",
+        "section-appropriate props"
+      ],
+      "narrativeUse": [
+        "public works authority errands",
+        "wayfinding by exact landmark",
+        "crowd pressure",
+        "local work conflict",
+        "transition between board slots"
+      ],
+      "primaryLandmark": "Survey Hall",
+      "minorLandmarks": [
+        "Blue-Lamp Monument",
+        "Permit Yard Nook",
+        "Public Works Authority Hall"
+      ]
+    },
+    {
+      "districtNumber": 13,
+      "sectionNumber": 3,
+      "name": "D13 Seat of Power / Public Works Authority",
+      "civicPurpose": "Central city authority, public rulings, sealed records, command visibility, and the official connection between Wolf Tooth Borders Sovereign Registry Court and the surrounding Public Works Authority section.",
+      "visualIdentity": "Wolf Tooth Borders Sovereign Registry Court dominates this central slot while Public Works Authority details, civic blue signal language, formal approaches, and local anchor textures remain visible.",
+      "emotionalIdentity": "Authoritative, central, watched, and politically charged.",
+      "gameplayAssetNeeds": [
+        "Wolf Tooth Borders Sovereign Registry Court",
+        "central authority massing",
+        "audience terraces",
+        "sealed archive entrances",
+        "visible D13 approaches",
+        "Permit Yard Nook",
+        "Public Works Authority Hall"
+      ],
+      "narrativeUse": [
+        "central petitions",
+        "public rulings",
+        "citywide orders",
+        "private authority scenes",
+        "beacon response coordination"
+      ],
+      "primaryLandmark": "Wolf Tooth Borders Sovereign Registry Court",
+      "minorLandmarks": [
+        "Permit Yard Nook",
+        "Public Works Authority Hall"
+      ]
+    },
+    {
+      "districtNumber": 14,
+      "sectionNumber": 3,
+      "name": "D14 Public Works Authority Minor Landmark Lane",
+      "civicPurpose": "One of five Public Works Authority district slots, focused on minor landmark lane; it supports local movement, services, social pressure, and scene transitions within Section 3.",
+      "visualIdentity": "Permit Yard Nook anchors the slot, supported by Blue-Lamp Monument, Public Works Authority Hall, Fieldstone, Pine, Granite, Silver, Canvas, and the wolf-like beastfolk civic language.",
+      "emotionalIdentity": "Public Works Authority expressed through minor landmark lane: pack loyalty with practical street-level specificity.",
+      "gameplayAssetNeeds": [
+        "Permit Yard Nook",
+        "Blue-Lamp Monument",
+        "Public Works Authority Hall",
+        "Public Works Authority street dressing",
+        "wolf-like beastfolk civilians",
+        "section-appropriate props"
+      ],
+      "narrativeUse": [
+        "public works authority errands",
+        "wayfinding by exact landmark",
+        "crowd pressure",
+        "local work conflict",
+        "transition between board slots"
+      ],
+      "primaryLandmark": "Permit Yard Nook",
+      "minorLandmarks": [
+        "Blue-Lamp Monument",
+        "Public Works Authority Hall"
+      ]
+    },
+    {
+      "districtNumber": 15,
+      "sectionNumber": 2,
+      "name": "D15 Fortress / Border Wall Working Street Fabric",
+      "civicPurpose": "One of five Fortress / Border Wall district slots, focused on working street fabric; it supports local movement, services, social pressure, and scene transitions within Section 2.",
+      "visualIdentity": "Border Wall anchors the slot, supported by Woven Banners Monument, Watch Bastion Nook, Fortress / Border Wall Civic Hall, Fieldstone, Pine, Granite, Silver, Canvas, and the wolf-like beastfolk civic language.",
+      "emotionalIdentity": "Fortress / Border Wall expressed through working street fabric: pack loyalty with practical street-level specificity.",
+      "gameplayAssetNeeds": [
+        "Border Wall",
+        "Woven Banners Monument",
+        "Watch Bastion Nook",
+        "Fortress / Border Wall Civic Hall",
+        "Fortress / Border Wall street dressing",
+        "wolf-like beastfolk civilians",
+        "section-appropriate props"
+      ],
+      "narrativeUse": [
+        "fortress / border wall errands",
+        "wayfinding by exact landmark",
+        "crowd pressure",
+        "local work conflict",
+        "transition between board slots"
+      ],
+      "primaryLandmark": "Border Wall",
+      "minorLandmarks": [
+        "Woven Banners Monument",
+        "Watch Bastion Nook",
+        "Fortress / Border Wall Civic Hall"
+      ]
+    },
+    {
+      "districtNumber": 16,
+      "sectionNumber": 4,
+      "name": "D16 Religious / Temple Quarter Major Landmark Approach",
+      "civicPurpose": "One of five Religious / Temple Quarter district slots, focused on major landmark approach; it supports local movement, services, social pressure, and scene transitions within Section 4.",
+      "visualIdentity": "Temple Platform anchors the slot, supported by Religious Temple Quarter Lantern Monument, Procession Stair Nook, Religious / Temple Quarter Civic Hall, Fieldstone, Pine, Granite, Silver, Canvas, and the wolf-like beastfolk civic language.",
+      "emotionalIdentity": "Religious / Temple Quarter expressed through major landmark approach: pack loyalty with practical street-level specificity.",
+      "gameplayAssetNeeds": [
+        "Temple Platform",
+        "Religious Temple Quarter Lantern Monument",
+        "Procession Stair Nook",
+        "Religious / Temple Quarter Civic Hall",
+        "Religious / Temple Quarter street dressing",
+        "wolf-like beastfolk civilians",
+        "section-appropriate props"
+      ],
+      "narrativeUse": [
+        "religious / temple quarter errands",
+        "wayfinding by exact landmark",
+        "crowd pressure",
+        "local work conflict",
+        "transition between board slots"
+      ],
+      "primaryLandmark": "Temple Platform",
+      "minorLandmarks": [
+        "Religious Temple Quarter Lantern Monument",
+        "Procession Stair Nook",
+        "Religious / Temple Quarter Civic Hall"
+      ]
+    },
+    {
+      "districtNumber": 17,
+      "sectionNumber": 4,
+      "name": "D17 Religious / Temple Quarter Monument Square",
+      "civicPurpose": "One of five Religious / Temple Quarter district slots, focused on monument square; it supports local movement, services, social pressure, and scene transitions within Section 4.",
+      "visualIdentity": "Religious Temple Quarter Lantern Monument anchors the slot, supported by Procession Stair Nook, Religious / Temple Quarter Civic Hall, Fieldstone, Pine, Granite, Silver, Canvas, and the wolf-like beastfolk civic language.",
+      "emotionalIdentity": "Religious / Temple Quarter expressed through monument square: pack loyalty with practical street-level specificity.",
+      "gameplayAssetNeeds": [
+        "Religious Temple Quarter Lantern Monument",
+        "Procession Stair Nook",
+        "Religious / Temple Quarter Civic Hall",
+        "Religious / Temple Quarter street dressing",
+        "wolf-like beastfolk civilians",
+        "section-appropriate props"
+      ],
+      "narrativeUse": [
+        "religious / temple quarter errands",
+        "wayfinding by exact landmark",
+        "crowd pressure",
+        "local work conflict",
+        "transition between board slots"
+      ],
+      "primaryLandmark": "Religious Temple Quarter Lantern Monument",
+      "minorLandmarks": [
+        "Procession Stair Nook",
+        "Religious / Temple Quarter Civic Hall"
+      ]
+    },
+    {
+      "districtNumber": 18,
+      "sectionNumber": 3,
+      "name": "D18 Public Works Authority Working Street Fabric",
+      "civicPurpose": "One of five Public Works Authority district slots, focused on working street fabric; it supports local movement, services, social pressure, and scene transitions within Section 3.",
+      "visualIdentity": "Survey Hall anchors the slot, supported by Blue-Lamp Monument, Permit Yard Nook, Public Works Authority Hall, Fieldstone, Pine, Granite, Silver, Canvas, and the wolf-like beastfolk civic language.",
+      "emotionalIdentity": "Public Works Authority expressed through working street fabric: pack loyalty with practical street-level specificity.",
+      "gameplayAssetNeeds": [
+        "Survey Hall",
+        "Blue-Lamp Monument",
+        "Permit Yard Nook",
+        "Public Works Authority Hall",
+        "Public Works Authority street dressing",
+        "wolf-like beastfolk civilians",
+        "section-appropriate props"
+      ],
+      "narrativeUse": [
+        "public works authority errands",
+        "wayfinding by exact landmark",
+        "crowd pressure",
+        "local work conflict",
+        "transition between board slots"
+      ],
+      "primaryLandmark": "Survey Hall",
+      "minorLandmarks": [
+        "Blue-Lamp Monument",
+        "Permit Yard Nook",
+        "Public Works Authority Hall"
+      ]
+    },
+    {
+      "districtNumber": 19,
+      "sectionNumber": 5,
+      "name": "D19 Arena / Training Civic Core",
+      "civicPurpose": "One of five Arena / Training district slots, focused on civic core; it supports local movement, services, social pressure, and scene transitions within Section 5.",
+      "visualIdentity": "Arena / Training Civic Hall anchors the slot, supported by Woven Banners Monument, Champion Gate Nook, Fieldstone, Pine, Granite, Silver, Canvas, and the wolf-like beastfolk civic language.",
+      "emotionalIdentity": "Arena / Training expressed through civic core: pack loyalty with practical street-level specificity.",
+      "gameplayAssetNeeds": [
+        "Arena / Training Civic Hall",
+        "Woven Banners Monument",
+        "Champion Gate Nook",
+        "Arena / Training street dressing",
+        "wolf-like beastfolk civilians",
+        "section-appropriate props"
+      ],
+      "narrativeUse": [
+        "arena / training errands",
+        "wayfinding by exact landmark",
+        "crowd pressure",
+        "local work conflict",
+        "transition between board slots"
+      ],
+      "primaryLandmark": "Arena / Training Civic Hall",
+      "minorLandmarks": [
+        "Woven Banners Monument",
+        "Champion Gate Nook"
+      ]
+    },
+    {
+      "districtNumber": 20,
+      "sectionNumber": 5,
+      "name": "D20 Arena / Training Major Landmark Approach",
+      "civicPurpose": "One of five Arena / Training district slots, focused on major landmark approach; it supports local movement, services, social pressure, and scene transitions within Section 5.",
+      "visualIdentity": "Training Arena anchors the slot, supported by Woven Banners Monument, Champion Gate Nook, Arena / Training Civic Hall, Fieldstone, Pine, Granite, Silver, Canvas, and the wolf-like beastfolk civic language.",
+      "emotionalIdentity": "Arena / Training expressed through major landmark approach: pack loyalty with practical street-level specificity.",
+      "gameplayAssetNeeds": [
+        "Training Arena",
+        "Woven Banners Monument",
+        "Champion Gate Nook",
+        "Arena / Training Civic Hall",
+        "Arena / Training street dressing",
+        "wolf-like beastfolk civilians",
+        "section-appropriate props"
+      ],
+      "narrativeUse": [
+        "arena / training errands",
+        "wayfinding by exact landmark",
+        "crowd pressure",
+        "local work conflict",
+        "transition between board slots"
+      ],
+      "primaryLandmark": "Training Arena",
+      "minorLandmarks": [
+        "Woven Banners Monument",
+        "Champion Gate Nook",
+        "Arena / Training Civic Hall"
+      ]
+    },
+    {
+      "districtNumber": 21,
+      "sectionNumber": 4,
+      "name": "D21 Religious / Temple Quarter Minor Landmark Lane",
+      "civicPurpose": "One of five Religious / Temple Quarter district slots, focused on minor landmark lane; it supports local movement, services, social pressure, and scene transitions within Section 4.",
+      "visualIdentity": "Procession Stair Nook anchors the slot, supported by Religious Temple Quarter Lantern Monument, Religious / Temple Quarter Civic Hall, Fieldstone, Pine, Granite, Silver, Canvas, and the wolf-like beastfolk civic language.",
+      "emotionalIdentity": "Religious / Temple Quarter expressed through minor landmark lane: pack loyalty with practical street-level specificity.",
+      "gameplayAssetNeeds": [
+        "Procession Stair Nook",
+        "Religious Temple Quarter Lantern Monument",
+        "Religious / Temple Quarter Civic Hall",
+        "Religious / Temple Quarter street dressing",
+        "wolf-like beastfolk civilians",
+        "section-appropriate props"
+      ],
+      "narrativeUse": [
+        "religious / temple quarter errands",
+        "wayfinding by exact landmark",
+        "crowd pressure",
+        "local work conflict",
+        "transition between board slots"
+      ],
+      "primaryLandmark": "Procession Stair Nook",
+      "minorLandmarks": [
+        "Religious Temple Quarter Lantern Monument",
+        "Religious / Temple Quarter Civic Hall"
+      ]
+    },
+    {
+      "districtNumber": 22,
+      "sectionNumber": 4,
+      "name": "D22 Religious / Temple Quarter Working Street Fabric",
+      "civicPurpose": "One of five Religious / Temple Quarter district slots, focused on working street fabric; it supports local movement, services, social pressure, and scene transitions within Section 4.",
+      "visualIdentity": "Temple Platform anchors the slot, supported by Religious Temple Quarter Lantern Monument, Procession Stair Nook, Religious / Temple Quarter Civic Hall, Fieldstone, Pine, Granite, Silver, Canvas, and the wolf-like beastfolk civic language.",
+      "emotionalIdentity": "Religious / Temple Quarter expressed through working street fabric: pack loyalty with practical street-level specificity.",
+      "gameplayAssetNeeds": [
+        "Temple Platform",
+        "Religious Temple Quarter Lantern Monument",
+        "Procession Stair Nook",
+        "Religious / Temple Quarter Civic Hall",
+        "Religious / Temple Quarter street dressing",
+        "wolf-like beastfolk civilians",
+        "section-appropriate props"
+      ],
+      "narrativeUse": [
+        "religious / temple quarter errands",
+        "wayfinding by exact landmark",
+        "crowd pressure",
+        "local work conflict",
+        "transition between board slots"
+      ],
+      "primaryLandmark": "Temple Platform",
+      "minorLandmarks": [
+        "Religious Temple Quarter Lantern Monument",
+        "Procession Stair Nook",
+        "Religious / Temple Quarter Civic Hall"
+      ]
+    },
+    {
+      "districtNumber": 23,
+      "sectionNumber": 5,
+      "name": "D23 Arena / Training Monument Square",
+      "civicPurpose": "One of five Arena / Training district slots, focused on monument square; it supports local movement, services, social pressure, and scene transitions within Section 5.",
+      "visualIdentity": "Woven Banners Monument anchors the slot, supported by Champion Gate Nook, Arena / Training Civic Hall, Fieldstone, Pine, Granite, Silver, Canvas, and the wolf-like beastfolk civic language.",
+      "emotionalIdentity": "Arena / Training expressed through monument square: pack loyalty with practical street-level specificity.",
+      "gameplayAssetNeeds": [
+        "Woven Banners Monument",
+        "Champion Gate Nook",
+        "Arena / Training Civic Hall",
+        "Arena / Training street dressing",
+        "wolf-like beastfolk civilians",
+        "section-appropriate props"
+      ],
+      "narrativeUse": [
+        "arena / training errands",
+        "wayfinding by exact landmark",
+        "crowd pressure",
+        "local work conflict",
+        "transition between board slots"
+      ],
+      "primaryLandmark": "Woven Banners Monument",
+      "minorLandmarks": [
+        "Champion Gate Nook",
+        "Arena / Training Civic Hall"
+      ]
+    },
+    {
+      "districtNumber": 24,
+      "sectionNumber": 5,
+      "name": "D24 Arena / Training Minor Landmark Lane",
+      "civicPurpose": "One of five Arena / Training district slots, focused on minor landmark lane; it supports local movement, services, social pressure, and scene transitions within Section 5.",
+      "visualIdentity": "Champion Gate Nook anchors the slot, supported by Woven Banners Monument, Arena / Training Civic Hall, Fieldstone, Pine, Granite, Silver, Canvas, and the wolf-like beastfolk civic language.",
+      "emotionalIdentity": "Arena / Training expressed through minor landmark lane: pack loyalty with practical street-level specificity.",
+      "gameplayAssetNeeds": [
+        "Champion Gate Nook",
+        "Woven Banners Monument",
+        "Arena / Training Civic Hall",
+        "Arena / Training street dressing",
+        "wolf-like beastfolk civilians",
+        "section-appropriate props"
+      ],
+      "narrativeUse": [
+        "arena / training errands",
+        "wayfinding by exact landmark",
+        "crowd pressure",
+        "local work conflict",
+        "transition between board slots"
+      ],
+      "primaryLandmark": "Champion Gate Nook",
+      "minorLandmarks": [
+        "Woven Banners Monument",
+        "Arena / Training Civic Hall"
+      ]
+    },
+    {
+      "districtNumber": 25,
+      "sectionNumber": 5,
+      "name": "D25 Arena / Training Working Street Fabric",
+      "civicPurpose": "One of five Arena / Training district slots, focused on working street fabric; it supports local movement, services, social pressure, and scene transitions within Section 5.",
+      "visualIdentity": "Training Arena anchors the slot, supported by Woven Banners Monument, Champion Gate Nook, Arena / Training Civic Hall, Fieldstone, Pine, Granite, Silver, Canvas, and the wolf-like beastfolk civic language.",
+      "emotionalIdentity": "Arena / Training expressed through working street fabric: pack loyalty with practical street-level specificity.",
+      "gameplayAssetNeeds": [
+        "Training Arena",
+        "Woven Banners Monument",
+        "Champion Gate Nook",
+        "Arena / Training Civic Hall",
+        "Arena / Training street dressing",
+        "wolf-like beastfolk civilians",
+        "section-appropriate props"
+      ],
+      "narrativeUse": [
+        "arena / training errands",
+        "wayfinding by exact landmark",
+        "crowd pressure",
+        "local work conflict",
+        "transition between board slots"
+      ],
+      "primaryLandmark": "Training Arena",
+      "minorLandmarks": [
+        "Woven Banners Monument",
+        "Champion Gate Nook",
+        "Arena / Training Civic Hall"
+      ]
+    }
+  ],
+  "landmarks": {
+    "wonder": {
+      "name": "Wolfkin Pack-Moon Hall of the Hunt Circle",
+      "symbolicRole": "The citywide symbol of shared protection made monumental.",
+      "visualRole": "A wonder-scale skyline anchor using Fieldstone, Pine, Granite, Silver, Canvas, Cliffside, Terraced Slope, Civic Terraces, Dry Ground, and the wolf-like beastfolk visual language.",
+      "civicRole": "Represents the whole city above the five sections: Nature Preserve / Sacred Grove, Fortress / Border Wall, Public Works Authority, Religious / Temple Quarter, Arena / Training.",
+      "narrativeUse": [
+        "arrival revelation",
+        "city identity scene",
+        "public ceremony",
+        "distant navigation",
+        "symbolic contrast with district-level conflict"
+      ],
+      "assetUse": [
+        "map background skyline anchor",
+        "hero-view focal point",
+        "diorama backdrop",
+        "visual identifier for city"
+      ],
+      "sensoryIdentity": [
+        "fieldstone",
+        "pine",
+        "granite",
+        "silver",
+        "canvas",
+        "cliffside",
+        "terraced slope"
+      ],
+      "storyHooks": [
+        "access to Wolfkin Pack-Moon Hall of the Hunt Circle changes public legitimacy",
+        "a citywide ritual reveals hidden pressure",
+        "the Wonder becomes a navigation or warning reference"
+      ]
+    },
+    "beacon": {
+      "name": "Sacred Grove Beacon",
+      "symbolicRole": "Public signal and shared alarm for Vargrheim.",
+      "visualRole": "A section-scale signal landmark that must read immediately as the city Beacon.",
+      "civicRole": "Coordinates public response, civic warnings, and Conjunction-state attention.",
+      "narrativeUse": [
+        "beacon color change",
+        "crowd response",
+        "public warning",
+        "rumor spread",
+        "panic or disciplined response"
+      ],
+      "assetUse": [
+        "district diorama signal centerpiece",
+        "city map signal icon",
+        "public plaza asset"
+      ],
+      "sensoryIdentity": [
+        "signal glow",
+        "crowd hush",
+        "public calls",
+        "fieldstone",
+        "pine",
+        "granite",
+        "silver"
+      ],
+      "storyHooks": [
+        "someone controls the first interpretation of a signal",
+        "the Beacon redirects traffic between sections",
+        "a warning exposes which citizens trust civic authority"
+      ]
+    },
+    "seatOfPower": {
+      "name": "Wolf Tooth Borders Sovereign Registry Court",
+      "symbolicRole": "Central authority made visible and source-backed.",
+      "visualRole": "The District 13 authority complex with formal approaches and city-specific materials.",
+      "civicRole": "Seat of government, petitions, records, rulings, and command visibility.",
+      "narrativeUse": [
+        "formal petition",
+        "sealed ruling",
+        "private audience",
+        "public legitimacy challenge",
+        "citywide order"
+      ],
+      "assetUse": [
+        "central map authority marker",
+        "D13 diorama landmark",
+        "government-scene backdrop"
+      ],
+      "sensoryIdentity": [
+        "formal silence",
+        "clerks and guards",
+        "sealed records",
+        "fieldstone",
+        "pine",
+        "granite",
+        "silver"
+      ],
+      "storyHooks": [
+        "a ruling contradicts a section custom",
+        "a sealed record changes public interpretation",
+        "D13 becomes a pressure point during crisis"
+      ]
+    },
+    "majorLandmarks": [
+      {
+        "name": "Nature Preserve / Sacred Grove Civic Hall",
+        "symbolicRole": "Nature Preserve / Sacred Grove expressed through a civic center anchor.",
+        "visualRole": "Nature Preserve / Sacred Grove Civic Hall should show institutional anchor, public-facing administration, clear central silhouette, board-readable entrance, roots, using Fieldstone, Pine, Granite, Silver, Canvas and section-specific massing.",
+        "civicRole": "Supports Section 1's Nature Preserve / Sacred Grove purpose as a local civic, movement, memory, or service node.",
+        "narrativeUse": [
+          "nature preserve / sacred grove scene anchor",
+          "local meeting point",
+          "evidence or route clue",
+          "crowd behavior marker"
+        ],
+        "assetUse": [
+          "Section 1 diorama asset",
+          "map label or icon",
+          "district-scale landmark prop cluster"
+        ],
+        "sensoryIdentity": [
+          "institutional anchor",
+          "public-facing administration",
+          "clear central silhouette",
+          "board-readable entrance",
+          "fieldstone",
+          "pine",
+          "granite"
+        ],
+        "storyHooks": [
+          "Nature Preserve / Sacred Grove Civic Hall becomes the specific landmark that prevents the scene from feeling generic",
+          "a local dispute centers on access to Nature Preserve / Sacred Grove Civic Hall"
+        ]
+      },
+      {
+        "name": "Hanging Gardens Monument",
+        "symbolicRole": "Nature Preserve / Sacred Grove expressed through a monument anchor.",
+        "visualRole": "Hanging Gardens Monument should show sacred groves, tree platforms, spring courts, protected paths, symbolic civic object, using Fieldstone, Pine, Granite, Silver, Canvas and section-specific massing.",
+        "civicRole": "Supports Section 1's Nature Preserve / Sacred Grove purpose as a local civic, movement, memory, or service node.",
+        "narrativeUse": [
+          "nature preserve / sacred grove scene anchor",
+          "local meeting point",
+          "evidence or route clue",
+          "crowd behavior marker"
+        ],
+        "assetUse": [
+          "Section 1 diorama asset",
+          "map label or icon",
+          "district-scale landmark prop cluster"
+        ],
+        "sensoryIdentity": [
+          "sacred groves",
+          "tree platforms",
+          "spring courts",
+          "protected paths",
+          "fieldstone",
+          "pine",
+          "granite"
+        ],
+        "storyHooks": [
+          "Hanging Gardens Monument becomes the specific landmark that prevents the scene from feeling generic",
+          "a local dispute centers on access to Hanging Gardens Monument"
+        ]
+      },
+      {
+        "name": "Living Canopy Hall Nook",
+        "symbolicRole": "Nature Preserve / Sacred Grove expressed through a minor landmark anchor.",
+        "visualRole": "Living Canopy Hall Nook should show animal tracks, sacred groves, tree platforms, spring courts, protected paths, using Fieldstone, Pine, Granite, Silver, Canvas and section-specific massing.",
+        "civicRole": "Supports Section 1's Nature Preserve / Sacred Grove purpose as a local civic, movement, memory, or service node.",
+        "narrativeUse": [
+          "nature preserve / sacred grove scene anchor",
+          "local meeting point",
+          "evidence or route clue",
+          "crowd behavior marker"
+        ],
+        "assetUse": [
+          "Section 1 diorama asset",
+          "map label or icon",
+          "district-scale landmark prop cluster"
+        ],
+        "sensoryIdentity": [
+          "animal tracks",
+          "sacred groves",
+          "tree platforms",
+          "spring courts",
+          "fieldstone",
+          "pine",
+          "granite"
+        ],
+        "storyHooks": [
+          "Living Canopy Hall Nook becomes the specific landmark that prevents the scene from feeling generic",
+          "a local dispute centers on access to Living Canopy Hall Nook"
+        ]
+      },
+      {
+        "name": "Fortress / Border Wall Civic Hall",
+        "symbolicRole": "Fortress / Border Wall expressed through a civic center anchor.",
+        "visualRole": "Fortress / Border Wall Civic Hall should show portcullises, shield marks, signal fires, curtain walls, gatehouses, using Fieldstone, Pine, Granite, Silver, Canvas and section-specific massing.",
+        "civicRole": "Supports Section 2's Fortress / Border Wall purpose as a local civic, movement, memory, or service node.",
+        "narrativeUse": [
+          "fortress / border wall scene anchor",
+          "local meeting point",
+          "evidence or route clue",
+          "crowd behavior marker"
+        ],
+        "assetUse": [
+          "Section 2 diorama asset",
+          "map label or icon",
+          "district-scale landmark prop cluster"
+        ],
+        "sensoryIdentity": [
+          "portcullises",
+          "shield marks",
+          "signal fires",
+          "curtain walls",
+          "fieldstone",
+          "pine",
+          "granite"
+        ],
+        "storyHooks": [
+          "Fortress / Border Wall Civic Hall becomes the specific landmark that prevents the scene from feeling generic",
+          "a local dispute centers on access to Fortress / Border Wall Civic Hall"
+        ]
+      },
+      {
+        "name": "Border Wall",
+        "symbolicRole": "Fortress / Border Wall expressed through a major landmark anchor.",
+        "visualRole": "Border Wall should show distinct gameplay landmark, visible from nearby districts, walls, portcullises, shield marks, using Fieldstone, Pine, Granite, Silver, Canvas and section-specific massing.",
+        "civicRole": "Supports Section 2's Fortress / Border Wall purpose as a local civic, movement, memory, or service node.",
+        "narrativeUse": [
+          "fortress / border wall scene anchor",
+          "local meeting point",
+          "evidence or route clue",
+          "crowd behavior marker"
+        ],
+        "assetUse": [
+          "Section 2 diorama asset",
+          "map label or icon",
+          "district-scale landmark prop cluster"
+        ],
+        "sensoryIdentity": [
+          "distinct gameplay landmark",
+          "visible from nearby districts",
+          "walls",
+          "portcullises",
+          "fieldstone",
+          "pine",
+          "granite"
+        ],
+        "storyHooks": [
+          "Border Wall becomes the specific landmark that prevents the scene from feeling generic",
+          "a local dispute centers on access to Border Wall"
+        ]
+      },
+      {
+        "name": "Woven Banners Monument",
+        "symbolicRole": "Fortress / Border Wall expressed through a monument anchor.",
+        "visualRole": "Woven Banners Monument should show signal fires, curtain walls, gatehouses, bastions, guard posts, using Fieldstone, Pine, Granite, Silver, Canvas and section-specific massing.",
+        "civicRole": "Supports Section 2's Fortress / Border Wall purpose as a local civic, movement, memory, or service node.",
+        "narrativeUse": [
+          "fortress / border wall scene anchor",
+          "local meeting point",
+          "evidence or route clue",
+          "crowd behavior marker"
+        ],
+        "assetUse": [
+          "Section 2 diorama asset",
+          "map label or icon",
+          "district-scale landmark prop cluster"
+        ],
+        "sensoryIdentity": [
+          "signal fires",
+          "curtain walls",
+          "gatehouses",
+          "bastions",
+          "fieldstone",
+          "pine",
+          "granite"
+        ],
+        "storyHooks": [
+          "Woven Banners Monument becomes the specific landmark that prevents the scene from feeling generic",
+          "a local dispute centers on access to Woven Banners Monument"
+        ]
+      },
+      {
+        "name": "Watch Bastion Nook",
+        "symbolicRole": "Fortress / Border Wall expressed through a minor landmark anchor.",
+        "visualRole": "Watch Bastion Nook should show shield marks, signal fires, curtain walls, gatehouses, bastions, using Fieldstone, Pine, Granite, Silver, Canvas and section-specific massing.",
+        "civicRole": "Supports Section 2's Fortress / Border Wall purpose as a local civic, movement, memory, or service node.",
+        "narrativeUse": [
+          "fortress / border wall scene anchor",
+          "local meeting point",
+          "evidence or route clue",
+          "crowd behavior marker"
+        ],
+        "assetUse": [
+          "Section 2 diorama asset",
+          "map label or icon",
+          "district-scale landmark prop cluster"
+        ],
+        "sensoryIdentity": [
+          "shield marks",
+          "signal fires",
+          "curtain walls",
+          "gatehouses",
+          "fieldstone",
+          "pine",
+          "granite"
+        ],
+        "storyHooks": [
+          "Watch Bastion Nook becomes the specific landmark that prevents the scene from feeling generic",
+          "a local dispute centers on access to Watch Bastion Nook"
+        ]
+      },
+      {
+        "name": "Public Works Authority Hall",
+        "symbolicRole": "Public Works Authority expressed through a civic center anchor.",
+        "visualRole": "Public Works Authority Hall should show survey yards, bridge offices, repair yards, institutional anchor, public-facing administration, using Fieldstone, Pine, Granite, Silver, Canvas and section-specific massing.",
+        "civicRole": "Supports Section 3's Public Works Authority purpose as a local civic, movement, memory, or service node.",
+        "narrativeUse": [
+          "public works authority scene anchor",
+          "local meeting point",
+          "evidence or route clue",
+          "crowd behavior marker"
+        ],
+        "assetUse": [
+          "Section 3 diorama asset",
+          "map label or icon",
+          "district-scale landmark prop cluster"
+        ],
+        "sensoryIdentity": [
+          "survey yards",
+          "bridge offices",
+          "repair yards",
+          "institutional anchor",
+          "fieldstone",
+          "pine",
+          "granite"
+        ],
+        "storyHooks": [
+          "Public Works Authority Hall becomes the specific landmark that prevents the scene from feeling generic",
+          "a local dispute centers on access to Public Works Authority Hall"
+        ]
+      },
+      {
+        "name": "Survey Hall",
+        "symbolicRole": "Public Works Authority expressed through a major landmark anchor.",
+        "visualRole": "Survey Hall should show beacon-compatible flame or signal structure, largest section focal point, strong vertical silhouette, distinct gameplay landmark, visible from nearby districts, using Fieldstone, Pine, Granite, Silver, Canvas and section-specific massing.",
+        "civicRole": "Supports Section 3's Public Works Authority purpose as a local civic, movement, memory, or service node.",
+        "narrativeUse": [
+          "public works authority scene anchor",
+          "local meeting point",
+          "evidence or route clue",
+          "crowd behavior marker"
+        ],
+        "assetUse": [
+          "Section 3 diorama asset",
+          "map label or icon",
+          "district-scale landmark prop cluster"
+        ],
+        "sensoryIdentity": [
+          "beacon-compatible flame or signal structure",
+          "largest section focal point",
+          "strong vertical silhouette",
+          "distinct gameplay landmark",
+          "fieldstone",
+          "pine",
+          "granite"
+        ],
+        "storyHooks": [
+          "Survey Hall becomes the specific landmark that prevents the scene from feeling generic",
+          "a local dispute centers on access to Survey Hall"
+        ]
+      },
+      {
+        "name": "Blue-Lamp Monument",
+        "symbolicRole": "Public Works Authority expressed through a monument anchor.",
+        "visualRole": "Blue-Lamp Monument should show bridge offices, repair yards, symbolic civic object, small ceremonial site, local memory marker, using Fieldstone, Pine, Granite, Silver, Canvas and section-specific massing.",
+        "civicRole": "Supports Section 3's Public Works Authority purpose as a local civic, movement, memory, or service node.",
+        "narrativeUse": [
+          "public works authority scene anchor",
+          "local meeting point",
+          "evidence or route clue",
+          "crowd behavior marker"
+        ],
+        "assetUse": [
+          "Section 3 diorama asset",
+          "map label or icon",
+          "district-scale landmark prop cluster"
+        ],
+        "sensoryIdentity": [
+          "bridge offices",
+          "repair yards",
+          "symbolic civic object",
+          "small ceremonial site",
+          "fieldstone",
+          "pine",
+          "granite"
+        ],
+        "storyHooks": [
+          "Blue-Lamp Monument becomes the specific landmark that prevents the scene from feeling generic",
+          "a local dispute centers on access to Blue-Lamp Monument"
+        ]
+      },
+      {
+        "name": "Permit Yard Nook",
+        "symbolicRole": "Public Works Authority expressed through a minor landmark anchor.",
+        "visualRole": "Permit Yard Nook should show subordinate scale, measuring rods, scaffolds, stone plans, water gauges, using Fieldstone, Pine, Granite, Silver, Canvas and section-specific massing.",
+        "civicRole": "Supports Section 3's Public Works Authority purpose as a local civic, movement, memory, or service node.",
+        "narrativeUse": [
+          "public works authority scene anchor",
+          "local meeting point",
+          "evidence or route clue",
+          "crowd behavior marker"
+        ],
+        "assetUse": [
+          "Section 3 diorama asset",
+          "map label or icon",
+          "district-scale landmark prop cluster"
+        ],
+        "sensoryIdentity": [
+          "subordinate scale",
+          "measuring rods",
+          "scaffolds",
+          "stone plans",
+          "fieldstone",
+          "pine",
+          "granite"
+        ],
+        "storyHooks": [
+          "Permit Yard Nook becomes the specific landmark that prevents the scene from feeling generic",
+          "a local dispute centers on access to Permit Yard Nook"
+        ]
+      },
+      {
+        "name": "Religious / Temple Quarter Civic Hall",
+        "symbolicRole": "Religious / Temple Quarter expressed through a civic center anchor.",
+        "visualRole": "Religious / Temple Quarter Civic Hall should show institutional anchor, public-facing administration, clear central silhouette, board-readable entrance, incense, using Fieldstone, Pine, Granite, Silver, Canvas and section-specific massing.",
+        "civicRole": "Supports Section 4's Religious / Temple Quarter purpose as a local civic, movement, memory, or service node.",
+        "narrativeUse": [
+          "religious / temple quarter scene anchor",
+          "local meeting point",
+          "evidence or route clue",
+          "crowd behavior marker"
+        ],
+        "assetUse": [
+          "Section 4 diorama asset",
+          "map label or icon",
+          "district-scale landmark prop cluster"
+        ],
+        "sensoryIdentity": [
+          "institutional anchor",
+          "public-facing administration",
+          "clear central silhouette",
+          "board-readable entrance",
+          "fieldstone",
+          "pine",
+          "granite"
+        ],
+        "storyHooks": [
+          "Religious / Temple Quarter Civic Hall becomes the specific landmark that prevents the scene from feeling generic",
+          "a local dispute centers on access to Religious / Temple Quarter Civic Hall"
+        ]
+      },
+      {
+        "name": "Temple Platform",
+        "symbolicRole": "Religious / Temple Quarter expressed through a major landmark anchor.",
+        "visualRole": "Temple Platform should show incense, votive lamps, reliquaries, processional banners, temple terraces, using Fieldstone, Pine, Granite, Silver, Canvas and section-specific massing.",
+        "civicRole": "Supports Section 4's Religious / Temple Quarter purpose as a local civic, movement, memory, or service node.",
+        "narrativeUse": [
+          "religious / temple quarter scene anchor",
+          "local meeting point",
+          "evidence or route clue",
+          "crowd behavior marker"
+        ],
+        "assetUse": [
+          "Section 4 diorama asset",
+          "map label or icon",
+          "district-scale landmark prop cluster"
+        ],
+        "sensoryIdentity": [
+          "incense",
+          "votive lamps",
+          "reliquaries",
+          "processional banners",
+          "fieldstone",
+          "pine",
+          "granite"
+        ],
+        "storyHooks": [
+          "Temple Platform becomes the specific landmark that prevents the scene from feeling generic",
+          "a local dispute centers on access to Temple Platform"
+        ]
+      },
+      {
+        "name": "Religious Temple Quarter Lantern Monument",
+        "symbolicRole": "Religious / Temple Quarter expressed through a monument anchor.",
+        "visualRole": "Religious Temple Quarter Lantern Monument should show votive lamps, reliquaries, processional banners, temple terraces, prayer cloisters, using Fieldstone, Pine, Granite, Silver, Canvas and section-specific massing.",
+        "civicRole": "Supports Section 4's Religious / Temple Quarter purpose as a local civic, movement, memory, or service node.",
+        "narrativeUse": [
+          "religious / temple quarter scene anchor",
+          "local meeting point",
+          "evidence or route clue",
+          "crowd behavior marker"
+        ],
+        "assetUse": [
+          "Section 4 diorama asset",
+          "map label or icon",
+          "district-scale landmark prop cluster"
+        ],
+        "sensoryIdentity": [
+          "votive lamps",
+          "reliquaries",
+          "processional banners",
+          "temple terraces",
+          "fieldstone",
+          "pine",
+          "granite"
+        ],
+        "storyHooks": [
+          "Religious Temple Quarter Lantern Monument becomes the specific landmark that prevents the scene from feeling generic",
+          "a local dispute centers on access to Religious Temple Quarter Lantern Monument"
+        ]
+      },
+      {
+        "name": "Procession Stair Nook",
+        "symbolicRole": "Religious / Temple Quarter expressed through a minor landmark anchor.",
+        "visualRole": "Procession Stair Nook should show processional banners, temple terraces, prayer cloisters, ritual courts, offering counters, using Fieldstone, Pine, Granite, Silver, Canvas and section-specific massing.",
+        "civicRole": "Supports Section 4's Religious / Temple Quarter purpose as a local civic, movement, memory, or service node.",
+        "narrativeUse": [
+          "religious / temple quarter scene anchor",
+          "local meeting point",
+          "evidence or route clue",
+          "crowd behavior marker"
+        ],
+        "assetUse": [
+          "Section 4 diorama asset",
+          "map label or icon",
+          "district-scale landmark prop cluster"
+        ],
+        "sensoryIdentity": [
+          "processional banners",
+          "temple terraces",
+          "prayer cloisters",
+          "ritual courts",
+          "fieldstone",
+          "pine",
+          "granite"
+        ],
+        "storyHooks": [
+          "Procession Stair Nook becomes the specific landmark that prevents the scene from feeling generic",
+          "a local dispute centers on access to Procession Stair Nook"
+        ]
+      },
+      {
+        "name": "Arena / Training Civic Hall",
+        "symbolicRole": "Arena / Training expressed through a civic center anchor.",
+        "visualRole": "Arena / Training Civic Hall should show arenas, training yards, weapon courts, practice rings, institutional anchor, using Fieldstone, Pine, Granite, Silver, Canvas and section-specific massing.",
+        "civicRole": "Supports Section 5's Arena / Training purpose as a local civic, movement, memory, or service node.",
+        "narrativeUse": [
+          "arena / training scene anchor",
+          "local meeting point",
+          "evidence or route clue",
+          "crowd behavior marker"
+        ],
+        "assetUse": [
+          "Section 5 diorama asset",
+          "map label or icon",
+          "district-scale landmark prop cluster"
+        ],
+        "sensoryIdentity": [
+          "arenas",
+          "training yards",
+          "weapon courts",
+          "practice rings",
+          "fieldstone",
+          "pine",
+          "granite"
+        ],
+        "storyHooks": [
+          "Arena / Training Civic Hall becomes the specific landmark that prevents the scene from feeling generic",
+          "a local dispute centers on access to Arena / Training Civic Hall"
+        ]
+      },
+      {
+        "name": "Training Arena",
+        "symbolicRole": "Arena / Training expressed through a major landmark anchor.",
+        "visualRole": "Training Arena should show weapon courts, practice rings, largest section focal point, strong vertical silhouette, distinct gameplay landmark, using Fieldstone, Pine, Granite, Silver, Canvas and section-specific massing.",
+        "civicRole": "Supports Section 5's Arena / Training purpose as a local civic, movement, memory, or service node.",
+        "narrativeUse": [
+          "arena / training scene anchor",
+          "local meeting point",
+          "evidence or route clue",
+          "crowd behavior marker"
+        ],
+        "assetUse": [
+          "Section 5 diorama asset",
+          "map label or icon",
+          "district-scale landmark prop cluster"
+        ],
+        "sensoryIdentity": [
+          "weapon courts",
+          "practice rings",
+          "largest section focal point",
+          "strong vertical silhouette",
+          "fieldstone",
+          "pine",
+          "granite"
+        ],
+        "storyHooks": [
+          "Training Arena becomes the specific landmark that prevents the scene from feeling generic",
+          "a local dispute centers on access to Training Arena"
+        ]
+      },
+      {
+        "name": "Champion Gate Nook",
+        "symbolicRole": "Arena / Training expressed through a minor landmark anchor.",
+        "visualRole": "Champion Gate Nook should show usable board landmark, subordinate scale, banners, sand floors, practice weapons, using Fieldstone, Pine, Granite, Silver, Canvas and section-specific massing.",
+        "civicRole": "Supports Section 5's Arena / Training purpose as a local civic, movement, memory, or service node.",
+        "narrativeUse": [
+          "arena / training scene anchor",
+          "local meeting point",
+          "evidence or route clue",
+          "crowd behavior marker"
+        ],
+        "assetUse": [
+          "Section 5 diorama asset",
+          "map label or icon",
+          "district-scale landmark prop cluster"
+        ],
+        "sensoryIdentity": [
+          "usable board landmark",
+          "subordinate scale",
+          "banners",
+          "sand floors",
+          "fieldstone",
+          "pine",
+          "granite"
+        ],
+        "storyHooks": [
+          "Champion Gate Nook becomes the specific landmark that prevents the scene from feeling generic",
+          "a local dispute centers on access to Champion Gate Nook"
+        ]
+      }
+    ]
+  },
+  "assetGuidance": {
+    "districtDioramaGuidance": [
+      "Create twenty-five district dioramas grouped into five recognizable sections: Nature Preserve / Sacred Grove, Fortress / Border Wall, Public Works Authority, Religious / Temple Quarter, Arena / Training.",
+      "Each district should use its districtNumber and sectionNumber, but avoid baked text labels in imagery.",
+      "D13 must read as the Seat of Power district centered on Wolf Tooth Borders Sovereign Registry Court.",
+      "Repeated section anchors may appear across five related slots, but each slot needs its own street function, crowd density, and prop emphasis.",
+      "Use exact source-backed anchor names for file naming, prompt references, and canon cross-checking.",
+      "S1 must preserve Nature Preserve / Sacred Grove with anchors: Nature Preserve / Sacred Grove Civic Hall, Sacred Grove Beacon, Hanging Gardens Monument, Living Canopy Hall Nook.",
+      "S2 must preserve Fortress / Border Wall with anchors: Fortress / Border Wall Civic Hall, Border Wall, Woven Banners Monument, Watch Bastion Nook.",
+      "S3 must preserve Public Works Authority with anchors: Public Works Authority Hall, Survey Hall, Blue-Lamp Monument, Permit Yard Nook.",
+      "S4 must preserve Religious / Temple Quarter with anchors: Religious / Temple Quarter Civic Hall, Temple Platform, Religious Temple Quarter Lantern Monument, Procession Stair Nook.",
+      "S5 must preserve Arena / Training with anchors: Arena / Training Civic Hall, Training Arena, Woven Banners Monument, Champion Gate Nook."
+    ],
+    "mapBackgroundGuidance": [
+      "Map backgrounds should keep Wolfkin Pack-Moon Hall of the Hunt Circle as the skyline symbol, Wolf Tooth Borders Sovereign Registry Court at the central civic authority, and Sacred Grove Beacon as the readable public signal.",
+      "Arrange the five section identities so Vargrheim does not converge with other cities: Nature Preserve / Sacred Grove, Fortress / Border Wall, Public Works Authority, Religious / Temple Quarter, Arena / Training.",
+      "Use terrain cues (Cliffside, Terraced Slope, Civic Terraces, Dry Ground), material cues (Fieldstone, Pine, Granite, Silver, Canvas), and magic cues (Beast Bonding, Ancestor Guidance, Pack Instinct, Arena Strength Charms) consistently across district clusters.",
+      "Show roads, terraces, gates, courts, or paths that make the twenty-five-district tactical layout plausible."
+    ],
+    "requiredVisualElements": [
+      "wolf-like beastfolk",
+      "Wolfkin Pack-Moon Hall of the Hunt Circle",
+      "Sacred Grove Beacon",
+      "Wolf Tooth Borders Sovereign Registry Court",
+      "Fieldstone",
+      "Pine",
+      "Granite",
+      "Silver",
+      "Canvas",
+      "Cliffside",
+      "Terraced Slope",
+      "Civic Terraces",
+      "Dry Ground",
+      "Beast Bonding",
+      "Ancestor Guidance",
+      "Pack Instinct",
+      "Arena Strength Charms",
+      "Border Wall",
+      "Survey Hall",
+      "Temple Platform",
+      "Training Arena"
+    ],
+    "elementsToAvoid": [
+      "extra top-level schema sections or embedded generation notes",
+      "generic fantasy city assets that ignore exact anchor names",
+      "unlabeled invented landmarks replacing sidecar names",
+      "flattening five sections into one visual district",
+      "treating culture identity as costume rather than civic design",
+      "overcrowded detail that hides Wonder, Beacon, or Seat of Power"
+    ]
+  }
+}

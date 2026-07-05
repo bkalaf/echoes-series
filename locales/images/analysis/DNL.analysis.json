@@ -4,9 +4,12 @@
     "analysisVersion": 2,
     "cityCode": "DNL",
     "cityName": "Dun Liath",
-    "analysisDate": "2026-07-03",
+    "analysisDate": "2026-07-05",
     "analystVersion": "gpt-5.5-thinking",
     "analysisConfidence": "strong-lock",
+    "sourceStatus": "full",
+    "districtModel": "five sections; five district slots per section; D13 is the seat of power",
+    "missingStreetSections": [],
     "basedOnImages": [
       "DNL-HERO-NE-v001",
       "DNL-HERO-NW-v001",
@@ -31,472 +34,1113 @@
     ]
   },
   "cityDNA": {
-    "coreFantasy": "An old grey-stone Celtic river-market capital where oaths, craft, archives, tenements, theater, and hillfort memory are made into public life.",
-    "primaryEmotion": "communal gravity",
-    "secondaryEmotion": "market warmth",
-    "readerTakeaway": "Dun Liath is not wilderness nostalgia; it is public oath, market speech, archive memory, craft legitimacy, low residential density, and communal ceremony made into stone.",
-    "civilizationThesis": "Dun Liath turns knotwork registry law, covered bazaars, artisan guilds, archives, tenement courts, theater culture, and the green spiral hillfort into a settled river civilization of oaths, memory, trade, craft, and performance.",
-    "visualIdentity": "Grey stone, mossy masonry, dry-stone paving, dark timber, red awnings, blue lamps, round towers, covered bazaars, guildhalls, archive towers, tenement courts, opera courts, bridge streets, hillfort rings, and awninged public markets.",
-    "culturalIdentity": "An Irish/Celtic-coded civic river capital where market speech, public records, guild craft, performance, and communal oath bind urban life.",
-    "symbolicIdentity": "Spiral knotwork, oath rings, round towers, gold seals, red awnings, blue lamps, woven banners, standing-circle silhouettes, masks, auction courts, masterwork arcades, and laundry wells symbolize public memory."
+    "coreFantasy": "A Irish / Celtic city where Oath-Ring Hillfort of the Green Spiral, Covered Bazaar Beacon, Spiral Knotwork Sovereign Registry Court, and the five-section district spine turn local identity into functional civic space.",
+    "primaryEmotion": "source-backed civic presence",
+    "secondaryEmotion": "lived-in pressure beneath landmark order",
+    "readerTakeaway": "Dun Liath should feel immediately identifiable through exact landmarks and materials, not through generic fantasy-city shorthand.",
+    "civilizationThesis": "Dun Liath organizes power through Spiral Knotwork Sovereign Registry Court, public response through Covered Bazaar Beacon, civic memory through Oath-Ring Hillfort of the Green Spiral, and daily life through S1 Grand Market Civic Hall, S2 Artisan Guilds Civic Hall, S3 Records / Archives Hall, S4 Low Residential Civic Hall, S5 Entertainment / Theater Civic Hall.",
+    "visualIdentity": "Granite, Peat Brick, Oak, Copper, Dyed Wool, Dry Stone Paving, Civic Terraces, Heather Highland, Civic Blue Illumination, Oath Seals, Ancestral Spirits, and exact anchors including Spiral Knotwork Sovereign Registry Court, Covered Bazaar Beacon, Oath-Ring Hillfort of the Green Spiral, Opera Court, Guildhall, Tenement Court, Grand Market Civic Hall, Awning Monument, Auction Court Nook, Artisan Guilds Civic Hall.",
+    "culturalIdentity": "A Irish / Celtic civic culture where architecture, public obligations, roads, landmark approaches, and everyday work must all read as part of the same civilization.",
+    "symbolicIdentity": "The city symbol system is built from exact names and visible functions: Oath-Ring Hillfort of the Green Spiral, Covered Bazaar Beacon, Spiral Knotwork Sovereign Registry Court, and section anchors such as Grand Market Civic Hall, Artisan Guilds Civic Hall, Records / Archives Hall, Low Residential Civic Hall, Entertainment / Theater Civic Hall."
   },
   "canon": {
     "canonLocks": [
-      "Dun Liath is an old Irish/Celtic civic river town scaled into a capital.",
-      "The Wonder is the Oath-Ring Hillfort of the Green Spiral.",
-      "The Seat of Power is the Spiral Knotwork Sovereign Registry Court.",
-      "The Beacon is the Covered Bazaar Beacon.",
-      "The five primary districts are Grand Market, Artisan Guilds, Records / Archives, Low Residential, and Entertainment / Theater.",
-      "The uploaded district anchors include Grand Market Civic Hall, Awning Monument, Auction Court Nook, Artisan Guilds Civic Hall, Guildhall, Woven Banners Monument, Masterwork Arcade Nook, Records Archives Gold-Seal Monument, Copyist Hall Nook, Low Residential Lantern Monument, Laundry Well Nook, Entertainment Theater Lantern Monument, and Mask Pavilion Nook."
+      "Dun Liath uses city code DNL.",
+      "The Wonder is Oath-Ring Hillfort of the Green Spiral.",
+      "The Beacon is Covered Bazaar Beacon.",
+      "The Seat of Power is Spiral Knotwork Sovereign Registry Court and occupies District 13.",
+      "The city uses five sections with five tactical district slots per section.",
+      "The source-backed section spine is: S1 Grand Market Civic Hall, S2 Artisan Guilds Civic Hall, S3 Records / Archives Hall, S4 Low Residential Civic Hall, S5 Entertainment / Theater Civic Hall.",
+      "Preserve exact anchor name: Spiral Knotwork Sovereign Registry Court.",
+      "Preserve exact anchor name: Covered Bazaar Beacon.",
+      "Preserve exact anchor name: Oath-Ring Hillfort of the Green Spiral.",
+      "Preserve exact anchor name: Opera Court.",
+      "Preserve exact anchor name: Guildhall.",
+      "Preserve exact anchor name: Tenement Court.",
+      "Preserve exact anchor name: Grand Market Civic Hall.",
+      "Preserve exact anchor name: Awning Monument.",
+      "Preserve exact anchor name: Auction Court Nook.",
+      "Preserve exact anchor name: Artisan Guilds Civic Hall.",
+      "Preserve exact anchor name: Woven Banners Monument.",
+      "Preserve exact anchor name: Masterwork Arcade Nook.",
+      "Preserve exact anchor name: Records / Archives Hall.",
+      "Preserve exact anchor name: Archive Tower.",
+      "Preserve exact anchor name: Records Archives Gold-Seal Monument.",
+      "Preserve exact anchor name: Copyist Hall Nook.",
+      "Preserve exact anchor name: Low Residential Civic Hall.",
+      "Preserve exact anchor name: Low Residential Lantern Monument.",
+      "Preserve exact anchor name: Laundry Well Nook.",
+      "Preserve exact anchor name: Entertainment / Theater Civic Hall.",
+      "Preserve exact anchor name: Entertainment Theater Lantern Monument.",
+      "Preserve exact anchor name: Mask Pavilion Nook."
     ],
-    "provisionalCanon": [
-      "Dun Liath's highest civic virtue is witnessed oath.",
-      "The central tension is public memory versus public performance: truth and theater both happen in front of the same community.",
-      "The Masterwork Arcade likely functions as craft proof, social prestige, and guild politics in one place."
-    ],
+    "provisionalCanon": [],
     "rejectedReads": [
-      "Dun Liath is a wild Celtic ruin.",
-      "Dun Liath is only a market town without civic authority.",
-      "Theater and performance are decorative rather than civic-social forces.",
-      "Guild craft and archive memory can be smoothed into generic medieval flavor."
+      "Do not treat Dun Liath as a generic fantasy settlement with renamed landmarks.",
+      "Do not collapse the five-section board into a single mood or single district.",
+      "Do not replace exact anchor names with generic summaries.",
+      "Do not invent missing street-section landmarks when a street source is absent."
     ],
     "cautionFlags": [
-      "Keep the city dense, lived-in, and permanent.",
-      "Do not over-romanticize wilderness; this is a civic river capital.",
-      "Preserve the mix of market, archive, guild, residential, and performance life.",
-      "Keep exact sidecar anchors like Awning Monument and Masterwork Arcade Nook visible, because they sharpen Dun Liath's market and craft identity."
+      "Keep every named Wonder, Beacon, Seat, section civic hall, major landmark, monument, and minor nook exact when present in sidecars.",
+      "If an image appears to deviate from a sidecar, preserve the exact name but avoid overclaiming visual details not supported by the source package.",
+      "Every district asset should remain usable for narrative scenes, tactical board dioramas, and city map backgrounds."
     ]
   },
   "environment": {
     "terrain": [
-      "river-linked stone city",
-      "bridge streets",
-      "civic terraces",
-      "market courts",
-      "hill roads",
-      "low residential courts",
-      "guild arcades",
-      "theater plazas"
+      "Dry Stone Paving",
+      "Civic Terraces",
+      "Heather Highland"
     ],
     "water": [
-      "river channels",
-      "bridge crossings",
-      "market-edge water",
-      "laundry wells",
-      "wet stone streets",
-      "rain-reflective paving"
+      "dry city ground"
     ],
     "vegetation": [
-      "moss",
-      "green hillfort grasses",
-      "courtyard greenery",
-      "riverbank plants",
-      "market herbs",
-      "grass around oath-ring approaches"
+      "courtyard trees",
+      "balcony planters",
+      "public greenery where visible",
+      "source-backed local vegetation only"
     ],
     "climateLighting": [
-      "soft golden-hour light on grey stone",
-      "blue civic lamp and beacon glow",
-      "warm lanterns beneath red awnings",
-      "market firelight",
-      "cool archive daylight",
-      "theater lanterns",
-      "rain-darkened mossy streets"
+      "Civic Blue Illumination",
+      "Oath Seals",
+      "Ancestral Spirits",
+      "daylight",
+      "golden hour",
+      "lantern light",
+      "civic beacon glow"
     ],
-    "environmentalLogic": "River, market, bridge, archive, guild, tenement, theater, and hillfort all interlock. Public routes carry speech, trade, oaths, craft proof, and performance through dense stone civic space."
+    "environmentalLogic": "The environment should make Dun Liath's exact civic anchors plausible at street scale: terrain routes people toward section landmarks, lighting clarifies public authority, and water or landscape features remain source-backed rather than decorative filler."
   },
   "architecture": {
     "materials": [
-      "grey stone",
-      "mossy masonry",
-      "dry-stone paving",
-      "dark timber",
-      "thatch and shingle roofs",
-      "bronze fittings",
-      "blue glass lamps",
-      "red woven awnings",
-      "gold seals",
-      "weathered plaster",
-      "river stone",
-      "woven banners",
-      "paper and archive fittings"
+      "Granite",
+      "Peat Brick",
+      "Oak",
+      "Copper",
+      "Dyed Wool"
     ],
     "forms": [
-      "round towers",
-      "covered bazaars",
-      "grand market civic halls",
-      "awning monuments",
-      "auction courts",
-      "guildhalls",
-      "masterwork arcades",
-      "archive towers",
-      "copyist halls",
-      "tenement courts",
-      "laundry wells",
-      "opera courts",
-      "mask pavilions",
-      "bridge streets",
-      "civic terraces",
-      "hillfort rings",
-      "standing-circle silhouettes",
-      "market canopies"
+      "Spiral Knotwork Sovereign Registry Court",
+      "Covered Bazaar Beacon",
+      "Oath-Ring Hillfort of the Green Spiral",
+      "Opera Court",
+      "Guildhall",
+      "Tenement Court",
+      "Grand Market Civic Hall",
+      "Awning Monument",
+      "Auction Court Nook",
+      "Artisan Guilds Civic Hall",
+      "Woven Banners Monument",
+      "Masterwork Arcade Nook",
+      "Records / Archives Hall",
+      "Archive Tower",
+      "Records Archives Gold-Seal Monument",
+      "Copyist Hall Nook",
+      "Low Residential Civic Hall",
+      "Low Residential Lantern Monument",
+      "Laundry Well Nook",
+      "Entertainment / Theater Civic Hall",
+      "Entertainment Theater Lantern Monument",
+      "Mask Pavilion Nook",
+      "section civic halls",
+      "major landmark approaches",
+      "monument frontages",
+      "minor landmark nooks",
+      "district roads and plazas",
+      "D13 authority complex"
     ],
     "skyline": [
-      "Spiral Knotwork Sovereign Registry Court as central civic authority",
-      "Covered Bazaar Beacon as market-rooted signal landmark",
-      "Oath-Ring Hillfort of the Green Spiral as far ritual/civic anchor",
-      "archive towers, guild towers, market roofs, opera structures, and bridge-linked civic terraces",
-      "round-tower and spire language linking city to Celtic monastic and hillfort precedent"
+      "Oath-Ring Hillfort of the Green Spiral",
+      "Spiral Knotwork Sovereign Registry Court",
+      "Covered Bazaar Beacon",
+      "Opera Court",
+      "Guildhall",
+      "Tenement Court",
+      "Grand Market Civic Hall",
+      "Awning Monument",
+      "Auction Court Nook"
     ],
     "lighting": [
-      "soft golden-hour light",
-      "blue civic lamp glow",
-      "warm red-awning lanterns",
-      "market firelight",
-      "cool archive daylight",
-      "theater stage warmth",
-      "rain reflections on grey stone"
+      "Civic Blue Illumination",
+      "Oath Seals",
+      "Ancestral Spirits",
+      "beacon-state light",
+      "lantern-lit civic paths",
+      "street-level shop and housing light"
     ],
     "infrastructure": [
-      "stone bridges",
-      "market courts",
-      "auction platforms",
-      "awninged market routes",
-      "guild arcades",
-      "masterwork display paths",
-      "archive stairs",
-      "copyist halls",
-      "laundry wells",
-      "tenement courts",
-      "opera plazas",
-      "mask pavilions",
-      "hill roads"
+      "Grand Market Civic Hall",
+      "Artisan Guilds Civic Hall",
+      "Records / Archives Hall",
+      "Low Residential Civic Hall",
+      "Entertainment / Theater Civic Hall",
+      "roads between district slots",
+      "public thresholds",
+      "plaza edges",
+      "records, permits, markets, services, or rituals implied by anchors"
     ],
     "motifs": [
-      "spiral knotwork",
-      "oath rings",
-      "round towers",
-      "woven banners",
-      "gold seals",
-      "red awnings",
-      "masks",
-      "blue lamps",
-      "bridge stones",
-      "masterwork displays",
-      "laundry wells"
+      "Spiral",
+      "Knotwork",
+      "Sovereign",
+      "Registry",
+      "Court",
+      "Covered",
+      "Bazaar",
+      "Beacon",
+      "Oath-Ring",
+      "Hillfort",
+      "Green",
+      "Opera",
+      "Guildhall",
+      "Tenement"
     ],
     "colorLanguage": [
-      "grey stone",
-      "moss green",
-      "dark timber",
-      "red awnings",
-      "blue lamps",
-      "gold seals",
-      "warm theater amber"
+      "source-backed material colors",
+      "civic blue signal accents",
+      "local textile, stone, metal, vegetation, or water colors from the image package"
     ],
     "textureLanguage": [
-      "mossy stone",
-      "dry-stone paving",
-      "weathered plaster",
-      "woven fabric",
-      "dark wood",
-      "wet river stone",
-      "paper and ink",
-      "worked craft surfaces"
+      "Granite",
+      "Peat Brick",
+      "Oak",
+      "Copper",
+      "Dyed Wool",
+      "worn pedestrian surfaces",
+      "worked civic ornament",
+      "weathered public thresholds",
+      "lived-in shop and housing details"
     ]
   },
   "civilization": {
-    "people": "Citizens are public, verbal, oath-conscious, craft-conscious, archive-aware, and comfortable with market argument and theater as shared civic life.",
+    "people": "The population should read as Irish / Celtic and city-specific: citizens occupy streets, shops, public thresholds, and landmark approaches as people who understand the local civic order.",
     "occupations": [
       "market sellers",
-      "auctioneers",
-      "guild artisans",
-      "masterwork inspectors",
-      "copyists",
+      "stall keepers",
       "archivists",
-      "tenement landlords",
-      "laundry workers",
-      "actors",
-      "mask makers",
-      "musicians",
-      "bridge keepers",
-      "registry clerks",
-      "awning makers"
+      "record clerks",
+      "district clerks",
+      "craft families",
+      "porters",
+      "maintenance workers",
+      "food sellers",
+      "messengers"
     ],
     "socialClasses": [
-      "registry officials",
-      "guild masters",
-      "market families",
-      "archive keepers",
-      "theater patrons",
-      "tenement residents",
-      "craft apprentices",
-      "street performers"
+      "D13 officials and court staff",
+      "section landmark custodians",
+      "guild and service families",
+      "shopkeepers and artisans",
+      "laborers, carriers, messengers, and maintenance crews",
+      "households tied to local district obligations"
     ],
-    "governance": "Authority is oath-registry based, expressed through spiral knotwork records, public markets, guild legitimacy, archives, and communal witnessing.",
-    "religion": "Religious expression is woven through oath rings, hillfort memory, standing-circle silhouettes, public ceremony, and communal obligations rather than separate temple dominance.",
+    "governance": "Government is centered on Spiral Knotwork Sovereign Registry Court. Its authority should be visible through courts, records, public access routes, civic lamps, guards or attendants, and the way citizens respond to D13.",
+    "religion": "Religious or ritual life should only be emphasized where source anchors support it, especially names such as Oath-Ring Hillfort of the Green Spiral.",
     "customs": [
-      "public oath witnessing",
-      "market speech and bargaining",
-      "guild proof of craft",
-      "archive citation",
-      "communal theater attendance",
-      "hillfort ceremony",
-      "public satire that tests memory and reputation"
+      "citizens orient public life around Grand Market Civic Hall in Section 1",
+      "citizens orient public life around Artisan Guilds Civic Hall in Section 2",
+      "citizens orient public life around Records / Archives Hall in Section 3",
+      "citizens orient public life around Low Residential Civic Hall in Section 4",
+      "citizens orient public life around Entertainment / Theater Civic Hall in Section 5",
+      "beacon changes become public behavior, not background color",
+      "exact landmark names carry social memory and directions",
+      "civic errands happen visibly at thresholds, queues, ledgers, stalls, courts, or shrines"
     ],
     "bodyLanguage": [
-      "public gesturing",
-      "close market negotiation",
-      "respectful posture at oath sites",
-      "craftsmen displaying hands and tools",
-      "performers using exaggerated mask movement",
-      "tenement residents watching from windows and wells"
+      "citizens pause at civic signals",
+      "workers move with practiced familiarity around district anchors",
+      "officials use thresholds and raised places to control attention",
+      "residents treat named landmarks as everyday orientation points"
     ],
     "speechPatterns": [
-      "oath formulas",
-      "market wit",
-      "guild terminology",
-      "archive references",
-      "communal teasing",
-      "stage-trained projection"
+      "directions use exact landmark names",
+      "public notices are tied to section anchors",
+      "local speech distinguishes civic authority, ordinary errands, and landmark obligations",
+      "people refer to D13 as the seat of power rather than a faction headquarters"
     ]
   },
   "urbanLife": {
     "streets": {
-      "appearance": "Dense grey-stone streets with bridges, red awnings, round towers, market canopies, guild fronts, masterwork arcades, archive stairs, laundry wells, tenement courts, and theater lanterns.",
-      "movement": "Movement follows bridge streets, market courts, guild arcades, archive stairs, tenement alleys, opera plazas, and hill roads toward the oath-ring wonder.",
+      "appearance": "Streets should show Dun Liath's exact anchor system at pedestrian scale: S1 Grand Market Civic Hall, S2 Artisan Guilds Civic Hall, S3 Records / Archives Hall, S4 Low Residential Civic Hall, S5 Entertainment / Theater Civic Hall. Keep roads, plazas, stairs, thresholds, lamps, signs-without-readable-text, props, and civilians aligned to the source-backed materials and landmarks.",
+      "movement": "Movement should be readable for tactical-board assets: citizens pass between 25 district slots, section anchors, D13, service streets, and landmark approaches without visual clutter hiding the civic purpose.",
       "sounds": [
-        "market calls",
-        "river water",
-        "bridge footsteps",
-        "guild tools",
-        "archive quiet",
-        "laundry wells",
-        "theater music",
-        "public laughter",
-        "bells",
-        "auction calls"
+        "foot traffic",
+        "vendors and service calls",
+        "tools and carts",
+        "public notices",
+        "landmark-specific sounds from water, bells, animals, machines, or crowds when source-backed",
+        "beacon-state crowd reactions"
       ],
       "smells": [
-        "wet stone",
-        "moss",
-        "bread",
-        "beer or malt",
-        "lamp oil",
-        "river air",
-        "ink",
-        "wood smoke",
-        "market food"
+        "street food",
+        "worked material dust",
+        "lamp oil or smoke",
+        "vegetation or water where source-backed",
+        "worn stone, timber, metal, plaster, or fabric"
       ],
-      "lighting": "Blue civic light and warm market or theater lanterns contrast with cool grey stone and moss.",
-      "weatherEffects": "Rain darkens stone, brightens moss, fills market awnings with sound, and makes bridge streets reflective.",
-      "dayCycle": "Daytime is market, craft, archive, and bridge traffic; evening shifts toward theater, tavern-like warmth, and public performance.",
-      "nightCycle": "Night is blue lamps, red awning lanterns, theater glow, river reflections, and close tenement sound."
+      "lighting": "Use the package's source-backed civic lighting, daylight/golden-hour reads, lanterns, and beacon glow. Lighting must help identify authority, safety, and landmark function.",
+      "weatherEffects": "Weather should reinforce the local terrain and materials without overwhelming the city identity or inventing unsupported climate extremes.",
+      "dayCycle": "Day scenes emphasize errands, trade, records, repairs, rituals, food, and section-level movement.",
+      "nightCycle": "Night scenes emphasize lantern routes, closed thresholds, guarded landmarks, quiet work, and beacon visibility."
     },
     "shops": {
       "common": [
-        "market stalls",
-        "bread sellers",
-        "fish counters",
-        "cloth vendors",
-        "lamp sellers",
-        "laundry services",
-        "bridge food carts"
+        "food stalls",
+        "repair stalls",
+        "material vendors",
+        "ledger or permit desks",
+        "local craft counters",
+        "street services tied to section anchors"
       ],
       "uncommon": [
-        "knotwork carvers",
-        "mask makers",
-        "archive copyists",
-        "guild tool shops",
-        "theater costume stalls",
-        "masterwork appraisal counters"
+        "specialist landmark caretakers",
+        "instrument makers",
+        "ritual suppliers",
+        "map or record copyists",
+        "district-specific guild services"
       ],
       "prestigious": [
-        "guild master halls",
-        "registry seal offices",
-        "archive legal counters",
-        "theater patron boxes",
-        "fine bronze workshops"
+        "D13-facing legal or registry services",
+        "elite craft workshops",
+        "landmark commission houses",
+        "official suppliers for civic ceremonies"
       ],
       "exports": [
-        "craft goods",
-        "knotwork carving",
-        "legal copies",
-        "masks",
-        "woven banners",
-        "market goods"
+        "local crafts",
+        "records or seals",
+        "finished materials",
+        "food goods",
+        "specialized tools or ritual goods as supported by anchors"
       ],
       "imports": [
-        "bronze",
-        "fine cloth",
-        "ink",
-        "paper",
-        "spices",
-        "timber"
+        "rare materials",
+        "dyes, oils, spices, timber, stone, metal, glass, or cloth as needed by the architecture",
+        "outside records and trade goods"
       ],
       "streetFood": [
-        "market bread",
-        "river fish",
-        "stew",
-        "oat cakes",
-        "herb pies",
-        "warm cider",
-        "roasted roots"
+        "flatbread or local bread",
+        "stew or grilled skewers",
+        "fruit or preserved food",
+        "tea or civic-square drinks",
+        "portable worker meals"
       ],
       "services": [
-        "oath witnessing",
-        "copying records",
-        "guild certification",
-        "market auctioning",
-        "laundry",
-        "theater performance",
-        "bridge toll work"
+        "directions by landmark",
+        "message running",
+        "permit help",
+        "repairs",
+        "food service",
+        "transport or porterage",
+        "public notice posting"
       ]
     },
     "housing": {
-      "wealthy": "Registry- and guild-adjacent stone houses with carved knotwork, private courtyards, blue lamps, and views toward bridges or hill roads.",
-      "middle": "Guild family homes, rooms over shops, bridge-street apartments, red awnings, shared courts, and dark timber interiors.",
-      "poor": "Dense tenement courts, laundry-well rooms, market-edge flats, mossy stone lanes, shared water, and close public sound."
+      "wealthy": "Prestige housing clusters near Spiral Knotwork Sovereign Registry Court, high terraces, or landmark-facing routes, using the best source-backed materials and controlled views of civic space.",
+      "middle": "Shop-over-house units, courtyard homes, guild-adjacent apartments, and family rooms near section anchors.",
+      "poor": "Smaller back-street rooms, work-adjacent housing, shared courtyards, service alleys, patched materials, and dense but still city-specific lived-in detail."
     }
   },
   "districts": [
     {
+      "districtNumber": 1,
+      "districtId": "D01",
       "sectionNumber": 1,
-      "name": "Grand Market",
-      "civicPurpose": "Public trade, speech, bargaining, assembly, auction, and Beacon-centered civic warning.",
-      "visualIdentity": "Grand Market Civic Hall, Covered Bazaar Beacon, Awning Monument, Auction Court Nook, market canopies, red awnings, bridge traffic, and blue lamps.",
-      "emotionalIdentity": "Warm, loud, public, and socially binding.",
+      "name": "D01 — Grand Market Civic Hall Civic-Anchor Precinct",
+      "civicPurpose": "This district turns Section 1's source-backed anchor set into a board-scale civic space: Grand Market Civic Hall, Covered Bazaar Beacon, Awning Monument, Auction Court Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Dun Liath.",
+      "visualIdentity": "Use Grand Market Civic Hall as the main read. Keep exact source anchors visible where applicable: Grand Market Civic Hall, Covered Bazaar Beacon, Awning Monument, Auction Court Nook. The district should share Dun Liath's Irish / Celtic identity, Granite, Peat Brick, Oak, Copper, and Dry Stone Paving, Civic Terraces, Heather Highland without becoming generic.",
+      "emotionalIdentity": "Locally grounded, with Dun Liath's larger mood shaped by Oath-Ring Hillfort of the Green Spiral, Covered Bazaar Beacon, and Spiral Knotwork Sovereign Registry Court.",
       "gameplayAssetNeeds": [
         "Grand Market Civic Hall",
         "Covered Bazaar Beacon",
         "Awning Monument",
         "Auction Court Nook",
-        "red awnings",
-        "market stalls",
-        "crowds",
-        "blue lamps"
+        "Section 1 pedestrian-scale props",
+        "Dun Liath civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
       ],
       "narrativeUse": [
-        "public rumor",
-        "bargaining",
-        "Beacon reaction",
-        "oath in market",
-        "auction scenes",
-        "public memory tested by commerce"
+        "scenes centered on Grand Market Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
       ],
-      "landmark": "Covered Bazaar Beacon",
+      "landmark": "Grand Market Civic Hall",
       "minorLandmarks": [
+        "Covered Bazaar Beacon",
         "Awning Monument",
         "Auction Court Nook"
       ]
     },
     {
+      "districtNumber": 2,
+      "districtId": "D02",
+      "sectionNumber": 1,
+      "name": "D02 — Covered Bazaar Beacon Landmark Approach",
+      "civicPurpose": "This district turns Section 1's source-backed anchor set into a board-scale civic space: Grand Market Civic Hall, Covered Bazaar Beacon, Awning Monument, Auction Court Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Dun Liath.",
+      "visualIdentity": "Use Covered Bazaar Beacon as the main read. Keep exact source anchors visible where applicable: Grand Market Civic Hall, Covered Bazaar Beacon, Awning Monument, Auction Court Nook. The district should share Dun Liath's Irish / Celtic identity, Granite, Peat Brick, Oak, Copper, and Dry Stone Paving, Civic Terraces, Heather Highland without becoming generic.",
+      "emotionalIdentity": "Public-facing, with Dun Liath's larger mood shaped by Oath-Ring Hillfort of the Green Spiral, Covered Bazaar Beacon, and Spiral Knotwork Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Covered Bazaar Beacon",
+        "Grand Market Civic Hall",
+        "Awning Monument",
+        "Auction Court Nook",
+        "Section 1 pedestrian-scale props",
+        "Dun Liath civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Covered Bazaar Beacon",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "Conjunction response, rumor spread, or authority pressure"
+      ],
+      "landmark": "Covered Bazaar Beacon",
+      "minorLandmarks": [
+        "Grand Market Civic Hall",
+        "Awning Monument",
+        "Auction Court Nook"
+      ]
+    },
+    {
+      "districtNumber": 3,
+      "districtId": "D03",
+      "sectionNumber": 1,
+      "name": "D03 — Awning Monument Monument Frontage",
+      "civicPurpose": "This district turns Section 1's source-backed anchor set into a board-scale civic space: Grand Market Civic Hall, Covered Bazaar Beacon, Awning Monument, Auction Court Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Dun Liath.",
+      "visualIdentity": "Use Awning Monument as the main read. Keep exact source anchors visible where applicable: Grand Market Civic Hall, Covered Bazaar Beacon, Awning Monument, Auction Court Nook. The district should share Dun Liath's Irish / Celtic identity, Granite, Peat Brick, Oak, Copper, and Dry Stone Paving, Civic Terraces, Heather Highland without becoming generic.",
+      "emotionalIdentity": "Memorial or symbolic, with Dun Liath's larger mood shaped by Oath-Ring Hillfort of the Green Spiral, Covered Bazaar Beacon, and Spiral Knotwork Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Awning Monument",
+        "Grand Market Civic Hall",
+        "Covered Bazaar Beacon",
+        "Auction Court Nook",
+        "Section 1 pedestrian-scale props",
+        "Dun Liath civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Awning Monument",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Awning Monument",
+      "minorLandmarks": [
+        "Grand Market Civic Hall",
+        "Covered Bazaar Beacon",
+        "Auction Court Nook"
+      ]
+    },
+    {
+      "districtNumber": 6,
+      "districtId": "D06",
+      "sectionNumber": 1,
+      "name": "D06 — Auction Court Nook Neighborhood Nook",
+      "civicPurpose": "This district turns Section 1's source-backed anchor set into a board-scale civic space: Grand Market Civic Hall, Covered Bazaar Beacon, Awning Monument, Auction Court Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Dun Liath.",
+      "visualIdentity": "Use Auction Court Nook as the main read. Keep exact source anchors visible where applicable: Grand Market Civic Hall, Covered Bazaar Beacon, Awning Monument, Auction Court Nook. The district should share Dun Liath's Irish / Celtic identity, Granite, Peat Brick, Oak, Copper, and Dry Stone Paving, Civic Terraces, Heather Highland without becoming generic.",
+      "emotionalIdentity": "Intimate and lived-in, with Dun Liath's larger mood shaped by Oath-Ring Hillfort of the Green Spiral, Covered Bazaar Beacon, and Spiral Knotwork Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Auction Court Nook",
+        "Grand Market Civic Hall",
+        "Covered Bazaar Beacon",
+        "Awning Monument",
+        "Section 1 pedestrian-scale props",
+        "Dun Liath civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Auction Court Nook",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Auction Court Nook",
+      "minorLandmarks": [
+        "Grand Market Civic Hall",
+        "Covered Bazaar Beacon",
+        "Awning Monument"
+      ]
+    },
+    {
+      "districtNumber": 7,
+      "districtId": "D07",
+      "sectionNumber": 1,
+      "name": "D07 — Grand Market Civic Hall Supporting Streets",
+      "civicPurpose": "This district turns Section 1's source-backed anchor set into a board-scale civic space: Grand Market Civic Hall, Covered Bazaar Beacon, Awning Monument, Auction Court Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Dun Liath.",
+      "visualIdentity": "Use Grand Market Civic Hall as the main read. Keep exact source anchors visible where applicable: Grand Market Civic Hall, Covered Bazaar Beacon, Awning Monument, Auction Court Nook. The district should share Dun Liath's Irish / Celtic identity, Granite, Peat Brick, Oak, Copper, and Dry Stone Paving, Civic Terraces, Heather Highland without becoming generic.",
+      "emotionalIdentity": "Connective and practical, with Dun Liath's larger mood shaped by Oath-Ring Hillfort of the Green Spiral, Covered Bazaar Beacon, and Spiral Knotwork Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Grand Market Civic Hall",
+        "Covered Bazaar Beacon",
+        "Awning Monument",
+        "Auction Court Nook",
+        "Section 1 pedestrian-scale props",
+        "Dun Liath civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Grand Market Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Grand Market Civic Hall",
+      "minorLandmarks": [
+        "Covered Bazaar Beacon",
+        "Awning Monument",
+        "Auction Court Nook"
+      ]
+    },
+    {
+      "districtNumber": 4,
+      "districtId": "D04",
       "sectionNumber": 2,
-      "name": "Artisan Guilds",
-      "civicPurpose": "Craft legitimacy, apprenticeship, production, guild rank, and public proof of skilled work.",
-      "visualIdentity": "Artisan Guilds Civic Hall, Guildhall, Woven Banners Monument, Masterwork Arcade Nook, workshop fronts, tools, and craft displays.",
-      "emotionalIdentity": "Skilled, proud, noisy, and exacting.",
+      "name": "D04 — Artisan Guilds Civic Hall Civic-Anchor Precinct",
+      "civicPurpose": "This district turns Section 2's source-backed anchor set into a board-scale civic space: Artisan Guilds Civic Hall, Guildhall, Woven Banners Monument, Masterwork Arcade Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Dun Liath.",
+      "visualIdentity": "Use Artisan Guilds Civic Hall as the main read. Keep exact source anchors visible where applicable: Artisan Guilds Civic Hall, Guildhall, Woven Banners Monument, Masterwork Arcade Nook. The district should share Dun Liath's Irish / Celtic identity, Granite, Peat Brick, Oak, Copper, and Dry Stone Paving, Civic Terraces, Heather Highland without becoming generic.",
+      "emotionalIdentity": "Locally grounded, with Dun Liath's larger mood shaped by Oath-Ring Hillfort of the Green Spiral, Covered Bazaar Beacon, and Spiral Knotwork Sovereign Registry Court.",
       "gameplayAssetNeeds": [
         "Artisan Guilds Civic Hall",
         "Guildhall",
         "Woven Banners Monument",
         "Masterwork Arcade Nook",
-        "workshop fronts",
-        "craft tools",
-        "apprentices"
+        "Section 2 pedestrian-scale props",
+        "Dun Liath civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
       ],
       "narrativeUse": [
-        "craft proof",
-        "guild politics",
-        "workshop clues",
-        "masterwork disputes",
-        "public rank through skill"
+        "scenes centered on Artisan Guilds Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
       ],
-      "landmark": "Guildhall",
+      "landmark": "Artisan Guilds Civic Hall",
       "minorLandmarks": [
+        "Guildhall",
         "Woven Banners Monument",
         "Masterwork Arcade Nook"
       ]
     },
     {
+      "districtNumber": 5,
+      "districtId": "D05",
+      "sectionNumber": 2,
+      "name": "D05 — Guildhall Landmark Approach",
+      "civicPurpose": "This district turns Section 2's source-backed anchor set into a board-scale civic space: Artisan Guilds Civic Hall, Guildhall, Woven Banners Monument, Masterwork Arcade Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Dun Liath.",
+      "visualIdentity": "Use Guildhall as the main read. Keep exact source anchors visible where applicable: Artisan Guilds Civic Hall, Guildhall, Woven Banners Monument, Masterwork Arcade Nook. The district should share Dun Liath's Irish / Celtic identity, Granite, Peat Brick, Oak, Copper, and Dry Stone Paving, Civic Terraces, Heather Highland without becoming generic.",
+      "emotionalIdentity": "Public-facing, with Dun Liath's larger mood shaped by Oath-Ring Hillfort of the Green Spiral, Covered Bazaar Beacon, and Spiral Knotwork Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Guildhall",
+        "Artisan Guilds Civic Hall",
+        "Woven Banners Monument",
+        "Masterwork Arcade Nook",
+        "Section 2 pedestrian-scale props",
+        "Dun Liath civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Guildhall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Guildhall",
+      "minorLandmarks": [
+        "Artisan Guilds Civic Hall",
+        "Woven Banners Monument",
+        "Masterwork Arcade Nook"
+      ]
+    },
+    {
+      "districtNumber": 9,
+      "districtId": "D09",
+      "sectionNumber": 2,
+      "name": "D09 — Woven Banners Monument Monument Frontage",
+      "civicPurpose": "This district turns Section 2's source-backed anchor set into a board-scale civic space: Artisan Guilds Civic Hall, Guildhall, Woven Banners Monument, Masterwork Arcade Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Dun Liath.",
+      "visualIdentity": "Use Woven Banners Monument as the main read. Keep exact source anchors visible where applicable: Artisan Guilds Civic Hall, Guildhall, Woven Banners Monument, Masterwork Arcade Nook. The district should share Dun Liath's Irish / Celtic identity, Granite, Peat Brick, Oak, Copper, and Dry Stone Paving, Civic Terraces, Heather Highland without becoming generic.",
+      "emotionalIdentity": "Memorial or symbolic, with Dun Liath's larger mood shaped by Oath-Ring Hillfort of the Green Spiral, Covered Bazaar Beacon, and Spiral Knotwork Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Woven Banners Monument",
+        "Artisan Guilds Civic Hall",
+        "Guildhall",
+        "Masterwork Arcade Nook",
+        "Section 2 pedestrian-scale props",
+        "Dun Liath civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Woven Banners Monument",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Woven Banners Monument",
+      "minorLandmarks": [
+        "Artisan Guilds Civic Hall",
+        "Guildhall",
+        "Masterwork Arcade Nook"
+      ]
+    },
+    {
+      "districtNumber": 10,
+      "districtId": "D10",
+      "sectionNumber": 2,
+      "name": "D10 — Masterwork Arcade Nook Neighborhood Nook",
+      "civicPurpose": "This district turns Section 2's source-backed anchor set into a board-scale civic space: Artisan Guilds Civic Hall, Guildhall, Woven Banners Monument, Masterwork Arcade Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Dun Liath.",
+      "visualIdentity": "Use Masterwork Arcade Nook as the main read. Keep exact source anchors visible where applicable: Artisan Guilds Civic Hall, Guildhall, Woven Banners Monument, Masterwork Arcade Nook. The district should share Dun Liath's Irish / Celtic identity, Granite, Peat Brick, Oak, Copper, and Dry Stone Paving, Civic Terraces, Heather Highland without becoming generic.",
+      "emotionalIdentity": "Intimate and lived-in, with Dun Liath's larger mood shaped by Oath-Ring Hillfort of the Green Spiral, Covered Bazaar Beacon, and Spiral Knotwork Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Masterwork Arcade Nook",
+        "Artisan Guilds Civic Hall",
+        "Guildhall",
+        "Woven Banners Monument",
+        "Section 2 pedestrian-scale props",
+        "Dun Liath civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Masterwork Arcade Nook",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Masterwork Arcade Nook",
+      "minorLandmarks": [
+        "Artisan Guilds Civic Hall",
+        "Guildhall",
+        "Woven Banners Monument"
+      ]
+    },
+    {
+      "districtNumber": 15,
+      "districtId": "D15",
+      "sectionNumber": 2,
+      "name": "D15 — Artisan Guilds Civic Hall Supporting Streets",
+      "civicPurpose": "This district turns Section 2's source-backed anchor set into a board-scale civic space: Artisan Guilds Civic Hall, Guildhall, Woven Banners Monument, Masterwork Arcade Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Dun Liath.",
+      "visualIdentity": "Use Artisan Guilds Civic Hall as the main read. Keep exact source anchors visible where applicable: Artisan Guilds Civic Hall, Guildhall, Woven Banners Monument, Masterwork Arcade Nook. The district should share Dun Liath's Irish / Celtic identity, Granite, Peat Brick, Oak, Copper, and Dry Stone Paving, Civic Terraces, Heather Highland without becoming generic.",
+      "emotionalIdentity": "Connective and practical, with Dun Liath's larger mood shaped by Oath-Ring Hillfort of the Green Spiral, Covered Bazaar Beacon, and Spiral Knotwork Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Artisan Guilds Civic Hall",
+        "Guildhall",
+        "Woven Banners Monument",
+        "Masterwork Arcade Nook",
+        "Section 2 pedestrian-scale props",
+        "Dun Liath civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Artisan Guilds Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Artisan Guilds Civic Hall",
+      "minorLandmarks": [
+        "Guildhall",
+        "Woven Banners Monument",
+        "Masterwork Arcade Nook"
+      ]
+    },
+    {
+      "districtNumber": 8,
+      "districtId": "D08",
       "sectionNumber": 3,
-      "name": "Records / Archives",
-      "civicPurpose": "Archive memory, public record, oath preservation, and legal continuity.",
-      "visualIdentity": "Records / Archives Hall, Archive Tower, Records Archives Gold-Seal Monument, Copyist Hall Nook, stairs, cool light, and quiet courts.",
-      "emotionalIdentity": "Solemn, exact, and memory-heavy.",
+      "name": "D08 — Records / Archives Hall Civic-Anchor Precinct",
+      "civicPurpose": "This district turns Section 3's source-backed anchor set into a board-scale civic space: Records / Archives Hall, Archive Tower, Records Archives Gold-Seal Monument, Copyist Hall Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Dun Liath.",
+      "visualIdentity": "Use Records / Archives Hall as the main read. Keep exact source anchors visible where applicable: Records / Archives Hall, Archive Tower, Records Archives Gold-Seal Monument, Copyist Hall Nook. The district should share Dun Liath's Irish / Celtic identity, Granite, Peat Brick, Oak, Copper, and Dry Stone Paving, Civic Terraces, Heather Highland without becoming generic.",
+      "emotionalIdentity": "Locally grounded, with Dun Liath's larger mood shaped by Oath-Ring Hillfort of the Green Spiral, Covered Bazaar Beacon, and Spiral Knotwork Sovereign Registry Court.",
       "gameplayAssetNeeds": [
         "Records / Archives Hall",
         "Archive Tower",
         "Records Archives Gold-Seal Monument",
         "Copyist Hall Nook",
-        "archive stairs",
-        "clerks"
+        "Section 3 pedestrian-scale props",
+        "Dun Liath civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
       ],
       "narrativeUse": [
-        "record clues",
-        "oath disputes",
-        "legal memory",
-        "public history made actionable"
+        "scenes centered on Records / Archives Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
       ],
-      "landmark": "Archive Tower",
+      "landmark": "Records / Archives Hall",
       "minorLandmarks": [
+        "Archive Tower",
         "Records Archives Gold-Seal Monument",
         "Copyist Hall Nook"
       ]
     },
     {
+      "districtNumber": 12,
+      "districtId": "D12",
+      "sectionNumber": 3,
+      "name": "D12 — Archive Tower Landmark Approach",
+      "civicPurpose": "This district turns Section 3's source-backed anchor set into a board-scale civic space: Records / Archives Hall, Archive Tower, Records Archives Gold-Seal Monument, Copyist Hall Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Dun Liath.",
+      "visualIdentity": "Use Archive Tower as the main read. Keep exact source anchors visible where applicable: Records / Archives Hall, Archive Tower, Records Archives Gold-Seal Monument, Copyist Hall Nook. The district should share Dun Liath's Irish / Celtic identity, Granite, Peat Brick, Oak, Copper, and Dry Stone Paving, Civic Terraces, Heather Highland without becoming generic.",
+      "emotionalIdentity": "Public-facing, with Dun Liath's larger mood shaped by Oath-Ring Hillfort of the Green Spiral, Covered Bazaar Beacon, and Spiral Knotwork Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Archive Tower",
+        "Records / Archives Hall",
+        "Records Archives Gold-Seal Monument",
+        "Copyist Hall Nook",
+        "Section 3 pedestrian-scale props",
+        "Dun Liath civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Archive Tower",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Archive Tower",
+      "minorLandmarks": [
+        "Records / Archives Hall",
+        "Records Archives Gold-Seal Monument",
+        "Copyist Hall Nook"
+      ]
+    },
+    {
+      "districtNumber": 13,
+      "districtId": "D13",
+      "sectionNumber": 3,
+      "name": "D13 — Spiral Knotwork Sovereign Registry Court Seat of Power District",
+      "civicPurpose": "This district turns Section 3's source-backed anchor set into a board-scale civic space: Records / Archives Hall, Archive Tower, Records Archives Gold-Seal Monument, Copyist Hall Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Dun Liath.",
+      "visualIdentity": "Use Spiral Knotwork Sovereign Registry Court as the main read. Keep exact source anchors visible where applicable: Records / Archives Hall, Archive Tower, Records Archives Gold-Seal Monument, Copyist Hall Nook. The district should share Dun Liath's Irish / Celtic identity, Granite, Peat Brick, Oak, Copper, and Dry Stone Paving, Civic Terraces, Heather Highland without becoming generic.",
+      "emotionalIdentity": "Memorial or symbolic, with Dun Liath's larger mood shaped by Oath-Ring Hillfort of the Green Spiral, Covered Bazaar Beacon, and Spiral Knotwork Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Spiral Knotwork Sovereign Registry Court",
+        "Records / Archives Hall",
+        "Archive Tower",
+        "Records Archives Gold-Seal Monument",
+        "Copyist Hall Nook",
+        "Section 3 pedestrian-scale props",
+        "Dun Liath civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Spiral Knotwork Sovereign Registry Court",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "Conjunction response, rumor spread, or authority pressure"
+      ],
+      "landmark": "Spiral Knotwork Sovereign Registry Court",
+      "minorLandmarks": [
+        "Records / Archives Hall",
+        "Archive Tower",
+        "Records Archives Gold-Seal Monument",
+        "Copyist Hall Nook"
+      ]
+    },
+    {
+      "districtNumber": 14,
+      "districtId": "D14",
+      "sectionNumber": 3,
+      "name": "D14 — Copyist Hall Nook Neighborhood Nook",
+      "civicPurpose": "This district turns Section 3's source-backed anchor set into a board-scale civic space: Records / Archives Hall, Archive Tower, Records Archives Gold-Seal Monument, Copyist Hall Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Dun Liath.",
+      "visualIdentity": "Use Copyist Hall Nook as the main read. Keep exact source anchors visible where applicable: Records / Archives Hall, Archive Tower, Records Archives Gold-Seal Monument, Copyist Hall Nook. The district should share Dun Liath's Irish / Celtic identity, Granite, Peat Brick, Oak, Copper, and Dry Stone Paving, Civic Terraces, Heather Highland without becoming generic.",
+      "emotionalIdentity": "Intimate and lived-in, with Dun Liath's larger mood shaped by Oath-Ring Hillfort of the Green Spiral, Covered Bazaar Beacon, and Spiral Knotwork Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Copyist Hall Nook",
+        "Records / Archives Hall",
+        "Archive Tower",
+        "Records Archives Gold-Seal Monument",
+        "Section 3 pedestrian-scale props",
+        "Dun Liath civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Copyist Hall Nook",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Copyist Hall Nook",
+      "minorLandmarks": [
+        "Records / Archives Hall",
+        "Archive Tower",
+        "Records Archives Gold-Seal Monument"
+      ]
+    },
+    {
+      "districtNumber": 18,
+      "districtId": "D18",
+      "sectionNumber": 3,
+      "name": "D18 — Records / Archives Hall Supporting Streets",
+      "civicPurpose": "This district turns Section 3's source-backed anchor set into a board-scale civic space: Records / Archives Hall, Archive Tower, Records Archives Gold-Seal Monument, Copyist Hall Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Dun Liath.",
+      "visualIdentity": "Use Records / Archives Hall as the main read. Keep exact source anchors visible where applicable: Records / Archives Hall, Archive Tower, Records Archives Gold-Seal Monument, Copyist Hall Nook. The district should share Dun Liath's Irish / Celtic identity, Granite, Peat Brick, Oak, Copper, and Dry Stone Paving, Civic Terraces, Heather Highland without becoming generic.",
+      "emotionalIdentity": "Connective and practical, with Dun Liath's larger mood shaped by Oath-Ring Hillfort of the Green Spiral, Covered Bazaar Beacon, and Spiral Knotwork Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Records / Archives Hall",
+        "Archive Tower",
+        "Records Archives Gold-Seal Monument",
+        "Copyist Hall Nook",
+        "Section 3 pedestrian-scale props",
+        "Dun Liath civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Records / Archives Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Records / Archives Hall",
+      "minorLandmarks": [
+        "Archive Tower",
+        "Records Archives Gold-Seal Monument",
+        "Copyist Hall Nook"
+      ]
+    },
+    {
+      "districtNumber": 11,
+      "districtId": "D11",
       "sectionNumber": 4,
-      "name": "Low Residential",
-      "civicPurpose": "Dense ordinary life, domestic continuity, neighborhood gossip, shared services, and communal witness at close range.",
-      "visualIdentity": "Low Residential Civic Hall, Tenement Court, Low Residential Lantern Monument, Laundry Well Nook, narrow lanes, mossy walls, blue lamps, and red fabric.",
-      "emotionalIdentity": "Crowded, intimate, resilient, and talkative.",
+      "name": "D11 — Low Residential Civic Hall Civic-Anchor Precinct",
+      "civicPurpose": "This district turns Section 4's source-backed anchor set into a board-scale civic space: Low Residential Civic Hall, Tenement Court, Low Residential Lantern Monument, Laundry Well Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Dun Liath.",
+      "visualIdentity": "Use Low Residential Civic Hall as the main read. Keep exact source anchors visible where applicable: Low Residential Civic Hall, Tenement Court, Low Residential Lantern Monument, Laundry Well Nook. The district should share Dun Liath's Irish / Celtic identity, Granite, Peat Brick, Oak, Copper, and Dry Stone Paving, Civic Terraces, Heather Highland without becoming generic.",
+      "emotionalIdentity": "Locally grounded, with Dun Liath's larger mood shaped by Oath-Ring Hillfort of the Green Spiral, Covered Bazaar Beacon, and Spiral Knotwork Sovereign Registry Court.",
       "gameplayAssetNeeds": [
         "Low Residential Civic Hall",
         "Tenement Court",
         "Low Residential Lantern Monument",
         "Laundry Well Nook",
-        "shared stairs",
-        "families",
-        "residential lanterns"
+        "Section 4 pedestrian-scale props",
+        "Dun Liath civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
       ],
       "narrativeUse": [
-        "domestic stakes",
-        "gossip",
-        "low-city view",
-        "public pressure",
-        "ordinary witnesses to civic events"
+        "scenes centered on Low Residential Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
       ],
-      "landmark": "Tenement Court",
+      "landmark": "Low Residential Civic Hall",
       "minorLandmarks": [
+        "Tenement Court",
         "Low Residential Lantern Monument",
         "Laundry Well Nook"
       ]
     },
     {
+      "districtNumber": 16,
+      "districtId": "D16",
+      "sectionNumber": 4,
+      "name": "D16 — Tenement Court Landmark Approach",
+      "civicPurpose": "This district turns Section 4's source-backed anchor set into a board-scale civic space: Low Residential Civic Hall, Tenement Court, Low Residential Lantern Monument, Laundry Well Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Dun Liath.",
+      "visualIdentity": "Use Tenement Court as the main read. Keep exact source anchors visible where applicable: Low Residential Civic Hall, Tenement Court, Low Residential Lantern Monument, Laundry Well Nook. The district should share Dun Liath's Irish / Celtic identity, Granite, Peat Brick, Oak, Copper, and Dry Stone Paving, Civic Terraces, Heather Highland without becoming generic.",
+      "emotionalIdentity": "Public-facing, with Dun Liath's larger mood shaped by Oath-Ring Hillfort of the Green Spiral, Covered Bazaar Beacon, and Spiral Knotwork Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Tenement Court",
+        "Low Residential Civic Hall",
+        "Low Residential Lantern Monument",
+        "Laundry Well Nook",
+        "Section 4 pedestrian-scale props",
+        "Dun Liath civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Tenement Court",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Tenement Court",
+      "minorLandmarks": [
+        "Low Residential Civic Hall",
+        "Low Residential Lantern Monument",
+        "Laundry Well Nook"
+      ]
+    },
+    {
+      "districtNumber": 17,
+      "districtId": "D17",
+      "sectionNumber": 4,
+      "name": "D17 — Low Residential Lantern Monument Monument Frontage",
+      "civicPurpose": "This district turns Section 4's source-backed anchor set into a board-scale civic space: Low Residential Civic Hall, Tenement Court, Low Residential Lantern Monument, Laundry Well Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Dun Liath.",
+      "visualIdentity": "Use Low Residential Lantern Monument as the main read. Keep exact source anchors visible where applicable: Low Residential Civic Hall, Tenement Court, Low Residential Lantern Monument, Laundry Well Nook. The district should share Dun Liath's Irish / Celtic identity, Granite, Peat Brick, Oak, Copper, and Dry Stone Paving, Civic Terraces, Heather Highland without becoming generic.",
+      "emotionalIdentity": "Memorial or symbolic, with Dun Liath's larger mood shaped by Oath-Ring Hillfort of the Green Spiral, Covered Bazaar Beacon, and Spiral Knotwork Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Low Residential Lantern Monument",
+        "Low Residential Civic Hall",
+        "Tenement Court",
+        "Laundry Well Nook",
+        "Section 4 pedestrian-scale props",
+        "Dun Liath civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Low Residential Lantern Monument",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Low Residential Lantern Monument",
+      "minorLandmarks": [
+        "Low Residential Civic Hall",
+        "Tenement Court",
+        "Laundry Well Nook"
+      ]
+    },
+    {
+      "districtNumber": 21,
+      "districtId": "D21",
+      "sectionNumber": 4,
+      "name": "D21 — Laundry Well Nook Neighborhood Nook",
+      "civicPurpose": "This district turns Section 4's source-backed anchor set into a board-scale civic space: Low Residential Civic Hall, Tenement Court, Low Residential Lantern Monument, Laundry Well Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Dun Liath.",
+      "visualIdentity": "Use Laundry Well Nook as the main read. Keep exact source anchors visible where applicable: Low Residential Civic Hall, Tenement Court, Low Residential Lantern Monument, Laundry Well Nook. The district should share Dun Liath's Irish / Celtic identity, Granite, Peat Brick, Oak, Copper, and Dry Stone Paving, Civic Terraces, Heather Highland without becoming generic.",
+      "emotionalIdentity": "Intimate and lived-in, with Dun Liath's larger mood shaped by Oath-Ring Hillfort of the Green Spiral, Covered Bazaar Beacon, and Spiral Knotwork Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Laundry Well Nook",
+        "Low Residential Civic Hall",
+        "Tenement Court",
+        "Low Residential Lantern Monument",
+        "Section 4 pedestrian-scale props",
+        "Dun Liath civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Laundry Well Nook",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Laundry Well Nook",
+      "minorLandmarks": [
+        "Low Residential Civic Hall",
+        "Tenement Court",
+        "Low Residential Lantern Monument"
+      ]
+    },
+    {
+      "districtNumber": 22,
+      "districtId": "D22",
+      "sectionNumber": 4,
+      "name": "D22 — Low Residential Civic Hall Supporting Streets",
+      "civicPurpose": "This district turns Section 4's source-backed anchor set into a board-scale civic space: Low Residential Civic Hall, Tenement Court, Low Residential Lantern Monument, Laundry Well Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Dun Liath.",
+      "visualIdentity": "Use Low Residential Civic Hall as the main read. Keep exact source anchors visible where applicable: Low Residential Civic Hall, Tenement Court, Low Residential Lantern Monument, Laundry Well Nook. The district should share Dun Liath's Irish / Celtic identity, Granite, Peat Brick, Oak, Copper, and Dry Stone Paving, Civic Terraces, Heather Highland without becoming generic.",
+      "emotionalIdentity": "Connective and practical, with Dun Liath's larger mood shaped by Oath-Ring Hillfort of the Green Spiral, Covered Bazaar Beacon, and Spiral Knotwork Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Low Residential Civic Hall",
+        "Tenement Court",
+        "Low Residential Lantern Monument",
+        "Laundry Well Nook",
+        "Section 4 pedestrian-scale props",
+        "Dun Liath civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Low Residential Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Low Residential Civic Hall",
+      "minorLandmarks": [
+        "Tenement Court",
+        "Low Residential Lantern Monument",
+        "Laundry Well Nook"
+      ]
+    },
+    {
+      "districtNumber": 19,
+      "districtId": "D19",
       "sectionNumber": 5,
-      "name": "Entertainment / Theater",
-      "civicPurpose": "Public performance, communal ceremony, satire, memory, social release, and masked civic commentary.",
-      "visualIdentity": "Entertainment / Theater Civic Hall, Opera Court, Entertainment Theater Lantern Monument, Mask Pavilion Nook, stages, banners, crowd terraces, and theater lanterns.",
-      "emotionalIdentity": "Bright, dramatic, communal, and slightly dangerous.",
+      "name": "D19 — Entertainment / Theater Civic Hall Civic-Anchor Precinct",
+      "civicPurpose": "This district turns Section 5's source-backed anchor set into a board-scale civic space: Entertainment / Theater Civic Hall, Opera Court, Entertainment Theater Lantern Monument, Mask Pavilion Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Dun Liath.",
+      "visualIdentity": "Use Entertainment / Theater Civic Hall as the main read. Keep exact source anchors visible where applicable: Entertainment / Theater Civic Hall, Opera Court, Entertainment Theater Lantern Monument, Mask Pavilion Nook. The district should share Dun Liath's Irish / Celtic identity, Granite, Peat Brick, Oak, Copper, and Dry Stone Paving, Civic Terraces, Heather Highland without becoming generic.",
+      "emotionalIdentity": "Locally grounded, with Dun Liath's larger mood shaped by Oath-Ring Hillfort of the Green Spiral, Covered Bazaar Beacon, and Spiral Knotwork Sovereign Registry Court.",
       "gameplayAssetNeeds": [
         "Entertainment / Theater Civic Hall",
         "Opera Court",
         "Entertainment Theater Lantern Monument",
         "Mask Pavilion Nook",
-        "stage",
-        "performers",
-        "lanterns",
-        "audience tiers"
+        "Section 5 pedestrian-scale props",
+        "Dun Liath civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
       ],
       "narrativeUse": [
-        "public performance",
-        "satire",
-        "ceremony",
-        "masked intrigue",
-        "communal memory through theater"
+        "scenes centered on Entertainment / Theater Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Entertainment / Theater Civic Hall",
+      "minorLandmarks": [
+        "Opera Court",
+        "Entertainment Theater Lantern Monument",
+        "Mask Pavilion Nook"
+      ]
+    },
+    {
+      "districtNumber": 20,
+      "districtId": "D20",
+      "sectionNumber": 5,
+      "name": "D20 — Opera Court Landmark Approach",
+      "civicPurpose": "This district turns Section 5's source-backed anchor set into a board-scale civic space: Entertainment / Theater Civic Hall, Opera Court, Entertainment Theater Lantern Monument, Mask Pavilion Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Dun Liath.",
+      "visualIdentity": "Use Opera Court as the main read. Keep exact source anchors visible where applicable: Entertainment / Theater Civic Hall, Opera Court, Entertainment Theater Lantern Monument, Mask Pavilion Nook. The district should share Dun Liath's Irish / Celtic identity, Granite, Peat Brick, Oak, Copper, and Dry Stone Paving, Civic Terraces, Heather Highland without becoming generic.",
+      "emotionalIdentity": "Public-facing, with Dun Liath's larger mood shaped by Oath-Ring Hillfort of the Green Spiral, Covered Bazaar Beacon, and Spiral Knotwork Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Opera Court",
+        "Entertainment / Theater Civic Hall",
+        "Entertainment Theater Lantern Monument",
+        "Mask Pavilion Nook",
+        "Section 5 pedestrian-scale props",
+        "Dun Liath civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Opera Court",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
       ],
       "landmark": "Opera Court",
       "minorLandmarks": [
+        "Entertainment / Theater Civic Hall",
+        "Entertainment Theater Lantern Monument",
+        "Mask Pavilion Nook"
+      ]
+    },
+    {
+      "districtNumber": 23,
+      "districtId": "D23",
+      "sectionNumber": 5,
+      "name": "D23 — Entertainment Theater Lantern Monument Monument Frontage",
+      "civicPurpose": "This district turns Section 5's source-backed anchor set into a board-scale civic space: Entertainment / Theater Civic Hall, Opera Court, Entertainment Theater Lantern Monument, Mask Pavilion Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Dun Liath.",
+      "visualIdentity": "Use Entertainment Theater Lantern Monument as the main read. Keep exact source anchors visible where applicable: Entertainment / Theater Civic Hall, Opera Court, Entertainment Theater Lantern Monument, Mask Pavilion Nook. The district should share Dun Liath's Irish / Celtic identity, Granite, Peat Brick, Oak, Copper, and Dry Stone Paving, Civic Terraces, Heather Highland without becoming generic.",
+      "emotionalIdentity": "Memorial or symbolic, with Dun Liath's larger mood shaped by Oath-Ring Hillfort of the Green Spiral, Covered Bazaar Beacon, and Spiral Knotwork Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Entertainment Theater Lantern Monument",
+        "Entertainment / Theater Civic Hall",
+        "Opera Court",
+        "Mask Pavilion Nook",
+        "Section 5 pedestrian-scale props",
+        "Dun Liath civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Entertainment Theater Lantern Monument",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Entertainment Theater Lantern Monument",
+      "minorLandmarks": [
+        "Entertainment / Theater Civic Hall",
+        "Opera Court",
+        "Mask Pavilion Nook"
+      ]
+    },
+    {
+      "districtNumber": 24,
+      "districtId": "D24",
+      "sectionNumber": 5,
+      "name": "D24 — Mask Pavilion Nook Neighborhood Nook",
+      "civicPurpose": "This district turns Section 5's source-backed anchor set into a board-scale civic space: Entertainment / Theater Civic Hall, Opera Court, Entertainment Theater Lantern Monument, Mask Pavilion Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Dun Liath.",
+      "visualIdentity": "Use Mask Pavilion Nook as the main read. Keep exact source anchors visible where applicable: Entertainment / Theater Civic Hall, Opera Court, Entertainment Theater Lantern Monument, Mask Pavilion Nook. The district should share Dun Liath's Irish / Celtic identity, Granite, Peat Brick, Oak, Copper, and Dry Stone Paving, Civic Terraces, Heather Highland without becoming generic.",
+      "emotionalIdentity": "Intimate and lived-in, with Dun Liath's larger mood shaped by Oath-Ring Hillfort of the Green Spiral, Covered Bazaar Beacon, and Spiral Knotwork Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Mask Pavilion Nook",
+        "Entertainment / Theater Civic Hall",
+        "Opera Court",
+        "Entertainment Theater Lantern Monument",
+        "Section 5 pedestrian-scale props",
+        "Dun Liath civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Mask Pavilion Nook",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Mask Pavilion Nook",
+      "minorLandmarks": [
+        "Entertainment / Theater Civic Hall",
+        "Opera Court",
+        "Entertainment Theater Lantern Monument"
+      ]
+    },
+    {
+      "districtNumber": 25,
+      "districtId": "D25",
+      "sectionNumber": 5,
+      "name": "D25 — Entertainment / Theater Civic Hall Supporting Streets",
+      "civicPurpose": "This district turns Section 5's source-backed anchor set into a board-scale civic space: Entertainment / Theater Civic Hall, Opera Court, Entertainment Theater Lantern Monument, Mask Pavilion Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Dun Liath.",
+      "visualIdentity": "Use Entertainment / Theater Civic Hall as the main read. Keep exact source anchors visible where applicable: Entertainment / Theater Civic Hall, Opera Court, Entertainment Theater Lantern Monument, Mask Pavilion Nook. The district should share Dun Liath's Irish / Celtic identity, Granite, Peat Brick, Oak, Copper, and Dry Stone Paving, Civic Terraces, Heather Highland without becoming generic.",
+      "emotionalIdentity": "Connective and practical, with Dun Liath's larger mood shaped by Oath-Ring Hillfort of the Green Spiral, Covered Bazaar Beacon, and Spiral Knotwork Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Entertainment / Theater Civic Hall",
+        "Opera Court",
+        "Entertainment Theater Lantern Monument",
+        "Mask Pavilion Nook",
+        "Section 5 pedestrian-scale props",
+        "Dun Liath civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Entertainment / Theater Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Entertainment / Theater Civic Hall",
+      "minorLandmarks": [
+        "Opera Court",
         "Entertainment Theater Lantern Monument",
         "Mask Pavilion Nook"
       ]
@@ -505,249 +1149,744 @@
   "landmarks": {
     "wonder": {
       "name": "Oath-Ring Hillfort of the Green Spiral",
-      "symbolicRole": "Communal oath, old hill memory, and civic legitimacy outside the market core.",
-      "visualRole": "Far hillfort ring with green spiral identity, stone forms, ritual high ground, and visible continuity with the city's oath culture.",
-      "civicRole": "Wonder-scale anchor for oaths, public memory, ancient legitimacy, and the city's relationship to hillfort precedent.",
+      "symbolicRole": "Oath-Ring Hillfort of the Green Spiral concentrates Dun Liath's local symbolism into a usable civic landmark: city wonder, separate far skyline anchor.",
+      "visualRole": "A one-per-city wonder: spectacular, unmistakable, and larger than every section landmark. It turns Dun Liath's geography, race identity, material culture, and civic magic into one public symbol. Built for Dun Liath's Irish / Celtic population, it uses Granite, Peat Brick, Oak, Copper, Dyed Wool across Dry Stone Paving, Civic Terraces, Heather Highland; water context: dry city ground; magic expression: Civic Blue Illumination, Oath Seals, Ancestral Spirits. It must read clearly as a high-fantasy tactical-board asset with no baked labels or text.",
+      "civicRole": "Serves as city wonder, separate far skyline anchor within Dun Liath; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
       "narrativeUse": [
-        "oath scenes",
-        "ceremony",
-        "public memory",
-        "political legitimacy",
-        "old law confronting market urgency"
+        "stage scenes involving Oath-Ring Hillfort of the Green Spiral",
+        "show how Dun Liath turns landmark symbolism into civic pressure",
+        "anchor public movement and crowd behavior",
+        "give writers a concrete place for announcements, disputes, errands, or rituals"
       ],
       "assetUse": [
-        "map background wonder",
-        "distant skyline anchor",
-        "ritual high-ground asset"
+        "city landmark asset",
+        "map background landmark marker",
+        "visual continuity anchor across hero and street scenes",
+        "scale reference for civilians, roads, plazas, and props"
       ],
       "sensoryIdentity": [
-        "wind",
-        "grass",
-        "stone ring",
-        "distant bells",
-        "moss after rain"
+        "local foot traffic",
+        "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+        "public voices and civic work nearby",
+        "ambient city light and weathering",
+        "close pedestrian-scale details rather than abstract skyline-only treatment"
       ],
       "storyHooks": [
-        "an oath at the hillfort changes a market dispute into civic law",
-        "a performance retells the oath differently than the archive does"
+        "a routine civic action at Oath-Ring Hillfort of the Green Spiral becomes narratively important",
+        "the visible condition of Oath-Ring Hillfort of the Green Spiral signals political or social stress",
+        "someone uses Oath-Ring Hillfort of the Green Spiral's public function to redirect crowds or information",
+        "an overlooked detail at Oath-Ring Hillfort of the Green Spiral reveals how Dun Liath really works"
       ]
     },
     "beacon": {
       "name": "Covered Bazaar Beacon",
-      "symbolicRole": "Warning rooted in public market life.",
-      "visualRole": "Beacon rising from covered bazaar awnings, Grand Market civic space, red canopies, and blue-lit public routes.",
-      "civicRole": "Signal heart for market assembly, public notice, auction interruption, and citywide reaction.",
+      "symbolicRole": "Covered Bazaar Beacon concentrates Dun Liath's local symbolism into a usable civic landmark: Section 1 beacon, near/front civic signal anchor.",
+      "visualRole": "A largest local landmark in this section, subordinate only to the city wonder and citadel. It belongs to Section 1 (Grand Market) of Dun Liath and should use Market Arcades, Reed Pavilions, White Limestone Civic Blocks, peat brick and dyed wool materials, Red Fabric Awnings, Lantern Lit, Gold Seals, and the Irish / Celtic visual language. Design focus: strong vertical silhouette, distinct gameplay landmark, visible from nearby districts, scales, awnings. Terrain/water context: Heather Highland; Dry Ground. Magic expression: Civic Blue Illumination, Oath Seals, Ancestral Spirits. No baked labels or text.",
+      "civicRole": "Serves as Section 1 beacon, near/front civic signal anchor within Dun Liath; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
       "narrativeUse": [
-        "Beacon changes",
-        "market crowd scenes",
-        "public announcements",
-        "auction interruption",
-        "rumor becoming civic action"
+        "stage scenes involving Covered Bazaar Beacon",
+        "show how Dun Liath turns landmark symbolism into civic pressure",
+        "anchor public movement and crowd behavior",
+        "give writers a concrete place for announcements, disputes, errands, or rituals"
       ],
       "assetUse": [
-        "S1 centerpiece",
-        "signal marker",
-        "market beacon asset"
+        "district diorama anchor for Section 1",
+        "map background landmark marker",
+        "visual continuity anchor across hero and street scenes",
+        "scale reference for civilians, roads, plazas, and props"
       ],
       "sensoryIdentity": [
-        "blue glow",
-        "market calls",
-        "red awnings",
-        "warm food",
-        "crowd hush at signal change"
+        "local foot traffic",
+        "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+        "public voices and civic work nearby",
+        "beacon or lamp glow when applicable",
+        "close pedestrian-scale details rather than abstract skyline-only treatment"
       ],
       "storyHooks": [
-        "a warning interrupts a public auction",
-        "the market interprets the Beacon faster than the registry can issue a notice"
+        "a routine civic action at Covered Bazaar Beacon becomes narratively important",
+        "the visible condition of Covered Bazaar Beacon signals political or social stress",
+        "someone uses Covered Bazaar Beacon's public function to redirect crowds or information",
+        "an overlooked detail at Covered Bazaar Beacon reveals how Dun Liath really works"
       ]
     },
     "seatOfPower": {
       "name": "Spiral Knotwork Sovereign Registry Court",
-      "symbolicRole": "Oath and record interlaced into law.",
-      "visualRole": "Central registry with spiral knotwork, round-tower forms, gold seals, civic terraces, and public approaches from market and archive districts.",
-      "civicRole": "Government center for records, oaths, guild legitimacy, public memory, and legal continuity.",
+      "symbolicRole": "Spiral Knotwork Sovereign Registry Court concentrates Dun Liath's local symbolism into a usable civic landmark: dominant central civic anchor / District 13 seat of power.",
+      "visualRole": "The district-13 seat of power: courts, audience terraces, sealed archives, command platforms, and the visible apparatus of government. It is not a faction HQ; it is the city's central civic authority. Built for Dun Liath's Irish / Celtic population, it uses Granite, Peat Brick, Oak, Copper, Dyed Wool across Dry Stone Paving, Civic Terraces, Heather Highland; water context: dry city ground; magic expression: Civic Blue Illumination, Oath Seals, Ancestral Spirits. It must read clearly as a high-fantasy tactical-board asset with no baked labels or text.",
+      "civicRole": "Serves as dominant central civic anchor / District 13 seat of power within Dun Liath; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
       "narrativeUse": [
-        "oath law",
-        "registry disputes",
-        "public rulings",
-        "guild legitimacy",
-        "archive evidence made official"
+        "stage scenes involving Spiral Knotwork Sovereign Registry Court",
+        "show how Dun Liath turns landmark symbolism into civic pressure",
+        "anchor public movement and crowd behavior",
+        "give writers a concrete place for announcements, disputes, errands, or rituals"
       ],
       "assetUse": [
-        "seat-of-power marker",
-        "central court diorama",
-        "knotwork authority motif"
+        "city landmark asset",
+        "map background landmark marker",
+        "visual continuity anchor across hero and street scenes",
+        "scale reference for civilians, roads, plazas, and props"
       ],
       "sensoryIdentity": [
-        "ink",
-        "stone",
-        "bells",
-        "blue lamps",
-        "quiet court voices"
+        "local foot traffic",
+        "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+        "public voices and civic work nearby",
+        "ambient city light and weathering",
+        "close pedestrian-scale details rather than abstract skyline-only treatment"
       ],
       "storyHooks": [
-        "a knotwork record exposes an oath someone wants forgotten",
-        "a registry ruling makes a theater satire dangerous"
+        "a routine civic action at Spiral Knotwork Sovereign Registry Court becomes narratively important",
+        "the visible condition of Spiral Knotwork Sovereign Registry Court signals political or social stress",
+        "someone uses Spiral Knotwork Sovereign Registry Court's public function to redirect crowds or information",
+        "an overlooked detail at Spiral Knotwork Sovereign Registry Court reveals how Dun Liath really works"
       ]
     },
     "majorLandmarks": [
       {
-        "name": "Guildhall",
-        "symbolicRole": "Craft made public authority.",
-        "visualRole": "Workshop hall, woven banners, tools, masterwork arcade, craft displays, and guild approaches.",
-        "civicRole": "Guild certification, apprenticeship, craft legitimacy, and public proof of skilled work.",
+        "name": "Opera Court",
+        "symbolicRole": "Opera Court concentrates Dun Liath's local symbolism into a usable civic landmark: additional major landmark selected for this hero-view camera angle.",
+        "visualRole": "A largest local landmark in this section, subordinate only to the city wonder and citadel. It belongs to Section 5 (Entertainment / Theater) of Dun Liath and should use Market Arcades, Gothic Spires, Lecture Courts, peat brick and dyed wool materials, Lantern Lit, Red Fabric Awnings, Woven Banners, and the Irish / Celtic visual language. Design focus: strong vertical silhouette, distinct gameplay landmark, visible from nearby districts, masks, lanterns. Terrain/water context: Heather Highland; Dry Ground. Magic expression: Civic Blue Illumination, Oath Seals, Ancestral Spirits. No baked labels or text.",
+        "civicRole": "Serves as additional major landmark selected for this hero-view camera angle within Dun Liath; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
         "narrativeUse": [
-          "craft proof",
-          "guild conflict",
-          "masterwork disputes",
-          "workshop clues"
+          "stage scenes involving Opera Court",
+          "show how Dun Liath turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
         ],
         "assetUse": [
-          "S2 diorama landmark",
-          "guild/craft asset cluster",
-          "craft authority marker"
+          "district diorama anchor for Section 5",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
         ],
         "sensoryIdentity": [
-          "tools",
-          "wood shavings",
-          "metalwork",
-          "banner cloth",
-          "public appraisal murmurs"
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
         ],
         "storyHooks": [
-          "a masterwork proves a claim the archive cannot",
-          "a guild banner marks who may speak in a dispute"
+          "a routine civic action at Opera Court becomes narratively important",
+          "the visible condition of Opera Court signals political or social stress",
+          "someone uses Opera Court's public function to redirect crowds or information",
+          "an overlooked detail at Opera Court reveals how Dun Liath really works"
         ]
       },
       {
-        "name": "Archive Tower",
-        "symbolicRole": "Memory raised, sealed, copied, and cited.",
-        "visualRole": "Archive tower with copyist hall, gold-seal monument, quiet stairs, cool light, and civic record massing.",
-        "civicRole": "Preserves oaths, legal memory, public records, and continuity between hillfort past and city present.",
+        "name": "Guildhall",
+        "symbolicRole": "Guildhall concentrates Dun Liath's local symbolism into a usable civic landmark: additional major landmark selected for this hero-view camera angle.",
+        "visualRole": "A largest local landmark in this section, subordinate only to the city wonder and citadel. It belongs to Section 2 (Artisan Guilds) of Dun Liath and should use Market Arcades, White Limestone Civic Blocks, Forge Halls, peat brick and dyed wool materials, Lantern Lit, Woven Banners, Red Fabric Awnings, and the Irish / Celtic visual language. Design focus: strong vertical silhouette, distinct gameplay landmark, visible from nearby districts, tools, hallmarks. Terrain/water context: Heather Highland; Dry Ground. Magic expression: Civic Blue Illumination, Oath Seals, Ancestral Spirits. No baked labels or text.",
+        "civicRole": "Serves as additional major landmark selected for this hero-view camera angle within Dun Liath; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
         "narrativeUse": [
-          "record clues",
-          "oath disputes",
-          "legal memory",
-          "archive contradiction"
+          "stage scenes involving Guildhall",
+          "show how Dun Liath turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
         ],
         "assetUse": [
-          "S3 diorama landmark",
-          "archive skyline feature",
-          "records asset cluster"
+          "district diorama anchor for Section 2",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
         ],
         "sensoryIdentity": [
-          "ink",
-          "paper",
-          "cool stone",
-          "quiet copyists",
-          "gold-seal wax"
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
         ],
         "storyHooks": [
-          "a copyist finds a phrase everyone quotes wrong",
-          "an old oath record changes a modern market conflict"
+          "a routine civic action at Guildhall becomes narratively important",
+          "the visible condition of Guildhall signals political or social stress",
+          "someone uses Guildhall's public function to redirect crowds or information",
+          "an overlooked detail at Guildhall reveals how Dun Liath really works"
         ]
       },
       {
         "name": "Tenement Court",
-        "symbolicRole": "Ordinary community as constant witness.",
-        "visualRole": "Dense residential court with laundry well, lantern monument, narrow stairs, mossy walls, families, and red fabric.",
-        "civicRole": "Anchors domestic continuity, shared services, gossip, and the lived consequences of public rulings.",
+        "symbolicRole": "Tenement Court concentrates Dun Liath's local symbolism into a usable civic landmark: additional major landmark selected for this hero-view camera angle.",
+        "visualRole": "A largest local landmark in this section, subordinate only to the city wonder and citadel. It belongs to Section 4 (Low Residential) of Dun Liath and should use Timber Longhouses, Market Arcades, White Limestone Civic Blocks, peat brick and dyed wool materials, Lantern Lit, Red Fabric Awnings, Woven Banners, and the Irish / Celtic visual language. Design focus: largest section focal point, strong vertical silhouette, distinct gameplay landmark, visible from nearby districts, laundry lines. Terrain/water context: Heather Highland; Dry Ground. Magic expression: Civic Blue Illumination, Oath Seals, Ancestral Spirits. No baked labels or text.",
+        "civicRole": "Serves as additional major landmark selected for this hero-view camera angle within Dun Liath; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
         "narrativeUse": [
-          "domestic stakes",
-          "gossip",
-          "low-city view",
-          "ordinary witness scenes"
+          "stage scenes involving Tenement Court",
+          "show how Dun Liath turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
         ],
         "assetUse": [
-          "S4 diorama landmark",
-          "low residential asset cluster",
-          "domestic pressure marker"
+          "district diorama anchor for Section 4",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
         ],
         "sensoryIdentity": [
-          "laundry water",
-          "cooking smoke",
-          "wet stone",
-          "close voices",
-          "lantern oil"
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
         ],
         "storyHooks": [
-          "a laundry-well rumor reaches the market before officials do",
-          "a tenement court remembers an oath no archive cites"
+          "a routine civic action at Tenement Court becomes narratively important",
+          "the visible condition of Tenement Court signals political or social stress",
+          "someone uses Tenement Court's public function to redirect crowds or information",
+          "an overlooked detail at Tenement Court reveals how Dun Liath really works"
         ]
       },
       {
-        "name": "Opera Court",
-        "symbolicRole": "Performance as public memory, satire, and sanctioned pressure.",
-        "visualRole": "Theater court with mask pavilion, lantern monument, stages, banners, crowd terraces, and warm performance light.",
-        "civicRole": "Hosts public performance, communal ceremony, satire, and social release.",
+        "name": "Grand Market Civic Hall",
+        "symbolicRole": "Grand Market Civic Hall concentrates Dun Liath's local symbolism into a usable civic landmark: Section 1 local anchor.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing. It belongs to Section 1 (Grand Market) of Dun Liath and should use Market Arcades, Reed Pavilions, White Limestone Civic Blocks, peat brick and dyed wool materials, Lantern Lit, Gold Seals, Red Fabric Awnings, and the Irish / Celtic visual language. Design focus: clear central silhouette, board-readable entrance, scales, awnings, coin strings. Terrain/water context: Heather Highland; Dry Ground. Magic expression: Civic Blue Illumination, Oath Seals, Ancestral Spirits. No baked labels or text.",
+        "civicRole": "Serves as Section 1 local anchor within Dun Liath; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
         "narrativeUse": [
-          "public performance",
-          "satire",
-          "ceremony",
-          "masked intrigue"
+          "stage scenes involving Grand Market Civic Hall",
+          "show how Dun Liath turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
         ],
         "assetUse": [
-          "S5 diorama landmark",
-          "theater asset cluster",
-          "performance district anchor"
+          "district diorama anchor for Section 1",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
         ],
         "sensoryIdentity": [
-          "theater music",
-          "lantern warmth",
-          "mask paint",
-          "crowd laughter",
-          "stage wood"
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
         ],
         "storyHooks": [
-          "a satire changes how the city remembers an oath",
-          "a mask pavilion meeting becomes more public than intended"
+          "a routine civic action at Grand Market Civic Hall becomes narratively important",
+          "the visible condition of Grand Market Civic Hall signals political or social stress",
+          "someone uses Grand Market Civic Hall's public function to redirect crowds or information",
+          "an overlooked detail at Grand Market Civic Hall reveals how Dun Liath really works"
+        ]
+      },
+      {
+        "name": "Awning Monument",
+        "symbolicRole": "Awning Monument concentrates Dun Liath's local symbolism into a usable civic landmark: Section 1 local anchor.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles. It belongs to Section 1 (Grand Market) of Dun Liath and should use Market Arcades, Reed Pavilions, White Limestone Civic Blocks, peat brick and dyed wool materials, Red Fabric Awnings, Lantern Lit, Gold Seals, and the Irish / Celtic visual language. Design focus: auction courts, stalls, symbolic civic object, small ceremonial site, local memory marker. Terrain/water context: Heather Highland; Dry Ground. Magic expression: Civic Blue Illumination, Oath Seals, Ancestral Spirits. No baked labels or text.",
+        "civicRole": "Serves as Section 1 local anchor within Dun Liath; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Awning Monument",
+          "show how Dun Liath turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 1",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Awning Monument becomes narratively important",
+          "the visible condition of Awning Monument signals political or social stress",
+          "someone uses Awning Monument's public function to redirect crowds or information",
+          "an overlooked detail at Awning Monument reveals how Dun Liath really works"
+        ]
+      },
+      {
+        "name": "Auction Court Nook",
+        "symbolicRole": "Auction Court Nook concentrates Dun Liath's local symbolism into a usable civic landmark: Section 1 local anchor.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette. It belongs to Section 1 (Grand Market) of Dun Liath and should use Reed Pavilions, White Limestone Civic Blocks, Market Arcades, peat brick and dyed wool materials, Gold Seals, Red Fabric Awnings, Lantern Lit, and the Irish / Celtic visual language. Design focus: coin strings, market bells, covered bazaars, trade arcades, auction courts. Terrain/water context: Heather Highland; Dry Ground. Magic expression: Civic Blue Illumination, Oath Seals, Ancestral Spirits. No baked labels or text.",
+        "civicRole": "Serves as Section 1 local anchor within Dun Liath; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Auction Court Nook",
+          "show how Dun Liath turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 1",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Auction Court Nook becomes narratively important",
+          "the visible condition of Auction Court Nook signals political or social stress",
+          "someone uses Auction Court Nook's public function to redirect crowds or information",
+          "an overlooked detail at Auction Court Nook reveals how Dun Liath really works"
+        ]
+      },
+      {
+        "name": "Artisan Guilds Civic Hall",
+        "symbolicRole": "Artisan Guilds Civic Hall concentrates Dun Liath's local symbolism into a usable civic landmark: Section 2 local anchor.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing. It belongs to Section 2 (Artisan Guilds) of Dun Liath and should use Market Arcades, White Limestone Civic Blocks, Forge Halls, peat brick and dyed wool materials, Red Fabric Awnings, Lantern Lit, Woven Banners, and the Irish / Celtic visual language. Design focus: tool yards, institutional anchor, public-facing administration, clear central silhouette, board-readable entrance. Terrain/water context: Heather Highland; Dry Ground. Magic expression: Civic Blue Illumination, Oath Seals, Ancestral Spirits. No baked labels or text.",
+        "civicRole": "Serves as Section 2 local anchor within Dun Liath; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Artisan Guilds Civic Hall",
+          "show how Dun Liath turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 2",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Artisan Guilds Civic Hall becomes narratively important",
+          "the visible condition of Artisan Guilds Civic Hall signals political or social stress",
+          "someone uses Artisan Guilds Civic Hall's public function to redirect crowds or information",
+          "an overlooked detail at Artisan Guilds Civic Hall reveals how Dun Liath really works"
+        ]
+      },
+      {
+        "name": "Woven Banners Monument",
+        "symbolicRole": "Woven Banners Monument concentrates Dun Liath's local symbolism into a usable civic landmark: Section 2 local anchor.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles. It belongs to Section 2 (Artisan Guilds) of Dun Liath and should use Market Arcades, White Limestone Civic Blocks, Forge Halls, peat brick and dyed wool materials, Lantern Lit, Woven Banners, Red Fabric Awnings, and the Irish / Celtic visual language. Design focus: work lamps, workshop rows, guild courts, kiln yards, tool yards. Terrain/water context: Heather Highland; Dry Ground. Magic expression: Civic Blue Illumination, Oath Seals, Ancestral Spirits. No baked labels or text.",
+        "civicRole": "Serves as Section 2 local anchor within Dun Liath; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Woven Banners Monument",
+          "show how Dun Liath turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 2",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Woven Banners Monument becomes narratively important",
+          "the visible condition of Woven Banners Monument signals political or social stress",
+          "someone uses Woven Banners Monument's public function to redirect crowds or information",
+          "an overlooked detail at Woven Banners Monument reveals how Dun Liath really works"
+        ]
+      },
+      {
+        "name": "Masterwork Arcade Nook",
+        "symbolicRole": "Masterwork Arcade Nook concentrates Dun Liath's local symbolism into a usable civic landmark: Section 2 local anchor.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette. It belongs to Section 2 (Artisan Guilds) of Dun Liath and should use White Limestone Civic Blocks, Forge Halls, Market Arcades, peat brick and dyed wool materials, Woven Banners, Red Fabric Awnings, Lantern Lit, and the Irish / Celtic visual language. Design focus: usable board landmark, subordinate scale, tools, hallmarks, pattern boards. Terrain/water context: Heather Highland; Dry Ground. Magic expression: Civic Blue Illumination, Oath Seals, Ancestral Spirits. No baked labels or text.",
+        "civicRole": "Serves as Section 2 local anchor within Dun Liath; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Masterwork Arcade Nook",
+          "show how Dun Liath turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 2",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Masterwork Arcade Nook becomes narratively important",
+          "the visible condition of Masterwork Arcade Nook signals political or social stress",
+          "someone uses Masterwork Arcade Nook's public function to redirect crowds or information",
+          "an overlooked detail at Masterwork Arcade Nook reveals how Dun Liath really works"
+        ]
+      },
+      {
+        "name": "Records / Archives Hall",
+        "symbolicRole": "Records / Archives Hall concentrates Dun Liath's local symbolism into a usable civic landmark: Section 3 local anchor.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing. It belongs to Section 3 (Records / Archives) of Dun Liath and should use White Limestone Civic Blocks, Subterranean Vaults, Archive Towers, peat brick and dyed wool materials, Gold Seals, Lantern Lit, Civic Blue Glow, and the Irish / Celtic visual language. Design focus: institutional anchor, public-facing administration, clear central silhouette, board-readable entrance, scrolls. Terrain/water context: Heather Highland; Dry Ground. Magic expression: Civic Blue Illumination, Oath Seals, Ancestral Spirits. No baked labels or text.",
+        "civicRole": "Serves as Section 3 local anchor within Dun Liath; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Records / Archives Hall",
+          "show how Dun Liath turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 3",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Records / Archives Hall becomes narratively important",
+          "the visible condition of Records / Archives Hall signals political or social stress",
+          "someone uses Records / Archives Hall's public function to redirect crowds or information",
+          "an overlooked detail at Records / Archives Hall reveals how Dun Liath really works"
+        ]
+      },
+      {
+        "name": "Archive Tower",
+        "symbolicRole": "Archive Tower concentrates Dun Liath's local symbolism into a usable civic landmark: Section 3 local anchor.",
+        "visualRole": "A mandatory Section 3 Beacon: a culturally adapted civic signal flame / warning-light landmark visible across the city spine. It belongs to Section 3 (Records / Archives) of Dun Liath and should use Archive Towers, White Limestone Civic Blocks, Subterranean Vaults, peat brick and dyed wool materials, Gold Seals, Lantern Lit, Civic Blue Glow, and the Irish / Celtic visual language. Design focus: ledger halls, vault towers, Beacon must inherit city materials, culture, magic expression, and water/terrain context from CityProfile., Beacon form may be a ground flame, tower flame, suspended flame, totemic flame, ceremonial brazier, signal obelisk, or lighthouse-like flame., Beacon-compatible major landmark; must render as a culturally adapted civic signal flame or magical warning light.. Terrain/water context: Heather Highland; Dry Ground. Magic expression: Civic Blue Illumination, Oath Seals, Ancestral Spirits. No baked labels or text.",
+        "civicRole": "Serves as Section 3 local anchor within Dun Liath; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Archive Tower",
+          "show how Dun Liath turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 3",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Archive Tower becomes narratively important",
+          "the visible condition of Archive Tower signals political or social stress",
+          "someone uses Archive Tower's public function to redirect crowds or information",
+          "an overlooked detail at Archive Tower reveals how Dun Liath really works"
+        ]
+      },
+      {
+        "name": "Records Archives Gold-Seal Monument",
+        "symbolicRole": "Records Archives Gold-Seal Monument concentrates Dun Liath's local symbolism into a usable civic landmark: Section 3 local anchor.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles. It belongs to Section 3 (Records / Archives) of Dun Liath and should use Subterranean Vaults, Archive Towers, White Limestone Civic Blocks, peat brick and dyed wool materials, Gold Seals, Lantern Lit, Civic Blue Glow, and the Irish / Celtic visual language. Design focus: memory lamps, archive stacks, ledger halls, vault towers, copyist desks. Terrain/water context: Heather Highland; Dry Ground. Magic expression: Civic Blue Illumination, Oath Seals, Ancestral Spirits. No baked labels or text.",
+        "civicRole": "Serves as Section 3 local anchor within Dun Liath; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Records Archives Gold-Seal Monument",
+          "show how Dun Liath turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 3",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Records Archives Gold-Seal Monument becomes narratively important",
+          "the visible condition of Records Archives Gold-Seal Monument signals political or social stress",
+          "someone uses Records Archives Gold-Seal Monument's public function to redirect crowds or information",
+          "an overlooked detail at Records Archives Gold-Seal Monument reveals how Dun Liath really works"
+        ]
+      },
+      {
+        "name": "Copyist Hall Nook",
+        "symbolicRole": "Copyist Hall Nook concentrates Dun Liath's local symbolism into a usable civic landmark: Section 3 local anchor.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette. It belongs to Section 3 (Records / Archives) of Dun Liath and should use White Limestone Civic Blocks, Subterranean Vaults, Archive Towers, peat brick and dyed wool materials, Gold Seals, Lantern Lit, Civic Blue Glow, and the Irish / Celtic visual language. Design focus: usable board landmark, subordinate scale, scrolls, index cards, wax seals. Terrain/water context: Heather Highland; Dry Ground. Magic expression: Civic Blue Illumination, Oath Seals, Ancestral Spirits. No baked labels or text.",
+        "civicRole": "Serves as Section 3 local anchor within Dun Liath; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Copyist Hall Nook",
+          "show how Dun Liath turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 3",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Copyist Hall Nook becomes narratively important",
+          "the visible condition of Copyist Hall Nook signals political or social stress",
+          "someone uses Copyist Hall Nook's public function to redirect crowds or information",
+          "an overlooked detail at Copyist Hall Nook reveals how Dun Liath really works"
+        ]
+      },
+      {
+        "name": "Low Residential Civic Hall",
+        "symbolicRole": "Low Residential Civic Hall concentrates Dun Liath's local symbolism into a usable civic landmark: Section 4 local anchor.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing. It belongs to Section 4 (Low Residential) of Dun Liath and should use Timber Longhouses, Market Arcades, White Limestone Civic Blocks, peat brick and dyed wool materials, Red Fabric Awnings, Woven Banners, Lantern Lit, and the Irish / Celtic visual language. Design focus: institutional anchor, public-facing administration, clear central silhouette, board-readable entrance, laundry lines. Terrain/water context: Heather Highland; Dry Ground. Magic expression: Civic Blue Illumination, Oath Seals, Ancestral Spirits. No baked labels or text.",
+        "civicRole": "Serves as Section 4 local anchor within Dun Liath; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Low Residential Civic Hall",
+          "show how Dun Liath turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 4",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Low Residential Civic Hall becomes narratively important",
+          "the visible condition of Low Residential Civic Hall signals political or social stress",
+          "someone uses Low Residential Civic Hall's public function to redirect crowds or information",
+          "an overlooked detail at Low Residential Civic Hall reveals how Dun Liath really works"
+        ]
+      },
+      {
+        "name": "Low Residential Lantern Monument",
+        "symbolicRole": "Low Residential Lantern Monument concentrates Dun Liath's local symbolism into a usable civic landmark: Section 4 local anchor.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles. It belongs to Section 4 (Low Residential) of Dun Liath and should use Market Arcades, White Limestone Civic Blocks, Timber Longhouses, peat brick and dyed wool materials, Red Fabric Awnings, Woven Banners, Lantern Lit, and the Irish / Celtic visual language. Design focus: communal wells, symbolic civic object, small ceremonial site, local memory marker, subordinate to major landmark. Terrain/water context: Heather Highland; Dry Ground. Magic expression: Civic Blue Illumination, Oath Seals, Ancestral Spirits. No baked labels or text.",
+        "civicRole": "Serves as Section 4 local anchor within Dun Liath; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Low Residential Lantern Monument",
+          "show how Dun Liath turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 4",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Low Residential Lantern Monument becomes narratively important",
+          "the visible condition of Low Residential Lantern Monument signals political or social stress",
+          "someone uses Low Residential Lantern Monument's public function to redirect crowds or information",
+          "an overlooked detail at Low Residential Lantern Monument reveals how Dun Liath really works"
+        ]
+      },
+      {
+        "name": "Laundry Well Nook",
+        "symbolicRole": "Laundry Well Nook concentrates Dun Liath's local symbolism into a usable civic landmark: Section 4 local anchor.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette. It belongs to Section 4 (Low Residential) of Dun Liath and should use Market Arcades, White Limestone Civic Blocks, Timber Longhouses, peat brick and dyed wool materials, Red Fabric Awnings, Woven Banners, Lantern Lit, and the Irish / Celtic visual language. Design focus: tenement stacks, rowhouses, shared courtyards, communal wells, small local identity prop. Terrain/water context: Heather Highland; Dry Ground. Magic expression: Civic Blue Illumination, Oath Seals, Ancestral Spirits. No baked labels or text.",
+        "civicRole": "Serves as Section 4 local anchor within Dun Liath; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Laundry Well Nook",
+          "show how Dun Liath turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 4",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Laundry Well Nook becomes narratively important",
+          "the visible condition of Laundry Well Nook signals political or social stress",
+          "someone uses Laundry Well Nook's public function to redirect crowds or information",
+          "an overlooked detail at Laundry Well Nook reveals how Dun Liath really works"
+        ]
+      },
+      {
+        "name": "Entertainment / Theater Civic Hall",
+        "symbolicRole": "Entertainment / Theater Civic Hall concentrates Dun Liath's local symbolism into a usable civic landmark: Section 5 local anchor.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing. It belongs to Section 5 (Entertainment / Theater) of Dun Liath and should use Market Arcades, Gothic Spires, Lecture Courts, peat brick and dyed wool materials, Lantern Lit, Red Fabric Awnings, Woven Banners, and the Irish / Celtic visual language. Design focus: masks, lanterns, curtains, acoustic shells, theaters. Terrain/water context: Heather Highland; Dry Ground. Magic expression: Civic Blue Illumination, Oath Seals, Ancestral Spirits. No baked labels or text.",
+        "civicRole": "Serves as Section 5 local anchor within Dun Liath; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Entertainment / Theater Civic Hall",
+          "show how Dun Liath turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 5",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Entertainment / Theater Civic Hall becomes narratively important",
+          "the visible condition of Entertainment / Theater Civic Hall signals political or social stress",
+          "someone uses Entertainment / Theater Civic Hall's public function to redirect crowds or information",
+          "an overlooked detail at Entertainment / Theater Civic Hall reveals how Dun Liath really works"
+        ]
+      },
+      {
+        "name": "Entertainment Theater Lantern Monument",
+        "symbolicRole": "Entertainment Theater Lantern Monument concentrates Dun Liath's local symbolism into a usable civic landmark: Section 5 local anchor.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles. It belongs to Section 5 (Entertainment / Theater) of Dun Liath and should use Gothic Spires, Lecture Courts, Market Arcades, peat brick and dyed wool materials, Red Fabric Awnings, Woven Banners, Lantern Lit, and the Irish / Celtic visual language. Design focus: subordinate to major landmark, masks, lanterns, curtains, acoustic shells. Terrain/water context: Heather Highland; Dry Ground. Magic expression: Civic Blue Illumination, Oath Seals, Ancestral Spirits. No baked labels or text.",
+        "civicRole": "Serves as Section 5 local anchor within Dun Liath; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Entertainment Theater Lantern Monument",
+          "show how Dun Liath turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 5",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Entertainment Theater Lantern Monument becomes narratively important",
+          "the visible condition of Entertainment Theater Lantern Monument signals political or social stress",
+          "someone uses Entertainment Theater Lantern Monument's public function to redirect crowds or information",
+          "an overlooked detail at Entertainment Theater Lantern Monument reveals how Dun Liath really works"
+        ]
+      },
+      {
+        "name": "Mask Pavilion Nook",
+        "symbolicRole": "Mask Pavilion Nook concentrates Dun Liath's local symbolism into a usable civic landmark: Section 5 local anchor.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette. It belongs to Section 5 (Entertainment / Theater) of Dun Liath and should use Gothic Spires, Lecture Courts, Market Arcades, peat brick and dyed wool materials, Red Fabric Awnings, Woven Banners, Lantern Lit, and the Irish / Celtic visual language. Design focus: usable board landmark, subordinate scale, masks, lanterns, curtains. Terrain/water context: Heather Highland; Dry Ground. Magic expression: Civic Blue Illumination, Oath Seals, Ancestral Spirits. No baked labels or text.",
+        "civicRole": "Serves as Section 5 local anchor within Dun Liath; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Mask Pavilion Nook",
+          "show how Dun Liath turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 5",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Mask Pavilion Nook becomes narratively important",
+          "the visible condition of Mask Pavilion Nook signals political or social stress",
+          "someone uses Mask Pavilion Nook's public function to redirect crowds or information",
+          "an overlooked detail at Mask Pavilion Nook reveals how Dun Liath really works"
         ]
       }
     ]
   },
   "assetGuidance": {
     "districtDioramaGuidance": [
-      "S1 must show Grand Market Civic Hall, Covered Bazaar Beacon, Awning Monument, Auction Court Nook, red awnings, market stalls, crowds, and blue lamps.",
-      "S2 must show Artisan Guilds Civic Hall, Guildhall, Woven Banners Monument, Masterwork Arcade Nook, tools, workshops, apprentices, and public craft displays.",
-      "S3 must show Records / Archives Hall, Archive Tower, Records Archives Gold-Seal Monument, Copyist Hall Nook, stairs, clerks, and sealed records.",
-      "S4 must show Low Residential Civic Hall, Tenement Court, Low Residential Lantern Monument, Laundry Well Nook, shared stairs, families, and dense residential life.",
-      "S5 must show Entertainment / Theater Civic Hall, Opera Court, Entertainment Theater Lantern Monument, Mask Pavilion Nook, stage, performers, lanterns, and audience tiers."
+      "Dioramas must support 25 district slots: S1 covers D01, D02, D03, D06, D07 and uses source-backed anchors Grand Market Civic Hall, Covered Bazaar Beacon, Awning Monument, Auction Court Nook.",
+      "Dioramas must support 25 district slots: S2 covers D04, D05, D09, D10, D15 and uses source-backed anchors Artisan Guilds Civic Hall, Guildhall, Woven Banners Monument, Masterwork Arcade Nook.",
+      "Dioramas must support 25 district slots: S3 covers D08, D12, D13, D14, D18 and uses source-backed anchors Records / Archives Hall, Archive Tower, Records Archives Gold-Seal Monument, Copyist Hall Nook.",
+      "Dioramas must support 25 district slots: S4 covers D11, D16, D17, D21, D22 and uses source-backed anchors Low Residential Civic Hall, Tenement Court, Low Residential Lantern Monument, Laundry Well Nook.",
+      "Dioramas must support 25 district slots: S5 covers D19, D20, D23, D24, D25 and uses source-backed anchors Entertainment / Theater Civic Hall, Opera Court, Entertainment Theater Lantern Monument, Mask Pavilion Nook."
     ],
     "mapBackgroundGuidance": [
-      "Use a dense grey-stone Celtic river capital with bridges, red awnings, round towers, covered bazaars, guildhalls, archive towers, tenement courts, opera courts, and the green spiral hillfort beyond.",
-      "The Oath-Ring Hillfort of the Green Spiral should be the far wonder anchor; the Spiral Knotwork Sovereign Registry Court should be central authority; the Covered Bazaar Beacon should tie warning to market life.",
-      "Preserve the mix of public oath, market speech, craft proof, archives, low residential witness, and performance."
+      "Map backgrounds must show Oath-Ring Hillfort of the Green Spiral as the wonder-scale identity anchor, Spiral Knotwork Sovereign Registry Court at D13, and Covered Bazaar Beacon as the city signal landmark.",
+      "Preserve the five-section spine: S1 Grand Market Civic Hall, S2 Artisan Guilds Civic Hall, S3 Records / Archives Hall, S4 Low Residential Civic Hall, S5 Entertainment / Theater Civic Hall.",
+      "Use roads, terrain, water, civic terraces, walls, markets, courts, or service routes only where they support the exact city identity and tactical readability."
     ],
     "requiredVisualElements": [
-      "Irish/Celtic civic river capital identity",
       "Oath-Ring Hillfort of the Green Spiral",
-      "Spiral Knotwork Sovereign Registry Court",
       "Covered Bazaar Beacon",
+      "Spiral Knotwork Sovereign Registry Court",
+      "Opera Court",
+      "Guildhall",
+      "Tenement Court",
       "Grand Market Civic Hall",
       "Awning Monument",
       "Auction Court Nook",
       "Artisan Guilds Civic Hall",
-      "Guildhall",
       "Woven Banners Monument",
       "Masterwork Arcade Nook",
+      "Records / Archives Hall",
       "Archive Tower",
       "Records Archives Gold-Seal Monument",
       "Copyist Hall Nook",
-      "Tenement Court",
+      "Low Residential Civic Hall",
       "Low Residential Lantern Monument",
       "Laundry Well Nook",
-      "Opera Court",
+      "Entertainment / Theater Civic Hall",
       "Entertainment Theater Lantern Monument",
-      "Mask Pavilion Nook"
+      "Mask Pavilion Nook",
+      "Granite",
+      "Peat Brick",
+      "Oak",
+      "Copper",
+      "Dyed Wool",
+      "Dry Stone Paving",
+      "Civic Terraces",
+      "Heather Highland",
+      "Civic Blue Illumination",
+      "Oath Seals",
+      "Ancestral Spirits"
     ],
     "elementsToAvoid": [
-      "wild Celtic ruin framing",
-      "generic medieval market town",
-      "empty stone city without dense public life",
-      "theater as decoration only",
-      "guild craft omitted from civic authority",
-      "archives replaced by vague memory motifs",
-      "low residential areas treated as background filler"
+      "extra top-level schema sections or research-log content in the JSON",
+      "generic fantasy architecture that ignores exact anchor names",
+      "invented missing street anchors",
+      "readable real-world text labels baked into images",
+      "collapsing the 25-district board into only five playable spaces",
+      "making landmarks decorative when they should have civic, narrative, and asset function"
     ]
   }
 }

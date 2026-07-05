@@ -1,629 +1,1920 @@
 {
-  "schemaVersion": 1,
-  "analysisVersion": 1,
-  "cityCode": "SPK",
-  "cityName": "Skyrend Peak",
-  "analysisConfidence": "strong-lock",
-  "analysisDate": "2026-06-29",
-  "analystVersion": "gpt-5.5-thinking",
-  "basedOnImages": [
-    "SPK-HERO-NW-v001",
-    "SPK-HERO-NE-v001",
-    "SPK-HERO-SE-v001",
-    "SPK-HERO-SW-v001",
-    "SPK-STREET-S1-v001",
-    "SPK-STREET-S2-v001",
-    "SPK-STREET-S3-v001",
-    "SPK-STREET-S4-v001",
-    "SPK-STREET-S5-v001"
-  ],
-  "summary": {
-    "oneSentence": "Skyrend Peak is a vertical raptorfolk fortress-civilization where height, wind, watchfulness, signal towers, cliff platforms, and defensive civic architecture become the natural grammar of daily life.",
-    "identityStatement": "Skyrend Peak should read as a city built by people who think in altitude. It is not merely a mountain city; it is a settled raptorfolk civilization where nests became fortresses, towers became civic organs, and every balcony, bridge, stair, and beacon participates in protection of home."
+  "metadata": {
+    "schemaVersion": "2.0",
+    "analysisVersion": 2,
+    "cityCode": "SPK",
+    "cityName": "Skyrend Peak",
+    "analysisDate": "2026-07-05",
+    "analystVersion": "gpt-5.5-thinking",
+    "analysisConfidence": "strong-lock",
+    "basedOnImages": [
+      "SPK-HERO-NE-v001.png",
+      "SPK-HERO-NW-v002.png",
+      "SPK-HERO-SE-v001.png",
+      "SPK-HERO-SW-v001.png",
+      "SPK-STREET-S1-v001.png",
+      "SPK-STREET-S2-v001.png",
+      "SPK-STREET-S3-v001.png",
+      "SPK-STREET-S4-v001.png",
+      "SPK-STREET-S5-v001.png"
+    ],
+    "basedOnSidecars": [
+      "SPK-HERO-NE-v001.json",
+      "SPK-HERO-NW-v002.json",
+      "SPK-HERO-SE-v001.json",
+      "SPK-HERO-SW-v001.json",
+      "SPK-STREET-S1-v001.json",
+      "SPK-STREET-S2-v001.json",
+      "SPK-STREET-S3-v001.json",
+      "SPK-STREET-S4-v001.json",
+      "SPK-STREET-S5-v001.json"
+    ],
+    "missingStreetSections": []
   },
-  "evidence": {
-    "civilizationMaturity": {
-      "ageExpression": "established-to-ancient",
-      "evidence": [
-        "towers, stairs, bridges, walls, and cliff platforms appear integrated into a long-lived vertical city system",
-        "defensive structures feel civic rather than temporary military additions",
-        "public spaces are built around altitude, sightlines, and wind exposure rather than flat urban expansion",
-        "the skyline presents repeated signal and perch structures as cultural identity"
-      ]
-    },
-    "architecturalLanguage": {
-      "materials": [
-        "wind-worn pale stone",
-        "dark iron",
-        "bronze fittings",
-        "blue glass or signal cores",
-        "weathered banners",
-        "cliff masonry",
-        "carved rock",
-        "timber braces",
-        "metal railings"
-      ],
-      "forms": [
-        "eyrie towers",
-        "beacon spires",
-        "cliff platforms",
-        "watch balconies",
-        "vertical gates",
-        "wind bridges",
-        "stair towers",
-        "fortress walls",
-        "landing terraces",
-        "winglike rooflines",
-        "perch ledges",
-        "sky-facing civic halls"
-      ],
-      "skyline": [
-        "tower clusters rising from cliffs",
-        "blue-lit beacon cores visible across altitude levels",
-        "Citadel and Wonder expressed as high vertical anchors",
-        "repeated perch-and-signal silhouettes rather than domes or market roofs",
-        "city massing stacked upward instead of spread outward"
-      ],
-      "lighting": [
-        "cold high-altitude daylight",
-        "blue signal light",
-        "beacon glow against stone",
-        "fire braziers in wind-shielded places",
-        "sunlit cliff faces",
-        "shadowed stair cuts and tower interiors"
-      ],
-      "infrastructure": [
-        "vertical stair routes",
-        "cliff roads",
-        "watch platforms",
-        "guard balconies",
-        "wind bridges",
-        "landing ledges",
-        "signal tower networks",
-        "terraced fortification walls",
-        "high gates",
-        "cargo lifts or hoist-like tower systems"
-      ],
-      "visualPatterns": [
-        "height is the organizing principle",
-        "defensibility and visibility are civic defaults",
-        "towers often serve multiple purposes: perch, signal, lookout, and monument",
-        "public space is exposed to sky and wind",
-        "the city feels concentrated because the geography demands vertical building rather than outward spread"
-      ],
-      "recurringMotifs": [
-        "wings",
-        "talons or clawlike supports",
-        "feathers",
-        "watchfires",
-        "blue signal cores",
-        "banners snapping in wind",
-        "perches",
-        "cliff edges",
-        "sky roads",
-        "nest-like high structures"
-      ]
-    },
-    "environmentalRelationship": {
-      "observed": "Skyrend Peak embraces verticality as the basic condition of civilization. The city does not merely occupy the mountain; it turns altitude into identity, security, and civic order.",
-      "evidence": [
-        "architecture stacks upward through towers, stairs, and cliff platforms",
-        "public routes appear shaped by elevation and exposure",
-        "defensive visibility is built into the skyline",
-        "the city concentrates around available peaks and ledges rather than spreading across open land"
-      ]
-    },
-    "authorityExpression": {
-      "observed": "Authority feels protective and watchful rather than purely royal, religious, or commercial.",
-      "evidence": [
-        "watchtowers and beacon structures dominate the civic language",
-        "defensive routes and high platforms are integrated with public architecture",
-        "the city visually prioritizes vigilance, home protection, and signal response",
-        "military language appears as civic responsibility rather than conquest spectacle"
-      ]
-    },
-    "commercialSpaces": [
-      "high ledge markets",
-      "wind-sheltered food stalls",
-      "featherwork and banner shops",
-      "metal and leather harness makers",
-      "sky-route supply counters",
-      "watch equipment vendors",
-      "rope and pulley workshops",
-      "mountain herb sellers",
-      "messenger roost services"
-    ],
-    "publicSpaces": [
-      "watch terraces",
-      "beacon plazas",
-      "cliff-edge assembly platforms",
-      "wind bridges",
-      "high stair landings",
-      "guarded gates",
-      "landing courts",
-      "sky-facing civic halls",
-      "training or signal yards"
-    ],
-    "districtCharacter": {
-      "section1BeaconApproach": "signal identity, public warning, guarded approaches, and civic attention focused around the Beacon",
-      "section2WatchAndWindRoutes": "lookouts, cliff paths, messenger movement, and open-air platforms shaped by altitude",
-      "section3CivicFortressCore": "formal authority expressed through protected terraces, high halls, and watchful public spaces",
-      "section4ResidentialOrPerchDistricts": "settled vertical living, balconies, ledges, nested homes, and wind-sheltered communal spaces",
-      "section5OuterSkyRoads": "more exposed routes, defensive edges, cargo hoists, gate approaches, and practical mountain survival infrastructure"
-    }
+  "cityDNA": {
+    "coreFantasy": "Skyrend Peak is a raptorfolk cliff bastion where border walls, forges, command yards, observatories, and containment courts turn height into military-civic responsibility.",
+    "primaryEmotion": "high-altitude vigilance",
+    "secondaryEmotion": "austere command",
+    "readerTakeaway": "Skyrend Peak should feel immediately distinct: raptor-like avian folk civic life is organized around Fortress / Border Wall, Heavy Industry / Foundry, Military Command, Observatory / Astronomy, and Prison / Containment, with Raptor Windspire Eyrie of the First Flight as the citywide symbol.",
+    "civilizationThesis": "The city turns Granite, Slate, Cedar, Glass, Canvas, Cliffside, Terraced Slope, Civic Terraces, and Beast Bonding, Ancestor Guidance, Flock Sight into a working urban system rather than surface decoration.",
+    "visualIdentity": "Use Granite, Slate, Cedar, Glass, Canvas, civic terraces, public courts, audience terraces, sealed archives, command platforms, Fortress / Border Wall Civic Hall, Heavy Industry / Foundry Civic Hall, Military Command Hall, visible Border Wall Beacon, the central Feather Fan Roofs Wind-Crown Seat, and the skyline-scale Raptor Windspire Eyrie of the First Flight as the core visual grammar.",
+    "culturalIdentity": "A raptor-like avian folk population whose institutions make daily life legible through section anchors: Fortress / Border Wall, Heavy Industry / Foundry, Military Command, Observatory / Astronomy, Prison / Containment.",
+    "symbolicIdentity": "The city is symbolized by Raptor Windspire Eyrie of the First Flight, Border Wall Beacon, Feather Fan Roofs Wind-Crown Seat, and the repeating civic pattern of hall, landmark, monument, and nook in every section."
   },
-  "narrativeTranslation": {
-    "streets": {
-      "description": "Skyrend Peak should rarely feel flat. Its streets are stairs, ledges, wind bridges, tower passages, cliff roads, and exposed terraces. Movement is physical, vertical, and constantly aware of drop, sky, and wind.",
-      "writingGuidance": [
-        "Use ascent and exposure as scene texture: climbing, turning into wind, crossing bridges, and pausing at landings.",
-        "Describe streets as routes through altitude rather than simple lanes between buildings.",
-        "Let outsiders feel exhausted or vulnerable while raptorfolk move with practiced ease.",
-        "Use distant views often; characters should see clouds, lower districts, towers, and signal lights from public spaces."
-      ]
-    },
-    "people": {
-      "description": "Citizens should feel alert, practical, and at home in vertical spaces. Raptorfolk gather on ledges, perch rails, tower balconies, and open terraces without anxiety. Their civic manner should suggest watchfulness as ordinary responsibility, not paranoia.",
-      "behavioralNotes": [
-        "people look outward frequently, toward sky, approach routes, and signal towers",
-        "guards blend into civic life more naturally than in softer cities",
-        "messengers and scouts have visible social importance",
-        "public posture is protective rather than aggressive"
-      ]
-    },
-    "shops": {
-      "examples": [
-        "rope and pulley shops",
-        "weatherproof cloak makers",
-        "banner repair stalls",
-        "metal harness workshops",
-        "signal-lamp vendors",
-        "mountain food stalls",
-        "watchglass makers",
-        "leather grip and talon-guard makers",
-        "messenger roost counters",
-        "high-altitude inn balconies"
-      ],
-      "writingGuidance": "Commercial spaces should be compact, wind-sheltered, and adapted to altitude. Markets may occupy widened stair landings, ledge plazas, or tower bases rather than broad flat squares."
-    },
-    "homes": {
-      "description": "Homes should resemble inhabited eyries: stacked stone dwellings, balcony ledges, sheltered alcoves, high windows, wind screens, roof perches, and communal landings built into cliffs or tower sides.",
-      "writingGuidance": [
-        "Avoid flat suburban or valley settlement imagery.",
-        "Domestic life should include windbreaks, ledge gardens, shared high terraces, and places designed for looking outward."
-      ]
-    },
-    "publicLife": {
-      "dailyRhythms": [
-        "morning wind checks and signal inspections",
-        "scouts or messengers moving between towers",
-        "market stalls opening in sheltered ledges",
-        "guards rotating through high platforms",
-        "children learning safe movement near stairs and railings",
-        "evening beacon lights and watchfires",
-        "night winds moving banners and tower lamps"
-      ],
-      "commonActivities": [
-        "watch shifts",
-        "signal maintenance",
-        "stair and bridge crossings",
-        "banner repair",
-        "cargo hoisting",
-        "training on ledges",
-        "public gathering at beacon terraces",
-        "messenger departures",
-        "storm preparation"
-      ]
-    },
-    "sounds": [
-      "constant wind",
-      "banners snapping",
-      "boots or talons on stone stairs",
-      "metal rings and railings humming",
-      "distant signal bells",
-      "watch calls between towers",
-      "cargo ropes creaking",
-      "wings or cloaks catching air",
-      "braziers crackling in sheltered courts"
+  "canon": {
+    "canonLocks": [
+      "Skyrend Peak is built for its raptor-like avian folk population and should not be genericized into a neutral fantasy city.",
+      "The Wonder is Raptor Windspire Eyrie of the First Flight.",
+      "The Beacon is Border Wall Beacon.",
+      "The Seat of Power is Feather Fan Roofs Wind-Crown Seat.",
+      "The five section spines are Fortress / Border Wall, Heavy Industry / Foundry, Military Command, Observatory / Astronomy, Prison / Containment.",
+      "The tactical board uses 25 district slots, with District 13 as the seat-of-power center.",
+      "Exact sidecar names for civic halls, major landmarks, monuments, and minor nooks must be preserved verbatim."
     ],
-    "smells": [
-      "cold stone",
-      "thin mountain air",
-      "smoke from braziers",
-      "oiled leather",
-      "metal fittings",
-      "storm rain on rock",
-      "dried mountain herbs",
-      "wind-carried snow or dust"
+    "provisionalCanon": [
+      "Citizens likely treat Border Wall Beacon as the practical public signal point for citywide alerts and Conjunction response.",
+      "Daily politics likely moves through the named section institutions rather than through faction headquarters.",
+      "The city’s civic magic expresses through Beast Bonding, Ancestor Guidance, Flock Sight when visible in public spaces."
     ],
-    "lighting": {
-      "day": "Daylight should be sharp, high, and exposed. Cliff faces, tower edges, and pale stone catch light strongly while stair cuts and wall interiors fall into deep shadow.",
-      "night": "Blue beacon cores, tower lamps, and watchfires should define the city as a constellation of guarded heights.",
-      "weather": "Fog, snow, rain, or storm wind should radically change visibility. Weather is not atmosphere only; it affects movement, defense, and public anxiety."
-    },
-    "transportation": {
-      "description": "Transportation is vertical and segmented: stairs, bridges, ledges, lifts, messenger routes, and guarded gate climbs. Raptorfolk bodies make altitude manageable; outsiders experience the city as tiring and exposed.",
-      "writingGuidance": [
-        "Use movement delays caused by stairs, wind, and controlled crossings.",
-        "Show locals using shortcuts across ledges and upper routes that outsiders would avoid.",
-        "Treat cargo movement as an engineering problem: hoists, lifts, pulleys, and tower routes."
-      ]
-    },
-    "children": {
-      "description": "Children should be raised around height with discipline. They play and learn on safe ledges, stair courts, and sheltered platforms, but are taught early to respect wind, drop, and signal rules."
-    },
-    "craftsmen": {
-      "description": "Craftsmen support altitude survival: masons, bridgewrights, pulley makers, leatherworkers, watchglass makers, signal-lamp keepers, banner repairers, and weatherproof textile workers."
-    },
-    "markets": {
-      "description": "Markets should be smaller, vertical, and protective: stalls tucked against tower bases, ledge plazas, stair landings, and windbreak walls. Goods are practical, durable, and tied to movement, weather, signal, and survival."
-    },
-    "food": {
-      "examples": [
-        "dried mountain meat",
-        "hard bread",
-        "hot broth served from sheltered stalls",
-        "roasted root vegetables",
-        "mountain herbs",
-        "wind-dried fruit",
-        "smoked fish or game",
-        "thick tea for cold terraces"
-      ]
-    },
-    "companionObservations": {
-      "addie": [
-        "notices repeated phrases around watch duty, signal timing, and tower names",
-        "stores routes by elevation sequence: gate, stair, terrace, bridge, Beacon, Citadel",
-        "feels the city teaching her that public safety is a shared memory system"
-      ],
-      "gregory": [
-        "reads wing, perch, sky-road, watchfire, and beacon symbolism as civic identity",
-        "notices that towers function symbolically as much as defensively"
-      ],
-      "brickett": [
-        "spots ledge shortcuts, loose rail fittings, pulley access, maintenance doors, and places small bodies can move behind windbreaks",
-        "understands which formal routes are for outsiders and which routes locals actually use"
-      ],
-      "talandra": [
-        "reads the city almost entirely as threat geometry: vertical exposure, balconies, bridges, high windows, choke stairs, and tower lines",
-        "is likely both impressed and irritated because the city is defensible but difficult to control during panic"
-      ],
-      "mae": [
-        "would notice control of messenger routes, signal towers, cargo lifts, and gate access as the real economic and political leverage",
-        "would understand that whoever controls movement through altitude controls the city"
-      ],
-      "genericCompanionNotes": [
-        "Outsiders should feel physically humbled by the city.",
-        "Raptorfolk should not seem reckless near heights; they should seem calmly adapted."
-      ]
-    }
-  },
-  "arrivalExperience": {
-    "firstImpression": "A visitor should first experience Skyrend Peak as a city that rises instead of spreads: towers above towers, stairs carved into cliffs, blue signal lights against wind-worn stone, banners snapping in open air, and civic life unfolding on terraces where the sky feels close enough to touch.",
-    "firstHourSequence": [
-      "thin air and wind before the city fully opens",
-      "first glimpse of tower clusters and beacon spires on the cliffline",
-      "guarded ascent through stairs, gates, and exposed terraces",
-      "public views downward across lower districts or valley approaches",
-      "recognition that every balcony and platform can also be a watch position",
-      "arrival at a civic terrace where protection, not luxury, defines grandeur"
+    "rejectedReads": [
+      "Skyrend Peak as a generic fantasy settlement with the culture applied as ornament only.",
+      "Replacing exact section anchors with generic labels such as market, temple, tower, archive, or court when the sidecar provides a proper name.",
+      "Treating the Wonder, Beacon, or Seat of Power as interchangeable skyline props instead of civic machinery."
     ],
-    "readerEffect": "The reader should feel that Skyrend Peak is safe for those who belong to it and dangerous for those who do not. Height should feel like home to raptorfolk and vulnerability to outsiders."
-  },
-  "departureMemory": {
-    "readerShouldRemember": [
-      "blue signal towers on cliff heights",
-      "wind and banners everywhere",
-      "stairs and bridges replacing flat roads",
-      "public life on exposed terraces",
-      "raptorfolk calm near dangerous drops",
-      "the sense that home is protected by altitude",
-      "a city where vigilance is civic identity"
+    "cautionFlags": [
+      "Do not add unsupported per-district landmark names beyond the source-backed section anchors.",
+      "Keep all 25 districts, but derive their specific identity from the five section spines unless new district-specific sidecars exist.",
+      "Preserve the material language: Granite, Slate, Cedar, Glass, Canvas.",
+      "Preserve the terrain/water logic: Cliffside, Terraced Slope, Civic Terraces; water context: dry city ground."
     ]
   },
-  "landmarkAnalysis": {
-    "wonder": {
-      "purpose": "The Wonder should express Skyrend Peak's highest relationship with altitude, wind, and civic protection.",
-      "visualDescription": "A skyline-scale vertical structure integrated with cliff, tower, and signal language, likely visible as a windspire, sky-road complex, or monumental eyrie distinct from the Beacon and Citadel.",
-      "narrativeUse": "Use the Wonder to show the city at its most mythic: raptorfolk civilization transforming danger, wind, and height into identity.",
-      "howCharactersNoticeIt": {
-        "addie": "connects its repeated language with older tower names, signal phrases, and civic memory",
-        "gregory": "reads the Wonder as an architectural statement about ascent, protection, and sky-belonging",
-        "brickett": "looks for maintenance routes, hidden ladders, service ledges, and unsafe shortcuts",
-        "talandra": "maps every exposed approach and immediately sees both defensive genius and evacuation risk"
-      },
-      "commonActivities": [
-        "civic ceremonies",
-        "watch rites",
-        "signal festivals",
-        "first-flight or coming-of-age observances",
-        "storm vigils",
-        "public assemblies on high terraces"
+  "environment": {
+    "terrain": [
+      "Cliffside",
+      "Terraced Slope",
+      "Civic Terraces",
+      "district plazas",
+      "civic approaches",
+      "pedestrian streets",
+      "section courts"
+    ],
+    "water": [
+      "dry city ground",
+      "high cisterns",
+      "snowmelt gutters",
+      "wind-carried mist",
+      "stone catchment basins"
+    ],
+    "vegetation": [
+      "cliff cedars",
+      "wind-bent trees",
+      "terrace shrubs",
+      "hardy highland grasses",
+      "canvas-shaded planters"
+    ],
+    "climateLighting": [
+      "daylight",
+      "golden hour",
+      "lantern-lit evenings",
+      "civic blue illumination",
+      "Beast Bonding",
+      "Ancestor Guidance"
+    ],
+    "environmentalLogic": "Environment should make the city’s institutions readable: Fortress / Border Wall, Heavy Industry / Foundry, Military Command, Observatory / Astronomy, Prison / Containment must feel embedded in Cliffside, Terraced Slope, Civic Terraces, with water handled as dry city ground and public magic appearing as Beast Bonding, Ancestor Guidance, Flock Sight."
+  },
+  "architecture": {
+    "materials": [
+      "Granite",
+      "Slate",
+      "Cedar",
+      "Glass",
+      "Canvas"
+    ],
+    "forms": [
+      "civic terraces",
+      "public courts",
+      "audience terraces",
+      "sealed archives",
+      "command platforms",
+      "Fortress / Border Wall Civic Hall",
+      "Heavy Industry / Foundry Civic Hall",
+      "Military Command Hall",
+      "Observatory / Astronomy Civic Hall",
+      "Prison / Containment Civic Hall",
+      "Border Wall Beacon",
+      "Great Forge",
+      "Command Bastion",
+      "Star Observatory",
+      "Containment Keep",
+      "Woven Banners Monument",
+      "Smoke-Stack Monument",
+      "Star Navigation Monument",
+      "Mist Veils Monument",
+      "Watch Bastion Nook",
+      "Crucible Hall Nook",
+      "Standard Tower Nook",
+      "Celestial Court Nook",
+      "Judgment Yard Nook"
+    ],
+    "skyline": [
+      "Raptor Windspire Eyrie of the First Flight dominates the far skyline and should be larger than every section landmark.",
+      "Feather Fan Roofs Wind-Crown Seat anchors the central District 13 civic mass.",
+      "Border Wall Beacon is the section-1 signal landmark and must be readable from nearby districts.",
+      "Section skyline rhythm: Border Wall Beacon, Great Forge, Command Bastion, Star Observatory, Containment Keep."
+    ],
+    "lighting": [
+      "civic blue illumination",
+      "lantern light",
+      "golden-hour edge light",
+      "public beacon glow",
+      "Beast Bonding",
+      "Ancestor Guidance",
+      "Flock Sight"
+    ],
+    "infrastructure": [
+      "Fortress / Border Wall Civic Hall",
+      "Heavy Industry / Foundry Civic Hall",
+      "Military Command Hall",
+      "Observatory / Astronomy Civic Hall",
+      "Prison / Containment Civic Hall",
+      "Border Wall Beacon",
+      "Great Forge",
+      "Command Bastion",
+      "Star Observatory",
+      "Containment Keep",
+      "district streets",
+      "public approach stairs",
+      "notice plazas",
+      "archive thresholds",
+      "service yards"
+    ],
+    "motifs": [
+      "Raptor",
+      "Windspire",
+      "Eyrie",
+      "First",
+      "Flight",
+      "Feather",
+      "Roofs",
+      "Wind",
+      "Crown",
+      "Seat",
+      "Border",
+      "Wall",
+      "Beast Bonding",
+      "Ancestor Guidance",
+      "Flock Sight"
+    ],
+    "colorLanguage": [
+      "Granite",
+      "Slate",
+      "Cedar",
+      "Glass",
+      "Canvas"
+    ],
+    "textureLanguage": [
+      "Granite",
+      "Slate",
+      "Cedar",
+      "Glass",
+      "Canvas",
+      "worn paving",
+      "public notice surfaces",
+      "worked civic thresholds",
+      "weathered landmark edges"
+    ]
+  },
+  "civilization": {
+    "people": "The population is raptor-like avian folk. Civic scenes should show them using the city’s architecture naturally: gathering near Border Wall Beacon, moving through Fortress / Border Wall, Heavy Industry / Foundry, Military Command, and treating the named anchors as practical institutions.",
+    "occupations": [
+      "civic clerks",
+      "beacon wardens",
+      "archive keepers",
+      "market sellers",
+      "street repair crews",
+      "craft workers",
+      "messengers",
+      "guards",
+      "Fortress / Border Wall staff",
+      "Heavy Industry / Foundry staff",
+      "Military Command staff",
+      "Observatory / Astronomy staff",
+      "Prison / Containment staff",
+      "border wall beacon attendants",
+      "great forge attendants",
+      "command bastion attendants",
+      "star observatory attendants",
+      "containment keep attendants"
+    ],
+    "socialClasses": [
+      "seat-of-power officials attached to Feather Fan Roofs Wind-Crown Seat",
+      "section hall administrators and permit keepers",
+      "craft, market, transport, religious, or military guild households depending on district spine",
+      "street vendors, carriers, maintenance workers, and household service families",
+      "visitors and petitioners who navigate the city through public anchors"
+    ],
+    "governance": "Governance is centered on Feather Fan Roofs Wind-Crown Seat and expressed locally through the five section civic halls. Authority should be visible in courts, archives, public signals, permits, and named monuments rather than hidden abstraction.",
+    "religion": "Religious and symbolic life should draw on Beast Bonding, Ancestor Guidance, Flock Sight, the Wonder’s public symbolism, and whichever section anchors carry sacred or ceremonial roles.",
+    "customs": [
+      "citizens use named halls and nooks as practical meeting points",
+      "public signals from the Beacon interrupt ordinary commerce and movement",
+      "section monuments preserve civic memory and local identity",
+      "visitors orient themselves by Wonder, Beacon, Seat, and section major landmarks",
+      "formal petitions and judgments move toward District 13"
+    ],
+    "bodyLanguage": [
+      "citizens make room for official messengers near beacon approaches",
+      "locals gesture by landmark rather than by street name",
+      "public posture changes around courts, monuments, and halls",
+      "market or service workers keep one eye on signal points during tense periods"
+    ],
+    "speechPatterns": [
+      "directions reference exact named anchors",
+      "formal speech preserves civic titles",
+      "street speech abbreviates section landmarks but not Wonder, Beacon, or Seat names",
+      "public announcements use practical civic language rather than poetic vagueness"
+    ]
+  },
+  "urbanLife": {
+    "streets": {
+      "appearance": "Street views should show Granite, Slate, Cedar, Glass, Canvas, civic terraces, public courts, audience terraces, sealed archives, command platforms, Fortress / Border Wall Civic Hall, pedestrians using section halls, and sightlines back to Border Wall Beacon or Feather Fan Roofs Wind-Crown Seat where appropriate.",
+      "movement": "Movement is organized by section spine: Fortress / Border Wall, Heavy Industry / Foundry, Military Command, Observatory / Astronomy, Prison / Containment. Districts feed toward their civic hall, major landmark, monument, and minor nook before converging on District 13 for authority scenes.",
+      "sounds": [
+        "wind through banners",
+        "forge blows",
+        "wing beats",
+        "guard calls",
+        "star instruments clicking",
+        "containment gates"
       ],
-      "visibilityFromCity": "Should be visible from many tower lines and elevated districts, functioning as a mythic vertical anchor rather than a broad horizontal monument."
+      "smells": [
+        "cold granite",
+        "smoke-stack soot",
+        "cedar",
+        "oiled leather",
+        "hot metal",
+        "high thin air"
+      ],
+      "lighting": "Use civic blue illumination for official signal moments, practical lantern light for night scenes, and material-specific highlights on Granite, Slate, Cedar, Glass.",
+      "weatherEffects": "Weather should reinforce terrain and water logic: Cliffside, Terraced Slope, Civic Terraces; water context dry city ground.",
+      "dayCycle": "Mornings emphasize deliveries, hall openings, street maintenance, market preparation, and official notices; afternoons build toward hearings, training, guild work, or section-specific labor.",
+      "nightCycle": "Evenings compress around lanterns, food stalls, guarded thresholds, quieter civic errands, and beacon visibility against darker streets."
+    },
+    "shops": {
+      "common": [
+        "food stalls",
+        "repair counters",
+        "lantern sellers",
+        "permit copyists",
+        "market cloth stalls",
+        "tool vendors",
+        "fortress / border wall service stalls",
+        "heavy industry / foundry service stalls",
+        "military command service stalls"
+      ],
+      "uncommon": [
+        "landmark souvenir makers",
+        "ritual supply counters",
+        "specialist surveyors",
+        "seal engravers",
+        "instrument repairers",
+        "border wall beacon adjunct shops",
+        "great forge adjunct shops",
+        "command bastion adjunct shops"
+      ],
+      "prestigious": [
+        "Feather Fan Roofs Wind-Crown Seat document ateliers",
+        "Raptor Windspire Eyrie of the First Flight ceremonial suppliers",
+        "master craft houses",
+        "official seal workshops",
+        "elite household service halls"
+      ],
+      "exports": [
+        "finished civic craft",
+        "specialized tools",
+        "ritual goods",
+        "district textiles",
+        "trained specialists",
+        "Granite",
+        "Slate",
+        "Cedar"
+      ],
+      "imports": [
+        "rare dyes",
+        "lamp oil",
+        "fine timber",
+        "metal fittings",
+        "grain stores",
+        "paper and ink"
+      ],
+      "streetFood": [
+        "smoked mountain meat",
+        "highland grain cakes",
+        "cedar tea",
+        "forge-kettle stew",
+        "dried fruit",
+        "watchpost broth"
+      ],
+      "services": [
+        "petition filing",
+        "district guidance",
+        "beacon notice posting",
+        "minor repairs",
+        "public messenger work",
+        "archive copying",
+        "fortress / border wall appointments",
+        "heavy industry / foundry appointments"
+      ]
+    },
+    "housing": {
+      "wealthy": "Residences near Feather Fan Roofs Wind-Crown Seat or high-status section courts use the best Granite, Slate, Cedar, private terraces, and controlled views of civic landmarks.",
+      "middle": "Households cluster above shops and along civic streets, sharing courtyards, balconies, workrooms, and access to section halls.",
+      "poor": "Lower-status housing is practical, crowded, and close to service yards or labor streets, but still uses local motifs and public landmarks for orientation."
+    }
+  },
+  "districts": [
+    {
+      "districtNumber": 1,
+      "sectionNumber": 1,
+      "name": "D01 Fortress / Border Wall Civic Approach",
+      "civicPurpose": "A civic approach district within Fortress / Border Wall that supports Fortress / Border Wall Civic Hall, Border Wall Beacon, and the surrounding section economy.",
+      "visualIdentity": "Use Granite, Slate, Cedar, Glass, section signage through Fortress / Border Wall Civic Hall, Border Wall Beacon, Woven Banners Monument, Watch Bastion Nook, and terrain cues from Cliffside, Terraced Slope, Civic Terraces. The district should read as part of Fortress / Border Wall without becoming generic.",
+      "emotionalIdentity": "civic approach-oriented, local, practical, and tied to the section mood of Fortress / Border Wall",
+      "gameplayAssetNeeds": [
+        "Fortress / Border Wall Civic Hall",
+        "Border Wall Beacon",
+        "Woven Banners Monument",
+        "Watch Bastion Nook",
+        "Fortress / Border Wall pedestrians",
+        "street props",
+        "section lighting",
+        "board-readable landmark silhouette"
+      ],
+      "narrativeUse": [
+        "street scenes in Fortress / Border Wall",
+        "local business around Border Wall Beacon",
+        "district traversal",
+        "rumor exchange",
+        "small civic obstacle"
+      ],
+      "primaryLandmark": "Border Wall Beacon",
+      "minorLandmarks": [
+        "Fortress / Border Wall Civic Hall",
+        "Woven Banners Monument",
+        "Watch Bastion Nook"
+      ]
+    },
+    {
+      "districtNumber": 2,
+      "sectionNumber": 1,
+      "name": "D02 Fortress / Border Wall Landmark Court",
+      "civicPurpose": "A landmark court district within Fortress / Border Wall that supports Fortress / Border Wall Civic Hall, Border Wall Beacon, and the surrounding section economy.",
+      "visualIdentity": "Use Granite, Slate, Cedar, Glass, section signage through Fortress / Border Wall Civic Hall, Border Wall Beacon, Woven Banners Monument, Watch Bastion Nook, and terrain cues from Cliffside, Terraced Slope, Civic Terraces. The district should read as part of Fortress / Border Wall without becoming generic.",
+      "emotionalIdentity": "landmark court-oriented, local, practical, and tied to the section mood of Fortress / Border Wall",
+      "gameplayAssetNeeds": [
+        "Fortress / Border Wall Civic Hall",
+        "Border Wall Beacon",
+        "Woven Banners Monument",
+        "Watch Bastion Nook",
+        "Fortress / Border Wall pedestrians",
+        "street props",
+        "section lighting",
+        "board-readable landmark silhouette"
+      ],
+      "narrativeUse": [
+        "street scenes in Fortress / Border Wall",
+        "local business around Border Wall Beacon",
+        "district traversal",
+        "rumor exchange",
+        "small civic obstacle"
+      ],
+      "primaryLandmark": "Border Wall Beacon",
+      "minorLandmarks": [
+        "Fortress / Border Wall Civic Hall",
+        "Woven Banners Monument",
+        "Watch Bastion Nook"
+      ]
+    },
+    {
+      "districtNumber": 3,
+      "sectionNumber": 1,
+      "name": "D03 Fortress / Border Wall Working Streets",
+      "civicPurpose": "A working streets district within Fortress / Border Wall that supports Fortress / Border Wall Civic Hall, Border Wall Beacon, and the surrounding section economy.",
+      "visualIdentity": "Use Granite, Slate, Cedar, Glass, section signage through Fortress / Border Wall Civic Hall, Border Wall Beacon, Woven Banners Monument, Watch Bastion Nook, and terrain cues from Cliffside, Terraced Slope, Civic Terraces. The district should read as part of Fortress / Border Wall without becoming generic.",
+      "emotionalIdentity": "working streets-oriented, local, practical, and tied to the section mood of Fortress / Border Wall",
+      "gameplayAssetNeeds": [
+        "Fortress / Border Wall Civic Hall",
+        "Border Wall Beacon",
+        "Woven Banners Monument",
+        "Watch Bastion Nook",
+        "Fortress / Border Wall pedestrians",
+        "street props",
+        "section lighting",
+        "board-readable landmark silhouette"
+      ],
+      "narrativeUse": [
+        "street scenes in Fortress / Border Wall",
+        "local business around Border Wall Beacon",
+        "district traversal",
+        "rumor exchange",
+        "small civic obstacle"
+      ],
+      "primaryLandmark": "Border Wall Beacon",
+      "minorLandmarks": [
+        "Fortress / Border Wall Civic Hall",
+        "Woven Banners Monument",
+        "Watch Bastion Nook"
+      ]
+    },
+    {
+      "districtNumber": 4,
+      "sectionNumber": 2,
+      "name": "D04 Heavy Industry / Foundry Civic Approach",
+      "civicPurpose": "A civic approach district within Heavy Industry / Foundry that supports Heavy Industry / Foundry Civic Hall, Great Forge, and the surrounding section economy.",
+      "visualIdentity": "Use Granite, Slate, Cedar, Glass, section signage through Heavy Industry / Foundry Civic Hall, Great Forge, Smoke-Stack Monument, Crucible Hall Nook, and terrain cues from Cliffside, Terraced Slope, Civic Terraces. The district should read as part of Heavy Industry / Foundry without becoming generic.",
+      "emotionalIdentity": "civic approach-oriented, local, practical, and tied to the section mood of Heavy Industry / Foundry",
+      "gameplayAssetNeeds": [
+        "Heavy Industry / Foundry Civic Hall",
+        "Great Forge",
+        "Smoke-Stack Monument",
+        "Crucible Hall Nook",
+        "Heavy Industry / Foundry pedestrians",
+        "street props",
+        "section lighting",
+        "board-readable landmark silhouette"
+      ],
+      "narrativeUse": [
+        "street scenes in Heavy Industry / Foundry",
+        "local business around Great Forge",
+        "district traversal",
+        "rumor exchange",
+        "small civic obstacle"
+      ],
+      "primaryLandmark": "Great Forge",
+      "minorLandmarks": [
+        "Heavy Industry / Foundry Civic Hall",
+        "Smoke-Stack Monument",
+        "Crucible Hall Nook"
+      ]
+    },
+    {
+      "districtNumber": 5,
+      "sectionNumber": 2,
+      "name": "D05 Heavy Industry / Foundry Landmark Court",
+      "civicPurpose": "A landmark court district within Heavy Industry / Foundry that supports Heavy Industry / Foundry Civic Hall, Great Forge, and the surrounding section economy.",
+      "visualIdentity": "Use Granite, Slate, Cedar, Glass, section signage through Heavy Industry / Foundry Civic Hall, Great Forge, Smoke-Stack Monument, Crucible Hall Nook, and terrain cues from Cliffside, Terraced Slope, Civic Terraces. The district should read as part of Heavy Industry / Foundry without becoming generic.",
+      "emotionalIdentity": "landmark court-oriented, local, practical, and tied to the section mood of Heavy Industry / Foundry",
+      "gameplayAssetNeeds": [
+        "Heavy Industry / Foundry Civic Hall",
+        "Great Forge",
+        "Smoke-Stack Monument",
+        "Crucible Hall Nook",
+        "Heavy Industry / Foundry pedestrians",
+        "street props",
+        "section lighting",
+        "board-readable landmark silhouette"
+      ],
+      "narrativeUse": [
+        "street scenes in Heavy Industry / Foundry",
+        "local business around Great Forge",
+        "district traversal",
+        "rumor exchange",
+        "small civic obstacle"
+      ],
+      "primaryLandmark": "Great Forge",
+      "minorLandmarks": [
+        "Heavy Industry / Foundry Civic Hall",
+        "Smoke-Stack Monument",
+        "Crucible Hall Nook"
+      ]
+    },
+    {
+      "districtNumber": 6,
+      "sectionNumber": 1,
+      "name": "D06 Fortress / Border Wall Residential Edge",
+      "civicPurpose": "A residential edge district within Fortress / Border Wall that supports Fortress / Border Wall Civic Hall, Border Wall Beacon, and the surrounding section economy.",
+      "visualIdentity": "Use Granite, Slate, Cedar, Glass, section signage through Fortress / Border Wall Civic Hall, Border Wall Beacon, Woven Banners Monument, Watch Bastion Nook, and terrain cues from Cliffside, Terraced Slope, Civic Terraces. The district should read as part of Fortress / Border Wall without becoming generic.",
+      "emotionalIdentity": "residential edge-oriented, local, practical, and tied to the section mood of Fortress / Border Wall",
+      "gameplayAssetNeeds": [
+        "Fortress / Border Wall Civic Hall",
+        "Border Wall Beacon",
+        "Woven Banners Monument",
+        "Watch Bastion Nook",
+        "Fortress / Border Wall pedestrians",
+        "street props",
+        "section lighting",
+        "board-readable landmark silhouette"
+      ],
+      "narrativeUse": [
+        "street scenes in Fortress / Border Wall",
+        "local business around Border Wall Beacon",
+        "district traversal",
+        "rumor exchange",
+        "small civic obstacle"
+      ],
+      "primaryLandmark": "Border Wall Beacon",
+      "minorLandmarks": [
+        "Fortress / Border Wall Civic Hall",
+        "Woven Banners Monument",
+        "Watch Bastion Nook"
+      ]
+    },
+    {
+      "districtNumber": 7,
+      "sectionNumber": 1,
+      "name": "D07 Fortress / Border Wall Service Yard",
+      "civicPurpose": "A service yard district within Fortress / Border Wall that supports Fortress / Border Wall Civic Hall, Border Wall Beacon, and the surrounding section economy.",
+      "visualIdentity": "Use Granite, Slate, Cedar, Glass, section signage through Fortress / Border Wall Civic Hall, Border Wall Beacon, Woven Banners Monument, Watch Bastion Nook, and terrain cues from Cliffside, Terraced Slope, Civic Terraces. The district should read as part of Fortress / Border Wall without becoming generic.",
+      "emotionalIdentity": "service yard-oriented, local, practical, and tied to the section mood of Fortress / Border Wall",
+      "gameplayAssetNeeds": [
+        "Fortress / Border Wall Civic Hall",
+        "Border Wall Beacon",
+        "Woven Banners Monument",
+        "Watch Bastion Nook",
+        "Fortress / Border Wall pedestrians",
+        "street props",
+        "section lighting",
+        "board-readable landmark silhouette"
+      ],
+      "narrativeUse": [
+        "street scenes in Fortress / Border Wall",
+        "local business around Border Wall Beacon",
+        "district traversal",
+        "rumor exchange",
+        "small civic obstacle"
+      ],
+      "primaryLandmark": "Border Wall Beacon",
+      "minorLandmarks": [
+        "Fortress / Border Wall Civic Hall",
+        "Woven Banners Monument",
+        "Watch Bastion Nook"
+      ]
+    },
+    {
+      "districtNumber": 8,
+      "sectionNumber": 3,
+      "name": "D08 Military Command Civic Approach",
+      "civicPurpose": "A civic approach district within Military Command that supports Military Command Hall, Command Bastion, and the surrounding section economy.",
+      "visualIdentity": "Use Granite, Slate, Cedar, Glass, section signage through Military Command Hall, Command Bastion, Woven Banners Monument, Standard Tower Nook, and terrain cues from Cliffside, Terraced Slope, Civic Terraces. The district should read as part of Military Command without becoming generic.",
+      "emotionalIdentity": "civic approach-oriented, local, practical, and tied to the section mood of Military Command",
+      "gameplayAssetNeeds": [
+        "Military Command Hall",
+        "Command Bastion",
+        "Woven Banners Monument",
+        "Standard Tower Nook",
+        "Military Command pedestrians",
+        "street props",
+        "section lighting",
+        "board-readable landmark silhouette"
+      ],
+      "narrativeUse": [
+        "street scenes in Military Command",
+        "local business around Command Bastion",
+        "district traversal",
+        "rumor exchange",
+        "small civic obstacle"
+      ],
+      "primaryLandmark": "Command Bastion",
+      "minorLandmarks": [
+        "Military Command Hall",
+        "Woven Banners Monument",
+        "Standard Tower Nook"
+      ]
+    },
+    {
+      "districtNumber": 9,
+      "sectionNumber": 2,
+      "name": "D09 Heavy Industry / Foundry Working Streets",
+      "civicPurpose": "A working streets district within Heavy Industry / Foundry that supports Heavy Industry / Foundry Civic Hall, Great Forge, and the surrounding section economy.",
+      "visualIdentity": "Use Granite, Slate, Cedar, Glass, section signage through Heavy Industry / Foundry Civic Hall, Great Forge, Smoke-Stack Monument, Crucible Hall Nook, and terrain cues from Cliffside, Terraced Slope, Civic Terraces. The district should read as part of Heavy Industry / Foundry without becoming generic.",
+      "emotionalIdentity": "working streets-oriented, local, practical, and tied to the section mood of Heavy Industry / Foundry",
+      "gameplayAssetNeeds": [
+        "Heavy Industry / Foundry Civic Hall",
+        "Great Forge",
+        "Smoke-Stack Monument",
+        "Crucible Hall Nook",
+        "Heavy Industry / Foundry pedestrians",
+        "street props",
+        "section lighting",
+        "board-readable landmark silhouette"
+      ],
+      "narrativeUse": [
+        "street scenes in Heavy Industry / Foundry",
+        "local business around Great Forge",
+        "district traversal",
+        "rumor exchange",
+        "small civic obstacle"
+      ],
+      "primaryLandmark": "Great Forge",
+      "minorLandmarks": [
+        "Heavy Industry / Foundry Civic Hall",
+        "Smoke-Stack Monument",
+        "Crucible Hall Nook"
+      ]
+    },
+    {
+      "districtNumber": 10,
+      "sectionNumber": 2,
+      "name": "D10 Heavy Industry / Foundry Residential Edge",
+      "civicPurpose": "A residential edge district within Heavy Industry / Foundry that supports Heavy Industry / Foundry Civic Hall, Great Forge, and the surrounding section economy.",
+      "visualIdentity": "Use Granite, Slate, Cedar, Glass, section signage through Heavy Industry / Foundry Civic Hall, Great Forge, Smoke-Stack Monument, Crucible Hall Nook, and terrain cues from Cliffside, Terraced Slope, Civic Terraces. The district should read as part of Heavy Industry / Foundry without becoming generic.",
+      "emotionalIdentity": "residential edge-oriented, local, practical, and tied to the section mood of Heavy Industry / Foundry",
+      "gameplayAssetNeeds": [
+        "Heavy Industry / Foundry Civic Hall",
+        "Great Forge",
+        "Smoke-Stack Monument",
+        "Crucible Hall Nook",
+        "Heavy Industry / Foundry pedestrians",
+        "street props",
+        "section lighting",
+        "board-readable landmark silhouette"
+      ],
+      "narrativeUse": [
+        "street scenes in Heavy Industry / Foundry",
+        "local business around Great Forge",
+        "district traversal",
+        "rumor exchange",
+        "small civic obstacle"
+      ],
+      "primaryLandmark": "Great Forge",
+      "minorLandmarks": [
+        "Heavy Industry / Foundry Civic Hall",
+        "Smoke-Stack Monument",
+        "Crucible Hall Nook"
+      ]
+    },
+    {
+      "districtNumber": 11,
+      "sectionNumber": 4,
+      "name": "D11 Observatory / Astronomy Civic Approach",
+      "civicPurpose": "A civic approach district within Observatory / Astronomy that supports Observatory / Astronomy Civic Hall, Star Observatory, and the surrounding section economy.",
+      "visualIdentity": "Use Granite, Slate, Cedar, Glass, section signage through Observatory / Astronomy Civic Hall, Star Observatory, Star Navigation Monument, Celestial Court Nook, and terrain cues from Cliffside, Terraced Slope, Civic Terraces. The district should read as part of Observatory / Astronomy without becoming generic.",
+      "emotionalIdentity": "civic approach-oriented, local, practical, and tied to the section mood of Observatory / Astronomy",
+      "gameplayAssetNeeds": [
+        "Observatory / Astronomy Civic Hall",
+        "Star Observatory",
+        "Star Navigation Monument",
+        "Celestial Court Nook",
+        "Observatory / Astronomy pedestrians",
+        "street props",
+        "section lighting",
+        "board-readable landmark silhouette"
+      ],
+      "narrativeUse": [
+        "street scenes in Observatory / Astronomy",
+        "local business around Star Observatory",
+        "district traversal",
+        "rumor exchange",
+        "small civic obstacle"
+      ],
+      "primaryLandmark": "Star Observatory",
+      "minorLandmarks": [
+        "Observatory / Astronomy Civic Hall",
+        "Star Navigation Monument",
+        "Celestial Court Nook"
+      ]
+    },
+    {
+      "districtNumber": 12,
+      "sectionNumber": 3,
+      "name": "D12 Military Command Landmark Court",
+      "civicPurpose": "A landmark court district within Military Command that supports Military Command Hall, Command Bastion, and the surrounding section economy.",
+      "visualIdentity": "Use Granite, Slate, Cedar, Glass, section signage through Military Command Hall, Command Bastion, Woven Banners Monument, Standard Tower Nook, and terrain cues from Cliffside, Terraced Slope, Civic Terraces. The district should read as part of Military Command without becoming generic.",
+      "emotionalIdentity": "landmark court-oriented, local, practical, and tied to the section mood of Military Command",
+      "gameplayAssetNeeds": [
+        "Military Command Hall",
+        "Command Bastion",
+        "Woven Banners Monument",
+        "Standard Tower Nook",
+        "Military Command pedestrians",
+        "street props",
+        "section lighting",
+        "board-readable landmark silhouette"
+      ],
+      "narrativeUse": [
+        "street scenes in Military Command",
+        "local business around Command Bastion",
+        "district traversal",
+        "rumor exchange",
+        "small civic obstacle"
+      ],
+      "primaryLandmark": "Command Bastion",
+      "minorLandmarks": [
+        "Military Command Hall",
+        "Woven Banners Monument",
+        "Standard Tower Nook"
+      ]
+    },
+    {
+      "districtNumber": 13,
+      "sectionNumber": 3,
+      "name": "D13 Feather Fan Roofs Wind-Crown Seat",
+      "civicPurpose": "Central seat-of-power district where Feather Fan Roofs Wind-Crown Seat concentrates courts, archives, command platforms, petitions, and city legitimacy.",
+      "visualIdentity": "Use Granite, Slate, Cedar, Glass, section signage through Military Command Hall, Command Bastion, Woven Banners Monument, Standard Tower Nook, and terrain cues from Cliffside, Terraced Slope, Civic Terraces. The district should read as part of Military Command without becoming generic.",
+      "emotionalIdentity": "authoritative, tense, formal, and publicly consequential",
+      "gameplayAssetNeeds": [
+        "Feather Fan Roofs Wind-Crown Seat",
+        "audience terraces",
+        "sealed archives",
+        "command platforms",
+        "petition queues"
+      ],
+      "narrativeUse": [
+        "central ruling scenes",
+        "public petitions",
+        "sealed records",
+        "political pressure",
+        "citywide legitimacy tests"
+      ],
+      "primaryLandmark": "Feather Fan Roofs Wind-Crown Seat",
+      "minorLandmarks": [
+        "Military Command Hall",
+        "Woven Banners Monument",
+        "Standard Tower Nook"
+      ]
+    },
+    {
+      "districtNumber": 14,
+      "sectionNumber": 3,
+      "name": "D14 Military Command Residential Edge",
+      "civicPurpose": "A residential edge district within Military Command that supports Military Command Hall, Command Bastion, and the surrounding section economy.",
+      "visualIdentity": "Use Granite, Slate, Cedar, Glass, section signage through Military Command Hall, Command Bastion, Woven Banners Monument, Standard Tower Nook, and terrain cues from Cliffside, Terraced Slope, Civic Terraces. The district should read as part of Military Command without becoming generic.",
+      "emotionalIdentity": "residential edge-oriented, local, practical, and tied to the section mood of Military Command",
+      "gameplayAssetNeeds": [
+        "Military Command Hall",
+        "Command Bastion",
+        "Woven Banners Monument",
+        "Standard Tower Nook",
+        "Military Command pedestrians",
+        "street props",
+        "section lighting",
+        "board-readable landmark silhouette"
+      ],
+      "narrativeUse": [
+        "street scenes in Military Command",
+        "local business around Command Bastion",
+        "district traversal",
+        "rumor exchange",
+        "small civic obstacle"
+      ],
+      "primaryLandmark": "Command Bastion",
+      "minorLandmarks": [
+        "Military Command Hall",
+        "Woven Banners Monument",
+        "Standard Tower Nook"
+      ]
+    },
+    {
+      "districtNumber": 15,
+      "sectionNumber": 2,
+      "name": "D15 Heavy Industry / Foundry Service Yard",
+      "civicPurpose": "A service yard district within Heavy Industry / Foundry that supports Heavy Industry / Foundry Civic Hall, Great Forge, and the surrounding section economy.",
+      "visualIdentity": "Use Granite, Slate, Cedar, Glass, section signage through Heavy Industry / Foundry Civic Hall, Great Forge, Smoke-Stack Monument, Crucible Hall Nook, and terrain cues from Cliffside, Terraced Slope, Civic Terraces. The district should read as part of Heavy Industry / Foundry without becoming generic.",
+      "emotionalIdentity": "service yard-oriented, local, practical, and tied to the section mood of Heavy Industry / Foundry",
+      "gameplayAssetNeeds": [
+        "Heavy Industry / Foundry Civic Hall",
+        "Great Forge",
+        "Smoke-Stack Monument",
+        "Crucible Hall Nook",
+        "Heavy Industry / Foundry pedestrians",
+        "street props",
+        "section lighting",
+        "board-readable landmark silhouette"
+      ],
+      "narrativeUse": [
+        "street scenes in Heavy Industry / Foundry",
+        "local business around Great Forge",
+        "district traversal",
+        "rumor exchange",
+        "small civic obstacle"
+      ],
+      "primaryLandmark": "Great Forge",
+      "minorLandmarks": [
+        "Heavy Industry / Foundry Civic Hall",
+        "Smoke-Stack Monument",
+        "Crucible Hall Nook"
+      ]
+    },
+    {
+      "districtNumber": 16,
+      "sectionNumber": 4,
+      "name": "D16 Observatory / Astronomy Landmark Court",
+      "civicPurpose": "A landmark court district within Observatory / Astronomy that supports Observatory / Astronomy Civic Hall, Star Observatory, and the surrounding section economy.",
+      "visualIdentity": "Use Granite, Slate, Cedar, Glass, section signage through Observatory / Astronomy Civic Hall, Star Observatory, Star Navigation Monument, Celestial Court Nook, and terrain cues from Cliffside, Terraced Slope, Civic Terraces. The district should read as part of Observatory / Astronomy without becoming generic.",
+      "emotionalIdentity": "landmark court-oriented, local, practical, and tied to the section mood of Observatory / Astronomy",
+      "gameplayAssetNeeds": [
+        "Observatory / Astronomy Civic Hall",
+        "Star Observatory",
+        "Star Navigation Monument",
+        "Celestial Court Nook",
+        "Observatory / Astronomy pedestrians",
+        "street props",
+        "section lighting",
+        "board-readable landmark silhouette"
+      ],
+      "narrativeUse": [
+        "street scenes in Observatory / Astronomy",
+        "local business around Star Observatory",
+        "district traversal",
+        "rumor exchange",
+        "small civic obstacle"
+      ],
+      "primaryLandmark": "Star Observatory",
+      "minorLandmarks": [
+        "Observatory / Astronomy Civic Hall",
+        "Star Navigation Monument",
+        "Celestial Court Nook"
+      ]
+    },
+    {
+      "districtNumber": 17,
+      "sectionNumber": 4,
+      "name": "D17 Observatory / Astronomy Working Streets",
+      "civicPurpose": "A working streets district within Observatory / Astronomy that supports Observatory / Astronomy Civic Hall, Star Observatory, and the surrounding section economy.",
+      "visualIdentity": "Use Granite, Slate, Cedar, Glass, section signage through Observatory / Astronomy Civic Hall, Star Observatory, Star Navigation Monument, Celestial Court Nook, and terrain cues from Cliffside, Terraced Slope, Civic Terraces. The district should read as part of Observatory / Astronomy without becoming generic.",
+      "emotionalIdentity": "working streets-oriented, local, practical, and tied to the section mood of Observatory / Astronomy",
+      "gameplayAssetNeeds": [
+        "Observatory / Astronomy Civic Hall",
+        "Star Observatory",
+        "Star Navigation Monument",
+        "Celestial Court Nook",
+        "Observatory / Astronomy pedestrians",
+        "street props",
+        "section lighting",
+        "board-readable landmark silhouette"
+      ],
+      "narrativeUse": [
+        "street scenes in Observatory / Astronomy",
+        "local business around Star Observatory",
+        "district traversal",
+        "rumor exchange",
+        "small civic obstacle"
+      ],
+      "primaryLandmark": "Star Observatory",
+      "minorLandmarks": [
+        "Observatory / Astronomy Civic Hall",
+        "Star Navigation Monument",
+        "Celestial Court Nook"
+      ]
+    },
+    {
+      "districtNumber": 18,
+      "sectionNumber": 3,
+      "name": "D18 Military Command Service Yard",
+      "civicPurpose": "A service yard district within Military Command that supports Military Command Hall, Command Bastion, and the surrounding section economy.",
+      "visualIdentity": "Use Granite, Slate, Cedar, Glass, section signage through Military Command Hall, Command Bastion, Woven Banners Monument, Standard Tower Nook, and terrain cues from Cliffside, Terraced Slope, Civic Terraces. The district should read as part of Military Command without becoming generic.",
+      "emotionalIdentity": "service yard-oriented, local, practical, and tied to the section mood of Military Command",
+      "gameplayAssetNeeds": [
+        "Military Command Hall",
+        "Command Bastion",
+        "Woven Banners Monument",
+        "Standard Tower Nook",
+        "Military Command pedestrians",
+        "street props",
+        "section lighting",
+        "board-readable landmark silhouette"
+      ],
+      "narrativeUse": [
+        "street scenes in Military Command",
+        "local business around Command Bastion",
+        "district traversal",
+        "rumor exchange",
+        "small civic obstacle"
+      ],
+      "primaryLandmark": "Command Bastion",
+      "minorLandmarks": [
+        "Military Command Hall",
+        "Woven Banners Monument",
+        "Standard Tower Nook"
+      ]
+    },
+    {
+      "districtNumber": 19,
+      "sectionNumber": 5,
+      "name": "D19 Prison / Containment Civic Approach",
+      "civicPurpose": "A civic approach district within Prison / Containment that supports Prison / Containment Civic Hall, Containment Keep, and the surrounding section economy.",
+      "visualIdentity": "Use Granite, Slate, Cedar, Glass, section signage through Prison / Containment Civic Hall, Containment Keep, Mist Veils Monument, Judgment Yard Nook, and terrain cues from Cliffside, Terraced Slope, Civic Terraces. The district should read as part of Prison / Containment without becoming generic.",
+      "emotionalIdentity": "civic approach-oriented, local, practical, and tied to the section mood of Prison / Containment",
+      "gameplayAssetNeeds": [
+        "Prison / Containment Civic Hall",
+        "Containment Keep",
+        "Mist Veils Monument",
+        "Judgment Yard Nook",
+        "Prison / Containment pedestrians",
+        "street props",
+        "section lighting",
+        "board-readable landmark silhouette"
+      ],
+      "narrativeUse": [
+        "street scenes in Prison / Containment",
+        "local business around Containment Keep",
+        "district traversal",
+        "rumor exchange",
+        "small civic obstacle"
+      ],
+      "primaryLandmark": "Containment Keep",
+      "minorLandmarks": [
+        "Prison / Containment Civic Hall",
+        "Mist Veils Monument",
+        "Judgment Yard Nook"
+      ]
+    },
+    {
+      "districtNumber": 20,
+      "sectionNumber": 5,
+      "name": "D20 Prison / Containment Landmark Court",
+      "civicPurpose": "A landmark court district within Prison / Containment that supports Prison / Containment Civic Hall, Containment Keep, and the surrounding section economy.",
+      "visualIdentity": "Use Granite, Slate, Cedar, Glass, section signage through Prison / Containment Civic Hall, Containment Keep, Mist Veils Monument, Judgment Yard Nook, and terrain cues from Cliffside, Terraced Slope, Civic Terraces. The district should read as part of Prison / Containment without becoming generic.",
+      "emotionalIdentity": "landmark court-oriented, local, practical, and tied to the section mood of Prison / Containment",
+      "gameplayAssetNeeds": [
+        "Prison / Containment Civic Hall",
+        "Containment Keep",
+        "Mist Veils Monument",
+        "Judgment Yard Nook",
+        "Prison / Containment pedestrians",
+        "street props",
+        "section lighting",
+        "board-readable landmark silhouette"
+      ],
+      "narrativeUse": [
+        "street scenes in Prison / Containment",
+        "local business around Containment Keep",
+        "district traversal",
+        "rumor exchange",
+        "small civic obstacle"
+      ],
+      "primaryLandmark": "Containment Keep",
+      "minorLandmarks": [
+        "Prison / Containment Civic Hall",
+        "Mist Veils Monument",
+        "Judgment Yard Nook"
+      ]
+    },
+    {
+      "districtNumber": 21,
+      "sectionNumber": 4,
+      "name": "D21 Observatory / Astronomy Residential Edge",
+      "civicPurpose": "A residential edge district within Observatory / Astronomy that supports Observatory / Astronomy Civic Hall, Star Observatory, and the surrounding section economy.",
+      "visualIdentity": "Use Granite, Slate, Cedar, Glass, section signage through Observatory / Astronomy Civic Hall, Star Observatory, Star Navigation Monument, Celestial Court Nook, and terrain cues from Cliffside, Terraced Slope, Civic Terraces. The district should read as part of Observatory / Astronomy without becoming generic.",
+      "emotionalIdentity": "residential edge-oriented, local, practical, and tied to the section mood of Observatory / Astronomy",
+      "gameplayAssetNeeds": [
+        "Observatory / Astronomy Civic Hall",
+        "Star Observatory",
+        "Star Navigation Monument",
+        "Celestial Court Nook",
+        "Observatory / Astronomy pedestrians",
+        "street props",
+        "section lighting",
+        "board-readable landmark silhouette"
+      ],
+      "narrativeUse": [
+        "street scenes in Observatory / Astronomy",
+        "local business around Star Observatory",
+        "district traversal",
+        "rumor exchange",
+        "small civic obstacle"
+      ],
+      "primaryLandmark": "Star Observatory",
+      "minorLandmarks": [
+        "Observatory / Astronomy Civic Hall",
+        "Star Navigation Monument",
+        "Celestial Court Nook"
+      ]
+    },
+    {
+      "districtNumber": 22,
+      "sectionNumber": 4,
+      "name": "D22 Observatory / Astronomy Service Yard",
+      "civicPurpose": "A service yard district within Observatory / Astronomy that supports Observatory / Astronomy Civic Hall, Star Observatory, and the surrounding section economy.",
+      "visualIdentity": "Use Granite, Slate, Cedar, Glass, section signage through Observatory / Astronomy Civic Hall, Star Observatory, Star Navigation Monument, Celestial Court Nook, and terrain cues from Cliffside, Terraced Slope, Civic Terraces. The district should read as part of Observatory / Astronomy without becoming generic.",
+      "emotionalIdentity": "service yard-oriented, local, practical, and tied to the section mood of Observatory / Astronomy",
+      "gameplayAssetNeeds": [
+        "Observatory / Astronomy Civic Hall",
+        "Star Observatory",
+        "Star Navigation Monument",
+        "Celestial Court Nook",
+        "Observatory / Astronomy pedestrians",
+        "street props",
+        "section lighting",
+        "board-readable landmark silhouette"
+      ],
+      "narrativeUse": [
+        "street scenes in Observatory / Astronomy",
+        "local business around Star Observatory",
+        "district traversal",
+        "rumor exchange",
+        "small civic obstacle"
+      ],
+      "primaryLandmark": "Star Observatory",
+      "minorLandmarks": [
+        "Observatory / Astronomy Civic Hall",
+        "Star Navigation Monument",
+        "Celestial Court Nook"
+      ]
+    },
+    {
+      "districtNumber": 23,
+      "sectionNumber": 5,
+      "name": "D23 Prison / Containment Working Streets",
+      "civicPurpose": "A working streets district within Prison / Containment that supports Prison / Containment Civic Hall, Containment Keep, and the surrounding section economy.",
+      "visualIdentity": "Use Granite, Slate, Cedar, Glass, section signage through Prison / Containment Civic Hall, Containment Keep, Mist Veils Monument, Judgment Yard Nook, and terrain cues from Cliffside, Terraced Slope, Civic Terraces. The district should read as part of Prison / Containment without becoming generic.",
+      "emotionalIdentity": "working streets-oriented, local, practical, and tied to the section mood of Prison / Containment",
+      "gameplayAssetNeeds": [
+        "Prison / Containment Civic Hall",
+        "Containment Keep",
+        "Mist Veils Monument",
+        "Judgment Yard Nook",
+        "Prison / Containment pedestrians",
+        "street props",
+        "section lighting",
+        "board-readable landmark silhouette"
+      ],
+      "narrativeUse": [
+        "street scenes in Prison / Containment",
+        "local business around Containment Keep",
+        "district traversal",
+        "rumor exchange",
+        "small civic obstacle"
+      ],
+      "primaryLandmark": "Containment Keep",
+      "minorLandmarks": [
+        "Prison / Containment Civic Hall",
+        "Mist Veils Monument",
+        "Judgment Yard Nook"
+      ]
+    },
+    {
+      "districtNumber": 24,
+      "sectionNumber": 5,
+      "name": "D24 Prison / Containment Residential Edge",
+      "civicPurpose": "A residential edge district within Prison / Containment that supports Prison / Containment Civic Hall, Containment Keep, and the surrounding section economy.",
+      "visualIdentity": "Use Granite, Slate, Cedar, Glass, section signage through Prison / Containment Civic Hall, Containment Keep, Mist Veils Monument, Judgment Yard Nook, and terrain cues from Cliffside, Terraced Slope, Civic Terraces. The district should read as part of Prison / Containment without becoming generic.",
+      "emotionalIdentity": "residential edge-oriented, local, practical, and tied to the section mood of Prison / Containment",
+      "gameplayAssetNeeds": [
+        "Prison / Containment Civic Hall",
+        "Containment Keep",
+        "Mist Veils Monument",
+        "Judgment Yard Nook",
+        "Prison / Containment pedestrians",
+        "street props",
+        "section lighting",
+        "board-readable landmark silhouette"
+      ],
+      "narrativeUse": [
+        "street scenes in Prison / Containment",
+        "local business around Containment Keep",
+        "district traversal",
+        "rumor exchange",
+        "small civic obstacle"
+      ],
+      "primaryLandmark": "Containment Keep",
+      "minorLandmarks": [
+        "Prison / Containment Civic Hall",
+        "Mist Veils Monument",
+        "Judgment Yard Nook"
+      ]
+    },
+    {
+      "districtNumber": 25,
+      "sectionNumber": 5,
+      "name": "D25 Prison / Containment Service Yard",
+      "civicPurpose": "A service yard district within Prison / Containment that supports Prison / Containment Civic Hall, Containment Keep, and the surrounding section economy.",
+      "visualIdentity": "Use Granite, Slate, Cedar, Glass, section signage through Prison / Containment Civic Hall, Containment Keep, Mist Veils Monument, Judgment Yard Nook, and terrain cues from Cliffside, Terraced Slope, Civic Terraces. The district should read as part of Prison / Containment without becoming generic.",
+      "emotionalIdentity": "service yard-oriented, local, practical, and tied to the section mood of Prison / Containment",
+      "gameplayAssetNeeds": [
+        "Prison / Containment Civic Hall",
+        "Containment Keep",
+        "Mist Veils Monument",
+        "Judgment Yard Nook",
+        "Prison / Containment pedestrians",
+        "street props",
+        "section lighting",
+        "board-readable landmark silhouette"
+      ],
+      "narrativeUse": [
+        "street scenes in Prison / Containment",
+        "local business around Containment Keep",
+        "district traversal",
+        "rumor exchange",
+        "small civic obstacle"
+      ],
+      "primaryLandmark": "Containment Keep",
+      "minorLandmarks": [
+        "Prison / Containment Civic Hall",
+        "Mist Veils Monument",
+        "Judgment Yard Nook"
+      ]
+    }
+  ],
+  "landmarks": {
+    "wonder": {
+      "name": "Raptor Windspire Eyrie of the First Flight",
+      "symbolicRole": "The citywide symbol of raptor-like avian folk identity made public and monumental.",
+      "visualRole": "A one-per-city wonder: spectacular, unmistakable, and larger than every section landmark. It turns Skyrend Peak's geography, race identity, material culture, and civic magic into one public symbol. Built for Skyrend Peak's raptor-like avian folk population, it uses Granite, Slate, Cedar, Glass, Canvas across Cliffside, Terraced Slope, Civic Terraces; water context: dry city ground; magic expression: Beast Bonding, An",
+      "civicRole": "A unifying civic symbol larger than section landmarks; it gives Skyrend Peak its skyline identity and public myth.",
+      "narrativeUse": [
+        "citywide reveal",
+        "arrival scene",
+        "public ceremony",
+        "moment of civic awe",
+        "orientation landmark"
+      ],
+      "assetUse": [
+        "map background skyline anchor",
+        "hero-view anchor",
+        "diorama distant silhouette",
+        "city identity marker"
+      ],
+      "sensoryIdentity": [
+        "monumental scale",
+        "public crowd noise",
+        "material gleam",
+        "wind through banners",
+        "forge blows",
+        "cold granite",
+        "smoke-stack soot"
+      ],
+      "storyHooks": [
+        "a public ceremony at the Wonder changes city mood",
+        "maintenance access reveals hidden civic routes",
+        "the Wonder becomes the reference point during a beacon state"
+      ]
     },
     "beacon": {
-      "purpose": "The Beacon is the city's most important public warning and orientation structure, and in Book 1 it carries major climax significance.",
-      "visualDescription": "A tall, blue-lit civic signal tower or beacon spire rising from Section 1, readable across altitude levels and strongly associated with public vigilance.",
-      "narrativeUse": "Use the Beacon as emotional pressure. In Skyrend Peak, a beacon state change is not abstract; it travels through sightlines, tower calls, wind, and public posture.",
-      "howCharactersNoticeIt": {
-        "addie": "notices the sequence of glances, calls, and silences that pass through the city when the Beacon changes",
-        "gregory": "understands the Beacon as civic theology of watchfulness even if the city itself is not strongly religious",
-        "brickett": "spots unofficial viewing ledges, blocked stairways, and maintenance platforms around the Beacon",
-        "talandra": "treats the Beacon as a crowd-control hazard and strategic signal asset"
-      },
-      "commonActivities": [
-        "watch shifts",
-        "signal maintenance",
-        "public gathering during alerts",
-        "guard rotations",
-        "messenger coordination",
-        "children learning signal meanings"
+      "name": "Border Wall Beacon",
+      "symbolicRole": "The public signal point where citywide warning becomes local action.",
+      "visualRole": "A largest local landmark in this section, subordinate only to the city wonder and citadel. It belongs to Section 1 (Fortress / Border Wall) of Skyrend Peak and should use White Limestone Civic Blocks, Obsidian Fortresses, Cyclopean Megaliths, granite and glass materials, Carved Totems, Civic Blue Glow, Woven Banners, and the raptor-like avian folk visual language. Design focus: curtain walls, gatehouses, bastions, gu",
+      "civicRole": "The Section 1 signal landmark; citizens watch it for alerts, public notices, and Conjunction response.",
+      "narrativeUse": [
+        "beacon color change",
+        "crowd reaction",
+        "evacuation or assembly",
+        "public misinformation",
+        "urgent messenger arrival"
       ],
-      "visibilityFromCity": "Should be visible across major terrace routes and tower lines. During the final Book 1 red-beacon sequence, its visibility should shape the entire city's emotional rhythm."
+      "assetUse": [
+        "Section 1 diorama centerpiece",
+        "city signal marker",
+        "beacon-state visual effect",
+        "map focal point"
+      ],
+      "sensoryIdentity": [
+        "blue glow",
+        "public hush at signal changes",
+        "stone plaza footsteps",
+        "wind through banners",
+        "forge blows",
+        "cold granite",
+        "smoke-stack soot"
+      ],
+      "storyHooks": [
+        "a signal is interpreted before officials arrive",
+        "crowds block the approach",
+        "the beacon reveals which district reacts first"
+      ]
     },
     "seatOfPower": {
-      "purpose": "The seat of power should express protection, watchfulness, and command of altitude rather than luxury or soft civic ceremony.",
-      "visualDescription": "A high fortified civic complex, likely integrated with cliff walls, towers, exposed terraces, and guard platforms, dominating routes through elevation.",
-      "narrativeUse": "Use the seat of power to show governance as responsibility for protection. Authority should feel earned by watch duty and strategic position.",
-      "howCharactersNoticeIt": {
-        "addie": "feels authority as physical exposure and ascent rather than bureaucratic distance",
-        "gregory": "reads its forms as civic nesting, watch, and guardianship symbolism",
-        "brickett": "identifies servant ledges, pulley paths, drainage cuts, and where supplies enter from below",
-        "talandra": "respects the defensive logic and immediately begins planning around choke points"
-      },
-      "commonActivities": [
-        "guard command",
-        "public defense announcements",
-        "strategic councils",
-        "escort routes",
-        "emergency signal coordination",
-        "formal receiving on high terraces"
+      "name": "Feather Fan Roofs Wind-Crown Seat",
+      "symbolicRole": "Civic authority made visible through courts, archives, command platforms, and public legitimacy.",
+      "visualRole": "The district-13 seat of power: courts, audience terraces, sealed archives, command platforms, and the visible apparatus of government. It is not a faction HQ; it is the city's central civic authority. Built for Skyrend Peak's raptor-like avian folk population, it uses Granite, Slate, Cedar, Glass, Canvas across Cliffside, Terraced Slope, Civic Terraces; water context: dry city ground; magic expression: Beast Bonding,",
+      "civicRole": "District 13 authority center for petitions, archives, judgments, and city-scale decisions; not a faction headquarters.",
+      "narrativeUse": [
+        "ruling scene",
+        "sealed archive discovery",
+        "public petition",
+        "trial or judgment",
+        "authority under pressure"
       ],
-      "visibilityFromCity": "Should dominate by height and control of approach, not by ornament alone."
+      "assetUse": [
+        "central D13 map anchor",
+        "government diorama backdrop",
+        "authority iconography",
+        "petition scene set"
+      ],
+      "sensoryIdentity": [
+        "formal echoes",
+        "archive dust",
+        "official seals",
+        "guarded thresholds",
+        "wind through banners",
+        "forge blows",
+        "cold granite",
+        "smoke-stack soot"
+      ],
+      "storyHooks": [
+        "a sealed record contradicts public belief",
+        "a petition exposes citywide risk",
+        "command platforms become crowd-facing stages"
+      ]
     },
     "majorLandmarks": [
       {
-        "role": "tower and watch anchors",
-        "narrativeUse": "Major landmarks should often be visible from one another, forming a network of sightlines, signals, and civic protection."
-      }
-    ],
-    "monuments": [
+        "name": "Fortress / Border Wall Civic Hall",
+        "symbolicRole": "Section 1 civic center preserving the local identity of Fortress / Border Wall.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing. It belongs to Section 1 (Fortress / Border Wall) of Skyrend Peak and should use Obsidian Fortresses, Cyclopean Megaliths, White Limestone Civic Blocks, granite and glass materials, Woven Banners, Carved Totems, Civic Blue Glow, and the raptor-lik",
+        "civicRole": "Supports Fortress / Border Wall as a playable and writable district spine rather than a generic neighborhood.",
+        "narrativeUse": [
+          "Fortress / Border Wall scene anchor",
+          "local errand",
+          "public meeting point",
+          "district conflict",
+          "orientation clue"
+        ],
+        "assetUse": [
+          "Section 1 diorama asset",
+          "board-readable landmark",
+          "street-level focal prop",
+          "map district marker"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "worked materials",
+          "public voices",
+          "wind through banners",
+          "forge blows",
+          "cold granite",
+          "smoke-stack soot"
+        ],
+        "storyHooks": [
+          "an event at Fortress / Border Wall Civic Hall reveals section priorities",
+          "locals use Fortress / Border Wall Civic Hall as shorthand for the district",
+          "a small failure here cascades into a citywide problem"
+        ]
+      },
       {
-        "role": "memory of watch, flight, protection, and sacrifice",
-        "narrativeUse": "Monuments should reinforce civic vigilance: carved wings, first-flight markers, watch names, storm memorials, and beacon-related public memory."
-      }
-    ],
-    "minorLandmarks": [
+        "name": "Woven Banners Monument",
+        "symbolicRole": "Section 1 monument preserving the local identity of Fortress / Border Wall.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles. It belongs to Section 1 (Fortress / Border Wall) of Skyrend Peak and should use Obsidian Fortresses, Cyclopean Megaliths, White Limestone Civic Blocks, granite and glass materials, Civic Blue Glow, Woven Banners, Carved Totems, and the raptor-l",
+        "civicRole": "Supports Fortress / Border Wall as a playable and writable district spine rather than a generic neighborhood.",
+        "narrativeUse": [
+          "Fortress / Border Wall scene anchor",
+          "local errand",
+          "public meeting point",
+          "district conflict",
+          "orientation clue"
+        ],
+        "assetUse": [
+          "Section 1 diorama asset",
+          "board-readable landmark",
+          "street-level focal prop",
+          "map district marker"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "worked materials",
+          "public voices",
+          "wind through banners",
+          "forge blows",
+          "cold granite",
+          "smoke-stack soot"
+        ],
+        "storyHooks": [
+          "an event at Woven Banners Monument reveals section priorities",
+          "locals use Woven Banners Monument as shorthand for the district",
+          "a small failure here cascades into a citywide problem"
+        ]
+      },
       {
-        "role": "local navigation and altitude safety",
-        "narrativeUse": "Minor landmarks should help characters move through vertical complexity: stair shrines, windbreak markers, bell posts, ledge signs, pulley towers, and guard alcoves."
+        "name": "Watch Bastion Nook",
+        "symbolicRole": "Section 1 minor landmark preserving the local identity of Fortress / Border Wall.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette. It belongs to Section 1 (Fortress / Border Wall) of Skyrend Peak and should use White Limestone Civic Blocks, Obsidian Fortresses, Cyclopean Megaliths, granite and glass materials, Woven Banners, Carved Totems, Civic Blue Glow, and the raptor-like avian folk vi",
+        "civicRole": "Supports Fortress / Border Wall as a playable and writable district spine rather than a generic neighborhood.",
+        "narrativeUse": [
+          "Fortress / Border Wall scene anchor",
+          "local errand",
+          "public meeting point",
+          "district conflict",
+          "orientation clue"
+        ],
+        "assetUse": [
+          "Section 1 diorama asset",
+          "board-readable landmark",
+          "street-level focal prop",
+          "map district marker"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "worked materials",
+          "public voices",
+          "wind through banners",
+          "forge blows",
+          "cold granite",
+          "smoke-stack soot"
+        ],
+        "storyHooks": [
+          "an event at Watch Bastion Nook reveals section priorities",
+          "locals use Watch Bastion Nook as shorthand for the district",
+          "a small failure here cascades into a citywide problem"
+        ]
+      },
+      {
+        "name": "Heavy Industry / Foundry Civic Hall",
+        "symbolicRole": "Section 2 civic center preserving the local identity of Heavy Industry / Foundry.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing. It belongs to Section 2 (Heavy Industry / Foundry) of Skyrend Peak and should use Subterranean Vaults, Forge Halls, Obsidian Fortresses, granite and glass materials, Red Fabric Awnings, Civic Blue Glow, Forge Smoke Columns, and the raptor-like av",
+        "civicRole": "Supports Heavy Industry / Foundry as a playable and writable district spine rather than a generic neighborhood.",
+        "narrativeUse": [
+          "Heavy Industry / Foundry scene anchor",
+          "local errand",
+          "public meeting point",
+          "district conflict",
+          "orientation clue"
+        ],
+        "assetUse": [
+          "Section 2 diorama asset",
+          "board-readable landmark",
+          "street-level focal prop",
+          "map district marker"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "worked materials",
+          "public voices",
+          "wind through banners",
+          "forge blows",
+          "cold granite",
+          "smoke-stack soot"
+        ],
+        "storyHooks": [
+          "an event at Heavy Industry / Foundry Civic Hall reveals section priorities",
+          "locals use Heavy Industry / Foundry Civic Hall as shorthand for the district",
+          "a small failure here cascades into a citywide problem"
+        ]
+      },
+      {
+        "name": "Great Forge",
+        "symbolicRole": "Section 2 major landmark preserving the local identity of Heavy Industry / Foundry.",
+        "visualRole": "A largest local landmark in this section, subordinate only to the city wonder and citadel. It belongs to Section 2 (Heavy Industry / Foundry) of Skyrend Peak and should use Forge Halls, Obsidian Fortresses, Subterranean Vaults, granite and glass materials, Civic Blue Glow, Forge Smoke Columns, Red Fabric Awnings, and the raptor-like avian folk visual languag",
+        "civicRole": "Supports Heavy Industry / Foundry as a playable and writable district spine rather than a generic neighborhood.",
+        "narrativeUse": [
+          "Heavy Industry / Foundry scene anchor",
+          "local errand",
+          "public meeting point",
+          "district conflict",
+          "orientation clue"
+        ],
+        "assetUse": [
+          "Section 2 diorama asset",
+          "board-readable landmark",
+          "street-level focal prop",
+          "map district marker"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "worked materials",
+          "public voices",
+          "wind through banners",
+          "forge blows",
+          "cold granite",
+          "smoke-stack soot"
+        ],
+        "storyHooks": [
+          "an event at Great Forge reveals section priorities",
+          "locals use Great Forge as shorthand for the district",
+          "a small failure here cascades into a citywide problem"
+        ]
+      },
+      {
+        "name": "Smoke-Stack Monument",
+        "symbolicRole": "Section 2 monument preserving the local identity of Heavy Industry / Foundry.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles. It belongs to Section 2 (Heavy Industry / Foundry) of Skyrend Peak and should use Forge Halls, Obsidian Fortresses, Subterranean Vaults, granite and glass materials, Civic Blue Glow, Forge Smoke Columns, Red Fabric Awnings, and the raptor-like",
+        "civicRole": "Supports Heavy Industry / Foundry as a playable and writable district spine rather than a generic neighborhood.",
+        "narrativeUse": [
+          "Heavy Industry / Foundry scene anchor",
+          "local errand",
+          "public meeting point",
+          "district conflict",
+          "orientation clue"
+        ],
+        "assetUse": [
+          "Section 2 diorama asset",
+          "board-readable landmark",
+          "street-level focal prop",
+          "map district marker"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "worked materials",
+          "public voices",
+          "wind through banners",
+          "forge blows",
+          "cold granite",
+          "smoke-stack soot"
+        ],
+        "storyHooks": [
+          "an event at Smoke-Stack Monument reveals section priorities",
+          "locals use Smoke-Stack Monument as shorthand for the district",
+          "a small failure here cascades into a citywide problem"
+        ]
+      },
+      {
+        "name": "Crucible Hall Nook",
+        "symbolicRole": "Section 2 minor landmark preserving the local identity of Heavy Industry / Foundry.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette. It belongs to Section 2 (Heavy Industry / Foundry) of Skyrend Peak and should use Forge Halls, Obsidian Fortresses, Subterranean Vaults, granite and glass materials, Civic Blue Glow, Forge Smoke Columns, Red Fabric Awnings, and the raptor-like avian folk visual",
+        "civicRole": "Supports Heavy Industry / Foundry as a playable and writable district spine rather than a generic neighborhood.",
+        "narrativeUse": [
+          "Heavy Industry / Foundry scene anchor",
+          "local errand",
+          "public meeting point",
+          "district conflict",
+          "orientation clue"
+        ],
+        "assetUse": [
+          "Section 2 diorama asset",
+          "board-readable landmark",
+          "street-level focal prop",
+          "map district marker"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "worked materials",
+          "public voices",
+          "wind through banners",
+          "forge blows",
+          "cold granite",
+          "smoke-stack soot"
+        ],
+        "storyHooks": [
+          "an event at Crucible Hall Nook reveals section priorities",
+          "locals use Crucible Hall Nook as shorthand for the district",
+          "a small failure here cascades into a citywide problem"
+        ]
+      },
+      {
+        "name": "Military Command Hall",
+        "symbolicRole": "Section 3 civic center preserving the local identity of Military Command.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing. It belongs to Section 3 (Military Command) of Skyrend Peak and should use Forge Halls, Obsidian Fortresses, White Limestone Civic Blocks, granite and glass materials, Woven Banners, Civic Blue Glow, Forge Smoke Columns, and the raptor-like avian",
+        "civicRole": "Supports Military Command as a playable and writable district spine rather than a generic neighborhood.",
+        "narrativeUse": [
+          "Military Command scene anchor",
+          "local errand",
+          "public meeting point",
+          "district conflict",
+          "orientation clue"
+        ],
+        "assetUse": [
+          "Section 3 diorama asset",
+          "board-readable landmark",
+          "street-level focal prop",
+          "map district marker"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "worked materials",
+          "public voices",
+          "wind through banners",
+          "forge blows",
+          "cold granite",
+          "smoke-stack soot"
+        ],
+        "storyHooks": [
+          "an event at Military Command Hall reveals section priorities",
+          "locals use Military Command Hall as shorthand for the district",
+          "a small failure here cascades into a citywide problem"
+        ]
+      },
+      {
+        "name": "Command Bastion",
+        "symbolicRole": "Section 3 major landmark preserving the local identity of Military Command.",
+        "visualRole": "A mandatory Section 3 Beacon: a culturally adapted civic signal flame / warning-light landmark visible across the city spine. It belongs to Section 3 (Military Command) of Skyrend Peak and should use Obsidian Fortresses, White Limestone Civic Blocks, Forge Halls, granite and glass materials, Forge Smoke Columns, Woven Banners, Civic Blue Glow, and the raptor",
+        "civicRole": "Supports Military Command as a playable and writable district spine rather than a generic neighborhood.",
+        "narrativeUse": [
+          "Military Command scene anchor",
+          "local errand",
+          "public meeting point",
+          "district conflict",
+          "orientation clue"
+        ],
+        "assetUse": [
+          "Section 3 diorama asset",
+          "board-readable landmark",
+          "street-level focal prop",
+          "map district marker"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "worked materials",
+          "public voices",
+          "wind through banners",
+          "forge blows",
+          "cold granite",
+          "smoke-stack soot"
+        ],
+        "storyHooks": [
+          "an event at Command Bastion reveals section priorities",
+          "locals use Command Bastion as shorthand for the district",
+          "a small failure here cascades into a citywide problem"
+        ]
+      },
+      {
+        "name": "Woven Banners Monument",
+        "symbolicRole": "Section 3 monument preserving the local identity of Military Command.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles. It belongs to Section 3 (Military Command) of Skyrend Peak and should use Obsidian Fortresses, White Limestone Civic Blocks, Forge Halls, granite and glass materials, Forge Smoke Columns, Woven Banners, Civic Blue Glow, and the raptor-like avia",
+        "civicRole": "Supports Military Command as a playable and writable district spine rather than a generic neighborhood.",
+        "narrativeUse": [
+          "Military Command scene anchor",
+          "local errand",
+          "public meeting point",
+          "district conflict",
+          "orientation clue"
+        ],
+        "assetUse": [
+          "Section 3 diorama asset",
+          "board-readable landmark",
+          "street-level focal prop",
+          "map district marker"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "worked materials",
+          "public voices",
+          "wind through banners",
+          "forge blows",
+          "cold granite",
+          "smoke-stack soot"
+        ],
+        "storyHooks": [
+          "an event at Woven Banners Monument reveals section priorities",
+          "locals use Woven Banners Monument as shorthand for the district",
+          "a small failure here cascades into a citywide problem"
+        ]
+      },
+      {
+        "name": "Standard Tower Nook",
+        "symbolicRole": "Section 3 minor landmark preserving the local identity of Military Command.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette. It belongs to Section 3 (Military Command) of Skyrend Peak and should use Obsidian Fortresses, White Limestone Civic Blocks, Forge Halls, granite and glass materials, Civic Blue Glow, Forge Smoke Columns, Woven Banners, and the raptor-like avian folk visual lan",
+        "civicRole": "Supports Military Command as a playable and writable district spine rather than a generic neighborhood.",
+        "narrativeUse": [
+          "Military Command scene anchor",
+          "local errand",
+          "public meeting point",
+          "district conflict",
+          "orientation clue"
+        ],
+        "assetUse": [
+          "Section 3 diorama asset",
+          "board-readable landmark",
+          "street-level focal prop",
+          "map district marker"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "worked materials",
+          "public voices",
+          "wind through banners",
+          "forge blows",
+          "cold granite",
+          "smoke-stack soot"
+        ],
+        "storyHooks": [
+          "an event at Standard Tower Nook reveals section priorities",
+          "locals use Standard Tower Nook as shorthand for the district",
+          "a small failure here cascades into a citywide problem"
+        ]
+      },
+      {
+        "name": "Observatory / Astronomy Civic Hall",
+        "symbolicRole": "Section 4 civic center preserving the local identity of Observatory / Astronomy.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing. It belongs to Section 4 (Observatory / Astronomy) of Skyrend Peak and should use Archive Towers, Lecture Courts, Cliffside Monasteries, granite and glass materials, Civic Blue Glow, Star Navigation, Moon Gate Arches, and the raptor-like avian fol",
+        "civicRole": "Supports Observatory / Astronomy as a playable and writable district spine rather than a generic neighborhood.",
+        "narrativeUse": [
+          "Observatory / Astronomy scene anchor",
+          "local errand",
+          "public meeting point",
+          "district conflict",
+          "orientation clue"
+        ],
+        "assetUse": [
+          "Section 4 diorama asset",
+          "board-readable landmark",
+          "street-level focal prop",
+          "map district marker"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "worked materials",
+          "public voices",
+          "wind through banners",
+          "forge blows",
+          "cold granite",
+          "smoke-stack soot"
+        ],
+        "storyHooks": [
+          "an event at Observatory / Astronomy Civic Hall reveals section priorities",
+          "locals use Observatory / Astronomy Civic Hall as shorthand for the district",
+          "a small failure here cascades into a citywide problem"
+        ]
+      },
+      {
+        "name": "Star Observatory",
+        "symbolicRole": "Section 4 major landmark preserving the local identity of Observatory / Astronomy.",
+        "visualRole": "A largest local landmark in this section, subordinate only to the city wonder and citadel. It belongs to Section 4 (Observatory / Astronomy) of Skyrend Peak and should use Lecture Courts, Cliffside Monasteries, Archive Towers, granite and glass materials, Star Navigation, Moon Gate Arches, Civic Blue Glow, and the raptor-like avian folk visual language. Desi",
+        "civicRole": "Supports Observatory / Astronomy as a playable and writable district spine rather than a generic neighborhood.",
+        "narrativeUse": [
+          "Observatory / Astronomy scene anchor",
+          "local errand",
+          "public meeting point",
+          "district conflict",
+          "orientation clue"
+        ],
+        "assetUse": [
+          "Section 4 diorama asset",
+          "board-readable landmark",
+          "street-level focal prop",
+          "map district marker"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "worked materials",
+          "public voices",
+          "wind through banners",
+          "forge blows",
+          "cold granite",
+          "smoke-stack soot"
+        ],
+        "storyHooks": [
+          "an event at Star Observatory reveals section priorities",
+          "locals use Star Observatory as shorthand for the district",
+          "a small failure here cascades into a citywide problem"
+        ]
+      },
+      {
+        "name": "Star Navigation Monument",
+        "symbolicRole": "Section 4 monument preserving the local identity of Observatory / Astronomy.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles. It belongs to Section 4 (Observatory / Astronomy) of Skyrend Peak and should use Cliffside Monasteries, Archive Towers, Lecture Courts, granite and glass materials, Moon Gate Arches, Civic Blue Glow, Star Navigation, and the raptor-like avian f",
+        "civicRole": "Supports Observatory / Astronomy as a playable and writable district spine rather than a generic neighborhood.",
+        "narrativeUse": [
+          "Observatory / Astronomy scene anchor",
+          "local errand",
+          "public meeting point",
+          "district conflict",
+          "orientation clue"
+        ],
+        "assetUse": [
+          "Section 4 diorama asset",
+          "board-readable landmark",
+          "street-level focal prop",
+          "map district marker"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "worked materials",
+          "public voices",
+          "wind through banners",
+          "forge blows",
+          "cold granite",
+          "smoke-stack soot"
+        ],
+        "storyHooks": [
+          "an event at Star Navigation Monument reveals section priorities",
+          "locals use Star Navigation Monument as shorthand for the district",
+          "a small failure here cascades into a citywide problem"
+        ]
+      },
+      {
+        "name": "Celestial Court Nook",
+        "symbolicRole": "Section 4 minor landmark preserving the local identity of Observatory / Astronomy.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette. It belongs to Section 4 (Observatory / Astronomy) of Skyrend Peak and should use Lecture Courts, Cliffside Monasteries, Archive Towers, granite and glass materials, Star Navigation, Moon Gate Arches, Civic Blue Glow, and the raptor-like avian folk visual langua",
+        "civicRole": "Supports Observatory / Astronomy as a playable and writable district spine rather than a generic neighborhood.",
+        "narrativeUse": [
+          "Observatory / Astronomy scene anchor",
+          "local errand",
+          "public meeting point",
+          "district conflict",
+          "orientation clue"
+        ],
+        "assetUse": [
+          "Section 4 diorama asset",
+          "board-readable landmark",
+          "street-level focal prop",
+          "map district marker"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "worked materials",
+          "public voices",
+          "wind through banners",
+          "forge blows",
+          "cold granite",
+          "smoke-stack soot"
+        ],
+        "storyHooks": [
+          "an event at Celestial Court Nook reveals section priorities",
+          "locals use Celestial Court Nook as shorthand for the district",
+          "a small failure here cascades into a citywide problem"
+        ]
+      },
+      {
+        "name": "Prison / Containment Civic Hall",
+        "symbolicRole": "Section 5 civic center preserving the local identity of Prison / Containment.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing. It belongs to Section 5 (Prison / Containment) of Skyrend Peak and should use Cyclopean Megaliths, Obsidian Fortresses, Subterranean Vaults, granite and glass materials, Mist Veils, Bone White Ceremony, Civic Blue Glow, and the raptor-like avian",
+        "civicRole": "Supports Prison / Containment as a playable and writable district spine rather than a generic neighborhood.",
+        "narrativeUse": [
+          "Prison / Containment scene anchor",
+          "local errand",
+          "public meeting point",
+          "district conflict",
+          "orientation clue"
+        ],
+        "assetUse": [
+          "Section 5 diorama asset",
+          "board-readable landmark",
+          "street-level focal prop",
+          "map district marker"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "worked materials",
+          "public voices",
+          "wind through banners",
+          "forge blows",
+          "cold granite",
+          "smoke-stack soot"
+        ],
+        "storyHooks": [
+          "an event at Prison / Containment Civic Hall reveals section priorities",
+          "locals use Prison / Containment Civic Hall as shorthand for the district",
+          "a small failure here cascades into a citywide problem"
+        ]
+      },
+      {
+        "name": "Containment Keep",
+        "symbolicRole": "Section 5 major landmark preserving the local identity of Prison / Containment.",
+        "visualRole": "A largest local landmark in this section, subordinate only to the city wonder and citadel. It belongs to Section 5 (Prison / Containment) of Skyrend Peak and should use Cyclopean Megaliths, Obsidian Fortresses, Subterranean Vaults, granite and glass materials, Mist Veils, Bone White Ceremony, Civic Blue Glow, and the raptor-like avian folk visual language. D",
+        "civicRole": "Supports Prison / Containment as a playable and writable district spine rather than a generic neighborhood.",
+        "narrativeUse": [
+          "Prison / Containment scene anchor",
+          "local errand",
+          "public meeting point",
+          "district conflict",
+          "orientation clue"
+        ],
+        "assetUse": [
+          "Section 5 diorama asset",
+          "board-readable landmark",
+          "street-level focal prop",
+          "map district marker"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "worked materials",
+          "public voices",
+          "wind through banners",
+          "forge blows",
+          "cold granite",
+          "smoke-stack soot"
+        ],
+        "storyHooks": [
+          "an event at Containment Keep reveals section priorities",
+          "locals use Containment Keep as shorthand for the district",
+          "a small failure here cascades into a citywide problem"
+        ]
+      },
+      {
+        "name": "Mist Veils Monument",
+        "symbolicRole": "Section 5 monument preserving the local identity of Prison / Containment.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles. It belongs to Section 5 (Prison / Containment) of Skyrend Peak and should use Obsidian Fortresses, Subterranean Vaults, Cyclopean Megaliths, granite and glass materials, Bone White Ceremony, Civic Blue Glow, Mist Veils, and the raptor-like avia",
+        "civicRole": "Supports Prison / Containment as a playable and writable district spine rather than a generic neighborhood.",
+        "narrativeUse": [
+          "Prison / Containment scene anchor",
+          "local errand",
+          "public meeting point",
+          "district conflict",
+          "orientation clue"
+        ],
+        "assetUse": [
+          "Section 5 diorama asset",
+          "board-readable landmark",
+          "street-level focal prop",
+          "map district marker"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "worked materials",
+          "public voices",
+          "wind through banners",
+          "forge blows",
+          "cold granite",
+          "smoke-stack soot"
+        ],
+        "storyHooks": [
+          "an event at Mist Veils Monument reveals section priorities",
+          "locals use Mist Veils Monument as shorthand for the district",
+          "a small failure here cascades into a citywide problem"
+        ]
+      },
+      {
+        "name": "Judgment Yard Nook",
+        "symbolicRole": "Section 5 minor landmark preserving the local identity of Prison / Containment.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette. It belongs to Section 5 (Prison / Containment) of Skyrend Peak and should use Obsidian Fortresses, Subterranean Vaults, Cyclopean Megaliths, granite and glass materials, Mist Veils, Bone White Ceremony, Civic Blue Glow, and the raptor-like avian folk visual lan",
+        "civicRole": "Supports Prison / Containment as a playable and writable district spine rather than a generic neighborhood.",
+        "narrativeUse": [
+          "Prison / Containment scene anchor",
+          "local errand",
+          "public meeting point",
+          "district conflict",
+          "orientation clue"
+        ],
+        "assetUse": [
+          "Section 5 diorama asset",
+          "board-readable landmark",
+          "street-level focal prop",
+          "map district marker"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "worked materials",
+          "public voices",
+          "wind through banners",
+          "forge blows",
+          "cold granite",
+          "smoke-stack soot"
+        ],
+        "storyHooks": [
+          "an event at Judgment Yard Nook reveals section priorities",
+          "locals use Judgment Yard Nook as shorthand for the district",
+          "a small failure here cascades into a citywide problem"
+        ]
       }
     ]
   },
-  "immediateNarrativeImprovements": [
-    {
-      "target": "Book 1 / Skyrend Peak arrival",
-      "recommendation": "Make arrival physically vertical: wind, stairs, cliff roads, exposed terraces, blue signal towers, and the sensation that the city rises rather than spreads."
-    },
-    {
-      "target": "Book 1 / final red-beacon sequence",
-      "recommendation": "Use the Beacon as a citywide emotional instrument. Its state should move through watch calls, public silence, tower sightlines, and raptorfolk posture."
-    },
-    {
-      "target": "Book 1 / companion movement",
-      "recommendation": "Let outsiders struggle with height while raptorfolk treat ledges, stairs, and wind as ordinary civic space."
-    },
-    {
-      "target": "Book 1 / Talandra scenes",
-      "recommendation": "Give Talandra rich threat geometry: bridges, balconies, tower windows, stair funnels, and impossible crowd-control routes."
-    },
-    {
-      "target": "Book 1 / city identity",
-      "recommendation": "Do not write Skyrend Peak as a generic mountain castle. It is a settled raptorfolk fortress-civilization where height is home."
-    },
-    {
-      "target": "Book 1 / atmosphere pass",
-      "recommendation": "Add wind, cold stone, blue signal light, banners, thin air, echoing watch calls, and repeated vertical orientation."
-    }
-  ],
-  "interpretation": {
-    "civilizationThesis": "Skyrend Peak is the architecture of vertical civilization. Height is not merely terrain or defense; it is the natural organizing principle for a raptorfolk people who understand home through perches, sightlines, signals, and protected ascent.",
-    "environmentalPhilosophy": "Celebrate altitude: the city embraces verticality as identity, safety, and civic order rather than treating the mountain as an obstacle.",
-    "adaptiveStrategy": "Ascend: concentrate civilization around peaks, ledges, and towers because geography and species psychology both favor height.",
-    "authorityModel": "protective-watchful",
-    "relationshipWithNature": "uses wind, cliff, and altitude as civic conditions rather than resisting them",
-    "relationshipWithHistory": "likely preserved through tower names, watch lineages, beacon memory, flight rites, and storm/siege memorials",
-    "relationshipWithKnowledge": "practical signal knowledge, route memory, weather reading, and watch discipline appear central",
-    "relationshipWithRisk": "risk is faced through visibility, preparation, height advantage, and shared vigilance",
-    "relationshipWithBeauty": "beauty is found in exposed strength: towers against sky, banners in wind, blue light on stone, and the grandeur of protected heights",
-    "relationshipWithCommunity": "community is protective and duty-oriented, likely organized around watch roles, safe routes, and shared defense of home",
-    "civilizationalTension": {
-      "tension": "danger vs freedom",
-      "resolution": "Skyrend Peak resolves the tension by making height both security and identity; the same altitude that threatens outsiders protects those who belong."
-    },
-    "highestVirtue": "vigilance",
-    "religiousExpression": "not visually dominant; civic spirituality, if present, appears tied to watchfulness, ascent, sky, and protection rather than temples or priesthood",
-    "economicIdentity": "mountain logistics, signal networks, durable craft, messenger routes, defensive infrastructure, weather-adapted trade",
-    "socialIdentity": "disciplined, alert, protective, altitude-adapted, and home-defensive rather than expansionist"
-  },
-  "canonReview": {
-    "lockedCanon": [
-      {
-        "statement": "Skyrend Peak is a vertical raptorfolk fortress-civilization where height is the organizing principle of civic life.",
-        "reason": "The concept set consistently shows towers, cliff platforms, stairs, wind bridges, beacon spires, and high public spaces as the core city language.",
-        "supportingEvidence": [
-          "tower clusters",
-          "cliff platforms",
-          "vertical routes",
-          "blue-lit beacon structures",
-          "wind-exposed public terraces"
-        ],
-        "confidence": "high"
-      },
-      {
-        "statement": "Skyrend Peak expresses protection and vigilance more strongly than religion, luxury, or commerce.",
-        "reason": "The dominant visual language is watchtowers, signals, defensible approaches, and exposed civic platforms rather than temples, palaces, or markets.",
-        "supportingEvidence": [
-          "watch platforms",
-          "signal towers",
-          "defensive stairs and gates",
-          "beacon-centered public identity"
-        ],
-        "confidence": "high"
-      },
-      {
-        "statement": "The final Book 1 Beacon sequence should treat Skyrend Peak's beacon as a citywide emotional and civic instrument.",
-        "reason": "The Beacon fits directly into the city's visual language of signal, watch, and public vigilance, making it more than a plot device.",
-        "supportingEvidence": [
-          "beacon towers as skyline identity",
-          "visibility across altitude levels",
-          "watchful civic architecture"
-        ],
-        "confidence": "high"
-      }
+  "assetGuidance": {
+    "districtDioramaGuidance": [
+      "S1 / Fortress / Border Wall must preserve Fortress / Border Wall Civic Hall, Border Wall Beacon, Woven Banners Monument, and Watch Bastion Nook as the source-backed anchor cluster.",
+      "S2 / Heavy Industry / Foundry must preserve Heavy Industry / Foundry Civic Hall, Great Forge, Smoke-Stack Monument, and Crucible Hall Nook as the source-backed anchor cluster.",
+      "S3 / Military Command must preserve Military Command Hall, Command Bastion, Woven Banners Monument, and Standard Tower Nook as the source-backed anchor cluster.",
+      "S4 / Observatory / Astronomy must preserve Observatory / Astronomy Civic Hall, Star Observatory, Star Navigation Monument, and Celestial Court Nook as the source-backed anchor cluster.",
+      "S5 / Prison / Containment must preserve Prison / Containment Civic Hall, Containment Keep, Mist Veils Monument, and Judgment Yard Nook as the source-backed anchor cluster."
     ],
-    "provisionalCanon": [
-      {
-        "statement": "Skyrend Peak's highest civic virtue is vigilance.",
-        "reason": "The city repeatedly expresses watchfulness, preparedness, and protection as public values, but virtue terminology should be compared against additional raptorfolk or militarized cities.",
-        "supportingEvidence": [
-          "watchtowers",
-          "beacon identity",
-          "defensive public routes",
-          "guarded high platforms"
-        ],
-        "confidence": "medium-high"
-      },
-      {
-        "statement": "Skyrend Peak is defensive rather than conquest-driven.",
-        "reason": "The city is heavily fortified and watchful, but the visual read emphasizes protection of home more than aggressive militarism.",
-        "supportingEvidence": [
-          "fortress-civic architecture",
-          "watch language",
-          "absence of conquest spectacle",
-          "home-defense orientation"
-        ],
-        "confidence": "medium-high"
-      }
+    "mapBackgroundGuidance": [
+      "Show Skyrend Peak as a raptor-like avian folk city using Granite, Slate, Cedar, Glass, Canvas across Cliffside, Terraced Slope, Civic Terraces.",
+      "Keep Raptor Windspire Eyrie of the First Flight as the skyline-scale Wonder, Feather Fan Roofs Wind-Crown Seat as central D13 authority, and Border Wall Beacon as the public signal landmark.",
+      "Use section landmark distribution to avoid flattening the city: Fortress / Border Wall, Heavy Industry / Foundry, Military Command, Observatory / Astronomy, Prison / Containment.",
+      "Water and terrain must follow source context: dry city ground; Cliffside, Terraced Slope, Civic Terraces."
     ],
-    "workingHypotheses": [
-      {
-        "statement": "Raptorfolk civilization concentrates authority because geography restricts outward expansion and rewards control of peaks, routes, and sightlines.",
-        "reason": "Unlike wider ecological beastfolk cities, Skyrend Peak must build upward around limited defensible terrain, but more beastfolk comparison is required.",
-        "supportingEvidence": [
-          "vertical concentration",
-          "limited ledge geography",
-          "signal and route control"
-        ],
-        "confidence": "medium"
-      }
+    "requiredVisualElements": [
+      "raptor-like avian folk",
+      "Raptor Windspire Eyrie of the First Flight",
+      "Border Wall Beacon",
+      "Feather Fan Roofs Wind-Crown Seat",
+      "Granite",
+      "Slate",
+      "Cedar",
+      "Glass",
+      "Canvas",
+      "Cliffside",
+      "Terraced Slope",
+      "Civic Terraces",
+      "Beast Bonding",
+      "Ancestor Guidance",
+      "Flock Sight",
+      "Fortress / Border Wall Civic Hall",
+      "Heavy Industry / Foundry Civic Hall",
+      "Military Command Hall",
+      "Observatory / Astronomy Civic Hall",
+      "Prison / Containment Civic Hall",
+      "Great Forge",
+      "Command Bastion",
+      "Star Observatory",
+      "Containment Keep",
+      "Woven Banners Monument",
+      "Smoke-Stack Monument",
+      "Star Navigation Monument",
+      "Mist Veils Monument",
+      "Watch Bastion Nook",
+      "Crucible Hall Nook",
+      "Standard Tower Nook",
+      "Celestial Court Nook",
+      "Judgment Yard Nook"
     ],
-    "rejectedHypotheses": [
-      {
-        "statement": "Skyrend Peak is just a generic mountain castle.",
-        "reason": "The images show a species-adapted vertical civilization with raptor body logic, signal towers, perches, and civic watchfulness, not generic fortress fantasy.",
-        "supportingEvidence": [
-          "perch-like structures",
-          "vertical public life",
-          "wing/sky motifs",
-          "altitude-adapted movement"
-        ],
-        "confidence": "high"
-      }
-    ]
-  },
-  "futureQuestions": [
-    "What is the exact named Wonder and how does it relate to ascent, wind, or first-flight traditions?",
-    "How militarized is Skyrend governance versus simply protective and watchful?",
-    "How do non-raptor visitors safely navigate the city during panic?",
-    "What rituals exist around first flight, watch duty, or Beacon maintenance?",
-    "How do class differences manifest in a city where elevation itself may imply status or safety?",
-    "How does Skyrend Peak compare with other winged civilizations, especially Vyrath'Kai, which reads much less flight-dominant?"
-  ],
-  "comparativeNotes": {
-    "distinctFrom": [
-      {
-        "cityCode": "AQM",
-        "difference": "AQM uses elevation to express government; Skyrend Peak uses elevation as the basic grammar of survival, movement, and identity."
-      },
-      {
-        "cityCode": "PFN",
-        "difference": "Pollyr Fen spreads civic life through waterways; Skyrend Peak concentrates civic life through peaks, towers, and vertical routes."
-      },
-      {
-        "cityCode": "VKI",
-        "difference": "Both species have wing associations, but Skyrend embraces altitude and visibility while Vyrath'Kai appears more sea-facing, sheltering, and non-aggressive."
-      },
-      {
-        "cityCode": "LUM",
-        "difference": "Luminthalas uses mountain placement for beauty and knowledge; Skyrend uses mountain height for protection and belonging."
-      }
-    ],
-    "similarTo": [
-      {
-        "cityCode": "KVM",
-        "similarity": "Both are mountain civilizations where infrastructure and terrain are inseparable, though Khaz Vorem engineers stone while Skyrend ascends through cliff and wind."
-      },
-      {
-        "cityCode": "AQM",
-        "similarity": "Both use Beacon visibility as public civic psychology, though AQM is institutional while SPK is vigilant."
-      }
-    ],
-    "uniqueContributions": [
-      "clearest current example of vertical civilization",
-      "strongest immediate relevance to Book 1 climax and final red-beacon sequence",
-      "best model for a beastfolk city where geography forces concentrated authority",
-      "strongest distinction between defensive preparedness and aggressive militarism"
-    ],
-    "potentialInfluences": [
-      "Book 1 final city descriptions",
-      "Beacon-state crowd behavior",
-      "Talandra threat-reading scenes",
-      "raptorfolk civic psychology",
-      "future analysis of winged or mountain cities"
-    ]
-  },
-  "crossCityTags": [
-    "raptorfolk",
-    "vertical-city",
-    "fortress-civilization",
-    "protective-authority",
-    "vigilance",
-    "beacon-psychology",
-    "cliff-architecture",
-    "wind-bridges",
-    "signal-towers",
-    "altitude-adapted",
-    "established-civilization",
-    "book1-climax"
-  ],
-  "evolution": {
-    "previousAssumptions": [
-      "Skyrend Peak was understood as an important Book 1 city and final red-beacon location.",
-      "Raptorfolk identity implied height, flight, and mountain terrain, but the civic depth was not fully visualized."
-    ],
-    "discoveries": [
-      "Skyrend Peak is far more monumental, vertical, and fortress-civic than initially expected.",
-      "The city's towers feel like perches, signals, defensive organs, and cultural identity markers all at once.",
-      "The city does not read as religious; it reads as protective and vigilant.",
-      "Defensive architecture appears rooted in nesting/protection logic rather than conquest.",
-      "The Beacon is naturally central to the city's emotional language, making the Book 1 climax visually stronger."
-    ],
-    "confirmedAssumptions": [
-      "Skyrend Peak should be visually and narratively central to Book 1's climax.",
-      "Raptorfolk architecture should be height-adapted and sky-facing.",
-      "The city should feel dangerous or exhausting to outsiders."
-    ],
-    "changedOurMind": [
-      "Do not treat Skyrend Peak as merely a mountain fortress; it is a complete vertical civilization.",
-      "Lean harder into signal towers, perches, wind, and civic vigilance than generic castle language.",
-      "Frame its defensive posture as protection of home rather than default aggression."
-    ],
-    "futureValidation": [
-      "Compare SPK against Vyrath'Kai to clarify why two wing-associated species developed radically different civic relationships with altitude.",
-      "Review Book 1 Skyrend Peak chapters for insufficient verticality and beacon psychology.",
-      "Analyze sidecars to identify named Wonder, Citadel, Beacon, and section landmarks more precisely in future versions."
+    "elementsToAvoid": [
+      "generic eagle nest",
+      "pure barbarian aerie",
+      "soft pastoral village scale",
+      "flying city weightlessness",
+      "military function without civic law",
+      "invented district-specific landmarks not supported by sidecars",
+      "replacing proper anchor names with generic summaries",
+      "collapsing five section spines into one repeated street type"
     ]
   }
 }

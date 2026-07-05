@@ -4,134 +4,1895 @@
     "analysisVersion": 2,
     "cityCode": "EMB",
     "cityName": "Embervein",
-    "analysisDate": "2026-07-03",
+    "analysisDate": "2026-07-05",
     "analystVersion": "gpt-5.5-thinking",
     "analysisConfidence": "strong-lock",
-    "basedOnImages": ["EMB-HERO-NE-v001", "EMB-HERO-NW-v001", "EMB-HERO-SE-v001", "EMB-HERO-SW-v001", "EMB-STREET-S1-v001", "EMB-STREET-S2-v001", "EMB-STREET-S3-v001", "EMB-STREET-S4-v001", "EMB-STREET-S5-v001"],
-    "basedOnSidecars": ["EMB-HERO-NE-v001.json", "EMB-HERO-NW-v001.json", "EMB-HERO-SE-v001.json", "EMB-HERO-SW-v001.json", "EMB-STREET-S1-v001.json", "EMB-STREET-S2-v001.json", "EMB-STREET-S3-v001.json", "EMB-STREET-S4-v001.json", "EMB-STREET-S5-v001.json"]
+    "sourceStatus": "full",
+    "districtModel": "five sections; five district slots per section; D13 is the seat of power",
+    "missingStreetSections": [],
+    "basedOnImages": [
+      "EMB-HERO-NE-v001",
+      "EMB-HERO-NW-v001",
+      "EMB-HERO-SE-v001",
+      "EMB-HERO-SW-v001",
+      "EMB-STREET-S1-v001",
+      "EMB-STREET-S2-v001",
+      "EMB-STREET-S3-v001",
+      "EMB-STREET-S4-v001",
+      "EMB-STREET-S5-v001"
+    ],
+    "basedOnSidecars": [
+      "EMB-HERO-NE-v001.json",
+      "EMB-HERO-NW-v001.json",
+      "EMB-HERO-SE-v001.json",
+      "EMB-HERO-SW-v001.json",
+      "EMB-STREET-S1-v001.json",
+      "EMB-STREET-S2-v001.json",
+      "EMB-STREET-S3-v001.json",
+      "EMB-STREET-S4-v001.json",
+      "EMB-STREET-S5-v001.json"
+    ]
   },
   "cityDNA": {
-    "coreFantasy": "A kobold industrial hive where small citizens maintain oversized forges, black markets, command systems, alchemical labs, and scrap warrens under volcanic pressure.",
-    "primaryEmotion": "compressed urgency",
-    "secondaryEmotion": "dangerous ingenuity",
-    "readerTakeaway": "Embervein is not a primitive cave warren or comic kobold clutter; it is an old technical civilization built from risk, heat, coordination, and scale mismatch.",
-    "civilizationThesis": "Embervein turns small-body survival, cavern heat, forge labor, hidden trade, command discipline, alchemical invention, and lower-warren salvage into an industrial civic hive.",
-    "visualIdentity": "Forge towers, smoke stacks, basalt halls, obsidian keeps, molten cracks, blue alchemical lamps, black-market arcades, command standards, scaffold bridges, crawl routes, formula archives, scrap markets, and patched tenements.",
-    "culturalIdentity": "A kobold civilization of quick technical workers, clan maintenance crews, cautious inventors, market runners, command subjects, alchemy assistants, and lower-warren salvage families.",
-    "symbolicIdentity": "Crucibles, forge beacons, smoke stacks, molten cracks, blue lamps, vault doors, command standards, crawl routes, and scrap markets symbolize ingenuity under pressure."
+    "coreFantasy": "A kobolds city where Kobold Ember-Warren Crucible Hive, Great Forge Beacon, Molten Crack Glow Iron Mandate Keep, and the five-section district spine turn local identity into functional civic space.",
+    "primaryEmotion": "source-backed civic presence",
+    "secondaryEmotion": "lived-in pressure beneath landmark order",
+    "readerTakeaway": "Embervein should feel immediately identifiable through exact landmarks and materials, not through generic fantasy-city shorthand.",
+    "civilizationThesis": "Embervein organizes power through Molten Crack Glow Iron Mandate Keep, public response through Great Forge Beacon, civic memory through Kobold Ember-Warren Crucible Hive, and daily life through S1 Heavy Industry / Foundry Civic Hall, S2 Underworld / Hidden Economy Civic Hall, S3 Military Command Hall, S4 Arcane / Alchemical Labs Civic Hall, S5 Slums / Informal Settlement Civic Hall.",
+    "visualIdentity": "Basalt, Obsidian, Volcanic Glass, Arcane Glow, Salt Crystal, Subterranean, Undercity Foundation, Limestone Caverns, Ward Networks, Ritual Geometry, Lava Shaping, and exact anchors including Molten Crack Glow Iron Mandate Keep, Great Forge Beacon, Kobold Ember-Warren Crucible Hive, Scrap Market, Black Market Arcade, Alchemy Lab, Heavy Industry / Foundry Civic Hall, Smoke-Stack Monument, Crucible Hall Nook, Underworld / Hidden Economy Civic Hall.",
+    "culturalIdentity": "A kobolds civic culture where architecture, public obligations, roads, landmark approaches, and everyday work must all read as part of the same civilization.",
+    "symbolicIdentity": "The city symbol system is built from exact names and visible functions: Kobold Ember-Warren Crucible Hive, Great Forge Beacon, Molten Crack Glow Iron Mandate Keep, and section anchors such as Heavy Industry / Foundry Civic Hall, Underworld / Hidden Economy Civic Hall, Military Command Hall, Arcane / Alchemical Labs Civic Hall, Slums / Informal Settlement Civic Hall."
   },
   "canon": {
     "canonLocks": [
-      "Embervein is a mature kobold subterranean-industrial city, not a primitive cave warren.",
-      "The Wonder is the Kobold Ember-Warren Crucible Hive.",
-      "The Beacon is the Great Forge Beacon.",
-      "The Seat of Power is the Molten Crack Glow Iron Mandate Keep.",
-      "The five primary districts are Heavy Industry / Foundry, Underworld / Hidden Economy, Military Command, Arcane / Alchemical Labs, and Slums / Informal Settlement.",
-      "The uploaded district anchors include Heavy Industry / Foundry Civic Hall, Smoke-Stack Monument, Crucible Hall Nook, Underworld / Hidden Economy Civic Hall, Mist Veils Monument, Understreet Vault Nook, Military Command Hall, Woven Banners Monument, Standard Tower Nook, Arcane / Alchemical Labs Civic Hall, Blue-Lamp Monument, Formula Archive Nook, Slums / Informal Settlement Civic Hall, Slums Informal Settlement Lantern Monument, and Patched Tenement Nook."
+      "Embervein uses city code EMB.",
+      "The Wonder is Kobold Ember-Warren Crucible Hive.",
+      "The Beacon is Great Forge Beacon.",
+      "The Seat of Power is Molten Crack Glow Iron Mandate Keep and occupies District 13.",
+      "The city uses five sections with five tactical district slots per section.",
+      "The source-backed section spine is: S1 Heavy Industry / Foundry Civic Hall, S2 Underworld / Hidden Economy Civic Hall, S3 Military Command Hall, S4 Arcane / Alchemical Labs Civic Hall, S5 Slums / Informal Settlement Civic Hall.",
+      "Preserve exact anchor name: Molten Crack Glow Iron Mandate Keep.",
+      "Preserve exact anchor name: Great Forge Beacon.",
+      "Preserve exact anchor name: Kobold Ember-Warren Crucible Hive.",
+      "Preserve exact anchor name: Scrap Market.",
+      "Preserve exact anchor name: Black Market Arcade.",
+      "Preserve exact anchor name: Alchemy Lab.",
+      "Preserve exact anchor name: Heavy Industry / Foundry Civic Hall.",
+      "Preserve exact anchor name: Smoke-Stack Monument.",
+      "Preserve exact anchor name: Crucible Hall Nook.",
+      "Preserve exact anchor name: Underworld / Hidden Economy Civic Hall.",
+      "Preserve exact anchor name: Mist Veils Monument.",
+      "Preserve exact anchor name: Understreet Vault Nook.",
+      "Preserve exact anchor name: Military Command Hall.",
+      "Preserve exact anchor name: Command Bastion.",
+      "Preserve exact anchor name: Woven Banners Monument.",
+      "Preserve exact anchor name: Standard Tower Nook.",
+      "Preserve exact anchor name: Arcane / Alchemical Labs Civic Hall.",
+      "Preserve exact anchor name: Blue-Lamp Monument.",
+      "Preserve exact anchor name: Formula Archive Nook.",
+      "Preserve exact anchor name: Slums / Informal Settlement Civic Hall.",
+      "Preserve exact anchor name: Slums Informal Settlement Lantern Monument.",
+      "Preserve exact anchor name: Patched Tenement Nook."
     ],
-    "provisionalCanon": [
-      "Embervein's highest civic virtue is ingenuity under pressure.",
-      "Its central tension is invention and production versus workers being treated as replaceable machine parts.",
-      "The hidden economy is not marginal; it is a tolerated pressure valve that keeps official industry functioning."
-    ],
+    "provisionalCanon": [],
     "rejectedReads": [
-      "Embervein is a primitive cave warren.",
-      "Embervein is comic kobold clutter.",
-      "The forge is the only important civic system.",
-      "The slums and black market are incidental rather than structurally central."
+      "Do not treat Embervein as a generic fantasy settlement with renamed landmarks.",
+      "Do not collapse the five-section board into a single mood or single district.",
+      "Do not replace exact anchor names with generic summaries.",
+      "Do not invent missing street-section landmarks when a street source is absent."
     ],
     "cautionFlags": [
-      "Use kobold scale constantly: low doors, tight balconies, crawl routes, scaffold platforms, and small workers under huge machines.",
-      "Keep industry and poverty in the same visual system.",
-      "Do not let forge imagery erase black-market, command, alchemy, or slum systems.",
-      "Preserve exact sidecar anchors instead of smoothing them into generic forge or slum labels."
+      "Keep every named Wonder, Beacon, Seat, section civic hall, major landmark, monument, and minor nook exact when present in sidecars.",
+      "If an image appears to deviate from a sidecar, preserve the exact name but avoid overclaiming visual details not supported by the source package.",
+      "Every district asset should remain usable for narrative scenes, tactical board dioramas, and city map backgrounds."
     ]
   },
   "environment": {
-    "terrain": ["subterranean cavern city", "industrial ledges", "scaffold routes", "warren tunnels", "forge courts", "lower scrap settlements", "volcanic undercity foundations"],
-    "water": ["cooling channels", "cavern runoff", "forge basins", "condensation pools", "alchemical wash basins"],
-    "vegetation": ["minimal cavern fungi", "reagent planters", "lower-warren moss", "rare lamp-grown herbs"],
-    "climateLighting": ["orange forge glow", "blue alchemical lamps", "smoke-diffused cavern air", "molten crack light", "lower-warren lanterns", "vault darkness", "black-market lamp haze"],
-    "environmentalLogic": "Embervein treats cavern heat, lava glow, smoke, low passages, and underground density as civic infrastructure. Survival depends on converting pressure into production, invention, command, and salvage."
+    "terrain": [
+      "Subterranean",
+      "Undercity Foundation",
+      "Limestone Caverns"
+    ],
+    "water": [
+      "dry city ground"
+    ],
+    "vegetation": [
+      "courtyard trees",
+      "balcony planters",
+      "public greenery where visible",
+      "source-backed local vegetation only"
+    ],
+    "climateLighting": [
+      "Ward Networks",
+      "Ritual Geometry",
+      "Lava Shaping",
+      "daylight",
+      "golden hour",
+      "lantern light",
+      "civic beacon glow"
+    ],
+    "environmentalLogic": "The environment should make Embervein's exact civic anchors plausible at street scale: terrain routes people toward section landmarks, lighting clarifies public authority, and water or landscape features remain source-backed rather than decorative filler."
   },
   "architecture": {
-    "materials": ["obsidian fortress stone", "black basalt", "slag brick", "iron fittings", "bronze gears", "blue alchemical glass", "charred timber", "scrap metal", "molten-lit stone", "patched cloth", "vault masonry"],
-    "forms": ["Heavy Industry / Foundry Civic Hall", "Great Forge Beacon", "Smoke-Stack Monument", "Crucible Hall Nook", "Black Market Arcade", "Understreet Vault Nook", "Military Command Hall", "Command Bastion", "Standard Tower Nook", "Alchemy Lab", "Formula Archive Nook", "Scrap Market", "Patched Tenement Nook", "low doors", "crawl routes", "scaffold bridges"],
-    "skyline": ["Kobold Ember-Warren Crucible Hive as the glowing wonder-scale cavern heart", "Molten Crack Glow Iron Mandate Keep as central authority", "Great Forge Beacon as industrial signal heart", "command towers, blue-lit labs, smoke stacks, black-market tunnels, and scrap warrens stacked around cavern walls"],
-    "lighting": ["forge orange", "blue alchemical glow", "molten crack light", "command torchlight", "black-market lanterns", "scrap-warren low lamps"],
-    "infrastructure": ["forge floors", "scaffold bridges", "vent shafts", "crawl routes", "understreet vaults", "command stairs", "formula archives", "scrap lanes", "low tunnels", "maintenance platforms"],
-    "motifs": ["crucibles", "smoke stacks", "molten cracks", "blue lamps", "vault doors", "command standards", "woven banners", "scrap repair", "low doors", "warren geometry"],
-    "colorLanguage": ["black stone", "forge orange", "molten red", "blue alchemical light", "iron gray", "soot brown", "scrap metal dullness"],
-    "textureLanguage": ["hot stone", "soot", "iron grating", "scrap edges", "low tunnel walls", "glass vials", "patched cloth", "worn scaffold wood"]
+    "materials": [
+      "Basalt",
+      "Obsidian",
+      "Volcanic Glass",
+      "Arcane Glow",
+      "Salt Crystal"
+    ],
+    "forms": [
+      "Molten Crack Glow Iron Mandate Keep",
+      "Great Forge Beacon",
+      "Kobold Ember-Warren Crucible Hive",
+      "Scrap Market",
+      "Black Market Arcade",
+      "Alchemy Lab",
+      "Heavy Industry / Foundry Civic Hall",
+      "Smoke-Stack Monument",
+      "Crucible Hall Nook",
+      "Underworld / Hidden Economy Civic Hall",
+      "Mist Veils Monument",
+      "Understreet Vault Nook",
+      "Military Command Hall",
+      "Command Bastion",
+      "Woven Banners Monument",
+      "Standard Tower Nook",
+      "Arcane / Alchemical Labs Civic Hall",
+      "Blue-Lamp Monument",
+      "Formula Archive Nook",
+      "Slums / Informal Settlement Civic Hall",
+      "Slums Informal Settlement Lantern Monument",
+      "Patched Tenement Nook",
+      "section civic halls",
+      "major landmark approaches",
+      "monument frontages",
+      "minor landmark nooks",
+      "district roads and plazas",
+      "D13 authority complex"
+    ],
+    "skyline": [
+      "Kobold Ember-Warren Crucible Hive",
+      "Molten Crack Glow Iron Mandate Keep",
+      "Great Forge Beacon",
+      "Scrap Market",
+      "Black Market Arcade",
+      "Alchemy Lab",
+      "Heavy Industry / Foundry Civic Hall",
+      "Smoke-Stack Monument",
+      "Crucible Hall Nook"
+    ],
+    "lighting": [
+      "Ward Networks",
+      "Ritual Geometry",
+      "Lava Shaping",
+      "beacon-state light",
+      "lantern-lit civic paths",
+      "street-level shop and housing light"
+    ],
+    "infrastructure": [
+      "Heavy Industry / Foundry Civic Hall",
+      "Underworld / Hidden Economy Civic Hall",
+      "Military Command Hall",
+      "Arcane / Alchemical Labs Civic Hall",
+      "Slums / Informal Settlement Civic Hall",
+      "roads between district slots",
+      "public thresholds",
+      "plaza edges",
+      "records, permits, markets, services, or rituals implied by anchors"
+    ],
+    "motifs": [
+      "Molten",
+      "Crack",
+      "Glow",
+      "Iron",
+      "Mandate",
+      "Keep",
+      "Great",
+      "Forge",
+      "Beacon",
+      "Kobold",
+      "Ember-Warren",
+      "Crucible",
+      "Hive",
+      "Scrap",
+      "Market",
+      "Black"
+    ],
+    "colorLanguage": [
+      "source-backed material colors",
+      "civic blue signal accents",
+      "local textile, stone, metal, vegetation, or water colors from the image package"
+    ],
+    "textureLanguage": [
+      "Basalt",
+      "Obsidian",
+      "Volcanic Glass",
+      "Arcane Glow",
+      "Salt Crystal",
+      "worn pedestrian surfaces",
+      "worked civic ornament",
+      "weathered public thresholds",
+      "lived-in shop and housing details"
+    ]
   },
   "civilization": {
-    "people": "Citizens are kobolds: small, quick, technical, nervous-smart, clan/warren-aware, excellent at maintenance, and used to living under structures much larger than themselves.",
-    "occupations": ["forge workers", "vent cleaners", "gearwrights", "black-market brokers", "vault lenders", "command standard makers", "scrap repairers", "formula copyists", "reagent handlers", "alchemy assistants", "crawl-route runners", "maintenance crews"],
-    "socialClasses": ["iron mandate officials", "forge masters", "command officers", "alchemy staff", "black-market brokers", "technical clans", "scrap families", "lower-warren laborers"],
-    "governance": "Authority is forge-mandate and command-industrial: power flows from production, military discipline, alchemical control, tolerated shadow trade, and the Keep that governs the warren.",
-    "religion": "Religious expression is secondary to work rites, forge rituals, clan obligations, invention taboos, and fear-respect for the Crucible Hive.",
-    "customs": ["checking vents and seals before work", "using crawl routes by rank and trust", "bartering salvage through known brokers", "treating small maintenance errors as civic emergencies", "clan-based technical obligations"],
-    "bodyLanguage": ["quick glances upward", "low-door movement", "alertness to leaks and heat", "hands always near tools", "deferential spacing around command standards"],
-    "speechPatterns": ["compressed technical language", "route shorthand", "forge slang", "market codes", "command terms", "formula restrictions"]
+    "people": "The population should read as kobolds and city-specific: citizens occupy streets, shops, public thresholds, and landmark approaches as people who understand the local civic order.",
+    "occupations": [
+      "smiths",
+      "craft workers",
+      "market sellers",
+      "stall keepers",
+      "watch guards",
+      "gate officers",
+      "archivists",
+      "record clerks",
+      "district clerks",
+      "craft families",
+      "porters",
+      "maintenance workers",
+      "food sellers",
+      "messengers"
+    ],
+    "socialClasses": [
+      "D13 officials and court staff",
+      "section landmark custodians",
+      "guild and service families",
+      "shopkeepers and artisans",
+      "laborers, carriers, messengers, and maintenance crews",
+      "households tied to local district obligations"
+    ],
+    "governance": "Government is centered on Molten Crack Glow Iron Mandate Keep. Its authority should be visible through courts, records, public access routes, civic lamps, guards or attendants, and the way citizens respond to D13.",
+    "religion": "Religious or ritual life should only be emphasized where source anchors support it, especially names such as none explicitly dominant in the current anchors.",
+    "customs": [
+      "citizens orient public life around Heavy Industry / Foundry Civic Hall in Section 1",
+      "citizens orient public life around Underworld / Hidden Economy Civic Hall in Section 2",
+      "citizens orient public life around Military Command Hall in Section 3",
+      "citizens orient public life around Arcane / Alchemical Labs Civic Hall in Section 4",
+      "citizens orient public life around Slums / Informal Settlement Civic Hall in Section 5",
+      "beacon changes become public behavior, not background color",
+      "exact landmark names carry social memory and directions",
+      "civic errands happen visibly at thresholds, queues, ledgers, stalls, courts, or shrines"
+    ],
+    "bodyLanguage": [
+      "citizens pause at civic signals",
+      "workers move with practiced familiarity around district anchors",
+      "officials use thresholds and raised places to control attention",
+      "residents treat named landmarks as everyday orientation points"
+    ],
+    "speechPatterns": [
+      "directions use exact landmark names",
+      "public notices are tied to section anchors",
+      "local speech distinguishes civic authority, ordinary errands, and landmark obligations",
+      "people refer to D13 as the seat of power rather than a faction headquarters"
+    ]
   },
   "urbanLife": {
     "streets": {
-      "appearance": "Cramped, vertical, hot, and mechanical: scaffold bridges, blue alchemical lamps, orange forge glow, smoke stacks, market tunnels, command stairs, standard towers, and lower scrap warrens crowd cavern walls.",
-      "movement": "Movement is small-body and route-dense: crawl passages, low balconies, scaffold platforms, command stairs, market tunnels, forge lanes, and maintenance routes.",
-      "sounds": ["forge roar", "gear clicks", "vent hiss", "small feet on metal", "market whispers", "command calls", "glass clinks", "scrap hammering"],
-      "smells": ["hot metal", "soot", "oil", "sharp reagents", "damp cavern stone", "scrap smoke", "charcoal", "crowded tunnels"],
-      "lighting": "Orange forge light and blue alchemical lamps compete with black-market lanterns and molten cracks; shadows are deep under machines.",
-      "weatherEffects": "Weather is internal: heat shifts, smoke pressure, vent failures, steam bursts, and condensation change movement and mood.",
-      "dayCycle": "Work cycles follow forge shifts, command musters, lab access, market openings, and scrap collection.",
-      "nightCycle": "Night favors black-market tunnels, lower-warren repair, reduced forge glow, and blue lab light against cavern dark."
+      "appearance": "Streets should show Embervein's exact anchor system at pedestrian scale: S1 Heavy Industry / Foundry Civic Hall, S2 Underworld / Hidden Economy Civic Hall, S3 Military Command Hall, S4 Arcane / Alchemical Labs Civic Hall, S5 Slums / Informal Settlement Civic Hall. Keep roads, plazas, stairs, thresholds, lamps, signs-without-readable-text, props, and civilians aligned to the source-backed materials and landmarks.",
+      "movement": "Movement should be readable for tactical-board assets: citizens pass between 25 district slots, section anchors, D13, service streets, and landmark approaches without visual clutter hiding the civic purpose.",
+      "sounds": [
+        "foot traffic",
+        "vendors and service calls",
+        "tools and carts",
+        "public notices",
+        "landmark-specific sounds from water, bells, animals, machines, or crowds when source-backed",
+        "beacon-state crowd reactions"
+      ],
+      "smells": [
+        "street food",
+        "worked material dust",
+        "lamp oil or smoke",
+        "vegetation or water where source-backed",
+        "worn stone, timber, metal, plaster, or fabric"
+      ],
+      "lighting": "Use the package's source-backed civic lighting, daylight/golden-hour reads, lanterns, and beacon glow. Lighting must help identify authority, safety, and landmark function.",
+      "weatherEffects": "Weather should reinforce the local terrain and materials without overwhelming the city identity or inventing unsupported climate extremes.",
+      "dayCycle": "Day scenes emphasize errands, trade, records, repairs, rituals, food, and section-level movement.",
+      "nightCycle": "Night scenes emphasize lantern routes, closed thresholds, guarded landmarks, quiet work, and beacon visibility."
     },
     "shops": {
-      "common": ["crucible tool stalls", "charcoal sellers", "scrap repairers", "vent cleaners", "gearwright shops", "food stalls for workers"],
-      "uncommon": ["reagent counters", "formula copyists", "understreet vault lenders", "black-market brokers", "standard makers"],
-      "prestigious": ["forge mandate offices", "alchemy lab counters", "command armories", "elite gearwright halls", "Crucible Hive access brokers"],
-      "exports": ["tools", "mechanisms", "forge parts", "alchemy reagents", "scrap inventions", "technical labor"],
-      "imports": ["ore", "charcoal", "rare reagents", "food", "cloth", "glass"],
-      "streetFood": ["charcoal bread", "mushroom stew", "root cakes", "forge tea", "spiced insects or small meats", "worker broth"],
-      "services": ["vent cleaning", "gear repair", "formula copying", "vault lending", "black-market brokerage", "command posting", "scrap appraisal"]
+      "common": [
+        "food stalls",
+        "repair stalls",
+        "material vendors",
+        "ledger or permit desks",
+        "local craft counters",
+        "street services tied to section anchors"
+      ],
+      "uncommon": [
+        "specialist landmark caretakers",
+        "instrument makers",
+        "ritual suppliers",
+        "map or record copyists",
+        "district-specific guild services"
+      ],
+      "prestigious": [
+        "D13-facing legal or registry services",
+        "elite craft workshops",
+        "landmark commission houses",
+        "official suppliers for civic ceremonies"
+      ],
+      "exports": [
+        "local crafts",
+        "records or seals",
+        "finished materials",
+        "food goods",
+        "specialized tools or ritual goods as supported by anchors"
+      ],
+      "imports": [
+        "rare materials",
+        "dyes, oils, spices, timber, stone, metal, glass, or cloth as needed by the architecture",
+        "outside records and trade goods"
+      ],
+      "streetFood": [
+        "flatbread or local bread",
+        "stew or grilled skewers",
+        "fruit or preserved food",
+        "tea or civic-square drinks",
+        "portable worker meals"
+      ],
+      "services": [
+        "directions by landmark",
+        "message running",
+        "permit help",
+        "repairs",
+        "food service",
+        "transport or porterage",
+        "public notice posting"
+      ]
     },
     "housing": {
-      "wealthy": "Command- or forge-adjacent compact residences with private scaffold access, blue lamps, sealed vents, and protected storage.",
-      "middle": "Clan workshops, low-door apartments, gearwright rooms, shared balconies, and tool-lined walls near work routes.",
-      "poor": "Lower scrap warrens, patched tenements, tight tunnels, shared heat, salvage storage, and cramped family alcoves beneath larger systems."
+      "wealthy": "Prestige housing clusters near Molten Crack Glow Iron Mandate Keep, high terraces, or landmark-facing routes, using the best source-backed materials and controlled views of civic space.",
+      "middle": "Shop-over-house units, courtyard homes, guild-adjacent apartments, and family rooms near section anchors.",
+      "poor": "Smaller back-street rooms, work-adjacent housing, shared courtyards, service alleys, patched materials, and dense but still city-specific lived-in detail."
     }
   },
   "districts": [
-    {"sectionNumber": 1, "name": "Heavy Industry / Foundry", "civicPurpose": "Production, industrial alarm, labor coordination, forge identity, and citywide heat management.", "visualIdentity": "Heavy Industry / Foundry Civic Hall, Great Forge Beacon, Smoke-Stack Monument, Crucible Hall Nook, forge floors, chains, vent shafts, orange heat, and workers under huge machines.", "emotionalIdentity": "Hot, pressured, productive, and dangerous.", "gameplayAssetNeeds": ["Heavy Industry / Foundry Civic Hall", "Great Forge Beacon", "Smoke-Stack Monument", "Crucible Hall Nook", "forge workers", "chains", "vent shafts"], "narrativeUse": ["production crisis", "labor stakes", "industrial danger", "Beacon response", "tiny maintenance failure with huge consequences"], "landmark": "Great Forge Beacon", "minorLandmarks": ["Smoke-Stack Monument", "Crucible Hall Nook"]},
-    {"sectionNumber": 2, "name": "Underworld / Hidden Economy", "civicPurpose": "Shadow commerce, debt, contraband, informal supply, and tolerated survival networks.", "visualIdentity": "Underworld / Hidden Economy Civic Hall, Black Market Arcade, Mist Veils Monument, Understreet Vault Nook, coded stalls, low tunnels, and guarded doors.", "emotionalIdentity": "Coded, necessary, tense, and opportunistic.", "gameplayAssetNeeds": ["Underworld / Hidden Economy Civic Hall", "Black Market Arcade", "Mist Veils Monument", "Understreet Vault Nook", "brokers", "coded stalls"], "narrativeUse": ["debts", "contraband", "hidden supply", "informal repair", "useful illegal invention"], "landmark": "Black Market Arcade", "minorLandmarks": ["Mist Veils Monument", "Understreet Vault Nook"]},
-    {"sectionNumber": 3, "name": "Military Command", "civicPurpose": "Rank, musters, defensive discipline, command protection, and official force inside the hive.", "visualIdentity": "Military Command Hall, Command Bastion, Woven Banners Monument, Standard Tower Nook, command stairs, military platforms, and small guards under large standards.", "emotionalIdentity": "Disciplined, alert, and anxious.", "gameplayAssetNeeds": ["Military Command Hall", "Command Bastion", "Woven Banners Monument", "Standard Tower Nook", "command banners", "guards", "stairs"], "narrativeUse": ["orders", "rank", "musters", "protection politics", "command response to industrial failure"], "landmark": "Command Bastion", "minorLandmarks": ["Woven Banners Monument", "Standard Tower Nook"]},
-    {"sectionNumber": 4, "name": "Arcane / Alchemical Labs", "civicPurpose": "Dangerous research, formula control, reagent management, and magical-industrial invention.", "visualIdentity": "Arcane / Alchemical Labs Civic Hall, Alchemy Lab, Blue-Lamp Monument, Formula Archive Nook, glass vials, sealed doors, and blue light.", "emotionalIdentity": "Precise, risky, and restricted.", "gameplayAssetNeeds": ["Arcane / Alchemical Labs Civic Hall", "Alchemy Lab", "Blue-Lamp Monument", "Formula Archive Nook", "reagents", "sealed shelves"], "narrativeUse": ["formula danger", "research access", "controlled invention", "lab evidence"], "landmark": "Alchemy Lab", "minorLandmarks": ["Blue-Lamp Monument", "Formula Archive Nook"]},
-    {"sectionNumber": 5, "name": "Slums / Informal Settlement", "civicPurpose": "Lower-warren survival, repair culture, salvage economy, and pressure beneath official systems.", "visualIdentity": "Slums / Informal Settlement Civic Hall, Scrap Market, Slums Informal Settlement Lantern Monument, Patched Tenement Nook, salvage piles, cramped passages, and low lamps.", "emotionalIdentity": "Resourceful, crowded, vulnerable, and inventive.", "gameplayAssetNeeds": ["Slums / Informal Settlement Civic Hall", "Scrap Market", "Slums Informal Settlement Lantern Monument", "Patched Tenement Nook", "salvage piles", "lower-warren families"], "narrativeUse": ["survival trade", "maintenance clues", "poverty pressure", "small-body ingenuity", "repair culture under exploitation"], "landmark": "Scrap Market", "minorLandmarks": ["Slums Informal Settlement Lantern Monument", "Patched Tenement Nook"]}
+    {
+      "districtNumber": 1,
+      "districtId": "D01",
+      "sectionNumber": 1,
+      "name": "D01 — Heavy Industry / Foundry Civic Hall Civic-Anchor Precinct",
+      "civicPurpose": "This district turns Section 1's source-backed anchor set into a board-scale civic space: Heavy Industry / Foundry Civic Hall, Great Forge Beacon, Smoke-Stack Monument, Crucible Hall Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Embervein.",
+      "visualIdentity": "Use Heavy Industry / Foundry Civic Hall as the main read. Keep exact source anchors visible where applicable: Heavy Industry / Foundry Civic Hall, Great Forge Beacon, Smoke-Stack Monument, Crucible Hall Nook. The district should share Embervein's kobolds identity, Basalt, Obsidian, Volcanic Glass, Arcane Glow, and Subterranean, Undercity Foundation, Limestone Caverns without becoming generic.",
+      "emotionalIdentity": "Locally grounded, with Embervein's larger mood shaped by Kobold Ember-Warren Crucible Hive, Great Forge Beacon, and Molten Crack Glow Iron Mandate Keep.",
+      "gameplayAssetNeeds": [
+        "Heavy Industry / Foundry Civic Hall",
+        "Great Forge Beacon",
+        "Smoke-Stack Monument",
+        "Crucible Hall Nook",
+        "Section 1 pedestrian-scale props",
+        "Embervein civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Heavy Industry / Foundry Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Heavy Industry / Foundry Civic Hall",
+      "minorLandmarks": [
+        "Great Forge Beacon",
+        "Smoke-Stack Monument",
+        "Crucible Hall Nook"
+      ]
+    },
+    {
+      "districtNumber": 2,
+      "districtId": "D02",
+      "sectionNumber": 1,
+      "name": "D02 — Great Forge Beacon Landmark Approach",
+      "civicPurpose": "This district turns Section 1's source-backed anchor set into a board-scale civic space: Heavy Industry / Foundry Civic Hall, Great Forge Beacon, Smoke-Stack Monument, Crucible Hall Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Embervein.",
+      "visualIdentity": "Use Great Forge Beacon as the main read. Keep exact source anchors visible where applicable: Heavy Industry / Foundry Civic Hall, Great Forge Beacon, Smoke-Stack Monument, Crucible Hall Nook. The district should share Embervein's kobolds identity, Basalt, Obsidian, Volcanic Glass, Arcane Glow, and Subterranean, Undercity Foundation, Limestone Caverns without becoming generic.",
+      "emotionalIdentity": "Public-facing, with Embervein's larger mood shaped by Kobold Ember-Warren Crucible Hive, Great Forge Beacon, and Molten Crack Glow Iron Mandate Keep.",
+      "gameplayAssetNeeds": [
+        "Great Forge Beacon",
+        "Heavy Industry / Foundry Civic Hall",
+        "Smoke-Stack Monument",
+        "Crucible Hall Nook",
+        "Section 1 pedestrian-scale props",
+        "Embervein civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Great Forge Beacon",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "Conjunction response, rumor spread, or authority pressure"
+      ],
+      "landmark": "Great Forge Beacon",
+      "minorLandmarks": [
+        "Heavy Industry / Foundry Civic Hall",
+        "Smoke-Stack Monument",
+        "Crucible Hall Nook"
+      ]
+    },
+    {
+      "districtNumber": 3,
+      "districtId": "D03",
+      "sectionNumber": 1,
+      "name": "D03 — Smoke-Stack Monument Monument Frontage",
+      "civicPurpose": "This district turns Section 1's source-backed anchor set into a board-scale civic space: Heavy Industry / Foundry Civic Hall, Great Forge Beacon, Smoke-Stack Monument, Crucible Hall Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Embervein.",
+      "visualIdentity": "Use Smoke-Stack Monument as the main read. Keep exact source anchors visible where applicable: Heavy Industry / Foundry Civic Hall, Great Forge Beacon, Smoke-Stack Monument, Crucible Hall Nook. The district should share Embervein's kobolds identity, Basalt, Obsidian, Volcanic Glass, Arcane Glow, and Subterranean, Undercity Foundation, Limestone Caverns without becoming generic.",
+      "emotionalIdentity": "Memorial or symbolic, with Embervein's larger mood shaped by Kobold Ember-Warren Crucible Hive, Great Forge Beacon, and Molten Crack Glow Iron Mandate Keep.",
+      "gameplayAssetNeeds": [
+        "Smoke-Stack Monument",
+        "Heavy Industry / Foundry Civic Hall",
+        "Great Forge Beacon",
+        "Crucible Hall Nook",
+        "Section 1 pedestrian-scale props",
+        "Embervein civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Smoke-Stack Monument",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Smoke-Stack Monument",
+      "minorLandmarks": [
+        "Heavy Industry / Foundry Civic Hall",
+        "Great Forge Beacon",
+        "Crucible Hall Nook"
+      ]
+    },
+    {
+      "districtNumber": 6,
+      "districtId": "D06",
+      "sectionNumber": 1,
+      "name": "D06 — Crucible Hall Nook Neighborhood Nook",
+      "civicPurpose": "This district turns Section 1's source-backed anchor set into a board-scale civic space: Heavy Industry / Foundry Civic Hall, Great Forge Beacon, Smoke-Stack Monument, Crucible Hall Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Embervein.",
+      "visualIdentity": "Use Crucible Hall Nook as the main read. Keep exact source anchors visible where applicable: Heavy Industry / Foundry Civic Hall, Great Forge Beacon, Smoke-Stack Monument, Crucible Hall Nook. The district should share Embervein's kobolds identity, Basalt, Obsidian, Volcanic Glass, Arcane Glow, and Subterranean, Undercity Foundation, Limestone Caverns without becoming generic.",
+      "emotionalIdentity": "Intimate and lived-in, with Embervein's larger mood shaped by Kobold Ember-Warren Crucible Hive, Great Forge Beacon, and Molten Crack Glow Iron Mandate Keep.",
+      "gameplayAssetNeeds": [
+        "Crucible Hall Nook",
+        "Heavy Industry / Foundry Civic Hall",
+        "Great Forge Beacon",
+        "Smoke-Stack Monument",
+        "Section 1 pedestrian-scale props",
+        "Embervein civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Crucible Hall Nook",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Crucible Hall Nook",
+      "minorLandmarks": [
+        "Heavy Industry / Foundry Civic Hall",
+        "Great Forge Beacon",
+        "Smoke-Stack Monument"
+      ]
+    },
+    {
+      "districtNumber": 7,
+      "districtId": "D07",
+      "sectionNumber": 1,
+      "name": "D07 — Heavy Industry / Foundry Civic Hall Supporting Streets",
+      "civicPurpose": "This district turns Section 1's source-backed anchor set into a board-scale civic space: Heavy Industry / Foundry Civic Hall, Great Forge Beacon, Smoke-Stack Monument, Crucible Hall Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Embervein.",
+      "visualIdentity": "Use Heavy Industry / Foundry Civic Hall as the main read. Keep exact source anchors visible where applicable: Heavy Industry / Foundry Civic Hall, Great Forge Beacon, Smoke-Stack Monument, Crucible Hall Nook. The district should share Embervein's kobolds identity, Basalt, Obsidian, Volcanic Glass, Arcane Glow, and Subterranean, Undercity Foundation, Limestone Caverns without becoming generic.",
+      "emotionalIdentity": "Connective and practical, with Embervein's larger mood shaped by Kobold Ember-Warren Crucible Hive, Great Forge Beacon, and Molten Crack Glow Iron Mandate Keep.",
+      "gameplayAssetNeeds": [
+        "Heavy Industry / Foundry Civic Hall",
+        "Great Forge Beacon",
+        "Smoke-Stack Monument",
+        "Crucible Hall Nook",
+        "Section 1 pedestrian-scale props",
+        "Embervein civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Heavy Industry / Foundry Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Heavy Industry / Foundry Civic Hall",
+      "minorLandmarks": [
+        "Great Forge Beacon",
+        "Smoke-Stack Monument",
+        "Crucible Hall Nook"
+      ]
+    },
+    {
+      "districtNumber": 4,
+      "districtId": "D04",
+      "sectionNumber": 2,
+      "name": "D04 — Underworld / Hidden Economy Civic Hall Civic-Anchor Precinct",
+      "civicPurpose": "This district turns Section 2's source-backed anchor set into a board-scale civic space: Underworld / Hidden Economy Civic Hall, Black Market Arcade, Mist Veils Monument, Understreet Vault Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Embervein.",
+      "visualIdentity": "Use Underworld / Hidden Economy Civic Hall as the main read. Keep exact source anchors visible where applicable: Underworld / Hidden Economy Civic Hall, Black Market Arcade, Mist Veils Monument, Understreet Vault Nook. The district should share Embervein's kobolds identity, Basalt, Obsidian, Volcanic Glass, Arcane Glow, and Subterranean, Undercity Foundation, Limestone Caverns without becoming generic.",
+      "emotionalIdentity": "Locally grounded, with Embervein's larger mood shaped by Kobold Ember-Warren Crucible Hive, Great Forge Beacon, and Molten Crack Glow Iron Mandate Keep.",
+      "gameplayAssetNeeds": [
+        "Underworld / Hidden Economy Civic Hall",
+        "Black Market Arcade",
+        "Mist Veils Monument",
+        "Understreet Vault Nook",
+        "Section 2 pedestrian-scale props",
+        "Embervein civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Underworld / Hidden Economy Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Underworld / Hidden Economy Civic Hall",
+      "minorLandmarks": [
+        "Black Market Arcade",
+        "Mist Veils Monument",
+        "Understreet Vault Nook"
+      ]
+    },
+    {
+      "districtNumber": 5,
+      "districtId": "D05",
+      "sectionNumber": 2,
+      "name": "D05 — Black Market Arcade Landmark Approach",
+      "civicPurpose": "This district turns Section 2's source-backed anchor set into a board-scale civic space: Underworld / Hidden Economy Civic Hall, Black Market Arcade, Mist Veils Monument, Understreet Vault Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Embervein.",
+      "visualIdentity": "Use Black Market Arcade as the main read. Keep exact source anchors visible where applicable: Underworld / Hidden Economy Civic Hall, Black Market Arcade, Mist Veils Monument, Understreet Vault Nook. The district should share Embervein's kobolds identity, Basalt, Obsidian, Volcanic Glass, Arcane Glow, and Subterranean, Undercity Foundation, Limestone Caverns without becoming generic.",
+      "emotionalIdentity": "Public-facing, with Embervein's larger mood shaped by Kobold Ember-Warren Crucible Hive, Great Forge Beacon, and Molten Crack Glow Iron Mandate Keep.",
+      "gameplayAssetNeeds": [
+        "Black Market Arcade",
+        "Underworld / Hidden Economy Civic Hall",
+        "Mist Veils Monument",
+        "Understreet Vault Nook",
+        "Section 2 pedestrian-scale props",
+        "Embervein civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Black Market Arcade",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Black Market Arcade",
+      "minorLandmarks": [
+        "Underworld / Hidden Economy Civic Hall",
+        "Mist Veils Monument",
+        "Understreet Vault Nook"
+      ]
+    },
+    {
+      "districtNumber": 9,
+      "districtId": "D09",
+      "sectionNumber": 2,
+      "name": "D09 — Mist Veils Monument Monument Frontage",
+      "civicPurpose": "This district turns Section 2's source-backed anchor set into a board-scale civic space: Underworld / Hidden Economy Civic Hall, Black Market Arcade, Mist Veils Monument, Understreet Vault Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Embervein.",
+      "visualIdentity": "Use Mist Veils Monument as the main read. Keep exact source anchors visible where applicable: Underworld / Hidden Economy Civic Hall, Black Market Arcade, Mist Veils Monument, Understreet Vault Nook. The district should share Embervein's kobolds identity, Basalt, Obsidian, Volcanic Glass, Arcane Glow, and Subterranean, Undercity Foundation, Limestone Caverns without becoming generic.",
+      "emotionalIdentity": "Memorial or symbolic, with Embervein's larger mood shaped by Kobold Ember-Warren Crucible Hive, Great Forge Beacon, and Molten Crack Glow Iron Mandate Keep.",
+      "gameplayAssetNeeds": [
+        "Mist Veils Monument",
+        "Underworld / Hidden Economy Civic Hall",
+        "Black Market Arcade",
+        "Understreet Vault Nook",
+        "Section 2 pedestrian-scale props",
+        "Embervein civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Mist Veils Monument",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Mist Veils Monument",
+      "minorLandmarks": [
+        "Underworld / Hidden Economy Civic Hall",
+        "Black Market Arcade",
+        "Understreet Vault Nook"
+      ]
+    },
+    {
+      "districtNumber": 10,
+      "districtId": "D10",
+      "sectionNumber": 2,
+      "name": "D10 — Understreet Vault Nook Neighborhood Nook",
+      "civicPurpose": "This district turns Section 2's source-backed anchor set into a board-scale civic space: Underworld / Hidden Economy Civic Hall, Black Market Arcade, Mist Veils Monument, Understreet Vault Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Embervein.",
+      "visualIdentity": "Use Understreet Vault Nook as the main read. Keep exact source anchors visible where applicable: Underworld / Hidden Economy Civic Hall, Black Market Arcade, Mist Veils Monument, Understreet Vault Nook. The district should share Embervein's kobolds identity, Basalt, Obsidian, Volcanic Glass, Arcane Glow, and Subterranean, Undercity Foundation, Limestone Caverns without becoming generic.",
+      "emotionalIdentity": "Intimate and lived-in, with Embervein's larger mood shaped by Kobold Ember-Warren Crucible Hive, Great Forge Beacon, and Molten Crack Glow Iron Mandate Keep.",
+      "gameplayAssetNeeds": [
+        "Understreet Vault Nook",
+        "Underworld / Hidden Economy Civic Hall",
+        "Black Market Arcade",
+        "Mist Veils Monument",
+        "Section 2 pedestrian-scale props",
+        "Embervein civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Understreet Vault Nook",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Understreet Vault Nook",
+      "minorLandmarks": [
+        "Underworld / Hidden Economy Civic Hall",
+        "Black Market Arcade",
+        "Mist Veils Monument"
+      ]
+    },
+    {
+      "districtNumber": 15,
+      "districtId": "D15",
+      "sectionNumber": 2,
+      "name": "D15 — Underworld / Hidden Economy Civic Hall Supporting Streets",
+      "civicPurpose": "This district turns Section 2's source-backed anchor set into a board-scale civic space: Underworld / Hidden Economy Civic Hall, Black Market Arcade, Mist Veils Monument, Understreet Vault Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Embervein.",
+      "visualIdentity": "Use Underworld / Hidden Economy Civic Hall as the main read. Keep exact source anchors visible where applicable: Underworld / Hidden Economy Civic Hall, Black Market Arcade, Mist Veils Monument, Understreet Vault Nook. The district should share Embervein's kobolds identity, Basalt, Obsidian, Volcanic Glass, Arcane Glow, and Subterranean, Undercity Foundation, Limestone Caverns without becoming generic.",
+      "emotionalIdentity": "Connective and practical, with Embervein's larger mood shaped by Kobold Ember-Warren Crucible Hive, Great Forge Beacon, and Molten Crack Glow Iron Mandate Keep.",
+      "gameplayAssetNeeds": [
+        "Underworld / Hidden Economy Civic Hall",
+        "Black Market Arcade",
+        "Mist Veils Monument",
+        "Understreet Vault Nook",
+        "Section 2 pedestrian-scale props",
+        "Embervein civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Underworld / Hidden Economy Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Underworld / Hidden Economy Civic Hall",
+      "minorLandmarks": [
+        "Black Market Arcade",
+        "Mist Veils Monument",
+        "Understreet Vault Nook"
+      ]
+    },
+    {
+      "districtNumber": 8,
+      "districtId": "D08",
+      "sectionNumber": 3,
+      "name": "D08 — Military Command Hall Civic-Anchor Precinct",
+      "civicPurpose": "This district turns Section 3's source-backed anchor set into a board-scale civic space: Military Command Hall, Command Bastion, Woven Banners Monument, Standard Tower Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Embervein.",
+      "visualIdentity": "Use Military Command Hall as the main read. Keep exact source anchors visible where applicable: Military Command Hall, Command Bastion, Woven Banners Monument, Standard Tower Nook. The district should share Embervein's kobolds identity, Basalt, Obsidian, Volcanic Glass, Arcane Glow, and Subterranean, Undercity Foundation, Limestone Caverns without becoming generic.",
+      "emotionalIdentity": "Locally grounded, with Embervein's larger mood shaped by Kobold Ember-Warren Crucible Hive, Great Forge Beacon, and Molten Crack Glow Iron Mandate Keep.",
+      "gameplayAssetNeeds": [
+        "Military Command Hall",
+        "Command Bastion",
+        "Woven Banners Monument",
+        "Standard Tower Nook",
+        "Section 3 pedestrian-scale props",
+        "Embervein civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Military Command Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Military Command Hall",
+      "minorLandmarks": [
+        "Command Bastion",
+        "Woven Banners Monument",
+        "Standard Tower Nook"
+      ]
+    },
+    {
+      "districtNumber": 12,
+      "districtId": "D12",
+      "sectionNumber": 3,
+      "name": "D12 — Command Bastion Landmark Approach",
+      "civicPurpose": "This district turns Section 3's source-backed anchor set into a board-scale civic space: Military Command Hall, Command Bastion, Woven Banners Monument, Standard Tower Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Embervein.",
+      "visualIdentity": "Use Command Bastion as the main read. Keep exact source anchors visible where applicable: Military Command Hall, Command Bastion, Woven Banners Monument, Standard Tower Nook. The district should share Embervein's kobolds identity, Basalt, Obsidian, Volcanic Glass, Arcane Glow, and Subterranean, Undercity Foundation, Limestone Caverns without becoming generic.",
+      "emotionalIdentity": "Public-facing, with Embervein's larger mood shaped by Kobold Ember-Warren Crucible Hive, Great Forge Beacon, and Molten Crack Glow Iron Mandate Keep.",
+      "gameplayAssetNeeds": [
+        "Command Bastion",
+        "Military Command Hall",
+        "Woven Banners Monument",
+        "Standard Tower Nook",
+        "Section 3 pedestrian-scale props",
+        "Embervein civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Command Bastion",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Command Bastion",
+      "minorLandmarks": [
+        "Military Command Hall",
+        "Woven Banners Monument",
+        "Standard Tower Nook"
+      ]
+    },
+    {
+      "districtNumber": 13,
+      "districtId": "D13",
+      "sectionNumber": 3,
+      "name": "D13 — Molten Crack Glow Iron Mandate Keep Seat of Power District",
+      "civicPurpose": "This district turns Section 3's source-backed anchor set into a board-scale civic space: Military Command Hall, Command Bastion, Woven Banners Monument, Standard Tower Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Embervein.",
+      "visualIdentity": "Use Molten Crack Glow Iron Mandate Keep as the main read. Keep exact source anchors visible where applicable: Military Command Hall, Command Bastion, Woven Banners Monument, Standard Tower Nook. The district should share Embervein's kobolds identity, Basalt, Obsidian, Volcanic Glass, Arcane Glow, and Subterranean, Undercity Foundation, Limestone Caverns without becoming generic.",
+      "emotionalIdentity": "Memorial or symbolic, with Embervein's larger mood shaped by Kobold Ember-Warren Crucible Hive, Great Forge Beacon, and Molten Crack Glow Iron Mandate Keep.",
+      "gameplayAssetNeeds": [
+        "Molten Crack Glow Iron Mandate Keep",
+        "Military Command Hall",
+        "Command Bastion",
+        "Woven Banners Monument",
+        "Standard Tower Nook",
+        "Section 3 pedestrian-scale props",
+        "Embervein civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Molten Crack Glow Iron Mandate Keep",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "Conjunction response, rumor spread, or authority pressure"
+      ],
+      "landmark": "Molten Crack Glow Iron Mandate Keep",
+      "minorLandmarks": [
+        "Military Command Hall",
+        "Command Bastion",
+        "Woven Banners Monument",
+        "Standard Tower Nook"
+      ]
+    },
+    {
+      "districtNumber": 14,
+      "districtId": "D14",
+      "sectionNumber": 3,
+      "name": "D14 — Standard Tower Nook Neighborhood Nook",
+      "civicPurpose": "This district turns Section 3's source-backed anchor set into a board-scale civic space: Military Command Hall, Command Bastion, Woven Banners Monument, Standard Tower Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Embervein.",
+      "visualIdentity": "Use Standard Tower Nook as the main read. Keep exact source anchors visible where applicable: Military Command Hall, Command Bastion, Woven Banners Monument, Standard Tower Nook. The district should share Embervein's kobolds identity, Basalt, Obsidian, Volcanic Glass, Arcane Glow, and Subterranean, Undercity Foundation, Limestone Caverns without becoming generic.",
+      "emotionalIdentity": "Intimate and lived-in, with Embervein's larger mood shaped by Kobold Ember-Warren Crucible Hive, Great Forge Beacon, and Molten Crack Glow Iron Mandate Keep.",
+      "gameplayAssetNeeds": [
+        "Standard Tower Nook",
+        "Military Command Hall",
+        "Command Bastion",
+        "Woven Banners Monument",
+        "Section 3 pedestrian-scale props",
+        "Embervein civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Standard Tower Nook",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Standard Tower Nook",
+      "minorLandmarks": [
+        "Military Command Hall",
+        "Command Bastion",
+        "Woven Banners Monument"
+      ]
+    },
+    {
+      "districtNumber": 18,
+      "districtId": "D18",
+      "sectionNumber": 3,
+      "name": "D18 — Military Command Hall Supporting Streets",
+      "civicPurpose": "This district turns Section 3's source-backed anchor set into a board-scale civic space: Military Command Hall, Command Bastion, Woven Banners Monument, Standard Tower Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Embervein.",
+      "visualIdentity": "Use Military Command Hall as the main read. Keep exact source anchors visible where applicable: Military Command Hall, Command Bastion, Woven Banners Monument, Standard Tower Nook. The district should share Embervein's kobolds identity, Basalt, Obsidian, Volcanic Glass, Arcane Glow, and Subterranean, Undercity Foundation, Limestone Caverns without becoming generic.",
+      "emotionalIdentity": "Connective and practical, with Embervein's larger mood shaped by Kobold Ember-Warren Crucible Hive, Great Forge Beacon, and Molten Crack Glow Iron Mandate Keep.",
+      "gameplayAssetNeeds": [
+        "Military Command Hall",
+        "Command Bastion",
+        "Woven Banners Monument",
+        "Standard Tower Nook",
+        "Section 3 pedestrian-scale props",
+        "Embervein civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Military Command Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Military Command Hall",
+      "minorLandmarks": [
+        "Command Bastion",
+        "Woven Banners Monument",
+        "Standard Tower Nook"
+      ]
+    },
+    {
+      "districtNumber": 11,
+      "districtId": "D11",
+      "sectionNumber": 4,
+      "name": "D11 — Arcane / Alchemical Labs Civic Hall Civic-Anchor Precinct",
+      "civicPurpose": "This district turns Section 4's source-backed anchor set into a board-scale civic space: Arcane / Alchemical Labs Civic Hall, Alchemy Lab, Blue-Lamp Monument, Formula Archive Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Embervein.",
+      "visualIdentity": "Use Arcane / Alchemical Labs Civic Hall as the main read. Keep exact source anchors visible where applicable: Arcane / Alchemical Labs Civic Hall, Alchemy Lab, Blue-Lamp Monument, Formula Archive Nook. The district should share Embervein's kobolds identity, Basalt, Obsidian, Volcanic Glass, Arcane Glow, and Subterranean, Undercity Foundation, Limestone Caverns without becoming generic.",
+      "emotionalIdentity": "Locally grounded, with Embervein's larger mood shaped by Kobold Ember-Warren Crucible Hive, Great Forge Beacon, and Molten Crack Glow Iron Mandate Keep.",
+      "gameplayAssetNeeds": [
+        "Arcane / Alchemical Labs Civic Hall",
+        "Alchemy Lab",
+        "Blue-Lamp Monument",
+        "Formula Archive Nook",
+        "Section 4 pedestrian-scale props",
+        "Embervein civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Arcane / Alchemical Labs Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Arcane / Alchemical Labs Civic Hall",
+      "minorLandmarks": [
+        "Alchemy Lab",
+        "Blue-Lamp Monument",
+        "Formula Archive Nook"
+      ]
+    },
+    {
+      "districtNumber": 16,
+      "districtId": "D16",
+      "sectionNumber": 4,
+      "name": "D16 — Alchemy Lab Landmark Approach",
+      "civicPurpose": "This district turns Section 4's source-backed anchor set into a board-scale civic space: Arcane / Alchemical Labs Civic Hall, Alchemy Lab, Blue-Lamp Monument, Formula Archive Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Embervein.",
+      "visualIdentity": "Use Alchemy Lab as the main read. Keep exact source anchors visible where applicable: Arcane / Alchemical Labs Civic Hall, Alchemy Lab, Blue-Lamp Monument, Formula Archive Nook. The district should share Embervein's kobolds identity, Basalt, Obsidian, Volcanic Glass, Arcane Glow, and Subterranean, Undercity Foundation, Limestone Caverns without becoming generic.",
+      "emotionalIdentity": "Public-facing, with Embervein's larger mood shaped by Kobold Ember-Warren Crucible Hive, Great Forge Beacon, and Molten Crack Glow Iron Mandate Keep.",
+      "gameplayAssetNeeds": [
+        "Alchemy Lab",
+        "Arcane / Alchemical Labs Civic Hall",
+        "Blue-Lamp Monument",
+        "Formula Archive Nook",
+        "Section 4 pedestrian-scale props",
+        "Embervein civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Alchemy Lab",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Alchemy Lab",
+      "minorLandmarks": [
+        "Arcane / Alchemical Labs Civic Hall",
+        "Blue-Lamp Monument",
+        "Formula Archive Nook"
+      ]
+    },
+    {
+      "districtNumber": 17,
+      "districtId": "D17",
+      "sectionNumber": 4,
+      "name": "D17 — Blue-Lamp Monument Monument Frontage",
+      "civicPurpose": "This district turns Section 4's source-backed anchor set into a board-scale civic space: Arcane / Alchemical Labs Civic Hall, Alchemy Lab, Blue-Lamp Monument, Formula Archive Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Embervein.",
+      "visualIdentity": "Use Blue-Lamp Monument as the main read. Keep exact source anchors visible where applicable: Arcane / Alchemical Labs Civic Hall, Alchemy Lab, Blue-Lamp Monument, Formula Archive Nook. The district should share Embervein's kobolds identity, Basalt, Obsidian, Volcanic Glass, Arcane Glow, and Subterranean, Undercity Foundation, Limestone Caverns without becoming generic.",
+      "emotionalIdentity": "Memorial or symbolic, with Embervein's larger mood shaped by Kobold Ember-Warren Crucible Hive, Great Forge Beacon, and Molten Crack Glow Iron Mandate Keep.",
+      "gameplayAssetNeeds": [
+        "Blue-Lamp Monument",
+        "Arcane / Alchemical Labs Civic Hall",
+        "Alchemy Lab",
+        "Formula Archive Nook",
+        "Section 4 pedestrian-scale props",
+        "Embervein civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Blue-Lamp Monument",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Blue-Lamp Monument",
+      "minorLandmarks": [
+        "Arcane / Alchemical Labs Civic Hall",
+        "Alchemy Lab",
+        "Formula Archive Nook"
+      ]
+    },
+    {
+      "districtNumber": 21,
+      "districtId": "D21",
+      "sectionNumber": 4,
+      "name": "D21 — Formula Archive Nook Neighborhood Nook",
+      "civicPurpose": "This district turns Section 4's source-backed anchor set into a board-scale civic space: Arcane / Alchemical Labs Civic Hall, Alchemy Lab, Blue-Lamp Monument, Formula Archive Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Embervein.",
+      "visualIdentity": "Use Formula Archive Nook as the main read. Keep exact source anchors visible where applicable: Arcane / Alchemical Labs Civic Hall, Alchemy Lab, Blue-Lamp Monument, Formula Archive Nook. The district should share Embervein's kobolds identity, Basalt, Obsidian, Volcanic Glass, Arcane Glow, and Subterranean, Undercity Foundation, Limestone Caverns without becoming generic.",
+      "emotionalIdentity": "Intimate and lived-in, with Embervein's larger mood shaped by Kobold Ember-Warren Crucible Hive, Great Forge Beacon, and Molten Crack Glow Iron Mandate Keep.",
+      "gameplayAssetNeeds": [
+        "Formula Archive Nook",
+        "Arcane / Alchemical Labs Civic Hall",
+        "Alchemy Lab",
+        "Blue-Lamp Monument",
+        "Section 4 pedestrian-scale props",
+        "Embervein civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Formula Archive Nook",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Formula Archive Nook",
+      "minorLandmarks": [
+        "Arcane / Alchemical Labs Civic Hall",
+        "Alchemy Lab",
+        "Blue-Lamp Monument"
+      ]
+    },
+    {
+      "districtNumber": 22,
+      "districtId": "D22",
+      "sectionNumber": 4,
+      "name": "D22 — Arcane / Alchemical Labs Civic Hall Supporting Streets",
+      "civicPurpose": "This district turns Section 4's source-backed anchor set into a board-scale civic space: Arcane / Alchemical Labs Civic Hall, Alchemy Lab, Blue-Lamp Monument, Formula Archive Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Embervein.",
+      "visualIdentity": "Use Arcane / Alchemical Labs Civic Hall as the main read. Keep exact source anchors visible where applicable: Arcane / Alchemical Labs Civic Hall, Alchemy Lab, Blue-Lamp Monument, Formula Archive Nook. The district should share Embervein's kobolds identity, Basalt, Obsidian, Volcanic Glass, Arcane Glow, and Subterranean, Undercity Foundation, Limestone Caverns without becoming generic.",
+      "emotionalIdentity": "Connective and practical, with Embervein's larger mood shaped by Kobold Ember-Warren Crucible Hive, Great Forge Beacon, and Molten Crack Glow Iron Mandate Keep.",
+      "gameplayAssetNeeds": [
+        "Arcane / Alchemical Labs Civic Hall",
+        "Alchemy Lab",
+        "Blue-Lamp Monument",
+        "Formula Archive Nook",
+        "Section 4 pedestrian-scale props",
+        "Embervein civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Arcane / Alchemical Labs Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Arcane / Alchemical Labs Civic Hall",
+      "minorLandmarks": [
+        "Alchemy Lab",
+        "Blue-Lamp Monument",
+        "Formula Archive Nook"
+      ]
+    },
+    {
+      "districtNumber": 19,
+      "districtId": "D19",
+      "sectionNumber": 5,
+      "name": "D19 — Slums / Informal Settlement Civic Hall Civic-Anchor Precinct",
+      "civicPurpose": "This district turns Section 5's source-backed anchor set into a board-scale civic space: Slums / Informal Settlement Civic Hall, Scrap Market, Slums Informal Settlement Lantern Monument, Patched Tenement Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Embervein.",
+      "visualIdentity": "Use Slums / Informal Settlement Civic Hall as the main read. Keep exact source anchors visible where applicable: Slums / Informal Settlement Civic Hall, Scrap Market, Slums Informal Settlement Lantern Monument, Patched Tenement Nook. The district should share Embervein's kobolds identity, Basalt, Obsidian, Volcanic Glass, Arcane Glow, and Subterranean, Undercity Foundation, Limestone Caverns without becoming generic.",
+      "emotionalIdentity": "Locally grounded, with Embervein's larger mood shaped by Kobold Ember-Warren Crucible Hive, Great Forge Beacon, and Molten Crack Glow Iron Mandate Keep.",
+      "gameplayAssetNeeds": [
+        "Slums / Informal Settlement Civic Hall",
+        "Scrap Market",
+        "Slums Informal Settlement Lantern Monument",
+        "Patched Tenement Nook",
+        "Section 5 pedestrian-scale props",
+        "Embervein civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Slums / Informal Settlement Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Slums / Informal Settlement Civic Hall",
+      "minorLandmarks": [
+        "Scrap Market",
+        "Slums Informal Settlement Lantern Monument",
+        "Patched Tenement Nook"
+      ]
+    },
+    {
+      "districtNumber": 20,
+      "districtId": "D20",
+      "sectionNumber": 5,
+      "name": "D20 — Scrap Market Landmark Approach",
+      "civicPurpose": "This district turns Section 5's source-backed anchor set into a board-scale civic space: Slums / Informal Settlement Civic Hall, Scrap Market, Slums Informal Settlement Lantern Monument, Patched Tenement Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Embervein.",
+      "visualIdentity": "Use Scrap Market as the main read. Keep exact source anchors visible where applicable: Slums / Informal Settlement Civic Hall, Scrap Market, Slums Informal Settlement Lantern Monument, Patched Tenement Nook. The district should share Embervein's kobolds identity, Basalt, Obsidian, Volcanic Glass, Arcane Glow, and Subterranean, Undercity Foundation, Limestone Caverns without becoming generic.",
+      "emotionalIdentity": "Public-facing, with Embervein's larger mood shaped by Kobold Ember-Warren Crucible Hive, Great Forge Beacon, and Molten Crack Glow Iron Mandate Keep.",
+      "gameplayAssetNeeds": [
+        "Scrap Market",
+        "Slums / Informal Settlement Civic Hall",
+        "Slums Informal Settlement Lantern Monument",
+        "Patched Tenement Nook",
+        "Section 5 pedestrian-scale props",
+        "Embervein civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Scrap Market",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Scrap Market",
+      "minorLandmarks": [
+        "Slums / Informal Settlement Civic Hall",
+        "Slums Informal Settlement Lantern Monument",
+        "Patched Tenement Nook"
+      ]
+    },
+    {
+      "districtNumber": 23,
+      "districtId": "D23",
+      "sectionNumber": 5,
+      "name": "D23 — Slums Informal Settlement Lantern Monument Monument Frontage",
+      "civicPurpose": "This district turns Section 5's source-backed anchor set into a board-scale civic space: Slums / Informal Settlement Civic Hall, Scrap Market, Slums Informal Settlement Lantern Monument, Patched Tenement Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Embervein.",
+      "visualIdentity": "Use Slums Informal Settlement Lantern Monument as the main read. Keep exact source anchors visible where applicable: Slums / Informal Settlement Civic Hall, Scrap Market, Slums Informal Settlement Lantern Monument, Patched Tenement Nook. The district should share Embervein's kobolds identity, Basalt, Obsidian, Volcanic Glass, Arcane Glow, and Subterranean, Undercity Foundation, Limestone Caverns without becoming generic.",
+      "emotionalIdentity": "Memorial or symbolic, with Embervein's larger mood shaped by Kobold Ember-Warren Crucible Hive, Great Forge Beacon, and Molten Crack Glow Iron Mandate Keep.",
+      "gameplayAssetNeeds": [
+        "Slums Informal Settlement Lantern Monument",
+        "Slums / Informal Settlement Civic Hall",
+        "Scrap Market",
+        "Patched Tenement Nook",
+        "Section 5 pedestrian-scale props",
+        "Embervein civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Slums Informal Settlement Lantern Monument",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Slums Informal Settlement Lantern Monument",
+      "minorLandmarks": [
+        "Slums / Informal Settlement Civic Hall",
+        "Scrap Market",
+        "Patched Tenement Nook"
+      ]
+    },
+    {
+      "districtNumber": 24,
+      "districtId": "D24",
+      "sectionNumber": 5,
+      "name": "D24 — Patched Tenement Nook Neighborhood Nook",
+      "civicPurpose": "This district turns Section 5's source-backed anchor set into a board-scale civic space: Slums / Informal Settlement Civic Hall, Scrap Market, Slums Informal Settlement Lantern Monument, Patched Tenement Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Embervein.",
+      "visualIdentity": "Use Patched Tenement Nook as the main read. Keep exact source anchors visible where applicable: Slums / Informal Settlement Civic Hall, Scrap Market, Slums Informal Settlement Lantern Monument, Patched Tenement Nook. The district should share Embervein's kobolds identity, Basalt, Obsidian, Volcanic Glass, Arcane Glow, and Subterranean, Undercity Foundation, Limestone Caverns without becoming generic.",
+      "emotionalIdentity": "Intimate and lived-in, with Embervein's larger mood shaped by Kobold Ember-Warren Crucible Hive, Great Forge Beacon, and Molten Crack Glow Iron Mandate Keep.",
+      "gameplayAssetNeeds": [
+        "Patched Tenement Nook",
+        "Slums / Informal Settlement Civic Hall",
+        "Scrap Market",
+        "Slums Informal Settlement Lantern Monument",
+        "Section 5 pedestrian-scale props",
+        "Embervein civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Patched Tenement Nook",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Patched Tenement Nook",
+      "minorLandmarks": [
+        "Slums / Informal Settlement Civic Hall",
+        "Scrap Market",
+        "Slums Informal Settlement Lantern Monument"
+      ]
+    },
+    {
+      "districtNumber": 25,
+      "districtId": "D25",
+      "sectionNumber": 5,
+      "name": "D25 — Slums / Informal Settlement Civic Hall Supporting Streets",
+      "civicPurpose": "This district turns Section 5's source-backed anchor set into a board-scale civic space: Slums / Informal Settlement Civic Hall, Scrap Market, Slums Informal Settlement Lantern Monument, Patched Tenement Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Embervein.",
+      "visualIdentity": "Use Slums / Informal Settlement Civic Hall as the main read. Keep exact source anchors visible where applicable: Slums / Informal Settlement Civic Hall, Scrap Market, Slums Informal Settlement Lantern Monument, Patched Tenement Nook. The district should share Embervein's kobolds identity, Basalt, Obsidian, Volcanic Glass, Arcane Glow, and Subterranean, Undercity Foundation, Limestone Caverns without becoming generic.",
+      "emotionalIdentity": "Connective and practical, with Embervein's larger mood shaped by Kobold Ember-Warren Crucible Hive, Great Forge Beacon, and Molten Crack Glow Iron Mandate Keep.",
+      "gameplayAssetNeeds": [
+        "Slums / Informal Settlement Civic Hall",
+        "Scrap Market",
+        "Slums Informal Settlement Lantern Monument",
+        "Patched Tenement Nook",
+        "Section 5 pedestrian-scale props",
+        "Embervein civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Slums / Informal Settlement Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Slums / Informal Settlement Civic Hall",
+      "minorLandmarks": [
+        "Scrap Market",
+        "Slums Informal Settlement Lantern Monument",
+        "Patched Tenement Nook"
+      ]
+    }
   ],
   "landmarks": {
-    "wonder": {"name": "Kobold Ember-Warren Crucible Hive", "symbolicRole": "Kobold warren identity, forge heat, hive coordination, and citywide pressure made into one public engine.", "visualRole": "Huge glowing crucible-hive structure embedded in cavern walls with forge tiers, warrens, scaffolds, and industrial routes.", "civicRole": "Primary engine-symbol of production, invention, mass labor, maintenance, and catastrophic pressure.", "narrativeUse": ["invention", "mass labor", "catastrophic pressure", "civic awe", "tiny failure with city-scale consequences"], "assetUse": ["map wonder", "cavern skyline anchor", "industrial-hive visual identity"], "sensoryIdentity": ["forge heat", "metal roar", "blue-orange glow", "crowded movement", "smoke pressure"], "storyHooks": ["A tiny maintenance failure in the Hive threatens a city-scale system.", "The Hive proves the city needs the people it tries to treat as parts."]},
-    "beacon": {"name": "Great Forge Beacon", "symbolicRole": "Industrial output and emergency made public signal.", "visualRole": "Signal landmark rising from the foundry amid smoke stacks, forge halls, molten glow, and blue-orange light.", "civicRole": "Coordinates forge crews, black-market runners, command officers, alchemists, and scrap families.", "narrativeUse": ["industrial alarm", "forge labor", "production crisis", "citywide route change"], "assetUse": ["S1 centerpiece", "signal marker", "foundry identity anchor"], "sensoryIdentity": ["heat", "blue light", "smoke", "hammering"], "storyHooks": ["A Beacon shift changes every work route in the warren."]},
-    "seatOfPower": {"name": "Molten Crack Glow Iron Mandate Keep", "symbolicRole": "Production quotas, command law, and molten legitimacy made government.", "visualRole": "Iron keep lit by molten cracks, command geometry, black stone, mandate halls, sealed archives, and high platforms.", "civicRole": "Rulings about labor, inventions, military output, accidents, and black-market tolerance.", "narrativeUse": ["labor rulings", "command law", "invention policy", "market tolerance", "accident hearings"], "assetUse": ["seat-of-power marker", "central authority anchor"], "sensoryIdentity": ["hot stone", "iron", "molten glow", "official echoes"], "storyHooks": ["The Keep must decide whether a useful black-market invention becomes legal."]},
+    "wonder": {
+      "name": "Kobold Ember-Warren Crucible Hive",
+      "symbolicRole": "Kobold Ember-Warren Crucible Hive concentrates Embervein's local symbolism into a usable civic landmark: city wonder, separate far skyline anchor.",
+      "visualRole": "A one-per-city wonder: spectacular, unmistakable, and larger than every section landmark. It turns Embervein's geography, race identity, material culture, and civic magic into one public symbol. Built for Embervein's kobolds population, it uses Basalt, Obsidian, Volcanic Glass, Arcane Glow, Salt Crystal across Subterranean, Undercity Foundation, Limestone Caverns; water context: dry city ground; magic expression: Ward Networks, Ritual Geometry, Lava Shaping. It must read clearly as a high-fantasy tactical-board asset with no baked labels or text.",
+      "civicRole": "Serves as city wonder, separate far skyline anchor within Embervein; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+      "narrativeUse": [
+        "stage scenes involving Kobold Ember-Warren Crucible Hive",
+        "show how Embervein turns landmark symbolism into civic pressure",
+        "anchor public movement and crowd behavior",
+        "give writers a concrete place for announcements, disputes, errands, or rituals"
+      ],
+      "assetUse": [
+        "city landmark asset",
+        "map background landmark marker",
+        "visual continuity anchor across hero and street scenes",
+        "scale reference for civilians, roads, plazas, and props"
+      ],
+      "sensoryIdentity": [
+        "local foot traffic",
+        "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+        "public voices and civic work nearby",
+        "ambient city light and weathering",
+        "close pedestrian-scale details rather than abstract skyline-only treatment"
+      ],
+      "storyHooks": [
+        "a routine civic action at Kobold Ember-Warren Crucible Hive becomes narratively important",
+        "the visible condition of Kobold Ember-Warren Crucible Hive signals political or social stress",
+        "someone uses Kobold Ember-Warren Crucible Hive's public function to redirect crowds or information",
+        "an overlooked detail at Kobold Ember-Warren Crucible Hive reveals how Embervein really works"
+      ]
+    },
+    "beacon": {
+      "name": "Great Forge Beacon",
+      "symbolicRole": "Great Forge Beacon concentrates Embervein's local symbolism into a usable civic landmark: Section 1 beacon, near/front civic signal anchor.",
+      "visualRole": "A largest local landmark in this section, subordinate only to the city wonder and citadel. It belongs to Section 1 (Heavy Industry / Foundry) of Embervein and should use Obsidian Fortresses, Subterranean Vaults, Forge Halls, volcanic glass and arcane glow materials, Red Fabric Awnings, Civic Blue Glow, Forge Smoke Columns, and the kobolds visual language. Design focus: largest section focal point, strong vertical silhouette, distinct gameplay landmark, visible from nearby districts, sparks. Terrain/water context: Lava Field; Dry Ground. Magic expression: Yellow Intent Glimmers, Archive Echoes, Memory Crystals. No baked labels or text. Single city beacon fixed to section 1; visible civic signal apparatus, strong vertical silhouette, and public approach space.",
+      "civicRole": "Serves as Section 1 beacon, near/front civic signal anchor within Embervein; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+      "narrativeUse": [
+        "stage scenes involving Great Forge Beacon",
+        "show how Embervein turns landmark symbolism into civic pressure",
+        "anchor public movement and crowd behavior",
+        "give writers a concrete place for announcements, disputes, errands, or rituals"
+      ],
+      "assetUse": [
+        "district diorama anchor for Section 1",
+        "map background landmark marker",
+        "visual continuity anchor across hero and street scenes",
+        "scale reference for civilians, roads, plazas, and props"
+      ],
+      "sensoryIdentity": [
+        "local foot traffic",
+        "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+        "public voices and civic work nearby",
+        "beacon or lamp glow when applicable",
+        "close pedestrian-scale details rather than abstract skyline-only treatment"
+      ],
+      "storyHooks": [
+        "a routine civic action at Great Forge Beacon becomes narratively important",
+        "the visible condition of Great Forge Beacon signals political or social stress",
+        "someone uses Great Forge Beacon's public function to redirect crowds or information",
+        "an overlooked detail at Great Forge Beacon reveals how Embervein really works"
+      ]
+    },
+    "seatOfPower": {
+      "name": "Molten Crack Glow Iron Mandate Keep",
+      "symbolicRole": "Molten Crack Glow Iron Mandate Keep concentrates Embervein's local symbolism into a usable civic landmark: dominant central civic anchor / District 13 seat of power.",
+      "visualRole": "The district-13 seat of power: courts, audience terraces, sealed archives, command platforms, and the visible apparatus of government. It is not a faction HQ; it is the city's central civic authority. Built for Embervein's kobolds population, it uses Basalt, Obsidian, Volcanic Glass, Arcane Glow, Salt Crystal across Subterranean, Undercity Foundation, Limestone Caverns; water context: dry city ground; magic expression: Ward Networks, Ritual Geometry, Lava Shaping. It must read clearly as a high-fantasy tactical-board asset with no baked labels or text.",
+      "civicRole": "Serves as dominant central civic anchor / District 13 seat of power within Embervein; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+      "narrativeUse": [
+        "stage scenes involving Molten Crack Glow Iron Mandate Keep",
+        "show how Embervein turns landmark symbolism into civic pressure",
+        "anchor public movement and crowd behavior",
+        "give writers a concrete place for announcements, disputes, errands, or rituals"
+      ],
+      "assetUse": [
+        "city landmark asset",
+        "map background landmark marker",
+        "visual continuity anchor across hero and street scenes",
+        "scale reference for civilians, roads, plazas, and props"
+      ],
+      "sensoryIdentity": [
+        "local foot traffic",
+        "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+        "public voices and civic work nearby",
+        "ambient city light and weathering",
+        "close pedestrian-scale details rather than abstract skyline-only treatment"
+      ],
+      "storyHooks": [
+        "a routine civic action at Molten Crack Glow Iron Mandate Keep becomes narratively important",
+        "the visible condition of Molten Crack Glow Iron Mandate Keep signals political or social stress",
+        "someone uses Molten Crack Glow Iron Mandate Keep's public function to redirect crowds or information",
+        "an overlooked detail at Molten Crack Glow Iron Mandate Keep reveals how Embervein really works"
+      ]
+    },
     "majorLandmarks": [
-      {"name": "Black Market Arcade", "symbolicRole": "The shadow supply line that keeps the hive alive.", "visualRole": "Arcade of coded stalls, vault doors, mist, blue-black lanterns, and guarded passages.", "civicRole": "Informal economy, debt, contraband, and supply workaround.", "narrativeUse": ["contraband", "debts", "survival networks", "hidden repair"], "assetUse": ["S2 diorama landmark", "hidden economy asset cluster"], "sensoryIdentity": ["whispers", "lamp smoke", "vault metal", "damp stone"], "storyHooks": ["A broker knows which official machine is about to fail."]},
-      {"name": "Command Bastion", "symbolicRole": "Small bodies organized beneath enormous standards.", "visualRole": "Command platform with banners, standard tower, stairs, guard posts, and military geometry.", "civicRole": "Musters, orders, defense coordination, and official force.", "narrativeUse": ["orders", "rank", "musters", "command pressure"], "assetUse": ["S3 diorama landmark", "military command asset cluster"], "sensoryIdentity": ["banner cloth", "boots", "metal", "command calls"], "storyHooks": ["A command order makes the repair crews choose between safety and obedience."]},
-      {"name": "Alchemy Lab", "symbolicRole": "Dangerous invention under seal.", "visualRole": "Blue-lit lab with glass vessels, formula archive, sealed shelves, and reagent light.", "civicRole": "Formula control, reagent work, invention, and magical-industrial risk management.", "narrativeUse": ["formula danger", "research access", "controlled invention"], "assetUse": ["S4 diorama landmark", "alchemy asset cluster"], "sensoryIdentity": ["sharp reagents", "glass clink", "blue light", "hot metal"], "storyHooks": ["A formula archive proves the black market copied official research."]},
-      {"name": "Scrap Market", "symbolicRole": "Survival through salvage beneath official production.", "visualRole": "Lower-warren salvage market with lantern monument, patched tenements, repair stalls, and scrap piles.", "civicRole": "Repair culture, poverty survival, informal supply, and overlooked evidence.", "narrativeUse": ["survival trade", "maintenance clues", "poverty pressure", "small-body ingenuity"], "assetUse": ["S5 diorama landmark", "slum/scrap asset cluster"], "sensoryIdentity": ["scrap smoke", "oil", "patched cloth", "hammering"], "storyHooks": ["The scrap market has already fixed the problem the Keep denies exists."]}
+      {
+        "name": "Scrap Market",
+        "symbolicRole": "Scrap Market concentrates Embervein's local symbolism into a usable civic landmark: additional major landmark selected for this hero-view camera angle.",
+        "visualRole": "A largest local landmark in this section, subordinate only to the city wonder and citadel. It belongs to Section 5 (Slums / Informal Settlement) of Embervein and should use Market Arcades, Timber Longhouses, Reed Pavilions, volcanic glass and arcane glow materials, Lantern Lit, Red Fabric Awnings, Woven Banners, and the kobolds visual language. Design focus: distinct gameplay landmark, visible from nearby districts, patches, scrap lanterns, tarps. Terrain/water context: Lava Field; Dry Ground. Magic expression: Yellow Intent Glimmers, Archive Echoes, Memory Crystals. No baked labels or text.",
+        "civicRole": "Serves as additional major landmark selected for this hero-view camera angle within Embervein; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Scrap Market",
+          "show how Embervein turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 5",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Scrap Market becomes narratively important",
+          "the visible condition of Scrap Market signals political or social stress",
+          "someone uses Scrap Market's public function to redirect crowds or information",
+          "an overlooked detail at Scrap Market reveals how Embervein really works"
+        ]
+      },
+      {
+        "name": "Black Market Arcade",
+        "symbolicRole": "Black Market Arcade concentrates Embervein's local symbolism into a usable civic landmark: additional major landmark selected for this hero-view camera angle.",
+        "visualRole": "A largest local landmark in this section, subordinate only to the city wonder and citadel. It belongs to Section 2 (Underworld / Hidden Economy) of Embervein and should use Subterranean Vaults, Market Arcades, Gothic Spires, volcanic glass and arcane glow materials, Lantern Lit, Serpent Geometry, Mist Veils, and the kobolds visual language. Design focus: visible from nearby districts, masks, yellow lamps, coded marks, trapdoors. Terrain/water context: Lava Field; Dry Ground. Magic expression: Yellow Intent Glimmers, Archive Echoes, Memory Crystals. No baked labels or text.",
+        "civicRole": "Serves as additional major landmark selected for this hero-view camera angle within Embervein; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Black Market Arcade",
+          "show how Embervein turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 2",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Black Market Arcade becomes narratively important",
+          "the visible condition of Black Market Arcade signals political or social stress",
+          "someone uses Black Market Arcade's public function to redirect crowds or information",
+          "an overlooked detail at Black Market Arcade reveals how Embervein really works"
+        ]
+      },
+      {
+        "name": "Alchemy Lab",
+        "symbolicRole": "Alchemy Lab concentrates Embervein's local symbolism into a usable civic landmark: additional major landmark selected for this hero-view camera angle.",
+        "visualRole": "A largest local landmark in this section, subordinate only to the city wonder and citadel. It belongs to Section 4 (Arcane / Alchemical Labs) of Embervein and should use Archive Towers, Forge Halls, Subterranean Vaults, volcanic glass and arcane glow materials, Lantern Lit, Serpent Geometry, Civic Blue Glow, and the kobolds visual language. Design focus: distillation towers, containment courts, safety wards, largest section focal point, strong vertical silhouette. Terrain/water context: Lava Field; Dry Ground. Magic expression: Yellow Intent Glimmers, Archive Echoes, Memory Crystals. No baked labels or text.",
+        "civicRole": "Serves as additional major landmark selected for this hero-view camera angle within Embervein; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Alchemy Lab",
+          "show how Embervein turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 4",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Alchemy Lab becomes narratively important",
+          "the visible condition of Alchemy Lab signals political or social stress",
+          "someone uses Alchemy Lab's public function to redirect crowds or information",
+          "an overlooked detail at Alchemy Lab reveals how Embervein really works"
+        ]
+      },
+      {
+        "name": "Heavy Industry / Foundry Civic Hall",
+        "symbolicRole": "Heavy Industry / Foundry Civic Hall concentrates Embervein's local symbolism into a usable civic landmark: Section 1 local anchor.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing. It belongs to Section 1 (Heavy Industry / Foundry) of Embervein and should use Obsidian Fortresses, Subterranean Vaults, Forge Halls, volcanic glass and arcane glow materials, Red Fabric Awnings, Civic Blue Glow, Forge Smoke Columns, and the kobolds visual language. Design focus: ore yards, institutional anchor, public-facing administration, clear central silhouette, board-readable entrance. Terrain/water context: Lava Field; Dry Ground. Magic expression: Yellow Intent Glimmers, Archive Echoes, Memory Crystals. No baked labels or text.",
+        "civicRole": "Serves as Section 1 local anchor within Embervein; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Heavy Industry / Foundry Civic Hall",
+          "show how Embervein turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 1",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Heavy Industry / Foundry Civic Hall becomes narratively important",
+          "the visible condition of Heavy Industry / Foundry Civic Hall signals political or social stress",
+          "someone uses Heavy Industry / Foundry Civic Hall's public function to redirect crowds or information",
+          "an overlooked detail at Heavy Industry / Foundry Civic Hall reveals how Embervein really works"
+        ]
+      },
+      {
+        "name": "Smoke-Stack Monument",
+        "symbolicRole": "Smoke-Stack Monument concentrates Embervein's local symbolism into a usable civic landmark: Section 1 local anchor.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles. It belongs to Section 1 (Heavy Industry / Foundry) of Embervein and should use Subterranean Vaults, Forge Halls, Obsidian Fortresses, volcanic glass and arcane glow materials, Red Fabric Awnings, Civic Blue Glow, Forge Smoke Columns, and the kobolds visual language. Design focus: molten channels, foundry sheds, furnace towers, slag yards, ore yards. Terrain/water context: Lava Field; Dry Ground. Magic expression: Yellow Intent Glimmers, Archive Echoes, Memory Crystals. No baked labels or text.",
+        "civicRole": "Serves as Section 1 local anchor within Embervein; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Smoke-Stack Monument",
+          "show how Embervein turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 1",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Smoke-Stack Monument becomes narratively important",
+          "the visible condition of Smoke-Stack Monument signals political or social stress",
+          "someone uses Smoke-Stack Monument's public function to redirect crowds or information",
+          "an overlooked detail at Smoke-Stack Monument reveals how Embervein really works"
+        ]
+      },
+      {
+        "name": "Crucible Hall Nook",
+        "symbolicRole": "Crucible Hall Nook concentrates Embervein's local symbolism into a usable civic landmark: Section 1 local anchor.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette. It belongs to Section 1 (Heavy Industry / Foundry) of Embervein and should use Subterranean Vaults, Forge Halls, Obsidian Fortresses, volcanic glass and arcane glow materials, Forge Smoke Columns, Red Fabric Awnings, Civic Blue Glow, and the kobolds visual language. Design focus: subordinate scale, sparks, chains, anvils, molten channels. Terrain/water context: Lava Field; Dry Ground. Magic expression: Yellow Intent Glimmers, Archive Echoes, Memory Crystals. No baked labels or text.",
+        "civicRole": "Serves as Section 1 local anchor within Embervein; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Crucible Hall Nook",
+          "show how Embervein turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 1",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Crucible Hall Nook becomes narratively important",
+          "the visible condition of Crucible Hall Nook signals political or social stress",
+          "someone uses Crucible Hall Nook's public function to redirect crowds or information",
+          "an overlooked detail at Crucible Hall Nook reveals how Embervein really works"
+        ]
+      },
+      {
+        "name": "Underworld / Hidden Economy Civic Hall",
+        "symbolicRole": "Underworld / Hidden Economy Civic Hall concentrates Embervein's local symbolism into a usable civic landmark: Section 2 local anchor.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing. It belongs to Section 2 (Underworld / Hidden Economy) of Embervein and should use Subterranean Vaults, Market Arcades, Gothic Spires, volcanic glass and arcane glow materials, Mist Veils, Lantern Lit, Serpent Geometry, and the kobolds visual language. Design focus: secret doors, institutional anchor, public-facing administration, clear central silhouette, board-readable entrance. Terrain/water context: Lava Field; Dry Ground. Magic expression: Yellow Intent Glimmers, Archive Echoes, Memory Crystals. No baked labels or text.",
+        "civicRole": "Serves as Section 2 local anchor within Embervein; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Underworld / Hidden Economy Civic Hall",
+          "show how Embervein turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 2",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Underworld / Hidden Economy Civic Hall becomes narratively important",
+          "the visible condition of Underworld / Hidden Economy Civic Hall signals political or social stress",
+          "someone uses Underworld / Hidden Economy Civic Hall's public function to redirect crowds or information",
+          "an overlooked detail at Underworld / Hidden Economy Civic Hall reveals how Embervein really works"
+        ]
+      },
+      {
+        "name": "Mist Veils Monument",
+        "symbolicRole": "Mist Veils Monument concentrates Embervein's local symbolism into a usable civic landmark: Section 2 local anchor.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles. It belongs to Section 2 (Underworld / Hidden Economy) of Embervein and should use Gothic Spires, Subterranean Vaults, Market Arcades, volcanic glass and arcane glow materials, Mist Veils, Lantern Lit, Serpent Geometry, and the kobolds visual language. Design focus: small ceremonial site, local memory marker, subordinate to major landmark, masks, yellow lamps. Terrain/water context: Lava Field; Dry Ground. Magic expression: Yellow Intent Glimmers, Archive Echoes, Memory Crystals. No baked labels or text.",
+        "civicRole": "Serves as Section 2 local anchor within Embervein; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Mist Veils Monument",
+          "show how Embervein turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 2",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Mist Veils Monument becomes narratively important",
+          "the visible condition of Mist Veils Monument signals political or social stress",
+          "someone uses Mist Veils Monument's public function to redirect crowds or information",
+          "an overlooked detail at Mist Veils Monument reveals how Embervein really works"
+        ]
+      },
+      {
+        "name": "Understreet Vault Nook",
+        "symbolicRole": "Understreet Vault Nook concentrates Embervein's local symbolism into a usable civic landmark: Section 2 local anchor.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette. It belongs to Section 2 (Underworld / Hidden Economy) of Embervein and should use Market Arcades, Gothic Spires, Subterranean Vaults, volcanic glass and arcane glow materials, Mist Veils, Lantern Lit, Serpent Geometry, and the kobolds visual language. Design focus: hidden markets, backroom taverns, trapdoor lanes, secret doors, small local identity prop. Terrain/water context: Lava Field; Dry Ground. Magic expression: Yellow Intent Glimmers, Archive Echoes, Memory Crystals. No baked labels or text.",
+        "civicRole": "Serves as Section 2 local anchor within Embervein; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Understreet Vault Nook",
+          "show how Embervein turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 2",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Understreet Vault Nook becomes narratively important",
+          "the visible condition of Understreet Vault Nook signals political or social stress",
+          "someone uses Understreet Vault Nook's public function to redirect crowds or information",
+          "an overlooked detail at Understreet Vault Nook reveals how Embervein really works"
+        ]
+      },
+      {
+        "name": "Military Command Hall",
+        "symbolicRole": "Military Command Hall concentrates Embervein's local symbolism into a usable civic landmark: Section 3 local anchor.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing. It belongs to Section 3 (Military Command) of Embervein and should use White Limestone Civic Blocks, Forge Halls, Obsidian Fortresses, volcanic glass and arcane glow materials, Forge Smoke Columns, Woven Banners, Civic Blue Glow, and the kobolds visual language. Design focus: barracks blocks, command keeps, armory halls, armories, institutional anchor. Terrain/water context: Lava Field; Dry Ground. Magic expression: Yellow Intent Glimmers, Archive Echoes, Memory Crystals. No baked labels or text.",
+        "civicRole": "Serves as Section 3 local anchor within Embervein; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Military Command Hall",
+          "show how Embervein turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 3",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Military Command Hall becomes narratively important",
+          "the visible condition of Military Command Hall signals political or social stress",
+          "someone uses Military Command Hall's public function to redirect crowds or information",
+          "an overlooked detail at Military Command Hall reveals how Embervein really works"
+        ]
+      },
+      {
+        "name": "Command Bastion",
+        "symbolicRole": "Command Bastion concentrates Embervein's local symbolism into a usable civic landmark: Section 3 local anchor.",
+        "visualRole": "A mandatory Section 3 Beacon: a culturally adapted civic signal flame / warning-light landmark visible across the city spine. It belongs to Section 3 (Military Command) of Embervein and should use White Limestone Civic Blocks, Forge Halls, Obsidian Fortresses, volcanic glass and arcane glow materials, Woven Banners, Civic Blue Glow, Forge Smoke Columns, and the kobolds visual language. Design focus: Beacon must inherit city materials, culture, magic expression, and water/terrain context from CityProfile., Beacon form may be a ground flame, tower flame, suspended flame, totemic flame, ceremonial brazier, signal obelisk, or lighthouse-like flame., Beacon-compatible major landmark; must render as a culturally adapted civic signal flame or magical warning light., beacon-compatible flame or signal structure, largest section focal point. Terrain/water context: Lava Field; Dry Ground. Magic expression: Yellow Intent Glimmers, Archive Echoes, Memory Crystals. No baked labels or text.",
+        "civicRole": "Serves as Section 3 local anchor within Embervein; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Command Bastion",
+          "show how Embervein turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 3",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Command Bastion becomes narratively important",
+          "the visible condition of Command Bastion signals political or social stress",
+          "someone uses Command Bastion's public function to redirect crowds or information",
+          "an overlooked detail at Command Bastion reveals how Embervein really works"
+        ]
+      },
+      {
+        "name": "Woven Banners Monument",
+        "symbolicRole": "Woven Banners Monument concentrates Embervein's local symbolism into a usable civic landmark: Section 3 local anchor.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles. It belongs to Section 3 (Military Command) of Embervein and should use Obsidian Fortresses, White Limestone Civic Blocks, Forge Halls, volcanic glass and arcane glow materials, Forge Smoke Columns, Woven Banners, Civic Blue Glow, and the kobolds visual language. Design focus: shields, wardrums, rank banners, barracks blocks, command keeps. Terrain/water context: Lava Field; Dry Ground. Magic expression: Yellow Intent Glimmers, Archive Echoes, Memory Crystals. No baked labels or text.",
+        "civicRole": "Serves as Section 3 local anchor within Embervein; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Woven Banners Monument",
+          "show how Embervein turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 3",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Woven Banners Monument becomes narratively important",
+          "the visible condition of Woven Banners Monument signals political or social stress",
+          "someone uses Woven Banners Monument's public function to redirect crowds or information",
+          "an overlooked detail at Woven Banners Monument reveals how Embervein really works"
+        ]
+      },
+      {
+        "name": "Standard Tower Nook",
+        "symbolicRole": "Standard Tower Nook concentrates Embervein's local symbolism into a usable civic landmark: Section 3 local anchor.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette. It belongs to Section 3 (Military Command) of Embervein and should use White Limestone Civic Blocks, Forge Halls, Obsidian Fortresses, volcanic glass and arcane glow materials, Civic Blue Glow, Forge Smoke Columns, Woven Banners, and the kobolds visual language. Design focus: barracks blocks, command keeps, armory halls, armories, small local identity prop. Terrain/water context: Lava Field; Dry Ground. Magic expression: Yellow Intent Glimmers, Archive Echoes, Memory Crystals. No baked labels or text.",
+        "civicRole": "Serves as Section 3 local anchor within Embervein; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Standard Tower Nook",
+          "show how Embervein turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 3",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Standard Tower Nook becomes narratively important",
+          "the visible condition of Standard Tower Nook signals political or social stress",
+          "someone uses Standard Tower Nook's public function to redirect crowds or information",
+          "an overlooked detail at Standard Tower Nook reveals how Embervein really works"
+        ]
+      },
+      {
+        "name": "Arcane / Alchemical Labs Civic Hall",
+        "symbolicRole": "Arcane / Alchemical Labs Civic Hall concentrates Embervein's local symbolism into a usable civic landmark: Section 4 local anchor.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing. It belongs to Section 4 (Arcane / Alchemical Labs) of Embervein and should use Forge Halls, Subterranean Vaults, Archive Towers, volcanic glass and arcane glow materials, Lantern Lit, Serpent Geometry, Civic Blue Glow, and the kobolds visual language. Design focus: board-readable entrance, retorts, runes, colored vapors, sealed jars. Terrain/water context: Lava Field; Dry Ground. Magic expression: Yellow Intent Glimmers, Archive Echoes, Memory Crystals. No baked labels or text.",
+        "civicRole": "Serves as Section 4 local anchor within Embervein; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Arcane / Alchemical Labs Civic Hall",
+          "show how Embervein turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 4",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Arcane / Alchemical Labs Civic Hall becomes narratively important",
+          "the visible condition of Arcane / Alchemical Labs Civic Hall signals political or social stress",
+          "someone uses Arcane / Alchemical Labs Civic Hall's public function to redirect crowds or information",
+          "an overlooked detail at Arcane / Alchemical Labs Civic Hall reveals how Embervein really works"
+        ]
+      },
+      {
+        "name": "Blue-Lamp Monument",
+        "symbolicRole": "Blue-Lamp Monument concentrates Embervein's local symbolism into a usable civic landmark: Section 4 local anchor.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles. It belongs to Section 4 (Arcane / Alchemical Labs) of Embervein and should use Archive Towers, Forge Halls, Subterranean Vaults, volcanic glass and arcane glow materials, Serpent Geometry, Civic Blue Glow, Lantern Lit, and the kobolds visual language. Design focus: safety wards, symbolic civic object, small ceremonial site, local memory marker, subordinate to major landmark. Terrain/water context: Lava Field; Dry Ground. Magic expression: Yellow Intent Glimmers, Archive Echoes, Memory Crystals. No baked labels or text.",
+        "civicRole": "Serves as Section 4 local anchor within Embervein; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Blue-Lamp Monument",
+          "show how Embervein turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 4",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Blue-Lamp Monument becomes narratively important",
+          "the visible condition of Blue-Lamp Monument signals political or social stress",
+          "someone uses Blue-Lamp Monument's public function to redirect crowds or information",
+          "an overlooked detail at Blue-Lamp Monument reveals how Embervein really works"
+        ]
+      },
+      {
+        "name": "Formula Archive Nook",
+        "symbolicRole": "Formula Archive Nook concentrates Embervein's local symbolism into a usable civic landmark: Section 4 local anchor.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette. It belongs to Section 4 (Arcane / Alchemical Labs) of Embervein and should use Subterranean Vaults, Archive Towers, Forge Halls, volcanic glass and arcane glow materials, Serpent Geometry, Civic Blue Glow, Lantern Lit, and the kobolds visual language. Design focus: small local identity prop, street-level detail, usable board landmark, subordinate scale, retorts. Terrain/water context: Lava Field; Dry Ground. Magic expression: Yellow Intent Glimmers, Archive Echoes, Memory Crystals. No baked labels or text.",
+        "civicRole": "Serves as Section 4 local anchor within Embervein; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Formula Archive Nook",
+          "show how Embervein turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 4",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Formula Archive Nook becomes narratively important",
+          "the visible condition of Formula Archive Nook signals political or social stress",
+          "someone uses Formula Archive Nook's public function to redirect crowds or information",
+          "an overlooked detail at Formula Archive Nook reveals how Embervein really works"
+        ]
+      },
+      {
+        "name": "Slums / Informal Settlement Civic Hall",
+        "symbolicRole": "Slums / Informal Settlement Civic Hall concentrates Embervein's local symbolism into a usable civic landmark: Section 5 local anchor.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing. It belongs to Section 5 (Slums / Informal Settlement) of Embervein and should use Timber Longhouses, Reed Pavilions, Market Arcades, volcanic glass and arcane glow materials, Red Fabric Awnings, Woven Banners, Lantern Lit, and the kobolds visual language. Design focus: board-readable entrance, patches, scrap lanterns, tarps, shared fires. Terrain/water context: Lava Field; Dry Ground. Magic expression: Yellow Intent Glimmers, Archive Echoes, Memory Crystals. No baked labels or text.",
+        "civicRole": "Serves as Section 5 local anchor within Embervein; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Slums / Informal Settlement Civic Hall",
+          "show how Embervein turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 5",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Slums / Informal Settlement Civic Hall becomes narratively important",
+          "the visible condition of Slums / Informal Settlement Civic Hall signals political or social stress",
+          "someone uses Slums / Informal Settlement Civic Hall's public function to redirect crowds or information",
+          "an overlooked detail at Slums / Informal Settlement Civic Hall reveals how Embervein really works"
+        ]
+      },
+      {
+        "name": "Slums Informal Settlement Lantern Monument",
+        "symbolicRole": "Slums Informal Settlement Lantern Monument concentrates Embervein's local symbolism into a usable civic landmark: Section 5 local anchor.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles. It belongs to Section 5 (Slums / Informal Settlement) of Embervein and should use Market Arcades, Timber Longhouses, Reed Pavilions, volcanic glass and arcane glow materials, Red Fabric Awnings, Woven Banners, Lantern Lit, and the kobolds visual language. Design focus: symbolic civic object, small ceremonial site, local memory marker, subordinate to major landmark, patches. Terrain/water context: Lava Field; Dry Ground. Magic expression: Yellow Intent Glimmers, Archive Echoes, Memory Crystals. No baked labels or text.",
+        "civicRole": "Serves as Section 5 local anchor within Embervein; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Slums Informal Settlement Lantern Monument",
+          "show how Embervein turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 5",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Slums Informal Settlement Lantern Monument becomes narratively important",
+          "the visible condition of Slums Informal Settlement Lantern Monument signals political or social stress",
+          "someone uses Slums Informal Settlement Lantern Monument's public function to redirect crowds or information",
+          "an overlooked detail at Slums Informal Settlement Lantern Monument reveals how Embervein really works"
+        ]
+      },
+      {
+        "name": "Patched Tenement Nook",
+        "symbolicRole": "Patched Tenement Nook concentrates Embervein's local symbolism into a usable civic landmark: Section 5 local anchor.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette. It belongs to Section 5 (Slums / Informal Settlement) of Embervein and should use Reed Pavilions, Market Arcades, Timber Longhouses, volcanic glass and arcane glow materials, Red Fabric Awnings, Woven Banners, Lantern Lit, and the kobolds visual language. Design focus: street-level detail, usable board landmark, subordinate scale, patches, scrap lanterns. Terrain/water context: Lava Field; Dry Ground. Magic expression: Yellow Intent Glimmers, Archive Echoes, Memory Crystals. No baked labels or text.",
+        "civicRole": "Serves as Section 5 local anchor within Embervein; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Patched Tenement Nook",
+          "show how Embervein turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 5",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Patched Tenement Nook becomes narratively important",
+          "the visible condition of Patched Tenement Nook signals political or social stress",
+          "someone uses Patched Tenement Nook's public function to redirect crowds or information",
+          "an overlooked detail at Patched Tenement Nook reveals how Embervein really works"
+        ]
+      }
     ]
   },
   "assetGuidance": {
     "districtDioramaGuidance": [
-      "S1 must show Heavy Industry / Foundry Civic Hall, Great Forge Beacon, Smoke-Stack Monument, Crucible Hall Nook, forge workers, chains, vent shafts, and oversized machinery scaled against small kobolds.",
-      "S2 must show Underworld / Hidden Economy Civic Hall, Black Market Arcade, Mist Veils Monument, Understreet Vault Nook, coded stalls, brokers, and low tunnels.",
-      "S3 must show Military Command Hall, Command Bastion, Woven Banners Monument, Standard Tower Nook, command stairs, guards, and large standards over small figures.",
-      "S4 must show Arcane / Alchemical Labs Civic Hall, Alchemy Lab, Blue-Lamp Monument, Formula Archive Nook, vials, reagents, sealed shelves, and blue light.",
-      "S5 must show Slums / Informal Settlement Civic Hall, Scrap Market, Slums Informal Settlement Lantern Monument, Patched Tenement Nook, salvage piles, patched cloth, and lower-warren families."
+      "Dioramas must support 25 district slots: S1 covers D01, D02, D03, D06, D07 and uses source-backed anchors Heavy Industry / Foundry Civic Hall, Great Forge Beacon, Smoke-Stack Monument, Crucible Hall Nook.",
+      "Dioramas must support 25 district slots: S2 covers D04, D05, D09, D10, D15 and uses source-backed anchors Underworld / Hidden Economy Civic Hall, Black Market Arcade, Mist Veils Monument, Understreet Vault Nook.",
+      "Dioramas must support 25 district slots: S3 covers D08, D12, D13, D14, D18 and uses source-backed anchors Military Command Hall, Command Bastion, Woven Banners Monument, Standard Tower Nook.",
+      "Dioramas must support 25 district slots: S4 covers D11, D16, D17, D21, D22 and uses source-backed anchors Arcane / Alchemical Labs Civic Hall, Alchemy Lab, Blue-Lamp Monument, Formula Archive Nook.",
+      "Dioramas must support 25 district slots: S5 covers D19, D20, D23, D24, D25 and uses source-backed anchors Slums / Informal Settlement Civic Hall, Scrap Market, Slums Informal Settlement Lantern Monument, Patched Tenement Nook."
     ],
     "mapBackgroundGuidance": [
-      "Show a subterranean industrial cavern city with forge-orange glow, blue alchemical lamps, smoke stacks, molten cracks, scaffold bridges, warren tunnels, command towers, black-market vaults, and scrap warrens.",
-      "The Kobold Ember-Warren Crucible Hive should dominate as the wonder-scale cavern engine; the Great Forge Beacon should anchor the foundry; the Molten Crack Glow Iron Mandate Keep should appear as central authority.",
-      "Use scale mismatch: huge machines and halls must make kobolds look ingenious, vulnerable, and overworked rather than silly."
+      "Map backgrounds must show Kobold Ember-Warren Crucible Hive as the wonder-scale identity anchor, Molten Crack Glow Iron Mandate Keep at D13, and Great Forge Beacon as the city signal landmark.",
+      "Preserve the five-section spine: S1 Heavy Industry / Foundry Civic Hall, S2 Underworld / Hidden Economy Civic Hall, S3 Military Command Hall, S4 Arcane / Alchemical Labs Civic Hall, S5 Slums / Informal Settlement Civic Hall.",
+      "Use roads, terrain, water, civic terraces, walls, markets, courts, or service routes only where they support the exact city identity and tactical readability."
     ],
-    "requiredVisualElements": ["kobold citizens", "Kobold Ember-Warren Crucible Hive", "Great Forge Beacon", "Molten Crack Glow Iron Mandate Keep", "Heavy Industry / Foundry Civic Hall", "Smoke-Stack Monument", "Crucible Hall Nook", "Black Market Arcade", "Mist Veils Monument", "Understreet Vault Nook", "Military Command Hall", "Command Bastion", "Woven Banners Monument", "Standard Tower Nook", "Alchemy Lab", "Blue-Lamp Monument", "Formula Archive Nook", "Scrap Market", "Slums Informal Settlement Lantern Monument", "Patched Tenement Nook", "low doors", "crawl routes", "scaffold bridges"],
-    "elementsToAvoid": ["comic kobold clutter", "primitive cave warren", "generic dwarven forge city", "forge imagery that erases black-market or slum systems", "human-scale doors and streets", "clean industrial utopia", "slums as decorative background"]
+    "requiredVisualElements": [
+      "Kobold Ember-Warren Crucible Hive",
+      "Great Forge Beacon",
+      "Molten Crack Glow Iron Mandate Keep",
+      "Scrap Market",
+      "Black Market Arcade",
+      "Alchemy Lab",
+      "Heavy Industry / Foundry Civic Hall",
+      "Smoke-Stack Monument",
+      "Crucible Hall Nook",
+      "Underworld / Hidden Economy Civic Hall",
+      "Mist Veils Monument",
+      "Understreet Vault Nook",
+      "Military Command Hall",
+      "Command Bastion",
+      "Woven Banners Monument",
+      "Standard Tower Nook",
+      "Arcane / Alchemical Labs Civic Hall",
+      "Blue-Lamp Monument",
+      "Formula Archive Nook",
+      "Slums / Informal Settlement Civic Hall",
+      "Slums Informal Settlement Lantern Monument",
+      "Patched Tenement Nook",
+      "Basalt",
+      "Obsidian",
+      "Volcanic Glass",
+      "Arcane Glow",
+      "Salt Crystal",
+      "Subterranean",
+      "Undercity Foundation",
+      "Limestone Caverns",
+      "Ward Networks",
+      "Ritual Geometry",
+      "Lava Shaping"
+    ],
+    "elementsToAvoid": [
+      "extra top-level schema sections or research-log content in the JSON",
+      "generic fantasy architecture that ignores exact anchor names",
+      "invented missing street anchors",
+      "readable real-world text labels baked into images",
+      "collapsing the 25-district board into only five playable spaces",
+      "making landmarks decorative when they should have civic, narrative, and asset function"
+    ]
   }
 }

@@ -4,9 +4,12 @@
     "analysisVersion": 2,
     "cityCode": "APE",
     "cityName": "Auric Plume",
-    "analysisDate": "2026-07-03",
+    "analysisDate": "2026-07-05",
     "analystVersion": "gpt-5.5-thinking",
     "analysisConfidence": "strong-lock",
+    "sourceStatus": "full",
+    "districtModel": "five sections; five district slots per section; D13 is the seat of power",
+    "missingStreetSections": [],
     "basedOnImages": [
       "APE-HERO-NE-v001",
       "APE-HERO-NW-v001",
@@ -31,692 +34,1865 @@
     ]
   },
   "cityDNA": {
-    "coreFantasy": "A bright showbird harbor capital where public beauty, maritime logistics, and civic reputation are the same system.",
-    "primaryEmotion": "dazzled confidence",
-    "secondaryEmotion": "competitive civic pride",
-    "readerTakeaway": "Auric Plume is not decorative; every color, plume, fan roof, cargo seal, and public display helps the city organize trust.",
-    "civilizationThesis": "Auric Plume turns spectacle into infrastructure: showbird display, tide-sealed records, cargo yards, public works, star navigation, and harbor ritual all become mechanisms of civic order.",
-    "visualIdentity": "Feather-fan towers, pearl domes, patchwork awnings, blue civic lamps, bright harbor stone, cargo courts, star instruments, and basilica arches surrounding reflective water.",
-    "culturalIdentity": "A coastal showbird civilization where visibility is social metadata, reputation is engineered in public, and trade depends on being seen accurately.",
-    "symbolicIdentity": "Feathers, fans, pearls, patchwork, tide seals, cargo seals, stars, and harbor arches symbolize many visible parts held together by public trust."
+    "coreFantasy": "A colorful ornamental avian folk city where Pearl-Feather Roost of the Thousand Fans, Patchwork Hall Beacon, Feather Fan Roofs Tide-Seal Citadel, and the five-section district spine turn local identity into functional civic space.",
+    "primaryEmotion": "source-backed civic presence",
+    "secondaryEmotion": "lived-in pressure beneath landmark order",
+    "readerTakeaway": "Auric Plume should feel immediately identifiable through exact landmarks and materials, not through generic fantasy-city shorthand.",
+    "civilizationThesis": "Auric Plume organizes power through Feather Fan Roofs Tide-Seal Citadel, public response through Patchwork Hall Beacon, civic memory through Pearl-Feather Roost of the Thousand Fans, and daily life through S1 S1 Patchwork Hall, S2 Warehousing / Logistics Civic Hall, S3 Public Works Authority Hall, S4 Observatory / Astronomy Civic Hall, S5 S5 Harbor Campus.",
+    "visualIdentity": "Seashell, Coral Stone, Pale Marble Stone, Canvas, Silk, Coastal Edge, Seawall Edge, Harbor Basin, Beast Bonding, Ancestor Guidance, Flock Sight, and exact anchors including Feather Fan Roofs Tide-Seal Citadel, Patchwork Hall Beacon, Pearl-Feather Roost of the Thousand Fans, Harbor Basilica, Cargo Yard, Star Observatory, S1 Patchwork Hall, S1 Patchwork Pillar, S1 Patchwork Kiosk, Warehousing / Logistics Civic Hall.",
+    "culturalIdentity": "A colorful ornamental avian folk civic culture where architecture, public obligations, roads, landmark approaches, and everyday work must all read as part of the same civilization.",
+    "symbolicIdentity": "The city symbol system is built from exact names and visible functions: Pearl-Feather Roost of the Thousand Fans, Patchwork Hall Beacon, Feather Fan Roofs Tide-Seal Citadel, and section anchors such as S1 Patchwork Hall, Warehousing / Logistics Civic Hall, Public Works Authority Hall, Observatory / Astronomy Civic Hall, S5 Harbor Campus."
   },
   "canon": {
     "canonLocks": [
-      "Auric Plume is an established coastal showbird capital, not a decorative bird city or temporary port.",
-      "The city fuses public display with practical maritime infrastructure.",
-      "The Wonder is the Pearl-Feather Roost of the Thousand Fans.",
-      "The Beacon is the Patchwork Hall Beacon.",
-      "The Seat of Power is the Feather Fan Roofs Tide-Seal Citadel.",
-      "The five primary districts are Patchwork Hall, Warehousing / Logistics, Public Works Authority, Observatory / Astronomy, and Harbor Campus."
+      "Auric Plume uses city code APE.",
+      "The Wonder is Pearl-Feather Roost of the Thousand Fans.",
+      "The Beacon is Patchwork Hall Beacon.",
+      "The Seat of Power is Feather Fan Roofs Tide-Seal Citadel and occupies District 13.",
+      "The city uses five sections with five tactical district slots per section.",
+      "The source-backed section spine is: S1 S1 Patchwork Hall, S2 Warehousing / Logistics Civic Hall, S3 Public Works Authority Hall, S4 Observatory / Astronomy Civic Hall, S5 S5 Harbor Campus.",
+      "Preserve exact anchor name: Feather Fan Roofs Tide-Seal Citadel.",
+      "Preserve exact anchor name: Patchwork Hall Beacon.",
+      "Preserve exact anchor name: Pearl-Feather Roost of the Thousand Fans.",
+      "Preserve exact anchor name: Harbor Basilica.",
+      "Preserve exact anchor name: Cargo Yard.",
+      "Preserve exact anchor name: Star Observatory.",
+      "Preserve exact anchor name: S1 Patchwork Hall.",
+      "Preserve exact anchor name: S1 Patchwork Pillar.",
+      "Preserve exact anchor name: S1 Patchwork Kiosk.",
+      "Preserve exact anchor name: Warehousing / Logistics Civic Hall.",
+      "Preserve exact anchor name: Warehousing Logistics Gold-Seal Monument.",
+      "Preserve exact anchor name: Inventory Hall Nook.",
+      "Preserve exact anchor name: Public Works Authority Hall.",
+      "Preserve exact anchor name: Survey Hall.",
+      "Preserve exact anchor name: Blue-Lamp Monument.",
+      "Preserve exact anchor name: Permit Yard Nook.",
+      "Preserve exact anchor name: Observatory / Astronomy Civic Hall.",
+      "Preserve exact anchor name: Star Navigation Monument.",
+      "Preserve exact anchor name: Celestial Court Nook.",
+      "Preserve exact anchor name: S5 Harbor Campus.",
+      "Preserve exact anchor name: S5 Harbor Arch.",
+      "Preserve exact anchor name: S5 Harbor Bridgelet."
     ],
-    "provisionalCanon": [
-      "Auric Plume's highest civic virtue is visible trust: citizens prove reliability by making identity, status, cargo, and obligation legible in public.",
-      "Public display can become political pressure when reputation control is abused."
-    ],
+    "provisionalCanon": [],
     "rejectedReads": [
-      "Auric Plume is frivolous or vanity-driven only.",
-      "Auric Plume is a generic harbor city with bird ornament added.",
-      "The city's bright spectacle should be separated from its logistics or government."
+      "Do not treat Auric Plume as a generic fantasy settlement with renamed landmarks.",
+      "Do not collapse the five-section board into a single mood or single district.",
+      "Do not replace exact anchor names with generic summaries.",
+      "Do not invent missing street-section landmarks when a street source is absent."
     ],
     "cautionFlags": [
-      "Do not make showbird identity comic relief.",
-      "Do not let color and fan forms become empty decoration; they must communicate rank, trade, trust, or civic role.",
-      "Keep cargo, public works, observatory, and harbor ceremony visible enough to prevent the city from collapsing into pure pageantry."
+      "Keep every named Wonder, Beacon, Seat, section civic hall, major landmark, monument, and minor nook exact when present in sidecars.",
+      "If an image appears to deviate from a sidecar, preserve the exact name but avoid overclaiming visual details not supported by the source package.",
+      "Every district asset should remain usable for narrative scenes, tactical board dioramas, and city map backgrounds."
     ]
   },
   "environment": {
     "terrain": [
-      "coastal edge",
-      "harbor basin",
-      "civic terraces",
-      "dock roads",
-      "island-like waterfront districts"
+      "Coastal Edge",
+      "Seawall Edge",
+      "Harbor Basin"
     ],
     "water": [
-      "bright harbor water",
-      "canal edges",
-      "quays",
-      "bridgelet crossings",
-      "water-reflected plazas"
+      "Coast"
     ],
     "vegetation": [
-      "courtyard planters",
-      "harbor palms or windbreak trees",
-      "balcony flowers",
-      "decorative civic greenery under awnings"
+      "courtyard trees",
+      "balcony planters",
+      "public greenery where visible",
+      "source-backed local vegetation only"
     ],
     "climateLighting": [
-      "golden harbor light",
-      "water-reflected daylight",
-      "sea haze",
-      "salt glare",
-      "blue civic lamp glow",
-      "lantern-lit docks"
+      "Beast Bonding",
+      "Ancestor Guidance",
+      "Flock Sight",
+      "daylight",
+      "golden hour",
+      "lantern light",
+      "civic beacon glow"
     ],
-    "environmentalLogic": "The harbor is stage, marketplace, navigation platform, and civic engine. Water movement, visibility, dock access, and public display shape how the city governs itself."
+    "environmentalLogic": "The environment should make Auric Plume's exact civic anchors plausible at street scale: terrain routes people toward section landmarks, lighting clarifies public authority, and water or landscape features remain source-backed rather than decorative filler."
   },
   "architecture": {
     "materials": [
-      "white and cream stone",
-      "turquoise and blue glass",
-      "bronze fittings",
-      "pearl-like domes",
-      "painted timber",
-      "woven patchwork awnings",
-      "red and blue fabric",
-      "polished harbor stone",
-      "gold trim",
-      "copper lanterns",
-      "rope and cargo wood",
-      "sea-weathered plaster"
+      "Seashell",
+      "Coral Stone",
+      "Pale Marble Stone",
+      "Canvas",
+      "Silk"
     ],
     "forms": [
-      "feather fan roofs",
-      "pearl domes",
-      "harbor basilicas",
-      "tide-seal citadel courts",
-      "patchwork civic halls",
-      "cargo yards",
-      "inventory halls",
-      "survey halls",
-      "permit yards",
-      "star observatories",
-      "celestial courts",
-      "harbor arches",
-      "bridgelets",
-      "tall signal towers",
-      "dockside arcades"
+      "Feather Fan Roofs Tide-Seal Citadel",
+      "Patchwork Hall Beacon",
+      "Pearl-Feather Roost of the Thousand Fans",
+      "Harbor Basilica",
+      "Cargo Yard",
+      "Star Observatory",
+      "S1 Patchwork Hall",
+      "S1 Patchwork Pillar",
+      "S1 Patchwork Kiosk",
+      "Warehousing / Logistics Civic Hall",
+      "Warehousing Logistics Gold-Seal Monument",
+      "Inventory Hall Nook",
+      "Public Works Authority Hall",
+      "Survey Hall",
+      "Blue-Lamp Monument",
+      "Permit Yard Nook",
+      "Observatory / Astronomy Civic Hall",
+      "Star Navigation Monument",
+      "Celestial Court Nook",
+      "S5 Harbor Campus",
+      "S5 Harbor Arch",
+      "S5 Harbor Bridgelet",
+      "section civic halls",
+      "major landmark approaches",
+      "monument frontages",
+      "minor landmark nooks",
+      "district roads and plazas",
+      "D13 authority complex"
     ],
     "skyline": [
-      "Pearl-Feather Roost of the Thousand Fans as the dominant wonder-scale horizon",
-      "Feather Fan Roofs Tide-Seal Citadel as central authority",
-      "Patchwork Hall Beacon as the near/front signal landmark",
-      "Harbor Basilica as the ceremonial water-facing landmark",
-      "star observatory towers, cargo halls, fan-roofed domes, and bright terraces around blue water"
+      "Pearl-Feather Roost of the Thousand Fans",
+      "Feather Fan Roofs Tide-Seal Citadel",
+      "Patchwork Hall Beacon",
+      "Harbor Basilica",
+      "Cargo Yard",
+      "Star Observatory",
+      "S1 Patchwork Hall",
+      "S1 Patchwork Pillar",
+      "S1 Patchwork Kiosk"
     ],
     "lighting": [
-      "golden harbor light",
-      "blue civic lamps",
-      "pearl luster",
-      "lantern-lit dock markets",
-      "sunset on canals and basins",
-      "observatory blue-gold instrument light"
+      "Beast Bonding",
+      "Ancestor Guidance",
+      "Flock Sight",
+      "beacon-state light",
+      "lantern-lit civic paths",
+      "street-level shop and housing light"
     ],
     "infrastructure": [
-      "harbor basins",
-      "docks",
-      "cargo yards",
-      "inventory halls",
-      "survey yards",
-      "permit tables",
-      "observatory courts",
-      "celestial instrument platforms",
-      "bridgelets",
-      "basilica plazas",
-      "beacon approaches",
-      "market quays"
+      "S1 Patchwork Hall",
+      "Warehousing / Logistics Civic Hall",
+      "Public Works Authority Hall",
+      "Observatory / Astronomy Civic Hall",
+      "S5 Harbor Campus",
+      "roads between district slots",
+      "public thresholds",
+      "plaza edges",
+      "records, permits, markets, services, or rituals implied by anchors"
     ],
     "motifs": [
-      "feather fans",
-      "plumes",
-      "pearls",
-      "patchwork fabric",
-      "tide seals",
-      "cargo seals",
-      "blue lamps",
-      "star instruments",
-      "harbor arches",
-      "domes",
-      "banners",
-      "bright awnings"
+      "Feather",
+      "Roofs",
+      "Tide-Seal",
+      "Citadel",
+      "Patchwork",
+      "Hall",
+      "Beacon",
+      "Pearl-Feather",
+      "Roost",
+      "Thousand",
+      "Fans",
+      "Harbor",
+      "Basilica",
+      "Cargo",
+      "Yard",
+      "Star"
     ],
     "colorLanguage": [
-      "white and cream civic stone",
-      "turquoise harbor blue",
-      "pearl white",
-      "gold trim",
-      "red and blue textiles",
-      "multi-color patchwork accents"
+      "source-backed material colors",
+      "civic blue signal accents",
+      "local textile, stone, metal, vegetation, or water colors from the image package"
     ],
     "textureLanguage": [
-      "smooth sunlit stone",
-      "woven cloth",
-      "polished pearl inlay",
-      "salt-weathered plaster",
-      "rope fiber",
-      "painted timber",
-      "reflective glass and water"
+      "Seashell",
+      "Coral Stone",
+      "Pale Marble Stone",
+      "Canvas",
+      "Silk",
+      "worn pedestrian surfaces",
+      "worked civic ornament",
+      "weathered public thresholds",
+      "lived-in shop and housing details"
     ]
   },
   "civilization": {
-    "people": "Citizens are showbird beastfolk: vivid, social, posture-aware, reputation-conscious, visually expressive, and comfortable turning public appearance into civic communication.",
+    "people": "The population should read as colorful ornamental avian folk and city-specific: citizens occupy streets, shops, public thresholds, and landmark approaches as people who understand the local civic order.",
     "occupations": [
-      "cargo officials",
-      "dock porters",
-      "permit clerks",
-      "surveyors",
-      "star navigators",
-      "basilica attendants",
-      "patchwork textile makers",
-      "plume dyers",
-      "cargo seal engravers",
-      "ship chandlers",
-      "lantern makers",
-      "harbor families"
+      "dock workers",
+      "water engineers",
+      "ritual attendants",
+      "caretakers",
+      "astronomers",
+      "navigators",
+      "market sellers",
+      "stall keepers",
+      "district clerks",
+      "craft families",
+      "porters",
+      "maintenance workers",
+      "food sellers",
+      "messengers"
     ],
     "socialClasses": [
-      "tide-seal officials and citadel administrators",
-      "navigation specialists and observatory staff",
-      "cargo guilds and warehouse families",
-      "basilica patrons and ritual attendants",
-      "textile, plume, pearl, and harbor craftspeople",
-      "dock laborers, runners, and market sellers"
+      "D13 officials and court staff",
+      "section landmark custodians",
+      "guild and service families",
+      "shopkeepers and artisans",
+      "laborers, carriers, messengers, and maintenance crews",
+      "households tied to local district obligations"
     ],
-    "governance": "Government is tide-sealed, public, and performative. Authority depends on visible ceremony, maritime records, harbor permissions, cargo legitimacy, and public interpretation of civic signals.",
-    "religion": "Religious expression is moderate and harbor-facing, centered on basilica ceremonies, public vows, maritime mourning, pearl-feather symbolism, and ritual display beside water.",
+    "governance": "Government is centered on Feather Fan Roofs Tide-Seal Citadel. Its authority should be visible through courts, records, public access routes, civic lamps, guards or attendants, and the way citizens respond to D13.",
+    "religion": "Religious or ritual life should only be emphasized where source anchors support it, especially names such as Harbor Basilica.",
     "customs": [
-      "public bargaining is theatrical but legally serious",
-      "plume treatment, color, pins, and fabrics announce profession and status",
-      "cargo seals and tide seals carry public reputation",
-      "festival display doubles as civic verification",
-      "harbor ceremonies make arrival and departure socially visible"
+      "citizens orient public life around S1 Patchwork Hall in Section 1",
+      "citizens orient public life around Warehousing / Logistics Civic Hall in Section 2",
+      "citizens orient public life around Public Works Authority Hall in Section 3",
+      "citizens orient public life around Observatory / Astronomy Civic Hall in Section 4",
+      "citizens orient public life around S5 Harbor Campus in Section 5",
+      "beacon changes become public behavior, not background color",
+      "exact landmark names carry social memory and directions",
+      "civic errands happen visibly at thresholds, queues, ledgers, stalls, courts, or shrines"
     ],
     "bodyLanguage": [
-      "upright posture and deliberate display angles",
-      "plume grooming in public",
-      "broad gestures during trade negotiation",
-      "preference for balconies, ledges, and open plazas",
-      "quick recognition of visible rank markers"
+      "citizens pause at civic signals",
+      "workers move with practiced familiarity around district anchors",
+      "officials use thresholds and raised places to control attention",
+      "residents treat named landmarks as everyday orientation points"
     ],
     "speechPatterns": [
-      "colorful but precise trade language",
-      "publicly performative announcements",
-      "status-conscious greetings",
-      "reputation-heavy bargaining",
-      "formal tide-seal and cargo-seal terminology"
+      "directions use exact landmark names",
+      "public notices are tied to section anchors",
+      "local speech distinguishes civic authority, ordinary errands, and landmark obligations",
+      "people refer to D13 as the seat of power rather than a faction headquarters"
     ]
   },
   "urbanLife": {
     "streets": {
-      "appearance": "Bright, crowded, maritime, and performative: sunlit harbor stone, fan-roof shadows, patchwork awnings, cargo ledgers, permit yards, star instruments, blue civic lamps, and bridgelets over blue water.",
-      "movement": "Movement follows quays, bridgelets, canal edges, plaza roads, cargo lanes, stair terraces, small boats, and high balcony paths. Harbor schedules, permits, tides, and public ceremonies redirect traffic naturally.",
+      "appearance": "Streets should show Auric Plume's exact anchor system at pedestrian scale: S1 S1 Patchwork Hall, S2 Warehousing / Logistics Civic Hall, S3 Public Works Authority Hall, S4 Observatory / Astronomy Civic Hall, S5 S5 Harbor Campus. Keep roads, plazas, stairs, thresholds, lamps, signs-without-readable-text, props, and civilians aligned to the source-backed materials and landmarks.",
+      "movement": "Movement should be readable for tactical-board assets: citizens pass between 25 district slots, section anchors, D13, service streets, and landmark approaches without visual clutter hiding the civic purpose.",
       "sounds": [
-        "gulls and harbor birds",
-        "rope creak",
-        "cargo carts on stone",
-        "market calls under awnings",
-        "water against docks",
-        "basilica bells",
-        "star instruments clicking",
-        "ledger clerks calling seal numbers",
-        "fabric snapping in sea wind",
-        "lantern chains and boat bells"
+        "foot traffic",
+        "vendors and service calls",
+        "tools and carts",
+        "public notices",
+        "landmark-specific sounds from water, bells, animals, machines, or crowds when source-backed",
+        "beacon-state crowd reactions"
       ],
       "smells": [
-        "salt water",
-        "sun-warmed stone",
-        "rope tar",
-        "fish and harbor food",
-        "dye vats",
-        "lamp oil",
-        "wet timber",
-        "spiced market bread",
-        "polished bronze",
-        "seaweed and shell"
+        "street food",
+        "worked material dust",
+        "lamp oil or smoke",
+        "vegetation or water where source-backed",
+        "worn stone, timber, metal, plaster, or fabric"
       ],
-      "lighting": "Daylight is reflective and bright; night is blue-gold with beacon light, basilica windows, observatory instruments, lanterns, and harbor reflections.",
-      "weatherEffects": "Sea haze, wind, salt glare, sudden harbor clouds, and wet stone affect navigation, banners, crowd mood, and visibility.",
-      "dayCycle": "Mornings center on cargo unloading, seal checks, public notices, and permit queues; afternoons swell with textile trade, civic errands, and visible display.",
-      "nightCycle": "Evenings belong to lanterns, harbor food, observatory work, basilica gatherings, blue lamps, and water reflections turning the city into public theater."
+      "lighting": "Use the package's source-backed civic lighting, daylight/golden-hour reads, lanterns, and beacon glow. Lighting must help identify authority, safety, and landmark function.",
+      "weatherEffects": "Weather should reinforce the local terrain and materials without overwhelming the city identity or inventing unsupported climate extremes.",
+      "dayCycle": "Day scenes emphasize errands, trade, records, repairs, rituals, food, and section-level movement.",
+      "nightCycle": "Night scenes emphasize lantern routes, closed thresholds, guarded landmarks, quiet work, and beacon visibility."
     },
     "shops": {
       "common": [
-        "patchwork textile stalls",
-        "plume-dye shops",
-        "cargo seal offices",
-        "inventory ledger copyists",
-        "ship chandlers",
-        "rope and sail vendors",
-        "harbor food carts",
-        "lantern repair stalls"
+        "food stalls",
+        "repair stalls",
+        "material vendors",
+        "ledger or permit desks",
+        "local craft counters",
+        "street services tied to section anchors"
       ],
       "uncommon": [
-        "star chart sellers",
-        "survey instrument makers",
-        "fan-roof ornament carvers",
-        "pearl inlay counters",
-        "tide-seal document specialists"
+        "specialist landmark caretakers",
+        "instrument makers",
+        "ritual suppliers",
+        "map or record copyists",
+        "district-specific guild services"
       ],
       "prestigious": [
-        "pearl counters",
-        "observatory instrument houses",
-        "citadel seal ateliers",
-        "basilica ornament workshops",
-        "elite plume and fan makers"
+        "D13-facing legal or registry services",
+        "elite craft workshops",
+        "landmark commission houses",
+        "official suppliers for civic ceremonies"
       ],
       "exports": [
-        "patchwork textiles",
-        "dyed plume goods",
-        "pearl inlay",
-        "star charts",
-        "cargo seal systems",
-        "harbor lanterns"
+        "local crafts",
+        "records or seals",
+        "finished materials",
+        "food goods",
+        "specialized tools or ritual goods as supported by anchors"
       ],
       "imports": [
-        "spices",
-        "sailcloth",
-        "rare dyes",
-        "metal fittings",
-        "navigation glass",
-        "fine timber"
+        "rare materials",
+        "dyes, oils, spices, timber, stone, metal, glass, or cloth as needed by the architecture",
+        "outside records and trade goods"
       ],
       "streetFood": [
-        "grilled harbor fish",
-        "citrus rice",
-        "spiced shellfish stew",
-        "sun-dried fruit",
-        "market flatbread",
-        "seaweed cakes",
-        "pepper skewers",
-        "sweet pearl pastries",
-        "salted nuts",
-        "harbor tea"
+        "flatbread or local bread",
+        "stew or grilled skewers",
+        "fruit or preserved food",
+        "tea or civic-square drinks",
+        "portable worker meals"
       ],
       "services": [
-        "cargo registration",
-        "permit filing",
-        "harbor navigation advice",
-        "seal copying",
-        "plume grooming",
-        "lantern repair",
-        "textile dyeing",
-        "public announcement posting"
+        "directions by landmark",
+        "message running",
+        "permit help",
+        "repairs",
+        "food service",
+        "transport or porterage",
+        "public notice posting"
       ]
     },
     "housing": {
-      "wealthy": "Pearl-inlaid harbor residences, citadel-adjacent terraces, bright roof gardens, fan-roofed balconies, and windows aimed toward harbor spectacle.",
-      "middle": "Upper rooms over shops, colorful courtyard apartments, balcony nests, shared roof terraces, patchwork curtains, and small display ledges.",
-      "poor": "Modest dockside rooms, cargo-adjacent flats, textile-worker courtyards, patched awnings, shared balconies, and cramped but color-conscious harbor housing."
+      "wealthy": "Prestige housing clusters near Feather Fan Roofs Tide-Seal Citadel, high terraces, or landmark-facing routes, using the best source-backed materials and controlled views of civic space.",
+      "middle": "Shop-over-house units, courtyard homes, guild-adjacent apartments, and family rooms near section anchors.",
+      "poor": "Smaller back-street rooms, work-adjacent housing, shared courtyards, service alleys, patched materials, and dense but still city-specific lived-in detail."
     }
   },
   "districts": [
     {
+      "districtNumber": 1,
+      "districtId": "D01",
       "sectionNumber": 1,
-      "name": "Patchwork Hall",
-      "civicPurpose": "Public assembly, civic notices, social display, beacon watching, and the visible joining of many households, guilds, and trade groups.",
-      "visualIdentity": "Patchwork awnings, civic plaza fabric, blue lamps, colorful kiosks, fan accents, and public gathering terraces around the Beacon.",
-      "emotionalIdentity": "Open, social, proud, and theatrical without being unserious.",
+      "name": "D01 — S1 Patchwork Hall Civic-Anchor Precinct",
+      "civicPurpose": "This district turns Section 1's source-backed anchor set into a board-scale civic space: S1 Patchwork Hall, Patchwork Hall Beacon, S1 Patchwork Pillar, S1 Patchwork Kiosk. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Auric Plume.",
+      "visualIdentity": "Use S1 Patchwork Hall as the main read. Keep exact source anchors visible where applicable: S1 Patchwork Hall, Patchwork Hall Beacon, S1 Patchwork Pillar, S1 Patchwork Kiosk. The district should share Auric Plume's colorful ornamental avian folk identity, Seashell, Coral Stone, Pale Marble Stone, Canvas, and Coastal Edge, Seawall Edge, Harbor Basin without becoming generic.",
+      "emotionalIdentity": "Locally grounded, with Auric Plume's larger mood shaped by Pearl-Feather Roost of the Thousand Fans, Patchwork Hall Beacon, and Feather Fan Roofs Tide-Seal Citadel.",
       "gameplayAssetNeeds": [
+        "S1 Patchwork Hall",
         "Patchwork Hall Beacon",
-        "Patchwork Hall plaza",
-        "Patchwork Pillar",
-        "Patchwork Kiosk",
-        "multi-color awnings",
-        "showbird citizens in public display poses"
+        "S1 Patchwork Pillar",
+        "S1 Patchwork Kiosk",
+        "Section 1 pedestrian-scale props",
+        "Auric Plume civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
       ],
       "narrativeUse": [
-        "public warning scenes",
-        "crowd reaction moments",
-        "rumor and announcement scenes",
-        "reputation pressure",
-        "festival or civic assembly"
+        "scenes centered on S1 Patchwork Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
       ],
-      "landmark": "Patchwork Hall Beacon",
+      "landmark": "S1 Patchwork Hall",
       "minorLandmarks": [
-        "Patchwork Pillar",
-        "Patchwork Kiosk"
+        "Patchwork Hall Beacon",
+        "S1 Patchwork Pillar",
+        "S1 Patchwork Kiosk"
       ]
     },
     {
-      "sectionNumber": 2,
-      "name": "Warehousing / Logistics",
-      "civicPurpose": "Cargo movement, inventory control, seal verification, dock trust, and maritime bureaucracy.",
-      "visualIdentity": "Cargo yards, inventory halls, gold-seal monuments, crates, ropes, dock schedules, seal counters, and public ledger boards.",
-      "emotionalIdentity": "Busy, practical, reputation-heavy, and more serious than the city’s colors first suggest.",
+      "districtNumber": 2,
+      "districtId": "D02",
+      "sectionNumber": 1,
+      "name": "D02 — Patchwork Hall Beacon Landmark Approach",
+      "civicPurpose": "This district turns Section 1's source-backed anchor set into a board-scale civic space: S1 Patchwork Hall, Patchwork Hall Beacon, S1 Patchwork Pillar, S1 Patchwork Kiosk. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Auric Plume.",
+      "visualIdentity": "Use Patchwork Hall Beacon as the main read. Keep exact source anchors visible where applicable: S1 Patchwork Hall, Patchwork Hall Beacon, S1 Patchwork Pillar, S1 Patchwork Kiosk. The district should share Auric Plume's colorful ornamental avian folk identity, Seashell, Coral Stone, Pale Marble Stone, Canvas, and Coastal Edge, Seawall Edge, Harbor Basin without becoming generic.",
+      "emotionalIdentity": "Public-facing, with Auric Plume's larger mood shaped by Pearl-Feather Roost of the Thousand Fans, Patchwork Hall Beacon, and Feather Fan Roofs Tide-Seal Citadel.",
       "gameplayAssetNeeds": [
-        "Cargo Yard",
-        "Inventory Hall",
-        "Warehousing Logistics Gold-Seal Monument",
-        "crates and ropes",
-        "cargo seal counters",
-        "dock workers and ledger clerks"
+        "Patchwork Hall Beacon",
+        "S1 Patchwork Hall",
+        "S1 Patchwork Pillar",
+        "S1 Patchwork Kiosk",
+        "Section 1 pedestrian-scale props",
+        "Auric Plume civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
       ],
       "narrativeUse": [
-        "trade evidence",
-        "cargo fraud",
-        "dock congestion",
-        "seal disputes",
-        "public proof of reliability"
+        "scenes centered on Patchwork Hall Beacon",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "Conjunction response, rumor spread, or authority pressure"
       ],
-      "landmark": "Cargo Yard",
+      "landmark": "Patchwork Hall Beacon",
       "minorLandmarks": [
+        "S1 Patchwork Hall",
+        "S1 Patchwork Pillar",
+        "S1 Patchwork Kiosk"
+      ]
+    },
+    {
+      "districtNumber": 3,
+      "districtId": "D03",
+      "sectionNumber": 1,
+      "name": "D03 — S1 Patchwork Pillar Monument Frontage",
+      "civicPurpose": "This district turns Section 1's source-backed anchor set into a board-scale civic space: S1 Patchwork Hall, Patchwork Hall Beacon, S1 Patchwork Pillar, S1 Patchwork Kiosk. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Auric Plume.",
+      "visualIdentity": "Use S1 Patchwork Pillar as the main read. Keep exact source anchors visible where applicable: S1 Patchwork Hall, Patchwork Hall Beacon, S1 Patchwork Pillar, S1 Patchwork Kiosk. The district should share Auric Plume's colorful ornamental avian folk identity, Seashell, Coral Stone, Pale Marble Stone, Canvas, and Coastal Edge, Seawall Edge, Harbor Basin without becoming generic.",
+      "emotionalIdentity": "Memorial or symbolic, with Auric Plume's larger mood shaped by Pearl-Feather Roost of the Thousand Fans, Patchwork Hall Beacon, and Feather Fan Roofs Tide-Seal Citadel.",
+      "gameplayAssetNeeds": [
+        "S1 Patchwork Pillar",
+        "S1 Patchwork Hall",
+        "Patchwork Hall Beacon",
+        "S1 Patchwork Kiosk",
+        "Section 1 pedestrian-scale props",
+        "Auric Plume civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on S1 Patchwork Pillar",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "S1 Patchwork Pillar",
+      "minorLandmarks": [
+        "S1 Patchwork Hall",
+        "Patchwork Hall Beacon",
+        "S1 Patchwork Kiosk"
+      ]
+    },
+    {
+      "districtNumber": 6,
+      "districtId": "D06",
+      "sectionNumber": 1,
+      "name": "D06 — S1 Patchwork Kiosk Neighborhood Nook",
+      "civicPurpose": "This district turns Section 1's source-backed anchor set into a board-scale civic space: S1 Patchwork Hall, Patchwork Hall Beacon, S1 Patchwork Pillar, S1 Patchwork Kiosk. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Auric Plume.",
+      "visualIdentity": "Use S1 Patchwork Kiosk as the main read. Keep exact source anchors visible where applicable: S1 Patchwork Hall, Patchwork Hall Beacon, S1 Patchwork Pillar, S1 Patchwork Kiosk. The district should share Auric Plume's colorful ornamental avian folk identity, Seashell, Coral Stone, Pale Marble Stone, Canvas, and Coastal Edge, Seawall Edge, Harbor Basin without becoming generic.",
+      "emotionalIdentity": "Intimate and lived-in, with Auric Plume's larger mood shaped by Pearl-Feather Roost of the Thousand Fans, Patchwork Hall Beacon, and Feather Fan Roofs Tide-Seal Citadel.",
+      "gameplayAssetNeeds": [
+        "S1 Patchwork Kiosk",
+        "S1 Patchwork Hall",
+        "Patchwork Hall Beacon",
+        "S1 Patchwork Pillar",
+        "Section 1 pedestrian-scale props",
+        "Auric Plume civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on S1 Patchwork Kiosk",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "S1 Patchwork Kiosk",
+      "minorLandmarks": [
+        "S1 Patchwork Hall",
+        "Patchwork Hall Beacon",
+        "S1 Patchwork Pillar"
+      ]
+    },
+    {
+      "districtNumber": 7,
+      "districtId": "D07",
+      "sectionNumber": 1,
+      "name": "D07 — S1 Patchwork Hall Supporting Streets",
+      "civicPurpose": "This district turns Section 1's source-backed anchor set into a board-scale civic space: S1 Patchwork Hall, Patchwork Hall Beacon, S1 Patchwork Pillar, S1 Patchwork Kiosk. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Auric Plume.",
+      "visualIdentity": "Use S1 Patchwork Hall as the main read. Keep exact source anchors visible where applicable: S1 Patchwork Hall, Patchwork Hall Beacon, S1 Patchwork Pillar, S1 Patchwork Kiosk. The district should share Auric Plume's colorful ornamental avian folk identity, Seashell, Coral Stone, Pale Marble Stone, Canvas, and Coastal Edge, Seawall Edge, Harbor Basin without becoming generic.",
+      "emotionalIdentity": "Connective and practical, with Auric Plume's larger mood shaped by Pearl-Feather Roost of the Thousand Fans, Patchwork Hall Beacon, and Feather Fan Roofs Tide-Seal Citadel.",
+      "gameplayAssetNeeds": [
+        "S1 Patchwork Hall",
+        "Patchwork Hall Beacon",
+        "S1 Patchwork Pillar",
+        "S1 Patchwork Kiosk",
+        "Section 1 pedestrian-scale props",
+        "Auric Plume civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on S1 Patchwork Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "S1 Patchwork Hall",
+      "minorLandmarks": [
+        "Patchwork Hall Beacon",
+        "S1 Patchwork Pillar",
+        "S1 Patchwork Kiosk"
+      ]
+    },
+    {
+      "districtNumber": 4,
+      "districtId": "D04",
+      "sectionNumber": 2,
+      "name": "D04 — Warehousing / Logistics Civic Hall Civic-Anchor Precinct",
+      "civicPurpose": "This district turns Section 2's source-backed anchor set into a board-scale civic space: Warehousing / Logistics Civic Hall, Cargo Yard, Warehousing Logistics Gold-Seal Monument, Inventory Hall Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Auric Plume.",
+      "visualIdentity": "Use Warehousing / Logistics Civic Hall as the main read. Keep exact source anchors visible where applicable: Warehousing / Logistics Civic Hall, Cargo Yard, Warehousing Logistics Gold-Seal Monument, Inventory Hall Nook. The district should share Auric Plume's colorful ornamental avian folk identity, Seashell, Coral Stone, Pale Marble Stone, Canvas, and Coastal Edge, Seawall Edge, Harbor Basin without becoming generic.",
+      "emotionalIdentity": "Locally grounded, with Auric Plume's larger mood shaped by Pearl-Feather Roost of the Thousand Fans, Patchwork Hall Beacon, and Feather Fan Roofs Tide-Seal Citadel.",
+      "gameplayAssetNeeds": [
+        "Warehousing / Logistics Civic Hall",
+        "Cargo Yard",
+        "Warehousing Logistics Gold-Seal Monument",
+        "Inventory Hall Nook",
+        "Section 2 pedestrian-scale props",
+        "Auric Plume civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Warehousing / Logistics Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Warehousing / Logistics Civic Hall",
+      "minorLandmarks": [
+        "Cargo Yard",
+        "Warehousing Logistics Gold-Seal Monument",
         "Inventory Hall Nook"
       ]
     },
     {
-      "sectionNumber": 3,
-      "name": "Public Works Authority",
-      "civicPurpose": "Harbor repair, route control, dock permits, surveys, municipal measurement, and safe civic infrastructure.",
-      "visualIdentity": "Survey halls, permit yards, blue lamps, maps, harbor diagrams, measuring poles, repair notices, and engineering plazas.",
-      "emotionalIdentity": "Measured, bureaucratic, civic-minded, and quietly powerful.",
+      "districtNumber": 5,
+      "districtId": "D05",
+      "sectionNumber": 2,
+      "name": "D05 — Cargo Yard Landmark Approach",
+      "civicPurpose": "This district turns Section 2's source-backed anchor set into a board-scale civic space: Warehousing / Logistics Civic Hall, Cargo Yard, Warehousing Logistics Gold-Seal Monument, Inventory Hall Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Auric Plume.",
+      "visualIdentity": "Use Cargo Yard as the main read. Keep exact source anchors visible where applicable: Warehousing / Logistics Civic Hall, Cargo Yard, Warehousing Logistics Gold-Seal Monument, Inventory Hall Nook. The district should share Auric Plume's colorful ornamental avian folk identity, Seashell, Coral Stone, Pale Marble Stone, Canvas, and Coastal Edge, Seawall Edge, Harbor Basin without becoming generic.",
+      "emotionalIdentity": "Public-facing, with Auric Plume's larger mood shaped by Pearl-Feather Roost of the Thousand Fans, Patchwork Hall Beacon, and Feather Fan Roofs Tide-Seal Citadel.",
       "gameplayAssetNeeds": [
-        "Survey Hall",
-        "Permit Yard",
-        "Blue-Lamp Monument",
-        "map tables",
-        "dock repair markers",
-        "surveyors and permit clerks"
+        "Cargo Yard",
+        "Warehousing / Logistics Civic Hall",
+        "Warehousing Logistics Gold-Seal Monument",
+        "Inventory Hall Nook",
+        "Section 2 pedestrian-scale props",
+        "Auric Plume civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
       ],
       "narrativeUse": [
-        "route disputes",
-        "infrastructure sabotage",
-        "permit delays",
-        "municipal politics",
-        "public works as hidden power"
+        "scenes centered on Cargo Yard",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
       ],
-      "landmark": "Survey Hall",
+      "landmark": "Cargo Yard",
       "minorLandmarks": [
+        "Warehousing / Logistics Civic Hall",
+        "Warehousing Logistics Gold-Seal Monument",
+        "Inventory Hall Nook"
+      ]
+    },
+    {
+      "districtNumber": 9,
+      "districtId": "D09",
+      "sectionNumber": 2,
+      "name": "D09 — Warehousing Logistics Gold-Seal Monument Monument Frontage",
+      "civicPurpose": "This district turns Section 2's source-backed anchor set into a board-scale civic space: Warehousing / Logistics Civic Hall, Cargo Yard, Warehousing Logistics Gold-Seal Monument, Inventory Hall Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Auric Plume.",
+      "visualIdentity": "Use Warehousing Logistics Gold-Seal Monument as the main read. Keep exact source anchors visible where applicable: Warehousing / Logistics Civic Hall, Cargo Yard, Warehousing Logistics Gold-Seal Monument, Inventory Hall Nook. The district should share Auric Plume's colorful ornamental avian folk identity, Seashell, Coral Stone, Pale Marble Stone, Canvas, and Coastal Edge, Seawall Edge, Harbor Basin without becoming generic.",
+      "emotionalIdentity": "Memorial or symbolic, with Auric Plume's larger mood shaped by Pearl-Feather Roost of the Thousand Fans, Patchwork Hall Beacon, and Feather Fan Roofs Tide-Seal Citadel.",
+      "gameplayAssetNeeds": [
+        "Warehousing Logistics Gold-Seal Monument",
+        "Warehousing / Logistics Civic Hall",
+        "Cargo Yard",
+        "Inventory Hall Nook",
+        "Section 2 pedestrian-scale props",
+        "Auric Plume civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Warehousing Logistics Gold-Seal Monument",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Warehousing Logistics Gold-Seal Monument",
+      "minorLandmarks": [
+        "Warehousing / Logistics Civic Hall",
+        "Cargo Yard",
+        "Inventory Hall Nook"
+      ]
+    },
+    {
+      "districtNumber": 10,
+      "districtId": "D10",
+      "sectionNumber": 2,
+      "name": "D10 — Inventory Hall Nook Neighborhood Nook",
+      "civicPurpose": "This district turns Section 2's source-backed anchor set into a board-scale civic space: Warehousing / Logistics Civic Hall, Cargo Yard, Warehousing Logistics Gold-Seal Monument, Inventory Hall Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Auric Plume.",
+      "visualIdentity": "Use Inventory Hall Nook as the main read. Keep exact source anchors visible where applicable: Warehousing / Logistics Civic Hall, Cargo Yard, Warehousing Logistics Gold-Seal Monument, Inventory Hall Nook. The district should share Auric Plume's colorful ornamental avian folk identity, Seashell, Coral Stone, Pale Marble Stone, Canvas, and Coastal Edge, Seawall Edge, Harbor Basin without becoming generic.",
+      "emotionalIdentity": "Intimate and lived-in, with Auric Plume's larger mood shaped by Pearl-Feather Roost of the Thousand Fans, Patchwork Hall Beacon, and Feather Fan Roofs Tide-Seal Citadel.",
+      "gameplayAssetNeeds": [
+        "Inventory Hall Nook",
+        "Warehousing / Logistics Civic Hall",
+        "Cargo Yard",
+        "Warehousing Logistics Gold-Seal Monument",
+        "Section 2 pedestrian-scale props",
+        "Auric Plume civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Inventory Hall Nook",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Inventory Hall Nook",
+      "minorLandmarks": [
+        "Warehousing / Logistics Civic Hall",
+        "Cargo Yard",
+        "Warehousing Logistics Gold-Seal Monument"
+      ]
+    },
+    {
+      "districtNumber": 15,
+      "districtId": "D15",
+      "sectionNumber": 2,
+      "name": "D15 — Warehousing / Logistics Civic Hall Supporting Streets",
+      "civicPurpose": "This district turns Section 2's source-backed anchor set into a board-scale civic space: Warehousing / Logistics Civic Hall, Cargo Yard, Warehousing Logistics Gold-Seal Monument, Inventory Hall Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Auric Plume.",
+      "visualIdentity": "Use Warehousing / Logistics Civic Hall as the main read. Keep exact source anchors visible where applicable: Warehousing / Logistics Civic Hall, Cargo Yard, Warehousing Logistics Gold-Seal Monument, Inventory Hall Nook. The district should share Auric Plume's colorful ornamental avian folk identity, Seashell, Coral Stone, Pale Marble Stone, Canvas, and Coastal Edge, Seawall Edge, Harbor Basin without becoming generic.",
+      "emotionalIdentity": "Connective and practical, with Auric Plume's larger mood shaped by Pearl-Feather Roost of the Thousand Fans, Patchwork Hall Beacon, and Feather Fan Roofs Tide-Seal Citadel.",
+      "gameplayAssetNeeds": [
+        "Warehousing / Logistics Civic Hall",
+        "Cargo Yard",
+        "Warehousing Logistics Gold-Seal Monument",
+        "Inventory Hall Nook",
+        "Section 2 pedestrian-scale props",
+        "Auric Plume civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Warehousing / Logistics Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Warehousing / Logistics Civic Hall",
+      "minorLandmarks": [
+        "Cargo Yard",
+        "Warehousing Logistics Gold-Seal Monument",
+        "Inventory Hall Nook"
+      ]
+    },
+    {
+      "districtNumber": 8,
+      "districtId": "D08",
+      "sectionNumber": 3,
+      "name": "D08 — Public Works Authority Hall Civic-Anchor Precinct",
+      "civicPurpose": "This district turns Section 3's source-backed anchor set into a board-scale civic space: Public Works Authority Hall, Survey Hall, Blue-Lamp Monument, Permit Yard Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Auric Plume.",
+      "visualIdentity": "Use Public Works Authority Hall as the main read. Keep exact source anchors visible where applicable: Public Works Authority Hall, Survey Hall, Blue-Lamp Monument, Permit Yard Nook. The district should share Auric Plume's colorful ornamental avian folk identity, Seashell, Coral Stone, Pale Marble Stone, Canvas, and Coastal Edge, Seawall Edge, Harbor Basin without becoming generic.",
+      "emotionalIdentity": "Locally grounded, with Auric Plume's larger mood shaped by Pearl-Feather Roost of the Thousand Fans, Patchwork Hall Beacon, and Feather Fan Roofs Tide-Seal Citadel.",
+      "gameplayAssetNeeds": [
+        "Public Works Authority Hall",
+        "Survey Hall",
+        "Blue-Lamp Monument",
+        "Permit Yard Nook",
+        "Section 3 pedestrian-scale props",
+        "Auric Plume civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Public Works Authority Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Public Works Authority Hall",
+      "minorLandmarks": [
+        "Survey Hall",
+        "Blue-Lamp Monument",
         "Permit Yard Nook"
       ]
     },
     {
-      "sectionNumber": 4,
-      "name": "Observatory / Astronomy",
-      "civicPurpose": "Maritime navigation, long-cycle planning, star-chart authority, celestial prediction, and harbor-route legitimacy.",
-      "visualIdentity": "Star observatory towers, celestial courts, star navigation monuments, blue-gold instruments, charts, lenses, and high terraces above harbor water.",
-      "emotionalIdentity": "Elevated, precise, contemplative, and politically useful.",
+      "districtNumber": 12,
+      "districtId": "D12",
+      "sectionNumber": 3,
+      "name": "D12 — Survey Hall Landmark Approach",
+      "civicPurpose": "This district turns Section 3's source-backed anchor set into a board-scale civic space: Public Works Authority Hall, Survey Hall, Blue-Lamp Monument, Permit Yard Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Auric Plume.",
+      "visualIdentity": "Use Survey Hall as the main read. Keep exact source anchors visible where applicable: Public Works Authority Hall, Survey Hall, Blue-Lamp Monument, Permit Yard Nook. The district should share Auric Plume's colorful ornamental avian folk identity, Seashell, Coral Stone, Pale Marble Stone, Canvas, and Coastal Edge, Seawall Edge, Harbor Basin without becoming generic.",
+      "emotionalIdentity": "Public-facing, with Auric Plume's larger mood shaped by Pearl-Feather Roost of the Thousand Fans, Patchwork Hall Beacon, and Feather Fan Roofs Tide-Seal Citadel.",
       "gameplayAssetNeeds": [
-        "Star Observatory",
-        "Star Navigation Monument",
-        "Celestial Court",
-        "star instruments",
-        "charts and lenses",
-        "navigator scholars"
+        "Survey Hall",
+        "Public Works Authority Hall",
+        "Blue-Lamp Monument",
+        "Permit Yard Nook",
+        "Section 3 pedestrian-scale props",
+        "Auric Plume civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
       ],
       "narrativeUse": [
-        "navigation decisions",
-        "star-chart disputes",
-        "long-cycle prophecy pressure",
-        "quiet expert scenes",
-        "citywide route planning"
+        "scenes centered on Survey Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
       ],
-      "landmark": "Star Observatory",
+      "landmark": "Survey Hall",
       "minorLandmarks": [
+        "Public Works Authority Hall",
+        "Blue-Lamp Monument",
+        "Permit Yard Nook"
+      ]
+    },
+    {
+      "districtNumber": 13,
+      "districtId": "D13",
+      "sectionNumber": 3,
+      "name": "D13 — Feather Fan Roofs Tide-Seal Citadel Seat of Power District",
+      "civicPurpose": "This district turns Section 3's source-backed anchor set into a board-scale civic space: Public Works Authority Hall, Survey Hall, Blue-Lamp Monument, Permit Yard Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Auric Plume.",
+      "visualIdentity": "Use Feather Fan Roofs Tide-Seal Citadel as the main read. Keep exact source anchors visible where applicable: Public Works Authority Hall, Survey Hall, Blue-Lamp Monument, Permit Yard Nook. The district should share Auric Plume's colorful ornamental avian folk identity, Seashell, Coral Stone, Pale Marble Stone, Canvas, and Coastal Edge, Seawall Edge, Harbor Basin without becoming generic.",
+      "emotionalIdentity": "Memorial or symbolic, with Auric Plume's larger mood shaped by Pearl-Feather Roost of the Thousand Fans, Patchwork Hall Beacon, and Feather Fan Roofs Tide-Seal Citadel.",
+      "gameplayAssetNeeds": [
+        "Feather Fan Roofs Tide-Seal Citadel",
+        "Public Works Authority Hall",
+        "Survey Hall",
+        "Blue-Lamp Monument",
+        "Permit Yard Nook",
+        "Section 3 pedestrian-scale props",
+        "Auric Plume civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Feather Fan Roofs Tide-Seal Citadel",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "Conjunction response, rumor spread, or authority pressure"
+      ],
+      "landmark": "Feather Fan Roofs Tide-Seal Citadel",
+      "minorLandmarks": [
+        "Public Works Authority Hall",
+        "Survey Hall",
+        "Blue-Lamp Monument",
+        "Permit Yard Nook"
+      ]
+    },
+    {
+      "districtNumber": 14,
+      "districtId": "D14",
+      "sectionNumber": 3,
+      "name": "D14 — Permit Yard Nook Neighborhood Nook",
+      "civicPurpose": "This district turns Section 3's source-backed anchor set into a board-scale civic space: Public Works Authority Hall, Survey Hall, Blue-Lamp Monument, Permit Yard Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Auric Plume.",
+      "visualIdentity": "Use Permit Yard Nook as the main read. Keep exact source anchors visible where applicable: Public Works Authority Hall, Survey Hall, Blue-Lamp Monument, Permit Yard Nook. The district should share Auric Plume's colorful ornamental avian folk identity, Seashell, Coral Stone, Pale Marble Stone, Canvas, and Coastal Edge, Seawall Edge, Harbor Basin without becoming generic.",
+      "emotionalIdentity": "Intimate and lived-in, with Auric Plume's larger mood shaped by Pearl-Feather Roost of the Thousand Fans, Patchwork Hall Beacon, and Feather Fan Roofs Tide-Seal Citadel.",
+      "gameplayAssetNeeds": [
+        "Permit Yard Nook",
+        "Public Works Authority Hall",
+        "Survey Hall",
+        "Blue-Lamp Monument",
+        "Section 3 pedestrian-scale props",
+        "Auric Plume civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Permit Yard Nook",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Permit Yard Nook",
+      "minorLandmarks": [
+        "Public Works Authority Hall",
+        "Survey Hall",
+        "Blue-Lamp Monument"
+      ]
+    },
+    {
+      "districtNumber": 18,
+      "districtId": "D18",
+      "sectionNumber": 3,
+      "name": "D18 — Public Works Authority Hall Supporting Streets",
+      "civicPurpose": "This district turns Section 3's source-backed anchor set into a board-scale civic space: Public Works Authority Hall, Survey Hall, Blue-Lamp Monument, Permit Yard Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Auric Plume.",
+      "visualIdentity": "Use Public Works Authority Hall as the main read. Keep exact source anchors visible where applicable: Public Works Authority Hall, Survey Hall, Blue-Lamp Monument, Permit Yard Nook. The district should share Auric Plume's colorful ornamental avian folk identity, Seashell, Coral Stone, Pale Marble Stone, Canvas, and Coastal Edge, Seawall Edge, Harbor Basin without becoming generic.",
+      "emotionalIdentity": "Connective and practical, with Auric Plume's larger mood shaped by Pearl-Feather Roost of the Thousand Fans, Patchwork Hall Beacon, and Feather Fan Roofs Tide-Seal Citadel.",
+      "gameplayAssetNeeds": [
+        "Public Works Authority Hall",
+        "Survey Hall",
+        "Blue-Lamp Monument",
+        "Permit Yard Nook",
+        "Section 3 pedestrian-scale props",
+        "Auric Plume civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Public Works Authority Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Public Works Authority Hall",
+      "minorLandmarks": [
+        "Survey Hall",
+        "Blue-Lamp Monument",
+        "Permit Yard Nook"
+      ]
+    },
+    {
+      "districtNumber": 11,
+      "districtId": "D11",
+      "sectionNumber": 4,
+      "name": "D11 — Observatory / Astronomy Civic Hall Civic-Anchor Precinct",
+      "civicPurpose": "This district turns Section 4's source-backed anchor set into a board-scale civic space: Observatory / Astronomy Civic Hall, Star Observatory, Star Navigation Monument, Celestial Court Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Auric Plume.",
+      "visualIdentity": "Use Observatory / Astronomy Civic Hall as the main read. Keep exact source anchors visible where applicable: Observatory / Astronomy Civic Hall, Star Observatory, Star Navigation Monument, Celestial Court Nook. The district should share Auric Plume's colorful ornamental avian folk identity, Seashell, Coral Stone, Pale Marble Stone, Canvas, and Coastal Edge, Seawall Edge, Harbor Basin without becoming generic.",
+      "emotionalIdentity": "Locally grounded, with Auric Plume's larger mood shaped by Pearl-Feather Roost of the Thousand Fans, Patchwork Hall Beacon, and Feather Fan Roofs Tide-Seal Citadel.",
+      "gameplayAssetNeeds": [
+        "Observatory / Astronomy Civic Hall",
+        "Star Observatory",
+        "Star Navigation Monument",
+        "Celestial Court Nook",
+        "Section 4 pedestrian-scale props",
+        "Auric Plume civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Observatory / Astronomy Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Observatory / Astronomy Civic Hall",
+      "minorLandmarks": [
+        "Star Observatory",
+        "Star Navigation Monument",
         "Celestial Court Nook"
       ]
     },
     {
-      "sectionNumber": 5,
-      "name": "Harbor Campus",
-      "civicPurpose": "Harbor ceremony, public vows, arrivals, departures, maritime mourning, and sacred-facing civic identity.",
-      "visualIdentity": "Harbor Basilica, pearl-like domes, Harbor Arch, Harbor Bridgelet, water-facing plazas, wet stone, banners, and ceremonial approaches.",
-      "emotionalIdentity": "Ceremonial, luminous, communal, and threshold-oriented.",
+      "districtNumber": 16,
+      "districtId": "D16",
+      "sectionNumber": 4,
+      "name": "D16 — Star Observatory Landmark Approach",
+      "civicPurpose": "This district turns Section 4's source-backed anchor set into a board-scale civic space: Observatory / Astronomy Civic Hall, Star Observatory, Star Navigation Monument, Celestial Court Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Auric Plume.",
+      "visualIdentity": "Use Star Observatory as the main read. Keep exact source anchors visible where applicable: Observatory / Astronomy Civic Hall, Star Observatory, Star Navigation Monument, Celestial Court Nook. The district should share Auric Plume's colorful ornamental avian folk identity, Seashell, Coral Stone, Pale Marble Stone, Canvas, and Coastal Edge, Seawall Edge, Harbor Basin without becoming generic.",
+      "emotionalIdentity": "Public-facing, with Auric Plume's larger mood shaped by Pearl-Feather Roost of the Thousand Fans, Patchwork Hall Beacon, and Feather Fan Roofs Tide-Seal Citadel.",
       "gameplayAssetNeeds": [
-        "Harbor Basilica",
-        "Harbor Arch",
-        "Harbor Bridgelet",
-        "water-facing plaza",
-        "pearl domes",
-        "ceremonial harbor crowds"
+        "Star Observatory",
+        "Observatory / Astronomy Civic Hall",
+        "Star Navigation Monument",
+        "Celestial Court Nook",
+        "Section 4 pedestrian-scale props",
+        "Auric Plume civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
       ],
       "narrativeUse": [
-        "arrival and departure",
-        "public vows",
-        "mourning rites",
-        "harbor ceremony",
-        "sacred civic display"
+        "scenes centered on Star Observatory",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Star Observatory",
+      "minorLandmarks": [
+        "Observatory / Astronomy Civic Hall",
+        "Star Navigation Monument",
+        "Celestial Court Nook"
+      ]
+    },
+    {
+      "districtNumber": 17,
+      "districtId": "D17",
+      "sectionNumber": 4,
+      "name": "D17 — Star Navigation Monument Monument Frontage",
+      "civicPurpose": "This district turns Section 4's source-backed anchor set into a board-scale civic space: Observatory / Astronomy Civic Hall, Star Observatory, Star Navigation Monument, Celestial Court Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Auric Plume.",
+      "visualIdentity": "Use Star Navigation Monument as the main read. Keep exact source anchors visible where applicable: Observatory / Astronomy Civic Hall, Star Observatory, Star Navigation Monument, Celestial Court Nook. The district should share Auric Plume's colorful ornamental avian folk identity, Seashell, Coral Stone, Pale Marble Stone, Canvas, and Coastal Edge, Seawall Edge, Harbor Basin without becoming generic.",
+      "emotionalIdentity": "Memorial or symbolic, with Auric Plume's larger mood shaped by Pearl-Feather Roost of the Thousand Fans, Patchwork Hall Beacon, and Feather Fan Roofs Tide-Seal Citadel.",
+      "gameplayAssetNeeds": [
+        "Star Navigation Monument",
+        "Observatory / Astronomy Civic Hall",
+        "Star Observatory",
+        "Celestial Court Nook",
+        "Section 4 pedestrian-scale props",
+        "Auric Plume civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Star Navigation Monument",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Star Navigation Monument",
+      "minorLandmarks": [
+        "Observatory / Astronomy Civic Hall",
+        "Star Observatory",
+        "Celestial Court Nook"
+      ]
+    },
+    {
+      "districtNumber": 21,
+      "districtId": "D21",
+      "sectionNumber": 4,
+      "name": "D21 — Celestial Court Nook Neighborhood Nook",
+      "civicPurpose": "This district turns Section 4's source-backed anchor set into a board-scale civic space: Observatory / Astronomy Civic Hall, Star Observatory, Star Navigation Monument, Celestial Court Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Auric Plume.",
+      "visualIdentity": "Use Celestial Court Nook as the main read. Keep exact source anchors visible where applicable: Observatory / Astronomy Civic Hall, Star Observatory, Star Navigation Monument, Celestial Court Nook. The district should share Auric Plume's colorful ornamental avian folk identity, Seashell, Coral Stone, Pale Marble Stone, Canvas, and Coastal Edge, Seawall Edge, Harbor Basin without becoming generic.",
+      "emotionalIdentity": "Intimate and lived-in, with Auric Plume's larger mood shaped by Pearl-Feather Roost of the Thousand Fans, Patchwork Hall Beacon, and Feather Fan Roofs Tide-Seal Citadel.",
+      "gameplayAssetNeeds": [
+        "Celestial Court Nook",
+        "Observatory / Astronomy Civic Hall",
+        "Star Observatory",
+        "Star Navigation Monument",
+        "Section 4 pedestrian-scale props",
+        "Auric Plume civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Celestial Court Nook",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Celestial Court Nook",
+      "minorLandmarks": [
+        "Observatory / Astronomy Civic Hall",
+        "Star Observatory",
+        "Star Navigation Monument"
+      ]
+    },
+    {
+      "districtNumber": 22,
+      "districtId": "D22",
+      "sectionNumber": 4,
+      "name": "D22 — Observatory / Astronomy Civic Hall Supporting Streets",
+      "civicPurpose": "This district turns Section 4's source-backed anchor set into a board-scale civic space: Observatory / Astronomy Civic Hall, Star Observatory, Star Navigation Monument, Celestial Court Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Auric Plume.",
+      "visualIdentity": "Use Observatory / Astronomy Civic Hall as the main read. Keep exact source anchors visible where applicable: Observatory / Astronomy Civic Hall, Star Observatory, Star Navigation Monument, Celestial Court Nook. The district should share Auric Plume's colorful ornamental avian folk identity, Seashell, Coral Stone, Pale Marble Stone, Canvas, and Coastal Edge, Seawall Edge, Harbor Basin without becoming generic.",
+      "emotionalIdentity": "Connective and practical, with Auric Plume's larger mood shaped by Pearl-Feather Roost of the Thousand Fans, Patchwork Hall Beacon, and Feather Fan Roofs Tide-Seal Citadel.",
+      "gameplayAssetNeeds": [
+        "Observatory / Astronomy Civic Hall",
+        "Star Observatory",
+        "Star Navigation Monument",
+        "Celestial Court Nook",
+        "Section 4 pedestrian-scale props",
+        "Auric Plume civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Observatory / Astronomy Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Observatory / Astronomy Civic Hall",
+      "minorLandmarks": [
+        "Star Observatory",
+        "Star Navigation Monument",
+        "Celestial Court Nook"
+      ]
+    },
+    {
+      "districtNumber": 19,
+      "districtId": "D19",
+      "sectionNumber": 5,
+      "name": "D19 — S5 Harbor Campus Civic-Anchor Precinct",
+      "civicPurpose": "This district turns Section 5's source-backed anchor set into a board-scale civic space: S5 Harbor Campus, Harbor Basilica, S5 Harbor Arch, S5 Harbor Bridgelet. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Auric Plume.",
+      "visualIdentity": "Use S5 Harbor Campus as the main read. Keep exact source anchors visible where applicable: S5 Harbor Campus, Harbor Basilica, S5 Harbor Arch, S5 Harbor Bridgelet. The district should share Auric Plume's colorful ornamental avian folk identity, Seashell, Coral Stone, Pale Marble Stone, Canvas, and Coastal Edge, Seawall Edge, Harbor Basin without becoming generic.",
+      "emotionalIdentity": "Locally grounded, with Auric Plume's larger mood shaped by Pearl-Feather Roost of the Thousand Fans, Patchwork Hall Beacon, and Feather Fan Roofs Tide-Seal Citadel.",
+      "gameplayAssetNeeds": [
+        "S5 Harbor Campus",
+        "Harbor Basilica",
+        "S5 Harbor Arch",
+        "S5 Harbor Bridgelet",
+        "Section 5 pedestrian-scale props",
+        "Auric Plume civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on S5 Harbor Campus",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "S5 Harbor Campus",
+      "minorLandmarks": [
+        "Harbor Basilica",
+        "S5 Harbor Arch",
+        "S5 Harbor Bridgelet"
+      ]
+    },
+    {
+      "districtNumber": 20,
+      "districtId": "D20",
+      "sectionNumber": 5,
+      "name": "D20 — Harbor Basilica Landmark Approach",
+      "civicPurpose": "This district turns Section 5's source-backed anchor set into a board-scale civic space: S5 Harbor Campus, Harbor Basilica, S5 Harbor Arch, S5 Harbor Bridgelet. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Auric Plume.",
+      "visualIdentity": "Use Harbor Basilica as the main read. Keep exact source anchors visible where applicable: S5 Harbor Campus, Harbor Basilica, S5 Harbor Arch, S5 Harbor Bridgelet. The district should share Auric Plume's colorful ornamental avian folk identity, Seashell, Coral Stone, Pale Marble Stone, Canvas, and Coastal Edge, Seawall Edge, Harbor Basin without becoming generic.",
+      "emotionalIdentity": "Public-facing, with Auric Plume's larger mood shaped by Pearl-Feather Roost of the Thousand Fans, Patchwork Hall Beacon, and Feather Fan Roofs Tide-Seal Citadel.",
+      "gameplayAssetNeeds": [
+        "Harbor Basilica",
+        "S5 Harbor Campus",
+        "S5 Harbor Arch",
+        "S5 Harbor Bridgelet",
+        "Section 5 pedestrian-scale props",
+        "Auric Plume civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Harbor Basilica",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
       ],
       "landmark": "Harbor Basilica",
       "minorLandmarks": [
-        "Harbor Bridgelet"
+        "S5 Harbor Campus",
+        "S5 Harbor Arch",
+        "S5 Harbor Bridgelet"
+      ]
+    },
+    {
+      "districtNumber": 23,
+      "districtId": "D23",
+      "sectionNumber": 5,
+      "name": "D23 — S5 Harbor Arch Monument Frontage",
+      "civicPurpose": "This district turns Section 5's source-backed anchor set into a board-scale civic space: S5 Harbor Campus, Harbor Basilica, S5 Harbor Arch, S5 Harbor Bridgelet. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Auric Plume.",
+      "visualIdentity": "Use S5 Harbor Arch as the main read. Keep exact source anchors visible where applicable: S5 Harbor Campus, Harbor Basilica, S5 Harbor Arch, S5 Harbor Bridgelet. The district should share Auric Plume's colorful ornamental avian folk identity, Seashell, Coral Stone, Pale Marble Stone, Canvas, and Coastal Edge, Seawall Edge, Harbor Basin without becoming generic.",
+      "emotionalIdentity": "Memorial or symbolic, with Auric Plume's larger mood shaped by Pearl-Feather Roost of the Thousand Fans, Patchwork Hall Beacon, and Feather Fan Roofs Tide-Seal Citadel.",
+      "gameplayAssetNeeds": [
+        "S5 Harbor Arch",
+        "S5 Harbor Campus",
+        "Harbor Basilica",
+        "S5 Harbor Bridgelet",
+        "Section 5 pedestrian-scale props",
+        "Auric Plume civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on S5 Harbor Arch",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "S5 Harbor Arch",
+      "minorLandmarks": [
+        "S5 Harbor Campus",
+        "Harbor Basilica",
+        "S5 Harbor Bridgelet"
+      ]
+    },
+    {
+      "districtNumber": 24,
+      "districtId": "D24",
+      "sectionNumber": 5,
+      "name": "D24 — S5 Harbor Bridgelet Neighborhood Nook",
+      "civicPurpose": "This district turns Section 5's source-backed anchor set into a board-scale civic space: S5 Harbor Campus, Harbor Basilica, S5 Harbor Arch, S5 Harbor Bridgelet. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Auric Plume.",
+      "visualIdentity": "Use S5 Harbor Bridgelet as the main read. Keep exact source anchors visible where applicable: S5 Harbor Campus, Harbor Basilica, S5 Harbor Arch, S5 Harbor Bridgelet. The district should share Auric Plume's colorful ornamental avian folk identity, Seashell, Coral Stone, Pale Marble Stone, Canvas, and Coastal Edge, Seawall Edge, Harbor Basin without becoming generic.",
+      "emotionalIdentity": "Intimate and lived-in, with Auric Plume's larger mood shaped by Pearl-Feather Roost of the Thousand Fans, Patchwork Hall Beacon, and Feather Fan Roofs Tide-Seal Citadel.",
+      "gameplayAssetNeeds": [
+        "S5 Harbor Bridgelet",
+        "S5 Harbor Campus",
+        "Harbor Basilica",
+        "S5 Harbor Arch",
+        "Section 5 pedestrian-scale props",
+        "Auric Plume civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on S5 Harbor Bridgelet",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "S5 Harbor Bridgelet",
+      "minorLandmarks": [
+        "S5 Harbor Campus",
+        "Harbor Basilica",
+        "S5 Harbor Arch"
+      ]
+    },
+    {
+      "districtNumber": 25,
+      "districtId": "D25",
+      "sectionNumber": 5,
+      "name": "D25 — S5 Harbor Campus Supporting Streets",
+      "civicPurpose": "This district turns Section 5's source-backed anchor set into a board-scale civic space: S5 Harbor Campus, Harbor Basilica, S5 Harbor Arch, S5 Harbor Bridgelet. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Auric Plume.",
+      "visualIdentity": "Use S5 Harbor Campus as the main read. Keep exact source anchors visible where applicable: S5 Harbor Campus, Harbor Basilica, S5 Harbor Arch, S5 Harbor Bridgelet. The district should share Auric Plume's colorful ornamental avian folk identity, Seashell, Coral Stone, Pale Marble Stone, Canvas, and Coastal Edge, Seawall Edge, Harbor Basin without becoming generic.",
+      "emotionalIdentity": "Connective and practical, with Auric Plume's larger mood shaped by Pearl-Feather Roost of the Thousand Fans, Patchwork Hall Beacon, and Feather Fan Roofs Tide-Seal Citadel.",
+      "gameplayAssetNeeds": [
+        "S5 Harbor Campus",
+        "Harbor Basilica",
+        "S5 Harbor Arch",
+        "S5 Harbor Bridgelet",
+        "Section 5 pedestrian-scale props",
+        "Auric Plume civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on S5 Harbor Campus",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "S5 Harbor Campus",
+      "minorLandmarks": [
+        "Harbor Basilica",
+        "S5 Harbor Arch",
+        "S5 Harbor Bridgelet"
       ]
     }
   ],
   "landmarks": {
     "wonder": {
       "name": "Pearl-Feather Roost of the Thousand Fans",
-      "symbolicRole": "Collective display made stable, navigable, magnificent, and civic.",
-      "visualRole": "Dominant pearl-and-feather skyline structure with enormous fan forms, roost-like terraces, bright domes, gold trim, and harbor-facing spectacle.",
-      "civicRole": "The public emblem of Auric Plume's reputation system, festival identity, harbor pride, and visible unity.",
+      "symbolicRole": "Pearl-Feather Roost of the Thousand Fans concentrates Auric Plume's local symbolism into a usable civic landmark: city wonder, separate far skyline anchor.",
+      "visualRole": "A one-per-city wonder: spectacular, unmistakable, and larger than every section landmark. It turns Auric Plume's geography, race identity, material culture, and civic magic into one public symbol. Built for Auric Plume's colorful ornamental avian folk population, it uses Seashell, Coral Stone, Pale Marble Stone, Canvas, Silk across Coastal Edge, Seawall Edge, Harbor Basin; water context: Coast; magic expression: Beast Bonding, Ancestor Guidance, Flock Sight. It must read clearly as a high-fantasy tactical-board asset with no baked labels or text.",
+      "civicRole": "Serves as city wonder, separate far skyline anchor within Auric Plume; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
       "narrativeUse": [
-        "public beauty carrying political meaning",
-        "festival gatherings",
-        "trade celebrations",
-        "civic vows",
-        "moments where spectacle reveals real power"
+        "stage scenes involving Pearl-Feather Roost of the Thousand Fans",
+        "show how Auric Plume turns landmark symbolism into civic pressure",
+        "anchor public movement and crowd behavior",
+        "give writers a concrete place for announcements, disputes, errands, or rituals"
       ],
       "assetUse": [
-        "map background skyline anchor",
-        "hero-view landmark",
-        "diorama backdrop for ceremonial districts",
-        "visual identifier for Auric Plume"
+        "city landmark asset",
+        "map background landmark marker",
+        "visual continuity anchor across hero and street scenes",
+        "scale reference for civilians, roads, plazas, and props"
       ],
       "sensoryIdentity": [
-        "pearl gleam",
-        "fabric and feather forms moving in sea wind",
-        "gold highlights",
-        "bright water reflections",
-        "crowd sound below monumental display"
+        "local foot traffic",
+        "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+        "public voices and civic work nearby",
+        "ambient city light and weathering",
+        "close pedestrian-scale details rather than abstract skyline-only treatment"
       ],
       "storyHooks": [
-        "access to the Roost becomes reputation power",
-        "a festival display hides a political move",
-        "maintenance routes reveal what the spectacle conceals",
-        "a public vow at the Roost changes cargo or harbor legitimacy"
+        "a routine civic action at Pearl-Feather Roost of the Thousand Fans becomes narratively important",
+        "the visible condition of Pearl-Feather Roost of the Thousand Fans signals political or social stress",
+        "someone uses Pearl-Feather Roost of the Thousand Fans's public function to redirect crowds or information",
+        "an overlooked detail at Pearl-Feather Roost of the Thousand Fans reveals how Auric Plume really works"
       ]
     },
     "beacon": {
       "name": "Patchwork Hall Beacon",
-      "symbolicRole": "Many civic parts joined under one public signal.",
-      "visualRole": "Tall blue-lit civic signal rising from Patchwork Hall amid plaza fabric, awnings, kiosks, and harbor-facing streets.",
-      "civicRole": "The city's public warning and assembly heart, tying Conjunction signals to civic fabric rather than remote authority.",
+      "symbolicRole": "Patchwork Hall Beacon concentrates Auric Plume's local symbolism into a usable civic landmark: Section 1 beacon, near/front civic signal anchor.",
+      "visualRole": "Patchwork Hall Beacon: the single city beacon, a towering civic signal landmark fixed to section 1. Visible signal apparatus, strong vertical silhouette, public approach space, and board-scale beacon identity.",
+      "civicRole": "Serves as Section 1 beacon, near/front civic signal anchor within Auric Plume; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
       "narrativeUse": [
-        "beacon color changes",
-        "crowd reactions",
-        "public announcements",
-        "market pauses",
-        "civic panic or coordinated response"
+        "stage scenes involving Patchwork Hall Beacon",
+        "show how Auric Plume turns landmark symbolism into civic pressure",
+        "anchor public movement and crowd behavior",
+        "give writers a concrete place for announcements, disputes, errands, or rituals"
       ],
       "assetUse": [
-        "district S1 diorama centerpiece",
-        "city signal marker",
-        "map-background focal point near civic plaza"
+        "district diorama anchor for Section 1",
+        "map background landmark marker",
+        "visual continuity anchor across hero and street scenes",
+        "scale reference for civilians, roads, plazas, and props"
       ],
       "sensoryIdentity": [
-        "blue glow",
-        "cloth awnings shifting nearby",
-        "market noise pausing at signal changes",
-        "stone plaza reflections",
-        "public notice calls"
+        "local foot traffic",
+        "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+        "public voices and civic work nearby",
+        "beacon or lamp glow when applicable",
+        "close pedestrian-scale details rather than abstract skyline-only treatment"
       ],
       "storyHooks": [
-        "someone controls the first interpretation of a beacon state",
-        "a false public notice causes reputation damage",
-        "festival lighting masks a real warning",
-        "the plaza becomes too crowded for clean evacuation"
+        "a routine civic action at Patchwork Hall Beacon becomes narratively important",
+        "the visible condition of Patchwork Hall Beacon signals political or social stress",
+        "someone uses Patchwork Hall Beacon's public function to redirect crowds or information",
+        "an overlooked detail at Patchwork Hall Beacon reveals how Auric Plume really works"
       ]
     },
     "seatOfPower": {
       "name": "Feather Fan Roofs Tide-Seal Citadel",
-      "symbolicRole": "Brightness backed by law: display formalized into maritime authority and sealed record.",
-      "visualRole": "Central citadel complex of feather fan roofs, tide-seal courts, archive wings, audience terraces, blue lamps, pearl accents, and harbor-facing approaches.",
-      "civicRole": "Government center for tide seals, cargo permissions, harbor access, public ceremonies, archives, and maritime rulings.",
+      "symbolicRole": "Feather Fan Roofs Tide-Seal Citadel concentrates Auric Plume's local symbolism into a usable civic landmark: dominant central civic anchor / District 13 seat of power.",
+      "visualRole": "The district-13 seat of power: courts, audience terraces, sealed archives, command platforms, and the visible apparatus of government. It is not a faction HQ; it is the city's central civic authority. Built for Auric Plume's colorful ornamental avian folk population, it uses Seashell, Coral Stone, Pale Marble Stone, Canvas, Silk across Coastal Edge, Seawall Edge, Harbor Basin; water context: Coast; magic expression: Beast Bonding, Ancestor Guidance, Flock Sight. It must read clearly as a high-fantasy tactical-board asset with no baked labels or text.",
+      "civicRole": "Serves as dominant central civic anchor / District 13 seat of power within Auric Plume; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
       "narrativeUse": [
-        "cargo rulings",
-        "public petitions",
-        "archive sealing",
-        "harbor permissions",
-        "tide-law ceremonies",
-        "political use of reputation"
+        "stage scenes involving Feather Fan Roofs Tide-Seal Citadel",
+        "show how Auric Plume turns landmark symbolism into civic pressure",
+        "anchor public movement and crowd behavior",
+        "give writers a concrete place for announcements, disputes, errands, or rituals"
       ],
       "assetUse": [
-        "map background seat-of-power label",
-        "central authority district iconography",
-        "diorama backdrop for governmental scenes"
+        "city landmark asset",
+        "map background landmark marker",
+        "visual continuity anchor across hero and street scenes",
+        "scale reference for civilians, roads, plazas, and props"
       ],
       "sensoryIdentity": [
-        "blue lamp glow",
-        "polished seals",
-        "fan-roof shadows",
-        "formal terraces",
-        "harbor wind through banners"
+        "local foot traffic",
+        "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+        "public voices and civic work nearby",
+        "ambient city light and weathering",
+        "close pedestrian-scale details rather than abstract skyline-only treatment"
       ],
       "storyHooks": [
-        "a tide-seal contradiction threatens a cargo house",
-        "public display rights become political leverage",
-        "citadel ceremony masks a legal reversal",
-        "seal runners expose hidden maintenance routes"
+        "a routine civic action at Feather Fan Roofs Tide-Seal Citadel becomes narratively important",
+        "the visible condition of Feather Fan Roofs Tide-Seal Citadel signals political or social stress",
+        "someone uses Feather Fan Roofs Tide-Seal Citadel's public function to redirect crowds or information",
+        "an overlooked detail at Feather Fan Roofs Tide-Seal Citadel reveals how Auric Plume really works"
       ]
     },
     "majorLandmarks": [
       {
-        "name": "Cargo Yard",
-        "symbolicRole": "Public trust in goods made visible.",
-        "visualRole": "Crates, ropes, cargo ledgers, inventory boards, seal counters, and bright dockside workspaces.",
-        "civicRole": "Manages goods entering and leaving the city and anchors maritime reputation.",
+        "name": "Harbor Basilica",
+        "symbolicRole": "Harbor Basilica concentrates Auric Plume's local symbolism into a usable civic landmark: additional major landmark selected for this hero-view camera angle.",
+        "visualRole": "Harbor Basilica: authored non-beacon major landmark for section 5. largest section focal point. strong vertical silhouette. distinct gameplay landmark. visible from nearby districts. anchors. ropes. buoys. signal lanterns. piers. quays. dock terraces. slipways.",
+        "civicRole": "Serves as additional major landmark selected for this hero-view camera angle within Auric Plume; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
         "narrativeUse": [
-          "trade evidence",
-          "cargo bottlenecks",
-          "seal fraud",
-          "dock politics"
+          "stage scenes involving Harbor Basilica",
+          "show how Auric Plume turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
         ],
         "assetUse": [
-          "S2 diorama landmark",
-          "dockside asset cluster",
-          "commerce marker on city map"
+          "district diorama anchor for Section 5",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
         ],
         "sensoryIdentity": [
-          "rope tar",
-          "wood crates",
-          "clerks calling seal numbers",
-          "salt air",
-          "cart wheels on stone"
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
         ],
         "storyHooks": [
-          "a missing cargo seal changes public trust",
-          "inventory records contradict visible goods"
+          "a routine civic action at Harbor Basilica becomes narratively important",
+          "the visible condition of Harbor Basilica signals political or social stress",
+          "someone uses Harbor Basilica's public function to redirect crowds or information",
+          "an overlooked detail at Harbor Basilica reveals how Auric Plume really works"
         ]
       },
       {
-        "name": "Survey Hall",
-        "symbolicRole": "The harbor measured, repaired, and made safe.",
-        "visualRole": "Maps, tables, blue lamps, measuring instruments, permit boards, and civic engineering plazas.",
-        "civicRole": "Controls municipal work, dock repair, harbor route permissions, and infrastructure safety.",
+        "name": "Cargo Yard",
+        "symbolicRole": "Cargo Yard concentrates Auric Plume's local symbolism into a usable civic landmark: additional major landmark selected for this hero-view camera angle.",
+        "visualRole": "A largest local landmark in this section, subordinate only to the city wonder and citadel. It belongs to Section 2 (Warehousing / Logistics) of Auric Plume and should use White Limestone Civic Blocks, Market Arcades, Subterranean Vaults, coral stone and canvas materials, Lantern Lit, Gold Seals, Red Fabric Awnings, and the colorful ornamental avian folk visual language. Design focus: largest section focal point, strong vertical silhouette, distinct gameplay landmark, visible from nearby districts, crates. Terrain/water context: Sandy Beach; Coast. Magic expression: Salt Wards, Astral Lenses, Glass Scrying. No baked labels or text.",
+        "civicRole": "Serves as additional major landmark selected for this hero-view camera angle within Auric Plume; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
         "narrativeUse": [
-          "permit disputes",
-          "public works sabotage",
-          "route control",
-          "engineering politics"
+          "stage scenes involving Cargo Yard",
+          "show how Auric Plume turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
         ],
         "assetUse": [
-          "S3 diorama landmark",
-          "public-works asset cluster",
-          "municipal icon on map background"
+          "district diorama anchor for Section 2",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
         ],
         "sensoryIdentity": [
-          "lamp oil",
-          "paper maps",
-          "wet stone",
-          "blue civic light",
-          "metal instruments"
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
         ],
         "storyHooks": [
-          "a permit delay redirects a crowd",
-          "a repair map reveals a hidden route"
+          "a routine civic action at Cargo Yard becomes narratively important",
+          "the visible condition of Cargo Yard signals political or social stress",
+          "someone uses Cargo Yard's public function to redirect crowds or information",
+          "an overlooked detail at Cargo Yard reveals how Auric Plume really works"
         ]
       },
       {
         "name": "Star Observatory",
-        "symbolicRole": "Navigation, prediction, and sky-backed legitimacy.",
-        "visualRole": "Observatory tower, celestial court, star instruments, lenses, charts, and high harbor terraces.",
-        "civicRole": "Guides maritime decisions and long-cycle planning through celestial observation.",
+        "symbolicRole": "Star Observatory concentrates Auric Plume's local symbolism into a usable civic landmark: additional major landmark selected for this hero-view camera angle.",
+        "visualRole": "A largest local landmark in this section, subordinate only to the city wonder and citadel. It belongs to Section 4 (Observatory / Astronomy) of Auric Plume and should use Cliffside Monasteries, Archive Towers, Lecture Courts, coral stone and canvas materials, Civic Blue Glow, Star Navigation, Moon Gate Arches, and the colorful ornamental avian folk visual language. Design focus: brass rings, moon dials, observatories, lens towers, calendar courts. Terrain/water context: Sandy Beach; Coast. Magic expression: Salt Wards, Astral Lenses, Glass Scrying. No baked labels or text.",
+        "civicRole": "Serves as additional major landmark selected for this hero-view camera angle within Auric Plume; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
         "narrativeUse": [
-          "star-chart interpretation",
-          "route planning",
-          "prediction pressure",
-          "quiet expert counsel"
+          "stage scenes involving Star Observatory",
+          "show how Auric Plume turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
         ],
         "assetUse": [
-          "S4 diorama landmark",
-          "skyline tower",
-          "navigation icon for map background"
+          "district diorama anchor for Section 4",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
         ],
         "sensoryIdentity": [
-          "clicking instruments",
-          "cool glass",
-          "blue-gold light",
-          "high wind",
-          "paper charts"
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
         ],
         "storyHooks": [
-          "a star chart is read publicly but disputed privately",
-          "navigation data becomes political leverage"
+          "a routine civic action at Star Observatory becomes narratively important",
+          "the visible condition of Star Observatory signals political or social stress",
+          "someone uses Star Observatory's public function to redirect crowds or information",
+          "an overlooked detail at Star Observatory reveals how Auric Plume really works"
         ]
       },
       {
-        "name": "Harbor Basilica",
-        "symbolicRole": "Public vows, maritime mourning, and sacred harbor threshold.",
-        "visualRole": "Pearl domes, water-facing stairs, Harbor Arch, bridgelet, banners, and bright ceremonial stone.",
-        "civicRole": "Hosts ritual arrivals, departures, vows, mourning, and harbor-facing civic ceremonies.",
+        "name": "S1 Patchwork Hall",
+        "symbolicRole": "S1 Patchwork Hall concentrates Auric Plume's local symbolism into a usable civic landmark: Section 1 local anchor.",
+        "visualRole": "Patchwork Hall: authored civic gathering structure for section 1. institutional anchor. public-facing administration. clear central silhouette. board-readable entrance. patches. scrap lanterns. tarps. shared fires. shanties. salvage roofs. patched bridges. shared fires.",
+        "civicRole": "Serves as Section 1 local anchor within Auric Plume; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
         "narrativeUse": [
-          "public vows",
-          "mourning rites",
-          "arrival scenes",
-          "departure scenes",
-          "ceremonial display"
+          "stage scenes involving S1 Patchwork Hall",
+          "show how Auric Plume turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
         ],
         "assetUse": [
-          "S5 diorama landmark",
-          "waterfront religious/civic anchor",
-          "map-background harbor marker"
+          "district diorama anchor for Section 1",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
         ],
         "sensoryIdentity": [
-          "basilica bells",
-          "water against stone",
-          "lantern chains",
-          "pearl light",
-          "crowd murmurs"
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
         ],
         "storyHooks": [
-          "a vow made on the basilica steps becomes binding",
-          "a departure ceremony exposes social rank"
+          "a routine civic action at S1 Patchwork Hall becomes narratively important",
+          "the visible condition of S1 Patchwork Hall signals political or social stress",
+          "someone uses S1 Patchwork Hall's public function to redirect crowds or information",
+          "an overlooked detail at S1 Patchwork Hall reveals how Auric Plume really works"
+        ]
+      },
+      {
+        "name": "S1 Patchwork Pillar",
+        "symbolicRole": "S1 Patchwork Pillar concentrates Auric Plume's local symbolism into a usable civic landmark: Section 1 local anchor.",
+        "visualRole": "Patchwork Pillar: carved civic memorial on a raised plinth. Ceremonial gathering area, readable symbolic focal point, strong vertical silhouette.",
+        "civicRole": "Serves as Section 1 local anchor within Auric Plume; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving S1 Patchwork Pillar",
+          "show how Auric Plume turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 1",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at S1 Patchwork Pillar becomes narratively important",
+          "the visible condition of S1 Patchwork Pillar signals political or social stress",
+          "someone uses S1 Patchwork Pillar's public function to redirect crowds or information",
+          "an overlooked detail at S1 Patchwork Pillar reveals how Auric Plume really works"
+        ]
+      },
+      {
+        "name": "S1 Patchwork Kiosk",
+        "symbolicRole": "S1 Patchwork Kiosk concentrates Auric Plume's local symbolism into a usable civic landmark: Section 1 local anchor.",
+        "visualRole": "Patchwork Kiosk: compact district landmark. Small integrated platform, nearby gathering space, readable focal prop from adjacent streets.",
+        "civicRole": "Serves as Section 1 local anchor within Auric Plume; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving S1 Patchwork Kiosk",
+          "show how Auric Plume turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 1",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at S1 Patchwork Kiosk becomes narratively important",
+          "the visible condition of S1 Patchwork Kiosk signals political or social stress",
+          "someone uses S1 Patchwork Kiosk's public function to redirect crowds or information",
+          "an overlooked detail at S1 Patchwork Kiosk reveals how Auric Plume really works"
+        ]
+      },
+      {
+        "name": "Warehousing / Logistics Civic Hall",
+        "symbolicRole": "Warehousing / Logistics Civic Hall concentrates Auric Plume's local symbolism into a usable civic landmark: Section 2 local anchor.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing. It belongs to Section 2 (Warehousing / Logistics) of Auric Plume and should use Market Arcades, Subterranean Vaults, White Limestone Civic Blocks, coral stone and canvas materials, Lantern Lit, Gold Seals, Red Fabric Awnings, and the colorful ornamental avian folk visual language. Design focus: ropes, labels, stacked barrels, warehouses, loading bays. Terrain/water context: Sandy Beach; Coast. Magic expression: Salt Wards, Astral Lenses, Glass Scrying. No baked labels or text.",
+        "civicRole": "Serves as Section 2 local anchor within Auric Plume; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Warehousing / Logistics Civic Hall",
+          "show how Auric Plume turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 2",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Warehousing / Logistics Civic Hall becomes narratively important",
+          "the visible condition of Warehousing / Logistics Civic Hall signals political or social stress",
+          "someone uses Warehousing / Logistics Civic Hall's public function to redirect crowds or information",
+          "an overlooked detail at Warehousing / Logistics Civic Hall reveals how Auric Plume really works"
+        ]
+      },
+      {
+        "name": "Warehousing Logistics Gold-Seal Monument",
+        "symbolicRole": "Warehousing Logistics Gold-Seal Monument concentrates Auric Plume's local symbolism into a usable civic landmark: Section 2 local anchor.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles. It belongs to Section 2 (Warehousing / Logistics) of Auric Plume and should use White Limestone Civic Blocks, Market Arcades, Subterranean Vaults, coral stone and canvas materials, Red Fabric Awnings, Lantern Lit, Gold Seals, and the colorful ornamental avian folk visual language. Design focus: symbolic civic object, small ceremonial site, local memory marker, subordinate to major landmark, crates. Terrain/water context: Sandy Beach; Coast. Magic expression: Salt Wards, Astral Lenses, Glass Scrying. No baked labels or text.",
+        "civicRole": "Serves as Section 2 local anchor within Auric Plume; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Warehousing Logistics Gold-Seal Monument",
+          "show how Auric Plume turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 2",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Warehousing Logistics Gold-Seal Monument becomes narratively important",
+          "the visible condition of Warehousing Logistics Gold-Seal Monument signals political or social stress",
+          "someone uses Warehousing Logistics Gold-Seal Monument's public function to redirect crowds or information",
+          "an overlooked detail at Warehousing Logistics Gold-Seal Monument reveals how Auric Plume really works"
+        ]
+      },
+      {
+        "name": "Inventory Hall Nook",
+        "symbolicRole": "Inventory Hall Nook concentrates Auric Plume's local symbolism into a usable civic landmark: Section 2 local anchor.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette. It belongs to Section 2 (Warehousing / Logistics) of Auric Plume and should use Subterranean Vaults, White Limestone Civic Blocks, Market Arcades, coral stone and canvas materials, Red Fabric Awnings, Lantern Lit, Gold Seals, and the colorful ornamental avian folk visual language. Design focus: ropes, labels, stacked barrels, warehouses, loading bays. Terrain/water context: Sandy Beach; Coast. Magic expression: Salt Wards, Astral Lenses, Glass Scrying. No baked labels or text.",
+        "civicRole": "Serves as Section 2 local anchor within Auric Plume; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Inventory Hall Nook",
+          "show how Auric Plume turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 2",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Inventory Hall Nook becomes narratively important",
+          "the visible condition of Inventory Hall Nook signals political or social stress",
+          "someone uses Inventory Hall Nook's public function to redirect crowds or information",
+          "an overlooked detail at Inventory Hall Nook reveals how Auric Plume really works"
+        ]
+      },
+      {
+        "name": "Public Works Authority Hall",
+        "symbolicRole": "Public Works Authority Hall concentrates Auric Plume's local symbolism into a usable civic landmark: Section 3 local anchor.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing. It belongs to Section 3 (Public Works Authority) of Auric Plume and should use Forge Halls, Market Arcades, White Limestone Civic Blocks, coral stone and canvas materials, Civic Blue Glow, Canal Reflections, Gold Seals, and the colorful ornamental avian folk visual language. Design focus: water gauges, engineer halls, survey yards, bridge offices, repair yards. Terrain/water context: Sandy Beach; Coast. Magic expression: Salt Wards, Astral Lenses, Glass Scrying. No baked labels or text.",
+        "civicRole": "Serves as Section 3 local anchor within Auric Plume; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Public Works Authority Hall",
+          "show how Auric Plume turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 3",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Public Works Authority Hall becomes narratively important",
+          "the visible condition of Public Works Authority Hall signals political or social stress",
+          "someone uses Public Works Authority Hall's public function to redirect crowds or information",
+          "an overlooked detail at Public Works Authority Hall reveals how Auric Plume really works"
+        ]
+      },
+      {
+        "name": "Survey Hall",
+        "symbolicRole": "Survey Hall concentrates Auric Plume's local symbolism into a usable civic landmark: Section 3 local anchor.",
+        "visualRole": "A mandatory Section 3 Beacon: a culturally adapted civic signal flame / warning-light landmark visible across the city spine. It belongs to Section 3 (Public Works Authority) of Auric Plume and should use White Limestone Civic Blocks, Forge Halls, Market Arcades, coral stone and canvas materials, Civic Blue Glow, Canal Reflections, Gold Seals, and the colorful ornamental avian folk visual language. Design focus: strong vertical silhouette, distinct gameplay landmark, visible from nearby districts, measuring rods, scaffolds. Terrain/water context: Sandy Beach; Coast. Magic expression: Salt Wards, Astral Lenses, Glass Scrying. No baked labels or text.",
+        "civicRole": "Serves as Section 3 local anchor within Auric Plume; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Survey Hall",
+          "show how Auric Plume turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 3",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Survey Hall becomes narratively important",
+          "the visible condition of Survey Hall signals political or social stress",
+          "someone uses Survey Hall's public function to redirect crowds or information",
+          "an overlooked detail at Survey Hall reveals how Auric Plume really works"
+        ]
+      },
+      {
+        "name": "Blue-Lamp Monument",
+        "symbolicRole": "Blue-Lamp Monument concentrates Auric Plume's local symbolism into a usable civic landmark: Section 3 local anchor.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles. It belongs to Section 3 (Public Works Authority) of Auric Plume and should use Forge Halls, Market Arcades, White Limestone Civic Blocks, coral stone and canvas materials, Canal Reflections, Gold Seals, Civic Blue Glow, and the colorful ornamental avian folk visual language. Design focus: small ceremonial site, local memory marker, subordinate to major landmark, measuring rods, scaffolds. Terrain/water context: Sandy Beach; Coast. Magic expression: Salt Wards, Astral Lenses, Glass Scrying. No baked labels or text.",
+        "civicRole": "Serves as Section 3 local anchor within Auric Plume; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Blue-Lamp Monument",
+          "show how Auric Plume turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 3",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Blue-Lamp Monument becomes narratively important",
+          "the visible condition of Blue-Lamp Monument signals political or social stress",
+          "someone uses Blue-Lamp Monument's public function to redirect crowds or information",
+          "an overlooked detail at Blue-Lamp Monument reveals how Auric Plume really works"
+        ]
+      },
+      {
+        "name": "Permit Yard Nook",
+        "symbolicRole": "Permit Yard Nook concentrates Auric Plume's local symbolism into a usable civic landmark: Section 3 local anchor.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette. It belongs to Section 3 (Public Works Authority) of Auric Plume and should use White Limestone Civic Blocks, Forge Halls, Market Arcades, coral stone and canvas materials, Civic Blue Glow, Canal Reflections, Gold Seals, and the colorful ornamental avian folk visual language. Design focus: usable board landmark, subordinate scale, measuring rods, scaffolds, stone plans. Terrain/water context: Sandy Beach; Coast. Magic expression: Salt Wards, Astral Lenses, Glass Scrying. No baked labels or text.",
+        "civicRole": "Serves as Section 3 local anchor within Auric Plume; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Permit Yard Nook",
+          "show how Auric Plume turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 3",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Permit Yard Nook becomes narratively important",
+          "the visible condition of Permit Yard Nook signals political or social stress",
+          "someone uses Permit Yard Nook's public function to redirect crowds or information",
+          "an overlooked detail at Permit Yard Nook reveals how Auric Plume really works"
+        ]
+      },
+      {
+        "name": "Observatory / Astronomy Civic Hall",
+        "symbolicRole": "Observatory / Astronomy Civic Hall concentrates Auric Plume's local symbolism into a usable civic landmark: Section 4 local anchor.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing. It belongs to Section 4 (Observatory / Astronomy) of Auric Plume and should use Archive Towers, Lecture Courts, Cliffside Monasteries, coral stone and canvas materials, Moon Gate Arches, Civic Blue Glow, Star Navigation, and the colorful ornamental avian folk visual language. Design focus: moon dials, observatories, lens towers, calendar courts, star charts. Terrain/water context: Sandy Beach; Coast. Magic expression: Salt Wards, Astral Lenses, Glass Scrying. No baked labels or text.",
+        "civicRole": "Serves as Section 4 local anchor within Auric Plume; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Observatory / Astronomy Civic Hall",
+          "show how Auric Plume turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 4",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Observatory / Astronomy Civic Hall becomes narratively important",
+          "the visible condition of Observatory / Astronomy Civic Hall signals political or social stress",
+          "someone uses Observatory / Astronomy Civic Hall's public function to redirect crowds or information",
+          "an overlooked detail at Observatory / Astronomy Civic Hall reveals how Auric Plume really works"
+        ]
+      },
+      {
+        "name": "Star Navigation Monument",
+        "symbolicRole": "Star Navigation Monument concentrates Auric Plume's local symbolism into a usable civic landmark: Section 4 local anchor.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles. It belongs to Section 4 (Observatory / Astronomy) of Auric Plume and should use Lecture Courts, Cliffside Monasteries, Archive Towers, coral stone and canvas materials, Star Navigation, Moon Gate Arches, Civic Blue Glow, and the colorful ornamental avian folk visual language. Design focus: subordinate to major landmark, stars, lenses, brass rings, moon dials. Terrain/water context: Sandy Beach; Coast. Magic expression: Salt Wards, Astral Lenses, Glass Scrying. No baked labels or text.",
+        "civicRole": "Serves as Section 4 local anchor within Auric Plume; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Star Navigation Monument",
+          "show how Auric Plume turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 4",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Star Navigation Monument becomes narratively important",
+          "the visible condition of Star Navigation Monument signals political or social stress",
+          "someone uses Star Navigation Monument's public function to redirect crowds or information",
+          "an overlooked detail at Star Navigation Monument reveals how Auric Plume really works"
+        ]
+      },
+      {
+        "name": "Celestial Court Nook",
+        "symbolicRole": "Celestial Court Nook concentrates Auric Plume's local symbolism into a usable civic landmark: Section 4 local anchor.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette. It belongs to Section 4 (Observatory / Astronomy) of Auric Plume and should use Archive Towers, Lecture Courts, Cliffside Monasteries, coral stone and canvas materials, Moon Gate Arches, Civic Blue Glow, Star Navigation, and the colorful ornamental avian folk visual language. Design focus: lens towers, calendar courts, star charts, small local identity prop, street-level detail. Terrain/water context: Sandy Beach; Coast. Magic expression: Salt Wards, Astral Lenses, Glass Scrying. No baked labels or text.",
+        "civicRole": "Serves as Section 4 local anchor within Auric Plume; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Celestial Court Nook",
+          "show how Auric Plume turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 4",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Celestial Court Nook becomes narratively important",
+          "the visible condition of Celestial Court Nook signals political or social stress",
+          "someone uses Celestial Court Nook's public function to redirect crowds or information",
+          "an overlooked detail at Celestial Court Nook reveals how Auric Plume really works"
+        ]
+      },
+      {
+        "name": "S5 Harbor Campus",
+        "symbolicRole": "S5 Harbor Campus concentrates Auric Plume's local symbolism into a usable civic landmark: Section 5 local anchor.",
+        "visualRole": "Harbor Campus: authored civic gathering structure for section 5. institutional anchor. public-facing administration. clear central silhouette. board-readable entrance. anchors. ropes. buoys. signal lanterns. piers. quays. dock terraces. slipways.",
+        "civicRole": "Serves as Section 5 local anchor within Auric Plume; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving S5 Harbor Campus",
+          "show how Auric Plume turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 5",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at S5 Harbor Campus becomes narratively important",
+          "the visible condition of S5 Harbor Campus signals political or social stress",
+          "someone uses S5 Harbor Campus's public function to redirect crowds or information",
+          "an overlooked detail at S5 Harbor Campus reveals how Auric Plume really works"
+        ]
+      },
+      {
+        "name": "S5 Harbor Arch",
+        "symbolicRole": "S5 Harbor Arch concentrates Auric Plume's local symbolism into a usable civic landmark: Section 5 local anchor.",
+        "visualRole": "Harbor Arch: carved civic memorial on a raised plinth. Ceremonial gathering area, readable symbolic focal point, strong vertical silhouette.",
+        "civicRole": "Serves as Section 5 local anchor within Auric Plume; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving S5 Harbor Arch",
+          "show how Auric Plume turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 5",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at S5 Harbor Arch becomes narratively important",
+          "the visible condition of S5 Harbor Arch signals political or social stress",
+          "someone uses S5 Harbor Arch's public function to redirect crowds or information",
+          "an overlooked detail at S5 Harbor Arch reveals how Auric Plume really works"
+        ]
+      },
+      {
+        "name": "S5 Harbor Bridgelet",
+        "symbolicRole": "S5 Harbor Bridgelet concentrates Auric Plume's local symbolism into a usable civic landmark: Section 5 local anchor.",
+        "visualRole": "Harbor Bridgelet: compact district landmark. Small integrated platform, nearby gathering space, readable focal prop from adjacent streets.",
+        "civicRole": "Serves as Section 5 local anchor within Auric Plume; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving S5 Harbor Bridgelet",
+          "show how Auric Plume turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 5",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at S5 Harbor Bridgelet becomes narratively important",
+          "the visible condition of S5 Harbor Bridgelet signals political or social stress",
+          "someone uses S5 Harbor Bridgelet's public function to redirect crowds or information",
+          "an overlooked detail at S5 Harbor Bridgelet reveals how Auric Plume really works"
         ]
       }
     ]
   },
   "assetGuidance": {
     "districtDioramaGuidance": [
-      "S1 must center the Patchwork Hall Beacon with multi-color awnings, plaza fabric, public kiosks, and showbird citizens using display as civic behavior.",
-      "S2 must show visible cargo bureaucracy: Cargo Yard, Inventory Hall, gold seals, crates, ropes, ledger boards, and dock workers.",
-      "S3 must read as Public Works Authority through Survey Hall, Permit Yard, maps, measuring tools, blue lamps, and harbor repair markers.",
-      "S4 must include Star Observatory, celestial instruments, chart tables, high terraces, and navigation scholars.",
-      "S5 must show Harbor Basilica, Harbor Arch, Harbor Bridgelet, pearl-like domes, wet stone, and ritual waterfront space."
+      "Dioramas must support 25 district slots: S1 covers D01, D02, D03, D06, D07 and uses source-backed anchors S1 Patchwork Hall, Patchwork Hall Beacon, S1 Patchwork Pillar, S1 Patchwork Kiosk.",
+      "Dioramas must support 25 district slots: S2 covers D04, D05, D09, D10, D15 and uses source-backed anchors Warehousing / Logistics Civic Hall, Cargo Yard, Warehousing Logistics Gold-Seal Monument, Inventory Hall Nook.",
+      "Dioramas must support 25 district slots: S3 covers D08, D12, D13, D14, D18 and uses source-backed anchors Public Works Authority Hall, Survey Hall, Blue-Lamp Monument, Permit Yard Nook.",
+      "Dioramas must support 25 district slots: S4 covers D11, D16, D17, D21, D22 and uses source-backed anchors Observatory / Astronomy Civic Hall, Star Observatory, Star Navigation Monument, Celestial Court Nook.",
+      "Dioramas must support 25 district slots: S5 covers D19, D20, D23, D24, D25 and uses source-backed anchors S5 Harbor Campus, Harbor Basilica, S5 Harbor Arch, S5 Harbor Bridgelet."
     ],
     "mapBackgroundGuidance": [
-      "Use a bright harbor city with reflective water, fan-roofed civic structures, pearl domes, patchwork awnings, cargo yards, observatory towers, and the Pearl-Feather Roost as skyline anchor.",
-      "The Tide-Seal Citadel should occupy central authority space; the Patchwork Hall Beacon should be visible as a civic signal landmark; the Harbor Basilica should anchor the waterfront.",
-      "Keep the city colorful and maritime without losing the logistics and public works systems."
+      "Map backgrounds must show Pearl-Feather Roost of the Thousand Fans as the wonder-scale identity anchor, Feather Fan Roofs Tide-Seal Citadel at D13, and Patchwork Hall Beacon as the city signal landmark.",
+      "Preserve the five-section spine: S1 S1 Patchwork Hall, S2 Warehousing / Logistics Civic Hall, S3 Public Works Authority Hall, S4 Observatory / Astronomy Civic Hall, S5 S5 Harbor Campus.",
+      "Use roads, terrain, water, civic terraces, walls, markets, courts, or service routes only where they support the exact city identity and tactical readability."
     ],
     "requiredVisualElements": [
-      "showbird citizens",
-      "feather fan roofs",
-      "pearl domes",
-      "patchwork awnings",
-      "blue civic lamps",
-      "cargo yards",
-      "survey/permit infrastructure",
-      "star observatory instruments",
-      "harbor basilica",
-      "bridgelets over water",
-      "Pearl-Feather Roost"
+      "Pearl-Feather Roost of the Thousand Fans",
+      "Patchwork Hall Beacon",
+      "Feather Fan Roofs Tide-Seal Citadel",
+      "Harbor Basilica",
+      "Cargo Yard",
+      "Star Observatory",
+      "S1 Patchwork Hall",
+      "S1 Patchwork Pillar",
+      "S1 Patchwork Kiosk",
+      "Warehousing / Logistics Civic Hall",
+      "Warehousing Logistics Gold-Seal Monument",
+      "Inventory Hall Nook",
+      "Public Works Authority Hall",
+      "Survey Hall",
+      "Blue-Lamp Monument",
+      "Permit Yard Nook",
+      "Observatory / Astronomy Civic Hall",
+      "Star Navigation Monument",
+      "Celestial Court Nook",
+      "S5 Harbor Campus",
+      "S5 Harbor Arch",
+      "S5 Harbor Bridgelet",
+      "Seashell",
+      "Coral Stone",
+      "Pale Marble Stone",
+      "Canvas",
+      "Silk",
+      "Coastal Edge",
+      "Seawall Edge",
+      "Harbor Basin",
+      "Beast Bonding",
+      "Ancestor Guidance",
+      "Flock Sight"
     ],
     "elementsToAvoid": [
-      "generic bird cages or aviaries",
-      "empty decorative feathers with no civic function",
-      "pirate-port grime as dominant identity",
-      "military fortress emphasis",
-      "rural village scale",
-      "dull monochrome palette unless used as deliberate contrast"
+      "extra top-level schema sections or research-log content in the JSON",
+      "generic fantasy architecture that ignores exact anchor names",
+      "invented missing street anchors",
+      "readable real-world text labels baked into images",
+      "collapsing the 25-district board into only five playable spaces",
+      "making landmarks decorative when they should have civic, narrative, and asset function"
     ]
   }
 }

@@ -4,89 +4,1893 @@
     "analysisVersion": 2,
     "cityCode": "FRO",
     "cityName": "Frostharbor",
-    "analysisDate": "2026-07-03",
+    "analysisDate": "2026-07-05",
     "analystVersion": "gpt-5.5-thinking",
     "analysisConfidence": "strong-lock",
-    "basedOnImages": ["FRO-HERO-NE-v001", "FRO-HERO-NW-v001", "FRO-HERO-SE-v001", "FRO-HERO-SW-v001", "FRO-STREET-S1-v001", "FRO-STREET-S2-v001", "FRO-STREET-S3-v001", "FRO-STREET-S4-v001", "FRO-STREET-S5-v001"],
-    "basedOnSidecars": ["FRO-HERO-NE-v001.json", "FRO-HERO-NW-v001.json", "FRO-HERO-SE-v001.json", "FRO-HERO-SW-v001.json", "FRO-STREET-S1-v001.json", "FRO-STREET-S2-v001.json", "FRO-STREET-S3-v001.json", "FRO-STREET-S4-v001.json", "FRO-STREET-S5-v001.json"]
+    "sourceStatus": "full",
+    "districtModel": "five sections; five district slots per section; D13 is the seat of power",
+    "missingStreetSections": [],
+    "basedOnImages": [
+      "FRO-HERO-NE-v001",
+      "FRO-HERO-NW-v001",
+      "FRO-HERO-SE-v001",
+      "FRO-HERO-SW-v001",
+      "FRO-STREET-S1-v001",
+      "FRO-STREET-S2-v001",
+      "FRO-STREET-S3-v001",
+      "FRO-STREET-S4-v001",
+      "FRO-STREET-S5-v001"
+    ],
+    "basedOnSidecars": [
+      "FRO-HERO-NE-v001.json",
+      "FRO-HERO-NW-v001.json",
+      "FRO-HERO-SE-v001.json",
+      "FRO-HERO-SW-v001.json",
+      "FRO-STREET-S1-v001.json",
+      "FRO-STREET-S2-v001.json",
+      "FRO-STREET-S3-v001.json",
+      "FRO-STREET-S4-v001.json",
+      "FRO-STREET-S5-v001.json"
+    ]
   },
   "cityDNA": {
-    "coreFantasy": "A cold-water sealfolk harbor civilization where blue lanterns, shelter halls, cargo yards, public works, nursery basins, and harbor ritual make endurance civic.",
-    "primaryEmotion": "communal endurance",
-    "secondaryEmotion": "cold-water tenderness",
-    "readerTakeaway": "Frostharbor survives because it turns care, warmth, tide knowledge, logistics, and nursery protection into public architecture.",
-    "civilizationThesis": "Frostharbor turns cold sea, ice, shelter, cargo logistics, tide surveys, nursery waters, shell spirals, and blue lanterns into a settled amphibious city of protection.",
-    "visualIdentity": "Wet stone, ice-worn masonry, dark timber, rope, iron fittings, blue glass, shell inlay, slate roofs, shelter halls, seawalls, causeways, cargo yards, nursery basins, and lantern-lit harbor fog.",
-    "culturalIdentity": "A sealfolk city of weather-hardened citizens who treat shelter, tide knowledge, cargo order, nursery protection, safe passage, and communal warmth as civic virtues.",
-    "symbolicIdentity": "Blue lanterns, shell spirals, ice tides, roundhouses, shelter pillars, nursery pools, cargo ropes, harbor arches, and tide seals symbolize survival through shared protection."
+    "coreFantasy": "A seal-like aquatic beastfolk city where Sealfolk Ice-Tide Roundhouse of Blue Lanterns, Shelter Hall Beacon, Shell Spiral Windows Tide-Seal Citadel, and the five-section district spine turn local identity into functional civic space.",
+    "primaryEmotion": "source-backed civic presence",
+    "secondaryEmotion": "lived-in pressure beneath landmark order",
+    "readerTakeaway": "Frostharbor should feel immediately identifiable through exact landmarks and materials, not through generic fantasy-city shorthand.",
+    "civilizationThesis": "Frostharbor organizes power through Shell Spiral Windows Tide-Seal Citadel, public response through Shelter Hall Beacon, civic memory through Sealfolk Ice-Tide Roundhouse of Blue Lanterns, and daily life through S1 S1 Shelter Hall, S2 Warehousing / Logistics Civic Hall, S3 Public Works Authority Hall, S4 Nursery / Spawning Grounds Civic Hall, S5 S5 Harbor Campus.",
+    "visualIdentity": "Blue Granite, Frost Glass, Pine, Silver Inlay, Arcane Glow, Coastal Edge, Seawall Edge, Harbor Basin, Beast Bonding, Ancestor Guidance, Tide Sorcery, and exact anchors including Shell Spiral Windows Tide-Seal Citadel, Shelter Hall Beacon, Sealfolk Ice-Tide Roundhouse of Blue Lanterns, Harbor Basilica, Cargo Yard, Nursery Basin, S1 Shelter Hall, S1 Shelter Pillar, S1 Shelter Kiosk, Warehousing / Logistics Civic Hall.",
+    "culturalIdentity": "A seal-like aquatic beastfolk civic culture where architecture, public obligations, roads, landmark approaches, and everyday work must all read as part of the same civilization.",
+    "symbolicIdentity": "The city symbol system is built from exact names and visible functions: Sealfolk Ice-Tide Roundhouse of Blue Lanterns, Shelter Hall Beacon, Shell Spiral Windows Tide-Seal Citadel, and section anchors such as S1 Shelter Hall, Warehousing / Logistics Civic Hall, Public Works Authority Hall, Nursery / Spawning Grounds Civic Hall, S5 Harbor Campus."
   },
   "canon": {
     "canonLocks": [
-      "Frostharbor is a mature cold-water sealfolk harbor civilization, not a temporary fishing village.",
-      "The Wonder is the Sealfolk Ice-Tide Roundhouse of Blue Lanterns.",
-      "The Beacon is the Shelter Hall Beacon.",
-      "The Seat of Power is the Shell Spiral Windows Tide-Seal Citadel.",
-      "The five primary districts are Shelter Hall, Warehousing / Logistics, Public Works Authority, Nursery / Spawning Grounds, and Harbor Campus.",
-      "The uploaded district anchors include S1 Shelter Hall, S1 Shelter Pillar, S1 Shelter Kiosk, Warehousing / Logistics Civic Hall, Warehousing Logistics Gold-Seal Monument, Inventory Hall Nook, Public Works Authority Hall, Blue-Lamp Monument, Permit Yard Nook, Nursery / Spawning Grounds Civic Hall, Shell Inlay Monument, Spawning Pool Nook, S5 Harbor Campus, S5 Harbor Arch, and S5 Harbor Bridgelet."
+      "Frostharbor uses city code FRO.",
+      "The Wonder is Sealfolk Ice-Tide Roundhouse of Blue Lanterns.",
+      "The Beacon is Shelter Hall Beacon.",
+      "The Seat of Power is Shell Spiral Windows Tide-Seal Citadel and occupies District 13.",
+      "The city uses five sections with five tactical district slots per section.",
+      "The source-backed section spine is: S1 S1 Shelter Hall, S2 Warehousing / Logistics Civic Hall, S3 Public Works Authority Hall, S4 Nursery / Spawning Grounds Civic Hall, S5 S5 Harbor Campus.",
+      "Preserve exact anchor name: Shell Spiral Windows Tide-Seal Citadel.",
+      "Preserve exact anchor name: Shelter Hall Beacon.",
+      "Preserve exact anchor name: Sealfolk Ice-Tide Roundhouse of Blue Lanterns.",
+      "Preserve exact anchor name: Harbor Basilica.",
+      "Preserve exact anchor name: Cargo Yard.",
+      "Preserve exact anchor name: Nursery Basin.",
+      "Preserve exact anchor name: S1 Shelter Hall.",
+      "Preserve exact anchor name: S1 Shelter Pillar.",
+      "Preserve exact anchor name: S1 Shelter Kiosk.",
+      "Preserve exact anchor name: Warehousing / Logistics Civic Hall.",
+      "Preserve exact anchor name: Warehousing Logistics Gold-Seal Monument.",
+      "Preserve exact anchor name: Inventory Hall Nook.",
+      "Preserve exact anchor name: Public Works Authority Hall.",
+      "Preserve exact anchor name: Survey Hall.",
+      "Preserve exact anchor name: Blue-Lamp Monument.",
+      "Preserve exact anchor name: Permit Yard Nook.",
+      "Preserve exact anchor name: Nursery / Spawning Grounds Civic Hall.",
+      "Preserve exact anchor name: Shell Inlay Monument.",
+      "Preserve exact anchor name: Spawning Pool Nook.",
+      "Preserve exact anchor name: S5 Harbor Campus.",
+      "Preserve exact anchor name: S5 Harbor Arch.",
+      "Preserve exact anchor name: S5 Harbor Bridgelet."
     ],
-    "provisionalCanon": ["Frostharbor's highest civic virtue is shelter.", "The central tension is home sea versus hostile sea.", "The shelter district is the emotional equivalent of the city's front door: cold water enters civic life there and becomes communal warmth."],
-    "rejectedReads": ["Frostharbor is only a cold port.", "Frostharbor is polished maritime luxury.", "Sealfolk adaptation is decorative rather than shaping streets, housing, logistics, and public care.", "Shelter and nursery spaces can be generalized into ordinary harbor buildings."],
-    "cautionFlags": ["Keep ramps, basins, water steps, low platforms, and amphibious movement visible.", "Do not hide logistics; cargo and warehousing are civic power.", "Make cold, wet conditions normal operating conditions, not one-off weather flavor.", "Preserve exact shelter and harbor sidecar names rather than smoothing them into generic labels."]
+    "provisionalCanon": [],
+    "rejectedReads": [
+      "Do not treat Frostharbor as a generic fantasy settlement with renamed landmarks.",
+      "Do not collapse the five-section board into a single mood or single district.",
+      "Do not replace exact anchor names with generic summaries.",
+      "Do not invent missing street-section landmarks when a street source is absent."
+    ],
+    "cautionFlags": [
+      "Keep every named Wonder, Beacon, Seat, section civic hall, major landmark, monument, and minor nook exact when present in sidecars.",
+      "If an image appears to deviate from a sidecar, preserve the exact name but avoid overclaiming visual details not supported by the source package.",
+      "Every district asset should remain usable for narrative scenes, tactical board dioramas, and city map backgrounds."
+    ]
   },
   "environment": {
-    "terrain": ["cold harbor city", "wet stone waterfronts", "causeways", "seawalls", "dock platforms", "low roundhouse terraces", "shelter plazas"],
-    "water": ["cold sea", "harbor basins", "nursery pools", "spawning pools", "tide channels", "icy water", "storm runoff"],
-    "vegetation": ["seaweed", "cold shore grasses", "salt-tolerant herbs", "sparse harbor planters"],
-    "climateLighting": ["cold grey daylight", "blue lantern light", "mist-diffused harbor glow", "warm shelter fires", "lantern reflections on icy water", "fog halos"],
-    "environmentalLogic": "Frostharbor builds a civic membrane between cold sea and settlement: docks, basins, shelters, causeways, roundhouses, seawalls, and blue lanterns make harsh water habitable."
+    "terrain": [
+      "Coastal Edge",
+      "Seawall Edge",
+      "Harbor Basin"
+    ],
+    "water": [
+      "Coast"
+    ],
+    "vegetation": [
+      "courtyard trees",
+      "balcony planters",
+      "public greenery where visible",
+      "source-backed local vegetation only"
+    ],
+    "climateLighting": [
+      "Beast Bonding",
+      "Ancestor Guidance",
+      "Tide Sorcery",
+      "daylight",
+      "golden hour",
+      "lantern light",
+      "civic beacon glow"
+    ],
+    "environmentalLogic": "The environment should make Frostharbor's exact civic anchors plausible at street scale: terrain routes people toward section landmarks, lighting clarifies public authority, and water or landscape features remain source-backed rather than decorative filler."
   },
   "architecture": {
-    "materials": ["wet stone", "ice-worn masonry", "dark timber", "rope", "iron fittings", "blue glass", "shell inlay", "slate roofs", "frosted metal", "lantern glass"],
-    "forms": ["S1 Shelter Hall", "Shelter Hall Beacon", "S1 Shelter Pillar", "S1 Shelter Kiosk", "Cargo Yard", "Inventory Hall Nook", "Survey Hall", "Permit Yard Nook", "Nursery Basin", "Spawning Pool Nook", "S5 Harbor Campus", "Harbor Basilica", "S5 Harbor Arch", "S5 Harbor Bridgelet", "round halls", "low harbor domes", "seawalls", "causeways"],
-    "skyline": ["Sealfolk Ice-Tide Roundhouse of Blue Lanterns as broad civic wonder anchor", "Shell Spiral Windows Tide-Seal Citadel as water-facing authority", "Shelter Hall Beacon as public signal landmark", "Harbor Basilica, Survey Hall, blue lanterns, and low water-facing massing along the shoreline"],
-    "lighting": ["blue lantern light", "cold grey daylight", "warm shelter interiors", "mist-diffused harbor glow", "lantern reflections", "beacon-blue signal glow"],
-    "infrastructure": ["working harbor", "docks", "causeways", "cargo yards", "warehouses", "public works halls", "survey platforms", "permit yards", "nursery basins", "seawalls", "shelter kiosks", "harbor bridgelets"],
-    "motifs": ["seals", "shell spirals", "blue lanterns", "ice tide", "rope", "harbor arches", "wet stone", "nursery pools", "cargo crates", "survey towers", "frosted glass", "shelter halls"],
-    "colorLanguage": ["cold grey", "deep harbor blue", "blue lantern glow", "wet black stone", "dark timber", "shell white", "warm fire amber"],
-    "textureLanguage": ["slick stone", "frosted glass", "tarred rope", "wet timber", "ice-worn masonry", "shell inlay", "slate roofs", "salt-stained iron"]
+    "materials": [
+      "Blue Granite",
+      "Frost Glass",
+      "Pine",
+      "Silver Inlay",
+      "Arcane Glow"
+    ],
+    "forms": [
+      "Shell Spiral Windows Tide-Seal Citadel",
+      "Shelter Hall Beacon",
+      "Sealfolk Ice-Tide Roundhouse of Blue Lanterns",
+      "Harbor Basilica",
+      "Cargo Yard",
+      "Nursery Basin",
+      "S1 Shelter Hall",
+      "S1 Shelter Pillar",
+      "S1 Shelter Kiosk",
+      "Warehousing / Logistics Civic Hall",
+      "Warehousing Logistics Gold-Seal Monument",
+      "Inventory Hall Nook",
+      "Public Works Authority Hall",
+      "Survey Hall",
+      "Blue-Lamp Monument",
+      "Permit Yard Nook",
+      "Nursery / Spawning Grounds Civic Hall",
+      "Shell Inlay Monument",
+      "Spawning Pool Nook",
+      "S5 Harbor Campus",
+      "S5 Harbor Arch",
+      "S5 Harbor Bridgelet",
+      "section civic halls",
+      "major landmark approaches",
+      "monument frontages",
+      "minor landmark nooks",
+      "district roads and plazas",
+      "D13 authority complex"
+    ],
+    "skyline": [
+      "Sealfolk Ice-Tide Roundhouse of Blue Lanterns",
+      "Shell Spiral Windows Tide-Seal Citadel",
+      "Shelter Hall Beacon",
+      "Harbor Basilica",
+      "Cargo Yard",
+      "Nursery Basin",
+      "S1 Shelter Hall",
+      "S1 Shelter Pillar",
+      "S1 Shelter Kiosk"
+    ],
+    "lighting": [
+      "Beast Bonding",
+      "Ancestor Guidance",
+      "Tide Sorcery",
+      "beacon-state light",
+      "lantern-lit civic paths",
+      "street-level shop and housing light"
+    ],
+    "infrastructure": [
+      "S1 Shelter Hall",
+      "Warehousing / Logistics Civic Hall",
+      "Public Works Authority Hall",
+      "Nursery / Spawning Grounds Civic Hall",
+      "S5 Harbor Campus",
+      "roads between district slots",
+      "public thresholds",
+      "plaza edges",
+      "records, permits, markets, services, or rituals implied by anchors"
+    ],
+    "motifs": [
+      "Shell",
+      "Spiral",
+      "Windows",
+      "Tide-Seal",
+      "Citadel",
+      "Shelter",
+      "Hall",
+      "Beacon",
+      "Sealfolk",
+      "Ice-Tide",
+      "Roundhouse",
+      "Blue",
+      "Lanterns",
+      "Harbor",
+      "Basilica",
+      "Cargo"
+    ],
+    "colorLanguage": [
+      "source-backed material colors",
+      "civic blue signal accents",
+      "local textile, stone, metal, vegetation, or water colors from the image package"
+    ],
+    "textureLanguage": [
+      "Blue Granite",
+      "Frost Glass",
+      "Pine",
+      "Silver Inlay",
+      "Arcane Glow",
+      "worn pedestrian surfaces",
+      "worked civic ornament",
+      "weathered public thresholds",
+      "lived-in shop and housing details"
+    ]
   },
   "civilization": {
-    "people": "Citizens are sealfolk: physically competent in cold water, practical around weather, communal around warmth, and fluent in tide, cargo, shelter, and nursery routines.",
-    "occupations": ["shelter stewards", "dockworkers", "cargo clerks", "warehouse keepers", "rope makers", "net menders", "boatwrights", "lantern keepers", "tide surveyors", "permit clerks", "nursery keepers", "harbor priests", "seawall masons"],
-    "socialClasses": ["Tide-Seal officials", "harbor logisticians", "warehouse houses", "public works engineers", "nursery keepers", "dock families", "shelter hall stewards", "fisher crews", "cold-street laborers"],
-    "governance": "Authority is protective-logistical: the Citadel governs tide law, harbor command, shelter readiness, public works, sealed records, cargo order, and emergency weather response.",
-    "religion": "Religious expression is harbor-centered and tide-aware, carried through shell spirals, blue lanterns, harbor basilica rites, nursery blessings, storm remembrance, and roundhouse gatherings.",
-    "customs": ["blue lantern checks", "shelter routing during storms", "tide-timed cargo movement", "nursery basin supervision", "public hot food distribution", "permit filing before water work", "storm preparation bells"],
-    "bodyLanguage": ["easy balance on slick docks", "habitual glances toward lanterns", "close clustering near warmth", "water-comfortable movement", "practical rope and crate handling"],
-    "speechPatterns": ["tide shorthand", "weather warnings", "shelter instructions", "cargo terminology", "permit phrases", "lantern-code references", "nursery caution language"]
+    "people": "The population should read as seal-like aquatic beastfolk and city-specific: citizens occupy streets, shops, public thresholds, and landmark approaches as people who understand the local civic order.",
+    "occupations": [
+      "dock workers",
+      "water engineers",
+      "ritual attendants",
+      "caretakers",
+      "market sellers",
+      "stall keepers",
+      "district clerks",
+      "craft families",
+      "porters",
+      "maintenance workers",
+      "food sellers",
+      "messengers"
+    ],
+    "socialClasses": [
+      "D13 officials and court staff",
+      "section landmark custodians",
+      "guild and service families",
+      "shopkeepers and artisans",
+      "laborers, carriers, messengers, and maintenance crews",
+      "households tied to local district obligations"
+    ],
+    "governance": "Government is centered on Shell Spiral Windows Tide-Seal Citadel. Its authority should be visible through courts, records, public access routes, civic lamps, guards or attendants, and the way citizens respond to D13.",
+    "religion": "Religious or ritual life should only be emphasized where source anchors support it, especially names such as Harbor Basilica.",
+    "customs": [
+      "citizens orient public life around S1 Shelter Hall in Section 1",
+      "citizens orient public life around Warehousing / Logistics Civic Hall in Section 2",
+      "citizens orient public life around Public Works Authority Hall in Section 3",
+      "citizens orient public life around Nursery / Spawning Grounds Civic Hall in Section 4",
+      "citizens orient public life around S5 Harbor Campus in Section 5",
+      "beacon changes become public behavior, not background color",
+      "exact landmark names carry social memory and directions",
+      "civic errands happen visibly at thresholds, queues, ledgers, stalls, courts, or shrines"
+    ],
+    "bodyLanguage": [
+      "citizens pause at civic signals",
+      "workers move with practiced familiarity around district anchors",
+      "officials use thresholds and raised places to control attention",
+      "residents treat named landmarks as everyday orientation points"
+    ],
+    "speechPatterns": [
+      "directions use exact landmark names",
+      "public notices are tied to section anchors",
+      "local speech distinguishes civic authority, ordinary errands, and landmark obligations",
+      "people refer to D13 as the seat of power rather than a faction headquarters"
+    ]
   },
   "urbanLife": {
-    "streets": {"appearance": "Wet, cold, low, and water-facing: slick stone, timber docks, causeways, ramps, blue lanterns, shelter halls, cargo crates, nursery basins, ropes, harbor arches, and bridgelets.", "movement": "Movement is amphibious and logistical through boats, sledges, dock carts, ramps, bridges, water steps, cargo paths, shelter routes, and low platforms.", "sounds": ["water slapping stone", "gulls", "cold wind", "dock bells", "rope creak", "cargo crates dragging", "sealfolk voices in fog", "lantern chains", "boat repair hammers", "waves under bridges"], "smells": ["salt water", "wet wool", "fish", "cold stone", "lamp oil", "tarred rope", "wood smoke", "hot broth", "seaweed", "ice and rain"], "lighting": "Blue lanterns and shelter fires define safety; cold daylight reflects from water, wet stone, ice, and pale harbor buildings.", "weatherEffects": "Fog, sleet, snow, sea spray, partial visibility, lantern halos, and muffled bells are normal operating conditions.", "dayCycle": "Morning begins with fog, lantern checks, tide readings, cargo unloading, permit work, fish markets, and nursery tending.", "nightCycle": "Night is blue lanterns across dark water, shelter hall warmth, guarded docks, storm watches, and quiet nursery basins."},
-    "shops": {"common": ["fishmongers", "net repair stalls", "rope makers", "seal-oil lantern shops", "warm-cloak vendors", "hot broth stands", "dockside food stalls"], "uncommon": ["boatwright sheds", "shell-inlay craftsmen", "cargo insurance desks", "tide chart sellers", "lantern-code copyists"], "prestigious": ["warehouse offices", "inventory halls", "Tide-Seal permit counters", "harbor basilica suppliers", "roundhouse provision halls"], "exports": ["fish", "seal oil", "rope", "harbor logistics", "boat repair craft", "shell inlay", "cold-weather textiles", "blue lantern glass"], "imports": ["grain", "timber", "iron", "coal", "cloth", "spices", "medicine", "paper"], "streetFood": ["hot fish stew", "smoked fish", "seaweed broth", "shellfish cakes", "warm black bread", "salted meat", "dockside chowder", "hot tea"], "services": ["cargo storage", "permit filing", "tide surveys", "boat repair", "net mending", "shelter routing", "lantern maintenance", "storm warnings"]},
-    "housing": {"wealthy": "Water-facing insulated roundhouses and citadel-adjacent homes with shell windows, blue lamps, private docks, thick doors, and warm common rooms.", "middle": "Dock-family houses, warehouse apartments, boatwright rooms, shelter-adjacent flats, drying racks, rope rails, and dual street-water entries.", "poor": "Low harbor-edge rooms, shared hearths, wet entries, cramped dockside quarters, shelter-kiosk reliance, and practical storage above flood level."}
+    "streets": {
+      "appearance": "Streets should show Frostharbor's exact anchor system at pedestrian scale: S1 S1 Shelter Hall, S2 Warehousing / Logistics Civic Hall, S3 Public Works Authority Hall, S4 Nursery / Spawning Grounds Civic Hall, S5 S5 Harbor Campus. Keep roads, plazas, stairs, thresholds, lamps, signs-without-readable-text, props, and civilians aligned to the source-backed materials and landmarks.",
+      "movement": "Movement should be readable for tactical-board assets: citizens pass between 25 district slots, section anchors, D13, service streets, and landmark approaches without visual clutter hiding the civic purpose.",
+      "sounds": [
+        "foot traffic",
+        "vendors and service calls",
+        "tools and carts",
+        "public notices",
+        "landmark-specific sounds from water, bells, animals, machines, or crowds when source-backed",
+        "beacon-state crowd reactions"
+      ],
+      "smells": [
+        "street food",
+        "worked material dust",
+        "lamp oil or smoke",
+        "vegetation or water where source-backed",
+        "worn stone, timber, metal, plaster, or fabric"
+      ],
+      "lighting": "Use the package's source-backed civic lighting, daylight/golden-hour reads, lanterns, and beacon glow. Lighting must help identify authority, safety, and landmark function.",
+      "weatherEffects": "Weather should reinforce the local terrain and materials without overwhelming the city identity or inventing unsupported climate extremes.",
+      "dayCycle": "Day scenes emphasize errands, trade, records, repairs, rituals, food, and section-level movement.",
+      "nightCycle": "Night scenes emphasize lantern routes, closed thresholds, guarded landmarks, quiet work, and beacon visibility."
+    },
+    "shops": {
+      "common": [
+        "food stalls",
+        "repair stalls",
+        "material vendors",
+        "ledger or permit desks",
+        "local craft counters",
+        "street services tied to section anchors"
+      ],
+      "uncommon": [
+        "specialist landmark caretakers",
+        "instrument makers",
+        "ritual suppliers",
+        "map or record copyists",
+        "district-specific guild services"
+      ],
+      "prestigious": [
+        "D13-facing legal or registry services",
+        "elite craft workshops",
+        "landmark commission houses",
+        "official suppliers for civic ceremonies"
+      ],
+      "exports": [
+        "local crafts",
+        "records or seals",
+        "finished materials",
+        "food goods",
+        "specialized tools or ritual goods as supported by anchors"
+      ],
+      "imports": [
+        "rare materials",
+        "dyes, oils, spices, timber, stone, metal, glass, or cloth as needed by the architecture",
+        "outside records and trade goods"
+      ],
+      "streetFood": [
+        "flatbread or local bread",
+        "stew or grilled skewers",
+        "fruit or preserved food",
+        "tea or civic-square drinks",
+        "portable worker meals"
+      ],
+      "services": [
+        "directions by landmark",
+        "message running",
+        "permit help",
+        "repairs",
+        "food service",
+        "transport or porterage",
+        "public notice posting"
+      ]
+    },
+    "housing": {
+      "wealthy": "Prestige housing clusters near Shell Spiral Windows Tide-Seal Citadel, high terraces, or landmark-facing routes, using the best source-backed materials and controlled views of civic space.",
+      "middle": "Shop-over-house units, courtyard homes, guild-adjacent apartments, and family rooms near section anchors.",
+      "poor": "Smaller back-street rooms, work-adjacent housing, shared courtyards, service alleys, patched materials, and dense but still city-specific lived-in detail."
+    }
   },
   "districts": [
-    {"sectionNumber": 1, "name": "Shelter Hall", "civicPurpose": "Communal warmth, emergency gathering, beacon response, and public readiness.", "visualIdentity": "S1 Shelter Hall, Shelter Hall Beacon, S1 Shelter Pillar, S1 Shelter Kiosk, blue lanterns, warm halls, wet thresholds, and public gathering platforms.", "emotionalIdentity": "Protective, warm against cold, and immediately civic.", "gameplayAssetNeeds": ["S1 Shelter Hall", "Shelter Hall Beacon", "S1 Shelter Pillar", "S1 Shelter Kiosk", "blue lanterns", "fire benches", "wet arrivals"], "narrativeUse": ["Beacon warning", "storm shelter", "public muster", "lost child scene", "communal care"], "landmark": "Shelter Hall Beacon", "minorLandmarks": ["S1 Shelter Pillar", "S1 Shelter Kiosk"]},
-    {"sectionNumber": 2, "name": "Warehousing / Logistics", "civicPurpose": "Cargo movement, inventory, dock labor, cold-chain organization, and harbor commerce.", "visualIdentity": "Warehousing / Logistics Civic Hall, Cargo Yard, Warehousing Logistics Gold-Seal Monument, Inventory Hall Nook, crates, cranes, ropes, sledges, wet docks, and warehouse fronts.", "emotionalIdentity": "Busy, practical, and powerfully organized.", "gameplayAssetNeeds": ["Warehousing / Logistics Civic Hall", "Cargo Yard", "Warehousing Logistics Gold-Seal Monument", "Inventory Hall Nook", "cranes", "cargo crates", "dockworkers", "rope coils"], "narrativeUse": ["shipping leverage", "missing goods", "dock labor", "contract dispute", "commercial pressure"], "landmark": "Cargo Yard", "minorLandmarks": ["Warehousing Logistics Gold-Seal Monument", "Inventory Hall Nook"]},
-    {"sectionNumber": 3, "name": "Public Works Authority", "civicPurpose": "Tide measurement, seawall maintenance, permits, weather warnings, and technical harbor governance.", "visualIdentity": "Public Works Authority Hall, Survey Hall, Blue-Lamp Monument, Permit Yard Nook, seawall tools, tide gauges, wet maps, and civic workers.", "emotionalIdentity": "Technical, responsible, and weather-aware.", "gameplayAssetNeeds": ["Public Works Authority Hall", "Survey Hall", "Blue-Lamp Monument", "Permit Yard Nook", "tide gauges", "surveyors", "seawall tools"], "narrativeUse": ["tide warning", "permit conflict", "public works clue", "emergency planning"], "landmark": "Survey Hall", "minorLandmarks": ["Blue-Lamp Monument", "Permit Yard Nook"]},
-    {"sectionNumber": 4, "name": "Nursery / Spawning Grounds", "civicPurpose": "Protected life-cycle space, family continuity, warm basin care, and communal vulnerability.", "visualIdentity": "Nursery / Spawning Grounds Civic Hall, Nursery Basin, Shell Inlay Monument, Spawning Pool Nook, protected water, low walls, caregivers, and soft blue light.", "emotionalIdentity": "Tender, guarded, vulnerable, and communal.", "gameplayAssetNeeds": ["Nursery / Spawning Grounds Civic Hall", "Nursery Basin", "Shell Inlay Monument", "Spawning Pool Nook", "caregivers", "warm water", "family groups"], "narrativeUse": ["family stakes", "protected vulnerability", "continuity ritual", "public care"], "landmark": "Nursery Basin", "minorLandmarks": ["Shell Inlay Monument", "Spawning Pool Nook"]},
-    {"sectionNumber": 5, "name": "Harbor Campus", "civicPurpose": "Harbor ritual, public mourning, maritime blessing, civic-water identity, and ceremonial crossing.", "visualIdentity": "S5 Harbor Campus, Harbor Basilica, S5 Harbor Arch, S5 Harbor Bridgelet, blue lamps, shell forms, wet stone plazas, and sea-facing ritual approaches.", "emotionalIdentity": "Reverent, maritime, and publicly solemn.", "gameplayAssetNeeds": ["S5 Harbor Campus", "Harbor Basilica", "S5 Harbor Arch", "S5 Harbor Bridgelet", "ritual crowd", "blue lamps", "shell details"], "narrativeUse": ["harbor blessing", "mourning rite", "public ceremony", "crossing scene"], "landmark": "Harbor Basilica", "minorLandmarks": ["S5 Harbor Arch", "S5 Harbor Bridgelet"]}
+    {
+      "districtNumber": 1,
+      "districtId": "D01",
+      "sectionNumber": 1,
+      "name": "D01 — S1 Shelter Hall Civic-Anchor Precinct",
+      "civicPurpose": "This district turns Section 1's source-backed anchor set into a board-scale civic space: S1 Shelter Hall, Shelter Hall Beacon, S1 Shelter Pillar, S1 Shelter Kiosk. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Frostharbor.",
+      "visualIdentity": "Use S1 Shelter Hall as the main read. Keep exact source anchors visible where applicable: S1 Shelter Hall, Shelter Hall Beacon, S1 Shelter Pillar, S1 Shelter Kiosk. The district should share Frostharbor's seal-like aquatic beastfolk identity, Blue Granite, Frost Glass, Pine, Silver Inlay, and Coastal Edge, Seawall Edge, Harbor Basin without becoming generic.",
+      "emotionalIdentity": "Locally grounded, with Frostharbor's larger mood shaped by Sealfolk Ice-Tide Roundhouse of Blue Lanterns, Shelter Hall Beacon, and Shell Spiral Windows Tide-Seal Citadel.",
+      "gameplayAssetNeeds": [
+        "S1 Shelter Hall",
+        "Shelter Hall Beacon",
+        "S1 Shelter Pillar",
+        "S1 Shelter Kiosk",
+        "Section 1 pedestrian-scale props",
+        "Frostharbor civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on S1 Shelter Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "S1 Shelter Hall",
+      "minorLandmarks": [
+        "Shelter Hall Beacon",
+        "S1 Shelter Pillar",
+        "S1 Shelter Kiosk"
+      ]
+    },
+    {
+      "districtNumber": 2,
+      "districtId": "D02",
+      "sectionNumber": 1,
+      "name": "D02 — Shelter Hall Beacon Landmark Approach",
+      "civicPurpose": "This district turns Section 1's source-backed anchor set into a board-scale civic space: S1 Shelter Hall, Shelter Hall Beacon, S1 Shelter Pillar, S1 Shelter Kiosk. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Frostharbor.",
+      "visualIdentity": "Use Shelter Hall Beacon as the main read. Keep exact source anchors visible where applicable: S1 Shelter Hall, Shelter Hall Beacon, S1 Shelter Pillar, S1 Shelter Kiosk. The district should share Frostharbor's seal-like aquatic beastfolk identity, Blue Granite, Frost Glass, Pine, Silver Inlay, and Coastal Edge, Seawall Edge, Harbor Basin without becoming generic.",
+      "emotionalIdentity": "Public-facing, with Frostharbor's larger mood shaped by Sealfolk Ice-Tide Roundhouse of Blue Lanterns, Shelter Hall Beacon, and Shell Spiral Windows Tide-Seal Citadel.",
+      "gameplayAssetNeeds": [
+        "Shelter Hall Beacon",
+        "S1 Shelter Hall",
+        "S1 Shelter Pillar",
+        "S1 Shelter Kiosk",
+        "Section 1 pedestrian-scale props",
+        "Frostharbor civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Shelter Hall Beacon",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "Conjunction response, rumor spread, or authority pressure"
+      ],
+      "landmark": "Shelter Hall Beacon",
+      "minorLandmarks": [
+        "S1 Shelter Hall",
+        "S1 Shelter Pillar",
+        "S1 Shelter Kiosk"
+      ]
+    },
+    {
+      "districtNumber": 3,
+      "districtId": "D03",
+      "sectionNumber": 1,
+      "name": "D03 — S1 Shelter Pillar Monument Frontage",
+      "civicPurpose": "This district turns Section 1's source-backed anchor set into a board-scale civic space: S1 Shelter Hall, Shelter Hall Beacon, S1 Shelter Pillar, S1 Shelter Kiosk. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Frostharbor.",
+      "visualIdentity": "Use S1 Shelter Pillar as the main read. Keep exact source anchors visible where applicable: S1 Shelter Hall, Shelter Hall Beacon, S1 Shelter Pillar, S1 Shelter Kiosk. The district should share Frostharbor's seal-like aquatic beastfolk identity, Blue Granite, Frost Glass, Pine, Silver Inlay, and Coastal Edge, Seawall Edge, Harbor Basin without becoming generic.",
+      "emotionalIdentity": "Memorial or symbolic, with Frostharbor's larger mood shaped by Sealfolk Ice-Tide Roundhouse of Blue Lanterns, Shelter Hall Beacon, and Shell Spiral Windows Tide-Seal Citadel.",
+      "gameplayAssetNeeds": [
+        "S1 Shelter Pillar",
+        "S1 Shelter Hall",
+        "Shelter Hall Beacon",
+        "S1 Shelter Kiosk",
+        "Section 1 pedestrian-scale props",
+        "Frostharbor civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on S1 Shelter Pillar",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "S1 Shelter Pillar",
+      "minorLandmarks": [
+        "S1 Shelter Hall",
+        "Shelter Hall Beacon",
+        "S1 Shelter Kiosk"
+      ]
+    },
+    {
+      "districtNumber": 6,
+      "districtId": "D06",
+      "sectionNumber": 1,
+      "name": "D06 — S1 Shelter Kiosk Neighborhood Nook",
+      "civicPurpose": "This district turns Section 1's source-backed anchor set into a board-scale civic space: S1 Shelter Hall, Shelter Hall Beacon, S1 Shelter Pillar, S1 Shelter Kiosk. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Frostharbor.",
+      "visualIdentity": "Use S1 Shelter Kiosk as the main read. Keep exact source anchors visible where applicable: S1 Shelter Hall, Shelter Hall Beacon, S1 Shelter Pillar, S1 Shelter Kiosk. The district should share Frostharbor's seal-like aquatic beastfolk identity, Blue Granite, Frost Glass, Pine, Silver Inlay, and Coastal Edge, Seawall Edge, Harbor Basin without becoming generic.",
+      "emotionalIdentity": "Intimate and lived-in, with Frostharbor's larger mood shaped by Sealfolk Ice-Tide Roundhouse of Blue Lanterns, Shelter Hall Beacon, and Shell Spiral Windows Tide-Seal Citadel.",
+      "gameplayAssetNeeds": [
+        "S1 Shelter Kiosk",
+        "S1 Shelter Hall",
+        "Shelter Hall Beacon",
+        "S1 Shelter Pillar",
+        "Section 1 pedestrian-scale props",
+        "Frostharbor civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on S1 Shelter Kiosk",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "S1 Shelter Kiosk",
+      "minorLandmarks": [
+        "S1 Shelter Hall",
+        "Shelter Hall Beacon",
+        "S1 Shelter Pillar"
+      ]
+    },
+    {
+      "districtNumber": 7,
+      "districtId": "D07",
+      "sectionNumber": 1,
+      "name": "D07 — S1 Shelter Hall Supporting Streets",
+      "civicPurpose": "This district turns Section 1's source-backed anchor set into a board-scale civic space: S1 Shelter Hall, Shelter Hall Beacon, S1 Shelter Pillar, S1 Shelter Kiosk. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Frostharbor.",
+      "visualIdentity": "Use S1 Shelter Hall as the main read. Keep exact source anchors visible where applicable: S1 Shelter Hall, Shelter Hall Beacon, S1 Shelter Pillar, S1 Shelter Kiosk. The district should share Frostharbor's seal-like aquatic beastfolk identity, Blue Granite, Frost Glass, Pine, Silver Inlay, and Coastal Edge, Seawall Edge, Harbor Basin without becoming generic.",
+      "emotionalIdentity": "Connective and practical, with Frostharbor's larger mood shaped by Sealfolk Ice-Tide Roundhouse of Blue Lanterns, Shelter Hall Beacon, and Shell Spiral Windows Tide-Seal Citadel.",
+      "gameplayAssetNeeds": [
+        "S1 Shelter Hall",
+        "Shelter Hall Beacon",
+        "S1 Shelter Pillar",
+        "S1 Shelter Kiosk",
+        "Section 1 pedestrian-scale props",
+        "Frostharbor civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on S1 Shelter Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "S1 Shelter Hall",
+      "minorLandmarks": [
+        "Shelter Hall Beacon",
+        "S1 Shelter Pillar",
+        "S1 Shelter Kiosk"
+      ]
+    },
+    {
+      "districtNumber": 4,
+      "districtId": "D04",
+      "sectionNumber": 2,
+      "name": "D04 — Warehousing / Logistics Civic Hall Civic-Anchor Precinct",
+      "civicPurpose": "This district turns Section 2's source-backed anchor set into a board-scale civic space: Warehousing / Logistics Civic Hall, Cargo Yard, Warehousing Logistics Gold-Seal Monument, Inventory Hall Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Frostharbor.",
+      "visualIdentity": "Use Warehousing / Logistics Civic Hall as the main read. Keep exact source anchors visible where applicable: Warehousing / Logistics Civic Hall, Cargo Yard, Warehousing Logistics Gold-Seal Monument, Inventory Hall Nook. The district should share Frostharbor's seal-like aquatic beastfolk identity, Blue Granite, Frost Glass, Pine, Silver Inlay, and Coastal Edge, Seawall Edge, Harbor Basin without becoming generic.",
+      "emotionalIdentity": "Locally grounded, with Frostharbor's larger mood shaped by Sealfolk Ice-Tide Roundhouse of Blue Lanterns, Shelter Hall Beacon, and Shell Spiral Windows Tide-Seal Citadel.",
+      "gameplayAssetNeeds": [
+        "Warehousing / Logistics Civic Hall",
+        "Cargo Yard",
+        "Warehousing Logistics Gold-Seal Monument",
+        "Inventory Hall Nook",
+        "Section 2 pedestrian-scale props",
+        "Frostharbor civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Warehousing / Logistics Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Warehousing / Logistics Civic Hall",
+      "minorLandmarks": [
+        "Cargo Yard",
+        "Warehousing Logistics Gold-Seal Monument",
+        "Inventory Hall Nook"
+      ]
+    },
+    {
+      "districtNumber": 5,
+      "districtId": "D05",
+      "sectionNumber": 2,
+      "name": "D05 — Cargo Yard Landmark Approach",
+      "civicPurpose": "This district turns Section 2's source-backed anchor set into a board-scale civic space: Warehousing / Logistics Civic Hall, Cargo Yard, Warehousing Logistics Gold-Seal Monument, Inventory Hall Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Frostharbor.",
+      "visualIdentity": "Use Cargo Yard as the main read. Keep exact source anchors visible where applicable: Warehousing / Logistics Civic Hall, Cargo Yard, Warehousing Logistics Gold-Seal Monument, Inventory Hall Nook. The district should share Frostharbor's seal-like aquatic beastfolk identity, Blue Granite, Frost Glass, Pine, Silver Inlay, and Coastal Edge, Seawall Edge, Harbor Basin without becoming generic.",
+      "emotionalIdentity": "Public-facing, with Frostharbor's larger mood shaped by Sealfolk Ice-Tide Roundhouse of Blue Lanterns, Shelter Hall Beacon, and Shell Spiral Windows Tide-Seal Citadel.",
+      "gameplayAssetNeeds": [
+        "Cargo Yard",
+        "Warehousing / Logistics Civic Hall",
+        "Warehousing Logistics Gold-Seal Monument",
+        "Inventory Hall Nook",
+        "Section 2 pedestrian-scale props",
+        "Frostharbor civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Cargo Yard",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Cargo Yard",
+      "minorLandmarks": [
+        "Warehousing / Logistics Civic Hall",
+        "Warehousing Logistics Gold-Seal Monument",
+        "Inventory Hall Nook"
+      ]
+    },
+    {
+      "districtNumber": 9,
+      "districtId": "D09",
+      "sectionNumber": 2,
+      "name": "D09 — Warehousing Logistics Gold-Seal Monument Monument Frontage",
+      "civicPurpose": "This district turns Section 2's source-backed anchor set into a board-scale civic space: Warehousing / Logistics Civic Hall, Cargo Yard, Warehousing Logistics Gold-Seal Monument, Inventory Hall Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Frostharbor.",
+      "visualIdentity": "Use Warehousing Logistics Gold-Seal Monument as the main read. Keep exact source anchors visible where applicable: Warehousing / Logistics Civic Hall, Cargo Yard, Warehousing Logistics Gold-Seal Monument, Inventory Hall Nook. The district should share Frostharbor's seal-like aquatic beastfolk identity, Blue Granite, Frost Glass, Pine, Silver Inlay, and Coastal Edge, Seawall Edge, Harbor Basin without becoming generic.",
+      "emotionalIdentity": "Memorial or symbolic, with Frostharbor's larger mood shaped by Sealfolk Ice-Tide Roundhouse of Blue Lanterns, Shelter Hall Beacon, and Shell Spiral Windows Tide-Seal Citadel.",
+      "gameplayAssetNeeds": [
+        "Warehousing Logistics Gold-Seal Monument",
+        "Warehousing / Logistics Civic Hall",
+        "Cargo Yard",
+        "Inventory Hall Nook",
+        "Section 2 pedestrian-scale props",
+        "Frostharbor civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Warehousing Logistics Gold-Seal Monument",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Warehousing Logistics Gold-Seal Monument",
+      "minorLandmarks": [
+        "Warehousing / Logistics Civic Hall",
+        "Cargo Yard",
+        "Inventory Hall Nook"
+      ]
+    },
+    {
+      "districtNumber": 10,
+      "districtId": "D10",
+      "sectionNumber": 2,
+      "name": "D10 — Inventory Hall Nook Neighborhood Nook",
+      "civicPurpose": "This district turns Section 2's source-backed anchor set into a board-scale civic space: Warehousing / Logistics Civic Hall, Cargo Yard, Warehousing Logistics Gold-Seal Monument, Inventory Hall Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Frostharbor.",
+      "visualIdentity": "Use Inventory Hall Nook as the main read. Keep exact source anchors visible where applicable: Warehousing / Logistics Civic Hall, Cargo Yard, Warehousing Logistics Gold-Seal Monument, Inventory Hall Nook. The district should share Frostharbor's seal-like aquatic beastfolk identity, Blue Granite, Frost Glass, Pine, Silver Inlay, and Coastal Edge, Seawall Edge, Harbor Basin without becoming generic.",
+      "emotionalIdentity": "Intimate and lived-in, with Frostharbor's larger mood shaped by Sealfolk Ice-Tide Roundhouse of Blue Lanterns, Shelter Hall Beacon, and Shell Spiral Windows Tide-Seal Citadel.",
+      "gameplayAssetNeeds": [
+        "Inventory Hall Nook",
+        "Warehousing / Logistics Civic Hall",
+        "Cargo Yard",
+        "Warehousing Logistics Gold-Seal Monument",
+        "Section 2 pedestrian-scale props",
+        "Frostharbor civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Inventory Hall Nook",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Inventory Hall Nook",
+      "minorLandmarks": [
+        "Warehousing / Logistics Civic Hall",
+        "Cargo Yard",
+        "Warehousing Logistics Gold-Seal Monument"
+      ]
+    },
+    {
+      "districtNumber": 15,
+      "districtId": "D15",
+      "sectionNumber": 2,
+      "name": "D15 — Warehousing / Logistics Civic Hall Supporting Streets",
+      "civicPurpose": "This district turns Section 2's source-backed anchor set into a board-scale civic space: Warehousing / Logistics Civic Hall, Cargo Yard, Warehousing Logistics Gold-Seal Monument, Inventory Hall Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Frostharbor.",
+      "visualIdentity": "Use Warehousing / Logistics Civic Hall as the main read. Keep exact source anchors visible where applicable: Warehousing / Logistics Civic Hall, Cargo Yard, Warehousing Logistics Gold-Seal Monument, Inventory Hall Nook. The district should share Frostharbor's seal-like aquatic beastfolk identity, Blue Granite, Frost Glass, Pine, Silver Inlay, and Coastal Edge, Seawall Edge, Harbor Basin without becoming generic.",
+      "emotionalIdentity": "Connective and practical, with Frostharbor's larger mood shaped by Sealfolk Ice-Tide Roundhouse of Blue Lanterns, Shelter Hall Beacon, and Shell Spiral Windows Tide-Seal Citadel.",
+      "gameplayAssetNeeds": [
+        "Warehousing / Logistics Civic Hall",
+        "Cargo Yard",
+        "Warehousing Logistics Gold-Seal Monument",
+        "Inventory Hall Nook",
+        "Section 2 pedestrian-scale props",
+        "Frostharbor civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Warehousing / Logistics Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Warehousing / Logistics Civic Hall",
+      "minorLandmarks": [
+        "Cargo Yard",
+        "Warehousing Logistics Gold-Seal Monument",
+        "Inventory Hall Nook"
+      ]
+    },
+    {
+      "districtNumber": 8,
+      "districtId": "D08",
+      "sectionNumber": 3,
+      "name": "D08 — Public Works Authority Hall Civic-Anchor Precinct",
+      "civicPurpose": "This district turns Section 3's source-backed anchor set into a board-scale civic space: Public Works Authority Hall, Survey Hall, Blue-Lamp Monument, Permit Yard Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Frostharbor.",
+      "visualIdentity": "Use Public Works Authority Hall as the main read. Keep exact source anchors visible where applicable: Public Works Authority Hall, Survey Hall, Blue-Lamp Monument, Permit Yard Nook. The district should share Frostharbor's seal-like aquatic beastfolk identity, Blue Granite, Frost Glass, Pine, Silver Inlay, and Coastal Edge, Seawall Edge, Harbor Basin without becoming generic.",
+      "emotionalIdentity": "Locally grounded, with Frostharbor's larger mood shaped by Sealfolk Ice-Tide Roundhouse of Blue Lanterns, Shelter Hall Beacon, and Shell Spiral Windows Tide-Seal Citadel.",
+      "gameplayAssetNeeds": [
+        "Public Works Authority Hall",
+        "Survey Hall",
+        "Blue-Lamp Monument",
+        "Permit Yard Nook",
+        "Section 3 pedestrian-scale props",
+        "Frostharbor civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Public Works Authority Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Public Works Authority Hall",
+      "minorLandmarks": [
+        "Survey Hall",
+        "Blue-Lamp Monument",
+        "Permit Yard Nook"
+      ]
+    },
+    {
+      "districtNumber": 12,
+      "districtId": "D12",
+      "sectionNumber": 3,
+      "name": "D12 — Survey Hall Landmark Approach",
+      "civicPurpose": "This district turns Section 3's source-backed anchor set into a board-scale civic space: Public Works Authority Hall, Survey Hall, Blue-Lamp Monument, Permit Yard Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Frostharbor.",
+      "visualIdentity": "Use Survey Hall as the main read. Keep exact source anchors visible where applicable: Public Works Authority Hall, Survey Hall, Blue-Lamp Monument, Permit Yard Nook. The district should share Frostharbor's seal-like aquatic beastfolk identity, Blue Granite, Frost Glass, Pine, Silver Inlay, and Coastal Edge, Seawall Edge, Harbor Basin without becoming generic.",
+      "emotionalIdentity": "Public-facing, with Frostharbor's larger mood shaped by Sealfolk Ice-Tide Roundhouse of Blue Lanterns, Shelter Hall Beacon, and Shell Spiral Windows Tide-Seal Citadel.",
+      "gameplayAssetNeeds": [
+        "Survey Hall",
+        "Public Works Authority Hall",
+        "Blue-Lamp Monument",
+        "Permit Yard Nook",
+        "Section 3 pedestrian-scale props",
+        "Frostharbor civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Survey Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Survey Hall",
+      "minorLandmarks": [
+        "Public Works Authority Hall",
+        "Blue-Lamp Monument",
+        "Permit Yard Nook"
+      ]
+    },
+    {
+      "districtNumber": 13,
+      "districtId": "D13",
+      "sectionNumber": 3,
+      "name": "D13 — Shell Spiral Windows Tide-Seal Citadel Seat of Power District",
+      "civicPurpose": "This district turns Section 3's source-backed anchor set into a board-scale civic space: Public Works Authority Hall, Survey Hall, Blue-Lamp Monument, Permit Yard Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Frostharbor.",
+      "visualIdentity": "Use Shell Spiral Windows Tide-Seal Citadel as the main read. Keep exact source anchors visible where applicable: Public Works Authority Hall, Survey Hall, Blue-Lamp Monument, Permit Yard Nook. The district should share Frostharbor's seal-like aquatic beastfolk identity, Blue Granite, Frost Glass, Pine, Silver Inlay, and Coastal Edge, Seawall Edge, Harbor Basin without becoming generic.",
+      "emotionalIdentity": "Memorial or symbolic, with Frostharbor's larger mood shaped by Sealfolk Ice-Tide Roundhouse of Blue Lanterns, Shelter Hall Beacon, and Shell Spiral Windows Tide-Seal Citadel.",
+      "gameplayAssetNeeds": [
+        "Shell Spiral Windows Tide-Seal Citadel",
+        "Public Works Authority Hall",
+        "Survey Hall",
+        "Blue-Lamp Monument",
+        "Permit Yard Nook",
+        "Section 3 pedestrian-scale props",
+        "Frostharbor civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Shell Spiral Windows Tide-Seal Citadel",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "Conjunction response, rumor spread, or authority pressure"
+      ],
+      "landmark": "Shell Spiral Windows Tide-Seal Citadel",
+      "minorLandmarks": [
+        "Public Works Authority Hall",
+        "Survey Hall",
+        "Blue-Lamp Monument",
+        "Permit Yard Nook"
+      ]
+    },
+    {
+      "districtNumber": 14,
+      "districtId": "D14",
+      "sectionNumber": 3,
+      "name": "D14 — Permit Yard Nook Neighborhood Nook",
+      "civicPurpose": "This district turns Section 3's source-backed anchor set into a board-scale civic space: Public Works Authority Hall, Survey Hall, Blue-Lamp Monument, Permit Yard Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Frostharbor.",
+      "visualIdentity": "Use Permit Yard Nook as the main read. Keep exact source anchors visible where applicable: Public Works Authority Hall, Survey Hall, Blue-Lamp Monument, Permit Yard Nook. The district should share Frostharbor's seal-like aquatic beastfolk identity, Blue Granite, Frost Glass, Pine, Silver Inlay, and Coastal Edge, Seawall Edge, Harbor Basin without becoming generic.",
+      "emotionalIdentity": "Intimate and lived-in, with Frostharbor's larger mood shaped by Sealfolk Ice-Tide Roundhouse of Blue Lanterns, Shelter Hall Beacon, and Shell Spiral Windows Tide-Seal Citadel.",
+      "gameplayAssetNeeds": [
+        "Permit Yard Nook",
+        "Public Works Authority Hall",
+        "Survey Hall",
+        "Blue-Lamp Monument",
+        "Section 3 pedestrian-scale props",
+        "Frostharbor civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Permit Yard Nook",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Permit Yard Nook",
+      "minorLandmarks": [
+        "Public Works Authority Hall",
+        "Survey Hall",
+        "Blue-Lamp Monument"
+      ]
+    },
+    {
+      "districtNumber": 18,
+      "districtId": "D18",
+      "sectionNumber": 3,
+      "name": "D18 — Public Works Authority Hall Supporting Streets",
+      "civicPurpose": "This district turns Section 3's source-backed anchor set into a board-scale civic space: Public Works Authority Hall, Survey Hall, Blue-Lamp Monument, Permit Yard Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Frostharbor.",
+      "visualIdentity": "Use Public Works Authority Hall as the main read. Keep exact source anchors visible where applicable: Public Works Authority Hall, Survey Hall, Blue-Lamp Monument, Permit Yard Nook. The district should share Frostharbor's seal-like aquatic beastfolk identity, Blue Granite, Frost Glass, Pine, Silver Inlay, and Coastal Edge, Seawall Edge, Harbor Basin without becoming generic.",
+      "emotionalIdentity": "Connective and practical, with Frostharbor's larger mood shaped by Sealfolk Ice-Tide Roundhouse of Blue Lanterns, Shelter Hall Beacon, and Shell Spiral Windows Tide-Seal Citadel.",
+      "gameplayAssetNeeds": [
+        "Public Works Authority Hall",
+        "Survey Hall",
+        "Blue-Lamp Monument",
+        "Permit Yard Nook",
+        "Section 3 pedestrian-scale props",
+        "Frostharbor civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Public Works Authority Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Public Works Authority Hall",
+      "minorLandmarks": [
+        "Survey Hall",
+        "Blue-Lamp Monument",
+        "Permit Yard Nook"
+      ]
+    },
+    {
+      "districtNumber": 11,
+      "districtId": "D11",
+      "sectionNumber": 4,
+      "name": "D11 — Nursery / Spawning Grounds Civic Hall Civic-Anchor Precinct",
+      "civicPurpose": "This district turns Section 4's source-backed anchor set into a board-scale civic space: Nursery / Spawning Grounds Civic Hall, Nursery Basin, Shell Inlay Monument, Spawning Pool Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Frostharbor.",
+      "visualIdentity": "Use Nursery / Spawning Grounds Civic Hall as the main read. Keep exact source anchors visible where applicable: Nursery / Spawning Grounds Civic Hall, Nursery Basin, Shell Inlay Monument, Spawning Pool Nook. The district should share Frostharbor's seal-like aquatic beastfolk identity, Blue Granite, Frost Glass, Pine, Silver Inlay, and Coastal Edge, Seawall Edge, Harbor Basin without becoming generic.",
+      "emotionalIdentity": "Locally grounded, with Frostharbor's larger mood shaped by Sealfolk Ice-Tide Roundhouse of Blue Lanterns, Shelter Hall Beacon, and Shell Spiral Windows Tide-Seal Citadel.",
+      "gameplayAssetNeeds": [
+        "Nursery / Spawning Grounds Civic Hall",
+        "Nursery Basin",
+        "Shell Inlay Monument",
+        "Spawning Pool Nook",
+        "Section 4 pedestrian-scale props",
+        "Frostharbor civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Nursery / Spawning Grounds Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Nursery / Spawning Grounds Civic Hall",
+      "minorLandmarks": [
+        "Nursery Basin",
+        "Shell Inlay Monument",
+        "Spawning Pool Nook"
+      ]
+    },
+    {
+      "districtNumber": 16,
+      "districtId": "D16",
+      "sectionNumber": 4,
+      "name": "D16 — Nursery Basin Landmark Approach",
+      "civicPurpose": "This district turns Section 4's source-backed anchor set into a board-scale civic space: Nursery / Spawning Grounds Civic Hall, Nursery Basin, Shell Inlay Monument, Spawning Pool Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Frostharbor.",
+      "visualIdentity": "Use Nursery Basin as the main read. Keep exact source anchors visible where applicable: Nursery / Spawning Grounds Civic Hall, Nursery Basin, Shell Inlay Monument, Spawning Pool Nook. The district should share Frostharbor's seal-like aquatic beastfolk identity, Blue Granite, Frost Glass, Pine, Silver Inlay, and Coastal Edge, Seawall Edge, Harbor Basin without becoming generic.",
+      "emotionalIdentity": "Public-facing, with Frostharbor's larger mood shaped by Sealfolk Ice-Tide Roundhouse of Blue Lanterns, Shelter Hall Beacon, and Shell Spiral Windows Tide-Seal Citadel.",
+      "gameplayAssetNeeds": [
+        "Nursery Basin",
+        "Nursery / Spawning Grounds Civic Hall",
+        "Shell Inlay Monument",
+        "Spawning Pool Nook",
+        "Section 4 pedestrian-scale props",
+        "Frostharbor civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Nursery Basin",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Nursery Basin",
+      "minorLandmarks": [
+        "Nursery / Spawning Grounds Civic Hall",
+        "Shell Inlay Monument",
+        "Spawning Pool Nook"
+      ]
+    },
+    {
+      "districtNumber": 17,
+      "districtId": "D17",
+      "sectionNumber": 4,
+      "name": "D17 — Shell Inlay Monument Monument Frontage",
+      "civicPurpose": "This district turns Section 4's source-backed anchor set into a board-scale civic space: Nursery / Spawning Grounds Civic Hall, Nursery Basin, Shell Inlay Monument, Spawning Pool Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Frostharbor.",
+      "visualIdentity": "Use Shell Inlay Monument as the main read. Keep exact source anchors visible where applicable: Nursery / Spawning Grounds Civic Hall, Nursery Basin, Shell Inlay Monument, Spawning Pool Nook. The district should share Frostharbor's seal-like aquatic beastfolk identity, Blue Granite, Frost Glass, Pine, Silver Inlay, and Coastal Edge, Seawall Edge, Harbor Basin without becoming generic.",
+      "emotionalIdentity": "Memorial or symbolic, with Frostharbor's larger mood shaped by Sealfolk Ice-Tide Roundhouse of Blue Lanterns, Shelter Hall Beacon, and Shell Spiral Windows Tide-Seal Citadel.",
+      "gameplayAssetNeeds": [
+        "Shell Inlay Monument",
+        "Nursery / Spawning Grounds Civic Hall",
+        "Nursery Basin",
+        "Spawning Pool Nook",
+        "Section 4 pedestrian-scale props",
+        "Frostharbor civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Shell Inlay Monument",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Shell Inlay Monument",
+      "minorLandmarks": [
+        "Nursery / Spawning Grounds Civic Hall",
+        "Nursery Basin",
+        "Spawning Pool Nook"
+      ]
+    },
+    {
+      "districtNumber": 21,
+      "districtId": "D21",
+      "sectionNumber": 4,
+      "name": "D21 — Spawning Pool Nook Neighborhood Nook",
+      "civicPurpose": "This district turns Section 4's source-backed anchor set into a board-scale civic space: Nursery / Spawning Grounds Civic Hall, Nursery Basin, Shell Inlay Monument, Spawning Pool Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Frostharbor.",
+      "visualIdentity": "Use Spawning Pool Nook as the main read. Keep exact source anchors visible where applicable: Nursery / Spawning Grounds Civic Hall, Nursery Basin, Shell Inlay Monument, Spawning Pool Nook. The district should share Frostharbor's seal-like aquatic beastfolk identity, Blue Granite, Frost Glass, Pine, Silver Inlay, and Coastal Edge, Seawall Edge, Harbor Basin without becoming generic.",
+      "emotionalIdentity": "Intimate and lived-in, with Frostharbor's larger mood shaped by Sealfolk Ice-Tide Roundhouse of Blue Lanterns, Shelter Hall Beacon, and Shell Spiral Windows Tide-Seal Citadel.",
+      "gameplayAssetNeeds": [
+        "Spawning Pool Nook",
+        "Nursery / Spawning Grounds Civic Hall",
+        "Nursery Basin",
+        "Shell Inlay Monument",
+        "Section 4 pedestrian-scale props",
+        "Frostharbor civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Spawning Pool Nook",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Spawning Pool Nook",
+      "minorLandmarks": [
+        "Nursery / Spawning Grounds Civic Hall",
+        "Nursery Basin",
+        "Shell Inlay Monument"
+      ]
+    },
+    {
+      "districtNumber": 22,
+      "districtId": "D22",
+      "sectionNumber": 4,
+      "name": "D22 — Nursery / Spawning Grounds Civic Hall Supporting Streets",
+      "civicPurpose": "This district turns Section 4's source-backed anchor set into a board-scale civic space: Nursery / Spawning Grounds Civic Hall, Nursery Basin, Shell Inlay Monument, Spawning Pool Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Frostharbor.",
+      "visualIdentity": "Use Nursery / Spawning Grounds Civic Hall as the main read. Keep exact source anchors visible where applicable: Nursery / Spawning Grounds Civic Hall, Nursery Basin, Shell Inlay Monument, Spawning Pool Nook. The district should share Frostharbor's seal-like aquatic beastfolk identity, Blue Granite, Frost Glass, Pine, Silver Inlay, and Coastal Edge, Seawall Edge, Harbor Basin without becoming generic.",
+      "emotionalIdentity": "Connective and practical, with Frostharbor's larger mood shaped by Sealfolk Ice-Tide Roundhouse of Blue Lanterns, Shelter Hall Beacon, and Shell Spiral Windows Tide-Seal Citadel.",
+      "gameplayAssetNeeds": [
+        "Nursery / Spawning Grounds Civic Hall",
+        "Nursery Basin",
+        "Shell Inlay Monument",
+        "Spawning Pool Nook",
+        "Section 4 pedestrian-scale props",
+        "Frostharbor civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Nursery / Spawning Grounds Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Nursery / Spawning Grounds Civic Hall",
+      "minorLandmarks": [
+        "Nursery Basin",
+        "Shell Inlay Monument",
+        "Spawning Pool Nook"
+      ]
+    },
+    {
+      "districtNumber": 19,
+      "districtId": "D19",
+      "sectionNumber": 5,
+      "name": "D19 — S5 Harbor Campus Civic-Anchor Precinct",
+      "civicPurpose": "This district turns Section 5's source-backed anchor set into a board-scale civic space: S5 Harbor Campus, Harbor Basilica, S5 Harbor Arch, S5 Harbor Bridgelet. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Frostharbor.",
+      "visualIdentity": "Use S5 Harbor Campus as the main read. Keep exact source anchors visible where applicable: S5 Harbor Campus, Harbor Basilica, S5 Harbor Arch, S5 Harbor Bridgelet. The district should share Frostharbor's seal-like aquatic beastfolk identity, Blue Granite, Frost Glass, Pine, Silver Inlay, and Coastal Edge, Seawall Edge, Harbor Basin without becoming generic.",
+      "emotionalIdentity": "Locally grounded, with Frostharbor's larger mood shaped by Sealfolk Ice-Tide Roundhouse of Blue Lanterns, Shelter Hall Beacon, and Shell Spiral Windows Tide-Seal Citadel.",
+      "gameplayAssetNeeds": [
+        "S5 Harbor Campus",
+        "Harbor Basilica",
+        "S5 Harbor Arch",
+        "S5 Harbor Bridgelet",
+        "Section 5 pedestrian-scale props",
+        "Frostharbor civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on S5 Harbor Campus",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "S5 Harbor Campus",
+      "minorLandmarks": [
+        "Harbor Basilica",
+        "S5 Harbor Arch",
+        "S5 Harbor Bridgelet"
+      ]
+    },
+    {
+      "districtNumber": 20,
+      "districtId": "D20",
+      "sectionNumber": 5,
+      "name": "D20 — Harbor Basilica Landmark Approach",
+      "civicPurpose": "This district turns Section 5's source-backed anchor set into a board-scale civic space: S5 Harbor Campus, Harbor Basilica, S5 Harbor Arch, S5 Harbor Bridgelet. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Frostharbor.",
+      "visualIdentity": "Use Harbor Basilica as the main read. Keep exact source anchors visible where applicable: S5 Harbor Campus, Harbor Basilica, S5 Harbor Arch, S5 Harbor Bridgelet. The district should share Frostharbor's seal-like aquatic beastfolk identity, Blue Granite, Frost Glass, Pine, Silver Inlay, and Coastal Edge, Seawall Edge, Harbor Basin without becoming generic.",
+      "emotionalIdentity": "Public-facing, with Frostharbor's larger mood shaped by Sealfolk Ice-Tide Roundhouse of Blue Lanterns, Shelter Hall Beacon, and Shell Spiral Windows Tide-Seal Citadel.",
+      "gameplayAssetNeeds": [
+        "Harbor Basilica",
+        "S5 Harbor Campus",
+        "S5 Harbor Arch",
+        "S5 Harbor Bridgelet",
+        "Section 5 pedestrian-scale props",
+        "Frostharbor civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Harbor Basilica",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Harbor Basilica",
+      "minorLandmarks": [
+        "S5 Harbor Campus",
+        "S5 Harbor Arch",
+        "S5 Harbor Bridgelet"
+      ]
+    },
+    {
+      "districtNumber": 23,
+      "districtId": "D23",
+      "sectionNumber": 5,
+      "name": "D23 — S5 Harbor Arch Monument Frontage",
+      "civicPurpose": "This district turns Section 5's source-backed anchor set into a board-scale civic space: S5 Harbor Campus, Harbor Basilica, S5 Harbor Arch, S5 Harbor Bridgelet. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Frostharbor.",
+      "visualIdentity": "Use S5 Harbor Arch as the main read. Keep exact source anchors visible where applicable: S5 Harbor Campus, Harbor Basilica, S5 Harbor Arch, S5 Harbor Bridgelet. The district should share Frostharbor's seal-like aquatic beastfolk identity, Blue Granite, Frost Glass, Pine, Silver Inlay, and Coastal Edge, Seawall Edge, Harbor Basin without becoming generic.",
+      "emotionalIdentity": "Memorial or symbolic, with Frostharbor's larger mood shaped by Sealfolk Ice-Tide Roundhouse of Blue Lanterns, Shelter Hall Beacon, and Shell Spiral Windows Tide-Seal Citadel.",
+      "gameplayAssetNeeds": [
+        "S5 Harbor Arch",
+        "S5 Harbor Campus",
+        "Harbor Basilica",
+        "S5 Harbor Bridgelet",
+        "Section 5 pedestrian-scale props",
+        "Frostharbor civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on S5 Harbor Arch",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "S5 Harbor Arch",
+      "minorLandmarks": [
+        "S5 Harbor Campus",
+        "Harbor Basilica",
+        "S5 Harbor Bridgelet"
+      ]
+    },
+    {
+      "districtNumber": 24,
+      "districtId": "D24",
+      "sectionNumber": 5,
+      "name": "D24 — S5 Harbor Bridgelet Neighborhood Nook",
+      "civicPurpose": "This district turns Section 5's source-backed anchor set into a board-scale civic space: S5 Harbor Campus, Harbor Basilica, S5 Harbor Arch, S5 Harbor Bridgelet. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Frostharbor.",
+      "visualIdentity": "Use S5 Harbor Bridgelet as the main read. Keep exact source anchors visible where applicable: S5 Harbor Campus, Harbor Basilica, S5 Harbor Arch, S5 Harbor Bridgelet. The district should share Frostharbor's seal-like aquatic beastfolk identity, Blue Granite, Frost Glass, Pine, Silver Inlay, and Coastal Edge, Seawall Edge, Harbor Basin without becoming generic.",
+      "emotionalIdentity": "Intimate and lived-in, with Frostharbor's larger mood shaped by Sealfolk Ice-Tide Roundhouse of Blue Lanterns, Shelter Hall Beacon, and Shell Spiral Windows Tide-Seal Citadel.",
+      "gameplayAssetNeeds": [
+        "S5 Harbor Bridgelet",
+        "S5 Harbor Campus",
+        "Harbor Basilica",
+        "S5 Harbor Arch",
+        "Section 5 pedestrian-scale props",
+        "Frostharbor civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on S5 Harbor Bridgelet",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "S5 Harbor Bridgelet",
+      "minorLandmarks": [
+        "S5 Harbor Campus",
+        "Harbor Basilica",
+        "S5 Harbor Arch"
+      ]
+    },
+    {
+      "districtNumber": 25,
+      "districtId": "D25",
+      "sectionNumber": 5,
+      "name": "D25 — S5 Harbor Campus Supporting Streets",
+      "civicPurpose": "This district turns Section 5's source-backed anchor set into a board-scale civic space: S5 Harbor Campus, Harbor Basilica, S5 Harbor Arch, S5 Harbor Bridgelet. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Frostharbor.",
+      "visualIdentity": "Use S5 Harbor Campus as the main read. Keep exact source anchors visible where applicable: S5 Harbor Campus, Harbor Basilica, S5 Harbor Arch, S5 Harbor Bridgelet. The district should share Frostharbor's seal-like aquatic beastfolk identity, Blue Granite, Frost Glass, Pine, Silver Inlay, and Coastal Edge, Seawall Edge, Harbor Basin without becoming generic.",
+      "emotionalIdentity": "Connective and practical, with Frostharbor's larger mood shaped by Sealfolk Ice-Tide Roundhouse of Blue Lanterns, Shelter Hall Beacon, and Shell Spiral Windows Tide-Seal Citadel.",
+      "gameplayAssetNeeds": [
+        "S5 Harbor Campus",
+        "Harbor Basilica",
+        "S5 Harbor Arch",
+        "S5 Harbor Bridgelet",
+        "Section 5 pedestrian-scale props",
+        "Frostharbor civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on S5 Harbor Campus",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "S5 Harbor Campus",
+      "minorLandmarks": [
+        "Harbor Basilica",
+        "S5 Harbor Arch",
+        "S5 Harbor Bridgelet"
+      ]
+    }
   ],
   "landmarks": {
-    "wonder": {"name": "Sealfolk Ice-Tide Roundhouse of Blue Lanterns", "symbolicRole": "Communal shelter against cold water, tide, storm, and uncertainty.", "visualRole": "Massive roundhouse complex of wet stone, shell forms, blue lanterns, tide platforms, shelter halls, and broad harbor massing.", "civicRole": "Citywide gathering place for storm shelter, winter festivals, emergency musters, lantern ceremonies, and community meals.", "narrativeUse": ["storm shelter", "public gathering", "festival", "emergency muster", "civic reassurance"], "assetUse": ["map wonder", "harbor skyline anchor"], "sensoryIdentity": ["warm halls", "blue lanterns", "wet stone", "cold wind", "crowd murmur"], "storyHooks": ["A storm drives every district toward the Roundhouse at once."]},
-    "beacon": {"name": "Shelter Hall Beacon", "symbolicRole": "Public signal tied to shelter, readiness, and communal response.", "visualRole": "Tall blue-lit signal tower integrated with shelter halls, visible through fog and reflected in harbor water.", "civicRole": "Coordinates shelter routing, storm warnings, public announcements, emergency gathering, and lantern maintenance.", "narrativeUse": ["Beacon state change", "storm warning", "shelter route", "public alarm"], "assetUse": ["S1 centerpiece", "signal marker"], "sensoryIdentity": ["blue glow", "fog", "wet stone", "bell calls"], "storyHooks": ["A Beacon change makes every shelter, dock, and family route recalculate at once."]},
-    "seatOfPower": {"name": "Shell Spiral Windows Tide-Seal Citadel", "symbolicRole": "Tide law, sealed records, harbor command, and shell-spiral continuity made government.", "visualRole": "Water-facing citadel of pale wet stone, shell spiral windows, blue-lit chambers, command terraces, sealed archives, and tide platforms.", "civicRole": "Governs harbor operations, archive sealing, tide-law hearings, public works command, and emergency weather response.", "narrativeUse": ["tide-law hearing", "harbor command", "sealed archive", "public works order"], "assetUse": ["seat-of-power marker", "central citadel diorama"], "sensoryIdentity": ["salt air", "ink", "blue glass", "wet stone", "harbor bells"], "storyHooks": ["A tide record in the Citadel decides whether the harbor can open before a storm."]},
+    "wonder": {
+      "name": "Sealfolk Ice-Tide Roundhouse of Blue Lanterns",
+      "symbolicRole": "Sealfolk Ice-Tide Roundhouse of Blue Lanterns concentrates Frostharbor's local symbolism into a usable civic landmark: city wonder, separate far skyline anchor.",
+      "visualRole": "A one-per-city wonder: spectacular, unmistakable, and larger than every section landmark. It turns Frostharbor's geography, race identity, material culture, and civic magic into one public symbol. Built for Frostharbor's seal-like aquatic beastfolk population, it uses Blue Granite, Frost Glass, Pine, Silver Inlay, Arcane Glow across Coastal Edge, Seawall Edge, Harbor Basin; water context: Coast; magic expression: Beast Bonding, Ancestor Guidance, Tide Sorcery. It must read clearly as a high-fantasy tactical-board asset with no baked labels or text.",
+      "civicRole": "Serves as city wonder, separate far skyline anchor within Frostharbor; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+      "narrativeUse": [
+        "stage scenes involving Sealfolk Ice-Tide Roundhouse of Blue Lanterns",
+        "show how Frostharbor turns landmark symbolism into civic pressure",
+        "anchor public movement and crowd behavior",
+        "give writers a concrete place for announcements, disputes, errands, or rituals"
+      ],
+      "assetUse": [
+        "city landmark asset",
+        "map background landmark marker",
+        "visual continuity anchor across hero and street scenes",
+        "scale reference for civilians, roads, plazas, and props"
+      ],
+      "sensoryIdentity": [
+        "local foot traffic",
+        "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+        "public voices and civic work nearby",
+        "ambient city light and weathering",
+        "close pedestrian-scale details rather than abstract skyline-only treatment"
+      ],
+      "storyHooks": [
+        "a routine civic action at Sealfolk Ice-Tide Roundhouse of Blue Lanterns becomes narratively important",
+        "the visible condition of Sealfolk Ice-Tide Roundhouse of Blue Lanterns signals political or social stress",
+        "someone uses Sealfolk Ice-Tide Roundhouse of Blue Lanterns's public function to redirect crowds or information",
+        "an overlooked detail at Sealfolk Ice-Tide Roundhouse of Blue Lanterns reveals how Frostharbor really works"
+      ]
+    },
+    "beacon": {
+      "name": "Shelter Hall Beacon",
+      "symbolicRole": "Shelter Hall Beacon concentrates Frostharbor's local symbolism into a usable civic landmark: Section 1 beacon, near/front civic signal anchor.",
+      "visualRole": "Shelter Hall Beacon: the single city beacon, a towering civic signal landmark fixed to section 1. Visible signal apparatus, strong vertical silhouette, public approach space, and board-scale beacon identity.",
+      "civicRole": "Serves as Section 1 beacon, near/front civic signal anchor within Frostharbor; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+      "narrativeUse": [
+        "stage scenes involving Shelter Hall Beacon",
+        "show how Frostharbor turns landmark symbolism into civic pressure",
+        "anchor public movement and crowd behavior",
+        "give writers a concrete place for announcements, disputes, errands, or rituals"
+      ],
+      "assetUse": [
+        "district diorama anchor for Section 1",
+        "map background landmark marker",
+        "visual continuity anchor across hero and street scenes",
+        "scale reference for civilians, roads, plazas, and props"
+      ],
+      "sensoryIdentity": [
+        "local foot traffic",
+        "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+        "public voices and civic work nearby",
+        "beacon or lamp glow when applicable",
+        "close pedestrian-scale details rather than abstract skyline-only treatment"
+      ],
+      "storyHooks": [
+        "a routine civic action at Shelter Hall Beacon becomes narratively important",
+        "the visible condition of Shelter Hall Beacon signals political or social stress",
+        "someone uses Shelter Hall Beacon's public function to redirect crowds or information",
+        "an overlooked detail at Shelter Hall Beacon reveals how Frostharbor really works"
+      ]
+    },
+    "seatOfPower": {
+      "name": "Shell Spiral Windows Tide-Seal Citadel",
+      "symbolicRole": "Shell Spiral Windows Tide-Seal Citadel concentrates Frostharbor's local symbolism into a usable civic landmark: dominant central civic anchor / District 13 seat of power.",
+      "visualRole": "The district-13 seat of power: courts, audience terraces, sealed archives, command platforms, and the visible apparatus of government. It is not a faction HQ; it is the city's central civic authority. Built for Frostharbor's seal-like aquatic beastfolk population, it uses Blue Granite, Frost Glass, Pine, Silver Inlay, Arcane Glow across Coastal Edge, Seawall Edge, Harbor Basin; water context: Coast; magic expression: Beast Bonding, Ancestor Guidance, Tide Sorcery. It must read clearly as a high-fantasy tactical-board asset with no baked labels or text.",
+      "civicRole": "Serves as dominant central civic anchor / District 13 seat of power within Frostharbor; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+      "narrativeUse": [
+        "stage scenes involving Shell Spiral Windows Tide-Seal Citadel",
+        "show how Frostharbor turns landmark symbolism into civic pressure",
+        "anchor public movement and crowd behavior",
+        "give writers a concrete place for announcements, disputes, errands, or rituals"
+      ],
+      "assetUse": [
+        "city landmark asset",
+        "map background landmark marker",
+        "visual continuity anchor across hero and street scenes",
+        "scale reference for civilians, roads, plazas, and props"
+      ],
+      "sensoryIdentity": [
+        "local foot traffic",
+        "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+        "public voices and civic work nearby",
+        "ambient city light and weathering",
+        "close pedestrian-scale details rather than abstract skyline-only treatment"
+      ],
+      "storyHooks": [
+        "a routine civic action at Shell Spiral Windows Tide-Seal Citadel becomes narratively important",
+        "the visible condition of Shell Spiral Windows Tide-Seal Citadel signals political or social stress",
+        "someone uses Shell Spiral Windows Tide-Seal Citadel's public function to redirect crowds or information",
+        "an overlooked detail at Shell Spiral Windows Tide-Seal Citadel reveals how Frostharbor really works"
+      ]
+    },
     "majorLandmarks": [
-      {"name": "Cargo Yard", "symbolicRole": "Logistics as visible civic power.", "visualRole": "Crates, cranes, ropes, sledges, wet docks, inventory halls, and labor lines.", "civicRole": "Cargo sorting, inventory control, dock labor, storage, and cold-chain harbor organization.", "narrativeUse": ["missing cargo", "commercial leverage", "dock labor scene"], "assetUse": ["S2 diorama"], "sensoryIdentity": ["rope tar", "crates", "fish", "wet timber"], "storyHooks": ["A missing crate reveals who controls the city's shelter supplies."]},
-      {"name": "Survey Hall", "symbolicRole": "Technical knowledge that keeps the harbor alive.", "visualRole": "Tide gauges, wet maps, blue lamps, permit yard, seawall tools, and survey platforms.", "civicRole": "Public works, tide measurements, weather warnings, permits, and seawall maintenance.", "narrativeUse": ["tide warning", "permit conflict", "engineering clue"], "assetUse": ["S3 diorama"], "sensoryIdentity": ["wet paper", "metal tools", "lamp oil", "cold wind"], "storyHooks": ["A survey warning is ignored because cargo profit depends on delay."]},
-      {"name": "Nursery Basin", "symbolicRole": "Continuity protected by public care.", "visualRole": "Protected warm water basin with shell inlay, low walls, caregivers, family routes, and soft blue light.", "civicRole": "Life-cycle care, nursery protection, family rituals, and communal supervision.", "narrativeUse": ["family stakes", "vulnerability", "continuity ritual"], "assetUse": ["S4 diorama"], "sensoryIdentity": ["warm water", "shell", "soft voices", "salt air"], "storyHooks": ["A nursery warning changes the moral weight of a harbor decision."]},
-      {"name": "Harbor Basilica", "symbolicRole": "Sea labor and civic reverence joined in ritual architecture.", "visualRole": "Basilica-like harbor structure with arches, bridgelets, shell forms, blue lamps, and water-facing approaches.", "civicRole": "Harbor ritual, blessings, public mourning, maritime ceremonies, and civic-water identity.", "narrativeUse": ["mourning", "blessing", "public rite", "ceremonial crossing"], "assetUse": ["S5 diorama"], "sensoryIdentity": ["bells", "salt", "blue light", "stone echo"], "storyHooks": ["A harbor blessing becomes a public admission of danger."]}
+      {
+        "name": "Harbor Basilica",
+        "symbolicRole": "Harbor Basilica concentrates Frostharbor's local symbolism into a usable civic landmark: additional major landmark selected for this hero-view camera angle.",
+        "visualRole": "Harbor Basilica: authored non-beacon major landmark for section 5. largest section focal point. strong vertical silhouette. distinct gameplay landmark. visible from nearby districts. anchors. ropes. buoys. signal lanterns. piers. quays. dock terraces. slipways.",
+        "civicRole": "Serves as additional major landmark selected for this hero-view camera angle within Frostharbor; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Harbor Basilica",
+          "show how Frostharbor turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 5",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Harbor Basilica becomes narratively important",
+          "the visible condition of Harbor Basilica signals political or social stress",
+          "someone uses Harbor Basilica's public function to redirect crowds or information",
+          "an overlooked detail at Harbor Basilica reveals how Frostharbor really works"
+        ]
+      },
+      {
+        "name": "Cargo Yard",
+        "symbolicRole": "Cargo Yard concentrates Frostharbor's local symbolism into a usable civic landmark: additional major landmark selected for this hero-view camera angle.",
+        "visualRole": "A largest local landmark in this section, subordinate only to the city wonder and citadel. It belongs to Section 2 (Warehousing / Logistics) of Frostharbor and should use Subterranean Vaults, White Limestone Civic Blocks, Market Arcades, frost glass and silver inlay materials, Gold Seals, Red Fabric Awnings, Lantern Lit, and the seal-like aquatic beastfolk visual language. Design focus: crates, ropes, labels, stacked barrels, warehouses. Terrain/water context: Lagoon; Coast. Magic expression: Salt Wards, Blood Staunching, Herbal Spirits. No baked labels or text.",
+        "civicRole": "Serves as additional major landmark selected for this hero-view camera angle within Frostharbor; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Cargo Yard",
+          "show how Frostharbor turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 2",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Cargo Yard becomes narratively important",
+          "the visible condition of Cargo Yard signals political or social stress",
+          "someone uses Cargo Yard's public function to redirect crowds or information",
+          "an overlooked detail at Cargo Yard reveals how Frostharbor really works"
+        ]
+      },
+      {
+        "name": "Nursery Basin",
+        "symbolicRole": "Nursery Basin concentrates Frostharbor's local symbolism into a usable civic landmark: additional major landmark selected for this hero-view camera angle.",
+        "visualRole": "A largest local landmark in this section, subordinate only to the city wonder and citadel. It belongs to Section 4 (Nursery / Spawning Grounds) of Frostharbor and should use Coral Terraces, Reed Pavilions, Shell Domes, frost glass and silver inlay materials, Shell Inlay, Canal Reflections, Hanging Gardens, and the seal-like aquatic beastfolk visual language. Design focus: strong vertical silhouette, distinct gameplay landmark, visible from nearby districts, cradles, warm pools. Terrain/water context: Lagoon; Coast. Magic expression: Salt Wards, Blood Staunching, Herbal Spirits. No baked labels or text.",
+        "civicRole": "Serves as additional major landmark selected for this hero-view camera angle within Frostharbor; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Nursery Basin",
+          "show how Frostharbor turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 4",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Nursery Basin becomes narratively important",
+          "the visible condition of Nursery Basin signals political or social stress",
+          "someone uses Nursery Basin's public function to redirect crowds or information",
+          "an overlooked detail at Nursery Basin reveals how Frostharbor really works"
+        ]
+      },
+      {
+        "name": "S1 Shelter Hall",
+        "symbolicRole": "S1 Shelter Hall concentrates Frostharbor's local symbolism into a usable civic landmark: Section 1 local anchor.",
+        "visualRole": "Shelter Hall: authored civic gathering structure for section 1. institutional anchor. public-facing administration. clear central silhouette. board-readable entrance. blankets. ration tokens. lantern lines. repair patches. tent courts. aid halls. temporary houses. ration counters.",
+        "civicRole": "Serves as Section 1 local anchor within Frostharbor; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving S1 Shelter Hall",
+          "show how Frostharbor turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 1",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at S1 Shelter Hall becomes narratively important",
+          "the visible condition of S1 Shelter Hall signals political or social stress",
+          "someone uses S1 Shelter Hall's public function to redirect crowds or information",
+          "an overlooked detail at S1 Shelter Hall reveals how Frostharbor really works"
+        ]
+      },
+      {
+        "name": "S1 Shelter Pillar",
+        "symbolicRole": "S1 Shelter Pillar concentrates Frostharbor's local symbolism into a usable civic landmark: Section 1 local anchor.",
+        "visualRole": "Shelter Pillar: carved civic memorial on a raised plinth. Ceremonial gathering area, readable symbolic focal point, strong vertical silhouette.",
+        "civicRole": "Serves as Section 1 local anchor within Frostharbor; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving S1 Shelter Pillar",
+          "show how Frostharbor turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 1",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at S1 Shelter Pillar becomes narratively important",
+          "the visible condition of S1 Shelter Pillar signals political or social stress",
+          "someone uses S1 Shelter Pillar's public function to redirect crowds or information",
+          "an overlooked detail at S1 Shelter Pillar reveals how Frostharbor really works"
+        ]
+      },
+      {
+        "name": "S1 Shelter Kiosk",
+        "symbolicRole": "S1 Shelter Kiosk concentrates Frostharbor's local symbolism into a usable civic landmark: Section 1 local anchor.",
+        "visualRole": "Shelter Kiosk: compact district landmark. Small integrated platform, nearby gathering space, readable focal prop from adjacent streets.",
+        "civicRole": "Serves as Section 1 local anchor within Frostharbor; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving S1 Shelter Kiosk",
+          "show how Frostharbor turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 1",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at S1 Shelter Kiosk becomes narratively important",
+          "the visible condition of S1 Shelter Kiosk signals political or social stress",
+          "someone uses S1 Shelter Kiosk's public function to redirect crowds or information",
+          "an overlooked detail at S1 Shelter Kiosk reveals how Frostharbor really works"
+        ]
+      },
+      {
+        "name": "Warehousing / Logistics Civic Hall",
+        "symbolicRole": "Warehousing / Logistics Civic Hall concentrates Frostharbor's local symbolism into a usable civic landmark: Section 2 local anchor.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing. It belongs to Section 2 (Warehousing / Logistics) of Frostharbor and should use White Limestone Civic Blocks, Market Arcades, Subterranean Vaults, frost glass and silver inlay materials, Red Fabric Awnings, Lantern Lit, Gold Seals, and the seal-like aquatic beastfolk visual language. Design focus: stacked barrels, warehouses, loading bays, manifest offices, loading docks. Terrain/water context: Lagoon; Coast. Magic expression: Salt Wards, Blood Staunching, Herbal Spirits. No baked labels or text.",
+        "civicRole": "Serves as Section 2 local anchor within Frostharbor; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Warehousing / Logistics Civic Hall",
+          "show how Frostharbor turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 2",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Warehousing / Logistics Civic Hall becomes narratively important",
+          "the visible condition of Warehousing / Logistics Civic Hall signals political or social stress",
+          "someone uses Warehousing / Logistics Civic Hall's public function to redirect crowds or information",
+          "an overlooked detail at Warehousing / Logistics Civic Hall reveals how Frostharbor really works"
+        ]
+      },
+      {
+        "name": "Warehousing Logistics Gold-Seal Monument",
+        "symbolicRole": "Warehousing Logistics Gold-Seal Monument concentrates Frostharbor's local symbolism into a usable civic landmark: Section 2 local anchor.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles. It belongs to Section 2 (Warehousing / Logistics) of Frostharbor and should use White Limestone Civic Blocks, Market Arcades, Subterranean Vaults, frost glass and silver inlay materials, Red Fabric Awnings, Lantern Lit, Gold Seals, and the seal-like aquatic beastfolk visual language. Design focus: small ceremonial site, local memory marker, subordinate to major landmark, crates, ropes. Terrain/water context: Lagoon; Coast. Magic expression: Salt Wards, Blood Staunching, Herbal Spirits. No baked labels or text.",
+        "civicRole": "Serves as Section 2 local anchor within Frostharbor; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Warehousing Logistics Gold-Seal Monument",
+          "show how Frostharbor turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 2",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Warehousing Logistics Gold-Seal Monument becomes narratively important",
+          "the visible condition of Warehousing Logistics Gold-Seal Monument signals political or social stress",
+          "someone uses Warehousing Logistics Gold-Seal Monument's public function to redirect crowds or information",
+          "an overlooked detail at Warehousing Logistics Gold-Seal Monument reveals how Frostharbor really works"
+        ]
+      },
+      {
+        "name": "Inventory Hall Nook",
+        "symbolicRole": "Inventory Hall Nook concentrates Frostharbor's local symbolism into a usable civic landmark: Section 2 local anchor.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette. It belongs to Section 2 (Warehousing / Logistics) of Frostharbor and should use Subterranean Vaults, White Limestone Civic Blocks, Market Arcades, frost glass and silver inlay materials, Red Fabric Awnings, Lantern Lit, Gold Seals, and the seal-like aquatic beastfolk visual language. Design focus: stacked barrels, warehouses, loading bays, manifest offices, loading docks. Terrain/water context: Lagoon; Coast. Magic expression: Salt Wards, Blood Staunching, Herbal Spirits. No baked labels or text.",
+        "civicRole": "Serves as Section 2 local anchor within Frostharbor; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Inventory Hall Nook",
+          "show how Frostharbor turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 2",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Inventory Hall Nook becomes narratively important",
+          "the visible condition of Inventory Hall Nook signals political or social stress",
+          "someone uses Inventory Hall Nook's public function to redirect crowds or information",
+          "an overlooked detail at Inventory Hall Nook reveals how Frostharbor really works"
+        ]
+      },
+      {
+        "name": "Public Works Authority Hall",
+        "symbolicRole": "Public Works Authority Hall concentrates Frostharbor's local symbolism into a usable civic landmark: Section 3 local anchor.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing. It belongs to Section 3 (Public Works Authority) of Frostharbor and should use Market Arcades, White Limestone Civic Blocks, Forge Halls, frost glass and silver inlay materials, Gold Seals, Civic Blue Glow, Canal Reflections, and the seal-like aquatic beastfolk visual language. Design focus: institutional anchor, public-facing administration, clear central silhouette, board-readable entrance, measuring rods. Terrain/water context: Lagoon; Coast. Magic expression: Salt Wards, Blood Staunching, Herbal Spirits. No baked labels or text.",
+        "civicRole": "Serves as Section 3 local anchor within Frostharbor; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Public Works Authority Hall",
+          "show how Frostharbor turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 3",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Public Works Authority Hall becomes narratively important",
+          "the visible condition of Public Works Authority Hall signals political or social stress",
+          "someone uses Public Works Authority Hall's public function to redirect crowds or information",
+          "an overlooked detail at Public Works Authority Hall reveals how Frostharbor really works"
+        ]
+      },
+      {
+        "name": "Survey Hall",
+        "symbolicRole": "Survey Hall concentrates Frostharbor's local symbolism into a usable civic landmark: Section 3 local anchor.",
+        "visualRole": "A mandatory Section 3 Beacon: a culturally adapted civic signal flame / warning-light landmark visible across the city spine. It belongs to Section 3 (Public Works Authority) of Frostharbor and should use Market Arcades, White Limestone Civic Blocks, Forge Halls, frost glass and silver inlay materials, Gold Seals, Civic Blue Glow, Canal Reflections, and the seal-like aquatic beastfolk visual language. Design focus: measuring rods, scaffolds, stone plans, water gauges, engineer halls. Terrain/water context: Lagoon; Coast. Magic expression: Salt Wards, Blood Staunching, Herbal Spirits. No baked labels or text.",
+        "civicRole": "Serves as Section 3 local anchor within Frostharbor; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Survey Hall",
+          "show how Frostharbor turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 3",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Survey Hall becomes narratively important",
+          "the visible condition of Survey Hall signals political or social stress",
+          "someone uses Survey Hall's public function to redirect crowds or information",
+          "an overlooked detail at Survey Hall reveals how Frostharbor really works"
+        ]
+      },
+      {
+        "name": "Blue-Lamp Monument",
+        "symbolicRole": "Blue-Lamp Monument concentrates Frostharbor's local symbolism into a usable civic landmark: Section 3 local anchor.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles. It belongs to Section 3 (Public Works Authority) of Frostharbor and should use Forge Halls, Market Arcades, White Limestone Civic Blocks, frost glass and silver inlay materials, Civic Blue Glow, Canal Reflections, Gold Seals, and the seal-like aquatic beastfolk visual language. Design focus: scaffolds, stone plans, water gauges, engineer halls, survey yards. Terrain/water context: Lagoon; Coast. Magic expression: Salt Wards, Blood Staunching, Herbal Spirits. No baked labels or text.",
+        "civicRole": "Serves as Section 3 local anchor within Frostharbor; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Blue-Lamp Monument",
+          "show how Frostharbor turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 3",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Blue-Lamp Monument becomes narratively important",
+          "the visible condition of Blue-Lamp Monument signals political or social stress",
+          "someone uses Blue-Lamp Monument's public function to redirect crowds or information",
+          "an overlooked detail at Blue-Lamp Monument reveals how Frostharbor really works"
+        ]
+      },
+      {
+        "name": "Permit Yard Nook",
+        "symbolicRole": "Permit Yard Nook concentrates Frostharbor's local symbolism into a usable civic landmark: Section 3 local anchor.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette. It belongs to Section 3 (Public Works Authority) of Frostharbor and should use Market Arcades, White Limestone Civic Blocks, Forge Halls, frost glass and silver inlay materials, Civic Blue Glow, Canal Reflections, Gold Seals, and the seal-like aquatic beastfolk visual language. Design focus: scaffolds, stone plans, water gauges, engineer halls, survey yards. Terrain/water context: Lagoon; Coast. Magic expression: Salt Wards, Blood Staunching, Herbal Spirits. No baked labels or text.",
+        "civicRole": "Serves as Section 3 local anchor within Frostharbor; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Permit Yard Nook",
+          "show how Frostharbor turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 3",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Permit Yard Nook becomes narratively important",
+          "the visible condition of Permit Yard Nook signals political or social stress",
+          "someone uses Permit Yard Nook's public function to redirect crowds or information",
+          "an overlooked detail at Permit Yard Nook reveals how Frostharbor really works"
+        ]
+      },
+      {
+        "name": "Nursery / Spawning Grounds Civic Hall",
+        "symbolicRole": "Nursery / Spawning Grounds Civic Hall concentrates Frostharbor's local symbolism into a usable civic landmark: Section 4 local anchor.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing. It belongs to Section 4 (Nursery / Spawning Grounds) of Frostharbor and should use Coral Terraces, Reed Pavilions, Shell Domes, frost glass and silver inlay materials, Shell Inlay, Canal Reflections, Hanging Gardens, and the seal-like aquatic beastfolk visual language. Design focus: cradles, warm pools, egg stones, soft lanterns, nursery halls. Terrain/water context: Lagoon; Coast. Magic expression: Salt Wards, Blood Staunching, Herbal Spirits. No baked labels or text.",
+        "civicRole": "Serves as Section 4 local anchor within Frostharbor; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Nursery / Spawning Grounds Civic Hall",
+          "show how Frostharbor turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 4",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Nursery / Spawning Grounds Civic Hall becomes narratively important",
+          "the visible condition of Nursery / Spawning Grounds Civic Hall signals political or social stress",
+          "someone uses Nursery / Spawning Grounds Civic Hall's public function to redirect crowds or information",
+          "an overlooked detail at Nursery / Spawning Grounds Civic Hall reveals how Frostharbor really works"
+        ]
+      },
+      {
+        "name": "Shell Inlay Monument",
+        "symbolicRole": "Shell Inlay Monument concentrates Frostharbor's local symbolism into a usable civic landmark: Section 4 local anchor.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles. It belongs to Section 4 (Nursery / Spawning Grounds) of Frostharbor and should use Coral Terraces, Reed Pavilions, Shell Domes, frost glass and silver inlay materials, Canal Reflections, Hanging Gardens, Shell Inlay, and the seal-like aquatic beastfolk visual language. Design focus: play yards, symbolic civic object, small ceremonial site, local memory marker, subordinate to major landmark. Terrain/water context: Lagoon; Coast. Magic expression: Salt Wards, Blood Staunching, Herbal Spirits. No baked labels or text.",
+        "civicRole": "Serves as Section 4 local anchor within Frostharbor; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Shell Inlay Monument",
+          "show how Frostharbor turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 4",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Shell Inlay Monument becomes narratively important",
+          "the visible condition of Shell Inlay Monument signals political or social stress",
+          "someone uses Shell Inlay Monument's public function to redirect crowds or information",
+          "an overlooked detail at Shell Inlay Monument reveals how Frostharbor really works"
+        ]
+      },
+      {
+        "name": "Spawning Pool Nook",
+        "symbolicRole": "Spawning Pool Nook concentrates Frostharbor's local symbolism into a usable civic landmark: Section 4 local anchor.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette. It belongs to Section 4 (Nursery / Spawning Grounds) of Frostharbor and should use Reed Pavilions, Shell Domes, Coral Terraces, frost glass and silver inlay materials, Hanging Gardens, Shell Inlay, Canal Reflections, and the seal-like aquatic beastfolk visual language. Design focus: small local identity prop, street-level detail, usable board landmark, subordinate scale, cradles. Terrain/water context: Lagoon; Coast. Magic expression: Salt Wards, Blood Staunching, Herbal Spirits. No baked labels or text.",
+        "civicRole": "Serves as Section 4 local anchor within Frostharbor; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Spawning Pool Nook",
+          "show how Frostharbor turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 4",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Spawning Pool Nook becomes narratively important",
+          "the visible condition of Spawning Pool Nook signals political or social stress",
+          "someone uses Spawning Pool Nook's public function to redirect crowds or information",
+          "an overlooked detail at Spawning Pool Nook reveals how Frostharbor really works"
+        ]
+      },
+      {
+        "name": "S5 Harbor Campus",
+        "symbolicRole": "S5 Harbor Campus concentrates Frostharbor's local symbolism into a usable civic landmark: Section 5 local anchor.",
+        "visualRole": "Harbor Campus: authored civic gathering structure for section 5. institutional anchor. public-facing administration. clear central silhouette. board-readable entrance. anchors. ropes. buoys. signal lanterns. piers. quays. dock terraces. slipways.",
+        "civicRole": "Serves as Section 5 local anchor within Frostharbor; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving S5 Harbor Campus",
+          "show how Frostharbor turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 5",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at S5 Harbor Campus becomes narratively important",
+          "the visible condition of S5 Harbor Campus signals political or social stress",
+          "someone uses S5 Harbor Campus's public function to redirect crowds or information",
+          "an overlooked detail at S5 Harbor Campus reveals how Frostharbor really works"
+        ]
+      },
+      {
+        "name": "S5 Harbor Arch",
+        "symbolicRole": "S5 Harbor Arch concentrates Frostharbor's local symbolism into a usable civic landmark: Section 5 local anchor.",
+        "visualRole": "Harbor Arch: carved civic memorial on a raised plinth. Ceremonial gathering area, readable symbolic focal point, strong vertical silhouette.",
+        "civicRole": "Serves as Section 5 local anchor within Frostharbor; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving S5 Harbor Arch",
+          "show how Frostharbor turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 5",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at S5 Harbor Arch becomes narratively important",
+          "the visible condition of S5 Harbor Arch signals political or social stress",
+          "someone uses S5 Harbor Arch's public function to redirect crowds or information",
+          "an overlooked detail at S5 Harbor Arch reveals how Frostharbor really works"
+        ]
+      },
+      {
+        "name": "S5 Harbor Bridgelet",
+        "symbolicRole": "S5 Harbor Bridgelet concentrates Frostharbor's local symbolism into a usable civic landmark: Section 5 local anchor.",
+        "visualRole": "Harbor Bridgelet: compact district landmark. Small integrated platform, nearby gathering space, readable focal prop from adjacent streets.",
+        "civicRole": "Serves as Section 5 local anchor within Frostharbor; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving S5 Harbor Bridgelet",
+          "show how Frostharbor turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 5",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at S5 Harbor Bridgelet becomes narratively important",
+          "the visible condition of S5 Harbor Bridgelet signals political or social stress",
+          "someone uses S5 Harbor Bridgelet's public function to redirect crowds or information",
+          "an overlooked detail at S5 Harbor Bridgelet reveals how Frostharbor really works"
+        ]
+      }
     ]
   },
   "assetGuidance": {
-    "districtDioramaGuidance": ["S1 must show S1 Shelter Hall, Shelter Hall Beacon, S1 Shelter Pillar, S1 Shelter Kiosk, blue lanterns, fire benches, and wet arrivals.", "S2 must show Warehousing / Logistics Civic Hall, Cargo Yard, Warehousing Logistics Gold-Seal Monument, Inventory Hall Nook, crates, cranes, dockworkers, and rope coils.", "S3 must show Public Works Authority Hall, Survey Hall, Blue-Lamp Monument, Permit Yard Nook, tide gauges, surveyors, and seawall tools.", "S4 must show Nursery / Spawning Grounds Civic Hall, Nursery Basin, Shell Inlay Monument, Spawning Pool Nook, warm water, caregivers, and family groups.", "S5 must show S5 Harbor Campus, Harbor Basilica, S5 Harbor Arch, S5 Harbor Bridgelet, ritual crowds, blue lamps, and shell details."],
-    "mapBackgroundGuidance": ["Use wet stone, blue lanterns, fog, ropes, low halls, shell spirals, cargo yards, tide gauges, nursery basins, shelter fires, and harbor ritual architecture.", "The Sealfolk Ice-Tide Roundhouse of Blue Lanterns should be the wonder-scale harbor anchor; the Shell Spiral Windows Tide-Seal Citadel should be water-facing authority; the Shelter Hall Beacon should be the civic safety signal."],
-    "requiredVisualElements": ["sealfolk citizens", "Sealfolk Ice-Tide Roundhouse of Blue Lanterns", "Shelter Hall Beacon", "Shell Spiral Windows Tide-Seal Citadel", "S1 Shelter Hall", "S1 Shelter Pillar", "S1 Shelter Kiosk", "Cargo Yard", "Warehousing Logistics Gold-Seal Monument", "Inventory Hall Nook", "Survey Hall", "Blue-Lamp Monument", "Permit Yard Nook", "Nursery Basin", "Shell Inlay Monument", "Spawning Pool Nook", "Harbor Basilica", "S5 Harbor Arch", "S5 Harbor Bridgelet", "blue lanterns", "wet stone", "shell spirals", "harbor fog"],
-    "elementsToAvoid": ["generic cold port", "temporary fishing village", "luxury marina", "sealfolk identity as decoration", "dry streets without amphibious movement", "shelter and nursery spaces treated as background"]
+    "districtDioramaGuidance": [
+      "Dioramas must support 25 district slots: S1 covers D01, D02, D03, D06, D07 and uses source-backed anchors S1 Shelter Hall, Shelter Hall Beacon, S1 Shelter Pillar, S1 Shelter Kiosk.",
+      "Dioramas must support 25 district slots: S2 covers D04, D05, D09, D10, D15 and uses source-backed anchors Warehousing / Logistics Civic Hall, Cargo Yard, Warehousing Logistics Gold-Seal Monument, Inventory Hall Nook.",
+      "Dioramas must support 25 district slots: S3 covers D08, D12, D13, D14, D18 and uses source-backed anchors Public Works Authority Hall, Survey Hall, Blue-Lamp Monument, Permit Yard Nook.",
+      "Dioramas must support 25 district slots: S4 covers D11, D16, D17, D21, D22 and uses source-backed anchors Nursery / Spawning Grounds Civic Hall, Nursery Basin, Shell Inlay Monument, Spawning Pool Nook.",
+      "Dioramas must support 25 district slots: S5 covers D19, D20, D23, D24, D25 and uses source-backed anchors S5 Harbor Campus, Harbor Basilica, S5 Harbor Arch, S5 Harbor Bridgelet."
+    ],
+    "mapBackgroundGuidance": [
+      "Map backgrounds must show Sealfolk Ice-Tide Roundhouse of Blue Lanterns as the wonder-scale identity anchor, Shell Spiral Windows Tide-Seal Citadel at D13, and Shelter Hall Beacon as the city signal landmark.",
+      "Preserve the five-section spine: S1 S1 Shelter Hall, S2 Warehousing / Logistics Civic Hall, S3 Public Works Authority Hall, S4 Nursery / Spawning Grounds Civic Hall, S5 S5 Harbor Campus.",
+      "Use roads, terrain, water, civic terraces, walls, markets, courts, or service routes only where they support the exact city identity and tactical readability."
+    ],
+    "requiredVisualElements": [
+      "Sealfolk Ice-Tide Roundhouse of Blue Lanterns",
+      "Shelter Hall Beacon",
+      "Shell Spiral Windows Tide-Seal Citadel",
+      "Harbor Basilica",
+      "Cargo Yard",
+      "Nursery Basin",
+      "S1 Shelter Hall",
+      "S1 Shelter Pillar",
+      "S1 Shelter Kiosk",
+      "Warehousing / Logistics Civic Hall",
+      "Warehousing Logistics Gold-Seal Monument",
+      "Inventory Hall Nook",
+      "Public Works Authority Hall",
+      "Survey Hall",
+      "Blue-Lamp Monument",
+      "Permit Yard Nook",
+      "Nursery / Spawning Grounds Civic Hall",
+      "Shell Inlay Monument",
+      "Spawning Pool Nook",
+      "S5 Harbor Campus",
+      "S5 Harbor Arch",
+      "S5 Harbor Bridgelet",
+      "Blue Granite",
+      "Frost Glass",
+      "Pine",
+      "Silver Inlay",
+      "Arcane Glow",
+      "Coastal Edge",
+      "Seawall Edge",
+      "Harbor Basin",
+      "Beast Bonding",
+      "Ancestor Guidance",
+      "Tide Sorcery"
+    ],
+    "elementsToAvoid": [
+      "extra top-level schema sections or research-log content in the JSON",
+      "generic fantasy architecture that ignores exact anchor names",
+      "invented missing street anchors",
+      "readable real-world text labels baked into images",
+      "collapsing the 25-district board into only five playable spaces",
+      "making landmarks decorative when they should have civic, narrative, and asset function"
+    ]
   }
 }

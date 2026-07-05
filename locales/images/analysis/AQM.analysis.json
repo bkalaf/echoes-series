@@ -4,9 +4,12 @@
     "analysisVersion": 2,
     "cityCode": "AQM",
     "cityName": "Aquila Matara",
-    "analysisDate": "2026-07-03",
+    "analysisDate": "2026-07-05",
     "analystVersion": "gpt-5.5-thinking",
     "analysisConfidence": "strong-lock",
+    "sourceStatus": "full",
+    "districtModel": "five sections; five district slots per section; D13 is the seat of power",
+    "missingStreetSections": [],
     "basedOnImages": [
       "AQM-HERO-NE-v001",
       "AQM-HERO-NW-v004",
@@ -31,496 +34,1122 @@
     ]
   },
   "cityDNA": {
-    "coreFantasy": "A white-stone maritime capital where public baths, markets, universities, guild halls, forums, archives, cathedral ritual, and Beacon authority turn civic visibility into national legitimacy.",
-    "primaryEmotion": "public confidence",
-    "secondaryEmotion": "institutional pressure",
-    "readerTakeaway": "Aquila Matara is not just a big coastal city; it is the capital made legible, with every bathhouse, market clock, university tower, guild hall, forum archive, cathedral dome, and blue-lit Beacon participating in public order.",
-    "civilizationThesis": "Aquila Matara fuses harbor life with civic institutions: arrival is washed and registered, commerce is timed and watched, knowledge serves administration, guild craft supports legitimacy, and the Forum preserves the First Accord beneath the Beacon and Tide-Seal Citadel.",
-    "visualIdentity": "White limestone, pale marble, red tile roofs, blue civic glass, bronze and gold detailing, sea-facing terraces, clock towers, cathedral domes, forum arches, university towers, public bathhouse courts, guild banners, and Beacon light above the harbor.",
-    "culturalIdentity": "A capital-port culture of clerks, bath attendants, guards, merchants, scholars, guild artisans, priests, archivists, petitioners, messengers, sailors, and officials accustomed to being seen by institutions.",
-    "symbolicIdentity": "Blue civic glow, tide seals, the First Accord, clock faces, public wells, oath walls, guild banners, archives, cathedral bells, forum pillars, and Beacon light symbolize official memory made public."
+    "coreFantasy": "A American city where Basilica of the First Accord, Beacon Citadel, Civic Blue Glow Tide-Seal Citadel, and the five-section district spine turn local identity into functional civic space.",
+    "primaryEmotion": "source-backed civic presence",
+    "secondaryEmotion": "lived-in pressure beneath landmark order",
+    "readerTakeaway": "Aquila Matara should feel immediately identifiable through exact landmarks and materials, not through generic fantasy-city shorthand.",
+    "civilizationThesis": "Aquila Matara organizes power through Civic Blue Glow Tide-Seal Citadel, public response through Beacon Citadel, civic memory through Basilica of the First Accord, and daily life through S1 Public Bathhouse, S2 Grand Market, S3 University, S4 Guild Hall, S5 Forum.",
+    "visualIdentity": "Polished White Limestone, Red Brick, Pale Marble Stone, Gold Trim, Red Fabric, Coastal Edge, Seawall Edge, Harbor Basin, Civic Blue Illumination, Oath Seals, Record Wards, and exact anchors including Civic Blue Glow Tide-Seal Citadel, Beacon Citadel, Basilica of the First Accord, Hall of Archives, Great Clock Tower, Grand Cathedral, Public Bathhouse, Wall of Oaths, Lantern Square, Grand Market.",
+    "culturalIdentity": "A American civic culture where architecture, public obligations, roads, landmark approaches, and everyday work must all read as part of the same civilization.",
+    "symbolicIdentity": "The city symbol system is built from exact names and visible functions: Basilica of the First Accord, Beacon Citadel, Civic Blue Glow Tide-Seal Citadel, and section anchors such as Public Bathhouse, Grand Market, University, Guild Hall, Forum."
   },
   "canon": {
     "canonLocks": [
-      "Aquila Matara is the capital-scale maritime civic center of the nation.",
-      "The Wonder is the Basilica of the First Accord.",
-      "The Beacon is the Beacon Citadel.",
-      "The Seat of Power is the Civic Blue Glow Tide-Seal Citadel.",
-      "The five primary districts are Public Bathhouse, Grand Market, University, Guild Hall, and Forum.",
-      "The city is organized around public legitimacy, institutional visibility, and movement from harbor arrival into civic authority."
+      "Aquila Matara uses city code AQM.",
+      "The Wonder is Basilica of the First Accord.",
+      "The Beacon is Beacon Citadel.",
+      "The Seat of Power is Civic Blue Glow Tide-Seal Citadel and occupies District 13.",
+      "The city uses five sections with five tactical district slots per section.",
+      "The source-backed section spine is: S1 Public Bathhouse, S2 Grand Market, S3 University, S4 Guild Hall, S5 Forum.",
+      "Preserve exact anchor name: Civic Blue Glow Tide-Seal Citadel.",
+      "Preserve exact anchor name: Beacon Citadel.",
+      "Preserve exact anchor name: Basilica of the First Accord.",
+      "Preserve exact anchor name: Hall of Archives.",
+      "Preserve exact anchor name: Great Clock Tower.",
+      "Preserve exact anchor name: Grand Cathedral.",
+      "Preserve exact anchor name: Public Bathhouse.",
+      "Preserve exact anchor name: Wall of Oaths.",
+      "Preserve exact anchor name: Lantern Square.",
+      "Preserve exact anchor name: Grand Market.",
+      "Preserve exact anchor name: Founders Obelisk.",
+      "Preserve exact anchor name: Pilgrim's Well.",
+      "Preserve exact anchor name: University.",
+      "Preserve exact anchor name: Royal Observatory.",
+      "Preserve exact anchor name: Eternal Watch Flame.",
+      "Preserve exact anchor name: Founders Bridge.",
+      "Preserve exact anchor name: Guild Hall.",
+      "Preserve exact anchor name: Monument of the Citizen.",
+      "Preserve exact anchor name: Three Sisters Fountain.",
+      "Preserve exact anchor name: Forum.",
+      "Preserve exact anchor name: Pillar of the First Accord.",
+      "Preserve exact anchor name: Old Bell Tower."
     ],
-    "provisionalCanon": [
-      "Aquila Matara's highest civic virtue is public legitimacy: the capital must be seen to function.",
-      "The city treats civic cleanliness, timekeeping, scholarship, craft certification, archives, and public assembly as mutually reinforcing forms of order.",
-      "Crowds can create political meaning faster than officials can control it, especially near the Beacon, Forum, and Citadel steps."
-    ],
+    "provisionalCanon": [],
     "rejectedReads": [
-      "Aquila Matara is only a generic white-stone harbor city.",
-      "The harbor is background scenery rather than the origin of civic movement.",
-      "The capital is empty ceremonial grandeur without working institutions.",
-      "The districts should be flattened into generic waterfront, market, civic core, industry, and citadel zones."
+      "Do not treat Aquila Matara as a generic fantasy settlement with renamed landmarks.",
+      "Do not collapse the five-section board into a single mood or single district.",
+      "Do not replace exact anchor names with generic summaries.",
+      "Do not invent missing street-section landmarks when a street source is absent."
     ],
     "cautionFlags": [
-      "Keep the uploaded district landmarks visible: Public Bathhouse, Grand Market, University, Guild Hall, Forum, Hall of Archives, Grand Cathedral, Great Clock Tower, and Beacon Citadel.",
-      "Do not let the Citadel erase the rest of the civic machinery; Aquila Matara works because institutions are distributed across the city.",
-      "Keep blue civic light specific to capital administration and public coordination, not generic magic decoration.",
-      "Maintain working harbor context beneath the formal civic skyline."
+      "Keep every named Wonder, Beacon, Seat, section civic hall, major landmark, monument, and minor nook exact when present in sidecars.",
+      "If an image appears to deviate from a sidecar, preserve the exact name but avoid overclaiming visual details not supported by the source package.",
+      "Every district asset should remain usable for narrative scenes, tactical board dioramas, and city map backgrounds."
     ]
   },
   "environment": {
     "terrain": [
-      "coastal capital",
-      "harbor terraces",
-      "civic heights",
-      "formal stairs",
-      "seawall edges",
-      "market plazas",
-      "forum terraces",
-      "institutional hill roads"
+      "Coastal Edge",
+      "Seawall Edge",
+      "Harbor Basin"
     ],
     "water": [
-      "working harbor",
-      "quays",
-      "public baths",
-      "Pilgrim's Well",
-      "fountains",
-      "seawalls",
-      "harbor reflections",
-      "rain-wet civic paving"
+      "Coast"
     ],
     "vegetation": [
-      "formal public greenery",
-      "courtyard plantings",
-      "university gardens",
-      "forum planters",
-      "balcony plants",
-      "limited harbor greenery"
+      "courtyard trees",
+      "balcony planters",
+      "public greenery where visible",
+      "source-backed local vegetation only"
     ],
     "climateLighting": [
-      "golden light on white stone",
-      "blue civic lamp glow",
-      "Beacon blue signal light",
-      "warm harbor lanterns",
-      "cathedral window glow",
-      "rain-reflective paving",
-      "sea haze and harbor mist"
+      "Civic Blue Illumination",
+      "Oath Seals",
+      "Record Wards",
+      "daylight",
+      "golden hour",
+      "lantern light",
+      "civic beacon glow"
     ],
-    "environmentalLogic": "The coastline receives people and goods, while stairs and terraces transform arrival into institutional contact. Water appears as harbor, bath, well, and fountain: practical cleansing, public legitimacy, and civic ritual all begin at water before climbing toward Beacon, Citadel, Forum, and Basilica."
+    "environmentalLogic": "The environment should make Aquila Matara's exact civic anchors plausible at street scale: terrain routes people toward section landmarks, lighting clarifies public authority, and water or landscape features remain source-backed rather than decorative filler."
   },
   "architecture": {
     "materials": [
-      "white limestone",
-      "pale marble",
-      "blue glass",
-      "red tile roofing",
-      "bronze trim",
-      "gold civic detailing",
-      "polished stone paving",
-      "weathered harbor masonry",
-      "wet bathhouse tile",
-      "dark timber shopfronts",
-      "copper lanterns",
-      "paper and archive fittings"
+      "Polished White Limestone",
+      "Red Brick",
+      "Pale Marble Stone",
+      "Gold Trim",
+      "Red Fabric"
     ],
     "forms": [
-      "public bathhouse courts",
-      "Beacon Citadel tower",
-      "tide-seal citadel terraces",
-      "grand market arcades",
-      "clock towers",
-      "university halls",
-      "royal observatory towers",
-      "guild halls",
-      "cathedral domes",
-      "forum arches",
-      "archive halls",
-      "processional stairs",
-      "seawalls",
-      "harbor quays",
-      "founder monuments",
-      "public fountains and wells"
+      "Civic Blue Glow Tide-Seal Citadel",
+      "Beacon Citadel",
+      "Basilica of the First Accord",
+      "Hall of Archives",
+      "Great Clock Tower",
+      "Grand Cathedral",
+      "Public Bathhouse",
+      "Wall of Oaths",
+      "Lantern Square",
+      "Grand Market",
+      "Founders Obelisk",
+      "Pilgrim's Well",
+      "University",
+      "Royal Observatory",
+      "Eternal Watch Flame",
+      "Founders Bridge",
+      "Guild Hall",
+      "Monument of the Citizen",
+      "Three Sisters Fountain",
+      "Forum",
+      "Pillar of the First Accord",
+      "Old Bell Tower",
+      "section civic halls",
+      "major landmark approaches",
+      "monument frontages",
+      "minor landmark nooks",
+      "district roads and plazas",
+      "D13 authority complex"
     ],
     "skyline": [
-      "Civic Blue Glow Tide-Seal Citadel as central authority above the harbor",
-      "Beacon Citadel as the primary signal landmark visible from plazas, baths, and market streets",
-      "Basilica of the First Accord as wonder-scale sacred-civic dome and ceremonial anchor",
-      "Great Clock Tower, Royal Observatory, Grand Cathedral, Hall of Archives, and Old Bell Tower creating institutional vertical rhythm",
-      "white stone terraces and red roofs stepping down into a working harbor"
+      "Basilica of the First Accord",
+      "Civic Blue Glow Tide-Seal Citadel",
+      "Beacon Citadel",
+      "Hall of Archives",
+      "Great Clock Tower",
+      "Grand Cathedral",
+      "Public Bathhouse",
+      "Wall of Oaths",
+      "Lantern Square"
     ],
     "lighting": [
-      "blue civic lamps",
-      "blue-glass window glow",
-      "Beacon light as skyline focus",
-      "golden light on white stone",
-      "cathedral and basilica glow",
-      "market lanterns under red awnings",
-      "harbor lantern reflections",
-      "bathhouse steam catching morning light"
+      "Civic Blue Illumination",
+      "Oath Seals",
+      "Record Wards",
+      "beacon-state light",
+      "lantern-lit civic paths",
+      "street-level shop and housing light"
     ],
     "infrastructure": [
-      "working harbor",
-      "quays",
-      "seawalls",
-      "public baths",
-      "formal markets",
-      "clock-regulated plazas",
-      "university courts",
-      "observatory platforms",
-      "guild workshops",
-      "cathedral processional routes",
-      "forum assembly space",
-      "archive halls",
-      "public stairs",
-      "notice boards",
-      "fountains and wells"
+      "Public Bathhouse",
+      "Grand Market",
+      "University",
+      "Guild Hall",
+      "Forum",
+      "roads between district slots",
+      "public thresholds",
+      "plaza edges",
+      "records, permits, markets, services, or rituals implied by anchors"
     ],
     "motifs": [
-      "blue civic glow",
-      "tide seals",
-      "First Accord symbols",
-      "clock faces",
-      "oath walls",
-      "founder obelisks",
-      "pilgrim wells",
-      "observatory instruments",
-      "guild banners",
-      "citizen monuments",
-      "forum pillars",
-      "bells",
-      "arches",
-      "red-and-gold civic banners"
+      "Civic",
+      "Blue",
+      "Glow",
+      "Tide-Seal",
+      "Citadel",
+      "Beacon",
+      "Basilica",
+      "First",
+      "Accord",
+      "Hall",
+      "Archives",
+      "Great",
+      "Clock",
+      "Tower",
+      "Grand"
     ],
     "colorLanguage": [
-      "white stone",
-      "red tile",
-      "blue glass",
-      "gold detailing",
-      "bronze trim",
-      "warm lantern amber",
-      "harbor teal",
-      "forum shadow gray"
+      "source-backed material colors",
+      "civic blue signal accents",
+      "local textile, stone, metal, vegetation, or water colors from the image package"
     ],
     "textureLanguage": [
-      "polished civic paving",
-      "wet bathhouse tile",
-      "weathered seawalls",
-      "tarred rope",
-      "smooth marble",
-      "worked bronze",
-      "paper and vellum",
-      "sunlit plaster",
-      "crowd-worn steps"
+      "Polished White Limestone",
+      "Red Brick",
+      "Pale Marble Stone",
+      "Gold Trim",
+      "Red Fabric",
+      "worn pedestrian surfaces",
+      "worked civic ornament",
+      "weathered public thresholds",
+      "lived-in shop and housing details"
     ]
   },
   "civilization": {
-    "people": "Citizens appear institutionally fluent: sailors know registry routes, merchants read clocks and seals, scholars serve public administration, guild artisans display proof of craft, priests preserve the First Accord, and ordinary residents orient themselves by Beacon, bath, market, forum, and Citadel.",
+    "people": "The population should read as American and city-specific: citizens occupy streets, shops, public thresholds, and landmark approaches as people who understand the local civic order.",
     "occupations": [
-      "bath attendants",
-      "harbor workers",
-      "guards",
-      "market sellers",
-      "clock keepers",
-      "notaries",
-      "university scholars",
-      "observatory astronomers",
-      "guild artisans",
-      "cathedral clergy",
-      "forum speakers",
+      "ritual attendants",
+      "caretakers",
       "archivists",
-      "messengers",
-      "registry clerks",
-      "lamp keepers",
-      "petition runners"
+      "record clerks",
+      "dock workers",
+      "water engineers",
+      "watch guards",
+      "gate officers",
+      "market sellers",
+      "stall keepers",
+      "astronomers",
+      "navigators",
+      "district clerks",
+      "craft families",
+      "porters",
+      "maintenance workers",
+      "food sellers",
+      "messengers"
     ],
     "socialClasses": [
-      "Tide-Seal Citadel officials",
-      "Basilica and cathedral authorities",
-      "university scholars and observatory experts",
-      "guild masters and certified artisans",
-      "market families and merchant houses",
-      "bathhouse stewards and public-service workers",
-      "harbor laborers, messengers, petitioners, and visitors"
+      "D13 officials and court staff",
+      "section landmark custodians",
+      "guild and service families",
+      "shopkeepers and artisans",
+      "laborers, carriers, messengers, and maintenance crews",
+      "households tied to local district obligations"
     ],
-    "governance": "Centralized, visible, institutional, and processional. Authority is expressed through the Tide-Seal Citadel, Beacon Citadel, Forum, archives, university expertise, guild certification, cathedral ceremony, and public notices that citizens can see and respond to.",
-    "religion": "Religion is civic-sacred rather than separate from government. The Basilica of the First Accord and Grand Cathedral turn origin, oath, public ceremony, and legitimacy into shared capital memory.",
+    "governance": "Government is centered on Civic Blue Glow Tide-Seal Citadel. Its authority should be visible through courts, records, public access routes, civic lamps, guards or attendants, and the way citizens respond to D13.",
+    "religion": "Religious or ritual life should only be emphasized where source anchors support it, especially names such as Basilica of the First Accord, Wall of Oaths.",
     "customs": [
-      "visitors wash, register, or orient themselves before entering higher civic space",
-      "public clocks regulate market and institutional rhythm",
-      "Beacon watching is normal civic behavior",
-      "guild marks and university credentials carry public authority",
-      "forum speech is treated as civic action",
-      "archive citations and First Accord references settle disputes",
-      "public ceremonies climb from harbor and bathhouse toward basilica, forum, or citadel"
+      "citizens orient public life around Public Bathhouse in Section 1",
+      "citizens orient public life around Grand Market in Section 2",
+      "citizens orient public life around University in Section 3",
+      "citizens orient public life around Guild Hall in Section 4",
+      "citizens orient public life around Forum in Section 5",
+      "beacon changes become public behavior, not background color",
+      "exact landmark names carry social memory and directions",
+      "civic errands happen visibly at thresholds, queues, ledgers, stalls, courts, or shrines"
     ],
     "bodyLanguage": [
-      "officials move with practiced purpose",
-      "citizens glance toward Beacon, clocks, and towers for orientation",
-      "guards control stair landings and institutional doors",
-      "petitioners gather visibly in queues",
-      "scholars and artisans display tools, papers, or badges as proof",
-      "market crowds pause when bells or Beacon signals interrupt business"
+      "citizens pause at civic signals",
+      "workers move with practiced familiarity around district anchors",
+      "officials use thresholds and raised places to control attention",
+      "residents treat named landmarks as everyday orientation points"
     ],
     "speechPatterns": [
-      "formal civic language",
-      "registry terminology",
-      "harbor trade shorthand",
-      "clock and bell references",
-      "guild certification phrasing",
-      "university citation language",
-      "forum rhetoric",
-      "First Accord oath formulas"
+      "directions use exact landmark names",
+      "public notices are tied to section anchors",
+      "local speech distinguishes civic authority, ordinary errands, and landmark obligations",
+      "people refer to D13 as the seat of power rather than a faction headquarters"
     ]
   },
   "urbanLife": {
     "streets": {
-      "appearance": "Broad, public, legible, and crowded: white stone roads move between bathhouse steam, red market awnings, university towers, guild banners, cathedral fronts, forum arches, archive steps, blue lamps, and sightlines up to Beacon and Citadel.",
-      "movement": "Ships, harbor carts, stair routes, clock-regulated market flows, student paths, guild errands, forum crowds, archive queues, and official escorts shape movement. Lower streets are practical; upper routes become ceremonial and administrative.",
+      "appearance": "Streets should show Aquila Matara's exact anchor system at pedestrian scale: S1 Public Bathhouse, S2 Grand Market, S3 University, S4 Guild Hall, S5 Forum. Keep roads, plazas, stairs, thresholds, lamps, signs-without-readable-text, props, and civilians aligned to the source-backed materials and landmarks.",
+      "movement": "Movement should be readable for tactical-board assets: citizens pass between 25 district slots, section anchors, D13, service streets, and landmark approaches without visual clutter hiding the civic purpose.",
       "sounds": [
-        "ship bells",
-        "gulls",
-        "bathhouse water",
-        "market calls",
-        "cart wheels on stone",
-        "clock chimes",
-        "university debate",
-        "guild tools",
-        "cathedral bells",
-        "forum voices",
-        "archive hush",
-        "footsteps on public stairs"
+        "foot traffic",
+        "vendors and service calls",
+        "tools and carts",
+        "public notices",
+        "landmark-specific sounds from water, bells, animals, machines, or crowds when source-backed",
+        "beacon-state crowd reactions"
       ],
       "smells": [
-        "salt air",
-        "wet stone",
-        "bath steam",
-        "tarred rope",
-        "fresh bread",
-        "fish markets",
-        "ink and paper",
-        "hot metal from guild work",
-        "lamp oil",
-        "cathedral incense"
+        "street food",
+        "worked material dust",
+        "lamp oil or smoke",
+        "vegetation or water where source-backed",
+        "worn stone, timber, metal, plaster, or fabric"
       ],
-      "lighting": "Daylight makes white stone bright and public; night is defined by blue civic lamps, Beacon light, cathedral windows, market lanterns, and harbor reflections.",
-      "weatherEffects": "Rain makes bathhouse steps, forum paving, and seawalls reflective; harbor mist softens the lower city while the Beacon, clock tower, and Citadel remain orienting anchors.",
-      "dayCycle": "Morning bathhouse traffic and harbor unloading; midday market clocks, university work, guild certification, and forum petitions; evening cathedral bells, archive closures, and blue lamps.",
-      "nightCycle": "Blue lamps, guarded civic stairs, harbor lanterns, quieter market arcades, university windows, and the Beacon/Citadel as night anchors."
+      "lighting": "Use the package's source-backed civic lighting, daylight/golden-hour reads, lanterns, and beacon glow. Lighting must help identify authority, safety, and landmark function.",
+      "weatherEffects": "Weather should reinforce the local terrain and materials without overwhelming the city identity or inventing unsupported climate extremes.",
+      "dayCycle": "Day scenes emphasize errands, trade, records, repairs, rituals, food, and section-level movement.",
+      "nightCycle": "Night scenes emphasize lantern routes, closed thresholds, guarded landmarks, quiet work, and beacon visibility."
     },
     "shops": {
       "common": [
-        "fish markets",
-        "bread sellers",
-        "public bath vendors",
-        "lamp oil vendors",
-        "tailors",
-        "coffee houses",
-        "harbor inns",
-        "market food stalls"
+        "food stalls",
+        "repair stalls",
+        "material vendors",
+        "ledger or permit desks",
+        "local craft counters",
+        "street services tied to section anchors"
       ],
       "uncommon": [
-        "map sellers",
-        "clock repairers",
-        "glass workers",
-        "bookbinders",
-        "public notaries",
-        "registry counters",
-        "university supply shops"
+        "specialist landmark caretakers",
+        "instrument makers",
+        "ritual suppliers",
+        "map or record copyists",
+        "district-specific guild services"
       ],
       "prestigious": [
-        "civic seal offices",
-        "guild master ateliers",
-        "fine glass houses",
-        "cathedral ornament workshops",
-        "forum legal counters",
-        "archive copyist offices"
+        "D13-facing legal or registry services",
+        "elite craft workshops",
+        "landmark commission houses",
+        "official suppliers for civic ceremonies"
       ],
       "exports": [
-        "maps",
-        "glasswork",
-        "metal fittings",
-        "certified craft goods",
-        "registry services",
-        "scholarly instruments",
-        "harbor goods"
+        "local crafts",
+        "records or seals",
+        "finished materials",
+        "food goods",
+        "specialized tools or ritual goods as supported by anchors"
       ],
       "imports": [
-        "fish",
-        "rope fiber",
-        "timber",
-        "lamp oil",
-        "cloth",
-        "spices",
-        "paper",
-        "bronze fittings"
+        "rare materials",
+        "dyes, oils, spices, timber, stone, metal, glass, or cloth as needed by the architecture",
+        "outside records and trade goods"
       ],
       "streetFood": [
-        "fresh bread",
-        "fish stew",
-        "salted fish",
-        "harbor coffee",
-        "market fruit",
-        "street pastries",
-        "dockside soups",
-        "bathhouse tea"
+        "flatbread or local bread",
+        "stew or grilled skewers",
+        "fruit or preserved food",
+        "tea or civic-square drinks",
+        "portable worker meals"
       ],
       "services": [
-        "public bathing",
-        "registry filing",
-        "ship repair",
-        "cargo hauling",
-        "notary work",
-        "messenger service",
-        "guild certification",
-        "archive copying",
+        "directions by landmark",
+        "message running",
+        "permit help",
+        "repairs",
+        "food service",
+        "transport or porterage",
         "public notice posting"
       ]
     },
     "housing": {
-      "wealthy": "Citadel-, forum-, and cathedral-adjacent pale stone homes with balconies, blue lamps, formal courtyards, civic banners, and views toward harbor or processional stairs.",
-      "middle": "Orderly red-tile homes, guild family rooms, university-adjacent flats, upper rooms over shops, courtyards, laundry lines, and blue-lit doorways along civic streets.",
-      "poor": "Harbor-adjacent rooms, market-edge flats, workshop housing, bathhouse service rooms, and compact lanes that still carry capital identity through stonework, lamps, and banners."
+      "wealthy": "Prestige housing clusters near Civic Blue Glow Tide-Seal Citadel, high terraces, or landmark-facing routes, using the best source-backed materials and controlled views of civic space.",
+      "middle": "Shop-over-house units, courtyard homes, guild-adjacent apartments, and family rooms near section anchors.",
+      "poor": "Smaller back-street rooms, work-adjacent housing, shared courtyards, service alleys, patched materials, and dense but still city-specific lived-in detail."
     }
   },
   "districts": [
     {
+      "districtNumber": 1,
+      "districtId": "D01",
       "sectionNumber": 1,
-      "name": "Public Bathhouse",
-      "civicPurpose": "Public cleansing, arrival ritual, health, civic belonging, and first contact between harbor life and institutional order.",
-      "visualIdentity": "Public Bathhouse courts, Beacon Citadel visibility, Wall of Oaths, Lantern Square, bath steam, wet tile, blue lamps, fountains, and formal white-stone entrances.",
-      "emotionalIdentity": "Cleansing, public, ordered, and quietly ceremonial.",
+      "name": "D01 — Public Bathhouse Civic-Anchor Precinct",
+      "civicPurpose": "This district turns Section 1's source-backed anchor set into a board-scale civic space: Public Bathhouse, Beacon Citadel, Wall of Oaths, Lantern Square. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Aquila Matara.",
+      "visualIdentity": "Use Public Bathhouse as the main read. Keep exact source anchors visible where applicable: Public Bathhouse, Beacon Citadel, Wall of Oaths, Lantern Square. The district should share Aquila Matara's American identity, Polished White Limestone, Red Brick, Pale Marble Stone, Gold Trim, and Coastal Edge, Seawall Edge, Harbor Basin without becoming generic.",
+      "emotionalIdentity": "Locally grounded, with Aquila Matara's larger mood shaped by Basilica of the First Accord, Beacon Citadel, and Civic Blue Glow Tide-Seal Citadel.",
       "gameplayAssetNeeds": [
         "Public Bathhouse",
         "Beacon Citadel",
         "Wall of Oaths",
         "Lantern Square",
-        "steam basins",
-        "wet tile and fountains",
-        "bath attendants and arrivals"
+        "Section 1 pedestrian-scale props",
+        "Aquila Matara civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
       ],
       "narrativeUse": [
-        "arrival after harbor travel",
-        "public cleansing as social sorting",
-        "oath-wall scenes",
-        "Beacon crisis interrupting normal civic life",
-        "quiet information exchange in a public place"
+        "scenes centered on Public Bathhouse",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
       ],
-      "landmark": "Beacon Citadel",
+      "landmark": "Public Bathhouse",
       "minorLandmarks": [
+        "Beacon Citadel",
         "Wall of Oaths",
         "Lantern Square"
       ]
     },
     {
+      "districtNumber": 2,
+      "districtId": "D02",
+      "sectionNumber": 1,
+      "name": "D02 — Beacon Citadel Landmark Approach",
+      "civicPurpose": "This district turns Section 1's source-backed anchor set into a board-scale civic space: Public Bathhouse, Beacon Citadel, Wall of Oaths, Lantern Square. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Aquila Matara.",
+      "visualIdentity": "Use Beacon Citadel as the main read. Keep exact source anchors visible where applicable: Public Bathhouse, Beacon Citadel, Wall of Oaths, Lantern Square. The district should share Aquila Matara's American identity, Polished White Limestone, Red Brick, Pale Marble Stone, Gold Trim, and Coastal Edge, Seawall Edge, Harbor Basin without becoming generic.",
+      "emotionalIdentity": "Public-facing, with Aquila Matara's larger mood shaped by Basilica of the First Accord, Beacon Citadel, and Civic Blue Glow Tide-Seal Citadel.",
+      "gameplayAssetNeeds": [
+        "Beacon Citadel",
+        "Public Bathhouse",
+        "Wall of Oaths",
+        "Lantern Square",
+        "Section 1 pedestrian-scale props",
+        "Aquila Matara civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Beacon Citadel",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "Conjunction response, rumor spread, or authority pressure"
+      ],
+      "landmark": "Beacon Citadel",
+      "minorLandmarks": [
+        "Public Bathhouse",
+        "Wall of Oaths",
+        "Lantern Square"
+      ]
+    },
+    {
+      "districtNumber": 3,
+      "districtId": "D03",
+      "sectionNumber": 1,
+      "name": "D03 — Wall of Oaths Monument Frontage",
+      "civicPurpose": "This district turns Section 1's source-backed anchor set into a board-scale civic space: Public Bathhouse, Beacon Citadel, Wall of Oaths, Lantern Square. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Aquila Matara.",
+      "visualIdentity": "Use Wall of Oaths as the main read. Keep exact source anchors visible where applicable: Public Bathhouse, Beacon Citadel, Wall of Oaths, Lantern Square. The district should share Aquila Matara's American identity, Polished White Limestone, Red Brick, Pale Marble Stone, Gold Trim, and Coastal Edge, Seawall Edge, Harbor Basin without becoming generic.",
+      "emotionalIdentity": "Memorial or symbolic, with Aquila Matara's larger mood shaped by Basilica of the First Accord, Beacon Citadel, and Civic Blue Glow Tide-Seal Citadel.",
+      "gameplayAssetNeeds": [
+        "Wall of Oaths",
+        "Public Bathhouse",
+        "Beacon Citadel",
+        "Lantern Square",
+        "Section 1 pedestrian-scale props",
+        "Aquila Matara civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Wall of Oaths",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Wall of Oaths",
+      "minorLandmarks": [
+        "Public Bathhouse",
+        "Beacon Citadel",
+        "Lantern Square"
+      ]
+    },
+    {
+      "districtNumber": 6,
+      "districtId": "D06",
+      "sectionNumber": 1,
+      "name": "D06 — Lantern Square Neighborhood Nook",
+      "civicPurpose": "This district turns Section 1's source-backed anchor set into a board-scale civic space: Public Bathhouse, Beacon Citadel, Wall of Oaths, Lantern Square. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Aquila Matara.",
+      "visualIdentity": "Use Lantern Square as the main read. Keep exact source anchors visible where applicable: Public Bathhouse, Beacon Citadel, Wall of Oaths, Lantern Square. The district should share Aquila Matara's American identity, Polished White Limestone, Red Brick, Pale Marble Stone, Gold Trim, and Coastal Edge, Seawall Edge, Harbor Basin without becoming generic.",
+      "emotionalIdentity": "Intimate and lived-in, with Aquila Matara's larger mood shaped by Basilica of the First Accord, Beacon Citadel, and Civic Blue Glow Tide-Seal Citadel.",
+      "gameplayAssetNeeds": [
+        "Lantern Square",
+        "Public Bathhouse",
+        "Beacon Citadel",
+        "Wall of Oaths",
+        "Section 1 pedestrian-scale props",
+        "Aquila Matara civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Lantern Square",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Lantern Square",
+      "minorLandmarks": [
+        "Public Bathhouse",
+        "Beacon Citadel",
+        "Wall of Oaths"
+      ]
+    },
+    {
+      "districtNumber": 7,
+      "districtId": "D07",
+      "sectionNumber": 1,
+      "name": "D07 — Public Bathhouse Supporting Streets",
+      "civicPurpose": "This district turns Section 1's source-backed anchor set into a board-scale civic space: Public Bathhouse, Beacon Citadel, Wall of Oaths, Lantern Square. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Aquila Matara.",
+      "visualIdentity": "Use Public Bathhouse as the main read. Keep exact source anchors visible where applicable: Public Bathhouse, Beacon Citadel, Wall of Oaths, Lantern Square. The district should share Aquila Matara's American identity, Polished White Limestone, Red Brick, Pale Marble Stone, Gold Trim, and Coastal Edge, Seawall Edge, Harbor Basin without becoming generic.",
+      "emotionalIdentity": "Connective and practical, with Aquila Matara's larger mood shaped by Basilica of the First Accord, Beacon Citadel, and Civic Blue Glow Tide-Seal Citadel.",
+      "gameplayAssetNeeds": [
+        "Public Bathhouse",
+        "Beacon Citadel",
+        "Wall of Oaths",
+        "Lantern Square",
+        "Section 1 pedestrian-scale props",
+        "Aquila Matara civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Public Bathhouse",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Public Bathhouse",
+      "minorLandmarks": [
+        "Beacon Citadel",
+        "Wall of Oaths",
+        "Lantern Square"
+      ]
+    },
+    {
+      "districtNumber": 4,
+      "districtId": "D04",
       "sectionNumber": 2,
-      "name": "Grand Market",
-      "civicPurpose": "Regulated commerce, public timekeeping, market legitimacy, pilgrimage services, and daily capital exchange.",
-      "visualIdentity": "Grand Market arcades, Great Clock Tower, Founders Obelisk, Pilgrim's Well, red awnings, blue lamps, formal stalls, food carts, and visible market crowds.",
-      "emotionalIdentity": "Busy, social, clock-regulated, and publicly accountable.",
+      "name": "D04 — Grand Market Civic-Anchor Precinct",
+      "civicPurpose": "This district turns Section 2's source-backed anchor set into a board-scale civic space: Grand Market, Great Clock Tower, Founders Obelisk, Pilgrim's Well. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Aquila Matara.",
+      "visualIdentity": "Use Grand Market as the main read. Keep exact source anchors visible where applicable: Grand Market, Great Clock Tower, Founders Obelisk, Pilgrim's Well. The district should share Aquila Matara's American identity, Polished White Limestone, Red Brick, Pale Marble Stone, Gold Trim, and Coastal Edge, Seawall Edge, Harbor Basin without becoming generic.",
+      "emotionalIdentity": "Locally grounded, with Aquila Matara's larger mood shaped by Basilica of the First Accord, Beacon Citadel, and Civic Blue Glow Tide-Seal Citadel.",
       "gameplayAssetNeeds": [
         "Grand Market",
         "Great Clock Tower",
         "Founders Obelisk",
         "Pilgrim's Well",
-        "red awnings",
-        "market stalls and carts",
-        "clock watchers and traders"
+        "Section 2 pedestrian-scale props",
+        "Aquila Matara civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
       ],
       "narrativeUse": [
-        "market bargaining",
-        "public rumor",
-        "clock-timed announcements",
-        "founder-memory politics",
-        "pilgrim or visitor scenes",
-        "crowd reaction to Beacon or bells"
+        "scenes centered on Grand Market",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
       ],
-      "landmark": "Great Clock Tower",
+      "landmark": "Grand Market",
       "minorLandmarks": [
+        "Great Clock Tower",
         "Founders Obelisk",
         "Pilgrim's Well"
       ]
     },
     {
+      "districtNumber": 5,
+      "districtId": "D05",
+      "sectionNumber": 2,
+      "name": "D05 — Great Clock Tower Landmark Approach",
+      "civicPurpose": "This district turns Section 2's source-backed anchor set into a board-scale civic space: Grand Market, Great Clock Tower, Founders Obelisk, Pilgrim's Well. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Aquila Matara.",
+      "visualIdentity": "Use Great Clock Tower as the main read. Keep exact source anchors visible where applicable: Grand Market, Great Clock Tower, Founders Obelisk, Pilgrim's Well. The district should share Aquila Matara's American identity, Polished White Limestone, Red Brick, Pale Marble Stone, Gold Trim, and Coastal Edge, Seawall Edge, Harbor Basin without becoming generic.",
+      "emotionalIdentity": "Public-facing, with Aquila Matara's larger mood shaped by Basilica of the First Accord, Beacon Citadel, and Civic Blue Glow Tide-Seal Citadel.",
+      "gameplayAssetNeeds": [
+        "Great Clock Tower",
+        "Grand Market",
+        "Founders Obelisk",
+        "Pilgrim's Well",
+        "Section 2 pedestrian-scale props",
+        "Aquila Matara civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Great Clock Tower",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Great Clock Tower",
+      "minorLandmarks": [
+        "Grand Market",
+        "Founders Obelisk",
+        "Pilgrim's Well"
+      ]
+    },
+    {
+      "districtNumber": 9,
+      "districtId": "D09",
+      "sectionNumber": 2,
+      "name": "D09 — Founders Obelisk Monument Frontage",
+      "civicPurpose": "This district turns Section 2's source-backed anchor set into a board-scale civic space: Grand Market, Great Clock Tower, Founders Obelisk, Pilgrim's Well. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Aquila Matara.",
+      "visualIdentity": "Use Founders Obelisk as the main read. Keep exact source anchors visible where applicable: Grand Market, Great Clock Tower, Founders Obelisk, Pilgrim's Well. The district should share Aquila Matara's American identity, Polished White Limestone, Red Brick, Pale Marble Stone, Gold Trim, and Coastal Edge, Seawall Edge, Harbor Basin without becoming generic.",
+      "emotionalIdentity": "Memorial or symbolic, with Aquila Matara's larger mood shaped by Basilica of the First Accord, Beacon Citadel, and Civic Blue Glow Tide-Seal Citadel.",
+      "gameplayAssetNeeds": [
+        "Founders Obelisk",
+        "Grand Market",
+        "Great Clock Tower",
+        "Pilgrim's Well",
+        "Section 2 pedestrian-scale props",
+        "Aquila Matara civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Founders Obelisk",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Founders Obelisk",
+      "minorLandmarks": [
+        "Grand Market",
+        "Great Clock Tower",
+        "Pilgrim's Well"
+      ]
+    },
+    {
+      "districtNumber": 10,
+      "districtId": "D10",
+      "sectionNumber": 2,
+      "name": "D10 — Pilgrim's Well Neighborhood Nook",
+      "civicPurpose": "This district turns Section 2's source-backed anchor set into a board-scale civic space: Grand Market, Great Clock Tower, Founders Obelisk, Pilgrim's Well. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Aquila Matara.",
+      "visualIdentity": "Use Pilgrim's Well as the main read. Keep exact source anchors visible where applicable: Grand Market, Great Clock Tower, Founders Obelisk, Pilgrim's Well. The district should share Aquila Matara's American identity, Polished White Limestone, Red Brick, Pale Marble Stone, Gold Trim, and Coastal Edge, Seawall Edge, Harbor Basin without becoming generic.",
+      "emotionalIdentity": "Intimate and lived-in, with Aquila Matara's larger mood shaped by Basilica of the First Accord, Beacon Citadel, and Civic Blue Glow Tide-Seal Citadel.",
+      "gameplayAssetNeeds": [
+        "Pilgrim's Well",
+        "Grand Market",
+        "Great Clock Tower",
+        "Founders Obelisk",
+        "Section 2 pedestrian-scale props",
+        "Aquila Matara civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Pilgrim's Well",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Pilgrim's Well",
+      "minorLandmarks": [
+        "Grand Market",
+        "Great Clock Tower",
+        "Founders Obelisk"
+      ]
+    },
+    {
+      "districtNumber": 15,
+      "districtId": "D15",
+      "sectionNumber": 2,
+      "name": "D15 — Grand Market Supporting Streets",
+      "civicPurpose": "This district turns Section 2's source-backed anchor set into a board-scale civic space: Grand Market, Great Clock Tower, Founders Obelisk, Pilgrim's Well. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Aquila Matara.",
+      "visualIdentity": "Use Grand Market as the main read. Keep exact source anchors visible where applicable: Grand Market, Great Clock Tower, Founders Obelisk, Pilgrim's Well. The district should share Aquila Matara's American identity, Polished White Limestone, Red Brick, Pale Marble Stone, Gold Trim, and Coastal Edge, Seawall Edge, Harbor Basin without becoming generic.",
+      "emotionalIdentity": "Connective and practical, with Aquila Matara's larger mood shaped by Basilica of the First Accord, Beacon Citadel, and Civic Blue Glow Tide-Seal Citadel.",
+      "gameplayAssetNeeds": [
+        "Grand Market",
+        "Great Clock Tower",
+        "Founders Obelisk",
+        "Pilgrim's Well",
+        "Section 2 pedestrian-scale props",
+        "Aquila Matara civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Grand Market",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Grand Market",
+      "minorLandmarks": [
+        "Great Clock Tower",
+        "Founders Obelisk",
+        "Pilgrim's Well"
+      ]
+    },
+    {
+      "districtNumber": 8,
+      "districtId": "D08",
       "sectionNumber": 3,
-      "name": "University",
-      "civicPurpose": "Scholarship, expert administration, astronomy, education, public memory, and knowledge in service of the capital.",
-      "visualIdentity": "University halls, Royal Observatory, Eternal Watch Flame, Founders Bridge, lecture courts, blue glass, white towers, instruments, and students moving through civic plazas.",
-      "emotionalIdentity": "Elevated, exact, ambitious, and institutionally useful.",
+      "name": "D08 — University Civic-Anchor Precinct",
+      "civicPurpose": "This district turns Section 3's source-backed anchor set into a board-scale civic space: University, Royal Observatory, Eternal Watch Flame, Founders Bridge. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Aquila Matara.",
+      "visualIdentity": "Use University as the main read. Keep exact source anchors visible where applicable: University, Royal Observatory, Eternal Watch Flame, Founders Bridge. The district should share Aquila Matara's American identity, Polished White Limestone, Red Brick, Pale Marble Stone, Gold Trim, and Coastal Edge, Seawall Edge, Harbor Basin without becoming generic.",
+      "emotionalIdentity": "Locally grounded, with Aquila Matara's larger mood shaped by Basilica of the First Accord, Beacon Citadel, and Civic Blue Glow Tide-Seal Citadel.",
       "gameplayAssetNeeds": [
         "University",
         "Royal Observatory",
         "Eternal Watch Flame",
         "Founders Bridge",
-        "lecture courts",
-        "observatory instruments",
-        "scholars and students"
+        "Section 3 pedestrian-scale props",
+        "Aquila Matara civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
       ],
       "narrativeUse": [
-        "expert consultation",
-        "astronomical evidence",
-        "scholarly dispute",
-        "watch-flame symbolism",
-        "bridge conversations between knowledge and power"
+        "scenes centered on University",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
       ],
-      "landmark": "Royal Observatory",
+      "landmark": "University",
       "minorLandmarks": [
+        "Royal Observatory",
         "Eternal Watch Flame",
         "Founders Bridge"
       ]
     },
     {
+      "districtNumber": 12,
+      "districtId": "D12",
+      "sectionNumber": 3,
+      "name": "D12 — Royal Observatory Landmark Approach",
+      "civicPurpose": "This district turns Section 3's source-backed anchor set into a board-scale civic space: University, Royal Observatory, Eternal Watch Flame, Founders Bridge. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Aquila Matara.",
+      "visualIdentity": "Use Royal Observatory as the main read. Keep exact source anchors visible where applicable: University, Royal Observatory, Eternal Watch Flame, Founders Bridge. The district should share Aquila Matara's American identity, Polished White Limestone, Red Brick, Pale Marble Stone, Gold Trim, and Coastal Edge, Seawall Edge, Harbor Basin without becoming generic.",
+      "emotionalIdentity": "Public-facing, with Aquila Matara's larger mood shaped by Basilica of the First Accord, Beacon Citadel, and Civic Blue Glow Tide-Seal Citadel.",
+      "gameplayAssetNeeds": [
+        "Royal Observatory",
+        "University",
+        "Eternal Watch Flame",
+        "Founders Bridge",
+        "Section 3 pedestrian-scale props",
+        "Aquila Matara civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Royal Observatory",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Royal Observatory",
+      "minorLandmarks": [
+        "University",
+        "Eternal Watch Flame",
+        "Founders Bridge"
+      ]
+    },
+    {
+      "districtNumber": 13,
+      "districtId": "D13",
+      "sectionNumber": 3,
+      "name": "D13 — Civic Blue Glow Tide-Seal Citadel Seat of Power District",
+      "civicPurpose": "This district turns Section 3's source-backed anchor set into a board-scale civic space: University, Royal Observatory, Eternal Watch Flame, Founders Bridge. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Aquila Matara.",
+      "visualIdentity": "Use Civic Blue Glow Tide-Seal Citadel as the main read. Keep exact source anchors visible where applicable: University, Royal Observatory, Eternal Watch Flame, Founders Bridge. The district should share Aquila Matara's American identity, Polished White Limestone, Red Brick, Pale Marble Stone, Gold Trim, and Coastal Edge, Seawall Edge, Harbor Basin without becoming generic.",
+      "emotionalIdentity": "Memorial or symbolic, with Aquila Matara's larger mood shaped by Basilica of the First Accord, Beacon Citadel, and Civic Blue Glow Tide-Seal Citadel.",
+      "gameplayAssetNeeds": [
+        "Civic Blue Glow Tide-Seal Citadel",
+        "University",
+        "Royal Observatory",
+        "Eternal Watch Flame",
+        "Founders Bridge",
+        "Section 3 pedestrian-scale props",
+        "Aquila Matara civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Civic Blue Glow Tide-Seal Citadel",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "Conjunction response, rumor spread, or authority pressure"
+      ],
+      "landmark": "Civic Blue Glow Tide-Seal Citadel",
+      "minorLandmarks": [
+        "University",
+        "Royal Observatory",
+        "Eternal Watch Flame",
+        "Founders Bridge"
+      ]
+    },
+    {
+      "districtNumber": 14,
+      "districtId": "D14",
+      "sectionNumber": 3,
+      "name": "D14 — Founders Bridge Neighborhood Nook",
+      "civicPurpose": "This district turns Section 3's source-backed anchor set into a board-scale civic space: University, Royal Observatory, Eternal Watch Flame, Founders Bridge. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Aquila Matara.",
+      "visualIdentity": "Use Founders Bridge as the main read. Keep exact source anchors visible where applicable: University, Royal Observatory, Eternal Watch Flame, Founders Bridge. The district should share Aquila Matara's American identity, Polished White Limestone, Red Brick, Pale Marble Stone, Gold Trim, and Coastal Edge, Seawall Edge, Harbor Basin without becoming generic.",
+      "emotionalIdentity": "Intimate and lived-in, with Aquila Matara's larger mood shaped by Basilica of the First Accord, Beacon Citadel, and Civic Blue Glow Tide-Seal Citadel.",
+      "gameplayAssetNeeds": [
+        "Founders Bridge",
+        "University",
+        "Royal Observatory",
+        "Eternal Watch Flame",
+        "Section 3 pedestrian-scale props",
+        "Aquila Matara civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Founders Bridge",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Founders Bridge",
+      "minorLandmarks": [
+        "University",
+        "Royal Observatory",
+        "Eternal Watch Flame"
+      ]
+    },
+    {
+      "districtNumber": 18,
+      "districtId": "D18",
+      "sectionNumber": 3,
+      "name": "D18 — University Supporting Streets",
+      "civicPurpose": "This district turns Section 3's source-backed anchor set into a board-scale civic space: University, Royal Observatory, Eternal Watch Flame, Founders Bridge. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Aquila Matara.",
+      "visualIdentity": "Use University as the main read. Keep exact source anchors visible where applicable: University, Royal Observatory, Eternal Watch Flame, Founders Bridge. The district should share Aquila Matara's American identity, Polished White Limestone, Red Brick, Pale Marble Stone, Gold Trim, and Coastal Edge, Seawall Edge, Harbor Basin without becoming generic.",
+      "emotionalIdentity": "Connective and practical, with Aquila Matara's larger mood shaped by Basilica of the First Accord, Beacon Citadel, and Civic Blue Glow Tide-Seal Citadel.",
+      "gameplayAssetNeeds": [
+        "University",
+        "Royal Observatory",
+        "Eternal Watch Flame",
+        "Founders Bridge",
+        "Section 3 pedestrian-scale props",
+        "Aquila Matara civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on University",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "University",
+      "minorLandmarks": [
+        "Royal Observatory",
+        "Eternal Watch Flame",
+        "Founders Bridge"
+      ]
+    },
+    {
+      "districtNumber": 11,
+      "districtId": "D11",
       "sectionNumber": 4,
-      "name": "Guild Hall",
-      "civicPurpose": "Certified craft, production, public skill, guild politics, cathedral-adjacent ceremony, and civic material competence.",
-      "visualIdentity": "Guild Hall fronts, Grand Cathedral, Monument of the Citizen, Three Sisters Fountain, banners, workshops, arcades, tool displays, and blue civic lamps.",
-      "emotionalIdentity": "Skilled, proud, formal, and socially grounded.",
+      "name": "D11 — Guild Hall Civic-Anchor Precinct",
+      "civicPurpose": "This district turns Section 4's source-backed anchor set into a board-scale civic space: Guild Hall, Grand Cathedral, Monument of the Citizen, Three Sisters Fountain. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Aquila Matara.",
+      "visualIdentity": "Use Guild Hall as the main read. Keep exact source anchors visible where applicable: Guild Hall, Grand Cathedral, Monument of the Citizen, Three Sisters Fountain. The district should share Aquila Matara's American identity, Polished White Limestone, Red Brick, Pale Marble Stone, Gold Trim, and Coastal Edge, Seawall Edge, Harbor Basin without becoming generic.",
+      "emotionalIdentity": "Locally grounded, with Aquila Matara's larger mood shaped by Basilica of the First Accord, Beacon Citadel, and Civic Blue Glow Tide-Seal Citadel.",
       "gameplayAssetNeeds": [
         "Guild Hall",
         "Grand Cathedral",
         "Monument of the Citizen",
         "Three Sisters Fountain",
-        "guild banners",
-        "workshops and tool displays",
-        "artisans and petitioners"
+        "Section 4 pedestrian-scale props",
+        "Aquila Matara civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
       ],
       "narrativeUse": [
-        "craft proof",
-        "guild politics",
-        "cathedral procession",
-        "citizen-memory scenes",
-        "fountain meeting points",
-        "material evidence from workshops"
+        "scenes centered on Guild Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
       ],
-      "landmark": "Grand Cathedral",
+      "landmark": "Guild Hall",
       "minorLandmarks": [
+        "Grand Cathedral",
         "Monument of the Citizen",
         "Three Sisters Fountain"
       ]
     },
     {
+      "districtNumber": 16,
+      "districtId": "D16",
+      "sectionNumber": 4,
+      "name": "D16 — Grand Cathedral Landmark Approach",
+      "civicPurpose": "This district turns Section 4's source-backed anchor set into a board-scale civic space: Guild Hall, Grand Cathedral, Monument of the Citizen, Three Sisters Fountain. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Aquila Matara.",
+      "visualIdentity": "Use Grand Cathedral as the main read. Keep exact source anchors visible where applicable: Guild Hall, Grand Cathedral, Monument of the Citizen, Three Sisters Fountain. The district should share Aquila Matara's American identity, Polished White Limestone, Red Brick, Pale Marble Stone, Gold Trim, and Coastal Edge, Seawall Edge, Harbor Basin without becoming generic.",
+      "emotionalIdentity": "Public-facing, with Aquila Matara's larger mood shaped by Basilica of the First Accord, Beacon Citadel, and Civic Blue Glow Tide-Seal Citadel.",
+      "gameplayAssetNeeds": [
+        "Grand Cathedral",
+        "Guild Hall",
+        "Monument of the Citizen",
+        "Three Sisters Fountain",
+        "Section 4 pedestrian-scale props",
+        "Aquila Matara civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Grand Cathedral",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Grand Cathedral",
+      "minorLandmarks": [
+        "Guild Hall",
+        "Monument of the Citizen",
+        "Three Sisters Fountain"
+      ]
+    },
+    {
+      "districtNumber": 17,
+      "districtId": "D17",
+      "sectionNumber": 4,
+      "name": "D17 — Monument of the Citizen Monument Frontage",
+      "civicPurpose": "This district turns Section 4's source-backed anchor set into a board-scale civic space: Guild Hall, Grand Cathedral, Monument of the Citizen, Three Sisters Fountain. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Aquila Matara.",
+      "visualIdentity": "Use Monument of the Citizen as the main read. Keep exact source anchors visible where applicable: Guild Hall, Grand Cathedral, Monument of the Citizen, Three Sisters Fountain. The district should share Aquila Matara's American identity, Polished White Limestone, Red Brick, Pale Marble Stone, Gold Trim, and Coastal Edge, Seawall Edge, Harbor Basin without becoming generic.",
+      "emotionalIdentity": "Memorial or symbolic, with Aquila Matara's larger mood shaped by Basilica of the First Accord, Beacon Citadel, and Civic Blue Glow Tide-Seal Citadel.",
+      "gameplayAssetNeeds": [
+        "Monument of the Citizen",
+        "Guild Hall",
+        "Grand Cathedral",
+        "Three Sisters Fountain",
+        "Section 4 pedestrian-scale props",
+        "Aquila Matara civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Monument of the Citizen",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Monument of the Citizen",
+      "minorLandmarks": [
+        "Guild Hall",
+        "Grand Cathedral",
+        "Three Sisters Fountain"
+      ]
+    },
+    {
+      "districtNumber": 21,
+      "districtId": "D21",
+      "sectionNumber": 4,
+      "name": "D21 — Three Sisters Fountain Neighborhood Nook",
+      "civicPurpose": "This district turns Section 4's source-backed anchor set into a board-scale civic space: Guild Hall, Grand Cathedral, Monument of the Citizen, Three Sisters Fountain. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Aquila Matara.",
+      "visualIdentity": "Use Three Sisters Fountain as the main read. Keep exact source anchors visible where applicable: Guild Hall, Grand Cathedral, Monument of the Citizen, Three Sisters Fountain. The district should share Aquila Matara's American identity, Polished White Limestone, Red Brick, Pale Marble Stone, Gold Trim, and Coastal Edge, Seawall Edge, Harbor Basin without becoming generic.",
+      "emotionalIdentity": "Intimate and lived-in, with Aquila Matara's larger mood shaped by Basilica of the First Accord, Beacon Citadel, and Civic Blue Glow Tide-Seal Citadel.",
+      "gameplayAssetNeeds": [
+        "Three Sisters Fountain",
+        "Guild Hall",
+        "Grand Cathedral",
+        "Monument of the Citizen",
+        "Section 4 pedestrian-scale props",
+        "Aquila Matara civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Three Sisters Fountain",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Three Sisters Fountain",
+      "minorLandmarks": [
+        "Guild Hall",
+        "Grand Cathedral",
+        "Monument of the Citizen"
+      ]
+    },
+    {
+      "districtNumber": 22,
+      "districtId": "D22",
+      "sectionNumber": 4,
+      "name": "D22 — Guild Hall Supporting Streets",
+      "civicPurpose": "This district turns Section 4's source-backed anchor set into a board-scale civic space: Guild Hall, Grand Cathedral, Monument of the Citizen, Three Sisters Fountain. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Aquila Matara.",
+      "visualIdentity": "Use Guild Hall as the main read. Keep exact source anchors visible where applicable: Guild Hall, Grand Cathedral, Monument of the Citizen, Three Sisters Fountain. The district should share Aquila Matara's American identity, Polished White Limestone, Red Brick, Pale Marble Stone, Gold Trim, and Coastal Edge, Seawall Edge, Harbor Basin without becoming generic.",
+      "emotionalIdentity": "Connective and practical, with Aquila Matara's larger mood shaped by Basilica of the First Accord, Beacon Citadel, and Civic Blue Glow Tide-Seal Citadel.",
+      "gameplayAssetNeeds": [
+        "Guild Hall",
+        "Grand Cathedral",
+        "Monument of the Citizen",
+        "Three Sisters Fountain",
+        "Section 4 pedestrian-scale props",
+        "Aquila Matara civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Guild Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Guild Hall",
+      "minorLandmarks": [
+        "Grand Cathedral",
+        "Monument of the Citizen",
+        "Three Sisters Fountain"
+      ]
+    },
+    {
+      "districtNumber": 19,
+      "districtId": "D19",
       "sectionNumber": 5,
-      "name": "Forum",
-      "civicPurpose": "Public assembly, archive memory, accord law, civic speech, and formal interpretation of the capital's founding legitimacy.",
-      "visualIdentity": "Forum arches, Hall of Archives, Pillar of the First Accord, Old Bell Tower, speaking steps, record counters, civic flags, blue lamps, and dense public gathering space.",
-      "emotionalIdentity": "Weighty, articulate, public, and politically charged.",
+      "name": "D19 — Forum Civic-Anchor Precinct",
+      "civicPurpose": "This district turns Section 5's source-backed anchor set into a board-scale civic space: Forum, Hall of Archives, Pillar of the First Accord, Old Bell Tower. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Aquila Matara.",
+      "visualIdentity": "Use Forum as the main read. Keep exact source anchors visible where applicable: Forum, Hall of Archives, Pillar of the First Accord, Old Bell Tower. The district should share Aquila Matara's American identity, Polished White Limestone, Red Brick, Pale Marble Stone, Gold Trim, and Coastal Edge, Seawall Edge, Harbor Basin without becoming generic.",
+      "emotionalIdentity": "Locally grounded, with Aquila Matara's larger mood shaped by Basilica of the First Accord, Beacon Citadel, and Civic Blue Glow Tide-Seal Citadel.",
       "gameplayAssetNeeds": [
         "Forum",
         "Hall of Archives",
         "Pillar of the First Accord",
         "Old Bell Tower",
-        "speaking steps",
-        "archive counters",
-        "public crowd and officials"
+        "Section 5 pedestrian-scale props",
+        "Aquila Matara civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
       ],
       "narrativeUse": [
-        "public speeches",
-        "archive evidence",
-        "founding law disputes",
-        "bell-marked crisis",
-        "crowd interpretation of official action",
-        "First Accord symbolism"
+        "scenes centered on Forum",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Forum",
+      "minorLandmarks": [
+        "Hall of Archives",
+        "Pillar of the First Accord",
+        "Old Bell Tower"
+      ]
+    },
+    {
+      "districtNumber": 20,
+      "districtId": "D20",
+      "sectionNumber": 5,
+      "name": "D20 — Hall of Archives Landmark Approach",
+      "civicPurpose": "This district turns Section 5's source-backed anchor set into a board-scale civic space: Forum, Hall of Archives, Pillar of the First Accord, Old Bell Tower. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Aquila Matara.",
+      "visualIdentity": "Use Hall of Archives as the main read. Keep exact source anchors visible where applicable: Forum, Hall of Archives, Pillar of the First Accord, Old Bell Tower. The district should share Aquila Matara's American identity, Polished White Limestone, Red Brick, Pale Marble Stone, Gold Trim, and Coastal Edge, Seawall Edge, Harbor Basin without becoming generic.",
+      "emotionalIdentity": "Public-facing, with Aquila Matara's larger mood shaped by Basilica of the First Accord, Beacon Citadel, and Civic Blue Glow Tide-Seal Citadel.",
+      "gameplayAssetNeeds": [
+        "Hall of Archives",
+        "Forum",
+        "Pillar of the First Accord",
+        "Old Bell Tower",
+        "Section 5 pedestrian-scale props",
+        "Aquila Matara civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Hall of Archives",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
       ],
       "landmark": "Hall of Archives",
       "minorLandmarks": [
+        "Forum",
+        "Pillar of the First Accord",
+        "Old Bell Tower"
+      ]
+    },
+    {
+      "districtNumber": 23,
+      "districtId": "D23",
+      "sectionNumber": 5,
+      "name": "D23 — Pillar of the First Accord Monument Frontage",
+      "civicPurpose": "This district turns Section 5's source-backed anchor set into a board-scale civic space: Forum, Hall of Archives, Pillar of the First Accord, Old Bell Tower. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Aquila Matara.",
+      "visualIdentity": "Use Pillar of the First Accord as the main read. Keep exact source anchors visible where applicable: Forum, Hall of Archives, Pillar of the First Accord, Old Bell Tower. The district should share Aquila Matara's American identity, Polished White Limestone, Red Brick, Pale Marble Stone, Gold Trim, and Coastal Edge, Seawall Edge, Harbor Basin without becoming generic.",
+      "emotionalIdentity": "Memorial or symbolic, with Aquila Matara's larger mood shaped by Basilica of the First Accord, Beacon Citadel, and Civic Blue Glow Tide-Seal Citadel.",
+      "gameplayAssetNeeds": [
+        "Pillar of the First Accord",
+        "Forum",
+        "Hall of Archives",
+        "Old Bell Tower",
+        "Section 5 pedestrian-scale props",
+        "Aquila Matara civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Pillar of the First Accord",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Pillar of the First Accord",
+      "minorLandmarks": [
+        "Forum",
+        "Hall of Archives",
+        "Old Bell Tower"
+      ]
+    },
+    {
+      "districtNumber": 24,
+      "districtId": "D24",
+      "sectionNumber": 5,
+      "name": "D24 — Old Bell Tower Neighborhood Nook",
+      "civicPurpose": "This district turns Section 5's source-backed anchor set into a board-scale civic space: Forum, Hall of Archives, Pillar of the First Accord, Old Bell Tower. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Aquila Matara.",
+      "visualIdentity": "Use Old Bell Tower as the main read. Keep exact source anchors visible where applicable: Forum, Hall of Archives, Pillar of the First Accord, Old Bell Tower. The district should share Aquila Matara's American identity, Polished White Limestone, Red Brick, Pale Marble Stone, Gold Trim, and Coastal Edge, Seawall Edge, Harbor Basin without becoming generic.",
+      "emotionalIdentity": "Intimate and lived-in, with Aquila Matara's larger mood shaped by Basilica of the First Accord, Beacon Citadel, and Civic Blue Glow Tide-Seal Citadel.",
+      "gameplayAssetNeeds": [
+        "Old Bell Tower",
+        "Forum",
+        "Hall of Archives",
+        "Pillar of the First Accord",
+        "Section 5 pedestrian-scale props",
+        "Aquila Matara civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Old Bell Tower",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Old Bell Tower",
+      "minorLandmarks": [
+        "Forum",
+        "Hall of Archives",
+        "Pillar of the First Accord"
+      ]
+    },
+    {
+      "districtNumber": 25,
+      "districtId": "D25",
+      "sectionNumber": 5,
+      "name": "D25 — Forum Supporting Streets",
+      "civicPurpose": "This district turns Section 5's source-backed anchor set into a board-scale civic space: Forum, Hall of Archives, Pillar of the First Accord, Old Bell Tower. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Aquila Matara.",
+      "visualIdentity": "Use Forum as the main read. Keep exact source anchors visible where applicable: Forum, Hall of Archives, Pillar of the First Accord, Old Bell Tower. The district should share Aquila Matara's American identity, Polished White Limestone, Red Brick, Pale Marble Stone, Gold Trim, and Coastal Edge, Seawall Edge, Harbor Basin without becoming generic.",
+      "emotionalIdentity": "Connective and practical, with Aquila Matara's larger mood shaped by Basilica of the First Accord, Beacon Citadel, and Civic Blue Glow Tide-Seal Citadel.",
+      "gameplayAssetNeeds": [
+        "Forum",
+        "Hall of Archives",
+        "Pillar of the First Accord",
+        "Old Bell Tower",
+        "Section 5 pedestrian-scale props",
+        "Aquila Matara civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Forum",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Forum",
+      "minorLandmarks": [
+        "Hall of Archives",
         "Pillar of the First Accord",
         "Old Bell Tower"
       ]
@@ -529,259 +1158,744 @@
   "landmarks": {
     "wonder": {
       "name": "Basilica of the First Accord",
-      "symbolicRole": "The founding agreement made sacred, architectural, and publicly visible.",
-      "visualRole": "Wonder-scale basilica of white stone, domes, arches, blue glass, gold civic detailing, processional stairs, and harbor-facing ceremonial massing.",
-      "civicRole": "The deepest legitimacy anchor of Aquila Matara, binding origin memory, public oath, national ceremony, and capital authority.",
+      "symbolicRole": "Basilica of the First Accord concentrates Aquila Matara's local symbolism into a usable civic landmark: city wonder, separate far skyline anchor.",
+      "visualRole": "A vast medieval civic basilica commemorating the founding civic oath of the republic, built as the city's greatest public symbol of lawful unity and shared memory.",
+      "civicRole": "Serves as city wonder, separate far skyline anchor within Aquila Matara; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
       "narrativeUse": [
-        "founding-law ceremony",
-        "public vows",
-        "national legitimacy scenes",
-        "crowds interpreting ancient obligation in a present crisis",
-        "contrast between sacred accord and political maneuver"
+        "stage scenes involving Basilica of the First Accord",
+        "show how Aquila Matara turns landmark symbolism into civic pressure",
+        "anchor public movement and crowd behavior",
+        "give writers a concrete place for announcements, disputes, errands, or rituals"
       ],
       "assetUse": [
-        "map background wonder",
-        "hero-view skyline anchor",
-        "ceremonial backdrop for capital-scale scenes",
-        "visual identifier for Aquila Matara"
+        "city landmark asset",
+        "map background landmark marker",
+        "visual continuity anchor across hero and street scenes",
+        "scale reference for civilians, roads, plazas, and props"
       ],
       "sensoryIdentity": [
-        "cathedral bells",
-        "blue glass light",
-        "polished stone",
-        "incense",
-        "harbor wind across processional stairs",
-        "crowd silence before ceremony"
+        "local foot traffic",
+        "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+        "public voices and civic work nearby",
+        "ambient city light and weathering",
+        "close pedestrian-scale details rather than abstract skyline-only treatment"
       ],
       "storyHooks": [
-        "an old Accord clause changes a modern political decision",
-        "a public vow at the Basilica becomes impossible to contain",
-        "ceremony and Beacon warning collide",
-        "the Basilica's public meaning outruns official messaging"
+        "a routine civic action at Basilica of the First Accord becomes narratively important",
+        "the visible condition of Basilica of the First Accord signals political or social stress",
+        "someone uses Basilica of the First Accord's public function to redirect crowds or information",
+        "an overlooked detail at Basilica of the First Accord reveals how Aquila Matara really works"
       ]
     },
     "beacon": {
       "name": "Beacon Citadel",
-      "symbolicRole": "Public signal and civic orientation fused with capital authority.",
-      "visualRole": "A blue-lit vertical signal landmark rising from citadel-linked civic structures, visible over bathhouse courts, market streets, forum plazas, and the harbor.",
-      "civicRole": "Coordinates public warning, Conjunction response, institutional timing, crowd attention, and citywide orientation.",
+      "symbolicRole": "Beacon Citadel concentrates Aquila Matara's local symbolism into a usable civic landmark: Section 1 beacon, near/front civic signal anchor.",
+      "visualRole": "The city's mandatory beacon housed in a fortified civic citadel, visible above the residential quarters and tied to public authority.",
+      "civicRole": "Serves as Section 1 beacon, near/front civic signal anchor within Aquila Matara; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
       "narrativeUse": [
-        "Beacon color changes",
-        "public announcements",
-        "crowd fear",
-        "citywide timing",
-        "capital-scale panic or coordination"
+        "stage scenes involving Beacon Citadel",
+        "show how Aquila Matara turns landmark symbolism into civic pressure",
+        "anchor public movement and crowd behavior",
+        "give writers a concrete place for announcements, disputes, errands, or rituals"
       ],
       "assetUse": [
-        "S1 diorama signal anchor",
-        "city signal marker",
-        "map-background blue focal point",
-        "orientation marker visible from multiple districts"
+        "district diorama anchor for Section 1",
+        "map background landmark marker",
+        "visual continuity anchor across hero and street scenes",
+        "scale reference for civilians, roads, plazas, and props"
       ],
       "sensoryIdentity": [
-        "blue glow",
-        "bell sound",
-        "crowd hush",
-        "reflected wet stone",
-        "guard calls",
-        "wind around high banners"
+        "local foot traffic",
+        "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+        "public voices and civic work nearby",
+        "beacon or lamp glow when applicable",
+        "close pedestrian-scale details rather than abstract skyline-only treatment"
       ],
       "storyHooks": [
-        "a color shift turns a normal plaza into national crisis",
-        "citizens interpret Beacon light before officials speak",
-        "a public bathhouse crowd becomes the first mass witness",
-        "Beacon timing conflicts with clock-tower timing"
+        "a routine civic action at Beacon Citadel becomes narratively important",
+        "the visible condition of Beacon Citadel signals political or social stress",
+        "someone uses Beacon Citadel's public function to redirect crowds or information",
+        "an overlooked detail at Beacon Citadel reveals how Aquila Matara really works"
       ]
     },
     "seatOfPower": {
       "name": "Civic Blue Glow Tide-Seal Citadel",
-      "symbolicRole": "Centralized civic authority made luminous, maritime, and official.",
-      "visualRole": "Dominant white-stone citadel complex with blue-glass glow, tide-seal courts, formal stairs, terraces, banners, guard routes, and commanding harbor sightlines.",
-      "civicRole": "Government center for administration, petitions, public rulings, emergency coordination, harbor authority, and formal interpretation of national law.",
+      "symbolicRole": "Civic Blue Glow Tide-Seal Citadel concentrates Aquila Matara's local symbolism into a usable civic landmark: dominant central civic anchor / District 13 seat of power.",
+      "visualRole": "The district-13 seat of power: courts, audience terraces, sealed archives, command platforms, and the visible apparatus of government. It is not a faction HQ; it is the city's central civic authority. Built for Aquila Matara's American population, it uses Polished White Limestone, Red Brick, Pale Marble Stone, Gold Trim, Red Fabric across Coastal Edge, Seawall Edge, Harbor Basin; water context: Coast; magic expression: Civic Blue Illumination, Oath Seals, Record Wards. It must read clearly as a high-fantasy tactical-board asset with no baked labels or text.",
+      "civicRole": "Serves as dominant central civic anchor / District 13 seat of power within Aquila Matara; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
       "narrativeUse": [
-        "public speeches",
-        "administrative pressure",
-        "factional meetings",
-        "official escort scenes",
-        "petitions becoming symbolic crowd moments",
-        "capital bureaucracy under Conjunction stress"
+        "stage scenes involving Civic Blue Glow Tide-Seal Citadel",
+        "show how Aquila Matara turns landmark symbolism into civic pressure",
+        "anchor public movement and crowd behavior",
+        "give writers a concrete place for announcements, disputes, errands, or rituals"
       ],
       "assetUse": [
-        "seat-of-power marker",
-        "map background centerpiece",
-        "civic authority diorama backdrop",
-        "source of blue civic-light motif"
+        "city landmark asset",
+        "map background landmark marker",
+        "visual continuity anchor across hero and street scenes",
+        "scale reference for civilians, roads, plazas, and props"
       ],
       "sensoryIdentity": [
-        "polished paving",
-        "paper and ink",
-        "guard armor",
-        "blue lamps",
-        "high sea air",
-        "formal stair echoes"
+        "local foot traffic",
+        "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+        "public voices and civic work nearby",
+        "ambient city light and weathering",
+        "close pedestrian-scale details rather than abstract skyline-only treatment"
       ],
       "storyHooks": [
-        "a public address escapes official control",
-        "a bureaucratic queue becomes a symbolic crowd",
-        "a tide-seal ruling changes harbor access",
-        "the Citadel must respond to what the Forum has already made public"
+        "a routine civic action at Civic Blue Glow Tide-Seal Citadel becomes narratively important",
+        "the visible condition of Civic Blue Glow Tide-Seal Citadel signals political or social stress",
+        "someone uses Civic Blue Glow Tide-Seal Citadel's public function to redirect crowds or information",
+        "an overlooked detail at Civic Blue Glow Tide-Seal Citadel reveals how Aquila Matara really works"
       ]
     },
     "majorLandmarks": [
       {
-        "name": "Great Clock Tower",
-        "symbolicRole": "Public time as civic discipline.",
-        "visualRole": "Tall clock tower rising over Grand Market arcades, red awnings, blue lamps, founder monuments, and crowded market stairs.",
-        "civicRole": "Regulates market timing, announcements, office hours, and the rhythm by which citizens trust institutions.",
+        "name": "Hall of Archives",
+        "symbolicRole": "Hall of Archives concentrates Aquila Matara's local symbolism into a usable civic landmark: additional major landmark selected for this hero-view camera angle.",
+        "visualRole": "A monumental archive hall preserving civic records, sealed legal memory, and the city's public institutional past.",
+        "civicRole": "Serves as additional major landmark selected for this hero-view camera angle within Aquila Matara; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
         "narrativeUse": [
-          "timed announcements",
-          "market interruptions",
-          "deadline pressure",
-          "public bells changing crowd behavior"
+          "stage scenes involving Hall of Archives",
+          "show how Aquila Matara turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
         ],
         "assetUse": [
-          "S2 diorama landmark",
-          "market skyline anchor",
-          "timekeeping motif for capital scenes"
+          "district diorama anchor for Section 5",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
         ],
         "sensoryIdentity": [
-          "clock chimes",
-          "market calls",
-          "red awning shade",
-          "brass gears",
-          "bell vibration in stone"
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
         ],
         "storyHooks": [
-          "a clock signal contradicts an official notice",
-          "the market realizes a crisis before the Citadel speaks"
+          "a routine civic action at Hall of Archives becomes narratively important",
+          "the visible condition of Hall of Archives signals political or social stress",
+          "someone uses Hall of Archives's public function to redirect crowds or information",
+          "an overlooked detail at Hall of Archives reveals how Aquila Matara really works"
         ]
       },
       {
-        "name": "Royal Observatory",
-        "symbolicRole": "Knowledge made public service.",
-        "visualRole": "University observatory tower with blue glass, instruments, lecture courts, bridges, and high sightlines across harbor and civic heights.",
-        "civicRole": "Supports navigation, astronomy, timing, expert counsel, and long-range civic planning.",
+        "name": "Great Clock Tower",
+        "symbolicRole": "Great Clock Tower concentrates Aquila Matara's local symbolism into a usable civic landmark: additional major landmark selected for this hero-view camera angle.",
+        "visualRole": "A tall medieval timekeeping tower that orders market bells, council sessions, and civic curfews across the capital.",
+        "civicRole": "Serves as additional major landmark selected for this hero-view camera angle within Aquila Matara; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
         "narrativeUse": [
-          "expert consultation",
-          "celestial or timing evidence",
-          "scholarly disputes",
-          "quiet observation of public crisis"
+          "stage scenes involving Great Clock Tower",
+          "show how Aquila Matara turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
         ],
         "assetUse": [
-          "S3 diorama landmark",
-          "university tower",
-          "knowledge/instrument asset cluster"
+          "district diorama anchor for Section 2",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
         ],
         "sensoryIdentity": [
-          "glass lenses",
-          "paper charts",
-          "cool high wind",
-          "blue instrument light",
-          "student voices"
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
         ],
         "storyHooks": [
-          "observatory data changes an official timeline",
-          "a scholar refuses to simplify evidence for politics"
+          "a routine civic action at Great Clock Tower becomes narratively important",
+          "the visible condition of Great Clock Tower signals political or social stress",
+          "someone uses Great Clock Tower's public function to redirect crowds or information",
+          "an overlooked detail at Great Clock Tower reveals how Aquila Matara really works"
         ]
       },
       {
         "name": "Grand Cathedral",
-        "symbolicRole": "Citizen craft and sacred legitimacy meeting in public ceremony.",
-        "visualRole": "Large cathedral front with domes, arches, bells, guild processional routes, citizen monument, fountain plaza, and blue-gold civic light.",
-        "civicRole": "Hosts major ceremonies, guild-civic rituals, public mourning, and shared capital memory.",
+        "symbolicRole": "Grand Cathedral concentrates Aquila Matara's local symbolism into a usable civic landmark: additional major landmark selected for this hero-view camera angle.",
+        "visualRole": "A major medieval cathedral of civic devotion, where public faith and republican ceremony meet under white stone vaults.",
+        "civicRole": "Serves as additional major landmark selected for this hero-view camera angle within Aquila Matara; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
         "narrativeUse": [
-          "processions",
-          "mourning or celebration",
-          "guild ceremonies",
-          "citizen-memory scenes"
+          "stage scenes involving Grand Cathedral",
+          "show how Aquila Matara turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
         ],
         "assetUse": [
-          "S4 diorama landmark",
-          "cathedral/guild backdrop",
-          "ceremonial district anchor"
+          "district diorama anchor for Section 4",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
         ],
         "sensoryIdentity": [
-          "bells",
-          "incense",
-          "fountain water",
-          "stone steps",
-          "guild banners"
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
         ],
         "storyHooks": [
-          "a guild ceremony becomes political",
-          "the Monument of the Citizen reframes a private loss as public duty"
+          "a routine civic action at Grand Cathedral becomes narratively important",
+          "the visible condition of Grand Cathedral signals political or social stress",
+          "someone uses Grand Cathedral's public function to redirect crowds or information",
+          "an overlooked detail at Grand Cathedral reveals how Aquila Matara really works"
         ]
       },
       {
-        "name": "Hall of Archives",
-        "symbolicRole": "The capital's memory made accessible, dangerous, and official.",
-        "visualRole": "Forum archive hall with pillars, counters, record alcoves, blue lamps, the Pillar of the First Accord, and the Old Bell Tower nearby.",
-        "civicRole": "Preserves records, legal memory, public claims, official notices, and Accord interpretation.",
+        "name": "Public Bathhouse",
+        "symbolicRole": "Public Bathhouse concentrates Aquila Matara's local symbolism into a usable civic landmark: Section 1 local anchor.",
+        "visualRole": "A sprawling medieval public bathing complex of domes, steam halls, warm pools, and communal steps.",
+        "civicRole": "Serves as Section 1 local anchor within Aquila Matara; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
         "narrativeUse": [
-          "archive evidence",
-          "founding law disputes",
-          "public record contradictions",
-          "forum speeches grounded in documents"
+          "stage scenes involving Public Bathhouse",
+          "show how Aquila Matara turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
         ],
         "assetUse": [
-          "S5 diorama landmark",
-          "archive/forum asset cluster",
-          "public record icon for map background"
+          "district diorama anchor for Section 1",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
         ],
         "sensoryIdentity": [
-          "paper and ink",
-          "stone pillars",
-          "bell tower resonance",
-          "quiet clerks",
-          "blue lamp glow on records"
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
         ],
         "storyHooks": [
-          "an archived Accord phrase changes what the Beacon warning means",
-          "a public speaker uses records to turn a crowd against official intent"
+          "a routine civic action at Public Bathhouse becomes narratively important",
+          "the visible condition of Public Bathhouse signals political or social stress",
+          "someone uses Public Bathhouse's public function to redirect crowds or information",
+          "an overlooked detail at Public Bathhouse reveals how Aquila Matara really works"
+        ]
+      },
+      {
+        "name": "Wall of Oaths",
+        "symbolicRole": "Wall of Oaths concentrates Aquila Matara's local symbolism into a usable civic landmark: Section 1 local anchor.",
+        "visualRole": "A long memorial wall of non-readable oath plaques, civic lamps, and small steps where citizens remember public obligations.",
+        "civicRole": "Serves as Section 1 local anchor within Aquila Matara; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Wall of Oaths",
+          "show how Aquila Matara turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 1",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Wall of Oaths becomes narratively important",
+          "the visible condition of Wall of Oaths signals political or social stress",
+          "someone uses Wall of Oaths's public function to redirect crowds or information",
+          "an overlooked detail at Wall of Oaths reveals how Aquila Matara really works"
+        ]
+      },
+      {
+        "name": "Lantern Square",
+        "symbolicRole": "Lantern Square concentrates Aquila Matara's local symbolism into a usable civic landmark: Section 1 local anchor.",
+        "visualRole": "A beloved small square identified by clustered blue civic lanterns, red awnings, and simple stone seating.",
+        "civicRole": "Serves as Section 1 local anchor within Aquila Matara; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Lantern Square",
+          "show how Aquila Matara turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 1",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Lantern Square becomes narratively important",
+          "the visible condition of Lantern Square signals political or social stress",
+          "someone uses Lantern Square's public function to redirect crowds or information",
+          "an overlooked detail at Lantern Square reveals how Aquila Matara really works"
+        ]
+      },
+      {
+        "name": "Grand Market",
+        "symbolicRole": "Grand Market concentrates Aquila Matara's local symbolism into a usable civic landmark: Section 2 local anchor.",
+        "visualRole": "The principal medieval market of the capital, built around arcades, awnings, stair-plazas, and visible trade circulation.",
+        "civicRole": "Serves as Section 2 local anchor within Aquila Matara; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Grand Market",
+          "show how Aquila Matara turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 2",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Grand Market becomes narratively important",
+          "the visible condition of Grand Market signals political or social stress",
+          "someone uses Grand Market's public function to redirect crowds or information",
+          "an overlooked detail at Grand Market reveals how Aquila Matara really works"
+        ]
+      },
+      {
+        "name": "Founders Obelisk",
+        "symbolicRole": "Founders Obelisk concentrates Aquila Matara's local symbolism into a usable civic landmark: Section 2 local anchor.",
+        "visualRole": "A clean white-stone obelisk honoring the founders of civic law and the first public courts.",
+        "civicRole": "Serves as Section 2 local anchor within Aquila Matara; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Founders Obelisk",
+          "show how Aquila Matara turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 2",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Founders Obelisk becomes narratively important",
+          "the visible condition of Founders Obelisk signals political or social stress",
+          "someone uses Founders Obelisk's public function to redirect crowds or information",
+          "an overlooked detail at Founders Obelisk reveals how Aquila Matara really works"
+        ]
+      },
+      {
+        "name": "Pilgrim's Well",
+        "symbolicRole": "Pilgrim's Well concentrates Aquila Matara's local symbolism into a usable civic landmark: Section 2 local anchor.",
+        "visualRole": "A small medieval public well used by travelers and residents, marked by white stone and a modest civic canopy.",
+        "civicRole": "Serves as Section 2 local anchor within Aquila Matara; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Pilgrim's Well",
+          "show how Aquila Matara turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 2",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Pilgrim's Well becomes narratively important",
+          "the visible condition of Pilgrim's Well signals political or social stress",
+          "someone uses Pilgrim's Well's public function to redirect crowds or information",
+          "an overlooked detail at Pilgrim's Well reveals how Aquila Matara really works"
+        ]
+      },
+      {
+        "name": "University",
+        "symbolicRole": "University concentrates Aquila Matara's local symbolism into a usable civic landmark: Section 3 local anchor.",
+        "visualRole": "A medieval university of lecture courts, cloisters, debate halls, and small observatory rooms.",
+        "civicRole": "Serves as Section 3 local anchor within Aquila Matara; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving University",
+          "show how Aquila Matara turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 3",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at University becomes narratively important",
+          "the visible condition of University signals political or social stress",
+          "someone uses University's public function to redirect crowds or information",
+          "an overlooked detail at University reveals how Aquila Matara really works"
+        ]
+      },
+      {
+        "name": "Royal Observatory",
+        "symbolicRole": "Royal Observatory concentrates Aquila Matara's local symbolism into a usable civic landmark: Section 3 local anchor.",
+        "visualRole": "A formal observatory with brass lenses and elevated terraces, used for civic astronomy, calendars, and beacon-watch records.",
+        "civicRole": "Serves as Section 3 local anchor within Aquila Matara; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Royal Observatory",
+          "show how Aquila Matara turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 3",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Royal Observatory becomes narratively important",
+          "the visible condition of Royal Observatory signals political or social stress",
+          "someone uses Royal Observatory's public function to redirect crowds or information",
+          "an overlooked detail at Royal Observatory reveals how Aquila Matara really works"
+        ]
+      },
+      {
+        "name": "Eternal Watch Flame",
+        "symbolicRole": "Eternal Watch Flame concentrates Aquila Matara's local symbolism into a usable civic landmark: Section 3 local anchor.",
+        "visualRole": "A contained blue civic flame honoring guardians, watchmen, messengers, and citizens who kept the city safe.",
+        "civicRole": "Serves as Section 3 local anchor within Aquila Matara; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Eternal Watch Flame",
+          "show how Aquila Matara turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 3",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Eternal Watch Flame becomes narratively important",
+          "the visible condition of Eternal Watch Flame signals political or social stress",
+          "someone uses Eternal Watch Flame's public function to redirect crowds or information",
+          "an overlooked detail at Eternal Watch Flame reveals how Aquila Matara really works"
+        ]
+      },
+      {
+        "name": "Founders Bridge",
+        "symbolicRole": "Founders Bridge concentrates Aquila Matara's local symbolism into a usable civic landmark: Section 3 local anchor.",
+        "visualRole": "A small stone pedestrian bridge known locally for its sealed civic reliefs and formal stair approaches.",
+        "civicRole": "Serves as Section 3 local anchor within Aquila Matara; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Founders Bridge",
+          "show how Aquila Matara turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 3",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Founders Bridge becomes narratively important",
+          "the visible condition of Founders Bridge signals political or social stress",
+          "someone uses Founders Bridge's public function to redirect crowds or information",
+          "an overlooked detail at Founders Bridge reveals how Aquila Matara really works"
+        ]
+      },
+      {
+        "name": "Guild Hall",
+        "symbolicRole": "Guild Hall concentrates Aquila Matara's local symbolism into a usable civic landmark: Section 4 local anchor.",
+        "visualRole": "A formal guild hall where crafts, contracts, apprenticeships, and public standards are regulated.",
+        "civicRole": "Serves as Section 4 local anchor within Aquila Matara; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Guild Hall",
+          "show how Aquila Matara turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 4",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Guild Hall becomes narratively important",
+          "the visible condition of Guild Hall signals political or social stress",
+          "someone uses Guild Hall's public function to redirect crowds or information",
+          "an overlooked detail at Guild Hall reveals how Aquila Matara really works"
+        ]
+      },
+      {
+        "name": "Monument of the Citizen",
+        "symbolicRole": "Monument of the Citizen concentrates Aquila Matara's local symbolism into a usable civic landmark: Section 4 local anchor.",
+        "visualRole": "A modest but noble public monument honoring ordinary citizens, laborers, clerks, and public servants.",
+        "civicRole": "Serves as Section 4 local anchor within Aquila Matara; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Monument of the Citizen",
+          "show how Aquila Matara turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 4",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Monument of the Citizen becomes narratively important",
+          "the visible condition of Monument of the Citizen signals political or social stress",
+          "someone uses Monument of the Citizen's public function to redirect crowds or information",
+          "an overlooked detail at Monument of the Citizen reveals how Aquila Matara really works"
+        ]
+      },
+      {
+        "name": "Three Sisters Fountain",
+        "symbolicRole": "Three Sisters Fountain concentrates Aquila Matara's local symbolism into a usable civic landmark: Section 4 local anchor.",
+        "visualRole": "A small white-stone fountain with three bowls, used as a neighborhood meeting point.",
+        "civicRole": "Serves as Section 4 local anchor within Aquila Matara; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Three Sisters Fountain",
+          "show how Aquila Matara turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 4",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Three Sisters Fountain becomes narratively important",
+          "the visible condition of Three Sisters Fountain signals political or social stress",
+          "someone uses Three Sisters Fountain's public function to redirect crowds or information",
+          "an overlooked detail at Three Sisters Fountain reveals how Aquila Matara really works"
+        ]
+      },
+      {
+        "name": "Forum",
+        "symbolicRole": "Forum concentrates Aquila Matara's local symbolism into a usable civic landmark: Section 5 local anchor.",
+        "visualRole": "A formal public forum for debate, petitions, announcements, and civic gathering.",
+        "civicRole": "Serves as Section 5 local anchor within Aquila Matara; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Forum",
+          "show how Aquila Matara turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 5",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Forum becomes narratively important",
+          "the visible condition of Forum signals political or social stress",
+          "someone uses Forum's public function to redirect crowds or information",
+          "an overlooked detail at Forum reveals how Aquila Matara really works"
+        ]
+      },
+      {
+        "name": "Pillar of the First Accord",
+        "symbolicRole": "Pillar of the First Accord concentrates Aquila Matara's local symbolism into a usable civic landmark: Section 5 local anchor.",
+        "visualRole": "A civic monument commemorating the first oath that bound the republic into lawful public order.",
+        "civicRole": "Serves as Section 5 local anchor within Aquila Matara; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Pillar of the First Accord",
+          "show how Aquila Matara turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 5",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Pillar of the First Accord becomes narratively important",
+          "the visible condition of Pillar of the First Accord signals political or social stress",
+          "someone uses Pillar of the First Accord's public function to redirect crowds or information",
+          "an overlooked detail at Pillar of the First Accord reveals how Aquila Matara really works"
+        ]
+      },
+      {
+        "name": "Old Bell Tower",
+        "symbolicRole": "Old Bell Tower concentrates Aquila Matara's local symbolism into a usable civic landmark: Section 5 local anchor.",
+        "visualRole": "A compact old neighborhood bell tower with repaired brickwork and a clear medieval silhouette.",
+        "civicRole": "Serves as Section 5 local anchor within Aquila Matara; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Old Bell Tower",
+          "show how Aquila Matara turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 5",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Old Bell Tower becomes narratively important",
+          "the visible condition of Old Bell Tower signals political or social stress",
+          "someone uses Old Bell Tower's public function to redirect crowds or information",
+          "an overlooked detail at Old Bell Tower reveals how Aquila Matara really works"
         ]
       }
     ]
   },
   "assetGuidance": {
     "districtDioramaGuidance": [
-      "S1 must show Public Bathhouse identity with bath courts, steam, fountains, Wall of Oaths, Lantern Square, and Beacon Citadel visibility.",
-      "S2 must center Grand Market with Great Clock Tower, Founders Obelisk, Pilgrim's Well, red awnings, formal stalls, and clock-regulated public commerce.",
-      "S3 must show University through Royal Observatory, Eternal Watch Flame, Founders Bridge, lecture courts, blue glass, instruments, scholars, and students.",
-      "S4 must show Guild Hall / Grand Cathedral overlap with guild banners, tool displays, Monument of the Citizen, Three Sisters Fountain, cathedral front, and artisans.",
-      "S5 must show Forum through Hall of Archives, Pillar of the First Accord, Old Bell Tower, speaking steps, record counters, blue lamps, and public assembly crowds."
+      "Dioramas must support 25 district slots: S1 covers D01, D02, D03, D06, D07 and uses source-backed anchors Public Bathhouse, Beacon Citadel, Wall of Oaths, Lantern Square.",
+      "Dioramas must support 25 district slots: S2 covers D04, D05, D09, D10, D15 and uses source-backed anchors Grand Market, Great Clock Tower, Founders Obelisk, Pilgrim's Well.",
+      "Dioramas must support 25 district slots: S3 covers D08, D12, D13, D14, D18 and uses source-backed anchors University, Royal Observatory, Eternal Watch Flame, Founders Bridge.",
+      "Dioramas must support 25 district slots: S4 covers D11, D16, D17, D21, D22 and uses source-backed anchors Guild Hall, Grand Cathedral, Monument of the Citizen, Three Sisters Fountain.",
+      "Dioramas must support 25 district slots: S5 covers D19, D20, D23, D24, D25 and uses source-backed anchors Forum, Hall of Archives, Pillar of the First Accord, Old Bell Tower."
     ],
     "mapBackgroundGuidance": [
-      "Show a white-stone coastal capital climbing from harbor and bathhouse courts toward markets, university towers, guild/cathedral plazas, forum arches, Beacon Citadel, Basilica of the First Accord, and the Civic Blue Glow Tide-Seal Citadel.",
-      "The Basilica of the First Accord should read as the wonder-scale civic-sacred anchor; the Tide-Seal Citadel should dominate governmental authority; the Beacon Citadel should be the blue signal landmark visible across districts.",
-      "Keep the working harbor present below the formal institutions, but do not let generic waterfront categories replace the sidecar-defined district identities."
+      "Map backgrounds must show Basilica of the First Accord as the wonder-scale identity anchor, Civic Blue Glow Tide-Seal Citadel at D13, and Beacon Citadel as the city signal landmark.",
+      "Preserve the five-section spine: S1 Public Bathhouse, S2 Grand Market, S3 University, S4 Guild Hall, S5 Forum.",
+      "Use roads, terrain, water, civic terraces, walls, markets, courts, or service routes only where they support the exact city identity and tactical readability."
     ],
     "requiredVisualElements": [
-      "working harbor context",
-      "Public Bathhouse",
+      "Basilica of the First Accord",
       "Beacon Citadel",
       "Civic Blue Glow Tide-Seal Citadel",
-      "Basilica of the First Accord",
-      "Grand Market",
+      "Hall of Archives",
       "Great Clock Tower",
+      "Grand Cathedral",
+      "Public Bathhouse",
+      "Wall of Oaths",
+      "Lantern Square",
+      "Grand Market",
+      "Founders Obelisk",
+      "Pilgrim's Well",
       "University",
       "Royal Observatory",
+      "Eternal Watch Flame",
+      "Founders Bridge",
       "Guild Hall",
-      "Grand Cathedral",
+      "Monument of the Citizen",
+      "Three Sisters Fountain",
       "Forum",
-      "Hall of Archives",
-      "blue civic lamps",
-      "white limestone",
-      "red tile roofs and awnings",
-      "formal stairs and plazas"
+      "Pillar of the First Accord",
+      "Old Bell Tower",
+      "Polished White Limestone",
+      "Red Brick",
+      "Pale Marble Stone",
+      "Gold Trim",
+      "Red Fabric",
+      "Coastal Edge",
+      "Seawall Edge",
+      "Harbor Basin",
+      "Civic Blue Illumination",
+      "Oath Seals",
+      "Record Wards"
     ],
     "elementsToAvoid": [
-      "lawless port tone",
-      "generic medieval city",
-      "empty ceremonial capital",
-      "pure palace city with no working harbor",
-      "generic district names replacing sidecar landmarks",
-      "blue light as decoration without civic meaning",
-      "chaotic sprawl without processional order"
+      "extra top-level schema sections or research-log content in the JSON",
+      "generic fantasy architecture that ignores exact anchor names",
+      "invented missing street anchors",
+      "readable real-world text labels baked into images",
+      "collapsing the 25-district board into only five playable spaces",
+      "making landmarks decorative when they should have civic, narrative, and asset function"
     ]
   }
 }

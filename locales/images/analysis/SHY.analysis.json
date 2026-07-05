@@ -1,1 +1,1918 @@
-{"metadata":{"schemaVersion":"2.0","analysisVersion":2,"cityCode":"SHY","cityName":"Shyrenveil","analysisConfidence":"strong-lock"},"sourceModel":"5 section sidecars; 25 board district slots inherit section anchors.","boardStructure":{"model":"25-seat map","seatOfPowerDistrict":"D13","sections":[{"sectionNumber":1,"districts":["D01","D02","D03","D06","D07"]},{"sectionNumber":2,"districts":["D04","D05","D09","D10","D15"]},{"sectionNumber":3,"districts":["D08","D12","D13","D14","D18"]},{"sectionNumber":4,"districts":["D11","D16","D17","D21","D22"]},{"sectionNumber":5,"districts":["D19","D20","D23","D24","D25"]}]},"sections":[{"n":1,"name":"Nature Preserve / Sacred Grove"},{"n":2,"name":"Religious / Temple Quarter"},{"n":3,"name":"Public Works Authority"},{"n":4,"name":"High Residential"},{"n":5,"name":"Refugee Commons"}],"districts":["D01","D02","D03","D04","D05","D06","D07","D08","D09","D10","D11","D12","D13","D14","D15","D16","D17","D18","D19","D20","D21","D22","D23","D24","D25"]}
+{
+  "metadata": {
+    "schemaVersion": "2.0",
+    "analysisVersion": 2,
+    "cityCode": "SHY",
+    "cityName": "Shyrenveil",
+    "analysisDate": "2026-07-05",
+    "analystVersion": "gpt-5.5-thinking",
+    "analysisConfidence": "strong-lock",
+    "basedOnImages": [
+      "SHY-HERO-NE-v001.png",
+      "SHY-HERO-NW-v001.png",
+      "SHY-HERO-SE-v001.png",
+      "SHY-HERO-SW-v001.png",
+      "SHY-STREET-S1-v001.png",
+      "SHY-STREET-S2-v001.png",
+      "SHY-STREET-S3-v001.png",
+      "SHY-STREET-S4-v001.png",
+      "SHY-STREET-S5-v001.png"
+    ],
+    "basedOnSidecars": [
+      "SHY-HERO-NE-v001.json",
+      "SHY-HERO-NW-v001.json",
+      "SHY-HERO-SE-v001.json",
+      "SHY-HERO-SW-v001.json",
+      "SHY-STREET-S1-v001.json",
+      "SHY-STREET-S2-v001.json",
+      "SHY-STREET-S3-v001.json",
+      "SHY-STREET-S4-v001.json",
+      "SHY-STREET-S5-v001.json"
+    ],
+    "missingStreetSections": []
+  },
+  "cityDNA": {
+    "coreFantasy": "Shyrenveil is a foxfolk forest city of hidden paths, sacred groves, temple platforms, public works, noble courts, and aid commons under mask-lantern law.",
+    "primaryEmotion": "watchful sanctuary",
+    "secondaryEmotion": "ceremonial secrecy",
+    "readerTakeaway": "Shyrenveil should feel immediately distinct: fox-like beastfolk civic life is organized around Nature Preserve / Sacred Grove, Religious / Temple Quarter, Public Works Authority, High Residential, and Refugee Commons, with Foxfire Mask-Lantern Pavilion of Hidden Paths as the citywide symbol.",
+    "civilizationThesis": "The city turns Fieldstone, Timber, Dark Wood, Red Fabric, Painted Plaster, Forest, Root Network, Old Growth Woodland, and Beast Bonding, Ancestor Guidance, Pack Instinct into a working urban system rather than surface decoration.",
+    "visualIdentity": "Use Fieldstone, Timber, Dark Wood, Red Fabric, Painted Plaster, civic terraces, public courts, audience terraces, sealed archives, command platforms, Nature Preserve / Sacred Grove Civic Hall, Religious / Temple Quarter Civic Hall, Public Works Authority Hall, visible Sacred Grove Beacon, the central Wolf Tooth Borders Sovereign Registry Court, and the skyline-scale Foxfire Mask-Lantern Pavilion of Hidden Paths as the core visual grammar.",
+    "culturalIdentity": "A fox-like beastfolk population whose institutions make daily life legible through section anchors: Nature Preserve / Sacred Grove, Religious / Temple Quarter, Public Works Authority, High Residential, Refugee Commons.",
+    "symbolicIdentity": "The city is symbolized by Foxfire Mask-Lantern Pavilion of Hidden Paths, Sacred Grove Beacon, Wolf Tooth Borders Sovereign Registry Court, and the repeating civic pattern of hall, landmark, monument, and nook in every section."
+  },
+  "canon": {
+    "canonLocks": [
+      "Shyrenveil is built for its fox-like beastfolk population and should not be genericized into a neutral fantasy city.",
+      "The Wonder is Foxfire Mask-Lantern Pavilion of Hidden Paths.",
+      "The Beacon is Sacred Grove Beacon.",
+      "The Seat of Power is Wolf Tooth Borders Sovereign Registry Court.",
+      "The five section spines are Nature Preserve / Sacred Grove, Religious / Temple Quarter, Public Works Authority, High Residential, Refugee Commons.",
+      "The tactical board uses 25 district slots, with District 13 as the seat-of-power center.",
+      "Exact sidecar names for civic halls, major landmarks, monuments, and minor nooks must be preserved verbatim."
+    ],
+    "provisionalCanon": [
+      "Citizens likely treat Sacred Grove Beacon as the practical public signal point for citywide alerts and Conjunction response.",
+      "Daily politics likely moves through the named section institutions rather than through faction headquarters.",
+      "The city’s civic magic expresses through Beast Bonding, Ancestor Guidance, Pack Instinct when visible in public spaces."
+    ],
+    "rejectedReads": [
+      "Shyrenveil as a generic fantasy settlement with the culture applied as ornament only.",
+      "Replacing exact section anchors with generic labels such as market, temple, tower, archive, or court when the sidecar provides a proper name.",
+      "Treating the Wonder, Beacon, or Seat of Power as interchangeable skyline props instead of civic machinery."
+    ],
+    "cautionFlags": [
+      "Do not add unsupported per-district landmark names beyond the source-backed section anchors.",
+      "Keep all 25 districts, but derive their specific identity from the five section spines unless new district-specific sidecars exist.",
+      "Preserve the material language: Fieldstone, Timber, Dark Wood, Red Fabric, Painted Plaster.",
+      "Preserve the terrain/water logic: Forest, Root Network, Old Growth Woodland; water context: dry city ground."
+    ]
+  },
+  "environment": {
+    "terrain": [
+      "Forest",
+      "Root Network",
+      "Old Growth Woodland",
+      "district plazas",
+      "civic approaches",
+      "pedestrian streets",
+      "section courts"
+    ],
+    "water": [
+      "dry forest ground",
+      "spring courts",
+      "mist veils",
+      "rain-fed basins",
+      "root-filtered pools"
+    ],
+    "vegetation": [
+      "old-growth canopy",
+      "root networks",
+      "sacred groves",
+      "living canopy halls",
+      "hanging gardens",
+      "mossy civic terraces"
+    ],
+    "climateLighting": [
+      "daylight",
+      "golden hour",
+      "lantern-lit evenings",
+      "civic blue illumination",
+      "Beast Bonding",
+      "Ancestor Guidance"
+    ],
+    "environmentalLogic": "Environment should make the city’s institutions readable: Nature Preserve / Sacred Grove, Religious / Temple Quarter, Public Works Authority, High Residential, Refugee Commons must feel embedded in Forest, Root Network, Old Growth Woodland, with water handled as dry city ground and public magic appearing as Beast Bonding, Ancestor Guidance, Pack Instinct."
+  },
+  "architecture": {
+    "materials": [
+      "Fieldstone",
+      "Timber",
+      "Dark Wood",
+      "Red Fabric",
+      "Painted Plaster"
+    ],
+    "forms": [
+      "civic terraces",
+      "public courts",
+      "audience terraces",
+      "sealed archives",
+      "command platforms",
+      "Nature Preserve / Sacred Grove Civic Hall",
+      "Religious / Temple Quarter Civic Hall",
+      "Public Works Authority Hall",
+      "High Residential Civic Hall",
+      "Refugee Commons Civic Hall",
+      "Sacred Grove Beacon",
+      "Temple Platform",
+      "Survey Hall",
+      "Manor Court",
+      "Aid Commons",
+      "Hanging Gardens Monument",
+      "Religious Temple Quarter Lantern Monument",
+      "Blue-Lamp Monument",
+      "Woven Banners Monument",
+      "Living Canopy Hall Nook",
+      "Procession Stair Nook",
+      "Permit Yard Nook",
+      "Salon Pavilion Nook",
+      "Ration Arcade Nook"
+    ],
+    "skyline": [
+      "Foxfire Mask-Lantern Pavilion of Hidden Paths dominates the far skyline and should be larger than every section landmark.",
+      "Wolf Tooth Borders Sovereign Registry Court anchors the central District 13 civic mass.",
+      "Sacred Grove Beacon is the section-1 signal landmark and must be readable from nearby districts.",
+      "Section skyline rhythm: Sacred Grove Beacon, Temple Platform, Survey Hall, Manor Court, Aid Commons."
+    ],
+    "lighting": [
+      "civic blue illumination",
+      "lantern light",
+      "golden-hour edge light",
+      "public beacon glow",
+      "Beast Bonding",
+      "Ancestor Guidance",
+      "Pack Instinct"
+    ],
+    "infrastructure": [
+      "Nature Preserve / Sacred Grove Civic Hall",
+      "Religious / Temple Quarter Civic Hall",
+      "Public Works Authority Hall",
+      "High Residential Civic Hall",
+      "Refugee Commons Civic Hall",
+      "Sacred Grove Beacon",
+      "Temple Platform",
+      "Survey Hall",
+      "Manor Court",
+      "Aid Commons",
+      "district streets",
+      "public approach stairs",
+      "notice plazas",
+      "archive thresholds",
+      "service yards"
+    ],
+    "motifs": [
+      "Foxfire",
+      "Mask",
+      "Lantern",
+      "Pavilion",
+      "Hidden",
+      "Paths",
+      "Wolf",
+      "Tooth",
+      "Borders",
+      "Sovereign",
+      "Registry",
+      "Court",
+      "Beast Bonding",
+      "Ancestor Guidance",
+      "Pack Instinct"
+    ],
+    "colorLanguage": [
+      "Dark Wood",
+      "Red Fabric"
+    ],
+    "textureLanguage": [
+      "Fieldstone",
+      "Timber",
+      "Dark Wood",
+      "Red Fabric",
+      "Painted Plaster",
+      "worn paving",
+      "public notice surfaces",
+      "worked civic thresholds",
+      "weathered landmark edges"
+    ]
+  },
+  "civilization": {
+    "people": "The population is fox-like beastfolk. Civic scenes should show them using the city’s architecture naturally: gathering near Sacred Grove Beacon, moving through Nature Preserve / Sacred Grove, Religious / Temple Quarter, Public Works Authority, and treating the named anchors as practical institutions.",
+    "occupations": [
+      "civic clerks",
+      "beacon wardens",
+      "archive keepers",
+      "market sellers",
+      "street repair crews",
+      "craft workers",
+      "messengers",
+      "guards",
+      "Nature Preserve / Sacred Grove staff",
+      "Religious / Temple Quarter staff",
+      "Public Works Authority staff",
+      "High Residential staff",
+      "Refugee Commons staff",
+      "sacred grove beacon attendants",
+      "temple platform attendants",
+      "survey hall attendants",
+      "manor court attendants",
+      "aid commons attendants"
+    ],
+    "socialClasses": [
+      "seat-of-power officials attached to Wolf Tooth Borders Sovereign Registry Court",
+      "section hall administrators and permit keepers",
+      "craft, market, transport, religious, or military guild households depending on district spine",
+      "street vendors, carriers, maintenance workers, and household service families",
+      "visitors and petitioners who navigate the city through public anchors"
+    ],
+    "governance": "Governance is centered on Wolf Tooth Borders Sovereign Registry Court and expressed locally through the five section civic halls. Authority should be visible in courts, archives, public signals, permits, and named monuments rather than hidden abstraction.",
+    "religion": "Religious and symbolic life should draw on Beast Bonding, Ancestor Guidance, Pack Instinct, the Wonder’s public symbolism, and whichever section anchors carry sacred or ceremonial roles.",
+    "customs": [
+      "citizens use named halls and nooks as practical meeting points",
+      "public signals from the Beacon interrupt ordinary commerce and movement",
+      "section monuments preserve civic memory and local identity",
+      "visitors orient themselves by Wonder, Beacon, Seat, and section major landmarks",
+      "formal petitions and judgments move toward District 13"
+    ],
+    "bodyLanguage": [
+      "citizens make room for official messengers near beacon approaches",
+      "locals gesture by landmark rather than by street name",
+      "public posture changes around courts, monuments, and halls",
+      "market or service workers keep one eye on signal points during tense periods"
+    ],
+    "speechPatterns": [
+      "directions reference exact named anchors",
+      "formal speech preserves civic titles",
+      "street speech abbreviates section landmarks but not Wonder, Beacon, or Seat names",
+      "public announcements use practical civic language rather than poetic vagueness"
+    ]
+  },
+  "urbanLife": {
+    "streets": {
+      "appearance": "Street views should show Fieldstone, Timber, Dark Wood, Red Fabric, Painted Plaster, civic terraces, public courts, audience terraces, sealed archives, command platforms, Nature Preserve / Sacred Grove Civic Hall, pedestrians using section halls, and sightlines back to Sacred Grove Beacon or Wolf Tooth Borders Sovereign Registry Court where appropriate.",
+      "movement": "Movement is organized by section spine: Nature Preserve / Sacred Grove, Religious / Temple Quarter, Public Works Authority, High Residential, Refugee Commons. Districts feed toward their civic hall, major landmark, monument, and minor nook before converging on District 13 for authority scenes.",
+      "sounds": [
+        "leaves underfoot",
+        "wooden chimes",
+        "processional steps",
+        "quiet aid queues",
+        "survey tools in forest paths",
+        "foxfolk murmurs"
+      ],
+      "smells": [
+        "wet bark",
+        "red fabric dye",
+        "moss",
+        "incense",
+        "timber smoke",
+        "forest loam"
+      ],
+      "lighting": "Use civic blue illumination for official signal moments, practical lantern light for night scenes, and material-specific highlights on Fieldstone, Timber, Dark Wood, Red Fabric.",
+      "weatherEffects": "Weather should reinforce terrain and water logic: Forest, Root Network, Old Growth Woodland; water context dry city ground.",
+      "dayCycle": "Mornings emphasize deliveries, hall openings, street maintenance, market preparation, and official notices; afternoons build toward hearings, training, guild work, or section-specific labor.",
+      "nightCycle": "Evenings compress around lanterns, food stalls, guarded thresholds, quieter civic errands, and beacon visibility against darker streets."
+    },
+    "shops": {
+      "common": [
+        "food stalls",
+        "repair counters",
+        "lantern sellers",
+        "permit copyists",
+        "market cloth stalls",
+        "tool vendors",
+        "nature preserve / sacred grove service stalls",
+        "religious / temple quarter service stalls",
+        "public works authority service stalls"
+      ],
+      "uncommon": [
+        "landmark souvenir makers",
+        "ritual supply counters",
+        "specialist surveyors",
+        "seal engravers",
+        "instrument repairers",
+        "sacred grove beacon adjunct shops",
+        "temple platform adjunct shops",
+        "survey hall adjunct shops"
+      ],
+      "prestigious": [
+        "Wolf Tooth Borders Sovereign Registry Court document ateliers",
+        "Foxfire Mask-Lantern Pavilion of Hidden Paths ceremonial suppliers",
+        "master craft houses",
+        "official seal workshops",
+        "elite household service halls"
+      ],
+      "exports": [
+        "finished civic craft",
+        "specialized tools",
+        "ritual goods",
+        "district textiles",
+        "trained specialists",
+        "Fieldstone",
+        "Timber",
+        "Dark Wood"
+      ],
+      "imports": [
+        "rare dyes",
+        "lamp oil",
+        "fine timber",
+        "metal fittings",
+        "grain stores",
+        "paper and ink"
+      ],
+      "streetFood": [
+        "forest mushroom skewers",
+        "berry cakes",
+        "smoked root stew",
+        "herbal tea",
+        "nut breads",
+        "aid-commons porridge"
+      ],
+      "services": [
+        "petition filing",
+        "district guidance",
+        "beacon notice posting",
+        "minor repairs",
+        "public messenger work",
+        "archive copying",
+        "nature preserve / sacred grove appointments",
+        "religious / temple quarter appointments"
+      ]
+    },
+    "housing": {
+      "wealthy": "Residences near Wolf Tooth Borders Sovereign Registry Court or high-status section courts use the best Fieldstone, Timber, Dark Wood, private terraces, and controlled views of civic landmarks.",
+      "middle": "Households cluster above shops and along civic streets, sharing courtyards, balconies, workrooms, and access to section halls.",
+      "poor": "Lower-status housing is practical, crowded, and close to service yards or labor streets, but still uses local motifs and public landmarks for orientation."
+    }
+  },
+  "districts": [
+    {
+      "districtNumber": 1,
+      "sectionNumber": 1,
+      "name": "D01 Nature Preserve / Sacred Grove Civic Approach",
+      "civicPurpose": "A civic approach district within Nature Preserve / Sacred Grove that supports Nature Preserve / Sacred Grove Civic Hall, Sacred Grove Beacon, and the surrounding section economy.",
+      "visualIdentity": "Use Fieldstone, Timber, Dark Wood, Red Fabric, section signage through Nature Preserve / Sacred Grove Civic Hall, Sacred Grove Beacon, Hanging Gardens Monument, Living Canopy Hall Nook, and terrain cues from Forest, Root Network, Old Growth Woodland. The district should read as part of Nature Preserve / Sacred Grove without becoming generic.",
+      "emotionalIdentity": "civic approach-oriented, local, practical, and tied to the section mood of Nature Preserve / Sacred Grove",
+      "gameplayAssetNeeds": [
+        "Nature Preserve / Sacred Grove Civic Hall",
+        "Sacred Grove Beacon",
+        "Hanging Gardens Monument",
+        "Living Canopy Hall Nook",
+        "Nature Preserve / Sacred Grove pedestrians",
+        "street props",
+        "section lighting",
+        "board-readable landmark silhouette"
+      ],
+      "narrativeUse": [
+        "street scenes in Nature Preserve / Sacred Grove",
+        "local business around Sacred Grove Beacon",
+        "district traversal",
+        "rumor exchange",
+        "small civic obstacle"
+      ],
+      "primaryLandmark": "Sacred Grove Beacon",
+      "minorLandmarks": [
+        "Nature Preserve / Sacred Grove Civic Hall",
+        "Hanging Gardens Monument",
+        "Living Canopy Hall Nook"
+      ]
+    },
+    {
+      "districtNumber": 2,
+      "sectionNumber": 1,
+      "name": "D02 Nature Preserve / Sacred Grove Landmark Court",
+      "civicPurpose": "A landmark court district within Nature Preserve / Sacred Grove that supports Nature Preserve / Sacred Grove Civic Hall, Sacred Grove Beacon, and the surrounding section economy.",
+      "visualIdentity": "Use Fieldstone, Timber, Dark Wood, Red Fabric, section signage through Nature Preserve / Sacred Grove Civic Hall, Sacred Grove Beacon, Hanging Gardens Monument, Living Canopy Hall Nook, and terrain cues from Forest, Root Network, Old Growth Woodland. The district should read as part of Nature Preserve / Sacred Grove without becoming generic.",
+      "emotionalIdentity": "landmark court-oriented, local, practical, and tied to the section mood of Nature Preserve / Sacred Grove",
+      "gameplayAssetNeeds": [
+        "Nature Preserve / Sacred Grove Civic Hall",
+        "Sacred Grove Beacon",
+        "Hanging Gardens Monument",
+        "Living Canopy Hall Nook",
+        "Nature Preserve / Sacred Grove pedestrians",
+        "street props",
+        "section lighting",
+        "board-readable landmark silhouette"
+      ],
+      "narrativeUse": [
+        "street scenes in Nature Preserve / Sacred Grove",
+        "local business around Sacred Grove Beacon",
+        "district traversal",
+        "rumor exchange",
+        "small civic obstacle"
+      ],
+      "primaryLandmark": "Sacred Grove Beacon",
+      "minorLandmarks": [
+        "Nature Preserve / Sacred Grove Civic Hall",
+        "Hanging Gardens Monument",
+        "Living Canopy Hall Nook"
+      ]
+    },
+    {
+      "districtNumber": 3,
+      "sectionNumber": 1,
+      "name": "D03 Nature Preserve / Sacred Grove Working Streets",
+      "civicPurpose": "A working streets district within Nature Preserve / Sacred Grove that supports Nature Preserve / Sacred Grove Civic Hall, Sacred Grove Beacon, and the surrounding section economy.",
+      "visualIdentity": "Use Fieldstone, Timber, Dark Wood, Red Fabric, section signage through Nature Preserve / Sacred Grove Civic Hall, Sacred Grove Beacon, Hanging Gardens Monument, Living Canopy Hall Nook, and terrain cues from Forest, Root Network, Old Growth Woodland. The district should read as part of Nature Preserve / Sacred Grove without becoming generic.",
+      "emotionalIdentity": "working streets-oriented, local, practical, and tied to the section mood of Nature Preserve / Sacred Grove",
+      "gameplayAssetNeeds": [
+        "Nature Preserve / Sacred Grove Civic Hall",
+        "Sacred Grove Beacon",
+        "Hanging Gardens Monument",
+        "Living Canopy Hall Nook",
+        "Nature Preserve / Sacred Grove pedestrians",
+        "street props",
+        "section lighting",
+        "board-readable landmark silhouette"
+      ],
+      "narrativeUse": [
+        "street scenes in Nature Preserve / Sacred Grove",
+        "local business around Sacred Grove Beacon",
+        "district traversal",
+        "rumor exchange",
+        "small civic obstacle"
+      ],
+      "primaryLandmark": "Sacred Grove Beacon",
+      "minorLandmarks": [
+        "Nature Preserve / Sacred Grove Civic Hall",
+        "Hanging Gardens Monument",
+        "Living Canopy Hall Nook"
+      ]
+    },
+    {
+      "districtNumber": 4,
+      "sectionNumber": 2,
+      "name": "D04 Religious / Temple Quarter Civic Approach",
+      "civicPurpose": "A civic approach district within Religious / Temple Quarter that supports Religious / Temple Quarter Civic Hall, Temple Platform, and the surrounding section economy.",
+      "visualIdentity": "Use Fieldstone, Timber, Dark Wood, Red Fabric, section signage through Religious / Temple Quarter Civic Hall, Temple Platform, Religious Temple Quarter Lantern Monument, Procession Stair Nook, and terrain cues from Forest, Root Network, Old Growth Woodland. The district should read as part of Religious / Temple Quarter without becoming generic.",
+      "emotionalIdentity": "civic approach-oriented, local, practical, and tied to the section mood of Religious / Temple Quarter",
+      "gameplayAssetNeeds": [
+        "Religious / Temple Quarter Civic Hall",
+        "Temple Platform",
+        "Religious Temple Quarter Lantern Monument",
+        "Procession Stair Nook",
+        "Religious / Temple Quarter pedestrians",
+        "street props",
+        "section lighting",
+        "board-readable landmark silhouette"
+      ],
+      "narrativeUse": [
+        "street scenes in Religious / Temple Quarter",
+        "local business around Temple Platform",
+        "district traversal",
+        "rumor exchange",
+        "small civic obstacle"
+      ],
+      "primaryLandmark": "Temple Platform",
+      "minorLandmarks": [
+        "Religious / Temple Quarter Civic Hall",
+        "Religious Temple Quarter Lantern Monument",
+        "Procession Stair Nook"
+      ]
+    },
+    {
+      "districtNumber": 5,
+      "sectionNumber": 2,
+      "name": "D05 Religious / Temple Quarter Landmark Court",
+      "civicPurpose": "A landmark court district within Religious / Temple Quarter that supports Religious / Temple Quarter Civic Hall, Temple Platform, and the surrounding section economy.",
+      "visualIdentity": "Use Fieldstone, Timber, Dark Wood, Red Fabric, section signage through Religious / Temple Quarter Civic Hall, Temple Platform, Religious Temple Quarter Lantern Monument, Procession Stair Nook, and terrain cues from Forest, Root Network, Old Growth Woodland. The district should read as part of Religious / Temple Quarter without becoming generic.",
+      "emotionalIdentity": "landmark court-oriented, local, practical, and tied to the section mood of Religious / Temple Quarter",
+      "gameplayAssetNeeds": [
+        "Religious / Temple Quarter Civic Hall",
+        "Temple Platform",
+        "Religious Temple Quarter Lantern Monument",
+        "Procession Stair Nook",
+        "Religious / Temple Quarter pedestrians",
+        "street props",
+        "section lighting",
+        "board-readable landmark silhouette"
+      ],
+      "narrativeUse": [
+        "street scenes in Religious / Temple Quarter",
+        "local business around Temple Platform",
+        "district traversal",
+        "rumor exchange",
+        "small civic obstacle"
+      ],
+      "primaryLandmark": "Temple Platform",
+      "minorLandmarks": [
+        "Religious / Temple Quarter Civic Hall",
+        "Religious Temple Quarter Lantern Monument",
+        "Procession Stair Nook"
+      ]
+    },
+    {
+      "districtNumber": 6,
+      "sectionNumber": 1,
+      "name": "D06 Nature Preserve / Sacred Grove Residential Edge",
+      "civicPurpose": "A residential edge district within Nature Preserve / Sacred Grove that supports Nature Preserve / Sacred Grove Civic Hall, Sacred Grove Beacon, and the surrounding section economy.",
+      "visualIdentity": "Use Fieldstone, Timber, Dark Wood, Red Fabric, section signage through Nature Preserve / Sacred Grove Civic Hall, Sacred Grove Beacon, Hanging Gardens Monument, Living Canopy Hall Nook, and terrain cues from Forest, Root Network, Old Growth Woodland. The district should read as part of Nature Preserve / Sacred Grove without becoming generic.",
+      "emotionalIdentity": "residential edge-oriented, local, practical, and tied to the section mood of Nature Preserve / Sacred Grove",
+      "gameplayAssetNeeds": [
+        "Nature Preserve / Sacred Grove Civic Hall",
+        "Sacred Grove Beacon",
+        "Hanging Gardens Monument",
+        "Living Canopy Hall Nook",
+        "Nature Preserve / Sacred Grove pedestrians",
+        "street props",
+        "section lighting",
+        "board-readable landmark silhouette"
+      ],
+      "narrativeUse": [
+        "street scenes in Nature Preserve / Sacred Grove",
+        "local business around Sacred Grove Beacon",
+        "district traversal",
+        "rumor exchange",
+        "small civic obstacle"
+      ],
+      "primaryLandmark": "Sacred Grove Beacon",
+      "minorLandmarks": [
+        "Nature Preserve / Sacred Grove Civic Hall",
+        "Hanging Gardens Monument",
+        "Living Canopy Hall Nook"
+      ]
+    },
+    {
+      "districtNumber": 7,
+      "sectionNumber": 1,
+      "name": "D07 Nature Preserve / Sacred Grove Service Yard",
+      "civicPurpose": "A service yard district within Nature Preserve / Sacred Grove that supports Nature Preserve / Sacred Grove Civic Hall, Sacred Grove Beacon, and the surrounding section economy.",
+      "visualIdentity": "Use Fieldstone, Timber, Dark Wood, Red Fabric, section signage through Nature Preserve / Sacred Grove Civic Hall, Sacred Grove Beacon, Hanging Gardens Monument, Living Canopy Hall Nook, and terrain cues from Forest, Root Network, Old Growth Woodland. The district should read as part of Nature Preserve / Sacred Grove without becoming generic.",
+      "emotionalIdentity": "service yard-oriented, local, practical, and tied to the section mood of Nature Preserve / Sacred Grove",
+      "gameplayAssetNeeds": [
+        "Nature Preserve / Sacred Grove Civic Hall",
+        "Sacred Grove Beacon",
+        "Hanging Gardens Monument",
+        "Living Canopy Hall Nook",
+        "Nature Preserve / Sacred Grove pedestrians",
+        "street props",
+        "section lighting",
+        "board-readable landmark silhouette"
+      ],
+      "narrativeUse": [
+        "street scenes in Nature Preserve / Sacred Grove",
+        "local business around Sacred Grove Beacon",
+        "district traversal",
+        "rumor exchange",
+        "small civic obstacle"
+      ],
+      "primaryLandmark": "Sacred Grove Beacon",
+      "minorLandmarks": [
+        "Nature Preserve / Sacred Grove Civic Hall",
+        "Hanging Gardens Monument",
+        "Living Canopy Hall Nook"
+      ]
+    },
+    {
+      "districtNumber": 8,
+      "sectionNumber": 3,
+      "name": "D08 Public Works Authority Civic Approach",
+      "civicPurpose": "A civic approach district within Public Works Authority that supports Public Works Authority Hall, Survey Hall, and the surrounding section economy.",
+      "visualIdentity": "Use Fieldstone, Timber, Dark Wood, Red Fabric, section signage through Public Works Authority Hall, Survey Hall, Blue-Lamp Monument, Permit Yard Nook, and terrain cues from Forest, Root Network, Old Growth Woodland. The district should read as part of Public Works Authority without becoming generic.",
+      "emotionalIdentity": "civic approach-oriented, local, practical, and tied to the section mood of Public Works Authority",
+      "gameplayAssetNeeds": [
+        "Public Works Authority Hall",
+        "Survey Hall",
+        "Blue-Lamp Monument",
+        "Permit Yard Nook",
+        "Public Works Authority pedestrians",
+        "street props",
+        "section lighting",
+        "board-readable landmark silhouette"
+      ],
+      "narrativeUse": [
+        "street scenes in Public Works Authority",
+        "local business around Survey Hall",
+        "district traversal",
+        "rumor exchange",
+        "small civic obstacle"
+      ],
+      "primaryLandmark": "Survey Hall",
+      "minorLandmarks": [
+        "Public Works Authority Hall",
+        "Blue-Lamp Monument",
+        "Permit Yard Nook"
+      ]
+    },
+    {
+      "districtNumber": 9,
+      "sectionNumber": 2,
+      "name": "D09 Religious / Temple Quarter Working Streets",
+      "civicPurpose": "A working streets district within Religious / Temple Quarter that supports Religious / Temple Quarter Civic Hall, Temple Platform, and the surrounding section economy.",
+      "visualIdentity": "Use Fieldstone, Timber, Dark Wood, Red Fabric, section signage through Religious / Temple Quarter Civic Hall, Temple Platform, Religious Temple Quarter Lantern Monument, Procession Stair Nook, and terrain cues from Forest, Root Network, Old Growth Woodland. The district should read as part of Religious / Temple Quarter without becoming generic.",
+      "emotionalIdentity": "working streets-oriented, local, practical, and tied to the section mood of Religious / Temple Quarter",
+      "gameplayAssetNeeds": [
+        "Religious / Temple Quarter Civic Hall",
+        "Temple Platform",
+        "Religious Temple Quarter Lantern Monument",
+        "Procession Stair Nook",
+        "Religious / Temple Quarter pedestrians",
+        "street props",
+        "section lighting",
+        "board-readable landmark silhouette"
+      ],
+      "narrativeUse": [
+        "street scenes in Religious / Temple Quarter",
+        "local business around Temple Platform",
+        "district traversal",
+        "rumor exchange",
+        "small civic obstacle"
+      ],
+      "primaryLandmark": "Temple Platform",
+      "minorLandmarks": [
+        "Religious / Temple Quarter Civic Hall",
+        "Religious Temple Quarter Lantern Monument",
+        "Procession Stair Nook"
+      ]
+    },
+    {
+      "districtNumber": 10,
+      "sectionNumber": 2,
+      "name": "D10 Religious / Temple Quarter Residential Edge",
+      "civicPurpose": "A residential edge district within Religious / Temple Quarter that supports Religious / Temple Quarter Civic Hall, Temple Platform, and the surrounding section economy.",
+      "visualIdentity": "Use Fieldstone, Timber, Dark Wood, Red Fabric, section signage through Religious / Temple Quarter Civic Hall, Temple Platform, Religious Temple Quarter Lantern Monument, Procession Stair Nook, and terrain cues from Forest, Root Network, Old Growth Woodland. The district should read as part of Religious / Temple Quarter without becoming generic.",
+      "emotionalIdentity": "residential edge-oriented, local, practical, and tied to the section mood of Religious / Temple Quarter",
+      "gameplayAssetNeeds": [
+        "Religious / Temple Quarter Civic Hall",
+        "Temple Platform",
+        "Religious Temple Quarter Lantern Monument",
+        "Procession Stair Nook",
+        "Religious / Temple Quarter pedestrians",
+        "street props",
+        "section lighting",
+        "board-readable landmark silhouette"
+      ],
+      "narrativeUse": [
+        "street scenes in Religious / Temple Quarter",
+        "local business around Temple Platform",
+        "district traversal",
+        "rumor exchange",
+        "small civic obstacle"
+      ],
+      "primaryLandmark": "Temple Platform",
+      "minorLandmarks": [
+        "Religious / Temple Quarter Civic Hall",
+        "Religious Temple Quarter Lantern Monument",
+        "Procession Stair Nook"
+      ]
+    },
+    {
+      "districtNumber": 11,
+      "sectionNumber": 4,
+      "name": "D11 High Residential Civic Approach",
+      "civicPurpose": "A civic approach district within High Residential that supports High Residential Civic Hall, Manor Court, and the surrounding section economy.",
+      "visualIdentity": "Use Fieldstone, Timber, Dark Wood, Red Fabric, section signage through High Residential Civic Hall, Manor Court, Hanging Gardens Monument, Salon Pavilion Nook, and terrain cues from Forest, Root Network, Old Growth Woodland. The district should read as part of High Residential without becoming generic.",
+      "emotionalIdentity": "civic approach-oriented, local, practical, and tied to the section mood of High Residential",
+      "gameplayAssetNeeds": [
+        "High Residential Civic Hall",
+        "Manor Court",
+        "Hanging Gardens Monument",
+        "Salon Pavilion Nook",
+        "High Residential pedestrians",
+        "street props",
+        "section lighting",
+        "board-readable landmark silhouette"
+      ],
+      "narrativeUse": [
+        "street scenes in High Residential",
+        "local business around Manor Court",
+        "district traversal",
+        "rumor exchange",
+        "small civic obstacle"
+      ],
+      "primaryLandmark": "Manor Court",
+      "minorLandmarks": [
+        "High Residential Civic Hall",
+        "Hanging Gardens Monument",
+        "Salon Pavilion Nook"
+      ]
+    },
+    {
+      "districtNumber": 12,
+      "sectionNumber": 3,
+      "name": "D12 Public Works Authority Landmark Court",
+      "civicPurpose": "A landmark court district within Public Works Authority that supports Public Works Authority Hall, Survey Hall, and the surrounding section economy.",
+      "visualIdentity": "Use Fieldstone, Timber, Dark Wood, Red Fabric, section signage through Public Works Authority Hall, Survey Hall, Blue-Lamp Monument, Permit Yard Nook, and terrain cues from Forest, Root Network, Old Growth Woodland. The district should read as part of Public Works Authority without becoming generic.",
+      "emotionalIdentity": "landmark court-oriented, local, practical, and tied to the section mood of Public Works Authority",
+      "gameplayAssetNeeds": [
+        "Public Works Authority Hall",
+        "Survey Hall",
+        "Blue-Lamp Monument",
+        "Permit Yard Nook",
+        "Public Works Authority pedestrians",
+        "street props",
+        "section lighting",
+        "board-readable landmark silhouette"
+      ],
+      "narrativeUse": [
+        "street scenes in Public Works Authority",
+        "local business around Survey Hall",
+        "district traversal",
+        "rumor exchange",
+        "small civic obstacle"
+      ],
+      "primaryLandmark": "Survey Hall",
+      "minorLandmarks": [
+        "Public Works Authority Hall",
+        "Blue-Lamp Monument",
+        "Permit Yard Nook"
+      ]
+    },
+    {
+      "districtNumber": 13,
+      "sectionNumber": 3,
+      "name": "D13 Wolf Tooth Borders Sovereign Registry Court",
+      "civicPurpose": "Central seat-of-power district where Wolf Tooth Borders Sovereign Registry Court concentrates courts, archives, command platforms, petitions, and city legitimacy.",
+      "visualIdentity": "Use Fieldstone, Timber, Dark Wood, Red Fabric, section signage through Public Works Authority Hall, Survey Hall, Blue-Lamp Monument, Permit Yard Nook, and terrain cues from Forest, Root Network, Old Growth Woodland. The district should read as part of Public Works Authority without becoming generic.",
+      "emotionalIdentity": "authoritative, tense, formal, and publicly consequential",
+      "gameplayAssetNeeds": [
+        "Wolf Tooth Borders Sovereign Registry Court",
+        "audience terraces",
+        "sealed archives",
+        "command platforms",
+        "petition queues"
+      ],
+      "narrativeUse": [
+        "central ruling scenes",
+        "public petitions",
+        "sealed records",
+        "political pressure",
+        "citywide legitimacy tests"
+      ],
+      "primaryLandmark": "Wolf Tooth Borders Sovereign Registry Court",
+      "minorLandmarks": [
+        "Public Works Authority Hall",
+        "Blue-Lamp Monument",
+        "Permit Yard Nook"
+      ]
+    },
+    {
+      "districtNumber": 14,
+      "sectionNumber": 3,
+      "name": "D14 Public Works Authority Residential Edge",
+      "civicPurpose": "A residential edge district within Public Works Authority that supports Public Works Authority Hall, Survey Hall, and the surrounding section economy.",
+      "visualIdentity": "Use Fieldstone, Timber, Dark Wood, Red Fabric, section signage through Public Works Authority Hall, Survey Hall, Blue-Lamp Monument, Permit Yard Nook, and terrain cues from Forest, Root Network, Old Growth Woodland. The district should read as part of Public Works Authority without becoming generic.",
+      "emotionalIdentity": "residential edge-oriented, local, practical, and tied to the section mood of Public Works Authority",
+      "gameplayAssetNeeds": [
+        "Public Works Authority Hall",
+        "Survey Hall",
+        "Blue-Lamp Monument",
+        "Permit Yard Nook",
+        "Public Works Authority pedestrians",
+        "street props",
+        "section lighting",
+        "board-readable landmark silhouette"
+      ],
+      "narrativeUse": [
+        "street scenes in Public Works Authority",
+        "local business around Survey Hall",
+        "district traversal",
+        "rumor exchange",
+        "small civic obstacle"
+      ],
+      "primaryLandmark": "Survey Hall",
+      "minorLandmarks": [
+        "Public Works Authority Hall",
+        "Blue-Lamp Monument",
+        "Permit Yard Nook"
+      ]
+    },
+    {
+      "districtNumber": 15,
+      "sectionNumber": 2,
+      "name": "D15 Religious / Temple Quarter Service Yard",
+      "civicPurpose": "A service yard district within Religious / Temple Quarter that supports Religious / Temple Quarter Civic Hall, Temple Platform, and the surrounding section economy.",
+      "visualIdentity": "Use Fieldstone, Timber, Dark Wood, Red Fabric, section signage through Religious / Temple Quarter Civic Hall, Temple Platform, Religious Temple Quarter Lantern Monument, Procession Stair Nook, and terrain cues from Forest, Root Network, Old Growth Woodland. The district should read as part of Religious / Temple Quarter without becoming generic.",
+      "emotionalIdentity": "service yard-oriented, local, practical, and tied to the section mood of Religious / Temple Quarter",
+      "gameplayAssetNeeds": [
+        "Religious / Temple Quarter Civic Hall",
+        "Temple Platform",
+        "Religious Temple Quarter Lantern Monument",
+        "Procession Stair Nook",
+        "Religious / Temple Quarter pedestrians",
+        "street props",
+        "section lighting",
+        "board-readable landmark silhouette"
+      ],
+      "narrativeUse": [
+        "street scenes in Religious / Temple Quarter",
+        "local business around Temple Platform",
+        "district traversal",
+        "rumor exchange",
+        "small civic obstacle"
+      ],
+      "primaryLandmark": "Temple Platform",
+      "minorLandmarks": [
+        "Religious / Temple Quarter Civic Hall",
+        "Religious Temple Quarter Lantern Monument",
+        "Procession Stair Nook"
+      ]
+    },
+    {
+      "districtNumber": 16,
+      "sectionNumber": 4,
+      "name": "D16 High Residential Landmark Court",
+      "civicPurpose": "A landmark court district within High Residential that supports High Residential Civic Hall, Manor Court, and the surrounding section economy.",
+      "visualIdentity": "Use Fieldstone, Timber, Dark Wood, Red Fabric, section signage through High Residential Civic Hall, Manor Court, Hanging Gardens Monument, Salon Pavilion Nook, and terrain cues from Forest, Root Network, Old Growth Woodland. The district should read as part of High Residential without becoming generic.",
+      "emotionalIdentity": "landmark court-oriented, local, practical, and tied to the section mood of High Residential",
+      "gameplayAssetNeeds": [
+        "High Residential Civic Hall",
+        "Manor Court",
+        "Hanging Gardens Monument",
+        "Salon Pavilion Nook",
+        "High Residential pedestrians",
+        "street props",
+        "section lighting",
+        "board-readable landmark silhouette"
+      ],
+      "narrativeUse": [
+        "street scenes in High Residential",
+        "local business around Manor Court",
+        "district traversal",
+        "rumor exchange",
+        "small civic obstacle"
+      ],
+      "primaryLandmark": "Manor Court",
+      "minorLandmarks": [
+        "High Residential Civic Hall",
+        "Hanging Gardens Monument",
+        "Salon Pavilion Nook"
+      ]
+    },
+    {
+      "districtNumber": 17,
+      "sectionNumber": 4,
+      "name": "D17 High Residential Working Streets",
+      "civicPurpose": "A working streets district within High Residential that supports High Residential Civic Hall, Manor Court, and the surrounding section economy.",
+      "visualIdentity": "Use Fieldstone, Timber, Dark Wood, Red Fabric, section signage through High Residential Civic Hall, Manor Court, Hanging Gardens Monument, Salon Pavilion Nook, and terrain cues from Forest, Root Network, Old Growth Woodland. The district should read as part of High Residential without becoming generic.",
+      "emotionalIdentity": "working streets-oriented, local, practical, and tied to the section mood of High Residential",
+      "gameplayAssetNeeds": [
+        "High Residential Civic Hall",
+        "Manor Court",
+        "Hanging Gardens Monument",
+        "Salon Pavilion Nook",
+        "High Residential pedestrians",
+        "street props",
+        "section lighting",
+        "board-readable landmark silhouette"
+      ],
+      "narrativeUse": [
+        "street scenes in High Residential",
+        "local business around Manor Court",
+        "district traversal",
+        "rumor exchange",
+        "small civic obstacle"
+      ],
+      "primaryLandmark": "Manor Court",
+      "minorLandmarks": [
+        "High Residential Civic Hall",
+        "Hanging Gardens Monument",
+        "Salon Pavilion Nook"
+      ]
+    },
+    {
+      "districtNumber": 18,
+      "sectionNumber": 3,
+      "name": "D18 Public Works Authority Service Yard",
+      "civicPurpose": "A service yard district within Public Works Authority that supports Public Works Authority Hall, Survey Hall, and the surrounding section economy.",
+      "visualIdentity": "Use Fieldstone, Timber, Dark Wood, Red Fabric, section signage through Public Works Authority Hall, Survey Hall, Blue-Lamp Monument, Permit Yard Nook, and terrain cues from Forest, Root Network, Old Growth Woodland. The district should read as part of Public Works Authority without becoming generic.",
+      "emotionalIdentity": "service yard-oriented, local, practical, and tied to the section mood of Public Works Authority",
+      "gameplayAssetNeeds": [
+        "Public Works Authority Hall",
+        "Survey Hall",
+        "Blue-Lamp Monument",
+        "Permit Yard Nook",
+        "Public Works Authority pedestrians",
+        "street props",
+        "section lighting",
+        "board-readable landmark silhouette"
+      ],
+      "narrativeUse": [
+        "street scenes in Public Works Authority",
+        "local business around Survey Hall",
+        "district traversal",
+        "rumor exchange",
+        "small civic obstacle"
+      ],
+      "primaryLandmark": "Survey Hall",
+      "minorLandmarks": [
+        "Public Works Authority Hall",
+        "Blue-Lamp Monument",
+        "Permit Yard Nook"
+      ]
+    },
+    {
+      "districtNumber": 19,
+      "sectionNumber": 5,
+      "name": "D19 Refugee Commons Civic Approach",
+      "civicPurpose": "A civic approach district within Refugee Commons that supports Refugee Commons Civic Hall, Aid Commons, and the surrounding section economy.",
+      "visualIdentity": "Use Fieldstone, Timber, Dark Wood, Red Fabric, section signage through Refugee Commons Civic Hall, Aid Commons, Woven Banners Monument, Ration Arcade Nook, and terrain cues from Forest, Root Network, Old Growth Woodland. The district should read as part of Refugee Commons without becoming generic.",
+      "emotionalIdentity": "civic approach-oriented, local, practical, and tied to the section mood of Refugee Commons",
+      "gameplayAssetNeeds": [
+        "Refugee Commons Civic Hall",
+        "Aid Commons",
+        "Woven Banners Monument",
+        "Ration Arcade Nook",
+        "Refugee Commons pedestrians",
+        "street props",
+        "section lighting",
+        "board-readable landmark silhouette"
+      ],
+      "narrativeUse": [
+        "street scenes in Refugee Commons",
+        "local business around Aid Commons",
+        "district traversal",
+        "rumor exchange",
+        "small civic obstacle"
+      ],
+      "primaryLandmark": "Aid Commons",
+      "minorLandmarks": [
+        "Refugee Commons Civic Hall",
+        "Woven Banners Monument",
+        "Ration Arcade Nook"
+      ]
+    },
+    {
+      "districtNumber": 20,
+      "sectionNumber": 5,
+      "name": "D20 Refugee Commons Landmark Court",
+      "civicPurpose": "A landmark court district within Refugee Commons that supports Refugee Commons Civic Hall, Aid Commons, and the surrounding section economy.",
+      "visualIdentity": "Use Fieldstone, Timber, Dark Wood, Red Fabric, section signage through Refugee Commons Civic Hall, Aid Commons, Woven Banners Monument, Ration Arcade Nook, and terrain cues from Forest, Root Network, Old Growth Woodland. The district should read as part of Refugee Commons without becoming generic.",
+      "emotionalIdentity": "landmark court-oriented, local, practical, and tied to the section mood of Refugee Commons",
+      "gameplayAssetNeeds": [
+        "Refugee Commons Civic Hall",
+        "Aid Commons",
+        "Woven Banners Monument",
+        "Ration Arcade Nook",
+        "Refugee Commons pedestrians",
+        "street props",
+        "section lighting",
+        "board-readable landmark silhouette"
+      ],
+      "narrativeUse": [
+        "street scenes in Refugee Commons",
+        "local business around Aid Commons",
+        "district traversal",
+        "rumor exchange",
+        "small civic obstacle"
+      ],
+      "primaryLandmark": "Aid Commons",
+      "minorLandmarks": [
+        "Refugee Commons Civic Hall",
+        "Woven Banners Monument",
+        "Ration Arcade Nook"
+      ]
+    },
+    {
+      "districtNumber": 21,
+      "sectionNumber": 4,
+      "name": "D21 High Residential Residential Edge",
+      "civicPurpose": "A residential edge district within High Residential that supports High Residential Civic Hall, Manor Court, and the surrounding section economy.",
+      "visualIdentity": "Use Fieldstone, Timber, Dark Wood, Red Fabric, section signage through High Residential Civic Hall, Manor Court, Hanging Gardens Monument, Salon Pavilion Nook, and terrain cues from Forest, Root Network, Old Growth Woodland. The district should read as part of High Residential without becoming generic.",
+      "emotionalIdentity": "residential edge-oriented, local, practical, and tied to the section mood of High Residential",
+      "gameplayAssetNeeds": [
+        "High Residential Civic Hall",
+        "Manor Court",
+        "Hanging Gardens Monument",
+        "Salon Pavilion Nook",
+        "High Residential pedestrians",
+        "street props",
+        "section lighting",
+        "board-readable landmark silhouette"
+      ],
+      "narrativeUse": [
+        "street scenes in High Residential",
+        "local business around Manor Court",
+        "district traversal",
+        "rumor exchange",
+        "small civic obstacle"
+      ],
+      "primaryLandmark": "Manor Court",
+      "minorLandmarks": [
+        "High Residential Civic Hall",
+        "Hanging Gardens Monument",
+        "Salon Pavilion Nook"
+      ]
+    },
+    {
+      "districtNumber": 22,
+      "sectionNumber": 4,
+      "name": "D22 High Residential Service Yard",
+      "civicPurpose": "A service yard district within High Residential that supports High Residential Civic Hall, Manor Court, and the surrounding section economy.",
+      "visualIdentity": "Use Fieldstone, Timber, Dark Wood, Red Fabric, section signage through High Residential Civic Hall, Manor Court, Hanging Gardens Monument, Salon Pavilion Nook, and terrain cues from Forest, Root Network, Old Growth Woodland. The district should read as part of High Residential without becoming generic.",
+      "emotionalIdentity": "service yard-oriented, local, practical, and tied to the section mood of High Residential",
+      "gameplayAssetNeeds": [
+        "High Residential Civic Hall",
+        "Manor Court",
+        "Hanging Gardens Monument",
+        "Salon Pavilion Nook",
+        "High Residential pedestrians",
+        "street props",
+        "section lighting",
+        "board-readable landmark silhouette"
+      ],
+      "narrativeUse": [
+        "street scenes in High Residential",
+        "local business around Manor Court",
+        "district traversal",
+        "rumor exchange",
+        "small civic obstacle"
+      ],
+      "primaryLandmark": "Manor Court",
+      "minorLandmarks": [
+        "High Residential Civic Hall",
+        "Hanging Gardens Monument",
+        "Salon Pavilion Nook"
+      ]
+    },
+    {
+      "districtNumber": 23,
+      "sectionNumber": 5,
+      "name": "D23 Refugee Commons Working Streets",
+      "civicPurpose": "A working streets district within Refugee Commons that supports Refugee Commons Civic Hall, Aid Commons, and the surrounding section economy.",
+      "visualIdentity": "Use Fieldstone, Timber, Dark Wood, Red Fabric, section signage through Refugee Commons Civic Hall, Aid Commons, Woven Banners Monument, Ration Arcade Nook, and terrain cues from Forest, Root Network, Old Growth Woodland. The district should read as part of Refugee Commons without becoming generic.",
+      "emotionalIdentity": "working streets-oriented, local, practical, and tied to the section mood of Refugee Commons",
+      "gameplayAssetNeeds": [
+        "Refugee Commons Civic Hall",
+        "Aid Commons",
+        "Woven Banners Monument",
+        "Ration Arcade Nook",
+        "Refugee Commons pedestrians",
+        "street props",
+        "section lighting",
+        "board-readable landmark silhouette"
+      ],
+      "narrativeUse": [
+        "street scenes in Refugee Commons",
+        "local business around Aid Commons",
+        "district traversal",
+        "rumor exchange",
+        "small civic obstacle"
+      ],
+      "primaryLandmark": "Aid Commons",
+      "minorLandmarks": [
+        "Refugee Commons Civic Hall",
+        "Woven Banners Monument",
+        "Ration Arcade Nook"
+      ]
+    },
+    {
+      "districtNumber": 24,
+      "sectionNumber": 5,
+      "name": "D24 Refugee Commons Residential Edge",
+      "civicPurpose": "A residential edge district within Refugee Commons that supports Refugee Commons Civic Hall, Aid Commons, and the surrounding section economy.",
+      "visualIdentity": "Use Fieldstone, Timber, Dark Wood, Red Fabric, section signage through Refugee Commons Civic Hall, Aid Commons, Woven Banners Monument, Ration Arcade Nook, and terrain cues from Forest, Root Network, Old Growth Woodland. The district should read as part of Refugee Commons without becoming generic.",
+      "emotionalIdentity": "residential edge-oriented, local, practical, and tied to the section mood of Refugee Commons",
+      "gameplayAssetNeeds": [
+        "Refugee Commons Civic Hall",
+        "Aid Commons",
+        "Woven Banners Monument",
+        "Ration Arcade Nook",
+        "Refugee Commons pedestrians",
+        "street props",
+        "section lighting",
+        "board-readable landmark silhouette"
+      ],
+      "narrativeUse": [
+        "street scenes in Refugee Commons",
+        "local business around Aid Commons",
+        "district traversal",
+        "rumor exchange",
+        "small civic obstacle"
+      ],
+      "primaryLandmark": "Aid Commons",
+      "minorLandmarks": [
+        "Refugee Commons Civic Hall",
+        "Woven Banners Monument",
+        "Ration Arcade Nook"
+      ]
+    },
+    {
+      "districtNumber": 25,
+      "sectionNumber": 5,
+      "name": "D25 Refugee Commons Service Yard",
+      "civicPurpose": "A service yard district within Refugee Commons that supports Refugee Commons Civic Hall, Aid Commons, and the surrounding section economy.",
+      "visualIdentity": "Use Fieldstone, Timber, Dark Wood, Red Fabric, section signage through Refugee Commons Civic Hall, Aid Commons, Woven Banners Monument, Ration Arcade Nook, and terrain cues from Forest, Root Network, Old Growth Woodland. The district should read as part of Refugee Commons without becoming generic.",
+      "emotionalIdentity": "service yard-oriented, local, practical, and tied to the section mood of Refugee Commons",
+      "gameplayAssetNeeds": [
+        "Refugee Commons Civic Hall",
+        "Aid Commons",
+        "Woven Banners Monument",
+        "Ration Arcade Nook",
+        "Refugee Commons pedestrians",
+        "street props",
+        "section lighting",
+        "board-readable landmark silhouette"
+      ],
+      "narrativeUse": [
+        "street scenes in Refugee Commons",
+        "local business around Aid Commons",
+        "district traversal",
+        "rumor exchange",
+        "small civic obstacle"
+      ],
+      "primaryLandmark": "Aid Commons",
+      "minorLandmarks": [
+        "Refugee Commons Civic Hall",
+        "Woven Banners Monument",
+        "Ration Arcade Nook"
+      ]
+    }
+  ],
+  "landmarks": {
+    "wonder": {
+      "name": "Foxfire Mask-Lantern Pavilion of Hidden Paths",
+      "symbolicRole": "The citywide symbol of fox-like beastfolk identity made public and monumental.",
+      "visualRole": "A one-per-city wonder: spectacular, unmistakable, and larger than every section landmark. It turns Shyrenveil's geography, race identity, material culture, and civic magic into one public symbol. Built for Shyrenveil's fox-like beastfolk population, it uses Fieldstone, Timber, Dark Wood, Red Fabric, Painted Plaster across Forest, Root Network, Old Growth Woodland; water context: dry city ground; magic expression: Bea",
+      "civicRole": "A unifying civic symbol larger than section landmarks; it gives Shyrenveil its skyline identity and public myth.",
+      "narrativeUse": [
+        "citywide reveal",
+        "arrival scene",
+        "public ceremony",
+        "moment of civic awe",
+        "orientation landmark"
+      ],
+      "assetUse": [
+        "map background skyline anchor",
+        "hero-view anchor",
+        "diorama distant silhouette",
+        "city identity marker"
+      ],
+      "sensoryIdentity": [
+        "monumental scale",
+        "public crowd noise",
+        "material gleam",
+        "leaves underfoot",
+        "wooden chimes",
+        "wet bark",
+        "red fabric dye"
+      ],
+      "storyHooks": [
+        "a public ceremony at the Wonder changes city mood",
+        "maintenance access reveals hidden civic routes",
+        "the Wonder becomes the reference point during a beacon state"
+      ]
+    },
+    "beacon": {
+      "name": "Sacred Grove Beacon",
+      "symbolicRole": "The public signal point where citywide warning becomes local action.",
+      "visualRole": "A largest local landmark in this section, subordinate only to the city wonder and citadel. It belongs to Section 1 (Nature Preserve / Sacred Grove) of Shyrenveil and should use Timber Longhouses, Reed Pavilions, Canopy Platforms, timber and stained glass materials, Hanging Gardens, Carved Totems, Mist Veils, and the fox-like beastfolk visual language. Design focus: animal tracks, sacred groves, tree platforms, spring",
+      "civicRole": "The Section 1 signal landmark; citizens watch it for alerts, public notices, and Conjunction response.",
+      "narrativeUse": [
+        "beacon color change",
+        "crowd reaction",
+        "evacuation or assembly",
+        "public misinformation",
+        "urgent messenger arrival"
+      ],
+      "assetUse": [
+        "Section 1 diorama centerpiece",
+        "city signal marker",
+        "beacon-state visual effect",
+        "map focal point"
+      ],
+      "sensoryIdentity": [
+        "blue glow",
+        "public hush at signal changes",
+        "stone plaza footsteps",
+        "leaves underfoot",
+        "wooden chimes",
+        "wet bark",
+        "red fabric dye"
+      ],
+      "storyHooks": [
+        "a signal is interpreted before officials arrive",
+        "crowds block the approach",
+        "the beacon reveals which district reacts first"
+      ]
+    },
+    "seatOfPower": {
+      "name": "Wolf Tooth Borders Sovereign Registry Court",
+      "symbolicRole": "Civic authority made visible through courts, archives, command platforms, and public legitimacy.",
+      "visualRole": "The district-13 seat of power: courts, audience terraces, sealed archives, command platforms, and the visible apparatus of government. It is not a faction HQ; it is the city's central civic authority. Built for Shyrenveil's fox-like beastfolk population, it uses Fieldstone, Timber, Dark Wood, Red Fabric, Painted Plaster across Forest, Root Network, Old Growth Woodland; water context: dry city ground; magic expression",
+      "civicRole": "District 13 authority center for petitions, archives, judgments, and city-scale decisions; not a faction headquarters.",
+      "narrativeUse": [
+        "ruling scene",
+        "sealed archive discovery",
+        "public petition",
+        "trial or judgment",
+        "authority under pressure"
+      ],
+      "assetUse": [
+        "central D13 map anchor",
+        "government diorama backdrop",
+        "authority iconography",
+        "petition scene set"
+      ],
+      "sensoryIdentity": [
+        "formal echoes",
+        "archive dust",
+        "official seals",
+        "guarded thresholds",
+        "leaves underfoot",
+        "wooden chimes",
+        "wet bark",
+        "red fabric dye"
+      ],
+      "storyHooks": [
+        "a sealed record contradicts public belief",
+        "a petition exposes citywide risk",
+        "command platforms become crowd-facing stages"
+      ]
+    },
+    "majorLandmarks": [
+      {
+        "name": "Nature Preserve / Sacred Grove Civic Hall",
+        "symbolicRole": "Section 1 civic center preserving the local identity of Nature Preserve / Sacred Grove.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing. It belongs to Section 1 (Nature Preserve / Sacred Grove) of Shyrenveil and should use Timber Longhouses, Reed Pavilions, Canopy Platforms, timber and stained glass materials, Hanging Gardens, Carved Totems, Mist Veils, and the fox-like beastfolk",
+        "civicRole": "Supports Nature Preserve / Sacred Grove as a playable and writable district spine rather than a generic neighborhood.",
+        "narrativeUse": [
+          "Nature Preserve / Sacred Grove scene anchor",
+          "local errand",
+          "public meeting point",
+          "district conflict",
+          "orientation clue"
+        ],
+        "assetUse": [
+          "Section 1 diorama asset",
+          "board-readable landmark",
+          "street-level focal prop",
+          "map district marker"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "worked materials",
+          "public voices",
+          "leaves underfoot",
+          "wooden chimes",
+          "wet bark",
+          "red fabric dye"
+        ],
+        "storyHooks": [
+          "an event at Nature Preserve / Sacred Grove Civic Hall reveals section priorities",
+          "locals use Nature Preserve / Sacred Grove Civic Hall as shorthand for the district",
+          "a small failure here cascades into a citywide problem"
+        ]
+      },
+      {
+        "name": "Hanging Gardens Monument",
+        "symbolicRole": "Section 1 monument preserving the local identity of Nature Preserve / Sacred Grove.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles. It belongs to Section 1 (Nature Preserve / Sacred Grove) of Shyrenveil and should use Timber Longhouses, Reed Pavilions, Canopy Platforms, timber and stained glass materials, Mist Veils, Hanging Gardens, Carved Totems, and the fox-like beastfol",
+        "civicRole": "Supports Nature Preserve / Sacred Grove as a playable and writable district spine rather than a generic neighborhood.",
+        "narrativeUse": [
+          "Nature Preserve / Sacred Grove scene anchor",
+          "local errand",
+          "public meeting point",
+          "district conflict",
+          "orientation clue"
+        ],
+        "assetUse": [
+          "Section 1 diorama asset",
+          "board-readable landmark",
+          "street-level focal prop",
+          "map district marker"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "worked materials",
+          "public voices",
+          "leaves underfoot",
+          "wooden chimes",
+          "wet bark",
+          "red fabric dye"
+        ],
+        "storyHooks": [
+          "an event at Hanging Gardens Monument reveals section priorities",
+          "locals use Hanging Gardens Monument as shorthand for the district",
+          "a small failure here cascades into a citywide problem"
+        ]
+      },
+      {
+        "name": "Living Canopy Hall Nook",
+        "symbolicRole": "Section 1 minor landmark preserving the local identity of Nature Preserve / Sacred Grove.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette. It belongs to Section 1 (Nature Preserve / Sacred Grove) of Shyrenveil and should use Canopy Platforms, Timber Longhouses, Reed Pavilions, timber and stained glass materials, Carved Totems, Mist Veils, Hanging Gardens, and the fox-like beastfolk visual language",
+        "civicRole": "Supports Nature Preserve / Sacred Grove as a playable and writable district spine rather than a generic neighborhood.",
+        "narrativeUse": [
+          "Nature Preserve / Sacred Grove scene anchor",
+          "local errand",
+          "public meeting point",
+          "district conflict",
+          "orientation clue"
+        ],
+        "assetUse": [
+          "Section 1 diorama asset",
+          "board-readable landmark",
+          "street-level focal prop",
+          "map district marker"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "worked materials",
+          "public voices",
+          "leaves underfoot",
+          "wooden chimes",
+          "wet bark",
+          "red fabric dye"
+        ],
+        "storyHooks": [
+          "an event at Living Canopy Hall Nook reveals section priorities",
+          "locals use Living Canopy Hall Nook as shorthand for the district",
+          "a small failure here cascades into a citywide problem"
+        ]
+      },
+      {
+        "name": "Religious / Temple Quarter Civic Hall",
+        "symbolicRole": "Section 2 civic center preserving the local identity of Religious / Temple Quarter.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing. It belongs to Section 2 (Religious / Temple Quarter) of Shyrenveil and should use Temple Platforms, Gothic Spires, Step Pyramids, timber and stained glass materials, Bone White Ceremony, Sun Disc Reliefs, Woven Banners, Lantern Lit, and the fox-l",
+        "civicRole": "Supports Religious / Temple Quarter as a playable and writable district spine rather than a generic neighborhood.",
+        "narrativeUse": [
+          "Religious / Temple Quarter scene anchor",
+          "local errand",
+          "public meeting point",
+          "district conflict",
+          "orientation clue"
+        ],
+        "assetUse": [
+          "Section 2 diorama asset",
+          "board-readable landmark",
+          "street-level focal prop",
+          "map district marker"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "worked materials",
+          "public voices",
+          "leaves underfoot",
+          "wooden chimes",
+          "wet bark",
+          "red fabric dye"
+        ],
+        "storyHooks": [
+          "an event at Religious / Temple Quarter Civic Hall reveals section priorities",
+          "locals use Religious / Temple Quarter Civic Hall as shorthand for the district",
+          "a small failure here cascades into a citywide problem"
+        ]
+      },
+      {
+        "name": "Temple Platform",
+        "symbolicRole": "Section 2 major landmark preserving the local identity of Religious / Temple Quarter.",
+        "visualRole": "A largest local landmark in this section, subordinate only to the city wonder and citadel. It belongs to Section 2 (Religious / Temple Quarter) of Shyrenveil and should use Step Pyramids, Temple Platforms, Gothic Spires, timber and stained glass materials, Bone White Ceremony, Sun Disc Reliefs, Woven Banners, Lantern Lit, and the fox-like beastfolk visual la",
+        "civicRole": "Supports Religious / Temple Quarter as a playable and writable district spine rather than a generic neighborhood.",
+        "narrativeUse": [
+          "Religious / Temple Quarter scene anchor",
+          "local errand",
+          "public meeting point",
+          "district conflict",
+          "orientation clue"
+        ],
+        "assetUse": [
+          "Section 2 diorama asset",
+          "board-readable landmark",
+          "street-level focal prop",
+          "map district marker"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "worked materials",
+          "public voices",
+          "leaves underfoot",
+          "wooden chimes",
+          "wet bark",
+          "red fabric dye"
+        ],
+        "storyHooks": [
+          "an event at Temple Platform reveals section priorities",
+          "locals use Temple Platform as shorthand for the district",
+          "a small failure here cascades into a citywide problem"
+        ]
+      },
+      {
+        "name": "Religious Temple Quarter Lantern Monument",
+        "symbolicRole": "Section 2 monument preserving the local identity of Religious / Temple Quarter.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles. It belongs to Section 2 (Religious / Temple Quarter) of Shyrenveil and should use Step Pyramids, Temple Platforms, Gothic Spires, timber and stained glass materials, Sun Disc Reliefs, Woven Banners, Lantern Lit, Bone White Ceremony, and the fox",
+        "civicRole": "Supports Religious / Temple Quarter as a playable and writable district spine rather than a generic neighborhood.",
+        "narrativeUse": [
+          "Religious / Temple Quarter scene anchor",
+          "local errand",
+          "public meeting point",
+          "district conflict",
+          "orientation clue"
+        ],
+        "assetUse": [
+          "Section 2 diorama asset",
+          "board-readable landmark",
+          "street-level focal prop",
+          "map district marker"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "worked materials",
+          "public voices",
+          "leaves underfoot",
+          "wooden chimes",
+          "wet bark",
+          "red fabric dye"
+        ],
+        "storyHooks": [
+          "an event at Religious Temple Quarter Lantern Monument reveals section priorities",
+          "locals use Religious Temple Quarter Lantern Monument as shorthand for the district",
+          "a small failure here cascades into a citywide problem"
+        ]
+      },
+      {
+        "name": "Procession Stair Nook",
+        "symbolicRole": "Section 2 minor landmark preserving the local identity of Religious / Temple Quarter.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette. It belongs to Section 2 (Religious / Temple Quarter) of Shyrenveil and should use Temple Platforms, Gothic Spires, Step Pyramids, timber and stained glass materials, Lantern Lit, Bone White Ceremony, Sun Disc Reliefs, Woven Banners, and the fox-like beastfolk v",
+        "civicRole": "Supports Religious / Temple Quarter as a playable and writable district spine rather than a generic neighborhood.",
+        "narrativeUse": [
+          "Religious / Temple Quarter scene anchor",
+          "local errand",
+          "public meeting point",
+          "district conflict",
+          "orientation clue"
+        ],
+        "assetUse": [
+          "Section 2 diorama asset",
+          "board-readable landmark",
+          "street-level focal prop",
+          "map district marker"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "worked materials",
+          "public voices",
+          "leaves underfoot",
+          "wooden chimes",
+          "wet bark",
+          "red fabric dye"
+        ],
+        "storyHooks": [
+          "an event at Procession Stair Nook reveals section priorities",
+          "locals use Procession Stair Nook as shorthand for the district",
+          "a small failure here cascades into a citywide problem"
+        ]
+      },
+      {
+        "name": "Public Works Authority Hall",
+        "symbolicRole": "Section 3 civic center preserving the local identity of Public Works Authority.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing. It belongs to Section 3 (Public Works Authority) of Shyrenveil and should use Forge Halls, Market Arcades, White Limestone Civic Blocks, timber and stained glass materials, Civic Blue Glow, Canal Reflections, Gold Seals, and the fox-like beastfol",
+        "civicRole": "Supports Public Works Authority as a playable and writable district spine rather than a generic neighborhood.",
+        "narrativeUse": [
+          "Public Works Authority scene anchor",
+          "local errand",
+          "public meeting point",
+          "district conflict",
+          "orientation clue"
+        ],
+        "assetUse": [
+          "Section 3 diorama asset",
+          "board-readable landmark",
+          "street-level focal prop",
+          "map district marker"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "worked materials",
+          "public voices",
+          "leaves underfoot",
+          "wooden chimes",
+          "wet bark",
+          "red fabric dye"
+        ],
+        "storyHooks": [
+          "an event at Public Works Authority Hall reveals section priorities",
+          "locals use Public Works Authority Hall as shorthand for the district",
+          "a small failure here cascades into a citywide problem"
+        ]
+      },
+      {
+        "name": "Survey Hall",
+        "symbolicRole": "Section 3 major landmark preserving the local identity of Public Works Authority.",
+        "visualRole": "A mandatory Section 3 Beacon: a culturally adapted civic signal flame / warning-light landmark visible across the city spine. It belongs to Section 3 (Public Works Authority) of Shyrenveil and should use White Limestone Civic Blocks, Forge Halls, Market Arcades, timber and stained glass materials, Civic Blue Glow, Canal Reflections, Gold Seals, and the fox-l",
+        "civicRole": "Supports Public Works Authority as a playable and writable district spine rather than a generic neighborhood.",
+        "narrativeUse": [
+          "Public Works Authority scene anchor",
+          "local errand",
+          "public meeting point",
+          "district conflict",
+          "orientation clue"
+        ],
+        "assetUse": [
+          "Section 3 diorama asset",
+          "board-readable landmark",
+          "street-level focal prop",
+          "map district marker"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "worked materials",
+          "public voices",
+          "leaves underfoot",
+          "wooden chimes",
+          "wet bark",
+          "red fabric dye"
+        ],
+        "storyHooks": [
+          "an event at Survey Hall reveals section priorities",
+          "locals use Survey Hall as shorthand for the district",
+          "a small failure here cascades into a citywide problem"
+        ]
+      },
+      {
+        "name": "Blue-Lamp Monument",
+        "symbolicRole": "Section 3 monument preserving the local identity of Public Works Authority.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles. It belongs to Section 3 (Public Works Authority) of Shyrenveil and should use White Limestone Civic Blocks, Forge Halls, Market Arcades, timber and stained glass materials, Canal Reflections, Gold Seals, Civic Blue Glow, and the fox-like beastf",
+        "civicRole": "Supports Public Works Authority as a playable and writable district spine rather than a generic neighborhood.",
+        "narrativeUse": [
+          "Public Works Authority scene anchor",
+          "local errand",
+          "public meeting point",
+          "district conflict",
+          "orientation clue"
+        ],
+        "assetUse": [
+          "Section 3 diorama asset",
+          "board-readable landmark",
+          "street-level focal prop",
+          "map district marker"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "worked materials",
+          "public voices",
+          "leaves underfoot",
+          "wooden chimes",
+          "wet bark",
+          "red fabric dye"
+        ],
+        "storyHooks": [
+          "an event at Blue-Lamp Monument reveals section priorities",
+          "locals use Blue-Lamp Monument as shorthand for the district",
+          "a small failure here cascades into a citywide problem"
+        ]
+      },
+      {
+        "name": "Permit Yard Nook",
+        "symbolicRole": "Section 3 minor landmark preserving the local identity of Public Works Authority.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette. It belongs to Section 3 (Public Works Authority) of Shyrenveil and should use Market Arcades, White Limestone Civic Blocks, Forge Halls, timber and stained glass materials, Canal Reflections, Gold Seals, Civic Blue Glow, and the fox-like beastfolk visual langua",
+        "civicRole": "Supports Public Works Authority as a playable and writable district spine rather than a generic neighborhood.",
+        "narrativeUse": [
+          "Public Works Authority scene anchor",
+          "local errand",
+          "public meeting point",
+          "district conflict",
+          "orientation clue"
+        ],
+        "assetUse": [
+          "Section 3 diorama asset",
+          "board-readable landmark",
+          "street-level focal prop",
+          "map district marker"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "worked materials",
+          "public voices",
+          "leaves underfoot",
+          "wooden chimes",
+          "wet bark",
+          "red fabric dye"
+        ],
+        "storyHooks": [
+          "an event at Permit Yard Nook reveals section priorities",
+          "locals use Permit Yard Nook as shorthand for the district",
+          "a small failure here cascades into a citywide problem"
+        ]
+      },
+      {
+        "name": "High Residential Civic Hall",
+        "symbolicRole": "Section 4 civic center preserving the local identity of High Residential.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing. It belongs to Section 4 (High Residential) of Shyrenveil and should use White Limestone Civic Blocks, Gothic Spires, Canopy Platforms, timber and stained glass materials, Red Fabric Awnings, Gold Seals, Hanging Gardens, and the fox-like beastfolk",
+        "civicRole": "Supports High Residential as a playable and writable district spine rather than a generic neighborhood.",
+        "narrativeUse": [
+          "High Residential scene anchor",
+          "local errand",
+          "public meeting point",
+          "district conflict",
+          "orientation clue"
+        ],
+        "assetUse": [
+          "Section 4 diorama asset",
+          "board-readable landmark",
+          "street-level focal prop",
+          "map district marker"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "worked materials",
+          "public voices",
+          "leaves underfoot",
+          "wooden chimes",
+          "wet bark",
+          "red fabric dye"
+        ],
+        "storyHooks": [
+          "an event at High Residential Civic Hall reveals section priorities",
+          "locals use High Residential Civic Hall as shorthand for the district",
+          "a small failure here cascades into a citywide problem"
+        ]
+      },
+      {
+        "name": "Manor Court",
+        "symbolicRole": "Section 4 major landmark preserving the local identity of High Residential.",
+        "visualRole": "A largest local landmark in this section, subordinate only to the city wonder and citadel. It belongs to Section 4 (High Residential) of Shyrenveil and should use White Limestone Civic Blocks, Gothic Spires, Canopy Platforms, timber and stained glass materials, Red Fabric Awnings, Gold Seals, Hanging Gardens, and the fox-like beastfolk visual language. Desig",
+        "civicRole": "Supports High Residential as a playable and writable district spine rather than a generic neighborhood.",
+        "narrativeUse": [
+          "High Residential scene anchor",
+          "local errand",
+          "public meeting point",
+          "district conflict",
+          "orientation clue"
+        ],
+        "assetUse": [
+          "Section 4 diorama asset",
+          "board-readable landmark",
+          "street-level focal prop",
+          "map district marker"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "worked materials",
+          "public voices",
+          "leaves underfoot",
+          "wooden chimes",
+          "wet bark",
+          "red fabric dye"
+        ],
+        "storyHooks": [
+          "an event at Manor Court reveals section priorities",
+          "locals use Manor Court as shorthand for the district",
+          "a small failure here cascades into a citywide problem"
+        ]
+      },
+      {
+        "name": "Hanging Gardens Monument",
+        "symbolicRole": "Section 4 monument preserving the local identity of High Residential.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles. It belongs to Section 4 (High Residential) of Shyrenveil and should use White Limestone Civic Blocks, Gothic Spires, Canopy Platforms, timber and stained glass materials, Red Fabric Awnings, Gold Seals, Hanging Gardens, and the fox-like beastfo",
+        "civicRole": "Supports High Residential as a playable and writable district spine rather than a generic neighborhood.",
+        "narrativeUse": [
+          "High Residential scene anchor",
+          "local errand",
+          "public meeting point",
+          "district conflict",
+          "orientation clue"
+        ],
+        "assetUse": [
+          "Section 4 diorama asset",
+          "board-readable landmark",
+          "street-level focal prop",
+          "map district marker"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "worked materials",
+          "public voices",
+          "leaves underfoot",
+          "wooden chimes",
+          "wet bark",
+          "red fabric dye"
+        ],
+        "storyHooks": [
+          "an event at Hanging Gardens Monument reveals section priorities",
+          "locals use Hanging Gardens Monument as shorthand for the district",
+          "a small failure here cascades into a citywide problem"
+        ]
+      },
+      {
+        "name": "Salon Pavilion Nook",
+        "symbolicRole": "Section 4 minor landmark preserving the local identity of High Residential.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette. It belongs to Section 4 (High Residential) of Shyrenveil and should use Gothic Spires, Canopy Platforms, White Limestone Civic Blocks, timber and stained glass materials, Hanging Gardens, Red Fabric Awnings, Gold Seals, and the fox-like beastfolk visual languag",
+        "civicRole": "Supports High Residential as a playable and writable district spine rather than a generic neighborhood.",
+        "narrativeUse": [
+          "High Residential scene anchor",
+          "local errand",
+          "public meeting point",
+          "district conflict",
+          "orientation clue"
+        ],
+        "assetUse": [
+          "Section 4 diorama asset",
+          "board-readable landmark",
+          "street-level focal prop",
+          "map district marker"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "worked materials",
+          "public voices",
+          "leaves underfoot",
+          "wooden chimes",
+          "wet bark",
+          "red fabric dye"
+        ],
+        "storyHooks": [
+          "an event at Salon Pavilion Nook reveals section priorities",
+          "locals use Salon Pavilion Nook as shorthand for the district",
+          "a small failure here cascades into a citywide problem"
+        ]
+      },
+      {
+        "name": "Refugee Commons Civic Hall",
+        "symbolicRole": "Section 5 civic center preserving the local identity of Refugee Commons.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing. It belongs to Section 5 (Refugee Commons) of Shyrenveil and should use Market Arcades, Timber Longhouses, Reed Pavilions, timber and stained glass materials, Woven Banners, Lantern Lit, Red Fabric Awnings, and the fox-like beastfolk visual langua",
+        "civicRole": "Supports Refugee Commons as a playable and writable district spine rather than a generic neighborhood.",
+        "narrativeUse": [
+          "Refugee Commons scene anchor",
+          "local errand",
+          "public meeting point",
+          "district conflict",
+          "orientation clue"
+        ],
+        "assetUse": [
+          "Section 5 diorama asset",
+          "board-readable landmark",
+          "street-level focal prop",
+          "map district marker"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "worked materials",
+          "public voices",
+          "leaves underfoot",
+          "wooden chimes",
+          "wet bark",
+          "red fabric dye"
+        ],
+        "storyHooks": [
+          "an event at Refugee Commons Civic Hall reveals section priorities",
+          "locals use Refugee Commons Civic Hall as shorthand for the district",
+          "a small failure here cascades into a citywide problem"
+        ]
+      },
+      {
+        "name": "Aid Commons",
+        "symbolicRole": "Section 5 major landmark preserving the local identity of Refugee Commons.",
+        "visualRole": "A largest local landmark in this section, subordinate only to the city wonder and citadel. It belongs to Section 5 (Refugee Commons) of Shyrenveil and should use Market Arcades, Timber Longhouses, Reed Pavilions, timber and stained glass materials, Lantern Lit, Red Fabric Awnings, Woven Banners, and the fox-like beastfolk visual language. Design focus: repai",
+        "civicRole": "Supports Refugee Commons as a playable and writable district spine rather than a generic neighborhood.",
+        "narrativeUse": [
+          "Refugee Commons scene anchor",
+          "local errand",
+          "public meeting point",
+          "district conflict",
+          "orientation clue"
+        ],
+        "assetUse": [
+          "Section 5 diorama asset",
+          "board-readable landmark",
+          "street-level focal prop",
+          "map district marker"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "worked materials",
+          "public voices",
+          "leaves underfoot",
+          "wooden chimes",
+          "wet bark",
+          "red fabric dye"
+        ],
+        "storyHooks": [
+          "an event at Aid Commons reveals section priorities",
+          "locals use Aid Commons as shorthand for the district",
+          "a small failure here cascades into a citywide problem"
+        ]
+      },
+      {
+        "name": "Woven Banners Monument",
+        "symbolicRole": "Section 5 monument preserving the local identity of Refugee Commons.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles. It belongs to Section 5 (Refugee Commons) of Shyrenveil and should use Market Arcades, Timber Longhouses, Reed Pavilions, timber and stained glass materials, Red Fabric Awnings, Woven Banners, Lantern Lit, and the fox-like beastfolk visual lang",
+        "civicRole": "Supports Refugee Commons as a playable and writable district spine rather than a generic neighborhood.",
+        "narrativeUse": [
+          "Refugee Commons scene anchor",
+          "local errand",
+          "public meeting point",
+          "district conflict",
+          "orientation clue"
+        ],
+        "assetUse": [
+          "Section 5 diorama asset",
+          "board-readable landmark",
+          "street-level focal prop",
+          "map district marker"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "worked materials",
+          "public voices",
+          "leaves underfoot",
+          "wooden chimes",
+          "wet bark",
+          "red fabric dye"
+        ],
+        "storyHooks": [
+          "an event at Woven Banners Monument reveals section priorities",
+          "locals use Woven Banners Monument as shorthand for the district",
+          "a small failure here cascades into a citywide problem"
+        ]
+      },
+      {
+        "name": "Ration Arcade Nook",
+        "symbolicRole": "Section 5 minor landmark preserving the local identity of Refugee Commons.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette. It belongs to Section 5 (Refugee Commons) of Shyrenveil and should use Timber Longhouses, Reed Pavilions, Market Arcades, timber and stained glass materials, Woven Banners, Lantern Lit, Red Fabric Awnings, and the fox-like beastfolk visual language. Design focu",
+        "civicRole": "Supports Refugee Commons as a playable and writable district spine rather than a generic neighborhood.",
+        "narrativeUse": [
+          "Refugee Commons scene anchor",
+          "local errand",
+          "public meeting point",
+          "district conflict",
+          "orientation clue"
+        ],
+        "assetUse": [
+          "Section 5 diorama asset",
+          "board-readable landmark",
+          "street-level focal prop",
+          "map district marker"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "worked materials",
+          "public voices",
+          "leaves underfoot",
+          "wooden chimes",
+          "wet bark",
+          "red fabric dye"
+        ],
+        "storyHooks": [
+          "an event at Ration Arcade Nook reveals section priorities",
+          "locals use Ration Arcade Nook as shorthand for the district",
+          "a small failure here cascades into a citywide problem"
+        ]
+      }
+    ]
+  },
+  "assetGuidance": {
+    "districtDioramaGuidance": [
+      "S1 / Nature Preserve / Sacred Grove must preserve Nature Preserve / Sacred Grove Civic Hall, Sacred Grove Beacon, Hanging Gardens Monument, and Living Canopy Hall Nook as the source-backed anchor cluster.",
+      "S2 / Religious / Temple Quarter must preserve Religious / Temple Quarter Civic Hall, Temple Platform, Religious Temple Quarter Lantern Monument, and Procession Stair Nook as the source-backed anchor cluster.",
+      "S3 / Public Works Authority must preserve Public Works Authority Hall, Survey Hall, Blue-Lamp Monument, and Permit Yard Nook as the source-backed anchor cluster.",
+      "S4 / High Residential must preserve High Residential Civic Hall, Manor Court, Hanging Gardens Monument, and Salon Pavilion Nook as the source-backed anchor cluster.",
+      "S5 / Refugee Commons must preserve Refugee Commons Civic Hall, Aid Commons, Woven Banners Monument, and Ration Arcade Nook as the source-backed anchor cluster."
+    ],
+    "mapBackgroundGuidance": [
+      "Show Shyrenveil as a fox-like beastfolk city using Fieldstone, Timber, Dark Wood, Red Fabric, Painted Plaster across Forest, Root Network, Old Growth Woodland.",
+      "Keep Foxfire Mask-Lantern Pavilion of Hidden Paths as the skyline-scale Wonder, Wolf Tooth Borders Sovereign Registry Court as central D13 authority, and Sacred Grove Beacon as the public signal landmark.",
+      "Use section landmark distribution to avoid flattening the city: Nature Preserve / Sacred Grove, Religious / Temple Quarter, Public Works Authority, High Residential, Refugee Commons.",
+      "Water and terrain must follow source context: dry city ground; Forest, Root Network, Old Growth Woodland."
+    ],
+    "requiredVisualElements": [
+      "fox-like beastfolk",
+      "Foxfire Mask-Lantern Pavilion of Hidden Paths",
+      "Sacred Grove Beacon",
+      "Wolf Tooth Borders Sovereign Registry Court",
+      "Fieldstone",
+      "Timber",
+      "Dark Wood",
+      "Red Fabric",
+      "Painted Plaster",
+      "Forest",
+      "Root Network",
+      "Old Growth Woodland",
+      "Beast Bonding",
+      "Ancestor Guidance",
+      "Pack Instinct",
+      "Nature Preserve / Sacred Grove Civic Hall",
+      "Religious / Temple Quarter Civic Hall",
+      "Public Works Authority Hall",
+      "High Residential Civic Hall",
+      "Refugee Commons Civic Hall",
+      "Temple Platform",
+      "Survey Hall",
+      "Manor Court",
+      "Aid Commons",
+      "Hanging Gardens Monument",
+      "Religious Temple Quarter Lantern Monument",
+      "Blue-Lamp Monument",
+      "Woven Banners Monument",
+      "Living Canopy Hall Nook",
+      "Procession Stair Nook",
+      "Permit Yard Nook",
+      "Salon Pavilion Nook",
+      "Ration Arcade Nook"
+    ],
+    "elementsToAvoid": [
+      "generic elf forest",
+      "cute fox village",
+      "incoherent maze with no civic order",
+      "comic trickster stereotypes",
+      "bare wilderness without institutions",
+      "invented district-specific landmarks not supported by sidecars",
+      "replacing proper anchor names with generic summaries",
+      "collapsing five section spines into one repeated street type"
+    ]
+  }
+}

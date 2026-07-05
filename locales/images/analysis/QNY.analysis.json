@@ -1,1 +1,1900 @@
-{"metadata":{"schemaVersion":"2.0","analysisVersion":2,"cityCode":"QNY","cityName":"Qinyue","analysisConfidence":"strong-lock"},"sourceModel":"5 section sidecars; 25 board district slots inherit section anchors.","boardStructure":{"model":"25-seat map","seatOfPowerDistrict":"D13","sections":[{"sectionNumber":1,"districts":["D01","D02","D03","D06","D07"]},{"sectionNumber":2,"districts":["D04","D05","D09","D10","D15"]},{"sectionNumber":3,"districts":["D08","D12","D13","D14","D18"]},{"sectionNumber":4,"districts":["D11","D16","D17","D21","D22"]},{"sectionNumber":5,"districts":["D19","D20","D23","D24","D25"]}],"note":"Each section contains five district slots. This analysis keeps all 25 slots explicit while preserving only source-backed section-level landmark names."},"sections":[{"n":1,"name":"Canal / Riverworks"},{"n":2,"name":"Granary / Food Market"},{"n":3,"name":"Records / Archives"},{"n":4,"name":"Medical / Healing"},{"n":5,"name":"Artisan Guilds"}],"districts":["D01","D02","D03","D04","D05","D06","D07","D08","D09","D10","D11","D12","D13","D14","D15","D16","D17","D18","D19","D20","D21","D22","D23","D24","D25"],"landmarks":{"wonder":"Jade Dragon Moon-Gate of the Eastern River","beacon":"Lock House Beacon","seatOfPower":"Moon Gate Arches Sovereign Registry Court"}}
+{
+  "metadata": {
+    "schemaVersion": "2.0",
+    "analysisVersion": 2,
+    "cityCode": "QNY",
+    "cityName": "Qinyue",
+    "analysisDate": "2026-07-05",
+    "analystVersion": "gpt-5.5-thinking",
+    "analysisConfidence": "strong-lock",
+    "sourceStatus": "full",
+    "districtModel": "five sections; five district slots per section; D13 is the seat of power",
+    "missingStreetSections": [],
+    "basedOnImages": [
+      "QNY-HERO-NE-v001",
+      "QNY-HERO-NW-v001",
+      "QNY-HERO-SE-v001",
+      "QNY-HERO-SW-v001",
+      "QNY-STREET-S1-v001",
+      "QNY-STREET-S2-v001",
+      "QNY-STREET-S3-v001",
+      "QNY-STREET-S4-v001",
+      "QNY-STREET-S5-v001"
+    ],
+    "basedOnSidecars": [
+      "QNY-HERO-NE-v001.json",
+      "QNY-HERO-NW-v001.json",
+      "QNY-HERO-SE-v001.json",
+      "QNY-HERO-SW-v001.json",
+      "QNY-STREET-S1-v001.json",
+      "QNY-STREET-S2-v001.json",
+      "QNY-STREET-S3-v001.json",
+      "QNY-STREET-S4-v001.json",
+      "QNY-STREET-S5-v001.json"
+    ]
+  },
+  "cityDNA": {
+    "coreFantasy": "A East Asian (Japanese) city where Jade Dragon Moon-Gate of the Eastern River, Lock House Beacon, Moon Gate Arches Sovereign Registry Court, and the five-section district spine turn local identity into functional civic space.",
+    "primaryEmotion": "source-backed civic presence",
+    "secondaryEmotion": "lived-in pressure beneath landmark order",
+    "readerTakeaway": "Qinyue should feel immediately identifiable through exact landmarks and materials, not through generic fantasy-city shorthand.",
+    "civilizationThesis": "Qinyue organizes power through Moon Gate Arches Sovereign Registry Court, public response through Lock House Beacon, civic memory through Jade Dragon Moon-Gate of the Eastern River, and daily life through S1 Canal / Riverworks Civic Hall, S2 Granary / Food Market Civic Hall, S3 Records / Archives Hall, S4 Medical / Healing Civic Hall, S5 Artisan Guilds Civic Hall.",
+    "visualIdentity": "Stone, Timber, Iron, Porcelain Tile, Red Lacquer, Riverside, Floodplain, Canal Basin, Civic Blue Illumination, Oath Seals, Ritual Geometry, and exact anchors including Moon Gate Arches Sovereign Registry Court, Lock House Beacon, Jade Dragon Moon-Gate of the Eastern River, Guildhall, Grain Hall, Healing Hall, Canal / Riverworks Civic Hall, Canal Reflections Monument, Waterwheel Court Nook, Granary / Food Market Civic Hall.",
+    "culturalIdentity": "A East Asian (Japanese) civic culture where architecture, public obligations, roads, landmark approaches, and everyday work must all read as part of the same civilization.",
+    "symbolicIdentity": "The city symbol system is built from exact names and visible functions: Jade Dragon Moon-Gate of the Eastern River, Lock House Beacon, Moon Gate Arches Sovereign Registry Court, and section anchors such as Canal / Riverworks Civic Hall, Granary / Food Market Civic Hall, Records / Archives Hall, Medical / Healing Civic Hall, Artisan Guilds Civic Hall."
+  },
+  "canon": {
+    "canonLocks": [
+      "Qinyue uses city code QNY.",
+      "The Wonder is Jade Dragon Moon-Gate of the Eastern River.",
+      "The Beacon is Lock House Beacon.",
+      "The Seat of Power is Moon Gate Arches Sovereign Registry Court and occupies District 13.",
+      "The city uses five sections with five tactical district slots per section.",
+      "The source-backed section spine is: S1 Canal / Riverworks Civic Hall, S2 Granary / Food Market Civic Hall, S3 Records / Archives Hall, S4 Medical / Healing Civic Hall, S5 Artisan Guilds Civic Hall.",
+      "Preserve exact anchor name: Moon Gate Arches Sovereign Registry Court.",
+      "Preserve exact anchor name: Lock House Beacon.",
+      "Preserve exact anchor name: Jade Dragon Moon-Gate of the Eastern River.",
+      "Preserve exact anchor name: Guildhall.",
+      "Preserve exact anchor name: Grain Hall.",
+      "Preserve exact anchor name: Healing Hall.",
+      "Preserve exact anchor name: Canal / Riverworks Civic Hall.",
+      "Preserve exact anchor name: Canal Reflections Monument.",
+      "Preserve exact anchor name: Waterwheel Court Nook.",
+      "Preserve exact anchor name: Granary / Food Market Civic Hall.",
+      "Preserve exact anchor name: Awning Monument.",
+      "Preserve exact anchor name: Mill Court Nook.",
+      "Preserve exact anchor name: Records / Archives Hall.",
+      "Preserve exact anchor name: Archive Tower.",
+      "Preserve exact anchor name: Records Archives Gold-Seal Monument.",
+      "Preserve exact anchor name: Copyist Hall Nook.",
+      "Preserve exact anchor name: Medical / Healing Civic Hall.",
+      "Preserve exact anchor name: Medical Healing Lantern Monument.",
+      "Preserve exact anchor name: Apothecary Court Nook.",
+      "Preserve exact anchor name: Artisan Guilds Civic Hall.",
+      "Preserve exact anchor name: Woven Banners Monument.",
+      "Preserve exact anchor name: Masterwork Arcade Nook."
+    ],
+    "provisionalCanon": [],
+    "rejectedReads": [
+      "Do not treat Qinyue as a generic fantasy settlement with renamed landmarks.",
+      "Do not collapse the five-section board into a single mood or single district.",
+      "Do not replace exact anchor names with generic summaries.",
+      "Do not invent missing street-section landmarks when a street source is absent."
+    ],
+    "cautionFlags": [
+      "Keep every named Wonder, Beacon, Seat, section civic hall, major landmark, monument, and minor nook exact when present in sidecars.",
+      "If an image appears to deviate from a sidecar, preserve the exact name but avoid overclaiming visual details not supported by the source package.",
+      "Every district asset should remain usable for narrative scenes, tactical board dioramas, and city map backgrounds."
+    ]
+  },
+  "environment": {
+    "terrain": [
+      "Riverside",
+      "Floodplain",
+      "Canal Basin"
+    ],
+    "water": [
+      "River"
+    ],
+    "vegetation": [
+      "courtyard trees",
+      "balcony planters",
+      "public greenery where visible",
+      "source-backed local vegetation only"
+    ],
+    "climateLighting": [
+      "Civic Blue Illumination",
+      "Oath Seals",
+      "Ritual Geometry",
+      "daylight",
+      "golden hour",
+      "lantern light",
+      "civic beacon glow"
+    ],
+    "environmentalLogic": "The environment should make Qinyue's exact civic anchors plausible at street scale: terrain routes people toward section landmarks, lighting clarifies public authority, and water or landscape features remain source-backed rather than decorative filler."
+  },
+  "architecture": {
+    "materials": [
+      "Stone",
+      "Timber",
+      "Iron",
+      "Porcelain Tile",
+      "Red Lacquer"
+    ],
+    "forms": [
+      "Moon Gate Arches Sovereign Registry Court",
+      "Lock House Beacon",
+      "Jade Dragon Moon-Gate of the Eastern River",
+      "Guildhall",
+      "Grain Hall",
+      "Healing Hall",
+      "Canal / Riverworks Civic Hall",
+      "Canal Reflections Monument",
+      "Waterwheel Court Nook",
+      "Granary / Food Market Civic Hall",
+      "Awning Monument",
+      "Mill Court Nook",
+      "Records / Archives Hall",
+      "Archive Tower",
+      "Records Archives Gold-Seal Monument",
+      "Copyist Hall Nook",
+      "Medical / Healing Civic Hall",
+      "Medical Healing Lantern Monument",
+      "Apothecary Court Nook",
+      "Artisan Guilds Civic Hall",
+      "Woven Banners Monument",
+      "Masterwork Arcade Nook",
+      "section civic halls",
+      "major landmark approaches",
+      "monument frontages",
+      "minor landmark nooks",
+      "district roads and plazas",
+      "D13 authority complex"
+    ],
+    "skyline": [
+      "Jade Dragon Moon-Gate of the Eastern River",
+      "Moon Gate Arches Sovereign Registry Court",
+      "Lock House Beacon",
+      "Guildhall",
+      "Grain Hall",
+      "Healing Hall",
+      "Canal / Riverworks Civic Hall",
+      "Canal Reflections Monument",
+      "Waterwheel Court Nook"
+    ],
+    "lighting": [
+      "Civic Blue Illumination",
+      "Oath Seals",
+      "Ritual Geometry",
+      "beacon-state light",
+      "lantern-lit civic paths",
+      "street-level shop and housing light"
+    ],
+    "infrastructure": [
+      "Canal / Riverworks Civic Hall",
+      "Granary / Food Market Civic Hall",
+      "Records / Archives Hall",
+      "Medical / Healing Civic Hall",
+      "Artisan Guilds Civic Hall",
+      "roads between district slots",
+      "public thresholds",
+      "plaza edges",
+      "records, permits, markets, services, or rituals implied by anchors"
+    ],
+    "motifs": [
+      "Moon",
+      "Gate",
+      "Arches",
+      "Sovereign",
+      "Registry",
+      "Court",
+      "Lock",
+      "House",
+      "Beacon",
+      "Jade",
+      "Dragon",
+      "Moon-Gate",
+      "Eastern",
+      "River",
+      "Guildhall",
+      "Grain"
+    ],
+    "colorLanguage": [
+      "source-backed material colors",
+      "civic blue signal accents",
+      "local textile, stone, metal, vegetation, or water colors from the image package"
+    ],
+    "textureLanguage": [
+      "Stone",
+      "Timber",
+      "Iron",
+      "Porcelain Tile",
+      "Red Lacquer",
+      "worn pedestrian surfaces",
+      "worked civic ornament",
+      "weathered public thresholds",
+      "lived-in shop and housing details"
+    ]
+  },
+  "civilization": {
+    "people": "The population should read as East Asian (Japanese) and city-specific: citizens occupy streets, shops, public thresholds, and landmark approaches as people who understand the local civic order.",
+    "occupations": [
+      "watch guards",
+      "gate officers",
+      "dock workers",
+      "water engineers",
+      "market sellers",
+      "stall keepers",
+      "granary keepers",
+      "field workers",
+      "archivists",
+      "record clerks",
+      "district clerks",
+      "craft families",
+      "porters",
+      "maintenance workers",
+      "food sellers",
+      "messengers"
+    ],
+    "socialClasses": [
+      "D13 officials and court staff",
+      "section landmark custodians",
+      "guild and service families",
+      "shopkeepers and artisans",
+      "laborers, carriers, messengers, and maintenance crews",
+      "households tied to local district obligations"
+    ],
+    "governance": "Government is centered on Moon Gate Arches Sovereign Registry Court. Its authority should be visible through courts, records, public access routes, civic lamps, guards or attendants, and the way citizens respond to D13.",
+    "religion": "Religious or ritual life should only be emphasized where source anchors support it, especially names such as none explicitly dominant in the current anchors.",
+    "customs": [
+      "citizens orient public life around Canal / Riverworks Civic Hall in Section 1",
+      "citizens orient public life around Granary / Food Market Civic Hall in Section 2",
+      "citizens orient public life around Records / Archives Hall in Section 3",
+      "citizens orient public life around Medical / Healing Civic Hall in Section 4",
+      "citizens orient public life around Artisan Guilds Civic Hall in Section 5",
+      "beacon changes become public behavior, not background color",
+      "exact landmark names carry social memory and directions",
+      "civic errands happen visibly at thresholds, queues, ledgers, stalls, courts, or shrines"
+    ],
+    "bodyLanguage": [
+      "citizens pause at civic signals",
+      "workers move with practiced familiarity around district anchors",
+      "officials use thresholds and raised places to control attention",
+      "residents treat named landmarks as everyday orientation points"
+    ],
+    "speechPatterns": [
+      "directions use exact landmark names",
+      "public notices are tied to section anchors",
+      "local speech distinguishes civic authority, ordinary errands, and landmark obligations",
+      "people refer to D13 as the seat of power rather than a faction headquarters"
+    ]
+  },
+  "urbanLife": {
+    "streets": {
+      "appearance": "Streets should show Qinyue's exact anchor system at pedestrian scale: S1 Canal / Riverworks Civic Hall, S2 Granary / Food Market Civic Hall, S3 Records / Archives Hall, S4 Medical / Healing Civic Hall, S5 Artisan Guilds Civic Hall. Keep roads, plazas, stairs, thresholds, lamps, signs-without-readable-text, props, and civilians aligned to the source-backed materials and landmarks.",
+      "movement": "Movement should be readable for tactical-board assets: citizens pass between 25 district slots, section anchors, D13, service streets, and landmark approaches without visual clutter hiding the civic purpose.",
+      "sounds": [
+        "foot traffic",
+        "vendors and service calls",
+        "tools and carts",
+        "public notices",
+        "landmark-specific sounds from water, bells, animals, machines, or crowds when source-backed",
+        "beacon-state crowd reactions"
+      ],
+      "smells": [
+        "street food",
+        "worked material dust",
+        "lamp oil or smoke",
+        "vegetation or water where source-backed",
+        "worn stone, timber, metal, plaster, or fabric"
+      ],
+      "lighting": "Use the package's source-backed civic lighting, daylight/golden-hour reads, lanterns, and beacon glow. Lighting must help identify authority, safety, and landmark function.",
+      "weatherEffects": "Weather should reinforce the local terrain and materials without overwhelming the city identity or inventing unsupported climate extremes.",
+      "dayCycle": "Day scenes emphasize errands, trade, records, repairs, rituals, food, and section-level movement.",
+      "nightCycle": "Night scenes emphasize lantern routes, closed thresholds, guarded landmarks, quiet work, and beacon visibility."
+    },
+    "shops": {
+      "common": [
+        "food stalls",
+        "repair stalls",
+        "material vendors",
+        "ledger or permit desks",
+        "local craft counters",
+        "street services tied to section anchors"
+      ],
+      "uncommon": [
+        "specialist landmark caretakers",
+        "instrument makers",
+        "ritual suppliers",
+        "map or record copyists",
+        "district-specific guild services"
+      ],
+      "prestigious": [
+        "D13-facing legal or registry services",
+        "elite craft workshops",
+        "landmark commission houses",
+        "official suppliers for civic ceremonies"
+      ],
+      "exports": [
+        "local crafts",
+        "records or seals",
+        "finished materials",
+        "food goods",
+        "specialized tools or ritual goods as supported by anchors"
+      ],
+      "imports": [
+        "rare materials",
+        "dyes, oils, spices, timber, stone, metal, glass, or cloth as needed by the architecture",
+        "outside records and trade goods"
+      ],
+      "streetFood": [
+        "flatbread or local bread",
+        "stew or grilled skewers",
+        "fruit or preserved food",
+        "tea or civic-square drinks",
+        "portable worker meals"
+      ],
+      "services": [
+        "directions by landmark",
+        "message running",
+        "permit help",
+        "repairs",
+        "food service",
+        "transport or porterage",
+        "public notice posting"
+      ]
+    },
+    "housing": {
+      "wealthy": "Prestige housing clusters near Moon Gate Arches Sovereign Registry Court, high terraces, or landmark-facing routes, using the best source-backed materials and controlled views of civic space.",
+      "middle": "Shop-over-house units, courtyard homes, guild-adjacent apartments, and family rooms near section anchors.",
+      "poor": "Smaller back-street rooms, work-adjacent housing, shared courtyards, service alleys, patched materials, and dense but still city-specific lived-in detail."
+    }
+  },
+  "districts": [
+    {
+      "districtNumber": 1,
+      "districtId": "D01",
+      "sectionNumber": 1,
+      "name": "D01 — Canal / Riverworks Civic Hall Civic-Anchor Precinct",
+      "civicPurpose": "This district turns Section 1's source-backed anchor set into a board-scale civic space: Canal / Riverworks Civic Hall, Lock House Beacon, Canal Reflections Monument, Waterwheel Court Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Qinyue.",
+      "visualIdentity": "Use Canal / Riverworks Civic Hall as the main read. Keep exact source anchors visible where applicable: Canal / Riverworks Civic Hall, Lock House Beacon, Canal Reflections Monument, Waterwheel Court Nook. The district should share Qinyue's East Asian (Japanese) identity, Stone, Timber, Iron, Porcelain Tile, and Riverside, Floodplain, Canal Basin without becoming generic.",
+      "emotionalIdentity": "Locally grounded, with Qinyue's larger mood shaped by Jade Dragon Moon-Gate of the Eastern River, Lock House Beacon, and Moon Gate Arches Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Canal / Riverworks Civic Hall",
+        "Lock House Beacon",
+        "Canal Reflections Monument",
+        "Waterwheel Court Nook",
+        "Section 1 pedestrian-scale props",
+        "Qinyue civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Canal / Riverworks Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Canal / Riverworks Civic Hall",
+      "minorLandmarks": [
+        "Lock House Beacon",
+        "Canal Reflections Monument",
+        "Waterwheel Court Nook"
+      ]
+    },
+    {
+      "districtNumber": 2,
+      "districtId": "D02",
+      "sectionNumber": 1,
+      "name": "D02 — Lock House Beacon Landmark Approach",
+      "civicPurpose": "This district turns Section 1's source-backed anchor set into a board-scale civic space: Canal / Riverworks Civic Hall, Lock House Beacon, Canal Reflections Monument, Waterwheel Court Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Qinyue.",
+      "visualIdentity": "Use Lock House Beacon as the main read. Keep exact source anchors visible where applicable: Canal / Riverworks Civic Hall, Lock House Beacon, Canal Reflections Monument, Waterwheel Court Nook. The district should share Qinyue's East Asian (Japanese) identity, Stone, Timber, Iron, Porcelain Tile, and Riverside, Floodplain, Canal Basin without becoming generic.",
+      "emotionalIdentity": "Public-facing, with Qinyue's larger mood shaped by Jade Dragon Moon-Gate of the Eastern River, Lock House Beacon, and Moon Gate Arches Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Lock House Beacon",
+        "Canal / Riverworks Civic Hall",
+        "Canal Reflections Monument",
+        "Waterwheel Court Nook",
+        "Section 1 pedestrian-scale props",
+        "Qinyue civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Lock House Beacon",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "Conjunction response, rumor spread, or authority pressure"
+      ],
+      "landmark": "Lock House Beacon",
+      "minorLandmarks": [
+        "Canal / Riverworks Civic Hall",
+        "Canal Reflections Monument",
+        "Waterwheel Court Nook"
+      ]
+    },
+    {
+      "districtNumber": 3,
+      "districtId": "D03",
+      "sectionNumber": 1,
+      "name": "D03 — Canal Reflections Monument Monument Frontage",
+      "civicPurpose": "This district turns Section 1's source-backed anchor set into a board-scale civic space: Canal / Riverworks Civic Hall, Lock House Beacon, Canal Reflections Monument, Waterwheel Court Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Qinyue.",
+      "visualIdentity": "Use Canal Reflections Monument as the main read. Keep exact source anchors visible where applicable: Canal / Riverworks Civic Hall, Lock House Beacon, Canal Reflections Monument, Waterwheel Court Nook. The district should share Qinyue's East Asian (Japanese) identity, Stone, Timber, Iron, Porcelain Tile, and Riverside, Floodplain, Canal Basin without becoming generic.",
+      "emotionalIdentity": "Memorial or symbolic, with Qinyue's larger mood shaped by Jade Dragon Moon-Gate of the Eastern River, Lock House Beacon, and Moon Gate Arches Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Canal Reflections Monument",
+        "Canal / Riverworks Civic Hall",
+        "Lock House Beacon",
+        "Waterwheel Court Nook",
+        "Section 1 pedestrian-scale props",
+        "Qinyue civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Canal Reflections Monument",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Canal Reflections Monument",
+      "minorLandmarks": [
+        "Canal / Riverworks Civic Hall",
+        "Lock House Beacon",
+        "Waterwheel Court Nook"
+      ]
+    },
+    {
+      "districtNumber": 6,
+      "districtId": "D06",
+      "sectionNumber": 1,
+      "name": "D06 — Waterwheel Court Nook Neighborhood Nook",
+      "civicPurpose": "This district turns Section 1's source-backed anchor set into a board-scale civic space: Canal / Riverworks Civic Hall, Lock House Beacon, Canal Reflections Monument, Waterwheel Court Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Qinyue.",
+      "visualIdentity": "Use Waterwheel Court Nook as the main read. Keep exact source anchors visible where applicable: Canal / Riverworks Civic Hall, Lock House Beacon, Canal Reflections Monument, Waterwheel Court Nook. The district should share Qinyue's East Asian (Japanese) identity, Stone, Timber, Iron, Porcelain Tile, and Riverside, Floodplain, Canal Basin without becoming generic.",
+      "emotionalIdentity": "Intimate and lived-in, with Qinyue's larger mood shaped by Jade Dragon Moon-Gate of the Eastern River, Lock House Beacon, and Moon Gate Arches Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Waterwheel Court Nook",
+        "Canal / Riverworks Civic Hall",
+        "Lock House Beacon",
+        "Canal Reflections Monument",
+        "Section 1 pedestrian-scale props",
+        "Qinyue civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Waterwheel Court Nook",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Waterwheel Court Nook",
+      "minorLandmarks": [
+        "Canal / Riverworks Civic Hall",
+        "Lock House Beacon",
+        "Canal Reflections Monument"
+      ]
+    },
+    {
+      "districtNumber": 7,
+      "districtId": "D07",
+      "sectionNumber": 1,
+      "name": "D07 — Canal / Riverworks Civic Hall Supporting Streets",
+      "civicPurpose": "This district turns Section 1's source-backed anchor set into a board-scale civic space: Canal / Riverworks Civic Hall, Lock House Beacon, Canal Reflections Monument, Waterwheel Court Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Qinyue.",
+      "visualIdentity": "Use Canal / Riverworks Civic Hall as the main read. Keep exact source anchors visible where applicable: Canal / Riverworks Civic Hall, Lock House Beacon, Canal Reflections Monument, Waterwheel Court Nook. The district should share Qinyue's East Asian (Japanese) identity, Stone, Timber, Iron, Porcelain Tile, and Riverside, Floodplain, Canal Basin without becoming generic.",
+      "emotionalIdentity": "Connective and practical, with Qinyue's larger mood shaped by Jade Dragon Moon-Gate of the Eastern River, Lock House Beacon, and Moon Gate Arches Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Canal / Riverworks Civic Hall",
+        "Lock House Beacon",
+        "Canal Reflections Monument",
+        "Waterwheel Court Nook",
+        "Section 1 pedestrian-scale props",
+        "Qinyue civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Canal / Riverworks Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Canal / Riverworks Civic Hall",
+      "minorLandmarks": [
+        "Lock House Beacon",
+        "Canal Reflections Monument",
+        "Waterwheel Court Nook"
+      ]
+    },
+    {
+      "districtNumber": 4,
+      "districtId": "D04",
+      "sectionNumber": 2,
+      "name": "D04 — Granary / Food Market Civic Hall Civic-Anchor Precinct",
+      "civicPurpose": "This district turns Section 2's source-backed anchor set into a board-scale civic space: Granary / Food Market Civic Hall, Grain Hall, Awning Monument, Mill Court Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Qinyue.",
+      "visualIdentity": "Use Granary / Food Market Civic Hall as the main read. Keep exact source anchors visible where applicable: Granary / Food Market Civic Hall, Grain Hall, Awning Monument, Mill Court Nook. The district should share Qinyue's East Asian (Japanese) identity, Stone, Timber, Iron, Porcelain Tile, and Riverside, Floodplain, Canal Basin without becoming generic.",
+      "emotionalIdentity": "Locally grounded, with Qinyue's larger mood shaped by Jade Dragon Moon-Gate of the Eastern River, Lock House Beacon, and Moon Gate Arches Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Granary / Food Market Civic Hall",
+        "Grain Hall",
+        "Awning Monument",
+        "Mill Court Nook",
+        "Section 2 pedestrian-scale props",
+        "Qinyue civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Granary / Food Market Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Granary / Food Market Civic Hall",
+      "minorLandmarks": [
+        "Grain Hall",
+        "Awning Monument",
+        "Mill Court Nook"
+      ]
+    },
+    {
+      "districtNumber": 5,
+      "districtId": "D05",
+      "sectionNumber": 2,
+      "name": "D05 — Grain Hall Landmark Approach",
+      "civicPurpose": "This district turns Section 2's source-backed anchor set into a board-scale civic space: Granary / Food Market Civic Hall, Grain Hall, Awning Monument, Mill Court Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Qinyue.",
+      "visualIdentity": "Use Grain Hall as the main read. Keep exact source anchors visible where applicable: Granary / Food Market Civic Hall, Grain Hall, Awning Monument, Mill Court Nook. The district should share Qinyue's East Asian (Japanese) identity, Stone, Timber, Iron, Porcelain Tile, and Riverside, Floodplain, Canal Basin without becoming generic.",
+      "emotionalIdentity": "Public-facing, with Qinyue's larger mood shaped by Jade Dragon Moon-Gate of the Eastern River, Lock House Beacon, and Moon Gate Arches Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Grain Hall",
+        "Granary / Food Market Civic Hall",
+        "Awning Monument",
+        "Mill Court Nook",
+        "Section 2 pedestrian-scale props",
+        "Qinyue civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Grain Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Grain Hall",
+      "minorLandmarks": [
+        "Granary / Food Market Civic Hall",
+        "Awning Monument",
+        "Mill Court Nook"
+      ]
+    },
+    {
+      "districtNumber": 9,
+      "districtId": "D09",
+      "sectionNumber": 2,
+      "name": "D09 — Awning Monument Monument Frontage",
+      "civicPurpose": "This district turns Section 2's source-backed anchor set into a board-scale civic space: Granary / Food Market Civic Hall, Grain Hall, Awning Monument, Mill Court Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Qinyue.",
+      "visualIdentity": "Use Awning Monument as the main read. Keep exact source anchors visible where applicable: Granary / Food Market Civic Hall, Grain Hall, Awning Monument, Mill Court Nook. The district should share Qinyue's East Asian (Japanese) identity, Stone, Timber, Iron, Porcelain Tile, and Riverside, Floodplain, Canal Basin without becoming generic.",
+      "emotionalIdentity": "Memorial or symbolic, with Qinyue's larger mood shaped by Jade Dragon Moon-Gate of the Eastern River, Lock House Beacon, and Moon Gate Arches Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Awning Monument",
+        "Granary / Food Market Civic Hall",
+        "Grain Hall",
+        "Mill Court Nook",
+        "Section 2 pedestrian-scale props",
+        "Qinyue civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Awning Monument",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Awning Monument",
+      "minorLandmarks": [
+        "Granary / Food Market Civic Hall",
+        "Grain Hall",
+        "Mill Court Nook"
+      ]
+    },
+    {
+      "districtNumber": 10,
+      "districtId": "D10",
+      "sectionNumber": 2,
+      "name": "D10 — Mill Court Nook Neighborhood Nook",
+      "civicPurpose": "This district turns Section 2's source-backed anchor set into a board-scale civic space: Granary / Food Market Civic Hall, Grain Hall, Awning Monument, Mill Court Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Qinyue.",
+      "visualIdentity": "Use Mill Court Nook as the main read. Keep exact source anchors visible where applicable: Granary / Food Market Civic Hall, Grain Hall, Awning Monument, Mill Court Nook. The district should share Qinyue's East Asian (Japanese) identity, Stone, Timber, Iron, Porcelain Tile, and Riverside, Floodplain, Canal Basin without becoming generic.",
+      "emotionalIdentity": "Intimate and lived-in, with Qinyue's larger mood shaped by Jade Dragon Moon-Gate of the Eastern River, Lock House Beacon, and Moon Gate Arches Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Mill Court Nook",
+        "Granary / Food Market Civic Hall",
+        "Grain Hall",
+        "Awning Monument",
+        "Section 2 pedestrian-scale props",
+        "Qinyue civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Mill Court Nook",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Mill Court Nook",
+      "minorLandmarks": [
+        "Granary / Food Market Civic Hall",
+        "Grain Hall",
+        "Awning Monument"
+      ]
+    },
+    {
+      "districtNumber": 15,
+      "districtId": "D15",
+      "sectionNumber": 2,
+      "name": "D15 — Granary / Food Market Civic Hall Supporting Streets",
+      "civicPurpose": "This district turns Section 2's source-backed anchor set into a board-scale civic space: Granary / Food Market Civic Hall, Grain Hall, Awning Monument, Mill Court Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Qinyue.",
+      "visualIdentity": "Use Granary / Food Market Civic Hall as the main read. Keep exact source anchors visible where applicable: Granary / Food Market Civic Hall, Grain Hall, Awning Monument, Mill Court Nook. The district should share Qinyue's East Asian (Japanese) identity, Stone, Timber, Iron, Porcelain Tile, and Riverside, Floodplain, Canal Basin without becoming generic.",
+      "emotionalIdentity": "Connective and practical, with Qinyue's larger mood shaped by Jade Dragon Moon-Gate of the Eastern River, Lock House Beacon, and Moon Gate Arches Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Granary / Food Market Civic Hall",
+        "Grain Hall",
+        "Awning Monument",
+        "Mill Court Nook",
+        "Section 2 pedestrian-scale props",
+        "Qinyue civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Granary / Food Market Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Granary / Food Market Civic Hall",
+      "minorLandmarks": [
+        "Grain Hall",
+        "Awning Monument",
+        "Mill Court Nook"
+      ]
+    },
+    {
+      "districtNumber": 8,
+      "districtId": "D08",
+      "sectionNumber": 3,
+      "name": "D08 — Records / Archives Hall Civic-Anchor Precinct",
+      "civicPurpose": "This district turns Section 3's source-backed anchor set into a board-scale civic space: Records / Archives Hall, Archive Tower, Records Archives Gold-Seal Monument, Copyist Hall Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Qinyue.",
+      "visualIdentity": "Use Records / Archives Hall as the main read. Keep exact source anchors visible where applicable: Records / Archives Hall, Archive Tower, Records Archives Gold-Seal Monument, Copyist Hall Nook. The district should share Qinyue's East Asian (Japanese) identity, Stone, Timber, Iron, Porcelain Tile, and Riverside, Floodplain, Canal Basin without becoming generic.",
+      "emotionalIdentity": "Locally grounded, with Qinyue's larger mood shaped by Jade Dragon Moon-Gate of the Eastern River, Lock House Beacon, and Moon Gate Arches Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Records / Archives Hall",
+        "Archive Tower",
+        "Records Archives Gold-Seal Monument",
+        "Copyist Hall Nook",
+        "Section 3 pedestrian-scale props",
+        "Qinyue civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Records / Archives Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Records / Archives Hall",
+      "minorLandmarks": [
+        "Archive Tower",
+        "Records Archives Gold-Seal Monument",
+        "Copyist Hall Nook"
+      ]
+    },
+    {
+      "districtNumber": 12,
+      "districtId": "D12",
+      "sectionNumber": 3,
+      "name": "D12 — Archive Tower Landmark Approach",
+      "civicPurpose": "This district turns Section 3's source-backed anchor set into a board-scale civic space: Records / Archives Hall, Archive Tower, Records Archives Gold-Seal Monument, Copyist Hall Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Qinyue.",
+      "visualIdentity": "Use Archive Tower as the main read. Keep exact source anchors visible where applicable: Records / Archives Hall, Archive Tower, Records Archives Gold-Seal Monument, Copyist Hall Nook. The district should share Qinyue's East Asian (Japanese) identity, Stone, Timber, Iron, Porcelain Tile, and Riverside, Floodplain, Canal Basin without becoming generic.",
+      "emotionalIdentity": "Public-facing, with Qinyue's larger mood shaped by Jade Dragon Moon-Gate of the Eastern River, Lock House Beacon, and Moon Gate Arches Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Archive Tower",
+        "Records / Archives Hall",
+        "Records Archives Gold-Seal Monument",
+        "Copyist Hall Nook",
+        "Section 3 pedestrian-scale props",
+        "Qinyue civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Archive Tower",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Archive Tower",
+      "minorLandmarks": [
+        "Records / Archives Hall",
+        "Records Archives Gold-Seal Monument",
+        "Copyist Hall Nook"
+      ]
+    },
+    {
+      "districtNumber": 13,
+      "districtId": "D13",
+      "sectionNumber": 3,
+      "name": "D13 — Moon Gate Arches Sovereign Registry Court Seat of Power District",
+      "civicPurpose": "This district turns Section 3's source-backed anchor set into a board-scale civic space: Records / Archives Hall, Archive Tower, Records Archives Gold-Seal Monument, Copyist Hall Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Qinyue.",
+      "visualIdentity": "Use Moon Gate Arches Sovereign Registry Court as the main read. Keep exact source anchors visible where applicable: Records / Archives Hall, Archive Tower, Records Archives Gold-Seal Monument, Copyist Hall Nook. The district should share Qinyue's East Asian (Japanese) identity, Stone, Timber, Iron, Porcelain Tile, and Riverside, Floodplain, Canal Basin without becoming generic.",
+      "emotionalIdentity": "Memorial or symbolic, with Qinyue's larger mood shaped by Jade Dragon Moon-Gate of the Eastern River, Lock House Beacon, and Moon Gate Arches Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Moon Gate Arches Sovereign Registry Court",
+        "Records / Archives Hall",
+        "Archive Tower",
+        "Records Archives Gold-Seal Monument",
+        "Copyist Hall Nook",
+        "Section 3 pedestrian-scale props",
+        "Qinyue civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Moon Gate Arches Sovereign Registry Court",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "Conjunction response, rumor spread, or authority pressure"
+      ],
+      "landmark": "Moon Gate Arches Sovereign Registry Court",
+      "minorLandmarks": [
+        "Records / Archives Hall",
+        "Archive Tower",
+        "Records Archives Gold-Seal Monument",
+        "Copyist Hall Nook"
+      ]
+    },
+    {
+      "districtNumber": 14,
+      "districtId": "D14",
+      "sectionNumber": 3,
+      "name": "D14 — Copyist Hall Nook Neighborhood Nook",
+      "civicPurpose": "This district turns Section 3's source-backed anchor set into a board-scale civic space: Records / Archives Hall, Archive Tower, Records Archives Gold-Seal Monument, Copyist Hall Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Qinyue.",
+      "visualIdentity": "Use Copyist Hall Nook as the main read. Keep exact source anchors visible where applicable: Records / Archives Hall, Archive Tower, Records Archives Gold-Seal Monument, Copyist Hall Nook. The district should share Qinyue's East Asian (Japanese) identity, Stone, Timber, Iron, Porcelain Tile, and Riverside, Floodplain, Canal Basin without becoming generic.",
+      "emotionalIdentity": "Intimate and lived-in, with Qinyue's larger mood shaped by Jade Dragon Moon-Gate of the Eastern River, Lock House Beacon, and Moon Gate Arches Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Copyist Hall Nook",
+        "Records / Archives Hall",
+        "Archive Tower",
+        "Records Archives Gold-Seal Monument",
+        "Section 3 pedestrian-scale props",
+        "Qinyue civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Copyist Hall Nook",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Copyist Hall Nook",
+      "minorLandmarks": [
+        "Records / Archives Hall",
+        "Archive Tower",
+        "Records Archives Gold-Seal Monument"
+      ]
+    },
+    {
+      "districtNumber": 18,
+      "districtId": "D18",
+      "sectionNumber": 3,
+      "name": "D18 — Records / Archives Hall Supporting Streets",
+      "civicPurpose": "This district turns Section 3's source-backed anchor set into a board-scale civic space: Records / Archives Hall, Archive Tower, Records Archives Gold-Seal Monument, Copyist Hall Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Qinyue.",
+      "visualIdentity": "Use Records / Archives Hall as the main read. Keep exact source anchors visible where applicable: Records / Archives Hall, Archive Tower, Records Archives Gold-Seal Monument, Copyist Hall Nook. The district should share Qinyue's East Asian (Japanese) identity, Stone, Timber, Iron, Porcelain Tile, and Riverside, Floodplain, Canal Basin without becoming generic.",
+      "emotionalIdentity": "Connective and practical, with Qinyue's larger mood shaped by Jade Dragon Moon-Gate of the Eastern River, Lock House Beacon, and Moon Gate Arches Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Records / Archives Hall",
+        "Archive Tower",
+        "Records Archives Gold-Seal Monument",
+        "Copyist Hall Nook",
+        "Section 3 pedestrian-scale props",
+        "Qinyue civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Records / Archives Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Records / Archives Hall",
+      "minorLandmarks": [
+        "Archive Tower",
+        "Records Archives Gold-Seal Monument",
+        "Copyist Hall Nook"
+      ]
+    },
+    {
+      "districtNumber": 11,
+      "districtId": "D11",
+      "sectionNumber": 4,
+      "name": "D11 — Medical / Healing Civic Hall Civic-Anchor Precinct",
+      "civicPurpose": "This district turns Section 4's source-backed anchor set into a board-scale civic space: Medical / Healing Civic Hall, Healing Hall, Medical Healing Lantern Monument, Apothecary Court Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Qinyue.",
+      "visualIdentity": "Use Medical / Healing Civic Hall as the main read. Keep exact source anchors visible where applicable: Medical / Healing Civic Hall, Healing Hall, Medical Healing Lantern Monument, Apothecary Court Nook. The district should share Qinyue's East Asian (Japanese) identity, Stone, Timber, Iron, Porcelain Tile, and Riverside, Floodplain, Canal Basin without becoming generic.",
+      "emotionalIdentity": "Locally grounded, with Qinyue's larger mood shaped by Jade Dragon Moon-Gate of the Eastern River, Lock House Beacon, and Moon Gate Arches Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Medical / Healing Civic Hall",
+        "Healing Hall",
+        "Medical Healing Lantern Monument",
+        "Apothecary Court Nook",
+        "Section 4 pedestrian-scale props",
+        "Qinyue civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Medical / Healing Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Medical / Healing Civic Hall",
+      "minorLandmarks": [
+        "Healing Hall",
+        "Medical Healing Lantern Monument",
+        "Apothecary Court Nook"
+      ]
+    },
+    {
+      "districtNumber": 16,
+      "districtId": "D16",
+      "sectionNumber": 4,
+      "name": "D16 — Healing Hall Landmark Approach",
+      "civicPurpose": "This district turns Section 4's source-backed anchor set into a board-scale civic space: Medical / Healing Civic Hall, Healing Hall, Medical Healing Lantern Monument, Apothecary Court Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Qinyue.",
+      "visualIdentity": "Use Healing Hall as the main read. Keep exact source anchors visible where applicable: Medical / Healing Civic Hall, Healing Hall, Medical Healing Lantern Monument, Apothecary Court Nook. The district should share Qinyue's East Asian (Japanese) identity, Stone, Timber, Iron, Porcelain Tile, and Riverside, Floodplain, Canal Basin without becoming generic.",
+      "emotionalIdentity": "Public-facing, with Qinyue's larger mood shaped by Jade Dragon Moon-Gate of the Eastern River, Lock House Beacon, and Moon Gate Arches Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Healing Hall",
+        "Medical / Healing Civic Hall",
+        "Medical Healing Lantern Monument",
+        "Apothecary Court Nook",
+        "Section 4 pedestrian-scale props",
+        "Qinyue civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Healing Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Healing Hall",
+      "minorLandmarks": [
+        "Medical / Healing Civic Hall",
+        "Medical Healing Lantern Monument",
+        "Apothecary Court Nook"
+      ]
+    },
+    {
+      "districtNumber": 17,
+      "districtId": "D17",
+      "sectionNumber": 4,
+      "name": "D17 — Medical Healing Lantern Monument Monument Frontage",
+      "civicPurpose": "This district turns Section 4's source-backed anchor set into a board-scale civic space: Medical / Healing Civic Hall, Healing Hall, Medical Healing Lantern Monument, Apothecary Court Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Qinyue.",
+      "visualIdentity": "Use Medical Healing Lantern Monument as the main read. Keep exact source anchors visible where applicable: Medical / Healing Civic Hall, Healing Hall, Medical Healing Lantern Monument, Apothecary Court Nook. The district should share Qinyue's East Asian (Japanese) identity, Stone, Timber, Iron, Porcelain Tile, and Riverside, Floodplain, Canal Basin without becoming generic.",
+      "emotionalIdentity": "Memorial or symbolic, with Qinyue's larger mood shaped by Jade Dragon Moon-Gate of the Eastern River, Lock House Beacon, and Moon Gate Arches Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Medical Healing Lantern Monument",
+        "Medical / Healing Civic Hall",
+        "Healing Hall",
+        "Apothecary Court Nook",
+        "Section 4 pedestrian-scale props",
+        "Qinyue civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Medical Healing Lantern Monument",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Medical Healing Lantern Monument",
+      "minorLandmarks": [
+        "Medical / Healing Civic Hall",
+        "Healing Hall",
+        "Apothecary Court Nook"
+      ]
+    },
+    {
+      "districtNumber": 21,
+      "districtId": "D21",
+      "sectionNumber": 4,
+      "name": "D21 — Apothecary Court Nook Neighborhood Nook",
+      "civicPurpose": "This district turns Section 4's source-backed anchor set into a board-scale civic space: Medical / Healing Civic Hall, Healing Hall, Medical Healing Lantern Monument, Apothecary Court Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Qinyue.",
+      "visualIdentity": "Use Apothecary Court Nook as the main read. Keep exact source anchors visible where applicable: Medical / Healing Civic Hall, Healing Hall, Medical Healing Lantern Monument, Apothecary Court Nook. The district should share Qinyue's East Asian (Japanese) identity, Stone, Timber, Iron, Porcelain Tile, and Riverside, Floodplain, Canal Basin without becoming generic.",
+      "emotionalIdentity": "Intimate and lived-in, with Qinyue's larger mood shaped by Jade Dragon Moon-Gate of the Eastern River, Lock House Beacon, and Moon Gate Arches Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Apothecary Court Nook",
+        "Medical / Healing Civic Hall",
+        "Healing Hall",
+        "Medical Healing Lantern Monument",
+        "Section 4 pedestrian-scale props",
+        "Qinyue civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Apothecary Court Nook",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Apothecary Court Nook",
+      "minorLandmarks": [
+        "Medical / Healing Civic Hall",
+        "Healing Hall",
+        "Medical Healing Lantern Monument"
+      ]
+    },
+    {
+      "districtNumber": 22,
+      "districtId": "D22",
+      "sectionNumber": 4,
+      "name": "D22 — Medical / Healing Civic Hall Supporting Streets",
+      "civicPurpose": "This district turns Section 4's source-backed anchor set into a board-scale civic space: Medical / Healing Civic Hall, Healing Hall, Medical Healing Lantern Monument, Apothecary Court Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Qinyue.",
+      "visualIdentity": "Use Medical / Healing Civic Hall as the main read. Keep exact source anchors visible where applicable: Medical / Healing Civic Hall, Healing Hall, Medical Healing Lantern Monument, Apothecary Court Nook. The district should share Qinyue's East Asian (Japanese) identity, Stone, Timber, Iron, Porcelain Tile, and Riverside, Floodplain, Canal Basin without becoming generic.",
+      "emotionalIdentity": "Connective and practical, with Qinyue's larger mood shaped by Jade Dragon Moon-Gate of the Eastern River, Lock House Beacon, and Moon Gate Arches Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Medical / Healing Civic Hall",
+        "Healing Hall",
+        "Medical Healing Lantern Monument",
+        "Apothecary Court Nook",
+        "Section 4 pedestrian-scale props",
+        "Qinyue civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Medical / Healing Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Medical / Healing Civic Hall",
+      "minorLandmarks": [
+        "Healing Hall",
+        "Medical Healing Lantern Monument",
+        "Apothecary Court Nook"
+      ]
+    },
+    {
+      "districtNumber": 19,
+      "districtId": "D19",
+      "sectionNumber": 5,
+      "name": "D19 — Artisan Guilds Civic Hall Civic-Anchor Precinct",
+      "civicPurpose": "This district turns Section 5's source-backed anchor set into a board-scale civic space: Artisan Guilds Civic Hall, Guildhall, Woven Banners Monument, Masterwork Arcade Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Qinyue.",
+      "visualIdentity": "Use Artisan Guilds Civic Hall as the main read. Keep exact source anchors visible where applicable: Artisan Guilds Civic Hall, Guildhall, Woven Banners Monument, Masterwork Arcade Nook. The district should share Qinyue's East Asian (Japanese) identity, Stone, Timber, Iron, Porcelain Tile, and Riverside, Floodplain, Canal Basin without becoming generic.",
+      "emotionalIdentity": "Locally grounded, with Qinyue's larger mood shaped by Jade Dragon Moon-Gate of the Eastern River, Lock House Beacon, and Moon Gate Arches Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Artisan Guilds Civic Hall",
+        "Guildhall",
+        "Woven Banners Monument",
+        "Masterwork Arcade Nook",
+        "Section 5 pedestrian-scale props",
+        "Qinyue civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Artisan Guilds Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Artisan Guilds Civic Hall",
+      "minorLandmarks": [
+        "Guildhall",
+        "Woven Banners Monument",
+        "Masterwork Arcade Nook"
+      ]
+    },
+    {
+      "districtNumber": 20,
+      "districtId": "D20",
+      "sectionNumber": 5,
+      "name": "D20 — Guildhall Landmark Approach",
+      "civicPurpose": "This district turns Section 5's source-backed anchor set into a board-scale civic space: Artisan Guilds Civic Hall, Guildhall, Woven Banners Monument, Masterwork Arcade Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Qinyue.",
+      "visualIdentity": "Use Guildhall as the main read. Keep exact source anchors visible where applicable: Artisan Guilds Civic Hall, Guildhall, Woven Banners Monument, Masterwork Arcade Nook. The district should share Qinyue's East Asian (Japanese) identity, Stone, Timber, Iron, Porcelain Tile, and Riverside, Floodplain, Canal Basin without becoming generic.",
+      "emotionalIdentity": "Public-facing, with Qinyue's larger mood shaped by Jade Dragon Moon-Gate of the Eastern River, Lock House Beacon, and Moon Gate Arches Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Guildhall",
+        "Artisan Guilds Civic Hall",
+        "Woven Banners Monument",
+        "Masterwork Arcade Nook",
+        "Section 5 pedestrian-scale props",
+        "Qinyue civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Guildhall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Guildhall",
+      "minorLandmarks": [
+        "Artisan Guilds Civic Hall",
+        "Woven Banners Monument",
+        "Masterwork Arcade Nook"
+      ]
+    },
+    {
+      "districtNumber": 23,
+      "districtId": "D23",
+      "sectionNumber": 5,
+      "name": "D23 — Woven Banners Monument Monument Frontage",
+      "civicPurpose": "This district turns Section 5's source-backed anchor set into a board-scale civic space: Artisan Guilds Civic Hall, Guildhall, Woven Banners Monument, Masterwork Arcade Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Qinyue.",
+      "visualIdentity": "Use Woven Banners Monument as the main read. Keep exact source anchors visible where applicable: Artisan Guilds Civic Hall, Guildhall, Woven Banners Monument, Masterwork Arcade Nook. The district should share Qinyue's East Asian (Japanese) identity, Stone, Timber, Iron, Porcelain Tile, and Riverside, Floodplain, Canal Basin without becoming generic.",
+      "emotionalIdentity": "Memorial or symbolic, with Qinyue's larger mood shaped by Jade Dragon Moon-Gate of the Eastern River, Lock House Beacon, and Moon Gate Arches Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Woven Banners Monument",
+        "Artisan Guilds Civic Hall",
+        "Guildhall",
+        "Masterwork Arcade Nook",
+        "Section 5 pedestrian-scale props",
+        "Qinyue civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Woven Banners Monument",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Woven Banners Monument",
+      "minorLandmarks": [
+        "Artisan Guilds Civic Hall",
+        "Guildhall",
+        "Masterwork Arcade Nook"
+      ]
+    },
+    {
+      "districtNumber": 24,
+      "districtId": "D24",
+      "sectionNumber": 5,
+      "name": "D24 — Masterwork Arcade Nook Neighborhood Nook",
+      "civicPurpose": "This district turns Section 5's source-backed anchor set into a board-scale civic space: Artisan Guilds Civic Hall, Guildhall, Woven Banners Monument, Masterwork Arcade Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Qinyue.",
+      "visualIdentity": "Use Masterwork Arcade Nook as the main read. Keep exact source anchors visible where applicable: Artisan Guilds Civic Hall, Guildhall, Woven Banners Monument, Masterwork Arcade Nook. The district should share Qinyue's East Asian (Japanese) identity, Stone, Timber, Iron, Porcelain Tile, and Riverside, Floodplain, Canal Basin without becoming generic.",
+      "emotionalIdentity": "Intimate and lived-in, with Qinyue's larger mood shaped by Jade Dragon Moon-Gate of the Eastern River, Lock House Beacon, and Moon Gate Arches Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Masterwork Arcade Nook",
+        "Artisan Guilds Civic Hall",
+        "Guildhall",
+        "Woven Banners Monument",
+        "Section 5 pedestrian-scale props",
+        "Qinyue civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Masterwork Arcade Nook",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Masterwork Arcade Nook",
+      "minorLandmarks": [
+        "Artisan Guilds Civic Hall",
+        "Guildhall",
+        "Woven Banners Monument"
+      ]
+    },
+    {
+      "districtNumber": 25,
+      "districtId": "D25",
+      "sectionNumber": 5,
+      "name": "D25 — Artisan Guilds Civic Hall Supporting Streets",
+      "civicPurpose": "This district turns Section 5's source-backed anchor set into a board-scale civic space: Artisan Guilds Civic Hall, Guildhall, Woven Banners Monument, Masterwork Arcade Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Qinyue.",
+      "visualIdentity": "Use Artisan Guilds Civic Hall as the main read. Keep exact source anchors visible where applicable: Artisan Guilds Civic Hall, Guildhall, Woven Banners Monument, Masterwork Arcade Nook. The district should share Qinyue's East Asian (Japanese) identity, Stone, Timber, Iron, Porcelain Tile, and Riverside, Floodplain, Canal Basin without becoming generic.",
+      "emotionalIdentity": "Connective and practical, with Qinyue's larger mood shaped by Jade Dragon Moon-Gate of the Eastern River, Lock House Beacon, and Moon Gate Arches Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Artisan Guilds Civic Hall",
+        "Guildhall",
+        "Woven Banners Monument",
+        "Masterwork Arcade Nook",
+        "Section 5 pedestrian-scale props",
+        "Qinyue civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Artisan Guilds Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Artisan Guilds Civic Hall",
+      "minorLandmarks": [
+        "Guildhall",
+        "Woven Banners Monument",
+        "Masterwork Arcade Nook"
+      ]
+    }
+  ],
+  "landmarks": {
+    "wonder": {
+      "name": "Jade Dragon Moon-Gate of the Eastern River",
+      "symbolicRole": "Jade Dragon Moon-Gate of the Eastern River concentrates Qinyue's local symbolism into a usable civic landmark: city wonder, separate far skyline anchor.",
+      "visualRole": "A one-per-city wonder: spectacular, unmistakable, and larger than every section landmark. It turns Qinyue's geography, race identity, material culture, and civic magic into one public symbol. Built for Qinyue's East Asian (Japanese) population, it uses Stone, Timber, Iron, Porcelain Tile, Red Lacquer across Riverside, Floodplain, Canal Basin; water context: River; magic expression: Civic Blue Illumination, Oath Seals, Ritual Geometry. It must read clearly as a high-fantasy tactical-board asset with no baked labels or text.",
+      "civicRole": "Serves as city wonder, separate far skyline anchor within Qinyue; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+      "narrativeUse": [
+        "stage scenes involving Jade Dragon Moon-Gate of the Eastern River",
+        "show how Qinyue turns landmark symbolism into civic pressure",
+        "anchor public movement and crowd behavior",
+        "give writers a concrete place for announcements, disputes, errands, or rituals"
+      ],
+      "assetUse": [
+        "city landmark asset",
+        "map background landmark marker",
+        "visual continuity anchor across hero and street scenes",
+        "scale reference for civilians, roads, plazas, and props"
+      ],
+      "sensoryIdentity": [
+        "local foot traffic",
+        "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+        "public voices and civic work nearby",
+        "ambient city light and weathering",
+        "close pedestrian-scale details rather than abstract skyline-only treatment"
+      ],
+      "storyHooks": [
+        "a routine civic action at Jade Dragon Moon-Gate of the Eastern River becomes narratively important",
+        "the visible condition of Jade Dragon Moon-Gate of the Eastern River signals political or social stress",
+        "someone uses Jade Dragon Moon-Gate of the Eastern River's public function to redirect crowds or information",
+        "an overlooked detail at Jade Dragon Moon-Gate of the Eastern River reveals how Qinyue really works"
+      ]
+    },
+    "beacon": {
+      "name": "Lock House Beacon",
+      "symbolicRole": "Lock House Beacon concentrates Qinyue's local symbolism into a usable civic landmark: Section 1 beacon, near/front civic signal anchor.",
+      "visualRole": "A largest local landmark in this section, subordinate only to the city wonder and citadel. It belongs to Section 1 (Canal / Riverworks) of Qinyue and should use Coral Terraces, White Limestone Civic Blocks, Reed Pavilions, timber and red lacquer materials, Lantern Lit, Hanging Gardens, Canal Reflections, and the East Asian (Japanese) visual language. Design focus: strong vertical silhouette, distinct gameplay landmark, visible from nearby districts, water gauges, sluice wheels. Terrain/water context: Floodplain; River. Magic expression: Threshold Oaths, Blood Staunching, Herbal Spirits. No baked labels or text.",
+      "civicRole": "Serves as Section 1 beacon, near/front civic signal anchor within Qinyue; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+      "narrativeUse": [
+        "stage scenes involving Lock House Beacon",
+        "show how Qinyue turns landmark symbolism into civic pressure",
+        "anchor public movement and crowd behavior",
+        "give writers a concrete place for announcements, disputes, errands, or rituals"
+      ],
+      "assetUse": [
+        "district diorama anchor for Section 1",
+        "map background landmark marker",
+        "visual continuity anchor across hero and street scenes",
+        "scale reference for civilians, roads, plazas, and props"
+      ],
+      "sensoryIdentity": [
+        "local foot traffic",
+        "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+        "public voices and civic work nearby",
+        "beacon or lamp glow when applicable",
+        "close pedestrian-scale details rather than abstract skyline-only treatment"
+      ],
+      "storyHooks": [
+        "a routine civic action at Lock House Beacon becomes narratively important",
+        "the visible condition of Lock House Beacon signals political or social stress",
+        "someone uses Lock House Beacon's public function to redirect crowds or information",
+        "an overlooked detail at Lock House Beacon reveals how Qinyue really works"
+      ]
+    },
+    "seatOfPower": {
+      "name": "Moon Gate Arches Sovereign Registry Court",
+      "symbolicRole": "Moon Gate Arches Sovereign Registry Court concentrates Qinyue's local symbolism into a usable civic landmark: dominant central civic anchor / District 13 seat of power.",
+      "visualRole": "The district-13 seat of power: courts, audience terraces, sealed archives, command platforms, and the visible apparatus of government. It is not a faction HQ; it is the city's central civic authority. Built for Qinyue's East Asian (Japanese) population, it uses Stone, Timber, Iron, Porcelain Tile, Red Lacquer across Riverside, Floodplain, Canal Basin; water context: River; magic expression: Civic Blue Illumination, Oath Seals, Ritual Geometry. It must read clearly as a high-fantasy tactical-board asset with no baked labels or text.",
+      "civicRole": "Serves as dominant central civic anchor / District 13 seat of power within Qinyue; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+      "narrativeUse": [
+        "stage scenes involving Moon Gate Arches Sovereign Registry Court",
+        "show how Qinyue turns landmark symbolism into civic pressure",
+        "anchor public movement and crowd behavior",
+        "give writers a concrete place for announcements, disputes, errands, or rituals"
+      ],
+      "assetUse": [
+        "city landmark asset",
+        "map background landmark marker",
+        "visual continuity anchor across hero and street scenes",
+        "scale reference for civilians, roads, plazas, and props"
+      ],
+      "sensoryIdentity": [
+        "local foot traffic",
+        "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+        "public voices and civic work nearby",
+        "ambient city light and weathering",
+        "close pedestrian-scale details rather than abstract skyline-only treatment"
+      ],
+      "storyHooks": [
+        "a routine civic action at Moon Gate Arches Sovereign Registry Court becomes narratively important",
+        "the visible condition of Moon Gate Arches Sovereign Registry Court signals political or social stress",
+        "someone uses Moon Gate Arches Sovereign Registry Court's public function to redirect crowds or information",
+        "an overlooked detail at Moon Gate Arches Sovereign Registry Court reveals how Qinyue really works"
+      ]
+    },
+    "majorLandmarks": [
+      {
+        "name": "Guildhall",
+        "symbolicRole": "Guildhall concentrates Qinyue's local symbolism into a usable civic landmark: additional major landmark selected for this hero-view camera angle.",
+        "visualRole": "A largest local landmark in this section, subordinate only to the city wonder and citadel. It belongs to Section 5 (Artisan Guilds) of Qinyue and should use White Limestone Civic Blocks, Forge Halls, Market Arcades, timber and red lacquer materials, Red Fabric Awnings, Lantern Lit, Woven Banners, and the East Asian (Japanese) visual language. Design focus: guild courts, kiln yards, tool yards, largest section focal point, strong vertical silhouette. Terrain/water context: Floodplain; River. Magic expression: Threshold Oaths, Blood Staunching, Herbal Spirits. No baked labels or text.",
+        "civicRole": "Serves as additional major landmark selected for this hero-view camera angle within Qinyue; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Guildhall",
+          "show how Qinyue turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 5",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Guildhall becomes narratively important",
+          "the visible condition of Guildhall signals political or social stress",
+          "someone uses Guildhall's public function to redirect crowds or information",
+          "an overlooked detail at Guildhall reveals how Qinyue really works"
+        ]
+      },
+      {
+        "name": "Grain Hall",
+        "symbolicRole": "Grain Hall concentrates Qinyue's local symbolism into a usable civic landmark: additional major landmark selected for this hero-view camera angle.",
+        "visualRole": "A largest local landmark in this section, subordinate only to the city wonder and citadel. It belongs to Section 2 (Granary / Food Market) of Qinyue and should use Reed Pavilions, Timber Longhouses, Market Arcades, timber and red lacquer materials, Red Fabric Awnings, Woven Banners, Lantern Lit, and the East Asian (Japanese) visual language. Design focus: bakeries, covered food halls, grain scales, largest section focal point, strong vertical silhouette. Terrain/water context: Floodplain; River. Magic expression: Threshold Oaths, Blood Staunching, Herbal Spirits. No baked labels or text.",
+        "civicRole": "Serves as additional major landmark selected for this hero-view camera angle within Qinyue; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Grain Hall",
+          "show how Qinyue turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 2",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Grain Hall becomes narratively important",
+          "the visible condition of Grain Hall signals political or social stress",
+          "someone uses Grain Hall's public function to redirect crowds or information",
+          "an overlooked detail at Grain Hall reveals how Qinyue really works"
+        ]
+      },
+      {
+        "name": "Healing Hall",
+        "symbolicRole": "Healing Hall concentrates Qinyue's local symbolism into a usable civic landmark: additional major landmark selected for this hero-view camera angle.",
+        "visualRole": "A largest local landmark in this section, subordinate only to the city wonder and citadel. It belongs to Section 4 (Medical / Healing) of Qinyue and should use Reed Pavilions, White Limestone Civic Blocks, Temple Platforms, timber and red lacquer materials, Lantern Lit, Bone White Ceremony, Hanging Gardens, and the East Asian (Japanese) visual language. Design focus: recovery beds, largest section focal point, strong vertical silhouette, distinct gameplay landmark, visible from nearby districts. Terrain/water context: Floodplain; River. Magic expression: Threshold Oaths, Blood Staunching, Herbal Spirits. No baked labels or text.",
+        "civicRole": "Serves as additional major landmark selected for this hero-view camera angle within Qinyue; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Healing Hall",
+          "show how Qinyue turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 4",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Healing Hall becomes narratively important",
+          "the visible condition of Healing Hall signals political or social stress",
+          "someone uses Healing Hall's public function to redirect crowds or information",
+          "an overlooked detail at Healing Hall reveals how Qinyue really works"
+        ]
+      },
+      {
+        "name": "Canal / Riverworks Civic Hall",
+        "symbolicRole": "Canal / Riverworks Civic Hall concentrates Qinyue's local symbolism into a usable civic landmark: Section 1 local anchor.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing. It belongs to Section 1 (Canal / Riverworks) of Qinyue and should use White Limestone Civic Blocks, Reed Pavilions, Coral Terraces, timber and red lacquer materials, Hanging Gardens, Canal Reflections, Lantern Lit, and the East Asian (Japanese) visual language. Design focus: lock houses, sluice gates, waterwheel yards, towpaths, institutional anchor. Terrain/water context: Floodplain; River. Magic expression: Threshold Oaths, Blood Staunching, Herbal Spirits. No baked labels or text.",
+        "civicRole": "Serves as Section 1 local anchor within Qinyue; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Canal / Riverworks Civic Hall",
+          "show how Qinyue turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 1",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Canal / Riverworks Civic Hall becomes narratively important",
+          "the visible condition of Canal / Riverworks Civic Hall signals political or social stress",
+          "someone uses Canal / Riverworks Civic Hall's public function to redirect crowds or information",
+          "an overlooked detail at Canal / Riverworks Civic Hall reveals how Qinyue really works"
+        ]
+      },
+      {
+        "name": "Canal Reflections Monument",
+        "symbolicRole": "Canal Reflections Monument concentrates Qinyue's local symbolism into a usable civic landmark: Section 1 local anchor.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles. It belongs to Section 1 (Canal / Riverworks) of Qinyue and should use White Limestone Civic Blocks, Reed Pavilions, Coral Terraces, timber and red lacquer materials, Hanging Gardens, Canal Reflections, Lantern Lit, and the East Asian (Japanese) visual language. Design focus: local memory marker, subordinate to major landmark, water gauges, sluice wheels, reeds. Terrain/water context: Floodplain; River. Magic expression: Threshold Oaths, Blood Staunching, Herbal Spirits. No baked labels or text.",
+        "civicRole": "Serves as Section 1 local anchor within Qinyue; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Canal Reflections Monument",
+          "show how Qinyue turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 1",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Canal Reflections Monument becomes narratively important",
+          "the visible condition of Canal Reflections Monument signals political or social stress",
+          "someone uses Canal Reflections Monument's public function to redirect crowds or information",
+          "an overlooked detail at Canal Reflections Monument reveals how Qinyue really works"
+        ]
+      },
+      {
+        "name": "Waterwheel Court Nook",
+        "symbolicRole": "Waterwheel Court Nook concentrates Qinyue's local symbolism into a usable civic landmark: Section 1 local anchor.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette. It belongs to Section 1 (Canal / Riverworks) of Qinyue and should use Reed Pavilions, Coral Terraces, White Limestone Civic Blocks, timber and red lacquer materials, Lantern Lit, Hanging Gardens, Canal Reflections, and the East Asian (Japanese) visual language. Design focus: waterwheel yards, towpaths, small local identity prop, street-level detail, usable board landmark. Terrain/water context: Floodplain; River. Magic expression: Threshold Oaths, Blood Staunching, Herbal Spirits. No baked labels or text.",
+        "civicRole": "Serves as Section 1 local anchor within Qinyue; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Waterwheel Court Nook",
+          "show how Qinyue turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 1",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Waterwheel Court Nook becomes narratively important",
+          "the visible condition of Waterwheel Court Nook signals political or social stress",
+          "someone uses Waterwheel Court Nook's public function to redirect crowds or information",
+          "an overlooked detail at Waterwheel Court Nook reveals how Qinyue really works"
+        ]
+      },
+      {
+        "name": "Granary / Food Market Civic Hall",
+        "symbolicRole": "Granary / Food Market Civic Hall concentrates Qinyue's local symbolism into a usable civic landmark: Section 2 local anchor.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing. It belongs to Section 2 (Granary / Food Market) of Qinyue and should use Market Arcades, Reed Pavilions, Timber Longhouses, timber and red lacquer materials, Woven Banners, Lantern Lit, Red Fabric Awnings, and the East Asian (Japanese) visual language. Design focus: institutional anchor, public-facing administration, clear central silhouette, board-readable entrance, wheat sheaves. Terrain/water context: Floodplain; River. Magic expression: Threshold Oaths, Blood Staunching, Herbal Spirits. No baked labels or text.",
+        "civicRole": "Serves as Section 2 local anchor within Qinyue; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Granary / Food Market Civic Hall",
+          "show how Qinyue turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 2",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Granary / Food Market Civic Hall becomes narratively important",
+          "the visible condition of Granary / Food Market Civic Hall signals political or social stress",
+          "someone uses Granary / Food Market Civic Hall's public function to redirect crowds or information",
+          "an overlooked detail at Granary / Food Market Civic Hall reveals how Qinyue really works"
+        ]
+      },
+      {
+        "name": "Awning Monument",
+        "symbolicRole": "Awning Monument concentrates Qinyue's local symbolism into a usable civic landmark: Section 2 local anchor.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles. It belongs to Section 2 (Granary / Food Market) of Qinyue and should use Market Arcades, Reed Pavilions, Timber Longhouses, timber and red lacquer materials, Lantern Lit, Red Fabric Awnings, Woven Banners, and the East Asian (Japanese) visual language. Design focus: local memory marker, subordinate to major landmark, wheat sheaves, bread ovens, storage jars. Terrain/water context: Floodplain; River. Magic expression: Threshold Oaths, Blood Staunching, Herbal Spirits. No baked labels or text.",
+        "civicRole": "Serves as Section 2 local anchor within Qinyue; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Awning Monument",
+          "show how Qinyue turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 2",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Awning Monument becomes narratively important",
+          "the visible condition of Awning Monument signals political or social stress",
+          "someone uses Awning Monument's public function to redirect crowds or information",
+          "an overlooked detail at Awning Monument reveals how Qinyue really works"
+        ]
+      },
+      {
+        "name": "Mill Court Nook",
+        "symbolicRole": "Mill Court Nook concentrates Qinyue's local symbolism into a usable civic landmark: Section 2 local anchor.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette. It belongs to Section 2 (Granary / Food Market) of Qinyue and should use Timber Longhouses, Market Arcades, Reed Pavilions, timber and red lacquer materials, Red Fabric Awnings, Woven Banners, Lantern Lit, and the East Asian (Japanese) visual language. Design focus: bread ovens, storage jars, hanging herbs, granaries, bakeries. Terrain/water context: Floodplain; River. Magic expression: Threshold Oaths, Blood Staunching, Herbal Spirits. No baked labels or text.",
+        "civicRole": "Serves as Section 2 local anchor within Qinyue; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Mill Court Nook",
+          "show how Qinyue turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 2",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Mill Court Nook becomes narratively important",
+          "the visible condition of Mill Court Nook signals political or social stress",
+          "someone uses Mill Court Nook's public function to redirect crowds or information",
+          "an overlooked detail at Mill Court Nook reveals how Qinyue really works"
+        ]
+      },
+      {
+        "name": "Records / Archives Hall",
+        "symbolicRole": "Records / Archives Hall concentrates Qinyue's local symbolism into a usable civic landmark: Section 3 local anchor.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing. It belongs to Section 3 (Records / Archives) of Qinyue and should use Subterranean Vaults, Archive Towers, White Limestone Civic Blocks, timber and red lacquer materials, Lantern Lit, Civic Blue Glow, Gold Seals, and the East Asian (Japanese) visual language. Design focus: scrolls, index cards, wax seals, memory lamps, archive stacks. Terrain/water context: Floodplain; River. Magic expression: Threshold Oaths, Blood Staunching, Herbal Spirits. No baked labels or text.",
+        "civicRole": "Serves as Section 3 local anchor within Qinyue; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Records / Archives Hall",
+          "show how Qinyue turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 3",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Records / Archives Hall becomes narratively important",
+          "the visible condition of Records / Archives Hall signals political or social stress",
+          "someone uses Records / Archives Hall's public function to redirect crowds or information",
+          "an overlooked detail at Records / Archives Hall reveals how Qinyue really works"
+        ]
+      },
+      {
+        "name": "Archive Tower",
+        "symbolicRole": "Archive Tower concentrates Qinyue's local symbolism into a usable civic landmark: Section 3 local anchor.",
+        "visualRole": "A mandatory Section 3 Beacon: a culturally adapted civic signal flame / warning-light landmark visible across the city spine. It belongs to Section 3 (Records / Archives) of Qinyue and should use Archive Towers, White Limestone Civic Blocks, Subterranean Vaults, timber and red lacquer materials, Civic Blue Glow, Gold Seals, Lantern Lit, and the East Asian (Japanese) visual language. Design focus: memory lamps, archive stacks, ledger halls, vault towers, Beacon must inherit city materials, culture, magic expression, and water/terrain context from CityProfile.. Terrain/water context: Floodplain; River. Magic expression: Threshold Oaths, Blood Staunching, Herbal Spirits. No baked labels or text.",
+        "civicRole": "Serves as Section 3 local anchor within Qinyue; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Archive Tower",
+          "show how Qinyue turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 3",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Archive Tower becomes narratively important",
+          "the visible condition of Archive Tower signals political or social stress",
+          "someone uses Archive Tower's public function to redirect crowds or information",
+          "an overlooked detail at Archive Tower reveals how Qinyue really works"
+        ]
+      },
+      {
+        "name": "Records Archives Gold-Seal Monument",
+        "symbolicRole": "Records Archives Gold-Seal Monument concentrates Qinyue's local symbolism into a usable civic landmark: Section 3 local anchor.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles. It belongs to Section 3 (Records / Archives) of Qinyue and should use White Limestone Civic Blocks, Subterranean Vaults, Archive Towers, timber and red lacquer materials, Civic Blue Glow, Gold Seals, Lantern Lit, and the East Asian (Japanese) visual language. Design focus: index cards, wax seals, memory lamps, archive stacks, ledger halls. Terrain/water context: Floodplain; River. Magic expression: Threshold Oaths, Blood Staunching, Herbal Spirits. No baked labels or text.",
+        "civicRole": "Serves as Section 3 local anchor within Qinyue; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Records Archives Gold-Seal Monument",
+          "show how Qinyue turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 3",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Records Archives Gold-Seal Monument becomes narratively important",
+          "the visible condition of Records Archives Gold-Seal Monument signals political or social stress",
+          "someone uses Records Archives Gold-Seal Monument's public function to redirect crowds or information",
+          "an overlooked detail at Records Archives Gold-Seal Monument reveals how Qinyue really works"
+        ]
+      },
+      {
+        "name": "Copyist Hall Nook",
+        "symbolicRole": "Copyist Hall Nook concentrates Qinyue's local symbolism into a usable civic landmark: Section 3 local anchor.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette. It belongs to Section 3 (Records / Archives) of Qinyue and should use Subterranean Vaults, Archive Towers, White Limestone Civic Blocks, timber and red lacquer materials, Gold Seals, Lantern Lit, Civic Blue Glow, and the East Asian (Japanese) visual language. Design focus: scrolls, index cards, wax seals, memory lamps, archive stacks. Terrain/water context: Floodplain; River. Magic expression: Threshold Oaths, Blood Staunching, Herbal Spirits. No baked labels or text.",
+        "civicRole": "Serves as Section 3 local anchor within Qinyue; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Copyist Hall Nook",
+          "show how Qinyue turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 3",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Copyist Hall Nook becomes narratively important",
+          "the visible condition of Copyist Hall Nook signals political or social stress",
+          "someone uses Copyist Hall Nook's public function to redirect crowds or information",
+          "an overlooked detail at Copyist Hall Nook reveals how Qinyue really works"
+        ]
+      },
+      {
+        "name": "Medical / Healing Civic Hall",
+        "symbolicRole": "Medical / Healing Civic Hall concentrates Qinyue's local symbolism into a usable civic landmark: Section 4 local anchor.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing. It belongs to Section 4 (Medical / Healing) of Qinyue and should use Reed Pavilions, White Limestone Civic Blocks, Temple Platforms, timber and red lacquer materials, Lantern Lit, Bone White Ceremony, Hanging Gardens, and the East Asian (Japanese) visual language. Design focus: healing lamps, clinics, hospital halls, herb gardens, recovery beds. Terrain/water context: Floodplain; River. Magic expression: Threshold Oaths, Blood Staunching, Herbal Spirits. No baked labels or text.",
+        "civicRole": "Serves as Section 4 local anchor within Qinyue; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Medical / Healing Civic Hall",
+          "show how Qinyue turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 4",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Medical / Healing Civic Hall becomes narratively important",
+          "the visible condition of Medical / Healing Civic Hall signals political or social stress",
+          "someone uses Medical / Healing Civic Hall's public function to redirect crowds or information",
+          "an overlooked detail at Medical / Healing Civic Hall reveals how Qinyue really works"
+        ]
+      },
+      {
+        "name": "Medical Healing Lantern Monument",
+        "symbolicRole": "Medical Healing Lantern Monument concentrates Qinyue's local symbolism into a usable civic landmark: Section 4 local anchor.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles. It belongs to Section 4 (Medical / Healing) of Qinyue and should use Reed Pavilions, White Limestone Civic Blocks, Temple Platforms, timber and red lacquer materials, Bone White Ceremony, Hanging Gardens, Lantern Lit, and the East Asian (Japanese) visual language. Design focus: small ceremonial site, local memory marker, subordinate to major landmark, herbs, white cloth. Terrain/water context: Floodplain; River. Magic expression: Threshold Oaths, Blood Staunching, Herbal Spirits. No baked labels or text.",
+        "civicRole": "Serves as Section 4 local anchor within Qinyue; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Medical Healing Lantern Monument",
+          "show how Qinyue turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 4",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Medical Healing Lantern Monument becomes narratively important",
+          "the visible condition of Medical Healing Lantern Monument signals political or social stress",
+          "someone uses Medical Healing Lantern Monument's public function to redirect crowds or information",
+          "an overlooked detail at Medical Healing Lantern Monument reveals how Qinyue really works"
+        ]
+      },
+      {
+        "name": "Apothecary Court Nook",
+        "symbolicRole": "Apothecary Court Nook concentrates Qinyue's local symbolism into a usable civic landmark: Section 4 local anchor.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette. It belongs to Section 4 (Medical / Healing) of Qinyue and should use Temple Platforms, Reed Pavilions, White Limestone Civic Blocks, timber and red lacquer materials, Hanging Gardens, Lantern Lit, Bone White Ceremony, and the East Asian (Japanese) visual language. Design focus: usable board landmark, subordinate scale, herbs, white cloth, water bowls. Terrain/water context: Floodplain; River. Magic expression: Threshold Oaths, Blood Staunching, Herbal Spirits. No baked labels or text.",
+        "civicRole": "Serves as Section 4 local anchor within Qinyue; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Apothecary Court Nook",
+          "show how Qinyue turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 4",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Apothecary Court Nook becomes narratively important",
+          "the visible condition of Apothecary Court Nook signals political or social stress",
+          "someone uses Apothecary Court Nook's public function to redirect crowds or information",
+          "an overlooked detail at Apothecary Court Nook reveals how Qinyue really works"
+        ]
+      },
+      {
+        "name": "Artisan Guilds Civic Hall",
+        "symbolicRole": "Artisan Guilds Civic Hall concentrates Qinyue's local symbolism into a usable civic landmark: Section 5 local anchor.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing. It belongs to Section 5 (Artisan Guilds) of Qinyue and should use Market Arcades, White Limestone Civic Blocks, Forge Halls, timber and red lacquer materials, Woven Banners, Red Fabric Awnings, Lantern Lit, and the East Asian (Japanese) visual language. Design focus: hallmarks, pattern boards, work lamps, workshop rows, guild courts. Terrain/water context: Floodplain; River. Magic expression: Threshold Oaths, Blood Staunching, Herbal Spirits. No baked labels or text.",
+        "civicRole": "Serves as Section 5 local anchor within Qinyue; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Artisan Guilds Civic Hall",
+          "show how Qinyue turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 5",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Artisan Guilds Civic Hall becomes narratively important",
+          "the visible condition of Artisan Guilds Civic Hall signals political or social stress",
+          "someone uses Artisan Guilds Civic Hall's public function to redirect crowds or information",
+          "an overlooked detail at Artisan Guilds Civic Hall reveals how Qinyue really works"
+        ]
+      },
+      {
+        "name": "Woven Banners Monument",
+        "symbolicRole": "Woven Banners Monument concentrates Qinyue's local symbolism into a usable civic landmark: Section 5 local anchor.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles. It belongs to Section 5 (Artisan Guilds) of Qinyue and should use Market Arcades, White Limestone Civic Blocks, Forge Halls, timber and red lacquer materials, Red Fabric Awnings, Lantern Lit, Woven Banners, and the East Asian (Japanese) visual language. Design focus: guild courts, kiln yards, tool yards, symbolic civic object, small ceremonial site. Terrain/water context: Floodplain; River. Magic expression: Threshold Oaths, Blood Staunching, Herbal Spirits. No baked labels or text.",
+        "civicRole": "Serves as Section 5 local anchor within Qinyue; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Woven Banners Monument",
+          "show how Qinyue turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 5",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Woven Banners Monument becomes narratively important",
+          "the visible condition of Woven Banners Monument signals political or social stress",
+          "someone uses Woven Banners Monument's public function to redirect crowds or information",
+          "an overlooked detail at Woven Banners Monument reveals how Qinyue really works"
+        ]
+      },
+      {
+        "name": "Masterwork Arcade Nook",
+        "symbolicRole": "Masterwork Arcade Nook concentrates Qinyue's local symbolism into a usable civic landmark: Section 5 local anchor.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette. It belongs to Section 5 (Artisan Guilds) of Qinyue and should use White Limestone Civic Blocks, Forge Halls, Market Arcades, timber and red lacquer materials, Lantern Lit, Woven Banners, Red Fabric Awnings, and the East Asian (Japanese) visual language. Design focus: work lamps, workshop rows, guild courts, kiln yards, tool yards. Terrain/water context: Floodplain; River. Magic expression: Threshold Oaths, Blood Staunching, Herbal Spirits. No baked labels or text.",
+        "civicRole": "Serves as Section 5 local anchor within Qinyue; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Masterwork Arcade Nook",
+          "show how Qinyue turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 5",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Masterwork Arcade Nook becomes narratively important",
+          "the visible condition of Masterwork Arcade Nook signals political or social stress",
+          "someone uses Masterwork Arcade Nook's public function to redirect crowds or information",
+          "an overlooked detail at Masterwork Arcade Nook reveals how Qinyue really works"
+        ]
+      }
+    ]
+  },
+  "assetGuidance": {
+    "districtDioramaGuidance": [
+      "Dioramas must support 25 district slots: S1 covers D01, D02, D03, D06, D07 and uses source-backed anchors Canal / Riverworks Civic Hall, Lock House Beacon, Canal Reflections Monument, Waterwheel Court Nook.",
+      "Dioramas must support 25 district slots: S2 covers D04, D05, D09, D10, D15 and uses source-backed anchors Granary / Food Market Civic Hall, Grain Hall, Awning Monument, Mill Court Nook.",
+      "Dioramas must support 25 district slots: S3 covers D08, D12, D13, D14, D18 and uses source-backed anchors Records / Archives Hall, Archive Tower, Records Archives Gold-Seal Monument, Copyist Hall Nook.",
+      "Dioramas must support 25 district slots: S4 covers D11, D16, D17, D21, D22 and uses source-backed anchors Medical / Healing Civic Hall, Healing Hall, Medical Healing Lantern Monument, Apothecary Court Nook.",
+      "Dioramas must support 25 district slots: S5 covers D19, D20, D23, D24, D25 and uses source-backed anchors Artisan Guilds Civic Hall, Guildhall, Woven Banners Monument, Masterwork Arcade Nook."
+    ],
+    "mapBackgroundGuidance": [
+      "Map backgrounds must show Jade Dragon Moon-Gate of the Eastern River as the wonder-scale identity anchor, Moon Gate Arches Sovereign Registry Court at D13, and Lock House Beacon as the city signal landmark.",
+      "Preserve the five-section spine: S1 Canal / Riverworks Civic Hall, S2 Granary / Food Market Civic Hall, S3 Records / Archives Hall, S4 Medical / Healing Civic Hall, S5 Artisan Guilds Civic Hall.",
+      "Use roads, terrain, water, civic terraces, walls, markets, courts, or service routes only where they support the exact city identity and tactical readability."
+    ],
+    "requiredVisualElements": [
+      "Jade Dragon Moon-Gate of the Eastern River",
+      "Lock House Beacon",
+      "Moon Gate Arches Sovereign Registry Court",
+      "Guildhall",
+      "Grain Hall",
+      "Healing Hall",
+      "Canal / Riverworks Civic Hall",
+      "Canal Reflections Monument",
+      "Waterwheel Court Nook",
+      "Granary / Food Market Civic Hall",
+      "Awning Monument",
+      "Mill Court Nook",
+      "Records / Archives Hall",
+      "Archive Tower",
+      "Records Archives Gold-Seal Monument",
+      "Copyist Hall Nook",
+      "Medical / Healing Civic Hall",
+      "Medical Healing Lantern Monument",
+      "Apothecary Court Nook",
+      "Artisan Guilds Civic Hall",
+      "Woven Banners Monument",
+      "Masterwork Arcade Nook",
+      "Stone",
+      "Timber",
+      "Iron",
+      "Porcelain Tile",
+      "Red Lacquer",
+      "Riverside",
+      "Floodplain",
+      "Canal Basin",
+      "Civic Blue Illumination",
+      "Oath Seals",
+      "Ritual Geometry"
+    ],
+    "elementsToAvoid": [
+      "extra top-level schema sections or research-log content in the JSON",
+      "generic fantasy architecture that ignores exact anchor names",
+      "invented missing street anchors",
+      "readable real-world text labels baked into images",
+      "collapsing the 25-district board into only five playable spaces",
+      "making landmarks decorative when they should have civic, narrative, and asset function"
+    ]
+  }
+}

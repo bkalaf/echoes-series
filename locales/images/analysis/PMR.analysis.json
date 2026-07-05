@@ -4,9 +4,12 @@
     "analysisVersion": 2,
     "cityCode": "PMR",
     "cityName": "Pelas Mirr",
-    "analysisDate": "2026-07-03",
+    "analysisDate": "2026-07-05",
     "analystVersion": "gpt-5.5-thinking",
     "analysisConfidence": "strong-lock",
+    "sourceStatus": "full",
+    "districtModel": "five sections; five district slots per section; D13 is the seat of power",
+    "missingStreetSections": [],
     "basedOnImages": [
       "PMR-HERO-NE-v001",
       "PMR-HERO-NW-v001",
@@ -31,125 +34,1863 @@
     ]
   },
   "cityDNA": {
-    "coreFantasy": "A radiant sea-elven coastal academy city where nursery halls, alchemical labs, public works, lecture courts, harbor basilicas, and pearlcurrent amphitheaters make the sea civic and scholarly.",
-    "primaryEmotion": "pearl-lit civic grace",
-    "secondaryEmotion": "harbor discipline",
-    "readerTakeaway": "Pelas Mirr is not a generic beautiful coast; the uploaded images show a dense, marble-and-turquoise harbor civilization with nurseries, labs, survey halls, lectures, and ritual harbor infrastructure.",
-    "civilizationThesis": "Pelas Mirr turns sea access, nursery care, public works, study, alchemy, and harbor ritual into an organized maritime civic order.",
-    "visualIdentity": "White limestone, coral stone, sea glass, bronze, polished shell, turquoise tile, blue beacon lamps, colonnades, mosaic plazas, tidal canals, towers, harbor arches, and sea courts.",
-    "culturalIdentity": "Sea-elven culture shaped by scholarship, sea courts, coastal engineering, nursery care, alchemical craft, and public maritime ritual.",
-    "symbolicIdentity": "Pearl currents, nursery halls, star-map courts, sea glass, blue lamps, permit yards, harbor basilicas, shell arches, and amphitheaters symbolize ordered life beside living water."
+    "coreFantasy": "A sea elves city where Sea-Elven Pearlcurrent Amphitheater, Nursery Hall Beacon, Star Map Ceilings Veiled High Court, and the five-section district spine turn local identity into functional civic space.",
+    "primaryEmotion": "source-backed civic presence",
+    "secondaryEmotion": "lived-in pressure beneath landmark order",
+    "readerTakeaway": "Pelas Mirr should feel immediately identifiable through exact landmarks and materials, not through generic fantasy-city shorthand.",
+    "civilizationThesis": "Pelas Mirr organizes power through Star Map Ceilings Veiled High Court, public response through Nursery Hall Beacon, civic memory through Sea-Elven Pearlcurrent Amphitheater, and daily life through S1 S1 Nursery Hall, S2 Arcane / Alchemical Labs Civic Hall, S3 Public Works Authority Hall, S4 University / Lyceum Civic Hall, S5 S5 Harbor Campus.",
+    "visualIdentity": "Pale Marble Stone, Sea Glass, Stone, Silver Inlay, Arcane Glow, Coastal Edge, Seawall Edge, Harbor Basin, Ward Networks, Ritual Geometry, Moonlight Refraction, and exact anchors including Star Map Ceilings Veiled High Court, Nursery Hall Beacon, Sea-Elven Pearlcurrent Amphitheater, Harbor Basilica, Alchemy Lab, Lecture Hall, S1 Nursery Hall, S1 Nursery Pillar, S1 Nursery Kiosk, Arcane / Alchemical Labs Civic Hall.",
+    "culturalIdentity": "A sea elves civic culture where architecture, public obligations, roads, landmark approaches, and everyday work must all read as part of the same civilization.",
+    "symbolicIdentity": "The city symbol system is built from exact names and visible functions: Sea-Elven Pearlcurrent Amphitheater, Nursery Hall Beacon, Star Map Ceilings Veiled High Court, and section anchors such as S1 Nursery Hall, Arcane / Alchemical Labs Civic Hall, Public Works Authority Hall, University / Lyceum Civic Hall, S5 Harbor Campus."
   },
   "canon": {
     "canonLocks": [
-      "Pelas Mirr is a mature sea-elven maritime city, not generic coastal scenery.",
+      "Pelas Mirr uses city code PMR.",
       "The Wonder is Sea-Elven Pearlcurrent Amphitheater.",
       "The Beacon is Nursery Hall Beacon.",
-      "The Seat of Power is Star Map Ceilings Veiled High Court.",
-      "The five primary districts are Nursery Hall, Arcane / Alchemical Labs, Public Works Authority, University / Lyceum, and Harbor Campus.",
-      "The uploaded district anchors include S1 Nursery Hall, Nursery Hall Beacon, S1 Nursery Pillar, S1 Nursery Kiosk, Arcane / Alchemical Labs Civic Hall, Alchemy Lab, Blue-Lamp Monument, Formula Archive Nook, Public Works Authority Hall, Survey Hall, Blue-Lamp Monument, Permit Yard Nook, University / Lyceum Civic Hall, Lecture Hall, Star Navigation Monument, Observatory Court Nook, S5 Harbor Campus, Harbor Basilica, S5 Harbor Arch, and S5 Harbor Bridgelet."
+      "The Seat of Power is Star Map Ceilings Veiled High Court and occupies District 13.",
+      "The city uses five sections with five tactical district slots per section.",
+      "The source-backed section spine is: S1 S1 Nursery Hall, S2 Arcane / Alchemical Labs Civic Hall, S3 Public Works Authority Hall, S4 University / Lyceum Civic Hall, S5 S5 Harbor Campus.",
+      "Preserve exact anchor name: Star Map Ceilings Veiled High Court.",
+      "Preserve exact anchor name: Nursery Hall Beacon.",
+      "Preserve exact anchor name: Sea-Elven Pearlcurrent Amphitheater.",
+      "Preserve exact anchor name: Harbor Basilica.",
+      "Preserve exact anchor name: Alchemy Lab.",
+      "Preserve exact anchor name: Lecture Hall.",
+      "Preserve exact anchor name: S1 Nursery Hall.",
+      "Preserve exact anchor name: S1 Nursery Pillar.",
+      "Preserve exact anchor name: S1 Nursery Kiosk.",
+      "Preserve exact anchor name: Arcane / Alchemical Labs Civic Hall.",
+      "Preserve exact anchor name: Blue-Lamp Monument.",
+      "Preserve exact anchor name: Formula Archive Nook.",
+      "Preserve exact anchor name: Public Works Authority Hall.",
+      "Preserve exact anchor name: Survey Hall.",
+      "Preserve exact anchor name: Permit Yard Nook.",
+      "Preserve exact anchor name: University / Lyceum Civic Hall.",
+      "Preserve exact anchor name: Star Navigation Monument.",
+      "Preserve exact anchor name: Observatory Court Nook.",
+      "Preserve exact anchor name: S5 Harbor Campus.",
+      "Preserve exact anchor name: S5 Harbor Arch.",
+      "Preserve exact anchor name: S5 Harbor Bridgelet."
     ],
-    "provisionalCanon": [
-      "Pelas Mirr's highest civic virtue is cultivated continuity.",
-      "The contact-sheet pass emphasizes clear turquoise water, bright stone, civic plazas, and organized harbor movement rather than wild island fantasy.",
-      "Nursery and public works should be as important as sea-elven elegance."
-    ],
+    "provisionalCanon": [],
     "rejectedReads": [
-      "generic island palace",
-      "sea elves as pure ornament",
-      "harbor beauty without logistics or public works",
-      "nursery hall as decorative background"
+      "Do not treat Pelas Mirr as a generic fantasy settlement with renamed landmarks.",
+      "Do not collapse the five-section board into a single mood or single district.",
+      "Do not replace exact anchor names with generic summaries.",
+      "Do not invent missing street-section landmarks when a street source is absent."
     ],
     "cautionFlags": [
-      "Preserve exact S1 Nursery Hall / Pillar / Kiosk and S5 Harbor Campus / Arch / Bridgelet names.",
-      "Keep water movement and civic engineering visible.",
-      "Do not reduce Pelas Mirr to Luminthalas-by-the-sea."
+      "Keep every named Wonder, Beacon, Seat, section civic hall, major landmark, monument, and minor nook exact when present in sidecars.",
+      "If an image appears to deviate from a sidecar, preserve the exact name but avoid overclaiming visual details not supported by the source package.",
+      "Every district asset should remain usable for narrative scenes, tactical board dioramas, and city map backgrounds."
     ]
   },
   "environment": {
-    "terrain": ["coastal edge", "terraced harbor", "sea-wall plazas", "canal streets", "reef-facing courts", "cliffside civic terraces"],
-    "water": ["turquoise harbor water", "tidal canals", "nursery pools", "harbor basins", "sea courts", "public works channels", "reef shallows"],
-    "vegetation": ["coastal pines", "sea grasses", "courtyard planters", "salt-tolerant gardens", "harbor greenery"],
-    "climateLighting": ["bright coastal daylight", "water-reflected light", "blue beacon glow", "pearl shimmer", "golden-hour harbor light", "clear maritime air"],
-    "environmentalLogic": "The sea is road, nursery, ritual field, research subject, and engineering problem. Pelas Mirr uses plazas, canals, survey halls, and harbor campuses to make water legible."
+    "terrain": [
+      "Coastal Edge",
+      "Seawall Edge",
+      "Harbor Basin"
+    ],
+    "water": [
+      "Coast"
+    ],
+    "vegetation": [
+      "courtyard trees",
+      "balcony planters",
+      "public greenery where visible",
+      "source-backed local vegetation only"
+    ],
+    "climateLighting": [
+      "Ward Networks",
+      "Ritual Geometry",
+      "Moonlight Refraction",
+      "daylight",
+      "golden hour",
+      "lantern light",
+      "civic beacon glow"
+    ],
+    "environmentalLogic": "The environment should make Pelas Mirr's exact civic anchors plausible at street scale: terrain routes people toward section landmarks, lighting clarifies public authority, and water or landscape features remain source-backed rather than decorative filler."
   },
   "architecture": {
-    "materials": ["white limestone", "coral stone", "sea glass", "bronze", "polished shell", "turquoise tile", "blue glass lamps", "mosaic paving"],
-    "forms": ["Sea-Elven Pearlcurrent Amphitheater", "Star Map Ceilings Veiled High Court", "S1 Nursery Hall", "Nursery Hall Beacon", "S1 Nursery Pillar", "S1 Nursery Kiosk", "Alchemy Lab", "Formula Archive Nook", "Survey Hall", "Permit Yard Nook", "Lecture Hall", "Observatory Court Nook", "S5 Harbor Campus", "Harbor Basilica", "S5 Harbor Arch", "S5 Harbor Bridgelet"],
-    "skyline": ["Pearlcurrent Amphitheater as wonder", "Star Map Ceilings Veiled High Court as authority", "Nursery Hall Beacon as signal", "harbor towers, survey halls, lecture courts, and harbor basilica rising from turquoise water"],
-    "lighting": ["sun on white stone", "turquoise water reflection", "blue beacon light", "pearl shimmer", "warm harbor lanterns"],
-    "infrastructure": ["sea walls", "tidal canals", "nursery halls", "alchemical labs", "survey platforms", "permit yards", "lecture courts", "harbor arches", "bridgelets", "docks"],
-    "motifs": ["pearls", "waves", "shell spirals", "blue lamps", "star navigation", "harbor arches", "mosaics", "sea glass", "nursery pillars"],
-    "colorLanguage": ["white limestone", "turquoise water", "pearl white", "bronze gold", "blue lamp glow", "coral warmth"],
-    "textureLanguage": ["smooth marble", "wet mosaic", "polished shell", "sea glass", "salt-bright stone", "bronze railings"]
+    "materials": [
+      "Pale Marble Stone",
+      "Sea Glass",
+      "Stone",
+      "Silver Inlay",
+      "Arcane Glow"
+    ],
+    "forms": [
+      "Star Map Ceilings Veiled High Court",
+      "Nursery Hall Beacon",
+      "Sea-Elven Pearlcurrent Amphitheater",
+      "Harbor Basilica",
+      "Alchemy Lab",
+      "Lecture Hall",
+      "S1 Nursery Hall",
+      "S1 Nursery Pillar",
+      "S1 Nursery Kiosk",
+      "Arcane / Alchemical Labs Civic Hall",
+      "Blue-Lamp Monument",
+      "Formula Archive Nook",
+      "Public Works Authority Hall",
+      "Survey Hall",
+      "Permit Yard Nook",
+      "University / Lyceum Civic Hall",
+      "Star Navigation Monument",
+      "Observatory Court Nook",
+      "S5 Harbor Campus",
+      "S5 Harbor Arch",
+      "S5 Harbor Bridgelet",
+      "section civic halls",
+      "major landmark approaches",
+      "monument frontages",
+      "minor landmark nooks",
+      "district roads and plazas",
+      "D13 authority complex"
+    ],
+    "skyline": [
+      "Sea-Elven Pearlcurrent Amphitheater",
+      "Star Map Ceilings Veiled High Court",
+      "Nursery Hall Beacon",
+      "Harbor Basilica",
+      "Alchemy Lab",
+      "Lecture Hall",
+      "S1 Nursery Hall",
+      "S1 Nursery Pillar",
+      "S1 Nursery Kiosk"
+    ],
+    "lighting": [
+      "Ward Networks",
+      "Ritual Geometry",
+      "Moonlight Refraction",
+      "beacon-state light",
+      "lantern-lit civic paths",
+      "street-level shop and housing light"
+    ],
+    "infrastructure": [
+      "S1 Nursery Hall",
+      "Arcane / Alchemical Labs Civic Hall",
+      "Public Works Authority Hall",
+      "University / Lyceum Civic Hall",
+      "S5 Harbor Campus",
+      "roads between district slots",
+      "public thresholds",
+      "plaza edges",
+      "records, permits, markets, services, or rituals implied by anchors"
+    ],
+    "motifs": [
+      "Star",
+      "Ceilings",
+      "Veiled",
+      "High",
+      "Court",
+      "Nursery",
+      "Hall",
+      "Beacon",
+      "Sea-Elven",
+      "Pearlcurrent",
+      "Amphitheater",
+      "Harbor",
+      "Basilica",
+      "Alchemy",
+      "Lecture"
+    ],
+    "colorLanguage": [
+      "source-backed material colors",
+      "civic blue signal accents",
+      "local textile, stone, metal, vegetation, or water colors from the image package"
+    ],
+    "textureLanguage": [
+      "Pale Marble Stone",
+      "Sea Glass",
+      "Stone",
+      "Silver Inlay",
+      "Arcane Glow",
+      "worn pedestrian surfaces",
+      "worked civic ornament",
+      "weathered public thresholds",
+      "lived-in shop and housing details"
+    ]
   },
   "civilization": {
-    "people": "Sea-elven citizens are elegant but practical: caregivers, alchemists, surveyors, lecturers, students, harbor clergy, sailors, and engineers all share the same public waterfront.",
-    "occupations": ["nursery stewards", "alchemists", "formula archivists", "surveyors", "permit clerks", "lecturers", "students", "harbor priests", "dockhands", "mosaic workers"],
-    "socialClasses": ["High Court officials", "nursery houses", "alchemy guilds", "public works staff", "university scholars", "harbor basilica attendants", "dock families"],
-    "governance": "The Star Map Ceilings Veiled High Court governs through celestial-maritime law, nursery protections, public works permits, harbor rites, and scholarly testimony.",
-    "religion": "Harbor basilica rites, pearlcurrent ceremonies, nursery blessings, star navigation, and sea-court processions make maritime life sacred-adjacent.",
-    "customs": ["nursery hall blessings", "permit inspection before water work", "lecture assemblies", "harbor crossing rites", "alchemy formula sealing", "star navigation lessons"],
-    "bodyLanguage": ["measured coastal poise", "water-aware movement", "careful handling of shell and glass", "formal gestures in plazas", "easy balance near canals"],
-    "speechPatterns": ["tide terms", "scholarly phrases", "permit language", "harbor blessings", "formula references", "star navigation vocabulary"]
+    "people": "The population should read as sea elves and city-specific: citizens occupy streets, shops, public thresholds, and landmark approaches as people who understand the local civic order.",
+    "occupations": [
+      "astronomers",
+      "navigators",
+      "dock workers",
+      "water engineers",
+      "ritual attendants",
+      "caretakers",
+      "market sellers",
+      "stall keepers",
+      "archivists",
+      "record clerks",
+      "district clerks",
+      "craft families",
+      "porters",
+      "maintenance workers",
+      "food sellers",
+      "messengers"
+    ],
+    "socialClasses": [
+      "D13 officials and court staff",
+      "section landmark custodians",
+      "guild and service families",
+      "shopkeepers and artisans",
+      "laborers, carriers, messengers, and maintenance crews",
+      "households tied to local district obligations"
+    ],
+    "governance": "Government is centered on Star Map Ceilings Veiled High Court. Its authority should be visible through courts, records, public access routes, civic lamps, guards or attendants, and the way citizens respond to D13.",
+    "religion": "Religious or ritual life should only be emphasized where source anchors support it, especially names such as Harbor Basilica.",
+    "customs": [
+      "citizens orient public life around S1 Nursery Hall in Section 1",
+      "citizens orient public life around Arcane / Alchemical Labs Civic Hall in Section 2",
+      "citizens orient public life around Public Works Authority Hall in Section 3",
+      "citizens orient public life around University / Lyceum Civic Hall in Section 4",
+      "citizens orient public life around S5 Harbor Campus in Section 5",
+      "beacon changes become public behavior, not background color",
+      "exact landmark names carry social memory and directions",
+      "civic errands happen visibly at thresholds, queues, ledgers, stalls, courts, or shrines"
+    ],
+    "bodyLanguage": [
+      "citizens pause at civic signals",
+      "workers move with practiced familiarity around district anchors",
+      "officials use thresholds and raised places to control attention",
+      "residents treat named landmarks as everyday orientation points"
+    ],
+    "speechPatterns": [
+      "directions use exact landmark names",
+      "public notices are tied to section anchors",
+      "local speech distinguishes civic authority, ordinary errands, and landmark obligations",
+      "people refer to D13 as the seat of power rather than a faction headquarters"
+    ]
   },
   "urbanLife": {
     "streets": {
-      "appearance": "Bright, elegant, and crowded with turquoise canals, white civic buildings, nursery statues, blue lamps, survey tables, lecture plazas, harbor arches, and boats at street level.",
-      "movement": "Movement follows canals, bridges, seawalls, mosaic streets, lecture terraces, permit yards, nursery halls, and harbor bridgelets.",
-      "sounds": ["water against stone", "gulls", "harbor bells", "lecture voices", "glass clinks", "dock work", "soft plaza crowds"],
-      "smells": ["salt air", "polished shell", "seaweed", "lamp oil", "stone warmed by sun", "alchemy herbs", "harbor food"],
-      "lighting": "Water-reflected daylight brightens plazas by day; blue lamps and warm harbor lanterns define night.",
-      "weatherEffects": "Sea spray, glare, clear air, and occasional harbor fog shape visibility and movement.",
-      "dayCycle": "Nursery care, survey permits, lectures, alchemical work, and harbor traffic dominate daytime.",
-      "nightCycle": "Blue lamps, quiet canals, harbor rites, observatory work, and late dock traffic dominate night."
+      "appearance": "Streets should show Pelas Mirr's exact anchor system at pedestrian scale: S1 S1 Nursery Hall, S2 Arcane / Alchemical Labs Civic Hall, S3 Public Works Authority Hall, S4 University / Lyceum Civic Hall, S5 S5 Harbor Campus. Keep roads, plazas, stairs, thresholds, lamps, signs-without-readable-text, props, and civilians aligned to the source-backed materials and landmarks.",
+      "movement": "Movement should be readable for tactical-board assets: citizens pass between 25 district slots, section anchors, D13, service streets, and landmark approaches without visual clutter hiding the civic purpose.",
+      "sounds": [
+        "foot traffic",
+        "vendors and service calls",
+        "tools and carts",
+        "public notices",
+        "landmark-specific sounds from water, bells, animals, machines, or crowds when source-backed",
+        "beacon-state crowd reactions"
+      ],
+      "smells": [
+        "street food",
+        "worked material dust",
+        "lamp oil or smoke",
+        "vegetation or water where source-backed",
+        "worn stone, timber, metal, plaster, or fabric"
+      ],
+      "lighting": "Use the package's source-backed civic lighting, daylight/golden-hour reads, lanterns, and beacon glow. Lighting must help identify authority, safety, and landmark function.",
+      "weatherEffects": "Weather should reinforce the local terrain and materials without overwhelming the city identity or inventing unsupported climate extremes.",
+      "dayCycle": "Day scenes emphasize errands, trade, records, repairs, rituals, food, and section-level movement.",
+      "nightCycle": "Night scenes emphasize lantern routes, closed thresholds, guarded landmarks, quiet work, and beacon visibility."
     },
     "shops": {
-      "common": ["fish stalls", "shell craft counters", "mosaic repairers", "tea vendors", "harbor food carts"],
-      "uncommon": ["sea-glass lens makers", "formula copyists", "tide-chart vendors", "permit scribes", "nursery charm sellers"],
-      "prestigious": ["High Court record offices", "alchemy guild labs", "university patron halls", "harbor basilica suppliers"],
-      "exports": ["sea glass", "shell craft", "maritime charts", "alchemy formulae", "scholarship", "harbor engineering"],
-      "imports": ["paper", "rare reagents", "metals", "grain", "fine cloth", "timber"],
-      "streetFood": ["grilled fish", "seaweed broth", "pearled rice", "citrus pastries", "salted flatbread"],
-      "services": ["water permits", "nursery care", "lecture access", "alchemy consultation", "harbor blessings", "surveying"]
+      "common": [
+        "food stalls",
+        "repair stalls",
+        "material vendors",
+        "ledger or permit desks",
+        "local craft counters",
+        "street services tied to section anchors"
+      ],
+      "uncommon": [
+        "specialist landmark caretakers",
+        "instrument makers",
+        "ritual suppliers",
+        "map or record copyists",
+        "district-specific guild services"
+      ],
+      "prestigious": [
+        "D13-facing legal or registry services",
+        "elite craft workshops",
+        "landmark commission houses",
+        "official suppliers for civic ceremonies"
+      ],
+      "exports": [
+        "local crafts",
+        "records or seals",
+        "finished materials",
+        "food goods",
+        "specialized tools or ritual goods as supported by anchors"
+      ],
+      "imports": [
+        "rare materials",
+        "dyes, oils, spices, timber, stone, metal, glass, or cloth as needed by the architecture",
+        "outside records and trade goods"
+      ],
+      "streetFood": [
+        "flatbread or local bread",
+        "stew or grilled skewers",
+        "fruit or preserved food",
+        "tea or civic-square drinks",
+        "portable worker meals"
+      ],
+      "services": [
+        "directions by landmark",
+        "message running",
+        "permit help",
+        "repairs",
+        "food service",
+        "transport or porterage",
+        "public notice posting"
+      ]
     },
     "housing": {
-      "wealthy": "High terraces and sea-court residences with shell windows, private docks, and views toward the amphitheater or High Court.",
-      "middle": "Canal apartments, scholar homes, surveyor rooms, and dock-family houses around mosaic courts.",
-      "poor": "Harbor-edge rooms, service courts, shared water access, and small homes under larger sea-wall structures."
+      "wealthy": "Prestige housing clusters near Star Map Ceilings Veiled High Court, high terraces, or landmark-facing routes, using the best source-backed materials and controlled views of civic space.",
+      "middle": "Shop-over-house units, courtyard homes, guild-adjacent apartments, and family rooms near section anchors.",
+      "poor": "Smaller back-street rooms, work-adjacent housing, shared courtyards, service alleys, patched materials, and dense but still city-specific lived-in detail."
     }
   },
   "districts": [
-    {"sectionNumber": 1, "name": "Nursery Hall", "civicPurpose": "Protected early life, public continuity, and Beacon-centered civic response.", "visualIdentity": "S1 Nursery Hall, Nursery Hall Beacon, S1 Nursery Pillar, S1 Nursery Kiosk, bright plazas, caregivers, and turquoise water.", "emotionalIdentity": "tender, public, ceremonial, and protected", "gameplayAssetNeeds": ["S1 Nursery Hall", "Nursery Hall Beacon", "S1 Nursery Pillar", "S1 Nursery Kiosk", "caregivers", "water basins"], "narrativeUse": ["Beacon warning", "nursery protection", "family stakes"], "landmark": "Nursery Hall Beacon", "minorLandmarks": ["S1 Nursery Pillar", "S1 Nursery Kiosk"]},
-    {"sectionNumber": 2, "name": "Arcane / Alchemical Labs", "civicPurpose": "Maritime research, formula control, and dangerous useful knowledge.", "visualIdentity": "Arcane / Alchemical Labs Civic Hall, Alchemy Lab, Blue-Lamp Monument, Formula Archive Nook, glassware, blue light, and sea-facing terraces.", "emotionalIdentity": "precise, bright, risky, and scholarly", "gameplayAssetNeeds": ["Arcane / Alchemical Labs Civic Hall", "Alchemy Lab", "Blue-Lamp Monument", "Formula Archive Nook", "glassware", "reagents"], "narrativeUse": ["formula clue", "alchemy risk", "research dispute"], "landmark": "Alchemy Lab", "minorLandmarks": ["Blue-Lamp Monument", "Formula Archive Nook"]},
-    {"sectionNumber": 3, "name": "Public Works Authority", "civicPurpose": "Harbor engineering, permits, surveys, sea-wall maintenance, and canal control.", "visualIdentity": "Public Works Authority Hall, Survey Hall, Blue-Lamp Monument, Permit Yard Nook, maps, instruments, and water-facing work courts.", "emotionalIdentity": "technical, responsible, and civic-minded", "gameplayAssetNeeds": ["Public Works Authority Hall", "Survey Hall", "Blue-Lamp Monument", "Permit Yard Nook", "surveyors", "harbor maps"], "narrativeUse": ["permit dispute", "engineering clue", "harbor safety"], "landmark": "Survey Hall", "minorLandmarks": ["Blue-Lamp Monument", "Permit Yard Nook"]},
-    {"sectionNumber": 4, "name": "University / Lyceum", "civicPurpose": "Public scholarship, star navigation, civic instruction, and maritime education.", "visualIdentity": "University / Lyceum Civic Hall, Lecture Hall, Star Navigation Monument, Observatory Court Nook, students, teachers, and open plazas.", "emotionalIdentity": "learned, public, and luminous", "gameplayAssetNeeds": ["University / Lyceum Civic Hall", "Lecture Hall", "Star Navigation Monument", "Observatory Court Nook", "students", "star charts"], "narrativeUse": ["lecture scene", "navigation clue", "student witness"], "landmark": "Lecture Hall", "minorLandmarks": ["Star Navigation Monument", "Observatory Court Nook"]},
-    {"sectionNumber": 5, "name": "Harbor Campus", "civicPurpose": "Harbor ritual, public crossing, maritime blessing, and civic waterfront identity.", "visualIdentity": "S5 Harbor Campus, Harbor Basilica, S5 Harbor Arch, S5 Harbor Bridgelet, docks, boats, shell detail, and blue water.", "emotionalIdentity": "reverent, open, civic, and maritime", "gameplayAssetNeeds": ["S5 Harbor Campus", "Harbor Basilica", "S5 Harbor Arch", "S5 Harbor Bridgelet", "boats", "ritual crowd"], "narrativeUse": ["harbor blessing", "public crossing", "maritime ceremony"], "landmark": "Harbor Basilica", "minorLandmarks": ["S5 Harbor Arch", "S5 Harbor Bridgelet"]}
+    {
+      "districtNumber": 1,
+      "districtId": "D01",
+      "sectionNumber": 1,
+      "name": "D01 — S1 Nursery Hall Civic-Anchor Precinct",
+      "civicPurpose": "This district turns Section 1's source-backed anchor set into a board-scale civic space: S1 Nursery Hall, Nursery Hall Beacon, S1 Nursery Pillar, S1 Nursery Kiosk. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Pelas Mirr.",
+      "visualIdentity": "Use S1 Nursery Hall as the main read. Keep exact source anchors visible where applicable: S1 Nursery Hall, Nursery Hall Beacon, S1 Nursery Pillar, S1 Nursery Kiosk. The district should share Pelas Mirr's sea elves identity, Pale Marble Stone, Sea Glass, Stone, Silver Inlay, and Coastal Edge, Seawall Edge, Harbor Basin without becoming generic.",
+      "emotionalIdentity": "Locally grounded, with Pelas Mirr's larger mood shaped by Sea-Elven Pearlcurrent Amphitheater, Nursery Hall Beacon, and Star Map Ceilings Veiled High Court.",
+      "gameplayAssetNeeds": [
+        "S1 Nursery Hall",
+        "Nursery Hall Beacon",
+        "S1 Nursery Pillar",
+        "S1 Nursery Kiosk",
+        "Section 1 pedestrian-scale props",
+        "Pelas Mirr civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on S1 Nursery Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "S1 Nursery Hall",
+      "minorLandmarks": [
+        "Nursery Hall Beacon",
+        "S1 Nursery Pillar",
+        "S1 Nursery Kiosk"
+      ]
+    },
+    {
+      "districtNumber": 2,
+      "districtId": "D02",
+      "sectionNumber": 1,
+      "name": "D02 — Nursery Hall Beacon Landmark Approach",
+      "civicPurpose": "This district turns Section 1's source-backed anchor set into a board-scale civic space: S1 Nursery Hall, Nursery Hall Beacon, S1 Nursery Pillar, S1 Nursery Kiosk. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Pelas Mirr.",
+      "visualIdentity": "Use Nursery Hall Beacon as the main read. Keep exact source anchors visible where applicable: S1 Nursery Hall, Nursery Hall Beacon, S1 Nursery Pillar, S1 Nursery Kiosk. The district should share Pelas Mirr's sea elves identity, Pale Marble Stone, Sea Glass, Stone, Silver Inlay, and Coastal Edge, Seawall Edge, Harbor Basin without becoming generic.",
+      "emotionalIdentity": "Public-facing, with Pelas Mirr's larger mood shaped by Sea-Elven Pearlcurrent Amphitheater, Nursery Hall Beacon, and Star Map Ceilings Veiled High Court.",
+      "gameplayAssetNeeds": [
+        "Nursery Hall Beacon",
+        "S1 Nursery Hall",
+        "S1 Nursery Pillar",
+        "S1 Nursery Kiosk",
+        "Section 1 pedestrian-scale props",
+        "Pelas Mirr civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Nursery Hall Beacon",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "Conjunction response, rumor spread, or authority pressure"
+      ],
+      "landmark": "Nursery Hall Beacon",
+      "minorLandmarks": [
+        "S1 Nursery Hall",
+        "S1 Nursery Pillar",
+        "S1 Nursery Kiosk"
+      ]
+    },
+    {
+      "districtNumber": 3,
+      "districtId": "D03",
+      "sectionNumber": 1,
+      "name": "D03 — S1 Nursery Pillar Monument Frontage",
+      "civicPurpose": "This district turns Section 1's source-backed anchor set into a board-scale civic space: S1 Nursery Hall, Nursery Hall Beacon, S1 Nursery Pillar, S1 Nursery Kiosk. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Pelas Mirr.",
+      "visualIdentity": "Use S1 Nursery Pillar as the main read. Keep exact source anchors visible where applicable: S1 Nursery Hall, Nursery Hall Beacon, S1 Nursery Pillar, S1 Nursery Kiosk. The district should share Pelas Mirr's sea elves identity, Pale Marble Stone, Sea Glass, Stone, Silver Inlay, and Coastal Edge, Seawall Edge, Harbor Basin without becoming generic.",
+      "emotionalIdentity": "Memorial or symbolic, with Pelas Mirr's larger mood shaped by Sea-Elven Pearlcurrent Amphitheater, Nursery Hall Beacon, and Star Map Ceilings Veiled High Court.",
+      "gameplayAssetNeeds": [
+        "S1 Nursery Pillar",
+        "S1 Nursery Hall",
+        "Nursery Hall Beacon",
+        "S1 Nursery Kiosk",
+        "Section 1 pedestrian-scale props",
+        "Pelas Mirr civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on S1 Nursery Pillar",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "S1 Nursery Pillar",
+      "minorLandmarks": [
+        "S1 Nursery Hall",
+        "Nursery Hall Beacon",
+        "S1 Nursery Kiosk"
+      ]
+    },
+    {
+      "districtNumber": 6,
+      "districtId": "D06",
+      "sectionNumber": 1,
+      "name": "D06 — S1 Nursery Kiosk Neighborhood Nook",
+      "civicPurpose": "This district turns Section 1's source-backed anchor set into a board-scale civic space: S1 Nursery Hall, Nursery Hall Beacon, S1 Nursery Pillar, S1 Nursery Kiosk. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Pelas Mirr.",
+      "visualIdentity": "Use S1 Nursery Kiosk as the main read. Keep exact source anchors visible where applicable: S1 Nursery Hall, Nursery Hall Beacon, S1 Nursery Pillar, S1 Nursery Kiosk. The district should share Pelas Mirr's sea elves identity, Pale Marble Stone, Sea Glass, Stone, Silver Inlay, and Coastal Edge, Seawall Edge, Harbor Basin without becoming generic.",
+      "emotionalIdentity": "Intimate and lived-in, with Pelas Mirr's larger mood shaped by Sea-Elven Pearlcurrent Amphitheater, Nursery Hall Beacon, and Star Map Ceilings Veiled High Court.",
+      "gameplayAssetNeeds": [
+        "S1 Nursery Kiosk",
+        "S1 Nursery Hall",
+        "Nursery Hall Beacon",
+        "S1 Nursery Pillar",
+        "Section 1 pedestrian-scale props",
+        "Pelas Mirr civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on S1 Nursery Kiosk",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "S1 Nursery Kiosk",
+      "minorLandmarks": [
+        "S1 Nursery Hall",
+        "Nursery Hall Beacon",
+        "S1 Nursery Pillar"
+      ]
+    },
+    {
+      "districtNumber": 7,
+      "districtId": "D07",
+      "sectionNumber": 1,
+      "name": "D07 — S1 Nursery Hall Supporting Streets",
+      "civicPurpose": "This district turns Section 1's source-backed anchor set into a board-scale civic space: S1 Nursery Hall, Nursery Hall Beacon, S1 Nursery Pillar, S1 Nursery Kiosk. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Pelas Mirr.",
+      "visualIdentity": "Use S1 Nursery Hall as the main read. Keep exact source anchors visible where applicable: S1 Nursery Hall, Nursery Hall Beacon, S1 Nursery Pillar, S1 Nursery Kiosk. The district should share Pelas Mirr's sea elves identity, Pale Marble Stone, Sea Glass, Stone, Silver Inlay, and Coastal Edge, Seawall Edge, Harbor Basin without becoming generic.",
+      "emotionalIdentity": "Connective and practical, with Pelas Mirr's larger mood shaped by Sea-Elven Pearlcurrent Amphitheater, Nursery Hall Beacon, and Star Map Ceilings Veiled High Court.",
+      "gameplayAssetNeeds": [
+        "S1 Nursery Hall",
+        "Nursery Hall Beacon",
+        "S1 Nursery Pillar",
+        "S1 Nursery Kiosk",
+        "Section 1 pedestrian-scale props",
+        "Pelas Mirr civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on S1 Nursery Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "S1 Nursery Hall",
+      "minorLandmarks": [
+        "Nursery Hall Beacon",
+        "S1 Nursery Pillar",
+        "S1 Nursery Kiosk"
+      ]
+    },
+    {
+      "districtNumber": 4,
+      "districtId": "D04",
+      "sectionNumber": 2,
+      "name": "D04 — Arcane / Alchemical Labs Civic Hall Civic-Anchor Precinct",
+      "civicPurpose": "This district turns Section 2's source-backed anchor set into a board-scale civic space: Arcane / Alchemical Labs Civic Hall, Alchemy Lab, Blue-Lamp Monument, Formula Archive Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Pelas Mirr.",
+      "visualIdentity": "Use Arcane / Alchemical Labs Civic Hall as the main read. Keep exact source anchors visible where applicable: Arcane / Alchemical Labs Civic Hall, Alchemy Lab, Blue-Lamp Monument, Formula Archive Nook. The district should share Pelas Mirr's sea elves identity, Pale Marble Stone, Sea Glass, Stone, Silver Inlay, and Coastal Edge, Seawall Edge, Harbor Basin without becoming generic.",
+      "emotionalIdentity": "Locally grounded, with Pelas Mirr's larger mood shaped by Sea-Elven Pearlcurrent Amphitheater, Nursery Hall Beacon, and Star Map Ceilings Veiled High Court.",
+      "gameplayAssetNeeds": [
+        "Arcane / Alchemical Labs Civic Hall",
+        "Alchemy Lab",
+        "Blue-Lamp Monument",
+        "Formula Archive Nook",
+        "Section 2 pedestrian-scale props",
+        "Pelas Mirr civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Arcane / Alchemical Labs Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Arcane / Alchemical Labs Civic Hall",
+      "minorLandmarks": [
+        "Alchemy Lab",
+        "Blue-Lamp Monument",
+        "Formula Archive Nook"
+      ]
+    },
+    {
+      "districtNumber": 5,
+      "districtId": "D05",
+      "sectionNumber": 2,
+      "name": "D05 — Alchemy Lab Landmark Approach",
+      "civicPurpose": "This district turns Section 2's source-backed anchor set into a board-scale civic space: Arcane / Alchemical Labs Civic Hall, Alchemy Lab, Blue-Lamp Monument, Formula Archive Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Pelas Mirr.",
+      "visualIdentity": "Use Alchemy Lab as the main read. Keep exact source anchors visible where applicable: Arcane / Alchemical Labs Civic Hall, Alchemy Lab, Blue-Lamp Monument, Formula Archive Nook. The district should share Pelas Mirr's sea elves identity, Pale Marble Stone, Sea Glass, Stone, Silver Inlay, and Coastal Edge, Seawall Edge, Harbor Basin without becoming generic.",
+      "emotionalIdentity": "Public-facing, with Pelas Mirr's larger mood shaped by Sea-Elven Pearlcurrent Amphitheater, Nursery Hall Beacon, and Star Map Ceilings Veiled High Court.",
+      "gameplayAssetNeeds": [
+        "Alchemy Lab",
+        "Arcane / Alchemical Labs Civic Hall",
+        "Blue-Lamp Monument",
+        "Formula Archive Nook",
+        "Section 2 pedestrian-scale props",
+        "Pelas Mirr civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Alchemy Lab",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Alchemy Lab",
+      "minorLandmarks": [
+        "Arcane / Alchemical Labs Civic Hall",
+        "Blue-Lamp Monument",
+        "Formula Archive Nook"
+      ]
+    },
+    {
+      "districtNumber": 9,
+      "districtId": "D09",
+      "sectionNumber": 2,
+      "name": "D09 — Blue-Lamp Monument Monument Frontage",
+      "civicPurpose": "This district turns Section 2's source-backed anchor set into a board-scale civic space: Arcane / Alchemical Labs Civic Hall, Alchemy Lab, Blue-Lamp Monument, Formula Archive Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Pelas Mirr.",
+      "visualIdentity": "Use Blue-Lamp Monument as the main read. Keep exact source anchors visible where applicable: Arcane / Alchemical Labs Civic Hall, Alchemy Lab, Blue-Lamp Monument, Formula Archive Nook. The district should share Pelas Mirr's sea elves identity, Pale Marble Stone, Sea Glass, Stone, Silver Inlay, and Coastal Edge, Seawall Edge, Harbor Basin without becoming generic.",
+      "emotionalIdentity": "Memorial or symbolic, with Pelas Mirr's larger mood shaped by Sea-Elven Pearlcurrent Amphitheater, Nursery Hall Beacon, and Star Map Ceilings Veiled High Court.",
+      "gameplayAssetNeeds": [
+        "Blue-Lamp Monument",
+        "Arcane / Alchemical Labs Civic Hall",
+        "Alchemy Lab",
+        "Formula Archive Nook",
+        "Section 2 pedestrian-scale props",
+        "Pelas Mirr civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Blue-Lamp Monument",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Blue-Lamp Monument",
+      "minorLandmarks": [
+        "Arcane / Alchemical Labs Civic Hall",
+        "Alchemy Lab",
+        "Formula Archive Nook"
+      ]
+    },
+    {
+      "districtNumber": 10,
+      "districtId": "D10",
+      "sectionNumber": 2,
+      "name": "D10 — Formula Archive Nook Neighborhood Nook",
+      "civicPurpose": "This district turns Section 2's source-backed anchor set into a board-scale civic space: Arcane / Alchemical Labs Civic Hall, Alchemy Lab, Blue-Lamp Monument, Formula Archive Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Pelas Mirr.",
+      "visualIdentity": "Use Formula Archive Nook as the main read. Keep exact source anchors visible where applicable: Arcane / Alchemical Labs Civic Hall, Alchemy Lab, Blue-Lamp Monument, Formula Archive Nook. The district should share Pelas Mirr's sea elves identity, Pale Marble Stone, Sea Glass, Stone, Silver Inlay, and Coastal Edge, Seawall Edge, Harbor Basin without becoming generic.",
+      "emotionalIdentity": "Intimate and lived-in, with Pelas Mirr's larger mood shaped by Sea-Elven Pearlcurrent Amphitheater, Nursery Hall Beacon, and Star Map Ceilings Veiled High Court.",
+      "gameplayAssetNeeds": [
+        "Formula Archive Nook",
+        "Arcane / Alchemical Labs Civic Hall",
+        "Alchemy Lab",
+        "Blue-Lamp Monument",
+        "Section 2 pedestrian-scale props",
+        "Pelas Mirr civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Formula Archive Nook",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Formula Archive Nook",
+      "minorLandmarks": [
+        "Arcane / Alchemical Labs Civic Hall",
+        "Alchemy Lab",
+        "Blue-Lamp Monument"
+      ]
+    },
+    {
+      "districtNumber": 15,
+      "districtId": "D15",
+      "sectionNumber": 2,
+      "name": "D15 — Arcane / Alchemical Labs Civic Hall Supporting Streets",
+      "civicPurpose": "This district turns Section 2's source-backed anchor set into a board-scale civic space: Arcane / Alchemical Labs Civic Hall, Alchemy Lab, Blue-Lamp Monument, Formula Archive Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Pelas Mirr.",
+      "visualIdentity": "Use Arcane / Alchemical Labs Civic Hall as the main read. Keep exact source anchors visible where applicable: Arcane / Alchemical Labs Civic Hall, Alchemy Lab, Blue-Lamp Monument, Formula Archive Nook. The district should share Pelas Mirr's sea elves identity, Pale Marble Stone, Sea Glass, Stone, Silver Inlay, and Coastal Edge, Seawall Edge, Harbor Basin without becoming generic.",
+      "emotionalIdentity": "Connective and practical, with Pelas Mirr's larger mood shaped by Sea-Elven Pearlcurrent Amphitheater, Nursery Hall Beacon, and Star Map Ceilings Veiled High Court.",
+      "gameplayAssetNeeds": [
+        "Arcane / Alchemical Labs Civic Hall",
+        "Alchemy Lab",
+        "Blue-Lamp Monument",
+        "Formula Archive Nook",
+        "Section 2 pedestrian-scale props",
+        "Pelas Mirr civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Arcane / Alchemical Labs Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Arcane / Alchemical Labs Civic Hall",
+      "minorLandmarks": [
+        "Alchemy Lab",
+        "Blue-Lamp Monument",
+        "Formula Archive Nook"
+      ]
+    },
+    {
+      "districtNumber": 8,
+      "districtId": "D08",
+      "sectionNumber": 3,
+      "name": "D08 — Public Works Authority Hall Civic-Anchor Precinct",
+      "civicPurpose": "This district turns Section 3's source-backed anchor set into a board-scale civic space: Public Works Authority Hall, Survey Hall, Blue-Lamp Monument, Permit Yard Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Pelas Mirr.",
+      "visualIdentity": "Use Public Works Authority Hall as the main read. Keep exact source anchors visible where applicable: Public Works Authority Hall, Survey Hall, Blue-Lamp Monument, Permit Yard Nook. The district should share Pelas Mirr's sea elves identity, Pale Marble Stone, Sea Glass, Stone, Silver Inlay, and Coastal Edge, Seawall Edge, Harbor Basin without becoming generic.",
+      "emotionalIdentity": "Locally grounded, with Pelas Mirr's larger mood shaped by Sea-Elven Pearlcurrent Amphitheater, Nursery Hall Beacon, and Star Map Ceilings Veiled High Court.",
+      "gameplayAssetNeeds": [
+        "Public Works Authority Hall",
+        "Survey Hall",
+        "Blue-Lamp Monument",
+        "Permit Yard Nook",
+        "Section 3 pedestrian-scale props",
+        "Pelas Mirr civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Public Works Authority Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Public Works Authority Hall",
+      "minorLandmarks": [
+        "Survey Hall",
+        "Blue-Lamp Monument",
+        "Permit Yard Nook"
+      ]
+    },
+    {
+      "districtNumber": 12,
+      "districtId": "D12",
+      "sectionNumber": 3,
+      "name": "D12 — Survey Hall Landmark Approach",
+      "civicPurpose": "This district turns Section 3's source-backed anchor set into a board-scale civic space: Public Works Authority Hall, Survey Hall, Blue-Lamp Monument, Permit Yard Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Pelas Mirr.",
+      "visualIdentity": "Use Survey Hall as the main read. Keep exact source anchors visible where applicable: Public Works Authority Hall, Survey Hall, Blue-Lamp Monument, Permit Yard Nook. The district should share Pelas Mirr's sea elves identity, Pale Marble Stone, Sea Glass, Stone, Silver Inlay, and Coastal Edge, Seawall Edge, Harbor Basin without becoming generic.",
+      "emotionalIdentity": "Public-facing, with Pelas Mirr's larger mood shaped by Sea-Elven Pearlcurrent Amphitheater, Nursery Hall Beacon, and Star Map Ceilings Veiled High Court.",
+      "gameplayAssetNeeds": [
+        "Survey Hall",
+        "Public Works Authority Hall",
+        "Blue-Lamp Monument",
+        "Permit Yard Nook",
+        "Section 3 pedestrian-scale props",
+        "Pelas Mirr civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Survey Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Survey Hall",
+      "minorLandmarks": [
+        "Public Works Authority Hall",
+        "Blue-Lamp Monument",
+        "Permit Yard Nook"
+      ]
+    },
+    {
+      "districtNumber": 13,
+      "districtId": "D13",
+      "sectionNumber": 3,
+      "name": "D13 — Star Map Ceilings Veiled High Court Seat of Power District",
+      "civicPurpose": "This district turns Section 3's source-backed anchor set into a board-scale civic space: Public Works Authority Hall, Survey Hall, Blue-Lamp Monument, Permit Yard Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Pelas Mirr.",
+      "visualIdentity": "Use Star Map Ceilings Veiled High Court as the main read. Keep exact source anchors visible where applicable: Public Works Authority Hall, Survey Hall, Blue-Lamp Monument, Permit Yard Nook. The district should share Pelas Mirr's sea elves identity, Pale Marble Stone, Sea Glass, Stone, Silver Inlay, and Coastal Edge, Seawall Edge, Harbor Basin without becoming generic.",
+      "emotionalIdentity": "Memorial or symbolic, with Pelas Mirr's larger mood shaped by Sea-Elven Pearlcurrent Amphitheater, Nursery Hall Beacon, and Star Map Ceilings Veiled High Court.",
+      "gameplayAssetNeeds": [
+        "Star Map Ceilings Veiled High Court",
+        "Public Works Authority Hall",
+        "Survey Hall",
+        "Blue-Lamp Monument",
+        "Permit Yard Nook",
+        "Section 3 pedestrian-scale props",
+        "Pelas Mirr civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Star Map Ceilings Veiled High Court",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "Conjunction response, rumor spread, or authority pressure"
+      ],
+      "landmark": "Star Map Ceilings Veiled High Court",
+      "minorLandmarks": [
+        "Public Works Authority Hall",
+        "Survey Hall",
+        "Blue-Lamp Monument",
+        "Permit Yard Nook"
+      ]
+    },
+    {
+      "districtNumber": 14,
+      "districtId": "D14",
+      "sectionNumber": 3,
+      "name": "D14 — Permit Yard Nook Neighborhood Nook",
+      "civicPurpose": "This district turns Section 3's source-backed anchor set into a board-scale civic space: Public Works Authority Hall, Survey Hall, Blue-Lamp Monument, Permit Yard Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Pelas Mirr.",
+      "visualIdentity": "Use Permit Yard Nook as the main read. Keep exact source anchors visible where applicable: Public Works Authority Hall, Survey Hall, Blue-Lamp Monument, Permit Yard Nook. The district should share Pelas Mirr's sea elves identity, Pale Marble Stone, Sea Glass, Stone, Silver Inlay, and Coastal Edge, Seawall Edge, Harbor Basin without becoming generic.",
+      "emotionalIdentity": "Intimate and lived-in, with Pelas Mirr's larger mood shaped by Sea-Elven Pearlcurrent Amphitheater, Nursery Hall Beacon, and Star Map Ceilings Veiled High Court.",
+      "gameplayAssetNeeds": [
+        "Permit Yard Nook",
+        "Public Works Authority Hall",
+        "Survey Hall",
+        "Blue-Lamp Monument",
+        "Section 3 pedestrian-scale props",
+        "Pelas Mirr civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Permit Yard Nook",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Permit Yard Nook",
+      "minorLandmarks": [
+        "Public Works Authority Hall",
+        "Survey Hall",
+        "Blue-Lamp Monument"
+      ]
+    },
+    {
+      "districtNumber": 18,
+      "districtId": "D18",
+      "sectionNumber": 3,
+      "name": "D18 — Public Works Authority Hall Supporting Streets",
+      "civicPurpose": "This district turns Section 3's source-backed anchor set into a board-scale civic space: Public Works Authority Hall, Survey Hall, Blue-Lamp Monument, Permit Yard Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Pelas Mirr.",
+      "visualIdentity": "Use Public Works Authority Hall as the main read. Keep exact source anchors visible where applicable: Public Works Authority Hall, Survey Hall, Blue-Lamp Monument, Permit Yard Nook. The district should share Pelas Mirr's sea elves identity, Pale Marble Stone, Sea Glass, Stone, Silver Inlay, and Coastal Edge, Seawall Edge, Harbor Basin without becoming generic.",
+      "emotionalIdentity": "Connective and practical, with Pelas Mirr's larger mood shaped by Sea-Elven Pearlcurrent Amphitheater, Nursery Hall Beacon, and Star Map Ceilings Veiled High Court.",
+      "gameplayAssetNeeds": [
+        "Public Works Authority Hall",
+        "Survey Hall",
+        "Blue-Lamp Monument",
+        "Permit Yard Nook",
+        "Section 3 pedestrian-scale props",
+        "Pelas Mirr civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Public Works Authority Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Public Works Authority Hall",
+      "minorLandmarks": [
+        "Survey Hall",
+        "Blue-Lamp Monument",
+        "Permit Yard Nook"
+      ]
+    },
+    {
+      "districtNumber": 11,
+      "districtId": "D11",
+      "sectionNumber": 4,
+      "name": "D11 — University / Lyceum Civic Hall Civic-Anchor Precinct",
+      "civicPurpose": "This district turns Section 4's source-backed anchor set into a board-scale civic space: University / Lyceum Civic Hall, Lecture Hall, Star Navigation Monument, Observatory Court Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Pelas Mirr.",
+      "visualIdentity": "Use University / Lyceum Civic Hall as the main read. Keep exact source anchors visible where applicable: University / Lyceum Civic Hall, Lecture Hall, Star Navigation Monument, Observatory Court Nook. The district should share Pelas Mirr's sea elves identity, Pale Marble Stone, Sea Glass, Stone, Silver Inlay, and Coastal Edge, Seawall Edge, Harbor Basin without becoming generic.",
+      "emotionalIdentity": "Locally grounded, with Pelas Mirr's larger mood shaped by Sea-Elven Pearlcurrent Amphitheater, Nursery Hall Beacon, and Star Map Ceilings Veiled High Court.",
+      "gameplayAssetNeeds": [
+        "University / Lyceum Civic Hall",
+        "Lecture Hall",
+        "Star Navigation Monument",
+        "Observatory Court Nook",
+        "Section 4 pedestrian-scale props",
+        "Pelas Mirr civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on University / Lyceum Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "University / Lyceum Civic Hall",
+      "minorLandmarks": [
+        "Lecture Hall",
+        "Star Navigation Monument",
+        "Observatory Court Nook"
+      ]
+    },
+    {
+      "districtNumber": 16,
+      "districtId": "D16",
+      "sectionNumber": 4,
+      "name": "D16 — Lecture Hall Landmark Approach",
+      "civicPurpose": "This district turns Section 4's source-backed anchor set into a board-scale civic space: University / Lyceum Civic Hall, Lecture Hall, Star Navigation Monument, Observatory Court Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Pelas Mirr.",
+      "visualIdentity": "Use Lecture Hall as the main read. Keep exact source anchors visible where applicable: University / Lyceum Civic Hall, Lecture Hall, Star Navigation Monument, Observatory Court Nook. The district should share Pelas Mirr's sea elves identity, Pale Marble Stone, Sea Glass, Stone, Silver Inlay, and Coastal Edge, Seawall Edge, Harbor Basin without becoming generic.",
+      "emotionalIdentity": "Public-facing, with Pelas Mirr's larger mood shaped by Sea-Elven Pearlcurrent Amphitheater, Nursery Hall Beacon, and Star Map Ceilings Veiled High Court.",
+      "gameplayAssetNeeds": [
+        "Lecture Hall",
+        "University / Lyceum Civic Hall",
+        "Star Navigation Monument",
+        "Observatory Court Nook",
+        "Section 4 pedestrian-scale props",
+        "Pelas Mirr civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Lecture Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Lecture Hall",
+      "minorLandmarks": [
+        "University / Lyceum Civic Hall",
+        "Star Navigation Monument",
+        "Observatory Court Nook"
+      ]
+    },
+    {
+      "districtNumber": 17,
+      "districtId": "D17",
+      "sectionNumber": 4,
+      "name": "D17 — Star Navigation Monument Monument Frontage",
+      "civicPurpose": "This district turns Section 4's source-backed anchor set into a board-scale civic space: University / Lyceum Civic Hall, Lecture Hall, Star Navigation Monument, Observatory Court Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Pelas Mirr.",
+      "visualIdentity": "Use Star Navigation Monument as the main read. Keep exact source anchors visible where applicable: University / Lyceum Civic Hall, Lecture Hall, Star Navigation Monument, Observatory Court Nook. The district should share Pelas Mirr's sea elves identity, Pale Marble Stone, Sea Glass, Stone, Silver Inlay, and Coastal Edge, Seawall Edge, Harbor Basin without becoming generic.",
+      "emotionalIdentity": "Memorial or symbolic, with Pelas Mirr's larger mood shaped by Sea-Elven Pearlcurrent Amphitheater, Nursery Hall Beacon, and Star Map Ceilings Veiled High Court.",
+      "gameplayAssetNeeds": [
+        "Star Navigation Monument",
+        "University / Lyceum Civic Hall",
+        "Lecture Hall",
+        "Observatory Court Nook",
+        "Section 4 pedestrian-scale props",
+        "Pelas Mirr civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Star Navigation Monument",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Star Navigation Monument",
+      "minorLandmarks": [
+        "University / Lyceum Civic Hall",
+        "Lecture Hall",
+        "Observatory Court Nook"
+      ]
+    },
+    {
+      "districtNumber": 21,
+      "districtId": "D21",
+      "sectionNumber": 4,
+      "name": "D21 — Observatory Court Nook Neighborhood Nook",
+      "civicPurpose": "This district turns Section 4's source-backed anchor set into a board-scale civic space: University / Lyceum Civic Hall, Lecture Hall, Star Navigation Monument, Observatory Court Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Pelas Mirr.",
+      "visualIdentity": "Use Observatory Court Nook as the main read. Keep exact source anchors visible where applicable: University / Lyceum Civic Hall, Lecture Hall, Star Navigation Monument, Observatory Court Nook. The district should share Pelas Mirr's sea elves identity, Pale Marble Stone, Sea Glass, Stone, Silver Inlay, and Coastal Edge, Seawall Edge, Harbor Basin without becoming generic.",
+      "emotionalIdentity": "Intimate and lived-in, with Pelas Mirr's larger mood shaped by Sea-Elven Pearlcurrent Amphitheater, Nursery Hall Beacon, and Star Map Ceilings Veiled High Court.",
+      "gameplayAssetNeeds": [
+        "Observatory Court Nook",
+        "University / Lyceum Civic Hall",
+        "Lecture Hall",
+        "Star Navigation Monument",
+        "Section 4 pedestrian-scale props",
+        "Pelas Mirr civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Observatory Court Nook",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Observatory Court Nook",
+      "minorLandmarks": [
+        "University / Lyceum Civic Hall",
+        "Lecture Hall",
+        "Star Navigation Monument"
+      ]
+    },
+    {
+      "districtNumber": 22,
+      "districtId": "D22",
+      "sectionNumber": 4,
+      "name": "D22 — University / Lyceum Civic Hall Supporting Streets",
+      "civicPurpose": "This district turns Section 4's source-backed anchor set into a board-scale civic space: University / Lyceum Civic Hall, Lecture Hall, Star Navigation Monument, Observatory Court Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Pelas Mirr.",
+      "visualIdentity": "Use University / Lyceum Civic Hall as the main read. Keep exact source anchors visible where applicable: University / Lyceum Civic Hall, Lecture Hall, Star Navigation Monument, Observatory Court Nook. The district should share Pelas Mirr's sea elves identity, Pale Marble Stone, Sea Glass, Stone, Silver Inlay, and Coastal Edge, Seawall Edge, Harbor Basin without becoming generic.",
+      "emotionalIdentity": "Connective and practical, with Pelas Mirr's larger mood shaped by Sea-Elven Pearlcurrent Amphitheater, Nursery Hall Beacon, and Star Map Ceilings Veiled High Court.",
+      "gameplayAssetNeeds": [
+        "University / Lyceum Civic Hall",
+        "Lecture Hall",
+        "Star Navigation Monument",
+        "Observatory Court Nook",
+        "Section 4 pedestrian-scale props",
+        "Pelas Mirr civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on University / Lyceum Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "University / Lyceum Civic Hall",
+      "minorLandmarks": [
+        "Lecture Hall",
+        "Star Navigation Monument",
+        "Observatory Court Nook"
+      ]
+    },
+    {
+      "districtNumber": 19,
+      "districtId": "D19",
+      "sectionNumber": 5,
+      "name": "D19 — S5 Harbor Campus Civic-Anchor Precinct",
+      "civicPurpose": "This district turns Section 5's source-backed anchor set into a board-scale civic space: S5 Harbor Campus, Harbor Basilica, S5 Harbor Arch, S5 Harbor Bridgelet. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Pelas Mirr.",
+      "visualIdentity": "Use S5 Harbor Campus as the main read. Keep exact source anchors visible where applicable: S5 Harbor Campus, Harbor Basilica, S5 Harbor Arch, S5 Harbor Bridgelet. The district should share Pelas Mirr's sea elves identity, Pale Marble Stone, Sea Glass, Stone, Silver Inlay, and Coastal Edge, Seawall Edge, Harbor Basin without becoming generic.",
+      "emotionalIdentity": "Locally grounded, with Pelas Mirr's larger mood shaped by Sea-Elven Pearlcurrent Amphitheater, Nursery Hall Beacon, and Star Map Ceilings Veiled High Court.",
+      "gameplayAssetNeeds": [
+        "S5 Harbor Campus",
+        "Harbor Basilica",
+        "S5 Harbor Arch",
+        "S5 Harbor Bridgelet",
+        "Section 5 pedestrian-scale props",
+        "Pelas Mirr civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on S5 Harbor Campus",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "S5 Harbor Campus",
+      "minorLandmarks": [
+        "Harbor Basilica",
+        "S5 Harbor Arch",
+        "S5 Harbor Bridgelet"
+      ]
+    },
+    {
+      "districtNumber": 20,
+      "districtId": "D20",
+      "sectionNumber": 5,
+      "name": "D20 — Harbor Basilica Landmark Approach",
+      "civicPurpose": "This district turns Section 5's source-backed anchor set into a board-scale civic space: S5 Harbor Campus, Harbor Basilica, S5 Harbor Arch, S5 Harbor Bridgelet. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Pelas Mirr.",
+      "visualIdentity": "Use Harbor Basilica as the main read. Keep exact source anchors visible where applicable: S5 Harbor Campus, Harbor Basilica, S5 Harbor Arch, S5 Harbor Bridgelet. The district should share Pelas Mirr's sea elves identity, Pale Marble Stone, Sea Glass, Stone, Silver Inlay, and Coastal Edge, Seawall Edge, Harbor Basin without becoming generic.",
+      "emotionalIdentity": "Public-facing, with Pelas Mirr's larger mood shaped by Sea-Elven Pearlcurrent Amphitheater, Nursery Hall Beacon, and Star Map Ceilings Veiled High Court.",
+      "gameplayAssetNeeds": [
+        "Harbor Basilica",
+        "S5 Harbor Campus",
+        "S5 Harbor Arch",
+        "S5 Harbor Bridgelet",
+        "Section 5 pedestrian-scale props",
+        "Pelas Mirr civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Harbor Basilica",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Harbor Basilica",
+      "minorLandmarks": [
+        "S5 Harbor Campus",
+        "S5 Harbor Arch",
+        "S5 Harbor Bridgelet"
+      ]
+    },
+    {
+      "districtNumber": 23,
+      "districtId": "D23",
+      "sectionNumber": 5,
+      "name": "D23 — S5 Harbor Arch Monument Frontage",
+      "civicPurpose": "This district turns Section 5's source-backed anchor set into a board-scale civic space: S5 Harbor Campus, Harbor Basilica, S5 Harbor Arch, S5 Harbor Bridgelet. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Pelas Mirr.",
+      "visualIdentity": "Use S5 Harbor Arch as the main read. Keep exact source anchors visible where applicable: S5 Harbor Campus, Harbor Basilica, S5 Harbor Arch, S5 Harbor Bridgelet. The district should share Pelas Mirr's sea elves identity, Pale Marble Stone, Sea Glass, Stone, Silver Inlay, and Coastal Edge, Seawall Edge, Harbor Basin without becoming generic.",
+      "emotionalIdentity": "Memorial or symbolic, with Pelas Mirr's larger mood shaped by Sea-Elven Pearlcurrent Amphitheater, Nursery Hall Beacon, and Star Map Ceilings Veiled High Court.",
+      "gameplayAssetNeeds": [
+        "S5 Harbor Arch",
+        "S5 Harbor Campus",
+        "Harbor Basilica",
+        "S5 Harbor Bridgelet",
+        "Section 5 pedestrian-scale props",
+        "Pelas Mirr civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on S5 Harbor Arch",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "S5 Harbor Arch",
+      "minorLandmarks": [
+        "S5 Harbor Campus",
+        "Harbor Basilica",
+        "S5 Harbor Bridgelet"
+      ]
+    },
+    {
+      "districtNumber": 24,
+      "districtId": "D24",
+      "sectionNumber": 5,
+      "name": "D24 — S5 Harbor Bridgelet Neighborhood Nook",
+      "civicPurpose": "This district turns Section 5's source-backed anchor set into a board-scale civic space: S5 Harbor Campus, Harbor Basilica, S5 Harbor Arch, S5 Harbor Bridgelet. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Pelas Mirr.",
+      "visualIdentity": "Use S5 Harbor Bridgelet as the main read. Keep exact source anchors visible where applicable: S5 Harbor Campus, Harbor Basilica, S5 Harbor Arch, S5 Harbor Bridgelet. The district should share Pelas Mirr's sea elves identity, Pale Marble Stone, Sea Glass, Stone, Silver Inlay, and Coastal Edge, Seawall Edge, Harbor Basin without becoming generic.",
+      "emotionalIdentity": "Intimate and lived-in, with Pelas Mirr's larger mood shaped by Sea-Elven Pearlcurrent Amphitheater, Nursery Hall Beacon, and Star Map Ceilings Veiled High Court.",
+      "gameplayAssetNeeds": [
+        "S5 Harbor Bridgelet",
+        "S5 Harbor Campus",
+        "Harbor Basilica",
+        "S5 Harbor Arch",
+        "Section 5 pedestrian-scale props",
+        "Pelas Mirr civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on S5 Harbor Bridgelet",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "S5 Harbor Bridgelet",
+      "minorLandmarks": [
+        "S5 Harbor Campus",
+        "Harbor Basilica",
+        "S5 Harbor Arch"
+      ]
+    },
+    {
+      "districtNumber": 25,
+      "districtId": "D25",
+      "sectionNumber": 5,
+      "name": "D25 — S5 Harbor Campus Supporting Streets",
+      "civicPurpose": "This district turns Section 5's source-backed anchor set into a board-scale civic space: S5 Harbor Campus, Harbor Basilica, S5 Harbor Arch, S5 Harbor Bridgelet. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Pelas Mirr.",
+      "visualIdentity": "Use S5 Harbor Campus as the main read. Keep exact source anchors visible where applicable: S5 Harbor Campus, Harbor Basilica, S5 Harbor Arch, S5 Harbor Bridgelet. The district should share Pelas Mirr's sea elves identity, Pale Marble Stone, Sea Glass, Stone, Silver Inlay, and Coastal Edge, Seawall Edge, Harbor Basin without becoming generic.",
+      "emotionalIdentity": "Connective and practical, with Pelas Mirr's larger mood shaped by Sea-Elven Pearlcurrent Amphitheater, Nursery Hall Beacon, and Star Map Ceilings Veiled High Court.",
+      "gameplayAssetNeeds": [
+        "S5 Harbor Campus",
+        "Harbor Basilica",
+        "S5 Harbor Arch",
+        "S5 Harbor Bridgelet",
+        "Section 5 pedestrian-scale props",
+        "Pelas Mirr civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on S5 Harbor Campus",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "S5 Harbor Campus",
+      "minorLandmarks": [
+        "Harbor Basilica",
+        "S5 Harbor Arch",
+        "S5 Harbor Bridgelet"
+      ]
+    }
   ],
   "landmarks": {
-    "wonder": {"name": "Sea-Elven Pearlcurrent Amphitheater", "symbolicRole": "Sea, speech, learning, music, and civic gathering made visible in pearl-lit stone.", "visualRole": "Large coastal amphitheater integrated with turquoise canals, white terraces, and harbor approaches.", "civicRole": "Citywide assembly, performance, lecture, maritime ceremony, and public signal interpretation.", "narrativeUse": ["public assembly", "sea-elven ceremony", "scholarly performance"], "assetUse": ["map wonder", "coastal skyline anchor"], "sensoryIdentity": ["water echo", "pearl light", "crowd voices", "salt air"], "storyHooks": ["A public lecture in the amphitheater becomes a harbor-wide oath."]},
-    "beacon": {"name": "Nursery Hall Beacon", "symbolicRole": "Continuity and warning joined in a civic signal.", "visualRole": "Blue signal tower within bright nursery hall plazas and water-facing streets.", "civicRole": "Coordinates nursery protection, public works, harbor routes, lectures, and emergency response.", "narrativeUse": ["Beacon change", "nursery alarm", "public signal interpretation"], "assetUse": ["S1 centerpiece", "signal marker"], "sensoryIdentity": ["blue glow", "water reflection", "soft plaza voices"], "storyHooks": ["A Beacon shift forces the city to choose between harbor order and nursery protection."]},
-    "seatOfPower": {"name": "Star Map Ceilings Veiled High Court", "symbolicRole": "Celestial-maritime law and scholarly authority under formal beauty.", "visualRole": "High court of white stone, star-map ceilings, sea-glass windows, ceremonial stairs, and civic terraces.", "civicRole": "Governs harbor law, nursery protections, public works permits, scholarship, and maritime obligations.", "narrativeUse": ["court hearing", "permit ruling", "scholarly testimony"], "assetUse": ["seat-of-power marker"], "sensoryIdentity": ["echoing stone", "ink", "sea glass", "quiet tide"], "storyHooks": ["A star-map ceiling marks the old tide law everyone quotes wrong."]},
+    "wonder": {
+      "name": "Sea-Elven Pearlcurrent Amphitheater",
+      "symbolicRole": "Sea-Elven Pearlcurrent Amphitheater concentrates Pelas Mirr's local symbolism into a usable civic landmark: city wonder, separate far skyline anchor.",
+      "visualRole": "A one-per-city wonder: spectacular, unmistakable, and larger than every section landmark. It turns Pelas Mirr's geography, race identity, material culture, and civic magic into one public symbol. Built for Pelas Mirr's sea elves population, it uses Pale Marble Stone, Sea Glass, Stone, Silver Inlay, Arcane Glow across Coastal Edge, Seawall Edge, Harbor Basin; water context: Coast; magic expression: Ward Networks, Ritual Geometry, Moonlight Refraction. It must read clearly as a high-fantasy tactical-board asset with no baked labels or text.",
+      "civicRole": "Serves as city wonder, separate far skyline anchor within Pelas Mirr; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+      "narrativeUse": [
+        "stage scenes involving Sea-Elven Pearlcurrent Amphitheater",
+        "show how Pelas Mirr turns landmark symbolism into civic pressure",
+        "anchor public movement and crowd behavior",
+        "give writers a concrete place for announcements, disputes, errands, or rituals"
+      ],
+      "assetUse": [
+        "city landmark asset",
+        "map background landmark marker",
+        "visual continuity anchor across hero and street scenes",
+        "scale reference for civilians, roads, plazas, and props"
+      ],
+      "sensoryIdentity": [
+        "local foot traffic",
+        "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+        "public voices and civic work nearby",
+        "ambient city light and weathering",
+        "close pedestrian-scale details rather than abstract skyline-only treatment"
+      ],
+      "storyHooks": [
+        "a routine civic action at Sea-Elven Pearlcurrent Amphitheater becomes narratively important",
+        "the visible condition of Sea-Elven Pearlcurrent Amphitheater signals political or social stress",
+        "someone uses Sea-Elven Pearlcurrent Amphitheater's public function to redirect crowds or information",
+        "an overlooked detail at Sea-Elven Pearlcurrent Amphitheater reveals how Pelas Mirr really works"
+      ]
+    },
+    "beacon": {
+      "name": "Nursery Hall Beacon",
+      "symbolicRole": "Nursery Hall Beacon concentrates Pelas Mirr's local symbolism into a usable civic landmark: Section 1 beacon, near/front civic signal anchor.",
+      "visualRole": "Nursery Hall Beacon: the single city beacon, a towering civic signal landmark fixed to section 1. Visible signal apparatus, strong vertical silhouette, public approach space, and board-scale beacon identity.",
+      "civicRole": "Serves as Section 1 beacon, near/front civic signal anchor within Pelas Mirr; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+      "narrativeUse": [
+        "stage scenes involving Nursery Hall Beacon",
+        "show how Pelas Mirr turns landmark symbolism into civic pressure",
+        "anchor public movement and crowd behavior",
+        "give writers a concrete place for announcements, disputes, errands, or rituals"
+      ],
+      "assetUse": [
+        "district diorama anchor for Section 1",
+        "map background landmark marker",
+        "visual continuity anchor across hero and street scenes",
+        "scale reference for civilians, roads, plazas, and props"
+      ],
+      "sensoryIdentity": [
+        "local foot traffic",
+        "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+        "public voices and civic work nearby",
+        "beacon or lamp glow when applicable",
+        "close pedestrian-scale details rather than abstract skyline-only treatment"
+      ],
+      "storyHooks": [
+        "a routine civic action at Nursery Hall Beacon becomes narratively important",
+        "the visible condition of Nursery Hall Beacon signals political or social stress",
+        "someone uses Nursery Hall Beacon's public function to redirect crowds or information",
+        "an overlooked detail at Nursery Hall Beacon reveals how Pelas Mirr really works"
+      ]
+    },
+    "seatOfPower": {
+      "name": "Star Map Ceilings Veiled High Court",
+      "symbolicRole": "Star Map Ceilings Veiled High Court concentrates Pelas Mirr's local symbolism into a usable civic landmark: dominant central civic anchor / District 13 seat of power.",
+      "visualRole": "The district-13 seat of power: courts, audience terraces, sealed archives, command platforms, and the visible apparatus of government. It is not a faction HQ; it is the city's central civic authority. Built for Pelas Mirr's sea elves population, it uses Pale Marble Stone, Sea Glass, Stone, Silver Inlay, Arcane Glow across Coastal Edge, Seawall Edge, Harbor Basin; water context: Coast; magic expression: Ward Networks, Ritual Geometry, Moonlight Refraction. It must read clearly as a high-fantasy tactical-board asset with no baked labels or text.",
+      "civicRole": "Serves as dominant central civic anchor / District 13 seat of power within Pelas Mirr; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+      "narrativeUse": [
+        "stage scenes involving Star Map Ceilings Veiled High Court",
+        "show how Pelas Mirr turns landmark symbolism into civic pressure",
+        "anchor public movement and crowd behavior",
+        "give writers a concrete place for announcements, disputes, errands, or rituals"
+      ],
+      "assetUse": [
+        "city landmark asset",
+        "map background landmark marker",
+        "visual continuity anchor across hero and street scenes",
+        "scale reference for civilians, roads, plazas, and props"
+      ],
+      "sensoryIdentity": [
+        "local foot traffic",
+        "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+        "public voices and civic work nearby",
+        "ambient city light and weathering",
+        "close pedestrian-scale details rather than abstract skyline-only treatment"
+      ],
+      "storyHooks": [
+        "a routine civic action at Star Map Ceilings Veiled High Court becomes narratively important",
+        "the visible condition of Star Map Ceilings Veiled High Court signals political or social stress",
+        "someone uses Star Map Ceilings Veiled High Court's public function to redirect crowds or information",
+        "an overlooked detail at Star Map Ceilings Veiled High Court reveals how Pelas Mirr really works"
+      ]
+    },
     "majorLandmarks": [
-      {"name": "Alchemy Lab", "symbolicRole": "Sea knowledge made experimental.", "visualRole": "Blue-lit laboratory with formula archive, glassware, and water-facing terraces.", "civicRole": "Research, formula control, and useful risk management.", "narrativeUse": ["formula clue", "alchemy dispute"], "assetUse": ["S2 diorama"], "sensoryIdentity": ["glass", "blue flame", "salt air"], "storyHooks": ["A formula archive explains why the tide behaves like law."]},
-      {"name": "Survey Hall", "symbolicRole": "Public works as sea discipline.", "visualRole": "Survey hall with blue lamp, permit yard, instruments, maps, and harbor overlooks.", "civicRole": "Harbor surveys, sea-wall maintenance, water permits, and public works routing.", "narrativeUse": ["permit conflict", "engineering clue"], "assetUse": ["S3 diorama"], "sensoryIdentity": ["wet maps", "lamp oil", "bronze instruments"], "storyHooks": ["A permit yard map reveals the harbor has shifted under the city."]},
-      {"name": "Lecture Hall", "symbolicRole": "Knowledge offered publicly beside the sea.", "visualRole": "Formal lecture hall with star navigation monument, court paving, students, and open water light.", "civicRole": "Education, public lessons, navigation training, and civic interpretation.", "narrativeUse": ["lecture", "student witness", "navigation clue"], "assetUse": ["S4 diorama"], "sensoryIdentity": ["paper", "fountain water", "soft speech"], "storyHooks": ["A lecture reveals the harbor route no official map admits."]},
-      {"name": "Harbor Basilica", "symbolicRole": "Maritime reverence and civic crossing.", "visualRole": "Sea-facing basilica with harbor arch, bridgelet, shell detail, boats, and turquoise water.", "civicRole": "Harbor rites, public blessings, crossings, and mourning ceremonies.", "narrativeUse": ["harbor blessing", "public rite", "crossing scene"], "assetUse": ["S5 diorama"], "sensoryIdentity": ["bells", "salt", "stone echo", "blue water"], "storyHooks": ["A harbor blessing proves public works is also faith. "]}
+      {
+        "name": "Harbor Basilica",
+        "symbolicRole": "Harbor Basilica concentrates Pelas Mirr's local symbolism into a usable civic landmark: additional major landmark selected for this hero-view camera angle.",
+        "visualRole": "Harbor Basilica: authored non-beacon major landmark for section 5. largest section focal point. strong vertical silhouette. distinct gameplay landmark. visible from nearby districts. anchors. ropes. buoys. signal lanterns. piers. quays. dock terraces. slipways.",
+        "civicRole": "Serves as additional major landmark selected for this hero-view camera angle within Pelas Mirr; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Harbor Basilica",
+          "show how Pelas Mirr turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 5",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Harbor Basilica becomes narratively important",
+          "the visible condition of Harbor Basilica signals political or social stress",
+          "someone uses Harbor Basilica's public function to redirect crowds or information",
+          "an overlooked detail at Harbor Basilica reveals how Pelas Mirr really works"
+        ]
+      },
+      {
+        "name": "Alchemy Lab",
+        "symbolicRole": "Alchemy Lab concentrates Pelas Mirr's local symbolism into a usable civic landmark: additional major landmark selected for this hero-view camera angle.",
+        "visualRole": "A largest local landmark in this section, subordinate only to the city wonder and citadel. It belongs to Section 2 (Arcane / Alchemical Labs) of Pelas Mirr and should use Archive Towers, Forge Halls, Subterranean Vaults, pale marble stone and arcane glow materials, Serpent Geometry, Civic Blue Glow, Lantern Lit, and the sea elves visual language. Design focus: colored vapors, sealed jars, laboratories, distillation towers, containment courts. Terrain/water context: Sea Cliffs; Coast. Magic expression: Road Warding, Threshold Oaths, Blue Order Sigils. No baked labels or text.",
+        "civicRole": "Serves as additional major landmark selected for this hero-view camera angle within Pelas Mirr; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Alchemy Lab",
+          "show how Pelas Mirr turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 2",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Alchemy Lab becomes narratively important",
+          "the visible condition of Alchemy Lab signals political or social stress",
+          "someone uses Alchemy Lab's public function to redirect crowds or information",
+          "an overlooked detail at Alchemy Lab reveals how Pelas Mirr really works"
+        ]
+      },
+      {
+        "name": "Lecture Hall",
+        "symbolicRole": "Lecture Hall concentrates Pelas Mirr's local symbolism into a usable civic landmark: additional major landmark selected for this hero-view camera angle.",
+        "visualRole": "A largest local landmark in this section, subordinate only to the city wonder and citadel. It belongs to Section 4 (University / Lyceum) of Pelas Mirr and should use Archive Towers, White Limestone Civic Blocks, Lecture Courts, pale marble stone and arcane glow materials, Lantern Lit, Civic Blue Glow, Star Navigation, and the sea elves visual language. Design focus: study courts, largest section focal point, strong vertical silhouette, distinct gameplay landmark, visible from nearby districts. Terrain/water context: Sea Cliffs; Coast. Magic expression: Road Warding, Threshold Oaths, Blue Order Sigils. No baked labels or text.",
+        "civicRole": "Serves as additional major landmark selected for this hero-view camera angle within Pelas Mirr; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Lecture Hall",
+          "show how Pelas Mirr turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 4",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Lecture Hall becomes narratively important",
+          "the visible condition of Lecture Hall signals political or social stress",
+          "someone uses Lecture Hall's public function to redirect crowds or information",
+          "an overlooked detail at Lecture Hall reveals how Pelas Mirr really works"
+        ]
+      },
+      {
+        "name": "S1 Nursery Hall",
+        "symbolicRole": "S1 Nursery Hall concentrates Pelas Mirr's local symbolism into a usable civic landmark: Section 1 local anchor.",
+        "visualRole": "Nursery Hall: authored civic gathering structure for section 1. institutional anchor. public-facing administration. clear central silhouette. board-readable entrance. cradles. warm pools. egg stones. soft lanterns. nursery halls. spawning pools. hatchery courts. play yards.",
+        "civicRole": "Serves as Section 1 local anchor within Pelas Mirr; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving S1 Nursery Hall",
+          "show how Pelas Mirr turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 1",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at S1 Nursery Hall becomes narratively important",
+          "the visible condition of S1 Nursery Hall signals political or social stress",
+          "someone uses S1 Nursery Hall's public function to redirect crowds or information",
+          "an overlooked detail at S1 Nursery Hall reveals how Pelas Mirr really works"
+        ]
+      },
+      {
+        "name": "S1 Nursery Pillar",
+        "symbolicRole": "S1 Nursery Pillar concentrates Pelas Mirr's local symbolism into a usable civic landmark: Section 1 local anchor.",
+        "visualRole": "Nursery Pillar: carved civic memorial on a raised plinth. Ceremonial gathering area, readable symbolic focal point, strong vertical silhouette.",
+        "civicRole": "Serves as Section 1 local anchor within Pelas Mirr; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving S1 Nursery Pillar",
+          "show how Pelas Mirr turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 1",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at S1 Nursery Pillar becomes narratively important",
+          "the visible condition of S1 Nursery Pillar signals political or social stress",
+          "someone uses S1 Nursery Pillar's public function to redirect crowds or information",
+          "an overlooked detail at S1 Nursery Pillar reveals how Pelas Mirr really works"
+        ]
+      },
+      {
+        "name": "S1 Nursery Kiosk",
+        "symbolicRole": "S1 Nursery Kiosk concentrates Pelas Mirr's local symbolism into a usable civic landmark: Section 1 local anchor.",
+        "visualRole": "Nursery Kiosk: compact district landmark. Small integrated platform, nearby gathering space, readable focal prop from adjacent streets.",
+        "civicRole": "Serves as Section 1 local anchor within Pelas Mirr; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving S1 Nursery Kiosk",
+          "show how Pelas Mirr turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 1",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at S1 Nursery Kiosk becomes narratively important",
+          "the visible condition of S1 Nursery Kiosk signals political or social stress",
+          "someone uses S1 Nursery Kiosk's public function to redirect crowds or information",
+          "an overlooked detail at S1 Nursery Kiosk reveals how Pelas Mirr really works"
+        ]
+      },
+      {
+        "name": "Arcane / Alchemical Labs Civic Hall",
+        "symbolicRole": "Arcane / Alchemical Labs Civic Hall concentrates Pelas Mirr's local symbolism into a usable civic landmark: Section 2 local anchor.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing. It belongs to Section 2 (Arcane / Alchemical Labs) of Pelas Mirr and should use Forge Halls, Subterranean Vaults, Archive Towers, pale marble stone and arcane glow materials, Serpent Geometry, Civic Blue Glow, Lantern Lit, and the sea elves visual language. Design focus: sealed jars, laboratories, distillation towers, containment courts, safety wards. Terrain/water context: Sea Cliffs; Coast. Magic expression: Road Warding, Threshold Oaths, Blue Order Sigils. No baked labels or text.",
+        "civicRole": "Serves as Section 2 local anchor within Pelas Mirr; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Arcane / Alchemical Labs Civic Hall",
+          "show how Pelas Mirr turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 2",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Arcane / Alchemical Labs Civic Hall becomes narratively important",
+          "the visible condition of Arcane / Alchemical Labs Civic Hall signals political or social stress",
+          "someone uses Arcane / Alchemical Labs Civic Hall's public function to redirect crowds or information",
+          "an overlooked detail at Arcane / Alchemical Labs Civic Hall reveals how Pelas Mirr really works"
+        ]
+      },
+      {
+        "name": "Blue-Lamp Monument",
+        "symbolicRole": "Blue-Lamp Monument concentrates Pelas Mirr's local symbolism into a usable civic landmark: Section 2 local anchor.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles. It belongs to Section 2 (Arcane / Alchemical Labs) of Pelas Mirr and should use Subterranean Vaults, Archive Towers, Forge Halls, pale marble stone and arcane glow materials, Civic Blue Glow, Lantern Lit, Serpent Geometry, and the sea elves visual language. Design focus: symbolic civic object, small ceremonial site, local memory marker, subordinate to major landmark, retorts. Terrain/water context: Sea Cliffs; Coast. Magic expression: Road Warding, Threshold Oaths, Blue Order Sigils. No baked labels or text.",
+        "civicRole": "Serves as Section 2 local anchor within Pelas Mirr; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Blue-Lamp Monument",
+          "show how Pelas Mirr turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 2",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Blue-Lamp Monument becomes narratively important",
+          "the visible condition of Blue-Lamp Monument signals political or social stress",
+          "someone uses Blue-Lamp Monument's public function to redirect crowds or information",
+          "an overlooked detail at Blue-Lamp Monument reveals how Pelas Mirr really works"
+        ]
+      },
+      {
+        "name": "Formula Archive Nook",
+        "symbolicRole": "Formula Archive Nook concentrates Pelas Mirr's local symbolism into a usable civic landmark: Section 2 local anchor.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette. It belongs to Section 2 (Arcane / Alchemical Labs) of Pelas Mirr and should use Archive Towers, Forge Halls, Subterranean Vaults, pale marble stone and arcane glow materials, Serpent Geometry, Civic Blue Glow, Lantern Lit, and the sea elves visual language. Design focus: sealed jars, laboratories, distillation towers, containment courts, safety wards. Terrain/water context: Sea Cliffs; Coast. Magic expression: Road Warding, Threshold Oaths, Blue Order Sigils. No baked labels or text.",
+        "civicRole": "Serves as Section 2 local anchor within Pelas Mirr; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Formula Archive Nook",
+          "show how Pelas Mirr turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 2",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Formula Archive Nook becomes narratively important",
+          "the visible condition of Formula Archive Nook signals political or social stress",
+          "someone uses Formula Archive Nook's public function to redirect crowds or information",
+          "an overlooked detail at Formula Archive Nook reveals how Pelas Mirr really works"
+        ]
+      },
+      {
+        "name": "Public Works Authority Hall",
+        "symbolicRole": "Public Works Authority Hall concentrates Pelas Mirr's local symbolism into a usable civic landmark: Section 3 local anchor.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing. It belongs to Section 3 (Public Works Authority) of Pelas Mirr and should use Forge Halls, Market Arcades, White Limestone Civic Blocks, pale marble stone and arcane glow materials, Civic Blue Glow, Canal Reflections, Gold Seals, and the sea elves visual language. Design focus: clear central silhouette, board-readable entrance, measuring rods, scaffolds, stone plans. Terrain/water context: Sea Cliffs; Coast. Magic expression: Road Warding, Threshold Oaths, Blue Order Sigils. No baked labels or text.",
+        "civicRole": "Serves as Section 3 local anchor within Pelas Mirr; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Public Works Authority Hall",
+          "show how Pelas Mirr turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 3",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Public Works Authority Hall becomes narratively important",
+          "the visible condition of Public Works Authority Hall signals political or social stress",
+          "someone uses Public Works Authority Hall's public function to redirect crowds or information",
+          "an overlooked detail at Public Works Authority Hall reveals how Pelas Mirr really works"
+        ]
+      },
+      {
+        "name": "Survey Hall",
+        "symbolicRole": "Survey Hall concentrates Pelas Mirr's local symbolism into a usable civic landmark: Section 3 local anchor.",
+        "visualRole": "A mandatory Section 3 Beacon: a culturally adapted civic signal flame / warning-light landmark visible across the city spine. It belongs to Section 3 (Public Works Authority) of Pelas Mirr and should use White Limestone Civic Blocks, Forge Halls, Market Arcades, pale marble stone and arcane glow materials, Gold Seals, Civic Blue Glow, Canal Reflections, and the sea elves visual language. Design focus: Beacon must inherit city materials, culture, magic expression, and water/terrain context from CityProfile., Beacon form may be a ground flame, tower flame, suspended flame, totemic flame, ceremonial brazier, signal obelisk, or lighthouse-like flame., Beacon-compatible major landmark; must render as a culturally adapted civic signal flame or magical warning light., beacon-compatible flame or signal structure, largest section focal point. Terrain/water context: Sea Cliffs; Coast. Magic expression: Road Warding, Threshold Oaths, Blue Order Sigils. No baked labels or text.",
+        "civicRole": "Serves as Section 3 local anchor within Pelas Mirr; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Survey Hall",
+          "show how Pelas Mirr turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 3",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Survey Hall becomes narratively important",
+          "the visible condition of Survey Hall signals political or social stress",
+          "someone uses Survey Hall's public function to redirect crowds or information",
+          "an overlooked detail at Survey Hall reveals how Pelas Mirr really works"
+        ]
+      },
+      {
+        "name": "Blue-Lamp Monument",
+        "symbolicRole": "Blue-Lamp Monument concentrates Pelas Mirr's local symbolism into a usable civic landmark: Section 3 local anchor.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles. It belongs to Section 3 (Public Works Authority) of Pelas Mirr and should use Market Arcades, White Limestone Civic Blocks, Forge Halls, pale marble stone and arcane glow materials, Civic Blue Glow, Canal Reflections, Gold Seals, and the sea elves visual language. Design focus: local memory marker, subordinate to major landmark, measuring rods, scaffolds, stone plans. Terrain/water context: Sea Cliffs; Coast. Magic expression: Road Warding, Threshold Oaths, Blue Order Sigils. No baked labels or text.",
+        "civicRole": "Serves as Section 3 local anchor within Pelas Mirr; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Blue-Lamp Monument",
+          "show how Pelas Mirr turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 3",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Blue-Lamp Monument becomes narratively important",
+          "the visible condition of Blue-Lamp Monument signals political or social stress",
+          "someone uses Blue-Lamp Monument's public function to redirect crowds or information",
+          "an overlooked detail at Blue-Lamp Monument reveals how Pelas Mirr really works"
+        ]
+      },
+      {
+        "name": "Permit Yard Nook",
+        "symbolicRole": "Permit Yard Nook concentrates Pelas Mirr's local symbolism into a usable civic landmark: Section 3 local anchor.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette. It belongs to Section 3 (Public Works Authority) of Pelas Mirr and should use Forge Halls, Market Arcades, White Limestone Civic Blocks, pale marble stone and arcane glow materials, Civic Blue Glow, Canal Reflections, Gold Seals, and the sea elves visual language. Design focus: subordinate scale, measuring rods, scaffolds, stone plans, water gauges. Terrain/water context: Sea Cliffs; Coast. Magic expression: Road Warding, Threshold Oaths, Blue Order Sigils. No baked labels or text.",
+        "civicRole": "Serves as Section 3 local anchor within Pelas Mirr; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Permit Yard Nook",
+          "show how Pelas Mirr turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 3",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Permit Yard Nook becomes narratively important",
+          "the visible condition of Permit Yard Nook signals political or social stress",
+          "someone uses Permit Yard Nook's public function to redirect crowds or information",
+          "an overlooked detail at Permit Yard Nook reveals how Pelas Mirr really works"
+        ]
+      },
+      {
+        "name": "University / Lyceum Civic Hall",
+        "symbolicRole": "University / Lyceum Civic Hall concentrates Pelas Mirr's local symbolism into a usable civic landmark: Section 4 local anchor.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing. It belongs to Section 4 (University / Lyceum) of Pelas Mirr and should use Lecture Courts, Archive Towers, White Limestone Civic Blocks, pale marble stone and arcane glow materials, Civic Blue Glow, Star Navigation, Lantern Lit, and the sea elves visual language. Design focus: books, ink, star charts, lecture bells, lecture halls. Terrain/water context: Sea Cliffs; Coast. Magic expression: Road Warding, Threshold Oaths, Blue Order Sigils. No baked labels or text.",
+        "civicRole": "Serves as Section 4 local anchor within Pelas Mirr; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving University / Lyceum Civic Hall",
+          "show how Pelas Mirr turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 4",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at University / Lyceum Civic Hall becomes narratively important",
+          "the visible condition of University / Lyceum Civic Hall signals political or social stress",
+          "someone uses University / Lyceum Civic Hall's public function to redirect crowds or information",
+          "an overlooked detail at University / Lyceum Civic Hall reveals how Pelas Mirr really works"
+        ]
+      },
+      {
+        "name": "Star Navigation Monument",
+        "symbolicRole": "Star Navigation Monument concentrates Pelas Mirr's local symbolism into a usable civic landmark: Section 4 local anchor.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles. It belongs to Section 4 (University / Lyceum) of Pelas Mirr and should use White Limestone Civic Blocks, Lecture Courts, Archive Towers, pale marble stone and arcane glow materials, Lantern Lit, Civic Blue Glow, Star Navigation, and the sea elves visual language. Design focus: star charts, lecture bells, lecture halls, archive towers, study cloisters. Terrain/water context: Sea Cliffs; Coast. Magic expression: Road Warding, Threshold Oaths, Blue Order Sigils. No baked labels or text.",
+        "civicRole": "Serves as Section 4 local anchor within Pelas Mirr; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Star Navigation Monument",
+          "show how Pelas Mirr turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 4",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Star Navigation Monument becomes narratively important",
+          "the visible condition of Star Navigation Monument signals political or social stress",
+          "someone uses Star Navigation Monument's public function to redirect crowds or information",
+          "an overlooked detail at Star Navigation Monument reveals how Pelas Mirr really works"
+        ]
+      },
+      {
+        "name": "Observatory Court Nook",
+        "symbolicRole": "Observatory Court Nook concentrates Pelas Mirr's local symbolism into a usable civic landmark: Section 4 local anchor.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette. It belongs to Section 4 (University / Lyceum) of Pelas Mirr and should use Lecture Courts, Archive Towers, White Limestone Civic Blocks, pale marble stone and arcane glow materials, Civic Blue Glow, Star Navigation, Lantern Lit, and the sea elves visual language. Design focus: lecture halls, archive towers, study cloisters, study courts, small local identity prop. Terrain/water context: Sea Cliffs; Coast. Magic expression: Road Warding, Threshold Oaths, Blue Order Sigils. No baked labels or text.",
+        "civicRole": "Serves as Section 4 local anchor within Pelas Mirr; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Observatory Court Nook",
+          "show how Pelas Mirr turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 4",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Observatory Court Nook becomes narratively important",
+          "the visible condition of Observatory Court Nook signals political or social stress",
+          "someone uses Observatory Court Nook's public function to redirect crowds or information",
+          "an overlooked detail at Observatory Court Nook reveals how Pelas Mirr really works"
+        ]
+      },
+      {
+        "name": "S5 Harbor Campus",
+        "symbolicRole": "S5 Harbor Campus concentrates Pelas Mirr's local symbolism into a usable civic landmark: Section 5 local anchor.",
+        "visualRole": "Harbor Campus: authored civic gathering structure for section 5. institutional anchor. public-facing administration. clear central silhouette. board-readable entrance. anchors. ropes. buoys. signal lanterns. piers. quays. dock terraces. slipways.",
+        "civicRole": "Serves as Section 5 local anchor within Pelas Mirr; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving S5 Harbor Campus",
+          "show how Pelas Mirr turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 5",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at S5 Harbor Campus becomes narratively important",
+          "the visible condition of S5 Harbor Campus signals political or social stress",
+          "someone uses S5 Harbor Campus's public function to redirect crowds or information",
+          "an overlooked detail at S5 Harbor Campus reveals how Pelas Mirr really works"
+        ]
+      },
+      {
+        "name": "S5 Harbor Arch",
+        "symbolicRole": "S5 Harbor Arch concentrates Pelas Mirr's local symbolism into a usable civic landmark: Section 5 local anchor.",
+        "visualRole": "Harbor Arch: carved civic memorial on a raised plinth. Ceremonial gathering area, readable symbolic focal point, strong vertical silhouette.",
+        "civicRole": "Serves as Section 5 local anchor within Pelas Mirr; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving S5 Harbor Arch",
+          "show how Pelas Mirr turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 5",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at S5 Harbor Arch becomes narratively important",
+          "the visible condition of S5 Harbor Arch signals political or social stress",
+          "someone uses S5 Harbor Arch's public function to redirect crowds or information",
+          "an overlooked detail at S5 Harbor Arch reveals how Pelas Mirr really works"
+        ]
+      },
+      {
+        "name": "S5 Harbor Bridgelet",
+        "symbolicRole": "S5 Harbor Bridgelet concentrates Pelas Mirr's local symbolism into a usable civic landmark: Section 5 local anchor.",
+        "visualRole": "Harbor Bridgelet: compact district landmark. Small integrated platform, nearby gathering space, readable focal prop from adjacent streets.",
+        "civicRole": "Serves as Section 5 local anchor within Pelas Mirr; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving S5 Harbor Bridgelet",
+          "show how Pelas Mirr turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 5",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at S5 Harbor Bridgelet becomes narratively important",
+          "the visible condition of S5 Harbor Bridgelet signals political or social stress",
+          "someone uses S5 Harbor Bridgelet's public function to redirect crowds or information",
+          "an overlooked detail at S5 Harbor Bridgelet reveals how Pelas Mirr really works"
+        ]
+      }
     ]
   },
   "assetGuidance": {
     "districtDioramaGuidance": [
-      "S1 must show S1 Nursery Hall, Nursery Hall Beacon, S1 Nursery Pillar, S1 Nursery Kiosk, caregivers, water basins, and white coastal plazas.",
-      "S2 must show Arcane / Alchemical Labs Civic Hall, Alchemy Lab, Blue-Lamp Monument, Formula Archive Nook, glassware, reagents, and sea-facing terraces.",
-      "S3 must show Public Works Authority Hall, Survey Hall, Blue-Lamp Monument, Permit Yard Nook, instruments, maps, and harbor engineering activity.",
-      "S4 must show University / Lyceum Civic Hall, Lecture Hall, Star Navigation Monument, Observatory Court Nook, students, star charts, and public learning.",
-      "S5 must show S5 Harbor Campus, Harbor Basilica, S5 Harbor Arch, S5 Harbor Bridgelet, boats, shell details, and ritual waterfront activity."
+      "Dioramas must support 25 district slots: S1 covers D01, D02, D03, D06, D07 and uses source-backed anchors S1 Nursery Hall, Nursery Hall Beacon, S1 Nursery Pillar, S1 Nursery Kiosk.",
+      "Dioramas must support 25 district slots: S2 covers D04, D05, D09, D10, D15 and uses source-backed anchors Arcane / Alchemical Labs Civic Hall, Alchemy Lab, Blue-Lamp Monument, Formula Archive Nook.",
+      "Dioramas must support 25 district slots: S3 covers D08, D12, D13, D14, D18 and uses source-backed anchors Public Works Authority Hall, Survey Hall, Blue-Lamp Monument, Permit Yard Nook.",
+      "Dioramas must support 25 district slots: S4 covers D11, D16, D17, D21, D22 and uses source-backed anchors University / Lyceum Civic Hall, Lecture Hall, Star Navigation Monument, Observatory Court Nook.",
+      "Dioramas must support 25 district slots: S5 covers D19, D20, D23, D24, D25 and uses source-backed anchors S5 Harbor Campus, Harbor Basilica, S5 Harbor Arch, S5 Harbor Bridgelet."
     ],
     "mapBackgroundGuidance": [
-      "Keep Sea-Elven Pearlcurrent Amphitheater, Nursery Hall Beacon, and Star Map Ceilings Veiled High Court legible together.",
-      "Use white limestone, turquoise canals, sea glass, bronze, pearl light, survey yards, lecture courts, nursery halls, and harbor basilica architecture."
+      "Map backgrounds must show Sea-Elven Pearlcurrent Amphitheater as the wonder-scale identity anchor, Star Map Ceilings Veiled High Court at D13, and Nursery Hall Beacon as the city signal landmark.",
+      "Preserve the five-section spine: S1 S1 Nursery Hall, S2 Arcane / Alchemical Labs Civic Hall, S3 Public Works Authority Hall, S4 University / Lyceum Civic Hall, S5 S5 Harbor Campus.",
+      "Use roads, terrain, water, civic terraces, walls, markets, courts, or service routes only where they support the exact city identity and tactical readability."
     ],
-    "requiredVisualElements": ["sea-elven citizens", "Sea-Elven Pearlcurrent Amphitheater", "Nursery Hall Beacon", "Star Map Ceilings Veiled High Court", "S1 Nursery Hall", "S1 Nursery Pillar", "S1 Nursery Kiosk", "Alchemy Lab", "Blue-Lamp Monument", "Formula Archive Nook", "Survey Hall", "Permit Yard Nook", "Lecture Hall", "Star Navigation Monument", "Observatory Court Nook", "Harbor Basilica", "S5 Harbor Arch", "S5 Harbor Bridgelet"],
-    "elementsToAvoid": ["generic coastal palace", "sea elves as decoration", "harbor without public works", "Luminthalas-by-the-sea", "nursery and harbor anchors omitted"]
+    "requiredVisualElements": [
+      "Sea-Elven Pearlcurrent Amphitheater",
+      "Nursery Hall Beacon",
+      "Star Map Ceilings Veiled High Court",
+      "Harbor Basilica",
+      "Alchemy Lab",
+      "Lecture Hall",
+      "S1 Nursery Hall",
+      "S1 Nursery Pillar",
+      "S1 Nursery Kiosk",
+      "Arcane / Alchemical Labs Civic Hall",
+      "Blue-Lamp Monument",
+      "Formula Archive Nook",
+      "Public Works Authority Hall",
+      "Survey Hall",
+      "Permit Yard Nook",
+      "University / Lyceum Civic Hall",
+      "Star Navigation Monument",
+      "Observatory Court Nook",
+      "S5 Harbor Campus",
+      "S5 Harbor Arch",
+      "S5 Harbor Bridgelet",
+      "Pale Marble Stone",
+      "Sea Glass",
+      "Stone",
+      "Silver Inlay",
+      "Arcane Glow",
+      "Coastal Edge",
+      "Seawall Edge",
+      "Harbor Basin",
+      "Ward Networks",
+      "Ritual Geometry",
+      "Moonlight Refraction"
+    ],
+    "elementsToAvoid": [
+      "extra top-level schema sections or research-log content in the JSON",
+      "generic fantasy architecture that ignores exact anchor names",
+      "invented missing street anchors",
+      "readable real-world text labels baked into images",
+      "collapsing the 25-district board into only five playable spaces",
+      "making landmarks decorative when they should have civic, narrative, and asset function"
+    ]
   }
 }

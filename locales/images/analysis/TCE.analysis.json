@@ -4,110 +4,1801 @@
     "analysisVersion": 2,
     "cityCode": "TCE",
     "cityName": "The Crucible",
-    "analysisDate": "2026-07-03",
+    "analysisDate": "2026-07-05",
     "analystVersion": "gpt-5.5-thinking",
     "analysisConfidence": "strong-lock",
-    "basedOnImages": ["TCE-HERO-NE-v001", "TCE-HERO-NW-v001", "TCE-HERO-SE-v001", "TCE-HERO-SW-v001", "TCE-STREET-S1-v001", "TCE-STREET-S2-v001", "TCE-STREET-S3-v001", "TCE-STREET-S4-v001", "TCE-STREET-S5-v001"],
-    "basedOnSidecars": ["TCE-HERO-NE-v001.json", "TCE-HERO-NW-v001.json", "TCE-HERO-SE-v001.json", "TCE-HERO-SW-v001.json", "TCE-STREET-S1-v001.json", "TCE-STREET-S2-v001.json", "TCE-STREET-S3-v001.json", "TCE-STREET-S4-v001.json", "TCE-STREET-S5-v001.json"]
+    "basedOnImages": [
+      "TCE-HERO-NE-v001",
+      "TCE-HERO-NW-v001",
+      "TCE-HERO-SE-v001",
+      "TCE-HERO-SW-v001",
+      "TCE-STREET-S1-v001",
+      "TCE-STREET-S2-v001",
+      "TCE-STREET-S3-v001",
+      "TCE-STREET-S4-v001",
+      "TCE-STREET-S5-v001"
+    ],
+    "basedOnSidecars": [
+      "TCE-HERO-NE-v001.json",
+      "TCE-HERO-NW-v001.json",
+      "TCE-HERO-SE-v001.json",
+      "TCE-HERO-SW-v001.json",
+      "TCE-STREET-S1-v001.json",
+      "TCE-STREET-S2-v001.json",
+      "TCE-STREET-S3-v001.json",
+      "TCE-STREET-S4-v001.json",
+      "TCE-STREET-S5-v001.json"
+    ],
+    "missingStreetSections": []
   },
   "cityDNA": {
-    "coreFantasy": "An elemental caldera city where forges, alchemical labs, archives, border walls, hidden markets, and eclipse-ring government turn volatility into civic order.",
-    "primaryEmotion": "contained intensity",
-    "secondaryEmotion": "arcane pressure",
-    "readerTakeaway": "The Crucible is not only a fire city; the uploaded images show industry, alchemy, records, defense, and unofficial exchange arranged around elemental convergence.",
-    "civilizationThesis": "The Crucible turns raw crystal, basalt, copper, ritual geometry, forges, formula archives, public records, border discipline, and hidden economies into an institution for controlled danger.",
-    "visualIdentity": "Basalt terraces, raw crystal, copper bands, quartzite, arcane glow, living fires, smoke stacks, blue alchemical lamps, archive towers, border walls, black-market arcades, and eclipse-ring courts.",
-    "culturalIdentity": "Elemental folk civic culture organized around pressure control, dangerous craft, formal records, containment boundaries, and negotiated unofficial exchange.",
-    "symbolicIdentity": "Four living fires, eclipse rings, forge beacons, smoke stacks, blue lamps, gold seals, border banners, mist-veiled vaults, and raw crystal symbolize power under rules."
+    "coreFantasy": "A elemental folk city where Heavy Industry / Foundry, Arcane / Alchemical Labs, Records / Archives, Fortress / Border Wall, Underworld / Hidden Economy, and Elemental Crucible Ring of Four Living Fires turn dry stone paving, civic terraces, caldera, dry ground and raw crystal, basalt, copper, arcane glow, quartzite into a distinct civic machine.",
+    "primaryEmotion": "dangerous civic heat",
+    "secondaryEmotion": "disciplined volatility",
+    "readerTakeaway": "The Crucible should feel like a city that has learned to govern catastrophe through craft, oath, and heat.",
+    "civilizationThesis": "The Crucible organizes public life around controlled transformation: its districts convert Heavy Industry / Foundry, Arcane / Alchemical Labs, Records / Archives, Fortress / Border Wall, Underworld / Hidden Economy into a readable system of authority, labor, memory, and movement.",
+    "visualIdentity": "The Crucible should be recognized by Raw Crystal, Basalt, Copper, Arcane Glow, Quartzite, Dry Stone Paving, Civic Terraces, Caldera, Dry Ground, Ward Networks, Ritual Geometry, Elemental Convergence, Cipher Glamours, Yellow Intent Glimmers, and the named anchors Elemental Crucible Ring of Four Living Fires, Great Forge Beacon, and Eclipse Rings Sovereign Registry Court.",
+    "culturalIdentity": "The city belongs to elemental folk; its civic habits should grow from the sidecar-backed district spine rather than generic fantasy urbanism.",
+    "symbolicIdentity": "Elemental Crucible Ring of Four Living Fires, Great Forge Beacon, Eclipse Rings Sovereign Registry Court, and the five section landmark families symbolize controlled transformation while warning against power that escapes its ritual container."
   },
   "canon": {
     "canonLocks": [
-      "The Crucible is a mature elemental civic city, not a generic fire forge.",
+      "The Crucible is a elemental folk city, not a generic settlement with cosmetic motifs.",
       "The Wonder is Elemental Crucible Ring of Four Living Fires.",
       "The Beacon is Great Forge Beacon.",
-      "The Seat of Power is Eclipse Rings Sovereign Registry Court.",
-      "The five primary districts are Heavy Industry / Foundry, Arcane / Alchemical Labs, Records / Archives, Fortress / Border Wall, and Underworld / Hidden Economy.",
-      "Exact uploaded anchors include Heavy Industry / Foundry Civic Hall, Great Forge Beacon, Smoke-Stack Monument, Crucible Hall Nook, Arcane / Alchemical Labs Civic Hall, Alchemy Lab, Blue-Lamp Monument, Formula Archive Nook, Records / Archives Hall, Archive Tower, Records Archives Gold-Seal Monument, Copyist Hall Nook, Fortress / Border Wall Civic Hall, Border Wall, Woven Banners Monument, Watch Bastion Nook, Underworld / Hidden Economy Civic Hall, Black Market Arcade, Mist Veils Monument, and Understreet Vault Nook."
+      "The Seat of Power is Eclipse Rings Sovereign Registry Court, located at the District 13 authority center.",
+      "The five district sections are Heavy Industry / Foundry, Arcane / Alchemical Labs, Records / Archives, Fortress / Border Wall, Underworld / Hidden Economy.",
+      "The board should be treated as twenty-five district slots grouped into five section identities.",
+      "Section 1 (Heavy Industry / Foundry) preserves these exact anchor names: Heavy Industry / Foundry Civic Hall, Great Forge Beacon, Smoke-Stack Monument, Crucible Hall Nook.",
+      "Section 2 (Arcane / Alchemical Labs) preserves these exact anchor names: Arcane / Alchemical Labs Civic Hall, Alchemy Lab, Blue-Lamp Monument, Formula Archive Nook.",
+      "Section 3 (Records / Archives) preserves these exact anchor names: Records / Archives Hall, Archive Tower, Records Archives Gold-Seal Monument, Copyist Hall Nook.",
+      "Section 4 (Fortress / Border Wall) preserves these exact anchor names: Fortress / Border Wall Civic Hall, Border Wall, Woven Banners Monument, Watch Bastion Nook.",
+      "Section 5 (Underworld / Hidden Economy) preserves these exact anchor names: Underworld / Hidden Economy Civic Hall, Black Market Arcade, Mist Veils Monument, Understreet Vault Nook."
     ],
-    "provisionalCanon": ["The Crucible's strongest civic read is contained intensity shaped into institutions.", "The uploaded image and sidecar pass were folded into existing v2 fields without adding a new top-level image-analysis section."],
-    "rejectedReads": ["fire city only", "generic forge town", "elemental spectacle with no civic records or boundaries", "black market as disconnected flavor"],
-    "cautionFlags": ["Preserve exact uploaded sidecar anchor names.", "Keep forge, alchemy, archives, border wall, and hidden economy visible together.", "Elemental power should read as regulated pressure, not random chaos."]
+    "provisionalCanon": [
+      "Individual district-slot names beyond exact sidecar anchors are organizational labels for the 25-seat board, not new landmark canon.",
+      "Minor street customs should be derived from the section spine unless future source files provide more exact anchors."
+    ],
+    "rejectedReads": [
+      "The Crucible as a generic fantasy city without its named Wonder, Beacon, and Seat of Power.",
+      "Replacing exact sidecar anchor names with generic labels such as market, temple, tower, wall, or archive.",
+      "Treating district section labels as decorative instead of civic systems that drive scenes and assets."
+    ],
+    "cautionFlags": [
+      "Preserve exact named anchors from sidecars.",
+      "Use the culture identity respectfully as civic design language rather than costume.",
+      "Keep all 25 district slots legible even when five slots share one section identity.",
+      "Do not add unsupported individual district landmark names beyond the source-backed anchors."
+    ]
   },
   "environment": {
-    "terrain": ["Dry Stone Paving", "Civic Terraces", "Caldera", "forge courts", "border approaches", "understreet vault routes"],
-    "water": ["quench troughs", "ritual basins", "cooling channels", "dry civic ground"],
-    "vegetation": ["minimal terrace plantings", "heat-tolerant courtyard shrubs", "reagent planters"],
-    "climateLighting": ["forge orange", "raw crystal glow", "civic blue lamps", "caldera haze", "eclipse shadow", "arcane night light"],
-    "environmentalLogic": "The caldera is organized into regulated heat, records, routes, labs, and boundaries; the city survives by making volatile forces procedural."
+    "terrain": [
+      "Dry Stone Paving",
+      "Civic Terraces",
+      "Caldera",
+      "Dry Ground"
+    ],
+    "water": [
+      "dry city ground"
+    ],
+    "vegetation": [
+      "source-backed civic greenery where visible"
+    ],
+    "climateLighting": [
+      "Civic Blue Glow",
+      "Forge Smoke Columns",
+      "Lantern Lit",
+      "Mist Veils",
+      "White Limestone Civic Blocks",
+      "symbolic civic object",
+      "signal fires"
+    ],
+    "environmentalLogic": "The Crucible's environment should make Heavy Industry / Foundry, Arcane / Alchemical Labs, Records / Archives, Fortress / Border Wall, Underworld / Hidden Economy feel physically necessary. Terrain, light, civic routes, and landmark placement must support movement through all five section identities rather than read as interchangeable scenery."
   },
   "architecture": {
-    "materials": ["Raw Crystal", "Basalt", "Copper", "Arcane Glow", "Quartzite"],
-    "forms": ["Elemental Crucible Ring of Four Living Fires", "Eclipse Rings Sovereign Registry Court", "Great Forge Beacon", "Heavy Industry / Foundry Civic Hall", "Alchemy Lab", "Archive Tower", "Border Wall", "Black Market Arcade", "Formula Archive Nook", "Understreet Vault Nook"],
-    "skyline": ["Elemental Crucible Ring of Four Living Fires as far wonder anchor", "Eclipse Rings Sovereign Registry Court as central authority", "Great Forge Beacon as industrial signal", "forge stacks, alchemy towers, archive spires, border walls, and hidden arcades around caldera terraces"],
-    "lighting": ["living-fire glow", "blue alchemical light", "copper reflections", "raw crystal flares", "mist-veiled underlights"],
-    "infrastructure": ["forge floors", "smoke stacks", "crucible halls", "formula archives", "archive stairs", "copyist halls", "border walls", "watch bastions", "understreet vaults"],
-    "motifs": ["four living fires", "eclipse rings", "smoke stacks", "blue lamps", "gold seals", "woven banners", "mist veils", "raw crystal"],
-    "colorLanguage": ["basalt black", "forge orange", "crystal white", "copper red", "civic blue", "eclipse shadow"],
-    "textureLanguage": ["heat-cracked stone", "raw crystal facets", "hammered copper", "smooth quartzite", "soot", "sealed paper"]
+    "materials": [
+      "Raw Crystal",
+      "Basalt",
+      "Copper",
+      "Arcane Glow",
+      "Quartzite"
+    ],
+    "forms": [
+      "Subterranean Vaults",
+      "Forge Halls",
+      "Obsidian Fortresses",
+      "basalt and quartzite materials",
+      "Civic Blue Glow",
+      "Forge Smoke Columns",
+      "Red Fabric Awnings",
+      "Market Arcades",
+      "Gothic Spires",
+      "Lantern Lit",
+      "Serpent Geometry",
+      "Mist Veils",
+      "Archive Towers",
+      "Cyclopean Megaliths",
+      "White Limestone Civic Blocks",
+      "Carved Totems",
+      "Woven Banners",
+      "Gold Seals"
+    ],
+    "skyline": [
+      "Elemental Crucible Ring of Four Living Fires is the wonder-scale skyline identifier.",
+      "Eclipse Rings Sovereign Registry Court marks the central authority mass at District 13.",
+      "Great Forge Beacon must remain visible as the public signal landmark.",
+      "Section landmarks should form a readable ring of Heavy Industry / Foundry, Arcane / Alchemical Labs, Records / Archives, Fortress / Border Wall, Underworld / Hidden Economy."
+    ],
+    "lighting": [
+      "Civic Blue Glow",
+      "Forge Smoke Columns",
+      "Lantern Lit",
+      "Mist Veils",
+      "White Limestone Civic Blocks",
+      "symbolic civic object",
+      "signal fires",
+      "district lanterns",
+      "public signal glow"
+    ],
+    "infrastructure": [
+      "Heavy Industry / Foundry routes",
+      "Arcane / Alchemical Labs routes",
+      "Records / Archives routes",
+      "Fortress / Border Wall routes",
+      "Underworld / Hidden Economy routes",
+      "Heavy Industry / Foundry Civic Hall",
+      "Arcane / Alchemical Labs Civic Hall",
+      "Records / Archives Hall",
+      "Fortress / Border Wall Civic Hall",
+      "Underworld / Hidden Economy Civic Hall"
+    ],
+    "motifs": [
+      "furnace towers",
+      "slag yards",
+      "ore yards",
+      "largest section focal point",
+      "strong vertical silhouette",
+      "secret doors",
+      "distinct gameplay landmark",
+      "visible from nearby districts",
+      "retorts",
+      "walls",
+      "portcullises",
+      "anvils",
+      "molten channels",
+      "foundry sheds",
+      "symbolic civic object",
+      "small ceremonial site",
+      "local memory marker",
+      "subordinate to major landmark"
+    ],
+    "colorLanguage": [
+      "Raw Crystal",
+      "Basalt",
+      "Copper",
+      "Ward Networks",
+      "Ritual Geometry",
+      "Elemental Convergence",
+      "Cipher Glamours"
+    ],
+    "textureLanguage": [
+      "Raw Crystal",
+      "Basalt",
+      "Copper",
+      "Arcane Glow",
+      "Quartzite",
+      "Dry Stone Paving",
+      "Civic Terraces",
+      "Caldera",
+      "Dry Ground"
+    ]
   },
   "civilization": {
-    "people": "Elemental citizens are intense but institutionally trained; public life moves through safety rules, formula permissions, forge cycles, archive records, wall boundaries, and hidden negotiations.",
-    "occupations": ["forge workers", "beacon keepers", "alchemists", "formula archivists", "copyists", "border guards", "watch bastion crews", "market brokers", "vault keepers"],
-    "socialClasses": ["registry officials", "forge guilds", "alchemy circles", "archive staff", "border command", "hidden market brokers", "caldera laborers"],
-    "governance": "Eclipse Rings Sovereign Registry Court governs hazardous production, formula access, record authority, border control, and unofficial pressure valves.",
-    "religion": "Ritual geometry, elemental convergence, living-fire circles, eclipse symbolism, and ward networks make civic restraint sacred-adjacent.",
-    "customs": ["forge-cycle announcements", "formula sealing", "archive witnessing", "border heat warnings", "eclipse-ring petitions", "understreet bargaining codes"],
-    "bodyLanguage": ["heat-aware spacing", "controlled gestures", "protective stances near hazards", "careful handling of formulae", "quick glances at signal lights"],
-    "speechPatterns": ["forge slang", "elemental safety terms", "formula citations", "archive language", "border commands", "coded market phrases"]
+    "people": "The Crucible's people are elemental folk; they should be written through shared civic habits, public spaces, work rhythms, and the visible demands of the five section identities.",
+    "occupations": [
+      "forge crews",
+      "smelters",
+      "ore haulers",
+      "furnace wardens",
+      "alchemists",
+      "formula copyists",
+      "lab wardens",
+      "component sellers",
+      "archivists",
+      "copyists",
+      "seal clerks",
+      "index runners",
+      "wall wardens",
+      "gate officers",
+      "banner guards",
+      "watch crews",
+      "arcade brokers",
+      "understreet guides",
+      "discreet couriers",
+      "vault keepers"
+    ],
+    "socialClasses": [
+      "officials and stewards tied to Eclipse Rings Sovereign Registry Court",
+      "landmark keepers and civic hall administrators",
+      "guild families and specialist workers",
+      "street vendors, porters, runners, and maintenance crews",
+      "families living around the section-specific local anchors"
+    ],
+    "governance": "Authority centers on Eclipse Rings Sovereign Registry Court and is made visible through section civic halls, named landmarks, permissions, public signals, and the citywide response to Great Forge Beacon.",
+    "religion": "Religious or ceremonial life should be shown through source-backed shrines, temples, wonders, oath spaces, ancestor sites, or ritual geometry when those appear in the district spine.",
+    "customs": [
+      "citizens orient themselves by the section identity of a street before they identify an address",
+      "public notices and signals are interpreted through the Beacon and civic halls",
+      "named landmarks act as meeting points, proof points, and local memory anchors",
+      "section-specific work routines shape food, clothing, posture, and street traffic",
+      "District 13 authority matters even when scenes occur in outer district slots"
+    ],
+    "bodyLanguage": [
+      "movement reflects dangerous civic heat",
+      "citizens check landmarks and signals before crossing into another section",
+      "officials use the posture and tools of their section role",
+      "workers treat section anchors as practical wayfinding points",
+      "crowds become more formal near the Seat of Power and more local near minor landmarks"
+    ],
+    "speechPatterns": [
+      "directions use exact landmark names rather than generic descriptions",
+      "section names carry social meaning",
+      "official speech references permits, seals, routes, oaths, or signals as appropriate to the city",
+      "working speech is concrete, location-heavy, and tied to civic function",
+      "locals distinguish between the Wonder, Beacon, Seat, and section landmarks without confusion"
+    ]
   },
   "urbanLife": {
     "streets": {
-      "appearance": "Hot, angular, and luminous: forge plazas, alchemy courts, archive towers, walls, watch bastions, black-market passages, blue lamps, and raw crystal seams share the caldera terraces.",
-      "movement": "Movement follows heat-safe lanes, forge paths, lab corridors, archive stairs, wall walks, watch routes, and understreet vault approaches.",
-      "sounds": ["forge roar", "crystal hum", "glass clink", "copyist scratch", "border bells", "market whispers"],
-      "smells": ["hot basalt", "metal smoke", "sharp reagents", "lamp oil", "dust", "ozone"],
-      "lighting": "Forge glow and raw crystal flare compete with controlled blue lamps and eclipse shadows.",
-      "weatherEffects": "Heat haze, ash, caldera wind, and crystal glare make regulated routes essential.",
-      "dayCycle": "Forge work, lab permissions, archive traffic, and wall drills dominate daytime.",
-      "nightCycle": "Blue lamps, living fires, hidden markets, and crystal glow dominate night."
+      "appearance": "Street scenes should make The Crucible immediately identifiable through Raw Crystal, Basalt, Copper, Arcane Glow, Quartzite, Dry Stone Paving, Civic Terraces, Caldera, Dry Ground, Ward Networks, Ritual Geometry, Elemental Convergence, Cipher Glamours, Yellow Intent Glimmers, and the exact section anchors rather than generic fantasy facades.",
+      "movement": "Movement flows through five section identities and twenty-five district slots. People navigate by Great Forge Beacon, Eclipse Rings Sovereign Registry Court, section civic halls, major landmarks, monuments, and minor nooks.",
+      "sounds": [
+        "foot traffic",
+        "public notices",
+        "work tools",
+        "cart wheels or pack movement",
+        "district-specific calls",
+        "signal response murmurs",
+        "forge crews",
+        "smelters",
+        "ore haulers",
+        "furnace wardens",
+        "alchemists",
+        "formula copyists"
+      ],
+      "smells": [
+        "worked materials",
+        "street food",
+        "lamp oil",
+        "dust or wet stone",
+        "district workshops",
+        "raw crystal",
+        "basalt",
+        "copper",
+        "arcane glow",
+        "quartzite"
+      ],
+      "lighting": "Lighting should use Civic Blue Glow, Forge Smoke Columns, Lantern Lit, Mist Veils, White Limestone Civic Blocks, symbolic civic object, with the Beacon and Seat carrying distinct civic emphasis.",
+      "weatherEffects": "Weather should interact with dry stone paving, civic terraces, caldera, dry ground and the city's source-backed materials, altering visibility, travel speed, public gathering, and signal readability.",
+      "dayCycle": "Daytime emphasizes section labor: Heavy Industry / Foundry, Arcane / Alchemical Labs, Records / Archives, Fortress / Border Wall, Underworld / Hidden Economy. Civic halls, shops, and public works create the main public rhythm.",
+      "nightCycle": "Night scenes should preserve the city's identity through landmark silhouettes, beacon light, watch routes, late shops, ritual spaces, and section-specific sounds."
     },
     "shops": {
-      "common": ["forge tool stalls", "lamp repair counters", "reagent sellers", "food carts for workers"],
-      "uncommon": ["formula copyists", "crystal cutters", "ward-sigil repairers", "vault brokers"],
-      "prestigious": ["registry offices", "great forge contracts", "alchemy patron labs", "archive legal counters"],
-      "exports": ["forged goods", "raw crystal craft", "formula copies", "warded mechanisms", "elemental tools"],
-      "imports": ["ore", "charcoal", "rare reagents", "paper", "food", "cloth"],
-      "streetFood": ["charred flatbread", "spiced stew", "mineral tea", "worker broth"],
-      "services": ["forge repair", "formula certification", "archive copying", "wall access", "vault brokerage"]
+      "common": [
+        "heavy industry / foundry supply stalls",
+        "arcane / alchemical labs supply stalls",
+        "records / archives supply stalls",
+        "fortress / border wall supply stalls",
+        "underworld / hidden economy supply stalls",
+        "street food carts",
+        "tool repair stalls",
+        "notice copyists"
+      ],
+      "uncommon": [
+        "heavy industry / foundry specialist counters",
+        "arcane / alchemical labs specialist counters",
+        "records / archives specialist counters",
+        "fortress / border wall specialist counters",
+        "underworld / hidden economy specialist counters",
+        "landmark guide services",
+        "ritual or permit specialists"
+      ],
+      "prestigious": [
+        "workshops or offices near Eclipse Rings Sovereign Registry Court",
+        "specialist houses serving Elemental Crucible Ring of Four Living Fires",
+        "elite civic sealers or patrons",
+        "master artisans tied to section landmarks"
+      ],
+      "exports": [
+        "heavy industry / foundry goods",
+        "arcane / alchemical labs goods",
+        "records / archives goods",
+        "fortress / border wall goods",
+        "underworld / hidden economy goods",
+        "raw crystal",
+        "basalt",
+        "copper",
+        "arcane glow"
+      ],
+      "imports": [
+        "food staples",
+        "replacement tools",
+        "rare pigments",
+        "ritual materials",
+        "metal fittings",
+        "fine cloth"
+      ],
+      "streetFood": [
+        "portable worker meals",
+        "flatbread or grain cakes",
+        "spiced stews",
+        "roasted local produce",
+        "market tea",
+        "festival sweets"
+      ],
+      "services": [
+        "directions by landmark",
+        "permit filing",
+        "repair work",
+        "messenger runs",
+        "public notice posting",
+        "heavy industry / foundry services",
+        "arcane / alchemical labs services",
+        "records / archives services",
+        "fortress / border wall services",
+        "underworld / hidden economy services"
+      ]
     },
     "housing": {
-      "wealthy": "Registry, alchemy, and forge-master terraces with crystal light, copper screens, and protected views of the caldera.",
-      "middle": "Workshop apartments, archive rooms, and guard-family homes along heat-safe public routes.",
-      "poor": "Hot lower terraces, service rooms, and vault-adjacent housing dependent on controlled routes and public lamps."
+      "wealthy": "High-status housing clusters near Eclipse Rings Sovereign Registry Court, major terraces, and prestigious landmark approaches; it should display the city materials cleanly and control sightlines toward Wonder or Beacon.",
+      "middle": "Middle housing occupies upper rooms, side courts, work-family compounds, and mixed-use streets close to civic halls and section services.",
+      "poor": "Poorer housing should be practical and specific to local labor, with patched materials, shared courtyards, crowded lanes, and strong dependence on nearby section anchors."
     }
   },
   "districts": [
-    {"sectionNumber": 1, "name": "Heavy Industry / Foundry", "civicPurpose": "Production, public signal, dangerous labor, and elemental heat management.", "visualIdentity": "Heavy Industry / Foundry Civic Hall, Great Forge Beacon, Smoke-Stack Monument, Crucible Hall Nook.", "emotionalIdentity": "hot, productive, dangerous", "gameplayAssetNeeds": ["Heavy Industry / Foundry Civic Hall", "Great Forge Beacon", "Smoke-Stack Monument", "Crucible Hall Nook"], "narrativeUse": ["Beacon warning", "forge crisis", "labor pressure"], "landmark": "Great Forge Beacon", "minorLandmarks": ["Smoke-Stack Monument", "Crucible Hall Nook"]},
-    {"sectionNumber": 2, "name": "Arcane / Alchemical Labs", "civicPurpose": "Formula control, research, reagent work, and dangerous invention.", "visualIdentity": "Arcane / Alchemical Labs Civic Hall, Alchemy Lab, Blue-Lamp Monument, Formula Archive Nook.", "emotionalIdentity": "precise, restricted, volatile", "gameplayAssetNeeds": ["Arcane / Alchemical Labs Civic Hall", "Alchemy Lab", "Blue-Lamp Monument", "Formula Archive Nook"], "narrativeUse": ["formula clue", "lab accident", "research dispute"], "landmark": "Alchemy Lab", "minorLandmarks": ["Blue-Lamp Monument", "Formula Archive Nook"]},
-    {"sectionNumber": 3, "name": "Records / Archives", "civicPurpose": "Official memory, hazard records, formula copies, and legal continuity.", "visualIdentity": "Records / Archives Hall, Archive Tower, Records Archives Gold-Seal Monument, Copyist Hall Nook.", "emotionalIdentity": "exact, cool, necessary", "gameplayAssetNeeds": ["Records / Archives Hall", "Archive Tower", "Records Archives Gold-Seal Monument", "Copyist Hall Nook"], "narrativeUse": ["record clue", "hazard history", "legal contradiction"], "landmark": "Archive Tower", "minorLandmarks": ["Records Archives Gold-Seal Monument", "Copyist Hall Nook"]},
-    {"sectionNumber": 4, "name": "Fortress / Border Wall", "civicPurpose": "Boundary control, hazard containment, defense, and watch discipline.", "visualIdentity": "Fortress / Border Wall Civic Hall, Border Wall, Woven Banners Monument, Watch Bastion Nook.", "emotionalIdentity": "guarded, formal, tense", "gameplayAssetNeeds": ["Fortress / Border Wall Civic Hall", "Border Wall", "Woven Banners Monument", "Watch Bastion Nook"], "narrativeUse": ["wall alarm", "boundary dispute", "watch scene"], "landmark": "Border Wall", "minorLandmarks": ["Woven Banners Monument", "Watch Bastion Nook"]},
-    {"sectionNumber": 5, "name": "Underworld / Hidden Economy", "civicPurpose": "Unofficial exchange, pressure release, hidden storage, and risky workaround networks.", "visualIdentity": "Underworld / Hidden Economy Civic Hall, Black Market Arcade, Mist Veils Monument, Understreet Vault Nook.", "emotionalIdentity": "coded, necessary, unstable", "gameplayAssetNeeds": ["Underworld / Hidden Economy Civic Hall", "Black Market Arcade", "Mist Veils Monument", "Understreet Vault Nook"], "narrativeUse": ["hidden deal", "vault clue", "pressure release"], "landmark": "Black Market Arcade", "minorLandmarks": ["Mist Veils Monument", "Understreet Vault Nook"]}
+    {
+      "districtNumber": 1,
+      "sectionNumber": 1,
+      "name": "D01 Heavy Industry / Foundry Civic Core",
+      "civicPurpose": "One of five Heavy Industry / Foundry district slots, focused on civic core; it supports local movement, services, social pressure, and scene transitions within Section 1.",
+      "visualIdentity": "Heavy Industry / Foundry Civic Hall anchors the slot, supported by Smoke-Stack Monument, Crucible Hall Nook, Raw Crystal, Basalt, Copper, Arcane Glow, Quartzite, and the elemental folk civic language.",
+      "emotionalIdentity": "Heavy Industry / Foundry expressed through civic core: dangerous civic heat with practical street-level specificity.",
+      "gameplayAssetNeeds": [
+        "Heavy Industry / Foundry Civic Hall",
+        "Smoke-Stack Monument",
+        "Crucible Hall Nook",
+        "Heavy Industry / Foundry street dressing",
+        "elemental folk civilians",
+        "section-appropriate props"
+      ],
+      "narrativeUse": [
+        "heavy industry / foundry errands",
+        "wayfinding by exact landmark",
+        "crowd pressure",
+        "local work conflict",
+        "transition between board slots"
+      ],
+      "primaryLandmark": "Heavy Industry / Foundry Civic Hall",
+      "minorLandmarks": [
+        "Smoke-Stack Monument",
+        "Crucible Hall Nook"
+      ]
+    },
+    {
+      "districtNumber": 2,
+      "sectionNumber": 1,
+      "name": "D02 Heavy Industry / Foundry Major Landmark Approach",
+      "civicPurpose": "One of five Heavy Industry / Foundry district slots, focused on major landmark approach; it supports local movement, services, social pressure, and scene transitions within Section 1.",
+      "visualIdentity": "Great Forge Beacon anchors the slot, supported by Smoke-Stack Monument, Crucible Hall Nook, Heavy Industry / Foundry Civic Hall, Raw Crystal, Basalt, Copper, Arcane Glow, Quartzite, and the elemental folk civic language.",
+      "emotionalIdentity": "Heavy Industry / Foundry expressed through major landmark approach: dangerous civic heat with practical street-level specificity.",
+      "gameplayAssetNeeds": [
+        "Great Forge Beacon",
+        "Smoke-Stack Monument",
+        "Crucible Hall Nook",
+        "Heavy Industry / Foundry Civic Hall",
+        "Heavy Industry / Foundry street dressing",
+        "elemental folk civilians",
+        "section-appropriate props"
+      ],
+      "narrativeUse": [
+        "heavy industry / foundry errands",
+        "wayfinding by exact landmark",
+        "crowd pressure",
+        "local work conflict",
+        "transition between board slots"
+      ],
+      "primaryLandmark": "Great Forge Beacon",
+      "minorLandmarks": [
+        "Smoke-Stack Monument",
+        "Crucible Hall Nook",
+        "Heavy Industry / Foundry Civic Hall"
+      ]
+    },
+    {
+      "districtNumber": 3,
+      "sectionNumber": 1,
+      "name": "D03 Heavy Industry / Foundry Monument Square",
+      "civicPurpose": "One of five Heavy Industry / Foundry district slots, focused on monument square; it supports local movement, services, social pressure, and scene transitions within Section 1.",
+      "visualIdentity": "Smoke-Stack Monument anchors the slot, supported by Crucible Hall Nook, Heavy Industry / Foundry Civic Hall, Raw Crystal, Basalt, Copper, Arcane Glow, Quartzite, and the elemental folk civic language.",
+      "emotionalIdentity": "Heavy Industry / Foundry expressed through monument square: dangerous civic heat with practical street-level specificity.",
+      "gameplayAssetNeeds": [
+        "Smoke-Stack Monument",
+        "Crucible Hall Nook",
+        "Heavy Industry / Foundry Civic Hall",
+        "Heavy Industry / Foundry street dressing",
+        "elemental folk civilians",
+        "section-appropriate props"
+      ],
+      "narrativeUse": [
+        "heavy industry / foundry errands",
+        "wayfinding by exact landmark",
+        "crowd pressure",
+        "local work conflict",
+        "transition between board slots"
+      ],
+      "primaryLandmark": "Smoke-Stack Monument",
+      "minorLandmarks": [
+        "Crucible Hall Nook",
+        "Heavy Industry / Foundry Civic Hall"
+      ]
+    },
+    {
+      "districtNumber": 4,
+      "sectionNumber": 2,
+      "name": "D04 Arcane / Alchemical Labs Civic Core",
+      "civicPurpose": "One of five Arcane / Alchemical Labs district slots, focused on civic core; it supports local movement, services, social pressure, and scene transitions within Section 2.",
+      "visualIdentity": "Arcane / Alchemical Labs Civic Hall anchors the slot, supported by Blue-Lamp Monument, Formula Archive Nook, Raw Crystal, Basalt, Copper, Arcane Glow, Quartzite, and the elemental folk civic language.",
+      "emotionalIdentity": "Arcane / Alchemical Labs expressed through civic core: dangerous civic heat with practical street-level specificity.",
+      "gameplayAssetNeeds": [
+        "Arcane / Alchemical Labs Civic Hall",
+        "Blue-Lamp Monument",
+        "Formula Archive Nook",
+        "Arcane / Alchemical Labs street dressing",
+        "elemental folk civilians",
+        "section-appropriate props"
+      ],
+      "narrativeUse": [
+        "arcane / alchemical labs errands",
+        "wayfinding by exact landmark",
+        "crowd pressure",
+        "local work conflict",
+        "transition between board slots"
+      ],
+      "primaryLandmark": "Arcane / Alchemical Labs Civic Hall",
+      "minorLandmarks": [
+        "Blue-Lamp Monument",
+        "Formula Archive Nook"
+      ]
+    },
+    {
+      "districtNumber": 5,
+      "sectionNumber": 2,
+      "name": "D05 Arcane / Alchemical Labs Major Landmark Approach",
+      "civicPurpose": "One of five Arcane / Alchemical Labs district slots, focused on major landmark approach; it supports local movement, services, social pressure, and scene transitions within Section 2.",
+      "visualIdentity": "Alchemy Lab anchors the slot, supported by Blue-Lamp Monument, Formula Archive Nook, Arcane / Alchemical Labs Civic Hall, Raw Crystal, Basalt, Copper, Arcane Glow, Quartzite, and the elemental folk civic language.",
+      "emotionalIdentity": "Arcane / Alchemical Labs expressed through major landmark approach: dangerous civic heat with practical street-level specificity.",
+      "gameplayAssetNeeds": [
+        "Alchemy Lab",
+        "Blue-Lamp Monument",
+        "Formula Archive Nook",
+        "Arcane / Alchemical Labs Civic Hall",
+        "Arcane / Alchemical Labs street dressing",
+        "elemental folk civilians",
+        "section-appropriate props"
+      ],
+      "narrativeUse": [
+        "arcane / alchemical labs errands",
+        "wayfinding by exact landmark",
+        "crowd pressure",
+        "local work conflict",
+        "transition between board slots"
+      ],
+      "primaryLandmark": "Alchemy Lab",
+      "minorLandmarks": [
+        "Blue-Lamp Monument",
+        "Formula Archive Nook",
+        "Arcane / Alchemical Labs Civic Hall"
+      ]
+    },
+    {
+      "districtNumber": 6,
+      "sectionNumber": 1,
+      "name": "D06 Heavy Industry / Foundry Minor Landmark Lane",
+      "civicPurpose": "One of five Heavy Industry / Foundry district slots, focused on minor landmark lane; it supports local movement, services, social pressure, and scene transitions within Section 1.",
+      "visualIdentity": "Crucible Hall Nook anchors the slot, supported by Smoke-Stack Monument, Heavy Industry / Foundry Civic Hall, Raw Crystal, Basalt, Copper, Arcane Glow, Quartzite, and the elemental folk civic language.",
+      "emotionalIdentity": "Heavy Industry / Foundry expressed through minor landmark lane: dangerous civic heat with practical street-level specificity.",
+      "gameplayAssetNeeds": [
+        "Crucible Hall Nook",
+        "Smoke-Stack Monument",
+        "Heavy Industry / Foundry Civic Hall",
+        "Heavy Industry / Foundry street dressing",
+        "elemental folk civilians",
+        "section-appropriate props"
+      ],
+      "narrativeUse": [
+        "heavy industry / foundry errands",
+        "wayfinding by exact landmark",
+        "crowd pressure",
+        "local work conflict",
+        "transition between board slots"
+      ],
+      "primaryLandmark": "Crucible Hall Nook",
+      "minorLandmarks": [
+        "Smoke-Stack Monument",
+        "Heavy Industry / Foundry Civic Hall"
+      ]
+    },
+    {
+      "districtNumber": 7,
+      "sectionNumber": 1,
+      "name": "D07 Heavy Industry / Foundry Working Street Fabric",
+      "civicPurpose": "One of five Heavy Industry / Foundry district slots, focused on working street fabric; it supports local movement, services, social pressure, and scene transitions within Section 1.",
+      "visualIdentity": "Great Forge Beacon anchors the slot, supported by Smoke-Stack Monument, Crucible Hall Nook, Heavy Industry / Foundry Civic Hall, Raw Crystal, Basalt, Copper, Arcane Glow, Quartzite, and the elemental folk civic language.",
+      "emotionalIdentity": "Heavy Industry / Foundry expressed through working street fabric: dangerous civic heat with practical street-level specificity.",
+      "gameplayAssetNeeds": [
+        "Great Forge Beacon",
+        "Smoke-Stack Monument",
+        "Crucible Hall Nook",
+        "Heavy Industry / Foundry Civic Hall",
+        "Heavy Industry / Foundry street dressing",
+        "elemental folk civilians",
+        "section-appropriate props"
+      ],
+      "narrativeUse": [
+        "heavy industry / foundry errands",
+        "wayfinding by exact landmark",
+        "crowd pressure",
+        "local work conflict",
+        "transition between board slots"
+      ],
+      "primaryLandmark": "Great Forge Beacon",
+      "minorLandmarks": [
+        "Smoke-Stack Monument",
+        "Crucible Hall Nook",
+        "Heavy Industry / Foundry Civic Hall"
+      ]
+    },
+    {
+      "districtNumber": 8,
+      "sectionNumber": 3,
+      "name": "D08 Records / Archives Civic Core",
+      "civicPurpose": "One of five Records / Archives district slots, focused on civic core; it supports local movement, services, social pressure, and scene transitions within Section 3.",
+      "visualIdentity": "Records / Archives Hall anchors the slot, supported by Records Archives Gold-Seal Monument, Copyist Hall Nook, Raw Crystal, Basalt, Copper, Arcane Glow, Quartzite, and the elemental folk civic language.",
+      "emotionalIdentity": "Records / Archives expressed through civic core: dangerous civic heat with practical street-level specificity.",
+      "gameplayAssetNeeds": [
+        "Records / Archives Hall",
+        "Records Archives Gold-Seal Monument",
+        "Copyist Hall Nook",
+        "Records / Archives street dressing",
+        "elemental folk civilians",
+        "section-appropriate props"
+      ],
+      "narrativeUse": [
+        "records / archives errands",
+        "wayfinding by exact landmark",
+        "crowd pressure",
+        "local work conflict",
+        "transition between board slots"
+      ],
+      "primaryLandmark": "Records / Archives Hall",
+      "minorLandmarks": [
+        "Records Archives Gold-Seal Monument",
+        "Copyist Hall Nook"
+      ]
+    },
+    {
+      "districtNumber": 9,
+      "sectionNumber": 2,
+      "name": "D09 Arcane / Alchemical Labs Monument Square",
+      "civicPurpose": "One of five Arcane / Alchemical Labs district slots, focused on monument square; it supports local movement, services, social pressure, and scene transitions within Section 2.",
+      "visualIdentity": "Blue-Lamp Monument anchors the slot, supported by Formula Archive Nook, Arcane / Alchemical Labs Civic Hall, Raw Crystal, Basalt, Copper, Arcane Glow, Quartzite, and the elemental folk civic language.",
+      "emotionalIdentity": "Arcane / Alchemical Labs expressed through monument square: dangerous civic heat with practical street-level specificity.",
+      "gameplayAssetNeeds": [
+        "Blue-Lamp Monument",
+        "Formula Archive Nook",
+        "Arcane / Alchemical Labs Civic Hall",
+        "Arcane / Alchemical Labs street dressing",
+        "elemental folk civilians",
+        "section-appropriate props"
+      ],
+      "narrativeUse": [
+        "arcane / alchemical labs errands",
+        "wayfinding by exact landmark",
+        "crowd pressure",
+        "local work conflict",
+        "transition between board slots"
+      ],
+      "primaryLandmark": "Blue-Lamp Monument",
+      "minorLandmarks": [
+        "Formula Archive Nook",
+        "Arcane / Alchemical Labs Civic Hall"
+      ]
+    },
+    {
+      "districtNumber": 10,
+      "sectionNumber": 2,
+      "name": "D10 Arcane / Alchemical Labs Minor Landmark Lane",
+      "civicPurpose": "One of five Arcane / Alchemical Labs district slots, focused on minor landmark lane; it supports local movement, services, social pressure, and scene transitions within Section 2.",
+      "visualIdentity": "Formula Archive Nook anchors the slot, supported by Blue-Lamp Monument, Arcane / Alchemical Labs Civic Hall, Raw Crystal, Basalt, Copper, Arcane Glow, Quartzite, and the elemental folk civic language.",
+      "emotionalIdentity": "Arcane / Alchemical Labs expressed through minor landmark lane: dangerous civic heat with practical street-level specificity.",
+      "gameplayAssetNeeds": [
+        "Formula Archive Nook",
+        "Blue-Lamp Monument",
+        "Arcane / Alchemical Labs Civic Hall",
+        "Arcane / Alchemical Labs street dressing",
+        "elemental folk civilians",
+        "section-appropriate props"
+      ],
+      "narrativeUse": [
+        "arcane / alchemical labs errands",
+        "wayfinding by exact landmark",
+        "crowd pressure",
+        "local work conflict",
+        "transition between board slots"
+      ],
+      "primaryLandmark": "Formula Archive Nook",
+      "minorLandmarks": [
+        "Blue-Lamp Monument",
+        "Arcane / Alchemical Labs Civic Hall"
+      ]
+    },
+    {
+      "districtNumber": 11,
+      "sectionNumber": 4,
+      "name": "D11 Fortress / Border Wall Civic Core",
+      "civicPurpose": "One of five Fortress / Border Wall district slots, focused on civic core; it supports local movement, services, social pressure, and scene transitions within Section 4.",
+      "visualIdentity": "Fortress / Border Wall Civic Hall anchors the slot, supported by Woven Banners Monument, Watch Bastion Nook, Raw Crystal, Basalt, Copper, Arcane Glow, Quartzite, and the elemental folk civic language.",
+      "emotionalIdentity": "Fortress / Border Wall expressed through civic core: dangerous civic heat with practical street-level specificity.",
+      "gameplayAssetNeeds": [
+        "Fortress / Border Wall Civic Hall",
+        "Woven Banners Monument",
+        "Watch Bastion Nook",
+        "Fortress / Border Wall street dressing",
+        "elemental folk civilians",
+        "section-appropriate props"
+      ],
+      "narrativeUse": [
+        "fortress / border wall errands",
+        "wayfinding by exact landmark",
+        "crowd pressure",
+        "local work conflict",
+        "transition between board slots"
+      ],
+      "primaryLandmark": "Fortress / Border Wall Civic Hall",
+      "minorLandmarks": [
+        "Woven Banners Monument",
+        "Watch Bastion Nook"
+      ]
+    },
+    {
+      "districtNumber": 12,
+      "sectionNumber": 3,
+      "name": "D12 Records / Archives Major Landmark Approach",
+      "civicPurpose": "One of five Records / Archives district slots, focused on major landmark approach; it supports local movement, services, social pressure, and scene transitions within Section 3.",
+      "visualIdentity": "Archive Tower anchors the slot, supported by Records Archives Gold-Seal Monument, Copyist Hall Nook, Records / Archives Hall, Raw Crystal, Basalt, Copper, Arcane Glow, Quartzite, and the elemental folk civic language.",
+      "emotionalIdentity": "Records / Archives expressed through major landmark approach: dangerous civic heat with practical street-level specificity.",
+      "gameplayAssetNeeds": [
+        "Archive Tower",
+        "Records Archives Gold-Seal Monument",
+        "Copyist Hall Nook",
+        "Records / Archives Hall",
+        "Records / Archives street dressing",
+        "elemental folk civilians",
+        "section-appropriate props"
+      ],
+      "narrativeUse": [
+        "records / archives errands",
+        "wayfinding by exact landmark",
+        "crowd pressure",
+        "local work conflict",
+        "transition between board slots"
+      ],
+      "primaryLandmark": "Archive Tower",
+      "minorLandmarks": [
+        "Records Archives Gold-Seal Monument",
+        "Copyist Hall Nook",
+        "Records / Archives Hall"
+      ]
+    },
+    {
+      "districtNumber": 13,
+      "sectionNumber": 3,
+      "name": "D13 Seat of Power / Records / Archives",
+      "civicPurpose": "Central city authority, public rulings, sealed records, command visibility, and the official connection between Eclipse Rings Sovereign Registry Court and the surrounding Records / Archives section.",
+      "visualIdentity": "Eclipse Rings Sovereign Registry Court dominates this central slot while Records / Archives details, civic blue signal language, formal approaches, and local anchor textures remain visible.",
+      "emotionalIdentity": "Authoritative, central, watched, and politically charged.",
+      "gameplayAssetNeeds": [
+        "Eclipse Rings Sovereign Registry Court",
+        "central authority massing",
+        "audience terraces",
+        "sealed archive entrances",
+        "visible D13 approaches",
+        "Copyist Hall Nook",
+        "Records / Archives Hall"
+      ],
+      "narrativeUse": [
+        "central petitions",
+        "public rulings",
+        "citywide orders",
+        "private authority scenes",
+        "beacon response coordination"
+      ],
+      "primaryLandmark": "Eclipse Rings Sovereign Registry Court",
+      "minorLandmarks": [
+        "Copyist Hall Nook",
+        "Records / Archives Hall"
+      ]
+    },
+    {
+      "districtNumber": 14,
+      "sectionNumber": 3,
+      "name": "D14 Records / Archives Minor Landmark Lane",
+      "civicPurpose": "One of five Records / Archives district slots, focused on minor landmark lane; it supports local movement, services, social pressure, and scene transitions within Section 3.",
+      "visualIdentity": "Copyist Hall Nook anchors the slot, supported by Records Archives Gold-Seal Monument, Records / Archives Hall, Raw Crystal, Basalt, Copper, Arcane Glow, Quartzite, and the elemental folk civic language.",
+      "emotionalIdentity": "Records / Archives expressed through minor landmark lane: dangerous civic heat with practical street-level specificity.",
+      "gameplayAssetNeeds": [
+        "Copyist Hall Nook",
+        "Records Archives Gold-Seal Monument",
+        "Records / Archives Hall",
+        "Records / Archives street dressing",
+        "elemental folk civilians",
+        "section-appropriate props"
+      ],
+      "narrativeUse": [
+        "records / archives errands",
+        "wayfinding by exact landmark",
+        "crowd pressure",
+        "local work conflict",
+        "transition between board slots"
+      ],
+      "primaryLandmark": "Copyist Hall Nook",
+      "minorLandmarks": [
+        "Records Archives Gold-Seal Monument",
+        "Records / Archives Hall"
+      ]
+    },
+    {
+      "districtNumber": 15,
+      "sectionNumber": 2,
+      "name": "D15 Arcane / Alchemical Labs Working Street Fabric",
+      "civicPurpose": "One of five Arcane / Alchemical Labs district slots, focused on working street fabric; it supports local movement, services, social pressure, and scene transitions within Section 2.",
+      "visualIdentity": "Alchemy Lab anchors the slot, supported by Blue-Lamp Monument, Formula Archive Nook, Arcane / Alchemical Labs Civic Hall, Raw Crystal, Basalt, Copper, Arcane Glow, Quartzite, and the elemental folk civic language.",
+      "emotionalIdentity": "Arcane / Alchemical Labs expressed through working street fabric: dangerous civic heat with practical street-level specificity.",
+      "gameplayAssetNeeds": [
+        "Alchemy Lab",
+        "Blue-Lamp Monument",
+        "Formula Archive Nook",
+        "Arcane / Alchemical Labs Civic Hall",
+        "Arcane / Alchemical Labs street dressing",
+        "elemental folk civilians",
+        "section-appropriate props"
+      ],
+      "narrativeUse": [
+        "arcane / alchemical labs errands",
+        "wayfinding by exact landmark",
+        "crowd pressure",
+        "local work conflict",
+        "transition between board slots"
+      ],
+      "primaryLandmark": "Alchemy Lab",
+      "minorLandmarks": [
+        "Blue-Lamp Monument",
+        "Formula Archive Nook",
+        "Arcane / Alchemical Labs Civic Hall"
+      ]
+    },
+    {
+      "districtNumber": 16,
+      "sectionNumber": 4,
+      "name": "D16 Fortress / Border Wall Major Landmark Approach",
+      "civicPurpose": "One of five Fortress / Border Wall district slots, focused on major landmark approach; it supports local movement, services, social pressure, and scene transitions within Section 4.",
+      "visualIdentity": "Border Wall anchors the slot, supported by Woven Banners Monument, Watch Bastion Nook, Fortress / Border Wall Civic Hall, Raw Crystal, Basalt, Copper, Arcane Glow, Quartzite, and the elemental folk civic language.",
+      "emotionalIdentity": "Fortress / Border Wall expressed through major landmark approach: dangerous civic heat with practical street-level specificity.",
+      "gameplayAssetNeeds": [
+        "Border Wall",
+        "Woven Banners Monument",
+        "Watch Bastion Nook",
+        "Fortress / Border Wall Civic Hall",
+        "Fortress / Border Wall street dressing",
+        "elemental folk civilians",
+        "section-appropriate props"
+      ],
+      "narrativeUse": [
+        "fortress / border wall errands",
+        "wayfinding by exact landmark",
+        "crowd pressure",
+        "local work conflict",
+        "transition between board slots"
+      ],
+      "primaryLandmark": "Border Wall",
+      "minorLandmarks": [
+        "Woven Banners Monument",
+        "Watch Bastion Nook",
+        "Fortress / Border Wall Civic Hall"
+      ]
+    },
+    {
+      "districtNumber": 17,
+      "sectionNumber": 4,
+      "name": "D17 Fortress / Border Wall Monument Square",
+      "civicPurpose": "One of five Fortress / Border Wall district slots, focused on monument square; it supports local movement, services, social pressure, and scene transitions within Section 4.",
+      "visualIdentity": "Woven Banners Monument anchors the slot, supported by Watch Bastion Nook, Fortress / Border Wall Civic Hall, Raw Crystal, Basalt, Copper, Arcane Glow, Quartzite, and the elemental folk civic language.",
+      "emotionalIdentity": "Fortress / Border Wall expressed through monument square: dangerous civic heat with practical street-level specificity.",
+      "gameplayAssetNeeds": [
+        "Woven Banners Monument",
+        "Watch Bastion Nook",
+        "Fortress / Border Wall Civic Hall",
+        "Fortress / Border Wall street dressing",
+        "elemental folk civilians",
+        "section-appropriate props"
+      ],
+      "narrativeUse": [
+        "fortress / border wall errands",
+        "wayfinding by exact landmark",
+        "crowd pressure",
+        "local work conflict",
+        "transition between board slots"
+      ],
+      "primaryLandmark": "Woven Banners Monument",
+      "minorLandmarks": [
+        "Watch Bastion Nook",
+        "Fortress / Border Wall Civic Hall"
+      ]
+    },
+    {
+      "districtNumber": 18,
+      "sectionNumber": 3,
+      "name": "D18 Records / Archives Working Street Fabric",
+      "civicPurpose": "One of five Records / Archives district slots, focused on working street fabric; it supports local movement, services, social pressure, and scene transitions within Section 3.",
+      "visualIdentity": "Archive Tower anchors the slot, supported by Records Archives Gold-Seal Monument, Copyist Hall Nook, Records / Archives Hall, Raw Crystal, Basalt, Copper, Arcane Glow, Quartzite, and the elemental folk civic language.",
+      "emotionalIdentity": "Records / Archives expressed through working street fabric: dangerous civic heat with practical street-level specificity.",
+      "gameplayAssetNeeds": [
+        "Archive Tower",
+        "Records Archives Gold-Seal Monument",
+        "Copyist Hall Nook",
+        "Records / Archives Hall",
+        "Records / Archives street dressing",
+        "elemental folk civilians",
+        "section-appropriate props"
+      ],
+      "narrativeUse": [
+        "records / archives errands",
+        "wayfinding by exact landmark",
+        "crowd pressure",
+        "local work conflict",
+        "transition between board slots"
+      ],
+      "primaryLandmark": "Archive Tower",
+      "minorLandmarks": [
+        "Records Archives Gold-Seal Monument",
+        "Copyist Hall Nook",
+        "Records / Archives Hall"
+      ]
+    },
+    {
+      "districtNumber": 19,
+      "sectionNumber": 5,
+      "name": "D19 Underworld / Hidden Economy Civic Core",
+      "civicPurpose": "One of five Underworld / Hidden Economy district slots, focused on civic core; it supports local movement, services, social pressure, and scene transitions within Section 5.",
+      "visualIdentity": "Underworld / Hidden Economy Civic Hall anchors the slot, supported by Mist Veils Monument, Understreet Vault Nook, Raw Crystal, Basalt, Copper, Arcane Glow, Quartzite, and the elemental folk civic language.",
+      "emotionalIdentity": "Underworld / Hidden Economy expressed through civic core: dangerous civic heat with practical street-level specificity.",
+      "gameplayAssetNeeds": [
+        "Underworld / Hidden Economy Civic Hall",
+        "Mist Veils Monument",
+        "Understreet Vault Nook",
+        "Underworld / Hidden Economy street dressing",
+        "elemental folk civilians",
+        "section-appropriate props"
+      ],
+      "narrativeUse": [
+        "underworld / hidden economy errands",
+        "wayfinding by exact landmark",
+        "crowd pressure",
+        "local work conflict",
+        "transition between board slots"
+      ],
+      "primaryLandmark": "Underworld / Hidden Economy Civic Hall",
+      "minorLandmarks": [
+        "Mist Veils Monument",
+        "Understreet Vault Nook"
+      ]
+    },
+    {
+      "districtNumber": 20,
+      "sectionNumber": 5,
+      "name": "D20 Underworld / Hidden Economy Major Landmark Approach",
+      "civicPurpose": "One of five Underworld / Hidden Economy district slots, focused on major landmark approach; it supports local movement, services, social pressure, and scene transitions within Section 5.",
+      "visualIdentity": "Black Market Arcade anchors the slot, supported by Mist Veils Monument, Understreet Vault Nook, Underworld / Hidden Economy Civic Hall, Raw Crystal, Basalt, Copper, Arcane Glow, Quartzite, and the elemental folk civic language.",
+      "emotionalIdentity": "Underworld / Hidden Economy expressed through major landmark approach: dangerous civic heat with practical street-level specificity.",
+      "gameplayAssetNeeds": [
+        "Black Market Arcade",
+        "Mist Veils Monument",
+        "Understreet Vault Nook",
+        "Underworld / Hidden Economy Civic Hall",
+        "Underworld / Hidden Economy street dressing",
+        "elemental folk civilians",
+        "section-appropriate props"
+      ],
+      "narrativeUse": [
+        "underworld / hidden economy errands",
+        "wayfinding by exact landmark",
+        "crowd pressure",
+        "local work conflict",
+        "transition between board slots"
+      ],
+      "primaryLandmark": "Black Market Arcade",
+      "minorLandmarks": [
+        "Mist Veils Monument",
+        "Understreet Vault Nook",
+        "Underworld / Hidden Economy Civic Hall"
+      ]
+    },
+    {
+      "districtNumber": 21,
+      "sectionNumber": 4,
+      "name": "D21 Fortress / Border Wall Minor Landmark Lane",
+      "civicPurpose": "One of five Fortress / Border Wall district slots, focused on minor landmark lane; it supports local movement, services, social pressure, and scene transitions within Section 4.",
+      "visualIdentity": "Watch Bastion Nook anchors the slot, supported by Woven Banners Monument, Fortress / Border Wall Civic Hall, Raw Crystal, Basalt, Copper, Arcane Glow, Quartzite, and the elemental folk civic language.",
+      "emotionalIdentity": "Fortress / Border Wall expressed through minor landmark lane: dangerous civic heat with practical street-level specificity.",
+      "gameplayAssetNeeds": [
+        "Watch Bastion Nook",
+        "Woven Banners Monument",
+        "Fortress / Border Wall Civic Hall",
+        "Fortress / Border Wall street dressing",
+        "elemental folk civilians",
+        "section-appropriate props"
+      ],
+      "narrativeUse": [
+        "fortress / border wall errands",
+        "wayfinding by exact landmark",
+        "crowd pressure",
+        "local work conflict",
+        "transition between board slots"
+      ],
+      "primaryLandmark": "Watch Bastion Nook",
+      "minorLandmarks": [
+        "Woven Banners Monument",
+        "Fortress / Border Wall Civic Hall"
+      ]
+    },
+    {
+      "districtNumber": 22,
+      "sectionNumber": 4,
+      "name": "D22 Fortress / Border Wall Working Street Fabric",
+      "civicPurpose": "One of five Fortress / Border Wall district slots, focused on working street fabric; it supports local movement, services, social pressure, and scene transitions within Section 4.",
+      "visualIdentity": "Border Wall anchors the slot, supported by Woven Banners Monument, Watch Bastion Nook, Fortress / Border Wall Civic Hall, Raw Crystal, Basalt, Copper, Arcane Glow, Quartzite, and the elemental folk civic language.",
+      "emotionalIdentity": "Fortress / Border Wall expressed through working street fabric: dangerous civic heat with practical street-level specificity.",
+      "gameplayAssetNeeds": [
+        "Border Wall",
+        "Woven Banners Monument",
+        "Watch Bastion Nook",
+        "Fortress / Border Wall Civic Hall",
+        "Fortress / Border Wall street dressing",
+        "elemental folk civilians",
+        "section-appropriate props"
+      ],
+      "narrativeUse": [
+        "fortress / border wall errands",
+        "wayfinding by exact landmark",
+        "crowd pressure",
+        "local work conflict",
+        "transition between board slots"
+      ],
+      "primaryLandmark": "Border Wall",
+      "minorLandmarks": [
+        "Woven Banners Monument",
+        "Watch Bastion Nook",
+        "Fortress / Border Wall Civic Hall"
+      ]
+    },
+    {
+      "districtNumber": 23,
+      "sectionNumber": 5,
+      "name": "D23 Underworld / Hidden Economy Monument Square",
+      "civicPurpose": "One of five Underworld / Hidden Economy district slots, focused on monument square; it supports local movement, services, social pressure, and scene transitions within Section 5.",
+      "visualIdentity": "Mist Veils Monument anchors the slot, supported by Understreet Vault Nook, Underworld / Hidden Economy Civic Hall, Raw Crystal, Basalt, Copper, Arcane Glow, Quartzite, and the elemental folk civic language.",
+      "emotionalIdentity": "Underworld / Hidden Economy expressed through monument square: dangerous civic heat with practical street-level specificity.",
+      "gameplayAssetNeeds": [
+        "Mist Veils Monument",
+        "Understreet Vault Nook",
+        "Underworld / Hidden Economy Civic Hall",
+        "Underworld / Hidden Economy street dressing",
+        "elemental folk civilians",
+        "section-appropriate props"
+      ],
+      "narrativeUse": [
+        "underworld / hidden economy errands",
+        "wayfinding by exact landmark",
+        "crowd pressure",
+        "local work conflict",
+        "transition between board slots"
+      ],
+      "primaryLandmark": "Mist Veils Monument",
+      "minorLandmarks": [
+        "Understreet Vault Nook",
+        "Underworld / Hidden Economy Civic Hall"
+      ]
+    },
+    {
+      "districtNumber": 24,
+      "sectionNumber": 5,
+      "name": "D24 Underworld / Hidden Economy Minor Landmark Lane",
+      "civicPurpose": "One of five Underworld / Hidden Economy district slots, focused on minor landmark lane; it supports local movement, services, social pressure, and scene transitions within Section 5.",
+      "visualIdentity": "Understreet Vault Nook anchors the slot, supported by Mist Veils Monument, Underworld / Hidden Economy Civic Hall, Raw Crystal, Basalt, Copper, Arcane Glow, Quartzite, and the elemental folk civic language.",
+      "emotionalIdentity": "Underworld / Hidden Economy expressed through minor landmark lane: dangerous civic heat with practical street-level specificity.",
+      "gameplayAssetNeeds": [
+        "Understreet Vault Nook",
+        "Mist Veils Monument",
+        "Underworld / Hidden Economy Civic Hall",
+        "Underworld / Hidden Economy street dressing",
+        "elemental folk civilians",
+        "section-appropriate props"
+      ],
+      "narrativeUse": [
+        "underworld / hidden economy errands",
+        "wayfinding by exact landmark",
+        "crowd pressure",
+        "local work conflict",
+        "transition between board slots"
+      ],
+      "primaryLandmark": "Understreet Vault Nook",
+      "minorLandmarks": [
+        "Mist Veils Monument",
+        "Underworld / Hidden Economy Civic Hall"
+      ]
+    },
+    {
+      "districtNumber": 25,
+      "sectionNumber": 5,
+      "name": "D25 Underworld / Hidden Economy Working Street Fabric",
+      "civicPurpose": "One of five Underworld / Hidden Economy district slots, focused on working street fabric; it supports local movement, services, social pressure, and scene transitions within Section 5.",
+      "visualIdentity": "Black Market Arcade anchors the slot, supported by Mist Veils Monument, Understreet Vault Nook, Underworld / Hidden Economy Civic Hall, Raw Crystal, Basalt, Copper, Arcane Glow, Quartzite, and the elemental folk civic language.",
+      "emotionalIdentity": "Underworld / Hidden Economy expressed through working street fabric: dangerous civic heat with practical street-level specificity.",
+      "gameplayAssetNeeds": [
+        "Black Market Arcade",
+        "Mist Veils Monument",
+        "Understreet Vault Nook",
+        "Underworld / Hidden Economy Civic Hall",
+        "Underworld / Hidden Economy street dressing",
+        "elemental folk civilians",
+        "section-appropriate props"
+      ],
+      "narrativeUse": [
+        "underworld / hidden economy errands",
+        "wayfinding by exact landmark",
+        "crowd pressure",
+        "local work conflict",
+        "transition between board slots"
+      ],
+      "primaryLandmark": "Black Market Arcade",
+      "minorLandmarks": [
+        "Mist Veils Monument",
+        "Understreet Vault Nook",
+        "Underworld / Hidden Economy Civic Hall"
+      ]
+    }
   ],
   "landmarks": {
-    "wonder": {"name": "Elemental Crucible Ring of Four Living Fires", "symbolicRole": "Elemental convergence, civic restraint, and volatile unity made monumental.", "visualRole": "Far skyline ring of living fires, crystal, basalt, copper, and ritual geometry above caldera terraces.", "civicRole": "Citywide rites, convergence ceremonies, hazard vows, and public identity.", "narrativeUse": ["convergence rite", "public vow", "elemental crisis"], "assetUse": ["map wonder", "far skyline anchor"], "sensoryIdentity": ["heat", "crystal hum", "smoke", "copper tang"], "storyHooks": ["A living fire changes color and exposes which institution has been lying about safety."]},
-    "beacon": {"name": "Great Forge Beacon", "symbolicRole": "Production warning and elemental pressure made public signal.", "visualRole": "Beacon rising from foundry civic halls, smoke stacks, and crucible routes.", "civicRole": "Coordinates forge crews, alchemy labs, archives, border walls, and hidden-market reactions.", "narrativeUse": ["Beacon change", "forge alarm", "citywide hazard response"], "assetUse": ["S1 centerpiece", "signal marker"], "sensoryIdentity": ["blue-orange glow", "hammering", "signal bells"], "storyHooks": ["A Beacon change makes the entire city choose between productivity and safety."]},
-    "seatOfPower": {"name": "Eclipse Rings Sovereign Registry Court", "symbolicRole": "Balanced authority over competing elements, records, and danger.", "visualRole": "Central registry court with eclipse rings, sealed archives, audience terraces, and ritual geometry.", "civicRole": "Governs hazardous labor, formula access, record disputes, border rules, and pressure-release policy.", "narrativeUse": ["court hearing", "formula ruling", "hazard petition"], "assetUse": ["seat-of-power marker"], "sensoryIdentity": ["ink", "cool stone", "crystal light", "sealed wax"], "storyHooks": ["An eclipse-ring record proves the city survived because someone broke procedure once."]},
+    "wonder": {
+      "name": "Elemental Crucible Ring of Four Living Fires",
+      "symbolicRole": "The citywide symbol of controlled transformation made monumental.",
+      "visualRole": "A wonder-scale skyline anchor using Raw Crystal, Basalt, Copper, Arcane Glow, Quartzite, Dry Stone Paving, Civic Terraces, Caldera, Dry Ground, and the elemental folk visual language.",
+      "civicRole": "Represents the whole city above the five sections: Heavy Industry / Foundry, Arcane / Alchemical Labs, Records / Archives, Fortress / Border Wall, Underworld / Hidden Economy.",
+      "narrativeUse": [
+        "arrival revelation",
+        "city identity scene",
+        "public ceremony",
+        "distant navigation",
+        "symbolic contrast with district-level conflict"
+      ],
+      "assetUse": [
+        "map background skyline anchor",
+        "hero-view focal point",
+        "diorama backdrop",
+        "visual identifier for city"
+      ],
+      "sensoryIdentity": [
+        "raw crystal",
+        "basalt",
+        "copper",
+        "arcane glow",
+        "quartzite",
+        "dry stone paving",
+        "civic terraces"
+      ],
+      "storyHooks": [
+        "access to Elemental Crucible Ring of Four Living Fires changes public legitimacy",
+        "a citywide ritual reveals hidden pressure",
+        "the Wonder becomes a navigation or warning reference"
+      ]
+    },
+    "beacon": {
+      "name": "Great Forge Beacon",
+      "symbolicRole": "Public signal and shared alarm for The Crucible.",
+      "visualRole": "A section-scale signal landmark that must read immediately as the city Beacon.",
+      "civicRole": "Coordinates public response, civic warnings, and Conjunction-state attention.",
+      "narrativeUse": [
+        "beacon color change",
+        "crowd response",
+        "public warning",
+        "rumor spread",
+        "panic or disciplined response"
+      ],
+      "assetUse": [
+        "district diorama signal centerpiece",
+        "city map signal icon",
+        "public plaza asset"
+      ],
+      "sensoryIdentity": [
+        "signal glow",
+        "crowd hush",
+        "public calls",
+        "raw crystal",
+        "basalt",
+        "copper",
+        "arcane glow"
+      ],
+      "storyHooks": [
+        "someone controls the first interpretation of a signal",
+        "the Beacon redirects traffic between sections",
+        "a warning exposes which citizens trust civic authority"
+      ]
+    },
+    "seatOfPower": {
+      "name": "Eclipse Rings Sovereign Registry Court",
+      "symbolicRole": "Central authority made visible and source-backed.",
+      "visualRole": "The District 13 authority complex with formal approaches and city-specific materials.",
+      "civicRole": "Seat of government, petitions, records, rulings, and command visibility.",
+      "narrativeUse": [
+        "formal petition",
+        "sealed ruling",
+        "private audience",
+        "public legitimacy challenge",
+        "citywide order"
+      ],
+      "assetUse": [
+        "central map authority marker",
+        "D13 diorama landmark",
+        "government-scene backdrop"
+      ],
+      "sensoryIdentity": [
+        "formal silence",
+        "clerks and guards",
+        "sealed records",
+        "raw crystal",
+        "basalt",
+        "copper",
+        "arcane glow"
+      ],
+      "storyHooks": [
+        "a ruling contradicts a section custom",
+        "a sealed record changes public interpretation",
+        "D13 becomes a pressure point during crisis"
+      ]
+    },
     "majorLandmarks": [
-      {"name": "Alchemy Lab", "symbolicRole": "Volatility studied under seal.", "visualRole": "Blue-lit lab with formula archive, glassware, reagents, and crystal light.", "civicRole": "Research, formula control, and controlled risk.", "narrativeUse": ["formula clue", "lab restriction"], "assetUse": ["S2 diorama"], "sensoryIdentity": ["glass", "sharp vapor", "blue light"], "storyHooks": ["A formula archive shows which fire was never natural."]},
-      {"name": "Archive Tower", "symbolicRole": "Danger remembered so it can be governed.", "visualRole": "Archive tower with gold-seal monument, copyist hall, cool stone, and sealed stacks.", "civicRole": "Public records, hazard history, and legal memory.", "narrativeUse": ["record clue", "old accident"], "assetUse": ["S3 diorama"], "sensoryIdentity": ["paper", "ink", "wax", "cool air"], "storyHooks": ["A copyist finds the first accident was recorded as a triumph."]},
-      {"name": "Border Wall", "symbolicRole": "Boundary between civic order and uncontrolled force.", "visualRole": "Fortified wall with banners, watch bastion, and heat-resistant stone.", "civicRole": "Defense, access control, hazard containment, and watch duty.", "narrativeUse": ["wall alarm", "boundary test"], "assetUse": ["S4 diorama"], "sensoryIdentity": ["stone heat", "banners", "guard bells"], "storyHooks": ["A watch bastion sees the danger inside the wall first."]},
-      {"name": "Black Market Arcade", "symbolicRole": "Unofficial exchange beneath regulated power.", "visualRole": "Hidden arcade with mist veils, vault nook, lamp haze, and coded stalls.", "civicRole": "Informal trade, workaround supply, hidden storage, and pressure release.", "narrativeUse": ["hidden deal", "vault clue"], "assetUse": ["S5 diorama"], "sensoryIdentity": ["whispers", "lamp smoke", "warm stone"], "storyHooks": ["A broker has the safety part the official forge refused to requisition."]}
+      {
+        "name": "Heavy Industry / Foundry Civic Hall",
+        "symbolicRole": "Heavy Industry / Foundry expressed through a civic center anchor.",
+        "visualRole": "Heavy Industry / Foundry Civic Hall should show anvils, molten channels, foundry sheds, furnace towers, slag yards, using Raw Crystal, Basalt, Copper, Arcane Glow, Quartzite and section-specific massing.",
+        "civicRole": "Supports Section 1's Heavy Industry / Foundry purpose as a local civic, movement, memory, or service node.",
+        "narrativeUse": [
+          "heavy industry / foundry scene anchor",
+          "local meeting point",
+          "evidence or route clue",
+          "crowd behavior marker"
+        ],
+        "assetUse": [
+          "Section 1 diorama asset",
+          "map label or icon",
+          "district-scale landmark prop cluster"
+        ],
+        "sensoryIdentity": [
+          "anvils",
+          "molten channels",
+          "foundry sheds",
+          "furnace towers",
+          "raw crystal",
+          "basalt",
+          "copper"
+        ],
+        "storyHooks": [
+          "Heavy Industry / Foundry Civic Hall becomes the specific landmark that prevents the scene from feeling generic",
+          "a local dispute centers on access to Heavy Industry / Foundry Civic Hall"
+        ]
+      },
+      {
+        "name": "Smoke-Stack Monument",
+        "symbolicRole": "Heavy Industry / Foundry expressed through a monument anchor.",
+        "visualRole": "Smoke-Stack Monument should show ore yards, symbolic civic object, small ceremonial site, local memory marker, subordinate to major landmark, using Raw Crystal, Basalt, Copper, Arcane Glow, Quartzite and section-specific massing.",
+        "civicRole": "Supports Section 1's Heavy Industry / Foundry purpose as a local civic, movement, memory, or service node.",
+        "narrativeUse": [
+          "heavy industry / foundry scene anchor",
+          "local meeting point",
+          "evidence or route clue",
+          "crowd behavior marker"
+        ],
+        "assetUse": [
+          "Section 1 diorama asset",
+          "map label or icon",
+          "district-scale landmark prop cluster"
+        ],
+        "sensoryIdentity": [
+          "ore yards",
+          "symbolic civic object",
+          "small ceremonial site",
+          "local memory marker",
+          "raw crystal",
+          "basalt",
+          "copper"
+        ],
+        "storyHooks": [
+          "Smoke-Stack Monument becomes the specific landmark that prevents the scene from feeling generic",
+          "a local dispute centers on access to Smoke-Stack Monument"
+        ]
+      },
+      {
+        "name": "Crucible Hall Nook",
+        "symbolicRole": "Heavy Industry / Foundry expressed through a minor landmark anchor.",
+        "visualRole": "Crucible Hall Nook should show sparks, chains, anvils, molten channels, foundry sheds, using Raw Crystal, Basalt, Copper, Arcane Glow, Quartzite and section-specific massing.",
+        "civicRole": "Supports Section 1's Heavy Industry / Foundry purpose as a local civic, movement, memory, or service node.",
+        "narrativeUse": [
+          "heavy industry / foundry scene anchor",
+          "local meeting point",
+          "evidence or route clue",
+          "crowd behavior marker"
+        ],
+        "assetUse": [
+          "Section 1 diorama asset",
+          "map label or icon",
+          "district-scale landmark prop cluster"
+        ],
+        "sensoryIdentity": [
+          "sparks",
+          "chains",
+          "anvils",
+          "molten channels",
+          "raw crystal",
+          "basalt",
+          "copper"
+        ],
+        "storyHooks": [
+          "Crucible Hall Nook becomes the specific landmark that prevents the scene from feeling generic",
+          "a local dispute centers on access to Crucible Hall Nook"
+        ]
+      },
+      {
+        "name": "Arcane / Alchemical Labs Civic Hall",
+        "symbolicRole": "Arcane / Alchemical Labs expressed through a civic center anchor.",
+        "visualRole": "Arcane / Alchemical Labs Civic Hall should show colored vapors, sealed jars, laboratories, distillation towers, containment courts, using Raw Crystal, Basalt, Copper, Arcane Glow, Quartzite and section-specific massing.",
+        "civicRole": "Supports Section 2's Arcane / Alchemical Labs purpose as a local civic, movement, memory, or service node.",
+        "narrativeUse": [
+          "arcane / alchemical labs scene anchor",
+          "local meeting point",
+          "evidence or route clue",
+          "crowd behavior marker"
+        ],
+        "assetUse": [
+          "Section 2 diorama asset",
+          "map label or icon",
+          "district-scale landmark prop cluster"
+        ],
+        "sensoryIdentity": [
+          "colored vapors",
+          "sealed jars",
+          "laboratories",
+          "distillation towers",
+          "raw crystal",
+          "basalt",
+          "copper"
+        ],
+        "storyHooks": [
+          "Arcane / Alchemical Labs Civic Hall becomes the specific landmark that prevents the scene from feeling generic",
+          "a local dispute centers on access to Arcane / Alchemical Labs Civic Hall"
+        ]
+      },
+      {
+        "name": "Alchemy Lab",
+        "symbolicRole": "Arcane / Alchemical Labs expressed through a major landmark anchor.",
+        "visualRole": "Alchemy Lab should show largest section focal point, strong vertical silhouette, distinct gameplay landmark, visible from nearby districts, retorts, using Raw Crystal, Basalt, Copper, Arcane Glow, Quartzite and section-specific massing.",
+        "civicRole": "Supports Section 2's Arcane / Alchemical Labs purpose as a local civic, movement, memory, or service node.",
+        "narrativeUse": [
+          "arcane / alchemical labs scene anchor",
+          "local meeting point",
+          "evidence or route clue",
+          "crowd behavior marker"
+        ],
+        "assetUse": [
+          "Section 2 diorama asset",
+          "map label or icon",
+          "district-scale landmark prop cluster"
+        ],
+        "sensoryIdentity": [
+          "largest section focal point",
+          "strong vertical silhouette",
+          "distinct gameplay landmark",
+          "visible from nearby districts",
+          "raw crystal",
+          "basalt",
+          "copper"
+        ],
+        "storyHooks": [
+          "Alchemy Lab becomes the specific landmark that prevents the scene from feeling generic",
+          "a local dispute centers on access to Alchemy Lab"
+        ]
+      },
+      {
+        "name": "Blue-Lamp Monument",
+        "symbolicRole": "Arcane / Alchemical Labs expressed through a monument anchor.",
+        "visualRole": "Blue-Lamp Monument should show safety wards, symbolic civic object, small ceremonial site, local memory marker, subordinate to major landmark, using Raw Crystal, Basalt, Copper, Arcane Glow, Quartzite and section-specific massing.",
+        "civicRole": "Supports Section 2's Arcane / Alchemical Labs purpose as a local civic, movement, memory, or service node.",
+        "narrativeUse": [
+          "arcane / alchemical labs scene anchor",
+          "local meeting point",
+          "evidence or route clue",
+          "crowd behavior marker"
+        ],
+        "assetUse": [
+          "Section 2 diorama asset",
+          "map label or icon",
+          "district-scale landmark prop cluster"
+        ],
+        "sensoryIdentity": [
+          "safety wards",
+          "symbolic civic object",
+          "small ceremonial site",
+          "local memory marker",
+          "raw crystal",
+          "basalt",
+          "copper"
+        ],
+        "storyHooks": [
+          "Blue-Lamp Monument becomes the specific landmark that prevents the scene from feeling generic",
+          "a local dispute centers on access to Blue-Lamp Monument"
+        ]
+      },
+      {
+        "name": "Formula Archive Nook",
+        "symbolicRole": "Arcane / Alchemical Labs expressed through a minor landmark anchor.",
+        "visualRole": "Formula Archive Nook should show retorts, runes, colored vapors, sealed jars, laboratories, using Raw Crystal, Basalt, Copper, Arcane Glow, Quartzite and section-specific massing.",
+        "civicRole": "Supports Section 2's Arcane / Alchemical Labs purpose as a local civic, movement, memory, or service node.",
+        "narrativeUse": [
+          "arcane / alchemical labs scene anchor",
+          "local meeting point",
+          "evidence or route clue",
+          "crowd behavior marker"
+        ],
+        "assetUse": [
+          "Section 2 diorama asset",
+          "map label or icon",
+          "district-scale landmark prop cluster"
+        ],
+        "sensoryIdentity": [
+          "retorts",
+          "runes",
+          "colored vapors",
+          "sealed jars",
+          "raw crystal",
+          "basalt",
+          "copper"
+        ],
+        "storyHooks": [
+          "Formula Archive Nook becomes the specific landmark that prevents the scene from feeling generic",
+          "a local dispute centers on access to Formula Archive Nook"
+        ]
+      },
+      {
+        "name": "Records / Archives Hall",
+        "symbolicRole": "Records / Archives expressed through a civic center anchor.",
+        "visualRole": "Records / Archives Hall should show copyist desks, institutional anchor, public-facing administration, clear central silhouette, board-readable entrance, using Raw Crystal, Basalt, Copper, Arcane Glow, Quartzite and section-specific massing.",
+        "civicRole": "Supports Section 3's Records / Archives purpose as a local civic, movement, memory, or service node.",
+        "narrativeUse": [
+          "records / archives scene anchor",
+          "local meeting point",
+          "evidence or route clue",
+          "crowd behavior marker"
+        ],
+        "assetUse": [
+          "Section 3 diorama asset",
+          "map label or icon",
+          "district-scale landmark prop cluster"
+        ],
+        "sensoryIdentity": [
+          "copyist desks",
+          "institutional anchor",
+          "public-facing administration",
+          "clear central silhouette",
+          "raw crystal",
+          "basalt",
+          "copper"
+        ],
+        "storyHooks": [
+          "Records / Archives Hall becomes the specific landmark that prevents the scene from feeling generic",
+          "a local dispute centers on access to Records / Archives Hall"
+        ]
+      },
+      {
+        "name": "Archive Tower",
+        "symbolicRole": "Records / Archives expressed through a major landmark anchor.",
+        "visualRole": "Archive Tower should show visible from nearby districts, scrolls, index cards, wax seals, memory lamps, using Raw Crystal, Basalt, Copper, Arcane Glow, Quartzite and section-specific massing.",
+        "civicRole": "Supports Section 3's Records / Archives purpose as a local civic, movement, memory, or service node.",
+        "narrativeUse": [
+          "records / archives scene anchor",
+          "local meeting point",
+          "evidence or route clue",
+          "crowd behavior marker"
+        ],
+        "assetUse": [
+          "Section 3 diorama asset",
+          "map label or icon",
+          "district-scale landmark prop cluster"
+        ],
+        "sensoryIdentity": [
+          "visible from nearby districts",
+          "scrolls",
+          "index cards",
+          "wax seals",
+          "raw crystal",
+          "basalt",
+          "copper"
+        ],
+        "storyHooks": [
+          "Archive Tower becomes the specific landmark that prevents the scene from feeling generic",
+          "a local dispute centers on access to Archive Tower"
+        ]
+      },
+      {
+        "name": "Records Archives Gold-Seal Monument",
+        "symbolicRole": "Records / Archives expressed through a monument anchor.",
+        "visualRole": "Records Archives Gold-Seal Monument should show copyist desks, symbolic civic object, small ceremonial site, local memory marker, subordinate to major landmark, using Raw Crystal, Basalt, Copper, Arcane Glow, Quartzite and section-specific massing.",
+        "civicRole": "Supports Section 3's Records / Archives purpose as a local civic, movement, memory, or service node.",
+        "narrativeUse": [
+          "records / archives scene anchor",
+          "local meeting point",
+          "evidence or route clue",
+          "crowd behavior marker"
+        ],
+        "assetUse": [
+          "Section 3 diorama asset",
+          "map label or icon",
+          "district-scale landmark prop cluster"
+        ],
+        "sensoryIdentity": [
+          "copyist desks",
+          "symbolic civic object",
+          "small ceremonial site",
+          "local memory marker",
+          "raw crystal",
+          "basalt",
+          "copper"
+        ],
+        "storyHooks": [
+          "Records Archives Gold-Seal Monument becomes the specific landmark that prevents the scene from feeling generic",
+          "a local dispute centers on access to Records Archives Gold-Seal Monument"
+        ]
+      },
+      {
+        "name": "Copyist Hall Nook",
+        "symbolicRole": "Records / Archives expressed through a minor landmark anchor.",
+        "visualRole": "Copyist Hall Nook should show copyist desks, small local identity prop, street-level detail, usable board landmark, subordinate scale, using Raw Crystal, Basalt, Copper, Arcane Glow, Quartzite and section-specific massing.",
+        "civicRole": "Supports Section 3's Records / Archives purpose as a local civic, movement, memory, or service node.",
+        "narrativeUse": [
+          "records / archives scene anchor",
+          "local meeting point",
+          "evidence or route clue",
+          "crowd behavior marker"
+        ],
+        "assetUse": [
+          "Section 3 diorama asset",
+          "map label or icon",
+          "district-scale landmark prop cluster"
+        ],
+        "sensoryIdentity": [
+          "copyist desks",
+          "small local identity prop",
+          "street-level detail",
+          "usable board landmark",
+          "raw crystal",
+          "basalt",
+          "copper"
+        ],
+        "storyHooks": [
+          "Copyist Hall Nook becomes the specific landmark that prevents the scene from feeling generic",
+          "a local dispute centers on access to Copyist Hall Nook"
+        ]
+      },
+      {
+        "name": "Fortress / Border Wall Civic Hall",
+        "symbolicRole": "Fortress / Border Wall expressed through a civic center anchor.",
+        "visualRole": "Fortress / Border Wall Civic Hall should show curtain walls, gatehouses, bastions, guard posts, institutional anchor, using Raw Crystal, Basalt, Copper, Arcane Glow, Quartzite and section-specific massing.",
+        "civicRole": "Supports Section 4's Fortress / Border Wall purpose as a local civic, movement, memory, or service node.",
+        "narrativeUse": [
+          "fortress / border wall scene anchor",
+          "local meeting point",
+          "evidence or route clue",
+          "crowd behavior marker"
+        ],
+        "assetUse": [
+          "Section 4 diorama asset",
+          "map label or icon",
+          "district-scale landmark prop cluster"
+        ],
+        "sensoryIdentity": [
+          "curtain walls",
+          "gatehouses",
+          "bastions",
+          "guard posts",
+          "raw crystal",
+          "basalt",
+          "copper"
+        ],
+        "storyHooks": [
+          "Fortress / Border Wall Civic Hall becomes the specific landmark that prevents the scene from feeling generic",
+          "a local dispute centers on access to Fortress / Border Wall Civic Hall"
+        ]
+      },
+      {
+        "name": "Border Wall",
+        "symbolicRole": "Fortress / Border Wall expressed through a major landmark anchor.",
+        "visualRole": "Border Wall should show strong vertical silhouette, distinct gameplay landmark, visible from nearby districts, walls, portcullises, using Raw Crystal, Basalt, Copper, Arcane Glow, Quartzite and section-specific massing.",
+        "civicRole": "Supports Section 4's Fortress / Border Wall purpose as a local civic, movement, memory, or service node.",
+        "narrativeUse": [
+          "fortress / border wall scene anchor",
+          "local meeting point",
+          "evidence or route clue",
+          "crowd behavior marker"
+        ],
+        "assetUse": [
+          "Section 4 diorama asset",
+          "map label or icon",
+          "district-scale landmark prop cluster"
+        ],
+        "sensoryIdentity": [
+          "strong vertical silhouette",
+          "distinct gameplay landmark",
+          "visible from nearby districts",
+          "walls",
+          "raw crystal",
+          "basalt",
+          "copper"
+        ],
+        "storyHooks": [
+          "Border Wall becomes the specific landmark that prevents the scene from feeling generic",
+          "a local dispute centers on access to Border Wall"
+        ]
+      },
+      {
+        "name": "Woven Banners Monument",
+        "symbolicRole": "Fortress / Border Wall expressed through a monument anchor.",
+        "visualRole": "Woven Banners Monument should show signal fires, curtain walls, gatehouses, bastions, guard posts, using Raw Crystal, Basalt, Copper, Arcane Glow, Quartzite and section-specific massing.",
+        "civicRole": "Supports Section 4's Fortress / Border Wall purpose as a local civic, movement, memory, or service node.",
+        "narrativeUse": [
+          "fortress / border wall scene anchor",
+          "local meeting point",
+          "evidence or route clue",
+          "crowd behavior marker"
+        ],
+        "assetUse": [
+          "Section 4 diorama asset",
+          "map label or icon",
+          "district-scale landmark prop cluster"
+        ],
+        "sensoryIdentity": [
+          "signal fires",
+          "curtain walls",
+          "gatehouses",
+          "bastions",
+          "raw crystal",
+          "basalt",
+          "copper"
+        ],
+        "storyHooks": [
+          "Woven Banners Monument becomes the specific landmark that prevents the scene from feeling generic",
+          "a local dispute centers on access to Woven Banners Monument"
+        ]
+      },
+      {
+        "name": "Watch Bastion Nook",
+        "symbolicRole": "Fortress / Border Wall expressed through a minor landmark anchor.",
+        "visualRole": "Watch Bastion Nook should show bastions, guard posts, small local identity prop, street-level detail, usable board landmark, using Raw Crystal, Basalt, Copper, Arcane Glow, Quartzite and section-specific massing.",
+        "civicRole": "Supports Section 4's Fortress / Border Wall purpose as a local civic, movement, memory, or service node.",
+        "narrativeUse": [
+          "fortress / border wall scene anchor",
+          "local meeting point",
+          "evidence or route clue",
+          "crowd behavior marker"
+        ],
+        "assetUse": [
+          "Section 4 diorama asset",
+          "map label or icon",
+          "district-scale landmark prop cluster"
+        ],
+        "sensoryIdentity": [
+          "bastions",
+          "guard posts",
+          "small local identity prop",
+          "street-level detail",
+          "raw crystal",
+          "basalt",
+          "copper"
+        ],
+        "storyHooks": [
+          "Watch Bastion Nook becomes the specific landmark that prevents the scene from feeling generic",
+          "a local dispute centers on access to Watch Bastion Nook"
+        ]
+      },
+      {
+        "name": "Underworld / Hidden Economy Civic Hall",
+        "symbolicRole": "Underworld / Hidden Economy expressed through a civic center anchor.",
+        "visualRole": "Underworld / Hidden Economy Civic Hall should show institutional anchor, public-facing administration, clear central silhouette, board-readable entrance, masks, using Raw Crystal, Basalt, Copper, Arcane Glow, Quartzite and section-specific massing.",
+        "civicRole": "Supports Section 5's Underworld / Hidden Economy purpose as a local civic, movement, memory, or service node.",
+        "narrativeUse": [
+          "underworld / hidden economy scene anchor",
+          "local meeting point",
+          "evidence or route clue",
+          "crowd behavior marker"
+        ],
+        "assetUse": [
+          "Section 5 diorama asset",
+          "map label or icon",
+          "district-scale landmark prop cluster"
+        ],
+        "sensoryIdentity": [
+          "institutional anchor",
+          "public-facing administration",
+          "clear central silhouette",
+          "board-readable entrance",
+          "raw crystal",
+          "basalt",
+          "copper"
+        ],
+        "storyHooks": [
+          "Underworld / Hidden Economy Civic Hall becomes the specific landmark that prevents the scene from feeling generic",
+          "a local dispute centers on access to Underworld / Hidden Economy Civic Hall"
+        ]
+      },
+      {
+        "name": "Black Market Arcade",
+        "symbolicRole": "Underworld / Hidden Economy expressed through a major landmark anchor.",
+        "visualRole": "Black Market Arcade should show secret doors, largest section focal point, strong vertical silhouette, distinct gameplay landmark, visible from nearby districts, using Raw Crystal, Basalt, Copper, Arcane Glow, Quartzite and section-specific massing.",
+        "civicRole": "Supports Section 5's Underworld / Hidden Economy purpose as a local civic, movement, memory, or service node.",
+        "narrativeUse": [
+          "underworld / hidden economy scene anchor",
+          "local meeting point",
+          "evidence or route clue",
+          "crowd behavior marker"
+        ],
+        "assetUse": [
+          "Section 5 diorama asset",
+          "map label or icon",
+          "district-scale landmark prop cluster"
+        ],
+        "sensoryIdentity": [
+          "secret doors",
+          "largest section focal point",
+          "strong vertical silhouette",
+          "distinct gameplay landmark",
+          "raw crystal",
+          "basalt",
+          "copper"
+        ],
+        "storyHooks": [
+          "Black Market Arcade becomes the specific landmark that prevents the scene from feeling generic",
+          "a local dispute centers on access to Black Market Arcade"
+        ]
+      },
+      {
+        "name": "Mist Veils Monument",
+        "symbolicRole": "Underworld / Hidden Economy expressed through a monument anchor.",
+        "visualRole": "Mist Veils Monument should show small ceremonial site, local memory marker, subordinate to major landmark, masks, yellow lamps, using Raw Crystal, Basalt, Copper, Arcane Glow, Quartzite and section-specific massing.",
+        "civicRole": "Supports Section 5's Underworld / Hidden Economy purpose as a local civic, movement, memory, or service node.",
+        "narrativeUse": [
+          "underworld / hidden economy scene anchor",
+          "local meeting point",
+          "evidence or route clue",
+          "crowd behavior marker"
+        ],
+        "assetUse": [
+          "Section 5 diorama asset",
+          "map label or icon",
+          "district-scale landmark prop cluster"
+        ],
+        "sensoryIdentity": [
+          "small ceremonial site",
+          "local memory marker",
+          "subordinate to major landmark",
+          "masks",
+          "raw crystal",
+          "basalt",
+          "copper"
+        ],
+        "storyHooks": [
+          "Mist Veils Monument becomes the specific landmark that prevents the scene from feeling generic",
+          "a local dispute centers on access to Mist Veils Monument"
+        ]
+      },
+      {
+        "name": "Understreet Vault Nook",
+        "symbolicRole": "Underworld / Hidden Economy expressed through a minor landmark anchor.",
+        "visualRole": "Understreet Vault Nook should show street-level detail, usable board landmark, subordinate scale, masks, yellow lamps, using Raw Crystal, Basalt, Copper, Arcane Glow, Quartzite and section-specific massing.",
+        "civicRole": "Supports Section 5's Underworld / Hidden Economy purpose as a local civic, movement, memory, or service node.",
+        "narrativeUse": [
+          "underworld / hidden economy scene anchor",
+          "local meeting point",
+          "evidence or route clue",
+          "crowd behavior marker"
+        ],
+        "assetUse": [
+          "Section 5 diorama asset",
+          "map label or icon",
+          "district-scale landmark prop cluster"
+        ],
+        "sensoryIdentity": [
+          "street-level detail",
+          "usable board landmark",
+          "subordinate scale",
+          "masks",
+          "raw crystal",
+          "basalt",
+          "copper"
+        ],
+        "storyHooks": [
+          "Understreet Vault Nook becomes the specific landmark that prevents the scene from feeling generic",
+          "a local dispute centers on access to Understreet Vault Nook"
+        ]
+      }
     ]
   },
   "assetGuidance": {
-    "districtDioramaGuidance": ["S1 must show Heavy Industry / Foundry Civic Hall, Great Forge Beacon, Smoke-Stack Monument, and Crucible Hall Nook.", "S2 must show Arcane / Alchemical Labs Civic Hall, Alchemy Lab, Blue-Lamp Monument, and Formula Archive Nook.", "S3 must show Records / Archives Hall, Archive Tower, Records Archives Gold-Seal Monument, and Copyist Hall Nook.", "S4 must show Fortress / Border Wall Civic Hall, Border Wall, Woven Banners Monument, and Watch Bastion Nook.", "S5 must show Underworld / Hidden Economy Civic Hall, Black Market Arcade, Mist Veils Monument, and Understreet Vault Nook."],
-    "mapBackgroundGuidance": ["Keep Elemental Crucible Ring of Four Living Fires, Great Forge Beacon, and Eclipse Rings Sovereign Registry Court legible together.", "Use raw crystal, basalt, copper, quartzite, forge haze, blue alchemy lights, archive towers, border walls, and hidden-market arcades."],
-    "requiredVisualElements": ["Elemental Crucible Ring of Four Living Fires", "Great Forge Beacon", "Eclipse Rings Sovereign Registry Court", "Smoke-Stack Monument", "Crucible Hall Nook", "Alchemy Lab", "Blue-Lamp Monument", "Formula Archive Nook", "Archive Tower", "Records Archives Gold-Seal Monument", "Copyist Hall Nook", "Border Wall", "Watch Bastion Nook", "Black Market Arcade", "Mist Veils Monument", "Understreet Vault Nook"],
-    "elementsToAvoid": ["fire city only", "unregulated chaos", "forge without archives or alchemy", "district anchors generalized away"]
+    "districtDioramaGuidance": [
+      "Create twenty-five district dioramas grouped into five recognizable sections: Heavy Industry / Foundry, Arcane / Alchemical Labs, Records / Archives, Fortress / Border Wall, Underworld / Hidden Economy.",
+      "Each district should use its districtNumber and sectionNumber, but avoid baked text labels in imagery.",
+      "D13 must read as the Seat of Power district centered on Eclipse Rings Sovereign Registry Court.",
+      "Repeated section anchors may appear across five related slots, but each slot needs its own street function, crowd density, and prop emphasis.",
+      "Use exact source-backed anchor names for file naming, prompt references, and canon cross-checking.",
+      "S1 must preserve Heavy Industry / Foundry with anchors: Heavy Industry / Foundry Civic Hall, Great Forge Beacon, Smoke-Stack Monument, Crucible Hall Nook.",
+      "S2 must preserve Arcane / Alchemical Labs with anchors: Arcane / Alchemical Labs Civic Hall, Alchemy Lab, Blue-Lamp Monument, Formula Archive Nook.",
+      "S3 must preserve Records / Archives with anchors: Records / Archives Hall, Archive Tower, Records Archives Gold-Seal Monument, Copyist Hall Nook.",
+      "S4 must preserve Fortress / Border Wall with anchors: Fortress / Border Wall Civic Hall, Border Wall, Woven Banners Monument, Watch Bastion Nook.",
+      "S5 must preserve Underworld / Hidden Economy with anchors: Underworld / Hidden Economy Civic Hall, Black Market Arcade, Mist Veils Monument, Understreet Vault Nook."
+    ],
+    "mapBackgroundGuidance": [
+      "Map backgrounds should keep Elemental Crucible Ring of Four Living Fires as the skyline symbol, Eclipse Rings Sovereign Registry Court at the central civic authority, and Great Forge Beacon as the readable public signal.",
+      "Arrange the five section identities so The Crucible does not converge with other cities: Heavy Industry / Foundry, Arcane / Alchemical Labs, Records / Archives, Fortress / Border Wall, Underworld / Hidden Economy.",
+      "Use terrain cues (Dry Stone Paving, Civic Terraces, Caldera, Dry Ground), material cues (Raw Crystal, Basalt, Copper, Arcane Glow, Quartzite), and magic cues (Ward Networks, Ritual Geometry, Elemental Convergence, Cipher Glamours, Yellow Intent Glimmers) consistently across district clusters.",
+      "Show roads, terraces, gates, courts, or paths that make the twenty-five-district tactical layout plausible."
+    ],
+    "requiredVisualElements": [
+      "elemental folk",
+      "Elemental Crucible Ring of Four Living Fires",
+      "Great Forge Beacon",
+      "Eclipse Rings Sovereign Registry Court",
+      "Raw Crystal",
+      "Basalt",
+      "Copper",
+      "Arcane Glow",
+      "Quartzite",
+      "Dry Stone Paving",
+      "Civic Terraces",
+      "Caldera",
+      "Dry Ground",
+      "Ward Networks",
+      "Ritual Geometry",
+      "Elemental Convergence",
+      "Cipher Glamours",
+      "Yellow Intent Glimmers",
+      "Alchemy Lab",
+      "Archive Tower",
+      "Border Wall",
+      "Black Market Arcade"
+    ],
+    "elementsToAvoid": [
+      "extra top-level schema sections or embedded generation notes",
+      "generic fantasy city assets that ignore exact anchor names",
+      "unlabeled invented landmarks replacing sidecar names",
+      "flattening five sections into one visual district",
+      "treating culture identity as costume rather than civic design",
+      "overcrowded detail that hides Wonder, Beacon, or Seat of Power"
+    ]
   }
 }

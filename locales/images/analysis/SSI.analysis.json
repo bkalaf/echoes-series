@@ -4,110 +4,1797 @@
     "analysisVersion": 2,
     "cityCode": "SSI",
     "cityName": "Ssivareth",
-    "analysisDate": "2026-07-03",
+    "analysisDate": "2026-07-05",
     "analystVersion": "gpt-5.5-thinking",
     "analysisConfidence": "strong-lock",
-    "basedOnImages": ["SSI-HERO-NE-v001", "SSI-HERO-NW-v001", "SSI-HERO-SE-v001", "SSI-HERO-SW-v001", "SSI-STREET-S1-v001", "SSI-STREET-S2-v001", "SSI-STREET-S3-v001", "SSI-STREET-S4-v001", "SSI-STREET-S5-v001"],
-    "basedOnSidecars": ["SSI-HERO-NE-v001.json", "SSI-HERO-NW-v001.json", "SSI-HERO-SE-v001.json", "SSI-HERO-SW-v001.json", "SSI-STREET-S1-v001.json", "SSI-STREET-S2-v001.json", "SSI-STREET-S3-v001.json", "SSI-STREET-S4-v001.json", "SSI-STREET-S5-v001.json"]
+    "basedOnImages": [
+      "SSI-HERO-NE-v001",
+      "SSI-HERO-NW-v001",
+      "SSI-HERO-SE-v001",
+      "SSI-HERO-SW-v001",
+      "SSI-STREET-S1-v001",
+      "SSI-STREET-S2-v001",
+      "SSI-STREET-S3-v001",
+      "SSI-STREET-S4-v001",
+      "SSI-STREET-S5-v001"
+    ],
+    "basedOnSidecars": [
+      "SSI-HERO-NE-v001.json",
+      "SSI-HERO-NW-v001.json",
+      "SSI-HERO-SE-v001.json",
+      "SSI-HERO-SW-v001.json",
+      "SSI-STREET-S1-v001.json",
+      "SSI-STREET-S2-v001.json",
+      "SSI-STREET-S3-v001.json",
+      "SSI-STREET-S4-v001.json",
+      "SSI-STREET-S5-v001.json"
+    ]
   },
   "cityDNA": {
-    "coreFantasy": "A serpentine forest city where sacred groves, temple platforms, survey halls, guild craft, manor courts, and molting-mirror rites make transformation a civic principle.",
-    "primaryEmotion": "coiled reverence",
-    "secondaryEmotion": "ritual vigilance",
-    "readerTakeaway": "Ssivareth is not a generic reptile jungle city; the uploaded images show a cultivated serpentfolk civic forest with sacred groves, public works, guilds, and elite garden courts.",
-    "civilizationThesis": "Ssivareth turns serpent trance, ancestor guidance, root networks, temple processions, surveys, craft proof, and high residential power into a civilization of managed transformation.",
-    "visualIdentity": "Limestone blocks, bamboo, obsidian, green marble, woven reed, sacred groves, hanging gardens, serpent-scale bands, temple platforms, survey halls, guildhalls, manor courts, and coiled-stone geometry.",
-    "culturalIdentity": "Serpentine reptilian civic culture that values ritual renewal, controlled access, ancestor memory, forest stewardship, craft display, and elite hospitality.",
-    "symbolicIdentity": "Scales, coils, molting mirrors, sacred groves, living canopy halls, procession stairs, blue lamps, woven banners, and salon pavilions symbolize renewal under law."
+    "coreFantasy": "A serpentine reptilian folk city where Nature Preserve / Sacred Grove, Religious / Temple Quarter, Public Works Authority, Artisan Guilds, and High Residential turn Forest, Root Network, and Old Growth Woodland, dry city ground, and Beast Bonding, Ancestor Guidance, and Serpent Trance into civic order.",
+    "primaryEmotion": "reverent civic presence",
+    "secondaryEmotion": "private pressure",
+    "readerTakeaway": "Ssivareth should feel like a fully usable civilization: its landmarks are not decoration, but the places where movement, memory, authority, labor, and public identity become visible.",
+    "civilizationThesis": "Ssivareth organizes itself through Nature Preserve / Sacred Grove, Religious / Temple Quarter, Public Works Authority, Artisan Guilds, and High Residential. The city’s visible grammar should always connect landscape, materials, daily work, and civic magic rather than letting any one element become generic fantasy dressing.",
+    "visualIdentity": "Limestone Blocks, Bamboo, Obsidian, Green Marble, and Woven Reed; Forest, Root Network, and Old Growth Woodland; dry city ground; section landmarks such as Sacred Grove Beacon, Temple Platform, Survey Hall, Guildhall, and Manor Court; and the city-defining trio of Serpent Molting-Mirror Temple of Coiled Stone, Sacred Grove Beacon, and Serpent Scale Bands Tide-Seal Citadel.",
+    "culturalIdentity": "Ssivareth belongs to a serpentine reptilian folk population whose public life should be expressed through architecture, movement, civic ritual, tools, housing, food, and body language rather than only costume or ornament.",
+    "symbolicIdentity": "Serpent Molting-Mirror Temple of Coiled Stone expresses the citywide mythic identity; Sacred Grove Beacon expresses public warning and convergence; Serpent Scale Bands Tide-Seal Citadel expresses the civic legitimacy of District 13."
   },
   "canon": {
     "canonLocks": [
-      "Ssivareth is a mature serpentine reptilian civic city, not a generic jungle backdrop.",
+      "Ssivareth is a serpentine reptilian folk city; its identity must be visible through built form, street life, and civic use.",
       "The Wonder is Serpent Molting-Mirror Temple of Coiled Stone.",
       "The Beacon is Sacred Grove Beacon.",
-      "The Seat of Power is Serpent Scale Bands Tide-Seal Citadel.",
-      "The five primary districts are Nature Preserve / Sacred Grove, Religious / Temple Quarter, Public Works Authority, Artisan Guilds, and High Residential.",
-      "Exact uploaded anchors include Nature Preserve / Sacred Grove Civic Hall, Sacred Grove Beacon, Hanging Gardens Monument, Living Canopy Hall Nook, Religious / Temple Quarter Civic Hall, Temple Platform, Religious Temple Quarter Lantern Monument, Procession Stair Nook, Public Works Authority Hall, Survey Hall, Blue-Lamp Monument, Permit Yard Nook, Artisan Guilds Civic Hall, Guildhall, Woven Banners Monument, Masterwork Arcade Nook, High Residential Civic Hall, Manor Court, Hanging Gardens Monument, and Salon Pavilion Nook."
+      "The Seat of Power is Serpent Scale Bands Tide-Seal Citadel and belongs to central District 13.",
+      "The five section identities are: S1 Nature Preserve / Sacred Grove, S2 Religious / Temple Quarter, S3 Public Works Authority, S4 Artisan Guilds, S5 High Residential.",
+      "S1 preserves the source-backed anchor Nature Preserve / Sacred Grove Civic Hall (CIVIC_CENTER).",
+      "S1 preserves the source-backed anchor Sacred Grove Beacon (MAJOR_LANDMARK).",
+      "S1 preserves the source-backed anchor Hanging Gardens Monument (MONUMENT).",
+      "S1 preserves the source-backed anchor Living Canopy Hall Nook (MINOR_LANDMARK).",
+      "S2 preserves the source-backed anchor Religious / Temple Quarter Civic Hall (CIVIC_CENTER).",
+      "S2 preserves the source-backed anchor Temple Platform (MAJOR_LANDMARK).",
+      "S2 preserves the source-backed anchor Religious Temple Quarter Lantern Monument (MONUMENT).",
+      "S2 preserves the source-backed anchor Procession Stair Nook (MINOR_LANDMARK).",
+      "S3 preserves the source-backed anchor Public Works Authority Hall (CIVIC_CENTER).",
+      "S3 preserves the source-backed anchor Survey Hall (MAJOR_LANDMARK).",
+      "S3 preserves the source-backed anchor Blue-Lamp Monument (MONUMENT).",
+      "S3 preserves the source-backed anchor Permit Yard Nook (MINOR_LANDMARK).",
+      "S4 preserves the source-backed anchor Artisan Guilds Civic Hall (CIVIC_CENTER).",
+      "S4 preserves the source-backed anchor Guildhall (MAJOR_LANDMARK).",
+      "S4 preserves the source-backed anchor Woven Banners Monument (MONUMENT).",
+      "S4 preserves the source-backed anchor Masterwork Arcade Nook (MINOR_LANDMARK).",
+      "S5 preserves the source-backed anchor High Residential Civic Hall (CIVIC_CENTER).",
+      "S5 preserves the source-backed anchor Manor Court (MAJOR_LANDMARK).",
+      "S5 preserves the source-backed anchor Hanging Gardens Monument (MONUMENT).",
+      "S5 preserves the source-backed anchor Salon Pavilion Nook (MINOR_LANDMARK)."
     ],
-    "provisionalCanon": ["Ssivareth's strongest civic read is coiled reverence shaped into institutions.", "The uploaded image and sidecar pass were folded into v2 fields without adding a new top-level image-analysis section."],
-    "rejectedReads": ["generic serpent jungle", "wilderness without public institutions", "pure temple city with no public works or guild life"],
-    "cautionFlags": ["Preserve exact uploaded sidecar anchor names.", "Keep grove, temple, survey, guild, and high-residential systems visible together.", "Make serpent identity civic and ritual, not monster-coded scenery."]
+    "provisionalCanon": [
+      "Ssivareth's civic customs should be inferred from source-backed section functions: Nature Preserve / Sacred Grove, Religious / Temple Quarter, Public Works Authority, Artisan Guilds, and High Residential.",
+      "Local politics likely emerge from the tension between public service, landmark access, and the authority of D13, but specific factions should not be invented here."
+    ],
+    "rejectedReads": [
+      "Ssivareth as a generic fantasy city with interchangeable districts.",
+      "Landmarks as empty decoration rather than civic tools.",
+      "Race or culture identity expressed only through clothing while architecture and institutions remain generic.",
+      "Invented street anchors for any missing street section."
+    ],
+    "cautionFlags": [
+      "Preserve exact names for Wonder, Beacon, Seat of Power, section civic halls, section landmarks, monuments, and minor nooks.",
+      "Do not add character-specific observations to the city analysis.",
+      "Keep every district usable for prose, diorama generation, and map background generation.",
+      "Use uncertainty only in metadata or provisional canon; do not pad missing evidence with speculation."
+    ]
   },
   "environment": {
-    "terrain": ["Forest", "Root Network", "Old Growth Woodland", "sacred grove courts", "root-road terraces", "manor garden platforms"],
-    "water": ["ritual basins", "garden water", "survey channels", "rain-darkened root paths"],
-    "vegetation": ["old growth trees", "bamboo", "hanging gardens", "sacred grove canopy", "manor gardens", "woven reed plantings"],
-    "climateLighting": ["filtered forest light", "green marble reflection", "blue civic lamps", "ritual lanterns", "humid canopy shade"],
-    "environmentalLogic": "The forest is structured civic space: sacred groves, survey yards, guild paths, and manor courts translate root networks into social order."
+    "terrain": [
+      "Forest",
+      "Root Network",
+      "Old Growth Woodland",
+      "Nature Preserve / Sacred Grove public ground",
+      "Religious / Temple Quarter public ground",
+      "Public Works Authority public ground",
+      "Artisan Guilds public ground",
+      "High Residential public ground"
+    ],
+    "water": [
+      "dry city ground",
+      "water context supports the city's public approaches and thresholds"
+    ],
+    "vegetation": [
+      "root network",
+      "old growth",
+      "Hanging Gardens",
+      "Reed Pavilions",
+      "canopy",
+      "gardens"
+    ],
+    "climateLighting": [
+      "daylight that makes civic silhouettes board-readable",
+      "lantern-lit public approaches",
+      "civic blue illumination at signal or authority points",
+      "localized lighting shaped by Beast Bonding, Ancestor Guidance, and Serpent Trance",
+      "street shadow under arcades, halls, platforms, or canopy forms"
+    ],
+    "environmentalLogic": "Ssivareth's environment should be written as infrastructure. Forest, Root Network, and Old Growth Woodland and dry city ground determine how citizens move, where crowds gather, where authority can be seen, and how each section feels under pressure."
   },
   "architecture": {
-    "materials": ["Limestone Blocks", "Bamboo", "Obsidian", "Green Marble", "Woven Reed"],
-    "forms": ["Serpent Molting-Mirror Temple of Coiled Stone", "Serpent Scale Bands Tide-Seal Citadel", "Sacred Grove Beacon", "Living Canopy Hall Nook", "Temple Platform", "Procession Stair Nook", "Survey Hall", "Permit Yard Nook", "Guildhall", "Masterwork Arcade Nook", "Manor Court", "Salon Pavilion Nook"],
-    "skyline": ["Serpent Molting-Mirror Temple of Coiled Stone as far wonder anchor", "Serpent Scale Bands Tide-Seal Citadel as central authority", "Sacred Grove Beacon as forest signal landmark", "temple platforms, survey halls, guild roofs, and manor courts under old growth canopy"],
-    "lighting": ["filtered green light", "blue civic glow", "ritual lanterns", "obsidian reflection", "soft manor lamps"],
-    "infrastructure": ["sacred grove paths", "procession stairs", "survey yards", "permit courts", "guild arcades", "masterwork displays", "manor terraces", "salon pavilions"],
-    "motifs": ["serpent scales", "coils", "molting mirrors", "hanging gardens", "living canopy halls", "procession stairs", "blue lamps", "woven banners"],
-    "colorLanguage": ["green marble", "obsidian black", "limestone pale", "bamboo tan", "civic blue", "garden green"],
-    "textureLanguage": ["smooth scale stone", "woven reed", "wet roots", "polished obsidian", "carved limestone", "bamboo screens"]
+    "materials": [
+      "Limestone Blocks",
+      "Bamboo",
+      "Obsidian",
+      "Green Marble",
+      "Woven Reed"
+    ],
+    "forms": [
+      "Canopy Platforms",
+      "Gothic Spires",
+      "Market Arcades",
+      "Reed Pavilions",
+      "Step Pyramids",
+      "Temple Platforms",
+      "Timber Longhouses",
+      "White Limestone Civic Blocks"
+    ],
+    "skyline": [
+      "Serpent Molting-Mirror Temple of Coiled Stone as the far citywide wonder silhouette.",
+      "Serpent Scale Bands Tide-Seal Citadel as the central D13 authority mass.",
+      "Sacred Grove Beacon as the public signal landmark.",
+      "Section landmarks remain subordinate to the Wonder and Seat but must be readable: Sacred Grove Beacon, Temple Platform, Survey Hall, Guildhall, and Manor Court."
+    ],
+    "lighting": [
+      "civic blue illumination at beacon and authority points",
+      "lantern light in public thresholds",
+      "warm practical light from shops and homes",
+      "Beast Bonding, Ancestor Guidance, and Serpent Trance expressed as restrained civic effect rather than spectacle alone"
+    ],
+    "infrastructure": [
+      "audience terraces",
+      "command platforms",
+      "courts",
+      "public approach space",
+      "sealed archives",
+      "water gauges"
+    ],
+    "motifs": [
+      "Bone White Ceremony",
+      "Canal Reflections",
+      "Carved Totems",
+      "Gold Seals",
+      "Hanging Gardens",
+      "Lantern Lit",
+      "Mist Veils",
+      "Red Fabric Awnings",
+      "Sun Disc Reliefs",
+      "Woven Banners"
+    ],
+    "colorLanguage": [
+      "colors derived from Limestone Blocks, Bamboo, Obsidian, Green Marble, and Woven Reed",
+      "civic blue for signal, oath, or authority moments",
+      "warm street colors for shops, homes, and food stalls",
+      "section-specific accent colors tied to landmark function"
+    ],
+    "textureLanguage": [
+      "worked textures of Limestone Blocks, Bamboo, Obsidian, Green Marble, and Woven Reed",
+      "worn public paving at district approaches",
+      "handled wood, cloth, reed, stone, or metal at street scale",
+      "official surfaces at civic halls, D13 courts, and named landmarks"
+    ]
   },
   "civilization": {
-    "people": "Serpentine reptilian citizens are ritual-aware, observant, patient, and institutionally literate, moving through groves, halls, guild arcades, survey yards, and manor courts.",
-    "occupations": ["grove keepers", "temple attendants", "surveyors", "permit clerks", "guild artisans", "masterwork inspectors", "manor stewards", "ritual mirror keepers"],
-    "socialClasses": ["Tide-Seal officials", "grove families", "temple authorities", "public works staff", "guild masters", "high residential houses", "craft households"],
-    "governance": "Serpent Scale Bands Tide-Seal Citadel governs through grove rights, ritual status, public works permits, guild authority, high-house petitions, and ancestor guidance.",
-    "religion": "Molting-mirror rites, sacred grove ceremonies, serpent trance, ancestor guidance, procession stairs, and temple platforms define renewal as a public obligation.",
-    "customs": ["grove silence", "molting-mirror reflection", "procession stair rites", "survey permit checking", "masterwork presentation", "manor salon negotiation"],
-    "bodyLanguage": ["coiled stillness", "deliberate turns", "careful threshold pauses", "status-aware spacing", "slow ceremonial gestures"],
-    "speechPatterns": ["ritual renewal phrases", "ancestor references", "permit language", "guild terminology", "polite high-house indirection"]
+    "people": "Ssivareth's people are serpentine reptilian folk. They should move, gesture, dress, work, and gather according to the city’s section functions rather than appearing as generic crowds.",
+    "occupations": [
+      "shrine attendants",
+      "procession marshals",
+      "votive makers",
+      "ritual cleaners",
+      "surveyors",
+      "permit clerks",
+      "repair crews",
+      "municipal engineers",
+      "guild masters",
+      "apprentices",
+      "tool keepers",
+      "masterwork sellers",
+      "house stewards",
+      "gardeners",
+      "salon hosts",
+      "courtyard guards"
+    ],
+    "socialClasses": [
+      "D13 officials, registry staff, judges, or civic command families",
+      "section civic-hall administrators and landmark attendants",
+      "craft, trade, food, route, shrine, archive, or service guild families",
+      "street vendors, apprentices, runners, porters, and maintenance workers",
+      "households whose status is legible through proximity to named landmarks and public approaches"
+    ],
+    "governance": "Governance is centered on Serpent Scale Bands Tide-Seal Citadel, but citizens experience authority through section halls, permit counters, procession routes, market rules, warning signals, and the public visibility of the Beacon.",
+    "religion": "Religion and ritual should emerge through section evidence: sacred groves, shrines, temples, ancestor quarters, vows, processions, lamps, memorials, or civic magic where source-backed.",
+    "customs": [
+      "citizens orient by named landmarks rather than abstract street addresses",
+      "public notices and civic signals are treated as social facts",
+      "section identity shapes work rhythms, festival routes, food habits, and greetings",
+      "households preserve small visual signs of their relation to nearby halls, shrines, markets, or work yards",
+      "crowds read beacon changes, D13 messengers, and landmark access as political weather"
+    ],
+    "bodyLanguage": [
+      "habitual glances toward the Beacon or D13 when public pressure rises",
+      "rank-conscious spacing near halls, courts, gates, and counters",
+      "work gestures shaped by tools, ledgers, baskets, lamps, platforms, or ritual objects",
+      "section-specific ways of queuing, bargaining, processing, mourning, or carrying goods",
+      "practical familiarity with terraces, arcades, courtyards, and side lanes"
+    ],
+    "speechPatterns": [
+      "citizens reference exact landmark names in directions and gossip",
+      "official speech uses seals, sections, district numbers, and public obligations",
+      "market and work speech remains compressed, local, and landmark-aware",
+      "ceremonial speech becomes formal near Wonder, Beacon, Seat, temple, shrine, or ancestor anchors",
+      "outsiders are corrected when they genericize a named civic anchor"
+    ]
   },
   "urbanLife": {
     "streets": {
-      "appearance": "Rooted civic paths move through sacred grove halls, temple platforms, survey offices, guild arcades, and manor gardens, with green marble, bamboo, reed screens, and blue lamps visible throughout.",
-      "movement": "Movement follows root paths, canopy halls, procession stairs, survey yards, guild corridors, and high residential garden routes.",
-      "sounds": ["canopy leaves", "ritual bells", "soft footfalls", "survey tools", "guild work", "salon voices"],
-      "smells": ["wet roots", "bamboo", "incense", "polished stone", "green plants", "lamp oil"],
-      "lighting": "Green forest light and blue civic lamps divide sacred grove, temple, public works, guild, and manor spaces.",
-      "weatherEffects": "Rain brightens roots and stone, deepens grove color, and makes canopy routes and public drainage visible.",
-      "dayCycle": "Survey work, guild craft, grove tending, and manor errands dominate daytime.",
-      "nightCycle": "Ritual lanterns, temple processions, salon gatherings, and quiet grove watch dominate night."
+      "appearance": "Streets should foreground Limestone Blocks, Bamboo, Obsidian, Green Marble, and Woven Reed, section-specific props, named local landmarks, D13 authority sightlines, and the daily relationship between Nature Preserve / Sacred Grove, Religious / Temple Quarter, Public Works Authority, Artisan Guilds, and High Residential.",
+      "movement": "Movement follows district adjacency and section identity: S1 through S5 each have five district slots, while D13 remains the central seat-of-power node around Serpent Scale Bands Tide-Seal Citadel.",
+      "sounds": [
+        "foot traffic shifting around landmark approaches",
+        "vendors, clerks, attendants, or guards calling section-specific instructions",
+        "tools, carts, bells, lamps, water, banners, or crowds depending on section function",
+        "distant beacon reaction when civic signals change",
+        "private household sounds from side lanes behind public halls"
+      ],
+      "smells": [
+        "worked city materials under sun or lantern heat",
+        "street food and household cooking",
+        "lamp oil, damp stone, dust, reed, wood, incense, metal, or archive paper according to section",
+        "crowd smell at public approaches",
+        "vegetation or water smells where source-backed"
+      ],
+      "lighting": "Use practical street light first: daylight, shade, lanterns, and civic blue accents. Magic should reinforce civic identity rather than overtake every street.",
+      "weatherEffects": "Weather should change how crowds read landmarks: glare, rain, mist, dust, cold, humidity, wind, or wet paving can hide, reveal, or delay public action.",
+      "dayCycle": "Morning emphasizes food, work, maintenance, permission-seeking, trade preparation, ritual cleaning, and civic notices.",
+      "nightCycle": "Night shifts to lamps, quieter side courts, guarded landmarks, late markets, household thresholds, watch routines, and beacon visibility."
     },
     "shops": {
-      "common": ["reed craft stalls", "herb sellers", "bamboo tool counters", "garden food vendors"],
-      "uncommon": ["molting-mirror polishers", "serpent-scale carvers", "permit copyists", "masterwork appraisers"],
-      "prestigious": ["guild master halls", "Tide-Seal offices", "temple patron rooms", "manor salon suppliers"],
-      "exports": ["woven reed craft", "green marble carving", "ritual mirrors", "forest medicines", "guild masterworks"],
-      "imports": ["metal tools", "paper", "ink", "rare dyes", "fine cloth"],
-      "streetFood": ["leaf-wrapped cakes", "herb broth", "rice parcels", "spiced roots", "garden tea"],
-      "services": ["grove tending", "ritual consultation", "survey filing", "guild certification", "manor mediation"]
+      "common": [
+        "food stalls shaped by local staples",
+        "lamp and cloth vendors",
+        "tool repair counters",
+        "ledger or notice copyists",
+        "basket, crate, reed, stone, timber, or metal workers",
+        "section-specific service stalls"
+      ],
+      "uncommon": [
+        "landmark-token engravers",
+        "specialist map, ritual, archive, or route counters",
+        "beacon-lamp maintenance shops",
+        "district emblem painters",
+        "official-seal accessory makers"
+      ],
+      "prestigious": [
+        "D13 document ateliers",
+        "Wonder-facing ceremonial suppliers",
+        "elite guild or temple workshops",
+        "landmark restoration houses",
+        "high-status court, archive, shrine, or civic contractors"
+      ],
+      "exports": [
+        "goods using Limestone Blocks, Bamboo, Obsidian, Green Marble, and Woven Reed",
+        "craft traditions tied to serpentine reptilian folk civic identity",
+        "section-specific tools, records, ritual goods, food goods, or transport services",
+        "recognizable landmark miniatures, seals, lamps, textiles, or carved emblems"
+      ],
+      "imports": [
+        "rare pigments, spices, glass, metal fittings, fine timber, ceremonial cloth, and replacement tools",
+        "raw materials not available in local terrain",
+        "foods and ritual supplies needed for section festivals"
+      ],
+      "streetFood": [
+        "portable breads or cakes",
+        "spiced stews or broths",
+        "grilled market foods",
+        "sweet festival bites",
+        "tea, fermented drinks, or cooling drinks",
+        "section-specific food sold near civic halls"
+      ],
+      "services": [
+        "directions by landmark and district",
+        "permit help",
+        "message running",
+        "lamp maintenance",
+        "ritual preparation",
+        "tool repair",
+        "public notice reading",
+        "queue mediation"
+      ]
     },
     "housing": {
-      "wealthy": "High residential manor courts with hanging gardens, salon pavilions, green marble, bamboo screens, and controlled grove access.",
-      "middle": "Guild and public works homes along root paths with workrooms, reed screens, and shared gardens.",
-      "poor": "Compact root-edge dwellings near service paths and public yards, with shared lamps and practical woven materials."
+      "wealthy": "Large homes cluster near central authority, prestigious landmark approaches, garden courts, or high terraces, with ornament that repeats city motifs without overwhelming civic structures.",
+      "middle": "Shop-homes, courtyard houses, upper rooms, workshop apartments, and shared terraces connect directly to section work rhythms.",
+      "poor": "Small rooms, backstreet courts, temporary structures, and service-side housing remain visually tied to the city through lamps, fabrics, recycled materials, and landmark-facing orientation."
     }
   },
   "districts": [
-    {"sectionNumber": 1, "name": "Nature Preserve / Sacred Grove", "civicPurpose": "Sacred ecology, public signal, ancestral guidance, and ritual forest identity.", "visualIdentity": "Nature Preserve / Sacred Grove Civic Hall, Sacred Grove Beacon, Hanging Gardens Monument, Living Canopy Hall Nook.", "emotionalIdentity": "reverent, alive, watchful", "gameplayAssetNeeds": ["Nature Preserve / Sacred Grove Civic Hall", "Sacred Grove Beacon", "Hanging Gardens Monument", "Living Canopy Hall Nook"], "narrativeUse": ["Beacon warning", "grove rite", "ancestor guidance"], "landmark": "Sacred Grove Beacon", "minorLandmarks": ["Hanging Gardens Monument", "Living Canopy Hall Nook"]},
-    {"sectionNumber": 2, "name": "Religious / Temple Quarter", "civicPurpose": "Molting rites, processions, temple authority, and public renewal ceremonies.", "visualIdentity": "Religious / Temple Quarter Civic Hall, Temple Platform, Religious Temple Quarter Lantern Monument, Procession Stair Nook.", "emotionalIdentity": "ceremonial, coiled, ancient", "gameplayAssetNeeds": ["Religious / Temple Quarter Civic Hall", "Temple Platform", "Religious Temple Quarter Lantern Monument", "Procession Stair Nook"], "narrativeUse": ["temple rite", "procession", "renewal vow"], "landmark": "Temple Platform", "minorLandmarks": ["Religious Temple Quarter Lantern Monument", "Procession Stair Nook"]},
-    {"sectionNumber": 3, "name": "Public Works Authority", "civicPurpose": "Surveying, permits, route maintenance, and forest-city growth control.", "visualIdentity": "Public Works Authority Hall, Survey Hall, Blue-Lamp Monument, Permit Yard Nook.", "emotionalIdentity": "measured, technical, civic", "gameplayAssetNeeds": ["Public Works Authority Hall", "Survey Hall", "Blue-Lamp Monument", "Permit Yard Nook"], "narrativeUse": ["permit dispute", "survey clue", "route authority"], "landmark": "Survey Hall", "minorLandmarks": ["Blue-Lamp Monument", "Permit Yard Nook"]},
-    {"sectionNumber": 4, "name": "Artisan Guilds", "civicPurpose": "Craft proof, guild legitimacy, masterwork display, and public production.", "visualIdentity": "Artisan Guilds Civic Hall, Guildhall, Woven Banners Monument, Masterwork Arcade Nook.", "emotionalIdentity": "skilled, proud, ceremonial", "gameplayAssetNeeds": ["Artisan Guilds Civic Hall", "Guildhall", "Woven Banners Monument", "Masterwork Arcade Nook"], "narrativeUse": ["craft proof", "guild politics", "masterwork clue"], "landmark": "Guildhall", "minorLandmarks": ["Woven Banners Monument", "Masterwork Arcade Nook"]},
-    {"sectionNumber": 5, "name": "High Residential", "civicPurpose": "Elite hospitality, manor influence, controlled garden access, and private-public status display.", "visualIdentity": "High Residential Civic Hall, Manor Court, Hanging Gardens Monument, Salon Pavilion Nook.", "emotionalIdentity": "refined, guarded, socially charged", "gameplayAssetNeeds": ["High Residential Civic Hall", "Manor Court", "Hanging Gardens Monument", "Salon Pavilion Nook"], "narrativeUse": ["manor negotiation", "class pressure", "salon intrigue"], "landmark": "Manor Court", "minorLandmarks": ["Hanging Gardens Monument", "Salon Pavilion Nook"]}
+    {
+      "districtNumber": 1,
+      "districtCode": "D01",
+      "sectionNumber": 1,
+      "sectionName": "Nature Preserve / Sacred Grove",
+      "name": "Nature Preserve / Sacred Grove — Civic Threshold",
+      "civicPurpose": "This district handles public approach, first contact, notices, and movement control for Nature Preserve / Sacred Grove. In scenes, it should show how public worship, vow-making, procession, ceremonial memory, and sacred authority expressed at street scale becomes a street-level system.",
+      "visualIdentity": "Nature Preserve / Sacred Grove identity rendered through procession steps, votive lamps, ritual banners, sacred thresholds, Limestone Blocks, Bamboo, Obsidian, Green Marble, and Woven Reed, local crowds, and the visible approach to Nature Preserve / Sacred Grove Civic Hall.",
+      "emotionalIdentity": "reverent, processional, and symbolically charged",
+      "gameplayAssetNeeds": [
+        "Nature Preserve / Sacred Grove Civic Hall",
+        "Sacred Grove Beacon",
+        "Hanging Gardens Monument",
+        "Living Canopy Hall Nook",
+        "Nature Preserve / Sacred Grove street props",
+        "serpentine reptilian folk civilians using the district",
+        "clear board-readable pathing and gathering space"
+      ],
+      "narrativeUse": [
+        "stage nature preserve / sacred grove scenes without needing to reopen concept art",
+        "show how ordinary citizens react to public pressure",
+        "give characters a concrete approach, obstacle, or meeting point",
+        "translate citywide crisis into district-scale behavior",
+        "support diorama generation with landmark-specific props"
+      ],
+      "primaryLandmark": "Nature Preserve / Sacred Grove Civic Hall",
+      "minorLandmarks": [
+        "Sacred Grove Beacon",
+        "Hanging Gardens Monument",
+        "Living Canopy Hall Nook"
+      ]
+    },
+    {
+      "districtNumber": 2,
+      "districtCode": "D02",
+      "sectionNumber": 1,
+      "sectionName": "Nature Preserve / Sacred Grove",
+      "name": "Nature Preserve / Sacred Grove — Landmark Court",
+      "civicPurpose": "This district handles the local landmark’s visible plaza, vertical silhouette, and immediate public use for Nature Preserve / Sacred Grove. In scenes, it should show how public worship, vow-making, procession, ceremonial memory, and sacred authority expressed at street scale becomes a street-level system.",
+      "visualIdentity": "Nature Preserve / Sacred Grove identity rendered through procession steps, votive lamps, ritual banners, sacred thresholds, Limestone Blocks, Bamboo, Obsidian, Green Marble, and Woven Reed, local crowds, and the visible approach to Sacred Grove Beacon.",
+      "emotionalIdentity": "reverent, processional, and symbolically charged",
+      "gameplayAssetNeeds": [
+        "Sacred Grove Beacon",
+        "Nature Preserve / Sacred Grove Civic Hall",
+        "Hanging Gardens Monument",
+        "Living Canopy Hall Nook",
+        "Nature Preserve / Sacred Grove street props",
+        "serpentine reptilian folk civilians using the district",
+        "clear board-readable pathing and gathering space"
+      ],
+      "narrativeUse": [
+        "stage nature preserve / sacred grove scenes without needing to reopen concept art",
+        "show how ordinary citizens react to public pressure",
+        "give characters a concrete approach, obstacle, or meeting point",
+        "translate citywide crisis into district-scale behavior",
+        "support diorama generation with landmark-specific props"
+      ],
+      "primaryLandmark": "Sacred Grove Beacon",
+      "minorLandmarks": [
+        "Nature Preserve / Sacred Grove Civic Hall",
+        "Hanging Gardens Monument",
+        "Living Canopy Hall Nook"
+      ]
+    },
+    {
+      "districtNumber": 3,
+      "districtCode": "D03",
+      "sectionNumber": 1,
+      "sectionName": "Nature Preserve / Sacred Grove",
+      "name": "Nature Preserve / Sacred Grove — Monument Plaza",
+      "civicPurpose": "This district handles ceremony, memory, civic symbolism, and formal gatherings for Nature Preserve / Sacred Grove. In scenes, it should show how public worship, vow-making, procession, ceremonial memory, and sacred authority expressed at street scale becomes a street-level system.",
+      "visualIdentity": "Nature Preserve / Sacred Grove identity rendered through procession steps, votive lamps, ritual banners, sacred thresholds, Limestone Blocks, Bamboo, Obsidian, Green Marble, and Woven Reed, local crowds, and the visible approach to Hanging Gardens Monument.",
+      "emotionalIdentity": "reverent, processional, and symbolically charged",
+      "gameplayAssetNeeds": [
+        "Hanging Gardens Monument",
+        "Nature Preserve / Sacred Grove Civic Hall",
+        "Sacred Grove Beacon",
+        "Living Canopy Hall Nook",
+        "Nature Preserve / Sacred Grove street props",
+        "serpentine reptilian folk civilians using the district",
+        "clear board-readable pathing and gathering space"
+      ],
+      "narrativeUse": [
+        "stage nature preserve / sacred grove scenes without needing to reopen concept art",
+        "show how ordinary citizens react to public pressure",
+        "give characters a concrete approach, obstacle, or meeting point",
+        "translate citywide crisis into district-scale behavior",
+        "support diorama generation with landmark-specific props"
+      ],
+      "primaryLandmark": "Hanging Gardens Monument",
+      "minorLandmarks": [
+        "Nature Preserve / Sacred Grove Civic Hall",
+        "Sacred Grove Beacon",
+        "Living Canopy Hall Nook"
+      ]
+    },
+    {
+      "districtNumber": 4,
+      "districtCode": "D04",
+      "sectionNumber": 2,
+      "sectionName": "Religious / Temple Quarter",
+      "name": "Religious / Temple Quarter — Civic Threshold",
+      "civicPurpose": "This district handles public approach, first contact, notices, and movement control for Religious / Temple Quarter. In scenes, it should show how public worship, vow-making, procession, ceremonial memory, and sacred authority expressed at street scale becomes a street-level system.",
+      "visualIdentity": "Religious / Temple Quarter identity rendered through procession steps, votive lamps, ritual banners, sacred thresholds, Limestone Blocks, Bamboo, Obsidian, Green Marble, and Woven Reed, local crowds, and the visible approach to Religious / Temple Quarter Civic Hall.",
+      "emotionalIdentity": "reverent, processional, and symbolically charged",
+      "gameplayAssetNeeds": [
+        "Religious / Temple Quarter Civic Hall",
+        "Temple Platform",
+        "Religious Temple Quarter Lantern Monument",
+        "Procession Stair Nook",
+        "Religious / Temple Quarter street props",
+        "serpentine reptilian folk civilians using the district",
+        "clear board-readable pathing and gathering space"
+      ],
+      "narrativeUse": [
+        "stage religious / temple quarter scenes without needing to reopen concept art",
+        "show how ordinary citizens react to public pressure",
+        "give characters a concrete approach, obstacle, or meeting point",
+        "translate citywide crisis into district-scale behavior",
+        "support diorama generation with landmark-specific props"
+      ],
+      "primaryLandmark": "Religious / Temple Quarter Civic Hall",
+      "minorLandmarks": [
+        "Temple Platform",
+        "Religious Temple Quarter Lantern Monument",
+        "Procession Stair Nook"
+      ]
+    },
+    {
+      "districtNumber": 5,
+      "districtCode": "D05",
+      "sectionNumber": 2,
+      "sectionName": "Religious / Temple Quarter",
+      "name": "Religious / Temple Quarter — Landmark Court",
+      "civicPurpose": "This district handles the local landmark’s visible plaza, vertical silhouette, and immediate public use for Religious / Temple Quarter. In scenes, it should show how public worship, vow-making, procession, ceremonial memory, and sacred authority expressed at street scale becomes a street-level system.",
+      "visualIdentity": "Religious / Temple Quarter identity rendered through procession steps, votive lamps, ritual banners, sacred thresholds, Limestone Blocks, Bamboo, Obsidian, Green Marble, and Woven Reed, local crowds, and the visible approach to Temple Platform.",
+      "emotionalIdentity": "reverent, processional, and symbolically charged",
+      "gameplayAssetNeeds": [
+        "Temple Platform",
+        "Religious / Temple Quarter Civic Hall",
+        "Religious Temple Quarter Lantern Monument",
+        "Procession Stair Nook",
+        "Religious / Temple Quarter street props",
+        "serpentine reptilian folk civilians using the district",
+        "clear board-readable pathing and gathering space"
+      ],
+      "narrativeUse": [
+        "stage religious / temple quarter scenes without needing to reopen concept art",
+        "show how ordinary citizens react to public pressure",
+        "give characters a concrete approach, obstacle, or meeting point",
+        "translate citywide crisis into district-scale behavior",
+        "support diorama generation with landmark-specific props"
+      ],
+      "primaryLandmark": "Temple Platform",
+      "minorLandmarks": [
+        "Religious / Temple Quarter Civic Hall",
+        "Religious Temple Quarter Lantern Monument",
+        "Procession Stair Nook"
+      ]
+    },
+    {
+      "districtNumber": 6,
+      "districtCode": "D06",
+      "sectionNumber": 1,
+      "sectionName": "Nature Preserve / Sacred Grove",
+      "name": "Nature Preserve / Sacred Grove — Service Arcade",
+      "civicPurpose": "This district handles small shops, workers, storage, and everyday support around the section for Nature Preserve / Sacred Grove. In scenes, it should show how public worship, vow-making, procession, ceremonial memory, and sacred authority expressed at street scale becomes a street-level system.",
+      "visualIdentity": "Nature Preserve / Sacred Grove identity rendered through procession steps, votive lamps, ritual banners, sacred thresholds, Limestone Blocks, Bamboo, Obsidian, Green Marble, and Woven Reed, local crowds, and the visible approach to Living Canopy Hall Nook.",
+      "emotionalIdentity": "reverent, processional, and symbolically charged",
+      "gameplayAssetNeeds": [
+        "Living Canopy Hall Nook",
+        "Nature Preserve / Sacred Grove Civic Hall",
+        "Sacred Grove Beacon",
+        "Hanging Gardens Monument",
+        "Nature Preserve / Sacred Grove street props",
+        "serpentine reptilian folk civilians using the district",
+        "clear board-readable pathing and gathering space"
+      ],
+      "narrativeUse": [
+        "stage nature preserve / sacred grove scenes without needing to reopen concept art",
+        "show how ordinary citizens react to public pressure",
+        "give characters a concrete approach, obstacle, or meeting point",
+        "translate citywide crisis into district-scale behavior",
+        "support diorama generation with landmark-specific props"
+      ],
+      "primaryLandmark": "Living Canopy Hall Nook",
+      "minorLandmarks": [
+        "Nature Preserve / Sacred Grove Civic Hall",
+        "Sacred Grove Beacon",
+        "Hanging Gardens Monument"
+      ]
+    },
+    {
+      "districtNumber": 7,
+      "districtCode": "D07",
+      "sectionNumber": 1,
+      "sectionName": "Nature Preserve / Sacred Grove",
+      "name": "Nature Preserve / Sacred Grove — Residential / Backstreet Edge",
+      "civicPurpose": "This district handles housing, side lanes, minor courts, and private daily routines for Nature Preserve / Sacred Grove. In scenes, it should show how public worship, vow-making, procession, ceremonial memory, and sacred authority expressed at street scale becomes a street-level system.",
+      "visualIdentity": "Nature Preserve / Sacred Grove identity rendered through procession steps, votive lamps, ritual banners, sacred thresholds, Limestone Blocks, Bamboo, Obsidian, Green Marble, and Woven Reed, local crowds, and the visible approach to Sacred Grove Beacon.",
+      "emotionalIdentity": "reverent, processional, and symbolically charged",
+      "gameplayAssetNeeds": [
+        "Sacred Grove Beacon",
+        "Nature Preserve / Sacred Grove Civic Hall",
+        "Hanging Gardens Monument",
+        "Living Canopy Hall Nook",
+        "Nature Preserve / Sacred Grove street props",
+        "serpentine reptilian folk civilians using the district",
+        "clear board-readable pathing and gathering space"
+      ],
+      "narrativeUse": [
+        "stage nature preserve / sacred grove scenes without needing to reopen concept art",
+        "show how ordinary citizens react to public pressure",
+        "give characters a concrete approach, obstacle, or meeting point",
+        "translate citywide crisis into district-scale behavior",
+        "support diorama generation with landmark-specific props"
+      ],
+      "primaryLandmark": "Sacred Grove Beacon",
+      "minorLandmarks": [
+        "Nature Preserve / Sacred Grove Civic Hall",
+        "Hanging Gardens Monument",
+        "Living Canopy Hall Nook"
+      ]
+    },
+    {
+      "districtNumber": 8,
+      "districtCode": "D08",
+      "sectionNumber": 3,
+      "sectionName": "Public Works Authority",
+      "name": "Public Works Authority — Civic Threshold",
+      "civicPurpose": "This district handles public approach, first contact, notices, and movement control for Public Works Authority. In scenes, it should show how municipal repair, permits, route planning, safety inspections, and the visible apparatus of civic competence becomes a street-level system.",
+      "visualIdentity": "Public Works Authority identity rendered through permit boards, survey instruments, repair markers, map tables, Limestone Blocks, Bamboo, Obsidian, Green Marble, and Woven Reed, local crowds, and the visible approach to Public Works Authority Hall.",
+      "emotionalIdentity": "measured, competent, and quietly powerful",
+      "gameplayAssetNeeds": [
+        "Public Works Authority Hall",
+        "Survey Hall",
+        "Blue-Lamp Monument",
+        "Permit Yard Nook",
+        "Public Works Authority street props",
+        "serpentine reptilian folk civilians using the district",
+        "clear board-readable pathing and gathering space"
+      ],
+      "narrativeUse": [
+        "stage public works authority scenes without needing to reopen concept art",
+        "show how ordinary citizens react to public pressure",
+        "give characters a concrete approach, obstacle, or meeting point",
+        "translate citywide crisis into district-scale behavior",
+        "support diorama generation with landmark-specific props"
+      ],
+      "primaryLandmark": "Public Works Authority Hall",
+      "minorLandmarks": [
+        "Survey Hall",
+        "Blue-Lamp Monument",
+        "Permit Yard Nook"
+      ]
+    },
+    {
+      "districtNumber": 9,
+      "districtCode": "D09",
+      "sectionNumber": 2,
+      "sectionName": "Religious / Temple Quarter",
+      "name": "Religious / Temple Quarter — Monument Plaza",
+      "civicPurpose": "This district handles ceremony, memory, civic symbolism, and formal gatherings for Religious / Temple Quarter. In scenes, it should show how public worship, vow-making, procession, ceremonial memory, and sacred authority expressed at street scale becomes a street-level system.",
+      "visualIdentity": "Religious / Temple Quarter identity rendered through procession steps, votive lamps, ritual banners, sacred thresholds, Limestone Blocks, Bamboo, Obsidian, Green Marble, and Woven Reed, local crowds, and the visible approach to Religious Temple Quarter Lantern Monument.",
+      "emotionalIdentity": "reverent, processional, and symbolically charged",
+      "gameplayAssetNeeds": [
+        "Religious Temple Quarter Lantern Monument",
+        "Religious / Temple Quarter Civic Hall",
+        "Temple Platform",
+        "Procession Stair Nook",
+        "Religious / Temple Quarter street props",
+        "serpentine reptilian folk civilians using the district",
+        "clear board-readable pathing and gathering space"
+      ],
+      "narrativeUse": [
+        "stage religious / temple quarter scenes without needing to reopen concept art",
+        "show how ordinary citizens react to public pressure",
+        "give characters a concrete approach, obstacle, or meeting point",
+        "translate citywide crisis into district-scale behavior",
+        "support diorama generation with landmark-specific props"
+      ],
+      "primaryLandmark": "Religious Temple Quarter Lantern Monument",
+      "minorLandmarks": [
+        "Religious / Temple Quarter Civic Hall",
+        "Temple Platform",
+        "Procession Stair Nook"
+      ]
+    },
+    {
+      "districtNumber": 10,
+      "districtCode": "D10",
+      "sectionNumber": 2,
+      "sectionName": "Religious / Temple Quarter",
+      "name": "Religious / Temple Quarter — Service Arcade",
+      "civicPurpose": "This district handles small shops, workers, storage, and everyday support around the section for Religious / Temple Quarter. In scenes, it should show how public worship, vow-making, procession, ceremonial memory, and sacred authority expressed at street scale becomes a street-level system.",
+      "visualIdentity": "Religious / Temple Quarter identity rendered through procession steps, votive lamps, ritual banners, sacred thresholds, Limestone Blocks, Bamboo, Obsidian, Green Marble, and Woven Reed, local crowds, and the visible approach to Procession Stair Nook.",
+      "emotionalIdentity": "reverent, processional, and symbolically charged",
+      "gameplayAssetNeeds": [
+        "Procession Stair Nook",
+        "Religious / Temple Quarter Civic Hall",
+        "Temple Platform",
+        "Religious Temple Quarter Lantern Monument",
+        "Religious / Temple Quarter street props",
+        "serpentine reptilian folk civilians using the district",
+        "clear board-readable pathing and gathering space"
+      ],
+      "narrativeUse": [
+        "stage religious / temple quarter scenes without needing to reopen concept art",
+        "show how ordinary citizens react to public pressure",
+        "give characters a concrete approach, obstacle, or meeting point",
+        "translate citywide crisis into district-scale behavior",
+        "support diorama generation with landmark-specific props"
+      ],
+      "primaryLandmark": "Procession Stair Nook",
+      "minorLandmarks": [
+        "Religious / Temple Quarter Civic Hall",
+        "Temple Platform",
+        "Religious Temple Quarter Lantern Monument"
+      ]
+    },
+    {
+      "districtNumber": 11,
+      "districtCode": "D11",
+      "sectionNumber": 4,
+      "sectionName": "Artisan Guilds",
+      "name": "Artisan Guilds — Civic Threshold",
+      "civicPurpose": "This district handles public approach, first contact, notices, and movement control for Artisan Guilds. In scenes, it should show how craft production, apprenticeship, tools, public making, and reputation earned through visible skill becomes a street-level system.",
+      "visualIdentity": "Artisan Guilds identity rendered through workbenches, tool racks, apprentice yards, displayed masterworks, Limestone Blocks, Bamboo, Obsidian, Green Marble, and Woven Reed, local crowds, and the visible approach to Artisan Guilds Civic Hall.",
+      "emotionalIdentity": "busy, tactile, skilled, and reputation-driven",
+      "gameplayAssetNeeds": [
+        "Artisan Guilds Civic Hall",
+        "Guildhall",
+        "Woven Banners Monument",
+        "Masterwork Arcade Nook",
+        "Artisan Guilds street props",
+        "serpentine reptilian folk civilians using the district",
+        "clear board-readable pathing and gathering space"
+      ],
+      "narrativeUse": [
+        "stage artisan guilds scenes without needing to reopen concept art",
+        "show how ordinary citizens react to public pressure",
+        "give characters a concrete approach, obstacle, or meeting point",
+        "translate citywide crisis into district-scale behavior",
+        "support diorama generation with landmark-specific props"
+      ],
+      "primaryLandmark": "Artisan Guilds Civic Hall",
+      "minorLandmarks": [
+        "Guildhall",
+        "Woven Banners Monument",
+        "Masterwork Arcade Nook"
+      ]
+    },
+    {
+      "districtNumber": 12,
+      "districtCode": "D12",
+      "sectionNumber": 3,
+      "sectionName": "Public Works Authority",
+      "name": "Public Works Authority — Landmark Court",
+      "civicPurpose": "This district handles the local landmark’s visible plaza, vertical silhouette, and immediate public use for Public Works Authority. In scenes, it should show how municipal repair, permits, route planning, safety inspections, and the visible apparatus of civic competence becomes a street-level system.",
+      "visualIdentity": "Public Works Authority identity rendered through permit boards, survey instruments, repair markers, map tables, Limestone Blocks, Bamboo, Obsidian, Green Marble, and Woven Reed, local crowds, and the visible approach to Survey Hall.",
+      "emotionalIdentity": "measured, competent, and quietly powerful",
+      "gameplayAssetNeeds": [
+        "Survey Hall",
+        "Public Works Authority Hall",
+        "Blue-Lamp Monument",
+        "Permit Yard Nook",
+        "Public Works Authority street props",
+        "serpentine reptilian folk civilians using the district",
+        "clear board-readable pathing and gathering space"
+      ],
+      "narrativeUse": [
+        "stage public works authority scenes without needing to reopen concept art",
+        "show how ordinary citizens react to public pressure",
+        "give characters a concrete approach, obstacle, or meeting point",
+        "translate citywide crisis into district-scale behavior",
+        "support diorama generation with landmark-specific props"
+      ],
+      "primaryLandmark": "Survey Hall",
+      "minorLandmarks": [
+        "Public Works Authority Hall",
+        "Blue-Lamp Monument",
+        "Permit Yard Nook"
+      ]
+    },
+    {
+      "districtNumber": 13,
+      "districtCode": "D13",
+      "sectionNumber": 3,
+      "sectionName": "Public Works Authority",
+      "name": "Public Works Authority — Monument Plaza",
+      "civicPurpose": "This district handles ceremony, memory, civic symbolism, and formal gatherings for Public Works Authority. In scenes, it should show how municipal repair, permits, route planning, safety inspections, and the visible apparatus of civic competence becomes a street-level system.",
+      "visualIdentity": "Public Works Authority identity rendered through permit boards, survey instruments, repair markers, map tables, Limestone Blocks, Bamboo, Obsidian, Green Marble, and Woven Reed, local crowds, and the visible approach to Serpent Scale Bands Tide-Seal Citadel.",
+      "emotionalIdentity": "measured, competent, and quietly powerful",
+      "gameplayAssetNeeds": [
+        "Serpent Scale Bands Tide-Seal Citadel",
+        "Sacred Grove Beacon",
+        "Serpent Molting-Mirror Temple of Coiled Stone",
+        "Public Works Authority Hall",
+        "Public Works Authority street props",
+        "serpentine reptilian folk civilians using the district",
+        "clear board-readable pathing and gathering space"
+      ],
+      "narrativeUse": [
+        "stage public works authority scenes without needing to reopen concept art",
+        "show how ordinary citizens react to public pressure",
+        "give characters a concrete approach, obstacle, or meeting point",
+        "translate citywide crisis into district-scale behavior",
+        "support diorama generation with landmark-specific props"
+      ],
+      "primaryLandmark": "Serpent Scale Bands Tide-Seal Citadel",
+      "minorLandmarks": [
+        "Sacred Grove Beacon",
+        "Serpent Molting-Mirror Temple of Coiled Stone",
+        "Public Works Authority Hall",
+        "Survey Hall",
+        "Blue-Lamp Monument",
+        "Permit Yard Nook"
+      ]
+    },
+    {
+      "districtNumber": 14,
+      "districtCode": "D14",
+      "sectionNumber": 3,
+      "sectionName": "Public Works Authority",
+      "name": "Public Works Authority — Service Arcade",
+      "civicPurpose": "This district handles small shops, workers, storage, and everyday support around the section for Public Works Authority. In scenes, it should show how municipal repair, permits, route planning, safety inspections, and the visible apparatus of civic competence becomes a street-level system.",
+      "visualIdentity": "Public Works Authority identity rendered through permit boards, survey instruments, repair markers, map tables, Limestone Blocks, Bamboo, Obsidian, Green Marble, and Woven Reed, local crowds, and the visible approach to Permit Yard Nook.",
+      "emotionalIdentity": "measured, competent, and quietly powerful",
+      "gameplayAssetNeeds": [
+        "Permit Yard Nook",
+        "Public Works Authority Hall",
+        "Survey Hall",
+        "Blue-Lamp Monument",
+        "Public Works Authority street props",
+        "serpentine reptilian folk civilians using the district",
+        "clear board-readable pathing and gathering space"
+      ],
+      "narrativeUse": [
+        "stage public works authority scenes without needing to reopen concept art",
+        "show how ordinary citizens react to public pressure",
+        "give characters a concrete approach, obstacle, or meeting point",
+        "translate citywide crisis into district-scale behavior",
+        "support diorama generation with landmark-specific props"
+      ],
+      "primaryLandmark": "Permit Yard Nook",
+      "minorLandmarks": [
+        "Public Works Authority Hall",
+        "Survey Hall",
+        "Blue-Lamp Monument"
+      ]
+    },
+    {
+      "districtNumber": 15,
+      "districtCode": "D15",
+      "sectionNumber": 2,
+      "sectionName": "Religious / Temple Quarter",
+      "name": "Religious / Temple Quarter — Residential / Backstreet Edge",
+      "civicPurpose": "This district handles housing, side lanes, minor courts, and private daily routines for Religious / Temple Quarter. In scenes, it should show how public worship, vow-making, procession, ceremonial memory, and sacred authority expressed at street scale becomes a street-level system.",
+      "visualIdentity": "Religious / Temple Quarter identity rendered through procession steps, votive lamps, ritual banners, sacred thresholds, Limestone Blocks, Bamboo, Obsidian, Green Marble, and Woven Reed, local crowds, and the visible approach to Temple Platform.",
+      "emotionalIdentity": "reverent, processional, and symbolically charged",
+      "gameplayAssetNeeds": [
+        "Temple Platform",
+        "Religious / Temple Quarter Civic Hall",
+        "Religious Temple Quarter Lantern Monument",
+        "Procession Stair Nook",
+        "Religious / Temple Quarter street props",
+        "serpentine reptilian folk civilians using the district",
+        "clear board-readable pathing and gathering space"
+      ],
+      "narrativeUse": [
+        "stage religious / temple quarter scenes without needing to reopen concept art",
+        "show how ordinary citizens react to public pressure",
+        "give characters a concrete approach, obstacle, or meeting point",
+        "translate citywide crisis into district-scale behavior",
+        "support diorama generation with landmark-specific props"
+      ],
+      "primaryLandmark": "Temple Platform",
+      "minorLandmarks": [
+        "Religious / Temple Quarter Civic Hall",
+        "Religious Temple Quarter Lantern Monument",
+        "Procession Stair Nook"
+      ]
+    },
+    {
+      "districtNumber": 16,
+      "districtCode": "D16",
+      "sectionNumber": 4,
+      "sectionName": "Artisan Guilds",
+      "name": "Artisan Guilds — Landmark Court",
+      "civicPurpose": "This district handles the local landmark’s visible plaza, vertical silhouette, and immediate public use for Artisan Guilds. In scenes, it should show how craft production, apprenticeship, tools, public making, and reputation earned through visible skill becomes a street-level system.",
+      "visualIdentity": "Artisan Guilds identity rendered through workbenches, tool racks, apprentice yards, displayed masterworks, Limestone Blocks, Bamboo, Obsidian, Green Marble, and Woven Reed, local crowds, and the visible approach to Guildhall.",
+      "emotionalIdentity": "busy, tactile, skilled, and reputation-driven",
+      "gameplayAssetNeeds": [
+        "Guildhall",
+        "Artisan Guilds Civic Hall",
+        "Woven Banners Monument",
+        "Masterwork Arcade Nook",
+        "Artisan Guilds street props",
+        "serpentine reptilian folk civilians using the district",
+        "clear board-readable pathing and gathering space"
+      ],
+      "narrativeUse": [
+        "stage artisan guilds scenes without needing to reopen concept art",
+        "show how ordinary citizens react to public pressure",
+        "give characters a concrete approach, obstacle, or meeting point",
+        "translate citywide crisis into district-scale behavior",
+        "support diorama generation with landmark-specific props"
+      ],
+      "primaryLandmark": "Guildhall",
+      "minorLandmarks": [
+        "Artisan Guilds Civic Hall",
+        "Woven Banners Monument",
+        "Masterwork Arcade Nook"
+      ]
+    },
+    {
+      "districtNumber": 17,
+      "districtCode": "D17",
+      "sectionNumber": 4,
+      "sectionName": "Artisan Guilds",
+      "name": "Artisan Guilds — Monument Plaza",
+      "civicPurpose": "This district handles ceremony, memory, civic symbolism, and formal gatherings for Artisan Guilds. In scenes, it should show how craft production, apprenticeship, tools, public making, and reputation earned through visible skill becomes a street-level system.",
+      "visualIdentity": "Artisan Guilds identity rendered through workbenches, tool racks, apprentice yards, displayed masterworks, Limestone Blocks, Bamboo, Obsidian, Green Marble, and Woven Reed, local crowds, and the visible approach to Woven Banners Monument.",
+      "emotionalIdentity": "busy, tactile, skilled, and reputation-driven",
+      "gameplayAssetNeeds": [
+        "Woven Banners Monument",
+        "Artisan Guilds Civic Hall",
+        "Guildhall",
+        "Masterwork Arcade Nook",
+        "Artisan Guilds street props",
+        "serpentine reptilian folk civilians using the district",
+        "clear board-readable pathing and gathering space"
+      ],
+      "narrativeUse": [
+        "stage artisan guilds scenes without needing to reopen concept art",
+        "show how ordinary citizens react to public pressure",
+        "give characters a concrete approach, obstacle, or meeting point",
+        "translate citywide crisis into district-scale behavior",
+        "support diorama generation with landmark-specific props"
+      ],
+      "primaryLandmark": "Woven Banners Monument",
+      "minorLandmarks": [
+        "Artisan Guilds Civic Hall",
+        "Guildhall",
+        "Masterwork Arcade Nook"
+      ]
+    },
+    {
+      "districtNumber": 18,
+      "districtCode": "D18",
+      "sectionNumber": 3,
+      "sectionName": "Public Works Authority",
+      "name": "Public Works Authority — Residential / Backstreet Edge",
+      "civicPurpose": "This district handles housing, side lanes, minor courts, and private daily routines for Public Works Authority. In scenes, it should show how municipal repair, permits, route planning, safety inspections, and the visible apparatus of civic competence becomes a street-level system.",
+      "visualIdentity": "Public Works Authority identity rendered through permit boards, survey instruments, repair markers, map tables, Limestone Blocks, Bamboo, Obsidian, Green Marble, and Woven Reed, local crowds, and the visible approach to Survey Hall.",
+      "emotionalIdentity": "measured, competent, and quietly powerful",
+      "gameplayAssetNeeds": [
+        "Survey Hall",
+        "Public Works Authority Hall",
+        "Blue-Lamp Monument",
+        "Permit Yard Nook",
+        "Public Works Authority street props",
+        "serpentine reptilian folk civilians using the district",
+        "clear board-readable pathing and gathering space"
+      ],
+      "narrativeUse": [
+        "stage public works authority scenes without needing to reopen concept art",
+        "show how ordinary citizens react to public pressure",
+        "give characters a concrete approach, obstacle, or meeting point",
+        "translate citywide crisis into district-scale behavior",
+        "support diorama generation with landmark-specific props"
+      ],
+      "primaryLandmark": "Survey Hall",
+      "minorLandmarks": [
+        "Public Works Authority Hall",
+        "Blue-Lamp Monument",
+        "Permit Yard Nook"
+      ]
+    },
+    {
+      "districtNumber": 19,
+      "districtCode": "D19",
+      "sectionNumber": 5,
+      "sectionName": "High Residential",
+      "name": "High Residential — Civic Threshold",
+      "civicPurpose": "This district handles public approach, first contact, notices, and movement control for High Residential. In scenes, it should show how housing, household display, private gardens, social rank, and the quiet continuation of city identity becomes a street-level system.",
+      "visualIdentity": "High Residential identity rendered through garden courts, balcony screens, private gates, salon pavilions, Limestone Blocks, Bamboo, Obsidian, Green Marble, and Woven Reed, local crowds, and the visible approach to High Residential Civic Hall.",
+      "emotionalIdentity": "private, gardened, rank-conscious, and controlled",
+      "gameplayAssetNeeds": [
+        "High Residential Civic Hall",
+        "Manor Court",
+        "Hanging Gardens Monument",
+        "Salon Pavilion Nook",
+        "High Residential street props",
+        "serpentine reptilian folk civilians using the district",
+        "clear board-readable pathing and gathering space"
+      ],
+      "narrativeUse": [
+        "stage high residential scenes without needing to reopen concept art",
+        "show how ordinary citizens react to public pressure",
+        "give characters a concrete approach, obstacle, or meeting point",
+        "translate citywide crisis into district-scale behavior",
+        "support diorama generation with landmark-specific props"
+      ],
+      "primaryLandmark": "High Residential Civic Hall",
+      "minorLandmarks": [
+        "Manor Court",
+        "Hanging Gardens Monument",
+        "Salon Pavilion Nook"
+      ]
+    },
+    {
+      "districtNumber": 20,
+      "districtCode": "D20",
+      "sectionNumber": 5,
+      "sectionName": "High Residential",
+      "name": "High Residential — Landmark Court",
+      "civicPurpose": "This district handles the local landmark’s visible plaza, vertical silhouette, and immediate public use for High Residential. In scenes, it should show how housing, household display, private gardens, social rank, and the quiet continuation of city identity becomes a street-level system.",
+      "visualIdentity": "High Residential identity rendered through garden courts, balcony screens, private gates, salon pavilions, Limestone Blocks, Bamboo, Obsidian, Green Marble, and Woven Reed, local crowds, and the visible approach to Manor Court.",
+      "emotionalIdentity": "private, gardened, rank-conscious, and controlled",
+      "gameplayAssetNeeds": [
+        "Manor Court",
+        "High Residential Civic Hall",
+        "Hanging Gardens Monument",
+        "Salon Pavilion Nook",
+        "High Residential street props",
+        "serpentine reptilian folk civilians using the district",
+        "clear board-readable pathing and gathering space"
+      ],
+      "narrativeUse": [
+        "stage high residential scenes without needing to reopen concept art",
+        "show how ordinary citizens react to public pressure",
+        "give characters a concrete approach, obstacle, or meeting point",
+        "translate citywide crisis into district-scale behavior",
+        "support diorama generation with landmark-specific props"
+      ],
+      "primaryLandmark": "Manor Court",
+      "minorLandmarks": [
+        "High Residential Civic Hall",
+        "Hanging Gardens Monument",
+        "Salon Pavilion Nook"
+      ]
+    },
+    {
+      "districtNumber": 21,
+      "districtCode": "D21",
+      "sectionNumber": 4,
+      "sectionName": "Artisan Guilds",
+      "name": "Artisan Guilds — Service Arcade",
+      "civicPurpose": "This district handles small shops, workers, storage, and everyday support around the section for Artisan Guilds. In scenes, it should show how craft production, apprenticeship, tools, public making, and reputation earned through visible skill becomes a street-level system.",
+      "visualIdentity": "Artisan Guilds identity rendered through workbenches, tool racks, apprentice yards, displayed masterworks, Limestone Blocks, Bamboo, Obsidian, Green Marble, and Woven Reed, local crowds, and the visible approach to Masterwork Arcade Nook.",
+      "emotionalIdentity": "busy, tactile, skilled, and reputation-driven",
+      "gameplayAssetNeeds": [
+        "Masterwork Arcade Nook",
+        "Artisan Guilds Civic Hall",
+        "Guildhall",
+        "Woven Banners Monument",
+        "Artisan Guilds street props",
+        "serpentine reptilian folk civilians using the district",
+        "clear board-readable pathing and gathering space"
+      ],
+      "narrativeUse": [
+        "stage artisan guilds scenes without needing to reopen concept art",
+        "show how ordinary citizens react to public pressure",
+        "give characters a concrete approach, obstacle, or meeting point",
+        "translate citywide crisis into district-scale behavior",
+        "support diorama generation with landmark-specific props"
+      ],
+      "primaryLandmark": "Masterwork Arcade Nook",
+      "minorLandmarks": [
+        "Artisan Guilds Civic Hall",
+        "Guildhall",
+        "Woven Banners Monument"
+      ]
+    },
+    {
+      "districtNumber": 22,
+      "districtCode": "D22",
+      "sectionNumber": 4,
+      "sectionName": "Artisan Guilds",
+      "name": "Artisan Guilds — Residential / Backstreet Edge",
+      "civicPurpose": "This district handles housing, side lanes, minor courts, and private daily routines for Artisan Guilds. In scenes, it should show how craft production, apprenticeship, tools, public making, and reputation earned through visible skill becomes a street-level system.",
+      "visualIdentity": "Artisan Guilds identity rendered through workbenches, tool racks, apprentice yards, displayed masterworks, Limestone Blocks, Bamboo, Obsidian, Green Marble, and Woven Reed, local crowds, and the visible approach to Guildhall.",
+      "emotionalIdentity": "busy, tactile, skilled, and reputation-driven",
+      "gameplayAssetNeeds": [
+        "Guildhall",
+        "Artisan Guilds Civic Hall",
+        "Woven Banners Monument",
+        "Masterwork Arcade Nook",
+        "Artisan Guilds street props",
+        "serpentine reptilian folk civilians using the district",
+        "clear board-readable pathing and gathering space"
+      ],
+      "narrativeUse": [
+        "stage artisan guilds scenes without needing to reopen concept art",
+        "show how ordinary citizens react to public pressure",
+        "give characters a concrete approach, obstacle, or meeting point",
+        "translate citywide crisis into district-scale behavior",
+        "support diorama generation with landmark-specific props"
+      ],
+      "primaryLandmark": "Guildhall",
+      "minorLandmarks": [
+        "Artisan Guilds Civic Hall",
+        "Woven Banners Monument",
+        "Masterwork Arcade Nook"
+      ]
+    },
+    {
+      "districtNumber": 23,
+      "districtCode": "D23",
+      "sectionNumber": 5,
+      "sectionName": "High Residential",
+      "name": "High Residential — Monument Plaza",
+      "civicPurpose": "This district handles ceremony, memory, civic symbolism, and formal gatherings for High Residential. In scenes, it should show how housing, household display, private gardens, social rank, and the quiet continuation of city identity becomes a street-level system.",
+      "visualIdentity": "High Residential identity rendered through garden courts, balcony screens, private gates, salon pavilions, Limestone Blocks, Bamboo, Obsidian, Green Marble, and Woven Reed, local crowds, and the visible approach to Hanging Gardens Monument.",
+      "emotionalIdentity": "private, gardened, rank-conscious, and controlled",
+      "gameplayAssetNeeds": [
+        "Hanging Gardens Monument",
+        "High Residential Civic Hall",
+        "Manor Court",
+        "Salon Pavilion Nook",
+        "High Residential street props",
+        "serpentine reptilian folk civilians using the district",
+        "clear board-readable pathing and gathering space"
+      ],
+      "narrativeUse": [
+        "stage high residential scenes without needing to reopen concept art",
+        "show how ordinary citizens react to public pressure",
+        "give characters a concrete approach, obstacle, or meeting point",
+        "translate citywide crisis into district-scale behavior",
+        "support diorama generation with landmark-specific props"
+      ],
+      "primaryLandmark": "Hanging Gardens Monument",
+      "minorLandmarks": [
+        "High Residential Civic Hall",
+        "Manor Court",
+        "Salon Pavilion Nook"
+      ]
+    },
+    {
+      "districtNumber": 24,
+      "districtCode": "D24",
+      "sectionNumber": 5,
+      "sectionName": "High Residential",
+      "name": "High Residential — Service Arcade",
+      "civicPurpose": "This district handles small shops, workers, storage, and everyday support around the section for High Residential. In scenes, it should show how housing, household display, private gardens, social rank, and the quiet continuation of city identity becomes a street-level system.",
+      "visualIdentity": "High Residential identity rendered through garden courts, balcony screens, private gates, salon pavilions, Limestone Blocks, Bamboo, Obsidian, Green Marble, and Woven Reed, local crowds, and the visible approach to Salon Pavilion Nook.",
+      "emotionalIdentity": "private, gardened, rank-conscious, and controlled",
+      "gameplayAssetNeeds": [
+        "Salon Pavilion Nook",
+        "High Residential Civic Hall",
+        "Manor Court",
+        "Hanging Gardens Monument",
+        "High Residential street props",
+        "serpentine reptilian folk civilians using the district",
+        "clear board-readable pathing and gathering space"
+      ],
+      "narrativeUse": [
+        "stage high residential scenes without needing to reopen concept art",
+        "show how ordinary citizens react to public pressure",
+        "give characters a concrete approach, obstacle, or meeting point",
+        "translate citywide crisis into district-scale behavior",
+        "support diorama generation with landmark-specific props"
+      ],
+      "primaryLandmark": "Salon Pavilion Nook",
+      "minorLandmarks": [
+        "High Residential Civic Hall",
+        "Manor Court",
+        "Hanging Gardens Monument"
+      ]
+    },
+    {
+      "districtNumber": 25,
+      "districtCode": "D25",
+      "sectionNumber": 5,
+      "sectionName": "High Residential",
+      "name": "High Residential — Residential / Backstreet Edge",
+      "civicPurpose": "This district handles housing, side lanes, minor courts, and private daily routines for High Residential. In scenes, it should show how housing, household display, private gardens, social rank, and the quiet continuation of city identity becomes a street-level system.",
+      "visualIdentity": "High Residential identity rendered through garden courts, balcony screens, private gates, salon pavilions, Limestone Blocks, Bamboo, Obsidian, Green Marble, and Woven Reed, local crowds, and the visible approach to Manor Court.",
+      "emotionalIdentity": "private, gardened, rank-conscious, and controlled",
+      "gameplayAssetNeeds": [
+        "Manor Court",
+        "High Residential Civic Hall",
+        "Hanging Gardens Monument",
+        "Salon Pavilion Nook",
+        "High Residential street props",
+        "serpentine reptilian folk civilians using the district",
+        "clear board-readable pathing and gathering space"
+      ],
+      "narrativeUse": [
+        "stage high residential scenes without needing to reopen concept art",
+        "show how ordinary citizens react to public pressure",
+        "give characters a concrete approach, obstacle, or meeting point",
+        "translate citywide crisis into district-scale behavior",
+        "support diorama generation with landmark-specific props"
+      ],
+      "primaryLandmark": "Manor Court",
+      "minorLandmarks": [
+        "High Residential Civic Hall",
+        "Hanging Gardens Monument",
+        "Salon Pavilion Nook"
+      ]
+    }
   ],
   "landmarks": {
-    "wonder": {"name": "Serpent Molting-Mirror Temple of Coiled Stone", "symbolicRole": "Renewal, ancestry, reflection, and coiled civic order made monumental.", "visualRole": "Far skyline temple of coiled stone, mirrored surfaces, green marble, and sacred forest approaches.", "civicRole": "Citywide rites of renewal, reflection, succession, and collective memory.", "narrativeUse": ["molting rite", "public renewal", "ancestor revelation"], "assetUse": ["map wonder", "far skyline anchor"], "sensoryIdentity": ["cool stone", "green light", "ritual hush"], "storyHooks": ["A molting-mirror rite reveals which old skin the city refuses to shed."]},
-    "beacon": {"name": "Sacred Grove Beacon", "symbolicRole": "Public warning rooted in sacred ecology.", "visualRole": "Beacon nested among sacred grove halls, hanging gardens, and living canopy paths.", "civicRole": "Coordinates grove response, temple movement, public works routes, guild notices, and manor warnings.", "narrativeUse": ["Beacon change", "grove warning", "public gathering"], "assetUse": ["S1 centerpiece", "signal marker"], "sensoryIdentity": ["blue-green glow", "leaf hush", "ritual bells"], "storyHooks": ["When the Beacon changes, the grove reacts before the court speaks."]},
-    "seatOfPower": {"name": "Serpent Scale Bands Tide-Seal Citadel", "symbolicRole": "Serpent hierarchy, tide-seal authority, and civic memory banded into law.", "visualRole": "Central citadel with scale-band ornament, green marble, sealed archives, and public terraces.", "civicRole": "Governs grove rights, temple obligations, public works, guild claims, manor petitions, and renewal records.", "narrativeUse": ["registry hearing", "grove dispute", "guild claim"], "assetUse": ["seat-of-power marker"], "sensoryIdentity": ["ink", "cool marble", "reed screens", "sealed wax"], "storyHooks": ["A scale-band record shows who is allowed to renew and who must remain fixed."]},
+    "wonder": {
+      "name": "Serpent Molting-Mirror Temple of Coiled Stone",
+      "symbolicRole": "Serpent Molting-Mirror Temple of Coiled Stone concentrates Ssivareth's civic identity into a usable public symbol.",
+      "visualRole": "A one-per-city wonder: spectacular, unmistakable, and larger than every section landmark; visually it should read through the city's serpentine reptilian folk material language.",
+      "civicRole": "Serves as a wonder for public orientation, authority, gathering, and district-scale navigation.",
+      "narrativeUse": [
+        "anchor scenes where Ssivareth's institutions become visible rather than abstract",
+        "stage public warnings, petitions, disputes, arrivals, or ceremonies",
+        "give characters a concrete place to read power, memory, labor, or obligation",
+        "provide a recognizable return point across chapters and map scenes"
+      ],
+      "assetUse": [
+        "district diorama centerpiece",
+        "map background landmark marker",
+        "board-readable silhouette and navigation cue",
+        "repeatable visual anchor for future city art"
+      ],
+      "sensoryIdentity": [
+        "public foot traffic",
+        "local material textures",
+        "civic lamps or signal light",
+        "voices gathering around its approach",
+        "weather and city smell caught on its surfaces"
+      ],
+      "storyHooks": [
+        "a public decision at Serpent Molting-Mirror Temple of Coiled Stone changes how the section moves",
+        "an old inscription, ledger, seal, or ceremonial object at Serpent Molting-Mirror Temple of Coiled Stone reveals a civic contradiction",
+        "crowd behavior around Serpent Molting-Mirror Temple of Coiled Stone shows whether the city trusts its own institutions"
+      ]
+    },
+    "beacon": {
+      "name": "Sacred Grove Beacon",
+      "symbolicRole": "Sacred Grove Beacon concentrates Ssivareth's civic identity into a usable public symbol. It carries Section 1's Nature Preserve / Sacred Grove identity.",
+      "visualRole": "A largest local landmark in this section, subordinate only to the city wonder and citadel; visually it should read through the city's serpentine reptilian folk material language.",
+      "civicRole": "Serves as a beacon for public orientation, authority, gathering, and district-scale navigation.",
+      "narrativeUse": [
+        "anchor scenes where Ssivareth's institutions become visible rather than abstract",
+        "stage public warnings, petitions, disputes, arrivals, or ceremonies",
+        "give characters a concrete place to read power, memory, labor, or obligation",
+        "provide a recognizable return point across chapters and map scenes"
+      ],
+      "assetUse": [
+        "district diorama centerpiece",
+        "map background landmark marker",
+        "board-readable silhouette and navigation cue",
+        "repeatable visual anchor for future city art"
+      ],
+      "sensoryIdentity": [
+        "public foot traffic",
+        "local material textures",
+        "civic lamps or signal light",
+        "voices gathering around its approach",
+        "weather and city smell caught on its surfaces"
+      ],
+      "storyHooks": [
+        "a public decision at Sacred Grove Beacon changes how the section moves",
+        "an old inscription, ledger, seal, or ceremonial object at Sacred Grove Beacon reveals a civic contradiction",
+        "crowd behavior around Sacred Grove Beacon shows whether the city trusts its own institutions"
+      ]
+    },
+    "seatOfPower": {
+      "name": "Serpent Scale Bands Tide-Seal Citadel",
+      "symbolicRole": "Serpent Scale Bands Tide-Seal Citadel concentrates Ssivareth's civic identity into a usable public symbol.",
+      "visualRole": "The district-13 seat of power: courts, audience terraces, sealed archives, command platforms, and the visible apparatus of government; visually it should read through the city's serpentine reptilian folk material language.",
+      "civicRole": "Serves as a seat of power for public orientation, authority, gathering, and district-scale navigation.",
+      "narrativeUse": [
+        "anchor scenes where Ssivareth's institutions become visible rather than abstract",
+        "stage public warnings, petitions, disputes, arrivals, or ceremonies",
+        "give characters a concrete place to read power, memory, labor, or obligation",
+        "provide a recognizable return point across chapters and map scenes"
+      ],
+      "assetUse": [
+        "district diorama centerpiece",
+        "map background landmark marker",
+        "board-readable silhouette and navigation cue",
+        "repeatable visual anchor for future city art"
+      ],
+      "sensoryIdentity": [
+        "public foot traffic",
+        "local material textures",
+        "civic lamps or signal light",
+        "voices gathering around its approach",
+        "weather and city smell caught on its surfaces"
+      ],
+      "storyHooks": [
+        "a public decision at Serpent Scale Bands Tide-Seal Citadel changes how the section moves",
+        "an old inscription, ledger, seal, or ceremonial object at Serpent Scale Bands Tide-Seal Citadel reveals a civic contradiction",
+        "crowd behavior around Serpent Scale Bands Tide-Seal Citadel shows whether the city trusts its own institutions"
+      ],
+      "districtNumber": 13
+    },
     "majorLandmarks": [
-      {"name": "Temple Platform", "symbolicRole": "Ritual renewal made public.", "visualRole": "Temple platform with lantern monument, procession stair, and coiled ceremonial geometry.", "civicRole": "Processions, ceremonies, and temple authority.", "narrativeUse": ["procession", "ritual test"], "assetUse": ["S2 diorama"], "sensoryIdentity": ["incense", "stone", "soft bells"], "storyHooks": ["A procession stops at the stair that should have stayed empty."]},
-      {"name": "Survey Hall", "symbolicRole": "Forest order measured rather than guessed.", "visualRole": "Survey hall with blue lamp, permit yard, maps, and root-network paths.", "civicRole": "Public works, permits, and route control.", "narrativeUse": ["survey clue", "permit conflict"], "assetUse": ["S3 diorama"], "sensoryIdentity": ["maps", "wet roots", "lamp glass"], "storyHooks": ["A permit yard map reveals a root path older than the city’s law."]},
-      {"name": "Guildhall", "symbolicRole": "Craft as social legitimacy.", "visualRole": "Guildhall with woven banners, masterwork arcade, and forest-civic work courts.", "civicRole": "Guild authority, craft certification, and public making.", "narrativeUse": ["craft proof", "guild rivalry"], "assetUse": ["S4 diorama"], "sensoryIdentity": ["tool taps", "reed cloth", "polished stone"], "storyHooks": ["A masterwork exposes the shape of a hidden oath."]},
-      {"name": "Manor Court", "symbolicRole": "Status curated as gardened power.", "visualRole": "Manor court with hanging gardens, salon pavilion, and controlled access paths.", "civicRole": "Elite hospitality, patronage, and high-house negotiation.", "narrativeUse": ["salon intrigue", "class pressure"], "assetUse": ["S5 diorama"], "sensoryIdentity": ["garden water", "silk", "low voices"], "storyHooks": ["A salon invitation becomes more binding than a court order."]}
+      {
+        "name": "Nature Preserve / Sacred Grove Civic Hall",
+        "symbolicRole": "Nature Preserve / Sacred Grove Civic Hall concentrates Ssivareth's civic identity into a usable public symbol. It carries Section 1's Nature Preserve / Sacred Grove identity.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing; visually it should read through the city's serpentine reptilian folk material language.",
+        "civicRole": "Serves as a civic center for public orientation, authority, gathering, and district-scale navigation.",
+        "narrativeUse": [
+          "anchor scenes where Ssivareth's institutions become visible rather than abstract",
+          "stage public warnings, petitions, disputes, arrivals, or ceremonies",
+          "give characters a concrete place to read power, memory, labor, or obligation",
+          "provide a recognizable return point across chapters and map scenes"
+        ],
+        "assetUse": [
+          "district diorama centerpiece",
+          "map background landmark marker",
+          "board-readable silhouette and navigation cue",
+          "repeatable visual anchor for future city art"
+        ],
+        "sensoryIdentity": [
+          "public foot traffic",
+          "local material textures",
+          "civic lamps or signal light",
+          "voices gathering around its approach",
+          "weather and city smell caught on its surfaces"
+        ],
+        "storyHooks": [
+          "a public decision at Nature Preserve / Sacred Grove Civic Hall changes how the section moves",
+          "an old inscription, ledger, seal, or ceremonial object at Nature Preserve / Sacred Grove Civic Hall reveals a civic contradiction",
+          "crowd behavior around Nature Preserve / Sacred Grove Civic Hall shows whether the city trusts its own institutions"
+        ]
+      },
+      {
+        "name": "Hanging Gardens Monument",
+        "symbolicRole": "Hanging Gardens Monument concentrates Ssivareth's civic identity into a usable public symbol. It carries Section 1's Nature Preserve / Sacred Grove identity.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles; visually it should read through the city's serpentine reptilian folk material language.",
+        "civicRole": "Serves as a monument for public orientation, authority, gathering, and district-scale navigation.",
+        "narrativeUse": [
+          "anchor scenes where Ssivareth's institutions become visible rather than abstract",
+          "stage public warnings, petitions, disputes, arrivals, or ceremonies",
+          "give characters a concrete place to read power, memory, labor, or obligation",
+          "provide a recognizable return point across chapters and map scenes"
+        ],
+        "assetUse": [
+          "district diorama centerpiece",
+          "map background landmark marker",
+          "board-readable silhouette and navigation cue",
+          "repeatable visual anchor for future city art"
+        ],
+        "sensoryIdentity": [
+          "public foot traffic",
+          "local material textures",
+          "civic lamps or signal light",
+          "voices gathering around its approach",
+          "weather and city smell caught on its surfaces"
+        ],
+        "storyHooks": [
+          "a public decision at Hanging Gardens Monument changes how the section moves",
+          "an old inscription, ledger, seal, or ceremonial object at Hanging Gardens Monument reveals a civic contradiction",
+          "crowd behavior around Hanging Gardens Monument shows whether the city trusts its own institutions"
+        ]
+      },
+      {
+        "name": "Living Canopy Hall Nook",
+        "symbolicRole": "Living Canopy Hall Nook concentrates Ssivareth's civic identity into a usable public symbol. It carries Section 1's Nature Preserve / Sacred Grove identity.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette; visually it should read through the city's serpentine reptilian folk material language.",
+        "civicRole": "Serves as a minor landmark for public orientation, authority, gathering, and district-scale navigation.",
+        "narrativeUse": [
+          "anchor scenes where Ssivareth's institutions become visible rather than abstract",
+          "stage public warnings, petitions, disputes, arrivals, or ceremonies",
+          "give characters a concrete place to read power, memory, labor, or obligation",
+          "provide a recognizable return point across chapters and map scenes"
+        ],
+        "assetUse": [
+          "district diorama centerpiece",
+          "map background landmark marker",
+          "board-readable silhouette and navigation cue",
+          "repeatable visual anchor for future city art"
+        ],
+        "sensoryIdentity": [
+          "public foot traffic",
+          "local material textures",
+          "civic lamps or signal light",
+          "voices gathering around its approach",
+          "weather and city smell caught on its surfaces"
+        ],
+        "storyHooks": [
+          "a public decision at Living Canopy Hall Nook changes how the section moves",
+          "an old inscription, ledger, seal, or ceremonial object at Living Canopy Hall Nook reveals a civic contradiction",
+          "crowd behavior around Living Canopy Hall Nook shows whether the city trusts its own institutions"
+        ]
+      },
+      {
+        "name": "Religious / Temple Quarter Civic Hall",
+        "symbolicRole": "Religious / Temple Quarter Civic Hall concentrates Ssivareth's civic identity into a usable public symbol. It carries Section 2's Religious / Temple Quarter identity.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing; visually it should read through the city's serpentine reptilian folk material language.",
+        "civicRole": "Serves as a civic center for public orientation, authority, gathering, and district-scale navigation.",
+        "narrativeUse": [
+          "anchor scenes where Ssivareth's institutions become visible rather than abstract",
+          "stage public warnings, petitions, disputes, arrivals, or ceremonies",
+          "give characters a concrete place to read power, memory, labor, or obligation",
+          "provide a recognizable return point across chapters and map scenes"
+        ],
+        "assetUse": [
+          "district diorama centerpiece",
+          "map background landmark marker",
+          "board-readable silhouette and navigation cue",
+          "repeatable visual anchor for future city art"
+        ],
+        "sensoryIdentity": [
+          "public foot traffic",
+          "local material textures",
+          "civic lamps or signal light",
+          "voices gathering around its approach",
+          "weather and city smell caught on its surfaces"
+        ],
+        "storyHooks": [
+          "a public decision at Religious / Temple Quarter Civic Hall changes how the section moves",
+          "an old inscription, ledger, seal, or ceremonial object at Religious / Temple Quarter Civic Hall reveals a civic contradiction",
+          "crowd behavior around Religious / Temple Quarter Civic Hall shows whether the city trusts its own institutions"
+        ]
+      },
+      {
+        "name": "Temple Platform",
+        "symbolicRole": "Temple Platform concentrates Ssivareth's civic identity into a usable public symbol. It carries Section 2's Religious / Temple Quarter identity.",
+        "visualRole": "A largest local landmark in this section, subordinate only to the city wonder and citadel; visually it should read through the city's serpentine reptilian folk material language.",
+        "civicRole": "Serves as a major landmark for public orientation, authority, gathering, and district-scale navigation.",
+        "narrativeUse": [
+          "anchor scenes where Ssivareth's institutions become visible rather than abstract",
+          "stage public warnings, petitions, disputes, arrivals, or ceremonies",
+          "give characters a concrete place to read power, memory, labor, or obligation",
+          "provide a recognizable return point across chapters and map scenes"
+        ],
+        "assetUse": [
+          "district diorama centerpiece",
+          "map background landmark marker",
+          "board-readable silhouette and navigation cue",
+          "repeatable visual anchor for future city art"
+        ],
+        "sensoryIdentity": [
+          "public foot traffic",
+          "local material textures",
+          "civic lamps or signal light",
+          "voices gathering around its approach",
+          "weather and city smell caught on its surfaces"
+        ],
+        "storyHooks": [
+          "a public decision at Temple Platform changes how the section moves",
+          "an old inscription, ledger, seal, or ceremonial object at Temple Platform reveals a civic contradiction",
+          "crowd behavior around Temple Platform shows whether the city trusts its own institutions"
+        ]
+      },
+      {
+        "name": "Religious Temple Quarter Lantern Monument",
+        "symbolicRole": "Religious Temple Quarter Lantern Monument concentrates Ssivareth's civic identity into a usable public symbol. It carries Section 2's Religious / Temple Quarter identity.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles; visually it should read through the city's serpentine reptilian folk material language.",
+        "civicRole": "Serves as a monument for public orientation, authority, gathering, and district-scale navigation.",
+        "narrativeUse": [
+          "anchor scenes where Ssivareth's institutions become visible rather than abstract",
+          "stage public warnings, petitions, disputes, arrivals, or ceremonies",
+          "give characters a concrete place to read power, memory, labor, or obligation",
+          "provide a recognizable return point across chapters and map scenes"
+        ],
+        "assetUse": [
+          "district diorama centerpiece",
+          "map background landmark marker",
+          "board-readable silhouette and navigation cue",
+          "repeatable visual anchor for future city art"
+        ],
+        "sensoryIdentity": [
+          "public foot traffic",
+          "local material textures",
+          "civic lamps or signal light",
+          "voices gathering around its approach",
+          "weather and city smell caught on its surfaces"
+        ],
+        "storyHooks": [
+          "a public decision at Religious Temple Quarter Lantern Monument changes how the section moves",
+          "an old inscription, ledger, seal, or ceremonial object at Religious Temple Quarter Lantern Monument reveals a civic contradiction",
+          "crowd behavior around Religious Temple Quarter Lantern Monument shows whether the city trusts its own institutions"
+        ]
+      },
+      {
+        "name": "Procession Stair Nook",
+        "symbolicRole": "Procession Stair Nook concentrates Ssivareth's civic identity into a usable public symbol. It carries Section 2's Religious / Temple Quarter identity.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette; visually it should read through the city's serpentine reptilian folk material language.",
+        "civicRole": "Serves as a minor landmark for public orientation, authority, gathering, and district-scale navigation.",
+        "narrativeUse": [
+          "anchor scenes where Ssivareth's institutions become visible rather than abstract",
+          "stage public warnings, petitions, disputes, arrivals, or ceremonies",
+          "give characters a concrete place to read power, memory, labor, or obligation",
+          "provide a recognizable return point across chapters and map scenes"
+        ],
+        "assetUse": [
+          "district diorama centerpiece",
+          "map background landmark marker",
+          "board-readable silhouette and navigation cue",
+          "repeatable visual anchor for future city art"
+        ],
+        "sensoryIdentity": [
+          "public foot traffic",
+          "local material textures",
+          "civic lamps or signal light",
+          "voices gathering around its approach",
+          "weather and city smell caught on its surfaces"
+        ],
+        "storyHooks": [
+          "a public decision at Procession Stair Nook changes how the section moves",
+          "an old inscription, ledger, seal, or ceremonial object at Procession Stair Nook reveals a civic contradiction",
+          "crowd behavior around Procession Stair Nook shows whether the city trusts its own institutions"
+        ]
+      },
+      {
+        "name": "Public Works Authority Hall",
+        "symbolicRole": "Public Works Authority Hall concentrates Ssivareth's civic identity into a usable public symbol. It carries Section 3's Public Works Authority identity.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing; visually it should read through the city's serpentine reptilian folk material language.",
+        "civicRole": "Serves as a civic center for public orientation, authority, gathering, and district-scale navigation.",
+        "narrativeUse": [
+          "anchor scenes where Ssivareth's institutions become visible rather than abstract",
+          "stage public warnings, petitions, disputes, arrivals, or ceremonies",
+          "give characters a concrete place to read power, memory, labor, or obligation",
+          "provide a recognizable return point across chapters and map scenes"
+        ],
+        "assetUse": [
+          "district diorama centerpiece",
+          "map background landmark marker",
+          "board-readable silhouette and navigation cue",
+          "repeatable visual anchor for future city art"
+        ],
+        "sensoryIdentity": [
+          "public foot traffic",
+          "local material textures",
+          "civic lamps or signal light",
+          "voices gathering around its approach",
+          "weather and city smell caught on its surfaces"
+        ],
+        "storyHooks": [
+          "a public decision at Public Works Authority Hall changes how the section moves",
+          "an old inscription, ledger, seal, or ceremonial object at Public Works Authority Hall reveals a civic contradiction",
+          "crowd behavior around Public Works Authority Hall shows whether the city trusts its own institutions"
+        ]
+      },
+      {
+        "name": "Survey Hall",
+        "symbolicRole": "Survey Hall concentrates Ssivareth's civic identity into a usable public symbol. It carries Section 3's Public Works Authority identity.",
+        "visualRole": "A mandatory Section 3 Beacon: a culturally adapted civic signal flame / warning-light landmark visible across the city spine; visually it should read through the city's serpentine reptilian folk material language.",
+        "civicRole": "Serves as a major landmark for public orientation, authority, gathering, and district-scale navigation.",
+        "narrativeUse": [
+          "anchor scenes where Ssivareth's institutions become visible rather than abstract",
+          "stage public warnings, petitions, disputes, arrivals, or ceremonies",
+          "give characters a concrete place to read power, memory, labor, or obligation",
+          "provide a recognizable return point across chapters and map scenes"
+        ],
+        "assetUse": [
+          "district diorama centerpiece",
+          "map background landmark marker",
+          "board-readable silhouette and navigation cue",
+          "repeatable visual anchor for future city art"
+        ],
+        "sensoryIdentity": [
+          "public foot traffic",
+          "local material textures",
+          "civic lamps or signal light",
+          "voices gathering around its approach",
+          "weather and city smell caught on its surfaces"
+        ],
+        "storyHooks": [
+          "a public decision at Survey Hall changes how the section moves",
+          "an old inscription, ledger, seal, or ceremonial object at Survey Hall reveals a civic contradiction",
+          "crowd behavior around Survey Hall shows whether the city trusts its own institutions"
+        ]
+      },
+      {
+        "name": "Blue-Lamp Monument",
+        "symbolicRole": "Blue-Lamp Monument concentrates Ssivareth's civic identity into a usable public symbol. It carries Section 3's Public Works Authority identity.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles; visually it should read through the city's serpentine reptilian folk material language.",
+        "civicRole": "Serves as a monument for public orientation, authority, gathering, and district-scale navigation.",
+        "narrativeUse": [
+          "anchor scenes where Ssivareth's institutions become visible rather than abstract",
+          "stage public warnings, petitions, disputes, arrivals, or ceremonies",
+          "give characters a concrete place to read power, memory, labor, or obligation",
+          "provide a recognizable return point across chapters and map scenes"
+        ],
+        "assetUse": [
+          "district diorama centerpiece",
+          "map background landmark marker",
+          "board-readable silhouette and navigation cue",
+          "repeatable visual anchor for future city art"
+        ],
+        "sensoryIdentity": [
+          "public foot traffic",
+          "local material textures",
+          "civic lamps or signal light",
+          "voices gathering around its approach",
+          "weather and city smell caught on its surfaces"
+        ],
+        "storyHooks": [
+          "a public decision at Blue-Lamp Monument changes how the section moves",
+          "an old inscription, ledger, seal, or ceremonial object at Blue-Lamp Monument reveals a civic contradiction",
+          "crowd behavior around Blue-Lamp Monument shows whether the city trusts its own institutions"
+        ]
+      },
+      {
+        "name": "Permit Yard Nook",
+        "symbolicRole": "Permit Yard Nook concentrates Ssivareth's civic identity into a usable public symbol. It carries Section 3's Public Works Authority identity.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette; visually it should read through the city's serpentine reptilian folk material language.",
+        "civicRole": "Serves as a minor landmark for public orientation, authority, gathering, and district-scale navigation.",
+        "narrativeUse": [
+          "anchor scenes where Ssivareth's institutions become visible rather than abstract",
+          "stage public warnings, petitions, disputes, arrivals, or ceremonies",
+          "give characters a concrete place to read power, memory, labor, or obligation",
+          "provide a recognizable return point across chapters and map scenes"
+        ],
+        "assetUse": [
+          "district diorama centerpiece",
+          "map background landmark marker",
+          "board-readable silhouette and navigation cue",
+          "repeatable visual anchor for future city art"
+        ],
+        "sensoryIdentity": [
+          "public foot traffic",
+          "local material textures",
+          "civic lamps or signal light",
+          "voices gathering around its approach",
+          "weather and city smell caught on its surfaces"
+        ],
+        "storyHooks": [
+          "a public decision at Permit Yard Nook changes how the section moves",
+          "an old inscription, ledger, seal, or ceremonial object at Permit Yard Nook reveals a civic contradiction",
+          "crowd behavior around Permit Yard Nook shows whether the city trusts its own institutions"
+        ]
+      },
+      {
+        "name": "Artisan Guilds Civic Hall",
+        "symbolicRole": "Artisan Guilds Civic Hall concentrates Ssivareth's civic identity into a usable public symbol. It carries Section 4's Artisan Guilds identity.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing; visually it should read through the city's serpentine reptilian folk material language.",
+        "civicRole": "Serves as a civic center for public orientation, authority, gathering, and district-scale navigation.",
+        "narrativeUse": [
+          "anchor scenes where Ssivareth's institutions become visible rather than abstract",
+          "stage public warnings, petitions, disputes, arrivals, or ceremonies",
+          "give characters a concrete place to read power, memory, labor, or obligation",
+          "provide a recognizable return point across chapters and map scenes"
+        ],
+        "assetUse": [
+          "district diorama centerpiece",
+          "map background landmark marker",
+          "board-readable silhouette and navigation cue",
+          "repeatable visual anchor for future city art"
+        ],
+        "sensoryIdentity": [
+          "public foot traffic",
+          "local material textures",
+          "civic lamps or signal light",
+          "voices gathering around its approach",
+          "weather and city smell caught on its surfaces"
+        ],
+        "storyHooks": [
+          "a public decision at Artisan Guilds Civic Hall changes how the section moves",
+          "an old inscription, ledger, seal, or ceremonial object at Artisan Guilds Civic Hall reveals a civic contradiction",
+          "crowd behavior around Artisan Guilds Civic Hall shows whether the city trusts its own institutions"
+        ]
+      },
+      {
+        "name": "Guildhall",
+        "symbolicRole": "Guildhall concentrates Ssivareth's civic identity into a usable public symbol. It carries Section 4's Artisan Guilds identity.",
+        "visualRole": "A largest local landmark in this section, subordinate only to the city wonder and citadel; visually it should read through the city's serpentine reptilian folk material language.",
+        "civicRole": "Serves as a major landmark for public orientation, authority, gathering, and district-scale navigation.",
+        "narrativeUse": [
+          "anchor scenes where Ssivareth's institutions become visible rather than abstract",
+          "stage public warnings, petitions, disputes, arrivals, or ceremonies",
+          "give characters a concrete place to read power, memory, labor, or obligation",
+          "provide a recognizable return point across chapters and map scenes"
+        ],
+        "assetUse": [
+          "district diorama centerpiece",
+          "map background landmark marker",
+          "board-readable silhouette and navigation cue",
+          "repeatable visual anchor for future city art"
+        ],
+        "sensoryIdentity": [
+          "public foot traffic",
+          "local material textures",
+          "civic lamps or signal light",
+          "voices gathering around its approach",
+          "weather and city smell caught on its surfaces"
+        ],
+        "storyHooks": [
+          "a public decision at Guildhall changes how the section moves",
+          "an old inscription, ledger, seal, or ceremonial object at Guildhall reveals a civic contradiction",
+          "crowd behavior around Guildhall shows whether the city trusts its own institutions"
+        ]
+      },
+      {
+        "name": "Woven Banners Monument",
+        "symbolicRole": "Woven Banners Monument concentrates Ssivareth's civic identity into a usable public symbol. It carries Section 4's Artisan Guilds identity.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles; visually it should read through the city's serpentine reptilian folk material language.",
+        "civicRole": "Serves as a monument for public orientation, authority, gathering, and district-scale navigation.",
+        "narrativeUse": [
+          "anchor scenes where Ssivareth's institutions become visible rather than abstract",
+          "stage public warnings, petitions, disputes, arrivals, or ceremonies",
+          "give characters a concrete place to read power, memory, labor, or obligation",
+          "provide a recognizable return point across chapters and map scenes"
+        ],
+        "assetUse": [
+          "district diorama centerpiece",
+          "map background landmark marker",
+          "board-readable silhouette and navigation cue",
+          "repeatable visual anchor for future city art"
+        ],
+        "sensoryIdentity": [
+          "public foot traffic",
+          "local material textures",
+          "civic lamps or signal light",
+          "voices gathering around its approach",
+          "weather and city smell caught on its surfaces"
+        ],
+        "storyHooks": [
+          "a public decision at Woven Banners Monument changes how the section moves",
+          "an old inscription, ledger, seal, or ceremonial object at Woven Banners Monument reveals a civic contradiction",
+          "crowd behavior around Woven Banners Monument shows whether the city trusts its own institutions"
+        ]
+      },
+      {
+        "name": "Masterwork Arcade Nook",
+        "symbolicRole": "Masterwork Arcade Nook concentrates Ssivareth's civic identity into a usable public symbol. It carries Section 4's Artisan Guilds identity.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette; visually it should read through the city's serpentine reptilian folk material language.",
+        "civicRole": "Serves as a minor landmark for public orientation, authority, gathering, and district-scale navigation.",
+        "narrativeUse": [
+          "anchor scenes where Ssivareth's institutions become visible rather than abstract",
+          "stage public warnings, petitions, disputes, arrivals, or ceremonies",
+          "give characters a concrete place to read power, memory, labor, or obligation",
+          "provide a recognizable return point across chapters and map scenes"
+        ],
+        "assetUse": [
+          "district diorama centerpiece",
+          "map background landmark marker",
+          "board-readable silhouette and navigation cue",
+          "repeatable visual anchor for future city art"
+        ],
+        "sensoryIdentity": [
+          "public foot traffic",
+          "local material textures",
+          "civic lamps or signal light",
+          "voices gathering around its approach",
+          "weather and city smell caught on its surfaces"
+        ],
+        "storyHooks": [
+          "a public decision at Masterwork Arcade Nook changes how the section moves",
+          "an old inscription, ledger, seal, or ceremonial object at Masterwork Arcade Nook reveals a civic contradiction",
+          "crowd behavior around Masterwork Arcade Nook shows whether the city trusts its own institutions"
+        ]
+      },
+      {
+        "name": "High Residential Civic Hall",
+        "symbolicRole": "High Residential Civic Hall concentrates Ssivareth's civic identity into a usable public symbol. It carries Section 5's High Residential identity.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing; visually it should read through the city's serpentine reptilian folk material language.",
+        "civicRole": "Serves as a civic center for public orientation, authority, gathering, and district-scale navigation.",
+        "narrativeUse": [
+          "anchor scenes where Ssivareth's institutions become visible rather than abstract",
+          "stage public warnings, petitions, disputes, arrivals, or ceremonies",
+          "give characters a concrete place to read power, memory, labor, or obligation",
+          "provide a recognizable return point across chapters and map scenes"
+        ],
+        "assetUse": [
+          "district diorama centerpiece",
+          "map background landmark marker",
+          "board-readable silhouette and navigation cue",
+          "repeatable visual anchor for future city art"
+        ],
+        "sensoryIdentity": [
+          "public foot traffic",
+          "local material textures",
+          "civic lamps or signal light",
+          "voices gathering around its approach",
+          "weather and city smell caught on its surfaces"
+        ],
+        "storyHooks": [
+          "a public decision at High Residential Civic Hall changes how the section moves",
+          "an old inscription, ledger, seal, or ceremonial object at High Residential Civic Hall reveals a civic contradiction",
+          "crowd behavior around High Residential Civic Hall shows whether the city trusts its own institutions"
+        ]
+      },
+      {
+        "name": "Manor Court",
+        "symbolicRole": "Manor Court concentrates Ssivareth's civic identity into a usable public symbol. It carries Section 5's High Residential identity.",
+        "visualRole": "A largest local landmark in this section, subordinate only to the city wonder and citadel; visually it should read through the city's serpentine reptilian folk material language.",
+        "civicRole": "Serves as a major landmark for public orientation, authority, gathering, and district-scale navigation.",
+        "narrativeUse": [
+          "anchor scenes where Ssivareth's institutions become visible rather than abstract",
+          "stage public warnings, petitions, disputes, arrivals, or ceremonies",
+          "give characters a concrete place to read power, memory, labor, or obligation",
+          "provide a recognizable return point across chapters and map scenes"
+        ],
+        "assetUse": [
+          "district diorama centerpiece",
+          "map background landmark marker",
+          "board-readable silhouette and navigation cue",
+          "repeatable visual anchor for future city art"
+        ],
+        "sensoryIdentity": [
+          "public foot traffic",
+          "local material textures",
+          "civic lamps or signal light",
+          "voices gathering around its approach",
+          "weather and city smell caught on its surfaces"
+        ],
+        "storyHooks": [
+          "a public decision at Manor Court changes how the section moves",
+          "an old inscription, ledger, seal, or ceremonial object at Manor Court reveals a civic contradiction",
+          "crowd behavior around Manor Court shows whether the city trusts its own institutions"
+        ]
+      },
+      {
+        "name": "Salon Pavilion Nook",
+        "symbolicRole": "Salon Pavilion Nook concentrates Ssivareth's civic identity into a usable public symbol. It carries Section 5's High Residential identity.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette; visually it should read through the city's serpentine reptilian folk material language.",
+        "civicRole": "Serves as a minor landmark for public orientation, authority, gathering, and district-scale navigation.",
+        "narrativeUse": [
+          "anchor scenes where Ssivareth's institutions become visible rather than abstract",
+          "stage public warnings, petitions, disputes, arrivals, or ceremonies",
+          "give characters a concrete place to read power, memory, labor, or obligation",
+          "provide a recognizable return point across chapters and map scenes"
+        ],
+        "assetUse": [
+          "district diorama centerpiece",
+          "map background landmark marker",
+          "board-readable silhouette and navigation cue",
+          "repeatable visual anchor for future city art"
+        ],
+        "sensoryIdentity": [
+          "public foot traffic",
+          "local material textures",
+          "civic lamps or signal light",
+          "voices gathering around its approach",
+          "weather and city smell caught on its surfaces"
+        ],
+        "storyHooks": [
+          "a public decision at Salon Pavilion Nook changes how the section moves",
+          "an old inscription, ledger, seal, or ceremonial object at Salon Pavilion Nook reveals a civic contradiction",
+          "crowd behavior around Salon Pavilion Nook shows whether the city trusts its own institutions"
+        ]
+      }
     ]
   },
   "assetGuidance": {
-    "districtDioramaGuidance": ["S1 must show Nature Preserve / Sacred Grove Civic Hall, Sacred Grove Beacon, Hanging Gardens Monument, and Living Canopy Hall Nook.", "S2 must show Religious / Temple Quarter Civic Hall, Temple Platform, Religious Temple Quarter Lantern Monument, and Procession Stair Nook.", "S3 must show Public Works Authority Hall, Survey Hall, Blue-Lamp Monument, and Permit Yard Nook.", "S4 must show Artisan Guilds Civic Hall, Guildhall, Woven Banners Monument, and Masterwork Arcade Nook.", "S5 must show High Residential Civic Hall, Manor Court, Hanging Gardens Monument, and Salon Pavilion Nook."],
-    "mapBackgroundGuidance": ["Keep Serpent Molting-Mirror Temple of Coiled Stone, Sacred Grove Beacon, and Serpent Scale Bands Tide-Seal Citadel legible together.", "Use limestone, bamboo, obsidian, green marble, woven reed, sacred groves, temple platforms, survey halls, guildhalls, manor courts, and coiled-stone geometry."],
-    "requiredVisualElements": ["Serpent Molting-Mirror Temple of Coiled Stone", "Sacred Grove Beacon", "Serpent Scale Bands Tide-Seal Citadel", "Nature Preserve / Sacred Grove Civic Hall", "Hanging Gardens Monument", "Living Canopy Hall Nook", "Temple Platform", "Religious Temple Quarter Lantern Monument", "Procession Stair Nook", "Survey Hall", "Blue-Lamp Monument", "Permit Yard Nook", "Guildhall", "Woven Banners Monument", "Masterwork Arcade Nook", "Manor Court", "Salon Pavilion Nook"],
-    "elementsToAvoid": ["generic serpent jungle", "monster-coded reptile scenery", "wilderness with no public works", "temple-only city", "exact sidecar anchors omitted"]
+    "districtDioramaGuidance": [
+      "S1 dioramas must read as Nature Preserve / Sacred Grove and include source-backed anchors: Nature Preserve / Sacred Grove Civic Hall, Sacred Grove Beacon, Hanging Gardens Monument, Living Canopy Hall Nook.",
+      "S2 dioramas must read as Religious / Temple Quarter and include source-backed anchors: Religious / Temple Quarter Civic Hall, Temple Platform, Religious Temple Quarter Lantern Monument, Procession Stair Nook.",
+      "S3 dioramas must read as Public Works Authority and include source-backed anchors: Public Works Authority Hall, Survey Hall, Blue-Lamp Monument, Permit Yard Nook.",
+      "S4 dioramas must read as Artisan Guilds and include source-backed anchors: Artisan Guilds Civic Hall, Guildhall, Woven Banners Monument, Masterwork Arcade Nook.",
+      "S5 dioramas must read as High Residential and include source-backed anchors: High Residential Civic Hall, Manor Court, Hanging Gardens Monument, Salon Pavilion Nook."
+    ],
+    "mapBackgroundGuidance": [
+      "Show Ssivareth as a serpentine reptilian folk city shaped by Forest, Root Network, and Old Growth Woodland and dry city ground.",
+      "Keep Serpent Molting-Mirror Temple of Coiled Stone distinct as the skyline wonder, Serpent Scale Bands Tide-Seal Citadel central at D13, and Sacred Grove Beacon legible as the public signal.",
+      "Arrange the map so the five section identities remain readable: Nature Preserve / Sacred Grove, Religious / Temple Quarter, Public Works Authority, Artisan Guilds, and High Residential.",
+      "Do not let generic fantasy rooftops replace the named civic anchors.",
+      "Use paths, plazas, courts, water edges, walls, terraces, or arcades to show how citizens move between sections."
+    ],
+    "requiredVisualElements": [
+      "serpentine reptilian folk civilians",
+      "Serpent Molting-Mirror Temple of Coiled Stone",
+      "Sacred Grove Beacon",
+      "Serpent Scale Bands Tide-Seal Citadel",
+      "Sacred Grove Beacon",
+      "Temple Platform",
+      "Survey Hall",
+      "Guildhall",
+      "Manor Court",
+      "Limestone Blocks",
+      "Bamboo",
+      "Obsidian",
+      "Green Marble",
+      "Woven Reed",
+      "procession steps",
+      "votive lamps",
+      "ritual banners"
+    ],
+    "elementsToAvoid": [
+      "extra top-level schema sections or production notes in the JSON",
+      "generic city views that ignore section identity",
+      "invented landmarks not present in sidecars or established canon",
+      "character-specific details",
+      "labels baked into images",
+      "making the Wonder, Beacon, and Seat interchangeable",
+      "overusing magic effects until practical civic infrastructure disappears"
+    ]
   }
 }

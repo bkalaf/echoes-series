@@ -1,1 +1,1893 @@
-{"metadata":{"schemaVersion":"2.0","analysisVersion":2,"cityCode":"MOO","cityName":"Moonhollow","analysisConfidence":"strong-lock"},"sourceModel":"5 section sidecars; 25 board district slots inherit section anchors.","boardStructure":{"model":"25-seat map","seatOfPowerDistrict":"D13","sections":[{"sectionNumber":1,"districts":["D01","D02","D03","D06","D07"]},{"sectionNumber":2,"districts":["D04","D05","D09","D10","D15"]},{"sectionNumber":3,"districts":["D08","D12","D13","D14","D18"]},{"sectionNumber":4,"districts":["D11","D16","D17","D21","D22"]},{"sectionNumber":5,"districts":["D19","D20","D23","D24","D25"]}],"note":"Each section contains five district slots. This analysis keeps all 25 slots explicit while preserving only source-backed section-level landmark names."},"sections":[{"n":1,"name":"Agricultural Terraces"},{"n":2,"name":"Granary / Food Market"},{"n":3,"name":"Civic Services"},{"n":4,"name":"Arena / Training"},{"n":5,"name":"Low Residential"}],"districts":["D01","D02","D03","D04","D05","D06","D07","D08","D09","D10","D11","D12","D13","D14","D15","D16","D17","D18","D19","D20","D21","D22","D23","D24","D25"],"landmarks":{"wonder":"Rabbit Moon-Kitchen Warren of the Jade Mortar","beacon":"Terrace Granary Beacon","seatOfPower":"Moon Phase Windows Sovereign Registry Court"}}
+{
+  "metadata": {
+    "schemaVersion": "2.0",
+    "analysisVersion": 2,
+    "cityCode": "MOO",
+    "cityName": "Moonhollow",
+    "analysisDate": "2026-07-05",
+    "analystVersion": "gpt-5.5-thinking",
+    "analysisConfidence": "strong-lock",
+    "sourceStatus": "full",
+    "districtModel": "five sections; five district slots per section; D13 is the seat of power",
+    "missingStreetSections": [],
+    "basedOnImages": [
+      "MOO-HERO-NE-v001",
+      "MOO-HERO-NW-v001",
+      "MOO-HERO-SE-v001",
+      "MOO-HERO-SW-v001",
+      "MOO-STREET-S1-v001",
+      "MOO-STREET-S2-v001",
+      "MOO-STREET-S3-v001",
+      "MOO-STREET-S4-v001",
+      "MOO-STREET-S5-v001"
+    ],
+    "basedOnSidecars": [
+      "MOO-HERO-NE-v001.json",
+      "MOO-HERO-NW-v001.json",
+      "MOO-HERO-SE-v001.json",
+      "MOO-HERO-SW-v001.json",
+      "MOO-STREET-S1-v001.json",
+      "MOO-STREET-S2-v001.json",
+      "MOO-STREET-S3-v001.json",
+      "MOO-STREET-S4-v001.json",
+      "MOO-STREET-S5-v001.json"
+    ]
+  },
+  "cityDNA": {
+    "coreFantasy": "A rabbit-like beastfolk city where Rabbit Moon-Kitchen Warren of the Jade Mortar, Terrace Granary Beacon, Moon Phase Windows Sovereign Registry Court, and the five-section district spine turn local identity into functional civic space.",
+    "primaryEmotion": "source-backed civic presence",
+    "secondaryEmotion": "lived-in pressure beneath landmark order",
+    "readerTakeaway": "Moonhollow should feel immediately identifiable through exact landmarks and materials, not through generic fantasy-city shorthand.",
+    "civilizationThesis": "Moonhollow organizes power through Moon Phase Windows Sovereign Registry Court, public response through Terrace Granary Beacon, civic memory through Rabbit Moon-Kitchen Warren of the Jade Mortar, and daily life through S1 Agricultural Terraces Civic Hall, S2 Granary / Food Market Civic Hall, S3 Civic Services Hall, S4 Arena / Training Civic Hall, S5 Low Residential Civic Hall.",
+    "visualIdentity": "Chalkstone, Willow, Seashell, Limewash, Woven Reed, Dry Stone Paving, Civic Terraces, Beast Bonding, Ancestor Guidance, Hearth Blessing, and exact anchors including Moon Phase Windows Sovereign Registry Court, Terrace Granary Beacon, Rabbit Moon-Kitchen Warren of the Jade Mortar, Tenement Court, Grain Hall, Training Arena, Agricultural Terraces Civic Hall, Hanging Gardens Monument, Seed Hall Nook, Granary / Food Market Civic Hall.",
+    "culturalIdentity": "A rabbit-like beastfolk civic culture where architecture, public obligations, roads, landmark approaches, and everyday work must all read as part of the same civilization.",
+    "symbolicIdentity": "The city symbol system is built from exact names and visible functions: Rabbit Moon-Kitchen Warren of the Jade Mortar, Terrace Granary Beacon, Moon Phase Windows Sovereign Registry Court, and section anchors such as Agricultural Terraces Civic Hall, Granary / Food Market Civic Hall, Civic Services Hall, Arena / Training Civic Hall, Low Residential Civic Hall."
+  },
+  "canon": {
+    "canonLocks": [
+      "Moonhollow uses city code MOO.",
+      "The Wonder is Rabbit Moon-Kitchen Warren of the Jade Mortar.",
+      "The Beacon is Terrace Granary Beacon.",
+      "The Seat of Power is Moon Phase Windows Sovereign Registry Court and occupies District 13.",
+      "The city uses five sections with five tactical district slots per section.",
+      "The source-backed section spine is: S1 Agricultural Terraces Civic Hall, S2 Granary / Food Market Civic Hall, S3 Civic Services Hall, S4 Arena / Training Civic Hall, S5 Low Residential Civic Hall.",
+      "Preserve exact anchor name: Moon Phase Windows Sovereign Registry Court.",
+      "Preserve exact anchor name: Terrace Granary Beacon.",
+      "Preserve exact anchor name: Rabbit Moon-Kitchen Warren of the Jade Mortar.",
+      "Preserve exact anchor name: Tenement Court.",
+      "Preserve exact anchor name: Grain Hall.",
+      "Preserve exact anchor name: Training Arena.",
+      "Preserve exact anchor name: Agricultural Terraces Civic Hall.",
+      "Preserve exact anchor name: Hanging Gardens Monument.",
+      "Preserve exact anchor name: Seed Hall Nook.",
+      "Preserve exact anchor name: Granary / Food Market Civic Hall.",
+      "Preserve exact anchor name: Awning Monument.",
+      "Preserve exact anchor name: Mill Court Nook.",
+      "Preserve exact anchor name: Civic Services Hall.",
+      "Preserve exact anchor name: Relief Hall.",
+      "Preserve exact anchor name: Civic Services Lantern Monument.",
+      "Preserve exact anchor name: Notice Plaza Nook.",
+      "Preserve exact anchor name: Arena / Training Civic Hall.",
+      "Preserve exact anchor name: Woven Banners Monument.",
+      "Preserve exact anchor name: Champion Gate Nook.",
+      "Preserve exact anchor name: Low Residential Civic Hall.",
+      "Preserve exact anchor name: Low Residential Lantern Monument.",
+      "Preserve exact anchor name: Laundry Well Nook."
+    ],
+    "provisionalCanon": [],
+    "rejectedReads": [
+      "Do not treat Moonhollow as a generic fantasy settlement with renamed landmarks.",
+      "Do not collapse the five-section board into a single mood or single district.",
+      "Do not replace exact anchor names with generic summaries.",
+      "Do not invent missing street-section landmarks when a street source is absent."
+    ],
+    "cautionFlags": [
+      "Keep every named Wonder, Beacon, Seat, section civic hall, major landmark, monument, and minor nook exact when present in sidecars.",
+      "If an image appears to deviate from a sidecar, preserve the exact name but avoid overclaiming visual details not supported by the source package.",
+      "Every district asset should remain usable for narrative scenes, tactical board dioramas, and city map backgrounds."
+    ]
+  },
+  "environment": {
+    "terrain": [
+      "Dry Stone Paving",
+      "Civic Terraces"
+    ],
+    "water": [
+      "dry city ground"
+    ],
+    "vegetation": [
+      "courtyard trees",
+      "balcony planters",
+      "public greenery where visible",
+      "source-backed local vegetation only"
+    ],
+    "climateLighting": [
+      "Beast Bonding",
+      "Ancestor Guidance",
+      "Hearth Blessing",
+      "daylight",
+      "golden hour",
+      "lantern light",
+      "civic beacon glow"
+    ],
+    "environmentalLogic": "The environment should make Moonhollow's exact civic anchors plausible at street scale: terrain routes people toward section landmarks, lighting clarifies public authority, and water or landscape features remain source-backed rather than decorative filler."
+  },
+  "architecture": {
+    "materials": [
+      "Chalkstone",
+      "Willow",
+      "Seashell",
+      "Limewash",
+      "Woven Reed"
+    ],
+    "forms": [
+      "Moon Phase Windows Sovereign Registry Court",
+      "Terrace Granary Beacon",
+      "Rabbit Moon-Kitchen Warren of the Jade Mortar",
+      "Tenement Court",
+      "Grain Hall",
+      "Training Arena",
+      "Agricultural Terraces Civic Hall",
+      "Hanging Gardens Monument",
+      "Seed Hall Nook",
+      "Granary / Food Market Civic Hall",
+      "Awning Monument",
+      "Mill Court Nook",
+      "Civic Services Hall",
+      "Relief Hall",
+      "Civic Services Lantern Monument",
+      "Notice Plaza Nook",
+      "Arena / Training Civic Hall",
+      "Woven Banners Monument",
+      "Champion Gate Nook",
+      "Low Residential Civic Hall",
+      "Low Residential Lantern Monument",
+      "Laundry Well Nook",
+      "section civic halls",
+      "major landmark approaches",
+      "monument frontages",
+      "minor landmark nooks",
+      "district roads and plazas",
+      "D13 authority complex"
+    ],
+    "skyline": [
+      "Rabbit Moon-Kitchen Warren of the Jade Mortar",
+      "Moon Phase Windows Sovereign Registry Court",
+      "Terrace Granary Beacon",
+      "Tenement Court",
+      "Grain Hall",
+      "Training Arena",
+      "Agricultural Terraces Civic Hall",
+      "Hanging Gardens Monument",
+      "Seed Hall Nook"
+    ],
+    "lighting": [
+      "Beast Bonding",
+      "Ancestor Guidance",
+      "Hearth Blessing",
+      "beacon-state light",
+      "lantern-lit civic paths",
+      "street-level shop and housing light"
+    ],
+    "infrastructure": [
+      "Agricultural Terraces Civic Hall",
+      "Granary / Food Market Civic Hall",
+      "Civic Services Hall",
+      "Arena / Training Civic Hall",
+      "Low Residential Civic Hall",
+      "roads between district slots",
+      "public thresholds",
+      "plaza edges",
+      "records, permits, markets, services, or rituals implied by anchors"
+    ],
+    "motifs": [
+      "Moon",
+      "Phase",
+      "Windows",
+      "Sovereign",
+      "Registry",
+      "Court",
+      "Terrace",
+      "Granary",
+      "Beacon",
+      "Rabbit",
+      "Moon-Kitchen",
+      "Warren",
+      "Jade",
+      "Mortar",
+      "Tenement"
+    ],
+    "colorLanguage": [
+      "source-backed material colors",
+      "civic blue signal accents",
+      "local textile, stone, metal, vegetation, or water colors from the image package"
+    ],
+    "textureLanguage": [
+      "Chalkstone",
+      "Willow",
+      "Seashell",
+      "Limewash",
+      "Woven Reed",
+      "worn pedestrian surfaces",
+      "worked civic ornament",
+      "weathered public thresholds",
+      "lived-in shop and housing details"
+    ]
+  },
+  "civilization": {
+    "people": "The population should read as rabbit-like beastfolk and city-specific: citizens occupy streets, shops, public thresholds, and landmark approaches as people who understand the local civic order.",
+    "occupations": [
+      "granary keepers",
+      "field workers",
+      "market sellers",
+      "stall keepers",
+      "watch guards",
+      "gate officers",
+      "district clerks",
+      "craft families",
+      "porters",
+      "maintenance workers",
+      "food sellers",
+      "messengers"
+    ],
+    "socialClasses": [
+      "D13 officials and court staff",
+      "section landmark custodians",
+      "guild and service families",
+      "shopkeepers and artisans",
+      "laborers, carriers, messengers, and maintenance crews",
+      "households tied to local district obligations"
+    ],
+    "governance": "Government is centered on Moon Phase Windows Sovereign Registry Court. Its authority should be visible through courts, records, public access routes, civic lamps, guards or attendants, and the way citizens respond to D13.",
+    "religion": "Religious or ritual life should only be emphasized where source anchors support it, especially names such as none explicitly dominant in the current anchors.",
+    "customs": [
+      "citizens orient public life around Agricultural Terraces Civic Hall in Section 1",
+      "citizens orient public life around Granary / Food Market Civic Hall in Section 2",
+      "citizens orient public life around Civic Services Hall in Section 3",
+      "citizens orient public life around Arena / Training Civic Hall in Section 4",
+      "citizens orient public life around Low Residential Civic Hall in Section 5",
+      "beacon changes become public behavior, not background color",
+      "exact landmark names carry social memory and directions",
+      "civic errands happen visibly at thresholds, queues, ledgers, stalls, courts, or shrines"
+    ],
+    "bodyLanguage": [
+      "citizens pause at civic signals",
+      "workers move with practiced familiarity around district anchors",
+      "officials use thresholds and raised places to control attention",
+      "residents treat named landmarks as everyday orientation points"
+    ],
+    "speechPatterns": [
+      "directions use exact landmark names",
+      "public notices are tied to section anchors",
+      "local speech distinguishes civic authority, ordinary errands, and landmark obligations",
+      "people refer to D13 as the seat of power rather than a faction headquarters"
+    ]
+  },
+  "urbanLife": {
+    "streets": {
+      "appearance": "Streets should show Moonhollow's exact anchor system at pedestrian scale: S1 Agricultural Terraces Civic Hall, S2 Granary / Food Market Civic Hall, S3 Civic Services Hall, S4 Arena / Training Civic Hall, S5 Low Residential Civic Hall. Keep roads, plazas, stairs, thresholds, lamps, signs-without-readable-text, props, and civilians aligned to the source-backed materials and landmarks.",
+      "movement": "Movement should be readable for tactical-board assets: citizens pass between 25 district slots, section anchors, D13, service streets, and landmark approaches without visual clutter hiding the civic purpose.",
+      "sounds": [
+        "foot traffic",
+        "vendors and service calls",
+        "tools and carts",
+        "public notices",
+        "landmark-specific sounds from water, bells, animals, machines, or crowds when source-backed",
+        "beacon-state crowd reactions"
+      ],
+      "smells": [
+        "street food",
+        "worked material dust",
+        "lamp oil or smoke",
+        "vegetation or water where source-backed",
+        "worn stone, timber, metal, plaster, or fabric"
+      ],
+      "lighting": "Use the package's source-backed civic lighting, daylight/golden-hour reads, lanterns, and beacon glow. Lighting must help identify authority, safety, and landmark function.",
+      "weatherEffects": "Weather should reinforce the local terrain and materials without overwhelming the city identity or inventing unsupported climate extremes.",
+      "dayCycle": "Day scenes emphasize errands, trade, records, repairs, rituals, food, and section-level movement.",
+      "nightCycle": "Night scenes emphasize lantern routes, closed thresholds, guarded landmarks, quiet work, and beacon visibility."
+    },
+    "shops": {
+      "common": [
+        "food stalls",
+        "repair stalls",
+        "material vendors",
+        "ledger or permit desks",
+        "local craft counters",
+        "street services tied to section anchors"
+      ],
+      "uncommon": [
+        "specialist landmark caretakers",
+        "instrument makers",
+        "ritual suppliers",
+        "map or record copyists",
+        "district-specific guild services"
+      ],
+      "prestigious": [
+        "D13-facing legal or registry services",
+        "elite craft workshops",
+        "landmark commission houses",
+        "official suppliers for civic ceremonies"
+      ],
+      "exports": [
+        "local crafts",
+        "records or seals",
+        "finished materials",
+        "food goods",
+        "specialized tools or ritual goods as supported by anchors"
+      ],
+      "imports": [
+        "rare materials",
+        "dyes, oils, spices, timber, stone, metal, glass, or cloth as needed by the architecture",
+        "outside records and trade goods"
+      ],
+      "streetFood": [
+        "flatbread or local bread",
+        "stew or grilled skewers",
+        "fruit or preserved food",
+        "tea or civic-square drinks",
+        "portable worker meals"
+      ],
+      "services": [
+        "directions by landmark",
+        "message running",
+        "permit help",
+        "repairs",
+        "food service",
+        "transport or porterage",
+        "public notice posting"
+      ]
+    },
+    "housing": {
+      "wealthy": "Prestige housing clusters near Moon Phase Windows Sovereign Registry Court, high terraces, or landmark-facing routes, using the best source-backed materials and controlled views of civic space.",
+      "middle": "Shop-over-house units, courtyard homes, guild-adjacent apartments, and family rooms near section anchors.",
+      "poor": "Smaller back-street rooms, work-adjacent housing, shared courtyards, service alleys, patched materials, and dense but still city-specific lived-in detail."
+    }
+  },
+  "districts": [
+    {
+      "districtNumber": 1,
+      "districtId": "D01",
+      "sectionNumber": 1,
+      "name": "D01 — Agricultural Terraces Civic Hall Civic-Anchor Precinct",
+      "civicPurpose": "This district turns Section 1's source-backed anchor set into a board-scale civic space: Agricultural Terraces Civic Hall, Terrace Granary Beacon, Hanging Gardens Monument, Seed Hall Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Moonhollow.",
+      "visualIdentity": "Use Agricultural Terraces Civic Hall as the main read. Keep exact source anchors visible where applicable: Agricultural Terraces Civic Hall, Terrace Granary Beacon, Hanging Gardens Monument, Seed Hall Nook. The district should share Moonhollow's rabbit-like beastfolk identity, Chalkstone, Willow, Seashell, Limewash, and Dry Stone Paving, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Locally grounded, with Moonhollow's larger mood shaped by Rabbit Moon-Kitchen Warren of the Jade Mortar, Terrace Granary Beacon, and Moon Phase Windows Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Agricultural Terraces Civic Hall",
+        "Terrace Granary Beacon",
+        "Hanging Gardens Monument",
+        "Seed Hall Nook",
+        "Section 1 pedestrian-scale props",
+        "Moonhollow civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Agricultural Terraces Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Agricultural Terraces Civic Hall",
+      "minorLandmarks": [
+        "Terrace Granary Beacon",
+        "Hanging Gardens Monument",
+        "Seed Hall Nook"
+      ]
+    },
+    {
+      "districtNumber": 2,
+      "districtId": "D02",
+      "sectionNumber": 1,
+      "name": "D02 — Terrace Granary Beacon Landmark Approach",
+      "civicPurpose": "This district turns Section 1's source-backed anchor set into a board-scale civic space: Agricultural Terraces Civic Hall, Terrace Granary Beacon, Hanging Gardens Monument, Seed Hall Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Moonhollow.",
+      "visualIdentity": "Use Terrace Granary Beacon as the main read. Keep exact source anchors visible where applicable: Agricultural Terraces Civic Hall, Terrace Granary Beacon, Hanging Gardens Monument, Seed Hall Nook. The district should share Moonhollow's rabbit-like beastfolk identity, Chalkstone, Willow, Seashell, Limewash, and Dry Stone Paving, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Public-facing, with Moonhollow's larger mood shaped by Rabbit Moon-Kitchen Warren of the Jade Mortar, Terrace Granary Beacon, and Moon Phase Windows Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Terrace Granary Beacon",
+        "Agricultural Terraces Civic Hall",
+        "Hanging Gardens Monument",
+        "Seed Hall Nook",
+        "Section 1 pedestrian-scale props",
+        "Moonhollow civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Terrace Granary Beacon",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "Conjunction response, rumor spread, or authority pressure"
+      ],
+      "landmark": "Terrace Granary Beacon",
+      "minorLandmarks": [
+        "Agricultural Terraces Civic Hall",
+        "Hanging Gardens Monument",
+        "Seed Hall Nook"
+      ]
+    },
+    {
+      "districtNumber": 3,
+      "districtId": "D03",
+      "sectionNumber": 1,
+      "name": "D03 — Hanging Gardens Monument Monument Frontage",
+      "civicPurpose": "This district turns Section 1's source-backed anchor set into a board-scale civic space: Agricultural Terraces Civic Hall, Terrace Granary Beacon, Hanging Gardens Monument, Seed Hall Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Moonhollow.",
+      "visualIdentity": "Use Hanging Gardens Monument as the main read. Keep exact source anchors visible where applicable: Agricultural Terraces Civic Hall, Terrace Granary Beacon, Hanging Gardens Monument, Seed Hall Nook. The district should share Moonhollow's rabbit-like beastfolk identity, Chalkstone, Willow, Seashell, Limewash, and Dry Stone Paving, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Memorial or symbolic, with Moonhollow's larger mood shaped by Rabbit Moon-Kitchen Warren of the Jade Mortar, Terrace Granary Beacon, and Moon Phase Windows Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Hanging Gardens Monument",
+        "Agricultural Terraces Civic Hall",
+        "Terrace Granary Beacon",
+        "Seed Hall Nook",
+        "Section 1 pedestrian-scale props",
+        "Moonhollow civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Hanging Gardens Monument",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Hanging Gardens Monument",
+      "minorLandmarks": [
+        "Agricultural Terraces Civic Hall",
+        "Terrace Granary Beacon",
+        "Seed Hall Nook"
+      ]
+    },
+    {
+      "districtNumber": 6,
+      "districtId": "D06",
+      "sectionNumber": 1,
+      "name": "D06 — Seed Hall Nook Neighborhood Nook",
+      "civicPurpose": "This district turns Section 1's source-backed anchor set into a board-scale civic space: Agricultural Terraces Civic Hall, Terrace Granary Beacon, Hanging Gardens Monument, Seed Hall Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Moonhollow.",
+      "visualIdentity": "Use Seed Hall Nook as the main read. Keep exact source anchors visible where applicable: Agricultural Terraces Civic Hall, Terrace Granary Beacon, Hanging Gardens Monument, Seed Hall Nook. The district should share Moonhollow's rabbit-like beastfolk identity, Chalkstone, Willow, Seashell, Limewash, and Dry Stone Paving, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Intimate and lived-in, with Moonhollow's larger mood shaped by Rabbit Moon-Kitchen Warren of the Jade Mortar, Terrace Granary Beacon, and Moon Phase Windows Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Seed Hall Nook",
+        "Agricultural Terraces Civic Hall",
+        "Terrace Granary Beacon",
+        "Hanging Gardens Monument",
+        "Section 1 pedestrian-scale props",
+        "Moonhollow civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Seed Hall Nook",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Seed Hall Nook",
+      "minorLandmarks": [
+        "Agricultural Terraces Civic Hall",
+        "Terrace Granary Beacon",
+        "Hanging Gardens Monument"
+      ]
+    },
+    {
+      "districtNumber": 7,
+      "districtId": "D07",
+      "sectionNumber": 1,
+      "name": "D07 — Agricultural Terraces Civic Hall Supporting Streets",
+      "civicPurpose": "This district turns Section 1's source-backed anchor set into a board-scale civic space: Agricultural Terraces Civic Hall, Terrace Granary Beacon, Hanging Gardens Monument, Seed Hall Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Moonhollow.",
+      "visualIdentity": "Use Agricultural Terraces Civic Hall as the main read. Keep exact source anchors visible where applicable: Agricultural Terraces Civic Hall, Terrace Granary Beacon, Hanging Gardens Monument, Seed Hall Nook. The district should share Moonhollow's rabbit-like beastfolk identity, Chalkstone, Willow, Seashell, Limewash, and Dry Stone Paving, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Connective and practical, with Moonhollow's larger mood shaped by Rabbit Moon-Kitchen Warren of the Jade Mortar, Terrace Granary Beacon, and Moon Phase Windows Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Agricultural Terraces Civic Hall",
+        "Terrace Granary Beacon",
+        "Hanging Gardens Monument",
+        "Seed Hall Nook",
+        "Section 1 pedestrian-scale props",
+        "Moonhollow civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Agricultural Terraces Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Agricultural Terraces Civic Hall",
+      "minorLandmarks": [
+        "Terrace Granary Beacon",
+        "Hanging Gardens Monument",
+        "Seed Hall Nook"
+      ]
+    },
+    {
+      "districtNumber": 4,
+      "districtId": "D04",
+      "sectionNumber": 2,
+      "name": "D04 — Granary / Food Market Civic Hall Civic-Anchor Precinct",
+      "civicPurpose": "This district turns Section 2's source-backed anchor set into a board-scale civic space: Granary / Food Market Civic Hall, Grain Hall, Awning Monument, Mill Court Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Moonhollow.",
+      "visualIdentity": "Use Granary / Food Market Civic Hall as the main read. Keep exact source anchors visible where applicable: Granary / Food Market Civic Hall, Grain Hall, Awning Monument, Mill Court Nook. The district should share Moonhollow's rabbit-like beastfolk identity, Chalkstone, Willow, Seashell, Limewash, and Dry Stone Paving, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Locally grounded, with Moonhollow's larger mood shaped by Rabbit Moon-Kitchen Warren of the Jade Mortar, Terrace Granary Beacon, and Moon Phase Windows Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Granary / Food Market Civic Hall",
+        "Grain Hall",
+        "Awning Monument",
+        "Mill Court Nook",
+        "Section 2 pedestrian-scale props",
+        "Moonhollow civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Granary / Food Market Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Granary / Food Market Civic Hall",
+      "minorLandmarks": [
+        "Grain Hall",
+        "Awning Monument",
+        "Mill Court Nook"
+      ]
+    },
+    {
+      "districtNumber": 5,
+      "districtId": "D05",
+      "sectionNumber": 2,
+      "name": "D05 — Grain Hall Landmark Approach",
+      "civicPurpose": "This district turns Section 2's source-backed anchor set into a board-scale civic space: Granary / Food Market Civic Hall, Grain Hall, Awning Monument, Mill Court Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Moonhollow.",
+      "visualIdentity": "Use Grain Hall as the main read. Keep exact source anchors visible where applicable: Granary / Food Market Civic Hall, Grain Hall, Awning Monument, Mill Court Nook. The district should share Moonhollow's rabbit-like beastfolk identity, Chalkstone, Willow, Seashell, Limewash, and Dry Stone Paving, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Public-facing, with Moonhollow's larger mood shaped by Rabbit Moon-Kitchen Warren of the Jade Mortar, Terrace Granary Beacon, and Moon Phase Windows Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Grain Hall",
+        "Granary / Food Market Civic Hall",
+        "Awning Monument",
+        "Mill Court Nook",
+        "Section 2 pedestrian-scale props",
+        "Moonhollow civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Grain Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Grain Hall",
+      "minorLandmarks": [
+        "Granary / Food Market Civic Hall",
+        "Awning Monument",
+        "Mill Court Nook"
+      ]
+    },
+    {
+      "districtNumber": 9,
+      "districtId": "D09",
+      "sectionNumber": 2,
+      "name": "D09 — Awning Monument Monument Frontage",
+      "civicPurpose": "This district turns Section 2's source-backed anchor set into a board-scale civic space: Granary / Food Market Civic Hall, Grain Hall, Awning Monument, Mill Court Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Moonhollow.",
+      "visualIdentity": "Use Awning Monument as the main read. Keep exact source anchors visible where applicable: Granary / Food Market Civic Hall, Grain Hall, Awning Monument, Mill Court Nook. The district should share Moonhollow's rabbit-like beastfolk identity, Chalkstone, Willow, Seashell, Limewash, and Dry Stone Paving, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Memorial or symbolic, with Moonhollow's larger mood shaped by Rabbit Moon-Kitchen Warren of the Jade Mortar, Terrace Granary Beacon, and Moon Phase Windows Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Awning Monument",
+        "Granary / Food Market Civic Hall",
+        "Grain Hall",
+        "Mill Court Nook",
+        "Section 2 pedestrian-scale props",
+        "Moonhollow civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Awning Monument",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Awning Monument",
+      "minorLandmarks": [
+        "Granary / Food Market Civic Hall",
+        "Grain Hall",
+        "Mill Court Nook"
+      ]
+    },
+    {
+      "districtNumber": 10,
+      "districtId": "D10",
+      "sectionNumber": 2,
+      "name": "D10 — Mill Court Nook Neighborhood Nook",
+      "civicPurpose": "This district turns Section 2's source-backed anchor set into a board-scale civic space: Granary / Food Market Civic Hall, Grain Hall, Awning Monument, Mill Court Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Moonhollow.",
+      "visualIdentity": "Use Mill Court Nook as the main read. Keep exact source anchors visible where applicable: Granary / Food Market Civic Hall, Grain Hall, Awning Monument, Mill Court Nook. The district should share Moonhollow's rabbit-like beastfolk identity, Chalkstone, Willow, Seashell, Limewash, and Dry Stone Paving, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Intimate and lived-in, with Moonhollow's larger mood shaped by Rabbit Moon-Kitchen Warren of the Jade Mortar, Terrace Granary Beacon, and Moon Phase Windows Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Mill Court Nook",
+        "Granary / Food Market Civic Hall",
+        "Grain Hall",
+        "Awning Monument",
+        "Section 2 pedestrian-scale props",
+        "Moonhollow civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Mill Court Nook",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Mill Court Nook",
+      "minorLandmarks": [
+        "Granary / Food Market Civic Hall",
+        "Grain Hall",
+        "Awning Monument"
+      ]
+    },
+    {
+      "districtNumber": 15,
+      "districtId": "D15",
+      "sectionNumber": 2,
+      "name": "D15 — Granary / Food Market Civic Hall Supporting Streets",
+      "civicPurpose": "This district turns Section 2's source-backed anchor set into a board-scale civic space: Granary / Food Market Civic Hall, Grain Hall, Awning Monument, Mill Court Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Moonhollow.",
+      "visualIdentity": "Use Granary / Food Market Civic Hall as the main read. Keep exact source anchors visible where applicable: Granary / Food Market Civic Hall, Grain Hall, Awning Monument, Mill Court Nook. The district should share Moonhollow's rabbit-like beastfolk identity, Chalkstone, Willow, Seashell, Limewash, and Dry Stone Paving, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Connective and practical, with Moonhollow's larger mood shaped by Rabbit Moon-Kitchen Warren of the Jade Mortar, Terrace Granary Beacon, and Moon Phase Windows Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Granary / Food Market Civic Hall",
+        "Grain Hall",
+        "Awning Monument",
+        "Mill Court Nook",
+        "Section 2 pedestrian-scale props",
+        "Moonhollow civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Granary / Food Market Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Granary / Food Market Civic Hall",
+      "minorLandmarks": [
+        "Grain Hall",
+        "Awning Monument",
+        "Mill Court Nook"
+      ]
+    },
+    {
+      "districtNumber": 8,
+      "districtId": "D08",
+      "sectionNumber": 3,
+      "name": "D08 — Civic Services Hall Civic-Anchor Precinct",
+      "civicPurpose": "This district turns Section 3's source-backed anchor set into a board-scale civic space: Civic Services Hall, Relief Hall, Civic Services Lantern Monument, Notice Plaza Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Moonhollow.",
+      "visualIdentity": "Use Civic Services Hall as the main read. Keep exact source anchors visible where applicable: Civic Services Hall, Relief Hall, Civic Services Lantern Monument, Notice Plaza Nook. The district should share Moonhollow's rabbit-like beastfolk identity, Chalkstone, Willow, Seashell, Limewash, and Dry Stone Paving, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Locally grounded, with Moonhollow's larger mood shaped by Rabbit Moon-Kitchen Warren of the Jade Mortar, Terrace Granary Beacon, and Moon Phase Windows Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Civic Services Hall",
+        "Relief Hall",
+        "Civic Services Lantern Monument",
+        "Notice Plaza Nook",
+        "Section 3 pedestrian-scale props",
+        "Moonhollow civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Civic Services Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Civic Services Hall",
+      "minorLandmarks": [
+        "Relief Hall",
+        "Civic Services Lantern Monument",
+        "Notice Plaza Nook"
+      ]
+    },
+    {
+      "districtNumber": 12,
+      "districtId": "D12",
+      "sectionNumber": 3,
+      "name": "D12 — Relief Hall Landmark Approach",
+      "civicPurpose": "This district turns Section 3's source-backed anchor set into a board-scale civic space: Civic Services Hall, Relief Hall, Civic Services Lantern Monument, Notice Plaza Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Moonhollow.",
+      "visualIdentity": "Use Relief Hall as the main read. Keep exact source anchors visible where applicable: Civic Services Hall, Relief Hall, Civic Services Lantern Monument, Notice Plaza Nook. The district should share Moonhollow's rabbit-like beastfolk identity, Chalkstone, Willow, Seashell, Limewash, and Dry Stone Paving, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Public-facing, with Moonhollow's larger mood shaped by Rabbit Moon-Kitchen Warren of the Jade Mortar, Terrace Granary Beacon, and Moon Phase Windows Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Relief Hall",
+        "Civic Services Hall",
+        "Civic Services Lantern Monument",
+        "Notice Plaza Nook",
+        "Section 3 pedestrian-scale props",
+        "Moonhollow civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Relief Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Relief Hall",
+      "minorLandmarks": [
+        "Civic Services Hall",
+        "Civic Services Lantern Monument",
+        "Notice Plaza Nook"
+      ]
+    },
+    {
+      "districtNumber": 13,
+      "districtId": "D13",
+      "sectionNumber": 3,
+      "name": "D13 — Moon Phase Windows Sovereign Registry Court Seat of Power District",
+      "civicPurpose": "This district turns Section 3's source-backed anchor set into a board-scale civic space: Civic Services Hall, Relief Hall, Civic Services Lantern Monument, Notice Plaza Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Moonhollow.",
+      "visualIdentity": "Use Moon Phase Windows Sovereign Registry Court as the main read. Keep exact source anchors visible where applicable: Civic Services Hall, Relief Hall, Civic Services Lantern Monument, Notice Plaza Nook. The district should share Moonhollow's rabbit-like beastfolk identity, Chalkstone, Willow, Seashell, Limewash, and Dry Stone Paving, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Memorial or symbolic, with Moonhollow's larger mood shaped by Rabbit Moon-Kitchen Warren of the Jade Mortar, Terrace Granary Beacon, and Moon Phase Windows Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Moon Phase Windows Sovereign Registry Court",
+        "Civic Services Hall",
+        "Relief Hall",
+        "Civic Services Lantern Monument",
+        "Notice Plaza Nook",
+        "Section 3 pedestrian-scale props",
+        "Moonhollow civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Moon Phase Windows Sovereign Registry Court",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "Conjunction response, rumor spread, or authority pressure"
+      ],
+      "landmark": "Moon Phase Windows Sovereign Registry Court",
+      "minorLandmarks": [
+        "Civic Services Hall",
+        "Relief Hall",
+        "Civic Services Lantern Monument",
+        "Notice Plaza Nook"
+      ]
+    },
+    {
+      "districtNumber": 14,
+      "districtId": "D14",
+      "sectionNumber": 3,
+      "name": "D14 — Notice Plaza Nook Neighborhood Nook",
+      "civicPurpose": "This district turns Section 3's source-backed anchor set into a board-scale civic space: Civic Services Hall, Relief Hall, Civic Services Lantern Monument, Notice Plaza Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Moonhollow.",
+      "visualIdentity": "Use Notice Plaza Nook as the main read. Keep exact source anchors visible where applicable: Civic Services Hall, Relief Hall, Civic Services Lantern Monument, Notice Plaza Nook. The district should share Moonhollow's rabbit-like beastfolk identity, Chalkstone, Willow, Seashell, Limewash, and Dry Stone Paving, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Intimate and lived-in, with Moonhollow's larger mood shaped by Rabbit Moon-Kitchen Warren of the Jade Mortar, Terrace Granary Beacon, and Moon Phase Windows Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Notice Plaza Nook",
+        "Civic Services Hall",
+        "Relief Hall",
+        "Civic Services Lantern Monument",
+        "Section 3 pedestrian-scale props",
+        "Moonhollow civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Notice Plaza Nook",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Notice Plaza Nook",
+      "minorLandmarks": [
+        "Civic Services Hall",
+        "Relief Hall",
+        "Civic Services Lantern Monument"
+      ]
+    },
+    {
+      "districtNumber": 18,
+      "districtId": "D18",
+      "sectionNumber": 3,
+      "name": "D18 — Civic Services Hall Supporting Streets",
+      "civicPurpose": "This district turns Section 3's source-backed anchor set into a board-scale civic space: Civic Services Hall, Relief Hall, Civic Services Lantern Monument, Notice Plaza Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Moonhollow.",
+      "visualIdentity": "Use Civic Services Hall as the main read. Keep exact source anchors visible where applicable: Civic Services Hall, Relief Hall, Civic Services Lantern Monument, Notice Plaza Nook. The district should share Moonhollow's rabbit-like beastfolk identity, Chalkstone, Willow, Seashell, Limewash, and Dry Stone Paving, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Connective and practical, with Moonhollow's larger mood shaped by Rabbit Moon-Kitchen Warren of the Jade Mortar, Terrace Granary Beacon, and Moon Phase Windows Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Civic Services Hall",
+        "Relief Hall",
+        "Civic Services Lantern Monument",
+        "Notice Plaza Nook",
+        "Section 3 pedestrian-scale props",
+        "Moonhollow civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Civic Services Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Civic Services Hall",
+      "minorLandmarks": [
+        "Relief Hall",
+        "Civic Services Lantern Monument",
+        "Notice Plaza Nook"
+      ]
+    },
+    {
+      "districtNumber": 11,
+      "districtId": "D11",
+      "sectionNumber": 4,
+      "name": "D11 — Arena / Training Civic Hall Civic-Anchor Precinct",
+      "civicPurpose": "This district turns Section 4's source-backed anchor set into a board-scale civic space: Arena / Training Civic Hall, Training Arena, Woven Banners Monument, Champion Gate Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Moonhollow.",
+      "visualIdentity": "Use Arena / Training Civic Hall as the main read. Keep exact source anchors visible where applicable: Arena / Training Civic Hall, Training Arena, Woven Banners Monument, Champion Gate Nook. The district should share Moonhollow's rabbit-like beastfolk identity, Chalkstone, Willow, Seashell, Limewash, and Dry Stone Paving, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Locally grounded, with Moonhollow's larger mood shaped by Rabbit Moon-Kitchen Warren of the Jade Mortar, Terrace Granary Beacon, and Moon Phase Windows Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Arena / Training Civic Hall",
+        "Training Arena",
+        "Woven Banners Monument",
+        "Champion Gate Nook",
+        "Section 4 pedestrian-scale props",
+        "Moonhollow civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Arena / Training Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Arena / Training Civic Hall",
+      "minorLandmarks": [
+        "Training Arena",
+        "Woven Banners Monument",
+        "Champion Gate Nook"
+      ]
+    },
+    {
+      "districtNumber": 16,
+      "districtId": "D16",
+      "sectionNumber": 4,
+      "name": "D16 — Training Arena Landmark Approach",
+      "civicPurpose": "This district turns Section 4's source-backed anchor set into a board-scale civic space: Arena / Training Civic Hall, Training Arena, Woven Banners Monument, Champion Gate Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Moonhollow.",
+      "visualIdentity": "Use Training Arena as the main read. Keep exact source anchors visible where applicable: Arena / Training Civic Hall, Training Arena, Woven Banners Monument, Champion Gate Nook. The district should share Moonhollow's rabbit-like beastfolk identity, Chalkstone, Willow, Seashell, Limewash, and Dry Stone Paving, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Public-facing, with Moonhollow's larger mood shaped by Rabbit Moon-Kitchen Warren of the Jade Mortar, Terrace Granary Beacon, and Moon Phase Windows Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Training Arena",
+        "Arena / Training Civic Hall",
+        "Woven Banners Monument",
+        "Champion Gate Nook",
+        "Section 4 pedestrian-scale props",
+        "Moonhollow civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Training Arena",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Training Arena",
+      "minorLandmarks": [
+        "Arena / Training Civic Hall",
+        "Woven Banners Monument",
+        "Champion Gate Nook"
+      ]
+    },
+    {
+      "districtNumber": 17,
+      "districtId": "D17",
+      "sectionNumber": 4,
+      "name": "D17 — Woven Banners Monument Monument Frontage",
+      "civicPurpose": "This district turns Section 4's source-backed anchor set into a board-scale civic space: Arena / Training Civic Hall, Training Arena, Woven Banners Monument, Champion Gate Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Moonhollow.",
+      "visualIdentity": "Use Woven Banners Monument as the main read. Keep exact source anchors visible where applicable: Arena / Training Civic Hall, Training Arena, Woven Banners Monument, Champion Gate Nook. The district should share Moonhollow's rabbit-like beastfolk identity, Chalkstone, Willow, Seashell, Limewash, and Dry Stone Paving, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Memorial or symbolic, with Moonhollow's larger mood shaped by Rabbit Moon-Kitchen Warren of the Jade Mortar, Terrace Granary Beacon, and Moon Phase Windows Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Woven Banners Monument",
+        "Arena / Training Civic Hall",
+        "Training Arena",
+        "Champion Gate Nook",
+        "Section 4 pedestrian-scale props",
+        "Moonhollow civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Woven Banners Monument",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Woven Banners Monument",
+      "minorLandmarks": [
+        "Arena / Training Civic Hall",
+        "Training Arena",
+        "Champion Gate Nook"
+      ]
+    },
+    {
+      "districtNumber": 21,
+      "districtId": "D21",
+      "sectionNumber": 4,
+      "name": "D21 — Champion Gate Nook Neighborhood Nook",
+      "civicPurpose": "This district turns Section 4's source-backed anchor set into a board-scale civic space: Arena / Training Civic Hall, Training Arena, Woven Banners Monument, Champion Gate Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Moonhollow.",
+      "visualIdentity": "Use Champion Gate Nook as the main read. Keep exact source anchors visible where applicable: Arena / Training Civic Hall, Training Arena, Woven Banners Monument, Champion Gate Nook. The district should share Moonhollow's rabbit-like beastfolk identity, Chalkstone, Willow, Seashell, Limewash, and Dry Stone Paving, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Intimate and lived-in, with Moonhollow's larger mood shaped by Rabbit Moon-Kitchen Warren of the Jade Mortar, Terrace Granary Beacon, and Moon Phase Windows Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Champion Gate Nook",
+        "Arena / Training Civic Hall",
+        "Training Arena",
+        "Woven Banners Monument",
+        "Section 4 pedestrian-scale props",
+        "Moonhollow civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Champion Gate Nook",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Champion Gate Nook",
+      "minorLandmarks": [
+        "Arena / Training Civic Hall",
+        "Training Arena",
+        "Woven Banners Monument"
+      ]
+    },
+    {
+      "districtNumber": 22,
+      "districtId": "D22",
+      "sectionNumber": 4,
+      "name": "D22 — Arena / Training Civic Hall Supporting Streets",
+      "civicPurpose": "This district turns Section 4's source-backed anchor set into a board-scale civic space: Arena / Training Civic Hall, Training Arena, Woven Banners Monument, Champion Gate Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Moonhollow.",
+      "visualIdentity": "Use Arena / Training Civic Hall as the main read. Keep exact source anchors visible where applicable: Arena / Training Civic Hall, Training Arena, Woven Banners Monument, Champion Gate Nook. The district should share Moonhollow's rabbit-like beastfolk identity, Chalkstone, Willow, Seashell, Limewash, and Dry Stone Paving, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Connective and practical, with Moonhollow's larger mood shaped by Rabbit Moon-Kitchen Warren of the Jade Mortar, Terrace Granary Beacon, and Moon Phase Windows Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Arena / Training Civic Hall",
+        "Training Arena",
+        "Woven Banners Monument",
+        "Champion Gate Nook",
+        "Section 4 pedestrian-scale props",
+        "Moonhollow civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Arena / Training Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Arena / Training Civic Hall",
+      "minorLandmarks": [
+        "Training Arena",
+        "Woven Banners Monument",
+        "Champion Gate Nook"
+      ]
+    },
+    {
+      "districtNumber": 19,
+      "districtId": "D19",
+      "sectionNumber": 5,
+      "name": "D19 — Low Residential Civic Hall Civic-Anchor Precinct",
+      "civicPurpose": "This district turns Section 5's source-backed anchor set into a board-scale civic space: Low Residential Civic Hall, Tenement Court, Low Residential Lantern Monument, Laundry Well Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Moonhollow.",
+      "visualIdentity": "Use Low Residential Civic Hall as the main read. Keep exact source anchors visible where applicable: Low Residential Civic Hall, Tenement Court, Low Residential Lantern Monument, Laundry Well Nook. The district should share Moonhollow's rabbit-like beastfolk identity, Chalkstone, Willow, Seashell, Limewash, and Dry Stone Paving, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Locally grounded, with Moonhollow's larger mood shaped by Rabbit Moon-Kitchen Warren of the Jade Mortar, Terrace Granary Beacon, and Moon Phase Windows Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Low Residential Civic Hall",
+        "Tenement Court",
+        "Low Residential Lantern Monument",
+        "Laundry Well Nook",
+        "Section 5 pedestrian-scale props",
+        "Moonhollow civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Low Residential Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Low Residential Civic Hall",
+      "minorLandmarks": [
+        "Tenement Court",
+        "Low Residential Lantern Monument",
+        "Laundry Well Nook"
+      ]
+    },
+    {
+      "districtNumber": 20,
+      "districtId": "D20",
+      "sectionNumber": 5,
+      "name": "D20 — Tenement Court Landmark Approach",
+      "civicPurpose": "This district turns Section 5's source-backed anchor set into a board-scale civic space: Low Residential Civic Hall, Tenement Court, Low Residential Lantern Monument, Laundry Well Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Moonhollow.",
+      "visualIdentity": "Use Tenement Court as the main read. Keep exact source anchors visible where applicable: Low Residential Civic Hall, Tenement Court, Low Residential Lantern Monument, Laundry Well Nook. The district should share Moonhollow's rabbit-like beastfolk identity, Chalkstone, Willow, Seashell, Limewash, and Dry Stone Paving, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Public-facing, with Moonhollow's larger mood shaped by Rabbit Moon-Kitchen Warren of the Jade Mortar, Terrace Granary Beacon, and Moon Phase Windows Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Tenement Court",
+        "Low Residential Civic Hall",
+        "Low Residential Lantern Monument",
+        "Laundry Well Nook",
+        "Section 5 pedestrian-scale props",
+        "Moonhollow civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Tenement Court",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Tenement Court",
+      "minorLandmarks": [
+        "Low Residential Civic Hall",
+        "Low Residential Lantern Monument",
+        "Laundry Well Nook"
+      ]
+    },
+    {
+      "districtNumber": 23,
+      "districtId": "D23",
+      "sectionNumber": 5,
+      "name": "D23 — Low Residential Lantern Monument Monument Frontage",
+      "civicPurpose": "This district turns Section 5's source-backed anchor set into a board-scale civic space: Low Residential Civic Hall, Tenement Court, Low Residential Lantern Monument, Laundry Well Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Moonhollow.",
+      "visualIdentity": "Use Low Residential Lantern Monument as the main read. Keep exact source anchors visible where applicable: Low Residential Civic Hall, Tenement Court, Low Residential Lantern Monument, Laundry Well Nook. The district should share Moonhollow's rabbit-like beastfolk identity, Chalkstone, Willow, Seashell, Limewash, and Dry Stone Paving, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Memorial or symbolic, with Moonhollow's larger mood shaped by Rabbit Moon-Kitchen Warren of the Jade Mortar, Terrace Granary Beacon, and Moon Phase Windows Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Low Residential Lantern Monument",
+        "Low Residential Civic Hall",
+        "Tenement Court",
+        "Laundry Well Nook",
+        "Section 5 pedestrian-scale props",
+        "Moonhollow civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Low Residential Lantern Monument",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Low Residential Lantern Monument",
+      "minorLandmarks": [
+        "Low Residential Civic Hall",
+        "Tenement Court",
+        "Laundry Well Nook"
+      ]
+    },
+    {
+      "districtNumber": 24,
+      "districtId": "D24",
+      "sectionNumber": 5,
+      "name": "D24 — Laundry Well Nook Neighborhood Nook",
+      "civicPurpose": "This district turns Section 5's source-backed anchor set into a board-scale civic space: Low Residential Civic Hall, Tenement Court, Low Residential Lantern Monument, Laundry Well Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Moonhollow.",
+      "visualIdentity": "Use Laundry Well Nook as the main read. Keep exact source anchors visible where applicable: Low Residential Civic Hall, Tenement Court, Low Residential Lantern Monument, Laundry Well Nook. The district should share Moonhollow's rabbit-like beastfolk identity, Chalkstone, Willow, Seashell, Limewash, and Dry Stone Paving, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Intimate and lived-in, with Moonhollow's larger mood shaped by Rabbit Moon-Kitchen Warren of the Jade Mortar, Terrace Granary Beacon, and Moon Phase Windows Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Laundry Well Nook",
+        "Low Residential Civic Hall",
+        "Tenement Court",
+        "Low Residential Lantern Monument",
+        "Section 5 pedestrian-scale props",
+        "Moonhollow civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Laundry Well Nook",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Laundry Well Nook",
+      "minorLandmarks": [
+        "Low Residential Civic Hall",
+        "Tenement Court",
+        "Low Residential Lantern Monument"
+      ]
+    },
+    {
+      "districtNumber": 25,
+      "districtId": "D25",
+      "sectionNumber": 5,
+      "name": "D25 — Low Residential Civic Hall Supporting Streets",
+      "civicPurpose": "This district turns Section 5's source-backed anchor set into a board-scale civic space: Low Residential Civic Hall, Tenement Court, Low Residential Lantern Monument, Laundry Well Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Moonhollow.",
+      "visualIdentity": "Use Low Residential Civic Hall as the main read. Keep exact source anchors visible where applicable: Low Residential Civic Hall, Tenement Court, Low Residential Lantern Monument, Laundry Well Nook. The district should share Moonhollow's rabbit-like beastfolk identity, Chalkstone, Willow, Seashell, Limewash, and Dry Stone Paving, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Connective and practical, with Moonhollow's larger mood shaped by Rabbit Moon-Kitchen Warren of the Jade Mortar, Terrace Granary Beacon, and Moon Phase Windows Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Low Residential Civic Hall",
+        "Tenement Court",
+        "Low Residential Lantern Monument",
+        "Laundry Well Nook",
+        "Section 5 pedestrian-scale props",
+        "Moonhollow civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Low Residential Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Low Residential Civic Hall",
+      "minorLandmarks": [
+        "Tenement Court",
+        "Low Residential Lantern Monument",
+        "Laundry Well Nook"
+      ]
+    }
+  ],
+  "landmarks": {
+    "wonder": {
+      "name": "Rabbit Moon-Kitchen Warren of the Jade Mortar",
+      "symbolicRole": "Rabbit Moon-Kitchen Warren of the Jade Mortar concentrates Moonhollow's local symbolism into a usable civic landmark: city wonder, separate far skyline anchor.",
+      "visualRole": "A one-per-city wonder: spectacular, unmistakable, and larger than every section landmark. It turns Moonhollow's geography, race identity, material culture, and civic magic into one public symbol. Built for Moonhollow's rabbit-like beastfolk population, it uses Chalkstone, Willow, Seashell, Limewash, Woven Reed across Dry Stone Paving, Civic Terraces; water context: dry city ground; magic expression: Beast Bonding, Ancestor Guidance, Hearth Blessing. It must read clearly as a high-fantasy tactical-board asset with no baked labels or text.",
+      "civicRole": "Serves as city wonder, separate far skyline anchor within Moonhollow; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+      "narrativeUse": [
+        "stage scenes involving Rabbit Moon-Kitchen Warren of the Jade Mortar",
+        "show how Moonhollow turns landmark symbolism into civic pressure",
+        "anchor public movement and crowd behavior",
+        "give writers a concrete place for announcements, disputes, errands, or rituals"
+      ],
+      "assetUse": [
+        "city landmark asset",
+        "map background landmark marker",
+        "visual continuity anchor across hero and street scenes",
+        "scale reference for civilians, roads, plazas, and props"
+      ],
+      "sensoryIdentity": [
+        "local foot traffic",
+        "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+        "public voices and civic work nearby",
+        "ambient city light and weathering",
+        "close pedestrian-scale details rather than abstract skyline-only treatment"
+      ],
+      "storyHooks": [
+        "a routine civic action at Rabbit Moon-Kitchen Warren of the Jade Mortar becomes narratively important",
+        "the visible condition of Rabbit Moon-Kitchen Warren of the Jade Mortar signals political or social stress",
+        "someone uses Rabbit Moon-Kitchen Warren of the Jade Mortar's public function to redirect crowds or information",
+        "an overlooked detail at Rabbit Moon-Kitchen Warren of the Jade Mortar reveals how Moonhollow really works"
+      ]
+    },
+    "beacon": {
+      "name": "Terrace Granary Beacon",
+      "symbolicRole": "Terrace Granary Beacon concentrates Moonhollow's local symbolism into a usable civic landmark: Section 1 beacon, near/front civic signal anchor.",
+      "visualRole": "A largest local landmark in this section, subordinate only to the city wonder and citadel. It belongs to Section 1 (Agricultural Terraces) of Moonhollow and should use Timber Longhouses, Reed Pavilions, Canopy Platforms, seashell and limewash materials, Canal Reflections, Hanging Gardens, Woven Banners, and the rabbit-like beastfolk visual language. Design focus: terraced beds, fruit trees, water channels, farm terraces, orchards. Terrain/water context: Civic Terraces; Dry Ground. Magic expression: Herbal Spirits, Law Binding, Threshold Oaths. No baked labels or text. Single city beacon fixed to section 1; visible civic signal apparatus, strong vertical silhouette, and public approach space.",
+      "civicRole": "Serves as Section 1 beacon, near/front civic signal anchor within Moonhollow; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+      "narrativeUse": [
+        "stage scenes involving Terrace Granary Beacon",
+        "show how Moonhollow turns landmark symbolism into civic pressure",
+        "anchor public movement and crowd behavior",
+        "give writers a concrete place for announcements, disputes, errands, or rituals"
+      ],
+      "assetUse": [
+        "district diorama anchor for Section 1",
+        "map background landmark marker",
+        "visual continuity anchor across hero and street scenes",
+        "scale reference for civilians, roads, plazas, and props"
+      ],
+      "sensoryIdentity": [
+        "local foot traffic",
+        "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+        "public voices and civic work nearby",
+        "beacon or lamp glow when applicable",
+        "close pedestrian-scale details rather than abstract skyline-only treatment"
+      ],
+      "storyHooks": [
+        "a routine civic action at Terrace Granary Beacon becomes narratively important",
+        "the visible condition of Terrace Granary Beacon signals political or social stress",
+        "someone uses Terrace Granary Beacon's public function to redirect crowds or information",
+        "an overlooked detail at Terrace Granary Beacon reveals how Moonhollow really works"
+      ]
+    },
+    "seatOfPower": {
+      "name": "Moon Phase Windows Sovereign Registry Court",
+      "symbolicRole": "Moon Phase Windows Sovereign Registry Court concentrates Moonhollow's local symbolism into a usable civic landmark: dominant central civic anchor / District 13 seat of power.",
+      "visualRole": "The district-13 seat of power: courts, audience terraces, sealed archives, command platforms, and the visible apparatus of government. It is not a faction HQ; it is the city's central civic authority. Built for Moonhollow's rabbit-like beastfolk population, it uses Chalkstone, Willow, Seashell, Limewash, Woven Reed across Dry Stone Paving, Civic Terraces; water context: dry city ground; magic expression: Beast Bonding, Ancestor Guidance, Hearth Blessing. It must read clearly as a high-fantasy tactical-board asset with no baked labels or text.",
+      "civicRole": "Serves as dominant central civic anchor / District 13 seat of power within Moonhollow; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+      "narrativeUse": [
+        "stage scenes involving Moon Phase Windows Sovereign Registry Court",
+        "show how Moonhollow turns landmark symbolism into civic pressure",
+        "anchor public movement and crowd behavior",
+        "give writers a concrete place for announcements, disputes, errands, or rituals"
+      ],
+      "assetUse": [
+        "city landmark asset",
+        "map background landmark marker",
+        "visual continuity anchor across hero and street scenes",
+        "scale reference for civilians, roads, plazas, and props"
+      ],
+      "sensoryIdentity": [
+        "local foot traffic",
+        "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+        "public voices and civic work nearby",
+        "ambient city light and weathering",
+        "close pedestrian-scale details rather than abstract skyline-only treatment"
+      ],
+      "storyHooks": [
+        "a routine civic action at Moon Phase Windows Sovereign Registry Court becomes narratively important",
+        "the visible condition of Moon Phase Windows Sovereign Registry Court signals political or social stress",
+        "someone uses Moon Phase Windows Sovereign Registry Court's public function to redirect crowds or information",
+        "an overlooked detail at Moon Phase Windows Sovereign Registry Court reveals how Moonhollow really works"
+      ]
+    },
+    "majorLandmarks": [
+      {
+        "name": "Tenement Court",
+        "symbolicRole": "Tenement Court concentrates Moonhollow's local symbolism into a usable civic landmark: additional major landmark selected for this hero-view camera angle.",
+        "visualRole": "A largest local landmark in this section, subordinate only to the city wonder and citadel. It belongs to Section 5 (Low Residential) of Moonhollow and should use White Limestone Civic Blocks, Timber Longhouses, Market Arcades, seashell and limewash materials, Woven Banners, Lantern Lit, Red Fabric Awnings, and the rabbit-like beastfolk visual language. Design focus: shared courtyards, communal wells, largest section focal point, strong vertical silhouette, distinct gameplay landmark. Terrain/water context: Civic Terraces; Dry Ground. Magic expression: Herbal Spirits, Law Binding, Threshold Oaths. No baked labels or text.",
+        "civicRole": "Serves as additional major landmark selected for this hero-view camera angle within Moonhollow; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Tenement Court",
+          "show how Moonhollow turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 5",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Tenement Court becomes narratively important",
+          "the visible condition of Tenement Court signals political or social stress",
+          "someone uses Tenement Court's public function to redirect crowds or information",
+          "an overlooked detail at Tenement Court reveals how Moonhollow really works"
+        ]
+      },
+      {
+        "name": "Grain Hall",
+        "symbolicRole": "Grain Hall concentrates Moonhollow's local symbolism into a usable civic landmark: additional major landmark selected for this hero-view camera angle.",
+        "visualRole": "A largest local landmark in this section, subordinate only to the city wonder and citadel. It belongs to Section 2 (Granary / Food Market) of Moonhollow and should use Reed Pavilions, Timber Longhouses, Market Arcades, seashell and limewash materials, Red Fabric Awnings, Woven Banners, Lantern Lit, and the rabbit-like beastfolk visual language. Design focus: visible from nearby districts, wheat sheaves, bread ovens, storage jars, hanging herbs. Terrain/water context: Civic Terraces; Dry Ground. Magic expression: Herbal Spirits, Law Binding, Threshold Oaths. No baked labels or text.",
+        "civicRole": "Serves as additional major landmark selected for this hero-view camera angle within Moonhollow; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Grain Hall",
+          "show how Moonhollow turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 2",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Grain Hall becomes narratively important",
+          "the visible condition of Grain Hall signals political or social stress",
+          "someone uses Grain Hall's public function to redirect crowds or information",
+          "an overlooked detail at Grain Hall reveals how Moonhollow really works"
+        ]
+      },
+      {
+        "name": "Training Arena",
+        "symbolicRole": "Training Arena concentrates Moonhollow's local symbolism into a usable civic landmark: additional major landmark selected for this hero-view camera angle.",
+        "visualRole": "A largest local landmark in this section, subordinate only to the city wonder and citadel. It belongs to Section 4 (Arena / Training) of Moonhollow and should use Temple Platforms, Obsidian Fortresses, Lecture Courts, seashell and limewash materials, Red Fabric Awnings, Carved Totems, Woven Banners, and the rabbit-like beastfolk visual language. Design focus: victory stones, arenas, training yards, weapon courts, practice rings. Terrain/water context: Civic Terraces; Dry Ground. Magic expression: Herbal Spirits, Law Binding, Threshold Oaths. No baked labels or text.",
+        "civicRole": "Serves as additional major landmark selected for this hero-view camera angle within Moonhollow; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Training Arena",
+          "show how Moonhollow turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 4",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Training Arena becomes narratively important",
+          "the visible condition of Training Arena signals political or social stress",
+          "someone uses Training Arena's public function to redirect crowds or information",
+          "an overlooked detail at Training Arena reveals how Moonhollow really works"
+        ]
+      },
+      {
+        "name": "Agricultural Terraces Civic Hall",
+        "symbolicRole": "Agricultural Terraces Civic Hall concentrates Moonhollow's local symbolism into a usable civic landmark: Section 1 local anchor.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing. It belongs to Section 1 (Agricultural Terraces) of Moonhollow and should use Canopy Platforms, Timber Longhouses, Reed Pavilions, seashell and limewash materials, Canal Reflections, Hanging Gardens, Woven Banners, and the rabbit-like beastfolk visual language. Design focus: public-facing administration, clear central silhouette, board-readable entrance, seed jars, terraced beds. Terrain/water context: Civic Terraces; Dry Ground. Magic expression: Herbal Spirits, Law Binding, Threshold Oaths. No baked labels or text.",
+        "civicRole": "Serves as Section 1 local anchor within Moonhollow; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Agricultural Terraces Civic Hall",
+          "show how Moonhollow turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 1",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Agricultural Terraces Civic Hall becomes narratively important",
+          "the visible condition of Agricultural Terraces Civic Hall signals political or social stress",
+          "someone uses Agricultural Terraces Civic Hall's public function to redirect crowds or information",
+          "an overlooked detail at Agricultural Terraces Civic Hall reveals how Moonhollow really works"
+        ]
+      },
+      {
+        "name": "Hanging Gardens Monument",
+        "symbolicRole": "Hanging Gardens Monument concentrates Moonhollow's local symbolism into a usable civic landmark: Section 1 local anchor.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles. It belongs to Section 1 (Agricultural Terraces) of Moonhollow and should use Reed Pavilions, Canopy Platforms, Timber Longhouses, seashell and limewash materials, Hanging Gardens, Woven Banners, Canal Reflections, and the rabbit-like beastfolk visual language. Design focus: farm terraces, orchards, greenhouses, irrigation channels, symbolic civic object. Terrain/water context: Civic Terraces; Dry Ground. Magic expression: Herbal Spirits, Law Binding, Threshold Oaths. No baked labels or text.",
+        "civicRole": "Serves as Section 1 local anchor within Moonhollow; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Hanging Gardens Monument",
+          "show how Moonhollow turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 1",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Hanging Gardens Monument becomes narratively important",
+          "the visible condition of Hanging Gardens Monument signals political or social stress",
+          "someone uses Hanging Gardens Monument's public function to redirect crowds or information",
+          "an overlooked detail at Hanging Gardens Monument reveals how Moonhollow really works"
+        ]
+      },
+      {
+        "name": "Seed Hall Nook",
+        "symbolicRole": "Seed Hall Nook concentrates Moonhollow's local symbolism into a usable civic landmark: Section 1 local anchor.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette. It belongs to Section 1 (Agricultural Terraces) of Moonhollow and should use Timber Longhouses, Reed Pavilions, Canopy Platforms, seashell and limewash materials, Hanging Gardens, Woven Banners, Canal Reflections, and the rabbit-like beastfolk visual language. Design focus: irrigation channels, small local identity prop, street-level detail, usable board landmark, subordinate scale. Terrain/water context: Civic Terraces; Dry Ground. Magic expression: Herbal Spirits, Law Binding, Threshold Oaths. No baked labels or text.",
+        "civicRole": "Serves as Section 1 local anchor within Moonhollow; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Seed Hall Nook",
+          "show how Moonhollow turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 1",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Seed Hall Nook becomes narratively important",
+          "the visible condition of Seed Hall Nook signals political or social stress",
+          "someone uses Seed Hall Nook's public function to redirect crowds or information",
+          "an overlooked detail at Seed Hall Nook reveals how Moonhollow really works"
+        ]
+      },
+      {
+        "name": "Granary / Food Market Civic Hall",
+        "symbolicRole": "Granary / Food Market Civic Hall concentrates Moonhollow's local symbolism into a usable civic landmark: Section 2 local anchor.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing. It belongs to Section 2 (Granary / Food Market) of Moonhollow and should use Reed Pavilions, Timber Longhouses, Market Arcades, seashell and limewash materials, Woven Banners, Lantern Lit, Red Fabric Awnings, and the rabbit-like beastfolk visual language. Design focus: board-readable entrance, wheat sheaves, bread ovens, storage jars, hanging herbs. Terrain/water context: Civic Terraces; Dry Ground. Magic expression: Herbal Spirits, Law Binding, Threshold Oaths. No baked labels or text.",
+        "civicRole": "Serves as Section 2 local anchor within Moonhollow; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Granary / Food Market Civic Hall",
+          "show how Moonhollow turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 2",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Granary / Food Market Civic Hall becomes narratively important",
+          "the visible condition of Granary / Food Market Civic Hall signals political or social stress",
+          "someone uses Granary / Food Market Civic Hall's public function to redirect crowds or information",
+          "an overlooked detail at Granary / Food Market Civic Hall reveals how Moonhollow really works"
+        ]
+      },
+      {
+        "name": "Awning Monument",
+        "symbolicRole": "Awning Monument concentrates Moonhollow's local symbolism into a usable civic landmark: Section 2 local anchor.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles. It belongs to Section 2 (Granary / Food Market) of Moonhollow and should use Timber Longhouses, Market Arcades, Reed Pavilions, seashell and limewash materials, Lantern Lit, Red Fabric Awnings, Woven Banners, and the rabbit-like beastfolk visual language. Design focus: bakeries, covered food halls, grain scales, symbolic civic object, small ceremonial site. Terrain/water context: Civic Terraces; Dry Ground. Magic expression: Herbal Spirits, Law Binding, Threshold Oaths. No baked labels or text.",
+        "civicRole": "Serves as Section 2 local anchor within Moonhollow; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Awning Monument",
+          "show how Moonhollow turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 2",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Awning Monument becomes narratively important",
+          "the visible condition of Awning Monument signals political or social stress",
+          "someone uses Awning Monument's public function to redirect crowds or information",
+          "an overlooked detail at Awning Monument reveals how Moonhollow really works"
+        ]
+      },
+      {
+        "name": "Mill Court Nook",
+        "symbolicRole": "Mill Court Nook concentrates Moonhollow's local symbolism into a usable civic landmark: Section 2 local anchor.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette. It belongs to Section 2 (Granary / Food Market) of Moonhollow and should use Market Arcades, Reed Pavilions, Timber Longhouses, seashell and limewash materials, Woven Banners, Lantern Lit, Red Fabric Awnings, and the rabbit-like beastfolk visual language. Design focus: grain scales, small local identity prop, street-level detail, usable board landmark, subordinate scale. Terrain/water context: Civic Terraces; Dry Ground. Magic expression: Herbal Spirits, Law Binding, Threshold Oaths. No baked labels or text.",
+        "civicRole": "Serves as Section 2 local anchor within Moonhollow; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Mill Court Nook",
+          "show how Moonhollow turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 2",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Mill Court Nook becomes narratively important",
+          "the visible condition of Mill Court Nook signals political or social stress",
+          "someone uses Mill Court Nook's public function to redirect crowds or information",
+          "an overlooked detail at Mill Court Nook reveals how Moonhollow really works"
+        ]
+      },
+      {
+        "name": "Civic Services Hall",
+        "symbolicRole": "Civic Services Hall concentrates Moonhollow's local symbolism into a usable civic landmark: Section 3 local anchor.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing. It belongs to Section 3 (Civic Services) of Moonhollow and should use Market Arcades, Reed Pavilions, White Limestone Civic Blocks, seashell and limewash materials, Red Fabric Awnings, Lantern Lit, Civic Blue Glow, and the rabbit-like beastfolk visual language. Design focus: institutional anchor, public-facing administration, clear central silhouette, board-readable entrance, bread tokens. Terrain/water context: Civic Terraces; Dry Ground. Magic expression: Herbal Spirits, Law Binding, Threshold Oaths. No baked labels or text.",
+        "civicRole": "Serves as Section 3 local anchor within Moonhollow; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Civic Services Hall",
+          "show how Moonhollow turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 3",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Civic Services Hall becomes narratively important",
+          "the visible condition of Civic Services Hall signals political or social stress",
+          "someone uses Civic Services Hall's public function to redirect crowds or information",
+          "an overlooked detail at Civic Services Hall reveals how Moonhollow really works"
+        ]
+      },
+      {
+        "name": "Relief Hall",
+        "symbolicRole": "Relief Hall concentrates Moonhollow's local symbolism into a usable civic landmark: Section 3 local anchor.",
+        "visualRole": "A mandatory Section 3 Beacon: a culturally adapted civic signal flame / warning-light landmark visible across the city spine. It belongs to Section 3 (Civic Services) of Moonhollow and should use Reed Pavilions, White Limestone Civic Blocks, Market Arcades, seashell and limewash materials, Civic Blue Glow, Red Fabric Awnings, Lantern Lit, and the rabbit-like beastfolk visual language. Design focus: visible from nearby districts, bread tokens, water basins, blue service lamps, public rosters. Terrain/water context: Civic Terraces; Dry Ground. Magic expression: Herbal Spirits, Law Binding, Threshold Oaths. No baked labels or text.",
+        "civicRole": "Serves as Section 3 local anchor within Moonhollow; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Relief Hall",
+          "show how Moonhollow turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 3",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Relief Hall becomes narratively important",
+          "the visible condition of Relief Hall signals political or social stress",
+          "someone uses Relief Hall's public function to redirect crowds or information",
+          "an overlooked detail at Relief Hall reveals how Moonhollow really works"
+        ]
+      },
+      {
+        "name": "Civic Services Lantern Monument",
+        "symbolicRole": "Civic Services Lantern Monument concentrates Moonhollow's local symbolism into a usable civic landmark: Section 3 local anchor.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles. It belongs to Section 3 (Civic Services) of Moonhollow and should use Reed Pavilions, White Limestone Civic Blocks, Market Arcades, seashell and limewash materials, Civic Blue Glow, Red Fabric Awnings, Lantern Lit, and the rabbit-like beastfolk visual language. Design focus: blue service lamps, public rosters, public halls, clinic courts, bathhouses. Terrain/water context: Civic Terraces; Dry Ground. Magic expression: Herbal Spirits, Law Binding, Threshold Oaths. No baked labels or text.",
+        "civicRole": "Serves as Section 3 local anchor within Moonhollow; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Civic Services Lantern Monument",
+          "show how Moonhollow turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 3",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Civic Services Lantern Monument becomes narratively important",
+          "the visible condition of Civic Services Lantern Monument signals political or social stress",
+          "someone uses Civic Services Lantern Monument's public function to redirect crowds or information",
+          "an overlooked detail at Civic Services Lantern Monument reveals how Moonhollow really works"
+        ]
+      },
+      {
+        "name": "Notice Plaza Nook",
+        "symbolicRole": "Notice Plaza Nook concentrates Moonhollow's local symbolism into a usable civic landmark: Section 3 local anchor.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette. It belongs to Section 3 (Civic Services) of Moonhollow and should use White Limestone Civic Blocks, Market Arcades, Reed Pavilions, seashell and limewash materials, Civic Blue Glow, Red Fabric Awnings, Lantern Lit, and the rabbit-like beastfolk visual language. Design focus: notice boards, small local identity prop, street-level detail, usable board landmark, subordinate scale. Terrain/water context: Civic Terraces; Dry Ground. Magic expression: Herbal Spirits, Law Binding, Threshold Oaths. No baked labels or text.",
+        "civicRole": "Serves as Section 3 local anchor within Moonhollow; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Notice Plaza Nook",
+          "show how Moonhollow turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 3",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Notice Plaza Nook becomes narratively important",
+          "the visible condition of Notice Plaza Nook signals political or social stress",
+          "someone uses Notice Plaza Nook's public function to redirect crowds or information",
+          "an overlooked detail at Notice Plaza Nook reveals how Moonhollow really works"
+        ]
+      },
+      {
+        "name": "Arena / Training Civic Hall",
+        "symbolicRole": "Arena / Training Civic Hall concentrates Moonhollow's local symbolism into a usable civic landmark: Section 4 local anchor.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing. It belongs to Section 4 (Arena / Training) of Moonhollow and should use Obsidian Fortresses, Lecture Courts, Temple Platforms, seashell and limewash materials, Carved Totems, Woven Banners, Red Fabric Awnings, and the rabbit-like beastfolk visual language. Design focus: training yards, weapon courts, practice rings, institutional anchor, public-facing administration. Terrain/water context: Civic Terraces; Dry Ground. Magic expression: Herbal Spirits, Law Binding, Threshold Oaths. No baked labels or text.",
+        "civicRole": "Serves as Section 4 local anchor within Moonhollow; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Arena / Training Civic Hall",
+          "show how Moonhollow turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 4",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Arena / Training Civic Hall becomes narratively important",
+          "the visible condition of Arena / Training Civic Hall signals political or social stress",
+          "someone uses Arena / Training Civic Hall's public function to redirect crowds or information",
+          "an overlooked detail at Arena / Training Civic Hall reveals how Moonhollow really works"
+        ]
+      },
+      {
+        "name": "Woven Banners Monument",
+        "symbolicRole": "Woven Banners Monument concentrates Moonhollow's local symbolism into a usable civic landmark: Section 4 local anchor.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles. It belongs to Section 4 (Arena / Training) of Moonhollow and should use Obsidian Fortresses, Lecture Courts, Temple Platforms, seashell and limewash materials, Carved Totems, Woven Banners, Red Fabric Awnings, and the rabbit-like beastfolk visual language. Design focus: weapon courts, practice rings, symbolic civic object, small ceremonial site, local memory marker. Terrain/water context: Civic Terraces; Dry Ground. Magic expression: Herbal Spirits, Law Binding, Threshold Oaths. No baked labels or text.",
+        "civicRole": "Serves as Section 4 local anchor within Moonhollow; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Woven Banners Monument",
+          "show how Moonhollow turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 4",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Woven Banners Monument becomes narratively important",
+          "the visible condition of Woven Banners Monument signals political or social stress",
+          "someone uses Woven Banners Monument's public function to redirect crowds or information",
+          "an overlooked detail at Woven Banners Monument reveals how Moonhollow really works"
+        ]
+      },
+      {
+        "name": "Champion Gate Nook",
+        "symbolicRole": "Champion Gate Nook concentrates Moonhollow's local symbolism into a usable civic landmark: Section 4 local anchor.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette. It belongs to Section 4 (Arena / Training) of Moonhollow and should use Obsidian Fortresses, Lecture Courts, Temple Platforms, seashell and limewash materials, Carved Totems, Woven Banners, Red Fabric Awnings, and the rabbit-like beastfolk visual language. Design focus: small local identity prop, street-level detail, usable board landmark, subordinate scale, banners. Terrain/water context: Civic Terraces; Dry Ground. Magic expression: Herbal Spirits, Law Binding, Threshold Oaths. No baked labels or text.",
+        "civicRole": "Serves as Section 4 local anchor within Moonhollow; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Champion Gate Nook",
+          "show how Moonhollow turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 4",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Champion Gate Nook becomes narratively important",
+          "the visible condition of Champion Gate Nook signals political or social stress",
+          "someone uses Champion Gate Nook's public function to redirect crowds or information",
+          "an overlooked detail at Champion Gate Nook reveals how Moonhollow really works"
+        ]
+      },
+      {
+        "name": "Low Residential Civic Hall",
+        "symbolicRole": "Low Residential Civic Hall concentrates Moonhollow's local symbolism into a usable civic landmark: Section 5 local anchor.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing. It belongs to Section 5 (Low Residential) of Moonhollow and should use Market Arcades, White Limestone Civic Blocks, Timber Longhouses, seashell and limewash materials, Woven Banners, Lantern Lit, Red Fabric Awnings, and the rabbit-like beastfolk visual language. Design focus: board-readable entrance, laundry lines, hearth smoke, stoops, shared wells. Terrain/water context: Civic Terraces; Dry Ground. Magic expression: Herbal Spirits, Law Binding, Threshold Oaths. No baked labels or text.",
+        "civicRole": "Serves as Section 5 local anchor within Moonhollow; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Low Residential Civic Hall",
+          "show how Moonhollow turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 5",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Low Residential Civic Hall becomes narratively important",
+          "the visible condition of Low Residential Civic Hall signals political or social stress",
+          "someone uses Low Residential Civic Hall's public function to redirect crowds or information",
+          "an overlooked detail at Low Residential Civic Hall reveals how Moonhollow really works"
+        ]
+      },
+      {
+        "name": "Low Residential Lantern Monument",
+        "symbolicRole": "Low Residential Lantern Monument concentrates Moonhollow's local symbolism into a usable civic landmark: Section 5 local anchor.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles. It belongs to Section 5 (Low Residential) of Moonhollow and should use Market Arcades, White Limestone Civic Blocks, Timber Longhouses, seashell and limewash materials, Red Fabric Awnings, Woven Banners, Lantern Lit, and the rabbit-like beastfolk visual language. Design focus: rowhouses, shared courtyards, communal wells, symbolic civic object, small ceremonial site. Terrain/water context: Civic Terraces; Dry Ground. Magic expression: Herbal Spirits, Law Binding, Threshold Oaths. No baked labels or text.",
+        "civicRole": "Serves as Section 5 local anchor within Moonhollow; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Low Residential Lantern Monument",
+          "show how Moonhollow turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 5",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Low Residential Lantern Monument becomes narratively important",
+          "the visible condition of Low Residential Lantern Monument signals political or social stress",
+          "someone uses Low Residential Lantern Monument's public function to redirect crowds or information",
+          "an overlooked detail at Low Residential Lantern Monument reveals how Moonhollow really works"
+        ]
+      },
+      {
+        "name": "Laundry Well Nook",
+        "symbolicRole": "Laundry Well Nook concentrates Moonhollow's local symbolism into a usable civic landmark: Section 5 local anchor.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette. It belongs to Section 5 (Low Residential) of Moonhollow and should use White Limestone Civic Blocks, Timber Longhouses, Market Arcades, seashell and limewash materials, Lantern Lit, Red Fabric Awnings, Woven Banners, and the rabbit-like beastfolk visual language. Design focus: rowhouses, shared courtyards, communal wells, small local identity prop, street-level detail. Terrain/water context: Civic Terraces; Dry Ground. Magic expression: Herbal Spirits, Law Binding, Threshold Oaths. No baked labels or text.",
+        "civicRole": "Serves as Section 5 local anchor within Moonhollow; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Laundry Well Nook",
+          "show how Moonhollow turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 5",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Laundry Well Nook becomes narratively important",
+          "the visible condition of Laundry Well Nook signals political or social stress",
+          "someone uses Laundry Well Nook's public function to redirect crowds or information",
+          "an overlooked detail at Laundry Well Nook reveals how Moonhollow really works"
+        ]
+      }
+    ]
+  },
+  "assetGuidance": {
+    "districtDioramaGuidance": [
+      "Dioramas must support 25 district slots: S1 covers D01, D02, D03, D06, D07 and uses source-backed anchors Agricultural Terraces Civic Hall, Terrace Granary Beacon, Hanging Gardens Monument, Seed Hall Nook.",
+      "Dioramas must support 25 district slots: S2 covers D04, D05, D09, D10, D15 and uses source-backed anchors Granary / Food Market Civic Hall, Grain Hall, Awning Monument, Mill Court Nook.",
+      "Dioramas must support 25 district slots: S3 covers D08, D12, D13, D14, D18 and uses source-backed anchors Civic Services Hall, Relief Hall, Civic Services Lantern Monument, Notice Plaza Nook.",
+      "Dioramas must support 25 district slots: S4 covers D11, D16, D17, D21, D22 and uses source-backed anchors Arena / Training Civic Hall, Training Arena, Woven Banners Monument, Champion Gate Nook.",
+      "Dioramas must support 25 district slots: S5 covers D19, D20, D23, D24, D25 and uses source-backed anchors Low Residential Civic Hall, Tenement Court, Low Residential Lantern Monument, Laundry Well Nook."
+    ],
+    "mapBackgroundGuidance": [
+      "Map backgrounds must show Rabbit Moon-Kitchen Warren of the Jade Mortar as the wonder-scale identity anchor, Moon Phase Windows Sovereign Registry Court at D13, and Terrace Granary Beacon as the city signal landmark.",
+      "Preserve the five-section spine: S1 Agricultural Terraces Civic Hall, S2 Granary / Food Market Civic Hall, S3 Civic Services Hall, S4 Arena / Training Civic Hall, S5 Low Residential Civic Hall.",
+      "Use roads, terrain, water, civic terraces, walls, markets, courts, or service routes only where they support the exact city identity and tactical readability."
+    ],
+    "requiredVisualElements": [
+      "Rabbit Moon-Kitchen Warren of the Jade Mortar",
+      "Terrace Granary Beacon",
+      "Moon Phase Windows Sovereign Registry Court",
+      "Tenement Court",
+      "Grain Hall",
+      "Training Arena",
+      "Agricultural Terraces Civic Hall",
+      "Hanging Gardens Monument",
+      "Seed Hall Nook",
+      "Granary / Food Market Civic Hall",
+      "Awning Monument",
+      "Mill Court Nook",
+      "Civic Services Hall",
+      "Relief Hall",
+      "Civic Services Lantern Monument",
+      "Notice Plaza Nook",
+      "Arena / Training Civic Hall",
+      "Woven Banners Monument",
+      "Champion Gate Nook",
+      "Low Residential Civic Hall",
+      "Low Residential Lantern Monument",
+      "Laundry Well Nook",
+      "Chalkstone",
+      "Willow",
+      "Seashell",
+      "Limewash",
+      "Woven Reed",
+      "Dry Stone Paving",
+      "Civic Terraces",
+      "Beast Bonding",
+      "Ancestor Guidance",
+      "Hearth Blessing"
+    ],
+    "elementsToAvoid": [
+      "extra top-level schema sections or research-log content in the JSON",
+      "generic fantasy architecture that ignores exact anchor names",
+      "invented missing street anchors",
+      "readable real-world text labels baked into images",
+      "collapsing the 25-district board into only five playable spaces",
+      "making landmarks decorative when they should have civic, narrative, and asset function"
+    ]
+  }
+}

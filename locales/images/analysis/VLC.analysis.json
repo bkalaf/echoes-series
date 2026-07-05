@@ -4,82 +4,1911 @@
     "analysisVersion": 2,
     "cityCode": "VLC",
     "cityName": "Velis Caravanor",
-    "analysisDate": "2026-07-03",
+    "analysisDate": "2026-07-05",
     "analystVersion": "gpt-5.5-thinking",
     "analysisConfidence": "strong-lock",
-    "basedOnImages": ["VLC-HERO-NE-v001", "VLC-HERO-NW-v001", "VLC-HERO-SE-v001", "VLC-HERO-SW-v001", "VLC-STREET-S1-v001", "VLC-STREET-S2-v001", "VLC-STREET-S3-v001", "VLC-STREET-S4-v001", "VLC-STREET-S5-v001"],
-    "basedOnSidecars": ["VLC-HERO-NE-v001.json", "VLC-HERO-NW-v001.json", "VLC-HERO-SE-v001.json", "VLC-HERO-SW-v001.json", "VLC-STREET-S1-v001.json", "VLC-STREET-S2-v001.json", "VLC-STREET-S3-v001.json", "VLC-STREET-S4-v001.json", "VLC-STREET-S5-v001.json"]
+    "basedOnImages": [
+      "VLC-HERO-NE-v001.png",
+      "VLC-HERO-NW-v001.png",
+      "VLC-HERO-SE-v001.png",
+      "VLC-HERO-SW-v001.png",
+      "VLC-STREET-S1-v001.png",
+      "VLC-STREET-S2-v001.png",
+      "VLC-STREET-S3-v001.png",
+      "VLC-STREET-S4-v001.png",
+      "VLC-STREET-S5-v001.png"
+    ],
+    "basedOnSidecars": [
+      "VLC-HERO-NE-v001.json",
+      "VLC-HERO-NW-v001.json",
+      "VLC-HERO-SE-v001.json",
+      "VLC-HERO-SW-v001.json",
+      "VLC-STREET-S1-v001.json",
+      "VLC-STREET-S2-v001.json",
+      "VLC-STREET-S3-v001.json",
+      "VLC-STREET-S4-v001.json",
+      "VLC-STREET-S5-v001.json"
+    ],
+    "missingStreetSections": []
   },
   "cityDNA": {
-    "coreFantasy": "A settled Romani caravan-capital where terrace granaries, caravanserais, high courts, training arenas, grain markets, wheel-emblem government, and the Lantern-Caravan Palace turn movement, law, food, performance, and belonging into civic order.",
-    "primaryEmotion": "rooted movement",
-    "secondaryEmotion": "lantern-lit belonging",
-    "readerTakeaway": "Velis Caravanor is permanent because it protects movement, not because it abandoned it.",
-    "civilizationThesis": "Velis Caravanor is the architecture of rooted movement: a Romani caravan city that turns travel, witness, food, law, performance, and market trust into settled civic order.",
-    "visualIdentity": "Painted plaster, brick, white civic stone, timber, bronze, colorful fabric, red awnings, blue lamps, terrace stone, caravan gates, wheel-emblem courts, lantern towers, high courts, training banners, and grain halls.",
-    "culturalIdentity": "Romani-coded cosmopolitan civic culture where roads, witnesses, caravans, performance, food provision, and legal belonging are permanent institutions.",
-    "symbolicIdentity": "Lantern-caravans, wheel emblems, terrace granaries, caravanserais, high courts, witness archives, training arenas, grain halls, and colorful awnings symbolize movement made lawful."
+    "coreFantasy": "Velis Caravanor is a mobile-road caravan city where hospitality, trade law, agricultural terraces, and oath-bound routes become permanent civic infrastructure.",
+    "primaryEmotion": "restless welcome",
+    "secondaryEmotion": "lawful improvisation",
+    "readerTakeaway": "Velis Caravanor should feel immediately distinct: Romani civic life is organized around Agricultural Terraces, Transit / Caravan / Rail, Judicial Quarter, Arena / Training, and Granary / Food Market, with Romani Lantern-Caravan Palace of Moving Roads as the citywide symbol.",
+    "civilizationThesis": "The city turns Red Brick, Wool Felt, Sandstone, Dyed Wool, Painted Canvas, Dry Stone Paving, Civic Terraces, and Civic Blue Illumination, Oath Seals, Caravan Stars into a working urban system rather than surface decoration.",
+    "visualIdentity": "Use Red Brick, Wool Felt, Sandstone, Dyed Wool, Painted Canvas, civic terraces, public courts, audience terraces, sealed archives, command platforms, Agricultural Terraces Civic Hall, Transit / Caravan / Rail Civic Hall, Judicial Quarter Hall, visible Terrace Granary Beacon, the central Caravan Wheel Emblems Sovereign Registry Court, and the skyline-scale Romani Lantern-Caravan Palace of Moving Roads as the core visual grammar.",
+    "culturalIdentity": "A Romani population whose institutions make daily life legible through section anchors: Agricultural Terraces, Transit / Caravan / Rail, Judicial Quarter, Arena / Training, Granary / Food Market.",
+    "symbolicIdentity": "The city is symbolized by Romani Lantern-Caravan Palace of Moving Roads, Terrace Granary Beacon, Caravan Wheel Emblems Sovereign Registry Court, and the repeating civic pattern of hall, landmark, monument, and nook in every section."
   },
   "canon": {
-    "canonLocks": ["Velis Caravanor is a mature settled Romani caravan city, not a temporary camp.", "The Wonder is Romani Lantern-Caravan Palace of Moving Roads.", "The Beacon is Terrace Granary Beacon.", "The Seat of Power is Caravan Wheel Emblems Sovereign Registry Court.", "The five primary districts are Agricultural Terraces, Transit / Caravan / Rail, Judicial Quarter, Arena / Training, and Granary / Food Market.", "Exact uploaded anchors include Agricultural Terraces Civic Hall, Terrace Granary Beacon, Hanging Gardens Monument, Seed Hall Nook, Transit / Caravan / Rail Civic Hall, Caravanserai, Woven Banners Monument, Waystation Hall Nook, Judicial Quarter Hall, High Court, Gold-Seal Monument, Witness Archive Nook, Arena / Training Civic Hall, Training Arena, Woven Banners Monument, Champion Gate Nook, Granary / Food Market Civic Hall, Grain Hall, Awning Monument, and Mill Court Nook."],
-    "provisionalCanon": ["Velis Caravanor's highest civic virtue is belonging in motion.", "The city resolves settlement vs movement by making roads, caravans, and witnesses civic institutions."],
-    "rejectedReads": ["colorful merchant camp", "temporary caravan settlement", "merchant city with no legal belonging", "food systems as background market flavor"],
-    "cautionFlags": ["Do not write VLC as a camp or stereotype; this is a sophisticated civic capital with legal institutions and provisioning systems.", "Preserve exact sidecar anchor names.", "Keep food and law visible together."]
+    "canonLocks": [
+      "Velis Caravanor is built for its Romani population and should not be genericized into a neutral fantasy city.",
+      "The Wonder is Romani Lantern-Caravan Palace of Moving Roads.",
+      "The Beacon is Terrace Granary Beacon.",
+      "The Seat of Power is Caravan Wheel Emblems Sovereign Registry Court.",
+      "The five section spines are Agricultural Terraces, Transit / Caravan / Rail, Judicial Quarter, Arena / Training, Granary / Food Market.",
+      "The tactical board uses 25 district slots, with District 13 as the seat-of-power center.",
+      "Exact sidecar names for civic halls, major landmarks, monuments, and minor nooks must be preserved verbatim."
+    ],
+    "provisionalCanon": [
+      "Citizens likely treat Terrace Granary Beacon as the practical public signal point for citywide alerts and Conjunction response.",
+      "Daily politics likely moves through the named section institutions rather than through faction headquarters.",
+      "The city’s civic magic expresses through Civic Blue Illumination, Oath Seals, Caravan Stars when visible in public spaces."
+    ],
+    "rejectedReads": [
+      "Velis Caravanor as a generic fantasy settlement with the culture applied as ornament only.",
+      "Replacing exact section anchors with generic labels such as market, temple, tower, archive, or court when the sidecar provides a proper name.",
+      "Treating the Wonder, Beacon, or Seat of Power as interchangeable skyline props instead of civic machinery."
+    ],
+    "cautionFlags": [
+      "Do not add unsupported per-district landmark names beyond the source-backed section anchors.",
+      "Keep all 25 districts, but derive their specific identity from the five section spines unless new district-specific sidecars exist.",
+      "Preserve the material language: Red Brick, Wool Felt, Sandstone, Dyed Wool, Painted Canvas.",
+      "Preserve the terrain/water logic: Dry Stone Paving, Civic Terraces; water context: dry city ground."
+    ]
   },
   "environment": {
-    "terrain": ["dry stone paving", "civic terraces", "caravan roads", "market courts", "terrace granaries", "arena grounds"],
-    "water": ["public wells", "market water points", "terrace irrigation", "grain mill water", "travel cisterns"],
-    "vegetation": ["terrace crops", "courtyard trees", "market planters", "grain fields", "roadside shade plantings"],
-    "climateLighting": ["golden hour", "lantern-lit streets", "civic blue accents", "market canopy shade", "clear bright air"],
-    "environmentalLogic": "Velis Caravanor turns roads, terraces, markets, and waystations into settled civic ground while keeping route memory visible in every district."
+    "terrain": [
+      "Dry Stone Paving",
+      "Civic Terraces",
+      "district plazas",
+      "civic approaches",
+      "pedestrian streets",
+      "section courts"
+    ],
+    "water": [
+      "dry city ground",
+      "cistern-fed basins",
+      "irrigation channels",
+      "canal-reflection motifs",
+      "caravan water stores"
+    ],
+    "vegetation": [
+      "terrace gardens",
+      "hanging gardens",
+      "seed courts",
+      "market herbs",
+      "shade vines",
+      "roadside orchard planters"
+    ],
+    "climateLighting": [
+      "daylight",
+      "golden hour",
+      "lantern-lit evenings",
+      "civic blue illumination",
+      "Civic Blue Illumination",
+      "Oath Seals"
+    ],
+    "environmentalLogic": "Environment should make the city’s institutions readable: Agricultural Terraces, Transit / Caravan / Rail, Judicial Quarter, Arena / Training, Granary / Food Market must feel embedded in Dry Stone Paving, Civic Terraces, with water handled as dry city ground and public magic appearing as Civic Blue Illumination, Oath Seals, Caravan Stars."
   },
   "architecture": {
-    "materials": ["painted plaster", "brick", "white civic stone", "timber", "bronze", "colorful fabric", "red awnings", "blue glass lamps", "terrace stone", "market paving"],
-    "forms": ["Romani Lantern-Caravan Palace of Moving Roads", "Caravan Wheel Emblems Sovereign Registry Court", "Terrace Granary Beacon", "Caravanserai", "High Court", "Training Arena", "Grain Hall", "Witness Archive Nook", "Waystation Hall Nook", "Champion Gate Nook", "Mill Court Nook"],
-    "skyline": ["Lantern-Caravan Palace as wonder", "Caravan Wheel Emblems Sovereign Registry Court as authority", "Terrace Granary Beacon as signal", "lantern towers, caravanserai gates, rotunda towers, market awnings, high courts, arena banners, and grain halls"],
-    "lighting": ["warm lanterns", "civic blue lamps", "festival light", "golden hour", "market shade glow"],
-    "infrastructure": ["caravanserais", "waystation halls", "witness archives", "high court stairs", "training arenas", "terrace granaries", "grain mills", "covered market lanes", "route-contract counters"],
-    "motifs": ["wheels", "lanterns", "caravans", "horses", "stars", "embroidered patterns", "road contracts", "woven banners", "grain awnings"],
-    "colorLanguage": ["painted plaster white", "bright fabric color", "bronze gold", "civic blue", "red awnings", "grain tan"],
-    "textureLanguage": ["painted plaster", "woven cloth", "bronze lamps", "road dust", "worn stone", "grain sacks", "inked contracts"]
+    "materials": [
+      "Red Brick",
+      "Wool Felt",
+      "Sandstone",
+      "Dyed Wool",
+      "Painted Canvas"
+    ],
+    "forms": [
+      "civic terraces",
+      "public courts",
+      "audience terraces",
+      "sealed archives",
+      "command platforms",
+      "Agricultural Terraces Civic Hall",
+      "Transit / Caravan / Rail Civic Hall",
+      "Judicial Quarter Hall",
+      "Arena / Training Civic Hall",
+      "Granary / Food Market Civic Hall",
+      "Terrace Granary Beacon",
+      "Caravanserai",
+      "High Court",
+      "Training Arena",
+      "Grain Hall",
+      "Hanging Gardens Monument",
+      "Woven Banners Monument",
+      "Judicial Quarter Gold-Seal Monument",
+      "Awning Monument",
+      "Seed Hall Nook",
+      "Waystation Hall Nook",
+      "Witness Archive Nook",
+      "Champion Gate Nook",
+      "Mill Court Nook"
+    ],
+    "skyline": [
+      "Romani Lantern-Caravan Palace of Moving Roads dominates the far skyline and should be larger than every section landmark.",
+      "Caravan Wheel Emblems Sovereign Registry Court anchors the central District 13 civic mass.",
+      "Terrace Granary Beacon is the section-1 signal landmark and must be readable from nearby districts.",
+      "Section skyline rhythm: Terrace Granary Beacon, Caravanserai, High Court, Training Arena, Grain Hall."
+    ],
+    "lighting": [
+      "civic blue illumination",
+      "lantern light",
+      "golden-hour edge light",
+      "public beacon glow",
+      "Civic Blue Illumination",
+      "Oath Seals",
+      "Caravan Stars"
+    ],
+    "infrastructure": [
+      "Agricultural Terraces Civic Hall",
+      "Transit / Caravan / Rail Civic Hall",
+      "Judicial Quarter Hall",
+      "Arena / Training Civic Hall",
+      "Granary / Food Market Civic Hall",
+      "Terrace Granary Beacon",
+      "Caravanserai",
+      "High Court",
+      "Training Arena",
+      "Grain Hall",
+      "district streets",
+      "public approach stairs",
+      "notice plazas",
+      "archive thresholds",
+      "service yards"
+    ],
+    "motifs": [
+      "Romani",
+      "Lantern",
+      "Caravan",
+      "Palace",
+      "Moving",
+      "Roads",
+      "Wheel",
+      "Emblems",
+      "Sovereign",
+      "Registry",
+      "Court",
+      "Civic Blue Illumination",
+      "Oath Seals",
+      "Caravan Stars"
+    ],
+    "colorLanguage": [
+      "Red Brick"
+    ],
+    "textureLanguage": [
+      "Red Brick",
+      "Wool Felt",
+      "Sandstone",
+      "Dyed Wool",
+      "Painted Canvas",
+      "worn paving",
+      "public notice surfaces",
+      "worked civic thresholds",
+      "weathered landmark edges"
+    ]
   },
   "civilization": {
-    "people": "Citizens are Romani-coded, cosmopolitan, social, musical, trade-literate, legally aware, and protective of movement rights.",
-    "occupations": ["caravan brokers", "route-map sellers", "witness copyists", "grain merchants", "mill workers", "arena trainers", "lantern makers", "wagon-wheel carvers", "fabric awning sellers", "instrument makers"],
-    "socialClasses": ["registry officials", "caravan lineages", "witness houses", "grain market authorities", "arena performers", "route brokers", "terrace farmers", "traveling guest families"],
-    "governance": "Caravan Wheel Emblems Sovereign Registry Court governs movement rights, witness standing, route contracts, caravan legitimacy, food provision, residence, and civic belonging.",
-    "religion": "Lantern-road symbolism, route blessings, witness oaths, caravan rites, and public festival light make belonging in motion sacred-adjacent.",
-    "customs": ["route contract witnessing", "lantern lighting at arrivals", "caravan guest registration", "arena performance trials", "grain tally announcements", "waystation hospitality"],
-    "bodyLanguage": ["open public bargaining", "musical gathering posture", "road-aware scanning", "formal witness gestures", "protective caravan clustering"],
-    "speechPatterns": ["route contracts", "witness formulas", "caravan lineage references", "grain tallies", "hospitality phrases", "arena rank terms"]
+    "people": "The population is Romani. Civic scenes should show them using the city’s architecture naturally: gathering near Terrace Granary Beacon, moving through Agricultural Terraces, Transit / Caravan / Rail, Judicial Quarter, and treating the named anchors as practical institutions.",
+    "occupations": [
+      "civic clerks",
+      "beacon wardens",
+      "archive keepers",
+      "market sellers",
+      "street repair crews",
+      "craft workers",
+      "messengers",
+      "guards",
+      "Agricultural Terraces staff",
+      "Transit / Caravan / Rail staff",
+      "Judicial Quarter staff",
+      "Arena / Training staff",
+      "Granary / Food Market staff",
+      "terrace granary beacon attendants",
+      "caravanserai attendants",
+      "high court attendants",
+      "training arena attendants",
+      "grain hall attendants"
+    ],
+    "socialClasses": [
+      "seat-of-power officials attached to Caravan Wheel Emblems Sovereign Registry Court",
+      "section hall administrators and permit keepers",
+      "craft, market, transport, religious, or military guild households depending on district spine",
+      "street vendors, carriers, maintenance workers, and household service families",
+      "visitors and petitioners who navigate the city through public anchors"
+    ],
+    "governance": "Governance is centered on Caravan Wheel Emblems Sovereign Registry Court and expressed locally through the five section civic halls. Authority should be visible in courts, archives, public signals, permits, and named monuments rather than hidden abstraction.",
+    "religion": "Religious and symbolic life should draw on Civic Blue Illumination, Oath Seals, Caravan Stars, the Wonder’s public symbolism, and whichever section anchors carry sacred or ceremonial roles.",
+    "customs": [
+      "citizens use named halls and nooks as practical meeting points",
+      "public signals from the Beacon interrupt ordinary commerce and movement",
+      "section monuments preserve civic memory and local identity",
+      "visitors orient themselves by Wonder, Beacon, Seat, and section major landmarks",
+      "formal petitions and judgments move toward District 13"
+    ],
+    "bodyLanguage": [
+      "citizens make room for official messengers near beacon approaches",
+      "locals gesture by landmark rather than by street name",
+      "public posture changes around courts, monuments, and halls",
+      "market or service workers keep one eye on signal points during tense periods"
+    ],
+    "speechPatterns": [
+      "directions reference exact named anchors",
+      "formal speech preserves civic titles",
+      "street speech abbreviates section landmarks but not Wonder, Beacon, or Seat names",
+      "public announcements use practical civic language rather than poetic vagueness"
+    ]
   },
   "urbanLife": {
-    "streets": {"appearance": "Colorful, warm, legal, and road-aware: lantern towers, wagon motifs, terrace stairs, caravan yards, court steps, arena banners, grain-market awnings, and settled-but-traveling civic identity.", "movement": "Movement follows caravan gates, waystation routes, terrace stairs, witness archive approaches, high court plazas, arena entrances, and grain market paths.", "sounds": ["lantern chains", "music", "market bargaining", "wheels over stone", "court witnesses", "arena applause", "grain mills"], "smells": ["warm bread", "horse tack", "lantern oil", "painted plaster dust", "spices", "grain"], "lighting": "Warm lanterns and civic blue lamps turn roads into night-visible public memory.", "weatherEffects": "Dust, heat, and clear air make shade, water points, and lantern routes practical civic infrastructure.", "dayCycle": "Terrace work, caravan processing, witness filings, court sessions, arena practice, and grain markets dominate daytime.", "nightCycle": "Lantern routes, music, hospitality, arena gatherings, and market food dominate night."},
-    "shops": {"common": ["fabric awning sellers", "grain stalls", "road-ration shops", "instrument makers", "lantern vendors"], "uncommon": ["wagon-wheel carvers", "route-map sellers", "witness copyists", "arena gear vendors"], "prestigious": ["registry legal counters", "major caravan houses", "grain hall offices", "arena patron rooms"], "exports": ["lantern craft", "route contracts", "music and performance", "grain goods", "wagon craft", "textiles"], "imports": ["paper", "metal fittings", "grain varieties", "fine cloth", "medicine", "lamp oil"], "streetFood": ["flatbread", "grain cakes", "spiced stew", "tea", "fruit pastries"], "services": ["caravan lodging", "route witnessing", "court copying", "arena training", "grain milling", "lantern repair"]},
-    "housing": {"wealthy": "Registry, caravan-house, and patron homes with lantern balconies, painted courts, private guest rooms, and wheel-emblem stonework.", "middle": "Shop-top homes, caravan-family apartments, guild rooms, and musician courtyards along route streets.", "poor": "Guest-house rooms, road-edge dwellings, shared courtyards, and market-adjacent housing still integrated into public route life."}
+    "streets": {
+      "appearance": "Street views should show Red Brick, Wool Felt, Sandstone, Dyed Wool, Painted Canvas, civic terraces, public courts, audience terraces, sealed archives, command platforms, Agricultural Terraces Civic Hall, pedestrians using section halls, and sightlines back to Terrace Granary Beacon or Caravan Wheel Emblems Sovereign Registry Court where appropriate.",
+      "movement": "Movement is organized by section spine: Agricultural Terraces, Transit / Caravan / Rail, Judicial Quarter, Arena / Training, Granary / Food Market. Districts feed toward their civic hall, major landmark, monument, and minor nook before converging on District 13 for authority scenes.",
+      "sounds": [
+        "wagon bells",
+        "market bargaining",
+        "canvas snapping",
+        "grain sacks shifting",
+        "oath clerks calling names",
+        "arena practice from nearby courts"
+      ],
+      "smells": [
+        "wool felt",
+        "spiced grain",
+        "painted canvas",
+        "sun-warmed brick",
+        "horse tack",
+        "seed stores"
+      ],
+      "lighting": "Use civic blue illumination for official signal moments, practical lantern light for night scenes, and material-specific highlights on Red Brick, Wool Felt, Sandstone, Dyed Wool.",
+      "weatherEffects": "Weather should reinforce terrain and water logic: Dry Stone Paving, Civic Terraces; water context dry city ground.",
+      "dayCycle": "Mornings emphasize deliveries, hall openings, street maintenance, market preparation, and official notices; afternoons build toward hearings, training, guild work, or section-specific labor.",
+      "nightCycle": "Evenings compress around lanterns, food stalls, guarded thresholds, quieter civic errands, and beacon visibility against darker streets."
+    },
+    "shops": {
+      "common": [
+        "food stalls",
+        "repair counters",
+        "lantern sellers",
+        "permit copyists",
+        "market cloth stalls",
+        "tool vendors",
+        "agricultural terraces service stalls",
+        "transit / caravan / rail service stalls",
+        "judicial quarter service stalls"
+      ],
+      "uncommon": [
+        "landmark souvenir makers",
+        "ritual supply counters",
+        "specialist surveyors",
+        "seal engravers",
+        "instrument repairers",
+        "terrace granary beacon adjunct shops",
+        "caravanserai adjunct shops",
+        "high court adjunct shops"
+      ],
+      "prestigious": [
+        "Caravan Wheel Emblems Sovereign Registry Court document ateliers",
+        "Romani Lantern-Caravan Palace of Moving Roads ceremonial suppliers",
+        "master craft houses",
+        "official seal workshops",
+        "elite household service halls"
+      ],
+      "exports": [
+        "finished civic craft",
+        "specialized tools",
+        "ritual goods",
+        "district textiles",
+        "trained specialists",
+        "Red Brick",
+        "Wool Felt",
+        "Sandstone"
+      ],
+      "imports": [
+        "rare dyes",
+        "lamp oil",
+        "fine timber",
+        "metal fittings",
+        "grain stores",
+        "paper and ink"
+      ],
+      "streetFood": [
+        "caravan flatbread",
+        "spiced grain stew",
+        "roasted seeds",
+        "dried fruit",
+        "market tea",
+        "roadside honey cakes"
+      ],
+      "services": [
+        "petition filing",
+        "district guidance",
+        "beacon notice posting",
+        "minor repairs",
+        "public messenger work",
+        "archive copying",
+        "agricultural terraces appointments",
+        "transit / caravan / rail appointments"
+      ]
+    },
+    "housing": {
+      "wealthy": "Residences near Caravan Wheel Emblems Sovereign Registry Court or high-status section courts use the best Red Brick, Wool Felt, Sandstone, private terraces, and controlled views of civic landmarks.",
+      "middle": "Households cluster above shops and along civic streets, sharing courtyards, balconies, workrooms, and access to section halls.",
+      "poor": "Lower-status housing is practical, crowded, and close to service yards or labor streets, but still uses local motifs and public landmarks for orientation."
+    }
   },
   "districts": [
-    {"sectionNumber": 1, "name": "Agricultural Terraces", "civicPurpose": "Food security, seed continuity, rooted provision, and public signal legitimacy.", "visualIdentity": "Agricultural Terraces Civic Hall, Terrace Granary Beacon, Hanging Gardens Monument, Seed Hall Nook.", "emotionalIdentity": "rooted, nourishing, signal-bright", "gameplayAssetNeeds": ["Agricultural Terraces Civic Hall", "Terrace Granary Beacon", "Hanging Gardens Monument", "Seed Hall Nook"], "narrativeUse": ["Beacon response", "food security", "seed continuity"], "landmark": "Terrace Granary Beacon", "minorLandmarks": ["Hanging Gardens Monument", "Seed Hall Nook"]},
-    {"sectionNumber": 2, "name": "Transit / Caravan / Rail", "civicPurpose": "Arrival, waystations, route contracts, and hospitality politics.", "visualIdentity": "Transit / Caravan / Rail Civic Hall, Caravanserai, Woven Banners Monument, Waystation Hall Nook.", "emotionalIdentity": "mobile, hospitable, legal", "gameplayAssetNeeds": ["Transit / Caravan / Rail Civic Hall", "Caravanserai", "Woven Banners Monument", "Waystation Hall Nook"], "narrativeUse": ["arrival", "route dispute", "hospitality politics"], "landmark": "Caravanserai", "minorLandmarks": ["Woven Banners Monument", "Waystation Hall Nook"]},
-    {"sectionNumber": 3, "name": "Judicial Quarter", "civicPurpose": "Testimony, law, belonging disputes, and witness pressure.", "visualIdentity": "Judicial Quarter Hall, High Court, Gold-Seal Monument, Witness Archive Nook.", "emotionalIdentity": "formal, public, consequential", "gameplayAssetNeeds": ["Judicial Quarter Hall", "High Court", "Gold-Seal Monument", "Witness Archive Nook"], "narrativeUse": ["testimony", "belonging dispute", "witness record"], "landmark": "High Court", "minorLandmarks": ["Gold-Seal Monument", "Witness Archive Nook"]},
-    {"sectionNumber": 4, "name": "Arena / Training", "civicPurpose": "Performance, defense, bodily discipline, and public trial by skill.", "visualIdentity": "Arena / Training Civic Hall, Training Arena, Woven Banners Monument, Champion Gate Nook.", "emotionalIdentity": "performative, disciplined, loud", "gameplayAssetNeeds": ["Arena / Training Civic Hall", "Training Arena", "Woven Banners Monument", "Champion Gate Nook"], "narrativeUse": ["performance", "defense training", "public test"], "landmark": "Training Arena", "minorLandmarks": ["Woven Banners Monument", "Champion Gate Nook"]},
-    {"sectionNumber": 5, "name": "Granary / Food Market", "civicPurpose": "Provisioning, milling, market exchange, and public abundance.", "visualIdentity": "Granary / Food Market Civic Hall, Grain Hall, Awning Monument, Mill Court Nook.", "emotionalIdentity": "busy, nourishing, accountable", "gameplayAssetNeeds": ["Granary / Food Market Civic Hall", "Grain Hall", "Awning Monument", "Mill Court Nook"], "narrativeUse": ["food market", "milling", "hunger politics"], "landmark": "Grain Hall", "minorLandmarks": ["Awning Monument", "Mill Court Nook"]}
+    {
+      "districtNumber": 1,
+      "sectionNumber": 1,
+      "name": "D01 Agricultural Terraces Civic Approach",
+      "civicPurpose": "A civic approach district within Agricultural Terraces that supports Agricultural Terraces Civic Hall, Terrace Granary Beacon, and the surrounding section economy.",
+      "visualIdentity": "Use Red Brick, Wool Felt, Sandstone, Dyed Wool, section signage through Agricultural Terraces Civic Hall, Terrace Granary Beacon, Hanging Gardens Monument, Seed Hall Nook, and terrain cues from Dry Stone Paving, Civic Terraces. The district should read as part of Agricultural Terraces without becoming generic.",
+      "emotionalIdentity": "civic approach-oriented, local, practical, and tied to the section mood of Agricultural Terraces",
+      "gameplayAssetNeeds": [
+        "Agricultural Terraces Civic Hall",
+        "Terrace Granary Beacon",
+        "Hanging Gardens Monument",
+        "Seed Hall Nook",
+        "Agricultural Terraces pedestrians",
+        "street props",
+        "section lighting",
+        "board-readable landmark silhouette"
+      ],
+      "narrativeUse": [
+        "street scenes in Agricultural Terraces",
+        "local business around Terrace Granary Beacon",
+        "district traversal",
+        "rumor exchange",
+        "small civic obstacle"
+      ],
+      "primaryLandmark": "Terrace Granary Beacon",
+      "minorLandmarks": [
+        "Agricultural Terraces Civic Hall",
+        "Hanging Gardens Monument",
+        "Seed Hall Nook"
+      ]
+    },
+    {
+      "districtNumber": 2,
+      "sectionNumber": 1,
+      "name": "D02 Agricultural Terraces Landmark Court",
+      "civicPurpose": "A landmark court district within Agricultural Terraces that supports Agricultural Terraces Civic Hall, Terrace Granary Beacon, and the surrounding section economy.",
+      "visualIdentity": "Use Red Brick, Wool Felt, Sandstone, Dyed Wool, section signage through Agricultural Terraces Civic Hall, Terrace Granary Beacon, Hanging Gardens Monument, Seed Hall Nook, and terrain cues from Dry Stone Paving, Civic Terraces. The district should read as part of Agricultural Terraces without becoming generic.",
+      "emotionalIdentity": "landmark court-oriented, local, practical, and tied to the section mood of Agricultural Terraces",
+      "gameplayAssetNeeds": [
+        "Agricultural Terraces Civic Hall",
+        "Terrace Granary Beacon",
+        "Hanging Gardens Monument",
+        "Seed Hall Nook",
+        "Agricultural Terraces pedestrians",
+        "street props",
+        "section lighting",
+        "board-readable landmark silhouette"
+      ],
+      "narrativeUse": [
+        "street scenes in Agricultural Terraces",
+        "local business around Terrace Granary Beacon",
+        "district traversal",
+        "rumor exchange",
+        "small civic obstacle"
+      ],
+      "primaryLandmark": "Terrace Granary Beacon",
+      "minorLandmarks": [
+        "Agricultural Terraces Civic Hall",
+        "Hanging Gardens Monument",
+        "Seed Hall Nook"
+      ]
+    },
+    {
+      "districtNumber": 3,
+      "sectionNumber": 1,
+      "name": "D03 Agricultural Terraces Working Streets",
+      "civicPurpose": "A working streets district within Agricultural Terraces that supports Agricultural Terraces Civic Hall, Terrace Granary Beacon, and the surrounding section economy.",
+      "visualIdentity": "Use Red Brick, Wool Felt, Sandstone, Dyed Wool, section signage through Agricultural Terraces Civic Hall, Terrace Granary Beacon, Hanging Gardens Monument, Seed Hall Nook, and terrain cues from Dry Stone Paving, Civic Terraces. The district should read as part of Agricultural Terraces without becoming generic.",
+      "emotionalIdentity": "working streets-oriented, local, practical, and tied to the section mood of Agricultural Terraces",
+      "gameplayAssetNeeds": [
+        "Agricultural Terraces Civic Hall",
+        "Terrace Granary Beacon",
+        "Hanging Gardens Monument",
+        "Seed Hall Nook",
+        "Agricultural Terraces pedestrians",
+        "street props",
+        "section lighting",
+        "board-readable landmark silhouette"
+      ],
+      "narrativeUse": [
+        "street scenes in Agricultural Terraces",
+        "local business around Terrace Granary Beacon",
+        "district traversal",
+        "rumor exchange",
+        "small civic obstacle"
+      ],
+      "primaryLandmark": "Terrace Granary Beacon",
+      "minorLandmarks": [
+        "Agricultural Terraces Civic Hall",
+        "Hanging Gardens Monument",
+        "Seed Hall Nook"
+      ]
+    },
+    {
+      "districtNumber": 4,
+      "sectionNumber": 2,
+      "name": "D04 Transit / Caravan / Rail Civic Approach",
+      "civicPurpose": "A civic approach district within Transit / Caravan / Rail that supports Transit / Caravan / Rail Civic Hall, Caravanserai, and the surrounding section economy.",
+      "visualIdentity": "Use Red Brick, Wool Felt, Sandstone, Dyed Wool, section signage through Transit / Caravan / Rail Civic Hall, Caravanserai, Woven Banners Monument, Waystation Hall Nook, and terrain cues from Dry Stone Paving, Civic Terraces. The district should read as part of Transit / Caravan / Rail without becoming generic.",
+      "emotionalIdentity": "civic approach-oriented, local, practical, and tied to the section mood of Transit / Caravan / Rail",
+      "gameplayAssetNeeds": [
+        "Transit / Caravan / Rail Civic Hall",
+        "Caravanserai",
+        "Woven Banners Monument",
+        "Waystation Hall Nook",
+        "Transit / Caravan / Rail pedestrians",
+        "street props",
+        "section lighting",
+        "board-readable landmark silhouette"
+      ],
+      "narrativeUse": [
+        "street scenes in Transit / Caravan / Rail",
+        "local business around Caravanserai",
+        "district traversal",
+        "rumor exchange",
+        "small civic obstacle"
+      ],
+      "primaryLandmark": "Caravanserai",
+      "minorLandmarks": [
+        "Transit / Caravan / Rail Civic Hall",
+        "Woven Banners Monument",
+        "Waystation Hall Nook"
+      ]
+    },
+    {
+      "districtNumber": 5,
+      "sectionNumber": 2,
+      "name": "D05 Transit / Caravan / Rail Landmark Court",
+      "civicPurpose": "A landmark court district within Transit / Caravan / Rail that supports Transit / Caravan / Rail Civic Hall, Caravanserai, and the surrounding section economy.",
+      "visualIdentity": "Use Red Brick, Wool Felt, Sandstone, Dyed Wool, section signage through Transit / Caravan / Rail Civic Hall, Caravanserai, Woven Banners Monument, Waystation Hall Nook, and terrain cues from Dry Stone Paving, Civic Terraces. The district should read as part of Transit / Caravan / Rail without becoming generic.",
+      "emotionalIdentity": "landmark court-oriented, local, practical, and tied to the section mood of Transit / Caravan / Rail",
+      "gameplayAssetNeeds": [
+        "Transit / Caravan / Rail Civic Hall",
+        "Caravanserai",
+        "Woven Banners Monument",
+        "Waystation Hall Nook",
+        "Transit / Caravan / Rail pedestrians",
+        "street props",
+        "section lighting",
+        "board-readable landmark silhouette"
+      ],
+      "narrativeUse": [
+        "street scenes in Transit / Caravan / Rail",
+        "local business around Caravanserai",
+        "district traversal",
+        "rumor exchange",
+        "small civic obstacle"
+      ],
+      "primaryLandmark": "Caravanserai",
+      "minorLandmarks": [
+        "Transit / Caravan / Rail Civic Hall",
+        "Woven Banners Monument",
+        "Waystation Hall Nook"
+      ]
+    },
+    {
+      "districtNumber": 6,
+      "sectionNumber": 1,
+      "name": "D06 Agricultural Terraces Residential Edge",
+      "civicPurpose": "A residential edge district within Agricultural Terraces that supports Agricultural Terraces Civic Hall, Terrace Granary Beacon, and the surrounding section economy.",
+      "visualIdentity": "Use Red Brick, Wool Felt, Sandstone, Dyed Wool, section signage through Agricultural Terraces Civic Hall, Terrace Granary Beacon, Hanging Gardens Monument, Seed Hall Nook, and terrain cues from Dry Stone Paving, Civic Terraces. The district should read as part of Agricultural Terraces without becoming generic.",
+      "emotionalIdentity": "residential edge-oriented, local, practical, and tied to the section mood of Agricultural Terraces",
+      "gameplayAssetNeeds": [
+        "Agricultural Terraces Civic Hall",
+        "Terrace Granary Beacon",
+        "Hanging Gardens Monument",
+        "Seed Hall Nook",
+        "Agricultural Terraces pedestrians",
+        "street props",
+        "section lighting",
+        "board-readable landmark silhouette"
+      ],
+      "narrativeUse": [
+        "street scenes in Agricultural Terraces",
+        "local business around Terrace Granary Beacon",
+        "district traversal",
+        "rumor exchange",
+        "small civic obstacle"
+      ],
+      "primaryLandmark": "Terrace Granary Beacon",
+      "minorLandmarks": [
+        "Agricultural Terraces Civic Hall",
+        "Hanging Gardens Monument",
+        "Seed Hall Nook"
+      ]
+    },
+    {
+      "districtNumber": 7,
+      "sectionNumber": 1,
+      "name": "D07 Agricultural Terraces Service Yard",
+      "civicPurpose": "A service yard district within Agricultural Terraces that supports Agricultural Terraces Civic Hall, Terrace Granary Beacon, and the surrounding section economy.",
+      "visualIdentity": "Use Red Brick, Wool Felt, Sandstone, Dyed Wool, section signage through Agricultural Terraces Civic Hall, Terrace Granary Beacon, Hanging Gardens Monument, Seed Hall Nook, and terrain cues from Dry Stone Paving, Civic Terraces. The district should read as part of Agricultural Terraces without becoming generic.",
+      "emotionalIdentity": "service yard-oriented, local, practical, and tied to the section mood of Agricultural Terraces",
+      "gameplayAssetNeeds": [
+        "Agricultural Terraces Civic Hall",
+        "Terrace Granary Beacon",
+        "Hanging Gardens Monument",
+        "Seed Hall Nook",
+        "Agricultural Terraces pedestrians",
+        "street props",
+        "section lighting",
+        "board-readable landmark silhouette"
+      ],
+      "narrativeUse": [
+        "street scenes in Agricultural Terraces",
+        "local business around Terrace Granary Beacon",
+        "district traversal",
+        "rumor exchange",
+        "small civic obstacle"
+      ],
+      "primaryLandmark": "Terrace Granary Beacon",
+      "minorLandmarks": [
+        "Agricultural Terraces Civic Hall",
+        "Hanging Gardens Monument",
+        "Seed Hall Nook"
+      ]
+    },
+    {
+      "districtNumber": 8,
+      "sectionNumber": 3,
+      "name": "D08 Judicial Quarter Civic Approach",
+      "civicPurpose": "A civic approach district within Judicial Quarter that supports Judicial Quarter Hall, High Court, and the surrounding section economy.",
+      "visualIdentity": "Use Red Brick, Wool Felt, Sandstone, Dyed Wool, section signage through Judicial Quarter Hall, High Court, Judicial Quarter Gold-Seal Monument, Witness Archive Nook, and terrain cues from Dry Stone Paving, Civic Terraces. The district should read as part of Judicial Quarter without becoming generic.",
+      "emotionalIdentity": "civic approach-oriented, local, practical, and tied to the section mood of Judicial Quarter",
+      "gameplayAssetNeeds": [
+        "Judicial Quarter Hall",
+        "High Court",
+        "Judicial Quarter Gold-Seal Monument",
+        "Witness Archive Nook",
+        "Judicial Quarter pedestrians",
+        "street props",
+        "section lighting",
+        "board-readable landmark silhouette"
+      ],
+      "narrativeUse": [
+        "street scenes in Judicial Quarter",
+        "local business around High Court",
+        "district traversal",
+        "rumor exchange",
+        "small civic obstacle"
+      ],
+      "primaryLandmark": "High Court",
+      "minorLandmarks": [
+        "Judicial Quarter Hall",
+        "Judicial Quarter Gold-Seal Monument",
+        "Witness Archive Nook"
+      ]
+    },
+    {
+      "districtNumber": 9,
+      "sectionNumber": 2,
+      "name": "D09 Transit / Caravan / Rail Working Streets",
+      "civicPurpose": "A working streets district within Transit / Caravan / Rail that supports Transit / Caravan / Rail Civic Hall, Caravanserai, and the surrounding section economy.",
+      "visualIdentity": "Use Red Brick, Wool Felt, Sandstone, Dyed Wool, section signage through Transit / Caravan / Rail Civic Hall, Caravanserai, Woven Banners Monument, Waystation Hall Nook, and terrain cues from Dry Stone Paving, Civic Terraces. The district should read as part of Transit / Caravan / Rail without becoming generic.",
+      "emotionalIdentity": "working streets-oriented, local, practical, and tied to the section mood of Transit / Caravan / Rail",
+      "gameplayAssetNeeds": [
+        "Transit / Caravan / Rail Civic Hall",
+        "Caravanserai",
+        "Woven Banners Monument",
+        "Waystation Hall Nook",
+        "Transit / Caravan / Rail pedestrians",
+        "street props",
+        "section lighting",
+        "board-readable landmark silhouette"
+      ],
+      "narrativeUse": [
+        "street scenes in Transit / Caravan / Rail",
+        "local business around Caravanserai",
+        "district traversal",
+        "rumor exchange",
+        "small civic obstacle"
+      ],
+      "primaryLandmark": "Caravanserai",
+      "minorLandmarks": [
+        "Transit / Caravan / Rail Civic Hall",
+        "Woven Banners Monument",
+        "Waystation Hall Nook"
+      ]
+    },
+    {
+      "districtNumber": 10,
+      "sectionNumber": 2,
+      "name": "D10 Transit / Caravan / Rail Residential Edge",
+      "civicPurpose": "A residential edge district within Transit / Caravan / Rail that supports Transit / Caravan / Rail Civic Hall, Caravanserai, and the surrounding section economy.",
+      "visualIdentity": "Use Red Brick, Wool Felt, Sandstone, Dyed Wool, section signage through Transit / Caravan / Rail Civic Hall, Caravanserai, Woven Banners Monument, Waystation Hall Nook, and terrain cues from Dry Stone Paving, Civic Terraces. The district should read as part of Transit / Caravan / Rail without becoming generic.",
+      "emotionalIdentity": "residential edge-oriented, local, practical, and tied to the section mood of Transit / Caravan / Rail",
+      "gameplayAssetNeeds": [
+        "Transit / Caravan / Rail Civic Hall",
+        "Caravanserai",
+        "Woven Banners Monument",
+        "Waystation Hall Nook",
+        "Transit / Caravan / Rail pedestrians",
+        "street props",
+        "section lighting",
+        "board-readable landmark silhouette"
+      ],
+      "narrativeUse": [
+        "street scenes in Transit / Caravan / Rail",
+        "local business around Caravanserai",
+        "district traversal",
+        "rumor exchange",
+        "small civic obstacle"
+      ],
+      "primaryLandmark": "Caravanserai",
+      "minorLandmarks": [
+        "Transit / Caravan / Rail Civic Hall",
+        "Woven Banners Monument",
+        "Waystation Hall Nook"
+      ]
+    },
+    {
+      "districtNumber": 11,
+      "sectionNumber": 4,
+      "name": "D11 Arena / Training Civic Approach",
+      "civicPurpose": "A civic approach district within Arena / Training that supports Arena / Training Civic Hall, Training Arena, and the surrounding section economy.",
+      "visualIdentity": "Use Red Brick, Wool Felt, Sandstone, Dyed Wool, section signage through Arena / Training Civic Hall, Training Arena, Woven Banners Monument, Champion Gate Nook, and terrain cues from Dry Stone Paving, Civic Terraces. The district should read as part of Arena / Training without becoming generic.",
+      "emotionalIdentity": "civic approach-oriented, local, practical, and tied to the section mood of Arena / Training",
+      "gameplayAssetNeeds": [
+        "Arena / Training Civic Hall",
+        "Training Arena",
+        "Woven Banners Monument",
+        "Champion Gate Nook",
+        "Arena / Training pedestrians",
+        "street props",
+        "section lighting",
+        "board-readable landmark silhouette"
+      ],
+      "narrativeUse": [
+        "street scenes in Arena / Training",
+        "local business around Training Arena",
+        "district traversal",
+        "rumor exchange",
+        "small civic obstacle"
+      ],
+      "primaryLandmark": "Training Arena",
+      "minorLandmarks": [
+        "Arena / Training Civic Hall",
+        "Woven Banners Monument",
+        "Champion Gate Nook"
+      ]
+    },
+    {
+      "districtNumber": 12,
+      "sectionNumber": 3,
+      "name": "D12 Judicial Quarter Landmark Court",
+      "civicPurpose": "A landmark court district within Judicial Quarter that supports Judicial Quarter Hall, High Court, and the surrounding section economy.",
+      "visualIdentity": "Use Red Brick, Wool Felt, Sandstone, Dyed Wool, section signage through Judicial Quarter Hall, High Court, Judicial Quarter Gold-Seal Monument, Witness Archive Nook, and terrain cues from Dry Stone Paving, Civic Terraces. The district should read as part of Judicial Quarter without becoming generic.",
+      "emotionalIdentity": "landmark court-oriented, local, practical, and tied to the section mood of Judicial Quarter",
+      "gameplayAssetNeeds": [
+        "Judicial Quarter Hall",
+        "High Court",
+        "Judicial Quarter Gold-Seal Monument",
+        "Witness Archive Nook",
+        "Judicial Quarter pedestrians",
+        "street props",
+        "section lighting",
+        "board-readable landmark silhouette"
+      ],
+      "narrativeUse": [
+        "street scenes in Judicial Quarter",
+        "local business around High Court",
+        "district traversal",
+        "rumor exchange",
+        "small civic obstacle"
+      ],
+      "primaryLandmark": "High Court",
+      "minorLandmarks": [
+        "Judicial Quarter Hall",
+        "Judicial Quarter Gold-Seal Monument",
+        "Witness Archive Nook"
+      ]
+    },
+    {
+      "districtNumber": 13,
+      "sectionNumber": 3,
+      "name": "D13 Caravan Wheel Emblems Sovereign Registry Court",
+      "civicPurpose": "Central seat-of-power district where Caravan Wheel Emblems Sovereign Registry Court concentrates courts, archives, command platforms, petitions, and city legitimacy.",
+      "visualIdentity": "Use Red Brick, Wool Felt, Sandstone, Dyed Wool, section signage through Judicial Quarter Hall, High Court, Judicial Quarter Gold-Seal Monument, Witness Archive Nook, and terrain cues from Dry Stone Paving, Civic Terraces. The district should read as part of Judicial Quarter without becoming generic.",
+      "emotionalIdentity": "authoritative, tense, formal, and publicly consequential",
+      "gameplayAssetNeeds": [
+        "Caravan Wheel Emblems Sovereign Registry Court",
+        "audience terraces",
+        "sealed archives",
+        "command platforms",
+        "petition queues"
+      ],
+      "narrativeUse": [
+        "central ruling scenes",
+        "public petitions",
+        "sealed records",
+        "political pressure",
+        "citywide legitimacy tests"
+      ],
+      "primaryLandmark": "Caravan Wheel Emblems Sovereign Registry Court",
+      "minorLandmarks": [
+        "Judicial Quarter Hall",
+        "Judicial Quarter Gold-Seal Monument",
+        "Witness Archive Nook"
+      ]
+    },
+    {
+      "districtNumber": 14,
+      "sectionNumber": 3,
+      "name": "D14 Judicial Quarter Residential Edge",
+      "civicPurpose": "A residential edge district within Judicial Quarter that supports Judicial Quarter Hall, High Court, and the surrounding section economy.",
+      "visualIdentity": "Use Red Brick, Wool Felt, Sandstone, Dyed Wool, section signage through Judicial Quarter Hall, High Court, Judicial Quarter Gold-Seal Monument, Witness Archive Nook, and terrain cues from Dry Stone Paving, Civic Terraces. The district should read as part of Judicial Quarter without becoming generic.",
+      "emotionalIdentity": "residential edge-oriented, local, practical, and tied to the section mood of Judicial Quarter",
+      "gameplayAssetNeeds": [
+        "Judicial Quarter Hall",
+        "High Court",
+        "Judicial Quarter Gold-Seal Monument",
+        "Witness Archive Nook",
+        "Judicial Quarter pedestrians",
+        "street props",
+        "section lighting",
+        "board-readable landmark silhouette"
+      ],
+      "narrativeUse": [
+        "street scenes in Judicial Quarter",
+        "local business around High Court",
+        "district traversal",
+        "rumor exchange",
+        "small civic obstacle"
+      ],
+      "primaryLandmark": "High Court",
+      "minorLandmarks": [
+        "Judicial Quarter Hall",
+        "Judicial Quarter Gold-Seal Monument",
+        "Witness Archive Nook"
+      ]
+    },
+    {
+      "districtNumber": 15,
+      "sectionNumber": 2,
+      "name": "D15 Transit / Caravan / Rail Service Yard",
+      "civicPurpose": "A service yard district within Transit / Caravan / Rail that supports Transit / Caravan / Rail Civic Hall, Caravanserai, and the surrounding section economy.",
+      "visualIdentity": "Use Red Brick, Wool Felt, Sandstone, Dyed Wool, section signage through Transit / Caravan / Rail Civic Hall, Caravanserai, Woven Banners Monument, Waystation Hall Nook, and terrain cues from Dry Stone Paving, Civic Terraces. The district should read as part of Transit / Caravan / Rail without becoming generic.",
+      "emotionalIdentity": "service yard-oriented, local, practical, and tied to the section mood of Transit / Caravan / Rail",
+      "gameplayAssetNeeds": [
+        "Transit / Caravan / Rail Civic Hall",
+        "Caravanserai",
+        "Woven Banners Monument",
+        "Waystation Hall Nook",
+        "Transit / Caravan / Rail pedestrians",
+        "street props",
+        "section lighting",
+        "board-readable landmark silhouette"
+      ],
+      "narrativeUse": [
+        "street scenes in Transit / Caravan / Rail",
+        "local business around Caravanserai",
+        "district traversal",
+        "rumor exchange",
+        "small civic obstacle"
+      ],
+      "primaryLandmark": "Caravanserai",
+      "minorLandmarks": [
+        "Transit / Caravan / Rail Civic Hall",
+        "Woven Banners Monument",
+        "Waystation Hall Nook"
+      ]
+    },
+    {
+      "districtNumber": 16,
+      "sectionNumber": 4,
+      "name": "D16 Arena / Training Landmark Court",
+      "civicPurpose": "A landmark court district within Arena / Training that supports Arena / Training Civic Hall, Training Arena, and the surrounding section economy.",
+      "visualIdentity": "Use Red Brick, Wool Felt, Sandstone, Dyed Wool, section signage through Arena / Training Civic Hall, Training Arena, Woven Banners Monument, Champion Gate Nook, and terrain cues from Dry Stone Paving, Civic Terraces. The district should read as part of Arena / Training without becoming generic.",
+      "emotionalIdentity": "landmark court-oriented, local, practical, and tied to the section mood of Arena / Training",
+      "gameplayAssetNeeds": [
+        "Arena / Training Civic Hall",
+        "Training Arena",
+        "Woven Banners Monument",
+        "Champion Gate Nook",
+        "Arena / Training pedestrians",
+        "street props",
+        "section lighting",
+        "board-readable landmark silhouette"
+      ],
+      "narrativeUse": [
+        "street scenes in Arena / Training",
+        "local business around Training Arena",
+        "district traversal",
+        "rumor exchange",
+        "small civic obstacle"
+      ],
+      "primaryLandmark": "Training Arena",
+      "minorLandmarks": [
+        "Arena / Training Civic Hall",
+        "Woven Banners Monument",
+        "Champion Gate Nook"
+      ]
+    },
+    {
+      "districtNumber": 17,
+      "sectionNumber": 4,
+      "name": "D17 Arena / Training Working Streets",
+      "civicPurpose": "A working streets district within Arena / Training that supports Arena / Training Civic Hall, Training Arena, and the surrounding section economy.",
+      "visualIdentity": "Use Red Brick, Wool Felt, Sandstone, Dyed Wool, section signage through Arena / Training Civic Hall, Training Arena, Woven Banners Monument, Champion Gate Nook, and terrain cues from Dry Stone Paving, Civic Terraces. The district should read as part of Arena / Training without becoming generic.",
+      "emotionalIdentity": "working streets-oriented, local, practical, and tied to the section mood of Arena / Training",
+      "gameplayAssetNeeds": [
+        "Arena / Training Civic Hall",
+        "Training Arena",
+        "Woven Banners Monument",
+        "Champion Gate Nook",
+        "Arena / Training pedestrians",
+        "street props",
+        "section lighting",
+        "board-readable landmark silhouette"
+      ],
+      "narrativeUse": [
+        "street scenes in Arena / Training",
+        "local business around Training Arena",
+        "district traversal",
+        "rumor exchange",
+        "small civic obstacle"
+      ],
+      "primaryLandmark": "Training Arena",
+      "minorLandmarks": [
+        "Arena / Training Civic Hall",
+        "Woven Banners Monument",
+        "Champion Gate Nook"
+      ]
+    },
+    {
+      "districtNumber": 18,
+      "sectionNumber": 3,
+      "name": "D18 Judicial Quarter Service Yard",
+      "civicPurpose": "A service yard district within Judicial Quarter that supports Judicial Quarter Hall, High Court, and the surrounding section economy.",
+      "visualIdentity": "Use Red Brick, Wool Felt, Sandstone, Dyed Wool, section signage through Judicial Quarter Hall, High Court, Judicial Quarter Gold-Seal Monument, Witness Archive Nook, and terrain cues from Dry Stone Paving, Civic Terraces. The district should read as part of Judicial Quarter without becoming generic.",
+      "emotionalIdentity": "service yard-oriented, local, practical, and tied to the section mood of Judicial Quarter",
+      "gameplayAssetNeeds": [
+        "Judicial Quarter Hall",
+        "High Court",
+        "Judicial Quarter Gold-Seal Monument",
+        "Witness Archive Nook",
+        "Judicial Quarter pedestrians",
+        "street props",
+        "section lighting",
+        "board-readable landmark silhouette"
+      ],
+      "narrativeUse": [
+        "street scenes in Judicial Quarter",
+        "local business around High Court",
+        "district traversal",
+        "rumor exchange",
+        "small civic obstacle"
+      ],
+      "primaryLandmark": "High Court",
+      "minorLandmarks": [
+        "Judicial Quarter Hall",
+        "Judicial Quarter Gold-Seal Monument",
+        "Witness Archive Nook"
+      ]
+    },
+    {
+      "districtNumber": 19,
+      "sectionNumber": 5,
+      "name": "D19 Granary / Food Market Civic Approach",
+      "civicPurpose": "A civic approach district within Granary / Food Market that supports Granary / Food Market Civic Hall, Grain Hall, and the surrounding section economy.",
+      "visualIdentity": "Use Red Brick, Wool Felt, Sandstone, Dyed Wool, section signage through Granary / Food Market Civic Hall, Grain Hall, Awning Monument, Mill Court Nook, and terrain cues from Dry Stone Paving, Civic Terraces. The district should read as part of Granary / Food Market without becoming generic.",
+      "emotionalIdentity": "civic approach-oriented, local, practical, and tied to the section mood of Granary / Food Market",
+      "gameplayAssetNeeds": [
+        "Granary / Food Market Civic Hall",
+        "Grain Hall",
+        "Awning Monument",
+        "Mill Court Nook",
+        "Granary / Food Market pedestrians",
+        "street props",
+        "section lighting",
+        "board-readable landmark silhouette"
+      ],
+      "narrativeUse": [
+        "street scenes in Granary / Food Market",
+        "local business around Grain Hall",
+        "district traversal",
+        "rumor exchange",
+        "small civic obstacle"
+      ],
+      "primaryLandmark": "Grain Hall",
+      "minorLandmarks": [
+        "Granary / Food Market Civic Hall",
+        "Awning Monument",
+        "Mill Court Nook"
+      ]
+    },
+    {
+      "districtNumber": 20,
+      "sectionNumber": 5,
+      "name": "D20 Granary / Food Market Landmark Court",
+      "civicPurpose": "A landmark court district within Granary / Food Market that supports Granary / Food Market Civic Hall, Grain Hall, and the surrounding section economy.",
+      "visualIdentity": "Use Red Brick, Wool Felt, Sandstone, Dyed Wool, section signage through Granary / Food Market Civic Hall, Grain Hall, Awning Monument, Mill Court Nook, and terrain cues from Dry Stone Paving, Civic Terraces. The district should read as part of Granary / Food Market without becoming generic.",
+      "emotionalIdentity": "landmark court-oriented, local, practical, and tied to the section mood of Granary / Food Market",
+      "gameplayAssetNeeds": [
+        "Granary / Food Market Civic Hall",
+        "Grain Hall",
+        "Awning Monument",
+        "Mill Court Nook",
+        "Granary / Food Market pedestrians",
+        "street props",
+        "section lighting",
+        "board-readable landmark silhouette"
+      ],
+      "narrativeUse": [
+        "street scenes in Granary / Food Market",
+        "local business around Grain Hall",
+        "district traversal",
+        "rumor exchange",
+        "small civic obstacle"
+      ],
+      "primaryLandmark": "Grain Hall",
+      "minorLandmarks": [
+        "Granary / Food Market Civic Hall",
+        "Awning Monument",
+        "Mill Court Nook"
+      ]
+    },
+    {
+      "districtNumber": 21,
+      "sectionNumber": 4,
+      "name": "D21 Arena / Training Residential Edge",
+      "civicPurpose": "A residential edge district within Arena / Training that supports Arena / Training Civic Hall, Training Arena, and the surrounding section economy.",
+      "visualIdentity": "Use Red Brick, Wool Felt, Sandstone, Dyed Wool, section signage through Arena / Training Civic Hall, Training Arena, Woven Banners Monument, Champion Gate Nook, and terrain cues from Dry Stone Paving, Civic Terraces. The district should read as part of Arena / Training without becoming generic.",
+      "emotionalIdentity": "residential edge-oriented, local, practical, and tied to the section mood of Arena / Training",
+      "gameplayAssetNeeds": [
+        "Arena / Training Civic Hall",
+        "Training Arena",
+        "Woven Banners Monument",
+        "Champion Gate Nook",
+        "Arena / Training pedestrians",
+        "street props",
+        "section lighting",
+        "board-readable landmark silhouette"
+      ],
+      "narrativeUse": [
+        "street scenes in Arena / Training",
+        "local business around Training Arena",
+        "district traversal",
+        "rumor exchange",
+        "small civic obstacle"
+      ],
+      "primaryLandmark": "Training Arena",
+      "minorLandmarks": [
+        "Arena / Training Civic Hall",
+        "Woven Banners Monument",
+        "Champion Gate Nook"
+      ]
+    },
+    {
+      "districtNumber": 22,
+      "sectionNumber": 4,
+      "name": "D22 Arena / Training Service Yard",
+      "civicPurpose": "A service yard district within Arena / Training that supports Arena / Training Civic Hall, Training Arena, and the surrounding section economy.",
+      "visualIdentity": "Use Red Brick, Wool Felt, Sandstone, Dyed Wool, section signage through Arena / Training Civic Hall, Training Arena, Woven Banners Monument, Champion Gate Nook, and terrain cues from Dry Stone Paving, Civic Terraces. The district should read as part of Arena / Training without becoming generic.",
+      "emotionalIdentity": "service yard-oriented, local, practical, and tied to the section mood of Arena / Training",
+      "gameplayAssetNeeds": [
+        "Arena / Training Civic Hall",
+        "Training Arena",
+        "Woven Banners Monument",
+        "Champion Gate Nook",
+        "Arena / Training pedestrians",
+        "street props",
+        "section lighting",
+        "board-readable landmark silhouette"
+      ],
+      "narrativeUse": [
+        "street scenes in Arena / Training",
+        "local business around Training Arena",
+        "district traversal",
+        "rumor exchange",
+        "small civic obstacle"
+      ],
+      "primaryLandmark": "Training Arena",
+      "minorLandmarks": [
+        "Arena / Training Civic Hall",
+        "Woven Banners Monument",
+        "Champion Gate Nook"
+      ]
+    },
+    {
+      "districtNumber": 23,
+      "sectionNumber": 5,
+      "name": "D23 Granary / Food Market Working Streets",
+      "civicPurpose": "A working streets district within Granary / Food Market that supports Granary / Food Market Civic Hall, Grain Hall, and the surrounding section economy.",
+      "visualIdentity": "Use Red Brick, Wool Felt, Sandstone, Dyed Wool, section signage through Granary / Food Market Civic Hall, Grain Hall, Awning Monument, Mill Court Nook, and terrain cues from Dry Stone Paving, Civic Terraces. The district should read as part of Granary / Food Market without becoming generic.",
+      "emotionalIdentity": "working streets-oriented, local, practical, and tied to the section mood of Granary / Food Market",
+      "gameplayAssetNeeds": [
+        "Granary / Food Market Civic Hall",
+        "Grain Hall",
+        "Awning Monument",
+        "Mill Court Nook",
+        "Granary / Food Market pedestrians",
+        "street props",
+        "section lighting",
+        "board-readable landmark silhouette"
+      ],
+      "narrativeUse": [
+        "street scenes in Granary / Food Market",
+        "local business around Grain Hall",
+        "district traversal",
+        "rumor exchange",
+        "small civic obstacle"
+      ],
+      "primaryLandmark": "Grain Hall",
+      "minorLandmarks": [
+        "Granary / Food Market Civic Hall",
+        "Awning Monument",
+        "Mill Court Nook"
+      ]
+    },
+    {
+      "districtNumber": 24,
+      "sectionNumber": 5,
+      "name": "D24 Granary / Food Market Residential Edge",
+      "civicPurpose": "A residential edge district within Granary / Food Market that supports Granary / Food Market Civic Hall, Grain Hall, and the surrounding section economy.",
+      "visualIdentity": "Use Red Brick, Wool Felt, Sandstone, Dyed Wool, section signage through Granary / Food Market Civic Hall, Grain Hall, Awning Monument, Mill Court Nook, and terrain cues from Dry Stone Paving, Civic Terraces. The district should read as part of Granary / Food Market without becoming generic.",
+      "emotionalIdentity": "residential edge-oriented, local, practical, and tied to the section mood of Granary / Food Market",
+      "gameplayAssetNeeds": [
+        "Granary / Food Market Civic Hall",
+        "Grain Hall",
+        "Awning Monument",
+        "Mill Court Nook",
+        "Granary / Food Market pedestrians",
+        "street props",
+        "section lighting",
+        "board-readable landmark silhouette"
+      ],
+      "narrativeUse": [
+        "street scenes in Granary / Food Market",
+        "local business around Grain Hall",
+        "district traversal",
+        "rumor exchange",
+        "small civic obstacle"
+      ],
+      "primaryLandmark": "Grain Hall",
+      "minorLandmarks": [
+        "Granary / Food Market Civic Hall",
+        "Awning Monument",
+        "Mill Court Nook"
+      ]
+    },
+    {
+      "districtNumber": 25,
+      "sectionNumber": 5,
+      "name": "D25 Granary / Food Market Service Yard",
+      "civicPurpose": "A service yard district within Granary / Food Market that supports Granary / Food Market Civic Hall, Grain Hall, and the surrounding section economy.",
+      "visualIdentity": "Use Red Brick, Wool Felt, Sandstone, Dyed Wool, section signage through Granary / Food Market Civic Hall, Grain Hall, Awning Monument, Mill Court Nook, and terrain cues from Dry Stone Paving, Civic Terraces. The district should read as part of Granary / Food Market without becoming generic.",
+      "emotionalIdentity": "service yard-oriented, local, practical, and tied to the section mood of Granary / Food Market",
+      "gameplayAssetNeeds": [
+        "Granary / Food Market Civic Hall",
+        "Grain Hall",
+        "Awning Monument",
+        "Mill Court Nook",
+        "Granary / Food Market pedestrians",
+        "street props",
+        "section lighting",
+        "board-readable landmark silhouette"
+      ],
+      "narrativeUse": [
+        "street scenes in Granary / Food Market",
+        "local business around Grain Hall",
+        "district traversal",
+        "rumor exchange",
+        "small civic obstacle"
+      ],
+      "primaryLandmark": "Grain Hall",
+      "minorLandmarks": [
+        "Granary / Food Market Civic Hall",
+        "Awning Monument",
+        "Mill Court Nook"
+      ]
+    }
   ],
   "landmarks": {
-    "wonder": {"name": "Romani Lantern-Caravan Palace of Moving Roads", "symbolicRole": "Caravan memory, public light, route identity, and settled movement made civic.", "visualRole": "Wonder-scale lantern palace of roads, wheel emblems, painted plaster, colorful fabric, and public route terraces.", "civicRole": "Citywide symbol for belonging, route rights, hospitality, exile, public celebration, and civic light.", "narrativeUse": ["belonging ceremony", "route-right dispute", "public festival"], "assetUse": ["map wonder", "lantern skyline anchor"], "sensoryIdentity": ["warm lanterns", "cloth color", "music", "road dust"], "storyHooks": ["A lantern route proves someone belongs before the court admits it."]},
-    "beacon": {"name": "Terrace Granary Beacon", "symbolicRole": "Food security and rooted provision as public signal heart.", "visualRole": "Beacon among terrace granaries, seed halls, hanging gardens, and grain routes.", "civicRole": "Coordinates seed halls, caravanserais, courts, training grounds, and grain markets.", "narrativeUse": ["Beacon change", "food signal", "route response"], "assetUse": ["S1 centerpiece", "signal marker"], "sensoryIdentity": ["blue glow", "grain dust", "terrace air"], "storyHooks": ["A Beacon change asks whether the city is rooted enough to keep moving."]},
-    "seatOfPower": {"name": "Caravan Wheel Emblems Sovereign Registry Court", "symbolicRole": "Movement rights, witness standing, route contracts, and civic belonging made government.", "visualRole": "Registry court with wheel emblems, painted stone, archives, legal stairs, and caravan approaches.", "civicRole": "Disputes over roads, residence, caravan legitimacy, testimony, and belonging.", "narrativeUse": ["route contract", "belonging dispute", "witness hearing"], "assetUse": ["seat-of-power marker"], "sensoryIdentity": ["ink", "bronze wheels", "cloth shade", "court voices"], "storyHooks": ["A witness archive proves movement was the original citizenship." ]},
+    "wonder": {
+      "name": "Romani Lantern-Caravan Palace of Moving Roads",
+      "symbolicRole": "The citywide symbol of Romani identity made public and monumental.",
+      "visualRole": "A one-per-city wonder: spectacular, unmistakable, and larger than every section landmark. It turns Velis Caravanor's geography, race identity, material culture, and civic magic into one public symbol. Built for Velis Caravanor's Romani population, it uses Red Brick, Wool Felt, Sandstone, Dyed Wool, Painted Canvas across Dry Stone Paving, Civic Terraces; water context: dry city ground; magic expression: Civic Blue Ill",
+      "civicRole": "A unifying civic symbol larger than section landmarks; it gives Velis Caravanor its skyline identity and public myth.",
+      "narrativeUse": [
+        "citywide reveal",
+        "arrival scene",
+        "public ceremony",
+        "moment of civic awe",
+        "orientation landmark"
+      ],
+      "assetUse": [
+        "map background skyline anchor",
+        "hero-view anchor",
+        "diorama distant silhouette",
+        "city identity marker"
+      ],
+      "sensoryIdentity": [
+        "monumental scale",
+        "public crowd noise",
+        "material gleam",
+        "wagon bells",
+        "market bargaining",
+        "wool felt",
+        "spiced grain"
+      ],
+      "storyHooks": [
+        "a public ceremony at the Wonder changes city mood",
+        "maintenance access reveals hidden civic routes",
+        "the Wonder becomes the reference point during a beacon state"
+      ]
+    },
+    "beacon": {
+      "name": "Terrace Granary Beacon",
+      "symbolicRole": "The public signal point where citywide warning becomes local action.",
+      "visualRole": "A largest local landmark in this section, subordinate only to the city wonder and citadel. It belongs to Section 1 (Agricultural Terraces) of Velis Caravanor and should use Canopy Platforms, Timber Longhouses, Reed Pavilions, red brick and painted canvas materials, Canal Reflections, Hanging Gardens, Woven Banners, and the Romani visual language. Design focus: irrigation channels, largest section focal point, strong",
+      "civicRole": "The Section 1 signal landmark; citizens watch it for alerts, public notices, and Conjunction response.",
+      "narrativeUse": [
+        "beacon color change",
+        "crowd reaction",
+        "evacuation or assembly",
+        "public misinformation",
+        "urgent messenger arrival"
+      ],
+      "assetUse": [
+        "Section 1 diorama centerpiece",
+        "city signal marker",
+        "beacon-state visual effect",
+        "map focal point"
+      ],
+      "sensoryIdentity": [
+        "blue glow",
+        "public hush at signal changes",
+        "stone plaza footsteps",
+        "wagon bells",
+        "market bargaining",
+        "wool felt",
+        "spiced grain"
+      ],
+      "storyHooks": [
+        "a signal is interpreted before officials arrive",
+        "crowds block the approach",
+        "the beacon reveals which district reacts first"
+      ]
+    },
+    "seatOfPower": {
+      "name": "Caravan Wheel Emblems Sovereign Registry Court",
+      "symbolicRole": "Civic authority made visible through courts, archives, command platforms, and public legitimacy.",
+      "visualRole": "The district-13 seat of power: courts, audience terraces, sealed archives, command platforms, and the visible apparatus of government. It is not a faction HQ; it is the city's central civic authority. Built for Velis Caravanor's Romani population, it uses Red Brick, Wool Felt, Sandstone, Dyed Wool, Painted Canvas across Dry Stone Paving, Civic Terraces; water context: dry city ground; magic expression: Civic Blue Ill",
+      "civicRole": "District 13 authority center for petitions, archives, judgments, and city-scale decisions; not a faction headquarters.",
+      "narrativeUse": [
+        "ruling scene",
+        "sealed archive discovery",
+        "public petition",
+        "trial or judgment",
+        "authority under pressure"
+      ],
+      "assetUse": [
+        "central D13 map anchor",
+        "government diorama backdrop",
+        "authority iconography",
+        "petition scene set"
+      ],
+      "sensoryIdentity": [
+        "formal echoes",
+        "archive dust",
+        "official seals",
+        "guarded thresholds",
+        "wagon bells",
+        "market bargaining",
+        "wool felt",
+        "spiced grain"
+      ],
+      "storyHooks": [
+        "a sealed record contradicts public belief",
+        "a petition exposes citywide risk",
+        "command platforms become crowd-facing stages"
+      ]
+    },
     "majorLandmarks": [
-      {"name": "Caravanserai", "symbolicRole": "Hospitality as public infrastructure.", "visualRole": "Caravan court with waystation nook, woven banners, road boards, and guest routes.", "civicRole": "Arrival, lodging, route contracts, and hospitality politics.", "narrativeUse": ["arrival", "route contract"], "assetUse": ["S2 diorama"], "sensoryIdentity": ["dust", "tea", "animal tack", "cloth"], "storyHooks": ["A waystation record changes who is allowed to belong." ]},
-      {"name": "High Court", "symbolicRole": "Witnessed belonging under law.", "visualRole": "Judicial hall with gold seal, witness archive, and public stairs.", "civicRole": "Testimony, law, belonging disputes, and witness pressure.", "narrativeUse": ["trial", "witness pressure"], "assetUse": ["S3 diorama"], "sensoryIdentity": ["wax seals", "stone", "paper"], "storyHooks": ["The witness archive remembers a road the registry forgot." ]},
-      {"name": "Training Arena", "symbolicRole": "Movement disciplined into public skill.", "visualRole": "Arena with banners, champion gate, route-performance space, and public terraces.", "civicRole": "Performance, defense, discipline, and public trial by skill.", "narrativeUse": ["arena test", "performance"], "assetUse": ["S4 diorama"], "sensoryIdentity": ["dust", "banners", "crowd rhythm"], "storyHooks": ["A champion gate test is judged by grace under travel, not brute force." ]},
-      {"name": "Grain Hall", "symbolicRole": "Provisioning as belonging's material proof.", "visualRole": "Grain hall with awning monument, mill court, sacks, and market traffic.", "civicRole": "Market provision, milling, hunger politics, and public abundance.", "narrativeUse": ["grain tally", "food market"], "assetUse": ["S5 diorama"], "sensoryIdentity": ["grain", "bread", "market voices"], "storyHooks": ["A grain tally proves hospitality has limits someone imposed." ]}
+      {
+        "name": "Agricultural Terraces Civic Hall",
+        "symbolicRole": "Section 1 civic center preserving the local identity of Agricultural Terraces.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing. It belongs to Section 1 (Agricultural Terraces) of Velis Caravanor and should use Reed Pavilions, Canopy Platforms, Timber Longhouses, red brick and painted canvas materials, Canal Reflections, Hanging Gardens, Woven Banners, and the Romani visua",
+        "civicRole": "Supports Agricultural Terraces as a playable and writable district spine rather than a generic neighborhood.",
+        "narrativeUse": [
+          "Agricultural Terraces scene anchor",
+          "local errand",
+          "public meeting point",
+          "district conflict",
+          "orientation clue"
+        ],
+        "assetUse": [
+          "Section 1 diorama asset",
+          "board-readable landmark",
+          "street-level focal prop",
+          "map district marker"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "worked materials",
+          "public voices",
+          "wagon bells",
+          "market bargaining",
+          "wool felt",
+          "spiced grain"
+        ],
+        "storyHooks": [
+          "an event at Agricultural Terraces Civic Hall reveals section priorities",
+          "locals use Agricultural Terraces Civic Hall as shorthand for the district",
+          "a small failure here cascades into a citywide problem"
+        ]
+      },
+      {
+        "name": "Hanging Gardens Monument",
+        "symbolicRole": "Section 1 monument preserving the local identity of Agricultural Terraces.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles. It belongs to Section 1 (Agricultural Terraces) of Velis Caravanor and should use Reed Pavilions, Canopy Platforms, Timber Longhouses, red brick and painted canvas materials, Canal Reflections, Hanging Gardens, Woven Banners, and the Romani vis",
+        "civicRole": "Supports Agricultural Terraces as a playable and writable district spine rather than a generic neighborhood.",
+        "narrativeUse": [
+          "Agricultural Terraces scene anchor",
+          "local errand",
+          "public meeting point",
+          "district conflict",
+          "orientation clue"
+        ],
+        "assetUse": [
+          "Section 1 diorama asset",
+          "board-readable landmark",
+          "street-level focal prop",
+          "map district marker"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "worked materials",
+          "public voices",
+          "wagon bells",
+          "market bargaining",
+          "wool felt",
+          "spiced grain"
+        ],
+        "storyHooks": [
+          "an event at Hanging Gardens Monument reveals section priorities",
+          "locals use Hanging Gardens Monument as shorthand for the district",
+          "a small failure here cascades into a citywide problem"
+        ]
+      },
+      {
+        "name": "Seed Hall Nook",
+        "symbolicRole": "Section 1 minor landmark preserving the local identity of Agricultural Terraces.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette. It belongs to Section 1 (Agricultural Terraces) of Velis Caravanor and should use Canopy Platforms, Timber Longhouses, Reed Pavilions, red brick and painted canvas materials, Canal Reflections, Hanging Gardens, Woven Banners, and the Romani visual language. Des",
+        "civicRole": "Supports Agricultural Terraces as a playable and writable district spine rather than a generic neighborhood.",
+        "narrativeUse": [
+          "Agricultural Terraces scene anchor",
+          "local errand",
+          "public meeting point",
+          "district conflict",
+          "orientation clue"
+        ],
+        "assetUse": [
+          "Section 1 diorama asset",
+          "board-readable landmark",
+          "street-level focal prop",
+          "map district marker"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "worked materials",
+          "public voices",
+          "wagon bells",
+          "market bargaining",
+          "wool felt",
+          "spiced grain"
+        ],
+        "storyHooks": [
+          "an event at Seed Hall Nook reveals section priorities",
+          "locals use Seed Hall Nook as shorthand for the district",
+          "a small failure here cascades into a citywide problem"
+        ]
+      },
+      {
+        "name": "Transit / Caravan / Rail Civic Hall",
+        "symbolicRole": "Section 2 civic center preserving the local identity of Transit / Caravan / Rail.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing. It belongs to Section 2 (Transit / Caravan / Rail) of Velis Caravanor and should use Timber Longhouses, Market Arcades, White Limestone Civic Blocks, red brick and painted canvas materials, Woven Banners, Red Fabric Awnings, Lantern Lit, and the",
+        "civicRole": "Supports Transit / Caravan / Rail as a playable and writable district spine rather than a generic neighborhood.",
+        "narrativeUse": [
+          "Transit / Caravan / Rail scene anchor",
+          "local errand",
+          "public meeting point",
+          "district conflict",
+          "orientation clue"
+        ],
+        "assetUse": [
+          "Section 2 diorama asset",
+          "board-readable landmark",
+          "street-level focal prop",
+          "map district marker"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "worked materials",
+          "public voices",
+          "wagon bells",
+          "market bargaining",
+          "wool felt",
+          "spiced grain"
+        ],
+        "storyHooks": [
+          "an event at Transit / Caravan / Rail Civic Hall reveals section priorities",
+          "locals use Transit / Caravan / Rail Civic Hall as shorthand for the district",
+          "a small failure here cascades into a citywide problem"
+        ]
+      },
+      {
+        "name": "Caravanserai",
+        "symbolicRole": "Section 2 major landmark preserving the local identity of Transit / Caravan / Rail.",
+        "visualRole": "A largest local landmark in this section, subordinate only to the city wonder and citadel. It belongs to Section 2 (Transit / Caravan / Rail) of Velis Caravanor and should use Timber Longhouses, Market Arcades, White Limestone Civic Blocks, red brick and painted canvas materials, Lantern Lit, Woven Banners, Red Fabric Awnings, and the Romani visual language.",
+        "civicRole": "Supports Transit / Caravan / Rail as a playable and writable district spine rather than a generic neighborhood.",
+        "narrativeUse": [
+          "Transit / Caravan / Rail scene anchor",
+          "local errand",
+          "public meeting point",
+          "district conflict",
+          "orientation clue"
+        ],
+        "assetUse": [
+          "Section 2 diorama asset",
+          "board-readable landmark",
+          "street-level focal prop",
+          "map district marker"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "worked materials",
+          "public voices",
+          "wagon bells",
+          "market bargaining",
+          "wool felt",
+          "spiced grain"
+        ],
+        "storyHooks": [
+          "an event at Caravanserai reveals section priorities",
+          "locals use Caravanserai as shorthand for the district",
+          "a small failure here cascades into a citywide problem"
+        ]
+      },
+      {
+        "name": "Woven Banners Monument",
+        "symbolicRole": "Section 2 monument preserving the local identity of Transit / Caravan / Rail.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles. It belongs to Section 2 (Transit / Caravan / Rail) of Velis Caravanor and should use Market Arcades, White Limestone Civic Blocks, Timber Longhouses, red brick and painted canvas materials, Lantern Lit, Woven Banners, Red Fabric Awnings, and th",
+        "civicRole": "Supports Transit / Caravan / Rail as a playable and writable district spine rather than a generic neighborhood.",
+        "narrativeUse": [
+          "Transit / Caravan / Rail scene anchor",
+          "local errand",
+          "public meeting point",
+          "district conflict",
+          "orientation clue"
+        ],
+        "assetUse": [
+          "Section 2 diorama asset",
+          "board-readable landmark",
+          "street-level focal prop",
+          "map district marker"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "worked materials",
+          "public voices",
+          "wagon bells",
+          "market bargaining",
+          "wool felt",
+          "spiced grain"
+        ],
+        "storyHooks": [
+          "an event at Woven Banners Monument reveals section priorities",
+          "locals use Woven Banners Monument as shorthand for the district",
+          "a small failure here cascades into a citywide problem"
+        ]
+      },
+      {
+        "name": "Waystation Hall Nook",
+        "symbolicRole": "Section 2 minor landmark preserving the local identity of Transit / Caravan / Rail.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette. It belongs to Section 2 (Transit / Caravan / Rail) of Velis Caravanor and should use Timber Longhouses, Market Arcades, White Limestone Civic Blocks, red brick and painted canvas materials, Woven Banners, Red Fabric Awnings, Lantern Lit, and the Romani visual l",
+        "civicRole": "Supports Transit / Caravan / Rail as a playable and writable district spine rather than a generic neighborhood.",
+        "narrativeUse": [
+          "Transit / Caravan / Rail scene anchor",
+          "local errand",
+          "public meeting point",
+          "district conflict",
+          "orientation clue"
+        ],
+        "assetUse": [
+          "Section 2 diorama asset",
+          "board-readable landmark",
+          "street-level focal prop",
+          "map district marker"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "worked materials",
+          "public voices",
+          "wagon bells",
+          "market bargaining",
+          "wool felt",
+          "spiced grain"
+        ],
+        "storyHooks": [
+          "an event at Waystation Hall Nook reveals section priorities",
+          "locals use Waystation Hall Nook as shorthand for the district",
+          "a small failure here cascades into a citywide problem"
+        ]
+      },
+      {
+        "name": "Judicial Quarter Hall",
+        "symbolicRole": "Section 3 civic center preserving the local identity of Judicial Quarter.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing. It belongs to Section 3 (Judicial Quarter) of Velis Caravanor and should use Archive Towers, Temple Platforms, White Limestone Civic Blocks, red brick and painted canvas materials, Civic Blue Glow, Gold Seals, Bone White Ceremony, and the Romani",
+        "civicRole": "Supports Judicial Quarter as a playable and writable district spine rather than a generic neighborhood.",
+        "narrativeUse": [
+          "Judicial Quarter scene anchor",
+          "local errand",
+          "public meeting point",
+          "district conflict",
+          "orientation clue"
+        ],
+        "assetUse": [
+          "Section 3 diorama asset",
+          "board-readable landmark",
+          "street-level focal prop",
+          "map district marker"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "worked materials",
+          "public voices",
+          "wagon bells",
+          "market bargaining",
+          "wool felt",
+          "spiced grain"
+        ],
+        "storyHooks": [
+          "an event at Judicial Quarter Hall reveals section priorities",
+          "locals use Judicial Quarter Hall as shorthand for the district",
+          "a small failure here cascades into a citywide problem"
+        ]
+      },
+      {
+        "name": "High Court",
+        "symbolicRole": "Section 3 major landmark preserving the local identity of Judicial Quarter.",
+        "visualRole": "A mandatory Section 3 Beacon: a culturally adapted civic signal flame / warning-light landmark visible across the city spine. It belongs to Section 3 (Judicial Quarter) of Velis Caravanor and should use White Limestone Civic Blocks, Archive Towers, Temple Platforms, red brick and painted canvas materials, Bone White Ceremony, Civic Blue Glow, Gold Seals, and",
+        "civicRole": "Supports Judicial Quarter as a playable and writable district spine rather than a generic neighborhood.",
+        "narrativeUse": [
+          "Judicial Quarter scene anchor",
+          "local errand",
+          "public meeting point",
+          "district conflict",
+          "orientation clue"
+        ],
+        "assetUse": [
+          "Section 3 diorama asset",
+          "board-readable landmark",
+          "street-level focal prop",
+          "map district marker"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "worked materials",
+          "public voices",
+          "wagon bells",
+          "market bargaining",
+          "wool felt",
+          "spiced grain"
+        ],
+        "storyHooks": [
+          "an event at High Court reveals section priorities",
+          "locals use High Court as shorthand for the district",
+          "a small failure here cascades into a citywide problem"
+        ]
+      },
+      {
+        "name": "Judicial Quarter Gold-Seal Monument",
+        "symbolicRole": "Section 3 monument preserving the local identity of Judicial Quarter.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles. It belongs to Section 3 (Judicial Quarter) of Velis Caravanor and should use Archive Towers, Temple Platforms, White Limestone Civic Blocks, red brick and painted canvas materials, Gold Seals, Bone White Ceremony, Civic Blue Glow, and the Roman",
+        "civicRole": "Supports Judicial Quarter as a playable and writable district spine rather than a generic neighborhood.",
+        "narrativeUse": [
+          "Judicial Quarter scene anchor",
+          "local errand",
+          "public meeting point",
+          "district conflict",
+          "orientation clue"
+        ],
+        "assetUse": [
+          "Section 3 diorama asset",
+          "board-readable landmark",
+          "street-level focal prop",
+          "map district marker"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "worked materials",
+          "public voices",
+          "wagon bells",
+          "market bargaining",
+          "wool felt",
+          "spiced grain"
+        ],
+        "storyHooks": [
+          "an event at Judicial Quarter Gold-Seal Monument reveals section priorities",
+          "locals use Judicial Quarter Gold-Seal Monument as shorthand for the district",
+          "a small failure here cascades into a citywide problem"
+        ]
+      },
+      {
+        "name": "Witness Archive Nook",
+        "symbolicRole": "Section 3 minor landmark preserving the local identity of Judicial Quarter.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette. It belongs to Section 3 (Judicial Quarter) of Velis Caravanor and should use White Limestone Civic Blocks, Archive Towers, Temple Platforms, red brick and painted canvas materials, Gold Seals, Bone White Ceremony, Civic Blue Glow, and the Romani visual language",
+        "civicRole": "Supports Judicial Quarter as a playable and writable district spine rather than a generic neighborhood.",
+        "narrativeUse": [
+          "Judicial Quarter scene anchor",
+          "local errand",
+          "public meeting point",
+          "district conflict",
+          "orientation clue"
+        ],
+        "assetUse": [
+          "Section 3 diorama asset",
+          "board-readable landmark",
+          "street-level focal prop",
+          "map district marker"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "worked materials",
+          "public voices",
+          "wagon bells",
+          "market bargaining",
+          "wool felt",
+          "spiced grain"
+        ],
+        "storyHooks": [
+          "an event at Witness Archive Nook reveals section priorities",
+          "locals use Witness Archive Nook as shorthand for the district",
+          "a small failure here cascades into a citywide problem"
+        ]
+      },
+      {
+        "name": "Arena / Training Civic Hall",
+        "symbolicRole": "Section 4 civic center preserving the local identity of Arena / Training.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing. It belongs to Section 4 (Arena / Training) of Velis Caravanor and should use Lecture Courts, Temple Platforms, Obsidian Fortresses, red brick and painted canvas materials, Carved Totems, Woven Banners, Red Fabric Awnings, and the Romani visual la",
+        "civicRole": "Supports Arena / Training as a playable and writable district spine rather than a generic neighborhood.",
+        "narrativeUse": [
+          "Arena / Training scene anchor",
+          "local errand",
+          "public meeting point",
+          "district conflict",
+          "orientation clue"
+        ],
+        "assetUse": [
+          "Section 4 diorama asset",
+          "board-readable landmark",
+          "street-level focal prop",
+          "map district marker"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "worked materials",
+          "public voices",
+          "wagon bells",
+          "market bargaining",
+          "wool felt",
+          "spiced grain"
+        ],
+        "storyHooks": [
+          "an event at Arena / Training Civic Hall reveals section priorities",
+          "locals use Arena / Training Civic Hall as shorthand for the district",
+          "a small failure here cascades into a citywide problem"
+        ]
+      },
+      {
+        "name": "Training Arena",
+        "symbolicRole": "Section 4 major landmark preserving the local identity of Arena / Training.",
+        "visualRole": "A largest local landmark in this section, subordinate only to the city wonder and citadel. It belongs to Section 4 (Arena / Training) of Velis Caravanor and should use Temple Platforms, Obsidian Fortresses, Lecture Courts, red brick and painted canvas materials, Woven Banners, Red Fabric Awnings, Carved Totems, and the Romani visual language. Design focus: s",
+        "civicRole": "Supports Arena / Training as a playable and writable district spine rather than a generic neighborhood.",
+        "narrativeUse": [
+          "Arena / Training scene anchor",
+          "local errand",
+          "public meeting point",
+          "district conflict",
+          "orientation clue"
+        ],
+        "assetUse": [
+          "Section 4 diorama asset",
+          "board-readable landmark",
+          "street-level focal prop",
+          "map district marker"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "worked materials",
+          "public voices",
+          "wagon bells",
+          "market bargaining",
+          "wool felt",
+          "spiced grain"
+        ],
+        "storyHooks": [
+          "an event at Training Arena reveals section priorities",
+          "locals use Training Arena as shorthand for the district",
+          "a small failure here cascades into a citywide problem"
+        ]
+      },
+      {
+        "name": "Woven Banners Monument",
+        "symbolicRole": "Section 4 monument preserving the local identity of Arena / Training.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles. It belongs to Section 4 (Arena / Training) of Velis Caravanor and should use Obsidian Fortresses, Lecture Courts, Temple Platforms, red brick and painted canvas materials, Carved Totems, Woven Banners, Red Fabric Awnings, and the Romani visual",
+        "civicRole": "Supports Arena / Training as a playable and writable district spine rather than a generic neighborhood.",
+        "narrativeUse": [
+          "Arena / Training scene anchor",
+          "local errand",
+          "public meeting point",
+          "district conflict",
+          "orientation clue"
+        ],
+        "assetUse": [
+          "Section 4 diorama asset",
+          "board-readable landmark",
+          "street-level focal prop",
+          "map district marker"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "worked materials",
+          "public voices",
+          "wagon bells",
+          "market bargaining",
+          "wool felt",
+          "spiced grain"
+        ],
+        "storyHooks": [
+          "an event at Woven Banners Monument reveals section priorities",
+          "locals use Woven Banners Monument as shorthand for the district",
+          "a small failure here cascades into a citywide problem"
+        ]
+      },
+      {
+        "name": "Champion Gate Nook",
+        "symbolicRole": "Section 4 minor landmark preserving the local identity of Arena / Training.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette. It belongs to Section 4 (Arena / Training) of Velis Caravanor and should use Lecture Courts, Temple Platforms, Obsidian Fortresses, red brick and painted canvas materials, Woven Banners, Red Fabric Awnings, Carved Totems, and the Romani visual language. Design",
+        "civicRole": "Supports Arena / Training as a playable and writable district spine rather than a generic neighborhood.",
+        "narrativeUse": [
+          "Arena / Training scene anchor",
+          "local errand",
+          "public meeting point",
+          "district conflict",
+          "orientation clue"
+        ],
+        "assetUse": [
+          "Section 4 diorama asset",
+          "board-readable landmark",
+          "street-level focal prop",
+          "map district marker"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "worked materials",
+          "public voices",
+          "wagon bells",
+          "market bargaining",
+          "wool felt",
+          "spiced grain"
+        ],
+        "storyHooks": [
+          "an event at Champion Gate Nook reveals section priorities",
+          "locals use Champion Gate Nook as shorthand for the district",
+          "a small failure here cascades into a citywide problem"
+        ]
+      },
+      {
+        "name": "Granary / Food Market Civic Hall",
+        "symbolicRole": "Section 5 civic center preserving the local identity of Granary / Food Market.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing. It belongs to Section 5 (Granary / Food Market) of Velis Caravanor and should use Timber Longhouses, Market Arcades, Reed Pavilions, red brick and painted canvas materials, Red Fabric Awnings, Woven Banners, Lantern Lit, and the Romani visual lan",
+        "civicRole": "Supports Granary / Food Market as a playable and writable district spine rather than a generic neighborhood.",
+        "narrativeUse": [
+          "Granary / Food Market scene anchor",
+          "local errand",
+          "public meeting point",
+          "district conflict",
+          "orientation clue"
+        ],
+        "assetUse": [
+          "Section 5 diorama asset",
+          "board-readable landmark",
+          "street-level focal prop",
+          "map district marker"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "worked materials",
+          "public voices",
+          "wagon bells",
+          "market bargaining",
+          "wool felt",
+          "spiced grain"
+        ],
+        "storyHooks": [
+          "an event at Granary / Food Market Civic Hall reveals section priorities",
+          "locals use Granary / Food Market Civic Hall as shorthand for the district",
+          "a small failure here cascades into a citywide problem"
+        ]
+      },
+      {
+        "name": "Grain Hall",
+        "symbolicRole": "Section 5 major landmark preserving the local identity of Granary / Food Market.",
+        "visualRole": "A largest local landmark in this section, subordinate only to the city wonder and citadel. It belongs to Section 5 (Granary / Food Market) of Velis Caravanor and should use Market Arcades, Reed Pavilions, Timber Longhouses, red brick and painted canvas materials, Woven Banners, Lantern Lit, Red Fabric Awnings, and the Romani visual language. Design focus: gr",
+        "civicRole": "Supports Granary / Food Market as a playable and writable district spine rather than a generic neighborhood.",
+        "narrativeUse": [
+          "Granary / Food Market scene anchor",
+          "local errand",
+          "public meeting point",
+          "district conflict",
+          "orientation clue"
+        ],
+        "assetUse": [
+          "Section 5 diorama asset",
+          "board-readable landmark",
+          "street-level focal prop",
+          "map district marker"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "worked materials",
+          "public voices",
+          "wagon bells",
+          "market bargaining",
+          "wool felt",
+          "spiced grain"
+        ],
+        "storyHooks": [
+          "an event at Grain Hall reveals section priorities",
+          "locals use Grain Hall as shorthand for the district",
+          "a small failure here cascades into a citywide problem"
+        ]
+      },
+      {
+        "name": "Awning Monument",
+        "symbolicRole": "Section 5 monument preserving the local identity of Granary / Food Market.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles. It belongs to Section 5 (Granary / Food Market) of Velis Caravanor and should use Market Arcades, Reed Pavilions, Timber Longhouses, red brick and painted canvas materials, Woven Banners, Lantern Lit, Red Fabric Awnings, and the Romani visual l",
+        "civicRole": "Supports Granary / Food Market as a playable and writable district spine rather than a generic neighborhood.",
+        "narrativeUse": [
+          "Granary / Food Market scene anchor",
+          "local errand",
+          "public meeting point",
+          "district conflict",
+          "orientation clue"
+        ],
+        "assetUse": [
+          "Section 5 diorama asset",
+          "board-readable landmark",
+          "street-level focal prop",
+          "map district marker"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "worked materials",
+          "public voices",
+          "wagon bells",
+          "market bargaining",
+          "wool felt",
+          "spiced grain"
+        ],
+        "storyHooks": [
+          "an event at Awning Monument reveals section priorities",
+          "locals use Awning Monument as shorthand for the district",
+          "a small failure here cascades into a citywide problem"
+        ]
+      },
+      {
+        "name": "Mill Court Nook",
+        "symbolicRole": "Section 5 minor landmark preserving the local identity of Granary / Food Market.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette. It belongs to Section 5 (Granary / Food Market) of Velis Caravanor and should use Reed Pavilions, Timber Longhouses, Market Arcades, red brick and painted canvas materials, Red Fabric Awnings, Woven Banners, Lantern Lit, and the Romani visual language. Design f",
+        "civicRole": "Supports Granary / Food Market as a playable and writable district spine rather than a generic neighborhood.",
+        "narrativeUse": [
+          "Granary / Food Market scene anchor",
+          "local errand",
+          "public meeting point",
+          "district conflict",
+          "orientation clue"
+        ],
+        "assetUse": [
+          "Section 5 diorama asset",
+          "board-readable landmark",
+          "street-level focal prop",
+          "map district marker"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "worked materials",
+          "public voices",
+          "wagon bells",
+          "market bargaining",
+          "wool felt",
+          "spiced grain"
+        ],
+        "storyHooks": [
+          "an event at Mill Court Nook reveals section priorities",
+          "locals use Mill Court Nook as shorthand for the district",
+          "a small failure here cascades into a citywide problem"
+        ]
+      }
     ]
   },
   "assetGuidance": {
-    "districtDioramaGuidance": ["S1 must show Agricultural Terraces Civic Hall, Terrace Granary Beacon, Hanging Gardens Monument, and Seed Hall Nook.", "S2 must show Transit / Caravan / Rail Civic Hall, Caravanserai, Woven Banners Monument, and Waystation Hall Nook.", "S3 must show Judicial Quarter Hall, High Court, Gold-Seal Monument, and Witness Archive Nook.", "S4 must show Arena / Training Civic Hall, Training Arena, Woven Banners Monument, and Champion Gate Nook.", "S5 must show Granary / Food Market Civic Hall, Grain Hall, Awning Monument, and Mill Court Nook."],
-    "mapBackgroundGuidance": ["Keep Romani Lantern-Caravan Palace of Moving Roads, Terrace Granary Beacon, and Caravan Wheel Emblems Sovereign Registry Court legible together.", "Use caravanserais, lantern towers, colorful awnings, wheel emblems, terrace granaries, high courts, training banners, and grain markets."],
-    "requiredVisualElements": ["Romani Lantern-Caravan Palace of Moving Roads", "Terrace Granary Beacon", "Caravan Wheel Emblems Sovereign Registry Court", "Caravanserai", "Waystation Hall Nook", "High Court", "Witness Archive Nook", "Training Arena", "Champion Gate Nook", "Grain Hall", "Mill Court Nook", "lantern towers", "wheel emblems"],
-    "elementsToAvoid": ["temporary camp", "Romani stereotype", "color without legal structure", "food systems omitted", "caravan identity reduced to decoration"]
+    "districtDioramaGuidance": [
+      "S1 / Agricultural Terraces must preserve Agricultural Terraces Civic Hall, Terrace Granary Beacon, Hanging Gardens Monument, and Seed Hall Nook as the source-backed anchor cluster.",
+      "S2 / Transit / Caravan / Rail must preserve Transit / Caravan / Rail Civic Hall, Caravanserai, Woven Banners Monument, and Waystation Hall Nook as the source-backed anchor cluster.",
+      "S3 / Judicial Quarter must preserve Judicial Quarter Hall, High Court, Judicial Quarter Gold-Seal Monument, and Witness Archive Nook as the source-backed anchor cluster.",
+      "S4 / Arena / Training must preserve Arena / Training Civic Hall, Training Arena, Woven Banners Monument, and Champion Gate Nook as the source-backed anchor cluster.",
+      "S5 / Granary / Food Market must preserve Granary / Food Market Civic Hall, Grain Hall, Awning Monument, and Mill Court Nook as the source-backed anchor cluster."
+    ],
+    "mapBackgroundGuidance": [
+      "Show Velis Caravanor as a Romani city using Red Brick, Wool Felt, Sandstone, Dyed Wool, Painted Canvas across Dry Stone Paving, Civic Terraces.",
+      "Keep Romani Lantern-Caravan Palace of Moving Roads as the skyline-scale Wonder, Caravan Wheel Emblems Sovereign Registry Court as central D13 authority, and Terrace Granary Beacon as the public signal landmark.",
+      "Use section landmark distribution to avoid flattening the city: Agricultural Terraces, Transit / Caravan / Rail, Judicial Quarter, Arena / Training, Granary / Food Market.",
+      "Water and terrain must follow source context: dry city ground; Dry Stone Paving, Civic Terraces."
+    ],
+    "requiredVisualElements": [
+      "Romani",
+      "Romani Lantern-Caravan Palace of Moving Roads",
+      "Terrace Granary Beacon",
+      "Caravan Wheel Emblems Sovereign Registry Court",
+      "Red Brick",
+      "Wool Felt",
+      "Sandstone",
+      "Dyed Wool",
+      "Painted Canvas",
+      "Dry Stone Paving",
+      "Civic Terraces",
+      "Civic Blue Illumination",
+      "Oath Seals",
+      "Caravan Stars",
+      "Agricultural Terraces Civic Hall",
+      "Transit / Caravan / Rail Civic Hall",
+      "Judicial Quarter Hall",
+      "Arena / Training Civic Hall",
+      "Granary / Food Market Civic Hall",
+      "Caravanserai",
+      "High Court",
+      "Training Arena",
+      "Grain Hall",
+      "Hanging Gardens Monument",
+      "Woven Banners Monument",
+      "Judicial Quarter Gold-Seal Monument",
+      "Awning Monument",
+      "Seed Hall Nook",
+      "Waystation Hall Nook",
+      "Witness Archive Nook",
+      "Champion Gate Nook",
+      "Mill Court Nook"
+    ],
+    "elementsToAvoid": [
+      "static palace culture without movement",
+      "generic desert bazaar",
+      "comic fortune-teller stereotypes",
+      "modern caravans or vehicles",
+      "waterfront-port emphasis",
+      "invented district-specific landmarks not supported by sidecars",
+      "replacing proper anchor names with generic summaries",
+      "collapsing five section spines into one repeated street type"
+    ]
   }
 }

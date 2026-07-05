@@ -4,90 +4,1893 @@
     "analysisVersion": 2,
     "cityCode": "GRE",
     "cityName": "Grendhollow",
-    "analysisDate": "2026-07-03",
+    "analysisDate": "2026-07-05",
     "analystVersion": "gpt-5.5-thinking",
     "analysisConfidence": "strong-lock",
-    "basedOnImages": ["GRE-HERO-NE-v001", "GRE-HERO-NW-v001", "GRE-HERO-SE-v001", "GRE-HERO-SW-v001", "GRE-STREET-S1-v001", "GRE-STREET-S2-v001", "GRE-STREET-S3-v001", "GRE-STREET-S4-v001", "GRE-STREET-S5-v001"],
-    "basedOnSidecars": ["GRE-HERO-NE-v001.json", "GRE-HERO-NW-v001.json", "GRE-HERO-SE-v001.json", "GRE-HERO-SW-v001.json", "GRE-STREET-S1-v001.json", "GRE-STREET-S2-v001.json", "GRE-STREET-S3-v001.json", "GRE-STREET-S4-v001.json", "GRE-STREET-S5-v001.json"]
+    "sourceStatus": "full",
+    "districtModel": "five sections; five district slots per section; D13 is the seat of power",
+    "missingStreetSections": [],
+    "basedOnImages": [
+      "GRE-HERO-NE-v001",
+      "GRE-HERO-NW-v001",
+      "GRE-HERO-SE-v001",
+      "GRE-HERO-SW-v001",
+      "GRE-STREET-S1-v001",
+      "GRE-STREET-S2-v001",
+      "GRE-STREET-S3-v001",
+      "GRE-STREET-S4-v001",
+      "GRE-STREET-S5-v001"
+    ],
+    "basedOnSidecars": [
+      "GRE-HERO-NE-v001.json",
+      "GRE-HERO-NW-v001.json",
+      "GRE-HERO-SE-v001.json",
+      "GRE-HERO-SW-v001.json",
+      "GRE-STREET-S1-v001.json",
+      "GRE-STREET-S2-v001.json",
+      "GRE-STREET-S3-v001.json",
+      "GRE-STREET-S4-v001.json",
+      "GRE-STREET-S5-v001.json"
+    ]
   },
   "cityDNA": {
-    "coreFantasy": "A troll fen-city where nursery basins, lock houses, archives, healing courts, training arenas, memory-tablet government, and a bridge-back hall make strength protective.",
-    "primaryEmotion": "guarded tenderness",
-    "secondaryEmotion": "mud-heavy patience",
-    "readerTakeaway": "Grendhollow is protective before it is frightening; its size exists to shelter fragile things.",
-    "civilizationThesis": "Grendhollow turns mud, young, water, memory, care, healing, and disciplined strength into a swamp civic order of guarded continuity.",
-    "visualIdentity": "Broad wet streets, shell domes, reed pavilions, coral terraces, mossy stone, malachite civic detail, nursery pools, canal locks, archive towers, healing lanterns, and arena grounds sized for huge patient bodies.",
-    "culturalIdentity": "A troll civilization of deliberate citizens whose status comes from nursery care, waterworks skill, memory keeping, healing trust, and disciplined strength.",
-    "symbolicIdentity": "Nursery basins, shell inlay, memory tablets, lock wheels, canal reflections, healing lanterns, champion gates, mossy stone, and bridge-backs symbolize strength that carries others."
+    "coreFantasy": "A trolls city where Trollstone Bridge-Back Hall of the Fen, Nursery Basin Beacon, Memory Tablet Walls Colossus Registry, and the five-section district spine turn local identity into functional civic space.",
+    "primaryEmotion": "source-backed civic presence",
+    "secondaryEmotion": "lived-in pressure beneath landmark order",
+    "readerTakeaway": "Grendhollow should feel immediately identifiable through exact landmarks and materials, not through generic fantasy-city shorthand.",
+    "civilizationThesis": "Grendhollow organizes power through Memory Tablet Walls Colossus Registry, public response through Nursery Basin Beacon, civic memory through Trollstone Bridge-Back Hall of the Fen, and daily life through S1 Nursery / Spawning Grounds Civic Hall, S2 Canal / Riverworks Civic Hall, S3 Records / Archives Hall, S4 Medical / Healing Civic Hall, S5 Arena / Training Civic Hall.",
+    "visualIdentity": "Cedar, Thatch, Malachite, Resin, Painted Plaster, Swamp Edge, Tidal Marsh, Reed Marsh, Ward Networks, Ritual Geometry, Stone Giant Memory, and exact anchors including Memory Tablet Walls Colossus Registry, Nursery Basin Beacon, Trollstone Bridge-Back Hall of the Fen, Training Arena, Lock House, Healing Hall, Nursery / Spawning Grounds Civic Hall, Shell Inlay Monument, Spawning Pool Nook, Canal / Riverworks Civic Hall.",
+    "culturalIdentity": "A trolls civic culture where architecture, public obligations, roads, landmark approaches, and everyday work must all read as part of the same civilization.",
+    "symbolicIdentity": "The city symbol system is built from exact names and visible functions: Trollstone Bridge-Back Hall of the Fen, Nursery Basin Beacon, Memory Tablet Walls Colossus Registry, and section anchors such as Nursery / Spawning Grounds Civic Hall, Canal / Riverworks Civic Hall, Records / Archives Hall, Medical / Healing Civic Hall, Arena / Training Civic Hall."
   },
   "canon": {
     "canonLocks": [
-      "Grendhollow is a mature troll fen-city, not a crude monster settlement.",
-      "The Wonder is the Trollstone Bridge-Back Hall of the Fen.",
-      "The Beacon is the Nursery Basin Beacon.",
-      "The Seat of Power is the Memory Tablet Walls Colossus Registry.",
-      "The five primary districts are Nursery / Spawning Grounds, Canal / Riverworks, Records / Archives, Medical / Healing, and Arena / Training.",
-      "The uploaded district anchors include Nursery / Spawning Grounds Civic Hall, Shell Inlay Monument, Spawning Pool Nook, Canal / Riverworks Civic Hall, Lock House, Canal Reflections Monument, Waterwheel Court Nook, Records / Archives Hall, Archive Tower, Records Archives Gold-Seal Monument, Copyist Hall Nook, Medical / Healing Civic Hall, Healing Hall, Medical Healing Lantern Monument, Apothecary Court Nook, Arena / Training Civic Hall, Training Arena, Woven Banners Monument, and Champion Gate Nook."
+      "Grendhollow uses city code GRE.",
+      "The Wonder is Trollstone Bridge-Back Hall of the Fen.",
+      "The Beacon is Nursery Basin Beacon.",
+      "The Seat of Power is Memory Tablet Walls Colossus Registry and occupies District 13.",
+      "The city uses five sections with five tactical district slots per section.",
+      "The source-backed section spine is: S1 Nursery / Spawning Grounds Civic Hall, S2 Canal / Riverworks Civic Hall, S3 Records / Archives Hall, S4 Medical / Healing Civic Hall, S5 Arena / Training Civic Hall.",
+      "Preserve exact anchor name: Memory Tablet Walls Colossus Registry.",
+      "Preserve exact anchor name: Nursery Basin Beacon.",
+      "Preserve exact anchor name: Trollstone Bridge-Back Hall of the Fen.",
+      "Preserve exact anchor name: Training Arena.",
+      "Preserve exact anchor name: Lock House.",
+      "Preserve exact anchor name: Healing Hall.",
+      "Preserve exact anchor name: Nursery / Spawning Grounds Civic Hall.",
+      "Preserve exact anchor name: Shell Inlay Monument.",
+      "Preserve exact anchor name: Spawning Pool Nook.",
+      "Preserve exact anchor name: Canal / Riverworks Civic Hall.",
+      "Preserve exact anchor name: Canal Reflections Monument.",
+      "Preserve exact anchor name: Waterwheel Court Nook.",
+      "Preserve exact anchor name: Records / Archives Hall.",
+      "Preserve exact anchor name: Archive Tower.",
+      "Preserve exact anchor name: Records Archives Gold-Seal Monument.",
+      "Preserve exact anchor name: Copyist Hall Nook.",
+      "Preserve exact anchor name: Medical / Healing Civic Hall.",
+      "Preserve exact anchor name: Medical Healing Lantern Monument.",
+      "Preserve exact anchor name: Apothecary Court Nook.",
+      "Preserve exact anchor name: Arena / Training Civic Hall.",
+      "Preserve exact anchor name: Woven Banners Monument.",
+      "Preserve exact anchor name: Champion Gate Nook."
     ],
-    "provisionalCanon": ["Grendhollow's highest civic virtue is guardianship.", "The central tension is protective slowness versus civic stagnation.", "Arena strength is valuable only when it protects nursery, healing, memory, and water systems."],
-    "rejectedReads": ["Grendhollow is primitive or temporary.", "Grendhollow is a savage swamp monster culture.", "Arena strength is random violence rather than civic discipline.", "Nursery and healing systems are side details rather than central civic identity."],
-    "cautionFlags": ["Use troll scale through broad thresholds, huge benches, heavy railings, and low halls built for weight.", "Keep nursery and healing systems visible alongside archives and arena training.", "Water, mud, moss, and swamp routing are civic infrastructure, not background muck.", "Preserve exact care, riverworks, archive, healing, and arena sidecar anchor names."
+    "provisionalCanon": [],
+    "rejectedReads": [
+      "Do not treat Grendhollow as a generic fantasy settlement with renamed landmarks.",
+      "Do not collapse the five-section board into a single mood or single district.",
+      "Do not replace exact anchor names with generic summaries.",
+      "Do not invent missing street-section landmarks when a street source is absent."
+    ],
+    "cautionFlags": [
+      "Keep every named Wonder, Beacon, Seat, section civic hall, major landmark, monument, and minor nook exact when present in sidecars.",
+      "If an image appears to deviate from a sidecar, preserve the exact name but avoid overclaiming visual details not supported by the source package.",
+      "Every district asset should remain usable for narrative scenes, tactical board dioramas, and city map backgrounds."
     ]
   },
   "environment": {
-    "terrain": ["fen city", "broad wet streets", "mossy stone courts", "muddy training grounds", "nursery basin terraces", "canal edges", "archive mounds"],
-    "water": ["nursery pools", "spawning pools", "canals", "locks", "waterwheel channels", "swamp water", "reflected lantern basins"],
-    "vegetation": ["reeds", "moss", "fen grasses", "healing herbs", "apothecary plants", "swamp roots", "low wetland shrubs"],
-    "climateLighting": ["fog-diffused daylight", "blue nursery beacon glow", "green moss light", "warm healing lanterns", "wet-stone reflections", "soft overcast swamp light"],
-    "environmentalLogic": "The fen is nursery, road, danger, memory surface, and civic foundation. Grendhollow builds around swamp water rather than draining it away."
+    "terrain": [
+      "Swamp Edge",
+      "Tidal Marsh",
+      "Reed Marsh"
+    ],
+    "water": [
+      "Swamp"
+    ],
+    "vegetation": [
+      "courtyard trees",
+      "balcony planters",
+      "public greenery where visible",
+      "source-backed local vegetation only"
+    ],
+    "climateLighting": [
+      "Ward Networks",
+      "Ritual Geometry",
+      "Stone Giant Memory",
+      "daylight",
+      "golden hour",
+      "lantern light",
+      "civic beacon glow"
+    ],
+    "environmentalLogic": "The environment should make Grendhollow's exact civic anchors plausible at street scale: terrain routes people toward section landmarks, lighting clarifies public authority, and water or landscape features remain source-backed rather than decorative filler."
   },
   "architecture": {
-    "materials": ["reed pavilions", "shell domes", "coral terraces", "mossy stone", "malachite", "painted plaster", "white limestone civic blocks", "subterranean vault stone", "wet lock-house masonry", "blue civic lamps", "woven banners"],
-    "forms": ["Nursery / Spawning Grounds Civic Hall", "Nursery Basin Beacon", "Shell Inlay Monument", "Spawning Pool Nook", "Canal / Riverworks Civic Hall", "Lock House", "Canal Reflections Monument", "Waterwheel Court Nook", "Archive Tower", "Copyist Hall Nook", "Healing Hall", "Apothecary Court Nook", "Training Arena", "Champion Gate Nook", "memory tablet walls", "bridge-back halls"],
-    "skyline": ["Trollstone Bridge-Back Hall of the Fen as massive wonder anchor", "Memory Tablet Walls Colossus Registry as central authority", "Nursery Basin Beacon as signal heart", "Archive Tower, Healing Hall, Lock House, and arena gates distributed through mist and wet stone"],
-    "lighting": ["blue nursery beacon light", "warm healing lanterns", "greenish swamp reflection", "soft overcast daylight", "archive window glow", "arena torchlight"],
-    "infrastructure": ["nursery basins", "lock houses", "waterwheels", "canal channels", "spawning pools", "archive stairs", "copyist halls", "healing gardens", "apothecary courts", "training mud", "champion gates", "broad troll bridges"],
-    "motifs": ["nursery shells", "spawning pools", "memory tablets", "lock wheels", "canal reflections", "healing lanterns", "woven banners", "champion gates", "bridge backs", "mossy stone"],
-    "colorLanguage": ["moss green", "mud brown", "wet stone gray", "malachite green", "blue civic light", "shell white", "healing amber", "banner color"],
-    "textureLanguage": ["slick mossy stone", "wet plaster", "reed fiber", "shell inlay", "muddy ground", "heavy carved stone", "damp archive walls", "soft lantern glass"]
+    "materials": [
+      "Cedar",
+      "Thatch",
+      "Malachite",
+      "Resin",
+      "Painted Plaster"
+    ],
+    "forms": [
+      "Memory Tablet Walls Colossus Registry",
+      "Nursery Basin Beacon",
+      "Trollstone Bridge-Back Hall of the Fen",
+      "Training Arena",
+      "Lock House",
+      "Healing Hall",
+      "Nursery / Spawning Grounds Civic Hall",
+      "Shell Inlay Monument",
+      "Spawning Pool Nook",
+      "Canal / Riverworks Civic Hall",
+      "Canal Reflections Monument",
+      "Waterwheel Court Nook",
+      "Records / Archives Hall",
+      "Archive Tower",
+      "Records Archives Gold-Seal Monument",
+      "Copyist Hall Nook",
+      "Medical / Healing Civic Hall",
+      "Medical Healing Lantern Monument",
+      "Apothecary Court Nook",
+      "Arena / Training Civic Hall",
+      "Woven Banners Monument",
+      "Champion Gate Nook",
+      "section civic halls",
+      "major landmark approaches",
+      "monument frontages",
+      "minor landmark nooks",
+      "district roads and plazas",
+      "D13 authority complex"
+    ],
+    "skyline": [
+      "Trollstone Bridge-Back Hall of the Fen",
+      "Memory Tablet Walls Colossus Registry",
+      "Nursery Basin Beacon",
+      "Training Arena",
+      "Lock House",
+      "Healing Hall",
+      "Nursery / Spawning Grounds Civic Hall",
+      "Shell Inlay Monument",
+      "Spawning Pool Nook"
+    ],
+    "lighting": [
+      "Ward Networks",
+      "Ritual Geometry",
+      "Stone Giant Memory",
+      "beacon-state light",
+      "lantern-lit civic paths",
+      "street-level shop and housing light"
+    ],
+    "infrastructure": [
+      "Nursery / Spawning Grounds Civic Hall",
+      "Canal / Riverworks Civic Hall",
+      "Records / Archives Hall",
+      "Medical / Healing Civic Hall",
+      "Arena / Training Civic Hall",
+      "roads between district slots",
+      "public thresholds",
+      "plaza edges",
+      "records, permits, markets, services, or rituals implied by anchors"
+    ],
+    "motifs": [
+      "Memory",
+      "Tablet",
+      "Walls",
+      "Colossus",
+      "Registry",
+      "Nursery",
+      "Basin",
+      "Beacon",
+      "Trollstone",
+      "Bridge-Back",
+      "Hall",
+      "Training",
+      "Arena",
+      "Lock",
+      "House",
+      "Healing"
+    ],
+    "colorLanguage": [
+      "source-backed material colors",
+      "civic blue signal accents",
+      "local textile, stone, metal, vegetation, or water colors from the image package"
+    ],
+    "textureLanguage": [
+      "Cedar",
+      "Thatch",
+      "Malachite",
+      "Resin",
+      "Painted Plaster",
+      "worn pedestrian surfaces",
+      "worked civic ornament",
+      "weathered public thresholds",
+      "lived-in shop and housing details"
+    ]
   },
   "civilization": {
-    "people": "Citizens are trolls: huge, slow-moving, physically powerful, communal, protective of young, tied to old stone memory, and deliberate rather than stupid or chaotic.",
-    "occupations": ["nursery keepers", "spawning pool attendants", "lock workers", "waterwheel repairers", "archivists", "copyists", "memory tablet carvers", "healers", "apothecaries", "arena trainers", "champion gate keepers", "mud-stone masons"],
-    "socialClasses": ["Colossus Registry officials", "memory keepers", "nursery families", "riverworks crews", "healing hall trusts", "arena champions", "copyist households", "fen laborers", "apothecary guilds"],
-    "governance": "Authority is memory-registry based and protective: the Colossus Registry records names, care duties, water obligations, healing claims, and civic continuity across generations.",
-    "religion": "Religious expression is embedded in nursery protection, ancestral memory tablets, bridge-back endurance, healing rites, and ceremonies that honor strength used to carry others.",
-    "customs": ["nursery silence near young", "lock schedule respect", "memory tablet naming", "healing lantern offerings", "arena discipline tests", "public patience during water delays", "communal care assignments"],
-    "bodyLanguage": ["slow deliberate movement", "protective spacing around pools", "heavy stillness during conflict", "careful large-hand gestures", "patient waiting at locks", "respectful touch on memory tablets"],
-    "speechPatterns": ["slow formal phrasing", "old-name references", "care-duty language", "waterwork shorthand", "healing trust terms", "arena rank titles", "memory formulas"]
+    "people": "The population should read as trolls and city-specific: citizens occupy streets, shops, public thresholds, and landmark approaches as people who understand the local civic order.",
+    "occupations": [
+      "watch guards",
+      "gate officers",
+      "dock workers",
+      "water engineers",
+      "archivists",
+      "record clerks",
+      "district clerks",
+      "craft families",
+      "porters",
+      "maintenance workers",
+      "food sellers",
+      "messengers"
+    ],
+    "socialClasses": [
+      "D13 officials and court staff",
+      "section landmark custodians",
+      "guild and service families",
+      "shopkeepers and artisans",
+      "laborers, carriers, messengers, and maintenance crews",
+      "households tied to local district obligations"
+    ],
+    "governance": "Government is centered on Memory Tablet Walls Colossus Registry. Its authority should be visible through courts, records, public access routes, civic lamps, guards or attendants, and the way citizens respond to D13.",
+    "religion": "Religious or ritual life should only be emphasized where source anchors support it, especially names such as none explicitly dominant in the current anchors.",
+    "customs": [
+      "citizens orient public life around Nursery / Spawning Grounds Civic Hall in Section 1",
+      "citizens orient public life around Canal / Riverworks Civic Hall in Section 2",
+      "citizens orient public life around Records / Archives Hall in Section 3",
+      "citizens orient public life around Medical / Healing Civic Hall in Section 4",
+      "citizens orient public life around Arena / Training Civic Hall in Section 5",
+      "beacon changes become public behavior, not background color",
+      "exact landmark names carry social memory and directions",
+      "civic errands happen visibly at thresholds, queues, ledgers, stalls, courts, or shrines"
+    ],
+    "bodyLanguage": [
+      "citizens pause at civic signals",
+      "workers move with practiced familiarity around district anchors",
+      "officials use thresholds and raised places to control attention",
+      "residents treat named landmarks as everyday orientation points"
+    ],
+    "speechPatterns": [
+      "directions use exact landmark names",
+      "public notices are tied to section anchors",
+      "local speech distinguishes civic authority, ordinary errands, and landmark obligations",
+      "people refer to D13 as the seat of power rather than a faction headquarters"
+    ]
   },
   "urbanLife": {
-    "streets": {"appearance": "Wet, heavy, mossed, slow, and protective: reed shade, shell-lit nursery basins, lock-house bridges, archive steps, healing gardens, training mud, and huge civic thresholds.", "movement": "Movement follows broad bridges, wet steps, heavy ramps, canal crossings, lock paths, archive stairs, nursery edges, healing courts, and arena gates built for troll bodies.", "sounds": ["water through locks", "mud under huge feet", "low troll voices", "nursery hush", "healing lantern chains", "waterwheel creak", "copyist scraping", "arena thuds", "reeds in wind"], "smells": ["wet moss", "mud", "swamp water", "healing herbs", "lantern oil", "wet stone", "reeds", "shell basins", "warm pool steam"], "lighting": "Blue nursery light, warm healing lanterns, swamp reflection, and fog-softened daylight make the city feel sheltered rather than bright.", "weatherEffects": "Fog, rain, and high water reshape routes, deepen mud, slow movement, and make locks, basins, and raised crossings essential.", "dayCycle": "Mornings begin with nursery tending, lock checks, archive opening, healing rounds, and water-level reading.", "nightCycle": "Night is quiet pools, guarded nursery light, warm healing halls, archive lamps, lock-house watch, and distant arena training."},
-    "shops": {"common": ["reed pavilion vendors", "lock-wheel repair stalls", "shell-inlay carvers", "healing herb counters", "apothecary stalls", "mud-stone masons", "nursery charm sellers"], "uncommon": ["memory tablet carvers", "water-gauge shops", "copyist desks", "arena gear makers", "malachite detail workshops", "spawning pool caretakers"], "prestigious": ["Colossus Registry counters", "Healing Hall trusts", "major lock houses", "arena champion halls", "archive legal rooms"], "exports": ["waterworks expertise", "healing herbs", "memory tablets", "shell inlay", "arena training craft", "lock machinery", "moss-stone masonry"], "imports": ["metal fittings", "paper", "ink", "salt", "cloth", "rare medicines", "lamp oil"], "streetFood": ["root stew", "fish broth", "reed-wrapped cakes", "mushroom mash", "warm herb tea", "thick swamp bread", "poolside soups"], "services": ["nursery care", "lock scheduling", "water routing", "record copying", "healing triage", "apothecary mixing", "arena instruction", "memory carving"]},
-    "housing": {"wealthy": "Registry- and healing-adjacent heavy stone homes with broad halls, private pools, memory tablet alcoves, malachite detail, and protected courtyards.", "middle": "Canal-family houses, lock-worker homes, archive apartments, healer rooms, reed porches, wet steps, and large shared hearths.", "poor": "Fen-edge dwellings, low mossy rooms, shared water access, reed screens, mud floors, raised storage, and communal shelter near work routes."}
+    "streets": {
+      "appearance": "Streets should show Grendhollow's exact anchor system at pedestrian scale: S1 Nursery / Spawning Grounds Civic Hall, S2 Canal / Riverworks Civic Hall, S3 Records / Archives Hall, S4 Medical / Healing Civic Hall, S5 Arena / Training Civic Hall. Keep roads, plazas, stairs, thresholds, lamps, signs-without-readable-text, props, and civilians aligned to the source-backed materials and landmarks.",
+      "movement": "Movement should be readable for tactical-board assets: citizens pass between 25 district slots, section anchors, D13, service streets, and landmark approaches without visual clutter hiding the civic purpose.",
+      "sounds": [
+        "foot traffic",
+        "vendors and service calls",
+        "tools and carts",
+        "public notices",
+        "landmark-specific sounds from water, bells, animals, machines, or crowds when source-backed",
+        "beacon-state crowd reactions"
+      ],
+      "smells": [
+        "street food",
+        "worked material dust",
+        "lamp oil or smoke",
+        "vegetation or water where source-backed",
+        "worn stone, timber, metal, plaster, or fabric"
+      ],
+      "lighting": "Use the package's source-backed civic lighting, daylight/golden-hour reads, lanterns, and beacon glow. Lighting must help identify authority, safety, and landmark function.",
+      "weatherEffects": "Weather should reinforce the local terrain and materials without overwhelming the city identity or inventing unsupported climate extremes.",
+      "dayCycle": "Day scenes emphasize errands, trade, records, repairs, rituals, food, and section-level movement.",
+      "nightCycle": "Night scenes emphasize lantern routes, closed thresholds, guarded landmarks, quiet work, and beacon visibility."
+    },
+    "shops": {
+      "common": [
+        "food stalls",
+        "repair stalls",
+        "material vendors",
+        "ledger or permit desks",
+        "local craft counters",
+        "street services tied to section anchors"
+      ],
+      "uncommon": [
+        "specialist landmark caretakers",
+        "instrument makers",
+        "ritual suppliers",
+        "map or record copyists",
+        "district-specific guild services"
+      ],
+      "prestigious": [
+        "D13-facing legal or registry services",
+        "elite craft workshops",
+        "landmark commission houses",
+        "official suppliers for civic ceremonies"
+      ],
+      "exports": [
+        "local crafts",
+        "records or seals",
+        "finished materials",
+        "food goods",
+        "specialized tools or ritual goods as supported by anchors"
+      ],
+      "imports": [
+        "rare materials",
+        "dyes, oils, spices, timber, stone, metal, glass, or cloth as needed by the architecture",
+        "outside records and trade goods"
+      ],
+      "streetFood": [
+        "flatbread or local bread",
+        "stew or grilled skewers",
+        "fruit or preserved food",
+        "tea or civic-square drinks",
+        "portable worker meals"
+      ],
+      "services": [
+        "directions by landmark",
+        "message running",
+        "permit help",
+        "repairs",
+        "food service",
+        "transport or porterage",
+        "public notice posting"
+      ]
+    },
+    "housing": {
+      "wealthy": "Prestige housing clusters near Memory Tablet Walls Colossus Registry, high terraces, or landmark-facing routes, using the best source-backed materials and controlled views of civic space.",
+      "middle": "Shop-over-house units, courtyard homes, guild-adjacent apartments, and family rooms near section anchors.",
+      "poor": "Smaller back-street rooms, work-adjacent housing, shared courtyards, service alleys, patched materials, and dense but still city-specific lived-in detail."
+    }
   },
   "districts": [
-    {"sectionNumber": 1, "name": "Nursery / Spawning Grounds", "civicPurpose": "Protected young, warm pools, spawning rites, family continuity, and the city’s emotional signal heart.", "visualIdentity": "Nursery / Spawning Grounds Civic Hall, Nursery Basin Beacon, Shell Inlay Monument, Spawning Pool Nook, warm water, low protective walls, caregivers, and blue light.", "emotionalIdentity": "Tender, guarded, sacred, and vulnerable.", "gameplayAssetNeeds": ["Nursery / Spawning Grounds Civic Hall", "Nursery Basin Beacon", "Shell Inlay Monument", "Spawning Pool Nook", "troll caregivers", "warm pools", "protective walls"], "narrativeUse": ["Beacon anxiety", "family stakes", "continuity ritual", "protected vulnerability"], "landmark": "Nursery Basin Beacon", "minorLandmarks": ["Shell Inlay Monument", "Spawning Pool Nook"]},
-    {"sectionNumber": 2, "name": "Canal / Riverworks", "civicPurpose": "Water control, swamp routing, flood response, lock scheduling, and practical movement.", "visualIdentity": "Canal / Riverworks Civic Hall, Lock House, Canal Reflections Monument, Waterwheel Court Nook, wet masonry, broad bridges, sluices, and lock workers.", "emotionalIdentity": "Practical, damp, patient, and mechanically calm.", "gameplayAssetNeeds": ["Canal / Riverworks Civic Hall", "Lock House", "Canal Reflections Monument", "Waterwheel Court Nook", "sluice gates", "lock workers", "broad bridges"], "narrativeUse": ["route delay", "flood risk", "sabotage stakes", "waterwork clue"], "landmark": "Lock House", "minorLandmarks": ["Canal Reflections Monument", "Waterwheel Court Nook"]},
-    {"sectionNumber": 3, "name": "Records / Archives", "civicPurpose": "Troll memory, copied names, public continuity, legal obligation, and recorded care duties.", "visualIdentity": "Records / Archives Hall, Archive Tower, Records Archives Gold-Seal Monument, Copyist Hall Nook, memory tablets, mossed archive stairs, and blue lamps.", "emotionalIdentity": "Heavy, solemn, exact, and ancestral.", "gameplayAssetNeeds": ["Records / Archives Hall", "Archive Tower", "Records Archives Gold-Seal Monument", "Copyist Hall Nook", "memory tablets", "archive stairs", "copyists"], "narrativeUse": ["memory record", "old name clue", "care-duty conflict", "institutional continuity"], "landmark": "Archive Tower", "minorLandmarks": ["Records Archives Gold-Seal Monument", "Copyist Hall Nook"]},
-    {"sectionNumber": 4, "name": "Medical / Healing", "civicPurpose": "Recovery, public care, triage, herbal knowledge, and healing trust.", "visualIdentity": "Medical / Healing Civic Hall, Healing Hall, Medical Healing Lantern Monument, Apothecary Court Nook, herb gardens, warm lamps, broad treatment benches, and quiet water.", "emotionalIdentity": "Warm, careful, restorative, and public-minded.", "gameplayAssetNeeds": ["Medical / Healing Civic Hall", "Healing Hall", "Medical Healing Lantern Monument", "Apothecary Court Nook", "healers", "herb beds", "troll treatment benches"], "narrativeUse": ["recovery", "triage", "healing evidence", "public care decision"], "landmark": "Healing Hall", "minorLandmarks": ["Medical Healing Lantern Monument", "Apothecary Court Nook"]},
-    {"sectionNumber": 5, "name": "Arena / Training", "civicPurpose": "Disciplined strength, readiness, public tests, controlled conflict, and champion memory.", "visualIdentity": "Arena / Training Civic Hall, Training Arena, Woven Banners Monument, Champion Gate Nook, muddy grounds, massive training posts, and spectators on broad terraces.", "emotionalIdentity": "Forceful, disciplined, communal, and consequential.", "gameplayAssetNeeds": ["Arena / Training Civic Hall", "Training Arena", "Woven Banners Monument", "Champion Gate Nook", "arena trainers", "mud ground", "huge practice posts"], "narrativeUse": ["public test", "training scene", "controlled conflict", "readiness ritual"], "landmark": "Training Arena", "minorLandmarks": ["Woven Banners Monument", "Champion Gate Nook"]}
+    {
+      "districtNumber": 1,
+      "districtId": "D01",
+      "sectionNumber": 1,
+      "name": "D01 — Nursery / Spawning Grounds Civic Hall Civic-Anchor Precinct",
+      "civicPurpose": "This district turns Section 1's source-backed anchor set into a board-scale civic space: Nursery / Spawning Grounds Civic Hall, Nursery Basin Beacon, Shell Inlay Monument, Spawning Pool Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Grendhollow.",
+      "visualIdentity": "Use Nursery / Spawning Grounds Civic Hall as the main read. Keep exact source anchors visible where applicable: Nursery / Spawning Grounds Civic Hall, Nursery Basin Beacon, Shell Inlay Monument, Spawning Pool Nook. The district should share Grendhollow's trolls identity, Cedar, Thatch, Malachite, Resin, and Swamp Edge, Tidal Marsh, Reed Marsh without becoming generic.",
+      "emotionalIdentity": "Locally grounded, with Grendhollow's larger mood shaped by Trollstone Bridge-Back Hall of the Fen, Nursery Basin Beacon, and Memory Tablet Walls Colossus Registry.",
+      "gameplayAssetNeeds": [
+        "Nursery / Spawning Grounds Civic Hall",
+        "Nursery Basin Beacon",
+        "Shell Inlay Monument",
+        "Spawning Pool Nook",
+        "Section 1 pedestrian-scale props",
+        "Grendhollow civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Nursery / Spawning Grounds Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Nursery / Spawning Grounds Civic Hall",
+      "minorLandmarks": [
+        "Nursery Basin Beacon",
+        "Shell Inlay Monument",
+        "Spawning Pool Nook"
+      ]
+    },
+    {
+      "districtNumber": 2,
+      "districtId": "D02",
+      "sectionNumber": 1,
+      "name": "D02 — Nursery Basin Beacon Landmark Approach",
+      "civicPurpose": "This district turns Section 1's source-backed anchor set into a board-scale civic space: Nursery / Spawning Grounds Civic Hall, Nursery Basin Beacon, Shell Inlay Monument, Spawning Pool Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Grendhollow.",
+      "visualIdentity": "Use Nursery Basin Beacon as the main read. Keep exact source anchors visible where applicable: Nursery / Spawning Grounds Civic Hall, Nursery Basin Beacon, Shell Inlay Monument, Spawning Pool Nook. The district should share Grendhollow's trolls identity, Cedar, Thatch, Malachite, Resin, and Swamp Edge, Tidal Marsh, Reed Marsh without becoming generic.",
+      "emotionalIdentity": "Public-facing, with Grendhollow's larger mood shaped by Trollstone Bridge-Back Hall of the Fen, Nursery Basin Beacon, and Memory Tablet Walls Colossus Registry.",
+      "gameplayAssetNeeds": [
+        "Nursery Basin Beacon",
+        "Nursery / Spawning Grounds Civic Hall",
+        "Shell Inlay Monument",
+        "Spawning Pool Nook",
+        "Section 1 pedestrian-scale props",
+        "Grendhollow civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Nursery Basin Beacon",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "Conjunction response, rumor spread, or authority pressure"
+      ],
+      "landmark": "Nursery Basin Beacon",
+      "minorLandmarks": [
+        "Nursery / Spawning Grounds Civic Hall",
+        "Shell Inlay Monument",
+        "Spawning Pool Nook"
+      ]
+    },
+    {
+      "districtNumber": 3,
+      "districtId": "D03",
+      "sectionNumber": 1,
+      "name": "D03 — Shell Inlay Monument Monument Frontage",
+      "civicPurpose": "This district turns Section 1's source-backed anchor set into a board-scale civic space: Nursery / Spawning Grounds Civic Hall, Nursery Basin Beacon, Shell Inlay Monument, Spawning Pool Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Grendhollow.",
+      "visualIdentity": "Use Shell Inlay Monument as the main read. Keep exact source anchors visible where applicable: Nursery / Spawning Grounds Civic Hall, Nursery Basin Beacon, Shell Inlay Monument, Spawning Pool Nook. The district should share Grendhollow's trolls identity, Cedar, Thatch, Malachite, Resin, and Swamp Edge, Tidal Marsh, Reed Marsh without becoming generic.",
+      "emotionalIdentity": "Memorial or symbolic, with Grendhollow's larger mood shaped by Trollstone Bridge-Back Hall of the Fen, Nursery Basin Beacon, and Memory Tablet Walls Colossus Registry.",
+      "gameplayAssetNeeds": [
+        "Shell Inlay Monument",
+        "Nursery / Spawning Grounds Civic Hall",
+        "Nursery Basin Beacon",
+        "Spawning Pool Nook",
+        "Section 1 pedestrian-scale props",
+        "Grendhollow civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Shell Inlay Monument",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Shell Inlay Monument",
+      "minorLandmarks": [
+        "Nursery / Spawning Grounds Civic Hall",
+        "Nursery Basin Beacon",
+        "Spawning Pool Nook"
+      ]
+    },
+    {
+      "districtNumber": 6,
+      "districtId": "D06",
+      "sectionNumber": 1,
+      "name": "D06 — Spawning Pool Nook Neighborhood Nook",
+      "civicPurpose": "This district turns Section 1's source-backed anchor set into a board-scale civic space: Nursery / Spawning Grounds Civic Hall, Nursery Basin Beacon, Shell Inlay Monument, Spawning Pool Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Grendhollow.",
+      "visualIdentity": "Use Spawning Pool Nook as the main read. Keep exact source anchors visible where applicable: Nursery / Spawning Grounds Civic Hall, Nursery Basin Beacon, Shell Inlay Monument, Spawning Pool Nook. The district should share Grendhollow's trolls identity, Cedar, Thatch, Malachite, Resin, and Swamp Edge, Tidal Marsh, Reed Marsh without becoming generic.",
+      "emotionalIdentity": "Intimate and lived-in, with Grendhollow's larger mood shaped by Trollstone Bridge-Back Hall of the Fen, Nursery Basin Beacon, and Memory Tablet Walls Colossus Registry.",
+      "gameplayAssetNeeds": [
+        "Spawning Pool Nook",
+        "Nursery / Spawning Grounds Civic Hall",
+        "Nursery Basin Beacon",
+        "Shell Inlay Monument",
+        "Section 1 pedestrian-scale props",
+        "Grendhollow civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Spawning Pool Nook",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Spawning Pool Nook",
+      "minorLandmarks": [
+        "Nursery / Spawning Grounds Civic Hall",
+        "Nursery Basin Beacon",
+        "Shell Inlay Monument"
+      ]
+    },
+    {
+      "districtNumber": 7,
+      "districtId": "D07",
+      "sectionNumber": 1,
+      "name": "D07 — Nursery / Spawning Grounds Civic Hall Supporting Streets",
+      "civicPurpose": "This district turns Section 1's source-backed anchor set into a board-scale civic space: Nursery / Spawning Grounds Civic Hall, Nursery Basin Beacon, Shell Inlay Monument, Spawning Pool Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Grendhollow.",
+      "visualIdentity": "Use Nursery / Spawning Grounds Civic Hall as the main read. Keep exact source anchors visible where applicable: Nursery / Spawning Grounds Civic Hall, Nursery Basin Beacon, Shell Inlay Monument, Spawning Pool Nook. The district should share Grendhollow's trolls identity, Cedar, Thatch, Malachite, Resin, and Swamp Edge, Tidal Marsh, Reed Marsh without becoming generic.",
+      "emotionalIdentity": "Connective and practical, with Grendhollow's larger mood shaped by Trollstone Bridge-Back Hall of the Fen, Nursery Basin Beacon, and Memory Tablet Walls Colossus Registry.",
+      "gameplayAssetNeeds": [
+        "Nursery / Spawning Grounds Civic Hall",
+        "Nursery Basin Beacon",
+        "Shell Inlay Monument",
+        "Spawning Pool Nook",
+        "Section 1 pedestrian-scale props",
+        "Grendhollow civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Nursery / Spawning Grounds Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Nursery / Spawning Grounds Civic Hall",
+      "minorLandmarks": [
+        "Nursery Basin Beacon",
+        "Shell Inlay Monument",
+        "Spawning Pool Nook"
+      ]
+    },
+    {
+      "districtNumber": 4,
+      "districtId": "D04",
+      "sectionNumber": 2,
+      "name": "D04 — Canal / Riverworks Civic Hall Civic-Anchor Precinct",
+      "civicPurpose": "This district turns Section 2's source-backed anchor set into a board-scale civic space: Canal / Riverworks Civic Hall, Lock House, Canal Reflections Monument, Waterwheel Court Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Grendhollow.",
+      "visualIdentity": "Use Canal / Riverworks Civic Hall as the main read. Keep exact source anchors visible where applicable: Canal / Riverworks Civic Hall, Lock House, Canal Reflections Monument, Waterwheel Court Nook. The district should share Grendhollow's trolls identity, Cedar, Thatch, Malachite, Resin, and Swamp Edge, Tidal Marsh, Reed Marsh without becoming generic.",
+      "emotionalIdentity": "Locally grounded, with Grendhollow's larger mood shaped by Trollstone Bridge-Back Hall of the Fen, Nursery Basin Beacon, and Memory Tablet Walls Colossus Registry.",
+      "gameplayAssetNeeds": [
+        "Canal / Riverworks Civic Hall",
+        "Lock House",
+        "Canal Reflections Monument",
+        "Waterwheel Court Nook",
+        "Section 2 pedestrian-scale props",
+        "Grendhollow civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Canal / Riverworks Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Canal / Riverworks Civic Hall",
+      "minorLandmarks": [
+        "Lock House",
+        "Canal Reflections Monument",
+        "Waterwheel Court Nook"
+      ]
+    },
+    {
+      "districtNumber": 5,
+      "districtId": "D05",
+      "sectionNumber": 2,
+      "name": "D05 — Lock House Landmark Approach",
+      "civicPurpose": "This district turns Section 2's source-backed anchor set into a board-scale civic space: Canal / Riverworks Civic Hall, Lock House, Canal Reflections Monument, Waterwheel Court Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Grendhollow.",
+      "visualIdentity": "Use Lock House as the main read. Keep exact source anchors visible where applicable: Canal / Riverworks Civic Hall, Lock House, Canal Reflections Monument, Waterwheel Court Nook. The district should share Grendhollow's trolls identity, Cedar, Thatch, Malachite, Resin, and Swamp Edge, Tidal Marsh, Reed Marsh without becoming generic.",
+      "emotionalIdentity": "Public-facing, with Grendhollow's larger mood shaped by Trollstone Bridge-Back Hall of the Fen, Nursery Basin Beacon, and Memory Tablet Walls Colossus Registry.",
+      "gameplayAssetNeeds": [
+        "Lock House",
+        "Canal / Riverworks Civic Hall",
+        "Canal Reflections Monument",
+        "Waterwheel Court Nook",
+        "Section 2 pedestrian-scale props",
+        "Grendhollow civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Lock House",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Lock House",
+      "minorLandmarks": [
+        "Canal / Riverworks Civic Hall",
+        "Canal Reflections Monument",
+        "Waterwheel Court Nook"
+      ]
+    },
+    {
+      "districtNumber": 9,
+      "districtId": "D09",
+      "sectionNumber": 2,
+      "name": "D09 — Canal Reflections Monument Monument Frontage",
+      "civicPurpose": "This district turns Section 2's source-backed anchor set into a board-scale civic space: Canal / Riverworks Civic Hall, Lock House, Canal Reflections Monument, Waterwheel Court Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Grendhollow.",
+      "visualIdentity": "Use Canal Reflections Monument as the main read. Keep exact source anchors visible where applicable: Canal / Riverworks Civic Hall, Lock House, Canal Reflections Monument, Waterwheel Court Nook. The district should share Grendhollow's trolls identity, Cedar, Thatch, Malachite, Resin, and Swamp Edge, Tidal Marsh, Reed Marsh without becoming generic.",
+      "emotionalIdentity": "Memorial or symbolic, with Grendhollow's larger mood shaped by Trollstone Bridge-Back Hall of the Fen, Nursery Basin Beacon, and Memory Tablet Walls Colossus Registry.",
+      "gameplayAssetNeeds": [
+        "Canal Reflections Monument",
+        "Canal / Riverworks Civic Hall",
+        "Lock House",
+        "Waterwheel Court Nook",
+        "Section 2 pedestrian-scale props",
+        "Grendhollow civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Canal Reflections Monument",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Canal Reflections Monument",
+      "minorLandmarks": [
+        "Canal / Riverworks Civic Hall",
+        "Lock House",
+        "Waterwheel Court Nook"
+      ]
+    },
+    {
+      "districtNumber": 10,
+      "districtId": "D10",
+      "sectionNumber": 2,
+      "name": "D10 — Waterwheel Court Nook Neighborhood Nook",
+      "civicPurpose": "This district turns Section 2's source-backed anchor set into a board-scale civic space: Canal / Riverworks Civic Hall, Lock House, Canal Reflections Monument, Waterwheel Court Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Grendhollow.",
+      "visualIdentity": "Use Waterwheel Court Nook as the main read. Keep exact source anchors visible where applicable: Canal / Riverworks Civic Hall, Lock House, Canal Reflections Monument, Waterwheel Court Nook. The district should share Grendhollow's trolls identity, Cedar, Thatch, Malachite, Resin, and Swamp Edge, Tidal Marsh, Reed Marsh without becoming generic.",
+      "emotionalIdentity": "Intimate and lived-in, with Grendhollow's larger mood shaped by Trollstone Bridge-Back Hall of the Fen, Nursery Basin Beacon, and Memory Tablet Walls Colossus Registry.",
+      "gameplayAssetNeeds": [
+        "Waterwheel Court Nook",
+        "Canal / Riverworks Civic Hall",
+        "Lock House",
+        "Canal Reflections Monument",
+        "Section 2 pedestrian-scale props",
+        "Grendhollow civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Waterwheel Court Nook",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Waterwheel Court Nook",
+      "minorLandmarks": [
+        "Canal / Riverworks Civic Hall",
+        "Lock House",
+        "Canal Reflections Monument"
+      ]
+    },
+    {
+      "districtNumber": 15,
+      "districtId": "D15",
+      "sectionNumber": 2,
+      "name": "D15 — Canal / Riverworks Civic Hall Supporting Streets",
+      "civicPurpose": "This district turns Section 2's source-backed anchor set into a board-scale civic space: Canal / Riverworks Civic Hall, Lock House, Canal Reflections Monument, Waterwheel Court Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Grendhollow.",
+      "visualIdentity": "Use Canal / Riverworks Civic Hall as the main read. Keep exact source anchors visible where applicable: Canal / Riverworks Civic Hall, Lock House, Canal Reflections Monument, Waterwheel Court Nook. The district should share Grendhollow's trolls identity, Cedar, Thatch, Malachite, Resin, and Swamp Edge, Tidal Marsh, Reed Marsh without becoming generic.",
+      "emotionalIdentity": "Connective and practical, with Grendhollow's larger mood shaped by Trollstone Bridge-Back Hall of the Fen, Nursery Basin Beacon, and Memory Tablet Walls Colossus Registry.",
+      "gameplayAssetNeeds": [
+        "Canal / Riverworks Civic Hall",
+        "Lock House",
+        "Canal Reflections Monument",
+        "Waterwheel Court Nook",
+        "Section 2 pedestrian-scale props",
+        "Grendhollow civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Canal / Riverworks Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Canal / Riverworks Civic Hall",
+      "minorLandmarks": [
+        "Lock House",
+        "Canal Reflections Monument",
+        "Waterwheel Court Nook"
+      ]
+    },
+    {
+      "districtNumber": 8,
+      "districtId": "D08",
+      "sectionNumber": 3,
+      "name": "D08 — Records / Archives Hall Civic-Anchor Precinct",
+      "civicPurpose": "This district turns Section 3's source-backed anchor set into a board-scale civic space: Records / Archives Hall, Archive Tower, Records Archives Gold-Seal Monument, Copyist Hall Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Grendhollow.",
+      "visualIdentity": "Use Records / Archives Hall as the main read. Keep exact source anchors visible where applicable: Records / Archives Hall, Archive Tower, Records Archives Gold-Seal Monument, Copyist Hall Nook. The district should share Grendhollow's trolls identity, Cedar, Thatch, Malachite, Resin, and Swamp Edge, Tidal Marsh, Reed Marsh without becoming generic.",
+      "emotionalIdentity": "Locally grounded, with Grendhollow's larger mood shaped by Trollstone Bridge-Back Hall of the Fen, Nursery Basin Beacon, and Memory Tablet Walls Colossus Registry.",
+      "gameplayAssetNeeds": [
+        "Records / Archives Hall",
+        "Archive Tower",
+        "Records Archives Gold-Seal Monument",
+        "Copyist Hall Nook",
+        "Section 3 pedestrian-scale props",
+        "Grendhollow civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Records / Archives Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Records / Archives Hall",
+      "minorLandmarks": [
+        "Archive Tower",
+        "Records Archives Gold-Seal Monument",
+        "Copyist Hall Nook"
+      ]
+    },
+    {
+      "districtNumber": 12,
+      "districtId": "D12",
+      "sectionNumber": 3,
+      "name": "D12 — Archive Tower Landmark Approach",
+      "civicPurpose": "This district turns Section 3's source-backed anchor set into a board-scale civic space: Records / Archives Hall, Archive Tower, Records Archives Gold-Seal Monument, Copyist Hall Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Grendhollow.",
+      "visualIdentity": "Use Archive Tower as the main read. Keep exact source anchors visible where applicable: Records / Archives Hall, Archive Tower, Records Archives Gold-Seal Monument, Copyist Hall Nook. The district should share Grendhollow's trolls identity, Cedar, Thatch, Malachite, Resin, and Swamp Edge, Tidal Marsh, Reed Marsh without becoming generic.",
+      "emotionalIdentity": "Public-facing, with Grendhollow's larger mood shaped by Trollstone Bridge-Back Hall of the Fen, Nursery Basin Beacon, and Memory Tablet Walls Colossus Registry.",
+      "gameplayAssetNeeds": [
+        "Archive Tower",
+        "Records / Archives Hall",
+        "Records Archives Gold-Seal Monument",
+        "Copyist Hall Nook",
+        "Section 3 pedestrian-scale props",
+        "Grendhollow civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Archive Tower",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Archive Tower",
+      "minorLandmarks": [
+        "Records / Archives Hall",
+        "Records Archives Gold-Seal Monument",
+        "Copyist Hall Nook"
+      ]
+    },
+    {
+      "districtNumber": 13,
+      "districtId": "D13",
+      "sectionNumber": 3,
+      "name": "D13 — Memory Tablet Walls Colossus Registry Seat of Power District",
+      "civicPurpose": "This district turns Section 3's source-backed anchor set into a board-scale civic space: Records / Archives Hall, Archive Tower, Records Archives Gold-Seal Monument, Copyist Hall Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Grendhollow.",
+      "visualIdentity": "Use Memory Tablet Walls Colossus Registry as the main read. Keep exact source anchors visible where applicable: Records / Archives Hall, Archive Tower, Records Archives Gold-Seal Monument, Copyist Hall Nook. The district should share Grendhollow's trolls identity, Cedar, Thatch, Malachite, Resin, and Swamp Edge, Tidal Marsh, Reed Marsh without becoming generic.",
+      "emotionalIdentity": "Memorial or symbolic, with Grendhollow's larger mood shaped by Trollstone Bridge-Back Hall of the Fen, Nursery Basin Beacon, and Memory Tablet Walls Colossus Registry.",
+      "gameplayAssetNeeds": [
+        "Memory Tablet Walls Colossus Registry",
+        "Records / Archives Hall",
+        "Archive Tower",
+        "Records Archives Gold-Seal Monument",
+        "Copyist Hall Nook",
+        "Section 3 pedestrian-scale props",
+        "Grendhollow civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Memory Tablet Walls Colossus Registry",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "Conjunction response, rumor spread, or authority pressure"
+      ],
+      "landmark": "Memory Tablet Walls Colossus Registry",
+      "minorLandmarks": [
+        "Records / Archives Hall",
+        "Archive Tower",
+        "Records Archives Gold-Seal Monument",
+        "Copyist Hall Nook"
+      ]
+    },
+    {
+      "districtNumber": 14,
+      "districtId": "D14",
+      "sectionNumber": 3,
+      "name": "D14 — Copyist Hall Nook Neighborhood Nook",
+      "civicPurpose": "This district turns Section 3's source-backed anchor set into a board-scale civic space: Records / Archives Hall, Archive Tower, Records Archives Gold-Seal Monument, Copyist Hall Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Grendhollow.",
+      "visualIdentity": "Use Copyist Hall Nook as the main read. Keep exact source anchors visible where applicable: Records / Archives Hall, Archive Tower, Records Archives Gold-Seal Monument, Copyist Hall Nook. The district should share Grendhollow's trolls identity, Cedar, Thatch, Malachite, Resin, and Swamp Edge, Tidal Marsh, Reed Marsh without becoming generic.",
+      "emotionalIdentity": "Intimate and lived-in, with Grendhollow's larger mood shaped by Trollstone Bridge-Back Hall of the Fen, Nursery Basin Beacon, and Memory Tablet Walls Colossus Registry.",
+      "gameplayAssetNeeds": [
+        "Copyist Hall Nook",
+        "Records / Archives Hall",
+        "Archive Tower",
+        "Records Archives Gold-Seal Monument",
+        "Section 3 pedestrian-scale props",
+        "Grendhollow civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Copyist Hall Nook",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Copyist Hall Nook",
+      "minorLandmarks": [
+        "Records / Archives Hall",
+        "Archive Tower",
+        "Records Archives Gold-Seal Monument"
+      ]
+    },
+    {
+      "districtNumber": 18,
+      "districtId": "D18",
+      "sectionNumber": 3,
+      "name": "D18 — Records / Archives Hall Supporting Streets",
+      "civicPurpose": "This district turns Section 3's source-backed anchor set into a board-scale civic space: Records / Archives Hall, Archive Tower, Records Archives Gold-Seal Monument, Copyist Hall Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Grendhollow.",
+      "visualIdentity": "Use Records / Archives Hall as the main read. Keep exact source anchors visible where applicable: Records / Archives Hall, Archive Tower, Records Archives Gold-Seal Monument, Copyist Hall Nook. The district should share Grendhollow's trolls identity, Cedar, Thatch, Malachite, Resin, and Swamp Edge, Tidal Marsh, Reed Marsh without becoming generic.",
+      "emotionalIdentity": "Connective and practical, with Grendhollow's larger mood shaped by Trollstone Bridge-Back Hall of the Fen, Nursery Basin Beacon, and Memory Tablet Walls Colossus Registry.",
+      "gameplayAssetNeeds": [
+        "Records / Archives Hall",
+        "Archive Tower",
+        "Records Archives Gold-Seal Monument",
+        "Copyist Hall Nook",
+        "Section 3 pedestrian-scale props",
+        "Grendhollow civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Records / Archives Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Records / Archives Hall",
+      "minorLandmarks": [
+        "Archive Tower",
+        "Records Archives Gold-Seal Monument",
+        "Copyist Hall Nook"
+      ]
+    },
+    {
+      "districtNumber": 11,
+      "districtId": "D11",
+      "sectionNumber": 4,
+      "name": "D11 — Medical / Healing Civic Hall Civic-Anchor Precinct",
+      "civicPurpose": "This district turns Section 4's source-backed anchor set into a board-scale civic space: Medical / Healing Civic Hall, Healing Hall, Medical Healing Lantern Monument, Apothecary Court Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Grendhollow.",
+      "visualIdentity": "Use Medical / Healing Civic Hall as the main read. Keep exact source anchors visible where applicable: Medical / Healing Civic Hall, Healing Hall, Medical Healing Lantern Monument, Apothecary Court Nook. The district should share Grendhollow's trolls identity, Cedar, Thatch, Malachite, Resin, and Swamp Edge, Tidal Marsh, Reed Marsh without becoming generic.",
+      "emotionalIdentity": "Locally grounded, with Grendhollow's larger mood shaped by Trollstone Bridge-Back Hall of the Fen, Nursery Basin Beacon, and Memory Tablet Walls Colossus Registry.",
+      "gameplayAssetNeeds": [
+        "Medical / Healing Civic Hall",
+        "Healing Hall",
+        "Medical Healing Lantern Monument",
+        "Apothecary Court Nook",
+        "Section 4 pedestrian-scale props",
+        "Grendhollow civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Medical / Healing Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Medical / Healing Civic Hall",
+      "minorLandmarks": [
+        "Healing Hall",
+        "Medical Healing Lantern Monument",
+        "Apothecary Court Nook"
+      ]
+    },
+    {
+      "districtNumber": 16,
+      "districtId": "D16",
+      "sectionNumber": 4,
+      "name": "D16 — Healing Hall Landmark Approach",
+      "civicPurpose": "This district turns Section 4's source-backed anchor set into a board-scale civic space: Medical / Healing Civic Hall, Healing Hall, Medical Healing Lantern Monument, Apothecary Court Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Grendhollow.",
+      "visualIdentity": "Use Healing Hall as the main read. Keep exact source anchors visible where applicable: Medical / Healing Civic Hall, Healing Hall, Medical Healing Lantern Monument, Apothecary Court Nook. The district should share Grendhollow's trolls identity, Cedar, Thatch, Malachite, Resin, and Swamp Edge, Tidal Marsh, Reed Marsh without becoming generic.",
+      "emotionalIdentity": "Public-facing, with Grendhollow's larger mood shaped by Trollstone Bridge-Back Hall of the Fen, Nursery Basin Beacon, and Memory Tablet Walls Colossus Registry.",
+      "gameplayAssetNeeds": [
+        "Healing Hall",
+        "Medical / Healing Civic Hall",
+        "Medical Healing Lantern Monument",
+        "Apothecary Court Nook",
+        "Section 4 pedestrian-scale props",
+        "Grendhollow civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Healing Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Healing Hall",
+      "minorLandmarks": [
+        "Medical / Healing Civic Hall",
+        "Medical Healing Lantern Monument",
+        "Apothecary Court Nook"
+      ]
+    },
+    {
+      "districtNumber": 17,
+      "districtId": "D17",
+      "sectionNumber": 4,
+      "name": "D17 — Medical Healing Lantern Monument Monument Frontage",
+      "civicPurpose": "This district turns Section 4's source-backed anchor set into a board-scale civic space: Medical / Healing Civic Hall, Healing Hall, Medical Healing Lantern Monument, Apothecary Court Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Grendhollow.",
+      "visualIdentity": "Use Medical Healing Lantern Monument as the main read. Keep exact source anchors visible where applicable: Medical / Healing Civic Hall, Healing Hall, Medical Healing Lantern Monument, Apothecary Court Nook. The district should share Grendhollow's trolls identity, Cedar, Thatch, Malachite, Resin, and Swamp Edge, Tidal Marsh, Reed Marsh without becoming generic.",
+      "emotionalIdentity": "Memorial or symbolic, with Grendhollow's larger mood shaped by Trollstone Bridge-Back Hall of the Fen, Nursery Basin Beacon, and Memory Tablet Walls Colossus Registry.",
+      "gameplayAssetNeeds": [
+        "Medical Healing Lantern Monument",
+        "Medical / Healing Civic Hall",
+        "Healing Hall",
+        "Apothecary Court Nook",
+        "Section 4 pedestrian-scale props",
+        "Grendhollow civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Medical Healing Lantern Monument",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Medical Healing Lantern Monument",
+      "minorLandmarks": [
+        "Medical / Healing Civic Hall",
+        "Healing Hall",
+        "Apothecary Court Nook"
+      ]
+    },
+    {
+      "districtNumber": 21,
+      "districtId": "D21",
+      "sectionNumber": 4,
+      "name": "D21 — Apothecary Court Nook Neighborhood Nook",
+      "civicPurpose": "This district turns Section 4's source-backed anchor set into a board-scale civic space: Medical / Healing Civic Hall, Healing Hall, Medical Healing Lantern Monument, Apothecary Court Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Grendhollow.",
+      "visualIdentity": "Use Apothecary Court Nook as the main read. Keep exact source anchors visible where applicable: Medical / Healing Civic Hall, Healing Hall, Medical Healing Lantern Monument, Apothecary Court Nook. The district should share Grendhollow's trolls identity, Cedar, Thatch, Malachite, Resin, and Swamp Edge, Tidal Marsh, Reed Marsh without becoming generic.",
+      "emotionalIdentity": "Intimate and lived-in, with Grendhollow's larger mood shaped by Trollstone Bridge-Back Hall of the Fen, Nursery Basin Beacon, and Memory Tablet Walls Colossus Registry.",
+      "gameplayAssetNeeds": [
+        "Apothecary Court Nook",
+        "Medical / Healing Civic Hall",
+        "Healing Hall",
+        "Medical Healing Lantern Monument",
+        "Section 4 pedestrian-scale props",
+        "Grendhollow civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Apothecary Court Nook",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Apothecary Court Nook",
+      "minorLandmarks": [
+        "Medical / Healing Civic Hall",
+        "Healing Hall",
+        "Medical Healing Lantern Monument"
+      ]
+    },
+    {
+      "districtNumber": 22,
+      "districtId": "D22",
+      "sectionNumber": 4,
+      "name": "D22 — Medical / Healing Civic Hall Supporting Streets",
+      "civicPurpose": "This district turns Section 4's source-backed anchor set into a board-scale civic space: Medical / Healing Civic Hall, Healing Hall, Medical Healing Lantern Monument, Apothecary Court Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Grendhollow.",
+      "visualIdentity": "Use Medical / Healing Civic Hall as the main read. Keep exact source anchors visible where applicable: Medical / Healing Civic Hall, Healing Hall, Medical Healing Lantern Monument, Apothecary Court Nook. The district should share Grendhollow's trolls identity, Cedar, Thatch, Malachite, Resin, and Swamp Edge, Tidal Marsh, Reed Marsh without becoming generic.",
+      "emotionalIdentity": "Connective and practical, with Grendhollow's larger mood shaped by Trollstone Bridge-Back Hall of the Fen, Nursery Basin Beacon, and Memory Tablet Walls Colossus Registry.",
+      "gameplayAssetNeeds": [
+        "Medical / Healing Civic Hall",
+        "Healing Hall",
+        "Medical Healing Lantern Monument",
+        "Apothecary Court Nook",
+        "Section 4 pedestrian-scale props",
+        "Grendhollow civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Medical / Healing Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Medical / Healing Civic Hall",
+      "minorLandmarks": [
+        "Healing Hall",
+        "Medical Healing Lantern Monument",
+        "Apothecary Court Nook"
+      ]
+    },
+    {
+      "districtNumber": 19,
+      "districtId": "D19",
+      "sectionNumber": 5,
+      "name": "D19 — Arena / Training Civic Hall Civic-Anchor Precinct",
+      "civicPurpose": "This district turns Section 5's source-backed anchor set into a board-scale civic space: Arena / Training Civic Hall, Training Arena, Woven Banners Monument, Champion Gate Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Grendhollow.",
+      "visualIdentity": "Use Arena / Training Civic Hall as the main read. Keep exact source anchors visible where applicable: Arena / Training Civic Hall, Training Arena, Woven Banners Monument, Champion Gate Nook. The district should share Grendhollow's trolls identity, Cedar, Thatch, Malachite, Resin, and Swamp Edge, Tidal Marsh, Reed Marsh without becoming generic.",
+      "emotionalIdentity": "Locally grounded, with Grendhollow's larger mood shaped by Trollstone Bridge-Back Hall of the Fen, Nursery Basin Beacon, and Memory Tablet Walls Colossus Registry.",
+      "gameplayAssetNeeds": [
+        "Arena / Training Civic Hall",
+        "Training Arena",
+        "Woven Banners Monument",
+        "Champion Gate Nook",
+        "Section 5 pedestrian-scale props",
+        "Grendhollow civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Arena / Training Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Arena / Training Civic Hall",
+      "minorLandmarks": [
+        "Training Arena",
+        "Woven Banners Monument",
+        "Champion Gate Nook"
+      ]
+    },
+    {
+      "districtNumber": 20,
+      "districtId": "D20",
+      "sectionNumber": 5,
+      "name": "D20 — Training Arena Landmark Approach",
+      "civicPurpose": "This district turns Section 5's source-backed anchor set into a board-scale civic space: Arena / Training Civic Hall, Training Arena, Woven Banners Monument, Champion Gate Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Grendhollow.",
+      "visualIdentity": "Use Training Arena as the main read. Keep exact source anchors visible where applicable: Arena / Training Civic Hall, Training Arena, Woven Banners Monument, Champion Gate Nook. The district should share Grendhollow's trolls identity, Cedar, Thatch, Malachite, Resin, and Swamp Edge, Tidal Marsh, Reed Marsh without becoming generic.",
+      "emotionalIdentity": "Public-facing, with Grendhollow's larger mood shaped by Trollstone Bridge-Back Hall of the Fen, Nursery Basin Beacon, and Memory Tablet Walls Colossus Registry.",
+      "gameplayAssetNeeds": [
+        "Training Arena",
+        "Arena / Training Civic Hall",
+        "Woven Banners Monument",
+        "Champion Gate Nook",
+        "Section 5 pedestrian-scale props",
+        "Grendhollow civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Training Arena",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Training Arena",
+      "minorLandmarks": [
+        "Arena / Training Civic Hall",
+        "Woven Banners Monument",
+        "Champion Gate Nook"
+      ]
+    },
+    {
+      "districtNumber": 23,
+      "districtId": "D23",
+      "sectionNumber": 5,
+      "name": "D23 — Woven Banners Monument Monument Frontage",
+      "civicPurpose": "This district turns Section 5's source-backed anchor set into a board-scale civic space: Arena / Training Civic Hall, Training Arena, Woven Banners Monument, Champion Gate Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Grendhollow.",
+      "visualIdentity": "Use Woven Banners Monument as the main read. Keep exact source anchors visible where applicable: Arena / Training Civic Hall, Training Arena, Woven Banners Monument, Champion Gate Nook. The district should share Grendhollow's trolls identity, Cedar, Thatch, Malachite, Resin, and Swamp Edge, Tidal Marsh, Reed Marsh without becoming generic.",
+      "emotionalIdentity": "Memorial or symbolic, with Grendhollow's larger mood shaped by Trollstone Bridge-Back Hall of the Fen, Nursery Basin Beacon, and Memory Tablet Walls Colossus Registry.",
+      "gameplayAssetNeeds": [
+        "Woven Banners Monument",
+        "Arena / Training Civic Hall",
+        "Training Arena",
+        "Champion Gate Nook",
+        "Section 5 pedestrian-scale props",
+        "Grendhollow civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Woven Banners Monument",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Woven Banners Monument",
+      "minorLandmarks": [
+        "Arena / Training Civic Hall",
+        "Training Arena",
+        "Champion Gate Nook"
+      ]
+    },
+    {
+      "districtNumber": 24,
+      "districtId": "D24",
+      "sectionNumber": 5,
+      "name": "D24 — Champion Gate Nook Neighborhood Nook",
+      "civicPurpose": "This district turns Section 5's source-backed anchor set into a board-scale civic space: Arena / Training Civic Hall, Training Arena, Woven Banners Monument, Champion Gate Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Grendhollow.",
+      "visualIdentity": "Use Champion Gate Nook as the main read. Keep exact source anchors visible where applicable: Arena / Training Civic Hall, Training Arena, Woven Banners Monument, Champion Gate Nook. The district should share Grendhollow's trolls identity, Cedar, Thatch, Malachite, Resin, and Swamp Edge, Tidal Marsh, Reed Marsh without becoming generic.",
+      "emotionalIdentity": "Intimate and lived-in, with Grendhollow's larger mood shaped by Trollstone Bridge-Back Hall of the Fen, Nursery Basin Beacon, and Memory Tablet Walls Colossus Registry.",
+      "gameplayAssetNeeds": [
+        "Champion Gate Nook",
+        "Arena / Training Civic Hall",
+        "Training Arena",
+        "Woven Banners Monument",
+        "Section 5 pedestrian-scale props",
+        "Grendhollow civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Champion Gate Nook",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Champion Gate Nook",
+      "minorLandmarks": [
+        "Arena / Training Civic Hall",
+        "Training Arena",
+        "Woven Banners Monument"
+      ]
+    },
+    {
+      "districtNumber": 25,
+      "districtId": "D25",
+      "sectionNumber": 5,
+      "name": "D25 — Arena / Training Civic Hall Supporting Streets",
+      "civicPurpose": "This district turns Section 5's source-backed anchor set into a board-scale civic space: Arena / Training Civic Hall, Training Arena, Woven Banners Monument, Champion Gate Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Grendhollow.",
+      "visualIdentity": "Use Arena / Training Civic Hall as the main read. Keep exact source anchors visible where applicable: Arena / Training Civic Hall, Training Arena, Woven Banners Monument, Champion Gate Nook. The district should share Grendhollow's trolls identity, Cedar, Thatch, Malachite, Resin, and Swamp Edge, Tidal Marsh, Reed Marsh without becoming generic.",
+      "emotionalIdentity": "Connective and practical, with Grendhollow's larger mood shaped by Trollstone Bridge-Back Hall of the Fen, Nursery Basin Beacon, and Memory Tablet Walls Colossus Registry.",
+      "gameplayAssetNeeds": [
+        "Arena / Training Civic Hall",
+        "Training Arena",
+        "Woven Banners Monument",
+        "Champion Gate Nook",
+        "Section 5 pedestrian-scale props",
+        "Grendhollow civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Arena / Training Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Arena / Training Civic Hall",
+      "minorLandmarks": [
+        "Training Arena",
+        "Woven Banners Monument",
+        "Champion Gate Nook"
+      ]
+    }
   ],
   "landmarks": {
-    "wonder": {"name": "Trollstone Bridge-Back Hall of the Fen", "symbolicRole": "Strength as carrying others across danger.", "visualRole": "Massive bridge-back hall of trollstone, moss, wet stone, broad arches, and fen-facing terraces rising like an old troll who refused to fall.", "civicRole": "Wonder-scale gathering site for endurance rites, public memory, citywide shelter, and ceremonies of guardianship.", "narrativeUse": ["guardianship ceremony", "civic shelter", "endurance test", "public memory"], "assetUse": ["map wonder", "fen skyline anchor"], "sensoryIdentity": ["wet stone", "moss", "low echoes", "water below", "heavy footsteps"], "storyHooks": ["A bridge-back oath requires a strong citizen to carry a vulnerable enemy to safety."]},
-    "beacon": {"name": "Nursery Basin Beacon", "symbolicRole": "Protection of young as the city's signal heart.", "visualRole": "Blue-lit beacon rising beside shell-lined nursery basins, warm pools, protective walls, and caregivers.", "civicRole": "Coordinates nursery keepers, lock crews, archivists, healers, arena trainers, and emergency response around vulnerable life.", "narrativeUse": ["Beacon warning", "nursery evacuation", "family stakes", "public anxiety"], "assetUse": ["S1 centerpiece", "signal marker"], "sensoryIdentity": ["warm water", "blue glow", "nursery hush", "shell inlay"], "storyHooks": ["A Beacon change turns every civic institution toward the nursery first."]},
-    "seatOfPower": {"name": "Memory Tablet Walls Colossus Registry", "symbolicRole": "Memory, names, duty, and continuity made official law.", "visualRole": "Huge registry complex of memory tablet walls, broad troll-scale halls, carved names, mossed stone, blue lamps, and formal record terraces.", "civicRole": "Government center for records, care obligations, water duties, healing claims, arena honors, and generational memory.", "narrativeUse": ["registry dispute", "old name clue", "care-duty ruling", "public memory"], "assetUse": ["seat-of-power marker", "central registry diorama"], "sensoryIdentity": ["stone dust", "ink", "moss", "low voices", "blue lamp glass"], "storyHooks": ["A name on the wall assigns a duty nobody alive remembers accepting."]},
+    "wonder": {
+      "name": "Trollstone Bridge-Back Hall of the Fen",
+      "symbolicRole": "Trollstone Bridge-Back Hall of the Fen concentrates Grendhollow's local symbolism into a usable civic landmark: city wonder, separate far skyline anchor.",
+      "visualRole": "A one-per-city wonder: spectacular, unmistakable, and larger than every section landmark. It turns Grendhollow's geography, race identity, material culture, and civic magic into one public symbol. Built for Grendhollow's trolls population, it uses Cedar, Thatch, Malachite, Resin, Painted Plaster across Swamp Edge, Tidal Marsh, Reed Marsh; water context: Swamp; magic expression: Ward Networks, Ritual Geometry, Stone Giant Memory. It must read clearly as a high-fantasy tactical-board asset with no baked labels or text.",
+      "civicRole": "Serves as city wonder, separate far skyline anchor within Grendhollow; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+      "narrativeUse": [
+        "stage scenes involving Trollstone Bridge-Back Hall of the Fen",
+        "show how Grendhollow turns landmark symbolism into civic pressure",
+        "anchor public movement and crowd behavior",
+        "give writers a concrete place for announcements, disputes, errands, or rituals"
+      ],
+      "assetUse": [
+        "city landmark asset",
+        "map background landmark marker",
+        "visual continuity anchor across hero and street scenes",
+        "scale reference for civilians, roads, plazas, and props"
+      ],
+      "sensoryIdentity": [
+        "local foot traffic",
+        "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+        "public voices and civic work nearby",
+        "ambient city light and weathering",
+        "close pedestrian-scale details rather than abstract skyline-only treatment"
+      ],
+      "storyHooks": [
+        "a routine civic action at Trollstone Bridge-Back Hall of the Fen becomes narratively important",
+        "the visible condition of Trollstone Bridge-Back Hall of the Fen signals political or social stress",
+        "someone uses Trollstone Bridge-Back Hall of the Fen's public function to redirect crowds or information",
+        "an overlooked detail at Trollstone Bridge-Back Hall of the Fen reveals how Grendhollow really works"
+      ]
+    },
+    "beacon": {
+      "name": "Nursery Basin Beacon",
+      "symbolicRole": "Nursery Basin Beacon concentrates Grendhollow's local symbolism into a usable civic landmark: Section 1 beacon, near/front civic signal anchor.",
+      "visualRole": "A largest local landmark in this section, subordinate only to the city wonder and citadel. It belongs to Section 1 (Nursery / Spawning Grounds) of Grendhollow and should use Reed Pavilions, Shell Domes, Coral Terraces, malachite and painted plaster materials, Shell Inlay, Canal Reflections, Hanging Gardens, and the trolls visual language. Design focus: visible from nearby districts, cradles, warm pools, egg stones, soft lanterns. Terrain/water context: Fenland; Swamp. Magic expression: Stone Giant Memory, Living Stone, Gravity Wells. No baked labels or text. Single city beacon fixed to section 1; visible civic signal apparatus, strong vertical silhouette, and public approach space.",
+      "civicRole": "Serves as Section 1 beacon, near/front civic signal anchor within Grendhollow; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+      "narrativeUse": [
+        "stage scenes involving Nursery Basin Beacon",
+        "show how Grendhollow turns landmark symbolism into civic pressure",
+        "anchor public movement and crowd behavior",
+        "give writers a concrete place for announcements, disputes, errands, or rituals"
+      ],
+      "assetUse": [
+        "district diorama anchor for Section 1",
+        "map background landmark marker",
+        "visual continuity anchor across hero and street scenes",
+        "scale reference for civilians, roads, plazas, and props"
+      ],
+      "sensoryIdentity": [
+        "local foot traffic",
+        "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+        "public voices and civic work nearby",
+        "beacon or lamp glow when applicable",
+        "close pedestrian-scale details rather than abstract skyline-only treatment"
+      ],
+      "storyHooks": [
+        "a routine civic action at Nursery Basin Beacon becomes narratively important",
+        "the visible condition of Nursery Basin Beacon signals political or social stress",
+        "someone uses Nursery Basin Beacon's public function to redirect crowds or information",
+        "an overlooked detail at Nursery Basin Beacon reveals how Grendhollow really works"
+      ]
+    },
+    "seatOfPower": {
+      "name": "Memory Tablet Walls Colossus Registry",
+      "symbolicRole": "Memory Tablet Walls Colossus Registry concentrates Grendhollow's local symbolism into a usable civic landmark: dominant central civic anchor / District 13 seat of power.",
+      "visualRole": "The district-13 seat of power: courts, audience terraces, sealed archives, command platforms, and the visible apparatus of government. It is not a faction HQ; it is the city's central civic authority. Built for Grendhollow's trolls population, it uses Cedar, Thatch, Malachite, Resin, Painted Plaster across Swamp Edge, Tidal Marsh, Reed Marsh; water context: Swamp; magic expression: Ward Networks, Ritual Geometry, Stone Giant Memory. It must read clearly as a high-fantasy tactical-board asset with no baked labels or text.",
+      "civicRole": "Serves as dominant central civic anchor / District 13 seat of power within Grendhollow; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+      "narrativeUse": [
+        "stage scenes involving Memory Tablet Walls Colossus Registry",
+        "show how Grendhollow turns landmark symbolism into civic pressure",
+        "anchor public movement and crowd behavior",
+        "give writers a concrete place for announcements, disputes, errands, or rituals"
+      ],
+      "assetUse": [
+        "city landmark asset",
+        "map background landmark marker",
+        "visual continuity anchor across hero and street scenes",
+        "scale reference for civilians, roads, plazas, and props"
+      ],
+      "sensoryIdentity": [
+        "local foot traffic",
+        "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+        "public voices and civic work nearby",
+        "ambient city light and weathering",
+        "close pedestrian-scale details rather than abstract skyline-only treatment"
+      ],
+      "storyHooks": [
+        "a routine civic action at Memory Tablet Walls Colossus Registry becomes narratively important",
+        "the visible condition of Memory Tablet Walls Colossus Registry signals political or social stress",
+        "someone uses Memory Tablet Walls Colossus Registry's public function to redirect crowds or information",
+        "an overlooked detail at Memory Tablet Walls Colossus Registry reveals how Grendhollow really works"
+      ]
+    },
     "majorLandmarks": [
-      {"name": "Lock House", "symbolicRole": "Water controlled without denying the swamp.", "visualRole": "Wet masonry lock house, sluices, broad bridges, waterwheels, canal reflections, and heavy doors.", "civicRole": "Water routing, lock schedules, flood control, and canal passage.", "narrativeUse": ["route delay", "sabotage", "flood stakes"], "assetUse": ["S2 diorama"], "sensoryIdentity": ["sluice water", "wet stone", "wheel creak", "mud"], "storyHooks": ["A lock delay reveals whether the city protects memory or lives first."]},
-      {"name": "Archive Tower", "symbolicRole": "Troll memory made legible.", "visualRole": "Mossed archive tower with gold seals, copyist halls, memory tablets, and heavy stairways.", "civicRole": "Stores records, names, care assignments, and historical duties.", "narrativeUse": ["record clue", "memory conflict", "copied names"], "assetUse": ["S3 diorama"], "sensoryIdentity": ["old stone", "ink", "wet paper", "quiet"], "storyHooks": ["A copied name changes who must guard the nursery."]},
-      {"name": "Healing Hall", "symbolicRole": "Recovery as public responsibility.", "visualRole": "Warm healing hall with lantern monument, herb beds, broad benches, apothecary court, and calm water.", "civicRole": "Medical care, triage, herbal treatment, and public healing trust.", "narrativeUse": ["recovery", "triage", "healing evidence"], "assetUse": ["S4 diorama"], "sensoryIdentity": ["herbs", "warm lamps", "water", "clean cloth"], "storyHooks": ["A healing record proves a wound was protected rather than hidden."]},
-      {"name": "Training Arena", "symbolicRole": "Strength disciplined into service.", "visualRole": "Muddy arena, woven banners, champion gate, huge practice posts, broad terraces, and heavy stone markers.", "civicRole": "Training, public tests, readiness, controlled conflict, and champion recognition.", "narrativeUse": ["training", "public challenge", "readiness ritual"], "assetUse": ["S5 diorama"], "sensoryIdentity": ["mud", "banner cloth", "heavy impacts", "crowd breath"], "storyHooks": ["A champion must prove restraint, not power."]}
+      {
+        "name": "Training Arena",
+        "symbolicRole": "Training Arena concentrates Grendhollow's local symbolism into a usable civic landmark: additional major landmark selected for this hero-view camera angle.",
+        "visualRole": "A largest local landmark in this section, subordinate only to the city wonder and citadel. It belongs to Section 5 (Arena / Training) of Grendhollow and should use Obsidian Fortresses, Lecture Courts, Temple Platforms, malachite and painted plaster materials, Carved Totems, Woven Banners, Red Fabric Awnings, and the trolls visual language. Design focus: weapon courts, practice rings, largest section focal point, strong vertical silhouette, distinct gameplay landmark. Terrain/water context: Fenland; Swamp. Magic expression: Stone Giant Memory, Living Stone, Gravity Wells. No baked labels or text.",
+        "civicRole": "Serves as additional major landmark selected for this hero-view camera angle within Grendhollow; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Training Arena",
+          "show how Grendhollow turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 5",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Training Arena becomes narratively important",
+          "the visible condition of Training Arena signals political or social stress",
+          "someone uses Training Arena's public function to redirect crowds or information",
+          "an overlooked detail at Training Arena reveals how Grendhollow really works"
+        ]
+      },
+      {
+        "name": "Lock House",
+        "symbolicRole": "Lock House concentrates Grendhollow's local symbolism into a usable civic landmark: additional major landmark selected for this hero-view camera angle.",
+        "visualRole": "A largest local landmark in this section, subordinate only to the city wonder and citadel. It belongs to Section 2 (Canal / Riverworks) of Grendhollow and should use White Limestone Civic Blocks, Reed Pavilions, Coral Terraces, malachite and painted plaster materials, Lantern Lit, Hanging Gardens, Canal Reflections, and the trolls visual language. Design focus: lock houses, sluice gates, waterwheel yards, towpaths, largest section focal point. Terrain/water context: Fenland; Swamp. Magic expression: Stone Giant Memory, Living Stone, Gravity Wells. No baked labels or text.",
+        "civicRole": "Serves as additional major landmark selected for this hero-view camera angle within Grendhollow; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Lock House",
+          "show how Grendhollow turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 2",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Lock House becomes narratively important",
+          "the visible condition of Lock House signals political or social stress",
+          "someone uses Lock House's public function to redirect crowds or information",
+          "an overlooked detail at Lock House reveals how Grendhollow really works"
+        ]
+      },
+      {
+        "name": "Healing Hall",
+        "symbolicRole": "Healing Hall concentrates Grendhollow's local symbolism into a usable civic landmark: additional major landmark selected for this hero-view camera angle.",
+        "visualRole": "A largest local landmark in this section, subordinate only to the city wonder and citadel. It belongs to Section 4 (Medical / Healing) of Grendhollow and should use White Limestone Civic Blocks, Temple Platforms, Reed Pavilions, malachite and painted plaster materials, Lantern Lit, Bone White Ceremony, Hanging Gardens, and the trolls visual language. Design focus: white cloth, water bowls, healing lamps, clinics, hospital halls. Terrain/water context: Fenland; Swamp. Magic expression: Stone Giant Memory, Living Stone, Gravity Wells. No baked labels or text.",
+        "civicRole": "Serves as additional major landmark selected for this hero-view camera angle within Grendhollow; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Healing Hall",
+          "show how Grendhollow turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 4",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Healing Hall becomes narratively important",
+          "the visible condition of Healing Hall signals political or social stress",
+          "someone uses Healing Hall's public function to redirect crowds or information",
+          "an overlooked detail at Healing Hall reveals how Grendhollow really works"
+        ]
+      },
+      {
+        "name": "Nursery / Spawning Grounds Civic Hall",
+        "symbolicRole": "Nursery / Spawning Grounds Civic Hall concentrates Grendhollow's local symbolism into a usable civic landmark: Section 1 local anchor.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing. It belongs to Section 1 (Nursery / Spawning Grounds) of Grendhollow and should use Reed Pavilions, Shell Domes, Coral Terraces, malachite and painted plaster materials, Canal Reflections, Hanging Gardens, Shell Inlay, and the trolls visual language. Design focus: play yards, institutional anchor, public-facing administration, clear central silhouette, board-readable entrance. Terrain/water context: Fenland; Swamp. Magic expression: Stone Giant Memory, Living Stone, Gravity Wells. No baked labels or text.",
+        "civicRole": "Serves as Section 1 local anchor within Grendhollow; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Nursery / Spawning Grounds Civic Hall",
+          "show how Grendhollow turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 1",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Nursery / Spawning Grounds Civic Hall becomes narratively important",
+          "the visible condition of Nursery / Spawning Grounds Civic Hall signals political or social stress",
+          "someone uses Nursery / Spawning Grounds Civic Hall's public function to redirect crowds or information",
+          "an overlooked detail at Nursery / Spawning Grounds Civic Hall reveals how Grendhollow really works"
+        ]
+      },
+      {
+        "name": "Shell Inlay Monument",
+        "symbolicRole": "Shell Inlay Monument concentrates Grendhollow's local symbolism into a usable civic landmark: Section 1 local anchor.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles. It belongs to Section 1 (Nursery / Spawning Grounds) of Grendhollow and should use Shell Domes, Coral Terraces, Reed Pavilions, malachite and painted plaster materials, Hanging Gardens, Shell Inlay, Canal Reflections, and the trolls visual language. Design focus: egg stones, soft lanterns, nursery halls, spawning pools, hatchery courts. Terrain/water context: Fenland; Swamp. Magic expression: Stone Giant Memory, Living Stone, Gravity Wells. No baked labels or text.",
+        "civicRole": "Serves as Section 1 local anchor within Grendhollow; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Shell Inlay Monument",
+          "show how Grendhollow turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 1",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Shell Inlay Monument becomes narratively important",
+          "the visible condition of Shell Inlay Monument signals political or social stress",
+          "someone uses Shell Inlay Monument's public function to redirect crowds or information",
+          "an overlooked detail at Shell Inlay Monument reveals how Grendhollow really works"
+        ]
+      },
+      {
+        "name": "Spawning Pool Nook",
+        "symbolicRole": "Spawning Pool Nook concentrates Grendhollow's local symbolism into a usable civic landmark: Section 1 local anchor.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette. It belongs to Section 1 (Nursery / Spawning Grounds) of Grendhollow and should use Coral Terraces, Reed Pavilions, Shell Domes, malachite and painted plaster materials, Hanging Gardens, Shell Inlay, Canal Reflections, and the trolls visual language. Design focus: spawning pools, hatchery courts, play yards, small local identity prop, street-level detail. Terrain/water context: Fenland; Swamp. Magic expression: Stone Giant Memory, Living Stone, Gravity Wells. No baked labels or text.",
+        "civicRole": "Serves as Section 1 local anchor within Grendhollow; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Spawning Pool Nook",
+          "show how Grendhollow turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 1",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Spawning Pool Nook becomes narratively important",
+          "the visible condition of Spawning Pool Nook signals political or social stress",
+          "someone uses Spawning Pool Nook's public function to redirect crowds or information",
+          "an overlooked detail at Spawning Pool Nook reveals how Grendhollow really works"
+        ]
+      },
+      {
+        "name": "Canal / Riverworks Civic Hall",
+        "symbolicRole": "Canal / Riverworks Civic Hall concentrates Grendhollow's local symbolism into a usable civic landmark: Section 2 local anchor.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing. It belongs to Section 2 (Canal / Riverworks) of Grendhollow and should use White Limestone Civic Blocks, Reed Pavilions, Coral Terraces, malachite and painted plaster materials, Lantern Lit, Hanging Gardens, Canal Reflections, and the trolls visual language. Design focus: sluice gates, waterwheel yards, towpaths, institutional anchor, public-facing administration. Terrain/water context: Fenland; Swamp. Magic expression: Stone Giant Memory, Living Stone, Gravity Wells. No baked labels or text.",
+        "civicRole": "Serves as Section 2 local anchor within Grendhollow; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Canal / Riverworks Civic Hall",
+          "show how Grendhollow turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 2",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Canal / Riverworks Civic Hall becomes narratively important",
+          "the visible condition of Canal / Riverworks Civic Hall signals political or social stress",
+          "someone uses Canal / Riverworks Civic Hall's public function to redirect crowds or information",
+          "an overlooked detail at Canal / Riverworks Civic Hall reveals how Grendhollow really works"
+        ]
+      },
+      {
+        "name": "Canal Reflections Monument",
+        "symbolicRole": "Canal Reflections Monument concentrates Grendhollow's local symbolism into a usable civic landmark: Section 2 local anchor.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles. It belongs to Section 2 (Canal / Riverworks) of Grendhollow and should use Coral Terraces, White Limestone Civic Blocks, Reed Pavilions, malachite and painted plaster materials, Canal Reflections, Lantern Lit, Hanging Gardens, and the trolls visual language. Design focus: lock houses, sluice gates, waterwheel yards, towpaths, symbolic civic object. Terrain/water context: Fenland; Swamp. Magic expression: Stone Giant Memory, Living Stone, Gravity Wells. No baked labels or text.",
+        "civicRole": "Serves as Section 2 local anchor within Grendhollow; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Canal Reflections Monument",
+          "show how Grendhollow turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 2",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Canal Reflections Monument becomes narratively important",
+          "the visible condition of Canal Reflections Monument signals political or social stress",
+          "someone uses Canal Reflections Monument's public function to redirect crowds or information",
+          "an overlooked detail at Canal Reflections Monument reveals how Grendhollow really works"
+        ]
+      },
+      {
+        "name": "Waterwheel Court Nook",
+        "symbolicRole": "Waterwheel Court Nook concentrates Grendhollow's local symbolism into a usable civic landmark: Section 2 local anchor.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette. It belongs to Section 2 (Canal / Riverworks) of Grendhollow and should use Coral Terraces, White Limestone Civic Blocks, Reed Pavilions, malachite and painted plaster materials, Lantern Lit, Hanging Gardens, Canal Reflections, and the trolls visual language. Design focus: sluice wheels, reeds, wet stone, lock houses, sluice gates. Terrain/water context: Fenland; Swamp. Magic expression: Stone Giant Memory, Living Stone, Gravity Wells. No baked labels or text.",
+        "civicRole": "Serves as Section 2 local anchor within Grendhollow; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Waterwheel Court Nook",
+          "show how Grendhollow turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 2",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Waterwheel Court Nook becomes narratively important",
+          "the visible condition of Waterwheel Court Nook signals political or social stress",
+          "someone uses Waterwheel Court Nook's public function to redirect crowds or information",
+          "an overlooked detail at Waterwheel Court Nook reveals how Grendhollow really works"
+        ]
+      },
+      {
+        "name": "Records / Archives Hall",
+        "symbolicRole": "Records / Archives Hall concentrates Grendhollow's local symbolism into a usable civic landmark: Section 3 local anchor.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing. It belongs to Section 3 (Records / Archives) of Grendhollow and should use White Limestone Civic Blocks, Subterranean Vaults, Archive Towers, malachite and painted plaster materials, Civic Blue Glow, Gold Seals, Lantern Lit, and the trolls visual language. Design focus: board-readable entrance, scrolls, index cards, wax seals, memory lamps. Terrain/water context: Fenland; Swamp. Magic expression: Stone Giant Memory, Living Stone, Gravity Wells. No baked labels or text.",
+        "civicRole": "Serves as Section 3 local anchor within Grendhollow; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Records / Archives Hall",
+          "show how Grendhollow turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 3",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Records / Archives Hall becomes narratively important",
+          "the visible condition of Records / Archives Hall signals political or social stress",
+          "someone uses Records / Archives Hall's public function to redirect crowds or information",
+          "an overlooked detail at Records / Archives Hall reveals how Grendhollow really works"
+        ]
+      },
+      {
+        "name": "Archive Tower",
+        "symbolicRole": "Archive Tower concentrates Grendhollow's local symbolism into a usable civic landmark: Section 3 local anchor.",
+        "visualRole": "A mandatory Section 3 Beacon: a culturally adapted civic signal flame / warning-light landmark visible across the city spine. It belongs to Section 3 (Records / Archives) of Grendhollow and should use Subterranean Vaults, Archive Towers, White Limestone Civic Blocks, malachite and painted plaster materials, Lantern Lit, Civic Blue Glow, Gold Seals, and the trolls visual language. Design focus: memory lamps, archive stacks, ledger halls, vault towers, Beacon must inherit city materials, culture, magic expression, and water/terrain context from CityProfile.. Terrain/water context: Fenland; Swamp. Magic expression: Stone Giant Memory, Living Stone, Gravity Wells. No baked labels or text.",
+        "civicRole": "Serves as Section 3 local anchor within Grendhollow; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Archive Tower",
+          "show how Grendhollow turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 3",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Archive Tower becomes narratively important",
+          "the visible condition of Archive Tower signals political or social stress",
+          "someone uses Archive Tower's public function to redirect crowds or information",
+          "an overlooked detail at Archive Tower reveals how Grendhollow really works"
+        ]
+      },
+      {
+        "name": "Records Archives Gold-Seal Monument",
+        "symbolicRole": "Records Archives Gold-Seal Monument concentrates Grendhollow's local symbolism into a usable civic landmark: Section 3 local anchor.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles. It belongs to Section 3 (Records / Archives) of Grendhollow and should use Archive Towers, White Limestone Civic Blocks, Subterranean Vaults, malachite and painted plaster materials, Civic Blue Glow, Gold Seals, Lantern Lit, and the trolls visual language. Design focus: small ceremonial site, local memory marker, subordinate to major landmark, scrolls, index cards. Terrain/water context: Fenland; Swamp. Magic expression: Stone Giant Memory, Living Stone, Gravity Wells. No baked labels or text.",
+        "civicRole": "Serves as Section 3 local anchor within Grendhollow; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Records Archives Gold-Seal Monument",
+          "show how Grendhollow turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 3",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Records Archives Gold-Seal Monument becomes narratively important",
+          "the visible condition of Records Archives Gold-Seal Monument signals political or social stress",
+          "someone uses Records Archives Gold-Seal Monument's public function to redirect crowds or information",
+          "an overlooked detail at Records Archives Gold-Seal Monument reveals how Grendhollow really works"
+        ]
+      },
+      {
+        "name": "Copyist Hall Nook",
+        "symbolicRole": "Copyist Hall Nook concentrates Grendhollow's local symbolism into a usable civic landmark: Section 3 local anchor.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette. It belongs to Section 3 (Records / Archives) of Grendhollow and should use Archive Towers, White Limestone Civic Blocks, Subterranean Vaults, malachite and painted plaster materials, Civic Blue Glow, Gold Seals, Lantern Lit, and the trolls visual language. Design focus: archive stacks, ledger halls, vault towers, copyist desks, small local identity prop. Terrain/water context: Fenland; Swamp. Magic expression: Stone Giant Memory, Living Stone, Gravity Wells. No baked labels or text.",
+        "civicRole": "Serves as Section 3 local anchor within Grendhollow; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Copyist Hall Nook",
+          "show how Grendhollow turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 3",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Copyist Hall Nook becomes narratively important",
+          "the visible condition of Copyist Hall Nook signals political or social stress",
+          "someone uses Copyist Hall Nook's public function to redirect crowds or information",
+          "an overlooked detail at Copyist Hall Nook reveals how Grendhollow really works"
+        ]
+      },
+      {
+        "name": "Medical / Healing Civic Hall",
+        "symbolicRole": "Medical / Healing Civic Hall concentrates Grendhollow's local symbolism into a usable civic landmark: Section 4 local anchor.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing. It belongs to Section 4 (Medical / Healing) of Grendhollow and should use Reed Pavilions, White Limestone Civic Blocks, Temple Platforms, malachite and painted plaster materials, Lantern Lit, Bone White Ceremony, Hanging Gardens, and the trolls visual language. Design focus: clear central silhouette, board-readable entrance, herbs, white cloth, water bowls. Terrain/water context: Fenland; Swamp. Magic expression: Stone Giant Memory, Living Stone, Gravity Wells. No baked labels or text.",
+        "civicRole": "Serves as Section 4 local anchor within Grendhollow; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Medical / Healing Civic Hall",
+          "show how Grendhollow turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 4",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Medical / Healing Civic Hall becomes narratively important",
+          "the visible condition of Medical / Healing Civic Hall signals political or social stress",
+          "someone uses Medical / Healing Civic Hall's public function to redirect crowds or information",
+          "an overlooked detail at Medical / Healing Civic Hall reveals how Grendhollow really works"
+        ]
+      },
+      {
+        "name": "Medical Healing Lantern Monument",
+        "symbolicRole": "Medical Healing Lantern Monument concentrates Grendhollow's local symbolism into a usable civic landmark: Section 4 local anchor.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles. It belongs to Section 4 (Medical / Healing) of Grendhollow and should use White Limestone Civic Blocks, Temple Platforms, Reed Pavilions, malachite and painted plaster materials, Hanging Gardens, Lantern Lit, Bone White Ceremony, and the trolls visual language. Design focus: healing lamps, clinics, hospital halls, herb gardens, recovery beds. Terrain/water context: Fenland; Swamp. Magic expression: Stone Giant Memory, Living Stone, Gravity Wells. No baked labels or text.",
+        "civicRole": "Serves as Section 4 local anchor within Grendhollow; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Medical Healing Lantern Monument",
+          "show how Grendhollow turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 4",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Medical Healing Lantern Monument becomes narratively important",
+          "the visible condition of Medical Healing Lantern Monument signals political or social stress",
+          "someone uses Medical Healing Lantern Monument's public function to redirect crowds or information",
+          "an overlooked detail at Medical Healing Lantern Monument reveals how Grendhollow really works"
+        ]
+      },
+      {
+        "name": "Apothecary Court Nook",
+        "symbolicRole": "Apothecary Court Nook concentrates Grendhollow's local symbolism into a usable civic landmark: Section 4 local anchor.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette. It belongs to Section 4 (Medical / Healing) of Grendhollow and should use White Limestone Civic Blocks, Temple Platforms, Reed Pavilions, malachite and painted plaster materials, Bone White Ceremony, Hanging Gardens, Lantern Lit, and the trolls visual language. Design focus: recovery beds, small local identity prop, street-level detail, usable board landmark, subordinate scale. Terrain/water context: Fenland; Swamp. Magic expression: Stone Giant Memory, Living Stone, Gravity Wells. No baked labels or text.",
+        "civicRole": "Serves as Section 4 local anchor within Grendhollow; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Apothecary Court Nook",
+          "show how Grendhollow turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 4",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Apothecary Court Nook becomes narratively important",
+          "the visible condition of Apothecary Court Nook signals political or social stress",
+          "someone uses Apothecary Court Nook's public function to redirect crowds or information",
+          "an overlooked detail at Apothecary Court Nook reveals how Grendhollow really works"
+        ]
+      },
+      {
+        "name": "Arena / Training Civic Hall",
+        "symbolicRole": "Arena / Training Civic Hall concentrates Grendhollow's local symbolism into a usable civic landmark: Section 5 local anchor.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing. It belongs to Section 5 (Arena / Training) of Grendhollow and should use Obsidian Fortresses, Lecture Courts, Temple Platforms, malachite and painted plaster materials, Carved Totems, Woven Banners, Red Fabric Awnings, and the trolls visual language. Design focus: banners, sand floors, practice weapons, victory stones, arenas. Terrain/water context: Fenland; Swamp. Magic expression: Stone Giant Memory, Living Stone, Gravity Wells. No baked labels or text.",
+        "civicRole": "Serves as Section 5 local anchor within Grendhollow; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Arena / Training Civic Hall",
+          "show how Grendhollow turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 5",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Arena / Training Civic Hall becomes narratively important",
+          "the visible condition of Arena / Training Civic Hall signals political or social stress",
+          "someone uses Arena / Training Civic Hall's public function to redirect crowds or information",
+          "an overlooked detail at Arena / Training Civic Hall reveals how Grendhollow really works"
+        ]
+      },
+      {
+        "name": "Woven Banners Monument",
+        "symbolicRole": "Woven Banners Monument concentrates Grendhollow's local symbolism into a usable civic landmark: Section 5 local anchor.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles. It belongs to Section 5 (Arena / Training) of Grendhollow and should use Lecture Courts, Temple Platforms, Obsidian Fortresses, malachite and painted plaster materials, Red Fabric Awnings, Carved Totems, Woven Banners, and the trolls visual language. Design focus: small ceremonial site, local memory marker, subordinate to major landmark, banners, sand floors. Terrain/water context: Fenland; Swamp. Magic expression: Stone Giant Memory, Living Stone, Gravity Wells. No baked labels or text.",
+        "civicRole": "Serves as Section 5 local anchor within Grendhollow; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Woven Banners Monument",
+          "show how Grendhollow turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 5",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Woven Banners Monument becomes narratively important",
+          "the visible condition of Woven Banners Monument signals political or social stress",
+          "someone uses Woven Banners Monument's public function to redirect crowds or information",
+          "an overlooked detail at Woven Banners Monument reveals how Grendhollow really works"
+        ]
+      },
+      {
+        "name": "Champion Gate Nook",
+        "symbolicRole": "Champion Gate Nook concentrates Grendhollow's local symbolism into a usable civic landmark: Section 5 local anchor.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette. It belongs to Section 5 (Arena / Training) of Grendhollow and should use Temple Platforms, Obsidian Fortresses, Lecture Courts, malachite and painted plaster materials, Woven Banners, Red Fabric Awnings, Carved Totems, and the trolls visual language. Design focus: small local identity prop, street-level detail, usable board landmark, subordinate scale, banners. Terrain/water context: Fenland; Swamp. Magic expression: Stone Giant Memory, Living Stone, Gravity Wells. No baked labels or text.",
+        "civicRole": "Serves as Section 5 local anchor within Grendhollow; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Champion Gate Nook",
+          "show how Grendhollow turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 5",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Champion Gate Nook becomes narratively important",
+          "the visible condition of Champion Gate Nook signals political or social stress",
+          "someone uses Champion Gate Nook's public function to redirect crowds or information",
+          "an overlooked detail at Champion Gate Nook reveals how Grendhollow really works"
+        ]
+      }
     ]
   },
   "assetGuidance": {
-    "districtDioramaGuidance": ["S1 must show Nursery / Spawning Grounds Civic Hall, Nursery Basin Beacon, Shell Inlay Monument, Spawning Pool Nook, warm pools, caregivers, and protective walls.", "S2 must show Canal / Riverworks Civic Hall, Lock House, Canal Reflections Monument, Waterwheel Court Nook, sluice gates, lock workers, and broad bridges.", "S3 must show Records / Archives Hall, Archive Tower, Records Archives Gold-Seal Monument, Copyist Hall Nook, memory tablets, archive stairs, and copyists.", "S4 must show Medical / Healing Civic Hall, Healing Hall, Medical Healing Lantern Monument, Apothecary Court Nook, healers, herb beds, and treatment benches.", "S5 must show Arena / Training Civic Hall, Training Arena, Woven Banners Monument, Champion Gate Nook, arena trainers, mud ground, and huge practice posts."],
-    "mapBackgroundGuidance": ["Show a large swamp troll city with nursery basin signal core, canal riverworks, archive tower, healing courts, arena grounds, Colossus Registry, and Trollstone Bridge-Back Hall.", "Use troll scale and protected care systems together: broad thresholds, huge benches, heavy bridges, nursery pools, healing lanterns, and memory tablets."],
-    "requiredVisualElements": ["troll citizens", "Trollstone Bridge-Back Hall of the Fen", "Nursery Basin Beacon", "Memory Tablet Walls Colossus Registry", "Nursery / Spawning Grounds Civic Hall", "Shell Inlay Monument", "Spawning Pool Nook", "Lock House", "Canal Reflections Monument", "Waterwheel Court Nook", "Archive Tower", "Records Archives Gold-Seal Monument", "Copyist Hall Nook", "Healing Hall", "Medical Healing Lantern Monument", "Apothecary Court Nook", "Training Arena", "Woven Banners Monument", "Champion Gate Nook", "mossy stone", "reeds", "wet basins"],
-    "elementsToAvoid": ["crude monster settlement", "generic swamp village", "trolls as stupid brutes", "arena as random violence", "nursery and healing systems hidden", "water and mud as background muck only"]
+    "districtDioramaGuidance": [
+      "Dioramas must support 25 district slots: S1 covers D01, D02, D03, D06, D07 and uses source-backed anchors Nursery / Spawning Grounds Civic Hall, Nursery Basin Beacon, Shell Inlay Monument, Spawning Pool Nook.",
+      "Dioramas must support 25 district slots: S2 covers D04, D05, D09, D10, D15 and uses source-backed anchors Canal / Riverworks Civic Hall, Lock House, Canal Reflections Monument, Waterwheel Court Nook.",
+      "Dioramas must support 25 district slots: S3 covers D08, D12, D13, D14, D18 and uses source-backed anchors Records / Archives Hall, Archive Tower, Records Archives Gold-Seal Monument, Copyist Hall Nook.",
+      "Dioramas must support 25 district slots: S4 covers D11, D16, D17, D21, D22 and uses source-backed anchors Medical / Healing Civic Hall, Healing Hall, Medical Healing Lantern Monument, Apothecary Court Nook.",
+      "Dioramas must support 25 district slots: S5 covers D19, D20, D23, D24, D25 and uses source-backed anchors Arena / Training Civic Hall, Training Arena, Woven Banners Monument, Champion Gate Nook."
+    ],
+    "mapBackgroundGuidance": [
+      "Map backgrounds must show Trollstone Bridge-Back Hall of the Fen as the wonder-scale identity anchor, Memory Tablet Walls Colossus Registry at D13, and Nursery Basin Beacon as the city signal landmark.",
+      "Preserve the five-section spine: S1 Nursery / Spawning Grounds Civic Hall, S2 Canal / Riverworks Civic Hall, S3 Records / Archives Hall, S4 Medical / Healing Civic Hall, S5 Arena / Training Civic Hall.",
+      "Use roads, terrain, water, civic terraces, walls, markets, courts, or service routes only where they support the exact city identity and tactical readability."
+    ],
+    "requiredVisualElements": [
+      "Trollstone Bridge-Back Hall of the Fen",
+      "Nursery Basin Beacon",
+      "Memory Tablet Walls Colossus Registry",
+      "Training Arena",
+      "Lock House",
+      "Healing Hall",
+      "Nursery / Spawning Grounds Civic Hall",
+      "Shell Inlay Monument",
+      "Spawning Pool Nook",
+      "Canal / Riverworks Civic Hall",
+      "Canal Reflections Monument",
+      "Waterwheel Court Nook",
+      "Records / Archives Hall",
+      "Archive Tower",
+      "Records Archives Gold-Seal Monument",
+      "Copyist Hall Nook",
+      "Medical / Healing Civic Hall",
+      "Medical Healing Lantern Monument",
+      "Apothecary Court Nook",
+      "Arena / Training Civic Hall",
+      "Woven Banners Monument",
+      "Champion Gate Nook",
+      "Cedar",
+      "Thatch",
+      "Malachite",
+      "Resin",
+      "Painted Plaster",
+      "Swamp Edge",
+      "Tidal Marsh",
+      "Reed Marsh",
+      "Ward Networks",
+      "Ritual Geometry",
+      "Stone Giant Memory"
+    ],
+    "elementsToAvoid": [
+      "extra top-level schema sections or research-log content in the JSON",
+      "generic fantasy architecture that ignores exact anchor names",
+      "invented missing street anchors",
+      "readable real-world text labels baked into images",
+      "collapsing the 25-district board into only five playable spaces",
+      "making landmarks decorative when they should have civic, narrative, and asset function"
+    ]
   }
 }

@@ -4,82 +4,1911 @@
     "analysisVersion": 2,
     "cityCode": "VLG",
     "cityName": "Volgrad",
-    "analysisDate": "2026-07-03",
+    "analysisDate": "2026-07-05",
     "analystVersion": "gpt-5.5-thinking",
     "analysisConfidence": "strong-lock",
-    "basedOnImages": ["VLG-HERO-NE-v001", "VLG-HERO-NW-v001", "VLG-HERO-SE-v001", "VLG-HERO-SW-v001", "VLG-STREET-S1-v001", "VLG-STREET-S2-v001", "VLG-STREET-S3-v001", "VLG-STREET-S4-v001", "VLG-STREET-S5-v001"],
-    "basedOnSidecars": ["VLG-HERO-NE-v001.json", "VLG-HERO-NW-v001.json", "VLG-HERO-SE-v001.json", "VLG-HERO-SW-v001.json", "VLG-STREET-S1-v001.json", "VLG-STREET-S2-v001.json", "VLG-STREET-S3-v001.json", "VLG-STREET-S4-v001.json", "VLG-STREET-S5-v001.json"]
+    "basedOnImages": [
+      "VLG-HERO-NE-v001.png",
+      "VLG-HERO-NW-v001.png",
+      "VLG-HERO-SE-v001.png",
+      "VLG-HERO-SW-v001.png",
+      "VLG-STREET-S1-v001.png",
+      "VLG-STREET-S2-v001.png",
+      "VLG-STREET-S3-v001.png",
+      "VLG-STREET-S4-v001.png",
+      "VLG-STREET-S5-v001.png"
+    ],
+    "basedOnSidecars": [
+      "VLG-HERO-NE-v001.json",
+      "VLG-HERO-NW-v001.json",
+      "VLG-HERO-SE-v001.json",
+      "VLG-HERO-SW-v001.json",
+      "VLG-STREET-S1-v001.json",
+      "VLG-STREET-S2-v001.json",
+      "VLG-STREET-S3-v001.json",
+      "VLG-STREET-S4-v001.json",
+      "VLG-STREET-S5-v001.json"
+    ],
+    "missingStreetSections": []
   },
   "cityDNA": {
-    "coreFantasy": "A frostbound eastern kremlin city where guild craft, registry authority, aristocratic residential courts, archives, refugee aid, nursery basins, watchfires, banners, and blue cold-light bind winter survival into institutions.",
-    "primaryEmotion": "institutional endurance",
-    "secondaryEmotion": "frost-lit civic responsibility",
-    "readerTakeaway": "Volgrad is hard, ordered, cold, and responsible; its beauty is endurance through civic machinery.",
-    "civilizationThesis": "Volgrad is the architecture of institutional endurance: a frostbound city where craft, registry, archive, aristocracy, public aid, and nursery continuity are organized to hold back winter, scarcity, and displacement.",
-    "visualIdentity": "Snow-worn stone, dark timber, white limestone, frosted slate, iron fittings, bronze clocks and seals, blue glass, red woven banners, guild halls, archive towers, manor courts, refugee commons, nursery basins, and watchfire towers.",
-    "culturalIdentity": "Winter-hardened civic culture mediated through guild certification, registry records, public aid, aristocratic influence, archives, ration logistics, and protected continuity.",
-    "symbolicIdentity": "Frost runes, watchfires, guild seals, red banners, gold-seal records, blue lanterns, masterwork arcades, ration arcades, and shell inlay nursery basins symbolize survival through certified care."
+    "coreFantasy": "Volgrad is a frost-gate Slavic civic city where guild craft, cold law, archives, refugee care, and protected nurseries hold a severe frontier society together.",
+    "primaryEmotion": "winter resolve",
+    "secondaryEmotion": "communal endurance",
+    "readerTakeaway": "Volgrad should feel immediately distinct: Eastern European / Slavic civic life is organized around Artisan Guilds, High Residential, Records / Archives, Refugee Commons, and Nursery / Spawning Grounds, with Eastern Watchfire Kremlin of the Frost Gate as the citywide symbol.",
+    "civilizationThesis": "The city turns Blue Granite, Frost Glass, Pine, Silver Inlay, Arcane Glow, Dry Stone Paving, Civic Terraces, and Civic Blue Illumination, Oath Seals, Weather Binding into a working urban system rather than surface decoration.",
+    "visualIdentity": "Use Blue Granite, Frost Glass, Pine, Silver Inlay, Arcane Glow, civic terraces, public courts, audience terraces, sealed archives, command platforms, Artisan Guilds Civic Hall, High Residential Civic Hall, Records / Archives Hall, visible Guildhall Beacon, the central Frost Rune Edges Sovereign Registry Court, and the skyline-scale Eastern Watchfire Kremlin of the Frost Gate as the core visual grammar.",
+    "culturalIdentity": "A Eastern European / Slavic population whose institutions make daily life legible through section anchors: Artisan Guilds, High Residential, Records / Archives, Refugee Commons, Nursery / Spawning Grounds.",
+    "symbolicIdentity": "The city is symbolized by Eastern Watchfire Kremlin of the Frost Gate, Guildhall Beacon, Frost Rune Edges Sovereign Registry Court, and the repeating civic pattern of hall, landmark, monument, and nook in every section."
   },
   "canon": {
-    "canonLocks": ["Volgrad is a frostbound eastern kremlin city where guild craft, registry authority, archives, public aid, high residential courts, and nursery protection define civic life.", "The Wonder is Eastern Watchfire Kremlin of the Frost Gate.", "The Beacon is Guildhall Beacon.", "The Seat of Power is Frost Rune Edges Sovereign Registry Court.", "The five primary districts are Artisan Guilds, High Residential, Records / Archives, Refugee Commons, and Nursery / Spawning Grounds.", "Exact uploaded anchors include Artisan Guilds Civic Hall, Guildhall Beacon, Woven Banners Monument, Masterwork Arcade Nook, High Residential Civic Hall, Manor Court, Hanging Gardens Monument, Salon Pavilion Nook, Records / Archives Hall, Archive Tower, Records Archives Gold-Seal Monument, Copyist Hall Nook, Refugee Commons Civic Hall, Aid Commons, Woven Banners Monument, Ration Arcade Nook, Nursery / Spawning Grounds Civic Hall, Nursery Basin, Shell Inlay Monument, and Spawning Pool Nook."],
-    "provisionalCanon": ["Volgrad's highest civic virtue is endurance.", "The city resolves aristocratic order versus public hardship imperfectly by making aid, rationing, and registry responsibility visible civic duties."],
-    "rejectedReads": ["cold fortress without public care", "snowy conquest city", "guild craft as decorative market flavor", "refugee aid hidden outside the walls"],
-    "cautionFlags": ["Use snow, breath, wet boots, red banners, blue rune-light, and warm doorways as recurring street texture.", "Preserve exact sidecar anchor names.", "Public hardship belongs to the city's civic identity, not outside it."]
+    "canonLocks": [
+      "Volgrad is built for its Eastern European / Slavic population and should not be genericized into a neutral fantasy city.",
+      "The Wonder is Eastern Watchfire Kremlin of the Frost Gate.",
+      "The Beacon is Guildhall Beacon.",
+      "The Seat of Power is Frost Rune Edges Sovereign Registry Court.",
+      "The five section spines are Artisan Guilds, High Residential, Records / Archives, Refugee Commons, Nursery / Spawning Grounds.",
+      "The tactical board uses 25 district slots, with District 13 as the seat-of-power center.",
+      "Exact sidecar names for civic halls, major landmarks, monuments, and minor nooks must be preserved verbatim."
+    ],
+    "provisionalCanon": [
+      "Citizens likely treat Guildhall Beacon as the practical public signal point for citywide alerts and Conjunction response.",
+      "Daily politics likely moves through the named section institutions rather than through faction headquarters.",
+      "The city’s civic magic expresses through Civic Blue Illumination, Oath Seals, Weather Binding when visible in public spaces."
+    ],
+    "rejectedReads": [
+      "Volgrad as a generic fantasy settlement with the culture applied as ornament only.",
+      "Replacing exact section anchors with generic labels such as market, temple, tower, archive, or court when the sidecar provides a proper name.",
+      "Treating the Wonder, Beacon, or Seat of Power as interchangeable skyline props instead of civic machinery."
+    ],
+    "cautionFlags": [
+      "Do not add unsupported per-district landmark names beyond the source-backed section anchors.",
+      "Keep all 25 districts, but derive their specific identity from the five section spines unless new district-specific sidecars exist.",
+      "Preserve the material language: Blue Granite, Frost Glass, Pine, Silver Inlay, Arcane Glow.",
+      "Preserve the terrain/water logic: Dry Stone Paving, Civic Terraces; water context: dry city ground."
+    ]
   },
   "environment": {
-    "terrain": ["snowbound civic fortress", "kremlin-like terraces", "snowy civic squares", "guild streets", "archive stairs", "refugee commons", "nursery courts"],
-    "water": ["snowmelt", "nursery basins", "ration water", "ice-rimmed public wells", "heated basins"],
-    "vegetation": ["frosted hanging gardens", "winter courtyard plantings", "bare trees", "nursery basin greenery"],
-    "climateLighting": ["cold grey winter daylight", "blue frost-rune glow", "orange watchfires", "warm market lanterns", "firelight in aid commons", "blue beacon light"],
-    "environmentalLogic": "Volgrad does not ignore winter; it institutionalizes survival inside winter through fire, stone, cloth, labor, records, ration systems, aid commons, and protected communal spaces."
+    "terrain": [
+      "Dry Stone Paving",
+      "Civic Terraces",
+      "district plazas",
+      "civic approaches",
+      "pedestrian streets",
+      "section courts"
+    ],
+    "water": [
+      "dry city ground",
+      "ice-rimmed cisterns",
+      "snowmelt channels",
+      "frost-glass basins",
+      "covered wells"
+    ],
+    "vegetation": [
+      "pine windbreaks",
+      "cold courtyard trees",
+      "frosted balcony planters",
+      "hardy herbs",
+      "protected nursery greenery"
+    ],
+    "climateLighting": [
+      "daylight",
+      "golden hour",
+      "lantern-lit evenings",
+      "civic blue illumination",
+      "Civic Blue Illumination",
+      "Oath Seals"
+    ],
+    "environmentalLogic": "Environment should make the city’s institutions readable: Artisan Guilds, High Residential, Records / Archives, Refugee Commons, Nursery / Spawning Grounds must feel embedded in Dry Stone Paving, Civic Terraces, with water handled as dry city ground and public magic appearing as Civic Blue Illumination, Oath Seals, Weather Binding."
   },
   "architecture": {
-    "materials": ["snow-worn stone", "dark timber", "white limestone", "frosted slate", "iron fittings", "bronze clocks and seals", "blue glass", "red woven banners", "polished guild metalwork", "ice-rimed masonry"],
-    "forms": ["Eastern Watchfire Kremlin of the Frost Gate", "Frost Rune Edges Sovereign Registry Court", "Guildhall Beacon", "Guildhall", "Masterwork Arcade Nook", "Manor Court", "Salon Pavilion Nook", "Archive Tower", "Copyist Hall Nook", "Aid Commons", "Ration Arcade Nook", "Nursery Basin", "Spawning Pool Nook"],
-    "skyline": ["Eastern Watchfire Kremlin of the Frost Gate as defensive-civic wonder", "Frost Rune Edges Sovereign Registry Court as seat of power", "Guildhall Beacon as front civic signal", "blue-lit towers and registry peaks above dense winter roofs"],
-    "lighting": ["blue frost-rune glow", "warm market lanterns", "orange watchfires", "blue beacon light", "workshop firelight", "archive window light"],
-    "infrastructure": ["guild courts", "workshop streets", "masterwork arcades", "archive plazas", "copyist halls", "manor stairways", "ration arcades", "refugee commons", "nursery basins", "snow-cleared roads", "watchfire towers"],
-    "motifs": ["frost runes", "watchfires", "woven banners", "guild seals", "gold-seal archive markers", "clock towers", "snowy stairs", "blue lanterns", "shell inlay", "masterwork displays"],
-    "colorLanguage": ["snow grey", "frost blue", "banner red", "watchfire orange", "dark timber", "bronze seal", "warm interior amber"],
-    "textureLanguage": ["ice-rimed stone", "wet wool", "cold iron", "frosted slate", "polished guild metal", "paper records", "warm wood smoke"]
+    "materials": [
+      "Blue Granite",
+      "Frost Glass",
+      "Pine",
+      "Silver Inlay",
+      "Arcane Glow"
+    ],
+    "forms": [
+      "civic terraces",
+      "public courts",
+      "audience terraces",
+      "sealed archives",
+      "command platforms",
+      "Artisan Guilds Civic Hall",
+      "High Residential Civic Hall",
+      "Records / Archives Hall",
+      "Refugee Commons Civic Hall",
+      "Nursery / Spawning Grounds Civic Hall",
+      "Guildhall Beacon",
+      "Manor Court",
+      "Archive Tower",
+      "Aid Commons",
+      "Nursery Basin",
+      "Woven Banners Monument",
+      "Hanging Gardens Monument",
+      "Records Archives Gold-Seal Monument",
+      "Shell Inlay Monument",
+      "Masterwork Arcade Nook",
+      "Salon Pavilion Nook",
+      "Copyist Hall Nook",
+      "Ration Arcade Nook",
+      "Spawning Pool Nook"
+    ],
+    "skyline": [
+      "Eastern Watchfire Kremlin of the Frost Gate dominates the far skyline and should be larger than every section landmark.",
+      "Frost Rune Edges Sovereign Registry Court anchors the central District 13 civic mass.",
+      "Guildhall Beacon is the section-1 signal landmark and must be readable from nearby districts.",
+      "Section skyline rhythm: Guildhall Beacon, Manor Court, Archive Tower, Aid Commons, Nursery Basin."
+    ],
+    "lighting": [
+      "civic blue illumination",
+      "lantern light",
+      "golden-hour edge light",
+      "public beacon glow",
+      "Civic Blue Illumination",
+      "Oath Seals",
+      "Weather Binding"
+    ],
+    "infrastructure": [
+      "Artisan Guilds Civic Hall",
+      "High Residential Civic Hall",
+      "Records / Archives Hall",
+      "Refugee Commons Civic Hall",
+      "Nursery / Spawning Grounds Civic Hall",
+      "Guildhall Beacon",
+      "Manor Court",
+      "Archive Tower",
+      "Aid Commons",
+      "Nursery Basin",
+      "district streets",
+      "public approach stairs",
+      "notice plazas",
+      "archive thresholds",
+      "service yards"
+    ],
+    "motifs": [
+      "Eastern",
+      "Watchfire",
+      "Kremlin",
+      "Frost",
+      "Gate",
+      "Rune",
+      "Edges",
+      "Sovereign",
+      "Registry",
+      "Court",
+      "Guildhall",
+      "Civic Blue Illumination",
+      "Oath Seals",
+      "Weather Binding"
+    ],
+    "colorLanguage": [
+      "Blue Granite",
+      "Frost Glass",
+      "Silver Inlay"
+    ],
+    "textureLanguage": [
+      "Blue Granite",
+      "Frost Glass",
+      "Pine",
+      "Silver Inlay",
+      "Arcane Glow",
+      "worn paving",
+      "public notice surfaces",
+      "worked civic thresholds",
+      "weathered landmark edges"
+    ]
   },
   "civilization": {
-    "people": "Citizens are practical, winter-hardened, institutionally aware, and conscious of rank. Guildmasters, apprentices, clerks, nobles, refugees, aid workers, archivists, guards, and nursery attendants all belong in the same civic ecosystem.",
-    "occupations": ["guildmasters", "apprentices", "metalworkers", "woodcarvers", "banner weavers", "copyists", "archive clerks", "ration clerks", "aid workers", "nursery attendants", "watchfire keepers"],
-    "socialClasses": ["registry officials", "guild authorities", "high residential families", "archive houses", "refugee households", "aid administrators", "nursery keepers", "winter laborers"],
-    "governance": "Frost Rune Edges Sovereign Registry Court governs by recording, certifying, rationing, sheltering, legitimizing, and coordinating guild labor under winter pressure.",
-    "religion": "Watchfires, frost runes, shell inlay, nursery basins, guild seals, and public endurance rites suggest ritualized preservation more than temple-centered worship.",
-    "customs": ["snow clearing before work", "watchfire checks", "guild certification", "archive copying", "ration authorization", "aid intake", "nursery basin tending", "banner hanging"],
-    "bodyLanguage": ["moving from warmth to warmth", "rank-aware queueing", "tool-visible posture", "hands tucked against cold", "protective movement near nursery basins"],
-    "speechPatterns": ["guild certification phrases", "registry wording", "ration instructions", "archive seals", "refugee intake language", "winter-route shorthand"]
+    "people": "The population is Eastern European / Slavic. Civic scenes should show them using the city’s architecture naturally: gathering near Guildhall Beacon, moving through Artisan Guilds, High Residential, Records / Archives, and treating the named anchors as practical institutions.",
+    "occupations": [
+      "civic clerks",
+      "beacon wardens",
+      "archive keepers",
+      "market sellers",
+      "street repair crews",
+      "craft workers",
+      "messengers",
+      "guards",
+      "Artisan Guilds staff",
+      "High Residential staff",
+      "Records / Archives staff",
+      "Refugee Commons staff",
+      "Nursery / Spawning Grounds staff",
+      "guildhall beacon attendants",
+      "manor court attendants",
+      "archive tower attendants",
+      "aid commons attendants",
+      "nursery basin attendants"
+    ],
+    "socialClasses": [
+      "seat-of-power officials attached to Frost Rune Edges Sovereign Registry Court",
+      "section hall administrators and permit keepers",
+      "craft, market, transport, religious, or military guild households depending on district spine",
+      "street vendors, carriers, maintenance workers, and household service families",
+      "visitors and petitioners who navigate the city through public anchors"
+    ],
+    "governance": "Governance is centered on Frost Rune Edges Sovereign Registry Court and expressed locally through the five section civic halls. Authority should be visible in courts, archives, public signals, permits, and named monuments rather than hidden abstraction.",
+    "religion": "Religious and symbolic life should draw on Civic Blue Illumination, Oath Seals, Weather Binding, the Wonder’s public symbolism, and whichever section anchors carry sacred or ceremonial roles.",
+    "customs": [
+      "citizens use named halls and nooks as practical meeting points",
+      "public signals from the Beacon interrupt ordinary commerce and movement",
+      "section monuments preserve civic memory and local identity",
+      "visitors orient themselves by Wonder, Beacon, Seat, and section major landmarks",
+      "formal petitions and judgments move toward District 13"
+    ],
+    "bodyLanguage": [
+      "citizens make room for official messengers near beacon approaches",
+      "locals gesture by landmark rather than by street name",
+      "public posture changes around courts, monuments, and halls",
+      "market or service workers keep one eye on signal points during tense periods"
+    ],
+    "speechPatterns": [
+      "directions reference exact named anchors",
+      "formal speech preserves civic titles",
+      "street speech abbreviates section landmarks but not Wonder, Beacon, or Seat names",
+      "public announcements use practical civic language rather than poetic vagueness"
+    ]
   },
   "urbanLife": {
-    "streets": {"appearance": "Cold, crowded, disciplined, and work-warmed: snow-scraped stone squares, guild arcades, red bannered market lanes, archive stairs, manor courts, ration queues, nursery basins, and blue-lit tower shadows.", "movement": "Movement follows snow-cleared roads, sheltered arcades, guild routes, registry approaches, archive stairs, manor courts, ration lines, and warm thresholds.", "sounds": ["boots on snow-packed stone", "guild hammers", "market calls muffled by cold", "fire crackle in aid commons", "archive bells", "banner cloth in wind", "copyist quills"], "smells": ["wood smoke", "cold iron", "wet wool", "hot stew", "lamp oil", "snow on stone", "leather", "ink", "stored rations"], "lighting": "Grey winter daylight is cut by blue tower light and red banners; night belongs to blue civic lights, orange watchfires, warm workshop windows, and lanterns under arcades.", "weatherEffects": "Snow, sleet, and wind shape crowd behavior, route choice, and the emotional importance of warm civic interiors.", "dayCycle": "Morning snow clearing, watchfire checks, guild work, archive traffic, ration lines, aid intake, and nursery tending dominate the day.", "nightCycle": "Watchfires, blue lamps, warm workshops, guarded archive windows, and aid commons define night."},
-    "shops": {"common": ["metalworker stalls", "woodcarver shops", "fur-lined cloak vendors", "hot stew sellers", "banner stalls"], "uncommon": ["guild seal offices", "clock repairers", "copyist counters", "tool-certification booths", "nursery-basin supply shops"], "prestigious": ["guild certification offices", "registry legal counters", "archive review rooms", "manor patron halls"], "exports": ["masterwork craft", "winter goods", "guild-certified tools", "records", "banners", "blue glass lamps"], "imports": ["grain", "oil", "cloth", "paper", "medicine", "metal"], "streetFood": ["hot cabbage stew", "black bread", "smoked fish", "root vegetable soup", "honeyed tea", "ration bread"], "services": ["guild certification", "record copying", "ration distribution", "aid intake", "nursery care", "watchfire maintenance"]},
-    "housing": {"wealthy": "High residential manor courts and salons with thick doors, blue lamps, hanging gardens under frost, and controlled warmth.", "middle": "Guild-family, archive, and workshop homes with shared stoves, frost-rimmed windows, red textiles, and tool storage.", "poor": "Refugee commons, aid-adjacent quarters, worker housing, repaired rooms, ration lines, communal heat, and institutional oversight without erased dignity."}
+    "streets": {
+      "appearance": "Street views should show Blue Granite, Frost Glass, Pine, Silver Inlay, Arcane Glow, civic terraces, public courts, audience terraces, sealed archives, command platforms, Artisan Guilds Civic Hall, pedestrians using section halls, and sightlines back to Guildhall Beacon or Frost Rune Edges Sovereign Registry Court where appropriate.",
+      "movement": "Movement is organized by section spine: Artisan Guilds, High Residential, Records / Archives, Refugee Commons, Nursery / Spawning Grounds. Districts feed toward their civic hall, major landmark, monument, and minor nook before converging on District 13 for authority scenes.",
+      "sounds": [
+        "hammering guild tools",
+        "boots on frozen stone",
+        "archive shutters",
+        "ration line murmurs",
+        "nursery waterworks",
+        "watchfire bells"
+      ],
+      "smells": [
+        "pine resin",
+        "cold stone",
+        "forge smoke",
+        "lamp oil",
+        "stew kitchens",
+        "ink and archive dust"
+      ],
+      "lighting": "Use civic blue illumination for official signal moments, practical lantern light for night scenes, and material-specific highlights on Blue Granite, Frost Glass, Pine, Silver Inlay.",
+      "weatherEffects": "Weather should reinforce terrain and water logic: Dry Stone Paving, Civic Terraces; water context dry city ground.",
+      "dayCycle": "Mornings emphasize deliveries, hall openings, street maintenance, market preparation, and official notices; afternoons build toward hearings, training, guild work, or section-specific labor.",
+      "nightCycle": "Evenings compress around lanterns, food stalls, guarded thresholds, quieter civic errands, and beacon visibility against darker streets."
+    },
+    "shops": {
+      "common": [
+        "food stalls",
+        "repair counters",
+        "lantern sellers",
+        "permit copyists",
+        "market cloth stalls",
+        "tool vendors",
+        "artisan guilds service stalls",
+        "high residential service stalls",
+        "records / archives service stalls"
+      ],
+      "uncommon": [
+        "landmark souvenir makers",
+        "ritual supply counters",
+        "specialist surveyors",
+        "seal engravers",
+        "instrument repairers",
+        "guildhall beacon adjunct shops",
+        "manor court adjunct shops",
+        "archive tower adjunct shops"
+      ],
+      "prestigious": [
+        "Frost Rune Edges Sovereign Registry Court document ateliers",
+        "Eastern Watchfire Kremlin of the Frost Gate ceremonial suppliers",
+        "master craft houses",
+        "official seal workshops",
+        "elite household service halls"
+      ],
+      "exports": [
+        "finished civic craft",
+        "specialized tools",
+        "ritual goods",
+        "district textiles",
+        "trained specialists",
+        "Blue Granite",
+        "Frost Glass",
+        "Pine"
+      ],
+      "imports": [
+        "rare dyes",
+        "lamp oil",
+        "fine timber",
+        "metal fittings",
+        "grain stores",
+        "paper and ink"
+      ],
+      "streetFood": [
+        "black bread",
+        "root stew",
+        "smoked fish",
+        "pickled vegetables",
+        "hot berry tea",
+        "guildhall dumplings"
+      ],
+      "services": [
+        "petition filing",
+        "district guidance",
+        "beacon notice posting",
+        "minor repairs",
+        "public messenger work",
+        "archive copying",
+        "artisan guilds appointments",
+        "high residential appointments"
+      ]
+    },
+    "housing": {
+      "wealthy": "Residences near Frost Rune Edges Sovereign Registry Court or high-status section courts use the best Blue Granite, Frost Glass, Pine, private terraces, and controlled views of civic landmarks.",
+      "middle": "Households cluster above shops and along civic streets, sharing courtyards, balconies, workrooms, and access to section halls.",
+      "poor": "Lower-status housing is practical, crowded, and close to service yards or labor streets, but still uses local motifs and public landmarks for orientation."
+    }
   },
   "districts": [
-    {"sectionNumber": 1, "name": "Artisan Guilds", "civicPurpose": "Craft authority, guild pride, masterwork certification, public signal, and workshop coordination.", "visualIdentity": "Artisan Guilds Civic Hall, Guildhall Beacon, Woven Banners Monument, Masterwork Arcade Nook.", "emotionalIdentity": "work-warmed, proud, certified", "gameplayAssetNeeds": ["Artisan Guilds Civic Hall", "Guildhall Beacon", "Woven Banners Monument", "Masterwork Arcade Nook"], "narrativeUse": ["Beacon response", "craft inspection", "guild conflict"], "landmark": "Guildhall Beacon", "minorLandmarks": ["Woven Banners Monument", "Masterwork Arcade Nook"]},
-    {"sectionNumber": 2, "name": "High Residential", "civicPurpose": "Aristocratic influence, salons, status, and controlled residential prestige.", "visualIdentity": "High Residential Civic Hall, Manor Court, Hanging Gardens Monument, Salon Pavilion Nook.", "emotionalIdentity": "refined, cold-controlled, politically quiet", "gameplayAssetNeeds": ["High Residential Civic Hall", "Manor Court", "Hanging Gardens Monument", "Salon Pavilion Nook"], "narrativeUse": ["salon politics", "patronage", "aristocratic pressure"], "landmark": "Manor Court", "minorLandmarks": ["Hanging Gardens Monument", "Salon Pavilion Nook"]},
-    {"sectionNumber": 3, "name": "Records / Archives", "civicPurpose": "Civic memory, bureaucracy, evidence, copyists, and official continuity.", "visualIdentity": "Records / Archives Hall, Archive Tower, Records Archives Gold-Seal Monument, Copyist Hall Nook.", "emotionalIdentity": "cold, exact, procedural", "gameplayAssetNeeds": ["Records / Archives Hall", "Archive Tower", "Records Archives Gold-Seal Monument", "Copyist Hall Nook"], "narrativeUse": ["record clue", "bureaucracy", "copyist detail"], "landmark": "Archive Tower", "minorLandmarks": ["Records Archives Gold-Seal Monument", "Copyist Hall Nook"]},
-    {"sectionNumber": 4, "name": "Refugee Commons", "civicPurpose": "Refugee relief, rationing, public strain, moral testing, and visible civic responsibility.", "visualIdentity": "Refugee Commons Civic Hall, Aid Commons, Woven Banners Monument, Ration Arcade Nook.", "emotionalIdentity": "warm, strained, public", "gameplayAssetNeeds": ["Refugee Commons Civic Hall", "Aid Commons", "Woven Banners Monument", "Ration Arcade Nook"], "narrativeUse": ["aid intake", "ration pressure", "moral test"], "landmark": "Aid Commons", "minorLandmarks": ["Woven Banners Monument", "Ration Arcade Nook"]},
-    {"sectionNumber": 5, "name": "Nursery / Spawning Grounds", "civicPurpose": "Continuity, protected vulnerability, family stakes, and survival beyond one generation.", "visualIdentity": "Nursery / Spawning Grounds Civic Hall, Nursery Basin, Shell Inlay Monument, Spawning Pool Nook.", "emotionalIdentity": "protected, tender, winter-defiant", "gameplayAssetNeeds": ["Nursery / Spawning Grounds Civic Hall", "Nursery Basin", "Shell Inlay Monument", "Spawning Pool Nook"], "narrativeUse": ["nursery protection", "family stakes", "continuity"], "landmark": "Nursery Basin", "minorLandmarks": ["Shell Inlay Monument", "Spawning Pool Nook"]}
+    {
+      "districtNumber": 1,
+      "sectionNumber": 1,
+      "name": "D01 Artisan Guilds Civic Approach",
+      "civicPurpose": "A civic approach district within Artisan Guilds that supports Artisan Guilds Civic Hall, Guildhall Beacon, and the surrounding section economy.",
+      "visualIdentity": "Use Blue Granite, Frost Glass, Pine, Silver Inlay, section signage through Artisan Guilds Civic Hall, Guildhall Beacon, Woven Banners Monument, Masterwork Arcade Nook, and terrain cues from Dry Stone Paving, Civic Terraces. The district should read as part of Artisan Guilds without becoming generic.",
+      "emotionalIdentity": "civic approach-oriented, local, practical, and tied to the section mood of Artisan Guilds",
+      "gameplayAssetNeeds": [
+        "Artisan Guilds Civic Hall",
+        "Guildhall Beacon",
+        "Woven Banners Monument",
+        "Masterwork Arcade Nook",
+        "Artisan Guilds pedestrians",
+        "street props",
+        "section lighting",
+        "board-readable landmark silhouette"
+      ],
+      "narrativeUse": [
+        "street scenes in Artisan Guilds",
+        "local business around Guildhall Beacon",
+        "district traversal",
+        "rumor exchange",
+        "small civic obstacle"
+      ],
+      "primaryLandmark": "Guildhall Beacon",
+      "minorLandmarks": [
+        "Artisan Guilds Civic Hall",
+        "Woven Banners Monument",
+        "Masterwork Arcade Nook"
+      ]
+    },
+    {
+      "districtNumber": 2,
+      "sectionNumber": 1,
+      "name": "D02 Artisan Guilds Landmark Court",
+      "civicPurpose": "A landmark court district within Artisan Guilds that supports Artisan Guilds Civic Hall, Guildhall Beacon, and the surrounding section economy.",
+      "visualIdentity": "Use Blue Granite, Frost Glass, Pine, Silver Inlay, section signage through Artisan Guilds Civic Hall, Guildhall Beacon, Woven Banners Monument, Masterwork Arcade Nook, and terrain cues from Dry Stone Paving, Civic Terraces. The district should read as part of Artisan Guilds without becoming generic.",
+      "emotionalIdentity": "landmark court-oriented, local, practical, and tied to the section mood of Artisan Guilds",
+      "gameplayAssetNeeds": [
+        "Artisan Guilds Civic Hall",
+        "Guildhall Beacon",
+        "Woven Banners Monument",
+        "Masterwork Arcade Nook",
+        "Artisan Guilds pedestrians",
+        "street props",
+        "section lighting",
+        "board-readable landmark silhouette"
+      ],
+      "narrativeUse": [
+        "street scenes in Artisan Guilds",
+        "local business around Guildhall Beacon",
+        "district traversal",
+        "rumor exchange",
+        "small civic obstacle"
+      ],
+      "primaryLandmark": "Guildhall Beacon",
+      "minorLandmarks": [
+        "Artisan Guilds Civic Hall",
+        "Woven Banners Monument",
+        "Masterwork Arcade Nook"
+      ]
+    },
+    {
+      "districtNumber": 3,
+      "sectionNumber": 1,
+      "name": "D03 Artisan Guilds Working Streets",
+      "civicPurpose": "A working streets district within Artisan Guilds that supports Artisan Guilds Civic Hall, Guildhall Beacon, and the surrounding section economy.",
+      "visualIdentity": "Use Blue Granite, Frost Glass, Pine, Silver Inlay, section signage through Artisan Guilds Civic Hall, Guildhall Beacon, Woven Banners Monument, Masterwork Arcade Nook, and terrain cues from Dry Stone Paving, Civic Terraces. The district should read as part of Artisan Guilds without becoming generic.",
+      "emotionalIdentity": "working streets-oriented, local, practical, and tied to the section mood of Artisan Guilds",
+      "gameplayAssetNeeds": [
+        "Artisan Guilds Civic Hall",
+        "Guildhall Beacon",
+        "Woven Banners Monument",
+        "Masterwork Arcade Nook",
+        "Artisan Guilds pedestrians",
+        "street props",
+        "section lighting",
+        "board-readable landmark silhouette"
+      ],
+      "narrativeUse": [
+        "street scenes in Artisan Guilds",
+        "local business around Guildhall Beacon",
+        "district traversal",
+        "rumor exchange",
+        "small civic obstacle"
+      ],
+      "primaryLandmark": "Guildhall Beacon",
+      "minorLandmarks": [
+        "Artisan Guilds Civic Hall",
+        "Woven Banners Monument",
+        "Masterwork Arcade Nook"
+      ]
+    },
+    {
+      "districtNumber": 4,
+      "sectionNumber": 2,
+      "name": "D04 High Residential Civic Approach",
+      "civicPurpose": "A civic approach district within High Residential that supports High Residential Civic Hall, Manor Court, and the surrounding section economy.",
+      "visualIdentity": "Use Blue Granite, Frost Glass, Pine, Silver Inlay, section signage through High Residential Civic Hall, Manor Court, Hanging Gardens Monument, Salon Pavilion Nook, and terrain cues from Dry Stone Paving, Civic Terraces. The district should read as part of High Residential without becoming generic.",
+      "emotionalIdentity": "civic approach-oriented, local, practical, and tied to the section mood of High Residential",
+      "gameplayAssetNeeds": [
+        "High Residential Civic Hall",
+        "Manor Court",
+        "Hanging Gardens Monument",
+        "Salon Pavilion Nook",
+        "High Residential pedestrians",
+        "street props",
+        "section lighting",
+        "board-readable landmark silhouette"
+      ],
+      "narrativeUse": [
+        "street scenes in High Residential",
+        "local business around Manor Court",
+        "district traversal",
+        "rumor exchange",
+        "small civic obstacle"
+      ],
+      "primaryLandmark": "Manor Court",
+      "minorLandmarks": [
+        "High Residential Civic Hall",
+        "Hanging Gardens Monument",
+        "Salon Pavilion Nook"
+      ]
+    },
+    {
+      "districtNumber": 5,
+      "sectionNumber": 2,
+      "name": "D05 High Residential Landmark Court",
+      "civicPurpose": "A landmark court district within High Residential that supports High Residential Civic Hall, Manor Court, and the surrounding section economy.",
+      "visualIdentity": "Use Blue Granite, Frost Glass, Pine, Silver Inlay, section signage through High Residential Civic Hall, Manor Court, Hanging Gardens Monument, Salon Pavilion Nook, and terrain cues from Dry Stone Paving, Civic Terraces. The district should read as part of High Residential without becoming generic.",
+      "emotionalIdentity": "landmark court-oriented, local, practical, and tied to the section mood of High Residential",
+      "gameplayAssetNeeds": [
+        "High Residential Civic Hall",
+        "Manor Court",
+        "Hanging Gardens Monument",
+        "Salon Pavilion Nook",
+        "High Residential pedestrians",
+        "street props",
+        "section lighting",
+        "board-readable landmark silhouette"
+      ],
+      "narrativeUse": [
+        "street scenes in High Residential",
+        "local business around Manor Court",
+        "district traversal",
+        "rumor exchange",
+        "small civic obstacle"
+      ],
+      "primaryLandmark": "Manor Court",
+      "minorLandmarks": [
+        "High Residential Civic Hall",
+        "Hanging Gardens Monument",
+        "Salon Pavilion Nook"
+      ]
+    },
+    {
+      "districtNumber": 6,
+      "sectionNumber": 1,
+      "name": "D06 Artisan Guilds Residential Edge",
+      "civicPurpose": "A residential edge district within Artisan Guilds that supports Artisan Guilds Civic Hall, Guildhall Beacon, and the surrounding section economy.",
+      "visualIdentity": "Use Blue Granite, Frost Glass, Pine, Silver Inlay, section signage through Artisan Guilds Civic Hall, Guildhall Beacon, Woven Banners Monument, Masterwork Arcade Nook, and terrain cues from Dry Stone Paving, Civic Terraces. The district should read as part of Artisan Guilds without becoming generic.",
+      "emotionalIdentity": "residential edge-oriented, local, practical, and tied to the section mood of Artisan Guilds",
+      "gameplayAssetNeeds": [
+        "Artisan Guilds Civic Hall",
+        "Guildhall Beacon",
+        "Woven Banners Monument",
+        "Masterwork Arcade Nook",
+        "Artisan Guilds pedestrians",
+        "street props",
+        "section lighting",
+        "board-readable landmark silhouette"
+      ],
+      "narrativeUse": [
+        "street scenes in Artisan Guilds",
+        "local business around Guildhall Beacon",
+        "district traversal",
+        "rumor exchange",
+        "small civic obstacle"
+      ],
+      "primaryLandmark": "Guildhall Beacon",
+      "minorLandmarks": [
+        "Artisan Guilds Civic Hall",
+        "Woven Banners Monument",
+        "Masterwork Arcade Nook"
+      ]
+    },
+    {
+      "districtNumber": 7,
+      "sectionNumber": 1,
+      "name": "D07 Artisan Guilds Service Yard",
+      "civicPurpose": "A service yard district within Artisan Guilds that supports Artisan Guilds Civic Hall, Guildhall Beacon, and the surrounding section economy.",
+      "visualIdentity": "Use Blue Granite, Frost Glass, Pine, Silver Inlay, section signage through Artisan Guilds Civic Hall, Guildhall Beacon, Woven Banners Monument, Masterwork Arcade Nook, and terrain cues from Dry Stone Paving, Civic Terraces. The district should read as part of Artisan Guilds without becoming generic.",
+      "emotionalIdentity": "service yard-oriented, local, practical, and tied to the section mood of Artisan Guilds",
+      "gameplayAssetNeeds": [
+        "Artisan Guilds Civic Hall",
+        "Guildhall Beacon",
+        "Woven Banners Monument",
+        "Masterwork Arcade Nook",
+        "Artisan Guilds pedestrians",
+        "street props",
+        "section lighting",
+        "board-readable landmark silhouette"
+      ],
+      "narrativeUse": [
+        "street scenes in Artisan Guilds",
+        "local business around Guildhall Beacon",
+        "district traversal",
+        "rumor exchange",
+        "small civic obstacle"
+      ],
+      "primaryLandmark": "Guildhall Beacon",
+      "minorLandmarks": [
+        "Artisan Guilds Civic Hall",
+        "Woven Banners Monument",
+        "Masterwork Arcade Nook"
+      ]
+    },
+    {
+      "districtNumber": 8,
+      "sectionNumber": 3,
+      "name": "D08 Records / Archives Civic Approach",
+      "civicPurpose": "A civic approach district within Records / Archives that supports Records / Archives Hall, Archive Tower, and the surrounding section economy.",
+      "visualIdentity": "Use Blue Granite, Frost Glass, Pine, Silver Inlay, section signage through Records / Archives Hall, Archive Tower, Records Archives Gold-Seal Monument, Copyist Hall Nook, and terrain cues from Dry Stone Paving, Civic Terraces. The district should read as part of Records / Archives without becoming generic.",
+      "emotionalIdentity": "civic approach-oriented, local, practical, and tied to the section mood of Records / Archives",
+      "gameplayAssetNeeds": [
+        "Records / Archives Hall",
+        "Archive Tower",
+        "Records Archives Gold-Seal Monument",
+        "Copyist Hall Nook",
+        "Records / Archives pedestrians",
+        "street props",
+        "section lighting",
+        "board-readable landmark silhouette"
+      ],
+      "narrativeUse": [
+        "street scenes in Records / Archives",
+        "local business around Archive Tower",
+        "district traversal",
+        "rumor exchange",
+        "small civic obstacle"
+      ],
+      "primaryLandmark": "Archive Tower",
+      "minorLandmarks": [
+        "Records / Archives Hall",
+        "Records Archives Gold-Seal Monument",
+        "Copyist Hall Nook"
+      ]
+    },
+    {
+      "districtNumber": 9,
+      "sectionNumber": 2,
+      "name": "D09 High Residential Working Streets",
+      "civicPurpose": "A working streets district within High Residential that supports High Residential Civic Hall, Manor Court, and the surrounding section economy.",
+      "visualIdentity": "Use Blue Granite, Frost Glass, Pine, Silver Inlay, section signage through High Residential Civic Hall, Manor Court, Hanging Gardens Monument, Salon Pavilion Nook, and terrain cues from Dry Stone Paving, Civic Terraces. The district should read as part of High Residential without becoming generic.",
+      "emotionalIdentity": "working streets-oriented, local, practical, and tied to the section mood of High Residential",
+      "gameplayAssetNeeds": [
+        "High Residential Civic Hall",
+        "Manor Court",
+        "Hanging Gardens Monument",
+        "Salon Pavilion Nook",
+        "High Residential pedestrians",
+        "street props",
+        "section lighting",
+        "board-readable landmark silhouette"
+      ],
+      "narrativeUse": [
+        "street scenes in High Residential",
+        "local business around Manor Court",
+        "district traversal",
+        "rumor exchange",
+        "small civic obstacle"
+      ],
+      "primaryLandmark": "Manor Court",
+      "minorLandmarks": [
+        "High Residential Civic Hall",
+        "Hanging Gardens Monument",
+        "Salon Pavilion Nook"
+      ]
+    },
+    {
+      "districtNumber": 10,
+      "sectionNumber": 2,
+      "name": "D10 High Residential Residential Edge",
+      "civicPurpose": "A residential edge district within High Residential that supports High Residential Civic Hall, Manor Court, and the surrounding section economy.",
+      "visualIdentity": "Use Blue Granite, Frost Glass, Pine, Silver Inlay, section signage through High Residential Civic Hall, Manor Court, Hanging Gardens Monument, Salon Pavilion Nook, and terrain cues from Dry Stone Paving, Civic Terraces. The district should read as part of High Residential without becoming generic.",
+      "emotionalIdentity": "residential edge-oriented, local, practical, and tied to the section mood of High Residential",
+      "gameplayAssetNeeds": [
+        "High Residential Civic Hall",
+        "Manor Court",
+        "Hanging Gardens Monument",
+        "Salon Pavilion Nook",
+        "High Residential pedestrians",
+        "street props",
+        "section lighting",
+        "board-readable landmark silhouette"
+      ],
+      "narrativeUse": [
+        "street scenes in High Residential",
+        "local business around Manor Court",
+        "district traversal",
+        "rumor exchange",
+        "small civic obstacle"
+      ],
+      "primaryLandmark": "Manor Court",
+      "minorLandmarks": [
+        "High Residential Civic Hall",
+        "Hanging Gardens Monument",
+        "Salon Pavilion Nook"
+      ]
+    },
+    {
+      "districtNumber": 11,
+      "sectionNumber": 4,
+      "name": "D11 Refugee Commons Civic Approach",
+      "civicPurpose": "A civic approach district within Refugee Commons that supports Refugee Commons Civic Hall, Aid Commons, and the surrounding section economy.",
+      "visualIdentity": "Use Blue Granite, Frost Glass, Pine, Silver Inlay, section signage through Refugee Commons Civic Hall, Aid Commons, Woven Banners Monument, Ration Arcade Nook, and terrain cues from Dry Stone Paving, Civic Terraces. The district should read as part of Refugee Commons without becoming generic.",
+      "emotionalIdentity": "civic approach-oriented, local, practical, and tied to the section mood of Refugee Commons",
+      "gameplayAssetNeeds": [
+        "Refugee Commons Civic Hall",
+        "Aid Commons",
+        "Woven Banners Monument",
+        "Ration Arcade Nook",
+        "Refugee Commons pedestrians",
+        "street props",
+        "section lighting",
+        "board-readable landmark silhouette"
+      ],
+      "narrativeUse": [
+        "street scenes in Refugee Commons",
+        "local business around Aid Commons",
+        "district traversal",
+        "rumor exchange",
+        "small civic obstacle"
+      ],
+      "primaryLandmark": "Aid Commons",
+      "minorLandmarks": [
+        "Refugee Commons Civic Hall",
+        "Woven Banners Monument",
+        "Ration Arcade Nook"
+      ]
+    },
+    {
+      "districtNumber": 12,
+      "sectionNumber": 3,
+      "name": "D12 Records / Archives Landmark Court",
+      "civicPurpose": "A landmark court district within Records / Archives that supports Records / Archives Hall, Archive Tower, and the surrounding section economy.",
+      "visualIdentity": "Use Blue Granite, Frost Glass, Pine, Silver Inlay, section signage through Records / Archives Hall, Archive Tower, Records Archives Gold-Seal Monument, Copyist Hall Nook, and terrain cues from Dry Stone Paving, Civic Terraces. The district should read as part of Records / Archives without becoming generic.",
+      "emotionalIdentity": "landmark court-oriented, local, practical, and tied to the section mood of Records / Archives",
+      "gameplayAssetNeeds": [
+        "Records / Archives Hall",
+        "Archive Tower",
+        "Records Archives Gold-Seal Monument",
+        "Copyist Hall Nook",
+        "Records / Archives pedestrians",
+        "street props",
+        "section lighting",
+        "board-readable landmark silhouette"
+      ],
+      "narrativeUse": [
+        "street scenes in Records / Archives",
+        "local business around Archive Tower",
+        "district traversal",
+        "rumor exchange",
+        "small civic obstacle"
+      ],
+      "primaryLandmark": "Archive Tower",
+      "minorLandmarks": [
+        "Records / Archives Hall",
+        "Records Archives Gold-Seal Monument",
+        "Copyist Hall Nook"
+      ]
+    },
+    {
+      "districtNumber": 13,
+      "sectionNumber": 3,
+      "name": "D13 Frost Rune Edges Sovereign Registry Court",
+      "civicPurpose": "Central seat-of-power district where Frost Rune Edges Sovereign Registry Court concentrates courts, archives, command platforms, petitions, and city legitimacy.",
+      "visualIdentity": "Use Blue Granite, Frost Glass, Pine, Silver Inlay, section signage through Records / Archives Hall, Archive Tower, Records Archives Gold-Seal Monument, Copyist Hall Nook, and terrain cues from Dry Stone Paving, Civic Terraces. The district should read as part of Records / Archives without becoming generic.",
+      "emotionalIdentity": "authoritative, tense, formal, and publicly consequential",
+      "gameplayAssetNeeds": [
+        "Frost Rune Edges Sovereign Registry Court",
+        "audience terraces",
+        "sealed archives",
+        "command platforms",
+        "petition queues"
+      ],
+      "narrativeUse": [
+        "central ruling scenes",
+        "public petitions",
+        "sealed records",
+        "political pressure",
+        "citywide legitimacy tests"
+      ],
+      "primaryLandmark": "Frost Rune Edges Sovereign Registry Court",
+      "minorLandmarks": [
+        "Records / Archives Hall",
+        "Records Archives Gold-Seal Monument",
+        "Copyist Hall Nook"
+      ]
+    },
+    {
+      "districtNumber": 14,
+      "sectionNumber": 3,
+      "name": "D14 Records / Archives Residential Edge",
+      "civicPurpose": "A residential edge district within Records / Archives that supports Records / Archives Hall, Archive Tower, and the surrounding section economy.",
+      "visualIdentity": "Use Blue Granite, Frost Glass, Pine, Silver Inlay, section signage through Records / Archives Hall, Archive Tower, Records Archives Gold-Seal Monument, Copyist Hall Nook, and terrain cues from Dry Stone Paving, Civic Terraces. The district should read as part of Records / Archives without becoming generic.",
+      "emotionalIdentity": "residential edge-oriented, local, practical, and tied to the section mood of Records / Archives",
+      "gameplayAssetNeeds": [
+        "Records / Archives Hall",
+        "Archive Tower",
+        "Records Archives Gold-Seal Monument",
+        "Copyist Hall Nook",
+        "Records / Archives pedestrians",
+        "street props",
+        "section lighting",
+        "board-readable landmark silhouette"
+      ],
+      "narrativeUse": [
+        "street scenes in Records / Archives",
+        "local business around Archive Tower",
+        "district traversal",
+        "rumor exchange",
+        "small civic obstacle"
+      ],
+      "primaryLandmark": "Archive Tower",
+      "minorLandmarks": [
+        "Records / Archives Hall",
+        "Records Archives Gold-Seal Monument",
+        "Copyist Hall Nook"
+      ]
+    },
+    {
+      "districtNumber": 15,
+      "sectionNumber": 2,
+      "name": "D15 High Residential Service Yard",
+      "civicPurpose": "A service yard district within High Residential that supports High Residential Civic Hall, Manor Court, and the surrounding section economy.",
+      "visualIdentity": "Use Blue Granite, Frost Glass, Pine, Silver Inlay, section signage through High Residential Civic Hall, Manor Court, Hanging Gardens Monument, Salon Pavilion Nook, and terrain cues from Dry Stone Paving, Civic Terraces. The district should read as part of High Residential without becoming generic.",
+      "emotionalIdentity": "service yard-oriented, local, practical, and tied to the section mood of High Residential",
+      "gameplayAssetNeeds": [
+        "High Residential Civic Hall",
+        "Manor Court",
+        "Hanging Gardens Monument",
+        "Salon Pavilion Nook",
+        "High Residential pedestrians",
+        "street props",
+        "section lighting",
+        "board-readable landmark silhouette"
+      ],
+      "narrativeUse": [
+        "street scenes in High Residential",
+        "local business around Manor Court",
+        "district traversal",
+        "rumor exchange",
+        "small civic obstacle"
+      ],
+      "primaryLandmark": "Manor Court",
+      "minorLandmarks": [
+        "High Residential Civic Hall",
+        "Hanging Gardens Monument",
+        "Salon Pavilion Nook"
+      ]
+    },
+    {
+      "districtNumber": 16,
+      "sectionNumber": 4,
+      "name": "D16 Refugee Commons Landmark Court",
+      "civicPurpose": "A landmark court district within Refugee Commons that supports Refugee Commons Civic Hall, Aid Commons, and the surrounding section economy.",
+      "visualIdentity": "Use Blue Granite, Frost Glass, Pine, Silver Inlay, section signage through Refugee Commons Civic Hall, Aid Commons, Woven Banners Monument, Ration Arcade Nook, and terrain cues from Dry Stone Paving, Civic Terraces. The district should read as part of Refugee Commons without becoming generic.",
+      "emotionalIdentity": "landmark court-oriented, local, practical, and tied to the section mood of Refugee Commons",
+      "gameplayAssetNeeds": [
+        "Refugee Commons Civic Hall",
+        "Aid Commons",
+        "Woven Banners Monument",
+        "Ration Arcade Nook",
+        "Refugee Commons pedestrians",
+        "street props",
+        "section lighting",
+        "board-readable landmark silhouette"
+      ],
+      "narrativeUse": [
+        "street scenes in Refugee Commons",
+        "local business around Aid Commons",
+        "district traversal",
+        "rumor exchange",
+        "small civic obstacle"
+      ],
+      "primaryLandmark": "Aid Commons",
+      "minorLandmarks": [
+        "Refugee Commons Civic Hall",
+        "Woven Banners Monument",
+        "Ration Arcade Nook"
+      ]
+    },
+    {
+      "districtNumber": 17,
+      "sectionNumber": 4,
+      "name": "D17 Refugee Commons Working Streets",
+      "civicPurpose": "A working streets district within Refugee Commons that supports Refugee Commons Civic Hall, Aid Commons, and the surrounding section economy.",
+      "visualIdentity": "Use Blue Granite, Frost Glass, Pine, Silver Inlay, section signage through Refugee Commons Civic Hall, Aid Commons, Woven Banners Monument, Ration Arcade Nook, and terrain cues from Dry Stone Paving, Civic Terraces. The district should read as part of Refugee Commons without becoming generic.",
+      "emotionalIdentity": "working streets-oriented, local, practical, and tied to the section mood of Refugee Commons",
+      "gameplayAssetNeeds": [
+        "Refugee Commons Civic Hall",
+        "Aid Commons",
+        "Woven Banners Monument",
+        "Ration Arcade Nook",
+        "Refugee Commons pedestrians",
+        "street props",
+        "section lighting",
+        "board-readable landmark silhouette"
+      ],
+      "narrativeUse": [
+        "street scenes in Refugee Commons",
+        "local business around Aid Commons",
+        "district traversal",
+        "rumor exchange",
+        "small civic obstacle"
+      ],
+      "primaryLandmark": "Aid Commons",
+      "minorLandmarks": [
+        "Refugee Commons Civic Hall",
+        "Woven Banners Monument",
+        "Ration Arcade Nook"
+      ]
+    },
+    {
+      "districtNumber": 18,
+      "sectionNumber": 3,
+      "name": "D18 Records / Archives Service Yard",
+      "civicPurpose": "A service yard district within Records / Archives that supports Records / Archives Hall, Archive Tower, and the surrounding section economy.",
+      "visualIdentity": "Use Blue Granite, Frost Glass, Pine, Silver Inlay, section signage through Records / Archives Hall, Archive Tower, Records Archives Gold-Seal Monument, Copyist Hall Nook, and terrain cues from Dry Stone Paving, Civic Terraces. The district should read as part of Records / Archives without becoming generic.",
+      "emotionalIdentity": "service yard-oriented, local, practical, and tied to the section mood of Records / Archives",
+      "gameplayAssetNeeds": [
+        "Records / Archives Hall",
+        "Archive Tower",
+        "Records Archives Gold-Seal Monument",
+        "Copyist Hall Nook",
+        "Records / Archives pedestrians",
+        "street props",
+        "section lighting",
+        "board-readable landmark silhouette"
+      ],
+      "narrativeUse": [
+        "street scenes in Records / Archives",
+        "local business around Archive Tower",
+        "district traversal",
+        "rumor exchange",
+        "small civic obstacle"
+      ],
+      "primaryLandmark": "Archive Tower",
+      "minorLandmarks": [
+        "Records / Archives Hall",
+        "Records Archives Gold-Seal Monument",
+        "Copyist Hall Nook"
+      ]
+    },
+    {
+      "districtNumber": 19,
+      "sectionNumber": 5,
+      "name": "D19 Nursery / Spawning Grounds Civic Approach",
+      "civicPurpose": "A civic approach district within Nursery / Spawning Grounds that supports Nursery / Spawning Grounds Civic Hall, Nursery Basin, and the surrounding section economy.",
+      "visualIdentity": "Use Blue Granite, Frost Glass, Pine, Silver Inlay, section signage through Nursery / Spawning Grounds Civic Hall, Nursery Basin, Shell Inlay Monument, Spawning Pool Nook, and terrain cues from Dry Stone Paving, Civic Terraces. The district should read as part of Nursery / Spawning Grounds without becoming generic.",
+      "emotionalIdentity": "civic approach-oriented, local, practical, and tied to the section mood of Nursery / Spawning Grounds",
+      "gameplayAssetNeeds": [
+        "Nursery / Spawning Grounds Civic Hall",
+        "Nursery Basin",
+        "Shell Inlay Monument",
+        "Spawning Pool Nook",
+        "Nursery / Spawning Grounds pedestrians",
+        "street props",
+        "section lighting",
+        "board-readable landmark silhouette"
+      ],
+      "narrativeUse": [
+        "street scenes in Nursery / Spawning Grounds",
+        "local business around Nursery Basin",
+        "district traversal",
+        "rumor exchange",
+        "small civic obstacle"
+      ],
+      "primaryLandmark": "Nursery Basin",
+      "minorLandmarks": [
+        "Nursery / Spawning Grounds Civic Hall",
+        "Shell Inlay Monument",
+        "Spawning Pool Nook"
+      ]
+    },
+    {
+      "districtNumber": 20,
+      "sectionNumber": 5,
+      "name": "D20 Nursery / Spawning Grounds Landmark Court",
+      "civicPurpose": "A landmark court district within Nursery / Spawning Grounds that supports Nursery / Spawning Grounds Civic Hall, Nursery Basin, and the surrounding section economy.",
+      "visualIdentity": "Use Blue Granite, Frost Glass, Pine, Silver Inlay, section signage through Nursery / Spawning Grounds Civic Hall, Nursery Basin, Shell Inlay Monument, Spawning Pool Nook, and terrain cues from Dry Stone Paving, Civic Terraces. The district should read as part of Nursery / Spawning Grounds without becoming generic.",
+      "emotionalIdentity": "landmark court-oriented, local, practical, and tied to the section mood of Nursery / Spawning Grounds",
+      "gameplayAssetNeeds": [
+        "Nursery / Spawning Grounds Civic Hall",
+        "Nursery Basin",
+        "Shell Inlay Monument",
+        "Spawning Pool Nook",
+        "Nursery / Spawning Grounds pedestrians",
+        "street props",
+        "section lighting",
+        "board-readable landmark silhouette"
+      ],
+      "narrativeUse": [
+        "street scenes in Nursery / Spawning Grounds",
+        "local business around Nursery Basin",
+        "district traversal",
+        "rumor exchange",
+        "small civic obstacle"
+      ],
+      "primaryLandmark": "Nursery Basin",
+      "minorLandmarks": [
+        "Nursery / Spawning Grounds Civic Hall",
+        "Shell Inlay Monument",
+        "Spawning Pool Nook"
+      ]
+    },
+    {
+      "districtNumber": 21,
+      "sectionNumber": 4,
+      "name": "D21 Refugee Commons Residential Edge",
+      "civicPurpose": "A residential edge district within Refugee Commons that supports Refugee Commons Civic Hall, Aid Commons, and the surrounding section economy.",
+      "visualIdentity": "Use Blue Granite, Frost Glass, Pine, Silver Inlay, section signage through Refugee Commons Civic Hall, Aid Commons, Woven Banners Monument, Ration Arcade Nook, and terrain cues from Dry Stone Paving, Civic Terraces. The district should read as part of Refugee Commons without becoming generic.",
+      "emotionalIdentity": "residential edge-oriented, local, practical, and tied to the section mood of Refugee Commons",
+      "gameplayAssetNeeds": [
+        "Refugee Commons Civic Hall",
+        "Aid Commons",
+        "Woven Banners Monument",
+        "Ration Arcade Nook",
+        "Refugee Commons pedestrians",
+        "street props",
+        "section lighting",
+        "board-readable landmark silhouette"
+      ],
+      "narrativeUse": [
+        "street scenes in Refugee Commons",
+        "local business around Aid Commons",
+        "district traversal",
+        "rumor exchange",
+        "small civic obstacle"
+      ],
+      "primaryLandmark": "Aid Commons",
+      "minorLandmarks": [
+        "Refugee Commons Civic Hall",
+        "Woven Banners Monument",
+        "Ration Arcade Nook"
+      ]
+    },
+    {
+      "districtNumber": 22,
+      "sectionNumber": 4,
+      "name": "D22 Refugee Commons Service Yard",
+      "civicPurpose": "A service yard district within Refugee Commons that supports Refugee Commons Civic Hall, Aid Commons, and the surrounding section economy.",
+      "visualIdentity": "Use Blue Granite, Frost Glass, Pine, Silver Inlay, section signage through Refugee Commons Civic Hall, Aid Commons, Woven Banners Monument, Ration Arcade Nook, and terrain cues from Dry Stone Paving, Civic Terraces. The district should read as part of Refugee Commons without becoming generic.",
+      "emotionalIdentity": "service yard-oriented, local, practical, and tied to the section mood of Refugee Commons",
+      "gameplayAssetNeeds": [
+        "Refugee Commons Civic Hall",
+        "Aid Commons",
+        "Woven Banners Monument",
+        "Ration Arcade Nook",
+        "Refugee Commons pedestrians",
+        "street props",
+        "section lighting",
+        "board-readable landmark silhouette"
+      ],
+      "narrativeUse": [
+        "street scenes in Refugee Commons",
+        "local business around Aid Commons",
+        "district traversal",
+        "rumor exchange",
+        "small civic obstacle"
+      ],
+      "primaryLandmark": "Aid Commons",
+      "minorLandmarks": [
+        "Refugee Commons Civic Hall",
+        "Woven Banners Monument",
+        "Ration Arcade Nook"
+      ]
+    },
+    {
+      "districtNumber": 23,
+      "sectionNumber": 5,
+      "name": "D23 Nursery / Spawning Grounds Working Streets",
+      "civicPurpose": "A working streets district within Nursery / Spawning Grounds that supports Nursery / Spawning Grounds Civic Hall, Nursery Basin, and the surrounding section economy.",
+      "visualIdentity": "Use Blue Granite, Frost Glass, Pine, Silver Inlay, section signage through Nursery / Spawning Grounds Civic Hall, Nursery Basin, Shell Inlay Monument, Spawning Pool Nook, and terrain cues from Dry Stone Paving, Civic Terraces. The district should read as part of Nursery / Spawning Grounds without becoming generic.",
+      "emotionalIdentity": "working streets-oriented, local, practical, and tied to the section mood of Nursery / Spawning Grounds",
+      "gameplayAssetNeeds": [
+        "Nursery / Spawning Grounds Civic Hall",
+        "Nursery Basin",
+        "Shell Inlay Monument",
+        "Spawning Pool Nook",
+        "Nursery / Spawning Grounds pedestrians",
+        "street props",
+        "section lighting",
+        "board-readable landmark silhouette"
+      ],
+      "narrativeUse": [
+        "street scenes in Nursery / Spawning Grounds",
+        "local business around Nursery Basin",
+        "district traversal",
+        "rumor exchange",
+        "small civic obstacle"
+      ],
+      "primaryLandmark": "Nursery Basin",
+      "minorLandmarks": [
+        "Nursery / Spawning Grounds Civic Hall",
+        "Shell Inlay Monument",
+        "Spawning Pool Nook"
+      ]
+    },
+    {
+      "districtNumber": 24,
+      "sectionNumber": 5,
+      "name": "D24 Nursery / Spawning Grounds Residential Edge",
+      "civicPurpose": "A residential edge district within Nursery / Spawning Grounds that supports Nursery / Spawning Grounds Civic Hall, Nursery Basin, and the surrounding section economy.",
+      "visualIdentity": "Use Blue Granite, Frost Glass, Pine, Silver Inlay, section signage through Nursery / Spawning Grounds Civic Hall, Nursery Basin, Shell Inlay Monument, Spawning Pool Nook, and terrain cues from Dry Stone Paving, Civic Terraces. The district should read as part of Nursery / Spawning Grounds without becoming generic.",
+      "emotionalIdentity": "residential edge-oriented, local, practical, and tied to the section mood of Nursery / Spawning Grounds",
+      "gameplayAssetNeeds": [
+        "Nursery / Spawning Grounds Civic Hall",
+        "Nursery Basin",
+        "Shell Inlay Monument",
+        "Spawning Pool Nook",
+        "Nursery / Spawning Grounds pedestrians",
+        "street props",
+        "section lighting",
+        "board-readable landmark silhouette"
+      ],
+      "narrativeUse": [
+        "street scenes in Nursery / Spawning Grounds",
+        "local business around Nursery Basin",
+        "district traversal",
+        "rumor exchange",
+        "small civic obstacle"
+      ],
+      "primaryLandmark": "Nursery Basin",
+      "minorLandmarks": [
+        "Nursery / Spawning Grounds Civic Hall",
+        "Shell Inlay Monument",
+        "Spawning Pool Nook"
+      ]
+    },
+    {
+      "districtNumber": 25,
+      "sectionNumber": 5,
+      "name": "D25 Nursery / Spawning Grounds Service Yard",
+      "civicPurpose": "A service yard district within Nursery / Spawning Grounds that supports Nursery / Spawning Grounds Civic Hall, Nursery Basin, and the surrounding section economy.",
+      "visualIdentity": "Use Blue Granite, Frost Glass, Pine, Silver Inlay, section signage through Nursery / Spawning Grounds Civic Hall, Nursery Basin, Shell Inlay Monument, Spawning Pool Nook, and terrain cues from Dry Stone Paving, Civic Terraces. The district should read as part of Nursery / Spawning Grounds without becoming generic.",
+      "emotionalIdentity": "service yard-oriented, local, practical, and tied to the section mood of Nursery / Spawning Grounds",
+      "gameplayAssetNeeds": [
+        "Nursery / Spawning Grounds Civic Hall",
+        "Nursery Basin",
+        "Shell Inlay Monument",
+        "Spawning Pool Nook",
+        "Nursery / Spawning Grounds pedestrians",
+        "street props",
+        "section lighting",
+        "board-readable landmark silhouette"
+      ],
+      "narrativeUse": [
+        "street scenes in Nursery / Spawning Grounds",
+        "local business around Nursery Basin",
+        "district traversal",
+        "rumor exchange",
+        "small civic obstacle"
+      ],
+      "primaryLandmark": "Nursery Basin",
+      "minorLandmarks": [
+        "Nursery / Spawning Grounds Civic Hall",
+        "Shell Inlay Monument",
+        "Spawning Pool Nook"
+      ]
+    }
   ],
   "landmarks": {
-    "wonder": {"name": "Eastern Watchfire Kremlin of the Frost Gate", "symbolicRole": "Guarded endurance, frost-gate identity, watchfire vigilance, and old fortress tradition transformed into public protection.", "visualRole": "Monumental kremlin-like frost-gate complex of towers, walls, blue cold-light, watchfires, snow-stone approaches, and red banners.", "civicRole": "Winter musters, gate rituals, public warnings, defensive observances, and civic festivals of endurance.", "narrativeUse": ["arrival skyline", "winter muster", "public warning"], "assetUse": ["map wonder", "frost-gate skyline anchor"], "sensoryIdentity": ["cold wind", "watchfire smoke", "blue rune light", "snow stone"], "storyHooks": ["A watchfire route reveals who the city chooses to warm first."]},
-    "beacon": {"name": "Guildhall Beacon", "symbolicRole": "Public signal tied to craft authority, guild coordination, and civic readiness.", "visualRole": "Blue-lit vertical landmark rising from the Artisan Guilds district among masterwork arcades, woven banners, guild halls, and workshop streets.", "civicRole": "Guild announcements, signal watching, craft musters, public warnings, market coordination, and apprentice gathering.", "narrativeUse": ["Beacon change", "guild muster", "craft coordination"], "assetUse": ["S1 centerpiece", "signal marker"], "sensoryIdentity": ["blue light", "metalwork", "banner cloth", "warm shop air"], "storyHooks": ["A Beacon change turns every workshop into emergency infrastructure."]},
-    "seatOfPower": {"name": "Frost Rune Edges Sovereign Registry Court", "symbolicRole": "Records, sanctioned identity, frost-rune legitimacy, and official continuity under harsh conditions.", "visualRole": "Blue-lit winter registry court of pale stone, frost-rune edges, formal stairs, archive approaches, and sovereign administrative massing.", "civicRole": "Registration, guild certification, ration authorization, archive review, public petitions, refugee documentation, and legal rulings.", "narrativeUse": ["registry hearing", "ration authorization", "refugee documentation"], "assetUse": ["seat-of-power marker"], "sensoryIdentity": ["ink", "cold stone", "wax seals", "blue glass"], "storyHooks": ["A registry line can shelter a person or leave them in the snow."]},
+    "wonder": {
+      "name": "Eastern Watchfire Kremlin of the Frost Gate",
+      "symbolicRole": "The citywide symbol of Eastern European / Slavic identity made public and monumental.",
+      "visualRole": "A one-per-city wonder: spectacular, unmistakable, and larger than every section landmark. It turns Volgrad's geography, race identity, material culture, and civic magic into one public symbol. Built for Volgrad's Eastern European / Slavic population, it uses Blue Granite, Frost Glass, Pine, Silver Inlay, Arcane Glow across Dry Stone Paving, Civic Terraces; water context: dry city ground; magic expression: Civic Blue",
+      "civicRole": "A unifying civic symbol larger than section landmarks; it gives Volgrad its skyline identity and public myth.",
+      "narrativeUse": [
+        "citywide reveal",
+        "arrival scene",
+        "public ceremony",
+        "moment of civic awe",
+        "orientation landmark"
+      ],
+      "assetUse": [
+        "map background skyline anchor",
+        "hero-view anchor",
+        "diorama distant silhouette",
+        "city identity marker"
+      ],
+      "sensoryIdentity": [
+        "monumental scale",
+        "public crowd noise",
+        "material gleam",
+        "hammering guild tools",
+        "boots on frozen stone",
+        "pine resin",
+        "cold stone"
+      ],
+      "storyHooks": [
+        "a public ceremony at the Wonder changes city mood",
+        "maintenance access reveals hidden civic routes",
+        "the Wonder becomes the reference point during a beacon state"
+      ]
+    },
+    "beacon": {
+      "name": "Guildhall Beacon",
+      "symbolicRole": "The public signal point where citywide warning becomes local action.",
+      "visualRole": "A largest local landmark in this section, subordinate only to the city wonder and citadel. It belongs to Section 1 (Artisan Guilds) of Volgrad and should use Forge Halls, Market Arcades, White Limestone Civic Blocks, pine and silver inlay materials, Lantern Lit, Woven Banners, Red Fabric Awnings, and the Eastern European / Slavic visual language. Design focus: distinct gameplay landmark, visible from nearby districts",
+      "civicRole": "The Section 1 signal landmark; citizens watch it for alerts, public notices, and Conjunction response.",
+      "narrativeUse": [
+        "beacon color change",
+        "crowd reaction",
+        "evacuation or assembly",
+        "public misinformation",
+        "urgent messenger arrival"
+      ],
+      "assetUse": [
+        "Section 1 diorama centerpiece",
+        "city signal marker",
+        "beacon-state visual effect",
+        "map focal point"
+      ],
+      "sensoryIdentity": [
+        "blue glow",
+        "public hush at signal changes",
+        "stone plaza footsteps",
+        "hammering guild tools",
+        "boots on frozen stone",
+        "pine resin",
+        "cold stone"
+      ],
+      "storyHooks": [
+        "a signal is interpreted before officials arrive",
+        "crowds block the approach",
+        "the beacon reveals which district reacts first"
+      ]
+    },
+    "seatOfPower": {
+      "name": "Frost Rune Edges Sovereign Registry Court",
+      "symbolicRole": "Civic authority made visible through courts, archives, command platforms, and public legitimacy.",
+      "visualRole": "The district-13 seat of power: courts, audience terraces, sealed archives, command platforms, and the visible apparatus of government. It is not a faction HQ; it is the city's central civic authority. Built for Volgrad's Eastern European / Slavic population, it uses Blue Granite, Frost Glass, Pine, Silver Inlay, Arcane Glow across Dry Stone Paving, Civic Terraces; water context: dry city ground; magic expression: Civ",
+      "civicRole": "District 13 authority center for petitions, archives, judgments, and city-scale decisions; not a faction headquarters.",
+      "narrativeUse": [
+        "ruling scene",
+        "sealed archive discovery",
+        "public petition",
+        "trial or judgment",
+        "authority under pressure"
+      ],
+      "assetUse": [
+        "central D13 map anchor",
+        "government diorama backdrop",
+        "authority iconography",
+        "petition scene set"
+      ],
+      "sensoryIdentity": [
+        "formal echoes",
+        "archive dust",
+        "official seals",
+        "guarded thresholds",
+        "hammering guild tools",
+        "boots on frozen stone",
+        "pine resin",
+        "cold stone"
+      ],
+      "storyHooks": [
+        "a sealed record contradicts public belief",
+        "a petition exposes citywide risk",
+        "command platforms become crowd-facing stages"
+      ]
+    },
     "majorLandmarks": [
-      {"name": "Manor Court", "symbolicRole": "Aristocratic order made cold-controlled and public-facing.", "visualRole": "High residential court with hanging gardens, salon pavilion, formal stairs, and frost-softened beauty.", "civicRole": "Status, patronage, salons, and residential influence.", "narrativeUse": ["salon politics", "patronage"], "assetUse": ["S2 diorama"], "sensoryIdentity": ["warm interiors", "frosted windows", "quiet voices"], "storyHooks": ["A salon decision redirects aid before the Registry records it." ]},
-      {"name": "Archive Tower", "symbolicRole": "Memory certified into survival law.", "visualRole": "Archive tower with gold-seal monument, copyist hall, blue lamps, and snow-stone approaches.", "civicRole": "Civic memory, bureaucracy, evidence, and record copying.", "narrativeUse": ["record clue", "bureaucracy"], "assetUse": ["S3 diorama"], "sensoryIdentity": ["paper", "ink", "cold stair air"], "storyHooks": ["A copyist hall preserves the name the aid line forgot." ]},
-      {"name": "Aid Commons", "symbolicRole": "Public hardship made visible civic responsibility.", "visualRole": "Refugee commons with ration arcade, woven banners, warm fires, queues, and public shelter.", "civicRole": "Refugee relief, rationing, aid intake, moral testing, and public warmth.", "narrativeUse": ["aid intake", "ration pressure"], "assetUse": ["S4 diorama"], "sensoryIdentity": ["stew", "wet wool", "wood smoke", "waiting crowd"], "storyHooks": ["A ration arcade queue shows the difference between policy and mercy." ]},
-      {"name": "Nursery Basin", "symbolicRole": "Continuity protected against winter.", "visualRole": "Nursery basin with shell inlay monument, spawning pool nook, warm light, and protected child spaces.", "civicRole": "Nursery protection, continuity, family stakes, and life-cycle care.", "narrativeUse": ["family stakes", "protected vulnerability"], "assetUse": ["S5 diorama"], "sensoryIdentity": ["warm water", "shell inlay", "soft voices"], "storyHooks": ["The city clears snow from the nursery before the palace steps." ]}
+      {
+        "name": "Artisan Guilds Civic Hall",
+        "symbolicRole": "Section 1 civic center preserving the local identity of Artisan Guilds.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing. It belongs to Section 1 (Artisan Guilds) of Volgrad and should use Forge Halls, Market Arcades, White Limestone Civic Blocks, pine and silver inlay materials, Woven Banners, Red Fabric Awnings, Lantern Lit, and the Eastern European / Slavic visua",
+        "civicRole": "Supports Artisan Guilds as a playable and writable district spine rather than a generic neighborhood.",
+        "narrativeUse": [
+          "Artisan Guilds scene anchor",
+          "local errand",
+          "public meeting point",
+          "district conflict",
+          "orientation clue"
+        ],
+        "assetUse": [
+          "Section 1 diorama asset",
+          "board-readable landmark",
+          "street-level focal prop",
+          "map district marker"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "worked materials",
+          "public voices",
+          "hammering guild tools",
+          "boots on frozen stone",
+          "pine resin",
+          "cold stone"
+        ],
+        "storyHooks": [
+          "an event at Artisan Guilds Civic Hall reveals section priorities",
+          "locals use Artisan Guilds Civic Hall as shorthand for the district",
+          "a small failure here cascades into a citywide problem"
+        ]
+      },
+      {
+        "name": "Woven Banners Monument",
+        "symbolicRole": "Section 1 monument preserving the local identity of Artisan Guilds.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles. It belongs to Section 1 (Artisan Guilds) of Volgrad and should use Forge Halls, Market Arcades, White Limestone Civic Blocks, pine and silver inlay materials, Lantern Lit, Woven Banners, Red Fabric Awnings, and the Eastern European / Slavic vis",
+        "civicRole": "Supports Artisan Guilds as a playable and writable district spine rather than a generic neighborhood.",
+        "narrativeUse": [
+          "Artisan Guilds scene anchor",
+          "local errand",
+          "public meeting point",
+          "district conflict",
+          "orientation clue"
+        ],
+        "assetUse": [
+          "Section 1 diorama asset",
+          "board-readable landmark",
+          "street-level focal prop",
+          "map district marker"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "worked materials",
+          "public voices",
+          "hammering guild tools",
+          "boots on frozen stone",
+          "pine resin",
+          "cold stone"
+        ],
+        "storyHooks": [
+          "an event at Woven Banners Monument reveals section priorities",
+          "locals use Woven Banners Monument as shorthand for the district",
+          "a small failure here cascades into a citywide problem"
+        ]
+      },
+      {
+        "name": "Masterwork Arcade Nook",
+        "symbolicRole": "Section 1 minor landmark preserving the local identity of Artisan Guilds.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette. It belongs to Section 1 (Artisan Guilds) of Volgrad and should use White Limestone Civic Blocks, Forge Halls, Market Arcades, pine and silver inlay materials, Red Fabric Awnings, Lantern Lit, Woven Banners, and the Eastern European / Slavic visual language. Des",
+        "civicRole": "Supports Artisan Guilds as a playable and writable district spine rather than a generic neighborhood.",
+        "narrativeUse": [
+          "Artisan Guilds scene anchor",
+          "local errand",
+          "public meeting point",
+          "district conflict",
+          "orientation clue"
+        ],
+        "assetUse": [
+          "Section 1 diorama asset",
+          "board-readable landmark",
+          "street-level focal prop",
+          "map district marker"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "worked materials",
+          "public voices",
+          "hammering guild tools",
+          "boots on frozen stone",
+          "pine resin",
+          "cold stone"
+        ],
+        "storyHooks": [
+          "an event at Masterwork Arcade Nook reveals section priorities",
+          "locals use Masterwork Arcade Nook as shorthand for the district",
+          "a small failure here cascades into a citywide problem"
+        ]
+      },
+      {
+        "name": "High Residential Civic Hall",
+        "symbolicRole": "Section 2 civic center preserving the local identity of High Residential.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing. It belongs to Section 2 (High Residential) of Volgrad and should use White Limestone Civic Blocks, Gothic Spires, Canopy Platforms, pine and silver inlay materials, Gold Seals, Hanging Gardens, Red Fabric Awnings, and the Eastern European / Slavi",
+        "civicRole": "Supports High Residential as a playable and writable district spine rather than a generic neighborhood.",
+        "narrativeUse": [
+          "High Residential scene anchor",
+          "local errand",
+          "public meeting point",
+          "district conflict",
+          "orientation clue"
+        ],
+        "assetUse": [
+          "Section 2 diorama asset",
+          "board-readable landmark",
+          "street-level focal prop",
+          "map district marker"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "worked materials",
+          "public voices",
+          "hammering guild tools",
+          "boots on frozen stone",
+          "pine resin",
+          "cold stone"
+        ],
+        "storyHooks": [
+          "an event at High Residential Civic Hall reveals section priorities",
+          "locals use High Residential Civic Hall as shorthand for the district",
+          "a small failure here cascades into a citywide problem"
+        ]
+      },
+      {
+        "name": "Manor Court",
+        "symbolicRole": "Section 2 major landmark preserving the local identity of High Residential.",
+        "visualRole": "A largest local landmark in this section, subordinate only to the city wonder and citadel. It belongs to Section 2 (High Residential) of Volgrad and should use Canopy Platforms, White Limestone Civic Blocks, Gothic Spires, pine and silver inlay materials, Hanging Gardens, Red Fabric Awnings, Gold Seals, and the Eastern European / Slavic visual language. Desi",
+        "civicRole": "Supports High Residential as a playable and writable district spine rather than a generic neighborhood.",
+        "narrativeUse": [
+          "High Residential scene anchor",
+          "local errand",
+          "public meeting point",
+          "district conflict",
+          "orientation clue"
+        ],
+        "assetUse": [
+          "Section 2 diorama asset",
+          "board-readable landmark",
+          "street-level focal prop",
+          "map district marker"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "worked materials",
+          "public voices",
+          "hammering guild tools",
+          "boots on frozen stone",
+          "pine resin",
+          "cold stone"
+        ],
+        "storyHooks": [
+          "an event at Manor Court reveals section priorities",
+          "locals use Manor Court as shorthand for the district",
+          "a small failure here cascades into a citywide problem"
+        ]
+      },
+      {
+        "name": "Hanging Gardens Monument",
+        "symbolicRole": "Section 2 monument preserving the local identity of High Residential.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles. It belongs to Section 2 (High Residential) of Volgrad and should use Canopy Platforms, White Limestone Civic Blocks, Gothic Spires, pine and silver inlay materials, Gold Seals, Hanging Gardens, Red Fabric Awnings, and the Eastern European / Sla",
+        "civicRole": "Supports High Residential as a playable and writable district spine rather than a generic neighborhood.",
+        "narrativeUse": [
+          "High Residential scene anchor",
+          "local errand",
+          "public meeting point",
+          "district conflict",
+          "orientation clue"
+        ],
+        "assetUse": [
+          "Section 2 diorama asset",
+          "board-readable landmark",
+          "street-level focal prop",
+          "map district marker"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "worked materials",
+          "public voices",
+          "hammering guild tools",
+          "boots on frozen stone",
+          "pine resin",
+          "cold stone"
+        ],
+        "storyHooks": [
+          "an event at Hanging Gardens Monument reveals section priorities",
+          "locals use Hanging Gardens Monument as shorthand for the district",
+          "a small failure here cascades into a citywide problem"
+        ]
+      },
+      {
+        "name": "Salon Pavilion Nook",
+        "symbolicRole": "Section 2 minor landmark preserving the local identity of High Residential.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette. It belongs to Section 2 (High Residential) of Volgrad and should use Canopy Platforms, White Limestone Civic Blocks, Gothic Spires, pine and silver inlay materials, Red Fabric Awnings, Gold Seals, Hanging Gardens, and the Eastern European / Slavic visual langua",
+        "civicRole": "Supports High Residential as a playable and writable district spine rather than a generic neighborhood.",
+        "narrativeUse": [
+          "High Residential scene anchor",
+          "local errand",
+          "public meeting point",
+          "district conflict",
+          "orientation clue"
+        ],
+        "assetUse": [
+          "Section 2 diorama asset",
+          "board-readable landmark",
+          "street-level focal prop",
+          "map district marker"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "worked materials",
+          "public voices",
+          "hammering guild tools",
+          "boots on frozen stone",
+          "pine resin",
+          "cold stone"
+        ],
+        "storyHooks": [
+          "an event at Salon Pavilion Nook reveals section priorities",
+          "locals use Salon Pavilion Nook as shorthand for the district",
+          "a small failure here cascades into a citywide problem"
+        ]
+      },
+      {
+        "name": "Records / Archives Hall",
+        "symbolicRole": "Section 3 civic center preserving the local identity of Records / Archives.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing. It belongs to Section 3 (Records / Archives) of Volgrad and should use Archive Towers, White Limestone Civic Blocks, Subterranean Vaults, pine and silver inlay materials, Lantern Lit, Civic Blue Glow, Gold Seals, and the Eastern European / Slavic",
+        "civicRole": "Supports Records / Archives as a playable and writable district spine rather than a generic neighborhood.",
+        "narrativeUse": [
+          "Records / Archives scene anchor",
+          "local errand",
+          "public meeting point",
+          "district conflict",
+          "orientation clue"
+        ],
+        "assetUse": [
+          "Section 3 diorama asset",
+          "board-readable landmark",
+          "street-level focal prop",
+          "map district marker"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "worked materials",
+          "public voices",
+          "hammering guild tools",
+          "boots on frozen stone",
+          "pine resin",
+          "cold stone"
+        ],
+        "storyHooks": [
+          "an event at Records / Archives Hall reveals section priorities",
+          "locals use Records / Archives Hall as shorthand for the district",
+          "a small failure here cascades into a citywide problem"
+        ]
+      },
+      {
+        "name": "Archive Tower",
+        "symbolicRole": "Section 3 major landmark preserving the local identity of Records / Archives.",
+        "visualRole": "A mandatory Section 3 Beacon: a culturally adapted civic signal flame / warning-light landmark visible across the city spine. It belongs to Section 3 (Records / Archives) of Volgrad and should use White Limestone Civic Blocks, Subterranean Vaults, Archive Towers, pine and silver inlay materials, Lantern Lit, Civic Blue Glow, Gold Seals, and the Eastern Europ",
+        "civicRole": "Supports Records / Archives as a playable and writable district spine rather than a generic neighborhood.",
+        "narrativeUse": [
+          "Records / Archives scene anchor",
+          "local errand",
+          "public meeting point",
+          "district conflict",
+          "orientation clue"
+        ],
+        "assetUse": [
+          "Section 3 diorama asset",
+          "board-readable landmark",
+          "street-level focal prop",
+          "map district marker"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "worked materials",
+          "public voices",
+          "hammering guild tools",
+          "boots on frozen stone",
+          "pine resin",
+          "cold stone"
+        ],
+        "storyHooks": [
+          "an event at Archive Tower reveals section priorities",
+          "locals use Archive Tower as shorthand for the district",
+          "a small failure here cascades into a citywide problem"
+        ]
+      },
+      {
+        "name": "Records Archives Gold-Seal Monument",
+        "symbolicRole": "Section 3 monument preserving the local identity of Records / Archives.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles. It belongs to Section 3 (Records / Archives) of Volgrad and should use White Limestone Civic Blocks, Subterranean Vaults, Archive Towers, pine and silver inlay materials, Gold Seals, Lantern Lit, Civic Blue Glow, and the Eastern European / Slav",
+        "civicRole": "Supports Records / Archives as a playable and writable district spine rather than a generic neighborhood.",
+        "narrativeUse": [
+          "Records / Archives scene anchor",
+          "local errand",
+          "public meeting point",
+          "district conflict",
+          "orientation clue"
+        ],
+        "assetUse": [
+          "Section 3 diorama asset",
+          "board-readable landmark",
+          "street-level focal prop",
+          "map district marker"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "worked materials",
+          "public voices",
+          "hammering guild tools",
+          "boots on frozen stone",
+          "pine resin",
+          "cold stone"
+        ],
+        "storyHooks": [
+          "an event at Records Archives Gold-Seal Monument reveals section priorities",
+          "locals use Records Archives Gold-Seal Monument as shorthand for the district",
+          "a small failure here cascades into a citywide problem"
+        ]
+      },
+      {
+        "name": "Copyist Hall Nook",
+        "symbolicRole": "Section 3 minor landmark preserving the local identity of Records / Archives.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette. It belongs to Section 3 (Records / Archives) of Volgrad and should use Subterranean Vaults, Archive Towers, White Limestone Civic Blocks, pine and silver inlay materials, Lantern Lit, Civic Blue Glow, Gold Seals, and the Eastern European / Slavic visual languag",
+        "civicRole": "Supports Records / Archives as a playable and writable district spine rather than a generic neighborhood.",
+        "narrativeUse": [
+          "Records / Archives scene anchor",
+          "local errand",
+          "public meeting point",
+          "district conflict",
+          "orientation clue"
+        ],
+        "assetUse": [
+          "Section 3 diorama asset",
+          "board-readable landmark",
+          "street-level focal prop",
+          "map district marker"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "worked materials",
+          "public voices",
+          "hammering guild tools",
+          "boots on frozen stone",
+          "pine resin",
+          "cold stone"
+        ],
+        "storyHooks": [
+          "an event at Copyist Hall Nook reveals section priorities",
+          "locals use Copyist Hall Nook as shorthand for the district",
+          "a small failure here cascades into a citywide problem"
+        ]
+      },
+      {
+        "name": "Refugee Commons Civic Hall",
+        "symbolicRole": "Section 4 civic center preserving the local identity of Refugee Commons.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing. It belongs to Section 4 (Refugee Commons) of Volgrad and should use Market Arcades, Timber Longhouses, Reed Pavilions, pine and silver inlay materials, Lantern Lit, Red Fabric Awnings, Woven Banners, and the Eastern European / Slavic visual langu",
+        "civicRole": "Supports Refugee Commons as a playable and writable district spine rather than a generic neighborhood.",
+        "narrativeUse": [
+          "Refugee Commons scene anchor",
+          "local errand",
+          "public meeting point",
+          "district conflict",
+          "orientation clue"
+        ],
+        "assetUse": [
+          "Section 4 diorama asset",
+          "board-readable landmark",
+          "street-level focal prop",
+          "map district marker"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "worked materials",
+          "public voices",
+          "hammering guild tools",
+          "boots on frozen stone",
+          "pine resin",
+          "cold stone"
+        ],
+        "storyHooks": [
+          "an event at Refugee Commons Civic Hall reveals section priorities",
+          "locals use Refugee Commons Civic Hall as shorthand for the district",
+          "a small failure here cascades into a citywide problem"
+        ]
+      },
+      {
+        "name": "Aid Commons",
+        "symbolicRole": "Section 4 major landmark preserving the local identity of Refugee Commons.",
+        "visualRole": "A largest local landmark in this section, subordinate only to the city wonder and citadel. It belongs to Section 4 (Refugee Commons) of Volgrad and should use Reed Pavilions, Market Arcades, Timber Longhouses, pine and silver inlay materials, Woven Banners, Lantern Lit, Red Fabric Awnings, and the Eastern European / Slavic visual language. Design focus: rati",
+        "civicRole": "Supports Refugee Commons as a playable and writable district spine rather than a generic neighborhood.",
+        "narrativeUse": [
+          "Refugee Commons scene anchor",
+          "local errand",
+          "public meeting point",
+          "district conflict",
+          "orientation clue"
+        ],
+        "assetUse": [
+          "Section 4 diorama asset",
+          "board-readable landmark",
+          "street-level focal prop",
+          "map district marker"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "worked materials",
+          "public voices",
+          "hammering guild tools",
+          "boots on frozen stone",
+          "pine resin",
+          "cold stone"
+        ],
+        "storyHooks": [
+          "an event at Aid Commons reveals section priorities",
+          "locals use Aid Commons as shorthand for the district",
+          "a small failure here cascades into a citywide problem"
+        ]
+      },
+      {
+        "name": "Woven Banners Monument",
+        "symbolicRole": "Section 4 monument preserving the local identity of Refugee Commons.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles. It belongs to Section 4 (Refugee Commons) of Volgrad and should use Reed Pavilions, Market Arcades, Timber Longhouses, pine and silver inlay materials, Lantern Lit, Red Fabric Awnings, Woven Banners, and the Eastern European / Slavic visual lan",
+        "civicRole": "Supports Refugee Commons as a playable and writable district spine rather than a generic neighborhood.",
+        "narrativeUse": [
+          "Refugee Commons scene anchor",
+          "local errand",
+          "public meeting point",
+          "district conflict",
+          "orientation clue"
+        ],
+        "assetUse": [
+          "Section 4 diorama asset",
+          "board-readable landmark",
+          "street-level focal prop",
+          "map district marker"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "worked materials",
+          "public voices",
+          "hammering guild tools",
+          "boots on frozen stone",
+          "pine resin",
+          "cold stone"
+        ],
+        "storyHooks": [
+          "an event at Woven Banners Monument reveals section priorities",
+          "locals use Woven Banners Monument as shorthand for the district",
+          "a small failure here cascades into a citywide problem"
+        ]
+      },
+      {
+        "name": "Ration Arcade Nook",
+        "symbolicRole": "Section 4 minor landmark preserving the local identity of Refugee Commons.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette. It belongs to Section 4 (Refugee Commons) of Volgrad and should use Market Arcades, Timber Longhouses, Reed Pavilions, pine and silver inlay materials, Red Fabric Awnings, Woven Banners, Lantern Lit, and the Eastern European / Slavic visual language. Design foc",
+        "civicRole": "Supports Refugee Commons as a playable and writable district spine rather than a generic neighborhood.",
+        "narrativeUse": [
+          "Refugee Commons scene anchor",
+          "local errand",
+          "public meeting point",
+          "district conflict",
+          "orientation clue"
+        ],
+        "assetUse": [
+          "Section 4 diorama asset",
+          "board-readable landmark",
+          "street-level focal prop",
+          "map district marker"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "worked materials",
+          "public voices",
+          "hammering guild tools",
+          "boots on frozen stone",
+          "pine resin",
+          "cold stone"
+        ],
+        "storyHooks": [
+          "an event at Ration Arcade Nook reveals section priorities",
+          "locals use Ration Arcade Nook as shorthand for the district",
+          "a small failure here cascades into a citywide problem"
+        ]
+      },
+      {
+        "name": "Nursery / Spawning Grounds Civic Hall",
+        "symbolicRole": "Section 5 civic center preserving the local identity of Nursery / Spawning Grounds.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing. It belongs to Section 5 (Nursery / Spawning Grounds) of Volgrad and should use Shell Domes, Coral Terraces, Reed Pavilions, pine and silver inlay materials, Shell Inlay, Canal Reflections, Hanging Gardens, and the Eastern European / Slavic visual",
+        "civicRole": "Supports Nursery / Spawning Grounds as a playable and writable district spine rather than a generic neighborhood.",
+        "narrativeUse": [
+          "Nursery / Spawning Grounds scene anchor",
+          "local errand",
+          "public meeting point",
+          "district conflict",
+          "orientation clue"
+        ],
+        "assetUse": [
+          "Section 5 diorama asset",
+          "board-readable landmark",
+          "street-level focal prop",
+          "map district marker"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "worked materials",
+          "public voices",
+          "hammering guild tools",
+          "boots on frozen stone",
+          "pine resin",
+          "cold stone"
+        ],
+        "storyHooks": [
+          "an event at Nursery / Spawning Grounds Civic Hall reveals section priorities",
+          "locals use Nursery / Spawning Grounds Civic Hall as shorthand for the district",
+          "a small failure here cascades into a citywide problem"
+        ]
+      },
+      {
+        "name": "Nursery Basin",
+        "symbolicRole": "Section 5 major landmark preserving the local identity of Nursery / Spawning Grounds.",
+        "visualRole": "A largest local landmark in this section, subordinate only to the city wonder and citadel. It belongs to Section 5 (Nursery / Spawning Grounds) of Volgrad and should use Coral Terraces, Reed Pavilions, Shell Domes, pine and silver inlay materials, Hanging Gardens, Shell Inlay, Canal Reflections, and the Eastern European / Slavic visual language. Design focus",
+        "civicRole": "Supports Nursery / Spawning Grounds as a playable and writable district spine rather than a generic neighborhood.",
+        "narrativeUse": [
+          "Nursery / Spawning Grounds scene anchor",
+          "local errand",
+          "public meeting point",
+          "district conflict",
+          "orientation clue"
+        ],
+        "assetUse": [
+          "Section 5 diorama asset",
+          "board-readable landmark",
+          "street-level focal prop",
+          "map district marker"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "worked materials",
+          "public voices",
+          "hammering guild tools",
+          "boots on frozen stone",
+          "pine resin",
+          "cold stone"
+        ],
+        "storyHooks": [
+          "an event at Nursery Basin reveals section priorities",
+          "locals use Nursery Basin as shorthand for the district",
+          "a small failure here cascades into a citywide problem"
+        ]
+      },
+      {
+        "name": "Shell Inlay Monument",
+        "symbolicRole": "Section 5 monument preserving the local identity of Nursery / Spawning Grounds.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles. It belongs to Section 5 (Nursery / Spawning Grounds) of Volgrad and should use Shell Domes, Coral Terraces, Reed Pavilions, pine and silver inlay materials, Shell Inlay, Canal Reflections, Hanging Gardens, and the Eastern European / Slavic visu",
+        "civicRole": "Supports Nursery / Spawning Grounds as a playable and writable district spine rather than a generic neighborhood.",
+        "narrativeUse": [
+          "Nursery / Spawning Grounds scene anchor",
+          "local errand",
+          "public meeting point",
+          "district conflict",
+          "orientation clue"
+        ],
+        "assetUse": [
+          "Section 5 diorama asset",
+          "board-readable landmark",
+          "street-level focal prop",
+          "map district marker"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "worked materials",
+          "public voices",
+          "hammering guild tools",
+          "boots on frozen stone",
+          "pine resin",
+          "cold stone"
+        ],
+        "storyHooks": [
+          "an event at Shell Inlay Monument reveals section priorities",
+          "locals use Shell Inlay Monument as shorthand for the district",
+          "a small failure here cascades into a citywide problem"
+        ]
+      },
+      {
+        "name": "Spawning Pool Nook",
+        "symbolicRole": "Section 5 minor landmark preserving the local identity of Nursery / Spawning Grounds.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette. It belongs to Section 5 (Nursery / Spawning Grounds) of Volgrad and should use Shell Domes, Coral Terraces, Reed Pavilions, pine and silver inlay materials, Canal Reflections, Hanging Gardens, Shell Inlay, and the Eastern European / Slavic visual language. Desi",
+        "civicRole": "Supports Nursery / Spawning Grounds as a playable and writable district spine rather than a generic neighborhood.",
+        "narrativeUse": [
+          "Nursery / Spawning Grounds scene anchor",
+          "local errand",
+          "public meeting point",
+          "district conflict",
+          "orientation clue"
+        ],
+        "assetUse": [
+          "Section 5 diorama asset",
+          "board-readable landmark",
+          "street-level focal prop",
+          "map district marker"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "worked materials",
+          "public voices",
+          "hammering guild tools",
+          "boots on frozen stone",
+          "pine resin",
+          "cold stone"
+        ],
+        "storyHooks": [
+          "an event at Spawning Pool Nook reveals section priorities",
+          "locals use Spawning Pool Nook as shorthand for the district",
+          "a small failure here cascades into a citywide problem"
+        ]
+      }
     ]
   },
   "assetGuidance": {
-    "districtDioramaGuidance": ["S1 must show Artisan Guilds Civic Hall, Guildhall Beacon, Woven Banners Monument, and Masterwork Arcade Nook.", "S2 must show High Residential Civic Hall, Manor Court, Hanging Gardens Monument, and Salon Pavilion Nook.", "S3 must show Records / Archives Hall, Archive Tower, Records Archives Gold-Seal Monument, and Copyist Hall Nook.", "S4 must show Refugee Commons Civic Hall, Aid Commons, Woven Banners Monument, and Ration Arcade Nook.", "S5 must show Nursery / Spawning Grounds Civic Hall, Nursery Basin, Shell Inlay Monument, and Spawning Pool Nook."],
-    "mapBackgroundGuidance": ["Keep Eastern Watchfire Kremlin of the Frost Gate, Guildhall Beacon, and Frost Rune Edges Sovereign Registry Court legible together.", "Use snow, blue frost-rune light, red banners, watchfires, masterwork arcades, archive stairs, ration queues, warm doorways, and nursery basins as recurring texture."],
-    "requiredVisualElements": ["Eastern Watchfire Kremlin of the Frost Gate", "Guildhall Beacon", "Frost Rune Edges Sovereign Registry Court", "Guildhall", "Masterwork Arcade Nook", "Manor Court", "Salon Pavilion Nook", "Archive Tower", "Copyist Hall Nook", "Aid Commons", "Ration Arcade Nook", "Nursery Basin", "Spawning Pool Nook", "red banners", "blue frost-rune light"],
-    "elementsToAvoid": ["cold fortress without aid", "snow as mere backdrop", "guild craft as generic market", "refugee commons hidden", "nursery protection omitted"]
+    "districtDioramaGuidance": [
+      "S1 / Artisan Guilds must preserve Artisan Guilds Civic Hall, Guildhall Beacon, Woven Banners Monument, and Masterwork Arcade Nook as the source-backed anchor cluster.",
+      "S2 / High Residential must preserve High Residential Civic Hall, Manor Court, Hanging Gardens Monument, and Salon Pavilion Nook as the source-backed anchor cluster.",
+      "S3 / Records / Archives must preserve Records / Archives Hall, Archive Tower, Records Archives Gold-Seal Monument, and Copyist Hall Nook as the source-backed anchor cluster.",
+      "S4 / Refugee Commons must preserve Refugee Commons Civic Hall, Aid Commons, Woven Banners Monument, and Ration Arcade Nook as the source-backed anchor cluster.",
+      "S5 / Nursery / Spawning Grounds must preserve Nursery / Spawning Grounds Civic Hall, Nursery Basin, Shell Inlay Monument, and Spawning Pool Nook as the source-backed anchor cluster."
+    ],
+    "mapBackgroundGuidance": [
+      "Show Volgrad as a Eastern European / Slavic city using Blue Granite, Frost Glass, Pine, Silver Inlay, Arcane Glow across Dry Stone Paving, Civic Terraces.",
+      "Keep Eastern Watchfire Kremlin of the Frost Gate as the skyline-scale Wonder, Frost Rune Edges Sovereign Registry Court as central D13 authority, and Guildhall Beacon as the public signal landmark.",
+      "Use section landmark distribution to avoid flattening the city: Artisan Guilds, High Residential, Records / Archives, Refugee Commons, Nursery / Spawning Grounds.",
+      "Water and terrain must follow source context: dry city ground; Dry Stone Paving, Civic Terraces."
+    ],
+    "requiredVisualElements": [
+      "Eastern European / Slavic",
+      "Eastern Watchfire Kremlin of the Frost Gate",
+      "Guildhall Beacon",
+      "Frost Rune Edges Sovereign Registry Court",
+      "Blue Granite",
+      "Frost Glass",
+      "Pine",
+      "Silver Inlay",
+      "Arcane Glow",
+      "Dry Stone Paving",
+      "Civic Terraces",
+      "Civic Blue Illumination",
+      "Oath Seals",
+      "Weather Binding",
+      "Artisan Guilds Civic Hall",
+      "High Residential Civic Hall",
+      "Records / Archives Hall",
+      "Refugee Commons Civic Hall",
+      "Nursery / Spawning Grounds Civic Hall",
+      "Manor Court",
+      "Archive Tower",
+      "Aid Commons",
+      "Nursery Basin",
+      "Woven Banners Monument",
+      "Hanging Gardens Monument",
+      "Records Archives Gold-Seal Monument",
+      "Shell Inlay Monument",
+      "Masterwork Arcade Nook",
+      "Salon Pavilion Nook",
+      "Copyist Hall Nook",
+      "Ration Arcade Nook",
+      "Spawning Pool Nook"
+    ],
+    "elementsToAvoid": [
+      "generic snow village",
+      "pure militarized Russia analogue",
+      "ornament without civic function",
+      "soft pastoral warmth as dominant tone",
+      "invented district-specific landmarks not supported by sidecars",
+      "replacing proper anchor names with generic summaries",
+      "collapsing five section spines into one repeated street type"
+    ]
   }
 }

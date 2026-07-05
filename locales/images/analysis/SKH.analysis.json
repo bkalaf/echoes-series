@@ -1,1 +1,1821 @@
-{"metadata":{"schemaVersion":"2.0","analysisVersion":2,"cityCode":"SKH","cityName":"Skjarnheim","analysisConfidence":"strong-lock"},"sourceModel":"5 section sidecars; 25 board district slots inherit section anchors.","boardStructure":{"model":"25-seat map","seatOfPowerDistrict":"D13","sections":[{"sectionNumber":1,"districts":["D01","D02","D03","D06","D07"]},{"sectionNumber":2,"districts":["D04","D05","D09","D10","D15"]},{"sectionNumber":3,"districts":["D08","D12","D13","D14","D18"]},{"sectionNumber":4,"districts":["D11","D16","D17","D21","D22"]},{"sectionNumber":5,"districts":["D19","D20","D23","D24","D25"]}],"note":"Each section contains five district slots. This analysis keeps all 25 slots explicit while preserving only source-backed section-level landmark names."},"sections":[{"n":1,"name":"Warehousing / Logistics"},{"n":2,"name":"Shrine / Sacred Place"},{"n":3,"name":"Public Works Authority"},{"n":4,"name":"Grand Market"},{"n":5,"name":"Refugee Commons"}],"districts":["D01","D02","D03","D04","D05","D06","D07","D08","D09","D10","D11","D12","D13","D14","D15","D16","D17","D18","D19","D20","D21","D22","D23","D24","D25"],"landmarks":{"wonder":"Norse Ice-Longhall of the Sky Oath","beacon":"Cargo Yard Beacon","seatOfPower":"Frost Rune Edges Tide-Seal Citadel"}}
+{
+  "metadata": {
+    "schemaVersion": "2.0",
+    "analysisVersion": 2,
+    "cityCode": "SKH",
+    "cityName": "Skjarnheim",
+    "analysisDate": "2026-07-05",
+    "analystVersion": "gpt-5.5-thinking",
+    "analysisConfidence": "strong-lock",
+    "basedOnImages": [
+      "SKH-HERO-NE-v001",
+      "SKH-HERO-NW-v001",
+      "SKH-HERO-SE-v001",
+      "SKH-HERO-SW-v001",
+      "SKH-STREET-S1-v001",
+      "SKH-STREET-S2-v001",
+      "SKH-STREET-S3-v001",
+      "SKH-STREET-S4-v001",
+      "SKH-STREET-S5-v001"
+    ],
+    "basedOnSidecars": [
+      "SKH-HERO-NE-v001.json",
+      "SKH-HERO-NW-v001.json",
+      "SKH-HERO-SE-v001.json",
+      "SKH-HERO-SW-v001.json",
+      "SKH-STREET-S1-v001.json",
+      "SKH-STREET-S2-v001.json",
+      "SKH-STREET-S3-v001.json",
+      "SKH-STREET-S4-v001.json",
+      "SKH-STREET-S5-v001.json"
+    ]
+  },
+  "cityDNA": {
+    "coreFantasy": "A Norse / Scandinavian city where Warehousing / Logistics, Shrine / Sacred Place, Public Works Authority, Grand Market, and Refugee Commons turn Coastal Edge, Seawall Edge, and Harbor Basin, Coast, and Civic Blue Illumination, Oath Seals, and Rune Inscription into civic order.",
+    "primaryEmotion": "lived-in civic presence",
+    "secondaryEmotion": "crowded pressure",
+    "readerTakeaway": "Skjarnheim should feel like a fully usable civilization: its landmarks are not decoration, but the places where movement, memory, authority, labor, and public identity become visible.",
+    "civilizationThesis": "Skjarnheim organizes itself through Warehousing / Logistics, Shrine / Sacred Place, Public Works Authority, Grand Market, and Refugee Commons. The city’s visible grammar should always connect landscape, materials, daily work, and civic magic rather than letting any one element become generic fantasy dressing.",
+    "visualIdentity": "Blue Granite, Frost Glass, Pine, Silver Inlay, and Arcane Glow; Coastal Edge, Seawall Edge, and Harbor Basin; Coast; section landmarks such as Cargo Yard Beacon, Roadside Shrine, Survey Hall, Covered Bazaar, and Aid Commons; and the city-defining trio of Norse Ice-Longhall of the Sky Oath, Cargo Yard Beacon, and Frost Rune Edges Tide-Seal Citadel.",
+    "culturalIdentity": "Skjarnheim belongs to a Norse / Scandinavian population whose public life should be expressed through architecture, movement, civic ritual, tools, housing, food, and body language rather than only costume or ornament.",
+    "symbolicIdentity": "Norse Ice-Longhall of the Sky Oath expresses the citywide mythic identity; Cargo Yard Beacon expresses public warning and convergence; Frost Rune Edges Tide-Seal Citadel expresses the civic legitimacy of District 13."
+  },
+  "canon": {
+    "canonLocks": [
+      "Skjarnheim is a Norse / Scandinavian city; its identity must be visible through built form, street life, and civic use.",
+      "The Wonder is Norse Ice-Longhall of the Sky Oath.",
+      "The Beacon is Cargo Yard Beacon.",
+      "The Seat of Power is Frost Rune Edges Tide-Seal Citadel and belongs to central District 13.",
+      "The five section identities are: S1 Warehousing / Logistics, S2 Shrine / Sacred Place, S3 Public Works Authority, S4 Grand Market, S5 Refugee Commons.",
+      "S1 preserves the source-backed anchor Warehousing / Logistics Civic Hall (CIVIC_CENTER).",
+      "S1 preserves the source-backed anchor Cargo Yard Beacon (MAJOR_LANDMARK).",
+      "S1 preserves the source-backed anchor Warehousing Logistics Gold-Seal Monument (MONUMENT).",
+      "S1 preserves the source-backed anchor Inventory Hall Nook (MINOR_LANDMARK).",
+      "S2 preserves the source-backed anchor Shrine / Sacred Place Civic Hall (CIVIC_CENTER).",
+      "S2 preserves the source-backed anchor Roadside Shrine (MAJOR_LANDMARK).",
+      "S2 preserves the source-backed anchor Shrine Sacred Place Lantern Monument (MONUMENT).",
+      "S2 preserves the source-backed anchor Votive Grove Nook (MINOR_LANDMARK).",
+      "S3 preserves the source-backed anchor Public Works Authority Hall (CIVIC_CENTER).",
+      "S3 preserves the source-backed anchor Survey Hall (MAJOR_LANDMARK).",
+      "S3 preserves the source-backed anchor Blue-Lamp Monument (MONUMENT).",
+      "S3 preserves the source-backed anchor Permit Yard Nook (MINOR_LANDMARK).",
+      "S4 preserves the source-backed anchor Grand Market Civic Hall (CIVIC_CENTER).",
+      "S4 preserves the source-backed anchor Covered Bazaar (MAJOR_LANDMARK).",
+      "S4 preserves the source-backed anchor Awning Monument (MONUMENT).",
+      "S4 preserves the source-backed anchor Auction Court Nook (MINOR_LANDMARK).",
+      "S5 preserves the source-backed anchor Refugee Commons Civic Hall (CIVIC_CENTER).",
+      "S5 preserves the source-backed anchor Aid Commons (MAJOR_LANDMARK).",
+      "S5 preserves the source-backed anchor Woven Banners Monument (MONUMENT).",
+      "S5 preserves the source-backed anchor Ration Arcade Nook (MINOR_LANDMARK)."
+    ],
+    "provisionalCanon": [
+      "Skjarnheim's civic customs should be inferred from source-backed section functions: Warehousing / Logistics, Shrine / Sacred Place, Public Works Authority, Grand Market, and Refugee Commons.",
+      "Local politics likely emerge from the tension between public service, landmark access, and the authority of D13, but specific factions should not be invented here."
+    ],
+    "rejectedReads": [
+      "Skjarnheim as a generic fantasy city with interchangeable districts.",
+      "Landmarks as empty decoration rather than civic tools.",
+      "Race or culture identity expressed only through clothing while architecture and institutions remain generic.",
+      "Invented street anchors for any missing street section."
+    ],
+    "cautionFlags": [
+      "Preserve exact names for Wonder, Beacon, Seat of Power, section civic halls, section landmarks, monuments, and minor nooks.",
+      "Do not add character-specific observations to the city analysis.",
+      "Keep every district usable for prose, diorama generation, and map background generation.",
+      "Use uncertainty only in metadata or provisional canon; do not pad missing evidence with speculation."
+    ]
+  },
+  "environment": {
+    "terrain": [
+      "Coastal Edge",
+      "Seawall Edge",
+      "Harbor Basin",
+      "Warehousing / Logistics public ground",
+      "Shrine / Sacred Place public ground",
+      "Public Works Authority public ground",
+      "Grand Market public ground",
+      "Refugee Commons public ground"
+    ],
+    "water": [
+      "Coast",
+      "water context supports the city's public approaches and thresholds"
+    ],
+    "vegetation": [
+      "Reed Pavilions"
+    ],
+    "climateLighting": [
+      "daylight that makes civic silhouettes board-readable",
+      "lantern-lit public approaches",
+      "civic blue illumination at signal or authority points",
+      "localized lighting shaped by Civic Blue Illumination, Oath Seals, and Rune Inscription",
+      "street shadow under arcades, halls, platforms, or canopy forms"
+    ],
+    "environmentalLogic": "Skjarnheim's environment should be written as infrastructure. Coastal Edge, Seawall Edge, and Harbor Basin and Coast determine how citizens move, where crowds gather, where authority can be seen, and how each section feels under pressure."
+  },
+  "architecture": {
+    "materials": [
+      "Blue Granite",
+      "Frost Glass",
+      "Pine",
+      "Silver Inlay",
+      "Arcane Glow"
+    ],
+    "forms": [
+      "Market Arcades",
+      "Reed Pavilions",
+      "Subterranean Vaults",
+      "Temple Platforms",
+      "Timber Longhouses",
+      "White Limestone Civic Blocks"
+    ],
+    "skyline": [
+      "Norse Ice-Longhall of the Sky Oath as the far citywide wonder silhouette.",
+      "Frost Rune Edges Tide-Seal Citadel as the central D13 authority mass.",
+      "Cargo Yard Beacon as the public signal landmark.",
+      "Section landmarks remain subordinate to the Wonder and Seat but must be readable: Cargo Yard Beacon, Roadside Shrine, Survey Hall, Covered Bazaar, and Aid Commons."
+    ],
+    "lighting": [
+      "civic blue illumination at beacon and authority points",
+      "lantern light in public thresholds",
+      "warm practical light from shops and homes",
+      "Civic Blue Illumination, Oath Seals, and Rune Inscription expressed as restrained civic effect rather than spectacle alone"
+    ],
+    "infrastructure": [
+      "audience terraces",
+      "command platforms",
+      "courts",
+      "sealed archives",
+      "water gauges"
+    ],
+    "motifs": [
+      "Bone White Ceremony",
+      "Canal Reflections",
+      "Carved Totems",
+      "Gold Seals",
+      "Lantern Lit",
+      "Red Fabric Awnings",
+      "Woven Banners"
+    ],
+    "colorLanguage": [
+      "colors derived from Blue Granite, Frost Glass, Pine, Silver Inlay, and Arcane Glow",
+      "civic blue for signal, oath, or authority moments",
+      "warm street colors for shops, homes, and food stalls",
+      "section-specific accent colors tied to landmark function"
+    ],
+    "textureLanguage": [
+      "worked textures of Blue Granite, Frost Glass, Pine, Silver Inlay, and Arcane Glow",
+      "worn public paving at district approaches",
+      "handled wood, cloth, reed, stone, or metal at street scale",
+      "official surfaces at civic halls, D13 courts, and named landmarks"
+    ]
+  },
+  "civilization": {
+    "people": "Skjarnheim's people are Norse / Scandinavian. They should move, gesture, dress, work, and gather according to the city’s section functions rather than appearing as generic crowds.",
+    "occupations": [
+      "cargo clerks",
+      "porters",
+      "route brokers",
+      "caravan handlers",
+      "seal counters",
+      "shrine attendants",
+      "procession marshals",
+      "votive makers",
+      "ritual cleaners",
+      "surveyors",
+      "permit clerks",
+      "repair crews",
+      "municipal engineers",
+      "market sellers",
+      "granary keepers",
+      "bakers",
+      "spice clerks",
+      "price callers"
+    ],
+    "socialClasses": [
+      "D13 officials, registry staff, judges, or civic command families",
+      "section civic-hall administrators and landmark attendants",
+      "craft, trade, food, route, shrine, archive, or service guild families",
+      "street vendors, apprentices, runners, porters, and maintenance workers",
+      "households whose status is legible through proximity to named landmarks and public approaches"
+    ],
+    "governance": "Governance is centered on Frost Rune Edges Tide-Seal Citadel, but citizens experience authority through section halls, permit counters, procession routes, market rules, warning signals, and the public visibility of the Beacon.",
+    "religion": "Religion and ritual should emerge through section evidence: sacred groves, shrines, temples, ancestor quarters, vows, processions, lamps, memorials, or civic magic where source-backed.",
+    "customs": [
+      "citizens orient by named landmarks rather than abstract street addresses",
+      "public notices and civic signals are treated as social facts",
+      "section identity shapes work rhythms, festival routes, food habits, and greetings",
+      "households preserve small visual signs of their relation to nearby halls, shrines, markets, or work yards",
+      "crowds read beacon changes, D13 messengers, and landmark access as political weather"
+    ],
+    "bodyLanguage": [
+      "habitual glances toward the Beacon or D13 when public pressure rises",
+      "rank-conscious spacing near halls, courts, gates, and counters",
+      "work gestures shaped by tools, ledgers, baskets, lamps, platforms, or ritual objects",
+      "section-specific ways of queuing, bargaining, processing, mourning, or carrying goods",
+      "practical familiarity with terraces, arcades, courtyards, and side lanes"
+    ],
+    "speechPatterns": [
+      "citizens reference exact landmark names in directions and gossip",
+      "official speech uses seals, sections, district numbers, and public obligations",
+      "market and work speech remains compressed, local, and landmark-aware",
+      "ceremonial speech becomes formal near Wonder, Beacon, Seat, temple, shrine, or ancestor anchors",
+      "outsiders are corrected when they genericize a named civic anchor"
+    ]
+  },
+  "urbanLife": {
+    "streets": {
+      "appearance": "Streets should foreground Blue Granite, Frost Glass, Pine, Silver Inlay, and Arcane Glow, section-specific props, named local landmarks, D13 authority sightlines, and the daily relationship between Warehousing / Logistics, Shrine / Sacred Place, Public Works Authority, Grand Market, and Refugee Commons.",
+      "movement": "Movement follows district adjacency and section identity: S1 through S5 each have five district slots, while D13 remains the central seat-of-power node around Frost Rune Edges Tide-Seal Citadel.",
+      "sounds": [
+        "foot traffic shifting around landmark approaches",
+        "vendors, clerks, attendants, or guards calling section-specific instructions",
+        "tools, carts, bells, lamps, water, banners, or crowds depending on section function",
+        "distant beacon reaction when civic signals change",
+        "private household sounds from side lanes behind public halls"
+      ],
+      "smells": [
+        "worked city materials under sun or lantern heat",
+        "street food and household cooking",
+        "lamp oil, damp stone, dust, reed, wood, incense, metal, or archive paper according to section",
+        "crowd smell at public approaches",
+        "vegetation or water smells where source-backed"
+      ],
+      "lighting": "Use practical street light first: daylight, shade, lanterns, and civic blue accents. Magic should reinforce civic identity rather than overtake every street.",
+      "weatherEffects": "Weather should change how crowds read landmarks: glare, rain, mist, dust, cold, humidity, wind, or wet paving can hide, reveal, or delay public action.",
+      "dayCycle": "Morning emphasizes food, work, maintenance, permission-seeking, trade preparation, ritual cleaning, and civic notices.",
+      "nightCycle": "Night shifts to lamps, quieter side courts, guarded landmarks, late markets, household thresholds, watch routines, and beacon visibility."
+    },
+    "shops": {
+      "common": [
+        "food stalls shaped by local staples",
+        "lamp and cloth vendors",
+        "tool repair counters",
+        "ledger or notice copyists",
+        "basket, crate, reed, stone, timber, or metal workers",
+        "section-specific service stalls"
+      ],
+      "uncommon": [
+        "landmark-token engravers",
+        "specialist map, ritual, archive, or route counters",
+        "beacon-lamp maintenance shops",
+        "district emblem painters",
+        "official-seal accessory makers"
+      ],
+      "prestigious": [
+        "D13 document ateliers",
+        "Wonder-facing ceremonial suppliers",
+        "elite guild or temple workshops",
+        "landmark restoration houses",
+        "high-status court, archive, shrine, or civic contractors"
+      ],
+      "exports": [
+        "goods using Blue Granite, Frost Glass, Pine, Silver Inlay, and Arcane Glow",
+        "craft traditions tied to Norse / Scandinavian civic identity",
+        "section-specific tools, records, ritual goods, food goods, or transport services",
+        "recognizable landmark miniatures, seals, lamps, textiles, or carved emblems"
+      ],
+      "imports": [
+        "rare pigments, spices, glass, metal fittings, fine timber, ceremonial cloth, and replacement tools",
+        "raw materials not available in local terrain",
+        "foods and ritual supplies needed for section festivals"
+      ],
+      "streetFood": [
+        "portable breads or cakes",
+        "spiced stews or broths",
+        "grilled market foods",
+        "sweet festival bites",
+        "tea, fermented drinks, or cooling drinks",
+        "section-specific food sold near civic halls"
+      ],
+      "services": [
+        "directions by landmark and district",
+        "permit help",
+        "message running",
+        "lamp maintenance",
+        "ritual preparation",
+        "tool repair",
+        "public notice reading",
+        "queue mediation"
+      ]
+    },
+    "housing": {
+      "wealthy": "Large homes cluster near central authority, prestigious landmark approaches, garden courts, or high terraces, with ornament that repeats city motifs without overwhelming civic structures.",
+      "middle": "Shop-homes, courtyard houses, upper rooms, workshop apartments, and shared terraces connect directly to section work rhythms.",
+      "poor": "Small rooms, backstreet courts, temporary structures, and service-side housing remain visually tied to the city through lamps, fabrics, recycled materials, and landmark-facing orientation."
+    }
+  },
+  "districts": [
+    {
+      "districtNumber": 1,
+      "districtCode": "D01",
+      "sectionNumber": 1,
+      "sectionName": "Warehousing / Logistics",
+      "name": "Warehousing / Logistics — Civic Threshold",
+      "civicPurpose": "This district handles public approach, first contact, notices, and movement control for Warehousing / Logistics. In scenes, it should show how arrival, departure, cargo handling, route brokerage, public counting, and the trust systems that keep movement honest becomes a street-level system.",
+      "visualIdentity": "Warehousing / Logistics identity rendered through cargo ledgers, crates, route boards, loading courts, Blue Granite, Frost Glass, Pine, Silver Inlay, and Arcane Glow, local crowds, and the visible approach to Warehousing / Logistics Civic Hall.",
+      "emotionalIdentity": "lived-in, readable, and civic",
+      "gameplayAssetNeeds": [
+        "Warehousing / Logistics Civic Hall",
+        "Cargo Yard Beacon",
+        "Warehousing Logistics Gold-Seal Monument",
+        "Inventory Hall Nook",
+        "Warehousing / Logistics street props",
+        "Norse / Scandinavian civilians using the district",
+        "clear board-readable pathing and gathering space"
+      ],
+      "narrativeUse": [
+        "stage warehousing / logistics scenes without needing to reopen concept art",
+        "show how ordinary citizens react to public pressure",
+        "give characters a concrete approach, obstacle, or meeting point",
+        "translate citywide crisis into district-scale behavior",
+        "support diorama generation with landmark-specific props"
+      ],
+      "primaryLandmark": "Warehousing / Logistics Civic Hall",
+      "minorLandmarks": [
+        "Cargo Yard Beacon",
+        "Warehousing Logistics Gold-Seal Monument",
+        "Inventory Hall Nook"
+      ]
+    },
+    {
+      "districtNumber": 2,
+      "districtCode": "D02",
+      "sectionNumber": 1,
+      "sectionName": "Warehousing / Logistics",
+      "name": "Warehousing / Logistics — Landmark Court",
+      "civicPurpose": "This district handles the local landmark’s visible plaza, vertical silhouette, and immediate public use for Warehousing / Logistics. In scenes, it should show how arrival, departure, cargo handling, route brokerage, public counting, and the trust systems that keep movement honest becomes a street-level system.",
+      "visualIdentity": "Warehousing / Logistics identity rendered through cargo ledgers, crates, route boards, loading courts, Blue Granite, Frost Glass, Pine, Silver Inlay, and Arcane Glow, local crowds, and the visible approach to Cargo Yard Beacon.",
+      "emotionalIdentity": "lived-in, readable, and civic",
+      "gameplayAssetNeeds": [
+        "Cargo Yard Beacon",
+        "Warehousing / Logistics Civic Hall",
+        "Warehousing Logistics Gold-Seal Monument",
+        "Inventory Hall Nook",
+        "Warehousing / Logistics street props",
+        "Norse / Scandinavian civilians using the district",
+        "clear board-readable pathing and gathering space"
+      ],
+      "narrativeUse": [
+        "stage warehousing / logistics scenes without needing to reopen concept art",
+        "show how ordinary citizens react to public pressure",
+        "give characters a concrete approach, obstacle, or meeting point",
+        "translate citywide crisis into district-scale behavior",
+        "support diorama generation with landmark-specific props"
+      ],
+      "primaryLandmark": "Cargo Yard Beacon",
+      "minorLandmarks": [
+        "Warehousing / Logistics Civic Hall",
+        "Warehousing Logistics Gold-Seal Monument",
+        "Inventory Hall Nook"
+      ]
+    },
+    {
+      "districtNumber": 3,
+      "districtCode": "D03",
+      "sectionNumber": 1,
+      "sectionName": "Warehousing / Logistics",
+      "name": "Warehousing / Logistics — Monument Plaza",
+      "civicPurpose": "This district handles ceremony, memory, civic symbolism, and formal gatherings for Warehousing / Logistics. In scenes, it should show how arrival, departure, cargo handling, route brokerage, public counting, and the trust systems that keep movement honest becomes a street-level system.",
+      "visualIdentity": "Warehousing / Logistics identity rendered through cargo ledgers, crates, route boards, loading courts, Blue Granite, Frost Glass, Pine, Silver Inlay, and Arcane Glow, local crowds, and the visible approach to Warehousing Logistics Gold-Seal Monument.",
+      "emotionalIdentity": "lived-in, readable, and civic",
+      "gameplayAssetNeeds": [
+        "Warehousing Logistics Gold-Seal Monument",
+        "Warehousing / Logistics Civic Hall",
+        "Cargo Yard Beacon",
+        "Inventory Hall Nook",
+        "Warehousing / Logistics street props",
+        "Norse / Scandinavian civilians using the district",
+        "clear board-readable pathing and gathering space"
+      ],
+      "narrativeUse": [
+        "stage warehousing / logistics scenes without needing to reopen concept art",
+        "show how ordinary citizens react to public pressure",
+        "give characters a concrete approach, obstacle, or meeting point",
+        "translate citywide crisis into district-scale behavior",
+        "support diorama generation with landmark-specific props"
+      ],
+      "primaryLandmark": "Warehousing Logistics Gold-Seal Monument",
+      "minorLandmarks": [
+        "Warehousing / Logistics Civic Hall",
+        "Cargo Yard Beacon",
+        "Inventory Hall Nook"
+      ]
+    },
+    {
+      "districtNumber": 4,
+      "districtCode": "D04",
+      "sectionNumber": 2,
+      "sectionName": "Shrine / Sacred Place",
+      "name": "Shrine / Sacred Place — Civic Threshold",
+      "civicPurpose": "This district handles public approach, first contact, notices, and movement control for Shrine / Sacred Place. In scenes, it should show how public worship, vow-making, procession, ceremonial memory, and sacred authority expressed at street scale becomes a street-level system.",
+      "visualIdentity": "Shrine / Sacred Place identity rendered through procession steps, votive lamps, ritual banners, sacred thresholds, Blue Granite, Frost Glass, Pine, Silver Inlay, and Arcane Glow, local crowds, and the visible approach to Shrine / Sacred Place Civic Hall.",
+      "emotionalIdentity": "reverent, processional, and symbolically charged",
+      "gameplayAssetNeeds": [
+        "Shrine / Sacred Place Civic Hall",
+        "Roadside Shrine",
+        "Shrine Sacred Place Lantern Monument",
+        "Votive Grove Nook",
+        "Shrine / Sacred Place street props",
+        "Norse / Scandinavian civilians using the district",
+        "clear board-readable pathing and gathering space"
+      ],
+      "narrativeUse": [
+        "stage shrine / sacred place scenes without needing to reopen concept art",
+        "show how ordinary citizens react to public pressure",
+        "give characters a concrete approach, obstacle, or meeting point",
+        "translate citywide crisis into district-scale behavior",
+        "support diorama generation with landmark-specific props"
+      ],
+      "primaryLandmark": "Shrine / Sacred Place Civic Hall",
+      "minorLandmarks": [
+        "Roadside Shrine",
+        "Shrine Sacred Place Lantern Monument",
+        "Votive Grove Nook"
+      ]
+    },
+    {
+      "districtNumber": 5,
+      "districtCode": "D05",
+      "sectionNumber": 2,
+      "sectionName": "Shrine / Sacred Place",
+      "name": "Shrine / Sacred Place — Landmark Court",
+      "civicPurpose": "This district handles the local landmark’s visible plaza, vertical silhouette, and immediate public use for Shrine / Sacred Place. In scenes, it should show how public worship, vow-making, procession, ceremonial memory, and sacred authority expressed at street scale becomes a street-level system.",
+      "visualIdentity": "Shrine / Sacred Place identity rendered through procession steps, votive lamps, ritual banners, sacred thresholds, Blue Granite, Frost Glass, Pine, Silver Inlay, and Arcane Glow, local crowds, and the visible approach to Roadside Shrine.",
+      "emotionalIdentity": "reverent, processional, and symbolically charged",
+      "gameplayAssetNeeds": [
+        "Roadside Shrine",
+        "Shrine / Sacred Place Civic Hall",
+        "Shrine Sacred Place Lantern Monument",
+        "Votive Grove Nook",
+        "Shrine / Sacred Place street props",
+        "Norse / Scandinavian civilians using the district",
+        "clear board-readable pathing and gathering space"
+      ],
+      "narrativeUse": [
+        "stage shrine / sacred place scenes without needing to reopen concept art",
+        "show how ordinary citizens react to public pressure",
+        "give characters a concrete approach, obstacle, or meeting point",
+        "translate citywide crisis into district-scale behavior",
+        "support diorama generation with landmark-specific props"
+      ],
+      "primaryLandmark": "Roadside Shrine",
+      "minorLandmarks": [
+        "Shrine / Sacred Place Civic Hall",
+        "Shrine Sacred Place Lantern Monument",
+        "Votive Grove Nook"
+      ]
+    },
+    {
+      "districtNumber": 6,
+      "districtCode": "D06",
+      "sectionNumber": 1,
+      "sectionName": "Warehousing / Logistics",
+      "name": "Warehousing / Logistics — Service Arcade",
+      "civicPurpose": "This district handles small shops, workers, storage, and everyday support around the section for Warehousing / Logistics. In scenes, it should show how arrival, departure, cargo handling, route brokerage, public counting, and the trust systems that keep movement honest becomes a street-level system.",
+      "visualIdentity": "Warehousing / Logistics identity rendered through cargo ledgers, crates, route boards, loading courts, Blue Granite, Frost Glass, Pine, Silver Inlay, and Arcane Glow, local crowds, and the visible approach to Inventory Hall Nook.",
+      "emotionalIdentity": "lived-in, readable, and civic",
+      "gameplayAssetNeeds": [
+        "Inventory Hall Nook",
+        "Warehousing / Logistics Civic Hall",
+        "Cargo Yard Beacon",
+        "Warehousing Logistics Gold-Seal Monument",
+        "Warehousing / Logistics street props",
+        "Norse / Scandinavian civilians using the district",
+        "clear board-readable pathing and gathering space"
+      ],
+      "narrativeUse": [
+        "stage warehousing / logistics scenes without needing to reopen concept art",
+        "show how ordinary citizens react to public pressure",
+        "give characters a concrete approach, obstacle, or meeting point",
+        "translate citywide crisis into district-scale behavior",
+        "support diorama generation with landmark-specific props"
+      ],
+      "primaryLandmark": "Inventory Hall Nook",
+      "minorLandmarks": [
+        "Warehousing / Logistics Civic Hall",
+        "Cargo Yard Beacon",
+        "Warehousing Logistics Gold-Seal Monument"
+      ]
+    },
+    {
+      "districtNumber": 7,
+      "districtCode": "D07",
+      "sectionNumber": 1,
+      "sectionName": "Warehousing / Logistics",
+      "name": "Warehousing / Logistics — Residential / Backstreet Edge",
+      "civicPurpose": "This district handles housing, side lanes, minor courts, and private daily routines for Warehousing / Logistics. In scenes, it should show how arrival, departure, cargo handling, route brokerage, public counting, and the trust systems that keep movement honest becomes a street-level system.",
+      "visualIdentity": "Warehousing / Logistics identity rendered through cargo ledgers, crates, route boards, loading courts, Blue Granite, Frost Glass, Pine, Silver Inlay, and Arcane Glow, local crowds, and the visible approach to Cargo Yard Beacon.",
+      "emotionalIdentity": "lived-in, readable, and civic",
+      "gameplayAssetNeeds": [
+        "Cargo Yard Beacon",
+        "Warehousing / Logistics Civic Hall",
+        "Warehousing Logistics Gold-Seal Monument",
+        "Inventory Hall Nook",
+        "Warehousing / Logistics street props",
+        "Norse / Scandinavian civilians using the district",
+        "clear board-readable pathing and gathering space"
+      ],
+      "narrativeUse": [
+        "stage warehousing / logistics scenes without needing to reopen concept art",
+        "show how ordinary citizens react to public pressure",
+        "give characters a concrete approach, obstacle, or meeting point",
+        "translate citywide crisis into district-scale behavior",
+        "support diorama generation with landmark-specific props"
+      ],
+      "primaryLandmark": "Cargo Yard Beacon",
+      "minorLandmarks": [
+        "Warehousing / Logistics Civic Hall",
+        "Warehousing Logistics Gold-Seal Monument",
+        "Inventory Hall Nook"
+      ]
+    },
+    {
+      "districtNumber": 8,
+      "districtCode": "D08",
+      "sectionNumber": 3,
+      "sectionName": "Public Works Authority",
+      "name": "Public Works Authority — Civic Threshold",
+      "civicPurpose": "This district handles public approach, first contact, notices, and movement control for Public Works Authority. In scenes, it should show how municipal repair, permits, route planning, safety inspections, and the visible apparatus of civic competence becomes a street-level system.",
+      "visualIdentity": "Public Works Authority identity rendered through permit boards, survey instruments, repair markers, map tables, Blue Granite, Frost Glass, Pine, Silver Inlay, and Arcane Glow, local crowds, and the visible approach to Public Works Authority Hall.",
+      "emotionalIdentity": "measured, competent, and quietly powerful",
+      "gameplayAssetNeeds": [
+        "Public Works Authority Hall",
+        "Survey Hall",
+        "Blue-Lamp Monument",
+        "Permit Yard Nook",
+        "Public Works Authority street props",
+        "Norse / Scandinavian civilians using the district",
+        "clear board-readable pathing and gathering space"
+      ],
+      "narrativeUse": [
+        "stage public works authority scenes without needing to reopen concept art",
+        "show how ordinary citizens react to public pressure",
+        "give characters a concrete approach, obstacle, or meeting point",
+        "translate citywide crisis into district-scale behavior",
+        "support diorama generation with landmark-specific props"
+      ],
+      "primaryLandmark": "Public Works Authority Hall",
+      "minorLandmarks": [
+        "Survey Hall",
+        "Blue-Lamp Monument",
+        "Permit Yard Nook"
+      ]
+    },
+    {
+      "districtNumber": 9,
+      "districtCode": "D09",
+      "sectionNumber": 2,
+      "sectionName": "Shrine / Sacred Place",
+      "name": "Shrine / Sacred Place — Monument Plaza",
+      "civicPurpose": "This district handles ceremony, memory, civic symbolism, and formal gatherings for Shrine / Sacred Place. In scenes, it should show how public worship, vow-making, procession, ceremonial memory, and sacred authority expressed at street scale becomes a street-level system.",
+      "visualIdentity": "Shrine / Sacred Place identity rendered through procession steps, votive lamps, ritual banners, sacred thresholds, Blue Granite, Frost Glass, Pine, Silver Inlay, and Arcane Glow, local crowds, and the visible approach to Shrine Sacred Place Lantern Monument.",
+      "emotionalIdentity": "reverent, processional, and symbolically charged",
+      "gameplayAssetNeeds": [
+        "Shrine Sacred Place Lantern Monument",
+        "Shrine / Sacred Place Civic Hall",
+        "Roadside Shrine",
+        "Votive Grove Nook",
+        "Shrine / Sacred Place street props",
+        "Norse / Scandinavian civilians using the district",
+        "clear board-readable pathing and gathering space"
+      ],
+      "narrativeUse": [
+        "stage shrine / sacred place scenes without needing to reopen concept art",
+        "show how ordinary citizens react to public pressure",
+        "give characters a concrete approach, obstacle, or meeting point",
+        "translate citywide crisis into district-scale behavior",
+        "support diorama generation with landmark-specific props"
+      ],
+      "primaryLandmark": "Shrine Sacred Place Lantern Monument",
+      "minorLandmarks": [
+        "Shrine / Sacred Place Civic Hall",
+        "Roadside Shrine",
+        "Votive Grove Nook"
+      ]
+    },
+    {
+      "districtNumber": 10,
+      "districtCode": "D10",
+      "sectionNumber": 2,
+      "sectionName": "Shrine / Sacred Place",
+      "name": "Shrine / Sacred Place — Service Arcade",
+      "civicPurpose": "This district handles small shops, workers, storage, and everyday support around the section for Shrine / Sacred Place. In scenes, it should show how public worship, vow-making, procession, ceremonial memory, and sacred authority expressed at street scale becomes a street-level system.",
+      "visualIdentity": "Shrine / Sacred Place identity rendered through procession steps, votive lamps, ritual banners, sacred thresholds, Blue Granite, Frost Glass, Pine, Silver Inlay, and Arcane Glow, local crowds, and the visible approach to Votive Grove Nook.",
+      "emotionalIdentity": "reverent, processional, and symbolically charged",
+      "gameplayAssetNeeds": [
+        "Votive Grove Nook",
+        "Shrine / Sacred Place Civic Hall",
+        "Roadside Shrine",
+        "Shrine Sacred Place Lantern Monument",
+        "Shrine / Sacred Place street props",
+        "Norse / Scandinavian civilians using the district",
+        "clear board-readable pathing and gathering space"
+      ],
+      "narrativeUse": [
+        "stage shrine / sacred place scenes without needing to reopen concept art",
+        "show how ordinary citizens react to public pressure",
+        "give characters a concrete approach, obstacle, or meeting point",
+        "translate citywide crisis into district-scale behavior",
+        "support diorama generation with landmark-specific props"
+      ],
+      "primaryLandmark": "Votive Grove Nook",
+      "minorLandmarks": [
+        "Shrine / Sacred Place Civic Hall",
+        "Roadside Shrine",
+        "Shrine Sacred Place Lantern Monument"
+      ]
+    },
+    {
+      "districtNumber": 11,
+      "districtCode": "D11",
+      "sectionNumber": 4,
+      "sectionName": "Grand Market",
+      "name": "Grand Market — Civic Threshold",
+      "civicPurpose": "This district handles public approach, first contact, notices, and movement control for Grand Market. In scenes, it should show how trade, provisioning, price-setting, storage, and the public circulation of food, goods, and local news becomes a street-level system.",
+      "visualIdentity": "Grand Market identity rendered through covered stalls, storage jars, auction tables, food awnings, Blue Granite, Frost Glass, Pine, Silver Inlay, and Arcane Glow, local crowds, and the visible approach to Grand Market Civic Hall.",
+      "emotionalIdentity": "busy, bargaining, fragrant, and public",
+      "gameplayAssetNeeds": [
+        "Grand Market Civic Hall",
+        "Covered Bazaar",
+        "Awning Monument",
+        "Auction Court Nook",
+        "Grand Market street props",
+        "Norse / Scandinavian civilians using the district",
+        "clear board-readable pathing and gathering space"
+      ],
+      "narrativeUse": [
+        "stage grand market scenes without needing to reopen concept art",
+        "show how ordinary citizens react to public pressure",
+        "give characters a concrete approach, obstacle, or meeting point",
+        "translate citywide crisis into district-scale behavior",
+        "support diorama generation with landmark-specific props"
+      ],
+      "primaryLandmark": "Grand Market Civic Hall",
+      "minorLandmarks": [
+        "Covered Bazaar",
+        "Awning Monument",
+        "Auction Court Nook"
+      ]
+    },
+    {
+      "districtNumber": 12,
+      "districtCode": "D12",
+      "sectionNumber": 3,
+      "sectionName": "Public Works Authority",
+      "name": "Public Works Authority — Landmark Court",
+      "civicPurpose": "This district handles the local landmark’s visible plaza, vertical silhouette, and immediate public use for Public Works Authority. In scenes, it should show how municipal repair, permits, route planning, safety inspections, and the visible apparatus of civic competence becomes a street-level system.",
+      "visualIdentity": "Public Works Authority identity rendered through permit boards, survey instruments, repair markers, map tables, Blue Granite, Frost Glass, Pine, Silver Inlay, and Arcane Glow, local crowds, and the visible approach to Survey Hall.",
+      "emotionalIdentity": "measured, competent, and quietly powerful",
+      "gameplayAssetNeeds": [
+        "Survey Hall",
+        "Public Works Authority Hall",
+        "Blue-Lamp Monument",
+        "Permit Yard Nook",
+        "Public Works Authority street props",
+        "Norse / Scandinavian civilians using the district",
+        "clear board-readable pathing and gathering space"
+      ],
+      "narrativeUse": [
+        "stage public works authority scenes without needing to reopen concept art",
+        "show how ordinary citizens react to public pressure",
+        "give characters a concrete approach, obstacle, or meeting point",
+        "translate citywide crisis into district-scale behavior",
+        "support diorama generation with landmark-specific props"
+      ],
+      "primaryLandmark": "Survey Hall",
+      "minorLandmarks": [
+        "Public Works Authority Hall",
+        "Blue-Lamp Monument",
+        "Permit Yard Nook"
+      ]
+    },
+    {
+      "districtNumber": 13,
+      "districtCode": "D13",
+      "sectionNumber": 3,
+      "sectionName": "Public Works Authority",
+      "name": "Public Works Authority — Monument Plaza",
+      "civicPurpose": "This district handles ceremony, memory, civic symbolism, and formal gatherings for Public Works Authority. In scenes, it should show how municipal repair, permits, route planning, safety inspections, and the visible apparatus of civic competence becomes a street-level system.",
+      "visualIdentity": "Public Works Authority identity rendered through permit boards, survey instruments, repair markers, map tables, Blue Granite, Frost Glass, Pine, Silver Inlay, and Arcane Glow, local crowds, and the visible approach to Frost Rune Edges Tide-Seal Citadel.",
+      "emotionalIdentity": "measured, competent, and quietly powerful",
+      "gameplayAssetNeeds": [
+        "Frost Rune Edges Tide-Seal Citadel",
+        "Cargo Yard Beacon",
+        "Norse Ice-Longhall of the Sky Oath",
+        "Public Works Authority Hall",
+        "Public Works Authority street props",
+        "Norse / Scandinavian civilians using the district",
+        "clear board-readable pathing and gathering space"
+      ],
+      "narrativeUse": [
+        "stage public works authority scenes without needing to reopen concept art",
+        "show how ordinary citizens react to public pressure",
+        "give characters a concrete approach, obstacle, or meeting point",
+        "translate citywide crisis into district-scale behavior",
+        "support diorama generation with landmark-specific props"
+      ],
+      "primaryLandmark": "Frost Rune Edges Tide-Seal Citadel",
+      "minorLandmarks": [
+        "Cargo Yard Beacon",
+        "Norse Ice-Longhall of the Sky Oath",
+        "Public Works Authority Hall",
+        "Survey Hall",
+        "Blue-Lamp Monument",
+        "Permit Yard Nook"
+      ]
+    },
+    {
+      "districtNumber": 14,
+      "districtCode": "D14",
+      "sectionNumber": 3,
+      "sectionName": "Public Works Authority",
+      "name": "Public Works Authority — Service Arcade",
+      "civicPurpose": "This district handles small shops, workers, storage, and everyday support around the section for Public Works Authority. In scenes, it should show how municipal repair, permits, route planning, safety inspections, and the visible apparatus of civic competence becomes a street-level system.",
+      "visualIdentity": "Public Works Authority identity rendered through permit boards, survey instruments, repair markers, map tables, Blue Granite, Frost Glass, Pine, Silver Inlay, and Arcane Glow, local crowds, and the visible approach to Permit Yard Nook.",
+      "emotionalIdentity": "measured, competent, and quietly powerful",
+      "gameplayAssetNeeds": [
+        "Permit Yard Nook",
+        "Public Works Authority Hall",
+        "Survey Hall",
+        "Blue-Lamp Monument",
+        "Public Works Authority street props",
+        "Norse / Scandinavian civilians using the district",
+        "clear board-readable pathing and gathering space"
+      ],
+      "narrativeUse": [
+        "stage public works authority scenes without needing to reopen concept art",
+        "show how ordinary citizens react to public pressure",
+        "give characters a concrete approach, obstacle, or meeting point",
+        "translate citywide crisis into district-scale behavior",
+        "support diorama generation with landmark-specific props"
+      ],
+      "primaryLandmark": "Permit Yard Nook",
+      "minorLandmarks": [
+        "Public Works Authority Hall",
+        "Survey Hall",
+        "Blue-Lamp Monument"
+      ]
+    },
+    {
+      "districtNumber": 15,
+      "districtCode": "D15",
+      "sectionNumber": 2,
+      "sectionName": "Shrine / Sacred Place",
+      "name": "Shrine / Sacred Place — Residential / Backstreet Edge",
+      "civicPurpose": "This district handles housing, side lanes, minor courts, and private daily routines for Shrine / Sacred Place. In scenes, it should show how public worship, vow-making, procession, ceremonial memory, and sacred authority expressed at street scale becomes a street-level system.",
+      "visualIdentity": "Shrine / Sacred Place identity rendered through procession steps, votive lamps, ritual banners, sacred thresholds, Blue Granite, Frost Glass, Pine, Silver Inlay, and Arcane Glow, local crowds, and the visible approach to Roadside Shrine.",
+      "emotionalIdentity": "reverent, processional, and symbolically charged",
+      "gameplayAssetNeeds": [
+        "Roadside Shrine",
+        "Shrine / Sacred Place Civic Hall",
+        "Shrine Sacred Place Lantern Monument",
+        "Votive Grove Nook",
+        "Shrine / Sacred Place street props",
+        "Norse / Scandinavian civilians using the district",
+        "clear board-readable pathing and gathering space"
+      ],
+      "narrativeUse": [
+        "stage shrine / sacred place scenes without needing to reopen concept art",
+        "show how ordinary citizens react to public pressure",
+        "give characters a concrete approach, obstacle, or meeting point",
+        "translate citywide crisis into district-scale behavior",
+        "support diorama generation with landmark-specific props"
+      ],
+      "primaryLandmark": "Roadside Shrine",
+      "minorLandmarks": [
+        "Shrine / Sacred Place Civic Hall",
+        "Shrine Sacred Place Lantern Monument",
+        "Votive Grove Nook"
+      ]
+    },
+    {
+      "districtNumber": 16,
+      "districtCode": "D16",
+      "sectionNumber": 4,
+      "sectionName": "Grand Market",
+      "name": "Grand Market — Landmark Court",
+      "civicPurpose": "This district handles the local landmark’s visible plaza, vertical silhouette, and immediate public use for Grand Market. In scenes, it should show how trade, provisioning, price-setting, storage, and the public circulation of food, goods, and local news becomes a street-level system.",
+      "visualIdentity": "Grand Market identity rendered through covered stalls, storage jars, auction tables, food awnings, Blue Granite, Frost Glass, Pine, Silver Inlay, and Arcane Glow, local crowds, and the visible approach to Covered Bazaar.",
+      "emotionalIdentity": "busy, bargaining, fragrant, and public",
+      "gameplayAssetNeeds": [
+        "Covered Bazaar",
+        "Grand Market Civic Hall",
+        "Awning Monument",
+        "Auction Court Nook",
+        "Grand Market street props",
+        "Norse / Scandinavian civilians using the district",
+        "clear board-readable pathing and gathering space"
+      ],
+      "narrativeUse": [
+        "stage grand market scenes without needing to reopen concept art",
+        "show how ordinary citizens react to public pressure",
+        "give characters a concrete approach, obstacle, or meeting point",
+        "translate citywide crisis into district-scale behavior",
+        "support diorama generation with landmark-specific props"
+      ],
+      "primaryLandmark": "Covered Bazaar",
+      "minorLandmarks": [
+        "Grand Market Civic Hall",
+        "Awning Monument",
+        "Auction Court Nook"
+      ]
+    },
+    {
+      "districtNumber": 17,
+      "districtCode": "D17",
+      "sectionNumber": 4,
+      "sectionName": "Grand Market",
+      "name": "Grand Market — Monument Plaza",
+      "civicPurpose": "This district handles ceremony, memory, civic symbolism, and formal gatherings for Grand Market. In scenes, it should show how trade, provisioning, price-setting, storage, and the public circulation of food, goods, and local news becomes a street-level system.",
+      "visualIdentity": "Grand Market identity rendered through covered stalls, storage jars, auction tables, food awnings, Blue Granite, Frost Glass, Pine, Silver Inlay, and Arcane Glow, local crowds, and the visible approach to Awning Monument.",
+      "emotionalIdentity": "busy, bargaining, fragrant, and public",
+      "gameplayAssetNeeds": [
+        "Awning Monument",
+        "Grand Market Civic Hall",
+        "Covered Bazaar",
+        "Auction Court Nook",
+        "Grand Market street props",
+        "Norse / Scandinavian civilians using the district",
+        "clear board-readable pathing and gathering space"
+      ],
+      "narrativeUse": [
+        "stage grand market scenes without needing to reopen concept art",
+        "show how ordinary citizens react to public pressure",
+        "give characters a concrete approach, obstacle, or meeting point",
+        "translate citywide crisis into district-scale behavior",
+        "support diorama generation with landmark-specific props"
+      ],
+      "primaryLandmark": "Awning Monument",
+      "minorLandmarks": [
+        "Grand Market Civic Hall",
+        "Covered Bazaar",
+        "Auction Court Nook"
+      ]
+    },
+    {
+      "districtNumber": 18,
+      "districtCode": "D18",
+      "sectionNumber": 3,
+      "sectionName": "Public Works Authority",
+      "name": "Public Works Authority — Residential / Backstreet Edge",
+      "civicPurpose": "This district handles housing, side lanes, minor courts, and private daily routines for Public Works Authority. In scenes, it should show how municipal repair, permits, route planning, safety inspections, and the visible apparatus of civic competence becomes a street-level system.",
+      "visualIdentity": "Public Works Authority identity rendered through permit boards, survey instruments, repair markers, map tables, Blue Granite, Frost Glass, Pine, Silver Inlay, and Arcane Glow, local crowds, and the visible approach to Survey Hall.",
+      "emotionalIdentity": "measured, competent, and quietly powerful",
+      "gameplayAssetNeeds": [
+        "Survey Hall",
+        "Public Works Authority Hall",
+        "Blue-Lamp Monument",
+        "Permit Yard Nook",
+        "Public Works Authority street props",
+        "Norse / Scandinavian civilians using the district",
+        "clear board-readable pathing and gathering space"
+      ],
+      "narrativeUse": [
+        "stage public works authority scenes without needing to reopen concept art",
+        "show how ordinary citizens react to public pressure",
+        "give characters a concrete approach, obstacle, or meeting point",
+        "translate citywide crisis into district-scale behavior",
+        "support diorama generation with landmark-specific props"
+      ],
+      "primaryLandmark": "Survey Hall",
+      "minorLandmarks": [
+        "Public Works Authority Hall",
+        "Blue-Lamp Monument",
+        "Permit Yard Nook"
+      ]
+    },
+    {
+      "districtNumber": 19,
+      "districtCode": "D19",
+      "sectionNumber": 5,
+      "sectionName": "Refugee Commons",
+      "name": "Refugee Commons — Civic Threshold",
+      "civicPurpose": "This district handles public approach, first contact, notices, and movement control for Refugee Commons. In scenes, it should show how shelter, relief, queue discipline, public mercy, rationing, and the practical politics of belonging becomes a street-level system.",
+      "visualIdentity": "Refugee Commons identity rendered through ration lines, blankets, aid tables, temporary screens, Blue Granite, Frost Glass, Pine, Silver Inlay, and Arcane Glow, local crowds, and the visible approach to Refugee Commons Civic Hall.",
+      "emotionalIdentity": "crowded, fragile, humane, and politically exposed",
+      "gameplayAssetNeeds": [
+        "Refugee Commons Civic Hall",
+        "Aid Commons",
+        "Woven Banners Monument",
+        "Ration Arcade Nook",
+        "Refugee Commons street props",
+        "Norse / Scandinavian civilians using the district",
+        "clear board-readable pathing and gathering space"
+      ],
+      "narrativeUse": [
+        "stage refugee commons scenes without needing to reopen concept art",
+        "show how ordinary citizens react to public pressure",
+        "give characters a concrete approach, obstacle, or meeting point",
+        "translate citywide crisis into district-scale behavior",
+        "support diorama generation with landmark-specific props"
+      ],
+      "primaryLandmark": "Refugee Commons Civic Hall",
+      "minorLandmarks": [
+        "Aid Commons",
+        "Woven Banners Monument",
+        "Ration Arcade Nook"
+      ]
+    },
+    {
+      "districtNumber": 20,
+      "districtCode": "D20",
+      "sectionNumber": 5,
+      "sectionName": "Refugee Commons",
+      "name": "Refugee Commons — Landmark Court",
+      "civicPurpose": "This district handles the local landmark’s visible plaza, vertical silhouette, and immediate public use for Refugee Commons. In scenes, it should show how shelter, relief, queue discipline, public mercy, rationing, and the practical politics of belonging becomes a street-level system.",
+      "visualIdentity": "Refugee Commons identity rendered through ration lines, blankets, aid tables, temporary screens, Blue Granite, Frost Glass, Pine, Silver Inlay, and Arcane Glow, local crowds, and the visible approach to Aid Commons.",
+      "emotionalIdentity": "crowded, fragile, humane, and politically exposed",
+      "gameplayAssetNeeds": [
+        "Aid Commons",
+        "Refugee Commons Civic Hall",
+        "Woven Banners Monument",
+        "Ration Arcade Nook",
+        "Refugee Commons street props",
+        "Norse / Scandinavian civilians using the district",
+        "clear board-readable pathing and gathering space"
+      ],
+      "narrativeUse": [
+        "stage refugee commons scenes without needing to reopen concept art",
+        "show how ordinary citizens react to public pressure",
+        "give characters a concrete approach, obstacle, or meeting point",
+        "translate citywide crisis into district-scale behavior",
+        "support diorama generation with landmark-specific props"
+      ],
+      "primaryLandmark": "Aid Commons",
+      "minorLandmarks": [
+        "Refugee Commons Civic Hall",
+        "Woven Banners Monument",
+        "Ration Arcade Nook"
+      ]
+    },
+    {
+      "districtNumber": 21,
+      "districtCode": "D21",
+      "sectionNumber": 4,
+      "sectionName": "Grand Market",
+      "name": "Grand Market — Service Arcade",
+      "civicPurpose": "This district handles small shops, workers, storage, and everyday support around the section for Grand Market. In scenes, it should show how trade, provisioning, price-setting, storage, and the public circulation of food, goods, and local news becomes a street-level system.",
+      "visualIdentity": "Grand Market identity rendered through covered stalls, storage jars, auction tables, food awnings, Blue Granite, Frost Glass, Pine, Silver Inlay, and Arcane Glow, local crowds, and the visible approach to Auction Court Nook.",
+      "emotionalIdentity": "busy, bargaining, fragrant, and public",
+      "gameplayAssetNeeds": [
+        "Auction Court Nook",
+        "Grand Market Civic Hall",
+        "Covered Bazaar",
+        "Awning Monument",
+        "Grand Market street props",
+        "Norse / Scandinavian civilians using the district",
+        "clear board-readable pathing and gathering space"
+      ],
+      "narrativeUse": [
+        "stage grand market scenes without needing to reopen concept art",
+        "show how ordinary citizens react to public pressure",
+        "give characters a concrete approach, obstacle, or meeting point",
+        "translate citywide crisis into district-scale behavior",
+        "support diorama generation with landmark-specific props"
+      ],
+      "primaryLandmark": "Auction Court Nook",
+      "minorLandmarks": [
+        "Grand Market Civic Hall",
+        "Covered Bazaar",
+        "Awning Monument"
+      ]
+    },
+    {
+      "districtNumber": 22,
+      "districtCode": "D22",
+      "sectionNumber": 4,
+      "sectionName": "Grand Market",
+      "name": "Grand Market — Residential / Backstreet Edge",
+      "civicPurpose": "This district handles housing, side lanes, minor courts, and private daily routines for Grand Market. In scenes, it should show how trade, provisioning, price-setting, storage, and the public circulation of food, goods, and local news becomes a street-level system.",
+      "visualIdentity": "Grand Market identity rendered through covered stalls, storage jars, auction tables, food awnings, Blue Granite, Frost Glass, Pine, Silver Inlay, and Arcane Glow, local crowds, and the visible approach to Covered Bazaar.",
+      "emotionalIdentity": "busy, bargaining, fragrant, and public",
+      "gameplayAssetNeeds": [
+        "Covered Bazaar",
+        "Grand Market Civic Hall",
+        "Awning Monument",
+        "Auction Court Nook",
+        "Grand Market street props",
+        "Norse / Scandinavian civilians using the district",
+        "clear board-readable pathing and gathering space"
+      ],
+      "narrativeUse": [
+        "stage grand market scenes without needing to reopen concept art",
+        "show how ordinary citizens react to public pressure",
+        "give characters a concrete approach, obstacle, or meeting point",
+        "translate citywide crisis into district-scale behavior",
+        "support diorama generation with landmark-specific props"
+      ],
+      "primaryLandmark": "Covered Bazaar",
+      "minorLandmarks": [
+        "Grand Market Civic Hall",
+        "Awning Monument",
+        "Auction Court Nook"
+      ]
+    },
+    {
+      "districtNumber": 23,
+      "districtCode": "D23",
+      "sectionNumber": 5,
+      "sectionName": "Refugee Commons",
+      "name": "Refugee Commons — Monument Plaza",
+      "civicPurpose": "This district handles ceremony, memory, civic symbolism, and formal gatherings for Refugee Commons. In scenes, it should show how shelter, relief, queue discipline, public mercy, rationing, and the practical politics of belonging becomes a street-level system.",
+      "visualIdentity": "Refugee Commons identity rendered through ration lines, blankets, aid tables, temporary screens, Blue Granite, Frost Glass, Pine, Silver Inlay, and Arcane Glow, local crowds, and the visible approach to Woven Banners Monument.",
+      "emotionalIdentity": "crowded, fragile, humane, and politically exposed",
+      "gameplayAssetNeeds": [
+        "Woven Banners Monument",
+        "Refugee Commons Civic Hall",
+        "Aid Commons",
+        "Ration Arcade Nook",
+        "Refugee Commons street props",
+        "Norse / Scandinavian civilians using the district",
+        "clear board-readable pathing and gathering space"
+      ],
+      "narrativeUse": [
+        "stage refugee commons scenes without needing to reopen concept art",
+        "show how ordinary citizens react to public pressure",
+        "give characters a concrete approach, obstacle, or meeting point",
+        "translate citywide crisis into district-scale behavior",
+        "support diorama generation with landmark-specific props"
+      ],
+      "primaryLandmark": "Woven Banners Monument",
+      "minorLandmarks": [
+        "Refugee Commons Civic Hall",
+        "Aid Commons",
+        "Ration Arcade Nook"
+      ]
+    },
+    {
+      "districtNumber": 24,
+      "districtCode": "D24",
+      "sectionNumber": 5,
+      "sectionName": "Refugee Commons",
+      "name": "Refugee Commons — Service Arcade",
+      "civicPurpose": "This district handles small shops, workers, storage, and everyday support around the section for Refugee Commons. In scenes, it should show how shelter, relief, queue discipline, public mercy, rationing, and the practical politics of belonging becomes a street-level system.",
+      "visualIdentity": "Refugee Commons identity rendered through ration lines, blankets, aid tables, temporary screens, Blue Granite, Frost Glass, Pine, Silver Inlay, and Arcane Glow, local crowds, and the visible approach to Ration Arcade Nook.",
+      "emotionalIdentity": "crowded, fragile, humane, and politically exposed",
+      "gameplayAssetNeeds": [
+        "Ration Arcade Nook",
+        "Refugee Commons Civic Hall",
+        "Aid Commons",
+        "Woven Banners Monument",
+        "Refugee Commons street props",
+        "Norse / Scandinavian civilians using the district",
+        "clear board-readable pathing and gathering space"
+      ],
+      "narrativeUse": [
+        "stage refugee commons scenes without needing to reopen concept art",
+        "show how ordinary citizens react to public pressure",
+        "give characters a concrete approach, obstacle, or meeting point",
+        "translate citywide crisis into district-scale behavior",
+        "support diorama generation with landmark-specific props"
+      ],
+      "primaryLandmark": "Ration Arcade Nook",
+      "minorLandmarks": [
+        "Refugee Commons Civic Hall",
+        "Aid Commons",
+        "Woven Banners Monument"
+      ]
+    },
+    {
+      "districtNumber": 25,
+      "districtCode": "D25",
+      "sectionNumber": 5,
+      "sectionName": "Refugee Commons",
+      "name": "Refugee Commons — Residential / Backstreet Edge",
+      "civicPurpose": "This district handles housing, side lanes, minor courts, and private daily routines for Refugee Commons. In scenes, it should show how shelter, relief, queue discipline, public mercy, rationing, and the practical politics of belonging becomes a street-level system.",
+      "visualIdentity": "Refugee Commons identity rendered through ration lines, blankets, aid tables, temporary screens, Blue Granite, Frost Glass, Pine, Silver Inlay, and Arcane Glow, local crowds, and the visible approach to Aid Commons.",
+      "emotionalIdentity": "crowded, fragile, humane, and politically exposed",
+      "gameplayAssetNeeds": [
+        "Aid Commons",
+        "Refugee Commons Civic Hall",
+        "Woven Banners Monument",
+        "Ration Arcade Nook",
+        "Refugee Commons street props",
+        "Norse / Scandinavian civilians using the district",
+        "clear board-readable pathing and gathering space"
+      ],
+      "narrativeUse": [
+        "stage refugee commons scenes without needing to reopen concept art",
+        "show how ordinary citizens react to public pressure",
+        "give characters a concrete approach, obstacle, or meeting point",
+        "translate citywide crisis into district-scale behavior",
+        "support diorama generation with landmark-specific props"
+      ],
+      "primaryLandmark": "Aid Commons",
+      "minorLandmarks": [
+        "Refugee Commons Civic Hall",
+        "Woven Banners Monument",
+        "Ration Arcade Nook"
+      ]
+    }
+  ],
+  "landmarks": {
+    "wonder": {
+      "name": "Norse Ice-Longhall of the Sky Oath",
+      "symbolicRole": "Norse Ice-Longhall of the Sky Oath concentrates Skjarnheim's civic identity into a usable public symbol.",
+      "visualRole": "A one-per-city wonder: spectacular, unmistakable, and larger than every section landmark; visually it should read through the city's Norse / Scandinavian material language.",
+      "civicRole": "Serves as a wonder for public orientation, authority, gathering, and district-scale navigation.",
+      "narrativeUse": [
+        "anchor scenes where Skjarnheim's institutions become visible rather than abstract",
+        "stage public warnings, petitions, disputes, arrivals, or ceremonies",
+        "give characters a concrete place to read power, memory, labor, or obligation",
+        "provide a recognizable return point across chapters and map scenes"
+      ],
+      "assetUse": [
+        "district diorama centerpiece",
+        "map background landmark marker",
+        "board-readable silhouette and navigation cue",
+        "repeatable visual anchor for future city art"
+      ],
+      "sensoryIdentity": [
+        "public foot traffic",
+        "local material textures",
+        "civic lamps or signal light",
+        "voices gathering around its approach",
+        "weather and city smell caught on its surfaces"
+      ],
+      "storyHooks": [
+        "a public decision at Norse Ice-Longhall of the Sky Oath changes how the section moves",
+        "an old inscription, ledger, seal, or ceremonial object at Norse Ice-Longhall of the Sky Oath reveals a civic contradiction",
+        "crowd behavior around Norse Ice-Longhall of the Sky Oath shows whether the city trusts its own institutions"
+      ]
+    },
+    "beacon": {
+      "name": "Cargo Yard Beacon",
+      "symbolicRole": "Cargo Yard Beacon concentrates Skjarnheim's civic identity into a usable public symbol. It carries Section 1's Warehousing / Logistics identity.",
+      "visualRole": "A largest local landmark in this section, subordinate only to the city wonder and citadel; visually it should read through the city's Norse / Scandinavian material language.",
+      "civicRole": "Serves as a beacon for public orientation, authority, gathering, and district-scale navigation.",
+      "narrativeUse": [
+        "anchor scenes where Skjarnheim's institutions become visible rather than abstract",
+        "stage public warnings, petitions, disputes, arrivals, or ceremonies",
+        "give characters a concrete place to read power, memory, labor, or obligation",
+        "provide a recognizable return point across chapters and map scenes"
+      ],
+      "assetUse": [
+        "district diorama centerpiece",
+        "map background landmark marker",
+        "board-readable silhouette and navigation cue",
+        "repeatable visual anchor for future city art"
+      ],
+      "sensoryIdentity": [
+        "public foot traffic",
+        "local material textures",
+        "civic lamps or signal light",
+        "voices gathering around its approach",
+        "weather and city smell caught on its surfaces"
+      ],
+      "storyHooks": [
+        "a public decision at Cargo Yard Beacon changes how the section moves",
+        "an old inscription, ledger, seal, or ceremonial object at Cargo Yard Beacon reveals a civic contradiction",
+        "crowd behavior around Cargo Yard Beacon shows whether the city trusts its own institutions"
+      ]
+    },
+    "seatOfPower": {
+      "name": "Frost Rune Edges Tide-Seal Citadel",
+      "symbolicRole": "Frost Rune Edges Tide-Seal Citadel concentrates Skjarnheim's civic identity into a usable public symbol.",
+      "visualRole": "The district-13 seat of power: courts, audience terraces, sealed archives, command platforms, and the visible apparatus of government; visually it should read through the city's Norse / Scandinavian material language.",
+      "civicRole": "Serves as a seat of power for public orientation, authority, gathering, and district-scale navigation.",
+      "narrativeUse": [
+        "anchor scenes where Skjarnheim's institutions become visible rather than abstract",
+        "stage public warnings, petitions, disputes, arrivals, or ceremonies",
+        "give characters a concrete place to read power, memory, labor, or obligation",
+        "provide a recognizable return point across chapters and map scenes"
+      ],
+      "assetUse": [
+        "district diorama centerpiece",
+        "map background landmark marker",
+        "board-readable silhouette and navigation cue",
+        "repeatable visual anchor for future city art"
+      ],
+      "sensoryIdentity": [
+        "public foot traffic",
+        "local material textures",
+        "civic lamps or signal light",
+        "voices gathering around its approach",
+        "weather and city smell caught on its surfaces"
+      ],
+      "storyHooks": [
+        "a public decision at Frost Rune Edges Tide-Seal Citadel changes how the section moves",
+        "an old inscription, ledger, seal, or ceremonial object at Frost Rune Edges Tide-Seal Citadel reveals a civic contradiction",
+        "crowd behavior around Frost Rune Edges Tide-Seal Citadel shows whether the city trusts its own institutions"
+      ],
+      "districtNumber": 13
+    },
+    "majorLandmarks": [
+      {
+        "name": "Warehousing / Logistics Civic Hall",
+        "symbolicRole": "Warehousing / Logistics Civic Hall concentrates Skjarnheim's civic identity into a usable public symbol. It carries Section 1's Warehousing / Logistics identity.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing; visually it should read through the city's Norse / Scandinavian material language.",
+        "civicRole": "Serves as a civic center for public orientation, authority, gathering, and district-scale navigation.",
+        "narrativeUse": [
+          "anchor scenes where Skjarnheim's institutions become visible rather than abstract",
+          "stage public warnings, petitions, disputes, arrivals, or ceremonies",
+          "give characters a concrete place to read power, memory, labor, or obligation",
+          "provide a recognizable return point across chapters and map scenes"
+        ],
+        "assetUse": [
+          "district diorama centerpiece",
+          "map background landmark marker",
+          "board-readable silhouette and navigation cue",
+          "repeatable visual anchor for future city art"
+        ],
+        "sensoryIdentity": [
+          "public foot traffic",
+          "local material textures",
+          "civic lamps or signal light",
+          "voices gathering around its approach",
+          "weather and city smell caught on its surfaces"
+        ],
+        "storyHooks": [
+          "a public decision at Warehousing / Logistics Civic Hall changes how the section moves",
+          "an old inscription, ledger, seal, or ceremonial object at Warehousing / Logistics Civic Hall reveals a civic contradiction",
+          "crowd behavior around Warehousing / Logistics Civic Hall shows whether the city trusts its own institutions"
+        ]
+      },
+      {
+        "name": "Warehousing Logistics Gold-Seal Monument",
+        "symbolicRole": "Warehousing Logistics Gold-Seal Monument concentrates Skjarnheim's civic identity into a usable public symbol. It carries Section 1's Warehousing / Logistics identity.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles; visually it should read through the city's Norse / Scandinavian material language.",
+        "civicRole": "Serves as a monument for public orientation, authority, gathering, and district-scale navigation.",
+        "narrativeUse": [
+          "anchor scenes where Skjarnheim's institutions become visible rather than abstract",
+          "stage public warnings, petitions, disputes, arrivals, or ceremonies",
+          "give characters a concrete place to read power, memory, labor, or obligation",
+          "provide a recognizable return point across chapters and map scenes"
+        ],
+        "assetUse": [
+          "district diorama centerpiece",
+          "map background landmark marker",
+          "board-readable silhouette and navigation cue",
+          "repeatable visual anchor for future city art"
+        ],
+        "sensoryIdentity": [
+          "public foot traffic",
+          "local material textures",
+          "civic lamps or signal light",
+          "voices gathering around its approach",
+          "weather and city smell caught on its surfaces"
+        ],
+        "storyHooks": [
+          "a public decision at Warehousing Logistics Gold-Seal Monument changes how the section moves",
+          "an old inscription, ledger, seal, or ceremonial object at Warehousing Logistics Gold-Seal Monument reveals a civic contradiction",
+          "crowd behavior around Warehousing Logistics Gold-Seal Monument shows whether the city trusts its own institutions"
+        ]
+      },
+      {
+        "name": "Inventory Hall Nook",
+        "symbolicRole": "Inventory Hall Nook concentrates Skjarnheim's civic identity into a usable public symbol. It carries Section 1's Warehousing / Logistics identity.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette; visually it should read through the city's Norse / Scandinavian material language.",
+        "civicRole": "Serves as a minor landmark for public orientation, authority, gathering, and district-scale navigation.",
+        "narrativeUse": [
+          "anchor scenes where Skjarnheim's institutions become visible rather than abstract",
+          "stage public warnings, petitions, disputes, arrivals, or ceremonies",
+          "give characters a concrete place to read power, memory, labor, or obligation",
+          "provide a recognizable return point across chapters and map scenes"
+        ],
+        "assetUse": [
+          "district diorama centerpiece",
+          "map background landmark marker",
+          "board-readable silhouette and navigation cue",
+          "repeatable visual anchor for future city art"
+        ],
+        "sensoryIdentity": [
+          "public foot traffic",
+          "local material textures",
+          "civic lamps or signal light",
+          "voices gathering around its approach",
+          "weather and city smell caught on its surfaces"
+        ],
+        "storyHooks": [
+          "a public decision at Inventory Hall Nook changes how the section moves",
+          "an old inscription, ledger, seal, or ceremonial object at Inventory Hall Nook reveals a civic contradiction",
+          "crowd behavior around Inventory Hall Nook shows whether the city trusts its own institutions"
+        ]
+      },
+      {
+        "name": "Shrine / Sacred Place Civic Hall",
+        "symbolicRole": "Shrine / Sacred Place Civic Hall concentrates Skjarnheim's civic identity into a usable public symbol. It carries Section 2's Shrine / Sacred Place identity.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing; visually it should read through the city's Norse / Scandinavian material language.",
+        "civicRole": "Serves as a civic center for public orientation, authority, gathering, and district-scale navigation.",
+        "narrativeUse": [
+          "anchor scenes where Skjarnheim's institutions become visible rather than abstract",
+          "stage public warnings, petitions, disputes, arrivals, or ceremonies",
+          "give characters a concrete place to read power, memory, labor, or obligation",
+          "provide a recognizable return point across chapters and map scenes"
+        ],
+        "assetUse": [
+          "district diorama centerpiece",
+          "map background landmark marker",
+          "board-readable silhouette and navigation cue",
+          "repeatable visual anchor for future city art"
+        ],
+        "sensoryIdentity": [
+          "public foot traffic",
+          "local material textures",
+          "civic lamps or signal light",
+          "voices gathering around its approach",
+          "weather and city smell caught on its surfaces"
+        ],
+        "storyHooks": [
+          "a public decision at Shrine / Sacred Place Civic Hall changes how the section moves",
+          "an old inscription, ledger, seal, or ceremonial object at Shrine / Sacred Place Civic Hall reveals a civic contradiction",
+          "crowd behavior around Shrine / Sacred Place Civic Hall shows whether the city trusts its own institutions"
+        ]
+      },
+      {
+        "name": "Roadside Shrine",
+        "symbolicRole": "Roadside Shrine concentrates Skjarnheim's civic identity into a usable public symbol. It carries Section 2's Shrine / Sacred Place identity.",
+        "visualRole": "A largest local landmark in this section, subordinate only to the city wonder and citadel; visually it should read through the city's Norse / Scandinavian material language.",
+        "civicRole": "Serves as a major landmark for public orientation, authority, gathering, and district-scale navigation.",
+        "narrativeUse": [
+          "anchor scenes where Skjarnheim's institutions become visible rather than abstract",
+          "stage public warnings, petitions, disputes, arrivals, or ceremonies",
+          "give characters a concrete place to read power, memory, labor, or obligation",
+          "provide a recognizable return point across chapters and map scenes"
+        ],
+        "assetUse": [
+          "district diorama centerpiece",
+          "map background landmark marker",
+          "board-readable silhouette and navigation cue",
+          "repeatable visual anchor for future city art"
+        ],
+        "sensoryIdentity": [
+          "public foot traffic",
+          "local material textures",
+          "civic lamps or signal light",
+          "voices gathering around its approach",
+          "weather and city smell caught on its surfaces"
+        ],
+        "storyHooks": [
+          "a public decision at Roadside Shrine changes how the section moves",
+          "an old inscription, ledger, seal, or ceremonial object at Roadside Shrine reveals a civic contradiction",
+          "crowd behavior around Roadside Shrine shows whether the city trusts its own institutions"
+        ]
+      },
+      {
+        "name": "Shrine Sacred Place Lantern Monument",
+        "symbolicRole": "Shrine Sacred Place Lantern Monument concentrates Skjarnheim's civic identity into a usable public symbol. It carries Section 2's Shrine / Sacred Place identity.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles; visually it should read through the city's Norse / Scandinavian material language.",
+        "civicRole": "Serves as a monument for public orientation, authority, gathering, and district-scale navigation.",
+        "narrativeUse": [
+          "anchor scenes where Skjarnheim's institutions become visible rather than abstract",
+          "stage public warnings, petitions, disputes, arrivals, or ceremonies",
+          "give characters a concrete place to read power, memory, labor, or obligation",
+          "provide a recognizable return point across chapters and map scenes"
+        ],
+        "assetUse": [
+          "district diorama centerpiece",
+          "map background landmark marker",
+          "board-readable silhouette and navigation cue",
+          "repeatable visual anchor for future city art"
+        ],
+        "sensoryIdentity": [
+          "public foot traffic",
+          "local material textures",
+          "civic lamps or signal light",
+          "voices gathering around its approach",
+          "weather and city smell caught on its surfaces"
+        ],
+        "storyHooks": [
+          "a public decision at Shrine Sacred Place Lantern Monument changes how the section moves",
+          "an old inscription, ledger, seal, or ceremonial object at Shrine Sacred Place Lantern Monument reveals a civic contradiction",
+          "crowd behavior around Shrine Sacred Place Lantern Monument shows whether the city trusts its own institutions"
+        ]
+      },
+      {
+        "name": "Votive Grove Nook",
+        "symbolicRole": "Votive Grove Nook concentrates Skjarnheim's civic identity into a usable public symbol. It carries Section 2's Shrine / Sacred Place identity.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette; visually it should read through the city's Norse / Scandinavian material language.",
+        "civicRole": "Serves as a minor landmark for public orientation, authority, gathering, and district-scale navigation.",
+        "narrativeUse": [
+          "anchor scenes where Skjarnheim's institutions become visible rather than abstract",
+          "stage public warnings, petitions, disputes, arrivals, or ceremonies",
+          "give characters a concrete place to read power, memory, labor, or obligation",
+          "provide a recognizable return point across chapters and map scenes"
+        ],
+        "assetUse": [
+          "district diorama centerpiece",
+          "map background landmark marker",
+          "board-readable silhouette and navigation cue",
+          "repeatable visual anchor for future city art"
+        ],
+        "sensoryIdentity": [
+          "public foot traffic",
+          "local material textures",
+          "civic lamps or signal light",
+          "voices gathering around its approach",
+          "weather and city smell caught on its surfaces"
+        ],
+        "storyHooks": [
+          "a public decision at Votive Grove Nook changes how the section moves",
+          "an old inscription, ledger, seal, or ceremonial object at Votive Grove Nook reveals a civic contradiction",
+          "crowd behavior around Votive Grove Nook shows whether the city trusts its own institutions"
+        ]
+      },
+      {
+        "name": "Public Works Authority Hall",
+        "symbolicRole": "Public Works Authority Hall concentrates Skjarnheim's civic identity into a usable public symbol. It carries Section 3's Public Works Authority identity.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing; visually it should read through the city's Norse / Scandinavian material language.",
+        "civicRole": "Serves as a civic center for public orientation, authority, gathering, and district-scale navigation.",
+        "narrativeUse": [
+          "anchor scenes where Skjarnheim's institutions become visible rather than abstract",
+          "stage public warnings, petitions, disputes, arrivals, or ceremonies",
+          "give characters a concrete place to read power, memory, labor, or obligation",
+          "provide a recognizable return point across chapters and map scenes"
+        ],
+        "assetUse": [
+          "district diorama centerpiece",
+          "map background landmark marker",
+          "board-readable silhouette and navigation cue",
+          "repeatable visual anchor for future city art"
+        ],
+        "sensoryIdentity": [
+          "public foot traffic",
+          "local material textures",
+          "civic lamps or signal light",
+          "voices gathering around its approach",
+          "weather and city smell caught on its surfaces"
+        ],
+        "storyHooks": [
+          "a public decision at Public Works Authority Hall changes how the section moves",
+          "an old inscription, ledger, seal, or ceremonial object at Public Works Authority Hall reveals a civic contradiction",
+          "crowd behavior around Public Works Authority Hall shows whether the city trusts its own institutions"
+        ]
+      },
+      {
+        "name": "Survey Hall",
+        "symbolicRole": "Survey Hall concentrates Skjarnheim's civic identity into a usable public symbol. It carries Section 3's Public Works Authority identity.",
+        "visualRole": "A mandatory Section 3 Beacon: a culturally adapted civic signal flame / warning-light landmark visible across the city spine; visually it should read through the city's Norse / Scandinavian material language.",
+        "civicRole": "Serves as a major landmark for public orientation, authority, gathering, and district-scale navigation.",
+        "narrativeUse": [
+          "anchor scenes where Skjarnheim's institutions become visible rather than abstract",
+          "stage public warnings, petitions, disputes, arrivals, or ceremonies",
+          "give characters a concrete place to read power, memory, labor, or obligation",
+          "provide a recognizable return point across chapters and map scenes"
+        ],
+        "assetUse": [
+          "district diorama centerpiece",
+          "map background landmark marker",
+          "board-readable silhouette and navigation cue",
+          "repeatable visual anchor for future city art"
+        ],
+        "sensoryIdentity": [
+          "public foot traffic",
+          "local material textures",
+          "civic lamps or signal light",
+          "voices gathering around its approach",
+          "weather and city smell caught on its surfaces"
+        ],
+        "storyHooks": [
+          "a public decision at Survey Hall changes how the section moves",
+          "an old inscription, ledger, seal, or ceremonial object at Survey Hall reveals a civic contradiction",
+          "crowd behavior around Survey Hall shows whether the city trusts its own institutions"
+        ]
+      },
+      {
+        "name": "Blue-Lamp Monument",
+        "symbolicRole": "Blue-Lamp Monument concentrates Skjarnheim's civic identity into a usable public symbol. It carries Section 3's Public Works Authority identity.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles; visually it should read through the city's Norse / Scandinavian material language.",
+        "civicRole": "Serves as a monument for public orientation, authority, gathering, and district-scale navigation.",
+        "narrativeUse": [
+          "anchor scenes where Skjarnheim's institutions become visible rather than abstract",
+          "stage public warnings, petitions, disputes, arrivals, or ceremonies",
+          "give characters a concrete place to read power, memory, labor, or obligation",
+          "provide a recognizable return point across chapters and map scenes"
+        ],
+        "assetUse": [
+          "district diorama centerpiece",
+          "map background landmark marker",
+          "board-readable silhouette and navigation cue",
+          "repeatable visual anchor for future city art"
+        ],
+        "sensoryIdentity": [
+          "public foot traffic",
+          "local material textures",
+          "civic lamps or signal light",
+          "voices gathering around its approach",
+          "weather and city smell caught on its surfaces"
+        ],
+        "storyHooks": [
+          "a public decision at Blue-Lamp Monument changes how the section moves",
+          "an old inscription, ledger, seal, or ceremonial object at Blue-Lamp Monument reveals a civic contradiction",
+          "crowd behavior around Blue-Lamp Monument shows whether the city trusts its own institutions"
+        ]
+      },
+      {
+        "name": "Permit Yard Nook",
+        "symbolicRole": "Permit Yard Nook concentrates Skjarnheim's civic identity into a usable public symbol. It carries Section 3's Public Works Authority identity.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette; visually it should read through the city's Norse / Scandinavian material language.",
+        "civicRole": "Serves as a minor landmark for public orientation, authority, gathering, and district-scale navigation.",
+        "narrativeUse": [
+          "anchor scenes where Skjarnheim's institutions become visible rather than abstract",
+          "stage public warnings, petitions, disputes, arrivals, or ceremonies",
+          "give characters a concrete place to read power, memory, labor, or obligation",
+          "provide a recognizable return point across chapters and map scenes"
+        ],
+        "assetUse": [
+          "district diorama centerpiece",
+          "map background landmark marker",
+          "board-readable silhouette and navigation cue",
+          "repeatable visual anchor for future city art"
+        ],
+        "sensoryIdentity": [
+          "public foot traffic",
+          "local material textures",
+          "civic lamps or signal light",
+          "voices gathering around its approach",
+          "weather and city smell caught on its surfaces"
+        ],
+        "storyHooks": [
+          "a public decision at Permit Yard Nook changes how the section moves",
+          "an old inscription, ledger, seal, or ceremonial object at Permit Yard Nook reveals a civic contradiction",
+          "crowd behavior around Permit Yard Nook shows whether the city trusts its own institutions"
+        ]
+      },
+      {
+        "name": "Grand Market Civic Hall",
+        "symbolicRole": "Grand Market Civic Hall concentrates Skjarnheim's civic identity into a usable public symbol. It carries Section 4's Grand Market identity.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing; visually it should read through the city's Norse / Scandinavian material language.",
+        "civicRole": "Serves as a civic center for public orientation, authority, gathering, and district-scale navigation.",
+        "narrativeUse": [
+          "anchor scenes where Skjarnheim's institutions become visible rather than abstract",
+          "stage public warnings, petitions, disputes, arrivals, or ceremonies",
+          "give characters a concrete place to read power, memory, labor, or obligation",
+          "provide a recognizable return point across chapters and map scenes"
+        ],
+        "assetUse": [
+          "district diorama centerpiece",
+          "map background landmark marker",
+          "board-readable silhouette and navigation cue",
+          "repeatable visual anchor for future city art"
+        ],
+        "sensoryIdentity": [
+          "public foot traffic",
+          "local material textures",
+          "civic lamps or signal light",
+          "voices gathering around its approach",
+          "weather and city smell caught on its surfaces"
+        ],
+        "storyHooks": [
+          "a public decision at Grand Market Civic Hall changes how the section moves",
+          "an old inscription, ledger, seal, or ceremonial object at Grand Market Civic Hall reveals a civic contradiction",
+          "crowd behavior around Grand Market Civic Hall shows whether the city trusts its own institutions"
+        ]
+      },
+      {
+        "name": "Covered Bazaar",
+        "symbolicRole": "Covered Bazaar concentrates Skjarnheim's civic identity into a usable public symbol. It carries Section 4's Grand Market identity.",
+        "visualRole": "A largest local landmark in this section, subordinate only to the city wonder and citadel; visually it should read through the city's Norse / Scandinavian material language.",
+        "civicRole": "Serves as a major landmark for public orientation, authority, gathering, and district-scale navigation.",
+        "narrativeUse": [
+          "anchor scenes where Skjarnheim's institutions become visible rather than abstract",
+          "stage public warnings, petitions, disputes, arrivals, or ceremonies",
+          "give characters a concrete place to read power, memory, labor, or obligation",
+          "provide a recognizable return point across chapters and map scenes"
+        ],
+        "assetUse": [
+          "district diorama centerpiece",
+          "map background landmark marker",
+          "board-readable silhouette and navigation cue",
+          "repeatable visual anchor for future city art"
+        ],
+        "sensoryIdentity": [
+          "public foot traffic",
+          "local material textures",
+          "civic lamps or signal light",
+          "voices gathering around its approach",
+          "weather and city smell caught on its surfaces"
+        ],
+        "storyHooks": [
+          "a public decision at Covered Bazaar changes how the section moves",
+          "an old inscription, ledger, seal, or ceremonial object at Covered Bazaar reveals a civic contradiction",
+          "crowd behavior around Covered Bazaar shows whether the city trusts its own institutions"
+        ]
+      },
+      {
+        "name": "Awning Monument",
+        "symbolicRole": "Awning Monument concentrates Skjarnheim's civic identity into a usable public symbol. It carries Section 4's Grand Market identity.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles; visually it should read through the city's Norse / Scandinavian material language.",
+        "civicRole": "Serves as a monument for public orientation, authority, gathering, and district-scale navigation.",
+        "narrativeUse": [
+          "anchor scenes where Skjarnheim's institutions become visible rather than abstract",
+          "stage public warnings, petitions, disputes, arrivals, or ceremonies",
+          "give characters a concrete place to read power, memory, labor, or obligation",
+          "provide a recognizable return point across chapters and map scenes"
+        ],
+        "assetUse": [
+          "district diorama centerpiece",
+          "map background landmark marker",
+          "board-readable silhouette and navigation cue",
+          "repeatable visual anchor for future city art"
+        ],
+        "sensoryIdentity": [
+          "public foot traffic",
+          "local material textures",
+          "civic lamps or signal light",
+          "voices gathering around its approach",
+          "weather and city smell caught on its surfaces"
+        ],
+        "storyHooks": [
+          "a public decision at Awning Monument changes how the section moves",
+          "an old inscription, ledger, seal, or ceremonial object at Awning Monument reveals a civic contradiction",
+          "crowd behavior around Awning Monument shows whether the city trusts its own institutions"
+        ]
+      },
+      {
+        "name": "Auction Court Nook",
+        "symbolicRole": "Auction Court Nook concentrates Skjarnheim's civic identity into a usable public symbol. It carries Section 4's Grand Market identity.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette; visually it should read through the city's Norse / Scandinavian material language.",
+        "civicRole": "Serves as a minor landmark for public orientation, authority, gathering, and district-scale navigation.",
+        "narrativeUse": [
+          "anchor scenes where Skjarnheim's institutions become visible rather than abstract",
+          "stage public warnings, petitions, disputes, arrivals, or ceremonies",
+          "give characters a concrete place to read power, memory, labor, or obligation",
+          "provide a recognizable return point across chapters and map scenes"
+        ],
+        "assetUse": [
+          "district diorama centerpiece",
+          "map background landmark marker",
+          "board-readable silhouette and navigation cue",
+          "repeatable visual anchor for future city art"
+        ],
+        "sensoryIdentity": [
+          "public foot traffic",
+          "local material textures",
+          "civic lamps or signal light",
+          "voices gathering around its approach",
+          "weather and city smell caught on its surfaces"
+        ],
+        "storyHooks": [
+          "a public decision at Auction Court Nook changes how the section moves",
+          "an old inscription, ledger, seal, or ceremonial object at Auction Court Nook reveals a civic contradiction",
+          "crowd behavior around Auction Court Nook shows whether the city trusts its own institutions"
+        ]
+      },
+      {
+        "name": "Refugee Commons Civic Hall",
+        "symbolicRole": "Refugee Commons Civic Hall concentrates Skjarnheim's civic identity into a usable public symbol. It carries Section 5's Refugee Commons identity.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing; visually it should read through the city's Norse / Scandinavian material language.",
+        "civicRole": "Serves as a civic center for public orientation, authority, gathering, and district-scale navigation.",
+        "narrativeUse": [
+          "anchor scenes where Skjarnheim's institutions become visible rather than abstract",
+          "stage public warnings, petitions, disputes, arrivals, or ceremonies",
+          "give characters a concrete place to read power, memory, labor, or obligation",
+          "provide a recognizable return point across chapters and map scenes"
+        ],
+        "assetUse": [
+          "district diorama centerpiece",
+          "map background landmark marker",
+          "board-readable silhouette and navigation cue",
+          "repeatable visual anchor for future city art"
+        ],
+        "sensoryIdentity": [
+          "public foot traffic",
+          "local material textures",
+          "civic lamps or signal light",
+          "voices gathering around its approach",
+          "weather and city smell caught on its surfaces"
+        ],
+        "storyHooks": [
+          "a public decision at Refugee Commons Civic Hall changes how the section moves",
+          "an old inscription, ledger, seal, or ceremonial object at Refugee Commons Civic Hall reveals a civic contradiction",
+          "crowd behavior around Refugee Commons Civic Hall shows whether the city trusts its own institutions"
+        ]
+      },
+      {
+        "name": "Aid Commons",
+        "symbolicRole": "Aid Commons concentrates Skjarnheim's civic identity into a usable public symbol. It carries Section 5's Refugee Commons identity.",
+        "visualRole": "A largest local landmark in this section, subordinate only to the city wonder and citadel; visually it should read through the city's Norse / Scandinavian material language.",
+        "civicRole": "Serves as a major landmark for public orientation, authority, gathering, and district-scale navigation.",
+        "narrativeUse": [
+          "anchor scenes where Skjarnheim's institutions become visible rather than abstract",
+          "stage public warnings, petitions, disputes, arrivals, or ceremonies",
+          "give characters a concrete place to read power, memory, labor, or obligation",
+          "provide a recognizable return point across chapters and map scenes"
+        ],
+        "assetUse": [
+          "district diorama centerpiece",
+          "map background landmark marker",
+          "board-readable silhouette and navigation cue",
+          "repeatable visual anchor for future city art"
+        ],
+        "sensoryIdentity": [
+          "public foot traffic",
+          "local material textures",
+          "civic lamps or signal light",
+          "voices gathering around its approach",
+          "weather and city smell caught on its surfaces"
+        ],
+        "storyHooks": [
+          "a public decision at Aid Commons changes how the section moves",
+          "an old inscription, ledger, seal, or ceremonial object at Aid Commons reveals a civic contradiction",
+          "crowd behavior around Aid Commons shows whether the city trusts its own institutions"
+        ]
+      },
+      {
+        "name": "Woven Banners Monument",
+        "symbolicRole": "Woven Banners Monument concentrates Skjarnheim's civic identity into a usable public symbol. It carries Section 5's Refugee Commons identity.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles; visually it should read through the city's Norse / Scandinavian material language.",
+        "civicRole": "Serves as a monument for public orientation, authority, gathering, and district-scale navigation.",
+        "narrativeUse": [
+          "anchor scenes where Skjarnheim's institutions become visible rather than abstract",
+          "stage public warnings, petitions, disputes, arrivals, or ceremonies",
+          "give characters a concrete place to read power, memory, labor, or obligation",
+          "provide a recognizable return point across chapters and map scenes"
+        ],
+        "assetUse": [
+          "district diorama centerpiece",
+          "map background landmark marker",
+          "board-readable silhouette and navigation cue",
+          "repeatable visual anchor for future city art"
+        ],
+        "sensoryIdentity": [
+          "public foot traffic",
+          "local material textures",
+          "civic lamps or signal light",
+          "voices gathering around its approach",
+          "weather and city smell caught on its surfaces"
+        ],
+        "storyHooks": [
+          "a public decision at Woven Banners Monument changes how the section moves",
+          "an old inscription, ledger, seal, or ceremonial object at Woven Banners Monument reveals a civic contradiction",
+          "crowd behavior around Woven Banners Monument shows whether the city trusts its own institutions"
+        ]
+      },
+      {
+        "name": "Ration Arcade Nook",
+        "symbolicRole": "Ration Arcade Nook concentrates Skjarnheim's civic identity into a usable public symbol. It carries Section 5's Refugee Commons identity.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette; visually it should read through the city's Norse / Scandinavian material language.",
+        "civicRole": "Serves as a minor landmark for public orientation, authority, gathering, and district-scale navigation.",
+        "narrativeUse": [
+          "anchor scenes where Skjarnheim's institutions become visible rather than abstract",
+          "stage public warnings, petitions, disputes, arrivals, or ceremonies",
+          "give characters a concrete place to read power, memory, labor, or obligation",
+          "provide a recognizable return point across chapters and map scenes"
+        ],
+        "assetUse": [
+          "district diorama centerpiece",
+          "map background landmark marker",
+          "board-readable silhouette and navigation cue",
+          "repeatable visual anchor for future city art"
+        ],
+        "sensoryIdentity": [
+          "public foot traffic",
+          "local material textures",
+          "civic lamps or signal light",
+          "voices gathering around its approach",
+          "weather and city smell caught on its surfaces"
+        ],
+        "storyHooks": [
+          "a public decision at Ration Arcade Nook changes how the section moves",
+          "an old inscription, ledger, seal, or ceremonial object at Ration Arcade Nook reveals a civic contradiction",
+          "crowd behavior around Ration Arcade Nook shows whether the city trusts its own institutions"
+        ]
+      }
+    ]
+  },
+  "assetGuidance": {
+    "districtDioramaGuidance": [
+      "S1 dioramas must read as Warehousing / Logistics and include source-backed anchors: Warehousing / Logistics Civic Hall, Cargo Yard Beacon, Warehousing Logistics Gold-Seal Monument, Inventory Hall Nook.",
+      "S2 dioramas must read as Shrine / Sacred Place and include source-backed anchors: Shrine / Sacred Place Civic Hall, Roadside Shrine, Shrine Sacred Place Lantern Monument, Votive Grove Nook.",
+      "S3 dioramas must read as Public Works Authority and include source-backed anchors: Public Works Authority Hall, Survey Hall, Blue-Lamp Monument, Permit Yard Nook.",
+      "S4 dioramas must read as Grand Market and include source-backed anchors: Grand Market Civic Hall, Covered Bazaar, Awning Monument, Auction Court Nook.",
+      "S5 dioramas must read as Refugee Commons and include source-backed anchors: Refugee Commons Civic Hall, Aid Commons, Woven Banners Monument, Ration Arcade Nook."
+    ],
+    "mapBackgroundGuidance": [
+      "Show Skjarnheim as a Norse / Scandinavian city shaped by Coastal Edge, Seawall Edge, and Harbor Basin and Coast.",
+      "Keep Norse Ice-Longhall of the Sky Oath distinct as the skyline wonder, Frost Rune Edges Tide-Seal Citadel central at D13, and Cargo Yard Beacon legible as the public signal.",
+      "Arrange the map so the five section identities remain readable: Warehousing / Logistics, Shrine / Sacred Place, Public Works Authority, Grand Market, and Refugee Commons.",
+      "Do not let generic fantasy rooftops replace the named civic anchors.",
+      "Use paths, plazas, courts, water edges, walls, terraces, or arcades to show how citizens move between sections."
+    ],
+    "requiredVisualElements": [
+      "Norse / Scandinavian civilians",
+      "Norse Ice-Longhall of the Sky Oath",
+      "Cargo Yard Beacon",
+      "Frost Rune Edges Tide-Seal Citadel",
+      "Cargo Yard Beacon",
+      "Roadside Shrine",
+      "Survey Hall",
+      "Covered Bazaar",
+      "Aid Commons",
+      "Blue Granite",
+      "Frost Glass",
+      "Pine",
+      "Silver Inlay",
+      "Arcane Glow",
+      "cargo ledgers",
+      "crates",
+      "route boards"
+    ],
+    "elementsToAvoid": [
+      "extra top-level schema sections or production notes in the JSON",
+      "generic city views that ignore section identity",
+      "invented landmarks not present in sidecars or established canon",
+      "character-specific details",
+      "labels baked into images",
+      "making the Wonder, Beacon, and Seat interchangeable",
+      "overusing magic effects until practical civic infrastructure disappears"
+    ]
+  }
+}

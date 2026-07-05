@@ -1,18 +1,1893 @@
 {
-  "metadata": {"schemaVersion": "2.0", "analysisVersion": 2, "cityCode": "NET", "cityName": "Nettleburrow", "analysisDate": "2026-07-03", "analystVersion": "gpt-5.5-thinking", "analysisConfidence": "strong-lock", "basedOnImages": ["NET-HERO-NE-v001", "NET-HERO-NW-v001", "NET-HERO-SE-v001", "NET-HERO-SW-v001", "NET-STREET-S1-v001", "NET-STREET-S2-v001", "NET-STREET-S3-v001", "NET-STREET-S4-v001", "NET-STREET-S5-v001"], "basedOnSidecars": ["NET-HERO-NE-v001.json", "NET-HERO-NW-v001.json", "NET-HERO-SE-v001.json", "NET-HERO-SW-v001.json", "NET-STREET-S1-v001.json", "NET-STREET-S2-v001.json", "NET-STREET-S3-v001.json", "NET-STREET-S4-v001.json", "NET-STREET-S5-v001.json"]},
-  "cityDNA": {"coreFantasy": "A dense subterranean rodentfolk survival city where granaries, lantern roots, hidden markets, relief halls, patched tenements, and moon-registry courts fill every niche.", "primaryEmotion": "crowded resourcefulness", "secondaryEmotion": "underground vigilance", "readerTakeaway": "Nettleburrow is not a cave village; the uploaded images show an old survival machine with agriculture, aid, hidden trade, low housing, and official registry order built into the cavern.", "civilizationThesis": "Nettleburrow turns storage, redundancy, side routes, and neighbor networks into civic survival.", "visualIdentity": "Rootwood, fieldstone, copper lantern cages, willow braces, limewash, burrow arches, cavern terraces, granary towers, root-lit markets, understreet vaults, scrap stalls, laundry wells, and tenement courts.", "culturalIdentity": "Small rodent-like beastfolk culture built around food security, route knowledge, repair, relief, and informal networks beside official records.", "symbolicIdentity": "Roots, lanterns, grain, seeds, burrow arches, moon phase windows, laundry wells, patched tenements, scrap markets, and understreet vaults symbolize survival through redundancy."},
-  "canon": {"canonLocks": ["Wonder: Rodentfolk Burrow-Market of the Lantern Roots.", "Beacon: Terrace Granary Beacon.", "Seat of Power: Moon Phase Windows Sovereign Registry Court.", "Districts: Agricultural Terraces, Underworld / Hidden Economy, Civic Services, Slums / Informal Settlement, Low Residential.", "Exact uploaded anchors include Agricultural Terraces Civic Hall, Hanging Gardens Monument, Seed Hall Nook, Underworld / Hidden Economy Civic Hall, Black Market Arcade, Mist Veils Monument, Understreet Vault Nook, Civic Services Hall, Relief Hall, Civic Services Lantern Monument, Notice Plaza Nook, Slums / Informal Settlement Civic Hall, Scrap Market, Slums Informal Settlement Lantern Monument, Patched Tenement Nook, Low Residential Civic Hall, Tenement Court, Low Residential Lantern Monument, and Laundry Well Nook."], "provisionalCanon": ["The city's highest virtue is resourcefulness.", "The image pass confirms small-body scale, stacked density, lantern roots, and civic survival systems."], "rejectedReads": ["temporary cave refuge", "cute rodent burrows without civic systems", "hidden economy as exotic crime theater"], "cautionFlags": ["Use rodentfolk scale and low/tight routes.", "Keep official and informal routes visible together.", "Preserve exact sidecar anchor names."]},
-  "environment": {"terrain": ["subterranean cavern city", "burrow tunnels", "cavern terraces", "root-lit market halls", "tenement courts", "understreet vaults"], "water": ["laundry wells", "drainage channels", "cavern seepage", "relief hall basins", "market wash points"], "vegetation": ["lantern roots", "underground crops", "mushroom beds", "seed halls", "hanging gardens", "mossed masonry"], "climateLighting": ["warm amber lanterns", "blue-green civic lamps", "root-filtered shafts", "market stall lamps", "moon-window glow"], "environmentalLogic": "The uploaded images make underground space into agriculture, housing, market, governance, repair, and survival infrastructure."},
-  "architecture": {"materials": ["Rootwood", "Fieldstone", "Copper", "Willow", "Limewash", "packed earth", "bronze lantern cages", "patched canvas"], "forms": ["Rodentfolk Burrow-Market of the Lantern Roots", "Moon Phase Windows Sovereign Registry Court", "Terrace Granary Beacon", "Agricultural Terraces Civic Hall", "Hanging Gardens Monument", "Seed Hall Nook", "Black Market Arcade", "Understreet Vault Nook", "Relief Hall", "Notice Plaza Nook", "Scrap Market", "Patched Tenement Nook", "Tenement Court", "Laundry Well Nook"], "skyline": ["cavern ceiling and arches replace open sky", "Burrow-Market of Lantern Roots as wonder heart", "Terrace Granary Beacon as food signal", "Moon Phase Windows Court as authority"], "lighting": ["warm lantern light", "blue-green civic lamps", "root-filtered shafts", "moon-window glow", "side-tunnel darkness"], "infrastructure": ["tunnels", "stairs", "terraced farms", "seed halls", "granaries", "understreet vaults", "relief halls", "notice plazas", "laundry wells", "scrap markets"], "motifs": ["roots", "lanterns", "grain", "seeds", "burrow arches", "moon phase windows", "laundry wells", "patched tenements", "scrap markets", "understreet vaults"], "colorLanguage": ["warm amber", "earth brown", "grain gold", "root green", "blue-green civic light", "moon-window silver"], "textureLanguage": ["packed earth", "worn stone", "timber bracing", "patched canvas", "scrap wood", "bronze lantern metal", "grain dust"]},
-  "civilization": {"people": "Rodentfolk citizens are busy, watchful, practical, and socially interconnected; the images emphasize bundles, tight routes, food stores, relief queues, and repair culture.", "occupations": ["seed keepers", "grain measurers", "terrace farmers", "root-lantern repairers", "scrap dealers", "relief clerks", "market brokers", "laundry workers", "tunnel masons"], "socialClasses": ["registry officials", "granary authorities", "relief administrators", "seed hall families", "market brokers", "tenement landlords", "scrap-market workers", "patched-housing families"], "governance": "Moon Phase Windows Sovereign Registry Court controls names, ration rolls, relief coordination, and legal status while informal systems keep people alive.", "religion": "Moon phases, roots, seeds, lantern tending, and preservation rites carry subtle survival-cycle spirituality.", "customs": ["granary checks", "seed cataloging", "relief queue etiquette", "notice reading", "root-lantern maintenance", "laundry-well gossip"], "bodyLanguage": ["quick crowd movement", "low-arch ducking", "watchful glances", "bundle carrying", "rapid side-route use"], "speechPatterns": ["route shorthand", "ration terms", "registry phrases", "favor language", "market codes", "relief ticket references"]},
-  "urbanLife": {"streets": {"appearance": "Tunnels open into courts and terraces packed with small bodies, carts, signs, lanterns, root clusters, laundry wells, and practical movement.", "movement": "Movement follows tunnels, stairs, ledges, crawl passages, low arches, side-stairs, and market platforms.", "sounds": ["cart wheels", "small footsteps", "market bargaining", "lantern chains", "laundry water", "grain pouring", "scrap hammering"], "smells": ["earth", "grain dust", "lamp oil", "cooked roots", "mushrooms", "wet laundry", "scrap metal"], "lighting": "Warm lanterns, root light, market lamps, moon windows, and blue-green civic lamps structure the city.", "weatherEffects": "Surface rain drips through shafts and makes drainage and lantern maintenance urgent.", "dayCycle": "Granary checks, seed halls, market setup, and relief queues dominate the day.", "nightCycle": "Official plazas stay lit while side tunnels become selective and coded."}, "shops": {"common": ["seed sellers", "grain counters", "root-lantern repair stalls", "scrap dealers", "mending shops"], "uncommon": ["understreet kiosks", "vault brokers", "cart repair stalls", "relief-ticket counters"], "prestigious": ["granary offices", "registry counters", "major seed halls", "root-lantern guild shops"], "exports": ["stored grain", "seeds", "mushrooms", "root lantern craft", "scrap repair"], "imports": ["metal", "cloth", "oil", "surface fruit", "paper", "medicine"], "streetFood": ["seed cakes", "root stew", "mushroom broth", "grain porridge"], "services": ["grain weighing", "seed cataloging", "relief distribution", "notice copying", "vault brokerage", "laundry washing"]}, "housing": {"wealthy": "Registry- or granary-adjacent stacked residences with ventilation and storage.", "middle": "Compact tunnel-connected homes and market apartments with food niches.", "poor": "Patched tenements, low burrow rooms, shared laundry wells, and crowded stair courts."}},
+  "metadata": {
+    "schemaVersion": "2.0",
+    "analysisVersion": 2,
+    "cityCode": "NET",
+    "cityName": "Nettleburrow",
+    "analysisDate": "2026-07-05",
+    "analystVersion": "gpt-5.5-thinking",
+    "analysisConfidence": "strong-lock",
+    "sourceStatus": "full",
+    "districtModel": "five sections; five district slots per section; D13 is the seat of power",
+    "missingStreetSections": [],
+    "basedOnImages": [
+      "NET-HERO-NE-v001",
+      "NET-HERO-NW-v001",
+      "NET-HERO-SE-v001",
+      "NET-HERO-SW-v001",
+      "NET-STREET-S1-v001",
+      "NET-STREET-S2-v001",
+      "NET-STREET-S3-v001",
+      "NET-STREET-S4-v001",
+      "NET-STREET-S5-v001"
+    ],
+    "basedOnSidecars": [
+      "NET-HERO-NE-v001.json",
+      "NET-HERO-NW-v001.json",
+      "NET-HERO-SE-v001.json",
+      "NET-HERO-SW-v001.json",
+      "NET-STREET-S1-v001.json",
+      "NET-STREET-S2-v001.json",
+      "NET-STREET-S3-v001.json",
+      "NET-STREET-S4-v001.json",
+      "NET-STREET-S5-v001.json"
+    ]
+  },
+  "cityDNA": {
+    "coreFantasy": "A small rodent-like beastfolk city where Rodentfolk Burrow-Market of the Lantern Roots, Terrace Granary Beacon, Moon Phase Windows Sovereign Registry Court, and the five-section district spine turn local identity into functional civic space.",
+    "primaryEmotion": "source-backed civic presence",
+    "secondaryEmotion": "lived-in pressure beneath landmark order",
+    "readerTakeaway": "Nettleburrow should feel immediately identifiable through exact landmarks and materials, not through generic fantasy-city shorthand.",
+    "civilizationThesis": "Nettleburrow organizes power through Moon Phase Windows Sovereign Registry Court, public response through Terrace Granary Beacon, civic memory through Rodentfolk Burrow-Market of the Lantern Roots, and daily life through S1 Agricultural Terraces Civic Hall, S2 Underworld / Hidden Economy Civic Hall, S3 Civic Services Hall, S4 Slums / Informal Settlement Civic Hall, S5 Low Residential Civic Hall.",
+    "visualIdentity": "Rootwood, Fieldstone, Copper, Willow, Limewash, Subterranean, Undercity Foundation, Limestone Caverns, Beast Bonding, Ancestor Guidance, Hearth Blessing, and exact anchors including Moon Phase Windows Sovereign Registry Court, Terrace Granary Beacon, Rodentfolk Burrow-Market of the Lantern Roots, Tenement Court, Black Market Arcade, Scrap Market, Agricultural Terraces Civic Hall, Hanging Gardens Monument, Seed Hall Nook, Underworld / Hidden Economy Civic Hall.",
+    "culturalIdentity": "A small rodent-like beastfolk civic culture where architecture, public obligations, roads, landmark approaches, and everyday work must all read as part of the same civilization.",
+    "symbolicIdentity": "The city symbol system is built from exact names and visible functions: Rodentfolk Burrow-Market of the Lantern Roots, Terrace Granary Beacon, Moon Phase Windows Sovereign Registry Court, and section anchors such as Agricultural Terraces Civic Hall, Underworld / Hidden Economy Civic Hall, Civic Services Hall, Slums / Informal Settlement Civic Hall, Low Residential Civic Hall."
+  },
+  "canon": {
+    "canonLocks": [
+      "Nettleburrow uses city code NET.",
+      "The Wonder is Rodentfolk Burrow-Market of the Lantern Roots.",
+      "The Beacon is Terrace Granary Beacon.",
+      "The Seat of Power is Moon Phase Windows Sovereign Registry Court and occupies District 13.",
+      "The city uses five sections with five tactical district slots per section.",
+      "The source-backed section spine is: S1 Agricultural Terraces Civic Hall, S2 Underworld / Hidden Economy Civic Hall, S3 Civic Services Hall, S4 Slums / Informal Settlement Civic Hall, S5 Low Residential Civic Hall.",
+      "Preserve exact anchor name: Moon Phase Windows Sovereign Registry Court.",
+      "Preserve exact anchor name: Terrace Granary Beacon.",
+      "Preserve exact anchor name: Rodentfolk Burrow-Market of the Lantern Roots.",
+      "Preserve exact anchor name: Tenement Court.",
+      "Preserve exact anchor name: Black Market Arcade.",
+      "Preserve exact anchor name: Scrap Market.",
+      "Preserve exact anchor name: Agricultural Terraces Civic Hall.",
+      "Preserve exact anchor name: Hanging Gardens Monument.",
+      "Preserve exact anchor name: Seed Hall Nook.",
+      "Preserve exact anchor name: Underworld / Hidden Economy Civic Hall.",
+      "Preserve exact anchor name: Mist Veils Monument.",
+      "Preserve exact anchor name: Understreet Vault Nook.",
+      "Preserve exact anchor name: Civic Services Hall.",
+      "Preserve exact anchor name: Relief Hall.",
+      "Preserve exact anchor name: Civic Services Lantern Monument.",
+      "Preserve exact anchor name: Notice Plaza Nook.",
+      "Preserve exact anchor name: Slums / Informal Settlement Civic Hall.",
+      "Preserve exact anchor name: Slums Informal Settlement Lantern Monument.",
+      "Preserve exact anchor name: Patched Tenement Nook.",
+      "Preserve exact anchor name: Low Residential Civic Hall.",
+      "Preserve exact anchor name: Low Residential Lantern Monument.",
+      "Preserve exact anchor name: Laundry Well Nook."
+    ],
+    "provisionalCanon": [],
+    "rejectedReads": [
+      "Do not treat Nettleburrow as a generic fantasy settlement with renamed landmarks.",
+      "Do not collapse the five-section board into a single mood or single district.",
+      "Do not replace exact anchor names with generic summaries.",
+      "Do not invent missing street-section landmarks when a street source is absent."
+    ],
+    "cautionFlags": [
+      "Keep every named Wonder, Beacon, Seat, section civic hall, major landmark, monument, and minor nook exact when present in sidecars.",
+      "If an image appears to deviate from a sidecar, preserve the exact name but avoid overclaiming visual details not supported by the source package.",
+      "Every district asset should remain usable for narrative scenes, tactical board dioramas, and city map backgrounds."
+    ]
+  },
+  "environment": {
+    "terrain": [
+      "Subterranean",
+      "Undercity Foundation",
+      "Limestone Caverns"
+    ],
+    "water": [
+      "dry city ground"
+    ],
+    "vegetation": [
+      "courtyard trees",
+      "balcony planters",
+      "public greenery where visible",
+      "source-backed local vegetation only"
+    ],
+    "climateLighting": [
+      "Beast Bonding",
+      "Ancestor Guidance",
+      "Hearth Blessing",
+      "daylight",
+      "golden hour",
+      "lantern light",
+      "civic beacon glow"
+    ],
+    "environmentalLogic": "The environment should make Nettleburrow's exact civic anchors plausible at street scale: terrain routes people toward section landmarks, lighting clarifies public authority, and water or landscape features remain source-backed rather than decorative filler."
+  },
+  "architecture": {
+    "materials": [
+      "Rootwood",
+      "Fieldstone",
+      "Copper",
+      "Willow",
+      "Limewash"
+    ],
+    "forms": [
+      "Moon Phase Windows Sovereign Registry Court",
+      "Terrace Granary Beacon",
+      "Rodentfolk Burrow-Market of the Lantern Roots",
+      "Tenement Court",
+      "Black Market Arcade",
+      "Scrap Market",
+      "Agricultural Terraces Civic Hall",
+      "Hanging Gardens Monument",
+      "Seed Hall Nook",
+      "Underworld / Hidden Economy Civic Hall",
+      "Mist Veils Monument",
+      "Understreet Vault Nook",
+      "Civic Services Hall",
+      "Relief Hall",
+      "Civic Services Lantern Monument",
+      "Notice Plaza Nook",
+      "Slums / Informal Settlement Civic Hall",
+      "Slums Informal Settlement Lantern Monument",
+      "Patched Tenement Nook",
+      "Low Residential Civic Hall",
+      "Low Residential Lantern Monument",
+      "Laundry Well Nook",
+      "section civic halls",
+      "major landmark approaches",
+      "monument frontages",
+      "minor landmark nooks",
+      "district roads and plazas",
+      "D13 authority complex"
+    ],
+    "skyline": [
+      "Rodentfolk Burrow-Market of the Lantern Roots",
+      "Moon Phase Windows Sovereign Registry Court",
+      "Terrace Granary Beacon",
+      "Tenement Court",
+      "Black Market Arcade",
+      "Scrap Market",
+      "Agricultural Terraces Civic Hall",
+      "Hanging Gardens Monument",
+      "Seed Hall Nook"
+    ],
+    "lighting": [
+      "Beast Bonding",
+      "Ancestor Guidance",
+      "Hearth Blessing",
+      "beacon-state light",
+      "lantern-lit civic paths",
+      "street-level shop and housing light"
+    ],
+    "infrastructure": [
+      "Agricultural Terraces Civic Hall",
+      "Underworld / Hidden Economy Civic Hall",
+      "Civic Services Hall",
+      "Slums / Informal Settlement Civic Hall",
+      "Low Residential Civic Hall",
+      "roads between district slots",
+      "public thresholds",
+      "plaza edges",
+      "records, permits, markets, services, or rituals implied by anchors"
+    ],
+    "motifs": [
+      "Moon",
+      "Phase",
+      "Windows",
+      "Sovereign",
+      "Registry",
+      "Court",
+      "Terrace",
+      "Granary",
+      "Beacon",
+      "Rodentfolk",
+      "Burrow-Market",
+      "Lantern",
+      "Roots",
+      "Tenement",
+      "Black"
+    ],
+    "colorLanguage": [
+      "source-backed material colors",
+      "civic blue signal accents",
+      "local textile, stone, metal, vegetation, or water colors from the image package"
+    ],
+    "textureLanguage": [
+      "Rootwood",
+      "Fieldstone",
+      "Copper",
+      "Willow",
+      "Limewash",
+      "worn pedestrian surfaces",
+      "worked civic ornament",
+      "weathered public thresholds",
+      "lived-in shop and housing details"
+    ]
+  },
+  "civilization": {
+    "people": "The population should read as small rodent-like beastfolk and city-specific: citizens occupy streets, shops, public thresholds, and landmark approaches as people who understand the local civic order.",
+    "occupations": [
+      "granary keepers",
+      "field workers",
+      "market sellers",
+      "stall keepers",
+      "district clerks",
+      "craft families",
+      "porters",
+      "maintenance workers",
+      "food sellers",
+      "messengers"
+    ],
+    "socialClasses": [
+      "D13 officials and court staff",
+      "section landmark custodians",
+      "guild and service families",
+      "shopkeepers and artisans",
+      "laborers, carriers, messengers, and maintenance crews",
+      "households tied to local district obligations"
+    ],
+    "governance": "Government is centered on Moon Phase Windows Sovereign Registry Court. Its authority should be visible through courts, records, public access routes, civic lamps, guards or attendants, and the way citizens respond to D13.",
+    "religion": "Religious or ritual life should only be emphasized where source anchors support it, especially names such as none explicitly dominant in the current anchors.",
+    "customs": [
+      "citizens orient public life around Agricultural Terraces Civic Hall in Section 1",
+      "citizens orient public life around Underworld / Hidden Economy Civic Hall in Section 2",
+      "citizens orient public life around Civic Services Hall in Section 3",
+      "citizens orient public life around Slums / Informal Settlement Civic Hall in Section 4",
+      "citizens orient public life around Low Residential Civic Hall in Section 5",
+      "beacon changes become public behavior, not background color",
+      "exact landmark names carry social memory and directions",
+      "civic errands happen visibly at thresholds, queues, ledgers, stalls, courts, or shrines"
+    ],
+    "bodyLanguage": [
+      "citizens pause at civic signals",
+      "workers move with practiced familiarity around district anchors",
+      "officials use thresholds and raised places to control attention",
+      "residents treat named landmarks as everyday orientation points"
+    ],
+    "speechPatterns": [
+      "directions use exact landmark names",
+      "public notices are tied to section anchors",
+      "local speech distinguishes civic authority, ordinary errands, and landmark obligations",
+      "people refer to D13 as the seat of power rather than a faction headquarters"
+    ]
+  },
+  "urbanLife": {
+    "streets": {
+      "appearance": "Streets should show Nettleburrow's exact anchor system at pedestrian scale: S1 Agricultural Terraces Civic Hall, S2 Underworld / Hidden Economy Civic Hall, S3 Civic Services Hall, S4 Slums / Informal Settlement Civic Hall, S5 Low Residential Civic Hall. Keep roads, plazas, stairs, thresholds, lamps, signs-without-readable-text, props, and civilians aligned to the source-backed materials and landmarks.",
+      "movement": "Movement should be readable for tactical-board assets: citizens pass between 25 district slots, section anchors, D13, service streets, and landmark approaches without visual clutter hiding the civic purpose.",
+      "sounds": [
+        "foot traffic",
+        "vendors and service calls",
+        "tools and carts",
+        "public notices",
+        "landmark-specific sounds from water, bells, animals, machines, or crowds when source-backed",
+        "beacon-state crowd reactions"
+      ],
+      "smells": [
+        "street food",
+        "worked material dust",
+        "lamp oil or smoke",
+        "vegetation or water where source-backed",
+        "worn stone, timber, metal, plaster, or fabric"
+      ],
+      "lighting": "Use the package's source-backed civic lighting, daylight/golden-hour reads, lanterns, and beacon glow. Lighting must help identify authority, safety, and landmark function.",
+      "weatherEffects": "Weather should reinforce the local terrain and materials without overwhelming the city identity or inventing unsupported climate extremes.",
+      "dayCycle": "Day scenes emphasize errands, trade, records, repairs, rituals, food, and section-level movement.",
+      "nightCycle": "Night scenes emphasize lantern routes, closed thresholds, guarded landmarks, quiet work, and beacon visibility."
+    },
+    "shops": {
+      "common": [
+        "food stalls",
+        "repair stalls",
+        "material vendors",
+        "ledger or permit desks",
+        "local craft counters",
+        "street services tied to section anchors"
+      ],
+      "uncommon": [
+        "specialist landmark caretakers",
+        "instrument makers",
+        "ritual suppliers",
+        "map or record copyists",
+        "district-specific guild services"
+      ],
+      "prestigious": [
+        "D13-facing legal or registry services",
+        "elite craft workshops",
+        "landmark commission houses",
+        "official suppliers for civic ceremonies"
+      ],
+      "exports": [
+        "local crafts",
+        "records or seals",
+        "finished materials",
+        "food goods",
+        "specialized tools or ritual goods as supported by anchors"
+      ],
+      "imports": [
+        "rare materials",
+        "dyes, oils, spices, timber, stone, metal, glass, or cloth as needed by the architecture",
+        "outside records and trade goods"
+      ],
+      "streetFood": [
+        "flatbread or local bread",
+        "stew or grilled skewers",
+        "fruit or preserved food",
+        "tea or civic-square drinks",
+        "portable worker meals"
+      ],
+      "services": [
+        "directions by landmark",
+        "message running",
+        "permit help",
+        "repairs",
+        "food service",
+        "transport or porterage",
+        "public notice posting"
+      ]
+    },
+    "housing": {
+      "wealthy": "Prestige housing clusters near Moon Phase Windows Sovereign Registry Court, high terraces, or landmark-facing routes, using the best source-backed materials and controlled views of civic space.",
+      "middle": "Shop-over-house units, courtyard homes, guild-adjacent apartments, and family rooms near section anchors.",
+      "poor": "Smaller back-street rooms, work-adjacent housing, shared courtyards, service alleys, patched materials, and dense but still city-specific lived-in detail."
+    }
+  },
   "districts": [
-    {"sectionNumber": 1, "name": "Agricultural Terraces", "civicPurpose": "Food security, seed preservation, and Beacon readiness.", "visualIdentity": "Agricultural Terraces Civic Hall, Terrace Granary Beacon, Hanging Gardens Monument, Seed Hall Nook.", "emotionalIdentity": "urgent, practical, guarded", "gameplayAssetNeeds": ["Agricultural Terraces Civic Hall", "Terrace Granary Beacon", "Hanging Gardens Monument", "Seed Hall Nook"], "narrativeUse": ["food security", "grain panic", "seed record clue"], "landmark": "Terrace Granary Beacon", "minorLandmarks": ["Hanging Gardens Monument", "Seed Hall Nook"]},
-    {"sectionNumber": 2, "name": "Underworld / Hidden Economy", "civicPurpose": "Shadow trade, hidden storage, favors, contraband, and unofficial routes.", "visualIdentity": "Underworld / Hidden Economy Civic Hall, Black Market Arcade, Mist Veils Monument, Understreet Vault Nook.", "emotionalIdentity": "coded, necessary, tense", "gameplayAssetNeeds": ["Underworld / Hidden Economy Civic Hall", "Black Market Arcade", "Mist Veils Monument", "Understreet Vault Nook"], "narrativeUse": ["hidden commerce", "contraband", "favor network"], "landmark": "Black Market Arcade", "minorLandmarks": ["Mist Veils Monument", "Understreet Vault Nook"]},
-    {"sectionNumber": 3, "name": "Civic Services", "civicPurpose": "Relief infrastructure, notices, public aid, and records.", "visualIdentity": "Civic Services Hall, Relief Hall, Civic Services Lantern Monument, Notice Plaza Nook.", "emotionalIdentity": "orderly, anxious, compassionate", "gameplayAssetNeeds": ["Civic Services Hall", "Relief Hall", "Civic Services Lantern Monument", "Notice Plaza Nook"], "narrativeUse": ["relief ticket", "missing-person notice", "aid dispute"], "landmark": "Relief Hall", "minorLandmarks": ["Civic Services Lantern Monument", "Notice Plaza Nook"]},
-    {"sectionNumber": 4, "name": "Slums / Informal Settlement", "civicPurpose": "Patchwork survival, repair culture, and visible poverty outside clean registry order.", "visualIdentity": "Slums / Informal Settlement Civic Hall, Scrap Market, Slums Informal Settlement Lantern Monument, Patched Tenement Nook.", "emotionalIdentity": "crowded, ingenious, stressed", "gameplayAssetNeeds": ["Slums / Informal Settlement Civic Hall", "Scrap Market", "Slums Informal Settlement Lantern Monument", "Patched Tenement Nook"], "narrativeUse": ["repair clue", "poverty pressure", "overlooked evidence"], "landmark": "Scrap Market", "minorLandmarks": ["Slums Informal Settlement Lantern Monument", "Patched Tenement Nook"]},
-    {"sectionNumber": 5, "name": "Low Residential", "civicPurpose": "Crowded domestic life, laundry, shared water, gossip, and practical social networks.", "visualIdentity": "Low Residential Civic Hall, Tenement Court, Low Residential Lantern Monument, Laundry Well Nook.", "emotionalIdentity": "domestic, compressed, observant", "gameplayAssetNeeds": ["Low Residential Civic Hall", "Tenement Court", "Low Residential Lantern Monument", "Laundry Well Nook"], "narrativeUse": ["gossip", "domestic stakes", "household route clue"], "landmark": "Tenement Court", "minorLandmarks": ["Low Residential Lantern Monument", "Laundry Well Nook"]}
+    {
+      "districtNumber": 1,
+      "districtId": "D01",
+      "sectionNumber": 1,
+      "name": "D01 — Agricultural Terraces Civic Hall Civic-Anchor Precinct",
+      "civicPurpose": "This district turns Section 1's source-backed anchor set into a board-scale civic space: Agricultural Terraces Civic Hall, Terrace Granary Beacon, Hanging Gardens Monument, Seed Hall Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Nettleburrow.",
+      "visualIdentity": "Use Agricultural Terraces Civic Hall as the main read. Keep exact source anchors visible where applicable: Agricultural Terraces Civic Hall, Terrace Granary Beacon, Hanging Gardens Monument, Seed Hall Nook. The district should share Nettleburrow's small rodent-like beastfolk identity, Rootwood, Fieldstone, Copper, Willow, and Subterranean, Undercity Foundation, Limestone Caverns without becoming generic.",
+      "emotionalIdentity": "Locally grounded, with Nettleburrow's larger mood shaped by Rodentfolk Burrow-Market of the Lantern Roots, Terrace Granary Beacon, and Moon Phase Windows Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Agricultural Terraces Civic Hall",
+        "Terrace Granary Beacon",
+        "Hanging Gardens Monument",
+        "Seed Hall Nook",
+        "Section 1 pedestrian-scale props",
+        "Nettleburrow civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Agricultural Terraces Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Agricultural Terraces Civic Hall",
+      "minorLandmarks": [
+        "Terrace Granary Beacon",
+        "Hanging Gardens Monument",
+        "Seed Hall Nook"
+      ]
+    },
+    {
+      "districtNumber": 2,
+      "districtId": "D02",
+      "sectionNumber": 1,
+      "name": "D02 — Terrace Granary Beacon Landmark Approach",
+      "civicPurpose": "This district turns Section 1's source-backed anchor set into a board-scale civic space: Agricultural Terraces Civic Hall, Terrace Granary Beacon, Hanging Gardens Monument, Seed Hall Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Nettleburrow.",
+      "visualIdentity": "Use Terrace Granary Beacon as the main read. Keep exact source anchors visible where applicable: Agricultural Terraces Civic Hall, Terrace Granary Beacon, Hanging Gardens Monument, Seed Hall Nook. The district should share Nettleburrow's small rodent-like beastfolk identity, Rootwood, Fieldstone, Copper, Willow, and Subterranean, Undercity Foundation, Limestone Caverns without becoming generic.",
+      "emotionalIdentity": "Public-facing, with Nettleburrow's larger mood shaped by Rodentfolk Burrow-Market of the Lantern Roots, Terrace Granary Beacon, and Moon Phase Windows Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Terrace Granary Beacon",
+        "Agricultural Terraces Civic Hall",
+        "Hanging Gardens Monument",
+        "Seed Hall Nook",
+        "Section 1 pedestrian-scale props",
+        "Nettleburrow civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Terrace Granary Beacon",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "Conjunction response, rumor spread, or authority pressure"
+      ],
+      "landmark": "Terrace Granary Beacon",
+      "minorLandmarks": [
+        "Agricultural Terraces Civic Hall",
+        "Hanging Gardens Monument",
+        "Seed Hall Nook"
+      ]
+    },
+    {
+      "districtNumber": 3,
+      "districtId": "D03",
+      "sectionNumber": 1,
+      "name": "D03 — Hanging Gardens Monument Monument Frontage",
+      "civicPurpose": "This district turns Section 1's source-backed anchor set into a board-scale civic space: Agricultural Terraces Civic Hall, Terrace Granary Beacon, Hanging Gardens Monument, Seed Hall Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Nettleburrow.",
+      "visualIdentity": "Use Hanging Gardens Monument as the main read. Keep exact source anchors visible where applicable: Agricultural Terraces Civic Hall, Terrace Granary Beacon, Hanging Gardens Monument, Seed Hall Nook. The district should share Nettleburrow's small rodent-like beastfolk identity, Rootwood, Fieldstone, Copper, Willow, and Subterranean, Undercity Foundation, Limestone Caverns without becoming generic.",
+      "emotionalIdentity": "Memorial or symbolic, with Nettleburrow's larger mood shaped by Rodentfolk Burrow-Market of the Lantern Roots, Terrace Granary Beacon, and Moon Phase Windows Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Hanging Gardens Monument",
+        "Agricultural Terraces Civic Hall",
+        "Terrace Granary Beacon",
+        "Seed Hall Nook",
+        "Section 1 pedestrian-scale props",
+        "Nettleburrow civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Hanging Gardens Monument",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Hanging Gardens Monument",
+      "minorLandmarks": [
+        "Agricultural Terraces Civic Hall",
+        "Terrace Granary Beacon",
+        "Seed Hall Nook"
+      ]
+    },
+    {
+      "districtNumber": 6,
+      "districtId": "D06",
+      "sectionNumber": 1,
+      "name": "D06 — Seed Hall Nook Neighborhood Nook",
+      "civicPurpose": "This district turns Section 1's source-backed anchor set into a board-scale civic space: Agricultural Terraces Civic Hall, Terrace Granary Beacon, Hanging Gardens Monument, Seed Hall Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Nettleburrow.",
+      "visualIdentity": "Use Seed Hall Nook as the main read. Keep exact source anchors visible where applicable: Agricultural Terraces Civic Hall, Terrace Granary Beacon, Hanging Gardens Monument, Seed Hall Nook. The district should share Nettleburrow's small rodent-like beastfolk identity, Rootwood, Fieldstone, Copper, Willow, and Subterranean, Undercity Foundation, Limestone Caverns without becoming generic.",
+      "emotionalIdentity": "Intimate and lived-in, with Nettleburrow's larger mood shaped by Rodentfolk Burrow-Market of the Lantern Roots, Terrace Granary Beacon, and Moon Phase Windows Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Seed Hall Nook",
+        "Agricultural Terraces Civic Hall",
+        "Terrace Granary Beacon",
+        "Hanging Gardens Monument",
+        "Section 1 pedestrian-scale props",
+        "Nettleburrow civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Seed Hall Nook",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Seed Hall Nook",
+      "minorLandmarks": [
+        "Agricultural Terraces Civic Hall",
+        "Terrace Granary Beacon",
+        "Hanging Gardens Monument"
+      ]
+    },
+    {
+      "districtNumber": 7,
+      "districtId": "D07",
+      "sectionNumber": 1,
+      "name": "D07 — Agricultural Terraces Civic Hall Supporting Streets",
+      "civicPurpose": "This district turns Section 1's source-backed anchor set into a board-scale civic space: Agricultural Terraces Civic Hall, Terrace Granary Beacon, Hanging Gardens Monument, Seed Hall Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Nettleburrow.",
+      "visualIdentity": "Use Agricultural Terraces Civic Hall as the main read. Keep exact source anchors visible where applicable: Agricultural Terraces Civic Hall, Terrace Granary Beacon, Hanging Gardens Monument, Seed Hall Nook. The district should share Nettleburrow's small rodent-like beastfolk identity, Rootwood, Fieldstone, Copper, Willow, and Subterranean, Undercity Foundation, Limestone Caverns without becoming generic.",
+      "emotionalIdentity": "Connective and practical, with Nettleburrow's larger mood shaped by Rodentfolk Burrow-Market of the Lantern Roots, Terrace Granary Beacon, and Moon Phase Windows Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Agricultural Terraces Civic Hall",
+        "Terrace Granary Beacon",
+        "Hanging Gardens Monument",
+        "Seed Hall Nook",
+        "Section 1 pedestrian-scale props",
+        "Nettleburrow civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Agricultural Terraces Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Agricultural Terraces Civic Hall",
+      "minorLandmarks": [
+        "Terrace Granary Beacon",
+        "Hanging Gardens Monument",
+        "Seed Hall Nook"
+      ]
+    },
+    {
+      "districtNumber": 4,
+      "districtId": "D04",
+      "sectionNumber": 2,
+      "name": "D04 — Underworld / Hidden Economy Civic Hall Civic-Anchor Precinct",
+      "civicPurpose": "This district turns Section 2's source-backed anchor set into a board-scale civic space: Underworld / Hidden Economy Civic Hall, Black Market Arcade, Mist Veils Monument, Understreet Vault Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Nettleburrow.",
+      "visualIdentity": "Use Underworld / Hidden Economy Civic Hall as the main read. Keep exact source anchors visible where applicable: Underworld / Hidden Economy Civic Hall, Black Market Arcade, Mist Veils Monument, Understreet Vault Nook. The district should share Nettleburrow's small rodent-like beastfolk identity, Rootwood, Fieldstone, Copper, Willow, and Subterranean, Undercity Foundation, Limestone Caverns without becoming generic.",
+      "emotionalIdentity": "Locally grounded, with Nettleburrow's larger mood shaped by Rodentfolk Burrow-Market of the Lantern Roots, Terrace Granary Beacon, and Moon Phase Windows Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Underworld / Hidden Economy Civic Hall",
+        "Black Market Arcade",
+        "Mist Veils Monument",
+        "Understreet Vault Nook",
+        "Section 2 pedestrian-scale props",
+        "Nettleburrow civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Underworld / Hidden Economy Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Underworld / Hidden Economy Civic Hall",
+      "minorLandmarks": [
+        "Black Market Arcade",
+        "Mist Veils Monument",
+        "Understreet Vault Nook"
+      ]
+    },
+    {
+      "districtNumber": 5,
+      "districtId": "D05",
+      "sectionNumber": 2,
+      "name": "D05 — Black Market Arcade Landmark Approach",
+      "civicPurpose": "This district turns Section 2's source-backed anchor set into a board-scale civic space: Underworld / Hidden Economy Civic Hall, Black Market Arcade, Mist Veils Monument, Understreet Vault Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Nettleburrow.",
+      "visualIdentity": "Use Black Market Arcade as the main read. Keep exact source anchors visible where applicable: Underworld / Hidden Economy Civic Hall, Black Market Arcade, Mist Veils Monument, Understreet Vault Nook. The district should share Nettleburrow's small rodent-like beastfolk identity, Rootwood, Fieldstone, Copper, Willow, and Subterranean, Undercity Foundation, Limestone Caverns without becoming generic.",
+      "emotionalIdentity": "Public-facing, with Nettleburrow's larger mood shaped by Rodentfolk Burrow-Market of the Lantern Roots, Terrace Granary Beacon, and Moon Phase Windows Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Black Market Arcade",
+        "Underworld / Hidden Economy Civic Hall",
+        "Mist Veils Monument",
+        "Understreet Vault Nook",
+        "Section 2 pedestrian-scale props",
+        "Nettleburrow civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Black Market Arcade",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Black Market Arcade",
+      "minorLandmarks": [
+        "Underworld / Hidden Economy Civic Hall",
+        "Mist Veils Monument",
+        "Understreet Vault Nook"
+      ]
+    },
+    {
+      "districtNumber": 9,
+      "districtId": "D09",
+      "sectionNumber": 2,
+      "name": "D09 — Mist Veils Monument Monument Frontage",
+      "civicPurpose": "This district turns Section 2's source-backed anchor set into a board-scale civic space: Underworld / Hidden Economy Civic Hall, Black Market Arcade, Mist Veils Monument, Understreet Vault Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Nettleburrow.",
+      "visualIdentity": "Use Mist Veils Monument as the main read. Keep exact source anchors visible where applicable: Underworld / Hidden Economy Civic Hall, Black Market Arcade, Mist Veils Monument, Understreet Vault Nook. The district should share Nettleburrow's small rodent-like beastfolk identity, Rootwood, Fieldstone, Copper, Willow, and Subterranean, Undercity Foundation, Limestone Caverns without becoming generic.",
+      "emotionalIdentity": "Memorial or symbolic, with Nettleburrow's larger mood shaped by Rodentfolk Burrow-Market of the Lantern Roots, Terrace Granary Beacon, and Moon Phase Windows Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Mist Veils Monument",
+        "Underworld / Hidden Economy Civic Hall",
+        "Black Market Arcade",
+        "Understreet Vault Nook",
+        "Section 2 pedestrian-scale props",
+        "Nettleburrow civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Mist Veils Monument",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Mist Veils Monument",
+      "minorLandmarks": [
+        "Underworld / Hidden Economy Civic Hall",
+        "Black Market Arcade",
+        "Understreet Vault Nook"
+      ]
+    },
+    {
+      "districtNumber": 10,
+      "districtId": "D10",
+      "sectionNumber": 2,
+      "name": "D10 — Understreet Vault Nook Neighborhood Nook",
+      "civicPurpose": "This district turns Section 2's source-backed anchor set into a board-scale civic space: Underworld / Hidden Economy Civic Hall, Black Market Arcade, Mist Veils Monument, Understreet Vault Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Nettleburrow.",
+      "visualIdentity": "Use Understreet Vault Nook as the main read. Keep exact source anchors visible where applicable: Underworld / Hidden Economy Civic Hall, Black Market Arcade, Mist Veils Monument, Understreet Vault Nook. The district should share Nettleburrow's small rodent-like beastfolk identity, Rootwood, Fieldstone, Copper, Willow, and Subterranean, Undercity Foundation, Limestone Caverns without becoming generic.",
+      "emotionalIdentity": "Intimate and lived-in, with Nettleburrow's larger mood shaped by Rodentfolk Burrow-Market of the Lantern Roots, Terrace Granary Beacon, and Moon Phase Windows Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Understreet Vault Nook",
+        "Underworld / Hidden Economy Civic Hall",
+        "Black Market Arcade",
+        "Mist Veils Monument",
+        "Section 2 pedestrian-scale props",
+        "Nettleburrow civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Understreet Vault Nook",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Understreet Vault Nook",
+      "minorLandmarks": [
+        "Underworld / Hidden Economy Civic Hall",
+        "Black Market Arcade",
+        "Mist Veils Monument"
+      ]
+    },
+    {
+      "districtNumber": 15,
+      "districtId": "D15",
+      "sectionNumber": 2,
+      "name": "D15 — Underworld / Hidden Economy Civic Hall Supporting Streets",
+      "civicPurpose": "This district turns Section 2's source-backed anchor set into a board-scale civic space: Underworld / Hidden Economy Civic Hall, Black Market Arcade, Mist Veils Monument, Understreet Vault Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Nettleburrow.",
+      "visualIdentity": "Use Underworld / Hidden Economy Civic Hall as the main read. Keep exact source anchors visible where applicable: Underworld / Hidden Economy Civic Hall, Black Market Arcade, Mist Veils Monument, Understreet Vault Nook. The district should share Nettleburrow's small rodent-like beastfolk identity, Rootwood, Fieldstone, Copper, Willow, and Subterranean, Undercity Foundation, Limestone Caverns without becoming generic.",
+      "emotionalIdentity": "Connective and practical, with Nettleburrow's larger mood shaped by Rodentfolk Burrow-Market of the Lantern Roots, Terrace Granary Beacon, and Moon Phase Windows Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Underworld / Hidden Economy Civic Hall",
+        "Black Market Arcade",
+        "Mist Veils Monument",
+        "Understreet Vault Nook",
+        "Section 2 pedestrian-scale props",
+        "Nettleburrow civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Underworld / Hidden Economy Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Underworld / Hidden Economy Civic Hall",
+      "minorLandmarks": [
+        "Black Market Arcade",
+        "Mist Veils Monument",
+        "Understreet Vault Nook"
+      ]
+    },
+    {
+      "districtNumber": 8,
+      "districtId": "D08",
+      "sectionNumber": 3,
+      "name": "D08 — Civic Services Hall Civic-Anchor Precinct",
+      "civicPurpose": "This district turns Section 3's source-backed anchor set into a board-scale civic space: Civic Services Hall, Relief Hall, Civic Services Lantern Monument, Notice Plaza Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Nettleburrow.",
+      "visualIdentity": "Use Civic Services Hall as the main read. Keep exact source anchors visible where applicable: Civic Services Hall, Relief Hall, Civic Services Lantern Monument, Notice Plaza Nook. The district should share Nettleburrow's small rodent-like beastfolk identity, Rootwood, Fieldstone, Copper, Willow, and Subterranean, Undercity Foundation, Limestone Caverns without becoming generic.",
+      "emotionalIdentity": "Locally grounded, with Nettleburrow's larger mood shaped by Rodentfolk Burrow-Market of the Lantern Roots, Terrace Granary Beacon, and Moon Phase Windows Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Civic Services Hall",
+        "Relief Hall",
+        "Civic Services Lantern Monument",
+        "Notice Plaza Nook",
+        "Section 3 pedestrian-scale props",
+        "Nettleburrow civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Civic Services Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Civic Services Hall",
+      "minorLandmarks": [
+        "Relief Hall",
+        "Civic Services Lantern Monument",
+        "Notice Plaza Nook"
+      ]
+    },
+    {
+      "districtNumber": 12,
+      "districtId": "D12",
+      "sectionNumber": 3,
+      "name": "D12 — Relief Hall Landmark Approach",
+      "civicPurpose": "This district turns Section 3's source-backed anchor set into a board-scale civic space: Civic Services Hall, Relief Hall, Civic Services Lantern Monument, Notice Plaza Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Nettleburrow.",
+      "visualIdentity": "Use Relief Hall as the main read. Keep exact source anchors visible where applicable: Civic Services Hall, Relief Hall, Civic Services Lantern Monument, Notice Plaza Nook. The district should share Nettleburrow's small rodent-like beastfolk identity, Rootwood, Fieldstone, Copper, Willow, and Subterranean, Undercity Foundation, Limestone Caverns without becoming generic.",
+      "emotionalIdentity": "Public-facing, with Nettleburrow's larger mood shaped by Rodentfolk Burrow-Market of the Lantern Roots, Terrace Granary Beacon, and Moon Phase Windows Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Relief Hall",
+        "Civic Services Hall",
+        "Civic Services Lantern Monument",
+        "Notice Plaza Nook",
+        "Section 3 pedestrian-scale props",
+        "Nettleburrow civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Relief Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Relief Hall",
+      "minorLandmarks": [
+        "Civic Services Hall",
+        "Civic Services Lantern Monument",
+        "Notice Plaza Nook"
+      ]
+    },
+    {
+      "districtNumber": 13,
+      "districtId": "D13",
+      "sectionNumber": 3,
+      "name": "D13 — Moon Phase Windows Sovereign Registry Court Seat of Power District",
+      "civicPurpose": "This district turns Section 3's source-backed anchor set into a board-scale civic space: Civic Services Hall, Relief Hall, Civic Services Lantern Monument, Notice Plaza Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Nettleburrow.",
+      "visualIdentity": "Use Moon Phase Windows Sovereign Registry Court as the main read. Keep exact source anchors visible where applicable: Civic Services Hall, Relief Hall, Civic Services Lantern Monument, Notice Plaza Nook. The district should share Nettleburrow's small rodent-like beastfolk identity, Rootwood, Fieldstone, Copper, Willow, and Subterranean, Undercity Foundation, Limestone Caverns without becoming generic.",
+      "emotionalIdentity": "Memorial or symbolic, with Nettleburrow's larger mood shaped by Rodentfolk Burrow-Market of the Lantern Roots, Terrace Granary Beacon, and Moon Phase Windows Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Moon Phase Windows Sovereign Registry Court",
+        "Civic Services Hall",
+        "Relief Hall",
+        "Civic Services Lantern Monument",
+        "Notice Plaza Nook",
+        "Section 3 pedestrian-scale props",
+        "Nettleburrow civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Moon Phase Windows Sovereign Registry Court",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "Conjunction response, rumor spread, or authority pressure"
+      ],
+      "landmark": "Moon Phase Windows Sovereign Registry Court",
+      "minorLandmarks": [
+        "Civic Services Hall",
+        "Relief Hall",
+        "Civic Services Lantern Monument",
+        "Notice Plaza Nook"
+      ]
+    },
+    {
+      "districtNumber": 14,
+      "districtId": "D14",
+      "sectionNumber": 3,
+      "name": "D14 — Notice Plaza Nook Neighborhood Nook",
+      "civicPurpose": "This district turns Section 3's source-backed anchor set into a board-scale civic space: Civic Services Hall, Relief Hall, Civic Services Lantern Monument, Notice Plaza Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Nettleburrow.",
+      "visualIdentity": "Use Notice Plaza Nook as the main read. Keep exact source anchors visible where applicable: Civic Services Hall, Relief Hall, Civic Services Lantern Monument, Notice Plaza Nook. The district should share Nettleburrow's small rodent-like beastfolk identity, Rootwood, Fieldstone, Copper, Willow, and Subterranean, Undercity Foundation, Limestone Caverns without becoming generic.",
+      "emotionalIdentity": "Intimate and lived-in, with Nettleburrow's larger mood shaped by Rodentfolk Burrow-Market of the Lantern Roots, Terrace Granary Beacon, and Moon Phase Windows Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Notice Plaza Nook",
+        "Civic Services Hall",
+        "Relief Hall",
+        "Civic Services Lantern Monument",
+        "Section 3 pedestrian-scale props",
+        "Nettleburrow civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Notice Plaza Nook",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Notice Plaza Nook",
+      "minorLandmarks": [
+        "Civic Services Hall",
+        "Relief Hall",
+        "Civic Services Lantern Monument"
+      ]
+    },
+    {
+      "districtNumber": 18,
+      "districtId": "D18",
+      "sectionNumber": 3,
+      "name": "D18 — Civic Services Hall Supporting Streets",
+      "civicPurpose": "This district turns Section 3's source-backed anchor set into a board-scale civic space: Civic Services Hall, Relief Hall, Civic Services Lantern Monument, Notice Plaza Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Nettleburrow.",
+      "visualIdentity": "Use Civic Services Hall as the main read. Keep exact source anchors visible where applicable: Civic Services Hall, Relief Hall, Civic Services Lantern Monument, Notice Plaza Nook. The district should share Nettleburrow's small rodent-like beastfolk identity, Rootwood, Fieldstone, Copper, Willow, and Subterranean, Undercity Foundation, Limestone Caverns without becoming generic.",
+      "emotionalIdentity": "Connective and practical, with Nettleburrow's larger mood shaped by Rodentfolk Burrow-Market of the Lantern Roots, Terrace Granary Beacon, and Moon Phase Windows Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Civic Services Hall",
+        "Relief Hall",
+        "Civic Services Lantern Monument",
+        "Notice Plaza Nook",
+        "Section 3 pedestrian-scale props",
+        "Nettleburrow civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Civic Services Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Civic Services Hall",
+      "minorLandmarks": [
+        "Relief Hall",
+        "Civic Services Lantern Monument",
+        "Notice Plaza Nook"
+      ]
+    },
+    {
+      "districtNumber": 11,
+      "districtId": "D11",
+      "sectionNumber": 4,
+      "name": "D11 — Slums / Informal Settlement Civic Hall Civic-Anchor Precinct",
+      "civicPurpose": "This district turns Section 4's source-backed anchor set into a board-scale civic space: Slums / Informal Settlement Civic Hall, Scrap Market, Slums Informal Settlement Lantern Monument, Patched Tenement Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Nettleburrow.",
+      "visualIdentity": "Use Slums / Informal Settlement Civic Hall as the main read. Keep exact source anchors visible where applicable: Slums / Informal Settlement Civic Hall, Scrap Market, Slums Informal Settlement Lantern Monument, Patched Tenement Nook. The district should share Nettleburrow's small rodent-like beastfolk identity, Rootwood, Fieldstone, Copper, Willow, and Subterranean, Undercity Foundation, Limestone Caverns without becoming generic.",
+      "emotionalIdentity": "Locally grounded, with Nettleburrow's larger mood shaped by Rodentfolk Burrow-Market of the Lantern Roots, Terrace Granary Beacon, and Moon Phase Windows Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Slums / Informal Settlement Civic Hall",
+        "Scrap Market",
+        "Slums Informal Settlement Lantern Monument",
+        "Patched Tenement Nook",
+        "Section 4 pedestrian-scale props",
+        "Nettleburrow civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Slums / Informal Settlement Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Slums / Informal Settlement Civic Hall",
+      "minorLandmarks": [
+        "Scrap Market",
+        "Slums Informal Settlement Lantern Monument",
+        "Patched Tenement Nook"
+      ]
+    },
+    {
+      "districtNumber": 16,
+      "districtId": "D16",
+      "sectionNumber": 4,
+      "name": "D16 — Scrap Market Landmark Approach",
+      "civicPurpose": "This district turns Section 4's source-backed anchor set into a board-scale civic space: Slums / Informal Settlement Civic Hall, Scrap Market, Slums Informal Settlement Lantern Monument, Patched Tenement Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Nettleburrow.",
+      "visualIdentity": "Use Scrap Market as the main read. Keep exact source anchors visible where applicable: Slums / Informal Settlement Civic Hall, Scrap Market, Slums Informal Settlement Lantern Monument, Patched Tenement Nook. The district should share Nettleburrow's small rodent-like beastfolk identity, Rootwood, Fieldstone, Copper, Willow, and Subterranean, Undercity Foundation, Limestone Caverns without becoming generic.",
+      "emotionalIdentity": "Public-facing, with Nettleburrow's larger mood shaped by Rodentfolk Burrow-Market of the Lantern Roots, Terrace Granary Beacon, and Moon Phase Windows Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Scrap Market",
+        "Slums / Informal Settlement Civic Hall",
+        "Slums Informal Settlement Lantern Monument",
+        "Patched Tenement Nook",
+        "Section 4 pedestrian-scale props",
+        "Nettleburrow civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Scrap Market",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Scrap Market",
+      "minorLandmarks": [
+        "Slums / Informal Settlement Civic Hall",
+        "Slums Informal Settlement Lantern Monument",
+        "Patched Tenement Nook"
+      ]
+    },
+    {
+      "districtNumber": 17,
+      "districtId": "D17",
+      "sectionNumber": 4,
+      "name": "D17 — Slums Informal Settlement Lantern Monument Monument Frontage",
+      "civicPurpose": "This district turns Section 4's source-backed anchor set into a board-scale civic space: Slums / Informal Settlement Civic Hall, Scrap Market, Slums Informal Settlement Lantern Monument, Patched Tenement Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Nettleburrow.",
+      "visualIdentity": "Use Slums Informal Settlement Lantern Monument as the main read. Keep exact source anchors visible where applicable: Slums / Informal Settlement Civic Hall, Scrap Market, Slums Informal Settlement Lantern Monument, Patched Tenement Nook. The district should share Nettleburrow's small rodent-like beastfolk identity, Rootwood, Fieldstone, Copper, Willow, and Subterranean, Undercity Foundation, Limestone Caverns without becoming generic.",
+      "emotionalIdentity": "Memorial or symbolic, with Nettleburrow's larger mood shaped by Rodentfolk Burrow-Market of the Lantern Roots, Terrace Granary Beacon, and Moon Phase Windows Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Slums Informal Settlement Lantern Monument",
+        "Slums / Informal Settlement Civic Hall",
+        "Scrap Market",
+        "Patched Tenement Nook",
+        "Section 4 pedestrian-scale props",
+        "Nettleburrow civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Slums Informal Settlement Lantern Monument",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Slums Informal Settlement Lantern Monument",
+      "minorLandmarks": [
+        "Slums / Informal Settlement Civic Hall",
+        "Scrap Market",
+        "Patched Tenement Nook"
+      ]
+    },
+    {
+      "districtNumber": 21,
+      "districtId": "D21",
+      "sectionNumber": 4,
+      "name": "D21 — Patched Tenement Nook Neighborhood Nook",
+      "civicPurpose": "This district turns Section 4's source-backed anchor set into a board-scale civic space: Slums / Informal Settlement Civic Hall, Scrap Market, Slums Informal Settlement Lantern Monument, Patched Tenement Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Nettleburrow.",
+      "visualIdentity": "Use Patched Tenement Nook as the main read. Keep exact source anchors visible where applicable: Slums / Informal Settlement Civic Hall, Scrap Market, Slums Informal Settlement Lantern Monument, Patched Tenement Nook. The district should share Nettleburrow's small rodent-like beastfolk identity, Rootwood, Fieldstone, Copper, Willow, and Subterranean, Undercity Foundation, Limestone Caverns without becoming generic.",
+      "emotionalIdentity": "Intimate and lived-in, with Nettleburrow's larger mood shaped by Rodentfolk Burrow-Market of the Lantern Roots, Terrace Granary Beacon, and Moon Phase Windows Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Patched Tenement Nook",
+        "Slums / Informal Settlement Civic Hall",
+        "Scrap Market",
+        "Slums Informal Settlement Lantern Monument",
+        "Section 4 pedestrian-scale props",
+        "Nettleburrow civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Patched Tenement Nook",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Patched Tenement Nook",
+      "minorLandmarks": [
+        "Slums / Informal Settlement Civic Hall",
+        "Scrap Market",
+        "Slums Informal Settlement Lantern Monument"
+      ]
+    },
+    {
+      "districtNumber": 22,
+      "districtId": "D22",
+      "sectionNumber": 4,
+      "name": "D22 — Slums / Informal Settlement Civic Hall Supporting Streets",
+      "civicPurpose": "This district turns Section 4's source-backed anchor set into a board-scale civic space: Slums / Informal Settlement Civic Hall, Scrap Market, Slums Informal Settlement Lantern Monument, Patched Tenement Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Nettleburrow.",
+      "visualIdentity": "Use Slums / Informal Settlement Civic Hall as the main read. Keep exact source anchors visible where applicable: Slums / Informal Settlement Civic Hall, Scrap Market, Slums Informal Settlement Lantern Monument, Patched Tenement Nook. The district should share Nettleburrow's small rodent-like beastfolk identity, Rootwood, Fieldstone, Copper, Willow, and Subterranean, Undercity Foundation, Limestone Caverns without becoming generic.",
+      "emotionalIdentity": "Connective and practical, with Nettleburrow's larger mood shaped by Rodentfolk Burrow-Market of the Lantern Roots, Terrace Granary Beacon, and Moon Phase Windows Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Slums / Informal Settlement Civic Hall",
+        "Scrap Market",
+        "Slums Informal Settlement Lantern Monument",
+        "Patched Tenement Nook",
+        "Section 4 pedestrian-scale props",
+        "Nettleburrow civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Slums / Informal Settlement Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Slums / Informal Settlement Civic Hall",
+      "minorLandmarks": [
+        "Scrap Market",
+        "Slums Informal Settlement Lantern Monument",
+        "Patched Tenement Nook"
+      ]
+    },
+    {
+      "districtNumber": 19,
+      "districtId": "D19",
+      "sectionNumber": 5,
+      "name": "D19 — Low Residential Civic Hall Civic-Anchor Precinct",
+      "civicPurpose": "This district turns Section 5's source-backed anchor set into a board-scale civic space: Low Residential Civic Hall, Tenement Court, Low Residential Lantern Monument, Laundry Well Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Nettleburrow.",
+      "visualIdentity": "Use Low Residential Civic Hall as the main read. Keep exact source anchors visible where applicable: Low Residential Civic Hall, Tenement Court, Low Residential Lantern Monument, Laundry Well Nook. The district should share Nettleburrow's small rodent-like beastfolk identity, Rootwood, Fieldstone, Copper, Willow, and Subterranean, Undercity Foundation, Limestone Caverns without becoming generic.",
+      "emotionalIdentity": "Locally grounded, with Nettleburrow's larger mood shaped by Rodentfolk Burrow-Market of the Lantern Roots, Terrace Granary Beacon, and Moon Phase Windows Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Low Residential Civic Hall",
+        "Tenement Court",
+        "Low Residential Lantern Monument",
+        "Laundry Well Nook",
+        "Section 5 pedestrian-scale props",
+        "Nettleburrow civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Low Residential Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Low Residential Civic Hall",
+      "minorLandmarks": [
+        "Tenement Court",
+        "Low Residential Lantern Monument",
+        "Laundry Well Nook"
+      ]
+    },
+    {
+      "districtNumber": 20,
+      "districtId": "D20",
+      "sectionNumber": 5,
+      "name": "D20 — Tenement Court Landmark Approach",
+      "civicPurpose": "This district turns Section 5's source-backed anchor set into a board-scale civic space: Low Residential Civic Hall, Tenement Court, Low Residential Lantern Monument, Laundry Well Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Nettleburrow.",
+      "visualIdentity": "Use Tenement Court as the main read. Keep exact source anchors visible where applicable: Low Residential Civic Hall, Tenement Court, Low Residential Lantern Monument, Laundry Well Nook. The district should share Nettleburrow's small rodent-like beastfolk identity, Rootwood, Fieldstone, Copper, Willow, and Subterranean, Undercity Foundation, Limestone Caverns without becoming generic.",
+      "emotionalIdentity": "Public-facing, with Nettleburrow's larger mood shaped by Rodentfolk Burrow-Market of the Lantern Roots, Terrace Granary Beacon, and Moon Phase Windows Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Tenement Court",
+        "Low Residential Civic Hall",
+        "Low Residential Lantern Monument",
+        "Laundry Well Nook",
+        "Section 5 pedestrian-scale props",
+        "Nettleburrow civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Tenement Court",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Tenement Court",
+      "minorLandmarks": [
+        "Low Residential Civic Hall",
+        "Low Residential Lantern Monument",
+        "Laundry Well Nook"
+      ]
+    },
+    {
+      "districtNumber": 23,
+      "districtId": "D23",
+      "sectionNumber": 5,
+      "name": "D23 — Low Residential Lantern Monument Monument Frontage",
+      "civicPurpose": "This district turns Section 5's source-backed anchor set into a board-scale civic space: Low Residential Civic Hall, Tenement Court, Low Residential Lantern Monument, Laundry Well Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Nettleburrow.",
+      "visualIdentity": "Use Low Residential Lantern Monument as the main read. Keep exact source anchors visible where applicable: Low Residential Civic Hall, Tenement Court, Low Residential Lantern Monument, Laundry Well Nook. The district should share Nettleburrow's small rodent-like beastfolk identity, Rootwood, Fieldstone, Copper, Willow, and Subterranean, Undercity Foundation, Limestone Caverns without becoming generic.",
+      "emotionalIdentity": "Memorial or symbolic, with Nettleburrow's larger mood shaped by Rodentfolk Burrow-Market of the Lantern Roots, Terrace Granary Beacon, and Moon Phase Windows Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Low Residential Lantern Monument",
+        "Low Residential Civic Hall",
+        "Tenement Court",
+        "Laundry Well Nook",
+        "Section 5 pedestrian-scale props",
+        "Nettleburrow civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Low Residential Lantern Monument",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Low Residential Lantern Monument",
+      "minorLandmarks": [
+        "Low Residential Civic Hall",
+        "Tenement Court",
+        "Laundry Well Nook"
+      ]
+    },
+    {
+      "districtNumber": 24,
+      "districtId": "D24",
+      "sectionNumber": 5,
+      "name": "D24 — Laundry Well Nook Neighborhood Nook",
+      "civicPurpose": "This district turns Section 5's source-backed anchor set into a board-scale civic space: Low Residential Civic Hall, Tenement Court, Low Residential Lantern Monument, Laundry Well Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Nettleburrow.",
+      "visualIdentity": "Use Laundry Well Nook as the main read. Keep exact source anchors visible where applicable: Low Residential Civic Hall, Tenement Court, Low Residential Lantern Monument, Laundry Well Nook. The district should share Nettleburrow's small rodent-like beastfolk identity, Rootwood, Fieldstone, Copper, Willow, and Subterranean, Undercity Foundation, Limestone Caverns without becoming generic.",
+      "emotionalIdentity": "Intimate and lived-in, with Nettleburrow's larger mood shaped by Rodentfolk Burrow-Market of the Lantern Roots, Terrace Granary Beacon, and Moon Phase Windows Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Laundry Well Nook",
+        "Low Residential Civic Hall",
+        "Tenement Court",
+        "Low Residential Lantern Monument",
+        "Section 5 pedestrian-scale props",
+        "Nettleburrow civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Laundry Well Nook",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Laundry Well Nook",
+      "minorLandmarks": [
+        "Low Residential Civic Hall",
+        "Tenement Court",
+        "Low Residential Lantern Monument"
+      ]
+    },
+    {
+      "districtNumber": 25,
+      "districtId": "D25",
+      "sectionNumber": 5,
+      "name": "D25 — Low Residential Civic Hall Supporting Streets",
+      "civicPurpose": "This district turns Section 5's source-backed anchor set into a board-scale civic space: Low Residential Civic Hall, Tenement Court, Low Residential Lantern Monument, Laundry Well Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Nettleburrow.",
+      "visualIdentity": "Use Low Residential Civic Hall as the main read. Keep exact source anchors visible where applicable: Low Residential Civic Hall, Tenement Court, Low Residential Lantern Monument, Laundry Well Nook. The district should share Nettleburrow's small rodent-like beastfolk identity, Rootwood, Fieldstone, Copper, Willow, and Subterranean, Undercity Foundation, Limestone Caverns without becoming generic.",
+      "emotionalIdentity": "Connective and practical, with Nettleburrow's larger mood shaped by Rodentfolk Burrow-Market of the Lantern Roots, Terrace Granary Beacon, and Moon Phase Windows Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Low Residential Civic Hall",
+        "Tenement Court",
+        "Low Residential Lantern Monument",
+        "Laundry Well Nook",
+        "Section 5 pedestrian-scale props",
+        "Nettleburrow civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Low Residential Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Low Residential Civic Hall",
+      "minorLandmarks": [
+        "Tenement Court",
+        "Low Residential Lantern Monument",
+        "Laundry Well Nook"
+      ]
+    }
   ],
-  "landmarks": {"wonder": {"name": "Rodentfolk Burrow-Market of the Lantern Roots", "symbolicRole": "Trade, roots, lanterns, burrow life, food security, and informal knowledge fused.", "visualRole": "Root-lit cavern market with stacked platforms, lanterns, burrow arches, bridges, and grain counters.", "civicRole": "Market trade, rumor exchange, food distribution, lantern maintenance, and festival gathering.", "narrativeUse": ["market heart", "rumor exchange", "food distribution"], "assetUse": ["map wonder", "root-lit market anchor"], "sensoryIdentity": ["warm lanterns", "grain dust", "root fiber"], "storyHooks": ["A rumor in the Lantern Roots reaches the city before the Registry can certify truth."]}, "beacon": {"name": "Terrace Granary Beacon", "symbolicRole": "Food security as public signal.", "visualRole": "Granary-linked beacon among terraces, seed halls, and hanging gardens.", "civicRole": "Coordinates grain counting, seed storage, public warning, and relief response.", "narrativeUse": ["grain panic", "harvest warning"], "assetUse": ["S1 centerpiece"], "sensoryIdentity": ["grain", "blue-green light"], "storyHooks": ["A Beacon change makes the city check its stores before its doors."]}, "seatOfPower": {"name": "Moon Phase Windows Sovereign Registry Court", "symbolicRole": "Registration, cycles, ration authority, and civic obligation.", "visualRole": "Underground court with moon phase windows, sealed archives, registry halls, and terraces.", "civicRole": "Registration, ration certification, identity disputes, relief coordination, and petitions.", "narrativeUse": ["registry discrepancy", "ration certification"], "assetUse": ["seat-of-power marker"], "sensoryIdentity": ["paper", "moon-window light", "ink"], "storyHooks": ["A missing name still survives in every market route."]}, "majorLandmarks": [{"name": "Black Market Arcade", "symbolicRole": "Unofficial systems that keep people alive beside law.", "visualRole": "Coded arcade with hidden vaults, mist veils, lantern stalls.", "civicRole": "Hidden commerce and registry counterbalance.", "narrativeUse": ["hidden deal", "contraband"], "assetUse": ["S2 diorama"], "sensoryIdentity": ["whispers", "coin clicks"], "storyHooks": ["A market ledger is more accurate than the ration roll."]}, {"name": "Relief Hall", "symbolicRole": "Public aid as anxious reassurance.", "visualRole": "Relief hall with notice plaza, queues, counters, and blue-green lamps.", "civicRole": "Aid distribution and public notices.", "narrativeUse": ["relief queue", "missing notice"], "assetUse": ["S3 diorama"], "sensoryIdentity": ["paper", "stew"], "storyHooks": ["A relief notice changes which family the city admits exists."]}, {"name": "Scrap Market", "symbolicRole": "Survival repair outside official order.", "visualRole": "Patched stalls, scrap heaps, lantern monument, repaired tools.", "civicRole": "Repair culture and informal trade.", "narrativeUse": ["repair clue", "survival trade"], "assetUse": ["S4 diorama"], "sensoryIdentity": ["scrap metal", "lamp smoke"], "storyHooks": ["A repaired hinge reveals a route the registry missed."]}, {"name": "Tenement Court", "symbolicRole": "Domestic density as social intelligence.", "visualRole": "Laundry well, lantern monument, tight homes, shared stairs.", "civicRole": "Housing, gossip, shared water, and neighbor networks.", "narrativeUse": ["gossip", "domestic stakes"], "assetUse": ["S5 diorama"], "sensoryIdentity": ["laundry soap", "close voices"], "storyHooks": ["A laundry-well complaint outruns an official notice."]}]},
-  "assetGuidance": {"districtDioramaGuidance": ["S1: Agricultural Terraces Civic Hall, Terrace Granary Beacon, Hanging Gardens Monument, Seed Hall Nook.", "S2: Underworld / Hidden Economy Civic Hall, Black Market Arcade, Mist Veils Monument, Understreet Vault Nook.", "S3: Civic Services Hall, Relief Hall, Civic Services Lantern Monument, Notice Plaza Nook.", "S4: Slums / Informal Settlement Civic Hall, Scrap Market, Slums Informal Settlement Lantern Monument, Patched Tenement Nook.", "S5: Low Residential Civic Hall, Tenement Court, Low Residential Lantern Monument, Laundry Well Nook."], "mapBackgroundGuidance": ["Keep Burrow-Market, Terrace Granary Beacon, and Moon Phase Windows Court legible together.", "Use root-lit caverns, granaries, hidden arcades, relief halls, scrap markets, tenements, and laundry wells."], "requiredVisualElements": ["Rodentfolk Burrow-Market of the Lantern Roots", "Terrace Granary Beacon", "Moon Phase Windows Sovereign Registry Court", "Hanging Gardens Monument", "Seed Hall Nook", "Black Market Arcade", "Understreet Vault Nook", "Relief Hall", "Notice Plaza Nook", "Scrap Market", "Patched Tenement Nook", "Tenement Court", "Laundry Well Nook"], "elementsToAvoid": ["temporary cave refuge", "cute burrow village", "hidden economy separated from survival"]}
+  "landmarks": {
+    "wonder": {
+      "name": "Rodentfolk Burrow-Market of the Lantern Roots",
+      "symbolicRole": "Rodentfolk Burrow-Market of the Lantern Roots concentrates Nettleburrow's local symbolism into a usable civic landmark: city wonder, separate far skyline anchor.",
+      "visualRole": "A one-per-city wonder: spectacular, unmistakable, and larger than every section landmark. It turns Nettleburrow's geography, race identity, material culture, and civic magic into one public symbol. Built for Nettleburrow's small rodent-like beastfolk population, it uses Rootwood, Fieldstone, Copper, Willow, Limewash across Subterranean, Undercity Foundation, Limestone Caverns; water context: dry city ground; magic expression: Beast Bonding, Ancestor Guidance, Hearth Blessing. It must read clearly as a high-fantasy tactical-board asset with no baked labels or text.",
+      "civicRole": "Serves as city wonder, separate far skyline anchor within Nettleburrow; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+      "narrativeUse": [
+        "stage scenes involving Rodentfolk Burrow-Market of the Lantern Roots",
+        "show how Nettleburrow turns landmark symbolism into civic pressure",
+        "anchor public movement and crowd behavior",
+        "give writers a concrete place for announcements, disputes, errands, or rituals"
+      ],
+      "assetUse": [
+        "city landmark asset",
+        "map background landmark marker",
+        "visual continuity anchor across hero and street scenes",
+        "scale reference for civilians, roads, plazas, and props"
+      ],
+      "sensoryIdentity": [
+        "local foot traffic",
+        "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+        "public voices and civic work nearby",
+        "ambient city light and weathering",
+        "close pedestrian-scale details rather than abstract skyline-only treatment"
+      ],
+      "storyHooks": [
+        "a routine civic action at Rodentfolk Burrow-Market of the Lantern Roots becomes narratively important",
+        "the visible condition of Rodentfolk Burrow-Market of the Lantern Roots signals political or social stress",
+        "someone uses Rodentfolk Burrow-Market of the Lantern Roots's public function to redirect crowds or information",
+        "an overlooked detail at Rodentfolk Burrow-Market of the Lantern Roots reveals how Nettleburrow really works"
+      ]
+    },
+    "beacon": {
+      "name": "Terrace Granary Beacon",
+      "symbolicRole": "Terrace Granary Beacon concentrates Nettleburrow's local symbolism into a usable civic landmark: Section 1 beacon, near/front civic signal anchor.",
+      "visualRole": "A largest local landmark in this section, subordinate only to the city wonder and citadel. It belongs to Section 1 (Agricultural Terraces) of Nettleburrow and should use Reed Pavilions, Canopy Platforms, Timber Longhouses, copper and limewash materials, Canal Reflections, Hanging Gardens, Woven Banners, and the small rodent-like beastfolk visual language. Design focus: largest section focal point, strong vertical silhouette, distinct gameplay landmark, visible from nearby districts, seed jars. Terrain/water context: Limestone Caverns; Dry Ground. Magic expression: Herbal Spirits, Archive Echoes, Memory Crystals. No baked labels or text. Single city beacon fixed to section 1; visible civic signal apparatus, strong vertical silhouette, and public approach space.",
+      "civicRole": "Serves as Section 1 beacon, near/front civic signal anchor within Nettleburrow; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+      "narrativeUse": [
+        "stage scenes involving Terrace Granary Beacon",
+        "show how Nettleburrow turns landmark symbolism into civic pressure",
+        "anchor public movement and crowd behavior",
+        "give writers a concrete place for announcements, disputes, errands, or rituals"
+      ],
+      "assetUse": [
+        "district diorama anchor for Section 1",
+        "map background landmark marker",
+        "visual continuity anchor across hero and street scenes",
+        "scale reference for civilians, roads, plazas, and props"
+      ],
+      "sensoryIdentity": [
+        "local foot traffic",
+        "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+        "public voices and civic work nearby",
+        "beacon or lamp glow when applicable",
+        "close pedestrian-scale details rather than abstract skyline-only treatment"
+      ],
+      "storyHooks": [
+        "a routine civic action at Terrace Granary Beacon becomes narratively important",
+        "the visible condition of Terrace Granary Beacon signals political or social stress",
+        "someone uses Terrace Granary Beacon's public function to redirect crowds or information",
+        "an overlooked detail at Terrace Granary Beacon reveals how Nettleburrow really works"
+      ]
+    },
+    "seatOfPower": {
+      "name": "Moon Phase Windows Sovereign Registry Court",
+      "symbolicRole": "Moon Phase Windows Sovereign Registry Court concentrates Nettleburrow's local symbolism into a usable civic landmark: dominant central civic anchor / District 13 seat of power.",
+      "visualRole": "The district-13 seat of power: courts, audience terraces, sealed archives, command platforms, and the visible apparatus of government. It is not a faction HQ; it is the city's central civic authority. Built for Nettleburrow's small rodent-like beastfolk population, it uses Rootwood, Fieldstone, Copper, Willow, Limewash across Subterranean, Undercity Foundation, Limestone Caverns; water context: dry city ground; magic expression: Beast Bonding, Ancestor Guidance, Hearth Blessing. It must read clearly as a high-fantasy tactical-board asset with no baked labels or text.",
+      "civicRole": "Serves as dominant central civic anchor / District 13 seat of power within Nettleburrow; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+      "narrativeUse": [
+        "stage scenes involving Moon Phase Windows Sovereign Registry Court",
+        "show how Nettleburrow turns landmark symbolism into civic pressure",
+        "anchor public movement and crowd behavior",
+        "give writers a concrete place for announcements, disputes, errands, or rituals"
+      ],
+      "assetUse": [
+        "city landmark asset",
+        "map background landmark marker",
+        "visual continuity anchor across hero and street scenes",
+        "scale reference for civilians, roads, plazas, and props"
+      ],
+      "sensoryIdentity": [
+        "local foot traffic",
+        "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+        "public voices and civic work nearby",
+        "ambient city light and weathering",
+        "close pedestrian-scale details rather than abstract skyline-only treatment"
+      ],
+      "storyHooks": [
+        "a routine civic action at Moon Phase Windows Sovereign Registry Court becomes narratively important",
+        "the visible condition of Moon Phase Windows Sovereign Registry Court signals political or social stress",
+        "someone uses Moon Phase Windows Sovereign Registry Court's public function to redirect crowds or information",
+        "an overlooked detail at Moon Phase Windows Sovereign Registry Court reveals how Nettleburrow really works"
+      ]
+    },
+    "majorLandmarks": [
+      {
+        "name": "Tenement Court",
+        "symbolicRole": "Tenement Court concentrates Nettleburrow's local symbolism into a usable civic landmark: additional major landmark selected for this hero-view camera angle.",
+        "visualRole": "A largest local landmark in this section, subordinate only to the city wonder and citadel. It belongs to Section 5 (Low Residential) of Nettleburrow and should use Timber Longhouses, Market Arcades, White Limestone Civic Blocks, copper and limewash materials, Lantern Lit, Red Fabric Awnings, Woven Banners, and the small rodent-like beastfolk visual language. Design focus: shared courtyards, communal wells, largest section focal point, strong vertical silhouette, distinct gameplay landmark. Terrain/water context: Limestone Caverns; Dry Ground. Magic expression: Herbal Spirits, Archive Echoes, Memory Crystals. No baked labels or text.",
+        "civicRole": "Serves as additional major landmark selected for this hero-view camera angle within Nettleburrow; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Tenement Court",
+          "show how Nettleburrow turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 5",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Tenement Court becomes narratively important",
+          "the visible condition of Tenement Court signals political or social stress",
+          "someone uses Tenement Court's public function to redirect crowds or information",
+          "an overlooked detail at Tenement Court reveals how Nettleburrow really works"
+        ]
+      },
+      {
+        "name": "Black Market Arcade",
+        "symbolicRole": "Black Market Arcade concentrates Nettleburrow's local symbolism into a usable civic landmark: additional major landmark selected for this hero-view camera angle.",
+        "visualRole": "A largest local landmark in this section, subordinate only to the city wonder and citadel. It belongs to Section 2 (Underworld / Hidden Economy) of Nettleburrow and should use Market Arcades, Gothic Spires, Subterranean Vaults, copper and limewash materials, Mist Veils, Lantern Lit, Serpent Geometry, and the small rodent-like beastfolk visual language. Design focus: strong vertical silhouette, distinct gameplay landmark, visible from nearby districts, masks, yellow lamps. Terrain/water context: Limestone Caverns; Dry Ground. Magic expression: Herbal Spirits, Archive Echoes, Memory Crystals. No baked labels or text.",
+        "civicRole": "Serves as additional major landmark selected for this hero-view camera angle within Nettleburrow; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Black Market Arcade",
+          "show how Nettleburrow turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 2",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Black Market Arcade becomes narratively important",
+          "the visible condition of Black Market Arcade signals political or social stress",
+          "someone uses Black Market Arcade's public function to redirect crowds or information",
+          "an overlooked detail at Black Market Arcade reveals how Nettleburrow really works"
+        ]
+      },
+      {
+        "name": "Scrap Market",
+        "symbolicRole": "Scrap Market concentrates Nettleburrow's local symbolism into a usable civic landmark: additional major landmark selected for this hero-view camera angle.",
+        "visualRole": "A largest local landmark in this section, subordinate only to the city wonder and citadel. It belongs to Section 4 (Slums / Informal Settlement) of Nettleburrow and should use Reed Pavilions, Market Arcades, Timber Longhouses, copper and limewash materials, Red Fabric Awnings, Woven Banners, Lantern Lit, and the small rodent-like beastfolk visual language. Design focus: visible from nearby districts, patches, scrap lanterns, tarps, shared fires. Terrain/water context: Limestone Caverns; Dry Ground. Magic expression: Herbal Spirits, Archive Echoes, Memory Crystals. No baked labels or text.",
+        "civicRole": "Serves as additional major landmark selected for this hero-view camera angle within Nettleburrow; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Scrap Market",
+          "show how Nettleburrow turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 4",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Scrap Market becomes narratively important",
+          "the visible condition of Scrap Market signals political or social stress",
+          "someone uses Scrap Market's public function to redirect crowds or information",
+          "an overlooked detail at Scrap Market reveals how Nettleburrow really works"
+        ]
+      },
+      {
+        "name": "Agricultural Terraces Civic Hall",
+        "symbolicRole": "Agricultural Terraces Civic Hall concentrates Nettleburrow's local symbolism into a usable civic landmark: Section 1 local anchor.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing. It belongs to Section 1 (Agricultural Terraces) of Nettleburrow and should use Canopy Platforms, Timber Longhouses, Reed Pavilions, copper and limewash materials, Hanging Gardens, Woven Banners, Canal Reflections, and the small rodent-like beastfolk visual language. Design focus: orchards, greenhouses, irrigation channels, institutional anchor, public-facing administration. Terrain/water context: Limestone Caverns; Dry Ground. Magic expression: Herbal Spirits, Archive Echoes, Memory Crystals. No baked labels or text.",
+        "civicRole": "Serves as Section 1 local anchor within Nettleburrow; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Agricultural Terraces Civic Hall",
+          "show how Nettleburrow turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 1",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Agricultural Terraces Civic Hall becomes narratively important",
+          "the visible condition of Agricultural Terraces Civic Hall signals political or social stress",
+          "someone uses Agricultural Terraces Civic Hall's public function to redirect crowds or information",
+          "an overlooked detail at Agricultural Terraces Civic Hall reveals how Nettleburrow really works"
+        ]
+      },
+      {
+        "name": "Hanging Gardens Monument",
+        "symbolicRole": "Hanging Gardens Monument concentrates Nettleburrow's local symbolism into a usable civic landmark: Section 1 local anchor.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles. It belongs to Section 1 (Agricultural Terraces) of Nettleburrow and should use Reed Pavilions, Canopy Platforms, Timber Longhouses, copper and limewash materials, Hanging Gardens, Woven Banners, Canal Reflections, and the small rodent-like beastfolk visual language. Design focus: small ceremonial site, local memory marker, subordinate to major landmark, seed jars, terraced beds. Terrain/water context: Limestone Caverns; Dry Ground. Magic expression: Herbal Spirits, Archive Echoes, Memory Crystals. No baked labels or text.",
+        "civicRole": "Serves as Section 1 local anchor within Nettleburrow; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Hanging Gardens Monument",
+          "show how Nettleburrow turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 1",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Hanging Gardens Monument becomes narratively important",
+          "the visible condition of Hanging Gardens Monument signals political or social stress",
+          "someone uses Hanging Gardens Monument's public function to redirect crowds or information",
+          "an overlooked detail at Hanging Gardens Monument reveals how Nettleburrow really works"
+        ]
+      },
+      {
+        "name": "Seed Hall Nook",
+        "symbolicRole": "Seed Hall Nook concentrates Nettleburrow's local symbolism into a usable civic landmark: Section 1 local anchor.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette. It belongs to Section 1 (Agricultural Terraces) of Nettleburrow and should use Timber Longhouses, Reed Pavilions, Canopy Platforms, copper and limewash materials, Canal Reflections, Hanging Gardens, Woven Banners, and the small rodent-like beastfolk visual language. Design focus: seed jars, terraced beds, fruit trees, water channels, farm terraces. Terrain/water context: Limestone Caverns; Dry Ground. Magic expression: Herbal Spirits, Archive Echoes, Memory Crystals. No baked labels or text.",
+        "civicRole": "Serves as Section 1 local anchor within Nettleburrow; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Seed Hall Nook",
+          "show how Nettleburrow turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 1",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Seed Hall Nook becomes narratively important",
+          "the visible condition of Seed Hall Nook signals political or social stress",
+          "someone uses Seed Hall Nook's public function to redirect crowds or information",
+          "an overlooked detail at Seed Hall Nook reveals how Nettleburrow really works"
+        ]
+      },
+      {
+        "name": "Underworld / Hidden Economy Civic Hall",
+        "symbolicRole": "Underworld / Hidden Economy Civic Hall concentrates Nettleburrow's local symbolism into a usable civic landmark: Section 2 local anchor.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing. It belongs to Section 2 (Underworld / Hidden Economy) of Nettleburrow and should use Gothic Spires, Subterranean Vaults, Market Arcades, copper and limewash materials, Lantern Lit, Serpent Geometry, Mist Veils, and the small rodent-like beastfolk visual language. Design focus: masks, yellow lamps, coded marks, trapdoors, hidden markets. Terrain/water context: Limestone Caverns; Dry Ground. Magic expression: Herbal Spirits, Archive Echoes, Memory Crystals. No baked labels or text.",
+        "civicRole": "Serves as Section 2 local anchor within Nettleburrow; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Underworld / Hidden Economy Civic Hall",
+          "show how Nettleburrow turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 2",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Underworld / Hidden Economy Civic Hall becomes narratively important",
+          "the visible condition of Underworld / Hidden Economy Civic Hall signals political or social stress",
+          "someone uses Underworld / Hidden Economy Civic Hall's public function to redirect crowds or information",
+          "an overlooked detail at Underworld / Hidden Economy Civic Hall reveals how Nettleburrow really works"
+        ]
+      },
+      {
+        "name": "Mist Veils Monument",
+        "symbolicRole": "Mist Veils Monument concentrates Nettleburrow's local symbolism into a usable civic landmark: Section 2 local anchor.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles. It belongs to Section 2 (Underworld / Hidden Economy) of Nettleburrow and should use Gothic Spires, Subterranean Vaults, Market Arcades, copper and limewash materials, Serpent Geometry, Mist Veils, Lantern Lit, and the small rodent-like beastfolk visual language. Design focus: masks, yellow lamps, coded marks, trapdoors, hidden markets. Terrain/water context: Limestone Caverns; Dry Ground. Magic expression: Herbal Spirits, Archive Echoes, Memory Crystals. No baked labels or text.",
+        "civicRole": "Serves as Section 2 local anchor within Nettleburrow; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Mist Veils Monument",
+          "show how Nettleburrow turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 2",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Mist Veils Monument becomes narratively important",
+          "the visible condition of Mist Veils Monument signals political or social stress",
+          "someone uses Mist Veils Monument's public function to redirect crowds or information",
+          "an overlooked detail at Mist Veils Monument reveals how Nettleburrow really works"
+        ]
+      },
+      {
+        "name": "Understreet Vault Nook",
+        "symbolicRole": "Understreet Vault Nook concentrates Nettleburrow's local symbolism into a usable civic landmark: Section 2 local anchor.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette. It belongs to Section 2 (Underworld / Hidden Economy) of Nettleburrow and should use Subterranean Vaults, Market Arcades, Gothic Spires, copper and limewash materials, Serpent Geometry, Mist Veils, Lantern Lit, and the small rodent-like beastfolk visual language. Design focus: masks, yellow lamps, coded marks, trapdoors, hidden markets. Terrain/water context: Limestone Caverns; Dry Ground. Magic expression: Herbal Spirits, Archive Echoes, Memory Crystals. No baked labels or text.",
+        "civicRole": "Serves as Section 2 local anchor within Nettleburrow; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Understreet Vault Nook",
+          "show how Nettleburrow turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 2",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Understreet Vault Nook becomes narratively important",
+          "the visible condition of Understreet Vault Nook signals political or social stress",
+          "someone uses Understreet Vault Nook's public function to redirect crowds or information",
+          "an overlooked detail at Understreet Vault Nook reveals how Nettleburrow really works"
+        ]
+      },
+      {
+        "name": "Civic Services Hall",
+        "symbolicRole": "Civic Services Hall concentrates Nettleburrow's local symbolism into a usable civic landmark: Section 3 local anchor.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing. It belongs to Section 3 (Civic Services) of Nettleburrow and should use Market Arcades, Reed Pavilions, White Limestone Civic Blocks, copper and limewash materials, Civic Blue Glow, Red Fabric Awnings, Lantern Lit, and the small rodent-like beastfolk visual language. Design focus: public rosters, public halls, clinic courts, bathhouses, notice boards. Terrain/water context: Limestone Caverns; Dry Ground. Magic expression: Herbal Spirits, Archive Echoes, Memory Crystals. No baked labels or text.",
+        "civicRole": "Serves as Section 3 local anchor within Nettleburrow; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Civic Services Hall",
+          "show how Nettleburrow turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 3",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Civic Services Hall becomes narratively important",
+          "the visible condition of Civic Services Hall signals political or social stress",
+          "someone uses Civic Services Hall's public function to redirect crowds or information",
+          "an overlooked detail at Civic Services Hall reveals how Nettleburrow really works"
+        ]
+      },
+      {
+        "name": "Relief Hall",
+        "symbolicRole": "Relief Hall concentrates Nettleburrow's local symbolism into a usable civic landmark: Section 3 local anchor.",
+        "visualRole": "A mandatory Section 3 Beacon: a culturally adapted civic signal flame / warning-light landmark visible across the city spine. It belongs to Section 3 (Civic Services) of Nettleburrow and should use White Limestone Civic Blocks, Market Arcades, Reed Pavilions, copper and limewash materials, Lantern Lit, Civic Blue Glow, Red Fabric Awnings, and the small rodent-like beastfolk visual language. Design focus: bread tokens, water basins, blue service lamps, public rosters, public halls. Terrain/water context: Limestone Caverns; Dry Ground. Magic expression: Herbal Spirits, Archive Echoes, Memory Crystals. No baked labels or text.",
+        "civicRole": "Serves as Section 3 local anchor within Nettleburrow; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Relief Hall",
+          "show how Nettleburrow turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 3",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Relief Hall becomes narratively important",
+          "the visible condition of Relief Hall signals political or social stress",
+          "someone uses Relief Hall's public function to redirect crowds or information",
+          "an overlooked detail at Relief Hall reveals how Nettleburrow really works"
+        ]
+      },
+      {
+        "name": "Civic Services Lantern Monument",
+        "symbolicRole": "Civic Services Lantern Monument concentrates Nettleburrow's local symbolism into a usable civic landmark: Section 3 local anchor.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles. It belongs to Section 3 (Civic Services) of Nettleburrow and should use Reed Pavilions, White Limestone Civic Blocks, Market Arcades, copper and limewash materials, Lantern Lit, Civic Blue Glow, Red Fabric Awnings, and the small rodent-like beastfolk visual language. Design focus: local memory marker, subordinate to major landmark, bread tokens, water basins, blue service lamps. Terrain/water context: Limestone Caverns; Dry Ground. Magic expression: Herbal Spirits, Archive Echoes, Memory Crystals. No baked labels or text.",
+        "civicRole": "Serves as Section 3 local anchor within Nettleburrow; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Civic Services Lantern Monument",
+          "show how Nettleburrow turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 3",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Civic Services Lantern Monument becomes narratively important",
+          "the visible condition of Civic Services Lantern Monument signals political or social stress",
+          "someone uses Civic Services Lantern Monument's public function to redirect crowds or information",
+          "an overlooked detail at Civic Services Lantern Monument reveals how Nettleburrow really works"
+        ]
+      },
+      {
+        "name": "Notice Plaza Nook",
+        "symbolicRole": "Notice Plaza Nook concentrates Nettleburrow's local symbolism into a usable civic landmark: Section 3 local anchor.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette. It belongs to Section 3 (Civic Services) of Nettleburrow and should use Reed Pavilions, White Limestone Civic Blocks, Market Arcades, copper and limewash materials, Red Fabric Awnings, Lantern Lit, Civic Blue Glow, and the small rodent-like beastfolk visual language. Design focus: blue service lamps, public rosters, public halls, clinic courts, bathhouses. Terrain/water context: Limestone Caverns; Dry Ground. Magic expression: Herbal Spirits, Archive Echoes, Memory Crystals. No baked labels or text.",
+        "civicRole": "Serves as Section 3 local anchor within Nettleburrow; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Notice Plaza Nook",
+          "show how Nettleburrow turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 3",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Notice Plaza Nook becomes narratively important",
+          "the visible condition of Notice Plaza Nook signals political or social stress",
+          "someone uses Notice Plaza Nook's public function to redirect crowds or information",
+          "an overlooked detail at Notice Plaza Nook reveals how Nettleburrow really works"
+        ]
+      },
+      {
+        "name": "Slums / Informal Settlement Civic Hall",
+        "symbolicRole": "Slums / Informal Settlement Civic Hall concentrates Nettleburrow's local symbolism into a usable civic landmark: Section 4 local anchor.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing. It belongs to Section 4 (Slums / Informal Settlement) of Nettleburrow and should use Market Arcades, Timber Longhouses, Reed Pavilions, copper and limewash materials, Red Fabric Awnings, Woven Banners, Lantern Lit, and the small rodent-like beastfolk visual language. Design focus: clear central silhouette, board-readable entrance, patches, scrap lanterns, tarps. Terrain/water context: Limestone Caverns; Dry Ground. Magic expression: Herbal Spirits, Archive Echoes, Memory Crystals. No baked labels or text.",
+        "civicRole": "Serves as Section 4 local anchor within Nettleburrow; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Slums / Informal Settlement Civic Hall",
+          "show how Nettleburrow turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 4",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Slums / Informal Settlement Civic Hall becomes narratively important",
+          "the visible condition of Slums / Informal Settlement Civic Hall signals political or social stress",
+          "someone uses Slums / Informal Settlement Civic Hall's public function to redirect crowds or information",
+          "an overlooked detail at Slums / Informal Settlement Civic Hall reveals how Nettleburrow really works"
+        ]
+      },
+      {
+        "name": "Slums Informal Settlement Lantern Monument",
+        "symbolicRole": "Slums Informal Settlement Lantern Monument concentrates Nettleburrow's local symbolism into a usable civic landmark: Section 4 local anchor.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles. It belongs to Section 4 (Slums / Informal Settlement) of Nettleburrow and should use Timber Longhouses, Reed Pavilions, Market Arcades, copper and limewash materials, Lantern Lit, Red Fabric Awnings, Woven Banners, and the small rodent-like beastfolk visual language. Design focus: subordinate to major landmark, patches, scrap lanterns, tarps, shared fires. Terrain/water context: Limestone Caverns; Dry Ground. Magic expression: Herbal Spirits, Archive Echoes, Memory Crystals. No baked labels or text.",
+        "civicRole": "Serves as Section 4 local anchor within Nettleburrow; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Slums Informal Settlement Lantern Monument",
+          "show how Nettleburrow turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 4",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Slums Informal Settlement Lantern Monument becomes narratively important",
+          "the visible condition of Slums Informal Settlement Lantern Monument signals political or social stress",
+          "someone uses Slums Informal Settlement Lantern Monument's public function to redirect crowds or information",
+          "an overlooked detail at Slums Informal Settlement Lantern Monument reveals how Nettleburrow really works"
+        ]
+      },
+      {
+        "name": "Patched Tenement Nook",
+        "symbolicRole": "Patched Tenement Nook concentrates Nettleburrow's local symbolism into a usable civic landmark: Section 4 local anchor.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette. It belongs to Section 4 (Slums / Informal Settlement) of Nettleburrow and should use Market Arcades, Timber Longhouses, Reed Pavilions, copper and limewash materials, Woven Banners, Lantern Lit, Red Fabric Awnings, and the small rodent-like beastfolk visual language. Design focus: street-level detail, usable board landmark, subordinate scale, patches, scrap lanterns. Terrain/water context: Limestone Caverns; Dry Ground. Magic expression: Herbal Spirits, Archive Echoes, Memory Crystals. No baked labels or text.",
+        "civicRole": "Serves as Section 4 local anchor within Nettleburrow; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Patched Tenement Nook",
+          "show how Nettleburrow turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 4",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Patched Tenement Nook becomes narratively important",
+          "the visible condition of Patched Tenement Nook signals political or social stress",
+          "someone uses Patched Tenement Nook's public function to redirect crowds or information",
+          "an overlooked detail at Patched Tenement Nook reveals how Nettleburrow really works"
+        ]
+      },
+      {
+        "name": "Low Residential Civic Hall",
+        "symbolicRole": "Low Residential Civic Hall concentrates Nettleburrow's local symbolism into a usable civic landmark: Section 5 local anchor.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing. It belongs to Section 5 (Low Residential) of Nettleburrow and should use Timber Longhouses, Market Arcades, White Limestone Civic Blocks, copper and limewash materials, Woven Banners, Lantern Lit, Red Fabric Awnings, and the small rodent-like beastfolk visual language. Design focus: rowhouses, shared courtyards, communal wells, institutional anchor, public-facing administration. Terrain/water context: Limestone Caverns; Dry Ground. Magic expression: Herbal Spirits, Archive Echoes, Memory Crystals. No baked labels or text.",
+        "civicRole": "Serves as Section 5 local anchor within Nettleburrow; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Low Residential Civic Hall",
+          "show how Nettleburrow turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 5",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Low Residential Civic Hall becomes narratively important",
+          "the visible condition of Low Residential Civic Hall signals political or social stress",
+          "someone uses Low Residential Civic Hall's public function to redirect crowds or information",
+          "an overlooked detail at Low Residential Civic Hall reveals how Nettleburrow really works"
+        ]
+      },
+      {
+        "name": "Low Residential Lantern Monument",
+        "symbolicRole": "Low Residential Lantern Monument concentrates Nettleburrow's local symbolism into a usable civic landmark: Section 5 local anchor.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles. It belongs to Section 5 (Low Residential) of Nettleburrow and should use White Limestone Civic Blocks, Timber Longhouses, Market Arcades, copper and limewash materials, Woven Banners, Lantern Lit, Red Fabric Awnings, and the small rodent-like beastfolk visual language. Design focus: rowhouses, shared courtyards, communal wells, symbolic civic object, small ceremonial site. Terrain/water context: Limestone Caverns; Dry Ground. Magic expression: Herbal Spirits, Archive Echoes, Memory Crystals. No baked labels or text.",
+        "civicRole": "Serves as Section 5 local anchor within Nettleburrow; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Low Residential Lantern Monument",
+          "show how Nettleburrow turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 5",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Low Residential Lantern Monument becomes narratively important",
+          "the visible condition of Low Residential Lantern Monument signals political or social stress",
+          "someone uses Low Residential Lantern Monument's public function to redirect crowds or information",
+          "an overlooked detail at Low Residential Lantern Monument reveals how Nettleburrow really works"
+        ]
+      },
+      {
+        "name": "Laundry Well Nook",
+        "symbolicRole": "Laundry Well Nook concentrates Nettleburrow's local symbolism into a usable civic landmark: Section 5 local anchor.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette. It belongs to Section 5 (Low Residential) of Nettleburrow and should use Market Arcades, White Limestone Civic Blocks, Timber Longhouses, copper and limewash materials, Red Fabric Awnings, Woven Banners, Lantern Lit, and the small rodent-like beastfolk visual language. Design focus: hearth smoke, stoops, shared wells, tenement stacks, rowhouses. Terrain/water context: Limestone Caverns; Dry Ground. Magic expression: Herbal Spirits, Archive Echoes, Memory Crystals. No baked labels or text.",
+        "civicRole": "Serves as Section 5 local anchor within Nettleburrow; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Laundry Well Nook",
+          "show how Nettleburrow turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 5",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Laundry Well Nook becomes narratively important",
+          "the visible condition of Laundry Well Nook signals political or social stress",
+          "someone uses Laundry Well Nook's public function to redirect crowds or information",
+          "an overlooked detail at Laundry Well Nook reveals how Nettleburrow really works"
+        ]
+      }
+    ]
+  },
+  "assetGuidance": {
+    "districtDioramaGuidance": [
+      "Dioramas must support 25 district slots: S1 covers D01, D02, D03, D06, D07 and uses source-backed anchors Agricultural Terraces Civic Hall, Terrace Granary Beacon, Hanging Gardens Monument, Seed Hall Nook.",
+      "Dioramas must support 25 district slots: S2 covers D04, D05, D09, D10, D15 and uses source-backed anchors Underworld / Hidden Economy Civic Hall, Black Market Arcade, Mist Veils Monument, Understreet Vault Nook.",
+      "Dioramas must support 25 district slots: S3 covers D08, D12, D13, D14, D18 and uses source-backed anchors Civic Services Hall, Relief Hall, Civic Services Lantern Monument, Notice Plaza Nook.",
+      "Dioramas must support 25 district slots: S4 covers D11, D16, D17, D21, D22 and uses source-backed anchors Slums / Informal Settlement Civic Hall, Scrap Market, Slums Informal Settlement Lantern Monument, Patched Tenement Nook.",
+      "Dioramas must support 25 district slots: S5 covers D19, D20, D23, D24, D25 and uses source-backed anchors Low Residential Civic Hall, Tenement Court, Low Residential Lantern Monument, Laundry Well Nook."
+    ],
+    "mapBackgroundGuidance": [
+      "Map backgrounds must show Rodentfolk Burrow-Market of the Lantern Roots as the wonder-scale identity anchor, Moon Phase Windows Sovereign Registry Court at D13, and Terrace Granary Beacon as the city signal landmark.",
+      "Preserve the five-section spine: S1 Agricultural Terraces Civic Hall, S2 Underworld / Hidden Economy Civic Hall, S3 Civic Services Hall, S4 Slums / Informal Settlement Civic Hall, S5 Low Residential Civic Hall.",
+      "Use roads, terrain, water, civic terraces, walls, markets, courts, or service routes only where they support the exact city identity and tactical readability."
+    ],
+    "requiredVisualElements": [
+      "Rodentfolk Burrow-Market of the Lantern Roots",
+      "Terrace Granary Beacon",
+      "Moon Phase Windows Sovereign Registry Court",
+      "Tenement Court",
+      "Black Market Arcade",
+      "Scrap Market",
+      "Agricultural Terraces Civic Hall",
+      "Hanging Gardens Monument",
+      "Seed Hall Nook",
+      "Underworld / Hidden Economy Civic Hall",
+      "Mist Veils Monument",
+      "Understreet Vault Nook",
+      "Civic Services Hall",
+      "Relief Hall",
+      "Civic Services Lantern Monument",
+      "Notice Plaza Nook",
+      "Slums / Informal Settlement Civic Hall",
+      "Slums Informal Settlement Lantern Monument",
+      "Patched Tenement Nook",
+      "Low Residential Civic Hall",
+      "Low Residential Lantern Monument",
+      "Laundry Well Nook",
+      "Rootwood",
+      "Fieldstone",
+      "Copper",
+      "Willow",
+      "Limewash",
+      "Subterranean",
+      "Undercity Foundation",
+      "Limestone Caverns",
+      "Beast Bonding",
+      "Ancestor Guidance",
+      "Hearth Blessing"
+    ],
+    "elementsToAvoid": [
+      "extra top-level schema sections or research-log content in the JSON",
+      "generic fantasy architecture that ignores exact anchor names",
+      "invented missing street anchors",
+      "readable real-world text labels baked into images",
+      "collapsing the 25-district board into only five playable spaces",
+      "making landmarks decorative when they should have civic, narrative, and asset function"
+    ]
+  }
 }

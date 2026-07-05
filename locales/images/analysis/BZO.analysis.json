@@ -1,1 +1,1890 @@
-{"metadata":{"schemaVersion":"2.0","analysisVersion":2,"cityCode":"BZO","cityName":"Bastion Zero","analysisConfidence":"strong-lock"},"sourceModel":"5 section sidecars; 25 board district slots inherit section anchors.","boardStructure":{"model":"25-seat map","seatOfPowerDistrict":"D13","sections":[{"sectionNumber":1,"districts":["D01","D02","D03","D06","D07"]},{"sectionNumber":2,"districts":["D04","D05","D09","D10","D15"]},{"sectionNumber":3,"districts":["D08","D12","D13","D14","D18"]},{"sectionNumber":4,"districts":["D11","D16","D17","D21","D22"]},{"sectionNumber":5,"districts":["D19","D20","D23","D24","D25"]}]},"sections":[{"n":1,"name":"Arcane / Alchemical Labs"},{"n":2,"name":"Fortress / Border Wall"},{"n":3,"name":"Public Works Authority"},{"n":4,"name":"University / Lyceum"},{"n":5,"name":"Observatory / Astronomy"}],"districts":["D01","D02","D03","D04","D05","D06","D07","D08","D09","D10","D11","D12","D13","D14","D15","D16","D17","D18","D19","D20","D21","D22","D23","D24","D25"],"landmarks":{"wonder":"Living Gear Bastion of the First Construct","beacon":"Alchemy Lab Beacon","seatOfPower":"Clockwork Reliefs Iron Mandate Keep"}}
+{
+  "metadata": {
+    "schemaVersion": "2.0",
+    "analysisVersion": 2,
+    "cityCode": "BZO",
+    "cityName": "Bastion Zero",
+    "analysisDate": "2026-07-05",
+    "analystVersion": "gpt-5.5-thinking",
+    "analysisConfidence": "strong-lock",
+    "sourceStatus": "full",
+    "districtModel": "five sections; five district slots per section; D13 is the seat of power",
+    "missingStreetSections": [],
+    "basedOnImages": [
+      "BZO-HERO-NE-v001",
+      "BZO-HERO-NW-v001",
+      "BZO-HERO-SE-v001",
+      "BZO-HERO-SW-v001",
+      "BZO-STREET-S1-v001",
+      "BZO-STREET-S2-v001",
+      "BZO-STREET-S3-v001",
+      "BZO-STREET-S4-v001",
+      "BZO-STREET-S5-v001"
+    ],
+    "basedOnSidecars": [
+      "BZO-HERO-NE-v001.json",
+      "BZO-HERO-NW-v001.json",
+      "BZO-HERO-SE-v001.json",
+      "BZO-HERO-SW-v001.json",
+      "BZO-STREET-S1-v001.json",
+      "BZO-STREET-S2-v001.json",
+      "BZO-STREET-S3-v001.json",
+      "BZO-STREET-S4-v001.json",
+      "BZO-STREET-S5-v001.json"
+    ]
+  },
+  "cityDNA": {
+    "coreFantasy": "A constructborn city where Living Gear Bastion of the First Construct, Alchemy Lab Beacon, Clockwork Reliefs Iron Mandate Keep, and the five-section district spine turn local identity into functional civic space.",
+    "primaryEmotion": "source-backed civic presence",
+    "secondaryEmotion": "lived-in pressure beneath landmark order",
+    "readerTakeaway": "Bastion Zero should feel immediately identifiable through exact landmarks and materials, not through generic fantasy-city shorthand.",
+    "civilizationThesis": "Bastion Zero organizes power through Clockwork Reliefs Iron Mandate Keep, public response through Alchemy Lab Beacon, civic memory through Living Gear Bastion of the First Construct, and daily life through S1 Arcane / Alchemical Labs Civic Hall, S2 Fortress / Border Wall Civic Hall, S3 Public Works Authority Hall, S4 University / Lyceum Civic Hall, S5 Observatory / Astronomy Civic Hall.",
+    "visualIdentity": "Stone, Ceramic Mosaic, Steel, Arcane Glow, Copper, Dry Stone Paving, Civic Terraces, Ward Networks, Ritual Geometry, Construct Resonance, and exact anchors including Clockwork Reliefs Iron Mandate Keep, Alchemy Lab Beacon, Living Gear Bastion of the First Construct, Star Observatory, Border Wall, Lecture Hall, Arcane / Alchemical Labs Civic Hall, Blue-Lamp Monument, Formula Archive Nook, Fortress / Border Wall Civic Hall.",
+    "culturalIdentity": "A constructborn civic culture where architecture, public obligations, roads, landmark approaches, and everyday work must all read as part of the same civilization.",
+    "symbolicIdentity": "The city symbol system is built from exact names and visible functions: Living Gear Bastion of the First Construct, Alchemy Lab Beacon, Clockwork Reliefs Iron Mandate Keep, and section anchors such as Arcane / Alchemical Labs Civic Hall, Fortress / Border Wall Civic Hall, Public Works Authority Hall, University / Lyceum Civic Hall, Observatory / Astronomy Civic Hall."
+  },
+  "canon": {
+    "canonLocks": [
+      "Bastion Zero uses city code BZO.",
+      "The Wonder is Living Gear Bastion of the First Construct.",
+      "The Beacon is Alchemy Lab Beacon.",
+      "The Seat of Power is Clockwork Reliefs Iron Mandate Keep and occupies District 13.",
+      "The city uses five sections with five tactical district slots per section.",
+      "The source-backed section spine is: S1 Arcane / Alchemical Labs Civic Hall, S2 Fortress / Border Wall Civic Hall, S3 Public Works Authority Hall, S4 University / Lyceum Civic Hall, S5 Observatory / Astronomy Civic Hall.",
+      "Preserve exact anchor name: Clockwork Reliefs Iron Mandate Keep.",
+      "Preserve exact anchor name: Alchemy Lab Beacon.",
+      "Preserve exact anchor name: Living Gear Bastion of the First Construct.",
+      "Preserve exact anchor name: Star Observatory.",
+      "Preserve exact anchor name: Border Wall.",
+      "Preserve exact anchor name: Lecture Hall.",
+      "Preserve exact anchor name: Arcane / Alchemical Labs Civic Hall.",
+      "Preserve exact anchor name: Blue-Lamp Monument.",
+      "Preserve exact anchor name: Formula Archive Nook.",
+      "Preserve exact anchor name: Fortress / Border Wall Civic Hall.",
+      "Preserve exact anchor name: Woven Banners Monument.",
+      "Preserve exact anchor name: Watch Bastion Nook.",
+      "Preserve exact anchor name: Public Works Authority Hall.",
+      "Preserve exact anchor name: Survey Hall.",
+      "Preserve exact anchor name: Permit Yard Nook.",
+      "Preserve exact anchor name: University / Lyceum Civic Hall.",
+      "Preserve exact anchor name: Star Navigation Monument.",
+      "Preserve exact anchor name: Observatory Court Nook.",
+      "Preserve exact anchor name: Observatory / Astronomy Civic Hall.",
+      "Preserve exact anchor name: Celestial Court Nook."
+    ],
+    "provisionalCanon": [],
+    "rejectedReads": [
+      "Do not treat Bastion Zero as a generic fantasy settlement with renamed landmarks.",
+      "Do not collapse the five-section board into a single mood or single district.",
+      "Do not replace exact anchor names with generic summaries.",
+      "Do not invent missing street-section landmarks when a street source is absent."
+    ],
+    "cautionFlags": [
+      "Keep every named Wonder, Beacon, Seat, section civic hall, major landmark, monument, and minor nook exact when present in sidecars.",
+      "If an image appears to deviate from a sidecar, preserve the exact name but avoid overclaiming visual details not supported by the source package.",
+      "Every district asset should remain usable for narrative scenes, tactical board dioramas, and city map backgrounds."
+    ]
+  },
+  "environment": {
+    "terrain": [
+      "Dry Stone Paving",
+      "Civic Terraces"
+    ],
+    "water": [
+      "dry city ground"
+    ],
+    "vegetation": [
+      "courtyard trees",
+      "balcony planters",
+      "public greenery where visible",
+      "source-backed local vegetation only"
+    ],
+    "climateLighting": [
+      "Ward Networks",
+      "Ritual Geometry",
+      "Construct Resonance",
+      "daylight",
+      "golden hour",
+      "lantern light",
+      "civic beacon glow"
+    ],
+    "environmentalLogic": "The environment should make Bastion Zero's exact civic anchors plausible at street scale: terrain routes people toward section landmarks, lighting clarifies public authority, and water or landscape features remain source-backed rather than decorative filler."
+  },
+  "architecture": {
+    "materials": [
+      "Stone",
+      "Ceramic Mosaic",
+      "Steel",
+      "Arcane Glow",
+      "Copper"
+    ],
+    "forms": [
+      "Clockwork Reliefs Iron Mandate Keep",
+      "Alchemy Lab Beacon",
+      "Living Gear Bastion of the First Construct",
+      "Star Observatory",
+      "Border Wall",
+      "Lecture Hall",
+      "Arcane / Alchemical Labs Civic Hall",
+      "Blue-Lamp Monument",
+      "Formula Archive Nook",
+      "Fortress / Border Wall Civic Hall",
+      "Woven Banners Monument",
+      "Watch Bastion Nook",
+      "Public Works Authority Hall",
+      "Survey Hall",
+      "Permit Yard Nook",
+      "University / Lyceum Civic Hall",
+      "Star Navigation Monument",
+      "Observatory Court Nook",
+      "Observatory / Astronomy Civic Hall",
+      "Celestial Court Nook",
+      "section civic halls",
+      "major landmark approaches",
+      "monument frontages",
+      "minor landmark nooks",
+      "district roads and plazas",
+      "D13 authority complex"
+    ],
+    "skyline": [
+      "Living Gear Bastion of the First Construct",
+      "Clockwork Reliefs Iron Mandate Keep",
+      "Alchemy Lab Beacon",
+      "Star Observatory",
+      "Border Wall",
+      "Lecture Hall",
+      "Arcane / Alchemical Labs Civic Hall",
+      "Blue-Lamp Monument",
+      "Formula Archive Nook"
+    ],
+    "lighting": [
+      "Ward Networks",
+      "Ritual Geometry",
+      "Construct Resonance",
+      "beacon-state light",
+      "lantern-lit civic paths",
+      "street-level shop and housing light"
+    ],
+    "infrastructure": [
+      "Arcane / Alchemical Labs Civic Hall",
+      "Fortress / Border Wall Civic Hall",
+      "Public Works Authority Hall",
+      "University / Lyceum Civic Hall",
+      "Observatory / Astronomy Civic Hall",
+      "roads between district slots",
+      "public thresholds",
+      "plaza edges",
+      "records, permits, markets, services, or rituals implied by anchors"
+    ],
+    "motifs": [
+      "Clockwork",
+      "Reliefs",
+      "Iron",
+      "Mandate",
+      "Keep",
+      "Alchemy",
+      "Beacon",
+      "Living",
+      "Gear",
+      "Bastion",
+      "First",
+      "Construct",
+      "Star",
+      "Observatory",
+      "Border",
+      "Wall"
+    ],
+    "colorLanguage": [
+      "source-backed material colors",
+      "civic blue signal accents",
+      "local textile, stone, metal, vegetation, or water colors from the image package"
+    ],
+    "textureLanguage": [
+      "Stone",
+      "Ceramic Mosaic",
+      "Steel",
+      "Arcane Glow",
+      "Copper",
+      "worn pedestrian surfaces",
+      "worked civic ornament",
+      "weathered public thresholds",
+      "lived-in shop and housing details"
+    ]
+  },
+  "civilization": {
+    "people": "The population should read as constructborn and city-specific: citizens occupy streets, shops, public thresholds, and landmark approaches as people who understand the local civic order.",
+    "occupations": [
+      "dock workers",
+      "water engineers",
+      "watch guards",
+      "gate officers",
+      "astronomers",
+      "navigators",
+      "archivists",
+      "record clerks",
+      "district clerks",
+      "craft families",
+      "porters",
+      "maintenance workers",
+      "food sellers",
+      "messengers"
+    ],
+    "socialClasses": [
+      "D13 officials and court staff",
+      "section landmark custodians",
+      "guild and service families",
+      "shopkeepers and artisans",
+      "laborers, carriers, messengers, and maintenance crews",
+      "households tied to local district obligations"
+    ],
+    "governance": "Government is centered on Clockwork Reliefs Iron Mandate Keep. Its authority should be visible through courts, records, public access routes, civic lamps, guards or attendants, and the way citizens respond to D13.",
+    "religion": "Religious or ritual life should only be emphasized where source anchors support it, especially names such as none explicitly dominant in the current anchors.",
+    "customs": [
+      "citizens orient public life around Arcane / Alchemical Labs Civic Hall in Section 1",
+      "citizens orient public life around Fortress / Border Wall Civic Hall in Section 2",
+      "citizens orient public life around Public Works Authority Hall in Section 3",
+      "citizens orient public life around University / Lyceum Civic Hall in Section 4",
+      "citizens orient public life around Observatory / Astronomy Civic Hall in Section 5",
+      "beacon changes become public behavior, not background color",
+      "exact landmark names carry social memory and directions",
+      "civic errands happen visibly at thresholds, queues, ledgers, stalls, courts, or shrines"
+    ],
+    "bodyLanguage": [
+      "citizens pause at civic signals",
+      "workers move with practiced familiarity around district anchors",
+      "officials use thresholds and raised places to control attention",
+      "residents treat named landmarks as everyday orientation points"
+    ],
+    "speechPatterns": [
+      "directions use exact landmark names",
+      "public notices are tied to section anchors",
+      "local speech distinguishes civic authority, ordinary errands, and landmark obligations",
+      "people refer to D13 as the seat of power rather than a faction headquarters"
+    ]
+  },
+  "urbanLife": {
+    "streets": {
+      "appearance": "Streets should show Bastion Zero's exact anchor system at pedestrian scale: S1 Arcane / Alchemical Labs Civic Hall, S2 Fortress / Border Wall Civic Hall, S3 Public Works Authority Hall, S4 University / Lyceum Civic Hall, S5 Observatory / Astronomy Civic Hall. Keep roads, plazas, stairs, thresholds, lamps, signs-without-readable-text, props, and civilians aligned to the source-backed materials and landmarks.",
+      "movement": "Movement should be readable for tactical-board assets: citizens pass between 25 district slots, section anchors, D13, service streets, and landmark approaches without visual clutter hiding the civic purpose.",
+      "sounds": [
+        "foot traffic",
+        "vendors and service calls",
+        "tools and carts",
+        "public notices",
+        "landmark-specific sounds from water, bells, animals, machines, or crowds when source-backed",
+        "beacon-state crowd reactions"
+      ],
+      "smells": [
+        "street food",
+        "worked material dust",
+        "lamp oil or smoke",
+        "vegetation or water where source-backed",
+        "worn stone, timber, metal, plaster, or fabric"
+      ],
+      "lighting": "Use the package's source-backed civic lighting, daylight/golden-hour reads, lanterns, and beacon glow. Lighting must help identify authority, safety, and landmark function.",
+      "weatherEffects": "Weather should reinforce the local terrain and materials without overwhelming the city identity or inventing unsupported climate extremes.",
+      "dayCycle": "Day scenes emphasize errands, trade, records, repairs, rituals, food, and section-level movement.",
+      "nightCycle": "Night scenes emphasize lantern routes, closed thresholds, guarded landmarks, quiet work, and beacon visibility."
+    },
+    "shops": {
+      "common": [
+        "food stalls",
+        "repair stalls",
+        "material vendors",
+        "ledger or permit desks",
+        "local craft counters",
+        "street services tied to section anchors"
+      ],
+      "uncommon": [
+        "specialist landmark caretakers",
+        "instrument makers",
+        "ritual suppliers",
+        "map or record copyists",
+        "district-specific guild services"
+      ],
+      "prestigious": [
+        "D13-facing legal or registry services",
+        "elite craft workshops",
+        "landmark commission houses",
+        "official suppliers for civic ceremonies"
+      ],
+      "exports": [
+        "local crafts",
+        "records or seals",
+        "finished materials",
+        "food goods",
+        "specialized tools or ritual goods as supported by anchors"
+      ],
+      "imports": [
+        "rare materials",
+        "dyes, oils, spices, timber, stone, metal, glass, or cloth as needed by the architecture",
+        "outside records and trade goods"
+      ],
+      "streetFood": [
+        "flatbread or local bread",
+        "stew or grilled skewers",
+        "fruit or preserved food",
+        "tea or civic-square drinks",
+        "portable worker meals"
+      ],
+      "services": [
+        "directions by landmark",
+        "message running",
+        "permit help",
+        "repairs",
+        "food service",
+        "transport or porterage",
+        "public notice posting"
+      ]
+    },
+    "housing": {
+      "wealthy": "Prestige housing clusters near Clockwork Reliefs Iron Mandate Keep, high terraces, or landmark-facing routes, using the best source-backed materials and controlled views of civic space.",
+      "middle": "Shop-over-house units, courtyard homes, guild-adjacent apartments, and family rooms near section anchors.",
+      "poor": "Smaller back-street rooms, work-adjacent housing, shared courtyards, service alleys, patched materials, and dense but still city-specific lived-in detail."
+    }
+  },
+  "districts": [
+    {
+      "districtNumber": 1,
+      "districtId": "D01",
+      "sectionNumber": 1,
+      "name": "D01 — Arcane / Alchemical Labs Civic Hall Civic-Anchor Precinct",
+      "civicPurpose": "This district turns Section 1's source-backed anchor set into a board-scale civic space: Arcane / Alchemical Labs Civic Hall, Alchemy Lab Beacon, Blue-Lamp Monument, Formula Archive Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Bastion Zero.",
+      "visualIdentity": "Use Arcane / Alchemical Labs Civic Hall as the main read. Keep exact source anchors visible where applicable: Arcane / Alchemical Labs Civic Hall, Alchemy Lab Beacon, Blue-Lamp Monument, Formula Archive Nook. The district should share Bastion Zero's constructborn identity, Stone, Ceramic Mosaic, Steel, Arcane Glow, and Dry Stone Paving, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Locally grounded, with Bastion Zero's larger mood shaped by Living Gear Bastion of the First Construct, Alchemy Lab Beacon, and Clockwork Reliefs Iron Mandate Keep.",
+      "gameplayAssetNeeds": [
+        "Arcane / Alchemical Labs Civic Hall",
+        "Alchemy Lab Beacon",
+        "Blue-Lamp Monument",
+        "Formula Archive Nook",
+        "Section 1 pedestrian-scale props",
+        "Bastion Zero civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Arcane / Alchemical Labs Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Arcane / Alchemical Labs Civic Hall",
+      "minorLandmarks": [
+        "Alchemy Lab Beacon",
+        "Blue-Lamp Monument",
+        "Formula Archive Nook"
+      ]
+    },
+    {
+      "districtNumber": 2,
+      "districtId": "D02",
+      "sectionNumber": 1,
+      "name": "D02 — Alchemy Lab Beacon Landmark Approach",
+      "civicPurpose": "This district turns Section 1's source-backed anchor set into a board-scale civic space: Arcane / Alchemical Labs Civic Hall, Alchemy Lab Beacon, Blue-Lamp Monument, Formula Archive Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Bastion Zero.",
+      "visualIdentity": "Use Alchemy Lab Beacon as the main read. Keep exact source anchors visible where applicable: Arcane / Alchemical Labs Civic Hall, Alchemy Lab Beacon, Blue-Lamp Monument, Formula Archive Nook. The district should share Bastion Zero's constructborn identity, Stone, Ceramic Mosaic, Steel, Arcane Glow, and Dry Stone Paving, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Public-facing, with Bastion Zero's larger mood shaped by Living Gear Bastion of the First Construct, Alchemy Lab Beacon, and Clockwork Reliefs Iron Mandate Keep.",
+      "gameplayAssetNeeds": [
+        "Alchemy Lab Beacon",
+        "Arcane / Alchemical Labs Civic Hall",
+        "Blue-Lamp Monument",
+        "Formula Archive Nook",
+        "Section 1 pedestrian-scale props",
+        "Bastion Zero civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Alchemy Lab Beacon",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "Conjunction response, rumor spread, or authority pressure"
+      ],
+      "landmark": "Alchemy Lab Beacon",
+      "minorLandmarks": [
+        "Arcane / Alchemical Labs Civic Hall",
+        "Blue-Lamp Monument",
+        "Formula Archive Nook"
+      ]
+    },
+    {
+      "districtNumber": 3,
+      "districtId": "D03",
+      "sectionNumber": 1,
+      "name": "D03 — Blue-Lamp Monument Monument Frontage",
+      "civicPurpose": "This district turns Section 1's source-backed anchor set into a board-scale civic space: Arcane / Alchemical Labs Civic Hall, Alchemy Lab Beacon, Blue-Lamp Monument, Formula Archive Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Bastion Zero.",
+      "visualIdentity": "Use Blue-Lamp Monument as the main read. Keep exact source anchors visible where applicable: Arcane / Alchemical Labs Civic Hall, Alchemy Lab Beacon, Blue-Lamp Monument, Formula Archive Nook. The district should share Bastion Zero's constructborn identity, Stone, Ceramic Mosaic, Steel, Arcane Glow, and Dry Stone Paving, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Memorial or symbolic, with Bastion Zero's larger mood shaped by Living Gear Bastion of the First Construct, Alchemy Lab Beacon, and Clockwork Reliefs Iron Mandate Keep.",
+      "gameplayAssetNeeds": [
+        "Blue-Lamp Monument",
+        "Arcane / Alchemical Labs Civic Hall",
+        "Alchemy Lab Beacon",
+        "Formula Archive Nook",
+        "Section 1 pedestrian-scale props",
+        "Bastion Zero civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Blue-Lamp Monument",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Blue-Lamp Monument",
+      "minorLandmarks": [
+        "Arcane / Alchemical Labs Civic Hall",
+        "Alchemy Lab Beacon",
+        "Formula Archive Nook"
+      ]
+    },
+    {
+      "districtNumber": 6,
+      "districtId": "D06",
+      "sectionNumber": 1,
+      "name": "D06 — Formula Archive Nook Neighborhood Nook",
+      "civicPurpose": "This district turns Section 1's source-backed anchor set into a board-scale civic space: Arcane / Alchemical Labs Civic Hall, Alchemy Lab Beacon, Blue-Lamp Monument, Formula Archive Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Bastion Zero.",
+      "visualIdentity": "Use Formula Archive Nook as the main read. Keep exact source anchors visible where applicable: Arcane / Alchemical Labs Civic Hall, Alchemy Lab Beacon, Blue-Lamp Monument, Formula Archive Nook. The district should share Bastion Zero's constructborn identity, Stone, Ceramic Mosaic, Steel, Arcane Glow, and Dry Stone Paving, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Intimate and lived-in, with Bastion Zero's larger mood shaped by Living Gear Bastion of the First Construct, Alchemy Lab Beacon, and Clockwork Reliefs Iron Mandate Keep.",
+      "gameplayAssetNeeds": [
+        "Formula Archive Nook",
+        "Arcane / Alchemical Labs Civic Hall",
+        "Alchemy Lab Beacon",
+        "Blue-Lamp Monument",
+        "Section 1 pedestrian-scale props",
+        "Bastion Zero civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Formula Archive Nook",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Formula Archive Nook",
+      "minorLandmarks": [
+        "Arcane / Alchemical Labs Civic Hall",
+        "Alchemy Lab Beacon",
+        "Blue-Lamp Monument"
+      ]
+    },
+    {
+      "districtNumber": 7,
+      "districtId": "D07",
+      "sectionNumber": 1,
+      "name": "D07 — Arcane / Alchemical Labs Civic Hall Supporting Streets",
+      "civicPurpose": "This district turns Section 1's source-backed anchor set into a board-scale civic space: Arcane / Alchemical Labs Civic Hall, Alchemy Lab Beacon, Blue-Lamp Monument, Formula Archive Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Bastion Zero.",
+      "visualIdentity": "Use Arcane / Alchemical Labs Civic Hall as the main read. Keep exact source anchors visible where applicable: Arcane / Alchemical Labs Civic Hall, Alchemy Lab Beacon, Blue-Lamp Monument, Formula Archive Nook. The district should share Bastion Zero's constructborn identity, Stone, Ceramic Mosaic, Steel, Arcane Glow, and Dry Stone Paving, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Connective and practical, with Bastion Zero's larger mood shaped by Living Gear Bastion of the First Construct, Alchemy Lab Beacon, and Clockwork Reliefs Iron Mandate Keep.",
+      "gameplayAssetNeeds": [
+        "Arcane / Alchemical Labs Civic Hall",
+        "Alchemy Lab Beacon",
+        "Blue-Lamp Monument",
+        "Formula Archive Nook",
+        "Section 1 pedestrian-scale props",
+        "Bastion Zero civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Arcane / Alchemical Labs Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Arcane / Alchemical Labs Civic Hall",
+      "minorLandmarks": [
+        "Alchemy Lab Beacon",
+        "Blue-Lamp Monument",
+        "Formula Archive Nook"
+      ]
+    },
+    {
+      "districtNumber": 4,
+      "districtId": "D04",
+      "sectionNumber": 2,
+      "name": "D04 — Fortress / Border Wall Civic Hall Civic-Anchor Precinct",
+      "civicPurpose": "This district turns Section 2's source-backed anchor set into a board-scale civic space: Fortress / Border Wall Civic Hall, Border Wall, Woven Banners Monument, Watch Bastion Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Bastion Zero.",
+      "visualIdentity": "Use Fortress / Border Wall Civic Hall as the main read. Keep exact source anchors visible where applicable: Fortress / Border Wall Civic Hall, Border Wall, Woven Banners Monument, Watch Bastion Nook. The district should share Bastion Zero's constructborn identity, Stone, Ceramic Mosaic, Steel, Arcane Glow, and Dry Stone Paving, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Locally grounded, with Bastion Zero's larger mood shaped by Living Gear Bastion of the First Construct, Alchemy Lab Beacon, and Clockwork Reliefs Iron Mandate Keep.",
+      "gameplayAssetNeeds": [
+        "Fortress / Border Wall Civic Hall",
+        "Border Wall",
+        "Woven Banners Monument",
+        "Watch Bastion Nook",
+        "Section 2 pedestrian-scale props",
+        "Bastion Zero civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Fortress / Border Wall Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Fortress / Border Wall Civic Hall",
+      "minorLandmarks": [
+        "Border Wall",
+        "Woven Banners Monument",
+        "Watch Bastion Nook"
+      ]
+    },
+    {
+      "districtNumber": 5,
+      "districtId": "D05",
+      "sectionNumber": 2,
+      "name": "D05 — Border Wall Landmark Approach",
+      "civicPurpose": "This district turns Section 2's source-backed anchor set into a board-scale civic space: Fortress / Border Wall Civic Hall, Border Wall, Woven Banners Monument, Watch Bastion Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Bastion Zero.",
+      "visualIdentity": "Use Border Wall as the main read. Keep exact source anchors visible where applicable: Fortress / Border Wall Civic Hall, Border Wall, Woven Banners Monument, Watch Bastion Nook. The district should share Bastion Zero's constructborn identity, Stone, Ceramic Mosaic, Steel, Arcane Glow, and Dry Stone Paving, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Public-facing, with Bastion Zero's larger mood shaped by Living Gear Bastion of the First Construct, Alchemy Lab Beacon, and Clockwork Reliefs Iron Mandate Keep.",
+      "gameplayAssetNeeds": [
+        "Border Wall",
+        "Fortress / Border Wall Civic Hall",
+        "Woven Banners Monument",
+        "Watch Bastion Nook",
+        "Section 2 pedestrian-scale props",
+        "Bastion Zero civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Border Wall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Border Wall",
+      "minorLandmarks": [
+        "Fortress / Border Wall Civic Hall",
+        "Woven Banners Monument",
+        "Watch Bastion Nook"
+      ]
+    },
+    {
+      "districtNumber": 9,
+      "districtId": "D09",
+      "sectionNumber": 2,
+      "name": "D09 — Woven Banners Monument Monument Frontage",
+      "civicPurpose": "This district turns Section 2's source-backed anchor set into a board-scale civic space: Fortress / Border Wall Civic Hall, Border Wall, Woven Banners Monument, Watch Bastion Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Bastion Zero.",
+      "visualIdentity": "Use Woven Banners Monument as the main read. Keep exact source anchors visible where applicable: Fortress / Border Wall Civic Hall, Border Wall, Woven Banners Monument, Watch Bastion Nook. The district should share Bastion Zero's constructborn identity, Stone, Ceramic Mosaic, Steel, Arcane Glow, and Dry Stone Paving, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Memorial or symbolic, with Bastion Zero's larger mood shaped by Living Gear Bastion of the First Construct, Alchemy Lab Beacon, and Clockwork Reliefs Iron Mandate Keep.",
+      "gameplayAssetNeeds": [
+        "Woven Banners Monument",
+        "Fortress / Border Wall Civic Hall",
+        "Border Wall",
+        "Watch Bastion Nook",
+        "Section 2 pedestrian-scale props",
+        "Bastion Zero civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Woven Banners Monument",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Woven Banners Monument",
+      "minorLandmarks": [
+        "Fortress / Border Wall Civic Hall",
+        "Border Wall",
+        "Watch Bastion Nook"
+      ]
+    },
+    {
+      "districtNumber": 10,
+      "districtId": "D10",
+      "sectionNumber": 2,
+      "name": "D10 — Watch Bastion Nook Neighborhood Nook",
+      "civicPurpose": "This district turns Section 2's source-backed anchor set into a board-scale civic space: Fortress / Border Wall Civic Hall, Border Wall, Woven Banners Monument, Watch Bastion Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Bastion Zero.",
+      "visualIdentity": "Use Watch Bastion Nook as the main read. Keep exact source anchors visible where applicable: Fortress / Border Wall Civic Hall, Border Wall, Woven Banners Monument, Watch Bastion Nook. The district should share Bastion Zero's constructborn identity, Stone, Ceramic Mosaic, Steel, Arcane Glow, and Dry Stone Paving, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Intimate and lived-in, with Bastion Zero's larger mood shaped by Living Gear Bastion of the First Construct, Alchemy Lab Beacon, and Clockwork Reliefs Iron Mandate Keep.",
+      "gameplayAssetNeeds": [
+        "Watch Bastion Nook",
+        "Fortress / Border Wall Civic Hall",
+        "Border Wall",
+        "Woven Banners Monument",
+        "Section 2 pedestrian-scale props",
+        "Bastion Zero civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Watch Bastion Nook",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Watch Bastion Nook",
+      "minorLandmarks": [
+        "Fortress / Border Wall Civic Hall",
+        "Border Wall",
+        "Woven Banners Monument"
+      ]
+    },
+    {
+      "districtNumber": 15,
+      "districtId": "D15",
+      "sectionNumber": 2,
+      "name": "D15 — Fortress / Border Wall Civic Hall Supporting Streets",
+      "civicPurpose": "This district turns Section 2's source-backed anchor set into a board-scale civic space: Fortress / Border Wall Civic Hall, Border Wall, Woven Banners Monument, Watch Bastion Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Bastion Zero.",
+      "visualIdentity": "Use Fortress / Border Wall Civic Hall as the main read. Keep exact source anchors visible where applicable: Fortress / Border Wall Civic Hall, Border Wall, Woven Banners Monument, Watch Bastion Nook. The district should share Bastion Zero's constructborn identity, Stone, Ceramic Mosaic, Steel, Arcane Glow, and Dry Stone Paving, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Connective and practical, with Bastion Zero's larger mood shaped by Living Gear Bastion of the First Construct, Alchemy Lab Beacon, and Clockwork Reliefs Iron Mandate Keep.",
+      "gameplayAssetNeeds": [
+        "Fortress / Border Wall Civic Hall",
+        "Border Wall",
+        "Woven Banners Monument",
+        "Watch Bastion Nook",
+        "Section 2 pedestrian-scale props",
+        "Bastion Zero civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Fortress / Border Wall Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Fortress / Border Wall Civic Hall",
+      "minorLandmarks": [
+        "Border Wall",
+        "Woven Banners Monument",
+        "Watch Bastion Nook"
+      ]
+    },
+    {
+      "districtNumber": 8,
+      "districtId": "D08",
+      "sectionNumber": 3,
+      "name": "D08 — Public Works Authority Hall Civic-Anchor Precinct",
+      "civicPurpose": "This district turns Section 3's source-backed anchor set into a board-scale civic space: Public Works Authority Hall, Survey Hall, Blue-Lamp Monument, Permit Yard Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Bastion Zero.",
+      "visualIdentity": "Use Public Works Authority Hall as the main read. Keep exact source anchors visible where applicable: Public Works Authority Hall, Survey Hall, Blue-Lamp Monument, Permit Yard Nook. The district should share Bastion Zero's constructborn identity, Stone, Ceramic Mosaic, Steel, Arcane Glow, and Dry Stone Paving, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Locally grounded, with Bastion Zero's larger mood shaped by Living Gear Bastion of the First Construct, Alchemy Lab Beacon, and Clockwork Reliefs Iron Mandate Keep.",
+      "gameplayAssetNeeds": [
+        "Public Works Authority Hall",
+        "Survey Hall",
+        "Blue-Lamp Monument",
+        "Permit Yard Nook",
+        "Section 3 pedestrian-scale props",
+        "Bastion Zero civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Public Works Authority Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Public Works Authority Hall",
+      "minorLandmarks": [
+        "Survey Hall",
+        "Blue-Lamp Monument",
+        "Permit Yard Nook"
+      ]
+    },
+    {
+      "districtNumber": 12,
+      "districtId": "D12",
+      "sectionNumber": 3,
+      "name": "D12 — Survey Hall Landmark Approach",
+      "civicPurpose": "This district turns Section 3's source-backed anchor set into a board-scale civic space: Public Works Authority Hall, Survey Hall, Blue-Lamp Monument, Permit Yard Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Bastion Zero.",
+      "visualIdentity": "Use Survey Hall as the main read. Keep exact source anchors visible where applicable: Public Works Authority Hall, Survey Hall, Blue-Lamp Monument, Permit Yard Nook. The district should share Bastion Zero's constructborn identity, Stone, Ceramic Mosaic, Steel, Arcane Glow, and Dry Stone Paving, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Public-facing, with Bastion Zero's larger mood shaped by Living Gear Bastion of the First Construct, Alchemy Lab Beacon, and Clockwork Reliefs Iron Mandate Keep.",
+      "gameplayAssetNeeds": [
+        "Survey Hall",
+        "Public Works Authority Hall",
+        "Blue-Lamp Monument",
+        "Permit Yard Nook",
+        "Section 3 pedestrian-scale props",
+        "Bastion Zero civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Survey Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Survey Hall",
+      "minorLandmarks": [
+        "Public Works Authority Hall",
+        "Blue-Lamp Monument",
+        "Permit Yard Nook"
+      ]
+    },
+    {
+      "districtNumber": 13,
+      "districtId": "D13",
+      "sectionNumber": 3,
+      "name": "D13 — Clockwork Reliefs Iron Mandate Keep Seat of Power District",
+      "civicPurpose": "This district turns Section 3's source-backed anchor set into a board-scale civic space: Public Works Authority Hall, Survey Hall, Blue-Lamp Monument, Permit Yard Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Bastion Zero.",
+      "visualIdentity": "Use Clockwork Reliefs Iron Mandate Keep as the main read. Keep exact source anchors visible where applicable: Public Works Authority Hall, Survey Hall, Blue-Lamp Monument, Permit Yard Nook. The district should share Bastion Zero's constructborn identity, Stone, Ceramic Mosaic, Steel, Arcane Glow, and Dry Stone Paving, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Memorial or symbolic, with Bastion Zero's larger mood shaped by Living Gear Bastion of the First Construct, Alchemy Lab Beacon, and Clockwork Reliefs Iron Mandate Keep.",
+      "gameplayAssetNeeds": [
+        "Clockwork Reliefs Iron Mandate Keep",
+        "Public Works Authority Hall",
+        "Survey Hall",
+        "Blue-Lamp Monument",
+        "Permit Yard Nook",
+        "Section 3 pedestrian-scale props",
+        "Bastion Zero civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Clockwork Reliefs Iron Mandate Keep",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "Conjunction response, rumor spread, or authority pressure"
+      ],
+      "landmark": "Clockwork Reliefs Iron Mandate Keep",
+      "minorLandmarks": [
+        "Public Works Authority Hall",
+        "Survey Hall",
+        "Blue-Lamp Monument",
+        "Permit Yard Nook"
+      ]
+    },
+    {
+      "districtNumber": 14,
+      "districtId": "D14",
+      "sectionNumber": 3,
+      "name": "D14 — Permit Yard Nook Neighborhood Nook",
+      "civicPurpose": "This district turns Section 3's source-backed anchor set into a board-scale civic space: Public Works Authority Hall, Survey Hall, Blue-Lamp Monument, Permit Yard Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Bastion Zero.",
+      "visualIdentity": "Use Permit Yard Nook as the main read. Keep exact source anchors visible where applicable: Public Works Authority Hall, Survey Hall, Blue-Lamp Monument, Permit Yard Nook. The district should share Bastion Zero's constructborn identity, Stone, Ceramic Mosaic, Steel, Arcane Glow, and Dry Stone Paving, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Intimate and lived-in, with Bastion Zero's larger mood shaped by Living Gear Bastion of the First Construct, Alchemy Lab Beacon, and Clockwork Reliefs Iron Mandate Keep.",
+      "gameplayAssetNeeds": [
+        "Permit Yard Nook",
+        "Public Works Authority Hall",
+        "Survey Hall",
+        "Blue-Lamp Monument",
+        "Section 3 pedestrian-scale props",
+        "Bastion Zero civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Permit Yard Nook",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Permit Yard Nook",
+      "minorLandmarks": [
+        "Public Works Authority Hall",
+        "Survey Hall",
+        "Blue-Lamp Monument"
+      ]
+    },
+    {
+      "districtNumber": 18,
+      "districtId": "D18",
+      "sectionNumber": 3,
+      "name": "D18 — Public Works Authority Hall Supporting Streets",
+      "civicPurpose": "This district turns Section 3's source-backed anchor set into a board-scale civic space: Public Works Authority Hall, Survey Hall, Blue-Lamp Monument, Permit Yard Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Bastion Zero.",
+      "visualIdentity": "Use Public Works Authority Hall as the main read. Keep exact source anchors visible where applicable: Public Works Authority Hall, Survey Hall, Blue-Lamp Monument, Permit Yard Nook. The district should share Bastion Zero's constructborn identity, Stone, Ceramic Mosaic, Steel, Arcane Glow, and Dry Stone Paving, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Connective and practical, with Bastion Zero's larger mood shaped by Living Gear Bastion of the First Construct, Alchemy Lab Beacon, and Clockwork Reliefs Iron Mandate Keep.",
+      "gameplayAssetNeeds": [
+        "Public Works Authority Hall",
+        "Survey Hall",
+        "Blue-Lamp Monument",
+        "Permit Yard Nook",
+        "Section 3 pedestrian-scale props",
+        "Bastion Zero civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Public Works Authority Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Public Works Authority Hall",
+      "minorLandmarks": [
+        "Survey Hall",
+        "Blue-Lamp Monument",
+        "Permit Yard Nook"
+      ]
+    },
+    {
+      "districtNumber": 11,
+      "districtId": "D11",
+      "sectionNumber": 4,
+      "name": "D11 — University / Lyceum Civic Hall Civic-Anchor Precinct",
+      "civicPurpose": "This district turns Section 4's source-backed anchor set into a board-scale civic space: University / Lyceum Civic Hall, Lecture Hall, Star Navigation Monument, Observatory Court Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Bastion Zero.",
+      "visualIdentity": "Use University / Lyceum Civic Hall as the main read. Keep exact source anchors visible where applicable: University / Lyceum Civic Hall, Lecture Hall, Star Navigation Monument, Observatory Court Nook. The district should share Bastion Zero's constructborn identity, Stone, Ceramic Mosaic, Steel, Arcane Glow, and Dry Stone Paving, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Locally grounded, with Bastion Zero's larger mood shaped by Living Gear Bastion of the First Construct, Alchemy Lab Beacon, and Clockwork Reliefs Iron Mandate Keep.",
+      "gameplayAssetNeeds": [
+        "University / Lyceum Civic Hall",
+        "Lecture Hall",
+        "Star Navigation Monument",
+        "Observatory Court Nook",
+        "Section 4 pedestrian-scale props",
+        "Bastion Zero civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on University / Lyceum Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "University / Lyceum Civic Hall",
+      "minorLandmarks": [
+        "Lecture Hall",
+        "Star Navigation Monument",
+        "Observatory Court Nook"
+      ]
+    },
+    {
+      "districtNumber": 16,
+      "districtId": "D16",
+      "sectionNumber": 4,
+      "name": "D16 — Lecture Hall Landmark Approach",
+      "civicPurpose": "This district turns Section 4's source-backed anchor set into a board-scale civic space: University / Lyceum Civic Hall, Lecture Hall, Star Navigation Monument, Observatory Court Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Bastion Zero.",
+      "visualIdentity": "Use Lecture Hall as the main read. Keep exact source anchors visible where applicable: University / Lyceum Civic Hall, Lecture Hall, Star Navigation Monument, Observatory Court Nook. The district should share Bastion Zero's constructborn identity, Stone, Ceramic Mosaic, Steel, Arcane Glow, and Dry Stone Paving, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Public-facing, with Bastion Zero's larger mood shaped by Living Gear Bastion of the First Construct, Alchemy Lab Beacon, and Clockwork Reliefs Iron Mandate Keep.",
+      "gameplayAssetNeeds": [
+        "Lecture Hall",
+        "University / Lyceum Civic Hall",
+        "Star Navigation Monument",
+        "Observatory Court Nook",
+        "Section 4 pedestrian-scale props",
+        "Bastion Zero civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Lecture Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Lecture Hall",
+      "minorLandmarks": [
+        "University / Lyceum Civic Hall",
+        "Star Navigation Monument",
+        "Observatory Court Nook"
+      ]
+    },
+    {
+      "districtNumber": 17,
+      "districtId": "D17",
+      "sectionNumber": 4,
+      "name": "D17 — Star Navigation Monument Monument Frontage",
+      "civicPurpose": "This district turns Section 4's source-backed anchor set into a board-scale civic space: University / Lyceum Civic Hall, Lecture Hall, Star Navigation Monument, Observatory Court Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Bastion Zero.",
+      "visualIdentity": "Use Star Navigation Monument as the main read. Keep exact source anchors visible where applicable: University / Lyceum Civic Hall, Lecture Hall, Star Navigation Monument, Observatory Court Nook. The district should share Bastion Zero's constructborn identity, Stone, Ceramic Mosaic, Steel, Arcane Glow, and Dry Stone Paving, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Memorial or symbolic, with Bastion Zero's larger mood shaped by Living Gear Bastion of the First Construct, Alchemy Lab Beacon, and Clockwork Reliefs Iron Mandate Keep.",
+      "gameplayAssetNeeds": [
+        "Star Navigation Monument",
+        "University / Lyceum Civic Hall",
+        "Lecture Hall",
+        "Observatory Court Nook",
+        "Section 4 pedestrian-scale props",
+        "Bastion Zero civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Star Navigation Monument",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Star Navigation Monument",
+      "minorLandmarks": [
+        "University / Lyceum Civic Hall",
+        "Lecture Hall",
+        "Observatory Court Nook"
+      ]
+    },
+    {
+      "districtNumber": 21,
+      "districtId": "D21",
+      "sectionNumber": 4,
+      "name": "D21 — Observatory Court Nook Neighborhood Nook",
+      "civicPurpose": "This district turns Section 4's source-backed anchor set into a board-scale civic space: University / Lyceum Civic Hall, Lecture Hall, Star Navigation Monument, Observatory Court Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Bastion Zero.",
+      "visualIdentity": "Use Observatory Court Nook as the main read. Keep exact source anchors visible where applicable: University / Lyceum Civic Hall, Lecture Hall, Star Navigation Monument, Observatory Court Nook. The district should share Bastion Zero's constructborn identity, Stone, Ceramic Mosaic, Steel, Arcane Glow, and Dry Stone Paving, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Intimate and lived-in, with Bastion Zero's larger mood shaped by Living Gear Bastion of the First Construct, Alchemy Lab Beacon, and Clockwork Reliefs Iron Mandate Keep.",
+      "gameplayAssetNeeds": [
+        "Observatory Court Nook",
+        "University / Lyceum Civic Hall",
+        "Lecture Hall",
+        "Star Navigation Monument",
+        "Section 4 pedestrian-scale props",
+        "Bastion Zero civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Observatory Court Nook",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Observatory Court Nook",
+      "minorLandmarks": [
+        "University / Lyceum Civic Hall",
+        "Lecture Hall",
+        "Star Navigation Monument"
+      ]
+    },
+    {
+      "districtNumber": 22,
+      "districtId": "D22",
+      "sectionNumber": 4,
+      "name": "D22 — University / Lyceum Civic Hall Supporting Streets",
+      "civicPurpose": "This district turns Section 4's source-backed anchor set into a board-scale civic space: University / Lyceum Civic Hall, Lecture Hall, Star Navigation Monument, Observatory Court Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Bastion Zero.",
+      "visualIdentity": "Use University / Lyceum Civic Hall as the main read. Keep exact source anchors visible where applicable: University / Lyceum Civic Hall, Lecture Hall, Star Navigation Monument, Observatory Court Nook. The district should share Bastion Zero's constructborn identity, Stone, Ceramic Mosaic, Steel, Arcane Glow, and Dry Stone Paving, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Connective and practical, with Bastion Zero's larger mood shaped by Living Gear Bastion of the First Construct, Alchemy Lab Beacon, and Clockwork Reliefs Iron Mandate Keep.",
+      "gameplayAssetNeeds": [
+        "University / Lyceum Civic Hall",
+        "Lecture Hall",
+        "Star Navigation Monument",
+        "Observatory Court Nook",
+        "Section 4 pedestrian-scale props",
+        "Bastion Zero civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on University / Lyceum Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "University / Lyceum Civic Hall",
+      "minorLandmarks": [
+        "Lecture Hall",
+        "Star Navigation Monument",
+        "Observatory Court Nook"
+      ]
+    },
+    {
+      "districtNumber": 19,
+      "districtId": "D19",
+      "sectionNumber": 5,
+      "name": "D19 — Observatory / Astronomy Civic Hall Civic-Anchor Precinct",
+      "civicPurpose": "This district turns Section 5's source-backed anchor set into a board-scale civic space: Observatory / Astronomy Civic Hall, Star Observatory, Star Navigation Monument, Celestial Court Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Bastion Zero.",
+      "visualIdentity": "Use Observatory / Astronomy Civic Hall as the main read. Keep exact source anchors visible where applicable: Observatory / Astronomy Civic Hall, Star Observatory, Star Navigation Monument, Celestial Court Nook. The district should share Bastion Zero's constructborn identity, Stone, Ceramic Mosaic, Steel, Arcane Glow, and Dry Stone Paving, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Locally grounded, with Bastion Zero's larger mood shaped by Living Gear Bastion of the First Construct, Alchemy Lab Beacon, and Clockwork Reliefs Iron Mandate Keep.",
+      "gameplayAssetNeeds": [
+        "Observatory / Astronomy Civic Hall",
+        "Star Observatory",
+        "Star Navigation Monument",
+        "Celestial Court Nook",
+        "Section 5 pedestrian-scale props",
+        "Bastion Zero civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Observatory / Astronomy Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Observatory / Astronomy Civic Hall",
+      "minorLandmarks": [
+        "Star Observatory",
+        "Star Navigation Monument",
+        "Celestial Court Nook"
+      ]
+    },
+    {
+      "districtNumber": 20,
+      "districtId": "D20",
+      "sectionNumber": 5,
+      "name": "D20 — Star Observatory Landmark Approach",
+      "civicPurpose": "This district turns Section 5's source-backed anchor set into a board-scale civic space: Observatory / Astronomy Civic Hall, Star Observatory, Star Navigation Monument, Celestial Court Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Bastion Zero.",
+      "visualIdentity": "Use Star Observatory as the main read. Keep exact source anchors visible where applicable: Observatory / Astronomy Civic Hall, Star Observatory, Star Navigation Monument, Celestial Court Nook. The district should share Bastion Zero's constructborn identity, Stone, Ceramic Mosaic, Steel, Arcane Glow, and Dry Stone Paving, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Public-facing, with Bastion Zero's larger mood shaped by Living Gear Bastion of the First Construct, Alchemy Lab Beacon, and Clockwork Reliefs Iron Mandate Keep.",
+      "gameplayAssetNeeds": [
+        "Star Observatory",
+        "Observatory / Astronomy Civic Hall",
+        "Star Navigation Monument",
+        "Celestial Court Nook",
+        "Section 5 pedestrian-scale props",
+        "Bastion Zero civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Star Observatory",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Star Observatory",
+      "minorLandmarks": [
+        "Observatory / Astronomy Civic Hall",
+        "Star Navigation Monument",
+        "Celestial Court Nook"
+      ]
+    },
+    {
+      "districtNumber": 23,
+      "districtId": "D23",
+      "sectionNumber": 5,
+      "name": "D23 — Star Navigation Monument Monument Frontage",
+      "civicPurpose": "This district turns Section 5's source-backed anchor set into a board-scale civic space: Observatory / Astronomy Civic Hall, Star Observatory, Star Navigation Monument, Celestial Court Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Bastion Zero.",
+      "visualIdentity": "Use Star Navigation Monument as the main read. Keep exact source anchors visible where applicable: Observatory / Astronomy Civic Hall, Star Observatory, Star Navigation Monument, Celestial Court Nook. The district should share Bastion Zero's constructborn identity, Stone, Ceramic Mosaic, Steel, Arcane Glow, and Dry Stone Paving, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Memorial or symbolic, with Bastion Zero's larger mood shaped by Living Gear Bastion of the First Construct, Alchemy Lab Beacon, and Clockwork Reliefs Iron Mandate Keep.",
+      "gameplayAssetNeeds": [
+        "Star Navigation Monument",
+        "Observatory / Astronomy Civic Hall",
+        "Star Observatory",
+        "Celestial Court Nook",
+        "Section 5 pedestrian-scale props",
+        "Bastion Zero civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Star Navigation Monument",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Star Navigation Monument",
+      "minorLandmarks": [
+        "Observatory / Astronomy Civic Hall",
+        "Star Observatory",
+        "Celestial Court Nook"
+      ]
+    },
+    {
+      "districtNumber": 24,
+      "districtId": "D24",
+      "sectionNumber": 5,
+      "name": "D24 — Celestial Court Nook Neighborhood Nook",
+      "civicPurpose": "This district turns Section 5's source-backed anchor set into a board-scale civic space: Observatory / Astronomy Civic Hall, Star Observatory, Star Navigation Monument, Celestial Court Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Bastion Zero.",
+      "visualIdentity": "Use Celestial Court Nook as the main read. Keep exact source anchors visible where applicable: Observatory / Astronomy Civic Hall, Star Observatory, Star Navigation Monument, Celestial Court Nook. The district should share Bastion Zero's constructborn identity, Stone, Ceramic Mosaic, Steel, Arcane Glow, and Dry Stone Paving, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Intimate and lived-in, with Bastion Zero's larger mood shaped by Living Gear Bastion of the First Construct, Alchemy Lab Beacon, and Clockwork Reliefs Iron Mandate Keep.",
+      "gameplayAssetNeeds": [
+        "Celestial Court Nook",
+        "Observatory / Astronomy Civic Hall",
+        "Star Observatory",
+        "Star Navigation Monument",
+        "Section 5 pedestrian-scale props",
+        "Bastion Zero civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Celestial Court Nook",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Celestial Court Nook",
+      "minorLandmarks": [
+        "Observatory / Astronomy Civic Hall",
+        "Star Observatory",
+        "Star Navigation Monument"
+      ]
+    },
+    {
+      "districtNumber": 25,
+      "districtId": "D25",
+      "sectionNumber": 5,
+      "name": "D25 — Observatory / Astronomy Civic Hall Supporting Streets",
+      "civicPurpose": "This district turns Section 5's source-backed anchor set into a board-scale civic space: Observatory / Astronomy Civic Hall, Star Observatory, Star Navigation Monument, Celestial Court Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Bastion Zero.",
+      "visualIdentity": "Use Observatory / Astronomy Civic Hall as the main read. Keep exact source anchors visible where applicable: Observatory / Astronomy Civic Hall, Star Observatory, Star Navigation Monument, Celestial Court Nook. The district should share Bastion Zero's constructborn identity, Stone, Ceramic Mosaic, Steel, Arcane Glow, and Dry Stone Paving, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Connective and practical, with Bastion Zero's larger mood shaped by Living Gear Bastion of the First Construct, Alchemy Lab Beacon, and Clockwork Reliefs Iron Mandate Keep.",
+      "gameplayAssetNeeds": [
+        "Observatory / Astronomy Civic Hall",
+        "Star Observatory",
+        "Star Navigation Monument",
+        "Celestial Court Nook",
+        "Section 5 pedestrian-scale props",
+        "Bastion Zero civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Observatory / Astronomy Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Observatory / Astronomy Civic Hall",
+      "minorLandmarks": [
+        "Star Observatory",
+        "Star Navigation Monument",
+        "Celestial Court Nook"
+      ]
+    }
+  ],
+  "landmarks": {
+    "wonder": {
+      "name": "Living Gear Bastion of the First Construct",
+      "symbolicRole": "Living Gear Bastion of the First Construct concentrates Bastion Zero's local symbolism into a usable civic landmark: city wonder, separate far skyline anchor.",
+      "visualRole": "A one-per-city wonder: spectacular, unmistakable, and larger than every section landmark. It turns Bastion Zero's geography, race identity, material culture, and civic magic into one public symbol. Built for Bastion Zero's constructborn population, it uses Stone, Ceramic Mosaic, Steel, Arcane Glow, Copper across Dry Stone Paving, Civic Terraces; water context: dry city ground; magic expression: Ward Networks, Ritual Geometry, Construct Resonance. It must read clearly as a high-fantasy tactical-board asset with no baked labels or text.",
+      "civicRole": "Serves as city wonder, separate far skyline anchor within Bastion Zero; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+      "narrativeUse": [
+        "stage scenes involving Living Gear Bastion of the First Construct",
+        "show how Bastion Zero turns landmark symbolism into civic pressure",
+        "anchor public movement and crowd behavior",
+        "give writers a concrete place for announcements, disputes, errands, or rituals"
+      ],
+      "assetUse": [
+        "city landmark asset",
+        "map background landmark marker",
+        "visual continuity anchor across hero and street scenes",
+        "scale reference for civilians, roads, plazas, and props"
+      ],
+      "sensoryIdentity": [
+        "local foot traffic",
+        "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+        "public voices and civic work nearby",
+        "ambient city light and weathering",
+        "close pedestrian-scale details rather than abstract skyline-only treatment"
+      ],
+      "storyHooks": [
+        "a routine civic action at Living Gear Bastion of the First Construct becomes narratively important",
+        "the visible condition of Living Gear Bastion of the First Construct signals political or social stress",
+        "someone uses Living Gear Bastion of the First Construct's public function to redirect crowds or information",
+        "an overlooked detail at Living Gear Bastion of the First Construct reveals how Bastion Zero really works"
+      ]
+    },
+    "beacon": {
+      "name": "Alchemy Lab Beacon",
+      "symbolicRole": "Alchemy Lab Beacon concentrates Bastion Zero's local symbolism into a usable civic landmark: Section 1 beacon, near/front civic signal anchor.",
+      "visualRole": "A largest local landmark in this section, subordinate only to the city wonder and citadel. It belongs to Section 1 (Arcane / Alchemical Labs) of Bastion Zero and should use Archive Towers, Forge Halls, Subterranean Vaults, steel and bronze materials, Serpent Geometry, Civic Blue Glow, Lantern Lit, and the constructborn visual language. Design focus: safety wards, largest section focal point, strong vertical silhouette, distinct gameplay landmark, visible from nearby districts. Terrain/water context: Dry Stone Paving; Dry Ground. Magic expression: Glass Scrying, Fungal Communion, Threshold Oaths. No baked labels or text.",
+      "civicRole": "Serves as Section 1 beacon, near/front civic signal anchor within Bastion Zero; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+      "narrativeUse": [
+        "stage scenes involving Alchemy Lab Beacon",
+        "show how Bastion Zero turns landmark symbolism into civic pressure",
+        "anchor public movement and crowd behavior",
+        "give writers a concrete place for announcements, disputes, errands, or rituals"
+      ],
+      "assetUse": [
+        "district diorama anchor for Section 1",
+        "map background landmark marker",
+        "visual continuity anchor across hero and street scenes",
+        "scale reference for civilians, roads, plazas, and props"
+      ],
+      "sensoryIdentity": [
+        "local foot traffic",
+        "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+        "public voices and civic work nearby",
+        "beacon or lamp glow when applicable",
+        "close pedestrian-scale details rather than abstract skyline-only treatment"
+      ],
+      "storyHooks": [
+        "a routine civic action at Alchemy Lab Beacon becomes narratively important",
+        "the visible condition of Alchemy Lab Beacon signals political or social stress",
+        "someone uses Alchemy Lab Beacon's public function to redirect crowds or information",
+        "an overlooked detail at Alchemy Lab Beacon reveals how Bastion Zero really works"
+      ]
+    },
+    "seatOfPower": {
+      "name": "Clockwork Reliefs Iron Mandate Keep",
+      "symbolicRole": "Clockwork Reliefs Iron Mandate Keep concentrates Bastion Zero's local symbolism into a usable civic landmark: dominant central civic anchor / District 13 seat of power.",
+      "visualRole": "The district-13 seat of power: courts, audience terraces, sealed archives, command platforms, and the visible apparatus of government. It is not a faction HQ; it is the city's central civic authority. Built for Bastion Zero's constructborn population, it uses Stone, Ceramic Mosaic, Steel, Arcane Glow, Copper across Dry Stone Paving, Civic Terraces; water context: dry city ground; magic expression: Ward Networks, Ritual Geometry, Construct Resonance. It must read clearly as a high-fantasy tactical-board asset with no baked labels or text.",
+      "civicRole": "Serves as dominant central civic anchor / District 13 seat of power within Bastion Zero; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+      "narrativeUse": [
+        "stage scenes involving Clockwork Reliefs Iron Mandate Keep",
+        "show how Bastion Zero turns landmark symbolism into civic pressure",
+        "anchor public movement and crowd behavior",
+        "give writers a concrete place for announcements, disputes, errands, or rituals"
+      ],
+      "assetUse": [
+        "city landmark asset",
+        "map background landmark marker",
+        "visual continuity anchor across hero and street scenes",
+        "scale reference for civilians, roads, plazas, and props"
+      ],
+      "sensoryIdentity": [
+        "local foot traffic",
+        "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+        "public voices and civic work nearby",
+        "ambient city light and weathering",
+        "close pedestrian-scale details rather than abstract skyline-only treatment"
+      ],
+      "storyHooks": [
+        "a routine civic action at Clockwork Reliefs Iron Mandate Keep becomes narratively important",
+        "the visible condition of Clockwork Reliefs Iron Mandate Keep signals political or social stress",
+        "someone uses Clockwork Reliefs Iron Mandate Keep's public function to redirect crowds or information",
+        "an overlooked detail at Clockwork Reliefs Iron Mandate Keep reveals how Bastion Zero really works"
+      ]
+    },
+    "majorLandmarks": [
+      {
+        "name": "Star Observatory",
+        "symbolicRole": "Star Observatory concentrates Bastion Zero's local symbolism into a usable civic landmark: additional major landmark selected for this hero-view camera angle.",
+        "visualRole": "A largest local landmark in this section, subordinate only to the city wonder and citadel. It belongs to Section 5 (Observatory / Astronomy) of Bastion Zero and should use Lecture Courts, Cliffside Monasteries, Archive Towers, steel and bronze materials, Civic Blue Glow, Star Navigation, Moon Gate Arches, and the constructborn visual language. Design focus: visible from nearby districts, stars, lenses, brass rings, moon dials. Terrain/water context: Dry Stone Paving; Dry Ground. Magic expression: Glass Scrying, Fungal Communion, Threshold Oaths. No baked labels or text.",
+        "civicRole": "Serves as additional major landmark selected for this hero-view camera angle within Bastion Zero; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Star Observatory",
+          "show how Bastion Zero turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 5",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Star Observatory becomes narratively important",
+          "the visible condition of Star Observatory signals political or social stress",
+          "someone uses Star Observatory's public function to redirect crowds or information",
+          "an overlooked detail at Star Observatory reveals how Bastion Zero really works"
+        ]
+      },
+      {
+        "name": "Border Wall",
+        "symbolicRole": "Border Wall concentrates Bastion Zero's local symbolism into a usable civic landmark: additional major landmark selected for this hero-view camera angle.",
+        "visualRole": "A largest local landmark in this section, subordinate only to the city wonder and citadel. It belongs to Section 2 (Fortress / Border Wall) of Bastion Zero and should use Cyclopean Megaliths, White Limestone Civic Blocks, Obsidian Fortresses, steel and bronze materials, Carved Totems, Civic Blue Glow, Woven Banners, and the constructborn visual language. Design focus: curtain walls, gatehouses, bastions, guard posts, largest section focal point. Terrain/water context: Dry Stone Paving; Dry Ground. Magic expression: Glass Scrying, Fungal Communion, Threshold Oaths. No baked labels or text.",
+        "civicRole": "Serves as additional major landmark selected for this hero-view camera angle within Bastion Zero; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Border Wall",
+          "show how Bastion Zero turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 2",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Border Wall becomes narratively important",
+          "the visible condition of Border Wall signals political or social stress",
+          "someone uses Border Wall's public function to redirect crowds or information",
+          "an overlooked detail at Border Wall reveals how Bastion Zero really works"
+        ]
+      },
+      {
+        "name": "Lecture Hall",
+        "symbolicRole": "Lecture Hall concentrates Bastion Zero's local symbolism into a usable civic landmark: additional major landmark selected for this hero-view camera angle.",
+        "visualRole": "A largest local landmark in this section, subordinate only to the city wonder and citadel. It belongs to Section 4 (University / Lyceum) of Bastion Zero and should use Lecture Courts, Archive Towers, White Limestone Civic Blocks, steel and bronze materials, Civic Blue Glow, Star Navigation, Lantern Lit, and the constructborn visual language. Design focus: largest section focal point, strong vertical silhouette, distinct gameplay landmark, visible from nearby districts, books. Terrain/water context: Dry Stone Paving; Dry Ground. Magic expression: Glass Scrying, Fungal Communion, Threshold Oaths. No baked labels or text.",
+        "civicRole": "Serves as additional major landmark selected for this hero-view camera angle within Bastion Zero; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Lecture Hall",
+          "show how Bastion Zero turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 4",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Lecture Hall becomes narratively important",
+          "the visible condition of Lecture Hall signals political or social stress",
+          "someone uses Lecture Hall's public function to redirect crowds or information",
+          "an overlooked detail at Lecture Hall reveals how Bastion Zero really works"
+        ]
+      },
+      {
+        "name": "Arcane / Alchemical Labs Civic Hall",
+        "symbolicRole": "Arcane / Alchemical Labs Civic Hall concentrates Bastion Zero's local symbolism into a usable civic landmark: Section 1 local anchor.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing. It belongs to Section 1 (Arcane / Alchemical Labs) of Bastion Zero and should use Subterranean Vaults, Archive Towers, Forge Halls, steel and bronze materials, Serpent Geometry, Civic Blue Glow, Lantern Lit, and the constructborn visual language. Design focus: containment courts, safety wards, institutional anchor, public-facing administration, clear central silhouette. Terrain/water context: Dry Stone Paving; Dry Ground. Magic expression: Glass Scrying, Fungal Communion, Threshold Oaths. No baked labels or text.",
+        "civicRole": "Serves as Section 1 local anchor within Bastion Zero; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Arcane / Alchemical Labs Civic Hall",
+          "show how Bastion Zero turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 1",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Arcane / Alchemical Labs Civic Hall becomes narratively important",
+          "the visible condition of Arcane / Alchemical Labs Civic Hall signals political or social stress",
+          "someone uses Arcane / Alchemical Labs Civic Hall's public function to redirect crowds or information",
+          "an overlooked detail at Arcane / Alchemical Labs Civic Hall reveals how Bastion Zero really works"
+        ]
+      },
+      {
+        "name": "Blue-Lamp Monument",
+        "symbolicRole": "Blue-Lamp Monument concentrates Bastion Zero's local symbolism into a usable civic landmark: Section 1 local anchor.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles. It belongs to Section 1 (Arcane / Alchemical Labs) of Bastion Zero and should use Subterranean Vaults, Archive Towers, Forge Halls, steel and bronze materials, Serpent Geometry, Civic Blue Glow, Lantern Lit, and the constructborn visual language. Design focus: retorts, runes, colored vapors, sealed jars, laboratories. Terrain/water context: Dry Stone Paving; Dry Ground. Magic expression: Glass Scrying, Fungal Communion, Threshold Oaths. No baked labels or text.",
+        "civicRole": "Serves as Section 1 local anchor within Bastion Zero; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Blue-Lamp Monument",
+          "show how Bastion Zero turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 1",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Blue-Lamp Monument becomes narratively important",
+          "the visible condition of Blue-Lamp Monument signals political or social stress",
+          "someone uses Blue-Lamp Monument's public function to redirect crowds or information",
+          "an overlooked detail at Blue-Lamp Monument reveals how Bastion Zero really works"
+        ]
+      },
+      {
+        "name": "Formula Archive Nook",
+        "symbolicRole": "Formula Archive Nook concentrates Bastion Zero's local symbolism into a usable civic landmark: Section 1 local anchor.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette. It belongs to Section 1 (Arcane / Alchemical Labs) of Bastion Zero and should use Subterranean Vaults, Archive Towers, Forge Halls, steel and bronze materials, Lantern Lit, Serpent Geometry, Civic Blue Glow, and the constructborn visual language. Design focus: small local identity prop, street-level detail, usable board landmark, subordinate scale, retorts. Terrain/water context: Dry Stone Paving; Dry Ground. Magic expression: Glass Scrying, Fungal Communion, Threshold Oaths. No baked labels or text.",
+        "civicRole": "Serves as Section 1 local anchor within Bastion Zero; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Formula Archive Nook",
+          "show how Bastion Zero turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 1",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Formula Archive Nook becomes narratively important",
+          "the visible condition of Formula Archive Nook signals political or social stress",
+          "someone uses Formula Archive Nook's public function to redirect crowds or information",
+          "an overlooked detail at Formula Archive Nook reveals how Bastion Zero really works"
+        ]
+      },
+      {
+        "name": "Fortress / Border Wall Civic Hall",
+        "symbolicRole": "Fortress / Border Wall Civic Hall concentrates Bastion Zero's local symbolism into a usable civic landmark: Section 2 local anchor.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing. It belongs to Section 2 (Fortress / Border Wall) of Bastion Zero and should use Obsidian Fortresses, Cyclopean Megaliths, White Limestone Civic Blocks, steel and bronze materials, Woven Banners, Carved Totems, Civic Blue Glow, and the constructborn visual language. Design focus: shield marks, signal fires, curtain walls, gatehouses, bastions. Terrain/water context: Dry Stone Paving; Dry Ground. Magic expression: Glass Scrying, Fungal Communion, Threshold Oaths. No baked labels or text.",
+        "civicRole": "Serves as Section 2 local anchor within Bastion Zero; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Fortress / Border Wall Civic Hall",
+          "show how Bastion Zero turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 2",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Fortress / Border Wall Civic Hall becomes narratively important",
+          "the visible condition of Fortress / Border Wall Civic Hall signals political or social stress",
+          "someone uses Fortress / Border Wall Civic Hall's public function to redirect crowds or information",
+          "an overlooked detail at Fortress / Border Wall Civic Hall reveals how Bastion Zero really works"
+        ]
+      },
+      {
+        "name": "Woven Banners Monument",
+        "symbolicRole": "Woven Banners Monument concentrates Bastion Zero's local symbolism into a usable civic landmark: Section 2 local anchor.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles. It belongs to Section 2 (Fortress / Border Wall) of Bastion Zero and should use Cyclopean Megaliths, White Limestone Civic Blocks, Obsidian Fortresses, steel and bronze materials, Carved Totems, Civic Blue Glow, Woven Banners, and the constructborn visual language. Design focus: small ceremonial site, local memory marker, subordinate to major landmark, walls, portcullises. Terrain/water context: Dry Stone Paving; Dry Ground. Magic expression: Glass Scrying, Fungal Communion, Threshold Oaths. No baked labels or text.",
+        "civicRole": "Serves as Section 2 local anchor within Bastion Zero; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Woven Banners Monument",
+          "show how Bastion Zero turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 2",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Woven Banners Monument becomes narratively important",
+          "the visible condition of Woven Banners Monument signals political or social stress",
+          "someone uses Woven Banners Monument's public function to redirect crowds or information",
+          "an overlooked detail at Woven Banners Monument reveals how Bastion Zero really works"
+        ]
+      },
+      {
+        "name": "Watch Bastion Nook",
+        "symbolicRole": "Watch Bastion Nook concentrates Bastion Zero's local symbolism into a usable civic landmark: Section 2 local anchor.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette. It belongs to Section 2 (Fortress / Border Wall) of Bastion Zero and should use Cyclopean Megaliths, White Limestone Civic Blocks, Obsidian Fortresses, steel and bronze materials, Civic Blue Glow, Woven Banners, Carved Totems, and the constructborn visual language. Design focus: guard posts, small local identity prop, street-level detail, usable board landmark, subordinate scale. Terrain/water context: Dry Stone Paving; Dry Ground. Magic expression: Glass Scrying, Fungal Communion, Threshold Oaths. No baked labels or text.",
+        "civicRole": "Serves as Section 2 local anchor within Bastion Zero; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Watch Bastion Nook",
+          "show how Bastion Zero turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 2",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Watch Bastion Nook becomes narratively important",
+          "the visible condition of Watch Bastion Nook signals political or social stress",
+          "someone uses Watch Bastion Nook's public function to redirect crowds or information",
+          "an overlooked detail at Watch Bastion Nook reveals how Bastion Zero really works"
+        ]
+      },
+      {
+        "name": "Public Works Authority Hall",
+        "symbolicRole": "Public Works Authority Hall concentrates Bastion Zero's local symbolism into a usable civic landmark: Section 3 local anchor.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing. It belongs to Section 3 (Public Works Authority) of Bastion Zero and should use Market Arcades, White Limestone Civic Blocks, Forge Halls, steel and bronze materials, Gold Seals, Civic Blue Glow, Canal Reflections, and the constructborn visual language. Design focus: public-facing administration, clear central silhouette, board-readable entrance, measuring rods, scaffolds. Terrain/water context: Dry Stone Paving; Dry Ground. Magic expression: Glass Scrying, Fungal Communion, Threshold Oaths. No baked labels or text.",
+        "civicRole": "Serves as Section 3 local anchor within Bastion Zero; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Public Works Authority Hall",
+          "show how Bastion Zero turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 3",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Public Works Authority Hall becomes narratively important",
+          "the visible condition of Public Works Authority Hall signals political or social stress",
+          "someone uses Public Works Authority Hall's public function to redirect crowds or information",
+          "an overlooked detail at Public Works Authority Hall reveals how Bastion Zero really works"
+        ]
+      },
+      {
+        "name": "Survey Hall",
+        "symbolicRole": "Survey Hall concentrates Bastion Zero's local symbolism into a usable civic landmark: Section 3 local anchor.",
+        "visualRole": "A mandatory Section 3 Beacon: a culturally adapted civic signal flame / warning-light landmark visible across the city spine. It belongs to Section 3 (Public Works Authority) of Bastion Zero and should use White Limestone Civic Blocks, Forge Halls, Market Arcades, steel and bronze materials, Gold Seals, Civic Blue Glow, Canal Reflections, and the constructborn visual language. Design focus: visible from nearby districts, measuring rods, scaffolds, stone plans, water gauges. Terrain/water context: Dry Stone Paving; Dry Ground. Magic expression: Glass Scrying, Fungal Communion, Threshold Oaths. No baked labels or text.",
+        "civicRole": "Serves as Section 3 local anchor within Bastion Zero; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Survey Hall",
+          "show how Bastion Zero turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 3",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Survey Hall becomes narratively important",
+          "the visible condition of Survey Hall signals political or social stress",
+          "someone uses Survey Hall's public function to redirect crowds or information",
+          "an overlooked detail at Survey Hall reveals how Bastion Zero really works"
+        ]
+      },
+      {
+        "name": "Blue-Lamp Monument",
+        "symbolicRole": "Blue-Lamp Monument concentrates Bastion Zero's local symbolism into a usable civic landmark: Section 3 local anchor.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles. It belongs to Section 3 (Public Works Authority) of Bastion Zero and should use White Limestone Civic Blocks, Forge Halls, Market Arcades, steel and bronze materials, Canal Reflections, Gold Seals, Civic Blue Glow, and the constructborn visual language. Design focus: local memory marker, subordinate to major landmark, measuring rods, scaffolds, stone plans. Terrain/water context: Dry Stone Paving; Dry Ground. Magic expression: Glass Scrying, Fungal Communion, Threshold Oaths. No baked labels or text.",
+        "civicRole": "Serves as Section 3 local anchor within Bastion Zero; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Blue-Lamp Monument",
+          "show how Bastion Zero turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 3",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Blue-Lamp Monument becomes narratively important",
+          "the visible condition of Blue-Lamp Monument signals political or social stress",
+          "someone uses Blue-Lamp Monument's public function to redirect crowds or information",
+          "an overlooked detail at Blue-Lamp Monument reveals how Bastion Zero really works"
+        ]
+      },
+      {
+        "name": "Permit Yard Nook",
+        "symbolicRole": "Permit Yard Nook concentrates Bastion Zero's local symbolism into a usable civic landmark: Section 3 local anchor.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette. It belongs to Section 3 (Public Works Authority) of Bastion Zero and should use Forge Halls, Market Arcades, White Limestone Civic Blocks, steel and bronze materials, Canal Reflections, Gold Seals, Civic Blue Glow, and the constructborn visual language. Design focus: bridge offices, repair yards, small local identity prop, street-level detail, usable board landmark. Terrain/water context: Dry Stone Paving; Dry Ground. Magic expression: Glass Scrying, Fungal Communion, Threshold Oaths. No baked labels or text.",
+        "civicRole": "Serves as Section 3 local anchor within Bastion Zero; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Permit Yard Nook",
+          "show how Bastion Zero turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 3",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Permit Yard Nook becomes narratively important",
+          "the visible condition of Permit Yard Nook signals political or social stress",
+          "someone uses Permit Yard Nook's public function to redirect crowds or information",
+          "an overlooked detail at Permit Yard Nook reveals how Bastion Zero really works"
+        ]
+      },
+      {
+        "name": "University / Lyceum Civic Hall",
+        "symbolicRole": "University / Lyceum Civic Hall concentrates Bastion Zero's local symbolism into a usable civic landmark: Section 4 local anchor.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing. It belongs to Section 4 (University / Lyceum) of Bastion Zero and should use White Limestone Civic Blocks, Lecture Courts, Archive Towers, steel and bronze materials, Lantern Lit, Civic Blue Glow, Star Navigation, and the constructborn visual language. Design focus: study courts, institutional anchor, public-facing administration, clear central silhouette, board-readable entrance. Terrain/water context: Dry Stone Paving; Dry Ground. Magic expression: Glass Scrying, Fungal Communion, Threshold Oaths. No baked labels or text.",
+        "civicRole": "Serves as Section 4 local anchor within Bastion Zero; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving University / Lyceum Civic Hall",
+          "show how Bastion Zero turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 4",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at University / Lyceum Civic Hall becomes narratively important",
+          "the visible condition of University / Lyceum Civic Hall signals political or social stress",
+          "someone uses University / Lyceum Civic Hall's public function to redirect crowds or information",
+          "an overlooked detail at University / Lyceum Civic Hall reveals how Bastion Zero really works"
+        ]
+      },
+      {
+        "name": "Star Navigation Monument",
+        "symbolicRole": "Star Navigation Monument concentrates Bastion Zero's local symbolism into a usable civic landmark: Section 4 local anchor.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles. It belongs to Section 4 (University / Lyceum) of Bastion Zero and should use Archive Towers, White Limestone Civic Blocks, Lecture Courts, steel and bronze materials, Lantern Lit, Civic Blue Glow, Star Navigation, and the constructborn visual language. Design focus: local memory marker, subordinate to major landmark, books, ink, star charts. Terrain/water context: Dry Stone Paving; Dry Ground. Magic expression: Glass Scrying, Fungal Communion, Threshold Oaths. No baked labels or text.",
+        "civicRole": "Serves as Section 4 local anchor within Bastion Zero; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Star Navigation Monument",
+          "show how Bastion Zero turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 4",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Star Navigation Monument becomes narratively important",
+          "the visible condition of Star Navigation Monument signals political or social stress",
+          "someone uses Star Navigation Monument's public function to redirect crowds or information",
+          "an overlooked detail at Star Navigation Monument reveals how Bastion Zero really works"
+        ]
+      },
+      {
+        "name": "Observatory Court Nook",
+        "symbolicRole": "Observatory Court Nook concentrates Bastion Zero's local symbolism into a usable civic landmark: Section 4 local anchor.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette. It belongs to Section 4 (University / Lyceum) of Bastion Zero and should use Lecture Courts, Archive Towers, White Limestone Civic Blocks, steel and bronze materials, Star Navigation, Lantern Lit, Civic Blue Glow, and the constructborn visual language. Design focus: study cloisters, study courts, small local identity prop, street-level detail, usable board landmark. Terrain/water context: Dry Stone Paving; Dry Ground. Magic expression: Glass Scrying, Fungal Communion, Threshold Oaths. No baked labels or text.",
+        "civicRole": "Serves as Section 4 local anchor within Bastion Zero; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Observatory Court Nook",
+          "show how Bastion Zero turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 4",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Observatory Court Nook becomes narratively important",
+          "the visible condition of Observatory Court Nook signals political or social stress",
+          "someone uses Observatory Court Nook's public function to redirect crowds or information",
+          "an overlooked detail at Observatory Court Nook reveals how Bastion Zero really works"
+        ]
+      },
+      {
+        "name": "Observatory / Astronomy Civic Hall",
+        "symbolicRole": "Observatory / Astronomy Civic Hall concentrates Bastion Zero's local symbolism into a usable civic landmark: Section 5 local anchor.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing. It belongs to Section 5 (Observatory / Astronomy) of Bastion Zero and should use Cliffside Monasteries, Archive Towers, Lecture Courts, steel and bronze materials, Moon Gate Arches, Civic Blue Glow, Star Navigation, and the constructborn visual language. Design focus: star charts, institutional anchor, public-facing administration, clear central silhouette, board-readable entrance. Terrain/water context: Dry Stone Paving; Dry Ground. Magic expression: Glass Scrying, Fungal Communion, Threshold Oaths. No baked labels or text.",
+        "civicRole": "Serves as Section 5 local anchor within Bastion Zero; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Observatory / Astronomy Civic Hall",
+          "show how Bastion Zero turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 5",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Observatory / Astronomy Civic Hall becomes narratively important",
+          "the visible condition of Observatory / Astronomy Civic Hall signals political or social stress",
+          "someone uses Observatory / Astronomy Civic Hall's public function to redirect crowds or information",
+          "an overlooked detail at Observatory / Astronomy Civic Hall reveals how Bastion Zero really works"
+        ]
+      },
+      {
+        "name": "Star Navigation Monument",
+        "symbolicRole": "Star Navigation Monument concentrates Bastion Zero's local symbolism into a usable civic landmark: Section 5 local anchor.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles. It belongs to Section 5 (Observatory / Astronomy) of Bastion Zero and should use Archive Towers, Lecture Courts, Cliffside Monasteries, steel and bronze materials, Moon Gate Arches, Civic Blue Glow, Star Navigation, and the constructborn visual language. Design focus: lenses, brass rings, moon dials, observatories, lens towers. Terrain/water context: Dry Stone Paving; Dry Ground. Magic expression: Glass Scrying, Fungal Communion, Threshold Oaths. No baked labels or text.",
+        "civicRole": "Serves as Section 5 local anchor within Bastion Zero; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Star Navigation Monument",
+          "show how Bastion Zero turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 5",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Star Navigation Monument becomes narratively important",
+          "the visible condition of Star Navigation Monument signals political or social stress",
+          "someone uses Star Navigation Monument's public function to redirect crowds or information",
+          "an overlooked detail at Star Navigation Monument reveals how Bastion Zero really works"
+        ]
+      },
+      {
+        "name": "Celestial Court Nook",
+        "symbolicRole": "Celestial Court Nook concentrates Bastion Zero's local symbolism into a usable civic landmark: Section 5 local anchor.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette. It belongs to Section 5 (Observatory / Astronomy) of Bastion Zero and should use Cliffside Monasteries, Archive Towers, Lecture Courts, steel and bronze materials, Star Navigation, Moon Gate Arches, Civic Blue Glow, and the constructborn visual language. Design focus: moon dials, observatories, lens towers, calendar courts, star charts. Terrain/water context: Dry Stone Paving; Dry Ground. Magic expression: Glass Scrying, Fungal Communion, Threshold Oaths. No baked labels or text.",
+        "civicRole": "Serves as Section 5 local anchor within Bastion Zero; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Celestial Court Nook",
+          "show how Bastion Zero turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 5",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Celestial Court Nook becomes narratively important",
+          "the visible condition of Celestial Court Nook signals political or social stress",
+          "someone uses Celestial Court Nook's public function to redirect crowds or information",
+          "an overlooked detail at Celestial Court Nook reveals how Bastion Zero really works"
+        ]
+      }
+    ]
+  },
+  "assetGuidance": {
+    "districtDioramaGuidance": [
+      "Dioramas must support 25 district slots: S1 covers D01, D02, D03, D06, D07 and uses source-backed anchors Arcane / Alchemical Labs Civic Hall, Alchemy Lab Beacon, Blue-Lamp Monument, Formula Archive Nook.",
+      "Dioramas must support 25 district slots: S2 covers D04, D05, D09, D10, D15 and uses source-backed anchors Fortress / Border Wall Civic Hall, Border Wall, Woven Banners Monument, Watch Bastion Nook.",
+      "Dioramas must support 25 district slots: S3 covers D08, D12, D13, D14, D18 and uses source-backed anchors Public Works Authority Hall, Survey Hall, Blue-Lamp Monument, Permit Yard Nook.",
+      "Dioramas must support 25 district slots: S4 covers D11, D16, D17, D21, D22 and uses source-backed anchors University / Lyceum Civic Hall, Lecture Hall, Star Navigation Monument, Observatory Court Nook.",
+      "Dioramas must support 25 district slots: S5 covers D19, D20, D23, D24, D25 and uses source-backed anchors Observatory / Astronomy Civic Hall, Star Observatory, Star Navigation Monument, Celestial Court Nook."
+    ],
+    "mapBackgroundGuidance": [
+      "Map backgrounds must show Living Gear Bastion of the First Construct as the wonder-scale identity anchor, Clockwork Reliefs Iron Mandate Keep at D13, and Alchemy Lab Beacon as the city signal landmark.",
+      "Preserve the five-section spine: S1 Arcane / Alchemical Labs Civic Hall, S2 Fortress / Border Wall Civic Hall, S3 Public Works Authority Hall, S4 University / Lyceum Civic Hall, S5 Observatory / Astronomy Civic Hall.",
+      "Use roads, terrain, water, civic terraces, walls, markets, courts, or service routes only where they support the exact city identity and tactical readability."
+    ],
+    "requiredVisualElements": [
+      "Living Gear Bastion of the First Construct",
+      "Alchemy Lab Beacon",
+      "Clockwork Reliefs Iron Mandate Keep",
+      "Star Observatory",
+      "Border Wall",
+      "Lecture Hall",
+      "Arcane / Alchemical Labs Civic Hall",
+      "Blue-Lamp Monument",
+      "Formula Archive Nook",
+      "Fortress / Border Wall Civic Hall",
+      "Woven Banners Monument",
+      "Watch Bastion Nook",
+      "Public Works Authority Hall",
+      "Survey Hall",
+      "Permit Yard Nook",
+      "University / Lyceum Civic Hall",
+      "Star Navigation Monument",
+      "Observatory Court Nook",
+      "Observatory / Astronomy Civic Hall",
+      "Celestial Court Nook",
+      "Stone",
+      "Ceramic Mosaic",
+      "Steel",
+      "Arcane Glow",
+      "Copper",
+      "Dry Stone Paving",
+      "Civic Terraces",
+      "Ward Networks",
+      "Ritual Geometry",
+      "Construct Resonance"
+    ],
+    "elementsToAvoid": [
+      "extra top-level schema sections or research-log content in the JSON",
+      "generic fantasy architecture that ignores exact anchor names",
+      "invented missing street anchors",
+      "readable real-world text labels baked into images",
+      "collapsing the 25-district board into only five playable spaces",
+      "making landmarks decorative when they should have civic, narrative, and asset function"
+    ]
+  }
+}

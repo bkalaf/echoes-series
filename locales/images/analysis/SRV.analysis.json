@@ -1,1 +1,1833 @@
-{"metadata":{"schemaVersion":"2.0","analysisVersion":2,"cityCode":"SRV","cityName":"Suryavaad","analysisConfidence":"strong-lock"},"sourceModel":"5 section sidecars; 25 board district slots inherit section anchors.","boardStructure":{"model":"25-seat map","seatOfPowerDistrict":"D13","sections":[{"sectionNumber":1,"districts":["D01","D02","D03","D06","D07"]},{"sectionNumber":2,"districts":["D04","D05","D09","D10","D15"]},{"sectionNumber":3,"districts":["D08","D12","D13","D14","D18"]},{"sectionNumber":4,"districts":["D11","D16","D17","D21","D22"]},{"sectionNumber":5,"districts":["D19","D20","D23","D24","D25"]}],"note":"Each section contains five district slots. This analysis keeps all 25 slots explicit while preserving only source-backed section-level landmark names."},"sections":[{"n":1,"name":"Canal / Riverworks"},{"n":2,"name":"Granary / Food Market"},{"n":3,"name":"Records / Archives"},{"n":4,"name":"Medical / Healing"},{"n":5,"name":"Necropolis / Ancestor Quarter"}],"districts":["D01","D02","D03","D04","D05","D06","D07","D08","D09","D10","D11","D12","D13","D14","D15","D16","D17","D18","D19","D20","D21","D22","D23","D24","D25"],"landmarks":{"wonder":"Indian Lotus Stepwell of the Seven Lamps","beacon":"Lock House Beacon","seatOfPower":"Lotus Reliefs Sovereign Registry Court"}}
+{
+  "metadata": {
+    "schemaVersion": "2.0",
+    "analysisVersion": 2,
+    "cityCode": "SRV",
+    "cityName": "Suryavaad",
+    "analysisDate": "2026-07-05",
+    "analystVersion": "gpt-5.5-thinking",
+    "analysisConfidence": "strong-lock",
+    "basedOnImages": [
+      "SRV-HERO-NE-v001",
+      "SRV-HERO-NW-v001",
+      "SRV-HERO-SE-v001",
+      "SRV-HERO-SW-v001",
+      "SRV-STREET-S1-v001",
+      "SRV-STREET-S2-v001",
+      "SRV-STREET-S3-v001",
+      "SRV-STREET-S4-v001",
+      "SRV-STREET-S5-v001"
+    ],
+    "basedOnSidecars": [
+      "SRV-HERO-NE-v001.json",
+      "SRV-HERO-NW-v001.json",
+      "SRV-HERO-SE-v001.json",
+      "SRV-HERO-SW-v001.json",
+      "SRV-STREET-S1-v001.json",
+      "SRV-STREET-S2-v001.json",
+      "SRV-STREET-S3-v001.json",
+      "SRV-STREET-S4-v001.json",
+      "SRV-STREET-S5-v001.json"
+    ]
+  },
+  "cityDNA": {
+    "coreFantasy": "A Indian / South Asian city where Canal / Riverworks, Granary / Food Market, Records / Archives, Medical / Healing, and Necropolis / Ancestor Quarter turn Riverside, Floodplain, and Canal Basin, River, and Civic Blue Illumination, Oath Seals, and River Blessing into civic order.",
+    "primaryEmotion": "fluid civic presence",
+    "secondaryEmotion": "solemn pressure",
+    "readerTakeaway": "Suryavaad should feel like a fully usable civilization: its landmarks are not decoration, but the places where movement, memory, authority, labor, and public identity become visible.",
+    "civilizationThesis": "Suryavaad organizes itself through Canal / Riverworks, Granary / Food Market, Records / Archives, Medical / Healing, and Necropolis / Ancestor Quarter. The city’s visible grammar should always connect landscape, materials, daily work, and civic magic rather than letting any one element become generic fantasy dressing.",
+    "visualIdentity": "Teak, Red Brick, Limestone Blocks, Silk, and Arcane Glow; Riverside, Floodplain, and Canal Basin; River; section landmarks such as Lock House Beacon, Grain Hall, Archive Tower, Healing Hall, and Ancestor Vault; and the city-defining trio of Indian Lotus Stepwell of the Seven Lamps, Lock House Beacon, and Lotus Reliefs Sovereign Registry Court.",
+    "culturalIdentity": "Suryavaad belongs to a Indian / South Asian population whose public life should be expressed through architecture, movement, civic ritual, tools, housing, food, and body language rather than only costume or ornament.",
+    "symbolicIdentity": "Indian Lotus Stepwell of the Seven Lamps expresses the citywide mythic identity; Lock House Beacon expresses public warning and convergence; Lotus Reliefs Sovereign Registry Court expresses the civic legitimacy of District 13."
+  },
+  "canon": {
+    "canonLocks": [
+      "Suryavaad is a Indian / South Asian city; its identity must be visible through built form, street life, and civic use.",
+      "The Wonder is Indian Lotus Stepwell of the Seven Lamps.",
+      "The Beacon is Lock House Beacon.",
+      "The Seat of Power is Lotus Reliefs Sovereign Registry Court and belongs to central District 13.",
+      "The five section identities are: S1 Canal / Riverworks, S2 Granary / Food Market, S3 Records / Archives, S4 Medical / Healing, S5 Necropolis / Ancestor Quarter.",
+      "S1 preserves the source-backed anchor Canal / Riverworks Civic Hall (CIVIC_CENTER).",
+      "S1 preserves the source-backed anchor Lock House Beacon (MAJOR_LANDMARK).",
+      "S1 preserves the source-backed anchor Canal Reflections Monument (MONUMENT).",
+      "S1 preserves the source-backed anchor Waterwheel Court Nook (MINOR_LANDMARK).",
+      "S2 preserves the source-backed anchor Granary / Food Market Civic Hall (CIVIC_CENTER).",
+      "S2 preserves the source-backed anchor Grain Hall (MAJOR_LANDMARK).",
+      "S2 preserves the source-backed anchor Awning Monument (MONUMENT).",
+      "S2 preserves the source-backed anchor Mill Court Nook (MINOR_LANDMARK).",
+      "S3 preserves the source-backed anchor Records / Archives Hall (CIVIC_CENTER).",
+      "S3 preserves the source-backed anchor Archive Tower (MAJOR_LANDMARK).",
+      "S3 preserves the source-backed anchor Records Archives Gold-Seal Monument (MONUMENT).",
+      "S3 preserves the source-backed anchor Copyist Hall Nook (MINOR_LANDMARK).",
+      "S4 preserves the source-backed anchor Medical / Healing Civic Hall (CIVIC_CENTER).",
+      "S4 preserves the source-backed anchor Healing Hall (MAJOR_LANDMARK).",
+      "S4 preserves the source-backed anchor Medical Healing Lantern Monument (MONUMENT).",
+      "S4 preserves the source-backed anchor Apothecary Court Nook (MINOR_LANDMARK).",
+      "S5 preserves the source-backed anchor Necropolis / Ancestor Quarter Civic Hall (CIVIC_CENTER).",
+      "S5 preserves the source-backed anchor Ancestor Vault (MAJOR_LANDMARK).",
+      "S5 preserves the source-backed anchor Ancestor Masks Monument (MONUMENT).",
+      "S5 preserves the source-backed anchor Bone Lantern Path Nook (MINOR_LANDMARK)."
+    ],
+    "provisionalCanon": [
+      "Suryavaad's civic customs should be inferred from source-backed section functions: Canal / Riverworks, Granary / Food Market, Records / Archives, Medical / Healing, and Necropolis / Ancestor Quarter.",
+      "Local politics likely emerge from the tension between public service, landmark access, and the authority of D13, but specific factions should not be invented here."
+    ],
+    "rejectedReads": [
+      "Suryavaad as a generic fantasy city with interchangeable districts.",
+      "Landmarks as empty decoration rather than civic tools.",
+      "Race or culture identity expressed only through clothing while architecture and institutions remain generic.",
+      "Invented street anchors for any missing street section."
+    ],
+    "cautionFlags": [
+      "Preserve exact names for Wonder, Beacon, Seat of Power, section civic halls, section landmarks, monuments, and minor nooks.",
+      "Do not add character-specific observations to the city analysis.",
+      "Keep every district usable for prose, diorama generation, and map background generation.",
+      "Use uncertainty only in metadata or provisional canon; do not pad missing evidence with speculation."
+    ]
+  },
+  "environment": {
+    "terrain": [
+      "Riverside",
+      "Floodplain",
+      "Canal Basin",
+      "Canal / Riverworks public ground",
+      "Granary / Food Market public ground",
+      "Records / Archives public ground",
+      "Medical / Healing public ground",
+      "Necropolis / Ancestor Quarter public ground"
+    ],
+    "water": [
+      "River",
+      "water infrastructure visible through Canal / Riverworks"
+    ],
+    "vegetation": [
+      "Hanging Gardens",
+      "Reed Pavilions",
+      "gardens",
+      "reeds",
+      "cypress trees"
+    ],
+    "climateLighting": [
+      "daylight that makes civic silhouettes board-readable",
+      "lantern-lit public approaches",
+      "civic blue illumination at signal or authority points",
+      "localized lighting shaped by Civic Blue Illumination, Oath Seals, and River Blessing",
+      "street shadow under arcades, halls, platforms, or canopy forms"
+    ],
+    "environmentalLogic": "Suryavaad's environment should be written as infrastructure. Riverside, Floodplain, and Canal Basin and River determine how citizens move, where crowds gather, where authority can be seen, and how each section feels under pressure."
+  },
+  "architecture": {
+    "materials": [
+      "Teak",
+      "Red Brick",
+      "Limestone Blocks",
+      "Silk",
+      "Arcane Glow"
+    ],
+    "forms": [
+      "Archive Tower",
+      "Lock House",
+      "Market Arcades",
+      "Reed Pavilions",
+      "Step Pyramids",
+      "Subterranean Vaults",
+      "Temple Platforms",
+      "Timber Longhouses",
+      "White Limestone Civic Blocks"
+    ],
+    "skyline": [
+      "Indian Lotus Stepwell of the Seven Lamps as the far citywide wonder silhouette.",
+      "Lotus Reliefs Sovereign Registry Court as the central D13 authority mass.",
+      "Lock House Beacon as the public signal landmark.",
+      "Section landmarks remain subordinate to the Wonder and Seat but must be readable: Lock House Beacon, Grain Hall, Archive Tower, Healing Hall, and Ancestor Vault."
+    ],
+    "lighting": [
+      "civic blue illumination at beacon and authority points",
+      "lantern light in public thresholds",
+      "warm practical light from shops and homes",
+      "Civic Blue Illumination, Oath Seals, and River Blessing expressed as restrained civic effect rather than spectacle alone"
+    ],
+    "infrastructure": [
+      "audience terraces",
+      "bakeries",
+      "command platforms",
+      "courts",
+      "mourning paths",
+      "sealed archives",
+      "sluice wheels",
+      "storage jars",
+      "water gauges"
+    ],
+    "motifs": [
+      "Ancestor Masks",
+      "Bone White Ceremony",
+      "Canal Reflections",
+      "Gold Seals",
+      "Hanging Gardens",
+      "Lantern Lit",
+      "Red Fabric Awnings",
+      "Woven Banners"
+    ],
+    "colorLanguage": [
+      "colors derived from Teak, Red Brick, Limestone Blocks, Silk, and Arcane Glow",
+      "civic blue for signal, oath, or authority moments",
+      "warm street colors for shops, homes, and food stalls",
+      "section-specific accent colors tied to landmark function"
+    ],
+    "textureLanguage": [
+      "worked textures of Teak, Red Brick, Limestone Blocks, Silk, and Arcane Glow",
+      "worn public paving at district approaches",
+      "handled wood, cloth, reed, stone, or metal at street scale",
+      "official surfaces at civic halls, D13 courts, and named landmarks"
+    ]
+  },
+  "civilization": {
+    "people": "Suryavaad's people are Indian / South Asian. They should move, gesture, dress, work, and gather according to the city’s section functions rather than appearing as generic crowds.",
+    "occupations": [
+      "lock keepers",
+      "water engineers",
+      "reed cutters",
+      "sluice inspectors",
+      "surveyors",
+      "permit clerks",
+      "repair crews",
+      "municipal engineers",
+      "market sellers",
+      "granary keepers",
+      "bakers",
+      "spice clerks",
+      "price callers",
+      "copyists",
+      "archivists",
+      "seal readers",
+      "name clerks",
+      "mourning guides"
+    ],
+    "socialClasses": [
+      "D13 officials, registry staff, judges, or civic command families",
+      "section civic-hall administrators and landmark attendants",
+      "craft, trade, food, route, shrine, archive, or service guild families",
+      "street vendors, apprentices, runners, porters, and maintenance workers",
+      "households whose status is legible through proximity to named landmarks and public approaches"
+    ],
+    "governance": "Governance is centered on Lotus Reliefs Sovereign Registry Court, but citizens experience authority through section halls, permit counters, procession routes, market rules, warning signals, and the public visibility of the Beacon.",
+    "religion": "Religion and ritual should emerge through section evidence: sacred groves, shrines, temples, ancestor quarters, vows, processions, lamps, memorials, or civic magic where source-backed.",
+    "customs": [
+      "citizens orient by named landmarks rather than abstract street addresses",
+      "public notices and civic signals are treated as social facts",
+      "section identity shapes work rhythms, festival routes, food habits, and greetings",
+      "households preserve small visual signs of their relation to nearby halls, shrines, markets, or work yards",
+      "crowds read beacon changes, D13 messengers, and landmark access as political weather"
+    ],
+    "bodyLanguage": [
+      "habitual glances toward the Beacon or D13 when public pressure rises",
+      "rank-conscious spacing near halls, courts, gates, and counters",
+      "work gestures shaped by tools, ledgers, baskets, lamps, platforms, or ritual objects",
+      "section-specific ways of queuing, bargaining, processing, mourning, or carrying goods",
+      "practical familiarity with terraces, arcades, courtyards, and side lanes"
+    ],
+    "speechPatterns": [
+      "citizens reference exact landmark names in directions and gossip",
+      "official speech uses seals, sections, district numbers, and public obligations",
+      "market and work speech remains compressed, local, and landmark-aware",
+      "ceremonial speech becomes formal near Wonder, Beacon, Seat, temple, shrine, or ancestor anchors",
+      "outsiders are corrected when they genericize a named civic anchor"
+    ]
+  },
+  "urbanLife": {
+    "streets": {
+      "appearance": "Streets should foreground Teak, Red Brick, Limestone Blocks, Silk, and Arcane Glow, section-specific props, named local landmarks, D13 authority sightlines, and the daily relationship between Canal / Riverworks, Granary / Food Market, Records / Archives, Medical / Healing, and Necropolis / Ancestor Quarter.",
+      "movement": "Movement follows district adjacency and section identity: S1 through S5 each have five district slots, while D13 remains the central seat-of-power node around Lotus Reliefs Sovereign Registry Court.",
+      "sounds": [
+        "foot traffic shifting around landmark approaches",
+        "vendors, clerks, attendants, or guards calling section-specific instructions",
+        "tools, carts, bells, lamps, water, banners, or crowds depending on section function",
+        "distant beacon reaction when civic signals change",
+        "private household sounds from side lanes behind public halls"
+      ],
+      "smells": [
+        "worked city materials under sun or lantern heat",
+        "street food and household cooking",
+        "lamp oil, damp stone, dust, reed, wood, incense, metal, or archive paper according to section",
+        "crowd smell at public approaches",
+        "vegetation or water smells where source-backed"
+      ],
+      "lighting": "Use practical street light first: daylight, shade, lanterns, and civic blue accents. Magic should reinforce civic identity rather than overtake every street.",
+      "weatherEffects": "Weather should change how crowds read landmarks: glare, rain, mist, dust, cold, humidity, wind, or wet paving can hide, reveal, or delay public action.",
+      "dayCycle": "Morning emphasizes food, work, maintenance, permission-seeking, trade preparation, ritual cleaning, and civic notices.",
+      "nightCycle": "Night shifts to lamps, quieter side courts, guarded landmarks, late markets, household thresholds, watch routines, and beacon visibility."
+    },
+    "shops": {
+      "common": [
+        "food stalls shaped by local staples",
+        "lamp and cloth vendors",
+        "tool repair counters",
+        "ledger or notice copyists",
+        "basket, crate, reed, stone, timber, or metal workers",
+        "section-specific service stalls"
+      ],
+      "uncommon": [
+        "landmark-token engravers",
+        "specialist map, ritual, archive, or route counters",
+        "beacon-lamp maintenance shops",
+        "district emblem painters",
+        "official-seal accessory makers"
+      ],
+      "prestigious": [
+        "D13 document ateliers",
+        "Wonder-facing ceremonial suppliers",
+        "elite guild or temple workshops",
+        "landmark restoration houses",
+        "high-status court, archive, shrine, or civic contractors"
+      ],
+      "exports": [
+        "goods using Teak, Red Brick, Limestone Blocks, Silk, and Arcane Glow",
+        "craft traditions tied to Indian / South Asian civic identity",
+        "section-specific tools, records, ritual goods, food goods, or transport services",
+        "recognizable landmark miniatures, seals, lamps, textiles, or carved emblems"
+      ],
+      "imports": [
+        "rare pigments, spices, glass, metal fittings, fine timber, ceremonial cloth, and replacement tools",
+        "raw materials not available in local terrain",
+        "foods and ritual supplies needed for section festivals"
+      ],
+      "streetFood": [
+        "portable breads or cakes",
+        "spiced stews or broths",
+        "grilled market foods",
+        "sweet festival bites",
+        "tea, fermented drinks, or cooling drinks",
+        "section-specific food sold near civic halls"
+      ],
+      "services": [
+        "directions by landmark and district",
+        "permit help",
+        "message running",
+        "lamp maintenance",
+        "ritual preparation",
+        "tool repair",
+        "public notice reading",
+        "queue mediation"
+      ]
+    },
+    "housing": {
+      "wealthy": "Large homes cluster near central authority, prestigious landmark approaches, garden courts, or high terraces, with ornament that repeats city motifs without overwhelming civic structures.",
+      "middle": "Shop-homes, courtyard houses, upper rooms, workshop apartments, and shared terraces connect directly to section work rhythms.",
+      "poor": "Small rooms, backstreet courts, temporary structures, and service-side housing remain visually tied to the city through lamps, fabrics, recycled materials, and landmark-facing orientation."
+    }
+  },
+  "districts": [
+    {
+      "districtNumber": 1,
+      "districtCode": "D01",
+      "sectionNumber": 1,
+      "sectionName": "Canal / Riverworks",
+      "name": "Canal / Riverworks — Civic Threshold",
+      "civicPurpose": "This district handles public approach, first contact, notices, and movement control for Canal / Riverworks. In scenes, it should show how water access, movement control, maintenance, arrival rituals, and civic dependence on managed flows becomes a street-level system.",
+      "visualIdentity": "Canal / Riverworks identity rendered through sluice wheels, water gauges, wet stone, reed edges, Teak, Red Brick, Limestone Blocks, Silk, and Arcane Glow, local crowds, and the visible approach to Canal / Riverworks Civic Hall.",
+      "emotionalIdentity": "fluid, reflective, threshold-oriented, and practical",
+      "gameplayAssetNeeds": [
+        "Canal / Riverworks Civic Hall",
+        "Lock House Beacon",
+        "Canal Reflections Monument",
+        "Waterwheel Court Nook",
+        "Canal / Riverworks street props",
+        "Indian / South Asian civilians using the district",
+        "clear board-readable pathing and gathering space"
+      ],
+      "narrativeUse": [
+        "stage canal / riverworks scenes without needing to reopen concept art",
+        "show how ordinary citizens react to public pressure",
+        "give characters a concrete approach, obstacle, or meeting point",
+        "translate citywide crisis into district-scale behavior",
+        "support diorama generation with landmark-specific props"
+      ],
+      "primaryLandmark": "Canal / Riverworks Civic Hall",
+      "minorLandmarks": [
+        "Lock House Beacon",
+        "Canal Reflections Monument",
+        "Waterwheel Court Nook"
+      ]
+    },
+    {
+      "districtNumber": 2,
+      "districtCode": "D02",
+      "sectionNumber": 1,
+      "sectionName": "Canal / Riverworks",
+      "name": "Canal / Riverworks — Landmark Court",
+      "civicPurpose": "This district handles the local landmark’s visible plaza, vertical silhouette, and immediate public use for Canal / Riverworks. In scenes, it should show how water access, movement control, maintenance, arrival rituals, and civic dependence on managed flows becomes a street-level system.",
+      "visualIdentity": "Canal / Riverworks identity rendered through sluice wheels, water gauges, wet stone, reed edges, Teak, Red Brick, Limestone Blocks, Silk, and Arcane Glow, local crowds, and the visible approach to Lock House Beacon.",
+      "emotionalIdentity": "fluid, reflective, threshold-oriented, and practical",
+      "gameplayAssetNeeds": [
+        "Lock House Beacon",
+        "Canal / Riverworks Civic Hall",
+        "Canal Reflections Monument",
+        "Waterwheel Court Nook",
+        "Canal / Riverworks street props",
+        "Indian / South Asian civilians using the district",
+        "clear board-readable pathing and gathering space"
+      ],
+      "narrativeUse": [
+        "stage canal / riverworks scenes without needing to reopen concept art",
+        "show how ordinary citizens react to public pressure",
+        "give characters a concrete approach, obstacle, or meeting point",
+        "translate citywide crisis into district-scale behavior",
+        "support diorama generation with landmark-specific props"
+      ],
+      "primaryLandmark": "Lock House Beacon",
+      "minorLandmarks": [
+        "Canal / Riverworks Civic Hall",
+        "Canal Reflections Monument",
+        "Waterwheel Court Nook"
+      ]
+    },
+    {
+      "districtNumber": 3,
+      "districtCode": "D03",
+      "sectionNumber": 1,
+      "sectionName": "Canal / Riverworks",
+      "name": "Canal / Riverworks — Monument Plaza",
+      "civicPurpose": "This district handles ceremony, memory, civic symbolism, and formal gatherings for Canal / Riverworks. In scenes, it should show how water access, movement control, maintenance, arrival rituals, and civic dependence on managed flows becomes a street-level system.",
+      "visualIdentity": "Canal / Riverworks identity rendered through sluice wheels, water gauges, wet stone, reed edges, Teak, Red Brick, Limestone Blocks, Silk, and Arcane Glow, local crowds, and the visible approach to Canal Reflections Monument.",
+      "emotionalIdentity": "fluid, reflective, threshold-oriented, and practical",
+      "gameplayAssetNeeds": [
+        "Canal Reflections Monument",
+        "Canal / Riverworks Civic Hall",
+        "Lock House Beacon",
+        "Waterwheel Court Nook",
+        "Canal / Riverworks street props",
+        "Indian / South Asian civilians using the district",
+        "clear board-readable pathing and gathering space"
+      ],
+      "narrativeUse": [
+        "stage canal / riverworks scenes without needing to reopen concept art",
+        "show how ordinary citizens react to public pressure",
+        "give characters a concrete approach, obstacle, or meeting point",
+        "translate citywide crisis into district-scale behavior",
+        "support diorama generation with landmark-specific props"
+      ],
+      "primaryLandmark": "Canal Reflections Monument",
+      "minorLandmarks": [
+        "Canal / Riverworks Civic Hall",
+        "Lock House Beacon",
+        "Waterwheel Court Nook"
+      ]
+    },
+    {
+      "districtNumber": 4,
+      "districtCode": "D04",
+      "sectionNumber": 2,
+      "sectionName": "Granary / Food Market",
+      "name": "Granary / Food Market — Civic Threshold",
+      "civicPurpose": "This district handles public approach, first contact, notices, and movement control for Granary / Food Market. In scenes, it should show how trade, provisioning, price-setting, storage, and the public circulation of food, goods, and local news becomes a street-level system.",
+      "visualIdentity": "Granary / Food Market identity rendered through covered stalls, storage jars, auction tables, food awnings, Teak, Red Brick, Limestone Blocks, Silk, and Arcane Glow, local crowds, and the visible approach to Granary / Food Market Civic Hall.",
+      "emotionalIdentity": "busy, bargaining, fragrant, and public",
+      "gameplayAssetNeeds": [
+        "Granary / Food Market Civic Hall",
+        "Grain Hall",
+        "Awning Monument",
+        "Mill Court Nook",
+        "Granary / Food Market street props",
+        "Indian / South Asian civilians using the district",
+        "clear board-readable pathing and gathering space"
+      ],
+      "narrativeUse": [
+        "stage granary / food market scenes without needing to reopen concept art",
+        "show how ordinary citizens react to public pressure",
+        "give characters a concrete approach, obstacle, or meeting point",
+        "translate citywide crisis into district-scale behavior",
+        "support diorama generation with landmark-specific props"
+      ],
+      "primaryLandmark": "Granary / Food Market Civic Hall",
+      "minorLandmarks": [
+        "Grain Hall",
+        "Awning Monument",
+        "Mill Court Nook"
+      ]
+    },
+    {
+      "districtNumber": 5,
+      "districtCode": "D05",
+      "sectionNumber": 2,
+      "sectionName": "Granary / Food Market",
+      "name": "Granary / Food Market — Landmark Court",
+      "civicPurpose": "This district handles the local landmark’s visible plaza, vertical silhouette, and immediate public use for Granary / Food Market. In scenes, it should show how trade, provisioning, price-setting, storage, and the public circulation of food, goods, and local news becomes a street-level system.",
+      "visualIdentity": "Granary / Food Market identity rendered through covered stalls, storage jars, auction tables, food awnings, Teak, Red Brick, Limestone Blocks, Silk, and Arcane Glow, local crowds, and the visible approach to Grain Hall.",
+      "emotionalIdentity": "busy, bargaining, fragrant, and public",
+      "gameplayAssetNeeds": [
+        "Grain Hall",
+        "Granary / Food Market Civic Hall",
+        "Awning Monument",
+        "Mill Court Nook",
+        "Granary / Food Market street props",
+        "Indian / South Asian civilians using the district",
+        "clear board-readable pathing and gathering space"
+      ],
+      "narrativeUse": [
+        "stage granary / food market scenes without needing to reopen concept art",
+        "show how ordinary citizens react to public pressure",
+        "give characters a concrete approach, obstacle, or meeting point",
+        "translate citywide crisis into district-scale behavior",
+        "support diorama generation with landmark-specific props"
+      ],
+      "primaryLandmark": "Grain Hall",
+      "minorLandmarks": [
+        "Granary / Food Market Civic Hall",
+        "Awning Monument",
+        "Mill Court Nook"
+      ]
+    },
+    {
+      "districtNumber": 6,
+      "districtCode": "D06",
+      "sectionNumber": 1,
+      "sectionName": "Canal / Riverworks",
+      "name": "Canal / Riverworks — Service Arcade",
+      "civicPurpose": "This district handles small shops, workers, storage, and everyday support around the section for Canal / Riverworks. In scenes, it should show how water access, movement control, maintenance, arrival rituals, and civic dependence on managed flows becomes a street-level system.",
+      "visualIdentity": "Canal / Riverworks identity rendered through sluice wheels, water gauges, wet stone, reed edges, Teak, Red Brick, Limestone Blocks, Silk, and Arcane Glow, local crowds, and the visible approach to Waterwheel Court Nook.",
+      "emotionalIdentity": "fluid, reflective, threshold-oriented, and practical",
+      "gameplayAssetNeeds": [
+        "Waterwheel Court Nook",
+        "Canal / Riverworks Civic Hall",
+        "Lock House Beacon",
+        "Canal Reflections Monument",
+        "Canal / Riverworks street props",
+        "Indian / South Asian civilians using the district",
+        "clear board-readable pathing and gathering space"
+      ],
+      "narrativeUse": [
+        "stage canal / riverworks scenes without needing to reopen concept art",
+        "show how ordinary citizens react to public pressure",
+        "give characters a concrete approach, obstacle, or meeting point",
+        "translate citywide crisis into district-scale behavior",
+        "support diorama generation with landmark-specific props"
+      ],
+      "primaryLandmark": "Waterwheel Court Nook",
+      "minorLandmarks": [
+        "Canal / Riverworks Civic Hall",
+        "Lock House Beacon",
+        "Canal Reflections Monument"
+      ]
+    },
+    {
+      "districtNumber": 7,
+      "districtCode": "D07",
+      "sectionNumber": 1,
+      "sectionName": "Canal / Riverworks",
+      "name": "Canal / Riverworks — Residential / Backstreet Edge",
+      "civicPurpose": "This district handles housing, side lanes, minor courts, and private daily routines for Canal / Riverworks. In scenes, it should show how water access, movement control, maintenance, arrival rituals, and civic dependence on managed flows becomes a street-level system.",
+      "visualIdentity": "Canal / Riverworks identity rendered through sluice wheels, water gauges, wet stone, reed edges, Teak, Red Brick, Limestone Blocks, Silk, and Arcane Glow, local crowds, and the visible approach to Lock House Beacon.",
+      "emotionalIdentity": "fluid, reflective, threshold-oriented, and practical",
+      "gameplayAssetNeeds": [
+        "Lock House Beacon",
+        "Canal / Riverworks Civic Hall",
+        "Canal Reflections Monument",
+        "Waterwheel Court Nook",
+        "Canal / Riverworks street props",
+        "Indian / South Asian civilians using the district",
+        "clear board-readable pathing and gathering space"
+      ],
+      "narrativeUse": [
+        "stage canal / riverworks scenes without needing to reopen concept art",
+        "show how ordinary citizens react to public pressure",
+        "give characters a concrete approach, obstacle, or meeting point",
+        "translate citywide crisis into district-scale behavior",
+        "support diorama generation with landmark-specific props"
+      ],
+      "primaryLandmark": "Lock House Beacon",
+      "minorLandmarks": [
+        "Canal / Riverworks Civic Hall",
+        "Canal Reflections Monument",
+        "Waterwheel Court Nook"
+      ]
+    },
+    {
+      "districtNumber": 8,
+      "districtCode": "D08",
+      "sectionNumber": 3,
+      "sectionName": "Records / Archives",
+      "name": "Records / Archives — Civic Threshold",
+      "civicPurpose": "This district handles public approach, first contact, notices, and movement control for Records / Archives. In scenes, it should show how recordkeeping, oath custody, public memory, administrative proof, and controlled access to names and obligations becomes a street-level system.",
+      "visualIdentity": "Records / Archives identity rendered through copyist desks, sealed shelves, record tablets, lamp-lit archives, Teak, Red Brick, Limestone Blocks, Silk, and Arcane Glow, local crowds, and the visible approach to Records / Archives Hall.",
+      "emotionalIdentity": "quiet, exacting, watchful, and bureaucratically sacred",
+      "gameplayAssetNeeds": [
+        "Records / Archives Hall",
+        "Archive Tower",
+        "Records Archives Gold-Seal Monument",
+        "Copyist Hall Nook",
+        "Records / Archives street props",
+        "Indian / South Asian civilians using the district",
+        "clear board-readable pathing and gathering space"
+      ],
+      "narrativeUse": [
+        "stage records / archives scenes without needing to reopen concept art",
+        "show how ordinary citizens react to public pressure",
+        "give characters a concrete approach, obstacle, or meeting point",
+        "translate citywide crisis into district-scale behavior",
+        "support diorama generation with landmark-specific props"
+      ],
+      "primaryLandmark": "Records / Archives Hall",
+      "minorLandmarks": [
+        "Archive Tower",
+        "Records Archives Gold-Seal Monument",
+        "Copyist Hall Nook"
+      ]
+    },
+    {
+      "districtNumber": 9,
+      "districtCode": "D09",
+      "sectionNumber": 2,
+      "sectionName": "Granary / Food Market",
+      "name": "Granary / Food Market — Monument Plaza",
+      "civicPurpose": "This district handles ceremony, memory, civic symbolism, and formal gatherings for Granary / Food Market. In scenes, it should show how trade, provisioning, price-setting, storage, and the public circulation of food, goods, and local news becomes a street-level system.",
+      "visualIdentity": "Granary / Food Market identity rendered through covered stalls, storage jars, auction tables, food awnings, Teak, Red Brick, Limestone Blocks, Silk, and Arcane Glow, local crowds, and the visible approach to Awning Monument.",
+      "emotionalIdentity": "busy, bargaining, fragrant, and public",
+      "gameplayAssetNeeds": [
+        "Awning Monument",
+        "Granary / Food Market Civic Hall",
+        "Grain Hall",
+        "Mill Court Nook",
+        "Granary / Food Market street props",
+        "Indian / South Asian civilians using the district",
+        "clear board-readable pathing and gathering space"
+      ],
+      "narrativeUse": [
+        "stage granary / food market scenes without needing to reopen concept art",
+        "show how ordinary citizens react to public pressure",
+        "give characters a concrete approach, obstacle, or meeting point",
+        "translate citywide crisis into district-scale behavior",
+        "support diorama generation with landmark-specific props"
+      ],
+      "primaryLandmark": "Awning Monument",
+      "minorLandmarks": [
+        "Granary / Food Market Civic Hall",
+        "Grain Hall",
+        "Mill Court Nook"
+      ]
+    },
+    {
+      "districtNumber": 10,
+      "districtCode": "D10",
+      "sectionNumber": 2,
+      "sectionName": "Granary / Food Market",
+      "name": "Granary / Food Market — Service Arcade",
+      "civicPurpose": "This district handles small shops, workers, storage, and everyday support around the section for Granary / Food Market. In scenes, it should show how trade, provisioning, price-setting, storage, and the public circulation of food, goods, and local news becomes a street-level system.",
+      "visualIdentity": "Granary / Food Market identity rendered through covered stalls, storage jars, auction tables, food awnings, Teak, Red Brick, Limestone Blocks, Silk, and Arcane Glow, local crowds, and the visible approach to Mill Court Nook.",
+      "emotionalIdentity": "busy, bargaining, fragrant, and public",
+      "gameplayAssetNeeds": [
+        "Mill Court Nook",
+        "Granary / Food Market Civic Hall",
+        "Grain Hall",
+        "Awning Monument",
+        "Granary / Food Market street props",
+        "Indian / South Asian civilians using the district",
+        "clear board-readable pathing and gathering space"
+      ],
+      "narrativeUse": [
+        "stage granary / food market scenes without needing to reopen concept art",
+        "show how ordinary citizens react to public pressure",
+        "give characters a concrete approach, obstacle, or meeting point",
+        "translate citywide crisis into district-scale behavior",
+        "support diorama generation with landmark-specific props"
+      ],
+      "primaryLandmark": "Mill Court Nook",
+      "minorLandmarks": [
+        "Granary / Food Market Civic Hall",
+        "Grain Hall",
+        "Awning Monument"
+      ]
+    },
+    {
+      "districtNumber": 11,
+      "districtCode": "D11",
+      "sectionNumber": 4,
+      "sectionName": "Medical / Healing",
+      "name": "Medical / Healing — Civic Threshold",
+      "civicPurpose": "This district handles public approach, first contact, notices, and movement control for Medical / Healing. In scenes, it should show how local administration, public gathering, routine services, and the daily translation of city identity into usable streets becomes a street-level system.",
+      "visualIdentity": "Medical / Healing identity rendered through civic signs, public lamps, side courts, local kiosks, Teak, Red Brick, Limestone Blocks, Silk, and Arcane Glow, local crowds, and the visible approach to Medical / Healing Civic Hall.",
+      "emotionalIdentity": "lived-in, readable, and civic",
+      "gameplayAssetNeeds": [
+        "Medical / Healing Civic Hall",
+        "Healing Hall",
+        "Medical Healing Lantern Monument",
+        "Apothecary Court Nook",
+        "Medical / Healing street props",
+        "Indian / South Asian civilians using the district",
+        "clear board-readable pathing and gathering space"
+      ],
+      "narrativeUse": [
+        "stage medical / healing scenes without needing to reopen concept art",
+        "show how ordinary citizens react to public pressure",
+        "give characters a concrete approach, obstacle, or meeting point",
+        "translate citywide crisis into district-scale behavior",
+        "support diorama generation with landmark-specific props"
+      ],
+      "primaryLandmark": "Medical / Healing Civic Hall",
+      "minorLandmarks": [
+        "Healing Hall",
+        "Medical Healing Lantern Monument",
+        "Apothecary Court Nook"
+      ]
+    },
+    {
+      "districtNumber": 12,
+      "districtCode": "D12",
+      "sectionNumber": 3,
+      "sectionName": "Records / Archives",
+      "name": "Records / Archives — Landmark Court",
+      "civicPurpose": "This district handles the local landmark’s visible plaza, vertical silhouette, and immediate public use for Records / Archives. In scenes, it should show how recordkeeping, oath custody, public memory, administrative proof, and controlled access to names and obligations becomes a street-level system.",
+      "visualIdentity": "Records / Archives identity rendered through copyist desks, sealed shelves, record tablets, lamp-lit archives, Teak, Red Brick, Limestone Blocks, Silk, and Arcane Glow, local crowds, and the visible approach to Archive Tower.",
+      "emotionalIdentity": "quiet, exacting, watchful, and bureaucratically sacred",
+      "gameplayAssetNeeds": [
+        "Archive Tower",
+        "Records / Archives Hall",
+        "Records Archives Gold-Seal Monument",
+        "Copyist Hall Nook",
+        "Records / Archives street props",
+        "Indian / South Asian civilians using the district",
+        "clear board-readable pathing and gathering space"
+      ],
+      "narrativeUse": [
+        "stage records / archives scenes without needing to reopen concept art",
+        "show how ordinary citizens react to public pressure",
+        "give characters a concrete approach, obstacle, or meeting point",
+        "translate citywide crisis into district-scale behavior",
+        "support diorama generation with landmark-specific props"
+      ],
+      "primaryLandmark": "Archive Tower",
+      "minorLandmarks": [
+        "Records / Archives Hall",
+        "Records Archives Gold-Seal Monument",
+        "Copyist Hall Nook"
+      ]
+    },
+    {
+      "districtNumber": 13,
+      "districtCode": "D13",
+      "sectionNumber": 3,
+      "sectionName": "Records / Archives",
+      "name": "Records / Archives — Monument Plaza",
+      "civicPurpose": "This district handles ceremony, memory, civic symbolism, and formal gatherings for Records / Archives. In scenes, it should show how recordkeeping, oath custody, public memory, administrative proof, and controlled access to names and obligations becomes a street-level system.",
+      "visualIdentity": "Records / Archives identity rendered through copyist desks, sealed shelves, record tablets, lamp-lit archives, Teak, Red Brick, Limestone Blocks, Silk, and Arcane Glow, local crowds, and the visible approach to Lotus Reliefs Sovereign Registry Court.",
+      "emotionalIdentity": "quiet, exacting, watchful, and bureaucratically sacred",
+      "gameplayAssetNeeds": [
+        "Lotus Reliefs Sovereign Registry Court",
+        "Lock House Beacon",
+        "Indian Lotus Stepwell of the Seven Lamps",
+        "Records / Archives Hall",
+        "Records / Archives street props",
+        "Indian / South Asian civilians using the district",
+        "clear board-readable pathing and gathering space"
+      ],
+      "narrativeUse": [
+        "stage records / archives scenes without needing to reopen concept art",
+        "show how ordinary citizens react to public pressure",
+        "give characters a concrete approach, obstacle, or meeting point",
+        "translate citywide crisis into district-scale behavior",
+        "support diorama generation with landmark-specific props"
+      ],
+      "primaryLandmark": "Lotus Reliefs Sovereign Registry Court",
+      "minorLandmarks": [
+        "Lock House Beacon",
+        "Indian Lotus Stepwell of the Seven Lamps",
+        "Records / Archives Hall",
+        "Archive Tower",
+        "Records Archives Gold-Seal Monument",
+        "Copyist Hall Nook"
+      ]
+    },
+    {
+      "districtNumber": 14,
+      "districtCode": "D14",
+      "sectionNumber": 3,
+      "sectionName": "Records / Archives",
+      "name": "Records / Archives — Service Arcade",
+      "civicPurpose": "This district handles small shops, workers, storage, and everyday support around the section for Records / Archives. In scenes, it should show how recordkeeping, oath custody, public memory, administrative proof, and controlled access to names and obligations becomes a street-level system.",
+      "visualIdentity": "Records / Archives identity rendered through copyist desks, sealed shelves, record tablets, lamp-lit archives, Teak, Red Brick, Limestone Blocks, Silk, and Arcane Glow, local crowds, and the visible approach to Copyist Hall Nook.",
+      "emotionalIdentity": "quiet, exacting, watchful, and bureaucratically sacred",
+      "gameplayAssetNeeds": [
+        "Copyist Hall Nook",
+        "Records / Archives Hall",
+        "Archive Tower",
+        "Records Archives Gold-Seal Monument",
+        "Records / Archives street props",
+        "Indian / South Asian civilians using the district",
+        "clear board-readable pathing and gathering space"
+      ],
+      "narrativeUse": [
+        "stage records / archives scenes without needing to reopen concept art",
+        "show how ordinary citizens react to public pressure",
+        "give characters a concrete approach, obstacle, or meeting point",
+        "translate citywide crisis into district-scale behavior",
+        "support diorama generation with landmark-specific props"
+      ],
+      "primaryLandmark": "Copyist Hall Nook",
+      "minorLandmarks": [
+        "Records / Archives Hall",
+        "Archive Tower",
+        "Records Archives Gold-Seal Monument"
+      ]
+    },
+    {
+      "districtNumber": 15,
+      "districtCode": "D15",
+      "sectionNumber": 2,
+      "sectionName": "Granary / Food Market",
+      "name": "Granary / Food Market — Residential / Backstreet Edge",
+      "civicPurpose": "This district handles housing, side lanes, minor courts, and private daily routines for Granary / Food Market. In scenes, it should show how trade, provisioning, price-setting, storage, and the public circulation of food, goods, and local news becomes a street-level system.",
+      "visualIdentity": "Granary / Food Market identity rendered through covered stalls, storage jars, auction tables, food awnings, Teak, Red Brick, Limestone Blocks, Silk, and Arcane Glow, local crowds, and the visible approach to Grain Hall.",
+      "emotionalIdentity": "busy, bargaining, fragrant, and public",
+      "gameplayAssetNeeds": [
+        "Grain Hall",
+        "Granary / Food Market Civic Hall",
+        "Awning Monument",
+        "Mill Court Nook",
+        "Granary / Food Market street props",
+        "Indian / South Asian civilians using the district",
+        "clear board-readable pathing and gathering space"
+      ],
+      "narrativeUse": [
+        "stage granary / food market scenes without needing to reopen concept art",
+        "show how ordinary citizens react to public pressure",
+        "give characters a concrete approach, obstacle, or meeting point",
+        "translate citywide crisis into district-scale behavior",
+        "support diorama generation with landmark-specific props"
+      ],
+      "primaryLandmark": "Grain Hall",
+      "minorLandmarks": [
+        "Granary / Food Market Civic Hall",
+        "Awning Monument",
+        "Mill Court Nook"
+      ]
+    },
+    {
+      "districtNumber": 16,
+      "districtCode": "D16",
+      "sectionNumber": 4,
+      "sectionName": "Medical / Healing",
+      "name": "Medical / Healing — Landmark Court",
+      "civicPurpose": "This district handles the local landmark’s visible plaza, vertical silhouette, and immediate public use for Medical / Healing. In scenes, it should show how local administration, public gathering, routine services, and the daily translation of city identity into usable streets becomes a street-level system.",
+      "visualIdentity": "Medical / Healing identity rendered through civic signs, public lamps, side courts, local kiosks, Teak, Red Brick, Limestone Blocks, Silk, and Arcane Glow, local crowds, and the visible approach to Healing Hall.",
+      "emotionalIdentity": "lived-in, readable, and civic",
+      "gameplayAssetNeeds": [
+        "Healing Hall",
+        "Medical / Healing Civic Hall",
+        "Medical Healing Lantern Monument",
+        "Apothecary Court Nook",
+        "Medical / Healing street props",
+        "Indian / South Asian civilians using the district",
+        "clear board-readable pathing and gathering space"
+      ],
+      "narrativeUse": [
+        "stage medical / healing scenes without needing to reopen concept art",
+        "show how ordinary citizens react to public pressure",
+        "give characters a concrete approach, obstacle, or meeting point",
+        "translate citywide crisis into district-scale behavior",
+        "support diorama generation with landmark-specific props"
+      ],
+      "primaryLandmark": "Healing Hall",
+      "minorLandmarks": [
+        "Medical / Healing Civic Hall",
+        "Medical Healing Lantern Monument",
+        "Apothecary Court Nook"
+      ]
+    },
+    {
+      "districtNumber": 17,
+      "districtCode": "D17",
+      "sectionNumber": 4,
+      "sectionName": "Medical / Healing",
+      "name": "Medical / Healing — Monument Plaza",
+      "civicPurpose": "This district handles ceremony, memory, civic symbolism, and formal gatherings for Medical / Healing. In scenes, it should show how local administration, public gathering, routine services, and the daily translation of city identity into usable streets becomes a street-level system.",
+      "visualIdentity": "Medical / Healing identity rendered through civic signs, public lamps, side courts, local kiosks, Teak, Red Brick, Limestone Blocks, Silk, and Arcane Glow, local crowds, and the visible approach to Medical Healing Lantern Monument.",
+      "emotionalIdentity": "lived-in, readable, and civic",
+      "gameplayAssetNeeds": [
+        "Medical Healing Lantern Monument",
+        "Medical / Healing Civic Hall",
+        "Healing Hall",
+        "Apothecary Court Nook",
+        "Medical / Healing street props",
+        "Indian / South Asian civilians using the district",
+        "clear board-readable pathing and gathering space"
+      ],
+      "narrativeUse": [
+        "stage medical / healing scenes without needing to reopen concept art",
+        "show how ordinary citizens react to public pressure",
+        "give characters a concrete approach, obstacle, or meeting point",
+        "translate citywide crisis into district-scale behavior",
+        "support diorama generation with landmark-specific props"
+      ],
+      "primaryLandmark": "Medical Healing Lantern Monument",
+      "minorLandmarks": [
+        "Medical / Healing Civic Hall",
+        "Healing Hall",
+        "Apothecary Court Nook"
+      ]
+    },
+    {
+      "districtNumber": 18,
+      "districtCode": "D18",
+      "sectionNumber": 3,
+      "sectionName": "Records / Archives",
+      "name": "Records / Archives — Residential / Backstreet Edge",
+      "civicPurpose": "This district handles housing, side lanes, minor courts, and private daily routines for Records / Archives. In scenes, it should show how recordkeeping, oath custody, public memory, administrative proof, and controlled access to names and obligations becomes a street-level system.",
+      "visualIdentity": "Records / Archives identity rendered through copyist desks, sealed shelves, record tablets, lamp-lit archives, Teak, Red Brick, Limestone Blocks, Silk, and Arcane Glow, local crowds, and the visible approach to Archive Tower.",
+      "emotionalIdentity": "quiet, exacting, watchful, and bureaucratically sacred",
+      "gameplayAssetNeeds": [
+        "Archive Tower",
+        "Records / Archives Hall",
+        "Records Archives Gold-Seal Monument",
+        "Copyist Hall Nook",
+        "Records / Archives street props",
+        "Indian / South Asian civilians using the district",
+        "clear board-readable pathing and gathering space"
+      ],
+      "narrativeUse": [
+        "stage records / archives scenes without needing to reopen concept art",
+        "show how ordinary citizens react to public pressure",
+        "give characters a concrete approach, obstacle, or meeting point",
+        "translate citywide crisis into district-scale behavior",
+        "support diorama generation with landmark-specific props"
+      ],
+      "primaryLandmark": "Archive Tower",
+      "minorLandmarks": [
+        "Records / Archives Hall",
+        "Records Archives Gold-Seal Monument",
+        "Copyist Hall Nook"
+      ]
+    },
+    {
+      "districtNumber": 19,
+      "districtCode": "D19",
+      "sectionNumber": 5,
+      "sectionName": "Necropolis / Ancestor Quarter",
+      "name": "Necropolis / Ancestor Quarter — Civic Threshold",
+      "civicPurpose": "This district handles public approach, first contact, notices, and movement control for Necropolis / Ancestor Quarter. In scenes, it should show how mourning, ancestry, memorial law, funerary paths, and the public handling of death as civic continuity becomes a street-level system.",
+      "visualIdentity": "Necropolis / Ancestor Quarter identity rendered through mourning lamps, name tablets, ancestor paths, ossuary walls, Teak, Red Brick, Limestone Blocks, Silk, and Arcane Glow, local crowds, and the visible approach to Necropolis / Ancestor Quarter Civic Hall.",
+      "emotionalIdentity": "solemn, continuous, and memory-heavy",
+      "gameplayAssetNeeds": [
+        "Necropolis / Ancestor Quarter Civic Hall",
+        "Ancestor Vault",
+        "Ancestor Masks Monument",
+        "Bone Lantern Path Nook",
+        "Necropolis / Ancestor Quarter street props",
+        "Indian / South Asian civilians using the district",
+        "clear board-readable pathing and gathering space"
+      ],
+      "narrativeUse": [
+        "stage necropolis / ancestor quarter scenes without needing to reopen concept art",
+        "show how ordinary citizens react to public pressure",
+        "give characters a concrete approach, obstacle, or meeting point",
+        "translate citywide crisis into district-scale behavior",
+        "support diorama generation with landmark-specific props"
+      ],
+      "primaryLandmark": "Necropolis / Ancestor Quarter Civic Hall",
+      "minorLandmarks": [
+        "Ancestor Vault",
+        "Ancestor Masks Monument",
+        "Bone Lantern Path Nook"
+      ]
+    },
+    {
+      "districtNumber": 20,
+      "districtCode": "D20",
+      "sectionNumber": 5,
+      "sectionName": "Necropolis / Ancestor Quarter",
+      "name": "Necropolis / Ancestor Quarter — Landmark Court",
+      "civicPurpose": "This district handles the local landmark’s visible plaza, vertical silhouette, and immediate public use for Necropolis / Ancestor Quarter. In scenes, it should show how mourning, ancestry, memorial law, funerary paths, and the public handling of death as civic continuity becomes a street-level system.",
+      "visualIdentity": "Necropolis / Ancestor Quarter identity rendered through mourning lamps, name tablets, ancestor paths, ossuary walls, Teak, Red Brick, Limestone Blocks, Silk, and Arcane Glow, local crowds, and the visible approach to Ancestor Vault.",
+      "emotionalIdentity": "solemn, continuous, and memory-heavy",
+      "gameplayAssetNeeds": [
+        "Ancestor Vault",
+        "Necropolis / Ancestor Quarter Civic Hall",
+        "Ancestor Masks Monument",
+        "Bone Lantern Path Nook",
+        "Necropolis / Ancestor Quarter street props",
+        "Indian / South Asian civilians using the district",
+        "clear board-readable pathing and gathering space"
+      ],
+      "narrativeUse": [
+        "stage necropolis / ancestor quarter scenes without needing to reopen concept art",
+        "show how ordinary citizens react to public pressure",
+        "give characters a concrete approach, obstacle, or meeting point",
+        "translate citywide crisis into district-scale behavior",
+        "support diorama generation with landmark-specific props"
+      ],
+      "primaryLandmark": "Ancestor Vault",
+      "minorLandmarks": [
+        "Necropolis / Ancestor Quarter Civic Hall",
+        "Ancestor Masks Monument",
+        "Bone Lantern Path Nook"
+      ]
+    },
+    {
+      "districtNumber": 21,
+      "districtCode": "D21",
+      "sectionNumber": 4,
+      "sectionName": "Medical / Healing",
+      "name": "Medical / Healing — Service Arcade",
+      "civicPurpose": "This district handles small shops, workers, storage, and everyday support around the section for Medical / Healing. In scenes, it should show how local administration, public gathering, routine services, and the daily translation of city identity into usable streets becomes a street-level system.",
+      "visualIdentity": "Medical / Healing identity rendered through civic signs, public lamps, side courts, local kiosks, Teak, Red Brick, Limestone Blocks, Silk, and Arcane Glow, local crowds, and the visible approach to Apothecary Court Nook.",
+      "emotionalIdentity": "lived-in, readable, and civic",
+      "gameplayAssetNeeds": [
+        "Apothecary Court Nook",
+        "Medical / Healing Civic Hall",
+        "Healing Hall",
+        "Medical Healing Lantern Monument",
+        "Medical / Healing street props",
+        "Indian / South Asian civilians using the district",
+        "clear board-readable pathing and gathering space"
+      ],
+      "narrativeUse": [
+        "stage medical / healing scenes without needing to reopen concept art",
+        "show how ordinary citizens react to public pressure",
+        "give characters a concrete approach, obstacle, or meeting point",
+        "translate citywide crisis into district-scale behavior",
+        "support diorama generation with landmark-specific props"
+      ],
+      "primaryLandmark": "Apothecary Court Nook",
+      "minorLandmarks": [
+        "Medical / Healing Civic Hall",
+        "Healing Hall",
+        "Medical Healing Lantern Monument"
+      ]
+    },
+    {
+      "districtNumber": 22,
+      "districtCode": "D22",
+      "sectionNumber": 4,
+      "sectionName": "Medical / Healing",
+      "name": "Medical / Healing — Residential / Backstreet Edge",
+      "civicPurpose": "This district handles housing, side lanes, minor courts, and private daily routines for Medical / Healing. In scenes, it should show how local administration, public gathering, routine services, and the daily translation of city identity into usable streets becomes a street-level system.",
+      "visualIdentity": "Medical / Healing identity rendered through civic signs, public lamps, side courts, local kiosks, Teak, Red Brick, Limestone Blocks, Silk, and Arcane Glow, local crowds, and the visible approach to Healing Hall.",
+      "emotionalIdentity": "lived-in, readable, and civic",
+      "gameplayAssetNeeds": [
+        "Healing Hall",
+        "Medical / Healing Civic Hall",
+        "Medical Healing Lantern Monument",
+        "Apothecary Court Nook",
+        "Medical / Healing street props",
+        "Indian / South Asian civilians using the district",
+        "clear board-readable pathing and gathering space"
+      ],
+      "narrativeUse": [
+        "stage medical / healing scenes without needing to reopen concept art",
+        "show how ordinary citizens react to public pressure",
+        "give characters a concrete approach, obstacle, or meeting point",
+        "translate citywide crisis into district-scale behavior",
+        "support diorama generation with landmark-specific props"
+      ],
+      "primaryLandmark": "Healing Hall",
+      "minorLandmarks": [
+        "Medical / Healing Civic Hall",
+        "Medical Healing Lantern Monument",
+        "Apothecary Court Nook"
+      ]
+    },
+    {
+      "districtNumber": 23,
+      "districtCode": "D23",
+      "sectionNumber": 5,
+      "sectionName": "Necropolis / Ancestor Quarter",
+      "name": "Necropolis / Ancestor Quarter — Monument Plaza",
+      "civicPurpose": "This district handles ceremony, memory, civic symbolism, and formal gatherings for Necropolis / Ancestor Quarter. In scenes, it should show how mourning, ancestry, memorial law, funerary paths, and the public handling of death as civic continuity becomes a street-level system.",
+      "visualIdentity": "Necropolis / Ancestor Quarter identity rendered through mourning lamps, name tablets, ancestor paths, ossuary walls, Teak, Red Brick, Limestone Blocks, Silk, and Arcane Glow, local crowds, and the visible approach to Ancestor Masks Monument.",
+      "emotionalIdentity": "solemn, continuous, and memory-heavy",
+      "gameplayAssetNeeds": [
+        "Ancestor Masks Monument",
+        "Necropolis / Ancestor Quarter Civic Hall",
+        "Ancestor Vault",
+        "Bone Lantern Path Nook",
+        "Necropolis / Ancestor Quarter street props",
+        "Indian / South Asian civilians using the district",
+        "clear board-readable pathing and gathering space"
+      ],
+      "narrativeUse": [
+        "stage necropolis / ancestor quarter scenes without needing to reopen concept art",
+        "show how ordinary citizens react to public pressure",
+        "give characters a concrete approach, obstacle, or meeting point",
+        "translate citywide crisis into district-scale behavior",
+        "support diorama generation with landmark-specific props"
+      ],
+      "primaryLandmark": "Ancestor Masks Monument",
+      "minorLandmarks": [
+        "Necropolis / Ancestor Quarter Civic Hall",
+        "Ancestor Vault",
+        "Bone Lantern Path Nook"
+      ]
+    },
+    {
+      "districtNumber": 24,
+      "districtCode": "D24",
+      "sectionNumber": 5,
+      "sectionName": "Necropolis / Ancestor Quarter",
+      "name": "Necropolis / Ancestor Quarter — Service Arcade",
+      "civicPurpose": "This district handles small shops, workers, storage, and everyday support around the section for Necropolis / Ancestor Quarter. In scenes, it should show how mourning, ancestry, memorial law, funerary paths, and the public handling of death as civic continuity becomes a street-level system.",
+      "visualIdentity": "Necropolis / Ancestor Quarter identity rendered through mourning lamps, name tablets, ancestor paths, ossuary walls, Teak, Red Brick, Limestone Blocks, Silk, and Arcane Glow, local crowds, and the visible approach to Bone Lantern Path Nook.",
+      "emotionalIdentity": "solemn, continuous, and memory-heavy",
+      "gameplayAssetNeeds": [
+        "Bone Lantern Path Nook",
+        "Necropolis / Ancestor Quarter Civic Hall",
+        "Ancestor Vault",
+        "Ancestor Masks Monument",
+        "Necropolis / Ancestor Quarter street props",
+        "Indian / South Asian civilians using the district",
+        "clear board-readable pathing and gathering space"
+      ],
+      "narrativeUse": [
+        "stage necropolis / ancestor quarter scenes without needing to reopen concept art",
+        "show how ordinary citizens react to public pressure",
+        "give characters a concrete approach, obstacle, or meeting point",
+        "translate citywide crisis into district-scale behavior",
+        "support diorama generation with landmark-specific props"
+      ],
+      "primaryLandmark": "Bone Lantern Path Nook",
+      "minorLandmarks": [
+        "Necropolis / Ancestor Quarter Civic Hall",
+        "Ancestor Vault",
+        "Ancestor Masks Monument"
+      ]
+    },
+    {
+      "districtNumber": 25,
+      "districtCode": "D25",
+      "sectionNumber": 5,
+      "sectionName": "Necropolis / Ancestor Quarter",
+      "name": "Necropolis / Ancestor Quarter — Residential / Backstreet Edge",
+      "civicPurpose": "This district handles housing, side lanes, minor courts, and private daily routines for Necropolis / Ancestor Quarter. In scenes, it should show how mourning, ancestry, memorial law, funerary paths, and the public handling of death as civic continuity becomes a street-level system.",
+      "visualIdentity": "Necropolis / Ancestor Quarter identity rendered through mourning lamps, name tablets, ancestor paths, ossuary walls, Teak, Red Brick, Limestone Blocks, Silk, and Arcane Glow, local crowds, and the visible approach to Ancestor Vault.",
+      "emotionalIdentity": "solemn, continuous, and memory-heavy",
+      "gameplayAssetNeeds": [
+        "Ancestor Vault",
+        "Necropolis / Ancestor Quarter Civic Hall",
+        "Ancestor Masks Monument",
+        "Bone Lantern Path Nook",
+        "Necropolis / Ancestor Quarter street props",
+        "Indian / South Asian civilians using the district",
+        "clear board-readable pathing and gathering space"
+      ],
+      "narrativeUse": [
+        "stage necropolis / ancestor quarter scenes without needing to reopen concept art",
+        "show how ordinary citizens react to public pressure",
+        "give characters a concrete approach, obstacle, or meeting point",
+        "translate citywide crisis into district-scale behavior",
+        "support diorama generation with landmark-specific props"
+      ],
+      "primaryLandmark": "Ancestor Vault",
+      "minorLandmarks": [
+        "Necropolis / Ancestor Quarter Civic Hall",
+        "Ancestor Masks Monument",
+        "Bone Lantern Path Nook"
+      ]
+    }
+  ],
+  "landmarks": {
+    "wonder": {
+      "name": "Indian Lotus Stepwell of the Seven Lamps",
+      "symbolicRole": "Indian Lotus Stepwell of the Seven Lamps concentrates Suryavaad's civic identity into a usable public symbol.",
+      "visualRole": "A one-per-city wonder: spectacular, unmistakable, and larger than every section landmark; visually it should read through the city's Indian / South Asian material language.",
+      "civicRole": "Serves as a wonder for public orientation, authority, gathering, and district-scale navigation.",
+      "narrativeUse": [
+        "anchor scenes where Suryavaad's institutions become visible rather than abstract",
+        "stage public warnings, petitions, disputes, arrivals, or ceremonies",
+        "give characters a concrete place to read power, memory, labor, or obligation",
+        "provide a recognizable return point across chapters and map scenes"
+      ],
+      "assetUse": [
+        "district diorama centerpiece",
+        "map background landmark marker",
+        "board-readable silhouette and navigation cue",
+        "repeatable visual anchor for future city art"
+      ],
+      "sensoryIdentity": [
+        "public foot traffic",
+        "local material textures",
+        "civic lamps or signal light",
+        "voices gathering around its approach",
+        "weather and city smell caught on its surfaces"
+      ],
+      "storyHooks": [
+        "a public decision at Indian Lotus Stepwell of the Seven Lamps changes how the section moves",
+        "an old inscription, ledger, seal, or ceremonial object at Indian Lotus Stepwell of the Seven Lamps reveals a civic contradiction",
+        "crowd behavior around Indian Lotus Stepwell of the Seven Lamps shows whether the city trusts its own institutions"
+      ]
+    },
+    "beacon": {
+      "name": "Lock House Beacon",
+      "symbolicRole": "Lock House Beacon concentrates Suryavaad's civic identity into a usable public symbol. It carries Section 1's Canal / Riverworks identity.",
+      "visualRole": "A largest local landmark in this section, subordinate only to the city wonder and citadel; visually it should read through the city's Indian / South Asian material language.",
+      "civicRole": "Serves as a beacon for public orientation, authority, gathering, and district-scale navigation.",
+      "narrativeUse": [
+        "anchor scenes where Suryavaad's institutions become visible rather than abstract",
+        "stage public warnings, petitions, disputes, arrivals, or ceremonies",
+        "give characters a concrete place to read power, memory, labor, or obligation",
+        "provide a recognizable return point across chapters and map scenes"
+      ],
+      "assetUse": [
+        "district diorama centerpiece",
+        "map background landmark marker",
+        "board-readable silhouette and navigation cue",
+        "repeatable visual anchor for future city art"
+      ],
+      "sensoryIdentity": [
+        "public foot traffic",
+        "local material textures",
+        "civic lamps or signal light",
+        "voices gathering around its approach",
+        "weather and city smell caught on its surfaces"
+      ],
+      "storyHooks": [
+        "a public decision at Lock House Beacon changes how the section moves",
+        "an old inscription, ledger, seal, or ceremonial object at Lock House Beacon reveals a civic contradiction",
+        "crowd behavior around Lock House Beacon shows whether the city trusts its own institutions"
+      ]
+    },
+    "seatOfPower": {
+      "name": "Lotus Reliefs Sovereign Registry Court",
+      "symbolicRole": "Lotus Reliefs Sovereign Registry Court concentrates Suryavaad's civic identity into a usable public symbol.",
+      "visualRole": "The district-13 seat of power: courts, audience terraces, sealed archives, command platforms, and the visible apparatus of government; visually it should read through the city's Indian / South Asian material language.",
+      "civicRole": "Serves as a seat of power for public orientation, authority, gathering, and district-scale navigation.",
+      "narrativeUse": [
+        "anchor scenes where Suryavaad's institutions become visible rather than abstract",
+        "stage public warnings, petitions, disputes, arrivals, or ceremonies",
+        "give characters a concrete place to read power, memory, labor, or obligation",
+        "provide a recognizable return point across chapters and map scenes"
+      ],
+      "assetUse": [
+        "district diorama centerpiece",
+        "map background landmark marker",
+        "board-readable silhouette and navigation cue",
+        "repeatable visual anchor for future city art"
+      ],
+      "sensoryIdentity": [
+        "public foot traffic",
+        "local material textures",
+        "civic lamps or signal light",
+        "voices gathering around its approach",
+        "weather and city smell caught on its surfaces"
+      ],
+      "storyHooks": [
+        "a public decision at Lotus Reliefs Sovereign Registry Court changes how the section moves",
+        "an old inscription, ledger, seal, or ceremonial object at Lotus Reliefs Sovereign Registry Court reveals a civic contradiction",
+        "crowd behavior around Lotus Reliefs Sovereign Registry Court shows whether the city trusts its own institutions"
+      ],
+      "districtNumber": 13
+    },
+    "majorLandmarks": [
+      {
+        "name": "Canal / Riverworks Civic Hall",
+        "symbolicRole": "Canal / Riverworks Civic Hall concentrates Suryavaad's civic identity into a usable public symbol. It carries Section 1's Canal / Riverworks identity.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing; visually it should read through the city's Indian / South Asian material language.",
+        "civicRole": "Serves as a civic center for public orientation, authority, gathering, and district-scale navigation.",
+        "narrativeUse": [
+          "anchor scenes where Suryavaad's institutions become visible rather than abstract",
+          "stage public warnings, petitions, disputes, arrivals, or ceremonies",
+          "give characters a concrete place to read power, memory, labor, or obligation",
+          "provide a recognizable return point across chapters and map scenes"
+        ],
+        "assetUse": [
+          "district diorama centerpiece",
+          "map background landmark marker",
+          "board-readable silhouette and navigation cue",
+          "repeatable visual anchor for future city art"
+        ],
+        "sensoryIdentity": [
+          "public foot traffic",
+          "local material textures",
+          "civic lamps or signal light",
+          "voices gathering around its approach",
+          "weather and city smell caught on its surfaces"
+        ],
+        "storyHooks": [
+          "a public decision at Canal / Riverworks Civic Hall changes how the section moves",
+          "an old inscription, ledger, seal, or ceremonial object at Canal / Riverworks Civic Hall reveals a civic contradiction",
+          "crowd behavior around Canal / Riverworks Civic Hall shows whether the city trusts its own institutions"
+        ]
+      },
+      {
+        "name": "Canal Reflections Monument",
+        "symbolicRole": "Canal Reflections Monument concentrates Suryavaad's civic identity into a usable public symbol. It carries Section 1's Canal / Riverworks identity.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles; visually it should read through the city's Indian / South Asian material language.",
+        "civicRole": "Serves as a monument for public orientation, authority, gathering, and district-scale navigation.",
+        "narrativeUse": [
+          "anchor scenes where Suryavaad's institutions become visible rather than abstract",
+          "stage public warnings, petitions, disputes, arrivals, or ceremonies",
+          "give characters a concrete place to read power, memory, labor, or obligation",
+          "provide a recognizable return point across chapters and map scenes"
+        ],
+        "assetUse": [
+          "district diorama centerpiece",
+          "map background landmark marker",
+          "board-readable silhouette and navigation cue",
+          "repeatable visual anchor for future city art"
+        ],
+        "sensoryIdentity": [
+          "public foot traffic",
+          "local material textures",
+          "civic lamps or signal light",
+          "voices gathering around its approach",
+          "weather and city smell caught on its surfaces"
+        ],
+        "storyHooks": [
+          "a public decision at Canal Reflections Monument changes how the section moves",
+          "an old inscription, ledger, seal, or ceremonial object at Canal Reflections Monument reveals a civic contradiction",
+          "crowd behavior around Canal Reflections Monument shows whether the city trusts its own institutions"
+        ]
+      },
+      {
+        "name": "Waterwheel Court Nook",
+        "symbolicRole": "Waterwheel Court Nook concentrates Suryavaad's civic identity into a usable public symbol. It carries Section 1's Canal / Riverworks identity.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette; visually it should read through the city's Indian / South Asian material language.",
+        "civicRole": "Serves as a minor landmark for public orientation, authority, gathering, and district-scale navigation.",
+        "narrativeUse": [
+          "anchor scenes where Suryavaad's institutions become visible rather than abstract",
+          "stage public warnings, petitions, disputes, arrivals, or ceremonies",
+          "give characters a concrete place to read power, memory, labor, or obligation",
+          "provide a recognizable return point across chapters and map scenes"
+        ],
+        "assetUse": [
+          "district diorama centerpiece",
+          "map background landmark marker",
+          "board-readable silhouette and navigation cue",
+          "repeatable visual anchor for future city art"
+        ],
+        "sensoryIdentity": [
+          "public foot traffic",
+          "local material textures",
+          "civic lamps or signal light",
+          "voices gathering around its approach",
+          "weather and city smell caught on its surfaces"
+        ],
+        "storyHooks": [
+          "a public decision at Waterwheel Court Nook changes how the section moves",
+          "an old inscription, ledger, seal, or ceremonial object at Waterwheel Court Nook reveals a civic contradiction",
+          "crowd behavior around Waterwheel Court Nook shows whether the city trusts its own institutions"
+        ]
+      },
+      {
+        "name": "Granary / Food Market Civic Hall",
+        "symbolicRole": "Granary / Food Market Civic Hall concentrates Suryavaad's civic identity into a usable public symbol. It carries Section 2's Granary / Food Market identity.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing; visually it should read through the city's Indian / South Asian material language.",
+        "civicRole": "Serves as a civic center for public orientation, authority, gathering, and district-scale navigation.",
+        "narrativeUse": [
+          "anchor scenes where Suryavaad's institutions become visible rather than abstract",
+          "stage public warnings, petitions, disputes, arrivals, or ceremonies",
+          "give characters a concrete place to read power, memory, labor, or obligation",
+          "provide a recognizable return point across chapters and map scenes"
+        ],
+        "assetUse": [
+          "district diorama centerpiece",
+          "map background landmark marker",
+          "board-readable silhouette and navigation cue",
+          "repeatable visual anchor for future city art"
+        ],
+        "sensoryIdentity": [
+          "public foot traffic",
+          "local material textures",
+          "civic lamps or signal light",
+          "voices gathering around its approach",
+          "weather and city smell caught on its surfaces"
+        ],
+        "storyHooks": [
+          "a public decision at Granary / Food Market Civic Hall changes how the section moves",
+          "an old inscription, ledger, seal, or ceremonial object at Granary / Food Market Civic Hall reveals a civic contradiction",
+          "crowd behavior around Granary / Food Market Civic Hall shows whether the city trusts its own institutions"
+        ]
+      },
+      {
+        "name": "Grain Hall",
+        "symbolicRole": "Grain Hall concentrates Suryavaad's civic identity into a usable public symbol. It carries Section 2's Granary / Food Market identity.",
+        "visualRole": "A largest local landmark in this section, subordinate only to the city wonder and citadel; visually it should read through the city's Indian / South Asian material language.",
+        "civicRole": "Serves as a major landmark for public orientation, authority, gathering, and district-scale navigation.",
+        "narrativeUse": [
+          "anchor scenes where Suryavaad's institutions become visible rather than abstract",
+          "stage public warnings, petitions, disputes, arrivals, or ceremonies",
+          "give characters a concrete place to read power, memory, labor, or obligation",
+          "provide a recognizable return point across chapters and map scenes"
+        ],
+        "assetUse": [
+          "district diorama centerpiece",
+          "map background landmark marker",
+          "board-readable silhouette and navigation cue",
+          "repeatable visual anchor for future city art"
+        ],
+        "sensoryIdentity": [
+          "public foot traffic",
+          "local material textures",
+          "civic lamps or signal light",
+          "voices gathering around its approach",
+          "weather and city smell caught on its surfaces"
+        ],
+        "storyHooks": [
+          "a public decision at Grain Hall changes how the section moves",
+          "an old inscription, ledger, seal, or ceremonial object at Grain Hall reveals a civic contradiction",
+          "crowd behavior around Grain Hall shows whether the city trusts its own institutions"
+        ]
+      },
+      {
+        "name": "Awning Monument",
+        "symbolicRole": "Awning Monument concentrates Suryavaad's civic identity into a usable public symbol. It carries Section 2's Granary / Food Market identity.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles; visually it should read through the city's Indian / South Asian material language.",
+        "civicRole": "Serves as a monument for public orientation, authority, gathering, and district-scale navigation.",
+        "narrativeUse": [
+          "anchor scenes where Suryavaad's institutions become visible rather than abstract",
+          "stage public warnings, petitions, disputes, arrivals, or ceremonies",
+          "give characters a concrete place to read power, memory, labor, or obligation",
+          "provide a recognizable return point across chapters and map scenes"
+        ],
+        "assetUse": [
+          "district diorama centerpiece",
+          "map background landmark marker",
+          "board-readable silhouette and navigation cue",
+          "repeatable visual anchor for future city art"
+        ],
+        "sensoryIdentity": [
+          "public foot traffic",
+          "local material textures",
+          "civic lamps or signal light",
+          "voices gathering around its approach",
+          "weather and city smell caught on its surfaces"
+        ],
+        "storyHooks": [
+          "a public decision at Awning Monument changes how the section moves",
+          "an old inscription, ledger, seal, or ceremonial object at Awning Monument reveals a civic contradiction",
+          "crowd behavior around Awning Monument shows whether the city trusts its own institutions"
+        ]
+      },
+      {
+        "name": "Mill Court Nook",
+        "symbolicRole": "Mill Court Nook concentrates Suryavaad's civic identity into a usable public symbol. It carries Section 2's Granary / Food Market identity.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette; visually it should read through the city's Indian / South Asian material language.",
+        "civicRole": "Serves as a minor landmark for public orientation, authority, gathering, and district-scale navigation.",
+        "narrativeUse": [
+          "anchor scenes where Suryavaad's institutions become visible rather than abstract",
+          "stage public warnings, petitions, disputes, arrivals, or ceremonies",
+          "give characters a concrete place to read power, memory, labor, or obligation",
+          "provide a recognizable return point across chapters and map scenes"
+        ],
+        "assetUse": [
+          "district diorama centerpiece",
+          "map background landmark marker",
+          "board-readable silhouette and navigation cue",
+          "repeatable visual anchor for future city art"
+        ],
+        "sensoryIdentity": [
+          "public foot traffic",
+          "local material textures",
+          "civic lamps or signal light",
+          "voices gathering around its approach",
+          "weather and city smell caught on its surfaces"
+        ],
+        "storyHooks": [
+          "a public decision at Mill Court Nook changes how the section moves",
+          "an old inscription, ledger, seal, or ceremonial object at Mill Court Nook reveals a civic contradiction",
+          "crowd behavior around Mill Court Nook shows whether the city trusts its own institutions"
+        ]
+      },
+      {
+        "name": "Records / Archives Hall",
+        "symbolicRole": "Records / Archives Hall concentrates Suryavaad's civic identity into a usable public symbol. It carries Section 3's Records / Archives identity.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing; visually it should read through the city's Indian / South Asian material language.",
+        "civicRole": "Serves as a civic center for public orientation, authority, gathering, and district-scale navigation.",
+        "narrativeUse": [
+          "anchor scenes where Suryavaad's institutions become visible rather than abstract",
+          "stage public warnings, petitions, disputes, arrivals, or ceremonies",
+          "give characters a concrete place to read power, memory, labor, or obligation",
+          "provide a recognizable return point across chapters and map scenes"
+        ],
+        "assetUse": [
+          "district diorama centerpiece",
+          "map background landmark marker",
+          "board-readable silhouette and navigation cue",
+          "repeatable visual anchor for future city art"
+        ],
+        "sensoryIdentity": [
+          "public foot traffic",
+          "local material textures",
+          "civic lamps or signal light",
+          "voices gathering around its approach",
+          "weather and city smell caught on its surfaces"
+        ],
+        "storyHooks": [
+          "a public decision at Records / Archives Hall changes how the section moves",
+          "an old inscription, ledger, seal, or ceremonial object at Records / Archives Hall reveals a civic contradiction",
+          "crowd behavior around Records / Archives Hall shows whether the city trusts its own institutions"
+        ]
+      },
+      {
+        "name": "Archive Tower",
+        "symbolicRole": "Archive Tower concentrates Suryavaad's civic identity into a usable public symbol. It carries Section 3's Records / Archives identity.",
+        "visualRole": "A mandatory Section 3 Beacon: a culturally adapted civic signal flame / warning-light landmark visible across the city spine; visually it should read through the city's Indian / South Asian material language.",
+        "civicRole": "Serves as a major landmark for public orientation, authority, gathering, and district-scale navigation.",
+        "narrativeUse": [
+          "anchor scenes where Suryavaad's institutions become visible rather than abstract",
+          "stage public warnings, petitions, disputes, arrivals, or ceremonies",
+          "give characters a concrete place to read power, memory, labor, or obligation",
+          "provide a recognizable return point across chapters and map scenes"
+        ],
+        "assetUse": [
+          "district diorama centerpiece",
+          "map background landmark marker",
+          "board-readable silhouette and navigation cue",
+          "repeatable visual anchor for future city art"
+        ],
+        "sensoryIdentity": [
+          "public foot traffic",
+          "local material textures",
+          "civic lamps or signal light",
+          "voices gathering around its approach",
+          "weather and city smell caught on its surfaces"
+        ],
+        "storyHooks": [
+          "a public decision at Archive Tower changes how the section moves",
+          "an old inscription, ledger, seal, or ceremonial object at Archive Tower reveals a civic contradiction",
+          "crowd behavior around Archive Tower shows whether the city trusts its own institutions"
+        ]
+      },
+      {
+        "name": "Records Archives Gold-Seal Monument",
+        "symbolicRole": "Records Archives Gold-Seal Monument concentrates Suryavaad's civic identity into a usable public symbol. It carries Section 3's Records / Archives identity.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles; visually it should read through the city's Indian / South Asian material language.",
+        "civicRole": "Serves as a monument for public orientation, authority, gathering, and district-scale navigation.",
+        "narrativeUse": [
+          "anchor scenes where Suryavaad's institutions become visible rather than abstract",
+          "stage public warnings, petitions, disputes, arrivals, or ceremonies",
+          "give characters a concrete place to read power, memory, labor, or obligation",
+          "provide a recognizable return point across chapters and map scenes"
+        ],
+        "assetUse": [
+          "district diorama centerpiece",
+          "map background landmark marker",
+          "board-readable silhouette and navigation cue",
+          "repeatable visual anchor for future city art"
+        ],
+        "sensoryIdentity": [
+          "public foot traffic",
+          "local material textures",
+          "civic lamps or signal light",
+          "voices gathering around its approach",
+          "weather and city smell caught on its surfaces"
+        ],
+        "storyHooks": [
+          "a public decision at Records Archives Gold-Seal Monument changes how the section moves",
+          "an old inscription, ledger, seal, or ceremonial object at Records Archives Gold-Seal Monument reveals a civic contradiction",
+          "crowd behavior around Records Archives Gold-Seal Monument shows whether the city trusts its own institutions"
+        ]
+      },
+      {
+        "name": "Copyist Hall Nook",
+        "symbolicRole": "Copyist Hall Nook concentrates Suryavaad's civic identity into a usable public symbol. It carries Section 3's Records / Archives identity.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette; visually it should read through the city's Indian / South Asian material language.",
+        "civicRole": "Serves as a minor landmark for public orientation, authority, gathering, and district-scale navigation.",
+        "narrativeUse": [
+          "anchor scenes where Suryavaad's institutions become visible rather than abstract",
+          "stage public warnings, petitions, disputes, arrivals, or ceremonies",
+          "give characters a concrete place to read power, memory, labor, or obligation",
+          "provide a recognizable return point across chapters and map scenes"
+        ],
+        "assetUse": [
+          "district diorama centerpiece",
+          "map background landmark marker",
+          "board-readable silhouette and navigation cue",
+          "repeatable visual anchor for future city art"
+        ],
+        "sensoryIdentity": [
+          "public foot traffic",
+          "local material textures",
+          "civic lamps or signal light",
+          "voices gathering around its approach",
+          "weather and city smell caught on its surfaces"
+        ],
+        "storyHooks": [
+          "a public decision at Copyist Hall Nook changes how the section moves",
+          "an old inscription, ledger, seal, or ceremonial object at Copyist Hall Nook reveals a civic contradiction",
+          "crowd behavior around Copyist Hall Nook shows whether the city trusts its own institutions"
+        ]
+      },
+      {
+        "name": "Medical / Healing Civic Hall",
+        "symbolicRole": "Medical / Healing Civic Hall concentrates Suryavaad's civic identity into a usable public symbol. It carries Section 4's Medical / Healing identity.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing; visually it should read through the city's Indian / South Asian material language.",
+        "civicRole": "Serves as a civic center for public orientation, authority, gathering, and district-scale navigation.",
+        "narrativeUse": [
+          "anchor scenes where Suryavaad's institutions become visible rather than abstract",
+          "stage public warnings, petitions, disputes, arrivals, or ceremonies",
+          "give characters a concrete place to read power, memory, labor, or obligation",
+          "provide a recognizable return point across chapters and map scenes"
+        ],
+        "assetUse": [
+          "district diorama centerpiece",
+          "map background landmark marker",
+          "board-readable silhouette and navigation cue",
+          "repeatable visual anchor for future city art"
+        ],
+        "sensoryIdentity": [
+          "public foot traffic",
+          "local material textures",
+          "civic lamps or signal light",
+          "voices gathering around its approach",
+          "weather and city smell caught on its surfaces"
+        ],
+        "storyHooks": [
+          "a public decision at Medical / Healing Civic Hall changes how the section moves",
+          "an old inscription, ledger, seal, or ceremonial object at Medical / Healing Civic Hall reveals a civic contradiction",
+          "crowd behavior around Medical / Healing Civic Hall shows whether the city trusts its own institutions"
+        ]
+      },
+      {
+        "name": "Healing Hall",
+        "symbolicRole": "Healing Hall concentrates Suryavaad's civic identity into a usable public symbol. It carries Section 4's Medical / Healing identity.",
+        "visualRole": "A largest local landmark in this section, subordinate only to the city wonder and citadel; visually it should read through the city's Indian / South Asian material language.",
+        "civicRole": "Serves as a major landmark for public orientation, authority, gathering, and district-scale navigation.",
+        "narrativeUse": [
+          "anchor scenes where Suryavaad's institutions become visible rather than abstract",
+          "stage public warnings, petitions, disputes, arrivals, or ceremonies",
+          "give characters a concrete place to read power, memory, labor, or obligation",
+          "provide a recognizable return point across chapters and map scenes"
+        ],
+        "assetUse": [
+          "district diorama centerpiece",
+          "map background landmark marker",
+          "board-readable silhouette and navigation cue",
+          "repeatable visual anchor for future city art"
+        ],
+        "sensoryIdentity": [
+          "public foot traffic",
+          "local material textures",
+          "civic lamps or signal light",
+          "voices gathering around its approach",
+          "weather and city smell caught on its surfaces"
+        ],
+        "storyHooks": [
+          "a public decision at Healing Hall changes how the section moves",
+          "an old inscription, ledger, seal, or ceremonial object at Healing Hall reveals a civic contradiction",
+          "crowd behavior around Healing Hall shows whether the city trusts its own institutions"
+        ]
+      },
+      {
+        "name": "Medical Healing Lantern Monument",
+        "symbolicRole": "Medical Healing Lantern Monument concentrates Suryavaad's civic identity into a usable public symbol. It carries Section 4's Medical / Healing identity.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles; visually it should read through the city's Indian / South Asian material language.",
+        "civicRole": "Serves as a monument for public orientation, authority, gathering, and district-scale navigation.",
+        "narrativeUse": [
+          "anchor scenes where Suryavaad's institutions become visible rather than abstract",
+          "stage public warnings, petitions, disputes, arrivals, or ceremonies",
+          "give characters a concrete place to read power, memory, labor, or obligation",
+          "provide a recognizable return point across chapters and map scenes"
+        ],
+        "assetUse": [
+          "district diorama centerpiece",
+          "map background landmark marker",
+          "board-readable silhouette and navigation cue",
+          "repeatable visual anchor for future city art"
+        ],
+        "sensoryIdentity": [
+          "public foot traffic",
+          "local material textures",
+          "civic lamps or signal light",
+          "voices gathering around its approach",
+          "weather and city smell caught on its surfaces"
+        ],
+        "storyHooks": [
+          "a public decision at Medical Healing Lantern Monument changes how the section moves",
+          "an old inscription, ledger, seal, or ceremonial object at Medical Healing Lantern Monument reveals a civic contradiction",
+          "crowd behavior around Medical Healing Lantern Monument shows whether the city trusts its own institutions"
+        ]
+      },
+      {
+        "name": "Apothecary Court Nook",
+        "symbolicRole": "Apothecary Court Nook concentrates Suryavaad's civic identity into a usable public symbol. It carries Section 4's Medical / Healing identity.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette; visually it should read through the city's Indian / South Asian material language.",
+        "civicRole": "Serves as a minor landmark for public orientation, authority, gathering, and district-scale navigation.",
+        "narrativeUse": [
+          "anchor scenes where Suryavaad's institutions become visible rather than abstract",
+          "stage public warnings, petitions, disputes, arrivals, or ceremonies",
+          "give characters a concrete place to read power, memory, labor, or obligation",
+          "provide a recognizable return point across chapters and map scenes"
+        ],
+        "assetUse": [
+          "district diorama centerpiece",
+          "map background landmark marker",
+          "board-readable silhouette and navigation cue",
+          "repeatable visual anchor for future city art"
+        ],
+        "sensoryIdentity": [
+          "public foot traffic",
+          "local material textures",
+          "civic lamps or signal light",
+          "voices gathering around its approach",
+          "weather and city smell caught on its surfaces"
+        ],
+        "storyHooks": [
+          "a public decision at Apothecary Court Nook changes how the section moves",
+          "an old inscription, ledger, seal, or ceremonial object at Apothecary Court Nook reveals a civic contradiction",
+          "crowd behavior around Apothecary Court Nook shows whether the city trusts its own institutions"
+        ]
+      },
+      {
+        "name": "Necropolis / Ancestor Quarter Civic Hall",
+        "symbolicRole": "Necropolis / Ancestor Quarter Civic Hall concentrates Suryavaad's civic identity into a usable public symbol. It carries Section 5's Necropolis / Ancestor Quarter identity.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing; visually it should read through the city's Indian / South Asian material language.",
+        "civicRole": "Serves as a civic center for public orientation, authority, gathering, and district-scale navigation.",
+        "narrativeUse": [
+          "anchor scenes where Suryavaad's institutions become visible rather than abstract",
+          "stage public warnings, petitions, disputes, arrivals, or ceremonies",
+          "give characters a concrete place to read power, memory, labor, or obligation",
+          "provide a recognizable return point across chapters and map scenes"
+        ],
+        "assetUse": [
+          "district diorama centerpiece",
+          "map background landmark marker",
+          "board-readable silhouette and navigation cue",
+          "repeatable visual anchor for future city art"
+        ],
+        "sensoryIdentity": [
+          "public foot traffic",
+          "local material textures",
+          "civic lamps or signal light",
+          "voices gathering around its approach",
+          "weather and city smell caught on its surfaces"
+        ],
+        "storyHooks": [
+          "a public decision at Necropolis / Ancestor Quarter Civic Hall changes how the section moves",
+          "an old inscription, ledger, seal, or ceremonial object at Necropolis / Ancestor Quarter Civic Hall reveals a civic contradiction",
+          "crowd behavior around Necropolis / Ancestor Quarter Civic Hall shows whether the city trusts its own institutions"
+        ]
+      },
+      {
+        "name": "Ancestor Vault",
+        "symbolicRole": "Ancestor Vault concentrates Suryavaad's civic identity into a usable public symbol. It carries Section 5's Necropolis / Ancestor Quarter identity.",
+        "visualRole": "A largest local landmark in this section, subordinate only to the city wonder and citadel; visually it should read through the city's Indian / South Asian material language.",
+        "civicRole": "Serves as a major landmark for public orientation, authority, gathering, and district-scale navigation.",
+        "narrativeUse": [
+          "anchor scenes where Suryavaad's institutions become visible rather than abstract",
+          "stage public warnings, petitions, disputes, arrivals, or ceremonies",
+          "give characters a concrete place to read power, memory, labor, or obligation",
+          "provide a recognizable return point across chapters and map scenes"
+        ],
+        "assetUse": [
+          "district diorama centerpiece",
+          "map background landmark marker",
+          "board-readable silhouette and navigation cue",
+          "repeatable visual anchor for future city art"
+        ],
+        "sensoryIdentity": [
+          "public foot traffic",
+          "local material textures",
+          "civic lamps or signal light",
+          "voices gathering around its approach",
+          "weather and city smell caught on its surfaces"
+        ],
+        "storyHooks": [
+          "a public decision at Ancestor Vault changes how the section moves",
+          "an old inscription, ledger, seal, or ceremonial object at Ancestor Vault reveals a civic contradiction",
+          "crowd behavior around Ancestor Vault shows whether the city trusts its own institutions"
+        ]
+      },
+      {
+        "name": "Ancestor Masks Monument",
+        "symbolicRole": "Ancestor Masks Monument concentrates Suryavaad's civic identity into a usable public symbol. It carries Section 5's Necropolis / Ancestor Quarter identity.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles; visually it should read through the city's Indian / South Asian material language.",
+        "civicRole": "Serves as a monument for public orientation, authority, gathering, and district-scale navigation.",
+        "narrativeUse": [
+          "anchor scenes where Suryavaad's institutions become visible rather than abstract",
+          "stage public warnings, petitions, disputes, arrivals, or ceremonies",
+          "give characters a concrete place to read power, memory, labor, or obligation",
+          "provide a recognizable return point across chapters and map scenes"
+        ],
+        "assetUse": [
+          "district diorama centerpiece",
+          "map background landmark marker",
+          "board-readable silhouette and navigation cue",
+          "repeatable visual anchor for future city art"
+        ],
+        "sensoryIdentity": [
+          "public foot traffic",
+          "local material textures",
+          "civic lamps or signal light",
+          "voices gathering around its approach",
+          "weather and city smell caught on its surfaces"
+        ],
+        "storyHooks": [
+          "a public decision at Ancestor Masks Monument changes how the section moves",
+          "an old inscription, ledger, seal, or ceremonial object at Ancestor Masks Monument reveals a civic contradiction",
+          "crowd behavior around Ancestor Masks Monument shows whether the city trusts its own institutions"
+        ]
+      },
+      {
+        "name": "Bone Lantern Path Nook",
+        "symbolicRole": "Bone Lantern Path Nook concentrates Suryavaad's civic identity into a usable public symbol. It carries Section 5's Necropolis / Ancestor Quarter identity.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette; visually it should read through the city's Indian / South Asian material language.",
+        "civicRole": "Serves as a minor landmark for public orientation, authority, gathering, and district-scale navigation.",
+        "narrativeUse": [
+          "anchor scenes where Suryavaad's institutions become visible rather than abstract",
+          "stage public warnings, petitions, disputes, arrivals, or ceremonies",
+          "give characters a concrete place to read power, memory, labor, or obligation",
+          "provide a recognizable return point across chapters and map scenes"
+        ],
+        "assetUse": [
+          "district diorama centerpiece",
+          "map background landmark marker",
+          "board-readable silhouette and navigation cue",
+          "repeatable visual anchor for future city art"
+        ],
+        "sensoryIdentity": [
+          "public foot traffic",
+          "local material textures",
+          "civic lamps or signal light",
+          "voices gathering around its approach",
+          "weather and city smell caught on its surfaces"
+        ],
+        "storyHooks": [
+          "a public decision at Bone Lantern Path Nook changes how the section moves",
+          "an old inscription, ledger, seal, or ceremonial object at Bone Lantern Path Nook reveals a civic contradiction",
+          "crowd behavior around Bone Lantern Path Nook shows whether the city trusts its own institutions"
+        ]
+      }
+    ]
+  },
+  "assetGuidance": {
+    "districtDioramaGuidance": [
+      "S1 dioramas must read as Canal / Riverworks and include source-backed anchors: Canal / Riverworks Civic Hall, Lock House Beacon, Canal Reflections Monument, Waterwheel Court Nook.",
+      "S2 dioramas must read as Granary / Food Market and include source-backed anchors: Granary / Food Market Civic Hall, Grain Hall, Awning Monument, Mill Court Nook.",
+      "S3 dioramas must read as Records / Archives and include source-backed anchors: Records / Archives Hall, Archive Tower, Records Archives Gold-Seal Monument, Copyist Hall Nook.",
+      "S4 dioramas must read as Medical / Healing and include source-backed anchors: Medical / Healing Civic Hall, Healing Hall, Medical Healing Lantern Monument, Apothecary Court Nook.",
+      "S5 dioramas must read as Necropolis / Ancestor Quarter and include source-backed anchors: Necropolis / Ancestor Quarter Civic Hall, Ancestor Vault, Ancestor Masks Monument, Bone Lantern Path Nook."
+    ],
+    "mapBackgroundGuidance": [
+      "Show Suryavaad as a Indian / South Asian city shaped by Riverside, Floodplain, and Canal Basin and River.",
+      "Keep Indian Lotus Stepwell of the Seven Lamps distinct as the skyline wonder, Lotus Reliefs Sovereign Registry Court central at D13, and Lock House Beacon legible as the public signal.",
+      "Arrange the map so the five section identities remain readable: Canal / Riverworks, Granary / Food Market, Records / Archives, Medical / Healing, and Necropolis / Ancestor Quarter.",
+      "Do not let generic fantasy rooftops replace the named civic anchors.",
+      "Use paths, plazas, courts, water edges, walls, terraces, or arcades to show how citizens move between sections."
+    ],
+    "requiredVisualElements": [
+      "Indian / South Asian civilians",
+      "Indian Lotus Stepwell of the Seven Lamps",
+      "Lock House Beacon",
+      "Lotus Reliefs Sovereign Registry Court",
+      "Lock House Beacon",
+      "Grain Hall",
+      "Archive Tower",
+      "Healing Hall",
+      "Ancestor Vault",
+      "Teak",
+      "Red Brick",
+      "Limestone Blocks",
+      "Silk",
+      "Arcane Glow",
+      "sluice wheels",
+      "water gauges",
+      "wet stone"
+    ],
+    "elementsToAvoid": [
+      "extra top-level schema sections or production notes in the JSON",
+      "generic city views that ignore section identity",
+      "invented landmarks not present in sidecars or established canon",
+      "character-specific details",
+      "labels baked into images",
+      "making the Wonder, Beacon, and Seat interchangeable",
+      "overusing magic effects until practical civic infrastructure disappears"
+    ]
+  }
+}

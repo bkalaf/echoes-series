@@ -1,1 +1,1806 @@
-{"metadata":{"schemaVersion":"2.0","analysisVersion":2,"cityCode":"THR","cityName":"Thalorion","analysisConfidence":"strong-lock"},"sourceModel":"5 section sidecars; 25 board district slots inherit section anchors.","boardStructure":{"model":"25-seat map","seatOfPowerDistrict":"D13","sections":[{"sectionNumber":1,"districts":["D01","D02","D03","D06","D07"]},{"sectionNumber":2,"districts":["D04","D05","D09","D10","D15"]},{"sectionNumber":3,"districts":["D08","D12","D13","D14","D18"]},{"sectionNumber":4,"districts":["D11","D16","D17","D21","D22"]},{"sectionNumber":5,"districts":["D19","D20","D23","D24","D25"]}],"note":"Each section contains five district slots. This analysis keeps all 25 slots explicit while preserving only source-backed section-level landmark names."},"sections":[{"n":1,"name":"Shrine / Sacred Place"},{"n":2,"name":"Entertainment / Theater"},{"n":3,"name":"Public Works Authority"},{"n":4,"name":"Necropolis / Ancestor Quarter"},{"n":5,"name":"Slums / Informal Settlement"}],"districts":["D01","D02","D03","D04","D05","D06","D07","D08","D09","D10","D11","D12","D13","D14","D15","D16","D17","D18","D19","D20","D21","D22","D23","D24","D25"],"landmarks":{"wonder":"Hellenic Marble Agon of the Sun Laurel","beacon":"Roadside Shrine Beacon","seatOfPower":"Gold Seals Tide-Seal Citadel"}}
+{
+  "metadata": {
+    "schemaVersion": "2.0",
+    "analysisVersion": 2,
+    "cityCode": "THR",
+    "cityName": "Thalorion",
+    "analysisDate": "2026-07-05",
+    "analystVersion": "gpt-5.5-thinking",
+    "analysisConfidence": "strong-lock",
+    "basedOnImages": [
+      "THR-HERO-NE-v001",
+      "THR-HERO-NW-v001",
+      "THR-HERO-SE-v001",
+      "THR-HERO-SW-v001",
+      "THR-STREET-S1-v001",
+      "THR-STREET-S2-v001",
+      "THR-STREET-S3-v001",
+      "THR-STREET-S4-v001",
+      "THR-STREET-S5-v001"
+    ],
+    "basedOnSidecars": [
+      "THR-HERO-NE-v001.json",
+      "THR-HERO-NW-v001.json",
+      "THR-HERO-SE-v001.json",
+      "THR-HERO-SW-v001.json",
+      "THR-STREET-S1-v001.json",
+      "THR-STREET-S2-v001.json",
+      "THR-STREET-S3-v001.json",
+      "THR-STREET-S4-v001.json",
+      "THR-STREET-S5-v001.json"
+    ],
+    "missingStreetSections": []
+  },
+  "cityDNA": {
+    "coreFantasy": "A Greek / Hellenic city where Shrine / Sacred Place, Entertainment / Theater, Public Works Authority, Necropolis / Ancestor Quarter, Slums / Informal Settlement, and Hellenic Marble Agon of the Sun Laurel turn coastal edge, seawall edge, harbor basin, coast and seashell, coral stone, pale marble stone, canvas, silk into a distinct civic machine.",
+    "primaryEmotion": "sunlit ceremonial tension",
+    "secondaryEmotion": "public honor under scrutiny",
+    "readerTakeaway": "Thalorion should feel like an open-air civic theater where shrine, stage, public works, ancestry, and poverty are all visible under coastal light.",
+    "civilizationThesis": "Thalorion organizes public life around oath-bound civic performance: its districts convert Shrine / Sacred Place, Entertainment / Theater, Public Works Authority, Necropolis / Ancestor Quarter, Slums / Informal Settlement into a readable system of authority, labor, memory, and movement.",
+    "visualIdentity": "Thalorion should be recognized by Seashell, Coral Stone, Pale Marble Stone, Canvas, Silk, Coastal Edge, Seawall Edge, Harbor Basin, Coast, Civic Blue Illumination, Oath Seals, Tide Sorcery, Celestial Projection, Road Warding, and the named anchors Hellenic Marble Agon of the Sun Laurel, Roadside Shrine Beacon, and Gold Seals Tide-Seal Citadel.",
+    "culturalIdentity": "The city belongs to Greek / Hellenic; its civic habits should grow from the sidecar-backed district spine rather than generic fantasy urbanism.",
+    "symbolicIdentity": "Hellenic Marble Agon of the Sun Laurel, Roadside Shrine Beacon, Gold Seals Tide-Seal Citadel, and the five section landmark families symbolize oath-bound civic performance while warning against beautiful public order leaving informal lives exposed."
+  },
+  "canon": {
+    "canonLocks": [
+      "Thalorion is a Greek / Hellenic city, not a generic settlement with cosmetic motifs.",
+      "The Wonder is Hellenic Marble Agon of the Sun Laurel.",
+      "The Beacon is Roadside Shrine Beacon.",
+      "The Seat of Power is Gold Seals Tide-Seal Citadel, located at the District 13 authority center.",
+      "The five district sections are Shrine / Sacred Place, Entertainment / Theater, Public Works Authority, Necropolis / Ancestor Quarter, Slums / Informal Settlement.",
+      "The board should be treated as twenty-five district slots grouped into five section identities.",
+      "Section 1 (Shrine / Sacred Place) preserves these exact anchor names: Shrine / Sacred Place Civic Hall, Roadside Shrine Beacon, Shrine Sacred Place Lantern Monument, Votive Grove Nook.",
+      "Section 2 (Entertainment / Theater) preserves these exact anchor names: Entertainment / Theater Civic Hall, Opera Court, Entertainment Theater Lantern Monument, Mask Pavilion Nook.",
+      "Section 3 (Public Works Authority) preserves these exact anchor names: Public Works Authority Hall, Survey Hall, Blue-Lamp Monument, Permit Yard Nook.",
+      "Section 4 (Necropolis / Ancestor Quarter) preserves these exact anchor names: Necropolis / Ancestor Quarter Civic Hall, Ancestor Vault, Ancestor Masks Monument, Bone Lantern Path Nook.",
+      "Section 5 (Slums / Informal Settlement) preserves these exact anchor names: Slums / Informal Settlement Civic Hall, Scrap Market, Slums Informal Settlement Lantern Monument, Patched Tenement Nook."
+    ],
+    "provisionalCanon": [
+      "Individual district-slot names beyond exact sidecar anchors are organizational labels for the 25-seat board, not new landmark canon.",
+      "Minor street customs should be derived from the section spine unless future source files provide more exact anchors."
+    ],
+    "rejectedReads": [
+      "Thalorion as a generic fantasy city without its named Wonder, Beacon, and Seat of Power.",
+      "Replacing exact sidecar anchor names with generic labels such as market, temple, tower, wall, or archive.",
+      "Treating district section labels as decorative instead of civic systems that drive scenes and assets."
+    ],
+    "cautionFlags": [
+      "Preserve exact named anchors from sidecars.",
+      "Use the culture identity respectfully as civic design language rather than costume.",
+      "Keep all 25 district slots legible even when five slots share one section identity.",
+      "Do not add unsupported individual district landmark names beyond the source-backed anchors."
+    ]
+  },
+  "environment": {
+    "terrain": [
+      "Coastal Edge",
+      "Seawall Edge",
+      "Harbor Basin",
+      "Coast"
+    ],
+    "water": [
+      "Coast"
+    ],
+    "vegetation": [
+      "source-backed civic greenery where visible"
+    ],
+    "climateLighting": [
+      "Lantern Lit",
+      "White Limestone Civic Blocks",
+      "Civic Blue Glow",
+      "shared fires",
+      "symbolic civic object",
+      "lanterns",
+      "scrap lanterns",
+      "Civic Blue Illumination",
+      "Blue Order Sigils"
+    ],
+    "environmentalLogic": "Thalorion's environment should make Shrine / Sacred Place, Entertainment / Theater, Public Works Authority, Necropolis / Ancestor Quarter, Slums / Informal Settlement feel physically necessary. Terrain, light, civic routes, and landmark placement must support movement through all five section identities rather than read as interchangeable scenery."
+  },
+  "architecture": {
+    "materials": [
+      "Seashell",
+      "Coral Stone",
+      "Pale Marble Stone",
+      "Canvas",
+      "Silk"
+    ],
+    "forms": [
+      "Reed Pavilions",
+      "Temple Platforms",
+      "Cliffside Monasteries",
+      "seashell and polished white limestone materials",
+      "Lantern Lit",
+      "Carved Totems",
+      "Bone White Ceremony",
+      "Timber Longhouses",
+      "Market Arcades",
+      "Red Fabric Awnings",
+      "Woven Banners",
+      "Lecture Courts",
+      "Gothic Spires",
+      "Subterranean Vaults",
+      "Step Pyramids",
+      "Ancestor Masks",
+      "White Limestone Civic Blocks",
+      "Forge Halls"
+    ],
+    "skyline": [
+      "Hellenic Marble Agon of the Sun Laurel is the wonder-scale skyline identifier.",
+      "Gold Seals Tide-Seal Citadel marks the central authority mass at District 13.",
+      "Roadside Shrine Beacon must remain visible as the public signal landmark.",
+      "Section landmarks should form a readable ring of Shrine / Sacred Place, Entertainment / Theater, Public Works Authority, Necropolis / Ancestor Quarter, Slums / Informal Settlement."
+    ],
+    "lighting": [
+      "Lantern Lit",
+      "White Limestone Civic Blocks",
+      "Civic Blue Glow",
+      "shared fires",
+      "symbolic civic object",
+      "lanterns",
+      "scrap lanterns",
+      "Civic Blue Illumination",
+      "Blue Order Sigils",
+      "district lanterns"
+    ],
+    "infrastructure": [
+      "Shrine / Sacred Place routes",
+      "Entertainment / Theater routes",
+      "Public Works Authority routes",
+      "Necropolis / Ancestor Quarter routes",
+      "Slums / Informal Settlement routes",
+      "Shrine / Sacred Place Civic Hall",
+      "Entertainment / Theater Civic Hall",
+      "Public Works Authority Hall",
+      "Necropolis / Ancestor Quarter Civic Hall",
+      "Slums / Informal Settlement Civic Hall"
+    ],
+    "motifs": [
+      "strong vertical silhouette",
+      "distinct gameplay landmark",
+      "visible from nearby districts",
+      "charms",
+      "bells",
+      "shared fires",
+      "shanties",
+      "salvage roofs",
+      "patched bridges",
+      "ticket courts",
+      "largest section focal point",
+      "bones",
+      "name tablets",
+      "mourning lamps",
+      "cypress trees",
+      "tombs",
+      "board-readable entrance",
+      "flowers"
+    ],
+    "colorLanguage": [
+      "Pale Marble Stone",
+      "Civic Blue Illumination",
+      "Oath Seals",
+      "Tide Sorcery",
+      "Celestial Projection"
+    ],
+    "textureLanguage": [
+      "Seashell",
+      "Coral Stone",
+      "Pale Marble Stone",
+      "Canvas",
+      "Silk",
+      "Coastal Edge",
+      "Seawall Edge",
+      "Harbor Basin",
+      "Coast",
+      "stone plans"
+    ]
+  },
+  "civilization": {
+    "people": "Thalorion's people are Greek / Hellenic; they should be written through shared civic habits, public spaces, work rhythms, and the visible demands of the five section identities.",
+    "occupations": [
+      "votive keepers",
+      "roadside attendants",
+      "pilgrims",
+      "shrine sweepers",
+      "actors",
+      "mask makers",
+      "stage crews",
+      "opera patrons",
+      "surveyors",
+      "permit clerks",
+      "repair crews",
+      "map keepers",
+      "ancestor keepers",
+      "vault attendants",
+      "bone-lantern tenders",
+      "mourning guides",
+      "scrap sellers",
+      "patch workers",
+      "street cooks",
+      "tenement runners"
+    ],
+    "socialClasses": [
+      "officials and stewards tied to Gold Seals Tide-Seal Citadel",
+      "landmark keepers and civic hall administrators",
+      "guild families and specialist workers",
+      "street vendors, porters, runners, and maintenance crews",
+      "families living around the section-specific local anchors"
+    ],
+    "governance": "Authority centers on Gold Seals Tide-Seal Citadel and is made visible through section civic halls, named landmarks, permissions, public signals, and the citywide response to Roadside Shrine Beacon.",
+    "religion": "Religious or ceremonial life should be shown through source-backed shrines, temples, wonders, oath spaces, ancestor sites, or ritual geometry when those appear in the district spine.",
+    "customs": [
+      "citizens orient themselves by the section identity of a street before they identify an address",
+      "public notices and signals are interpreted through the Beacon and civic halls",
+      "named landmarks act as meeting points, proof points, and local memory anchors",
+      "section-specific work routines shape food, clothing, posture, and street traffic",
+      "District 13 authority matters even when scenes occur in outer district slots"
+    ],
+    "bodyLanguage": [
+      "movement reflects sunlit ceremonial tension",
+      "citizens check landmarks and signals before crossing into another section",
+      "officials use the posture and tools of their section role",
+      "workers treat section anchors as practical wayfinding points",
+      "crowds become more formal near the Seat of Power and more local near minor landmarks"
+    ],
+    "speechPatterns": [
+      "directions use exact landmark names rather than generic descriptions",
+      "section names carry social meaning",
+      "official speech references permits, seals, routes, oaths, or signals as appropriate to the city",
+      "working speech is concrete, location-heavy, and tied to civic function",
+      "locals distinguish between the Wonder, Beacon, Seat, and section landmarks without confusion"
+    ]
+  },
+  "urbanLife": {
+    "streets": {
+      "appearance": "Street scenes should make Thalorion immediately identifiable through Seashell, Coral Stone, Pale Marble Stone, Canvas, Silk, Coastal Edge, Seawall Edge, Harbor Basin, Coast, Civic Blue Illumination, Oath Seals, Tide Sorcery, Celestial Projection, Road Warding, and the exact section anchors rather than generic fantasy facades.",
+      "movement": "Movement flows through five section identities and twenty-five district slots. People navigate by Roadside Shrine Beacon, Gold Seals Tide-Seal Citadel, section civic halls, major landmarks, monuments, and minor nooks.",
+      "sounds": [
+        "foot traffic",
+        "public notices",
+        "work tools",
+        "cart wheels or pack movement",
+        "district-specific calls",
+        "signal response murmurs",
+        "votive keepers",
+        "roadside attendants",
+        "pilgrims",
+        "shrine sweepers",
+        "actors",
+        "mask makers"
+      ],
+      "smells": [
+        "worked materials",
+        "street food",
+        "lamp oil",
+        "dust or wet stone",
+        "district workshops",
+        "seashell",
+        "coral stone",
+        "pale marble stone",
+        "canvas",
+        "silk"
+      ],
+      "lighting": "Lighting should use Lantern Lit, White Limestone Civic Blocks, Civic Blue Glow, shared fires, symbolic civic object, lanterns, with the Beacon and Seat carrying distinct civic emphasis.",
+      "weatherEffects": "Weather should interact with coastal edge, seawall edge, harbor basin, coast and the city's source-backed materials, altering visibility, travel speed, public gathering, and signal readability.",
+      "dayCycle": "Daytime emphasizes section labor: Shrine / Sacred Place, Entertainment / Theater, Public Works Authority, Necropolis / Ancestor Quarter, Slums / Informal Settlement. Civic halls, shops, and public works create the main public rhythm.",
+      "nightCycle": "Night scenes should preserve the city's identity through landmark silhouettes, beacon light, watch routes, late shops, ritual spaces, and section-specific sounds."
+    },
+    "shops": {
+      "common": [
+        "shrine / sacred place supply stalls",
+        "entertainment / theater supply stalls",
+        "public works authority supply stalls",
+        "necropolis / ancestor quarter supply stalls",
+        "slums / informal settlement supply stalls",
+        "street food carts",
+        "tool repair stalls",
+        "notice copyists"
+      ],
+      "uncommon": [
+        "shrine / sacred place specialist counters",
+        "entertainment / theater specialist counters",
+        "public works authority specialist counters",
+        "necropolis / ancestor quarter specialist counters",
+        "slums / informal settlement specialist counters",
+        "landmark guide services",
+        "ritual or permit specialists"
+      ],
+      "prestigious": [
+        "workshops or offices near Gold Seals Tide-Seal Citadel",
+        "specialist houses serving Hellenic Marble Agon of the Sun Laurel",
+        "elite civic sealers or patrons",
+        "master artisans tied to section landmarks"
+      ],
+      "exports": [
+        "shrine / sacred place goods",
+        "entertainment / theater goods",
+        "public works authority goods",
+        "necropolis / ancestor quarter goods",
+        "slums / informal settlement goods",
+        "seashell",
+        "coral stone",
+        "pale marble stone",
+        "canvas"
+      ],
+      "imports": [
+        "food staples",
+        "replacement tools",
+        "rare pigments",
+        "ritual materials",
+        "metal fittings",
+        "fine cloth"
+      ],
+      "streetFood": [
+        "portable worker meals",
+        "flatbread or grain cakes",
+        "spiced stews",
+        "roasted local produce",
+        "market tea",
+        "festival sweets"
+      ],
+      "services": [
+        "directions by landmark",
+        "permit filing",
+        "repair work",
+        "messenger runs",
+        "public notice posting",
+        "shrine / sacred place services",
+        "entertainment / theater services",
+        "public works authority services",
+        "necropolis / ancestor quarter services",
+        "slums / informal settlement services"
+      ]
+    },
+    "housing": {
+      "wealthy": "High-status housing clusters near Gold Seals Tide-Seal Citadel, major terraces, and prestigious landmark approaches; it should display the city materials cleanly and control sightlines toward Wonder or Beacon.",
+      "middle": "Middle housing occupies upper rooms, side courts, work-family compounds, and mixed-use streets close to civic halls and section services.",
+      "poor": "Poorer housing should be practical and specific to local labor, with patched materials, shared courtyards, crowded lanes, and strong dependence on nearby section anchors."
+    }
+  },
+  "districts": [
+    {
+      "districtNumber": 1,
+      "sectionNumber": 1,
+      "name": "D01 Shrine / Sacred Place Civic Core",
+      "civicPurpose": "One of five Shrine / Sacred Place district slots, focused on civic core; it supports local movement, services, social pressure, and scene transitions within Section 1.",
+      "visualIdentity": "Shrine / Sacred Place Civic Hall anchors the slot, supported by Shrine Sacred Place Lantern Monument, Votive Grove Nook, Seashell, Coral Stone, Pale Marble Stone, Canvas, Silk, and the Greek / Hellenic civic language.",
+      "emotionalIdentity": "Shrine / Sacred Place expressed through civic core: sunlit ceremonial tension with practical street-level specificity.",
+      "gameplayAssetNeeds": [
+        "Shrine / Sacred Place Civic Hall",
+        "Shrine Sacred Place Lantern Monument",
+        "Votive Grove Nook",
+        "Shrine / Sacred Place street dressing",
+        "Greek / Hellenic civilians",
+        "section-appropriate props"
+      ],
+      "narrativeUse": [
+        "shrine / sacred place errands",
+        "wayfinding by exact landmark",
+        "crowd pressure",
+        "local work conflict",
+        "transition between board slots"
+      ],
+      "primaryLandmark": "Shrine / Sacred Place Civic Hall",
+      "minorLandmarks": [
+        "Shrine Sacred Place Lantern Monument",
+        "Votive Grove Nook"
+      ]
+    },
+    {
+      "districtNumber": 2,
+      "sectionNumber": 1,
+      "name": "D02 Shrine / Sacred Place Major Landmark Approach",
+      "civicPurpose": "One of five Shrine / Sacred Place district slots, focused on major landmark approach; it supports local movement, services, social pressure, and scene transitions within Section 1.",
+      "visualIdentity": "Roadside Shrine Beacon anchors the slot, supported by Shrine Sacred Place Lantern Monument, Votive Grove Nook, Shrine / Sacred Place Civic Hall, Seashell, Coral Stone, Pale Marble Stone, Canvas, Silk, and the Greek / Hellenic civic language.",
+      "emotionalIdentity": "Shrine / Sacred Place expressed through major landmark approach: sunlit ceremonial tension with practical street-level specificity.",
+      "gameplayAssetNeeds": [
+        "Roadside Shrine Beacon",
+        "Shrine Sacred Place Lantern Monument",
+        "Votive Grove Nook",
+        "Shrine / Sacred Place Civic Hall",
+        "Shrine / Sacred Place street dressing",
+        "Greek / Hellenic civilians",
+        "section-appropriate props"
+      ],
+      "narrativeUse": [
+        "shrine / sacred place errands",
+        "wayfinding by exact landmark",
+        "crowd pressure",
+        "local work conflict",
+        "transition between board slots"
+      ],
+      "primaryLandmark": "Roadside Shrine Beacon",
+      "minorLandmarks": [
+        "Shrine Sacred Place Lantern Monument",
+        "Votive Grove Nook",
+        "Shrine / Sacred Place Civic Hall"
+      ]
+    },
+    {
+      "districtNumber": 3,
+      "sectionNumber": 1,
+      "name": "D03 Shrine / Sacred Place Monument Square",
+      "civicPurpose": "One of five Shrine / Sacred Place district slots, focused on monument square; it supports local movement, services, social pressure, and scene transitions within Section 1.",
+      "visualIdentity": "Shrine Sacred Place Lantern Monument anchors the slot, supported by Votive Grove Nook, Shrine / Sacred Place Civic Hall, Seashell, Coral Stone, Pale Marble Stone, Canvas, Silk, and the Greek / Hellenic civic language.",
+      "emotionalIdentity": "Shrine / Sacred Place expressed through monument square: sunlit ceremonial tension with practical street-level specificity.",
+      "gameplayAssetNeeds": [
+        "Shrine Sacred Place Lantern Monument",
+        "Votive Grove Nook",
+        "Shrine / Sacred Place Civic Hall",
+        "Shrine / Sacred Place street dressing",
+        "Greek / Hellenic civilians",
+        "section-appropriate props"
+      ],
+      "narrativeUse": [
+        "shrine / sacred place errands",
+        "wayfinding by exact landmark",
+        "crowd pressure",
+        "local work conflict",
+        "transition between board slots"
+      ],
+      "primaryLandmark": "Shrine Sacred Place Lantern Monument",
+      "minorLandmarks": [
+        "Votive Grove Nook",
+        "Shrine / Sacred Place Civic Hall"
+      ]
+    },
+    {
+      "districtNumber": 4,
+      "sectionNumber": 2,
+      "name": "D04 Entertainment / Theater Civic Core",
+      "civicPurpose": "One of five Entertainment / Theater district slots, focused on civic core; it supports local movement, services, social pressure, and scene transitions within Section 2.",
+      "visualIdentity": "Entertainment / Theater Civic Hall anchors the slot, supported by Entertainment Theater Lantern Monument, Mask Pavilion Nook, Seashell, Coral Stone, Pale Marble Stone, Canvas, Silk, and the Greek / Hellenic civic language.",
+      "emotionalIdentity": "Entertainment / Theater expressed through civic core: sunlit ceremonial tension with practical street-level specificity.",
+      "gameplayAssetNeeds": [
+        "Entertainment / Theater Civic Hall",
+        "Entertainment Theater Lantern Monument",
+        "Mask Pavilion Nook",
+        "Entertainment / Theater street dressing",
+        "Greek / Hellenic civilians",
+        "section-appropriate props"
+      ],
+      "narrativeUse": [
+        "entertainment / theater errands",
+        "wayfinding by exact landmark",
+        "crowd pressure",
+        "local work conflict",
+        "transition between board slots"
+      ],
+      "primaryLandmark": "Entertainment / Theater Civic Hall",
+      "minorLandmarks": [
+        "Entertainment Theater Lantern Monument",
+        "Mask Pavilion Nook"
+      ]
+    },
+    {
+      "districtNumber": 5,
+      "sectionNumber": 2,
+      "name": "D05 Entertainment / Theater Major Landmark Approach",
+      "civicPurpose": "One of five Entertainment / Theater district slots, focused on major landmark approach; it supports local movement, services, social pressure, and scene transitions within Section 2.",
+      "visualIdentity": "Opera Court anchors the slot, supported by Entertainment Theater Lantern Monument, Mask Pavilion Nook, Entertainment / Theater Civic Hall, Seashell, Coral Stone, Pale Marble Stone, Canvas, Silk, and the Greek / Hellenic civic language.",
+      "emotionalIdentity": "Entertainment / Theater expressed through major landmark approach: sunlit ceremonial tension with practical street-level specificity.",
+      "gameplayAssetNeeds": [
+        "Opera Court",
+        "Entertainment Theater Lantern Monument",
+        "Mask Pavilion Nook",
+        "Entertainment / Theater Civic Hall",
+        "Entertainment / Theater street dressing",
+        "Greek / Hellenic civilians",
+        "section-appropriate props"
+      ],
+      "narrativeUse": [
+        "entertainment / theater errands",
+        "wayfinding by exact landmark",
+        "crowd pressure",
+        "local work conflict",
+        "transition between board slots"
+      ],
+      "primaryLandmark": "Opera Court",
+      "minorLandmarks": [
+        "Entertainment Theater Lantern Monument",
+        "Mask Pavilion Nook",
+        "Entertainment / Theater Civic Hall"
+      ]
+    },
+    {
+      "districtNumber": 6,
+      "sectionNumber": 1,
+      "name": "D06 Shrine / Sacred Place Minor Landmark Lane",
+      "civicPurpose": "One of five Shrine / Sacred Place district slots, focused on minor landmark lane; it supports local movement, services, social pressure, and scene transitions within Section 1.",
+      "visualIdentity": "Votive Grove Nook anchors the slot, supported by Shrine Sacred Place Lantern Monument, Shrine / Sacred Place Civic Hall, Seashell, Coral Stone, Pale Marble Stone, Canvas, Silk, and the Greek / Hellenic civic language.",
+      "emotionalIdentity": "Shrine / Sacred Place expressed through minor landmark lane: sunlit ceremonial tension with practical street-level specificity.",
+      "gameplayAssetNeeds": [
+        "Votive Grove Nook",
+        "Shrine Sacred Place Lantern Monument",
+        "Shrine / Sacred Place Civic Hall",
+        "Shrine / Sacred Place street dressing",
+        "Greek / Hellenic civilians",
+        "section-appropriate props"
+      ],
+      "narrativeUse": [
+        "shrine / sacred place errands",
+        "wayfinding by exact landmark",
+        "crowd pressure",
+        "local work conflict",
+        "transition between board slots"
+      ],
+      "primaryLandmark": "Votive Grove Nook",
+      "minorLandmarks": [
+        "Shrine Sacred Place Lantern Monument",
+        "Shrine / Sacred Place Civic Hall"
+      ]
+    },
+    {
+      "districtNumber": 7,
+      "sectionNumber": 1,
+      "name": "D07 Shrine / Sacred Place Working Street Fabric",
+      "civicPurpose": "One of five Shrine / Sacred Place district slots, focused on working street fabric; it supports local movement, services, social pressure, and scene transitions within Section 1.",
+      "visualIdentity": "Roadside Shrine Beacon anchors the slot, supported by Shrine Sacred Place Lantern Monument, Votive Grove Nook, Shrine / Sacred Place Civic Hall, Seashell, Coral Stone, Pale Marble Stone, Canvas, Silk, and the Greek / Hellenic civic language.",
+      "emotionalIdentity": "Shrine / Sacred Place expressed through working street fabric: sunlit ceremonial tension with practical street-level specificity.",
+      "gameplayAssetNeeds": [
+        "Roadside Shrine Beacon",
+        "Shrine Sacred Place Lantern Monument",
+        "Votive Grove Nook",
+        "Shrine / Sacred Place Civic Hall",
+        "Shrine / Sacred Place street dressing",
+        "Greek / Hellenic civilians",
+        "section-appropriate props"
+      ],
+      "narrativeUse": [
+        "shrine / sacred place errands",
+        "wayfinding by exact landmark",
+        "crowd pressure",
+        "local work conflict",
+        "transition between board slots"
+      ],
+      "primaryLandmark": "Roadside Shrine Beacon",
+      "minorLandmarks": [
+        "Shrine Sacred Place Lantern Monument",
+        "Votive Grove Nook",
+        "Shrine / Sacred Place Civic Hall"
+      ]
+    },
+    {
+      "districtNumber": 8,
+      "sectionNumber": 3,
+      "name": "D08 Public Works Authority Civic Core",
+      "civicPurpose": "One of five Public Works Authority district slots, focused on civic core; it supports local movement, services, social pressure, and scene transitions within Section 3.",
+      "visualIdentity": "Public Works Authority Hall anchors the slot, supported by Blue-Lamp Monument, Permit Yard Nook, Seashell, Coral Stone, Pale Marble Stone, Canvas, Silk, and the Greek / Hellenic civic language.",
+      "emotionalIdentity": "Public Works Authority expressed through civic core: sunlit ceremonial tension with practical street-level specificity.",
+      "gameplayAssetNeeds": [
+        "Public Works Authority Hall",
+        "Blue-Lamp Monument",
+        "Permit Yard Nook",
+        "Public Works Authority street dressing",
+        "Greek / Hellenic civilians",
+        "section-appropriate props"
+      ],
+      "narrativeUse": [
+        "public works authority errands",
+        "wayfinding by exact landmark",
+        "crowd pressure",
+        "local work conflict",
+        "transition between board slots"
+      ],
+      "primaryLandmark": "Public Works Authority Hall",
+      "minorLandmarks": [
+        "Blue-Lamp Monument",
+        "Permit Yard Nook"
+      ]
+    },
+    {
+      "districtNumber": 9,
+      "sectionNumber": 2,
+      "name": "D09 Entertainment / Theater Monument Square",
+      "civicPurpose": "One of five Entertainment / Theater district slots, focused on monument square; it supports local movement, services, social pressure, and scene transitions within Section 2.",
+      "visualIdentity": "Entertainment Theater Lantern Monument anchors the slot, supported by Mask Pavilion Nook, Entertainment / Theater Civic Hall, Seashell, Coral Stone, Pale Marble Stone, Canvas, Silk, and the Greek / Hellenic civic language.",
+      "emotionalIdentity": "Entertainment / Theater expressed through monument square: sunlit ceremonial tension with practical street-level specificity.",
+      "gameplayAssetNeeds": [
+        "Entertainment Theater Lantern Monument",
+        "Mask Pavilion Nook",
+        "Entertainment / Theater Civic Hall",
+        "Entertainment / Theater street dressing",
+        "Greek / Hellenic civilians",
+        "section-appropriate props"
+      ],
+      "narrativeUse": [
+        "entertainment / theater errands",
+        "wayfinding by exact landmark",
+        "crowd pressure",
+        "local work conflict",
+        "transition between board slots"
+      ],
+      "primaryLandmark": "Entertainment Theater Lantern Monument",
+      "minorLandmarks": [
+        "Mask Pavilion Nook",
+        "Entertainment / Theater Civic Hall"
+      ]
+    },
+    {
+      "districtNumber": 10,
+      "sectionNumber": 2,
+      "name": "D10 Entertainment / Theater Minor Landmark Lane",
+      "civicPurpose": "One of five Entertainment / Theater district slots, focused on minor landmark lane; it supports local movement, services, social pressure, and scene transitions within Section 2.",
+      "visualIdentity": "Mask Pavilion Nook anchors the slot, supported by Entertainment Theater Lantern Monument, Entertainment / Theater Civic Hall, Seashell, Coral Stone, Pale Marble Stone, Canvas, Silk, and the Greek / Hellenic civic language.",
+      "emotionalIdentity": "Entertainment / Theater expressed through minor landmark lane: sunlit ceremonial tension with practical street-level specificity.",
+      "gameplayAssetNeeds": [
+        "Mask Pavilion Nook",
+        "Entertainment Theater Lantern Monument",
+        "Entertainment / Theater Civic Hall",
+        "Entertainment / Theater street dressing",
+        "Greek / Hellenic civilians",
+        "section-appropriate props"
+      ],
+      "narrativeUse": [
+        "entertainment / theater errands",
+        "wayfinding by exact landmark",
+        "crowd pressure",
+        "local work conflict",
+        "transition between board slots"
+      ],
+      "primaryLandmark": "Mask Pavilion Nook",
+      "minorLandmarks": [
+        "Entertainment Theater Lantern Monument",
+        "Entertainment / Theater Civic Hall"
+      ]
+    },
+    {
+      "districtNumber": 11,
+      "sectionNumber": 4,
+      "name": "D11 Necropolis / Ancestor Quarter Civic Core",
+      "civicPurpose": "One of five Necropolis / Ancestor Quarter district slots, focused on civic core; it supports local movement, services, social pressure, and scene transitions within Section 4.",
+      "visualIdentity": "Necropolis / Ancestor Quarter Civic Hall anchors the slot, supported by Ancestor Masks Monument, Bone Lantern Path Nook, Seashell, Coral Stone, Pale Marble Stone, Canvas, Silk, and the Greek / Hellenic civic language.",
+      "emotionalIdentity": "Necropolis / Ancestor Quarter expressed through civic core: sunlit ceremonial tension with practical street-level specificity.",
+      "gameplayAssetNeeds": [
+        "Necropolis / Ancestor Quarter Civic Hall",
+        "Ancestor Masks Monument",
+        "Bone Lantern Path Nook",
+        "Necropolis / Ancestor Quarter street dressing",
+        "Greek / Hellenic civilians",
+        "section-appropriate props"
+      ],
+      "narrativeUse": [
+        "necropolis / ancestor quarter errands",
+        "wayfinding by exact landmark",
+        "crowd pressure",
+        "local work conflict",
+        "transition between board slots"
+      ],
+      "primaryLandmark": "Necropolis / Ancestor Quarter Civic Hall",
+      "minorLandmarks": [
+        "Ancestor Masks Monument",
+        "Bone Lantern Path Nook"
+      ]
+    },
+    {
+      "districtNumber": 12,
+      "sectionNumber": 3,
+      "name": "D12 Public Works Authority Major Landmark Approach",
+      "civicPurpose": "One of five Public Works Authority district slots, focused on major landmark approach; it supports local movement, services, social pressure, and scene transitions within Section 3.",
+      "visualIdentity": "Survey Hall anchors the slot, supported by Blue-Lamp Monument, Permit Yard Nook, Public Works Authority Hall, Seashell, Coral Stone, Pale Marble Stone, Canvas, Silk, and the Greek / Hellenic civic language.",
+      "emotionalIdentity": "Public Works Authority expressed through major landmark approach: sunlit ceremonial tension with practical street-level specificity.",
+      "gameplayAssetNeeds": [
+        "Survey Hall",
+        "Blue-Lamp Monument",
+        "Permit Yard Nook",
+        "Public Works Authority Hall",
+        "Public Works Authority street dressing",
+        "Greek / Hellenic civilians",
+        "section-appropriate props"
+      ],
+      "narrativeUse": [
+        "public works authority errands",
+        "wayfinding by exact landmark",
+        "crowd pressure",
+        "local work conflict",
+        "transition between board slots"
+      ],
+      "primaryLandmark": "Survey Hall",
+      "minorLandmarks": [
+        "Blue-Lamp Monument",
+        "Permit Yard Nook",
+        "Public Works Authority Hall"
+      ]
+    },
+    {
+      "districtNumber": 13,
+      "sectionNumber": 3,
+      "name": "D13 Seat of Power / Public Works Authority",
+      "civicPurpose": "Central city authority, public rulings, sealed records, command visibility, and the official connection between Gold Seals Tide-Seal Citadel and the surrounding Public Works Authority section.",
+      "visualIdentity": "Gold Seals Tide-Seal Citadel dominates this central slot while Public Works Authority details, civic blue signal language, formal approaches, and local anchor textures remain visible.",
+      "emotionalIdentity": "Authoritative, central, watched, and politically charged.",
+      "gameplayAssetNeeds": [
+        "Gold Seals Tide-Seal Citadel",
+        "central authority massing",
+        "audience terraces",
+        "sealed archive entrances",
+        "visible D13 approaches",
+        "Permit Yard Nook",
+        "Public Works Authority Hall"
+      ],
+      "narrativeUse": [
+        "central petitions",
+        "public rulings",
+        "citywide orders",
+        "private authority scenes",
+        "beacon response coordination"
+      ],
+      "primaryLandmark": "Gold Seals Tide-Seal Citadel",
+      "minorLandmarks": [
+        "Permit Yard Nook",
+        "Public Works Authority Hall"
+      ]
+    },
+    {
+      "districtNumber": 14,
+      "sectionNumber": 3,
+      "name": "D14 Public Works Authority Minor Landmark Lane",
+      "civicPurpose": "One of five Public Works Authority district slots, focused on minor landmark lane; it supports local movement, services, social pressure, and scene transitions within Section 3.",
+      "visualIdentity": "Permit Yard Nook anchors the slot, supported by Blue-Lamp Monument, Public Works Authority Hall, Seashell, Coral Stone, Pale Marble Stone, Canvas, Silk, and the Greek / Hellenic civic language.",
+      "emotionalIdentity": "Public Works Authority expressed through minor landmark lane: sunlit ceremonial tension with practical street-level specificity.",
+      "gameplayAssetNeeds": [
+        "Permit Yard Nook",
+        "Blue-Lamp Monument",
+        "Public Works Authority Hall",
+        "Public Works Authority street dressing",
+        "Greek / Hellenic civilians",
+        "section-appropriate props"
+      ],
+      "narrativeUse": [
+        "public works authority errands",
+        "wayfinding by exact landmark",
+        "crowd pressure",
+        "local work conflict",
+        "transition between board slots"
+      ],
+      "primaryLandmark": "Permit Yard Nook",
+      "minorLandmarks": [
+        "Blue-Lamp Monument",
+        "Public Works Authority Hall"
+      ]
+    },
+    {
+      "districtNumber": 15,
+      "sectionNumber": 2,
+      "name": "D15 Entertainment / Theater Working Street Fabric",
+      "civicPurpose": "One of five Entertainment / Theater district slots, focused on working street fabric; it supports local movement, services, social pressure, and scene transitions within Section 2.",
+      "visualIdentity": "Opera Court anchors the slot, supported by Entertainment Theater Lantern Monument, Mask Pavilion Nook, Entertainment / Theater Civic Hall, Seashell, Coral Stone, Pale Marble Stone, Canvas, Silk, and the Greek / Hellenic civic language.",
+      "emotionalIdentity": "Entertainment / Theater expressed through working street fabric: sunlit ceremonial tension with practical street-level specificity.",
+      "gameplayAssetNeeds": [
+        "Opera Court",
+        "Entertainment Theater Lantern Monument",
+        "Mask Pavilion Nook",
+        "Entertainment / Theater Civic Hall",
+        "Entertainment / Theater street dressing",
+        "Greek / Hellenic civilians",
+        "section-appropriate props"
+      ],
+      "narrativeUse": [
+        "entertainment / theater errands",
+        "wayfinding by exact landmark",
+        "crowd pressure",
+        "local work conflict",
+        "transition between board slots"
+      ],
+      "primaryLandmark": "Opera Court",
+      "minorLandmarks": [
+        "Entertainment Theater Lantern Monument",
+        "Mask Pavilion Nook",
+        "Entertainment / Theater Civic Hall"
+      ]
+    },
+    {
+      "districtNumber": 16,
+      "sectionNumber": 4,
+      "name": "D16 Necropolis / Ancestor Quarter Major Landmark Approach",
+      "civicPurpose": "One of five Necropolis / Ancestor Quarter district slots, focused on major landmark approach; it supports local movement, services, social pressure, and scene transitions within Section 4.",
+      "visualIdentity": "Ancestor Vault anchors the slot, supported by Ancestor Masks Monument, Bone Lantern Path Nook, Necropolis / Ancestor Quarter Civic Hall, Seashell, Coral Stone, Pale Marble Stone, Canvas, Silk, and the Greek / Hellenic civic language.",
+      "emotionalIdentity": "Necropolis / Ancestor Quarter expressed through major landmark approach: sunlit ceremonial tension with practical street-level specificity.",
+      "gameplayAssetNeeds": [
+        "Ancestor Vault",
+        "Ancestor Masks Monument",
+        "Bone Lantern Path Nook",
+        "Necropolis / Ancestor Quarter Civic Hall",
+        "Necropolis / Ancestor Quarter street dressing",
+        "Greek / Hellenic civilians",
+        "section-appropriate props"
+      ],
+      "narrativeUse": [
+        "necropolis / ancestor quarter errands",
+        "wayfinding by exact landmark",
+        "crowd pressure",
+        "local work conflict",
+        "transition between board slots"
+      ],
+      "primaryLandmark": "Ancestor Vault",
+      "minorLandmarks": [
+        "Ancestor Masks Monument",
+        "Bone Lantern Path Nook",
+        "Necropolis / Ancestor Quarter Civic Hall"
+      ]
+    },
+    {
+      "districtNumber": 17,
+      "sectionNumber": 4,
+      "name": "D17 Necropolis / Ancestor Quarter Monument Square",
+      "civicPurpose": "One of five Necropolis / Ancestor Quarter district slots, focused on monument square; it supports local movement, services, social pressure, and scene transitions within Section 4.",
+      "visualIdentity": "Ancestor Masks Monument anchors the slot, supported by Bone Lantern Path Nook, Necropolis / Ancestor Quarter Civic Hall, Seashell, Coral Stone, Pale Marble Stone, Canvas, Silk, and the Greek / Hellenic civic language.",
+      "emotionalIdentity": "Necropolis / Ancestor Quarter expressed through monument square: sunlit ceremonial tension with practical street-level specificity.",
+      "gameplayAssetNeeds": [
+        "Ancestor Masks Monument",
+        "Bone Lantern Path Nook",
+        "Necropolis / Ancestor Quarter Civic Hall",
+        "Necropolis / Ancestor Quarter street dressing",
+        "Greek / Hellenic civilians",
+        "section-appropriate props"
+      ],
+      "narrativeUse": [
+        "necropolis / ancestor quarter errands",
+        "wayfinding by exact landmark",
+        "crowd pressure",
+        "local work conflict",
+        "transition between board slots"
+      ],
+      "primaryLandmark": "Ancestor Masks Monument",
+      "minorLandmarks": [
+        "Bone Lantern Path Nook",
+        "Necropolis / Ancestor Quarter Civic Hall"
+      ]
+    },
+    {
+      "districtNumber": 18,
+      "sectionNumber": 3,
+      "name": "D18 Public Works Authority Working Street Fabric",
+      "civicPurpose": "One of five Public Works Authority district slots, focused on working street fabric; it supports local movement, services, social pressure, and scene transitions within Section 3.",
+      "visualIdentity": "Survey Hall anchors the slot, supported by Blue-Lamp Monument, Permit Yard Nook, Public Works Authority Hall, Seashell, Coral Stone, Pale Marble Stone, Canvas, Silk, and the Greek / Hellenic civic language.",
+      "emotionalIdentity": "Public Works Authority expressed through working street fabric: sunlit ceremonial tension with practical street-level specificity.",
+      "gameplayAssetNeeds": [
+        "Survey Hall",
+        "Blue-Lamp Monument",
+        "Permit Yard Nook",
+        "Public Works Authority Hall",
+        "Public Works Authority street dressing",
+        "Greek / Hellenic civilians",
+        "section-appropriate props"
+      ],
+      "narrativeUse": [
+        "public works authority errands",
+        "wayfinding by exact landmark",
+        "crowd pressure",
+        "local work conflict",
+        "transition between board slots"
+      ],
+      "primaryLandmark": "Survey Hall",
+      "minorLandmarks": [
+        "Blue-Lamp Monument",
+        "Permit Yard Nook",
+        "Public Works Authority Hall"
+      ]
+    },
+    {
+      "districtNumber": 19,
+      "sectionNumber": 5,
+      "name": "D19 Slums / Informal Settlement Civic Core",
+      "civicPurpose": "One of five Slums / Informal Settlement district slots, focused on civic core; it supports local movement, services, social pressure, and scene transitions within Section 5.",
+      "visualIdentity": "Slums / Informal Settlement Civic Hall anchors the slot, supported by Slums Informal Settlement Lantern Monument, Patched Tenement Nook, Seashell, Coral Stone, Pale Marble Stone, Canvas, Silk, and the Greek / Hellenic civic language.",
+      "emotionalIdentity": "Slums / Informal Settlement expressed through civic core: sunlit ceremonial tension with practical street-level specificity.",
+      "gameplayAssetNeeds": [
+        "Slums / Informal Settlement Civic Hall",
+        "Slums Informal Settlement Lantern Monument",
+        "Patched Tenement Nook",
+        "Slums / Informal Settlement street dressing",
+        "Greek / Hellenic civilians",
+        "section-appropriate props"
+      ],
+      "narrativeUse": [
+        "slums / informal settlement errands",
+        "wayfinding by exact landmark",
+        "crowd pressure",
+        "local work conflict",
+        "transition between board slots"
+      ],
+      "primaryLandmark": "Slums / Informal Settlement Civic Hall",
+      "minorLandmarks": [
+        "Slums Informal Settlement Lantern Monument",
+        "Patched Tenement Nook"
+      ]
+    },
+    {
+      "districtNumber": 20,
+      "sectionNumber": 5,
+      "name": "D20 Slums / Informal Settlement Major Landmark Approach",
+      "civicPurpose": "One of five Slums / Informal Settlement district slots, focused on major landmark approach; it supports local movement, services, social pressure, and scene transitions within Section 5.",
+      "visualIdentity": "Scrap Market anchors the slot, supported by Slums Informal Settlement Lantern Monument, Patched Tenement Nook, Slums / Informal Settlement Civic Hall, Seashell, Coral Stone, Pale Marble Stone, Canvas, Silk, and the Greek / Hellenic civic language.",
+      "emotionalIdentity": "Slums / Informal Settlement expressed through major landmark approach: sunlit ceremonial tension with practical street-level specificity.",
+      "gameplayAssetNeeds": [
+        "Scrap Market",
+        "Slums Informal Settlement Lantern Monument",
+        "Patched Tenement Nook",
+        "Slums / Informal Settlement Civic Hall",
+        "Slums / Informal Settlement street dressing",
+        "Greek / Hellenic civilians",
+        "section-appropriate props"
+      ],
+      "narrativeUse": [
+        "slums / informal settlement errands",
+        "wayfinding by exact landmark",
+        "crowd pressure",
+        "local work conflict",
+        "transition between board slots"
+      ],
+      "primaryLandmark": "Scrap Market",
+      "minorLandmarks": [
+        "Slums Informal Settlement Lantern Monument",
+        "Patched Tenement Nook",
+        "Slums / Informal Settlement Civic Hall"
+      ]
+    },
+    {
+      "districtNumber": 21,
+      "sectionNumber": 4,
+      "name": "D21 Necropolis / Ancestor Quarter Minor Landmark Lane",
+      "civicPurpose": "One of five Necropolis / Ancestor Quarter district slots, focused on minor landmark lane; it supports local movement, services, social pressure, and scene transitions within Section 4.",
+      "visualIdentity": "Bone Lantern Path Nook anchors the slot, supported by Ancestor Masks Monument, Necropolis / Ancestor Quarter Civic Hall, Seashell, Coral Stone, Pale Marble Stone, Canvas, Silk, and the Greek / Hellenic civic language.",
+      "emotionalIdentity": "Necropolis / Ancestor Quarter expressed through minor landmark lane: sunlit ceremonial tension with practical street-level specificity.",
+      "gameplayAssetNeeds": [
+        "Bone Lantern Path Nook",
+        "Ancestor Masks Monument",
+        "Necropolis / Ancestor Quarter Civic Hall",
+        "Necropolis / Ancestor Quarter street dressing",
+        "Greek / Hellenic civilians",
+        "section-appropriate props"
+      ],
+      "narrativeUse": [
+        "necropolis / ancestor quarter errands",
+        "wayfinding by exact landmark",
+        "crowd pressure",
+        "local work conflict",
+        "transition between board slots"
+      ],
+      "primaryLandmark": "Bone Lantern Path Nook",
+      "minorLandmarks": [
+        "Ancestor Masks Monument",
+        "Necropolis / Ancestor Quarter Civic Hall"
+      ]
+    },
+    {
+      "districtNumber": 22,
+      "sectionNumber": 4,
+      "name": "D22 Necropolis / Ancestor Quarter Working Street Fabric",
+      "civicPurpose": "One of five Necropolis / Ancestor Quarter district slots, focused on working street fabric; it supports local movement, services, social pressure, and scene transitions within Section 4.",
+      "visualIdentity": "Ancestor Vault anchors the slot, supported by Ancestor Masks Monument, Bone Lantern Path Nook, Necropolis / Ancestor Quarter Civic Hall, Seashell, Coral Stone, Pale Marble Stone, Canvas, Silk, and the Greek / Hellenic civic language.",
+      "emotionalIdentity": "Necropolis / Ancestor Quarter expressed through working street fabric: sunlit ceremonial tension with practical street-level specificity.",
+      "gameplayAssetNeeds": [
+        "Ancestor Vault",
+        "Ancestor Masks Monument",
+        "Bone Lantern Path Nook",
+        "Necropolis / Ancestor Quarter Civic Hall",
+        "Necropolis / Ancestor Quarter street dressing",
+        "Greek / Hellenic civilians",
+        "section-appropriate props"
+      ],
+      "narrativeUse": [
+        "necropolis / ancestor quarter errands",
+        "wayfinding by exact landmark",
+        "crowd pressure",
+        "local work conflict",
+        "transition between board slots"
+      ],
+      "primaryLandmark": "Ancestor Vault",
+      "minorLandmarks": [
+        "Ancestor Masks Monument",
+        "Bone Lantern Path Nook",
+        "Necropolis / Ancestor Quarter Civic Hall"
+      ]
+    },
+    {
+      "districtNumber": 23,
+      "sectionNumber": 5,
+      "name": "D23 Slums / Informal Settlement Monument Square",
+      "civicPurpose": "One of five Slums / Informal Settlement district slots, focused on monument square; it supports local movement, services, social pressure, and scene transitions within Section 5.",
+      "visualIdentity": "Slums Informal Settlement Lantern Monument anchors the slot, supported by Patched Tenement Nook, Slums / Informal Settlement Civic Hall, Seashell, Coral Stone, Pale Marble Stone, Canvas, Silk, and the Greek / Hellenic civic language.",
+      "emotionalIdentity": "Slums / Informal Settlement expressed through monument square: sunlit ceremonial tension with practical street-level specificity.",
+      "gameplayAssetNeeds": [
+        "Slums Informal Settlement Lantern Monument",
+        "Patched Tenement Nook",
+        "Slums / Informal Settlement Civic Hall",
+        "Slums / Informal Settlement street dressing",
+        "Greek / Hellenic civilians",
+        "section-appropriate props"
+      ],
+      "narrativeUse": [
+        "slums / informal settlement errands",
+        "wayfinding by exact landmark",
+        "crowd pressure",
+        "local work conflict",
+        "transition between board slots"
+      ],
+      "primaryLandmark": "Slums Informal Settlement Lantern Monument",
+      "minorLandmarks": [
+        "Patched Tenement Nook",
+        "Slums / Informal Settlement Civic Hall"
+      ]
+    },
+    {
+      "districtNumber": 24,
+      "sectionNumber": 5,
+      "name": "D24 Slums / Informal Settlement Minor Landmark Lane",
+      "civicPurpose": "One of five Slums / Informal Settlement district slots, focused on minor landmark lane; it supports local movement, services, social pressure, and scene transitions within Section 5.",
+      "visualIdentity": "Patched Tenement Nook anchors the slot, supported by Slums Informal Settlement Lantern Monument, Slums / Informal Settlement Civic Hall, Seashell, Coral Stone, Pale Marble Stone, Canvas, Silk, and the Greek / Hellenic civic language.",
+      "emotionalIdentity": "Slums / Informal Settlement expressed through minor landmark lane: sunlit ceremonial tension with practical street-level specificity.",
+      "gameplayAssetNeeds": [
+        "Patched Tenement Nook",
+        "Slums Informal Settlement Lantern Monument",
+        "Slums / Informal Settlement Civic Hall",
+        "Slums / Informal Settlement street dressing",
+        "Greek / Hellenic civilians",
+        "section-appropriate props"
+      ],
+      "narrativeUse": [
+        "slums / informal settlement errands",
+        "wayfinding by exact landmark",
+        "crowd pressure",
+        "local work conflict",
+        "transition between board slots"
+      ],
+      "primaryLandmark": "Patched Tenement Nook",
+      "minorLandmarks": [
+        "Slums Informal Settlement Lantern Monument",
+        "Slums / Informal Settlement Civic Hall"
+      ]
+    },
+    {
+      "districtNumber": 25,
+      "sectionNumber": 5,
+      "name": "D25 Slums / Informal Settlement Working Street Fabric",
+      "civicPurpose": "One of five Slums / Informal Settlement district slots, focused on working street fabric; it supports local movement, services, social pressure, and scene transitions within Section 5.",
+      "visualIdentity": "Scrap Market anchors the slot, supported by Slums Informal Settlement Lantern Monument, Patched Tenement Nook, Slums / Informal Settlement Civic Hall, Seashell, Coral Stone, Pale Marble Stone, Canvas, Silk, and the Greek / Hellenic civic language.",
+      "emotionalIdentity": "Slums / Informal Settlement expressed through working street fabric: sunlit ceremonial tension with practical street-level specificity.",
+      "gameplayAssetNeeds": [
+        "Scrap Market",
+        "Slums Informal Settlement Lantern Monument",
+        "Patched Tenement Nook",
+        "Slums / Informal Settlement Civic Hall",
+        "Slums / Informal Settlement street dressing",
+        "Greek / Hellenic civilians",
+        "section-appropriate props"
+      ],
+      "narrativeUse": [
+        "slums / informal settlement errands",
+        "wayfinding by exact landmark",
+        "crowd pressure",
+        "local work conflict",
+        "transition between board slots"
+      ],
+      "primaryLandmark": "Scrap Market",
+      "minorLandmarks": [
+        "Slums Informal Settlement Lantern Monument",
+        "Patched Tenement Nook",
+        "Slums / Informal Settlement Civic Hall"
+      ]
+    }
+  ],
+  "landmarks": {
+    "wonder": {
+      "name": "Hellenic Marble Agon of the Sun Laurel",
+      "symbolicRole": "The citywide symbol of oath-bound civic performance made monumental.",
+      "visualRole": "A wonder-scale skyline anchor using Seashell, Coral Stone, Pale Marble Stone, Canvas, Silk, Coastal Edge, Seawall Edge, Harbor Basin, Coast, and the Greek / Hellenic visual language.",
+      "civicRole": "Represents the whole city above the five sections: Shrine / Sacred Place, Entertainment / Theater, Public Works Authority, Necropolis / Ancestor Quarter, Slums / Informal Settlement.",
+      "narrativeUse": [
+        "arrival revelation",
+        "city identity scene",
+        "public ceremony",
+        "distant navigation",
+        "symbolic contrast with district-level conflict"
+      ],
+      "assetUse": [
+        "map background skyline anchor",
+        "hero-view focal point",
+        "diorama backdrop",
+        "visual identifier for city"
+      ],
+      "sensoryIdentity": [
+        "seashell",
+        "coral stone",
+        "pale marble stone",
+        "canvas",
+        "silk",
+        "coastal edge",
+        "seawall edge"
+      ],
+      "storyHooks": [
+        "access to Hellenic Marble Agon of the Sun Laurel changes public legitimacy",
+        "a citywide ritual reveals hidden pressure",
+        "the Wonder becomes a navigation or warning reference"
+      ]
+    },
+    "beacon": {
+      "name": "Roadside Shrine Beacon",
+      "symbolicRole": "Public signal and shared alarm for Thalorion.",
+      "visualRole": "A section-scale signal landmark that must read immediately as the city Beacon.",
+      "civicRole": "Coordinates public response, civic warnings, and Conjunction-state attention.",
+      "narrativeUse": [
+        "beacon color change",
+        "crowd response",
+        "public warning",
+        "rumor spread",
+        "panic or disciplined response"
+      ],
+      "assetUse": [
+        "district diorama signal centerpiece",
+        "city map signal icon",
+        "public plaza asset"
+      ],
+      "sensoryIdentity": [
+        "signal glow",
+        "crowd hush",
+        "public calls",
+        "seashell",
+        "coral stone",
+        "pale marble stone",
+        "canvas"
+      ],
+      "storyHooks": [
+        "someone controls the first interpretation of a signal",
+        "the Beacon redirects traffic between sections",
+        "a warning exposes which citizens trust civic authority"
+      ]
+    },
+    "seatOfPower": {
+      "name": "Gold Seals Tide-Seal Citadel",
+      "symbolicRole": "Central authority made visible and source-backed.",
+      "visualRole": "The District 13 authority complex with formal approaches and city-specific materials.",
+      "civicRole": "Seat of government, petitions, records, rulings, and command visibility.",
+      "narrativeUse": [
+        "formal petition",
+        "sealed ruling",
+        "private audience",
+        "public legitimacy challenge",
+        "citywide order"
+      ],
+      "assetUse": [
+        "central map authority marker",
+        "D13 diorama landmark",
+        "government-scene backdrop"
+      ],
+      "sensoryIdentity": [
+        "formal silence",
+        "clerks and guards",
+        "sealed records",
+        "seashell",
+        "coral stone",
+        "pale marble stone",
+        "canvas"
+      ],
+      "storyHooks": [
+        "a ruling contradicts a section custom",
+        "a sealed record changes public interpretation",
+        "D13 becomes a pressure point during crisis"
+      ]
+    },
+    "majorLandmarks": [
+      {
+        "name": "Shrine / Sacred Place Civic Hall",
+        "symbolicRole": "Shrine / Sacred Place expressed through a civic center anchor.",
+        "visualRole": "Shrine / Sacred Place Civic Hall should show board-readable entrance, charms, bells, flowers, votive cloth, using Seashell, Coral Stone, Pale Marble Stone, Canvas, Silk and section-specific massing.",
+        "civicRole": "Supports Section 1's Shrine / Sacred Place purpose as a local civic, movement, memory, or service node.",
+        "narrativeUse": [
+          "shrine / sacred place scene anchor",
+          "local meeting point",
+          "evidence or route clue",
+          "crowd behavior marker"
+        ],
+        "assetUse": [
+          "Section 1 diorama asset",
+          "map label or icon",
+          "district-scale landmark prop cluster"
+        ],
+        "sensoryIdentity": [
+          "board-readable entrance",
+          "charms",
+          "bells",
+          "flowers",
+          "seashell",
+          "coral stone",
+          "pale marble stone"
+        ],
+        "storyHooks": [
+          "Shrine / Sacred Place Civic Hall becomes the specific landmark that prevents the scene from feeling generic",
+          "a local dispute centers on access to Shrine / Sacred Place Civic Hall"
+        ]
+      },
+      {
+        "name": "Shrine Sacred Place Lantern Monument",
+        "symbolicRole": "Shrine / Sacred Place expressed through a monument anchor.",
+        "visualRole": "Shrine Sacred Place Lantern Monument should show holy stairs, votive niches, offering shelves, symbolic civic object, small ceremonial site, using Seashell, Coral Stone, Pale Marble Stone, Canvas, Silk and section-specific massing.",
+        "civicRole": "Supports Section 1's Shrine / Sacred Place purpose as a local civic, movement, memory, or service node.",
+        "narrativeUse": [
+          "shrine / sacred place scene anchor",
+          "local meeting point",
+          "evidence or route clue",
+          "crowd behavior marker"
+        ],
+        "assetUse": [
+          "Section 1 diorama asset",
+          "map label or icon",
+          "district-scale landmark prop cluster"
+        ],
+        "sensoryIdentity": [
+          "holy stairs",
+          "votive niches",
+          "offering shelves",
+          "symbolic civic object",
+          "seashell",
+          "coral stone",
+          "pale marble stone"
+        ],
+        "storyHooks": [
+          "Shrine Sacred Place Lantern Monument becomes the specific landmark that prevents the scene from feeling generic",
+          "a local dispute centers on access to Shrine Sacred Place Lantern Monument"
+        ]
+      },
+      {
+        "name": "Votive Grove Nook",
+        "symbolicRole": "Shrine / Sacred Place expressed through a minor landmark anchor.",
+        "visualRole": "Votive Grove Nook should show holy stairs, votive niches, offering shelves, small local identity prop, street-level detail, using Seashell, Coral Stone, Pale Marble Stone, Canvas, Silk and section-specific massing.",
+        "civicRole": "Supports Section 1's Shrine / Sacred Place purpose as a local civic, movement, memory, or service node.",
+        "narrativeUse": [
+          "shrine / sacred place scene anchor",
+          "local meeting point",
+          "evidence or route clue",
+          "crowd behavior marker"
+        ],
+        "assetUse": [
+          "Section 1 diorama asset",
+          "map label or icon",
+          "district-scale landmark prop cluster"
+        ],
+        "sensoryIdentity": [
+          "holy stairs",
+          "votive niches",
+          "offering shelves",
+          "small local identity prop",
+          "seashell",
+          "coral stone",
+          "pale marble stone"
+        ],
+        "storyHooks": [
+          "Votive Grove Nook becomes the specific landmark that prevents the scene from feeling generic",
+          "a local dispute centers on access to Votive Grove Nook"
+        ]
+      },
+      {
+        "name": "Entertainment / Theater Civic Hall",
+        "symbolicRole": "Entertainment / Theater expressed through a civic center anchor.",
+        "visualRole": "Entertainment / Theater Civic Hall should show public-facing administration, clear central silhouette, board-readable entrance, masks, lanterns, using Seashell, Coral Stone, Pale Marble Stone, Canvas, Silk and section-specific massing.",
+        "civicRole": "Supports Section 2's Entertainment / Theater purpose as a local civic, movement, memory, or service node.",
+        "narrativeUse": [
+          "entertainment / theater scene anchor",
+          "local meeting point",
+          "evidence or route clue",
+          "crowd behavior marker"
+        ],
+        "assetUse": [
+          "Section 2 diorama asset",
+          "map label or icon",
+          "district-scale landmark prop cluster"
+        ],
+        "sensoryIdentity": [
+          "public-facing administration",
+          "clear central silhouette",
+          "board-readable entrance",
+          "masks",
+          "seashell",
+          "coral stone",
+          "pale marble stone"
+        ],
+        "storyHooks": [
+          "Entertainment / Theater Civic Hall becomes the specific landmark that prevents the scene from feeling generic",
+          "a local dispute centers on access to Entertainment / Theater Civic Hall"
+        ]
+      },
+      {
+        "name": "Opera Court",
+        "symbolicRole": "Entertainment / Theater expressed through a major landmark anchor.",
+        "visualRole": "Opera Court should show ticket courts, largest section focal point, strong vertical silhouette, distinct gameplay landmark, visible from nearby districts, using Seashell, Coral Stone, Pale Marble Stone, Canvas, Silk and section-specific massing.",
+        "civicRole": "Supports Section 2's Entertainment / Theater purpose as a local civic, movement, memory, or service node.",
+        "narrativeUse": [
+          "entertainment / theater scene anchor",
+          "local meeting point",
+          "evidence or route clue",
+          "crowd behavior marker"
+        ],
+        "assetUse": [
+          "Section 2 diorama asset",
+          "map label or icon",
+          "district-scale landmark prop cluster"
+        ],
+        "sensoryIdentity": [
+          "ticket courts",
+          "largest section focal point",
+          "strong vertical silhouette",
+          "distinct gameplay landmark",
+          "seashell",
+          "coral stone",
+          "pale marble stone"
+        ],
+        "storyHooks": [
+          "Opera Court becomes the specific landmark that prevents the scene from feeling generic",
+          "a local dispute centers on access to Opera Court"
+        ]
+      },
+      {
+        "name": "Entertainment Theater Lantern Monument",
+        "symbolicRole": "Entertainment / Theater expressed through a monument anchor.",
+        "visualRole": "Entertainment Theater Lantern Monument should show ticket courts, symbolic civic object, small ceremonial site, local memory marker, subordinate to major landmark, using Seashell, Coral Stone, Pale Marble Stone, Canvas, Silk and section-specific massing.",
+        "civicRole": "Supports Section 2's Entertainment / Theater purpose as a local civic, movement, memory, or service node.",
+        "narrativeUse": [
+          "entertainment / theater scene anchor",
+          "local meeting point",
+          "evidence or route clue",
+          "crowd behavior marker"
+        ],
+        "assetUse": [
+          "Section 2 diorama asset",
+          "map label or icon",
+          "district-scale landmark prop cluster"
+        ],
+        "sensoryIdentity": [
+          "ticket courts",
+          "symbolic civic object",
+          "small ceremonial site",
+          "local memory marker",
+          "seashell",
+          "coral stone",
+          "pale marble stone"
+        ],
+        "storyHooks": [
+          "Entertainment Theater Lantern Monument becomes the specific landmark that prevents the scene from feeling generic",
+          "a local dispute centers on access to Entertainment Theater Lantern Monument"
+        ]
+      },
+      {
+        "name": "Mask Pavilion Nook",
+        "symbolicRole": "Entertainment / Theater expressed through a minor landmark anchor.",
+        "visualRole": "Mask Pavilion Nook should show usable board landmark, subordinate scale, masks, lanterns, curtains, using Seashell, Coral Stone, Pale Marble Stone, Canvas, Silk and section-specific massing.",
+        "civicRole": "Supports Section 2's Entertainment / Theater purpose as a local civic, movement, memory, or service node.",
+        "narrativeUse": [
+          "entertainment / theater scene anchor",
+          "local meeting point",
+          "evidence or route clue",
+          "crowd behavior marker"
+        ],
+        "assetUse": [
+          "Section 2 diorama asset",
+          "map label or icon",
+          "district-scale landmark prop cluster"
+        ],
+        "sensoryIdentity": [
+          "usable board landmark",
+          "subordinate scale",
+          "masks",
+          "lanterns",
+          "seashell",
+          "coral stone",
+          "pale marble stone"
+        ],
+        "storyHooks": [
+          "Mask Pavilion Nook becomes the specific landmark that prevents the scene from feeling generic",
+          "a local dispute centers on access to Mask Pavilion Nook"
+        ]
+      },
+      {
+        "name": "Public Works Authority Hall",
+        "symbolicRole": "Public Works Authority expressed through a civic center anchor.",
+        "visualRole": "Public Works Authority Hall should show measuring rods, scaffolds, stone plans, water gauges, engineer halls, using Seashell, Coral Stone, Pale Marble Stone, Canvas, Silk and section-specific massing.",
+        "civicRole": "Supports Section 3's Public Works Authority purpose as a local civic, movement, memory, or service node.",
+        "narrativeUse": [
+          "public works authority scene anchor",
+          "local meeting point",
+          "evidence or route clue",
+          "crowd behavior marker"
+        ],
+        "assetUse": [
+          "Section 3 diorama asset",
+          "map label or icon",
+          "district-scale landmark prop cluster"
+        ],
+        "sensoryIdentity": [
+          "measuring rods",
+          "scaffolds",
+          "stone plans",
+          "water gauges",
+          "seashell",
+          "coral stone",
+          "pale marble stone"
+        ],
+        "storyHooks": [
+          "Public Works Authority Hall becomes the specific landmark that prevents the scene from feeling generic",
+          "a local dispute centers on access to Public Works Authority Hall"
+        ]
+      },
+      {
+        "name": "Survey Hall",
+        "symbolicRole": "Public Works Authority expressed through a major landmark anchor.",
+        "visualRole": "Survey Hall should show visible from nearby districts, measuring rods, scaffolds, stone plans, water gauges, using Seashell, Coral Stone, Pale Marble Stone, Canvas, Silk and section-specific massing.",
+        "civicRole": "Supports Section 3's Public Works Authority purpose as a local civic, movement, memory, or service node.",
+        "narrativeUse": [
+          "public works authority scene anchor",
+          "local meeting point",
+          "evidence or route clue",
+          "crowd behavior marker"
+        ],
+        "assetUse": [
+          "Section 3 diorama asset",
+          "map label or icon",
+          "district-scale landmark prop cluster"
+        ],
+        "sensoryIdentity": [
+          "visible from nearby districts",
+          "measuring rods",
+          "scaffolds",
+          "stone plans",
+          "seashell",
+          "coral stone",
+          "pale marble stone"
+        ],
+        "storyHooks": [
+          "Survey Hall becomes the specific landmark that prevents the scene from feeling generic",
+          "a local dispute centers on access to Survey Hall"
+        ]
+      },
+      {
+        "name": "Blue-Lamp Monument",
+        "symbolicRole": "Public Works Authority expressed through a monument anchor.",
+        "visualRole": "Blue-Lamp Monument should show survey yards, bridge offices, repair yards, symbolic civic object, small ceremonial site, using Seashell, Coral Stone, Pale Marble Stone, Canvas, Silk and section-specific massing.",
+        "civicRole": "Supports Section 3's Public Works Authority purpose as a local civic, movement, memory, or service node.",
+        "narrativeUse": [
+          "public works authority scene anchor",
+          "local meeting point",
+          "evidence or route clue",
+          "crowd behavior marker"
+        ],
+        "assetUse": [
+          "Section 3 diorama asset",
+          "map label or icon",
+          "district-scale landmark prop cluster"
+        ],
+        "sensoryIdentity": [
+          "survey yards",
+          "bridge offices",
+          "repair yards",
+          "symbolic civic object",
+          "seashell",
+          "coral stone",
+          "pale marble stone"
+        ],
+        "storyHooks": [
+          "Blue-Lamp Monument becomes the specific landmark that prevents the scene from feeling generic",
+          "a local dispute centers on access to Blue-Lamp Monument"
+        ]
+      },
+      {
+        "name": "Permit Yard Nook",
+        "symbolicRole": "Public Works Authority expressed through a minor landmark anchor.",
+        "visualRole": "Permit Yard Nook should show stone plans, water gauges, engineer halls, survey yards, bridge offices, using Seashell, Coral Stone, Pale Marble Stone, Canvas, Silk and section-specific massing.",
+        "civicRole": "Supports Section 3's Public Works Authority purpose as a local civic, movement, memory, or service node.",
+        "narrativeUse": [
+          "public works authority scene anchor",
+          "local meeting point",
+          "evidence or route clue",
+          "crowd behavior marker"
+        ],
+        "assetUse": [
+          "Section 3 diorama asset",
+          "map label or icon",
+          "district-scale landmark prop cluster"
+        ],
+        "sensoryIdentity": [
+          "stone plans",
+          "water gauges",
+          "engineer halls",
+          "survey yards",
+          "seashell",
+          "coral stone",
+          "pale marble stone"
+        ],
+        "storyHooks": [
+          "Permit Yard Nook becomes the specific landmark that prevents the scene from feeling generic",
+          "a local dispute centers on access to Permit Yard Nook"
+        ]
+      },
+      {
+        "name": "Necropolis / Ancestor Quarter Civic Hall",
+        "symbolicRole": "Necropolis / Ancestor Quarter expressed through a civic center anchor.",
+        "visualRole": "Necropolis / Ancestor Quarter Civic Hall should show mourning lamps, cypress trees, tombs, ancestor halls, ossuary walls, using Seashell, Coral Stone, Pale Marble Stone, Canvas, Silk and section-specific massing.",
+        "civicRole": "Supports Section 4's Necropolis / Ancestor Quarter purpose as a local civic, movement, memory, or service node.",
+        "narrativeUse": [
+          "necropolis / ancestor quarter scene anchor",
+          "local meeting point",
+          "evidence or route clue",
+          "crowd behavior marker"
+        ],
+        "assetUse": [
+          "Section 4 diorama asset",
+          "map label or icon",
+          "district-scale landmark prop cluster"
+        ],
+        "sensoryIdentity": [
+          "mourning lamps",
+          "cypress trees",
+          "tombs",
+          "ancestor halls",
+          "seashell",
+          "coral stone",
+          "pale marble stone"
+        ],
+        "storyHooks": [
+          "Necropolis / Ancestor Quarter Civic Hall becomes the specific landmark that prevents the scene from feeling generic",
+          "a local dispute centers on access to Necropolis / Ancestor Quarter Civic Hall"
+        ]
+      },
+      {
+        "name": "Ancestor Vault",
+        "symbolicRole": "Necropolis / Ancestor Quarter expressed through a major landmark anchor.",
+        "visualRole": "Ancestor Vault should show bones, name tablets, mourning lamps, cypress trees, tombs, using Seashell, Coral Stone, Pale Marble Stone, Canvas, Silk and section-specific massing.",
+        "civicRole": "Supports Section 4's Necropolis / Ancestor Quarter purpose as a local civic, movement, memory, or service node.",
+        "narrativeUse": [
+          "necropolis / ancestor quarter scene anchor",
+          "local meeting point",
+          "evidence or route clue",
+          "crowd behavior marker"
+        ],
+        "assetUse": [
+          "Section 4 diorama asset",
+          "map label or icon",
+          "district-scale landmark prop cluster"
+        ],
+        "sensoryIdentity": [
+          "bones",
+          "name tablets",
+          "mourning lamps",
+          "cypress trees",
+          "seashell",
+          "coral stone",
+          "pale marble stone"
+        ],
+        "storyHooks": [
+          "Ancestor Vault becomes the specific landmark that prevents the scene from feeling generic",
+          "a local dispute centers on access to Ancestor Vault"
+        ]
+      },
+      {
+        "name": "Ancestor Masks Monument",
+        "symbolicRole": "Necropolis / Ancestor Quarter expressed through a monument anchor.",
+        "visualRole": "Ancestor Masks Monument should show ancestor halls, ossuary walls, mourning paths, symbolic civic object, small ceremonial site, using Seashell, Coral Stone, Pale Marble Stone, Canvas, Silk and section-specific massing.",
+        "civicRole": "Supports Section 4's Necropolis / Ancestor Quarter purpose as a local civic, movement, memory, or service node.",
+        "narrativeUse": [
+          "necropolis / ancestor quarter scene anchor",
+          "local meeting point",
+          "evidence or route clue",
+          "crowd behavior marker"
+        ],
+        "assetUse": [
+          "Section 4 diorama asset",
+          "map label or icon",
+          "district-scale landmark prop cluster"
+        ],
+        "sensoryIdentity": [
+          "ancestor halls",
+          "ossuary walls",
+          "mourning paths",
+          "symbolic civic object",
+          "seashell",
+          "coral stone",
+          "pale marble stone"
+        ],
+        "storyHooks": [
+          "Ancestor Masks Monument becomes the specific landmark that prevents the scene from feeling generic",
+          "a local dispute centers on access to Ancestor Masks Monument"
+        ]
+      },
+      {
+        "name": "Bone Lantern Path Nook",
+        "symbolicRole": "Necropolis / Ancestor Quarter expressed through a minor landmark anchor.",
+        "visualRole": "Bone Lantern Path Nook should show ancestor halls, ossuary walls, mourning paths, small local identity prop, street-level detail, using Seashell, Coral Stone, Pale Marble Stone, Canvas, Silk and section-specific massing.",
+        "civicRole": "Supports Section 4's Necropolis / Ancestor Quarter purpose as a local civic, movement, memory, or service node.",
+        "narrativeUse": [
+          "necropolis / ancestor quarter scene anchor",
+          "local meeting point",
+          "evidence or route clue",
+          "crowd behavior marker"
+        ],
+        "assetUse": [
+          "Section 4 diorama asset",
+          "map label or icon",
+          "district-scale landmark prop cluster"
+        ],
+        "sensoryIdentity": [
+          "ancestor halls",
+          "ossuary walls",
+          "mourning paths",
+          "small local identity prop",
+          "seashell",
+          "coral stone",
+          "pale marble stone"
+        ],
+        "storyHooks": [
+          "Bone Lantern Path Nook becomes the specific landmark that prevents the scene from feeling generic",
+          "a local dispute centers on access to Bone Lantern Path Nook"
+        ]
+      },
+      {
+        "name": "Slums / Informal Settlement Civic Hall",
+        "symbolicRole": "Slums / Informal Settlement expressed through a civic center anchor.",
+        "visualRole": "Slums / Informal Settlement Civic Hall should show scrap lanterns, tarps, shared fires, shanties, salvage roofs, using Seashell, Coral Stone, Pale Marble Stone, Canvas, Silk and section-specific massing.",
+        "civicRole": "Supports Section 5's Slums / Informal Settlement purpose as a local civic, movement, memory, or service node.",
+        "narrativeUse": [
+          "slums / informal settlement scene anchor",
+          "local meeting point",
+          "evidence or route clue",
+          "crowd behavior marker"
+        ],
+        "assetUse": [
+          "Section 5 diorama asset",
+          "map label or icon",
+          "district-scale landmark prop cluster"
+        ],
+        "sensoryIdentity": [
+          "scrap lanterns",
+          "tarps",
+          "shared fires",
+          "shanties",
+          "seashell",
+          "coral stone",
+          "pale marble stone"
+        ],
+        "storyHooks": [
+          "Slums / Informal Settlement Civic Hall becomes the specific landmark that prevents the scene from feeling generic",
+          "a local dispute centers on access to Slums / Informal Settlement Civic Hall"
+        ]
+      },
+      {
+        "name": "Scrap Market",
+        "symbolicRole": "Slums / Informal Settlement expressed through a major landmark anchor.",
+        "visualRole": "Scrap Market should show shared fires, shanties, salvage roofs, patched bridges, using Seashell, Coral Stone, Pale Marble Stone, Canvas, Silk and section-specific massing.",
+        "civicRole": "Supports Section 5's Slums / Informal Settlement purpose as a local civic, movement, memory, or service node.",
+        "narrativeUse": [
+          "slums / informal settlement scene anchor",
+          "local meeting point",
+          "evidence or route clue",
+          "crowd behavior marker"
+        ],
+        "assetUse": [
+          "Section 5 diorama asset",
+          "map label or icon",
+          "district-scale landmark prop cluster"
+        ],
+        "sensoryIdentity": [
+          "shared fires",
+          "shanties",
+          "salvage roofs",
+          "patched bridges",
+          "seashell",
+          "coral stone",
+          "pale marble stone"
+        ],
+        "storyHooks": [
+          "Scrap Market becomes the specific landmark that prevents the scene from feeling generic",
+          "a local dispute centers on access to Scrap Market"
+        ]
+      },
+      {
+        "name": "Slums Informal Settlement Lantern Monument",
+        "symbolicRole": "Slums / Informal Settlement expressed through a monument anchor.",
+        "visualRole": "Slums Informal Settlement Lantern Monument should show local memory marker, subordinate to major landmark, patches, scrap lanterns, tarps, using Seashell, Coral Stone, Pale Marble Stone, Canvas, Silk and section-specific massing.",
+        "civicRole": "Supports Section 5's Slums / Informal Settlement purpose as a local civic, movement, memory, or service node.",
+        "narrativeUse": [
+          "slums / informal settlement scene anchor",
+          "local meeting point",
+          "evidence or route clue",
+          "crowd behavior marker"
+        ],
+        "assetUse": [
+          "Section 5 diorama asset",
+          "map label or icon",
+          "district-scale landmark prop cluster"
+        ],
+        "sensoryIdentity": [
+          "local memory marker",
+          "subordinate to major landmark",
+          "patches",
+          "scrap lanterns",
+          "seashell",
+          "coral stone",
+          "pale marble stone"
+        ],
+        "storyHooks": [
+          "Slums Informal Settlement Lantern Monument becomes the specific landmark that prevents the scene from feeling generic",
+          "a local dispute centers on access to Slums Informal Settlement Lantern Monument"
+        ]
+      },
+      {
+        "name": "Patched Tenement Nook",
+        "symbolicRole": "Slums / Informal Settlement expressed through a minor landmark anchor.",
+        "visualRole": "Patched Tenement Nook should show small local identity prop, street-level detail, usable board landmark, subordinate scale, patches, using Seashell, Coral Stone, Pale Marble Stone, Canvas, Silk and section-specific massing.",
+        "civicRole": "Supports Section 5's Slums / Informal Settlement purpose as a local civic, movement, memory, or service node.",
+        "narrativeUse": [
+          "slums / informal settlement scene anchor",
+          "local meeting point",
+          "evidence or route clue",
+          "crowd behavior marker"
+        ],
+        "assetUse": [
+          "Section 5 diorama asset",
+          "map label or icon",
+          "district-scale landmark prop cluster"
+        ],
+        "sensoryIdentity": [
+          "small local identity prop",
+          "street-level detail",
+          "usable board landmark",
+          "subordinate scale",
+          "seashell",
+          "coral stone",
+          "pale marble stone"
+        ],
+        "storyHooks": [
+          "Patched Tenement Nook becomes the specific landmark that prevents the scene from feeling generic",
+          "a local dispute centers on access to Patched Tenement Nook"
+        ]
+      }
+    ]
+  },
+  "assetGuidance": {
+    "districtDioramaGuidance": [
+      "Create twenty-five district dioramas grouped into five recognizable sections: Shrine / Sacred Place, Entertainment / Theater, Public Works Authority, Necropolis / Ancestor Quarter, Slums / Informal Settlement.",
+      "Each district should use its districtNumber and sectionNumber, but avoid baked text labels in imagery.",
+      "D13 must read as the Seat of Power district centered on Gold Seals Tide-Seal Citadel.",
+      "Repeated section anchors may appear across five related slots, but each slot needs its own street function, crowd density, and prop emphasis.",
+      "Use exact source-backed anchor names for file naming, prompt references, and canon cross-checking.",
+      "S1 must preserve Shrine / Sacred Place with anchors: Shrine / Sacred Place Civic Hall, Roadside Shrine Beacon, Shrine Sacred Place Lantern Monument, Votive Grove Nook.",
+      "S2 must preserve Entertainment / Theater with anchors: Entertainment / Theater Civic Hall, Opera Court, Entertainment Theater Lantern Monument, Mask Pavilion Nook.",
+      "S3 must preserve Public Works Authority with anchors: Public Works Authority Hall, Survey Hall, Blue-Lamp Monument, Permit Yard Nook.",
+      "S4 must preserve Necropolis / Ancestor Quarter with anchors: Necropolis / Ancestor Quarter Civic Hall, Ancestor Vault, Ancestor Masks Monument, Bone Lantern Path Nook.",
+      "S5 must preserve Slums / Informal Settlement with anchors: Slums / Informal Settlement Civic Hall, Scrap Market, Slums Informal Settlement Lantern Monument, Patched Tenement Nook."
+    ],
+    "mapBackgroundGuidance": [
+      "Map backgrounds should keep Hellenic Marble Agon of the Sun Laurel as the skyline symbol, Gold Seals Tide-Seal Citadel at the central civic authority, and Roadside Shrine Beacon as the readable public signal.",
+      "Arrange the five section identities so Thalorion does not converge with other cities: Shrine / Sacred Place, Entertainment / Theater, Public Works Authority, Necropolis / Ancestor Quarter, Slums / Informal Settlement.",
+      "Use terrain cues (Coastal Edge, Seawall Edge, Harbor Basin, Coast), material cues (Seashell, Coral Stone, Pale Marble Stone, Canvas, Silk), and magic cues (Civic Blue Illumination, Oath Seals, Tide Sorcery, Celestial Projection, Road Warding) consistently across district clusters.",
+      "Show roads, terraces, gates, courts, or paths that make the twenty-five-district tactical layout plausible."
+    ],
+    "requiredVisualElements": [
+      "Greek / Hellenic",
+      "Hellenic Marble Agon of the Sun Laurel",
+      "Roadside Shrine Beacon",
+      "Gold Seals Tide-Seal Citadel",
+      "Seashell",
+      "Coral Stone",
+      "Pale Marble Stone",
+      "Canvas",
+      "Silk",
+      "Coastal Edge",
+      "Seawall Edge",
+      "Harbor Basin",
+      "Coast",
+      "Civic Blue Illumination",
+      "Oath Seals",
+      "Tide Sorcery",
+      "Celestial Projection",
+      "Road Warding",
+      "Opera Court",
+      "Survey Hall",
+      "Ancestor Vault",
+      "Scrap Market"
+    ],
+    "elementsToAvoid": [
+      "extra top-level schema sections or embedded generation notes",
+      "generic fantasy city assets that ignore exact anchor names",
+      "unlabeled invented landmarks replacing sidecar names",
+      "flattening five sections into one visual district",
+      "treating culture identity as costume rather than civic design",
+      "overcrowded detail that hides Wonder, Beacon, or Seat of Power"
+    ]
+  }
+}

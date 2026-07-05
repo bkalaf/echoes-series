@@ -4,9 +4,12 @@
     "analysisVersion": 2,
     "cityCode": "CAR",
     "cityName": "Carrikesh",
-    "analysisDate": "2026-07-03",
+    "analysisDate": "2026-07-05",
     "analystVersion": "gpt-5.5-thinking",
     "analysisConfidence": "strong-lock",
+    "sourceStatus": "full",
+    "districtModel": "five sections; five district slots per section; D13 is the seat of power",
+    "missingStreetSections": [],
     "basedOnImages": [
       "CAR-HERO-NE-v001",
       "CAR-HERO-NW-v001",
@@ -31,465 +34,1114 @@
     ]
   },
   "cityDNA": {
-    "coreFantasy": "A hyena-like caravan capital where laughter, trade, taxation, terraces, salvage, and tenement life become public survival law.",
-    "primaryEmotion": "sharp social energy",
-    "secondaryEmotion": "transactional pressure",
-    "readerTakeaway": "Carrikesh is not a gag city or scavenger camp; its humor is civic power and its trade, tax, terrace, scrap, and low-residential systems are serious survival infrastructure.",
-    "civilizationThesis": "Carrikesh turns movement, scarcity, public laughter, assay valuation, pack reputation, terrace food, scrap repair, taxation, and low residential pressure into a complete civic order.",
-    "visualIdentity": "Caravanserais, waystation halls, terrace granaries, seed halls, assay halls, taxation arcades, scrap markets, patched tenements, tenement courts, laundry wells, wolf-tooth borders, stained-glass civic towers, red awnings, and crowded sandy streets.",
-    "culturalIdentity": "A hyena-like beastfolk trade civilization where pack sociality, public bargaining, humor, route access, salvage repair, and valuation determine belonging and survival.",
-    "symbolicIdentity": "Laughing bones, wolf-tooth borders, caravan thresholds, woven banners, assay scales, gold seals, seed halls, scrap stalls, laundry wells, and tenement courts symbolize social valuation."
+    "coreFantasy": "A hyena-like beastfolk city where Hyena Laughing-Bone Trade Amphitheater, Caravanserai Beacon, Wolf Tooth Borders Sovereign Registry Court, and the five-section district spine turn local identity into functional civic space.",
+    "primaryEmotion": "source-backed civic presence",
+    "secondaryEmotion": "lived-in pressure beneath landmark order",
+    "readerTakeaway": "Carrikesh should feel immediately identifiable through exact landmarks and materials, not through generic fantasy-city shorthand.",
+    "civilizationThesis": "Carrikesh organizes power through Wolf Tooth Borders Sovereign Registry Court, public response through Caravanserai Beacon, civic memory through Hyena Laughing-Bone Trade Amphitheater, and daily life through S1 Transit / Caravan / Rail Civic Hall, S2 Agricultural Terraces Civic Hall, S3 Treasury / Taxation Hall, S4 Slums / Informal Settlement Civic Hall, S5 Low Residential Civic Hall.",
+    "visualIdentity": "Sandstone, Adobe, Bone, Stained Glass, Pine, Desert, Stone Desert, Dry Wadi, Beast Bonding, Ancestor Guidance, Pack Instinct, and exact anchors including Wolf Tooth Borders Sovereign Registry Court, Caravanserai Beacon, Hyena Laughing-Bone Trade Amphitheater, Tenement Court, Terrace Granary, Scrap Market, Transit / Caravan / Rail Civic Hall, Woven Banners Monument, Waystation Hall Nook, Agricultural Terraces Civic Hall.",
+    "culturalIdentity": "A hyena-like beastfolk civic culture where architecture, public obligations, roads, landmark approaches, and everyday work must all read as part of the same civilization.",
+    "symbolicIdentity": "The city symbol system is built from exact names and visible functions: Hyena Laughing-Bone Trade Amphitheater, Caravanserai Beacon, Wolf Tooth Borders Sovereign Registry Court, and section anchors such as Transit / Caravan / Rail Civic Hall, Agricultural Terraces Civic Hall, Treasury / Taxation Hall, Slums / Informal Settlement Civic Hall, Low Residential Civic Hall."
   },
   "canon": {
     "canonLocks": [
-      "Carrikesh is an established hyena-like beastfolk trade capital, not a joke city or scavenger camp.",
-      "The Wonder is the Hyena Laughing-Bone Trade Amphitheater.",
-      "The Beacon is the Caravanserai Beacon.",
-      "The Seat of Power is the Wolf Tooth Borders Sovereign Registry Court.",
-      "The five primary districts are Transit / Caravan / Rail, Agricultural Terraces, Treasury / Taxation, Slums / Informal Settlement, and Low Residential.",
-      "The uploaded district anchors include Transit / Caravan / Rail Civic Hall, Woven Banners Monument, Waystation Hall Nook, Agricultural Terraces Civic Hall, Hanging Gardens Monument, Treasury Taxation Gold-Seal Monument, Taxation Arcade Nook, Slums Informal Settlement Lantern Monument, Patched Tenement Nook, Low Residential Lantern Monument, and Laundry Well Nook."
+      "Carrikesh uses city code CAR.",
+      "The Wonder is Hyena Laughing-Bone Trade Amphitheater.",
+      "The Beacon is Caravanserai Beacon.",
+      "The Seat of Power is Wolf Tooth Borders Sovereign Registry Court and occupies District 13.",
+      "The city uses five sections with five tactical district slots per section.",
+      "The source-backed section spine is: S1 Transit / Caravan / Rail Civic Hall, S2 Agricultural Terraces Civic Hall, S3 Treasury / Taxation Hall, S4 Slums / Informal Settlement Civic Hall, S5 Low Residential Civic Hall.",
+      "Preserve exact anchor name: Wolf Tooth Borders Sovereign Registry Court.",
+      "Preserve exact anchor name: Caravanserai Beacon.",
+      "Preserve exact anchor name: Hyena Laughing-Bone Trade Amphitheater.",
+      "Preserve exact anchor name: Tenement Court.",
+      "Preserve exact anchor name: Terrace Granary.",
+      "Preserve exact anchor name: Scrap Market.",
+      "Preserve exact anchor name: Transit / Caravan / Rail Civic Hall.",
+      "Preserve exact anchor name: Woven Banners Monument.",
+      "Preserve exact anchor name: Waystation Hall Nook.",
+      "Preserve exact anchor name: Agricultural Terraces Civic Hall.",
+      "Preserve exact anchor name: Hanging Gardens Monument.",
+      "Preserve exact anchor name: Seed Hall Nook.",
+      "Preserve exact anchor name: Treasury / Taxation Hall.",
+      "Preserve exact anchor name: Assay Hall.",
+      "Preserve exact anchor name: Treasury Taxation Gold-Seal Monument.",
+      "Preserve exact anchor name: Taxation Arcade Nook.",
+      "Preserve exact anchor name: Slums / Informal Settlement Civic Hall.",
+      "Preserve exact anchor name: Slums Informal Settlement Lantern Monument.",
+      "Preserve exact anchor name: Patched Tenement Nook.",
+      "Preserve exact anchor name: Low Residential Civic Hall.",
+      "Preserve exact anchor name: Low Residential Lantern Monument.",
+      "Preserve exact anchor name: Laundry Well Nook."
     ],
-    "provisionalCanon": [
-      "Carrikesh's highest civic virtue is cunning reciprocity.",
-      "Public laughter functions as accountability, status testing, social pressure, and potential cruelty.",
-      "The slums and low residential districts are not marginal; they are where the city's social truth becomes hardest to avoid."
-    ],
+    "provisionalCanon": [],
     "rejectedReads": [
-      "Carrikesh is primitive or scavenger-only.",
-      "Carrikesh is comic relief because of hyena identity.",
-      "The slums and tenements are marginal rather than central to the city’s civic truth.",
-      "Taxation and assay systems are generic bureaucracy rather than survival infrastructure."
+      "Do not treat Carrikesh as a generic fantasy settlement with renamed landmarks.",
+      "Do not collapse the five-section board into a single mood or single district.",
+      "Do not replace exact anchor names with generic summaries.",
+      "Do not invent missing street-section landmarks when a street source is absent."
     ],
     "cautionFlags": [
-      "Do not reduce hyena identity to jokes.",
-      "Keep taxation, assay, terraces, caravan access, scrap repair, and low-city survival visible.",
-      "Let laughter be socially intelligent, not random noise.",
-      "Preserve precise sidecar anchor names for monuments and nooks instead of smoothing them into generic labels."
+      "Keep every named Wonder, Beacon, Seat, section civic hall, major landmark, monument, and minor nook exact when present in sidecars.",
+      "If an image appears to deviate from a sidecar, preserve the exact name but avoid overclaiming visual details not supported by the source package.",
+      "Every district asset should remain usable for narrative scenes, tactical board dioramas, and city map backgrounds."
     ]
   },
   "environment": {
     "terrain": [
-      "dry caravan routes",
-      "market corridors",
-      "agricultural terraces",
-      "tax arcades",
-      "dense tenement courts",
-      "scrap alleys",
-      "low residential stairs"
+      "Desert",
+      "Stone Desert",
+      "Dry Wadi"
     ],
     "water": [
-      "market wells",
-      "laundry wells",
-      "terrace irrigation",
-      "public basins",
-      "tenement water points"
+      "dry city ground"
     ],
     "vegetation": [
-      "terraced fields",
-      "seed gardens",
-      "hanging gardens",
-      "market shade trees",
-      "dryland crops"
+      "courtyard trees",
+      "balcony planters",
+      "public greenery where visible",
+      "source-backed local vegetation only"
     ],
     "climateLighting": [
-      "hot dry daylight",
-      "market awning shade",
-      "red awning glow",
-      "lantern-lit tenements",
-      "dusty caravan light",
-      "tax hall lamp glare",
-      "scrap-market sparks"
+      "Beast Bonding",
+      "Ancestor Guidance",
+      "Pack Instinct",
+      "daylight",
+      "golden hour",
+      "lantern light",
+      "civic beacon glow"
     ],
-    "environmentalLogic": "Carrikesh organizes dry routes, terraces, markets, tax halls, scrap alleys, and low-city density into trade arteries. Survival depends on who can move goods, prove value, repair waste, and remain visible enough to be counted."
+    "environmentalLogic": "The environment should make Carrikesh's exact civic anchors plausible at street scale: terrain routes people toward section landmarks, lighting clarifies public authority, and water or landscape features remain source-backed rather than decorative filler."
   },
   "architecture": {
     "materials": [
-      "white civic stone",
-      "dry stone paving",
-      "brick",
-      "stained glass",
-      "timber",
-      "red awnings",
-      "woven banners",
-      "bronze fittings",
-      "grain clay",
-      "patched cloth",
-      "scrap metal",
-      "tax paper and wax seals"
+      "Sandstone",
+      "Adobe",
+      "Bone",
+      "Stained Glass",
+      "Pine"
     ],
     "forms": [
-      "caravanserais",
-      "transit civic halls",
-      "waystation halls",
-      "terrace granaries",
-      "seed halls",
-      "hanging gardens",
-      "assay halls",
-      "taxation arcades",
-      "scrap markets",
-      "patched tenements",
-      "tenement courts",
-      "laundry wells",
-      "trade amphitheaters",
-      "wolf-tooth registry courts",
-      "lantern monuments",
-      "gold-seal counters"
+      "Wolf Tooth Borders Sovereign Registry Court",
+      "Caravanserai Beacon",
+      "Hyena Laughing-Bone Trade Amphitheater",
+      "Tenement Court",
+      "Terrace Granary",
+      "Scrap Market",
+      "Transit / Caravan / Rail Civic Hall",
+      "Woven Banners Monument",
+      "Waystation Hall Nook",
+      "Agricultural Terraces Civic Hall",
+      "Hanging Gardens Monument",
+      "Seed Hall Nook",
+      "Treasury / Taxation Hall",
+      "Assay Hall",
+      "Treasury Taxation Gold-Seal Monument",
+      "Taxation Arcade Nook",
+      "Slums / Informal Settlement Civic Hall",
+      "Slums Informal Settlement Lantern Monument",
+      "Patched Tenement Nook",
+      "Low Residential Civic Hall",
+      "Low Residential Lantern Monument",
+      "Laundry Well Nook",
+      "section civic halls",
+      "major landmark approaches",
+      "monument frontages",
+      "minor landmark nooks",
+      "district roads and plazas",
+      "D13 authority complex"
     ],
     "skyline": [
-      "Hyena Laughing-Bone Trade Amphitheater as wonder-scale civic theater",
-      "Wolf Tooth Borders Sovereign Registry Court as authority anchor",
-      "Caravanserai Beacon as signal heart",
-      "stained-glass civic towers, granaries, tax halls, tenements, scrap markets, and red awning roofs"
+      "Hyena Laughing-Bone Trade Amphitheater",
+      "Wolf Tooth Borders Sovereign Registry Court",
+      "Caravanserai Beacon",
+      "Tenement Court",
+      "Terrace Granary",
+      "Scrap Market",
+      "Transit / Caravan / Rail Civic Hall",
+      "Woven Banners Monument",
+      "Waystation Hall Nook"
     ],
     "lighting": [
-      "harsh caravan daylight",
-      "awning shade",
-      "warm market lanterns",
-      "red fabric glow",
-      "low residential lamp light",
-      "assay counter glints",
-      "scrap fire sparks"
+      "Beast Bonding",
+      "Ancestor Guidance",
+      "Pack Instinct",
+      "beacon-state light",
+      "lantern-lit civic paths",
+      "street-level shop and housing light"
     ],
     "infrastructure": [
-      "caravan routes",
-      "waystations",
-      "grain terraces",
-      "seed halls",
-      "assay counters",
-      "tax arcades",
-      "scrap lanes",
-      "tenement stairs",
-      "laundry wells",
-      "market roads",
-      "public trade courts",
-      "route registration counters"
+      "Transit / Caravan / Rail Civic Hall",
+      "Agricultural Terraces Civic Hall",
+      "Treasury / Taxation Hall",
+      "Slums / Informal Settlement Civic Hall",
+      "Low Residential Civic Hall",
+      "roads between district slots",
+      "public thresholds",
+      "plaza edges",
+      "records, permits, markets, services, or rituals implied by anchors"
     ],
     "motifs": [
-      "hyena laughter",
-      "laughing bones",
-      "wolf teeth",
-      "caravan banners",
-      "woven banners",
-      "assay scales",
-      "gold seals",
-      "grain terraces",
-      "hanging gardens",
-      "scrap repair",
-      "laundry wells",
-      "red awnings",
-      "lantern monuments"
+      "Wolf",
+      "Tooth",
+      "Borders",
+      "Sovereign",
+      "Registry",
+      "Court",
+      "Caravanserai",
+      "Beacon",
+      "Hyena",
+      "Laughing-Bone",
+      "Trade",
+      "Amphitheater",
+      "Tenement",
+      "Terrace",
+      "Granary"
     ],
     "colorLanguage": [
-      "dry sand",
-      "white civic stone",
-      "red awnings",
-      "gold seal accents",
-      "dark scrap metal",
-      "warm lantern amber",
-      "stained-glass civic color"
+      "source-backed material colors",
+      "civic blue signal accents",
+      "local textile, stone, metal, vegetation, or water colors from the image package"
     ],
     "textureLanguage": [
-      "dry dust",
-      "woven cloth",
-      "scrap metal",
-      "grain sacks",
-      "patched tenements",
-      "worn stone",
-      "tax documents",
-      "market wood"
+      "Sandstone",
+      "Adobe",
+      "Bone",
+      "Stained Glass",
+      "Pine",
+      "worn pedestrian surfaces",
+      "worked civic ornament",
+      "weathered public thresholds",
+      "lived-in shop and housing details"
     ]
   },
   "civilization": {
-    "people": "Citizens are hyena-like beastfolk: sharp-eyed, socially agile, opportunistic, pack-conscious, funny, hard to shame, and deeply practical around trade, food, salvage, taxation, and reputation.",
+    "people": "The population should read as hyena-like beastfolk and city-specific: citizens occupy streets, shops, public thresholds, and landmark approaches as people who understand the local civic order.",
     "occupations": [
-      "caravan brokers",
-      "waystation keepers",
-      "grain terrace workers",
-      "seed merchants",
-      "assay clerks",
-      "tax copyists",
-      "scrap dealers",
-      "tenement landlords",
-      "laundry workers",
-      "route-map sellers",
-      "market cooks",
-      "registry officials",
-      "reputation brokers",
-      "scrap repairers"
+      "granary keepers",
+      "field workers",
+      "market sellers",
+      "stall keepers",
+      "district clerks",
+      "craft families",
+      "porters",
+      "maintenance workers",
+      "food sellers",
+      "messengers"
     ],
     "socialClasses": [
-      "registry judges",
-      "caravan houses",
-      "assay and tax officials",
-      "terrace granary families",
-      "market brokers",
-      "scrap-market operators",
-      "tenement families",
-      "informal runners"
+      "D13 officials and court staff",
+      "section landmark custodians",
+      "guild and service families",
+      "shopkeepers and artisans",
+      "laborers, carriers, messengers, and maintenance crews",
+      "households tied to local district obligations"
     ],
-    "governance": "Authority is trade-border, taxation, and registry based. Movement rights, tax status, assay legitimacy, residency, and pack belonging are decided through visible courts, caravan systems, and public reputation pressure.",
-    "religion": "Religion is not temple-dominant; social ritual, public laughter, trade oaths, pack obligation, and the amphitheater carry much of the civic-sacred weight.",
+    "governance": "Government is centered on Wolf Tooth Borders Sovereign Registry Court. Its authority should be visible through courts, records, public access routes, civic lamps, guards or attendants, and the way citizens respond to D13.",
+    "religion": "Religious or ritual life should only be emphasized where source anchors support it, especially names such as none explicitly dominant in the current anchors.",
     "customs": [
-      "public laughter tests rank and truth",
-      "every deal wants witnesses",
-      "assay marks matter socially and legally",
-      "food security is public leverage",
-      "scrap repair is respected as survival intelligence",
-      "tax queues become reputation theaters"
+      "citizens orient public life around Transit / Caravan / Rail Civic Hall in Section 1",
+      "citizens orient public life around Agricultural Terraces Civic Hall in Section 2",
+      "citizens orient public life around Treasury / Taxation Hall in Section 3",
+      "citizens orient public life around Slums / Informal Settlement Civic Hall in Section 4",
+      "citizens orient public life around Low Residential Civic Hall in Section 5",
+      "beacon changes become public behavior, not background color",
+      "exact landmark names carry social memory and directions",
+      "civic errands happen visibly at thresholds, queues, ledgers, stalls, courts, or shrines"
     ],
     "bodyLanguage": [
-      "quick social scanning",
-      "teeth-baring humor",
-      "pack clustering",
-      "public bargaining posture",
-      "alertness around tax and assay counters",
-      "low-city residents watching from balconies and wells"
+      "citizens pause at civic signals",
+      "workers move with practiced familiarity around district anchors",
+      "officials use thresholds and raised places to control attention",
+      "residents treat named landmarks as everyday orientation points"
     ],
     "speechPatterns": [
-      "fast bargaining",
-      "layered jokes",
-      "public challenges",
-      "route slang",
-      "tax and tally language",
-      "socially pointed laughter"
+      "directions use exact landmark names",
+      "public notices are tied to section anchors",
+      "local speech distinguishes civic authority, ordinary errands, and landmark obligations",
+      "people refer to D13 as the seat of power rather than a faction headquarters"
     ]
   },
   "urbanLife": {
     "streets": {
-      "appearance": "Crowded, sandy, transactional, and loud with layered laughter: caravan roads, waystation halls, market arcades, assay counters, grain terraces, scrap stalls, patched tenements, laundry wells, and tenement courts pressed against civic towers.",
-      "movement": "Movement follows caravan gates, waystation halls, terrace paths, tax arcades, scrap alleys, tenement stairs, laundry wells, and amphitheater approaches.",
+      "appearance": "Streets should show Carrikesh's exact anchor system at pedestrian scale: S1 Transit / Caravan / Rail Civic Hall, S2 Agricultural Terraces Civic Hall, S3 Treasury / Taxation Hall, S4 Slums / Informal Settlement Civic Hall, S5 Low Residential Civic Hall. Keep roads, plazas, stairs, thresholds, lamps, signs-without-readable-text, props, and civilians aligned to the source-backed materials and landmarks.",
+      "movement": "Movement should be readable for tactical-board assets: citizens pass between 25 district slots, section anchors, D13, service streets, and landmark approaches without visual clutter hiding the civic purpose.",
       "sounds": [
-        "pack laughter",
-        "market bargaining",
-        "grain scales",
-        "tax clerks",
-        "cart wheels",
-        "scrap hammering",
-        "laundry water",
-        "caravan bells",
-        "public jokes"
+        "foot traffic",
+        "vendors and service calls",
+        "tools and carts",
+        "public notices",
+        "landmark-specific sounds from water, bells, animals, machines, or crowds when source-backed",
+        "beacon-state crowd reactions"
       ],
       "smells": [
-        "dust",
-        "grain",
-        "market stew",
-        "animal tack",
-        "lamp oil",
-        "scrap metal",
-        "patched cloth",
-        "sweat",
-        "dry stone"
+        "street food",
+        "worked material dust",
+        "lamp oil or smoke",
+        "vegetation or water where source-backed",
+        "worn stone, timber, metal, plaster, or fabric"
       ],
-      "lighting": "Harsh daylight and market shade dominate by day; low residential lanterns, tax-hall lamps, and red awnings warm the evening.",
-      "weatherEffects": "Dust, heat, and dry wind make shade, water, terrace crops, and caravan timing important.",
-      "dayCycle": "Morning caravans and terrace work; midday assay and tax traffic; afternoon scrap market activity; evening tenement gossip and amphitheater crowds.",
-      "nightCycle": "Lantern-lit tenements, coded market corners, closed tax halls, scrap glints, and low laughter moving through alleys."
+      "lighting": "Use the package's source-backed civic lighting, daylight/golden-hour reads, lanterns, and beacon glow. Lighting must help identify authority, safety, and landmark function.",
+      "weatherEffects": "Weather should reinforce the local terrain and materials without overwhelming the city identity or inventing unsupported climate extremes.",
+      "dayCycle": "Day scenes emphasize errands, trade, records, repairs, rituals, food, and section-level movement.",
+      "nightCycle": "Night scenes emphasize lantern routes, closed thresholds, guarded landmarks, quiet work, and beacon visibility."
     },
     "shops": {
       "common": [
-        "caravan brokers",
-        "assay counters",
-        "seed merchants",
-        "scrap dealers",
-        "laundry-well food carts",
-        "route-map sellers",
-        "tax copyists",
-        "patched-cloth stalls",
-        "grain scale offices",
-        "waystation inns"
+        "food stalls",
+        "repair stalls",
+        "material vendors",
+        "ledger or permit desks",
+        "local craft counters",
+        "street services tied to section anchors"
       ],
       "uncommon": [
-        "wolf-tooth legal counters",
-        "laughing-bone performers",
-        "pack reputation brokers",
-        "scrap artificers",
-        "terrace seed auditors"
+        "specialist landmark caretakers",
+        "instrument makers",
+        "ritual suppliers",
+        "map or record copyists",
+        "district-specific guild services"
       ],
       "prestigious": [
-        "registry court advocates",
-        "major caravan houses",
-        "assay guild halls",
-        "granary contract offices",
-        "amphitheater patron boxes"
+        "D13-facing legal or registry services",
+        "elite craft workshops",
+        "landmark commission houses",
+        "official suppliers for civic ceremonies"
       ],
       "exports": [
-        "route maps",
-        "grain",
-        "assay services",
-        "scrap repair",
-        "tax ledgers",
-        "caravan brokerage"
+        "local crafts",
+        "records or seals",
+        "finished materials",
+        "food goods",
+        "specialized tools or ritual goods as supported by anchors"
       ],
       "imports": [
-        "metal scrap",
-        "spices",
-        "cloth",
-        "pack animals",
-        "luxury dyes",
-        "grain variants"
+        "rare materials",
+        "dyes, oils, spices, timber, stone, metal, glass, or cloth as needed by the architecture",
+        "outside records and trade goods"
       ],
       "streetFood": [
-        "grain cakes",
-        "market stew",
-        "spiced flatbread",
-        "roasted roots",
-        "caravan jerky",
-        "seed porridge",
-        "tenement dumplings"
+        "flatbread or local bread",
+        "stew or grilled skewers",
+        "fruit or preserved food",
+        "tea or civic-square drinks",
+        "portable worker meals"
       ],
       "services": [
-        "route registration",
-        "tax copying",
-        "assay valuation",
-        "witnessing deals",
-        "scrap repair",
-        "laundry",
-        "reputation mediation"
+        "directions by landmark",
+        "message running",
+        "permit help",
+        "repairs",
+        "food service",
+        "transport or porterage",
+        "public notice posting"
       ]
     },
     "housing": {
-      "wealthy": "Registry-adjacent terraces, caravan house compounds, stained-glass towers, private courtyards, and protected views over tax and market districts.",
-      "middle": "Market apartments, terrace-family homes, waystation rooms, grain court housing, and shared awning courtyards.",
-      "poor": "Patched tenements, laundry-well courts, scrap-market rooms, narrow stairs, shared water, and dense low residential life that remains socially active."
+      "wealthy": "Prestige housing clusters near Wolf Tooth Borders Sovereign Registry Court, high terraces, or landmark-facing routes, using the best source-backed materials and controlled views of civic space.",
+      "middle": "Shop-over-house units, courtyard homes, guild-adjacent apartments, and family rooms near section anchors.",
+      "poor": "Smaller back-street rooms, work-adjacent housing, shared courtyards, service alleys, patched materials, and dense but still city-specific lived-in detail."
     }
   },
   "districts": [
     {
+      "districtNumber": 1,
+      "districtId": "D01",
       "sectionNumber": 1,
-      "name": "Transit / Caravan / Rail",
-      "civicPurpose": "Route law, arrival, caravan exchange, waystation services, and public movement rights.",
-      "visualIdentity": "Transit / Caravan / Rail Civic Hall, Caravanserai Beacon, Woven Banners Monument, Waystation Hall Nook, caravan roads, route signs, pack crowds, and public signal architecture.",
-      "emotionalIdentity": "Arriving, noisy, mobile, and socially charged.",
+      "name": "D01 — Transit / Caravan / Rail Civic Hall Civic-Anchor Precinct",
+      "civicPurpose": "This district turns Section 1's source-backed anchor set into a board-scale civic space: Transit / Caravan / Rail Civic Hall, Caravanserai Beacon, Woven Banners Monument, Waystation Hall Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Carrikesh.",
+      "visualIdentity": "Use Transit / Caravan / Rail Civic Hall as the main read. Keep exact source anchors visible where applicable: Transit / Caravan / Rail Civic Hall, Caravanserai Beacon, Woven Banners Monument, Waystation Hall Nook. The district should share Carrikesh's hyena-like beastfolk identity, Sandstone, Adobe, Bone, Stained Glass, and Desert, Stone Desert, Dry Wadi without becoming generic.",
+      "emotionalIdentity": "Locally grounded, with Carrikesh's larger mood shaped by Hyena Laughing-Bone Trade Amphitheater, Caravanserai Beacon, and Wolf Tooth Borders Sovereign Registry Court.",
       "gameplayAssetNeeds": [
         "Transit / Caravan / Rail Civic Hall",
         "Caravanserai Beacon",
         "Woven Banners Monument",
         "Waystation Hall Nook",
-        "caravan gates",
-        "route signs",
-        "pack crowds"
+        "Section 1 pedestrian-scale props",
+        "Carrikesh civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
       ],
       "narrativeUse": [
-        "arrival",
-        "route disputes",
-        "public warnings",
-        "caravan politics",
-        "mobility as legal privilege"
+        "scenes centered on Transit / Caravan / Rail Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
       ],
-      "landmark": "Caravanserai Beacon",
+      "landmark": "Transit / Caravan / Rail Civic Hall",
       "minorLandmarks": [
+        "Caravanserai Beacon",
         "Woven Banners Monument",
         "Waystation Hall Nook"
       ]
     },
     {
+      "districtNumber": 2,
+      "districtId": "D02",
+      "sectionNumber": 1,
+      "name": "D02 — Caravanserai Beacon Landmark Approach",
+      "civicPurpose": "This district turns Section 1's source-backed anchor set into a board-scale civic space: Transit / Caravan / Rail Civic Hall, Caravanserai Beacon, Woven Banners Monument, Waystation Hall Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Carrikesh.",
+      "visualIdentity": "Use Caravanserai Beacon as the main read. Keep exact source anchors visible where applicable: Transit / Caravan / Rail Civic Hall, Caravanserai Beacon, Woven Banners Monument, Waystation Hall Nook. The district should share Carrikesh's hyena-like beastfolk identity, Sandstone, Adobe, Bone, Stained Glass, and Desert, Stone Desert, Dry Wadi without becoming generic.",
+      "emotionalIdentity": "Public-facing, with Carrikesh's larger mood shaped by Hyena Laughing-Bone Trade Amphitheater, Caravanserai Beacon, and Wolf Tooth Borders Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Caravanserai Beacon",
+        "Transit / Caravan / Rail Civic Hall",
+        "Woven Banners Monument",
+        "Waystation Hall Nook",
+        "Section 1 pedestrian-scale props",
+        "Carrikesh civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Caravanserai Beacon",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "Conjunction response, rumor spread, or authority pressure"
+      ],
+      "landmark": "Caravanserai Beacon",
+      "minorLandmarks": [
+        "Transit / Caravan / Rail Civic Hall",
+        "Woven Banners Monument",
+        "Waystation Hall Nook"
+      ]
+    },
+    {
+      "districtNumber": 3,
+      "districtId": "D03",
+      "sectionNumber": 1,
+      "name": "D03 — Woven Banners Monument Monument Frontage",
+      "civicPurpose": "This district turns Section 1's source-backed anchor set into a board-scale civic space: Transit / Caravan / Rail Civic Hall, Caravanserai Beacon, Woven Banners Monument, Waystation Hall Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Carrikesh.",
+      "visualIdentity": "Use Woven Banners Monument as the main read. Keep exact source anchors visible where applicable: Transit / Caravan / Rail Civic Hall, Caravanserai Beacon, Woven Banners Monument, Waystation Hall Nook. The district should share Carrikesh's hyena-like beastfolk identity, Sandstone, Adobe, Bone, Stained Glass, and Desert, Stone Desert, Dry Wadi without becoming generic.",
+      "emotionalIdentity": "Memorial or symbolic, with Carrikesh's larger mood shaped by Hyena Laughing-Bone Trade Amphitheater, Caravanserai Beacon, and Wolf Tooth Borders Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Woven Banners Monument",
+        "Transit / Caravan / Rail Civic Hall",
+        "Caravanserai Beacon",
+        "Waystation Hall Nook",
+        "Section 1 pedestrian-scale props",
+        "Carrikesh civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Woven Banners Monument",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Woven Banners Monument",
+      "minorLandmarks": [
+        "Transit / Caravan / Rail Civic Hall",
+        "Caravanserai Beacon",
+        "Waystation Hall Nook"
+      ]
+    },
+    {
+      "districtNumber": 6,
+      "districtId": "D06",
+      "sectionNumber": 1,
+      "name": "D06 — Waystation Hall Nook Neighborhood Nook",
+      "civicPurpose": "This district turns Section 1's source-backed anchor set into a board-scale civic space: Transit / Caravan / Rail Civic Hall, Caravanserai Beacon, Woven Banners Monument, Waystation Hall Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Carrikesh.",
+      "visualIdentity": "Use Waystation Hall Nook as the main read. Keep exact source anchors visible where applicable: Transit / Caravan / Rail Civic Hall, Caravanserai Beacon, Woven Banners Monument, Waystation Hall Nook. The district should share Carrikesh's hyena-like beastfolk identity, Sandstone, Adobe, Bone, Stained Glass, and Desert, Stone Desert, Dry Wadi without becoming generic.",
+      "emotionalIdentity": "Intimate and lived-in, with Carrikesh's larger mood shaped by Hyena Laughing-Bone Trade Amphitheater, Caravanserai Beacon, and Wolf Tooth Borders Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Waystation Hall Nook",
+        "Transit / Caravan / Rail Civic Hall",
+        "Caravanserai Beacon",
+        "Woven Banners Monument",
+        "Section 1 pedestrian-scale props",
+        "Carrikesh civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Waystation Hall Nook",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Waystation Hall Nook",
+      "minorLandmarks": [
+        "Transit / Caravan / Rail Civic Hall",
+        "Caravanserai Beacon",
+        "Woven Banners Monument"
+      ]
+    },
+    {
+      "districtNumber": 7,
+      "districtId": "D07",
+      "sectionNumber": 1,
+      "name": "D07 — Transit / Caravan / Rail Civic Hall Supporting Streets",
+      "civicPurpose": "This district turns Section 1's source-backed anchor set into a board-scale civic space: Transit / Caravan / Rail Civic Hall, Caravanserai Beacon, Woven Banners Monument, Waystation Hall Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Carrikesh.",
+      "visualIdentity": "Use Transit / Caravan / Rail Civic Hall as the main read. Keep exact source anchors visible where applicable: Transit / Caravan / Rail Civic Hall, Caravanserai Beacon, Woven Banners Monument, Waystation Hall Nook. The district should share Carrikesh's hyena-like beastfolk identity, Sandstone, Adobe, Bone, Stained Glass, and Desert, Stone Desert, Dry Wadi without becoming generic.",
+      "emotionalIdentity": "Connective and practical, with Carrikesh's larger mood shaped by Hyena Laughing-Bone Trade Amphitheater, Caravanserai Beacon, and Wolf Tooth Borders Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Transit / Caravan / Rail Civic Hall",
+        "Caravanserai Beacon",
+        "Woven Banners Monument",
+        "Waystation Hall Nook",
+        "Section 1 pedestrian-scale props",
+        "Carrikesh civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Transit / Caravan / Rail Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Transit / Caravan / Rail Civic Hall",
+      "minorLandmarks": [
+        "Caravanserai Beacon",
+        "Woven Banners Monument",
+        "Waystation Hall Nook"
+      ]
+    },
+    {
+      "districtNumber": 4,
+      "districtId": "D04",
       "sectionNumber": 2,
-      "name": "Agricultural Terraces",
-      "civicPurpose": "Food security, seed continuity, terrace labor, seasonal leverage, and proof that the trade city can feed itself.",
-      "visualIdentity": "Agricultural Terraces Civic Hall, Terrace Granary, Hanging Gardens Monument, Seed Hall Nook, dryland fields, grain storage, and workers.",
-      "emotionalIdentity": "Practical, sustaining, and politically valuable.",
+      "name": "D04 — Agricultural Terraces Civic Hall Civic-Anchor Precinct",
+      "civicPurpose": "This district turns Section 2's source-backed anchor set into a board-scale civic space: Agricultural Terraces Civic Hall, Terrace Granary, Hanging Gardens Monument, Seed Hall Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Carrikesh.",
+      "visualIdentity": "Use Agricultural Terraces Civic Hall as the main read. Keep exact source anchors visible where applicable: Agricultural Terraces Civic Hall, Terrace Granary, Hanging Gardens Monument, Seed Hall Nook. The district should share Carrikesh's hyena-like beastfolk identity, Sandstone, Adobe, Bone, Stained Glass, and Desert, Stone Desert, Dry Wadi without becoming generic.",
+      "emotionalIdentity": "Locally grounded, with Carrikesh's larger mood shaped by Hyena Laughing-Bone Trade Amphitheater, Caravanserai Beacon, and Wolf Tooth Borders Sovereign Registry Court.",
       "gameplayAssetNeeds": [
         "Agricultural Terraces Civic Hall",
         "Terrace Granary",
         "Hanging Gardens Monument",
         "Seed Hall Nook",
-        "terraced crops",
-        "grain jars",
-        "field workers"
+        "Section 2 pedestrian-scale props",
+        "Carrikesh civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
       ],
       "narrativeUse": [
-        "food leverage",
-        "seed disputes",
-        "scarcity",
-        "terrace labor",
-        "grain politics beneath trade jokes"
+        "scenes centered on Agricultural Terraces Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
       ],
-      "landmark": "Terrace Granary",
+      "landmark": "Agricultural Terraces Civic Hall",
       "minorLandmarks": [
+        "Terrace Granary",
         "Hanging Gardens Monument",
         "Seed Hall Nook"
       ]
     },
     {
+      "districtNumber": 5,
+      "districtId": "D05",
+      "sectionNumber": 2,
+      "name": "D05 — Terrace Granary Landmark Approach",
+      "civicPurpose": "This district turns Section 2's source-backed anchor set into a board-scale civic space: Agricultural Terraces Civic Hall, Terrace Granary, Hanging Gardens Monument, Seed Hall Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Carrikesh.",
+      "visualIdentity": "Use Terrace Granary as the main read. Keep exact source anchors visible where applicable: Agricultural Terraces Civic Hall, Terrace Granary, Hanging Gardens Monument, Seed Hall Nook. The district should share Carrikesh's hyena-like beastfolk identity, Sandstone, Adobe, Bone, Stained Glass, and Desert, Stone Desert, Dry Wadi without becoming generic.",
+      "emotionalIdentity": "Public-facing, with Carrikesh's larger mood shaped by Hyena Laughing-Bone Trade Amphitheater, Caravanserai Beacon, and Wolf Tooth Borders Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Terrace Granary",
+        "Agricultural Terraces Civic Hall",
+        "Hanging Gardens Monument",
+        "Seed Hall Nook",
+        "Section 2 pedestrian-scale props",
+        "Carrikesh civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Terrace Granary",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Terrace Granary",
+      "minorLandmarks": [
+        "Agricultural Terraces Civic Hall",
+        "Hanging Gardens Monument",
+        "Seed Hall Nook"
+      ]
+    },
+    {
+      "districtNumber": 9,
+      "districtId": "D09",
+      "sectionNumber": 2,
+      "name": "D09 — Hanging Gardens Monument Monument Frontage",
+      "civicPurpose": "This district turns Section 2's source-backed anchor set into a board-scale civic space: Agricultural Terraces Civic Hall, Terrace Granary, Hanging Gardens Monument, Seed Hall Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Carrikesh.",
+      "visualIdentity": "Use Hanging Gardens Monument as the main read. Keep exact source anchors visible where applicable: Agricultural Terraces Civic Hall, Terrace Granary, Hanging Gardens Monument, Seed Hall Nook. The district should share Carrikesh's hyena-like beastfolk identity, Sandstone, Adobe, Bone, Stained Glass, and Desert, Stone Desert, Dry Wadi without becoming generic.",
+      "emotionalIdentity": "Memorial or symbolic, with Carrikesh's larger mood shaped by Hyena Laughing-Bone Trade Amphitheater, Caravanserai Beacon, and Wolf Tooth Borders Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Hanging Gardens Monument",
+        "Agricultural Terraces Civic Hall",
+        "Terrace Granary",
+        "Seed Hall Nook",
+        "Section 2 pedestrian-scale props",
+        "Carrikesh civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Hanging Gardens Monument",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Hanging Gardens Monument",
+      "minorLandmarks": [
+        "Agricultural Terraces Civic Hall",
+        "Terrace Granary",
+        "Seed Hall Nook"
+      ]
+    },
+    {
+      "districtNumber": 10,
+      "districtId": "D10",
+      "sectionNumber": 2,
+      "name": "D10 — Seed Hall Nook Neighborhood Nook",
+      "civicPurpose": "This district turns Section 2's source-backed anchor set into a board-scale civic space: Agricultural Terraces Civic Hall, Terrace Granary, Hanging Gardens Monument, Seed Hall Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Carrikesh.",
+      "visualIdentity": "Use Seed Hall Nook as the main read. Keep exact source anchors visible where applicable: Agricultural Terraces Civic Hall, Terrace Granary, Hanging Gardens Monument, Seed Hall Nook. The district should share Carrikesh's hyena-like beastfolk identity, Sandstone, Adobe, Bone, Stained Glass, and Desert, Stone Desert, Dry Wadi without becoming generic.",
+      "emotionalIdentity": "Intimate and lived-in, with Carrikesh's larger mood shaped by Hyena Laughing-Bone Trade Amphitheater, Caravanserai Beacon, and Wolf Tooth Borders Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Seed Hall Nook",
+        "Agricultural Terraces Civic Hall",
+        "Terrace Granary",
+        "Hanging Gardens Monument",
+        "Section 2 pedestrian-scale props",
+        "Carrikesh civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Seed Hall Nook",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Seed Hall Nook",
+      "minorLandmarks": [
+        "Agricultural Terraces Civic Hall",
+        "Terrace Granary",
+        "Hanging Gardens Monument"
+      ]
+    },
+    {
+      "districtNumber": 15,
+      "districtId": "D15",
+      "sectionNumber": 2,
+      "name": "D15 — Agricultural Terraces Civic Hall Supporting Streets",
+      "civicPurpose": "This district turns Section 2's source-backed anchor set into a board-scale civic space: Agricultural Terraces Civic Hall, Terrace Granary, Hanging Gardens Monument, Seed Hall Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Carrikesh.",
+      "visualIdentity": "Use Agricultural Terraces Civic Hall as the main read. Keep exact source anchors visible where applicable: Agricultural Terraces Civic Hall, Terrace Granary, Hanging Gardens Monument, Seed Hall Nook. The district should share Carrikesh's hyena-like beastfolk identity, Sandstone, Adobe, Bone, Stained Glass, and Desert, Stone Desert, Dry Wadi without becoming generic.",
+      "emotionalIdentity": "Connective and practical, with Carrikesh's larger mood shaped by Hyena Laughing-Bone Trade Amphitheater, Caravanserai Beacon, and Wolf Tooth Borders Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Agricultural Terraces Civic Hall",
+        "Terrace Granary",
+        "Hanging Gardens Monument",
+        "Seed Hall Nook",
+        "Section 2 pedestrian-scale props",
+        "Carrikesh civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Agricultural Terraces Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Agricultural Terraces Civic Hall",
+      "minorLandmarks": [
+        "Terrace Granary",
+        "Hanging Gardens Monument",
+        "Seed Hall Nook"
+      ]
+    },
+    {
+      "districtNumber": 8,
+      "districtId": "D08",
       "sectionNumber": 3,
-      "name": "Treasury / Taxation",
-      "civicPurpose": "Valuation, tax assessment, currency trust, civic extraction, and the official measurement of worth.",
-      "visualIdentity": "Treasury / Taxation Hall, Assay Hall, Treasury Taxation Gold-Seal Monument, Taxation Arcade Nook, scales, ledgers, counters, and tax queues.",
-      "emotionalIdentity": "Sharp, official, transactional, and tense.",
+      "name": "D08 — Treasury / Taxation Hall Civic-Anchor Precinct",
+      "civicPurpose": "This district turns Section 3's source-backed anchor set into a board-scale civic space: Treasury / Taxation Hall, Assay Hall, Treasury Taxation Gold-Seal Monument, Taxation Arcade Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Carrikesh.",
+      "visualIdentity": "Use Treasury / Taxation Hall as the main read. Keep exact source anchors visible where applicable: Treasury / Taxation Hall, Assay Hall, Treasury Taxation Gold-Seal Monument, Taxation Arcade Nook. The district should share Carrikesh's hyena-like beastfolk identity, Sandstone, Adobe, Bone, Stained Glass, and Desert, Stone Desert, Dry Wadi without becoming generic.",
+      "emotionalIdentity": "Locally grounded, with Carrikesh's larger mood shaped by Hyena Laughing-Bone Trade Amphitheater, Caravanserai Beacon, and Wolf Tooth Borders Sovereign Registry Court.",
       "gameplayAssetNeeds": [
         "Treasury / Taxation Hall",
         "Assay Hall",
         "Treasury Taxation Gold-Seal Monument",
         "Taxation Arcade Nook",
-        "scales",
-        "ledger desks",
-        "clerks"
+        "Section 3 pedestrian-scale props",
+        "Carrikesh civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
       ],
       "narrativeUse": [
-        "tax conflict",
-        "valuation clues",
-        "fraud",
-        "trade legitimacy",
-        "public extraction as civic theater"
+        "scenes centered on Treasury / Taxation Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
       ],
-      "landmark": "Assay Hall",
+      "landmark": "Treasury / Taxation Hall",
       "minorLandmarks": [
+        "Assay Hall",
         "Treasury Taxation Gold-Seal Monument",
         "Taxation Arcade Nook"
       ]
     },
     {
+      "districtNumber": 12,
+      "districtId": "D12",
+      "sectionNumber": 3,
+      "name": "D12 — Assay Hall Landmark Approach",
+      "civicPurpose": "This district turns Section 3's source-backed anchor set into a board-scale civic space: Treasury / Taxation Hall, Assay Hall, Treasury Taxation Gold-Seal Monument, Taxation Arcade Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Carrikesh.",
+      "visualIdentity": "Use Assay Hall as the main read. Keep exact source anchors visible where applicable: Treasury / Taxation Hall, Assay Hall, Treasury Taxation Gold-Seal Monument, Taxation Arcade Nook. The district should share Carrikesh's hyena-like beastfolk identity, Sandstone, Adobe, Bone, Stained Glass, and Desert, Stone Desert, Dry Wadi without becoming generic.",
+      "emotionalIdentity": "Public-facing, with Carrikesh's larger mood shaped by Hyena Laughing-Bone Trade Amphitheater, Caravanserai Beacon, and Wolf Tooth Borders Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Assay Hall",
+        "Treasury / Taxation Hall",
+        "Treasury Taxation Gold-Seal Monument",
+        "Taxation Arcade Nook",
+        "Section 3 pedestrian-scale props",
+        "Carrikesh civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Assay Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Assay Hall",
+      "minorLandmarks": [
+        "Treasury / Taxation Hall",
+        "Treasury Taxation Gold-Seal Monument",
+        "Taxation Arcade Nook"
+      ]
+    },
+    {
+      "districtNumber": 13,
+      "districtId": "D13",
+      "sectionNumber": 3,
+      "name": "D13 — Wolf Tooth Borders Sovereign Registry Court Seat of Power District",
+      "civicPurpose": "This district turns Section 3's source-backed anchor set into a board-scale civic space: Treasury / Taxation Hall, Assay Hall, Treasury Taxation Gold-Seal Monument, Taxation Arcade Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Carrikesh.",
+      "visualIdentity": "Use Wolf Tooth Borders Sovereign Registry Court as the main read. Keep exact source anchors visible where applicable: Treasury / Taxation Hall, Assay Hall, Treasury Taxation Gold-Seal Monument, Taxation Arcade Nook. The district should share Carrikesh's hyena-like beastfolk identity, Sandstone, Adobe, Bone, Stained Glass, and Desert, Stone Desert, Dry Wadi without becoming generic.",
+      "emotionalIdentity": "Memorial or symbolic, with Carrikesh's larger mood shaped by Hyena Laughing-Bone Trade Amphitheater, Caravanserai Beacon, and Wolf Tooth Borders Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Wolf Tooth Borders Sovereign Registry Court",
+        "Treasury / Taxation Hall",
+        "Assay Hall",
+        "Treasury Taxation Gold-Seal Monument",
+        "Taxation Arcade Nook",
+        "Section 3 pedestrian-scale props",
+        "Carrikesh civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Wolf Tooth Borders Sovereign Registry Court",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "Conjunction response, rumor spread, or authority pressure"
+      ],
+      "landmark": "Wolf Tooth Borders Sovereign Registry Court",
+      "minorLandmarks": [
+        "Treasury / Taxation Hall",
+        "Assay Hall",
+        "Treasury Taxation Gold-Seal Monument",
+        "Taxation Arcade Nook"
+      ]
+    },
+    {
+      "districtNumber": 14,
+      "districtId": "D14",
+      "sectionNumber": 3,
+      "name": "D14 — Taxation Arcade Nook Neighborhood Nook",
+      "civicPurpose": "This district turns Section 3's source-backed anchor set into a board-scale civic space: Treasury / Taxation Hall, Assay Hall, Treasury Taxation Gold-Seal Monument, Taxation Arcade Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Carrikesh.",
+      "visualIdentity": "Use Taxation Arcade Nook as the main read. Keep exact source anchors visible where applicable: Treasury / Taxation Hall, Assay Hall, Treasury Taxation Gold-Seal Monument, Taxation Arcade Nook. The district should share Carrikesh's hyena-like beastfolk identity, Sandstone, Adobe, Bone, Stained Glass, and Desert, Stone Desert, Dry Wadi without becoming generic.",
+      "emotionalIdentity": "Intimate and lived-in, with Carrikesh's larger mood shaped by Hyena Laughing-Bone Trade Amphitheater, Caravanserai Beacon, and Wolf Tooth Borders Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Taxation Arcade Nook",
+        "Treasury / Taxation Hall",
+        "Assay Hall",
+        "Treasury Taxation Gold-Seal Monument",
+        "Section 3 pedestrian-scale props",
+        "Carrikesh civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Taxation Arcade Nook",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Taxation Arcade Nook",
+      "minorLandmarks": [
+        "Treasury / Taxation Hall",
+        "Assay Hall",
+        "Treasury Taxation Gold-Seal Monument"
+      ]
+    },
+    {
+      "districtNumber": 18,
+      "districtId": "D18",
+      "sectionNumber": 3,
+      "name": "D18 — Treasury / Taxation Hall Supporting Streets",
+      "civicPurpose": "This district turns Section 3's source-backed anchor set into a board-scale civic space: Treasury / Taxation Hall, Assay Hall, Treasury Taxation Gold-Seal Monument, Taxation Arcade Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Carrikesh.",
+      "visualIdentity": "Use Treasury / Taxation Hall as the main read. Keep exact source anchors visible where applicable: Treasury / Taxation Hall, Assay Hall, Treasury Taxation Gold-Seal Monument, Taxation Arcade Nook. The district should share Carrikesh's hyena-like beastfolk identity, Sandstone, Adobe, Bone, Stained Glass, and Desert, Stone Desert, Dry Wadi without becoming generic.",
+      "emotionalIdentity": "Connective and practical, with Carrikesh's larger mood shaped by Hyena Laughing-Bone Trade Amphitheater, Caravanserai Beacon, and Wolf Tooth Borders Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Treasury / Taxation Hall",
+        "Assay Hall",
+        "Treasury Taxation Gold-Seal Monument",
+        "Taxation Arcade Nook",
+        "Section 3 pedestrian-scale props",
+        "Carrikesh civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Treasury / Taxation Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Treasury / Taxation Hall",
+      "minorLandmarks": [
+        "Assay Hall",
+        "Treasury Taxation Gold-Seal Monument",
+        "Taxation Arcade Nook"
+      ]
+    },
+    {
+      "districtNumber": 11,
+      "districtId": "D11",
       "sectionNumber": 4,
-      "name": "Slums / Informal Settlement",
-      "civicPurpose": "Survival trade, salvage, repair culture, informal economy, and social truth beneath official valuation.",
-      "visualIdentity": "Slums / Informal Settlement Civic Hall, Scrap Market, Slums Informal Settlement Lantern Monument, Patched Tenement Nook, repair stalls, narrow lanes, and salvage piles.",
-      "emotionalIdentity": "Resourceful, harsh, funny, and socially exposed.",
+      "name": "D11 — Slums / Informal Settlement Civic Hall Civic-Anchor Precinct",
+      "civicPurpose": "This district turns Section 4's source-backed anchor set into a board-scale civic space: Slums / Informal Settlement Civic Hall, Scrap Market, Slums Informal Settlement Lantern Monument, Patched Tenement Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Carrikesh.",
+      "visualIdentity": "Use Slums / Informal Settlement Civic Hall as the main read. Keep exact source anchors visible where applicable: Slums / Informal Settlement Civic Hall, Scrap Market, Slums Informal Settlement Lantern Monument, Patched Tenement Nook. The district should share Carrikesh's hyena-like beastfolk identity, Sandstone, Adobe, Bone, Stained Glass, and Desert, Stone Desert, Dry Wadi without becoming generic.",
+      "emotionalIdentity": "Locally grounded, with Carrikesh's larger mood shaped by Hyena Laughing-Bone Trade Amphitheater, Caravanserai Beacon, and Wolf Tooth Borders Sovereign Registry Court.",
       "gameplayAssetNeeds": [
         "Slums / Informal Settlement Civic Hall",
         "Scrap Market",
         "Slums Informal Settlement Lantern Monument",
         "Patched Tenement Nook",
-        "salvage stalls",
-        "repair workers",
-        "narrow alleys"
+        "Section 4 pedestrian-scale props",
+        "Carrikesh civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
       ],
       "narrativeUse": [
-        "survival trade",
-        "informal clues",
-        "low-city pressure",
-        "social cruelty",
-        "resourcefulness the formal city exploits"
+        "scenes centered on Slums / Informal Settlement Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
       ],
-      "landmark": "Scrap Market",
+      "landmark": "Slums / Informal Settlement Civic Hall",
       "minorLandmarks": [
+        "Scrap Market",
         "Slums Informal Settlement Lantern Monument",
         "Patched Tenement Nook"
       ]
     },
     {
+      "districtNumber": 16,
+      "districtId": "D16",
+      "sectionNumber": 4,
+      "name": "D16 — Scrap Market Landmark Approach",
+      "civicPurpose": "This district turns Section 4's source-backed anchor set into a board-scale civic space: Slums / Informal Settlement Civic Hall, Scrap Market, Slums Informal Settlement Lantern Monument, Patched Tenement Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Carrikesh.",
+      "visualIdentity": "Use Scrap Market as the main read. Keep exact source anchors visible where applicable: Slums / Informal Settlement Civic Hall, Scrap Market, Slums Informal Settlement Lantern Monument, Patched Tenement Nook. The district should share Carrikesh's hyena-like beastfolk identity, Sandstone, Adobe, Bone, Stained Glass, and Desert, Stone Desert, Dry Wadi without becoming generic.",
+      "emotionalIdentity": "Public-facing, with Carrikesh's larger mood shaped by Hyena Laughing-Bone Trade Amphitheater, Caravanserai Beacon, and Wolf Tooth Borders Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Scrap Market",
+        "Slums / Informal Settlement Civic Hall",
+        "Slums Informal Settlement Lantern Monument",
+        "Patched Tenement Nook",
+        "Section 4 pedestrian-scale props",
+        "Carrikesh civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Scrap Market",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Scrap Market",
+      "minorLandmarks": [
+        "Slums / Informal Settlement Civic Hall",
+        "Slums Informal Settlement Lantern Monument",
+        "Patched Tenement Nook"
+      ]
+    },
+    {
+      "districtNumber": 17,
+      "districtId": "D17",
+      "sectionNumber": 4,
+      "name": "D17 — Slums Informal Settlement Lantern Monument Monument Frontage",
+      "civicPurpose": "This district turns Section 4's source-backed anchor set into a board-scale civic space: Slums / Informal Settlement Civic Hall, Scrap Market, Slums Informal Settlement Lantern Monument, Patched Tenement Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Carrikesh.",
+      "visualIdentity": "Use Slums Informal Settlement Lantern Monument as the main read. Keep exact source anchors visible where applicable: Slums / Informal Settlement Civic Hall, Scrap Market, Slums Informal Settlement Lantern Monument, Patched Tenement Nook. The district should share Carrikesh's hyena-like beastfolk identity, Sandstone, Adobe, Bone, Stained Glass, and Desert, Stone Desert, Dry Wadi without becoming generic.",
+      "emotionalIdentity": "Memorial or symbolic, with Carrikesh's larger mood shaped by Hyena Laughing-Bone Trade Amphitheater, Caravanserai Beacon, and Wolf Tooth Borders Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Slums Informal Settlement Lantern Monument",
+        "Slums / Informal Settlement Civic Hall",
+        "Scrap Market",
+        "Patched Tenement Nook",
+        "Section 4 pedestrian-scale props",
+        "Carrikesh civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Slums Informal Settlement Lantern Monument",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Slums Informal Settlement Lantern Monument",
+      "minorLandmarks": [
+        "Slums / Informal Settlement Civic Hall",
+        "Scrap Market",
+        "Patched Tenement Nook"
+      ]
+    },
+    {
+      "districtNumber": 21,
+      "districtId": "D21",
+      "sectionNumber": 4,
+      "name": "D21 — Patched Tenement Nook Neighborhood Nook",
+      "civicPurpose": "This district turns Section 4's source-backed anchor set into a board-scale civic space: Slums / Informal Settlement Civic Hall, Scrap Market, Slums Informal Settlement Lantern Monument, Patched Tenement Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Carrikesh.",
+      "visualIdentity": "Use Patched Tenement Nook as the main read. Keep exact source anchors visible where applicable: Slums / Informal Settlement Civic Hall, Scrap Market, Slums Informal Settlement Lantern Monument, Patched Tenement Nook. The district should share Carrikesh's hyena-like beastfolk identity, Sandstone, Adobe, Bone, Stained Glass, and Desert, Stone Desert, Dry Wadi without becoming generic.",
+      "emotionalIdentity": "Intimate and lived-in, with Carrikesh's larger mood shaped by Hyena Laughing-Bone Trade Amphitheater, Caravanserai Beacon, and Wolf Tooth Borders Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Patched Tenement Nook",
+        "Slums / Informal Settlement Civic Hall",
+        "Scrap Market",
+        "Slums Informal Settlement Lantern Monument",
+        "Section 4 pedestrian-scale props",
+        "Carrikesh civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Patched Tenement Nook",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Patched Tenement Nook",
+      "minorLandmarks": [
+        "Slums / Informal Settlement Civic Hall",
+        "Scrap Market",
+        "Slums Informal Settlement Lantern Monument"
+      ]
+    },
+    {
+      "districtNumber": 22,
+      "districtId": "D22",
+      "sectionNumber": 4,
+      "name": "D22 — Slums / Informal Settlement Civic Hall Supporting Streets",
+      "civicPurpose": "This district turns Section 4's source-backed anchor set into a board-scale civic space: Slums / Informal Settlement Civic Hall, Scrap Market, Slums Informal Settlement Lantern Monument, Patched Tenement Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Carrikesh.",
+      "visualIdentity": "Use Slums / Informal Settlement Civic Hall as the main read. Keep exact source anchors visible where applicable: Slums / Informal Settlement Civic Hall, Scrap Market, Slums Informal Settlement Lantern Monument, Patched Tenement Nook. The district should share Carrikesh's hyena-like beastfolk identity, Sandstone, Adobe, Bone, Stained Glass, and Desert, Stone Desert, Dry Wadi without becoming generic.",
+      "emotionalIdentity": "Connective and practical, with Carrikesh's larger mood shaped by Hyena Laughing-Bone Trade Amphitheater, Caravanserai Beacon, and Wolf Tooth Borders Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Slums / Informal Settlement Civic Hall",
+        "Scrap Market",
+        "Slums Informal Settlement Lantern Monument",
+        "Patched Tenement Nook",
+        "Section 4 pedestrian-scale props",
+        "Carrikesh civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Slums / Informal Settlement Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Slums / Informal Settlement Civic Hall",
+      "minorLandmarks": [
+        "Scrap Market",
+        "Slums Informal Settlement Lantern Monument",
+        "Patched Tenement Nook"
+      ]
+    },
+    {
+      "districtNumber": 19,
+      "districtId": "D19",
       "sectionNumber": 5,
-      "name": "Low Residential",
-      "civicPurpose": "Ordinary domestic life, neighborhood politics, gossip, lower-city continuity, shared water, and social pressure at close range.",
-      "visualIdentity": "Low Residential Civic Hall, Tenement Court, Low Residential Lantern Monument, Laundry Well Nook, tight housing, food carts, families, shared balconies, and close public sound.",
-      "emotionalIdentity": "Crowded, domestic, watchful, and alive.",
+      "name": "D19 — Low Residential Civic Hall Civic-Anchor Precinct",
+      "civicPurpose": "This district turns Section 5's source-backed anchor set into a board-scale civic space: Low Residential Civic Hall, Tenement Court, Low Residential Lantern Monument, Laundry Well Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Carrikesh.",
+      "visualIdentity": "Use Low Residential Civic Hall as the main read. Keep exact source anchors visible where applicable: Low Residential Civic Hall, Tenement Court, Low Residential Lantern Monument, Laundry Well Nook. The district should share Carrikesh's hyena-like beastfolk identity, Sandstone, Adobe, Bone, Stained Glass, and Desert, Stone Desert, Dry Wadi without becoming generic.",
+      "emotionalIdentity": "Locally grounded, with Carrikesh's larger mood shaped by Hyena Laughing-Bone Trade Amphitheater, Caravanserai Beacon, and Wolf Tooth Borders Sovereign Registry Court.",
       "gameplayAssetNeeds": [
         "Low Residential Civic Hall",
         "Tenement Court",
         "Low Residential Lantern Monument",
         "Laundry Well Nook",
-        "food carts",
-        "families",
-        "shared balconies"
+        "Section 5 pedestrian-scale props",
+        "Carrikesh civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
       ],
       "narrativeUse": [
-        "gossip",
-        "domestic stakes",
-        "public laughter at close range",
-        "neighborhood pressure",
-        "low-city consequences of official trade decisions"
+        "scenes centered on Low Residential Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Low Residential Civic Hall",
+      "minorLandmarks": [
+        "Tenement Court",
+        "Low Residential Lantern Monument",
+        "Laundry Well Nook"
+      ]
+    },
+    {
+      "districtNumber": 20,
+      "districtId": "D20",
+      "sectionNumber": 5,
+      "name": "D20 — Tenement Court Landmark Approach",
+      "civicPurpose": "This district turns Section 5's source-backed anchor set into a board-scale civic space: Low Residential Civic Hall, Tenement Court, Low Residential Lantern Monument, Laundry Well Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Carrikesh.",
+      "visualIdentity": "Use Tenement Court as the main read. Keep exact source anchors visible where applicable: Low Residential Civic Hall, Tenement Court, Low Residential Lantern Monument, Laundry Well Nook. The district should share Carrikesh's hyena-like beastfolk identity, Sandstone, Adobe, Bone, Stained Glass, and Desert, Stone Desert, Dry Wadi without becoming generic.",
+      "emotionalIdentity": "Public-facing, with Carrikesh's larger mood shaped by Hyena Laughing-Bone Trade Amphitheater, Caravanserai Beacon, and Wolf Tooth Borders Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Tenement Court",
+        "Low Residential Civic Hall",
+        "Low Residential Lantern Monument",
+        "Laundry Well Nook",
+        "Section 5 pedestrian-scale props",
+        "Carrikesh civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Tenement Court",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
       ],
       "landmark": "Tenement Court",
       "minorLandmarks": [
+        "Low Residential Civic Hall",
+        "Low Residential Lantern Monument",
+        "Laundry Well Nook"
+      ]
+    },
+    {
+      "districtNumber": 23,
+      "districtId": "D23",
+      "sectionNumber": 5,
+      "name": "D23 — Low Residential Lantern Monument Monument Frontage",
+      "civicPurpose": "This district turns Section 5's source-backed anchor set into a board-scale civic space: Low Residential Civic Hall, Tenement Court, Low Residential Lantern Monument, Laundry Well Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Carrikesh.",
+      "visualIdentity": "Use Low Residential Lantern Monument as the main read. Keep exact source anchors visible where applicable: Low Residential Civic Hall, Tenement Court, Low Residential Lantern Monument, Laundry Well Nook. The district should share Carrikesh's hyena-like beastfolk identity, Sandstone, Adobe, Bone, Stained Glass, and Desert, Stone Desert, Dry Wadi without becoming generic.",
+      "emotionalIdentity": "Memorial or symbolic, with Carrikesh's larger mood shaped by Hyena Laughing-Bone Trade Amphitheater, Caravanserai Beacon, and Wolf Tooth Borders Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Low Residential Lantern Monument",
+        "Low Residential Civic Hall",
+        "Tenement Court",
+        "Laundry Well Nook",
+        "Section 5 pedestrian-scale props",
+        "Carrikesh civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Low Residential Lantern Monument",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Low Residential Lantern Monument",
+      "minorLandmarks": [
+        "Low Residential Civic Hall",
+        "Tenement Court",
+        "Laundry Well Nook"
+      ]
+    },
+    {
+      "districtNumber": 24,
+      "districtId": "D24",
+      "sectionNumber": 5,
+      "name": "D24 — Laundry Well Nook Neighborhood Nook",
+      "civicPurpose": "This district turns Section 5's source-backed anchor set into a board-scale civic space: Low Residential Civic Hall, Tenement Court, Low Residential Lantern Monument, Laundry Well Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Carrikesh.",
+      "visualIdentity": "Use Laundry Well Nook as the main read. Keep exact source anchors visible where applicable: Low Residential Civic Hall, Tenement Court, Low Residential Lantern Monument, Laundry Well Nook. The district should share Carrikesh's hyena-like beastfolk identity, Sandstone, Adobe, Bone, Stained Glass, and Desert, Stone Desert, Dry Wadi without becoming generic.",
+      "emotionalIdentity": "Intimate and lived-in, with Carrikesh's larger mood shaped by Hyena Laughing-Bone Trade Amphitheater, Caravanserai Beacon, and Wolf Tooth Borders Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Laundry Well Nook",
+        "Low Residential Civic Hall",
+        "Tenement Court",
+        "Low Residential Lantern Monument",
+        "Section 5 pedestrian-scale props",
+        "Carrikesh civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Laundry Well Nook",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Laundry Well Nook",
+      "minorLandmarks": [
+        "Low Residential Civic Hall",
+        "Tenement Court",
+        "Low Residential Lantern Monument"
+      ]
+    },
+    {
+      "districtNumber": 25,
+      "districtId": "D25",
+      "sectionNumber": 5,
+      "name": "D25 — Low Residential Civic Hall Supporting Streets",
+      "civicPurpose": "This district turns Section 5's source-backed anchor set into a board-scale civic space: Low Residential Civic Hall, Tenement Court, Low Residential Lantern Monument, Laundry Well Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Carrikesh.",
+      "visualIdentity": "Use Low Residential Civic Hall as the main read. Keep exact source anchors visible where applicable: Low Residential Civic Hall, Tenement Court, Low Residential Lantern Monument, Laundry Well Nook. The district should share Carrikesh's hyena-like beastfolk identity, Sandstone, Adobe, Bone, Stained Glass, and Desert, Stone Desert, Dry Wadi without becoming generic.",
+      "emotionalIdentity": "Connective and practical, with Carrikesh's larger mood shaped by Hyena Laughing-Bone Trade Amphitheater, Caravanserai Beacon, and Wolf Tooth Borders Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Low Residential Civic Hall",
+        "Tenement Court",
+        "Low Residential Lantern Monument",
+        "Laundry Well Nook",
+        "Section 5 pedestrian-scale props",
+        "Carrikesh civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Low Residential Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Low Residential Civic Hall",
+      "minorLandmarks": [
+        "Tenement Court",
         "Low Residential Lantern Monument",
         "Laundry Well Nook"
       ]
@@ -498,248 +1150,744 @@
   "landmarks": {
     "wonder": {
       "name": "Hyena Laughing-Bone Trade Amphitheater",
-      "symbolicRole": "Trade, testimony, public shame, and communal laughter made civic theater.",
-      "visualRole": "Large amphitheater of teeth, bone motifs, market tiers, public seating, and trade-performance space.",
-      "civicRole": "Reputation court, trade performance venue, public judgment site, and social pressure engine.",
+      "symbolicRole": "Hyena Laughing-Bone Trade Amphitheater concentrates Carrikesh's local symbolism into a usable civic landmark: city wonder, separate far skyline anchor.",
+      "visualRole": "A one-per-city wonder: spectacular, unmistakable, and larger than every section landmark. It turns Carrikesh's geography, race identity, material culture, and civic magic into one public symbol. Built for Carrikesh's hyena-like beastfolk population, it uses Sandstone, Adobe, Bone, Stained Glass, Pine across Desert, Stone Desert, Dry Wadi; water context: dry city ground; magic expression: Beast Bonding, Ancestor Guidance, Pack Instinct. It must read clearly as a high-fantasy tactical-board asset with no baked labels or text.",
+      "civicRole": "Serves as city wonder, separate far skyline anchor within Carrikesh; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
       "narrativeUse": [
-        "public testimony",
-        "trade judgment",
-        "reputation contests",
-        "communal laughter",
-        "public shame becoming official leverage"
+        "stage scenes involving Hyena Laughing-Bone Trade Amphitheater",
+        "show how Carrikesh turns landmark symbolism into civic pressure",
+        "anchor public movement and crowd behavior",
+        "give writers a concrete place for announcements, disputes, errands, or rituals"
       ],
       "assetUse": [
-        "map background wonder",
-        "public amphitheater diorama",
-        "city identity anchor"
+        "city landmark asset",
+        "map background landmark marker",
+        "visual continuity anchor across hero and street scenes",
+        "scale reference for civilians, roads, plazas, and props"
       ],
       "sensoryIdentity": [
-        "laughter",
-        "crowd heat",
-        "dust",
-        "bone ornament",
-        "market calls"
+        "local foot traffic",
+        "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+        "public voices and civic work nearby",
+        "ambient city light and weathering",
+        "close pedestrian-scale details rather than abstract skyline-only treatment"
       ],
       "storyHooks": [
-        "a public joke becomes legal damage",
-        "a trade dispute is settled through performance",
-        "the crowd laughs for the wrong reason and changes the ruling"
+        "a routine civic action at Hyena Laughing-Bone Trade Amphitheater becomes narratively important",
+        "the visible condition of Hyena Laughing-Bone Trade Amphitheater signals political or social stress",
+        "someone uses Hyena Laughing-Bone Trade Amphitheater's public function to redirect crowds or information",
+        "an overlooked detail at Hyena Laughing-Bone Trade Amphitheater reveals how Carrikesh really works"
       ]
     },
     "beacon": {
       "name": "Caravanserai Beacon",
-      "symbolicRole": "Route warning and caravan coordination made public signal.",
-      "visualRole": "Beacon rising over caravanserai gates, transit civic halls, woven banners, waystation halls, and arrival roads.",
-      "civicRole": "Coordinates caravans, granaries, tax halls, scrap markets, and residential notices during crisis.",
+      "symbolicRole": "Caravanserai Beacon concentrates Carrikesh's local symbolism into a usable civic landmark: Section 1 beacon, near/front civic signal anchor.",
+      "visualRole": "A largest local landmark in this section, subordinate only to the city wonder and citadel. It belongs to Section 1 (Transit / Caravan / Rail) of Carrikesh and should use Timber Longhouses, Market Arcades, White Limestone Civic Blocks, sandstone and stained glass materials, Red Fabric Awnings, Lantern Lit, Woven Banners, and the hyena-like beastfolk visual language. Design focus: route maps, signal flags, hitching posts, depots, caravan yards. Terrain/water context: Desert; Dry Ground. Magic expression: Blue Order Sigils, Law Binding, Threshold Oaths. No baked labels or text.",
+      "civicRole": "Serves as Section 1 beacon, near/front civic signal anchor within Carrikesh; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
       "narrativeUse": [
-        "Beacon color changes",
-        "caravan response",
-        "route closures",
-        "public rumor",
-        "arrival rights suddenly changing"
+        "stage scenes involving Caravanserai Beacon",
+        "show how Carrikesh turns landmark symbolism into civic pressure",
+        "anchor public movement and crowd behavior",
+        "give writers a concrete place for announcements, disputes, errands, or rituals"
       ],
       "assetUse": [
-        "S1 centerpiece",
-        "map signal marker",
-        "route-warning asset"
+        "district diorama anchor for Section 1",
+        "map background landmark marker",
+        "visual continuity anchor across hero and street scenes",
+        "scale reference for civilians, roads, plazas, and props"
       ],
       "sensoryIdentity": [
-        "dust",
-        "bells",
-        "blue light",
-        "pack voices",
-        "wagon wheels"
+        "local foot traffic",
+        "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+        "public voices and civic work nearby",
+        "beacon or lamp glow when applicable",
+        "close pedestrian-scale details rather than abstract skyline-only treatment"
       ],
       "storyHooks": [
-        "a route warning changes who can enter the city",
-        "the Beacon creates a tax opportunity before anyone admits the danger"
+        "a routine civic action at Caravanserai Beacon becomes narratively important",
+        "the visible condition of Caravanserai Beacon signals political or social stress",
+        "someone uses Caravanserai Beacon's public function to redirect crowds or information",
+        "an overlooked detail at Caravanserai Beacon reveals how Carrikesh really works"
       ]
     },
     "seatOfPower": {
       "name": "Wolf Tooth Borders Sovereign Registry Court",
-      "symbolicRole": "Belonging, border, route rights, and pack legitimacy under official record.",
-      "visualRole": "Registry court with wolf-tooth borders, civic towers, records, tax links, and public approaches.",
-      "civicRole": "Government for routes, taxation, residency, trade legitimacy, and social belonging.",
+      "symbolicRole": "Wolf Tooth Borders Sovereign Registry Court concentrates Carrikesh's local symbolism into a usable civic landmark: dominant central civic anchor / District 13 seat of power.",
+      "visualRole": "The district-13 seat of power: courts, audience terraces, sealed archives, command platforms, and the visible apparatus of government. It is not a faction HQ; it is the city's central civic authority. Built for Carrikesh's hyena-like beastfolk population, it uses Sandstone, Adobe, Bone, Stained Glass, Pine across Desert, Stone Desert, Dry Wadi; water context: dry city ground; magic expression: Beast Bonding, Ancestor Guidance, Pack Instinct. It must read clearly as a high-fantasy tactical-board asset with no baked labels or text.",
+      "civicRole": "Serves as dominant central civic anchor / District 13 seat of power within Carrikesh; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
       "narrativeUse": [
-        "route disputes",
-        "tax rulings",
-        "residency conflict",
-        "pack legitimacy",
-        "official valuation of social belonging"
+        "stage scenes involving Wolf Tooth Borders Sovereign Registry Court",
+        "show how Carrikesh turns landmark symbolism into civic pressure",
+        "anchor public movement and crowd behavior",
+        "give writers a concrete place for announcements, disputes, errands, or rituals"
       ],
       "assetUse": [
-        "seat-of-power marker",
-        "central map anchor",
-        "registry/tax authority symbol"
+        "city landmark asset",
+        "map background landmark marker",
+        "visual continuity anchor across hero and street scenes",
+        "scale reference for civilians, roads, plazas, and props"
       ],
       "sensoryIdentity": [
-        "paper ledgers",
-        "wax seals",
-        "dry stone",
-        "crowd mutter",
-        "sharp laughter under restraint"
+        "local foot traffic",
+        "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+        "public voices and civic work nearby",
+        "ambient city light and weathering",
+        "close pedestrian-scale details rather than abstract skyline-only treatment"
       ],
       "storyHooks": [
-        "a registry ruling changes who counts as pack",
-        "tax status determines whether someone can leave"
+        "a routine civic action at Wolf Tooth Borders Sovereign Registry Court becomes narratively important",
+        "the visible condition of Wolf Tooth Borders Sovereign Registry Court signals political or social stress",
+        "someone uses Wolf Tooth Borders Sovereign Registry Court's public function to redirect crowds or information",
+        "an overlooked detail at Wolf Tooth Borders Sovereign Registry Court reveals how Carrikesh really works"
       ]
     },
     "majorLandmarks": [
       {
-        "name": "Terrace Granary",
-        "symbolicRole": "Food security beneath trade bravado.",
-        "visualRole": "Granary on agricultural terraces with hanging gardens, seed hall, dryland fields, and grain jars.",
-        "civicRole": "Anchors food production, grain storage, seed continuity, and seasonal bargaining power.",
+        "name": "Tenement Court",
+        "symbolicRole": "Tenement Court concentrates Carrikesh's local symbolism into a usable civic landmark: additional major landmark selected for this hero-view camera angle.",
+        "visualRole": "A largest local landmark in this section, subordinate only to the city wonder and citadel. It belongs to Section 5 (Low Residential) of Carrikesh and should use Timber Longhouses, Market Arcades, White Limestone Civic Blocks, sandstone and stained glass materials, Woven Banners, Lantern Lit, Red Fabric Awnings, and the hyena-like beastfolk visual language. Design focus: tenement stacks, rowhouses, shared courtyards, communal wells, largest section focal point. Terrain/water context: Desert; Dry Ground. Magic expression: Blue Order Sigils, Law Binding, Threshold Oaths. No baked labels or text.",
+        "civicRole": "Serves as additional major landmark selected for this hero-view camera angle within Carrikesh; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
         "narrativeUse": [
-          "food leverage",
-          "seed disputes",
-          "scarcity scenes",
-          "terrace labor"
+          "stage scenes involving Tenement Court",
+          "show how Carrikesh turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
         ],
         "assetUse": [
-          "S2 diorama landmark",
-          "agricultural terrace asset cluster",
-          "food-security marker"
+          "district diorama anchor for Section 5",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
         ],
         "sensoryIdentity": [
-          "grain dust",
-          "dry soil",
-          "wind in banners",
-          "market bread",
-          "stored seed"
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
         ],
         "storyHooks": [
-          "a seed hall dispute reveals why a trade deal matters",
-          "food leverage turns a joke into a threat"
+          "a routine civic action at Tenement Court becomes narratively important",
+          "the visible condition of Tenement Court signals political or social stress",
+          "someone uses Tenement Court's public function to redirect crowds or information",
+          "an overlooked detail at Tenement Court reveals how Carrikesh really works"
         ]
       },
       {
-        "name": "Assay Hall",
-        "symbolicRole": "Worth measured in public and made painful.",
-        "visualRole": "Tax and assay hall with scales, counters, Treasury Taxation Gold-Seal Monument, ledgers, and taxation arcade.",
-        "civicRole": "Assesses value, taxes goods, verifies currency trust, and gives bureaucracy teeth.",
+        "name": "Terrace Granary",
+        "symbolicRole": "Terrace Granary concentrates Carrikesh's local symbolism into a usable civic landmark: additional major landmark selected for this hero-view camera angle.",
+        "visualRole": "A largest local landmark in this section, subordinate only to the city wonder and citadel. It belongs to Section 2 (Agricultural Terraces) of Carrikesh and should use Canopy Platforms, Timber Longhouses, Reed Pavilions, sandstone and stained glass materials, Hanging Gardens, Woven Banners, Canal Reflections, and the hyena-like beastfolk visual language. Design focus: strong vertical silhouette, distinct gameplay landmark, visible from nearby districts, seed jars, terraced beds. Terrain/water context: Desert; Dry Ground. Magic expression: Blue Order Sigils, Law Binding, Threshold Oaths. No baked labels or text.",
+        "civicRole": "Serves as additional major landmark selected for this hero-view camera angle within Carrikesh; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
         "narrativeUse": [
-          "tax conflict",
-          "valuation clues",
-          "fraud",
-          "trade legitimacy"
+          "stage scenes involving Terrace Granary",
+          "show how Carrikesh turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
         ],
         "assetUse": [
-          "S3 diorama landmark",
-          "taxation asset cluster",
-          "gold-seal visual marker"
+          "district diorama anchor for Section 2",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
         ],
         "sensoryIdentity": [
-          "metal scales",
-          "paper ledgers",
-          "wax seals",
-          "crowd heat",
-          "dry ink"
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
         ],
         "storyHooks": [
-          "an assay result is technically true and socially explosive",
-          "a tax arcade queue becomes public humiliation"
+          "a routine civic action at Terrace Granary becomes narratively important",
+          "the visible condition of Terrace Granary signals political or social stress",
+          "someone uses Terrace Granary's public function to redirect crowds or information",
+          "an overlooked detail at Terrace Granary reveals how Carrikesh really works"
         ]
       },
       {
         "name": "Scrap Market",
-        "symbolicRole": "Waste transformed into survival intelligence.",
-        "visualRole": "Patchwork salvage market with lantern monument, patched tenements, repair stalls, scrap heaps, and narrow alleys.",
-        "civicRole": "Supports informal repair, survival trade, low-city economy, and practical evidence trails beneath official systems.",
+        "symbolicRole": "Scrap Market concentrates Carrikesh's local symbolism into a usable civic landmark: additional major landmark selected for this hero-view camera angle.",
+        "visualRole": "A largest local landmark in this section, subordinate only to the city wonder and citadel. It belongs to Section 4 (Slums / Informal Settlement) of Carrikesh and should use Market Arcades, Timber Longhouses, Reed Pavilions, sandstone and stained glass materials, Red Fabric Awnings, Woven Banners, Lantern Lit, and the hyena-like beastfolk visual language. Design focus: strong vertical silhouette, distinct gameplay landmark, visible from nearby districts, patches, scrap lanterns. Terrain/water context: Desert; Dry Ground. Magic expression: Blue Order Sigils, Law Binding, Threshold Oaths. No baked labels or text.",
+        "civicRole": "Serves as additional major landmark selected for this hero-view camera angle within Carrikesh; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
         "narrativeUse": [
-          "survival trade",
-          "informal clues",
-          "low-city pressure",
-          "repair culture"
+          "stage scenes involving Scrap Market",
+          "show how Carrikesh turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
         ],
         "assetUse": [
-          "S4 diorama landmark",
-          "slum/scrap asset cluster",
-          "informal economy marker"
+          "district diorama anchor for Section 4",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
         ],
         "sensoryIdentity": [
-          "scrap metal",
-          "lamp smoke",
-          "patched cloth",
-          "hammering",
-          "dust"
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
         ],
         "storyHooks": [
-          "a repaired object proves where it came from",
-          "a slum joke carries better evidence than the tax hall"
+          "a routine civic action at Scrap Market becomes narratively important",
+          "the visible condition of Scrap Market signals political or social stress",
+          "someone uses Scrap Market's public function to redirect crowds or information",
+          "an overlooked detail at Scrap Market reveals how Carrikesh really works"
         ]
       },
       {
-        "name": "Tenement Court",
-        "symbolicRole": "Dense belonging under constant public pressure.",
-        "visualRole": "Low residential court with lantern monument, laundry well, balconies, tight housing, food carts, and watching families.",
-        "civicRole": "Anchors ordinary domestic life, gossip, shared services, and neighborhood continuity.",
+        "name": "Transit / Caravan / Rail Civic Hall",
+        "symbolicRole": "Transit / Caravan / Rail Civic Hall concentrates Carrikesh's local symbolism into a usable civic landmark: Section 1 local anchor.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing. It belongs to Section 1 (Transit / Caravan / Rail) of Carrikesh and should use Market Arcades, White Limestone Civic Blocks, Timber Longhouses, sandstone and stained glass materials, Red Fabric Awnings, Lantern Lit, Woven Banners, and the hyena-like beastfolk visual language. Design focus: board-readable entrance, wheels, route maps, signal flags, hitching posts. Terrain/water context: Desert; Dry Ground. Magic expression: Blue Order Sigils, Law Binding, Threshold Oaths. No baked labels or text.",
+        "civicRole": "Serves as Section 1 local anchor within Carrikesh; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
         "narrativeUse": [
-          "gossip",
-          "domestic stakes",
-          "neighborhood pressure",
-          "public laughter at close range"
+          "stage scenes involving Transit / Caravan / Rail Civic Hall",
+          "show how Carrikesh turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
         ],
         "assetUse": [
-          "S5 diorama landmark",
-          "low residential asset cluster",
-          "domestic pressure marker"
+          "district diorama anchor for Section 1",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
         ],
         "sensoryIdentity": [
-          "laundry water",
-          "cooking smoke",
-          "lantern oil",
-          "close voices",
-          "tenement dust"
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
         ],
         "storyHooks": [
-          "a rumor from the laundry well reaches the registry first",
-          "a family conflict shows the cost of official valuation"
+          "a routine civic action at Transit / Caravan / Rail Civic Hall becomes narratively important",
+          "the visible condition of Transit / Caravan / Rail Civic Hall signals political or social stress",
+          "someone uses Transit / Caravan / Rail Civic Hall's public function to redirect crowds or information",
+          "an overlooked detail at Transit / Caravan / Rail Civic Hall reveals how Carrikesh really works"
+        ]
+      },
+      {
+        "name": "Woven Banners Monument",
+        "symbolicRole": "Woven Banners Monument concentrates Carrikesh's local symbolism into a usable civic landmark: Section 1 local anchor.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles. It belongs to Section 1 (Transit / Caravan / Rail) of Carrikesh and should use White Limestone Civic Blocks, Timber Longhouses, Market Arcades, sandstone and stained glass materials, Woven Banners, Red Fabric Awnings, Lantern Lit, and the hyena-like beastfolk visual language. Design focus: local memory marker, subordinate to major landmark, wheels, route maps, signal flags. Terrain/water context: Desert; Dry Ground. Magic expression: Blue Order Sigils, Law Binding, Threshold Oaths. No baked labels or text.",
+        "civicRole": "Serves as Section 1 local anchor within Carrikesh; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Woven Banners Monument",
+          "show how Carrikesh turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 1",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Woven Banners Monument becomes narratively important",
+          "the visible condition of Woven Banners Monument signals political or social stress",
+          "someone uses Woven Banners Monument's public function to redirect crowds or information",
+          "an overlooked detail at Woven Banners Monument reveals how Carrikesh really works"
+        ]
+      },
+      {
+        "name": "Waystation Hall Nook",
+        "symbolicRole": "Waystation Hall Nook concentrates Carrikesh's local symbolism into a usable civic landmark: Section 1 local anchor.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette. It belongs to Section 1 (Transit / Caravan / Rail) of Carrikesh and should use Timber Longhouses, Market Arcades, White Limestone Civic Blocks, sandstone and stained glass materials, Lantern Lit, Woven Banners, Red Fabric Awnings, and the hyena-like beastfolk visual language. Design focus: signal flags, hitching posts, depots, caravan yards, stable courts. Terrain/water context: Desert; Dry Ground. Magic expression: Blue Order Sigils, Law Binding, Threshold Oaths. No baked labels or text.",
+        "civicRole": "Serves as Section 1 local anchor within Carrikesh; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Waystation Hall Nook",
+          "show how Carrikesh turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 1",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Waystation Hall Nook becomes narratively important",
+          "the visible condition of Waystation Hall Nook signals political or social stress",
+          "someone uses Waystation Hall Nook's public function to redirect crowds or information",
+          "an overlooked detail at Waystation Hall Nook reveals how Carrikesh really works"
+        ]
+      },
+      {
+        "name": "Agricultural Terraces Civic Hall",
+        "symbolicRole": "Agricultural Terraces Civic Hall concentrates Carrikesh's local symbolism into a usable civic landmark: Section 2 local anchor.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing. It belongs to Section 2 (Agricultural Terraces) of Carrikesh and should use Reed Pavilions, Canopy Platforms, Timber Longhouses, sandstone and stained glass materials, Hanging Gardens, Woven Banners, Canal Reflections, and the hyena-like beastfolk visual language. Design focus: public-facing administration, clear central silhouette, board-readable entrance, seed jars, terraced beds. Terrain/water context: Desert; Dry Ground. Magic expression: Blue Order Sigils, Law Binding, Threshold Oaths. No baked labels or text.",
+        "civicRole": "Serves as Section 2 local anchor within Carrikesh; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Agricultural Terraces Civic Hall",
+          "show how Carrikesh turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 2",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Agricultural Terraces Civic Hall becomes narratively important",
+          "the visible condition of Agricultural Terraces Civic Hall signals political or social stress",
+          "someone uses Agricultural Terraces Civic Hall's public function to redirect crowds or information",
+          "an overlooked detail at Agricultural Terraces Civic Hall reveals how Carrikesh really works"
+        ]
+      },
+      {
+        "name": "Hanging Gardens Monument",
+        "symbolicRole": "Hanging Gardens Monument concentrates Carrikesh's local symbolism into a usable civic landmark: Section 2 local anchor.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles. It belongs to Section 2 (Agricultural Terraces) of Carrikesh and should use Timber Longhouses, Reed Pavilions, Canopy Platforms, sandstone and stained glass materials, Woven Banners, Canal Reflections, Hanging Gardens, and the hyena-like beastfolk visual language. Design focus: orchards, greenhouses, irrigation channels, symbolic civic object, small ceremonial site. Terrain/water context: Desert; Dry Ground. Magic expression: Blue Order Sigils, Law Binding, Threshold Oaths. No baked labels or text.",
+        "civicRole": "Serves as Section 2 local anchor within Carrikesh; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Hanging Gardens Monument",
+          "show how Carrikesh turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 2",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Hanging Gardens Monument becomes narratively important",
+          "the visible condition of Hanging Gardens Monument signals political or social stress",
+          "someone uses Hanging Gardens Monument's public function to redirect crowds or information",
+          "an overlooked detail at Hanging Gardens Monument reveals how Carrikesh really works"
+        ]
+      },
+      {
+        "name": "Seed Hall Nook",
+        "symbolicRole": "Seed Hall Nook concentrates Carrikesh's local symbolism into a usable civic landmark: Section 2 local anchor.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette. It belongs to Section 2 (Agricultural Terraces) of Carrikesh and should use Reed Pavilions, Canopy Platforms, Timber Longhouses, sandstone and stained glass materials, Hanging Gardens, Woven Banners, Canal Reflections, and the hyena-like beastfolk visual language. Design focus: irrigation channels, small local identity prop, street-level detail, usable board landmark, subordinate scale. Terrain/water context: Desert; Dry Ground. Magic expression: Blue Order Sigils, Law Binding, Threshold Oaths. No baked labels or text.",
+        "civicRole": "Serves as Section 2 local anchor within Carrikesh; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Seed Hall Nook",
+          "show how Carrikesh turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 2",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Seed Hall Nook becomes narratively important",
+          "the visible condition of Seed Hall Nook signals political or social stress",
+          "someone uses Seed Hall Nook's public function to redirect crowds or information",
+          "an overlooked detail at Seed Hall Nook reveals how Carrikesh really works"
+        ]
+      },
+      {
+        "name": "Treasury / Taxation Hall",
+        "symbolicRole": "Treasury / Taxation Hall concentrates Carrikesh's local symbolism into a usable civic landmark: Section 3 local anchor.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing. It belongs to Section 3 (Treasury / Taxation) of Carrikesh and should use Subterranean Vaults, White Limestone Civic Blocks, Market Arcades, sandstone and stained glass materials, Civic Blue Glow, Red Fabric Awnings, Gold Seals, and the hyena-like beastfolk visual language. Design focus: counting rooms, institutional anchor, public-facing administration, clear central silhouette, board-readable entrance. Terrain/water context: Desert; Dry Ground. Magic expression: Blue Order Sigils, Law Binding, Threshold Oaths. No baked labels or text.",
+        "civicRole": "Serves as Section 3 local anchor within Carrikesh; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Treasury / Taxation Hall",
+          "show how Carrikesh turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 3",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Treasury / Taxation Hall becomes narratively important",
+          "the visible condition of Treasury / Taxation Hall signals political or social stress",
+          "someone uses Treasury / Taxation Hall's public function to redirect crowds or information",
+          "an overlooked detail at Treasury / Taxation Hall reveals how Carrikesh really works"
+        ]
+      },
+      {
+        "name": "Assay Hall",
+        "symbolicRole": "Assay Hall concentrates Carrikesh's local symbolism into a usable civic landmark: Section 3 local anchor.",
+        "visualRole": "A mandatory Section 3 Beacon: a culturally adapted civic signal flame / warning-light landmark visible across the city spine. It belongs to Section 3 (Treasury / Taxation) of Carrikesh and should use White Limestone Civic Blocks, Market Arcades, Subterranean Vaults, sandstone and stained glass materials, Red Fabric Awnings, Gold Seals, Civic Blue Glow, and the hyena-like beastfolk visual language. Design focus: strong vertical silhouette, distinct gameplay landmark, visible from nearby districts, coins, scales. Terrain/water context: Desert; Dry Ground. Magic expression: Blue Order Sigils, Law Binding, Threshold Oaths. No baked labels or text.",
+        "civicRole": "Serves as Section 3 local anchor within Carrikesh; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Assay Hall",
+          "show how Carrikesh turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 3",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Assay Hall becomes narratively important",
+          "the visible condition of Assay Hall signals political or social stress",
+          "someone uses Assay Hall's public function to redirect crowds or information",
+          "an overlooked detail at Assay Hall reveals how Carrikesh really works"
+        ]
+      },
+      {
+        "name": "Treasury Taxation Gold-Seal Monument",
+        "symbolicRole": "Treasury Taxation Gold-Seal Monument concentrates Carrikesh's local symbolism into a usable civic landmark: Section 3 local anchor.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles. It belongs to Section 3 (Treasury / Taxation) of Carrikesh and should use White Limestone Civic Blocks, Market Arcades, Subterranean Vaults, sandstone and stained glass materials, Red Fabric Awnings, Gold Seals, Civic Blue Glow, and the hyena-like beastfolk visual language. Design focus: counting houses, counting rooms, symbolic civic object, small ceremonial site, local memory marker. Terrain/water context: Desert; Dry Ground. Magic expression: Blue Order Sigils, Law Binding, Threshold Oaths. No baked labels or text.",
+        "civicRole": "Serves as Section 3 local anchor within Carrikesh; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Treasury Taxation Gold-Seal Monument",
+          "show how Carrikesh turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 3",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Treasury Taxation Gold-Seal Monument becomes narratively important",
+          "the visible condition of Treasury Taxation Gold-Seal Monument signals political or social stress",
+          "someone uses Treasury Taxation Gold-Seal Monument's public function to redirect crowds or information",
+          "an overlooked detail at Treasury Taxation Gold-Seal Monument reveals how Carrikesh really works"
+        ]
+      },
+      {
+        "name": "Taxation Arcade Nook",
+        "symbolicRole": "Taxation Arcade Nook concentrates Carrikesh's local symbolism into a usable civic landmark: Section 3 local anchor.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette. It belongs to Section 3 (Treasury / Taxation) of Carrikesh and should use Market Arcades, Subterranean Vaults, White Limestone Civic Blocks, sandstone and stained glass materials, Red Fabric Awnings, Gold Seals, Civic Blue Glow, and the hyena-like beastfolk visual language. Design focus: coins, scales, locked chests, assay marks, vault halls. Terrain/water context: Desert; Dry Ground. Magic expression: Blue Order Sigils, Law Binding, Threshold Oaths. No baked labels or text.",
+        "civicRole": "Serves as Section 3 local anchor within Carrikesh; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Taxation Arcade Nook",
+          "show how Carrikesh turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 3",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Taxation Arcade Nook becomes narratively important",
+          "the visible condition of Taxation Arcade Nook signals political or social stress",
+          "someone uses Taxation Arcade Nook's public function to redirect crowds or information",
+          "an overlooked detail at Taxation Arcade Nook reveals how Carrikesh really works"
+        ]
+      },
+      {
+        "name": "Slums / Informal Settlement Civic Hall",
+        "symbolicRole": "Slums / Informal Settlement Civic Hall concentrates Carrikesh's local symbolism into a usable civic landmark: Section 4 local anchor.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing. It belongs to Section 4 (Slums / Informal Settlement) of Carrikesh and should use Timber Longhouses, Reed Pavilions, Market Arcades, sandstone and stained glass materials, Red Fabric Awnings, Woven Banners, Lantern Lit, and the hyena-like beastfolk visual language. Design focus: institutional anchor, public-facing administration, clear central silhouette, board-readable entrance, patches. Terrain/water context: Desert; Dry Ground. Magic expression: Blue Order Sigils, Law Binding, Threshold Oaths. No baked labels or text.",
+        "civicRole": "Serves as Section 4 local anchor within Carrikesh; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Slums / Informal Settlement Civic Hall",
+          "show how Carrikesh turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 4",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Slums / Informal Settlement Civic Hall becomes narratively important",
+          "the visible condition of Slums / Informal Settlement Civic Hall signals political or social stress",
+          "someone uses Slums / Informal Settlement Civic Hall's public function to redirect crowds or information",
+          "an overlooked detail at Slums / Informal Settlement Civic Hall reveals how Carrikesh really works"
+        ]
+      },
+      {
+        "name": "Slums Informal Settlement Lantern Monument",
+        "symbolicRole": "Slums Informal Settlement Lantern Monument concentrates Carrikesh's local symbolism into a usable civic landmark: Section 4 local anchor.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles. It belongs to Section 4 (Slums / Informal Settlement) of Carrikesh and should use Market Arcades, Timber Longhouses, Reed Pavilions, sandstone and stained glass materials, Woven Banners, Lantern Lit, Red Fabric Awnings, and the hyena-like beastfolk visual language. Design focus: symbolic civic object, small ceremonial site, local memory marker, subordinate to major landmark, patches. Terrain/water context: Desert; Dry Ground. Magic expression: Blue Order Sigils, Law Binding, Threshold Oaths. No baked labels or text.",
+        "civicRole": "Serves as Section 4 local anchor within Carrikesh; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Slums Informal Settlement Lantern Monument",
+          "show how Carrikesh turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 4",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Slums Informal Settlement Lantern Monument becomes narratively important",
+          "the visible condition of Slums Informal Settlement Lantern Monument signals political or social stress",
+          "someone uses Slums Informal Settlement Lantern Monument's public function to redirect crowds or information",
+          "an overlooked detail at Slums Informal Settlement Lantern Monument reveals how Carrikesh really works"
+        ]
+      },
+      {
+        "name": "Patched Tenement Nook",
+        "symbolicRole": "Patched Tenement Nook concentrates Carrikesh's local symbolism into a usable civic landmark: Section 4 local anchor.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette. It belongs to Section 4 (Slums / Informal Settlement) of Carrikesh and should use Market Arcades, Timber Longhouses, Reed Pavilions, sandstone and stained glass materials, Red Fabric Awnings, Woven Banners, Lantern Lit, and the hyena-like beastfolk visual language. Design focus: subordinate scale, patches, scrap lanterns, tarps, shared fires. Terrain/water context: Desert; Dry Ground. Magic expression: Blue Order Sigils, Law Binding, Threshold Oaths. No baked labels or text.",
+        "civicRole": "Serves as Section 4 local anchor within Carrikesh; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Patched Tenement Nook",
+          "show how Carrikesh turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 4",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Patched Tenement Nook becomes narratively important",
+          "the visible condition of Patched Tenement Nook signals political or social stress",
+          "someone uses Patched Tenement Nook's public function to redirect crowds or information",
+          "an overlooked detail at Patched Tenement Nook reveals how Carrikesh really works"
+        ]
+      },
+      {
+        "name": "Low Residential Civic Hall",
+        "symbolicRole": "Low Residential Civic Hall concentrates Carrikesh's local symbolism into a usable civic landmark: Section 5 local anchor.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing. It belongs to Section 5 (Low Residential) of Carrikesh and should use Timber Longhouses, Market Arcades, White Limestone Civic Blocks, sandstone and stained glass materials, Lantern Lit, Red Fabric Awnings, Woven Banners, and the hyena-like beastfolk visual language. Design focus: board-readable entrance, laundry lines, hearth smoke, stoops, shared wells. Terrain/water context: Desert; Dry Ground. Magic expression: Blue Order Sigils, Law Binding, Threshold Oaths. No baked labels or text.",
+        "civicRole": "Serves as Section 5 local anchor within Carrikesh; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Low Residential Civic Hall",
+          "show how Carrikesh turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 5",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Low Residential Civic Hall becomes narratively important",
+          "the visible condition of Low Residential Civic Hall signals political or social stress",
+          "someone uses Low Residential Civic Hall's public function to redirect crowds or information",
+          "an overlooked detail at Low Residential Civic Hall reveals how Carrikesh really works"
+        ]
+      },
+      {
+        "name": "Low Residential Lantern Monument",
+        "symbolicRole": "Low Residential Lantern Monument concentrates Carrikesh's local symbolism into a usable civic landmark: Section 5 local anchor.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles. It belongs to Section 5 (Low Residential) of Carrikesh and should use White Limestone Civic Blocks, Timber Longhouses, Market Arcades, sandstone and stained glass materials, Lantern Lit, Red Fabric Awnings, Woven Banners, and the hyena-like beastfolk visual language. Design focus: symbolic civic object, small ceremonial site, local memory marker, subordinate to major landmark, laundry lines. Terrain/water context: Desert; Dry Ground. Magic expression: Blue Order Sigils, Law Binding, Threshold Oaths. No baked labels or text.",
+        "civicRole": "Serves as Section 5 local anchor within Carrikesh; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Low Residential Lantern Monument",
+          "show how Carrikesh turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 5",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Low Residential Lantern Monument becomes narratively important",
+          "the visible condition of Low Residential Lantern Monument signals political or social stress",
+          "someone uses Low Residential Lantern Monument's public function to redirect crowds or information",
+          "an overlooked detail at Low Residential Lantern Monument reveals how Carrikesh really works"
+        ]
+      },
+      {
+        "name": "Laundry Well Nook",
+        "symbolicRole": "Laundry Well Nook concentrates Carrikesh's local symbolism into a usable civic landmark: Section 5 local anchor.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette. It belongs to Section 5 (Low Residential) of Carrikesh and should use Timber Longhouses, Market Arcades, White Limestone Civic Blocks, sandstone and stained glass materials, Red Fabric Awnings, Woven Banners, Lantern Lit, and the hyena-like beastfolk visual language. Design focus: laundry lines, hearth smoke, stoops, shared wells, tenement stacks. Terrain/water context: Desert; Dry Ground. Magic expression: Blue Order Sigils, Law Binding, Threshold Oaths. No baked labels or text.",
+        "civicRole": "Serves as Section 5 local anchor within Carrikesh; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Laundry Well Nook",
+          "show how Carrikesh turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 5",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Laundry Well Nook becomes narratively important",
+          "the visible condition of Laundry Well Nook signals political or social stress",
+          "someone uses Laundry Well Nook's public function to redirect crowds or information",
+          "an overlooked detail at Laundry Well Nook reveals how Carrikesh really works"
         ]
       }
     ]
   },
   "assetGuidance": {
     "districtDioramaGuidance": [
-      "S1 must show Transit / Caravan / Rail Civic Hall, Caravanserai Beacon, Woven Banners Monument, Waystation Hall Nook, caravan gates, route signs, and pack crowds.",
-      "S2 must show Agricultural Terraces Civic Hall, Terrace Granary, Hanging Gardens Monument, Seed Hall Nook, terraced crops, grain jars, and field workers.",
-      "S3 must show Treasury / Taxation Hall, Assay Hall, Treasury Taxation Gold-Seal Monument, Taxation Arcade Nook, scales, ledger desks, and clerks.",
-      "S4 must show Slums / Informal Settlement Civic Hall, Scrap Market, Slums Informal Settlement Lantern Monument, Patched Tenement Nook, salvage stalls, repair workers, and narrow alleys.",
-      "S5 must show Low Residential Civic Hall, Tenement Court, Low Residential Lantern Monument, Laundry Well Nook, food carts, families, shared balconies, and dense domestic life."
+      "Dioramas must support 25 district slots: S1 covers D01, D02, D03, D06, D07 and uses source-backed anchors Transit / Caravan / Rail Civic Hall, Caravanserai Beacon, Woven Banners Monument, Waystation Hall Nook.",
+      "Dioramas must support 25 district slots: S2 covers D04, D05, D09, D10, D15 and uses source-backed anchors Agricultural Terraces Civic Hall, Terrace Granary, Hanging Gardens Monument, Seed Hall Nook.",
+      "Dioramas must support 25 district slots: S3 covers D08, D12, D13, D14, D18 and uses source-backed anchors Treasury / Taxation Hall, Assay Hall, Treasury Taxation Gold-Seal Monument, Taxation Arcade Nook.",
+      "Dioramas must support 25 district slots: S4 covers D11, D16, D17, D21, D22 and uses source-backed anchors Slums / Informal Settlement Civic Hall, Scrap Market, Slums Informal Settlement Lantern Monument, Patched Tenement Nook.",
+      "Dioramas must support 25 district slots: S5 covers D19, D20, D23, D24, D25 and uses source-backed anchors Low Residential Civic Hall, Tenement Court, Low Residential Lantern Monument, Laundry Well Nook."
     ],
     "mapBackgroundGuidance": [
-      "Use a dry caravan-trade city with caravanserais, red awnings, trade amphitheater, tax halls, terrace granaries, scrap markets, tenement courts, laundry wells, and stained-glass civic towers.",
-      "The Hyena Laughing-Bone Trade Amphitheater should be the wonder-scale identity anchor; the Wolf Tooth Borders Sovereign Registry Court should be central authority; the Caravanserai Beacon should organize arrival and route law.",
-      "Keep humor, trade, taxation, scarcity, salvage, and low residential pressure visible together."
+      "Map backgrounds must show Hyena Laughing-Bone Trade Amphitheater as the wonder-scale identity anchor, Wolf Tooth Borders Sovereign Registry Court at D13, and Caravanserai Beacon as the city signal landmark.",
+      "Preserve the five-section spine: S1 Transit / Caravan / Rail Civic Hall, S2 Agricultural Terraces Civic Hall, S3 Treasury / Taxation Hall, S4 Slums / Informal Settlement Civic Hall, S5 Low Residential Civic Hall.",
+      "Use roads, terrain, water, civic terraces, walls, markets, courts, or service routes only where they support the exact city identity and tactical readability."
     ],
     "requiredVisualElements": [
-      "hyena-like beastfolk citizens",
       "Hyena Laughing-Bone Trade Amphitheater",
-      "Wolf Tooth Borders Sovereign Registry Court",
       "Caravanserai Beacon",
+      "Wolf Tooth Borders Sovereign Registry Court",
+      "Tenement Court",
+      "Terrace Granary",
+      "Scrap Market",
       "Transit / Caravan / Rail Civic Hall",
       "Woven Banners Monument",
       "Waystation Hall Nook",
-      "Terrace Granary",
+      "Agricultural Terraces Civic Hall",
       "Hanging Gardens Monument",
       "Seed Hall Nook",
+      "Treasury / Taxation Hall",
       "Assay Hall",
       "Treasury Taxation Gold-Seal Monument",
       "Taxation Arcade Nook",
-      "Scrap Market",
+      "Slums / Informal Settlement Civic Hall",
       "Slums Informal Settlement Lantern Monument",
       "Patched Tenement Nook",
-      "Tenement Court",
+      "Low Residential Civic Hall",
       "Low Residential Lantern Monument",
-      "Laundry Well Nook"
+      "Laundry Well Nook",
+      "Sandstone",
+      "Adobe",
+      "Bone",
+      "Stained Glass",
+      "Pine",
+      "Desert",
+      "Stone Desert",
+      "Dry Wadi",
+      "Beast Bonding",
+      "Ancestor Guidance",
+      "Pack Instinct"
     ],
     "elementsToAvoid": [
-      "comic-relief hyena caricature",
-      "generic scavenger camp",
-      "empty desert market with no tax or registry logic",
-      "slums treated as disposable background",
-      "food systems omitted from civic identity",
-      "clean merchant city without low residential pressure"
+      "extra top-level schema sections or research-log content in the JSON",
+      "generic fantasy architecture that ignores exact anchor names",
+      "invented missing street anchors",
+      "readable real-world text labels baked into images",
+      "collapsing the 25-district board into only five playable spaces",
+      "making landmarks decorative when they should have civic, narrative, and asset function"
     ]
   }
 }

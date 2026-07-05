@@ -4,82 +4,1887 @@
     "analysisVersion": 2,
     "cityCode": "HEA",
     "cityName": "Hearthglen",
-    "analysisDate": "2026-07-03",
+    "analysisDate": "2026-07-05",
     "analystVersion": "gpt-5.5-thinking",
     "analysisConfidence": "strong-lock",
-    "basedOnImages": ["HEA-HERO-NE-v001", "HEA-HERO-NW-v001", "HEA-HERO-SE-v001", "HEA-HERO-SW-v001", "HEA-STREET-S1-v001", "HEA-STREET-S2-v001", "HEA-STREET-S3-v001", "HEA-STREET-S4-v001", "HEA-STREET-S5-v001"],
-    "basedOnSidecars": ["HEA-HERO-NE-v001.json", "HEA-HERO-NW-v001.json", "HEA-HERO-SE-v001.json", "HEA-HERO-SW-v001.json", "HEA-STREET-S1-v001.json", "HEA-STREET-S2-v001.json", "HEA-STREET-S3-v001.json", "HEA-STREET-S4-v001.json", "HEA-STREET-S5-v001.json"]
+    "sourceStatus": "full",
+    "districtModel": "five sections; five district slots per section; D13 is the seat of power",
+    "missingStreetSections": [],
+    "basedOnImages": [
+      "HEA-HERO-NE-v001",
+      "HEA-HERO-NW-v001",
+      "HEA-HERO-SE-v001",
+      "HEA-HERO-SW-v001",
+      "HEA-STREET-S1-v001",
+      "HEA-STREET-S2-v001",
+      "HEA-STREET-S3-v001",
+      "HEA-STREET-S4-v001",
+      "HEA-STREET-S5-v001"
+    ],
+    "basedOnSidecars": [
+      "HEA-HERO-NE-v001.json",
+      "HEA-HERO-NW-v001.json",
+      "HEA-HERO-SE-v001.json",
+      "HEA-HERO-SW-v001.json",
+      "HEA-STREET-S1-v001.json",
+      "HEA-STREET-S2-v001.json",
+      "HEA-STREET-S3-v001.json",
+      "HEA-STREET-S4-v001.json",
+      "HEA-STREET-S5-v001.json"
+    ]
   },
   "cityDNA": {
-    "coreFantasy": "A warm gnomish service-city where healing, alchemy, relief, tenement life, ancestor memory, brass doors, and civic charms turn repair into public infrastructure.",
-    "primaryEmotion": "practical warmth",
-    "secondaryEmotion": "administered mercy",
-    "readerTakeaway": "Hearthglen is not cute gnome gadget scenery; the uploaded images show a mature civic city of care, repair, low domestic density, and ancestor continuity.",
-    "civilizationThesis": "Hearthglen turns care into machinery and bureaucracy without letting warmth disappear.",
-    "visualIdentity": "Granite, peat brick, oak, copper, dyed wool, brass fittings, blue lamps, garden terraces, low domes, apothecary glass, relief counters, laundry wells, ancestor masks, and compact useful streets.",
-    "culturalIdentity": "Gnomish civic culture where usefulness, care, formula control, and ancestor memory are public institutions.",
-    "symbolicIdentity": "Brass doors, hearth wheels, hanging charms, healing lanterns, notice plazas, laundry wells, ancestor masks, and bone lantern paths symbolize repair made civic."
+    "coreFantasy": "A Gnomish city where Gnomish Hearth-Wheel Garden of Brass Doors, Healing Hall Beacon, Hanging Charms Veiled High Court, and the five-section district spine turn local identity into functional civic space.",
+    "primaryEmotion": "source-backed civic presence",
+    "secondaryEmotion": "lived-in pressure beneath landmark order",
+    "readerTakeaway": "Hearthglen should feel immediately identifiable through exact landmarks and materials, not through generic fantasy-city shorthand.",
+    "civilizationThesis": "Hearthglen organizes power through Hanging Charms Veiled High Court, public response through Healing Hall Beacon, civic memory through Gnomish Hearth-Wheel Garden of Brass Doors, and daily life through S1 Medical / Healing Civic Hall, S2 Arcane / Alchemical Labs Civic Hall, S3 Civic Services Hall, S4 Low Residential Civic Hall, S5 Necropolis / Ancestor Quarter Civic Hall.",
+    "visualIdentity": "Granite, Peat Brick, Oak, Copper, Dyed Wool, Dry Stone Paving, Civic Terraces, Ward Networks, Ritual Geometry, Dream Binding, and exact anchors including Hanging Charms Veiled High Court, Healing Hall Beacon, Gnomish Hearth-Wheel Garden of Brass Doors, Ancestor Vault, Alchemy Lab, Tenement Court, Medical / Healing Civic Hall, Medical Healing Lantern Monument, Apothecary Court Nook, Arcane / Alchemical Labs Civic Hall.",
+    "culturalIdentity": "A Gnomish civic culture where architecture, public obligations, roads, landmark approaches, and everyday work must all read as part of the same civilization.",
+    "symbolicIdentity": "The city symbol system is built from exact names and visible functions: Gnomish Hearth-Wheel Garden of Brass Doors, Healing Hall Beacon, Hanging Charms Veiled High Court, and section anchors such as Medical / Healing Civic Hall, Arcane / Alchemical Labs Civic Hall, Civic Services Hall, Low Residential Civic Hall, Necropolis / Ancestor Quarter Civic Hall."
   },
   "canon": {
-    "canonLocks": ["Wonder: Gnomish Hearth-Wheel Garden of Brass Doors.", "Beacon: Healing Hall Beacon.", "Seat of Power: Hanging Charms Veiled High Court.", "Districts: Medical / Healing, Arcane / Alchemical Labs, Civic Services, Low Residential, Necropolis / Ancestor Quarter.", "Exact uploaded anchors include Medical / Healing Civic Hall, Medical Healing Lantern Monument, Apothecary Court Nook, Arcane / Alchemical Labs Civic Hall, Blue-Lamp Monument, Formula Archive Nook, Civic Services Lantern Monument, Notice Plaza Nook, Low Residential Lantern Monument, Laundry Well Nook, Ancestor Masks Monument, and Bone Lantern Path Nook."],
-    "provisionalCanon": ["Hearthglen's highest civic virtue is repair.", "The contact-sheet image pass reinforces warm service architecture rather than whimsical machinery alone."],
-    "rejectedReads": ["cute gnome gadget scenery", "alchemy isolated from civic care", "ancestor care as background"],
-    "cautionFlags": ["Preserve exact sidecar anchor names.", "Fold image analysis into existing fields only.", "Keep care, poverty, relief, and death visible as civic systems."]
+    "canonLocks": [
+      "Hearthglen uses city code HEA.",
+      "The Wonder is Gnomish Hearth-Wheel Garden of Brass Doors.",
+      "The Beacon is Healing Hall Beacon.",
+      "The Seat of Power is Hanging Charms Veiled High Court and occupies District 13.",
+      "The city uses five sections with five tactical district slots per section.",
+      "The source-backed section spine is: S1 Medical / Healing Civic Hall, S2 Arcane / Alchemical Labs Civic Hall, S3 Civic Services Hall, S4 Low Residential Civic Hall, S5 Necropolis / Ancestor Quarter Civic Hall.",
+      "Preserve exact anchor name: Hanging Charms Veiled High Court.",
+      "Preserve exact anchor name: Healing Hall Beacon.",
+      "Preserve exact anchor name: Gnomish Hearth-Wheel Garden of Brass Doors.",
+      "Preserve exact anchor name: Ancestor Vault.",
+      "Preserve exact anchor name: Alchemy Lab.",
+      "Preserve exact anchor name: Tenement Court.",
+      "Preserve exact anchor name: Medical / Healing Civic Hall.",
+      "Preserve exact anchor name: Medical Healing Lantern Monument.",
+      "Preserve exact anchor name: Apothecary Court Nook.",
+      "Preserve exact anchor name: Arcane / Alchemical Labs Civic Hall.",
+      "Preserve exact anchor name: Blue-Lamp Monument.",
+      "Preserve exact anchor name: Formula Archive Nook.",
+      "Preserve exact anchor name: Civic Services Hall.",
+      "Preserve exact anchor name: Relief Hall.",
+      "Preserve exact anchor name: Civic Services Lantern Monument.",
+      "Preserve exact anchor name: Notice Plaza Nook.",
+      "Preserve exact anchor name: Low Residential Civic Hall.",
+      "Preserve exact anchor name: Low Residential Lantern Monument.",
+      "Preserve exact anchor name: Laundry Well Nook.",
+      "Preserve exact anchor name: Necropolis / Ancestor Quarter Civic Hall.",
+      "Preserve exact anchor name: Ancestor Masks Monument.",
+      "Preserve exact anchor name: Bone Lantern Path Nook."
+    ],
+    "provisionalCanon": [],
+    "rejectedReads": [
+      "Do not treat Hearthglen as a generic fantasy settlement with renamed landmarks.",
+      "Do not collapse the five-section board into a single mood or single district.",
+      "Do not replace exact anchor names with generic summaries.",
+      "Do not invent missing street-section landmarks when a street source is absent."
+    ],
+    "cautionFlags": [
+      "Keep every named Wonder, Beacon, Seat, section civic hall, major landmark, monument, and minor nook exact when present in sidecars.",
+      "If an image appears to deviate from a sidecar, preserve the exact name but avoid overclaiming visual details not supported by the source package.",
+      "Every district asset should remain usable for narrative scenes, tactical board dioramas, and city map backgrounds."
+    ]
   },
   "environment": {
-    "terrain": ["dry stone paving", "civic terraces", "gardened service courts", "compact hill streets", "ancestor paths"],
-    "water": ["healing basins", "laundry wells", "garden channels", "apothecary wash water"],
-    "vegetation": ["medicinal gardens", "window herbs", "mossed masonry", "courtyard shrubs", "ancestor path plantings"],
-    "climateLighting": ["warm golden civic light", "blue healing signal glow", "apothecary glass reflections", "ancestor lantern light", "street-level garden shade"],
-    "environmentalLogic": "The images show environment as practical care infrastructure: garden terraces, compact courts, wells, and warm thresholds move people toward services."
+    "terrain": [
+      "Dry Stone Paving",
+      "Civic Terraces"
+    ],
+    "water": [
+      "dry city ground"
+    ],
+    "vegetation": [
+      "courtyard trees",
+      "balcony planters",
+      "public greenery where visible",
+      "source-backed local vegetation only"
+    ],
+    "climateLighting": [
+      "Ward Networks",
+      "Ritual Geometry",
+      "Dream Binding",
+      "daylight",
+      "golden hour",
+      "lantern light",
+      "civic beacon glow"
+    ],
+    "environmentalLogic": "The environment should make Hearthglen's exact civic anchors plausible at street scale: terrain routes people toward section landmarks, lighting clarifies public authority, and water or landscape features remain source-backed rather than decorative filler."
   },
   "architecture": {
-    "materials": ["Granite", "Peat Brick", "Oak", "Copper", "Dyed Wool", "brass fittings", "blue glass lamps"],
-    "forms": ["Medical / Healing Civic Hall", "Healing Hall Beacon", "Medical Healing Lantern Monument", "Apothecary Court Nook", "Arcane / Alchemical Labs Civic Hall", "Alchemy Lab", "Blue-Lamp Monument", "Formula Archive Nook", "Civic Services Hall", "Relief Hall", "Civic Services Lantern Monument", "Notice Plaza Nook", "Low Residential Civic Hall", "Tenement Court", "Low Residential Lantern Monument", "Laundry Well Nook", "Necropolis / Ancestor Quarter Civic Hall", "Ancestor Vault", "Ancestor Masks Monument", "Bone Lantern Path Nook"],
-    "skyline": ["Gnomish Hearth-Wheel Garden of Brass Doors as wonder anchor", "Hanging Charms Veiled High Court as civic authority", "Healing Hall Beacon as signal landmark", "low domes and dense service streets below"],
-    "lighting": ["warm hearth light", "blue civic lamp glow", "apothecary green-blue glass", "ancestor candlelight"],
-    "infrastructure": ["healing wards", "apothecary courts", "formula archives", "relief counters", "notice plazas", "laundry wells", "ancestor paths"],
-    "motifs": ["brass doors", "hearth wheels", "hanging charms", "healing lanterns", "formula archives", "notice plazas", "laundry wells", "ancestor masks"],
-    "colorLanguage": ["warm stone", "brass gold", "civic blue", "garden green", "dyed wool red", "ancestor amber"],
-    "textureLanguage": ["polished brass", "mossed stone", "warm plaster", "dark timber", "glass bottles", "wet laundry stone", "bone lantern surfaces"]
+    "materials": [
+      "Granite",
+      "Peat Brick",
+      "Oak",
+      "Copper",
+      "Dyed Wool"
+    ],
+    "forms": [
+      "Hanging Charms Veiled High Court",
+      "Healing Hall Beacon",
+      "Gnomish Hearth-Wheel Garden of Brass Doors",
+      "Ancestor Vault",
+      "Alchemy Lab",
+      "Tenement Court",
+      "Medical / Healing Civic Hall",
+      "Medical Healing Lantern Monument",
+      "Apothecary Court Nook",
+      "Arcane / Alchemical Labs Civic Hall",
+      "Blue-Lamp Monument",
+      "Formula Archive Nook",
+      "Civic Services Hall",
+      "Relief Hall",
+      "Civic Services Lantern Monument",
+      "Notice Plaza Nook",
+      "Low Residential Civic Hall",
+      "Low Residential Lantern Monument",
+      "Laundry Well Nook",
+      "Necropolis / Ancestor Quarter Civic Hall",
+      "Ancestor Masks Monument",
+      "Bone Lantern Path Nook",
+      "section civic halls",
+      "major landmark approaches",
+      "monument frontages",
+      "minor landmark nooks",
+      "district roads and plazas",
+      "D13 authority complex"
+    ],
+    "skyline": [
+      "Gnomish Hearth-Wheel Garden of Brass Doors",
+      "Hanging Charms Veiled High Court",
+      "Healing Hall Beacon",
+      "Ancestor Vault",
+      "Alchemy Lab",
+      "Tenement Court",
+      "Medical / Healing Civic Hall",
+      "Medical Healing Lantern Monument",
+      "Apothecary Court Nook"
+    ],
+    "lighting": [
+      "Ward Networks",
+      "Ritual Geometry",
+      "Dream Binding",
+      "beacon-state light",
+      "lantern-lit civic paths",
+      "street-level shop and housing light"
+    ],
+    "infrastructure": [
+      "Medical / Healing Civic Hall",
+      "Arcane / Alchemical Labs Civic Hall",
+      "Civic Services Hall",
+      "Low Residential Civic Hall",
+      "Necropolis / Ancestor Quarter Civic Hall",
+      "roads between district slots",
+      "public thresholds",
+      "plaza edges",
+      "records, permits, markets, services, or rituals implied by anchors"
+    ],
+    "motifs": [
+      "Hanging",
+      "Charms",
+      "Veiled",
+      "High",
+      "Court",
+      "Healing",
+      "Hall",
+      "Beacon",
+      "Gnomish",
+      "Hearth-Wheel",
+      "Garden",
+      "Brass",
+      "Doors",
+      "Ancestor",
+      "Vault",
+      "Alchemy"
+    ],
+    "colorLanguage": [
+      "source-backed material colors",
+      "civic blue signal accents",
+      "local textile, stone, metal, vegetation, or water colors from the image package"
+    ],
+    "textureLanguage": [
+      "Granite",
+      "Peat Brick",
+      "Oak",
+      "Copper",
+      "Dyed Wool",
+      "worn pedestrian surfaces",
+      "worked civic ornament",
+      "weathered public thresholds",
+      "lived-in shop and housing details"
+    ]
   },
   "civilization": {
-    "people": "Gnomish citizens are practical, fussy, helpful, institutionally literate, and shown at street scale moving between clinics, labs, relief counters, homes, and ancestor paths.",
-    "occupations": ["healers", "apothecaries", "alchemists", "formula copyists", "relief clerks", "washerfolk", "tenement stewards", "ancestor keepers", "brass-workers"],
-    "socialClasses": ["High Court officials", "healing hall authorities", "alchemy lab staff", "relief administrators", "low residential tenants", "ancestor vault keepers"],
-    "governance": "The Hanging Charms Veiled High Court governs care, aid rulings, formula regulation, archive sealing, and protective thresholds.",
-    "religion": "Domestic-ancestral faith appears through hanging charms, ancestor masks, bone lantern paths, threshold blessings, and hearth-wheel rites.",
-    "customs": ["triage routing", "formula verification", "relief notice reading", "laundry court gossip", "ancestor lantern lighting"],
-    "bodyLanguage": ["busy helpful gestures", "low-counter leaning", "careful glass handling", "neighborly doorway pauses"],
-    "speechPatterns": ["treatment categories", "formula numbers", "relief eligibility phrases", "repair terms", "ancestor names"]
+    "people": "The population should read as Gnomish and city-specific: citizens occupy streets, shops, public thresholds, and landmark approaches as people who understand the local civic order.",
+    "occupations": [
+      "archivists",
+      "record clerks",
+      "district clerks",
+      "craft families",
+      "porters",
+      "maintenance workers",
+      "food sellers",
+      "messengers"
+    ],
+    "socialClasses": [
+      "D13 officials and court staff",
+      "section landmark custodians",
+      "guild and service families",
+      "shopkeepers and artisans",
+      "laborers, carriers, messengers, and maintenance crews",
+      "households tied to local district obligations"
+    ],
+    "governance": "Government is centered on Hanging Charms Veiled High Court. Its authority should be visible through courts, records, public access routes, civic lamps, guards or attendants, and the way citizens respond to D13.",
+    "religion": "Religious or ritual life should only be emphasized where source anchors support it, especially names such as Ancestor Vault, Necropolis / Ancestor Quarter Civic Hall, Ancestor Masks Monument.",
+    "customs": [
+      "citizens orient public life around Medical / Healing Civic Hall in Section 1",
+      "citizens orient public life around Arcane / Alchemical Labs Civic Hall in Section 2",
+      "citizens orient public life around Civic Services Hall in Section 3",
+      "citizens orient public life around Low Residential Civic Hall in Section 4",
+      "citizens orient public life around Necropolis / Ancestor Quarter Civic Hall in Section 5",
+      "beacon changes become public behavior, not background color",
+      "exact landmark names carry social memory and directions",
+      "civic errands happen visibly at thresholds, queues, ledgers, stalls, courts, or shrines"
+    ],
+    "bodyLanguage": [
+      "citizens pause at civic signals",
+      "workers move with practiced familiarity around district anchors",
+      "officials use thresholds and raised places to control attention",
+      "residents treat named landmarks as everyday orientation points"
+    ],
+    "speechPatterns": [
+      "directions use exact landmark names",
+      "public notices are tied to section anchors",
+      "local speech distinguishes civic authority, ordinary errands, and landmark obligations",
+      "people refer to D13 as the seat of power rather than a faction headquarters"
+    ]
   },
   "urbanLife": {
-    "streets": {"appearance": "Compact, warm, gardened, and service-heavy, with brass doors, blue lamps, clinics, labs, relief notices, laundry wells, and ancestor lantern routes at pedestrian scale.", "movement": "Movement follows low stairs, garden terraces, brass-door thresholds, service courts, relief queues, and laundry routes.", "sounds": ["apothecary bells", "glass clinking", "laundry water", "relief clerks", "blue-lamp hum"], "smells": ["herbs", "lamp oil", "wet laundry", "brass polish", "garden soil"], "lighting": "Warm windows and blue civic lamps keep the city readable at night.", "weatherEffects": "Rain gathers in garden steps, laundry wells, brass thresholds, and mossed courts.", "dayCycle": "Healing halls, labs, relief notices, and service errands dominate the day.", "nightCycle": "Ancestor lanterns, guarded labs, and quiet tenement repair dominate the night."},
-    "shops": {"common": ["apothecaries", "herb sellers", "laundry soap stalls", "garden seed shops"], "uncommon": ["blue-lamp repair", "formula copyists", "glassware vendors", "ancestor charm sellers"], "prestigious": ["healing hall offices", "formula archive counters", "High Court charm-law desks"], "exports": ["medicine", "formula copies", "blue lamps", "brass fittings"], "imports": ["rare herbs", "glass", "copper", "paper", "cloth"], "streetFood": ["warm bread", "garden tea", "herb cakes", "stew cups"], "services": ["triage", "medicine mixing", "relief filing", "laundry", "ancestor offerings"]},
-    "housing": {"wealthy": "Gardened brass-door homes near court, healing halls, or formula archives.", "middle": "Compact stone-and-timber homes over shops with shared wells and window herbs.", "poor": "Low residential courts with laundry wells, drying lines, shared lamps, and practical repairs."}
+    "streets": {
+      "appearance": "Streets should show Hearthglen's exact anchor system at pedestrian scale: S1 Medical / Healing Civic Hall, S2 Arcane / Alchemical Labs Civic Hall, S3 Civic Services Hall, S4 Low Residential Civic Hall, S5 Necropolis / Ancestor Quarter Civic Hall. Keep roads, plazas, stairs, thresholds, lamps, signs-without-readable-text, props, and civilians aligned to the source-backed materials and landmarks.",
+      "movement": "Movement should be readable for tactical-board assets: citizens pass between 25 district slots, section anchors, D13, service streets, and landmark approaches without visual clutter hiding the civic purpose.",
+      "sounds": [
+        "foot traffic",
+        "vendors and service calls",
+        "tools and carts",
+        "public notices",
+        "landmark-specific sounds from water, bells, animals, machines, or crowds when source-backed",
+        "beacon-state crowd reactions"
+      ],
+      "smells": [
+        "street food",
+        "worked material dust",
+        "lamp oil or smoke",
+        "vegetation or water where source-backed",
+        "worn stone, timber, metal, plaster, or fabric"
+      ],
+      "lighting": "Use the package's source-backed civic lighting, daylight/golden-hour reads, lanterns, and beacon glow. Lighting must help identify authority, safety, and landmark function.",
+      "weatherEffects": "Weather should reinforce the local terrain and materials without overwhelming the city identity or inventing unsupported climate extremes.",
+      "dayCycle": "Day scenes emphasize errands, trade, records, repairs, rituals, food, and section-level movement.",
+      "nightCycle": "Night scenes emphasize lantern routes, closed thresholds, guarded landmarks, quiet work, and beacon visibility."
+    },
+    "shops": {
+      "common": [
+        "food stalls",
+        "repair stalls",
+        "material vendors",
+        "ledger or permit desks",
+        "local craft counters",
+        "street services tied to section anchors"
+      ],
+      "uncommon": [
+        "specialist landmark caretakers",
+        "instrument makers",
+        "ritual suppliers",
+        "map or record copyists",
+        "district-specific guild services"
+      ],
+      "prestigious": [
+        "D13-facing legal or registry services",
+        "elite craft workshops",
+        "landmark commission houses",
+        "official suppliers for civic ceremonies"
+      ],
+      "exports": [
+        "local crafts",
+        "records or seals",
+        "finished materials",
+        "food goods",
+        "specialized tools or ritual goods as supported by anchors"
+      ],
+      "imports": [
+        "rare materials",
+        "dyes, oils, spices, timber, stone, metal, glass, or cloth as needed by the architecture",
+        "outside records and trade goods"
+      ],
+      "streetFood": [
+        "flatbread or local bread",
+        "stew or grilled skewers",
+        "fruit or preserved food",
+        "tea or civic-square drinks",
+        "portable worker meals"
+      ],
+      "services": [
+        "directions by landmark",
+        "message running",
+        "permit help",
+        "repairs",
+        "food service",
+        "transport or porterage",
+        "public notice posting"
+      ]
+    },
+    "housing": {
+      "wealthy": "Prestige housing clusters near Hanging Charms Veiled High Court, high terraces, or landmark-facing routes, using the best source-backed materials and controlled views of civic space.",
+      "middle": "Shop-over-house units, courtyard homes, guild-adjacent apartments, and family rooms near section anchors.",
+      "poor": "Smaller back-street rooms, work-adjacent housing, shared courtyards, service alleys, patched materials, and dense but still city-specific lived-in detail."
+    }
   },
   "districts": [
-    {"sectionNumber": 1, "name": "Medical / Healing", "civicPurpose": "Healing, triage, apothecary movement, and crisis response.", "visualIdentity": "Medical / Healing Civic Hall, Healing Hall Beacon, Medical Healing Lantern Monument, Apothecary Court Nook.", "emotionalIdentity": "merciful, urgent, warm, practical", "gameplayAssetNeeds": ["Medical / Healing Civic Hall", "Healing Hall Beacon", "Medical Healing Lantern Monument", "Apothecary Court Nook", "healers", "patients"], "narrativeUse": ["triage", "medical authority", "public warning"], "landmark": "Healing Hall Beacon", "minorLandmarks": ["Medical Healing Lantern Monument", "Apothecary Court Nook"]},
-    {"sectionNumber": 2, "name": "Arcane / Alchemical Labs", "civicPurpose": "Regulated invention, formula keeping, and dangerous knowledge.", "visualIdentity": "Arcane / Alchemical Labs Civic Hall, Alchemy Lab, Blue-Lamp Monument, Formula Archive Nook.", "emotionalIdentity": "precise, risky, clever, controlled", "gameplayAssetNeeds": ["Arcane / Alchemical Labs Civic Hall", "Alchemy Lab", "Blue-Lamp Monument", "Formula Archive Nook", "glassware"], "narrativeUse": ["formula danger", "lab accident", "regulated invention"], "landmark": "Alchemy Lab", "minorLandmarks": ["Blue-Lamp Monument", "Formula Archive Nook"]},
-    {"sectionNumber": 3, "name": "Civic Services", "civicPurpose": "Public aid, relief eligibility, notices, queues, and administrative care.", "visualIdentity": "Civic Services Hall, Relief Hall, Civic Services Lantern Monument, Notice Plaza Nook.", "emotionalIdentity": "helpful, pressured, orderly", "gameplayAssetNeeds": ["Civic Services Hall", "Relief Hall", "Civic Services Lantern Monument", "Notice Plaza Nook", "relief clerks"], "narrativeUse": ["public aid", "eligibility dispute", "missing-person notice"], "landmark": "Relief Hall", "minorLandmarks": ["Civic Services Lantern Monument", "Notice Plaza Nook"]},
-    {"sectionNumber": 4, "name": "Low Residential", "civicPurpose": "Domestic density, shared labor, and ordinary care.", "visualIdentity": "Low Residential Civic Hall, Tenement Court, Low Residential Lantern Monument, Laundry Well Nook.", "emotionalIdentity": "crowded, warm, practical", "gameplayAssetNeeds": ["Low Residential Civic Hall", "Tenement Court", "Low Residential Lantern Monument", "Laundry Well Nook", "families"], "narrativeUse": ["domestic life", "gossip", "poverty pressure"], "landmark": "Tenement Court", "minorLandmarks": ["Low Residential Lantern Monument", "Laundry Well Nook"]},
-    {"sectionNumber": 5, "name": "Necropolis / Ancestor Quarter", "civicPurpose": "Ancestor memory, death care, family continuity, and bone lantern routes.", "visualIdentity": "Necropolis / Ancestor Quarter Civic Hall, Ancestor Vault, Ancestor Masks Monument, Bone Lantern Path Nook.", "emotionalIdentity": "quiet, reverent, continuous", "gameplayAssetNeeds": ["Necropolis / Ancestor Quarter Civic Hall", "Ancestor Vault", "Ancestor Masks Monument", "Bone Lantern Path Nook", "ancestor keepers"], "narrativeUse": ["family memory", "death care", "ancestor vow"], "landmark": "Ancestor Vault", "minorLandmarks": ["Ancestor Masks Monument", "Bone Lantern Path Nook"]}
+    {
+      "districtNumber": 1,
+      "districtId": "D01",
+      "sectionNumber": 1,
+      "name": "D01 — Medical / Healing Civic Hall Civic-Anchor Precinct",
+      "civicPurpose": "This district turns Section 1's source-backed anchor set into a board-scale civic space: Medical / Healing Civic Hall, Healing Hall Beacon, Medical Healing Lantern Monument, Apothecary Court Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Hearthglen.",
+      "visualIdentity": "Use Medical / Healing Civic Hall as the main read. Keep exact source anchors visible where applicable: Medical / Healing Civic Hall, Healing Hall Beacon, Medical Healing Lantern Monument, Apothecary Court Nook. The district should share Hearthglen's Gnomish identity, Granite, Peat Brick, Oak, Copper, and Dry Stone Paving, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Locally grounded, with Hearthglen's larger mood shaped by Gnomish Hearth-Wheel Garden of Brass Doors, Healing Hall Beacon, and Hanging Charms Veiled High Court.",
+      "gameplayAssetNeeds": [
+        "Medical / Healing Civic Hall",
+        "Healing Hall Beacon",
+        "Medical Healing Lantern Monument",
+        "Apothecary Court Nook",
+        "Section 1 pedestrian-scale props",
+        "Hearthglen civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Medical / Healing Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Medical / Healing Civic Hall",
+      "minorLandmarks": [
+        "Healing Hall Beacon",
+        "Medical Healing Lantern Monument",
+        "Apothecary Court Nook"
+      ]
+    },
+    {
+      "districtNumber": 2,
+      "districtId": "D02",
+      "sectionNumber": 1,
+      "name": "D02 — Healing Hall Beacon Landmark Approach",
+      "civicPurpose": "This district turns Section 1's source-backed anchor set into a board-scale civic space: Medical / Healing Civic Hall, Healing Hall Beacon, Medical Healing Lantern Monument, Apothecary Court Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Hearthglen.",
+      "visualIdentity": "Use Healing Hall Beacon as the main read. Keep exact source anchors visible where applicable: Medical / Healing Civic Hall, Healing Hall Beacon, Medical Healing Lantern Monument, Apothecary Court Nook. The district should share Hearthglen's Gnomish identity, Granite, Peat Brick, Oak, Copper, and Dry Stone Paving, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Public-facing, with Hearthglen's larger mood shaped by Gnomish Hearth-Wheel Garden of Brass Doors, Healing Hall Beacon, and Hanging Charms Veiled High Court.",
+      "gameplayAssetNeeds": [
+        "Healing Hall Beacon",
+        "Medical / Healing Civic Hall",
+        "Medical Healing Lantern Monument",
+        "Apothecary Court Nook",
+        "Section 1 pedestrian-scale props",
+        "Hearthglen civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Healing Hall Beacon",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "Conjunction response, rumor spread, or authority pressure"
+      ],
+      "landmark": "Healing Hall Beacon",
+      "minorLandmarks": [
+        "Medical / Healing Civic Hall",
+        "Medical Healing Lantern Monument",
+        "Apothecary Court Nook"
+      ]
+    },
+    {
+      "districtNumber": 3,
+      "districtId": "D03",
+      "sectionNumber": 1,
+      "name": "D03 — Medical Healing Lantern Monument Monument Frontage",
+      "civicPurpose": "This district turns Section 1's source-backed anchor set into a board-scale civic space: Medical / Healing Civic Hall, Healing Hall Beacon, Medical Healing Lantern Monument, Apothecary Court Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Hearthglen.",
+      "visualIdentity": "Use Medical Healing Lantern Monument as the main read. Keep exact source anchors visible where applicable: Medical / Healing Civic Hall, Healing Hall Beacon, Medical Healing Lantern Monument, Apothecary Court Nook. The district should share Hearthglen's Gnomish identity, Granite, Peat Brick, Oak, Copper, and Dry Stone Paving, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Memorial or symbolic, with Hearthglen's larger mood shaped by Gnomish Hearth-Wheel Garden of Brass Doors, Healing Hall Beacon, and Hanging Charms Veiled High Court.",
+      "gameplayAssetNeeds": [
+        "Medical Healing Lantern Monument",
+        "Medical / Healing Civic Hall",
+        "Healing Hall Beacon",
+        "Apothecary Court Nook",
+        "Section 1 pedestrian-scale props",
+        "Hearthglen civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Medical Healing Lantern Monument",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Medical Healing Lantern Monument",
+      "minorLandmarks": [
+        "Medical / Healing Civic Hall",
+        "Healing Hall Beacon",
+        "Apothecary Court Nook"
+      ]
+    },
+    {
+      "districtNumber": 6,
+      "districtId": "D06",
+      "sectionNumber": 1,
+      "name": "D06 — Apothecary Court Nook Neighborhood Nook",
+      "civicPurpose": "This district turns Section 1's source-backed anchor set into a board-scale civic space: Medical / Healing Civic Hall, Healing Hall Beacon, Medical Healing Lantern Monument, Apothecary Court Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Hearthglen.",
+      "visualIdentity": "Use Apothecary Court Nook as the main read. Keep exact source anchors visible where applicable: Medical / Healing Civic Hall, Healing Hall Beacon, Medical Healing Lantern Monument, Apothecary Court Nook. The district should share Hearthglen's Gnomish identity, Granite, Peat Brick, Oak, Copper, and Dry Stone Paving, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Intimate and lived-in, with Hearthglen's larger mood shaped by Gnomish Hearth-Wheel Garden of Brass Doors, Healing Hall Beacon, and Hanging Charms Veiled High Court.",
+      "gameplayAssetNeeds": [
+        "Apothecary Court Nook",
+        "Medical / Healing Civic Hall",
+        "Healing Hall Beacon",
+        "Medical Healing Lantern Monument",
+        "Section 1 pedestrian-scale props",
+        "Hearthglen civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Apothecary Court Nook",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Apothecary Court Nook",
+      "minorLandmarks": [
+        "Medical / Healing Civic Hall",
+        "Healing Hall Beacon",
+        "Medical Healing Lantern Monument"
+      ]
+    },
+    {
+      "districtNumber": 7,
+      "districtId": "D07",
+      "sectionNumber": 1,
+      "name": "D07 — Medical / Healing Civic Hall Supporting Streets",
+      "civicPurpose": "This district turns Section 1's source-backed anchor set into a board-scale civic space: Medical / Healing Civic Hall, Healing Hall Beacon, Medical Healing Lantern Monument, Apothecary Court Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Hearthglen.",
+      "visualIdentity": "Use Medical / Healing Civic Hall as the main read. Keep exact source anchors visible where applicable: Medical / Healing Civic Hall, Healing Hall Beacon, Medical Healing Lantern Monument, Apothecary Court Nook. The district should share Hearthglen's Gnomish identity, Granite, Peat Brick, Oak, Copper, and Dry Stone Paving, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Connective and practical, with Hearthglen's larger mood shaped by Gnomish Hearth-Wheel Garden of Brass Doors, Healing Hall Beacon, and Hanging Charms Veiled High Court.",
+      "gameplayAssetNeeds": [
+        "Medical / Healing Civic Hall",
+        "Healing Hall Beacon",
+        "Medical Healing Lantern Monument",
+        "Apothecary Court Nook",
+        "Section 1 pedestrian-scale props",
+        "Hearthglen civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Medical / Healing Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Medical / Healing Civic Hall",
+      "minorLandmarks": [
+        "Healing Hall Beacon",
+        "Medical Healing Lantern Monument",
+        "Apothecary Court Nook"
+      ]
+    },
+    {
+      "districtNumber": 4,
+      "districtId": "D04",
+      "sectionNumber": 2,
+      "name": "D04 — Arcane / Alchemical Labs Civic Hall Civic-Anchor Precinct",
+      "civicPurpose": "This district turns Section 2's source-backed anchor set into a board-scale civic space: Arcane / Alchemical Labs Civic Hall, Alchemy Lab, Blue-Lamp Monument, Formula Archive Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Hearthglen.",
+      "visualIdentity": "Use Arcane / Alchemical Labs Civic Hall as the main read. Keep exact source anchors visible where applicable: Arcane / Alchemical Labs Civic Hall, Alchemy Lab, Blue-Lamp Monument, Formula Archive Nook. The district should share Hearthglen's Gnomish identity, Granite, Peat Brick, Oak, Copper, and Dry Stone Paving, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Locally grounded, with Hearthglen's larger mood shaped by Gnomish Hearth-Wheel Garden of Brass Doors, Healing Hall Beacon, and Hanging Charms Veiled High Court.",
+      "gameplayAssetNeeds": [
+        "Arcane / Alchemical Labs Civic Hall",
+        "Alchemy Lab",
+        "Blue-Lamp Monument",
+        "Formula Archive Nook",
+        "Section 2 pedestrian-scale props",
+        "Hearthglen civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Arcane / Alchemical Labs Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Arcane / Alchemical Labs Civic Hall",
+      "minorLandmarks": [
+        "Alchemy Lab",
+        "Blue-Lamp Monument",
+        "Formula Archive Nook"
+      ]
+    },
+    {
+      "districtNumber": 5,
+      "districtId": "D05",
+      "sectionNumber": 2,
+      "name": "D05 — Alchemy Lab Landmark Approach",
+      "civicPurpose": "This district turns Section 2's source-backed anchor set into a board-scale civic space: Arcane / Alchemical Labs Civic Hall, Alchemy Lab, Blue-Lamp Monument, Formula Archive Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Hearthglen.",
+      "visualIdentity": "Use Alchemy Lab as the main read. Keep exact source anchors visible where applicable: Arcane / Alchemical Labs Civic Hall, Alchemy Lab, Blue-Lamp Monument, Formula Archive Nook. The district should share Hearthglen's Gnomish identity, Granite, Peat Brick, Oak, Copper, and Dry Stone Paving, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Public-facing, with Hearthglen's larger mood shaped by Gnomish Hearth-Wheel Garden of Brass Doors, Healing Hall Beacon, and Hanging Charms Veiled High Court.",
+      "gameplayAssetNeeds": [
+        "Alchemy Lab",
+        "Arcane / Alchemical Labs Civic Hall",
+        "Blue-Lamp Monument",
+        "Formula Archive Nook",
+        "Section 2 pedestrian-scale props",
+        "Hearthglen civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Alchemy Lab",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Alchemy Lab",
+      "minorLandmarks": [
+        "Arcane / Alchemical Labs Civic Hall",
+        "Blue-Lamp Monument",
+        "Formula Archive Nook"
+      ]
+    },
+    {
+      "districtNumber": 9,
+      "districtId": "D09",
+      "sectionNumber": 2,
+      "name": "D09 — Blue-Lamp Monument Monument Frontage",
+      "civicPurpose": "This district turns Section 2's source-backed anchor set into a board-scale civic space: Arcane / Alchemical Labs Civic Hall, Alchemy Lab, Blue-Lamp Monument, Formula Archive Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Hearthglen.",
+      "visualIdentity": "Use Blue-Lamp Monument as the main read. Keep exact source anchors visible where applicable: Arcane / Alchemical Labs Civic Hall, Alchemy Lab, Blue-Lamp Monument, Formula Archive Nook. The district should share Hearthglen's Gnomish identity, Granite, Peat Brick, Oak, Copper, and Dry Stone Paving, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Memorial or symbolic, with Hearthglen's larger mood shaped by Gnomish Hearth-Wheel Garden of Brass Doors, Healing Hall Beacon, and Hanging Charms Veiled High Court.",
+      "gameplayAssetNeeds": [
+        "Blue-Lamp Monument",
+        "Arcane / Alchemical Labs Civic Hall",
+        "Alchemy Lab",
+        "Formula Archive Nook",
+        "Section 2 pedestrian-scale props",
+        "Hearthglen civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Blue-Lamp Monument",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Blue-Lamp Monument",
+      "minorLandmarks": [
+        "Arcane / Alchemical Labs Civic Hall",
+        "Alchemy Lab",
+        "Formula Archive Nook"
+      ]
+    },
+    {
+      "districtNumber": 10,
+      "districtId": "D10",
+      "sectionNumber": 2,
+      "name": "D10 — Formula Archive Nook Neighborhood Nook",
+      "civicPurpose": "This district turns Section 2's source-backed anchor set into a board-scale civic space: Arcane / Alchemical Labs Civic Hall, Alchemy Lab, Blue-Lamp Monument, Formula Archive Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Hearthglen.",
+      "visualIdentity": "Use Formula Archive Nook as the main read. Keep exact source anchors visible where applicable: Arcane / Alchemical Labs Civic Hall, Alchemy Lab, Blue-Lamp Monument, Formula Archive Nook. The district should share Hearthglen's Gnomish identity, Granite, Peat Brick, Oak, Copper, and Dry Stone Paving, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Intimate and lived-in, with Hearthglen's larger mood shaped by Gnomish Hearth-Wheel Garden of Brass Doors, Healing Hall Beacon, and Hanging Charms Veiled High Court.",
+      "gameplayAssetNeeds": [
+        "Formula Archive Nook",
+        "Arcane / Alchemical Labs Civic Hall",
+        "Alchemy Lab",
+        "Blue-Lamp Monument",
+        "Section 2 pedestrian-scale props",
+        "Hearthglen civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Formula Archive Nook",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Formula Archive Nook",
+      "minorLandmarks": [
+        "Arcane / Alchemical Labs Civic Hall",
+        "Alchemy Lab",
+        "Blue-Lamp Monument"
+      ]
+    },
+    {
+      "districtNumber": 15,
+      "districtId": "D15",
+      "sectionNumber": 2,
+      "name": "D15 — Arcane / Alchemical Labs Civic Hall Supporting Streets",
+      "civicPurpose": "This district turns Section 2's source-backed anchor set into a board-scale civic space: Arcane / Alchemical Labs Civic Hall, Alchemy Lab, Blue-Lamp Monument, Formula Archive Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Hearthglen.",
+      "visualIdentity": "Use Arcane / Alchemical Labs Civic Hall as the main read. Keep exact source anchors visible where applicable: Arcane / Alchemical Labs Civic Hall, Alchemy Lab, Blue-Lamp Monument, Formula Archive Nook. The district should share Hearthglen's Gnomish identity, Granite, Peat Brick, Oak, Copper, and Dry Stone Paving, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Connective and practical, with Hearthglen's larger mood shaped by Gnomish Hearth-Wheel Garden of Brass Doors, Healing Hall Beacon, and Hanging Charms Veiled High Court.",
+      "gameplayAssetNeeds": [
+        "Arcane / Alchemical Labs Civic Hall",
+        "Alchemy Lab",
+        "Blue-Lamp Monument",
+        "Formula Archive Nook",
+        "Section 2 pedestrian-scale props",
+        "Hearthglen civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Arcane / Alchemical Labs Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Arcane / Alchemical Labs Civic Hall",
+      "minorLandmarks": [
+        "Alchemy Lab",
+        "Blue-Lamp Monument",
+        "Formula Archive Nook"
+      ]
+    },
+    {
+      "districtNumber": 8,
+      "districtId": "D08",
+      "sectionNumber": 3,
+      "name": "D08 — Civic Services Hall Civic-Anchor Precinct",
+      "civicPurpose": "This district turns Section 3's source-backed anchor set into a board-scale civic space: Civic Services Hall, Relief Hall, Civic Services Lantern Monument, Notice Plaza Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Hearthglen.",
+      "visualIdentity": "Use Civic Services Hall as the main read. Keep exact source anchors visible where applicable: Civic Services Hall, Relief Hall, Civic Services Lantern Monument, Notice Plaza Nook. The district should share Hearthglen's Gnomish identity, Granite, Peat Brick, Oak, Copper, and Dry Stone Paving, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Locally grounded, with Hearthglen's larger mood shaped by Gnomish Hearth-Wheel Garden of Brass Doors, Healing Hall Beacon, and Hanging Charms Veiled High Court.",
+      "gameplayAssetNeeds": [
+        "Civic Services Hall",
+        "Relief Hall",
+        "Civic Services Lantern Monument",
+        "Notice Plaza Nook",
+        "Section 3 pedestrian-scale props",
+        "Hearthglen civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Civic Services Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Civic Services Hall",
+      "minorLandmarks": [
+        "Relief Hall",
+        "Civic Services Lantern Monument",
+        "Notice Plaza Nook"
+      ]
+    },
+    {
+      "districtNumber": 12,
+      "districtId": "D12",
+      "sectionNumber": 3,
+      "name": "D12 — Relief Hall Landmark Approach",
+      "civicPurpose": "This district turns Section 3's source-backed anchor set into a board-scale civic space: Civic Services Hall, Relief Hall, Civic Services Lantern Monument, Notice Plaza Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Hearthglen.",
+      "visualIdentity": "Use Relief Hall as the main read. Keep exact source anchors visible where applicable: Civic Services Hall, Relief Hall, Civic Services Lantern Monument, Notice Plaza Nook. The district should share Hearthglen's Gnomish identity, Granite, Peat Brick, Oak, Copper, and Dry Stone Paving, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Public-facing, with Hearthglen's larger mood shaped by Gnomish Hearth-Wheel Garden of Brass Doors, Healing Hall Beacon, and Hanging Charms Veiled High Court.",
+      "gameplayAssetNeeds": [
+        "Relief Hall",
+        "Civic Services Hall",
+        "Civic Services Lantern Monument",
+        "Notice Plaza Nook",
+        "Section 3 pedestrian-scale props",
+        "Hearthglen civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Relief Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Relief Hall",
+      "minorLandmarks": [
+        "Civic Services Hall",
+        "Civic Services Lantern Monument",
+        "Notice Plaza Nook"
+      ]
+    },
+    {
+      "districtNumber": 13,
+      "districtId": "D13",
+      "sectionNumber": 3,
+      "name": "D13 — Hanging Charms Veiled High Court Seat of Power District",
+      "civicPurpose": "This district turns Section 3's source-backed anchor set into a board-scale civic space: Civic Services Hall, Relief Hall, Civic Services Lantern Monument, Notice Plaza Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Hearthglen.",
+      "visualIdentity": "Use Hanging Charms Veiled High Court as the main read. Keep exact source anchors visible where applicable: Civic Services Hall, Relief Hall, Civic Services Lantern Monument, Notice Plaza Nook. The district should share Hearthglen's Gnomish identity, Granite, Peat Brick, Oak, Copper, and Dry Stone Paving, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Memorial or symbolic, with Hearthglen's larger mood shaped by Gnomish Hearth-Wheel Garden of Brass Doors, Healing Hall Beacon, and Hanging Charms Veiled High Court.",
+      "gameplayAssetNeeds": [
+        "Hanging Charms Veiled High Court",
+        "Civic Services Hall",
+        "Relief Hall",
+        "Civic Services Lantern Monument",
+        "Notice Plaza Nook",
+        "Section 3 pedestrian-scale props",
+        "Hearthglen civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Hanging Charms Veiled High Court",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "Conjunction response, rumor spread, or authority pressure"
+      ],
+      "landmark": "Hanging Charms Veiled High Court",
+      "minorLandmarks": [
+        "Civic Services Hall",
+        "Relief Hall",
+        "Civic Services Lantern Monument",
+        "Notice Plaza Nook"
+      ]
+    },
+    {
+      "districtNumber": 14,
+      "districtId": "D14",
+      "sectionNumber": 3,
+      "name": "D14 — Notice Plaza Nook Neighborhood Nook",
+      "civicPurpose": "This district turns Section 3's source-backed anchor set into a board-scale civic space: Civic Services Hall, Relief Hall, Civic Services Lantern Monument, Notice Plaza Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Hearthglen.",
+      "visualIdentity": "Use Notice Plaza Nook as the main read. Keep exact source anchors visible where applicable: Civic Services Hall, Relief Hall, Civic Services Lantern Monument, Notice Plaza Nook. The district should share Hearthglen's Gnomish identity, Granite, Peat Brick, Oak, Copper, and Dry Stone Paving, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Intimate and lived-in, with Hearthglen's larger mood shaped by Gnomish Hearth-Wheel Garden of Brass Doors, Healing Hall Beacon, and Hanging Charms Veiled High Court.",
+      "gameplayAssetNeeds": [
+        "Notice Plaza Nook",
+        "Civic Services Hall",
+        "Relief Hall",
+        "Civic Services Lantern Monument",
+        "Section 3 pedestrian-scale props",
+        "Hearthglen civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Notice Plaza Nook",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Notice Plaza Nook",
+      "minorLandmarks": [
+        "Civic Services Hall",
+        "Relief Hall",
+        "Civic Services Lantern Monument"
+      ]
+    },
+    {
+      "districtNumber": 18,
+      "districtId": "D18",
+      "sectionNumber": 3,
+      "name": "D18 — Civic Services Hall Supporting Streets",
+      "civicPurpose": "This district turns Section 3's source-backed anchor set into a board-scale civic space: Civic Services Hall, Relief Hall, Civic Services Lantern Monument, Notice Plaza Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Hearthglen.",
+      "visualIdentity": "Use Civic Services Hall as the main read. Keep exact source anchors visible where applicable: Civic Services Hall, Relief Hall, Civic Services Lantern Monument, Notice Plaza Nook. The district should share Hearthglen's Gnomish identity, Granite, Peat Brick, Oak, Copper, and Dry Stone Paving, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Connective and practical, with Hearthglen's larger mood shaped by Gnomish Hearth-Wheel Garden of Brass Doors, Healing Hall Beacon, and Hanging Charms Veiled High Court.",
+      "gameplayAssetNeeds": [
+        "Civic Services Hall",
+        "Relief Hall",
+        "Civic Services Lantern Monument",
+        "Notice Plaza Nook",
+        "Section 3 pedestrian-scale props",
+        "Hearthglen civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Civic Services Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Civic Services Hall",
+      "minorLandmarks": [
+        "Relief Hall",
+        "Civic Services Lantern Monument",
+        "Notice Plaza Nook"
+      ]
+    },
+    {
+      "districtNumber": 11,
+      "districtId": "D11",
+      "sectionNumber": 4,
+      "name": "D11 — Low Residential Civic Hall Civic-Anchor Precinct",
+      "civicPurpose": "This district turns Section 4's source-backed anchor set into a board-scale civic space: Low Residential Civic Hall, Tenement Court, Low Residential Lantern Monument, Laundry Well Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Hearthglen.",
+      "visualIdentity": "Use Low Residential Civic Hall as the main read. Keep exact source anchors visible where applicable: Low Residential Civic Hall, Tenement Court, Low Residential Lantern Monument, Laundry Well Nook. The district should share Hearthglen's Gnomish identity, Granite, Peat Brick, Oak, Copper, and Dry Stone Paving, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Locally grounded, with Hearthglen's larger mood shaped by Gnomish Hearth-Wheel Garden of Brass Doors, Healing Hall Beacon, and Hanging Charms Veiled High Court.",
+      "gameplayAssetNeeds": [
+        "Low Residential Civic Hall",
+        "Tenement Court",
+        "Low Residential Lantern Monument",
+        "Laundry Well Nook",
+        "Section 4 pedestrian-scale props",
+        "Hearthglen civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Low Residential Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Low Residential Civic Hall",
+      "minorLandmarks": [
+        "Tenement Court",
+        "Low Residential Lantern Monument",
+        "Laundry Well Nook"
+      ]
+    },
+    {
+      "districtNumber": 16,
+      "districtId": "D16",
+      "sectionNumber": 4,
+      "name": "D16 — Tenement Court Landmark Approach",
+      "civicPurpose": "This district turns Section 4's source-backed anchor set into a board-scale civic space: Low Residential Civic Hall, Tenement Court, Low Residential Lantern Monument, Laundry Well Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Hearthglen.",
+      "visualIdentity": "Use Tenement Court as the main read. Keep exact source anchors visible where applicable: Low Residential Civic Hall, Tenement Court, Low Residential Lantern Monument, Laundry Well Nook. The district should share Hearthglen's Gnomish identity, Granite, Peat Brick, Oak, Copper, and Dry Stone Paving, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Public-facing, with Hearthglen's larger mood shaped by Gnomish Hearth-Wheel Garden of Brass Doors, Healing Hall Beacon, and Hanging Charms Veiled High Court.",
+      "gameplayAssetNeeds": [
+        "Tenement Court",
+        "Low Residential Civic Hall",
+        "Low Residential Lantern Monument",
+        "Laundry Well Nook",
+        "Section 4 pedestrian-scale props",
+        "Hearthglen civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Tenement Court",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Tenement Court",
+      "minorLandmarks": [
+        "Low Residential Civic Hall",
+        "Low Residential Lantern Monument",
+        "Laundry Well Nook"
+      ]
+    },
+    {
+      "districtNumber": 17,
+      "districtId": "D17",
+      "sectionNumber": 4,
+      "name": "D17 — Low Residential Lantern Monument Monument Frontage",
+      "civicPurpose": "This district turns Section 4's source-backed anchor set into a board-scale civic space: Low Residential Civic Hall, Tenement Court, Low Residential Lantern Monument, Laundry Well Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Hearthglen.",
+      "visualIdentity": "Use Low Residential Lantern Monument as the main read. Keep exact source anchors visible where applicable: Low Residential Civic Hall, Tenement Court, Low Residential Lantern Monument, Laundry Well Nook. The district should share Hearthglen's Gnomish identity, Granite, Peat Brick, Oak, Copper, and Dry Stone Paving, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Memorial or symbolic, with Hearthglen's larger mood shaped by Gnomish Hearth-Wheel Garden of Brass Doors, Healing Hall Beacon, and Hanging Charms Veiled High Court.",
+      "gameplayAssetNeeds": [
+        "Low Residential Lantern Monument",
+        "Low Residential Civic Hall",
+        "Tenement Court",
+        "Laundry Well Nook",
+        "Section 4 pedestrian-scale props",
+        "Hearthglen civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Low Residential Lantern Monument",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Low Residential Lantern Monument",
+      "minorLandmarks": [
+        "Low Residential Civic Hall",
+        "Tenement Court",
+        "Laundry Well Nook"
+      ]
+    },
+    {
+      "districtNumber": 21,
+      "districtId": "D21",
+      "sectionNumber": 4,
+      "name": "D21 — Laundry Well Nook Neighborhood Nook",
+      "civicPurpose": "This district turns Section 4's source-backed anchor set into a board-scale civic space: Low Residential Civic Hall, Tenement Court, Low Residential Lantern Monument, Laundry Well Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Hearthglen.",
+      "visualIdentity": "Use Laundry Well Nook as the main read. Keep exact source anchors visible where applicable: Low Residential Civic Hall, Tenement Court, Low Residential Lantern Monument, Laundry Well Nook. The district should share Hearthglen's Gnomish identity, Granite, Peat Brick, Oak, Copper, and Dry Stone Paving, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Intimate and lived-in, with Hearthglen's larger mood shaped by Gnomish Hearth-Wheel Garden of Brass Doors, Healing Hall Beacon, and Hanging Charms Veiled High Court.",
+      "gameplayAssetNeeds": [
+        "Laundry Well Nook",
+        "Low Residential Civic Hall",
+        "Tenement Court",
+        "Low Residential Lantern Monument",
+        "Section 4 pedestrian-scale props",
+        "Hearthglen civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Laundry Well Nook",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Laundry Well Nook",
+      "minorLandmarks": [
+        "Low Residential Civic Hall",
+        "Tenement Court",
+        "Low Residential Lantern Monument"
+      ]
+    },
+    {
+      "districtNumber": 22,
+      "districtId": "D22",
+      "sectionNumber": 4,
+      "name": "D22 — Low Residential Civic Hall Supporting Streets",
+      "civicPurpose": "This district turns Section 4's source-backed anchor set into a board-scale civic space: Low Residential Civic Hall, Tenement Court, Low Residential Lantern Monument, Laundry Well Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Hearthglen.",
+      "visualIdentity": "Use Low Residential Civic Hall as the main read. Keep exact source anchors visible where applicable: Low Residential Civic Hall, Tenement Court, Low Residential Lantern Monument, Laundry Well Nook. The district should share Hearthglen's Gnomish identity, Granite, Peat Brick, Oak, Copper, and Dry Stone Paving, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Connective and practical, with Hearthglen's larger mood shaped by Gnomish Hearth-Wheel Garden of Brass Doors, Healing Hall Beacon, and Hanging Charms Veiled High Court.",
+      "gameplayAssetNeeds": [
+        "Low Residential Civic Hall",
+        "Tenement Court",
+        "Low Residential Lantern Monument",
+        "Laundry Well Nook",
+        "Section 4 pedestrian-scale props",
+        "Hearthglen civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Low Residential Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Low Residential Civic Hall",
+      "minorLandmarks": [
+        "Tenement Court",
+        "Low Residential Lantern Monument",
+        "Laundry Well Nook"
+      ]
+    },
+    {
+      "districtNumber": 19,
+      "districtId": "D19",
+      "sectionNumber": 5,
+      "name": "D19 — Necropolis / Ancestor Quarter Civic Hall Civic-Anchor Precinct",
+      "civicPurpose": "This district turns Section 5's source-backed anchor set into a board-scale civic space: Necropolis / Ancestor Quarter Civic Hall, Ancestor Vault, Ancestor Masks Monument, Bone Lantern Path Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Hearthglen.",
+      "visualIdentity": "Use Necropolis / Ancestor Quarter Civic Hall as the main read. Keep exact source anchors visible where applicable: Necropolis / Ancestor Quarter Civic Hall, Ancestor Vault, Ancestor Masks Monument, Bone Lantern Path Nook. The district should share Hearthglen's Gnomish identity, Granite, Peat Brick, Oak, Copper, and Dry Stone Paving, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Locally grounded, with Hearthglen's larger mood shaped by Gnomish Hearth-Wheel Garden of Brass Doors, Healing Hall Beacon, and Hanging Charms Veiled High Court.",
+      "gameplayAssetNeeds": [
+        "Necropolis / Ancestor Quarter Civic Hall",
+        "Ancestor Vault",
+        "Ancestor Masks Monument",
+        "Bone Lantern Path Nook",
+        "Section 5 pedestrian-scale props",
+        "Hearthglen civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Necropolis / Ancestor Quarter Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Necropolis / Ancestor Quarter Civic Hall",
+      "minorLandmarks": [
+        "Ancestor Vault",
+        "Ancestor Masks Monument",
+        "Bone Lantern Path Nook"
+      ]
+    },
+    {
+      "districtNumber": 20,
+      "districtId": "D20",
+      "sectionNumber": 5,
+      "name": "D20 — Ancestor Vault Landmark Approach",
+      "civicPurpose": "This district turns Section 5's source-backed anchor set into a board-scale civic space: Necropolis / Ancestor Quarter Civic Hall, Ancestor Vault, Ancestor Masks Monument, Bone Lantern Path Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Hearthglen.",
+      "visualIdentity": "Use Ancestor Vault as the main read. Keep exact source anchors visible where applicable: Necropolis / Ancestor Quarter Civic Hall, Ancestor Vault, Ancestor Masks Monument, Bone Lantern Path Nook. The district should share Hearthglen's Gnomish identity, Granite, Peat Brick, Oak, Copper, and Dry Stone Paving, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Public-facing, with Hearthglen's larger mood shaped by Gnomish Hearth-Wheel Garden of Brass Doors, Healing Hall Beacon, and Hanging Charms Veiled High Court.",
+      "gameplayAssetNeeds": [
+        "Ancestor Vault",
+        "Necropolis / Ancestor Quarter Civic Hall",
+        "Ancestor Masks Monument",
+        "Bone Lantern Path Nook",
+        "Section 5 pedestrian-scale props",
+        "Hearthglen civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Ancestor Vault",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Ancestor Vault",
+      "minorLandmarks": [
+        "Necropolis / Ancestor Quarter Civic Hall",
+        "Ancestor Masks Monument",
+        "Bone Lantern Path Nook"
+      ]
+    },
+    {
+      "districtNumber": 23,
+      "districtId": "D23",
+      "sectionNumber": 5,
+      "name": "D23 — Ancestor Masks Monument Monument Frontage",
+      "civicPurpose": "This district turns Section 5's source-backed anchor set into a board-scale civic space: Necropolis / Ancestor Quarter Civic Hall, Ancestor Vault, Ancestor Masks Monument, Bone Lantern Path Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Hearthglen.",
+      "visualIdentity": "Use Ancestor Masks Monument as the main read. Keep exact source anchors visible where applicable: Necropolis / Ancestor Quarter Civic Hall, Ancestor Vault, Ancestor Masks Monument, Bone Lantern Path Nook. The district should share Hearthglen's Gnomish identity, Granite, Peat Brick, Oak, Copper, and Dry Stone Paving, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Memorial or symbolic, with Hearthglen's larger mood shaped by Gnomish Hearth-Wheel Garden of Brass Doors, Healing Hall Beacon, and Hanging Charms Veiled High Court.",
+      "gameplayAssetNeeds": [
+        "Ancestor Masks Monument",
+        "Necropolis / Ancestor Quarter Civic Hall",
+        "Ancestor Vault",
+        "Bone Lantern Path Nook",
+        "Section 5 pedestrian-scale props",
+        "Hearthglen civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Ancestor Masks Monument",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Ancestor Masks Monument",
+      "minorLandmarks": [
+        "Necropolis / Ancestor Quarter Civic Hall",
+        "Ancestor Vault",
+        "Bone Lantern Path Nook"
+      ]
+    },
+    {
+      "districtNumber": 24,
+      "districtId": "D24",
+      "sectionNumber": 5,
+      "name": "D24 — Bone Lantern Path Nook Neighborhood Nook",
+      "civicPurpose": "This district turns Section 5's source-backed anchor set into a board-scale civic space: Necropolis / Ancestor Quarter Civic Hall, Ancestor Vault, Ancestor Masks Monument, Bone Lantern Path Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Hearthglen.",
+      "visualIdentity": "Use Bone Lantern Path Nook as the main read. Keep exact source anchors visible where applicable: Necropolis / Ancestor Quarter Civic Hall, Ancestor Vault, Ancestor Masks Monument, Bone Lantern Path Nook. The district should share Hearthglen's Gnomish identity, Granite, Peat Brick, Oak, Copper, and Dry Stone Paving, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Intimate and lived-in, with Hearthglen's larger mood shaped by Gnomish Hearth-Wheel Garden of Brass Doors, Healing Hall Beacon, and Hanging Charms Veiled High Court.",
+      "gameplayAssetNeeds": [
+        "Bone Lantern Path Nook",
+        "Necropolis / Ancestor Quarter Civic Hall",
+        "Ancestor Vault",
+        "Ancestor Masks Monument",
+        "Section 5 pedestrian-scale props",
+        "Hearthglen civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Bone Lantern Path Nook",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Bone Lantern Path Nook",
+      "minorLandmarks": [
+        "Necropolis / Ancestor Quarter Civic Hall",
+        "Ancestor Vault",
+        "Ancestor Masks Monument"
+      ]
+    },
+    {
+      "districtNumber": 25,
+      "districtId": "D25",
+      "sectionNumber": 5,
+      "name": "D25 — Necropolis / Ancestor Quarter Civic Hall Supporting Streets",
+      "civicPurpose": "This district turns Section 5's source-backed anchor set into a board-scale civic space: Necropolis / Ancestor Quarter Civic Hall, Ancestor Vault, Ancestor Masks Monument, Bone Lantern Path Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Hearthglen.",
+      "visualIdentity": "Use Necropolis / Ancestor Quarter Civic Hall as the main read. Keep exact source anchors visible where applicable: Necropolis / Ancestor Quarter Civic Hall, Ancestor Vault, Ancestor Masks Monument, Bone Lantern Path Nook. The district should share Hearthglen's Gnomish identity, Granite, Peat Brick, Oak, Copper, and Dry Stone Paving, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Connective and practical, with Hearthglen's larger mood shaped by Gnomish Hearth-Wheel Garden of Brass Doors, Healing Hall Beacon, and Hanging Charms Veiled High Court.",
+      "gameplayAssetNeeds": [
+        "Necropolis / Ancestor Quarter Civic Hall",
+        "Ancestor Vault",
+        "Ancestor Masks Monument",
+        "Bone Lantern Path Nook",
+        "Section 5 pedestrian-scale props",
+        "Hearthglen civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Necropolis / Ancestor Quarter Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Necropolis / Ancestor Quarter Civic Hall",
+      "minorLandmarks": [
+        "Ancestor Vault",
+        "Ancestor Masks Monument",
+        "Bone Lantern Path Nook"
+      ]
+    }
   ],
   "landmarks": {
-    "wonder": {"name": "Gnomish Hearth-Wheel Garden of Brass Doors", "symbolicRole": "Warmth made mechanical and public.", "visualRole": "Large brass-door garden-wheel complex above compact service districts.", "civicRole": "Citywide symbol for repair, relief, threshold blessings, and communal meals.", "narrativeUse": ["healing festival", "public repair ritual", "relief muster"], "assetUse": ["map wonder", "far skyline anchor"], "sensoryIdentity": ["warm brass", "garden air", "hinge creak", "blue lamps"], "storyHooks": ["A brass door opens only for the category of person the relief system forgot."]},
-    "beacon": {"name": "Healing Hall Beacon", "symbolicRole": "Warning bound to mercy and triage.", "visualRole": "Blue-lit medical signal integrated with healing halls and apothecary courts.", "civicRole": "Coordinates triage, healer musters, public warnings, and medicine distribution.", "narrativeUse": ["triage signal", "medical crisis", "public warning"], "assetUse": ["S1 centerpiece", "signal marker"], "sensoryIdentity": ["blue glow", "herbs", "patient voices"], "storyHooks": ["A Beacon change turns the whole city into a triage network."]},
-    "seatOfPower": {"name": "Hanging Charms Veiled High Court", "symbolicRole": "Protective charm law and care governance.", "visualRole": "Central court of warm stone, hanging charms, veiled entries, sealed archives, and audience terraces.", "civicRole": "Handles aid rulings, healing disputes, formula regulation, archive sealing, and public petitions.", "narrativeUse": ["aid ruling", "formula regulation", "healing dispute"], "assetUse": ["seat-of-power marker", "central court diorama"], "sensoryIdentity": ["hanging charms", "ink", "blue glass", "soft bells"], "storyHooks": ["A court ruling proves care can become gatekeeping."]},
+    "wonder": {
+      "name": "Gnomish Hearth-Wheel Garden of Brass Doors",
+      "symbolicRole": "Gnomish Hearth-Wheel Garden of Brass Doors concentrates Hearthglen's local symbolism into a usable civic landmark: city wonder, separate far skyline anchor.",
+      "visualRole": "A one-per-city wonder: spectacular, unmistakable, and larger than every section landmark. It turns Hearthglen's geography, race identity, material culture, and civic magic into one public symbol. Built for Hearthglen's Gnomish population, it uses Granite, Peat Brick, Oak, Copper, Dyed Wool across Dry Stone Paving, Civic Terraces; water context: dry city ground; magic expression: Ward Networks, Ritual Geometry, Dream Binding. It must read clearly as a high-fantasy tactical-board asset with no baked labels or text.",
+      "civicRole": "Serves as city wonder, separate far skyline anchor within Hearthglen; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+      "narrativeUse": [
+        "stage scenes involving Gnomish Hearth-Wheel Garden of Brass Doors",
+        "show how Hearthglen turns landmark symbolism into civic pressure",
+        "anchor public movement and crowd behavior",
+        "give writers a concrete place for announcements, disputes, errands, or rituals"
+      ],
+      "assetUse": [
+        "city landmark asset",
+        "map background landmark marker",
+        "visual continuity anchor across hero and street scenes",
+        "scale reference for civilians, roads, plazas, and props"
+      ],
+      "sensoryIdentity": [
+        "local foot traffic",
+        "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+        "public voices and civic work nearby",
+        "ambient city light and weathering",
+        "close pedestrian-scale details rather than abstract skyline-only treatment"
+      ],
+      "storyHooks": [
+        "a routine civic action at Gnomish Hearth-Wheel Garden of Brass Doors becomes narratively important",
+        "the visible condition of Gnomish Hearth-Wheel Garden of Brass Doors signals political or social stress",
+        "someone uses Gnomish Hearth-Wheel Garden of Brass Doors's public function to redirect crowds or information",
+        "an overlooked detail at Gnomish Hearth-Wheel Garden of Brass Doors reveals how Hearthglen really works"
+      ]
+    },
+    "beacon": {
+      "name": "Healing Hall Beacon",
+      "symbolicRole": "Healing Hall Beacon concentrates Hearthglen's local symbolism into a usable civic landmark: Section 1 beacon, near/front civic signal anchor.",
+      "visualRole": "A largest local landmark in this section, subordinate only to the city wonder and citadel. It belongs to Section 1 (Medical / Healing) of Hearthglen and should use White Limestone Civic Blocks, Temple Platforms, Reed Pavilions, peat brick and dyed wool materials, Bone White Ceremony, Hanging Gardens, Lantern Lit, and the Gnomish visual language. Design focus: herbs, white cloth, water bowls, healing lamps, clinics. Terrain/water context: Civic Terraces; Dry Ground. Magic expression: Herbal Spirits, Law Binding, Threshold Oaths. No baked labels or text.",
+      "civicRole": "Serves as Section 1 beacon, near/front civic signal anchor within Hearthglen; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+      "narrativeUse": [
+        "stage scenes involving Healing Hall Beacon",
+        "show how Hearthglen turns landmark symbolism into civic pressure",
+        "anchor public movement and crowd behavior",
+        "give writers a concrete place for announcements, disputes, errands, or rituals"
+      ],
+      "assetUse": [
+        "district diorama anchor for Section 1",
+        "map background landmark marker",
+        "visual continuity anchor across hero and street scenes",
+        "scale reference for civilians, roads, plazas, and props"
+      ],
+      "sensoryIdentity": [
+        "local foot traffic",
+        "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+        "public voices and civic work nearby",
+        "beacon or lamp glow when applicable",
+        "close pedestrian-scale details rather than abstract skyline-only treatment"
+      ],
+      "storyHooks": [
+        "a routine civic action at Healing Hall Beacon becomes narratively important",
+        "the visible condition of Healing Hall Beacon signals political or social stress",
+        "someone uses Healing Hall Beacon's public function to redirect crowds or information",
+        "an overlooked detail at Healing Hall Beacon reveals how Hearthglen really works"
+      ]
+    },
+    "seatOfPower": {
+      "name": "Hanging Charms Veiled High Court",
+      "symbolicRole": "Hanging Charms Veiled High Court concentrates Hearthglen's local symbolism into a usable civic landmark: dominant central civic anchor / District 13 seat of power.",
+      "visualRole": "The district-13 seat of power: courts, audience terraces, sealed archives, command platforms, and the visible apparatus of government. It is not a faction HQ; it is the city's central civic authority. Built for Hearthglen's Gnomish population, it uses Granite, Peat Brick, Oak, Copper, Dyed Wool across Dry Stone Paving, Civic Terraces; water context: dry city ground; magic expression: Ward Networks, Ritual Geometry, Dream Binding. It must read clearly as a high-fantasy tactical-board asset with no baked labels or text.",
+      "civicRole": "Serves as dominant central civic anchor / District 13 seat of power within Hearthglen; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+      "narrativeUse": [
+        "stage scenes involving Hanging Charms Veiled High Court",
+        "show how Hearthglen turns landmark symbolism into civic pressure",
+        "anchor public movement and crowd behavior",
+        "give writers a concrete place for announcements, disputes, errands, or rituals"
+      ],
+      "assetUse": [
+        "city landmark asset",
+        "map background landmark marker",
+        "visual continuity anchor across hero and street scenes",
+        "scale reference for civilians, roads, plazas, and props"
+      ],
+      "sensoryIdentity": [
+        "local foot traffic",
+        "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+        "public voices and civic work nearby",
+        "ambient city light and weathering",
+        "close pedestrian-scale details rather than abstract skyline-only treatment"
+      ],
+      "storyHooks": [
+        "a routine civic action at Hanging Charms Veiled High Court becomes narratively important",
+        "the visible condition of Hanging Charms Veiled High Court signals political or social stress",
+        "someone uses Hanging Charms Veiled High Court's public function to redirect crowds or information",
+        "an overlooked detail at Hanging Charms Veiled High Court reveals how Hearthglen really works"
+      ]
+    },
     "majorLandmarks": [
-      {"name": "Alchemy Lab", "symbolicRole": "Dangerous invention put to public use.", "visualRole": "Lab towers, blue lamps, formula archives, glassware, and copper pipes.", "civicRole": "Research and regulated experiment.", "narrativeUse": ["experiment", "formula danger"], "assetUse": ["S2 diorama"], "sensoryIdentity": ["glass", "blue flame", "ink"], "storyHooks": ["A formula solves a crisis only if someone admits who was denied access."]},
-      {"name": "Relief Hall", "symbolicRole": "Aid as public infrastructure.", "visualRole": "Service hall with notice plaza, counters, queues, and civic lamps.", "civicRole": "Public aid and eligibility review.", "narrativeUse": ["relief queue", "public notice"], "assetUse": ["S3 diorama"], "sensoryIdentity": ["paper", "lamp oil", "warm food"], "storyHooks": ["A notice changes who counts as eligible for help."]},
-      {"name": "Tenement Court", "symbolicRole": "Care surviving in crowded ordinary life.", "visualRole": "Laundry well, lantern monument, drying lines, and small gardens.", "civicRole": "Domestic continuity and neighbor networks.", "narrativeUse": ["gossip", "illness clue"], "assetUse": ["S4 diorama"], "sensoryIdentity": ["laundry water", "cooking", "lamp oil"], "storyHooks": ["A laundry-well rumor reaches the High Court before the notice does."]},
-      {"name": "Ancestor Vault", "symbolicRole": "Memory and care after death.", "visualRole": "Vaults, masks, bone lantern path, and gardened stone.", "civicRole": "Ancestor keeping and death care.", "narrativeUse": ["family memory", "ancestor vow"], "assetUse": ["S5 diorama"], "sensoryIdentity": ["cool stone", "candle wax", "quiet names"], "storyHooks": ["A bone lantern marks the person the relief ledger erased."]}
+      {
+        "name": "Ancestor Vault",
+        "symbolicRole": "Ancestor Vault concentrates Hearthglen's local symbolism into a usable civic landmark: additional major landmark selected for this hero-view camera angle.",
+        "visualRole": "A largest local landmark in this section, subordinate only to the city wonder and citadel. It belongs to Section 5 (Necropolis / Ancestor Quarter) of Hearthglen and should use Temple Platforms, Step Pyramids, Subterranean Vaults, peat brick and dyed wool materials, Bone White Ceremony, Lantern Lit, Ancestor Masks, and the Gnomish visual language. Design focus: bones, name tablets, mourning lamps, cypress trees, tombs. Terrain/water context: Civic Terraces; Dry Ground. Magic expression: Herbal Spirits, Law Binding, Threshold Oaths. No baked labels or text.",
+        "civicRole": "Serves as additional major landmark selected for this hero-view camera angle within Hearthglen; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Ancestor Vault",
+          "show how Hearthglen turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 5",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Ancestor Vault becomes narratively important",
+          "the visible condition of Ancestor Vault signals political or social stress",
+          "someone uses Ancestor Vault's public function to redirect crowds or information",
+          "an overlooked detail at Ancestor Vault reveals how Hearthglen really works"
+        ]
+      },
+      {
+        "name": "Alchemy Lab",
+        "symbolicRole": "Alchemy Lab concentrates Hearthglen's local symbolism into a usable civic landmark: additional major landmark selected for this hero-view camera angle.",
+        "visualRole": "A largest local landmark in this section, subordinate only to the city wonder and citadel. It belongs to Section 2 (Arcane / Alchemical Labs) of Hearthglen and should use Forge Halls, Subterranean Vaults, Archive Towers, peat brick and dyed wool materials, Serpent Geometry, Civic Blue Glow, Lantern Lit, and the Gnomish visual language. Design focus: strong vertical silhouette, distinct gameplay landmark, visible from nearby districts, retorts, runes. Terrain/water context: Civic Terraces; Dry Ground. Magic expression: Herbal Spirits, Law Binding, Threshold Oaths. No baked labels or text.",
+        "civicRole": "Serves as additional major landmark selected for this hero-view camera angle within Hearthglen; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Alchemy Lab",
+          "show how Hearthglen turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 2",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Alchemy Lab becomes narratively important",
+          "the visible condition of Alchemy Lab signals political or social stress",
+          "someone uses Alchemy Lab's public function to redirect crowds or information",
+          "an overlooked detail at Alchemy Lab reveals how Hearthglen really works"
+        ]
+      },
+      {
+        "name": "Tenement Court",
+        "symbolicRole": "Tenement Court concentrates Hearthglen's local symbolism into a usable civic landmark: additional major landmark selected for this hero-view camera angle.",
+        "visualRole": "A largest local landmark in this section, subordinate only to the city wonder and citadel. It belongs to Section 4 (Low Residential) of Hearthglen and should use Timber Longhouses, Market Arcades, White Limestone Civic Blocks, peat brick and dyed wool materials, Lantern Lit, Red Fabric Awnings, Woven Banners, and the Gnomish visual language. Design focus: stoops, shared wells, tenement stacks, rowhouses, shared courtyards. Terrain/water context: Civic Terraces; Dry Ground. Magic expression: Herbal Spirits, Law Binding, Threshold Oaths. No baked labels or text.",
+        "civicRole": "Serves as additional major landmark selected for this hero-view camera angle within Hearthglen; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Tenement Court",
+          "show how Hearthglen turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 4",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Tenement Court becomes narratively important",
+          "the visible condition of Tenement Court signals political or social stress",
+          "someone uses Tenement Court's public function to redirect crowds or information",
+          "an overlooked detail at Tenement Court reveals how Hearthglen really works"
+        ]
+      },
+      {
+        "name": "Medical / Healing Civic Hall",
+        "symbolicRole": "Medical / Healing Civic Hall concentrates Hearthglen's local symbolism into a usable civic landmark: Section 1 local anchor.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing. It belongs to Section 1 (Medical / Healing) of Hearthglen and should use Temple Platforms, Reed Pavilions, White Limestone Civic Blocks, peat brick and dyed wool materials, Hanging Gardens, Lantern Lit, Bone White Ceremony, and the Gnomish visual language. Design focus: healing lamps, clinics, hospital halls, herb gardens, recovery beds. Terrain/water context: Civic Terraces; Dry Ground. Magic expression: Herbal Spirits, Law Binding, Threshold Oaths. No baked labels or text.",
+        "civicRole": "Serves as Section 1 local anchor within Hearthglen; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Medical / Healing Civic Hall",
+          "show how Hearthglen turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 1",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Medical / Healing Civic Hall becomes narratively important",
+          "the visible condition of Medical / Healing Civic Hall signals political or social stress",
+          "someone uses Medical / Healing Civic Hall's public function to redirect crowds or information",
+          "an overlooked detail at Medical / Healing Civic Hall reveals how Hearthglen really works"
+        ]
+      },
+      {
+        "name": "Medical Healing Lantern Monument",
+        "symbolicRole": "Medical Healing Lantern Monument concentrates Hearthglen's local symbolism into a usable civic landmark: Section 1 local anchor.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles. It belongs to Section 1 (Medical / Healing) of Hearthglen and should use White Limestone Civic Blocks, Temple Platforms, Reed Pavilions, peat brick and dyed wool materials, Bone White Ceremony, Hanging Gardens, Lantern Lit, and the Gnomish visual language. Design focus: herbs, white cloth, water bowls, healing lamps, clinics. Terrain/water context: Civic Terraces; Dry Ground. Magic expression: Herbal Spirits, Law Binding, Threshold Oaths. No baked labels or text.",
+        "civicRole": "Serves as Section 1 local anchor within Hearthglen; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Medical Healing Lantern Monument",
+          "show how Hearthglen turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 1",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Medical Healing Lantern Monument becomes narratively important",
+          "the visible condition of Medical Healing Lantern Monument signals political or social stress",
+          "someone uses Medical Healing Lantern Monument's public function to redirect crowds or information",
+          "an overlooked detail at Medical Healing Lantern Monument reveals how Hearthglen really works"
+        ]
+      },
+      {
+        "name": "Apothecary Court Nook",
+        "symbolicRole": "Apothecary Court Nook concentrates Hearthglen's local symbolism into a usable civic landmark: Section 1 local anchor.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette. It belongs to Section 1 (Medical / Healing) of Hearthglen and should use White Limestone Civic Blocks, Temple Platforms, Reed Pavilions, peat brick and dyed wool materials, Hanging Gardens, Lantern Lit, Bone White Ceremony, and the Gnomish visual language. Design focus: water bowls, healing lamps, clinics, hospital halls, herb gardens. Terrain/water context: Civic Terraces; Dry Ground. Magic expression: Herbal Spirits, Law Binding, Threshold Oaths. No baked labels or text.",
+        "civicRole": "Serves as Section 1 local anchor within Hearthglen; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Apothecary Court Nook",
+          "show how Hearthglen turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 1",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Apothecary Court Nook becomes narratively important",
+          "the visible condition of Apothecary Court Nook signals political or social stress",
+          "someone uses Apothecary Court Nook's public function to redirect crowds or information",
+          "an overlooked detail at Apothecary Court Nook reveals how Hearthglen really works"
+        ]
+      },
+      {
+        "name": "Arcane / Alchemical Labs Civic Hall",
+        "symbolicRole": "Arcane / Alchemical Labs Civic Hall concentrates Hearthglen's local symbolism into a usable civic landmark: Section 2 local anchor.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing. It belongs to Section 2 (Arcane / Alchemical Labs) of Hearthglen and should use Subterranean Vaults, Archive Towers, Forge Halls, peat brick and dyed wool materials, Serpent Geometry, Civic Blue Glow, Lantern Lit, and the Gnomish visual language. Design focus: runes, colored vapors, sealed jars, laboratories, distillation towers. Terrain/water context: Civic Terraces; Dry Ground. Magic expression: Herbal Spirits, Law Binding, Threshold Oaths. No baked labels or text.",
+        "civicRole": "Serves as Section 2 local anchor within Hearthglen; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Arcane / Alchemical Labs Civic Hall",
+          "show how Hearthglen turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 2",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Arcane / Alchemical Labs Civic Hall becomes narratively important",
+          "the visible condition of Arcane / Alchemical Labs Civic Hall signals political or social stress",
+          "someone uses Arcane / Alchemical Labs Civic Hall's public function to redirect crowds or information",
+          "an overlooked detail at Arcane / Alchemical Labs Civic Hall reveals how Hearthglen really works"
+        ]
+      },
+      {
+        "name": "Blue-Lamp Monument",
+        "symbolicRole": "Blue-Lamp Monument concentrates Hearthglen's local symbolism into a usable civic landmark: Section 2 local anchor.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles. It belongs to Section 2 (Arcane / Alchemical Labs) of Hearthglen and should use Forge Halls, Subterranean Vaults, Archive Towers, peat brick and dyed wool materials, Serpent Geometry, Civic Blue Glow, Lantern Lit, and the Gnomish visual language. Design focus: sealed jars, laboratories, distillation towers, containment courts, safety wards. Terrain/water context: Civic Terraces; Dry Ground. Magic expression: Herbal Spirits, Law Binding, Threshold Oaths. No baked labels or text.",
+        "civicRole": "Serves as Section 2 local anchor within Hearthglen; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Blue-Lamp Monument",
+          "show how Hearthglen turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 2",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Blue-Lamp Monument becomes narratively important",
+          "the visible condition of Blue-Lamp Monument signals political or social stress",
+          "someone uses Blue-Lamp Monument's public function to redirect crowds or information",
+          "an overlooked detail at Blue-Lamp Monument reveals how Hearthglen really works"
+        ]
+      },
+      {
+        "name": "Formula Archive Nook",
+        "symbolicRole": "Formula Archive Nook concentrates Hearthglen's local symbolism into a usable civic landmark: Section 2 local anchor.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette. It belongs to Section 2 (Arcane / Alchemical Labs) of Hearthglen and should use Forge Halls, Subterranean Vaults, Archive Towers, peat brick and dyed wool materials, Civic Blue Glow, Lantern Lit, Serpent Geometry, and the Gnomish visual language. Design focus: street-level detail, usable board landmark, subordinate scale, retorts, runes. Terrain/water context: Civic Terraces; Dry Ground. Magic expression: Herbal Spirits, Law Binding, Threshold Oaths. No baked labels or text.",
+        "civicRole": "Serves as Section 2 local anchor within Hearthglen; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Formula Archive Nook",
+          "show how Hearthglen turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 2",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Formula Archive Nook becomes narratively important",
+          "the visible condition of Formula Archive Nook signals political or social stress",
+          "someone uses Formula Archive Nook's public function to redirect crowds or information",
+          "an overlooked detail at Formula Archive Nook reveals how Hearthglen really works"
+        ]
+      },
+      {
+        "name": "Civic Services Hall",
+        "symbolicRole": "Civic Services Hall concentrates Hearthglen's local symbolism into a usable civic landmark: Section 3 local anchor.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing. It belongs to Section 3 (Civic Services) of Hearthglen and should use White Limestone Civic Blocks, Market Arcades, Reed Pavilions, peat brick and dyed wool materials, Red Fabric Awnings, Lantern Lit, Civic Blue Glow, and the Gnomish visual language. Design focus: public-facing administration, clear central silhouette, board-readable entrance, bread tokens, water basins. Terrain/water context: Civic Terraces; Dry Ground. Magic expression: Herbal Spirits, Law Binding, Threshold Oaths. No baked labels or text.",
+        "civicRole": "Serves as Section 3 local anchor within Hearthglen; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Civic Services Hall",
+          "show how Hearthglen turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 3",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Civic Services Hall becomes narratively important",
+          "the visible condition of Civic Services Hall signals political or social stress",
+          "someone uses Civic Services Hall's public function to redirect crowds or information",
+          "an overlooked detail at Civic Services Hall reveals how Hearthglen really works"
+        ]
+      },
+      {
+        "name": "Relief Hall",
+        "symbolicRole": "Relief Hall concentrates Hearthglen's local symbolism into a usable civic landmark: Section 3 local anchor.",
+        "visualRole": "A mandatory Section 3 Beacon: a culturally adapted civic signal flame / warning-light landmark visible across the city spine. It belongs to Section 3 (Civic Services) of Hearthglen and should use Market Arcades, Reed Pavilions, White Limestone Civic Blocks, peat brick and dyed wool materials, Civic Blue Glow, Red Fabric Awnings, Lantern Lit, and the Gnomish visual language. Design focus: bread tokens, water basins, blue service lamps, public rosters, public halls. Terrain/water context: Civic Terraces; Dry Ground. Magic expression: Herbal Spirits, Law Binding, Threshold Oaths. No baked labels or text.",
+        "civicRole": "Serves as Section 3 local anchor within Hearthglen; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Relief Hall",
+          "show how Hearthglen turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 3",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Relief Hall becomes narratively important",
+          "the visible condition of Relief Hall signals political or social stress",
+          "someone uses Relief Hall's public function to redirect crowds or information",
+          "an overlooked detail at Relief Hall reveals how Hearthglen really works"
+        ]
+      },
+      {
+        "name": "Civic Services Lantern Monument",
+        "symbolicRole": "Civic Services Lantern Monument concentrates Hearthglen's local symbolism into a usable civic landmark: Section 3 local anchor.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles. It belongs to Section 3 (Civic Services) of Hearthglen and should use Reed Pavilions, White Limestone Civic Blocks, Market Arcades, peat brick and dyed wool materials, Civic Blue Glow, Red Fabric Awnings, Lantern Lit, and the Gnomish visual language. Design focus: notice boards, symbolic civic object, small ceremonial site, local memory marker, subordinate to major landmark. Terrain/water context: Civic Terraces; Dry Ground. Magic expression: Herbal Spirits, Law Binding, Threshold Oaths. No baked labels or text.",
+        "civicRole": "Serves as Section 3 local anchor within Hearthglen; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Civic Services Lantern Monument",
+          "show how Hearthglen turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 3",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Civic Services Lantern Monument becomes narratively important",
+          "the visible condition of Civic Services Lantern Monument signals political or social stress",
+          "someone uses Civic Services Lantern Monument's public function to redirect crowds or information",
+          "an overlooked detail at Civic Services Lantern Monument reveals how Hearthglen really works"
+        ]
+      },
+      {
+        "name": "Notice Plaza Nook",
+        "symbolicRole": "Notice Plaza Nook concentrates Hearthglen's local symbolism into a usable civic landmark: Section 3 local anchor.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette. It belongs to Section 3 (Civic Services) of Hearthglen and should use Reed Pavilions, White Limestone Civic Blocks, Market Arcades, peat brick and dyed wool materials, Civic Blue Glow, Red Fabric Awnings, Lantern Lit, and the Gnomish visual language. Design focus: public rosters, public halls, clinic courts, bathhouses, notice boards. Terrain/water context: Civic Terraces; Dry Ground. Magic expression: Herbal Spirits, Law Binding, Threshold Oaths. No baked labels or text.",
+        "civicRole": "Serves as Section 3 local anchor within Hearthglen; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Notice Plaza Nook",
+          "show how Hearthglen turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 3",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Notice Plaza Nook becomes narratively important",
+          "the visible condition of Notice Plaza Nook signals political or social stress",
+          "someone uses Notice Plaza Nook's public function to redirect crowds or information",
+          "an overlooked detail at Notice Plaza Nook reveals how Hearthglen really works"
+        ]
+      },
+      {
+        "name": "Low Residential Civic Hall",
+        "symbolicRole": "Low Residential Civic Hall concentrates Hearthglen's local symbolism into a usable civic landmark: Section 4 local anchor.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing. It belongs to Section 4 (Low Residential) of Hearthglen and should use Market Arcades, White Limestone Civic Blocks, Timber Longhouses, peat brick and dyed wool materials, Woven Banners, Lantern Lit, Red Fabric Awnings, and the Gnomish visual language. Design focus: communal wells, institutional anchor, public-facing administration, clear central silhouette, board-readable entrance. Terrain/water context: Civic Terraces; Dry Ground. Magic expression: Herbal Spirits, Law Binding, Threshold Oaths. No baked labels or text.",
+        "civicRole": "Serves as Section 4 local anchor within Hearthglen; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Low Residential Civic Hall",
+          "show how Hearthglen turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 4",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Low Residential Civic Hall becomes narratively important",
+          "the visible condition of Low Residential Civic Hall signals political or social stress",
+          "someone uses Low Residential Civic Hall's public function to redirect crowds or information",
+          "an overlooked detail at Low Residential Civic Hall reveals how Hearthglen really works"
+        ]
+      },
+      {
+        "name": "Low Residential Lantern Monument",
+        "symbolicRole": "Low Residential Lantern Monument concentrates Hearthglen's local symbolism into a usable civic landmark: Section 4 local anchor.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles. It belongs to Section 4 (Low Residential) of Hearthglen and should use White Limestone Civic Blocks, Timber Longhouses, Market Arcades, peat brick and dyed wool materials, Red Fabric Awnings, Woven Banners, Lantern Lit, and the Gnomish visual language. Design focus: communal wells, symbolic civic object, small ceremonial site, local memory marker, subordinate to major landmark. Terrain/water context: Civic Terraces; Dry Ground. Magic expression: Herbal Spirits, Law Binding, Threshold Oaths. No baked labels or text.",
+        "civicRole": "Serves as Section 4 local anchor within Hearthglen; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Low Residential Lantern Monument",
+          "show how Hearthglen turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 4",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Low Residential Lantern Monument becomes narratively important",
+          "the visible condition of Low Residential Lantern Monument signals political or social stress",
+          "someone uses Low Residential Lantern Monument's public function to redirect crowds or information",
+          "an overlooked detail at Low Residential Lantern Monument reveals how Hearthglen really works"
+        ]
+      },
+      {
+        "name": "Laundry Well Nook",
+        "symbolicRole": "Laundry Well Nook concentrates Hearthglen's local symbolism into a usable civic landmark: Section 4 local anchor.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette. It belongs to Section 4 (Low Residential) of Hearthglen and should use White Limestone Civic Blocks, Timber Longhouses, Market Arcades, peat brick and dyed wool materials, Woven Banners, Lantern Lit, Red Fabric Awnings, and the Gnomish visual language. Design focus: tenement stacks, rowhouses, shared courtyards, communal wells, small local identity prop. Terrain/water context: Civic Terraces; Dry Ground. Magic expression: Herbal Spirits, Law Binding, Threshold Oaths. No baked labels or text.",
+        "civicRole": "Serves as Section 4 local anchor within Hearthglen; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Laundry Well Nook",
+          "show how Hearthglen turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 4",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Laundry Well Nook becomes narratively important",
+          "the visible condition of Laundry Well Nook signals political or social stress",
+          "someone uses Laundry Well Nook's public function to redirect crowds or information",
+          "an overlooked detail at Laundry Well Nook reveals how Hearthglen really works"
+        ]
+      },
+      {
+        "name": "Necropolis / Ancestor Quarter Civic Hall",
+        "symbolicRole": "Necropolis / Ancestor Quarter Civic Hall concentrates Hearthglen's local symbolism into a usable civic landmark: Section 5 local anchor.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing. It belongs to Section 5 (Necropolis / Ancestor Quarter) of Hearthglen and should use Temple Platforms, Step Pyramids, Subterranean Vaults, peat brick and dyed wool materials, Bone White Ceremony, Lantern Lit, Ancestor Masks, and the Gnomish visual language. Design focus: mourning lamps, cypress trees, tombs, ancestor halls, ossuary walls. Terrain/water context: Civic Terraces; Dry Ground. Magic expression: Herbal Spirits, Law Binding, Threshold Oaths. No baked labels or text.",
+        "civicRole": "Serves as Section 5 local anchor within Hearthglen; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Necropolis / Ancestor Quarter Civic Hall",
+          "show how Hearthglen turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 5",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Necropolis / Ancestor Quarter Civic Hall becomes narratively important",
+          "the visible condition of Necropolis / Ancestor Quarter Civic Hall signals political or social stress",
+          "someone uses Necropolis / Ancestor Quarter Civic Hall's public function to redirect crowds or information",
+          "an overlooked detail at Necropolis / Ancestor Quarter Civic Hall reveals how Hearthglen really works"
+        ]
+      },
+      {
+        "name": "Ancestor Masks Monument",
+        "symbolicRole": "Ancestor Masks Monument concentrates Hearthglen's local symbolism into a usable civic landmark: Section 5 local anchor.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles. It belongs to Section 5 (Necropolis / Ancestor Quarter) of Hearthglen and should use Step Pyramids, Subterranean Vaults, Temple Platforms, peat brick and dyed wool materials, Lantern Lit, Ancestor Masks, Bone White Ceremony, and the Gnomish visual language. Design focus: name tablets, mourning lamps, cypress trees, tombs, ancestor halls. Terrain/water context: Civic Terraces; Dry Ground. Magic expression: Herbal Spirits, Law Binding, Threshold Oaths. No baked labels or text.",
+        "civicRole": "Serves as Section 5 local anchor within Hearthglen; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Ancestor Masks Monument",
+          "show how Hearthglen turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 5",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Ancestor Masks Monument becomes narratively important",
+          "the visible condition of Ancestor Masks Monument signals political or social stress",
+          "someone uses Ancestor Masks Monument's public function to redirect crowds or information",
+          "an overlooked detail at Ancestor Masks Monument reveals how Hearthglen really works"
+        ]
+      },
+      {
+        "name": "Bone Lantern Path Nook",
+        "symbolicRole": "Bone Lantern Path Nook concentrates Hearthglen's local symbolism into a usable civic landmark: Section 5 local anchor.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette. It belongs to Section 5 (Necropolis / Ancestor Quarter) of Hearthglen and should use Temple Platforms, Step Pyramids, Subterranean Vaults, peat brick and dyed wool materials, Bone White Ceremony, Lantern Lit, Ancestor Masks, and the Gnomish visual language. Design focus: street-level detail, usable board landmark, subordinate scale, bones, name tablets. Terrain/water context: Civic Terraces; Dry Ground. Magic expression: Herbal Spirits, Law Binding, Threshold Oaths. No baked labels or text.",
+        "civicRole": "Serves as Section 5 local anchor within Hearthglen; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Bone Lantern Path Nook",
+          "show how Hearthglen turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 5",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Bone Lantern Path Nook becomes narratively important",
+          "the visible condition of Bone Lantern Path Nook signals political or social stress",
+          "someone uses Bone Lantern Path Nook's public function to redirect crowds or information",
+          "an overlooked detail at Bone Lantern Path Nook reveals how Hearthglen really works"
+        ]
+      }
     ]
   },
   "assetGuidance": {
-    "districtDioramaGuidance": ["S1: Medical / Healing Civic Hall, Healing Hall Beacon, Medical Healing Lantern Monument, Apothecary Court Nook.", "S2: Arcane / Alchemical Labs Civic Hall, Alchemy Lab, Blue-Lamp Monument, Formula Archive Nook.", "S3: Civic Services Hall, Relief Hall, Civic Services Lantern Monument, Notice Plaza Nook.", "S4: Low Residential Civic Hall, Tenement Court, Low Residential Lantern Monument, Laundry Well Nook.", "S5: Necropolis / Ancestor Quarter Civic Hall, Ancestor Vault, Ancestor Masks Monument, Bone Lantern Path Nook."],
-    "mapBackgroundGuidance": ["Keep Gnomish Hearth-Wheel Garden of Brass Doors, Healing Hall Beacon, and Hanging Charms Veiled High Court legible together.", "Use warm service-city density, gardens, brass doors, blue lamps, clinics, labs, relief halls, tenements, and ancestor paths."],
-    "requiredVisualElements": ["Gnomish Hearth-Wheel Garden of Brass Doors", "Healing Hall Beacon", "Hanging Charms Veiled High Court", "Medical / Healing Civic Hall", "Medical Healing Lantern Monument", "Apothecary Court Nook", "Arcane / Alchemical Labs Civic Hall", "Alchemy Lab", "Blue-Lamp Monument", "Formula Archive Nook", "Relief Hall", "Civic Services Lantern Monument", "Notice Plaza Nook", "Tenement Court", "Low Residential Lantern Monument", "Laundry Well Nook", "Ancestor Vault", "Ancestor Masks Monument", "Bone Lantern Path Nook"],
-    "elementsToAvoid": ["cute gnome gadget scenery", "care systems hidden behind whimsy", "ancestor care as background"]
+    "districtDioramaGuidance": [
+      "Dioramas must support 25 district slots: S1 covers D01, D02, D03, D06, D07 and uses source-backed anchors Medical / Healing Civic Hall, Healing Hall Beacon, Medical Healing Lantern Monument, Apothecary Court Nook.",
+      "Dioramas must support 25 district slots: S2 covers D04, D05, D09, D10, D15 and uses source-backed anchors Arcane / Alchemical Labs Civic Hall, Alchemy Lab, Blue-Lamp Monument, Formula Archive Nook.",
+      "Dioramas must support 25 district slots: S3 covers D08, D12, D13, D14, D18 and uses source-backed anchors Civic Services Hall, Relief Hall, Civic Services Lantern Monument, Notice Plaza Nook.",
+      "Dioramas must support 25 district slots: S4 covers D11, D16, D17, D21, D22 and uses source-backed anchors Low Residential Civic Hall, Tenement Court, Low Residential Lantern Monument, Laundry Well Nook.",
+      "Dioramas must support 25 district slots: S5 covers D19, D20, D23, D24, D25 and uses source-backed anchors Necropolis / Ancestor Quarter Civic Hall, Ancestor Vault, Ancestor Masks Monument, Bone Lantern Path Nook."
+    ],
+    "mapBackgroundGuidance": [
+      "Map backgrounds must show Gnomish Hearth-Wheel Garden of Brass Doors as the wonder-scale identity anchor, Hanging Charms Veiled High Court at D13, and Healing Hall Beacon as the city signal landmark.",
+      "Preserve the five-section spine: S1 Medical / Healing Civic Hall, S2 Arcane / Alchemical Labs Civic Hall, S3 Civic Services Hall, S4 Low Residential Civic Hall, S5 Necropolis / Ancestor Quarter Civic Hall.",
+      "Use roads, terrain, water, civic terraces, walls, markets, courts, or service routes only where they support the exact city identity and tactical readability."
+    ],
+    "requiredVisualElements": [
+      "Gnomish Hearth-Wheel Garden of Brass Doors",
+      "Healing Hall Beacon",
+      "Hanging Charms Veiled High Court",
+      "Ancestor Vault",
+      "Alchemy Lab",
+      "Tenement Court",
+      "Medical / Healing Civic Hall",
+      "Medical Healing Lantern Monument",
+      "Apothecary Court Nook",
+      "Arcane / Alchemical Labs Civic Hall",
+      "Blue-Lamp Monument",
+      "Formula Archive Nook",
+      "Civic Services Hall",
+      "Relief Hall",
+      "Civic Services Lantern Monument",
+      "Notice Plaza Nook",
+      "Low Residential Civic Hall",
+      "Low Residential Lantern Monument",
+      "Laundry Well Nook",
+      "Necropolis / Ancestor Quarter Civic Hall",
+      "Ancestor Masks Monument",
+      "Bone Lantern Path Nook",
+      "Granite",
+      "Peat Brick",
+      "Oak",
+      "Copper",
+      "Dyed Wool",
+      "Dry Stone Paving",
+      "Civic Terraces",
+      "Ward Networks",
+      "Ritual Geometry",
+      "Dream Binding"
+    ],
+    "elementsToAvoid": [
+      "extra top-level schema sections or research-log content in the JSON",
+      "generic fantasy architecture that ignores exact anchor names",
+      "invented missing street anchors",
+      "readable real-world text labels baked into images",
+      "collapsing the 25-district board into only five playable spaces",
+      "making landmarks decorative when they should have civic, narrative, and asset function"
+    ]
   }
 }

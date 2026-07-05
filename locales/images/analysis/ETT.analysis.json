@@ -4,93 +4,1885 @@
     "analysisVersion": 2,
     "cityCode": "ETT",
     "cityName": "Elarion Thicket",
-    "analysisDate": "2026-07-03",
+    "analysisDate": "2026-07-05",
     "analystVersion": "gpt-5.5-thinking",
     "analysisConfidence": "strong-lock",
-    "basedOnImages": ["ETT-HERO-NE-v001", "ETT-HERO-NW-v001", "ETT-HERO-SE-v001", "ETT-HERO-SW-v001", "ETT-STREET-S1-v001", "ETT-STREET-S2-v001", "ETT-STREET-S3-v001", "ETT-STREET-S4-v001", "ETT-STREET-S5-v001"],
-    "basedOnSidecars": ["ETT-HERO-NE-v001.json", "ETT-HERO-NW-v001.json", "ETT-HERO-SE-v001.json", "ETT-HERO-SW-v001.json", "ETT-STREET-S1-v001.json", "ETT-STREET-S2-v001.json", "ETT-STREET-S3-v001.json", "ETT-STREET-S4-v001.json", "ETT-STREET-S5-v001.json"]
+    "sourceStatus": "full",
+    "districtModel": "five sections; five district slots per section; D13 is the seat of power",
+    "missingStreetSections": [],
+    "basedOnImages": [
+      "ETT-HERO-NE-v001",
+      "ETT-HERO-NW-v001",
+      "ETT-HERO-SE-v001",
+      "ETT-HERO-SW-v001",
+      "ETT-STREET-S1-v001",
+      "ETT-STREET-S2-v001",
+      "ETT-STREET-S3-v001",
+      "ETT-STREET-S4-v001",
+      "ETT-STREET-S5-v001"
+    ],
+    "basedOnSidecars": [
+      "ETT-HERO-NE-v001.json",
+      "ETT-HERO-NW-v001.json",
+      "ETT-HERO-SE-v001.json",
+      "ETT-HERO-SW-v001.json",
+      "ETT-STREET-S1-v001.json",
+      "ETT-STREET-S2-v001.json",
+      "ETT-STREET-S3-v001.json",
+      "ETT-STREET-S4-v001.json",
+      "ETT-STREET-S5-v001.json"
+    ]
   },
   "cityDNA": {
-    "coreFantasy": "A forest that became a stagfolk civilization through sacred groves, antlered halls, temple processions, public works, guild craft, hanging gardens, and woodland estates.",
-    "primaryEmotion": "rooted serenity",
-    "secondaryEmotion": "territorial stewardship",
-    "readerTakeaway": "Elarion Thicket is not a city built in a forest; it is civic life grown carefully inside a living ecosystem.",
-    "civilizationThesis": "Elarion Thicket turns groves, roots, antlers, temple rites, public surveys, guild craft, manor gardens, and sacred woodland memory into an ancient stewardship civilization.",
-    "visualIdentity": "Living wood, carved timber, mossed stone, root-wrapped masonry, antler arches, lantern paths, canopy halls, hanging gardens, blue civic lamps, woven banners, temple platforms, manor courts, and white-stag symbolism.",
-    "culturalIdentity": "A stagfolk woodland civilization that values calm ownership, communal obligation, ecological memory, craft legitimacy, public stewardship, and territorial responsibility.",
-    "symbolicIdentity": "Antlers, white stags, roots, sacred groves, hanging gardens, lanterns, banners, canopy halls, mossed stone, and blue lamps symbolize place kept alive through care."
+    "coreFantasy": "A cervine antlered beastfolk city where Antlered Root-Hearth of the White Stag, Sacred Grove Beacon, Antler Arches Sovereign Registry Court, and the five-section district spine turn local identity into functional civic space.",
+    "primaryEmotion": "source-backed civic presence",
+    "secondaryEmotion": "lived-in pressure beneath landmark order",
+    "readerTakeaway": "Elarion Thicket should feel immediately identifiable through exact landmarks and materials, not through generic fantasy-city shorthand.",
+    "civilizationThesis": "Elarion Thicket organizes power through Antler Arches Sovereign Registry Court, public response through Sacred Grove Beacon, civic memory through Antlered Root-Hearth of the White Stag, and daily life through S1 Nature Preserve / Sacred Grove Civic Hall, S2 Religious / Temple Quarter Civic Hall, S3 Public Works Authority Hall, S4 Artisan Guilds Civic Hall, S5 High Residential Civic Hall.",
+    "visualIdentity": "Oak, Limestone Blocks, Timber, Arcane Glow, Antler, Forest, Root Network, Old Growth Woodland, Beast Bonding, Ancestor Guidance, Living Roots, and exact anchors including Antler Arches Sovereign Registry Court, Sacred Grove Beacon, Antlered Root-Hearth of the White Stag, Manor Court, Temple Platform, Guildhall, Nature Preserve / Sacred Grove Civic Hall, Hanging Gardens Monument, Living Canopy Hall Nook, Religious / Temple Quarter Civic Hall.",
+    "culturalIdentity": "A cervine antlered beastfolk civic culture where architecture, public obligations, roads, landmark approaches, and everyday work must all read as part of the same civilization.",
+    "symbolicIdentity": "The city symbol system is built from exact names and visible functions: Antlered Root-Hearth of the White Stag, Sacred Grove Beacon, Antler Arches Sovereign Registry Court, and section anchors such as Nature Preserve / Sacred Grove Civic Hall, Religious / Temple Quarter Civic Hall, Public Works Authority Hall, Artisan Guilds Civic Hall, High Residential Civic Hall."
   },
   "canon": {
     "canonLocks": [
-      "Elarion Thicket is a forest that gradually became a civilization, not a city imposed on woodland scenery.",
-      "The Wonder is the Antlered Root-Hearth of the White Stag.",
-      "The Beacon is the Sacred Grove Beacon.",
-      "The Seat of Power is the Antler Arches Sovereign Registry Court.",
-      "The five primary districts are Nature Preserve / Sacred Grove, Religious / Temple Quarter, Public Works Authority, Artisan Guilds, and High Residential.",
-      "The uploaded district anchors include Nature Preserve / Sacred Grove Civic Hall, Hanging Gardens Monument, Living Canopy Hall Nook, Religious / Temple Quarter Civic Hall, Temple Platform, Religious Temple Quarter Lantern Monument, Procession Stair Nook, Public Works Authority Hall, Survey Hall, Blue-Lamp Monument, Permit Yard Nook, Artisan Guilds Civic Hall, Guildhall, Woven Banners Monument, Masterwork Arcade Nook, High Residential Civic Hall, Manor Court, and Salon Pavilion Nook."
+      "Elarion Thicket uses city code ETT.",
+      "The Wonder is Antlered Root-Hearth of the White Stag.",
+      "The Beacon is Sacred Grove Beacon.",
+      "The Seat of Power is Antler Arches Sovereign Registry Court and occupies District 13.",
+      "The city uses five sections with five tactical district slots per section.",
+      "The source-backed section spine is: S1 Nature Preserve / Sacred Grove Civic Hall, S2 Religious / Temple Quarter Civic Hall, S3 Public Works Authority Hall, S4 Artisan Guilds Civic Hall, S5 High Residential Civic Hall.",
+      "Preserve exact anchor name: Antler Arches Sovereign Registry Court.",
+      "Preserve exact anchor name: Sacred Grove Beacon.",
+      "Preserve exact anchor name: Antlered Root-Hearth of the White Stag.",
+      "Preserve exact anchor name: Manor Court.",
+      "Preserve exact anchor name: Temple Platform.",
+      "Preserve exact anchor name: Guildhall.",
+      "Preserve exact anchor name: Nature Preserve / Sacred Grove Civic Hall.",
+      "Preserve exact anchor name: Hanging Gardens Monument.",
+      "Preserve exact anchor name: Living Canopy Hall Nook.",
+      "Preserve exact anchor name: Religious / Temple Quarter Civic Hall.",
+      "Preserve exact anchor name: Religious Temple Quarter Lantern Monument.",
+      "Preserve exact anchor name: Procession Stair Nook.",
+      "Preserve exact anchor name: Public Works Authority Hall.",
+      "Preserve exact anchor name: Survey Hall.",
+      "Preserve exact anchor name: Blue-Lamp Monument.",
+      "Preserve exact anchor name: Permit Yard Nook.",
+      "Preserve exact anchor name: Artisan Guilds Civic Hall.",
+      "Preserve exact anchor name: Woven Banners Monument.",
+      "Preserve exact anchor name: Masterwork Arcade Nook.",
+      "Preserve exact anchor name: High Residential Civic Hall.",
+      "Preserve exact anchor name: Salon Pavilion Nook."
     ],
-    "provisionalCanon": [
-      "Elarion Thicket's highest civic virtue is stewardship.",
-      "The central tension is settlement versus ecosystem balance.",
-      "Hanging Gardens Monument appearing in both sacred grove and high residential contexts suggests cultivated beauty is also a territorial claim."
+    "provisionalCanon": [],
+    "rejectedReads": [
+      "Do not treat Elarion Thicket as a generic fantasy settlement with renamed landmarks.",
+      "Do not collapse the five-section board into a single mood or single district.",
+      "Do not replace exact anchor names with generic summaries.",
+      "Do not invent missing street-section landmarks when a street source is absent."
     ],
-    "rejectedReads": ["Elarion Thicket is a primitive woodland village.", "Elarion Thicket is wilderness with decorations instead of a mature city.", "The stagfolk are passive nature spirits rather than territorial civic people.", "Guilds and public works can be treated as generic urban features."],
-    "cautionFlags": ["Do not separate the city from the forest; the forest is civic infrastructure.", "Keep sophistication visible through registry courts, guilds, public works, temples, and manor districts.", "Use peaceful default behavior with territorial pride, not generic gentleness.", "Preserve exact sidecar anchor names, especially Living Canopy Hall Nook, Religious Temple Quarter Lantern Monument, Masterwork Arcade Nook, and Salon Pavilion Nook."]
+    "cautionFlags": [
+      "Keep every named Wonder, Beacon, Seat, section civic hall, major landmark, monument, and minor nook exact when present in sidecars.",
+      "If an image appears to deviate from a sidecar, preserve the exact name but avoid overclaiming visual details not supported by the source package.",
+      "Every district asset should remain usable for narrative scenes, tactical board dioramas, and city map backgrounds."
+    ]
   },
   "environment": {
-    "terrain": ["ancient forest city", "sacred groves", "root-stone paths", "canopy terraces", "woodland clearings", "manor gardens", "public works yards"],
-    "water": ["garden channels", "rain-darkened paths", "grove springs", "woodland drainage", "mist on mossed stone"],
-    "vegetation": ["ancient canopy trees", "moss", "sacred groves", "hanging gardens", "forest herbs", "flowering gardens", "root systems"],
-    "climateLighting": ["mist-filtered forest daylight", "warm lantern light", "blue civic lamps", "sacred grove glow", "canopy shadow", "evening amber"],
-    "environmentalLogic": "The forest is the city's road system, memory system, defensive cover, spiritual ground, and civic limit. Built forms grow only where the ecosystem can absorb them."
+    "terrain": [
+      "Forest",
+      "Root Network",
+      "Old Growth Woodland"
+    ],
+    "water": [
+      "dry city ground"
+    ],
+    "vegetation": [
+      "courtyard trees",
+      "balcony planters",
+      "public greenery where visible",
+      "source-backed local vegetation only"
+    ],
+    "climateLighting": [
+      "Beast Bonding",
+      "Ancestor Guidance",
+      "Living Roots",
+      "daylight",
+      "golden hour",
+      "lantern light",
+      "civic beacon glow"
+    ],
+    "environmentalLogic": "The environment should make Elarion Thicket's exact civic anchors plausible at street scale: terrain routes people toward section landmarks, lighting clarifies public authority, and water or landscape features remain source-backed rather than decorative filler."
   },
   "architecture": {
-    "materials": ["living wood", "carved timber", "mossed stone", "root-wrapped masonry", "bronze fittings", "warm lantern glass", "blue civic lamps", "woven banners", "bark shingles", "garden terraces"],
-    "forms": ["Nature Preserve / Sacred Grove Civic Hall", "Sacred Grove Beacon", "Living Canopy Hall Nook", "Temple Platform", "Procession Stair Nook", "Survey Hall", "Permit Yard Nook", "Guildhall", "Masterwork Arcade Nook", "Manor Court", "Salon Pavilion Nook", "antlered arches", "root-hearth structures", "forest bridges"],
-    "skyline": ["Antlered Root-Hearth of the White Stag as natural-civic wonder anchor", "Antler Arches Sovereign Registry Court as central authority nested in forest form", "Sacred Grove Beacon visible through trees, mist, and ridge gaps", "guild halls, temple platforms, public works halls, and manor courts rising through canopy rather than dominating it"],
-    "lighting": ["mist-filtered daylight", "warm lanterns under branches", "blue civic lamps", "sacred grove glow", "amber guild windows", "rain-bright moss light"],
-    "infrastructure": ["woodland paths", "root-stabilized streets", "stone and timber bridges", "canopy walkways", "garden terraces", "public work yards", "permit courts", "artisan arcades", "procession stairs", "woodland drainage"],
-    "motifs": ["antlers", "white stags", "roots", "sacred groves", "hanging gardens", "lanterns", "woven banners", "canopy halls", "forest bridges", "mossed stone", "blue lamps"],
-    "colorLanguage": ["forest green", "moss green", "warm timber brown", "lantern amber", "blue civic light", "weathered stone gray", "woven banner color"],
-    "textureLanguage": ["mossed stone", "living bark", "carved timber", "root-wrapped masonry", "woven cloth", "wet leaves", "garden soil", "lantern glass"]
+    "materials": [
+      "Oak",
+      "Limestone Blocks",
+      "Timber",
+      "Arcane Glow",
+      "Antler"
+    ],
+    "forms": [
+      "Antler Arches Sovereign Registry Court",
+      "Sacred Grove Beacon",
+      "Antlered Root-Hearth of the White Stag",
+      "Manor Court",
+      "Temple Platform",
+      "Guildhall",
+      "Nature Preserve / Sacred Grove Civic Hall",
+      "Hanging Gardens Monument",
+      "Living Canopy Hall Nook",
+      "Religious / Temple Quarter Civic Hall",
+      "Religious Temple Quarter Lantern Monument",
+      "Procession Stair Nook",
+      "Public Works Authority Hall",
+      "Survey Hall",
+      "Blue-Lamp Monument",
+      "Permit Yard Nook",
+      "Artisan Guilds Civic Hall",
+      "Woven Banners Monument",
+      "Masterwork Arcade Nook",
+      "High Residential Civic Hall",
+      "Salon Pavilion Nook",
+      "section civic halls",
+      "major landmark approaches",
+      "monument frontages",
+      "minor landmark nooks",
+      "district roads and plazas",
+      "D13 authority complex"
+    ],
+    "skyline": [
+      "Antlered Root-Hearth of the White Stag",
+      "Antler Arches Sovereign Registry Court",
+      "Sacred Grove Beacon",
+      "Manor Court",
+      "Temple Platform",
+      "Guildhall",
+      "Nature Preserve / Sacred Grove Civic Hall",
+      "Hanging Gardens Monument",
+      "Living Canopy Hall Nook"
+    ],
+    "lighting": [
+      "Beast Bonding",
+      "Ancestor Guidance",
+      "Living Roots",
+      "beacon-state light",
+      "lantern-lit civic paths",
+      "street-level shop and housing light"
+    ],
+    "infrastructure": [
+      "Nature Preserve / Sacred Grove Civic Hall",
+      "Religious / Temple Quarter Civic Hall",
+      "Public Works Authority Hall",
+      "Artisan Guilds Civic Hall",
+      "High Residential Civic Hall",
+      "roads between district slots",
+      "public thresholds",
+      "plaza edges",
+      "records, permits, markets, services, or rituals implied by anchors"
+    ],
+    "motifs": [
+      "Antler",
+      "Arches",
+      "Sovereign",
+      "Registry",
+      "Court",
+      "Sacred",
+      "Grove",
+      "Beacon",
+      "Antlered",
+      "Root-Hearth",
+      "White",
+      "Stag",
+      "Manor",
+      "Temple",
+      "Platform"
+    ],
+    "colorLanguage": [
+      "source-backed material colors",
+      "civic blue signal accents",
+      "local textile, stone, metal, vegetation, or water colors from the image package"
+    ],
+    "textureLanguage": [
+      "Oak",
+      "Limestone Blocks",
+      "Timber",
+      "Arcane Glow",
+      "Antler",
+      "worn pedestrian surfaces",
+      "worked civic ornament",
+      "weathered public thresholds",
+      "lived-in shop and housing details"
+    ]
   },
   "civilization": {
-    "people": "Citizens are stagfolk: serene, observant, communally rooted, territorial, craft-aware, and peaceful by default without being passive.",
-    "occupations": ["grove tenders", "woodcarvers", "banner weavers", "lantern makers", "gardeners", "rootwrights", "public works surveyors", "permit clerks", "temple attendants", "guild artisans", "manor stewards"],
-    "socialClasses": ["registry stewards", "grove elders", "temple officials", "guild masters", "public works officials", "woodland manor families", "artisan households", "path workers", "garden laborers"],
-    "governance": "Authority is distributed stewardship: registry law, grove rights, survey permits, guild obligations, public works, and manor influence govern how the forest-city grows.",
-    "religion": "Religious life is grove-centered, white-stag symbolic, antler-marked, and inseparable from civic territory and seasonal stewardship rites.",
-    "customs": ["quiet grove passage", "seasonal forest rites", "public stewardship surveys", "permit disputes over path and grove rights", "guild demonstrations", "lantern tending", "territorial oath ceremonies"],
-    "bodyLanguage": ["calm watchfulness", "slow territorial confidence", "careful movement around roots", "respectful silence near groves", "antler-aware spacing", "measured guild gestures"],
-    "speechPatterns": ["place-name references", "grove-right language", "stewardship terms", "quiet formal petitions", "craft terminology", "oral memory phrases"]
+    "people": "The population should read as cervine antlered beastfolk and city-specific: citizens occupy streets, shops, public thresholds, and landmark approaches as people who understand the local civic order.",
+    "occupations": [
+      "ritual attendants",
+      "caretakers",
+      "district clerks",
+      "craft families",
+      "porters",
+      "maintenance workers",
+      "food sellers",
+      "messengers"
+    ],
+    "socialClasses": [
+      "D13 officials and court staff",
+      "section landmark custodians",
+      "guild and service families",
+      "shopkeepers and artisans",
+      "laborers, carriers, messengers, and maintenance crews",
+      "households tied to local district obligations"
+    ],
+    "governance": "Government is centered on Antler Arches Sovereign Registry Court. Its authority should be visible through courts, records, public access routes, civic lamps, guards or attendants, and the way citizens respond to D13.",
+    "religion": "Religious or ritual life should only be emphasized where source anchors support it, especially names such as Sacred Grove Beacon, Temple Platform, Nature Preserve / Sacred Grove Civic Hall, Religious / Temple Quarter Civic Hall, Religious Temple Quarter Lantern Monument.",
+    "customs": [
+      "citizens orient public life around Nature Preserve / Sacred Grove Civic Hall in Section 1",
+      "citizens orient public life around Religious / Temple Quarter Civic Hall in Section 2",
+      "citizens orient public life around Public Works Authority Hall in Section 3",
+      "citizens orient public life around Artisan Guilds Civic Hall in Section 4",
+      "citizens orient public life around High Residential Civic Hall in Section 5",
+      "beacon changes become public behavior, not background color",
+      "exact landmark names carry social memory and directions",
+      "civic errands happen visibly at thresholds, queues, ledgers, stalls, courts, or shrines"
+    ],
+    "bodyLanguage": [
+      "citizens pause at civic signals",
+      "workers move with practiced familiarity around district anchors",
+      "officials use thresholds and raised places to control attention",
+      "residents treat named landmarks as everyday orientation points"
+    ],
+    "speechPatterns": [
+      "directions use exact landmark names",
+      "public notices are tied to section anchors",
+      "local speech distinguishes civic authority, ordinary errands, and landmark obligations",
+      "people refer to D13 as the seat of power rather than a faction headquarters"
+    ]
   },
   "urbanLife": {
-    "streets": {"appearance": "Woodland paths made civic over centuries: root-edged stone, timber porches, lanterns under branches, mossed steps, garden walls, guild fronts, clearings, antler arches, and canopy halls.", "movement": "Movement follows paths, stairs, forest bridges, canopy walks, garden terraces, grove clearings, processional stairs, public works yards, and local shortcuts rather than straight urban grids.", "sounds": ["wind through leaves", "soft hoof traffic on root-stone paths", "wooden shutters", "distant bells", "lantern chains", "artisan tools", "low market voices", "birds and insects", "garden water"], "smells": ["damp moss", "fresh leaves", "carved wood", "lantern oil", "forest herbs", "wet stone", "flowering gardens", "woodsmoke", "earth after rain"], "lighting": "Daylight breaks through canopy and mist in patches; night is warm lanterns and blue civic lamps glowing beneath branches.", "weatherEffects": "Rain darkens bark and stone, brightens moss, muffles the city, and makes lantern paths feel protected rather than wild.", "dayCycle": "Mornings begin with mist, grove tending, path maintenance, public works surveys, guild stalls, and quiet registry business.", "nightCycle": "Night is lanterned groves, muffled forest sound, closing guild stalls, blue civic lamps, temple processions, and protected paths."},
-    "shops": {"common": ["woodcarvers", "banner weavers", "herbalists", "lantern makers", "gardeners' stalls", "forest food carts", "cloak and leather makers"], "uncommon": ["rootwright shops", "ceremonial antler artisans", "permit counters", "grove-right copyists", "living-wood joiners"], "prestigious": ["guild master halls", "sovereign registry counters", "temple craft houses", "manor garden suppliers", "white-stag ceremonial workshops"], "exports": ["woodcraft", "woven banners", "lanterns", "herbal goods", "garden craft", "ceremonial antler work", "forest stewardship expertise"], "imports": ["metal fittings", "fine cloth", "salt", "paper", "ink", "stone tools", "rare dyes"], "streetFood": ["forest mushrooms", "herb bread", "root vegetable stew", "berry cakes", "nut-flour pastries", "garden tea", "honeyed fruit", "leaf-wrapped snacks"], "services": ["grove tending", "path surveys", "permit filing", "wood repair", "guild certification", "garden maintenance", "lantern tending", "territorial registry"]},
-    "housing": {"wealthy": "Woodland manor courts with garden terraces, salon pavilions, carved antler lintels, private groves, hanging garden views, and lanterned approaches that remain integrated with the forest.", "middle": "Guild homes, timber-and-stone houses, garden courtyards, branch-shadowed balconies, root foundations, and workshops beside civic paths.", "poor": "Small root-edge dwellings, shared garden courts, mossed stone rooms, simple lantern porches, and compact homes near public works yards or path margins."}
+    "streets": {
+      "appearance": "Streets should show Elarion Thicket's exact anchor system at pedestrian scale: S1 Nature Preserve / Sacred Grove Civic Hall, S2 Religious / Temple Quarter Civic Hall, S3 Public Works Authority Hall, S4 Artisan Guilds Civic Hall, S5 High Residential Civic Hall. Keep roads, plazas, stairs, thresholds, lamps, signs-without-readable-text, props, and civilians aligned to the source-backed materials and landmarks.",
+      "movement": "Movement should be readable for tactical-board assets: citizens pass between 25 district slots, section anchors, D13, service streets, and landmark approaches without visual clutter hiding the civic purpose.",
+      "sounds": [
+        "foot traffic",
+        "vendors and service calls",
+        "tools and carts",
+        "public notices",
+        "landmark-specific sounds from water, bells, animals, machines, or crowds when source-backed",
+        "beacon-state crowd reactions"
+      ],
+      "smells": [
+        "street food",
+        "worked material dust",
+        "lamp oil or smoke",
+        "vegetation or water where source-backed",
+        "worn stone, timber, metal, plaster, or fabric"
+      ],
+      "lighting": "Use the package's source-backed civic lighting, daylight/golden-hour reads, lanterns, and beacon glow. Lighting must help identify authority, safety, and landmark function.",
+      "weatherEffects": "Weather should reinforce the local terrain and materials without overwhelming the city identity or inventing unsupported climate extremes.",
+      "dayCycle": "Day scenes emphasize errands, trade, records, repairs, rituals, food, and section-level movement.",
+      "nightCycle": "Night scenes emphasize lantern routes, closed thresholds, guarded landmarks, quiet work, and beacon visibility."
+    },
+    "shops": {
+      "common": [
+        "food stalls",
+        "repair stalls",
+        "material vendors",
+        "ledger or permit desks",
+        "local craft counters",
+        "street services tied to section anchors"
+      ],
+      "uncommon": [
+        "specialist landmark caretakers",
+        "instrument makers",
+        "ritual suppliers",
+        "map or record copyists",
+        "district-specific guild services"
+      ],
+      "prestigious": [
+        "D13-facing legal or registry services",
+        "elite craft workshops",
+        "landmark commission houses",
+        "official suppliers for civic ceremonies"
+      ],
+      "exports": [
+        "local crafts",
+        "records or seals",
+        "finished materials",
+        "food goods",
+        "specialized tools or ritual goods as supported by anchors"
+      ],
+      "imports": [
+        "rare materials",
+        "dyes, oils, spices, timber, stone, metal, glass, or cloth as needed by the architecture",
+        "outside records and trade goods"
+      ],
+      "streetFood": [
+        "flatbread or local bread",
+        "stew or grilled skewers",
+        "fruit or preserved food",
+        "tea or civic-square drinks",
+        "portable worker meals"
+      ],
+      "services": [
+        "directions by landmark",
+        "message running",
+        "permit help",
+        "repairs",
+        "food service",
+        "transport or porterage",
+        "public notice posting"
+      ]
+    },
+    "housing": {
+      "wealthy": "Prestige housing clusters near Antler Arches Sovereign Registry Court, high terraces, or landmark-facing routes, using the best source-backed materials and controlled views of civic space.",
+      "middle": "Shop-over-house units, courtyard homes, guild-adjacent apartments, and family rooms near section anchors.",
+      "poor": "Smaller back-street rooms, work-adjacent housing, shared courtyards, service alleys, patched materials, and dense but still city-specific lived-in detail."
+    }
   },
   "districts": [
-    {"sectionNumber": 1, "name": "Nature Preserve / Sacred Grove", "civicPurpose": "Spiritual-ecological core, public signal identity, grove memory, and shared stewardship focus.", "visualIdentity": "Nature Preserve / Sacred Grove Civic Hall, Sacred Grove Beacon, Hanging Gardens Monument, Living Canopy Hall Nook, ancient trees, blue-green light, roots, lanterns, and quiet paths.", "emotionalIdentity": "Reverent, alive, watchful, and protective.", "gameplayAssetNeeds": ["Nature Preserve / Sacred Grove Civic Hall", "Sacred Grove Beacon", "Hanging Gardens Monument", "Living Canopy Hall Nook", "ancient trees", "grove tenders", "lantern paths"], "narrativeUse": ["Beacon warning", "grove rite", "public silence", "path orientation", "stewardship test"], "landmark": "Sacred Grove Beacon", "minorLandmarks": ["Hanging Gardens Monument", "Living Canopy Hall Nook"]},
-    {"sectionNumber": 2, "name": "Religious / Temple Quarter", "civicPurpose": "Ritual processions, seasonal rites, sacred teaching, and public ceremonial continuity.", "visualIdentity": "Religious / Temple Quarter Civic Hall, Temple Platform, Religious Temple Quarter Lantern Monument, Procession Stair Nook, carved timber, antler details, mossed stone, and warm ritual light.", "emotionalIdentity": "Ceremonial, quiet, and old.", "gameplayAssetNeeds": ["Religious / Temple Quarter Civic Hall", "Temple Platform", "Religious Temple Quarter Lantern Monument", "Procession Stair Nook", "temple attendants", "ritual banners"], "narrativeUse": ["processions", "seasonal rites", "sacred counsel", "public ceremony"], "landmark": "Temple Platform", "minorLandmarks": ["Religious Temple Quarter Lantern Monument", "Procession Stair Nook"]},
-    {"sectionNumber": 3, "name": "Public Works Authority", "civicPurpose": "Stewardship bureaucracy, path maintenance, surveys, permits, drainage, and civic growth control.", "visualIdentity": "Public Works Authority Hall, Survey Hall, Blue-Lamp Monument, Permit Yard Nook, maps, tools, root-stone boundaries, and practical civic yards.", "emotionalIdentity": "Practical, measured, and quietly authoritative.", "gameplayAssetNeeds": ["Public Works Authority Hall", "Survey Hall", "Blue-Lamp Monument", "Permit Yard Nook", "survey tools", "permit clerks", "path workers"], "narrativeUse": ["permit dispute", "public works clue", "stewardship ruling", "route control"], "landmark": "Survey Hall", "minorLandmarks": ["Blue-Lamp Monument", "Permit Yard Nook"]},
-    {"sectionNumber": 4, "name": "Artisan Guilds", "civicPurpose": "Craft production, guild legitimacy, public making, and woodland trade.", "visualIdentity": "Artisan Guilds Civic Hall, Guildhall, Woven Banners Monument, Masterwork Arcade Nook, carved stalls, woodcraft, lanterns, and market clearings.", "emotionalIdentity": "Skilled, warm, communal, and prideful.", "gameplayAssetNeeds": ["Artisan Guilds Civic Hall", "Guildhall", "Woven Banners Monument", "Masterwork Arcade Nook", "woodcarvers", "weavers", "guild stalls"], "narrativeUse": ["craft proof", "guild politics", "market scene", "artisan clue"], "landmark": "Guildhall", "minorLandmarks": ["Woven Banners Monument", "Masterwork Arcade Nook"]},
-    {"sectionNumber": 5, "name": "High Residential", "civicPurpose": "Status, manor influence, domestic refinement, gardened hospitality, and quiet social hierarchy.", "visualIdentity": "High Residential Civic Hall, Manor Court, Hanging Gardens Monument, Salon Pavilion Nook, garden terraces, lanterned porches, carved antler lintels, and private grove edges.", "emotionalIdentity": "Refined, quiet, watchful, and socially territorial.", "gameplayAssetNeeds": ["High Residential Civic Hall", "Manor Court", "Hanging Gardens Monument", "Salon Pavilion Nook", "garden terraces", "wealthy stagfolk", "private grove paths"], "narrativeUse": ["class pressure", "quiet influence", "domestic stakes", "manor negotiation"], "landmark": "Manor Court", "minorLandmarks": ["Hanging Gardens Monument", "Salon Pavilion Nook"]}
+    {
+      "districtNumber": 1,
+      "districtId": "D01",
+      "sectionNumber": 1,
+      "name": "D01 — Nature Preserve / Sacred Grove Civic Hall Civic-Anchor Precinct",
+      "civicPurpose": "This district turns Section 1's source-backed anchor set into a board-scale civic space: Nature Preserve / Sacred Grove Civic Hall, Sacred Grove Beacon, Hanging Gardens Monument, Living Canopy Hall Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Elarion Thicket.",
+      "visualIdentity": "Use Nature Preserve / Sacred Grove Civic Hall as the main read. Keep exact source anchors visible where applicable: Nature Preserve / Sacred Grove Civic Hall, Sacred Grove Beacon, Hanging Gardens Monument, Living Canopy Hall Nook. The district should share Elarion Thicket's cervine antlered beastfolk identity, Oak, Limestone Blocks, Timber, Arcane Glow, and Forest, Root Network, Old Growth Woodland without becoming generic.",
+      "emotionalIdentity": "Locally grounded, with Elarion Thicket's larger mood shaped by Antlered Root-Hearth of the White Stag, Sacred Grove Beacon, and Antler Arches Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Nature Preserve / Sacred Grove Civic Hall",
+        "Sacred Grove Beacon",
+        "Hanging Gardens Monument",
+        "Living Canopy Hall Nook",
+        "Section 1 pedestrian-scale props",
+        "Elarion Thicket civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Nature Preserve / Sacred Grove Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Nature Preserve / Sacred Grove Civic Hall",
+      "minorLandmarks": [
+        "Sacred Grove Beacon",
+        "Hanging Gardens Monument",
+        "Living Canopy Hall Nook"
+      ]
+    },
+    {
+      "districtNumber": 2,
+      "districtId": "D02",
+      "sectionNumber": 1,
+      "name": "D02 — Sacred Grove Beacon Landmark Approach",
+      "civicPurpose": "This district turns Section 1's source-backed anchor set into a board-scale civic space: Nature Preserve / Sacred Grove Civic Hall, Sacred Grove Beacon, Hanging Gardens Monument, Living Canopy Hall Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Elarion Thicket.",
+      "visualIdentity": "Use Sacred Grove Beacon as the main read. Keep exact source anchors visible where applicable: Nature Preserve / Sacred Grove Civic Hall, Sacred Grove Beacon, Hanging Gardens Monument, Living Canopy Hall Nook. The district should share Elarion Thicket's cervine antlered beastfolk identity, Oak, Limestone Blocks, Timber, Arcane Glow, and Forest, Root Network, Old Growth Woodland without becoming generic.",
+      "emotionalIdentity": "Public-facing, with Elarion Thicket's larger mood shaped by Antlered Root-Hearth of the White Stag, Sacred Grove Beacon, and Antler Arches Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Sacred Grove Beacon",
+        "Nature Preserve / Sacred Grove Civic Hall",
+        "Hanging Gardens Monument",
+        "Living Canopy Hall Nook",
+        "Section 1 pedestrian-scale props",
+        "Elarion Thicket civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Sacred Grove Beacon",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "Conjunction response, rumor spread, or authority pressure"
+      ],
+      "landmark": "Sacred Grove Beacon",
+      "minorLandmarks": [
+        "Nature Preserve / Sacred Grove Civic Hall",
+        "Hanging Gardens Monument",
+        "Living Canopy Hall Nook"
+      ]
+    },
+    {
+      "districtNumber": 3,
+      "districtId": "D03",
+      "sectionNumber": 1,
+      "name": "D03 — Hanging Gardens Monument Monument Frontage",
+      "civicPurpose": "This district turns Section 1's source-backed anchor set into a board-scale civic space: Nature Preserve / Sacred Grove Civic Hall, Sacred Grove Beacon, Hanging Gardens Monument, Living Canopy Hall Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Elarion Thicket.",
+      "visualIdentity": "Use Hanging Gardens Monument as the main read. Keep exact source anchors visible where applicable: Nature Preserve / Sacred Grove Civic Hall, Sacred Grove Beacon, Hanging Gardens Monument, Living Canopy Hall Nook. The district should share Elarion Thicket's cervine antlered beastfolk identity, Oak, Limestone Blocks, Timber, Arcane Glow, and Forest, Root Network, Old Growth Woodland without becoming generic.",
+      "emotionalIdentity": "Memorial or symbolic, with Elarion Thicket's larger mood shaped by Antlered Root-Hearth of the White Stag, Sacred Grove Beacon, and Antler Arches Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Hanging Gardens Monument",
+        "Nature Preserve / Sacred Grove Civic Hall",
+        "Sacred Grove Beacon",
+        "Living Canopy Hall Nook",
+        "Section 1 pedestrian-scale props",
+        "Elarion Thicket civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Hanging Gardens Monument",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Hanging Gardens Monument",
+      "minorLandmarks": [
+        "Nature Preserve / Sacred Grove Civic Hall",
+        "Sacred Grove Beacon",
+        "Living Canopy Hall Nook"
+      ]
+    },
+    {
+      "districtNumber": 6,
+      "districtId": "D06",
+      "sectionNumber": 1,
+      "name": "D06 — Living Canopy Hall Nook Neighborhood Nook",
+      "civicPurpose": "This district turns Section 1's source-backed anchor set into a board-scale civic space: Nature Preserve / Sacred Grove Civic Hall, Sacred Grove Beacon, Hanging Gardens Monument, Living Canopy Hall Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Elarion Thicket.",
+      "visualIdentity": "Use Living Canopy Hall Nook as the main read. Keep exact source anchors visible where applicable: Nature Preserve / Sacred Grove Civic Hall, Sacred Grove Beacon, Hanging Gardens Monument, Living Canopy Hall Nook. The district should share Elarion Thicket's cervine antlered beastfolk identity, Oak, Limestone Blocks, Timber, Arcane Glow, and Forest, Root Network, Old Growth Woodland without becoming generic.",
+      "emotionalIdentity": "Intimate and lived-in, with Elarion Thicket's larger mood shaped by Antlered Root-Hearth of the White Stag, Sacred Grove Beacon, and Antler Arches Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Living Canopy Hall Nook",
+        "Nature Preserve / Sacred Grove Civic Hall",
+        "Sacred Grove Beacon",
+        "Hanging Gardens Monument",
+        "Section 1 pedestrian-scale props",
+        "Elarion Thicket civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Living Canopy Hall Nook",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Living Canopy Hall Nook",
+      "minorLandmarks": [
+        "Nature Preserve / Sacred Grove Civic Hall",
+        "Sacred Grove Beacon",
+        "Hanging Gardens Monument"
+      ]
+    },
+    {
+      "districtNumber": 7,
+      "districtId": "D07",
+      "sectionNumber": 1,
+      "name": "D07 — Nature Preserve / Sacred Grove Civic Hall Supporting Streets",
+      "civicPurpose": "This district turns Section 1's source-backed anchor set into a board-scale civic space: Nature Preserve / Sacred Grove Civic Hall, Sacred Grove Beacon, Hanging Gardens Monument, Living Canopy Hall Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Elarion Thicket.",
+      "visualIdentity": "Use Nature Preserve / Sacred Grove Civic Hall as the main read. Keep exact source anchors visible where applicable: Nature Preserve / Sacred Grove Civic Hall, Sacred Grove Beacon, Hanging Gardens Monument, Living Canopy Hall Nook. The district should share Elarion Thicket's cervine antlered beastfolk identity, Oak, Limestone Blocks, Timber, Arcane Glow, and Forest, Root Network, Old Growth Woodland without becoming generic.",
+      "emotionalIdentity": "Connective and practical, with Elarion Thicket's larger mood shaped by Antlered Root-Hearth of the White Stag, Sacred Grove Beacon, and Antler Arches Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Nature Preserve / Sacred Grove Civic Hall",
+        "Sacred Grove Beacon",
+        "Hanging Gardens Monument",
+        "Living Canopy Hall Nook",
+        "Section 1 pedestrian-scale props",
+        "Elarion Thicket civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Nature Preserve / Sacred Grove Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Nature Preserve / Sacred Grove Civic Hall",
+      "minorLandmarks": [
+        "Sacred Grove Beacon",
+        "Hanging Gardens Monument",
+        "Living Canopy Hall Nook"
+      ]
+    },
+    {
+      "districtNumber": 4,
+      "districtId": "D04",
+      "sectionNumber": 2,
+      "name": "D04 — Religious / Temple Quarter Civic Hall Civic-Anchor Precinct",
+      "civicPurpose": "This district turns Section 2's source-backed anchor set into a board-scale civic space: Religious / Temple Quarter Civic Hall, Temple Platform, Religious Temple Quarter Lantern Monument, Procession Stair Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Elarion Thicket.",
+      "visualIdentity": "Use Religious / Temple Quarter Civic Hall as the main read. Keep exact source anchors visible where applicable: Religious / Temple Quarter Civic Hall, Temple Platform, Religious Temple Quarter Lantern Monument, Procession Stair Nook. The district should share Elarion Thicket's cervine antlered beastfolk identity, Oak, Limestone Blocks, Timber, Arcane Glow, and Forest, Root Network, Old Growth Woodland without becoming generic.",
+      "emotionalIdentity": "Locally grounded, with Elarion Thicket's larger mood shaped by Antlered Root-Hearth of the White Stag, Sacred Grove Beacon, and Antler Arches Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Religious / Temple Quarter Civic Hall",
+        "Temple Platform",
+        "Religious Temple Quarter Lantern Monument",
+        "Procession Stair Nook",
+        "Section 2 pedestrian-scale props",
+        "Elarion Thicket civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Religious / Temple Quarter Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Religious / Temple Quarter Civic Hall",
+      "minorLandmarks": [
+        "Temple Platform",
+        "Religious Temple Quarter Lantern Monument",
+        "Procession Stair Nook"
+      ]
+    },
+    {
+      "districtNumber": 5,
+      "districtId": "D05",
+      "sectionNumber": 2,
+      "name": "D05 — Temple Platform Landmark Approach",
+      "civicPurpose": "This district turns Section 2's source-backed anchor set into a board-scale civic space: Religious / Temple Quarter Civic Hall, Temple Platform, Religious Temple Quarter Lantern Monument, Procession Stair Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Elarion Thicket.",
+      "visualIdentity": "Use Temple Platform as the main read. Keep exact source anchors visible where applicable: Religious / Temple Quarter Civic Hall, Temple Platform, Religious Temple Quarter Lantern Monument, Procession Stair Nook. The district should share Elarion Thicket's cervine antlered beastfolk identity, Oak, Limestone Blocks, Timber, Arcane Glow, and Forest, Root Network, Old Growth Woodland without becoming generic.",
+      "emotionalIdentity": "Public-facing, with Elarion Thicket's larger mood shaped by Antlered Root-Hearth of the White Stag, Sacred Grove Beacon, and Antler Arches Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Temple Platform",
+        "Religious / Temple Quarter Civic Hall",
+        "Religious Temple Quarter Lantern Monument",
+        "Procession Stair Nook",
+        "Section 2 pedestrian-scale props",
+        "Elarion Thicket civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Temple Platform",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Temple Platform",
+      "minorLandmarks": [
+        "Religious / Temple Quarter Civic Hall",
+        "Religious Temple Quarter Lantern Monument",
+        "Procession Stair Nook"
+      ]
+    },
+    {
+      "districtNumber": 9,
+      "districtId": "D09",
+      "sectionNumber": 2,
+      "name": "D09 — Religious Temple Quarter Lantern Monument Monument Frontage",
+      "civicPurpose": "This district turns Section 2's source-backed anchor set into a board-scale civic space: Religious / Temple Quarter Civic Hall, Temple Platform, Religious Temple Quarter Lantern Monument, Procession Stair Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Elarion Thicket.",
+      "visualIdentity": "Use Religious Temple Quarter Lantern Monument as the main read. Keep exact source anchors visible where applicable: Religious / Temple Quarter Civic Hall, Temple Platform, Religious Temple Quarter Lantern Monument, Procession Stair Nook. The district should share Elarion Thicket's cervine antlered beastfolk identity, Oak, Limestone Blocks, Timber, Arcane Glow, and Forest, Root Network, Old Growth Woodland without becoming generic.",
+      "emotionalIdentity": "Memorial or symbolic, with Elarion Thicket's larger mood shaped by Antlered Root-Hearth of the White Stag, Sacred Grove Beacon, and Antler Arches Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Religious Temple Quarter Lantern Monument",
+        "Religious / Temple Quarter Civic Hall",
+        "Temple Platform",
+        "Procession Stair Nook",
+        "Section 2 pedestrian-scale props",
+        "Elarion Thicket civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Religious Temple Quarter Lantern Monument",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Religious Temple Quarter Lantern Monument",
+      "minorLandmarks": [
+        "Religious / Temple Quarter Civic Hall",
+        "Temple Platform",
+        "Procession Stair Nook"
+      ]
+    },
+    {
+      "districtNumber": 10,
+      "districtId": "D10",
+      "sectionNumber": 2,
+      "name": "D10 — Procession Stair Nook Neighborhood Nook",
+      "civicPurpose": "This district turns Section 2's source-backed anchor set into a board-scale civic space: Religious / Temple Quarter Civic Hall, Temple Platform, Religious Temple Quarter Lantern Monument, Procession Stair Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Elarion Thicket.",
+      "visualIdentity": "Use Procession Stair Nook as the main read. Keep exact source anchors visible where applicable: Religious / Temple Quarter Civic Hall, Temple Platform, Religious Temple Quarter Lantern Monument, Procession Stair Nook. The district should share Elarion Thicket's cervine antlered beastfolk identity, Oak, Limestone Blocks, Timber, Arcane Glow, and Forest, Root Network, Old Growth Woodland without becoming generic.",
+      "emotionalIdentity": "Intimate and lived-in, with Elarion Thicket's larger mood shaped by Antlered Root-Hearth of the White Stag, Sacred Grove Beacon, and Antler Arches Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Procession Stair Nook",
+        "Religious / Temple Quarter Civic Hall",
+        "Temple Platform",
+        "Religious Temple Quarter Lantern Monument",
+        "Section 2 pedestrian-scale props",
+        "Elarion Thicket civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Procession Stair Nook",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Procession Stair Nook",
+      "minorLandmarks": [
+        "Religious / Temple Quarter Civic Hall",
+        "Temple Platform",
+        "Religious Temple Quarter Lantern Monument"
+      ]
+    },
+    {
+      "districtNumber": 15,
+      "districtId": "D15",
+      "sectionNumber": 2,
+      "name": "D15 — Religious / Temple Quarter Civic Hall Supporting Streets",
+      "civicPurpose": "This district turns Section 2's source-backed anchor set into a board-scale civic space: Religious / Temple Quarter Civic Hall, Temple Platform, Religious Temple Quarter Lantern Monument, Procession Stair Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Elarion Thicket.",
+      "visualIdentity": "Use Religious / Temple Quarter Civic Hall as the main read. Keep exact source anchors visible where applicable: Religious / Temple Quarter Civic Hall, Temple Platform, Religious Temple Quarter Lantern Monument, Procession Stair Nook. The district should share Elarion Thicket's cervine antlered beastfolk identity, Oak, Limestone Blocks, Timber, Arcane Glow, and Forest, Root Network, Old Growth Woodland without becoming generic.",
+      "emotionalIdentity": "Connective and practical, with Elarion Thicket's larger mood shaped by Antlered Root-Hearth of the White Stag, Sacred Grove Beacon, and Antler Arches Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Religious / Temple Quarter Civic Hall",
+        "Temple Platform",
+        "Religious Temple Quarter Lantern Monument",
+        "Procession Stair Nook",
+        "Section 2 pedestrian-scale props",
+        "Elarion Thicket civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Religious / Temple Quarter Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Religious / Temple Quarter Civic Hall",
+      "minorLandmarks": [
+        "Temple Platform",
+        "Religious Temple Quarter Lantern Monument",
+        "Procession Stair Nook"
+      ]
+    },
+    {
+      "districtNumber": 8,
+      "districtId": "D08",
+      "sectionNumber": 3,
+      "name": "D08 — Public Works Authority Hall Civic-Anchor Precinct",
+      "civicPurpose": "This district turns Section 3's source-backed anchor set into a board-scale civic space: Public Works Authority Hall, Survey Hall, Blue-Lamp Monument, Permit Yard Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Elarion Thicket.",
+      "visualIdentity": "Use Public Works Authority Hall as the main read. Keep exact source anchors visible where applicable: Public Works Authority Hall, Survey Hall, Blue-Lamp Monument, Permit Yard Nook. The district should share Elarion Thicket's cervine antlered beastfolk identity, Oak, Limestone Blocks, Timber, Arcane Glow, and Forest, Root Network, Old Growth Woodland without becoming generic.",
+      "emotionalIdentity": "Locally grounded, with Elarion Thicket's larger mood shaped by Antlered Root-Hearth of the White Stag, Sacred Grove Beacon, and Antler Arches Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Public Works Authority Hall",
+        "Survey Hall",
+        "Blue-Lamp Monument",
+        "Permit Yard Nook",
+        "Section 3 pedestrian-scale props",
+        "Elarion Thicket civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Public Works Authority Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Public Works Authority Hall",
+      "minorLandmarks": [
+        "Survey Hall",
+        "Blue-Lamp Monument",
+        "Permit Yard Nook"
+      ]
+    },
+    {
+      "districtNumber": 12,
+      "districtId": "D12",
+      "sectionNumber": 3,
+      "name": "D12 — Survey Hall Landmark Approach",
+      "civicPurpose": "This district turns Section 3's source-backed anchor set into a board-scale civic space: Public Works Authority Hall, Survey Hall, Blue-Lamp Monument, Permit Yard Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Elarion Thicket.",
+      "visualIdentity": "Use Survey Hall as the main read. Keep exact source anchors visible where applicable: Public Works Authority Hall, Survey Hall, Blue-Lamp Monument, Permit Yard Nook. The district should share Elarion Thicket's cervine antlered beastfolk identity, Oak, Limestone Blocks, Timber, Arcane Glow, and Forest, Root Network, Old Growth Woodland without becoming generic.",
+      "emotionalIdentity": "Public-facing, with Elarion Thicket's larger mood shaped by Antlered Root-Hearth of the White Stag, Sacred Grove Beacon, and Antler Arches Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Survey Hall",
+        "Public Works Authority Hall",
+        "Blue-Lamp Monument",
+        "Permit Yard Nook",
+        "Section 3 pedestrian-scale props",
+        "Elarion Thicket civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Survey Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Survey Hall",
+      "minorLandmarks": [
+        "Public Works Authority Hall",
+        "Blue-Lamp Monument",
+        "Permit Yard Nook"
+      ]
+    },
+    {
+      "districtNumber": 13,
+      "districtId": "D13",
+      "sectionNumber": 3,
+      "name": "D13 — Antler Arches Sovereign Registry Court Seat of Power District",
+      "civicPurpose": "This district turns Section 3's source-backed anchor set into a board-scale civic space: Public Works Authority Hall, Survey Hall, Blue-Lamp Monument, Permit Yard Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Elarion Thicket.",
+      "visualIdentity": "Use Antler Arches Sovereign Registry Court as the main read. Keep exact source anchors visible where applicable: Public Works Authority Hall, Survey Hall, Blue-Lamp Monument, Permit Yard Nook. The district should share Elarion Thicket's cervine antlered beastfolk identity, Oak, Limestone Blocks, Timber, Arcane Glow, and Forest, Root Network, Old Growth Woodland without becoming generic.",
+      "emotionalIdentity": "Memorial or symbolic, with Elarion Thicket's larger mood shaped by Antlered Root-Hearth of the White Stag, Sacred Grove Beacon, and Antler Arches Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Antler Arches Sovereign Registry Court",
+        "Public Works Authority Hall",
+        "Survey Hall",
+        "Blue-Lamp Monument",
+        "Permit Yard Nook",
+        "Section 3 pedestrian-scale props",
+        "Elarion Thicket civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Antler Arches Sovereign Registry Court",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "Conjunction response, rumor spread, or authority pressure"
+      ],
+      "landmark": "Antler Arches Sovereign Registry Court",
+      "minorLandmarks": [
+        "Public Works Authority Hall",
+        "Survey Hall",
+        "Blue-Lamp Monument",
+        "Permit Yard Nook"
+      ]
+    },
+    {
+      "districtNumber": 14,
+      "districtId": "D14",
+      "sectionNumber": 3,
+      "name": "D14 — Permit Yard Nook Neighborhood Nook",
+      "civicPurpose": "This district turns Section 3's source-backed anchor set into a board-scale civic space: Public Works Authority Hall, Survey Hall, Blue-Lamp Monument, Permit Yard Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Elarion Thicket.",
+      "visualIdentity": "Use Permit Yard Nook as the main read. Keep exact source anchors visible where applicable: Public Works Authority Hall, Survey Hall, Blue-Lamp Monument, Permit Yard Nook. The district should share Elarion Thicket's cervine antlered beastfolk identity, Oak, Limestone Blocks, Timber, Arcane Glow, and Forest, Root Network, Old Growth Woodland without becoming generic.",
+      "emotionalIdentity": "Intimate and lived-in, with Elarion Thicket's larger mood shaped by Antlered Root-Hearth of the White Stag, Sacred Grove Beacon, and Antler Arches Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Permit Yard Nook",
+        "Public Works Authority Hall",
+        "Survey Hall",
+        "Blue-Lamp Monument",
+        "Section 3 pedestrian-scale props",
+        "Elarion Thicket civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Permit Yard Nook",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Permit Yard Nook",
+      "minorLandmarks": [
+        "Public Works Authority Hall",
+        "Survey Hall",
+        "Blue-Lamp Monument"
+      ]
+    },
+    {
+      "districtNumber": 18,
+      "districtId": "D18",
+      "sectionNumber": 3,
+      "name": "D18 — Public Works Authority Hall Supporting Streets",
+      "civicPurpose": "This district turns Section 3's source-backed anchor set into a board-scale civic space: Public Works Authority Hall, Survey Hall, Blue-Lamp Monument, Permit Yard Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Elarion Thicket.",
+      "visualIdentity": "Use Public Works Authority Hall as the main read. Keep exact source anchors visible where applicable: Public Works Authority Hall, Survey Hall, Blue-Lamp Monument, Permit Yard Nook. The district should share Elarion Thicket's cervine antlered beastfolk identity, Oak, Limestone Blocks, Timber, Arcane Glow, and Forest, Root Network, Old Growth Woodland without becoming generic.",
+      "emotionalIdentity": "Connective and practical, with Elarion Thicket's larger mood shaped by Antlered Root-Hearth of the White Stag, Sacred Grove Beacon, and Antler Arches Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Public Works Authority Hall",
+        "Survey Hall",
+        "Blue-Lamp Monument",
+        "Permit Yard Nook",
+        "Section 3 pedestrian-scale props",
+        "Elarion Thicket civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Public Works Authority Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Public Works Authority Hall",
+      "minorLandmarks": [
+        "Survey Hall",
+        "Blue-Lamp Monument",
+        "Permit Yard Nook"
+      ]
+    },
+    {
+      "districtNumber": 11,
+      "districtId": "D11",
+      "sectionNumber": 4,
+      "name": "D11 — Artisan Guilds Civic Hall Civic-Anchor Precinct",
+      "civicPurpose": "This district turns Section 4's source-backed anchor set into a board-scale civic space: Artisan Guilds Civic Hall, Guildhall, Woven Banners Monument, Masterwork Arcade Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Elarion Thicket.",
+      "visualIdentity": "Use Artisan Guilds Civic Hall as the main read. Keep exact source anchors visible where applicable: Artisan Guilds Civic Hall, Guildhall, Woven Banners Monument, Masterwork Arcade Nook. The district should share Elarion Thicket's cervine antlered beastfolk identity, Oak, Limestone Blocks, Timber, Arcane Glow, and Forest, Root Network, Old Growth Woodland without becoming generic.",
+      "emotionalIdentity": "Locally grounded, with Elarion Thicket's larger mood shaped by Antlered Root-Hearth of the White Stag, Sacred Grove Beacon, and Antler Arches Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Artisan Guilds Civic Hall",
+        "Guildhall",
+        "Woven Banners Monument",
+        "Masterwork Arcade Nook",
+        "Section 4 pedestrian-scale props",
+        "Elarion Thicket civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Artisan Guilds Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Artisan Guilds Civic Hall",
+      "minorLandmarks": [
+        "Guildhall",
+        "Woven Banners Monument",
+        "Masterwork Arcade Nook"
+      ]
+    },
+    {
+      "districtNumber": 16,
+      "districtId": "D16",
+      "sectionNumber": 4,
+      "name": "D16 — Guildhall Landmark Approach",
+      "civicPurpose": "This district turns Section 4's source-backed anchor set into a board-scale civic space: Artisan Guilds Civic Hall, Guildhall, Woven Banners Monument, Masterwork Arcade Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Elarion Thicket.",
+      "visualIdentity": "Use Guildhall as the main read. Keep exact source anchors visible where applicable: Artisan Guilds Civic Hall, Guildhall, Woven Banners Monument, Masterwork Arcade Nook. The district should share Elarion Thicket's cervine antlered beastfolk identity, Oak, Limestone Blocks, Timber, Arcane Glow, and Forest, Root Network, Old Growth Woodland without becoming generic.",
+      "emotionalIdentity": "Public-facing, with Elarion Thicket's larger mood shaped by Antlered Root-Hearth of the White Stag, Sacred Grove Beacon, and Antler Arches Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Guildhall",
+        "Artisan Guilds Civic Hall",
+        "Woven Banners Monument",
+        "Masterwork Arcade Nook",
+        "Section 4 pedestrian-scale props",
+        "Elarion Thicket civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Guildhall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Guildhall",
+      "minorLandmarks": [
+        "Artisan Guilds Civic Hall",
+        "Woven Banners Monument",
+        "Masterwork Arcade Nook"
+      ]
+    },
+    {
+      "districtNumber": 17,
+      "districtId": "D17",
+      "sectionNumber": 4,
+      "name": "D17 — Woven Banners Monument Monument Frontage",
+      "civicPurpose": "This district turns Section 4's source-backed anchor set into a board-scale civic space: Artisan Guilds Civic Hall, Guildhall, Woven Banners Monument, Masterwork Arcade Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Elarion Thicket.",
+      "visualIdentity": "Use Woven Banners Monument as the main read. Keep exact source anchors visible where applicable: Artisan Guilds Civic Hall, Guildhall, Woven Banners Monument, Masterwork Arcade Nook. The district should share Elarion Thicket's cervine antlered beastfolk identity, Oak, Limestone Blocks, Timber, Arcane Glow, and Forest, Root Network, Old Growth Woodland without becoming generic.",
+      "emotionalIdentity": "Memorial or symbolic, with Elarion Thicket's larger mood shaped by Antlered Root-Hearth of the White Stag, Sacred Grove Beacon, and Antler Arches Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Woven Banners Monument",
+        "Artisan Guilds Civic Hall",
+        "Guildhall",
+        "Masterwork Arcade Nook",
+        "Section 4 pedestrian-scale props",
+        "Elarion Thicket civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Woven Banners Monument",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Woven Banners Monument",
+      "minorLandmarks": [
+        "Artisan Guilds Civic Hall",
+        "Guildhall",
+        "Masterwork Arcade Nook"
+      ]
+    },
+    {
+      "districtNumber": 21,
+      "districtId": "D21",
+      "sectionNumber": 4,
+      "name": "D21 — Masterwork Arcade Nook Neighborhood Nook",
+      "civicPurpose": "This district turns Section 4's source-backed anchor set into a board-scale civic space: Artisan Guilds Civic Hall, Guildhall, Woven Banners Monument, Masterwork Arcade Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Elarion Thicket.",
+      "visualIdentity": "Use Masterwork Arcade Nook as the main read. Keep exact source anchors visible where applicable: Artisan Guilds Civic Hall, Guildhall, Woven Banners Monument, Masterwork Arcade Nook. The district should share Elarion Thicket's cervine antlered beastfolk identity, Oak, Limestone Blocks, Timber, Arcane Glow, and Forest, Root Network, Old Growth Woodland without becoming generic.",
+      "emotionalIdentity": "Intimate and lived-in, with Elarion Thicket's larger mood shaped by Antlered Root-Hearth of the White Stag, Sacred Grove Beacon, and Antler Arches Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Masterwork Arcade Nook",
+        "Artisan Guilds Civic Hall",
+        "Guildhall",
+        "Woven Banners Monument",
+        "Section 4 pedestrian-scale props",
+        "Elarion Thicket civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Masterwork Arcade Nook",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Masterwork Arcade Nook",
+      "minorLandmarks": [
+        "Artisan Guilds Civic Hall",
+        "Guildhall",
+        "Woven Banners Monument"
+      ]
+    },
+    {
+      "districtNumber": 22,
+      "districtId": "D22",
+      "sectionNumber": 4,
+      "name": "D22 — Artisan Guilds Civic Hall Supporting Streets",
+      "civicPurpose": "This district turns Section 4's source-backed anchor set into a board-scale civic space: Artisan Guilds Civic Hall, Guildhall, Woven Banners Monument, Masterwork Arcade Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Elarion Thicket.",
+      "visualIdentity": "Use Artisan Guilds Civic Hall as the main read. Keep exact source anchors visible where applicable: Artisan Guilds Civic Hall, Guildhall, Woven Banners Monument, Masterwork Arcade Nook. The district should share Elarion Thicket's cervine antlered beastfolk identity, Oak, Limestone Blocks, Timber, Arcane Glow, and Forest, Root Network, Old Growth Woodland without becoming generic.",
+      "emotionalIdentity": "Connective and practical, with Elarion Thicket's larger mood shaped by Antlered Root-Hearth of the White Stag, Sacred Grove Beacon, and Antler Arches Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Artisan Guilds Civic Hall",
+        "Guildhall",
+        "Woven Banners Monument",
+        "Masterwork Arcade Nook",
+        "Section 4 pedestrian-scale props",
+        "Elarion Thicket civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Artisan Guilds Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Artisan Guilds Civic Hall",
+      "minorLandmarks": [
+        "Guildhall",
+        "Woven Banners Monument",
+        "Masterwork Arcade Nook"
+      ]
+    },
+    {
+      "districtNumber": 19,
+      "districtId": "D19",
+      "sectionNumber": 5,
+      "name": "D19 — High Residential Civic Hall Civic-Anchor Precinct",
+      "civicPurpose": "This district turns Section 5's source-backed anchor set into a board-scale civic space: High Residential Civic Hall, Manor Court, Hanging Gardens Monument, Salon Pavilion Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Elarion Thicket.",
+      "visualIdentity": "Use High Residential Civic Hall as the main read. Keep exact source anchors visible where applicable: High Residential Civic Hall, Manor Court, Hanging Gardens Monument, Salon Pavilion Nook. The district should share Elarion Thicket's cervine antlered beastfolk identity, Oak, Limestone Blocks, Timber, Arcane Glow, and Forest, Root Network, Old Growth Woodland without becoming generic.",
+      "emotionalIdentity": "Locally grounded, with Elarion Thicket's larger mood shaped by Antlered Root-Hearth of the White Stag, Sacred Grove Beacon, and Antler Arches Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "High Residential Civic Hall",
+        "Manor Court",
+        "Hanging Gardens Monument",
+        "Salon Pavilion Nook",
+        "Section 5 pedestrian-scale props",
+        "Elarion Thicket civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on High Residential Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "High Residential Civic Hall",
+      "minorLandmarks": [
+        "Manor Court",
+        "Hanging Gardens Monument",
+        "Salon Pavilion Nook"
+      ]
+    },
+    {
+      "districtNumber": 20,
+      "districtId": "D20",
+      "sectionNumber": 5,
+      "name": "D20 — Manor Court Landmark Approach",
+      "civicPurpose": "This district turns Section 5's source-backed anchor set into a board-scale civic space: High Residential Civic Hall, Manor Court, Hanging Gardens Monument, Salon Pavilion Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Elarion Thicket.",
+      "visualIdentity": "Use Manor Court as the main read. Keep exact source anchors visible where applicable: High Residential Civic Hall, Manor Court, Hanging Gardens Monument, Salon Pavilion Nook. The district should share Elarion Thicket's cervine antlered beastfolk identity, Oak, Limestone Blocks, Timber, Arcane Glow, and Forest, Root Network, Old Growth Woodland without becoming generic.",
+      "emotionalIdentity": "Public-facing, with Elarion Thicket's larger mood shaped by Antlered Root-Hearth of the White Stag, Sacred Grove Beacon, and Antler Arches Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Manor Court",
+        "High Residential Civic Hall",
+        "Hanging Gardens Monument",
+        "Salon Pavilion Nook",
+        "Section 5 pedestrian-scale props",
+        "Elarion Thicket civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Manor Court",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Manor Court",
+      "minorLandmarks": [
+        "High Residential Civic Hall",
+        "Hanging Gardens Monument",
+        "Salon Pavilion Nook"
+      ]
+    },
+    {
+      "districtNumber": 23,
+      "districtId": "D23",
+      "sectionNumber": 5,
+      "name": "D23 — Hanging Gardens Monument Monument Frontage",
+      "civicPurpose": "This district turns Section 5's source-backed anchor set into a board-scale civic space: High Residential Civic Hall, Manor Court, Hanging Gardens Monument, Salon Pavilion Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Elarion Thicket.",
+      "visualIdentity": "Use Hanging Gardens Monument as the main read. Keep exact source anchors visible where applicable: High Residential Civic Hall, Manor Court, Hanging Gardens Monument, Salon Pavilion Nook. The district should share Elarion Thicket's cervine antlered beastfolk identity, Oak, Limestone Blocks, Timber, Arcane Glow, and Forest, Root Network, Old Growth Woodland without becoming generic.",
+      "emotionalIdentity": "Memorial or symbolic, with Elarion Thicket's larger mood shaped by Antlered Root-Hearth of the White Stag, Sacred Grove Beacon, and Antler Arches Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Hanging Gardens Monument",
+        "High Residential Civic Hall",
+        "Manor Court",
+        "Salon Pavilion Nook",
+        "Section 5 pedestrian-scale props",
+        "Elarion Thicket civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Hanging Gardens Monument",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Hanging Gardens Monument",
+      "minorLandmarks": [
+        "High Residential Civic Hall",
+        "Manor Court",
+        "Salon Pavilion Nook"
+      ]
+    },
+    {
+      "districtNumber": 24,
+      "districtId": "D24",
+      "sectionNumber": 5,
+      "name": "D24 — Salon Pavilion Nook Neighborhood Nook",
+      "civicPurpose": "This district turns Section 5's source-backed anchor set into a board-scale civic space: High Residential Civic Hall, Manor Court, Hanging Gardens Monument, Salon Pavilion Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Elarion Thicket.",
+      "visualIdentity": "Use Salon Pavilion Nook as the main read. Keep exact source anchors visible where applicable: High Residential Civic Hall, Manor Court, Hanging Gardens Monument, Salon Pavilion Nook. The district should share Elarion Thicket's cervine antlered beastfolk identity, Oak, Limestone Blocks, Timber, Arcane Glow, and Forest, Root Network, Old Growth Woodland without becoming generic.",
+      "emotionalIdentity": "Intimate and lived-in, with Elarion Thicket's larger mood shaped by Antlered Root-Hearth of the White Stag, Sacred Grove Beacon, and Antler Arches Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "Salon Pavilion Nook",
+        "High Residential Civic Hall",
+        "Manor Court",
+        "Hanging Gardens Monument",
+        "Section 5 pedestrian-scale props",
+        "Elarion Thicket civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Salon Pavilion Nook",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Salon Pavilion Nook",
+      "minorLandmarks": [
+        "High Residential Civic Hall",
+        "Manor Court",
+        "Hanging Gardens Monument"
+      ]
+    },
+    {
+      "districtNumber": 25,
+      "districtId": "D25",
+      "sectionNumber": 5,
+      "name": "D25 — High Residential Civic Hall Supporting Streets",
+      "civicPurpose": "This district turns Section 5's source-backed anchor set into a board-scale civic space: High Residential Civic Hall, Manor Court, Hanging Gardens Monument, Salon Pavilion Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Elarion Thicket.",
+      "visualIdentity": "Use High Residential Civic Hall as the main read. Keep exact source anchors visible where applicable: High Residential Civic Hall, Manor Court, Hanging Gardens Monument, Salon Pavilion Nook. The district should share Elarion Thicket's cervine antlered beastfolk identity, Oak, Limestone Blocks, Timber, Arcane Glow, and Forest, Root Network, Old Growth Woodland without becoming generic.",
+      "emotionalIdentity": "Connective and practical, with Elarion Thicket's larger mood shaped by Antlered Root-Hearth of the White Stag, Sacred Grove Beacon, and Antler Arches Sovereign Registry Court.",
+      "gameplayAssetNeeds": [
+        "High Residential Civic Hall",
+        "Manor Court",
+        "Hanging Gardens Monument",
+        "Salon Pavilion Nook",
+        "Section 5 pedestrian-scale props",
+        "Elarion Thicket civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on High Residential Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "High Residential Civic Hall",
+      "minorLandmarks": [
+        "Manor Court",
+        "Hanging Gardens Monument",
+        "Salon Pavilion Nook"
+      ]
+    }
   ],
   "landmarks": {
-    "wonder": {"name": "Antlered Root-Hearth of the White Stag", "symbolicRole": "Ancestry, territory, sacred grove, hearth, and woodland civilization made one living monument.", "visualRole": "Monumental root-and-antler structure integrated into canopy and earth, warmed by hearth light and marked by white-stag symbolism.", "civicRole": "Wonder-scale focus for seasonal rites, public gatherings, territorial oaths, coming-of-age observances, and memorial rituals.", "narrativeUse": ["sacred gathering", "territorial oath", "ancestral memory", "citywide ceremony"], "assetUse": ["map wonder", "sacred grove skyline anchor"], "sensoryIdentity": ["leaf wind", "hearth warmth", "damp roots", "lantern glow", "quiet bells"], "storyHooks": ["A white-stag rite forces the city to choose between growth and stewardship."]},
-    "beacon": {"name": "Sacred Grove Beacon", "symbolicRole": "Warning, guidance, and stewardship rooted in living public space.", "visualRole": "Blue-green beacon nested among ancient trees, roots, lanterns, hanging gardens, and canopy platforms.", "civicRole": "Signal heart for grove response, public warnings, path orientation, lantern tending, and Conjunction readiness.", "narrativeUse": ["Beacon state change", "grove crowd", "public warning", "sacred navigation"], "assetUse": ["S1 centerpiece", "signal marker"], "sensoryIdentity": ["blue-green light", "leaf hush", "lantern oil", "root damp"], "storyHooks": ["When the Beacon changes, the forest seems to notice before the people speak."]},
-    "seatOfPower": {"name": "Antler Arches Sovereign Registry Court", "symbolicRole": "Sovereignty, territory, lineage, and civic obligation recorded through antlered woodland law.", "visualRole": "Formal civic court of antler arches, carved timber, mossed stone, registry halls, and controlled public approaches beneath ancient trees.", "civicRole": "Government center for territorial claims, grove rights, public petitions, stewardship rulings, manor disputes, and registry proceedings.", "narrativeUse": ["registry law", "territorial dispute", "public petition", "stewardship judgment"], "assetUse": ["seat-of-power marker", "central court diorama"], "sensoryIdentity": ["ink", "carved wood", "mossed stone", "quiet voices", "blue lamps"], "storyHooks": ["A registry phrase changes who has the right to cut, cross, or defend a grove."]},
+    "wonder": {
+      "name": "Antlered Root-Hearth of the White Stag",
+      "symbolicRole": "Antlered Root-Hearth of the White Stag concentrates Elarion Thicket's local symbolism into a usable civic landmark: city wonder, separate far skyline anchor.",
+      "visualRole": "A one-per-city wonder: spectacular, unmistakable, and larger than every section landmark. It turns Elarion Thicket's geography, race identity, material culture, and civic magic into one public symbol. Built for Elarion Thicket's cervine antlered beastfolk population, it uses Oak, Limestone Blocks, Timber, Arcane Glow, Antler across Forest, Root Network, Old Growth Woodland; water context: dry city ground; magic expression: Beast Bonding, Ancestor Guidance, Living Roots. It must read clearly as a high-fantasy tactical-board asset with no baked labels or text.",
+      "civicRole": "Serves as city wonder, separate far skyline anchor within Elarion Thicket; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+      "narrativeUse": [
+        "stage scenes involving Antlered Root-Hearth of the White Stag",
+        "show how Elarion Thicket turns landmark symbolism into civic pressure",
+        "anchor public movement and crowd behavior",
+        "give writers a concrete place for announcements, disputes, errands, or rituals"
+      ],
+      "assetUse": [
+        "city landmark asset",
+        "map background landmark marker",
+        "visual continuity anchor across hero and street scenes",
+        "scale reference for civilians, roads, plazas, and props"
+      ],
+      "sensoryIdentity": [
+        "local foot traffic",
+        "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+        "public voices and civic work nearby",
+        "ambient city light and weathering",
+        "close pedestrian-scale details rather than abstract skyline-only treatment"
+      ],
+      "storyHooks": [
+        "a routine civic action at Antlered Root-Hearth of the White Stag becomes narratively important",
+        "the visible condition of Antlered Root-Hearth of the White Stag signals political or social stress",
+        "someone uses Antlered Root-Hearth of the White Stag's public function to redirect crowds or information",
+        "an overlooked detail at Antlered Root-Hearth of the White Stag reveals how Elarion Thicket really works"
+      ]
+    },
+    "beacon": {
+      "name": "Sacred Grove Beacon",
+      "symbolicRole": "Sacred Grove Beacon concentrates Elarion Thicket's local symbolism into a usable civic landmark: Section 1 beacon, near/front civic signal anchor.",
+      "visualRole": "A largest local landmark in this section, subordinate only to the city wonder and citadel. It belongs to Section 1 (Nature Preserve / Sacred Grove) of Elarion Thicket and should use Timber Longhouses, Reed Pavilions, Canopy Platforms, oak and antler materials, Carved Totems, Mist Veils, Hanging Gardens, and the cervine antlered beastfolk visual language. Design focus: distinct gameplay landmark, visible from nearby districts, roots, leaves, springs. Terrain/water context: Root Network; Dry Ground. Magic expression: Road Warding, Blood Staunching, Herbal Spirits. No baked labels or text. Single city beacon fixed to section 1; visible civic signal apparatus, strong vertical silhouette, and public approach space.",
+      "civicRole": "Serves as Section 1 beacon, near/front civic signal anchor within Elarion Thicket; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+      "narrativeUse": [
+        "stage scenes involving Sacred Grove Beacon",
+        "show how Elarion Thicket turns landmark symbolism into civic pressure",
+        "anchor public movement and crowd behavior",
+        "give writers a concrete place for announcements, disputes, errands, or rituals"
+      ],
+      "assetUse": [
+        "district diorama anchor for Section 1",
+        "map background landmark marker",
+        "visual continuity anchor across hero and street scenes",
+        "scale reference for civilians, roads, plazas, and props"
+      ],
+      "sensoryIdentity": [
+        "local foot traffic",
+        "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+        "public voices and civic work nearby",
+        "beacon or lamp glow when applicable",
+        "close pedestrian-scale details rather than abstract skyline-only treatment"
+      ],
+      "storyHooks": [
+        "a routine civic action at Sacred Grove Beacon becomes narratively important",
+        "the visible condition of Sacred Grove Beacon signals political or social stress",
+        "someone uses Sacred Grove Beacon's public function to redirect crowds or information",
+        "an overlooked detail at Sacred Grove Beacon reveals how Elarion Thicket really works"
+      ]
+    },
+    "seatOfPower": {
+      "name": "Antler Arches Sovereign Registry Court",
+      "symbolicRole": "Antler Arches Sovereign Registry Court concentrates Elarion Thicket's local symbolism into a usable civic landmark: dominant central civic anchor / District 13 seat of power.",
+      "visualRole": "The district-13 seat of power: courts, audience terraces, sealed archives, command platforms, and the visible apparatus of government. It is not a faction HQ; it is the city's central civic authority. Built for Elarion Thicket's cervine antlered beastfolk population, it uses Oak, Limestone Blocks, Timber, Arcane Glow, Antler across Forest, Root Network, Old Growth Woodland; water context: dry city ground; magic expression: Beast Bonding, Ancestor Guidance, Living Roots. It must read clearly as a high-fantasy tactical-board asset with no baked labels or text.",
+      "civicRole": "Serves as dominant central civic anchor / District 13 seat of power within Elarion Thicket; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+      "narrativeUse": [
+        "stage scenes involving Antler Arches Sovereign Registry Court",
+        "show how Elarion Thicket turns landmark symbolism into civic pressure",
+        "anchor public movement and crowd behavior",
+        "give writers a concrete place for announcements, disputes, errands, or rituals"
+      ],
+      "assetUse": [
+        "city landmark asset",
+        "map background landmark marker",
+        "visual continuity anchor across hero and street scenes",
+        "scale reference for civilians, roads, plazas, and props"
+      ],
+      "sensoryIdentity": [
+        "local foot traffic",
+        "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+        "public voices and civic work nearby",
+        "ambient city light and weathering",
+        "close pedestrian-scale details rather than abstract skyline-only treatment"
+      ],
+      "storyHooks": [
+        "a routine civic action at Antler Arches Sovereign Registry Court becomes narratively important",
+        "the visible condition of Antler Arches Sovereign Registry Court signals political or social stress",
+        "someone uses Antler Arches Sovereign Registry Court's public function to redirect crowds or information",
+        "an overlooked detail at Antler Arches Sovereign Registry Court reveals how Elarion Thicket really works"
+      ]
+    },
     "majorLandmarks": [
-      {"name": "Temple Platform", "symbolicRole": "Ritual continuity under living canopy.", "visualRole": "Raised timber-and-stone platform, lanterns, procession stairs, antler carvings, and mossed steps.", "civicRole": "Public rites, seasonal ceremonies, sacred teaching, and communal observance.", "narrativeUse": ["temple procession", "ritual counsel", "public ceremony"], "assetUse": ["S2 diorama"], "sensoryIdentity": ["lantern oil", "woodsmoke", "moss", "soft bells"], "storyHooks": ["A procession stops at the wrong stair and reveals hidden civic dissent."]},
-      {"name": "Survey Hall", "symbolicRole": "Stewardship made practical and measurable.", "visualRole": "Timber civic hall with maps, blue lamps, survey tools, permit yards, and root-stone boundary markers.", "civicRole": "Public works authority for paths, drainage, grove rights, building permissions, and ecological limits.", "narrativeUse": ["permit dispute", "route control", "public works evidence"], "assetUse": ["S3 diorama"], "sensoryIdentity": ["ink", "wet maps", "tools", "earth", "lamp glass"], "storyHooks": ["A survey map proves the forest has been protecting an illegal route."]},
-      {"name": "Guildhall", "symbolicRole": "Craft as public legitimacy.", "visualRole": "Woodland guildhall with woven banners, carved timber, masterwork arcades, lanterns, and craft displays.", "civicRole": "Guild certification, artisan trade, public making, and craft politics.", "narrativeUse": ["craft proof", "guild negotiation", "artisan clue"], "assetUse": ["S4 diorama"], "sensoryIdentity": ["carved wood", "cloth dye", "tool taps", "tea"], "storyHooks": ["A masterwork banner encodes an old grove claim."]},
-      {"name": "Manor Court", "symbolicRole": "Status expressed as cultivated stewardship.", "visualRole": "Gardened manor court with pavilions, carved antler lintels, private grove edges, lantern porches, and refined paths.", "civicRole": "High residential influence, domestic hospitality, class negotiation, and quiet patronage.", "narrativeUse": ["social pressure", "manor intrigue", "class texture"], "assetUse": ["S5 diorama"], "sensoryIdentity": ["flowers", "polished wood", "quiet water", "soft fabric"], "storyHooks": ["A manor garden hides the political cost of keeping the forest beautiful."]}
+      {
+        "name": "Manor Court",
+        "symbolicRole": "Manor Court concentrates Elarion Thicket's local symbolism into a usable civic landmark: additional major landmark selected for this hero-view camera angle.",
+        "visualRole": "A largest local landmark in this section, subordinate only to the city wonder and citadel. It belongs to Section 5 (High Residential) of Elarion Thicket and should use Gothic Spires, Canopy Platforms, White Limestone Civic Blocks, oak and antler materials, Gold Seals, Hanging Gardens, Red Fabric Awnings, and the cervine antlered beastfolk visual language. Design focus: gilded gates, manors, villas, garden courts, private gardens. Terrain/water context: Root Network; Dry Ground. Magic expression: Road Warding, Blood Staunching, Herbal Spirits. No baked labels or text.",
+        "civicRole": "Serves as additional major landmark selected for this hero-view camera angle within Elarion Thicket; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Manor Court",
+          "show how Elarion Thicket turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 5",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Manor Court becomes narratively important",
+          "the visible condition of Manor Court signals political or social stress",
+          "someone uses Manor Court's public function to redirect crowds or information",
+          "an overlooked detail at Manor Court reveals how Elarion Thicket really works"
+        ]
+      },
+      {
+        "name": "Temple Platform",
+        "symbolicRole": "Temple Platform concentrates Elarion Thicket's local symbolism into a usable civic landmark: additional major landmark selected for this hero-view camera angle.",
+        "visualRole": "A largest local landmark in this section, subordinate only to the city wonder and citadel. It belongs to Section 2 (Religious / Temple Quarter) of Elarion Thicket and should use Step Pyramids, Temple Platforms, Gothic Spires, oak and antler materials, Lantern Lit, Bone White Ceremony, Sun Disc Reliefs, Woven Banners, and the cervine antlered beastfolk visual language. Design focus: votive lamps, reliquaries, processional banners, temple terraces, prayer cloisters. Terrain/water context: Root Network; Dry Ground. Magic expression: Road Warding, Blood Staunching, Herbal Spirits. No baked labels or text.",
+        "civicRole": "Serves as additional major landmark selected for this hero-view camera angle within Elarion Thicket; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Temple Platform",
+          "show how Elarion Thicket turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 2",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Temple Platform becomes narratively important",
+          "the visible condition of Temple Platform signals political or social stress",
+          "someone uses Temple Platform's public function to redirect crowds or information",
+          "an overlooked detail at Temple Platform reveals how Elarion Thicket really works"
+        ]
+      },
+      {
+        "name": "Guildhall",
+        "symbolicRole": "Guildhall concentrates Elarion Thicket's local symbolism into a usable civic landmark: additional major landmark selected for this hero-view camera angle.",
+        "visualRole": "A largest local landmark in this section, subordinate only to the city wonder and citadel. It belongs to Section 4 (Artisan Guilds) of Elarion Thicket and should use Market Arcades, White Limestone Civic Blocks, Forge Halls, oak and antler materials, Woven Banners, Red Fabric Awnings, Lantern Lit, and the cervine antlered beastfolk visual language. Design focus: tools, hallmarks, pattern boards, work lamps, workshop rows. Terrain/water context: Root Network; Dry Ground. Magic expression: Road Warding, Blood Staunching, Herbal Spirits. No baked labels or text.",
+        "civicRole": "Serves as additional major landmark selected for this hero-view camera angle within Elarion Thicket; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Guildhall",
+          "show how Elarion Thicket turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 4",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Guildhall becomes narratively important",
+          "the visible condition of Guildhall signals political or social stress",
+          "someone uses Guildhall's public function to redirect crowds or information",
+          "an overlooked detail at Guildhall reveals how Elarion Thicket really works"
+        ]
+      },
+      {
+        "name": "Nature Preserve / Sacred Grove Civic Hall",
+        "symbolicRole": "Nature Preserve / Sacred Grove Civic Hall concentrates Elarion Thicket's local symbolism into a usable civic landmark: Section 1 local anchor.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing. It belongs to Section 1 (Nature Preserve / Sacred Grove) of Elarion Thicket and should use Canopy Platforms, Timber Longhouses, Reed Pavilions, oak and antler materials, Hanging Gardens, Carved Totems, Mist Veils, and the cervine antlered beastfolk visual language. Design focus: tree platforms, spring courts, protected paths, institutional anchor, public-facing administration. Terrain/water context: Root Network; Dry Ground. Magic expression: Road Warding, Blood Staunching, Herbal Spirits. No baked labels or text.",
+        "civicRole": "Serves as Section 1 local anchor within Elarion Thicket; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Nature Preserve / Sacred Grove Civic Hall",
+          "show how Elarion Thicket turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 1",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Nature Preserve / Sacred Grove Civic Hall becomes narratively important",
+          "the visible condition of Nature Preserve / Sacred Grove Civic Hall signals political or social stress",
+          "someone uses Nature Preserve / Sacred Grove Civic Hall's public function to redirect crowds or information",
+          "an overlooked detail at Nature Preserve / Sacred Grove Civic Hall reveals how Elarion Thicket really works"
+        ]
+      },
+      {
+        "name": "Hanging Gardens Monument",
+        "symbolicRole": "Hanging Gardens Monument concentrates Elarion Thicket's local symbolism into a usable civic landmark: Section 1 local anchor.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles. It belongs to Section 1 (Nature Preserve / Sacred Grove) of Elarion Thicket and should use Reed Pavilions, Canopy Platforms, Timber Longhouses, oak and antler materials, Hanging Gardens, Carved Totems, Mist Veils, and the cervine antlered beastfolk visual language. Design focus: symbolic civic object, small ceremonial site, local memory marker, subordinate to major landmark, roots. Terrain/water context: Root Network; Dry Ground. Magic expression: Road Warding, Blood Staunching, Herbal Spirits. No baked labels or text.",
+        "civicRole": "Serves as Section 1 local anchor within Elarion Thicket; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Hanging Gardens Monument",
+          "show how Elarion Thicket turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 1",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Hanging Gardens Monument becomes narratively important",
+          "the visible condition of Hanging Gardens Monument signals political or social stress",
+          "someone uses Hanging Gardens Monument's public function to redirect crowds or information",
+          "an overlooked detail at Hanging Gardens Monument reveals how Elarion Thicket really works"
+        ]
+      },
+      {
+        "name": "Living Canopy Hall Nook",
+        "symbolicRole": "Living Canopy Hall Nook concentrates Elarion Thicket's local symbolism into a usable civic landmark: Section 1 local anchor.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette. It belongs to Section 1 (Nature Preserve / Sacred Grove) of Elarion Thicket and should use Timber Longhouses, Reed Pavilions, Canopy Platforms, oak and antler materials, Hanging Gardens, Carved Totems, Mist Veils, and the cervine antlered beastfolk visual language. Design focus: street-level detail, usable board landmark, subordinate scale, roots, leaves. Terrain/water context: Root Network; Dry Ground. Magic expression: Road Warding, Blood Staunching, Herbal Spirits. No baked labels or text.",
+        "civicRole": "Serves as Section 1 local anchor within Elarion Thicket; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Living Canopy Hall Nook",
+          "show how Elarion Thicket turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 1",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Living Canopy Hall Nook becomes narratively important",
+          "the visible condition of Living Canopy Hall Nook signals political or social stress",
+          "someone uses Living Canopy Hall Nook's public function to redirect crowds or information",
+          "an overlooked detail at Living Canopy Hall Nook reveals how Elarion Thicket really works"
+        ]
+      },
+      {
+        "name": "Religious / Temple Quarter Civic Hall",
+        "symbolicRole": "Religious / Temple Quarter Civic Hall concentrates Elarion Thicket's local symbolism into a usable civic landmark: Section 2 local anchor.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing. It belongs to Section 2 (Religious / Temple Quarter) of Elarion Thicket and should use Gothic Spires, Step Pyramids, Temple Platforms, oak and antler materials, Bone White Ceremony, Sun Disc Reliefs, Woven Banners, Lantern Lit, and the cervine antlered beastfolk visual language. Design focus: votive lamps, reliquaries, processional banners, temple terraces, prayer cloisters. Terrain/water context: Root Network; Dry Ground. Magic expression: Road Warding, Blood Staunching, Herbal Spirits. No baked labels or text.",
+        "civicRole": "Serves as Section 2 local anchor within Elarion Thicket; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Religious / Temple Quarter Civic Hall",
+          "show how Elarion Thicket turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 2",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Religious / Temple Quarter Civic Hall becomes narratively important",
+          "the visible condition of Religious / Temple Quarter Civic Hall signals political or social stress",
+          "someone uses Religious / Temple Quarter Civic Hall's public function to redirect crowds or information",
+          "an overlooked detail at Religious / Temple Quarter Civic Hall reveals how Elarion Thicket really works"
+        ]
+      },
+      {
+        "name": "Religious Temple Quarter Lantern Monument",
+        "symbolicRole": "Religious Temple Quarter Lantern Monument concentrates Elarion Thicket's local symbolism into a usable civic landmark: Section 2 local anchor.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles. It belongs to Section 2 (Religious / Temple Quarter) of Elarion Thicket and should use Gothic Spires, Step Pyramids, Temple Platforms, oak and antler materials, Sun Disc Reliefs, Woven Banners, Lantern Lit, Bone White Ceremony, and the cervine antlered beastfolk visual language. Design focus: prayer cloisters, ritual courts, offering counters, symbolic civic object, small ceremonial site. Terrain/water context: Root Network; Dry Ground. Magic expression: Road Warding, Blood Staunching, Herbal Spirits. No baked labels or text.",
+        "civicRole": "Serves as Section 2 local anchor within Elarion Thicket; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Religious Temple Quarter Lantern Monument",
+          "show how Elarion Thicket turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 2",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Religious Temple Quarter Lantern Monument becomes narratively important",
+          "the visible condition of Religious Temple Quarter Lantern Monument signals political or social stress",
+          "someone uses Religious Temple Quarter Lantern Monument's public function to redirect crowds or information",
+          "an overlooked detail at Religious Temple Quarter Lantern Monument reveals how Elarion Thicket really works"
+        ]
+      },
+      {
+        "name": "Procession Stair Nook",
+        "symbolicRole": "Procession Stair Nook concentrates Elarion Thicket's local symbolism into a usable civic landmark: Section 2 local anchor.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette. It belongs to Section 2 (Religious / Temple Quarter) of Elarion Thicket and should use Temple Platforms, Gothic Spires, Step Pyramids, oak and antler materials, Bone White Ceremony, Sun Disc Reliefs, Woven Banners, Lantern Lit, and the cervine antlered beastfolk visual language. Design focus: prayer cloisters, ritual courts, offering counters, small local identity prop, street-level detail. Terrain/water context: Root Network; Dry Ground. Magic expression: Road Warding, Blood Staunching, Herbal Spirits. No baked labels or text.",
+        "civicRole": "Serves as Section 2 local anchor within Elarion Thicket; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Procession Stair Nook",
+          "show how Elarion Thicket turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 2",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Procession Stair Nook becomes narratively important",
+          "the visible condition of Procession Stair Nook signals political or social stress",
+          "someone uses Procession Stair Nook's public function to redirect crowds or information",
+          "an overlooked detail at Procession Stair Nook reveals how Elarion Thicket really works"
+        ]
+      },
+      {
+        "name": "Public Works Authority Hall",
+        "symbolicRole": "Public Works Authority Hall concentrates Elarion Thicket's local symbolism into a usable civic landmark: Section 3 local anchor.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing. It belongs to Section 3 (Public Works Authority) of Elarion Thicket and should use White Limestone Civic Blocks, Forge Halls, Market Arcades, oak and antler materials, Civic Blue Glow, Canal Reflections, Gold Seals, and the cervine antlered beastfolk visual language. Design focus: stone plans, water gauges, engineer halls, survey yards, bridge offices. Terrain/water context: Root Network; Dry Ground. Magic expression: Road Warding, Blood Staunching, Herbal Spirits. No baked labels or text.",
+        "civicRole": "Serves as Section 3 local anchor within Elarion Thicket; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Public Works Authority Hall",
+          "show how Elarion Thicket turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 3",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Public Works Authority Hall becomes narratively important",
+          "the visible condition of Public Works Authority Hall signals political or social stress",
+          "someone uses Public Works Authority Hall's public function to redirect crowds or information",
+          "an overlooked detail at Public Works Authority Hall reveals how Elarion Thicket really works"
+        ]
+      },
+      {
+        "name": "Survey Hall",
+        "symbolicRole": "Survey Hall concentrates Elarion Thicket's local symbolism into a usable civic landmark: Section 3 local anchor.",
+        "visualRole": "A mandatory Section 3 Beacon: a culturally adapted civic signal flame / warning-light landmark visible across the city spine. It belongs to Section 3 (Public Works Authority) of Elarion Thicket and should use Forge Halls, Market Arcades, White Limestone Civic Blocks, oak and antler materials, Gold Seals, Civic Blue Glow, Canal Reflections, and the cervine antlered beastfolk visual language. Design focus: Beacon must inherit city materials, culture, magic expression, and water/terrain context from CityProfile., Beacon form may be a ground flame, tower flame, suspended flame, totemic flame, ceremonial brazier, signal obelisk, or lighthouse-like flame., Beacon-compatible major landmark; must render as a culturally adapted civic signal flame or magical warning light., beacon-compatible flame or signal structure, largest section focal point. Terrain/water context: Root Network; Dry Ground. Magic expression: Road Warding, Blood Staunching, Herbal Spirits. No baked labels or text.",
+        "civicRole": "Serves as Section 3 local anchor within Elarion Thicket; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Survey Hall",
+          "show how Elarion Thicket turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 3",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Survey Hall becomes narratively important",
+          "the visible condition of Survey Hall signals political or social stress",
+          "someone uses Survey Hall's public function to redirect crowds or information",
+          "an overlooked detail at Survey Hall reveals how Elarion Thicket really works"
+        ]
+      },
+      {
+        "name": "Blue-Lamp Monument",
+        "symbolicRole": "Blue-Lamp Monument concentrates Elarion Thicket's local symbolism into a usable civic landmark: Section 3 local anchor.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles. It belongs to Section 3 (Public Works Authority) of Elarion Thicket and should use Market Arcades, White Limestone Civic Blocks, Forge Halls, oak and antler materials, Civic Blue Glow, Canal Reflections, Gold Seals, and the cervine antlered beastfolk visual language. Design focus: measuring rods, scaffolds, stone plans, water gauges, engineer halls. Terrain/water context: Root Network; Dry Ground. Magic expression: Road Warding, Blood Staunching, Herbal Spirits. No baked labels or text.",
+        "civicRole": "Serves as Section 3 local anchor within Elarion Thicket; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Blue-Lamp Monument",
+          "show how Elarion Thicket turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 3",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Blue-Lamp Monument becomes narratively important",
+          "the visible condition of Blue-Lamp Monument signals political or social stress",
+          "someone uses Blue-Lamp Monument's public function to redirect crowds or information",
+          "an overlooked detail at Blue-Lamp Monument reveals how Elarion Thicket really works"
+        ]
+      },
+      {
+        "name": "Permit Yard Nook",
+        "symbolicRole": "Permit Yard Nook concentrates Elarion Thicket's local symbolism into a usable civic landmark: Section 3 local anchor.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette. It belongs to Section 3 (Public Works Authority) of Elarion Thicket and should use Market Arcades, White Limestone Civic Blocks, Forge Halls, oak and antler materials, Gold Seals, Civic Blue Glow, Canal Reflections, and the cervine antlered beastfolk visual language. Design focus: measuring rods, scaffolds, stone plans, water gauges, engineer halls. Terrain/water context: Root Network; Dry Ground. Magic expression: Road Warding, Blood Staunching, Herbal Spirits. No baked labels or text.",
+        "civicRole": "Serves as Section 3 local anchor within Elarion Thicket; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Permit Yard Nook",
+          "show how Elarion Thicket turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 3",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Permit Yard Nook becomes narratively important",
+          "the visible condition of Permit Yard Nook signals political or social stress",
+          "someone uses Permit Yard Nook's public function to redirect crowds or information",
+          "an overlooked detail at Permit Yard Nook reveals how Elarion Thicket really works"
+        ]
+      },
+      {
+        "name": "Artisan Guilds Civic Hall",
+        "symbolicRole": "Artisan Guilds Civic Hall concentrates Elarion Thicket's local symbolism into a usable civic landmark: Section 4 local anchor.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing. It belongs to Section 4 (Artisan Guilds) of Elarion Thicket and should use Market Arcades, White Limestone Civic Blocks, Forge Halls, oak and antler materials, Lantern Lit, Woven Banners, Red Fabric Awnings, and the cervine antlered beastfolk visual language. Design focus: kiln yards, tool yards, institutional anchor, public-facing administration, clear central silhouette. Terrain/water context: Root Network; Dry Ground. Magic expression: Road Warding, Blood Staunching, Herbal Spirits. No baked labels or text.",
+        "civicRole": "Serves as Section 4 local anchor within Elarion Thicket; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Artisan Guilds Civic Hall",
+          "show how Elarion Thicket turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 4",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Artisan Guilds Civic Hall becomes narratively important",
+          "the visible condition of Artisan Guilds Civic Hall signals political or social stress",
+          "someone uses Artisan Guilds Civic Hall's public function to redirect crowds or information",
+          "an overlooked detail at Artisan Guilds Civic Hall reveals how Elarion Thicket really works"
+        ]
+      },
+      {
+        "name": "Woven Banners Monument",
+        "symbolicRole": "Woven Banners Monument concentrates Elarion Thicket's local symbolism into a usable civic landmark: Section 4 local anchor.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles. It belongs to Section 4 (Artisan Guilds) of Elarion Thicket and should use Forge Halls, Market Arcades, White Limestone Civic Blocks, oak and antler materials, Lantern Lit, Woven Banners, Red Fabric Awnings, and the cervine antlered beastfolk visual language. Design focus: kiln yards, tool yards, symbolic civic object, small ceremonial site, local memory marker. Terrain/water context: Root Network; Dry Ground. Magic expression: Road Warding, Blood Staunching, Herbal Spirits. No baked labels or text.",
+        "civicRole": "Serves as Section 4 local anchor within Elarion Thicket; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Woven Banners Monument",
+          "show how Elarion Thicket turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 4",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Woven Banners Monument becomes narratively important",
+          "the visible condition of Woven Banners Monument signals political or social stress",
+          "someone uses Woven Banners Monument's public function to redirect crowds or information",
+          "an overlooked detail at Woven Banners Monument reveals how Elarion Thicket really works"
+        ]
+      },
+      {
+        "name": "Masterwork Arcade Nook",
+        "symbolicRole": "Masterwork Arcade Nook concentrates Elarion Thicket's local symbolism into a usable civic landmark: Section 4 local anchor.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette. It belongs to Section 4 (Artisan Guilds) of Elarion Thicket and should use White Limestone Civic Blocks, Forge Halls, Market Arcades, oak and antler materials, Lantern Lit, Woven Banners, Red Fabric Awnings, and the cervine antlered beastfolk visual language. Design focus: work lamps, workshop rows, guild courts, kiln yards, tool yards. Terrain/water context: Root Network; Dry Ground. Magic expression: Road Warding, Blood Staunching, Herbal Spirits. No baked labels or text.",
+        "civicRole": "Serves as Section 4 local anchor within Elarion Thicket; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Masterwork Arcade Nook",
+          "show how Elarion Thicket turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 4",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Masterwork Arcade Nook becomes narratively important",
+          "the visible condition of Masterwork Arcade Nook signals political or social stress",
+          "someone uses Masterwork Arcade Nook's public function to redirect crowds or information",
+          "an overlooked detail at Masterwork Arcade Nook reveals how Elarion Thicket really works"
+        ]
+      },
+      {
+        "name": "High Residential Civic Hall",
+        "symbolicRole": "High Residential Civic Hall concentrates Elarion Thicket's local symbolism into a usable civic landmark: Section 5 local anchor.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing. It belongs to Section 5 (High Residential) of Elarion Thicket and should use Canopy Platforms, White Limestone Civic Blocks, Gothic Spires, oak and antler materials, Gold Seals, Hanging Gardens, Red Fabric Awnings, and the cervine antlered beastfolk visual language. Design focus: private gardens, institutional anchor, public-facing administration, clear central silhouette, board-readable entrance. Terrain/water context: Root Network; Dry Ground. Magic expression: Road Warding, Blood Staunching, Herbal Spirits. No baked labels or text.",
+        "civicRole": "Serves as Section 5 local anchor within Elarion Thicket; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving High Residential Civic Hall",
+          "show how Elarion Thicket turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 5",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at High Residential Civic Hall becomes narratively important",
+          "the visible condition of High Residential Civic Hall signals political or social stress",
+          "someone uses High Residential Civic Hall's public function to redirect crowds or information",
+          "an overlooked detail at High Residential Civic Hall reveals how Elarion Thicket really works"
+        ]
+      },
+      {
+        "name": "Hanging Gardens Monument",
+        "symbolicRole": "Hanging Gardens Monument concentrates Elarion Thicket's local symbolism into a usable civic landmark: Section 5 local anchor.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles. It belongs to Section 5 (High Residential) of Elarion Thicket and should use White Limestone Civic Blocks, Gothic Spires, Canopy Platforms, oak and antler materials, Red Fabric Awnings, Gold Seals, Hanging Gardens, and the cervine antlered beastfolk visual language. Design focus: symbolic civic object, small ceremonial site, local memory marker, subordinate to major landmark, fountains. Terrain/water context: Root Network; Dry Ground. Magic expression: Road Warding, Blood Staunching, Herbal Spirits. No baked labels or text.",
+        "civicRole": "Serves as Section 5 local anchor within Elarion Thicket; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Hanging Gardens Monument",
+          "show how Elarion Thicket turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 5",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Hanging Gardens Monument becomes narratively important",
+          "the visible condition of Hanging Gardens Monument signals political or social stress",
+          "someone uses Hanging Gardens Monument's public function to redirect crowds or information",
+          "an overlooked detail at Hanging Gardens Monument reveals how Elarion Thicket really works"
+        ]
+      },
+      {
+        "name": "Salon Pavilion Nook",
+        "symbolicRole": "Salon Pavilion Nook concentrates Elarion Thicket's local symbolism into a usable civic landmark: Section 5 local anchor.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette. It belongs to Section 5 (High Residential) of Elarion Thicket and should use Canopy Platforms, White Limestone Civic Blocks, Gothic Spires, oak and antler materials, Red Fabric Awnings, Gold Seals, Hanging Gardens, and the cervine antlered beastfolk visual language. Design focus: villas, garden courts, private gardens, small local identity prop, street-level detail. Terrain/water context: Root Network; Dry Ground. Magic expression: Road Warding, Blood Staunching, Herbal Spirits. No baked labels or text.",
+        "civicRole": "Serves as Section 5 local anchor within Elarion Thicket; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Salon Pavilion Nook",
+          "show how Elarion Thicket turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 5",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Salon Pavilion Nook becomes narratively important",
+          "the visible condition of Salon Pavilion Nook signals political or social stress",
+          "someone uses Salon Pavilion Nook's public function to redirect crowds or information",
+          "an overlooked detail at Salon Pavilion Nook reveals how Elarion Thicket really works"
+        ]
+      }
     ]
   },
   "assetGuidance": {
-    "districtDioramaGuidance": ["S1 must show Nature Preserve / Sacred Grove Civic Hall, Sacred Grove Beacon, Hanging Gardens Monument, Living Canopy Hall Nook, ancient trees, roots, and lantern paths.", "S2 must show Religious / Temple Quarter Civic Hall, Temple Platform, Religious Temple Quarter Lantern Monument, Procession Stair Nook, ritual banners, and temple attendants.", "S3 must show Public Works Authority Hall, Survey Hall, Blue-Lamp Monument, Permit Yard Nook, survey tools, maps, and path workers.", "S4 must show Artisan Guilds Civic Hall, Guildhall, Woven Banners Monument, Masterwork Arcade Nook, woodcarvers, weavers, and craft displays.", "S5 must show High Residential Civic Hall, Manor Court, Hanging Gardens Monument, Salon Pavilion Nook, garden terraces, manor paths, and quiet social hierarchy."],
-    "mapBackgroundGuidance": ["Use root-stone paths, living canopy, antler arches, mossed stone, lanterns, woven banners, blue civic lamps, hanging gardens, temple platforms, guild halls, and forest-integrated public buildings.", "The Antlered Root-Hearth of the White Stag must read as wonder; the Antler Arches Sovereign Registry Court must read as authority; the Sacred Grove Beacon must be visually embedded in living forest.", "Show civic sophistication without separating city from ecosystem."],
-    "requiredVisualElements": ["stagfolk citizens", "Antlered Root-Hearth of the White Stag", "Sacred Grove Beacon", "Antler Arches Sovereign Registry Court", "Nature Preserve / Sacred Grove Civic Hall", "Hanging Gardens Monument", "Living Canopy Hall Nook", "Temple Platform", "Religious Temple Quarter Lantern Monument", "Procession Stair Nook", "Survey Hall", "Blue-Lamp Monument", "Permit Yard Nook", "Guildhall", "Woven Banners Monument", "Masterwork Arcade Nook", "Manor Court", "Salon Pavilion Nook", "antler arches", "root-stone paths"],
-    "elementsToAvoid": ["primitive woodland village", "generic forest elves", "wilderness with no institutions", "passive nature-spirit citizens", "forest backdrop separated from civic structure", "palace architecture that ignores root and canopy logic"]
+    "districtDioramaGuidance": [
+      "Dioramas must support 25 district slots: S1 covers D01, D02, D03, D06, D07 and uses source-backed anchors Nature Preserve / Sacred Grove Civic Hall, Sacred Grove Beacon, Hanging Gardens Monument, Living Canopy Hall Nook.",
+      "Dioramas must support 25 district slots: S2 covers D04, D05, D09, D10, D15 and uses source-backed anchors Religious / Temple Quarter Civic Hall, Temple Platform, Religious Temple Quarter Lantern Monument, Procession Stair Nook.",
+      "Dioramas must support 25 district slots: S3 covers D08, D12, D13, D14, D18 and uses source-backed anchors Public Works Authority Hall, Survey Hall, Blue-Lamp Monument, Permit Yard Nook.",
+      "Dioramas must support 25 district slots: S4 covers D11, D16, D17, D21, D22 and uses source-backed anchors Artisan Guilds Civic Hall, Guildhall, Woven Banners Monument, Masterwork Arcade Nook.",
+      "Dioramas must support 25 district slots: S5 covers D19, D20, D23, D24, D25 and uses source-backed anchors High Residential Civic Hall, Manor Court, Hanging Gardens Monument, Salon Pavilion Nook."
+    ],
+    "mapBackgroundGuidance": [
+      "Map backgrounds must show Antlered Root-Hearth of the White Stag as the wonder-scale identity anchor, Antler Arches Sovereign Registry Court at D13, and Sacred Grove Beacon as the city signal landmark.",
+      "Preserve the five-section spine: S1 Nature Preserve / Sacred Grove Civic Hall, S2 Religious / Temple Quarter Civic Hall, S3 Public Works Authority Hall, S4 Artisan Guilds Civic Hall, S5 High Residential Civic Hall.",
+      "Use roads, terrain, water, civic terraces, walls, markets, courts, or service routes only where they support the exact city identity and tactical readability."
+    ],
+    "requiredVisualElements": [
+      "Antlered Root-Hearth of the White Stag",
+      "Sacred Grove Beacon",
+      "Antler Arches Sovereign Registry Court",
+      "Manor Court",
+      "Temple Platform",
+      "Guildhall",
+      "Nature Preserve / Sacred Grove Civic Hall",
+      "Hanging Gardens Monument",
+      "Living Canopy Hall Nook",
+      "Religious / Temple Quarter Civic Hall",
+      "Religious Temple Quarter Lantern Monument",
+      "Procession Stair Nook",
+      "Public Works Authority Hall",
+      "Survey Hall",
+      "Blue-Lamp Monument",
+      "Permit Yard Nook",
+      "Artisan Guilds Civic Hall",
+      "Woven Banners Monument",
+      "Masterwork Arcade Nook",
+      "High Residential Civic Hall",
+      "Salon Pavilion Nook",
+      "Oak",
+      "Limestone Blocks",
+      "Timber",
+      "Arcane Glow",
+      "Antler",
+      "Forest",
+      "Root Network",
+      "Old Growth Woodland",
+      "Beast Bonding",
+      "Ancestor Guidance",
+      "Living Roots"
+    ],
+    "elementsToAvoid": [
+      "extra top-level schema sections or research-log content in the JSON",
+      "generic fantasy architecture that ignores exact anchor names",
+      "invented missing street anchors",
+      "readable real-world text labels baked into images",
+      "collapsing the 25-district board into only five playable spaces",
+      "making landmarks decorative when they should have civic, narrative, and asset function"
+    ]
   }
 }

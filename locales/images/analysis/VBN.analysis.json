@@ -1,1 +1,1778 @@
-{"metadata":{"schemaVersion":"2.0","analysisVersion":2,"cityCode":"VBN","cityName":"Varkesh Bastion","analysisConfidence":"strong-lock"},"sourceModel":"5 section sidecars; 25 board district slots inherit section anchors.","boardStructure":{"model":"25-seat map","seatOfPowerDistrict":"D13","sections":[{"sectionNumber":1,"districts":["D01","D02","D03","D06","D07"]},{"sectionNumber":2,"districts":["D04","D05","D09","D10","D15"]},{"sectionNumber":3,"districts":["D08","D12","D13","D14","D18"]},{"sectionNumber":4,"districts":["D11","D16","D17","D21","D22"]},{"sectionNumber":5,"districts":["D19","D20","D23","D24","D25"]}],"note":"Each section contains five district slots. This analysis keeps all 25 slots explicit while preserving only source-backed section-level landmark names."},"sections":[{"n":1,"name":"Agricultural Terraces"},{"n":2,"name":"Arena / Training"},{"n":3,"name":"Security / Intelligence"},{"n":4,"name":"Underworld / Hidden Economy"},{"n":5,"name":"Slums / Informal Settlement"}],"districts":["D01","D02","D03","D04","D05","D06","D07","D08","D09","D10","D11","D12","D13","D14","D15","D16","D17","D18","D19","D20","D21","D22","D23","D24","D25"],"landmarks":{"wonder":"Hobgoblin Banner-Fortress of the Ordered Spear","beacon":"Terrace Granary Beacon","seatOfPower":"Gear Inlays Command Bastion"}}
+{
+  "metadata": {
+    "schemaVersion": "2.0",
+    "analysisVersion": 2,
+    "cityCode": "VBN",
+    "cityName": "Varkesh Bastion",
+    "analysisDate": "2026-07-05",
+    "analystVersion": "gpt-5.5-thinking",
+    "analysisConfidence": "strong-lock",
+    "basedOnImages": [
+      "VBN-HERO-NE-v001",
+      "VBN-HERO-NW-v001",
+      "VBN-HERO-SE-v001",
+      "VBN-HERO-SW-v001",
+      "VBN-STREET-S1-v001",
+      "VBN-STREET-S2-v001",
+      "VBN-STREET-S3-v001",
+      "VBN-STREET-S4-v001",
+      "VBN-STREET-S5-v001"
+    ],
+    "basedOnSidecars": [
+      "VBN-HERO-NE-v001.json",
+      "VBN-HERO-NW-v001.json",
+      "VBN-HERO-SE-v001.json",
+      "VBN-HERO-SW-v001.json",
+      "VBN-STREET-S1-v001.json",
+      "VBN-STREET-S2-v001.json",
+      "VBN-STREET-S3-v001.json",
+      "VBN-STREET-S4-v001.json",
+      "VBN-STREET-S5-v001.json"
+    ],
+    "missingStreetSections": []
+  },
+  "cityDNA": {
+    "coreFantasy": "A hobgoblins city where Agricultural Terraces, Arena / Training, Security / Intelligence, Underworld / Hidden Economy, Slums / Informal Settlement, and Hobgoblin Banner-Fortress of the Ordered Spear turn dry stone paving, civic terraces, dry ground and red brick, wool felt, sandstone, dyed wool, painted canvas into a distinct civic machine.",
+    "primaryEmotion": "disciplined readiness",
+    "secondaryEmotion": "strategic austerity",
+    "readerTakeaway": "Varkesh Bastion should feel like an efficient garrison-civilization where gardens, training grounds, intelligence, and hardship all serve preparedness.",
+    "civilizationThesis": "Varkesh Bastion organizes public life around order that can feed and defend itself: its districts convert Agricultural Terraces, Arena / Training, Security / Intelligence, Underworld / Hidden Economy, Slums / Informal Settlement into a readable system of authority, labor, memory, and movement.",
+    "visualIdentity": "Varkesh Bastion should be recognized by Red Brick, Wool Felt, Sandstone, Dyed Wool, Painted Canvas, Dry Stone Paving, Civic Terraces, Dry Ground, Ward Networks, Ritual Geometry, Mechanical Animus, Yellow Intent Glimmers, Road Warding, and the named anchors Hobgoblin Banner-Fortress of the Ordered Spear, Terrace Granary Beacon, and Gear Inlays Command Bastion.",
+    "culturalIdentity": "The city belongs to hobgoblins; its civic habits should grow from the sidecar-backed district spine rather than generic fantasy urbanism.",
+    "symbolicIdentity": "Hobgoblin Banner-Fortress of the Ordered Spear, Terrace Granary Beacon, Gear Inlays Command Bastion, and the five section landmark families symbolize order that can feed and defend itself while warning against command logic hardening into surveillance or class pressure."
+  },
+  "canon": {
+    "canonLocks": [
+      "Varkesh Bastion is a hobgoblins city, not a generic settlement with cosmetic motifs.",
+      "The Wonder is Hobgoblin Banner-Fortress of the Ordered Spear.",
+      "The Beacon is Terrace Granary Beacon.",
+      "The Seat of Power is Gear Inlays Command Bastion, located at the District 13 authority center.",
+      "The five district sections are Agricultural Terraces, Arena / Training, Security / Intelligence, Underworld / Hidden Economy, Slums / Informal Settlement.",
+      "The board should be treated as twenty-five district slots grouped into five section identities.",
+      "Section 1 (Agricultural Terraces) preserves these exact anchor names: Agricultural Terraces Civic Hall, Terrace Granary Beacon, Hanging Gardens Monument, Seed Hall Nook.",
+      "Section 2 (Arena / Training) preserves these exact anchor names: Arena / Training Civic Hall, Training Arena, Woven Banners Monument, Champion Gate Nook.",
+      "Section 3 (Security / Intelligence) preserves these exact anchor names: Security / Intelligence Hall, Cipher Hall, Mist Veils Monument, Dossier Vault Nook.",
+      "Section 4 (Underworld / Hidden Economy) preserves these exact anchor names: Underworld / Hidden Economy Civic Hall, Black Market Arcade, Mist Veils Monument, Understreet Vault Nook.",
+      "Section 5 (Slums / Informal Settlement) preserves these exact anchor names: Slums / Informal Settlement Civic Hall, Scrap Market, Slums Informal Settlement Lantern Monument, Patched Tenement Nook."
+    ],
+    "provisionalCanon": [
+      "Individual district-slot names beyond exact sidecar anchors are organizational labels for the 25-seat board, not new landmark canon.",
+      "Minor street customs should be derived from the section spine unless future source files provide more exact anchors."
+    ],
+    "rejectedReads": [
+      "Varkesh Bastion as a generic fantasy city without its named Wonder, Beacon, and Seat of Power.",
+      "Replacing exact sidecar anchor names with generic labels such as market, temple, tower, wall, or archive.",
+      "Treating district section labels as decorative instead of civic systems that drive scenes and assets."
+    ],
+    "cautionFlags": [
+      "Preserve exact named anchors from sidecars.",
+      "Use the culture identity respectfully as civic design language rather than costume.",
+      "Keep all 25 district slots legible even when five slots share one section identity.",
+      "Do not add unsupported individual district landmark names beyond the source-backed anchors."
+    ]
+  },
+  "environment": {
+    "terrain": [
+      "Dry Stone Paving",
+      "Civic Terraces",
+      "Dry Ground"
+    ],
+    "water": [
+      "dry city ground"
+    ],
+    "vegetation": [
+      "Canopy Platforms",
+      "Hanging Gardens",
+      "seed jars",
+      "terraced beds",
+      "farm terraces"
+    ],
+    "climateLighting": [
+      "sandstone and arcane glow materials",
+      "Lantern Lit",
+      "Mist Veils",
+      "Civic Blue Glow",
+      "shared fires",
+      "symbolic civic object",
+      "hooded lanterns",
+      "scrap lanterns",
+      "Blue Order Sigils"
+    ],
+    "environmentalLogic": "Varkesh Bastion's environment should make Agricultural Terraces, Arena / Training, Security / Intelligence, Underworld / Hidden Economy, Slums / Informal Settlement feel physically necessary. Terrain, light, civic routes, and landmark placement must support movement through all five section identities rather than read as interchangeable scenery."
+  },
+  "architecture": {
+    "materials": [
+      "Red Brick",
+      "Wool Felt",
+      "Sandstone",
+      "Dyed Wool",
+      "Painted Canvas"
+    ],
+    "forms": [
+      "Canopy Platforms",
+      "Timber Longhouses",
+      "Reed Pavilions",
+      "sandstone and arcane glow materials",
+      "Woven Banners",
+      "Canal Reflections",
+      "Hanging Gardens",
+      "Market Arcades",
+      "Lantern Lit",
+      "Red Fabric Awnings",
+      "Obsidian Fortresses",
+      "Lecture Courts",
+      "Temple Platforms",
+      "Carved Totems",
+      "Gothic Spires",
+      "Subterranean Vaults",
+      "Serpent Geometry",
+      "Mist Veils"
+    ],
+    "skyline": [
+      "Hobgoblin Banner-Fortress of the Ordered Spear is the wonder-scale skyline identifier.",
+      "Gear Inlays Command Bastion marks the central authority mass at District 13.",
+      "Terrace Granary Beacon must remain visible as the public signal landmark.",
+      "Section landmarks should form a readable ring of Agricultural Terraces, Arena / Training, Security / Intelligence, Underworld / Hidden Economy, Slums / Informal Settlement."
+    ],
+    "lighting": [
+      "sandstone and arcane glow materials",
+      "Lantern Lit",
+      "Mist Veils",
+      "Civic Blue Glow",
+      "shared fires",
+      "symbolic civic object",
+      "hooded lanterns",
+      "scrap lanterns",
+      "Blue Order Sigils",
+      "district lanterns"
+    ],
+    "infrastructure": [
+      "Agricultural Terraces routes",
+      "Arena / Training routes",
+      "Security / Intelligence routes",
+      "Underworld / Hidden Economy routes",
+      "Slums / Informal Settlement routes",
+      "Agricultural Terraces Civic Hall",
+      "Arena / Training Civic Hall",
+      "Security / Intelligence Hall",
+      "Underworld / Hidden Economy Civic Hall",
+      "Slums / Informal Settlement Civic Hall"
+    ],
+    "motifs": [
+      "seed jars",
+      "terraced beds",
+      "fruit trees",
+      "water channels",
+      "farm terraces",
+      "shanties",
+      "salvage roofs",
+      "patched bridges",
+      "shared fires",
+      "largest section focal point",
+      "arenas",
+      "training yards",
+      "weapon courts",
+      "practice rings",
+      "secret doors",
+      "strong vertical silhouette",
+      "distinct gameplay landmark",
+      "visible from nearby districts"
+    ],
+    "colorLanguage": [
+      "Red Brick",
+      "Ward Networks",
+      "Ritual Geometry",
+      "Mechanical Animus",
+      "Yellow Intent Glimmers"
+    ],
+    "textureLanguage": [
+      "Red Brick",
+      "Wool Felt",
+      "Sandstone",
+      "Dyed Wool",
+      "Painted Canvas",
+      "Dry Stone Paving",
+      "Civic Terraces",
+      "Dry Ground",
+      "terraced beds",
+      "farm terraces"
+    ]
+  },
+  "civilization": {
+    "people": "Varkesh Bastion's people are hobgoblins; they should be written through shared civic habits, public spaces, work rhythms, and the visible demands of the five section identities.",
+    "occupations": [
+      "terrace farmers",
+      "granary stewards",
+      "seed keepers",
+      "irrigation crews",
+      "trainers",
+      "sparring crews",
+      "champions",
+      "equipment keepers",
+      "cipher clerks",
+      "dossier keepers",
+      "watch analysts",
+      "quiet couriers",
+      "arcade brokers",
+      "understreet guides",
+      "discreet couriers",
+      "vault keepers",
+      "scrap sellers",
+      "patch workers",
+      "street cooks",
+      "tenement runners"
+    ],
+    "socialClasses": [
+      "officials and stewards tied to Gear Inlays Command Bastion",
+      "landmark keepers and civic hall administrators",
+      "guild families and specialist workers",
+      "street vendors, porters, runners, and maintenance crews",
+      "families living around the section-specific local anchors"
+    ],
+    "governance": "Authority centers on Gear Inlays Command Bastion and is made visible through section civic halls, named landmarks, permissions, public signals, and the citywide response to Terrace Granary Beacon.",
+    "religion": "Religious or ceremonial life should be shown through source-backed shrines, temples, wonders, oath spaces, ancestor sites, or ritual geometry when those appear in the district spine.",
+    "customs": [
+      "citizens orient themselves by the section identity of a street before they identify an address",
+      "public notices and signals are interpreted through the Beacon and civic halls",
+      "named landmarks act as meeting points, proof points, and local memory anchors",
+      "section-specific work routines shape food, clothing, posture, and street traffic",
+      "District 13 authority matters even when scenes occur in outer district slots"
+    ],
+    "bodyLanguage": [
+      "movement reflects disciplined readiness",
+      "citizens check landmarks and signals before crossing into another section",
+      "officials use the posture and tools of their section role",
+      "workers treat section anchors as practical wayfinding points",
+      "crowds become more formal near the Seat of Power and more local near minor landmarks"
+    ],
+    "speechPatterns": [
+      "directions use exact landmark names rather than generic descriptions",
+      "section names carry social meaning",
+      "official speech references permits, seals, routes, oaths, or signals as appropriate to the city",
+      "working speech is concrete, location-heavy, and tied to civic function",
+      "locals distinguish between the Wonder, Beacon, Seat, and section landmarks without confusion"
+    ]
+  },
+  "urbanLife": {
+    "streets": {
+      "appearance": "Street scenes should make Varkesh Bastion immediately identifiable through Red Brick, Wool Felt, Sandstone, Dyed Wool, Painted Canvas, Dry Stone Paving, Civic Terraces, Dry Ground, Ward Networks, Ritual Geometry, Mechanical Animus, Yellow Intent Glimmers, Road Warding, and the exact section anchors rather than generic fantasy facades.",
+      "movement": "Movement flows through five section identities and twenty-five district slots. People navigate by Terrace Granary Beacon, Gear Inlays Command Bastion, section civic halls, major landmarks, monuments, and minor nooks.",
+      "sounds": [
+        "foot traffic",
+        "public notices",
+        "work tools",
+        "cart wheels or pack movement",
+        "district-specific calls",
+        "signal response murmurs",
+        "terrace farmers",
+        "granary stewards",
+        "seed keepers",
+        "irrigation crews",
+        "trainers",
+        "sparring crews"
+      ],
+      "smells": [
+        "worked materials",
+        "street food",
+        "lamp oil",
+        "dust or wet stone",
+        "district workshops",
+        "red brick",
+        "wool felt",
+        "sandstone",
+        "dyed wool",
+        "painted canvas"
+      ],
+      "lighting": "Lighting should use sandstone and arcane glow materials, Lantern Lit, Mist Veils, Civic Blue Glow, shared fires, symbolic civic object, with the Beacon and Seat carrying distinct civic emphasis.",
+      "weatherEffects": "Weather should interact with dry stone paving, civic terraces, dry ground and the city's source-backed materials, altering visibility, travel speed, public gathering, and signal readability.",
+      "dayCycle": "Daytime emphasizes section labor: Agricultural Terraces, Arena / Training, Security / Intelligence, Underworld / Hidden Economy, Slums / Informal Settlement. Civic halls, shops, and public works create the main public rhythm.",
+      "nightCycle": "Night scenes should preserve the city's identity through landmark silhouettes, beacon light, watch routes, late shops, ritual spaces, and section-specific sounds."
+    },
+    "shops": {
+      "common": [
+        "agricultural terraces supply stalls",
+        "arena / training supply stalls",
+        "security / intelligence supply stalls",
+        "underworld / hidden economy supply stalls",
+        "slums / informal settlement supply stalls",
+        "street food carts",
+        "tool repair stalls",
+        "notice copyists"
+      ],
+      "uncommon": [
+        "agricultural terraces specialist counters",
+        "arena / training specialist counters",
+        "security / intelligence specialist counters",
+        "underworld / hidden economy specialist counters",
+        "slums / informal settlement specialist counters",
+        "landmark guide services",
+        "ritual or permit specialists"
+      ],
+      "prestigious": [
+        "workshops or offices near Gear Inlays Command Bastion",
+        "specialist houses serving Hobgoblin Banner-Fortress of the Ordered Spear",
+        "elite civic sealers or patrons",
+        "master artisans tied to section landmarks"
+      ],
+      "exports": [
+        "agricultural terraces goods",
+        "arena / training goods",
+        "security / intelligence goods",
+        "underworld / hidden economy goods",
+        "slums / informal settlement goods",
+        "red brick",
+        "wool felt",
+        "sandstone",
+        "dyed wool"
+      ],
+      "imports": [
+        "food staples",
+        "replacement tools",
+        "rare pigments",
+        "ritual materials",
+        "metal fittings",
+        "fine cloth"
+      ],
+      "streetFood": [
+        "portable worker meals",
+        "flatbread or grain cakes",
+        "spiced stews",
+        "roasted local produce",
+        "market tea",
+        "festival sweets"
+      ],
+      "services": [
+        "directions by landmark",
+        "permit filing",
+        "repair work",
+        "messenger runs",
+        "public notice posting",
+        "agricultural terraces services",
+        "arena / training services",
+        "security / intelligence services",
+        "underworld / hidden economy services",
+        "slums / informal settlement services"
+      ]
+    },
+    "housing": {
+      "wealthy": "High-status housing clusters near Gear Inlays Command Bastion, major terraces, and prestigious landmark approaches; it should display the city materials cleanly and control sightlines toward Wonder or Beacon.",
+      "middle": "Middle housing occupies upper rooms, side courts, work-family compounds, and mixed-use streets close to civic halls and section services.",
+      "poor": "Poorer housing should be practical and specific to local labor, with patched materials, shared courtyards, crowded lanes, and strong dependence on nearby section anchors."
+    }
+  },
+  "districts": [
+    {
+      "districtNumber": 1,
+      "sectionNumber": 1,
+      "name": "D01 Agricultural Terraces Civic Core",
+      "civicPurpose": "One of five Agricultural Terraces district slots, focused on civic core; it supports local movement, services, social pressure, and scene transitions within Section 1.",
+      "visualIdentity": "Agricultural Terraces Civic Hall anchors the slot, supported by Hanging Gardens Monument, Seed Hall Nook, Red Brick, Wool Felt, Sandstone, Dyed Wool, Painted Canvas, and the hobgoblins civic language.",
+      "emotionalIdentity": "Agricultural Terraces expressed through civic core: disciplined readiness with practical street-level specificity.",
+      "gameplayAssetNeeds": [
+        "Agricultural Terraces Civic Hall",
+        "Hanging Gardens Monument",
+        "Seed Hall Nook",
+        "Agricultural Terraces street dressing",
+        "hobgoblins civilians",
+        "section-appropriate props"
+      ],
+      "narrativeUse": [
+        "agricultural terraces errands",
+        "wayfinding by exact landmark",
+        "crowd pressure",
+        "local work conflict",
+        "transition between board slots"
+      ],
+      "primaryLandmark": "Agricultural Terraces Civic Hall",
+      "minorLandmarks": [
+        "Hanging Gardens Monument",
+        "Seed Hall Nook"
+      ]
+    },
+    {
+      "districtNumber": 2,
+      "sectionNumber": 1,
+      "name": "D02 Agricultural Terraces Major Landmark Approach",
+      "civicPurpose": "One of five Agricultural Terraces district slots, focused on major landmark approach; it supports local movement, services, social pressure, and scene transitions within Section 1.",
+      "visualIdentity": "Terrace Granary Beacon anchors the slot, supported by Hanging Gardens Monument, Seed Hall Nook, Agricultural Terraces Civic Hall, Red Brick, Wool Felt, Sandstone, Dyed Wool, Painted Canvas, and the hobgoblins civic language.",
+      "emotionalIdentity": "Agricultural Terraces expressed through major landmark approach: disciplined readiness with practical street-level specificity.",
+      "gameplayAssetNeeds": [
+        "Terrace Granary Beacon",
+        "Hanging Gardens Monument",
+        "Seed Hall Nook",
+        "Agricultural Terraces Civic Hall",
+        "Agricultural Terraces street dressing",
+        "hobgoblins civilians",
+        "section-appropriate props"
+      ],
+      "narrativeUse": [
+        "agricultural terraces errands",
+        "wayfinding by exact landmark",
+        "crowd pressure",
+        "local work conflict",
+        "transition between board slots"
+      ],
+      "primaryLandmark": "Terrace Granary Beacon",
+      "minorLandmarks": [
+        "Hanging Gardens Monument",
+        "Seed Hall Nook",
+        "Agricultural Terraces Civic Hall"
+      ]
+    },
+    {
+      "districtNumber": 3,
+      "sectionNumber": 1,
+      "name": "D03 Agricultural Terraces Monument Square",
+      "civicPurpose": "One of five Agricultural Terraces district slots, focused on monument square; it supports local movement, services, social pressure, and scene transitions within Section 1.",
+      "visualIdentity": "Hanging Gardens Monument anchors the slot, supported by Seed Hall Nook, Agricultural Terraces Civic Hall, Red Brick, Wool Felt, Sandstone, Dyed Wool, Painted Canvas, and the hobgoblins civic language.",
+      "emotionalIdentity": "Agricultural Terraces expressed through monument square: disciplined readiness with practical street-level specificity.",
+      "gameplayAssetNeeds": [
+        "Hanging Gardens Monument",
+        "Seed Hall Nook",
+        "Agricultural Terraces Civic Hall",
+        "Agricultural Terraces street dressing",
+        "hobgoblins civilians",
+        "section-appropriate props"
+      ],
+      "narrativeUse": [
+        "agricultural terraces errands",
+        "wayfinding by exact landmark",
+        "crowd pressure",
+        "local work conflict",
+        "transition between board slots"
+      ],
+      "primaryLandmark": "Hanging Gardens Monument",
+      "minorLandmarks": [
+        "Seed Hall Nook",
+        "Agricultural Terraces Civic Hall"
+      ]
+    },
+    {
+      "districtNumber": 4,
+      "sectionNumber": 2,
+      "name": "D04 Arena / Training Civic Core",
+      "civicPurpose": "One of five Arena / Training district slots, focused on civic core; it supports local movement, services, social pressure, and scene transitions within Section 2.",
+      "visualIdentity": "Arena / Training Civic Hall anchors the slot, supported by Woven Banners Monument, Champion Gate Nook, Red Brick, Wool Felt, Sandstone, Dyed Wool, Painted Canvas, and the hobgoblins civic language.",
+      "emotionalIdentity": "Arena / Training expressed through civic core: disciplined readiness with practical street-level specificity.",
+      "gameplayAssetNeeds": [
+        "Arena / Training Civic Hall",
+        "Woven Banners Monument",
+        "Champion Gate Nook",
+        "Arena / Training street dressing",
+        "hobgoblins civilians",
+        "section-appropriate props"
+      ],
+      "narrativeUse": [
+        "arena / training errands",
+        "wayfinding by exact landmark",
+        "crowd pressure",
+        "local work conflict",
+        "transition between board slots"
+      ],
+      "primaryLandmark": "Arena / Training Civic Hall",
+      "minorLandmarks": [
+        "Woven Banners Monument",
+        "Champion Gate Nook"
+      ]
+    },
+    {
+      "districtNumber": 5,
+      "sectionNumber": 2,
+      "name": "D05 Arena / Training Major Landmark Approach",
+      "civicPurpose": "One of five Arena / Training district slots, focused on major landmark approach; it supports local movement, services, social pressure, and scene transitions within Section 2.",
+      "visualIdentity": "Training Arena anchors the slot, supported by Woven Banners Monument, Champion Gate Nook, Arena / Training Civic Hall, Red Brick, Wool Felt, Sandstone, Dyed Wool, Painted Canvas, and the hobgoblins civic language.",
+      "emotionalIdentity": "Arena / Training expressed through major landmark approach: disciplined readiness with practical street-level specificity.",
+      "gameplayAssetNeeds": [
+        "Training Arena",
+        "Woven Banners Monument",
+        "Champion Gate Nook",
+        "Arena / Training Civic Hall",
+        "Arena / Training street dressing",
+        "hobgoblins civilians",
+        "section-appropriate props"
+      ],
+      "narrativeUse": [
+        "arena / training errands",
+        "wayfinding by exact landmark",
+        "crowd pressure",
+        "local work conflict",
+        "transition between board slots"
+      ],
+      "primaryLandmark": "Training Arena",
+      "minorLandmarks": [
+        "Woven Banners Monument",
+        "Champion Gate Nook",
+        "Arena / Training Civic Hall"
+      ]
+    },
+    {
+      "districtNumber": 6,
+      "sectionNumber": 1,
+      "name": "D06 Agricultural Terraces Minor Landmark Lane",
+      "civicPurpose": "One of five Agricultural Terraces district slots, focused on minor landmark lane; it supports local movement, services, social pressure, and scene transitions within Section 1.",
+      "visualIdentity": "Seed Hall Nook anchors the slot, supported by Hanging Gardens Monument, Agricultural Terraces Civic Hall, Red Brick, Wool Felt, Sandstone, Dyed Wool, Painted Canvas, and the hobgoblins civic language.",
+      "emotionalIdentity": "Agricultural Terraces expressed through minor landmark lane: disciplined readiness with practical street-level specificity.",
+      "gameplayAssetNeeds": [
+        "Seed Hall Nook",
+        "Hanging Gardens Monument",
+        "Agricultural Terraces Civic Hall",
+        "Agricultural Terraces street dressing",
+        "hobgoblins civilians",
+        "section-appropriate props"
+      ],
+      "narrativeUse": [
+        "agricultural terraces errands",
+        "wayfinding by exact landmark",
+        "crowd pressure",
+        "local work conflict",
+        "transition between board slots"
+      ],
+      "primaryLandmark": "Seed Hall Nook",
+      "minorLandmarks": [
+        "Hanging Gardens Monument",
+        "Agricultural Terraces Civic Hall"
+      ]
+    },
+    {
+      "districtNumber": 7,
+      "sectionNumber": 1,
+      "name": "D07 Agricultural Terraces Working Street Fabric",
+      "civicPurpose": "One of five Agricultural Terraces district slots, focused on working street fabric; it supports local movement, services, social pressure, and scene transitions within Section 1.",
+      "visualIdentity": "Terrace Granary Beacon anchors the slot, supported by Hanging Gardens Monument, Seed Hall Nook, Agricultural Terraces Civic Hall, Red Brick, Wool Felt, Sandstone, Dyed Wool, Painted Canvas, and the hobgoblins civic language.",
+      "emotionalIdentity": "Agricultural Terraces expressed through working street fabric: disciplined readiness with practical street-level specificity.",
+      "gameplayAssetNeeds": [
+        "Terrace Granary Beacon",
+        "Hanging Gardens Monument",
+        "Seed Hall Nook",
+        "Agricultural Terraces Civic Hall",
+        "Agricultural Terraces street dressing",
+        "hobgoblins civilians",
+        "section-appropriate props"
+      ],
+      "narrativeUse": [
+        "agricultural terraces errands",
+        "wayfinding by exact landmark",
+        "crowd pressure",
+        "local work conflict",
+        "transition between board slots"
+      ],
+      "primaryLandmark": "Terrace Granary Beacon",
+      "minorLandmarks": [
+        "Hanging Gardens Monument",
+        "Seed Hall Nook",
+        "Agricultural Terraces Civic Hall"
+      ]
+    },
+    {
+      "districtNumber": 8,
+      "sectionNumber": 3,
+      "name": "D08 Security / Intelligence Civic Core",
+      "civicPurpose": "One of five Security / Intelligence district slots, focused on civic core; it supports local movement, services, social pressure, and scene transitions within Section 3.",
+      "visualIdentity": "Security / Intelligence Hall anchors the slot, supported by Mist Veils Monument, Dossier Vault Nook, Red Brick, Wool Felt, Sandstone, Dyed Wool, Painted Canvas, and the hobgoblins civic language.",
+      "emotionalIdentity": "Security / Intelligence expressed through civic core: disciplined readiness with practical street-level specificity.",
+      "gameplayAssetNeeds": [
+        "Security / Intelligence Hall",
+        "Mist Veils Monument",
+        "Dossier Vault Nook",
+        "Security / Intelligence street dressing",
+        "hobgoblins civilians",
+        "section-appropriate props"
+      ],
+      "narrativeUse": [
+        "security / intelligence errands",
+        "wayfinding by exact landmark",
+        "crowd pressure",
+        "local work conflict",
+        "transition between board slots"
+      ],
+      "primaryLandmark": "Security / Intelligence Hall",
+      "minorLandmarks": [
+        "Mist Veils Monument",
+        "Dossier Vault Nook"
+      ]
+    },
+    {
+      "districtNumber": 9,
+      "sectionNumber": 2,
+      "name": "D09 Arena / Training Monument Square",
+      "civicPurpose": "One of five Arena / Training district slots, focused on monument square; it supports local movement, services, social pressure, and scene transitions within Section 2.",
+      "visualIdentity": "Woven Banners Monument anchors the slot, supported by Champion Gate Nook, Arena / Training Civic Hall, Red Brick, Wool Felt, Sandstone, Dyed Wool, Painted Canvas, and the hobgoblins civic language.",
+      "emotionalIdentity": "Arena / Training expressed through monument square: disciplined readiness with practical street-level specificity.",
+      "gameplayAssetNeeds": [
+        "Woven Banners Monument",
+        "Champion Gate Nook",
+        "Arena / Training Civic Hall",
+        "Arena / Training street dressing",
+        "hobgoblins civilians",
+        "section-appropriate props"
+      ],
+      "narrativeUse": [
+        "arena / training errands",
+        "wayfinding by exact landmark",
+        "crowd pressure",
+        "local work conflict",
+        "transition between board slots"
+      ],
+      "primaryLandmark": "Woven Banners Monument",
+      "minorLandmarks": [
+        "Champion Gate Nook",
+        "Arena / Training Civic Hall"
+      ]
+    },
+    {
+      "districtNumber": 10,
+      "sectionNumber": 2,
+      "name": "D10 Arena / Training Minor Landmark Lane",
+      "civicPurpose": "One of five Arena / Training district slots, focused on minor landmark lane; it supports local movement, services, social pressure, and scene transitions within Section 2.",
+      "visualIdentity": "Champion Gate Nook anchors the slot, supported by Woven Banners Monument, Arena / Training Civic Hall, Red Brick, Wool Felt, Sandstone, Dyed Wool, Painted Canvas, and the hobgoblins civic language.",
+      "emotionalIdentity": "Arena / Training expressed through minor landmark lane: disciplined readiness with practical street-level specificity.",
+      "gameplayAssetNeeds": [
+        "Champion Gate Nook",
+        "Woven Banners Monument",
+        "Arena / Training Civic Hall",
+        "Arena / Training street dressing",
+        "hobgoblins civilians",
+        "section-appropriate props"
+      ],
+      "narrativeUse": [
+        "arena / training errands",
+        "wayfinding by exact landmark",
+        "crowd pressure",
+        "local work conflict",
+        "transition between board slots"
+      ],
+      "primaryLandmark": "Champion Gate Nook",
+      "minorLandmarks": [
+        "Woven Banners Monument",
+        "Arena / Training Civic Hall"
+      ]
+    },
+    {
+      "districtNumber": 11,
+      "sectionNumber": 4,
+      "name": "D11 Underworld / Hidden Economy Civic Core",
+      "civicPurpose": "One of five Underworld / Hidden Economy district slots, focused on civic core; it supports local movement, services, social pressure, and scene transitions within Section 4.",
+      "visualIdentity": "Underworld / Hidden Economy Civic Hall anchors the slot, supported by Mist Veils Monument, Understreet Vault Nook, Red Brick, Wool Felt, Sandstone, Dyed Wool, Painted Canvas, and the hobgoblins civic language.",
+      "emotionalIdentity": "Underworld / Hidden Economy expressed through civic core: disciplined readiness with practical street-level specificity.",
+      "gameplayAssetNeeds": [
+        "Underworld / Hidden Economy Civic Hall",
+        "Mist Veils Monument",
+        "Understreet Vault Nook",
+        "Underworld / Hidden Economy street dressing",
+        "hobgoblins civilians",
+        "section-appropriate props"
+      ],
+      "narrativeUse": [
+        "underworld / hidden economy errands",
+        "wayfinding by exact landmark",
+        "crowd pressure",
+        "local work conflict",
+        "transition between board slots"
+      ],
+      "primaryLandmark": "Underworld / Hidden Economy Civic Hall",
+      "minorLandmarks": [
+        "Mist Veils Monument",
+        "Understreet Vault Nook"
+      ]
+    },
+    {
+      "districtNumber": 12,
+      "sectionNumber": 3,
+      "name": "D12 Security / Intelligence Major Landmark Approach",
+      "civicPurpose": "One of five Security / Intelligence district slots, focused on major landmark approach; it supports local movement, services, social pressure, and scene transitions within Section 3.",
+      "visualIdentity": "Cipher Hall anchors the slot, supported by Mist Veils Monument, Dossier Vault Nook, Security / Intelligence Hall, Red Brick, Wool Felt, Sandstone, Dyed Wool, Painted Canvas, and the hobgoblins civic language.",
+      "emotionalIdentity": "Security / Intelligence expressed through major landmark approach: disciplined readiness with practical street-level specificity.",
+      "gameplayAssetNeeds": [
+        "Cipher Hall",
+        "Mist Veils Monument",
+        "Dossier Vault Nook",
+        "Security / Intelligence Hall",
+        "Security / Intelligence street dressing",
+        "hobgoblins civilians",
+        "section-appropriate props"
+      ],
+      "narrativeUse": [
+        "security / intelligence errands",
+        "wayfinding by exact landmark",
+        "crowd pressure",
+        "local work conflict",
+        "transition between board slots"
+      ],
+      "primaryLandmark": "Cipher Hall",
+      "minorLandmarks": [
+        "Mist Veils Monument",
+        "Dossier Vault Nook",
+        "Security / Intelligence Hall"
+      ]
+    },
+    {
+      "districtNumber": 13,
+      "sectionNumber": 3,
+      "name": "D13 Seat of Power / Security / Intelligence",
+      "civicPurpose": "Central city authority, public rulings, sealed records, command visibility, and the official connection between Gear Inlays Command Bastion and the surrounding Security / Intelligence section.",
+      "visualIdentity": "Gear Inlays Command Bastion dominates this central slot while Security / Intelligence details, civic blue signal language, formal approaches, and local anchor textures remain visible.",
+      "emotionalIdentity": "Authoritative, central, watched, and politically charged.",
+      "gameplayAssetNeeds": [
+        "Gear Inlays Command Bastion",
+        "central authority massing",
+        "audience terraces",
+        "sealed archive entrances",
+        "visible D13 approaches",
+        "Dossier Vault Nook",
+        "Security / Intelligence Hall"
+      ],
+      "narrativeUse": [
+        "central petitions",
+        "public rulings",
+        "citywide orders",
+        "private authority scenes",
+        "beacon response coordination"
+      ],
+      "primaryLandmark": "Gear Inlays Command Bastion",
+      "minorLandmarks": [
+        "Dossier Vault Nook",
+        "Security / Intelligence Hall"
+      ]
+    },
+    {
+      "districtNumber": 14,
+      "sectionNumber": 3,
+      "name": "D14 Security / Intelligence Minor Landmark Lane",
+      "civicPurpose": "One of five Security / Intelligence district slots, focused on minor landmark lane; it supports local movement, services, social pressure, and scene transitions within Section 3.",
+      "visualIdentity": "Dossier Vault Nook anchors the slot, supported by Mist Veils Monument, Security / Intelligence Hall, Red Brick, Wool Felt, Sandstone, Dyed Wool, Painted Canvas, and the hobgoblins civic language.",
+      "emotionalIdentity": "Security / Intelligence expressed through minor landmark lane: disciplined readiness with practical street-level specificity.",
+      "gameplayAssetNeeds": [
+        "Dossier Vault Nook",
+        "Mist Veils Monument",
+        "Security / Intelligence Hall",
+        "Security / Intelligence street dressing",
+        "hobgoblins civilians",
+        "section-appropriate props"
+      ],
+      "narrativeUse": [
+        "security / intelligence errands",
+        "wayfinding by exact landmark",
+        "crowd pressure",
+        "local work conflict",
+        "transition between board slots"
+      ],
+      "primaryLandmark": "Dossier Vault Nook",
+      "minorLandmarks": [
+        "Mist Veils Monument",
+        "Security / Intelligence Hall"
+      ]
+    },
+    {
+      "districtNumber": 15,
+      "sectionNumber": 2,
+      "name": "D15 Arena / Training Working Street Fabric",
+      "civicPurpose": "One of five Arena / Training district slots, focused on working street fabric; it supports local movement, services, social pressure, and scene transitions within Section 2.",
+      "visualIdentity": "Training Arena anchors the slot, supported by Woven Banners Monument, Champion Gate Nook, Arena / Training Civic Hall, Red Brick, Wool Felt, Sandstone, Dyed Wool, Painted Canvas, and the hobgoblins civic language.",
+      "emotionalIdentity": "Arena / Training expressed through working street fabric: disciplined readiness with practical street-level specificity.",
+      "gameplayAssetNeeds": [
+        "Training Arena",
+        "Woven Banners Monument",
+        "Champion Gate Nook",
+        "Arena / Training Civic Hall",
+        "Arena / Training street dressing",
+        "hobgoblins civilians",
+        "section-appropriate props"
+      ],
+      "narrativeUse": [
+        "arena / training errands",
+        "wayfinding by exact landmark",
+        "crowd pressure",
+        "local work conflict",
+        "transition between board slots"
+      ],
+      "primaryLandmark": "Training Arena",
+      "minorLandmarks": [
+        "Woven Banners Monument",
+        "Champion Gate Nook",
+        "Arena / Training Civic Hall"
+      ]
+    },
+    {
+      "districtNumber": 16,
+      "sectionNumber": 4,
+      "name": "D16 Underworld / Hidden Economy Major Landmark Approach",
+      "civicPurpose": "One of five Underworld / Hidden Economy district slots, focused on major landmark approach; it supports local movement, services, social pressure, and scene transitions within Section 4.",
+      "visualIdentity": "Black Market Arcade anchors the slot, supported by Mist Veils Monument, Understreet Vault Nook, Underworld / Hidden Economy Civic Hall, Red Brick, Wool Felt, Sandstone, Dyed Wool, Painted Canvas, and the hobgoblins civic language.",
+      "emotionalIdentity": "Underworld / Hidden Economy expressed through major landmark approach: disciplined readiness with practical street-level specificity.",
+      "gameplayAssetNeeds": [
+        "Black Market Arcade",
+        "Mist Veils Monument",
+        "Understreet Vault Nook",
+        "Underworld / Hidden Economy Civic Hall",
+        "Underworld / Hidden Economy street dressing",
+        "hobgoblins civilians",
+        "section-appropriate props"
+      ],
+      "narrativeUse": [
+        "underworld / hidden economy errands",
+        "wayfinding by exact landmark",
+        "crowd pressure",
+        "local work conflict",
+        "transition between board slots"
+      ],
+      "primaryLandmark": "Black Market Arcade",
+      "minorLandmarks": [
+        "Mist Veils Monument",
+        "Understreet Vault Nook",
+        "Underworld / Hidden Economy Civic Hall"
+      ]
+    },
+    {
+      "districtNumber": 17,
+      "sectionNumber": 4,
+      "name": "D17 Underworld / Hidden Economy Monument Square",
+      "civicPurpose": "One of five Underworld / Hidden Economy district slots, focused on monument square; it supports local movement, services, social pressure, and scene transitions within Section 4.",
+      "visualIdentity": "Mist Veils Monument anchors the slot, supported by Understreet Vault Nook, Underworld / Hidden Economy Civic Hall, Red Brick, Wool Felt, Sandstone, Dyed Wool, Painted Canvas, and the hobgoblins civic language.",
+      "emotionalIdentity": "Underworld / Hidden Economy expressed through monument square: disciplined readiness with practical street-level specificity.",
+      "gameplayAssetNeeds": [
+        "Mist Veils Monument",
+        "Understreet Vault Nook",
+        "Underworld / Hidden Economy Civic Hall",
+        "Underworld / Hidden Economy street dressing",
+        "hobgoblins civilians",
+        "section-appropriate props"
+      ],
+      "narrativeUse": [
+        "underworld / hidden economy errands",
+        "wayfinding by exact landmark",
+        "crowd pressure",
+        "local work conflict",
+        "transition between board slots"
+      ],
+      "primaryLandmark": "Mist Veils Monument",
+      "minorLandmarks": [
+        "Understreet Vault Nook",
+        "Underworld / Hidden Economy Civic Hall"
+      ]
+    },
+    {
+      "districtNumber": 18,
+      "sectionNumber": 3,
+      "name": "D18 Security / Intelligence Working Street Fabric",
+      "civicPurpose": "One of five Security / Intelligence district slots, focused on working street fabric; it supports local movement, services, social pressure, and scene transitions within Section 3.",
+      "visualIdentity": "Cipher Hall anchors the slot, supported by Mist Veils Monument, Dossier Vault Nook, Security / Intelligence Hall, Red Brick, Wool Felt, Sandstone, Dyed Wool, Painted Canvas, and the hobgoblins civic language.",
+      "emotionalIdentity": "Security / Intelligence expressed through working street fabric: disciplined readiness with practical street-level specificity.",
+      "gameplayAssetNeeds": [
+        "Cipher Hall",
+        "Mist Veils Monument",
+        "Dossier Vault Nook",
+        "Security / Intelligence Hall",
+        "Security / Intelligence street dressing",
+        "hobgoblins civilians",
+        "section-appropriate props"
+      ],
+      "narrativeUse": [
+        "security / intelligence errands",
+        "wayfinding by exact landmark",
+        "crowd pressure",
+        "local work conflict",
+        "transition between board slots"
+      ],
+      "primaryLandmark": "Cipher Hall",
+      "minorLandmarks": [
+        "Mist Veils Monument",
+        "Dossier Vault Nook",
+        "Security / Intelligence Hall"
+      ]
+    },
+    {
+      "districtNumber": 19,
+      "sectionNumber": 5,
+      "name": "D19 Slums / Informal Settlement Civic Core",
+      "civicPurpose": "One of five Slums / Informal Settlement district slots, focused on civic core; it supports local movement, services, social pressure, and scene transitions within Section 5.",
+      "visualIdentity": "Slums / Informal Settlement Civic Hall anchors the slot, supported by Slums Informal Settlement Lantern Monument, Patched Tenement Nook, Red Brick, Wool Felt, Sandstone, Dyed Wool, Painted Canvas, and the hobgoblins civic language.",
+      "emotionalIdentity": "Slums / Informal Settlement expressed through civic core: disciplined readiness with practical street-level specificity.",
+      "gameplayAssetNeeds": [
+        "Slums / Informal Settlement Civic Hall",
+        "Slums Informal Settlement Lantern Monument",
+        "Patched Tenement Nook",
+        "Slums / Informal Settlement street dressing",
+        "hobgoblins civilians",
+        "section-appropriate props"
+      ],
+      "narrativeUse": [
+        "slums / informal settlement errands",
+        "wayfinding by exact landmark",
+        "crowd pressure",
+        "local work conflict",
+        "transition between board slots"
+      ],
+      "primaryLandmark": "Slums / Informal Settlement Civic Hall",
+      "minorLandmarks": [
+        "Slums Informal Settlement Lantern Monument",
+        "Patched Tenement Nook"
+      ]
+    },
+    {
+      "districtNumber": 20,
+      "sectionNumber": 5,
+      "name": "D20 Slums / Informal Settlement Major Landmark Approach",
+      "civicPurpose": "One of five Slums / Informal Settlement district slots, focused on major landmark approach; it supports local movement, services, social pressure, and scene transitions within Section 5.",
+      "visualIdentity": "Scrap Market anchors the slot, supported by Slums Informal Settlement Lantern Monument, Patched Tenement Nook, Slums / Informal Settlement Civic Hall, Red Brick, Wool Felt, Sandstone, Dyed Wool, Painted Canvas, and the hobgoblins civic language.",
+      "emotionalIdentity": "Slums / Informal Settlement expressed through major landmark approach: disciplined readiness with practical street-level specificity.",
+      "gameplayAssetNeeds": [
+        "Scrap Market",
+        "Slums Informal Settlement Lantern Monument",
+        "Patched Tenement Nook",
+        "Slums / Informal Settlement Civic Hall",
+        "Slums / Informal Settlement street dressing",
+        "hobgoblins civilians",
+        "section-appropriate props"
+      ],
+      "narrativeUse": [
+        "slums / informal settlement errands",
+        "wayfinding by exact landmark",
+        "crowd pressure",
+        "local work conflict",
+        "transition between board slots"
+      ],
+      "primaryLandmark": "Scrap Market",
+      "minorLandmarks": [
+        "Slums Informal Settlement Lantern Monument",
+        "Patched Tenement Nook",
+        "Slums / Informal Settlement Civic Hall"
+      ]
+    },
+    {
+      "districtNumber": 21,
+      "sectionNumber": 4,
+      "name": "D21 Underworld / Hidden Economy Minor Landmark Lane",
+      "civicPurpose": "One of five Underworld / Hidden Economy district slots, focused on minor landmark lane; it supports local movement, services, social pressure, and scene transitions within Section 4.",
+      "visualIdentity": "Understreet Vault Nook anchors the slot, supported by Mist Veils Monument, Underworld / Hidden Economy Civic Hall, Red Brick, Wool Felt, Sandstone, Dyed Wool, Painted Canvas, and the hobgoblins civic language.",
+      "emotionalIdentity": "Underworld / Hidden Economy expressed through minor landmark lane: disciplined readiness with practical street-level specificity.",
+      "gameplayAssetNeeds": [
+        "Understreet Vault Nook",
+        "Mist Veils Monument",
+        "Underworld / Hidden Economy Civic Hall",
+        "Underworld / Hidden Economy street dressing",
+        "hobgoblins civilians",
+        "section-appropriate props"
+      ],
+      "narrativeUse": [
+        "underworld / hidden economy errands",
+        "wayfinding by exact landmark",
+        "crowd pressure",
+        "local work conflict",
+        "transition between board slots"
+      ],
+      "primaryLandmark": "Understreet Vault Nook",
+      "minorLandmarks": [
+        "Mist Veils Monument",
+        "Underworld / Hidden Economy Civic Hall"
+      ]
+    },
+    {
+      "districtNumber": 22,
+      "sectionNumber": 4,
+      "name": "D22 Underworld / Hidden Economy Working Street Fabric",
+      "civicPurpose": "One of five Underworld / Hidden Economy district slots, focused on working street fabric; it supports local movement, services, social pressure, and scene transitions within Section 4.",
+      "visualIdentity": "Black Market Arcade anchors the slot, supported by Mist Veils Monument, Understreet Vault Nook, Underworld / Hidden Economy Civic Hall, Red Brick, Wool Felt, Sandstone, Dyed Wool, Painted Canvas, and the hobgoblins civic language.",
+      "emotionalIdentity": "Underworld / Hidden Economy expressed through working street fabric: disciplined readiness with practical street-level specificity.",
+      "gameplayAssetNeeds": [
+        "Black Market Arcade",
+        "Mist Veils Monument",
+        "Understreet Vault Nook",
+        "Underworld / Hidden Economy Civic Hall",
+        "Underworld / Hidden Economy street dressing",
+        "hobgoblins civilians",
+        "section-appropriate props"
+      ],
+      "narrativeUse": [
+        "underworld / hidden economy errands",
+        "wayfinding by exact landmark",
+        "crowd pressure",
+        "local work conflict",
+        "transition between board slots"
+      ],
+      "primaryLandmark": "Black Market Arcade",
+      "minorLandmarks": [
+        "Mist Veils Monument",
+        "Understreet Vault Nook",
+        "Underworld / Hidden Economy Civic Hall"
+      ]
+    },
+    {
+      "districtNumber": 23,
+      "sectionNumber": 5,
+      "name": "D23 Slums / Informal Settlement Monument Square",
+      "civicPurpose": "One of five Slums / Informal Settlement district slots, focused on monument square; it supports local movement, services, social pressure, and scene transitions within Section 5.",
+      "visualIdentity": "Slums Informal Settlement Lantern Monument anchors the slot, supported by Patched Tenement Nook, Slums / Informal Settlement Civic Hall, Red Brick, Wool Felt, Sandstone, Dyed Wool, Painted Canvas, and the hobgoblins civic language.",
+      "emotionalIdentity": "Slums / Informal Settlement expressed through monument square: disciplined readiness with practical street-level specificity.",
+      "gameplayAssetNeeds": [
+        "Slums Informal Settlement Lantern Monument",
+        "Patched Tenement Nook",
+        "Slums / Informal Settlement Civic Hall",
+        "Slums / Informal Settlement street dressing",
+        "hobgoblins civilians",
+        "section-appropriate props"
+      ],
+      "narrativeUse": [
+        "slums / informal settlement errands",
+        "wayfinding by exact landmark",
+        "crowd pressure",
+        "local work conflict",
+        "transition between board slots"
+      ],
+      "primaryLandmark": "Slums Informal Settlement Lantern Monument",
+      "minorLandmarks": [
+        "Patched Tenement Nook",
+        "Slums / Informal Settlement Civic Hall"
+      ]
+    },
+    {
+      "districtNumber": 24,
+      "sectionNumber": 5,
+      "name": "D24 Slums / Informal Settlement Minor Landmark Lane",
+      "civicPurpose": "One of five Slums / Informal Settlement district slots, focused on minor landmark lane; it supports local movement, services, social pressure, and scene transitions within Section 5.",
+      "visualIdentity": "Patched Tenement Nook anchors the slot, supported by Slums Informal Settlement Lantern Monument, Slums / Informal Settlement Civic Hall, Red Brick, Wool Felt, Sandstone, Dyed Wool, Painted Canvas, and the hobgoblins civic language.",
+      "emotionalIdentity": "Slums / Informal Settlement expressed through minor landmark lane: disciplined readiness with practical street-level specificity.",
+      "gameplayAssetNeeds": [
+        "Patched Tenement Nook",
+        "Slums Informal Settlement Lantern Monument",
+        "Slums / Informal Settlement Civic Hall",
+        "Slums / Informal Settlement street dressing",
+        "hobgoblins civilians",
+        "section-appropriate props"
+      ],
+      "narrativeUse": [
+        "slums / informal settlement errands",
+        "wayfinding by exact landmark",
+        "crowd pressure",
+        "local work conflict",
+        "transition between board slots"
+      ],
+      "primaryLandmark": "Patched Tenement Nook",
+      "minorLandmarks": [
+        "Slums Informal Settlement Lantern Monument",
+        "Slums / Informal Settlement Civic Hall"
+      ]
+    },
+    {
+      "districtNumber": 25,
+      "sectionNumber": 5,
+      "name": "D25 Slums / Informal Settlement Working Street Fabric",
+      "civicPurpose": "One of five Slums / Informal Settlement district slots, focused on working street fabric; it supports local movement, services, social pressure, and scene transitions within Section 5.",
+      "visualIdentity": "Scrap Market anchors the slot, supported by Slums Informal Settlement Lantern Monument, Patched Tenement Nook, Slums / Informal Settlement Civic Hall, Red Brick, Wool Felt, Sandstone, Dyed Wool, Painted Canvas, and the hobgoblins civic language.",
+      "emotionalIdentity": "Slums / Informal Settlement expressed through working street fabric: disciplined readiness with practical street-level specificity.",
+      "gameplayAssetNeeds": [
+        "Scrap Market",
+        "Slums Informal Settlement Lantern Monument",
+        "Patched Tenement Nook",
+        "Slums / Informal Settlement Civic Hall",
+        "Slums / Informal Settlement street dressing",
+        "hobgoblins civilians",
+        "section-appropriate props"
+      ],
+      "narrativeUse": [
+        "slums / informal settlement errands",
+        "wayfinding by exact landmark",
+        "crowd pressure",
+        "local work conflict",
+        "transition between board slots"
+      ],
+      "primaryLandmark": "Scrap Market",
+      "minorLandmarks": [
+        "Slums Informal Settlement Lantern Monument",
+        "Patched Tenement Nook",
+        "Slums / Informal Settlement Civic Hall"
+      ]
+    }
+  ],
+  "landmarks": {
+    "wonder": {
+      "name": "Hobgoblin Banner-Fortress of the Ordered Spear",
+      "symbolicRole": "The citywide symbol of order that can feed and defend itself made monumental.",
+      "visualRole": "A wonder-scale skyline anchor using Red Brick, Wool Felt, Sandstone, Dyed Wool, Painted Canvas, Dry Stone Paving, Civic Terraces, Dry Ground, and the hobgoblins visual language.",
+      "civicRole": "Represents the whole city above the five sections: Agricultural Terraces, Arena / Training, Security / Intelligence, Underworld / Hidden Economy, Slums / Informal Settlement.",
+      "narrativeUse": [
+        "arrival revelation",
+        "city identity scene",
+        "public ceremony",
+        "distant navigation",
+        "symbolic contrast with district-level conflict"
+      ],
+      "assetUse": [
+        "map background skyline anchor",
+        "hero-view focal point",
+        "diorama backdrop",
+        "visual identifier for city"
+      ],
+      "sensoryIdentity": [
+        "red brick",
+        "wool felt",
+        "sandstone",
+        "dyed wool",
+        "painted canvas",
+        "dry stone paving",
+        "civic terraces"
+      ],
+      "storyHooks": [
+        "access to Hobgoblin Banner-Fortress of the Ordered Spear changes public legitimacy",
+        "a citywide ritual reveals hidden pressure",
+        "the Wonder becomes a navigation or warning reference"
+      ]
+    },
+    "beacon": {
+      "name": "Terrace Granary Beacon",
+      "symbolicRole": "Public signal and shared alarm for Varkesh Bastion.",
+      "visualRole": "A section-scale signal landmark that must read immediately as the city Beacon.",
+      "civicRole": "Coordinates public response, civic warnings, and Conjunction-state attention.",
+      "narrativeUse": [
+        "beacon color change",
+        "crowd response",
+        "public warning",
+        "rumor spread",
+        "panic or disciplined response"
+      ],
+      "assetUse": [
+        "district diorama signal centerpiece",
+        "city map signal icon",
+        "public plaza asset"
+      ],
+      "sensoryIdentity": [
+        "signal glow",
+        "crowd hush",
+        "public calls",
+        "red brick",
+        "wool felt",
+        "sandstone",
+        "dyed wool"
+      ],
+      "storyHooks": [
+        "someone controls the first interpretation of a signal",
+        "the Beacon redirects traffic between sections",
+        "a warning exposes which citizens trust civic authority"
+      ]
+    },
+    "seatOfPower": {
+      "name": "Gear Inlays Command Bastion",
+      "symbolicRole": "Central authority made visible and source-backed.",
+      "visualRole": "The District 13 authority complex with formal approaches and city-specific materials.",
+      "civicRole": "Seat of government, petitions, records, rulings, and command visibility.",
+      "narrativeUse": [
+        "formal petition",
+        "sealed ruling",
+        "private audience",
+        "public legitimacy challenge",
+        "citywide order"
+      ],
+      "assetUse": [
+        "central map authority marker",
+        "D13 diorama landmark",
+        "government-scene backdrop"
+      ],
+      "sensoryIdentity": [
+        "formal silence",
+        "clerks and guards",
+        "sealed records",
+        "red brick",
+        "wool felt",
+        "sandstone",
+        "dyed wool"
+      ],
+      "storyHooks": [
+        "a ruling contradicts a section custom",
+        "a sealed record changes public interpretation",
+        "D13 becomes a pressure point during crisis"
+      ]
+    },
+    "majorLandmarks": [
+      {
+        "name": "Agricultural Terraces Civic Hall",
+        "symbolicRole": "Agricultural Terraces expressed through a civic center anchor.",
+        "visualRole": "Agricultural Terraces Civic Hall should show irrigation channels, institutional anchor, public-facing administration, clear central silhouette, board-readable entrance, using Red Brick, Wool Felt, Sandstone, Dyed Wool, Painted Canvas and section-specific massing.",
+        "civicRole": "Supports Section 1's Agricultural Terraces purpose as a local civic, movement, memory, or service node.",
+        "narrativeUse": [
+          "agricultural terraces scene anchor",
+          "local meeting point",
+          "evidence or route clue",
+          "crowd behavior marker"
+        ],
+        "assetUse": [
+          "Section 1 diorama asset",
+          "map label or icon",
+          "district-scale landmark prop cluster"
+        ],
+        "sensoryIdentity": [
+          "irrigation channels",
+          "institutional anchor",
+          "public-facing administration",
+          "clear central silhouette",
+          "red brick",
+          "wool felt",
+          "sandstone"
+        ],
+        "storyHooks": [
+          "Agricultural Terraces Civic Hall becomes the specific landmark that prevents the scene from feeling generic",
+          "a local dispute centers on access to Agricultural Terraces Civic Hall"
+        ]
+      },
+      {
+        "name": "Hanging Gardens Monument",
+        "symbolicRole": "Agricultural Terraces expressed through a monument anchor.",
+        "visualRole": "Hanging Gardens Monument should show irrigation channels, symbolic civic object, small ceremonial site, local memory marker, subordinate to major landmark, using Red Brick, Wool Felt, Sandstone, Dyed Wool, Painted Canvas and section-specific massing.",
+        "civicRole": "Supports Section 1's Agricultural Terraces purpose as a local civic, movement, memory, or service node.",
+        "narrativeUse": [
+          "agricultural terraces scene anchor",
+          "local meeting point",
+          "evidence or route clue",
+          "crowd behavior marker"
+        ],
+        "assetUse": [
+          "Section 1 diorama asset",
+          "map label or icon",
+          "district-scale landmark prop cluster"
+        ],
+        "sensoryIdentity": [
+          "irrigation channels",
+          "symbolic civic object",
+          "small ceremonial site",
+          "local memory marker",
+          "red brick",
+          "wool felt",
+          "sandstone"
+        ],
+        "storyHooks": [
+          "Hanging Gardens Monument becomes the specific landmark that prevents the scene from feeling generic",
+          "a local dispute centers on access to Hanging Gardens Monument"
+        ]
+      },
+      {
+        "name": "Seed Hall Nook",
+        "symbolicRole": "Agricultural Terraces expressed through a minor landmark anchor.",
+        "visualRole": "Seed Hall Nook should show irrigation channels, small local identity prop, street-level detail, usable board landmark, subordinate scale, using Red Brick, Wool Felt, Sandstone, Dyed Wool, Painted Canvas and section-specific massing.",
+        "civicRole": "Supports Section 1's Agricultural Terraces purpose as a local civic, movement, memory, or service node.",
+        "narrativeUse": [
+          "agricultural terraces scene anchor",
+          "local meeting point",
+          "evidence or route clue",
+          "crowd behavior marker"
+        ],
+        "assetUse": [
+          "Section 1 diorama asset",
+          "map label or icon",
+          "district-scale landmark prop cluster"
+        ],
+        "sensoryIdentity": [
+          "irrigation channels",
+          "small local identity prop",
+          "street-level detail",
+          "usable board landmark",
+          "red brick",
+          "wool felt",
+          "sandstone"
+        ],
+        "storyHooks": [
+          "Seed Hall Nook becomes the specific landmark that prevents the scene from feeling generic",
+          "a local dispute centers on access to Seed Hall Nook"
+        ]
+      },
+      {
+        "name": "Arena / Training Civic Hall",
+        "symbolicRole": "Arena / Training expressed through a civic center anchor.",
+        "visualRole": "Arena / Training Civic Hall should show clear central silhouette, board-readable entrance, banners, sand floors, practice weapons, using Red Brick, Wool Felt, Sandstone, Dyed Wool, Painted Canvas and section-specific massing.",
+        "civicRole": "Supports Section 2's Arena / Training purpose as a local civic, movement, memory, or service node.",
+        "narrativeUse": [
+          "arena / training scene anchor",
+          "local meeting point",
+          "evidence or route clue",
+          "crowd behavior marker"
+        ],
+        "assetUse": [
+          "Section 2 diorama asset",
+          "map label or icon",
+          "district-scale landmark prop cluster"
+        ],
+        "sensoryIdentity": [
+          "clear central silhouette",
+          "board-readable entrance",
+          "banners",
+          "sand floors",
+          "red brick",
+          "wool felt",
+          "sandstone"
+        ],
+        "storyHooks": [
+          "Arena / Training Civic Hall becomes the specific landmark that prevents the scene from feeling generic",
+          "a local dispute centers on access to Arena / Training Civic Hall"
+        ]
+      },
+      {
+        "name": "Training Arena",
+        "symbolicRole": "Arena / Training expressed through a major landmark anchor.",
+        "visualRole": "Training Arena should show arenas, training yards, weapon courts, practice rings, largest section focal point, using Red Brick, Wool Felt, Sandstone, Dyed Wool, Painted Canvas and section-specific massing.",
+        "civicRole": "Supports Section 2's Arena / Training purpose as a local civic, movement, memory, or service node.",
+        "narrativeUse": [
+          "arena / training scene anchor",
+          "local meeting point",
+          "evidence or route clue",
+          "crowd behavior marker"
+        ],
+        "assetUse": [
+          "Section 2 diorama asset",
+          "map label or icon",
+          "district-scale landmark prop cluster"
+        ],
+        "sensoryIdentity": [
+          "arenas",
+          "training yards",
+          "weapon courts",
+          "practice rings",
+          "red brick",
+          "wool felt",
+          "sandstone"
+        ],
+        "storyHooks": [
+          "Training Arena becomes the specific landmark that prevents the scene from feeling generic",
+          "a local dispute centers on access to Training Arena"
+        ]
+      },
+      {
+        "name": "Woven Banners Monument",
+        "symbolicRole": "Arena / Training expressed through a monument anchor.",
+        "visualRole": "Woven Banners Monument should show small ceremonial site, local memory marker, subordinate to major landmark, banners, sand floors, using Red Brick, Wool Felt, Sandstone, Dyed Wool, Painted Canvas and section-specific massing.",
+        "civicRole": "Supports Section 2's Arena / Training purpose as a local civic, movement, memory, or service node.",
+        "narrativeUse": [
+          "arena / training scene anchor",
+          "local meeting point",
+          "evidence or route clue",
+          "crowd behavior marker"
+        ],
+        "assetUse": [
+          "Section 2 diorama asset",
+          "map label or icon",
+          "district-scale landmark prop cluster"
+        ],
+        "sensoryIdentity": [
+          "small ceremonial site",
+          "local memory marker",
+          "subordinate to major landmark",
+          "banners",
+          "red brick",
+          "wool felt",
+          "sandstone"
+        ],
+        "storyHooks": [
+          "Woven Banners Monument becomes the specific landmark that prevents the scene from feeling generic",
+          "a local dispute centers on access to Woven Banners Monument"
+        ]
+      },
+      {
+        "name": "Champion Gate Nook",
+        "symbolicRole": "Arena / Training expressed through a minor landmark anchor.",
+        "visualRole": "Champion Gate Nook should show practice rings, small local identity prop, street-level detail, usable board landmark, subordinate scale, using Red Brick, Wool Felt, Sandstone, Dyed Wool, Painted Canvas and section-specific massing.",
+        "civicRole": "Supports Section 2's Arena / Training purpose as a local civic, movement, memory, or service node.",
+        "narrativeUse": [
+          "arena / training scene anchor",
+          "local meeting point",
+          "evidence or route clue",
+          "crowd behavior marker"
+        ],
+        "assetUse": [
+          "Section 2 diorama asset",
+          "map label or icon",
+          "district-scale landmark prop cluster"
+        ],
+        "sensoryIdentity": [
+          "practice rings",
+          "small local identity prop",
+          "street-level detail",
+          "usable board landmark",
+          "red brick",
+          "wool felt",
+          "sandstone"
+        ],
+        "storyHooks": [
+          "Champion Gate Nook becomes the specific landmark that prevents the scene from feeling generic",
+          "a local dispute centers on access to Champion Gate Nook"
+        ]
+      },
+      {
+        "name": "Security / Intelligence Hall",
+        "symbolicRole": "Security / Intelligence expressed through a civic center anchor.",
+        "visualRole": "Security / Intelligence Hall should show safehouse doors, institutional anchor, public-facing administration, clear central silhouette, board-readable entrance, using Red Brick, Wool Felt, Sandstone, Dyed Wool, Painted Canvas and section-specific massing.",
+        "civicRole": "Supports Section 3's Security / Intelligence purpose as a local civic, movement, memory, or service node.",
+        "narrativeUse": [
+          "security / intelligence scene anchor",
+          "local meeting point",
+          "evidence or route clue",
+          "crowd behavior marker"
+        ],
+        "assetUse": [
+          "Section 3 diorama asset",
+          "map label or icon",
+          "district-scale landmark prop cluster"
+        ],
+        "sensoryIdentity": [
+          "safehouse doors",
+          "institutional anchor",
+          "public-facing administration",
+          "clear central silhouette",
+          "red brick",
+          "wool felt",
+          "sandstone"
+        ],
+        "storyHooks": [
+          "Security / Intelligence Hall becomes the specific landmark that prevents the scene from feeling generic",
+          "a local dispute centers on access to Security / Intelligence Hall"
+        ]
+      },
+      {
+        "name": "Cipher Hall",
+        "symbolicRole": "Security / Intelligence expressed through a major landmark anchor.",
+        "visualRole": "Cipher Hall should show masks, keys, hooded lanterns, cipher grids, masked offices, using Red Brick, Wool Felt, Sandstone, Dyed Wool, Painted Canvas and section-specific massing.",
+        "civicRole": "Supports Section 3's Security / Intelligence purpose as a local civic, movement, memory, or service node.",
+        "narrativeUse": [
+          "security / intelligence scene anchor",
+          "local meeting point",
+          "evidence or route clue",
+          "crowd behavior marker"
+        ],
+        "assetUse": [
+          "Section 3 diorama asset",
+          "map label or icon",
+          "district-scale landmark prop cluster"
+        ],
+        "sensoryIdentity": [
+          "masks",
+          "keys",
+          "hooded lanterns",
+          "cipher grids",
+          "red brick",
+          "wool felt",
+          "sandstone"
+        ],
+        "storyHooks": [
+          "Cipher Hall becomes the specific landmark that prevents the scene from feeling generic",
+          "a local dispute centers on access to Cipher Hall"
+        ]
+      },
+      {
+        "name": "Mist Veils Monument",
+        "symbolicRole": "Security / Intelligence expressed through a monument anchor.",
+        "visualRole": "Mist Veils Monument should show hooded lanterns, cipher grids, masked offices, blackroom vaults, watch towers, using Red Brick, Wool Felt, Sandstone, Dyed Wool, Painted Canvas and section-specific massing.",
+        "civicRole": "Supports Section 3's Security / Intelligence purpose as a local civic, movement, memory, or service node.",
+        "narrativeUse": [
+          "security / intelligence scene anchor",
+          "local meeting point",
+          "evidence or route clue",
+          "crowd behavior marker"
+        ],
+        "assetUse": [
+          "Section 3 diorama asset",
+          "map label or icon",
+          "district-scale landmark prop cluster"
+        ],
+        "sensoryIdentity": [
+          "hooded lanterns",
+          "cipher grids",
+          "masked offices",
+          "blackroom vaults",
+          "red brick",
+          "wool felt",
+          "sandstone"
+        ],
+        "storyHooks": [
+          "Mist Veils Monument becomes the specific landmark that prevents the scene from feeling generic",
+          "a local dispute centers on access to Mist Veils Monument"
+        ]
+      },
+      {
+        "name": "Dossier Vault Nook",
+        "symbolicRole": "Security / Intelligence expressed through a minor landmark anchor.",
+        "visualRole": "Dossier Vault Nook should show cipher grids, masked offices, blackroom vaults, watch towers, safehouse doors, using Red Brick, Wool Felt, Sandstone, Dyed Wool, Painted Canvas and section-specific massing.",
+        "civicRole": "Supports Section 3's Security / Intelligence purpose as a local civic, movement, memory, or service node.",
+        "narrativeUse": [
+          "security / intelligence scene anchor",
+          "local meeting point",
+          "evidence or route clue",
+          "crowd behavior marker"
+        ],
+        "assetUse": [
+          "Section 3 diorama asset",
+          "map label or icon",
+          "district-scale landmark prop cluster"
+        ],
+        "sensoryIdentity": [
+          "cipher grids",
+          "masked offices",
+          "blackroom vaults",
+          "watch towers",
+          "red brick",
+          "wool felt",
+          "sandstone"
+        ],
+        "storyHooks": [
+          "Dossier Vault Nook becomes the specific landmark that prevents the scene from feeling generic",
+          "a local dispute centers on access to Dossier Vault Nook"
+        ]
+      },
+      {
+        "name": "Underworld / Hidden Economy Civic Hall",
+        "symbolicRole": "Underworld / Hidden Economy expressed through a civic center anchor.",
+        "visualRole": "Underworld / Hidden Economy Civic Hall should show trapdoor lanes, secret doors, institutional anchor, public-facing administration, clear central silhouette, using Red Brick, Wool Felt, Sandstone, Dyed Wool, Painted Canvas and section-specific massing.",
+        "civicRole": "Supports Section 4's Underworld / Hidden Economy purpose as a local civic, movement, memory, or service node.",
+        "narrativeUse": [
+          "underworld / hidden economy scene anchor",
+          "local meeting point",
+          "evidence or route clue",
+          "crowd behavior marker"
+        ],
+        "assetUse": [
+          "Section 4 diorama asset",
+          "map label or icon",
+          "district-scale landmark prop cluster"
+        ],
+        "sensoryIdentity": [
+          "trapdoor lanes",
+          "secret doors",
+          "institutional anchor",
+          "public-facing administration",
+          "red brick",
+          "wool felt",
+          "sandstone"
+        ],
+        "storyHooks": [
+          "Underworld / Hidden Economy Civic Hall becomes the specific landmark that prevents the scene from feeling generic",
+          "a local dispute centers on access to Underworld / Hidden Economy Civic Hall"
+        ]
+      },
+      {
+        "name": "Black Market Arcade",
+        "symbolicRole": "Underworld / Hidden Economy expressed through a major landmark anchor.",
+        "visualRole": "Black Market Arcade should show secret doors, largest section focal point, strong vertical silhouette, distinct gameplay landmark, visible from nearby districts, using Red Brick, Wool Felt, Sandstone, Dyed Wool, Painted Canvas and section-specific massing.",
+        "civicRole": "Supports Section 4's Underworld / Hidden Economy purpose as a local civic, movement, memory, or service node.",
+        "narrativeUse": [
+          "underworld / hidden economy scene anchor",
+          "local meeting point",
+          "evidence or route clue",
+          "crowd behavior marker"
+        ],
+        "assetUse": [
+          "Section 4 diorama asset",
+          "map label or icon",
+          "district-scale landmark prop cluster"
+        ],
+        "sensoryIdentity": [
+          "secret doors",
+          "largest section focal point",
+          "strong vertical silhouette",
+          "distinct gameplay landmark",
+          "red brick",
+          "wool felt",
+          "sandstone"
+        ],
+        "storyHooks": [
+          "Black Market Arcade becomes the specific landmark that prevents the scene from feeling generic",
+          "a local dispute centers on access to Black Market Arcade"
+        ]
+      },
+      {
+        "name": "Understreet Vault Nook",
+        "symbolicRole": "Underworld / Hidden Economy expressed through a minor landmark anchor.",
+        "visualRole": "Understreet Vault Nook should show usable board landmark, subordinate scale, masks, yellow lamps, coded marks, using Red Brick, Wool Felt, Sandstone, Dyed Wool, Painted Canvas and section-specific massing.",
+        "civicRole": "Supports Section 4's Underworld / Hidden Economy purpose as a local civic, movement, memory, or service node.",
+        "narrativeUse": [
+          "underworld / hidden economy scene anchor",
+          "local meeting point",
+          "evidence or route clue",
+          "crowd behavior marker"
+        ],
+        "assetUse": [
+          "Section 4 diorama asset",
+          "map label or icon",
+          "district-scale landmark prop cluster"
+        ],
+        "sensoryIdentity": [
+          "usable board landmark",
+          "subordinate scale",
+          "masks",
+          "yellow lamps",
+          "red brick",
+          "wool felt",
+          "sandstone"
+        ],
+        "storyHooks": [
+          "Understreet Vault Nook becomes the specific landmark that prevents the scene from feeling generic",
+          "a local dispute centers on access to Understreet Vault Nook"
+        ]
+      },
+      {
+        "name": "Slums / Informal Settlement Civic Hall",
+        "symbolicRole": "Slums / Informal Settlement expressed through a civic center anchor.",
+        "visualRole": "Slums / Informal Settlement Civic Hall should show patched bridges, shared fires, institutional anchor, public-facing administration, clear central silhouette, using Red Brick, Wool Felt, Sandstone, Dyed Wool, Painted Canvas and section-specific massing.",
+        "civicRole": "Supports Section 5's Slums / Informal Settlement purpose as a local civic, movement, memory, or service node.",
+        "narrativeUse": [
+          "slums / informal settlement scene anchor",
+          "local meeting point",
+          "evidence or route clue",
+          "crowd behavior marker"
+        ],
+        "assetUse": [
+          "Section 5 diorama asset",
+          "map label or icon",
+          "district-scale landmark prop cluster"
+        ],
+        "sensoryIdentity": [
+          "patched bridges",
+          "shared fires",
+          "institutional anchor",
+          "public-facing administration",
+          "red brick",
+          "wool felt",
+          "sandstone"
+        ],
+        "storyHooks": [
+          "Slums / Informal Settlement Civic Hall becomes the specific landmark that prevents the scene from feeling generic",
+          "a local dispute centers on access to Slums / Informal Settlement Civic Hall"
+        ]
+      },
+      {
+        "name": "Scrap Market",
+        "symbolicRole": "Slums / Informal Settlement expressed through a major landmark anchor.",
+        "visualRole": "Scrap Market should show shanties, salvage roofs, patched bridges, shared fires, largest section focal point, using Red Brick, Wool Felt, Sandstone, Dyed Wool, Painted Canvas and section-specific massing.",
+        "civicRole": "Supports Section 5's Slums / Informal Settlement purpose as a local civic, movement, memory, or service node.",
+        "narrativeUse": [
+          "slums / informal settlement scene anchor",
+          "local meeting point",
+          "evidence or route clue",
+          "crowd behavior marker"
+        ],
+        "assetUse": [
+          "Section 5 diorama asset",
+          "map label or icon",
+          "district-scale landmark prop cluster"
+        ],
+        "sensoryIdentity": [
+          "shanties",
+          "salvage roofs",
+          "patched bridges",
+          "shared fires",
+          "red brick",
+          "wool felt",
+          "sandstone"
+        ],
+        "storyHooks": [
+          "Scrap Market becomes the specific landmark that prevents the scene from feeling generic",
+          "a local dispute centers on access to Scrap Market"
+        ]
+      },
+      {
+        "name": "Slums Informal Settlement Lantern Monument",
+        "symbolicRole": "Slums / Informal Settlement expressed through a monument anchor.",
+        "visualRole": "Slums Informal Settlement Lantern Monument should show small ceremonial site, local memory marker, subordinate to major landmark, patches, scrap lanterns, using Red Brick, Wool Felt, Sandstone, Dyed Wool, Painted Canvas and section-specific massing.",
+        "civicRole": "Supports Section 5's Slums / Informal Settlement purpose as a local civic, movement, memory, or service node.",
+        "narrativeUse": [
+          "slums / informal settlement scene anchor",
+          "local meeting point",
+          "evidence or route clue",
+          "crowd behavior marker"
+        ],
+        "assetUse": [
+          "Section 5 diorama asset",
+          "map label or icon",
+          "district-scale landmark prop cluster"
+        ],
+        "sensoryIdentity": [
+          "small ceremonial site",
+          "local memory marker",
+          "subordinate to major landmark",
+          "patches",
+          "red brick",
+          "wool felt",
+          "sandstone"
+        ],
+        "storyHooks": [
+          "Slums Informal Settlement Lantern Monument becomes the specific landmark that prevents the scene from feeling generic",
+          "a local dispute centers on access to Slums Informal Settlement Lantern Monument"
+        ]
+      },
+      {
+        "name": "Patched Tenement Nook",
+        "symbolicRole": "Slums / Informal Settlement expressed through a minor landmark anchor.",
+        "visualRole": "Patched Tenement Nook should show street-level detail, usable board landmark, subordinate scale, patches, scrap lanterns, using Red Brick, Wool Felt, Sandstone, Dyed Wool, Painted Canvas and section-specific massing.",
+        "civicRole": "Supports Section 5's Slums / Informal Settlement purpose as a local civic, movement, memory, or service node.",
+        "narrativeUse": [
+          "slums / informal settlement scene anchor",
+          "local meeting point",
+          "evidence or route clue",
+          "crowd behavior marker"
+        ],
+        "assetUse": [
+          "Section 5 diorama asset",
+          "map label or icon",
+          "district-scale landmark prop cluster"
+        ],
+        "sensoryIdentity": [
+          "street-level detail",
+          "usable board landmark",
+          "subordinate scale",
+          "patches",
+          "red brick",
+          "wool felt",
+          "sandstone"
+        ],
+        "storyHooks": [
+          "Patched Tenement Nook becomes the specific landmark that prevents the scene from feeling generic",
+          "a local dispute centers on access to Patched Tenement Nook"
+        ]
+      }
+    ]
+  },
+  "assetGuidance": {
+    "districtDioramaGuidance": [
+      "Create twenty-five district dioramas grouped into five recognizable sections: Agricultural Terraces, Arena / Training, Security / Intelligence, Underworld / Hidden Economy, Slums / Informal Settlement.",
+      "Each district should use its districtNumber and sectionNumber, but avoid baked text labels in imagery.",
+      "D13 must read as the Seat of Power district centered on Gear Inlays Command Bastion.",
+      "Repeated section anchors may appear across five related slots, but each slot needs its own street function, crowd density, and prop emphasis.",
+      "Use exact source-backed anchor names for file naming, prompt references, and canon cross-checking.",
+      "S1 must preserve Agricultural Terraces with anchors: Agricultural Terraces Civic Hall, Terrace Granary Beacon, Hanging Gardens Monument, Seed Hall Nook.",
+      "S2 must preserve Arena / Training with anchors: Arena / Training Civic Hall, Training Arena, Woven Banners Monument, Champion Gate Nook.",
+      "S3 must preserve Security / Intelligence with anchors: Security / Intelligence Hall, Cipher Hall, Mist Veils Monument, Dossier Vault Nook.",
+      "S4 must preserve Underworld / Hidden Economy with anchors: Underworld / Hidden Economy Civic Hall, Black Market Arcade, Mist Veils Monument, Understreet Vault Nook.",
+      "S5 must preserve Slums / Informal Settlement with anchors: Slums / Informal Settlement Civic Hall, Scrap Market, Slums Informal Settlement Lantern Monument, Patched Tenement Nook."
+    ],
+    "mapBackgroundGuidance": [
+      "Map backgrounds should keep Hobgoblin Banner-Fortress of the Ordered Spear as the skyline symbol, Gear Inlays Command Bastion at the central civic authority, and Terrace Granary Beacon as the readable public signal.",
+      "Arrange the five section identities so Varkesh Bastion does not converge with other cities: Agricultural Terraces, Arena / Training, Security / Intelligence, Underworld / Hidden Economy, Slums / Informal Settlement.",
+      "Use terrain cues (Dry Stone Paving, Civic Terraces, Dry Ground), material cues (Red Brick, Wool Felt, Sandstone, Dyed Wool, Painted Canvas), and magic cues (Ward Networks, Ritual Geometry, Mechanical Animus, Yellow Intent Glimmers, Road Warding) consistently across district clusters.",
+      "Show roads, terraces, gates, courts, or paths that make the twenty-five-district tactical layout plausible."
+    ],
+    "requiredVisualElements": [
+      "hobgoblins",
+      "Hobgoblin Banner-Fortress of the Ordered Spear",
+      "Terrace Granary Beacon",
+      "Gear Inlays Command Bastion",
+      "Red Brick",
+      "Wool Felt",
+      "Sandstone",
+      "Dyed Wool",
+      "Painted Canvas",
+      "Dry Stone Paving",
+      "Civic Terraces",
+      "Dry Ground",
+      "Ward Networks",
+      "Ritual Geometry",
+      "Mechanical Animus",
+      "Yellow Intent Glimmers",
+      "Road Warding",
+      "Training Arena",
+      "Cipher Hall",
+      "Black Market Arcade",
+      "Scrap Market"
+    ],
+    "elementsToAvoid": [
+      "extra top-level schema sections or embedded generation notes",
+      "generic fantasy city assets that ignore exact anchor names",
+      "unlabeled invented landmarks replacing sidecar names",
+      "flattening five sections into one visual district",
+      "treating culture identity as costume rather than civic design",
+      "overcrowded detail that hides Wonder, Beacon, or Seat of Power"
+    ]
+  }
+}

@@ -4,82 +4,1892 @@
     "analysisVersion": 2,
     "cityCode": "DRA",
     "cityName": "Drakmor",
-    "analysisDate": "2026-07-03",
+    "analysisDate": "2026-07-05",
     "analystVersion": "gpt-5.5-thinking",
     "analysisConfidence": "strong-lock",
-    "basedOnImages": ["DRA-HERO-NE-v001", "DRA-HERO-NW-v001", "DRA-HERO-SE-v001", "DRA-HERO-SW-v001", "DRA-STREET-S1-v001", "DRA-STREET-S2-v001", "DRA-STREET-S3-v001", "DRA-STREET-S4-v001", "DRA-STREET-S5-v001"],
-    "basedOnSidecars": ["DRA-HERO-NE-v001.json", "DRA-HERO-NW-v001.json", "DRA-HERO-SE-v001.json", "DRA-HERO-SW-v001.json", "DRA-STREET-S1-v001.json", "DRA-STREET-S2-v001.json", "DRA-STREET-S3-v001.json", "DRA-STREET-S4-v001.json", "DRA-STREET-S5-v001.json"]
+    "sourceStatus": "full",
+    "districtModel": "five sections; five district slots per section; D13 is the seat of power",
+    "missingStreetSections": [],
+    "basedOnImages": [
+      "DRA-HERO-NE-v001",
+      "DRA-HERO-NW-v001",
+      "DRA-HERO-SE-v001",
+      "DRA-HERO-SW-v001",
+      "DRA-STREET-S1-v001",
+      "DRA-STREET-S2-v001",
+      "DRA-STREET-S3-v001",
+      "DRA-STREET-S4-v001",
+      "DRA-STREET-S5-v001"
+    ],
+    "basedOnSidecars": [
+      "DRA-HERO-NE-v001.json",
+      "DRA-HERO-NW-v001.json",
+      "DRA-HERO-SE-v001.json",
+      "DRA-HERO-SW-v001.json",
+      "DRA-STREET-S1-v001.json",
+      "DRA-STREET-S2-v001.json",
+      "DRA-STREET-S3-v001.json",
+      "DRA-STREET-S4-v001.json",
+      "DRA-STREET-S5-v001.json"
+    ]
   },
   "cityDNA": {
-    "coreFantasy": "A brutal but systematic orcish fortress-industrial capital where forge, command, alchemy, shadow trade, and containment become civic order.",
-    "primaryEmotion": "industrial aggression",
-    "secondaryEmotion": "disciplined dread",
-    "readerTakeaway": "Drakmor is not a war camp; it is an institutional war-city where every ember crack, command banner, forge chain, and prison wall belongs to a system.",
-    "civilizationThesis": "Drakmor turns aggression, production, secrecy, containment, military rank, alchemical control, and black-market pressure into an established orcish civic machine.",
-    "visualIdentity": "Black basalt, obsidian fortress stone, iron plates, slag brick, forge chains, smoke stacks, ember cracks, blue alchemical glass, red banners, command bastions, black-market arcades, containment keeps, and wet alleys.",
-    "culturalIdentity": "An orcish industrial war civilization that values force, production, command discipline, useful secrecy, containment, and brutal institutional efficiency.",
-    "symbolicIdentity": "Great forges, ember cracks, war drums, Red Gate, command standards, blue lamps, black-market vaults, and containment yards symbolize aggression made administratively durable."
+    "coreFantasy": "A orcs city where Orcish War-Drum Citadel of the Red Gate, Great Forge Beacon, Ember Crack Mosaics Command Bastion, and the five-section district spine turn local identity into functional civic space.",
+    "primaryEmotion": "source-backed civic presence",
+    "secondaryEmotion": "lived-in pressure beneath landmark order",
+    "readerTakeaway": "Drakmor should feel immediately identifiable through exact landmarks and materials, not through generic fantasy-city shorthand.",
+    "civilizationThesis": "Drakmor organizes power through Ember Crack Mosaics Command Bastion, public response through Great Forge Beacon, civic memory through Orcish War-Drum Citadel of the Red Gate, and daily life through S1 Heavy Industry / Foundry Civic Hall, S2 Arcane / Alchemical Labs Civic Hall, S3 Military Command Hall, S4 Underworld / Hidden Economy Civic Hall, S5 Prison / Containment Civic Hall.",
+    "visualIdentity": "Basalt, Lava Rock, Obsidian, Canvas, Arcane Glow, Desert, Stone Desert, Dry Wadi, Ward Networks, Ritual Geometry, Ember Binding, and exact anchors including Ember Crack Mosaics Command Bastion, Great Forge Beacon, Orcish War-Drum Citadel of the Red Gate, Containment Keep, Alchemy Lab, Black Market Arcade, Heavy Industry / Foundry Civic Hall, Smoke-Stack Monument, Crucible Hall Nook, Arcane / Alchemical Labs Civic Hall.",
+    "culturalIdentity": "A orcs civic culture where architecture, public obligations, roads, landmark approaches, and everyday work must all read as part of the same civilization.",
+    "symbolicIdentity": "The city symbol system is built from exact names and visible functions: Orcish War-Drum Citadel of the Red Gate, Great Forge Beacon, Ember Crack Mosaics Command Bastion, and section anchors such as Heavy Industry / Foundry Civic Hall, Arcane / Alchemical Labs Civic Hall, Military Command Hall, Underworld / Hidden Economy Civic Hall, Prison / Containment Civic Hall."
   },
   "canon": {
-    "canonLocks": ["Drakmor is a vast established orcish fortress-industrial capital, not a temporary war camp.", "The Wonder is the Orcish War-Drum Citadel of the Red Gate.", "The Beacon is the Great Forge Beacon.", "The Seat of Power is the Ember Crack Mosaics Command Bastion.", "The five districts are Heavy Industry / Foundry, Arcane / Alchemical Labs, Military Command, Underworld / Hidden Economy, and Prison / Containment."],
-    "provisionalCanon": ["Drakmor's highest civic virtue is force under discipline.", "The central tension is institutional order versus the violence required to keep that order productive."],
-    "rejectedReads": ["Drakmor is primitive or improvised.", "Drakmor is only a battlefield or raid camp.", "The underworld and containment systems are incidental rather than civic structures."],
-    "cautionFlags": ["Do not soften Drakmor into generic forge fantasy.", "Do not make it stupid or chaotic; the brutality is organized.", "Keep alchemy, command, black-market exchange, and containment distinct from heavy industry."]
+    "canonLocks": [
+      "Drakmor uses city code DRA.",
+      "The Wonder is Orcish War-Drum Citadel of the Red Gate.",
+      "The Beacon is Great Forge Beacon.",
+      "The Seat of Power is Ember Crack Mosaics Command Bastion and occupies District 13.",
+      "The city uses five sections with five tactical district slots per section.",
+      "The source-backed section spine is: S1 Heavy Industry / Foundry Civic Hall, S2 Arcane / Alchemical Labs Civic Hall, S3 Military Command Hall, S4 Underworld / Hidden Economy Civic Hall, S5 Prison / Containment Civic Hall.",
+      "Preserve exact anchor name: Ember Crack Mosaics Command Bastion.",
+      "Preserve exact anchor name: Great Forge Beacon.",
+      "Preserve exact anchor name: Orcish War-Drum Citadel of the Red Gate.",
+      "Preserve exact anchor name: Containment Keep.",
+      "Preserve exact anchor name: Alchemy Lab.",
+      "Preserve exact anchor name: Black Market Arcade.",
+      "Preserve exact anchor name: Heavy Industry / Foundry Civic Hall.",
+      "Preserve exact anchor name: Smoke-Stack Monument.",
+      "Preserve exact anchor name: Crucible Hall Nook.",
+      "Preserve exact anchor name: Arcane / Alchemical Labs Civic Hall.",
+      "Preserve exact anchor name: Blue-Lamp Monument.",
+      "Preserve exact anchor name: Formula Archive Nook.",
+      "Preserve exact anchor name: Military Command Hall.",
+      "Preserve exact anchor name: Command Bastion.",
+      "Preserve exact anchor name: Woven Banners Monument.",
+      "Preserve exact anchor name: Standard Tower Nook.",
+      "Preserve exact anchor name: Underworld / Hidden Economy Civic Hall.",
+      "Preserve exact anchor name: Mist Veils Monument.",
+      "Preserve exact anchor name: Understreet Vault Nook.",
+      "Preserve exact anchor name: Prison / Containment Civic Hall.",
+      "Preserve exact anchor name: Judgment Yard Nook."
+    ],
+    "provisionalCanon": [],
+    "rejectedReads": [
+      "Do not treat Drakmor as a generic fantasy settlement with renamed landmarks.",
+      "Do not collapse the five-section board into a single mood or single district.",
+      "Do not replace exact anchor names with generic summaries.",
+      "Do not invent missing street-section landmarks when a street source is absent."
+    ],
+    "cautionFlags": [
+      "Keep every named Wonder, Beacon, Seat, section civic hall, major landmark, monument, and minor nook exact when present in sidecars.",
+      "If an image appears to deviate from a sidecar, preserve the exact name but avoid overclaiming visual details not supported by the source package.",
+      "Every district asset should remain usable for narrative scenes, tactical board dioramas, and city map backgrounds."
+    ]
   },
   "environment": {
-    "terrain": ["fortified industrial basin", "black-stone causeways", "military plazas", "forge courts", "containment yards", "wet alley routes"],
-    "water": ["industrial runoff channels", "wet cobbles", "cooling basins", "market drains"],
-    "vegetation": ["minimal fortress scrub", "soot-dark courtyard plants", "contained medicinal or alchemical planters"],
-    "climateLighting": ["forge glow", "ember-lit streets", "blue alchemical lamp glow", "smoke-diffused daylight", "lantern light in wet alleys", "red gate torchlight", "cold prison light"],
-    "environmentalLogic": "Drakmor converts heat, smoke, iron, command routes, and controlled danger into infrastructure. The city feels survivable only because every hazard is assigned to a system."
+    "terrain": [
+      "Desert",
+      "Stone Desert",
+      "Dry Wadi"
+    ],
+    "water": [
+      "dry city ground"
+    ],
+    "vegetation": [
+      "courtyard trees",
+      "balcony planters",
+      "public greenery where visible",
+      "source-backed local vegetation only"
+    ],
+    "climateLighting": [
+      "Ward Networks",
+      "Ritual Geometry",
+      "Ember Binding",
+      "daylight",
+      "golden hour",
+      "lantern light",
+      "civic beacon glow"
+    ],
+    "environmentalLogic": "The environment should make Drakmor's exact civic anchors plausible at street scale: terrain routes people toward section landmarks, lighting clarifies public authority, and water or landscape features remain source-backed rather than decorative filler."
   },
   "architecture": {
-    "materials": ["black basalt", "obsidian fortress stone", "iron plates", "dark timber", "slag brick", "charred stone", "bronze and blackened steel", "red banners", "blue alchemical glass", "wet cobbles", "forge chains", "soot-stained plaster"],
-    "forms": ["great forges", "smoke stacks", "crucible halls", "alchemy labs", "formula archives", "command bastions", "standard towers", "war-drum citadels", "black-market arcades", "understreet vaults", "containment keeps", "judgment yards", "fortified walls", "military plazas", "industrial causeways"],
-    "skyline": ["Orcish War-Drum Citadel of the Red Gate as far wonder anchor", "Ember Crack Mosaics Command Bastion as central seat of power", "Great Forge Beacon as signal landmark rooted in heavy industry", "Command Bastion and Containment Keep as secondary hard-power anchors", "smoke stacks, red banners, blue lab lights, black towers, and molten channels defining the horizon"],
-    "lighting": ["forge glow", "ember light", "blue alchemical lamps", "smoke-diffused daylight", "red gate torchlight", "cold prison light", "wet alley lanterns"],
-    "infrastructure": ["forge yards", "crucible halls", "formula archives", "command roads", "standard towers", "understreet vaults", "containment corridors", "judgment yards", "industrial causeways", "black-market tunnels"],
-    "motifs": ["war drums", "red gates", "ember cracks", "command standards", "forge chains", "blue alchemical lamps", "black market vaults", "containment bars", "smoke stacks"],
-    "colorLanguage": ["black basalt", "ember orange", "red banners", "blue alchemical light", "soot gray", "iron black", "cold prison pale"],
-    "textureLanguage": ["charred stone", "wet cobbles", "slag brick", "iron plates", "soot-stained plaster", "hot chain metal", "glass vials"]
+    "materials": [
+      "Basalt",
+      "Lava Rock",
+      "Obsidian",
+      "Canvas",
+      "Arcane Glow"
+    ],
+    "forms": [
+      "Ember Crack Mosaics Command Bastion",
+      "Great Forge Beacon",
+      "Orcish War-Drum Citadel of the Red Gate",
+      "Containment Keep",
+      "Alchemy Lab",
+      "Black Market Arcade",
+      "Heavy Industry / Foundry Civic Hall",
+      "Smoke-Stack Monument",
+      "Crucible Hall Nook",
+      "Arcane / Alchemical Labs Civic Hall",
+      "Blue-Lamp Monument",
+      "Formula Archive Nook",
+      "Military Command Hall",
+      "Command Bastion",
+      "Woven Banners Monument",
+      "Standard Tower Nook",
+      "Underworld / Hidden Economy Civic Hall",
+      "Mist Veils Monument",
+      "Understreet Vault Nook",
+      "Prison / Containment Civic Hall",
+      "Judgment Yard Nook",
+      "section civic halls",
+      "major landmark approaches",
+      "monument frontages",
+      "minor landmark nooks",
+      "district roads and plazas",
+      "D13 authority complex"
+    ],
+    "skyline": [
+      "Orcish War-Drum Citadel of the Red Gate",
+      "Ember Crack Mosaics Command Bastion",
+      "Great Forge Beacon",
+      "Containment Keep",
+      "Alchemy Lab",
+      "Black Market Arcade",
+      "Heavy Industry / Foundry Civic Hall",
+      "Smoke-Stack Monument",
+      "Crucible Hall Nook"
+    ],
+    "lighting": [
+      "Ward Networks",
+      "Ritual Geometry",
+      "Ember Binding",
+      "beacon-state light",
+      "lantern-lit civic paths",
+      "street-level shop and housing light"
+    ],
+    "infrastructure": [
+      "Heavy Industry / Foundry Civic Hall",
+      "Arcane / Alchemical Labs Civic Hall",
+      "Military Command Hall",
+      "Underworld / Hidden Economy Civic Hall",
+      "Prison / Containment Civic Hall",
+      "roads between district slots",
+      "public thresholds",
+      "plaza edges",
+      "records, permits, markets, services, or rituals implied by anchors"
+    ],
+    "motifs": [
+      "Ember",
+      "Crack",
+      "Mosaics",
+      "Command",
+      "Bastion",
+      "Great",
+      "Forge",
+      "Beacon",
+      "Orcish",
+      "War-Drum",
+      "Citadel",
+      "Gate",
+      "Containment",
+      "Keep",
+      "Alchemy",
+      "Black"
+    ],
+    "colorLanguage": [
+      "source-backed material colors",
+      "civic blue signal accents",
+      "local textile, stone, metal, vegetation, or water colors from the image package"
+    ],
+    "textureLanguage": [
+      "Basalt",
+      "Lava Rock",
+      "Obsidian",
+      "Canvas",
+      "Arcane Glow",
+      "worn pedestrian surfaces",
+      "worked civic ornament",
+      "weathered public thresholds",
+      "lived-in shop and housing details"
+    ]
   },
   "civilization": {
-    "people": "Citizens are orcish, forceful, rank-aware, production-minded, and used to civic systems that assume danger, containment, and command are normal parts of public life.",
-    "occupations": ["forge workers", "crucible masters", "alchemists", "formula archivists", "command officers", "standard bearers", "black-market brokers", "understreet vault guards", "containment keepers", "judgment yard clerks", "military laborers", "smoke-stack crews"],
-    "socialClasses": ["command elite", "forge guilds", "alchemical staff", "military officers", "black-market power brokers", "containment administrators", "industrial laborers", "market underclass"],
-    "governance": "Authority is command-industrial. Power flows from forge output, military rank, alchemical control, containment authority, and the ability to tolerate or punish hidden exchange.",
-    "religion": "Religious expression is secondary to command ritual and war-drum civic ceremony; forge fire, red gate symbolism, and public musters carry much of the sacred-political weight.",
-    "customs": ["rank musters", "forge signal response", "command standard ceremonies", "formula restrictions", "tolerated underworld bargaining", "public judgment routines"],
-    "bodyLanguage": ["direct challenge posture", "rank-aware spacing", "guarded movement near containment areas", "worksite urgency", "controlled aggression"],
-    "speechPatterns": ["short command phrases", "production language", "rank titles", "forge slang", "coded market speech", "containment terminology"]
+    "people": "The population should read as orcs and city-specific: citizens occupy streets, shops, public thresholds, and landmark approaches as people who understand the local civic order.",
+    "occupations": [
+      "watch guards",
+      "gate officers",
+      "smiths",
+      "craft workers",
+      "market sellers",
+      "stall keepers",
+      "archivists",
+      "record clerks",
+      "district clerks",
+      "craft families",
+      "porters",
+      "maintenance workers",
+      "food sellers",
+      "messengers"
+    ],
+    "socialClasses": [
+      "D13 officials and court staff",
+      "section landmark custodians",
+      "guild and service families",
+      "shopkeepers and artisans",
+      "laborers, carriers, messengers, and maintenance crews",
+      "households tied to local district obligations"
+    ],
+    "governance": "Government is centered on Ember Crack Mosaics Command Bastion. Its authority should be visible through courts, records, public access routes, civic lamps, guards or attendants, and the way citizens respond to D13.",
+    "religion": "Religious or ritual life should only be emphasized where source anchors support it, especially names such as none explicitly dominant in the current anchors.",
+    "customs": [
+      "citizens orient public life around Heavy Industry / Foundry Civic Hall in Section 1",
+      "citizens orient public life around Arcane / Alchemical Labs Civic Hall in Section 2",
+      "citizens orient public life around Military Command Hall in Section 3",
+      "citizens orient public life around Underworld / Hidden Economy Civic Hall in Section 4",
+      "citizens orient public life around Prison / Containment Civic Hall in Section 5",
+      "beacon changes become public behavior, not background color",
+      "exact landmark names carry social memory and directions",
+      "civic errands happen visibly at thresholds, queues, ledgers, stalls, courts, or shrines"
+    ],
+    "bodyLanguage": [
+      "citizens pause at civic signals",
+      "workers move with practiced familiarity around district anchors",
+      "officials use thresholds and raised places to control attention",
+      "residents treat named landmarks as everyday orientation points"
+    ],
+    "speechPatterns": [
+      "directions use exact landmark names",
+      "public notices are tied to section anchors",
+      "local speech distinguishes civic authority, ordinary errands, and landmark obligations",
+      "people refer to D13 as the seat of power rather than a faction headquarters"
+    ]
   },
   "urbanLife": {
-    "streets": {"appearance": "Hot, smoky, black-stone, and fortified: forge courts, blue lab windows, command stairs, red banners, market mud, vault doors, containment walls, and ember cracks.", "movement": "Movement follows industrial causeways, command plazas, forge roads, black-market underways, lab corridors, and containment checkpoints.", "sounds": ["forge hammers", "war drums", "chains", "command calls", "steam vents", "market murmurs", "standard cloth in smoke", "iron gates"], "smells": ["soot", "hot iron", "wet stone", "lamp oil", "alchemical sharpness", "sweat", "smoke", "mud", "burned coal"], "lighting": "Forge orange and ember red dominate industry; blue alchemical lamps and cold containment light create sharp civic contrasts.", "weatherEffects": "Rain turns soot into black runoff and makes forge glow stronger against wet stone; smoke reduces sightlines and makes command markers vital.", "dayCycle": "Day is production, musters, lab movement, and open market traffic; evening shifts to understreet exchange and containment patrols.", "nightCycle": "Night is red gate torchlight, blue lab windows, black-market lamps, forge glow, and cold prison corridors."},
-    "shops": {"common": ["forge tool stalls", "chain sellers", "food carts for workers", "standard repair shops", "lamp oil vendors", "metal counters"], "uncommon": ["formula copyists", "reagent counters", "black-market arcades", "understreet vault lenders", "containment lock makers"], "prestigious": ["command armories", "great forge offices", "alchemical laboratories", "war-drum patron halls", "elite blackened steel smiths"], "exports": ["weapons", "iron plates", "forge machinery", "alchemical compounds", "military standards", "industrial expertise"], "imports": ["ore", "coal", "rare reagents", "food", "timber", "glass"], "streetFood": ["thick stew", "charred meat", "black bread", "forge tea", "spiced roots", "worker porridge"], "services": ["forge repair", "formula registration", "command posting", "vault lending", "containment processing", "standard making"]},
-    "housing": {"wealthy": "Command-adjacent black-stone residences, protected courtyards, red banners, private guard access, and blue-lit official rooms.", "middle": "Forge-family blocks, workshop rooms, alchemy-adjacent apartments, soot-dark courtyards, and practical fortified doors.", "poor": "Wet alley housing, market-edge rooms, labor barracks, understructure dwellings, and cramped quarters near smoke, mud, and work noise."}
+    "streets": {
+      "appearance": "Streets should show Drakmor's exact anchor system at pedestrian scale: S1 Heavy Industry / Foundry Civic Hall, S2 Arcane / Alchemical Labs Civic Hall, S3 Military Command Hall, S4 Underworld / Hidden Economy Civic Hall, S5 Prison / Containment Civic Hall. Keep roads, plazas, stairs, thresholds, lamps, signs-without-readable-text, props, and civilians aligned to the source-backed materials and landmarks.",
+      "movement": "Movement should be readable for tactical-board assets: citizens pass between 25 district slots, section anchors, D13, service streets, and landmark approaches without visual clutter hiding the civic purpose.",
+      "sounds": [
+        "foot traffic",
+        "vendors and service calls",
+        "tools and carts",
+        "public notices",
+        "landmark-specific sounds from water, bells, animals, machines, or crowds when source-backed",
+        "beacon-state crowd reactions"
+      ],
+      "smells": [
+        "street food",
+        "worked material dust",
+        "lamp oil or smoke",
+        "vegetation or water where source-backed",
+        "worn stone, timber, metal, plaster, or fabric"
+      ],
+      "lighting": "Use the package's source-backed civic lighting, daylight/golden-hour reads, lanterns, and beacon glow. Lighting must help identify authority, safety, and landmark function.",
+      "weatherEffects": "Weather should reinforce the local terrain and materials without overwhelming the city identity or inventing unsupported climate extremes.",
+      "dayCycle": "Day scenes emphasize errands, trade, records, repairs, rituals, food, and section-level movement.",
+      "nightCycle": "Night scenes emphasize lantern routes, closed thresholds, guarded landmarks, quiet work, and beacon visibility."
+    },
+    "shops": {
+      "common": [
+        "food stalls",
+        "repair stalls",
+        "material vendors",
+        "ledger or permit desks",
+        "local craft counters",
+        "street services tied to section anchors"
+      ],
+      "uncommon": [
+        "specialist landmark caretakers",
+        "instrument makers",
+        "ritual suppliers",
+        "map or record copyists",
+        "district-specific guild services"
+      ],
+      "prestigious": [
+        "D13-facing legal or registry services",
+        "elite craft workshops",
+        "landmark commission houses",
+        "official suppliers for civic ceremonies"
+      ],
+      "exports": [
+        "local crafts",
+        "records or seals",
+        "finished materials",
+        "food goods",
+        "specialized tools or ritual goods as supported by anchors"
+      ],
+      "imports": [
+        "rare materials",
+        "dyes, oils, spices, timber, stone, metal, glass, or cloth as needed by the architecture",
+        "outside records and trade goods"
+      ],
+      "streetFood": [
+        "flatbread or local bread",
+        "stew or grilled skewers",
+        "fruit or preserved food",
+        "tea or civic-square drinks",
+        "portable worker meals"
+      ],
+      "services": [
+        "directions by landmark",
+        "message running",
+        "permit help",
+        "repairs",
+        "food service",
+        "transport or porterage",
+        "public notice posting"
+      ]
+    },
+    "housing": {
+      "wealthy": "Prestige housing clusters near Ember Crack Mosaics Command Bastion, high terraces, or landmark-facing routes, using the best source-backed materials and controlled views of civic space.",
+      "middle": "Shop-over-house units, courtyard homes, guild-adjacent apartments, and family rooms near section anchors.",
+      "poor": "Smaller back-street rooms, work-adjacent housing, shared courtyards, service alleys, patched materials, and dense but still city-specific lived-in detail."
+    }
   },
   "districts": [
-    {"sectionNumber": 1, "name": "Heavy Industry / Foundry", "civicPurpose": "Production, labor organization, industrial alarm, and forge-based public identity.", "visualIdentity": "Great Forge Beacon, smoke stacks, crucible halls, chains, slag brick, forge glow, and workers.", "emotionalIdentity": "Hot, forceful, productive, and dangerous.", "gameplayAssetNeeds": ["Great Forge Beacon", "smoke stacks", "crucible hall", "forge workers", "chains", "slag"], "narrativeUse": ["production crisis", "labor pressure", "Beacon warning", "industrial clues"], "landmark": "Great Forge Beacon", "minorLandmarks": ["Crucible Hall Nook"]},
-    {"sectionNumber": 2, "name": "Arcane / Alchemical Labs", "civicPurpose": "Controlled research, formula restriction, dangerous invention, and civic-magical production.", "visualIdentity": "Alchemy Lab, blue lamps, formula archives, glass, sealed doors, and dark stone corridors.", "emotionalIdentity": "Cold, risky, secretive, and precise.", "gameplayAssetNeeds": ["Alchemy Lab", "Formula Archive", "Blue-Lamp Monument", "reagent counters", "sealed doors"], "narrativeUse": ["research danger", "restricted knowledge", "alchemical leverage"], "landmark": "Alchemy Lab", "minorLandmarks": ["Formula Archive Nook"]},
-    {"sectionNumber": 3, "name": "Military Command", "civicPurpose": "Rank, musters, command law, mobilization, and disciplined force.", "visualIdentity": "Command Bastion, standard towers, red banners, military plazas, and black stone.", "emotionalIdentity": "Ordered, aggressive, and authoritative.", "gameplayAssetNeeds": ["Command Bastion", "Standard Tower", "military plaza", "red banners", "officers"], "narrativeUse": ["musters", "rank conflict", "orders", "command pressure"], "landmark": "Command Bastion", "minorLandmarks": ["Standard Tower Nook"]},
-    {"sectionNumber": 4, "name": "Underworld / Hidden Economy", "civicPurpose": "Tolerated illegality, contraband, debts, shadow logistics, and informal survival networks.", "visualIdentity": "Black Market Arcade, Understreet Vault, mist veils, coded stalls, wet alleys, and guarded doors.", "emotionalIdentity": "Coded, tense, opportunistic, and necessary.", "gameplayAssetNeeds": ["Black Market Arcade", "Understreet Vault", "Mist Veils Monument", "coded stalls", "brokers"], "narrativeUse": ["contraband", "debts", "hidden routes", "informal deals"], "landmark": "Black Market Arcade", "minorLandmarks": ["Understreet Vault Nook"]},
-    {"sectionNumber": 5, "name": "Prison / Containment", "civicPurpose": "Incarceration, containment, judgment, discipline, and public fear of disorder.", "visualIdentity": "Containment Keep, Judgment Yard, barred corridors, cold light, black walls, and guarded routes.", "emotionalIdentity": "Cold, oppressive, controlled, and consequential.", "gameplayAssetNeeds": ["Containment Keep", "Judgment Yard", "bars", "guards", "cold lights", "black walls"], "narrativeUse": ["judgment", "captivity", "containment ethics", "state violence"], "landmark": "Containment Keep", "minorLandmarks": ["Judgment Yard Nook"]}
+    {
+      "districtNumber": 1,
+      "districtId": "D01",
+      "sectionNumber": 1,
+      "name": "D01 — Heavy Industry / Foundry Civic Hall Civic-Anchor Precinct",
+      "civicPurpose": "This district turns Section 1's source-backed anchor set into a board-scale civic space: Heavy Industry / Foundry Civic Hall, Great Forge Beacon, Smoke-Stack Monument, Crucible Hall Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Drakmor.",
+      "visualIdentity": "Use Heavy Industry / Foundry Civic Hall as the main read. Keep exact source anchors visible where applicable: Heavy Industry / Foundry Civic Hall, Great Forge Beacon, Smoke-Stack Monument, Crucible Hall Nook. The district should share Drakmor's orcs identity, Basalt, Lava Rock, Obsidian, Canvas, and Desert, Stone Desert, Dry Wadi without becoming generic.",
+      "emotionalIdentity": "Locally grounded, with Drakmor's larger mood shaped by Orcish War-Drum Citadel of the Red Gate, Great Forge Beacon, and Ember Crack Mosaics Command Bastion.",
+      "gameplayAssetNeeds": [
+        "Heavy Industry / Foundry Civic Hall",
+        "Great Forge Beacon",
+        "Smoke-Stack Monument",
+        "Crucible Hall Nook",
+        "Section 1 pedestrian-scale props",
+        "Drakmor civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Heavy Industry / Foundry Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Heavy Industry / Foundry Civic Hall",
+      "minorLandmarks": [
+        "Great Forge Beacon",
+        "Smoke-Stack Monument",
+        "Crucible Hall Nook"
+      ]
+    },
+    {
+      "districtNumber": 2,
+      "districtId": "D02",
+      "sectionNumber": 1,
+      "name": "D02 — Great Forge Beacon Landmark Approach",
+      "civicPurpose": "This district turns Section 1's source-backed anchor set into a board-scale civic space: Heavy Industry / Foundry Civic Hall, Great Forge Beacon, Smoke-Stack Monument, Crucible Hall Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Drakmor.",
+      "visualIdentity": "Use Great Forge Beacon as the main read. Keep exact source anchors visible where applicable: Heavy Industry / Foundry Civic Hall, Great Forge Beacon, Smoke-Stack Monument, Crucible Hall Nook. The district should share Drakmor's orcs identity, Basalt, Lava Rock, Obsidian, Canvas, and Desert, Stone Desert, Dry Wadi without becoming generic.",
+      "emotionalIdentity": "Public-facing, with Drakmor's larger mood shaped by Orcish War-Drum Citadel of the Red Gate, Great Forge Beacon, and Ember Crack Mosaics Command Bastion.",
+      "gameplayAssetNeeds": [
+        "Great Forge Beacon",
+        "Heavy Industry / Foundry Civic Hall",
+        "Smoke-Stack Monument",
+        "Crucible Hall Nook",
+        "Section 1 pedestrian-scale props",
+        "Drakmor civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Great Forge Beacon",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "Conjunction response, rumor spread, or authority pressure"
+      ],
+      "landmark": "Great Forge Beacon",
+      "minorLandmarks": [
+        "Heavy Industry / Foundry Civic Hall",
+        "Smoke-Stack Monument",
+        "Crucible Hall Nook"
+      ]
+    },
+    {
+      "districtNumber": 3,
+      "districtId": "D03",
+      "sectionNumber": 1,
+      "name": "D03 — Smoke-Stack Monument Monument Frontage",
+      "civicPurpose": "This district turns Section 1's source-backed anchor set into a board-scale civic space: Heavy Industry / Foundry Civic Hall, Great Forge Beacon, Smoke-Stack Monument, Crucible Hall Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Drakmor.",
+      "visualIdentity": "Use Smoke-Stack Monument as the main read. Keep exact source anchors visible where applicable: Heavy Industry / Foundry Civic Hall, Great Forge Beacon, Smoke-Stack Monument, Crucible Hall Nook. The district should share Drakmor's orcs identity, Basalt, Lava Rock, Obsidian, Canvas, and Desert, Stone Desert, Dry Wadi without becoming generic.",
+      "emotionalIdentity": "Memorial or symbolic, with Drakmor's larger mood shaped by Orcish War-Drum Citadel of the Red Gate, Great Forge Beacon, and Ember Crack Mosaics Command Bastion.",
+      "gameplayAssetNeeds": [
+        "Smoke-Stack Monument",
+        "Heavy Industry / Foundry Civic Hall",
+        "Great Forge Beacon",
+        "Crucible Hall Nook",
+        "Section 1 pedestrian-scale props",
+        "Drakmor civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Smoke-Stack Monument",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Smoke-Stack Monument",
+      "minorLandmarks": [
+        "Heavy Industry / Foundry Civic Hall",
+        "Great Forge Beacon",
+        "Crucible Hall Nook"
+      ]
+    },
+    {
+      "districtNumber": 6,
+      "districtId": "D06",
+      "sectionNumber": 1,
+      "name": "D06 — Crucible Hall Nook Neighborhood Nook",
+      "civicPurpose": "This district turns Section 1's source-backed anchor set into a board-scale civic space: Heavy Industry / Foundry Civic Hall, Great Forge Beacon, Smoke-Stack Monument, Crucible Hall Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Drakmor.",
+      "visualIdentity": "Use Crucible Hall Nook as the main read. Keep exact source anchors visible where applicable: Heavy Industry / Foundry Civic Hall, Great Forge Beacon, Smoke-Stack Monument, Crucible Hall Nook. The district should share Drakmor's orcs identity, Basalt, Lava Rock, Obsidian, Canvas, and Desert, Stone Desert, Dry Wadi without becoming generic.",
+      "emotionalIdentity": "Intimate and lived-in, with Drakmor's larger mood shaped by Orcish War-Drum Citadel of the Red Gate, Great Forge Beacon, and Ember Crack Mosaics Command Bastion.",
+      "gameplayAssetNeeds": [
+        "Crucible Hall Nook",
+        "Heavy Industry / Foundry Civic Hall",
+        "Great Forge Beacon",
+        "Smoke-Stack Monument",
+        "Section 1 pedestrian-scale props",
+        "Drakmor civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Crucible Hall Nook",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Crucible Hall Nook",
+      "minorLandmarks": [
+        "Heavy Industry / Foundry Civic Hall",
+        "Great Forge Beacon",
+        "Smoke-Stack Monument"
+      ]
+    },
+    {
+      "districtNumber": 7,
+      "districtId": "D07",
+      "sectionNumber": 1,
+      "name": "D07 — Heavy Industry / Foundry Civic Hall Supporting Streets",
+      "civicPurpose": "This district turns Section 1's source-backed anchor set into a board-scale civic space: Heavy Industry / Foundry Civic Hall, Great Forge Beacon, Smoke-Stack Monument, Crucible Hall Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Drakmor.",
+      "visualIdentity": "Use Heavy Industry / Foundry Civic Hall as the main read. Keep exact source anchors visible where applicable: Heavy Industry / Foundry Civic Hall, Great Forge Beacon, Smoke-Stack Monument, Crucible Hall Nook. The district should share Drakmor's orcs identity, Basalt, Lava Rock, Obsidian, Canvas, and Desert, Stone Desert, Dry Wadi without becoming generic.",
+      "emotionalIdentity": "Connective and practical, with Drakmor's larger mood shaped by Orcish War-Drum Citadel of the Red Gate, Great Forge Beacon, and Ember Crack Mosaics Command Bastion.",
+      "gameplayAssetNeeds": [
+        "Heavy Industry / Foundry Civic Hall",
+        "Great Forge Beacon",
+        "Smoke-Stack Monument",
+        "Crucible Hall Nook",
+        "Section 1 pedestrian-scale props",
+        "Drakmor civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Heavy Industry / Foundry Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Heavy Industry / Foundry Civic Hall",
+      "minorLandmarks": [
+        "Great Forge Beacon",
+        "Smoke-Stack Monument",
+        "Crucible Hall Nook"
+      ]
+    },
+    {
+      "districtNumber": 4,
+      "districtId": "D04",
+      "sectionNumber": 2,
+      "name": "D04 — Arcane / Alchemical Labs Civic Hall Civic-Anchor Precinct",
+      "civicPurpose": "This district turns Section 2's source-backed anchor set into a board-scale civic space: Arcane / Alchemical Labs Civic Hall, Alchemy Lab, Blue-Lamp Monument, Formula Archive Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Drakmor.",
+      "visualIdentity": "Use Arcane / Alchemical Labs Civic Hall as the main read. Keep exact source anchors visible where applicable: Arcane / Alchemical Labs Civic Hall, Alchemy Lab, Blue-Lamp Monument, Formula Archive Nook. The district should share Drakmor's orcs identity, Basalt, Lava Rock, Obsidian, Canvas, and Desert, Stone Desert, Dry Wadi without becoming generic.",
+      "emotionalIdentity": "Locally grounded, with Drakmor's larger mood shaped by Orcish War-Drum Citadel of the Red Gate, Great Forge Beacon, and Ember Crack Mosaics Command Bastion.",
+      "gameplayAssetNeeds": [
+        "Arcane / Alchemical Labs Civic Hall",
+        "Alchemy Lab",
+        "Blue-Lamp Monument",
+        "Formula Archive Nook",
+        "Section 2 pedestrian-scale props",
+        "Drakmor civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Arcane / Alchemical Labs Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Arcane / Alchemical Labs Civic Hall",
+      "minorLandmarks": [
+        "Alchemy Lab",
+        "Blue-Lamp Monument",
+        "Formula Archive Nook"
+      ]
+    },
+    {
+      "districtNumber": 5,
+      "districtId": "D05",
+      "sectionNumber": 2,
+      "name": "D05 — Alchemy Lab Landmark Approach",
+      "civicPurpose": "This district turns Section 2's source-backed anchor set into a board-scale civic space: Arcane / Alchemical Labs Civic Hall, Alchemy Lab, Blue-Lamp Monument, Formula Archive Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Drakmor.",
+      "visualIdentity": "Use Alchemy Lab as the main read. Keep exact source anchors visible where applicable: Arcane / Alchemical Labs Civic Hall, Alchemy Lab, Blue-Lamp Monument, Formula Archive Nook. The district should share Drakmor's orcs identity, Basalt, Lava Rock, Obsidian, Canvas, and Desert, Stone Desert, Dry Wadi without becoming generic.",
+      "emotionalIdentity": "Public-facing, with Drakmor's larger mood shaped by Orcish War-Drum Citadel of the Red Gate, Great Forge Beacon, and Ember Crack Mosaics Command Bastion.",
+      "gameplayAssetNeeds": [
+        "Alchemy Lab",
+        "Arcane / Alchemical Labs Civic Hall",
+        "Blue-Lamp Monument",
+        "Formula Archive Nook",
+        "Section 2 pedestrian-scale props",
+        "Drakmor civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Alchemy Lab",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Alchemy Lab",
+      "minorLandmarks": [
+        "Arcane / Alchemical Labs Civic Hall",
+        "Blue-Lamp Monument",
+        "Formula Archive Nook"
+      ]
+    },
+    {
+      "districtNumber": 9,
+      "districtId": "D09",
+      "sectionNumber": 2,
+      "name": "D09 — Blue-Lamp Monument Monument Frontage",
+      "civicPurpose": "This district turns Section 2's source-backed anchor set into a board-scale civic space: Arcane / Alchemical Labs Civic Hall, Alchemy Lab, Blue-Lamp Monument, Formula Archive Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Drakmor.",
+      "visualIdentity": "Use Blue-Lamp Monument as the main read. Keep exact source anchors visible where applicable: Arcane / Alchemical Labs Civic Hall, Alchemy Lab, Blue-Lamp Monument, Formula Archive Nook. The district should share Drakmor's orcs identity, Basalt, Lava Rock, Obsidian, Canvas, and Desert, Stone Desert, Dry Wadi without becoming generic.",
+      "emotionalIdentity": "Memorial or symbolic, with Drakmor's larger mood shaped by Orcish War-Drum Citadel of the Red Gate, Great Forge Beacon, and Ember Crack Mosaics Command Bastion.",
+      "gameplayAssetNeeds": [
+        "Blue-Lamp Monument",
+        "Arcane / Alchemical Labs Civic Hall",
+        "Alchemy Lab",
+        "Formula Archive Nook",
+        "Section 2 pedestrian-scale props",
+        "Drakmor civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Blue-Lamp Monument",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Blue-Lamp Monument",
+      "minorLandmarks": [
+        "Arcane / Alchemical Labs Civic Hall",
+        "Alchemy Lab",
+        "Formula Archive Nook"
+      ]
+    },
+    {
+      "districtNumber": 10,
+      "districtId": "D10",
+      "sectionNumber": 2,
+      "name": "D10 — Formula Archive Nook Neighborhood Nook",
+      "civicPurpose": "This district turns Section 2's source-backed anchor set into a board-scale civic space: Arcane / Alchemical Labs Civic Hall, Alchemy Lab, Blue-Lamp Monument, Formula Archive Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Drakmor.",
+      "visualIdentity": "Use Formula Archive Nook as the main read. Keep exact source anchors visible where applicable: Arcane / Alchemical Labs Civic Hall, Alchemy Lab, Blue-Lamp Monument, Formula Archive Nook. The district should share Drakmor's orcs identity, Basalt, Lava Rock, Obsidian, Canvas, and Desert, Stone Desert, Dry Wadi without becoming generic.",
+      "emotionalIdentity": "Intimate and lived-in, with Drakmor's larger mood shaped by Orcish War-Drum Citadel of the Red Gate, Great Forge Beacon, and Ember Crack Mosaics Command Bastion.",
+      "gameplayAssetNeeds": [
+        "Formula Archive Nook",
+        "Arcane / Alchemical Labs Civic Hall",
+        "Alchemy Lab",
+        "Blue-Lamp Monument",
+        "Section 2 pedestrian-scale props",
+        "Drakmor civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Formula Archive Nook",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Formula Archive Nook",
+      "minorLandmarks": [
+        "Arcane / Alchemical Labs Civic Hall",
+        "Alchemy Lab",
+        "Blue-Lamp Monument"
+      ]
+    },
+    {
+      "districtNumber": 15,
+      "districtId": "D15",
+      "sectionNumber": 2,
+      "name": "D15 — Arcane / Alchemical Labs Civic Hall Supporting Streets",
+      "civicPurpose": "This district turns Section 2's source-backed anchor set into a board-scale civic space: Arcane / Alchemical Labs Civic Hall, Alchemy Lab, Blue-Lamp Monument, Formula Archive Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Drakmor.",
+      "visualIdentity": "Use Arcane / Alchemical Labs Civic Hall as the main read. Keep exact source anchors visible where applicable: Arcane / Alchemical Labs Civic Hall, Alchemy Lab, Blue-Lamp Monument, Formula Archive Nook. The district should share Drakmor's orcs identity, Basalt, Lava Rock, Obsidian, Canvas, and Desert, Stone Desert, Dry Wadi without becoming generic.",
+      "emotionalIdentity": "Connective and practical, with Drakmor's larger mood shaped by Orcish War-Drum Citadel of the Red Gate, Great Forge Beacon, and Ember Crack Mosaics Command Bastion.",
+      "gameplayAssetNeeds": [
+        "Arcane / Alchemical Labs Civic Hall",
+        "Alchemy Lab",
+        "Blue-Lamp Monument",
+        "Formula Archive Nook",
+        "Section 2 pedestrian-scale props",
+        "Drakmor civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Arcane / Alchemical Labs Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Arcane / Alchemical Labs Civic Hall",
+      "minorLandmarks": [
+        "Alchemy Lab",
+        "Blue-Lamp Monument",
+        "Formula Archive Nook"
+      ]
+    },
+    {
+      "districtNumber": 8,
+      "districtId": "D08",
+      "sectionNumber": 3,
+      "name": "D08 — Military Command Hall Civic-Anchor Precinct",
+      "civicPurpose": "This district turns Section 3's source-backed anchor set into a board-scale civic space: Military Command Hall, Command Bastion, Woven Banners Monument, Standard Tower Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Drakmor.",
+      "visualIdentity": "Use Military Command Hall as the main read. Keep exact source anchors visible where applicable: Military Command Hall, Command Bastion, Woven Banners Monument, Standard Tower Nook. The district should share Drakmor's orcs identity, Basalt, Lava Rock, Obsidian, Canvas, and Desert, Stone Desert, Dry Wadi without becoming generic.",
+      "emotionalIdentity": "Locally grounded, with Drakmor's larger mood shaped by Orcish War-Drum Citadel of the Red Gate, Great Forge Beacon, and Ember Crack Mosaics Command Bastion.",
+      "gameplayAssetNeeds": [
+        "Military Command Hall",
+        "Command Bastion",
+        "Woven Banners Monument",
+        "Standard Tower Nook",
+        "Section 3 pedestrian-scale props",
+        "Drakmor civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Military Command Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Military Command Hall",
+      "minorLandmarks": [
+        "Command Bastion",
+        "Woven Banners Monument",
+        "Standard Tower Nook"
+      ]
+    },
+    {
+      "districtNumber": 12,
+      "districtId": "D12",
+      "sectionNumber": 3,
+      "name": "D12 — Command Bastion Landmark Approach",
+      "civicPurpose": "This district turns Section 3's source-backed anchor set into a board-scale civic space: Military Command Hall, Command Bastion, Woven Banners Monument, Standard Tower Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Drakmor.",
+      "visualIdentity": "Use Command Bastion as the main read. Keep exact source anchors visible where applicable: Military Command Hall, Command Bastion, Woven Banners Monument, Standard Tower Nook. The district should share Drakmor's orcs identity, Basalt, Lava Rock, Obsidian, Canvas, and Desert, Stone Desert, Dry Wadi without becoming generic.",
+      "emotionalIdentity": "Public-facing, with Drakmor's larger mood shaped by Orcish War-Drum Citadel of the Red Gate, Great Forge Beacon, and Ember Crack Mosaics Command Bastion.",
+      "gameplayAssetNeeds": [
+        "Command Bastion",
+        "Military Command Hall",
+        "Woven Banners Monument",
+        "Standard Tower Nook",
+        "Section 3 pedestrian-scale props",
+        "Drakmor civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Command Bastion",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Command Bastion",
+      "minorLandmarks": [
+        "Military Command Hall",
+        "Woven Banners Monument",
+        "Standard Tower Nook"
+      ]
+    },
+    {
+      "districtNumber": 13,
+      "districtId": "D13",
+      "sectionNumber": 3,
+      "name": "D13 — Ember Crack Mosaics Command Bastion Seat of Power District",
+      "civicPurpose": "This district turns Section 3's source-backed anchor set into a board-scale civic space: Military Command Hall, Command Bastion, Woven Banners Monument, Standard Tower Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Drakmor.",
+      "visualIdentity": "Use Ember Crack Mosaics Command Bastion as the main read. Keep exact source anchors visible where applicable: Military Command Hall, Command Bastion, Woven Banners Monument, Standard Tower Nook. The district should share Drakmor's orcs identity, Basalt, Lava Rock, Obsidian, Canvas, and Desert, Stone Desert, Dry Wadi without becoming generic.",
+      "emotionalIdentity": "Memorial or symbolic, with Drakmor's larger mood shaped by Orcish War-Drum Citadel of the Red Gate, Great Forge Beacon, and Ember Crack Mosaics Command Bastion.",
+      "gameplayAssetNeeds": [
+        "Ember Crack Mosaics Command Bastion",
+        "Military Command Hall",
+        "Command Bastion",
+        "Woven Banners Monument",
+        "Standard Tower Nook",
+        "Section 3 pedestrian-scale props",
+        "Drakmor civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Ember Crack Mosaics Command Bastion",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "Conjunction response, rumor spread, or authority pressure"
+      ],
+      "landmark": "Ember Crack Mosaics Command Bastion",
+      "minorLandmarks": [
+        "Military Command Hall",
+        "Command Bastion",
+        "Woven Banners Monument",
+        "Standard Tower Nook"
+      ]
+    },
+    {
+      "districtNumber": 14,
+      "districtId": "D14",
+      "sectionNumber": 3,
+      "name": "D14 — Standard Tower Nook Neighborhood Nook",
+      "civicPurpose": "This district turns Section 3's source-backed anchor set into a board-scale civic space: Military Command Hall, Command Bastion, Woven Banners Monument, Standard Tower Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Drakmor.",
+      "visualIdentity": "Use Standard Tower Nook as the main read. Keep exact source anchors visible where applicable: Military Command Hall, Command Bastion, Woven Banners Monument, Standard Tower Nook. The district should share Drakmor's orcs identity, Basalt, Lava Rock, Obsidian, Canvas, and Desert, Stone Desert, Dry Wadi without becoming generic.",
+      "emotionalIdentity": "Intimate and lived-in, with Drakmor's larger mood shaped by Orcish War-Drum Citadel of the Red Gate, Great Forge Beacon, and Ember Crack Mosaics Command Bastion.",
+      "gameplayAssetNeeds": [
+        "Standard Tower Nook",
+        "Military Command Hall",
+        "Command Bastion",
+        "Woven Banners Monument",
+        "Section 3 pedestrian-scale props",
+        "Drakmor civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Standard Tower Nook",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Standard Tower Nook",
+      "minorLandmarks": [
+        "Military Command Hall",
+        "Command Bastion",
+        "Woven Banners Monument"
+      ]
+    },
+    {
+      "districtNumber": 18,
+      "districtId": "D18",
+      "sectionNumber": 3,
+      "name": "D18 — Military Command Hall Supporting Streets",
+      "civicPurpose": "This district turns Section 3's source-backed anchor set into a board-scale civic space: Military Command Hall, Command Bastion, Woven Banners Monument, Standard Tower Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Drakmor.",
+      "visualIdentity": "Use Military Command Hall as the main read. Keep exact source anchors visible where applicable: Military Command Hall, Command Bastion, Woven Banners Monument, Standard Tower Nook. The district should share Drakmor's orcs identity, Basalt, Lava Rock, Obsidian, Canvas, and Desert, Stone Desert, Dry Wadi without becoming generic.",
+      "emotionalIdentity": "Connective and practical, with Drakmor's larger mood shaped by Orcish War-Drum Citadel of the Red Gate, Great Forge Beacon, and Ember Crack Mosaics Command Bastion.",
+      "gameplayAssetNeeds": [
+        "Military Command Hall",
+        "Command Bastion",
+        "Woven Banners Monument",
+        "Standard Tower Nook",
+        "Section 3 pedestrian-scale props",
+        "Drakmor civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Military Command Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Military Command Hall",
+      "minorLandmarks": [
+        "Command Bastion",
+        "Woven Banners Monument",
+        "Standard Tower Nook"
+      ]
+    },
+    {
+      "districtNumber": 11,
+      "districtId": "D11",
+      "sectionNumber": 4,
+      "name": "D11 — Underworld / Hidden Economy Civic Hall Civic-Anchor Precinct",
+      "civicPurpose": "This district turns Section 4's source-backed anchor set into a board-scale civic space: Underworld / Hidden Economy Civic Hall, Black Market Arcade, Mist Veils Monument, Understreet Vault Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Drakmor.",
+      "visualIdentity": "Use Underworld / Hidden Economy Civic Hall as the main read. Keep exact source anchors visible where applicable: Underworld / Hidden Economy Civic Hall, Black Market Arcade, Mist Veils Monument, Understreet Vault Nook. The district should share Drakmor's orcs identity, Basalt, Lava Rock, Obsidian, Canvas, and Desert, Stone Desert, Dry Wadi without becoming generic.",
+      "emotionalIdentity": "Locally grounded, with Drakmor's larger mood shaped by Orcish War-Drum Citadel of the Red Gate, Great Forge Beacon, and Ember Crack Mosaics Command Bastion.",
+      "gameplayAssetNeeds": [
+        "Underworld / Hidden Economy Civic Hall",
+        "Black Market Arcade",
+        "Mist Veils Monument",
+        "Understreet Vault Nook",
+        "Section 4 pedestrian-scale props",
+        "Drakmor civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Underworld / Hidden Economy Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Underworld / Hidden Economy Civic Hall",
+      "minorLandmarks": [
+        "Black Market Arcade",
+        "Mist Veils Monument",
+        "Understreet Vault Nook"
+      ]
+    },
+    {
+      "districtNumber": 16,
+      "districtId": "D16",
+      "sectionNumber": 4,
+      "name": "D16 — Black Market Arcade Landmark Approach",
+      "civicPurpose": "This district turns Section 4's source-backed anchor set into a board-scale civic space: Underworld / Hidden Economy Civic Hall, Black Market Arcade, Mist Veils Monument, Understreet Vault Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Drakmor.",
+      "visualIdentity": "Use Black Market Arcade as the main read. Keep exact source anchors visible where applicable: Underworld / Hidden Economy Civic Hall, Black Market Arcade, Mist Veils Monument, Understreet Vault Nook. The district should share Drakmor's orcs identity, Basalt, Lava Rock, Obsidian, Canvas, and Desert, Stone Desert, Dry Wadi without becoming generic.",
+      "emotionalIdentity": "Public-facing, with Drakmor's larger mood shaped by Orcish War-Drum Citadel of the Red Gate, Great Forge Beacon, and Ember Crack Mosaics Command Bastion.",
+      "gameplayAssetNeeds": [
+        "Black Market Arcade",
+        "Underworld / Hidden Economy Civic Hall",
+        "Mist Veils Monument",
+        "Understreet Vault Nook",
+        "Section 4 pedestrian-scale props",
+        "Drakmor civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Black Market Arcade",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Black Market Arcade",
+      "minorLandmarks": [
+        "Underworld / Hidden Economy Civic Hall",
+        "Mist Veils Monument",
+        "Understreet Vault Nook"
+      ]
+    },
+    {
+      "districtNumber": 17,
+      "districtId": "D17",
+      "sectionNumber": 4,
+      "name": "D17 — Mist Veils Monument Monument Frontage",
+      "civicPurpose": "This district turns Section 4's source-backed anchor set into a board-scale civic space: Underworld / Hidden Economy Civic Hall, Black Market Arcade, Mist Veils Monument, Understreet Vault Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Drakmor.",
+      "visualIdentity": "Use Mist Veils Monument as the main read. Keep exact source anchors visible where applicable: Underworld / Hidden Economy Civic Hall, Black Market Arcade, Mist Veils Monument, Understreet Vault Nook. The district should share Drakmor's orcs identity, Basalt, Lava Rock, Obsidian, Canvas, and Desert, Stone Desert, Dry Wadi without becoming generic.",
+      "emotionalIdentity": "Memorial or symbolic, with Drakmor's larger mood shaped by Orcish War-Drum Citadel of the Red Gate, Great Forge Beacon, and Ember Crack Mosaics Command Bastion.",
+      "gameplayAssetNeeds": [
+        "Mist Veils Monument",
+        "Underworld / Hidden Economy Civic Hall",
+        "Black Market Arcade",
+        "Understreet Vault Nook",
+        "Section 4 pedestrian-scale props",
+        "Drakmor civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Mist Veils Monument",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Mist Veils Monument",
+      "minorLandmarks": [
+        "Underworld / Hidden Economy Civic Hall",
+        "Black Market Arcade",
+        "Understreet Vault Nook"
+      ]
+    },
+    {
+      "districtNumber": 21,
+      "districtId": "D21",
+      "sectionNumber": 4,
+      "name": "D21 — Understreet Vault Nook Neighborhood Nook",
+      "civicPurpose": "This district turns Section 4's source-backed anchor set into a board-scale civic space: Underworld / Hidden Economy Civic Hall, Black Market Arcade, Mist Veils Monument, Understreet Vault Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Drakmor.",
+      "visualIdentity": "Use Understreet Vault Nook as the main read. Keep exact source anchors visible where applicable: Underworld / Hidden Economy Civic Hall, Black Market Arcade, Mist Veils Monument, Understreet Vault Nook. The district should share Drakmor's orcs identity, Basalt, Lava Rock, Obsidian, Canvas, and Desert, Stone Desert, Dry Wadi without becoming generic.",
+      "emotionalIdentity": "Intimate and lived-in, with Drakmor's larger mood shaped by Orcish War-Drum Citadel of the Red Gate, Great Forge Beacon, and Ember Crack Mosaics Command Bastion.",
+      "gameplayAssetNeeds": [
+        "Understreet Vault Nook",
+        "Underworld / Hidden Economy Civic Hall",
+        "Black Market Arcade",
+        "Mist Veils Monument",
+        "Section 4 pedestrian-scale props",
+        "Drakmor civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Understreet Vault Nook",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Understreet Vault Nook",
+      "minorLandmarks": [
+        "Underworld / Hidden Economy Civic Hall",
+        "Black Market Arcade",
+        "Mist Veils Monument"
+      ]
+    },
+    {
+      "districtNumber": 22,
+      "districtId": "D22",
+      "sectionNumber": 4,
+      "name": "D22 — Underworld / Hidden Economy Civic Hall Supporting Streets",
+      "civicPurpose": "This district turns Section 4's source-backed anchor set into a board-scale civic space: Underworld / Hidden Economy Civic Hall, Black Market Arcade, Mist Veils Monument, Understreet Vault Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Drakmor.",
+      "visualIdentity": "Use Underworld / Hidden Economy Civic Hall as the main read. Keep exact source anchors visible where applicable: Underworld / Hidden Economy Civic Hall, Black Market Arcade, Mist Veils Monument, Understreet Vault Nook. The district should share Drakmor's orcs identity, Basalt, Lava Rock, Obsidian, Canvas, and Desert, Stone Desert, Dry Wadi without becoming generic.",
+      "emotionalIdentity": "Connective and practical, with Drakmor's larger mood shaped by Orcish War-Drum Citadel of the Red Gate, Great Forge Beacon, and Ember Crack Mosaics Command Bastion.",
+      "gameplayAssetNeeds": [
+        "Underworld / Hidden Economy Civic Hall",
+        "Black Market Arcade",
+        "Mist Veils Monument",
+        "Understreet Vault Nook",
+        "Section 4 pedestrian-scale props",
+        "Drakmor civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Underworld / Hidden Economy Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Underworld / Hidden Economy Civic Hall",
+      "minorLandmarks": [
+        "Black Market Arcade",
+        "Mist Veils Monument",
+        "Understreet Vault Nook"
+      ]
+    },
+    {
+      "districtNumber": 19,
+      "districtId": "D19",
+      "sectionNumber": 5,
+      "name": "D19 — Prison / Containment Civic Hall Civic-Anchor Precinct",
+      "civicPurpose": "This district turns Section 5's source-backed anchor set into a board-scale civic space: Prison / Containment Civic Hall, Containment Keep, Mist Veils Monument, Judgment Yard Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Drakmor.",
+      "visualIdentity": "Use Prison / Containment Civic Hall as the main read. Keep exact source anchors visible where applicable: Prison / Containment Civic Hall, Containment Keep, Mist Veils Monument, Judgment Yard Nook. The district should share Drakmor's orcs identity, Basalt, Lava Rock, Obsidian, Canvas, and Desert, Stone Desert, Dry Wadi without becoming generic.",
+      "emotionalIdentity": "Locally grounded, with Drakmor's larger mood shaped by Orcish War-Drum Citadel of the Red Gate, Great Forge Beacon, and Ember Crack Mosaics Command Bastion.",
+      "gameplayAssetNeeds": [
+        "Prison / Containment Civic Hall",
+        "Containment Keep",
+        "Mist Veils Monument",
+        "Judgment Yard Nook",
+        "Section 5 pedestrian-scale props",
+        "Drakmor civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Prison / Containment Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Prison / Containment Civic Hall",
+      "minorLandmarks": [
+        "Containment Keep",
+        "Mist Veils Monument",
+        "Judgment Yard Nook"
+      ]
+    },
+    {
+      "districtNumber": 20,
+      "districtId": "D20",
+      "sectionNumber": 5,
+      "name": "D20 — Containment Keep Landmark Approach",
+      "civicPurpose": "This district turns Section 5's source-backed anchor set into a board-scale civic space: Prison / Containment Civic Hall, Containment Keep, Mist Veils Monument, Judgment Yard Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Drakmor.",
+      "visualIdentity": "Use Containment Keep as the main read. Keep exact source anchors visible where applicable: Prison / Containment Civic Hall, Containment Keep, Mist Veils Monument, Judgment Yard Nook. The district should share Drakmor's orcs identity, Basalt, Lava Rock, Obsidian, Canvas, and Desert, Stone Desert, Dry Wadi without becoming generic.",
+      "emotionalIdentity": "Public-facing, with Drakmor's larger mood shaped by Orcish War-Drum Citadel of the Red Gate, Great Forge Beacon, and Ember Crack Mosaics Command Bastion.",
+      "gameplayAssetNeeds": [
+        "Containment Keep",
+        "Prison / Containment Civic Hall",
+        "Mist Veils Monument",
+        "Judgment Yard Nook",
+        "Section 5 pedestrian-scale props",
+        "Drakmor civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Containment Keep",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Containment Keep",
+      "minorLandmarks": [
+        "Prison / Containment Civic Hall",
+        "Mist Veils Monument",
+        "Judgment Yard Nook"
+      ]
+    },
+    {
+      "districtNumber": 23,
+      "districtId": "D23",
+      "sectionNumber": 5,
+      "name": "D23 — Mist Veils Monument Monument Frontage",
+      "civicPurpose": "This district turns Section 5's source-backed anchor set into a board-scale civic space: Prison / Containment Civic Hall, Containment Keep, Mist Veils Monument, Judgment Yard Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Drakmor.",
+      "visualIdentity": "Use Mist Veils Monument as the main read. Keep exact source anchors visible where applicable: Prison / Containment Civic Hall, Containment Keep, Mist Veils Monument, Judgment Yard Nook. The district should share Drakmor's orcs identity, Basalt, Lava Rock, Obsidian, Canvas, and Desert, Stone Desert, Dry Wadi without becoming generic.",
+      "emotionalIdentity": "Memorial or symbolic, with Drakmor's larger mood shaped by Orcish War-Drum Citadel of the Red Gate, Great Forge Beacon, and Ember Crack Mosaics Command Bastion.",
+      "gameplayAssetNeeds": [
+        "Mist Veils Monument",
+        "Prison / Containment Civic Hall",
+        "Containment Keep",
+        "Judgment Yard Nook",
+        "Section 5 pedestrian-scale props",
+        "Drakmor civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Mist Veils Monument",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Mist Veils Monument",
+      "minorLandmarks": [
+        "Prison / Containment Civic Hall",
+        "Containment Keep",
+        "Judgment Yard Nook"
+      ]
+    },
+    {
+      "districtNumber": 24,
+      "districtId": "D24",
+      "sectionNumber": 5,
+      "name": "D24 — Judgment Yard Nook Neighborhood Nook",
+      "civicPurpose": "This district turns Section 5's source-backed anchor set into a board-scale civic space: Prison / Containment Civic Hall, Containment Keep, Mist Veils Monument, Judgment Yard Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Drakmor.",
+      "visualIdentity": "Use Judgment Yard Nook as the main read. Keep exact source anchors visible where applicable: Prison / Containment Civic Hall, Containment Keep, Mist Veils Monument, Judgment Yard Nook. The district should share Drakmor's orcs identity, Basalt, Lava Rock, Obsidian, Canvas, and Desert, Stone Desert, Dry Wadi without becoming generic.",
+      "emotionalIdentity": "Intimate and lived-in, with Drakmor's larger mood shaped by Orcish War-Drum Citadel of the Red Gate, Great Forge Beacon, and Ember Crack Mosaics Command Bastion.",
+      "gameplayAssetNeeds": [
+        "Judgment Yard Nook",
+        "Prison / Containment Civic Hall",
+        "Containment Keep",
+        "Mist Veils Monument",
+        "Section 5 pedestrian-scale props",
+        "Drakmor civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Judgment Yard Nook",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Judgment Yard Nook",
+      "minorLandmarks": [
+        "Prison / Containment Civic Hall",
+        "Containment Keep",
+        "Mist Veils Monument"
+      ]
+    },
+    {
+      "districtNumber": 25,
+      "districtId": "D25",
+      "sectionNumber": 5,
+      "name": "D25 — Prison / Containment Civic Hall Supporting Streets",
+      "civicPurpose": "This district turns Section 5's source-backed anchor set into a board-scale civic space: Prison / Containment Civic Hall, Containment Keep, Mist Veils Monument, Judgment Yard Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Drakmor.",
+      "visualIdentity": "Use Prison / Containment Civic Hall as the main read. Keep exact source anchors visible where applicable: Prison / Containment Civic Hall, Containment Keep, Mist Veils Monument, Judgment Yard Nook. The district should share Drakmor's orcs identity, Basalt, Lava Rock, Obsidian, Canvas, and Desert, Stone Desert, Dry Wadi without becoming generic.",
+      "emotionalIdentity": "Connective and practical, with Drakmor's larger mood shaped by Orcish War-Drum Citadel of the Red Gate, Great Forge Beacon, and Ember Crack Mosaics Command Bastion.",
+      "gameplayAssetNeeds": [
+        "Prison / Containment Civic Hall",
+        "Containment Keep",
+        "Mist Veils Monument",
+        "Judgment Yard Nook",
+        "Section 5 pedestrian-scale props",
+        "Drakmor civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Prison / Containment Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Prison / Containment Civic Hall",
+      "minorLandmarks": [
+        "Containment Keep",
+        "Mist Veils Monument",
+        "Judgment Yard Nook"
+      ]
+    }
   ],
   "landmarks": {
-    "wonder": {"name": "Orcish War-Drum Citadel of the Red Gate", "symbolicRole": "War rhythm, command, and public force made monumental.", "visualRole": "Far citadel of red gate forms, drum massing, black stone, banners, and torchlight.", "civicRole": "Wonder-scale symbol of Drakmor’s command-industrial legitimacy.", "narrativeUse": ["muster", "war ceremony", "public intimidation", "command spectacle"], "assetUse": ["map wonder", "skyline anchor"], "sensoryIdentity": ["drums", "torch smoke", "red light", "stone echo"], "storyHooks": ["A war-drum ceremony turns civic production toward crisis."]},
-    "beacon": {"name": "Great Forge Beacon", "symbolicRole": "Industrial output and emergency made public signal.", "visualRole": "Beacon rooted in forge district, rising through smoke, chains, and orange heat.", "civicRole": "Coordinates forge crews, command officers, alchemists, market runners, and containment response.", "narrativeUse": ["forge emergency", "Beacon warning", "production mobilization"], "assetUse": ["S1 centerpiece", "signal marker"], "sensoryIdentity": ["heat", "blue-orange light", "hammering", "smoke"], "storyHooks": ["A Beacon shift makes the factories stop at once."]},
-    "seatOfPower": {"name": "Ember Crack Mosaics Command Bastion", "symbolicRole": "Command authority built from controlled fracture and heat.", "visualRole": "Central command bastion with ember mosaics, standards, black stone, and military terraces.", "civicRole": "Government center for production orders, military rank, containment policy, and official command.", "narrativeUse": ["orders", "public command", "military politics"], "assetUse": ["seat of power", "central map anchor"], "sensoryIdentity": ["hot stone", "banners", "boots", "metal"], "storyHooks": ["A command order exposes a hidden dependency on the underworld."]},
+    "wonder": {
+      "name": "Orcish War-Drum Citadel of the Red Gate",
+      "symbolicRole": "Orcish War-Drum Citadel of the Red Gate concentrates Drakmor's local symbolism into a usable civic landmark: city wonder, separate far skyline anchor.",
+      "visualRole": "A one-per-city wonder: spectacular, unmistakable, and larger than every section landmark. It turns Drakmor's geography, race identity, material culture, and civic magic into one public symbol. Built for Drakmor's orcs population, it uses Basalt, Lava Rock, Obsidian, Canvas, Arcane Glow across Desert, Stone Desert, Dry Wadi; water context: dry city ground; magic expression: Ward Networks, Ritual Geometry, Ember Binding. It must read clearly as a high-fantasy tactical-board asset with no baked labels or text.",
+      "civicRole": "Serves as city wonder, separate far skyline anchor within Drakmor; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+      "narrativeUse": [
+        "stage scenes involving Orcish War-Drum Citadel of the Red Gate",
+        "show how Drakmor turns landmark symbolism into civic pressure",
+        "anchor public movement and crowd behavior",
+        "give writers a concrete place for announcements, disputes, errands, or rituals"
+      ],
+      "assetUse": [
+        "city landmark asset",
+        "map background landmark marker",
+        "visual continuity anchor across hero and street scenes",
+        "scale reference for civilians, roads, plazas, and props"
+      ],
+      "sensoryIdentity": [
+        "local foot traffic",
+        "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+        "public voices and civic work nearby",
+        "ambient city light and weathering",
+        "close pedestrian-scale details rather than abstract skyline-only treatment"
+      ],
+      "storyHooks": [
+        "a routine civic action at Orcish War-Drum Citadel of the Red Gate becomes narratively important",
+        "the visible condition of Orcish War-Drum Citadel of the Red Gate signals political or social stress",
+        "someone uses Orcish War-Drum Citadel of the Red Gate's public function to redirect crowds or information",
+        "an overlooked detail at Orcish War-Drum Citadel of the Red Gate reveals how Drakmor really works"
+      ]
+    },
+    "beacon": {
+      "name": "Great Forge Beacon",
+      "symbolicRole": "Great Forge Beacon concentrates Drakmor's local symbolism into a usable civic landmark: Section 1 beacon, near/front civic signal anchor.",
+      "visualRole": "A largest local landmark in this section, subordinate only to the city wonder and citadel. It belongs to Section 1 (Heavy Industry / Foundry) of Drakmor and should use Forge Halls, Obsidian Fortresses, Subterranean Vaults, basalt and ash plaster materials, Civic Blue Glow, Forge Smoke Columns, Red Fabric Awnings, and the orcs visual language. Design focus: furnace towers, slag yards, ore yards, largest section focal point, strong vertical silhouette. Terrain/water context: Volcanic; Dry Ground. Magic expression: Glass Scrying, Fungal Communion, Mask Enchantments. No baked labels or text. Single city beacon fixed to section 1; visible civic signal apparatus, strong vertical silhouette, and public approach space.",
+      "civicRole": "Serves as Section 1 beacon, near/front civic signal anchor within Drakmor; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+      "narrativeUse": [
+        "stage scenes involving Great Forge Beacon",
+        "show how Drakmor turns landmark symbolism into civic pressure",
+        "anchor public movement and crowd behavior",
+        "give writers a concrete place for announcements, disputes, errands, or rituals"
+      ],
+      "assetUse": [
+        "district diorama anchor for Section 1",
+        "map background landmark marker",
+        "visual continuity anchor across hero and street scenes",
+        "scale reference for civilians, roads, plazas, and props"
+      ],
+      "sensoryIdentity": [
+        "local foot traffic",
+        "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+        "public voices and civic work nearby",
+        "beacon or lamp glow when applicable",
+        "close pedestrian-scale details rather than abstract skyline-only treatment"
+      ],
+      "storyHooks": [
+        "a routine civic action at Great Forge Beacon becomes narratively important",
+        "the visible condition of Great Forge Beacon signals political or social stress",
+        "someone uses Great Forge Beacon's public function to redirect crowds or information",
+        "an overlooked detail at Great Forge Beacon reveals how Drakmor really works"
+      ]
+    },
+    "seatOfPower": {
+      "name": "Ember Crack Mosaics Command Bastion",
+      "symbolicRole": "Ember Crack Mosaics Command Bastion concentrates Drakmor's local symbolism into a usable civic landmark: dominant central civic anchor / District 13 seat of power.",
+      "visualRole": "The district-13 seat of power: courts, audience terraces, sealed archives, command platforms, and the visible apparatus of government. It is not a faction HQ; it is the city's central civic authority. Built for Drakmor's orcs population, it uses Basalt, Lava Rock, Obsidian, Canvas, Arcane Glow across Desert, Stone Desert, Dry Wadi; water context: dry city ground; magic expression: Ward Networks, Ritual Geometry, Ember Binding. It must read clearly as a high-fantasy tactical-board asset with no baked labels or text.",
+      "civicRole": "Serves as dominant central civic anchor / District 13 seat of power within Drakmor; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+      "narrativeUse": [
+        "stage scenes involving Ember Crack Mosaics Command Bastion",
+        "show how Drakmor turns landmark symbolism into civic pressure",
+        "anchor public movement and crowd behavior",
+        "give writers a concrete place for announcements, disputes, errands, or rituals"
+      ],
+      "assetUse": [
+        "city landmark asset",
+        "map background landmark marker",
+        "visual continuity anchor across hero and street scenes",
+        "scale reference for civilians, roads, plazas, and props"
+      ],
+      "sensoryIdentity": [
+        "local foot traffic",
+        "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+        "public voices and civic work nearby",
+        "ambient city light and weathering",
+        "close pedestrian-scale details rather than abstract skyline-only treatment"
+      ],
+      "storyHooks": [
+        "a routine civic action at Ember Crack Mosaics Command Bastion becomes narratively important",
+        "the visible condition of Ember Crack Mosaics Command Bastion signals political or social stress",
+        "someone uses Ember Crack Mosaics Command Bastion's public function to redirect crowds or information",
+        "an overlooked detail at Ember Crack Mosaics Command Bastion reveals how Drakmor really works"
+      ]
+    },
     "majorLandmarks": [
-      {"name": "Alchemy Lab", "symbolicRole": "Dangerous knowledge under civic control.", "visualRole": "Blue lamps, formula archives, sealed lab halls.", "civicRole": "Research and controlled invention.", "narrativeUse": ["formula danger", "restricted research"], "assetUse": ["S2 diorama"], "sensoryIdentity": ["sharp reagents", "blue light", "glass"], "storyHooks": ["A formula archive contains a forbidden solution."]},
-      {"name": "Command Bastion", "symbolicRole": "Rank made architectural.", "visualRole": "Bastion, standards, military plaza.", "civicRole": "Command and mobilization.", "narrativeUse": ["orders", "musters"], "assetUse": ["S3 diorama"], "sensoryIdentity": ["boots", "banners", "horns"], "storyHooks": ["A standard is raised for the wrong reason."]},
-      {"name": "Black Market Arcade", "symbolicRole": "The necessary shadow under official force.", "visualRole": "Vault doors, coded stalls, mist, wet alleys.", "civicRole": "Hidden economy and informal logistics.", "narrativeUse": ["contraband", "debts"], "assetUse": ["S4 diorama"], "sensoryIdentity": ["whispers", "lamp smoke", "wet stone"], "storyHooks": ["A black-market route keeps the official city functioning."]},
-      {"name": "Containment Keep", "symbolicRole": "Order through captivity.", "visualRole": "Black walls, cold light, barred corridors, judgment yard.", "civicRole": "Prison and discipline system.", "narrativeUse": ["judgment", "captivity"], "assetUse": ["S5 diorama"], "sensoryIdentity": ["cold iron", "echoes", "damp stone"], "storyHooks": ["A containment decision defines what the city fears most."]}
+      {
+        "name": "Containment Keep",
+        "symbolicRole": "Containment Keep concentrates Drakmor's local symbolism into a usable civic landmark: additional major landmark selected for this hero-view camera angle.",
+        "visualRole": "A largest local landmark in this section, subordinate only to the city wonder and citadel. It belongs to Section 5 (Prison / Containment) of Drakmor and should use Obsidian Fortresses, Subterranean Vaults, Cyclopean Megaliths, basalt and ash plaster materials, Civic Blue Glow, Mist Veils, Bone White Ceremony, and the orcs visual language. Design focus: bars, locks, warning bells, ward sigils, cell blocks. Terrain/water context: Volcanic; Dry Ground. Magic expression: Glass Scrying, Fungal Communion, Mask Enchantments. No baked labels or text.",
+        "civicRole": "Serves as additional major landmark selected for this hero-view camera angle within Drakmor; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Containment Keep",
+          "show how Drakmor turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 5",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Containment Keep becomes narratively important",
+          "the visible condition of Containment Keep signals political or social stress",
+          "someone uses Containment Keep's public function to redirect crowds or information",
+          "an overlooked detail at Containment Keep reveals how Drakmor really works"
+        ]
+      },
+      {
+        "name": "Alchemy Lab",
+        "symbolicRole": "Alchemy Lab concentrates Drakmor's local symbolism into a usable civic landmark: additional major landmark selected for this hero-view camera angle.",
+        "visualRole": "A largest local landmark in this section, subordinate only to the city wonder and citadel. It belongs to Section 2 (Arcane / Alchemical Labs) of Drakmor and should use Archive Towers, Forge Halls, Subterranean Vaults, basalt and ash plaster materials, Serpent Geometry, Civic Blue Glow, Lantern Lit, and the orcs visual language. Design focus: containment courts, safety wards, largest section focal point, strong vertical silhouette, distinct gameplay landmark. Terrain/water context: Volcanic; Dry Ground. Magic expression: Glass Scrying, Fungal Communion, Mask Enchantments. No baked labels or text.",
+        "civicRole": "Serves as additional major landmark selected for this hero-view camera angle within Drakmor; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Alchemy Lab",
+          "show how Drakmor turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 2",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Alchemy Lab becomes narratively important",
+          "the visible condition of Alchemy Lab signals political or social stress",
+          "someone uses Alchemy Lab's public function to redirect crowds or information",
+          "an overlooked detail at Alchemy Lab reveals how Drakmor really works"
+        ]
+      },
+      {
+        "name": "Black Market Arcade",
+        "symbolicRole": "Black Market Arcade concentrates Drakmor's local symbolism into a usable civic landmark: additional major landmark selected for this hero-view camera angle.",
+        "visualRole": "A largest local landmark in this section, subordinate only to the city wonder and citadel. It belongs to Section 4 (Underworld / Hidden Economy) of Drakmor and should use Gothic Spires, Subterranean Vaults, Market Arcades, basalt and ash plaster materials, Mist Veils, Lantern Lit, Serpent Geometry, and the orcs visual language. Design focus: backroom taverns, trapdoor lanes, secret doors, largest section focal point, strong vertical silhouette. Terrain/water context: Volcanic; Dry Ground. Magic expression: Glass Scrying, Fungal Communion, Mask Enchantments. No baked labels or text.",
+        "civicRole": "Serves as additional major landmark selected for this hero-view camera angle within Drakmor; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Black Market Arcade",
+          "show how Drakmor turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 4",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Black Market Arcade becomes narratively important",
+          "the visible condition of Black Market Arcade signals political or social stress",
+          "someone uses Black Market Arcade's public function to redirect crowds or information",
+          "an overlooked detail at Black Market Arcade reveals how Drakmor really works"
+        ]
+      },
+      {
+        "name": "Heavy Industry / Foundry Civic Hall",
+        "symbolicRole": "Heavy Industry / Foundry Civic Hall concentrates Drakmor's local symbolism into a usable civic landmark: Section 1 local anchor.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing. It belongs to Section 1 (Heavy Industry / Foundry) of Drakmor and should use Forge Halls, Obsidian Fortresses, Subterranean Vaults, basalt and ash plaster materials, Forge Smoke Columns, Red Fabric Awnings, Civic Blue Glow, and the orcs visual language. Design focus: chains, anvils, molten channels, foundry sheds, furnace towers. Terrain/water context: Volcanic; Dry Ground. Magic expression: Glass Scrying, Fungal Communion, Mask Enchantments. No baked labels or text.",
+        "civicRole": "Serves as Section 1 local anchor within Drakmor; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Heavy Industry / Foundry Civic Hall",
+          "show how Drakmor turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 1",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Heavy Industry / Foundry Civic Hall becomes narratively important",
+          "the visible condition of Heavy Industry / Foundry Civic Hall signals political or social stress",
+          "someone uses Heavy Industry / Foundry Civic Hall's public function to redirect crowds or information",
+          "an overlooked detail at Heavy Industry / Foundry Civic Hall reveals how Drakmor really works"
+        ]
+      },
+      {
+        "name": "Smoke-Stack Monument",
+        "symbolicRole": "Smoke-Stack Monument concentrates Drakmor's local symbolism into a usable civic landmark: Section 1 local anchor.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles. It belongs to Section 1 (Heavy Industry / Foundry) of Drakmor and should use Obsidian Fortresses, Subterranean Vaults, Forge Halls, basalt and ash plaster materials, Civic Blue Glow, Forge Smoke Columns, Red Fabric Awnings, and the orcs visual language. Design focus: chains, anvils, molten channels, foundry sheds, furnace towers. Terrain/water context: Volcanic; Dry Ground. Magic expression: Glass Scrying, Fungal Communion, Mask Enchantments. No baked labels or text.",
+        "civicRole": "Serves as Section 1 local anchor within Drakmor; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Smoke-Stack Monument",
+          "show how Drakmor turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 1",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Smoke-Stack Monument becomes narratively important",
+          "the visible condition of Smoke-Stack Monument signals political or social stress",
+          "someone uses Smoke-Stack Monument's public function to redirect crowds or information",
+          "an overlooked detail at Smoke-Stack Monument reveals how Drakmor really works"
+        ]
+      },
+      {
+        "name": "Crucible Hall Nook",
+        "symbolicRole": "Crucible Hall Nook concentrates Drakmor's local symbolism into a usable civic landmark: Section 1 local anchor.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette. It belongs to Section 1 (Heavy Industry / Foundry) of Drakmor and should use Subterranean Vaults, Forge Halls, Obsidian Fortresses, basalt and ash plaster materials, Forge Smoke Columns, Red Fabric Awnings, Civic Blue Glow, and the orcs visual language. Design focus: street-level detail, usable board landmark, subordinate scale, sparks, chains. Terrain/water context: Volcanic; Dry Ground. Magic expression: Glass Scrying, Fungal Communion, Mask Enchantments. No baked labels or text.",
+        "civicRole": "Serves as Section 1 local anchor within Drakmor; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Crucible Hall Nook",
+          "show how Drakmor turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 1",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Crucible Hall Nook becomes narratively important",
+          "the visible condition of Crucible Hall Nook signals political or social stress",
+          "someone uses Crucible Hall Nook's public function to redirect crowds or information",
+          "an overlooked detail at Crucible Hall Nook reveals how Drakmor really works"
+        ]
+      },
+      {
+        "name": "Arcane / Alchemical Labs Civic Hall",
+        "symbolicRole": "Arcane / Alchemical Labs Civic Hall concentrates Drakmor's local symbolism into a usable civic landmark: Section 2 local anchor.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing. It belongs to Section 2 (Arcane / Alchemical Labs) of Drakmor and should use Subterranean Vaults, Archive Towers, Forge Halls, basalt and ash plaster materials, Civic Blue Glow, Lantern Lit, Serpent Geometry, and the orcs visual language. Design focus: distillation towers, containment courts, safety wards, institutional anchor, public-facing administration. Terrain/water context: Volcanic; Dry Ground. Magic expression: Glass Scrying, Fungal Communion, Mask Enchantments. No baked labels or text.",
+        "civicRole": "Serves as Section 2 local anchor within Drakmor; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Arcane / Alchemical Labs Civic Hall",
+          "show how Drakmor turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 2",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Arcane / Alchemical Labs Civic Hall becomes narratively important",
+          "the visible condition of Arcane / Alchemical Labs Civic Hall signals political or social stress",
+          "someone uses Arcane / Alchemical Labs Civic Hall's public function to redirect crowds or information",
+          "an overlooked detail at Arcane / Alchemical Labs Civic Hall reveals how Drakmor really works"
+        ]
+      },
+      {
+        "name": "Blue-Lamp Monument",
+        "symbolicRole": "Blue-Lamp Monument concentrates Drakmor's local symbolism into a usable civic landmark: Section 2 local anchor.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles. It belongs to Section 2 (Arcane / Alchemical Labs) of Drakmor and should use Forge Halls, Subterranean Vaults, Archive Towers, basalt and ash plaster materials, Serpent Geometry, Civic Blue Glow, Lantern Lit, and the orcs visual language. Design focus: local memory marker, subordinate to major landmark, retorts, runes, colored vapors. Terrain/water context: Volcanic; Dry Ground. Magic expression: Glass Scrying, Fungal Communion, Mask Enchantments. No baked labels or text.",
+        "civicRole": "Serves as Section 2 local anchor within Drakmor; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Blue-Lamp Monument",
+          "show how Drakmor turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 2",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Blue-Lamp Monument becomes narratively important",
+          "the visible condition of Blue-Lamp Monument signals political or social stress",
+          "someone uses Blue-Lamp Monument's public function to redirect crowds or information",
+          "an overlooked detail at Blue-Lamp Monument reveals how Drakmor really works"
+        ]
+      },
+      {
+        "name": "Formula Archive Nook",
+        "symbolicRole": "Formula Archive Nook concentrates Drakmor's local symbolism into a usable civic landmark: Section 2 local anchor.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette. It belongs to Section 2 (Arcane / Alchemical Labs) of Drakmor and should use Subterranean Vaults, Archive Towers, Forge Halls, basalt and ash plaster materials, Serpent Geometry, Civic Blue Glow, Lantern Lit, and the orcs visual language. Design focus: laboratories, distillation towers, containment courts, safety wards, small local identity prop. Terrain/water context: Volcanic; Dry Ground. Magic expression: Glass Scrying, Fungal Communion, Mask Enchantments. No baked labels or text.",
+        "civicRole": "Serves as Section 2 local anchor within Drakmor; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Formula Archive Nook",
+          "show how Drakmor turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 2",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Formula Archive Nook becomes narratively important",
+          "the visible condition of Formula Archive Nook signals political or social stress",
+          "someone uses Formula Archive Nook's public function to redirect crowds or information",
+          "an overlooked detail at Formula Archive Nook reveals how Drakmor really works"
+        ]
+      },
+      {
+        "name": "Military Command Hall",
+        "symbolicRole": "Military Command Hall concentrates Drakmor's local symbolism into a usable civic landmark: Section 3 local anchor.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing. It belongs to Section 3 (Military Command) of Drakmor and should use Forge Halls, Obsidian Fortresses, White Limestone Civic Blocks, basalt and ash plaster materials, Forge Smoke Columns, Woven Banners, Civic Blue Glow, and the orcs visual language. Design focus: armory halls, armories, institutional anchor, public-facing administration, clear central silhouette. Terrain/water context: Volcanic; Dry Ground. Magic expression: Glass Scrying, Fungal Communion, Mask Enchantments. No baked labels or text.",
+        "civicRole": "Serves as Section 3 local anchor within Drakmor; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Military Command Hall",
+          "show how Drakmor turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 3",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Military Command Hall becomes narratively important",
+          "the visible condition of Military Command Hall signals political or social stress",
+          "someone uses Military Command Hall's public function to redirect crowds or information",
+          "an overlooked detail at Military Command Hall reveals how Drakmor really works"
+        ]
+      },
+      {
+        "name": "Command Bastion",
+        "symbolicRole": "Command Bastion concentrates Drakmor's local symbolism into a usable civic landmark: Section 3 local anchor.",
+        "visualRole": "A mandatory Section 3 Beacon: a culturally adapted civic signal flame / warning-light landmark visible across the city spine. It belongs to Section 3 (Military Command) of Drakmor and should use Forge Halls, Obsidian Fortresses, White Limestone Civic Blocks, basalt and ash plaster materials, Civic Blue Glow, Forge Smoke Columns, Woven Banners, and the orcs visual language. Design focus: command keeps, armory halls, Beacon must inherit city materials, culture, magic expression, and water/terrain context from CityProfile., Beacon form may be a ground flame, tower flame, suspended flame, totemic flame, ceremonial brazier, signal obelisk, or lighthouse-like flame., Beacon-compatible major landmark; must render as a culturally adapted civic signal flame or magical warning light.. Terrain/water context: Volcanic; Dry Ground. Magic expression: Glass Scrying, Fungal Communion, Mask Enchantments. No baked labels or text.",
+        "civicRole": "Serves as Section 3 local anchor within Drakmor; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Command Bastion",
+          "show how Drakmor turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 3",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Command Bastion becomes narratively important",
+          "the visible condition of Command Bastion signals political or social stress",
+          "someone uses Command Bastion's public function to redirect crowds or information",
+          "an overlooked detail at Command Bastion reveals how Drakmor really works"
+        ]
+      },
+      {
+        "name": "Woven Banners Monument",
+        "symbolicRole": "Woven Banners Monument concentrates Drakmor's local symbolism into a usable civic landmark: Section 3 local anchor.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles. It belongs to Section 3 (Military Command) of Drakmor and should use White Limestone Civic Blocks, Forge Halls, Obsidian Fortresses, basalt and ash plaster materials, Woven Banners, Civic Blue Glow, Forge Smoke Columns, and the orcs visual language. Design focus: rank banners, barracks blocks, command keeps, armory halls, armories. Terrain/water context: Volcanic; Dry Ground. Magic expression: Glass Scrying, Fungal Communion, Mask Enchantments. No baked labels or text.",
+        "civicRole": "Serves as Section 3 local anchor within Drakmor; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Woven Banners Monument",
+          "show how Drakmor turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 3",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Woven Banners Monument becomes narratively important",
+          "the visible condition of Woven Banners Monument signals political or social stress",
+          "someone uses Woven Banners Monument's public function to redirect crowds or information",
+          "an overlooked detail at Woven Banners Monument reveals how Drakmor really works"
+        ]
+      },
+      {
+        "name": "Standard Tower Nook",
+        "symbolicRole": "Standard Tower Nook concentrates Drakmor's local symbolism into a usable civic landmark: Section 3 local anchor.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette. It belongs to Section 3 (Military Command) of Drakmor and should use Forge Halls, Obsidian Fortresses, White Limestone Civic Blocks, basalt and ash plaster materials, Civic Blue Glow, Forge Smoke Columns, Woven Banners, and the orcs visual language. Design focus: armories, small local identity prop, street-level detail, usable board landmark, subordinate scale. Terrain/water context: Volcanic; Dry Ground. Magic expression: Glass Scrying, Fungal Communion, Mask Enchantments. No baked labels or text.",
+        "civicRole": "Serves as Section 3 local anchor within Drakmor; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Standard Tower Nook",
+          "show how Drakmor turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 3",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Standard Tower Nook becomes narratively important",
+          "the visible condition of Standard Tower Nook signals political or social stress",
+          "someone uses Standard Tower Nook's public function to redirect crowds or information",
+          "an overlooked detail at Standard Tower Nook reveals how Drakmor really works"
+        ]
+      },
+      {
+        "name": "Underworld / Hidden Economy Civic Hall",
+        "symbolicRole": "Underworld / Hidden Economy Civic Hall concentrates Drakmor's local symbolism into a usable civic landmark: Section 4 local anchor.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing. It belongs to Section 4 (Underworld / Hidden Economy) of Drakmor and should use Subterranean Vaults, Market Arcades, Gothic Spires, basalt and ash plaster materials, Lantern Lit, Serpent Geometry, Mist Veils, and the orcs visual language. Design focus: secret doors, institutional anchor, public-facing administration, clear central silhouette, board-readable entrance. Terrain/water context: Volcanic; Dry Ground. Magic expression: Glass Scrying, Fungal Communion, Mask Enchantments. No baked labels or text.",
+        "civicRole": "Serves as Section 4 local anchor within Drakmor; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Underworld / Hidden Economy Civic Hall",
+          "show how Drakmor turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 4",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Underworld / Hidden Economy Civic Hall becomes narratively important",
+          "the visible condition of Underworld / Hidden Economy Civic Hall signals political or social stress",
+          "someone uses Underworld / Hidden Economy Civic Hall's public function to redirect crowds or information",
+          "an overlooked detail at Underworld / Hidden Economy Civic Hall reveals how Drakmor really works"
+        ]
+      },
+      {
+        "name": "Mist Veils Monument",
+        "symbolicRole": "Mist Veils Monument concentrates Drakmor's local symbolism into a usable civic landmark: Section 4 local anchor.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles. It belongs to Section 4 (Underworld / Hidden Economy) of Drakmor and should use Subterranean Vaults, Market Arcades, Gothic Spires, basalt and ash plaster materials, Serpent Geometry, Mist Veils, Lantern Lit, and the orcs visual language. Design focus: symbolic civic object, small ceremonial site, local memory marker, subordinate to major landmark, masks. Terrain/water context: Volcanic; Dry Ground. Magic expression: Glass Scrying, Fungal Communion, Mask Enchantments. No baked labels or text.",
+        "civicRole": "Serves as Section 4 local anchor within Drakmor; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Mist Veils Monument",
+          "show how Drakmor turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 4",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Mist Veils Monument becomes narratively important",
+          "the visible condition of Mist Veils Monument signals political or social stress",
+          "someone uses Mist Veils Monument's public function to redirect crowds or information",
+          "an overlooked detail at Mist Veils Monument reveals how Drakmor really works"
+        ]
+      },
+      {
+        "name": "Understreet Vault Nook",
+        "symbolicRole": "Understreet Vault Nook concentrates Drakmor's local symbolism into a usable civic landmark: Section 4 local anchor.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette. It belongs to Section 4 (Underworld / Hidden Economy) of Drakmor and should use Market Arcades, Gothic Spires, Subterranean Vaults, basalt and ash plaster materials, Serpent Geometry, Mist Veils, Lantern Lit, and the orcs visual language. Design focus: subordinate scale, masks, yellow lamps, coded marks, trapdoors. Terrain/water context: Volcanic; Dry Ground. Magic expression: Glass Scrying, Fungal Communion, Mask Enchantments. No baked labels or text.",
+        "civicRole": "Serves as Section 4 local anchor within Drakmor; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Understreet Vault Nook",
+          "show how Drakmor turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 4",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Understreet Vault Nook becomes narratively important",
+          "the visible condition of Understreet Vault Nook signals political or social stress",
+          "someone uses Understreet Vault Nook's public function to redirect crowds or information",
+          "an overlooked detail at Understreet Vault Nook reveals how Drakmor really works"
+        ]
+      },
+      {
+        "name": "Prison / Containment Civic Hall",
+        "symbolicRole": "Prison / Containment Civic Hall concentrates Drakmor's local symbolism into a usable civic landmark: Section 5 local anchor.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing. It belongs to Section 5 (Prison / Containment) of Drakmor and should use Subterranean Vaults, Cyclopean Megaliths, Obsidian Fortresses, basalt and ash plaster materials, Mist Veils, Bone White Ceremony, Civic Blue Glow, and the orcs visual language. Design focus: ward sigils, cell blocks, warded yards, watchhouses, cell rows. Terrain/water context: Volcanic; Dry Ground. Magic expression: Glass Scrying, Fungal Communion, Mask Enchantments. No baked labels or text.",
+        "civicRole": "Serves as Section 5 local anchor within Drakmor; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Prison / Containment Civic Hall",
+          "show how Drakmor turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 5",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Prison / Containment Civic Hall becomes narratively important",
+          "the visible condition of Prison / Containment Civic Hall signals political or social stress",
+          "someone uses Prison / Containment Civic Hall's public function to redirect crowds or information",
+          "an overlooked detail at Prison / Containment Civic Hall reveals how Drakmor really works"
+        ]
+      },
+      {
+        "name": "Mist Veils Monument",
+        "symbolicRole": "Mist Veils Monument concentrates Drakmor's local symbolism into a usable civic landmark: Section 5 local anchor.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles. It belongs to Section 5 (Prison / Containment) of Drakmor and should use Cyclopean Megaliths, Obsidian Fortresses, Subterranean Vaults, basalt and ash plaster materials, Mist Veils, Bone White Ceremony, Civic Blue Glow, and the orcs visual language. Design focus: cell rows, symbolic civic object, small ceremonial site, local memory marker, subordinate to major landmark. Terrain/water context: Volcanic; Dry Ground. Magic expression: Glass Scrying, Fungal Communion, Mask Enchantments. No baked labels or text.",
+        "civicRole": "Serves as Section 5 local anchor within Drakmor; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Mist Veils Monument",
+          "show how Drakmor turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 5",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Mist Veils Monument becomes narratively important",
+          "the visible condition of Mist Veils Monument signals political or social stress",
+          "someone uses Mist Veils Monument's public function to redirect crowds or information",
+          "an overlooked detail at Mist Veils Monument reveals how Drakmor really works"
+        ]
+      },
+      {
+        "name": "Judgment Yard Nook",
+        "symbolicRole": "Judgment Yard Nook concentrates Drakmor's local symbolism into a usable civic landmark: Section 5 local anchor.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette. It belongs to Section 5 (Prison / Containment) of Drakmor and should use Cyclopean Megaliths, Obsidian Fortresses, Subterranean Vaults, basalt and ash plaster materials, Mist Veils, Bone White Ceremony, Civic Blue Glow, and the orcs visual language. Design focus: subordinate scale, bars, locks, warning bells, ward sigils. Terrain/water context: Volcanic; Dry Ground. Magic expression: Glass Scrying, Fungal Communion, Mask Enchantments. No baked labels or text.",
+        "civicRole": "Serves as Section 5 local anchor within Drakmor; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Judgment Yard Nook",
+          "show how Drakmor turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 5",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Judgment Yard Nook becomes narratively important",
+          "the visible condition of Judgment Yard Nook signals political or social stress",
+          "someone uses Judgment Yard Nook's public function to redirect crowds or information",
+          "an overlooked detail at Judgment Yard Nook reveals how Drakmor really works"
+        ]
+      }
     ]
   },
   "assetGuidance": {
-    "districtDioramaGuidance": ["Use black basalt, ember cracks, smoke, red banners, forge glow, blue alchemical lamps, command standards, and fortified geometry.", "Each district must show institutional function: forge, lab, command, underworld, containment.", "Do not make the city look improvised; it should be brutal but organized."],
-    "mapBackgroundGuidance": ["Show a massive orcish industrial fortress city with forge basins, smoke stacks, black towers, red banners, blue lab lights, containment walls, and the War-Drum Citadel of the Red Gate.", "Great Forge Beacon and Command Bastion must be legible anchors."],
-    "requiredVisualElements": ["orcish citizens", "Great Forge Beacon", "smoke stacks", "blue alchemical lamps", "Command Bastion", "Black Market Arcade", "Containment Keep", "red banners", "black basalt", "War-Drum Citadel"],
-    "elementsToAvoid": ["temporary war camp", "primitive orc village", "generic lava fortress", "chaotic city with no systems", "forge-only identity without command/alchemy/underworld/containment"]
+    "districtDioramaGuidance": [
+      "Dioramas must support 25 district slots: S1 covers D01, D02, D03, D06, D07 and uses source-backed anchors Heavy Industry / Foundry Civic Hall, Great Forge Beacon, Smoke-Stack Monument, Crucible Hall Nook.",
+      "Dioramas must support 25 district slots: S2 covers D04, D05, D09, D10, D15 and uses source-backed anchors Arcane / Alchemical Labs Civic Hall, Alchemy Lab, Blue-Lamp Monument, Formula Archive Nook.",
+      "Dioramas must support 25 district slots: S3 covers D08, D12, D13, D14, D18 and uses source-backed anchors Military Command Hall, Command Bastion, Woven Banners Monument, Standard Tower Nook.",
+      "Dioramas must support 25 district slots: S4 covers D11, D16, D17, D21, D22 and uses source-backed anchors Underworld / Hidden Economy Civic Hall, Black Market Arcade, Mist Veils Monument, Understreet Vault Nook.",
+      "Dioramas must support 25 district slots: S5 covers D19, D20, D23, D24, D25 and uses source-backed anchors Prison / Containment Civic Hall, Containment Keep, Mist Veils Monument, Judgment Yard Nook."
+    ],
+    "mapBackgroundGuidance": [
+      "Map backgrounds must show Orcish War-Drum Citadel of the Red Gate as the wonder-scale identity anchor, Ember Crack Mosaics Command Bastion at D13, and Great Forge Beacon as the city signal landmark.",
+      "Preserve the five-section spine: S1 Heavy Industry / Foundry Civic Hall, S2 Arcane / Alchemical Labs Civic Hall, S3 Military Command Hall, S4 Underworld / Hidden Economy Civic Hall, S5 Prison / Containment Civic Hall.",
+      "Use roads, terrain, water, civic terraces, walls, markets, courts, or service routes only where they support the exact city identity and tactical readability."
+    ],
+    "requiredVisualElements": [
+      "Orcish War-Drum Citadel of the Red Gate",
+      "Great Forge Beacon",
+      "Ember Crack Mosaics Command Bastion",
+      "Containment Keep",
+      "Alchemy Lab",
+      "Black Market Arcade",
+      "Heavy Industry / Foundry Civic Hall",
+      "Smoke-Stack Monument",
+      "Crucible Hall Nook",
+      "Arcane / Alchemical Labs Civic Hall",
+      "Blue-Lamp Monument",
+      "Formula Archive Nook",
+      "Military Command Hall",
+      "Command Bastion",
+      "Woven Banners Monument",
+      "Standard Tower Nook",
+      "Underworld / Hidden Economy Civic Hall",
+      "Mist Veils Monument",
+      "Understreet Vault Nook",
+      "Prison / Containment Civic Hall",
+      "Judgment Yard Nook",
+      "Basalt",
+      "Lava Rock",
+      "Obsidian",
+      "Canvas",
+      "Arcane Glow",
+      "Desert",
+      "Stone Desert",
+      "Dry Wadi",
+      "Ward Networks",
+      "Ritual Geometry",
+      "Ember Binding"
+    ],
+    "elementsToAvoid": [
+      "extra top-level schema sections or research-log content in the JSON",
+      "generic fantasy architecture that ignores exact anchor names",
+      "invented missing street anchors",
+      "readable real-world text labels baked into images",
+      "collapsing the 25-district board into only five playable spaces",
+      "making landmarks decorative when they should have civic, narrative, and asset function"
+    ]
   }
 }

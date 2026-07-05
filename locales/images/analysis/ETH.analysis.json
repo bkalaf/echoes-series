@@ -4,125 +4,1892 @@
     "analysisVersion": 2,
     "cityCode": "ETH",
     "cityName": "Ethervale",
-    "analysisDate": "2026-07-03",
+    "analysisDate": "2026-07-05",
     "analystVersion": "gpt-5.5-thinking",
     "analysisConfidence": "strong-lock",
-    "basedOnImages": ["ETH-HERO-NE-v001", "ETH-HERO-NW-v001", "ETH-HERO-SE-v001", "ETH-HERO-SW-v001", "ETH-STREET-S1-v001", "ETH-STREET-S2-v001", "ETH-STREET-S3-v001", "ETH-STREET-S4-v001", "ETH-STREET-S5-v001"],
-    "basedOnSidecars": ["ETH-HERO-NE-v001.json", "ETH-HERO-NW-v001.json", "ETH-HERO-SE-v001.json", "ETH-HERO-SW-v001.json", "ETH-STREET-S1-v001.json", "ETH-STREET-S2-v001.json", "ETH-STREET-S3-v001.json", "ETH-STREET-S4-v001.json", "ETH-STREET-S5-v001.json"]
+    "sourceStatus": "full",
+    "districtModel": "five sections; five district slots per section; D13 is the seat of power",
+    "missingStreetSections": [],
+    "basedOnImages": [
+      "ETH-HERO-NE-v001",
+      "ETH-HERO-NW-v001",
+      "ETH-HERO-SE-v001",
+      "ETH-HERO-SW-v001",
+      "ETH-STREET-S1-v001",
+      "ETH-STREET-S2-v001",
+      "ETH-STREET-S3-v001",
+      "ETH-STREET-S4-v001",
+      "ETH-STREET-S5-v001"
+    ],
+    "basedOnSidecars": [
+      "ETH-HERO-NE-v001.json",
+      "ETH-HERO-NW-v001.json",
+      "ETH-HERO-SE-v001.json",
+      "ETH-HERO-SW-v001.json",
+      "ETH-STREET-S1-v001.json",
+      "ETH-STREET-S2-v001.json",
+      "ETH-STREET-S3-v001.json",
+      "ETH-STREET-S4-v001.json",
+      "ETH-STREET-S5-v001.json"
+    ]
   },
   "cityDNA": {
-    "coreFantasy": "A mist-veiled seraphic threshold city where border walls, forge labor, archive towers, public teaching, observatories, and moon-gate song make duty visible.",
-    "primaryEmotion": "luminous duty",
-    "secondaryEmotion": "solemn watchfulness",
-    "readerTakeaway": "Ethervale is beautiful because it is disciplined; its holiness has soot, ink, permits, border bells, lecture courts, and night watch under it.",
-    "civilizationThesis": "Ethervale turns guarded thresholds, forge production, record law, public instruction, celestial observation, and veiled judgment into one civic religion of obligation.",
-    "visualIdentity": "Pale cliff terraces, blue lamps, gold seals, red banners, forge smoke, border walls, archive towers, lecture halls, observatories, moon-gate spires, watch bastions, and mist-veiled high courts.",
-    "culturalIdentity": "Angelic or seraphic citizens treat guarding, recording, forging, teaching, and sky-watching as shared moral obligations rather than separate trades.",
-    "symbolicIdentity": "Moon gates, choir spires, blue witness-lamps, gold seals, mist veils, border walls, forge smoke, archive stairs, star charts, and watch bastions symbolize obligation made luminous."
+    "coreFantasy": "A Angelic / cherubic city where Seraphic Moon-Gate Choir Spire, Border Wall Beacon, Mist Veils Veiled High Court, and the five-section district spine turn local identity into functional civic space.",
+    "primaryEmotion": "source-backed civic presence",
+    "secondaryEmotion": "lived-in pressure beneath landmark order",
+    "readerTakeaway": "Ethervale should feel immediately identifiable through exact landmarks and materials, not through generic fantasy-city shorthand.",
+    "civilizationThesis": "Ethervale organizes power through Mist Veils Veiled High Court, public response through Border Wall Beacon, civic memory through Seraphic Moon-Gate Choir Spire, and daily life through S1 Fortress / Border Wall Civic Hall, S2 Heavy Industry / Foundry Civic Hall, S3 Records / Archives Hall, S4 University / Lyceum Civic Hall, S5 Observatory / Astronomy Civic Hall.",
+    "visualIdentity": "Moonstone, Granite, Cedar, Gold Leaf, Smoky Quartz, Cliffside, Terraced Slope, Civic Terraces, Ward Networks, Ritual Geometry, Shadow Veils, and exact anchors including Mist Veils Veiled High Court, Border Wall Beacon, Seraphic Moon-Gate Choir Spire, Star Observatory, Great Forge, Lecture Hall, Fortress / Border Wall Civic Hall, Woven Banners Monument, Watch Bastion Nook, Heavy Industry / Foundry Civic Hall.",
+    "culturalIdentity": "A Angelic / cherubic civic culture where architecture, public obligations, roads, landmark approaches, and everyday work must all read as part of the same civilization.",
+    "symbolicIdentity": "The city symbol system is built from exact names and visible functions: Seraphic Moon-Gate Choir Spire, Border Wall Beacon, Mist Veils Veiled High Court, and section anchors such as Fortress / Border Wall Civic Hall, Heavy Industry / Foundry Civic Hall, Records / Archives Hall, University / Lyceum Civic Hall, Observatory / Astronomy Civic Hall."
   },
   "canon": {
     "canonLocks": [
-      "Ethervale is a mist-veiled angelic / seraphic mountain-valley city, not a weightless paradise.",
-      "The Wonder is the Seraphic Moon-Gate Choir Spire.",
-      "The Beacon is the Border Wall Beacon.",
-      "The Seat of Power is the Mist Veils Veiled High Court.",
-      "The five primary districts are Fortress / Border Wall, Heavy Industry / Foundry, Records / Archives, University / Lyceum, and Observatory / Astronomy.",
-      "The uploaded district anchors include Fortress / Border Wall Civic Hall, Woven Banners Monument, Watch Bastion Nook, Heavy Industry / Foundry Civic Hall, Great Forge, Smoke-Stack Monument, Crucible Hall Nook, Records / Archives Hall, Records Archives Gold-Seal Monument, Copyist Hall Nook, University / Lyceum Civic Hall, Star Navigation Monument, Observatory Court Nook, Observatory / Astronomy Civic Hall, and Celestial Court Nook."
+      "Ethervale uses city code ETH.",
+      "The Wonder is Seraphic Moon-Gate Choir Spire.",
+      "The Beacon is Border Wall Beacon.",
+      "The Seat of Power is Mist Veils Veiled High Court and occupies District 13.",
+      "The city uses five sections with five tactical district slots per section.",
+      "The source-backed section spine is: S1 Fortress / Border Wall Civic Hall, S2 Heavy Industry / Foundry Civic Hall, S3 Records / Archives Hall, S4 University / Lyceum Civic Hall, S5 Observatory / Astronomy Civic Hall.",
+      "Preserve exact anchor name: Mist Veils Veiled High Court.",
+      "Preserve exact anchor name: Border Wall Beacon.",
+      "Preserve exact anchor name: Seraphic Moon-Gate Choir Spire.",
+      "Preserve exact anchor name: Star Observatory.",
+      "Preserve exact anchor name: Great Forge.",
+      "Preserve exact anchor name: Lecture Hall.",
+      "Preserve exact anchor name: Fortress / Border Wall Civic Hall.",
+      "Preserve exact anchor name: Woven Banners Monument.",
+      "Preserve exact anchor name: Watch Bastion Nook.",
+      "Preserve exact anchor name: Heavy Industry / Foundry Civic Hall.",
+      "Preserve exact anchor name: Smoke-Stack Monument.",
+      "Preserve exact anchor name: Crucible Hall Nook.",
+      "Preserve exact anchor name: Records / Archives Hall.",
+      "Preserve exact anchor name: Archive Tower.",
+      "Preserve exact anchor name: Records Archives Gold-Seal Monument.",
+      "Preserve exact anchor name: Copyist Hall Nook.",
+      "Preserve exact anchor name: University / Lyceum Civic Hall.",
+      "Preserve exact anchor name: Star Navigation Monument.",
+      "Preserve exact anchor name: Observatory Court Nook.",
+      "Preserve exact anchor name: Observatory / Astronomy Civic Hall.",
+      "Preserve exact anchor name: Celestial Court Nook."
     ],
-    "provisionalCanon": [
-      "Ethervale's highest civic virtue is duty.",
-      "Its central tension is celestial ideal versus material labor.",
-      "The repeated star-navigation anchors suggest that observation and witness are civic obligations, not scholarly ornament."
+    "provisionalCanon": [],
+    "rejectedReads": [
+      "Do not treat Ethervale as a generic fantasy settlement with renamed landmarks.",
+      "Do not collapse the five-section board into a single mood or single district.",
+      "Do not replace exact anchor names with generic summaries.",
+      "Do not invent missing street-section landmarks when a street source is absent."
     ],
-    "rejectedReads": ["Pure heavenly ornament.", "A Luminthalas duplicate.", "A purely militarized border fortress.", "A holy city with forge labor hidden from view."],
     "cautionFlags": [
-      "Keep soot, records, permits, and procedure visible.",
-      "Mist and veils express governance, not only mood.",
-      "Blue light means witness, signal, and duty.",
-      "Preserve exact sidecar anchors for border, forge, archive, university, and observatory sections."
+      "Keep every named Wonder, Beacon, Seat, section civic hall, major landmark, monument, and minor nook exact when present in sidecars.",
+      "If an image appears to deviate from a sidecar, preserve the exact name but avoid overclaiming visual details not supported by the source package.",
+      "Every district asset should remain usable for narrative scenes, tactical board dioramas, and city map backgrounds."
     ]
   },
   "environment": {
-    "terrain": ["mountain-valley city", "cliffside terraces", "border approaches", "fortified gates", "lecture plazas", "high observatory platforms"],
-    "water": ["forge cooling basins", "mountain runoff", "mist damp on stone", "courtyard cisterns"],
-    "vegetation": ["terrace greenery", "mountain grasses", "courtyard planters", "mist-fed moss"],
-    "climateLighting": ["mist-diffused daylight", "blue beacon light", "gold sunset", "warm forge fire", "cool moonlight", "pale morning glare on stone"],
-    "environmentalLogic": "Height, mist, border walls, forge smoke, archive stairs, and clear celestial sightlines are civic infrastructure rather than scenery. Every ascent clarifies duty while also exposing who is being watched."
+    "terrain": [
+      "Cliffside",
+      "Terraced Slope",
+      "Civic Terraces"
+    ],
+    "water": [
+      "dry city ground"
+    ],
+    "vegetation": [
+      "courtyard trees",
+      "balcony planters",
+      "public greenery where visible",
+      "source-backed local vegetation only"
+    ],
+    "climateLighting": [
+      "Ward Networks",
+      "Ritual Geometry",
+      "Shadow Veils",
+      "daylight",
+      "golden hour",
+      "lantern light",
+      "civic beacon glow"
+    ],
+    "environmentalLogic": "The environment should make Ethervale's exact civic anchors plausible at street scale: terrain routes people toward section landmarks, lighting clarifies public authority, and water or landscape features remain source-backed rather than decorative filler."
   },
   "architecture": {
-    "materials": ["pale limestone", "white marble", "granite cliff masonry", "blue crystal glass", "gold ornament", "dark forge iron", "red civic banners", "wax seals", "parchment"],
-    "forms": ["Fortress / Border Wall Civic Hall", "Border Wall Beacon", "Watch Bastion Nook", "Great Forge", "Crucible Hall Nook", "Archive Tower", "Copyist Hall Nook", "Lecture Hall", "Observatory Court Nook", "Star Observatory", "Celestial Court Nook", "moon-gate spires", "veiled high courts"],
-    "skyline": ["Seraphic Moon-Gate Choir Spire as far spiritual anchor", "Mist Veils Veiled High Court as elevated authority", "Border Wall Beacon as front signal", "forge smoke beneath pale celestial towers", "Archive Tower, Lecture Hall, and Star Observatory forming duty-based vertical rhythm"],
-    "lighting": ["blue beacon glow", "blue crystal light", "warm forge fire", "mist-softened daylight", "moonlit observatory light", "archive window glow"],
-    "infrastructure": ["border walls", "watch bastions", "public stairs", "forge courtyards", "archive plazas", "copyist halls", "lecture terraces", "observatory approaches", "processional gates"],
-    "motifs": ["moon gates", "choir spires", "seraphic silhouettes", "blue lamps", "gold seals", "mist veils", "star navigation", "woven banners", "smoke stacks"],
-    "colorLanguage": ["pale stone", "mist white", "celestial blue", "gold trim", "forge orange", "dark iron", "red banners"],
-    "textureLanguage": ["polished stone", "mist-wet terraces", "blue glass", "wax seals", "parchment and ink", "soot-dark iron", "banner cloth"]
+    "materials": [
+      "Moonstone",
+      "Granite",
+      "Cedar",
+      "Gold Leaf",
+      "Smoky Quartz"
+    ],
+    "forms": [
+      "Mist Veils Veiled High Court",
+      "Border Wall Beacon",
+      "Seraphic Moon-Gate Choir Spire",
+      "Star Observatory",
+      "Great Forge",
+      "Lecture Hall",
+      "Fortress / Border Wall Civic Hall",
+      "Woven Banners Monument",
+      "Watch Bastion Nook",
+      "Heavy Industry / Foundry Civic Hall",
+      "Smoke-Stack Monument",
+      "Crucible Hall Nook",
+      "Records / Archives Hall",
+      "Archive Tower",
+      "Records Archives Gold-Seal Monument",
+      "Copyist Hall Nook",
+      "University / Lyceum Civic Hall",
+      "Star Navigation Monument",
+      "Observatory Court Nook",
+      "Observatory / Astronomy Civic Hall",
+      "Celestial Court Nook",
+      "section civic halls",
+      "major landmark approaches",
+      "monument frontages",
+      "minor landmark nooks",
+      "district roads and plazas",
+      "D13 authority complex"
+    ],
+    "skyline": [
+      "Seraphic Moon-Gate Choir Spire",
+      "Mist Veils Veiled High Court",
+      "Border Wall Beacon",
+      "Star Observatory",
+      "Great Forge",
+      "Lecture Hall",
+      "Fortress / Border Wall Civic Hall",
+      "Woven Banners Monument",
+      "Watch Bastion Nook"
+    ],
+    "lighting": [
+      "Ward Networks",
+      "Ritual Geometry",
+      "Shadow Veils",
+      "beacon-state light",
+      "lantern-lit civic paths",
+      "street-level shop and housing light"
+    ],
+    "infrastructure": [
+      "Fortress / Border Wall Civic Hall",
+      "Heavy Industry / Foundry Civic Hall",
+      "Records / Archives Hall",
+      "University / Lyceum Civic Hall",
+      "Observatory / Astronomy Civic Hall",
+      "roads between district slots",
+      "public thresholds",
+      "plaza edges",
+      "records, permits, markets, services, or rituals implied by anchors"
+    ],
+    "motifs": [
+      "Mist",
+      "Veils",
+      "Veiled",
+      "High",
+      "Court",
+      "Border",
+      "Wall",
+      "Beacon",
+      "Seraphic",
+      "Moon-Gate",
+      "Choir",
+      "Spire",
+      "Star",
+      "Observatory",
+      "Great",
+      "Forge"
+    ],
+    "colorLanguage": [
+      "source-backed material colors",
+      "civic blue signal accents",
+      "local textile, stone, metal, vegetation, or water colors from the image package"
+    ],
+    "textureLanguage": [
+      "Moonstone",
+      "Granite",
+      "Cedar",
+      "Gold Leaf",
+      "Smoky Quartz",
+      "worn pedestrian surfaces",
+      "worked civic ornament",
+      "weathered public thresholds",
+      "lived-in shop and housing details"
+    ]
   },
   "civilization": {
-    "people": "Citizens are disciplined, formal, duty-conscious, record-aware, and quietly devout; guards, smiths, copyists, lecturers, astronomers, and court officials all belong to one civic calling.",
-    "occupations": ["border guards", "beacon keepers", "forge workers", "archive clerks", "copyists", "lecturers", "students", "astronomers", "court officials", "permit clerks"],
-    "socialClasses": ["High Court officials", "border officers", "archive magistrates", "forge masters", "lyceum scholars", "observatory astronomers", "terrace residents", "forge laborers"],
-    "governance": "Authority is record-bound, ceremonial, and procedural, flowing through the Veiled High Court, border permits, archive seals, hearings, and public records.",
-    "religion": "Seraphic moon-gate ritual ties witness, passage, duty, judgment, and dignified labor into civic religion.",
-    "customs": ["border checks at blue lights", "record verification before action", "respect for seals and ledgers", "forge rites at shift changes", "moon-gate ceremonies", "star-navigation observances"],
-    "bodyLanguage": ["formal posture on stairs", "controlled gestures during hearings", "watchful glances through mist", "careful handling of seals", "measured movement around forge carts"],
-    "speechPatterns": ["formal procedural phrasing", "record citations", "border-permit language", "measured scholarly speech", "seraphic oath formulas"]
+    "people": "The population should read as Angelic / cherubic and city-specific: citizens occupy streets, shops, public thresholds, and landmark approaches as people who understand the local civic order.",
+    "occupations": [
+      "watch guards",
+      "gate officers",
+      "astronomers",
+      "navigators",
+      "smiths",
+      "craft workers",
+      "archivists",
+      "record clerks",
+      "district clerks",
+      "craft families",
+      "porters",
+      "maintenance workers",
+      "food sellers",
+      "messengers"
+    ],
+    "socialClasses": [
+      "D13 officials and court staff",
+      "section landmark custodians",
+      "guild and service families",
+      "shopkeepers and artisans",
+      "laborers, carriers, messengers, and maintenance crews",
+      "households tied to local district obligations"
+    ],
+    "governance": "Government is centered on Mist Veils Veiled High Court. Its authority should be visible through courts, records, public access routes, civic lamps, guards or attendants, and the way citizens respond to D13.",
+    "religion": "Religious or ritual life should only be emphasized where source anchors support it, especially names such as none explicitly dominant in the current anchors.",
+    "customs": [
+      "citizens orient public life around Fortress / Border Wall Civic Hall in Section 1",
+      "citizens orient public life around Heavy Industry / Foundry Civic Hall in Section 2",
+      "citizens orient public life around Records / Archives Hall in Section 3",
+      "citizens orient public life around University / Lyceum Civic Hall in Section 4",
+      "citizens orient public life around Observatory / Astronomy Civic Hall in Section 5",
+      "beacon changes become public behavior, not background color",
+      "exact landmark names carry social memory and directions",
+      "civic errands happen visibly at thresholds, queues, ledgers, stalls, courts, or shrines"
+    ],
+    "bodyLanguage": [
+      "citizens pause at civic signals",
+      "workers move with practiced familiarity around district anchors",
+      "officials use thresholds and raised places to control attention",
+      "residents treat named landmarks as everyday orientation points"
+    ],
+    "speechPatterns": [
+      "directions use exact landmark names",
+      "public notices are tied to section anchors",
+      "local speech distinguishes civic authority, ordinary errands, and landmark obligations",
+      "people refer to D13 as the seat of power rather than a faction headquarters"
+    ]
   },
   "urbanLife": {
     "streets": {
-      "appearance": "Terraced, pale, wind-cleaned, and watched: guarded gates, blue lamps, border walls, archive stairs, forge courts, lecture plazas, observatory paths, moon-gate silhouettes, and mist-softened towers.",
-      "movement": "Movement is vertical and procedural through gates, stairs, forge-cart routes, archive steps, lecture terraces, cliff bridges, and observatory approaches.",
-      "sounds": ["forge hammers", "border bells", "paper in archive halls", "boots on stone stairs", "wind through terraces", "soft lecture voices", "distant choir resonance"],
-      "smells": ["cool mist", "hot iron", "coal smoke", "lamp oil", "parchment", "ink", "wax seals", "mountain air"],
-      "lighting": "Pale mist and gold daylight dominate by day; blue witness-lamps, beacon glow, moon gates, observatory light, and forge embers divide the city at night.",
-      "weatherEffects": "Mist conceals distance, veils the High Court, halos blue signal light, and makes stair routes both ceremonial and tactical.",
-      "dayCycle": "Morning opens border gates, forge stacks begin to smoke, clerks fill archive stairs, and lectures draw students upward.",
-      "nightCycle": "Night belongs to observatory work, moon-gate ceremonies, guarded beacon posts, blue-lit records, and cooling forge embers."
+      "appearance": "Streets should show Ethervale's exact anchor system at pedestrian scale: S1 Fortress / Border Wall Civic Hall, S2 Heavy Industry / Foundry Civic Hall, S3 Records / Archives Hall, S4 University / Lyceum Civic Hall, S5 Observatory / Astronomy Civic Hall. Keep roads, plazas, stairs, thresholds, lamps, signs-without-readable-text, props, and civilians aligned to the source-backed materials and landmarks.",
+      "movement": "Movement should be readable for tactical-board assets: citizens pass between 25 district slots, section anchors, D13, service streets, and landmark approaches without visual clutter hiding the civic purpose.",
+      "sounds": [
+        "foot traffic",
+        "vendors and service calls",
+        "tools and carts",
+        "public notices",
+        "landmark-specific sounds from water, bells, animals, machines, or crowds when source-backed",
+        "beacon-state crowd reactions"
+      ],
+      "smells": [
+        "street food",
+        "worked material dust",
+        "lamp oil or smoke",
+        "vegetation or water where source-backed",
+        "worn stone, timber, metal, plaster, or fabric"
+      ],
+      "lighting": "Use the package's source-backed civic lighting, daylight/golden-hour reads, lanterns, and beacon glow. Lighting must help identify authority, safety, and landmark function.",
+      "weatherEffects": "Weather should reinforce the local terrain and materials without overwhelming the city identity or inventing unsupported climate extremes.",
+      "dayCycle": "Day scenes emphasize errands, trade, records, repairs, rituals, food, and section-level movement.",
+      "nightCycle": "Night scenes emphasize lantern routes, closed thresholds, guarded landmarks, quiet work, and beacon visibility."
     },
     "shops": {
-      "common": ["forge tool shops", "lamp glass vendors", "ledger copyists", "seal makers", "ink sellers", "worker tea counters"],
-      "uncommon": ["star-chart stalls", "crystal instrument makers", "permit copy counters", "parchment binders", "lens polishers"],
-      "prestigious": ["High Court seal offices", "archive legal counters", "observatory instrument houses", "forge master halls", "lyceum patrons"],
-      "exports": ["blue crystal lamps", "star charts", "sealed records", "fine metal fittings", "forge tools", "celestial instruments"],
-      "imports": ["iron", "coal", "parchment", "ink", "fine cloth", "food", "glass reagents"],
-      "streetFood": ["forge-worker stew", "hard bread", "goat cheese", "hot tea", "smoked roots", "archive-stair broth"],
-      "services": ["border permits", "record copying", "seal verification", "tool repair", "public instruction", "star readings", "court petition filing"]
+      "common": [
+        "food stalls",
+        "repair stalls",
+        "material vendors",
+        "ledger or permit desks",
+        "local craft counters",
+        "street services tied to section anchors"
+      ],
+      "uncommon": [
+        "specialist landmark caretakers",
+        "instrument makers",
+        "ritual suppliers",
+        "map or record copyists",
+        "district-specific guild services"
+      ],
+      "prestigious": [
+        "D13-facing legal or registry services",
+        "elite craft workshops",
+        "landmark commission houses",
+        "official suppliers for civic ceremonies"
+      ],
+      "exports": [
+        "local crafts",
+        "records or seals",
+        "finished materials",
+        "food goods",
+        "specialized tools or ritual goods as supported by anchors"
+      ],
+      "imports": [
+        "rare materials",
+        "dyes, oils, spices, timber, stone, metal, glass, or cloth as needed by the architecture",
+        "outside records and trade goods"
+      ],
+      "streetFood": [
+        "flatbread or local bread",
+        "stew or grilled skewers",
+        "fruit or preserved food",
+        "tea or civic-square drinks",
+        "portable worker meals"
+      ],
+      "services": [
+        "directions by landmark",
+        "message running",
+        "permit help",
+        "repairs",
+        "food service",
+        "transport or porterage",
+        "public notice posting"
+      ]
     },
     "housing": {
-      "wealthy": "High terrace homes near court, archive, or observatory routes with pale stone, blue lamps, balconies, courtyards, and mist views.",
-      "middle": "Stone terrace homes over shops or offices with ledgers, tools, lamps, and access to institutional stairs.",
-      "poor": "Lower forge-adjacent rooms, shared stair courts, soot-marked stone, communal cisterns, and compact family quarters near labor routes."
+      "wealthy": "Prestige housing clusters near Mist Veils Veiled High Court, high terraces, or landmark-facing routes, using the best source-backed materials and controlled views of civic space.",
+      "middle": "Shop-over-house units, courtyard homes, guild-adjacent apartments, and family rooms near section anchors.",
+      "poor": "Smaller back-street rooms, work-adjacent housing, shared courtyards, service alleys, patched materials, and dense but still city-specific lived-in detail."
     }
   },
   "districts": [
-    {"sectionNumber": 1, "name": "Fortress / Border Wall", "civicPurpose": "Guarded entry, border procedure, public signal response, and threshold control.", "visualIdentity": "Fortress / Border Wall Civic Hall, Border Wall Beacon, Woven Banners Monument, Watch Bastion Nook, formal gates, blue lights, and pale fortified stairs.", "emotionalIdentity": "Watchful, ceremonial, and tense.", "gameplayAssetNeeds": ["Fortress / Border Wall Civic Hall", "Border Wall Beacon", "Woven Banners Monument", "Watch Bastion Nook", "formal gate", "border guards"], "narrativeUse": ["arrival", "border checks", "Beacon response", "public duty activation"], "landmark": "Border Wall Beacon", "minorLandmarks": ["Woven Banners Monument", "Watch Bastion Nook"]},
-    {"sectionNumber": 2, "name": "Heavy Industry / Foundry", "civicPurpose": "Forge production, toolwork, worker coordination, and material grounding beneath celestial identity.", "visualIdentity": "Heavy Industry / Foundry Civic Hall, Great Forge, Smoke-Stack Monument, Crucible Hall Nook, forge courtyards, dark iron, and orange heat against pale stone.", "emotionalIdentity": "Hot, industrious, disciplined, and material.", "gameplayAssetNeeds": ["Heavy Industry / Foundry Civic Hall", "Great Forge", "Smoke-Stack Monument", "Crucible Hall Nook", "forge workers", "cooling basin"], "narrativeUse": ["labor stakes", "industrial proof", "soot under holiness", "forge crisis"], "landmark": "Great Forge", "minorLandmarks": ["Smoke-Stack Monument", "Crucible Hall Nook"]},
-    {"sectionNumber": 3, "name": "Records / Archives", "civicPurpose": "Public memory, records, permits, legal continuity, and civic obligation.", "visualIdentity": "Records / Archives Hall, Archive Tower, Records Archives Gold-Seal Monument, Copyist Hall Nook, archive stairs, ledgers, blue lamps, and quiet formal courts.", "emotionalIdentity": "Solemn, exacting, and memory-heavy.", "gameplayAssetNeeds": ["Records / Archives Hall", "Archive Tower", "Records Archives Gold-Seal Monument", "Copyist Hall Nook", "record clerks", "ledger bundles"], "narrativeUse": ["record clues", "permit conflict", "public memory", "bureaucratic pressure"], "landmark": "Archive Tower", "minorLandmarks": ["Records Archives Gold-Seal Monument", "Copyist Hall Nook"]},
-    {"sectionNumber": 4, "name": "University / Lyceum", "civicPurpose": "Public instruction, civic education, scholarly discipline, and star-navigation training.", "visualIdentity": "University / Lyceum Civic Hall, Lecture Hall, Star Navigation Monument, Observatory Court Nook, lecture terraces, instrument stalls, formal stairs, and student courts.", "emotionalIdentity": "Measured, instructive, and duty-oriented.", "gameplayAssetNeeds": ["University / Lyceum Civic Hall", "Lecture Hall", "Star Navigation Monument", "Observatory Court Nook", "students", "star charts"], "narrativeUse": ["public lesson", "symbol interpretation", "knowledge as obligation", "student witness"], "landmark": "Lecture Hall", "minorLandmarks": ["Star Navigation Monument", "Observatory Court Nook"]},
-    {"sectionNumber": 5, "name": "Observatory / Astronomy", "civicPurpose": "Celestial observation, navigation, night watch, moon-gate ceremony, and witness-oriented science.", "visualIdentity": "Observatory / Astronomy Civic Hall, Star Observatory, Star Navigation Monument, Celestial Court Nook, blue domes, moonlit platforms, lenses, star maps, and high sightlines.", "emotionalIdentity": "Quiet, elevated, precise, and luminous.", "gameplayAssetNeeds": ["Observatory / Astronomy Civic Hall", "Star Observatory", "Star Navigation Monument", "Celestial Court Nook", "lenses", "astronomers"], "narrativeUse": ["night revelation", "sky reading", "celestial witness", "quiet conversation"], "landmark": "Star Observatory", "minorLandmarks": ["Star Navigation Monument", "Celestial Court Nook"]}
+    {
+      "districtNumber": 1,
+      "districtId": "D01",
+      "sectionNumber": 1,
+      "name": "D01 — Fortress / Border Wall Civic Hall Civic-Anchor Precinct",
+      "civicPurpose": "This district turns Section 1's source-backed anchor set into a board-scale civic space: Fortress / Border Wall Civic Hall, Border Wall Beacon, Woven Banners Monument, Watch Bastion Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Ethervale.",
+      "visualIdentity": "Use Fortress / Border Wall Civic Hall as the main read. Keep exact source anchors visible where applicable: Fortress / Border Wall Civic Hall, Border Wall Beacon, Woven Banners Monument, Watch Bastion Nook. The district should share Ethervale's Angelic / cherubic identity, Moonstone, Granite, Cedar, Gold Leaf, and Cliffside, Terraced Slope, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Locally grounded, with Ethervale's larger mood shaped by Seraphic Moon-Gate Choir Spire, Border Wall Beacon, and Mist Veils Veiled High Court.",
+      "gameplayAssetNeeds": [
+        "Fortress / Border Wall Civic Hall",
+        "Border Wall Beacon",
+        "Woven Banners Monument",
+        "Watch Bastion Nook",
+        "Section 1 pedestrian-scale props",
+        "Ethervale civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Fortress / Border Wall Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Fortress / Border Wall Civic Hall",
+      "minorLandmarks": [
+        "Border Wall Beacon",
+        "Woven Banners Monument",
+        "Watch Bastion Nook"
+      ]
+    },
+    {
+      "districtNumber": 2,
+      "districtId": "D02",
+      "sectionNumber": 1,
+      "name": "D02 — Border Wall Beacon Landmark Approach",
+      "civicPurpose": "This district turns Section 1's source-backed anchor set into a board-scale civic space: Fortress / Border Wall Civic Hall, Border Wall Beacon, Woven Banners Monument, Watch Bastion Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Ethervale.",
+      "visualIdentity": "Use Border Wall Beacon as the main read. Keep exact source anchors visible where applicable: Fortress / Border Wall Civic Hall, Border Wall Beacon, Woven Banners Monument, Watch Bastion Nook. The district should share Ethervale's Angelic / cherubic identity, Moonstone, Granite, Cedar, Gold Leaf, and Cliffside, Terraced Slope, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Public-facing, with Ethervale's larger mood shaped by Seraphic Moon-Gate Choir Spire, Border Wall Beacon, and Mist Veils Veiled High Court.",
+      "gameplayAssetNeeds": [
+        "Border Wall Beacon",
+        "Fortress / Border Wall Civic Hall",
+        "Woven Banners Monument",
+        "Watch Bastion Nook",
+        "Section 1 pedestrian-scale props",
+        "Ethervale civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Border Wall Beacon",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "Conjunction response, rumor spread, or authority pressure"
+      ],
+      "landmark": "Border Wall Beacon",
+      "minorLandmarks": [
+        "Fortress / Border Wall Civic Hall",
+        "Woven Banners Monument",
+        "Watch Bastion Nook"
+      ]
+    },
+    {
+      "districtNumber": 3,
+      "districtId": "D03",
+      "sectionNumber": 1,
+      "name": "D03 — Woven Banners Monument Monument Frontage",
+      "civicPurpose": "This district turns Section 1's source-backed anchor set into a board-scale civic space: Fortress / Border Wall Civic Hall, Border Wall Beacon, Woven Banners Monument, Watch Bastion Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Ethervale.",
+      "visualIdentity": "Use Woven Banners Monument as the main read. Keep exact source anchors visible where applicable: Fortress / Border Wall Civic Hall, Border Wall Beacon, Woven Banners Monument, Watch Bastion Nook. The district should share Ethervale's Angelic / cherubic identity, Moonstone, Granite, Cedar, Gold Leaf, and Cliffside, Terraced Slope, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Memorial or symbolic, with Ethervale's larger mood shaped by Seraphic Moon-Gate Choir Spire, Border Wall Beacon, and Mist Veils Veiled High Court.",
+      "gameplayAssetNeeds": [
+        "Woven Banners Monument",
+        "Fortress / Border Wall Civic Hall",
+        "Border Wall Beacon",
+        "Watch Bastion Nook",
+        "Section 1 pedestrian-scale props",
+        "Ethervale civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Woven Banners Monument",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Woven Banners Monument",
+      "minorLandmarks": [
+        "Fortress / Border Wall Civic Hall",
+        "Border Wall Beacon",
+        "Watch Bastion Nook"
+      ]
+    },
+    {
+      "districtNumber": 6,
+      "districtId": "D06",
+      "sectionNumber": 1,
+      "name": "D06 — Watch Bastion Nook Neighborhood Nook",
+      "civicPurpose": "This district turns Section 1's source-backed anchor set into a board-scale civic space: Fortress / Border Wall Civic Hall, Border Wall Beacon, Woven Banners Monument, Watch Bastion Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Ethervale.",
+      "visualIdentity": "Use Watch Bastion Nook as the main read. Keep exact source anchors visible where applicable: Fortress / Border Wall Civic Hall, Border Wall Beacon, Woven Banners Monument, Watch Bastion Nook. The district should share Ethervale's Angelic / cherubic identity, Moonstone, Granite, Cedar, Gold Leaf, and Cliffside, Terraced Slope, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Intimate and lived-in, with Ethervale's larger mood shaped by Seraphic Moon-Gate Choir Spire, Border Wall Beacon, and Mist Veils Veiled High Court.",
+      "gameplayAssetNeeds": [
+        "Watch Bastion Nook",
+        "Fortress / Border Wall Civic Hall",
+        "Border Wall Beacon",
+        "Woven Banners Monument",
+        "Section 1 pedestrian-scale props",
+        "Ethervale civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Watch Bastion Nook",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Watch Bastion Nook",
+      "minorLandmarks": [
+        "Fortress / Border Wall Civic Hall",
+        "Border Wall Beacon",
+        "Woven Banners Monument"
+      ]
+    },
+    {
+      "districtNumber": 7,
+      "districtId": "D07",
+      "sectionNumber": 1,
+      "name": "D07 — Fortress / Border Wall Civic Hall Supporting Streets",
+      "civicPurpose": "This district turns Section 1's source-backed anchor set into a board-scale civic space: Fortress / Border Wall Civic Hall, Border Wall Beacon, Woven Banners Monument, Watch Bastion Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Ethervale.",
+      "visualIdentity": "Use Fortress / Border Wall Civic Hall as the main read. Keep exact source anchors visible where applicable: Fortress / Border Wall Civic Hall, Border Wall Beacon, Woven Banners Monument, Watch Bastion Nook. The district should share Ethervale's Angelic / cherubic identity, Moonstone, Granite, Cedar, Gold Leaf, and Cliffside, Terraced Slope, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Connective and practical, with Ethervale's larger mood shaped by Seraphic Moon-Gate Choir Spire, Border Wall Beacon, and Mist Veils Veiled High Court.",
+      "gameplayAssetNeeds": [
+        "Fortress / Border Wall Civic Hall",
+        "Border Wall Beacon",
+        "Woven Banners Monument",
+        "Watch Bastion Nook",
+        "Section 1 pedestrian-scale props",
+        "Ethervale civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Fortress / Border Wall Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Fortress / Border Wall Civic Hall",
+      "minorLandmarks": [
+        "Border Wall Beacon",
+        "Woven Banners Monument",
+        "Watch Bastion Nook"
+      ]
+    },
+    {
+      "districtNumber": 4,
+      "districtId": "D04",
+      "sectionNumber": 2,
+      "name": "D04 — Heavy Industry / Foundry Civic Hall Civic-Anchor Precinct",
+      "civicPurpose": "This district turns Section 2's source-backed anchor set into a board-scale civic space: Heavy Industry / Foundry Civic Hall, Great Forge, Smoke-Stack Monument, Crucible Hall Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Ethervale.",
+      "visualIdentity": "Use Heavy Industry / Foundry Civic Hall as the main read. Keep exact source anchors visible where applicable: Heavy Industry / Foundry Civic Hall, Great Forge, Smoke-Stack Monument, Crucible Hall Nook. The district should share Ethervale's Angelic / cherubic identity, Moonstone, Granite, Cedar, Gold Leaf, and Cliffside, Terraced Slope, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Locally grounded, with Ethervale's larger mood shaped by Seraphic Moon-Gate Choir Spire, Border Wall Beacon, and Mist Veils Veiled High Court.",
+      "gameplayAssetNeeds": [
+        "Heavy Industry / Foundry Civic Hall",
+        "Great Forge",
+        "Smoke-Stack Monument",
+        "Crucible Hall Nook",
+        "Section 2 pedestrian-scale props",
+        "Ethervale civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Heavy Industry / Foundry Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Heavy Industry / Foundry Civic Hall",
+      "minorLandmarks": [
+        "Great Forge",
+        "Smoke-Stack Monument",
+        "Crucible Hall Nook"
+      ]
+    },
+    {
+      "districtNumber": 5,
+      "districtId": "D05",
+      "sectionNumber": 2,
+      "name": "D05 — Great Forge Landmark Approach",
+      "civicPurpose": "This district turns Section 2's source-backed anchor set into a board-scale civic space: Heavy Industry / Foundry Civic Hall, Great Forge, Smoke-Stack Monument, Crucible Hall Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Ethervale.",
+      "visualIdentity": "Use Great Forge as the main read. Keep exact source anchors visible where applicable: Heavy Industry / Foundry Civic Hall, Great Forge, Smoke-Stack Monument, Crucible Hall Nook. The district should share Ethervale's Angelic / cherubic identity, Moonstone, Granite, Cedar, Gold Leaf, and Cliffside, Terraced Slope, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Public-facing, with Ethervale's larger mood shaped by Seraphic Moon-Gate Choir Spire, Border Wall Beacon, and Mist Veils Veiled High Court.",
+      "gameplayAssetNeeds": [
+        "Great Forge",
+        "Heavy Industry / Foundry Civic Hall",
+        "Smoke-Stack Monument",
+        "Crucible Hall Nook",
+        "Section 2 pedestrian-scale props",
+        "Ethervale civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Great Forge",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Great Forge",
+      "minorLandmarks": [
+        "Heavy Industry / Foundry Civic Hall",
+        "Smoke-Stack Monument",
+        "Crucible Hall Nook"
+      ]
+    },
+    {
+      "districtNumber": 9,
+      "districtId": "D09",
+      "sectionNumber": 2,
+      "name": "D09 — Smoke-Stack Monument Monument Frontage",
+      "civicPurpose": "This district turns Section 2's source-backed anchor set into a board-scale civic space: Heavy Industry / Foundry Civic Hall, Great Forge, Smoke-Stack Monument, Crucible Hall Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Ethervale.",
+      "visualIdentity": "Use Smoke-Stack Monument as the main read. Keep exact source anchors visible where applicable: Heavy Industry / Foundry Civic Hall, Great Forge, Smoke-Stack Monument, Crucible Hall Nook. The district should share Ethervale's Angelic / cherubic identity, Moonstone, Granite, Cedar, Gold Leaf, and Cliffside, Terraced Slope, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Memorial or symbolic, with Ethervale's larger mood shaped by Seraphic Moon-Gate Choir Spire, Border Wall Beacon, and Mist Veils Veiled High Court.",
+      "gameplayAssetNeeds": [
+        "Smoke-Stack Monument",
+        "Heavy Industry / Foundry Civic Hall",
+        "Great Forge",
+        "Crucible Hall Nook",
+        "Section 2 pedestrian-scale props",
+        "Ethervale civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Smoke-Stack Monument",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Smoke-Stack Monument",
+      "minorLandmarks": [
+        "Heavy Industry / Foundry Civic Hall",
+        "Great Forge",
+        "Crucible Hall Nook"
+      ]
+    },
+    {
+      "districtNumber": 10,
+      "districtId": "D10",
+      "sectionNumber": 2,
+      "name": "D10 — Crucible Hall Nook Neighborhood Nook",
+      "civicPurpose": "This district turns Section 2's source-backed anchor set into a board-scale civic space: Heavy Industry / Foundry Civic Hall, Great Forge, Smoke-Stack Monument, Crucible Hall Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Ethervale.",
+      "visualIdentity": "Use Crucible Hall Nook as the main read. Keep exact source anchors visible where applicable: Heavy Industry / Foundry Civic Hall, Great Forge, Smoke-Stack Monument, Crucible Hall Nook. The district should share Ethervale's Angelic / cherubic identity, Moonstone, Granite, Cedar, Gold Leaf, and Cliffside, Terraced Slope, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Intimate and lived-in, with Ethervale's larger mood shaped by Seraphic Moon-Gate Choir Spire, Border Wall Beacon, and Mist Veils Veiled High Court.",
+      "gameplayAssetNeeds": [
+        "Crucible Hall Nook",
+        "Heavy Industry / Foundry Civic Hall",
+        "Great Forge",
+        "Smoke-Stack Monument",
+        "Section 2 pedestrian-scale props",
+        "Ethervale civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Crucible Hall Nook",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Crucible Hall Nook",
+      "minorLandmarks": [
+        "Heavy Industry / Foundry Civic Hall",
+        "Great Forge",
+        "Smoke-Stack Monument"
+      ]
+    },
+    {
+      "districtNumber": 15,
+      "districtId": "D15",
+      "sectionNumber": 2,
+      "name": "D15 — Heavy Industry / Foundry Civic Hall Supporting Streets",
+      "civicPurpose": "This district turns Section 2's source-backed anchor set into a board-scale civic space: Heavy Industry / Foundry Civic Hall, Great Forge, Smoke-Stack Monument, Crucible Hall Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Ethervale.",
+      "visualIdentity": "Use Heavy Industry / Foundry Civic Hall as the main read. Keep exact source anchors visible where applicable: Heavy Industry / Foundry Civic Hall, Great Forge, Smoke-Stack Monument, Crucible Hall Nook. The district should share Ethervale's Angelic / cherubic identity, Moonstone, Granite, Cedar, Gold Leaf, and Cliffside, Terraced Slope, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Connective and practical, with Ethervale's larger mood shaped by Seraphic Moon-Gate Choir Spire, Border Wall Beacon, and Mist Veils Veiled High Court.",
+      "gameplayAssetNeeds": [
+        "Heavy Industry / Foundry Civic Hall",
+        "Great Forge",
+        "Smoke-Stack Monument",
+        "Crucible Hall Nook",
+        "Section 2 pedestrian-scale props",
+        "Ethervale civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Heavy Industry / Foundry Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Heavy Industry / Foundry Civic Hall",
+      "minorLandmarks": [
+        "Great Forge",
+        "Smoke-Stack Monument",
+        "Crucible Hall Nook"
+      ]
+    },
+    {
+      "districtNumber": 8,
+      "districtId": "D08",
+      "sectionNumber": 3,
+      "name": "D08 — Records / Archives Hall Civic-Anchor Precinct",
+      "civicPurpose": "This district turns Section 3's source-backed anchor set into a board-scale civic space: Records / Archives Hall, Archive Tower, Records Archives Gold-Seal Monument, Copyist Hall Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Ethervale.",
+      "visualIdentity": "Use Records / Archives Hall as the main read. Keep exact source anchors visible where applicable: Records / Archives Hall, Archive Tower, Records Archives Gold-Seal Monument, Copyist Hall Nook. The district should share Ethervale's Angelic / cherubic identity, Moonstone, Granite, Cedar, Gold Leaf, and Cliffside, Terraced Slope, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Locally grounded, with Ethervale's larger mood shaped by Seraphic Moon-Gate Choir Spire, Border Wall Beacon, and Mist Veils Veiled High Court.",
+      "gameplayAssetNeeds": [
+        "Records / Archives Hall",
+        "Archive Tower",
+        "Records Archives Gold-Seal Monument",
+        "Copyist Hall Nook",
+        "Section 3 pedestrian-scale props",
+        "Ethervale civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Records / Archives Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Records / Archives Hall",
+      "minorLandmarks": [
+        "Archive Tower",
+        "Records Archives Gold-Seal Monument",
+        "Copyist Hall Nook"
+      ]
+    },
+    {
+      "districtNumber": 12,
+      "districtId": "D12",
+      "sectionNumber": 3,
+      "name": "D12 — Archive Tower Landmark Approach",
+      "civicPurpose": "This district turns Section 3's source-backed anchor set into a board-scale civic space: Records / Archives Hall, Archive Tower, Records Archives Gold-Seal Monument, Copyist Hall Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Ethervale.",
+      "visualIdentity": "Use Archive Tower as the main read. Keep exact source anchors visible where applicable: Records / Archives Hall, Archive Tower, Records Archives Gold-Seal Monument, Copyist Hall Nook. The district should share Ethervale's Angelic / cherubic identity, Moonstone, Granite, Cedar, Gold Leaf, and Cliffside, Terraced Slope, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Public-facing, with Ethervale's larger mood shaped by Seraphic Moon-Gate Choir Spire, Border Wall Beacon, and Mist Veils Veiled High Court.",
+      "gameplayAssetNeeds": [
+        "Archive Tower",
+        "Records / Archives Hall",
+        "Records Archives Gold-Seal Monument",
+        "Copyist Hall Nook",
+        "Section 3 pedestrian-scale props",
+        "Ethervale civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Archive Tower",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Archive Tower",
+      "minorLandmarks": [
+        "Records / Archives Hall",
+        "Records Archives Gold-Seal Monument",
+        "Copyist Hall Nook"
+      ]
+    },
+    {
+      "districtNumber": 13,
+      "districtId": "D13",
+      "sectionNumber": 3,
+      "name": "D13 — Mist Veils Veiled High Court Seat of Power District",
+      "civicPurpose": "This district turns Section 3's source-backed anchor set into a board-scale civic space: Records / Archives Hall, Archive Tower, Records Archives Gold-Seal Monument, Copyist Hall Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Ethervale.",
+      "visualIdentity": "Use Mist Veils Veiled High Court as the main read. Keep exact source anchors visible where applicable: Records / Archives Hall, Archive Tower, Records Archives Gold-Seal Monument, Copyist Hall Nook. The district should share Ethervale's Angelic / cherubic identity, Moonstone, Granite, Cedar, Gold Leaf, and Cliffside, Terraced Slope, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Memorial or symbolic, with Ethervale's larger mood shaped by Seraphic Moon-Gate Choir Spire, Border Wall Beacon, and Mist Veils Veiled High Court.",
+      "gameplayAssetNeeds": [
+        "Mist Veils Veiled High Court",
+        "Records / Archives Hall",
+        "Archive Tower",
+        "Records Archives Gold-Seal Monument",
+        "Copyist Hall Nook",
+        "Section 3 pedestrian-scale props",
+        "Ethervale civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Mist Veils Veiled High Court",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "Conjunction response, rumor spread, or authority pressure"
+      ],
+      "landmark": "Mist Veils Veiled High Court",
+      "minorLandmarks": [
+        "Records / Archives Hall",
+        "Archive Tower",
+        "Records Archives Gold-Seal Monument",
+        "Copyist Hall Nook"
+      ]
+    },
+    {
+      "districtNumber": 14,
+      "districtId": "D14",
+      "sectionNumber": 3,
+      "name": "D14 — Copyist Hall Nook Neighborhood Nook",
+      "civicPurpose": "This district turns Section 3's source-backed anchor set into a board-scale civic space: Records / Archives Hall, Archive Tower, Records Archives Gold-Seal Monument, Copyist Hall Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Ethervale.",
+      "visualIdentity": "Use Copyist Hall Nook as the main read. Keep exact source anchors visible where applicable: Records / Archives Hall, Archive Tower, Records Archives Gold-Seal Monument, Copyist Hall Nook. The district should share Ethervale's Angelic / cherubic identity, Moonstone, Granite, Cedar, Gold Leaf, and Cliffside, Terraced Slope, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Intimate and lived-in, with Ethervale's larger mood shaped by Seraphic Moon-Gate Choir Spire, Border Wall Beacon, and Mist Veils Veiled High Court.",
+      "gameplayAssetNeeds": [
+        "Copyist Hall Nook",
+        "Records / Archives Hall",
+        "Archive Tower",
+        "Records Archives Gold-Seal Monument",
+        "Section 3 pedestrian-scale props",
+        "Ethervale civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Copyist Hall Nook",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Copyist Hall Nook",
+      "minorLandmarks": [
+        "Records / Archives Hall",
+        "Archive Tower",
+        "Records Archives Gold-Seal Monument"
+      ]
+    },
+    {
+      "districtNumber": 18,
+      "districtId": "D18",
+      "sectionNumber": 3,
+      "name": "D18 — Records / Archives Hall Supporting Streets",
+      "civicPurpose": "This district turns Section 3's source-backed anchor set into a board-scale civic space: Records / Archives Hall, Archive Tower, Records Archives Gold-Seal Monument, Copyist Hall Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Ethervale.",
+      "visualIdentity": "Use Records / Archives Hall as the main read. Keep exact source anchors visible where applicable: Records / Archives Hall, Archive Tower, Records Archives Gold-Seal Monument, Copyist Hall Nook. The district should share Ethervale's Angelic / cherubic identity, Moonstone, Granite, Cedar, Gold Leaf, and Cliffside, Terraced Slope, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Connective and practical, with Ethervale's larger mood shaped by Seraphic Moon-Gate Choir Spire, Border Wall Beacon, and Mist Veils Veiled High Court.",
+      "gameplayAssetNeeds": [
+        "Records / Archives Hall",
+        "Archive Tower",
+        "Records Archives Gold-Seal Monument",
+        "Copyist Hall Nook",
+        "Section 3 pedestrian-scale props",
+        "Ethervale civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Records / Archives Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Records / Archives Hall",
+      "minorLandmarks": [
+        "Archive Tower",
+        "Records Archives Gold-Seal Monument",
+        "Copyist Hall Nook"
+      ]
+    },
+    {
+      "districtNumber": 11,
+      "districtId": "D11",
+      "sectionNumber": 4,
+      "name": "D11 — University / Lyceum Civic Hall Civic-Anchor Precinct",
+      "civicPurpose": "This district turns Section 4's source-backed anchor set into a board-scale civic space: University / Lyceum Civic Hall, Lecture Hall, Star Navigation Monument, Observatory Court Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Ethervale.",
+      "visualIdentity": "Use University / Lyceum Civic Hall as the main read. Keep exact source anchors visible where applicable: University / Lyceum Civic Hall, Lecture Hall, Star Navigation Monument, Observatory Court Nook. The district should share Ethervale's Angelic / cherubic identity, Moonstone, Granite, Cedar, Gold Leaf, and Cliffside, Terraced Slope, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Locally grounded, with Ethervale's larger mood shaped by Seraphic Moon-Gate Choir Spire, Border Wall Beacon, and Mist Veils Veiled High Court.",
+      "gameplayAssetNeeds": [
+        "University / Lyceum Civic Hall",
+        "Lecture Hall",
+        "Star Navigation Monument",
+        "Observatory Court Nook",
+        "Section 4 pedestrian-scale props",
+        "Ethervale civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on University / Lyceum Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "University / Lyceum Civic Hall",
+      "minorLandmarks": [
+        "Lecture Hall",
+        "Star Navigation Monument",
+        "Observatory Court Nook"
+      ]
+    },
+    {
+      "districtNumber": 16,
+      "districtId": "D16",
+      "sectionNumber": 4,
+      "name": "D16 — Lecture Hall Landmark Approach",
+      "civicPurpose": "This district turns Section 4's source-backed anchor set into a board-scale civic space: University / Lyceum Civic Hall, Lecture Hall, Star Navigation Monument, Observatory Court Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Ethervale.",
+      "visualIdentity": "Use Lecture Hall as the main read. Keep exact source anchors visible where applicable: University / Lyceum Civic Hall, Lecture Hall, Star Navigation Monument, Observatory Court Nook. The district should share Ethervale's Angelic / cherubic identity, Moonstone, Granite, Cedar, Gold Leaf, and Cliffside, Terraced Slope, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Public-facing, with Ethervale's larger mood shaped by Seraphic Moon-Gate Choir Spire, Border Wall Beacon, and Mist Veils Veiled High Court.",
+      "gameplayAssetNeeds": [
+        "Lecture Hall",
+        "University / Lyceum Civic Hall",
+        "Star Navigation Monument",
+        "Observatory Court Nook",
+        "Section 4 pedestrian-scale props",
+        "Ethervale civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Lecture Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Lecture Hall",
+      "minorLandmarks": [
+        "University / Lyceum Civic Hall",
+        "Star Navigation Monument",
+        "Observatory Court Nook"
+      ]
+    },
+    {
+      "districtNumber": 17,
+      "districtId": "D17",
+      "sectionNumber": 4,
+      "name": "D17 — Star Navigation Monument Monument Frontage",
+      "civicPurpose": "This district turns Section 4's source-backed anchor set into a board-scale civic space: University / Lyceum Civic Hall, Lecture Hall, Star Navigation Monument, Observatory Court Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Ethervale.",
+      "visualIdentity": "Use Star Navigation Monument as the main read. Keep exact source anchors visible where applicable: University / Lyceum Civic Hall, Lecture Hall, Star Navigation Monument, Observatory Court Nook. The district should share Ethervale's Angelic / cherubic identity, Moonstone, Granite, Cedar, Gold Leaf, and Cliffside, Terraced Slope, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Memorial or symbolic, with Ethervale's larger mood shaped by Seraphic Moon-Gate Choir Spire, Border Wall Beacon, and Mist Veils Veiled High Court.",
+      "gameplayAssetNeeds": [
+        "Star Navigation Monument",
+        "University / Lyceum Civic Hall",
+        "Lecture Hall",
+        "Observatory Court Nook",
+        "Section 4 pedestrian-scale props",
+        "Ethervale civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Star Navigation Monument",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Star Navigation Monument",
+      "minorLandmarks": [
+        "University / Lyceum Civic Hall",
+        "Lecture Hall",
+        "Observatory Court Nook"
+      ]
+    },
+    {
+      "districtNumber": 21,
+      "districtId": "D21",
+      "sectionNumber": 4,
+      "name": "D21 — Observatory Court Nook Neighborhood Nook",
+      "civicPurpose": "This district turns Section 4's source-backed anchor set into a board-scale civic space: University / Lyceum Civic Hall, Lecture Hall, Star Navigation Monument, Observatory Court Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Ethervale.",
+      "visualIdentity": "Use Observatory Court Nook as the main read. Keep exact source anchors visible where applicable: University / Lyceum Civic Hall, Lecture Hall, Star Navigation Monument, Observatory Court Nook. The district should share Ethervale's Angelic / cherubic identity, Moonstone, Granite, Cedar, Gold Leaf, and Cliffside, Terraced Slope, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Intimate and lived-in, with Ethervale's larger mood shaped by Seraphic Moon-Gate Choir Spire, Border Wall Beacon, and Mist Veils Veiled High Court.",
+      "gameplayAssetNeeds": [
+        "Observatory Court Nook",
+        "University / Lyceum Civic Hall",
+        "Lecture Hall",
+        "Star Navigation Monument",
+        "Section 4 pedestrian-scale props",
+        "Ethervale civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Observatory Court Nook",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Observatory Court Nook",
+      "minorLandmarks": [
+        "University / Lyceum Civic Hall",
+        "Lecture Hall",
+        "Star Navigation Monument"
+      ]
+    },
+    {
+      "districtNumber": 22,
+      "districtId": "D22",
+      "sectionNumber": 4,
+      "name": "D22 — University / Lyceum Civic Hall Supporting Streets",
+      "civicPurpose": "This district turns Section 4's source-backed anchor set into a board-scale civic space: University / Lyceum Civic Hall, Lecture Hall, Star Navigation Monument, Observatory Court Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Ethervale.",
+      "visualIdentity": "Use University / Lyceum Civic Hall as the main read. Keep exact source anchors visible where applicable: University / Lyceum Civic Hall, Lecture Hall, Star Navigation Monument, Observatory Court Nook. The district should share Ethervale's Angelic / cherubic identity, Moonstone, Granite, Cedar, Gold Leaf, and Cliffside, Terraced Slope, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Connective and practical, with Ethervale's larger mood shaped by Seraphic Moon-Gate Choir Spire, Border Wall Beacon, and Mist Veils Veiled High Court.",
+      "gameplayAssetNeeds": [
+        "University / Lyceum Civic Hall",
+        "Lecture Hall",
+        "Star Navigation Monument",
+        "Observatory Court Nook",
+        "Section 4 pedestrian-scale props",
+        "Ethervale civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on University / Lyceum Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "University / Lyceum Civic Hall",
+      "minorLandmarks": [
+        "Lecture Hall",
+        "Star Navigation Monument",
+        "Observatory Court Nook"
+      ]
+    },
+    {
+      "districtNumber": 19,
+      "districtId": "D19",
+      "sectionNumber": 5,
+      "name": "D19 — Observatory / Astronomy Civic Hall Civic-Anchor Precinct",
+      "civicPurpose": "This district turns Section 5's source-backed anchor set into a board-scale civic space: Observatory / Astronomy Civic Hall, Star Observatory, Star Navigation Monument, Celestial Court Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Ethervale.",
+      "visualIdentity": "Use Observatory / Astronomy Civic Hall as the main read. Keep exact source anchors visible where applicable: Observatory / Astronomy Civic Hall, Star Observatory, Star Navigation Monument, Celestial Court Nook. The district should share Ethervale's Angelic / cherubic identity, Moonstone, Granite, Cedar, Gold Leaf, and Cliffside, Terraced Slope, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Locally grounded, with Ethervale's larger mood shaped by Seraphic Moon-Gate Choir Spire, Border Wall Beacon, and Mist Veils Veiled High Court.",
+      "gameplayAssetNeeds": [
+        "Observatory / Astronomy Civic Hall",
+        "Star Observatory",
+        "Star Navigation Monument",
+        "Celestial Court Nook",
+        "Section 5 pedestrian-scale props",
+        "Ethervale civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Observatory / Astronomy Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Observatory / Astronomy Civic Hall",
+      "minorLandmarks": [
+        "Star Observatory",
+        "Star Navigation Monument",
+        "Celestial Court Nook"
+      ]
+    },
+    {
+      "districtNumber": 20,
+      "districtId": "D20",
+      "sectionNumber": 5,
+      "name": "D20 — Star Observatory Landmark Approach",
+      "civicPurpose": "This district turns Section 5's source-backed anchor set into a board-scale civic space: Observatory / Astronomy Civic Hall, Star Observatory, Star Navigation Monument, Celestial Court Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Ethervale.",
+      "visualIdentity": "Use Star Observatory as the main read. Keep exact source anchors visible where applicable: Observatory / Astronomy Civic Hall, Star Observatory, Star Navigation Monument, Celestial Court Nook. The district should share Ethervale's Angelic / cherubic identity, Moonstone, Granite, Cedar, Gold Leaf, and Cliffside, Terraced Slope, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Public-facing, with Ethervale's larger mood shaped by Seraphic Moon-Gate Choir Spire, Border Wall Beacon, and Mist Veils Veiled High Court.",
+      "gameplayAssetNeeds": [
+        "Star Observatory",
+        "Observatory / Astronomy Civic Hall",
+        "Star Navigation Monument",
+        "Celestial Court Nook",
+        "Section 5 pedestrian-scale props",
+        "Ethervale civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Star Observatory",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Star Observatory",
+      "minorLandmarks": [
+        "Observatory / Astronomy Civic Hall",
+        "Star Navigation Monument",
+        "Celestial Court Nook"
+      ]
+    },
+    {
+      "districtNumber": 23,
+      "districtId": "D23",
+      "sectionNumber": 5,
+      "name": "D23 — Star Navigation Monument Monument Frontage",
+      "civicPurpose": "This district turns Section 5's source-backed anchor set into a board-scale civic space: Observatory / Astronomy Civic Hall, Star Observatory, Star Navigation Monument, Celestial Court Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Ethervale.",
+      "visualIdentity": "Use Star Navigation Monument as the main read. Keep exact source anchors visible where applicable: Observatory / Astronomy Civic Hall, Star Observatory, Star Navigation Monument, Celestial Court Nook. The district should share Ethervale's Angelic / cherubic identity, Moonstone, Granite, Cedar, Gold Leaf, and Cliffside, Terraced Slope, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Memorial or symbolic, with Ethervale's larger mood shaped by Seraphic Moon-Gate Choir Spire, Border Wall Beacon, and Mist Veils Veiled High Court.",
+      "gameplayAssetNeeds": [
+        "Star Navigation Monument",
+        "Observatory / Astronomy Civic Hall",
+        "Star Observatory",
+        "Celestial Court Nook",
+        "Section 5 pedestrian-scale props",
+        "Ethervale civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Star Navigation Monument",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Star Navigation Monument",
+      "minorLandmarks": [
+        "Observatory / Astronomy Civic Hall",
+        "Star Observatory",
+        "Celestial Court Nook"
+      ]
+    },
+    {
+      "districtNumber": 24,
+      "districtId": "D24",
+      "sectionNumber": 5,
+      "name": "D24 — Celestial Court Nook Neighborhood Nook",
+      "civicPurpose": "This district turns Section 5's source-backed anchor set into a board-scale civic space: Observatory / Astronomy Civic Hall, Star Observatory, Star Navigation Monument, Celestial Court Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Ethervale.",
+      "visualIdentity": "Use Celestial Court Nook as the main read. Keep exact source anchors visible where applicable: Observatory / Astronomy Civic Hall, Star Observatory, Star Navigation Monument, Celestial Court Nook. The district should share Ethervale's Angelic / cherubic identity, Moonstone, Granite, Cedar, Gold Leaf, and Cliffside, Terraced Slope, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Intimate and lived-in, with Ethervale's larger mood shaped by Seraphic Moon-Gate Choir Spire, Border Wall Beacon, and Mist Veils Veiled High Court.",
+      "gameplayAssetNeeds": [
+        "Celestial Court Nook",
+        "Observatory / Astronomy Civic Hall",
+        "Star Observatory",
+        "Star Navigation Monument",
+        "Section 5 pedestrian-scale props",
+        "Ethervale civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Celestial Court Nook",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Celestial Court Nook",
+      "minorLandmarks": [
+        "Observatory / Astronomy Civic Hall",
+        "Star Observatory",
+        "Star Navigation Monument"
+      ]
+    },
+    {
+      "districtNumber": 25,
+      "districtId": "D25",
+      "sectionNumber": 5,
+      "name": "D25 — Observatory / Astronomy Civic Hall Supporting Streets",
+      "civicPurpose": "This district turns Section 5's source-backed anchor set into a board-scale civic space: Observatory / Astronomy Civic Hall, Star Observatory, Star Navigation Monument, Celestial Court Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Ethervale.",
+      "visualIdentity": "Use Observatory / Astronomy Civic Hall as the main read. Keep exact source anchors visible where applicable: Observatory / Astronomy Civic Hall, Star Observatory, Star Navigation Monument, Celestial Court Nook. The district should share Ethervale's Angelic / cherubic identity, Moonstone, Granite, Cedar, Gold Leaf, and Cliffside, Terraced Slope, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Connective and practical, with Ethervale's larger mood shaped by Seraphic Moon-Gate Choir Spire, Border Wall Beacon, and Mist Veils Veiled High Court.",
+      "gameplayAssetNeeds": [
+        "Observatory / Astronomy Civic Hall",
+        "Star Observatory",
+        "Star Navigation Monument",
+        "Celestial Court Nook",
+        "Section 5 pedestrian-scale props",
+        "Ethervale civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Observatory / Astronomy Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Observatory / Astronomy Civic Hall",
+      "minorLandmarks": [
+        "Star Observatory",
+        "Star Navigation Monument",
+        "Celestial Court Nook"
+      ]
+    }
   ],
   "landmarks": {
-    "wonder": {"name": "Seraphic Moon-Gate Choir Spire", "symbolicRole": "Celestial passage, communal song, civic witness, and seraphic aspiration made monumental.", "visualRole": "Monumental pale moon-gate spire with choir arches, blue light, gold accents, misted high visibility, and a ceremonial skyline role.", "civicRole": "Wonder-scale focus for vows, moon observations, choral rites, mourning, processions, and idealized duty.", "narrativeUse": ["ceremony", "civic vow", "celestial witness", "ideal versus labor contrast"], "assetUse": ["map wonder", "distant skyline anchor", "seraphic city identifier"], "sensoryIdentity": ["choir resonance", "cool mist", "blue light", "wind", "polished stone"], "storyHooks": ["A choir rite reveals which civic duty Ethervale refuses to neglect."]},
-    "beacon": {"name": "Border Wall Beacon", "symbolicRole": "Signal light at the boundary between safety and obligation.", "visualRole": "Blue-lit tower integrated with border walls, formal gates, banners, and watch bastions.", "civicRole": "Coordinates guard rotations, border checks, announcements, emergency musters, and Conjunction signal response.", "narrativeUse": ["arrival", "public alarm", "gate ceremony", "border duty"], "assetUse": ["S1 centerpiece", "signal marker"], "sensoryIdentity": ["blue glow", "border bells", "mist", "boots on stone"], "storyHooks": ["A Beacon change turns a routine border check into a citywide obligation."]},
-    "seatOfPower": {"name": "Mist Veils Veiled High Court", "symbolicRole": "Judgment, record, and moral authority partially concealed by ceremony.", "visualRole": "Elevated pale-stone court softened by mist, blue glass, gold trim, archive approaches, and ceremonial stairs.", "civicRole": "Government center for judgments, petitions, record review, border rulings, archive authority, and public obligations.", "narrativeUse": ["formal hearing", "record-bound authority", "public petition", "veiled judgment"], "assetUse": ["seat-of-power marker", "central court diorama"], "sensoryIdentity": ["mist", "ink", "wax seals", "stone echo", "blue glass"], "storyHooks": ["A High Court ruling depends on a record nobody wanted copied."]},
+    "wonder": {
+      "name": "Seraphic Moon-Gate Choir Spire",
+      "symbolicRole": "Seraphic Moon-Gate Choir Spire concentrates Ethervale's local symbolism into a usable civic landmark: city wonder, separate far skyline anchor.",
+      "visualRole": "A one-per-city wonder: spectacular, unmistakable, and larger than every section landmark. It turns Ethervale's geography, race identity, material culture, and civic magic into one public symbol. Built for Ethervale's Angelic / cherubic population, it uses Moonstone, Granite, Cedar, Gold Leaf, Smoky Quartz across Cliffside, Terraced Slope, Civic Terraces; water context: dry city ground; magic expression: Ward Networks, Ritual Geometry, Shadow Veils. It must read clearly as a high-fantasy tactical-board asset with no baked labels or text.",
+      "civicRole": "Serves as city wonder, separate far skyline anchor within Ethervale; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+      "narrativeUse": [
+        "stage scenes involving Seraphic Moon-Gate Choir Spire",
+        "show how Ethervale turns landmark symbolism into civic pressure",
+        "anchor public movement and crowd behavior",
+        "give writers a concrete place for announcements, disputes, errands, or rituals"
+      ],
+      "assetUse": [
+        "city landmark asset",
+        "map background landmark marker",
+        "visual continuity anchor across hero and street scenes",
+        "scale reference for civilians, roads, plazas, and props"
+      ],
+      "sensoryIdentity": [
+        "local foot traffic",
+        "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+        "public voices and civic work nearby",
+        "ambient city light and weathering",
+        "close pedestrian-scale details rather than abstract skyline-only treatment"
+      ],
+      "storyHooks": [
+        "a routine civic action at Seraphic Moon-Gate Choir Spire becomes narratively important",
+        "the visible condition of Seraphic Moon-Gate Choir Spire signals political or social stress",
+        "someone uses Seraphic Moon-Gate Choir Spire's public function to redirect crowds or information",
+        "an overlooked detail at Seraphic Moon-Gate Choir Spire reveals how Ethervale really works"
+      ]
+    },
+    "beacon": {
+      "name": "Border Wall Beacon",
+      "symbolicRole": "Border Wall Beacon concentrates Ethervale's local symbolism into a usable civic landmark: Section 1 beacon, near/front civic signal anchor.",
+      "visualRole": "A largest local landmark in this section, subordinate only to the city wonder and citadel. It belongs to Section 1 (Fortress / Border Wall) of Ethervale and should use Cyclopean Megaliths, White Limestone Civic Blocks, Obsidian Fortresses, cedar and gold leaf materials, Woven Banners, Carved Totems, Civic Blue Glow, and the Angelic / cherubic visual language. Design focus: strong vertical silhouette, distinct gameplay landmark, visible from nearby districts, walls, portcullises. Terrain/water context: Terraced Slope; Dry Ground. Magic expression: Road Warding, Blue Order Sigils, Threshold Oaths. No baked labels or text. Single city beacon fixed to section 1; visible civic signal apparatus, strong vertical silhouette, and public approach space.",
+      "civicRole": "Serves as Section 1 beacon, near/front civic signal anchor within Ethervale; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+      "narrativeUse": [
+        "stage scenes involving Border Wall Beacon",
+        "show how Ethervale turns landmark symbolism into civic pressure",
+        "anchor public movement and crowd behavior",
+        "give writers a concrete place for announcements, disputes, errands, or rituals"
+      ],
+      "assetUse": [
+        "district diorama anchor for Section 1",
+        "map background landmark marker",
+        "visual continuity anchor across hero and street scenes",
+        "scale reference for civilians, roads, plazas, and props"
+      ],
+      "sensoryIdentity": [
+        "local foot traffic",
+        "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+        "public voices and civic work nearby",
+        "beacon or lamp glow when applicable",
+        "close pedestrian-scale details rather than abstract skyline-only treatment"
+      ],
+      "storyHooks": [
+        "a routine civic action at Border Wall Beacon becomes narratively important",
+        "the visible condition of Border Wall Beacon signals political or social stress",
+        "someone uses Border Wall Beacon's public function to redirect crowds or information",
+        "an overlooked detail at Border Wall Beacon reveals how Ethervale really works"
+      ]
+    },
+    "seatOfPower": {
+      "name": "Mist Veils Veiled High Court",
+      "symbolicRole": "Mist Veils Veiled High Court concentrates Ethervale's local symbolism into a usable civic landmark: dominant central civic anchor / District 13 seat of power.",
+      "visualRole": "The district-13 seat of power: courts, audience terraces, sealed archives, command platforms, and the visible apparatus of government. It is not a faction HQ; it is the city's central civic authority. Built for Ethervale's Angelic / cherubic population, it uses Moonstone, Granite, Cedar, Gold Leaf, Smoky Quartz across Cliffside, Terraced Slope, Civic Terraces; water context: dry city ground; magic expression: Ward Networks, Ritual Geometry, Shadow Veils. It must read clearly as a high-fantasy tactical-board asset with no baked labels or text.",
+      "civicRole": "Serves as dominant central civic anchor / District 13 seat of power within Ethervale; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+      "narrativeUse": [
+        "stage scenes involving Mist Veils Veiled High Court",
+        "show how Ethervale turns landmark symbolism into civic pressure",
+        "anchor public movement and crowd behavior",
+        "give writers a concrete place for announcements, disputes, errands, or rituals"
+      ],
+      "assetUse": [
+        "city landmark asset",
+        "map background landmark marker",
+        "visual continuity anchor across hero and street scenes",
+        "scale reference for civilians, roads, plazas, and props"
+      ],
+      "sensoryIdentity": [
+        "local foot traffic",
+        "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+        "public voices and civic work nearby",
+        "ambient city light and weathering",
+        "close pedestrian-scale details rather than abstract skyline-only treatment"
+      ],
+      "storyHooks": [
+        "a routine civic action at Mist Veils Veiled High Court becomes narratively important",
+        "the visible condition of Mist Veils Veiled High Court signals political or social stress",
+        "someone uses Mist Veils Veiled High Court's public function to redirect crowds or information",
+        "an overlooked detail at Mist Veils Veiled High Court reveals how Ethervale really works"
+      ]
+    },
     "majorLandmarks": [
-      {"name": "Great Forge", "symbolicRole": "Necessary labor consecrated as civic virtue.", "visualRole": "Forge halls, smoke stacks, orange fire, dark iron, and pale containment walls.", "civicRole": "Tool production, metalwork, labor organization, and material support.", "narrativeUse": ["labor scenes", "industrial crisis", "soot beneath holiness"], "assetUse": ["S2 diorama", "foundry asset cluster"], "sensoryIdentity": ["hot iron", "hammering", "coal smoke"], "storyHooks": ["A forge failure threatens both border readiness and court ceremony."]},
-      {"name": "Archive Tower", "symbolicRole": "Memory and obligation made vertical.", "visualRole": "Tall archive with gold seals, ledgers, copyist halls, stairs, and blue lamps.", "civicRole": "Stores public records, permits, legal copies, and civic memory.", "narrativeUse": ["record clues", "public memory", "bureaucratic stakes"], "assetUse": ["S3 diorama", "archive skyline feature"], "sensoryIdentity": ["parchment", "ink", "wax", "quiet stone"], "storyHooks": ["A copied seal proves a duty survived longer than the officials who buried it."]},
-      {"name": "Lecture Hall", "symbolicRole": "Knowledge treated as public responsibility.", "visualRole": "Formal hall and terraces with students, star charts, instruments, and pale stone seating.", "civicRole": "Public instruction, civic education, and scholarly training.", "narrativeUse": ["lesson scenes", "symbol interpretation", "public debate"], "assetUse": ["S4 diorama", "university asset cluster"], "sensoryIdentity": ["soft voices", "chalk dust", "paper", "wind"], "storyHooks": ["A public lecture explains a law that the High Court has misused."]},
-      {"name": "Star Observatory", "symbolicRole": "Witness through sky-reading.", "visualRole": "High blue-domed observatory, lenses, celestial court, moonlight, and open sightlines.", "civicRole": "Astronomy, navigation, calendar work, and night watch.", "narrativeUse": ["night revelation", "omen reading", "quiet planning"], "assetUse": ["S5 diorama", "observatory asset cluster"], "sensoryIdentity": ["cold air", "lens glass", "blue lamp hum", "silence"], "storyHooks": ["A star reading contradicts the public archive."]}
+      {
+        "name": "Star Observatory",
+        "symbolicRole": "Star Observatory concentrates Ethervale's local symbolism into a usable civic landmark: additional major landmark selected for this hero-view camera angle.",
+        "visualRole": "A largest local landmark in this section, subordinate only to the city wonder and citadel. It belongs to Section 5 (Observatory / Astronomy) of Ethervale and should use Archive Towers, Lecture Courts, Cliffside Monasteries, cedar and gold leaf materials, Civic Blue Glow, Star Navigation, Moon Gate Arches, and the Angelic / cherubic visual language. Design focus: star charts, largest section focal point, strong vertical silhouette, distinct gameplay landmark, visible from nearby districts. Terrain/water context: Terraced Slope; Dry Ground. Magic expression: Road Warding, Blue Order Sigils, Threshold Oaths. No baked labels or text.",
+        "civicRole": "Serves as additional major landmark selected for this hero-view camera angle within Ethervale; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Star Observatory",
+          "show how Ethervale turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 5",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Star Observatory becomes narratively important",
+          "the visible condition of Star Observatory signals political or social stress",
+          "someone uses Star Observatory's public function to redirect crowds or information",
+          "an overlooked detail at Star Observatory reveals how Ethervale really works"
+        ]
+      },
+      {
+        "name": "Great Forge",
+        "symbolicRole": "Great Forge concentrates Ethervale's local symbolism into a usable civic landmark: additional major landmark selected for this hero-view camera angle.",
+        "visualRole": "A largest local landmark in this section, subordinate only to the city wonder and citadel. It belongs to Section 2 (Heavy Industry / Foundry) of Ethervale and should use Subterranean Vaults, Forge Halls, Obsidian Fortresses, cedar and gold leaf materials, Forge Smoke Columns, Red Fabric Awnings, Civic Blue Glow, and the Angelic / cherubic visual language. Design focus: visible from nearby districts, sparks, chains, anvils, molten channels. Terrain/water context: Terraced Slope; Dry Ground. Magic expression: Road Warding, Blue Order Sigils, Threshold Oaths. No baked labels or text.",
+        "civicRole": "Serves as additional major landmark selected for this hero-view camera angle within Ethervale; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Great Forge",
+          "show how Ethervale turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 2",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Great Forge becomes narratively important",
+          "the visible condition of Great Forge signals political or social stress",
+          "someone uses Great Forge's public function to redirect crowds or information",
+          "an overlooked detail at Great Forge reveals how Ethervale really works"
+        ]
+      },
+      {
+        "name": "Lecture Hall",
+        "symbolicRole": "Lecture Hall concentrates Ethervale's local symbolism into a usable civic landmark: additional major landmark selected for this hero-view camera angle.",
+        "visualRole": "A largest local landmark in this section, subordinate only to the city wonder and citadel. It belongs to Section 4 (University / Lyceum) of Ethervale and should use Lecture Courts, Archive Towers, White Limestone Civic Blocks, cedar and gold leaf materials, Civic Blue Glow, Star Navigation, Lantern Lit, and the Angelic / cherubic visual language. Design focus: study cloisters, study courts, largest section focal point, strong vertical silhouette, distinct gameplay landmark. Terrain/water context: Terraced Slope; Dry Ground. Magic expression: Road Warding, Blue Order Sigils, Threshold Oaths. No baked labels or text.",
+        "civicRole": "Serves as additional major landmark selected for this hero-view camera angle within Ethervale; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Lecture Hall",
+          "show how Ethervale turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 4",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Lecture Hall becomes narratively important",
+          "the visible condition of Lecture Hall signals political or social stress",
+          "someone uses Lecture Hall's public function to redirect crowds or information",
+          "an overlooked detail at Lecture Hall reveals how Ethervale really works"
+        ]
+      },
+      {
+        "name": "Fortress / Border Wall Civic Hall",
+        "symbolicRole": "Fortress / Border Wall Civic Hall concentrates Ethervale's local symbolism into a usable civic landmark: Section 1 local anchor.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing. It belongs to Section 1 (Fortress / Border Wall) of Ethervale and should use Obsidian Fortresses, Cyclopean Megaliths, White Limestone Civic Blocks, cedar and gold leaf materials, Woven Banners, Carved Totems, Civic Blue Glow, and the Angelic / cherubic visual language. Design focus: portcullises, shield marks, signal fires, curtain walls, gatehouses. Terrain/water context: Terraced Slope; Dry Ground. Magic expression: Road Warding, Blue Order Sigils, Threshold Oaths. No baked labels or text.",
+        "civicRole": "Serves as Section 1 local anchor within Ethervale; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Fortress / Border Wall Civic Hall",
+          "show how Ethervale turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 1",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Fortress / Border Wall Civic Hall becomes narratively important",
+          "the visible condition of Fortress / Border Wall Civic Hall signals political or social stress",
+          "someone uses Fortress / Border Wall Civic Hall's public function to redirect crowds or information",
+          "an overlooked detail at Fortress / Border Wall Civic Hall reveals how Ethervale really works"
+        ]
+      },
+      {
+        "name": "Woven Banners Monument",
+        "symbolicRole": "Woven Banners Monument concentrates Ethervale's local symbolism into a usable civic landmark: Section 1 local anchor.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles. It belongs to Section 1 (Fortress / Border Wall) of Ethervale and should use White Limestone Civic Blocks, Obsidian Fortresses, Cyclopean Megaliths, cedar and gold leaf materials, Civic Blue Glow, Woven Banners, Carved Totems, and the Angelic / cherubic visual language. Design focus: portcullises, shield marks, signal fires, curtain walls, gatehouses. Terrain/water context: Terraced Slope; Dry Ground. Magic expression: Road Warding, Blue Order Sigils, Threshold Oaths. No baked labels or text.",
+        "civicRole": "Serves as Section 1 local anchor within Ethervale; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Woven Banners Monument",
+          "show how Ethervale turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 1",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Woven Banners Monument becomes narratively important",
+          "the visible condition of Woven Banners Monument signals political or social stress",
+          "someone uses Woven Banners Monument's public function to redirect crowds or information",
+          "an overlooked detail at Woven Banners Monument reveals how Ethervale really works"
+        ]
+      },
+      {
+        "name": "Watch Bastion Nook",
+        "symbolicRole": "Watch Bastion Nook concentrates Ethervale's local symbolism into a usable civic landmark: Section 1 local anchor.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette. It belongs to Section 1 (Fortress / Border Wall) of Ethervale and should use White Limestone Civic Blocks, Obsidian Fortresses, Cyclopean Megaliths, cedar and gold leaf materials, Civic Blue Glow, Woven Banners, Carved Totems, and the Angelic / cherubic visual language. Design focus: signal fires, curtain walls, gatehouses, bastions, guard posts. Terrain/water context: Terraced Slope; Dry Ground. Magic expression: Road Warding, Blue Order Sigils, Threshold Oaths. No baked labels or text.",
+        "civicRole": "Serves as Section 1 local anchor within Ethervale; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Watch Bastion Nook",
+          "show how Ethervale turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 1",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Watch Bastion Nook becomes narratively important",
+          "the visible condition of Watch Bastion Nook signals political or social stress",
+          "someone uses Watch Bastion Nook's public function to redirect crowds or information",
+          "an overlooked detail at Watch Bastion Nook reveals how Ethervale really works"
+        ]
+      },
+      {
+        "name": "Heavy Industry / Foundry Civic Hall",
+        "symbolicRole": "Heavy Industry / Foundry Civic Hall concentrates Ethervale's local symbolism into a usable civic landmark: Section 2 local anchor.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing. It belongs to Section 2 (Heavy Industry / Foundry) of Ethervale and should use Subterranean Vaults, Forge Halls, Obsidian Fortresses, cedar and gold leaf materials, Civic Blue Glow, Forge Smoke Columns, Red Fabric Awnings, and the Angelic / cherubic visual language. Design focus: sparks, chains, anvils, molten channels, foundry sheds. Terrain/water context: Terraced Slope; Dry Ground. Magic expression: Road Warding, Blue Order Sigils, Threshold Oaths. No baked labels or text.",
+        "civicRole": "Serves as Section 2 local anchor within Ethervale; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Heavy Industry / Foundry Civic Hall",
+          "show how Ethervale turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 2",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Heavy Industry / Foundry Civic Hall becomes narratively important",
+          "the visible condition of Heavy Industry / Foundry Civic Hall signals political or social stress",
+          "someone uses Heavy Industry / Foundry Civic Hall's public function to redirect crowds or information",
+          "an overlooked detail at Heavy Industry / Foundry Civic Hall reveals how Ethervale really works"
+        ]
+      },
+      {
+        "name": "Smoke-Stack Monument",
+        "symbolicRole": "Smoke-Stack Monument concentrates Ethervale's local symbolism into a usable civic landmark: Section 2 local anchor.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles. It belongs to Section 2 (Heavy Industry / Foundry) of Ethervale and should use Subterranean Vaults, Forge Halls, Obsidian Fortresses, cedar and gold leaf materials, Red Fabric Awnings, Civic Blue Glow, Forge Smoke Columns, and the Angelic / cherubic visual language. Design focus: ore yards, symbolic civic object, small ceremonial site, local memory marker, subordinate to major landmark. Terrain/water context: Terraced Slope; Dry Ground. Magic expression: Road Warding, Blue Order Sigils, Threshold Oaths. No baked labels or text.",
+        "civicRole": "Serves as Section 2 local anchor within Ethervale; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Smoke-Stack Monument",
+          "show how Ethervale turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 2",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Smoke-Stack Monument becomes narratively important",
+          "the visible condition of Smoke-Stack Monument signals political or social stress",
+          "someone uses Smoke-Stack Monument's public function to redirect crowds or information",
+          "an overlooked detail at Smoke-Stack Monument reveals how Ethervale really works"
+        ]
+      },
+      {
+        "name": "Crucible Hall Nook",
+        "symbolicRole": "Crucible Hall Nook concentrates Ethervale's local symbolism into a usable civic landmark: Section 2 local anchor.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette. It belongs to Section 2 (Heavy Industry / Foundry) of Ethervale and should use Subterranean Vaults, Forge Halls, Obsidian Fortresses, cedar and gold leaf materials, Red Fabric Awnings, Civic Blue Glow, Forge Smoke Columns, and the Angelic / cherubic visual language. Design focus: sparks, chains, anvils, molten channels, foundry sheds. Terrain/water context: Terraced Slope; Dry Ground. Magic expression: Road Warding, Blue Order Sigils, Threshold Oaths. No baked labels or text.",
+        "civicRole": "Serves as Section 2 local anchor within Ethervale; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Crucible Hall Nook",
+          "show how Ethervale turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 2",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Crucible Hall Nook becomes narratively important",
+          "the visible condition of Crucible Hall Nook signals political or social stress",
+          "someone uses Crucible Hall Nook's public function to redirect crowds or information",
+          "an overlooked detail at Crucible Hall Nook reveals how Ethervale really works"
+        ]
+      },
+      {
+        "name": "Records / Archives Hall",
+        "symbolicRole": "Records / Archives Hall concentrates Ethervale's local symbolism into a usable civic landmark: Section 3 local anchor.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing. It belongs to Section 3 (Records / Archives) of Ethervale and should use Archive Towers, White Limestone Civic Blocks, Subterranean Vaults, cedar and gold leaf materials, Gold Seals, Lantern Lit, Civic Blue Glow, and the Angelic / cherubic visual language. Design focus: index cards, wax seals, memory lamps, archive stacks, ledger halls. Terrain/water context: Terraced Slope; Dry Ground. Magic expression: Road Warding, Blue Order Sigils, Threshold Oaths. No baked labels or text.",
+        "civicRole": "Serves as Section 3 local anchor within Ethervale; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Records / Archives Hall",
+          "show how Ethervale turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 3",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Records / Archives Hall becomes narratively important",
+          "the visible condition of Records / Archives Hall signals political or social stress",
+          "someone uses Records / Archives Hall's public function to redirect crowds or information",
+          "an overlooked detail at Records / Archives Hall reveals how Ethervale really works"
+        ]
+      },
+      {
+        "name": "Archive Tower",
+        "symbolicRole": "Archive Tower concentrates Ethervale's local symbolism into a usable civic landmark: Section 3 local anchor.",
+        "visualRole": "A mandatory Section 3 Beacon: a culturally adapted civic signal flame / warning-light landmark visible across the city spine. It belongs to Section 3 (Records / Archives) of Ethervale and should use Subterranean Vaults, Archive Towers, White Limestone Civic Blocks, cedar and gold leaf materials, Civic Blue Glow, Gold Seals, Lantern Lit, and the Angelic / cherubic visual language. Design focus: largest section focal point, strong vertical silhouette, distinct gameplay landmark, visible from nearby districts, scrolls. Terrain/water context: Terraced Slope; Dry Ground. Magic expression: Road Warding, Blue Order Sigils, Threshold Oaths. No baked labels or text.",
+        "civicRole": "Serves as Section 3 local anchor within Ethervale; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Archive Tower",
+          "show how Ethervale turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 3",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Archive Tower becomes narratively important",
+          "the visible condition of Archive Tower signals political or social stress",
+          "someone uses Archive Tower's public function to redirect crowds or information",
+          "an overlooked detail at Archive Tower reveals how Ethervale really works"
+        ]
+      },
+      {
+        "name": "Records Archives Gold-Seal Monument",
+        "symbolicRole": "Records Archives Gold-Seal Monument concentrates Ethervale's local symbolism into a usable civic landmark: Section 3 local anchor.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles. It belongs to Section 3 (Records / Archives) of Ethervale and should use Subterranean Vaults, Archive Towers, White Limestone Civic Blocks, cedar and gold leaf materials, Gold Seals, Lantern Lit, Civic Blue Glow, and the Angelic / cherubic visual language. Design focus: subordinate to major landmark, scrolls, index cards, wax seals, memory lamps. Terrain/water context: Terraced Slope; Dry Ground. Magic expression: Road Warding, Blue Order Sigils, Threshold Oaths. No baked labels or text.",
+        "civicRole": "Serves as Section 3 local anchor within Ethervale; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Records Archives Gold-Seal Monument",
+          "show how Ethervale turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 3",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Records Archives Gold-Seal Monument becomes narratively important",
+          "the visible condition of Records Archives Gold-Seal Monument signals political or social stress",
+          "someone uses Records Archives Gold-Seal Monument's public function to redirect crowds or information",
+          "an overlooked detail at Records Archives Gold-Seal Monument reveals how Ethervale really works"
+        ]
+      },
+      {
+        "name": "Copyist Hall Nook",
+        "symbolicRole": "Copyist Hall Nook concentrates Ethervale's local symbolism into a usable civic landmark: Section 3 local anchor.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette. It belongs to Section 3 (Records / Archives) of Ethervale and should use White Limestone Civic Blocks, Subterranean Vaults, Archive Towers, cedar and gold leaf materials, Lantern Lit, Civic Blue Glow, Gold Seals, and the Angelic / cherubic visual language. Design focus: archive stacks, ledger halls, vault towers, copyist desks, small local identity prop. Terrain/water context: Terraced Slope; Dry Ground. Magic expression: Road Warding, Blue Order Sigils, Threshold Oaths. No baked labels or text.",
+        "civicRole": "Serves as Section 3 local anchor within Ethervale; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Copyist Hall Nook",
+          "show how Ethervale turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 3",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Copyist Hall Nook becomes narratively important",
+          "the visible condition of Copyist Hall Nook signals political or social stress",
+          "someone uses Copyist Hall Nook's public function to redirect crowds or information",
+          "an overlooked detail at Copyist Hall Nook reveals how Ethervale really works"
+        ]
+      },
+      {
+        "name": "University / Lyceum Civic Hall",
+        "symbolicRole": "University / Lyceum Civic Hall concentrates Ethervale's local symbolism into a usable civic landmark: Section 4 local anchor.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing. It belongs to Section 4 (University / Lyceum) of Ethervale and should use White Limestone Civic Blocks, Lecture Courts, Archive Towers, cedar and gold leaf materials, Star Navigation, Lantern Lit, Civic Blue Glow, and the Angelic / cherubic visual language. Design focus: lecture bells, lecture halls, archive towers, study cloisters, study courts. Terrain/water context: Terraced Slope; Dry Ground. Magic expression: Road Warding, Blue Order Sigils, Threshold Oaths. No baked labels or text.",
+        "civicRole": "Serves as Section 4 local anchor within Ethervale; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving University / Lyceum Civic Hall",
+          "show how Ethervale turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 4",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at University / Lyceum Civic Hall becomes narratively important",
+          "the visible condition of University / Lyceum Civic Hall signals political or social stress",
+          "someone uses University / Lyceum Civic Hall's public function to redirect crowds or information",
+          "an overlooked detail at University / Lyceum Civic Hall reveals how Ethervale really works"
+        ]
+      },
+      {
+        "name": "Star Navigation Monument",
+        "symbolicRole": "Star Navigation Monument concentrates Ethervale's local symbolism into a usable civic landmark: Section 4 local anchor.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles. It belongs to Section 4 (University / Lyceum) of Ethervale and should use Archive Towers, White Limestone Civic Blocks, Lecture Courts, cedar and gold leaf materials, Lantern Lit, Civic Blue Glow, Star Navigation, and the Angelic / cherubic visual language. Design focus: study courts, symbolic civic object, small ceremonial site, local memory marker, subordinate to major landmark. Terrain/water context: Terraced Slope; Dry Ground. Magic expression: Road Warding, Blue Order Sigils, Threshold Oaths. No baked labels or text.",
+        "civicRole": "Serves as Section 4 local anchor within Ethervale; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Star Navigation Monument",
+          "show how Ethervale turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 4",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Star Navigation Monument becomes narratively important",
+          "the visible condition of Star Navigation Monument signals political or social stress",
+          "someone uses Star Navigation Monument's public function to redirect crowds or information",
+          "an overlooked detail at Star Navigation Monument reveals how Ethervale really works"
+        ]
+      },
+      {
+        "name": "Observatory Court Nook",
+        "symbolicRole": "Observatory Court Nook concentrates Ethervale's local symbolism into a usable civic landmark: Section 4 local anchor.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette. It belongs to Section 4 (University / Lyceum) of Ethervale and should use White Limestone Civic Blocks, Lecture Courts, Archive Towers, cedar and gold leaf materials, Star Navigation, Lantern Lit, Civic Blue Glow, and the Angelic / cherubic visual language. Design focus: street-level detail, usable board landmark, subordinate scale, books, ink. Terrain/water context: Terraced Slope; Dry Ground. Magic expression: Road Warding, Blue Order Sigils, Threshold Oaths. No baked labels or text.",
+        "civicRole": "Serves as Section 4 local anchor within Ethervale; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Observatory Court Nook",
+          "show how Ethervale turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 4",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Observatory Court Nook becomes narratively important",
+          "the visible condition of Observatory Court Nook signals political or social stress",
+          "someone uses Observatory Court Nook's public function to redirect crowds or information",
+          "an overlooked detail at Observatory Court Nook reveals how Ethervale really works"
+        ]
+      },
+      {
+        "name": "Observatory / Astronomy Civic Hall",
+        "symbolicRole": "Observatory / Astronomy Civic Hall concentrates Ethervale's local symbolism into a usable civic landmark: Section 5 local anchor.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing. It belongs to Section 5 (Observatory / Astronomy) of Ethervale and should use Archive Towers, Lecture Courts, Cliffside Monasteries, cedar and gold leaf materials, Moon Gate Arches, Civic Blue Glow, Star Navigation, and the Angelic / cherubic visual language. Design focus: board-readable entrance, stars, lenses, brass rings, moon dials. Terrain/water context: Terraced Slope; Dry Ground. Magic expression: Road Warding, Blue Order Sigils, Threshold Oaths. No baked labels or text.",
+        "civicRole": "Serves as Section 5 local anchor within Ethervale; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Observatory / Astronomy Civic Hall",
+          "show how Ethervale turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 5",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Observatory / Astronomy Civic Hall becomes narratively important",
+          "the visible condition of Observatory / Astronomy Civic Hall signals political or social stress",
+          "someone uses Observatory / Astronomy Civic Hall's public function to redirect crowds or information",
+          "an overlooked detail at Observatory / Astronomy Civic Hall reveals how Ethervale really works"
+        ]
+      },
+      {
+        "name": "Star Navigation Monument",
+        "symbolicRole": "Star Navigation Monument concentrates Ethervale's local symbolism into a usable civic landmark: Section 5 local anchor.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles. It belongs to Section 5 (Observatory / Astronomy) of Ethervale and should use Cliffside Monasteries, Archive Towers, Lecture Courts, cedar and gold leaf materials, Moon Gate Arches, Civic Blue Glow, Star Navigation, and the Angelic / cherubic visual language. Design focus: calendar courts, star charts, symbolic civic object, small ceremonial site, local memory marker. Terrain/water context: Terraced Slope; Dry Ground. Magic expression: Road Warding, Blue Order Sigils, Threshold Oaths. No baked labels or text.",
+        "civicRole": "Serves as Section 5 local anchor within Ethervale; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Star Navigation Monument",
+          "show how Ethervale turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 5",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Star Navigation Monument becomes narratively important",
+          "the visible condition of Star Navigation Monument signals political or social stress",
+          "someone uses Star Navigation Monument's public function to redirect crowds or information",
+          "an overlooked detail at Star Navigation Monument reveals how Ethervale really works"
+        ]
+      },
+      {
+        "name": "Celestial Court Nook",
+        "symbolicRole": "Celestial Court Nook concentrates Ethervale's local symbolism into a usable civic landmark: Section 5 local anchor.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette. It belongs to Section 5 (Observatory / Astronomy) of Ethervale and should use Archive Towers, Lecture Courts, Cliffside Monasteries, cedar and gold leaf materials, Star Navigation, Moon Gate Arches, Civic Blue Glow, and the Angelic / cherubic visual language. Design focus: street-level detail, usable board landmark, subordinate scale, stars, lenses. Terrain/water context: Terraced Slope; Dry Ground. Magic expression: Road Warding, Blue Order Sigils, Threshold Oaths. No baked labels or text.",
+        "civicRole": "Serves as Section 5 local anchor within Ethervale; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Celestial Court Nook",
+          "show how Ethervale turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 5",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Celestial Court Nook becomes narratively important",
+          "the visible condition of Celestial Court Nook signals political or social stress",
+          "someone uses Celestial Court Nook's public function to redirect crowds or information",
+          "an overlooked detail at Celestial Court Nook reveals how Ethervale really works"
+        ]
+      }
     ]
   },
   "assetGuidance": {
     "districtDioramaGuidance": [
-      "S1 must show Fortress / Border Wall Civic Hall, Border Wall Beacon, Woven Banners Monument, Watch Bastion Nook, formal gates, blue lamps, and border guards.",
-      "S2 must show Heavy Industry / Foundry Civic Hall, Great Forge, Smoke-Stack Monument, Crucible Hall Nook, forge workers, cooling basins, and soot beneath holiness.",
-      "S3 must show Records / Archives Hall, Archive Tower, Records Archives Gold-Seal Monument, Copyist Hall Nook, ledgers, seals, and clerks.",
-      "S4 must show University / Lyceum Civic Hall, Lecture Hall, Star Navigation Monument, Observatory Court Nook, students, star charts, and public instruction.",
-      "S5 must show Observatory / Astronomy Civic Hall, Star Observatory, Star Navigation Monument, Celestial Court Nook, lenses, astronomers, and high sightlines."
+      "Dioramas must support 25 district slots: S1 covers D01, D02, D03, D06, D07 and uses source-backed anchors Fortress / Border Wall Civic Hall, Border Wall Beacon, Woven Banners Monument, Watch Bastion Nook.",
+      "Dioramas must support 25 district slots: S2 covers D04, D05, D09, D10, D15 and uses source-backed anchors Heavy Industry / Foundry Civic Hall, Great Forge, Smoke-Stack Monument, Crucible Hall Nook.",
+      "Dioramas must support 25 district slots: S3 covers D08, D12, D13, D14, D18 and uses source-backed anchors Records / Archives Hall, Archive Tower, Records Archives Gold-Seal Monument, Copyist Hall Nook.",
+      "Dioramas must support 25 district slots: S4 covers D11, D16, D17, D21, D22 and uses source-backed anchors University / Lyceum Civic Hall, Lecture Hall, Star Navigation Monument, Observatory Court Nook.",
+      "Dioramas must support 25 district slots: S5 covers D19, D20, D23, D24, D25 and uses source-backed anchors Observatory / Astronomy Civic Hall, Star Observatory, Star Navigation Monument, Celestial Court Nook."
     ],
-    "mapBackgroundGuidance": ["Show pale terraces, blue beacon light, misted high courts, forge smoke, archive towers, lecture halls, observatories, and the Seraphic Moon-Gate Choir Spire.", "Border Wall Beacon, Veiled High Court, Great Forge, Archive Tower, Lecture Hall, and Star Observatory must remain legible.", "Seraphic beauty must coexist with soot, records, permits, and procedure."],
-    "requiredVisualElements": ["seraphic citizens", "Border Wall Beacon", "Mist Veils Veiled High Court", "Seraphic Moon-Gate Choir Spire", "Fortress / Border Wall Civic Hall", "Woven Banners Monument", "Watch Bastion Nook", "Great Forge", "Smoke-Stack Monument", "Crucible Hall Nook", "Archive Tower", "Records Archives Gold-Seal Monument", "Copyist Hall Nook", "Lecture Hall", "Star Navigation Monument", "Observatory Court Nook", "Star Observatory", "Celestial Court Nook", "blue lamps", "mist", "pale terraces", "forge smoke"],
-    "elementsToAvoid": ["purely heavenly city", "generic angel palace", "Luminthalas duplicate", "border fortress with no archives or learning", "forge hidden from civic identity", "mist used only as decoration"]
+    "mapBackgroundGuidance": [
+      "Map backgrounds must show Seraphic Moon-Gate Choir Spire as the wonder-scale identity anchor, Mist Veils Veiled High Court at D13, and Border Wall Beacon as the city signal landmark.",
+      "Preserve the five-section spine: S1 Fortress / Border Wall Civic Hall, S2 Heavy Industry / Foundry Civic Hall, S3 Records / Archives Hall, S4 University / Lyceum Civic Hall, S5 Observatory / Astronomy Civic Hall.",
+      "Use roads, terrain, water, civic terraces, walls, markets, courts, or service routes only where they support the exact city identity and tactical readability."
+    ],
+    "requiredVisualElements": [
+      "Seraphic Moon-Gate Choir Spire",
+      "Border Wall Beacon",
+      "Mist Veils Veiled High Court",
+      "Star Observatory",
+      "Great Forge",
+      "Lecture Hall",
+      "Fortress / Border Wall Civic Hall",
+      "Woven Banners Monument",
+      "Watch Bastion Nook",
+      "Heavy Industry / Foundry Civic Hall",
+      "Smoke-Stack Monument",
+      "Crucible Hall Nook",
+      "Records / Archives Hall",
+      "Archive Tower",
+      "Records Archives Gold-Seal Monument",
+      "Copyist Hall Nook",
+      "University / Lyceum Civic Hall",
+      "Star Navigation Monument",
+      "Observatory Court Nook",
+      "Observatory / Astronomy Civic Hall",
+      "Celestial Court Nook",
+      "Moonstone",
+      "Granite",
+      "Cedar",
+      "Gold Leaf",
+      "Smoky Quartz",
+      "Cliffside",
+      "Terraced Slope",
+      "Civic Terraces",
+      "Ward Networks",
+      "Ritual Geometry",
+      "Shadow Veils"
+    ],
+    "elementsToAvoid": [
+      "extra top-level schema sections or research-log content in the JSON",
+      "generic fantasy architecture that ignores exact anchor names",
+      "invented missing street anchors",
+      "readable real-world text labels baked into images",
+      "collapsing the 25-district board into only five playable spaces",
+      "making landmarks decorative when they should have civic, narrative, and asset function"
+    ]
   }
 }

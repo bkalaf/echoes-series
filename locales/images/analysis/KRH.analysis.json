@@ -1,18 +1,1893 @@
 {
-  "metadata": {"schemaVersion": "2.0", "analysisVersion": 2, "cityCode": "KRH", "cityName": "Kassovar Reach", "analysisDate": "2026-07-03", "analystVersion": "gpt-5.5-thinking", "analysisConfidence": "strong-lock", "basedOnImages": ["KRH-HERO-NE-v001", "KRH-HERO-NW-v001", "KRH-HERO-SE-v001", "KRH-HERO-SW-v001", "KRH-STREET-S1-v001", "KRH-STREET-S2-v001", "KRH-STREET-S3-v001", "KRH-STREET-S4-v001", "KRH-STREET-S5-v001"], "basedOnSidecars": ["KRH-HERO-NE-v001.json", "KRH-HERO-NW-v001.json", "KRH-HERO-SE-v001.json", "KRH-HERO-SW-v001.json", "KRH-STREET-S1-v001.json", "KRH-STREET-S2-v001.json", "KRH-STREET-S3-v001.json", "KRH-STREET-S4-v001.json", "KRH-STREET-S5-v001.json"]},
-  "cityDNA": {"coreFantasy": "A wind-exposed flightless-avian border city where walls, foundries, relief halls, observatories, training arenas, and wind-crown government make vigilance civic.", "primaryEmotion": "horizon vigilance", "secondaryEmotion": "disciplined exposure", "readerTakeaway": "Kassovar Reach is not a flying-avian nest city; it commands ground through stride, height, sightlines, watch duty, and civic support systems.", "civilizationThesis": "Kassovar Reach turns long legs, long sight, wind, border defense, forge support, relief, astronomy, and training into readiness as public service.", "visualIdentity": "Cedar, hide, rammed earth, turquoise inlay, dyed wool, border walls, feather-fan roofs, wind-stilt towers, blue watch lamps, forge smoke, relief plazas, observatory towers, training courts, and woven banners.", "culturalIdentity": "Long-legged flightless avian folk whose height expresses grounded vigilance rather than flight envy.", "symbolicIdentity": "Feather fans, wind stilts, border lamps, watch bastions, star instruments, relief notices, forge smoke, and champion gates symbolize vigilance as service."},
-  "canon": {"canonLocks": ["Wonder: Strider Wind-Stilt Aerie of the Long Legs.", "Beacon: Border Wall Beacon.", "Seat of Power: Feather Fan Roofs Wind-Crown Seat.", "Districts: Fortress / Border Wall, Heavy Industry / Foundry, Civic Services, Observatory / Astronomy, Arena / Training.", "Exact uploaded anchors include Fortress / Border Wall Civic Hall, Woven Banners Monument, Watch Bastion Nook, Heavy Industry / Foundry Civic Hall, Great Forge, Smoke-Stack Monument, Crucible Hall Nook, Civic Services Hall, Relief Hall, Civic Services Lantern Monument, Notice Plaza Nook, Observatory / Astronomy Civic Hall, Star Observatory, Star Navigation Monument, Celestial Court Nook, Arena / Training Civic Hall, Training Arena, and Champion Gate Nook."], "provisionalCanon": ["Kassovar Reach's highest virtue is vigilance.", "The image pass confirms exposed plazas, long stairs, watch platforms, and frontier sightlines."], "rejectedReads": ["eagle fortress", "flying avian nesting city", "defense isolated from relief, forge, observatory, and training"], "cautionFlags": ["Use long-legged ground movement, not flight perches.", "Keep defense and civic care paired.", "Preserve exact sidecar anchor names."]},
-  "environment": {"terrain": ["wind-exposed border city", "open frontier approaches", "high wall terraces", "long stair routes", "watch platforms", "training courts", "forge yards"], "water": ["public basins", "relief hall water points", "forge cooling troughs", "storm runoff channels"], "vegetation": ["wind-bent grasses", "border shrubs", "courtyard planters", "hardy training-yard plants"], "climateLighting": ["bright exposed daylight", "wind-clear air", "blue watch-lamp glow", "forge fire", "starry observatory night", "arena torchlight"], "environmentalLogic": "The uploaded images make wind, open approaches, height, and long sightlines into civic infrastructure."},
-  "architecture": {"materials": ["Cedar", "Hide", "Rammed Earth", "Turquoise Inlay", "Dyed Wool", "blue glass lamps", "forge iron"], "forms": ["Strider Wind-Stilt Aerie of the Long Legs", "Feather Fan Roofs Wind-Crown Seat", "Border Wall Beacon", "Fortress / Border Wall Civic Hall", "Watch Bastion Nook", "Great Forge", "Smoke-Stack Monument", "Crucible Hall Nook", "Relief Hall", "Notice Plaza Nook", "Star Observatory", "Celestial Court Nook", "Training Arena", "Champion Gate Nook"], "skyline": ["Wind-stilt aerie as wonder", "Feather Fan Roofs Wind-Crown Seat as authority", "Border Wall Beacon as signal", "star observatory, forge smoke, relief halls, and training banners on exposed terraces"], "lighting": ["blue border lamps", "hard daylight", "forge glow", "relief hall lanterns", "observatory star-light"], "infrastructure": ["border walls", "watch roads", "long stairs", "signal towers", "forge yards", "relief halls", "observatory platforms", "training rings"], "motifs": ["feather fan roofs", "wind stilts", "long-leg silhouettes", "blue watch lamps", "woven banners", "star instruments", "border walls", "champion gates"], "colorLanguage": ["wind pale stone", "watch blue", "turquoise", "forge orange", "dust tan", "feather cream"], "textureLanguage": ["wind-scoured stone", "woven cloth", "feather-fan roofing", "iron fittings", "forge soot", "lens glass"]},
-  "civilization": {"people": "Citizens are long-legged flightless avian folk: tall, watchful, stride-oriented, socially formal, and trained to read distance, dust, and horizon movement.", "occupations": ["border guards", "beacon keepers", "forge workers", "relief clerks", "notice copyists", "astronomers", "lens polishers", "arena trainers", "banner weavers"], "socialClasses": ["Wind-Crown officials", "watch families", "forge guilds", "relief administrators", "observatory scholars", "arena champions", "frontier laborers"], "governance": "Wind-Crown authority assigns watch, relief, star-route interpretation, forge support, and training duties.", "religion": "Wind rites, star watching, banner ceremonies, and watch oaths replace flight worship.", "customs": ["horizon checks", "watch rotations", "border lamp readings", "relief roster posting", "star-route consultations", "arena readiness drills"], "bodyLanguage": ["upright alert posture", "long-stride pacing", "head turns to horizon", "stillness at watch points"], "speechPatterns": ["watch shorthand", "horizon reports", "wind-route terms", "relief roster language", "training rank titles"]},
-  "urbanLife": {"streets": {"appearance": "High, windy, exposed, and disciplined with border walls, blue watch lamps, long stairs, forge halls, relief plazas, star towers, and training courts.", "movement": "Movement follows long stairs, wall walks, wind-stilt platforms, forge roads, relief routes, observatory paths, and training courts.", "sounds": ["wind through banners", "watch bells", "long steps", "forge hammers", "relief clerks", "arena drills"], "smells": ["dry wind", "forge smoke", "dust", "lamp oil", "relief stew"], "lighting": "Hard daylight exposes plazas; blue lamps, forge glow, observatory light, and arena torches define night.", "weatherEffects": "Wind, dust, glare, and horizon haze alter visibility and public readiness.", "dayCycle": "Watch changes, forge work, relief rosters, and drills dominate the day.", "nightCycle": "Blue watch lamps, observatory work, wall patrols, and arena readiness dominate night."}, "shops": {"common": ["watch equipment stalls", "forge tool sellers", "wind-cloth shops", "relief food counters"], "uncommon": ["star chart vendors", "lens polishers", "signal part sellers"], "prestigious": ["Wind-Crown record offices", "observatory instrument halls", "arena champion suppliers"], "exports": ["watch equipment", "wind cloth", "forge tools", "star charts", "training gear"], "imports": ["ore", "coal", "grain", "cloth", "glass", "oil"], "streetFood": ["border stew", "flatbread", "grain cakes", "ration soup"], "services": ["watch assignment", "lamp repair", "relief filing", "star reading", "training instruction"]}, "housing": {"wealthy": "Wind-Crown and watch-family homes with high views and feather-fan roofs.", "middle": "Forge, relief, and observatory family homes with long steps and windbreaks.", "poor": "Border-edge housing and relief-dependent courts near service routes."}},
+  "metadata": {
+    "schemaVersion": "2.0",
+    "analysisVersion": 2,
+    "cityCode": "KRH",
+    "cityName": "Kassovar Reach",
+    "analysisDate": "2026-07-05",
+    "analystVersion": "gpt-5.5-thinking",
+    "analysisConfidence": "strong-lock",
+    "sourceStatus": "full",
+    "districtModel": "five sections; five district slots per section; D13 is the seat of power",
+    "missingStreetSections": [],
+    "basedOnImages": [
+      "KRH-HERO-NE-v001",
+      "KRH-HERO-NW-v001",
+      "KRH-HERO-SE-v001",
+      "KRH-HERO-SW-v001",
+      "KRH-STREET-S1-v001",
+      "KRH-STREET-S2-v001",
+      "KRH-STREET-S3-v001",
+      "KRH-STREET-S4-v001",
+      "KRH-STREET-S5-v001"
+    ],
+    "basedOnSidecars": [
+      "KRH-HERO-NE-v001.json",
+      "KRH-HERO-NW-v001.json",
+      "KRH-HERO-SE-v001.json",
+      "KRH-HERO-SW-v001.json",
+      "KRH-STREET-S1-v001.json",
+      "KRH-STREET-S2-v001.json",
+      "KRH-STREET-S3-v001.json",
+      "KRH-STREET-S4-v001.json",
+      "KRH-STREET-S5-v001.json"
+    ]
+  },
+  "cityDNA": {
+    "coreFantasy": "A long-legged flightless avian folk city where Strider Wind-Stilt Aerie of the Long Legs, Border Wall Beacon, Feather Fan Roofs Wind-Crown Seat, and the five-section district spine turn local identity into functional civic space.",
+    "primaryEmotion": "source-backed civic presence",
+    "secondaryEmotion": "lived-in pressure beneath landmark order",
+    "readerTakeaway": "Kassovar Reach should feel immediately identifiable through exact landmarks and materials, not through generic fantasy-city shorthand.",
+    "civilizationThesis": "Kassovar Reach organizes power through Feather Fan Roofs Wind-Crown Seat, public response through Border Wall Beacon, civic memory through Strider Wind-Stilt Aerie of the Long Legs, and daily life through S1 Fortress / Border Wall Civic Hall, S2 Heavy Industry / Foundry Civic Hall, S3 Civic Services Hall, S4 Observatory / Astronomy Civic Hall, S5 Arena / Training Civic Hall.",
+    "visualIdentity": "Cedar, Hide, Rammed Earth, Turquoise Inlay, Dyed Wool, Dry Stone Paving, Civic Terraces, Cliffside, Beast Bonding, Ancestor Guidance, Flock Sight, and exact anchors including Feather Fan Roofs Wind-Crown Seat, Border Wall Beacon, Strider Wind-Stilt Aerie of the Long Legs, Training Arena, Great Forge, Star Observatory, Fortress / Border Wall Civic Hall, Woven Banners Monument, Watch Bastion Nook, Heavy Industry / Foundry Civic Hall.",
+    "culturalIdentity": "A long-legged flightless avian folk civic culture where architecture, public obligations, roads, landmark approaches, and everyday work must all read as part of the same civilization.",
+    "symbolicIdentity": "The city symbol system is built from exact names and visible functions: Strider Wind-Stilt Aerie of the Long Legs, Border Wall Beacon, Feather Fan Roofs Wind-Crown Seat, and section anchors such as Fortress / Border Wall Civic Hall, Heavy Industry / Foundry Civic Hall, Civic Services Hall, Observatory / Astronomy Civic Hall, Arena / Training Civic Hall."
+  },
+  "canon": {
+    "canonLocks": [
+      "Kassovar Reach uses city code KRH.",
+      "The Wonder is Strider Wind-Stilt Aerie of the Long Legs.",
+      "The Beacon is Border Wall Beacon.",
+      "The Seat of Power is Feather Fan Roofs Wind-Crown Seat and occupies District 13.",
+      "The city uses five sections with five tactical district slots per section.",
+      "The source-backed section spine is: S1 Fortress / Border Wall Civic Hall, S2 Heavy Industry / Foundry Civic Hall, S3 Civic Services Hall, S4 Observatory / Astronomy Civic Hall, S5 Arena / Training Civic Hall.",
+      "Preserve exact anchor name: Feather Fan Roofs Wind-Crown Seat.",
+      "Preserve exact anchor name: Border Wall Beacon.",
+      "Preserve exact anchor name: Strider Wind-Stilt Aerie of the Long Legs.",
+      "Preserve exact anchor name: Training Arena.",
+      "Preserve exact anchor name: Great Forge.",
+      "Preserve exact anchor name: Star Observatory.",
+      "Preserve exact anchor name: Fortress / Border Wall Civic Hall.",
+      "Preserve exact anchor name: Woven Banners Monument.",
+      "Preserve exact anchor name: Watch Bastion Nook.",
+      "Preserve exact anchor name: Heavy Industry / Foundry Civic Hall.",
+      "Preserve exact anchor name: Smoke-Stack Monument.",
+      "Preserve exact anchor name: Crucible Hall Nook.",
+      "Preserve exact anchor name: Civic Services Hall.",
+      "Preserve exact anchor name: Relief Hall.",
+      "Preserve exact anchor name: Civic Services Lantern Monument.",
+      "Preserve exact anchor name: Notice Plaza Nook.",
+      "Preserve exact anchor name: Observatory / Astronomy Civic Hall.",
+      "Preserve exact anchor name: Star Navigation Monument.",
+      "Preserve exact anchor name: Celestial Court Nook.",
+      "Preserve exact anchor name: Arena / Training Civic Hall.",
+      "Preserve exact anchor name: Champion Gate Nook."
+    ],
+    "provisionalCanon": [],
+    "rejectedReads": [
+      "Do not treat Kassovar Reach as a generic fantasy settlement with renamed landmarks.",
+      "Do not collapse the five-section board into a single mood or single district.",
+      "Do not replace exact anchor names with generic summaries.",
+      "Do not invent missing street-section landmarks when a street source is absent."
+    ],
+    "cautionFlags": [
+      "Keep every named Wonder, Beacon, Seat, section civic hall, major landmark, monument, and minor nook exact when present in sidecars.",
+      "If an image appears to deviate from a sidecar, preserve the exact name but avoid overclaiming visual details not supported by the source package.",
+      "Every district asset should remain usable for narrative scenes, tactical board dioramas, and city map backgrounds."
+    ]
+  },
+  "environment": {
+    "terrain": [
+      "Dry Stone Paving",
+      "Civic Terraces",
+      "Cliffside"
+    ],
+    "water": [
+      "dry city ground"
+    ],
+    "vegetation": [
+      "courtyard trees",
+      "balcony planters",
+      "public greenery where visible",
+      "source-backed local vegetation only"
+    ],
+    "climateLighting": [
+      "Beast Bonding",
+      "Ancestor Guidance",
+      "Flock Sight",
+      "daylight",
+      "golden hour",
+      "lantern light",
+      "civic beacon glow"
+    ],
+    "environmentalLogic": "The environment should make Kassovar Reach's exact civic anchors plausible at street scale: terrain routes people toward section landmarks, lighting clarifies public authority, and water or landscape features remain source-backed rather than decorative filler."
+  },
+  "architecture": {
+    "materials": [
+      "Cedar",
+      "Hide",
+      "Rammed Earth",
+      "Turquoise Inlay",
+      "Dyed Wool"
+    ],
+    "forms": [
+      "Feather Fan Roofs Wind-Crown Seat",
+      "Border Wall Beacon",
+      "Strider Wind-Stilt Aerie of the Long Legs",
+      "Training Arena",
+      "Great Forge",
+      "Star Observatory",
+      "Fortress / Border Wall Civic Hall",
+      "Woven Banners Monument",
+      "Watch Bastion Nook",
+      "Heavy Industry / Foundry Civic Hall",
+      "Smoke-Stack Monument",
+      "Crucible Hall Nook",
+      "Civic Services Hall",
+      "Relief Hall",
+      "Civic Services Lantern Monument",
+      "Notice Plaza Nook",
+      "Observatory / Astronomy Civic Hall",
+      "Star Navigation Monument",
+      "Celestial Court Nook",
+      "Arena / Training Civic Hall",
+      "Champion Gate Nook",
+      "section civic halls",
+      "major landmark approaches",
+      "monument frontages",
+      "minor landmark nooks",
+      "district roads and plazas",
+      "D13 authority complex"
+    ],
+    "skyline": [
+      "Strider Wind-Stilt Aerie of the Long Legs",
+      "Feather Fan Roofs Wind-Crown Seat",
+      "Border Wall Beacon",
+      "Training Arena",
+      "Great Forge",
+      "Star Observatory",
+      "Fortress / Border Wall Civic Hall",
+      "Woven Banners Monument",
+      "Watch Bastion Nook"
+    ],
+    "lighting": [
+      "Beast Bonding",
+      "Ancestor Guidance",
+      "Flock Sight",
+      "beacon-state light",
+      "lantern-lit civic paths",
+      "street-level shop and housing light"
+    ],
+    "infrastructure": [
+      "Fortress / Border Wall Civic Hall",
+      "Heavy Industry / Foundry Civic Hall",
+      "Civic Services Hall",
+      "Observatory / Astronomy Civic Hall",
+      "Arena / Training Civic Hall",
+      "roads between district slots",
+      "public thresholds",
+      "plaza edges",
+      "records, permits, markets, services, or rituals implied by anchors"
+    ],
+    "motifs": [
+      "Feather",
+      "Roofs",
+      "Wind-Crown",
+      "Seat",
+      "Border",
+      "Wall",
+      "Beacon",
+      "Strider",
+      "Wind-Stilt",
+      "Aerie",
+      "Long",
+      "Legs",
+      "Training",
+      "Arena",
+      "Great",
+      "Forge"
+    ],
+    "colorLanguage": [
+      "source-backed material colors",
+      "civic blue signal accents",
+      "local textile, stone, metal, vegetation, or water colors from the image package"
+    ],
+    "textureLanguage": [
+      "Cedar",
+      "Hide",
+      "Rammed Earth",
+      "Turquoise Inlay",
+      "Dyed Wool",
+      "worn pedestrian surfaces",
+      "worked civic ornament",
+      "weathered public thresholds",
+      "lived-in shop and housing details"
+    ]
+  },
+  "civilization": {
+    "people": "The population should read as long-legged flightless avian folk and city-specific: citizens occupy streets, shops, public thresholds, and landmark approaches as people who understand the local civic order.",
+    "occupations": [
+      "watch guards",
+      "gate officers",
+      "smiths",
+      "craft workers",
+      "astronomers",
+      "navigators",
+      "district clerks",
+      "craft families",
+      "porters",
+      "maintenance workers",
+      "food sellers",
+      "messengers"
+    ],
+    "socialClasses": [
+      "D13 officials and court staff",
+      "section landmark custodians",
+      "guild and service families",
+      "shopkeepers and artisans",
+      "laborers, carriers, messengers, and maintenance crews",
+      "households tied to local district obligations"
+    ],
+    "governance": "Government is centered on Feather Fan Roofs Wind-Crown Seat. Its authority should be visible through courts, records, public access routes, civic lamps, guards or attendants, and the way citizens respond to D13.",
+    "religion": "Religious or ritual life should only be emphasized where source anchors support it, especially names such as none explicitly dominant in the current anchors.",
+    "customs": [
+      "citizens orient public life around Fortress / Border Wall Civic Hall in Section 1",
+      "citizens orient public life around Heavy Industry / Foundry Civic Hall in Section 2",
+      "citizens orient public life around Civic Services Hall in Section 3",
+      "citizens orient public life around Observatory / Astronomy Civic Hall in Section 4",
+      "citizens orient public life around Arena / Training Civic Hall in Section 5",
+      "beacon changes become public behavior, not background color",
+      "exact landmark names carry social memory and directions",
+      "civic errands happen visibly at thresholds, queues, ledgers, stalls, courts, or shrines"
+    ],
+    "bodyLanguage": [
+      "citizens pause at civic signals",
+      "workers move with practiced familiarity around district anchors",
+      "officials use thresholds and raised places to control attention",
+      "residents treat named landmarks as everyday orientation points"
+    ],
+    "speechPatterns": [
+      "directions use exact landmark names",
+      "public notices are tied to section anchors",
+      "local speech distinguishes civic authority, ordinary errands, and landmark obligations",
+      "people refer to D13 as the seat of power rather than a faction headquarters"
+    ]
+  },
+  "urbanLife": {
+    "streets": {
+      "appearance": "Streets should show Kassovar Reach's exact anchor system at pedestrian scale: S1 Fortress / Border Wall Civic Hall, S2 Heavy Industry / Foundry Civic Hall, S3 Civic Services Hall, S4 Observatory / Astronomy Civic Hall, S5 Arena / Training Civic Hall. Keep roads, plazas, stairs, thresholds, lamps, signs-without-readable-text, props, and civilians aligned to the source-backed materials and landmarks.",
+      "movement": "Movement should be readable for tactical-board assets: citizens pass between 25 district slots, section anchors, D13, service streets, and landmark approaches without visual clutter hiding the civic purpose.",
+      "sounds": [
+        "foot traffic",
+        "vendors and service calls",
+        "tools and carts",
+        "public notices",
+        "landmark-specific sounds from water, bells, animals, machines, or crowds when source-backed",
+        "beacon-state crowd reactions"
+      ],
+      "smells": [
+        "street food",
+        "worked material dust",
+        "lamp oil or smoke",
+        "vegetation or water where source-backed",
+        "worn stone, timber, metal, plaster, or fabric"
+      ],
+      "lighting": "Use the package's source-backed civic lighting, daylight/golden-hour reads, lanterns, and beacon glow. Lighting must help identify authority, safety, and landmark function.",
+      "weatherEffects": "Weather should reinforce the local terrain and materials without overwhelming the city identity or inventing unsupported climate extremes.",
+      "dayCycle": "Day scenes emphasize errands, trade, records, repairs, rituals, food, and section-level movement.",
+      "nightCycle": "Night scenes emphasize lantern routes, closed thresholds, guarded landmarks, quiet work, and beacon visibility."
+    },
+    "shops": {
+      "common": [
+        "food stalls",
+        "repair stalls",
+        "material vendors",
+        "ledger or permit desks",
+        "local craft counters",
+        "street services tied to section anchors"
+      ],
+      "uncommon": [
+        "specialist landmark caretakers",
+        "instrument makers",
+        "ritual suppliers",
+        "map or record copyists",
+        "district-specific guild services"
+      ],
+      "prestigious": [
+        "D13-facing legal or registry services",
+        "elite craft workshops",
+        "landmark commission houses",
+        "official suppliers for civic ceremonies"
+      ],
+      "exports": [
+        "local crafts",
+        "records or seals",
+        "finished materials",
+        "food goods",
+        "specialized tools or ritual goods as supported by anchors"
+      ],
+      "imports": [
+        "rare materials",
+        "dyes, oils, spices, timber, stone, metal, glass, or cloth as needed by the architecture",
+        "outside records and trade goods"
+      ],
+      "streetFood": [
+        "flatbread or local bread",
+        "stew or grilled skewers",
+        "fruit or preserved food",
+        "tea or civic-square drinks",
+        "portable worker meals"
+      ],
+      "services": [
+        "directions by landmark",
+        "message running",
+        "permit help",
+        "repairs",
+        "food service",
+        "transport or porterage",
+        "public notice posting"
+      ]
+    },
+    "housing": {
+      "wealthy": "Prestige housing clusters near Feather Fan Roofs Wind-Crown Seat, high terraces, or landmark-facing routes, using the best source-backed materials and controlled views of civic space.",
+      "middle": "Shop-over-house units, courtyard homes, guild-adjacent apartments, and family rooms near section anchors.",
+      "poor": "Smaller back-street rooms, work-adjacent housing, shared courtyards, service alleys, patched materials, and dense but still city-specific lived-in detail."
+    }
+  },
   "districts": [
-    {"sectionNumber": 1, "name": "Fortress / Border Wall", "civicPurpose": "Frontier warning, perimeter responsibility, watch duty, and public defense.", "visualIdentity": "Fortress / Border Wall Civic Hall, Border Wall Beacon, Woven Banners Monument, Watch Bastion Nook.", "emotionalIdentity": "alert, exposed, severe", "gameplayAssetNeeds": ["Fortress / Border Wall Civic Hall", "Border Wall Beacon", "Woven Banners Monument", "Watch Bastion Nook"], "narrativeUse": ["frontier warning", "watch duty", "Beacon alarm"], "landmark": "Border Wall Beacon", "minorLandmarks": ["Woven Banners Monument", "Watch Bastion Nook"]},
-    {"sectionNumber": 2, "name": "Heavy Industry / Foundry", "civicPurpose": "Forge support, repair, and industrial readiness.", "visualIdentity": "Heavy Industry / Foundry Civic Hall, Great Forge, Smoke-Stack Monument, Crucible Hall Nook.", "emotionalIdentity": "hot, useful, disciplined", "gameplayAssetNeeds": ["Heavy Industry / Foundry Civic Hall", "Great Forge", "Smoke-Stack Monument", "Crucible Hall Nook"], "narrativeUse": ["toolmaking", "critical forge failure"], "landmark": "Great Forge", "minorLandmarks": ["Smoke-Stack Monument", "Crucible Hall Nook"]},
-    {"sectionNumber": 3, "name": "Civic Services", "civicPurpose": "Public aid, relief rosters, and emergency coordination.", "visualIdentity": "Civic Services Hall, Relief Hall, Civic Services Lantern Monument, Notice Plaza Nook.", "emotionalIdentity": "practical, compassionate, strained", "gameplayAssetNeeds": ["Civic Services Hall", "Relief Hall", "Civic Services Lantern Monument", "Notice Plaza Nook"], "narrativeUse": ["public aid", "roster dispute", "civilian pressure"], "landmark": "Relief Hall", "minorLandmarks": ["Civic Services Lantern Monument", "Notice Plaza Nook"]},
-    {"sectionNumber": 4, "name": "Observatory / Astronomy", "civicPurpose": "Navigation, long-range watching, sky law, and route planning.", "visualIdentity": "Observatory / Astronomy Civic Hall, Star Observatory, Star Navigation Monument, Celestial Court Nook.", "emotionalIdentity": "clear, elevated, precise", "gameplayAssetNeeds": ["Observatory / Astronomy Civic Hall", "Star Observatory", "Star Navigation Monument", "Celestial Court Nook"], "narrativeUse": ["route planning", "prediction dispute"], "landmark": "Star Observatory", "minorLandmarks": ["Star Navigation Monument", "Celestial Court Nook"]},
-    {"sectionNumber": 5, "name": "Arena / Training", "civicPurpose": "Leg discipline, readiness, and frontier endurance.", "visualIdentity": "Arena / Training Civic Hall, Training Arena, Woven Banners Monument, Champion Gate Nook.", "emotionalIdentity": "disciplined, physical, public", "gameplayAssetNeeds": ["Arena / Training Civic Hall", "Training Arena", "Woven Banners Monument", "Champion Gate Nook"], "narrativeUse": ["readiness drill", "public test"], "landmark": "Training Arena", "minorLandmarks": ["Woven Banners Monument", "Champion Gate Nook"]}
+    {
+      "districtNumber": 1,
+      "districtId": "D01",
+      "sectionNumber": 1,
+      "name": "D01 — Fortress / Border Wall Civic Hall Civic-Anchor Precinct",
+      "civicPurpose": "This district turns Section 1's source-backed anchor set into a board-scale civic space: Fortress / Border Wall Civic Hall, Border Wall Beacon, Woven Banners Monument, Watch Bastion Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Kassovar Reach.",
+      "visualIdentity": "Use Fortress / Border Wall Civic Hall as the main read. Keep exact source anchors visible where applicable: Fortress / Border Wall Civic Hall, Border Wall Beacon, Woven Banners Monument, Watch Bastion Nook. The district should share Kassovar Reach's long-legged flightless avian folk identity, Cedar, Hide, Rammed Earth, Turquoise Inlay, and Dry Stone Paving, Civic Terraces, Cliffside without becoming generic.",
+      "emotionalIdentity": "Locally grounded, with Kassovar Reach's larger mood shaped by Strider Wind-Stilt Aerie of the Long Legs, Border Wall Beacon, and Feather Fan Roofs Wind-Crown Seat.",
+      "gameplayAssetNeeds": [
+        "Fortress / Border Wall Civic Hall",
+        "Border Wall Beacon",
+        "Woven Banners Monument",
+        "Watch Bastion Nook",
+        "Section 1 pedestrian-scale props",
+        "Kassovar Reach civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Fortress / Border Wall Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Fortress / Border Wall Civic Hall",
+      "minorLandmarks": [
+        "Border Wall Beacon",
+        "Woven Banners Monument",
+        "Watch Bastion Nook"
+      ]
+    },
+    {
+      "districtNumber": 2,
+      "districtId": "D02",
+      "sectionNumber": 1,
+      "name": "D02 — Border Wall Beacon Landmark Approach",
+      "civicPurpose": "This district turns Section 1's source-backed anchor set into a board-scale civic space: Fortress / Border Wall Civic Hall, Border Wall Beacon, Woven Banners Monument, Watch Bastion Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Kassovar Reach.",
+      "visualIdentity": "Use Border Wall Beacon as the main read. Keep exact source anchors visible where applicable: Fortress / Border Wall Civic Hall, Border Wall Beacon, Woven Banners Monument, Watch Bastion Nook. The district should share Kassovar Reach's long-legged flightless avian folk identity, Cedar, Hide, Rammed Earth, Turquoise Inlay, and Dry Stone Paving, Civic Terraces, Cliffside without becoming generic.",
+      "emotionalIdentity": "Public-facing, with Kassovar Reach's larger mood shaped by Strider Wind-Stilt Aerie of the Long Legs, Border Wall Beacon, and Feather Fan Roofs Wind-Crown Seat.",
+      "gameplayAssetNeeds": [
+        "Border Wall Beacon",
+        "Fortress / Border Wall Civic Hall",
+        "Woven Banners Monument",
+        "Watch Bastion Nook",
+        "Section 1 pedestrian-scale props",
+        "Kassovar Reach civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Border Wall Beacon",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "Conjunction response, rumor spread, or authority pressure"
+      ],
+      "landmark": "Border Wall Beacon",
+      "minorLandmarks": [
+        "Fortress / Border Wall Civic Hall",
+        "Woven Banners Monument",
+        "Watch Bastion Nook"
+      ]
+    },
+    {
+      "districtNumber": 3,
+      "districtId": "D03",
+      "sectionNumber": 1,
+      "name": "D03 — Woven Banners Monument Monument Frontage",
+      "civicPurpose": "This district turns Section 1's source-backed anchor set into a board-scale civic space: Fortress / Border Wall Civic Hall, Border Wall Beacon, Woven Banners Monument, Watch Bastion Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Kassovar Reach.",
+      "visualIdentity": "Use Woven Banners Monument as the main read. Keep exact source anchors visible where applicable: Fortress / Border Wall Civic Hall, Border Wall Beacon, Woven Banners Monument, Watch Bastion Nook. The district should share Kassovar Reach's long-legged flightless avian folk identity, Cedar, Hide, Rammed Earth, Turquoise Inlay, and Dry Stone Paving, Civic Terraces, Cliffside without becoming generic.",
+      "emotionalIdentity": "Memorial or symbolic, with Kassovar Reach's larger mood shaped by Strider Wind-Stilt Aerie of the Long Legs, Border Wall Beacon, and Feather Fan Roofs Wind-Crown Seat.",
+      "gameplayAssetNeeds": [
+        "Woven Banners Monument",
+        "Fortress / Border Wall Civic Hall",
+        "Border Wall Beacon",
+        "Watch Bastion Nook",
+        "Section 1 pedestrian-scale props",
+        "Kassovar Reach civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Woven Banners Monument",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Woven Banners Monument",
+      "minorLandmarks": [
+        "Fortress / Border Wall Civic Hall",
+        "Border Wall Beacon",
+        "Watch Bastion Nook"
+      ]
+    },
+    {
+      "districtNumber": 6,
+      "districtId": "D06",
+      "sectionNumber": 1,
+      "name": "D06 — Watch Bastion Nook Neighborhood Nook",
+      "civicPurpose": "This district turns Section 1's source-backed anchor set into a board-scale civic space: Fortress / Border Wall Civic Hall, Border Wall Beacon, Woven Banners Monument, Watch Bastion Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Kassovar Reach.",
+      "visualIdentity": "Use Watch Bastion Nook as the main read. Keep exact source anchors visible where applicable: Fortress / Border Wall Civic Hall, Border Wall Beacon, Woven Banners Monument, Watch Bastion Nook. The district should share Kassovar Reach's long-legged flightless avian folk identity, Cedar, Hide, Rammed Earth, Turquoise Inlay, and Dry Stone Paving, Civic Terraces, Cliffside without becoming generic.",
+      "emotionalIdentity": "Intimate and lived-in, with Kassovar Reach's larger mood shaped by Strider Wind-Stilt Aerie of the Long Legs, Border Wall Beacon, and Feather Fan Roofs Wind-Crown Seat.",
+      "gameplayAssetNeeds": [
+        "Watch Bastion Nook",
+        "Fortress / Border Wall Civic Hall",
+        "Border Wall Beacon",
+        "Woven Banners Monument",
+        "Section 1 pedestrian-scale props",
+        "Kassovar Reach civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Watch Bastion Nook",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Watch Bastion Nook",
+      "minorLandmarks": [
+        "Fortress / Border Wall Civic Hall",
+        "Border Wall Beacon",
+        "Woven Banners Monument"
+      ]
+    },
+    {
+      "districtNumber": 7,
+      "districtId": "D07",
+      "sectionNumber": 1,
+      "name": "D07 — Fortress / Border Wall Civic Hall Supporting Streets",
+      "civicPurpose": "This district turns Section 1's source-backed anchor set into a board-scale civic space: Fortress / Border Wall Civic Hall, Border Wall Beacon, Woven Banners Monument, Watch Bastion Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Kassovar Reach.",
+      "visualIdentity": "Use Fortress / Border Wall Civic Hall as the main read. Keep exact source anchors visible where applicable: Fortress / Border Wall Civic Hall, Border Wall Beacon, Woven Banners Monument, Watch Bastion Nook. The district should share Kassovar Reach's long-legged flightless avian folk identity, Cedar, Hide, Rammed Earth, Turquoise Inlay, and Dry Stone Paving, Civic Terraces, Cliffside without becoming generic.",
+      "emotionalIdentity": "Connective and practical, with Kassovar Reach's larger mood shaped by Strider Wind-Stilt Aerie of the Long Legs, Border Wall Beacon, and Feather Fan Roofs Wind-Crown Seat.",
+      "gameplayAssetNeeds": [
+        "Fortress / Border Wall Civic Hall",
+        "Border Wall Beacon",
+        "Woven Banners Monument",
+        "Watch Bastion Nook",
+        "Section 1 pedestrian-scale props",
+        "Kassovar Reach civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Fortress / Border Wall Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Fortress / Border Wall Civic Hall",
+      "minorLandmarks": [
+        "Border Wall Beacon",
+        "Woven Banners Monument",
+        "Watch Bastion Nook"
+      ]
+    },
+    {
+      "districtNumber": 4,
+      "districtId": "D04",
+      "sectionNumber": 2,
+      "name": "D04 — Heavy Industry / Foundry Civic Hall Civic-Anchor Precinct",
+      "civicPurpose": "This district turns Section 2's source-backed anchor set into a board-scale civic space: Heavy Industry / Foundry Civic Hall, Great Forge, Smoke-Stack Monument, Crucible Hall Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Kassovar Reach.",
+      "visualIdentity": "Use Heavy Industry / Foundry Civic Hall as the main read. Keep exact source anchors visible where applicable: Heavy Industry / Foundry Civic Hall, Great Forge, Smoke-Stack Monument, Crucible Hall Nook. The district should share Kassovar Reach's long-legged flightless avian folk identity, Cedar, Hide, Rammed Earth, Turquoise Inlay, and Dry Stone Paving, Civic Terraces, Cliffside without becoming generic.",
+      "emotionalIdentity": "Locally grounded, with Kassovar Reach's larger mood shaped by Strider Wind-Stilt Aerie of the Long Legs, Border Wall Beacon, and Feather Fan Roofs Wind-Crown Seat.",
+      "gameplayAssetNeeds": [
+        "Heavy Industry / Foundry Civic Hall",
+        "Great Forge",
+        "Smoke-Stack Monument",
+        "Crucible Hall Nook",
+        "Section 2 pedestrian-scale props",
+        "Kassovar Reach civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Heavy Industry / Foundry Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Heavy Industry / Foundry Civic Hall",
+      "minorLandmarks": [
+        "Great Forge",
+        "Smoke-Stack Monument",
+        "Crucible Hall Nook"
+      ]
+    },
+    {
+      "districtNumber": 5,
+      "districtId": "D05",
+      "sectionNumber": 2,
+      "name": "D05 — Great Forge Landmark Approach",
+      "civicPurpose": "This district turns Section 2's source-backed anchor set into a board-scale civic space: Heavy Industry / Foundry Civic Hall, Great Forge, Smoke-Stack Monument, Crucible Hall Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Kassovar Reach.",
+      "visualIdentity": "Use Great Forge as the main read. Keep exact source anchors visible where applicable: Heavy Industry / Foundry Civic Hall, Great Forge, Smoke-Stack Monument, Crucible Hall Nook. The district should share Kassovar Reach's long-legged flightless avian folk identity, Cedar, Hide, Rammed Earth, Turquoise Inlay, and Dry Stone Paving, Civic Terraces, Cliffside without becoming generic.",
+      "emotionalIdentity": "Public-facing, with Kassovar Reach's larger mood shaped by Strider Wind-Stilt Aerie of the Long Legs, Border Wall Beacon, and Feather Fan Roofs Wind-Crown Seat.",
+      "gameplayAssetNeeds": [
+        "Great Forge",
+        "Heavy Industry / Foundry Civic Hall",
+        "Smoke-Stack Monument",
+        "Crucible Hall Nook",
+        "Section 2 pedestrian-scale props",
+        "Kassovar Reach civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Great Forge",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Great Forge",
+      "minorLandmarks": [
+        "Heavy Industry / Foundry Civic Hall",
+        "Smoke-Stack Monument",
+        "Crucible Hall Nook"
+      ]
+    },
+    {
+      "districtNumber": 9,
+      "districtId": "D09",
+      "sectionNumber": 2,
+      "name": "D09 — Smoke-Stack Monument Monument Frontage",
+      "civicPurpose": "This district turns Section 2's source-backed anchor set into a board-scale civic space: Heavy Industry / Foundry Civic Hall, Great Forge, Smoke-Stack Monument, Crucible Hall Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Kassovar Reach.",
+      "visualIdentity": "Use Smoke-Stack Monument as the main read. Keep exact source anchors visible where applicable: Heavy Industry / Foundry Civic Hall, Great Forge, Smoke-Stack Monument, Crucible Hall Nook. The district should share Kassovar Reach's long-legged flightless avian folk identity, Cedar, Hide, Rammed Earth, Turquoise Inlay, and Dry Stone Paving, Civic Terraces, Cliffside without becoming generic.",
+      "emotionalIdentity": "Memorial or symbolic, with Kassovar Reach's larger mood shaped by Strider Wind-Stilt Aerie of the Long Legs, Border Wall Beacon, and Feather Fan Roofs Wind-Crown Seat.",
+      "gameplayAssetNeeds": [
+        "Smoke-Stack Monument",
+        "Heavy Industry / Foundry Civic Hall",
+        "Great Forge",
+        "Crucible Hall Nook",
+        "Section 2 pedestrian-scale props",
+        "Kassovar Reach civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Smoke-Stack Monument",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Smoke-Stack Monument",
+      "minorLandmarks": [
+        "Heavy Industry / Foundry Civic Hall",
+        "Great Forge",
+        "Crucible Hall Nook"
+      ]
+    },
+    {
+      "districtNumber": 10,
+      "districtId": "D10",
+      "sectionNumber": 2,
+      "name": "D10 — Crucible Hall Nook Neighborhood Nook",
+      "civicPurpose": "This district turns Section 2's source-backed anchor set into a board-scale civic space: Heavy Industry / Foundry Civic Hall, Great Forge, Smoke-Stack Monument, Crucible Hall Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Kassovar Reach.",
+      "visualIdentity": "Use Crucible Hall Nook as the main read. Keep exact source anchors visible where applicable: Heavy Industry / Foundry Civic Hall, Great Forge, Smoke-Stack Monument, Crucible Hall Nook. The district should share Kassovar Reach's long-legged flightless avian folk identity, Cedar, Hide, Rammed Earth, Turquoise Inlay, and Dry Stone Paving, Civic Terraces, Cliffside without becoming generic.",
+      "emotionalIdentity": "Intimate and lived-in, with Kassovar Reach's larger mood shaped by Strider Wind-Stilt Aerie of the Long Legs, Border Wall Beacon, and Feather Fan Roofs Wind-Crown Seat.",
+      "gameplayAssetNeeds": [
+        "Crucible Hall Nook",
+        "Heavy Industry / Foundry Civic Hall",
+        "Great Forge",
+        "Smoke-Stack Monument",
+        "Section 2 pedestrian-scale props",
+        "Kassovar Reach civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Crucible Hall Nook",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Crucible Hall Nook",
+      "minorLandmarks": [
+        "Heavy Industry / Foundry Civic Hall",
+        "Great Forge",
+        "Smoke-Stack Monument"
+      ]
+    },
+    {
+      "districtNumber": 15,
+      "districtId": "D15",
+      "sectionNumber": 2,
+      "name": "D15 — Heavy Industry / Foundry Civic Hall Supporting Streets",
+      "civicPurpose": "This district turns Section 2's source-backed anchor set into a board-scale civic space: Heavy Industry / Foundry Civic Hall, Great Forge, Smoke-Stack Monument, Crucible Hall Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Kassovar Reach.",
+      "visualIdentity": "Use Heavy Industry / Foundry Civic Hall as the main read. Keep exact source anchors visible where applicable: Heavy Industry / Foundry Civic Hall, Great Forge, Smoke-Stack Monument, Crucible Hall Nook. The district should share Kassovar Reach's long-legged flightless avian folk identity, Cedar, Hide, Rammed Earth, Turquoise Inlay, and Dry Stone Paving, Civic Terraces, Cliffside without becoming generic.",
+      "emotionalIdentity": "Connective and practical, with Kassovar Reach's larger mood shaped by Strider Wind-Stilt Aerie of the Long Legs, Border Wall Beacon, and Feather Fan Roofs Wind-Crown Seat.",
+      "gameplayAssetNeeds": [
+        "Heavy Industry / Foundry Civic Hall",
+        "Great Forge",
+        "Smoke-Stack Monument",
+        "Crucible Hall Nook",
+        "Section 2 pedestrian-scale props",
+        "Kassovar Reach civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Heavy Industry / Foundry Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Heavy Industry / Foundry Civic Hall",
+      "minorLandmarks": [
+        "Great Forge",
+        "Smoke-Stack Monument",
+        "Crucible Hall Nook"
+      ]
+    },
+    {
+      "districtNumber": 8,
+      "districtId": "D08",
+      "sectionNumber": 3,
+      "name": "D08 — Civic Services Hall Civic-Anchor Precinct",
+      "civicPurpose": "This district turns Section 3's source-backed anchor set into a board-scale civic space: Civic Services Hall, Relief Hall, Civic Services Lantern Monument, Notice Plaza Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Kassovar Reach.",
+      "visualIdentity": "Use Civic Services Hall as the main read. Keep exact source anchors visible where applicable: Civic Services Hall, Relief Hall, Civic Services Lantern Monument, Notice Plaza Nook. The district should share Kassovar Reach's long-legged flightless avian folk identity, Cedar, Hide, Rammed Earth, Turquoise Inlay, and Dry Stone Paving, Civic Terraces, Cliffside without becoming generic.",
+      "emotionalIdentity": "Locally grounded, with Kassovar Reach's larger mood shaped by Strider Wind-Stilt Aerie of the Long Legs, Border Wall Beacon, and Feather Fan Roofs Wind-Crown Seat.",
+      "gameplayAssetNeeds": [
+        "Civic Services Hall",
+        "Relief Hall",
+        "Civic Services Lantern Monument",
+        "Notice Plaza Nook",
+        "Section 3 pedestrian-scale props",
+        "Kassovar Reach civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Civic Services Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Civic Services Hall",
+      "minorLandmarks": [
+        "Relief Hall",
+        "Civic Services Lantern Monument",
+        "Notice Plaza Nook"
+      ]
+    },
+    {
+      "districtNumber": 12,
+      "districtId": "D12",
+      "sectionNumber": 3,
+      "name": "D12 — Relief Hall Landmark Approach",
+      "civicPurpose": "This district turns Section 3's source-backed anchor set into a board-scale civic space: Civic Services Hall, Relief Hall, Civic Services Lantern Monument, Notice Plaza Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Kassovar Reach.",
+      "visualIdentity": "Use Relief Hall as the main read. Keep exact source anchors visible where applicable: Civic Services Hall, Relief Hall, Civic Services Lantern Monument, Notice Plaza Nook. The district should share Kassovar Reach's long-legged flightless avian folk identity, Cedar, Hide, Rammed Earth, Turquoise Inlay, and Dry Stone Paving, Civic Terraces, Cliffside without becoming generic.",
+      "emotionalIdentity": "Public-facing, with Kassovar Reach's larger mood shaped by Strider Wind-Stilt Aerie of the Long Legs, Border Wall Beacon, and Feather Fan Roofs Wind-Crown Seat.",
+      "gameplayAssetNeeds": [
+        "Relief Hall",
+        "Civic Services Hall",
+        "Civic Services Lantern Monument",
+        "Notice Plaza Nook",
+        "Section 3 pedestrian-scale props",
+        "Kassovar Reach civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Relief Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Relief Hall",
+      "minorLandmarks": [
+        "Civic Services Hall",
+        "Civic Services Lantern Monument",
+        "Notice Plaza Nook"
+      ]
+    },
+    {
+      "districtNumber": 13,
+      "districtId": "D13",
+      "sectionNumber": 3,
+      "name": "D13 — Feather Fan Roofs Wind-Crown Seat Seat of Power District",
+      "civicPurpose": "This district turns Section 3's source-backed anchor set into a board-scale civic space: Civic Services Hall, Relief Hall, Civic Services Lantern Monument, Notice Plaza Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Kassovar Reach.",
+      "visualIdentity": "Use Feather Fan Roofs Wind-Crown Seat as the main read. Keep exact source anchors visible where applicable: Civic Services Hall, Relief Hall, Civic Services Lantern Monument, Notice Plaza Nook. The district should share Kassovar Reach's long-legged flightless avian folk identity, Cedar, Hide, Rammed Earth, Turquoise Inlay, and Dry Stone Paving, Civic Terraces, Cliffside without becoming generic.",
+      "emotionalIdentity": "Memorial or symbolic, with Kassovar Reach's larger mood shaped by Strider Wind-Stilt Aerie of the Long Legs, Border Wall Beacon, and Feather Fan Roofs Wind-Crown Seat.",
+      "gameplayAssetNeeds": [
+        "Feather Fan Roofs Wind-Crown Seat",
+        "Civic Services Hall",
+        "Relief Hall",
+        "Civic Services Lantern Monument",
+        "Notice Plaza Nook",
+        "Section 3 pedestrian-scale props",
+        "Kassovar Reach civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Feather Fan Roofs Wind-Crown Seat",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "Conjunction response, rumor spread, or authority pressure"
+      ],
+      "landmark": "Feather Fan Roofs Wind-Crown Seat",
+      "minorLandmarks": [
+        "Civic Services Hall",
+        "Relief Hall",
+        "Civic Services Lantern Monument",
+        "Notice Plaza Nook"
+      ]
+    },
+    {
+      "districtNumber": 14,
+      "districtId": "D14",
+      "sectionNumber": 3,
+      "name": "D14 — Notice Plaza Nook Neighborhood Nook",
+      "civicPurpose": "This district turns Section 3's source-backed anchor set into a board-scale civic space: Civic Services Hall, Relief Hall, Civic Services Lantern Monument, Notice Plaza Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Kassovar Reach.",
+      "visualIdentity": "Use Notice Plaza Nook as the main read. Keep exact source anchors visible where applicable: Civic Services Hall, Relief Hall, Civic Services Lantern Monument, Notice Plaza Nook. The district should share Kassovar Reach's long-legged flightless avian folk identity, Cedar, Hide, Rammed Earth, Turquoise Inlay, and Dry Stone Paving, Civic Terraces, Cliffside without becoming generic.",
+      "emotionalIdentity": "Intimate and lived-in, with Kassovar Reach's larger mood shaped by Strider Wind-Stilt Aerie of the Long Legs, Border Wall Beacon, and Feather Fan Roofs Wind-Crown Seat.",
+      "gameplayAssetNeeds": [
+        "Notice Plaza Nook",
+        "Civic Services Hall",
+        "Relief Hall",
+        "Civic Services Lantern Monument",
+        "Section 3 pedestrian-scale props",
+        "Kassovar Reach civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Notice Plaza Nook",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Notice Plaza Nook",
+      "minorLandmarks": [
+        "Civic Services Hall",
+        "Relief Hall",
+        "Civic Services Lantern Monument"
+      ]
+    },
+    {
+      "districtNumber": 18,
+      "districtId": "D18",
+      "sectionNumber": 3,
+      "name": "D18 — Civic Services Hall Supporting Streets",
+      "civicPurpose": "This district turns Section 3's source-backed anchor set into a board-scale civic space: Civic Services Hall, Relief Hall, Civic Services Lantern Monument, Notice Plaza Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Kassovar Reach.",
+      "visualIdentity": "Use Civic Services Hall as the main read. Keep exact source anchors visible where applicable: Civic Services Hall, Relief Hall, Civic Services Lantern Monument, Notice Plaza Nook. The district should share Kassovar Reach's long-legged flightless avian folk identity, Cedar, Hide, Rammed Earth, Turquoise Inlay, and Dry Stone Paving, Civic Terraces, Cliffside without becoming generic.",
+      "emotionalIdentity": "Connective and practical, with Kassovar Reach's larger mood shaped by Strider Wind-Stilt Aerie of the Long Legs, Border Wall Beacon, and Feather Fan Roofs Wind-Crown Seat.",
+      "gameplayAssetNeeds": [
+        "Civic Services Hall",
+        "Relief Hall",
+        "Civic Services Lantern Monument",
+        "Notice Plaza Nook",
+        "Section 3 pedestrian-scale props",
+        "Kassovar Reach civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Civic Services Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Civic Services Hall",
+      "minorLandmarks": [
+        "Relief Hall",
+        "Civic Services Lantern Monument",
+        "Notice Plaza Nook"
+      ]
+    },
+    {
+      "districtNumber": 11,
+      "districtId": "D11",
+      "sectionNumber": 4,
+      "name": "D11 — Observatory / Astronomy Civic Hall Civic-Anchor Precinct",
+      "civicPurpose": "This district turns Section 4's source-backed anchor set into a board-scale civic space: Observatory / Astronomy Civic Hall, Star Observatory, Star Navigation Monument, Celestial Court Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Kassovar Reach.",
+      "visualIdentity": "Use Observatory / Astronomy Civic Hall as the main read. Keep exact source anchors visible where applicable: Observatory / Astronomy Civic Hall, Star Observatory, Star Navigation Monument, Celestial Court Nook. The district should share Kassovar Reach's long-legged flightless avian folk identity, Cedar, Hide, Rammed Earth, Turquoise Inlay, and Dry Stone Paving, Civic Terraces, Cliffside without becoming generic.",
+      "emotionalIdentity": "Locally grounded, with Kassovar Reach's larger mood shaped by Strider Wind-Stilt Aerie of the Long Legs, Border Wall Beacon, and Feather Fan Roofs Wind-Crown Seat.",
+      "gameplayAssetNeeds": [
+        "Observatory / Astronomy Civic Hall",
+        "Star Observatory",
+        "Star Navigation Monument",
+        "Celestial Court Nook",
+        "Section 4 pedestrian-scale props",
+        "Kassovar Reach civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Observatory / Astronomy Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Observatory / Astronomy Civic Hall",
+      "minorLandmarks": [
+        "Star Observatory",
+        "Star Navigation Monument",
+        "Celestial Court Nook"
+      ]
+    },
+    {
+      "districtNumber": 16,
+      "districtId": "D16",
+      "sectionNumber": 4,
+      "name": "D16 — Star Observatory Landmark Approach",
+      "civicPurpose": "This district turns Section 4's source-backed anchor set into a board-scale civic space: Observatory / Astronomy Civic Hall, Star Observatory, Star Navigation Monument, Celestial Court Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Kassovar Reach.",
+      "visualIdentity": "Use Star Observatory as the main read. Keep exact source anchors visible where applicable: Observatory / Astronomy Civic Hall, Star Observatory, Star Navigation Monument, Celestial Court Nook. The district should share Kassovar Reach's long-legged flightless avian folk identity, Cedar, Hide, Rammed Earth, Turquoise Inlay, and Dry Stone Paving, Civic Terraces, Cliffside without becoming generic.",
+      "emotionalIdentity": "Public-facing, with Kassovar Reach's larger mood shaped by Strider Wind-Stilt Aerie of the Long Legs, Border Wall Beacon, and Feather Fan Roofs Wind-Crown Seat.",
+      "gameplayAssetNeeds": [
+        "Star Observatory",
+        "Observatory / Astronomy Civic Hall",
+        "Star Navigation Monument",
+        "Celestial Court Nook",
+        "Section 4 pedestrian-scale props",
+        "Kassovar Reach civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Star Observatory",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Star Observatory",
+      "minorLandmarks": [
+        "Observatory / Astronomy Civic Hall",
+        "Star Navigation Monument",
+        "Celestial Court Nook"
+      ]
+    },
+    {
+      "districtNumber": 17,
+      "districtId": "D17",
+      "sectionNumber": 4,
+      "name": "D17 — Star Navigation Monument Monument Frontage",
+      "civicPurpose": "This district turns Section 4's source-backed anchor set into a board-scale civic space: Observatory / Astronomy Civic Hall, Star Observatory, Star Navigation Monument, Celestial Court Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Kassovar Reach.",
+      "visualIdentity": "Use Star Navigation Monument as the main read. Keep exact source anchors visible where applicable: Observatory / Astronomy Civic Hall, Star Observatory, Star Navigation Monument, Celestial Court Nook. The district should share Kassovar Reach's long-legged flightless avian folk identity, Cedar, Hide, Rammed Earth, Turquoise Inlay, and Dry Stone Paving, Civic Terraces, Cliffside without becoming generic.",
+      "emotionalIdentity": "Memorial or symbolic, with Kassovar Reach's larger mood shaped by Strider Wind-Stilt Aerie of the Long Legs, Border Wall Beacon, and Feather Fan Roofs Wind-Crown Seat.",
+      "gameplayAssetNeeds": [
+        "Star Navigation Monument",
+        "Observatory / Astronomy Civic Hall",
+        "Star Observatory",
+        "Celestial Court Nook",
+        "Section 4 pedestrian-scale props",
+        "Kassovar Reach civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Star Navigation Monument",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Star Navigation Monument",
+      "minorLandmarks": [
+        "Observatory / Astronomy Civic Hall",
+        "Star Observatory",
+        "Celestial Court Nook"
+      ]
+    },
+    {
+      "districtNumber": 21,
+      "districtId": "D21",
+      "sectionNumber": 4,
+      "name": "D21 — Celestial Court Nook Neighborhood Nook",
+      "civicPurpose": "This district turns Section 4's source-backed anchor set into a board-scale civic space: Observatory / Astronomy Civic Hall, Star Observatory, Star Navigation Monument, Celestial Court Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Kassovar Reach.",
+      "visualIdentity": "Use Celestial Court Nook as the main read. Keep exact source anchors visible where applicable: Observatory / Astronomy Civic Hall, Star Observatory, Star Navigation Monument, Celestial Court Nook. The district should share Kassovar Reach's long-legged flightless avian folk identity, Cedar, Hide, Rammed Earth, Turquoise Inlay, and Dry Stone Paving, Civic Terraces, Cliffside without becoming generic.",
+      "emotionalIdentity": "Intimate and lived-in, with Kassovar Reach's larger mood shaped by Strider Wind-Stilt Aerie of the Long Legs, Border Wall Beacon, and Feather Fan Roofs Wind-Crown Seat.",
+      "gameplayAssetNeeds": [
+        "Celestial Court Nook",
+        "Observatory / Astronomy Civic Hall",
+        "Star Observatory",
+        "Star Navigation Monument",
+        "Section 4 pedestrian-scale props",
+        "Kassovar Reach civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Celestial Court Nook",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Celestial Court Nook",
+      "minorLandmarks": [
+        "Observatory / Astronomy Civic Hall",
+        "Star Observatory",
+        "Star Navigation Monument"
+      ]
+    },
+    {
+      "districtNumber": 22,
+      "districtId": "D22",
+      "sectionNumber": 4,
+      "name": "D22 — Observatory / Astronomy Civic Hall Supporting Streets",
+      "civicPurpose": "This district turns Section 4's source-backed anchor set into a board-scale civic space: Observatory / Astronomy Civic Hall, Star Observatory, Star Navigation Monument, Celestial Court Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Kassovar Reach.",
+      "visualIdentity": "Use Observatory / Astronomy Civic Hall as the main read. Keep exact source anchors visible where applicable: Observatory / Astronomy Civic Hall, Star Observatory, Star Navigation Monument, Celestial Court Nook. The district should share Kassovar Reach's long-legged flightless avian folk identity, Cedar, Hide, Rammed Earth, Turquoise Inlay, and Dry Stone Paving, Civic Terraces, Cliffside without becoming generic.",
+      "emotionalIdentity": "Connective and practical, with Kassovar Reach's larger mood shaped by Strider Wind-Stilt Aerie of the Long Legs, Border Wall Beacon, and Feather Fan Roofs Wind-Crown Seat.",
+      "gameplayAssetNeeds": [
+        "Observatory / Astronomy Civic Hall",
+        "Star Observatory",
+        "Star Navigation Monument",
+        "Celestial Court Nook",
+        "Section 4 pedestrian-scale props",
+        "Kassovar Reach civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Observatory / Astronomy Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Observatory / Astronomy Civic Hall",
+      "minorLandmarks": [
+        "Star Observatory",
+        "Star Navigation Monument",
+        "Celestial Court Nook"
+      ]
+    },
+    {
+      "districtNumber": 19,
+      "districtId": "D19",
+      "sectionNumber": 5,
+      "name": "D19 — Arena / Training Civic Hall Civic-Anchor Precinct",
+      "civicPurpose": "This district turns Section 5's source-backed anchor set into a board-scale civic space: Arena / Training Civic Hall, Training Arena, Woven Banners Monument, Champion Gate Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Kassovar Reach.",
+      "visualIdentity": "Use Arena / Training Civic Hall as the main read. Keep exact source anchors visible where applicable: Arena / Training Civic Hall, Training Arena, Woven Banners Monument, Champion Gate Nook. The district should share Kassovar Reach's long-legged flightless avian folk identity, Cedar, Hide, Rammed Earth, Turquoise Inlay, and Dry Stone Paving, Civic Terraces, Cliffside without becoming generic.",
+      "emotionalIdentity": "Locally grounded, with Kassovar Reach's larger mood shaped by Strider Wind-Stilt Aerie of the Long Legs, Border Wall Beacon, and Feather Fan Roofs Wind-Crown Seat.",
+      "gameplayAssetNeeds": [
+        "Arena / Training Civic Hall",
+        "Training Arena",
+        "Woven Banners Monument",
+        "Champion Gate Nook",
+        "Section 5 pedestrian-scale props",
+        "Kassovar Reach civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Arena / Training Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Arena / Training Civic Hall",
+      "minorLandmarks": [
+        "Training Arena",
+        "Woven Banners Monument",
+        "Champion Gate Nook"
+      ]
+    },
+    {
+      "districtNumber": 20,
+      "districtId": "D20",
+      "sectionNumber": 5,
+      "name": "D20 — Training Arena Landmark Approach",
+      "civicPurpose": "This district turns Section 5's source-backed anchor set into a board-scale civic space: Arena / Training Civic Hall, Training Arena, Woven Banners Monument, Champion Gate Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Kassovar Reach.",
+      "visualIdentity": "Use Training Arena as the main read. Keep exact source anchors visible where applicable: Arena / Training Civic Hall, Training Arena, Woven Banners Monument, Champion Gate Nook. The district should share Kassovar Reach's long-legged flightless avian folk identity, Cedar, Hide, Rammed Earth, Turquoise Inlay, and Dry Stone Paving, Civic Terraces, Cliffside without becoming generic.",
+      "emotionalIdentity": "Public-facing, with Kassovar Reach's larger mood shaped by Strider Wind-Stilt Aerie of the Long Legs, Border Wall Beacon, and Feather Fan Roofs Wind-Crown Seat.",
+      "gameplayAssetNeeds": [
+        "Training Arena",
+        "Arena / Training Civic Hall",
+        "Woven Banners Monument",
+        "Champion Gate Nook",
+        "Section 5 pedestrian-scale props",
+        "Kassovar Reach civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Training Arena",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Training Arena",
+      "minorLandmarks": [
+        "Arena / Training Civic Hall",
+        "Woven Banners Monument",
+        "Champion Gate Nook"
+      ]
+    },
+    {
+      "districtNumber": 23,
+      "districtId": "D23",
+      "sectionNumber": 5,
+      "name": "D23 — Woven Banners Monument Monument Frontage",
+      "civicPurpose": "This district turns Section 5's source-backed anchor set into a board-scale civic space: Arena / Training Civic Hall, Training Arena, Woven Banners Monument, Champion Gate Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Kassovar Reach.",
+      "visualIdentity": "Use Woven Banners Monument as the main read. Keep exact source anchors visible where applicable: Arena / Training Civic Hall, Training Arena, Woven Banners Monument, Champion Gate Nook. The district should share Kassovar Reach's long-legged flightless avian folk identity, Cedar, Hide, Rammed Earth, Turquoise Inlay, and Dry Stone Paving, Civic Terraces, Cliffside without becoming generic.",
+      "emotionalIdentity": "Memorial or symbolic, with Kassovar Reach's larger mood shaped by Strider Wind-Stilt Aerie of the Long Legs, Border Wall Beacon, and Feather Fan Roofs Wind-Crown Seat.",
+      "gameplayAssetNeeds": [
+        "Woven Banners Monument",
+        "Arena / Training Civic Hall",
+        "Training Arena",
+        "Champion Gate Nook",
+        "Section 5 pedestrian-scale props",
+        "Kassovar Reach civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Woven Banners Monument",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Woven Banners Monument",
+      "minorLandmarks": [
+        "Arena / Training Civic Hall",
+        "Training Arena",
+        "Champion Gate Nook"
+      ]
+    },
+    {
+      "districtNumber": 24,
+      "districtId": "D24",
+      "sectionNumber": 5,
+      "name": "D24 — Champion Gate Nook Neighborhood Nook",
+      "civicPurpose": "This district turns Section 5's source-backed anchor set into a board-scale civic space: Arena / Training Civic Hall, Training Arena, Woven Banners Monument, Champion Gate Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Kassovar Reach.",
+      "visualIdentity": "Use Champion Gate Nook as the main read. Keep exact source anchors visible where applicable: Arena / Training Civic Hall, Training Arena, Woven Banners Monument, Champion Gate Nook. The district should share Kassovar Reach's long-legged flightless avian folk identity, Cedar, Hide, Rammed Earth, Turquoise Inlay, and Dry Stone Paving, Civic Terraces, Cliffside without becoming generic.",
+      "emotionalIdentity": "Intimate and lived-in, with Kassovar Reach's larger mood shaped by Strider Wind-Stilt Aerie of the Long Legs, Border Wall Beacon, and Feather Fan Roofs Wind-Crown Seat.",
+      "gameplayAssetNeeds": [
+        "Champion Gate Nook",
+        "Arena / Training Civic Hall",
+        "Training Arena",
+        "Woven Banners Monument",
+        "Section 5 pedestrian-scale props",
+        "Kassovar Reach civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Champion Gate Nook",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Champion Gate Nook",
+      "minorLandmarks": [
+        "Arena / Training Civic Hall",
+        "Training Arena",
+        "Woven Banners Monument"
+      ]
+    },
+    {
+      "districtNumber": 25,
+      "districtId": "D25",
+      "sectionNumber": 5,
+      "name": "D25 — Arena / Training Civic Hall Supporting Streets",
+      "civicPurpose": "This district turns Section 5's source-backed anchor set into a board-scale civic space: Arena / Training Civic Hall, Training Arena, Woven Banners Monument, Champion Gate Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Kassovar Reach.",
+      "visualIdentity": "Use Arena / Training Civic Hall as the main read. Keep exact source anchors visible where applicable: Arena / Training Civic Hall, Training Arena, Woven Banners Monument, Champion Gate Nook. The district should share Kassovar Reach's long-legged flightless avian folk identity, Cedar, Hide, Rammed Earth, Turquoise Inlay, and Dry Stone Paving, Civic Terraces, Cliffside without becoming generic.",
+      "emotionalIdentity": "Connective and practical, with Kassovar Reach's larger mood shaped by Strider Wind-Stilt Aerie of the Long Legs, Border Wall Beacon, and Feather Fan Roofs Wind-Crown Seat.",
+      "gameplayAssetNeeds": [
+        "Arena / Training Civic Hall",
+        "Training Arena",
+        "Woven Banners Monument",
+        "Champion Gate Nook",
+        "Section 5 pedestrian-scale props",
+        "Kassovar Reach civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Arena / Training Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Arena / Training Civic Hall",
+      "minorLandmarks": [
+        "Training Arena",
+        "Woven Banners Monument",
+        "Champion Gate Nook"
+      ]
+    }
   ],
-  "landmarks": {"wonder": {"name": "Strider Wind-Stilt Aerie of the Long Legs", "symbolicRole": "Height, stride, wind, and civic watching without flight.", "visualRole": "Wind-stilt aerie of high platforms, feather-fan rooflines, and horizon terraces.", "civicRole": "Watch rites, horizon observance, and discipline vows.", "narrativeUse": ["watch ceremony", "frontier vow"], "assetUse": ["map wonder", "wind-stilt skyline anchor"], "sensoryIdentity": ["wind", "cloth snap", "blue lamps"], "storyHooks": ["A wind-stilt rite proves vigilance is service, not suspicion."]}, "beacon": {"name": "Border Wall Beacon", "symbolicRole": "The wall as first warning system.", "visualRole": "Blue-lit beacon embedded in fortress wall and watch bastions.", "civicRole": "Coordinates watch posts, relief halls, forge support, observatory staff, and training grounds.", "narrativeUse": ["frontier warning", "watch muster"], "assetUse": ["S1 centerpiece"], "sensoryIdentity": ["blue light", "wind", "horns"], "storyHooks": ["A Beacon change sends relief clerks and forge crews moving as fast as guards."]}, "seatOfPower": {"name": "Feather Fan Roofs Wind-Crown Seat", "symbolicRole": "Watch authority and public records made government.", "visualRole": "Central authority with feather-fan roofs, terraces, command platforms, and blue lamps.", "civicRole": "Border rulings, relief decisions, watch assignments, and star-route disputes.", "narrativeUse": ["border ruling", "relief decision"], "assetUse": ["seat-of-power marker"], "sensoryIdentity": ["wind chimes", "paper records", "blue glass"], "storyHooks": ["A Wind-Crown order reveals who vigilance protects."]}, "majorLandmarks": [{"name": "Great Forge", "symbolicRole": "Readiness made material.", "visualRole": "Forge halls, smoke stacks, and crucible court.", "civicRole": "Toolmaking and repair.", "narrativeUse": ["repair crisis"], "assetUse": ["S2 diorama"], "sensoryIdentity": ["hot iron", "hammering"], "storyHooks": ["A forge delay weakens the watch system."]}, {"name": "Relief Hall", "symbolicRole": "Civic care behind vigilance.", "visualRole": "Notice plaza, blue lamps, ration counters, and rosters.", "civicRole": "Public aid and civilian coordination.", "narrativeUse": ["aid conflict"], "assetUse": ["S3 diorama"], "sensoryIdentity": ["paper", "stew"], "storyHooks": ["A relief roster shows the wall already failed someone."]}, {"name": "Star Observatory", "symbolicRole": "Watching made intellectual.", "visualRole": "Lenses, star monument, and high platforms.", "civicRole": "Navigation and prediction.", "narrativeUse": ["long-range watching"], "assetUse": ["S4 diorama"], "sensoryIdentity": ["lens glass", "cold air"], "storyHooks": ["An observatory reading says the threat is behind the watchers."]}, {"name": "Training Arena", "symbolicRole": "Stride trained into readiness.", "visualRole": "Long-legged lanes, champion gate, woven banners.", "civicRole": "Training and public tests.", "narrativeUse": ["readiness drill"], "assetUse": ["S5 diorama"], "sensoryIdentity": ["dust", "footfalls"], "storyHooks": ["A champion gate test rewards the citizen who notices danger first."]}]},
-  "assetGuidance": {"districtDioramaGuidance": ["S1: Fortress / Border Wall Civic Hall, Border Wall Beacon, Woven Banners Monument, Watch Bastion Nook.", "S2: Heavy Industry / Foundry Civic Hall, Great Forge, Smoke-Stack Monument, Crucible Hall Nook.", "S3: Civic Services Hall, Relief Hall, Civic Services Lantern Monument, Notice Plaza Nook.", "S4: Observatory / Astronomy Civic Hall, Star Observatory, Star Navigation Monument, Celestial Court Nook.", "S5: Arena / Training Civic Hall, Training Arena, Woven Banners Monument, Champion Gate Nook."], "mapBackgroundGuidance": ["Keep Strider Wind-Stilt Aerie, Border Wall Beacon, and Feather Fan Roofs Wind-Crown Seat legible together.", "Use long stairs, wind-stilt towers, border walls, relief plazas, observatories, forge smoke, and training banners."], "requiredVisualElements": ["Strider Wind-Stilt Aerie of the Long Legs", "Border Wall Beacon", "Feather Fan Roofs Wind-Crown Seat", "Watch Bastion Nook", "Great Forge", "Smoke-Stack Monument", "Crucible Hall Nook", "Relief Hall", "Civic Services Lantern Monument", "Notice Plaza Nook", "Star Observatory", "Star Navigation Monument", "Celestial Court Nook", "Training Arena", "Champion Gate Nook"], "elementsToAvoid": ["flying avian nest city", "eagle fortress cliché", "defense without civic care"]}
+  "landmarks": {
+    "wonder": {
+      "name": "Strider Wind-Stilt Aerie of the Long Legs",
+      "symbolicRole": "Strider Wind-Stilt Aerie of the Long Legs concentrates Kassovar Reach's local symbolism into a usable civic landmark: city wonder, separate far skyline anchor.",
+      "visualRole": "A one-per-city wonder: spectacular, unmistakable, and larger than every section landmark. It turns Kassovar Reach's geography, race identity, material culture, and civic magic into one public symbol. Built for Kassovar Reach's long-legged flightless avian folk population, it uses Cedar, Hide, Rammed Earth, Turquoise Inlay, Dyed Wool across Dry Stone Paving, Civic Terraces, Cliffside; water context: dry city ground; magic expression: Beast Bonding, Ancestor Guidance, Flock Sight. It must read clearly as a high-fantasy tactical-board asset with no baked labels or text.",
+      "civicRole": "Serves as city wonder, separate far skyline anchor within Kassovar Reach; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+      "narrativeUse": [
+        "stage scenes involving Strider Wind-Stilt Aerie of the Long Legs",
+        "show how Kassovar Reach turns landmark symbolism into civic pressure",
+        "anchor public movement and crowd behavior",
+        "give writers a concrete place for announcements, disputes, errands, or rituals"
+      ],
+      "assetUse": [
+        "city landmark asset",
+        "map background landmark marker",
+        "visual continuity anchor across hero and street scenes",
+        "scale reference for civilians, roads, plazas, and props"
+      ],
+      "sensoryIdentity": [
+        "local foot traffic",
+        "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+        "public voices and civic work nearby",
+        "ambient city light and weathering",
+        "close pedestrian-scale details rather than abstract skyline-only treatment"
+      ],
+      "storyHooks": [
+        "a routine civic action at Strider Wind-Stilt Aerie of the Long Legs becomes narratively important",
+        "the visible condition of Strider Wind-Stilt Aerie of the Long Legs signals political or social stress",
+        "someone uses Strider Wind-Stilt Aerie of the Long Legs's public function to redirect crowds or information",
+        "an overlooked detail at Strider Wind-Stilt Aerie of the Long Legs reveals how Kassovar Reach really works"
+      ]
+    },
+    "beacon": {
+      "name": "Border Wall Beacon",
+      "symbolicRole": "Border Wall Beacon concentrates Kassovar Reach's local symbolism into a usable civic landmark: Section 1 beacon, near/front civic signal anchor.",
+      "visualRole": "A largest local landmark in this section, subordinate only to the city wonder and citadel. It belongs to Section 1 (Fortress / Border Wall) of Kassovar Reach and should use White Limestone Civic Blocks, Obsidian Fortresses, Cyclopean Megaliths, hide and dyed wool materials, Carved Totems, Civic Blue Glow, Woven Banners, and the long-legged flightless avian folk visual language. Design focus: guard posts, largest section focal point, strong vertical silhouette, distinct gameplay landmark, visible from nearby districts. Terrain/water context: Civic Terraces; Dry Ground. Magic expression: Blood Staunching, Herbal Spirits, Law Binding. No baked labels or text. Single city beacon fixed to section 1; visible civic signal apparatus, strong vertical silhouette, and public approach space.",
+      "civicRole": "Serves as Section 1 beacon, near/front civic signal anchor within Kassovar Reach; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+      "narrativeUse": [
+        "stage scenes involving Border Wall Beacon",
+        "show how Kassovar Reach turns landmark symbolism into civic pressure",
+        "anchor public movement and crowd behavior",
+        "give writers a concrete place for announcements, disputes, errands, or rituals"
+      ],
+      "assetUse": [
+        "district diorama anchor for Section 1",
+        "map background landmark marker",
+        "visual continuity anchor across hero and street scenes",
+        "scale reference for civilians, roads, plazas, and props"
+      ],
+      "sensoryIdentity": [
+        "local foot traffic",
+        "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+        "public voices and civic work nearby",
+        "beacon or lamp glow when applicable",
+        "close pedestrian-scale details rather than abstract skyline-only treatment"
+      ],
+      "storyHooks": [
+        "a routine civic action at Border Wall Beacon becomes narratively important",
+        "the visible condition of Border Wall Beacon signals political or social stress",
+        "someone uses Border Wall Beacon's public function to redirect crowds or information",
+        "an overlooked detail at Border Wall Beacon reveals how Kassovar Reach really works"
+      ]
+    },
+    "seatOfPower": {
+      "name": "Feather Fan Roofs Wind-Crown Seat",
+      "symbolicRole": "Feather Fan Roofs Wind-Crown Seat concentrates Kassovar Reach's local symbolism into a usable civic landmark: dominant central civic anchor / District 13 seat of power.",
+      "visualRole": "The district-13 seat of power: courts, audience terraces, sealed archives, command platforms, and the visible apparatus of government. It is not a faction HQ; it is the city's central civic authority. Built for Kassovar Reach's long-legged flightless avian folk population, it uses Cedar, Hide, Rammed Earth, Turquoise Inlay, Dyed Wool across Dry Stone Paving, Civic Terraces, Cliffside; water context: dry city ground; magic expression: Beast Bonding, Ancestor Guidance, Flock Sight. It must read clearly as a high-fantasy tactical-board asset with no baked labels or text.",
+      "civicRole": "Serves as dominant central civic anchor / District 13 seat of power within Kassovar Reach; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+      "narrativeUse": [
+        "stage scenes involving Feather Fan Roofs Wind-Crown Seat",
+        "show how Kassovar Reach turns landmark symbolism into civic pressure",
+        "anchor public movement and crowd behavior",
+        "give writers a concrete place for announcements, disputes, errands, or rituals"
+      ],
+      "assetUse": [
+        "city landmark asset",
+        "map background landmark marker",
+        "visual continuity anchor across hero and street scenes",
+        "scale reference for civilians, roads, plazas, and props"
+      ],
+      "sensoryIdentity": [
+        "local foot traffic",
+        "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+        "public voices and civic work nearby",
+        "ambient city light and weathering",
+        "close pedestrian-scale details rather than abstract skyline-only treatment"
+      ],
+      "storyHooks": [
+        "a routine civic action at Feather Fan Roofs Wind-Crown Seat becomes narratively important",
+        "the visible condition of Feather Fan Roofs Wind-Crown Seat signals political or social stress",
+        "someone uses Feather Fan Roofs Wind-Crown Seat's public function to redirect crowds or information",
+        "an overlooked detail at Feather Fan Roofs Wind-Crown Seat reveals how Kassovar Reach really works"
+      ]
+    },
+    "majorLandmarks": [
+      {
+        "name": "Training Arena",
+        "symbolicRole": "Training Arena concentrates Kassovar Reach's local symbolism into a usable civic landmark: additional major landmark selected for this hero-view camera angle.",
+        "visualRole": "A largest local landmark in this section, subordinate only to the city wonder and citadel. It belongs to Section 5 (Arena / Training) of Kassovar Reach and should use Temple Platforms, Obsidian Fortresses, Lecture Courts, hide and dyed wool materials, Woven Banners, Red Fabric Awnings, Carved Totems, and the long-legged flightless avian folk visual language. Design focus: strong vertical silhouette, distinct gameplay landmark, visible from nearby districts, banners, sand floors. Terrain/water context: Civic Terraces; Dry Ground. Magic expression: Blood Staunching, Herbal Spirits, Law Binding. No baked labels or text.",
+        "civicRole": "Serves as additional major landmark selected for this hero-view camera angle within Kassovar Reach; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Training Arena",
+          "show how Kassovar Reach turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 5",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Training Arena becomes narratively important",
+          "the visible condition of Training Arena signals political or social stress",
+          "someone uses Training Arena's public function to redirect crowds or information",
+          "an overlooked detail at Training Arena reveals how Kassovar Reach really works"
+        ]
+      },
+      {
+        "name": "Great Forge",
+        "symbolicRole": "Great Forge concentrates Kassovar Reach's local symbolism into a usable civic landmark: additional major landmark selected for this hero-view camera angle.",
+        "visualRole": "A largest local landmark in this section, subordinate only to the city wonder and citadel. It belongs to Section 2 (Heavy Industry / Foundry) of Kassovar Reach and should use Forge Halls, Obsidian Fortresses, Subterranean Vaults, hide and dyed wool materials, Forge Smoke Columns, Red Fabric Awnings, Civic Blue Glow, and the long-legged flightless avian folk visual language. Design focus: strong vertical silhouette, distinct gameplay landmark, visible from nearby districts, sparks, chains. Terrain/water context: Civic Terraces; Dry Ground. Magic expression: Blood Staunching, Herbal Spirits, Law Binding. No baked labels or text.",
+        "civicRole": "Serves as additional major landmark selected for this hero-view camera angle within Kassovar Reach; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Great Forge",
+          "show how Kassovar Reach turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 2",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Great Forge becomes narratively important",
+          "the visible condition of Great Forge signals political or social stress",
+          "someone uses Great Forge's public function to redirect crowds or information",
+          "an overlooked detail at Great Forge reveals how Kassovar Reach really works"
+        ]
+      },
+      {
+        "name": "Star Observatory",
+        "symbolicRole": "Star Observatory concentrates Kassovar Reach's local symbolism into a usable civic landmark: additional major landmark selected for this hero-view camera angle.",
+        "visualRole": "A largest local landmark in this section, subordinate only to the city wonder and citadel. It belongs to Section 4 (Observatory / Astronomy) of Kassovar Reach and should use Archive Towers, Lecture Courts, Cliffside Monasteries, hide and dyed wool materials, Moon Gate Arches, Civic Blue Glow, Star Navigation, and the long-legged flightless avian folk visual language. Design focus: lens towers, calendar courts, star charts, largest section focal point, strong vertical silhouette. Terrain/water context: Civic Terraces; Dry Ground. Magic expression: Blood Staunching, Herbal Spirits, Law Binding. No baked labels or text.",
+        "civicRole": "Serves as additional major landmark selected for this hero-view camera angle within Kassovar Reach; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Star Observatory",
+          "show how Kassovar Reach turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 4",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Star Observatory becomes narratively important",
+          "the visible condition of Star Observatory signals political or social stress",
+          "someone uses Star Observatory's public function to redirect crowds or information",
+          "an overlooked detail at Star Observatory reveals how Kassovar Reach really works"
+        ]
+      },
+      {
+        "name": "Fortress / Border Wall Civic Hall",
+        "symbolicRole": "Fortress / Border Wall Civic Hall concentrates Kassovar Reach's local symbolism into a usable civic landmark: Section 1 local anchor.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing. It belongs to Section 1 (Fortress / Border Wall) of Kassovar Reach and should use Obsidian Fortresses, Cyclopean Megaliths, White Limestone Civic Blocks, hide and dyed wool materials, Carved Totems, Civic Blue Glow, Woven Banners, and the long-legged flightless avian folk visual language. Design focus: guard posts, institutional anchor, public-facing administration, clear central silhouette, board-readable entrance. Terrain/water context: Civic Terraces; Dry Ground. Magic expression: Blood Staunching, Herbal Spirits, Law Binding. No baked labels or text.",
+        "civicRole": "Serves as Section 1 local anchor within Kassovar Reach; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Fortress / Border Wall Civic Hall",
+          "show how Kassovar Reach turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 1",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Fortress / Border Wall Civic Hall becomes narratively important",
+          "the visible condition of Fortress / Border Wall Civic Hall signals political or social stress",
+          "someone uses Fortress / Border Wall Civic Hall's public function to redirect crowds or information",
+          "an overlooked detail at Fortress / Border Wall Civic Hall reveals how Kassovar Reach really works"
+        ]
+      },
+      {
+        "name": "Woven Banners Monument",
+        "symbolicRole": "Woven Banners Monument concentrates Kassovar Reach's local symbolism into a usable civic landmark: Section 1 local anchor.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles. It belongs to Section 1 (Fortress / Border Wall) of Kassovar Reach and should use White Limestone Civic Blocks, Obsidian Fortresses, Cyclopean Megaliths, hide and dyed wool materials, Woven Banners, Carved Totems, Civic Blue Glow, and the long-legged flightless avian folk visual language. Design focus: shield marks, signal fires, curtain walls, gatehouses, bastions. Terrain/water context: Civic Terraces; Dry Ground. Magic expression: Blood Staunching, Herbal Spirits, Law Binding. No baked labels or text.",
+        "civicRole": "Serves as Section 1 local anchor within Kassovar Reach; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Woven Banners Monument",
+          "show how Kassovar Reach turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 1",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Woven Banners Monument becomes narratively important",
+          "the visible condition of Woven Banners Monument signals political or social stress",
+          "someone uses Woven Banners Monument's public function to redirect crowds or information",
+          "an overlooked detail at Woven Banners Monument reveals how Kassovar Reach really works"
+        ]
+      },
+      {
+        "name": "Watch Bastion Nook",
+        "symbolicRole": "Watch Bastion Nook concentrates Kassovar Reach's local symbolism into a usable civic landmark: Section 1 local anchor.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette. It belongs to Section 1 (Fortress / Border Wall) of Kassovar Reach and should use Cyclopean Megaliths, White Limestone Civic Blocks, Obsidian Fortresses, hide and dyed wool materials, Carved Totems, Civic Blue Glow, Woven Banners, and the long-legged flightless avian folk visual language. Design focus: gatehouses, bastions, guard posts, small local identity prop, street-level detail. Terrain/water context: Civic Terraces; Dry Ground. Magic expression: Blood Staunching, Herbal Spirits, Law Binding. No baked labels or text.",
+        "civicRole": "Serves as Section 1 local anchor within Kassovar Reach; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Watch Bastion Nook",
+          "show how Kassovar Reach turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 1",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Watch Bastion Nook becomes narratively important",
+          "the visible condition of Watch Bastion Nook signals political or social stress",
+          "someone uses Watch Bastion Nook's public function to redirect crowds or information",
+          "an overlooked detail at Watch Bastion Nook reveals how Kassovar Reach really works"
+        ]
+      },
+      {
+        "name": "Heavy Industry / Foundry Civic Hall",
+        "symbolicRole": "Heavy Industry / Foundry Civic Hall concentrates Kassovar Reach's local symbolism into a usable civic landmark: Section 2 local anchor.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing. It belongs to Section 2 (Heavy Industry / Foundry) of Kassovar Reach and should use Forge Halls, Obsidian Fortresses, Subterranean Vaults, hide and dyed wool materials, Forge Smoke Columns, Red Fabric Awnings, Civic Blue Glow, and the long-legged flightless avian folk visual language. Design focus: board-readable entrance, sparks, chains, anvils, molten channels. Terrain/water context: Civic Terraces; Dry Ground. Magic expression: Blood Staunching, Herbal Spirits, Law Binding. No baked labels or text.",
+        "civicRole": "Serves as Section 2 local anchor within Kassovar Reach; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Heavy Industry / Foundry Civic Hall",
+          "show how Kassovar Reach turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 2",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Heavy Industry / Foundry Civic Hall becomes narratively important",
+          "the visible condition of Heavy Industry / Foundry Civic Hall signals political or social stress",
+          "someone uses Heavy Industry / Foundry Civic Hall's public function to redirect crowds or information",
+          "an overlooked detail at Heavy Industry / Foundry Civic Hall reveals how Kassovar Reach really works"
+        ]
+      },
+      {
+        "name": "Smoke-Stack Monument",
+        "symbolicRole": "Smoke-Stack Monument concentrates Kassovar Reach's local symbolism into a usable civic landmark: Section 2 local anchor.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles. It belongs to Section 2 (Heavy Industry / Foundry) of Kassovar Reach and should use Forge Halls, Obsidian Fortresses, Subterranean Vaults, hide and dyed wool materials, Forge Smoke Columns, Red Fabric Awnings, Civic Blue Glow, and the long-legged flightless avian folk visual language. Design focus: ore yards, symbolic civic object, small ceremonial site, local memory marker, subordinate to major landmark. Terrain/water context: Civic Terraces; Dry Ground. Magic expression: Blood Staunching, Herbal Spirits, Law Binding. No baked labels or text.",
+        "civicRole": "Serves as Section 2 local anchor within Kassovar Reach; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Smoke-Stack Monument",
+          "show how Kassovar Reach turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 2",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Smoke-Stack Monument becomes narratively important",
+          "the visible condition of Smoke-Stack Monument signals political or social stress",
+          "someone uses Smoke-Stack Monument's public function to redirect crowds or information",
+          "an overlooked detail at Smoke-Stack Monument reveals how Kassovar Reach really works"
+        ]
+      },
+      {
+        "name": "Crucible Hall Nook",
+        "symbolicRole": "Crucible Hall Nook concentrates Kassovar Reach's local symbolism into a usable civic landmark: Section 2 local anchor.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette. It belongs to Section 2 (Heavy Industry / Foundry) of Kassovar Reach and should use Obsidian Fortresses, Subterranean Vaults, Forge Halls, hide and dyed wool materials, Civic Blue Glow, Forge Smoke Columns, Red Fabric Awnings, and the long-legged flightless avian folk visual language. Design focus: subordinate scale, sparks, chains, anvils, molten channels. Terrain/water context: Civic Terraces; Dry Ground. Magic expression: Blood Staunching, Herbal Spirits, Law Binding. No baked labels or text.",
+        "civicRole": "Serves as Section 2 local anchor within Kassovar Reach; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Crucible Hall Nook",
+          "show how Kassovar Reach turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 2",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Crucible Hall Nook becomes narratively important",
+          "the visible condition of Crucible Hall Nook signals political or social stress",
+          "someone uses Crucible Hall Nook's public function to redirect crowds or information",
+          "an overlooked detail at Crucible Hall Nook reveals how Kassovar Reach really works"
+        ]
+      },
+      {
+        "name": "Civic Services Hall",
+        "symbolicRole": "Civic Services Hall concentrates Kassovar Reach's local symbolism into a usable civic landmark: Section 3 local anchor.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing. It belongs to Section 3 (Civic Services) of Kassovar Reach and should use Market Arcades, Reed Pavilions, White Limestone Civic Blocks, hide and dyed wool materials, Red Fabric Awnings, Lantern Lit, Civic Blue Glow, and the long-legged flightless avian folk visual language. Design focus: notice boards, institutional anchor, public-facing administration, clear central silhouette, board-readable entrance. Terrain/water context: Civic Terraces; Dry Ground. Magic expression: Blood Staunching, Herbal Spirits, Law Binding. No baked labels or text.",
+        "civicRole": "Serves as Section 3 local anchor within Kassovar Reach; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Civic Services Hall",
+          "show how Kassovar Reach turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 3",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Civic Services Hall becomes narratively important",
+          "the visible condition of Civic Services Hall signals political or social stress",
+          "someone uses Civic Services Hall's public function to redirect crowds or information",
+          "an overlooked detail at Civic Services Hall reveals how Kassovar Reach really works"
+        ]
+      },
+      {
+        "name": "Relief Hall",
+        "symbolicRole": "Relief Hall concentrates Kassovar Reach's local symbolism into a usable civic landmark: Section 3 local anchor.",
+        "visualRole": "A mandatory Section 3 Beacon: a culturally adapted civic signal flame / warning-light landmark visible across the city spine. It belongs to Section 3 (Civic Services) of Kassovar Reach and should use White Limestone Civic Blocks, Market Arcades, Reed Pavilions, hide and dyed wool materials, Red Fabric Awnings, Lantern Lit, Civic Blue Glow, and the long-legged flightless avian folk visual language. Design focus: Beacon-compatible major landmark; must render as a culturally adapted civic signal flame or magical warning light., beacon-compatible flame or signal structure, largest section focal point, strong vertical silhouette, distinct gameplay landmark. Terrain/water context: Civic Terraces; Dry Ground. Magic expression: Blood Staunching, Herbal Spirits, Law Binding. No baked labels or text.",
+        "civicRole": "Serves as Section 3 local anchor within Kassovar Reach; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Relief Hall",
+          "show how Kassovar Reach turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 3",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Relief Hall becomes narratively important",
+          "the visible condition of Relief Hall signals political or social stress",
+          "someone uses Relief Hall's public function to redirect crowds or information",
+          "an overlooked detail at Relief Hall reveals how Kassovar Reach really works"
+        ]
+      },
+      {
+        "name": "Civic Services Lantern Monument",
+        "symbolicRole": "Civic Services Lantern Monument concentrates Kassovar Reach's local symbolism into a usable civic landmark: Section 3 local anchor.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles. It belongs to Section 3 (Civic Services) of Kassovar Reach and should use Market Arcades, Reed Pavilions, White Limestone Civic Blocks, hide and dyed wool materials, Civic Blue Glow, Red Fabric Awnings, Lantern Lit, and the long-legged flightless avian folk visual language. Design focus: public rosters, public halls, clinic courts, bathhouses, notice boards. Terrain/water context: Civic Terraces; Dry Ground. Magic expression: Blood Staunching, Herbal Spirits, Law Binding. No baked labels or text.",
+        "civicRole": "Serves as Section 3 local anchor within Kassovar Reach; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Civic Services Lantern Monument",
+          "show how Kassovar Reach turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 3",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Civic Services Lantern Monument becomes narratively important",
+          "the visible condition of Civic Services Lantern Monument signals political or social stress",
+          "someone uses Civic Services Lantern Monument's public function to redirect crowds or information",
+          "an overlooked detail at Civic Services Lantern Monument reveals how Kassovar Reach really works"
+        ]
+      },
+      {
+        "name": "Notice Plaza Nook",
+        "symbolicRole": "Notice Plaza Nook concentrates Kassovar Reach's local symbolism into a usable civic landmark: Section 3 local anchor.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette. It belongs to Section 3 (Civic Services) of Kassovar Reach and should use White Limestone Civic Blocks, Market Arcades, Reed Pavilions, hide and dyed wool materials, Lantern Lit, Civic Blue Glow, Red Fabric Awnings, and the long-legged flightless avian folk visual language. Design focus: water basins, blue service lamps, public rosters, public halls, clinic courts. Terrain/water context: Civic Terraces; Dry Ground. Magic expression: Blood Staunching, Herbal Spirits, Law Binding. No baked labels or text.",
+        "civicRole": "Serves as Section 3 local anchor within Kassovar Reach; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Notice Plaza Nook",
+          "show how Kassovar Reach turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 3",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Notice Plaza Nook becomes narratively important",
+          "the visible condition of Notice Plaza Nook signals political or social stress",
+          "someone uses Notice Plaza Nook's public function to redirect crowds or information",
+          "an overlooked detail at Notice Plaza Nook reveals how Kassovar Reach really works"
+        ]
+      },
+      {
+        "name": "Observatory / Astronomy Civic Hall",
+        "symbolicRole": "Observatory / Astronomy Civic Hall concentrates Kassovar Reach's local symbolism into a usable civic landmark: Section 4 local anchor.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing. It belongs to Section 4 (Observatory / Astronomy) of Kassovar Reach and should use Archive Towers, Lecture Courts, Cliffside Monasteries, hide and dyed wool materials, Civic Blue Glow, Star Navigation, Moon Gate Arches, and the long-legged flightless avian folk visual language. Design focus: clear central silhouette, board-readable entrance, stars, lenses, brass rings. Terrain/water context: Civic Terraces; Dry Ground. Magic expression: Blood Staunching, Herbal Spirits, Law Binding. No baked labels or text.",
+        "civicRole": "Serves as Section 4 local anchor within Kassovar Reach; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Observatory / Astronomy Civic Hall",
+          "show how Kassovar Reach turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 4",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Observatory / Astronomy Civic Hall becomes narratively important",
+          "the visible condition of Observatory / Astronomy Civic Hall signals political or social stress",
+          "someone uses Observatory / Astronomy Civic Hall's public function to redirect crowds or information",
+          "an overlooked detail at Observatory / Astronomy Civic Hall reveals how Kassovar Reach really works"
+        ]
+      },
+      {
+        "name": "Star Navigation Monument",
+        "symbolicRole": "Star Navigation Monument concentrates Kassovar Reach's local symbolism into a usable civic landmark: Section 4 local anchor.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles. It belongs to Section 4 (Observatory / Astronomy) of Kassovar Reach and should use Cliffside Monasteries, Archive Towers, Lecture Courts, hide and dyed wool materials, Star Navigation, Moon Gate Arches, Civic Blue Glow, and the long-legged flightless avian folk visual language. Design focus: subordinate to major landmark, stars, lenses, brass rings, moon dials. Terrain/water context: Civic Terraces; Dry Ground. Magic expression: Blood Staunching, Herbal Spirits, Law Binding. No baked labels or text.",
+        "civicRole": "Serves as Section 4 local anchor within Kassovar Reach; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Star Navigation Monument",
+          "show how Kassovar Reach turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 4",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Star Navigation Monument becomes narratively important",
+          "the visible condition of Star Navigation Monument signals political or social stress",
+          "someone uses Star Navigation Monument's public function to redirect crowds or information",
+          "an overlooked detail at Star Navigation Monument reveals how Kassovar Reach really works"
+        ]
+      },
+      {
+        "name": "Celestial Court Nook",
+        "symbolicRole": "Celestial Court Nook concentrates Kassovar Reach's local symbolism into a usable civic landmark: Section 4 local anchor.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette. It belongs to Section 4 (Observatory / Astronomy) of Kassovar Reach and should use Archive Towers, Lecture Courts, Cliffside Monasteries, hide and dyed wool materials, Star Navigation, Moon Gate Arches, Civic Blue Glow, and the long-legged flightless avian folk visual language. Design focus: calendar courts, star charts, small local identity prop, street-level detail, usable board landmark. Terrain/water context: Civic Terraces; Dry Ground. Magic expression: Blood Staunching, Herbal Spirits, Law Binding. No baked labels or text.",
+        "civicRole": "Serves as Section 4 local anchor within Kassovar Reach; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Celestial Court Nook",
+          "show how Kassovar Reach turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 4",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Celestial Court Nook becomes narratively important",
+          "the visible condition of Celestial Court Nook signals political or social stress",
+          "someone uses Celestial Court Nook's public function to redirect crowds or information",
+          "an overlooked detail at Celestial Court Nook reveals how Kassovar Reach really works"
+        ]
+      },
+      {
+        "name": "Arena / Training Civic Hall",
+        "symbolicRole": "Arena / Training Civic Hall concentrates Kassovar Reach's local symbolism into a usable civic landmark: Section 5 local anchor.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing. It belongs to Section 5 (Arena / Training) of Kassovar Reach and should use Temple Platforms, Obsidian Fortresses, Lecture Courts, hide and dyed wool materials, Woven Banners, Red Fabric Awnings, Carved Totems, and the long-legged flightless avian folk visual language. Design focus: public-facing administration, clear central silhouette, board-readable entrance, banners, sand floors. Terrain/water context: Civic Terraces; Dry Ground. Magic expression: Blood Staunching, Herbal Spirits, Law Binding. No baked labels or text.",
+        "civicRole": "Serves as Section 5 local anchor within Kassovar Reach; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Arena / Training Civic Hall",
+          "show how Kassovar Reach turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 5",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Arena / Training Civic Hall becomes narratively important",
+          "the visible condition of Arena / Training Civic Hall signals political or social stress",
+          "someone uses Arena / Training Civic Hall's public function to redirect crowds or information",
+          "an overlooked detail at Arena / Training Civic Hall reveals how Kassovar Reach really works"
+        ]
+      },
+      {
+        "name": "Woven Banners Monument",
+        "symbolicRole": "Woven Banners Monument concentrates Kassovar Reach's local symbolism into a usable civic landmark: Section 5 local anchor.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles. It belongs to Section 5 (Arena / Training) of Kassovar Reach and should use Obsidian Fortresses, Lecture Courts, Temple Platforms, hide and dyed wool materials, Woven Banners, Red Fabric Awnings, Carved Totems, and the long-legged flightless avian folk visual language. Design focus: small ceremonial site, local memory marker, subordinate to major landmark, banners, sand floors. Terrain/water context: Civic Terraces; Dry Ground. Magic expression: Blood Staunching, Herbal Spirits, Law Binding. No baked labels or text.",
+        "civicRole": "Serves as Section 5 local anchor within Kassovar Reach; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Woven Banners Monument",
+          "show how Kassovar Reach turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 5",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Woven Banners Monument becomes narratively important",
+          "the visible condition of Woven Banners Monument signals political or social stress",
+          "someone uses Woven Banners Monument's public function to redirect crowds or information",
+          "an overlooked detail at Woven Banners Monument reveals how Kassovar Reach really works"
+        ]
+      },
+      {
+        "name": "Champion Gate Nook",
+        "symbolicRole": "Champion Gate Nook concentrates Kassovar Reach's local symbolism into a usable civic landmark: Section 5 local anchor.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette. It belongs to Section 5 (Arena / Training) of Kassovar Reach and should use Obsidian Fortresses, Lecture Courts, Temple Platforms, hide and dyed wool materials, Red Fabric Awnings, Carved Totems, Woven Banners, and the long-legged flightless avian folk visual language. Design focus: weapon courts, practice rings, small local identity prop, street-level detail, usable board landmark. Terrain/water context: Civic Terraces; Dry Ground. Magic expression: Blood Staunching, Herbal Spirits, Law Binding. No baked labels or text.",
+        "civicRole": "Serves as Section 5 local anchor within Kassovar Reach; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Champion Gate Nook",
+          "show how Kassovar Reach turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 5",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Champion Gate Nook becomes narratively important",
+          "the visible condition of Champion Gate Nook signals political or social stress",
+          "someone uses Champion Gate Nook's public function to redirect crowds or information",
+          "an overlooked detail at Champion Gate Nook reveals how Kassovar Reach really works"
+        ]
+      }
+    ]
+  },
+  "assetGuidance": {
+    "districtDioramaGuidance": [
+      "Dioramas must support 25 district slots: S1 covers D01, D02, D03, D06, D07 and uses source-backed anchors Fortress / Border Wall Civic Hall, Border Wall Beacon, Woven Banners Monument, Watch Bastion Nook.",
+      "Dioramas must support 25 district slots: S2 covers D04, D05, D09, D10, D15 and uses source-backed anchors Heavy Industry / Foundry Civic Hall, Great Forge, Smoke-Stack Monument, Crucible Hall Nook.",
+      "Dioramas must support 25 district slots: S3 covers D08, D12, D13, D14, D18 and uses source-backed anchors Civic Services Hall, Relief Hall, Civic Services Lantern Monument, Notice Plaza Nook.",
+      "Dioramas must support 25 district slots: S4 covers D11, D16, D17, D21, D22 and uses source-backed anchors Observatory / Astronomy Civic Hall, Star Observatory, Star Navigation Monument, Celestial Court Nook.",
+      "Dioramas must support 25 district slots: S5 covers D19, D20, D23, D24, D25 and uses source-backed anchors Arena / Training Civic Hall, Training Arena, Woven Banners Monument, Champion Gate Nook."
+    ],
+    "mapBackgroundGuidance": [
+      "Map backgrounds must show Strider Wind-Stilt Aerie of the Long Legs as the wonder-scale identity anchor, Feather Fan Roofs Wind-Crown Seat at D13, and Border Wall Beacon as the city signal landmark.",
+      "Preserve the five-section spine: S1 Fortress / Border Wall Civic Hall, S2 Heavy Industry / Foundry Civic Hall, S3 Civic Services Hall, S4 Observatory / Astronomy Civic Hall, S5 Arena / Training Civic Hall.",
+      "Use roads, terrain, water, civic terraces, walls, markets, courts, or service routes only where they support the exact city identity and tactical readability."
+    ],
+    "requiredVisualElements": [
+      "Strider Wind-Stilt Aerie of the Long Legs",
+      "Border Wall Beacon",
+      "Feather Fan Roofs Wind-Crown Seat",
+      "Training Arena",
+      "Great Forge",
+      "Star Observatory",
+      "Fortress / Border Wall Civic Hall",
+      "Woven Banners Monument",
+      "Watch Bastion Nook",
+      "Heavy Industry / Foundry Civic Hall",
+      "Smoke-Stack Monument",
+      "Crucible Hall Nook",
+      "Civic Services Hall",
+      "Relief Hall",
+      "Civic Services Lantern Monument",
+      "Notice Plaza Nook",
+      "Observatory / Astronomy Civic Hall",
+      "Star Navigation Monument",
+      "Celestial Court Nook",
+      "Arena / Training Civic Hall",
+      "Champion Gate Nook",
+      "Cedar",
+      "Hide",
+      "Rammed Earth",
+      "Turquoise Inlay",
+      "Dyed Wool",
+      "Dry Stone Paving",
+      "Civic Terraces",
+      "Cliffside",
+      "Beast Bonding",
+      "Ancestor Guidance",
+      "Flock Sight"
+    ],
+    "elementsToAvoid": [
+      "extra top-level schema sections or research-log content in the JSON",
+      "generic fantasy architecture that ignores exact anchor names",
+      "invented missing street anchors",
+      "readable real-world text labels baked into images",
+      "collapsing the 25-district board into only five playable spaces",
+      "making landmarks decorative when they should have civic, narrative, and asset function"
+    ]
+  }
 }

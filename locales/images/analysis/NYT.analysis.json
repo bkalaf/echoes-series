@@ -1,1 +1,1895 @@
-{"metadata":{"schemaVersion":"2.0","analysisVersion":2,"cityCode":"NYT","cityName":"Nythaloss","analysisConfidence":"strong-lock"},"sourceModel":"5 section sidecars; 25 board district slots inherit section anchors.","boardStructure":{"model":"25-seat map","seatOfPowerDistrict":"D13","sections":[{"sectionNumber":1,"districts":["D01","D02","D03","D06","D07"]},{"sectionNumber":2,"districts":["D04","D05","D09","D10","D15"]},{"sectionNumber":3,"districts":["D08","D12","D13","D14","D18"]},{"sectionNumber":4,"districts":["D11","D16","D17","D21","D22"]},{"sectionNumber":5,"districts":["D19","D20","D23","D24","D25"]}],"note":"Each section contains five district slots. This analysis keeps all 25 slots explicit while preserving only source-backed section-level landmark names."},"sections":[{"n":1,"name":"Prison Hall"},{"n":2,"name":"Underworld / Hidden Economy"},{"n":3,"name":"Public Works Authority"},{"n":4,"name":"Nursery / Spawning Grounds"},{"n":5,"name":"Harbor Campus"}],"districts":["D01","D02","D03","D04","D05","D06","D07","D08","D09","D10","D11","D12","D13","D14","D15","D16","D17","D18","D19","D20","D21","D22","D23","D24","D25"],"landmarks":{"wonder":"Octatype Spiral Tide Orrery of Eight Arms","beacon":"Prison Hall Beacon","seatOfPower":"Shell Spiral Windows Tide-Seal Citadel"}}
+{
+  "metadata": {
+    "schemaVersion": "2.0",
+    "analysisVersion": 2,
+    "cityCode": "NYT",
+    "cityName": "Nythaloss",
+    "analysisDate": "2026-07-05",
+    "analystVersion": "gpt-5.5-thinking",
+    "analysisConfidence": "strong-lock",
+    "sourceStatus": "full",
+    "districtModel": "five sections; five district slots per section; D13 is the seat of power",
+    "missingStreetSections": [],
+    "basedOnImages": [
+      "NYT-HERO-NE-v001",
+      "NYT-HERO-NW-v001",
+      "NYT-HERO-SE-v001",
+      "NYT-HERO-SW-v001",
+      "NYT-STREET-S1-v001",
+      "NYT-STREET-S2-v001",
+      "NYT-STREET-S3-v001",
+      "NYT-STREET-S4-v001",
+      "NYT-STREET-S5-v001"
+    ],
+    "basedOnSidecars": [
+      "NYT-HERO-NE-v001.json",
+      "NYT-HERO-NW-v001.json",
+      "NYT-HERO-SE-v001.json",
+      "NYT-HERO-SW-v001.json",
+      "NYT-STREET-S1-v001.json",
+      "NYT-STREET-S2-v001.json",
+      "NYT-STREET-S3-v001.json",
+      "NYT-STREET-S4-v001.json",
+      "NYT-STREET-S5-v001.json"
+    ]
+  },
+  "cityDNA": {
+    "coreFantasy": "A octopus-like cephalopod folk city where Octatype Spiral Tide Orrery of Eight Arms, Prison Hall Beacon, Shell Spiral Windows Tide-Seal Citadel, and the five-section district spine turn local identity into functional civic space.",
+    "primaryEmotion": "source-backed civic presence",
+    "secondaryEmotion": "lived-in pressure beneath landmark order",
+    "readerTakeaway": "Nythaloss should feel immediately identifiable through exact landmarks and materials, not through generic fantasy-city shorthand.",
+    "civilizationThesis": "Nythaloss organizes power through Shell Spiral Windows Tide-Seal Citadel, public response through Prison Hall Beacon, civic memory through Octatype Spiral Tide Orrery of Eight Arms, and daily life through S1 S1 Prison Hall, S2 Underworld / Hidden Economy Civic Hall, S3 Public Works Authority Hall, S4 Nursery / Spawning Grounds Civic Hall, S5 S5 Harbor Campus.",
+    "visualIdentity": "Coral Stone, Seashell, Sea Glass, Silver Inlay, Black Marble, Coastal Edge, Seawall Edge, Harbor Basin, Beast Bonding, Ancestor Guidance, Tide Sorcery, and exact anchors including Shell Spiral Windows Tide-Seal Citadel, Prison Hall Beacon, Octatype Spiral Tide Orrery of Eight Arms, Harbor Basilica, Black Market Arcade, Nursery Basin, S1 Prison Hall, S1 Prison Pillar, S1 Prison Kiosk, Underworld / Hidden Economy Civic Hall.",
+    "culturalIdentity": "A octopus-like cephalopod folk civic culture where architecture, public obligations, roads, landmark approaches, and everyday work must all read as part of the same civilization.",
+    "symbolicIdentity": "The city symbol system is built from exact names and visible functions: Octatype Spiral Tide Orrery of Eight Arms, Prison Hall Beacon, Shell Spiral Windows Tide-Seal Citadel, and section anchors such as S1 Prison Hall, Underworld / Hidden Economy Civic Hall, Public Works Authority Hall, Nursery / Spawning Grounds Civic Hall, S5 Harbor Campus."
+  },
+  "canon": {
+    "canonLocks": [
+      "Nythaloss uses city code NYT.",
+      "The Wonder is Octatype Spiral Tide Orrery of Eight Arms.",
+      "The Beacon is Prison Hall Beacon.",
+      "The Seat of Power is Shell Spiral Windows Tide-Seal Citadel and occupies District 13.",
+      "The city uses five sections with five tactical district slots per section.",
+      "The source-backed section spine is: S1 S1 Prison Hall, S2 Underworld / Hidden Economy Civic Hall, S3 Public Works Authority Hall, S4 Nursery / Spawning Grounds Civic Hall, S5 S5 Harbor Campus.",
+      "Preserve exact anchor name: Shell Spiral Windows Tide-Seal Citadel.",
+      "Preserve exact anchor name: Prison Hall Beacon.",
+      "Preserve exact anchor name: Octatype Spiral Tide Orrery of Eight Arms.",
+      "Preserve exact anchor name: Harbor Basilica.",
+      "Preserve exact anchor name: Black Market Arcade.",
+      "Preserve exact anchor name: Nursery Basin.",
+      "Preserve exact anchor name: S1 Prison Hall.",
+      "Preserve exact anchor name: S1 Prison Pillar.",
+      "Preserve exact anchor name: S1 Prison Kiosk.",
+      "Preserve exact anchor name: Underworld / Hidden Economy Civic Hall.",
+      "Preserve exact anchor name: Mist Veils Monument.",
+      "Preserve exact anchor name: Understreet Vault Nook.",
+      "Preserve exact anchor name: Public Works Authority Hall.",
+      "Preserve exact anchor name: Survey Hall.",
+      "Preserve exact anchor name: Blue-Lamp Monument.",
+      "Preserve exact anchor name: Permit Yard Nook.",
+      "Preserve exact anchor name: Nursery / Spawning Grounds Civic Hall.",
+      "Preserve exact anchor name: Shell Inlay Monument.",
+      "Preserve exact anchor name: Spawning Pool Nook.",
+      "Preserve exact anchor name: S5 Harbor Campus.",
+      "Preserve exact anchor name: S5 Harbor Arch.",
+      "Preserve exact anchor name: S5 Harbor Bridgelet."
+    ],
+    "provisionalCanon": [],
+    "rejectedReads": [
+      "Do not treat Nythaloss as a generic fantasy settlement with renamed landmarks.",
+      "Do not collapse the five-section board into a single mood or single district.",
+      "Do not replace exact anchor names with generic summaries.",
+      "Do not invent missing street-section landmarks when a street source is absent."
+    ],
+    "cautionFlags": [
+      "Keep every named Wonder, Beacon, Seat, section civic hall, major landmark, monument, and minor nook exact when present in sidecars.",
+      "If an image appears to deviate from a sidecar, preserve the exact name but avoid overclaiming visual details not supported by the source package.",
+      "Every district asset should remain usable for narrative scenes, tactical board dioramas, and city map backgrounds."
+    ]
+  },
+  "environment": {
+    "terrain": [
+      "Coastal Edge",
+      "Seawall Edge",
+      "Harbor Basin"
+    ],
+    "water": [
+      "Coast"
+    ],
+    "vegetation": [
+      "courtyard trees",
+      "balcony planters",
+      "public greenery where visible",
+      "source-backed local vegetation only"
+    ],
+    "climateLighting": [
+      "Beast Bonding",
+      "Ancestor Guidance",
+      "Tide Sorcery",
+      "daylight",
+      "golden hour",
+      "lantern light",
+      "civic beacon glow"
+    ],
+    "environmentalLogic": "The environment should make Nythaloss's exact civic anchors plausible at street scale: terrain routes people toward section landmarks, lighting clarifies public authority, and water or landscape features remain source-backed rather than decorative filler."
+  },
+  "architecture": {
+    "materials": [
+      "Coral Stone",
+      "Seashell",
+      "Sea Glass",
+      "Silver Inlay",
+      "Black Marble"
+    ],
+    "forms": [
+      "Shell Spiral Windows Tide-Seal Citadel",
+      "Prison Hall Beacon",
+      "Octatype Spiral Tide Orrery of Eight Arms",
+      "Harbor Basilica",
+      "Black Market Arcade",
+      "Nursery Basin",
+      "S1 Prison Hall",
+      "S1 Prison Pillar",
+      "S1 Prison Kiosk",
+      "Underworld / Hidden Economy Civic Hall",
+      "Mist Veils Monument",
+      "Understreet Vault Nook",
+      "Public Works Authority Hall",
+      "Survey Hall",
+      "Blue-Lamp Monument",
+      "Permit Yard Nook",
+      "Nursery / Spawning Grounds Civic Hall",
+      "Shell Inlay Monument",
+      "Spawning Pool Nook",
+      "S5 Harbor Campus",
+      "S5 Harbor Arch",
+      "S5 Harbor Bridgelet",
+      "section civic halls",
+      "major landmark approaches",
+      "monument frontages",
+      "minor landmark nooks",
+      "district roads and plazas",
+      "D13 authority complex"
+    ],
+    "skyline": [
+      "Octatype Spiral Tide Orrery of Eight Arms",
+      "Shell Spiral Windows Tide-Seal Citadel",
+      "Prison Hall Beacon",
+      "Harbor Basilica",
+      "Black Market Arcade",
+      "Nursery Basin",
+      "S1 Prison Hall",
+      "S1 Prison Pillar",
+      "S1 Prison Kiosk"
+    ],
+    "lighting": [
+      "Beast Bonding",
+      "Ancestor Guidance",
+      "Tide Sorcery",
+      "beacon-state light",
+      "lantern-lit civic paths",
+      "street-level shop and housing light"
+    ],
+    "infrastructure": [
+      "S1 Prison Hall",
+      "Underworld / Hidden Economy Civic Hall",
+      "Public Works Authority Hall",
+      "Nursery / Spawning Grounds Civic Hall",
+      "S5 Harbor Campus",
+      "roads between district slots",
+      "public thresholds",
+      "plaza edges",
+      "records, permits, markets, services, or rituals implied by anchors"
+    ],
+    "motifs": [
+      "Shell",
+      "Spiral",
+      "Windows",
+      "Tide-Seal",
+      "Citadel",
+      "Prison",
+      "Hall",
+      "Beacon",
+      "Octatype",
+      "Tide",
+      "Orrery",
+      "Eight",
+      "Arms",
+      "Harbor",
+      "Basilica"
+    ],
+    "colorLanguage": [
+      "source-backed material colors",
+      "civic blue signal accents",
+      "local textile, stone, metal, vegetation, or water colors from the image package"
+    ],
+    "textureLanguage": [
+      "Coral Stone",
+      "Seashell",
+      "Sea Glass",
+      "Silver Inlay",
+      "Black Marble",
+      "worn pedestrian surfaces",
+      "worked civic ornament",
+      "weathered public thresholds",
+      "lived-in shop and housing details"
+    ]
+  },
+  "civilization": {
+    "people": "The population should read as octopus-like cephalopod folk and city-specific: citizens occupy streets, shops, public thresholds, and landmark approaches as people who understand the local civic order.",
+    "occupations": [
+      "dock workers",
+      "water engineers",
+      "ritual attendants",
+      "caretakers",
+      "market sellers",
+      "stall keepers",
+      "district clerks",
+      "craft families",
+      "porters",
+      "maintenance workers",
+      "food sellers",
+      "messengers"
+    ],
+    "socialClasses": [
+      "D13 officials and court staff",
+      "section landmark custodians",
+      "guild and service families",
+      "shopkeepers and artisans",
+      "laborers, carriers, messengers, and maintenance crews",
+      "households tied to local district obligations"
+    ],
+    "governance": "Government is centered on Shell Spiral Windows Tide-Seal Citadel. Its authority should be visible through courts, records, public access routes, civic lamps, guards or attendants, and the way citizens respond to D13.",
+    "religion": "Religious or ritual life should only be emphasized where source anchors support it, especially names such as Harbor Basilica.",
+    "customs": [
+      "citizens orient public life around S1 Prison Hall in Section 1",
+      "citizens orient public life around Underworld / Hidden Economy Civic Hall in Section 2",
+      "citizens orient public life around Public Works Authority Hall in Section 3",
+      "citizens orient public life around Nursery / Spawning Grounds Civic Hall in Section 4",
+      "citizens orient public life around S5 Harbor Campus in Section 5",
+      "beacon changes become public behavior, not background color",
+      "exact landmark names carry social memory and directions",
+      "civic errands happen visibly at thresholds, queues, ledgers, stalls, courts, or shrines"
+    ],
+    "bodyLanguage": [
+      "citizens pause at civic signals",
+      "workers move with practiced familiarity around district anchors",
+      "officials use thresholds and raised places to control attention",
+      "residents treat named landmarks as everyday orientation points"
+    ],
+    "speechPatterns": [
+      "directions use exact landmark names",
+      "public notices are tied to section anchors",
+      "local speech distinguishes civic authority, ordinary errands, and landmark obligations",
+      "people refer to D13 as the seat of power rather than a faction headquarters"
+    ]
+  },
+  "urbanLife": {
+    "streets": {
+      "appearance": "Streets should show Nythaloss's exact anchor system at pedestrian scale: S1 S1 Prison Hall, S2 Underworld / Hidden Economy Civic Hall, S3 Public Works Authority Hall, S4 Nursery / Spawning Grounds Civic Hall, S5 S5 Harbor Campus. Keep roads, plazas, stairs, thresholds, lamps, signs-without-readable-text, props, and civilians aligned to the source-backed materials and landmarks.",
+      "movement": "Movement should be readable for tactical-board assets: citizens pass between 25 district slots, section anchors, D13, service streets, and landmark approaches without visual clutter hiding the civic purpose.",
+      "sounds": [
+        "foot traffic",
+        "vendors and service calls",
+        "tools and carts",
+        "public notices",
+        "landmark-specific sounds from water, bells, animals, machines, or crowds when source-backed",
+        "beacon-state crowd reactions"
+      ],
+      "smells": [
+        "street food",
+        "worked material dust",
+        "lamp oil or smoke",
+        "vegetation or water where source-backed",
+        "worn stone, timber, metal, plaster, or fabric"
+      ],
+      "lighting": "Use the package's source-backed civic lighting, daylight/golden-hour reads, lanterns, and beacon glow. Lighting must help identify authority, safety, and landmark function.",
+      "weatherEffects": "Weather should reinforce the local terrain and materials without overwhelming the city identity or inventing unsupported climate extremes.",
+      "dayCycle": "Day scenes emphasize errands, trade, records, repairs, rituals, food, and section-level movement.",
+      "nightCycle": "Night scenes emphasize lantern routes, closed thresholds, guarded landmarks, quiet work, and beacon visibility."
+    },
+    "shops": {
+      "common": [
+        "food stalls",
+        "repair stalls",
+        "material vendors",
+        "ledger or permit desks",
+        "local craft counters",
+        "street services tied to section anchors"
+      ],
+      "uncommon": [
+        "specialist landmark caretakers",
+        "instrument makers",
+        "ritual suppliers",
+        "map or record copyists",
+        "district-specific guild services"
+      ],
+      "prestigious": [
+        "D13-facing legal or registry services",
+        "elite craft workshops",
+        "landmark commission houses",
+        "official suppliers for civic ceremonies"
+      ],
+      "exports": [
+        "local crafts",
+        "records or seals",
+        "finished materials",
+        "food goods",
+        "specialized tools or ritual goods as supported by anchors"
+      ],
+      "imports": [
+        "rare materials",
+        "dyes, oils, spices, timber, stone, metal, glass, or cloth as needed by the architecture",
+        "outside records and trade goods"
+      ],
+      "streetFood": [
+        "flatbread or local bread",
+        "stew or grilled skewers",
+        "fruit or preserved food",
+        "tea or civic-square drinks",
+        "portable worker meals"
+      ],
+      "services": [
+        "directions by landmark",
+        "message running",
+        "permit help",
+        "repairs",
+        "food service",
+        "transport or porterage",
+        "public notice posting"
+      ]
+    },
+    "housing": {
+      "wealthy": "Prestige housing clusters near Shell Spiral Windows Tide-Seal Citadel, high terraces, or landmark-facing routes, using the best source-backed materials and controlled views of civic space.",
+      "middle": "Shop-over-house units, courtyard homes, guild-adjacent apartments, and family rooms near section anchors.",
+      "poor": "Smaller back-street rooms, work-adjacent housing, shared courtyards, service alleys, patched materials, and dense but still city-specific lived-in detail."
+    }
+  },
+  "districts": [
+    {
+      "districtNumber": 1,
+      "districtId": "D01",
+      "sectionNumber": 1,
+      "name": "D01 — S1 Prison Hall Civic-Anchor Precinct",
+      "civicPurpose": "This district turns Section 1's source-backed anchor set into a board-scale civic space: S1 Prison Hall, Prison Hall Beacon, S1 Prison Pillar, S1 Prison Kiosk. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Nythaloss.",
+      "visualIdentity": "Use S1 Prison Hall as the main read. Keep exact source anchors visible where applicable: S1 Prison Hall, Prison Hall Beacon, S1 Prison Pillar, S1 Prison Kiosk. The district should share Nythaloss's octopus-like cephalopod folk identity, Coral Stone, Seashell, Sea Glass, Silver Inlay, and Coastal Edge, Seawall Edge, Harbor Basin without becoming generic.",
+      "emotionalIdentity": "Locally grounded, with Nythaloss's larger mood shaped by Octatype Spiral Tide Orrery of Eight Arms, Prison Hall Beacon, and Shell Spiral Windows Tide-Seal Citadel.",
+      "gameplayAssetNeeds": [
+        "S1 Prison Hall",
+        "Prison Hall Beacon",
+        "S1 Prison Pillar",
+        "S1 Prison Kiosk",
+        "Section 1 pedestrian-scale props",
+        "Nythaloss civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on S1 Prison Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "S1 Prison Hall",
+      "minorLandmarks": [
+        "Prison Hall Beacon",
+        "S1 Prison Pillar",
+        "S1 Prison Kiosk"
+      ]
+    },
+    {
+      "districtNumber": 2,
+      "districtId": "D02",
+      "sectionNumber": 1,
+      "name": "D02 — Prison Hall Beacon Landmark Approach",
+      "civicPurpose": "This district turns Section 1's source-backed anchor set into a board-scale civic space: S1 Prison Hall, Prison Hall Beacon, S1 Prison Pillar, S1 Prison Kiosk. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Nythaloss.",
+      "visualIdentity": "Use Prison Hall Beacon as the main read. Keep exact source anchors visible where applicable: S1 Prison Hall, Prison Hall Beacon, S1 Prison Pillar, S1 Prison Kiosk. The district should share Nythaloss's octopus-like cephalopod folk identity, Coral Stone, Seashell, Sea Glass, Silver Inlay, and Coastal Edge, Seawall Edge, Harbor Basin without becoming generic.",
+      "emotionalIdentity": "Public-facing, with Nythaloss's larger mood shaped by Octatype Spiral Tide Orrery of Eight Arms, Prison Hall Beacon, and Shell Spiral Windows Tide-Seal Citadel.",
+      "gameplayAssetNeeds": [
+        "Prison Hall Beacon",
+        "S1 Prison Hall",
+        "S1 Prison Pillar",
+        "S1 Prison Kiosk",
+        "Section 1 pedestrian-scale props",
+        "Nythaloss civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Prison Hall Beacon",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "Conjunction response, rumor spread, or authority pressure"
+      ],
+      "landmark": "Prison Hall Beacon",
+      "minorLandmarks": [
+        "S1 Prison Hall",
+        "S1 Prison Pillar",
+        "S1 Prison Kiosk"
+      ]
+    },
+    {
+      "districtNumber": 3,
+      "districtId": "D03",
+      "sectionNumber": 1,
+      "name": "D03 — S1 Prison Pillar Monument Frontage",
+      "civicPurpose": "This district turns Section 1's source-backed anchor set into a board-scale civic space: S1 Prison Hall, Prison Hall Beacon, S1 Prison Pillar, S1 Prison Kiosk. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Nythaloss.",
+      "visualIdentity": "Use S1 Prison Pillar as the main read. Keep exact source anchors visible where applicable: S1 Prison Hall, Prison Hall Beacon, S1 Prison Pillar, S1 Prison Kiosk. The district should share Nythaloss's octopus-like cephalopod folk identity, Coral Stone, Seashell, Sea Glass, Silver Inlay, and Coastal Edge, Seawall Edge, Harbor Basin without becoming generic.",
+      "emotionalIdentity": "Memorial or symbolic, with Nythaloss's larger mood shaped by Octatype Spiral Tide Orrery of Eight Arms, Prison Hall Beacon, and Shell Spiral Windows Tide-Seal Citadel.",
+      "gameplayAssetNeeds": [
+        "S1 Prison Pillar",
+        "S1 Prison Hall",
+        "Prison Hall Beacon",
+        "S1 Prison Kiosk",
+        "Section 1 pedestrian-scale props",
+        "Nythaloss civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on S1 Prison Pillar",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "S1 Prison Pillar",
+      "minorLandmarks": [
+        "S1 Prison Hall",
+        "Prison Hall Beacon",
+        "S1 Prison Kiosk"
+      ]
+    },
+    {
+      "districtNumber": 6,
+      "districtId": "D06",
+      "sectionNumber": 1,
+      "name": "D06 — S1 Prison Kiosk Neighborhood Nook",
+      "civicPurpose": "This district turns Section 1's source-backed anchor set into a board-scale civic space: S1 Prison Hall, Prison Hall Beacon, S1 Prison Pillar, S1 Prison Kiosk. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Nythaloss.",
+      "visualIdentity": "Use S1 Prison Kiosk as the main read. Keep exact source anchors visible where applicable: S1 Prison Hall, Prison Hall Beacon, S1 Prison Pillar, S1 Prison Kiosk. The district should share Nythaloss's octopus-like cephalopod folk identity, Coral Stone, Seashell, Sea Glass, Silver Inlay, and Coastal Edge, Seawall Edge, Harbor Basin without becoming generic.",
+      "emotionalIdentity": "Intimate and lived-in, with Nythaloss's larger mood shaped by Octatype Spiral Tide Orrery of Eight Arms, Prison Hall Beacon, and Shell Spiral Windows Tide-Seal Citadel.",
+      "gameplayAssetNeeds": [
+        "S1 Prison Kiosk",
+        "S1 Prison Hall",
+        "Prison Hall Beacon",
+        "S1 Prison Pillar",
+        "Section 1 pedestrian-scale props",
+        "Nythaloss civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on S1 Prison Kiosk",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "S1 Prison Kiosk",
+      "minorLandmarks": [
+        "S1 Prison Hall",
+        "Prison Hall Beacon",
+        "S1 Prison Pillar"
+      ]
+    },
+    {
+      "districtNumber": 7,
+      "districtId": "D07",
+      "sectionNumber": 1,
+      "name": "D07 — S1 Prison Hall Supporting Streets",
+      "civicPurpose": "This district turns Section 1's source-backed anchor set into a board-scale civic space: S1 Prison Hall, Prison Hall Beacon, S1 Prison Pillar, S1 Prison Kiosk. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Nythaloss.",
+      "visualIdentity": "Use S1 Prison Hall as the main read. Keep exact source anchors visible where applicable: S1 Prison Hall, Prison Hall Beacon, S1 Prison Pillar, S1 Prison Kiosk. The district should share Nythaloss's octopus-like cephalopod folk identity, Coral Stone, Seashell, Sea Glass, Silver Inlay, and Coastal Edge, Seawall Edge, Harbor Basin without becoming generic.",
+      "emotionalIdentity": "Connective and practical, with Nythaloss's larger mood shaped by Octatype Spiral Tide Orrery of Eight Arms, Prison Hall Beacon, and Shell Spiral Windows Tide-Seal Citadel.",
+      "gameplayAssetNeeds": [
+        "S1 Prison Hall",
+        "Prison Hall Beacon",
+        "S1 Prison Pillar",
+        "S1 Prison Kiosk",
+        "Section 1 pedestrian-scale props",
+        "Nythaloss civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on S1 Prison Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "S1 Prison Hall",
+      "minorLandmarks": [
+        "Prison Hall Beacon",
+        "S1 Prison Pillar",
+        "S1 Prison Kiosk"
+      ]
+    },
+    {
+      "districtNumber": 4,
+      "districtId": "D04",
+      "sectionNumber": 2,
+      "name": "D04 — Underworld / Hidden Economy Civic Hall Civic-Anchor Precinct",
+      "civicPurpose": "This district turns Section 2's source-backed anchor set into a board-scale civic space: Underworld / Hidden Economy Civic Hall, Black Market Arcade, Mist Veils Monument, Understreet Vault Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Nythaloss.",
+      "visualIdentity": "Use Underworld / Hidden Economy Civic Hall as the main read. Keep exact source anchors visible where applicable: Underworld / Hidden Economy Civic Hall, Black Market Arcade, Mist Veils Monument, Understreet Vault Nook. The district should share Nythaloss's octopus-like cephalopod folk identity, Coral Stone, Seashell, Sea Glass, Silver Inlay, and Coastal Edge, Seawall Edge, Harbor Basin without becoming generic.",
+      "emotionalIdentity": "Locally grounded, with Nythaloss's larger mood shaped by Octatype Spiral Tide Orrery of Eight Arms, Prison Hall Beacon, and Shell Spiral Windows Tide-Seal Citadel.",
+      "gameplayAssetNeeds": [
+        "Underworld / Hidden Economy Civic Hall",
+        "Black Market Arcade",
+        "Mist Veils Monument",
+        "Understreet Vault Nook",
+        "Section 2 pedestrian-scale props",
+        "Nythaloss civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Underworld / Hidden Economy Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Underworld / Hidden Economy Civic Hall",
+      "minorLandmarks": [
+        "Black Market Arcade",
+        "Mist Veils Monument",
+        "Understreet Vault Nook"
+      ]
+    },
+    {
+      "districtNumber": 5,
+      "districtId": "D05",
+      "sectionNumber": 2,
+      "name": "D05 — Black Market Arcade Landmark Approach",
+      "civicPurpose": "This district turns Section 2's source-backed anchor set into a board-scale civic space: Underworld / Hidden Economy Civic Hall, Black Market Arcade, Mist Veils Monument, Understreet Vault Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Nythaloss.",
+      "visualIdentity": "Use Black Market Arcade as the main read. Keep exact source anchors visible where applicable: Underworld / Hidden Economy Civic Hall, Black Market Arcade, Mist Veils Monument, Understreet Vault Nook. The district should share Nythaloss's octopus-like cephalopod folk identity, Coral Stone, Seashell, Sea Glass, Silver Inlay, and Coastal Edge, Seawall Edge, Harbor Basin without becoming generic.",
+      "emotionalIdentity": "Public-facing, with Nythaloss's larger mood shaped by Octatype Spiral Tide Orrery of Eight Arms, Prison Hall Beacon, and Shell Spiral Windows Tide-Seal Citadel.",
+      "gameplayAssetNeeds": [
+        "Black Market Arcade",
+        "Underworld / Hidden Economy Civic Hall",
+        "Mist Veils Monument",
+        "Understreet Vault Nook",
+        "Section 2 pedestrian-scale props",
+        "Nythaloss civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Black Market Arcade",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Black Market Arcade",
+      "minorLandmarks": [
+        "Underworld / Hidden Economy Civic Hall",
+        "Mist Veils Monument",
+        "Understreet Vault Nook"
+      ]
+    },
+    {
+      "districtNumber": 9,
+      "districtId": "D09",
+      "sectionNumber": 2,
+      "name": "D09 — Mist Veils Monument Monument Frontage",
+      "civicPurpose": "This district turns Section 2's source-backed anchor set into a board-scale civic space: Underworld / Hidden Economy Civic Hall, Black Market Arcade, Mist Veils Monument, Understreet Vault Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Nythaloss.",
+      "visualIdentity": "Use Mist Veils Monument as the main read. Keep exact source anchors visible where applicable: Underworld / Hidden Economy Civic Hall, Black Market Arcade, Mist Veils Monument, Understreet Vault Nook. The district should share Nythaloss's octopus-like cephalopod folk identity, Coral Stone, Seashell, Sea Glass, Silver Inlay, and Coastal Edge, Seawall Edge, Harbor Basin without becoming generic.",
+      "emotionalIdentity": "Memorial or symbolic, with Nythaloss's larger mood shaped by Octatype Spiral Tide Orrery of Eight Arms, Prison Hall Beacon, and Shell Spiral Windows Tide-Seal Citadel.",
+      "gameplayAssetNeeds": [
+        "Mist Veils Monument",
+        "Underworld / Hidden Economy Civic Hall",
+        "Black Market Arcade",
+        "Understreet Vault Nook",
+        "Section 2 pedestrian-scale props",
+        "Nythaloss civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Mist Veils Monument",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Mist Veils Monument",
+      "minorLandmarks": [
+        "Underworld / Hidden Economy Civic Hall",
+        "Black Market Arcade",
+        "Understreet Vault Nook"
+      ]
+    },
+    {
+      "districtNumber": 10,
+      "districtId": "D10",
+      "sectionNumber": 2,
+      "name": "D10 — Understreet Vault Nook Neighborhood Nook",
+      "civicPurpose": "This district turns Section 2's source-backed anchor set into a board-scale civic space: Underworld / Hidden Economy Civic Hall, Black Market Arcade, Mist Veils Monument, Understreet Vault Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Nythaloss.",
+      "visualIdentity": "Use Understreet Vault Nook as the main read. Keep exact source anchors visible where applicable: Underworld / Hidden Economy Civic Hall, Black Market Arcade, Mist Veils Monument, Understreet Vault Nook. The district should share Nythaloss's octopus-like cephalopod folk identity, Coral Stone, Seashell, Sea Glass, Silver Inlay, and Coastal Edge, Seawall Edge, Harbor Basin without becoming generic.",
+      "emotionalIdentity": "Intimate and lived-in, with Nythaloss's larger mood shaped by Octatype Spiral Tide Orrery of Eight Arms, Prison Hall Beacon, and Shell Spiral Windows Tide-Seal Citadel.",
+      "gameplayAssetNeeds": [
+        "Understreet Vault Nook",
+        "Underworld / Hidden Economy Civic Hall",
+        "Black Market Arcade",
+        "Mist Veils Monument",
+        "Section 2 pedestrian-scale props",
+        "Nythaloss civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Understreet Vault Nook",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Understreet Vault Nook",
+      "minorLandmarks": [
+        "Underworld / Hidden Economy Civic Hall",
+        "Black Market Arcade",
+        "Mist Veils Monument"
+      ]
+    },
+    {
+      "districtNumber": 15,
+      "districtId": "D15",
+      "sectionNumber": 2,
+      "name": "D15 — Underworld / Hidden Economy Civic Hall Supporting Streets",
+      "civicPurpose": "This district turns Section 2's source-backed anchor set into a board-scale civic space: Underworld / Hidden Economy Civic Hall, Black Market Arcade, Mist Veils Monument, Understreet Vault Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Nythaloss.",
+      "visualIdentity": "Use Underworld / Hidden Economy Civic Hall as the main read. Keep exact source anchors visible where applicable: Underworld / Hidden Economy Civic Hall, Black Market Arcade, Mist Veils Monument, Understreet Vault Nook. The district should share Nythaloss's octopus-like cephalopod folk identity, Coral Stone, Seashell, Sea Glass, Silver Inlay, and Coastal Edge, Seawall Edge, Harbor Basin without becoming generic.",
+      "emotionalIdentity": "Connective and practical, with Nythaloss's larger mood shaped by Octatype Spiral Tide Orrery of Eight Arms, Prison Hall Beacon, and Shell Spiral Windows Tide-Seal Citadel.",
+      "gameplayAssetNeeds": [
+        "Underworld / Hidden Economy Civic Hall",
+        "Black Market Arcade",
+        "Mist Veils Monument",
+        "Understreet Vault Nook",
+        "Section 2 pedestrian-scale props",
+        "Nythaloss civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Underworld / Hidden Economy Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Underworld / Hidden Economy Civic Hall",
+      "minorLandmarks": [
+        "Black Market Arcade",
+        "Mist Veils Monument",
+        "Understreet Vault Nook"
+      ]
+    },
+    {
+      "districtNumber": 8,
+      "districtId": "D08",
+      "sectionNumber": 3,
+      "name": "D08 — Public Works Authority Hall Civic-Anchor Precinct",
+      "civicPurpose": "This district turns Section 3's source-backed anchor set into a board-scale civic space: Public Works Authority Hall, Survey Hall, Blue-Lamp Monument, Permit Yard Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Nythaloss.",
+      "visualIdentity": "Use Public Works Authority Hall as the main read. Keep exact source anchors visible where applicable: Public Works Authority Hall, Survey Hall, Blue-Lamp Monument, Permit Yard Nook. The district should share Nythaloss's octopus-like cephalopod folk identity, Coral Stone, Seashell, Sea Glass, Silver Inlay, and Coastal Edge, Seawall Edge, Harbor Basin without becoming generic.",
+      "emotionalIdentity": "Locally grounded, with Nythaloss's larger mood shaped by Octatype Spiral Tide Orrery of Eight Arms, Prison Hall Beacon, and Shell Spiral Windows Tide-Seal Citadel.",
+      "gameplayAssetNeeds": [
+        "Public Works Authority Hall",
+        "Survey Hall",
+        "Blue-Lamp Monument",
+        "Permit Yard Nook",
+        "Section 3 pedestrian-scale props",
+        "Nythaloss civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Public Works Authority Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Public Works Authority Hall",
+      "minorLandmarks": [
+        "Survey Hall",
+        "Blue-Lamp Monument",
+        "Permit Yard Nook"
+      ]
+    },
+    {
+      "districtNumber": 12,
+      "districtId": "D12",
+      "sectionNumber": 3,
+      "name": "D12 — Survey Hall Landmark Approach",
+      "civicPurpose": "This district turns Section 3's source-backed anchor set into a board-scale civic space: Public Works Authority Hall, Survey Hall, Blue-Lamp Monument, Permit Yard Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Nythaloss.",
+      "visualIdentity": "Use Survey Hall as the main read. Keep exact source anchors visible where applicable: Public Works Authority Hall, Survey Hall, Blue-Lamp Monument, Permit Yard Nook. The district should share Nythaloss's octopus-like cephalopod folk identity, Coral Stone, Seashell, Sea Glass, Silver Inlay, and Coastal Edge, Seawall Edge, Harbor Basin without becoming generic.",
+      "emotionalIdentity": "Public-facing, with Nythaloss's larger mood shaped by Octatype Spiral Tide Orrery of Eight Arms, Prison Hall Beacon, and Shell Spiral Windows Tide-Seal Citadel.",
+      "gameplayAssetNeeds": [
+        "Survey Hall",
+        "Public Works Authority Hall",
+        "Blue-Lamp Monument",
+        "Permit Yard Nook",
+        "Section 3 pedestrian-scale props",
+        "Nythaloss civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Survey Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Survey Hall",
+      "minorLandmarks": [
+        "Public Works Authority Hall",
+        "Blue-Lamp Monument",
+        "Permit Yard Nook"
+      ]
+    },
+    {
+      "districtNumber": 13,
+      "districtId": "D13",
+      "sectionNumber": 3,
+      "name": "D13 — Shell Spiral Windows Tide-Seal Citadel Seat of Power District",
+      "civicPurpose": "This district turns Section 3's source-backed anchor set into a board-scale civic space: Public Works Authority Hall, Survey Hall, Blue-Lamp Monument, Permit Yard Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Nythaloss.",
+      "visualIdentity": "Use Shell Spiral Windows Tide-Seal Citadel as the main read. Keep exact source anchors visible where applicable: Public Works Authority Hall, Survey Hall, Blue-Lamp Monument, Permit Yard Nook. The district should share Nythaloss's octopus-like cephalopod folk identity, Coral Stone, Seashell, Sea Glass, Silver Inlay, and Coastal Edge, Seawall Edge, Harbor Basin without becoming generic.",
+      "emotionalIdentity": "Memorial or symbolic, with Nythaloss's larger mood shaped by Octatype Spiral Tide Orrery of Eight Arms, Prison Hall Beacon, and Shell Spiral Windows Tide-Seal Citadel.",
+      "gameplayAssetNeeds": [
+        "Shell Spiral Windows Tide-Seal Citadel",
+        "Public Works Authority Hall",
+        "Survey Hall",
+        "Blue-Lamp Monument",
+        "Permit Yard Nook",
+        "Section 3 pedestrian-scale props",
+        "Nythaloss civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Shell Spiral Windows Tide-Seal Citadel",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "Conjunction response, rumor spread, or authority pressure"
+      ],
+      "landmark": "Shell Spiral Windows Tide-Seal Citadel",
+      "minorLandmarks": [
+        "Public Works Authority Hall",
+        "Survey Hall",
+        "Blue-Lamp Monument",
+        "Permit Yard Nook"
+      ]
+    },
+    {
+      "districtNumber": 14,
+      "districtId": "D14",
+      "sectionNumber": 3,
+      "name": "D14 — Permit Yard Nook Neighborhood Nook",
+      "civicPurpose": "This district turns Section 3's source-backed anchor set into a board-scale civic space: Public Works Authority Hall, Survey Hall, Blue-Lamp Monument, Permit Yard Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Nythaloss.",
+      "visualIdentity": "Use Permit Yard Nook as the main read. Keep exact source anchors visible where applicable: Public Works Authority Hall, Survey Hall, Blue-Lamp Monument, Permit Yard Nook. The district should share Nythaloss's octopus-like cephalopod folk identity, Coral Stone, Seashell, Sea Glass, Silver Inlay, and Coastal Edge, Seawall Edge, Harbor Basin without becoming generic.",
+      "emotionalIdentity": "Intimate and lived-in, with Nythaloss's larger mood shaped by Octatype Spiral Tide Orrery of Eight Arms, Prison Hall Beacon, and Shell Spiral Windows Tide-Seal Citadel.",
+      "gameplayAssetNeeds": [
+        "Permit Yard Nook",
+        "Public Works Authority Hall",
+        "Survey Hall",
+        "Blue-Lamp Monument",
+        "Section 3 pedestrian-scale props",
+        "Nythaloss civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Permit Yard Nook",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Permit Yard Nook",
+      "minorLandmarks": [
+        "Public Works Authority Hall",
+        "Survey Hall",
+        "Blue-Lamp Monument"
+      ]
+    },
+    {
+      "districtNumber": 18,
+      "districtId": "D18",
+      "sectionNumber": 3,
+      "name": "D18 — Public Works Authority Hall Supporting Streets",
+      "civicPurpose": "This district turns Section 3's source-backed anchor set into a board-scale civic space: Public Works Authority Hall, Survey Hall, Blue-Lamp Monument, Permit Yard Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Nythaloss.",
+      "visualIdentity": "Use Public Works Authority Hall as the main read. Keep exact source anchors visible where applicable: Public Works Authority Hall, Survey Hall, Blue-Lamp Monument, Permit Yard Nook. The district should share Nythaloss's octopus-like cephalopod folk identity, Coral Stone, Seashell, Sea Glass, Silver Inlay, and Coastal Edge, Seawall Edge, Harbor Basin without becoming generic.",
+      "emotionalIdentity": "Connective and practical, with Nythaloss's larger mood shaped by Octatype Spiral Tide Orrery of Eight Arms, Prison Hall Beacon, and Shell Spiral Windows Tide-Seal Citadel.",
+      "gameplayAssetNeeds": [
+        "Public Works Authority Hall",
+        "Survey Hall",
+        "Blue-Lamp Monument",
+        "Permit Yard Nook",
+        "Section 3 pedestrian-scale props",
+        "Nythaloss civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Public Works Authority Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Public Works Authority Hall",
+      "minorLandmarks": [
+        "Survey Hall",
+        "Blue-Lamp Monument",
+        "Permit Yard Nook"
+      ]
+    },
+    {
+      "districtNumber": 11,
+      "districtId": "D11",
+      "sectionNumber": 4,
+      "name": "D11 — Nursery / Spawning Grounds Civic Hall Civic-Anchor Precinct",
+      "civicPurpose": "This district turns Section 4's source-backed anchor set into a board-scale civic space: Nursery / Spawning Grounds Civic Hall, Nursery Basin, Shell Inlay Monument, Spawning Pool Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Nythaloss.",
+      "visualIdentity": "Use Nursery / Spawning Grounds Civic Hall as the main read. Keep exact source anchors visible where applicable: Nursery / Spawning Grounds Civic Hall, Nursery Basin, Shell Inlay Monument, Spawning Pool Nook. The district should share Nythaloss's octopus-like cephalopod folk identity, Coral Stone, Seashell, Sea Glass, Silver Inlay, and Coastal Edge, Seawall Edge, Harbor Basin without becoming generic.",
+      "emotionalIdentity": "Locally grounded, with Nythaloss's larger mood shaped by Octatype Spiral Tide Orrery of Eight Arms, Prison Hall Beacon, and Shell Spiral Windows Tide-Seal Citadel.",
+      "gameplayAssetNeeds": [
+        "Nursery / Spawning Grounds Civic Hall",
+        "Nursery Basin",
+        "Shell Inlay Monument",
+        "Spawning Pool Nook",
+        "Section 4 pedestrian-scale props",
+        "Nythaloss civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Nursery / Spawning Grounds Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Nursery / Spawning Grounds Civic Hall",
+      "minorLandmarks": [
+        "Nursery Basin",
+        "Shell Inlay Monument",
+        "Spawning Pool Nook"
+      ]
+    },
+    {
+      "districtNumber": 16,
+      "districtId": "D16",
+      "sectionNumber": 4,
+      "name": "D16 — Nursery Basin Landmark Approach",
+      "civicPurpose": "This district turns Section 4's source-backed anchor set into a board-scale civic space: Nursery / Spawning Grounds Civic Hall, Nursery Basin, Shell Inlay Monument, Spawning Pool Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Nythaloss.",
+      "visualIdentity": "Use Nursery Basin as the main read. Keep exact source anchors visible where applicable: Nursery / Spawning Grounds Civic Hall, Nursery Basin, Shell Inlay Monument, Spawning Pool Nook. The district should share Nythaloss's octopus-like cephalopod folk identity, Coral Stone, Seashell, Sea Glass, Silver Inlay, and Coastal Edge, Seawall Edge, Harbor Basin without becoming generic.",
+      "emotionalIdentity": "Public-facing, with Nythaloss's larger mood shaped by Octatype Spiral Tide Orrery of Eight Arms, Prison Hall Beacon, and Shell Spiral Windows Tide-Seal Citadel.",
+      "gameplayAssetNeeds": [
+        "Nursery Basin",
+        "Nursery / Spawning Grounds Civic Hall",
+        "Shell Inlay Monument",
+        "Spawning Pool Nook",
+        "Section 4 pedestrian-scale props",
+        "Nythaloss civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Nursery Basin",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Nursery Basin",
+      "minorLandmarks": [
+        "Nursery / Spawning Grounds Civic Hall",
+        "Shell Inlay Monument",
+        "Spawning Pool Nook"
+      ]
+    },
+    {
+      "districtNumber": 17,
+      "districtId": "D17",
+      "sectionNumber": 4,
+      "name": "D17 — Shell Inlay Monument Monument Frontage",
+      "civicPurpose": "This district turns Section 4's source-backed anchor set into a board-scale civic space: Nursery / Spawning Grounds Civic Hall, Nursery Basin, Shell Inlay Monument, Spawning Pool Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Nythaloss.",
+      "visualIdentity": "Use Shell Inlay Monument as the main read. Keep exact source anchors visible where applicable: Nursery / Spawning Grounds Civic Hall, Nursery Basin, Shell Inlay Monument, Spawning Pool Nook. The district should share Nythaloss's octopus-like cephalopod folk identity, Coral Stone, Seashell, Sea Glass, Silver Inlay, and Coastal Edge, Seawall Edge, Harbor Basin without becoming generic.",
+      "emotionalIdentity": "Memorial or symbolic, with Nythaloss's larger mood shaped by Octatype Spiral Tide Orrery of Eight Arms, Prison Hall Beacon, and Shell Spiral Windows Tide-Seal Citadel.",
+      "gameplayAssetNeeds": [
+        "Shell Inlay Monument",
+        "Nursery / Spawning Grounds Civic Hall",
+        "Nursery Basin",
+        "Spawning Pool Nook",
+        "Section 4 pedestrian-scale props",
+        "Nythaloss civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Shell Inlay Monument",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Shell Inlay Monument",
+      "minorLandmarks": [
+        "Nursery / Spawning Grounds Civic Hall",
+        "Nursery Basin",
+        "Spawning Pool Nook"
+      ]
+    },
+    {
+      "districtNumber": 21,
+      "districtId": "D21",
+      "sectionNumber": 4,
+      "name": "D21 — Spawning Pool Nook Neighborhood Nook",
+      "civicPurpose": "This district turns Section 4's source-backed anchor set into a board-scale civic space: Nursery / Spawning Grounds Civic Hall, Nursery Basin, Shell Inlay Monument, Spawning Pool Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Nythaloss.",
+      "visualIdentity": "Use Spawning Pool Nook as the main read. Keep exact source anchors visible where applicable: Nursery / Spawning Grounds Civic Hall, Nursery Basin, Shell Inlay Monument, Spawning Pool Nook. The district should share Nythaloss's octopus-like cephalopod folk identity, Coral Stone, Seashell, Sea Glass, Silver Inlay, and Coastal Edge, Seawall Edge, Harbor Basin without becoming generic.",
+      "emotionalIdentity": "Intimate and lived-in, with Nythaloss's larger mood shaped by Octatype Spiral Tide Orrery of Eight Arms, Prison Hall Beacon, and Shell Spiral Windows Tide-Seal Citadel.",
+      "gameplayAssetNeeds": [
+        "Spawning Pool Nook",
+        "Nursery / Spawning Grounds Civic Hall",
+        "Nursery Basin",
+        "Shell Inlay Monument",
+        "Section 4 pedestrian-scale props",
+        "Nythaloss civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Spawning Pool Nook",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Spawning Pool Nook",
+      "minorLandmarks": [
+        "Nursery / Spawning Grounds Civic Hall",
+        "Nursery Basin",
+        "Shell Inlay Monument"
+      ]
+    },
+    {
+      "districtNumber": 22,
+      "districtId": "D22",
+      "sectionNumber": 4,
+      "name": "D22 — Nursery / Spawning Grounds Civic Hall Supporting Streets",
+      "civicPurpose": "This district turns Section 4's source-backed anchor set into a board-scale civic space: Nursery / Spawning Grounds Civic Hall, Nursery Basin, Shell Inlay Monument, Spawning Pool Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Nythaloss.",
+      "visualIdentity": "Use Nursery / Spawning Grounds Civic Hall as the main read. Keep exact source anchors visible where applicable: Nursery / Spawning Grounds Civic Hall, Nursery Basin, Shell Inlay Monument, Spawning Pool Nook. The district should share Nythaloss's octopus-like cephalopod folk identity, Coral Stone, Seashell, Sea Glass, Silver Inlay, and Coastal Edge, Seawall Edge, Harbor Basin without becoming generic.",
+      "emotionalIdentity": "Connective and practical, with Nythaloss's larger mood shaped by Octatype Spiral Tide Orrery of Eight Arms, Prison Hall Beacon, and Shell Spiral Windows Tide-Seal Citadel.",
+      "gameplayAssetNeeds": [
+        "Nursery / Spawning Grounds Civic Hall",
+        "Nursery Basin",
+        "Shell Inlay Monument",
+        "Spawning Pool Nook",
+        "Section 4 pedestrian-scale props",
+        "Nythaloss civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Nursery / Spawning Grounds Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Nursery / Spawning Grounds Civic Hall",
+      "minorLandmarks": [
+        "Nursery Basin",
+        "Shell Inlay Monument",
+        "Spawning Pool Nook"
+      ]
+    },
+    {
+      "districtNumber": 19,
+      "districtId": "D19",
+      "sectionNumber": 5,
+      "name": "D19 — S5 Harbor Campus Civic-Anchor Precinct",
+      "civicPurpose": "This district turns Section 5's source-backed anchor set into a board-scale civic space: S5 Harbor Campus, Harbor Basilica, S5 Harbor Arch, S5 Harbor Bridgelet. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Nythaloss.",
+      "visualIdentity": "Use S5 Harbor Campus as the main read. Keep exact source anchors visible where applicable: S5 Harbor Campus, Harbor Basilica, S5 Harbor Arch, S5 Harbor Bridgelet. The district should share Nythaloss's octopus-like cephalopod folk identity, Coral Stone, Seashell, Sea Glass, Silver Inlay, and Coastal Edge, Seawall Edge, Harbor Basin without becoming generic.",
+      "emotionalIdentity": "Locally grounded, with Nythaloss's larger mood shaped by Octatype Spiral Tide Orrery of Eight Arms, Prison Hall Beacon, and Shell Spiral Windows Tide-Seal Citadel.",
+      "gameplayAssetNeeds": [
+        "S5 Harbor Campus",
+        "Harbor Basilica",
+        "S5 Harbor Arch",
+        "S5 Harbor Bridgelet",
+        "Section 5 pedestrian-scale props",
+        "Nythaloss civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on S5 Harbor Campus",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "S5 Harbor Campus",
+      "minorLandmarks": [
+        "Harbor Basilica",
+        "S5 Harbor Arch",
+        "S5 Harbor Bridgelet"
+      ]
+    },
+    {
+      "districtNumber": 20,
+      "districtId": "D20",
+      "sectionNumber": 5,
+      "name": "D20 — Harbor Basilica Landmark Approach",
+      "civicPurpose": "This district turns Section 5's source-backed anchor set into a board-scale civic space: S5 Harbor Campus, Harbor Basilica, S5 Harbor Arch, S5 Harbor Bridgelet. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Nythaloss.",
+      "visualIdentity": "Use Harbor Basilica as the main read. Keep exact source anchors visible where applicable: S5 Harbor Campus, Harbor Basilica, S5 Harbor Arch, S5 Harbor Bridgelet. The district should share Nythaloss's octopus-like cephalopod folk identity, Coral Stone, Seashell, Sea Glass, Silver Inlay, and Coastal Edge, Seawall Edge, Harbor Basin without becoming generic.",
+      "emotionalIdentity": "Public-facing, with Nythaloss's larger mood shaped by Octatype Spiral Tide Orrery of Eight Arms, Prison Hall Beacon, and Shell Spiral Windows Tide-Seal Citadel.",
+      "gameplayAssetNeeds": [
+        "Harbor Basilica",
+        "S5 Harbor Campus",
+        "S5 Harbor Arch",
+        "S5 Harbor Bridgelet",
+        "Section 5 pedestrian-scale props",
+        "Nythaloss civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Harbor Basilica",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Harbor Basilica",
+      "minorLandmarks": [
+        "S5 Harbor Campus",
+        "S5 Harbor Arch",
+        "S5 Harbor Bridgelet"
+      ]
+    },
+    {
+      "districtNumber": 23,
+      "districtId": "D23",
+      "sectionNumber": 5,
+      "name": "D23 — S5 Harbor Arch Monument Frontage",
+      "civicPurpose": "This district turns Section 5's source-backed anchor set into a board-scale civic space: S5 Harbor Campus, Harbor Basilica, S5 Harbor Arch, S5 Harbor Bridgelet. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Nythaloss.",
+      "visualIdentity": "Use S5 Harbor Arch as the main read. Keep exact source anchors visible where applicable: S5 Harbor Campus, Harbor Basilica, S5 Harbor Arch, S5 Harbor Bridgelet. The district should share Nythaloss's octopus-like cephalopod folk identity, Coral Stone, Seashell, Sea Glass, Silver Inlay, and Coastal Edge, Seawall Edge, Harbor Basin without becoming generic.",
+      "emotionalIdentity": "Memorial or symbolic, with Nythaloss's larger mood shaped by Octatype Spiral Tide Orrery of Eight Arms, Prison Hall Beacon, and Shell Spiral Windows Tide-Seal Citadel.",
+      "gameplayAssetNeeds": [
+        "S5 Harbor Arch",
+        "S5 Harbor Campus",
+        "Harbor Basilica",
+        "S5 Harbor Bridgelet",
+        "Section 5 pedestrian-scale props",
+        "Nythaloss civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on S5 Harbor Arch",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "S5 Harbor Arch",
+      "minorLandmarks": [
+        "S5 Harbor Campus",
+        "Harbor Basilica",
+        "S5 Harbor Bridgelet"
+      ]
+    },
+    {
+      "districtNumber": 24,
+      "districtId": "D24",
+      "sectionNumber": 5,
+      "name": "D24 — S5 Harbor Bridgelet Neighborhood Nook",
+      "civicPurpose": "This district turns Section 5's source-backed anchor set into a board-scale civic space: S5 Harbor Campus, Harbor Basilica, S5 Harbor Arch, S5 Harbor Bridgelet. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Nythaloss.",
+      "visualIdentity": "Use S5 Harbor Bridgelet as the main read. Keep exact source anchors visible where applicable: S5 Harbor Campus, Harbor Basilica, S5 Harbor Arch, S5 Harbor Bridgelet. The district should share Nythaloss's octopus-like cephalopod folk identity, Coral Stone, Seashell, Sea Glass, Silver Inlay, and Coastal Edge, Seawall Edge, Harbor Basin without becoming generic.",
+      "emotionalIdentity": "Intimate and lived-in, with Nythaloss's larger mood shaped by Octatype Spiral Tide Orrery of Eight Arms, Prison Hall Beacon, and Shell Spiral Windows Tide-Seal Citadel.",
+      "gameplayAssetNeeds": [
+        "S5 Harbor Bridgelet",
+        "S5 Harbor Campus",
+        "Harbor Basilica",
+        "S5 Harbor Arch",
+        "Section 5 pedestrian-scale props",
+        "Nythaloss civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on S5 Harbor Bridgelet",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "S5 Harbor Bridgelet",
+      "minorLandmarks": [
+        "S5 Harbor Campus",
+        "Harbor Basilica",
+        "S5 Harbor Arch"
+      ]
+    },
+    {
+      "districtNumber": 25,
+      "districtId": "D25",
+      "sectionNumber": 5,
+      "name": "D25 — S5 Harbor Campus Supporting Streets",
+      "civicPurpose": "This district turns Section 5's source-backed anchor set into a board-scale civic space: S5 Harbor Campus, Harbor Basilica, S5 Harbor Arch, S5 Harbor Bridgelet. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Nythaloss.",
+      "visualIdentity": "Use S5 Harbor Campus as the main read. Keep exact source anchors visible where applicable: S5 Harbor Campus, Harbor Basilica, S5 Harbor Arch, S5 Harbor Bridgelet. The district should share Nythaloss's octopus-like cephalopod folk identity, Coral Stone, Seashell, Sea Glass, Silver Inlay, and Coastal Edge, Seawall Edge, Harbor Basin without becoming generic.",
+      "emotionalIdentity": "Connective and practical, with Nythaloss's larger mood shaped by Octatype Spiral Tide Orrery of Eight Arms, Prison Hall Beacon, and Shell Spiral Windows Tide-Seal Citadel.",
+      "gameplayAssetNeeds": [
+        "S5 Harbor Campus",
+        "Harbor Basilica",
+        "S5 Harbor Arch",
+        "S5 Harbor Bridgelet",
+        "Section 5 pedestrian-scale props",
+        "Nythaloss civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on S5 Harbor Campus",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "S5 Harbor Campus",
+      "minorLandmarks": [
+        "Harbor Basilica",
+        "S5 Harbor Arch",
+        "S5 Harbor Bridgelet"
+      ]
+    }
+  ],
+  "landmarks": {
+    "wonder": {
+      "name": "Octatype Spiral Tide Orrery of Eight Arms",
+      "symbolicRole": "Octatype Spiral Tide Orrery of Eight Arms concentrates Nythaloss's local symbolism into a usable civic landmark: city wonder, separate far skyline anchor.",
+      "visualRole": "A one-per-city wonder: spectacular, unmistakable, and larger than every section landmark. It turns Nythaloss's geography, race identity, material culture, and civic magic into one public symbol. Built for Nythaloss's octopus-like cephalopod folk population, it uses Coral Stone, Seashell, Sea Glass, Silver Inlay, Black Marble across Coastal Edge, Seawall Edge, Harbor Basin; water context: Coast; magic expression: Beast Bonding, Ancestor Guidance, Tide Sorcery. It must read clearly as a high-fantasy tactical-board asset with no baked labels or text.",
+      "civicRole": "Serves as city wonder, separate far skyline anchor within Nythaloss; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+      "narrativeUse": [
+        "stage scenes involving Octatype Spiral Tide Orrery of Eight Arms",
+        "show how Nythaloss turns landmark symbolism into civic pressure",
+        "anchor public movement and crowd behavior",
+        "give writers a concrete place for announcements, disputes, errands, or rituals"
+      ],
+      "assetUse": [
+        "city landmark asset",
+        "map background landmark marker",
+        "visual continuity anchor across hero and street scenes",
+        "scale reference for civilians, roads, plazas, and props"
+      ],
+      "sensoryIdentity": [
+        "local foot traffic",
+        "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+        "public voices and civic work nearby",
+        "ambient city light and weathering",
+        "close pedestrian-scale details rather than abstract skyline-only treatment"
+      ],
+      "storyHooks": [
+        "a routine civic action at Octatype Spiral Tide Orrery of Eight Arms becomes narratively important",
+        "the visible condition of Octatype Spiral Tide Orrery of Eight Arms signals political or social stress",
+        "someone uses Octatype Spiral Tide Orrery of Eight Arms's public function to redirect crowds or information",
+        "an overlooked detail at Octatype Spiral Tide Orrery of Eight Arms reveals how Nythaloss really works"
+      ]
+    },
+    "beacon": {
+      "name": "Prison Hall Beacon",
+      "symbolicRole": "Prison Hall Beacon concentrates Nythaloss's local symbolism into a usable civic landmark: Section 1 beacon, near/front civic signal anchor.",
+      "visualRole": "Prison Hall Beacon: the single city beacon, a towering civic signal landmark fixed to section 1. Visible signal apparatus, strong vertical silhouette, public approach space, and board-scale beacon identity.",
+      "civicRole": "Serves as Section 1 beacon, near/front civic signal anchor within Nythaloss; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+      "narrativeUse": [
+        "stage scenes involving Prison Hall Beacon",
+        "show how Nythaloss turns landmark symbolism into civic pressure",
+        "anchor public movement and crowd behavior",
+        "give writers a concrete place for announcements, disputes, errands, or rituals"
+      ],
+      "assetUse": [
+        "district diorama anchor for Section 1",
+        "map background landmark marker",
+        "visual continuity anchor across hero and street scenes",
+        "scale reference for civilians, roads, plazas, and props"
+      ],
+      "sensoryIdentity": [
+        "local foot traffic",
+        "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+        "public voices and civic work nearby",
+        "beacon or lamp glow when applicable",
+        "close pedestrian-scale details rather than abstract skyline-only treatment"
+      ],
+      "storyHooks": [
+        "a routine civic action at Prison Hall Beacon becomes narratively important",
+        "the visible condition of Prison Hall Beacon signals political or social stress",
+        "someone uses Prison Hall Beacon's public function to redirect crowds or information",
+        "an overlooked detail at Prison Hall Beacon reveals how Nythaloss really works"
+      ]
+    },
+    "seatOfPower": {
+      "name": "Shell Spiral Windows Tide-Seal Citadel",
+      "symbolicRole": "Shell Spiral Windows Tide-Seal Citadel concentrates Nythaloss's local symbolism into a usable civic landmark: dominant central civic anchor / District 13 seat of power.",
+      "visualRole": "The district-13 seat of power: courts, audience terraces, sealed archives, command platforms, and the visible apparatus of government. It is not a faction HQ; it is the city's central civic authority. Built for Nythaloss's octopus-like cephalopod folk population, it uses Coral Stone, Seashell, Sea Glass, Silver Inlay, Black Marble across Coastal Edge, Seawall Edge, Harbor Basin; water context: Coast; magic expression: Beast Bonding, Ancestor Guidance, Tide Sorcery. It must read clearly as a high-fantasy tactical-board asset with no baked labels or text.",
+      "civicRole": "Serves as dominant central civic anchor / District 13 seat of power within Nythaloss; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+      "narrativeUse": [
+        "stage scenes involving Shell Spiral Windows Tide-Seal Citadel",
+        "show how Nythaloss turns landmark symbolism into civic pressure",
+        "anchor public movement and crowd behavior",
+        "give writers a concrete place for announcements, disputes, errands, or rituals"
+      ],
+      "assetUse": [
+        "city landmark asset",
+        "map background landmark marker",
+        "visual continuity anchor across hero and street scenes",
+        "scale reference for civilians, roads, plazas, and props"
+      ],
+      "sensoryIdentity": [
+        "local foot traffic",
+        "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+        "public voices and civic work nearby",
+        "ambient city light and weathering",
+        "close pedestrian-scale details rather than abstract skyline-only treatment"
+      ],
+      "storyHooks": [
+        "a routine civic action at Shell Spiral Windows Tide-Seal Citadel becomes narratively important",
+        "the visible condition of Shell Spiral Windows Tide-Seal Citadel signals political or social stress",
+        "someone uses Shell Spiral Windows Tide-Seal Citadel's public function to redirect crowds or information",
+        "an overlooked detail at Shell Spiral Windows Tide-Seal Citadel reveals how Nythaloss really works"
+      ]
+    },
+    "majorLandmarks": [
+      {
+        "name": "Harbor Basilica",
+        "symbolicRole": "Harbor Basilica concentrates Nythaloss's local symbolism into a usable civic landmark: additional major landmark selected for this hero-view camera angle.",
+        "visualRole": "Harbor Basilica: authored non-beacon major landmark for section 5. largest section focal point. strong vertical silhouette. distinct gameplay landmark. visible from nearby districts. anchors. ropes. buoys. signal lanterns. piers. quays. dock terraces. slipways.",
+        "civicRole": "Serves as additional major landmark selected for this hero-view camera angle within Nythaloss; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Harbor Basilica",
+          "show how Nythaloss turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 5",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Harbor Basilica becomes narratively important",
+          "the visible condition of Harbor Basilica signals political or social stress",
+          "someone uses Harbor Basilica's public function to redirect crowds or information",
+          "an overlooked detail at Harbor Basilica reveals how Nythaloss really works"
+        ]
+      },
+      {
+        "name": "Black Market Arcade",
+        "symbolicRole": "Black Market Arcade concentrates Nythaloss's local symbolism into a usable civic landmark: additional major landmark selected for this hero-view camera angle.",
+        "visualRole": "A largest local landmark in this section, subordinate only to the city wonder and citadel. It belongs to Section 2 (Underworld / Hidden Economy) of Nythaloss and should use Market Arcades, Gothic Spires, Subterranean Vaults, coral stone and silver inlay materials, Serpent Geometry, Mist Veils, Lantern Lit, and the octopus-like cephalopod folk visual language. Design focus: trapdoor lanes, secret doors, largest section focal point, strong vertical silhouette, distinct gameplay landmark. Terrain/water context: Sandy Beach; Coast. Magic expression: Salt Wards, Cipher Glamours, Mask Enchantments. No baked labels or text.",
+        "civicRole": "Serves as additional major landmark selected for this hero-view camera angle within Nythaloss; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Black Market Arcade",
+          "show how Nythaloss turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 2",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Black Market Arcade becomes narratively important",
+          "the visible condition of Black Market Arcade signals political or social stress",
+          "someone uses Black Market Arcade's public function to redirect crowds or information",
+          "an overlooked detail at Black Market Arcade reveals how Nythaloss really works"
+        ]
+      },
+      {
+        "name": "Nursery Basin",
+        "symbolicRole": "Nursery Basin concentrates Nythaloss's local symbolism into a usable civic landmark: additional major landmark selected for this hero-view camera angle.",
+        "visualRole": "A largest local landmark in this section, subordinate only to the city wonder and citadel. It belongs to Section 4 (Nursery / Spawning Grounds) of Nythaloss and should use Reed Pavilions, Shell Domes, Coral Terraces, coral stone and silver inlay materials, Hanging Gardens, Shell Inlay, Canal Reflections, and the octopus-like cephalopod folk visual language. Design focus: hatchery courts, play yards, largest section focal point, strong vertical silhouette, distinct gameplay landmark. Terrain/water context: Sandy Beach; Coast. Magic expression: Salt Wards, Cipher Glamours, Mask Enchantments. No baked labels or text.",
+        "civicRole": "Serves as additional major landmark selected for this hero-view camera angle within Nythaloss; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Nursery Basin",
+          "show how Nythaloss turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 4",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Nursery Basin becomes narratively important",
+          "the visible condition of Nursery Basin signals political or social stress",
+          "someone uses Nursery Basin's public function to redirect crowds or information",
+          "an overlooked detail at Nursery Basin reveals how Nythaloss really works"
+        ]
+      },
+      {
+        "name": "S1 Prison Hall",
+        "symbolicRole": "S1 Prison Hall concentrates Nythaloss's local symbolism into a usable civic landmark: Section 1 local anchor.",
+        "visualRole": "Prison Hall: authored civic gathering structure for section 1. institutional anchor. public-facing administration. clear central silhouette. board-readable entrance. bars. locks. warning bells. ward sigils. cell blocks. warded yards. watchhouses. cell rows.",
+        "civicRole": "Serves as Section 1 local anchor within Nythaloss; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving S1 Prison Hall",
+          "show how Nythaloss turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 1",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at S1 Prison Hall becomes narratively important",
+          "the visible condition of S1 Prison Hall signals political or social stress",
+          "someone uses S1 Prison Hall's public function to redirect crowds or information",
+          "an overlooked detail at S1 Prison Hall reveals how Nythaloss really works"
+        ]
+      },
+      {
+        "name": "S1 Prison Pillar",
+        "symbolicRole": "S1 Prison Pillar concentrates Nythaloss's local symbolism into a usable civic landmark: Section 1 local anchor.",
+        "visualRole": "Prison Pillar: carved civic memorial on a raised plinth. Ceremonial gathering area, readable symbolic focal point, strong vertical silhouette.",
+        "civicRole": "Serves as Section 1 local anchor within Nythaloss; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving S1 Prison Pillar",
+          "show how Nythaloss turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 1",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at S1 Prison Pillar becomes narratively important",
+          "the visible condition of S1 Prison Pillar signals political or social stress",
+          "someone uses S1 Prison Pillar's public function to redirect crowds or information",
+          "an overlooked detail at S1 Prison Pillar reveals how Nythaloss really works"
+        ]
+      },
+      {
+        "name": "S1 Prison Kiosk",
+        "symbolicRole": "S1 Prison Kiosk concentrates Nythaloss's local symbolism into a usable civic landmark: Section 1 local anchor.",
+        "visualRole": "Prison Kiosk: compact district landmark. Small integrated platform, nearby gathering space, readable focal prop from adjacent streets.",
+        "civicRole": "Serves as Section 1 local anchor within Nythaloss; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving S1 Prison Kiosk",
+          "show how Nythaloss turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 1",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at S1 Prison Kiosk becomes narratively important",
+          "the visible condition of S1 Prison Kiosk signals political or social stress",
+          "someone uses S1 Prison Kiosk's public function to redirect crowds or information",
+          "an overlooked detail at S1 Prison Kiosk reveals how Nythaloss really works"
+        ]
+      },
+      {
+        "name": "Underworld / Hidden Economy Civic Hall",
+        "symbolicRole": "Underworld / Hidden Economy Civic Hall concentrates Nythaloss's local symbolism into a usable civic landmark: Section 2 local anchor.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing. It belongs to Section 2 (Underworld / Hidden Economy) of Nythaloss and should use Subterranean Vaults, Market Arcades, Gothic Spires, coral stone and silver inlay materials, Serpent Geometry, Mist Veils, Lantern Lit, and the octopus-like cephalopod folk visual language. Design focus: hidden markets, backroom taverns, trapdoor lanes, secret doors, institutional anchor. Terrain/water context: Sandy Beach; Coast. Magic expression: Salt Wards, Cipher Glamours, Mask Enchantments. No baked labels or text.",
+        "civicRole": "Serves as Section 2 local anchor within Nythaloss; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Underworld / Hidden Economy Civic Hall",
+          "show how Nythaloss turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 2",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Underworld / Hidden Economy Civic Hall becomes narratively important",
+          "the visible condition of Underworld / Hidden Economy Civic Hall signals political or social stress",
+          "someone uses Underworld / Hidden Economy Civic Hall's public function to redirect crowds or information",
+          "an overlooked detail at Underworld / Hidden Economy Civic Hall reveals how Nythaloss really works"
+        ]
+      },
+      {
+        "name": "Mist Veils Monument",
+        "symbolicRole": "Mist Veils Monument concentrates Nythaloss's local symbolism into a usable civic landmark: Section 2 local anchor.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles. It belongs to Section 2 (Underworld / Hidden Economy) of Nythaloss and should use Subterranean Vaults, Market Arcades, Gothic Spires, coral stone and silver inlay materials, Serpent Geometry, Mist Veils, Lantern Lit, and the octopus-like cephalopod folk visual language. Design focus: symbolic civic object, small ceremonial site, local memory marker, subordinate to major landmark, masks. Terrain/water context: Sandy Beach; Coast. Magic expression: Salt Wards, Cipher Glamours, Mask Enchantments. No baked labels or text.",
+        "civicRole": "Serves as Section 2 local anchor within Nythaloss; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Mist Veils Monument",
+          "show how Nythaloss turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 2",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Mist Veils Monument becomes narratively important",
+          "the visible condition of Mist Veils Monument signals political or social stress",
+          "someone uses Mist Veils Monument's public function to redirect crowds or information",
+          "an overlooked detail at Mist Veils Monument reveals how Nythaloss really works"
+        ]
+      },
+      {
+        "name": "Understreet Vault Nook",
+        "symbolicRole": "Understreet Vault Nook concentrates Nythaloss's local symbolism into a usable civic landmark: Section 2 local anchor.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette. It belongs to Section 2 (Underworld / Hidden Economy) of Nythaloss and should use Subterranean Vaults, Market Arcades, Gothic Spires, coral stone and silver inlay materials, Serpent Geometry, Mist Veils, Lantern Lit, and the octopus-like cephalopod folk visual language. Design focus: street-level detail, usable board landmark, subordinate scale, masks, yellow lamps. Terrain/water context: Sandy Beach; Coast. Magic expression: Salt Wards, Cipher Glamours, Mask Enchantments. No baked labels or text.",
+        "civicRole": "Serves as Section 2 local anchor within Nythaloss; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Understreet Vault Nook",
+          "show how Nythaloss turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 2",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Understreet Vault Nook becomes narratively important",
+          "the visible condition of Understreet Vault Nook signals political or social stress",
+          "someone uses Understreet Vault Nook's public function to redirect crowds or information",
+          "an overlooked detail at Understreet Vault Nook reveals how Nythaloss really works"
+        ]
+      },
+      {
+        "name": "Public Works Authority Hall",
+        "symbolicRole": "Public Works Authority Hall concentrates Nythaloss's local symbolism into a usable civic landmark: Section 3 local anchor.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing. It belongs to Section 3 (Public Works Authority) of Nythaloss and should use White Limestone Civic Blocks, Forge Halls, Market Arcades, coral stone and silver inlay materials, Civic Blue Glow, Canal Reflections, Gold Seals, and the octopus-like cephalopod folk visual language. Design focus: repair yards, institutional anchor, public-facing administration, clear central silhouette, board-readable entrance. Terrain/water context: Sandy Beach; Coast. Magic expression: Salt Wards, Cipher Glamours, Mask Enchantments. No baked labels or text.",
+        "civicRole": "Serves as Section 3 local anchor within Nythaloss; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Public Works Authority Hall",
+          "show how Nythaloss turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 3",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Public Works Authority Hall becomes narratively important",
+          "the visible condition of Public Works Authority Hall signals political or social stress",
+          "someone uses Public Works Authority Hall's public function to redirect crowds or information",
+          "an overlooked detail at Public Works Authority Hall reveals how Nythaloss really works"
+        ]
+      },
+      {
+        "name": "Survey Hall",
+        "symbolicRole": "Survey Hall concentrates Nythaloss's local symbolism into a usable civic landmark: Section 3 local anchor.",
+        "visualRole": "A mandatory Section 3 Beacon: a culturally adapted civic signal flame / warning-light landmark visible across the city spine. It belongs to Section 3 (Public Works Authority) of Nythaloss and should use White Limestone Civic Blocks, Forge Halls, Market Arcades, coral stone and silver inlay materials, Canal Reflections, Gold Seals, Civic Blue Glow, and the octopus-like cephalopod folk visual language. Design focus: survey yards, bridge offices, Beacon must inherit city materials, culture, magic expression, and water/terrain context from CityProfile., Beacon form may be a ground flame, tower flame, suspended flame, totemic flame, ceremonial brazier, signal obelisk, or lighthouse-like flame., Beacon-compatible major landmark; must render as a culturally adapted civic signal flame or magical warning light.. Terrain/water context: Sandy Beach; Coast. Magic expression: Salt Wards, Cipher Glamours, Mask Enchantments. No baked labels or text.",
+        "civicRole": "Serves as Section 3 local anchor within Nythaloss; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Survey Hall",
+          "show how Nythaloss turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 3",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Survey Hall becomes narratively important",
+          "the visible condition of Survey Hall signals political or social stress",
+          "someone uses Survey Hall's public function to redirect crowds or information",
+          "an overlooked detail at Survey Hall reveals how Nythaloss really works"
+        ]
+      },
+      {
+        "name": "Blue-Lamp Monument",
+        "symbolicRole": "Blue-Lamp Monument concentrates Nythaloss's local symbolism into a usable civic landmark: Section 3 local anchor.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles. It belongs to Section 3 (Public Works Authority) of Nythaloss and should use Forge Halls, Market Arcades, White Limestone Civic Blocks, coral stone and silver inlay materials, Gold Seals, Civic Blue Glow, Canal Reflections, and the octopus-like cephalopod folk visual language. Design focus: symbolic civic object, small ceremonial site, local memory marker, subordinate to major landmark, measuring rods. Terrain/water context: Sandy Beach; Coast. Magic expression: Salt Wards, Cipher Glamours, Mask Enchantments. No baked labels or text.",
+        "civicRole": "Serves as Section 3 local anchor within Nythaloss; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Blue-Lamp Monument",
+          "show how Nythaloss turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 3",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Blue-Lamp Monument becomes narratively important",
+          "the visible condition of Blue-Lamp Monument signals political or social stress",
+          "someone uses Blue-Lamp Monument's public function to redirect crowds or information",
+          "an overlooked detail at Blue-Lamp Monument reveals how Nythaloss really works"
+        ]
+      },
+      {
+        "name": "Permit Yard Nook",
+        "symbolicRole": "Permit Yard Nook concentrates Nythaloss's local symbolism into a usable civic landmark: Section 3 local anchor.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette. It belongs to Section 3 (Public Works Authority) of Nythaloss and should use Market Arcades, White Limestone Civic Blocks, Forge Halls, coral stone and silver inlay materials, Civic Blue Glow, Canal Reflections, Gold Seals, and the octopus-like cephalopod folk visual language. Design focus: engineer halls, survey yards, bridge offices, repair yards, small local identity prop. Terrain/water context: Sandy Beach; Coast. Magic expression: Salt Wards, Cipher Glamours, Mask Enchantments. No baked labels or text.",
+        "civicRole": "Serves as Section 3 local anchor within Nythaloss; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Permit Yard Nook",
+          "show how Nythaloss turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 3",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Permit Yard Nook becomes narratively important",
+          "the visible condition of Permit Yard Nook signals political or social stress",
+          "someone uses Permit Yard Nook's public function to redirect crowds or information",
+          "an overlooked detail at Permit Yard Nook reveals how Nythaloss really works"
+        ]
+      },
+      {
+        "name": "Nursery / Spawning Grounds Civic Hall",
+        "symbolicRole": "Nursery / Spawning Grounds Civic Hall concentrates Nythaloss's local symbolism into a usable civic landmark: Section 4 local anchor.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing. It belongs to Section 4 (Nursery / Spawning Grounds) of Nythaloss and should use Shell Domes, Coral Terraces, Reed Pavilions, coral stone and silver inlay materials, Hanging Gardens, Shell Inlay, Canal Reflections, and the octopus-like cephalopod folk visual language. Design focus: egg stones, soft lanterns, nursery halls, spawning pools, hatchery courts. Terrain/water context: Sandy Beach; Coast. Magic expression: Salt Wards, Cipher Glamours, Mask Enchantments. No baked labels or text.",
+        "civicRole": "Serves as Section 4 local anchor within Nythaloss; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Nursery / Spawning Grounds Civic Hall",
+          "show how Nythaloss turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 4",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Nursery / Spawning Grounds Civic Hall becomes narratively important",
+          "the visible condition of Nursery / Spawning Grounds Civic Hall signals political or social stress",
+          "someone uses Nursery / Spawning Grounds Civic Hall's public function to redirect crowds or information",
+          "an overlooked detail at Nursery / Spawning Grounds Civic Hall reveals how Nythaloss really works"
+        ]
+      },
+      {
+        "name": "Shell Inlay Monument",
+        "symbolicRole": "Shell Inlay Monument concentrates Nythaloss's local symbolism into a usable civic landmark: Section 4 local anchor.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles. It belongs to Section 4 (Nursery / Spawning Grounds) of Nythaloss and should use Shell Domes, Coral Terraces, Reed Pavilions, coral stone and silver inlay materials, Hanging Gardens, Shell Inlay, Canal Reflections, and the octopus-like cephalopod folk visual language. Design focus: spawning pools, hatchery courts, play yards, symbolic civic object, small ceremonial site. Terrain/water context: Sandy Beach; Coast. Magic expression: Salt Wards, Cipher Glamours, Mask Enchantments. No baked labels or text.",
+        "civicRole": "Serves as Section 4 local anchor within Nythaloss; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Shell Inlay Monument",
+          "show how Nythaloss turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 4",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Shell Inlay Monument becomes narratively important",
+          "the visible condition of Shell Inlay Monument signals political or social stress",
+          "someone uses Shell Inlay Monument's public function to redirect crowds or information",
+          "an overlooked detail at Shell Inlay Monument reveals how Nythaloss really works"
+        ]
+      },
+      {
+        "name": "Spawning Pool Nook",
+        "symbolicRole": "Spawning Pool Nook concentrates Nythaloss's local symbolism into a usable civic landmark: Section 4 local anchor.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette. It belongs to Section 4 (Nursery / Spawning Grounds) of Nythaloss and should use Reed Pavilions, Shell Domes, Coral Terraces, coral stone and silver inlay materials, Shell Inlay, Canal Reflections, Hanging Gardens, and the octopus-like cephalopod folk visual language. Design focus: cradles, warm pools, egg stones, soft lanterns, nursery halls. Terrain/water context: Sandy Beach; Coast. Magic expression: Salt Wards, Cipher Glamours, Mask Enchantments. No baked labels or text.",
+        "civicRole": "Serves as Section 4 local anchor within Nythaloss; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Spawning Pool Nook",
+          "show how Nythaloss turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 4",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Spawning Pool Nook becomes narratively important",
+          "the visible condition of Spawning Pool Nook signals political or social stress",
+          "someone uses Spawning Pool Nook's public function to redirect crowds or information",
+          "an overlooked detail at Spawning Pool Nook reveals how Nythaloss really works"
+        ]
+      },
+      {
+        "name": "S5 Harbor Campus",
+        "symbolicRole": "S5 Harbor Campus concentrates Nythaloss's local symbolism into a usable civic landmark: Section 5 local anchor.",
+        "visualRole": "Harbor Campus: authored civic gathering structure for section 5. institutional anchor. public-facing administration. clear central silhouette. board-readable entrance. anchors. ropes. buoys. signal lanterns. piers. quays. dock terraces. slipways.",
+        "civicRole": "Serves as Section 5 local anchor within Nythaloss; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving S5 Harbor Campus",
+          "show how Nythaloss turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 5",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at S5 Harbor Campus becomes narratively important",
+          "the visible condition of S5 Harbor Campus signals political or social stress",
+          "someone uses S5 Harbor Campus's public function to redirect crowds or information",
+          "an overlooked detail at S5 Harbor Campus reveals how Nythaloss really works"
+        ]
+      },
+      {
+        "name": "S5 Harbor Arch",
+        "symbolicRole": "S5 Harbor Arch concentrates Nythaloss's local symbolism into a usable civic landmark: Section 5 local anchor.",
+        "visualRole": "Harbor Arch: carved civic memorial on a raised plinth. Ceremonial gathering area, readable symbolic focal point, strong vertical silhouette.",
+        "civicRole": "Serves as Section 5 local anchor within Nythaloss; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving S5 Harbor Arch",
+          "show how Nythaloss turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 5",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at S5 Harbor Arch becomes narratively important",
+          "the visible condition of S5 Harbor Arch signals political or social stress",
+          "someone uses S5 Harbor Arch's public function to redirect crowds or information",
+          "an overlooked detail at S5 Harbor Arch reveals how Nythaloss really works"
+        ]
+      },
+      {
+        "name": "S5 Harbor Bridgelet",
+        "symbolicRole": "S5 Harbor Bridgelet concentrates Nythaloss's local symbolism into a usable civic landmark: Section 5 local anchor.",
+        "visualRole": "Harbor Bridgelet: compact district landmark. Small integrated platform, nearby gathering space, readable focal prop from adjacent streets.",
+        "civicRole": "Serves as Section 5 local anchor within Nythaloss; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving S5 Harbor Bridgelet",
+          "show how Nythaloss turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 5",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at S5 Harbor Bridgelet becomes narratively important",
+          "the visible condition of S5 Harbor Bridgelet signals political or social stress",
+          "someone uses S5 Harbor Bridgelet's public function to redirect crowds or information",
+          "an overlooked detail at S5 Harbor Bridgelet reveals how Nythaloss really works"
+        ]
+      }
+    ]
+  },
+  "assetGuidance": {
+    "districtDioramaGuidance": [
+      "Dioramas must support 25 district slots: S1 covers D01, D02, D03, D06, D07 and uses source-backed anchors S1 Prison Hall, Prison Hall Beacon, S1 Prison Pillar, S1 Prison Kiosk.",
+      "Dioramas must support 25 district slots: S2 covers D04, D05, D09, D10, D15 and uses source-backed anchors Underworld / Hidden Economy Civic Hall, Black Market Arcade, Mist Veils Monument, Understreet Vault Nook.",
+      "Dioramas must support 25 district slots: S3 covers D08, D12, D13, D14, D18 and uses source-backed anchors Public Works Authority Hall, Survey Hall, Blue-Lamp Monument, Permit Yard Nook.",
+      "Dioramas must support 25 district slots: S4 covers D11, D16, D17, D21, D22 and uses source-backed anchors Nursery / Spawning Grounds Civic Hall, Nursery Basin, Shell Inlay Monument, Spawning Pool Nook.",
+      "Dioramas must support 25 district slots: S5 covers D19, D20, D23, D24, D25 and uses source-backed anchors S5 Harbor Campus, Harbor Basilica, S5 Harbor Arch, S5 Harbor Bridgelet."
+    ],
+    "mapBackgroundGuidance": [
+      "Map backgrounds must show Octatype Spiral Tide Orrery of Eight Arms as the wonder-scale identity anchor, Shell Spiral Windows Tide-Seal Citadel at D13, and Prison Hall Beacon as the city signal landmark.",
+      "Preserve the five-section spine: S1 S1 Prison Hall, S2 Underworld / Hidden Economy Civic Hall, S3 Public Works Authority Hall, S4 Nursery / Spawning Grounds Civic Hall, S5 S5 Harbor Campus.",
+      "Use roads, terrain, water, civic terraces, walls, markets, courts, or service routes only where they support the exact city identity and tactical readability."
+    ],
+    "requiredVisualElements": [
+      "Octatype Spiral Tide Orrery of Eight Arms",
+      "Prison Hall Beacon",
+      "Shell Spiral Windows Tide-Seal Citadel",
+      "Harbor Basilica",
+      "Black Market Arcade",
+      "Nursery Basin",
+      "S1 Prison Hall",
+      "S1 Prison Pillar",
+      "S1 Prison Kiosk",
+      "Underworld / Hidden Economy Civic Hall",
+      "Mist Veils Monument",
+      "Understreet Vault Nook",
+      "Public Works Authority Hall",
+      "Survey Hall",
+      "Blue-Lamp Monument",
+      "Permit Yard Nook",
+      "Nursery / Spawning Grounds Civic Hall",
+      "Shell Inlay Monument",
+      "Spawning Pool Nook",
+      "S5 Harbor Campus",
+      "S5 Harbor Arch",
+      "S5 Harbor Bridgelet",
+      "Coral Stone",
+      "Seashell",
+      "Sea Glass",
+      "Silver Inlay",
+      "Black Marble",
+      "Coastal Edge",
+      "Seawall Edge",
+      "Harbor Basin",
+      "Beast Bonding",
+      "Ancestor Guidance",
+      "Tide Sorcery"
+    ],
+    "elementsToAvoid": [
+      "extra top-level schema sections or research-log content in the JSON",
+      "generic fantasy architecture that ignores exact anchor names",
+      "invented missing street anchors",
+      "readable real-world text labels baked into images",
+      "collapsing the 25-district board into only five playable spaces",
+      "making landmarks decorative when they should have civic, narrative, and asset function"
+    ]
+  }
+}

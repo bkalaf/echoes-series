@@ -4,89 +4,1895 @@
     "analysisVersion": 2,
     "cityCode": "GVE",
     "cityName": "Ghorum Vale",
-    "analysisDate": "2026-07-03",
+    "analysisDate": "2026-07-05",
     "analystVersion": "gpt-5.5-thinking",
     "analysisConfidence": "strong-lock",
-    "basedOnImages": ["GVE-HERO-NE-v001", "GVE-HERO-NW-v001", "GVE-HERO-SE-v001", "GVE-HERO-SW-v001", "GVE-STREET-S1-v001", "GVE-STREET-S2-v001", "GVE-STREET-S3-v001", "GVE-STREET-S4-v001", "GVE-STREET-S5-v001"],
-    "basedOnSidecars": ["GVE-HERO-NE-v001.json", "GVE-HERO-NW-v001.json", "GVE-HERO-SE-v001.json", "GVE-HERO-SW-v001.json", "GVE-STREET-S1-v001.json", "GVE-STREET-S2-v001.json", "GVE-STREET-S3-v001.json", "GVE-STREET-S4-v001.json", "GVE-STREET-S5-v001.json"]
+    "sourceStatus": "full",
+    "districtModel": "five sections; five district slots per section; D13 is the seat of power",
+    "missingStreetSections": [],
+    "basedOnImages": [
+      "GVE-HERO-NE-v001",
+      "GVE-HERO-NW-v001",
+      "GVE-HERO-SE-v001",
+      "GVE-HERO-SW-v001",
+      "GVE-STREET-S1-v001",
+      "GVE-STREET-S2-v001",
+      "GVE-STREET-S3-v001",
+      "GVE-STREET-S4-v001",
+      "GVE-STREET-S5-v001"
+    ],
+    "basedOnSidecars": [
+      "GVE-HERO-NE-v001.json",
+      "GVE-HERO-NW-v001.json",
+      "GVE-HERO-SE-v001.json",
+      "GVE-HERO-SW-v001.json",
+      "GVE-STREET-S1-v001.json",
+      "GVE-STREET-S2-v001.json",
+      "GVE-STREET-S3-v001.json",
+      "GVE-STREET-S4-v001.json",
+      "GVE-STREET-S5-v001.json"
+    ]
   },
   "cityDNA": {
-    "coreFantasy": "A colossal floodplain civilization where lock houses, grain halls, relief plazas, healing courts, training arenas, memory-tablet government, and menhir courts make scale responsible.",
-    "primaryEmotion": "colossal continuity",
-    "secondaryEmotion": "provisioned gravity",
-    "readerTakeaway": "Ghorum Vale is not a generic giant city; its grandeur is logistical, communal, and memorial.",
-    "civilizationThesis": "Ghorum Vale turns water control, food, relief, healing, training, public rosters, memory tablets, and menhir-scale remembrance into one floodplain system of civic continuity.",
-    "visualIdentity": "White limestone civic blocks, reed pavilions, coral terraces, market arcades, timber longhouses, lock houses, waterwheel courts, grain halls, relief plazas, healing wards, training grounds, memory tablets, and colossal menhirs.",
-    "culturalIdentity": "A colossus-scale civilization where large bodies and large systems create public responsibility around water, food, relief, care, readiness, and remembered duty.",
-    "symbolicIdentity": "Lock houses, waterwheels, canal reflections, grain halls, awnings, blue lamps, memory tablets, menhirs, woven banners, champion gates, and healing lanterns symbolize burden-sharing at scale."
+    "coreFantasy": "A colossal giant-bodied folk city where Colossal Floodplain Menhir Court, Lock House Beacon, Memory Tablet Walls Colossus Registry, and the five-section district spine turn local identity into functional civic space.",
+    "primaryEmotion": "source-backed civic presence",
+    "secondaryEmotion": "lived-in pressure beneath landmark order",
+    "readerTakeaway": "Ghorum Vale should feel immediately identifiable through exact landmarks and materials, not through generic fantasy-city shorthand.",
+    "civilizationThesis": "Ghorum Vale organizes power through Memory Tablet Walls Colossus Registry, public response through Lock House Beacon, civic memory through Colossal Floodplain Menhir Court, and daily life through S1 Canal / Riverworks Civic Hall, S2 Granary / Food Market Civic Hall, S3 Civic Services Hall, S4 Medical / Healing Civic Hall, S5 Arena / Training Civic Hall.",
+    "visualIdentity": "Riverstone, Mudbrick, Timber, Limewash, Canvas, Riverside, Floodplain, Canal Basin, Beast Bonding, Ancestor Guidance, Stone Giant Memory, and exact anchors including Memory Tablet Walls Colossus Registry, Lock House Beacon, Colossal Floodplain Menhir Court, Training Arena, Grain Hall, Healing Hall, Canal / Riverworks Civic Hall, Canal Reflections Monument, Waterwheel Court Nook, Granary / Food Market Civic Hall.",
+    "culturalIdentity": "A colossal giant-bodied folk civic culture where architecture, public obligations, roads, landmark approaches, and everyday work must all read as part of the same civilization.",
+    "symbolicIdentity": "The city symbol system is built from exact names and visible functions: Colossal Floodplain Menhir Court, Lock House Beacon, Memory Tablet Walls Colossus Registry, and section anchors such as Canal / Riverworks Civic Hall, Granary / Food Market Civic Hall, Civic Services Hall, Medical / Healing Civic Hall, Arena / Training Civic Hall."
   },
   "canon": {
     "canonLocks": [
-      "Ghorum Vale is a mature colossus-scale floodplain capital, not a generic giant city.",
-      "The Wonder is the Colossal Floodplain Menhir Court.",
-      "The Beacon is the Lock House Beacon.",
-      "The Seat of Power is the Memory Tablet Walls Colossus Registry.",
-      "The five primary districts are Canal / Riverworks, Granary / Food Market, Civic Services, Medical / Healing, and Arena / Training.",
-      "The uploaded district anchors include Canal / Riverworks Civic Hall, Lock House Beacon, Canal Reflections Monument, Waterwheel Court Nook, Granary / Food Market Civic Hall, Grain Hall, Awning Monument, Mill Court Nook, Civic Services Hall, Relief Hall, Civic Services Lantern Monument, Notice Plaza Nook, Medical / Healing Civic Hall, Healing Hall, Medical Healing Lantern Monument, Apothecary Court Nook, Arena / Training Civic Hall, Training Arena, Woven Banners Monument, and Champion Gate Nook."
+      "Ghorum Vale uses city code GVE.",
+      "The Wonder is Colossal Floodplain Menhir Court.",
+      "The Beacon is Lock House Beacon.",
+      "The Seat of Power is Memory Tablet Walls Colossus Registry and occupies District 13.",
+      "The city uses five sections with five tactical district slots per section.",
+      "The source-backed section spine is: S1 Canal / Riverworks Civic Hall, S2 Granary / Food Market Civic Hall, S3 Civic Services Hall, S4 Medical / Healing Civic Hall, S5 Arena / Training Civic Hall.",
+      "Preserve exact anchor name: Memory Tablet Walls Colossus Registry.",
+      "Preserve exact anchor name: Lock House Beacon.",
+      "Preserve exact anchor name: Colossal Floodplain Menhir Court.",
+      "Preserve exact anchor name: Training Arena.",
+      "Preserve exact anchor name: Grain Hall.",
+      "Preserve exact anchor name: Healing Hall.",
+      "Preserve exact anchor name: Canal / Riverworks Civic Hall.",
+      "Preserve exact anchor name: Canal Reflections Monument.",
+      "Preserve exact anchor name: Waterwheel Court Nook.",
+      "Preserve exact anchor name: Granary / Food Market Civic Hall.",
+      "Preserve exact anchor name: Awning Monument.",
+      "Preserve exact anchor name: Mill Court Nook.",
+      "Preserve exact anchor name: Civic Services Hall.",
+      "Preserve exact anchor name: Relief Hall.",
+      "Preserve exact anchor name: Civic Services Lantern Monument.",
+      "Preserve exact anchor name: Notice Plaza Nook.",
+      "Preserve exact anchor name: Medical / Healing Civic Hall.",
+      "Preserve exact anchor name: Medical Healing Lantern Monument.",
+      "Preserve exact anchor name: Apothecary Court Nook.",
+      "Preserve exact anchor name: Arena / Training Civic Hall.",
+      "Preserve exact anchor name: Woven Banners Monument.",
+      "Preserve exact anchor name: Champion Gate Nook."
     ],
-    "provisionalCanon": ["Ghorum Vale's highest civic virtue is continuity.", "The central tension is public care versus impersonal administration.", "Scale should express obligation: huge buildings matter only because they manage water, food, aid, healing, training, and memory."],
-    "rejectedReads": ["Ghorum Vale is merely oversized architecture.", "Ghorum Vale is interchangeable with other giant or troll cities.", "Food, relief, healing, and training are background services rather than primary civic institutions."],
-    "cautionFlags": ["Use scale through functions: water gauges, grain scales, basins, doors, stairs, wheels, tablets, and plazas built for colossal civic life.", "Keep water, food, relief, healing, and training visible across the city.", "Memory must appear in public stone, tablets, rosters, and menhir alignments, not only private nostalgia.", "Preserve exact sidecar anchors so Ghorum Vale does not become a generic big floodplain city."]
+    "provisionalCanon": [],
+    "rejectedReads": [
+      "Do not treat Ghorum Vale as a generic fantasy settlement with renamed landmarks.",
+      "Do not collapse the five-section board into a single mood or single district.",
+      "Do not replace exact anchor names with generic summaries.",
+      "Do not invent missing street-section landmarks when a street source is absent."
+    ],
+    "cautionFlags": [
+      "Keep every named Wonder, Beacon, Seat, section civic hall, major landmark, monument, and minor nook exact when present in sidecars.",
+      "If an image appears to deviate from a sidecar, preserve the exact name but avoid overclaiming visual details not supported by the source package.",
+      "Every district asset should remain usable for narrative scenes, tactical board dioramas, and city map backgrounds."
+    ]
   },
   "environment": {
-    "terrain": ["floodplain metropolis", "water-threaded civic basin", "broad canal terraces", "lock-house plazas", "grain market courts", "menhir processional grounds", "large civic stairs"],
-    "water": ["canals", "lock channels", "sluice gates", "waterwheel channels", "relief basins", "canal reflections", "river fog", "floodplain runoff"],
-    "vegetation": ["reeds", "floodplain grasses", "market herbs", "healing gardens", "reed pavilion roofing", "canal-edge plants"],
-    "climateLighting": ["warm floodplain daylight", "canal-reflected light", "blue civic lamp glow", "market lanterns", "healing hall lamps", "arena torchlight", "mist-softened river light", "golden-hour white stone"],
-    "environmentalLogic": "Floodplain water is the basis of government, labor, danger, food, memory, and public care. The city measures, gates, reflects, stores, and routes water rather than pretending it can be ignored."
+    "terrain": [
+      "Riverside",
+      "Floodplain",
+      "Canal Basin"
+    ],
+    "water": [
+      "River"
+    ],
+    "vegetation": [
+      "courtyard trees",
+      "balcony planters",
+      "public greenery where visible",
+      "source-backed local vegetation only"
+    ],
+    "climateLighting": [
+      "Beast Bonding",
+      "Ancestor Guidance",
+      "Stone Giant Memory",
+      "daylight",
+      "golden hour",
+      "lantern light",
+      "civic beacon glow"
+    ],
+    "environmentalLogic": "The environment should make Ghorum Vale's exact civic anchors plausible at street scale: terrain routes people toward section landmarks, lighting clarifies public authority, and water or landscape features remain source-backed rather than decorative filler."
   },
   "architecture": {
-    "materials": ["white limestone civic blocks", "reed pavilions", "coral terraces", "timber longhouses", "market arcade stone", "temple platform stone", "obsidian fortress stone", "wet lock-house masonry", "blue civic lamps", "woven banners", "red awnings", "bronze fittings", "river stone", "grain-storage clay"],
-    "forms": ["Canal / Riverworks Civic Hall", "Lock House Beacon", "Canal Reflections Monument", "Waterwheel Court Nook", "Granary / Food Market Civic Hall", "Grain Hall", "Awning Monument", "Mill Court Nook", "Civic Services Hall", "Relief Hall", "Civic Services Lantern Monument", "Notice Plaza Nook", "Healing Hall", "Apothecary Court Nook", "Training Arena", "Champion Gate Nook", "memory tablet walls", "colossal menhir courts"],
-    "skyline": ["Colossal Floodplain Menhir Court as far wonder anchor", "Memory Tablet Walls Colossus Registry as central authority", "Lock House Beacon as riverworks signal landmark", "Training Arena as strength and readiness anchor", "grain halls, healing halls, relief towers, waterworks, and canal bridges across the floodplain basin"],
-    "lighting": ["warm daylight", "canal reflection", "blue civic lamps", "market lanterns under awnings", "healing lamps", "arena torchlight", "misty river glow"],
-    "infrastructure": ["sluice gates", "lock channels", "waterwheel courts", "towpaths", "canal bridges", "grain scales", "bread ovens", "public rosters", "notice boards", "relief basins", "healing courtyards", "apothecary stalls", "practice rings", "champion gate approaches", "memory tablet plazas"],
-    "motifs": ["lock houses", "waterwheels", "canal reflections", "grain halls", "awnings", "blue lamps", "memory tablets", "menhirs", "woven banners", "champion gates", "healing lanterns", "reed pavilions"],
-    "colorLanguage": ["white civic stone", "floodplain green", "reed tan", "river blue", "blue civic light", "red awnings", "healing amber", "banner colors", "wet stone gray"],
-    "textureLanguage": ["wet stone", "river mud", "grain dust", "reed matting", "rough menhir stone", "smooth tablet surfaces", "canvas after rain", "bronze fittings", "water-polished masonry"]
+    "materials": [
+      "Riverstone",
+      "Mudbrick",
+      "Timber",
+      "Limewash",
+      "Canvas"
+    ],
+    "forms": [
+      "Memory Tablet Walls Colossus Registry",
+      "Lock House Beacon",
+      "Colossal Floodplain Menhir Court",
+      "Training Arena",
+      "Grain Hall",
+      "Healing Hall",
+      "Canal / Riverworks Civic Hall",
+      "Canal Reflections Monument",
+      "Waterwheel Court Nook",
+      "Granary / Food Market Civic Hall",
+      "Awning Monument",
+      "Mill Court Nook",
+      "Civic Services Hall",
+      "Relief Hall",
+      "Civic Services Lantern Monument",
+      "Notice Plaza Nook",
+      "Medical / Healing Civic Hall",
+      "Medical Healing Lantern Monument",
+      "Apothecary Court Nook",
+      "Arena / Training Civic Hall",
+      "Woven Banners Monument",
+      "Champion Gate Nook",
+      "section civic halls",
+      "major landmark approaches",
+      "monument frontages",
+      "minor landmark nooks",
+      "district roads and plazas",
+      "D13 authority complex"
+    ],
+    "skyline": [
+      "Colossal Floodplain Menhir Court",
+      "Memory Tablet Walls Colossus Registry",
+      "Lock House Beacon",
+      "Training Arena",
+      "Grain Hall",
+      "Healing Hall",
+      "Canal / Riverworks Civic Hall",
+      "Canal Reflections Monument",
+      "Waterwheel Court Nook"
+    ],
+    "lighting": [
+      "Beast Bonding",
+      "Ancestor Guidance",
+      "Stone Giant Memory",
+      "beacon-state light",
+      "lantern-lit civic paths",
+      "street-level shop and housing light"
+    ],
+    "infrastructure": [
+      "Canal / Riverworks Civic Hall",
+      "Granary / Food Market Civic Hall",
+      "Civic Services Hall",
+      "Medical / Healing Civic Hall",
+      "Arena / Training Civic Hall",
+      "roads between district slots",
+      "public thresholds",
+      "plaza edges",
+      "records, permits, markets, services, or rituals implied by anchors"
+    ],
+    "motifs": [
+      "Memory",
+      "Tablet",
+      "Walls",
+      "Colossus",
+      "Registry",
+      "Lock",
+      "House",
+      "Beacon",
+      "Colossal",
+      "Floodplain",
+      "Menhir",
+      "Court",
+      "Training",
+      "Arena",
+      "Grain",
+      "Hall"
+    ],
+    "colorLanguage": [
+      "source-backed material colors",
+      "civic blue signal accents",
+      "local textile, stone, metal, vegetation, or water colors from the image package"
+    ],
+    "textureLanguage": [
+      "Riverstone",
+      "Mudbrick",
+      "Timber",
+      "Limewash",
+      "Canvas",
+      "worn pedestrian surfaces",
+      "worked civic ornament",
+      "weathered public thresholds",
+      "lived-in shop and housing details"
+    ]
   },
   "civilization": {
-    "people": "Citizens are large-bodied, procedural, communal, and accustomed to public burdens. Strength matters when it keeps water, food, relief, healing, and readiness systems working.",
-    "occupations": ["lock workers", "sluice keepers", "waterwheel repairers", "grain merchants", "millers", "bread bakers", "relief clerks", "notice copyists", "healers", "apothecaries", "arena trainers", "memory tablet carvers", "registry keepers", "towpath repairers"],
-    "socialClasses": ["Colossus Registry officials", "waterworks houses", "grain hall authorities", "relief administrators", "healing hall trusts", "arena champions", "market families", "towpath laborers", "tablet carvers", "floodplain residents"],
-    "governance": "Authority is logistical-memory based. The Registry governs by remembering obligations, managing water, feeding people, providing relief, healing the injured, training replacements, and assigning public burdens.",
-    "religion": "Religious expression is memorial and floodplain-rooted, carried through menhir courts, water reflection rites, healing lanterns, woven training banners, burden-taking vows, and public remembrance.",
-    "customs": ["morning lock readings", "grain tallies", "relief notices", "healing rosters", "training status rulings", "flood remembrance rites", "burden-taking vows", "public roster sealing"],
-    "bodyLanguage": ["large careful movement", "patient queueing", "public burden carrying", "deliberate work around sluices", "protective spacing in relief lines", "formal tablet-touch gestures"],
-    "speechPatterns": ["water-level shorthand", "grain tally phrases", "relief eligibility language", "registry categories", "healing protocols", "arena rank terms", "memory formulas"]
+    "people": "The population should read as colossal giant-bodied folk and city-specific: citizens occupy streets, shops, public thresholds, and landmark approaches as people who understand the local civic order.",
+    "occupations": [
+      "watch guards",
+      "gate officers",
+      "dock workers",
+      "water engineers",
+      "market sellers",
+      "stall keepers",
+      "granary keepers",
+      "field workers",
+      "district clerks",
+      "craft families",
+      "porters",
+      "maintenance workers",
+      "food sellers",
+      "messengers"
+    ],
+    "socialClasses": [
+      "D13 officials and court staff",
+      "section landmark custodians",
+      "guild and service families",
+      "shopkeepers and artisans",
+      "laborers, carriers, messengers, and maintenance crews",
+      "households tied to local district obligations"
+    ],
+    "governance": "Government is centered on Memory Tablet Walls Colossus Registry. Its authority should be visible through courts, records, public access routes, civic lamps, guards or attendants, and the way citizens respond to D13.",
+    "religion": "Religious or ritual life should only be emphasized where source anchors support it, especially names such as none explicitly dominant in the current anchors.",
+    "customs": [
+      "citizens orient public life around Canal / Riverworks Civic Hall in Section 1",
+      "citizens orient public life around Granary / Food Market Civic Hall in Section 2",
+      "citizens orient public life around Civic Services Hall in Section 3",
+      "citizens orient public life around Medical / Healing Civic Hall in Section 4",
+      "citizens orient public life around Arena / Training Civic Hall in Section 5",
+      "beacon changes become public behavior, not background color",
+      "exact landmark names carry social memory and directions",
+      "civic errands happen visibly at thresholds, queues, ledgers, stalls, courts, or shrines"
+    ],
+    "bodyLanguage": [
+      "citizens pause at civic signals",
+      "workers move with practiced familiarity around district anchors",
+      "officials use thresholds and raised places to control attention",
+      "residents treat named landmarks as everyday orientation points"
+    ],
+    "speechPatterns": [
+      "directions use exact landmark names",
+      "public notices are tied to section anchors",
+      "local speech distinguishes civic authority, ordinary errands, and landmark obligations",
+      "people refer to D13 as the seat of power rather than a faction headquarters"
+    ]
   },
   "urbanLife": {
-    "streets": {"appearance": "Enormous, wet, busy, and procedural: towpaths, broad canal bridges, lock-house plazas, grain halls, relief queues, healing gardens, arena approaches, and memory-tablet courts built for colossal bodies and burdens.", "movement": "Movement follows towpaths, canal bridges, lock roads, waterwheel yards, market arcades, broad civic stairs, relief plazas, healing courts, arena approaches, and boat routes through managed channels.", "sounds": ["sluice gates groaning", "waterwheels turning", "canal water under stone bridges", "grain pouring onto huge scales", "market voices under reed awnings", "relief clerks reading names", "healing hall bells", "arena drills", "heavy footsteps", "lantern chains"], "smells": ["wet stone", "river mud", "grain dust", "fresh bread", "reed matting", "lamp oil", "healing herbs", "market stew", "canvas after rain", "cool canal water"], "lighting": "Daylight reflects from canals, white civic blocks, wet stone, reed roofs, and food-market awnings; night is blue-marked and lantern-active across locks, healing halls, and canal reflections.", "weatherEffects": "Rain, haze, river fog, humidity, and rising water change routes, crowd behavior, relief demand, and civic urgency.", "dayCycle": "Morning begins with lock readings, waterwheel checks, grain halls opening, relief notices posted, healing rounds, and training drills.", "nightCycle": "Night settles into lock-house lamps, healing lanterns, market windows, menhir shadows, blue service lights, and canal reflections."},
-    "shops": {"common": ["waterwheel repair shops", "lock tool counters", "grain merchants", "bread oven stalls", "mill court vendors", "reed pavilion food stalls", "canal tool sellers"], "uncommon": ["relief notice copyists", "apothecary counters", "healing lamp sellers", "arena gear makers", "banner weavers", "memory tablet carvers"], "prestigious": ["registry tablet offices", "major grain halls", "waterworks command counters", "healing hall suppliers", "champion gate equipment houses"], "exports": ["grain", "bread", "waterworks expertise", "floodplain engineering", "healing supplies", "training gear", "memory tablets", "reed construction"], "imports": ["metal fittings", "salt", "fine cloth", "paper", "ink", "rare medicines", "stone tools", "lamp oil"], "streetFood": ["fresh bread", "grain porridge", "market stew", "reed-wrapped cakes", "herb tea", "river fish", "oven flatbread", "relief soup"], "services": ["lock scheduling", "waterwheel repair", "grain weighing", "relief filing", "roster copying", "healing care", "apothecary mixing", "arena instruction", "tablet inscription"]},
-    "housing": {"wealthy": "Large white-stone registry or waterworks houses with raised flood-safe foundations, broad thresholds, private basins, grain storage, tablet alcoves, and canal views.", "middle": "Timber and limestone family homes near mills, markets, healing halls, or towpaths, with storage lofts, drying racks, shared basins, and heavy benches.", "poor": "Raised floodplain dwellings, reed-and-stone rooms, shared courtyards, water marks, sealed jars, repair kits, and close dependence on relief halls or grain markets."}
+    "streets": {
+      "appearance": "Streets should show Ghorum Vale's exact anchor system at pedestrian scale: S1 Canal / Riverworks Civic Hall, S2 Granary / Food Market Civic Hall, S3 Civic Services Hall, S4 Medical / Healing Civic Hall, S5 Arena / Training Civic Hall. Keep roads, plazas, stairs, thresholds, lamps, signs-without-readable-text, props, and civilians aligned to the source-backed materials and landmarks.",
+      "movement": "Movement should be readable for tactical-board assets: citizens pass between 25 district slots, section anchors, D13, service streets, and landmark approaches without visual clutter hiding the civic purpose.",
+      "sounds": [
+        "foot traffic",
+        "vendors and service calls",
+        "tools and carts",
+        "public notices",
+        "landmark-specific sounds from water, bells, animals, machines, or crowds when source-backed",
+        "beacon-state crowd reactions"
+      ],
+      "smells": [
+        "street food",
+        "worked material dust",
+        "lamp oil or smoke",
+        "vegetation or water where source-backed",
+        "worn stone, timber, metal, plaster, or fabric"
+      ],
+      "lighting": "Use the package's source-backed civic lighting, daylight/golden-hour reads, lanterns, and beacon glow. Lighting must help identify authority, safety, and landmark function.",
+      "weatherEffects": "Weather should reinforce the local terrain and materials without overwhelming the city identity or inventing unsupported climate extremes.",
+      "dayCycle": "Day scenes emphasize errands, trade, records, repairs, rituals, food, and section-level movement.",
+      "nightCycle": "Night scenes emphasize lantern routes, closed thresholds, guarded landmarks, quiet work, and beacon visibility."
+    },
+    "shops": {
+      "common": [
+        "food stalls",
+        "repair stalls",
+        "material vendors",
+        "ledger or permit desks",
+        "local craft counters",
+        "street services tied to section anchors"
+      ],
+      "uncommon": [
+        "specialist landmark caretakers",
+        "instrument makers",
+        "ritual suppliers",
+        "map or record copyists",
+        "district-specific guild services"
+      ],
+      "prestigious": [
+        "D13-facing legal or registry services",
+        "elite craft workshops",
+        "landmark commission houses",
+        "official suppliers for civic ceremonies"
+      ],
+      "exports": [
+        "local crafts",
+        "records or seals",
+        "finished materials",
+        "food goods",
+        "specialized tools or ritual goods as supported by anchors"
+      ],
+      "imports": [
+        "rare materials",
+        "dyes, oils, spices, timber, stone, metal, glass, or cloth as needed by the architecture",
+        "outside records and trade goods"
+      ],
+      "streetFood": [
+        "flatbread or local bread",
+        "stew or grilled skewers",
+        "fruit or preserved food",
+        "tea or civic-square drinks",
+        "portable worker meals"
+      ],
+      "services": [
+        "directions by landmark",
+        "message running",
+        "permit help",
+        "repairs",
+        "food service",
+        "transport or porterage",
+        "public notice posting"
+      ]
+    },
+    "housing": {
+      "wealthy": "Prestige housing clusters near Memory Tablet Walls Colossus Registry, high terraces, or landmark-facing routes, using the best source-backed materials and controlled views of civic space.",
+      "middle": "Shop-over-house units, courtyard homes, guild-adjacent apartments, and family rooms near section anchors.",
+      "poor": "Smaller back-street rooms, work-adjacent housing, shared courtyards, service alleys, patched materials, and dense but still city-specific lived-in detail."
+    }
   },
   "districts": [
-    {"sectionNumber": 1, "name": "Canal / Riverworks", "civicPurpose": "Hydraulic coordination, flood warning, water routing, lock operation, and the city's public signal heart.", "visualIdentity": "Canal / Riverworks Civic Hall, Lock House Beacon, Canal Reflections Monument, Waterwheel Court Nook, wet stone, sluice gates, towpaths, and broad canal bridges.", "emotionalIdentity": "Procedural, urgent, and foundational.", "gameplayAssetNeeds": ["Canal / Riverworks Civic Hall", "Lock House Beacon", "Canal Reflections Monument", "Waterwheel Court Nook", "sluice gates", "lock workers"], "narrativeUse": ["flood warning", "water-control politics", "signal anxiety", "emergency coordination", "sabotage risk"], "landmark": "Lock House Beacon", "minorLandmarks": ["Canal Reflections Monument", "Waterwheel Court Nook"]},
-    {"sectionNumber": 2, "name": "Granary / Food Market", "civicPurpose": "Public food security, market logistics, grain storage, bread production, and visible provision.", "visualIdentity": "Granary / Food Market Civic Hall, Grain Hall, Awning Monument, Mill Court Nook, covered food markets, reed pavilions, grain scales, bread ovens, and storage jars.", "emotionalIdentity": "Abundant, busy, necessary, and accountable.", "gameplayAssetNeeds": ["Granary / Food Market Civic Hall", "Grain Hall", "Awning Monument", "Mill Court Nook", "grain scales", "bread ovens", "market crowds"], "narrativeUse": ["food security", "market logistics", "provision politics", "grain clue", "public scarcity"], "landmark": "Grain Hall", "minorLandmarks": ["Awning Monument", "Mill Court Nook"]},
-    {"sectionNumber": 3, "name": "Civic Services", "civicPurpose": "Organized public aid, relief eligibility, rosters, notices, and administrative compassion.", "visualIdentity": "Civic Services Hall, Relief Hall, Civic Services Lantern Monument, Notice Plaza Nook, public rosters, queues, water basins, and blue service lamps.", "emotionalIdentity": "Orderly, compassionate, strained, and bureaucratic.", "gameplayAssetNeeds": ["Civic Services Hall", "Relief Hall", "Civic Services Lantern Monument", "Notice Plaza Nook", "public rosters", "relief clerks", "queues"], "narrativeUse": ["aid eligibility", "missing persons", "public roster conflict", "administrative pressure"], "landmark": "Relief Hall", "minorLandmarks": ["Civic Services Lantern Monument", "Notice Plaza Nook"]},
-    {"sectionNumber": 4, "name": "Medical / Healing", "civicPurpose": "Recovery, triage, public health, healing supplies, apothecary work, and care for injured workers.", "visualIdentity": "Medical / Healing Civic Hall, Healing Hall, Medical Healing Lantern Monument, Apothecary Court Nook, white civic blocks, gardens, and water bowls.", "emotionalIdentity": "Restorative, practical, and publicly tender.", "gameplayAssetNeeds": ["Medical / Healing Civic Hall", "Healing Hall", "Medical Healing Lantern Monument", "Apothecary Court Nook", "healers", "herb stalls", "recovery beds"], "narrativeUse": ["triage", "recovery", "medical logistics", "injured worker care"], "landmark": "Healing Hall", "minorLandmarks": ["Medical Healing Lantern Monument", "Apothecary Court Nook"]},
-    {"sectionNumber": 5, "name": "Arena / Training", "civicPurpose": "Disciplined readiness, replacement training, champion culture, and strength formed into civic responsibility.", "visualIdentity": "Arena / Training Civic Hall, Training Arena, Woven Banners Monument, Champion Gate Nook, lecture courts, practice rings, arena terraces, and public tests.", "emotionalIdentity": "Disciplined, forceful, communal, and anticipatory.", "gameplayAssetNeeds": ["Arena / Training Civic Hall", "Training Arena", "Woven Banners Monument", "Champion Gate Nook", "practice rings", "arena trainers", "students"], "narrativeUse": ["training pressure", "public test", "readiness status", "champion politics"], "landmark": "Training Arena", "minorLandmarks": ["Woven Banners Monument", "Champion Gate Nook"]}
+    {
+      "districtNumber": 1,
+      "districtId": "D01",
+      "sectionNumber": 1,
+      "name": "D01 — Canal / Riverworks Civic Hall Civic-Anchor Precinct",
+      "civicPurpose": "This district turns Section 1's source-backed anchor set into a board-scale civic space: Canal / Riverworks Civic Hall, Lock House Beacon, Canal Reflections Monument, Waterwheel Court Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Ghorum Vale.",
+      "visualIdentity": "Use Canal / Riverworks Civic Hall as the main read. Keep exact source anchors visible where applicable: Canal / Riverworks Civic Hall, Lock House Beacon, Canal Reflections Monument, Waterwheel Court Nook. The district should share Ghorum Vale's colossal giant-bodied folk identity, Riverstone, Mudbrick, Timber, Limewash, and Riverside, Floodplain, Canal Basin without becoming generic.",
+      "emotionalIdentity": "Locally grounded, with Ghorum Vale's larger mood shaped by Colossal Floodplain Menhir Court, Lock House Beacon, and Memory Tablet Walls Colossus Registry.",
+      "gameplayAssetNeeds": [
+        "Canal / Riverworks Civic Hall",
+        "Lock House Beacon",
+        "Canal Reflections Monument",
+        "Waterwheel Court Nook",
+        "Section 1 pedestrian-scale props",
+        "Ghorum Vale civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Canal / Riverworks Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Canal / Riverworks Civic Hall",
+      "minorLandmarks": [
+        "Lock House Beacon",
+        "Canal Reflections Monument",
+        "Waterwheel Court Nook"
+      ]
+    },
+    {
+      "districtNumber": 2,
+      "districtId": "D02",
+      "sectionNumber": 1,
+      "name": "D02 — Lock House Beacon Landmark Approach",
+      "civicPurpose": "This district turns Section 1's source-backed anchor set into a board-scale civic space: Canal / Riverworks Civic Hall, Lock House Beacon, Canal Reflections Monument, Waterwheel Court Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Ghorum Vale.",
+      "visualIdentity": "Use Lock House Beacon as the main read. Keep exact source anchors visible where applicable: Canal / Riverworks Civic Hall, Lock House Beacon, Canal Reflections Monument, Waterwheel Court Nook. The district should share Ghorum Vale's colossal giant-bodied folk identity, Riverstone, Mudbrick, Timber, Limewash, and Riverside, Floodplain, Canal Basin without becoming generic.",
+      "emotionalIdentity": "Public-facing, with Ghorum Vale's larger mood shaped by Colossal Floodplain Menhir Court, Lock House Beacon, and Memory Tablet Walls Colossus Registry.",
+      "gameplayAssetNeeds": [
+        "Lock House Beacon",
+        "Canal / Riverworks Civic Hall",
+        "Canal Reflections Monument",
+        "Waterwheel Court Nook",
+        "Section 1 pedestrian-scale props",
+        "Ghorum Vale civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Lock House Beacon",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "Conjunction response, rumor spread, or authority pressure"
+      ],
+      "landmark": "Lock House Beacon",
+      "minorLandmarks": [
+        "Canal / Riverworks Civic Hall",
+        "Canal Reflections Monument",
+        "Waterwheel Court Nook"
+      ]
+    },
+    {
+      "districtNumber": 3,
+      "districtId": "D03",
+      "sectionNumber": 1,
+      "name": "D03 — Canal Reflections Monument Monument Frontage",
+      "civicPurpose": "This district turns Section 1's source-backed anchor set into a board-scale civic space: Canal / Riverworks Civic Hall, Lock House Beacon, Canal Reflections Monument, Waterwheel Court Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Ghorum Vale.",
+      "visualIdentity": "Use Canal Reflections Monument as the main read. Keep exact source anchors visible where applicable: Canal / Riverworks Civic Hall, Lock House Beacon, Canal Reflections Monument, Waterwheel Court Nook. The district should share Ghorum Vale's colossal giant-bodied folk identity, Riverstone, Mudbrick, Timber, Limewash, and Riverside, Floodplain, Canal Basin without becoming generic.",
+      "emotionalIdentity": "Memorial or symbolic, with Ghorum Vale's larger mood shaped by Colossal Floodplain Menhir Court, Lock House Beacon, and Memory Tablet Walls Colossus Registry.",
+      "gameplayAssetNeeds": [
+        "Canal Reflections Monument",
+        "Canal / Riverworks Civic Hall",
+        "Lock House Beacon",
+        "Waterwheel Court Nook",
+        "Section 1 pedestrian-scale props",
+        "Ghorum Vale civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Canal Reflections Monument",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Canal Reflections Monument",
+      "minorLandmarks": [
+        "Canal / Riverworks Civic Hall",
+        "Lock House Beacon",
+        "Waterwheel Court Nook"
+      ]
+    },
+    {
+      "districtNumber": 6,
+      "districtId": "D06",
+      "sectionNumber": 1,
+      "name": "D06 — Waterwheel Court Nook Neighborhood Nook",
+      "civicPurpose": "This district turns Section 1's source-backed anchor set into a board-scale civic space: Canal / Riverworks Civic Hall, Lock House Beacon, Canal Reflections Monument, Waterwheel Court Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Ghorum Vale.",
+      "visualIdentity": "Use Waterwheel Court Nook as the main read. Keep exact source anchors visible where applicable: Canal / Riverworks Civic Hall, Lock House Beacon, Canal Reflections Monument, Waterwheel Court Nook. The district should share Ghorum Vale's colossal giant-bodied folk identity, Riverstone, Mudbrick, Timber, Limewash, and Riverside, Floodplain, Canal Basin without becoming generic.",
+      "emotionalIdentity": "Intimate and lived-in, with Ghorum Vale's larger mood shaped by Colossal Floodplain Menhir Court, Lock House Beacon, and Memory Tablet Walls Colossus Registry.",
+      "gameplayAssetNeeds": [
+        "Waterwheel Court Nook",
+        "Canal / Riverworks Civic Hall",
+        "Lock House Beacon",
+        "Canal Reflections Monument",
+        "Section 1 pedestrian-scale props",
+        "Ghorum Vale civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Waterwheel Court Nook",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Waterwheel Court Nook",
+      "minorLandmarks": [
+        "Canal / Riverworks Civic Hall",
+        "Lock House Beacon",
+        "Canal Reflections Monument"
+      ]
+    },
+    {
+      "districtNumber": 7,
+      "districtId": "D07",
+      "sectionNumber": 1,
+      "name": "D07 — Canal / Riverworks Civic Hall Supporting Streets",
+      "civicPurpose": "This district turns Section 1's source-backed anchor set into a board-scale civic space: Canal / Riverworks Civic Hall, Lock House Beacon, Canal Reflections Monument, Waterwheel Court Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Ghorum Vale.",
+      "visualIdentity": "Use Canal / Riverworks Civic Hall as the main read. Keep exact source anchors visible where applicable: Canal / Riverworks Civic Hall, Lock House Beacon, Canal Reflections Monument, Waterwheel Court Nook. The district should share Ghorum Vale's colossal giant-bodied folk identity, Riverstone, Mudbrick, Timber, Limewash, and Riverside, Floodplain, Canal Basin without becoming generic.",
+      "emotionalIdentity": "Connective and practical, with Ghorum Vale's larger mood shaped by Colossal Floodplain Menhir Court, Lock House Beacon, and Memory Tablet Walls Colossus Registry.",
+      "gameplayAssetNeeds": [
+        "Canal / Riverworks Civic Hall",
+        "Lock House Beacon",
+        "Canal Reflections Monument",
+        "Waterwheel Court Nook",
+        "Section 1 pedestrian-scale props",
+        "Ghorum Vale civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Canal / Riverworks Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Canal / Riverworks Civic Hall",
+      "minorLandmarks": [
+        "Lock House Beacon",
+        "Canal Reflections Monument",
+        "Waterwheel Court Nook"
+      ]
+    },
+    {
+      "districtNumber": 4,
+      "districtId": "D04",
+      "sectionNumber": 2,
+      "name": "D04 — Granary / Food Market Civic Hall Civic-Anchor Precinct",
+      "civicPurpose": "This district turns Section 2's source-backed anchor set into a board-scale civic space: Granary / Food Market Civic Hall, Grain Hall, Awning Monument, Mill Court Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Ghorum Vale.",
+      "visualIdentity": "Use Granary / Food Market Civic Hall as the main read. Keep exact source anchors visible where applicable: Granary / Food Market Civic Hall, Grain Hall, Awning Monument, Mill Court Nook. The district should share Ghorum Vale's colossal giant-bodied folk identity, Riverstone, Mudbrick, Timber, Limewash, and Riverside, Floodplain, Canal Basin without becoming generic.",
+      "emotionalIdentity": "Locally grounded, with Ghorum Vale's larger mood shaped by Colossal Floodplain Menhir Court, Lock House Beacon, and Memory Tablet Walls Colossus Registry.",
+      "gameplayAssetNeeds": [
+        "Granary / Food Market Civic Hall",
+        "Grain Hall",
+        "Awning Monument",
+        "Mill Court Nook",
+        "Section 2 pedestrian-scale props",
+        "Ghorum Vale civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Granary / Food Market Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Granary / Food Market Civic Hall",
+      "minorLandmarks": [
+        "Grain Hall",
+        "Awning Monument",
+        "Mill Court Nook"
+      ]
+    },
+    {
+      "districtNumber": 5,
+      "districtId": "D05",
+      "sectionNumber": 2,
+      "name": "D05 — Grain Hall Landmark Approach",
+      "civicPurpose": "This district turns Section 2's source-backed anchor set into a board-scale civic space: Granary / Food Market Civic Hall, Grain Hall, Awning Monument, Mill Court Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Ghorum Vale.",
+      "visualIdentity": "Use Grain Hall as the main read. Keep exact source anchors visible where applicable: Granary / Food Market Civic Hall, Grain Hall, Awning Monument, Mill Court Nook. The district should share Ghorum Vale's colossal giant-bodied folk identity, Riverstone, Mudbrick, Timber, Limewash, and Riverside, Floodplain, Canal Basin without becoming generic.",
+      "emotionalIdentity": "Public-facing, with Ghorum Vale's larger mood shaped by Colossal Floodplain Menhir Court, Lock House Beacon, and Memory Tablet Walls Colossus Registry.",
+      "gameplayAssetNeeds": [
+        "Grain Hall",
+        "Granary / Food Market Civic Hall",
+        "Awning Monument",
+        "Mill Court Nook",
+        "Section 2 pedestrian-scale props",
+        "Ghorum Vale civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Grain Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Grain Hall",
+      "minorLandmarks": [
+        "Granary / Food Market Civic Hall",
+        "Awning Monument",
+        "Mill Court Nook"
+      ]
+    },
+    {
+      "districtNumber": 9,
+      "districtId": "D09",
+      "sectionNumber": 2,
+      "name": "D09 — Awning Monument Monument Frontage",
+      "civicPurpose": "This district turns Section 2's source-backed anchor set into a board-scale civic space: Granary / Food Market Civic Hall, Grain Hall, Awning Monument, Mill Court Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Ghorum Vale.",
+      "visualIdentity": "Use Awning Monument as the main read. Keep exact source anchors visible where applicable: Granary / Food Market Civic Hall, Grain Hall, Awning Monument, Mill Court Nook. The district should share Ghorum Vale's colossal giant-bodied folk identity, Riverstone, Mudbrick, Timber, Limewash, and Riverside, Floodplain, Canal Basin without becoming generic.",
+      "emotionalIdentity": "Memorial or symbolic, with Ghorum Vale's larger mood shaped by Colossal Floodplain Menhir Court, Lock House Beacon, and Memory Tablet Walls Colossus Registry.",
+      "gameplayAssetNeeds": [
+        "Awning Monument",
+        "Granary / Food Market Civic Hall",
+        "Grain Hall",
+        "Mill Court Nook",
+        "Section 2 pedestrian-scale props",
+        "Ghorum Vale civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Awning Monument",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Awning Monument",
+      "minorLandmarks": [
+        "Granary / Food Market Civic Hall",
+        "Grain Hall",
+        "Mill Court Nook"
+      ]
+    },
+    {
+      "districtNumber": 10,
+      "districtId": "D10",
+      "sectionNumber": 2,
+      "name": "D10 — Mill Court Nook Neighborhood Nook",
+      "civicPurpose": "This district turns Section 2's source-backed anchor set into a board-scale civic space: Granary / Food Market Civic Hall, Grain Hall, Awning Monument, Mill Court Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Ghorum Vale.",
+      "visualIdentity": "Use Mill Court Nook as the main read. Keep exact source anchors visible where applicable: Granary / Food Market Civic Hall, Grain Hall, Awning Monument, Mill Court Nook. The district should share Ghorum Vale's colossal giant-bodied folk identity, Riverstone, Mudbrick, Timber, Limewash, and Riverside, Floodplain, Canal Basin without becoming generic.",
+      "emotionalIdentity": "Intimate and lived-in, with Ghorum Vale's larger mood shaped by Colossal Floodplain Menhir Court, Lock House Beacon, and Memory Tablet Walls Colossus Registry.",
+      "gameplayAssetNeeds": [
+        "Mill Court Nook",
+        "Granary / Food Market Civic Hall",
+        "Grain Hall",
+        "Awning Monument",
+        "Section 2 pedestrian-scale props",
+        "Ghorum Vale civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Mill Court Nook",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Mill Court Nook",
+      "minorLandmarks": [
+        "Granary / Food Market Civic Hall",
+        "Grain Hall",
+        "Awning Monument"
+      ]
+    },
+    {
+      "districtNumber": 15,
+      "districtId": "D15",
+      "sectionNumber": 2,
+      "name": "D15 — Granary / Food Market Civic Hall Supporting Streets",
+      "civicPurpose": "This district turns Section 2's source-backed anchor set into a board-scale civic space: Granary / Food Market Civic Hall, Grain Hall, Awning Monument, Mill Court Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Ghorum Vale.",
+      "visualIdentity": "Use Granary / Food Market Civic Hall as the main read. Keep exact source anchors visible where applicable: Granary / Food Market Civic Hall, Grain Hall, Awning Monument, Mill Court Nook. The district should share Ghorum Vale's colossal giant-bodied folk identity, Riverstone, Mudbrick, Timber, Limewash, and Riverside, Floodplain, Canal Basin without becoming generic.",
+      "emotionalIdentity": "Connective and practical, with Ghorum Vale's larger mood shaped by Colossal Floodplain Menhir Court, Lock House Beacon, and Memory Tablet Walls Colossus Registry.",
+      "gameplayAssetNeeds": [
+        "Granary / Food Market Civic Hall",
+        "Grain Hall",
+        "Awning Monument",
+        "Mill Court Nook",
+        "Section 2 pedestrian-scale props",
+        "Ghorum Vale civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Granary / Food Market Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Granary / Food Market Civic Hall",
+      "minorLandmarks": [
+        "Grain Hall",
+        "Awning Monument",
+        "Mill Court Nook"
+      ]
+    },
+    {
+      "districtNumber": 8,
+      "districtId": "D08",
+      "sectionNumber": 3,
+      "name": "D08 — Civic Services Hall Civic-Anchor Precinct",
+      "civicPurpose": "This district turns Section 3's source-backed anchor set into a board-scale civic space: Civic Services Hall, Relief Hall, Civic Services Lantern Monument, Notice Plaza Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Ghorum Vale.",
+      "visualIdentity": "Use Civic Services Hall as the main read. Keep exact source anchors visible where applicable: Civic Services Hall, Relief Hall, Civic Services Lantern Monument, Notice Plaza Nook. The district should share Ghorum Vale's colossal giant-bodied folk identity, Riverstone, Mudbrick, Timber, Limewash, and Riverside, Floodplain, Canal Basin without becoming generic.",
+      "emotionalIdentity": "Locally grounded, with Ghorum Vale's larger mood shaped by Colossal Floodplain Menhir Court, Lock House Beacon, and Memory Tablet Walls Colossus Registry.",
+      "gameplayAssetNeeds": [
+        "Civic Services Hall",
+        "Relief Hall",
+        "Civic Services Lantern Monument",
+        "Notice Plaza Nook",
+        "Section 3 pedestrian-scale props",
+        "Ghorum Vale civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Civic Services Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Civic Services Hall",
+      "minorLandmarks": [
+        "Relief Hall",
+        "Civic Services Lantern Monument",
+        "Notice Plaza Nook"
+      ]
+    },
+    {
+      "districtNumber": 12,
+      "districtId": "D12",
+      "sectionNumber": 3,
+      "name": "D12 — Relief Hall Landmark Approach",
+      "civicPurpose": "This district turns Section 3's source-backed anchor set into a board-scale civic space: Civic Services Hall, Relief Hall, Civic Services Lantern Monument, Notice Plaza Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Ghorum Vale.",
+      "visualIdentity": "Use Relief Hall as the main read. Keep exact source anchors visible where applicable: Civic Services Hall, Relief Hall, Civic Services Lantern Monument, Notice Plaza Nook. The district should share Ghorum Vale's colossal giant-bodied folk identity, Riverstone, Mudbrick, Timber, Limewash, and Riverside, Floodplain, Canal Basin without becoming generic.",
+      "emotionalIdentity": "Public-facing, with Ghorum Vale's larger mood shaped by Colossal Floodplain Menhir Court, Lock House Beacon, and Memory Tablet Walls Colossus Registry.",
+      "gameplayAssetNeeds": [
+        "Relief Hall",
+        "Civic Services Hall",
+        "Civic Services Lantern Monument",
+        "Notice Plaza Nook",
+        "Section 3 pedestrian-scale props",
+        "Ghorum Vale civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Relief Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Relief Hall",
+      "minorLandmarks": [
+        "Civic Services Hall",
+        "Civic Services Lantern Monument",
+        "Notice Plaza Nook"
+      ]
+    },
+    {
+      "districtNumber": 13,
+      "districtId": "D13",
+      "sectionNumber": 3,
+      "name": "D13 — Memory Tablet Walls Colossus Registry Seat of Power District",
+      "civicPurpose": "This district turns Section 3's source-backed anchor set into a board-scale civic space: Civic Services Hall, Relief Hall, Civic Services Lantern Monument, Notice Plaza Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Ghorum Vale.",
+      "visualIdentity": "Use Memory Tablet Walls Colossus Registry as the main read. Keep exact source anchors visible where applicable: Civic Services Hall, Relief Hall, Civic Services Lantern Monument, Notice Plaza Nook. The district should share Ghorum Vale's colossal giant-bodied folk identity, Riverstone, Mudbrick, Timber, Limewash, and Riverside, Floodplain, Canal Basin without becoming generic.",
+      "emotionalIdentity": "Memorial or symbolic, with Ghorum Vale's larger mood shaped by Colossal Floodplain Menhir Court, Lock House Beacon, and Memory Tablet Walls Colossus Registry.",
+      "gameplayAssetNeeds": [
+        "Memory Tablet Walls Colossus Registry",
+        "Civic Services Hall",
+        "Relief Hall",
+        "Civic Services Lantern Monument",
+        "Notice Plaza Nook",
+        "Section 3 pedestrian-scale props",
+        "Ghorum Vale civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Memory Tablet Walls Colossus Registry",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "Conjunction response, rumor spread, or authority pressure"
+      ],
+      "landmark": "Memory Tablet Walls Colossus Registry",
+      "minorLandmarks": [
+        "Civic Services Hall",
+        "Relief Hall",
+        "Civic Services Lantern Monument",
+        "Notice Plaza Nook"
+      ]
+    },
+    {
+      "districtNumber": 14,
+      "districtId": "D14",
+      "sectionNumber": 3,
+      "name": "D14 — Notice Plaza Nook Neighborhood Nook",
+      "civicPurpose": "This district turns Section 3's source-backed anchor set into a board-scale civic space: Civic Services Hall, Relief Hall, Civic Services Lantern Monument, Notice Plaza Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Ghorum Vale.",
+      "visualIdentity": "Use Notice Plaza Nook as the main read. Keep exact source anchors visible where applicable: Civic Services Hall, Relief Hall, Civic Services Lantern Monument, Notice Plaza Nook. The district should share Ghorum Vale's colossal giant-bodied folk identity, Riverstone, Mudbrick, Timber, Limewash, and Riverside, Floodplain, Canal Basin without becoming generic.",
+      "emotionalIdentity": "Intimate and lived-in, with Ghorum Vale's larger mood shaped by Colossal Floodplain Menhir Court, Lock House Beacon, and Memory Tablet Walls Colossus Registry.",
+      "gameplayAssetNeeds": [
+        "Notice Plaza Nook",
+        "Civic Services Hall",
+        "Relief Hall",
+        "Civic Services Lantern Monument",
+        "Section 3 pedestrian-scale props",
+        "Ghorum Vale civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Notice Plaza Nook",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Notice Plaza Nook",
+      "minorLandmarks": [
+        "Civic Services Hall",
+        "Relief Hall",
+        "Civic Services Lantern Monument"
+      ]
+    },
+    {
+      "districtNumber": 18,
+      "districtId": "D18",
+      "sectionNumber": 3,
+      "name": "D18 — Civic Services Hall Supporting Streets",
+      "civicPurpose": "This district turns Section 3's source-backed anchor set into a board-scale civic space: Civic Services Hall, Relief Hall, Civic Services Lantern Monument, Notice Plaza Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Ghorum Vale.",
+      "visualIdentity": "Use Civic Services Hall as the main read. Keep exact source anchors visible where applicable: Civic Services Hall, Relief Hall, Civic Services Lantern Monument, Notice Plaza Nook. The district should share Ghorum Vale's colossal giant-bodied folk identity, Riverstone, Mudbrick, Timber, Limewash, and Riverside, Floodplain, Canal Basin without becoming generic.",
+      "emotionalIdentity": "Connective and practical, with Ghorum Vale's larger mood shaped by Colossal Floodplain Menhir Court, Lock House Beacon, and Memory Tablet Walls Colossus Registry.",
+      "gameplayAssetNeeds": [
+        "Civic Services Hall",
+        "Relief Hall",
+        "Civic Services Lantern Monument",
+        "Notice Plaza Nook",
+        "Section 3 pedestrian-scale props",
+        "Ghorum Vale civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Civic Services Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Civic Services Hall",
+      "minorLandmarks": [
+        "Relief Hall",
+        "Civic Services Lantern Monument",
+        "Notice Plaza Nook"
+      ]
+    },
+    {
+      "districtNumber": 11,
+      "districtId": "D11",
+      "sectionNumber": 4,
+      "name": "D11 — Medical / Healing Civic Hall Civic-Anchor Precinct",
+      "civicPurpose": "This district turns Section 4's source-backed anchor set into a board-scale civic space: Medical / Healing Civic Hall, Healing Hall, Medical Healing Lantern Monument, Apothecary Court Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Ghorum Vale.",
+      "visualIdentity": "Use Medical / Healing Civic Hall as the main read. Keep exact source anchors visible where applicable: Medical / Healing Civic Hall, Healing Hall, Medical Healing Lantern Monument, Apothecary Court Nook. The district should share Ghorum Vale's colossal giant-bodied folk identity, Riverstone, Mudbrick, Timber, Limewash, and Riverside, Floodplain, Canal Basin without becoming generic.",
+      "emotionalIdentity": "Locally grounded, with Ghorum Vale's larger mood shaped by Colossal Floodplain Menhir Court, Lock House Beacon, and Memory Tablet Walls Colossus Registry.",
+      "gameplayAssetNeeds": [
+        "Medical / Healing Civic Hall",
+        "Healing Hall",
+        "Medical Healing Lantern Monument",
+        "Apothecary Court Nook",
+        "Section 4 pedestrian-scale props",
+        "Ghorum Vale civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Medical / Healing Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Medical / Healing Civic Hall",
+      "minorLandmarks": [
+        "Healing Hall",
+        "Medical Healing Lantern Monument",
+        "Apothecary Court Nook"
+      ]
+    },
+    {
+      "districtNumber": 16,
+      "districtId": "D16",
+      "sectionNumber": 4,
+      "name": "D16 — Healing Hall Landmark Approach",
+      "civicPurpose": "This district turns Section 4's source-backed anchor set into a board-scale civic space: Medical / Healing Civic Hall, Healing Hall, Medical Healing Lantern Monument, Apothecary Court Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Ghorum Vale.",
+      "visualIdentity": "Use Healing Hall as the main read. Keep exact source anchors visible where applicable: Medical / Healing Civic Hall, Healing Hall, Medical Healing Lantern Monument, Apothecary Court Nook. The district should share Ghorum Vale's colossal giant-bodied folk identity, Riverstone, Mudbrick, Timber, Limewash, and Riverside, Floodplain, Canal Basin without becoming generic.",
+      "emotionalIdentity": "Public-facing, with Ghorum Vale's larger mood shaped by Colossal Floodplain Menhir Court, Lock House Beacon, and Memory Tablet Walls Colossus Registry.",
+      "gameplayAssetNeeds": [
+        "Healing Hall",
+        "Medical / Healing Civic Hall",
+        "Medical Healing Lantern Monument",
+        "Apothecary Court Nook",
+        "Section 4 pedestrian-scale props",
+        "Ghorum Vale civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Healing Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Healing Hall",
+      "minorLandmarks": [
+        "Medical / Healing Civic Hall",
+        "Medical Healing Lantern Monument",
+        "Apothecary Court Nook"
+      ]
+    },
+    {
+      "districtNumber": 17,
+      "districtId": "D17",
+      "sectionNumber": 4,
+      "name": "D17 — Medical Healing Lantern Monument Monument Frontage",
+      "civicPurpose": "This district turns Section 4's source-backed anchor set into a board-scale civic space: Medical / Healing Civic Hall, Healing Hall, Medical Healing Lantern Monument, Apothecary Court Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Ghorum Vale.",
+      "visualIdentity": "Use Medical Healing Lantern Monument as the main read. Keep exact source anchors visible where applicable: Medical / Healing Civic Hall, Healing Hall, Medical Healing Lantern Monument, Apothecary Court Nook. The district should share Ghorum Vale's colossal giant-bodied folk identity, Riverstone, Mudbrick, Timber, Limewash, and Riverside, Floodplain, Canal Basin without becoming generic.",
+      "emotionalIdentity": "Memorial or symbolic, with Ghorum Vale's larger mood shaped by Colossal Floodplain Menhir Court, Lock House Beacon, and Memory Tablet Walls Colossus Registry.",
+      "gameplayAssetNeeds": [
+        "Medical Healing Lantern Monument",
+        "Medical / Healing Civic Hall",
+        "Healing Hall",
+        "Apothecary Court Nook",
+        "Section 4 pedestrian-scale props",
+        "Ghorum Vale civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Medical Healing Lantern Monument",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Medical Healing Lantern Monument",
+      "minorLandmarks": [
+        "Medical / Healing Civic Hall",
+        "Healing Hall",
+        "Apothecary Court Nook"
+      ]
+    },
+    {
+      "districtNumber": 21,
+      "districtId": "D21",
+      "sectionNumber": 4,
+      "name": "D21 — Apothecary Court Nook Neighborhood Nook",
+      "civicPurpose": "This district turns Section 4's source-backed anchor set into a board-scale civic space: Medical / Healing Civic Hall, Healing Hall, Medical Healing Lantern Monument, Apothecary Court Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Ghorum Vale.",
+      "visualIdentity": "Use Apothecary Court Nook as the main read. Keep exact source anchors visible where applicable: Medical / Healing Civic Hall, Healing Hall, Medical Healing Lantern Monument, Apothecary Court Nook. The district should share Ghorum Vale's colossal giant-bodied folk identity, Riverstone, Mudbrick, Timber, Limewash, and Riverside, Floodplain, Canal Basin without becoming generic.",
+      "emotionalIdentity": "Intimate and lived-in, with Ghorum Vale's larger mood shaped by Colossal Floodplain Menhir Court, Lock House Beacon, and Memory Tablet Walls Colossus Registry.",
+      "gameplayAssetNeeds": [
+        "Apothecary Court Nook",
+        "Medical / Healing Civic Hall",
+        "Healing Hall",
+        "Medical Healing Lantern Monument",
+        "Section 4 pedestrian-scale props",
+        "Ghorum Vale civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Apothecary Court Nook",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Apothecary Court Nook",
+      "minorLandmarks": [
+        "Medical / Healing Civic Hall",
+        "Healing Hall",
+        "Medical Healing Lantern Monument"
+      ]
+    },
+    {
+      "districtNumber": 22,
+      "districtId": "D22",
+      "sectionNumber": 4,
+      "name": "D22 — Medical / Healing Civic Hall Supporting Streets",
+      "civicPurpose": "This district turns Section 4's source-backed anchor set into a board-scale civic space: Medical / Healing Civic Hall, Healing Hall, Medical Healing Lantern Monument, Apothecary Court Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Ghorum Vale.",
+      "visualIdentity": "Use Medical / Healing Civic Hall as the main read. Keep exact source anchors visible where applicable: Medical / Healing Civic Hall, Healing Hall, Medical Healing Lantern Monument, Apothecary Court Nook. The district should share Ghorum Vale's colossal giant-bodied folk identity, Riverstone, Mudbrick, Timber, Limewash, and Riverside, Floodplain, Canal Basin without becoming generic.",
+      "emotionalIdentity": "Connective and practical, with Ghorum Vale's larger mood shaped by Colossal Floodplain Menhir Court, Lock House Beacon, and Memory Tablet Walls Colossus Registry.",
+      "gameplayAssetNeeds": [
+        "Medical / Healing Civic Hall",
+        "Healing Hall",
+        "Medical Healing Lantern Monument",
+        "Apothecary Court Nook",
+        "Section 4 pedestrian-scale props",
+        "Ghorum Vale civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Medical / Healing Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Medical / Healing Civic Hall",
+      "minorLandmarks": [
+        "Healing Hall",
+        "Medical Healing Lantern Monument",
+        "Apothecary Court Nook"
+      ]
+    },
+    {
+      "districtNumber": 19,
+      "districtId": "D19",
+      "sectionNumber": 5,
+      "name": "D19 — Arena / Training Civic Hall Civic-Anchor Precinct",
+      "civicPurpose": "This district turns Section 5's source-backed anchor set into a board-scale civic space: Arena / Training Civic Hall, Training Arena, Woven Banners Monument, Champion Gate Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Ghorum Vale.",
+      "visualIdentity": "Use Arena / Training Civic Hall as the main read. Keep exact source anchors visible where applicable: Arena / Training Civic Hall, Training Arena, Woven Banners Monument, Champion Gate Nook. The district should share Ghorum Vale's colossal giant-bodied folk identity, Riverstone, Mudbrick, Timber, Limewash, and Riverside, Floodplain, Canal Basin without becoming generic.",
+      "emotionalIdentity": "Locally grounded, with Ghorum Vale's larger mood shaped by Colossal Floodplain Menhir Court, Lock House Beacon, and Memory Tablet Walls Colossus Registry.",
+      "gameplayAssetNeeds": [
+        "Arena / Training Civic Hall",
+        "Training Arena",
+        "Woven Banners Monument",
+        "Champion Gate Nook",
+        "Section 5 pedestrian-scale props",
+        "Ghorum Vale civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Arena / Training Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Arena / Training Civic Hall",
+      "minorLandmarks": [
+        "Training Arena",
+        "Woven Banners Monument",
+        "Champion Gate Nook"
+      ]
+    },
+    {
+      "districtNumber": 20,
+      "districtId": "D20",
+      "sectionNumber": 5,
+      "name": "D20 — Training Arena Landmark Approach",
+      "civicPurpose": "This district turns Section 5's source-backed anchor set into a board-scale civic space: Arena / Training Civic Hall, Training Arena, Woven Banners Monument, Champion Gate Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Ghorum Vale.",
+      "visualIdentity": "Use Training Arena as the main read. Keep exact source anchors visible where applicable: Arena / Training Civic Hall, Training Arena, Woven Banners Monument, Champion Gate Nook. The district should share Ghorum Vale's colossal giant-bodied folk identity, Riverstone, Mudbrick, Timber, Limewash, and Riverside, Floodplain, Canal Basin without becoming generic.",
+      "emotionalIdentity": "Public-facing, with Ghorum Vale's larger mood shaped by Colossal Floodplain Menhir Court, Lock House Beacon, and Memory Tablet Walls Colossus Registry.",
+      "gameplayAssetNeeds": [
+        "Training Arena",
+        "Arena / Training Civic Hall",
+        "Woven Banners Monument",
+        "Champion Gate Nook",
+        "Section 5 pedestrian-scale props",
+        "Ghorum Vale civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Training Arena",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Training Arena",
+      "minorLandmarks": [
+        "Arena / Training Civic Hall",
+        "Woven Banners Monument",
+        "Champion Gate Nook"
+      ]
+    },
+    {
+      "districtNumber": 23,
+      "districtId": "D23",
+      "sectionNumber": 5,
+      "name": "D23 — Woven Banners Monument Monument Frontage",
+      "civicPurpose": "This district turns Section 5's source-backed anchor set into a board-scale civic space: Arena / Training Civic Hall, Training Arena, Woven Banners Monument, Champion Gate Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Ghorum Vale.",
+      "visualIdentity": "Use Woven Banners Monument as the main read. Keep exact source anchors visible where applicable: Arena / Training Civic Hall, Training Arena, Woven Banners Monument, Champion Gate Nook. The district should share Ghorum Vale's colossal giant-bodied folk identity, Riverstone, Mudbrick, Timber, Limewash, and Riverside, Floodplain, Canal Basin without becoming generic.",
+      "emotionalIdentity": "Memorial or symbolic, with Ghorum Vale's larger mood shaped by Colossal Floodplain Menhir Court, Lock House Beacon, and Memory Tablet Walls Colossus Registry.",
+      "gameplayAssetNeeds": [
+        "Woven Banners Monument",
+        "Arena / Training Civic Hall",
+        "Training Arena",
+        "Champion Gate Nook",
+        "Section 5 pedestrian-scale props",
+        "Ghorum Vale civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Woven Banners Monument",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Woven Banners Monument",
+      "minorLandmarks": [
+        "Arena / Training Civic Hall",
+        "Training Arena",
+        "Champion Gate Nook"
+      ]
+    },
+    {
+      "districtNumber": 24,
+      "districtId": "D24",
+      "sectionNumber": 5,
+      "name": "D24 — Champion Gate Nook Neighborhood Nook",
+      "civicPurpose": "This district turns Section 5's source-backed anchor set into a board-scale civic space: Arena / Training Civic Hall, Training Arena, Woven Banners Monument, Champion Gate Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Ghorum Vale.",
+      "visualIdentity": "Use Champion Gate Nook as the main read. Keep exact source anchors visible where applicable: Arena / Training Civic Hall, Training Arena, Woven Banners Monument, Champion Gate Nook. The district should share Ghorum Vale's colossal giant-bodied folk identity, Riverstone, Mudbrick, Timber, Limewash, and Riverside, Floodplain, Canal Basin without becoming generic.",
+      "emotionalIdentity": "Intimate and lived-in, with Ghorum Vale's larger mood shaped by Colossal Floodplain Menhir Court, Lock House Beacon, and Memory Tablet Walls Colossus Registry.",
+      "gameplayAssetNeeds": [
+        "Champion Gate Nook",
+        "Arena / Training Civic Hall",
+        "Training Arena",
+        "Woven Banners Monument",
+        "Section 5 pedestrian-scale props",
+        "Ghorum Vale civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Champion Gate Nook",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Champion Gate Nook",
+      "minorLandmarks": [
+        "Arena / Training Civic Hall",
+        "Training Arena",
+        "Woven Banners Monument"
+      ]
+    },
+    {
+      "districtNumber": 25,
+      "districtId": "D25",
+      "sectionNumber": 5,
+      "name": "D25 — Arena / Training Civic Hall Supporting Streets",
+      "civicPurpose": "This district turns Section 5's source-backed anchor set into a board-scale civic space: Arena / Training Civic Hall, Training Arena, Woven Banners Monument, Champion Gate Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Ghorum Vale.",
+      "visualIdentity": "Use Arena / Training Civic Hall as the main read. Keep exact source anchors visible where applicable: Arena / Training Civic Hall, Training Arena, Woven Banners Monument, Champion Gate Nook. The district should share Ghorum Vale's colossal giant-bodied folk identity, Riverstone, Mudbrick, Timber, Limewash, and Riverside, Floodplain, Canal Basin without becoming generic.",
+      "emotionalIdentity": "Connective and practical, with Ghorum Vale's larger mood shaped by Colossal Floodplain Menhir Court, Lock House Beacon, and Memory Tablet Walls Colossus Registry.",
+      "gameplayAssetNeeds": [
+        "Arena / Training Civic Hall",
+        "Training Arena",
+        "Woven Banners Monument",
+        "Champion Gate Nook",
+        "Section 5 pedestrian-scale props",
+        "Ghorum Vale civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Arena / Training Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Arena / Training Civic Hall",
+      "minorLandmarks": [
+        "Training Arena",
+        "Woven Banners Monument",
+        "Champion Gate Nook"
+      ]
+    }
   ],
   "landmarks": {
-    "wonder": {"name": "Colossal Floodplain Menhir Court", "symbolicRole": "Memory made physically massive, communal, floodplain-rooted, and durable enough to outlast seasonal danger.", "visualRole": "Vast menhir court of monumental stones, floodplain terraces, civic approaches, water reflections, carved memory surfaces, and colossal ritual scale.", "civicRole": "Wonder-scale site for flood remembrance rites, public registry ceremonies, burden-taking vows, harvest acknowledgments, training graduations, and citywide mourning.", "narrativeUse": ["flood remembrance", "public memory", "burden vow", "mourning", "harvest acknowledgment"], "assetUse": ["map wonder", "far skyline anchor", "menhir field"], "sensoryIdentity": ["stone warmth", "river wind", "water reflection", "low voices", "processional drums"], "storyHooks": ["A menhir inscription forces the city to remember a duty its rosters erased."]},
-    "beacon": {"name": "Lock House Beacon", "symbolicRole": "Water control, flood warning, and emergency coordination made public signal.", "visualRole": "Major beacon among lock houses, wet stone, waterwheel courts, white limestone blocks, reed pavilions, canal reflections, and towpath traffic.", "civicRole": "Coordinates flood warnings, lock-house musters, sluice gate orders, waterwheel shutdowns, public announcements, grain halls, relief rosters, healing teams, trainers, and registry clerks.", "narrativeUse": ["flood alarm", "signal anxiety", "water-control politics", "critical infrastructure"], "assetUse": ["S1 centerpiece", "signal marker"], "sensoryIdentity": ["blue light", "sluice water", "wet stone", "wheel groan"], "storyHooks": ["Control of the Lock House Beacon controls the city's emergency tempo."]},
-    "seatOfPower": {"name": "Memory Tablet Walls Colossus Registry", "symbolicRole": "Public memory, duty records, sealed archives, command terraces, and colossus-scale civic continuity made government.", "visualRole": "Central registry complex of memory tablet walls, white stone courts, audience terraces, sealed archives, command platforms, blue lamps, and large public approach stairs.", "civicRole": "Government center for registration, roster sealing, water-right hearings, relief reviews, public petitions, training rulings, and memory ceremonies.", "narrativeUse": ["registry dispute", "relief record review", "water-right hearing", "public petition", "duty assignment"], "assetUse": ["seat-of-power marker", "central registry diorama"], "sensoryIdentity": ["stone tablets", "ink", "blue lamps", "crowd breath", "paper rosters"], "storyHooks": ["A roster category determines whether a real person receives relief or disappears into administration."]},
+    "wonder": {
+      "name": "Colossal Floodplain Menhir Court",
+      "symbolicRole": "Colossal Floodplain Menhir Court concentrates Ghorum Vale's local symbolism into a usable civic landmark: city wonder, separate far skyline anchor.",
+      "visualRole": "A one-per-city wonder: spectacular, unmistakable, and larger than every section landmark. It turns Ghorum Vale's geography, race identity, material culture, and civic magic into one public symbol. Built for Ghorum Vale's colossal giant-bodied folk population, it uses Riverstone, Mudbrick, Timber, Limewash, Canvas across Riverside, Floodplain, Canal Basin; water context: River; magic expression: Beast Bonding, Ancestor Guidance, Stone Giant Memory. It must read clearly as a high-fantasy tactical-board asset with no baked labels or text.",
+      "civicRole": "Serves as city wonder, separate far skyline anchor within Ghorum Vale; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+      "narrativeUse": [
+        "stage scenes involving Colossal Floodplain Menhir Court",
+        "show how Ghorum Vale turns landmark symbolism into civic pressure",
+        "anchor public movement and crowd behavior",
+        "give writers a concrete place for announcements, disputes, errands, or rituals"
+      ],
+      "assetUse": [
+        "city landmark asset",
+        "map background landmark marker",
+        "visual continuity anchor across hero and street scenes",
+        "scale reference for civilians, roads, plazas, and props"
+      ],
+      "sensoryIdentity": [
+        "local foot traffic",
+        "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+        "public voices and civic work nearby",
+        "ambient city light and weathering",
+        "close pedestrian-scale details rather than abstract skyline-only treatment"
+      ],
+      "storyHooks": [
+        "a routine civic action at Colossal Floodplain Menhir Court becomes narratively important",
+        "the visible condition of Colossal Floodplain Menhir Court signals political or social stress",
+        "someone uses Colossal Floodplain Menhir Court's public function to redirect crowds or information",
+        "an overlooked detail at Colossal Floodplain Menhir Court reveals how Ghorum Vale really works"
+      ]
+    },
+    "beacon": {
+      "name": "Lock House Beacon",
+      "symbolicRole": "Lock House Beacon concentrates Ghorum Vale's local symbolism into a usable civic landmark: Section 1 beacon, near/front civic signal anchor.",
+      "visualRole": "A largest local landmark in this section, subordinate only to the city wonder and citadel. It belongs to Section 1 (Canal / Riverworks) of Ghorum Vale and should use White Limestone Civic Blocks, Reed Pavilions, Coral Terraces, riverstone and canvas materials, Canal Reflections, Lantern Lit, Hanging Gardens, and the colossal giant-bodied folk visual language. Design focus: sluice gates, waterwheel yards, towpaths, largest section focal point, strong vertical silhouette. Terrain/water context: River Islands; River. Magic expression: Ancestor Guidance, Stone Giant Memory, Living Stone. No baked labels or text.",
+      "civicRole": "Serves as Section 1 beacon, near/front civic signal anchor within Ghorum Vale; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+      "narrativeUse": [
+        "stage scenes involving Lock House Beacon",
+        "show how Ghorum Vale turns landmark symbolism into civic pressure",
+        "anchor public movement and crowd behavior",
+        "give writers a concrete place for announcements, disputes, errands, or rituals"
+      ],
+      "assetUse": [
+        "district diorama anchor for Section 1",
+        "map background landmark marker",
+        "visual continuity anchor across hero and street scenes",
+        "scale reference for civilians, roads, plazas, and props"
+      ],
+      "sensoryIdentity": [
+        "local foot traffic",
+        "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+        "public voices and civic work nearby",
+        "beacon or lamp glow when applicable",
+        "close pedestrian-scale details rather than abstract skyline-only treatment"
+      ],
+      "storyHooks": [
+        "a routine civic action at Lock House Beacon becomes narratively important",
+        "the visible condition of Lock House Beacon signals political or social stress",
+        "someone uses Lock House Beacon's public function to redirect crowds or information",
+        "an overlooked detail at Lock House Beacon reveals how Ghorum Vale really works"
+      ]
+    },
+    "seatOfPower": {
+      "name": "Memory Tablet Walls Colossus Registry",
+      "symbolicRole": "Memory Tablet Walls Colossus Registry concentrates Ghorum Vale's local symbolism into a usable civic landmark: dominant central civic anchor / District 13 seat of power.",
+      "visualRole": "The district-13 seat of power: courts, audience terraces, sealed archives, command platforms, and the visible apparatus of government. It is not a faction HQ; it is the city's central civic authority. Built for Ghorum Vale's colossal giant-bodied folk population, it uses Riverstone, Mudbrick, Timber, Limewash, Canvas across Riverside, Floodplain, Canal Basin; water context: River; magic expression: Beast Bonding, Ancestor Guidance, Stone Giant Memory. It must read clearly as a high-fantasy tactical-board asset with no baked labels or text.",
+      "civicRole": "Serves as dominant central civic anchor / District 13 seat of power within Ghorum Vale; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+      "narrativeUse": [
+        "stage scenes involving Memory Tablet Walls Colossus Registry",
+        "show how Ghorum Vale turns landmark symbolism into civic pressure",
+        "anchor public movement and crowd behavior",
+        "give writers a concrete place for announcements, disputes, errands, or rituals"
+      ],
+      "assetUse": [
+        "city landmark asset",
+        "map background landmark marker",
+        "visual continuity anchor across hero and street scenes",
+        "scale reference for civilians, roads, plazas, and props"
+      ],
+      "sensoryIdentity": [
+        "local foot traffic",
+        "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+        "public voices and civic work nearby",
+        "ambient city light and weathering",
+        "close pedestrian-scale details rather than abstract skyline-only treatment"
+      ],
+      "storyHooks": [
+        "a routine civic action at Memory Tablet Walls Colossus Registry becomes narratively important",
+        "the visible condition of Memory Tablet Walls Colossus Registry signals political or social stress",
+        "someone uses Memory Tablet Walls Colossus Registry's public function to redirect crowds or information",
+        "an overlooked detail at Memory Tablet Walls Colossus Registry reveals how Ghorum Vale really works"
+      ]
+    },
     "majorLandmarks": [
-      {"name": "Grain Hall", "symbolicRole": "Food security as public legitimacy.", "visualRole": "Huge grain hall with scales, bread ovens, awnings, storage jars, reed pavilions, and market traffic.", "civicRole": "Stores grain, organizes food markets, weighs supplies, and supports public provision.", "narrativeUse": ["food politics", "grain clue", "public scarcity"], "assetUse": ["S2 diorama"], "sensoryIdentity": ["grain dust", "bread", "reed matting", "market voices"], "storyHooks": ["A grain tally proves the city has enough food but not enough honesty."]},
-      {"name": "Relief Hall", "symbolicRole": "Compassion made administrative.", "visualRole": "Relief hall with blue lanterns, notice plaza, public rosters, queues, water basins, and civic service counters.", "civicRole": "Aid eligibility, public rosters, emergency relief, notices, and response coordination.", "narrativeUse": ["relief dispute", "missing person notice", "administrative pressure"], "assetUse": ["S3 diorama"], "sensoryIdentity": ["lamp oil", "wet paper", "crowd murmur", "basin water"], "storyHooks": ["A relief notice names someone who should not be alive."]},
-      {"name": "Healing Hall", "symbolicRole": "Recovery kept public and accountable.", "visualRole": "Healing hall with lantern monument, apothecary court, herb stalls, white civic blocks, water bowls, and recovery beds.", "civicRole": "Medical care, triage, public health, and injured-worker recovery.", "narrativeUse": ["triage", "recovery", "medical logistics", "healing evidence"], "assetUse": ["S4 diorama"], "sensoryIdentity": ["herbs", "clean water", "soft lamps", "cloth"], "storyHooks": ["A recovery list exposes which workers the city considers replaceable."]},
-      {"name": "Training Arena", "symbolicRole": "Strength trained into civic readiness.", "visualRole": "Arena with woven banners, champion gate, practice rings, broad terraces, students, and public tests.", "civicRole": "Training, readiness, replacement preparation, champion recognition, and public discipline.", "narrativeUse": ["training pressure", "public test", "champion politics"], "assetUse": ["S5 diorama"], "sensoryIdentity": ["dust", "banner cloth", "heavy steps", "crowd focus"], "storyHooks": ["A champion gate ceremony decides who carries the next public burden."]}
+      {
+        "name": "Training Arena",
+        "symbolicRole": "Training Arena concentrates Ghorum Vale's local symbolism into a usable civic landmark: additional major landmark selected for this hero-view camera angle.",
+        "visualRole": "A largest local landmark in this section, subordinate only to the city wonder and citadel. It belongs to Section 5 (Arena / Training) of Ghorum Vale and should use Temple Platforms, Obsidian Fortresses, Lecture Courts, riverstone and canvas materials, Woven Banners, Red Fabric Awnings, Carved Totems, and the colossal giant-bodied folk visual language. Design focus: victory stones, arenas, training yards, weapon courts, practice rings. Terrain/water context: River Islands; River. Magic expression: Ancestor Guidance, Stone Giant Memory, Living Stone. No baked labels or text.",
+        "civicRole": "Serves as additional major landmark selected for this hero-view camera angle within Ghorum Vale; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Training Arena",
+          "show how Ghorum Vale turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 5",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Training Arena becomes narratively important",
+          "the visible condition of Training Arena signals political or social stress",
+          "someone uses Training Arena's public function to redirect crowds or information",
+          "an overlooked detail at Training Arena reveals how Ghorum Vale really works"
+        ]
+      },
+      {
+        "name": "Grain Hall",
+        "symbolicRole": "Grain Hall concentrates Ghorum Vale's local symbolism into a usable civic landmark: additional major landmark selected for this hero-view camera angle.",
+        "visualRole": "A largest local landmark in this section, subordinate only to the city wonder and citadel. It belongs to Section 2 (Granary / Food Market) of Ghorum Vale and should use Market Arcades, Reed Pavilions, Timber Longhouses, riverstone and canvas materials, Woven Banners, Lantern Lit, Red Fabric Awnings, and the colossal giant-bodied folk visual language. Design focus: strong vertical silhouette, distinct gameplay landmark, visible from nearby districts, wheat sheaves, bread ovens. Terrain/water context: River Islands; River. Magic expression: Ancestor Guidance, Stone Giant Memory, Living Stone. No baked labels or text.",
+        "civicRole": "Serves as additional major landmark selected for this hero-view camera angle within Ghorum Vale; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Grain Hall",
+          "show how Ghorum Vale turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 2",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Grain Hall becomes narratively important",
+          "the visible condition of Grain Hall signals political or social stress",
+          "someone uses Grain Hall's public function to redirect crowds or information",
+          "an overlooked detail at Grain Hall reveals how Ghorum Vale really works"
+        ]
+      },
+      {
+        "name": "Healing Hall",
+        "symbolicRole": "Healing Hall concentrates Ghorum Vale's local symbolism into a usable civic landmark: additional major landmark selected for this hero-view camera angle.",
+        "visualRole": "A largest local landmark in this section, subordinate only to the city wonder and citadel. It belongs to Section 4 (Medical / Healing) of Ghorum Vale and should use Reed Pavilions, White Limestone Civic Blocks, Temple Platforms, riverstone and canvas materials, Lantern Lit, Bone White Ceremony, Hanging Gardens, and the colossal giant-bodied folk visual language. Design focus: hospital halls, herb gardens, recovery beds, largest section focal point, strong vertical silhouette. Terrain/water context: River Islands; River. Magic expression: Ancestor Guidance, Stone Giant Memory, Living Stone. No baked labels or text.",
+        "civicRole": "Serves as additional major landmark selected for this hero-view camera angle within Ghorum Vale; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Healing Hall",
+          "show how Ghorum Vale turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 4",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Healing Hall becomes narratively important",
+          "the visible condition of Healing Hall signals political or social stress",
+          "someone uses Healing Hall's public function to redirect crowds or information",
+          "an overlooked detail at Healing Hall reveals how Ghorum Vale really works"
+        ]
+      },
+      {
+        "name": "Canal / Riverworks Civic Hall",
+        "symbolicRole": "Canal / Riverworks Civic Hall concentrates Ghorum Vale's local symbolism into a usable civic landmark: Section 1 local anchor.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing. It belongs to Section 1 (Canal / Riverworks) of Ghorum Vale and should use White Limestone Civic Blocks, Reed Pavilions, Coral Terraces, riverstone and canvas materials, Canal Reflections, Lantern Lit, Hanging Gardens, and the colossal giant-bodied folk visual language. Design focus: public-facing administration, clear central silhouette, board-readable entrance, water gauges, sluice wheels. Terrain/water context: River Islands; River. Magic expression: Ancestor Guidance, Stone Giant Memory, Living Stone. No baked labels or text.",
+        "civicRole": "Serves as Section 1 local anchor within Ghorum Vale; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Canal / Riverworks Civic Hall",
+          "show how Ghorum Vale turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 1",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Canal / Riverworks Civic Hall becomes narratively important",
+          "the visible condition of Canal / Riverworks Civic Hall signals political or social stress",
+          "someone uses Canal / Riverworks Civic Hall's public function to redirect crowds or information",
+          "an overlooked detail at Canal / Riverworks Civic Hall reveals how Ghorum Vale really works"
+        ]
+      },
+      {
+        "name": "Canal Reflections Monument",
+        "symbolicRole": "Canal Reflections Monument concentrates Ghorum Vale's local symbolism into a usable civic landmark: Section 1 local anchor.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles. It belongs to Section 1 (Canal / Riverworks) of Ghorum Vale and should use White Limestone Civic Blocks, Reed Pavilions, Coral Terraces, riverstone and canvas materials, Lantern Lit, Hanging Gardens, Canal Reflections, and the colossal giant-bodied folk visual language. Design focus: water gauges, sluice wheels, reeds, wet stone, lock houses. Terrain/water context: River Islands; River. Magic expression: Ancestor Guidance, Stone Giant Memory, Living Stone. No baked labels or text.",
+        "civicRole": "Serves as Section 1 local anchor within Ghorum Vale; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Canal Reflections Monument",
+          "show how Ghorum Vale turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 1",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Canal Reflections Monument becomes narratively important",
+          "the visible condition of Canal Reflections Monument signals political or social stress",
+          "someone uses Canal Reflections Monument's public function to redirect crowds or information",
+          "an overlooked detail at Canal Reflections Monument reveals how Ghorum Vale really works"
+        ]
+      },
+      {
+        "name": "Waterwheel Court Nook",
+        "symbolicRole": "Waterwheel Court Nook concentrates Ghorum Vale's local symbolism into a usable civic landmark: Section 1 local anchor.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette. It belongs to Section 1 (Canal / Riverworks) of Ghorum Vale and should use Coral Terraces, White Limestone Civic Blocks, Reed Pavilions, riverstone and canvas materials, Hanging Gardens, Canal Reflections, Lantern Lit, and the colossal giant-bodied folk visual language. Design focus: reeds, wet stone, lock houses, sluice gates, waterwheel yards. Terrain/water context: River Islands; River. Magic expression: Ancestor Guidance, Stone Giant Memory, Living Stone. No baked labels or text.",
+        "civicRole": "Serves as Section 1 local anchor within Ghorum Vale; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Waterwheel Court Nook",
+          "show how Ghorum Vale turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 1",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Waterwheel Court Nook becomes narratively important",
+          "the visible condition of Waterwheel Court Nook signals political or social stress",
+          "someone uses Waterwheel Court Nook's public function to redirect crowds or information",
+          "an overlooked detail at Waterwheel Court Nook reveals how Ghorum Vale really works"
+        ]
+      },
+      {
+        "name": "Granary / Food Market Civic Hall",
+        "symbolicRole": "Granary / Food Market Civic Hall concentrates Ghorum Vale's local symbolism into a usable civic landmark: Section 2 local anchor.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing. It belongs to Section 2 (Granary / Food Market) of Ghorum Vale and should use Reed Pavilions, Timber Longhouses, Market Arcades, riverstone and canvas materials, Woven Banners, Lantern Lit, Red Fabric Awnings, and the colossal giant-bodied folk visual language. Design focus: public-facing administration, clear central silhouette, board-readable entrance, wheat sheaves, bread ovens. Terrain/water context: River Islands; River. Magic expression: Ancestor Guidance, Stone Giant Memory, Living Stone. No baked labels or text.",
+        "civicRole": "Serves as Section 2 local anchor within Ghorum Vale; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Granary / Food Market Civic Hall",
+          "show how Ghorum Vale turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 2",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Granary / Food Market Civic Hall becomes narratively important",
+          "the visible condition of Granary / Food Market Civic Hall signals political or social stress",
+          "someone uses Granary / Food Market Civic Hall's public function to redirect crowds or information",
+          "an overlooked detail at Granary / Food Market Civic Hall reveals how Ghorum Vale really works"
+        ]
+      },
+      {
+        "name": "Awning Monument",
+        "symbolicRole": "Awning Monument concentrates Ghorum Vale's local symbolism into a usable civic landmark: Section 2 local anchor.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles. It belongs to Section 2 (Granary / Food Market) of Ghorum Vale and should use Market Arcades, Reed Pavilions, Timber Longhouses, riverstone and canvas materials, Lantern Lit, Red Fabric Awnings, Woven Banners, and the colossal giant-bodied folk visual language. Design focus: granaries, bakeries, covered food halls, grain scales, symbolic civic object. Terrain/water context: River Islands; River. Magic expression: Ancestor Guidance, Stone Giant Memory, Living Stone. No baked labels or text.",
+        "civicRole": "Serves as Section 2 local anchor within Ghorum Vale; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Awning Monument",
+          "show how Ghorum Vale turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 2",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Awning Monument becomes narratively important",
+          "the visible condition of Awning Monument signals political or social stress",
+          "someone uses Awning Monument's public function to redirect crowds or information",
+          "an overlooked detail at Awning Monument reveals how Ghorum Vale really works"
+        ]
+      },
+      {
+        "name": "Mill Court Nook",
+        "symbolicRole": "Mill Court Nook concentrates Ghorum Vale's local symbolism into a usable civic landmark: Section 2 local anchor.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette. It belongs to Section 2 (Granary / Food Market) of Ghorum Vale and should use Reed Pavilions, Timber Longhouses, Market Arcades, riverstone and canvas materials, Lantern Lit, Red Fabric Awnings, Woven Banners, and the colossal giant-bodied folk visual language. Design focus: hanging herbs, granaries, bakeries, covered food halls, grain scales. Terrain/water context: River Islands; River. Magic expression: Ancestor Guidance, Stone Giant Memory, Living Stone. No baked labels or text.",
+        "civicRole": "Serves as Section 2 local anchor within Ghorum Vale; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Mill Court Nook",
+          "show how Ghorum Vale turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 2",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Mill Court Nook becomes narratively important",
+          "the visible condition of Mill Court Nook signals political or social stress",
+          "someone uses Mill Court Nook's public function to redirect crowds or information",
+          "an overlooked detail at Mill Court Nook reveals how Ghorum Vale really works"
+        ]
+      },
+      {
+        "name": "Civic Services Hall",
+        "symbolicRole": "Civic Services Hall concentrates Ghorum Vale's local symbolism into a usable civic landmark: Section 3 local anchor.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing. It belongs to Section 3 (Civic Services) of Ghorum Vale and should use Reed Pavilions, White Limestone Civic Blocks, Market Arcades, riverstone and canvas materials, Red Fabric Awnings, Lantern Lit, Civic Blue Glow, and the colossal giant-bodied folk visual language. Design focus: bread tokens, water basins, blue service lamps, public rosters, public halls. Terrain/water context: River Islands; River. Magic expression: Ancestor Guidance, Stone Giant Memory, Living Stone. No baked labels or text.",
+        "civicRole": "Serves as Section 3 local anchor within Ghorum Vale; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Civic Services Hall",
+          "show how Ghorum Vale turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 3",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Civic Services Hall becomes narratively important",
+          "the visible condition of Civic Services Hall signals political or social stress",
+          "someone uses Civic Services Hall's public function to redirect crowds or information",
+          "an overlooked detail at Civic Services Hall reveals how Ghorum Vale really works"
+        ]
+      },
+      {
+        "name": "Relief Hall",
+        "symbolicRole": "Relief Hall concentrates Ghorum Vale's local symbolism into a usable civic landmark: Section 3 local anchor.",
+        "visualRole": "A mandatory Section 3 Beacon: a culturally adapted civic signal flame / warning-light landmark visible across the city spine. It belongs to Section 3 (Civic Services) of Ghorum Vale and should use Market Arcades, Reed Pavilions, White Limestone Civic Blocks, riverstone and canvas materials, Civic Blue Glow, Red Fabric Awnings, Lantern Lit, and the colossal giant-bodied folk visual language. Design focus: public rosters, public halls, clinic courts, bathhouses, Beacon must inherit city materials, culture, magic expression, and water/terrain context from CityProfile.. Terrain/water context: River Islands; River. Magic expression: Ancestor Guidance, Stone Giant Memory, Living Stone. No baked labels or text.",
+        "civicRole": "Serves as Section 3 local anchor within Ghorum Vale; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Relief Hall",
+          "show how Ghorum Vale turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 3",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Relief Hall becomes narratively important",
+          "the visible condition of Relief Hall signals political or social stress",
+          "someone uses Relief Hall's public function to redirect crowds or information",
+          "an overlooked detail at Relief Hall reveals how Ghorum Vale really works"
+        ]
+      },
+      {
+        "name": "Civic Services Lantern Monument",
+        "symbolicRole": "Civic Services Lantern Monument concentrates Ghorum Vale's local symbolism into a usable civic landmark: Section 3 local anchor.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles. It belongs to Section 3 (Civic Services) of Ghorum Vale and should use Reed Pavilions, White Limestone Civic Blocks, Market Arcades, riverstone and canvas materials, Lantern Lit, Civic Blue Glow, Red Fabric Awnings, and the colossal giant-bodied folk visual language. Design focus: public rosters, public halls, clinic courts, bathhouses, notice boards. Terrain/water context: River Islands; River. Magic expression: Ancestor Guidance, Stone Giant Memory, Living Stone. No baked labels or text.",
+        "civicRole": "Serves as Section 3 local anchor within Ghorum Vale; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Civic Services Lantern Monument",
+          "show how Ghorum Vale turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 3",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Civic Services Lantern Monument becomes narratively important",
+          "the visible condition of Civic Services Lantern Monument signals political or social stress",
+          "someone uses Civic Services Lantern Monument's public function to redirect crowds or information",
+          "an overlooked detail at Civic Services Lantern Monument reveals how Ghorum Vale really works"
+        ]
+      },
+      {
+        "name": "Notice Plaza Nook",
+        "symbolicRole": "Notice Plaza Nook concentrates Ghorum Vale's local symbolism into a usable civic landmark: Section 3 local anchor.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette. It belongs to Section 3 (Civic Services) of Ghorum Vale and should use White Limestone Civic Blocks, Market Arcades, Reed Pavilions, riverstone and canvas materials, Lantern Lit, Civic Blue Glow, Red Fabric Awnings, and the colossal giant-bodied folk visual language. Design focus: notice boards, small local identity prop, street-level detail, usable board landmark, subordinate scale. Terrain/water context: River Islands; River. Magic expression: Ancestor Guidance, Stone Giant Memory, Living Stone. No baked labels or text.",
+        "civicRole": "Serves as Section 3 local anchor within Ghorum Vale; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Notice Plaza Nook",
+          "show how Ghorum Vale turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 3",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Notice Plaza Nook becomes narratively important",
+          "the visible condition of Notice Plaza Nook signals political or social stress",
+          "someone uses Notice Plaza Nook's public function to redirect crowds or information",
+          "an overlooked detail at Notice Plaza Nook reveals how Ghorum Vale really works"
+        ]
+      },
+      {
+        "name": "Medical / Healing Civic Hall",
+        "symbolicRole": "Medical / Healing Civic Hall concentrates Ghorum Vale's local symbolism into a usable civic landmark: Section 4 local anchor.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing. It belongs to Section 4 (Medical / Healing) of Ghorum Vale and should use White Limestone Civic Blocks, Temple Platforms, Reed Pavilions, riverstone and canvas materials, Hanging Gardens, Lantern Lit, Bone White Ceremony, and the colossal giant-bodied folk visual language. Design focus: herbs, white cloth, water bowls, healing lamps, clinics. Terrain/water context: River Islands; River. Magic expression: Ancestor Guidance, Stone Giant Memory, Living Stone. No baked labels or text.",
+        "civicRole": "Serves as Section 4 local anchor within Ghorum Vale; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Medical / Healing Civic Hall",
+          "show how Ghorum Vale turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 4",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Medical / Healing Civic Hall becomes narratively important",
+          "the visible condition of Medical / Healing Civic Hall signals political or social stress",
+          "someone uses Medical / Healing Civic Hall's public function to redirect crowds or information",
+          "an overlooked detail at Medical / Healing Civic Hall reveals how Ghorum Vale really works"
+        ]
+      },
+      {
+        "name": "Medical Healing Lantern Monument",
+        "symbolicRole": "Medical Healing Lantern Monument concentrates Ghorum Vale's local symbolism into a usable civic landmark: Section 4 local anchor.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles. It belongs to Section 4 (Medical / Healing) of Ghorum Vale and should use Temple Platforms, Reed Pavilions, White Limestone Civic Blocks, riverstone and canvas materials, Hanging Gardens, Lantern Lit, Bone White Ceremony, and the colossal giant-bodied folk visual language. Design focus: recovery beds, symbolic civic object, small ceremonial site, local memory marker, subordinate to major landmark. Terrain/water context: River Islands; River. Magic expression: Ancestor Guidance, Stone Giant Memory, Living Stone. No baked labels or text.",
+        "civicRole": "Serves as Section 4 local anchor within Ghorum Vale; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Medical Healing Lantern Monument",
+          "show how Ghorum Vale turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 4",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Medical Healing Lantern Monument becomes narratively important",
+          "the visible condition of Medical Healing Lantern Monument signals political or social stress",
+          "someone uses Medical Healing Lantern Monument's public function to redirect crowds or information",
+          "an overlooked detail at Medical Healing Lantern Monument reveals how Ghorum Vale really works"
+        ]
+      },
+      {
+        "name": "Apothecary Court Nook",
+        "symbolicRole": "Apothecary Court Nook concentrates Ghorum Vale's local symbolism into a usable civic landmark: Section 4 local anchor.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette. It belongs to Section 4 (Medical / Healing) of Ghorum Vale and should use Reed Pavilions, White Limestone Civic Blocks, Temple Platforms, riverstone and canvas materials, Lantern Lit, Bone White Ceremony, Hanging Gardens, and the colossal giant-bodied folk visual language. Design focus: subordinate scale, herbs, white cloth, water bowls, healing lamps. Terrain/water context: River Islands; River. Magic expression: Ancestor Guidance, Stone Giant Memory, Living Stone. No baked labels or text.",
+        "civicRole": "Serves as Section 4 local anchor within Ghorum Vale; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Apothecary Court Nook",
+          "show how Ghorum Vale turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 4",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Apothecary Court Nook becomes narratively important",
+          "the visible condition of Apothecary Court Nook signals political or social stress",
+          "someone uses Apothecary Court Nook's public function to redirect crowds or information",
+          "an overlooked detail at Apothecary Court Nook reveals how Ghorum Vale really works"
+        ]
+      },
+      {
+        "name": "Arena / Training Civic Hall",
+        "symbolicRole": "Arena / Training Civic Hall concentrates Ghorum Vale's local symbolism into a usable civic landmark: Section 5 local anchor.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing. It belongs to Section 5 (Arena / Training) of Ghorum Vale and should use Temple Platforms, Obsidian Fortresses, Lecture Courts, riverstone and canvas materials, Carved Totems, Woven Banners, Red Fabric Awnings, and the colossal giant-bodied folk visual language. Design focus: sand floors, practice weapons, victory stones, arenas, training yards. Terrain/water context: River Islands; River. Magic expression: Ancestor Guidance, Stone Giant Memory, Living Stone. No baked labels or text.",
+        "civicRole": "Serves as Section 5 local anchor within Ghorum Vale; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Arena / Training Civic Hall",
+          "show how Ghorum Vale turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 5",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Arena / Training Civic Hall becomes narratively important",
+          "the visible condition of Arena / Training Civic Hall signals political or social stress",
+          "someone uses Arena / Training Civic Hall's public function to redirect crowds or information",
+          "an overlooked detail at Arena / Training Civic Hall reveals how Ghorum Vale really works"
+        ]
+      },
+      {
+        "name": "Woven Banners Monument",
+        "symbolicRole": "Woven Banners Monument concentrates Ghorum Vale's local symbolism into a usable civic landmark: Section 5 local anchor.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles. It belongs to Section 5 (Arena / Training) of Ghorum Vale and should use Temple Platforms, Obsidian Fortresses, Lecture Courts, riverstone and canvas materials, Red Fabric Awnings, Carved Totems, Woven Banners, and the colossal giant-bodied folk visual language. Design focus: arenas, training yards, weapon courts, practice rings, symbolic civic object. Terrain/water context: River Islands; River. Magic expression: Ancestor Guidance, Stone Giant Memory, Living Stone. No baked labels or text.",
+        "civicRole": "Serves as Section 5 local anchor within Ghorum Vale; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Woven Banners Monument",
+          "show how Ghorum Vale turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 5",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Woven Banners Monument becomes narratively important",
+          "the visible condition of Woven Banners Monument signals political or social stress",
+          "someone uses Woven Banners Monument's public function to redirect crowds or information",
+          "an overlooked detail at Woven Banners Monument reveals how Ghorum Vale really works"
+        ]
+      },
+      {
+        "name": "Champion Gate Nook",
+        "symbolicRole": "Champion Gate Nook concentrates Ghorum Vale's local symbolism into a usable civic landmark: Section 5 local anchor.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette. It belongs to Section 5 (Arena / Training) of Ghorum Vale and should use Lecture Courts, Temple Platforms, Obsidian Fortresses, riverstone and canvas materials, Carved Totems, Woven Banners, Red Fabric Awnings, and the colossal giant-bodied folk visual language. Design focus: training yards, weapon courts, practice rings, small local identity prop, street-level detail. Terrain/water context: River Islands; River. Magic expression: Ancestor Guidance, Stone Giant Memory, Living Stone. No baked labels or text.",
+        "civicRole": "Serves as Section 5 local anchor within Ghorum Vale; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Champion Gate Nook",
+          "show how Ghorum Vale turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 5",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Champion Gate Nook becomes narratively important",
+          "the visible condition of Champion Gate Nook signals political or social stress",
+          "someone uses Champion Gate Nook's public function to redirect crowds or information",
+          "an overlooked detail at Champion Gate Nook reveals how Ghorum Vale really works"
+        ]
+      }
     ]
   },
   "assetGuidance": {
-    "districtDioramaGuidance": ["S1 must show Canal / Riverworks Civic Hall, Lock House Beacon, Canal Reflections Monument, Waterwheel Court Nook, sluice gates, lock workers, and broad canal bridges.", "S2 must show Granary / Food Market Civic Hall, Grain Hall, Awning Monument, Mill Court Nook, grain scales, bread ovens, and market crowds.", "S3 must show Civic Services Hall, Relief Hall, Civic Services Lantern Monument, Notice Plaza Nook, public rosters, relief clerks, and queues.", "S4 must show Medical / Healing Civic Hall, Healing Hall, Medical Healing Lantern Monument, Apothecary Court Nook, healers, herbs, and recovery beds.", "S5 must show Arena / Training Civic Hall, Training Arena, Woven Banners Monument, Champion Gate Nook, practice rings, arena trainers, and students."],
-    "mapBackgroundGuidance": ["Show a colossal floodplain city organized around lock houses, grain halls, relief plazas, healing courts, training arenas, memory-tablet government, and menhir processional grounds.", "The Colossal Floodplain Menhir Court should be the far wonder anchor; the Memory Tablet Walls Colossus Registry should be central authority; the Lock House Beacon should tie the city to floodplain water control."],
-    "requiredVisualElements": ["colossal citizens", "Colossal Floodplain Menhir Court", "Lock House Beacon", "Memory Tablet Walls Colossus Registry", "Canal / Riverworks Civic Hall", "Canal Reflections Monument", "Waterwheel Court Nook", "Grain Hall", "Awning Monument", "Mill Court Nook", "Relief Hall", "Civic Services Lantern Monument", "Notice Plaza Nook", "Healing Hall", "Medical Healing Lantern Monument", "Apothecary Court Nook", "Training Arena", "Woven Banners Monument", "Champion Gate Nook", "memory tablets", "menhirs", "canals", "grain markets"],
-    "elementsToAvoid": ["generic giant city", "mere oversized buildings", "food and relief hidden from view", "floodplain water as scenery only", "training as random violence", "memory reduced to private nostalgia"]
+    "districtDioramaGuidance": [
+      "Dioramas must support 25 district slots: S1 covers D01, D02, D03, D06, D07 and uses source-backed anchors Canal / Riverworks Civic Hall, Lock House Beacon, Canal Reflections Monument, Waterwheel Court Nook.",
+      "Dioramas must support 25 district slots: S2 covers D04, D05, D09, D10, D15 and uses source-backed anchors Granary / Food Market Civic Hall, Grain Hall, Awning Monument, Mill Court Nook.",
+      "Dioramas must support 25 district slots: S3 covers D08, D12, D13, D14, D18 and uses source-backed anchors Civic Services Hall, Relief Hall, Civic Services Lantern Monument, Notice Plaza Nook.",
+      "Dioramas must support 25 district slots: S4 covers D11, D16, D17, D21, D22 and uses source-backed anchors Medical / Healing Civic Hall, Healing Hall, Medical Healing Lantern Monument, Apothecary Court Nook.",
+      "Dioramas must support 25 district slots: S5 covers D19, D20, D23, D24, D25 and uses source-backed anchors Arena / Training Civic Hall, Training Arena, Woven Banners Monument, Champion Gate Nook."
+    ],
+    "mapBackgroundGuidance": [
+      "Map backgrounds must show Colossal Floodplain Menhir Court as the wonder-scale identity anchor, Memory Tablet Walls Colossus Registry at D13, and Lock House Beacon as the city signal landmark.",
+      "Preserve the five-section spine: S1 Canal / Riverworks Civic Hall, S2 Granary / Food Market Civic Hall, S3 Civic Services Hall, S4 Medical / Healing Civic Hall, S5 Arena / Training Civic Hall.",
+      "Use roads, terrain, water, civic terraces, walls, markets, courts, or service routes only where they support the exact city identity and tactical readability."
+    ],
+    "requiredVisualElements": [
+      "Colossal Floodplain Menhir Court",
+      "Lock House Beacon",
+      "Memory Tablet Walls Colossus Registry",
+      "Training Arena",
+      "Grain Hall",
+      "Healing Hall",
+      "Canal / Riverworks Civic Hall",
+      "Canal Reflections Monument",
+      "Waterwheel Court Nook",
+      "Granary / Food Market Civic Hall",
+      "Awning Monument",
+      "Mill Court Nook",
+      "Civic Services Hall",
+      "Relief Hall",
+      "Civic Services Lantern Monument",
+      "Notice Plaza Nook",
+      "Medical / Healing Civic Hall",
+      "Medical Healing Lantern Monument",
+      "Apothecary Court Nook",
+      "Arena / Training Civic Hall",
+      "Woven Banners Monument",
+      "Champion Gate Nook",
+      "Riverstone",
+      "Mudbrick",
+      "Timber",
+      "Limewash",
+      "Canvas",
+      "Riverside",
+      "Floodplain",
+      "Canal Basin",
+      "Beast Bonding",
+      "Ancestor Guidance",
+      "Stone Giant Memory"
+    ],
+    "elementsToAvoid": [
+      "extra top-level schema sections or research-log content in the JSON",
+      "generic fantasy architecture that ignores exact anchor names",
+      "invented missing street anchors",
+      "readable real-world text labels baked into images",
+      "collapsing the 25-district board into only five playable spaces",
+      "making landmarks decorative when they should have civic, narrative, and asset function"
+    ]
   }
 }

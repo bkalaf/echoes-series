@@ -1,0 +1,1888 @@
+{
+  "metadata": {
+    "schemaVersion": "2.0",
+    "analysisVersion": 2,
+    "cityCode": "KLI",
+    "cityName": "Klinkhollow",
+    "analysisDate": "2026-07-05",
+    "analystVersion": "gpt-5.5-thinking",
+    "analysisConfidence": "strong-lock",
+    "sourceStatus": "full",
+    "districtModel": "five sections; five district slots per section; D13 is the seat of power",
+    "missingStreetSections": [],
+    "basedOnImages": [
+      "KLI-HERO-NE-v001",
+      "KLI-HERO-NW-v001",
+      "KLI-HERO-SE-v001",
+      "KLI-HERO-SW-v001",
+      "KLI-STREET-S1-v001",
+      "KLI-STREET-S2-v001",
+      "KLI-STREET-S3-v001",
+      "KLI-STREET-S4-v001",
+      "KLI-STREET-S5-v001"
+    ],
+    "basedOnSidecars": [
+      "KLI-HERO-NE-v001.json",
+      "KLI-HERO-NW-v001.json",
+      "KLI-HERO-SE-v001.json",
+      "KLI-HERO-SW-v001.json",
+      "KLI-STREET-S1-v001.json",
+      "KLI-STREET-S2-v001.json",
+      "KLI-STREET-S3-v001.json",
+      "KLI-STREET-S4-v001.json",
+      "KLI-STREET-S5-v001.json"
+    ]
+  },
+  "cityDNA": {
+    "coreFantasy": "A goblins city where Goblin Tinker-Vault of Seven Bright Locks, Black Market Arcade Beacon, Gear Inlays Command Bastion, and the five-section district spine turn local identity into functional civic space.",
+    "primaryEmotion": "source-backed civic presence",
+    "secondaryEmotion": "lived-in pressure beneath landmark order",
+    "readerTakeaway": "Klinkhollow should feel immediately identifiable through exact landmarks and materials, not through generic fantasy-city shorthand.",
+    "civilizationThesis": "Klinkhollow organizes power through Gear Inlays Command Bastion, public response through Black Market Arcade Beacon, civic memory through Goblin Tinker-Vault of Seven Bright Locks, and daily life through S1 Underworld / Hidden Economy Civic Hall, S2 Slums / Informal Settlement Civic Hall, S3 Security / Intelligence Hall, S4 Low Residential Civic Hall, S5 Prison / Containment Civic Hall.",
+    "visualIdentity": "Iron, Red Brick, Dark Wood, Painted Plaster, Arcane Glow, Dry Stone Paving, Civic Terraces, Ward Networks, Ritual Geometry, Mechanical Animus, and exact anchors including Gear Inlays Command Bastion, Black Market Arcade Beacon, Goblin Tinker-Vault of Seven Bright Locks, Containment Keep, Scrap Market, Tenement Court, Underworld / Hidden Economy Civic Hall, Mist Veils Monument, Understreet Vault Nook, Slums / Informal Settlement Civic Hall.",
+    "culturalIdentity": "A goblins civic culture where architecture, public obligations, roads, landmark approaches, and everyday work must all read as part of the same civilization.",
+    "symbolicIdentity": "The city symbol system is built from exact names and visible functions: Goblin Tinker-Vault of Seven Bright Locks, Black Market Arcade Beacon, Gear Inlays Command Bastion, and section anchors such as Underworld / Hidden Economy Civic Hall, Slums / Informal Settlement Civic Hall, Security / Intelligence Hall, Low Residential Civic Hall, Prison / Containment Civic Hall."
+  },
+  "canon": {
+    "canonLocks": [
+      "Klinkhollow uses city code KLI.",
+      "The Wonder is Goblin Tinker-Vault of Seven Bright Locks.",
+      "The Beacon is Black Market Arcade Beacon.",
+      "The Seat of Power is Gear Inlays Command Bastion and occupies District 13.",
+      "The city uses five sections with five tactical district slots per section.",
+      "The source-backed section spine is: S1 Underworld / Hidden Economy Civic Hall, S2 Slums / Informal Settlement Civic Hall, S3 Security / Intelligence Hall, S4 Low Residential Civic Hall, S5 Prison / Containment Civic Hall.",
+      "Preserve exact anchor name: Gear Inlays Command Bastion.",
+      "Preserve exact anchor name: Black Market Arcade Beacon.",
+      "Preserve exact anchor name: Goblin Tinker-Vault of Seven Bright Locks.",
+      "Preserve exact anchor name: Containment Keep.",
+      "Preserve exact anchor name: Scrap Market.",
+      "Preserve exact anchor name: Tenement Court.",
+      "Preserve exact anchor name: Underworld / Hidden Economy Civic Hall.",
+      "Preserve exact anchor name: Mist Veils Monument.",
+      "Preserve exact anchor name: Understreet Vault Nook.",
+      "Preserve exact anchor name: Slums / Informal Settlement Civic Hall.",
+      "Preserve exact anchor name: Slums Informal Settlement Lantern Monument.",
+      "Preserve exact anchor name: Patched Tenement Nook.",
+      "Preserve exact anchor name: Security / Intelligence Hall.",
+      "Preserve exact anchor name: Cipher Hall.",
+      "Preserve exact anchor name: Dossier Vault Nook.",
+      "Preserve exact anchor name: Low Residential Civic Hall.",
+      "Preserve exact anchor name: Low Residential Lantern Monument.",
+      "Preserve exact anchor name: Laundry Well Nook.",
+      "Preserve exact anchor name: Prison / Containment Civic Hall.",
+      "Preserve exact anchor name: Judgment Yard Nook."
+    ],
+    "provisionalCanon": [],
+    "rejectedReads": [
+      "Do not treat Klinkhollow as a generic fantasy settlement with renamed landmarks.",
+      "Do not collapse the five-section board into a single mood or single district.",
+      "Do not replace exact anchor names with generic summaries.",
+      "Do not invent missing street-section landmarks when a street source is absent."
+    ],
+    "cautionFlags": [
+      "Keep every named Wonder, Beacon, Seat, section civic hall, major landmark, monument, and minor nook exact when present in sidecars.",
+      "If an image appears to deviate from a sidecar, preserve the exact name but avoid overclaiming visual details not supported by the source package.",
+      "Every district asset should remain usable for narrative scenes, tactical board dioramas, and city map backgrounds."
+    ]
+  },
+  "environment": {
+    "terrain": [
+      "Dry Stone Paving",
+      "Civic Terraces"
+    ],
+    "water": [
+      "dry city ground"
+    ],
+    "vegetation": [
+      "courtyard trees",
+      "balcony planters",
+      "public greenery where visible",
+      "source-backed local vegetation only"
+    ],
+    "climateLighting": [
+      "Ward Networks",
+      "Ritual Geometry",
+      "Mechanical Animus",
+      "daylight",
+      "golden hour",
+      "lantern light",
+      "civic beacon glow"
+    ],
+    "environmentalLogic": "The environment should make Klinkhollow's exact civic anchors plausible at street scale: terrain routes people toward section landmarks, lighting clarifies public authority, and water or landscape features remain source-backed rather than decorative filler."
+  },
+  "architecture": {
+    "materials": [
+      "Iron",
+      "Red Brick",
+      "Dark Wood",
+      "Painted Plaster",
+      "Arcane Glow"
+    ],
+    "forms": [
+      "Gear Inlays Command Bastion",
+      "Black Market Arcade Beacon",
+      "Goblin Tinker-Vault of Seven Bright Locks",
+      "Containment Keep",
+      "Scrap Market",
+      "Tenement Court",
+      "Underworld / Hidden Economy Civic Hall",
+      "Mist Veils Monument",
+      "Understreet Vault Nook",
+      "Slums / Informal Settlement Civic Hall",
+      "Slums Informal Settlement Lantern Monument",
+      "Patched Tenement Nook",
+      "Security / Intelligence Hall",
+      "Cipher Hall",
+      "Dossier Vault Nook",
+      "Low Residential Civic Hall",
+      "Low Residential Lantern Monument",
+      "Laundry Well Nook",
+      "Prison / Containment Civic Hall",
+      "Judgment Yard Nook",
+      "section civic halls",
+      "major landmark approaches",
+      "monument frontages",
+      "minor landmark nooks",
+      "district roads and plazas",
+      "D13 authority complex"
+    ],
+    "skyline": [
+      "Goblin Tinker-Vault of Seven Bright Locks",
+      "Gear Inlays Command Bastion",
+      "Black Market Arcade Beacon",
+      "Containment Keep",
+      "Scrap Market",
+      "Tenement Court",
+      "Underworld / Hidden Economy Civic Hall",
+      "Mist Veils Monument",
+      "Understreet Vault Nook"
+    ],
+    "lighting": [
+      "Ward Networks",
+      "Ritual Geometry",
+      "Mechanical Animus",
+      "beacon-state light",
+      "lantern-lit civic paths",
+      "street-level shop and housing light"
+    ],
+    "infrastructure": [
+      "Underworld / Hidden Economy Civic Hall",
+      "Slums / Informal Settlement Civic Hall",
+      "Security / Intelligence Hall",
+      "Low Residential Civic Hall",
+      "Prison / Containment Civic Hall",
+      "roads between district slots",
+      "public thresholds",
+      "plaza edges",
+      "records, permits, markets, services, or rituals implied by anchors"
+    ],
+    "motifs": [
+      "Gear",
+      "Inlays",
+      "Command",
+      "Bastion",
+      "Black",
+      "Market",
+      "Arcade",
+      "Beacon",
+      "Goblin",
+      "Tinker-Vault",
+      "Seven",
+      "Bright",
+      "Locks",
+      "Containment",
+      "Keep",
+      "Scrap"
+    ],
+    "colorLanguage": [
+      "source-backed material colors",
+      "civic blue signal accents",
+      "local textile, stone, metal, vegetation, or water colors from the image package"
+    ],
+    "textureLanguage": [
+      "Iron",
+      "Red Brick",
+      "Dark Wood",
+      "Painted Plaster",
+      "Arcane Glow",
+      "worn pedestrian surfaces",
+      "worked civic ornament",
+      "weathered public thresholds",
+      "lived-in shop and housing details"
+    ]
+  },
+  "civilization": {
+    "people": "The population should read as goblins and city-specific: citizens occupy streets, shops, public thresholds, and landmark approaches as people who understand the local civic order.",
+    "occupations": [
+      "watch guards",
+      "gate officers",
+      "market sellers",
+      "stall keepers",
+      "dock workers",
+      "water engineers",
+      "district clerks",
+      "craft families",
+      "porters",
+      "maintenance workers",
+      "food sellers",
+      "messengers"
+    ],
+    "socialClasses": [
+      "D13 officials and court staff",
+      "section landmark custodians",
+      "guild and service families",
+      "shopkeepers and artisans",
+      "laborers, carriers, messengers, and maintenance crews",
+      "households tied to local district obligations"
+    ],
+    "governance": "Government is centered on Gear Inlays Command Bastion. Its authority should be visible through courts, records, public access routes, civic lamps, guards or attendants, and the way citizens respond to D13.",
+    "religion": "Religious or ritual life should only be emphasized where source anchors support it, especially names such as none explicitly dominant in the current anchors.",
+    "customs": [
+      "citizens orient public life around Underworld / Hidden Economy Civic Hall in Section 1",
+      "citizens orient public life around Slums / Informal Settlement Civic Hall in Section 2",
+      "citizens orient public life around Security / Intelligence Hall in Section 3",
+      "citizens orient public life around Low Residential Civic Hall in Section 4",
+      "citizens orient public life around Prison / Containment Civic Hall in Section 5",
+      "beacon changes become public behavior, not background color",
+      "exact landmark names carry social memory and directions",
+      "civic errands happen visibly at thresholds, queues, ledgers, stalls, courts, or shrines"
+    ],
+    "bodyLanguage": [
+      "citizens pause at civic signals",
+      "workers move with practiced familiarity around district anchors",
+      "officials use thresholds and raised places to control attention",
+      "residents treat named landmarks as everyday orientation points"
+    ],
+    "speechPatterns": [
+      "directions use exact landmark names",
+      "public notices are tied to section anchors",
+      "local speech distinguishes civic authority, ordinary errands, and landmark obligations",
+      "people refer to D13 as the seat of power rather than a faction headquarters"
+    ]
+  },
+  "urbanLife": {
+    "streets": {
+      "appearance": "Streets should show Klinkhollow's exact anchor system at pedestrian scale: S1 Underworld / Hidden Economy Civic Hall, S2 Slums / Informal Settlement Civic Hall, S3 Security / Intelligence Hall, S4 Low Residential Civic Hall, S5 Prison / Containment Civic Hall. Keep roads, plazas, stairs, thresholds, lamps, signs-without-readable-text, props, and civilians aligned to the source-backed materials and landmarks.",
+      "movement": "Movement should be readable for tactical-board assets: citizens pass between 25 district slots, section anchors, D13, service streets, and landmark approaches without visual clutter hiding the civic purpose.",
+      "sounds": [
+        "foot traffic",
+        "vendors and service calls",
+        "tools and carts",
+        "public notices",
+        "landmark-specific sounds from water, bells, animals, machines, or crowds when source-backed",
+        "beacon-state crowd reactions"
+      ],
+      "smells": [
+        "street food",
+        "worked material dust",
+        "lamp oil or smoke",
+        "vegetation or water where source-backed",
+        "worn stone, timber, metal, plaster, or fabric"
+      ],
+      "lighting": "Use the package's source-backed civic lighting, daylight/golden-hour reads, lanterns, and beacon glow. Lighting must help identify authority, safety, and landmark function.",
+      "weatherEffects": "Weather should reinforce the local terrain and materials without overwhelming the city identity or inventing unsupported climate extremes.",
+      "dayCycle": "Day scenes emphasize errands, trade, records, repairs, rituals, food, and section-level movement.",
+      "nightCycle": "Night scenes emphasize lantern routes, closed thresholds, guarded landmarks, quiet work, and beacon visibility."
+    },
+    "shops": {
+      "common": [
+        "food stalls",
+        "repair stalls",
+        "material vendors",
+        "ledger or permit desks",
+        "local craft counters",
+        "street services tied to section anchors"
+      ],
+      "uncommon": [
+        "specialist landmark caretakers",
+        "instrument makers",
+        "ritual suppliers",
+        "map or record copyists",
+        "district-specific guild services"
+      ],
+      "prestigious": [
+        "D13-facing legal or registry services",
+        "elite craft workshops",
+        "landmark commission houses",
+        "official suppliers for civic ceremonies"
+      ],
+      "exports": [
+        "local crafts",
+        "records or seals",
+        "finished materials",
+        "food goods",
+        "specialized tools or ritual goods as supported by anchors"
+      ],
+      "imports": [
+        "rare materials",
+        "dyes, oils, spices, timber, stone, metal, glass, or cloth as needed by the architecture",
+        "outside records and trade goods"
+      ],
+      "streetFood": [
+        "flatbread or local bread",
+        "stew or grilled skewers",
+        "fruit or preserved food",
+        "tea or civic-square drinks",
+        "portable worker meals"
+      ],
+      "services": [
+        "directions by landmark",
+        "message running",
+        "permit help",
+        "repairs",
+        "food service",
+        "transport or porterage",
+        "public notice posting"
+      ]
+    },
+    "housing": {
+      "wealthy": "Prestige housing clusters near Gear Inlays Command Bastion, high terraces, or landmark-facing routes, using the best source-backed materials and controlled views of civic space.",
+      "middle": "Shop-over-house units, courtyard homes, guild-adjacent apartments, and family rooms near section anchors.",
+      "poor": "Smaller back-street rooms, work-adjacent housing, shared courtyards, service alleys, patched materials, and dense but still city-specific lived-in detail."
+    }
+  },
+  "districts": [
+    {
+      "districtNumber": 1,
+      "districtId": "D01",
+      "sectionNumber": 1,
+      "name": "D01 — Underworld / Hidden Economy Civic Hall Civic-Anchor Precinct",
+      "civicPurpose": "This district turns Section 1's source-backed anchor set into a board-scale civic space: Underworld / Hidden Economy Civic Hall, Black Market Arcade Beacon, Mist Veils Monument, Understreet Vault Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Klinkhollow.",
+      "visualIdentity": "Use Underworld / Hidden Economy Civic Hall as the main read. Keep exact source anchors visible where applicable: Underworld / Hidden Economy Civic Hall, Black Market Arcade Beacon, Mist Veils Monument, Understreet Vault Nook. The district should share Klinkhollow's goblins identity, Iron, Red Brick, Dark Wood, Painted Plaster, and Dry Stone Paving, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Locally grounded, with Klinkhollow's larger mood shaped by Goblin Tinker-Vault of Seven Bright Locks, Black Market Arcade Beacon, and Gear Inlays Command Bastion.",
+      "gameplayAssetNeeds": [
+        "Underworld / Hidden Economy Civic Hall",
+        "Black Market Arcade Beacon",
+        "Mist Veils Monument",
+        "Understreet Vault Nook",
+        "Section 1 pedestrian-scale props",
+        "Klinkhollow civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Underworld / Hidden Economy Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Underworld / Hidden Economy Civic Hall",
+      "minorLandmarks": [
+        "Black Market Arcade Beacon",
+        "Mist Veils Monument",
+        "Understreet Vault Nook"
+      ]
+    },
+    {
+      "districtNumber": 2,
+      "districtId": "D02",
+      "sectionNumber": 1,
+      "name": "D02 — Black Market Arcade Beacon Landmark Approach",
+      "civicPurpose": "This district turns Section 1's source-backed anchor set into a board-scale civic space: Underworld / Hidden Economy Civic Hall, Black Market Arcade Beacon, Mist Veils Monument, Understreet Vault Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Klinkhollow.",
+      "visualIdentity": "Use Black Market Arcade Beacon as the main read. Keep exact source anchors visible where applicable: Underworld / Hidden Economy Civic Hall, Black Market Arcade Beacon, Mist Veils Monument, Understreet Vault Nook. The district should share Klinkhollow's goblins identity, Iron, Red Brick, Dark Wood, Painted Plaster, and Dry Stone Paving, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Public-facing, with Klinkhollow's larger mood shaped by Goblin Tinker-Vault of Seven Bright Locks, Black Market Arcade Beacon, and Gear Inlays Command Bastion.",
+      "gameplayAssetNeeds": [
+        "Black Market Arcade Beacon",
+        "Underworld / Hidden Economy Civic Hall",
+        "Mist Veils Monument",
+        "Understreet Vault Nook",
+        "Section 1 pedestrian-scale props",
+        "Klinkhollow civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Black Market Arcade Beacon",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "Conjunction response, rumor spread, or authority pressure"
+      ],
+      "landmark": "Black Market Arcade Beacon",
+      "minorLandmarks": [
+        "Underworld / Hidden Economy Civic Hall",
+        "Mist Veils Monument",
+        "Understreet Vault Nook"
+      ]
+    },
+    {
+      "districtNumber": 3,
+      "districtId": "D03",
+      "sectionNumber": 1,
+      "name": "D03 — Mist Veils Monument Monument Frontage",
+      "civicPurpose": "This district turns Section 1's source-backed anchor set into a board-scale civic space: Underworld / Hidden Economy Civic Hall, Black Market Arcade Beacon, Mist Veils Monument, Understreet Vault Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Klinkhollow.",
+      "visualIdentity": "Use Mist Veils Monument as the main read. Keep exact source anchors visible where applicable: Underworld / Hidden Economy Civic Hall, Black Market Arcade Beacon, Mist Veils Monument, Understreet Vault Nook. The district should share Klinkhollow's goblins identity, Iron, Red Brick, Dark Wood, Painted Plaster, and Dry Stone Paving, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Memorial or symbolic, with Klinkhollow's larger mood shaped by Goblin Tinker-Vault of Seven Bright Locks, Black Market Arcade Beacon, and Gear Inlays Command Bastion.",
+      "gameplayAssetNeeds": [
+        "Mist Veils Monument",
+        "Underworld / Hidden Economy Civic Hall",
+        "Black Market Arcade Beacon",
+        "Understreet Vault Nook",
+        "Section 1 pedestrian-scale props",
+        "Klinkhollow civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Mist Veils Monument",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Mist Veils Monument",
+      "minorLandmarks": [
+        "Underworld / Hidden Economy Civic Hall",
+        "Black Market Arcade Beacon",
+        "Understreet Vault Nook"
+      ]
+    },
+    {
+      "districtNumber": 6,
+      "districtId": "D06",
+      "sectionNumber": 1,
+      "name": "D06 — Understreet Vault Nook Neighborhood Nook",
+      "civicPurpose": "This district turns Section 1's source-backed anchor set into a board-scale civic space: Underworld / Hidden Economy Civic Hall, Black Market Arcade Beacon, Mist Veils Monument, Understreet Vault Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Klinkhollow.",
+      "visualIdentity": "Use Understreet Vault Nook as the main read. Keep exact source anchors visible where applicable: Underworld / Hidden Economy Civic Hall, Black Market Arcade Beacon, Mist Veils Monument, Understreet Vault Nook. The district should share Klinkhollow's goblins identity, Iron, Red Brick, Dark Wood, Painted Plaster, and Dry Stone Paving, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Intimate and lived-in, with Klinkhollow's larger mood shaped by Goblin Tinker-Vault of Seven Bright Locks, Black Market Arcade Beacon, and Gear Inlays Command Bastion.",
+      "gameplayAssetNeeds": [
+        "Understreet Vault Nook",
+        "Underworld / Hidden Economy Civic Hall",
+        "Black Market Arcade Beacon",
+        "Mist Veils Monument",
+        "Section 1 pedestrian-scale props",
+        "Klinkhollow civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Understreet Vault Nook",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Understreet Vault Nook",
+      "minorLandmarks": [
+        "Underworld / Hidden Economy Civic Hall",
+        "Black Market Arcade Beacon",
+        "Mist Veils Monument"
+      ]
+    },
+    {
+      "districtNumber": 7,
+      "districtId": "D07",
+      "sectionNumber": 1,
+      "name": "D07 — Underworld / Hidden Economy Civic Hall Supporting Streets",
+      "civicPurpose": "This district turns Section 1's source-backed anchor set into a board-scale civic space: Underworld / Hidden Economy Civic Hall, Black Market Arcade Beacon, Mist Veils Monument, Understreet Vault Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Klinkhollow.",
+      "visualIdentity": "Use Underworld / Hidden Economy Civic Hall as the main read. Keep exact source anchors visible where applicable: Underworld / Hidden Economy Civic Hall, Black Market Arcade Beacon, Mist Veils Monument, Understreet Vault Nook. The district should share Klinkhollow's goblins identity, Iron, Red Brick, Dark Wood, Painted Plaster, and Dry Stone Paving, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Connective and practical, with Klinkhollow's larger mood shaped by Goblin Tinker-Vault of Seven Bright Locks, Black Market Arcade Beacon, and Gear Inlays Command Bastion.",
+      "gameplayAssetNeeds": [
+        "Underworld / Hidden Economy Civic Hall",
+        "Black Market Arcade Beacon",
+        "Mist Veils Monument",
+        "Understreet Vault Nook",
+        "Section 1 pedestrian-scale props",
+        "Klinkhollow civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Underworld / Hidden Economy Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Underworld / Hidden Economy Civic Hall",
+      "minorLandmarks": [
+        "Black Market Arcade Beacon",
+        "Mist Veils Monument",
+        "Understreet Vault Nook"
+      ]
+    },
+    {
+      "districtNumber": 4,
+      "districtId": "D04",
+      "sectionNumber": 2,
+      "name": "D04 — Slums / Informal Settlement Civic Hall Civic-Anchor Precinct",
+      "civicPurpose": "This district turns Section 2's source-backed anchor set into a board-scale civic space: Slums / Informal Settlement Civic Hall, Scrap Market, Slums Informal Settlement Lantern Monument, Patched Tenement Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Klinkhollow.",
+      "visualIdentity": "Use Slums / Informal Settlement Civic Hall as the main read. Keep exact source anchors visible where applicable: Slums / Informal Settlement Civic Hall, Scrap Market, Slums Informal Settlement Lantern Monument, Patched Tenement Nook. The district should share Klinkhollow's goblins identity, Iron, Red Brick, Dark Wood, Painted Plaster, and Dry Stone Paving, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Locally grounded, with Klinkhollow's larger mood shaped by Goblin Tinker-Vault of Seven Bright Locks, Black Market Arcade Beacon, and Gear Inlays Command Bastion.",
+      "gameplayAssetNeeds": [
+        "Slums / Informal Settlement Civic Hall",
+        "Scrap Market",
+        "Slums Informal Settlement Lantern Monument",
+        "Patched Tenement Nook",
+        "Section 2 pedestrian-scale props",
+        "Klinkhollow civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Slums / Informal Settlement Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Slums / Informal Settlement Civic Hall",
+      "minorLandmarks": [
+        "Scrap Market",
+        "Slums Informal Settlement Lantern Monument",
+        "Patched Tenement Nook"
+      ]
+    },
+    {
+      "districtNumber": 5,
+      "districtId": "D05",
+      "sectionNumber": 2,
+      "name": "D05 — Scrap Market Landmark Approach",
+      "civicPurpose": "This district turns Section 2's source-backed anchor set into a board-scale civic space: Slums / Informal Settlement Civic Hall, Scrap Market, Slums Informal Settlement Lantern Monument, Patched Tenement Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Klinkhollow.",
+      "visualIdentity": "Use Scrap Market as the main read. Keep exact source anchors visible where applicable: Slums / Informal Settlement Civic Hall, Scrap Market, Slums Informal Settlement Lantern Monument, Patched Tenement Nook. The district should share Klinkhollow's goblins identity, Iron, Red Brick, Dark Wood, Painted Plaster, and Dry Stone Paving, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Public-facing, with Klinkhollow's larger mood shaped by Goblin Tinker-Vault of Seven Bright Locks, Black Market Arcade Beacon, and Gear Inlays Command Bastion.",
+      "gameplayAssetNeeds": [
+        "Scrap Market",
+        "Slums / Informal Settlement Civic Hall",
+        "Slums Informal Settlement Lantern Monument",
+        "Patched Tenement Nook",
+        "Section 2 pedestrian-scale props",
+        "Klinkhollow civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Scrap Market",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Scrap Market",
+      "minorLandmarks": [
+        "Slums / Informal Settlement Civic Hall",
+        "Slums Informal Settlement Lantern Monument",
+        "Patched Tenement Nook"
+      ]
+    },
+    {
+      "districtNumber": 9,
+      "districtId": "D09",
+      "sectionNumber": 2,
+      "name": "D09 — Slums Informal Settlement Lantern Monument Monument Frontage",
+      "civicPurpose": "This district turns Section 2's source-backed anchor set into a board-scale civic space: Slums / Informal Settlement Civic Hall, Scrap Market, Slums Informal Settlement Lantern Monument, Patched Tenement Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Klinkhollow.",
+      "visualIdentity": "Use Slums Informal Settlement Lantern Monument as the main read. Keep exact source anchors visible where applicable: Slums / Informal Settlement Civic Hall, Scrap Market, Slums Informal Settlement Lantern Monument, Patched Tenement Nook. The district should share Klinkhollow's goblins identity, Iron, Red Brick, Dark Wood, Painted Plaster, and Dry Stone Paving, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Memorial or symbolic, with Klinkhollow's larger mood shaped by Goblin Tinker-Vault of Seven Bright Locks, Black Market Arcade Beacon, and Gear Inlays Command Bastion.",
+      "gameplayAssetNeeds": [
+        "Slums Informal Settlement Lantern Monument",
+        "Slums / Informal Settlement Civic Hall",
+        "Scrap Market",
+        "Patched Tenement Nook",
+        "Section 2 pedestrian-scale props",
+        "Klinkhollow civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Slums Informal Settlement Lantern Monument",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Slums Informal Settlement Lantern Monument",
+      "minorLandmarks": [
+        "Slums / Informal Settlement Civic Hall",
+        "Scrap Market",
+        "Patched Tenement Nook"
+      ]
+    },
+    {
+      "districtNumber": 10,
+      "districtId": "D10",
+      "sectionNumber": 2,
+      "name": "D10 — Patched Tenement Nook Neighborhood Nook",
+      "civicPurpose": "This district turns Section 2's source-backed anchor set into a board-scale civic space: Slums / Informal Settlement Civic Hall, Scrap Market, Slums Informal Settlement Lantern Monument, Patched Tenement Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Klinkhollow.",
+      "visualIdentity": "Use Patched Tenement Nook as the main read. Keep exact source anchors visible where applicable: Slums / Informal Settlement Civic Hall, Scrap Market, Slums Informal Settlement Lantern Monument, Patched Tenement Nook. The district should share Klinkhollow's goblins identity, Iron, Red Brick, Dark Wood, Painted Plaster, and Dry Stone Paving, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Intimate and lived-in, with Klinkhollow's larger mood shaped by Goblin Tinker-Vault of Seven Bright Locks, Black Market Arcade Beacon, and Gear Inlays Command Bastion.",
+      "gameplayAssetNeeds": [
+        "Patched Tenement Nook",
+        "Slums / Informal Settlement Civic Hall",
+        "Scrap Market",
+        "Slums Informal Settlement Lantern Monument",
+        "Section 2 pedestrian-scale props",
+        "Klinkhollow civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Patched Tenement Nook",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Patched Tenement Nook",
+      "minorLandmarks": [
+        "Slums / Informal Settlement Civic Hall",
+        "Scrap Market",
+        "Slums Informal Settlement Lantern Monument"
+      ]
+    },
+    {
+      "districtNumber": 15,
+      "districtId": "D15",
+      "sectionNumber": 2,
+      "name": "D15 — Slums / Informal Settlement Civic Hall Supporting Streets",
+      "civicPurpose": "This district turns Section 2's source-backed anchor set into a board-scale civic space: Slums / Informal Settlement Civic Hall, Scrap Market, Slums Informal Settlement Lantern Monument, Patched Tenement Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Klinkhollow.",
+      "visualIdentity": "Use Slums / Informal Settlement Civic Hall as the main read. Keep exact source anchors visible where applicable: Slums / Informal Settlement Civic Hall, Scrap Market, Slums Informal Settlement Lantern Monument, Patched Tenement Nook. The district should share Klinkhollow's goblins identity, Iron, Red Brick, Dark Wood, Painted Plaster, and Dry Stone Paving, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Connective and practical, with Klinkhollow's larger mood shaped by Goblin Tinker-Vault of Seven Bright Locks, Black Market Arcade Beacon, and Gear Inlays Command Bastion.",
+      "gameplayAssetNeeds": [
+        "Slums / Informal Settlement Civic Hall",
+        "Scrap Market",
+        "Slums Informal Settlement Lantern Monument",
+        "Patched Tenement Nook",
+        "Section 2 pedestrian-scale props",
+        "Klinkhollow civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Slums / Informal Settlement Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Slums / Informal Settlement Civic Hall",
+      "minorLandmarks": [
+        "Scrap Market",
+        "Slums Informal Settlement Lantern Monument",
+        "Patched Tenement Nook"
+      ]
+    },
+    {
+      "districtNumber": 8,
+      "districtId": "D08",
+      "sectionNumber": 3,
+      "name": "D08 — Security / Intelligence Hall Civic-Anchor Precinct",
+      "civicPurpose": "This district turns Section 3's source-backed anchor set into a board-scale civic space: Security / Intelligence Hall, Cipher Hall, Mist Veils Monument, Dossier Vault Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Klinkhollow.",
+      "visualIdentity": "Use Security / Intelligence Hall as the main read. Keep exact source anchors visible where applicable: Security / Intelligence Hall, Cipher Hall, Mist Veils Monument, Dossier Vault Nook. The district should share Klinkhollow's goblins identity, Iron, Red Brick, Dark Wood, Painted Plaster, and Dry Stone Paving, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Locally grounded, with Klinkhollow's larger mood shaped by Goblin Tinker-Vault of Seven Bright Locks, Black Market Arcade Beacon, and Gear Inlays Command Bastion.",
+      "gameplayAssetNeeds": [
+        "Security / Intelligence Hall",
+        "Cipher Hall",
+        "Mist Veils Monument",
+        "Dossier Vault Nook",
+        "Section 3 pedestrian-scale props",
+        "Klinkhollow civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Security / Intelligence Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Security / Intelligence Hall",
+      "minorLandmarks": [
+        "Cipher Hall",
+        "Mist Veils Monument",
+        "Dossier Vault Nook"
+      ]
+    },
+    {
+      "districtNumber": 12,
+      "districtId": "D12",
+      "sectionNumber": 3,
+      "name": "D12 — Cipher Hall Landmark Approach",
+      "civicPurpose": "This district turns Section 3's source-backed anchor set into a board-scale civic space: Security / Intelligence Hall, Cipher Hall, Mist Veils Monument, Dossier Vault Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Klinkhollow.",
+      "visualIdentity": "Use Cipher Hall as the main read. Keep exact source anchors visible where applicable: Security / Intelligence Hall, Cipher Hall, Mist Veils Monument, Dossier Vault Nook. The district should share Klinkhollow's goblins identity, Iron, Red Brick, Dark Wood, Painted Plaster, and Dry Stone Paving, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Public-facing, with Klinkhollow's larger mood shaped by Goblin Tinker-Vault of Seven Bright Locks, Black Market Arcade Beacon, and Gear Inlays Command Bastion.",
+      "gameplayAssetNeeds": [
+        "Cipher Hall",
+        "Security / Intelligence Hall",
+        "Mist Veils Monument",
+        "Dossier Vault Nook",
+        "Section 3 pedestrian-scale props",
+        "Klinkhollow civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Cipher Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Cipher Hall",
+      "minorLandmarks": [
+        "Security / Intelligence Hall",
+        "Mist Veils Monument",
+        "Dossier Vault Nook"
+      ]
+    },
+    {
+      "districtNumber": 13,
+      "districtId": "D13",
+      "sectionNumber": 3,
+      "name": "D13 — Gear Inlays Command Bastion Seat of Power District",
+      "civicPurpose": "This district turns Section 3's source-backed anchor set into a board-scale civic space: Security / Intelligence Hall, Cipher Hall, Mist Veils Monument, Dossier Vault Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Klinkhollow.",
+      "visualIdentity": "Use Gear Inlays Command Bastion as the main read. Keep exact source anchors visible where applicable: Security / Intelligence Hall, Cipher Hall, Mist Veils Monument, Dossier Vault Nook. The district should share Klinkhollow's goblins identity, Iron, Red Brick, Dark Wood, Painted Plaster, and Dry Stone Paving, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Memorial or symbolic, with Klinkhollow's larger mood shaped by Goblin Tinker-Vault of Seven Bright Locks, Black Market Arcade Beacon, and Gear Inlays Command Bastion.",
+      "gameplayAssetNeeds": [
+        "Gear Inlays Command Bastion",
+        "Security / Intelligence Hall",
+        "Cipher Hall",
+        "Mist Veils Monument",
+        "Dossier Vault Nook",
+        "Section 3 pedestrian-scale props",
+        "Klinkhollow civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Gear Inlays Command Bastion",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "Conjunction response, rumor spread, or authority pressure"
+      ],
+      "landmark": "Gear Inlays Command Bastion",
+      "minorLandmarks": [
+        "Security / Intelligence Hall",
+        "Cipher Hall",
+        "Mist Veils Monument",
+        "Dossier Vault Nook"
+      ]
+    },
+    {
+      "districtNumber": 14,
+      "districtId": "D14",
+      "sectionNumber": 3,
+      "name": "D14 — Dossier Vault Nook Neighborhood Nook",
+      "civicPurpose": "This district turns Section 3's source-backed anchor set into a board-scale civic space: Security / Intelligence Hall, Cipher Hall, Mist Veils Monument, Dossier Vault Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Klinkhollow.",
+      "visualIdentity": "Use Dossier Vault Nook as the main read. Keep exact source anchors visible where applicable: Security / Intelligence Hall, Cipher Hall, Mist Veils Monument, Dossier Vault Nook. The district should share Klinkhollow's goblins identity, Iron, Red Brick, Dark Wood, Painted Plaster, and Dry Stone Paving, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Intimate and lived-in, with Klinkhollow's larger mood shaped by Goblin Tinker-Vault of Seven Bright Locks, Black Market Arcade Beacon, and Gear Inlays Command Bastion.",
+      "gameplayAssetNeeds": [
+        "Dossier Vault Nook",
+        "Security / Intelligence Hall",
+        "Cipher Hall",
+        "Mist Veils Monument",
+        "Section 3 pedestrian-scale props",
+        "Klinkhollow civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Dossier Vault Nook",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Dossier Vault Nook",
+      "minorLandmarks": [
+        "Security / Intelligence Hall",
+        "Cipher Hall",
+        "Mist Veils Monument"
+      ]
+    },
+    {
+      "districtNumber": 18,
+      "districtId": "D18",
+      "sectionNumber": 3,
+      "name": "D18 — Security / Intelligence Hall Supporting Streets",
+      "civicPurpose": "This district turns Section 3's source-backed anchor set into a board-scale civic space: Security / Intelligence Hall, Cipher Hall, Mist Veils Monument, Dossier Vault Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Klinkhollow.",
+      "visualIdentity": "Use Security / Intelligence Hall as the main read. Keep exact source anchors visible where applicable: Security / Intelligence Hall, Cipher Hall, Mist Veils Monument, Dossier Vault Nook. The district should share Klinkhollow's goblins identity, Iron, Red Brick, Dark Wood, Painted Plaster, and Dry Stone Paving, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Connective and practical, with Klinkhollow's larger mood shaped by Goblin Tinker-Vault of Seven Bright Locks, Black Market Arcade Beacon, and Gear Inlays Command Bastion.",
+      "gameplayAssetNeeds": [
+        "Security / Intelligence Hall",
+        "Cipher Hall",
+        "Mist Veils Monument",
+        "Dossier Vault Nook",
+        "Section 3 pedestrian-scale props",
+        "Klinkhollow civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Security / Intelligence Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Security / Intelligence Hall",
+      "minorLandmarks": [
+        "Cipher Hall",
+        "Mist Veils Monument",
+        "Dossier Vault Nook"
+      ]
+    },
+    {
+      "districtNumber": 11,
+      "districtId": "D11",
+      "sectionNumber": 4,
+      "name": "D11 — Low Residential Civic Hall Civic-Anchor Precinct",
+      "civicPurpose": "This district turns Section 4's source-backed anchor set into a board-scale civic space: Low Residential Civic Hall, Tenement Court, Low Residential Lantern Monument, Laundry Well Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Klinkhollow.",
+      "visualIdentity": "Use Low Residential Civic Hall as the main read. Keep exact source anchors visible where applicable: Low Residential Civic Hall, Tenement Court, Low Residential Lantern Monument, Laundry Well Nook. The district should share Klinkhollow's goblins identity, Iron, Red Brick, Dark Wood, Painted Plaster, and Dry Stone Paving, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Locally grounded, with Klinkhollow's larger mood shaped by Goblin Tinker-Vault of Seven Bright Locks, Black Market Arcade Beacon, and Gear Inlays Command Bastion.",
+      "gameplayAssetNeeds": [
+        "Low Residential Civic Hall",
+        "Tenement Court",
+        "Low Residential Lantern Monument",
+        "Laundry Well Nook",
+        "Section 4 pedestrian-scale props",
+        "Klinkhollow civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Low Residential Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Low Residential Civic Hall",
+      "minorLandmarks": [
+        "Tenement Court",
+        "Low Residential Lantern Monument",
+        "Laundry Well Nook"
+      ]
+    },
+    {
+      "districtNumber": 16,
+      "districtId": "D16",
+      "sectionNumber": 4,
+      "name": "D16 — Tenement Court Landmark Approach",
+      "civicPurpose": "This district turns Section 4's source-backed anchor set into a board-scale civic space: Low Residential Civic Hall, Tenement Court, Low Residential Lantern Monument, Laundry Well Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Klinkhollow.",
+      "visualIdentity": "Use Tenement Court as the main read. Keep exact source anchors visible where applicable: Low Residential Civic Hall, Tenement Court, Low Residential Lantern Monument, Laundry Well Nook. The district should share Klinkhollow's goblins identity, Iron, Red Brick, Dark Wood, Painted Plaster, and Dry Stone Paving, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Public-facing, with Klinkhollow's larger mood shaped by Goblin Tinker-Vault of Seven Bright Locks, Black Market Arcade Beacon, and Gear Inlays Command Bastion.",
+      "gameplayAssetNeeds": [
+        "Tenement Court",
+        "Low Residential Civic Hall",
+        "Low Residential Lantern Monument",
+        "Laundry Well Nook",
+        "Section 4 pedestrian-scale props",
+        "Klinkhollow civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Tenement Court",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Tenement Court",
+      "minorLandmarks": [
+        "Low Residential Civic Hall",
+        "Low Residential Lantern Monument",
+        "Laundry Well Nook"
+      ]
+    },
+    {
+      "districtNumber": 17,
+      "districtId": "D17",
+      "sectionNumber": 4,
+      "name": "D17 — Low Residential Lantern Monument Monument Frontage",
+      "civicPurpose": "This district turns Section 4's source-backed anchor set into a board-scale civic space: Low Residential Civic Hall, Tenement Court, Low Residential Lantern Monument, Laundry Well Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Klinkhollow.",
+      "visualIdentity": "Use Low Residential Lantern Monument as the main read. Keep exact source anchors visible where applicable: Low Residential Civic Hall, Tenement Court, Low Residential Lantern Monument, Laundry Well Nook. The district should share Klinkhollow's goblins identity, Iron, Red Brick, Dark Wood, Painted Plaster, and Dry Stone Paving, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Memorial or symbolic, with Klinkhollow's larger mood shaped by Goblin Tinker-Vault of Seven Bright Locks, Black Market Arcade Beacon, and Gear Inlays Command Bastion.",
+      "gameplayAssetNeeds": [
+        "Low Residential Lantern Monument",
+        "Low Residential Civic Hall",
+        "Tenement Court",
+        "Laundry Well Nook",
+        "Section 4 pedestrian-scale props",
+        "Klinkhollow civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Low Residential Lantern Monument",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Low Residential Lantern Monument",
+      "minorLandmarks": [
+        "Low Residential Civic Hall",
+        "Tenement Court",
+        "Laundry Well Nook"
+      ]
+    },
+    {
+      "districtNumber": 21,
+      "districtId": "D21",
+      "sectionNumber": 4,
+      "name": "D21 — Laundry Well Nook Neighborhood Nook",
+      "civicPurpose": "This district turns Section 4's source-backed anchor set into a board-scale civic space: Low Residential Civic Hall, Tenement Court, Low Residential Lantern Monument, Laundry Well Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Klinkhollow.",
+      "visualIdentity": "Use Laundry Well Nook as the main read. Keep exact source anchors visible where applicable: Low Residential Civic Hall, Tenement Court, Low Residential Lantern Monument, Laundry Well Nook. The district should share Klinkhollow's goblins identity, Iron, Red Brick, Dark Wood, Painted Plaster, and Dry Stone Paving, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Intimate and lived-in, with Klinkhollow's larger mood shaped by Goblin Tinker-Vault of Seven Bright Locks, Black Market Arcade Beacon, and Gear Inlays Command Bastion.",
+      "gameplayAssetNeeds": [
+        "Laundry Well Nook",
+        "Low Residential Civic Hall",
+        "Tenement Court",
+        "Low Residential Lantern Monument",
+        "Section 4 pedestrian-scale props",
+        "Klinkhollow civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Laundry Well Nook",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Laundry Well Nook",
+      "minorLandmarks": [
+        "Low Residential Civic Hall",
+        "Tenement Court",
+        "Low Residential Lantern Monument"
+      ]
+    },
+    {
+      "districtNumber": 22,
+      "districtId": "D22",
+      "sectionNumber": 4,
+      "name": "D22 — Low Residential Civic Hall Supporting Streets",
+      "civicPurpose": "This district turns Section 4's source-backed anchor set into a board-scale civic space: Low Residential Civic Hall, Tenement Court, Low Residential Lantern Monument, Laundry Well Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Klinkhollow.",
+      "visualIdentity": "Use Low Residential Civic Hall as the main read. Keep exact source anchors visible where applicable: Low Residential Civic Hall, Tenement Court, Low Residential Lantern Monument, Laundry Well Nook. The district should share Klinkhollow's goblins identity, Iron, Red Brick, Dark Wood, Painted Plaster, and Dry Stone Paving, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Connective and practical, with Klinkhollow's larger mood shaped by Goblin Tinker-Vault of Seven Bright Locks, Black Market Arcade Beacon, and Gear Inlays Command Bastion.",
+      "gameplayAssetNeeds": [
+        "Low Residential Civic Hall",
+        "Tenement Court",
+        "Low Residential Lantern Monument",
+        "Laundry Well Nook",
+        "Section 4 pedestrian-scale props",
+        "Klinkhollow civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Low Residential Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Low Residential Civic Hall",
+      "minorLandmarks": [
+        "Tenement Court",
+        "Low Residential Lantern Monument",
+        "Laundry Well Nook"
+      ]
+    },
+    {
+      "districtNumber": 19,
+      "districtId": "D19",
+      "sectionNumber": 5,
+      "name": "D19 — Prison / Containment Civic Hall Civic-Anchor Precinct",
+      "civicPurpose": "This district turns Section 5's source-backed anchor set into a board-scale civic space: Prison / Containment Civic Hall, Containment Keep, Mist Veils Monument, Judgment Yard Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Klinkhollow.",
+      "visualIdentity": "Use Prison / Containment Civic Hall as the main read. Keep exact source anchors visible where applicable: Prison / Containment Civic Hall, Containment Keep, Mist Veils Monument, Judgment Yard Nook. The district should share Klinkhollow's goblins identity, Iron, Red Brick, Dark Wood, Painted Plaster, and Dry Stone Paving, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Locally grounded, with Klinkhollow's larger mood shaped by Goblin Tinker-Vault of Seven Bright Locks, Black Market Arcade Beacon, and Gear Inlays Command Bastion.",
+      "gameplayAssetNeeds": [
+        "Prison / Containment Civic Hall",
+        "Containment Keep",
+        "Mist Veils Monument",
+        "Judgment Yard Nook",
+        "Section 5 pedestrian-scale props",
+        "Klinkhollow civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Prison / Containment Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Prison / Containment Civic Hall",
+      "minorLandmarks": [
+        "Containment Keep",
+        "Mist Veils Monument",
+        "Judgment Yard Nook"
+      ]
+    },
+    {
+      "districtNumber": 20,
+      "districtId": "D20",
+      "sectionNumber": 5,
+      "name": "D20 — Containment Keep Landmark Approach",
+      "civicPurpose": "This district turns Section 5's source-backed anchor set into a board-scale civic space: Prison / Containment Civic Hall, Containment Keep, Mist Veils Monument, Judgment Yard Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Klinkhollow.",
+      "visualIdentity": "Use Containment Keep as the main read. Keep exact source anchors visible where applicable: Prison / Containment Civic Hall, Containment Keep, Mist Veils Monument, Judgment Yard Nook. The district should share Klinkhollow's goblins identity, Iron, Red Brick, Dark Wood, Painted Plaster, and Dry Stone Paving, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Public-facing, with Klinkhollow's larger mood shaped by Goblin Tinker-Vault of Seven Bright Locks, Black Market Arcade Beacon, and Gear Inlays Command Bastion.",
+      "gameplayAssetNeeds": [
+        "Containment Keep",
+        "Prison / Containment Civic Hall",
+        "Mist Veils Monument",
+        "Judgment Yard Nook",
+        "Section 5 pedestrian-scale props",
+        "Klinkhollow civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Containment Keep",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Containment Keep",
+      "minorLandmarks": [
+        "Prison / Containment Civic Hall",
+        "Mist Veils Monument",
+        "Judgment Yard Nook"
+      ]
+    },
+    {
+      "districtNumber": 23,
+      "districtId": "D23",
+      "sectionNumber": 5,
+      "name": "D23 — Mist Veils Monument Monument Frontage",
+      "civicPurpose": "This district turns Section 5's source-backed anchor set into a board-scale civic space: Prison / Containment Civic Hall, Containment Keep, Mist Veils Monument, Judgment Yard Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Klinkhollow.",
+      "visualIdentity": "Use Mist Veils Monument as the main read. Keep exact source anchors visible where applicable: Prison / Containment Civic Hall, Containment Keep, Mist Veils Monument, Judgment Yard Nook. The district should share Klinkhollow's goblins identity, Iron, Red Brick, Dark Wood, Painted Plaster, and Dry Stone Paving, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Memorial or symbolic, with Klinkhollow's larger mood shaped by Goblin Tinker-Vault of Seven Bright Locks, Black Market Arcade Beacon, and Gear Inlays Command Bastion.",
+      "gameplayAssetNeeds": [
+        "Mist Veils Monument",
+        "Prison / Containment Civic Hall",
+        "Containment Keep",
+        "Judgment Yard Nook",
+        "Section 5 pedestrian-scale props",
+        "Klinkhollow civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Mist Veils Monument",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Mist Veils Monument",
+      "minorLandmarks": [
+        "Prison / Containment Civic Hall",
+        "Containment Keep",
+        "Judgment Yard Nook"
+      ]
+    },
+    {
+      "districtNumber": 24,
+      "districtId": "D24",
+      "sectionNumber": 5,
+      "name": "D24 — Judgment Yard Nook Neighborhood Nook",
+      "civicPurpose": "This district turns Section 5's source-backed anchor set into a board-scale civic space: Prison / Containment Civic Hall, Containment Keep, Mist Veils Monument, Judgment Yard Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Klinkhollow.",
+      "visualIdentity": "Use Judgment Yard Nook as the main read. Keep exact source anchors visible where applicable: Prison / Containment Civic Hall, Containment Keep, Mist Veils Monument, Judgment Yard Nook. The district should share Klinkhollow's goblins identity, Iron, Red Brick, Dark Wood, Painted Plaster, and Dry Stone Paving, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Intimate and lived-in, with Klinkhollow's larger mood shaped by Goblin Tinker-Vault of Seven Bright Locks, Black Market Arcade Beacon, and Gear Inlays Command Bastion.",
+      "gameplayAssetNeeds": [
+        "Judgment Yard Nook",
+        "Prison / Containment Civic Hall",
+        "Containment Keep",
+        "Mist Veils Monument",
+        "Section 5 pedestrian-scale props",
+        "Klinkhollow civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Judgment Yard Nook",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Judgment Yard Nook",
+      "minorLandmarks": [
+        "Prison / Containment Civic Hall",
+        "Containment Keep",
+        "Mist Veils Monument"
+      ]
+    },
+    {
+      "districtNumber": 25,
+      "districtId": "D25",
+      "sectionNumber": 5,
+      "name": "D25 — Prison / Containment Civic Hall Supporting Streets",
+      "civicPurpose": "This district turns Section 5's source-backed anchor set into a board-scale civic space: Prison / Containment Civic Hall, Containment Keep, Mist Veils Monument, Judgment Yard Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Klinkhollow.",
+      "visualIdentity": "Use Prison / Containment Civic Hall as the main read. Keep exact source anchors visible where applicable: Prison / Containment Civic Hall, Containment Keep, Mist Veils Monument, Judgment Yard Nook. The district should share Klinkhollow's goblins identity, Iron, Red Brick, Dark Wood, Painted Plaster, and Dry Stone Paving, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Connective and practical, with Klinkhollow's larger mood shaped by Goblin Tinker-Vault of Seven Bright Locks, Black Market Arcade Beacon, and Gear Inlays Command Bastion.",
+      "gameplayAssetNeeds": [
+        "Prison / Containment Civic Hall",
+        "Containment Keep",
+        "Mist Veils Monument",
+        "Judgment Yard Nook",
+        "Section 5 pedestrian-scale props",
+        "Klinkhollow civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Prison / Containment Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Prison / Containment Civic Hall",
+      "minorLandmarks": [
+        "Containment Keep",
+        "Mist Veils Monument",
+        "Judgment Yard Nook"
+      ]
+    }
+  ],
+  "landmarks": {
+    "wonder": {
+      "name": "Goblin Tinker-Vault of Seven Bright Locks",
+      "symbolicRole": "Goblin Tinker-Vault of Seven Bright Locks concentrates Klinkhollow's local symbolism into a usable civic landmark: city wonder, separate far skyline anchor.",
+      "visualRole": "A one-per-city wonder: spectacular, unmistakable, and larger than every section landmark. It turns Klinkhollow's geography, race identity, material culture, and civic magic into one public symbol. Built for Klinkhollow's goblins population, it uses Iron, Red Brick, Dark Wood, Painted Plaster, Arcane Glow across Dry Stone Paving, Civic Terraces; water context: dry city ground; magic expression: Ward Networks, Ritual Geometry, Mechanical Animus. It must read clearly as a high-fantasy tactical-board asset with no baked labels or text.",
+      "civicRole": "Serves as city wonder, separate far skyline anchor within Klinkhollow; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+      "narrativeUse": [
+        "stage scenes involving Goblin Tinker-Vault of Seven Bright Locks",
+        "show how Klinkhollow turns landmark symbolism into civic pressure",
+        "anchor public movement and crowd behavior",
+        "give writers a concrete place for announcements, disputes, errands, or rituals"
+      ],
+      "assetUse": [
+        "city landmark asset",
+        "map background landmark marker",
+        "visual continuity anchor across hero and street scenes",
+        "scale reference for civilians, roads, plazas, and props"
+      ],
+      "sensoryIdentity": [
+        "local foot traffic",
+        "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+        "public voices and civic work nearby",
+        "ambient city light and weathering",
+        "close pedestrian-scale details rather than abstract skyline-only treatment"
+      ],
+      "storyHooks": [
+        "a routine civic action at Goblin Tinker-Vault of Seven Bright Locks becomes narratively important",
+        "the visible condition of Goblin Tinker-Vault of Seven Bright Locks signals political or social stress",
+        "someone uses Goblin Tinker-Vault of Seven Bright Locks's public function to redirect crowds or information",
+        "an overlooked detail at Goblin Tinker-Vault of Seven Bright Locks reveals how Klinkhollow really works"
+      ]
+    },
+    "beacon": {
+      "name": "Black Market Arcade Beacon",
+      "symbolicRole": "Black Market Arcade Beacon concentrates Klinkhollow's local symbolism into a usable civic landmark: Section 1 beacon, near/front civic signal anchor.",
+      "visualRole": "A largest local landmark in this section, subordinate only to the city wonder and citadel. It belongs to Section 1 (Underworld / Hidden Economy) of Klinkhollow and should use Subterranean Vaults, Market Arcades, Gothic Spires, iron and painted plaster materials, Lantern Lit, Serpent Geometry, Mist Veils, and the goblins visual language. Design focus: visible from nearby districts, masks, yellow lamps, coded marks, trapdoors. Terrain/water context: Dry Stone Paving; Dry Ground. Magic expression: Threshold Oaths, Road Warding, Mask Enchantments. No baked labels or text.",
+      "civicRole": "Serves as Section 1 beacon, near/front civic signal anchor within Klinkhollow; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+      "narrativeUse": [
+        "stage scenes involving Black Market Arcade Beacon",
+        "show how Klinkhollow turns landmark symbolism into civic pressure",
+        "anchor public movement and crowd behavior",
+        "give writers a concrete place for announcements, disputes, errands, or rituals"
+      ],
+      "assetUse": [
+        "district diorama anchor for Section 1",
+        "map background landmark marker",
+        "visual continuity anchor across hero and street scenes",
+        "scale reference for civilians, roads, plazas, and props"
+      ],
+      "sensoryIdentity": [
+        "local foot traffic",
+        "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+        "public voices and civic work nearby",
+        "beacon or lamp glow when applicable",
+        "close pedestrian-scale details rather than abstract skyline-only treatment"
+      ],
+      "storyHooks": [
+        "a routine civic action at Black Market Arcade Beacon becomes narratively important",
+        "the visible condition of Black Market Arcade Beacon signals political or social stress",
+        "someone uses Black Market Arcade Beacon's public function to redirect crowds or information",
+        "an overlooked detail at Black Market Arcade Beacon reveals how Klinkhollow really works"
+      ]
+    },
+    "seatOfPower": {
+      "name": "Gear Inlays Command Bastion",
+      "symbolicRole": "Gear Inlays Command Bastion concentrates Klinkhollow's local symbolism into a usable civic landmark: dominant central civic anchor / District 13 seat of power.",
+      "visualRole": "The district-13 seat of power: courts, audience terraces, sealed archives, command platforms, and the visible apparatus of government. It is not a faction HQ; it is the city's central civic authority. Built for Klinkhollow's goblins population, it uses Iron, Red Brick, Dark Wood, Painted Plaster, Arcane Glow across Dry Stone Paving, Civic Terraces; water context: dry city ground; magic expression: Ward Networks, Ritual Geometry, Mechanical Animus. It must read clearly as a high-fantasy tactical-board asset with no baked labels or text.",
+      "civicRole": "Serves as dominant central civic anchor / District 13 seat of power within Klinkhollow; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+      "narrativeUse": [
+        "stage scenes involving Gear Inlays Command Bastion",
+        "show how Klinkhollow turns landmark symbolism into civic pressure",
+        "anchor public movement and crowd behavior",
+        "give writers a concrete place for announcements, disputes, errands, or rituals"
+      ],
+      "assetUse": [
+        "city landmark asset",
+        "map background landmark marker",
+        "visual continuity anchor across hero and street scenes",
+        "scale reference for civilians, roads, plazas, and props"
+      ],
+      "sensoryIdentity": [
+        "local foot traffic",
+        "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+        "public voices and civic work nearby",
+        "ambient city light and weathering",
+        "close pedestrian-scale details rather than abstract skyline-only treatment"
+      ],
+      "storyHooks": [
+        "a routine civic action at Gear Inlays Command Bastion becomes narratively important",
+        "the visible condition of Gear Inlays Command Bastion signals political or social stress",
+        "someone uses Gear Inlays Command Bastion's public function to redirect crowds or information",
+        "an overlooked detail at Gear Inlays Command Bastion reveals how Klinkhollow really works"
+      ]
+    },
+    "majorLandmarks": [
+      {
+        "name": "Containment Keep",
+        "symbolicRole": "Containment Keep concentrates Klinkhollow's local symbolism into a usable civic landmark: additional major landmark selected for this hero-view camera angle.",
+        "visualRole": "A largest local landmark in this section, subordinate only to the city wonder and citadel. It belongs to Section 5 (Prison / Containment) of Klinkhollow and should use Subterranean Vaults, Cyclopean Megaliths, Obsidian Fortresses, iron and painted plaster materials, Civic Blue Glow, Mist Veils, Bone White Ceremony, and the goblins visual language. Design focus: ward sigils, cell blocks, warded yards, watchhouses, cell rows. Terrain/water context: Dry Stone Paving; Dry Ground. Magic expression: Threshold Oaths, Road Warding, Mask Enchantments. No baked labels or text.",
+        "civicRole": "Serves as additional major landmark selected for this hero-view camera angle within Klinkhollow; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Containment Keep",
+          "show how Klinkhollow turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 5",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Containment Keep becomes narratively important",
+          "the visible condition of Containment Keep signals political or social stress",
+          "someone uses Containment Keep's public function to redirect crowds or information",
+          "an overlooked detail at Containment Keep reveals how Klinkhollow really works"
+        ]
+      },
+      {
+        "name": "Scrap Market",
+        "symbolicRole": "Scrap Market concentrates Klinkhollow's local symbolism into a usable civic landmark: additional major landmark selected for this hero-view camera angle.",
+        "visualRole": "A largest local landmark in this section, subordinate only to the city wonder and citadel. It belongs to Section 2 (Slums / Informal Settlement) of Klinkhollow and should use Market Arcades, Timber Longhouses, Reed Pavilions, iron and painted plaster materials, Woven Banners, Lantern Lit, Red Fabric Awnings, and the goblins visual language. Design focus: shared fires, shanties, salvage roofs, patched bridges. Terrain/water context: Dry Stone Paving; Dry Ground. Magic expression: Threshold Oaths, Road Warding, Mask Enchantments. No baked labels or text.",
+        "civicRole": "Serves as additional major landmark selected for this hero-view camera angle within Klinkhollow; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Scrap Market",
+          "show how Klinkhollow turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 2",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Scrap Market becomes narratively important",
+          "the visible condition of Scrap Market signals political or social stress",
+          "someone uses Scrap Market's public function to redirect crowds or information",
+          "an overlooked detail at Scrap Market reveals how Klinkhollow really works"
+        ]
+      },
+      {
+        "name": "Tenement Court",
+        "symbolicRole": "Tenement Court concentrates Klinkhollow's local symbolism into a usable civic landmark: additional major landmark selected for this hero-view camera angle.",
+        "visualRole": "A largest local landmark in this section, subordinate only to the city wonder and citadel. It belongs to Section 4 (Low Residential) of Klinkhollow and should use Timber Longhouses, Market Arcades, White Limestone Civic Blocks, iron and painted plaster materials, Woven Banners, Lantern Lit, Red Fabric Awnings, and the goblins visual language. Design focus: shared courtyards, communal wells, largest section focal point, strong vertical silhouette, distinct gameplay landmark. Terrain/water context: Dry Stone Paving; Dry Ground. Magic expression: Threshold Oaths, Road Warding, Mask Enchantments. No baked labels or text.",
+        "civicRole": "Serves as additional major landmark selected for this hero-view camera angle within Klinkhollow; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Tenement Court",
+          "show how Klinkhollow turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 4",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Tenement Court becomes narratively important",
+          "the visible condition of Tenement Court signals political or social stress",
+          "someone uses Tenement Court's public function to redirect crowds or information",
+          "an overlooked detail at Tenement Court reveals how Klinkhollow really works"
+        ]
+      },
+      {
+        "name": "Underworld / Hidden Economy Civic Hall",
+        "symbolicRole": "Underworld / Hidden Economy Civic Hall concentrates Klinkhollow's local symbolism into a usable civic landmark: Section 1 local anchor.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing. It belongs to Section 1 (Underworld / Hidden Economy) of Klinkhollow and should use Market Arcades, Gothic Spires, Subterranean Vaults, iron and painted plaster materials, Mist Veils, Lantern Lit, Serpent Geometry, and the goblins visual language. Design focus: secret doors, institutional anchor, public-facing administration, clear central silhouette, board-readable entrance. Terrain/water context: Dry Stone Paving; Dry Ground. Magic expression: Threshold Oaths, Road Warding, Mask Enchantments. No baked labels or text.",
+        "civicRole": "Serves as Section 1 local anchor within Klinkhollow; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Underworld / Hidden Economy Civic Hall",
+          "show how Klinkhollow turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 1",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Underworld / Hidden Economy Civic Hall becomes narratively important",
+          "the visible condition of Underworld / Hidden Economy Civic Hall signals political or social stress",
+          "someone uses Underworld / Hidden Economy Civic Hall's public function to redirect crowds or information",
+          "an overlooked detail at Underworld / Hidden Economy Civic Hall reveals how Klinkhollow really works"
+        ]
+      },
+      {
+        "name": "Mist Veils Monument",
+        "symbolicRole": "Mist Veils Monument concentrates Klinkhollow's local symbolism into a usable civic landmark: Section 1 local anchor.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles. It belongs to Section 1 (Underworld / Hidden Economy) of Klinkhollow and should use Gothic Spires, Subterranean Vaults, Market Arcades, iron and painted plaster materials, Serpent Geometry, Mist Veils, Lantern Lit, and the goblins visual language. Design focus: subordinate to major landmark, masks, yellow lamps, coded marks, trapdoors. Terrain/water context: Dry Stone Paving; Dry Ground. Magic expression: Threshold Oaths, Road Warding, Mask Enchantments. No baked labels or text.",
+        "civicRole": "Serves as Section 1 local anchor within Klinkhollow; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Mist Veils Monument",
+          "show how Klinkhollow turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 1",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Mist Veils Monument becomes narratively important",
+          "the visible condition of Mist Veils Monument signals political or social stress",
+          "someone uses Mist Veils Monument's public function to redirect crowds or information",
+          "an overlooked detail at Mist Veils Monument reveals how Klinkhollow really works"
+        ]
+      },
+      {
+        "name": "Understreet Vault Nook",
+        "symbolicRole": "Understreet Vault Nook concentrates Klinkhollow's local symbolism into a usable civic landmark: Section 1 local anchor.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette. It belongs to Section 1 (Underworld / Hidden Economy) of Klinkhollow and should use Market Arcades, Gothic Spires, Subterranean Vaults, iron and painted plaster materials, Serpent Geometry, Mist Veils, Lantern Lit, and the goblins visual language. Design focus: hidden markets, backroom taverns, trapdoor lanes, secret doors, small local identity prop. Terrain/water context: Dry Stone Paving; Dry Ground. Magic expression: Threshold Oaths, Road Warding, Mask Enchantments. No baked labels or text.",
+        "civicRole": "Serves as Section 1 local anchor within Klinkhollow; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Understreet Vault Nook",
+          "show how Klinkhollow turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 1",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Understreet Vault Nook becomes narratively important",
+          "the visible condition of Understreet Vault Nook signals political or social stress",
+          "someone uses Understreet Vault Nook's public function to redirect crowds or information",
+          "an overlooked detail at Understreet Vault Nook reveals how Klinkhollow really works"
+        ]
+      },
+      {
+        "name": "Slums / Informal Settlement Civic Hall",
+        "symbolicRole": "Slums / Informal Settlement Civic Hall concentrates Klinkhollow's local symbolism into a usable civic landmark: Section 2 local anchor.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing. It belongs to Section 2 (Slums / Informal Settlement) of Klinkhollow and should use Market Arcades, Timber Longhouses, Reed Pavilions, iron and painted plaster materials, Red Fabric Awnings, Woven Banners, Lantern Lit, and the goblins visual language. Design focus: tarps, shared fires, shanties, salvage roofs, patched bridges. Terrain/water context: Dry Stone Paving; Dry Ground. Magic expression: Threshold Oaths, Road Warding, Mask Enchantments. No baked labels or text.",
+        "civicRole": "Serves as Section 2 local anchor within Klinkhollow; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Slums / Informal Settlement Civic Hall",
+          "show how Klinkhollow turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 2",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Slums / Informal Settlement Civic Hall becomes narratively important",
+          "the visible condition of Slums / Informal Settlement Civic Hall signals political or social stress",
+          "someone uses Slums / Informal Settlement Civic Hall's public function to redirect crowds or information",
+          "an overlooked detail at Slums / Informal Settlement Civic Hall reveals how Klinkhollow really works"
+        ]
+      },
+      {
+        "name": "Slums Informal Settlement Lantern Monument",
+        "symbolicRole": "Slums Informal Settlement Lantern Monument concentrates Klinkhollow's local symbolism into a usable civic landmark: Section 2 local anchor.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles. It belongs to Section 2 (Slums / Informal Settlement) of Klinkhollow and should use Market Arcades, Timber Longhouses, Reed Pavilions, iron and painted plaster materials, Red Fabric Awnings, Woven Banners, Lantern Lit, and the goblins visual language. Design focus: local memory marker, subordinate to major landmark, patches, scrap lanterns, tarps. Terrain/water context: Dry Stone Paving; Dry Ground. Magic expression: Threshold Oaths, Road Warding, Mask Enchantments. No baked labels or text.",
+        "civicRole": "Serves as Section 2 local anchor within Klinkhollow; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Slums Informal Settlement Lantern Monument",
+          "show how Klinkhollow turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 2",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Slums Informal Settlement Lantern Monument becomes narratively important",
+          "the visible condition of Slums Informal Settlement Lantern Monument signals political or social stress",
+          "someone uses Slums Informal Settlement Lantern Monument's public function to redirect crowds or information",
+          "an overlooked detail at Slums Informal Settlement Lantern Monument reveals how Klinkhollow really works"
+        ]
+      },
+      {
+        "name": "Patched Tenement Nook",
+        "symbolicRole": "Patched Tenement Nook concentrates Klinkhollow's local symbolism into a usable civic landmark: Section 2 local anchor.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette. It belongs to Section 2 (Slums / Informal Settlement) of Klinkhollow and should use Market Arcades, Timber Longhouses, Reed Pavilions, iron and painted plaster materials, Woven Banners, Lantern Lit, Red Fabric Awnings, and the goblins visual language. Design focus: tarps, shared fires, shanties, salvage roofs, patched bridges. Terrain/water context: Dry Stone Paving; Dry Ground. Magic expression: Threshold Oaths, Road Warding, Mask Enchantments. No baked labels or text.",
+        "civicRole": "Serves as Section 2 local anchor within Klinkhollow; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Patched Tenement Nook",
+          "show how Klinkhollow turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 2",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Patched Tenement Nook becomes narratively important",
+          "the visible condition of Patched Tenement Nook signals political or social stress",
+          "someone uses Patched Tenement Nook's public function to redirect crowds or information",
+          "an overlooked detail at Patched Tenement Nook reveals how Klinkhollow really works"
+        ]
+      },
+      {
+        "name": "Security / Intelligence Hall",
+        "symbolicRole": "Security / Intelligence Hall concentrates Klinkhollow's local symbolism into a usable civic landmark: Section 3 local anchor.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing. It belongs to Section 3 (Security / Intelligence) of Klinkhollow and should use Gothic Spires, Archive Towers, Subterranean Vaults, iron and painted plaster materials, Mist Veils, Lantern Lit, Civic Blue Glow, and the goblins visual language. Design focus: masked offices, blackroom vaults, watch towers, safehouse doors, institutional anchor. Terrain/water context: Dry Stone Paving; Dry Ground. Magic expression: Threshold Oaths, Road Warding, Mask Enchantments. No baked labels or text.",
+        "civicRole": "Serves as Section 3 local anchor within Klinkhollow; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Security / Intelligence Hall",
+          "show how Klinkhollow turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 3",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Security / Intelligence Hall becomes narratively important",
+          "the visible condition of Security / Intelligence Hall signals political or social stress",
+          "someone uses Security / Intelligence Hall's public function to redirect crowds or information",
+          "an overlooked detail at Security / Intelligence Hall reveals how Klinkhollow really works"
+        ]
+      },
+      {
+        "name": "Cipher Hall",
+        "symbolicRole": "Cipher Hall concentrates Klinkhollow's local symbolism into a usable civic landmark: Section 3 local anchor.",
+        "visualRole": "A mandatory Section 3 Beacon: a culturally adapted civic signal flame / warning-light landmark visible across the city spine. It belongs to Section 3 (Security / Intelligence) of Klinkhollow and should use Archive Towers, Subterranean Vaults, Gothic Spires, iron and painted plaster materials, Mist Veils, Lantern Lit, Civic Blue Glow, and the goblins visual language. Design focus: Beacon form may be a ground flame, tower flame, suspended flame, totemic flame, ceremonial brazier, signal obelisk, or lighthouse-like flame., Beacon-compatible major landmark; must render as a culturally adapted civic signal flame or magical warning light., beacon-compatible flame or signal structure, largest section focal point, strong vertical silhouette. Terrain/water context: Dry Stone Paving; Dry Ground. Magic expression: Threshold Oaths, Road Warding, Mask Enchantments. No baked labels or text.",
+        "civicRole": "Serves as Section 3 local anchor within Klinkhollow; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Cipher Hall",
+          "show how Klinkhollow turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 3",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Cipher Hall becomes narratively important",
+          "the visible condition of Cipher Hall signals political or social stress",
+          "someone uses Cipher Hall's public function to redirect crowds or information",
+          "an overlooked detail at Cipher Hall reveals how Klinkhollow really works"
+        ]
+      },
+      {
+        "name": "Mist Veils Monument",
+        "symbolicRole": "Mist Veils Monument concentrates Klinkhollow's local symbolism into a usable civic landmark: Section 3 local anchor.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles. It belongs to Section 3 (Security / Intelligence) of Klinkhollow and should use Subterranean Vaults, Gothic Spires, Archive Towers, iron and painted plaster materials, Mist Veils, Lantern Lit, Civic Blue Glow, and the goblins visual language. Design focus: blackroom vaults, watch towers, safehouse doors, symbolic civic object, small ceremonial site. Terrain/water context: Dry Stone Paving; Dry Ground. Magic expression: Threshold Oaths, Road Warding, Mask Enchantments. No baked labels or text.",
+        "civicRole": "Serves as Section 3 local anchor within Klinkhollow; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Mist Veils Monument",
+          "show how Klinkhollow turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 3",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Mist Veils Monument becomes narratively important",
+          "the visible condition of Mist Veils Monument signals political or social stress",
+          "someone uses Mist Veils Monument's public function to redirect crowds or information",
+          "an overlooked detail at Mist Veils Monument reveals how Klinkhollow really works"
+        ]
+      },
+      {
+        "name": "Dossier Vault Nook",
+        "symbolicRole": "Dossier Vault Nook concentrates Klinkhollow's local symbolism into a usable civic landmark: Section 3 local anchor.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette. It belongs to Section 3 (Security / Intelligence) of Klinkhollow and should use Subterranean Vaults, Gothic Spires, Archive Towers, iron and painted plaster materials, Lantern Lit, Civic Blue Glow, Mist Veils, and the goblins visual language. Design focus: subordinate scale, masks, keys, hooded lanterns, cipher grids. Terrain/water context: Dry Stone Paving; Dry Ground. Magic expression: Threshold Oaths, Road Warding, Mask Enchantments. No baked labels or text.",
+        "civicRole": "Serves as Section 3 local anchor within Klinkhollow; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Dossier Vault Nook",
+          "show how Klinkhollow turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 3",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Dossier Vault Nook becomes narratively important",
+          "the visible condition of Dossier Vault Nook signals political or social stress",
+          "someone uses Dossier Vault Nook's public function to redirect crowds or information",
+          "an overlooked detail at Dossier Vault Nook reveals how Klinkhollow really works"
+        ]
+      },
+      {
+        "name": "Low Residential Civic Hall",
+        "symbolicRole": "Low Residential Civic Hall concentrates Klinkhollow's local symbolism into a usable civic landmark: Section 4 local anchor.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing. It belongs to Section 4 (Low Residential) of Klinkhollow and should use White Limestone Civic Blocks, Timber Longhouses, Market Arcades, iron and painted plaster materials, Woven Banners, Lantern Lit, Red Fabric Awnings, and the goblins visual language. Design focus: board-readable entrance, laundry lines, hearth smoke, stoops, shared wells. Terrain/water context: Dry Stone Paving; Dry Ground. Magic expression: Threshold Oaths, Road Warding, Mask Enchantments. No baked labels or text.",
+        "civicRole": "Serves as Section 4 local anchor within Klinkhollow; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Low Residential Civic Hall",
+          "show how Klinkhollow turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 4",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Low Residential Civic Hall becomes narratively important",
+          "the visible condition of Low Residential Civic Hall signals political or social stress",
+          "someone uses Low Residential Civic Hall's public function to redirect crowds or information",
+          "an overlooked detail at Low Residential Civic Hall reveals how Klinkhollow really works"
+        ]
+      },
+      {
+        "name": "Low Residential Lantern Monument",
+        "symbolicRole": "Low Residential Lantern Monument concentrates Klinkhollow's local symbolism into a usable civic landmark: Section 4 local anchor.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles. It belongs to Section 4 (Low Residential) of Klinkhollow and should use White Limestone Civic Blocks, Timber Longhouses, Market Arcades, iron and painted plaster materials, Woven Banners, Lantern Lit, Red Fabric Awnings, and the goblins visual language. Design focus: subordinate to major landmark, laundry lines, hearth smoke, stoops, shared wells. Terrain/water context: Dry Stone Paving; Dry Ground. Magic expression: Threshold Oaths, Road Warding, Mask Enchantments. No baked labels or text.",
+        "civicRole": "Serves as Section 4 local anchor within Klinkhollow; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Low Residential Lantern Monument",
+          "show how Klinkhollow turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 4",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Low Residential Lantern Monument becomes narratively important",
+          "the visible condition of Low Residential Lantern Monument signals political or social stress",
+          "someone uses Low Residential Lantern Monument's public function to redirect crowds or information",
+          "an overlooked detail at Low Residential Lantern Monument reveals how Klinkhollow really works"
+        ]
+      },
+      {
+        "name": "Laundry Well Nook",
+        "symbolicRole": "Laundry Well Nook concentrates Klinkhollow's local symbolism into a usable civic landmark: Section 4 local anchor.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette. It belongs to Section 4 (Low Residential) of Klinkhollow and should use Timber Longhouses, Market Arcades, White Limestone Civic Blocks, iron and painted plaster materials, Woven Banners, Lantern Lit, Red Fabric Awnings, and the goblins visual language. Design focus: shared courtyards, communal wells, small local identity prop, street-level detail, usable board landmark. Terrain/water context: Dry Stone Paving; Dry Ground. Magic expression: Threshold Oaths, Road Warding, Mask Enchantments. No baked labels or text.",
+        "civicRole": "Serves as Section 4 local anchor within Klinkhollow; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Laundry Well Nook",
+          "show how Klinkhollow turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 4",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Laundry Well Nook becomes narratively important",
+          "the visible condition of Laundry Well Nook signals political or social stress",
+          "someone uses Laundry Well Nook's public function to redirect crowds or information",
+          "an overlooked detail at Laundry Well Nook reveals how Klinkhollow really works"
+        ]
+      },
+      {
+        "name": "Prison / Containment Civic Hall",
+        "symbolicRole": "Prison / Containment Civic Hall concentrates Klinkhollow's local symbolism into a usable civic landmark: Section 5 local anchor.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing. It belongs to Section 5 (Prison / Containment) of Klinkhollow and should use Cyclopean Megaliths, Obsidian Fortresses, Subterranean Vaults, iron and painted plaster materials, Civic Blue Glow, Mist Veils, Bone White Ceremony, and the goblins visual language. Design focus: watchhouses, cell rows, institutional anchor, public-facing administration, clear central silhouette. Terrain/water context: Dry Stone Paving; Dry Ground. Magic expression: Threshold Oaths, Road Warding, Mask Enchantments. No baked labels or text.",
+        "civicRole": "Serves as Section 5 local anchor within Klinkhollow; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Prison / Containment Civic Hall",
+          "show how Klinkhollow turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 5",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Prison / Containment Civic Hall becomes narratively important",
+          "the visible condition of Prison / Containment Civic Hall signals political or social stress",
+          "someone uses Prison / Containment Civic Hall's public function to redirect crowds or information",
+          "an overlooked detail at Prison / Containment Civic Hall reveals how Klinkhollow really works"
+        ]
+      },
+      {
+        "name": "Mist Veils Monument",
+        "symbolicRole": "Mist Veils Monument concentrates Klinkhollow's local symbolism into a usable civic landmark: Section 5 local anchor.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles. It belongs to Section 5 (Prison / Containment) of Klinkhollow and should use Obsidian Fortresses, Subterranean Vaults, Cyclopean Megaliths, iron and painted plaster materials, Bone White Ceremony, Civic Blue Glow, Mist Veils, and the goblins visual language. Design focus: cell blocks, warded yards, watchhouses, cell rows, symbolic civic object. Terrain/water context: Dry Stone Paving; Dry Ground. Magic expression: Threshold Oaths, Road Warding, Mask Enchantments. No baked labels or text.",
+        "civicRole": "Serves as Section 5 local anchor within Klinkhollow; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Mist Veils Monument",
+          "show how Klinkhollow turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 5",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Mist Veils Monument becomes narratively important",
+          "the visible condition of Mist Veils Monument signals political or social stress",
+          "someone uses Mist Veils Monument's public function to redirect crowds or information",
+          "an overlooked detail at Mist Veils Monument reveals how Klinkhollow really works"
+        ]
+      },
+      {
+        "name": "Judgment Yard Nook",
+        "symbolicRole": "Judgment Yard Nook concentrates Klinkhollow's local symbolism into a usable civic landmark: Section 5 local anchor.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette. It belongs to Section 5 (Prison / Containment) of Klinkhollow and should use Obsidian Fortresses, Subterranean Vaults, Cyclopean Megaliths, iron and painted plaster materials, Mist Veils, Bone White Ceremony, Civic Blue Glow, and the goblins visual language. Design focus: street-level detail, usable board landmark, subordinate scale, bars, locks. Terrain/water context: Dry Stone Paving; Dry Ground. Magic expression: Threshold Oaths, Road Warding, Mask Enchantments. No baked labels or text.",
+        "civicRole": "Serves as Section 5 local anchor within Klinkhollow; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Judgment Yard Nook",
+          "show how Klinkhollow turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 5",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Judgment Yard Nook becomes narratively important",
+          "the visible condition of Judgment Yard Nook signals political or social stress",
+          "someone uses Judgment Yard Nook's public function to redirect crowds or information",
+          "an overlooked detail at Judgment Yard Nook reveals how Klinkhollow really works"
+        ]
+      }
+    ]
+  },
+  "assetGuidance": {
+    "districtDioramaGuidance": [
+      "Dioramas must support 25 district slots: S1 covers D01, D02, D03, D06, D07 and uses source-backed anchors Underworld / Hidden Economy Civic Hall, Black Market Arcade Beacon, Mist Veils Monument, Understreet Vault Nook.",
+      "Dioramas must support 25 district slots: S2 covers D04, D05, D09, D10, D15 and uses source-backed anchors Slums / Informal Settlement Civic Hall, Scrap Market, Slums Informal Settlement Lantern Monument, Patched Tenement Nook.",
+      "Dioramas must support 25 district slots: S3 covers D08, D12, D13, D14, D18 and uses source-backed anchors Security / Intelligence Hall, Cipher Hall, Mist Veils Monument, Dossier Vault Nook.",
+      "Dioramas must support 25 district slots: S4 covers D11, D16, D17, D21, D22 and uses source-backed anchors Low Residential Civic Hall, Tenement Court, Low Residential Lantern Monument, Laundry Well Nook.",
+      "Dioramas must support 25 district slots: S5 covers D19, D20, D23, D24, D25 and uses source-backed anchors Prison / Containment Civic Hall, Containment Keep, Mist Veils Monument, Judgment Yard Nook."
+    ],
+    "mapBackgroundGuidance": [
+      "Map backgrounds must show Goblin Tinker-Vault of Seven Bright Locks as the wonder-scale identity anchor, Gear Inlays Command Bastion at D13, and Black Market Arcade Beacon as the city signal landmark.",
+      "Preserve the five-section spine: S1 Underworld / Hidden Economy Civic Hall, S2 Slums / Informal Settlement Civic Hall, S3 Security / Intelligence Hall, S4 Low Residential Civic Hall, S5 Prison / Containment Civic Hall.",
+      "Use roads, terrain, water, civic terraces, walls, markets, courts, or service routes only where they support the exact city identity and tactical readability."
+    ],
+    "requiredVisualElements": [
+      "Goblin Tinker-Vault of Seven Bright Locks",
+      "Black Market Arcade Beacon",
+      "Gear Inlays Command Bastion",
+      "Containment Keep",
+      "Scrap Market",
+      "Tenement Court",
+      "Underworld / Hidden Economy Civic Hall",
+      "Mist Veils Monument",
+      "Understreet Vault Nook",
+      "Slums / Informal Settlement Civic Hall",
+      "Slums Informal Settlement Lantern Monument",
+      "Patched Tenement Nook",
+      "Security / Intelligence Hall",
+      "Cipher Hall",
+      "Dossier Vault Nook",
+      "Low Residential Civic Hall",
+      "Low Residential Lantern Monument",
+      "Laundry Well Nook",
+      "Prison / Containment Civic Hall",
+      "Judgment Yard Nook",
+      "Iron",
+      "Red Brick",
+      "Dark Wood",
+      "Painted Plaster",
+      "Arcane Glow",
+      "Dry Stone Paving",
+      "Civic Terraces",
+      "Ward Networks",
+      "Ritual Geometry",
+      "Mechanical Animus"
+    ],
+    "elementsToAvoid": [
+      "extra top-level schema sections or research-log content in the JSON",
+      "generic fantasy architecture that ignores exact anchor names",
+      "invented missing street anchors",
+      "readable real-world text labels baked into images",
+      "collapsing the 25-district board into only five playable spaces",
+      "making landmarks decorative when they should have civic, narrative, and asset function"
+    ]
+  }
+}

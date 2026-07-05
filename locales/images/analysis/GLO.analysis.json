@@ -4,89 +4,1888 @@
     "analysisVersion": 2,
     "cityCode": "GLO",
     "cityName": "Gloamreach",
-    "analysisDate": "2026-07-03",
+    "analysisDate": "2026-07-05",
     "analystVersion": "gpt-5.5-thinking",
     "analysisConfidence": "strong-lock",
-    "basedOnImages": ["GLO-HERO-NE-v001", "GLO-HERO-NW-v001", "GLO-HERO-SE-v001", "GLO-HERO-SW-v001", "GLO-STREET-S1-v001", "GLO-STREET-S2-v001", "GLO-STREET-S3-v001", "GLO-STREET-S4-v001", "GLO-STREET-S5-v001"],
-    "basedOnSidecars": ["GLO-HERO-NE-v001.json", "GLO-HERO-NW-v001.json", "GLO-HERO-SE-v001.json", "GLO-HERO-SW-v001.json", "GLO-STREET-S1-v001.json", "GLO-STREET-S2-v001.json", "GLO-STREET-S3-v001.json", "GLO-STREET-S4-v001.json", "GLO-STREET-S5-v001.json"]
+    "sourceStatus": "full",
+    "districtModel": "five sections; five district slots per section; D13 is the seat of power",
+    "missingStreetSections": [],
+    "basedOnImages": [
+      "GLO-HERO-NE-v001",
+      "GLO-HERO-NW-v001",
+      "GLO-HERO-SE-v001",
+      "GLO-HERO-SW-v001",
+      "GLO-STREET-S1-v001",
+      "GLO-STREET-S2-v001",
+      "GLO-STREET-S3-v001",
+      "GLO-STREET-S4-v001",
+      "GLO-STREET-S5-v001"
+    ],
+    "basedOnSidecars": [
+      "GLO-HERO-NE-v001.json",
+      "GLO-HERO-NW-v001.json",
+      "GLO-HERO-SE-v001.json",
+      "GLO-HERO-SW-v001.json",
+      "GLO-STREET-S1-v001.json",
+      "GLO-STREET-S2-v001.json",
+      "GLO-STREET-S3-v001.json",
+      "GLO-STREET-S4-v001.json",
+      "GLO-STREET-S5-v001.json"
+    ]
   },
   "cityDNA": {
-    "coreFantasy": "A shade-spectral university city where lecture courts, hidden markets, archive towers, slums, tenements, veiled courts, and shadeglass thresholds make visibility political.",
-    "primaryEmotion": "uneasy scholarship",
-    "secondaryEmotion": "veiled survival",
-    "readerTakeaway": "Gloamreach is not a ghost town; it is a living spectral city where being seen, recorded, hidden, housed, or ignored is civic power.",
-    "civilizationThesis": "Gloamreach turns knowledge, secrecy, archive memory, hidden trade, poverty, domestic persistence, mist, shadeglass, and threshold law into one civic system of partial visibility.",
-    "visualIdentity": "White limestone, moonstone masonry, shadeglass, black slate roofs, gothic tracery, blue lamps, mist-veiled glass, archive towers, lecture halls, black-market arcades, scrap markets, patched tenements, laundry wells, and spectral citizens.",
-    "culturalIdentity": "A shade-spectral civilization of professors, students, copyists, court officials, brokers, scrap dealers, tenement families, and under-vault runners stratified by access to records, lectures, vaults, and clean visibility.",
-    "symbolicIdentity": "Mist veils, shadeglass, moonstone, blue lamps, lecture towers, archive seals, black-market vaults, patched cloth, laundry wells, threshold arches, and ghostly citizens symbolize controlled revelation."
+    "coreFantasy": "A shade spectral folk city where Shadeglass Whisper Court of the Veiled Threshold, Lecture Hall Beacon, Mist Veils Veiled High Court, and the five-section district spine turn local identity into functional civic space.",
+    "primaryEmotion": "source-backed civic presence",
+    "secondaryEmotion": "lived-in pressure beneath landmark order",
+    "readerTakeaway": "Gloamreach should feel immediately identifiable through exact landmarks and materials, not through generic fantasy-city shorthand.",
+    "civilizationThesis": "Gloamreach organizes power through Mist Veils Veiled High Court, public response through Lecture Hall Beacon, civic memory through Shadeglass Whisper Court of the Veiled Threshold, and daily life through S1 University / Lyceum Civic Hall, S2 Underworld / Hidden Economy Civic Hall, S3 Records / Archives Hall, S4 Slums / Informal Settlement Civic Hall, S5 Low Residential Civic Hall.",
+    "visualIdentity": "Dark Wood, Slate, Silver, Stained Glass, Arcane Glow, Dry Stone Paving, Civic Terraces, Ward Networks, Ritual Geometry, Shadow Veils, and exact anchors including Mist Veils Veiled High Court, Lecture Hall Beacon, Shadeglass Whisper Court of the Veiled Threshold, Tenement Court, Black Market Arcade, Scrap Market, University / Lyceum Civic Hall, Star Navigation Monument, Observatory Court Nook, Underworld / Hidden Economy Civic Hall.",
+    "culturalIdentity": "A shade spectral folk civic culture where architecture, public obligations, roads, landmark approaches, and everyday work must all read as part of the same civilization.",
+    "symbolicIdentity": "The city symbol system is built from exact names and visible functions: Shadeglass Whisper Court of the Veiled Threshold, Lecture Hall Beacon, Mist Veils Veiled High Court, and section anchors such as University / Lyceum Civic Hall, Underworld / Hidden Economy Civic Hall, Records / Archives Hall, Slums / Informal Settlement Civic Hall, Low Residential Civic Hall."
   },
   "canon": {
     "canonLocks": [
-      "Gloamreach is a mature shade-spectral civic city, not abandoned haunted scenery.",
-      "The Wonder is the Shadeglass Whisper Court of the Veiled Threshold.",
-      "The Beacon is the Lecture Hall Beacon.",
-      "The Seat of Power is the Mist Veils Veiled High Court.",
-      "The five primary districts are University / Lyceum, Underworld / Hidden Economy, Records / Archives, Slums / Informal Settlement, and Low Residential.",
-      "The uploaded district anchors include University / Lyceum Civic Hall, Lecture Hall Beacon, Star Navigation Monument, Observatory Court Nook, Underworld / Hidden Economy Civic Hall, Black Market Arcade, Mist Veils Monument, Understreet Vault Nook, Records / Archives Hall, Archive Tower, Records Archives Gold-Seal Monument, Copyist Hall Nook, Slums / Informal Settlement Civic Hall, Scrap Market, Slums Informal Settlement Lantern Monument, Patched Tenement Nook, Low Residential Civic Hall, Tenement Court, Low Residential Lantern Monument, and Laundry Well Nook."
+      "Gloamreach uses city code GLO.",
+      "The Wonder is Shadeglass Whisper Court of the Veiled Threshold.",
+      "The Beacon is Lecture Hall Beacon.",
+      "The Seat of Power is Mist Veils Veiled High Court and occupies District 13.",
+      "The city uses five sections with five tactical district slots per section.",
+      "The source-backed section spine is: S1 University / Lyceum Civic Hall, S2 Underworld / Hidden Economy Civic Hall, S3 Records / Archives Hall, S4 Slums / Informal Settlement Civic Hall, S5 Low Residential Civic Hall.",
+      "Preserve exact anchor name: Mist Veils Veiled High Court.",
+      "Preserve exact anchor name: Lecture Hall Beacon.",
+      "Preserve exact anchor name: Shadeglass Whisper Court of the Veiled Threshold.",
+      "Preserve exact anchor name: Tenement Court.",
+      "Preserve exact anchor name: Black Market Arcade.",
+      "Preserve exact anchor name: Scrap Market.",
+      "Preserve exact anchor name: University / Lyceum Civic Hall.",
+      "Preserve exact anchor name: Star Navigation Monument.",
+      "Preserve exact anchor name: Observatory Court Nook.",
+      "Preserve exact anchor name: Underworld / Hidden Economy Civic Hall.",
+      "Preserve exact anchor name: Mist Veils Monument.",
+      "Preserve exact anchor name: Understreet Vault Nook.",
+      "Preserve exact anchor name: Records / Archives Hall.",
+      "Preserve exact anchor name: Archive Tower.",
+      "Preserve exact anchor name: Records Archives Gold-Seal Monument.",
+      "Preserve exact anchor name: Copyist Hall Nook.",
+      "Preserve exact anchor name: Slums / Informal Settlement Civic Hall.",
+      "Preserve exact anchor name: Slums Informal Settlement Lantern Monument.",
+      "Preserve exact anchor name: Patched Tenement Nook.",
+      "Preserve exact anchor name: Low Residential Civic Hall.",
+      "Preserve exact anchor name: Low Residential Lantern Monument.",
+      "Preserve exact anchor name: Laundry Well Nook."
     ],
-    "provisionalCanon": ["Gloamreach's highest civic virtue is discretion.", "The central tension is mystery versus exclusion.", "Low residential and slum anchors make visibility a class issue, not only a magical one."],
-    "rejectedReads": ["Gloamreach is a generic ghost town.", "Gloamreach is empty ruin horror rather than inhabited spectral civic life.", "Scholarship, hidden economy, archives, slums, and tenements are separate aesthetics rather than one class-stratified system."],
-    "cautionFlags": ["Write spectral citizens as full people with jobs, homes, hunger, status, education, and errands.", "Keep scholarship and poverty in the same visual frame.", "Use thresholds, veils, seals, mist, and shadeglass as social mechanics, not decoration.", "Preserve exact slum and low-residential sidecar anchors so the city does not collapse into pure university/gothic mood."]
+    "provisionalCanon": [],
+    "rejectedReads": [
+      "Do not treat Gloamreach as a generic fantasy settlement with renamed landmarks.",
+      "Do not collapse the five-section board into a single mood or single district.",
+      "Do not replace exact anchor names with generic summaries.",
+      "Do not invent missing street-section landmarks when a street source is absent."
+    ],
+    "cautionFlags": [
+      "Keep every named Wonder, Beacon, Seat, section civic hall, major landmark, monument, and minor nook exact when present in sidecars.",
+      "If an image appears to deviate from a sidecar, preserve the exact name but avoid overclaiming visual details not supported by the source package.",
+      "Every district asset should remain usable for narrative scenes, tactical board dioramas, and city map backgrounds."
+    ]
   },
   "environment": {
-    "terrain": ["misty vertical city", "wet stone terraces", "stepped lecture plazas", "archive stairs", "subterranean vault routes", "tenement courts", "threshold bridges"],
-    "water": ["wet cobbles", "laundry wells", "mist damp", "drizzle runoff", "courtyard basins"],
-    "vegetation": ["reed pavilions", "courtyard moss", "low terrace plants", "neglected tenement weeds"],
-    "climateLighting": ["soft overcast spectral daylight", "blue civic lamp glow", "moonstone reflection", "mist-diffused streetlight", "warm study lamps", "black-market lanterns", "shadeglass shimmer"],
-    "environmentalLogic": "Mist, shadow, height, and buried space are civic materials. Gloamreach organizes gradients of visibility: what is taught, recorded, whispered, hidden below, and forced into view by poverty."
+    "terrain": [
+      "Dry Stone Paving",
+      "Civic Terraces"
+    ],
+    "water": [
+      "dry city ground"
+    ],
+    "vegetation": [
+      "courtyard trees",
+      "balcony planters",
+      "public greenery where visible",
+      "source-backed local vegetation only"
+    ],
+    "climateLighting": [
+      "Ward Networks",
+      "Ritual Geometry",
+      "Shadow Veils",
+      "daylight",
+      "golden hour",
+      "lantern light",
+      "civic beacon glow"
+    ],
+    "environmentalLogic": "The environment should make Gloamreach's exact civic anchors plausible at street scale: terrain routes people toward section landmarks, lighting clarifies public authority, and water or landscape features remain source-backed rather than decorative filler."
   },
   "architecture": {
-    "materials": ["white limestone civic blocks", "silver and moonstone masonry", "shadeglass", "black slate roofs", "gothic tracery", "bronze fittings", "blue glass lamps", "dark timber", "subterranean vault stone", "wet cobbles", "patched canvas", "wrought iron"],
-    "forms": ["University / Lyceum Civic Hall", "Lecture Hall Beacon", "Observatory Court Nook", "Black Market Arcade", "Understreet Vault Nook", "Archive Tower", "Copyist Hall Nook", "Scrap Market", "Patched Tenement Nook", "Tenement Court", "Laundry Well Nook", "shadeglass halls", "veiled high courts", "threshold courts"],
-    "skyline": ["Shadeglass Whisper Court of the Veiled Threshold as far wonder anchor", "Mist Veils Veiled High Court as central authority", "Lecture Hall Beacon as scholarly signal landmark", "Archive Tower as records spine", "domed lecture halls, observatory towers, gothic spires, tenement courts, and fog terraces layered across pale slopes"],
-    "lighting": ["soft spectral daylight", "blue civic glow", "moonstone reflection", "mist-diffused streetlight", "warm study lamps", "black-market lanterns", "archive window glow", "laundry courtyard lamps", "shadeglass shimmer"],
-    "infrastructure": ["lecture courts", "observatory platforms", "archive stairs", "copyist halls", "subterranean vault entries", "market arcades", "hidden alleys", "scrap lanes", "patched tenement stairs", "laundry wells", "sealed archives", "threshold bridges", "mist-lit plazas"],
-    "motifs": ["mist veils", "shadeglass", "moonstone", "blue lamps", "lecture towers", "star navigation instruments", "archive seals", "gold seals", "black-market arcades", "understreet vaults", "patched cloth", "laundry wells", "threshold arches", "ghostly citizens"],
-    "colorLanguage": ["pale limestone", "silver moonstone", "spectral blue", "mist white", "black slate", "shadeglass dark", "warm study amber", "patched cloth dullness"],
-    "textureLanguage": ["wet limestone", "smooth moonstone", "reflective shadeglass", "damp wool", "old paper", "ink", "wax seals", "worn tenement timber", "vault stone"]
+    "materials": [
+      "Dark Wood",
+      "Slate",
+      "Silver",
+      "Stained Glass",
+      "Arcane Glow"
+    ],
+    "forms": [
+      "Mist Veils Veiled High Court",
+      "Lecture Hall Beacon",
+      "Shadeglass Whisper Court of the Veiled Threshold",
+      "Tenement Court",
+      "Black Market Arcade",
+      "Scrap Market",
+      "University / Lyceum Civic Hall",
+      "Star Navigation Monument",
+      "Observatory Court Nook",
+      "Underworld / Hidden Economy Civic Hall",
+      "Mist Veils Monument",
+      "Understreet Vault Nook",
+      "Records / Archives Hall",
+      "Archive Tower",
+      "Records Archives Gold-Seal Monument",
+      "Copyist Hall Nook",
+      "Slums / Informal Settlement Civic Hall",
+      "Slums Informal Settlement Lantern Monument",
+      "Patched Tenement Nook",
+      "Low Residential Civic Hall",
+      "Low Residential Lantern Monument",
+      "Laundry Well Nook",
+      "section civic halls",
+      "major landmark approaches",
+      "monument frontages",
+      "minor landmark nooks",
+      "district roads and plazas",
+      "D13 authority complex"
+    ],
+    "skyline": [
+      "Shadeglass Whisper Court of the Veiled Threshold",
+      "Mist Veils Veiled High Court",
+      "Lecture Hall Beacon",
+      "Tenement Court",
+      "Black Market Arcade",
+      "Scrap Market",
+      "University / Lyceum Civic Hall",
+      "Star Navigation Monument",
+      "Observatory Court Nook"
+    ],
+    "lighting": [
+      "Ward Networks",
+      "Ritual Geometry",
+      "Shadow Veils",
+      "beacon-state light",
+      "lantern-lit civic paths",
+      "street-level shop and housing light"
+    ],
+    "infrastructure": [
+      "University / Lyceum Civic Hall",
+      "Underworld / Hidden Economy Civic Hall",
+      "Records / Archives Hall",
+      "Slums / Informal Settlement Civic Hall",
+      "Low Residential Civic Hall",
+      "roads between district slots",
+      "public thresholds",
+      "plaza edges",
+      "records, permits, markets, services, or rituals implied by anchors"
+    ],
+    "motifs": [
+      "Mist",
+      "Veils",
+      "Veiled",
+      "High",
+      "Court",
+      "Lecture",
+      "Hall",
+      "Beacon",
+      "Shadeglass",
+      "Whisper",
+      "Threshold",
+      "Tenement",
+      "Black"
+    ],
+    "colorLanguage": [
+      "source-backed material colors",
+      "civic blue signal accents",
+      "local textile, stone, metal, vegetation, or water colors from the image package"
+    ],
+    "textureLanguage": [
+      "Dark Wood",
+      "Slate",
+      "Silver",
+      "Stained Glass",
+      "Arcane Glow",
+      "worn pedestrian surfaces",
+      "worked civic ornament",
+      "weathered public thresholds",
+      "lived-in shop and housing details"
+    ]
   },
   "civilization": {
-    "people": "Citizens are shade spectral folk: translucent, veiled, pale-lit, quiet-bodied, socially varied, and fully civic rather than merely haunting the city.",
-    "occupations": ["professors", "students", "copyists", "archivists", "court officials", "observatory assistants", "black-market brokers", "vault runners", "scrap dealers", "laundry workers", "tenement landlords", "shadeglass repairers"],
-    "socialClasses": ["Veiled High Court officials", "university elites", "archive magistrates", "copyist guilds", "observatory scholars", "understreet brokers", "tenement families", "scrap-market workers", "informal settlement residents"],
-    "governance": "Authority is veiled, archival, and knowledge-based. The High Court governs through sealed archives, controlled thresholds, disclosure rulings, lecture legitimacy, and permitted opacity.",
-    "religion": "Religious expression is threshold-oriented and spectral, carried through veils, shadeglass, whisper rites, memory sealing, star navigation, and ceremonies of controlled disclosure.",
-    "customs": ["partial disclosure in conversation", "formal archive petitions", "coded market approaches", "record sealing", "lecture announcements", "threshold ceremonies", "quiet public observation"],
-    "bodyLanguage": ["indirect eye contact", "half-turned listening", "veiled gestures", "careful movement through mist", "quiet waiting at sealed doors", "class-aware use of visibility"],
-    "speechPatterns": ["precise disclosure phrases", "archive citations", "scholarly terms", "coded broker language", "quiet tenancy complaints", "indirect warnings", "threshold oaths"]
+    "people": "The population should read as shade spectral folk and city-specific: citizens occupy streets, shops, public thresholds, and landmark approaches as people who understand the local civic order.",
+    "occupations": [
+      "market sellers",
+      "stall keepers",
+      "astronomers",
+      "navigators",
+      "archivists",
+      "record clerks",
+      "district clerks",
+      "craft families",
+      "porters",
+      "maintenance workers",
+      "food sellers",
+      "messengers"
+    ],
+    "socialClasses": [
+      "D13 officials and court staff",
+      "section landmark custodians",
+      "guild and service families",
+      "shopkeepers and artisans",
+      "laborers, carriers, messengers, and maintenance crews",
+      "households tied to local district obligations"
+    ],
+    "governance": "Government is centered on Mist Veils Veiled High Court. Its authority should be visible through courts, records, public access routes, civic lamps, guards or attendants, and the way citizens respond to D13.",
+    "religion": "Religious or ritual life should only be emphasized where source anchors support it, especially names such as none explicitly dominant in the current anchors.",
+    "customs": [
+      "citizens orient public life around University / Lyceum Civic Hall in Section 1",
+      "citizens orient public life around Underworld / Hidden Economy Civic Hall in Section 2",
+      "citizens orient public life around Records / Archives Hall in Section 3",
+      "citizens orient public life around Slums / Informal Settlement Civic Hall in Section 4",
+      "citizens orient public life around Low Residential Civic Hall in Section 5",
+      "beacon changes become public behavior, not background color",
+      "exact landmark names carry social memory and directions",
+      "civic errands happen visibly at thresholds, queues, ledgers, stalls, courts, or shrines"
+    ],
+    "bodyLanguage": [
+      "citizens pause at civic signals",
+      "workers move with practiced familiarity around district anchors",
+      "officials use thresholds and raised places to control attention",
+      "residents treat named landmarks as everyday orientation points"
+    ],
+    "speechPatterns": [
+      "directions use exact landmark names",
+      "public notices are tied to section anchors",
+      "local speech distinguishes civic authority, ordinary errands, and landmark obligations",
+      "people refer to D13 as the seat of power rather than a faction headquarters"
+    ]
   },
   "urbanLife": {
-    "streets": {"appearance": "Pale, wet, vertical, and half-seen: lecture halls, moonstone domes, blue lamps, observatory instruments, archive stairs, black-market thresholds, scrap stalls, patched tenements, and laundry wells share the mist.", "movement": "Movement follows stepped lecture plazas, archive stairs, hidden vault routes, market arcades, tenement alleys, laundry courtyards, low bridges, and threshold courts.", "sounds": ["soft lectures under domes", "pages turning", "quills scratching", "mist-muffled bells", "market whispers", "laundry water", "cart wheels on wet stone", "observatory mechanisms", "vault doors closing", "low spectral voices"], "smells": ["wet limestone", "old paper", "ink", "lamp oil", "cold mist", "laundry soap", "damp wool", "vault mold", "market stew", "metal scrap", "candle smoke"], "lighting": "Day is overcast silver over moonstone and pale spectral bodies; night is blue-lit, candle-dotted, archive-windowed, black-market-lanterned, and shadeglass-reflective.", "weatherEffects": "Fog, drizzle, cold mist, and low cloud reduce certainty, blur class boundaries visually, and make every threshold feel socially charged.", "dayCycle": "Morning begins with lectures, archive desks, copyists, and sealed records; afternoon stirs markets, vault negotiations, scrap repair, and petitions.", "nightCycle": "Night shifts toward black-market lanterns, tenement lamps, laundry gossip, archive windows, vault traffic, and shadeglass reflections."},
-    "shops": {"common": ["ink stalls", "vellum counters", "used-book carts", "copyist desks", "laundry soap counters", "candle shops", "blue-lamp shops", "low residential food carts"], "uncommon": ["moonstone lens vendors", "shadeglass repair counters", "observatory instrument makers", "vault-key sellers", "black-market relic brokers", "coded archive brokers"], "prestigious": ["university patron halls", "sealed archive counters", "Veiled High Court access offices", "rare book rooms", "moonstone instrument houses"], "exports": ["copywork", "records", "scholarship", "shadeglass craft", "moonstone lenses", "observatory instruments", "relic knowledge", "discreet brokerage"], "imports": ["paper", "ink", "lamp oil", "food", "cloth", "metals", "candles", "rare glass", "books"], "streetFood": ["market stew", "thin soup", "black bread", "tea", "fried roots", "tenement dumplings", "study cakes"], "services": ["record copying", "archive petitions", "lecture admission", "vault brokerage", "shadeglass repair", "scrap repair", "laundry", "tenement notices", "coded deliveries"]},
-    "housing": {"wealthy": "Pale stone scholar apartments and court-adjacent rooms with moonstone windows, blue lamps, private studies, archive access, and veiled balconies.", "middle": "Rooms over bookshops, copyist homes, lecture-court apartments, modest archive flats, narrow balconies, shared lamps, and damp stone stairs.", "poor": "Patched tenements, timber longhouses, laundry-well courtyards, scrap-market rooms, damp blankets, cheap candles, shared water, and fog-leaking shutters."}
+    "streets": {
+      "appearance": "Streets should show Gloamreach's exact anchor system at pedestrian scale: S1 University / Lyceum Civic Hall, S2 Underworld / Hidden Economy Civic Hall, S3 Records / Archives Hall, S4 Slums / Informal Settlement Civic Hall, S5 Low Residential Civic Hall. Keep roads, plazas, stairs, thresholds, lamps, signs-without-readable-text, props, and civilians aligned to the source-backed materials and landmarks.",
+      "movement": "Movement should be readable for tactical-board assets: citizens pass between 25 district slots, section anchors, D13, service streets, and landmark approaches without visual clutter hiding the civic purpose.",
+      "sounds": [
+        "foot traffic",
+        "vendors and service calls",
+        "tools and carts",
+        "public notices",
+        "landmark-specific sounds from water, bells, animals, machines, or crowds when source-backed",
+        "beacon-state crowd reactions"
+      ],
+      "smells": [
+        "street food",
+        "worked material dust",
+        "lamp oil or smoke",
+        "vegetation or water where source-backed",
+        "worn stone, timber, metal, plaster, or fabric"
+      ],
+      "lighting": "Use the package's source-backed civic lighting, daylight/golden-hour reads, lanterns, and beacon glow. Lighting must help identify authority, safety, and landmark function.",
+      "weatherEffects": "Weather should reinforce the local terrain and materials without overwhelming the city identity or inventing unsupported climate extremes.",
+      "dayCycle": "Day scenes emphasize errands, trade, records, repairs, rituals, food, and section-level movement.",
+      "nightCycle": "Night scenes emphasize lantern routes, closed thresholds, guarded landmarks, quiet work, and beacon visibility."
+    },
+    "shops": {
+      "common": [
+        "food stalls",
+        "repair stalls",
+        "material vendors",
+        "ledger or permit desks",
+        "local craft counters",
+        "street services tied to section anchors"
+      ],
+      "uncommon": [
+        "specialist landmark caretakers",
+        "instrument makers",
+        "ritual suppliers",
+        "map or record copyists",
+        "district-specific guild services"
+      ],
+      "prestigious": [
+        "D13-facing legal or registry services",
+        "elite craft workshops",
+        "landmark commission houses",
+        "official suppliers for civic ceremonies"
+      ],
+      "exports": [
+        "local crafts",
+        "records or seals",
+        "finished materials",
+        "food goods",
+        "specialized tools or ritual goods as supported by anchors"
+      ],
+      "imports": [
+        "rare materials",
+        "dyes, oils, spices, timber, stone, metal, glass, or cloth as needed by the architecture",
+        "outside records and trade goods"
+      ],
+      "streetFood": [
+        "flatbread or local bread",
+        "stew or grilled skewers",
+        "fruit or preserved food",
+        "tea or civic-square drinks",
+        "portable worker meals"
+      ],
+      "services": [
+        "directions by landmark",
+        "message running",
+        "permit help",
+        "repairs",
+        "food service",
+        "transport or porterage",
+        "public notice posting"
+      ]
+    },
+    "housing": {
+      "wealthy": "Prestige housing clusters near Mist Veils Veiled High Court, high terraces, or landmark-facing routes, using the best source-backed materials and controlled views of civic space.",
+      "middle": "Shop-over-house units, courtyard homes, guild-adjacent apartments, and family rooms near section anchors.",
+      "poor": "Smaller back-street rooms, work-adjacent housing, shared courtyards, service alleys, patched materials, and dense but still city-specific lived-in detail."
+    }
   },
   "districts": [
-    {"sectionNumber": 1, "name": "University / Lyceum", "civicPurpose": "Public instruction, scholarly authority, observatory orientation, and Beacon-centered signal interpretation.", "visualIdentity": "University / Lyceum Civic Hall, Lecture Hall Beacon, Star Navigation Monument, Observatory Court Nook, moonstone domes, white limestone, and blue lamps.", "emotionalIdentity": "Scholarly, pale, anxious, and publicly authoritative.", "gameplayAssetNeeds": ["University / Lyceum Civic Hall", "Lecture Hall Beacon", "Star Navigation Monument", "Observatory Court Nook", "students", "professors", "blue lamps"], "narrativeUse": ["scholarly warning", "public lecture", "Beacon interpretation", "student crowd", "knowledge politics"], "landmark": "Lecture Hall Beacon", "minorLandmarks": ["Star Navigation Monument", "Observatory Court Nook"]},
-    {"sectionNumber": 2, "name": "Underworld / Hidden Economy", "civicPurpose": "Hidden commerce, forbidden records, vault debts, rumor circulation, and tolerated civic shadow.", "visualIdentity": "Underworld / Hidden Economy Civic Hall, Black Market Arcade, Mist Veils Monument, Understreet Vault Nook, coded stalls, gothic shadows, blue-black lanterns, and hidden stairs.", "emotionalIdentity": "Secretive, necessary, risky, and transactional.", "gameplayAssetNeeds": ["Underworld / Hidden Economy Civic Hall", "Black Market Arcade", "Mist Veils Monument", "Understreet Vault Nook", "coded stalls", "brokers", "vault doors"], "narrativeUse": ["forbidden deal", "hidden record", "debt pressure", "rumor exchange", "secrecy leverage"], "landmark": "Black Market Arcade", "minorLandmarks": ["Mist Veils Monument", "Understreet Vault Nook"]},
-    {"sectionNumber": 3, "name": "Records / Archives", "civicPurpose": "Official memory, legal record, copied truth, sealed archives, and public legibility.", "visualIdentity": "Records / Archives Hall, Archive Tower, Records Archives Gold-Seal Monument, Copyist Hall Nook, archive stairs, sealed records, pale stone, and blue archive windows.", "emotionalIdentity": "Exact, solemn, bureaucratic, and exclusionary.", "gameplayAssetNeeds": ["Records / Archives Hall", "Archive Tower", "Records Archives Gold-Seal Monument", "Copyist Hall Nook", "archive stairs", "sealed records", "copyists"], "narrativeUse": ["record clue", "legal contradiction", "memory dispute", "archive access", "official exclusion"], "landmark": "Archive Tower", "minorLandmarks": ["Records Archives Gold-Seal Monument", "Copyist Hall Nook"]},
-    {"sectionNumber": 4, "name": "Slums / Informal Settlement", "civicPurpose": "Survival trade, repair culture, informal care, and life in the gaps between official systems.", "visualIdentity": "Slums / Informal Settlement Civic Hall, Scrap Market, Slums Informal Settlement Lantern Monument, Patched Tenement Nook, makeshift stalls, wet lanes, and repaired goods.", "emotionalIdentity": "Crowded, resourceful, overlooked, and alive.", "gameplayAssetNeeds": ["Slums / Informal Settlement Civic Hall", "Scrap Market", "Slums Informal Settlement Lantern Monument", "Patched Tenement Nook", "repair stalls", "scrap dealers", "informal residents"], "narrativeUse": ["overlooked evidence", "survival trade", "slum pressure", "repair clue", "informal witness"], "landmark": "Scrap Market", "minorLandmarks": ["Slums Informal Settlement Lantern Monument", "Patched Tenement Nook"]},
-    {"sectionNumber": 5, "name": "Low Residential", "civicPurpose": "Ordinary spectral domesticity, rent pressure, neighborhood gossip, shared water, and modest continuity.", "visualIdentity": "Low Residential Civic Hall, Tenement Court, Low Residential Lantern Monument, Laundry Well Nook, timber longhouses, modest markets, clotheslines, damp stone, and blue courtyard light.", "emotionalIdentity": "Domestic, cramped, persistent, and socially watchful.", "gameplayAssetNeeds": ["Low Residential Civic Hall", "Tenement Court", "Low Residential Lantern Monument", "Laundry Well Nook", "families", "laundry lines", "shared stairs"], "narrativeUse": ["gossip", "domestic stakes", "tenant pressure", "ordinary life", "small clues"], "landmark": "Tenement Court", "minorLandmarks": ["Low Residential Lantern Monument", "Laundry Well Nook"]}
+    {
+      "districtNumber": 1,
+      "districtId": "D01",
+      "sectionNumber": 1,
+      "name": "D01 — University / Lyceum Civic Hall Civic-Anchor Precinct",
+      "civicPurpose": "This district turns Section 1's source-backed anchor set into a board-scale civic space: University / Lyceum Civic Hall, Lecture Hall Beacon, Star Navigation Monument, Observatory Court Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Gloamreach.",
+      "visualIdentity": "Use University / Lyceum Civic Hall as the main read. Keep exact source anchors visible where applicable: University / Lyceum Civic Hall, Lecture Hall Beacon, Star Navigation Monument, Observatory Court Nook. The district should share Gloamreach's shade spectral folk identity, Dark Wood, Slate, Silver, Stained Glass, and Dry Stone Paving, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Locally grounded, with Gloamreach's larger mood shaped by Shadeglass Whisper Court of the Veiled Threshold, Lecture Hall Beacon, and Mist Veils Veiled High Court.",
+      "gameplayAssetNeeds": [
+        "University / Lyceum Civic Hall",
+        "Lecture Hall Beacon",
+        "Star Navigation Monument",
+        "Observatory Court Nook",
+        "Section 1 pedestrian-scale props",
+        "Gloamreach civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on University / Lyceum Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "University / Lyceum Civic Hall",
+      "minorLandmarks": [
+        "Lecture Hall Beacon",
+        "Star Navigation Monument",
+        "Observatory Court Nook"
+      ]
+    },
+    {
+      "districtNumber": 2,
+      "districtId": "D02",
+      "sectionNumber": 1,
+      "name": "D02 — Lecture Hall Beacon Landmark Approach",
+      "civicPurpose": "This district turns Section 1's source-backed anchor set into a board-scale civic space: University / Lyceum Civic Hall, Lecture Hall Beacon, Star Navigation Monument, Observatory Court Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Gloamreach.",
+      "visualIdentity": "Use Lecture Hall Beacon as the main read. Keep exact source anchors visible where applicable: University / Lyceum Civic Hall, Lecture Hall Beacon, Star Navigation Monument, Observatory Court Nook. The district should share Gloamreach's shade spectral folk identity, Dark Wood, Slate, Silver, Stained Glass, and Dry Stone Paving, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Public-facing, with Gloamreach's larger mood shaped by Shadeglass Whisper Court of the Veiled Threshold, Lecture Hall Beacon, and Mist Veils Veiled High Court.",
+      "gameplayAssetNeeds": [
+        "Lecture Hall Beacon",
+        "University / Lyceum Civic Hall",
+        "Star Navigation Monument",
+        "Observatory Court Nook",
+        "Section 1 pedestrian-scale props",
+        "Gloamreach civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Lecture Hall Beacon",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "Conjunction response, rumor spread, or authority pressure"
+      ],
+      "landmark": "Lecture Hall Beacon",
+      "minorLandmarks": [
+        "University / Lyceum Civic Hall",
+        "Star Navigation Monument",
+        "Observatory Court Nook"
+      ]
+    },
+    {
+      "districtNumber": 3,
+      "districtId": "D03",
+      "sectionNumber": 1,
+      "name": "D03 — Star Navigation Monument Monument Frontage",
+      "civicPurpose": "This district turns Section 1's source-backed anchor set into a board-scale civic space: University / Lyceum Civic Hall, Lecture Hall Beacon, Star Navigation Monument, Observatory Court Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Gloamreach.",
+      "visualIdentity": "Use Star Navigation Monument as the main read. Keep exact source anchors visible where applicable: University / Lyceum Civic Hall, Lecture Hall Beacon, Star Navigation Monument, Observatory Court Nook. The district should share Gloamreach's shade spectral folk identity, Dark Wood, Slate, Silver, Stained Glass, and Dry Stone Paving, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Memorial or symbolic, with Gloamreach's larger mood shaped by Shadeglass Whisper Court of the Veiled Threshold, Lecture Hall Beacon, and Mist Veils Veiled High Court.",
+      "gameplayAssetNeeds": [
+        "Star Navigation Monument",
+        "University / Lyceum Civic Hall",
+        "Lecture Hall Beacon",
+        "Observatory Court Nook",
+        "Section 1 pedestrian-scale props",
+        "Gloamreach civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Star Navigation Monument",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Star Navigation Monument",
+      "minorLandmarks": [
+        "University / Lyceum Civic Hall",
+        "Lecture Hall Beacon",
+        "Observatory Court Nook"
+      ]
+    },
+    {
+      "districtNumber": 6,
+      "districtId": "D06",
+      "sectionNumber": 1,
+      "name": "D06 — Observatory Court Nook Neighborhood Nook",
+      "civicPurpose": "This district turns Section 1's source-backed anchor set into a board-scale civic space: University / Lyceum Civic Hall, Lecture Hall Beacon, Star Navigation Monument, Observatory Court Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Gloamreach.",
+      "visualIdentity": "Use Observatory Court Nook as the main read. Keep exact source anchors visible where applicable: University / Lyceum Civic Hall, Lecture Hall Beacon, Star Navigation Monument, Observatory Court Nook. The district should share Gloamreach's shade spectral folk identity, Dark Wood, Slate, Silver, Stained Glass, and Dry Stone Paving, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Intimate and lived-in, with Gloamreach's larger mood shaped by Shadeglass Whisper Court of the Veiled Threshold, Lecture Hall Beacon, and Mist Veils Veiled High Court.",
+      "gameplayAssetNeeds": [
+        "Observatory Court Nook",
+        "University / Lyceum Civic Hall",
+        "Lecture Hall Beacon",
+        "Star Navigation Monument",
+        "Section 1 pedestrian-scale props",
+        "Gloamreach civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Observatory Court Nook",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Observatory Court Nook",
+      "minorLandmarks": [
+        "University / Lyceum Civic Hall",
+        "Lecture Hall Beacon",
+        "Star Navigation Monument"
+      ]
+    },
+    {
+      "districtNumber": 7,
+      "districtId": "D07",
+      "sectionNumber": 1,
+      "name": "D07 — University / Lyceum Civic Hall Supporting Streets",
+      "civicPurpose": "This district turns Section 1's source-backed anchor set into a board-scale civic space: University / Lyceum Civic Hall, Lecture Hall Beacon, Star Navigation Monument, Observatory Court Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Gloamreach.",
+      "visualIdentity": "Use University / Lyceum Civic Hall as the main read. Keep exact source anchors visible where applicable: University / Lyceum Civic Hall, Lecture Hall Beacon, Star Navigation Monument, Observatory Court Nook. The district should share Gloamreach's shade spectral folk identity, Dark Wood, Slate, Silver, Stained Glass, and Dry Stone Paving, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Connective and practical, with Gloamreach's larger mood shaped by Shadeglass Whisper Court of the Veiled Threshold, Lecture Hall Beacon, and Mist Veils Veiled High Court.",
+      "gameplayAssetNeeds": [
+        "University / Lyceum Civic Hall",
+        "Lecture Hall Beacon",
+        "Star Navigation Monument",
+        "Observatory Court Nook",
+        "Section 1 pedestrian-scale props",
+        "Gloamreach civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on University / Lyceum Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "University / Lyceum Civic Hall",
+      "minorLandmarks": [
+        "Lecture Hall Beacon",
+        "Star Navigation Monument",
+        "Observatory Court Nook"
+      ]
+    },
+    {
+      "districtNumber": 4,
+      "districtId": "D04",
+      "sectionNumber": 2,
+      "name": "D04 — Underworld / Hidden Economy Civic Hall Civic-Anchor Precinct",
+      "civicPurpose": "This district turns Section 2's source-backed anchor set into a board-scale civic space: Underworld / Hidden Economy Civic Hall, Black Market Arcade, Mist Veils Monument, Understreet Vault Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Gloamreach.",
+      "visualIdentity": "Use Underworld / Hidden Economy Civic Hall as the main read. Keep exact source anchors visible where applicable: Underworld / Hidden Economy Civic Hall, Black Market Arcade, Mist Veils Monument, Understreet Vault Nook. The district should share Gloamreach's shade spectral folk identity, Dark Wood, Slate, Silver, Stained Glass, and Dry Stone Paving, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Locally grounded, with Gloamreach's larger mood shaped by Shadeglass Whisper Court of the Veiled Threshold, Lecture Hall Beacon, and Mist Veils Veiled High Court.",
+      "gameplayAssetNeeds": [
+        "Underworld / Hidden Economy Civic Hall",
+        "Black Market Arcade",
+        "Mist Veils Monument",
+        "Understreet Vault Nook",
+        "Section 2 pedestrian-scale props",
+        "Gloamreach civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Underworld / Hidden Economy Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Underworld / Hidden Economy Civic Hall",
+      "minorLandmarks": [
+        "Black Market Arcade",
+        "Mist Veils Monument",
+        "Understreet Vault Nook"
+      ]
+    },
+    {
+      "districtNumber": 5,
+      "districtId": "D05",
+      "sectionNumber": 2,
+      "name": "D05 — Black Market Arcade Landmark Approach",
+      "civicPurpose": "This district turns Section 2's source-backed anchor set into a board-scale civic space: Underworld / Hidden Economy Civic Hall, Black Market Arcade, Mist Veils Monument, Understreet Vault Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Gloamreach.",
+      "visualIdentity": "Use Black Market Arcade as the main read. Keep exact source anchors visible where applicable: Underworld / Hidden Economy Civic Hall, Black Market Arcade, Mist Veils Monument, Understreet Vault Nook. The district should share Gloamreach's shade spectral folk identity, Dark Wood, Slate, Silver, Stained Glass, and Dry Stone Paving, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Public-facing, with Gloamreach's larger mood shaped by Shadeglass Whisper Court of the Veiled Threshold, Lecture Hall Beacon, and Mist Veils Veiled High Court.",
+      "gameplayAssetNeeds": [
+        "Black Market Arcade",
+        "Underworld / Hidden Economy Civic Hall",
+        "Mist Veils Monument",
+        "Understreet Vault Nook",
+        "Section 2 pedestrian-scale props",
+        "Gloamreach civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Black Market Arcade",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Black Market Arcade",
+      "minorLandmarks": [
+        "Underworld / Hidden Economy Civic Hall",
+        "Mist Veils Monument",
+        "Understreet Vault Nook"
+      ]
+    },
+    {
+      "districtNumber": 9,
+      "districtId": "D09",
+      "sectionNumber": 2,
+      "name": "D09 — Mist Veils Monument Monument Frontage",
+      "civicPurpose": "This district turns Section 2's source-backed anchor set into a board-scale civic space: Underworld / Hidden Economy Civic Hall, Black Market Arcade, Mist Veils Monument, Understreet Vault Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Gloamreach.",
+      "visualIdentity": "Use Mist Veils Monument as the main read. Keep exact source anchors visible where applicable: Underworld / Hidden Economy Civic Hall, Black Market Arcade, Mist Veils Monument, Understreet Vault Nook. The district should share Gloamreach's shade spectral folk identity, Dark Wood, Slate, Silver, Stained Glass, and Dry Stone Paving, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Memorial or symbolic, with Gloamreach's larger mood shaped by Shadeglass Whisper Court of the Veiled Threshold, Lecture Hall Beacon, and Mist Veils Veiled High Court.",
+      "gameplayAssetNeeds": [
+        "Mist Veils Monument",
+        "Underworld / Hidden Economy Civic Hall",
+        "Black Market Arcade",
+        "Understreet Vault Nook",
+        "Section 2 pedestrian-scale props",
+        "Gloamreach civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Mist Veils Monument",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Mist Veils Monument",
+      "minorLandmarks": [
+        "Underworld / Hidden Economy Civic Hall",
+        "Black Market Arcade",
+        "Understreet Vault Nook"
+      ]
+    },
+    {
+      "districtNumber": 10,
+      "districtId": "D10",
+      "sectionNumber": 2,
+      "name": "D10 — Understreet Vault Nook Neighborhood Nook",
+      "civicPurpose": "This district turns Section 2's source-backed anchor set into a board-scale civic space: Underworld / Hidden Economy Civic Hall, Black Market Arcade, Mist Veils Monument, Understreet Vault Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Gloamreach.",
+      "visualIdentity": "Use Understreet Vault Nook as the main read. Keep exact source anchors visible where applicable: Underworld / Hidden Economy Civic Hall, Black Market Arcade, Mist Veils Monument, Understreet Vault Nook. The district should share Gloamreach's shade spectral folk identity, Dark Wood, Slate, Silver, Stained Glass, and Dry Stone Paving, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Intimate and lived-in, with Gloamreach's larger mood shaped by Shadeglass Whisper Court of the Veiled Threshold, Lecture Hall Beacon, and Mist Veils Veiled High Court.",
+      "gameplayAssetNeeds": [
+        "Understreet Vault Nook",
+        "Underworld / Hidden Economy Civic Hall",
+        "Black Market Arcade",
+        "Mist Veils Monument",
+        "Section 2 pedestrian-scale props",
+        "Gloamreach civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Understreet Vault Nook",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Understreet Vault Nook",
+      "minorLandmarks": [
+        "Underworld / Hidden Economy Civic Hall",
+        "Black Market Arcade",
+        "Mist Veils Monument"
+      ]
+    },
+    {
+      "districtNumber": 15,
+      "districtId": "D15",
+      "sectionNumber": 2,
+      "name": "D15 — Underworld / Hidden Economy Civic Hall Supporting Streets",
+      "civicPurpose": "This district turns Section 2's source-backed anchor set into a board-scale civic space: Underworld / Hidden Economy Civic Hall, Black Market Arcade, Mist Veils Monument, Understreet Vault Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Gloamreach.",
+      "visualIdentity": "Use Underworld / Hidden Economy Civic Hall as the main read. Keep exact source anchors visible where applicable: Underworld / Hidden Economy Civic Hall, Black Market Arcade, Mist Veils Monument, Understreet Vault Nook. The district should share Gloamreach's shade spectral folk identity, Dark Wood, Slate, Silver, Stained Glass, and Dry Stone Paving, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Connective and practical, with Gloamreach's larger mood shaped by Shadeglass Whisper Court of the Veiled Threshold, Lecture Hall Beacon, and Mist Veils Veiled High Court.",
+      "gameplayAssetNeeds": [
+        "Underworld / Hidden Economy Civic Hall",
+        "Black Market Arcade",
+        "Mist Veils Monument",
+        "Understreet Vault Nook",
+        "Section 2 pedestrian-scale props",
+        "Gloamreach civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Underworld / Hidden Economy Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Underworld / Hidden Economy Civic Hall",
+      "minorLandmarks": [
+        "Black Market Arcade",
+        "Mist Veils Monument",
+        "Understreet Vault Nook"
+      ]
+    },
+    {
+      "districtNumber": 8,
+      "districtId": "D08",
+      "sectionNumber": 3,
+      "name": "D08 — Records / Archives Hall Civic-Anchor Precinct",
+      "civicPurpose": "This district turns Section 3's source-backed anchor set into a board-scale civic space: Records / Archives Hall, Archive Tower, Records Archives Gold-Seal Monument, Copyist Hall Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Gloamreach.",
+      "visualIdentity": "Use Records / Archives Hall as the main read. Keep exact source anchors visible where applicable: Records / Archives Hall, Archive Tower, Records Archives Gold-Seal Monument, Copyist Hall Nook. The district should share Gloamreach's shade spectral folk identity, Dark Wood, Slate, Silver, Stained Glass, and Dry Stone Paving, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Locally grounded, with Gloamreach's larger mood shaped by Shadeglass Whisper Court of the Veiled Threshold, Lecture Hall Beacon, and Mist Veils Veiled High Court.",
+      "gameplayAssetNeeds": [
+        "Records / Archives Hall",
+        "Archive Tower",
+        "Records Archives Gold-Seal Monument",
+        "Copyist Hall Nook",
+        "Section 3 pedestrian-scale props",
+        "Gloamreach civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Records / Archives Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Records / Archives Hall",
+      "minorLandmarks": [
+        "Archive Tower",
+        "Records Archives Gold-Seal Monument",
+        "Copyist Hall Nook"
+      ]
+    },
+    {
+      "districtNumber": 12,
+      "districtId": "D12",
+      "sectionNumber": 3,
+      "name": "D12 — Archive Tower Landmark Approach",
+      "civicPurpose": "This district turns Section 3's source-backed anchor set into a board-scale civic space: Records / Archives Hall, Archive Tower, Records Archives Gold-Seal Monument, Copyist Hall Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Gloamreach.",
+      "visualIdentity": "Use Archive Tower as the main read. Keep exact source anchors visible where applicable: Records / Archives Hall, Archive Tower, Records Archives Gold-Seal Monument, Copyist Hall Nook. The district should share Gloamreach's shade spectral folk identity, Dark Wood, Slate, Silver, Stained Glass, and Dry Stone Paving, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Public-facing, with Gloamreach's larger mood shaped by Shadeglass Whisper Court of the Veiled Threshold, Lecture Hall Beacon, and Mist Veils Veiled High Court.",
+      "gameplayAssetNeeds": [
+        "Archive Tower",
+        "Records / Archives Hall",
+        "Records Archives Gold-Seal Monument",
+        "Copyist Hall Nook",
+        "Section 3 pedestrian-scale props",
+        "Gloamreach civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Archive Tower",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Archive Tower",
+      "minorLandmarks": [
+        "Records / Archives Hall",
+        "Records Archives Gold-Seal Monument",
+        "Copyist Hall Nook"
+      ]
+    },
+    {
+      "districtNumber": 13,
+      "districtId": "D13",
+      "sectionNumber": 3,
+      "name": "D13 — Mist Veils Veiled High Court Seat of Power District",
+      "civicPurpose": "This district turns Section 3's source-backed anchor set into a board-scale civic space: Records / Archives Hall, Archive Tower, Records Archives Gold-Seal Monument, Copyist Hall Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Gloamreach.",
+      "visualIdentity": "Use Mist Veils Veiled High Court as the main read. Keep exact source anchors visible where applicable: Records / Archives Hall, Archive Tower, Records Archives Gold-Seal Monument, Copyist Hall Nook. The district should share Gloamreach's shade spectral folk identity, Dark Wood, Slate, Silver, Stained Glass, and Dry Stone Paving, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Memorial or symbolic, with Gloamreach's larger mood shaped by Shadeglass Whisper Court of the Veiled Threshold, Lecture Hall Beacon, and Mist Veils Veiled High Court.",
+      "gameplayAssetNeeds": [
+        "Mist Veils Veiled High Court",
+        "Records / Archives Hall",
+        "Archive Tower",
+        "Records Archives Gold-Seal Monument",
+        "Copyist Hall Nook",
+        "Section 3 pedestrian-scale props",
+        "Gloamreach civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Mist Veils Veiled High Court",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "Conjunction response, rumor spread, or authority pressure"
+      ],
+      "landmark": "Mist Veils Veiled High Court",
+      "minorLandmarks": [
+        "Records / Archives Hall",
+        "Archive Tower",
+        "Records Archives Gold-Seal Monument",
+        "Copyist Hall Nook"
+      ]
+    },
+    {
+      "districtNumber": 14,
+      "districtId": "D14",
+      "sectionNumber": 3,
+      "name": "D14 — Copyist Hall Nook Neighborhood Nook",
+      "civicPurpose": "This district turns Section 3's source-backed anchor set into a board-scale civic space: Records / Archives Hall, Archive Tower, Records Archives Gold-Seal Monument, Copyist Hall Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Gloamreach.",
+      "visualIdentity": "Use Copyist Hall Nook as the main read. Keep exact source anchors visible where applicable: Records / Archives Hall, Archive Tower, Records Archives Gold-Seal Monument, Copyist Hall Nook. The district should share Gloamreach's shade spectral folk identity, Dark Wood, Slate, Silver, Stained Glass, and Dry Stone Paving, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Intimate and lived-in, with Gloamreach's larger mood shaped by Shadeglass Whisper Court of the Veiled Threshold, Lecture Hall Beacon, and Mist Veils Veiled High Court.",
+      "gameplayAssetNeeds": [
+        "Copyist Hall Nook",
+        "Records / Archives Hall",
+        "Archive Tower",
+        "Records Archives Gold-Seal Monument",
+        "Section 3 pedestrian-scale props",
+        "Gloamreach civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Copyist Hall Nook",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Copyist Hall Nook",
+      "minorLandmarks": [
+        "Records / Archives Hall",
+        "Archive Tower",
+        "Records Archives Gold-Seal Monument"
+      ]
+    },
+    {
+      "districtNumber": 18,
+      "districtId": "D18",
+      "sectionNumber": 3,
+      "name": "D18 — Records / Archives Hall Supporting Streets",
+      "civicPurpose": "This district turns Section 3's source-backed anchor set into a board-scale civic space: Records / Archives Hall, Archive Tower, Records Archives Gold-Seal Monument, Copyist Hall Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Gloamreach.",
+      "visualIdentity": "Use Records / Archives Hall as the main read. Keep exact source anchors visible where applicable: Records / Archives Hall, Archive Tower, Records Archives Gold-Seal Monument, Copyist Hall Nook. The district should share Gloamreach's shade spectral folk identity, Dark Wood, Slate, Silver, Stained Glass, and Dry Stone Paving, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Connective and practical, with Gloamreach's larger mood shaped by Shadeglass Whisper Court of the Veiled Threshold, Lecture Hall Beacon, and Mist Veils Veiled High Court.",
+      "gameplayAssetNeeds": [
+        "Records / Archives Hall",
+        "Archive Tower",
+        "Records Archives Gold-Seal Monument",
+        "Copyist Hall Nook",
+        "Section 3 pedestrian-scale props",
+        "Gloamreach civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Records / Archives Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Records / Archives Hall",
+      "minorLandmarks": [
+        "Archive Tower",
+        "Records Archives Gold-Seal Monument",
+        "Copyist Hall Nook"
+      ]
+    },
+    {
+      "districtNumber": 11,
+      "districtId": "D11",
+      "sectionNumber": 4,
+      "name": "D11 — Slums / Informal Settlement Civic Hall Civic-Anchor Precinct",
+      "civicPurpose": "This district turns Section 4's source-backed anchor set into a board-scale civic space: Slums / Informal Settlement Civic Hall, Scrap Market, Slums Informal Settlement Lantern Monument, Patched Tenement Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Gloamreach.",
+      "visualIdentity": "Use Slums / Informal Settlement Civic Hall as the main read. Keep exact source anchors visible where applicable: Slums / Informal Settlement Civic Hall, Scrap Market, Slums Informal Settlement Lantern Monument, Patched Tenement Nook. The district should share Gloamreach's shade spectral folk identity, Dark Wood, Slate, Silver, Stained Glass, and Dry Stone Paving, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Locally grounded, with Gloamreach's larger mood shaped by Shadeglass Whisper Court of the Veiled Threshold, Lecture Hall Beacon, and Mist Veils Veiled High Court.",
+      "gameplayAssetNeeds": [
+        "Slums / Informal Settlement Civic Hall",
+        "Scrap Market",
+        "Slums Informal Settlement Lantern Monument",
+        "Patched Tenement Nook",
+        "Section 4 pedestrian-scale props",
+        "Gloamreach civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Slums / Informal Settlement Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Slums / Informal Settlement Civic Hall",
+      "minorLandmarks": [
+        "Scrap Market",
+        "Slums Informal Settlement Lantern Monument",
+        "Patched Tenement Nook"
+      ]
+    },
+    {
+      "districtNumber": 16,
+      "districtId": "D16",
+      "sectionNumber": 4,
+      "name": "D16 — Scrap Market Landmark Approach",
+      "civicPurpose": "This district turns Section 4's source-backed anchor set into a board-scale civic space: Slums / Informal Settlement Civic Hall, Scrap Market, Slums Informal Settlement Lantern Monument, Patched Tenement Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Gloamreach.",
+      "visualIdentity": "Use Scrap Market as the main read. Keep exact source anchors visible where applicable: Slums / Informal Settlement Civic Hall, Scrap Market, Slums Informal Settlement Lantern Monument, Patched Tenement Nook. The district should share Gloamreach's shade spectral folk identity, Dark Wood, Slate, Silver, Stained Glass, and Dry Stone Paving, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Public-facing, with Gloamreach's larger mood shaped by Shadeglass Whisper Court of the Veiled Threshold, Lecture Hall Beacon, and Mist Veils Veiled High Court.",
+      "gameplayAssetNeeds": [
+        "Scrap Market",
+        "Slums / Informal Settlement Civic Hall",
+        "Slums Informal Settlement Lantern Monument",
+        "Patched Tenement Nook",
+        "Section 4 pedestrian-scale props",
+        "Gloamreach civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Scrap Market",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Scrap Market",
+      "minorLandmarks": [
+        "Slums / Informal Settlement Civic Hall",
+        "Slums Informal Settlement Lantern Monument",
+        "Patched Tenement Nook"
+      ]
+    },
+    {
+      "districtNumber": 17,
+      "districtId": "D17",
+      "sectionNumber": 4,
+      "name": "D17 — Slums Informal Settlement Lantern Monument Monument Frontage",
+      "civicPurpose": "This district turns Section 4's source-backed anchor set into a board-scale civic space: Slums / Informal Settlement Civic Hall, Scrap Market, Slums Informal Settlement Lantern Monument, Patched Tenement Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Gloamreach.",
+      "visualIdentity": "Use Slums Informal Settlement Lantern Monument as the main read. Keep exact source anchors visible where applicable: Slums / Informal Settlement Civic Hall, Scrap Market, Slums Informal Settlement Lantern Monument, Patched Tenement Nook. The district should share Gloamreach's shade spectral folk identity, Dark Wood, Slate, Silver, Stained Glass, and Dry Stone Paving, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Memorial or symbolic, with Gloamreach's larger mood shaped by Shadeglass Whisper Court of the Veiled Threshold, Lecture Hall Beacon, and Mist Veils Veiled High Court.",
+      "gameplayAssetNeeds": [
+        "Slums Informal Settlement Lantern Monument",
+        "Slums / Informal Settlement Civic Hall",
+        "Scrap Market",
+        "Patched Tenement Nook",
+        "Section 4 pedestrian-scale props",
+        "Gloamreach civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Slums Informal Settlement Lantern Monument",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Slums Informal Settlement Lantern Monument",
+      "minorLandmarks": [
+        "Slums / Informal Settlement Civic Hall",
+        "Scrap Market",
+        "Patched Tenement Nook"
+      ]
+    },
+    {
+      "districtNumber": 21,
+      "districtId": "D21",
+      "sectionNumber": 4,
+      "name": "D21 — Patched Tenement Nook Neighborhood Nook",
+      "civicPurpose": "This district turns Section 4's source-backed anchor set into a board-scale civic space: Slums / Informal Settlement Civic Hall, Scrap Market, Slums Informal Settlement Lantern Monument, Patched Tenement Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Gloamreach.",
+      "visualIdentity": "Use Patched Tenement Nook as the main read. Keep exact source anchors visible where applicable: Slums / Informal Settlement Civic Hall, Scrap Market, Slums Informal Settlement Lantern Monument, Patched Tenement Nook. The district should share Gloamreach's shade spectral folk identity, Dark Wood, Slate, Silver, Stained Glass, and Dry Stone Paving, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Intimate and lived-in, with Gloamreach's larger mood shaped by Shadeglass Whisper Court of the Veiled Threshold, Lecture Hall Beacon, and Mist Veils Veiled High Court.",
+      "gameplayAssetNeeds": [
+        "Patched Tenement Nook",
+        "Slums / Informal Settlement Civic Hall",
+        "Scrap Market",
+        "Slums Informal Settlement Lantern Monument",
+        "Section 4 pedestrian-scale props",
+        "Gloamreach civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Patched Tenement Nook",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Patched Tenement Nook",
+      "minorLandmarks": [
+        "Slums / Informal Settlement Civic Hall",
+        "Scrap Market",
+        "Slums Informal Settlement Lantern Monument"
+      ]
+    },
+    {
+      "districtNumber": 22,
+      "districtId": "D22",
+      "sectionNumber": 4,
+      "name": "D22 — Slums / Informal Settlement Civic Hall Supporting Streets",
+      "civicPurpose": "This district turns Section 4's source-backed anchor set into a board-scale civic space: Slums / Informal Settlement Civic Hall, Scrap Market, Slums Informal Settlement Lantern Monument, Patched Tenement Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Gloamreach.",
+      "visualIdentity": "Use Slums / Informal Settlement Civic Hall as the main read. Keep exact source anchors visible where applicable: Slums / Informal Settlement Civic Hall, Scrap Market, Slums Informal Settlement Lantern Monument, Patched Tenement Nook. The district should share Gloamreach's shade spectral folk identity, Dark Wood, Slate, Silver, Stained Glass, and Dry Stone Paving, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Connective and practical, with Gloamreach's larger mood shaped by Shadeglass Whisper Court of the Veiled Threshold, Lecture Hall Beacon, and Mist Veils Veiled High Court.",
+      "gameplayAssetNeeds": [
+        "Slums / Informal Settlement Civic Hall",
+        "Scrap Market",
+        "Slums Informal Settlement Lantern Monument",
+        "Patched Tenement Nook",
+        "Section 4 pedestrian-scale props",
+        "Gloamreach civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Slums / Informal Settlement Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Slums / Informal Settlement Civic Hall",
+      "minorLandmarks": [
+        "Scrap Market",
+        "Slums Informal Settlement Lantern Monument",
+        "Patched Tenement Nook"
+      ]
+    },
+    {
+      "districtNumber": 19,
+      "districtId": "D19",
+      "sectionNumber": 5,
+      "name": "D19 — Low Residential Civic Hall Civic-Anchor Precinct",
+      "civicPurpose": "This district turns Section 5's source-backed anchor set into a board-scale civic space: Low Residential Civic Hall, Tenement Court, Low Residential Lantern Monument, Laundry Well Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Gloamreach.",
+      "visualIdentity": "Use Low Residential Civic Hall as the main read. Keep exact source anchors visible where applicable: Low Residential Civic Hall, Tenement Court, Low Residential Lantern Monument, Laundry Well Nook. The district should share Gloamreach's shade spectral folk identity, Dark Wood, Slate, Silver, Stained Glass, and Dry Stone Paving, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Locally grounded, with Gloamreach's larger mood shaped by Shadeglass Whisper Court of the Veiled Threshold, Lecture Hall Beacon, and Mist Veils Veiled High Court.",
+      "gameplayAssetNeeds": [
+        "Low Residential Civic Hall",
+        "Tenement Court",
+        "Low Residential Lantern Monument",
+        "Laundry Well Nook",
+        "Section 5 pedestrian-scale props",
+        "Gloamreach civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Low Residential Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Low Residential Civic Hall",
+      "minorLandmarks": [
+        "Tenement Court",
+        "Low Residential Lantern Monument",
+        "Laundry Well Nook"
+      ]
+    },
+    {
+      "districtNumber": 20,
+      "districtId": "D20",
+      "sectionNumber": 5,
+      "name": "D20 — Tenement Court Landmark Approach",
+      "civicPurpose": "This district turns Section 5's source-backed anchor set into a board-scale civic space: Low Residential Civic Hall, Tenement Court, Low Residential Lantern Monument, Laundry Well Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Gloamreach.",
+      "visualIdentity": "Use Tenement Court as the main read. Keep exact source anchors visible where applicable: Low Residential Civic Hall, Tenement Court, Low Residential Lantern Monument, Laundry Well Nook. The district should share Gloamreach's shade spectral folk identity, Dark Wood, Slate, Silver, Stained Glass, and Dry Stone Paving, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Public-facing, with Gloamreach's larger mood shaped by Shadeglass Whisper Court of the Veiled Threshold, Lecture Hall Beacon, and Mist Veils Veiled High Court.",
+      "gameplayAssetNeeds": [
+        "Tenement Court",
+        "Low Residential Civic Hall",
+        "Low Residential Lantern Monument",
+        "Laundry Well Nook",
+        "Section 5 pedestrian-scale props",
+        "Gloamreach civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Tenement Court",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Tenement Court",
+      "minorLandmarks": [
+        "Low Residential Civic Hall",
+        "Low Residential Lantern Monument",
+        "Laundry Well Nook"
+      ]
+    },
+    {
+      "districtNumber": 23,
+      "districtId": "D23",
+      "sectionNumber": 5,
+      "name": "D23 — Low Residential Lantern Monument Monument Frontage",
+      "civicPurpose": "This district turns Section 5's source-backed anchor set into a board-scale civic space: Low Residential Civic Hall, Tenement Court, Low Residential Lantern Monument, Laundry Well Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Gloamreach.",
+      "visualIdentity": "Use Low Residential Lantern Monument as the main read. Keep exact source anchors visible where applicable: Low Residential Civic Hall, Tenement Court, Low Residential Lantern Monument, Laundry Well Nook. The district should share Gloamreach's shade spectral folk identity, Dark Wood, Slate, Silver, Stained Glass, and Dry Stone Paving, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Memorial or symbolic, with Gloamreach's larger mood shaped by Shadeglass Whisper Court of the Veiled Threshold, Lecture Hall Beacon, and Mist Veils Veiled High Court.",
+      "gameplayAssetNeeds": [
+        "Low Residential Lantern Monument",
+        "Low Residential Civic Hall",
+        "Tenement Court",
+        "Laundry Well Nook",
+        "Section 5 pedestrian-scale props",
+        "Gloamreach civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Low Residential Lantern Monument",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Low Residential Lantern Monument",
+      "minorLandmarks": [
+        "Low Residential Civic Hall",
+        "Tenement Court",
+        "Laundry Well Nook"
+      ]
+    },
+    {
+      "districtNumber": 24,
+      "districtId": "D24",
+      "sectionNumber": 5,
+      "name": "D24 — Laundry Well Nook Neighborhood Nook",
+      "civicPurpose": "This district turns Section 5's source-backed anchor set into a board-scale civic space: Low Residential Civic Hall, Tenement Court, Low Residential Lantern Monument, Laundry Well Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Gloamreach.",
+      "visualIdentity": "Use Laundry Well Nook as the main read. Keep exact source anchors visible where applicable: Low Residential Civic Hall, Tenement Court, Low Residential Lantern Monument, Laundry Well Nook. The district should share Gloamreach's shade spectral folk identity, Dark Wood, Slate, Silver, Stained Glass, and Dry Stone Paving, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Intimate and lived-in, with Gloamreach's larger mood shaped by Shadeglass Whisper Court of the Veiled Threshold, Lecture Hall Beacon, and Mist Veils Veiled High Court.",
+      "gameplayAssetNeeds": [
+        "Laundry Well Nook",
+        "Low Residential Civic Hall",
+        "Tenement Court",
+        "Low Residential Lantern Monument",
+        "Section 5 pedestrian-scale props",
+        "Gloamreach civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Laundry Well Nook",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Laundry Well Nook",
+      "minorLandmarks": [
+        "Low Residential Civic Hall",
+        "Tenement Court",
+        "Low Residential Lantern Monument"
+      ]
+    },
+    {
+      "districtNumber": 25,
+      "districtId": "D25",
+      "sectionNumber": 5,
+      "name": "D25 — Low Residential Civic Hall Supporting Streets",
+      "civicPurpose": "This district turns Section 5's source-backed anchor set into a board-scale civic space: Low Residential Civic Hall, Tenement Court, Low Residential Lantern Monument, Laundry Well Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Gloamreach.",
+      "visualIdentity": "Use Low Residential Civic Hall as the main read. Keep exact source anchors visible where applicable: Low Residential Civic Hall, Tenement Court, Low Residential Lantern Monument, Laundry Well Nook. The district should share Gloamreach's shade spectral folk identity, Dark Wood, Slate, Silver, Stained Glass, and Dry Stone Paving, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Connective and practical, with Gloamreach's larger mood shaped by Shadeglass Whisper Court of the Veiled Threshold, Lecture Hall Beacon, and Mist Veils Veiled High Court.",
+      "gameplayAssetNeeds": [
+        "Low Residential Civic Hall",
+        "Tenement Court",
+        "Low Residential Lantern Monument",
+        "Laundry Well Nook",
+        "Section 5 pedestrian-scale props",
+        "Gloamreach civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Low Residential Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Low Residential Civic Hall",
+      "minorLandmarks": [
+        "Tenement Court",
+        "Low Residential Lantern Monument",
+        "Laundry Well Nook"
+      ]
+    }
   ],
   "landmarks": {
-    "wonder": {"name": "Shadeglass Whisper Court of the Veiled Threshold", "symbolicRole": "The threshold between seen and unseen, spoken and withheld, living and spectral, official and whispered.", "visualRole": "Vast shadeglass court of veiled arches, reflective dark glass, pale stone, blue spectral light, misty terraces, whispering galleries, and threshold geometry.", "civicRole": "Wonder-scale civic site for threshold ceremonies, oaths of disclosure, veiled court observances, scholarly convocations, whisper rites, and memory sealing.", "narrativeUse": ["controlled revelation", "threshold rite", "public oath", "secrecy as civic value", "memory sealing"], "assetUse": ["map wonder", "far skyline anchor", "shadeglass visual motif"], "sensoryIdentity": ["whispers", "blue shimmer", "cold glass", "mist", "echoing arches"], "storyHooks": ["A whisper rite reveals that the city protects some truths by burying others."]},
-    "beacon": {"name": "Lecture Hall Beacon", "symbolicRole": "Knowledge illuminating danger unevenly through mist.", "visualRole": "Blue-lit signal landmark rising from the University / Lyceum district among lecture courts, archive towers, moonstone, observatory instruments, and wet plazas.", "civicRole": "Coordinates lecture musters, public warnings, scholarly announcements, student gatherings, and archive alerts.", "narrativeUse": ["Beacon warning", "public lecture", "scholarly alarm", "crowd interpretation"], "assetUse": ["S1 centerpiece", "signal marker"], "sensoryIdentity": ["blue glow", "wet stone", "student voices", "bell echoes"], "storyHooks": ["Whoever explains the Beacon first controls what the city believes it means."]},
-    "seatOfPower": {"name": "Mist Veils Veiled High Court", "symbolicRole": "Governance through controlled visibility and authorized truth.", "visualRole": "Central high court of pale stone, mist veils, black banners, sealed archive wings, audience terraces, command platforms, blue lamps, and gothic approaches.", "civicRole": "Handles audiences, sealed hearings, archive rulings, public petitions, threshold decrees, scholarly appointments, and disclosure ceremonies.", "narrativeUse": ["sealed hearing", "archive ruling", "public petition", "controlled disclosure", "court access"], "assetUse": ["seat-of-power marker", "central court diorama"], "sensoryIdentity": ["mist", "ink", "stone echo", "black cloth", "sealed wax"], "storyHooks": ["A High Court decree decides when a truth is allowed to exist in public."]},
+    "wonder": {
+      "name": "Shadeglass Whisper Court of the Veiled Threshold",
+      "symbolicRole": "Shadeglass Whisper Court of the Veiled Threshold concentrates Gloamreach's local symbolism into a usable civic landmark: city wonder, separate far skyline anchor.",
+      "visualRole": "A one-per-city wonder: spectacular, unmistakable, and larger than every section landmark. It turns Gloamreach's geography, race identity, material culture, and civic magic into one public symbol. Built for Gloamreach's shade spectral folk population, it uses Dark Wood, Slate, Silver, Stained Glass, Arcane Glow across Dry Stone Paving, Civic Terraces; water context: dry city ground; magic expression: Ward Networks, Ritual Geometry, Shadow Veils. It must read clearly as a high-fantasy tactical-board asset with no baked labels or text.",
+      "civicRole": "Serves as city wonder, separate far skyline anchor within Gloamreach; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+      "narrativeUse": [
+        "stage scenes involving Shadeglass Whisper Court of the Veiled Threshold",
+        "show how Gloamreach turns landmark symbolism into civic pressure",
+        "anchor public movement and crowd behavior",
+        "give writers a concrete place for announcements, disputes, errands, or rituals"
+      ],
+      "assetUse": [
+        "city landmark asset",
+        "map background landmark marker",
+        "visual continuity anchor across hero and street scenes",
+        "scale reference for civilians, roads, plazas, and props"
+      ],
+      "sensoryIdentity": [
+        "local foot traffic",
+        "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+        "public voices and civic work nearby",
+        "ambient city light and weathering",
+        "close pedestrian-scale details rather than abstract skyline-only treatment"
+      ],
+      "storyHooks": [
+        "a routine civic action at Shadeglass Whisper Court of the Veiled Threshold becomes narratively important",
+        "the visible condition of Shadeglass Whisper Court of the Veiled Threshold signals political or social stress",
+        "someone uses Shadeglass Whisper Court of the Veiled Threshold's public function to redirect crowds or information",
+        "an overlooked detail at Shadeglass Whisper Court of the Veiled Threshold reveals how Gloamreach really works"
+      ]
+    },
+    "beacon": {
+      "name": "Lecture Hall Beacon",
+      "symbolicRole": "Lecture Hall Beacon concentrates Gloamreach's local symbolism into a usable civic landmark: Section 1 beacon, near/front civic signal anchor.",
+      "visualRole": "A largest local landmark in this section, subordinate only to the city wonder and citadel. It belongs to Section 1 (University / Lyceum) of Gloamreach and should use Archive Towers, White Limestone Civic Blocks, Lecture Courts, silver and moonstone materials, Star Navigation, Lantern Lit, Civic Blue Glow, and the shade spectral folk visual language. Design focus: strong vertical silhouette, distinct gameplay landmark, visible from nearby districts, books, ink. Terrain/water context: Dry Stone Paving; Dry Ground. Magic expression: Echo Magic, Spirit Lanterns, Archive Echoes. No baked labels or text.",
+      "civicRole": "Serves as Section 1 beacon, near/front civic signal anchor within Gloamreach; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+      "narrativeUse": [
+        "stage scenes involving Lecture Hall Beacon",
+        "show how Gloamreach turns landmark symbolism into civic pressure",
+        "anchor public movement and crowd behavior",
+        "give writers a concrete place for announcements, disputes, errands, or rituals"
+      ],
+      "assetUse": [
+        "district diorama anchor for Section 1",
+        "map background landmark marker",
+        "visual continuity anchor across hero and street scenes",
+        "scale reference for civilians, roads, plazas, and props"
+      ],
+      "sensoryIdentity": [
+        "local foot traffic",
+        "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+        "public voices and civic work nearby",
+        "beacon or lamp glow when applicable",
+        "close pedestrian-scale details rather than abstract skyline-only treatment"
+      ],
+      "storyHooks": [
+        "a routine civic action at Lecture Hall Beacon becomes narratively important",
+        "the visible condition of Lecture Hall Beacon signals political or social stress",
+        "someone uses Lecture Hall Beacon's public function to redirect crowds or information",
+        "an overlooked detail at Lecture Hall Beacon reveals how Gloamreach really works"
+      ]
+    },
+    "seatOfPower": {
+      "name": "Mist Veils Veiled High Court",
+      "symbolicRole": "Mist Veils Veiled High Court concentrates Gloamreach's local symbolism into a usable civic landmark: dominant central civic anchor / District 13 seat of power.",
+      "visualRole": "The district-13 seat of power: courts, audience terraces, sealed archives, command platforms, and the visible apparatus of government. It is not a faction HQ; it is the city's central civic authority. Built for Gloamreach's shade spectral folk population, it uses Dark Wood, Slate, Silver, Stained Glass, Arcane Glow across Dry Stone Paving, Civic Terraces; water context: dry city ground; magic expression: Ward Networks, Ritual Geometry, Shadow Veils. It must read clearly as a high-fantasy tactical-board asset with no baked labels or text.",
+      "civicRole": "Serves as dominant central civic anchor / District 13 seat of power within Gloamreach; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+      "narrativeUse": [
+        "stage scenes involving Mist Veils Veiled High Court",
+        "show how Gloamreach turns landmark symbolism into civic pressure",
+        "anchor public movement and crowd behavior",
+        "give writers a concrete place for announcements, disputes, errands, or rituals"
+      ],
+      "assetUse": [
+        "city landmark asset",
+        "map background landmark marker",
+        "visual continuity anchor across hero and street scenes",
+        "scale reference for civilians, roads, plazas, and props"
+      ],
+      "sensoryIdentity": [
+        "local foot traffic",
+        "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+        "public voices and civic work nearby",
+        "ambient city light and weathering",
+        "close pedestrian-scale details rather than abstract skyline-only treatment"
+      ],
+      "storyHooks": [
+        "a routine civic action at Mist Veils Veiled High Court becomes narratively important",
+        "the visible condition of Mist Veils Veiled High Court signals political or social stress",
+        "someone uses Mist Veils Veiled High Court's public function to redirect crowds or information",
+        "an overlooked detail at Mist Veils Veiled High Court reveals how Gloamreach really works"
+      ]
+    },
     "majorLandmarks": [
-      {"name": "Black Market Arcade", "symbolicRole": "The hidden economy the city denies and depends on.", "visualRole": "Coded stalls, vault doors, black-market lanterns, mist-veiled arches, and subterranean stairs.", "civicRole": "Contraband knowledge, vault debt, relic trade, informal supply, and rumor exchange.", "narrativeUse": ["forbidden records", "debts", "hidden commerce"], "assetUse": ["S2 diorama"], "sensoryIdentity": ["whispers", "lamp smoke", "wet stone", "metal keys"], "storyHooks": ["A broker sells the missing half of an official archive record."]},
-      {"name": "Archive Tower", "symbolicRole": "Official memory made vertical and selective.", "visualRole": "Tall pale archive with gold seals, blue windows, copyist halls, sealed stairs, and record balconies.", "civicRole": "Stores records, petitions, legal copies, civic history, and controlled memory.", "narrativeUse": ["document clue", "record conflict", "public memory"], "assetUse": ["S3 diorama"], "sensoryIdentity": ["paper", "ink", "wax", "quiet bells"], "storyHooks": ["A gold-sealed copy contradicts the version taught in the lecture hall."]},
-      {"name": "Scrap Market", "symbolicRole": "Survival memory outside official record.", "visualRole": "Patched stalls, scrap piles, lantern monument, damp lanes, and repaired tools.", "civicRole": "Informal repair, survival commerce, neighborhood exchange, and overlooked evidence.", "narrativeUse": ["repair clue", "slum trade", "overlooked witness"], "assetUse": ["S4 diorama"], "sensoryIdentity": ["metal scrap", "lamp smoke", "damp cloth", "market stew"], "storyHooks": ["A repair mark proves what the archive refuses to name."]},
-      {"name": "Tenement Court", "symbolicRole": "Ordinary domestic persistence in a city of controlled visibility.", "visualRole": "Low residential court with laundry well, lantern monument, patched timber, clotheslines, damp steps, and pale spectral families.", "civicRole": "Housing, shared water, gossip, tenancy pressure, and daily continuity.", "narrativeUse": ["gossip", "domestic stakes", "tenant pressure", "ordinary spectral life"], "assetUse": ["S5 diorama"], "sensoryIdentity": ["laundry soap", "damp wool", "low voices", "cheap candles"], "storyHooks": ["A laundry-well complaint identifies a truth no court has authorized."]}
+      {
+        "name": "Tenement Court",
+        "symbolicRole": "Tenement Court concentrates Gloamreach's local symbolism into a usable civic landmark: additional major landmark selected for this hero-view camera angle.",
+        "visualRole": "A largest local landmark in this section, subordinate only to the city wonder and citadel. It belongs to Section 5 (Low Residential) of Gloamreach and should use White Limestone Civic Blocks, Timber Longhouses, Market Arcades, silver and moonstone materials, Red Fabric Awnings, Woven Banners, Lantern Lit, and the shade spectral folk visual language. Design focus: shared wells, tenement stacks, rowhouses, shared courtyards, communal wells. Terrain/water context: Dry Stone Paving; Dry Ground. Magic expression: Echo Magic, Spirit Lanterns, Archive Echoes. No baked labels or text.",
+        "civicRole": "Serves as additional major landmark selected for this hero-view camera angle within Gloamreach; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Tenement Court",
+          "show how Gloamreach turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 5",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Tenement Court becomes narratively important",
+          "the visible condition of Tenement Court signals political or social stress",
+          "someone uses Tenement Court's public function to redirect crowds or information",
+          "an overlooked detail at Tenement Court reveals how Gloamreach really works"
+        ]
+      },
+      {
+        "name": "Black Market Arcade",
+        "symbolicRole": "Black Market Arcade concentrates Gloamreach's local symbolism into a usable civic landmark: additional major landmark selected for this hero-view camera angle.",
+        "visualRole": "A largest local landmark in this section, subordinate only to the city wonder and citadel. It belongs to Section 2 (Underworld / Hidden Economy) of Gloamreach and should use Market Arcades, Gothic Spires, Subterranean Vaults, silver and moonstone materials, Serpent Geometry, Mist Veils, Lantern Lit, and the shade spectral folk visual language. Design focus: trapdoors, hidden markets, backroom taverns, trapdoor lanes, secret doors. Terrain/water context: Dry Stone Paving; Dry Ground. Magic expression: Echo Magic, Spirit Lanterns, Archive Echoes. No baked labels or text.",
+        "civicRole": "Serves as additional major landmark selected for this hero-view camera angle within Gloamreach; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Black Market Arcade",
+          "show how Gloamreach turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 2",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Black Market Arcade becomes narratively important",
+          "the visible condition of Black Market Arcade signals political or social stress",
+          "someone uses Black Market Arcade's public function to redirect crowds or information",
+          "an overlooked detail at Black Market Arcade reveals how Gloamreach really works"
+        ]
+      },
+      {
+        "name": "Scrap Market",
+        "symbolicRole": "Scrap Market concentrates Gloamreach's local symbolism into a usable civic landmark: additional major landmark selected for this hero-view camera angle.",
+        "visualRole": "A largest local landmark in this section, subordinate only to the city wonder and citadel. It belongs to Section 4 (Slums / Informal Settlement) of Gloamreach and should use Reed Pavilions, Market Arcades, Timber Longhouses, silver and moonstone materials, Red Fabric Awnings, Woven Banners, Lantern Lit, and the shade spectral folk visual language. Design focus: shared fires, shanties, salvage roofs, patched bridges. Terrain/water context: Dry Stone Paving; Dry Ground. Magic expression: Echo Magic, Spirit Lanterns, Archive Echoes. No baked labels or text.",
+        "civicRole": "Serves as additional major landmark selected for this hero-view camera angle within Gloamreach; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Scrap Market",
+          "show how Gloamreach turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 4",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Scrap Market becomes narratively important",
+          "the visible condition of Scrap Market signals political or social stress",
+          "someone uses Scrap Market's public function to redirect crowds or information",
+          "an overlooked detail at Scrap Market reveals how Gloamreach really works"
+        ]
+      },
+      {
+        "name": "University / Lyceum Civic Hall",
+        "symbolicRole": "University / Lyceum Civic Hall concentrates Gloamreach's local symbolism into a usable civic landmark: Section 1 local anchor.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing. It belongs to Section 1 (University / Lyceum) of Gloamreach and should use Lecture Courts, Archive Towers, White Limestone Civic Blocks, silver and moonstone materials, Lantern Lit, Civic Blue Glow, Star Navigation, and the shade spectral folk visual language. Design focus: board-readable entrance, books, ink, star charts, lecture bells. Terrain/water context: Dry Stone Paving; Dry Ground. Magic expression: Echo Magic, Spirit Lanterns, Archive Echoes. No baked labels or text.",
+        "civicRole": "Serves as Section 1 local anchor within Gloamreach; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving University / Lyceum Civic Hall",
+          "show how Gloamreach turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 1",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at University / Lyceum Civic Hall becomes narratively important",
+          "the visible condition of University / Lyceum Civic Hall signals political or social stress",
+          "someone uses University / Lyceum Civic Hall's public function to redirect crowds or information",
+          "an overlooked detail at University / Lyceum Civic Hall reveals how Gloamreach really works"
+        ]
+      },
+      {
+        "name": "Star Navigation Monument",
+        "symbolicRole": "Star Navigation Monument concentrates Gloamreach's local symbolism into a usable civic landmark: Section 1 local anchor.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles. It belongs to Section 1 (University / Lyceum) of Gloamreach and should use Lecture Courts, Archive Towers, White Limestone Civic Blocks, silver and moonstone materials, Civic Blue Glow, Star Navigation, Lantern Lit, and the shade spectral folk visual language. Design focus: subordinate to major landmark, books, ink, star charts, lecture bells. Terrain/water context: Dry Stone Paving; Dry Ground. Magic expression: Echo Magic, Spirit Lanterns, Archive Echoes. No baked labels or text.",
+        "civicRole": "Serves as Section 1 local anchor within Gloamreach; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Star Navigation Monument",
+          "show how Gloamreach turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 1",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Star Navigation Monument becomes narratively important",
+          "the visible condition of Star Navigation Monument signals political or social stress",
+          "someone uses Star Navigation Monument's public function to redirect crowds or information",
+          "an overlooked detail at Star Navigation Monument reveals how Gloamreach really works"
+        ]
+      },
+      {
+        "name": "Observatory Court Nook",
+        "symbolicRole": "Observatory Court Nook concentrates Gloamreach's local symbolism into a usable civic landmark: Section 1 local anchor.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette. It belongs to Section 1 (University / Lyceum) of Gloamreach and should use Lecture Courts, Archive Towers, White Limestone Civic Blocks, silver and moonstone materials, Star Navigation, Lantern Lit, Civic Blue Glow, and the shade spectral folk visual language. Design focus: lecture bells, lecture halls, archive towers, study cloisters, study courts. Terrain/water context: Dry Stone Paving; Dry Ground. Magic expression: Echo Magic, Spirit Lanterns, Archive Echoes. No baked labels or text.",
+        "civicRole": "Serves as Section 1 local anchor within Gloamreach; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Observatory Court Nook",
+          "show how Gloamreach turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 1",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Observatory Court Nook becomes narratively important",
+          "the visible condition of Observatory Court Nook signals political or social stress",
+          "someone uses Observatory Court Nook's public function to redirect crowds or information",
+          "an overlooked detail at Observatory Court Nook reveals how Gloamreach really works"
+        ]
+      },
+      {
+        "name": "Underworld / Hidden Economy Civic Hall",
+        "symbolicRole": "Underworld / Hidden Economy Civic Hall concentrates Gloamreach's local symbolism into a usable civic landmark: Section 2 local anchor.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing. It belongs to Section 2 (Underworld / Hidden Economy) of Gloamreach and should use Subterranean Vaults, Market Arcades, Gothic Spires, silver and moonstone materials, Mist Veils, Lantern Lit, Serpent Geometry, and the shade spectral folk visual language. Design focus: public-facing administration, clear central silhouette, board-readable entrance, masks, yellow lamps. Terrain/water context: Dry Stone Paving; Dry Ground. Magic expression: Echo Magic, Spirit Lanterns, Archive Echoes. No baked labels or text.",
+        "civicRole": "Serves as Section 2 local anchor within Gloamreach; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Underworld / Hidden Economy Civic Hall",
+          "show how Gloamreach turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 2",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Underworld / Hidden Economy Civic Hall becomes narratively important",
+          "the visible condition of Underworld / Hidden Economy Civic Hall signals political or social stress",
+          "someone uses Underworld / Hidden Economy Civic Hall's public function to redirect crowds or information",
+          "an overlooked detail at Underworld / Hidden Economy Civic Hall reveals how Gloamreach really works"
+        ]
+      },
+      {
+        "name": "Mist Veils Monument",
+        "symbolicRole": "Mist Veils Monument concentrates Gloamreach's local symbolism into a usable civic landmark: Section 2 local anchor.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles. It belongs to Section 2 (Underworld / Hidden Economy) of Gloamreach and should use Subterranean Vaults, Market Arcades, Gothic Spires, silver and moonstone materials, Serpent Geometry, Mist Veils, Lantern Lit, and the shade spectral folk visual language. Design focus: local memory marker, subordinate to major landmark, masks, yellow lamps, coded marks. Terrain/water context: Dry Stone Paving; Dry Ground. Magic expression: Echo Magic, Spirit Lanterns, Archive Echoes. No baked labels or text.",
+        "civicRole": "Serves as Section 2 local anchor within Gloamreach; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Mist Veils Monument",
+          "show how Gloamreach turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 2",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Mist Veils Monument becomes narratively important",
+          "the visible condition of Mist Veils Monument signals political or social stress",
+          "someone uses Mist Veils Monument's public function to redirect crowds or information",
+          "an overlooked detail at Mist Veils Monument reveals how Gloamreach really works"
+        ]
+      },
+      {
+        "name": "Understreet Vault Nook",
+        "symbolicRole": "Understreet Vault Nook concentrates Gloamreach's local symbolism into a usable civic landmark: Section 2 local anchor.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette. It belongs to Section 2 (Underworld / Hidden Economy) of Gloamreach and should use Gothic Spires, Subterranean Vaults, Market Arcades, silver and moonstone materials, Mist Veils, Lantern Lit, Serpent Geometry, and the shade spectral folk visual language. Design focus: masks, yellow lamps, coded marks, trapdoors, hidden markets. Terrain/water context: Dry Stone Paving; Dry Ground. Magic expression: Echo Magic, Spirit Lanterns, Archive Echoes. No baked labels or text.",
+        "civicRole": "Serves as Section 2 local anchor within Gloamreach; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Understreet Vault Nook",
+          "show how Gloamreach turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 2",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Understreet Vault Nook becomes narratively important",
+          "the visible condition of Understreet Vault Nook signals political or social stress",
+          "someone uses Understreet Vault Nook's public function to redirect crowds or information",
+          "an overlooked detail at Understreet Vault Nook reveals how Gloamreach really works"
+        ]
+      },
+      {
+        "name": "Records / Archives Hall",
+        "symbolicRole": "Records / Archives Hall concentrates Gloamreach's local symbolism into a usable civic landmark: Section 3 local anchor.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing. It belongs to Section 3 (Records / Archives) of Gloamreach and should use White Limestone Civic Blocks, Subterranean Vaults, Archive Towers, silver and moonstone materials, Lantern Lit, Civic Blue Glow, Gold Seals, and the shade spectral folk visual language. Design focus: scrolls, index cards, wax seals, memory lamps, archive stacks. Terrain/water context: Dry Stone Paving; Dry Ground. Magic expression: Echo Magic, Spirit Lanterns, Archive Echoes. No baked labels or text.",
+        "civicRole": "Serves as Section 3 local anchor within Gloamreach; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Records / Archives Hall",
+          "show how Gloamreach turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 3",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Records / Archives Hall becomes narratively important",
+          "the visible condition of Records / Archives Hall signals political or social stress",
+          "someone uses Records / Archives Hall's public function to redirect crowds or information",
+          "an overlooked detail at Records / Archives Hall reveals how Gloamreach really works"
+        ]
+      },
+      {
+        "name": "Archive Tower",
+        "symbolicRole": "Archive Tower concentrates Gloamreach's local symbolism into a usable civic landmark: Section 3 local anchor.",
+        "visualRole": "A mandatory Section 3 Beacon: a culturally adapted civic signal flame / warning-light landmark visible across the city spine. It belongs to Section 3 (Records / Archives) of Gloamreach and should use White Limestone Civic Blocks, Subterranean Vaults, Archive Towers, silver and moonstone materials, Civic Blue Glow, Gold Seals, Lantern Lit, and the shade spectral folk visual language. Design focus: largest section focal point, strong vertical silhouette, distinct gameplay landmark, visible from nearby districts, scrolls. Terrain/water context: Dry Stone Paving; Dry Ground. Magic expression: Echo Magic, Spirit Lanterns, Archive Echoes. No baked labels or text.",
+        "civicRole": "Serves as Section 3 local anchor within Gloamreach; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Archive Tower",
+          "show how Gloamreach turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 3",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Archive Tower becomes narratively important",
+          "the visible condition of Archive Tower signals political or social stress",
+          "someone uses Archive Tower's public function to redirect crowds or information",
+          "an overlooked detail at Archive Tower reveals how Gloamreach really works"
+        ]
+      },
+      {
+        "name": "Records Archives Gold-Seal Monument",
+        "symbolicRole": "Records Archives Gold-Seal Monument concentrates Gloamreach's local symbolism into a usable civic landmark: Section 3 local anchor.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles. It belongs to Section 3 (Records / Archives) of Gloamreach and should use White Limestone Civic Blocks, Subterranean Vaults, Archive Towers, silver and moonstone materials, Civic Blue Glow, Gold Seals, Lantern Lit, and the shade spectral folk visual language. Design focus: symbolic civic object, small ceremonial site, local memory marker, subordinate to major landmark, scrolls. Terrain/water context: Dry Stone Paving; Dry Ground. Magic expression: Echo Magic, Spirit Lanterns, Archive Echoes. No baked labels or text.",
+        "civicRole": "Serves as Section 3 local anchor within Gloamreach; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Records Archives Gold-Seal Monument",
+          "show how Gloamreach turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 3",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Records Archives Gold-Seal Monument becomes narratively important",
+          "the visible condition of Records Archives Gold-Seal Monument signals political or social stress",
+          "someone uses Records Archives Gold-Seal Monument's public function to redirect crowds or information",
+          "an overlooked detail at Records Archives Gold-Seal Monument reveals how Gloamreach really works"
+        ]
+      },
+      {
+        "name": "Copyist Hall Nook",
+        "symbolicRole": "Copyist Hall Nook concentrates Gloamreach's local symbolism into a usable civic landmark: Section 3 local anchor.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette. It belongs to Section 3 (Records / Archives) of Gloamreach and should use Archive Towers, White Limestone Civic Blocks, Subterranean Vaults, silver and moonstone materials, Lantern Lit, Civic Blue Glow, Gold Seals, and the shade spectral folk visual language. Design focus: small local identity prop, street-level detail, usable board landmark, subordinate scale, scrolls. Terrain/water context: Dry Stone Paving; Dry Ground. Magic expression: Echo Magic, Spirit Lanterns, Archive Echoes. No baked labels or text.",
+        "civicRole": "Serves as Section 3 local anchor within Gloamreach; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Copyist Hall Nook",
+          "show how Gloamreach turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 3",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Copyist Hall Nook becomes narratively important",
+          "the visible condition of Copyist Hall Nook signals political or social stress",
+          "someone uses Copyist Hall Nook's public function to redirect crowds or information",
+          "an overlooked detail at Copyist Hall Nook reveals how Gloamreach really works"
+        ]
+      },
+      {
+        "name": "Slums / Informal Settlement Civic Hall",
+        "symbolicRole": "Slums / Informal Settlement Civic Hall concentrates Gloamreach's local symbolism into a usable civic landmark: Section 4 local anchor.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing. It belongs to Section 4 (Slums / Informal Settlement) of Gloamreach and should use Market Arcades, Timber Longhouses, Reed Pavilions, silver and moonstone materials, Red Fabric Awnings, Woven Banners, Lantern Lit, and the shade spectral folk visual language. Design focus: tarps, shared fires, shanties, salvage roofs, patched bridges. Terrain/water context: Dry Stone Paving; Dry Ground. Magic expression: Echo Magic, Spirit Lanterns, Archive Echoes. No baked labels or text.",
+        "civicRole": "Serves as Section 4 local anchor within Gloamreach; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Slums / Informal Settlement Civic Hall",
+          "show how Gloamreach turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 4",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Slums / Informal Settlement Civic Hall becomes narratively important",
+          "the visible condition of Slums / Informal Settlement Civic Hall signals political or social stress",
+          "someone uses Slums / Informal Settlement Civic Hall's public function to redirect crowds or information",
+          "an overlooked detail at Slums / Informal Settlement Civic Hall reveals how Gloamreach really works"
+        ]
+      },
+      {
+        "name": "Slums Informal Settlement Lantern Monument",
+        "symbolicRole": "Slums Informal Settlement Lantern Monument concentrates Gloamreach's local symbolism into a usable civic landmark: Section 4 local anchor.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles. It belongs to Section 4 (Slums / Informal Settlement) of Gloamreach and should use Reed Pavilions, Market Arcades, Timber Longhouses, silver and moonstone materials, Red Fabric Awnings, Woven Banners, Lantern Lit, and the shade spectral folk visual language. Design focus: patches, scrap lanterns, tarps, shared fires, shanties. Terrain/water context: Dry Stone Paving; Dry Ground. Magic expression: Echo Magic, Spirit Lanterns, Archive Echoes. No baked labels or text.",
+        "civicRole": "Serves as Section 4 local anchor within Gloamreach; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Slums Informal Settlement Lantern Monument",
+          "show how Gloamreach turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 4",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Slums Informal Settlement Lantern Monument becomes narratively important",
+          "the visible condition of Slums Informal Settlement Lantern Monument signals political or social stress",
+          "someone uses Slums Informal Settlement Lantern Monument's public function to redirect crowds or information",
+          "an overlooked detail at Slums Informal Settlement Lantern Monument reveals how Gloamreach really works"
+        ]
+      },
+      {
+        "name": "Patched Tenement Nook",
+        "symbolicRole": "Patched Tenement Nook concentrates Gloamreach's local symbolism into a usable civic landmark: Section 4 local anchor.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette. It belongs to Section 4 (Slums / Informal Settlement) of Gloamreach and should use Timber Longhouses, Reed Pavilions, Market Arcades, silver and moonstone materials, Woven Banners, Lantern Lit, Red Fabric Awnings, and the shade spectral folk visual language. Design focus: street-level detail, usable board landmark, subordinate scale, patches, scrap lanterns. Terrain/water context: Dry Stone Paving; Dry Ground. Magic expression: Echo Magic, Spirit Lanterns, Archive Echoes. No baked labels or text.",
+        "civicRole": "Serves as Section 4 local anchor within Gloamreach; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Patched Tenement Nook",
+          "show how Gloamreach turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 4",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Patched Tenement Nook becomes narratively important",
+          "the visible condition of Patched Tenement Nook signals political or social stress",
+          "someone uses Patched Tenement Nook's public function to redirect crowds or information",
+          "an overlooked detail at Patched Tenement Nook reveals how Gloamreach really works"
+        ]
+      },
+      {
+        "name": "Low Residential Civic Hall",
+        "symbolicRole": "Low Residential Civic Hall concentrates Gloamreach's local symbolism into a usable civic landmark: Section 5 local anchor.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing. It belongs to Section 5 (Low Residential) of Gloamreach and should use Timber Longhouses, Market Arcades, White Limestone Civic Blocks, silver and moonstone materials, Woven Banners, Lantern Lit, Red Fabric Awnings, and the shade spectral folk visual language. Design focus: shared wells, tenement stacks, rowhouses, shared courtyards, communal wells. Terrain/water context: Dry Stone Paving; Dry Ground. Magic expression: Echo Magic, Spirit Lanterns, Archive Echoes. No baked labels or text.",
+        "civicRole": "Serves as Section 5 local anchor within Gloamreach; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Low Residential Civic Hall",
+          "show how Gloamreach turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 5",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Low Residential Civic Hall becomes narratively important",
+          "the visible condition of Low Residential Civic Hall signals political or social stress",
+          "someone uses Low Residential Civic Hall's public function to redirect crowds or information",
+          "an overlooked detail at Low Residential Civic Hall reveals how Gloamreach really works"
+        ]
+      },
+      {
+        "name": "Low Residential Lantern Monument",
+        "symbolicRole": "Low Residential Lantern Monument concentrates Gloamreach's local symbolism into a usable civic landmark: Section 5 local anchor.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles. It belongs to Section 5 (Low Residential) of Gloamreach and should use Timber Longhouses, Market Arcades, White Limestone Civic Blocks, silver and moonstone materials, Woven Banners, Lantern Lit, Red Fabric Awnings, and the shade spectral folk visual language. Design focus: laundry lines, hearth smoke, stoops, shared wells, tenement stacks. Terrain/water context: Dry Stone Paving; Dry Ground. Magic expression: Echo Magic, Spirit Lanterns, Archive Echoes. No baked labels or text.",
+        "civicRole": "Serves as Section 5 local anchor within Gloamreach; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Low Residential Lantern Monument",
+          "show how Gloamreach turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 5",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Low Residential Lantern Monument becomes narratively important",
+          "the visible condition of Low Residential Lantern Monument signals political or social stress",
+          "someone uses Low Residential Lantern Monument's public function to redirect crowds or information",
+          "an overlooked detail at Low Residential Lantern Monument reveals how Gloamreach really works"
+        ]
+      },
+      {
+        "name": "Laundry Well Nook",
+        "symbolicRole": "Laundry Well Nook concentrates Gloamreach's local symbolism into a usable civic landmark: Section 5 local anchor.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette. It belongs to Section 5 (Low Residential) of Gloamreach and should use White Limestone Civic Blocks, Timber Longhouses, Market Arcades, silver and moonstone materials, Red Fabric Awnings, Woven Banners, Lantern Lit, and the shade spectral folk visual language. Design focus: street-level detail, usable board landmark, subordinate scale, laundry lines, hearth smoke. Terrain/water context: Dry Stone Paving; Dry Ground. Magic expression: Echo Magic, Spirit Lanterns, Archive Echoes. No baked labels or text.",
+        "civicRole": "Serves as Section 5 local anchor within Gloamreach; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Laundry Well Nook",
+          "show how Gloamreach turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 5",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Laundry Well Nook becomes narratively important",
+          "the visible condition of Laundry Well Nook signals political or social stress",
+          "someone uses Laundry Well Nook's public function to redirect crowds or information",
+          "an overlooked detail at Laundry Well Nook reveals how Gloamreach really works"
+        ]
+      }
     ]
   },
   "assetGuidance": {
-    "districtDioramaGuidance": ["S1 must show University / Lyceum Civic Hall, Lecture Hall Beacon, Star Navigation Monument, Observatory Court Nook, students, professors, blue lamps, and wet lecture plazas.", "S2 must show Underworld / Hidden Economy Civic Hall, Black Market Arcade, Mist Veils Monument, Understreet Vault Nook, coded stalls, brokers, and vault doors.", "S3 must show Records / Archives Hall, Archive Tower, Records Archives Gold-Seal Monument, Copyist Hall Nook, archive stairs, sealed records, and copyists.", "S4 must show Slums / Informal Settlement Civic Hall, Scrap Market, Slums Informal Settlement Lantern Monument, Patched Tenement Nook, repair stalls, scrap dealers, and informal residents.", "S5 must show Low Residential Civic Hall, Tenement Court, Low Residential Lantern Monument, Laundry Well Nook, families, laundry lines, and shared stairs."],
-    "mapBackgroundGuidance": ["Show pale moonstone and shadeglass terraces with lecture halls, archive towers, black-market thresholds, scrap markets, tenement courts, and laundry wells in the same misted urban system.", "The Shadeglass Whisper Court should be the wonder-scale threshold anchor; the Mist Veils Veiled High Court should be central authority; the Lecture Hall Beacon should be the scholarly signal."],
-    "requiredVisualElements": ["shade spectral citizens", "Shadeglass Whisper Court of the Veiled Threshold", "Lecture Hall Beacon", "Mist Veils Veiled High Court", "University / Lyceum Civic Hall", "Star Navigation Monument", "Observatory Court Nook", "Black Market Arcade", "Mist Veils Monument", "Understreet Vault Nook", "Archive Tower", "Records Archives Gold-Seal Monument", "Copyist Hall Nook", "Scrap Market", "Slums Informal Settlement Lantern Monument", "Patched Tenement Nook", "Tenement Court", "Low Residential Lantern Monument", "Laundry Well Nook", "shadeglass", "mist", "blue lamps"],
-    "elementsToAvoid": ["generic ghost town", "empty haunted ruin", "pure university city with no poverty", "spectral people as scenery", "slums omitted from civic identity", "mist used only for mood"]
+    "districtDioramaGuidance": [
+      "Dioramas must support 25 district slots: S1 covers D01, D02, D03, D06, D07 and uses source-backed anchors University / Lyceum Civic Hall, Lecture Hall Beacon, Star Navigation Monument, Observatory Court Nook.",
+      "Dioramas must support 25 district slots: S2 covers D04, D05, D09, D10, D15 and uses source-backed anchors Underworld / Hidden Economy Civic Hall, Black Market Arcade, Mist Veils Monument, Understreet Vault Nook.",
+      "Dioramas must support 25 district slots: S3 covers D08, D12, D13, D14, D18 and uses source-backed anchors Records / Archives Hall, Archive Tower, Records Archives Gold-Seal Monument, Copyist Hall Nook.",
+      "Dioramas must support 25 district slots: S4 covers D11, D16, D17, D21, D22 and uses source-backed anchors Slums / Informal Settlement Civic Hall, Scrap Market, Slums Informal Settlement Lantern Monument, Patched Tenement Nook.",
+      "Dioramas must support 25 district slots: S5 covers D19, D20, D23, D24, D25 and uses source-backed anchors Low Residential Civic Hall, Tenement Court, Low Residential Lantern Monument, Laundry Well Nook."
+    ],
+    "mapBackgroundGuidance": [
+      "Map backgrounds must show Shadeglass Whisper Court of the Veiled Threshold as the wonder-scale identity anchor, Mist Veils Veiled High Court at D13, and Lecture Hall Beacon as the city signal landmark.",
+      "Preserve the five-section spine: S1 University / Lyceum Civic Hall, S2 Underworld / Hidden Economy Civic Hall, S3 Records / Archives Hall, S4 Slums / Informal Settlement Civic Hall, S5 Low Residential Civic Hall.",
+      "Use roads, terrain, water, civic terraces, walls, markets, courts, or service routes only where they support the exact city identity and tactical readability."
+    ],
+    "requiredVisualElements": [
+      "Shadeglass Whisper Court of the Veiled Threshold",
+      "Lecture Hall Beacon",
+      "Mist Veils Veiled High Court",
+      "Tenement Court",
+      "Black Market Arcade",
+      "Scrap Market",
+      "University / Lyceum Civic Hall",
+      "Star Navigation Monument",
+      "Observatory Court Nook",
+      "Underworld / Hidden Economy Civic Hall",
+      "Mist Veils Monument",
+      "Understreet Vault Nook",
+      "Records / Archives Hall",
+      "Archive Tower",
+      "Records Archives Gold-Seal Monument",
+      "Copyist Hall Nook",
+      "Slums / Informal Settlement Civic Hall",
+      "Slums Informal Settlement Lantern Monument",
+      "Patched Tenement Nook",
+      "Low Residential Civic Hall",
+      "Low Residential Lantern Monument",
+      "Laundry Well Nook",
+      "Dark Wood",
+      "Slate",
+      "Silver",
+      "Stained Glass",
+      "Arcane Glow",
+      "Dry Stone Paving",
+      "Civic Terraces",
+      "Ward Networks",
+      "Ritual Geometry",
+      "Shadow Veils"
+    ],
+    "elementsToAvoid": [
+      "extra top-level schema sections or research-log content in the JSON",
+      "generic fantasy architecture that ignores exact anchor names",
+      "invented missing street anchors",
+      "readable real-world text labels baked into images",
+      "collapsing the 25-district board into only five playable spaces",
+      "making landmarks decorative when they should have civic, narrative, and asset function"
+    ]
   }
 }

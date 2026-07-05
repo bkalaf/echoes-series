@@ -4,33 +4,1921 @@
     "analysisVersion": 2,
     "cityCode": "TVE",
     "cityName": "Tormund Vale",
-    "analysisDate": "2026-07-03",
+    "analysisDate": "2026-07-05",
     "analystVersion": "gpt-5.5-thinking",
     "analysisConfidence": "strong-lock",
-    "basedOnImages": ["TVE-HERO-NE-v001", "TVE-HERO-NW-v001", "TVE-HERO-SE-v001", "TVE-HERO-SW-v001", "TVE-STREET-S1-v001", "TVE-STREET-S2-v001", "TVE-STREET-S3-v001", "TVE-STREET-S4-v001", "TVE-STREET-S5-v001"],
-    "basedOnSidecars": ["TVE-HERO-NE-v001.json", "TVE-HERO-NW-v001.json", "TVE-HERO-SE-v001.json", "TVE-HERO-SW-v001.json", "TVE-STREET-S1-v001.json", "TVE-STREET-S2-v001.json", "TVE-STREET-S3-v001.json", "TVE-STREET-S4-v001.json", "TVE-STREET-S5-v001.json"]
+    "basedOnImages": [
+      "TVE-HERO-NE-v001.png",
+      "TVE-HERO-NW-v001.png",
+      "TVE-HERO-SE-v001.png",
+      "TVE-HERO-SW-v001.png",
+      "TVE-STREET-S1-v001.png",
+      "TVE-STREET-S2-v001.png",
+      "TVE-STREET-S3-v001.png",
+      "TVE-STREET-S4-v001.png",
+      "TVE-STREET-S5-v001.png"
+    ],
+    "basedOnSidecars": [
+      "TVE-HERO-NE-v001.json",
+      "TVE-HERO-NW-v001.json",
+      "TVE-HERO-SE-v001.json",
+      "TVE-HERO-SW-v001.json",
+      "TVE-STREET-S1-v001.json",
+      "TVE-STREET-S2-v001.json",
+      "TVE-STREET-S3-v001.json",
+      "TVE-STREET-S4-v001.json",
+      "TVE-STREET-S5-v001.json"
+    ],
+    "missingStreetSections": []
   },
   "cityDNA": {
-    "coreFantasy": "A giant mountain-valley city where lock houses, granaries, relief halls, healing courts, training arenas, sky-stairs, and memory-tablet government make scale protective rather than merely huge.",
-    "primaryEmotion": "colossal stewardship",
-    "secondaryEmotion": "river-valley endurance",
-    "readerTakeaway": "Tormund Vale is not a generic giant city; the uploaded views show waterworks, food systems, public care, healing, and arena discipline organized at giant scale.",
-    "civilizationThesis": "Tormund Vale turns mountain water, grain, relief, healing, training, and public memory into a giant civic order built to carry others.",
-    "visualIdentity": "Granite terraces, river canals, lock houses, waterwheels, grain halls, relief plazas, healing basins, blue beacon lamps, woven banners, titan-scale stairs, and the broken-cloud sky-stair hall.",
-    "culturalIdentity": "Giant civic culture where strength is measured by infrastructure, memory keeping, public aid, and disciplined readiness.",
-    "symbolicIdentity": "Sky-stairs, lock wheels, water reflections, grain halls, relief lanterns, healing basins, champion gates, and memory tablets symbolize scale turned into duty."
+    "coreFantasy": "Tormund Vale is a giant river-valley city where canal works, grain halls, civic relief, healing institutions, and training arenas turn floodplain scale into public responsibility.",
+    "primaryEmotion": "monumental stewardship",
+    "secondaryEmotion": "river-fed discipline",
+    "readerTakeaway": "Tormund Vale should feel immediately distinct: giants civic life is organized around Canal / Riverworks, Granary / Food Market, Civic Services, Medical / Healing, and Arena / Training, with Giant Sky-Stair Hall of the Broken Cloud as the citywide symbol.",
+    "civilizationThesis": "The city turns Riverstone, Mudbrick, Timber, Limewash, Canvas, Riverside, Floodplain, Canal Basin, and Ward Networks, Ritual Geometry, Stone Giant Memory into a working urban system rather than surface decoration.",
+    "visualIdentity": "Use Riverstone, Mudbrick, Timber, Limewash, Canvas, civic terraces, public courts, audience terraces, sealed archives, command platforms, Canal / Riverworks Civic Hall, Granary / Food Market Civic Hall, Civic Services Hall, visible Lock House Beacon, the central Memory Tablet Walls Colossus Registry, and the skyline-scale Giant Sky-Stair Hall of the Broken Cloud as the core visual grammar.",
+    "culturalIdentity": "A giants population whose institutions make daily life legible through section anchors: Canal / Riverworks, Granary / Food Market, Civic Services, Medical / Healing, Arena / Training.",
+    "symbolicIdentity": "The city is symbolized by Giant Sky-Stair Hall of the Broken Cloud, Lock House Beacon, Memory Tablet Walls Colossus Registry, and the repeating civic pattern of hall, landmark, monument, and nook in every section."
   },
   "canon": {
-    "canonLocks": ["Tormund Vale is a mature giant mountain-valley city, not merely oversized buildings.", "The Wonder is Giant Sky-Stair Hall of the Broken Cloud.", "The Beacon is Lock House Beacon.", "The Seat of Power is Memory Tablet Walls Colossus Registry.", "The five primary districts are Canal / Riverworks, Granary / Food Market, Civic Services, Medical / Healing, and Arena / Training.", "Exact uploaded anchors include Canal / Riverworks Civic Hall, Lock House Beacon, Canal Reflections Monument, Waterwheel Court Nook, Granary / Food Market Civic Hall, Grain Hall, Awning Monument, Mill Court Nook, Civic Services Hall, Relief Hall, Civic Services Lantern Monument, Notice Plaza Nook, Medical / Healing Civic Hall, Healing Hall, Medical Healing Lantern Monument, Apothecary Court Nook, Arena / Training Civic Hall, Training Arena, Woven Banners Monument, and Champion Gate Nook."],
-    "provisionalCanon": ["Tormund Vale's highest civic virtue is carrying public burdens.", "The image pass reinforces water, grain, care, and training systems at giant scale."],
-    "rejectedReads": ["generic giant city", "oversized scenery without institutions", "arena strength detached from care systems"],
-    "cautionFlags": ["Preserve exact uploaded sidecar anchor names.", "Keep waterworks, food, relief, healing, and training visible together.", "Use giant scale through civic function rather than empty size."]
+    "canonLocks": [
+      "Tormund Vale is built for its giants population and should not be genericized into a neutral fantasy city.",
+      "The Wonder is Giant Sky-Stair Hall of the Broken Cloud.",
+      "The Beacon is Lock House Beacon.",
+      "The Seat of Power is Memory Tablet Walls Colossus Registry.",
+      "The five section spines are Canal / Riverworks, Granary / Food Market, Civic Services, Medical / Healing, Arena / Training.",
+      "The tactical board uses 25 district slots, with District 13 as the seat-of-power center.",
+      "Exact sidecar names for civic halls, major landmarks, monuments, and minor nooks must be preserved verbatim."
+    ],
+    "provisionalCanon": [
+      "Citizens likely treat Lock House Beacon as the practical public signal point for citywide alerts and Conjunction response.",
+      "Daily politics likely moves through the named section institutions rather than through faction headquarters.",
+      "The city’s civic magic expresses through Ward Networks, Ritual Geometry, Stone Giant Memory when visible in public spaces."
+    ],
+    "rejectedReads": [
+      "Tormund Vale as a generic fantasy settlement with the culture applied as ornament only.",
+      "Replacing exact section anchors with generic labels such as market, temple, tower, archive, or court when the sidecar provides a proper name.",
+      "Treating the Wonder, Beacon, or Seat of Power as interchangeable skyline props instead of civic machinery."
+    ],
+    "cautionFlags": [
+      "Do not add unsupported per-district landmark names beyond the source-backed section anchors.",
+      "Keep all 25 districts, but derive their specific identity from the five section spines unless new district-specific sidecars exist.",
+      "Preserve the material language: Riverstone, Mudbrick, Timber, Limewash, Canvas.",
+      "Preserve the terrain/water logic: Riverside, Floodplain, Canal Basin; water context: River."
+    ]
   },
-  "environment": {"terrain": ["mountain valley", "river terraces", "civic stairs", "canal banks", "training courts"], "water": ["river canals", "lock channels", "waterwheel courts", "healing basins", "public cisterns"], "vegetation": ["terrace crops", "valley grasses", "garden courts", "healing herbs"], "climateLighting": ["golden valley daylight", "blue lock-house glow", "mist from waterworks", "warm healing lamps"], "environmentalLogic": "Valley water is movement, grain, public care, and risk; the city governs it through locks, mills, relief halls, and memory records."},
-  "architecture": {"materials": ["granite", "river stone", "bronze", "timber", "blue glass lamps", "woven banners"], "forms": ["Giant Sky-Stair Hall of the Broken Cloud", "Memory Tablet Walls Colossus Registry", "Lock House Beacon", "Grain Hall", "Relief Hall", "Healing Hall", "Training Arena", "Waterwheel Court Nook", "Champion Gate Nook"], "skyline": ["broken-cloud sky-stair wonder", "memory-tablet registry", "lock beacon", "archive-like towers and arena terraces"], "lighting": ["blue civic light", "golden river reflection", "healing amber", "arena torchlight"], "infrastructure": ["locks", "waterwheels", "grain halls", "relief counters", "healing courts", "training arenas", "giant bridges"], "motifs": ["sky stairs", "memory tablets", "lock wheels", "grain awnings", "healing lanterns", "woven banners", "champion gates"], "colorLanguage": ["granite gray", "river blue", "grain gold", "banner red", "civic blue"], "textureLanguage": ["water-worn stone", "massive masonry", "rough timber", "bronze fittings", "woven cloth"]},
-  "civilization": {"people": "Giant citizens are deliberate, public-minded, and accustomed to moving through enormous shared infrastructure without losing tenderness.", "occupations": ["lock keepers", "mill workers", "grain clerks", "relief workers", "healers", "arena trainers", "memory tablet carvers", "registry officials"], "socialClasses": ["registry officials", "waterworks crews", "grain houses", "relief administrators", "healing trusts", "arena champions", "valley laborers"], "governance": "The Colossus Registry records duties, water obligations, relief claims, healing records, grain tallies, and training honors.", "religion": "Sky-stair rites, memory-tablet names, water blessings, and public burden vows make endurance sacred-adjacent.", "customs": ["lock readings", "grain tallies", "relief notices", "healing lantern offerings", "champion gate trials"], "bodyLanguage": ["slow careful movement", "protective spacing", "tablet-touch gestures", "public burden carrying"], "speechPatterns": ["memory formulas", "water-level shorthand", "grain accounting phrases", "training ranks"]},
-  "urbanLife": {"streets": {"appearance": "Massive river-valley streets connect locks, grain halls, relief plazas, healing courts, and arena terraces with giant-scale stairs and blue signal lamps.", "movement": "Movement follows the named civic anchors, district paths, formal approaches, service routes, and public thresholds visible in the uploaded street views.", "sounds": ["crowd voices", "work sounds", "bells", "footsteps", "water or wind against stone"], "smells": ["worked stone", "lamp oil", "market food", "dust or rain", "local vegetation"], "lighting": "District identity is carried through civic blue signal light, warm lanterns, sun or moon conditions, and landmark-specific glows.", "weatherEffects": "Weather changes visibility, route choice, and the meaning of public shelter, thresholds, and signals.", "dayCycle": "Daytime emphasizes public work, markets, courts, services, and institutional movement.", "nightCycle": "Night emphasizes guarded signals, lantern routes, quiet institutional labor, and district-specific rituals."}, "shops": {"common": ["grain stalls", "water tool sellers", "healing herb counters", "arena food carts"], "uncommon": ["memory tablet carvers", "waterwheel repairers", "champion gear makers"], "prestigious": ["registry counters", "major guild or court offices", "landmark patron halls"], "exports": ["grain", "waterworks expertise", "stonework", "training craft"], "imports": ["grain", "metal fittings", "paper", "ink", "cloth", "medicine"], "streetFood": ["stew", "flatbread", "tea", "market cakes"], "services": ["record filing", "public permits", "repairs", "lodging", "ritual service", "district guidance"]}, "housing": {"wealthy": "Prestige housing near courts, high terraces, or landmark approaches, marked by huge thresholds, river views, and tablet alcoves.", "middle": "Shop, guild, service, and official households along civic streets and district corridors.", "poor": "Crowded service housing near work routes, public wells, lower markets, and practical civic infrastructure."}},
-  "districts": [{"sectionNumber": 1, "name": "Canal / Riverworks", "civicPurpose": "Water routing, flood response, locks, and signal coordination.", "visualIdentity": "Canal / Riverworks Civic Hall, Lock House Beacon, Canal Reflections Monument, Waterwheel Court Nook.", "emotionalIdentity": "practical, wet, foundational", "gameplayAssetNeeds": ["Lock House Beacon", "Canal Reflections Monument", "Waterwheel Court Nook"], "narrativeUse": ["public scene", "civic clue", "district pressure"], "landmark": "Lock House Beacon", "minorLandmarks": ["Canal Reflections Monument", "Waterwheel Court Nook"]}, {"sectionNumber": 2, "name": "Granary / Food Market", "civicPurpose": "Food security, grain storage, milling, and accountable markets.", "visualIdentity": "Granary / Food Market Civic Hall, Grain Hall, Awning Monument, Mill Court Nook.", "emotionalIdentity": "busy, nourishing, accountable", "gameplayAssetNeeds": ["Grain Hall", "Awning Monument", "Mill Court Nook"], "narrativeUse": ["public scene", "civic clue", "district pressure"], "landmark": "Grain Hall", "minorLandmarks": ["Awning Monument", "Mill Court Nook"]}, {"sectionNumber": 3, "name": "Civic Services", "civicPurpose": "Public aid, relief records, notices, and civic coordination.", "visualIdentity": "Civic Services Hall, Relief Hall, Civic Services Lantern Monument, Notice Plaza Nook.", "emotionalIdentity": "strained, orderly, compassionate", "gameplayAssetNeeds": ["Relief Hall", "Civic Services Lantern Monument", "Notice Plaza Nook"], "narrativeUse": ["public scene", "civic clue", "district pressure"], "landmark": "Relief Hall", "minorLandmarks": ["Civic Services Lantern Monument", "Notice Plaza Nook"]}, {"sectionNumber": 4, "name": "Medical / Healing", "civicPurpose": "Recovery, triage, public care, and herbal medicine.", "visualIdentity": "Medical / Healing Civic Hall, Healing Hall, Medical Healing Lantern Monument, Apothecary Court Nook.", "emotionalIdentity": "warm, careful, restorative", "gameplayAssetNeeds": ["Healing Hall", "Medical Healing Lantern Monument", "Apothecary Court Nook"], "narrativeUse": ["public scene", "civic clue", "district pressure"], "landmark": "Healing Hall", "minorLandmarks": ["Medical Healing Lantern Monument", "Apothecary Court Nook"]}, {"sectionNumber": 5, "name": "Arena / Training", "civicPurpose": "Disciplined strength, readiness, public tests, and champion memory.", "visualIdentity": "Arena / Training Civic Hall, Training Arena, Woven Banners Monument, Champion Gate Nook.", "emotionalIdentity": "forceful, disciplined, communal", "gameplayAssetNeeds": ["Training Arena", "Woven Banners Monument", "Champion Gate Nook"], "narrativeUse": ["public scene", "civic clue", "district pressure"], "landmark": "Training Arena", "minorLandmarks": ["Woven Banners Monument", "Champion Gate Nook"]}],
-  "landmarks": {"wonder": {"name": "Giant Sky-Stair Hall of the Broken Cloud", "symbolicRole": "Ascent, burden, weather, and giant endurance made monumental.", "visualRole": "Far skyline hall climbing into broken cloud above the mountain-valley city.", "civicRole": "Citywide rites, public vows, memory ceremonies, and sky-weather gatherings.", "narrativeUse": ["ascent rite", "public vow", "weather omen"], "assetUse": ["map wonder", "far skyline anchor"], "sensoryIdentity": ["wind", "stone echo", "cloud mist"], "storyHooks": ["A sky-stair oath decides who carries the valley through crisis."]}, "beacon": {"name": "Lock House Beacon", "symbolicRole": "Water control and public warning made signal.", "visualRole": "Blue-lit beacon among lock houses, canals, and waterwheel routes.", "civicRole": "Coordinates waterworks, grain halls, relief, healing, and arena response.", "narrativeUse": ["Beacon change", "flood warning"], "assetUse": ["S1 centerpiece"], "sensoryIdentity": ["blue glow", "water", "wooden wheels"], "storyHooks": ["A Beacon change makes every lock decide what the city saves first."]}, "seatOfPower": {"name": "Memory Tablet Walls Colossus Registry", "symbolicRole": "Names, duties, and memory made law.", "visualRole": "Central registry of tablet walls, terraces, and giant-scale approaches.", "civicRole": "Government for water, grain, relief, healing, training, and public records.", "narrativeUse": ["registry hearing", "duty dispute"], "assetUse": ["seat-of-power marker"], "sensoryIdentity": ["stone dust", "ink", "low voices"], "storyHooks": ["A duty carved into stone is too large to ignore."]}, "majorLandmarks": [{"name": "Grain Hall", "symbolicRole": "Food security.", "visualRole": "Granary / Food Market Civic Hall, Grain Hall, Awning Monument, Mill Court Nook.", "civicRole": "Food security, grain storage, milling, and accountable markets.", "narrativeUse": ["public scene", "civic clue", "district pressure"], "assetUse": ["S2 diorama", "district landmark marker"], "sensoryIdentity": ["local voices", "stone or timber surfaces", "district lighting"], "storyHooks": ["A scene at Grain Hall tests how Tormund Vale turns its ideals into public duty."]}, {"name": "Relief Hall", "symbolicRole": "Public aid.", "visualRole": "Civic Services Hall, Relief Hall, Civic Services Lantern Monument, Notice Plaza Nook.", "civicRole": "Public aid, relief records, notices, and civic coordination.", "narrativeUse": ["public scene", "civic clue", "district pressure"], "assetUse": ["S3 diorama", "district landmark marker"], "sensoryIdentity": ["local voices", "stone or timber surfaces", "district lighting"], "storyHooks": ["A scene at Relief Hall tests how Tormund Vale turns its ideals into public duty."]}, {"name": "Healing Hall", "symbolicRole": "Recovery.", "visualRole": "Medical / Healing Civic Hall, Healing Hall, Medical Healing Lantern Monument, Apothecary Court Nook.", "civicRole": "Recovery, triage, public care, and herbal medicine.", "narrativeUse": ["public scene", "civic clue", "district pressure"], "assetUse": ["S4 diorama", "district landmark marker"], "sensoryIdentity": ["local voices", "stone or timber surfaces", "district lighting"], "storyHooks": ["A scene at Healing Hall tests how Tormund Vale turns its ideals into public duty."]}, {"name": "Training Arena", "symbolicRole": "Disciplined strength.", "visualRole": "Arena / Training Civic Hall, Training Arena, Woven Banners Monument, Champion Gate Nook.", "civicRole": "Disciplined strength, readiness, public tests, and champion memory.", "narrativeUse": ["public scene", "civic clue", "district pressure"], "assetUse": ["S5 diorama", "district landmark marker"], "sensoryIdentity": ["local voices", "stone or timber surfaces", "district lighting"], "storyHooks": ["A scene at Training Arena tests how Tormund Vale turns its ideals into public duty."]}]},
-  "assetGuidance": {"districtDioramaGuidance": ["S1: Canal / Riverworks Civic Hall, Lock House Beacon, Canal Reflections Monument, Waterwheel Court Nook.", "S2: Granary / Food Market Civic Hall, Grain Hall, Awning Monument, Mill Court Nook.", "S3: Civic Services Hall, Relief Hall, Civic Services Lantern Monument, Notice Plaza Nook.", "S4: Medical / Healing Civic Hall, Healing Hall, Medical Healing Lantern Monument, Apothecary Court Nook.", "S5: Arena / Training Civic Hall, Training Arena, Woven Banners Monument, Champion Gate Nook."], "mapBackgroundGuidance": ["Keep Giant Sky-Stair Hall, Lock House Beacon, and Memory Tablet Walls Colossus Registry legible together.", "Use giant scale through waterworks, grain halls, relief plazas, healing courts, and arena terraces."], "requiredVisualElements": ["Giant Sky-Stair Hall of the Broken Cloud", "Lock House Beacon", "Memory Tablet Walls Colossus Registry", "Waterwheel Court Nook", "Grain Hall", "Relief Hall", "Healing Hall", "Training Arena", "Champion Gate Nook"], "elementsToAvoid": ["generic giant city", "empty scale with no care systems", "district anchors generalized away"]}
+  "environment": {
+    "terrain": [
+      "Riverside",
+      "Floodplain",
+      "Canal Basin",
+      "district plazas",
+      "civic approaches",
+      "pedestrian streets",
+      "section courts"
+    ],
+    "water": [
+      "river",
+      "canal basin",
+      "sluice gates",
+      "lock channels",
+      "waterwheel courts",
+      "floodplain pools"
+    ],
+    "vegetation": [
+      "hanging gardens",
+      "floodplain reeds",
+      "canal-edge planters",
+      "healing herbs",
+      "grain terraces",
+      "arena shade trees"
+    ],
+    "climateLighting": [
+      "daylight",
+      "golden hour",
+      "lantern-lit evenings",
+      "civic blue illumination",
+      "Ward Networks",
+      "Ritual Geometry"
+    ],
+    "environmentalLogic": "Environment should make the city’s institutions readable: Canal / Riverworks, Granary / Food Market, Civic Services, Medical / Healing, Arena / Training must feel embedded in Riverside, Floodplain, Canal Basin, with water handled as River and public magic appearing as Ward Networks, Ritual Geometry, Stone Giant Memory."
+  },
+  "architecture": {
+    "materials": [
+      "Riverstone",
+      "Mudbrick",
+      "Timber",
+      "Limewash",
+      "Canvas"
+    ],
+    "forms": [
+      "civic terraces",
+      "public courts",
+      "audience terraces",
+      "sealed archives",
+      "command platforms",
+      "Canal / Riverworks Civic Hall",
+      "Granary / Food Market Civic Hall",
+      "Civic Services Hall",
+      "Medical / Healing Civic Hall",
+      "Arena / Training Civic Hall",
+      "Lock House Beacon",
+      "Grain Hall",
+      "Relief Hall",
+      "Healing Hall",
+      "Training Arena",
+      "Canal Reflections Monument",
+      "Awning Monument",
+      "Civic Services Lantern Monument",
+      "Medical Healing Lantern Monument",
+      "Woven Banners Monument",
+      "Waterwheel Court Nook",
+      "Mill Court Nook",
+      "Notice Plaza Nook",
+      "Apothecary Court Nook",
+      "Champion Gate Nook"
+    ],
+    "skyline": [
+      "Giant Sky-Stair Hall of the Broken Cloud dominates the far skyline and should be larger than every section landmark.",
+      "Memory Tablet Walls Colossus Registry anchors the central District 13 civic mass.",
+      "Lock House Beacon is the section-1 signal landmark and must be readable from nearby districts.",
+      "Section skyline rhythm: Lock House Beacon, Grain Hall, Relief Hall, Healing Hall, Training Arena."
+    ],
+    "lighting": [
+      "civic blue illumination",
+      "lantern light",
+      "golden-hour edge light",
+      "public beacon glow",
+      "Ward Networks",
+      "Ritual Geometry",
+      "Stone Giant Memory"
+    ],
+    "infrastructure": [
+      "Canal / Riverworks Civic Hall",
+      "Granary / Food Market Civic Hall",
+      "Civic Services Hall",
+      "Medical / Healing Civic Hall",
+      "Arena / Training Civic Hall",
+      "Lock House Beacon",
+      "Grain Hall",
+      "Relief Hall",
+      "Healing Hall",
+      "Training Arena",
+      "district streets",
+      "public approach stairs",
+      "notice plazas",
+      "archive thresholds",
+      "service yards"
+    ],
+    "motifs": [
+      "Giant",
+      "Stair",
+      "Hall",
+      "Broken",
+      "Cloud",
+      "Memory",
+      "Tablet",
+      "Walls",
+      "Colossus",
+      "Registry",
+      "Lock",
+      "House",
+      "Ward Networks",
+      "Ritual Geometry",
+      "Stone Giant Memory"
+    ],
+    "colorLanguage": [
+      "Riverstone",
+      "Mudbrick",
+      "Timber",
+      "Limewash",
+      "Canvas"
+    ],
+    "textureLanguage": [
+      "Riverstone",
+      "Mudbrick",
+      "Timber",
+      "Limewash",
+      "Canvas",
+      "worn paving",
+      "public notice surfaces",
+      "worked civic thresholds",
+      "weathered landmark edges"
+    ]
+  },
+  "civilization": {
+    "people": "The population is giants. Civic scenes should show them using the city’s architecture naturally: gathering near Lock House Beacon, moving through Canal / Riverworks, Granary / Food Market, Civic Services, and treating the named anchors as practical institutions.",
+    "occupations": [
+      "civic clerks",
+      "beacon wardens",
+      "archive keepers",
+      "market sellers",
+      "street repair crews",
+      "craft workers",
+      "messengers",
+      "guards",
+      "Canal / Riverworks staff",
+      "Granary / Food Market staff",
+      "Civic Services staff",
+      "Medical / Healing staff",
+      "Arena / Training staff",
+      "lock house beacon attendants",
+      "grain hall attendants",
+      "relief hall attendants",
+      "healing hall attendants",
+      "training arena attendants"
+    ],
+    "socialClasses": [
+      "seat-of-power officials attached to Memory Tablet Walls Colossus Registry",
+      "section hall administrators and permit keepers",
+      "craft, market, transport, religious, or military guild households depending on district spine",
+      "street vendors, carriers, maintenance workers, and household service families",
+      "visitors and petitioners who navigate the city through public anchors"
+    ],
+    "governance": "Governance is centered on Memory Tablet Walls Colossus Registry and expressed locally through the five section civic halls. Authority should be visible in courts, archives, public signals, permits, and named monuments rather than hidden abstraction.",
+    "religion": "Religious and symbolic life should draw on Ward Networks, Ritual Geometry, Stone Giant Memory, the Wonder’s public symbolism, and whichever section anchors carry sacred or ceremonial roles.",
+    "customs": [
+      "citizens use named halls and nooks as practical meeting points",
+      "public signals from the Beacon interrupt ordinary commerce and movement",
+      "section monuments preserve civic memory and local identity",
+      "visitors orient themselves by Wonder, Beacon, Seat, and section major landmarks",
+      "formal petitions and judgments move toward District 13"
+    ],
+    "bodyLanguage": [
+      "citizens make room for official messengers near beacon approaches",
+      "locals gesture by landmark rather than by street name",
+      "public posture changes around courts, monuments, and halls",
+      "market or service workers keep one eye on signal points during tense periods"
+    ],
+    "speechPatterns": [
+      "directions reference exact named anchors",
+      "formal speech preserves civic titles",
+      "street speech abbreviates section landmarks but not Wonder, Beacon, or Seat names",
+      "public announcements use practical civic language rather than poetic vagueness"
+    ]
+  },
+  "urbanLife": {
+    "streets": {
+      "appearance": "Street views should show Riverstone, Mudbrick, Timber, Limewash, Canvas, civic terraces, public courts, audience terraces, sealed archives, command platforms, Canal / Riverworks Civic Hall, pedestrians using section halls, and sightlines back to Lock House Beacon or Memory Tablet Walls Colossus Registry where appropriate.",
+      "movement": "Movement is organized by section spine: Canal / Riverworks, Granary / Food Market, Civic Services, Medical / Healing, Arena / Training. Districts feed toward their civic hall, major landmark, monument, and minor nook before converging on District 13 for authority scenes.",
+      "sounds": [
+        "sluice gates thudding",
+        "waterwheels turning",
+        "grain scales creaking",
+        "relief hall announcements",
+        "healing hall murmurs",
+        "arena practice echoes"
+      ],
+      "smells": [
+        "wet riverstone",
+        "mudbrick after rain",
+        "canvas awnings",
+        "grain dust",
+        "healing herbs",
+        "training-yard leather"
+      ],
+      "lighting": "Use civic blue illumination for official signal moments, practical lantern light for night scenes, and material-specific highlights on Riverstone, Mudbrick, Timber, Limewash.",
+      "weatherEffects": "Weather should reinforce terrain and water logic: Riverside, Floodplain, Canal Basin; water context River.",
+      "dayCycle": "Mornings emphasize deliveries, hall openings, street maintenance, market preparation, and official notices; afternoons build toward hearings, training, guild work, or section-specific labor.",
+      "nightCycle": "Evenings compress around lanterns, food stalls, guarded thresholds, quieter civic errands, and beacon visibility against darker streets."
+    },
+    "shops": {
+      "common": [
+        "food stalls",
+        "repair counters",
+        "lantern sellers",
+        "permit copyists",
+        "market cloth stalls",
+        "tool vendors",
+        "canal / riverworks service stalls",
+        "granary / food market service stalls",
+        "civic services service stalls"
+      ],
+      "uncommon": [
+        "landmark souvenir makers",
+        "ritual supply counters",
+        "specialist surveyors",
+        "seal engravers",
+        "instrument repairers",
+        "lock house beacon adjunct shops",
+        "grain hall adjunct shops",
+        "relief hall adjunct shops"
+      ],
+      "prestigious": [
+        "Memory Tablet Walls Colossus Registry document ateliers",
+        "Giant Sky-Stair Hall of the Broken Cloud ceremonial suppliers",
+        "master craft houses",
+        "official seal workshops",
+        "elite household service halls"
+      ],
+      "exports": [
+        "finished civic craft",
+        "specialized tools",
+        "ritual goods",
+        "district textiles",
+        "trained specialists",
+        "Riverstone",
+        "Mudbrick",
+        "Timber"
+      ],
+      "imports": [
+        "rare dyes",
+        "lamp oil",
+        "fine timber",
+        "metal fittings",
+        "grain stores",
+        "paper and ink"
+      ],
+      "streetFood": [
+        "giant loaves",
+        "river grain porridge",
+        "reed-wrapped fish",
+        "healing herb tea",
+        "arena stew",
+        "floodplain fruit cakes"
+      ],
+      "services": [
+        "petition filing",
+        "district guidance",
+        "beacon notice posting",
+        "minor repairs",
+        "public messenger work",
+        "archive copying",
+        "canal / riverworks appointments",
+        "granary / food market appointments"
+      ]
+    },
+    "housing": {
+      "wealthy": "Residences near Memory Tablet Walls Colossus Registry or high-status section courts use the best Riverstone, Mudbrick, Timber, private terraces, and controlled views of civic landmarks.",
+      "middle": "Households cluster above shops and along civic streets, sharing courtyards, balconies, workrooms, and access to section halls.",
+      "poor": "Lower-status housing is practical, crowded, and close to service yards or labor streets, but still uses local motifs and public landmarks for orientation."
+    }
+  },
+  "districts": [
+    {
+      "districtNumber": 1,
+      "sectionNumber": 1,
+      "name": "D01 Canal / Riverworks Civic Approach",
+      "civicPurpose": "A civic approach district within Canal / Riverworks that supports Canal / Riverworks Civic Hall, Lock House Beacon, and the surrounding section economy.",
+      "visualIdentity": "Use Riverstone, Mudbrick, Timber, Limewash, section signage through Canal / Riverworks Civic Hall, Lock House Beacon, Canal Reflections Monument, Waterwheel Court Nook, and terrain cues from Riverside, Floodplain, Canal Basin. The district should read as part of Canal / Riverworks without becoming generic.",
+      "emotionalIdentity": "civic approach-oriented, local, practical, and tied to the section mood of Canal / Riverworks",
+      "gameplayAssetNeeds": [
+        "Canal / Riverworks Civic Hall",
+        "Lock House Beacon",
+        "Canal Reflections Monument",
+        "Waterwheel Court Nook",
+        "Canal / Riverworks pedestrians",
+        "street props",
+        "section lighting",
+        "board-readable landmark silhouette"
+      ],
+      "narrativeUse": [
+        "street scenes in Canal / Riverworks",
+        "local business around Lock House Beacon",
+        "district traversal",
+        "rumor exchange",
+        "small civic obstacle"
+      ],
+      "primaryLandmark": "Lock House Beacon",
+      "minorLandmarks": [
+        "Canal / Riverworks Civic Hall",
+        "Canal Reflections Monument",
+        "Waterwheel Court Nook"
+      ]
+    },
+    {
+      "districtNumber": 2,
+      "sectionNumber": 1,
+      "name": "D02 Canal / Riverworks Landmark Court",
+      "civicPurpose": "A landmark court district within Canal / Riverworks that supports Canal / Riverworks Civic Hall, Lock House Beacon, and the surrounding section economy.",
+      "visualIdentity": "Use Riverstone, Mudbrick, Timber, Limewash, section signage through Canal / Riverworks Civic Hall, Lock House Beacon, Canal Reflections Monument, Waterwheel Court Nook, and terrain cues from Riverside, Floodplain, Canal Basin. The district should read as part of Canal / Riverworks without becoming generic.",
+      "emotionalIdentity": "landmark court-oriented, local, practical, and tied to the section mood of Canal / Riverworks",
+      "gameplayAssetNeeds": [
+        "Canal / Riverworks Civic Hall",
+        "Lock House Beacon",
+        "Canal Reflections Monument",
+        "Waterwheel Court Nook",
+        "Canal / Riverworks pedestrians",
+        "street props",
+        "section lighting",
+        "board-readable landmark silhouette"
+      ],
+      "narrativeUse": [
+        "street scenes in Canal / Riverworks",
+        "local business around Lock House Beacon",
+        "district traversal",
+        "rumor exchange",
+        "small civic obstacle"
+      ],
+      "primaryLandmark": "Lock House Beacon",
+      "minorLandmarks": [
+        "Canal / Riverworks Civic Hall",
+        "Canal Reflections Monument",
+        "Waterwheel Court Nook"
+      ]
+    },
+    {
+      "districtNumber": 3,
+      "sectionNumber": 1,
+      "name": "D03 Canal / Riverworks Working Streets",
+      "civicPurpose": "A working streets district within Canal / Riverworks that supports Canal / Riverworks Civic Hall, Lock House Beacon, and the surrounding section economy.",
+      "visualIdentity": "Use Riverstone, Mudbrick, Timber, Limewash, section signage through Canal / Riverworks Civic Hall, Lock House Beacon, Canal Reflections Monument, Waterwheel Court Nook, and terrain cues from Riverside, Floodplain, Canal Basin. The district should read as part of Canal / Riverworks without becoming generic.",
+      "emotionalIdentity": "working streets-oriented, local, practical, and tied to the section mood of Canal / Riverworks",
+      "gameplayAssetNeeds": [
+        "Canal / Riverworks Civic Hall",
+        "Lock House Beacon",
+        "Canal Reflections Monument",
+        "Waterwheel Court Nook",
+        "Canal / Riverworks pedestrians",
+        "street props",
+        "section lighting",
+        "board-readable landmark silhouette"
+      ],
+      "narrativeUse": [
+        "street scenes in Canal / Riverworks",
+        "local business around Lock House Beacon",
+        "district traversal",
+        "rumor exchange",
+        "small civic obstacle"
+      ],
+      "primaryLandmark": "Lock House Beacon",
+      "minorLandmarks": [
+        "Canal / Riverworks Civic Hall",
+        "Canal Reflections Monument",
+        "Waterwheel Court Nook"
+      ]
+    },
+    {
+      "districtNumber": 4,
+      "sectionNumber": 2,
+      "name": "D04 Granary / Food Market Civic Approach",
+      "civicPurpose": "A civic approach district within Granary / Food Market that supports Granary / Food Market Civic Hall, Grain Hall, and the surrounding section economy.",
+      "visualIdentity": "Use Riverstone, Mudbrick, Timber, Limewash, section signage through Granary / Food Market Civic Hall, Grain Hall, Awning Monument, Mill Court Nook, and terrain cues from Riverside, Floodplain, Canal Basin. The district should read as part of Granary / Food Market without becoming generic.",
+      "emotionalIdentity": "civic approach-oriented, local, practical, and tied to the section mood of Granary / Food Market",
+      "gameplayAssetNeeds": [
+        "Granary / Food Market Civic Hall",
+        "Grain Hall",
+        "Awning Monument",
+        "Mill Court Nook",
+        "Granary / Food Market pedestrians",
+        "street props",
+        "section lighting",
+        "board-readable landmark silhouette"
+      ],
+      "narrativeUse": [
+        "street scenes in Granary / Food Market",
+        "local business around Grain Hall",
+        "district traversal",
+        "rumor exchange",
+        "small civic obstacle"
+      ],
+      "primaryLandmark": "Grain Hall",
+      "minorLandmarks": [
+        "Granary / Food Market Civic Hall",
+        "Awning Monument",
+        "Mill Court Nook"
+      ]
+    },
+    {
+      "districtNumber": 5,
+      "sectionNumber": 2,
+      "name": "D05 Granary / Food Market Landmark Court",
+      "civicPurpose": "A landmark court district within Granary / Food Market that supports Granary / Food Market Civic Hall, Grain Hall, and the surrounding section economy.",
+      "visualIdentity": "Use Riverstone, Mudbrick, Timber, Limewash, section signage through Granary / Food Market Civic Hall, Grain Hall, Awning Monument, Mill Court Nook, and terrain cues from Riverside, Floodplain, Canal Basin. The district should read as part of Granary / Food Market without becoming generic.",
+      "emotionalIdentity": "landmark court-oriented, local, practical, and tied to the section mood of Granary / Food Market",
+      "gameplayAssetNeeds": [
+        "Granary / Food Market Civic Hall",
+        "Grain Hall",
+        "Awning Monument",
+        "Mill Court Nook",
+        "Granary / Food Market pedestrians",
+        "street props",
+        "section lighting",
+        "board-readable landmark silhouette"
+      ],
+      "narrativeUse": [
+        "street scenes in Granary / Food Market",
+        "local business around Grain Hall",
+        "district traversal",
+        "rumor exchange",
+        "small civic obstacle"
+      ],
+      "primaryLandmark": "Grain Hall",
+      "minorLandmarks": [
+        "Granary / Food Market Civic Hall",
+        "Awning Monument",
+        "Mill Court Nook"
+      ]
+    },
+    {
+      "districtNumber": 6,
+      "sectionNumber": 1,
+      "name": "D06 Canal / Riverworks Residential Edge",
+      "civicPurpose": "A residential edge district within Canal / Riverworks that supports Canal / Riverworks Civic Hall, Lock House Beacon, and the surrounding section economy.",
+      "visualIdentity": "Use Riverstone, Mudbrick, Timber, Limewash, section signage through Canal / Riverworks Civic Hall, Lock House Beacon, Canal Reflections Monument, Waterwheel Court Nook, and terrain cues from Riverside, Floodplain, Canal Basin. The district should read as part of Canal / Riverworks without becoming generic.",
+      "emotionalIdentity": "residential edge-oriented, local, practical, and tied to the section mood of Canal / Riverworks",
+      "gameplayAssetNeeds": [
+        "Canal / Riverworks Civic Hall",
+        "Lock House Beacon",
+        "Canal Reflections Monument",
+        "Waterwheel Court Nook",
+        "Canal / Riverworks pedestrians",
+        "street props",
+        "section lighting",
+        "board-readable landmark silhouette"
+      ],
+      "narrativeUse": [
+        "street scenes in Canal / Riverworks",
+        "local business around Lock House Beacon",
+        "district traversal",
+        "rumor exchange",
+        "small civic obstacle"
+      ],
+      "primaryLandmark": "Lock House Beacon",
+      "minorLandmarks": [
+        "Canal / Riverworks Civic Hall",
+        "Canal Reflections Monument",
+        "Waterwheel Court Nook"
+      ]
+    },
+    {
+      "districtNumber": 7,
+      "sectionNumber": 1,
+      "name": "D07 Canal / Riverworks Service Yard",
+      "civicPurpose": "A service yard district within Canal / Riverworks that supports Canal / Riverworks Civic Hall, Lock House Beacon, and the surrounding section economy.",
+      "visualIdentity": "Use Riverstone, Mudbrick, Timber, Limewash, section signage through Canal / Riverworks Civic Hall, Lock House Beacon, Canal Reflections Monument, Waterwheel Court Nook, and terrain cues from Riverside, Floodplain, Canal Basin. The district should read as part of Canal / Riverworks without becoming generic.",
+      "emotionalIdentity": "service yard-oriented, local, practical, and tied to the section mood of Canal / Riverworks",
+      "gameplayAssetNeeds": [
+        "Canal / Riverworks Civic Hall",
+        "Lock House Beacon",
+        "Canal Reflections Monument",
+        "Waterwheel Court Nook",
+        "Canal / Riverworks pedestrians",
+        "street props",
+        "section lighting",
+        "board-readable landmark silhouette"
+      ],
+      "narrativeUse": [
+        "street scenes in Canal / Riverworks",
+        "local business around Lock House Beacon",
+        "district traversal",
+        "rumor exchange",
+        "small civic obstacle"
+      ],
+      "primaryLandmark": "Lock House Beacon",
+      "minorLandmarks": [
+        "Canal / Riverworks Civic Hall",
+        "Canal Reflections Monument",
+        "Waterwheel Court Nook"
+      ]
+    },
+    {
+      "districtNumber": 8,
+      "sectionNumber": 3,
+      "name": "D08 Civic Services Civic Approach",
+      "civicPurpose": "A civic approach district within Civic Services that supports Civic Services Hall, Relief Hall, and the surrounding section economy.",
+      "visualIdentity": "Use Riverstone, Mudbrick, Timber, Limewash, section signage through Civic Services Hall, Relief Hall, Civic Services Lantern Monument, Notice Plaza Nook, and terrain cues from Riverside, Floodplain, Canal Basin. The district should read as part of Civic Services without becoming generic.",
+      "emotionalIdentity": "civic approach-oriented, local, practical, and tied to the section mood of Civic Services",
+      "gameplayAssetNeeds": [
+        "Civic Services Hall",
+        "Relief Hall",
+        "Civic Services Lantern Monument",
+        "Notice Plaza Nook",
+        "Civic Services pedestrians",
+        "street props",
+        "section lighting",
+        "board-readable landmark silhouette"
+      ],
+      "narrativeUse": [
+        "street scenes in Civic Services",
+        "local business around Relief Hall",
+        "district traversal",
+        "rumor exchange",
+        "small civic obstacle"
+      ],
+      "primaryLandmark": "Relief Hall",
+      "minorLandmarks": [
+        "Civic Services Hall",
+        "Civic Services Lantern Monument",
+        "Notice Plaza Nook"
+      ]
+    },
+    {
+      "districtNumber": 9,
+      "sectionNumber": 2,
+      "name": "D09 Granary / Food Market Working Streets",
+      "civicPurpose": "A working streets district within Granary / Food Market that supports Granary / Food Market Civic Hall, Grain Hall, and the surrounding section economy.",
+      "visualIdentity": "Use Riverstone, Mudbrick, Timber, Limewash, section signage through Granary / Food Market Civic Hall, Grain Hall, Awning Monument, Mill Court Nook, and terrain cues from Riverside, Floodplain, Canal Basin. The district should read as part of Granary / Food Market without becoming generic.",
+      "emotionalIdentity": "working streets-oriented, local, practical, and tied to the section mood of Granary / Food Market",
+      "gameplayAssetNeeds": [
+        "Granary / Food Market Civic Hall",
+        "Grain Hall",
+        "Awning Monument",
+        "Mill Court Nook",
+        "Granary / Food Market pedestrians",
+        "street props",
+        "section lighting",
+        "board-readable landmark silhouette"
+      ],
+      "narrativeUse": [
+        "street scenes in Granary / Food Market",
+        "local business around Grain Hall",
+        "district traversal",
+        "rumor exchange",
+        "small civic obstacle"
+      ],
+      "primaryLandmark": "Grain Hall",
+      "minorLandmarks": [
+        "Granary / Food Market Civic Hall",
+        "Awning Monument",
+        "Mill Court Nook"
+      ]
+    },
+    {
+      "districtNumber": 10,
+      "sectionNumber": 2,
+      "name": "D10 Granary / Food Market Residential Edge",
+      "civicPurpose": "A residential edge district within Granary / Food Market that supports Granary / Food Market Civic Hall, Grain Hall, and the surrounding section economy.",
+      "visualIdentity": "Use Riverstone, Mudbrick, Timber, Limewash, section signage through Granary / Food Market Civic Hall, Grain Hall, Awning Monument, Mill Court Nook, and terrain cues from Riverside, Floodplain, Canal Basin. The district should read as part of Granary / Food Market without becoming generic.",
+      "emotionalIdentity": "residential edge-oriented, local, practical, and tied to the section mood of Granary / Food Market",
+      "gameplayAssetNeeds": [
+        "Granary / Food Market Civic Hall",
+        "Grain Hall",
+        "Awning Monument",
+        "Mill Court Nook",
+        "Granary / Food Market pedestrians",
+        "street props",
+        "section lighting",
+        "board-readable landmark silhouette"
+      ],
+      "narrativeUse": [
+        "street scenes in Granary / Food Market",
+        "local business around Grain Hall",
+        "district traversal",
+        "rumor exchange",
+        "small civic obstacle"
+      ],
+      "primaryLandmark": "Grain Hall",
+      "minorLandmarks": [
+        "Granary / Food Market Civic Hall",
+        "Awning Monument",
+        "Mill Court Nook"
+      ]
+    },
+    {
+      "districtNumber": 11,
+      "sectionNumber": 4,
+      "name": "D11 Medical / Healing Civic Approach",
+      "civicPurpose": "A civic approach district within Medical / Healing that supports Medical / Healing Civic Hall, Healing Hall, and the surrounding section economy.",
+      "visualIdentity": "Use Riverstone, Mudbrick, Timber, Limewash, section signage through Medical / Healing Civic Hall, Healing Hall, Medical Healing Lantern Monument, Apothecary Court Nook, and terrain cues from Riverside, Floodplain, Canal Basin. The district should read as part of Medical / Healing without becoming generic.",
+      "emotionalIdentity": "civic approach-oriented, local, practical, and tied to the section mood of Medical / Healing",
+      "gameplayAssetNeeds": [
+        "Medical / Healing Civic Hall",
+        "Healing Hall",
+        "Medical Healing Lantern Monument",
+        "Apothecary Court Nook",
+        "Medical / Healing pedestrians",
+        "street props",
+        "section lighting",
+        "board-readable landmark silhouette"
+      ],
+      "narrativeUse": [
+        "street scenes in Medical / Healing",
+        "local business around Healing Hall",
+        "district traversal",
+        "rumor exchange",
+        "small civic obstacle"
+      ],
+      "primaryLandmark": "Healing Hall",
+      "minorLandmarks": [
+        "Medical / Healing Civic Hall",
+        "Medical Healing Lantern Monument",
+        "Apothecary Court Nook"
+      ]
+    },
+    {
+      "districtNumber": 12,
+      "sectionNumber": 3,
+      "name": "D12 Civic Services Landmark Court",
+      "civicPurpose": "A landmark court district within Civic Services that supports Civic Services Hall, Relief Hall, and the surrounding section economy.",
+      "visualIdentity": "Use Riverstone, Mudbrick, Timber, Limewash, section signage through Civic Services Hall, Relief Hall, Civic Services Lantern Monument, Notice Plaza Nook, and terrain cues from Riverside, Floodplain, Canal Basin. The district should read as part of Civic Services without becoming generic.",
+      "emotionalIdentity": "landmark court-oriented, local, practical, and tied to the section mood of Civic Services",
+      "gameplayAssetNeeds": [
+        "Civic Services Hall",
+        "Relief Hall",
+        "Civic Services Lantern Monument",
+        "Notice Plaza Nook",
+        "Civic Services pedestrians",
+        "street props",
+        "section lighting",
+        "board-readable landmark silhouette"
+      ],
+      "narrativeUse": [
+        "street scenes in Civic Services",
+        "local business around Relief Hall",
+        "district traversal",
+        "rumor exchange",
+        "small civic obstacle"
+      ],
+      "primaryLandmark": "Relief Hall",
+      "minorLandmarks": [
+        "Civic Services Hall",
+        "Civic Services Lantern Monument",
+        "Notice Plaza Nook"
+      ]
+    },
+    {
+      "districtNumber": 13,
+      "sectionNumber": 3,
+      "name": "D13 Memory Tablet Walls Colossus Registry",
+      "civicPurpose": "Central seat-of-power district where Memory Tablet Walls Colossus Registry concentrates courts, archives, command platforms, petitions, and city legitimacy.",
+      "visualIdentity": "Use Riverstone, Mudbrick, Timber, Limewash, section signage through Civic Services Hall, Relief Hall, Civic Services Lantern Monument, Notice Plaza Nook, and terrain cues from Riverside, Floodplain, Canal Basin. The district should read as part of Civic Services without becoming generic.",
+      "emotionalIdentity": "authoritative, tense, formal, and publicly consequential",
+      "gameplayAssetNeeds": [
+        "Memory Tablet Walls Colossus Registry",
+        "audience terraces",
+        "sealed archives",
+        "command platforms",
+        "petition queues"
+      ],
+      "narrativeUse": [
+        "central ruling scenes",
+        "public petitions",
+        "sealed records",
+        "political pressure",
+        "citywide legitimacy tests"
+      ],
+      "primaryLandmark": "Memory Tablet Walls Colossus Registry",
+      "minorLandmarks": [
+        "Civic Services Hall",
+        "Civic Services Lantern Monument",
+        "Notice Plaza Nook"
+      ]
+    },
+    {
+      "districtNumber": 14,
+      "sectionNumber": 3,
+      "name": "D14 Civic Services Residential Edge",
+      "civicPurpose": "A residential edge district within Civic Services that supports Civic Services Hall, Relief Hall, and the surrounding section economy.",
+      "visualIdentity": "Use Riverstone, Mudbrick, Timber, Limewash, section signage through Civic Services Hall, Relief Hall, Civic Services Lantern Monument, Notice Plaza Nook, and terrain cues from Riverside, Floodplain, Canal Basin. The district should read as part of Civic Services without becoming generic.",
+      "emotionalIdentity": "residential edge-oriented, local, practical, and tied to the section mood of Civic Services",
+      "gameplayAssetNeeds": [
+        "Civic Services Hall",
+        "Relief Hall",
+        "Civic Services Lantern Monument",
+        "Notice Plaza Nook",
+        "Civic Services pedestrians",
+        "street props",
+        "section lighting",
+        "board-readable landmark silhouette"
+      ],
+      "narrativeUse": [
+        "street scenes in Civic Services",
+        "local business around Relief Hall",
+        "district traversal",
+        "rumor exchange",
+        "small civic obstacle"
+      ],
+      "primaryLandmark": "Relief Hall",
+      "minorLandmarks": [
+        "Civic Services Hall",
+        "Civic Services Lantern Monument",
+        "Notice Plaza Nook"
+      ]
+    },
+    {
+      "districtNumber": 15,
+      "sectionNumber": 2,
+      "name": "D15 Granary / Food Market Service Yard",
+      "civicPurpose": "A service yard district within Granary / Food Market that supports Granary / Food Market Civic Hall, Grain Hall, and the surrounding section economy.",
+      "visualIdentity": "Use Riverstone, Mudbrick, Timber, Limewash, section signage through Granary / Food Market Civic Hall, Grain Hall, Awning Monument, Mill Court Nook, and terrain cues from Riverside, Floodplain, Canal Basin. The district should read as part of Granary / Food Market without becoming generic.",
+      "emotionalIdentity": "service yard-oriented, local, practical, and tied to the section mood of Granary / Food Market",
+      "gameplayAssetNeeds": [
+        "Granary / Food Market Civic Hall",
+        "Grain Hall",
+        "Awning Monument",
+        "Mill Court Nook",
+        "Granary / Food Market pedestrians",
+        "street props",
+        "section lighting",
+        "board-readable landmark silhouette"
+      ],
+      "narrativeUse": [
+        "street scenes in Granary / Food Market",
+        "local business around Grain Hall",
+        "district traversal",
+        "rumor exchange",
+        "small civic obstacle"
+      ],
+      "primaryLandmark": "Grain Hall",
+      "minorLandmarks": [
+        "Granary / Food Market Civic Hall",
+        "Awning Monument",
+        "Mill Court Nook"
+      ]
+    },
+    {
+      "districtNumber": 16,
+      "sectionNumber": 4,
+      "name": "D16 Medical / Healing Landmark Court",
+      "civicPurpose": "A landmark court district within Medical / Healing that supports Medical / Healing Civic Hall, Healing Hall, and the surrounding section economy.",
+      "visualIdentity": "Use Riverstone, Mudbrick, Timber, Limewash, section signage through Medical / Healing Civic Hall, Healing Hall, Medical Healing Lantern Monument, Apothecary Court Nook, and terrain cues from Riverside, Floodplain, Canal Basin. The district should read as part of Medical / Healing without becoming generic.",
+      "emotionalIdentity": "landmark court-oriented, local, practical, and tied to the section mood of Medical / Healing",
+      "gameplayAssetNeeds": [
+        "Medical / Healing Civic Hall",
+        "Healing Hall",
+        "Medical Healing Lantern Monument",
+        "Apothecary Court Nook",
+        "Medical / Healing pedestrians",
+        "street props",
+        "section lighting",
+        "board-readable landmark silhouette"
+      ],
+      "narrativeUse": [
+        "street scenes in Medical / Healing",
+        "local business around Healing Hall",
+        "district traversal",
+        "rumor exchange",
+        "small civic obstacle"
+      ],
+      "primaryLandmark": "Healing Hall",
+      "minorLandmarks": [
+        "Medical / Healing Civic Hall",
+        "Medical Healing Lantern Monument",
+        "Apothecary Court Nook"
+      ]
+    },
+    {
+      "districtNumber": 17,
+      "sectionNumber": 4,
+      "name": "D17 Medical / Healing Working Streets",
+      "civicPurpose": "A working streets district within Medical / Healing that supports Medical / Healing Civic Hall, Healing Hall, and the surrounding section economy.",
+      "visualIdentity": "Use Riverstone, Mudbrick, Timber, Limewash, section signage through Medical / Healing Civic Hall, Healing Hall, Medical Healing Lantern Monument, Apothecary Court Nook, and terrain cues from Riverside, Floodplain, Canal Basin. The district should read as part of Medical / Healing without becoming generic.",
+      "emotionalIdentity": "working streets-oriented, local, practical, and tied to the section mood of Medical / Healing",
+      "gameplayAssetNeeds": [
+        "Medical / Healing Civic Hall",
+        "Healing Hall",
+        "Medical Healing Lantern Monument",
+        "Apothecary Court Nook",
+        "Medical / Healing pedestrians",
+        "street props",
+        "section lighting",
+        "board-readable landmark silhouette"
+      ],
+      "narrativeUse": [
+        "street scenes in Medical / Healing",
+        "local business around Healing Hall",
+        "district traversal",
+        "rumor exchange",
+        "small civic obstacle"
+      ],
+      "primaryLandmark": "Healing Hall",
+      "minorLandmarks": [
+        "Medical / Healing Civic Hall",
+        "Medical Healing Lantern Monument",
+        "Apothecary Court Nook"
+      ]
+    },
+    {
+      "districtNumber": 18,
+      "sectionNumber": 3,
+      "name": "D18 Civic Services Service Yard",
+      "civicPurpose": "A service yard district within Civic Services that supports Civic Services Hall, Relief Hall, and the surrounding section economy.",
+      "visualIdentity": "Use Riverstone, Mudbrick, Timber, Limewash, section signage through Civic Services Hall, Relief Hall, Civic Services Lantern Monument, Notice Plaza Nook, and terrain cues from Riverside, Floodplain, Canal Basin. The district should read as part of Civic Services without becoming generic.",
+      "emotionalIdentity": "service yard-oriented, local, practical, and tied to the section mood of Civic Services",
+      "gameplayAssetNeeds": [
+        "Civic Services Hall",
+        "Relief Hall",
+        "Civic Services Lantern Monument",
+        "Notice Plaza Nook",
+        "Civic Services pedestrians",
+        "street props",
+        "section lighting",
+        "board-readable landmark silhouette"
+      ],
+      "narrativeUse": [
+        "street scenes in Civic Services",
+        "local business around Relief Hall",
+        "district traversal",
+        "rumor exchange",
+        "small civic obstacle"
+      ],
+      "primaryLandmark": "Relief Hall",
+      "minorLandmarks": [
+        "Civic Services Hall",
+        "Civic Services Lantern Monument",
+        "Notice Plaza Nook"
+      ]
+    },
+    {
+      "districtNumber": 19,
+      "sectionNumber": 5,
+      "name": "D19 Arena / Training Civic Approach",
+      "civicPurpose": "A civic approach district within Arena / Training that supports Arena / Training Civic Hall, Training Arena, and the surrounding section economy.",
+      "visualIdentity": "Use Riverstone, Mudbrick, Timber, Limewash, section signage through Arena / Training Civic Hall, Training Arena, Woven Banners Monument, Champion Gate Nook, and terrain cues from Riverside, Floodplain, Canal Basin. The district should read as part of Arena / Training without becoming generic.",
+      "emotionalIdentity": "civic approach-oriented, local, practical, and tied to the section mood of Arena / Training",
+      "gameplayAssetNeeds": [
+        "Arena / Training Civic Hall",
+        "Training Arena",
+        "Woven Banners Monument",
+        "Champion Gate Nook",
+        "Arena / Training pedestrians",
+        "street props",
+        "section lighting",
+        "board-readable landmark silhouette"
+      ],
+      "narrativeUse": [
+        "street scenes in Arena / Training",
+        "local business around Training Arena",
+        "district traversal",
+        "rumor exchange",
+        "small civic obstacle"
+      ],
+      "primaryLandmark": "Training Arena",
+      "minorLandmarks": [
+        "Arena / Training Civic Hall",
+        "Woven Banners Monument",
+        "Champion Gate Nook"
+      ]
+    },
+    {
+      "districtNumber": 20,
+      "sectionNumber": 5,
+      "name": "D20 Arena / Training Landmark Court",
+      "civicPurpose": "A landmark court district within Arena / Training that supports Arena / Training Civic Hall, Training Arena, and the surrounding section economy.",
+      "visualIdentity": "Use Riverstone, Mudbrick, Timber, Limewash, section signage through Arena / Training Civic Hall, Training Arena, Woven Banners Monument, Champion Gate Nook, and terrain cues from Riverside, Floodplain, Canal Basin. The district should read as part of Arena / Training without becoming generic.",
+      "emotionalIdentity": "landmark court-oriented, local, practical, and tied to the section mood of Arena / Training",
+      "gameplayAssetNeeds": [
+        "Arena / Training Civic Hall",
+        "Training Arena",
+        "Woven Banners Monument",
+        "Champion Gate Nook",
+        "Arena / Training pedestrians",
+        "street props",
+        "section lighting",
+        "board-readable landmark silhouette"
+      ],
+      "narrativeUse": [
+        "street scenes in Arena / Training",
+        "local business around Training Arena",
+        "district traversal",
+        "rumor exchange",
+        "small civic obstacle"
+      ],
+      "primaryLandmark": "Training Arena",
+      "minorLandmarks": [
+        "Arena / Training Civic Hall",
+        "Woven Banners Monument",
+        "Champion Gate Nook"
+      ]
+    },
+    {
+      "districtNumber": 21,
+      "sectionNumber": 4,
+      "name": "D21 Medical / Healing Residential Edge",
+      "civicPurpose": "A residential edge district within Medical / Healing that supports Medical / Healing Civic Hall, Healing Hall, and the surrounding section economy.",
+      "visualIdentity": "Use Riverstone, Mudbrick, Timber, Limewash, section signage through Medical / Healing Civic Hall, Healing Hall, Medical Healing Lantern Monument, Apothecary Court Nook, and terrain cues from Riverside, Floodplain, Canal Basin. The district should read as part of Medical / Healing without becoming generic.",
+      "emotionalIdentity": "residential edge-oriented, local, practical, and tied to the section mood of Medical / Healing",
+      "gameplayAssetNeeds": [
+        "Medical / Healing Civic Hall",
+        "Healing Hall",
+        "Medical Healing Lantern Monument",
+        "Apothecary Court Nook",
+        "Medical / Healing pedestrians",
+        "street props",
+        "section lighting",
+        "board-readable landmark silhouette"
+      ],
+      "narrativeUse": [
+        "street scenes in Medical / Healing",
+        "local business around Healing Hall",
+        "district traversal",
+        "rumor exchange",
+        "small civic obstacle"
+      ],
+      "primaryLandmark": "Healing Hall",
+      "minorLandmarks": [
+        "Medical / Healing Civic Hall",
+        "Medical Healing Lantern Monument",
+        "Apothecary Court Nook"
+      ]
+    },
+    {
+      "districtNumber": 22,
+      "sectionNumber": 4,
+      "name": "D22 Medical / Healing Service Yard",
+      "civicPurpose": "A service yard district within Medical / Healing that supports Medical / Healing Civic Hall, Healing Hall, and the surrounding section economy.",
+      "visualIdentity": "Use Riverstone, Mudbrick, Timber, Limewash, section signage through Medical / Healing Civic Hall, Healing Hall, Medical Healing Lantern Monument, Apothecary Court Nook, and terrain cues from Riverside, Floodplain, Canal Basin. The district should read as part of Medical / Healing without becoming generic.",
+      "emotionalIdentity": "service yard-oriented, local, practical, and tied to the section mood of Medical / Healing",
+      "gameplayAssetNeeds": [
+        "Medical / Healing Civic Hall",
+        "Healing Hall",
+        "Medical Healing Lantern Monument",
+        "Apothecary Court Nook",
+        "Medical / Healing pedestrians",
+        "street props",
+        "section lighting",
+        "board-readable landmark silhouette"
+      ],
+      "narrativeUse": [
+        "street scenes in Medical / Healing",
+        "local business around Healing Hall",
+        "district traversal",
+        "rumor exchange",
+        "small civic obstacle"
+      ],
+      "primaryLandmark": "Healing Hall",
+      "minorLandmarks": [
+        "Medical / Healing Civic Hall",
+        "Medical Healing Lantern Monument",
+        "Apothecary Court Nook"
+      ]
+    },
+    {
+      "districtNumber": 23,
+      "sectionNumber": 5,
+      "name": "D23 Arena / Training Working Streets",
+      "civicPurpose": "A working streets district within Arena / Training that supports Arena / Training Civic Hall, Training Arena, and the surrounding section economy.",
+      "visualIdentity": "Use Riverstone, Mudbrick, Timber, Limewash, section signage through Arena / Training Civic Hall, Training Arena, Woven Banners Monument, Champion Gate Nook, and terrain cues from Riverside, Floodplain, Canal Basin. The district should read as part of Arena / Training without becoming generic.",
+      "emotionalIdentity": "working streets-oriented, local, practical, and tied to the section mood of Arena / Training",
+      "gameplayAssetNeeds": [
+        "Arena / Training Civic Hall",
+        "Training Arena",
+        "Woven Banners Monument",
+        "Champion Gate Nook",
+        "Arena / Training pedestrians",
+        "street props",
+        "section lighting",
+        "board-readable landmark silhouette"
+      ],
+      "narrativeUse": [
+        "street scenes in Arena / Training",
+        "local business around Training Arena",
+        "district traversal",
+        "rumor exchange",
+        "small civic obstacle"
+      ],
+      "primaryLandmark": "Training Arena",
+      "minorLandmarks": [
+        "Arena / Training Civic Hall",
+        "Woven Banners Monument",
+        "Champion Gate Nook"
+      ]
+    },
+    {
+      "districtNumber": 24,
+      "sectionNumber": 5,
+      "name": "D24 Arena / Training Residential Edge",
+      "civicPurpose": "A residential edge district within Arena / Training that supports Arena / Training Civic Hall, Training Arena, and the surrounding section economy.",
+      "visualIdentity": "Use Riverstone, Mudbrick, Timber, Limewash, section signage through Arena / Training Civic Hall, Training Arena, Woven Banners Monument, Champion Gate Nook, and terrain cues from Riverside, Floodplain, Canal Basin. The district should read as part of Arena / Training without becoming generic.",
+      "emotionalIdentity": "residential edge-oriented, local, practical, and tied to the section mood of Arena / Training",
+      "gameplayAssetNeeds": [
+        "Arena / Training Civic Hall",
+        "Training Arena",
+        "Woven Banners Monument",
+        "Champion Gate Nook",
+        "Arena / Training pedestrians",
+        "street props",
+        "section lighting",
+        "board-readable landmark silhouette"
+      ],
+      "narrativeUse": [
+        "street scenes in Arena / Training",
+        "local business around Training Arena",
+        "district traversal",
+        "rumor exchange",
+        "small civic obstacle"
+      ],
+      "primaryLandmark": "Training Arena",
+      "minorLandmarks": [
+        "Arena / Training Civic Hall",
+        "Woven Banners Monument",
+        "Champion Gate Nook"
+      ]
+    },
+    {
+      "districtNumber": 25,
+      "sectionNumber": 5,
+      "name": "D25 Arena / Training Service Yard",
+      "civicPurpose": "A service yard district within Arena / Training that supports Arena / Training Civic Hall, Training Arena, and the surrounding section economy.",
+      "visualIdentity": "Use Riverstone, Mudbrick, Timber, Limewash, section signage through Arena / Training Civic Hall, Training Arena, Woven Banners Monument, Champion Gate Nook, and terrain cues from Riverside, Floodplain, Canal Basin. The district should read as part of Arena / Training without becoming generic.",
+      "emotionalIdentity": "service yard-oriented, local, practical, and tied to the section mood of Arena / Training",
+      "gameplayAssetNeeds": [
+        "Arena / Training Civic Hall",
+        "Training Arena",
+        "Woven Banners Monument",
+        "Champion Gate Nook",
+        "Arena / Training pedestrians",
+        "street props",
+        "section lighting",
+        "board-readable landmark silhouette"
+      ],
+      "narrativeUse": [
+        "street scenes in Arena / Training",
+        "local business around Training Arena",
+        "district traversal",
+        "rumor exchange",
+        "small civic obstacle"
+      ],
+      "primaryLandmark": "Training Arena",
+      "minorLandmarks": [
+        "Arena / Training Civic Hall",
+        "Woven Banners Monument",
+        "Champion Gate Nook"
+      ]
+    }
+  ],
+  "landmarks": {
+    "wonder": {
+      "name": "Giant Sky-Stair Hall of the Broken Cloud",
+      "symbolicRole": "The citywide symbol of giants identity made public and monumental.",
+      "visualRole": "A one-per-city wonder: spectacular, unmistakable, and larger than every section landmark. It turns Tormund Vale's geography, race identity, material culture, and civic magic into one public symbol. Built for Tormund Vale's giants population, it uses Riverstone, Mudbrick, Timber, Limewash, Canvas across Riverside, Floodplain, Canal Basin; water context: River; magic expression: Ward Networks, Ritual Geometry, Stone Gi",
+      "civicRole": "A unifying civic symbol larger than section landmarks; it gives Tormund Vale its skyline identity and public myth.",
+      "narrativeUse": [
+        "citywide reveal",
+        "arrival scene",
+        "public ceremony",
+        "moment of civic awe",
+        "orientation landmark"
+      ],
+      "assetUse": [
+        "map background skyline anchor",
+        "hero-view anchor",
+        "diorama distant silhouette",
+        "city identity marker"
+      ],
+      "sensoryIdentity": [
+        "monumental scale",
+        "public crowd noise",
+        "material gleam",
+        "sluice gates thudding",
+        "waterwheels turning",
+        "wet riverstone",
+        "mudbrick after rain"
+      ],
+      "storyHooks": [
+        "a public ceremony at the Wonder changes city mood",
+        "maintenance access reveals hidden civic routes",
+        "the Wonder becomes the reference point during a beacon state"
+      ]
+    },
+    "beacon": {
+      "name": "Lock House Beacon",
+      "symbolicRole": "The public signal point where citywide warning becomes local action.",
+      "visualRole": "A largest local landmark in this section, subordinate only to the city wonder and citadel. It belongs to Section 1 (Canal / Riverworks) of Tormund Vale and should use White Limestone Civic Blocks, Reed Pavilions, Coral Terraces, timber and canvas materials, Hanging Gardens, Canal Reflections, Lantern Lit, and the giants visual language. Design focus: wet stone, lock houses, sluice gates, waterwheel yards, towpaths. T",
+      "civicRole": "The Section 1 signal landmark; citizens watch it for alerts, public notices, and Conjunction response.",
+      "narrativeUse": [
+        "beacon color change",
+        "crowd reaction",
+        "evacuation or assembly",
+        "public misinformation",
+        "urgent messenger arrival"
+      ],
+      "assetUse": [
+        "Section 1 diorama centerpiece",
+        "city signal marker",
+        "beacon-state visual effect",
+        "map focal point"
+      ],
+      "sensoryIdentity": [
+        "blue glow",
+        "public hush at signal changes",
+        "stone plaza footsteps",
+        "sluice gates thudding",
+        "waterwheels turning",
+        "wet riverstone",
+        "mudbrick after rain"
+      ],
+      "storyHooks": [
+        "a signal is interpreted before officials arrive",
+        "crowds block the approach",
+        "the beacon reveals which district reacts first"
+      ]
+    },
+    "seatOfPower": {
+      "name": "Memory Tablet Walls Colossus Registry",
+      "symbolicRole": "Civic authority made visible through courts, archives, command platforms, and public legitimacy.",
+      "visualRole": "The district-13 seat of power: courts, audience terraces, sealed archives, command platforms, and the visible apparatus of government. It is not a faction HQ; it is the city's central civic authority. Built for Tormund Vale's giants population, it uses Riverstone, Mudbrick, Timber, Limewash, Canvas across Riverside, Floodplain, Canal Basin; water context: River; magic expression: Ward Networks, Ritual Geometry, Stone",
+      "civicRole": "District 13 authority center for petitions, archives, judgments, and city-scale decisions; not a faction headquarters.",
+      "narrativeUse": [
+        "ruling scene",
+        "sealed archive discovery",
+        "public petition",
+        "trial or judgment",
+        "authority under pressure"
+      ],
+      "assetUse": [
+        "central D13 map anchor",
+        "government diorama backdrop",
+        "authority iconography",
+        "petition scene set"
+      ],
+      "sensoryIdentity": [
+        "formal echoes",
+        "archive dust",
+        "official seals",
+        "guarded thresholds",
+        "sluice gates thudding",
+        "waterwheels turning",
+        "wet riverstone",
+        "mudbrick after rain"
+      ],
+      "storyHooks": [
+        "a sealed record contradicts public belief",
+        "a petition exposes citywide risk",
+        "command platforms become crowd-facing stages"
+      ]
+    },
+    "majorLandmarks": [
+      {
+        "name": "Canal / Riverworks Civic Hall",
+        "symbolicRole": "Section 1 civic center preserving the local identity of Canal / Riverworks.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing. It belongs to Section 1 (Canal / Riverworks) of Tormund Vale and should use White Limestone Civic Blocks, Reed Pavilions, Coral Terraces, timber and canvas materials, Hanging Gardens, Canal Reflections, Lantern Lit, and the giants visual language",
+        "civicRole": "Supports Canal / Riverworks as a playable and writable district spine rather than a generic neighborhood.",
+        "narrativeUse": [
+          "Canal / Riverworks scene anchor",
+          "local errand",
+          "public meeting point",
+          "district conflict",
+          "orientation clue"
+        ],
+        "assetUse": [
+          "Section 1 diorama asset",
+          "board-readable landmark",
+          "street-level focal prop",
+          "map district marker"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "worked materials",
+          "public voices",
+          "sluice gates thudding",
+          "waterwheels turning",
+          "wet riverstone",
+          "mudbrick after rain"
+        ],
+        "storyHooks": [
+          "an event at Canal / Riverworks Civic Hall reveals section priorities",
+          "locals use Canal / Riverworks Civic Hall as shorthand for the district",
+          "a small failure here cascades into a citywide problem"
+        ]
+      },
+      {
+        "name": "Canal Reflections Monument",
+        "symbolicRole": "Section 1 monument preserving the local identity of Canal / Riverworks.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles. It belongs to Section 1 (Canal / Riverworks) of Tormund Vale and should use Coral Terraces, White Limestone Civic Blocks, Reed Pavilions, timber and canvas materials, Canal Reflections, Lantern Lit, Hanging Gardens, and the giants visual langua",
+        "civicRole": "Supports Canal / Riverworks as a playable and writable district spine rather than a generic neighborhood.",
+        "narrativeUse": [
+          "Canal / Riverworks scene anchor",
+          "local errand",
+          "public meeting point",
+          "district conflict",
+          "orientation clue"
+        ],
+        "assetUse": [
+          "Section 1 diorama asset",
+          "board-readable landmark",
+          "street-level focal prop",
+          "map district marker"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "worked materials",
+          "public voices",
+          "sluice gates thudding",
+          "waterwheels turning",
+          "wet riverstone",
+          "mudbrick after rain"
+        ],
+        "storyHooks": [
+          "an event at Canal Reflections Monument reveals section priorities",
+          "locals use Canal Reflections Monument as shorthand for the district",
+          "a small failure here cascades into a citywide problem"
+        ]
+      },
+      {
+        "name": "Waterwheel Court Nook",
+        "symbolicRole": "Section 1 minor landmark preserving the local identity of Canal / Riverworks.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette. It belongs to Section 1 (Canal / Riverworks) of Tormund Vale and should use Reed Pavilions, Coral Terraces, White Limestone Civic Blocks, timber and canvas materials, Lantern Lit, Hanging Gardens, Canal Reflections, and the giants visual language. Design focus:",
+        "civicRole": "Supports Canal / Riverworks as a playable and writable district spine rather than a generic neighborhood.",
+        "narrativeUse": [
+          "Canal / Riverworks scene anchor",
+          "local errand",
+          "public meeting point",
+          "district conflict",
+          "orientation clue"
+        ],
+        "assetUse": [
+          "Section 1 diorama asset",
+          "board-readable landmark",
+          "street-level focal prop",
+          "map district marker"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "worked materials",
+          "public voices",
+          "sluice gates thudding",
+          "waterwheels turning",
+          "wet riverstone",
+          "mudbrick after rain"
+        ],
+        "storyHooks": [
+          "an event at Waterwheel Court Nook reveals section priorities",
+          "locals use Waterwheel Court Nook as shorthand for the district",
+          "a small failure here cascades into a citywide problem"
+        ]
+      },
+      {
+        "name": "Granary / Food Market Civic Hall",
+        "symbolicRole": "Section 2 civic center preserving the local identity of Granary / Food Market.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing. It belongs to Section 2 (Granary / Food Market) of Tormund Vale and should use Timber Longhouses, Market Arcades, Reed Pavilions, timber and canvas materials, Lantern Lit, Red Fabric Awnings, Woven Banners, and the giants visual language. Design",
+        "civicRole": "Supports Granary / Food Market as a playable and writable district spine rather than a generic neighborhood.",
+        "narrativeUse": [
+          "Granary / Food Market scene anchor",
+          "local errand",
+          "public meeting point",
+          "district conflict",
+          "orientation clue"
+        ],
+        "assetUse": [
+          "Section 2 diorama asset",
+          "board-readable landmark",
+          "street-level focal prop",
+          "map district marker"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "worked materials",
+          "public voices",
+          "sluice gates thudding",
+          "waterwheels turning",
+          "wet riverstone",
+          "mudbrick after rain"
+        ],
+        "storyHooks": [
+          "an event at Granary / Food Market Civic Hall reveals section priorities",
+          "locals use Granary / Food Market Civic Hall as shorthand for the district",
+          "a small failure here cascades into a citywide problem"
+        ]
+      },
+      {
+        "name": "Grain Hall",
+        "symbolicRole": "Section 2 major landmark preserving the local identity of Granary / Food Market.",
+        "visualRole": "A largest local landmark in this section, subordinate only to the city wonder and citadel. It belongs to Section 2 (Granary / Food Market) of Tormund Vale and should use Reed Pavilions, Timber Longhouses, Market Arcades, timber and canvas materials, Red Fabric Awnings, Woven Banners, Lantern Lit, and the giants visual language. Design focus: covered food hal",
+        "civicRole": "Supports Granary / Food Market as a playable and writable district spine rather than a generic neighborhood.",
+        "narrativeUse": [
+          "Granary / Food Market scene anchor",
+          "local errand",
+          "public meeting point",
+          "district conflict",
+          "orientation clue"
+        ],
+        "assetUse": [
+          "Section 2 diorama asset",
+          "board-readable landmark",
+          "street-level focal prop",
+          "map district marker"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "worked materials",
+          "public voices",
+          "sluice gates thudding",
+          "waterwheels turning",
+          "wet riverstone",
+          "mudbrick after rain"
+        ],
+        "storyHooks": [
+          "an event at Grain Hall reveals section priorities",
+          "locals use Grain Hall as shorthand for the district",
+          "a small failure here cascades into a citywide problem"
+        ]
+      },
+      {
+        "name": "Awning Monument",
+        "symbolicRole": "Section 2 monument preserving the local identity of Granary / Food Market.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles. It belongs to Section 2 (Granary / Food Market) of Tormund Vale and should use Timber Longhouses, Market Arcades, Reed Pavilions, timber and canvas materials, Lantern Lit, Red Fabric Awnings, Woven Banners, and the giants visual language. Desig",
+        "civicRole": "Supports Granary / Food Market as a playable and writable district spine rather than a generic neighborhood.",
+        "narrativeUse": [
+          "Granary / Food Market scene anchor",
+          "local errand",
+          "public meeting point",
+          "district conflict",
+          "orientation clue"
+        ],
+        "assetUse": [
+          "Section 2 diorama asset",
+          "board-readable landmark",
+          "street-level focal prop",
+          "map district marker"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "worked materials",
+          "public voices",
+          "sluice gates thudding",
+          "waterwheels turning",
+          "wet riverstone",
+          "mudbrick after rain"
+        ],
+        "storyHooks": [
+          "an event at Awning Monument reveals section priorities",
+          "locals use Awning Monument as shorthand for the district",
+          "a small failure here cascades into a citywide problem"
+        ]
+      },
+      {
+        "name": "Mill Court Nook",
+        "symbolicRole": "Section 2 minor landmark preserving the local identity of Granary / Food Market.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette. It belongs to Section 2 (Granary / Food Market) of Tormund Vale and should use Timber Longhouses, Market Arcades, Reed Pavilions, timber and canvas materials, Woven Banners, Lantern Lit, Red Fabric Awnings, and the giants visual language. Design focus: bakeries",
+        "civicRole": "Supports Granary / Food Market as a playable and writable district spine rather than a generic neighborhood.",
+        "narrativeUse": [
+          "Granary / Food Market scene anchor",
+          "local errand",
+          "public meeting point",
+          "district conflict",
+          "orientation clue"
+        ],
+        "assetUse": [
+          "Section 2 diorama asset",
+          "board-readable landmark",
+          "street-level focal prop",
+          "map district marker"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "worked materials",
+          "public voices",
+          "sluice gates thudding",
+          "waterwheels turning",
+          "wet riverstone",
+          "mudbrick after rain"
+        ],
+        "storyHooks": [
+          "an event at Mill Court Nook reveals section priorities",
+          "locals use Mill Court Nook as shorthand for the district",
+          "a small failure here cascades into a citywide problem"
+        ]
+      },
+      {
+        "name": "Civic Services Hall",
+        "symbolicRole": "Section 3 civic center preserving the local identity of Civic Services.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing. It belongs to Section 3 (Civic Services) of Tormund Vale and should use White Limestone Civic Blocks, Market Arcades, Reed Pavilions, timber and canvas materials, Civic Blue Glow, Red Fabric Awnings, Lantern Lit, and the giants visual language. D",
+        "civicRole": "Supports Civic Services as a playable and writable district spine rather than a generic neighborhood.",
+        "narrativeUse": [
+          "Civic Services scene anchor",
+          "local errand",
+          "public meeting point",
+          "district conflict",
+          "orientation clue"
+        ],
+        "assetUse": [
+          "Section 3 diorama asset",
+          "board-readable landmark",
+          "street-level focal prop",
+          "map district marker"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "worked materials",
+          "public voices",
+          "sluice gates thudding",
+          "waterwheels turning",
+          "wet riverstone",
+          "mudbrick after rain"
+        ],
+        "storyHooks": [
+          "an event at Civic Services Hall reveals section priorities",
+          "locals use Civic Services Hall as shorthand for the district",
+          "a small failure here cascades into a citywide problem"
+        ]
+      },
+      {
+        "name": "Relief Hall",
+        "symbolicRole": "Section 3 major landmark preserving the local identity of Civic Services.",
+        "visualRole": "A mandatory Section 3 Beacon: a culturally adapted civic signal flame / warning-light landmark visible across the city spine. It belongs to Section 3 (Civic Services) of Tormund Vale and should use Reed Pavilions, White Limestone Civic Blocks, Market Arcades, timber and canvas materials, Lantern Lit, Civic Blue Glow, Red Fabric Awnings, and the giants visual",
+        "civicRole": "Supports Civic Services as a playable and writable district spine rather than a generic neighborhood.",
+        "narrativeUse": [
+          "Civic Services scene anchor",
+          "local errand",
+          "public meeting point",
+          "district conflict",
+          "orientation clue"
+        ],
+        "assetUse": [
+          "Section 3 diorama asset",
+          "board-readable landmark",
+          "street-level focal prop",
+          "map district marker"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "worked materials",
+          "public voices",
+          "sluice gates thudding",
+          "waterwheels turning",
+          "wet riverstone",
+          "mudbrick after rain"
+        ],
+        "storyHooks": [
+          "an event at Relief Hall reveals section priorities",
+          "locals use Relief Hall as shorthand for the district",
+          "a small failure here cascades into a citywide problem"
+        ]
+      },
+      {
+        "name": "Civic Services Lantern Monument",
+        "symbolicRole": "Section 3 monument preserving the local identity of Civic Services.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles. It belongs to Section 3 (Civic Services) of Tormund Vale and should use Market Arcades, Reed Pavilions, White Limestone Civic Blocks, timber and canvas materials, Red Fabric Awnings, Lantern Lit, Civic Blue Glow, and the giants visual language.",
+        "civicRole": "Supports Civic Services as a playable and writable district spine rather than a generic neighborhood.",
+        "narrativeUse": [
+          "Civic Services scene anchor",
+          "local errand",
+          "public meeting point",
+          "district conflict",
+          "orientation clue"
+        ],
+        "assetUse": [
+          "Section 3 diorama asset",
+          "board-readable landmark",
+          "street-level focal prop",
+          "map district marker"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "worked materials",
+          "public voices",
+          "sluice gates thudding",
+          "waterwheels turning",
+          "wet riverstone",
+          "mudbrick after rain"
+        ],
+        "storyHooks": [
+          "an event at Civic Services Lantern Monument reveals section priorities",
+          "locals use Civic Services Lantern Monument as shorthand for the district",
+          "a small failure here cascades into a citywide problem"
+        ]
+      },
+      {
+        "name": "Notice Plaza Nook",
+        "symbolicRole": "Section 3 minor landmark preserving the local identity of Civic Services.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette. It belongs to Section 3 (Civic Services) of Tormund Vale and should use White Limestone Civic Blocks, Market Arcades, Reed Pavilions, timber and canvas materials, Civic Blue Glow, Red Fabric Awnings, Lantern Lit, and the giants visual language. Design focus: su",
+        "civicRole": "Supports Civic Services as a playable and writable district spine rather than a generic neighborhood.",
+        "narrativeUse": [
+          "Civic Services scene anchor",
+          "local errand",
+          "public meeting point",
+          "district conflict",
+          "orientation clue"
+        ],
+        "assetUse": [
+          "Section 3 diorama asset",
+          "board-readable landmark",
+          "street-level focal prop",
+          "map district marker"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "worked materials",
+          "public voices",
+          "sluice gates thudding",
+          "waterwheels turning",
+          "wet riverstone",
+          "mudbrick after rain"
+        ],
+        "storyHooks": [
+          "an event at Notice Plaza Nook reveals section priorities",
+          "locals use Notice Plaza Nook as shorthand for the district",
+          "a small failure here cascades into a citywide problem"
+        ]
+      },
+      {
+        "name": "Medical / Healing Civic Hall",
+        "symbolicRole": "Section 4 civic center preserving the local identity of Medical / Healing.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing. It belongs to Section 4 (Medical / Healing) of Tormund Vale and should use White Limestone Civic Blocks, Temple Platforms, Reed Pavilions, timber and canvas materials, Hanging Gardens, Lantern Lit, Bone White Ceremony, and the giants visual langu",
+        "civicRole": "Supports Medical / Healing as a playable and writable district spine rather than a generic neighborhood.",
+        "narrativeUse": [
+          "Medical / Healing scene anchor",
+          "local errand",
+          "public meeting point",
+          "district conflict",
+          "orientation clue"
+        ],
+        "assetUse": [
+          "Section 4 diorama asset",
+          "board-readable landmark",
+          "street-level focal prop",
+          "map district marker"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "worked materials",
+          "public voices",
+          "sluice gates thudding",
+          "waterwheels turning",
+          "wet riverstone",
+          "mudbrick after rain"
+        ],
+        "storyHooks": [
+          "an event at Medical / Healing Civic Hall reveals section priorities",
+          "locals use Medical / Healing Civic Hall as shorthand for the district",
+          "a small failure here cascades into a citywide problem"
+        ]
+      },
+      {
+        "name": "Healing Hall",
+        "symbolicRole": "Section 4 major landmark preserving the local identity of Medical / Healing.",
+        "visualRole": "A largest local landmark in this section, subordinate only to the city wonder and citadel. It belongs to Section 4 (Medical / Healing) of Tormund Vale and should use White Limestone Civic Blocks, Temple Platforms, Reed Pavilions, timber and canvas materials, Bone White Ceremony, Hanging Gardens, Lantern Lit, and the giants visual language. Design focus: clin",
+        "civicRole": "Supports Medical / Healing as a playable and writable district spine rather than a generic neighborhood.",
+        "narrativeUse": [
+          "Medical / Healing scene anchor",
+          "local errand",
+          "public meeting point",
+          "district conflict",
+          "orientation clue"
+        ],
+        "assetUse": [
+          "Section 4 diorama asset",
+          "board-readable landmark",
+          "street-level focal prop",
+          "map district marker"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "worked materials",
+          "public voices",
+          "sluice gates thudding",
+          "waterwheels turning",
+          "wet riverstone",
+          "mudbrick after rain"
+        ],
+        "storyHooks": [
+          "an event at Healing Hall reveals section priorities",
+          "locals use Healing Hall as shorthand for the district",
+          "a small failure here cascades into a citywide problem"
+        ]
+      },
+      {
+        "name": "Medical Healing Lantern Monument",
+        "symbolicRole": "Section 4 monument preserving the local identity of Medical / Healing.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles. It belongs to Section 4 (Medical / Healing) of Tormund Vale and should use Temple Platforms, Reed Pavilions, White Limestone Civic Blocks, timber and canvas materials, Hanging Gardens, Lantern Lit, Bone White Ceremony, and the giants visual lan",
+        "civicRole": "Supports Medical / Healing as a playable and writable district spine rather than a generic neighborhood.",
+        "narrativeUse": [
+          "Medical / Healing scene anchor",
+          "local errand",
+          "public meeting point",
+          "district conflict",
+          "orientation clue"
+        ],
+        "assetUse": [
+          "Section 4 diorama asset",
+          "board-readable landmark",
+          "street-level focal prop",
+          "map district marker"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "worked materials",
+          "public voices",
+          "sluice gates thudding",
+          "waterwheels turning",
+          "wet riverstone",
+          "mudbrick after rain"
+        ],
+        "storyHooks": [
+          "an event at Medical Healing Lantern Monument reveals section priorities",
+          "locals use Medical Healing Lantern Monument as shorthand for the district",
+          "a small failure here cascades into a citywide problem"
+        ]
+      },
+      {
+        "name": "Apothecary Court Nook",
+        "symbolicRole": "Section 4 minor landmark preserving the local identity of Medical / Healing.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette. It belongs to Section 4 (Medical / Healing) of Tormund Vale and should use Reed Pavilions, White Limestone Civic Blocks, Temple Platforms, timber and canvas materials, Lantern Lit, Bone White Ceremony, Hanging Gardens, and the giants visual language. Design foc",
+        "civicRole": "Supports Medical / Healing as a playable and writable district spine rather than a generic neighborhood.",
+        "narrativeUse": [
+          "Medical / Healing scene anchor",
+          "local errand",
+          "public meeting point",
+          "district conflict",
+          "orientation clue"
+        ],
+        "assetUse": [
+          "Section 4 diorama asset",
+          "board-readable landmark",
+          "street-level focal prop",
+          "map district marker"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "worked materials",
+          "public voices",
+          "sluice gates thudding",
+          "waterwheels turning",
+          "wet riverstone",
+          "mudbrick after rain"
+        ],
+        "storyHooks": [
+          "an event at Apothecary Court Nook reveals section priorities",
+          "locals use Apothecary Court Nook as shorthand for the district",
+          "a small failure here cascades into a citywide problem"
+        ]
+      },
+      {
+        "name": "Arena / Training Civic Hall",
+        "symbolicRole": "Section 5 civic center preserving the local identity of Arena / Training.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing. It belongs to Section 5 (Arena / Training) of Tormund Vale and should use Lecture Courts, Temple Platforms, Obsidian Fortresses, timber and canvas materials, Woven Banners, Red Fabric Awnings, Carved Totems, and the giants visual language. Design",
+        "civicRole": "Supports Arena / Training as a playable and writable district spine rather than a generic neighborhood.",
+        "narrativeUse": [
+          "Arena / Training scene anchor",
+          "local errand",
+          "public meeting point",
+          "district conflict",
+          "orientation clue"
+        ],
+        "assetUse": [
+          "Section 5 diorama asset",
+          "board-readable landmark",
+          "street-level focal prop",
+          "map district marker"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "worked materials",
+          "public voices",
+          "sluice gates thudding",
+          "waterwheels turning",
+          "wet riverstone",
+          "mudbrick after rain"
+        ],
+        "storyHooks": [
+          "an event at Arena / Training Civic Hall reveals section priorities",
+          "locals use Arena / Training Civic Hall as shorthand for the district",
+          "a small failure here cascades into a citywide problem"
+        ]
+      },
+      {
+        "name": "Training Arena",
+        "symbolicRole": "Section 5 major landmark preserving the local identity of Arena / Training.",
+        "visualRole": "A largest local landmark in this section, subordinate only to the city wonder and citadel. It belongs to Section 5 (Arena / Training) of Tormund Vale and should use Obsidian Fortresses, Lecture Courts, Temple Platforms, timber and canvas materials, Red Fabric Awnings, Carved Totems, Woven Banners, and the giants visual language. Design focus: victory stones,",
+        "civicRole": "Supports Arena / Training as a playable and writable district spine rather than a generic neighborhood.",
+        "narrativeUse": [
+          "Arena / Training scene anchor",
+          "local errand",
+          "public meeting point",
+          "district conflict",
+          "orientation clue"
+        ],
+        "assetUse": [
+          "Section 5 diorama asset",
+          "board-readable landmark",
+          "street-level focal prop",
+          "map district marker"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "worked materials",
+          "public voices",
+          "sluice gates thudding",
+          "waterwheels turning",
+          "wet riverstone",
+          "mudbrick after rain"
+        ],
+        "storyHooks": [
+          "an event at Training Arena reveals section priorities",
+          "locals use Training Arena as shorthand for the district",
+          "a small failure here cascades into a citywide problem"
+        ]
+      },
+      {
+        "name": "Woven Banners Monument",
+        "symbolicRole": "Section 5 monument preserving the local identity of Arena / Training.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles. It belongs to Section 5 (Arena / Training) of Tormund Vale and should use Temple Platforms, Obsidian Fortresses, Lecture Courts, timber and canvas materials, Red Fabric Awnings, Carved Totems, Woven Banners, and the giants visual language. Desi",
+        "civicRole": "Supports Arena / Training as a playable and writable district spine rather than a generic neighborhood.",
+        "narrativeUse": [
+          "Arena / Training scene anchor",
+          "local errand",
+          "public meeting point",
+          "district conflict",
+          "orientation clue"
+        ],
+        "assetUse": [
+          "Section 5 diorama asset",
+          "board-readable landmark",
+          "street-level focal prop",
+          "map district marker"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "worked materials",
+          "public voices",
+          "sluice gates thudding",
+          "waterwheels turning",
+          "wet riverstone",
+          "mudbrick after rain"
+        ],
+        "storyHooks": [
+          "an event at Woven Banners Monument reveals section priorities",
+          "locals use Woven Banners Monument as shorthand for the district",
+          "a small failure here cascades into a citywide problem"
+        ]
+      },
+      {
+        "name": "Champion Gate Nook",
+        "symbolicRole": "Section 5 minor landmark preserving the local identity of Arena / Training.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette. It belongs to Section 5 (Arena / Training) of Tormund Vale and should use Lecture Courts, Temple Platforms, Obsidian Fortresses, timber and canvas materials, Carved Totems, Woven Banners, Red Fabric Awnings, and the giants visual language. Design focus: weapon",
+        "civicRole": "Supports Arena / Training as a playable and writable district spine rather than a generic neighborhood.",
+        "narrativeUse": [
+          "Arena / Training scene anchor",
+          "local errand",
+          "public meeting point",
+          "district conflict",
+          "orientation clue"
+        ],
+        "assetUse": [
+          "Section 5 diorama asset",
+          "board-readable landmark",
+          "street-level focal prop",
+          "map district marker"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "worked materials",
+          "public voices",
+          "sluice gates thudding",
+          "waterwheels turning",
+          "wet riverstone",
+          "mudbrick after rain"
+        ],
+        "storyHooks": [
+          "an event at Champion Gate Nook reveals section priorities",
+          "locals use Champion Gate Nook as shorthand for the district",
+          "a small failure here cascades into a citywide problem"
+        ]
+      }
+    ]
+  },
+  "assetGuidance": {
+    "districtDioramaGuidance": [
+      "S1 / Canal / Riverworks must preserve Canal / Riverworks Civic Hall, Lock House Beacon, Canal Reflections Monument, and Waterwheel Court Nook as the source-backed anchor cluster.",
+      "S2 / Granary / Food Market must preserve Granary / Food Market Civic Hall, Grain Hall, Awning Monument, and Mill Court Nook as the source-backed anchor cluster.",
+      "S3 / Civic Services must preserve Civic Services Hall, Relief Hall, Civic Services Lantern Monument, and Notice Plaza Nook as the source-backed anchor cluster.",
+      "S4 / Medical / Healing must preserve Medical / Healing Civic Hall, Healing Hall, Medical Healing Lantern Monument, and Apothecary Court Nook as the source-backed anchor cluster.",
+      "S5 / Arena / Training must preserve Arena / Training Civic Hall, Training Arena, Woven Banners Monument, and Champion Gate Nook as the source-backed anchor cluster."
+    ],
+    "mapBackgroundGuidance": [
+      "Show Tormund Vale as a giants city using Riverstone, Mudbrick, Timber, Limewash, Canvas across Riverside, Floodplain, Canal Basin.",
+      "Keep Giant Sky-Stair Hall of the Broken Cloud as the skyline-scale Wonder, Memory Tablet Walls Colossus Registry as central D13 authority, and Lock House Beacon as the public signal landmark.",
+      "Use section landmark distribution to avoid flattening the city: Canal / Riverworks, Granary / Food Market, Civic Services, Medical / Healing, Arena / Training.",
+      "Water and terrain must follow source context: River; Riverside, Floodplain, Canal Basin."
+    ],
+    "requiredVisualElements": [
+      "giants",
+      "Giant Sky-Stair Hall of the Broken Cloud",
+      "Lock House Beacon",
+      "Memory Tablet Walls Colossus Registry",
+      "Riverstone",
+      "Mudbrick",
+      "Timber",
+      "Limewash",
+      "Canvas",
+      "Riverside",
+      "Floodplain",
+      "Canal Basin",
+      "Ward Networks",
+      "Ritual Geometry",
+      "Stone Giant Memory",
+      "Canal / Riverworks Civic Hall",
+      "Granary / Food Market Civic Hall",
+      "Civic Services Hall",
+      "Medical / Healing Civic Hall",
+      "Arena / Training Civic Hall",
+      "Grain Hall",
+      "Relief Hall",
+      "Healing Hall",
+      "Training Arena",
+      "Canal Reflections Monument",
+      "Awning Monument",
+      "Civic Services Lantern Monument",
+      "Medical Healing Lantern Monument",
+      "Woven Banners Monument",
+      "Waterwheel Court Nook",
+      "Mill Court Nook",
+      "Notice Plaza Nook",
+      "Apothecary Court Nook",
+      "Champion Gate Nook"
+    ],
+    "elementsToAvoid": [
+      "generic giant castle",
+      "oversized human town without river logic",
+      "dry inland city treatment",
+      "arena-only identity",
+      "modern dam infrastructure",
+      "invented district-specific landmarks not supported by sidecars",
+      "replacing proper anchor names with generic summaries",
+      "collapsing five section spines into one repeated street type"
+    ]
+  }
 }

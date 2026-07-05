@@ -1,1 +1,1777 @@
-{"metadata":{"schemaVersion":"2.0","analysisVersion":2,"cityCode":"WMR","cityName":"Warramirra","analysisConfidence":"strong-lock"},"sourceModel":"5 section sidecars; 25 board district slots inherit section anchors.","boardStructure":{"model":"25-seat map","seatOfPowerDistrict":"D13","sections":[{"sectionNumber":1,"districts":["D01","D02","D03","D06","D07"]},{"sectionNumber":2,"districts":["D04","D05","D09","D10","D15"]},{"sectionNumber":3,"districts":["D08","D12","D13","D14","D18"]},{"sectionNumber":4,"districts":["D11","D16","D17","D21","D22"]},{"sectionNumber":5,"districts":["D19","D20","D23","D24","D25"]}],"note":"Each section contains five district slots. This analysis keeps all 25 slots explicit while preserving only source-backed section-level landmark names."},"sections":[{"n":1,"name":"Transit / Caravan / Rail"},{"n":2,"name":"Grand Market"},{"n":3,"name":"Treasury / Taxation"},{"n":4,"name":"Agricultural Terraces"},{"n":5,"name":"Refugee Commons"}],"districts":["D01","D02","D03","D04","D05","D06","D07","D08","D09","D10","D11","D12","D13","D14","D15","D16","D17","D18","D19","D20","D21","D22","D23","D24","D25"],"landmarks":{"wonder":"Aboriginal Songline Stone of the First Path","beacon":"Caravanserai Beacon","seatOfPower":"Sun Disc Reliefs Sovereign Registry Court"}}
+{
+  "metadata": {
+    "schemaVersion": "2.0",
+    "analysisVersion": 2,
+    "cityCode": "WMR",
+    "cityName": "Warramirra",
+    "analysisDate": "2026-07-05",
+    "analystVersion": "gpt-5.5-thinking",
+    "analysisConfidence": "strong-lock",
+    "basedOnImages": [
+      "WMR-HERO-NE-v001",
+      "WMR-HERO-NW-v001",
+      "WMR-HERO-SE-v001",
+      "WMR-HERO-SW-v001",
+      "WMR-STREET-S1-v001",
+      "WMR-STREET-S2-v001",
+      "WMR-STREET-S3-v001",
+      "WMR-STREET-S4-v001",
+      "WMR-STREET-S5-v001"
+    ],
+    "basedOnSidecars": [
+      "WMR-HERO-NE-v001.json",
+      "WMR-HERO-NW-v001.json",
+      "WMR-HERO-SE-v001.json",
+      "WMR-HERO-SW-v001.json",
+      "WMR-STREET-S1-v001.json",
+      "WMR-STREET-S2-v001.json",
+      "WMR-STREET-S3-v001.json",
+      "WMR-STREET-S4-v001.json",
+      "WMR-STREET-S5-v001.json"
+    ],
+    "missingStreetSections": []
+  },
+  "cityDNA": {
+    "coreFantasy": "A Aboriginal Australian city where Transit / Caravan / Rail, Grand Market, Treasury / Taxation, Agricultural Terraces, Refugee Commons, and Aboriginal Songline Stone of the First Path turn desert, stone desert, dry wadi, savanna, dry ground and sandstone, dark wood, bone, glass, canvas into a distinct civic machine.",
+    "primaryEmotion": "desert orientation",
+    "secondaryEmotion": "songline hospitality",
+    "readerTakeaway": "Warramirra should feel like a desert route-city where road, market, tax, terrace, and refuge are organized around remembered paths.",
+    "civilizationThesis": "Warramirra organizes public life around memory as route and law: its districts convert Transit / Caravan / Rail, Grand Market, Treasury / Taxation, Agricultural Terraces, Refugee Commons into a readable system of authority, labor, memory, and movement.",
+    "visualIdentity": "Warramirra should be recognized by Sandstone, Dark Wood, Bone, Glass, Canvas, Desert, Stone Desert, Dry Wadi, Savanna, Dry Ground, Civic Blue Illumination, Oath Seals, Dream Binding, Threshold Oaths, Archive Echoes, and the named anchors Aboriginal Songline Stone of the First Path, Caravanserai Beacon, and Sun Disc Reliefs Sovereign Registry Court.",
+    "culturalIdentity": "The city belongs to Aboriginal Australian; its civic habits should grow from the sidecar-backed district spine rather than generic fantasy urbanism.",
+    "symbolicIdentity": "Aboriginal Songline Stone of the First Path, Caravanserai Beacon, Sun Disc Reliefs Sovereign Registry Court, and the five section landmark families symbolize memory as route and law while warning against trade pressure distorting old paths."
+  },
+  "canon": {
+    "canonLocks": [
+      "Warramirra is a Aboriginal Australian city, not a generic settlement with cosmetic motifs.",
+      "The Wonder is Aboriginal Songline Stone of the First Path.",
+      "The Beacon is Caravanserai Beacon.",
+      "The Seat of Power is Sun Disc Reliefs Sovereign Registry Court, located at the District 13 authority center.",
+      "The five district sections are Transit / Caravan / Rail, Grand Market, Treasury / Taxation, Agricultural Terraces, Refugee Commons.",
+      "The board should be treated as twenty-five district slots grouped into five section identities.",
+      "Section 1 (Transit / Caravan / Rail) preserves these exact anchor names: Transit / Caravan / Rail Civic Hall, Caravanserai Beacon, Woven Banners Monument, Waystation Hall Nook.",
+      "Section 2 (Grand Market) preserves these exact anchor names: Grand Market Civic Hall, Covered Bazaar, Awning Monument, Auction Court Nook.",
+      "Section 3 (Treasury / Taxation) preserves these exact anchor names: Treasury / Taxation Hall, Assay Hall, Treasury Taxation Gold-Seal Monument, Taxation Arcade Nook.",
+      "Section 4 (Agricultural Terraces) preserves these exact anchor names: Agricultural Terraces Civic Hall, Terrace Granary, Hanging Gardens Monument, Seed Hall Nook.",
+      "Section 5 (Refugee Commons) preserves these exact anchor names: Refugee Commons Civic Hall, Aid Commons, Woven Banners Monument, Ration Arcade Nook."
+    ],
+    "provisionalCanon": [
+      "Individual district-slot names beyond exact sidecar anchors are organizational labels for the 25-seat board, not new landmark canon.",
+      "Minor street customs should be derived from the section spine unless future source files provide more exact anchors."
+    ],
+    "rejectedReads": [
+      "Warramirra as a generic fantasy city without its named Wonder, Beacon, and Seat of Power.",
+      "Replacing exact sidecar anchor names with generic labels such as market, temple, tower, wall, or archive.",
+      "Treating district section labels as decorative instead of civic systems that drive scenes and assets."
+    ],
+    "cautionFlags": [
+      "Preserve exact named anchors from sidecars.",
+      "Use the culture identity respectfully as civic design language rather than costume.",
+      "Keep all 25 district slots legible even when five slots share one section identity.",
+      "Do not add unsupported individual district landmark names beyond the source-backed anchors."
+    ]
+  },
+  "environment": {
+    "terrain": [
+      "Desert",
+      "Stone Desert",
+      "Dry Wadi",
+      "Savanna",
+      "Dry Ground"
+    ],
+    "water": [
+      "dry city ground"
+    ],
+    "vegetation": [
+      "Canopy Platforms",
+      "Hanging Gardens",
+      "farm terraces",
+      "orchards",
+      "seed jars",
+      "terraced beds"
+    ],
+    "climateLighting": [
+      "White Limestone Civic Blocks",
+      "Lantern Lit",
+      "Civic Blue Glow",
+      "lantern lines",
+      "Civic Blue Illumination"
+    ],
+    "environmentalLogic": "Warramirra's environment should make Transit / Caravan / Rail, Grand Market, Treasury / Taxation, Agricultural Terraces, Refugee Commons feel physically necessary. Terrain, light, civic routes, and landmark placement must support movement through all five section identities rather than read as interchangeable scenery."
+  },
+  "architecture": {
+    "materials": [
+      "Sandstone",
+      "Dark Wood",
+      "Bone",
+      "Glass",
+      "Canvas"
+    ],
+    "forms": [
+      "Market Arcades",
+      "White Limestone Civic Blocks",
+      "Timber Longhouses",
+      "dark wood and canvas materials",
+      "Woven Banners",
+      "Red Fabric Awnings",
+      "Lantern Lit",
+      "Reed Pavilions",
+      "Gold Seals",
+      "Canopy Platforms",
+      "Hanging Gardens",
+      "Canal Reflections",
+      "Subterranean Vaults",
+      "Civic Blue Glow",
+      "hitching posts",
+      "depots",
+      "caravan yards",
+      "stable courts"
+    ],
+    "skyline": [
+      "Aboriginal Songline Stone of the First Path is the wonder-scale skyline identifier.",
+      "Sun Disc Reliefs Sovereign Registry Court marks the central authority mass at District 13.",
+      "Caravanserai Beacon must remain visible as the public signal landmark.",
+      "Section landmarks should form a readable ring of Transit / Caravan / Rail, Grand Market, Treasury / Taxation, Agricultural Terraces, Refugee Commons."
+    ],
+    "lighting": [
+      "White Limestone Civic Blocks",
+      "Lantern Lit",
+      "Civic Blue Glow",
+      "lantern lines",
+      "Civic Blue Illumination",
+      "district lanterns",
+      "public signal glow"
+    ],
+    "infrastructure": [
+      "Transit / Caravan / Rail routes",
+      "Grand Market routes",
+      "Treasury / Taxation routes",
+      "Agricultural Terraces routes",
+      "Refugee Commons routes",
+      "Transit / Caravan / Rail Civic Hall",
+      "Grand Market Civic Hall",
+      "Treasury / Taxation Hall",
+      "Agricultural Terraces Civic Hall",
+      "Refugee Commons Civic Hall"
+    ],
+    "motifs": [
+      "hitching posts",
+      "depots",
+      "caravan yards",
+      "stable courts",
+      "ticket booths",
+      "blankets",
+      "ration tokens",
+      "lantern lines",
+      "repair patches",
+      "tent courts",
+      "covered bazaars",
+      "trade arcades",
+      "auction courts",
+      "stalls",
+      "largest section focal point",
+      "farm terraces",
+      "orchards",
+      "greenhouses"
+    ],
+    "colorLanguage": [
+      "Civic Blue Illumination",
+      "Oath Seals",
+      "Dream Binding",
+      "Threshold Oaths"
+    ],
+    "textureLanguage": [
+      "Sandstone",
+      "Dark Wood",
+      "Bone",
+      "Glass",
+      "Canvas",
+      "Desert",
+      "Stone Desert",
+      "Dry Wadi",
+      "Savanna",
+      "Dry Ground",
+      "farm terraces",
+      "terraced beds"
+    ]
+  },
+  "civilization": {
+    "people": "Warramirra's people are Aboriginal Australian; they should be written through shared civic habits, public spaces, work rhythms, and the visible demands of the five section identities.",
+    "occupations": [
+      "caravan masters",
+      "waystation stewards",
+      "route guides",
+      "pack handlers",
+      "bazaar merchants",
+      "auction callers",
+      "stall families",
+      "scale keepers",
+      "assayers",
+      "tax clerks",
+      "coin counters",
+      "seal auditors",
+      "terrace farmers",
+      "granary stewards",
+      "seed keepers",
+      "irrigation crews",
+      "aid stewards",
+      "ration clerks",
+      "shelter builders",
+      "commons cooks"
+    ],
+    "socialClasses": [
+      "officials and stewards tied to Sun Disc Reliefs Sovereign Registry Court",
+      "landmark keepers and civic hall administrators",
+      "guild families and specialist workers",
+      "street vendors, porters, runners, and maintenance crews",
+      "families living around the section-specific local anchors"
+    ],
+    "governance": "Authority centers on Sun Disc Reliefs Sovereign Registry Court and is made visible through section civic halls, named landmarks, permissions, public signals, and the citywide response to Caravanserai Beacon.",
+    "religion": "Religious or ceremonial life should be shown through source-backed shrines, temples, wonders, oath spaces, ancestor sites, or ritual geometry when those appear in the district spine.",
+    "customs": [
+      "citizens orient themselves by the section identity of a street before they identify an address",
+      "public notices and signals are interpreted through the Beacon and civic halls",
+      "named landmarks act as meeting points, proof points, and local memory anchors",
+      "section-specific work routines shape food, clothing, posture, and street traffic",
+      "District 13 authority matters even when scenes occur in outer district slots"
+    ],
+    "bodyLanguage": [
+      "movement reflects desert orientation",
+      "citizens check landmarks and signals before crossing into another section",
+      "officials use the posture and tools of their section role",
+      "workers treat section anchors as practical wayfinding points",
+      "crowds become more formal near the Seat of Power and more local near minor landmarks"
+    ],
+    "speechPatterns": [
+      "directions use exact landmark names rather than generic descriptions",
+      "section names carry social meaning",
+      "official speech references permits, seals, routes, oaths, or signals as appropriate to the city",
+      "working speech is concrete, location-heavy, and tied to civic function",
+      "locals distinguish between the Wonder, Beacon, Seat, and section landmarks without confusion"
+    ]
+  },
+  "urbanLife": {
+    "streets": {
+      "appearance": "Street scenes should make Warramirra immediately identifiable through Sandstone, Dark Wood, Bone, Glass, Canvas, Desert, Stone Desert, Dry Wadi, Savanna, Dry Ground, Civic Blue Illumination, Oath Seals, Dream Binding, Threshold Oaths, Archive Echoes, and the exact section anchors rather than generic fantasy facades.",
+      "movement": "Movement flows through five section identities and twenty-five district slots. People navigate by Caravanserai Beacon, Sun Disc Reliefs Sovereign Registry Court, section civic halls, major landmarks, monuments, and minor nooks.",
+      "sounds": [
+        "foot traffic",
+        "public notices",
+        "work tools",
+        "cart wheels or pack movement",
+        "district-specific calls",
+        "signal response murmurs",
+        "caravan masters",
+        "waystation stewards",
+        "route guides",
+        "pack handlers",
+        "bazaar merchants",
+        "auction callers"
+      ],
+      "smells": [
+        "worked materials",
+        "street food",
+        "lamp oil",
+        "dust or wet stone",
+        "district workshops",
+        "sandstone",
+        "dark wood",
+        "bone",
+        "glass",
+        "canvas"
+      ],
+      "lighting": "Lighting should use White Limestone Civic Blocks, Lantern Lit, Civic Blue Glow, lantern lines, Civic Blue Illumination, district lanterns, with the Beacon and Seat carrying distinct civic emphasis.",
+      "weatherEffects": "Weather should interact with desert, stone desert, dry wadi, savanna, dry ground and the city's source-backed materials, altering visibility, travel speed, public gathering, and signal readability.",
+      "dayCycle": "Daytime emphasizes section labor: Transit / Caravan / Rail, Grand Market, Treasury / Taxation, Agricultural Terraces, Refugee Commons. Civic halls, shops, and public works create the main public rhythm.",
+      "nightCycle": "Night scenes should preserve the city's identity through landmark silhouettes, beacon light, watch routes, late shops, ritual spaces, and section-specific sounds."
+    },
+    "shops": {
+      "common": [
+        "transit / caravan / rail supply stalls",
+        "grand market supply stalls",
+        "treasury / taxation supply stalls",
+        "agricultural terraces supply stalls",
+        "refugee commons supply stalls",
+        "street food carts",
+        "tool repair stalls",
+        "notice copyists"
+      ],
+      "uncommon": [
+        "transit / caravan / rail specialist counters",
+        "grand market specialist counters",
+        "treasury / taxation specialist counters",
+        "agricultural terraces specialist counters",
+        "refugee commons specialist counters",
+        "landmark guide services",
+        "ritual or permit specialists"
+      ],
+      "prestigious": [
+        "workshops or offices near Sun Disc Reliefs Sovereign Registry Court",
+        "specialist houses serving Aboriginal Songline Stone of the First Path",
+        "elite civic sealers or patrons",
+        "master artisans tied to section landmarks"
+      ],
+      "exports": [
+        "transit / caravan / rail goods",
+        "grand market goods",
+        "treasury / taxation goods",
+        "agricultural terraces goods",
+        "refugee commons goods",
+        "sandstone",
+        "dark wood",
+        "bone",
+        "glass"
+      ],
+      "imports": [
+        "food staples",
+        "replacement tools",
+        "rare pigments",
+        "ritual materials",
+        "metal fittings",
+        "fine cloth"
+      ],
+      "streetFood": [
+        "portable worker meals",
+        "flatbread or grain cakes",
+        "spiced stews",
+        "roasted local produce",
+        "market tea",
+        "festival sweets"
+      ],
+      "services": [
+        "directions by landmark",
+        "permit filing",
+        "repair work",
+        "messenger runs",
+        "public notice posting",
+        "transit / caravan / rail services",
+        "grand market services",
+        "treasury / taxation services",
+        "agricultural terraces services",
+        "refugee commons services"
+      ]
+    },
+    "housing": {
+      "wealthy": "High-status housing clusters near Sun Disc Reliefs Sovereign Registry Court, major terraces, and prestigious landmark approaches; it should display the city materials cleanly and control sightlines toward Wonder or Beacon.",
+      "middle": "Middle housing occupies upper rooms, side courts, work-family compounds, and mixed-use streets close to civic halls and section services.",
+      "poor": "Poorer housing should be practical and specific to local labor, with patched materials, shared courtyards, crowded lanes, and strong dependence on nearby section anchors."
+    }
+  },
+  "districts": [
+    {
+      "districtNumber": 1,
+      "sectionNumber": 1,
+      "name": "D01 Transit / Caravan / Rail Civic Core",
+      "civicPurpose": "One of five Transit / Caravan / Rail district slots, focused on civic core; it supports local movement, services, social pressure, and scene transitions within Section 1.",
+      "visualIdentity": "Transit / Caravan / Rail Civic Hall anchors the slot, supported by Woven Banners Monument, Waystation Hall Nook, Sandstone, Dark Wood, Bone, Glass, Canvas, and the Aboriginal Australian civic language.",
+      "emotionalIdentity": "Transit / Caravan / Rail expressed through civic core: desert orientation with practical street-level specificity.",
+      "gameplayAssetNeeds": [
+        "Transit / Caravan / Rail Civic Hall",
+        "Woven Banners Monument",
+        "Waystation Hall Nook",
+        "Transit / Caravan / Rail street dressing",
+        "Aboriginal Australian civilians",
+        "section-appropriate props"
+      ],
+      "narrativeUse": [
+        "transit / caravan / rail errands",
+        "wayfinding by exact landmark",
+        "crowd pressure",
+        "local work conflict",
+        "transition between board slots"
+      ],
+      "primaryLandmark": "Transit / Caravan / Rail Civic Hall",
+      "minorLandmarks": [
+        "Woven Banners Monument",
+        "Waystation Hall Nook"
+      ]
+    },
+    {
+      "districtNumber": 2,
+      "sectionNumber": 1,
+      "name": "D02 Transit / Caravan / Rail Major Landmark Approach",
+      "civicPurpose": "One of five Transit / Caravan / Rail district slots, focused on major landmark approach; it supports local movement, services, social pressure, and scene transitions within Section 1.",
+      "visualIdentity": "Caravanserai Beacon anchors the slot, supported by Woven Banners Monument, Waystation Hall Nook, Transit / Caravan / Rail Civic Hall, Sandstone, Dark Wood, Bone, Glass, Canvas, and the Aboriginal Australian civic language.",
+      "emotionalIdentity": "Transit / Caravan / Rail expressed through major landmark approach: desert orientation with practical street-level specificity.",
+      "gameplayAssetNeeds": [
+        "Caravanserai Beacon",
+        "Woven Banners Monument",
+        "Waystation Hall Nook",
+        "Transit / Caravan / Rail Civic Hall",
+        "Transit / Caravan / Rail street dressing",
+        "Aboriginal Australian civilians",
+        "section-appropriate props"
+      ],
+      "narrativeUse": [
+        "transit / caravan / rail errands",
+        "wayfinding by exact landmark",
+        "crowd pressure",
+        "local work conflict",
+        "transition between board slots"
+      ],
+      "primaryLandmark": "Caravanserai Beacon",
+      "minorLandmarks": [
+        "Woven Banners Monument",
+        "Waystation Hall Nook",
+        "Transit / Caravan / Rail Civic Hall"
+      ]
+    },
+    {
+      "districtNumber": 3,
+      "sectionNumber": 1,
+      "name": "D03 Transit / Caravan / Rail Monument Square",
+      "civicPurpose": "One of five Transit / Caravan / Rail district slots, focused on monument square; it supports local movement, services, social pressure, and scene transitions within Section 1.",
+      "visualIdentity": "Woven Banners Monument anchors the slot, supported by Waystation Hall Nook, Transit / Caravan / Rail Civic Hall, Sandstone, Dark Wood, Bone, Glass, Canvas, and the Aboriginal Australian civic language.",
+      "emotionalIdentity": "Transit / Caravan / Rail expressed through monument square: desert orientation with practical street-level specificity.",
+      "gameplayAssetNeeds": [
+        "Woven Banners Monument",
+        "Waystation Hall Nook",
+        "Transit / Caravan / Rail Civic Hall",
+        "Transit / Caravan / Rail street dressing",
+        "Aboriginal Australian civilians",
+        "section-appropriate props"
+      ],
+      "narrativeUse": [
+        "transit / caravan / rail errands",
+        "wayfinding by exact landmark",
+        "crowd pressure",
+        "local work conflict",
+        "transition between board slots"
+      ],
+      "primaryLandmark": "Woven Banners Monument",
+      "minorLandmarks": [
+        "Waystation Hall Nook",
+        "Transit / Caravan / Rail Civic Hall"
+      ]
+    },
+    {
+      "districtNumber": 4,
+      "sectionNumber": 2,
+      "name": "D04 Grand Market Civic Core",
+      "civicPurpose": "One of five Grand Market district slots, focused on civic core; it supports local movement, services, social pressure, and scene transitions within Section 2.",
+      "visualIdentity": "Grand Market Civic Hall anchors the slot, supported by Awning Monument, Auction Court Nook, Sandstone, Dark Wood, Bone, Glass, Canvas, and the Aboriginal Australian civic language.",
+      "emotionalIdentity": "Grand Market expressed through civic core: desert orientation with practical street-level specificity.",
+      "gameplayAssetNeeds": [
+        "Grand Market Civic Hall",
+        "Awning Monument",
+        "Auction Court Nook",
+        "Grand Market street dressing",
+        "Aboriginal Australian civilians",
+        "section-appropriate props"
+      ],
+      "narrativeUse": [
+        "grand market errands",
+        "wayfinding by exact landmark",
+        "crowd pressure",
+        "local work conflict",
+        "transition between board slots"
+      ],
+      "primaryLandmark": "Grand Market Civic Hall",
+      "minorLandmarks": [
+        "Awning Monument",
+        "Auction Court Nook"
+      ]
+    },
+    {
+      "districtNumber": 5,
+      "sectionNumber": 2,
+      "name": "D05 Grand Market Major Landmark Approach",
+      "civicPurpose": "One of five Grand Market district slots, focused on major landmark approach; it supports local movement, services, social pressure, and scene transitions within Section 2.",
+      "visualIdentity": "Covered Bazaar anchors the slot, supported by Awning Monument, Auction Court Nook, Grand Market Civic Hall, Sandstone, Dark Wood, Bone, Glass, Canvas, and the Aboriginal Australian civic language.",
+      "emotionalIdentity": "Grand Market expressed through major landmark approach: desert orientation with practical street-level specificity.",
+      "gameplayAssetNeeds": [
+        "Covered Bazaar",
+        "Awning Monument",
+        "Auction Court Nook",
+        "Grand Market Civic Hall",
+        "Grand Market street dressing",
+        "Aboriginal Australian civilians",
+        "section-appropriate props"
+      ],
+      "narrativeUse": [
+        "grand market errands",
+        "wayfinding by exact landmark",
+        "crowd pressure",
+        "local work conflict",
+        "transition between board slots"
+      ],
+      "primaryLandmark": "Covered Bazaar",
+      "minorLandmarks": [
+        "Awning Monument",
+        "Auction Court Nook",
+        "Grand Market Civic Hall"
+      ]
+    },
+    {
+      "districtNumber": 6,
+      "sectionNumber": 1,
+      "name": "D06 Transit / Caravan / Rail Minor Landmark Lane",
+      "civicPurpose": "One of five Transit / Caravan / Rail district slots, focused on minor landmark lane; it supports local movement, services, social pressure, and scene transitions within Section 1.",
+      "visualIdentity": "Waystation Hall Nook anchors the slot, supported by Woven Banners Monument, Transit / Caravan / Rail Civic Hall, Sandstone, Dark Wood, Bone, Glass, Canvas, and the Aboriginal Australian civic language.",
+      "emotionalIdentity": "Transit / Caravan / Rail expressed through minor landmark lane: desert orientation with practical street-level specificity.",
+      "gameplayAssetNeeds": [
+        "Waystation Hall Nook",
+        "Woven Banners Monument",
+        "Transit / Caravan / Rail Civic Hall",
+        "Transit / Caravan / Rail street dressing",
+        "Aboriginal Australian civilians",
+        "section-appropriate props"
+      ],
+      "narrativeUse": [
+        "transit / caravan / rail errands",
+        "wayfinding by exact landmark",
+        "crowd pressure",
+        "local work conflict",
+        "transition between board slots"
+      ],
+      "primaryLandmark": "Waystation Hall Nook",
+      "minorLandmarks": [
+        "Woven Banners Monument",
+        "Transit / Caravan / Rail Civic Hall"
+      ]
+    },
+    {
+      "districtNumber": 7,
+      "sectionNumber": 1,
+      "name": "D07 Transit / Caravan / Rail Working Street Fabric",
+      "civicPurpose": "One of five Transit / Caravan / Rail district slots, focused on working street fabric; it supports local movement, services, social pressure, and scene transitions within Section 1.",
+      "visualIdentity": "Caravanserai Beacon anchors the slot, supported by Woven Banners Monument, Waystation Hall Nook, Transit / Caravan / Rail Civic Hall, Sandstone, Dark Wood, Bone, Glass, Canvas, and the Aboriginal Australian civic language.",
+      "emotionalIdentity": "Transit / Caravan / Rail expressed through working street fabric: desert orientation with practical street-level specificity.",
+      "gameplayAssetNeeds": [
+        "Caravanserai Beacon",
+        "Woven Banners Monument",
+        "Waystation Hall Nook",
+        "Transit / Caravan / Rail Civic Hall",
+        "Transit / Caravan / Rail street dressing",
+        "Aboriginal Australian civilians",
+        "section-appropriate props"
+      ],
+      "narrativeUse": [
+        "transit / caravan / rail errands",
+        "wayfinding by exact landmark",
+        "crowd pressure",
+        "local work conflict",
+        "transition between board slots"
+      ],
+      "primaryLandmark": "Caravanserai Beacon",
+      "minorLandmarks": [
+        "Woven Banners Monument",
+        "Waystation Hall Nook",
+        "Transit / Caravan / Rail Civic Hall"
+      ]
+    },
+    {
+      "districtNumber": 8,
+      "sectionNumber": 3,
+      "name": "D08 Treasury / Taxation Civic Core",
+      "civicPurpose": "One of five Treasury / Taxation district slots, focused on civic core; it supports local movement, services, social pressure, and scene transitions within Section 3.",
+      "visualIdentity": "Treasury / Taxation Hall anchors the slot, supported by Treasury Taxation Gold-Seal Monument, Taxation Arcade Nook, Sandstone, Dark Wood, Bone, Glass, Canvas, and the Aboriginal Australian civic language.",
+      "emotionalIdentity": "Treasury / Taxation expressed through civic core: desert orientation with practical street-level specificity.",
+      "gameplayAssetNeeds": [
+        "Treasury / Taxation Hall",
+        "Treasury Taxation Gold-Seal Monument",
+        "Taxation Arcade Nook",
+        "Treasury / Taxation street dressing",
+        "Aboriginal Australian civilians",
+        "section-appropriate props"
+      ],
+      "narrativeUse": [
+        "treasury / taxation errands",
+        "wayfinding by exact landmark",
+        "crowd pressure",
+        "local work conflict",
+        "transition between board slots"
+      ],
+      "primaryLandmark": "Treasury / Taxation Hall",
+      "minorLandmarks": [
+        "Treasury Taxation Gold-Seal Monument",
+        "Taxation Arcade Nook"
+      ]
+    },
+    {
+      "districtNumber": 9,
+      "sectionNumber": 2,
+      "name": "D09 Grand Market Monument Square",
+      "civicPurpose": "One of five Grand Market district slots, focused on monument square; it supports local movement, services, social pressure, and scene transitions within Section 2.",
+      "visualIdentity": "Awning Monument anchors the slot, supported by Auction Court Nook, Grand Market Civic Hall, Sandstone, Dark Wood, Bone, Glass, Canvas, and the Aboriginal Australian civic language.",
+      "emotionalIdentity": "Grand Market expressed through monument square: desert orientation with practical street-level specificity.",
+      "gameplayAssetNeeds": [
+        "Awning Monument",
+        "Auction Court Nook",
+        "Grand Market Civic Hall",
+        "Grand Market street dressing",
+        "Aboriginal Australian civilians",
+        "section-appropriate props"
+      ],
+      "narrativeUse": [
+        "grand market errands",
+        "wayfinding by exact landmark",
+        "crowd pressure",
+        "local work conflict",
+        "transition between board slots"
+      ],
+      "primaryLandmark": "Awning Monument",
+      "minorLandmarks": [
+        "Auction Court Nook",
+        "Grand Market Civic Hall"
+      ]
+    },
+    {
+      "districtNumber": 10,
+      "sectionNumber": 2,
+      "name": "D10 Grand Market Minor Landmark Lane",
+      "civicPurpose": "One of five Grand Market district slots, focused on minor landmark lane; it supports local movement, services, social pressure, and scene transitions within Section 2.",
+      "visualIdentity": "Auction Court Nook anchors the slot, supported by Awning Monument, Grand Market Civic Hall, Sandstone, Dark Wood, Bone, Glass, Canvas, and the Aboriginal Australian civic language.",
+      "emotionalIdentity": "Grand Market expressed through minor landmark lane: desert orientation with practical street-level specificity.",
+      "gameplayAssetNeeds": [
+        "Auction Court Nook",
+        "Awning Monument",
+        "Grand Market Civic Hall",
+        "Grand Market street dressing",
+        "Aboriginal Australian civilians",
+        "section-appropriate props"
+      ],
+      "narrativeUse": [
+        "grand market errands",
+        "wayfinding by exact landmark",
+        "crowd pressure",
+        "local work conflict",
+        "transition between board slots"
+      ],
+      "primaryLandmark": "Auction Court Nook",
+      "minorLandmarks": [
+        "Awning Monument",
+        "Grand Market Civic Hall"
+      ]
+    },
+    {
+      "districtNumber": 11,
+      "sectionNumber": 4,
+      "name": "D11 Agricultural Terraces Civic Core",
+      "civicPurpose": "One of five Agricultural Terraces district slots, focused on civic core; it supports local movement, services, social pressure, and scene transitions within Section 4.",
+      "visualIdentity": "Agricultural Terraces Civic Hall anchors the slot, supported by Hanging Gardens Monument, Seed Hall Nook, Sandstone, Dark Wood, Bone, Glass, Canvas, and the Aboriginal Australian civic language.",
+      "emotionalIdentity": "Agricultural Terraces expressed through civic core: desert orientation with practical street-level specificity.",
+      "gameplayAssetNeeds": [
+        "Agricultural Terraces Civic Hall",
+        "Hanging Gardens Monument",
+        "Seed Hall Nook",
+        "Agricultural Terraces street dressing",
+        "Aboriginal Australian civilians",
+        "section-appropriate props"
+      ],
+      "narrativeUse": [
+        "agricultural terraces errands",
+        "wayfinding by exact landmark",
+        "crowd pressure",
+        "local work conflict",
+        "transition between board slots"
+      ],
+      "primaryLandmark": "Agricultural Terraces Civic Hall",
+      "minorLandmarks": [
+        "Hanging Gardens Monument",
+        "Seed Hall Nook"
+      ]
+    },
+    {
+      "districtNumber": 12,
+      "sectionNumber": 3,
+      "name": "D12 Treasury / Taxation Major Landmark Approach",
+      "civicPurpose": "One of five Treasury / Taxation district slots, focused on major landmark approach; it supports local movement, services, social pressure, and scene transitions within Section 3.",
+      "visualIdentity": "Assay Hall anchors the slot, supported by Treasury Taxation Gold-Seal Monument, Taxation Arcade Nook, Treasury / Taxation Hall, Sandstone, Dark Wood, Bone, Glass, Canvas, and the Aboriginal Australian civic language.",
+      "emotionalIdentity": "Treasury / Taxation expressed through major landmark approach: desert orientation with practical street-level specificity.",
+      "gameplayAssetNeeds": [
+        "Assay Hall",
+        "Treasury Taxation Gold-Seal Monument",
+        "Taxation Arcade Nook",
+        "Treasury / Taxation Hall",
+        "Treasury / Taxation street dressing",
+        "Aboriginal Australian civilians",
+        "section-appropriate props"
+      ],
+      "narrativeUse": [
+        "treasury / taxation errands",
+        "wayfinding by exact landmark",
+        "crowd pressure",
+        "local work conflict",
+        "transition between board slots"
+      ],
+      "primaryLandmark": "Assay Hall",
+      "minorLandmarks": [
+        "Treasury Taxation Gold-Seal Monument",
+        "Taxation Arcade Nook",
+        "Treasury / Taxation Hall"
+      ]
+    },
+    {
+      "districtNumber": 13,
+      "sectionNumber": 3,
+      "name": "D13 Seat of Power / Treasury / Taxation",
+      "civicPurpose": "Central city authority, public rulings, sealed records, command visibility, and the official connection between Sun Disc Reliefs Sovereign Registry Court and the surrounding Treasury / Taxation section.",
+      "visualIdentity": "Sun Disc Reliefs Sovereign Registry Court dominates this central slot while Treasury / Taxation details, civic blue signal language, formal approaches, and local anchor textures remain visible.",
+      "emotionalIdentity": "Authoritative, central, watched, and politically charged.",
+      "gameplayAssetNeeds": [
+        "Sun Disc Reliefs Sovereign Registry Court",
+        "central authority massing",
+        "audience terraces",
+        "sealed archive entrances",
+        "visible D13 approaches",
+        "Taxation Arcade Nook",
+        "Treasury / Taxation Hall"
+      ],
+      "narrativeUse": [
+        "central petitions",
+        "public rulings",
+        "citywide orders",
+        "private authority scenes",
+        "beacon response coordination"
+      ],
+      "primaryLandmark": "Sun Disc Reliefs Sovereign Registry Court",
+      "minorLandmarks": [
+        "Taxation Arcade Nook",
+        "Treasury / Taxation Hall"
+      ]
+    },
+    {
+      "districtNumber": 14,
+      "sectionNumber": 3,
+      "name": "D14 Treasury / Taxation Minor Landmark Lane",
+      "civicPurpose": "One of five Treasury / Taxation district slots, focused on minor landmark lane; it supports local movement, services, social pressure, and scene transitions within Section 3.",
+      "visualIdentity": "Taxation Arcade Nook anchors the slot, supported by Treasury Taxation Gold-Seal Monument, Treasury / Taxation Hall, Sandstone, Dark Wood, Bone, Glass, Canvas, and the Aboriginal Australian civic language.",
+      "emotionalIdentity": "Treasury / Taxation expressed through minor landmark lane: desert orientation with practical street-level specificity.",
+      "gameplayAssetNeeds": [
+        "Taxation Arcade Nook",
+        "Treasury Taxation Gold-Seal Monument",
+        "Treasury / Taxation Hall",
+        "Treasury / Taxation street dressing",
+        "Aboriginal Australian civilians",
+        "section-appropriate props"
+      ],
+      "narrativeUse": [
+        "treasury / taxation errands",
+        "wayfinding by exact landmark",
+        "crowd pressure",
+        "local work conflict",
+        "transition between board slots"
+      ],
+      "primaryLandmark": "Taxation Arcade Nook",
+      "minorLandmarks": [
+        "Treasury Taxation Gold-Seal Monument",
+        "Treasury / Taxation Hall"
+      ]
+    },
+    {
+      "districtNumber": 15,
+      "sectionNumber": 2,
+      "name": "D15 Grand Market Working Street Fabric",
+      "civicPurpose": "One of five Grand Market district slots, focused on working street fabric; it supports local movement, services, social pressure, and scene transitions within Section 2.",
+      "visualIdentity": "Covered Bazaar anchors the slot, supported by Awning Monument, Auction Court Nook, Grand Market Civic Hall, Sandstone, Dark Wood, Bone, Glass, Canvas, and the Aboriginal Australian civic language.",
+      "emotionalIdentity": "Grand Market expressed through working street fabric: desert orientation with practical street-level specificity.",
+      "gameplayAssetNeeds": [
+        "Covered Bazaar",
+        "Awning Monument",
+        "Auction Court Nook",
+        "Grand Market Civic Hall",
+        "Grand Market street dressing",
+        "Aboriginal Australian civilians",
+        "section-appropriate props"
+      ],
+      "narrativeUse": [
+        "grand market errands",
+        "wayfinding by exact landmark",
+        "crowd pressure",
+        "local work conflict",
+        "transition between board slots"
+      ],
+      "primaryLandmark": "Covered Bazaar",
+      "minorLandmarks": [
+        "Awning Monument",
+        "Auction Court Nook",
+        "Grand Market Civic Hall"
+      ]
+    },
+    {
+      "districtNumber": 16,
+      "sectionNumber": 4,
+      "name": "D16 Agricultural Terraces Major Landmark Approach",
+      "civicPurpose": "One of five Agricultural Terraces district slots, focused on major landmark approach; it supports local movement, services, social pressure, and scene transitions within Section 4.",
+      "visualIdentity": "Terrace Granary anchors the slot, supported by Hanging Gardens Monument, Seed Hall Nook, Agricultural Terraces Civic Hall, Sandstone, Dark Wood, Bone, Glass, Canvas, and the Aboriginal Australian civic language.",
+      "emotionalIdentity": "Agricultural Terraces expressed through major landmark approach: desert orientation with practical street-level specificity.",
+      "gameplayAssetNeeds": [
+        "Terrace Granary",
+        "Hanging Gardens Monument",
+        "Seed Hall Nook",
+        "Agricultural Terraces Civic Hall",
+        "Agricultural Terraces street dressing",
+        "Aboriginal Australian civilians",
+        "section-appropriate props"
+      ],
+      "narrativeUse": [
+        "agricultural terraces errands",
+        "wayfinding by exact landmark",
+        "crowd pressure",
+        "local work conflict",
+        "transition between board slots"
+      ],
+      "primaryLandmark": "Terrace Granary",
+      "minorLandmarks": [
+        "Hanging Gardens Monument",
+        "Seed Hall Nook",
+        "Agricultural Terraces Civic Hall"
+      ]
+    },
+    {
+      "districtNumber": 17,
+      "sectionNumber": 4,
+      "name": "D17 Agricultural Terraces Monument Square",
+      "civicPurpose": "One of five Agricultural Terraces district slots, focused on monument square; it supports local movement, services, social pressure, and scene transitions within Section 4.",
+      "visualIdentity": "Hanging Gardens Monument anchors the slot, supported by Seed Hall Nook, Agricultural Terraces Civic Hall, Sandstone, Dark Wood, Bone, Glass, Canvas, and the Aboriginal Australian civic language.",
+      "emotionalIdentity": "Agricultural Terraces expressed through monument square: desert orientation with practical street-level specificity.",
+      "gameplayAssetNeeds": [
+        "Hanging Gardens Monument",
+        "Seed Hall Nook",
+        "Agricultural Terraces Civic Hall",
+        "Agricultural Terraces street dressing",
+        "Aboriginal Australian civilians",
+        "section-appropriate props"
+      ],
+      "narrativeUse": [
+        "agricultural terraces errands",
+        "wayfinding by exact landmark",
+        "crowd pressure",
+        "local work conflict",
+        "transition between board slots"
+      ],
+      "primaryLandmark": "Hanging Gardens Monument",
+      "minorLandmarks": [
+        "Seed Hall Nook",
+        "Agricultural Terraces Civic Hall"
+      ]
+    },
+    {
+      "districtNumber": 18,
+      "sectionNumber": 3,
+      "name": "D18 Treasury / Taxation Working Street Fabric",
+      "civicPurpose": "One of five Treasury / Taxation district slots, focused on working street fabric; it supports local movement, services, social pressure, and scene transitions within Section 3.",
+      "visualIdentity": "Assay Hall anchors the slot, supported by Treasury Taxation Gold-Seal Monument, Taxation Arcade Nook, Treasury / Taxation Hall, Sandstone, Dark Wood, Bone, Glass, Canvas, and the Aboriginal Australian civic language.",
+      "emotionalIdentity": "Treasury / Taxation expressed through working street fabric: desert orientation with practical street-level specificity.",
+      "gameplayAssetNeeds": [
+        "Assay Hall",
+        "Treasury Taxation Gold-Seal Monument",
+        "Taxation Arcade Nook",
+        "Treasury / Taxation Hall",
+        "Treasury / Taxation street dressing",
+        "Aboriginal Australian civilians",
+        "section-appropriate props"
+      ],
+      "narrativeUse": [
+        "treasury / taxation errands",
+        "wayfinding by exact landmark",
+        "crowd pressure",
+        "local work conflict",
+        "transition between board slots"
+      ],
+      "primaryLandmark": "Assay Hall",
+      "minorLandmarks": [
+        "Treasury Taxation Gold-Seal Monument",
+        "Taxation Arcade Nook",
+        "Treasury / Taxation Hall"
+      ]
+    },
+    {
+      "districtNumber": 19,
+      "sectionNumber": 5,
+      "name": "D19 Refugee Commons Civic Core",
+      "civicPurpose": "One of five Refugee Commons district slots, focused on civic core; it supports local movement, services, social pressure, and scene transitions within Section 5.",
+      "visualIdentity": "Refugee Commons Civic Hall anchors the slot, supported by Woven Banners Monument, Ration Arcade Nook, Sandstone, Dark Wood, Bone, Glass, Canvas, and the Aboriginal Australian civic language.",
+      "emotionalIdentity": "Refugee Commons expressed through civic core: desert orientation with practical street-level specificity.",
+      "gameplayAssetNeeds": [
+        "Refugee Commons Civic Hall",
+        "Woven Banners Monument",
+        "Ration Arcade Nook",
+        "Refugee Commons street dressing",
+        "Aboriginal Australian civilians",
+        "section-appropriate props"
+      ],
+      "narrativeUse": [
+        "refugee commons errands",
+        "wayfinding by exact landmark",
+        "crowd pressure",
+        "local work conflict",
+        "transition between board slots"
+      ],
+      "primaryLandmark": "Refugee Commons Civic Hall",
+      "minorLandmarks": [
+        "Woven Banners Monument",
+        "Ration Arcade Nook"
+      ]
+    },
+    {
+      "districtNumber": 20,
+      "sectionNumber": 5,
+      "name": "D20 Refugee Commons Major Landmark Approach",
+      "civicPurpose": "One of five Refugee Commons district slots, focused on major landmark approach; it supports local movement, services, social pressure, and scene transitions within Section 5.",
+      "visualIdentity": "Aid Commons anchors the slot, supported by Woven Banners Monument, Ration Arcade Nook, Refugee Commons Civic Hall, Sandstone, Dark Wood, Bone, Glass, Canvas, and the Aboriginal Australian civic language.",
+      "emotionalIdentity": "Refugee Commons expressed through major landmark approach: desert orientation with practical street-level specificity.",
+      "gameplayAssetNeeds": [
+        "Aid Commons",
+        "Woven Banners Monument",
+        "Ration Arcade Nook",
+        "Refugee Commons Civic Hall",
+        "Refugee Commons street dressing",
+        "Aboriginal Australian civilians",
+        "section-appropriate props"
+      ],
+      "narrativeUse": [
+        "refugee commons errands",
+        "wayfinding by exact landmark",
+        "crowd pressure",
+        "local work conflict",
+        "transition between board slots"
+      ],
+      "primaryLandmark": "Aid Commons",
+      "minorLandmarks": [
+        "Woven Banners Monument",
+        "Ration Arcade Nook",
+        "Refugee Commons Civic Hall"
+      ]
+    },
+    {
+      "districtNumber": 21,
+      "sectionNumber": 4,
+      "name": "D21 Agricultural Terraces Minor Landmark Lane",
+      "civicPurpose": "One of five Agricultural Terraces district slots, focused on minor landmark lane; it supports local movement, services, social pressure, and scene transitions within Section 4.",
+      "visualIdentity": "Seed Hall Nook anchors the slot, supported by Hanging Gardens Monument, Agricultural Terraces Civic Hall, Sandstone, Dark Wood, Bone, Glass, Canvas, and the Aboriginal Australian civic language.",
+      "emotionalIdentity": "Agricultural Terraces expressed through minor landmark lane: desert orientation with practical street-level specificity.",
+      "gameplayAssetNeeds": [
+        "Seed Hall Nook",
+        "Hanging Gardens Monument",
+        "Agricultural Terraces Civic Hall",
+        "Agricultural Terraces street dressing",
+        "Aboriginal Australian civilians",
+        "section-appropriate props"
+      ],
+      "narrativeUse": [
+        "agricultural terraces errands",
+        "wayfinding by exact landmark",
+        "crowd pressure",
+        "local work conflict",
+        "transition between board slots"
+      ],
+      "primaryLandmark": "Seed Hall Nook",
+      "minorLandmarks": [
+        "Hanging Gardens Monument",
+        "Agricultural Terraces Civic Hall"
+      ]
+    },
+    {
+      "districtNumber": 22,
+      "sectionNumber": 4,
+      "name": "D22 Agricultural Terraces Working Street Fabric",
+      "civicPurpose": "One of five Agricultural Terraces district slots, focused on working street fabric; it supports local movement, services, social pressure, and scene transitions within Section 4.",
+      "visualIdentity": "Terrace Granary anchors the slot, supported by Hanging Gardens Monument, Seed Hall Nook, Agricultural Terraces Civic Hall, Sandstone, Dark Wood, Bone, Glass, Canvas, and the Aboriginal Australian civic language.",
+      "emotionalIdentity": "Agricultural Terraces expressed through working street fabric: desert orientation with practical street-level specificity.",
+      "gameplayAssetNeeds": [
+        "Terrace Granary",
+        "Hanging Gardens Monument",
+        "Seed Hall Nook",
+        "Agricultural Terraces Civic Hall",
+        "Agricultural Terraces street dressing",
+        "Aboriginal Australian civilians",
+        "section-appropriate props"
+      ],
+      "narrativeUse": [
+        "agricultural terraces errands",
+        "wayfinding by exact landmark",
+        "crowd pressure",
+        "local work conflict",
+        "transition between board slots"
+      ],
+      "primaryLandmark": "Terrace Granary",
+      "minorLandmarks": [
+        "Hanging Gardens Monument",
+        "Seed Hall Nook",
+        "Agricultural Terraces Civic Hall"
+      ]
+    },
+    {
+      "districtNumber": 23,
+      "sectionNumber": 5,
+      "name": "D23 Refugee Commons Monument Square",
+      "civicPurpose": "One of five Refugee Commons district slots, focused on monument square; it supports local movement, services, social pressure, and scene transitions within Section 5.",
+      "visualIdentity": "Woven Banners Monument anchors the slot, supported by Ration Arcade Nook, Refugee Commons Civic Hall, Sandstone, Dark Wood, Bone, Glass, Canvas, and the Aboriginal Australian civic language.",
+      "emotionalIdentity": "Refugee Commons expressed through monument square: desert orientation with practical street-level specificity.",
+      "gameplayAssetNeeds": [
+        "Woven Banners Monument",
+        "Ration Arcade Nook",
+        "Refugee Commons Civic Hall",
+        "Refugee Commons street dressing",
+        "Aboriginal Australian civilians",
+        "section-appropriate props"
+      ],
+      "narrativeUse": [
+        "refugee commons errands",
+        "wayfinding by exact landmark",
+        "crowd pressure",
+        "local work conflict",
+        "transition between board slots"
+      ],
+      "primaryLandmark": "Woven Banners Monument",
+      "minorLandmarks": [
+        "Ration Arcade Nook",
+        "Refugee Commons Civic Hall"
+      ]
+    },
+    {
+      "districtNumber": 24,
+      "sectionNumber": 5,
+      "name": "D24 Refugee Commons Minor Landmark Lane",
+      "civicPurpose": "One of five Refugee Commons district slots, focused on minor landmark lane; it supports local movement, services, social pressure, and scene transitions within Section 5.",
+      "visualIdentity": "Ration Arcade Nook anchors the slot, supported by Woven Banners Monument, Refugee Commons Civic Hall, Sandstone, Dark Wood, Bone, Glass, Canvas, and the Aboriginal Australian civic language.",
+      "emotionalIdentity": "Refugee Commons expressed through minor landmark lane: desert orientation with practical street-level specificity.",
+      "gameplayAssetNeeds": [
+        "Ration Arcade Nook",
+        "Woven Banners Monument",
+        "Refugee Commons Civic Hall",
+        "Refugee Commons street dressing",
+        "Aboriginal Australian civilians",
+        "section-appropriate props"
+      ],
+      "narrativeUse": [
+        "refugee commons errands",
+        "wayfinding by exact landmark",
+        "crowd pressure",
+        "local work conflict",
+        "transition between board slots"
+      ],
+      "primaryLandmark": "Ration Arcade Nook",
+      "minorLandmarks": [
+        "Woven Banners Monument",
+        "Refugee Commons Civic Hall"
+      ]
+    },
+    {
+      "districtNumber": 25,
+      "sectionNumber": 5,
+      "name": "D25 Refugee Commons Working Street Fabric",
+      "civicPurpose": "One of five Refugee Commons district slots, focused on working street fabric; it supports local movement, services, social pressure, and scene transitions within Section 5.",
+      "visualIdentity": "Aid Commons anchors the slot, supported by Woven Banners Monument, Ration Arcade Nook, Refugee Commons Civic Hall, Sandstone, Dark Wood, Bone, Glass, Canvas, and the Aboriginal Australian civic language.",
+      "emotionalIdentity": "Refugee Commons expressed through working street fabric: desert orientation with practical street-level specificity.",
+      "gameplayAssetNeeds": [
+        "Aid Commons",
+        "Woven Banners Monument",
+        "Ration Arcade Nook",
+        "Refugee Commons Civic Hall",
+        "Refugee Commons street dressing",
+        "Aboriginal Australian civilians",
+        "section-appropriate props"
+      ],
+      "narrativeUse": [
+        "refugee commons errands",
+        "wayfinding by exact landmark",
+        "crowd pressure",
+        "local work conflict",
+        "transition between board slots"
+      ],
+      "primaryLandmark": "Aid Commons",
+      "minorLandmarks": [
+        "Woven Banners Monument",
+        "Ration Arcade Nook",
+        "Refugee Commons Civic Hall"
+      ]
+    }
+  ],
+  "landmarks": {
+    "wonder": {
+      "name": "Aboriginal Songline Stone of the First Path",
+      "symbolicRole": "The citywide symbol of memory as route and law made monumental.",
+      "visualRole": "A wonder-scale skyline anchor using Sandstone, Dark Wood, Bone, Glass, Canvas, Desert, Stone Desert, Dry Wadi, Savanna, Dry Ground, and the Aboriginal Australian visual language.",
+      "civicRole": "Represents the whole city above the five sections: Transit / Caravan / Rail, Grand Market, Treasury / Taxation, Agricultural Terraces, Refugee Commons.",
+      "narrativeUse": [
+        "arrival revelation",
+        "city identity scene",
+        "public ceremony",
+        "distant navigation",
+        "symbolic contrast with district-level conflict"
+      ],
+      "assetUse": [
+        "map background skyline anchor",
+        "hero-view focal point",
+        "diorama backdrop",
+        "visual identifier for city"
+      ],
+      "sensoryIdentity": [
+        "sandstone",
+        "dark wood",
+        "bone",
+        "glass",
+        "canvas",
+        "desert",
+        "stone desert"
+      ],
+      "storyHooks": [
+        "access to Aboriginal Songline Stone of the First Path changes public legitimacy",
+        "a citywide ritual reveals hidden pressure",
+        "the Wonder becomes a navigation or warning reference"
+      ]
+    },
+    "beacon": {
+      "name": "Caravanserai Beacon",
+      "symbolicRole": "Public signal and shared alarm for Warramirra.",
+      "visualRole": "A section-scale signal landmark that must read immediately as the city Beacon.",
+      "civicRole": "Coordinates public response, civic warnings, and Conjunction-state attention.",
+      "narrativeUse": [
+        "beacon color change",
+        "crowd response",
+        "public warning",
+        "rumor spread",
+        "panic or disciplined response"
+      ],
+      "assetUse": [
+        "district diorama signal centerpiece",
+        "city map signal icon",
+        "public plaza asset"
+      ],
+      "sensoryIdentity": [
+        "signal glow",
+        "crowd hush",
+        "public calls",
+        "sandstone",
+        "dark wood",
+        "bone",
+        "glass"
+      ],
+      "storyHooks": [
+        "someone controls the first interpretation of a signal",
+        "the Beacon redirects traffic between sections",
+        "a warning exposes which citizens trust civic authority"
+      ]
+    },
+    "seatOfPower": {
+      "name": "Sun Disc Reliefs Sovereign Registry Court",
+      "symbolicRole": "Central authority made visible and source-backed.",
+      "visualRole": "The District 13 authority complex with formal approaches and city-specific materials.",
+      "civicRole": "Seat of government, petitions, records, rulings, and command visibility.",
+      "narrativeUse": [
+        "formal petition",
+        "sealed ruling",
+        "private audience",
+        "public legitimacy challenge",
+        "citywide order"
+      ],
+      "assetUse": [
+        "central map authority marker",
+        "D13 diorama landmark",
+        "government-scene backdrop"
+      ],
+      "sensoryIdentity": [
+        "formal silence",
+        "clerks and guards",
+        "sealed records",
+        "sandstone",
+        "dark wood",
+        "bone",
+        "glass"
+      ],
+      "storyHooks": [
+        "a ruling contradicts a section custom",
+        "a sealed record changes public interpretation",
+        "D13 becomes a pressure point during crisis"
+      ]
+    },
+    "majorLandmarks": [
+      {
+        "name": "Transit / Caravan / Rail Civic Hall",
+        "symbolicRole": "Transit / Caravan / Rail expressed through a civic center anchor.",
+        "visualRole": "Transit / Caravan / Rail Civic Hall should show ticket booths, institutional anchor, public-facing administration, clear central silhouette, board-readable entrance, using Sandstone, Dark Wood, Bone, Glass, Canvas and section-specific massing.",
+        "civicRole": "Supports Section 1's Transit / Caravan / Rail purpose as a local civic, movement, memory, or service node.",
+        "narrativeUse": [
+          "transit / caravan / rail scene anchor",
+          "local meeting point",
+          "evidence or route clue",
+          "crowd behavior marker"
+        ],
+        "assetUse": [
+          "Section 1 diorama asset",
+          "map label or icon",
+          "district-scale landmark prop cluster"
+        ],
+        "sensoryIdentity": [
+          "ticket booths",
+          "institutional anchor",
+          "public-facing administration",
+          "clear central silhouette",
+          "sandstone",
+          "dark wood",
+          "bone"
+        ],
+        "storyHooks": [
+          "Transit / Caravan / Rail Civic Hall becomes the specific landmark that prevents the scene from feeling generic",
+          "a local dispute centers on access to Transit / Caravan / Rail Civic Hall"
+        ]
+      },
+      {
+        "name": "Woven Banners Monument",
+        "symbolicRole": "Transit / Caravan / Rail expressed through a monument anchor.",
+        "visualRole": "Woven Banners Monument should show route maps, signal flags, hitching posts, depots, caravan yards, using Sandstone, Dark Wood, Bone, Glass, Canvas and section-specific massing.",
+        "civicRole": "Supports Section 1's Transit / Caravan / Rail purpose as a local civic, movement, memory, or service node.",
+        "narrativeUse": [
+          "transit / caravan / rail scene anchor",
+          "local meeting point",
+          "evidence or route clue",
+          "crowd behavior marker"
+        ],
+        "assetUse": [
+          "Section 1 diorama asset",
+          "map label or icon",
+          "district-scale landmark prop cluster"
+        ],
+        "sensoryIdentity": [
+          "route maps",
+          "signal flags",
+          "hitching posts",
+          "depots",
+          "sandstone",
+          "dark wood",
+          "bone"
+        ],
+        "storyHooks": [
+          "Woven Banners Monument becomes the specific landmark that prevents the scene from feeling generic",
+          "a local dispute centers on access to Woven Banners Monument"
+        ]
+      },
+      {
+        "name": "Waystation Hall Nook",
+        "symbolicRole": "Transit / Caravan / Rail expressed through a minor landmark anchor.",
+        "visualRole": "Waystation Hall Nook should show signal flags, hitching posts, depots, caravan yards, stable courts, using Sandstone, Dark Wood, Bone, Glass, Canvas and section-specific massing.",
+        "civicRole": "Supports Section 1's Transit / Caravan / Rail purpose as a local civic, movement, memory, or service node.",
+        "narrativeUse": [
+          "transit / caravan / rail scene anchor",
+          "local meeting point",
+          "evidence or route clue",
+          "crowd behavior marker"
+        ],
+        "assetUse": [
+          "Section 1 diorama asset",
+          "map label or icon",
+          "district-scale landmark prop cluster"
+        ],
+        "sensoryIdentity": [
+          "signal flags",
+          "hitching posts",
+          "depots",
+          "caravan yards",
+          "sandstone",
+          "dark wood",
+          "bone"
+        ],
+        "storyHooks": [
+          "Waystation Hall Nook becomes the specific landmark that prevents the scene from feeling generic",
+          "a local dispute centers on access to Waystation Hall Nook"
+        ]
+      },
+      {
+        "name": "Grand Market Civic Hall",
+        "symbolicRole": "Grand Market expressed through a civic center anchor.",
+        "visualRole": "Grand Market Civic Hall should show coin strings, market bells, covered bazaars, trade arcades, auction courts, using Sandstone, Dark Wood, Bone, Glass, Canvas and section-specific massing.",
+        "civicRole": "Supports Section 2's Grand Market purpose as a local civic, movement, memory, or service node.",
+        "narrativeUse": [
+          "grand market scene anchor",
+          "local meeting point",
+          "evidence or route clue",
+          "crowd behavior marker"
+        ],
+        "assetUse": [
+          "Section 2 diorama asset",
+          "map label or icon",
+          "district-scale landmark prop cluster"
+        ],
+        "sensoryIdentity": [
+          "coin strings",
+          "market bells",
+          "covered bazaars",
+          "trade arcades",
+          "sandstone",
+          "dark wood",
+          "bone"
+        ],
+        "storyHooks": [
+          "Grand Market Civic Hall becomes the specific landmark that prevents the scene from feeling generic",
+          "a local dispute centers on access to Grand Market Civic Hall"
+        ]
+      },
+      {
+        "name": "Covered Bazaar",
+        "symbolicRole": "Grand Market expressed through a major landmark anchor.",
+        "visualRole": "Covered Bazaar should show covered bazaars, trade arcades, auction courts, stalls, largest section focal point, using Sandstone, Dark Wood, Bone, Glass, Canvas and section-specific massing.",
+        "civicRole": "Supports Section 2's Grand Market purpose as a local civic, movement, memory, or service node.",
+        "narrativeUse": [
+          "grand market scene anchor",
+          "local meeting point",
+          "evidence or route clue",
+          "crowd behavior marker"
+        ],
+        "assetUse": [
+          "Section 2 diorama asset",
+          "map label or icon",
+          "district-scale landmark prop cluster"
+        ],
+        "sensoryIdentity": [
+          "covered bazaars",
+          "trade arcades",
+          "auction courts",
+          "stalls",
+          "sandstone",
+          "dark wood",
+          "bone"
+        ],
+        "storyHooks": [
+          "Covered Bazaar becomes the specific landmark that prevents the scene from feeling generic",
+          "a local dispute centers on access to Covered Bazaar"
+        ]
+      },
+      {
+        "name": "Awning Monument",
+        "symbolicRole": "Grand Market expressed through a monument anchor.",
+        "visualRole": "Awning Monument should show market bells, covered bazaars, trade arcades, auction courts, stalls, using Sandstone, Dark Wood, Bone, Glass, Canvas and section-specific massing.",
+        "civicRole": "Supports Section 2's Grand Market purpose as a local civic, movement, memory, or service node.",
+        "narrativeUse": [
+          "grand market scene anchor",
+          "local meeting point",
+          "evidence or route clue",
+          "crowd behavior marker"
+        ],
+        "assetUse": [
+          "Section 2 diorama asset",
+          "map label or icon",
+          "district-scale landmark prop cluster"
+        ],
+        "sensoryIdentity": [
+          "market bells",
+          "covered bazaars",
+          "trade arcades",
+          "auction courts",
+          "sandstone",
+          "dark wood",
+          "bone"
+        ],
+        "storyHooks": [
+          "Awning Monument becomes the specific landmark that prevents the scene from feeling generic",
+          "a local dispute centers on access to Awning Monument"
+        ]
+      },
+      {
+        "name": "Auction Court Nook",
+        "symbolicRole": "Grand Market expressed through a minor landmark anchor.",
+        "visualRole": "Auction Court Nook should show trade arcades, auction courts, stalls, small local identity prop, street-level detail, using Sandstone, Dark Wood, Bone, Glass, Canvas and section-specific massing.",
+        "civicRole": "Supports Section 2's Grand Market purpose as a local civic, movement, memory, or service node.",
+        "narrativeUse": [
+          "grand market scene anchor",
+          "local meeting point",
+          "evidence or route clue",
+          "crowd behavior marker"
+        ],
+        "assetUse": [
+          "Section 2 diorama asset",
+          "map label or icon",
+          "district-scale landmark prop cluster"
+        ],
+        "sensoryIdentity": [
+          "trade arcades",
+          "auction courts",
+          "stalls",
+          "small local identity prop",
+          "sandstone",
+          "dark wood",
+          "bone"
+        ],
+        "storyHooks": [
+          "Auction Court Nook becomes the specific landmark that prevents the scene from feeling generic",
+          "a local dispute centers on access to Auction Court Nook"
+        ]
+      },
+      {
+        "name": "Treasury / Taxation Hall",
+        "symbolicRole": "Treasury / Taxation expressed through a civic center anchor.",
+        "visualRole": "Treasury / Taxation Hall should show locked chests, assay marks, vault halls, mint towers, counting houses, using Sandstone, Dark Wood, Bone, Glass, Canvas and section-specific massing.",
+        "civicRole": "Supports Section 3's Treasury / Taxation purpose as a local civic, movement, memory, or service node.",
+        "narrativeUse": [
+          "treasury / taxation scene anchor",
+          "local meeting point",
+          "evidence or route clue",
+          "crowd behavior marker"
+        ],
+        "assetUse": [
+          "Section 3 diorama asset",
+          "map label or icon",
+          "district-scale landmark prop cluster"
+        ],
+        "sensoryIdentity": [
+          "locked chests",
+          "assay marks",
+          "vault halls",
+          "mint towers",
+          "sandstone",
+          "dark wood",
+          "bone"
+        ],
+        "storyHooks": [
+          "Treasury / Taxation Hall becomes the specific landmark that prevents the scene from feeling generic",
+          "a local dispute centers on access to Treasury / Taxation Hall"
+        ]
+      },
+      {
+        "name": "Assay Hall",
+        "symbolicRole": "Treasury / Taxation expressed through a major landmark anchor.",
+        "visualRole": "Assay Hall should show visible from nearby districts, coins, scales, locked chests, assay marks, using Sandstone, Dark Wood, Bone, Glass, Canvas and section-specific massing.",
+        "civicRole": "Supports Section 3's Treasury / Taxation purpose as a local civic, movement, memory, or service node.",
+        "narrativeUse": [
+          "treasury / taxation scene anchor",
+          "local meeting point",
+          "evidence or route clue",
+          "crowd behavior marker"
+        ],
+        "assetUse": [
+          "Section 3 diorama asset",
+          "map label or icon",
+          "district-scale landmark prop cluster"
+        ],
+        "sensoryIdentity": [
+          "visible from nearby districts",
+          "coins",
+          "scales",
+          "locked chests",
+          "sandstone",
+          "dark wood",
+          "bone"
+        ],
+        "storyHooks": [
+          "Assay Hall becomes the specific landmark that prevents the scene from feeling generic",
+          "a local dispute centers on access to Assay Hall"
+        ]
+      },
+      {
+        "name": "Treasury Taxation Gold-Seal Monument",
+        "symbolicRole": "Treasury / Taxation expressed through a monument anchor.",
+        "visualRole": "Treasury Taxation Gold-Seal Monument should show coins, scales, locked chests, assay marks, vault halls, using Sandstone, Dark Wood, Bone, Glass, Canvas and section-specific massing.",
+        "civicRole": "Supports Section 3's Treasury / Taxation purpose as a local civic, movement, memory, or service node.",
+        "narrativeUse": [
+          "treasury / taxation scene anchor",
+          "local meeting point",
+          "evidence or route clue",
+          "crowd behavior marker"
+        ],
+        "assetUse": [
+          "Section 3 diorama asset",
+          "map label or icon",
+          "district-scale landmark prop cluster"
+        ],
+        "sensoryIdentity": [
+          "coins",
+          "scales",
+          "locked chests",
+          "assay marks",
+          "sandstone",
+          "dark wood",
+          "bone"
+        ],
+        "storyHooks": [
+          "Treasury Taxation Gold-Seal Monument becomes the specific landmark that prevents the scene from feeling generic",
+          "a local dispute centers on access to Treasury Taxation Gold-Seal Monument"
+        ]
+      },
+      {
+        "name": "Taxation Arcade Nook",
+        "symbolicRole": "Treasury / Taxation expressed through a minor landmark anchor.",
+        "visualRole": "Taxation Arcade Nook should show locked chests, assay marks, vault halls, mint towers, counting houses, using Sandstone, Dark Wood, Bone, Glass, Canvas and section-specific massing.",
+        "civicRole": "Supports Section 3's Treasury / Taxation purpose as a local civic, movement, memory, or service node.",
+        "narrativeUse": [
+          "treasury / taxation scene anchor",
+          "local meeting point",
+          "evidence or route clue",
+          "crowd behavior marker"
+        ],
+        "assetUse": [
+          "Section 3 diorama asset",
+          "map label or icon",
+          "district-scale landmark prop cluster"
+        ],
+        "sensoryIdentity": [
+          "locked chests",
+          "assay marks",
+          "vault halls",
+          "mint towers",
+          "sandstone",
+          "dark wood",
+          "bone"
+        ],
+        "storyHooks": [
+          "Taxation Arcade Nook becomes the specific landmark that prevents the scene from feeling generic",
+          "a local dispute centers on access to Taxation Arcade Nook"
+        ]
+      },
+      {
+        "name": "Agricultural Terraces Civic Hall",
+        "symbolicRole": "Agricultural Terraces expressed through a civic center anchor.",
+        "visualRole": "Agricultural Terraces Civic Hall should show public-facing administration, clear central silhouette, board-readable entrance, seed jars, terraced beds, using Sandstone, Dark Wood, Bone, Glass, Canvas and section-specific massing.",
+        "civicRole": "Supports Section 4's Agricultural Terraces purpose as a local civic, movement, memory, or service node.",
+        "narrativeUse": [
+          "agricultural terraces scene anchor",
+          "local meeting point",
+          "evidence or route clue",
+          "crowd behavior marker"
+        ],
+        "assetUse": [
+          "Section 4 diorama asset",
+          "map label or icon",
+          "district-scale landmark prop cluster"
+        ],
+        "sensoryIdentity": [
+          "public-facing administration",
+          "clear central silhouette",
+          "board-readable entrance",
+          "seed jars",
+          "sandstone",
+          "dark wood",
+          "bone"
+        ],
+        "storyHooks": [
+          "Agricultural Terraces Civic Hall becomes the specific landmark that prevents the scene from feeling generic",
+          "a local dispute centers on access to Agricultural Terraces Civic Hall"
+        ]
+      },
+      {
+        "name": "Terrace Granary",
+        "symbolicRole": "Agricultural Terraces expressed through a major landmark anchor.",
+        "visualRole": "Terrace Granary should show farm terraces, orchards, greenhouses, irrigation channels, largest section focal point, using Sandstone, Dark Wood, Bone, Glass, Canvas and section-specific massing.",
+        "civicRole": "Supports Section 4's Agricultural Terraces purpose as a local civic, movement, memory, or service node.",
+        "narrativeUse": [
+          "agricultural terraces scene anchor",
+          "local meeting point",
+          "evidence or route clue",
+          "crowd behavior marker"
+        ],
+        "assetUse": [
+          "Section 4 diorama asset",
+          "map label or icon",
+          "district-scale landmark prop cluster"
+        ],
+        "sensoryIdentity": [
+          "farm terraces",
+          "orchards",
+          "greenhouses",
+          "irrigation channels",
+          "sandstone",
+          "dark wood",
+          "bone"
+        ],
+        "storyHooks": [
+          "Terrace Granary becomes the specific landmark that prevents the scene from feeling generic",
+          "a local dispute centers on access to Terrace Granary"
+        ]
+      },
+      {
+        "name": "Hanging Gardens Monument",
+        "symbolicRole": "Agricultural Terraces expressed through a monument anchor.",
+        "visualRole": "Hanging Gardens Monument should show local memory marker, subordinate to major landmark, seed jars, terraced beds, fruit trees, using Sandstone, Dark Wood, Bone, Glass, Canvas and section-specific massing.",
+        "civicRole": "Supports Section 4's Agricultural Terraces purpose as a local civic, movement, memory, or service node.",
+        "narrativeUse": [
+          "agricultural terraces scene anchor",
+          "local meeting point",
+          "evidence or route clue",
+          "crowd behavior marker"
+        ],
+        "assetUse": [
+          "Section 4 diorama asset",
+          "map label or icon",
+          "district-scale landmark prop cluster"
+        ],
+        "sensoryIdentity": [
+          "local memory marker",
+          "subordinate to major landmark",
+          "seed jars",
+          "terraced beds",
+          "sandstone",
+          "dark wood",
+          "bone"
+        ],
+        "storyHooks": [
+          "Hanging Gardens Monument becomes the specific landmark that prevents the scene from feeling generic",
+          "a local dispute centers on access to Hanging Gardens Monument"
+        ]
+      },
+      {
+        "name": "Seed Hall Nook",
+        "symbolicRole": "Agricultural Terraces expressed through a minor landmark anchor.",
+        "visualRole": "Seed Hall Nook should show orchards, greenhouses, irrigation channels, small local identity prop, street-level detail, using Sandstone, Dark Wood, Bone, Glass, Canvas and section-specific massing.",
+        "civicRole": "Supports Section 4's Agricultural Terraces purpose as a local civic, movement, memory, or service node.",
+        "narrativeUse": [
+          "agricultural terraces scene anchor",
+          "local meeting point",
+          "evidence or route clue",
+          "crowd behavior marker"
+        ],
+        "assetUse": [
+          "Section 4 diorama asset",
+          "map label or icon",
+          "district-scale landmark prop cluster"
+        ],
+        "sensoryIdentity": [
+          "orchards",
+          "greenhouses",
+          "irrigation channels",
+          "small local identity prop",
+          "sandstone",
+          "dark wood",
+          "bone"
+        ],
+        "storyHooks": [
+          "Seed Hall Nook becomes the specific landmark that prevents the scene from feeling generic",
+          "a local dispute centers on access to Seed Hall Nook"
+        ]
+      },
+      {
+        "name": "Refugee Commons Civic Hall",
+        "symbolicRole": "Refugee Commons expressed through a civic center anchor.",
+        "visualRole": "Refugee Commons Civic Hall should show repair patches, tent courts, aid halls, temporary houses, ration counters, using Sandstone, Dark Wood, Bone, Glass, Canvas and section-specific massing.",
+        "civicRole": "Supports Section 5's Refugee Commons purpose as a local civic, movement, memory, or service node.",
+        "narrativeUse": [
+          "refugee commons scene anchor",
+          "local meeting point",
+          "evidence or route clue",
+          "crowd behavior marker"
+        ],
+        "assetUse": [
+          "Section 5 diorama asset",
+          "map label or icon",
+          "district-scale landmark prop cluster"
+        ],
+        "sensoryIdentity": [
+          "repair patches",
+          "tent courts",
+          "aid halls",
+          "temporary houses",
+          "sandstone",
+          "dark wood",
+          "bone"
+        ],
+        "storyHooks": [
+          "Refugee Commons Civic Hall becomes the specific landmark that prevents the scene from feeling generic",
+          "a local dispute centers on access to Refugee Commons Civic Hall"
+        ]
+      },
+      {
+        "name": "Aid Commons",
+        "symbolicRole": "Refugee Commons expressed through a major landmark anchor.",
+        "visualRole": "Aid Commons should show blankets, ration tokens, lantern lines, repair patches, tent courts, using Sandstone, Dark Wood, Bone, Glass, Canvas and section-specific massing.",
+        "civicRole": "Supports Section 5's Refugee Commons purpose as a local civic, movement, memory, or service node.",
+        "narrativeUse": [
+          "refugee commons scene anchor",
+          "local meeting point",
+          "evidence or route clue",
+          "crowd behavior marker"
+        ],
+        "assetUse": [
+          "Section 5 diorama asset",
+          "map label or icon",
+          "district-scale landmark prop cluster"
+        ],
+        "sensoryIdentity": [
+          "blankets",
+          "ration tokens",
+          "lantern lines",
+          "repair patches",
+          "sandstone",
+          "dark wood",
+          "bone"
+        ],
+        "storyHooks": [
+          "Aid Commons becomes the specific landmark that prevents the scene from feeling generic",
+          "a local dispute centers on access to Aid Commons"
+        ]
+      },
+      {
+        "name": "Ration Arcade Nook",
+        "symbolicRole": "Refugee Commons expressed through a minor landmark anchor.",
+        "visualRole": "Ration Arcade Nook should show usable board landmark, subordinate scale, blankets, ration tokens, lantern lines, using Sandstone, Dark Wood, Bone, Glass, Canvas and section-specific massing.",
+        "civicRole": "Supports Section 5's Refugee Commons purpose as a local civic, movement, memory, or service node.",
+        "narrativeUse": [
+          "refugee commons scene anchor",
+          "local meeting point",
+          "evidence or route clue",
+          "crowd behavior marker"
+        ],
+        "assetUse": [
+          "Section 5 diorama asset",
+          "map label or icon",
+          "district-scale landmark prop cluster"
+        ],
+        "sensoryIdentity": [
+          "usable board landmark",
+          "subordinate scale",
+          "blankets",
+          "ration tokens",
+          "sandstone",
+          "dark wood",
+          "bone"
+        ],
+        "storyHooks": [
+          "Ration Arcade Nook becomes the specific landmark that prevents the scene from feeling generic",
+          "a local dispute centers on access to Ration Arcade Nook"
+        ]
+      }
+    ]
+  },
+  "assetGuidance": {
+    "districtDioramaGuidance": [
+      "Create twenty-five district dioramas grouped into five recognizable sections: Transit / Caravan / Rail, Grand Market, Treasury / Taxation, Agricultural Terraces, Refugee Commons.",
+      "Each district should use its districtNumber and sectionNumber, but avoid baked text labels in imagery.",
+      "D13 must read as the Seat of Power district centered on Sun Disc Reliefs Sovereign Registry Court.",
+      "Repeated section anchors may appear across five related slots, but each slot needs its own street function, crowd density, and prop emphasis.",
+      "Use exact source-backed anchor names for file naming, prompt references, and canon cross-checking.",
+      "S1 must preserve Transit / Caravan / Rail with anchors: Transit / Caravan / Rail Civic Hall, Caravanserai Beacon, Woven Banners Monument, Waystation Hall Nook.",
+      "S2 must preserve Grand Market with anchors: Grand Market Civic Hall, Covered Bazaar, Awning Monument, Auction Court Nook.",
+      "S3 must preserve Treasury / Taxation with anchors: Treasury / Taxation Hall, Assay Hall, Treasury Taxation Gold-Seal Monument, Taxation Arcade Nook.",
+      "S4 must preserve Agricultural Terraces with anchors: Agricultural Terraces Civic Hall, Terrace Granary, Hanging Gardens Monument, Seed Hall Nook.",
+      "S5 must preserve Refugee Commons with anchors: Refugee Commons Civic Hall, Aid Commons, Woven Banners Monument, Ration Arcade Nook."
+    ],
+    "mapBackgroundGuidance": [
+      "Map backgrounds should keep Aboriginal Songline Stone of the First Path as the skyline symbol, Sun Disc Reliefs Sovereign Registry Court at the central civic authority, and Caravanserai Beacon as the readable public signal.",
+      "Arrange the five section identities so Warramirra does not converge with other cities: Transit / Caravan / Rail, Grand Market, Treasury / Taxation, Agricultural Terraces, Refugee Commons.",
+      "Use terrain cues (Desert, Stone Desert, Dry Wadi, Savanna, Dry Ground), material cues (Sandstone, Dark Wood, Bone, Glass, Canvas), and magic cues (Civic Blue Illumination, Oath Seals, Dream Binding, Threshold Oaths, Archive Echoes) consistently across district clusters.",
+      "Show roads, terraces, gates, courts, or paths that make the twenty-five-district tactical layout plausible."
+    ],
+    "requiredVisualElements": [
+      "Aboriginal Australian",
+      "Aboriginal Songline Stone of the First Path",
+      "Caravanserai Beacon",
+      "Sun Disc Reliefs Sovereign Registry Court",
+      "Sandstone",
+      "Dark Wood",
+      "Bone",
+      "Glass",
+      "Canvas",
+      "Desert",
+      "Stone Desert",
+      "Dry Wadi",
+      "Savanna",
+      "Dry Ground",
+      "Civic Blue Illumination",
+      "Oath Seals",
+      "Dream Binding",
+      "Threshold Oaths",
+      "Archive Echoes",
+      "Covered Bazaar",
+      "Assay Hall",
+      "Terrace Granary",
+      "Aid Commons"
+    ],
+    "elementsToAvoid": [
+      "extra top-level schema sections or embedded generation notes",
+      "generic fantasy city assets that ignore exact anchor names",
+      "unlabeled invented landmarks replacing sidecar names",
+      "flattening five sections into one visual district",
+      "treating culture identity as costume rather than civic design",
+      "overcrowded detail that hides Wonder, Beacon, or Seat of Power"
+    ]
+  }
+}

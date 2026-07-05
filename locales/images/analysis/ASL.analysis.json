@@ -4,9 +4,12 @@
     "analysisVersion": 2,
     "cityCode": "ASL",
     "cityName": "Aes Sidhal",
-    "analysisDate": "2026-07-03",
+    "analysisDate": "2026-07-05",
     "analystVersion": "gpt-5.5-thinking",
     "analysisConfidence": "strong-lock",
+    "sourceStatus": "full",
+    "districtModel": "five sections; five district slots per section; D13 is the seat of power",
+    "missingStreetSections": [],
     "basedOnImages": [
       "ASL-HERO-NE-v001",
       "ASL-HERO-NW-v001",
@@ -31,494 +34,1117 @@
     ]
   },
   "cityDNA": {
-    "coreFantasy": "A cliffside satyr and horned-fae threshold city where blue ward light, formal revelry, guarded gates, veiled courts, alchemy, law, and star-watching share one ritual civic language.",
-    "primaryEmotion": "seductive vigilance",
-    "secondaryEmotion": "ritualized joy",
-    "readerTakeaway": "Aes Sidhal is beautiful and theatrical, but every arch, mask, charm, gate, and blue lamp is also a rule about access.",
-    "civilizationThesis": "Aes Sidhal turns volatile fae energies into institutions: border walls manage entry, courts manage permission, theaters manage revelry, laboratories manage magic, and observatories manage omen and navigation.",
-    "visualIdentity": "Stacked cliff terraces, pale stone and granite courts, obsidian defensive towers, blue crystal beacons, cedar balconies, hanging charms, moon gates, red theater awnings, gold seals, vines, masks, and monumental horn-like rooflines.",
-    "culturalIdentity": "A mature satyr / horned-fae civilization where performance is not chaos but civic practice, and belonging depends on knowing how to pass thresholds correctly.",
-    "symbolicIdentity": "Thresholds, masks, horns, hanging charms, woven banners, blue lamps, serpent geometry, moon gates, star charts, and veils symbolize discernment, permission, controlled celebration, and hidden consequence."
+    "coreFantasy": "A Satyr / horned fae city where Satyr Revelstone Grove Theater, Border Wall Beacon, Hanging Charms Veiled High Court, and the five-section district spine turn local identity into functional civic space.",
+    "primaryEmotion": "source-backed civic presence",
+    "secondaryEmotion": "lived-in pressure beneath landmark order",
+    "readerTakeaway": "Aes Sidhal should feel immediately identifiable through exact landmarks and materials, not through generic fantasy-city shorthand.",
+    "civilizationThesis": "Aes Sidhal organizes power through Hanging Charms Veiled High Court, public response through Border Wall Beacon, civic memory through Satyr Revelstone Grove Theater, and daily life through S1 Fortress / Border Wall Civic Hall, S2 Arcane / Alchemical Labs Civic Hall, S3 Legislative Quarter Hall, S4 Entertainment / Theater Civic Hall, S5 Observatory / Astronomy Civic Hall.",
+    "visualIdentity": "Moonstone, Granite, Cedar, Woven Vine, Gold Leaf, Cliffside, Terraced Slope, Civic Terraces, Ward Networks, Ritual Geometry, Dream Binding, and exact anchors including Hanging Charms Veiled High Court, Border Wall Beacon, Satyr Revelstone Grove Theater, Star Observatory, Alchemy Lab, Opera Court, Fortress / Border Wall Civic Hall, Woven Banners Monument, Watch Bastion Nook, Arcane / Alchemical Labs Civic Hall.",
+    "culturalIdentity": "A Satyr / horned fae civic culture where architecture, public obligations, roads, landmark approaches, and everyday work must all read as part of the same civilization.",
+    "symbolicIdentity": "The city symbol system is built from exact names and visible functions: Satyr Revelstone Grove Theater, Border Wall Beacon, Hanging Charms Veiled High Court, and section anchors such as Fortress / Border Wall Civic Hall, Arcane / Alchemical Labs Civic Hall, Legislative Quarter Hall, Entertainment / Theater Civic Hall, Observatory / Astronomy Civic Hall."
   },
   "canon": {
     "canonLocks": [
-      "Aes Sidhal is a mature cliffside satyr / horned-fae city, not a woodland camp or simple revel settlement.",
-      "The city identity is threshold civilization: gates, wards, charms, veils, oaths, and permissions shape civic life.",
-      "Revelry is formal, theatrical, and institutionalized rather than anarchic.",
-      "Blue ward light is a central civic magical marker across border, alchemy, law, theater, and observatory districts.",
-      "The Wonder is the Satyr Revelstone Grove Theater.",
-      "The Beacon is the Border Wall Beacon.",
-      "The Seat of Power is the Hanging Charms Veiled High Court.",
-      "The five primary districts are Fortress / Border Wall, Arcane / Alchemical Labs, Legislative Quarter, Entertainment / Theater, and Observatory / Astronomy."
+      "Aes Sidhal uses city code ASL.",
+      "The Wonder is Satyr Revelstone Grove Theater.",
+      "The Beacon is Border Wall Beacon.",
+      "The Seat of Power is Hanging Charms Veiled High Court and occupies District 13.",
+      "The city uses five sections with five tactical district slots per section.",
+      "The source-backed section spine is: S1 Fortress / Border Wall Civic Hall, S2 Arcane / Alchemical Labs Civic Hall, S3 Legislative Quarter Hall, S4 Entertainment / Theater Civic Hall, S5 Observatory / Astronomy Civic Hall.",
+      "Preserve exact anchor name: Hanging Charms Veiled High Court.",
+      "Preserve exact anchor name: Border Wall Beacon.",
+      "Preserve exact anchor name: Satyr Revelstone Grove Theater.",
+      "Preserve exact anchor name: Star Observatory.",
+      "Preserve exact anchor name: Alchemy Lab.",
+      "Preserve exact anchor name: Opera Court.",
+      "Preserve exact anchor name: Fortress / Border Wall Civic Hall.",
+      "Preserve exact anchor name: Woven Banners Monument.",
+      "Preserve exact anchor name: Watch Bastion Nook.",
+      "Preserve exact anchor name: Arcane / Alchemical Labs Civic Hall.",
+      "Preserve exact anchor name: Blue-Lamp Monument.",
+      "Preserve exact anchor name: Formula Archive Nook.",
+      "Preserve exact anchor name: Legislative Quarter Hall.",
+      "Preserve exact anchor name: Assembly Hall.",
+      "Preserve exact anchor name: Legislative Quarter Gold-Seal Monument.",
+      "Preserve exact anchor name: Charter Arcade Nook.",
+      "Preserve exact anchor name: Entertainment / Theater Civic Hall.",
+      "Preserve exact anchor name: Entertainment Theater Lantern Monument.",
+      "Preserve exact anchor name: Mask Pavilion Nook.",
+      "Preserve exact anchor name: Observatory / Astronomy Civic Hall.",
+      "Preserve exact anchor name: Star Navigation Monument.",
+      "Preserve exact anchor name: Celestial Court Nook."
     ],
-    "provisionalCanon": [
-      "Aes Sidhal's highest civic virtue is discernment: the ability to read masks, thresholds, contracts, invitations, veils, and warnings correctly.",
-      "Border permissions, charms, and oath rites may have literal magical force, especially around the High Court and Beacon.",
-      "Theater guilds likely hold real civic influence because sanctioned revelry is one of the city's pressure-release systems."
-    ],
+    "provisionalCanon": [],
     "rejectedReads": [
-      "Aes Sidhal is just a chaotic satyr revel city.",
-      "Aes Sidhal is primarily a forest or nature city.",
-      "The city's blue lamps are only decorative lighting.",
-      "The theater district is optional flavor rather than central civic infrastructure.",
-      "Fae ambiguity should make the city politically unserious."
+      "Do not treat Aes Sidhal as a generic fantasy settlement with renamed landmarks.",
+      "Do not collapse the five-section board into a single mood or single district.",
+      "Do not replace exact anchor names with generic summaries.",
+      "Do not invent missing street-section landmarks when a street source is absent."
     ],
     "cautionFlags": [
-      "Do not reduce satyr identity to drunken comic relief.",
-      "Keep border defense, legal ceremony, and ward control visible beside performance culture.",
-      "Differentiate Aes Sidhal from Luminthalas by making its magic threshold-based, ritual, masked, and socially conditional rather than purely scholarly or celestial.",
-      "Differentiate Aes Sidhal from Nox Vaelor by making concealment public, ceremonial, and permission-based rather than shadow-aristocratic.",
-      "Use beauty as binding social language, not as empty ornament."
+      "Keep every named Wonder, Beacon, Seat, section civic hall, major landmark, monument, and minor nook exact when present in sidecars.",
+      "If an image appears to deviate from a sidecar, preserve the exact name but avoid overclaiming visual details not supported by the source package.",
+      "Every district asset should remain usable for narrative scenes, tactical board dioramas, and city map backgrounds."
     ]
   },
   "environment": {
     "terrain": [
-      "cliffside city",
-      "terraced slope",
-      "civic terraces",
-      "ridge roads",
-      "steep stair networks",
-      "high balconies and overlooks",
-      "guarded approach ledges"
+      "Cliffside",
+      "Terraced Slope",
+      "Civic Terraces"
     ],
     "water": [
-      "dry city ground",
-      "no dominant canal or harbor system",
-      "cisterns or small ritual basins as secondary civic features",
-      "blue magical light standing in for visible water identity"
+      "dry city ground"
     ],
     "vegetation": [
-      "cedar balconies and beams",
-      "woven vine screens",
-      "terrace greenery",
-      "cliff shrubs",
-      "formal grove plantings around the theater wonder",
-      "small courtyard trees",
-      "hanging vines near arches and courts"
+      "courtyard trees",
+      "balcony planters",
+      "public greenery where visible",
+      "source-backed local vegetation only"
     ],
     "climateLighting": [
-      "golden cliffside dusk",
-      "bright exposed daylight on pale stone",
-      "blue civic ward glow",
-      "lantern-lit theater courts",
-      "moonlit observatory platforms",
-      "wind moving banners and charms",
-      "mist haloing blue crystal lights"
+      "Ward Networks",
+      "Ritual Geometry",
+      "Dream Binding",
+      "daylight",
+      "golden hour",
+      "lantern light",
+      "civic beacon glow"
     ],
-    "environmentalLogic": "The cliff is both wall and stage. Elevation controls access, creates natural surveillance, turns streets into processional routes, and lets law, theater, defense, and astronomy occupy stacked public tiers. A visitor constantly ascends, passes under arches, and becomes visible before being admitted."
+    "environmentalLogic": "The environment should make Aes Sidhal's exact civic anchors plausible at street scale: terrain routes people toward section landmarks, lighting clarifies public authority, and water or landscape features remain source-backed rather than decorative filler."
   },
   "architecture": {
     "materials": [
-      "moonstone",
-      "granite",
-      "white limestone civic blocks",
-      "obsidian fortress stone",
-      "cedar",
-      "woven vine",
-      "gold leaf",
-      "bronze and brass fittings",
-      "blue crystal glass",
-      "ritual cloth",
-      "red theater awnings",
-      "carved stone masks and horns"
+      "Moonstone",
+      "Granite",
+      "Cedar",
+      "Woven Vine",
+      "Gold Leaf"
     ],
     "forms": [
-      "cliffside terraces",
-      "border walls",
-      "gatehouses",
-      "watch bastions",
-      "veiled high courts",
-      "arched civic halls",
-      "gothic spires",
-      "alchemy towers",
-      "containment courts",
-      "assembly amphitheaters",
-      "opera courts",
-      "mask pavilions",
-      "observatory towers",
-      "moon gate arches",
-      "hanging charms",
-      "ritual platforms",
-      "circular grove-theater structures"
+      "Hanging Charms Veiled High Court",
+      "Border Wall Beacon",
+      "Satyr Revelstone Grove Theater",
+      "Star Observatory",
+      "Alchemy Lab",
+      "Opera Court",
+      "Fortress / Border Wall Civic Hall",
+      "Woven Banners Monument",
+      "Watch Bastion Nook",
+      "Arcane / Alchemical Labs Civic Hall",
+      "Blue-Lamp Monument",
+      "Formula Archive Nook",
+      "Legislative Quarter Hall",
+      "Assembly Hall",
+      "Legislative Quarter Gold-Seal Monument",
+      "Charter Arcade Nook",
+      "Entertainment / Theater Civic Hall",
+      "Entertainment Theater Lantern Monument",
+      "Mask Pavilion Nook",
+      "Observatory / Astronomy Civic Hall",
+      "Star Navigation Monument",
+      "Celestial Court Nook",
+      "section civic halls",
+      "major landmark approaches",
+      "monument frontages",
+      "minor landmark nooks",
+      "district roads and plazas",
+      "D13 authority complex"
     ],
     "skyline": [
-      "terraced cliff city rising through stacked civic layers",
-      "Border Wall Beacon as a blue crystal vertical signal in the fortified approach",
-      "Hanging Charms Veiled High Court as central civic authority massed above terraces",
-      "Satyr Revelstone Grove Theater as a separate wonder-scale circular theater-grove on the skyline",
-      "observatory towers, alchemical spires, pale law halls, and horned rooflines punctuating the ridgeline"
+      "Satyr Revelstone Grove Theater",
+      "Hanging Charms Veiled High Court",
+      "Border Wall Beacon",
+      "Star Observatory",
+      "Alchemy Lab",
+      "Opera Court",
+      "Fortress / Border Wall Civic Hall",
+      "Woven Banners Monument",
+      "Watch Bastion Nook"
     ],
     "lighting": [
-      "civic blue ward glow",
-      "blue crystal lamps in streets, towers, and plazas",
-      "warm gold dusk across pale stone and gold leaf",
-      "lantern-lit red theater courts",
-      "alchemy light inside glass vessels and towers",
-      "moonlight around star instruments and moon gates"
+      "Ward Networks",
+      "Ritual Geometry",
+      "Dream Binding",
+      "beacon-state light",
+      "lantern-lit civic paths",
+      "street-level shop and housing light"
     ],
     "infrastructure": [
-      "stepped cliff roads",
-      "guarded border approaches",
-      "watch posts",
-      "gate plazas",
-      "terraced civic plazas",
-      "market stairs",
-      "ritual court paths",
-      "balcony routes",
-      "ward networks",
-      "sealed archives",
-      "containment courtyards",
-      "public approaches to theater, court, beacon, and observatory districts"
+      "Fortress / Border Wall Civic Hall",
+      "Arcane / Alchemical Labs Civic Hall",
+      "Legislative Quarter Hall",
+      "Entertainment / Theater Civic Hall",
+      "Observatory / Astronomy Civic Hall",
+      "roads between district slots",
+      "public thresholds",
+      "plaza edges",
+      "records, permits, markets, services, or rituals implied by anchors"
     ],
     "motifs": [
-      "horns",
-      "masks",
-      "woven banners",
-      "hanging charms",
-      "blue lamps",
-      "blue crystal lattices",
-      "serpent geometry",
-      "moon gates",
-      "star navigation",
-      "cedar and vine ornament",
-      "gold seals",
-      "ritual circles",
-      "veils",
-      "stage curtains and theater lanterns"
+      "Hanging",
+      "Charms",
+      "Veiled",
+      "High",
+      "Court",
+      "Border",
+      "Wall",
+      "Beacon",
+      "Satyr",
+      "Revelstone",
+      "Grove",
+      "Theater",
+      "Star",
+      "Observatory",
+      "Alchemy",
+      "Opera"
     ],
     "colorLanguage": [
-      "pale moonstone and white limestone",
-      "dark obsidian defensive stone",
-      "deep civic blue light",
-      "gold leaf accents",
-      "warm cedar brown",
-      "green vine and terrace growth",
-      "red awnings and performance banners",
-      "silver moonlit stone"
+      "source-backed material colors",
+      "civic blue signal accents",
+      "local textile, stone, metal, vegetation, or water colors from the image package"
     ],
     "textureLanguage": [
-      "carved cliff stone",
-      "polished court floors",
-      "rough fortress blocks",
-      "woven fabric and vinework",
-      "smooth blue crystal glass",
-      "aged cedar railings",
-      "wind-worn banners",
-      "metal fittings darkened by ritual use",
-      "crowded market steps and worn stair edges"
+      "Moonstone",
+      "Granite",
+      "Cedar",
+      "Woven Vine",
+      "Gold Leaf",
+      "worn pedestrian surfaces",
+      "worked civic ornament",
+      "weathered public thresholds",
+      "lived-in shop and housing details"
     ]
   },
   "civilization": {
-    "people": "Citizens are satyrs and horned fae: expressive, posture-aware, etiquette-heavy, clever, musical, and accustomed to public performance, but also deeply trained in gates, permissions, rituals, veils, and social consequences.",
+    "people": "The population should read as Satyr / horned fae and city-specific: citizens occupy streets, shops, public thresholds, and landmark approaches as people who understand the local civic order.",
     "occupations": [
-      "border guards",
-      "gate clerks",
-      "watch bastion crews",
-      "charm weavers",
-      "ward inspectors",
-      "alchemy technicians",
-      "formula archive copyists",
-      "legislators",
-      "court petitioners",
-      "mask makers",
-      "performers",
-      "theater guild stewards",
-      "wine sellers",
-      "banner weavers",
-      "cedar carvers",
-      "gold-seal engravers",
-      "star navigators",
-      "observatory attendants"
+      "watch guards",
+      "gate officers",
+      "astronomers",
+      "navigators",
+      "archivists",
+      "record clerks",
+      "district clerks",
+      "craft families",
+      "porters",
+      "maintenance workers",
+      "food sellers",
+      "messengers"
     ],
     "socialClasses": [
-      "veiled court officials and archive keepers",
-      "border officers and beacon wardens",
-      "theater patrons, guild masters, and sanctioned performers",
-      "alchemical specialists and formula custodians",
-      "legislative families and charter clerks",
-      "observatory scholars and moon-gate attendants",
-      "market craftspeople, stair vendors, guards, messengers, and service-route workers"
+      "D13 officials and court staff",
+      "section landmark custodians",
+      "guild and service families",
+      "shopkeepers and artisans",
+      "laborers, carriers, messengers, and maintenance crews",
+      "households tied to local district obligations"
     ],
-    "governance": "Authority is veiled-ceremonial. The High Court controls permissions, oaths, archives, public hearings, and symbolic legitimacy; the Beacon and border walls translate crisis into access rules the whole city understands.",
-    "religion": "Religious expression is ritualized and threshold-oriented rather than dominated by a single temple form. Oaths, charms, veils, masks, moon gates, performance rites, and ward geometry make the sacred visible in civic movement.",
+    "governance": "Government is centered on Hanging Charms Veiled High Court. Its authority should be visible through courts, records, public access routes, civic lamps, guards or attendants, and the way citizens respond to D13.",
+    "religion": "Religious or ritual life should only be emphasized where source anchors support it, especially names such as none explicitly dominant in the current anchors.",
     "customs": [
-      "entrances require etiquette, permission, or ritual acknowledgement",
-      "masks can mark role, festival status, negotiation, or legal performance",
-      "revels are scheduled, bounded, and socially meaningful",
-      "hanging charms announce protection, warning, mourning, hospitality, or restricted access",
-      "blue lamps are read as civic status indicators as well as magical devices",
-      "public speech often happens from steps, balconies, courts, or stage thresholds",
-      "border ceremonies turn arrival into a watched social act"
+      "citizens orient public life around Fortress / Border Wall Civic Hall in Section 1",
+      "citizens orient public life around Arcane / Alchemical Labs Civic Hall in Section 2",
+      "citizens orient public life around Legislative Quarter Hall in Section 3",
+      "citizens orient public life around Entertainment / Theater Civic Hall in Section 4",
+      "citizens orient public life around Observatory / Astronomy Civic Hall in Section 5",
+      "beacon changes become public behavior, not background color",
+      "exact landmark names carry social memory and directions",
+      "civic errands happen visibly at thresholds, queues, ledgers, stalls, courts, or shrines"
     ],
     "bodyLanguage": [
-      "horn angle, mask position, and hand gestures carry social cues",
-      "citizens pause at thresholds and lamps before crossing",
-      "performers use expansive movement while officials use still, controlled posture",
-      "guards watch from above and position crowds into gate funnels",
-      "alchemists and ward workers avoid touching marked lines casually",
-      "observatory scholars favor quiet upward attention and measured gestures"
+      "citizens pause at civic signals",
+      "workers move with practiced familiarity around district anchors",
+      "officials use thresholds and raised places to control attention",
+      "residents treat named landmarks as everyday orientation points"
     ],
     "speechPatterns": [
-      "polite but conditional invitations",
-      "formal permission language around gates, courts, and archives",
-      "witty performance-inflected bargaining",
-      "oath-heavy legal phrasing",
-      "ritual warnings phrased as courtesies",
-      "poetic astronomical references in scholarly districts"
+      "directions use exact landmark names",
+      "public notices are tied to section anchors",
+      "local speech distinguishes civic authority, ordinary errands, and landmark obligations",
+      "people refer to D13 as the seat of power rather than a faction headquarters"
     ]
   },
   "urbanLife": {
     "streets": {
-      "appearance": "Terraced streets climb past pale stone walls, blue lamps, cedar balconies, vine screens, charm strings, mask stalls, guard posts, and open landings where theater crowds, court petitioners, alchemists, and gate traffic cross paths.",
-      "movement": "Movement is vertical and controlled: stairs, terraces, gate passages, cliff roads, balcony routes, bridge-like landings, and monitored approaches. Crowds collect at gates, theater steps, court arcades, and observatory platforms rather than in flat avenues.",
+      "appearance": "Streets should show Aes Sidhal's exact anchor system at pedestrian scale: S1 Fortress / Border Wall Civic Hall, S2 Arcane / Alchemical Labs Civic Hall, S3 Legislative Quarter Hall, S4 Entertainment / Theater Civic Hall, S5 Observatory / Astronomy Civic Hall. Keep roads, plazas, stairs, thresholds, lamps, signs-without-readable-text, props, and civilians aligned to the source-backed materials and landmarks.",
+      "movement": "Movement should be readable for tactical-board assets: citizens pass between 25 district slots, section anchors, D13, service streets, and landmark approaches without visual clutter hiding the civic purpose.",
       "sounds": [
-        "hoofsteps on stone stairs",
-        "bells and chimes from hanging charms",
-        "market calls rising between terraces",
-        "distant theater music",
-        "guards calling gate permissions",
-        "blue-glass alchemy hums",
-        "banners snapping in cliff wind",
-        "crowd applause from Opera Court",
-        "soft ritual chanting",
-        "night wind through observatory arches"
+        "foot traffic",
+        "vendors and service calls",
+        "tools and carts",
+        "public notices",
+        "landmark-specific sounds from water, bells, animals, machines, or crowds when source-backed",
+        "beacon-state crowd reactions"
       ],
       "smells": [
-        "cedar smoke",
-        "wine",
-        "warm stone at sunset",
-        "metallic alchemical vapors",
-        "festival food",
-        "incense",
-        "mountain air",
-        "polished wood",
-        "oil lamps",
-        "vine and leaf greenery on terraces"
+        "street food",
+        "worked material dust",
+        "lamp oil or smoke",
+        "vegetation or water where source-backed",
+        "worn stone, timber, metal, plaster, or fabric"
       ],
-      "lighting": "Daylight exposes pale stone and gold leaf; evening turns the city theatrical with lanterns, red awnings, blue ward lamps, theater glow, and moonlit observatory glass.",
-      "weatherEffects": "Cliff wind moves banners and charms, makes blue lights halo in mist, clears sound across terraces, and turns high balconies and gate funnels into obvious social and tactical features.",
-      "dayCycle": "Mornings open with gate checks, lamp inspections, stair markets, alchemical preparations, and court petitions; afternoons belong to assembly traffic, market bargaining, and theater preparation.",
-      "nightCycle": "Evenings gather around Opera Court, mask pavilions, blue-lit terraces, wine stalls, and observatory work; the city becomes more beautiful and more watched after dark."
+      "lighting": "Use the package's source-backed civic lighting, daylight/golden-hour reads, lanterns, and beacon glow. Lighting must help identify authority, safety, and landmark function.",
+      "weatherEffects": "Weather should reinforce the local terrain and materials without overwhelming the city identity or inventing unsupported climate extremes.",
+      "dayCycle": "Day scenes emphasize errands, trade, records, repairs, rituals, food, and section-level movement.",
+      "nightCycle": "Night scenes emphasize lantern routes, closed thresholds, guarded landmarks, quiet work, and beacon visibility."
     },
     "shops": {
       "common": [
-        "mask makers",
-        "charm weavers",
-        "festival cloth stalls",
-        "wine sellers",
-        "cedar carvers",
-        "banner makers",
-        "lamp oil sellers",
-        "street food terraces"
+        "food stalls",
+        "repair stalls",
+        "material vendors",
+        "ledger or permit desks",
+        "local craft counters",
+        "street services tied to section anchors"
       ],
       "uncommon": [
-        "alchemy-glass shops",
-        "formula archive copyists",
-        "ritual geometry engravers",
-        "border document offices",
-        "moon-dial vendors",
-        "glass scrying counters"
+        "specialist landmark caretakers",
+        "instrument makers",
+        "ritual suppliers",
+        "map or record copyists",
+        "district-specific guild services"
       ],
       "prestigious": [
-        "court seal ateliers",
-        "high mask houses",
-        "licensed charm regulators",
-        "theater patron salons",
-        "observatory instrument makers",
-        "gold-leaf restoration workshops"
+        "D13-facing legal or registry services",
+        "elite craft workshops",
+        "landmark commission houses",
+        "official suppliers for civic ceremonies"
       ],
       "exports": [
-        "charms",
-        "masks",
-        "ritual banners",
-        "blue lampwork",
-        "alchemical glass",
-        "star charts",
-        "cedar carvings",
-        "festival instruments"
+        "local crafts",
+        "records or seals",
+        "finished materials",
+        "food goods",
+        "specialized tools or ritual goods as supported by anchors"
       ],
       "imports": [
-        "rare pigments",
-        "metals for lamps and seals",
-        "fine cloth",
-        "alchemical reagents",
-        "wine spices",
-        "observatory lenses"
+        "rare materials",
+        "dyes, oils, spices, timber, stone, metal, glass, or cloth as needed by the architecture",
+        "outside records and trade goods"
       ],
       "streetFood": [
-        "spiced wine",
-        "roasted nuts",
-        "festival breads",
-        "goat cheese pastries",
-        "herbed mountain stews",
-        "honey cakes",
-        "skewered vegetables",
-        "cedar-smoked meats",
-        "fruit preserves",
-        "theater cups served during gatherings"
+        "flatbread or local bread",
+        "stew or grilled skewers",
+        "fruit or preserved food",
+        "tea or civic-square drinks",
+        "portable worker meals"
       ],
       "services": [
-        "gate permissions",
-        "charm blessing or inspection",
-        "ward-lamp maintenance",
-        "mask rental",
-        "court petition copying",
-        "alchemy licensing",
-        "performance booking",
-        "star reading"
+        "directions by landmark",
+        "message running",
+        "permit help",
+        "repairs",
+        "food service",
+        "transport or porterage",
+        "public notice posting"
       ]
     },
     "housing": {
-      "wealthy": "Court-adjacent terrace houses with cedar balconies, private charm strings, blue lamps, gold trim, upper views toward the theater and High Court, and service doors hidden behind ceremonial facades.",
-      "middle": "Stacked cliff homes above shops, shared stair courts, vine screens, woven shutters, small mask niches, balcony gardens, and neighbors watching public landings from above.",
-      "poor": "Narrow stair rooms, service-route dwellings, patched awnings, shared lamps, workshop lofts, and cramped but socially connected terrace housing near markets and backstage routes."
+      "wealthy": "Prestige housing clusters near Hanging Charms Veiled High Court, high terraces, or landmark-facing routes, using the best source-backed materials and controlled views of civic space.",
+      "middle": "Shop-over-house units, courtyard homes, guild-adjacent apartments, and family rooms near section anchors.",
+      "poor": "Smaller back-street rooms, work-adjacent housing, shared courtyards, service alleys, patched materials, and dense but still city-specific lived-in detail."
     }
   },
   "districts": [
     {
+      "districtNumber": 1,
+      "districtId": "D01",
       "sectionNumber": 1,
-      "name": "Fortress / Border Wall",
-      "civicPurpose": "Controlled entry, city defense, border rituals, warning signals, access permissions, and crowd funneling before visitors reach the inner terraces.",
-      "visualIdentity": "Obsidian and pale-stone gatehouses, cyclopean wall blocks, watch bastions, woven banners, carved totems, blue ward lamps, cliff stairs, and the Border Wall Beacon rising as the public signal.",
-      "emotionalIdentity": "Guarded, formal, impressive, and liminal.",
+      "name": "D01 — Fortress / Border Wall Civic Hall Civic-Anchor Precinct",
+      "civicPurpose": "This district turns Section 1's source-backed anchor set into a board-scale civic space: Fortress / Border Wall Civic Hall, Border Wall Beacon, Woven Banners Monument, Watch Bastion Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Aes Sidhal.",
+      "visualIdentity": "Use Fortress / Border Wall Civic Hall as the main read. Keep exact source anchors visible where applicable: Fortress / Border Wall Civic Hall, Border Wall Beacon, Woven Banners Monument, Watch Bastion Nook. The district should share Aes Sidhal's Satyr / horned fae identity, Moonstone, Granite, Cedar, Woven Vine, and Cliffside, Terraced Slope, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Locally grounded, with Aes Sidhal's larger mood shaped by Satyr Revelstone Grove Theater, Border Wall Beacon, and Hanging Charms Veiled High Court.",
       "gameplayAssetNeeds": [
-        "Border Wall Beacon",
         "Fortress / Border Wall Civic Hall",
+        "Border Wall Beacon",
         "Woven Banners Monument",
         "Watch Bastion Nook",
-        "gatehouses and wall walks",
-        "guard posts and blue ward nodes",
-        "satyr / horned-fae guards managing entry"
+        "Section 1 pedestrian-scale props",
+        "Aes Sidhal civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
       ],
       "narrativeUse": [
-        "arrival under scrutiny",
-        "beacon color changes interpreted as access rules",
-        "guard negotiations",
-        "border panic or lockdown",
-        "threshold symbolism made physical",
-        "public warning scenes"
+        "scenes centered on Fortress / Border Wall Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
       ],
-      "landmark": "Border Wall Beacon",
+      "landmark": "Fortress / Border Wall Civic Hall",
       "minorLandmarks": [
+        "Border Wall Beacon",
         "Woven Banners Monument",
         "Watch Bastion Nook"
       ]
     },
     {
-      "sectionNumber": 2,
-      "name": "Arcane / Alchemical Labs",
-      "civicPurpose": "Controlled magical work, alchemical production, formula custody, ward maintenance, practical enchantment, and regulated experimentation.",
-      "visualIdentity": "Blue-lit alchemy towers, containment courts, forge-like halls, archive towers, serpent geometry, glass vessels, formula rooms, and warning lamps embedded into cliffside civic stone.",
-      "emotionalIdentity": "Dangerous, disciplined, luminous, and secretive without being lawless.",
+      "districtNumber": 2,
+      "districtId": "D02",
+      "sectionNumber": 1,
+      "name": "D02 — Border Wall Beacon Landmark Approach",
+      "civicPurpose": "This district turns Section 1's source-backed anchor set into a board-scale civic space: Fortress / Border Wall Civic Hall, Border Wall Beacon, Woven Banners Monument, Watch Bastion Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Aes Sidhal.",
+      "visualIdentity": "Use Border Wall Beacon as the main read. Keep exact source anchors visible where applicable: Fortress / Border Wall Civic Hall, Border Wall Beacon, Woven Banners Monument, Watch Bastion Nook. The district should share Aes Sidhal's Satyr / horned fae identity, Moonstone, Granite, Cedar, Woven Vine, and Cliffside, Terraced Slope, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Public-facing, with Aes Sidhal's larger mood shaped by Satyr Revelstone Grove Theater, Border Wall Beacon, and Hanging Charms Veiled High Court.",
       "gameplayAssetNeeds": [
-        "Alchemy Lab",
-        "Arcane / Alchemical Labs Civic Hall",
-        "Blue-Lamp Monument",
-        "Formula Archive Nook",
-        "distillation towers",
-        "containment wards",
-        "blue crystal glass apparatus",
-        "licensed alchemists and ward inspectors"
+        "Border Wall Beacon",
+        "Fortress / Border Wall Civic Hall",
+        "Woven Banners Monument",
+        "Watch Bastion Nook",
+        "Section 1 pedestrian-scale props",
+        "Aes Sidhal civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
       ],
       "narrativeUse": [
-        "controlled magical danger",
-        "evidence hidden in formulas",
-        "ward failure or sabotage",
-        "licensed enchantment politics",
-        "blue-light civic systems explained through action"
+        "scenes centered on Border Wall Beacon",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "Conjunction response, rumor spread, or authority pressure"
       ],
-      "landmark": "Alchemy Lab",
+      "landmark": "Border Wall Beacon",
       "minorLandmarks": [
+        "Fortress / Border Wall Civic Hall",
+        "Woven Banners Monument",
+        "Watch Bastion Nook"
+      ]
+    },
+    {
+      "districtNumber": 3,
+      "districtId": "D03",
+      "sectionNumber": 1,
+      "name": "D03 — Woven Banners Monument Monument Frontage",
+      "civicPurpose": "This district turns Section 1's source-backed anchor set into a board-scale civic space: Fortress / Border Wall Civic Hall, Border Wall Beacon, Woven Banners Monument, Watch Bastion Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Aes Sidhal.",
+      "visualIdentity": "Use Woven Banners Monument as the main read. Keep exact source anchors visible where applicable: Fortress / Border Wall Civic Hall, Border Wall Beacon, Woven Banners Monument, Watch Bastion Nook. The district should share Aes Sidhal's Satyr / horned fae identity, Moonstone, Granite, Cedar, Woven Vine, and Cliffside, Terraced Slope, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Memorial or symbolic, with Aes Sidhal's larger mood shaped by Satyr Revelstone Grove Theater, Border Wall Beacon, and Hanging Charms Veiled High Court.",
+      "gameplayAssetNeeds": [
+        "Woven Banners Monument",
+        "Fortress / Border Wall Civic Hall",
+        "Border Wall Beacon",
+        "Watch Bastion Nook",
+        "Section 1 pedestrian-scale props",
+        "Aes Sidhal civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Woven Banners Monument",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Woven Banners Monument",
+      "minorLandmarks": [
+        "Fortress / Border Wall Civic Hall",
+        "Border Wall Beacon",
+        "Watch Bastion Nook"
+      ]
+    },
+    {
+      "districtNumber": 6,
+      "districtId": "D06",
+      "sectionNumber": 1,
+      "name": "D06 — Watch Bastion Nook Neighborhood Nook",
+      "civicPurpose": "This district turns Section 1's source-backed anchor set into a board-scale civic space: Fortress / Border Wall Civic Hall, Border Wall Beacon, Woven Banners Monument, Watch Bastion Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Aes Sidhal.",
+      "visualIdentity": "Use Watch Bastion Nook as the main read. Keep exact source anchors visible where applicable: Fortress / Border Wall Civic Hall, Border Wall Beacon, Woven Banners Monument, Watch Bastion Nook. The district should share Aes Sidhal's Satyr / horned fae identity, Moonstone, Granite, Cedar, Woven Vine, and Cliffside, Terraced Slope, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Intimate and lived-in, with Aes Sidhal's larger mood shaped by Satyr Revelstone Grove Theater, Border Wall Beacon, and Hanging Charms Veiled High Court.",
+      "gameplayAssetNeeds": [
+        "Watch Bastion Nook",
+        "Fortress / Border Wall Civic Hall",
+        "Border Wall Beacon",
+        "Woven Banners Monument",
+        "Section 1 pedestrian-scale props",
+        "Aes Sidhal civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Watch Bastion Nook",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Watch Bastion Nook",
+      "minorLandmarks": [
+        "Fortress / Border Wall Civic Hall",
+        "Border Wall Beacon",
+        "Woven Banners Monument"
+      ]
+    },
+    {
+      "districtNumber": 7,
+      "districtId": "D07",
+      "sectionNumber": 1,
+      "name": "D07 — Fortress / Border Wall Civic Hall Supporting Streets",
+      "civicPurpose": "This district turns Section 1's source-backed anchor set into a board-scale civic space: Fortress / Border Wall Civic Hall, Border Wall Beacon, Woven Banners Monument, Watch Bastion Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Aes Sidhal.",
+      "visualIdentity": "Use Fortress / Border Wall Civic Hall as the main read. Keep exact source anchors visible where applicable: Fortress / Border Wall Civic Hall, Border Wall Beacon, Woven Banners Monument, Watch Bastion Nook. The district should share Aes Sidhal's Satyr / horned fae identity, Moonstone, Granite, Cedar, Woven Vine, and Cliffside, Terraced Slope, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Connective and practical, with Aes Sidhal's larger mood shaped by Satyr Revelstone Grove Theater, Border Wall Beacon, and Hanging Charms Veiled High Court.",
+      "gameplayAssetNeeds": [
+        "Fortress / Border Wall Civic Hall",
+        "Border Wall Beacon",
+        "Woven Banners Monument",
+        "Watch Bastion Nook",
+        "Section 1 pedestrian-scale props",
+        "Aes Sidhal civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Fortress / Border Wall Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Fortress / Border Wall Civic Hall",
+      "minorLandmarks": [
+        "Border Wall Beacon",
+        "Woven Banners Monument",
+        "Watch Bastion Nook"
+      ]
+    },
+    {
+      "districtNumber": 4,
+      "districtId": "D04",
+      "sectionNumber": 2,
+      "name": "D04 — Arcane / Alchemical Labs Civic Hall Civic-Anchor Precinct",
+      "civicPurpose": "This district turns Section 2's source-backed anchor set into a board-scale civic space: Arcane / Alchemical Labs Civic Hall, Alchemy Lab, Blue-Lamp Monument, Formula Archive Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Aes Sidhal.",
+      "visualIdentity": "Use Arcane / Alchemical Labs Civic Hall as the main read. Keep exact source anchors visible where applicable: Arcane / Alchemical Labs Civic Hall, Alchemy Lab, Blue-Lamp Monument, Formula Archive Nook. The district should share Aes Sidhal's Satyr / horned fae identity, Moonstone, Granite, Cedar, Woven Vine, and Cliffside, Terraced Slope, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Locally grounded, with Aes Sidhal's larger mood shaped by Satyr Revelstone Grove Theater, Border Wall Beacon, and Hanging Charms Veiled High Court.",
+      "gameplayAssetNeeds": [
+        "Arcane / Alchemical Labs Civic Hall",
+        "Alchemy Lab",
+        "Blue-Lamp Monument",
+        "Formula Archive Nook",
+        "Section 2 pedestrian-scale props",
+        "Aes Sidhal civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Arcane / Alchemical Labs Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Arcane / Alchemical Labs Civic Hall",
+      "minorLandmarks": [
+        "Alchemy Lab",
         "Blue-Lamp Monument",
         "Formula Archive Nook"
       ]
     },
     {
-      "sectionNumber": 3,
-      "name": "Legislative Quarter",
-      "civicPurpose": "Law, charters, public deliberation, petitions, official seals, quorum rituals, and civic legitimacy performed before witnesses.",
-      "visualIdentity": "White civic blocks, gothic spires, lecture courts, assembly amphitheaters, gold seals, speaking platforms, charter arcades, and blue lamps marking legal thresholds.",
-      "emotionalIdentity": "Formal, ceremonial, argumentative, and controlled.",
+      "districtNumber": 5,
+      "districtId": "D05",
+      "sectionNumber": 2,
+      "name": "D05 — Alchemy Lab Landmark Approach",
+      "civicPurpose": "This district turns Section 2's source-backed anchor set into a board-scale civic space: Arcane / Alchemical Labs Civic Hall, Alchemy Lab, Blue-Lamp Monument, Formula Archive Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Aes Sidhal.",
+      "visualIdentity": "Use Alchemy Lab as the main read. Keep exact source anchors visible where applicable: Arcane / Alchemical Labs Civic Hall, Alchemy Lab, Blue-Lamp Monument, Formula Archive Nook. The district should share Aes Sidhal's Satyr / horned fae identity, Moonstone, Granite, Cedar, Woven Vine, and Cliffside, Terraced Slope, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Public-facing, with Aes Sidhal's larger mood shaped by Satyr Revelstone Grove Theater, Border Wall Beacon, and Hanging Charms Veiled High Court.",
       "gameplayAssetNeeds": [
-        "Assembly Hall",
-        "Legislative Quarter Hall",
-        "Legislative Quarter Gold-Seal Monument",
-        "Charter Arcade Nook",
-        "law tablets and public notices",
-        "quorum bells",
-        "speaking staffs",
-        "petition crowds"
+        "Alchemy Lab",
+        "Arcane / Alchemical Labs Civic Hall",
+        "Blue-Lamp Monument",
+        "Formula Archive Nook",
+        "Section 2 pedestrian-scale props",
+        "Aes Sidhal civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
       ],
       "narrativeUse": [
-        "public rulings",
-        "oath disputes",
-        "charter evidence",
-        "political theater",
-        "legal ritual under social pressure",
-        "formal opposition scenes"
+        "scenes centered on Alchemy Lab",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
       ],
-      "landmark": "Assembly Hall",
+      "landmark": "Alchemy Lab",
       "minorLandmarks": [
+        "Arcane / Alchemical Labs Civic Hall",
+        "Blue-Lamp Monument",
+        "Formula Archive Nook"
+      ]
+    },
+    {
+      "districtNumber": 9,
+      "districtId": "D09",
+      "sectionNumber": 2,
+      "name": "D09 — Blue-Lamp Monument Monument Frontage",
+      "civicPurpose": "This district turns Section 2's source-backed anchor set into a board-scale civic space: Arcane / Alchemical Labs Civic Hall, Alchemy Lab, Blue-Lamp Monument, Formula Archive Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Aes Sidhal.",
+      "visualIdentity": "Use Blue-Lamp Monument as the main read. Keep exact source anchors visible where applicable: Arcane / Alchemical Labs Civic Hall, Alchemy Lab, Blue-Lamp Monument, Formula Archive Nook. The district should share Aes Sidhal's Satyr / horned fae identity, Moonstone, Granite, Cedar, Woven Vine, and Cliffside, Terraced Slope, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Memorial or symbolic, with Aes Sidhal's larger mood shaped by Satyr Revelstone Grove Theater, Border Wall Beacon, and Hanging Charms Veiled High Court.",
+      "gameplayAssetNeeds": [
+        "Blue-Lamp Monument",
+        "Arcane / Alchemical Labs Civic Hall",
+        "Alchemy Lab",
+        "Formula Archive Nook",
+        "Section 2 pedestrian-scale props",
+        "Aes Sidhal civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Blue-Lamp Monument",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Blue-Lamp Monument",
+      "minorLandmarks": [
+        "Arcane / Alchemical Labs Civic Hall",
+        "Alchemy Lab",
+        "Formula Archive Nook"
+      ]
+    },
+    {
+      "districtNumber": 10,
+      "districtId": "D10",
+      "sectionNumber": 2,
+      "name": "D10 — Formula Archive Nook Neighborhood Nook",
+      "civicPurpose": "This district turns Section 2's source-backed anchor set into a board-scale civic space: Arcane / Alchemical Labs Civic Hall, Alchemy Lab, Blue-Lamp Monument, Formula Archive Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Aes Sidhal.",
+      "visualIdentity": "Use Formula Archive Nook as the main read. Keep exact source anchors visible where applicable: Arcane / Alchemical Labs Civic Hall, Alchemy Lab, Blue-Lamp Monument, Formula Archive Nook. The district should share Aes Sidhal's Satyr / horned fae identity, Moonstone, Granite, Cedar, Woven Vine, and Cliffside, Terraced Slope, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Intimate and lived-in, with Aes Sidhal's larger mood shaped by Satyr Revelstone Grove Theater, Border Wall Beacon, and Hanging Charms Veiled High Court.",
+      "gameplayAssetNeeds": [
+        "Formula Archive Nook",
+        "Arcane / Alchemical Labs Civic Hall",
+        "Alchemy Lab",
+        "Blue-Lamp Monument",
+        "Section 2 pedestrian-scale props",
+        "Aes Sidhal civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Formula Archive Nook",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Formula Archive Nook",
+      "minorLandmarks": [
+        "Arcane / Alchemical Labs Civic Hall",
+        "Alchemy Lab",
+        "Blue-Lamp Monument"
+      ]
+    },
+    {
+      "districtNumber": 15,
+      "districtId": "D15",
+      "sectionNumber": 2,
+      "name": "D15 — Arcane / Alchemical Labs Civic Hall Supporting Streets",
+      "civicPurpose": "This district turns Section 2's source-backed anchor set into a board-scale civic space: Arcane / Alchemical Labs Civic Hall, Alchemy Lab, Blue-Lamp Monument, Formula Archive Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Aes Sidhal.",
+      "visualIdentity": "Use Arcane / Alchemical Labs Civic Hall as the main read. Keep exact source anchors visible where applicable: Arcane / Alchemical Labs Civic Hall, Alchemy Lab, Blue-Lamp Monument, Formula Archive Nook. The district should share Aes Sidhal's Satyr / horned fae identity, Moonstone, Granite, Cedar, Woven Vine, and Cliffside, Terraced Slope, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Connective and practical, with Aes Sidhal's larger mood shaped by Satyr Revelstone Grove Theater, Border Wall Beacon, and Hanging Charms Veiled High Court.",
+      "gameplayAssetNeeds": [
+        "Arcane / Alchemical Labs Civic Hall",
+        "Alchemy Lab",
+        "Blue-Lamp Monument",
+        "Formula Archive Nook",
+        "Section 2 pedestrian-scale props",
+        "Aes Sidhal civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Arcane / Alchemical Labs Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Arcane / Alchemical Labs Civic Hall",
+      "minorLandmarks": [
+        "Alchemy Lab",
+        "Blue-Lamp Monument",
+        "Formula Archive Nook"
+      ]
+    },
+    {
+      "districtNumber": 8,
+      "districtId": "D08",
+      "sectionNumber": 3,
+      "name": "D08 — Legislative Quarter Hall Civic-Anchor Precinct",
+      "civicPurpose": "This district turns Section 3's source-backed anchor set into a board-scale civic space: Legislative Quarter Hall, Assembly Hall, Legislative Quarter Gold-Seal Monument, Charter Arcade Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Aes Sidhal.",
+      "visualIdentity": "Use Legislative Quarter Hall as the main read. Keep exact source anchors visible where applicable: Legislative Quarter Hall, Assembly Hall, Legislative Quarter Gold-Seal Monument, Charter Arcade Nook. The district should share Aes Sidhal's Satyr / horned fae identity, Moonstone, Granite, Cedar, Woven Vine, and Cliffside, Terraced Slope, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Locally grounded, with Aes Sidhal's larger mood shaped by Satyr Revelstone Grove Theater, Border Wall Beacon, and Hanging Charms Veiled High Court.",
+      "gameplayAssetNeeds": [
+        "Legislative Quarter Hall",
+        "Assembly Hall",
+        "Legislative Quarter Gold-Seal Monument",
+        "Charter Arcade Nook",
+        "Section 3 pedestrian-scale props",
+        "Aes Sidhal civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Legislative Quarter Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Legislative Quarter Hall",
+      "minorLandmarks": [
+        "Assembly Hall",
         "Legislative Quarter Gold-Seal Monument",
         "Charter Arcade Nook"
       ]
     },
     {
-      "sectionNumber": 4,
-      "name": "Entertainment / Theater",
-      "civicPurpose": "Sanctioned revelry, public performance, mask culture, festival release, social negotiation, political signaling through theater, and communal memory.",
-      "visualIdentity": "Opera Court steps, red awnings, lantern towers, mask pavilions, market arcades, music terraces, stage portals, crowded balconies, and blue lamps woven into performance architecture.",
-      "emotionalIdentity": "Joyful, seductive, crowded, watchful, and more political than it first appears.",
+      "districtNumber": 12,
+      "districtId": "D12",
+      "sectionNumber": 3,
+      "name": "D12 — Assembly Hall Landmark Approach",
+      "civicPurpose": "This district turns Section 3's source-backed anchor set into a board-scale civic space: Legislative Quarter Hall, Assembly Hall, Legislative Quarter Gold-Seal Monument, Charter Arcade Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Aes Sidhal.",
+      "visualIdentity": "Use Assembly Hall as the main read. Keep exact source anchors visible where applicable: Legislative Quarter Hall, Assembly Hall, Legislative Quarter Gold-Seal Monument, Charter Arcade Nook. The district should share Aes Sidhal's Satyr / horned fae identity, Moonstone, Granite, Cedar, Woven Vine, and Cliffside, Terraced Slope, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Public-facing, with Aes Sidhal's larger mood shaped by Satyr Revelstone Grove Theater, Border Wall Beacon, and Hanging Charms Veiled High Court.",
       "gameplayAssetNeeds": [
-        "Opera Court",
-        "Entertainment / Theater Civic Hall",
-        "Entertainment Theater Lantern Monument",
-        "Mask Pavilion Nook",
-        "red fabric awnings",
-        "stage balconies",
-        "lanterns and musician platforms",
-        "masked performers and theater crowds"
+        "Assembly Hall",
+        "Legislative Quarter Hall",
+        "Legislative Quarter Gold-Seal Monument",
+        "Charter Arcade Nook",
+        "Section 3 pedestrian-scale props",
+        "Aes Sidhal civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
       ],
       "narrativeUse": [
-        "masked meetings",
-        "festival crowd pressure",
-        "politics hidden inside entertainment",
-        "public release after civic tension",
-        "performance as ritual truth-telling",
-        "social disguise and misdirection"
+        "scenes centered on Assembly Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
       ],
-      "landmark": "Opera Court",
+      "landmark": "Assembly Hall",
       "minorLandmarks": [
+        "Legislative Quarter Hall",
+        "Legislative Quarter Gold-Seal Monument",
+        "Charter Arcade Nook"
+      ]
+    },
+    {
+      "districtNumber": 13,
+      "districtId": "D13",
+      "sectionNumber": 3,
+      "name": "D13 — Hanging Charms Veiled High Court Seat of Power District",
+      "civicPurpose": "This district turns Section 3's source-backed anchor set into a board-scale civic space: Legislative Quarter Hall, Assembly Hall, Legislative Quarter Gold-Seal Monument, Charter Arcade Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Aes Sidhal.",
+      "visualIdentity": "Use Hanging Charms Veiled High Court as the main read. Keep exact source anchors visible where applicable: Legislative Quarter Hall, Assembly Hall, Legislative Quarter Gold-Seal Monument, Charter Arcade Nook. The district should share Aes Sidhal's Satyr / horned fae identity, Moonstone, Granite, Cedar, Woven Vine, and Cliffside, Terraced Slope, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Memorial or symbolic, with Aes Sidhal's larger mood shaped by Satyr Revelstone Grove Theater, Border Wall Beacon, and Hanging Charms Veiled High Court.",
+      "gameplayAssetNeeds": [
+        "Hanging Charms Veiled High Court",
+        "Legislative Quarter Hall",
+        "Assembly Hall",
+        "Legislative Quarter Gold-Seal Monument",
+        "Charter Arcade Nook",
+        "Section 3 pedestrian-scale props",
+        "Aes Sidhal civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Hanging Charms Veiled High Court",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "Conjunction response, rumor spread, or authority pressure"
+      ],
+      "landmark": "Hanging Charms Veiled High Court",
+      "minorLandmarks": [
+        "Legislative Quarter Hall",
+        "Assembly Hall",
+        "Legislative Quarter Gold-Seal Monument",
+        "Charter Arcade Nook"
+      ]
+    },
+    {
+      "districtNumber": 14,
+      "districtId": "D14",
+      "sectionNumber": 3,
+      "name": "D14 — Charter Arcade Nook Neighborhood Nook",
+      "civicPurpose": "This district turns Section 3's source-backed anchor set into a board-scale civic space: Legislative Quarter Hall, Assembly Hall, Legislative Quarter Gold-Seal Monument, Charter Arcade Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Aes Sidhal.",
+      "visualIdentity": "Use Charter Arcade Nook as the main read. Keep exact source anchors visible where applicable: Legislative Quarter Hall, Assembly Hall, Legislative Quarter Gold-Seal Monument, Charter Arcade Nook. The district should share Aes Sidhal's Satyr / horned fae identity, Moonstone, Granite, Cedar, Woven Vine, and Cliffside, Terraced Slope, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Intimate and lived-in, with Aes Sidhal's larger mood shaped by Satyr Revelstone Grove Theater, Border Wall Beacon, and Hanging Charms Veiled High Court.",
+      "gameplayAssetNeeds": [
+        "Charter Arcade Nook",
+        "Legislative Quarter Hall",
+        "Assembly Hall",
+        "Legislative Quarter Gold-Seal Monument",
+        "Section 3 pedestrian-scale props",
+        "Aes Sidhal civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Charter Arcade Nook",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Charter Arcade Nook",
+      "minorLandmarks": [
+        "Legislative Quarter Hall",
+        "Assembly Hall",
+        "Legislative Quarter Gold-Seal Monument"
+      ]
+    },
+    {
+      "districtNumber": 18,
+      "districtId": "D18",
+      "sectionNumber": 3,
+      "name": "D18 — Legislative Quarter Hall Supporting Streets",
+      "civicPurpose": "This district turns Section 3's source-backed anchor set into a board-scale civic space: Legislative Quarter Hall, Assembly Hall, Legislative Quarter Gold-Seal Monument, Charter Arcade Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Aes Sidhal.",
+      "visualIdentity": "Use Legislative Quarter Hall as the main read. Keep exact source anchors visible where applicable: Legislative Quarter Hall, Assembly Hall, Legislative Quarter Gold-Seal Monument, Charter Arcade Nook. The district should share Aes Sidhal's Satyr / horned fae identity, Moonstone, Granite, Cedar, Woven Vine, and Cliffside, Terraced Slope, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Connective and practical, with Aes Sidhal's larger mood shaped by Satyr Revelstone Grove Theater, Border Wall Beacon, and Hanging Charms Veiled High Court.",
+      "gameplayAssetNeeds": [
+        "Legislative Quarter Hall",
+        "Assembly Hall",
+        "Legislative Quarter Gold-Seal Monument",
+        "Charter Arcade Nook",
+        "Section 3 pedestrian-scale props",
+        "Aes Sidhal civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Legislative Quarter Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Legislative Quarter Hall",
+      "minorLandmarks": [
+        "Assembly Hall",
+        "Legislative Quarter Gold-Seal Monument",
+        "Charter Arcade Nook"
+      ]
+    },
+    {
+      "districtNumber": 11,
+      "districtId": "D11",
+      "sectionNumber": 4,
+      "name": "D11 — Entertainment / Theater Civic Hall Civic-Anchor Precinct",
+      "civicPurpose": "This district turns Section 4's source-backed anchor set into a board-scale civic space: Entertainment / Theater Civic Hall, Opera Court, Entertainment Theater Lantern Monument, Mask Pavilion Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Aes Sidhal.",
+      "visualIdentity": "Use Entertainment / Theater Civic Hall as the main read. Keep exact source anchors visible where applicable: Entertainment / Theater Civic Hall, Opera Court, Entertainment Theater Lantern Monument, Mask Pavilion Nook. The district should share Aes Sidhal's Satyr / horned fae identity, Moonstone, Granite, Cedar, Woven Vine, and Cliffside, Terraced Slope, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Locally grounded, with Aes Sidhal's larger mood shaped by Satyr Revelstone Grove Theater, Border Wall Beacon, and Hanging Charms Veiled High Court.",
+      "gameplayAssetNeeds": [
+        "Entertainment / Theater Civic Hall",
+        "Opera Court",
+        "Entertainment Theater Lantern Monument",
+        "Mask Pavilion Nook",
+        "Section 4 pedestrian-scale props",
+        "Aes Sidhal civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Entertainment / Theater Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Entertainment / Theater Civic Hall",
+      "minorLandmarks": [
+        "Opera Court",
         "Entertainment Theater Lantern Monument",
         "Mask Pavilion Nook"
       ]
     },
     {
+      "districtNumber": 16,
+      "districtId": "D16",
+      "sectionNumber": 4,
+      "name": "D16 — Opera Court Landmark Approach",
+      "civicPurpose": "This district turns Section 4's source-backed anchor set into a board-scale civic space: Entertainment / Theater Civic Hall, Opera Court, Entertainment Theater Lantern Monument, Mask Pavilion Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Aes Sidhal.",
+      "visualIdentity": "Use Opera Court as the main read. Keep exact source anchors visible where applicable: Entertainment / Theater Civic Hall, Opera Court, Entertainment Theater Lantern Monument, Mask Pavilion Nook. The district should share Aes Sidhal's Satyr / horned fae identity, Moonstone, Granite, Cedar, Woven Vine, and Cliffside, Terraced Slope, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Public-facing, with Aes Sidhal's larger mood shaped by Satyr Revelstone Grove Theater, Border Wall Beacon, and Hanging Charms Veiled High Court.",
+      "gameplayAssetNeeds": [
+        "Opera Court",
+        "Entertainment / Theater Civic Hall",
+        "Entertainment Theater Lantern Monument",
+        "Mask Pavilion Nook",
+        "Section 4 pedestrian-scale props",
+        "Aes Sidhal civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Opera Court",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Opera Court",
+      "minorLandmarks": [
+        "Entertainment / Theater Civic Hall",
+        "Entertainment Theater Lantern Monument",
+        "Mask Pavilion Nook"
+      ]
+    },
+    {
+      "districtNumber": 17,
+      "districtId": "D17",
+      "sectionNumber": 4,
+      "name": "D17 — Entertainment Theater Lantern Monument Monument Frontage",
+      "civicPurpose": "This district turns Section 4's source-backed anchor set into a board-scale civic space: Entertainment / Theater Civic Hall, Opera Court, Entertainment Theater Lantern Monument, Mask Pavilion Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Aes Sidhal.",
+      "visualIdentity": "Use Entertainment Theater Lantern Monument as the main read. Keep exact source anchors visible where applicable: Entertainment / Theater Civic Hall, Opera Court, Entertainment Theater Lantern Monument, Mask Pavilion Nook. The district should share Aes Sidhal's Satyr / horned fae identity, Moonstone, Granite, Cedar, Woven Vine, and Cliffside, Terraced Slope, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Memorial or symbolic, with Aes Sidhal's larger mood shaped by Satyr Revelstone Grove Theater, Border Wall Beacon, and Hanging Charms Veiled High Court.",
+      "gameplayAssetNeeds": [
+        "Entertainment Theater Lantern Monument",
+        "Entertainment / Theater Civic Hall",
+        "Opera Court",
+        "Mask Pavilion Nook",
+        "Section 4 pedestrian-scale props",
+        "Aes Sidhal civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Entertainment Theater Lantern Monument",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Entertainment Theater Lantern Monument",
+      "minorLandmarks": [
+        "Entertainment / Theater Civic Hall",
+        "Opera Court",
+        "Mask Pavilion Nook"
+      ]
+    },
+    {
+      "districtNumber": 21,
+      "districtId": "D21",
+      "sectionNumber": 4,
+      "name": "D21 — Mask Pavilion Nook Neighborhood Nook",
+      "civicPurpose": "This district turns Section 4's source-backed anchor set into a board-scale civic space: Entertainment / Theater Civic Hall, Opera Court, Entertainment Theater Lantern Monument, Mask Pavilion Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Aes Sidhal.",
+      "visualIdentity": "Use Mask Pavilion Nook as the main read. Keep exact source anchors visible where applicable: Entertainment / Theater Civic Hall, Opera Court, Entertainment Theater Lantern Monument, Mask Pavilion Nook. The district should share Aes Sidhal's Satyr / horned fae identity, Moonstone, Granite, Cedar, Woven Vine, and Cliffside, Terraced Slope, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Intimate and lived-in, with Aes Sidhal's larger mood shaped by Satyr Revelstone Grove Theater, Border Wall Beacon, and Hanging Charms Veiled High Court.",
+      "gameplayAssetNeeds": [
+        "Mask Pavilion Nook",
+        "Entertainment / Theater Civic Hall",
+        "Opera Court",
+        "Entertainment Theater Lantern Monument",
+        "Section 4 pedestrian-scale props",
+        "Aes Sidhal civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Mask Pavilion Nook",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Mask Pavilion Nook",
+      "minorLandmarks": [
+        "Entertainment / Theater Civic Hall",
+        "Opera Court",
+        "Entertainment Theater Lantern Monument"
+      ]
+    },
+    {
+      "districtNumber": 22,
+      "districtId": "D22",
+      "sectionNumber": 4,
+      "name": "D22 — Entertainment / Theater Civic Hall Supporting Streets",
+      "civicPurpose": "This district turns Section 4's source-backed anchor set into a board-scale civic space: Entertainment / Theater Civic Hall, Opera Court, Entertainment Theater Lantern Monument, Mask Pavilion Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Aes Sidhal.",
+      "visualIdentity": "Use Entertainment / Theater Civic Hall as the main read. Keep exact source anchors visible where applicable: Entertainment / Theater Civic Hall, Opera Court, Entertainment Theater Lantern Monument, Mask Pavilion Nook. The district should share Aes Sidhal's Satyr / horned fae identity, Moonstone, Granite, Cedar, Woven Vine, and Cliffside, Terraced Slope, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Connective and practical, with Aes Sidhal's larger mood shaped by Satyr Revelstone Grove Theater, Border Wall Beacon, and Hanging Charms Veiled High Court.",
+      "gameplayAssetNeeds": [
+        "Entertainment / Theater Civic Hall",
+        "Opera Court",
+        "Entertainment Theater Lantern Monument",
+        "Mask Pavilion Nook",
+        "Section 4 pedestrian-scale props",
+        "Aes Sidhal civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Entertainment / Theater Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Entertainment / Theater Civic Hall",
+      "minorLandmarks": [
+        "Opera Court",
+        "Entertainment Theater Lantern Monument",
+        "Mask Pavilion Nook"
+      ]
+    },
+    {
+      "districtNumber": 19,
+      "districtId": "D19",
       "sectionNumber": 5,
-      "name": "Observatory / Astronomy",
-      "civicPurpose": "Star watching, omen interpretation, moon-gate ritual, navigation by sky, long-cycle planning, and scholarly contrast to the theater district.",
-      "visualIdentity": "Star observatory towers, moon gate arches, celestial courts, high terraces, blue-silver instruments, star charts, cliffside monasteries, and quiet lamp-lit scholar platforms.",
-      "emotionalIdentity": "Elevated, contemplative, precise, and liminal.",
+      "name": "D19 — Observatory / Astronomy Civic Hall Civic-Anchor Precinct",
+      "civicPurpose": "This district turns Section 5's source-backed anchor set into a board-scale civic space: Observatory / Astronomy Civic Hall, Star Observatory, Star Navigation Monument, Celestial Court Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Aes Sidhal.",
+      "visualIdentity": "Use Observatory / Astronomy Civic Hall as the main read. Keep exact source anchors visible where applicable: Observatory / Astronomy Civic Hall, Star Observatory, Star Navigation Monument, Celestial Court Nook. The district should share Aes Sidhal's Satyr / horned fae identity, Moonstone, Granite, Cedar, Woven Vine, and Cliffside, Terraced Slope, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Locally grounded, with Aes Sidhal's larger mood shaped by Satyr Revelstone Grove Theater, Border Wall Beacon, and Hanging Charms Veiled High Court.",
+      "gameplayAssetNeeds": [
+        "Observatory / Astronomy Civic Hall",
+        "Star Observatory",
+        "Star Navigation Monument",
+        "Celestial Court Nook",
+        "Section 5 pedestrian-scale props",
+        "Aes Sidhal civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Observatory / Astronomy Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Observatory / Astronomy Civic Hall",
+      "minorLandmarks": [
+        "Star Observatory",
+        "Star Navigation Monument",
+        "Celestial Court Nook"
+      ]
+    },
+    {
+      "districtNumber": 20,
+      "districtId": "D20",
+      "sectionNumber": 5,
+      "name": "D20 — Star Observatory Landmark Approach",
+      "civicPurpose": "This district turns Section 5's source-backed anchor set into a board-scale civic space: Observatory / Astronomy Civic Hall, Star Observatory, Star Navigation Monument, Celestial Court Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Aes Sidhal.",
+      "visualIdentity": "Use Star Observatory as the main read. Keep exact source anchors visible where applicable: Observatory / Astronomy Civic Hall, Star Observatory, Star Navigation Monument, Celestial Court Nook. The district should share Aes Sidhal's Satyr / horned fae identity, Moonstone, Granite, Cedar, Woven Vine, and Cliffside, Terraced Slope, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Public-facing, with Aes Sidhal's larger mood shaped by Satyr Revelstone Grove Theater, Border Wall Beacon, and Hanging Charms Veiled High Court.",
       "gameplayAssetNeeds": [
         "Star Observatory",
         "Observatory / Astronomy Civic Hall",
         "Star Navigation Monument",
         "Celestial Court Nook",
-        "moon gate arches",
-        "star instruments and charts",
-        "high terrace platforms",
-        "astronomers and ritual attendants"
+        "Section 5 pedestrian-scale props",
+        "Aes Sidhal civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
       ],
       "narrativeUse": [
-        "omen interpretation",
-        "quiet expert counsel",
-        "moon-gate rituals",
-        "celestial timing for civic decisions",
-        "watching the city from above",
-        "contrasting revelry with disciplined observation"
+        "scenes centered on Star Observatory",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
       ],
       "landmark": "Star Observatory",
       "minorLandmarks": [
+        "Observatory / Astronomy Civic Hall",
+        "Star Navigation Monument",
+        "Celestial Court Nook"
+      ]
+    },
+    {
+      "districtNumber": 23,
+      "districtId": "D23",
+      "sectionNumber": 5,
+      "name": "D23 — Star Navigation Monument Monument Frontage",
+      "civicPurpose": "This district turns Section 5's source-backed anchor set into a board-scale civic space: Observatory / Astronomy Civic Hall, Star Observatory, Star Navigation Monument, Celestial Court Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Aes Sidhal.",
+      "visualIdentity": "Use Star Navigation Monument as the main read. Keep exact source anchors visible where applicable: Observatory / Astronomy Civic Hall, Star Observatory, Star Navigation Monument, Celestial Court Nook. The district should share Aes Sidhal's Satyr / horned fae identity, Moonstone, Granite, Cedar, Woven Vine, and Cliffside, Terraced Slope, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Memorial or symbolic, with Aes Sidhal's larger mood shaped by Satyr Revelstone Grove Theater, Border Wall Beacon, and Hanging Charms Veiled High Court.",
+      "gameplayAssetNeeds": [
+        "Star Navigation Monument",
+        "Observatory / Astronomy Civic Hall",
+        "Star Observatory",
+        "Celestial Court Nook",
+        "Section 5 pedestrian-scale props",
+        "Aes Sidhal civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Star Navigation Monument",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Star Navigation Monument",
+      "minorLandmarks": [
+        "Observatory / Astronomy Civic Hall",
+        "Star Observatory",
+        "Celestial Court Nook"
+      ]
+    },
+    {
+      "districtNumber": 24,
+      "districtId": "D24",
+      "sectionNumber": 5,
+      "name": "D24 — Celestial Court Nook Neighborhood Nook",
+      "civicPurpose": "This district turns Section 5's source-backed anchor set into a board-scale civic space: Observatory / Astronomy Civic Hall, Star Observatory, Star Navigation Monument, Celestial Court Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Aes Sidhal.",
+      "visualIdentity": "Use Celestial Court Nook as the main read. Keep exact source anchors visible where applicable: Observatory / Astronomy Civic Hall, Star Observatory, Star Navigation Monument, Celestial Court Nook. The district should share Aes Sidhal's Satyr / horned fae identity, Moonstone, Granite, Cedar, Woven Vine, and Cliffside, Terraced Slope, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Intimate and lived-in, with Aes Sidhal's larger mood shaped by Satyr Revelstone Grove Theater, Border Wall Beacon, and Hanging Charms Veiled High Court.",
+      "gameplayAssetNeeds": [
+        "Celestial Court Nook",
+        "Observatory / Astronomy Civic Hall",
+        "Star Observatory",
+        "Star Navigation Monument",
+        "Section 5 pedestrian-scale props",
+        "Aes Sidhal civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Celestial Court Nook",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Celestial Court Nook",
+      "minorLandmarks": [
+        "Observatory / Astronomy Civic Hall",
+        "Star Observatory",
+        "Star Navigation Monument"
+      ]
+    },
+    {
+      "districtNumber": 25,
+      "districtId": "D25",
+      "sectionNumber": 5,
+      "name": "D25 — Observatory / Astronomy Civic Hall Supporting Streets",
+      "civicPurpose": "This district turns Section 5's source-backed anchor set into a board-scale civic space: Observatory / Astronomy Civic Hall, Star Observatory, Star Navigation Monument, Celestial Court Nook. It supports scenes of public movement, ordinary business, local obligation, and visible pressure within Aes Sidhal.",
+      "visualIdentity": "Use Observatory / Astronomy Civic Hall as the main read. Keep exact source anchors visible where applicable: Observatory / Astronomy Civic Hall, Star Observatory, Star Navigation Monument, Celestial Court Nook. The district should share Aes Sidhal's Satyr / horned fae identity, Moonstone, Granite, Cedar, Woven Vine, and Cliffside, Terraced Slope, Civic Terraces without becoming generic.",
+      "emotionalIdentity": "Connective and practical, with Aes Sidhal's larger mood shaped by Satyr Revelstone Grove Theater, Border Wall Beacon, and Hanging Charms Veiled High Court.",
+      "gameplayAssetNeeds": [
+        "Observatory / Astronomy Civic Hall",
+        "Star Observatory",
+        "Star Navigation Monument",
+        "Celestial Court Nook",
+        "Section 5 pedestrian-scale props",
+        "Aes Sidhal civilians using the district",
+        "clear roads, thresholds, or plaza edges for tactical readability",
+        "source-backed materials and lighting"
+      ],
+      "narrativeUse": [
+        "scenes centered on Observatory / Astronomy Civic Hall",
+        "public errands, waiting, negotiation, or conflict",
+        "showing how civic systems shape ordinary movement",
+        "a district-level visual establishing shot for prose or diorama use",
+        "local color that still advances plot, logistics, or social pressure"
+      ],
+      "landmark": "Observatory / Astronomy Civic Hall",
+      "minorLandmarks": [
+        "Star Observatory",
         "Star Navigation Monument",
         "Celestial Court Nook"
       ]
@@ -527,258 +1153,744 @@
   "landmarks": {
     "wonder": {
       "name": "Satyr Revelstone Grove Theater",
-      "symbolicRole": "Revelry made civic, ritual, and architectural rather than chaotic impulse.",
-      "visualRole": "A monumental circular theater-grove on cliff terraces, with stone stages, cedar and vine structures, mask and horn ornament, gold leaf, lanterns, red fabric, and open-air gathering space visible from hero views.",
-      "civicRole": "The city's sanctioned cultural pressure valve and public memory engine, hosting performances, revel festivals, ritual drama, masked processions, and civic celebrations.",
+      "symbolicRole": "Satyr Revelstone Grove Theater concentrates Aes Sidhal's local symbolism into a usable civic landmark: city wonder, separate far skyline anchor.",
+      "visualRole": "A one-per-city wonder: spectacular, unmistakable, and larger than every section landmark. It turns Aes Sidhal's geography, race identity, material culture, and civic magic into one public symbol. Built for Aes Sidhal's Satyr / horned fae population, it uses Moonstone, Granite, Cedar, Woven Vine, Gold Leaf across Cliffside, Terraced Slope, Civic Terraces; water context: dry city ground; magic expression: Ward Networks, Ritual Geometry, Dream Binding. It must read clearly as a high-fantasy tactical-board asset with no baked labels or text.",
+      "civicRole": "Serves as city wonder, separate far skyline anchor within Aes Sidhal; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
       "narrativeUse": [
-        "public ritual drama",
-        "masked political meetings",
-        "festival crowd scenes",
-        "proof that joy in Aes Sidhal is structured rather than careless",
-        "performance revealing truths law cannot state directly"
+        "stage scenes involving Satyr Revelstone Grove Theater",
+        "show how Aes Sidhal turns landmark symbolism into civic pressure",
+        "anchor public movement and crowd behavior",
+        "give writers a concrete place for announcements, disputes, errands, or rituals"
       ],
       "assetUse": [
-        "map background skyline anchor",
-        "hero-view wonder silhouette",
-        "diorama backdrop for theater and festival scenes",
-        "unique city identifier separating Aes Sidhal from other fae or elven cities"
+        "city landmark asset",
+        "map background landmark marker",
+        "visual continuity anchor across hero and street scenes",
+        "scale reference for civilians, roads, plazas, and props"
       ],
       "sensoryIdentity": [
-        "lantern heat",
-        "crowd applause",
-        "mask paint and cedar",
-        "wine and festival food",
-        "drums and string music",
-        "red fabric shifting in cliff wind"
+        "local foot traffic",
+        "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+        "public voices and civic work nearby",
+        "ambient city light and weathering",
+        "close pedestrian-scale details rather than abstract skyline-only treatment"
       ],
       "storyHooks": [
-        "a sanctioned performance carries a forbidden message",
-        "a masked procession changes who is allowed into the inner city",
-        "theater maintenance routes bypass official thresholds",
-        "a festival crowd turns a beacon warning into civic panic or unity"
+        "a routine civic action at Satyr Revelstone Grove Theater becomes narratively important",
+        "the visible condition of Satyr Revelstone Grove Theater signals political or social stress",
+        "someone uses Satyr Revelstone Grove Theater's public function to redirect crowds or information",
+        "an overlooked detail at Satyr Revelstone Grove Theater reveals how Aes Sidhal really works"
       ]
     },
     "beacon": {
       "name": "Border Wall Beacon",
-      "symbolicRole": "The city's threshold made luminous: warning, permission, sealing, opening, and public interpretation in one vertical signal.",
-      "visualRole": "A tall blue-crystal signal integrated with cliffside walls, bastions, gatehouses, banners, carved totems, ward lamps, and a fortified public approach plaza.",
-      "civicRole": "Primary Conjunction signal anchor, border warning apparatus, guard coordination point, public announcement focus, and ritual gate-condition marker.",
+      "symbolicRole": "Border Wall Beacon concentrates Aes Sidhal's local symbolism into a usable civic landmark: Section 1 beacon, near/front civic signal anchor.",
+      "visualRole": "A largest local landmark in this section, subordinate only to the city wonder and citadel. It belongs to Section 1 (Fortress / Border Wall) of Aes Sidhal and should use Obsidian Fortresses, Cyclopean Megaliths, White Limestone Civic Blocks, cedar and gold leaf materials, Civic Blue Glow, Woven Banners, Carved Totems, and the Satyr / horned fae visual language. Design focus: gatehouses, bastions, guard posts, largest section focal point, strong vertical silhouette. Terrain/water context: Cliffside; Dry Ground. Magic expression: Blue Order Sigils, Crystal Lattices, Glass Scrying. No baked labels or text. Single city beacon fixed to section 1; visible civic signal apparatus, strong vertical silhouette, and public approach space.",
+      "civicRole": "Serves as Section 1 beacon, near/front civic signal anchor within Aes Sidhal; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
       "narrativeUse": [
-        "beacon state changes read as access changes",
-        "citywide lockdown or opening",
-        "crowd funneling at the border",
-        "public announcements under defensive pressure",
-        "threshold symbolism tied directly to Conjunction danger"
+        "stage scenes involving Border Wall Beacon",
+        "show how Aes Sidhal turns landmark symbolism into civic pressure",
+        "anchor public movement and crowd behavior",
+        "give writers a concrete place for announcements, disputes, errands, or rituals"
       ],
       "assetUse": [
-        "S1 diorama centerpiece",
-        "city signal marker",
-        "map-background focal point at fortified approach",
-        "blue light reference for other ward nodes"
+        "district diorama anchor for Section 1",
+        "map background landmark marker",
+        "visual continuity anchor across hero and street scenes",
+        "scale reference for civilians, roads, plazas, and props"
       ],
       "sensoryIdentity": [
-        "blue ward glow",
-        "stone under guard boots",
-        "banners snapping in wind",
-        "gate chains",
-        "charm chimes",
-        "crowd noise tightening when the signal changes"
+        "local foot traffic",
+        "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+        "public voices and civic work nearby",
+        "beacon or lamp glow when applicable",
+        "close pedestrian-scale details rather than abstract skyline-only treatment"
       ],
       "storyHooks": [
-        "someone manipulates the first explanation of a beacon color",
-        "an access ritual fails during a Conjunction warning",
-        "a guard route beneath the Beacon reveals a maintenance secret",
-        "the plaza becomes too crowded for safe evacuation"
+        "a routine civic action at Border Wall Beacon becomes narratively important",
+        "the visible condition of Border Wall Beacon signals political or social stress",
+        "someone uses Border Wall Beacon's public function to redirect crowds or information",
+        "an overlooked detail at Border Wall Beacon reveals how Aes Sidhal really works"
       ]
     },
     "seatOfPower": {
       "name": "Hanging Charms Veiled High Court",
-      "symbolicRole": "Authority mediated through ritual access, veils, oaths, archives, and discernment.",
-      "visualRole": "A central high court of moonstone, granite, cedar, vine, gold leaf, hanging charms, sealed archives, audience terraces, command platforms, blue lamps, and veiled approaches embedded into the cliff city.",
-      "civicRole": "Government center for judgment, petitions, permissions, archive sealing, oaths, ritual legitimacy, and crisis coordination between districts.",
+      "symbolicRole": "Hanging Charms Veiled High Court concentrates Aes Sidhal's local symbolism into a usable civic landmark: dominant central civic anchor / District 13 seat of power.",
+      "visualRole": "The district-13 seat of power: courts, audience terraces, sealed archives, command platforms, and the visible apparatus of government. It is not a faction HQ; it is the city's central civic authority. Built for Aes Sidhal's Satyr / horned fae population, it uses Moonstone, Granite, Cedar, Woven Vine, Gold Leaf across Cliffside, Terraced Slope, Civic Terraces; water context: dry city ground; magic expression: Ward Networks, Ritual Geometry, Dream Binding. It must read clearly as a high-fantasy tactical-board asset with no baked labels or text.",
+      "civicRole": "Serves as dominant central civic anchor / District 13 seat of power within Aes Sidhal; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
       "narrativeUse": [
-        "court petitions",
-        "oath ceremonies",
-        "archive sealing",
-        "permission disputes",
-        "veiled judgments",
-        "official receptions where access is more important than rank"
+        "stage scenes involving Hanging Charms Veiled High Court",
+        "show how Aes Sidhal turns landmark symbolism into civic pressure",
+        "anchor public movement and crowd behavior",
+        "give writers a concrete place for announcements, disputes, errands, or rituals"
       ],
       "assetUse": [
-        "central authority marker on map background",
-        "civic court diorama backdrop",
-        "visual source for hanging charm and veil motifs across the city"
+        "city landmark asset",
+        "map background landmark marker",
+        "visual continuity anchor across hero and street scenes",
+        "scale reference for civilians, roads, plazas, and props"
       ],
       "sensoryIdentity": [
-        "soft charm chimes",
-        "incense and polished wood",
-        "blue light through veils",
-        "gold leaf against pale stone",
-        "quiet court murmurs",
-        "wind moving banners above terraces"
+        "local foot traffic",
+        "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+        "public voices and civic work nearby",
+        "ambient city light and weathering",
+        "close pedestrian-scale details rather than abstract skyline-only treatment"
       ],
       "storyHooks": [
-        "a sealed archive contradicts a public oath",
-        "a permission ritual bars someone who should be welcome",
-        "a veil custom hides a legal reversal",
-        "charm maintenance routes reveal who actually controls access"
+        "a routine civic action at Hanging Charms Veiled High Court becomes narratively important",
+        "the visible condition of Hanging Charms Veiled High Court signals political or social stress",
+        "someone uses Hanging Charms Veiled High Court's public function to redirect crowds or information",
+        "an overlooked detail at Hanging Charms Veiled High Court reveals how Aes Sidhal really works"
       ]
     },
     "majorLandmarks": [
       {
-        "name": "Alchemy Lab",
-        "symbolicRole": "Volatile magic made useful through containment and law.",
-        "visualRole": "Blue-lit laboratory towers, containment courts, glass vessels, serpent geometry, archive rooms, and warning lamps built into cliffside civic stone.",
-        "civicRole": "Regulates practical enchantment, ward maintenance, alchemical services, formula custody, and dangerous civic magic.",
+        "name": "Star Observatory",
+        "symbolicRole": "Star Observatory concentrates Aes Sidhal's local symbolism into a usable civic landmark: additional major landmark selected for this hero-view camera angle.",
+        "visualRole": "A largest local landmark in this section, subordinate only to the city wonder and citadel. It belongs to Section 5 (Observatory / Astronomy) of Aes Sidhal and should use Archive Towers, Lecture Courts, Cliffside Monasteries, cedar and gold leaf materials, Star Navigation, Moon Gate Arches, Civic Blue Glow, and the Satyr / horned fae visual language. Design focus: star charts, largest section focal point, strong vertical silhouette, distinct gameplay landmark, visible from nearby districts. Terrain/water context: Cliffside; Dry Ground. Magic expression: Blue Order Sigils, Crystal Lattices, Glass Scrying. No baked labels or text.",
+        "civicRole": "Serves as additional major landmark selected for this hero-view camera angle within Aes Sidhal; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
         "narrativeUse": [
-          "controlled danger",
-          "ward failure",
-          "formula evidence",
-          "licensed magic politics"
+          "stage scenes involving Star Observatory",
+          "show how Aes Sidhal turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
         ],
         "assetUse": [
-          "S2 diorama landmark",
-          "blue lamp and alchemy asset cluster",
-          "visual bridge between magic and civic regulation"
+          "district diorama anchor for Section 5",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
         ],
         "sensoryIdentity": [
-          "metallic vapors",
-          "blue-glass hum",
-          "hot brass",
-          "sharp reagents",
-          "contained light behind crystal"
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
         ],
         "storyHooks": [
-          "a formula archive has been altered",
-          "a ward lamp fails only at one threshold"
+          "a routine civic action at Star Observatory becomes narratively important",
+          "the visible condition of Star Observatory signals political or social stress",
+          "someone uses Star Observatory's public function to redirect crowds or information",
+          "an overlooked detail at Star Observatory reveals how Aes Sidhal really works"
         ]
       },
       {
-        "name": "Assembly Hall",
-        "symbolicRole": "Law as public ritual and witnessed performance.",
-        "visualRole": "White civic blocks, gothic spires, assembly amphitheater forms, gold-seal monuments, law tablets, speaking staffs, and blue-lit thresholds.",
-        "civicRole": "Hosts deliberation, charters, petitions, official readings, public rulings, and negotiated civic authority.",
+        "name": "Alchemy Lab",
+        "symbolicRole": "Alchemy Lab concentrates Aes Sidhal's local symbolism into a usable civic landmark: additional major landmark selected for this hero-view camera angle.",
+        "visualRole": "A largest local landmark in this section, subordinate only to the city wonder and citadel. It belongs to Section 2 (Arcane / Alchemical Labs) of Aes Sidhal and should use Forge Halls, Subterranean Vaults, Archive Towers, cedar and gold leaf materials, Lantern Lit, Serpent Geometry, Civic Blue Glow, and the Satyr / horned fae visual language. Design focus: distillation towers, containment courts, safety wards, largest section focal point, strong vertical silhouette. Terrain/water context: Cliffside; Dry Ground. Magic expression: Blue Order Sigils, Crystal Lattices, Glass Scrying. No baked labels or text.",
+        "civicRole": "Serves as additional major landmark selected for this hero-view camera angle within Aes Sidhal; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
         "narrativeUse": [
-          "public law scenes",
-          "charter disputes",
-          "ritualized political conflict",
-          "social pressure before witnesses"
+          "stage scenes involving Alchemy Lab",
+          "show how Aes Sidhal turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
         ],
         "assetUse": [
-          "S3 diorama landmark",
-          "law/civic asset cluster",
-          "map-background legislative marker"
+          "district diorama anchor for Section 2",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
         ],
         "sensoryIdentity": [
-          "quorum bells",
-          "paper and wax seals",
-          "crowd murmurs",
-          "stone echoes",
-          "formal chant-like procedure"
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
         ],
         "storyHooks": [
-          "a public vote is staged as theater",
-          "an old charter gives unexpected access"
+          "a routine civic action at Alchemy Lab becomes narratively important",
+          "the visible condition of Alchemy Lab signals political or social stress",
+          "someone uses Alchemy Lab's public function to redirect crowds or information",
+          "an overlooked detail at Alchemy Lab reveals how Aes Sidhal really works"
         ]
       },
       {
         "name": "Opera Court",
-        "symbolicRole": "Public release that still obeys civic structure.",
-        "visualRole": "Lantern-lit theater court with red awnings, mask stalls, stage balconies, musician platforms, crowded terraces, and gothic civic massing around performance space.",
-        "civicRole": "Anchors sanctioned entertainment, festival ritual, masked processions, social negotiation, and civic emotional release.",
+        "symbolicRole": "Opera Court concentrates Aes Sidhal's local symbolism into a usable civic landmark: additional major landmark selected for this hero-view camera angle.",
+        "visualRole": "A largest local landmark in this section, subordinate only to the city wonder and citadel. It belongs to Section 4 (Entertainment / Theater) of Aes Sidhal and should use Market Arcades, Gothic Spires, Lecture Courts, cedar and gold leaf materials, Lantern Lit, Red Fabric Awnings, Woven Banners, and the Satyr / horned fae visual language. Design focus: ticket courts, largest section focal point, strong vertical silhouette, distinct gameplay landmark, visible from nearby districts. Terrain/water context: Cliffside; Dry Ground. Magic expression: Blue Order Sigils, Crystal Lattices, Glass Scrying. No baked labels or text.",
+        "civicRole": "Serves as additional major landmark selected for this hero-view camera angle within Aes Sidhal; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
         "narrativeUse": [
-          "masked meetings",
-          "crowd scenes",
-          "festival tension",
-          "politics hidden inside performance"
+          "stage scenes involving Opera Court",
+          "show how Aes Sidhal turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
         ],
         "assetUse": [
-          "S4 diorama landmark",
-          "theater and performance asset cluster",
-          "visual source for mask and lantern motifs"
+          "district diorama anchor for Section 4",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
         ],
         "sensoryIdentity": [
-          "music and applause",
-          "wine and food",
-          "warm lanterns",
-          "fabric awnings",
-          "mask paint",
-          "crowded stair noise"
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
         ],
         "storyHooks": [
-          "a performer says what a court official cannot",
-          "a mask exchange changes social identity for one night"
+          "a routine civic action at Opera Court becomes narratively important",
+          "the visible condition of Opera Court signals political or social stress",
+          "someone uses Opera Court's public function to redirect crowds or information",
+          "an overlooked detail at Opera Court reveals how Aes Sidhal really works"
         ]
       },
       {
-        "name": "Star Observatory",
-        "symbolicRole": "Thresholds extended upward into moon, stars, omens, timing, and long-cycle knowledge.",
-        "visualRole": "High observatory towers, moon gate arches, celestial court platforms, blue-silver instruments, star charts, and quiet terraces above the theatrical city.",
-        "civicRole": "Supports omen interpretation, celestial timing, navigation, long-cycle planning, and scholarly legitimacy.",
+        "name": "Fortress / Border Wall Civic Hall",
+        "symbolicRole": "Fortress / Border Wall Civic Hall concentrates Aes Sidhal's local symbolism into a usable civic landmark: Section 1 local anchor.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing. It belongs to Section 1 (Fortress / Border Wall) of Aes Sidhal and should use White Limestone Civic Blocks, Obsidian Fortresses, Cyclopean Megaliths, cedar and gold leaf materials, Carved Totems, Civic Blue Glow, Woven Banners, and the Satyr / horned fae visual language. Design focus: curtain walls, gatehouses, bastions, guard posts, institutional anchor. Terrain/water context: Cliffside; Dry Ground. Magic expression: Blue Order Sigils, Crystal Lattices, Glass Scrying. No baked labels or text.",
+        "civicRole": "Serves as Section 1 local anchor within Aes Sidhal; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
         "narrativeUse": [
-          "omen readings",
-          "private counsel",
-          "moon-gate rituals",
-          "views across the watched city"
+          "stage scenes involving Fortress / Border Wall Civic Hall",
+          "show how Aes Sidhal turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
         ],
         "assetUse": [
-          "S5 diorama landmark",
-          "skyline tower",
-          "map-background observatory marker"
+          "district diorama anchor for Section 1",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
         ],
         "sensoryIdentity": [
-          "cool night wind",
-          "lens glass",
-          "quiet charts",
-          "blue-silver light",
-          "distant theater music below"
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
         ],
         "storyHooks": [
-          "an omen changes who may enter the High Court",
-          "a star chart contradicts the public timetable"
+          "a routine civic action at Fortress / Border Wall Civic Hall becomes narratively important",
+          "the visible condition of Fortress / Border Wall Civic Hall signals political or social stress",
+          "someone uses Fortress / Border Wall Civic Hall's public function to redirect crowds or information",
+          "an overlooked detail at Fortress / Border Wall Civic Hall reveals how Aes Sidhal really works"
+        ]
+      },
+      {
+        "name": "Woven Banners Monument",
+        "symbolicRole": "Woven Banners Monument concentrates Aes Sidhal's local symbolism into a usable civic landmark: Section 1 local anchor.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles. It belongs to Section 1 (Fortress / Border Wall) of Aes Sidhal and should use Obsidian Fortresses, Cyclopean Megaliths, White Limestone Civic Blocks, cedar and gold leaf materials, Civic Blue Glow, Woven Banners, Carved Totems, and the Satyr / horned fae visual language. Design focus: bastions, guard posts, symbolic civic object, small ceremonial site, local memory marker. Terrain/water context: Cliffside; Dry Ground. Magic expression: Blue Order Sigils, Crystal Lattices, Glass Scrying. No baked labels or text.",
+        "civicRole": "Serves as Section 1 local anchor within Aes Sidhal; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Woven Banners Monument",
+          "show how Aes Sidhal turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 1",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Woven Banners Monument becomes narratively important",
+          "the visible condition of Woven Banners Monument signals political or social stress",
+          "someone uses Woven Banners Monument's public function to redirect crowds or information",
+          "an overlooked detail at Woven Banners Monument reveals how Aes Sidhal really works"
+        ]
+      },
+      {
+        "name": "Watch Bastion Nook",
+        "symbolicRole": "Watch Bastion Nook concentrates Aes Sidhal's local symbolism into a usable civic landmark: Section 1 local anchor.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette. It belongs to Section 1 (Fortress / Border Wall) of Aes Sidhal and should use White Limestone Civic Blocks, Obsidian Fortresses, Cyclopean Megaliths, cedar and gold leaf materials, Civic Blue Glow, Woven Banners, Carved Totems, and the Satyr / horned fae visual language. Design focus: signal fires, curtain walls, gatehouses, bastions, guard posts. Terrain/water context: Cliffside; Dry Ground. Magic expression: Blue Order Sigils, Crystal Lattices, Glass Scrying. No baked labels or text.",
+        "civicRole": "Serves as Section 1 local anchor within Aes Sidhal; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Watch Bastion Nook",
+          "show how Aes Sidhal turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 1",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Watch Bastion Nook becomes narratively important",
+          "the visible condition of Watch Bastion Nook signals political or social stress",
+          "someone uses Watch Bastion Nook's public function to redirect crowds or information",
+          "an overlooked detail at Watch Bastion Nook reveals how Aes Sidhal really works"
+        ]
+      },
+      {
+        "name": "Arcane / Alchemical Labs Civic Hall",
+        "symbolicRole": "Arcane / Alchemical Labs Civic Hall concentrates Aes Sidhal's local symbolism into a usable civic landmark: Section 2 local anchor.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing. It belongs to Section 2 (Arcane / Alchemical Labs) of Aes Sidhal and should use Forge Halls, Subterranean Vaults, Archive Towers, cedar and gold leaf materials, Serpent Geometry, Civic Blue Glow, Lantern Lit, and the Satyr / horned fae visual language. Design focus: distillation towers, containment courts, safety wards, institutional anchor, public-facing administration. Terrain/water context: Cliffside; Dry Ground. Magic expression: Blue Order Sigils, Crystal Lattices, Glass Scrying. No baked labels or text.",
+        "civicRole": "Serves as Section 2 local anchor within Aes Sidhal; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Arcane / Alchemical Labs Civic Hall",
+          "show how Aes Sidhal turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 2",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Arcane / Alchemical Labs Civic Hall becomes narratively important",
+          "the visible condition of Arcane / Alchemical Labs Civic Hall signals political or social stress",
+          "someone uses Arcane / Alchemical Labs Civic Hall's public function to redirect crowds or information",
+          "an overlooked detail at Arcane / Alchemical Labs Civic Hall reveals how Aes Sidhal really works"
+        ]
+      },
+      {
+        "name": "Blue-Lamp Monument",
+        "symbolicRole": "Blue-Lamp Monument concentrates Aes Sidhal's local symbolism into a usable civic landmark: Section 2 local anchor.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles. It belongs to Section 2 (Arcane / Alchemical Labs) of Aes Sidhal and should use Archive Towers, Forge Halls, Subterranean Vaults, cedar and gold leaf materials, Lantern Lit, Serpent Geometry, Civic Blue Glow, and the Satyr / horned fae visual language. Design focus: local memory marker, subordinate to major landmark, retorts, runes, colored vapors. Terrain/water context: Cliffside; Dry Ground. Magic expression: Blue Order Sigils, Crystal Lattices, Glass Scrying. No baked labels or text.",
+        "civicRole": "Serves as Section 2 local anchor within Aes Sidhal; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Blue-Lamp Monument",
+          "show how Aes Sidhal turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 2",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Blue-Lamp Monument becomes narratively important",
+          "the visible condition of Blue-Lamp Monument signals political or social stress",
+          "someone uses Blue-Lamp Monument's public function to redirect crowds or information",
+          "an overlooked detail at Blue-Lamp Monument reveals how Aes Sidhal really works"
+        ]
+      },
+      {
+        "name": "Formula Archive Nook",
+        "symbolicRole": "Formula Archive Nook concentrates Aes Sidhal's local symbolism into a usable civic landmark: Section 2 local anchor.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette. It belongs to Section 2 (Arcane / Alchemical Labs) of Aes Sidhal and should use Forge Halls, Subterranean Vaults, Archive Towers, cedar and gold leaf materials, Lantern Lit, Serpent Geometry, Civic Blue Glow, and the Satyr / horned fae visual language. Design focus: usable board landmark, subordinate scale, retorts, runes, colored vapors. Terrain/water context: Cliffside; Dry Ground. Magic expression: Blue Order Sigils, Crystal Lattices, Glass Scrying. No baked labels or text.",
+        "civicRole": "Serves as Section 2 local anchor within Aes Sidhal; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Formula Archive Nook",
+          "show how Aes Sidhal turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 2",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Formula Archive Nook becomes narratively important",
+          "the visible condition of Formula Archive Nook signals political or social stress",
+          "someone uses Formula Archive Nook's public function to redirect crowds or information",
+          "an overlooked detail at Formula Archive Nook reveals how Aes Sidhal really works"
+        ]
+      },
+      {
+        "name": "Legislative Quarter Hall",
+        "symbolicRole": "Legislative Quarter Hall concentrates Aes Sidhal's local symbolism into a usable civic landmark: Section 3 local anchor.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing. It belongs to Section 3 (Legislative Quarter) of Aes Sidhal and should use White Limestone Civic Blocks, Lecture Courts, Gothic Spires, cedar and gold leaf materials, Gold Seals, Woven Banners, Civic Blue Glow, and the Satyr / horned fae visual language. Design focus: ballots, law tablets, speaking staffs, quorum bells, assembly amphitheaters. Terrain/water context: Cliffside; Dry Ground. Magic expression: Blue Order Sigils, Crystal Lattices, Glass Scrying. No baked labels or text.",
+        "civicRole": "Serves as Section 3 local anchor within Aes Sidhal; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Legislative Quarter Hall",
+          "show how Aes Sidhal turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 3",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Legislative Quarter Hall becomes narratively important",
+          "the visible condition of Legislative Quarter Hall signals political or social stress",
+          "someone uses Legislative Quarter Hall's public function to redirect crowds or information",
+          "an overlooked detail at Legislative Quarter Hall reveals how Aes Sidhal really works"
+        ]
+      },
+      {
+        "name": "Assembly Hall",
+        "symbolicRole": "Assembly Hall concentrates Aes Sidhal's local symbolism into a usable civic landmark: Section 3 local anchor.",
+        "visualRole": "A mandatory Section 3 Beacon: a culturally adapted civic signal flame / warning-light landmark visible across the city spine. It belongs to Section 3 (Legislative Quarter) of Aes Sidhal and should use Lecture Courts, Gothic Spires, White Limestone Civic Blocks, cedar and gold leaf materials, Gold Seals, Woven Banners, Civic Blue Glow, and the Satyr / horned fae visual language. Design focus: strong vertical silhouette, distinct gameplay landmark, visible from nearby districts, ballots, law tablets. Terrain/water context: Cliffside; Dry Ground. Magic expression: Blue Order Sigils, Crystal Lattices, Glass Scrying. No baked labels or text.",
+        "civicRole": "Serves as Section 3 local anchor within Aes Sidhal; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Assembly Hall",
+          "show how Aes Sidhal turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 3",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Assembly Hall becomes narratively important",
+          "the visible condition of Assembly Hall signals political or social stress",
+          "someone uses Assembly Hall's public function to redirect crowds or information",
+          "an overlooked detail at Assembly Hall reveals how Aes Sidhal really works"
+        ]
+      },
+      {
+        "name": "Legislative Quarter Gold-Seal Monument",
+        "symbolicRole": "Legislative Quarter Gold-Seal Monument concentrates Aes Sidhal's local symbolism into a usable civic landmark: Section 3 local anchor.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles. It belongs to Section 3 (Legislative Quarter) of Aes Sidhal and should use Gothic Spires, White Limestone Civic Blocks, Lecture Courts, cedar and gold leaf materials, Civic Blue Glow, Gold Seals, Woven Banners, and the Satyr / horned fae visual language. Design focus: assembly amphitheaters, speaker balconies, committee halls, public galleries, symbolic civic object. Terrain/water context: Cliffside; Dry Ground. Magic expression: Blue Order Sigils, Crystal Lattices, Glass Scrying. No baked labels or text.",
+        "civicRole": "Serves as Section 3 local anchor within Aes Sidhal; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Legislative Quarter Gold-Seal Monument",
+          "show how Aes Sidhal turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 3",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Legislative Quarter Gold-Seal Monument becomes narratively important",
+          "the visible condition of Legislative Quarter Gold-Seal Monument signals political or social stress",
+          "someone uses Legislative Quarter Gold-Seal Monument's public function to redirect crowds or information",
+          "an overlooked detail at Legislative Quarter Gold-Seal Monument reveals how Aes Sidhal really works"
+        ]
+      },
+      {
+        "name": "Charter Arcade Nook",
+        "symbolicRole": "Charter Arcade Nook concentrates Aes Sidhal's local symbolism into a usable civic landmark: Section 3 local anchor.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette. It belongs to Section 3 (Legislative Quarter) of Aes Sidhal and should use Lecture Courts, Gothic Spires, White Limestone Civic Blocks, cedar and gold leaf materials, Woven Banners, Civic Blue Glow, Gold Seals, and the Satyr / horned fae visual language. Design focus: ballots, law tablets, speaking staffs, quorum bells, assembly amphitheaters. Terrain/water context: Cliffside; Dry Ground. Magic expression: Blue Order Sigils, Crystal Lattices, Glass Scrying. No baked labels or text.",
+        "civicRole": "Serves as Section 3 local anchor within Aes Sidhal; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Charter Arcade Nook",
+          "show how Aes Sidhal turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 3",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Charter Arcade Nook becomes narratively important",
+          "the visible condition of Charter Arcade Nook signals political or social stress",
+          "someone uses Charter Arcade Nook's public function to redirect crowds or information",
+          "an overlooked detail at Charter Arcade Nook reveals how Aes Sidhal really works"
+        ]
+      },
+      {
+        "name": "Entertainment / Theater Civic Hall",
+        "symbolicRole": "Entertainment / Theater Civic Hall concentrates Aes Sidhal's local symbolism into a usable civic landmark: Section 4 local anchor.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing. It belongs to Section 4 (Entertainment / Theater) of Aes Sidhal and should use Market Arcades, Gothic Spires, Lecture Courts, cedar and gold leaf materials, Woven Banners, Lantern Lit, Red Fabric Awnings, and the Satyr / horned fae visual language. Design focus: theaters, amphitheaters, opera domes, ticket courts, institutional anchor. Terrain/water context: Cliffside; Dry Ground. Magic expression: Blue Order Sigils, Crystal Lattices, Glass Scrying. No baked labels or text.",
+        "civicRole": "Serves as Section 4 local anchor within Aes Sidhal; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Entertainment / Theater Civic Hall",
+          "show how Aes Sidhal turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 4",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Entertainment / Theater Civic Hall becomes narratively important",
+          "the visible condition of Entertainment / Theater Civic Hall signals political or social stress",
+          "someone uses Entertainment / Theater Civic Hall's public function to redirect crowds or information",
+          "an overlooked detail at Entertainment / Theater Civic Hall reveals how Aes Sidhal really works"
+        ]
+      },
+      {
+        "name": "Entertainment Theater Lantern Monument",
+        "symbolicRole": "Entertainment Theater Lantern Monument concentrates Aes Sidhal's local symbolism into a usable civic landmark: Section 4 local anchor.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles. It belongs to Section 4 (Entertainment / Theater) of Aes Sidhal and should use Lecture Courts, Market Arcades, Gothic Spires, cedar and gold leaf materials, Red Fabric Awnings, Woven Banners, Lantern Lit, and the Satyr / horned fae visual language. Design focus: small ceremonial site, local memory marker, subordinate to major landmark, masks, lanterns. Terrain/water context: Cliffside; Dry Ground. Magic expression: Blue Order Sigils, Crystal Lattices, Glass Scrying. No baked labels or text.",
+        "civicRole": "Serves as Section 4 local anchor within Aes Sidhal; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Entertainment Theater Lantern Monument",
+          "show how Aes Sidhal turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 4",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Entertainment Theater Lantern Monument becomes narratively important",
+          "the visible condition of Entertainment Theater Lantern Monument signals political or social stress",
+          "someone uses Entertainment Theater Lantern Monument's public function to redirect crowds or information",
+          "an overlooked detail at Entertainment Theater Lantern Monument reveals how Aes Sidhal really works"
+        ]
+      },
+      {
+        "name": "Mask Pavilion Nook",
+        "symbolicRole": "Mask Pavilion Nook concentrates Aes Sidhal's local symbolism into a usable civic landmark: Section 4 local anchor.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette. It belongs to Section 4 (Entertainment / Theater) of Aes Sidhal and should use Gothic Spires, Lecture Courts, Market Arcades, cedar and gold leaf materials, Lantern Lit, Red Fabric Awnings, Woven Banners, and the Satyr / horned fae visual language. Design focus: theaters, amphitheaters, opera domes, ticket courts, small local identity prop. Terrain/water context: Cliffside; Dry Ground. Magic expression: Blue Order Sigils, Crystal Lattices, Glass Scrying. No baked labels or text.",
+        "civicRole": "Serves as Section 4 local anchor within Aes Sidhal; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Mask Pavilion Nook",
+          "show how Aes Sidhal turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 4",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Mask Pavilion Nook becomes narratively important",
+          "the visible condition of Mask Pavilion Nook signals political or social stress",
+          "someone uses Mask Pavilion Nook's public function to redirect crowds or information",
+          "an overlooked detail at Mask Pavilion Nook reveals how Aes Sidhal really works"
+        ]
+      },
+      {
+        "name": "Observatory / Astronomy Civic Hall",
+        "symbolicRole": "Observatory / Astronomy Civic Hall concentrates Aes Sidhal's local symbolism into a usable civic landmark: Section 5 local anchor.",
+        "visualRole": "A formal civic-center anchor for this section, with a clear public entrance and board-readable authority massing. It belongs to Section 5 (Observatory / Astronomy) of Aes Sidhal and should use Cliffside Monasteries, Archive Towers, Lecture Courts, cedar and gold leaf materials, Civic Blue Glow, Star Navigation, Moon Gate Arches, and the Satyr / horned fae visual language. Design focus: calendar courts, star charts, institutional anchor, public-facing administration, clear central silhouette. Terrain/water context: Cliffside; Dry Ground. Magic expression: Blue Order Sigils, Crystal Lattices, Glass Scrying. No baked labels or text.",
+        "civicRole": "Serves as Section 5 local anchor within Aes Sidhal; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Observatory / Astronomy Civic Hall",
+          "show how Aes Sidhal turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 5",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Observatory / Astronomy Civic Hall becomes narratively important",
+          "the visible condition of Observatory / Astronomy Civic Hall signals political or social stress",
+          "someone uses Observatory / Astronomy Civic Hall's public function to redirect crowds or information",
+          "an overlooked detail at Observatory / Astronomy Civic Hall reveals how Aes Sidhal really works"
+        ]
+      },
+      {
+        "name": "Star Navigation Monument",
+        "symbolicRole": "Star Navigation Monument concentrates Aes Sidhal's local symbolism into a usable civic landmark: Section 5 local anchor.",
+        "visualRole": "A compact symbolic monument that adds memory, ceremony, and local identity without overpowering the district tiles. It belongs to Section 5 (Observatory / Astronomy) of Aes Sidhal and should use Lecture Courts, Cliffside Monasteries, Archive Towers, cedar and gold leaf materials, Moon Gate Arches, Civic Blue Glow, Star Navigation, and the Satyr / horned fae visual language. Design focus: brass rings, moon dials, observatories, lens towers, calendar courts. Terrain/water context: Cliffside; Dry Ground. Magic expression: Blue Order Sigils, Crystal Lattices, Glass Scrying. No baked labels or text.",
+        "civicRole": "Serves as Section 5 local anchor within Aes Sidhal; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Star Navigation Monument",
+          "show how Aes Sidhal turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 5",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Star Navigation Monument becomes narratively important",
+          "the visible condition of Star Navigation Monument signals political or social stress",
+          "someone uses Star Navigation Monument's public function to redirect crowds or information",
+          "an overlooked detail at Star Navigation Monument reveals how Aes Sidhal really works"
+        ]
+      },
+      {
+        "name": "Celestial Court Nook",
+        "symbolicRole": "Celestial Court Nook concentrates Aes Sidhal's local symbolism into a usable civic landmark: Section 5 local anchor.",
+        "visualRole": "A small usable board landmark with street-level identity, subordinate scale, and crisp silhouette. It belongs to Section 5 (Observatory / Astronomy) of Aes Sidhal and should use Archive Towers, Lecture Courts, Cliffside Monasteries, cedar and gold leaf materials, Civic Blue Glow, Star Navigation, Moon Gate Arches, and the Satyr / horned fae visual language. Design focus: subordinate scale, stars, lenses, brass rings, moon dials. Terrain/water context: Cliffside; Dry Ground. Magic expression: Blue Order Sigils, Crystal Lattices, Glass Scrying. No baked labels or text.",
+        "civicRole": "Serves as Section 5 local anchor within Aes Sidhal; scenes around it should show public function, movement, and local obligations rather than empty decoration.",
+        "narrativeUse": [
+          "stage scenes involving Celestial Court Nook",
+          "show how Aes Sidhal turns landmark symbolism into civic pressure",
+          "anchor public movement and crowd behavior",
+          "give writers a concrete place for announcements, disputes, errands, or rituals"
+        ],
+        "assetUse": [
+          "district diorama anchor for Section 5",
+          "map background landmark marker",
+          "visual continuity anchor across hero and street scenes",
+          "scale reference for civilians, roads, plazas, and props"
+        ],
+        "sensoryIdentity": [
+          "local foot traffic",
+          "stone, timber, metal, cloth, or carved surfaces as indicated by the source image package",
+          "public voices and civic work nearby",
+          "ambient city light and weathering",
+          "close pedestrian-scale details rather than abstract skyline-only treatment"
+        ],
+        "storyHooks": [
+          "a routine civic action at Celestial Court Nook becomes narratively important",
+          "the visible condition of Celestial Court Nook signals political or social stress",
+          "someone uses Celestial Court Nook's public function to redirect crowds or information",
+          "an overlooked detail at Celestial Court Nook reveals how Aes Sidhal really works"
         ]
       }
     ]
   },
   "assetGuidance": {
     "districtDioramaGuidance": [
-      "S1 must center the Border Wall Beacon with cliff gatehouses, obsidian/pale-stone walls, woven banners, blue ward lamps, guard posts, and visible access-control geometry.",
-      "S2 must read as regulated alchemy: Alchemy Lab, blue glass, containment courts, serpent geometry, formula archives, warning lamps, and technicians working under public law.",
-      "S3 must show Legislative Quarter identity through Assembly Hall, law tablets, gold-seal monuments, charter arcades, speaking platforms, and formal public gathering space.",
-      "S4 must show theater as civic institution: Opera Court, red awnings, lanterns, mask pavilion, music platforms, crowded terraces, and performance spaces integrated with city authority.",
-      "S5 must include Star Observatory, moon gate arches, star navigation monument, celestial court platforms, charts, lenses, and quiet blue-silver light high above the city."
+      "Dioramas must support 25 district slots: S1 covers D01, D02, D03, D06, D07 and uses source-backed anchors Fortress / Border Wall Civic Hall, Border Wall Beacon, Woven Banners Monument, Watch Bastion Nook.",
+      "Dioramas must support 25 district slots: S2 covers D04, D05, D09, D10, D15 and uses source-backed anchors Arcane / Alchemical Labs Civic Hall, Alchemy Lab, Blue-Lamp Monument, Formula Archive Nook.",
+      "Dioramas must support 25 district slots: S3 covers D08, D12, D13, D14, D18 and uses source-backed anchors Legislative Quarter Hall, Assembly Hall, Legislative Quarter Gold-Seal Monument, Charter Arcade Nook.",
+      "Dioramas must support 25 district slots: S4 covers D11, D16, D17, D21, D22 and uses source-backed anchors Entertainment / Theater Civic Hall, Opera Court, Entertainment Theater Lantern Monument, Mask Pavilion Nook.",
+      "Dioramas must support 25 district slots: S5 covers D19, D20, D23, D24, D25 and uses source-backed anchors Observatory / Astronomy Civic Hall, Star Observatory, Star Navigation Monument, Celestial Court Nook."
     ],
     "mapBackgroundGuidance": [
-      "Use a terraced cliff city with exposed vertical circulation, pale civic stone, obsidian border structures, blue crystal lights, cedar balconies, vinework, and ceremonial gates.",
-      "The Hanging Charms Veiled High Court should occupy central authority space; the Border Wall Beacon should be visually tied to the fortified approach; the Satyr Revelstone Grove Theater should read as a separate wonder-scale theater-grove on the skyline.",
-      "Keep the city theatrical and magical without losing its guarded legal structure. The image should imply controlled access, not open chaos."
+      "Map backgrounds must show Satyr Revelstone Grove Theater as the wonder-scale identity anchor, Hanging Charms Veiled High Court at D13, and Border Wall Beacon as the city signal landmark.",
+      "Preserve the five-section spine: S1 Fortress / Border Wall Civic Hall, S2 Arcane / Alchemical Labs Civic Hall, S3 Legislative Quarter Hall, S4 Entertainment / Theater Civic Hall, S5 Observatory / Astronomy Civic Hall.",
+      "Use roads, terrain, water, civic terraces, walls, markets, courts, or service routes only where they support the exact city identity and tactical readability."
     ],
     "requiredVisualElements": [
-      "satyr / horned-fae citizens",
-      "cliffside terraces",
+      "Satyr Revelstone Grove Theater",
       "Border Wall Beacon",
       "Hanging Charms Veiled High Court",
-      "Satyr Revelstone Grove Theater",
-      "blue ward lamps and crystal lights",
-      "hanging charms",
-      "woven banners",
-      "masks and horns",
-      "cedar balconies and vine screens",
-      "alchemy towers and containment courts",
-      "Assembly Hall and gold seals",
-      "Opera Court with red awnings",
-      "Star Observatory and moon gates"
+      "Star Observatory",
+      "Alchemy Lab",
+      "Opera Court",
+      "Fortress / Border Wall Civic Hall",
+      "Woven Banners Monument",
+      "Watch Bastion Nook",
+      "Arcane / Alchemical Labs Civic Hall",
+      "Blue-Lamp Monument",
+      "Formula Archive Nook",
+      "Legislative Quarter Hall",
+      "Assembly Hall",
+      "Legislative Quarter Gold-Seal Monument",
+      "Charter Arcade Nook",
+      "Entertainment / Theater Civic Hall",
+      "Entertainment Theater Lantern Monument",
+      "Mask Pavilion Nook",
+      "Observatory / Astronomy Civic Hall",
+      "Star Navigation Monument",
+      "Celestial Court Nook",
+      "Moonstone",
+      "Granite",
+      "Cedar",
+      "Woven Vine",
+      "Gold Leaf",
+      "Cliffside",
+      "Terraced Slope",
+      "Civic Terraces",
+      "Ward Networks",
+      "Ritual Geometry",
+      "Dream Binding"
     ],
     "elementsToAvoid": [
-      "generic woodland satyr camp",
-      "drunken revelry as sole identity",
-      "flat city streets without cliff ascent",
-      "pure high-elf celestial perfection",
-      "dark-elf shadow aristocracy",
-      "blue light used only as decoration",
-      "uncontrolled magical chaos",
-      "modern nightclub or circus aesthetics",
-      "overgrown forest replacing civic architecture"
+      "extra top-level schema sections or research-log content in the JSON",
+      "generic fantasy architecture that ignores exact anchor names",
+      "invented missing street anchors",
+      "readable real-world text labels baked into images",
+      "collapsing the 25-district board into only five playable spaces",
+      "making landmarks decorative when they should have civic, narrative, and asset function"
     ]
   }
 }
