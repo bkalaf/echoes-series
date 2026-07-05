@@ -2,13 +2,13 @@
 
 ![Mark of the Orbs](assets/mark_of_orbs.svg)
 
-**The Room Between Stories**
+**Chapter 7: A Room Between Stories**
 
 The Scene Between Stories
 
-Stonewake, 2nd of Hearthwake — Subjective Time
+Stonewake, 2nd of Hearthwake, Subjective Time
 
-<i class="fa-solid fa-fire-flame-curved"></i> Blue Beacon - 24-Hour Warning of Conjunction #1
+<span class="beacon beacon--blue" role="img" aria-label="Blue Beacon"></span> Blue Beacon - 24-Hour Warning of Conjunction #1
 
 </div>
 

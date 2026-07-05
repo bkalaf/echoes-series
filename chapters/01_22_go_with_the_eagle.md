@@ -2,7 +2,7 @@
 
 ![Mark of the Orbs](assets/mark_of_orbs.svg)
 
-**Chapter 22: Go With The Eagle**
+**Chapter 23: Go With The Eagle**
 
 Mae's Manor, City of Aquila Matara, Capital of Erzengel
 

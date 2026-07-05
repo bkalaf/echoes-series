@@ -2,9 +2,9 @@
 
 ![Mark of the Orbs](assets/mark_of_orbs.svg)
 
-**Chapter 1: The Royal Astronomer's Tower**
+**Chapter 1: Omen in the Astronomer's Aerie**
 
-The Royal Observatory, Skyrend Peak
+The Royal Observatory, City of Skyrend Peak, State of Skyrend
 
 Dravenkar, 1st of Hearthwake, Hour of the Prowler [Midnight −2 hours]
 

@@ -2,9 +2,9 @@
 
 ![Mark of the Orbs](assets/mark_of_orbs.svg)
 
-**Chapter 9: Day One Architecture**
+**Chapter 10: Day One Engineering**
 
-Guest Quarters, Van'kareth Estate, City of Aquila Matara
+Guest Quarters, Van'kareth Estate, City of Aquila Matara, Capital of Erzengel
 
 Aegalor, 3rd of Hearthwake, Conjunction Day 1, Hour of the Wyrm [Midnight +5 hours]
 

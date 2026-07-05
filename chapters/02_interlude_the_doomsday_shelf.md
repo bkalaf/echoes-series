@@ -1,4 +1,12 @@
-# Interlude: The Doomsday Shelf
+<div class="eidolon-chapter-heading page-break-before quarter-page" align="center">
+
+![Mark of the Orbs](assets/mark_of_orbs.svg)
+
+**Interlude: The Doomsday Shelf**
+
+Exact Location and Time Unknown
+
+</div>
 
 Sorry for interrupting you again, Dear Reader.
 

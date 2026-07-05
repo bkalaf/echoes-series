@@ -2,9 +2,9 @@
 
 ![Mark of the Orbs](assets/mark_of_orbs.svg)
 
-**Chapter 6: The Weight of the Roster**
+**Chapter 6: Strain of the Roster**
 
-The Bronze Doors, Conclave High Assembly, City of Aquila Matara
+The Bronze Doors, Conclave High Assembly, City of Aquila Matara, Capital of Erzengel
 
 Stonewake, 2nd of Hearthwake, Hour of the Singularity [Noon +5 hours]
 
@@ -42,7 +42,7 @@ She couldn’t afford to sit with it. She had a room full of the seventy-two to 
 
 She tugged the blue robe with the white trim straighter across her shoulders — it sat oddly, pulled somewhere it shouldn't, but she had neither the attention nor the will to interrogate her own clothing right now — and the great doors did not so much open as depressurize, a long vault-like hiss of ancient air, and Addie walked in alone.
 
-The High Assembly opened around her: a vast half-moon atrium beneath a synthetic blue sky, tiered and gleaming, and her back room mapped it before her conscious mind caught up — every exit, every banner, every angle of the false daylight, seventy-two faces in twenty-four regional sections each split into careful thirds. One of the seventy-two had eight eyes. She elected, as a matter of survival, not to process that today.
+The High Assembly opened around her: a vast half-moon atrium beneath a synthetic blue sky, tiered and gleaming, and her back room mapped it before her conscious mind caught up — every exit, every banner, every angle of the false daylight, seventy-two faces in twenty-four regional sections each split into careful thirds.
 
 Around the inner wall hung notices in black-iron frames, and she recognized the format at once — the same vellum, the same crimson seal, that had unrolled across two cities today. This one explained the Moderator: the office of Facilitator amended, inheriting the functions of the temporarily defunct role plus additional duties, the list to grow as people were informed and accepted. Below it, eleven clean slots. Nine numbered. Two lettered.
 
@@ -50,13 +50,13 @@ Slot one was already filled. *1 — ADESHKA H. SONNTAG — HEAD MODERATOR.*
 
 And beneath the numbers, on the first alpha line: *A — BRICKETT H — PERSONAL ATTACHÉ TO THE HEAD MODERATOR.*
 
-Addie read it twice, and a laugh very nearly escaped her, because she understood exactly what had happened. Somewhere between the pawn shop and here, Brickett had heard the word *attaché* and filed it, with total confidence, as *attached* — and had concluded that the returning machinery of the cosmos had formally assigned him to her, permanently, like a piece of luggage with opinions and a fire hazard. She swallowed the laugh, because laughing alone in the Conclave was precisely the sort of thing they would put on a broadsheet, and kept walking.
+Addie read it twice, and a laugh very nearly escaped her, because she understood exactly what had happened. Somewhere between the pawn shop and here, Brickett must have been told he was to be her *attaché* — and had heard it, with total confidence, as *attached* — and had concluded that the returning machinery of the cosmos had formally assigned him to her, permanently, like a piece of luggage with opinions and a fire hazard. She swallowed the laugh, because laughing alone in the Conclave was precisely the sort of thing they would put on a broadsheet, and kept walking.
 
 ## The Roster
 
 Behind the massive obsidian dais at the focus of the half-moon sat a silver-haired woman with her boots crossed on the desk.
 
-She was heavy with earrings and visible ink, entirely composed, and studiously, insultingly relaxed, and she was flipping a coin — blackened on one face, bright silver on the other. *Flip. Clink. Catch.* Lady Mae'vyri H. Van'kareth, Speaker of the Conclave, watched Addie cross the whole long floor toward her and did not take her feet down.
+She was athletic and lean, though heavy with earrings and visible ink, entirely composed, and studiously, insultingly relaxed, and she was flipping a coin — blackened on one face, bright silver on the other. *Flip. Clink. Catch.* Lady Mae'vyri H. Van'kareth, Speaker of the Conclave, watched Addie cross the whole long floor toward her and did not take her feet down.
 
 "There she is," Mae said, to the room as much as to Addie. "The Moderator herself. Late. Very nearly dodged a whole chamber of questions by getting collected off a staircase — I don't know whether to be offended or impressed." *Flip. Clink. Catch.* “Bit of both, I think.”
 
@@ -88,11 +88,15 @@ The Overseer came in on the taps of a cane — old rat-kin, stooped, wrapped in 
 
 Addie went crimson to the roots of her wrongly-fixed hair. The entire Conclave had heard every word.
 
-"This," Mae informed her, "is the one who's meant to collect you."
+"Are you here with the Moderator," Mae asked him, "or here to collect her?"
 
 "I'm standing right here," Addie said.
 
-"Yes," the Overseer agreed, considering her. "Your robes are inside out, incidentally. I couldn't decide whether that was a statement or a symptom. I've settled on symptom." Then he turned, unhurried, to the deepest, most shadowed chair in the chamber — a seat the light seemed to have been trained to forget — and the shadow drew back from it reluctantly.
+"Yes," the Overseer agreed, considering her. "Your robes are inside out, incidentally. I couldn’t decide whether that was a statement or a symptom. I’ve settled on symptom."
+
+And there it was — the thing that had been pulling wrong at her shoulder since dawn. Somewhere back in the pawn shop Brickett had squinted at her and muttered something about her clothes being all crooked, and she’d been too deep in bricks and marks to hear it, and *this* was what he’d meant. The whole day. Not one of the dozen people who had shot at her, dragged her, or handed her a beaver had thought to mention that the Head Moderator of Erzengel was walking the capital inside out. That told her something, she thought, about the day or about the people, and she was not sure which reading was worse.
+
+Then he turned, unhurried, to the deepest, most shadowed chair in the chamber — a seat the light seemed to have been trained to forget — and the shadow drew back from it reluctantly.
 
 High Sovereign Dovren Judax Thorne was not the man on the coins.
 
@@ -118,11 +122,15 @@ The notices on the wall rewrote themselves to say so. Addie didn't see it happen
 
 ---
 
-Four scrolls unrolled into being in the open air of the chamber.
+Four sealed scrolls conjured into being in the open air of the chamber, hanging there unbroken, crimson wax intact, turning slowly in a light that came from nowhere.
 
-Addie counted them and noted, with the cold reflex of her training, that there were *four,* not five — because her own appointment had been confirmed the instant she crossed the threshold under a blue beacon. The system had already spent her name.
+The Overseer looked directly at Addie. "Before these are read, Moderator — do you contest your role, or accept it, wholeheartedly and without question?" A dry pause. "I ask because I brought four scrolls and not five. The Master took your speech on the steps as your answer, and I am inclined to agree. But I dislike leaving a thing this size to inference, and I dislike still more the sort of person who would stand up in a year and argue it was never properly put to you. So I am putting it to you. Now. Plainly."
 
-The first drifted toward Mae. The second toward a black cobra serpent-kin low in the Schism bloc — elegant, still, coiled in a representative's robes — who wore, Addie saw, small earrings stamped with the Mark of the Orbs. He caught her seeing them, and let her see him catch it, and said nothing. The third floated up to the Crucible section, to a being of banked magma held in a rough humanoid shape, whose kind had been classified an illegal form of existence until a mere six years ago. The fourth went to the white-furred guard behind the Sovereign's chair.
+Addie thought of her own name already burning on the wall, and of the door at the start of all this that had called her compelled and free in the same breath. "I accept," she said.
+
+"On the record," said the Overseer, satisfied.
+
+The first drifted toward Mae. The second toward a black-scaled serpent-kin representative in the Bastion-Serpent Reach section — long-limbed, robed as any idle southern courtier, gum working slow at one cheek — who watched it come with unhurried, glittering patience and did not trouble himself to reach for it. The third rose to the Inferna-Mire section, to a draconic, firebound thing, scaled and banked with a low ember-light, whose kind had been classed an illegal form of existence until a mere six years ago. The fourth went to the white-furred bear-kin guard behind the Sovereign’s chair.
 
 "You'll want to hold onto that one," the Overseer told the guard.
 
@@ -166,9 +174,7 @@ The cobra opened next, with slow professional indifference, and slot five filled
 
 Carrio considered that as though it were a genuinely useful piece of intelligence, which — Addie realized, watching him file it exactly the way she would have — it was. "Well," he said. "How reassuring. The apocalypse remembered to accessorize." A fox-kin representative two seats over shifted subtly away from him. Carrio noticed. Carrio said nothing.
 
-The magma elemental opened his scroll without waiting to be told, and the green appointment-flame met his own molten light and did something strange in the meeting — guttered, argued, resolved. The wall did not write him to a number. It wrote him to the second lettered line: *B — RHÜN H. IGNIS.*
-
-Addie's whole attention sharpened. *The alpha lines are not lesser numbers. They're a different category entirely.* Brickett was A and an attaché — a role defined by attachment. Rhün was B and defined by nothing at all, a letter with no title after it. She did not know what that meant, only that it was not small.
+The draconic firebound opened his scroll without waiting to be told, and the green appointment-flame met his own banked ember-light and did something strange in the meeting — guttered, argued, resolved. The wall did not write him to a number. It wrote him to the second lettered line: *B — RHÜN H. IGNIS.*
 
 Rhün read his own first name off the burning wall — *Rhün,* not *the Crucible representative,* not *the Ignis question,* not the policy-shorthand a chamber like this reduced him to — and made a single quiet sound. "Hm." Loaded. Private. His.
 
@@ -200,7 +206,7 @@ Yurislav broke the seal. Slot eight filled: *8 — YURISLAV H. ARSLAN.* And the 
 
 ---
 
-"To summarize," the Overseer said, "for those attempting to keep score." He counted without hurry. "Lady Van'kareth, Representative Vessalor, Rhün Ignis, and the guard Arslan have provisionally accepted. Major Tallandra H. Highwatch accepted her scroll at the perimeter; her name stands. Miss Sonntag's position was confirmed at the threshold. Brickett H. has been designated and is, I'm told, currently being cleaned. Further scrolls are being delivered to the remaining necessary recipients."
+"To summarize," the Overseer said, "for those attempting to keep score." He counted them off without hurry. "Speaker Mae’vyri H. Van’kareth. Prince Carrio H. Vessalor, of the Embercoil. Representative Rhün H. Ignis. And Mister Yurislav H. Arslan — have all provisionally accepted." He paused; a finger came up, and his head tilted, listening to something no one else could hear. "A moment." A beat. "Ah — there we go." Down the wall, at the perimeter line, ink scratched itself into a waiting slot: *Major Tallandra H. Highwatch.* "The Major, accepting at the door. Miss Sonntag’s appointment was confirmed at the threshold." He turned one palm up and open, offering the empty air the way Brickett had earlier offered the room his own missing name, and held it there a beat too long. "And Mister Brickett H. — designated, and, I am told, currently being cleaned. Further scrolls travel even now to the recipients the story still requires."
 
 "How many remain?" Addie asked.
 
@@ -212,7 +218,7 @@ Yurislav broke the seal. Slot eight filled: *8 — YURISLAV H. ARSLAN.* And the 
 
 The chamber tried, audibly, to do arithmetic on numbers it didn't have. Addie let hers run in the quiet of her own head: five numbered names now, two lettered, and four numbered slots still dark. The lettered roles sat apart from the numbered ones — a separate architecture braided alongside the main one. Brickett, A, tethered to her. Rhün, B, tethered to nothing anyone would name. Tallandra named but held outside the threshold. Yurislav eighth, still standing behind the throne he'd just been lifted out of.
 
-And under all of it, in the part of her that had spent eleven years learning to feel the shape of a real historical event before she could prove it, Addie felt the sources begin to align — the way they do only in the aftermath of something enormous, when suddenly a dozen unrelated records all point at the same buried date. This had not been built quickly. It had not been improvised in response to a beacon. It reached back across spans of time that made the two-thousand-year Sovereign line, the seventy-two-city Conclave, all of it, look like recent construction on very old ground. She thought, without the language for it, of a dark room and a breathing seam and a storm of white ballots — a scene she had never witnessed and somehow half-remembered — and she thought about her own name burning on the wall, and she thought about a soot-covered child being scrubbed clean in a barracks somewhere, alphabetized to her for reasons no one in this chamber understood yet.
+And under all of it, in the part of her that had spent eleven years learning to feel the shape of a real historical event before she could prove it, Addie felt the sources begin to align — the way they do only in the aftermath of something enormous, when suddenly a dozen unrelated records all point at the same buried date. This had not been built quickly. It had not been improvised in response to a beacon. It reached back across spans of time that made the two-thousand-year Sovereign line, the seventy-two-city Conclave, all of it, look like recent construction on very old ground. She thought about her own name burning on the wall, and about a soot-covered child being scrubbed clean in a barracks somewhere, alphabetized to her for reasons no one in this chamber understood yet.
 
 ---
 
@@ -248,23 +254,23 @@ And the High Assembly became what Addie would remember it as: a great half-moon 
 
 The Overseer's gray-furred hand closed around Addie's wrist.
 
-The chamber tilted — not physically; nothing in the geometry of the room actually moved — but the space itself went suddenly negotiable, as though the floor and the walls and the false sky had all quietly agreed to stop being fixed. Mae saw it a half-second late and lunged from the dais anyway, because standing still had never once been available to her, and her coin left her fingers as she moved, spinning up into the air black and silver, black and silver.
+The chamber tilted — not physically; nothing in the geometry of the room actually moved — but the space itself went suddenly negotiable, as though the floor and the walls and the false sky had all quietly agreed to stop being fixed. Mae *felt* it before she saw it — a half-second before anyone in the chamber saw anything at all, the way she always did — but the Overseer had chosen his moment with a craftsman’s patience, and his moment was this one: the single instant her attention had slipped sideways to Carrio, to the thing the serpent had just turned loose in the room to be read. She caught it a half-second late and lunged from the dais anyway, because standing still had never once been available to her, and her coin left her fingers as she moved, spinning up into the air black and silver, black and silver.
 
-Addie's senses stretched thin. She saw Dovren in his chair, incandescent with a fury he was forbidden to spend. She saw Yurislav look at her — really look — with a recognition she had not expected from a stranger: *he knows exactly what it is to be chosen without being asked.* She saw the names burning on every wall of the tilting room, five numbered and two lettered and four slots dark.
+Addie's senses stretched thin. She saw Dovren in his chair, incandescent with a fury he was forbidden to spend. She saw Yurislav look at her — really look — with a recognition she had not expected from a stranger: *he knows exactly what it is to be chosen without being asked.* She saw the names already burned into every wall of the tilting room, five numbered and two lettered and four slots still dark.
 
 And she saw ink begin to move into the second slot. The one directly beneath her own.
 
-The first stroke curved. A G. Her back room, faithful to the last, threw up a spray of possible names — and one of them arrived faster than all the others, unbidden, from a full year ago.
+The first stroke curved. A G. Her back room, faithful to the last, threw up a spray of possible names — and one of them arrived faster than all the others, unbidden, from six months back.
 
 *Gregory H. Frydrake.*
 
-Her academic rival from Volgrad. Dragonkin, priest-scholar, maddeningly precise, the only person who had ever argued her to a standstill in a seminar and then come back a week later with better citations instead of a grudge. She had not thought his name in a year, and here it was, writing itself into the machinery of the world one slot below hers.
+Her old academic rival from Volgrad — the dragon-kin priest-scholar, the finest living symbologist she knew, the only person who had ever argued her to a standstill in a seminar and then come back a week later with better citations instead of a grudge. The very rival, she realized with a small lurch, she had written to about the mark on her mother’s pendant. She had not thought his name in months, and here it was, writing itself into the machinery of the world one slot below hers.
 
 The G sharpened. The shadows rose up the walls. The last thing Addie saw before the room folded her away was Mae's coin, hanging motionless at the top of its arc —
 
 black side up.
 
-And then she was pulled into the first mirror.
+And then she was pulled out of time and out of space — into a room that had not been a room in a very long while.
 
 ---
 
@@ -276,15 +282,17 @@ Mae stood at the edge of her dais, looking at the place where Addie had been. Sh
 
 "Somebody," she said, to the room, "tell me what the name is."
 
-No one answered.
+No one answered — until the second-to-youngest representative in the chamber, a young cherub of Ethervale, came half out of their seat, craning at the notice as the ink finished forming, and read it aloud in a bright, nervous, carrying voice. "Second slot, Speaker — beneath the Head Moderator — it says *Gregory.* G-r-e-g—"
 
-The wall answered instead. In the second slot, directly beneath the Head Moderator, the ink finished what it had started: *2 — GREGORY H. FRYDRAKE.*
+"Yes," Mae said, before the cherub reached the fourth letter. "Yes. Please. I don’t care how it’s spelled. Just *find* him."
 
-Mae looked at Carrio. She looked at Rhün, banked and quiet in the Crucible tier. She looked at Yurislav, a guard who was now a Moderator standing behind a king who was now a witness. And she came, unhurried, to the conclusion she always came to in a room that had lost its nerve: that it belonged to her now, because no one else in it had the sense to pick it up.
+The wall finished it anyway, beneath her name: *2 — GREGORY H. FRYDRAKE.*
+
+Mae looked at Carrio. She looked at Rhün, banked and quiet in the Inferna-Mire section. She looked at Yurislav, a guard who was now a Moderator standing behind a king who was now a witness. And she came, unhurried, to the conclusion she always came to in a room that had lost its nerve: that it belonged to her now, because no one else in it had the sense to pick it up.
 
 She bent and retrieved her coin.
 
-"Find Gregory H. Frydrake," she said, and started it flipping again. *Flip. Clink. Catch.* "And someone get me Major Tallandra H. Highwatch — she's stacking outside the perimeter looking magnificent, I'm told. The rest of you will behave like functional adults for as long as the gods can stand to watch, and we will *wait,*" she said, "for that dreadful old rat to un-collect our Moderator and hand her back."
+She started the coin flipping again. *Flip. Clink. Catch.* "And someone get me Major Tallandra H. Highwatch — she’s at the barracks between here and the palace by now, I expect, wondering how in the world she’s going to explain any of this. The rest of you will behave like functional adults for as long as the gods can stand to watch, and we will *wait,*" she said, "for that dreadful old rat to un-collect our Moderator and hand her back."
 
 The coin came down and stopped — on its edge, balanced impossibly between two fingers.
 
@@ -292,8 +300,8 @@ Mae looked at it. Then she looked back up at the wall, at the roster still burni
 
 *A — BRICKETT H — PERSONAL ATTACHÉ TO THE HEAD MODERATOR.*
 
-She narrowed her eyes. Beastkin took the maternal family name; it was among the oldest and least negotiable courtesies in the whole of Erzengel. A beastkin child with a bare given name and a single hanging initial and no house behind either was not a clerical gap. It was a hole where a mother should be.
+She narrowed her eyes. Nearly every people that could claim a mother at all took the maternal family name — it was among the oldest and least negotiable courtesies in the whole of Erzengel; only a handful of kinds stood outside it, the Construx and the Titans, the celestials and the lich, who reckoned lineage by other means entirely. A name like *Brickett,* she judged, belonged to none of those exceptions. A child of the common kinds with a bare given name and a single hanging initial and no house behind either was not a clerical gap. It was a hole where a mother should be.
 
-"Somebody," Lady Mae'vyri H. Van'kareth said, very softly, to a chamber that had no answer for her, "tell me who the hell *Brickett* is. And why a beastkin child doesn't have a last name."
+"Somebody," Lady Mae’vyri H. Van’kareth said, very softly, to a chamber that had no answer for her, "tell me who the hell *Brickett* is. And why a child of Erzengel is walking around with no mother’s name behind him."
 
-Outside, over the white stone and the seventy-third city and the whole waiting continent, the beacon burned blue.
+Outside, over the white stone and the seventy-third city — the afterthought city, the neutral city, the home of the High Sovereign and the seat of the Conclave — and the whole waiting continent beyond it, the beacon burned blue.

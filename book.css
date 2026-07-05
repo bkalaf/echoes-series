@@ -1,0 +1,31 @@
+@font-face{font-family:'UnifrakturCook';src:url('unifrakturcook.ttf');font-weight:700;font-style:normal;}
+@page{size:5.5in 8.5in;margin:0.55in 0.6in;}
+html,body{margin:0;padding:0;}
+body{font-family:"EB Garamond","Iowan Old Style",Georgia,serif;color:#17130f;font-size:12pt;line-height:1.5;}
+.acrostic{font-family:'UnifrakturCook',serif;font-weight:700;font-size:1.35em;line-height:0;}
+h1{display:none;}
+.ct{text-align:center;font-variant:small-caps;letter-spacing:.02em;font-weight:700;font-size:17pt;line-height:1.3;margin:.7em 0 .15em;}
+.ct .acrostic{font-family:'UnifrakturCook',serif;font-weight:700;font-size:1.35em;line-height:0;}
+.hframe{page-break-before:always;break-before:page;border-top:1px solid #6b5d4f;border-bottom:1px solid #6b5d4f;
+   border-left:3px double #6b5d4f;border-right:3px double #6b5d4f;
+   text-align:center;padding:20px 22px 22px;margin:.35in 0 .35em;}
+.hframe--light{page-break-before:always;break-before:page;border:none;padding:6px 22px 10px;margin:.35in 0 .35em;}
+.hf-mark{display:block;text-align:center;margin:0 0 .8em;}
+.hf-mark img{height:50px;width:auto;}
+.hfire{display:block;text-align:center;margin:.8em 0 0;}
+.hfire img{height:38px;width:auto;}
+.cmeta{margin:0;}
+.cmeta p{text-align:center;text-indent:0;margin:.12em 0;}
+.loc-in{font-style:italic;color:#4a4038;font-size:11pt;line-height:2.7;margin:.1em 0 .3em;}
+.loc{font-style:italic;color:#4a4038;font-size:11pt;margin:.05em 0 .15em;}
+.date{font-style:italic;color:#4a4038;font-size:11pt;margin:.15em 0 0;}
+.hour{font-style:italic;color:#4a4038;font-size:11pt;margin:0 0 .15em;}
+.tag{font-variant:small-caps;letter-spacing:.03em;font-size:11pt;margin-top:.5em;}
+.exact-loc{font-style:italic;color:#4a4038;font-size:11pt;}
+img.coa{height:40px;width:auto;display:inline-block;vertical-align:middle;margin:0 11px;}
+h2{text-align:left !important;font-weight:700;font-variant:small-caps;letter-spacing:.05em;
+   font-size:13pt;color:#3a2f26;margin:1.6em 0 .7em;}
+p{margin:0;text-indent:1.4em;line-height:1.5;text-align:justify;-webkit-hyphens:auto;hyphens:auto;}
+h2+p,hr+p,.hframe+p,.hframe--light+p,.ct+p{text-indent:0;}
+hr{border:0;margin:1.4em 0;}
+hr::after{content:"\2756\00a0\00a0\2756\00a0\00a0\2756";color:#b09a80;font-size:.8em;letter-spacing:.1em;display:block;text-align:center;}

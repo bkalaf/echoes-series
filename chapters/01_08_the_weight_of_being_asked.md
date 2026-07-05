@@ -2,9 +2,9 @@
 
 ![Mark of the Orbs](assets/mark_of_orbs.svg)
 
-**Chapter 8: The Weight of Being Asked**
+**Chapter 9: The Weight of the Choice**
 
-Van'kareth Estate, City of Aquila Matara
+Van'kareth Estate, City of Aquila Matara, Capital of Erzengel
 
 Stonewake, 2nd of Hearthwake, Hour of the Waxing Crescent [Midnight −5 hours]
 

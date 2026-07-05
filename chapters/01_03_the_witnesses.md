@@ -1,10 +1,14 @@
-# The Witnesses
+<div class="eidolon-chapter-heading page-break-before quarter-page" align="center">
+
+![Mark of the Orbs](assets/mark_of_orbs.svg)
+
+**Chapter 3: Regarding the Witnesses**
+
+Exact Location and Time Unknown
+
+</div>
 
 ## The Scene Between Stories
-
-Witness Space (Metaphysical)
-Dravenkar, 1 Hearthwake
-Subjective time — immediately after the nomination is signed
 
 There was a darkness that gathered rather than fell.
 
@@ -53,12 +57,6 @@ Only Silence did not flinch. She looked up at the intruder through the slots of 
 The old rat spread his hands, and there was apology in the gesture, and exhaustion far beneath it. "I'm new to this," he admitted. "The role. The whole — apparatus. They brought me in moments ago, blinking, and read me my duties off a page with the ink still wet." A dry, humorless sound. "But I've been brought current. And I'm here to explain the addendums."
 
 ---
-
-## The Addendums
-
-Witness Space (Metaphysical)
-Dravenkar, 1 Hearthwake
-Subjective time — immediately after the nomination is signed
 
 "There are no addendums." Meridian's minotaur voice was pure reason, red and blue braided into one flat refusal. "The script does not have addendums. The script is *finished.* Who altered it? Who reached into a closed agreement and *wrote* in it?"
 
@@ -142,13 +140,7 @@ The word dropped into the ring like a stone into a well.
 
 The Overseer looked at the back of her porcelain mask for a long moment. Then he inclined his head, and chose — visibly, deliberately — not to press it.
 
----
-
 ## The Ballot
-
-Witness Space (Metaphysical)
-Dravenkar, 1 Hearthwake
-Subjective time — immediately after the nomination is signed
 
 Silence lifted one small hand, and the void filled with paper.
 
@@ -218,13 +210,7 @@ The Overseer crossed the empty floor and took it out of the air. He held it a mo
 
 "We're counting on you, girl," he muttered, to no one, to the paper. "Saints help us. We're counting on you."
 
----
-
 ## The First Shot
-
-Witness Space (Metaphysical) → normal-world consequence
-Dravenkar, 1 Hearthwake
-Subjective time — immediately after the nomination is signed
 
 The Overseer did not get up.
 

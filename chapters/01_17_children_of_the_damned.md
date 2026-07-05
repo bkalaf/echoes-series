@@ -2,9 +2,9 @@
 
 ![Mark of the Orbs](assets/mark_of_orbs.svg)
 
-**Chapter 17: Children of the Damned**
+**Chapter 18: Children of the Damned**
 
-Breakfast Room, Van'kareth Estate, City of Aquila Matara
+Breakfast Room, Van'kareth Estate, City of Aquila Matara, Capital of Erzengel
 
 Eldrane, 14th of Hearthwake, Conjunction Day 12, Hour of the Phoenix [Noon −5 hours]
 

@@ -2,9 +2,9 @@
 
 ![Mark of the Orbs](assets/mark_of_orbs.svg)
 
-**Chapter 21: The Stupid Thread**
+**Chapter 22: The Stupid Thread**
 
-The Ribbit Hole, Red Thread District, City of Pollyr Fen
+The Ribbit Hole, Red Thread District, City of Pollyr Fen, State of Hellgate River-Mire
 
 Dravenkar, 17th of Hearthwake, Conjunction Day 15, Hour of the Iron Foundry [Noon −3 hours]
 

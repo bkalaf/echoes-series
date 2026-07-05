@@ -2,7 +2,7 @@
 
 ![Mark of the Orbs](assets/mark_of_orbs.svg)
 
-**Chapter 24: The Thread Through the Maze**
+**Chapter 25: The Thread Through the Maze**
 
 Exact Location and Time Unknown
 

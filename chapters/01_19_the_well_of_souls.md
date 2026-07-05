@@ -2,9 +2,9 @@
 
 ![Mark of the Orbs](assets/mark_of_orbs.svg)
 
-**Chapter 19: The Well of Souls**
+**Chapter 20: The Well of Souls**
 
-Outer Reed Shelter District, City of Pollyr Fen
+Outer Reed Shelter District, City of Pollyr Fen, State of Hellgate River-Mire
 
 Karskov, 15th of Hearthwake, Conjunction Day 13, Hour of the Griffin [Midnight +6 hours]
 

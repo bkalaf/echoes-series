@@ -2,9 +2,9 @@
 
 ![Mark of the Orbs](assets/mark_of_orbs.svg)
 
-**Chapter 18: The Shelter Test**
+**Chapter 19: The Shelter Test**
 
-Outer Reed Shelter District, City of Pollyr Fen
+Outer Reed Shelter District, City of Pollyr Fen, State of Hellgate River-Mire
 
 Eldrane, 14th of Hearthwake, Conjunction Day 12, Hour of the Courier [Midnight −3 hours]
 

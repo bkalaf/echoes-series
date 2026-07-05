@@ -2,9 +2,9 @@
 
 ![Mark of the Orbs](assets/mark_of_orbs.svg)
 
-**Chapter 12: The Unwound Core**
+**Chapter 13: The Core Unwrought**
 
-Van'kareth Estate, City of Aquila Matara
+Van'kareth Estate, City of Aquila Matara, Capital of Erzengel
 
 Aegalor, 3rd of Hearthwake, Conjunction Day 1, Hour of the Star-Siren [Noon +6 hours]
 

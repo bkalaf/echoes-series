@@ -2,7 +2,7 @@
 
 ![Mark of the Orbs](assets/mark_of_orbs.svg)
 
-**Chapter 15: The Cities That Disobeyed**
+**Chapter 16: The Cities That Disobeyed**
 
 The Grand Beacon, Section 1, City of Luminthalas, State of Ascentia
 

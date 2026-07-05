@@ -2,9 +2,9 @@
 
 ![Mark of the Orbs](assets/mark_of_orbs.svg)
 
-**Chapter 20: The Red Thread District**
+**Chapter 21: The Red Thread District**
 
-Red Thread District, City of Pollyr Fen
+Red Thread District, City of Pollyr Fen, State of Hellgate River-Mire
 
 Karskov, 15th of Hearthwake, Conjunction Day 13, Hour of the Waning Crescent [Noon −3 hours]
 

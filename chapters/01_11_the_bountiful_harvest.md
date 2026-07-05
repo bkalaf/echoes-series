@@ -2,7 +2,7 @@
 
 ![Mark of the Orbs](assets/mark_of_orbs.svg)
 
-**Chapter 11: The Bountiful Harvest**
+**Chapter 12: The Bountiful Price**
 
 The Bountiful Harvest, Tallow-tier, Lower Quarters, City of Luminthalas, State of Ascentia
 

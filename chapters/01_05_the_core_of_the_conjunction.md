@@ -2,9 +2,9 @@
 
 ![Mark of the Orbs](assets/mark_of_orbs.svg)
 
-**Chapter 5: The Core of the Conjunction**
+**Chapter 5: Inside the Core of the Conjunction**
 
-Public Streets, Skyrend Peak
+Public Streets, City of Skyrend Peak, State of Skyrend
 
 Stonewake, 2nd of Hearthwake, Hour of the Sphinx [Noon +4 hours]
 

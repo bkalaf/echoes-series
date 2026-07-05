@@ -1,4 +1,12 @@
-# Interlude: The Choice to Do Nothing
+<div class="eidolon-chapter-heading page-break-before quarter-page" align="center">
+
+![Mark of the Orbs](assets/mark_of_orbs.svg)
+
+**Interlude: On Doing Nothing**
+
+Exact Location and Time Unknown
+
+</div>
 
 Welcome back, Dear Reader. I must apologize for getting involved once again.
 

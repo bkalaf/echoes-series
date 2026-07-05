@@ -2,7 +2,7 @@
 
 ![Mark of the Orbs](assets/mark_of_orbs.svg)
 
-**Chapter 14: The Law Telling Us To Forget**
+**Chapter 15: The Law Telling Us To Forget**
 
 The White Tower, The High Elf Ward, The Scriptoria, City of Luminthalas, State of Ascentia
 

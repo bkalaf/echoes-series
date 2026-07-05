@@ -2,9 +2,9 @@
 
 ![Mark of the Orbs](assets/mark_of_orbs.svg)
 
-**Chapter 4: The Weight of the Beacon**
+**Chapter 4: Reckoning with the Beacon**
 
-Guildmaster Kwame's Office, Meridian Accord Guildhall, Skyrend Peak
+Guildmaster Kwame's Office, Meridian Accord Guildhall, City of Skyrend Peak, State of Skyrend
 
 Stonewake, 2nd of Hearthwake, Hour of the High Market [Noon]
 

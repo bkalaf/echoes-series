@@ -1,4 +1,12 @@
-# Prologue — The Mother Who Started the War
+<div class="eidolon-chapter-heading page-break-before quarter-page" align="center">
+
+![Mark of the Orbs](assets/mark_of_orbs.svg)
+
+**Prologue: How Mother Started the War**
+
+Exact Location and Time Unknown
+
+</div>
 
 Let me tell you a story.
 

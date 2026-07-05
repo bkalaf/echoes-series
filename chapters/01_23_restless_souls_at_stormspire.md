@@ -2,7 +2,7 @@
 
 ![Mark of the Orbs](assets/mark_of_orbs.svg)
 
-**Chapter 23: Restless Souls at Stormspire**
+**Chapter 24: Restless Souls at Stormspire**
 
 Stormspire Aerie, City of Skyrend Peak, State of Skyrend
 

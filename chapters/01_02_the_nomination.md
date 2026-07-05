@@ -2,9 +2,9 @@
 
 ![Mark of the Orbs](assets/mark_of_orbs.svg)
 
-**Chapter 2: The Nomination**
+**Chapter 2: Rites of Nomination**
 
-Gale Exposition Hotel, Skyrend Peak
+Gale Exposition Hotel, City of Skyrend Peak, State of Skyrend
 
 Dravenkar, 1st of Hearthwake, Hour of the Restless Souls [Midnight]
 

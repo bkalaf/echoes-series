@@ -2,9 +2,9 @@
 
 ![Mark of the Orbs](assets/mark_of_orbs.svg)
 
-**Chapter 16: Rapid Acceptance**
+**Chapter 17: Rapid Acceptance**
 
-Back Porch, Van'kareth Estate, City of Aquila Matara
+Back Porch, Van'kareth Estate, City of Aquila Matara, Capital of Erzengel
 
 Eldrane, 6th of Hearthwake, Conjunction Day 4, Hour of the Pack-Runner [Midnight −4 hours]
 

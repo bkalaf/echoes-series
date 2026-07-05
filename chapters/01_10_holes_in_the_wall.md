@@ -2,9 +2,9 @@
 
 ![Mark of the Orbs](assets/mark_of_orbs.svg)
 
-**Chapter 10: Holes in the Wall**
+**Chapter 11: Holes in the Barrier**
 
-Front Avenue, Van'kareth Estate, City of Aquila Matara
+Front Avenue, Van'kareth Estate, City of Aquila Matara, Capital of Erzengel
 
 Aegalor, 3rd of Hearthwake, Conjunction Day 1, Hour of the Chieftain [Noon −1 hour]
 
