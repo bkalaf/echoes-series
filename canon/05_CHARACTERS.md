@@ -10,6 +10,7 @@ Expanded character records live in linked canon files:
 - [Image Upload Register](./15_IMAGE_UPLOAD_REGISTER.md)
 - [Voice and Phonetic Spelling Exceptions](./15_VOICE_AND_PHONETIC_EXCEPTIONS.md)
 - [Character Gesture / Signal Rules](./17_CHARACTER_GESTURE_SIGNALS.md)
+- [Maximilian Bellwether Lore Lock](./18_MAXIMILIAN_BELLWETHER_LORE.md)
 
 ## Naming Reminder
 
@@ -146,7 +147,7 @@ Current authority: **simple silver pendant necklace bearing the Mark of the Orbs
 | Officer Rennick T. Quickreed | Jackrabbit-kin Concord officer / fast relay-runner with a polearm; first appears deliberately unnamed in the `01_04` street relay beat as the swift-footed jackrabbit-kin officer / fast one from the street, then is named in `01_05` as Rennick T. Quickreed. |
 | Sergeant Oren V. Antlerfell | Stag-kin Concord Forensics sergeant / forensic geometrician; appears in the `01_04` pawn-shop / brick scene, runs the brick’s scorch, scatter, and angle analysis, and delivers the impossibly high origin trigonometry. |
 | Verrick B. Knackle | Gnome Ruin operative; Knackle is the surname. |
-| Maximilian T. Bellwether | Satyr head butler / household manager / flexible-portfolio servant of Mae’s estate; nickname **Max**. Mae calls him **Bellwether** when annoyed, **Maximilian** when threatening politeness, and **Max** only when emotionally sincere or strategically urgent. Secret descendant of Geoffrik T. Vayne; keeps the Vayne descent hidden for now. His parents fled Aes Sidhal for an unknown reason shortly before a purge; he was a child and mostly remembers his name being changed. He met Mae in public school after Mae’s adopted mother refused to pay for private school. When Dovren tried to have satyrs deported roughly thirty years ago, Mae manipulated her mother and adopted brother into hiring Max’s parents as servants. Max has been Mae’s undying servant and friend ever since. |
+| Maximilian T. Bellwether | Satyr head butler / household manager / flexible-portfolio servant of Mae’s estate; nickname **Max**. Mae calls him **Bellwether** when annoyed, **Maximilian** when threatening politeness, and **Max** only when emotionally sincere or strategically urgent. Mae’s oldest friend and the one household figure allowed to scold her directly. Secret descendant of Geoffrik T. Vayne and last surviving Vayne-line key; keep Vayne descent hidden in Book 1. His family, Mae, and the Aquila Matara manor are bound by a backfired satyr blood-magic protection spell tied to the old service bells; Book 1 may seed the disabled bells and Max/Mae looks, but must not reveal the blood magic, his mother’s death, the house-protection mechanics, or Geoffrik’s locked book payoff yet. |
 | Tikket Z. Varn | Kobold office-side assistant for Mae. |
 | Royal Astronomer Miriam G. Ben-Or | Human Jewish woman, 58; royal astronomer; plum ink to second knuckle. |
 | High Theologian Choleth S. Sevarian | Concord theologian and spiritual authority. |
@@ -160,7 +161,7 @@ Current authority: **simple silver pendant necklace bearing the Mark of the Orbs
 | Brother Tallowmire G. Reedfen | Frogfolk hedge priest / priest of old water memory in Pollyr Fen; guides the companions to the Drowned Swamp-Church atrocity site and later helps shelter/test them. H status: no H middle initial. |
 | Pippin L. Reedfen | Young frogfolk girl, adopted daughter of Brother Tallowmire G. Reedfen; delivers Ariadne’s Thread to Addie in Pollyr Fen while wearing a mud-covered pink dress and immediately attaching herself to Mae’s legs. Minor but recurring-capable. |
 | Noel Smukk | Pre-Eidolon antagonist / Deceiver figure tied to Nikolai headquarters; coerces José by weaponizing survival seats and is later connected to Hans’s death and Mother’s exile judgment. No middle initial supplied in scoped Book 1 draft text. |
-| Geoffrik T. Vayne | Early Dovren court operator / financial scheme architect tied to the Bountiful Dam, river diversion, and farmland-profiteering scheme in the Second Mirror. Species/kin unclear in scoped Book 1 draft text. |
+| Geoffrik T. Vayne | Early Dovren court operator / financial scheme architect tied to the Bountiful Dam, river diversion, and farmland-profiteering scheme in the Second Mirror. His locked book of secrets can be opened only by a blood relative of the Vayne line; this payoff is delayed. |
 | Roslin L. Hearthstone | Brynn H. Stonevein’s wife and Bountiful Harvest partner in lower Luminthalas; pushes Brynn to accept the Moderator scroll because the neighborhood is at stake. Species/kin unclear in scoped Book 1 draft text. |
 | Brimscale (pet) | Named ground-bound lava lizard / drake mount used as a crowd-clearing asset during the first operational morning; associated with Rhün’s dangerous-creature affinity. Pet marker intentional; not subject to normal formal-name pattern. |
 | Ashwing (pet) | Named flying fire drake used as an aerial crowd-clearing asset during the first operational morning; paired with Brimscale. Pet marker intentional; not subject to normal formal-name pattern. |
