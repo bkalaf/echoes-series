@@ -17,6 +17,8 @@ Formal names in Eidolon normally use `Given Name + paternal middle initial + mat
 
 Middle initials should appear naturally in formal introductions so the **H** pattern is hidden in plain sight.
 
+Do not create full middle names for Book 1 characters. Use middle initials only, except for **Hans Halcyon Hohenzollern**, whose full name is explicitly locked.
+
 ## Core Cast Authority
 
 | Character | Authority Notes |
@@ -150,3 +152,17 @@ Current authority: **simple silver pendant necklace bearing the Mark of the Orbs
 | High Theologian Choleth S. Sevarian | Concord theologian and spiritual authority. |
 | Janice B. Rourke | Human female Schism representative. |
 | Vexira M. Emberlash | Female satyr Ruin representative. |
+| Guildmaster Kwame O. Mensah | Meridian Accord guildmaster; reveals the Moderator document, explains the noon nomination demand, and tells Addie the Meridian Accord has already signed her nomination. Use middle initial only; do not expand the O. Species/kin unclear in scoped Book 1 draft text. H status: no H middle initial. |
+| Jaren V. Quillane | Meridian Accord apprentice scribe in Skyrend Peak; mocks Addie’s disheveled arrival before directing her to Kwame. Minor / single-appearance unless later reused. |
+| Erin P. Callahan | Human press correspondent / “the Australian”; sent by Dovren; first appears inside the Three Hundred Steps secure perimeter and asks palace-flattering questions about High Sovereign generosity; recurs as part of the late Book 1 press pack. H status: no H middle initial. |
+| Tamsin R. Hale | Hyena-kin press correspondent; sent by Ruin; first appears inside the Three Hundred Steps secure perimeter and asks hostile radical-broadsheet questions about Addie manipulating Concord / being drug dependent; recurs as part of the late Book 1 press pack. H status: no H middle initial. |
+| Barnaby T. Threadmere | Elder froglok tailor / Mae household artisan; helps outfit the companions and provides the Ariadne’s Thread folklore bridge through craft, memory, and thread language. |
+| Brother Tallowmire G. Reedfen | Frogfolk hedge priest / priest of old water memory in Pollyr Fen; guides the companions to the Drowned Swamp-Church atrocity site and later helps shelter/test them. H status: no H middle initial. |
+| Pippin L. Reedfen | Young frogfolk girl, adopted daughter of Brother Tallowmire G. Reedfen; delivers Ariadne’s Thread to Addie in Pollyr Fen while wearing a mud-covered pink dress and immediately attaching herself to Mae’s legs. Minor but recurring-capable. |
+| Noel Smukk | Pre-Eidolon antagonist / Deceiver figure tied to Nikolai headquarters; coerces José by weaponizing survival seats and is later connected to Hans’s death and Mother’s exile judgment. No middle initial supplied in scoped Book 1 draft text. |
+| Geoffrik T. Vayne | Early Dovren court operator / financial scheme architect tied to the Bountiful Dam, river diversion, and farmland-profiteering scheme in the Second Mirror. Species/kin unclear in scoped Book 1 draft text. |
+| Roslin L. Hearthstone | Brynn H. Stonevein’s wife and Bountiful Harvest partner in lower Luminthalas; pushes Brynn to accept the Moderator scroll because the neighborhood is at stake. Species/kin unclear in scoped Book 1 draft text. |
+| Brimscale (pet) | Named ground-bound lava lizard / drake mount used as a crowd-clearing asset during the first operational morning; associated with Rhün’s dangerous-creature affinity. Pet marker intentional; not subject to normal formal-name pattern. |
+| Ashwing (pet) | Named flying fire drake used as an aerial crowd-clearing asset during the first operational morning; paired with Brimscale. Pet marker intentional; not subject to normal formal-name pattern. |
+| Senior Reference Scholar Isolde V. Caladreth | Elder High Elven White Tower reference scholar / desk matron in Luminthalas; sharp, institutionally dangerous, and keeper of suppressed founding memory. Reveals the old law / pact logic around forgetting and should recur later. |
+| Naree S. Channarong | Human Thai-coded manager of The Ribbit Hole in Pollyr Fen’s Red Thread District; initially mistaken for the owner. Practical, hospitable, politically alert, and unhappy with Schism. During Carrio’s buyout of The Ribbit Hole, Carrio quietly recruits her as a Ruin agent / contact; Addie notices their private strategizing and files it in her back room for later. |
