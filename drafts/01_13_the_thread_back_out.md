@@ -335,8 +335,60 @@ Preserve:
 - Mae and Max sharing a subtle unexplained look at moving-maze / way-back-out logic;
 - the sword and red thread;
 - the lesson that killing the monster is useless without a way back;
-- Addie asking whether Barnaby’s people know the story;
+- Addie asking whether Barnaby’s people know this story;
 - Barnaby identifying it as tailor culture;
 - Addie thanking him for the clothes;
 - Barnaby saying Addie is becoming a close second to Mae;
-- Barnaby muttering about Brynn’s measurements/materials as he exits.
+- Barnaby muttering about Brynn’s measurements/materials as he exits;
+- Carrio asking if the story is the answer;
+- Gregory’s almost-correct warning;
+- Brickett/Carrio/Yurislav/Matthieu saying the riddle still reads wrong;
+- Brynn asking for the riddle;
+- Brynn adding one comma;
+- the corrected reading: **That makes the horned, dead charge.**;
+- Mae closing with the sense that they know where to begin.
+
+## Allowed Changes
+
+- Expand dialogue into narrative prose.
+- Smooth the script-like cadence.
+- Keep Barnaby’s nervousness but make his storytelling warmer and more embodied.
+- Let the room react in layers rather than with repeated “silence.”
+- Make Brynn’s grammar/pause expertise feel earned through lived mishearing, not random cleverness.
+- Keep the comic beats light without undercutting the reveal.
+- Add the Mae/Max look as a seed only if it remains subtle and unexplained.
+
+## Not Allowed Changes
+
+- Do not make Barnaby a perfect mythologist.
+- Do not remove the Ancient Greece correction.
+- Do not make Gregory solve the comma before Brynn.
+- Do not remove Addie thanking Barnaby for the clothes.
+- Do not remove Barnaby’s loyalty beat toward Addie.
+- Do not change the riddle words.
+- Do not make the answer feel solved before Brynn’s comma.
+- Do not explain the Bellwether house magic, bells, Vayne descent, or Max family history here.
+
+---
+
+# Relationship To Next Chapter
+
+The next chapter should use the comma solution and Ariadne’s Thread logic to decide the next mission route.
+
+Expected next functions:
+
+- interpret **horned, dead charge**;
+- connect the horned clue to the relevant people / city / corpse / history / Minotaur analogue;
+- decide how Ariadne’s Thread can be acquired or identified;
+- convert Barnaby’s cultural story into operational logic;
+- move from manor-room puzzle solving back toward field action under green-phase pressure.
+
+---
+
+# Open Questions / Follow-Up Flags
+
+1. Confirm final title: **The Thread Back Out** or another option.
+2. Barnaby is currently locked as **Barnaby T. Threadmere**, froglok tailor / household artisan.
+3. Confirm whether Roslin L. Hearthstone is absent from this room.
+4. Decide how strong the “Ancient Greece” wrongness should feel in final prose.
+5. Decide whether Brynn’s corrected reading immediately points to a known city/site or whether that is the next chapter’s discovery.
