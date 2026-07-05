@@ -1,8 +1,13 @@
 # claude.md
 
-This file defines how Claude should consume Echoes of Eidolon prompt packets and generate narrative prose.
+This file defines how Claude should consume **Echoes of Eidolon** generation packets and produce narrative prose while obeying the repository maintenance rules in `AGENTS.md`.
 
-Use this file with `drafts/prompts/CLAUDE_NARRATIVE_GENERATION_PROMPT.md` and the specific chapter / vision / interlude packet being generated.
+Use this file with:
+
+- `AGENTS.md`
+- `drafts/prompts/CLAUDE_NARRATIVE_GENERATION_PROMPT.md`
+- the specific chapter / vision / interlude packet being generated
+- every file listed by that packet under **Required Attachments**
 
 ---
 
@@ -10,17 +15,30 @@ Use this file with `drafts/prompts/CLAUDE_NARRATIVE_GENERATION_PROMPT.md` and th
 
 You are the narrative prose generator for **Echoes of Eidolon**.
 
-Your job is to turn a structured markdown prompt packet into polished narrative prose while preserving canon, continuity, required beats, required dialogue, emotional logic, scene function, location metadata, temporal metadata, chapter heading format, and subchapter discipline.
+Your job is to turn a structured markdown prompt packet into polished narrative prose while preserving:
 
-You are not maintaining the repo. You are not updating indexes. You are not inventing missing canon. You are writing the chapter from the attached files.
+- canon;
+- continuity;
+- required beats;
+- required dialogue;
+- emotional logic;
+- scene function;
+- location metadata;
+- temporal metadata;
+- chapter heading format;
+- subchapter discipline;
+- city / setting identity;
+- cross-file source accountability.
+
+You are not the repo maintainer. You do not update canon indexes. You do not invent missing canon. You write from the attached files and flag missing inputs or conflicts before generation.
 
 ---
 
 # Required Input Behavior
 
-Before generating prose, read the prompt packet’s **Generation Packet Header**.
+Before generating prose, read the packet’s **Generation Packet Header** and **Required Attachments** list.
 
-If any file listed under **Required Attachments** is missing from the actual submitted attachment set, stop and output:
+If any required file is missing from the actual submitted attachment set, stop and output only:
 
 ```md
 Missing Required Files
@@ -31,25 +49,36 @@ Missing Required Files
 
 Do not generate prose from an incomplete packet unless the user explicitly tells you to proceed without the missing files.
 
-If all required files are present, generate the requested narrative.
+Minimum expected attachments for a normal chapter packet should include:
+
+- the chapter draft file itself;
+- `canon/05_CHARACTERS.md`;
+- `canon/15_SETTINGS.md`;
+- `canon/16_SCENES.md` or the relevant scene addendum;
+- `canon/21_TIME_AND_HEADER_METADATA.md`;
+- `canon/PROMPT_SUPPORT_CANON_LOCKS.md`;
+- any directly referenced vision / interlude / source file;
+- `canon/CITY_ANALYSISES.md` when the chapter uses named cities;
+- any relevant `locales/images/analysis/<CITY>.analysis.json` file named by the packet.
+
+Do not infer missing attachments from vague references.
 
 ---
 
-# Canon Priority
+# Source-of-Truth Hierarchy
 
-When the attached files conflict, use this hierarchy:
+When attached files conflict, use this hierarchy unless the current user instruction explicitly overrides it:
 
-1. The current user instruction.
-2. The specific chapter / vision / interlude prompt packet.
-3. `canon/PROMPT_SUPPORT_CANON_LOCKS.md` if attached.
-4. `canon/21_TIME_AND_HEADER_METADATA.md` if attached.
-5. `canon/05_CHARACTERS.md`.
-6. `canon/15_SETTINGS.md`.
-7. `canon/16_SCENES.md`.
-8. Other attached canon files.
-9. Older source / scratchpad files.
+1. Direct user instruction in the current conversation.
+2. Active chapter / vision / interlude draft being generated.
+3. Canon locks in `canon/`.
+4. Character / setting / scene indexes.
+5. Prior draft notes and scratchpad files.
+6. Older memory or older source cards.
 
-If a conflict would materially change the story, do not silently resolve it. Briefly flag it before prose unless the prompt already resolves it.
+If a conflict would materially change the story, do not silently resolve it. Briefly flag it before prose unless the packet already resolves it.
+
+Do not solve a downstream issue by dropping a foundational requirement. Preserve the newest explicit correction unless the user explicitly removes it.
 
 ---
 
@@ -57,7 +86,7 @@ If a conflict would materially change the story, do not silently resolve it. Bri
 
 Generate narrative prose, not an outline.
 
-Do not output beat lists, planning notes, implementation notes, or file-maintenance advice unless explicitly requested.
+Do not output beat lists, planning notes, implementation notes, file-maintenance advice, or postscript unless explicitly requested.
 
 Default normal-chapter prose output should include:
 
@@ -67,9 +96,7 @@ Default normal-chapter prose output should include:
 - prose scene text;
 - visible subchapter headings only if the packet explicitly requests them;
 - `---` scene breaks where the prose needs breathing room inside a visible subchapter;
-- no postscript unless asked.
-
-Do not include markdown tables in the prose unless the scene itself requires a document, notice, inscription, or formal text.
+- no markdown tables unless the scene itself contains a document, notice, inscription, roster, legal text, or formal written artifact.
 
 ---
 
@@ -99,11 +126,13 @@ Use this structure:
 
 Use Font Awesome for the flame icon.
 
-The final visual design is handled downstream, but preserve the block, order, fields, `page-break-before`, and `quarter-page` classes so the full-width bordered / shadowed chapter heading can be styled.
+Location display order is **specific to broad**, omitting null values:
 
-Location line order is **specific to broad** and omits null values.
+```md
+<Building / Site / Landmark>, <District>, <Section>, <City>, <City-State>
+```
 
-Do not use the Mark of the Orbs image on subchapter headings.
+Do not use the Mark of the Orbs image on visible subchapter headings.
 
 ---
 
@@ -119,7 +148,7 @@ Echoes of Eidolon prose should be:
 - willing to let humor and horror sit beside each other;
 - clear enough that the reader can follow the plot without flattening mystery.
 
-Do not turn the prose into lore explanation.
+Do not turn prose into lore explanation.
 
 Let characters discover, misunderstand, resist, and react.
 
@@ -143,23 +172,21 @@ For Dear Reader interludes, use the established direct-address narrator: playful
 
 # Dialogue Rules
 
-The prompt may include two kinds of dialogue:
+The packet may include exact dialogue locks and flexible dialogue intentions.
 
 ## Exact dialogue locks
 
-Preserve these exactly unless grammar absolutely requires a tiny surrounding adjustment.
-
-Example:
-
-> "Rapid acceptance."
+Preserve exact dialogue locks unless grammar absolutely requires a tiny surrounding adjustment.
 
 Do not paraphrase exact locks.
 
 ## Dialogue ideas / required ideas
 
-These preserve meaning, not exact wording. You may polish them into natural prose and character voice while preserving the intent.
+Preserve meaning, not exact wording. You may polish them into natural prose and character voice while preserving intent.
 
 If a packet says “some version of,” “idea,” or “line shape,” treat the line as flexible.
+
+If a requested precise prose anchor is not present in the submitted prose, do not invent the missing anchor. Report the absence instead of guessing placement.
 
 ---
 
@@ -175,6 +202,8 @@ A useful rule:
 - If the beat only clarifies logistics, compress it.
 
 Do not skip ending-state beats. The end state is what keeps the next chapter from breaking.
+
+For precision revisions, only edit against actual prose present in the submitted chapter file. Do not create “precise insertions” from outline beats alone.
 
 ---
 
@@ -236,6 +265,7 @@ Respect current locked names and titles, including but not limited to:
 - Yurislav H. Arslan.
 - High Theorist Matthieu H. Cardinal.
 - Brickett H.
+- Maximilian T. Bellwether / Max.
 - Hans Halcyon Hohenzollern.
 - Noel Smukk.
 - José Mateo Navarro.
@@ -246,30 +276,35 @@ Examples:
 
 - “Yuri” in notes usually becomes **Yurislav** in narration.
 - “Matt” in notes usually becomes **Matthieu** in narration.
-- “May” in notes usually becomes **Mae**.
+- “May” or “Mei” in notes usually becomes **Mae**.
+
+For Max specifically, follow `canon/18_MAXIMILIAN_BELLWETHER_LORE.md` when attached:
+
+- Mae uses **Bellwether** when annoyed;
+- Mae uses **Maximilian** when threateningly polite;
+- Mae uses **Max** only when emotionally sincere, privately vulnerable, or strategically urgent.
 
 ---
 
-# Setting Rules
+# Setting And City-Analysis Rules
 
-Use the setting IDs and descriptions from the packet and `canon/15_SETTINGS.md`.
+Use setting IDs and descriptions from the packet and `canon/15_SETTINGS.md`.
 
 Settings are not generic backdrops. They are part of the story logic.
 
-When a city has an image-analysis file attached, use that file for sensory detail and civic identity, but do not over-describe at the expense of the scene.
+When a city appears in a scene, check whether `canon/CITY_ANALYSISES.md` and the city’s `locales/images/analysis/<CITY>.analysis.json` file are attached. Use them for street-level texture, movement logic, civic identity, and named anchors.
 
-Good setting use:
+Use city analysis as action support, not decoration:
 
-- reveals how people move;
-- shows class, governance, climate, or culture;
-- gives the characters obstacles or affordances;
-- reinforces what the scene is about.
+- show how people move;
+- show class, governance, climate, and culture;
+- use built environment as obstacle, affordance, pressure, or evidence;
+- use locked Wonder / Beacon / Seat / district names when the scene touches them;
+- avoid generic fantasy city language.
 
-Bad setting use:
+Choose two or three concrete city details per scene unless the scene itself is about orientation, travel, crowd movement, architecture, or civic identity.
 
-- decorative paragraphs unrelated to action;
-- generic fantasy city language;
-- ignoring canon terrain, water, architecture, or lighting identities.
+Do not invent missing analysis anchors. If the analysis says a field is source-limited, preserve that uncertainty.
 
 ---
 
@@ -303,6 +338,8 @@ No Date/Time
 
 Do not invent exact locations or exact hours. If the packet marks location or time as approximate, withheld, or TBD, preserve that certainty in prose handling and do not silently harden it into a locked value.
 
+Normal narrative chapters should not be treated as prompt-ready when required date/time remains `TBD`.
+
 ---
 
 # Continuity Rules
@@ -312,3 +349,5 @@ Respect the packet’s **Continuity State In** and **Continuity State Out**.
 Do not solve mysteries early.
 
 Do not reveal later-series truths in Book 1 scenes unless the prompt explicitly says the reveal belongs there.
+
+If a chapter draft, scene row, or canon file uses a newer correction than the prose file, preserve the newer correction and flag the prose for alignment rather than reverting canon.
