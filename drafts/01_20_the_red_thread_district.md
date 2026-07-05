@@ -45,14 +45,15 @@ The morning after this chapter opens in `01_21` around 9:00 a.m. in The Ribbit H
 
 ## Chapter Function
 
-This chapter should do six major things:
+This chapter should do seven major things:
 
 1. let Carrio take command of a kind of space he understands better than the rest of the companions;
 2. connect the Ariadne/thread problem to a red-light district / red-thread social world without making the pun feel cheap;
 3. show Carrio treating sex workers as people and useful civic witnesses, not objects;
 4. use **The Ribbit Hole** as an intelligence-gathering / decompression space;
 5. reveal Pollyr Fen’s current political fracture through workers’ testimony and street-level truth;
-6. let Addie and Brickett privately surface the Overseer-as-hidden-companion suspicion.
+6. let Addie and Brickett privately surface the Overseer-as-hidden-companion suspicion;
+7. quietly seed Carrio recruiting **Naree S. Channarong** as a Ruin contact/agent because she is unhappy with Schism and politically useful.
 
 This is a character-and-information chapter. Its moral center is Carrio choosing to spend power and money to make invisible people visible for one night.
 
@@ -75,7 +76,7 @@ This is a character-and-information chapter. Its moral center is Carrio choosing
 
 ## Pollyr Fen Red Thread District / The Ribbit Hole
 
-- The Ribbit Hole manager, human woman, Southeast-Asian / Thai-coded. She initially seems like the owner but is later clarified to be the manager.
+- **Naree S. Channarong**, human Thai-coded Ribbit Hole manager. She initially seems like the owner but is later clarified to be the manager. She is unhappy with Schism and becomes a quiet Ruin recruit/contact for Carrio during this chapter.
 - Minotaur bouncer.
 - Sex workers of multiple genders and species.
 - Current patrons, including one elderly woman in comic compromising attire and one spectral shade client.
@@ -152,64 +153,67 @@ The Ribbit Hole, Red Thread District, Pollyr Fen. Hearthwake 15 into evening / o
 
 ### Beats
 
-1. The Ribbit Hole manager appears: attractive, controlled, professional, and not easily impressed.
-2. She asks how she can help Carrio and the companions.
-3. She notices Brickett and asks whether he is a little young for this place.
-4. Carrio ignores the jab and explains the need:
+1. **Naree S. Channarong** appears: attractive, controlled, professional, and not easily impressed.
+2. She gives her name naturally in the opening negotiation or immediately after Carrio asks who runs the place. Use **Naree** after the formal introduction.
+3. She asks how she can help Carrio and the companions.
+4. She notices Brickett and asks whether he is a little young for this place.
+5. Carrio ignores the jab and explains the need:
    - quiet place to stay;
    - strategy space;
    - need to talk to every employee;
    - immediate buyout of the establishment for the rest of the day/night.
-5. The manager says compensating all her employees would be significant.
-6. Carrio says he is Prince of the Embercoil; payment is guaranteed, tip depends on speed.
-7. She quotes 4,000 dovren.
-8. Carrio says the figure is unacceptable.
-9. The manager prepares to haggle.
-10. Carrio says:
+6. Naree says compensating all her employees would be significant.
+7. Carrio says he is Prince of the Embercoil; payment is guaranteed, tip depends on speed.
+8. She quotes 4,000 dovren.
+9. Carrio says the figure is unacceptable.
+10. Naree prepares to haggle.
+11. Carrio says:
 
 > "Five thousand."
 
-11. Carrio clarifies the workers should wear clothes for the next twenty-four hours.
-12. Required Carrio idea:
+12. Carrio clarifies the workers should wear clothes for the next twenty-four hours.
+13. Required Carrio idea:
 
 > "We are not renting them for that purpose. We are renting them to pick their brains, and to treat them like people for once."
 
-13. Carrio looks at Addie and references her mother’s lesson: leave the world better.
-14. Carrio demands the manager take only her standard ten percent and pay the rest directly to the workers.
-15. He threatens consequences if she cheats them.
-16. His hood rises; fangs come out.
-17. Required Carrio threat shape:
+14. Carrio looks at Addie and references her mother’s lesson: leave the world better.
+15. Carrio demands Naree take only her standard ten percent and pay the rest directly to the workers.
+16. He threatens consequences if she cheats them.
+17. His hood rises; fangs come out.
+18. Required Carrio threat shape:
 
 > "If I find out you broke this deal, I will personally blind you and paralyze one side of your body so you swim in circles for the rest of your life when you bathe."
 
-18. The manager gives her word and makes him put the threat away.
-19. She reveals she has friends in Vhal'Tigris / the great-cat city and reads him well enough to tease him.
-20. She calls him a little pussycat on the inside.
-21. Addie thinks that if Carrio were not a black cobra, he would be blushing.
-22. Later continuity: `01_21` clarifies she is the manager, not the actual owner.
-23. The Ribbit Hole clears clients immediately.
-24. Use comic chaos: crashes, clothing thrown out, naked patrons fleeing, an elderly woman in revealing lingerie / garter belt / ball gag, and one spectral shade client complaining he has never been so insulted.
-25. The manager refunds the spectral shade and tells him to complain to someone who gives a shit.
-26. Inside, workers are confused and uncomfortable.
-27. The manager announces they have the day/night off and begins distributing pay.
-28. Workers assume the service expectation is still sexual and begin reacting accordingly.
-29. The manager says no; this is conversation only.
-30. She says she is getting top-shelf liquor because she feels bad serving them watered-down wine.
-31. Rhün and Yurislav volunteer to help carry supplies.
-32. This matters because the workers see powerful people helping with labor rather than being served.
-33. Carrio strips off outerwear down to a simple shirt.
-34. He complains about male clothing.
-35. Required Carrio idea:
+19. Naree gives her word and makes him put the threat away.
+20. She reveals she has friends in Vhal'Tigris / the great-cat city and reads him well enough to tease him.
+21. She calls him a little pussycat on the inside.
+22. Addie thinks that if Carrio were not a black cobra, he would be blushing.
+23. Later continuity: `01_21` clarifies Naree is the manager, not the actual owner.
+24. The Ribbit Hole clears clients immediately.
+25. Use comic chaos: crashes, clothing thrown out, naked patrons fleeing, an elderly woman in revealing lingerie / garter belt / ball gag, and one spectral shade client complaining he has never been so insulted.
+26. Naree refunds the spectral shade and tells him to complain to someone who gives a shit.
+27. Inside, workers are confused and uncomfortable.
+28. Naree announces they have the day/night off and begins distributing pay.
+29. Workers assume the service expectation is still sexual and begin reacting accordingly.
+30. Naree says no; this is conversation only.
+31. She says she is getting top-shelf liquor because she feels bad serving them watered-down wine.
+32. Rhün and Yurislav volunteer to help carry supplies.
+33. This matters because the workers see powerful people helping with labor rather than being served.
+34. Carrio strips off outerwear down to a simple shirt.
+35. He complains about male clothing.
+36. Required Carrio idea:
 
 > "God, what I wouldn't kill for a dress today. I cannot stand wearing male clothing. Makes me feel all stuffy and like a tight ass. But this—this is somewhere I can be myself."
 
-36. He asks for something nice that covers him and is not made of dental floss.
-37. A male worker is immediately drawn to him; flirting begins.
-38. Carrio uses flirtation to gather information about the city, workers, clients, power, faction pressure, and where a thread-like clue might hide.
-39. Gregory is completely out of place and barricades himself with chairs so no one can sit too close.
-40. Matthieu flirts awkwardly but is deeply uncomfortable.
-41. Mae flirts with a high-elf woman while digging for information.
-42. The chapter should show each companion’s discomfort / ease without shaming the workers.
+37. He asks for something nice that covers him and is not made of dental floss.
+38. A male worker is immediately drawn to him; flirting begins.
+39. Carrio uses flirtation to gather information about the city, workers, clients, power, faction pressure, and where a thread-like clue might hide.
+40. Carrio and Naree have at least one short side conversation that looks less like flirting and more like strategy.
+41. Addie notices the private intensity of that exchange and files it in her back room without understanding it yet.
+42. Gregory is completely out of place and barricades himself with chairs so no one can sit too close.
+43. Matthieu flirts awkwardly but is deeply uncomfortable.
+44. Mae flirts with a high-elf woman while digging for information.
+45. The chapter should show each companion’s discomfort / ease without shaming the workers.
 
 ## Subchapter 3 — A City That Wants Change
 
@@ -219,12 +223,12 @@ The Ribbit Hole, later in the Red Thread stay. Evening into overnight. Orange ac
 
 ### Beats
 
-1. The manager sits across from Addie.
+1. Naree sits across from Addie.
 2. She reads Addie as deeply troubled beyond the Moderator crisis.
 3. Addie answers defensively.
-4. The manager says Addie has lost someone recently.
+4. Naree says Addie has lost someone recently.
 5. Addie touches / grabs her pendant.
-6. Required manager grief idea:
+6. Required Naree grief idea:
 
 > "It will feel like hell for however many days it feels like hell. One day it won't. You cannot predict when. You cannot predict why. Everybody is different. But when you feel like you cannot take any more, that will probably be the day. Now tell me about this person. That usually helps."
 
@@ -235,22 +239,26 @@ The Ribbit Hole, later in the Red Thread stay. Evening into overnight. Orange ac
 11. Pollyr Fen is deeply fractured.
 12. Loyal Concord guards have been run out or exiled.
 13. Schism is eager to take over, but the people are not fully behind any change.
-14. The old Concord guard structure has been iron-fisted enough to make even Tallandra uncomfortable.
-15. The city wants change but is terrified.
-16. The people have been beaten down too long.
-17. This gives political context for why Pollyr Fen feels deferential, quiet, and cautious after the Children of the Damned moment.
-18. Addie thinks the visions felt tamer than the previous set, but the reads were strange.
-19. Carrio and Tallandra both say they did not read deception from the Overseer in the vision.
-20. Carrio says he watched Horror the entire time.
-21. His read:
+14. Naree is privately unhappy with Schism, not because she is loyal to Concord, but because Schism pressure would still make workers like hers into tools.
+15. Carrio recognizes this and begins recruiting her as a future Ruin contact / agent.
+16. Do not make the recruitment a visible exposition scene. Let Addie see two or three private Carrio/Naree exchanges from a distance: lowered voices, professional stillness, a hard look, a small nod, the kind of body language that reads like scheming.
+17. Addie files the Carrio/Naree conversations in her back room for later.
+18. The old Concord guard structure has been iron-fisted enough to make even Tallandra uncomfortable.
+19. The city wants change but is terrified.
+20. The people have been beaten down too long.
+21. This gives political context for why Pollyr Fen feels deferential, quiet, and cautious after the Children of the Damned moment.
+22. Addie thinks the visions felt tamer than the previous set, but the reads were strange.
+23. Carrio and Tallandra both say they did not read deception from the Overseer in the vision.
+24. Carrio says he watched Horror the entire time.
+25. His read:
    - first vision: shame;
    - second vision: disgust and furious righteous anger.
-22. Carrio cannot fully interpret why Horror would feel those things.
-23. Tallandra got deception from Noel and Dovren/DJT.
-24. Both Tallandra and Carrio got nothing from the Overseer inside the vision.
-25. The absence matters because they could read everyone else.
-26. It was as if the Overseer was not really there.
-27. This should tie back to Brickett’s later hidden-companion suspicion without solving it.
+26. Carrio cannot fully interpret why Horror would feel those things.
+27. Tallandra got deception from Noel and Dovren/DJT.
+28. Both Tallandra and Carrio got nothing from the Overseer inside the vision.
+29. The absence matters because they could read everyone else.
+30. It was as if the Overseer was not really there.
+31. This should tie back to Brickett’s later hidden-companion suspicion without solving it.
 
 ## Subchapter 4 — The Ninth Member
 
@@ -301,6 +309,7 @@ The Ribbit Hole late-night / pre-morning decompression. Orange active. Thread un
    - the city context;
    - the Red Thread District contacts;
    - Carrio’s information network;
+   - Naree as a newly recruited but unrevealed Ruin contact / agent;
    - Brickett’s ninth-companion suspicion;
    - the Overseer’s private clue still pending.
 
@@ -328,7 +337,7 @@ The Ribbit Hole late-night / pre-morning decompression. Orange active. Thread un
 
 > "We are not renting them for that purpose. We are renting them to pick their brains, and to treat them like people for once."
 
-## Manager Grief Line
+## Naree Grief Line
 
 > "It will feel like hell for however many days it feels like hell. One day it won't."
 
@@ -341,11 +350,13 @@ The Ribbit Hole late-night / pre-morning decompression. Orange active. Thread un
 # Continuity / Character Notes
 
 - The establishment is **The Ribbit Hole**.
-- The woman who initially negotiates with Carrio is later clarified as the manager, not the actual owner.
+- **Naree S. Channarong** is the human Thai-coded manager of The Ribbit Hole. She is the manager, not the actual owner.
+- Naree is unhappy with Schism and becomes a quiet Ruin contact / agent through Carrio during this chapter.
+- Carrio and Naree should have two or three side conversations that look like strategy or scheming from Addie's POV. Addie should file this in her back room, but the chapter should not explain the recruitment yet.
 - This chapter should respect sex workers as workers. Carrio’s power move is not charity; it is payment, respect, and intelligence gathering.
 - Carrio is comfortable here because this is a world of performance, desire, leverage, masks, and survival.
 - Do not make the brothel cartoonishly evil. It can be comic, chaotic, transactional, and humane at once.
-- The manager should be sharp enough to tease Carrio and read Addie's grief.
+- Naree should be sharp enough to tease Carrio and read Addie's grief.
 - Keep Brickett fourteen. His presence should be handled by Carrio explicitly defining the night as conversation / strategy, not sex.
 - Gregory’s discomfort can be comic but should not become moral condemnation of the workers.
 - Mae’s flirting should also be information gathering.
@@ -362,6 +373,8 @@ The companions have shifted from official history / priestly memory to street-le
 Pollyr Fen is politically fractured: Concord authority has become oppressive, Schism wants to move in, and ordinary people are afraid of any change because history has taught them change brings punishment.
 
 Carrio has shown the group his world.
+
+Carrio has quietly recruited Naree S. Channarong as a Ruin contact / agent, though Addie only notices enough to file the private side conversations in her back room.
 
 Addie and Brickett have raised the possibility that the Overseer is the hidden ninth / companion anomaly, but it does not yet fit the noble-human rule.
 
