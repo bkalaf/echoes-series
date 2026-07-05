@@ -34,7 +34,7 @@ Night of the purple beacon activation, after the Royal Astronomer’s Tower sequ
 - Streets between Portalport and the Gale Exposition.
 - Room 314, the Gale Exposition hotel.
 - Meridian Accord Guildhall.
-- Guildmaster Kwame Odion Mensah’s office.
+- Guildmaster Kwame O. Mensah’s office.
 
 ## Cast Present
 ### Subchapter 1 — The Gale Exposition
@@ -47,8 +47,8 @@ Night of the purple beacon activation, after the Royal Astronomer’s Tower sequ
 
 ### Subchapter 2 — With Kwame
 - Addie Sonntag.
-- Jaren, apprentice scribe.
-- Guildmaster Kwame Odion Mensah.
+- Jaren V. Quillane, apprentice scribe.
+- Guildmaster Kwame O. Mensah.
 
 ## Required Objects / Systems
 - Addie’s leather satchel.
@@ -118,7 +118,7 @@ Introduce Addie as a tired, brilliant, irritated, underpaid Conjunction scholar 
 19. In the bathroom mirror, Addie sees exhaustion and unravelling braids.
 20. Addie touches / removes her simple silver pendant necklace.
 21. The pendant is described as old silver alloy with nested orb/ring geometry, more like a data map or lunar machine than ordinary jewelry.
-22. Addie remembers searching every codex for its origin and finding nothing.
+22. Addie checks the pendant against her memory / math habits, not as a magical girl transformation object.
 23. The pendant’s emotional meaning overtakes the mystery: it belonged to her mother and survived estate bureaucracy.
 24. Addie remembers the scent of Nile mud and dried jasmine associated with her mother.
 25. The mirror shows the silver-blonde streaks in her hair that resist dye and magic.
@@ -218,31 +218,3 @@ Addie is holding the nomination scroll container and knows the Meridian Accord h
 - Private exhaustion and grief.
 - Qasr Siroth origin remains underneath the Skyrend work-travel frame.
 - Attempted self-control through pendant, hair pigment, and routine.
-- Hair-dye interruption leaves Addie half-red / half-blue and publicly unready.
-- Shock at the purple eye-mail dispatch and beacon.
-- Institutional urgency.
-- Fear from Kwame, which punctures Addie’s cynicism.
-- Legal dread as Facilitator becomes Moderator.
-- Refusal.
-- Forced selection.
-- Final loss of observer status.
-
-## Continuity Notes
-- Addie is from **Qasr Siroth**.
-- Skyrend Peak is her Gale Exposition / Meridian Accord work-travel location in this chapter, not her home city.
-- Addie’s disproven-conjunction count is **twenty-five**; she is **not yet thirty** here because she is **twenty-nine** in Book 1.
-- Addie’s simple silver pendant necklace must visually match Brickett’s bag clasp later.
-- The Mark of the Orbs should remain unexplained here.
-- Addie’s mother grief should stay quiet but present.
-- Addie’s hair-color habit is her control ritual and should recur.
-- Eye-mail should be treated as “for your eyes only” recipient-keyed delivery.
-- Addie’s anti-child / anti-propagation thought sets up later tension with Brickett without making Addie cruel.
-- Kwame should feel frightened and nurturing, not manipulative or cruel.
-- Addie must not volunteer. The nomination has already happened before she can consent.
-- “Moderator” should feel legally and metaphysically heavier than “Facilitator.”
-
-## Final Image
-Addie stands in Kwame’s office with the wooden scroll container in her hands while violet light from Stormspire cuts across the room, her hair still visibly half-finished, realizing she has been pulled from observer to participant.
-
-## Next Chapter Handoff
-The next manuscript unit is `The Witnesses`, a metaphysical scene between the Witnesses and the Overseer. It should not be folded into this chapter because it changes setting, POV layer, and narrative function.
